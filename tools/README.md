@@ -51,11 +51,9 @@ If a "tool" grows into something with tests, a manifest, and external users — 
 
 ## Available tools
 
-*(none yet — populate as tools are added)*
-
 | Tool | What it does | How to invoke |
 |:---|:---|:---|
-| — | — | — |
+| [`scripts/validate-entries.py`](scripts/validate-entries.py) | Walks `atlases/`, validates every entry's YAML frontmatter against its schema, resolves cross-link targets, checks required body sections, and warns on missing inverse back-links. Consumes `schemas/*.schema.json`. | **Recommended:** `uv run --with pyyaml --with jsonschema --with referencing python3 tools/scripts/validate-entries.py` (no install needed). Or with pip-installed deps: `python3 tools/scripts/validate-entries.py`. Add `--strict` for CI, `--json` for machine-readable output. |
 
 ---
 

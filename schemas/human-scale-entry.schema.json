@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://human-engineering.org/schemas/human-scale-entry.schema.json",
+  "title": "HumanScaleEntry",
+  "description": "YAML frontmatter contract for every Human Atlas entry. See human-scale-entry.schema.md for prose, examples, and body section requirements.",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "name",
+    "atlas",
+    "scale",
+    "status",
+    "last_reviewed",
+    "summary",
+    "sources"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "human-scale-entry/v1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "atlas": {
+      "const": "01-human"
+    },
+    "scale": {
+      "type": "string",
+      "enum": [
+        "01-subatomic",
+        "02-atomic",
+        "03-molecular",
+        "04-cellular",
+        "05-tissue",
+        "06-organ",
+        "07-system",
+        "08-whole-body"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["stub", "draft", "reviewed", "expert-validated"]
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 280
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "contributors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "citation.schema.json" }
+    },
+    "cross_links": {
+      "type": "array",
+      "items": { "$ref": "cross-link.schema.json" }
+    },
+    "taxonomy": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "uniprot": { "type": "string" },
+        "gene_symbol": { "type": "string" },
+        "ec_number": { "type": "string" },
+        "pdb_examples": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "cell_ontology": { "type": "string" },
+        "lineage": { "type": "string" },
+        "uberon": { "type": "string" },
+        "fma": { "type": "string" }
+      }
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "path", "license"],
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": ["image", "video", "3d-model", "audio"]
+          },
+          "path": { "type": "string" },
+          "caption": { "type": "string" },
+          "license": { "type": "string" },
+          "source": { "type": "string" }
+        }
+      }
+    },
+    "simulator": {
+      "type": "string",
+      "description": "Relative path from repo root to the entry's interactive simulator HTML page."
+    }
+  }
+}

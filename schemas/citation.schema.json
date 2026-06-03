@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://human-engineering.org/schemas/citation.schema.json",
+  "title": "Citation",
+  "description": "A single bibliographic source. See citation.schema.md for prose, examples, and rationale.",
+  "type": "object",
+  "required": ["id", "type", "cite"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Locally unique kebab-case slug within the entry's sources array."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "textbook",
+        "peer-reviewed",
+        "preprint",
+        "clinical-guideline",
+        "regulatory",
+        "database",
+        "consortium",
+        "oral-tradition"
+      ]
+    },
+    "cite": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Full human-readable citation."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "doi": {
+      "type": "string",
+      "pattern": "^10\\.\\S+/\\S+$",
+      "description": "Bare DOI, no https://doi.org/ prefix."
+    },
+    "pmid": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    },
+    "accessed": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO YYYY-MM-DD when the source was last verified."
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "type": { "enum": ["peer-reviewed", "preprint"] } }
+      },
+      "then": {
+        "anyOf": [
+          { "required": ["doi"] },
+          { "required": ["pmid"] },
+          { "required": ["url"] }
+        ]
+      }
+    },
+    {
+      "if": {
+        "not": {
+          "anyOf": [
+            { "required": ["doi"] },
+            { "required": ["pmid"] }
+          ]
+        }
+      },
+      "then": {
+        "required": ["accessed"]
+      }
+    }
+  ]
+}

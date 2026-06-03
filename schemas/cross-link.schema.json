@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://human-engineering.org/schemas/cross-link.schema.json",
+  "title": "CrossLink",
+  "description": "A single edge in the project knowledge graph. See cross-link.schema.md for prose, controlled vocabulary, and inverse rules.",
+  "type": "object",
+  "required": ["target", "relation"],
+  "additionalProperties": false,
+  "properties": {
+    "target": {
+      "type": "string",
+      "pattern": "^(01-human|02-pathogen|03-medicine)/[a-z0-9][a-z0-9-/]*[a-z0-9]$",
+      "description": "Path relative to atlases/, no extension. Format: <atlas>/<...>/<entry-id>."
+    },
+    "relation": {
+      "type": "string",
+      "enum": [
+        "contains",
+        "part-of",
+        "composed-of",
+        "connects-to",
+        "regulates",
+        "secretes",
+        "expresses",
+        "innervated-by",
+        "vascularized-by",
+        "infected-by",
+        "damaged-by",
+        "defends-against",
+        "target-of",
+        "modulated-by",
+        "infects",
+        "damages",
+        "evades",
+        "treated-by",
+        "prevented-by",
+        "resistant-to",
+        "targets",
+        "modulates",
+        "treats",
+        "prevents",
+        "analogue-of",
+        "combined-with",
+        "mutates-from",
+        "co-infects-with"
+      ]
+    },
+    "scale": {
+      "type": "string",
+      "enum": [
+        "01-subatomic",
+        "02-atomic",
+        "03-molecular",
+        "04-cellular",
+        "05-tissue",
+        "06-organ",
+        "07-system",
+        "08-whole-body"
+      ]
+    },
+    "evidence": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "An id from the source entry's sources array."
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 280
+    }
+  }
+}
