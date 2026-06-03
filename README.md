@@ -110,30 +110,54 @@ These are non-negotiable. They define what makes this project *Human Engineering
 
 ## Repository Structure
 
+The repo is organized **by kind of artifact**, not by topic. Every new atlas, project, agent, or dataset slots into the existing folders without restructuring.
+
 ```
 human/
 ├── README.md                       # Project front door (you are here)
 ├── LICENSE                         # MIT
 │
+│  ─────────── CONTENT (what we know) ───────────
+├── atlases/                        # KNOWLEDGE — markdown source of truth
+│   ├── README.md                   # Atlases index (3 current + 5 planned)
+│   ├── 01-human/                   # Atlas One — host biology
+│   ├── 02-pathogen/                # Atlas Two — pathogens & microbes
+│   └── 03-medicine/                # Atlas Three — medicines
+│
+├── media/                          # IMAGES, VIDEOS, DIAGRAMS — referenced by atlases & docs
+├── data/                           # DATASETS — small inline + pointers to external
+│
+│  ─────────── PRESENTATION (how it's shown) ───────────
 ├── docs/                           # PUBLIC WEBSITE — served via GitHub Pages
 │   ├── index.html                  # Mission landing — equalinformation.com/human/
 │   └── medicine.html               # Medicine Atlas page — /human/medicine.html
 │
-└── atlases/                        # CONTENT — markdown source of truth
-    ├── README.md                   # Atlases index
-    ├── 01-human/                   # Atlas One — host biology
-    │   └── README.md
-    ├── 02-pathogen/                # Atlas Two — pathogens & microbes
-    │   └── README.md
-    └── 03-medicine/                # Atlas Three — medicines
-        └── README.md
+│  ─────────── MACHINERY (what makes it tick) ───────────
+├── comp-prog-proj/                 # CODE — computational programming projects
+│                                   # (each project may contain its own AI agents)
+├── notebooks/                      # RESEARCH — Jupyter / marimo / Quarto, exploratory
+├── schemas/                        # SPECS — data contracts, entry templates
+└── tools/                          # INTERNAL — build scripts, dev utilities, CI
 ```
 
-**Why the `docs/` vs `atlases/` split:**
-- `docs/` is the *presentation layer* — HTML pages served by GitHub Pages to the public web.
-- `atlases/` is the *content layer* — markdown source of truth, where contributors write entries without needing to touch HTML. Each atlas folder's `README.md` renders directly on GitHub for native browsing.
+### The three layers
 
-More atlases will appear as the project grows (Pathology, Clinical, Public Health, Imaging, Genetics — see the [atlases index](atlases/README.md) for the planned set).
+| Layer | Folders | Question it answers |
+|:---|:---|:---|
+| **Content** | `atlases/` `media/` `data/` | *What do we know?* |
+| **Presentation** | `docs/` | *How does the world see it?* |
+| **Machinery** | `comp-prog-proj/` `notebooks/` `schemas/` `tools/` | *What makes it run?* |
+
+### Key conventions
+
+- **Every folder has a `README.md`** — if it doesn't, it's broken. Read the README to learn the conventions inside each folder.
+- **Naming is `kebab-case-noun/`** everywhere. Atlas folders use the `NN-name/` numbered pattern.
+- **AI agents live inside `comp-prog-proj/<project>/agents/`**, never at the repo root. Shared agents become their own project.
+- **Large binaries (>10 MB) use git-lfs** so the repo stays clonable.
+- **Schemas are contracts** — when two artifacts must agree on a format, the format lives in `schemas/`.
+- **Source of truth for knowledge stays in `atlases/`** — code, data, and notebooks reference back to atlas entries, not the other way around.
+
+More atlases will appear as the project grows (Pathology, Clinical, Public Health, Imaging, Genetics — see the [atlases index](atlases/README.md) for the planned set). More projects, datasets, schemas, and notebooks will appear in their respective folders without changing the top-level layout.
 
 ---
 
