@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Human Engineering — an open, free, global effort to model human biology from subatomic particles to the whole body, so we can engineer immunity and medicines at the speed of mutation. For all of humanity.">
+  <meta name="description" content="Human Engineering — an open, free, global effort to model human biology and every pathogen that interacts with it, so we can engineer immunity, vaccines, and adaptive defenses at the speed of mutation. For all of humanity.">
   <meta property="og:title" content="Human Engineering">
-  <meta property="og:description" content="An open, free, global effort to model human biology — from subatomic particles to the whole body. For all of humanity.">
+  <meta property="og:description" content="An open, free, global model of human biology and the world of pathogens that interact with it. For all of humanity.">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#07120f">
   <title>Human Engineering — for all of humanity</title>
@@ -351,6 +351,10 @@
     .scale-card:hover::before {
       background: linear-gradient(135deg, var(--bio), var(--eng));
     }
+    #pathogens .scale-level { color: var(--ai); }
+    #pathogens .scale-card:hover::before {
+      background: linear-gradient(135deg, var(--ai), var(--human));
+    }
     .scale-level {
       font-size: 0.7rem;
       font-weight: 700;
@@ -535,6 +539,7 @@
       <div class="nav-links">
         <a href="#mission">Mission</a>
         <a href="#scales">Scales</a>
+        <a href="#pathogens">Pathogens</a>
         <a href="#join">Join</a>
         <a href="#support" class="nav-cta">Support</a>
       </div>
@@ -601,7 +606,7 @@
     </section>
 
     <section id="scales">
-      <p class="section-eyebrow">The Scale Ladder</p>
+      <p class="section-eyebrow">Atlas One &middot; Host Biology</p>
       <h2>The same system, viewed at every magnification.</h2>
       <p class="lede">Biology at one level constrains and explains the next. The model has to be coherent across all of them — physics under chemistry, chemistry under cells, cells under organs, organs under us.</p>
       <div class="scale-grid">
@@ -616,10 +621,26 @@
       </div>
     </section>
 
+    <section id="pathogens">
+      <p class="section-eyebrow ai">Atlas Two &middot; Pathogens &amp; Microbes</p>
+      <h2>Every threat. Every microbe. Modeled the same way.</h2>
+      <p class="lede">A vaccine is a designed interface between a host and a pathogen. To build that interface in hours, both sides need to be modeled at the same depth.</p>
+      <p class="lede">The Pathogen Atlas catalogs every microbe and pathogen that touches human biology — its structure, mechanism of harm, immune signature, and mutation pressure. The same scale ladder, viewed from the other side of the encounter.</p>
+      <div class="scale-grid">
+        <div class="scale-card"><div class="scale-level">Class 01</div><h3>Viruses</h3><p>Influenza, coronaviruses, HIV, herpes, ebola — fast mutation, highest-priority threat class.</p></div>
+        <div class="scale-card"><div class="scale-level">Class 02</div><h3>Bacteria</h3><p>TB, staph, strep, mycobacteria — antibiotic resistance and cell-cell warfare with the immune system.</p></div>
+        <div class="scale-card"><div class="scale-level">Class 03</div><h3>Fungi</h3><p>Candida, aspergillus, cryptococcus — emerging threats with few drug classes.</p></div>
+        <div class="scale-card"><div class="scale-level">Class 04</div><h3>Parasites</h3><p>Plasmodium, helminths, trypanosomes — global disease burden, complex life cycles.</p></div>
+        <div class="scale-card"><div class="scale-level">Class 05</div><h3>Prions</h3><p>CJD, kuru — edge cases that stress-test the model.</p></div>
+        <div class="scale-card"><div class="scale-level">Class 06</div><h3>Microbiome</h3><p>Gut, skin, respiratory commensals — not every microbe is a threat; many are partners.</p></div>
+      </div>
+      <p class="lede" style="margin-top: 2rem;">Together, the two atlases form an open <strong>training corpus for AI agents</strong> working on the next vaccine — and an open <strong>educational foundation for human researchers</strong>, clinicians, and students, in every part of the world.</p>
+    </section>
+
     <section id="capabilities">
       <p class="section-eyebrow eng">Capabilities</p>
       <h2>What the model unlocks.</h2>
-      <p class="lede">If we have a coherent multi-scale model — and the AI to reason over it — four capabilities become tractable.</p>
+      <p class="lede">If we have coherent multi-scale models of both atlases — and the AI to reason over them — four capabilities become tractable.</p>
       <div class="cap-grid">
         <div class="cap">
           <div class="cap-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>

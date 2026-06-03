@@ -24,9 +24,9 @@ Built in the open. By anyone. For all of humanity. Free, forever.
 
 ## The Mission
 
-**Human Engineering** is an open, free, global initiative to model human biology as a single coherent system — across every scale of organization, from the subatomic to the whole-body.
+**Human Engineering** is an open, free, global initiative to build two coherent, open models — of **human biology** and of the **pathogens that interact with it** — across every scale of organization, from the subatomic to the whole-body.
 
-We aim to make that model precise enough that we can do three things with the same rigor we apply to silicon and software:
+We aim to make those models precise enough that we can do three things with the same rigor we apply to silicon and software:
 
 1. **Engineer** — design new biology from first principles.
 2. **Reverse-engineer** — recover the mechanism of any disease, pathogen, or healthy process end-to-end.
@@ -40,7 +40,9 @@ This project belongs to everyone. It will always be free.
 
 ## The Vision
 
-### The Scale Ladder
+The work organizes into **two interlocking, open knowledge bases** — both modeled at every scale, both held to the same standard of scientific rigor.
+
+### Atlas One — The Human Atlas
 
 Biology is the same system viewed at different magnifications. Each level constrains and explains the next. A coherent model of the human body must be coherent across **all** of them.
 
@@ -55,7 +57,26 @@ Biology is the same system viewed at different magnifications. Each level constr
 | 07 | **System** | Immune, nervous, circulatory, endocrine — networks of organs |
 | 08 | **Whole Body** | An integrated organism — the unit we actually live in |
 
+### Atlas Two — The Pathogen Atlas
+
+A comprehensive, open knowledge base of every microbe and pathogen that touches human biology — modeled across structure, mechanism of harm, immune signature, and mutation pressure. Includes the full microbial world: **viruses, bacteria, fungi, parasites, prions**, and the **commensal microbiome** we live with.
+
+| Class | Category | Why we model it |
+|:---:|:---|:---|
+| 01 | **Viruses** | Influenza, coronaviruses, HIV, herpes, ebola — fast mutation; the highest-priority threat class. |
+| 02 | **Bacteria** | TB, staph, strep, mycobacteria — antibiotic resistance and cell-cell warfare with the immune system. |
+| 03 | **Fungi** | Candida, aspergillus, cryptococcus — emerging threats with few drug classes. |
+| 04 | **Parasites** | Plasmodium, helminths, trypanosomes — global disease burden; complex life cycles. |
+| 05 | **Prions** | CJD, kuru — edge cases that stress-test the model. |
+| 06 | **Microbiome** | Gut, skin, respiratory commensals — not all microbes are threats; many are partners. |
+
+Each entry in the Pathogen Atlas links back into the Human Atlas at the level where it interacts — molecular for receptor binding, cellular for invasion, immune for response, organ for symptom.
+
+> **The vaccine, the antibody, the antibiotic — each is a designed bridge between the two atlases.** Together, the atlases form an open **training corpus for AI agents** working on the next vaccine, and an open **educational foundation** for human researchers, clinicians, and students worldwide.
+
 ### Four Capabilities
+
+Across both atlases, four capabilities become tractable.
 
 | Capability | What it unlocks |
 |:---|:---|
@@ -129,6 +150,10 @@ This is a project *for* humanity, *by* humanity. No matter your discipline, your
 - Physicists
 - Clinicians
 - Pharmacologists
+- Virologists
+- Microbiologists
+- Immunologists
+- Epidemiologists
 
 </td>
 <td valign="top">
