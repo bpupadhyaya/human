@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Human Engineering — exploring what it means to design, build, and grow as humans.">
+  <meta name="description" content="Human Engineering — a unified model of human biology from subatomic particles to the whole body, built to engineer immunity and medicines at the speed of mutation.">
   <title>Human Engineering</title>
   <style>
     :root {
@@ -21,11 +21,11 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       background: var(--bg);
       color: var(--fg);
-      line-height: 1.6;
+      line-height: 1.65;
       -webkit-font-smoothing: antialiased;
     }
     .hero {
-      min-height: 70vh;
+      min-height: 72vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -37,40 +37,50 @@
         radial-gradient(ellipse at 80% 100%, rgba(0, 212, 255, 0.18), transparent 50%);
     }
     .hero h1 {
-      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-size: clamp(2.5rem, 6vw, 4.75rem);
       font-weight: 800;
       letter-spacing: -0.03em;
       background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
-      margin-bottom: 1rem;
+      margin-bottom: 1.25rem;
     }
     .hero p.tagline {
-      font-size: clamp(1.1rem, 2vw, 1.35rem);
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      color: var(--fg);
+      max-width: 760px;
+      margin: 0 auto 0.75rem;
+      font-weight: 500;
+    }
+    .hero p.subtagline {
+      font-size: clamp(0.95rem, 1.4vw, 1.05rem);
       color: var(--muted);
-      max-width: 620px;
+      max-width: 640px;
       margin: 0 auto;
     }
     main {
-      max-width: 960px;
+      max-width: 980px;
       margin: 0 auto;
-      padding: 3rem 1.5rem 4rem;
+      padding: 3.5rem 1.5rem 4rem;
     }
-    section { margin-bottom: 3rem; }
+    section { margin-bottom: 3.5rem; }
     section h2 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       font-weight: 700;
       margin-bottom: 1rem;
       color: var(--fg);
+      letter-spacing: -0.01em;
     }
-    section p {
+    section > p {
       color: var(--muted);
-      max-width: 720px;
+      max-width: 760px;
+      font-size: 1.02rem;
     }
+    section > p + p { margin-top: 1rem; }
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 1rem;
       margin-top: 1.5rem;
     }
@@ -78,21 +88,66 @@
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 1.25rem 1.25rem 1.1rem;
+      padding: 1.1rem 1.2rem 1.05rem;
       transition: border-color 0.2s ease, transform 0.2s ease;
     }
     .card:hover {
       border-color: rgba(124, 92, 255, 0.6);
       transform: translateY(-2px);
     }
-    .card h3 {
-      font-size: 1.05rem;
+    .card .label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-2);
       margin-bottom: 0.4rem;
     }
+    .card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 0.35rem;
+      font-weight: 700;
+    }
     .card p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .pillar {
+      background: linear-gradient(180deg, rgba(124, 92, 255, 0.06), rgba(0, 212, 255, 0.03));
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.25rem 1.1rem;
+    }
+    .pillar h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .pillar p {
       font-size: 0.92rem;
       color: var(--muted);
     }
+    .why-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent-1);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-top: 1.25rem;
+      color: var(--muted);
+    }
+    .why-box strong { color: var(--fg); }
     footer {
       border-top: 1px solid var(--border);
       padding: 1.75rem 1.5rem;
@@ -110,35 +165,66 @@
 <body>
   <header class="hero">
     <h1>Human Engineering</h1>
-    <p class="tagline">Exploring what it means to design, build, and grow — as humans.</p>
+    <p class="tagline">A unified model of human biology — from subatomic particles to the whole body.</p>
+    <p class="subtagline">So we can engineer immunity, vaccines, and medicines at the speed of mutation — not years behind it.</p>
   </header>
 
   <main>
     <section>
-      <h2>About</h2>
-      <p>A working space for ideas, frameworks, and experiments around the engineering of human capability — how we learn, decide, focus, collaborate, and ship. More to come.</p>
+      <h2>Mission</h2>
+      <p>Model the human body as a single, navigable system across every scale of organization — from quarks and electrons up to organs, systems, and whole-body physiology. Make that model precise enough that we can <strong>engineer</strong>, <strong>reverse-engineer</strong>, and <strong>re-engineer</strong> human biology with the same rigor we apply to silicon and software.</p>
+      <p>The end goal: when the next fast-mutating pathogen appears, a candidate vaccine or therapy is hours away — not months or years. And eventually, an adaptive immune layer that generalizes to threats we haven't seen yet.</p>
     </section>
 
     <section>
-      <h2>Themes</h2>
+      <h2>The Scale Ladder</h2>
+      <p>Biology is the same system viewed at different magnifications. Each level constrains and explains the next. The model has to be coherent across all of them.</p>
       <div class="cards">
-        <div class="card">
-          <h3>Learning</h3>
-          <p>How we build durable skill and intuition over time.</p>
+        <div class="card"><div class="label">Level 01</div><h3>Subatomic</h3><p>Quarks, electrons, photons — the substrate of all chemistry.</p></div>
+        <div class="card"><div class="label">Level 02</div><h3>Atomic</h3><p>Elements and bonds that make biology physically possible.</p></div>
+        <div class="card"><div class="label">Level 03</div><h3>Molecular</h3><p>Proteins, nucleic acids, lipids — the working parts of cells.</p></div>
+        <div class="card"><div class="label">Level 04</div><h3>Cellular</h3><p>The smallest unit that's unambiguously alive.</p></div>
+        <div class="card"><div class="label">Level 05</div><h3>Tissue</h3><p>Cells specialized and organized into functional fabrics.</p></div>
+        <div class="card"><div class="label">Level 06</div><h3>Organ</h3><p>Tissues coordinated into a single functional unit.</p></div>
+        <div class="card"><div class="label">Level 07</div><h3>System</h3><p>Organs networked — immune, nervous, circulatory, endocrine.</p></div>
+        <div class="card"><div class="label">Level 08</div><h3>Whole Body</h3><p>An integrated organism — the actual unit we care about.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Four Capabilities</h2>
+      <p>If we have the model, four things become possible.</p>
+      <div class="pillars">
+        <div class="pillar">
+          <h3>Engineer</h3>
+          <p>Design new biology — proteins, cells, tissues, immune responses — from first principles, with predictable behavior.</p>
         </div>
-        <div class="card">
-          <h3>Decisions</h3>
-          <p>Frameworks for choosing well under uncertainty.</p>
+        <div class="pillar">
+          <h3>Reverse-engineer</h3>
+          <p>Take an existing pathogen, disease, or healthy mechanism and recover its mechanism end-to-end.</p>
         </div>
-        <div class="card">
-          <h3>Focus</h3>
-          <p>Designing attention and energy for what matters.</p>
+        <div class="pillar">
+          <h3>Re-engineer</h3>
+          <p>Repair, optimize, or replace components of human biology with the same confidence as a hardware swap.</p>
         </div>
-        <div class="card">
-          <h3>Collaboration</h3>
-          <p>How small teams compound their effectiveness.</p>
+        <div class="pillar">
+          <h3>Immunize</h3>
+          <p>Design adaptive defenses that generalize across fast-mutating threats — not chase each variant in retrospect.</p>
         </div>
       </div>
+    </section>
+
+    <section>
+      <h2>Why now</h2>
+      <div class="why-box">
+        <p>COVID-19 made the cost of slowness legible: every month between a pathogen emerging and a vaccine shipping is paid in lives, economies, and trust. Next time, the gap should be measured in hours.</p>
+        <p style="margin-top: 0.85rem;">The compute, the data, the modeling tools, and the molecular biology have all crossed thresholds at roughly the same time. A unified, multi-scale model of the human body is no longer obviously science fiction — it's a hard, concrete engineering project.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Status</h2>
+      <p>Early. This site is the public-facing home for the project — a place to publish the model, the methodology, and the work as it takes shape. More soon.</p>
     </section>
   </main>
 
