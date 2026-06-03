@@ -7,7 +7,7 @@
 So we can design vaccines, therapies, and adaptive immunity at the speed of mutation.
 Built in the open. By anyone. For all of humanity. Free, forever.
 
-**[Visit the site](https://equalinformation.com/human/)** · **[Join the effort](#join-the-effort)** · **[Support the work](#support-the-work)**
+**[Visit the site](https://equalinformation.com/human/)** · **[Medicine Atlas](MEDICINE.md)** · **[Join the effort](#join-the-effort)** · **[Support the work](#support-the-work)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-00d9a3.svg?style=for-the-badge)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-3aa9ff.svg?style=for-the-badge)](#join-the-effort)
@@ -24,7 +24,7 @@ Built in the open. By anyone. For all of humanity. Free, forever.
 
 ## The Mission
 
-**Human Engineering** is an open, free, global initiative to build two coherent, open models — of **human biology** and of the **pathogens that interact with it** — across every scale of organization, from the subatomic to the whole-body.
+**Human Engineering** is an open, free, global initiative to build three coherent, open knowledge bases — of **human biology**, of the **pathogens that interact with it**, and of **every medicine humanity has used to heal** — across every scale of organization, from the subatomic to the whole-body.
 
 We aim to make those models precise enough that we can do three things with the same rigor we apply to silicon and software:
 
@@ -40,7 +40,7 @@ This project belongs to everyone. It will always be free.
 
 ## The Vision
 
-The work organizes into **two interlocking, open knowledge bases** — both modeled at every scale, both held to the same standard of scientific rigor.
+The work organizes into **three interlocking, open knowledge bases** — the body, the threats, and the cures — each held to the same standard of scientific rigor.
 
 ### Atlas One — The Human Atlas
 
@@ -72,7 +72,19 @@ A comprehensive, open knowledge base of every microbe and pathogen that touches 
 
 Each entry in the Pathogen Atlas links back into the Human Atlas at the level where it interacts — molecular for receptor binding, cellular for invasion, immune for response, organ for symptom.
 
-> **The vaccine, the antibody, the antibiotic — each is a designed bridge between the two atlases.** Together, the atlases form an open **training corpus for AI agents** working on the next vaccine, and an open **educational foundation** for human researchers, clinicians, and students worldwide.
+> **The vaccine, the antibody, the antibiotic — each is a designed bridge between the Human and Pathogen atlases, and each is itself an entry in the Medicine Atlas below.** Together, the three atlases form an open **training corpus for AI agents** working on the next vaccine, and an open **educational foundation** for human researchers, clinicians, and students worldwide.
+
+### Atlas Three — The Medicine Atlas
+
+A comprehensive open encyclopedia of every medicine humanity has used to heal — **modern**, **traditional**, and **food**. Modern pharmaceuticals and 3,000-year-old healing systems are catalogued with the same rigor: *what is it, how does it work, what is the evidence, what does it interact with?*
+
+| Stream | Categories | What's catalogued |
+|:---:|:---|:---|
+| **Modern** | Pharmaceuticals · Antibiotics · Antivirals · Vaccines · Biologics &amp; Gene Therapy · Cancer · Cardiovascular · Mental Health · Hormones | Two centuries of clinical pharmacology |
+| **Traditional &amp; Cultural** | Ayurveda · Traditional Chinese Medicine · Western Herbalism · Indigenous Medicine *(and more)* | Millennia of refined healing knowledge from every continent |
+| **Food &amp; Nutrition** | Food-as-Medicine · Spices &amp; Adaptogens · Probiotics &amp; Microbiome | The medicines we already eat |
+
+> Modern science gets no automatic priority; tradition gets no automatic pass. Every entry is cross-referenced into the Human Atlas (which scale does it act on?) and the Pathogen Atlas (which threats does it target or disturb?). The full atlas is in **[MEDICINE.md](MEDICINE.md)** — live at **[equalinformation.com/human/medicine.html](https://equalinformation.com/human/medicine.html)**.
 
 ### Four Capabilities
 
@@ -123,7 +135,9 @@ These are non-negotiable. They define what makes this project *Human Engineering
 ```
 human/
 ├── docs/              # Public website — served via GitHub Pages
-│   └── index.html     # Landing page (live at equalinformation.com/human/)
+│   ├── index.html     # Landing page (live at equalinformation.com/human/)
+│   └── medicine.html  # The Medicine Atlas (Atlas Three encyclopedia)
+├── MEDICINE.md        # Medicine Atlas companion documentation
 ├── LICENSE            # MIT
 └── README.md          # You are here
 ```
