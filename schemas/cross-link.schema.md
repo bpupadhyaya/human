@@ -48,6 +48,7 @@ Relations are atlas-pair-aware. The validator enforces that the chosen relation 
 | `regulates` | functional control | Sympathetic-system `regulates` heart |
 | `secretes` | producer → product | Cardiomyocyte `secretes` ANP |
 | `expresses` | cell → molecule | Cardiomyocyte `expresses` β1-adrenergic-receptor |
+| `expressed-by` | molecule → cell | β1-adrenergic-receptor `expressed-by` cardiomyocyte (inverse of `expresses`) |
 | `innervated-by` | tissue/organ → nerve-system | Heart `innervated-by` autonomic-nervous-system |
 | `vascularized-by` | tissue/organ → vessels | Myocardium `vascularized-by` coronary-arteries |
 
@@ -115,6 +116,8 @@ Many relations have a defined inverse. The validator flags missing inverses.
 |:---|:---|
 | `contains` | `part-of` |
 | `composed-of` | `part-of` |
+| `part-of` | `contains` *or* `composed-of` (either is accepted) |
+| `expresses` | `expressed-by` |
 | `infected-by` | `infects` |
 | `damaged-by` | `damages` |
 | `target-of` | `targets` |
@@ -124,7 +127,7 @@ Many relations have a defined inverse. The validator flags missing inverses.
 
 `connects-to`, `combined-with`, `co-infects-with`, `analogue-of` are symmetric — both sides must declare the link.
 
-`regulates`, `secretes`, `expresses`, `innervated-by`, `vascularized-by`, `evades`, `mutates-from` are directional and have no required inverse.
+`regulates`, `secretes`, `innervated-by`, `vascularized-by`, `evades`, `mutates-from` are directional and have no required inverse.
 
 ---
 

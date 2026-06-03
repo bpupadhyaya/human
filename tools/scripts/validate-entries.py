@@ -75,22 +75,25 @@ SCALE_REQUIRED_SECTIONS: dict[str, list[str]] = {
 }
 
 # Cross-link relations whose inverse is required on the other side.
-INVERSE_RELATIONS: dict[str, str] = {
-    "contains": "part-of",
-    "composed-of": "part-of",
-    "part-of": "contains",
-    "infected-by": "infects",
-    "infects": "infected-by",
-    "damaged-by": "damages",
-    "damages": "damaged-by",
-    "target-of": "targets",
-    "targets": "target-of",
-    "modulated-by": "modulates",
-    "modulates": "modulated-by",
-    "treated-by": "treats",
-    "treats": "treated-by",
-    "prevented-by": "prevents",
-    "prevents": "prevented-by",
+# Maps each relation → set of acceptable inverse relations.
+INVERSE_RELATIONS: dict[str, set[str]] = {
+    "contains": {"part-of"},
+    "composed-of": {"part-of"},
+    "part-of": {"contains", "composed-of"},
+    "expresses": {"expressed-by"},
+    "expressed-by": {"expresses"},
+    "infected-by": {"infects"},
+    "infects": {"infected-by"},
+    "damaged-by": {"damages"},
+    "damages": {"damaged-by"},
+    "target-of": {"targets"},
+    "targets": {"target-of"},
+    "modulated-by": {"modulates"},
+    "modulates": {"modulated-by"},
+    "treated-by": {"treats"},
+    "treats": {"treated-by"},
+    "prevented-by": {"prevents"},
+    "prevents": {"prevented-by"},
 }
 
 # Symmetric relations (same name on both sides).
@@ -462,21 +465,22 @@ def resolve_cross_links(
                 continue  # Target exists but had no parsed frontmatter; already reported elsewhere.
 
             # Inverse-link check.
-            expected_inverse = INVERSE_RELATIONS.get(relation) if relation else None
+            expected_inverses = INVERSE_RELATIONS.get(relation, set()) if relation else set()
             self_target = (
                 str(path.parent.relative_to(atlases_dir)).replace("\\", "/")
             )
-            if expected_inverse:
+            if expected_inverses:
                 target_links = target_fm.get("cross_links") or []
                 has_inverse = any(
-                    l.get("target") == self_target and l.get("relation") == expected_inverse
+                    l.get("target") == self_target and l.get("relation") in expected_inverses
                     for l in target_links
                 )
                 if not has_inverse:
+                    inverse_str = " or ".join(sorted(f"'{r}'" for r in expected_inverses))
                     reporter.warn(
                         path,
                         f"cross_links[{i}] '{relation} → {target}' has no inverse "
-                        f"'{expected_inverse}' back-link in target",
+                        f"({inverse_str}) back-link in target",
                         line=1,
                     )
             elif relation in SYMMETRIC_RELATIONS:
