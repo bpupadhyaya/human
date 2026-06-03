@@ -1,14 +1,14 @@
 <div align="center">
 
-# The Medicine Atlas
+# Atlas Three — The Medicine Atlas
 
-### Atlas Three of [Human Engineering](README.md)
+### Modern, traditional, and food medicines
 
-An open, free encyclopedia of every medicine humanity has used to heal — modern, traditional, herbal, and food.
+An open, free encyclopedia of every medicine humanity has used to heal.
 
-**[View the live atlas](https://equalinformation.com/human/medicine.html)** · **[Back to project](README.md)**
+**[← Atlases index](../README.md)** · **[← Project README](../../README.md)** · **[Live page](https://equalinformation.com/human/medicine.html)**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-00d9a3.svg?style=for-the-badge)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-00d9a3.svg?style=for-the-badge)](../../LICENSE)
 [![In Progress](https://img.shields.io/badge/Status-Building-3aa9ff.svg?style=for-the-badge)](#help-build-the-atlas)
 [![For Humanity](https://img.shields.io/badge/Built%20for-Humanity-ffb86b.svg?style=for-the-badge)](#)
 
@@ -24,7 +24,7 @@ The Medicine Atlas catalogs those bridges — every one humanity has ever built.
 
 ## Why this atlas?
 
-The [Human Atlas](README.md#atlas-one--the-human-atlas) models the body. The [Pathogen Atlas](README.md#atlas-two--the-pathogen-atlas) models the threats and microbes that interact with it. The **Medicine Atlas** is the *interface* — the entire vocabulary of substances and interventions humanity uses to push biology toward health.
+The [Human Atlas](../01-human/README.md) models the body. The [Pathogen Atlas](../02-pathogen/README.md) models the threats and microbes that interact with it. The **Medicine Atlas** is the *interface* — the entire vocabulary of substances and interventions humanity uses to push biology toward health.
 
 That vocabulary is much larger than a typical pharmacology textbook admits. It must include:
 
@@ -139,7 +139,7 @@ The atlas will always be free. The medicines belong to humanity.
 
 ## License
 
-Released under the **[MIT License](LICENSE)**. As with the rest of Human Engineering: free, open, attribution welcome, use it however helps humanity.
+Released under the **[MIT License](../../LICENSE)**. As with the rest of Human Engineering: free, open, attribution welcome, use it however helps humanity.
 
 ---
 
@@ -147,6 +147,6 @@ Released under the **[MIT License](LICENSE)**. As with the rest of Human Enginee
 
 ### Free, for everyone, forever.
 
-*[← Back to the project README](README.md)*
+**[← Atlases index](../README.md)** · **[← Project README](../../README.md)**
 
 </div>

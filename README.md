@@ -7,7 +7,7 @@
 So we can design vaccines, therapies, and adaptive immunity at the speed of mutation.
 Built in the open. By anyone. For all of humanity. Free, forever.
 
-**[Visit the site](https://equalinformation.com/human/)** · **[Medicine Atlas](MEDICINE.md)** · **[Join the effort](#join-the-effort)** · **[Support the work](#support-the-work)**
+**[Visit the site](https://equalinformation.com/human/)** · **[Browse the Atlases](atlases/README.md)** · **[Join the effort](#join-the-effort)** · **[Support the work](#support-the-work)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-00d9a3.svg?style=for-the-badge)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-3aa9ff.svg?style=for-the-badge)](#join-the-effort)
@@ -42,53 +42,31 @@ This project belongs to everyone. It will always be free.
 
 The work organizes into **three interlocking, open knowledge bases** — the body, the threats, and the cures — each held to the same standard of scientific rigor.
 
+📚 **[Browse all atlases →](atlases/README.md)**
+
 ### Atlas One — The Human Atlas
 
-Biology is the same system viewed at different magnifications. Each level constrains and explains the next. A coherent model of the human body must be coherent across **all** of them.
+Multi-scale model of host biology, from subatomic particles to the whole body. Eight levels of organization, each constraining and explaining the next.
 
-| Level | Scale | What it captures |
-|:---:|:---|:---|
-| 01 | **Subatomic** | Quarks, electrons, photons — the substrate of all chemistry |
-| 02 | **Atomic** | Elements and bonds that make biology physically possible |
-| 03 | **Molecular** | Proteins, nucleic acids, lipids — the working parts of cells |
-| 04 | **Cellular** | The smallest unit that is unambiguously alive |
-| 05 | **Tissue** | Cells specialized and organized into functional fabrics |
-| 06 | **Organ** | Tissues coordinated into a single functional unit |
-| 07 | **System** | Immune, nervous, circulatory, endocrine — networks of organs |
-| 08 | **Whole Body** | An integrated organism — the unit we actually live in |
+**Read the full atlas → [`atlases/01-human/`](atlases/01-human/README.md)**
 
 ### Atlas Two — The Pathogen Atlas
 
-A comprehensive, open knowledge base of every microbe and pathogen that touches human biology — modeled across structure, mechanism of harm, immune signature, and mutation pressure. Includes the full microbial world: **viruses, bacteria, fungi, parasites, prions**, and the **commensal microbiome** we live with.
+Every microbe and pathogen that touches human biology — viruses, bacteria, fungi, parasites, prions, and the commensal microbiome. Modeled across structure, mechanism of harm, immune signature, and mutation pressure.
 
-| Class | Category | Why we model it |
-|:---:|:---|:---|
-| 01 | **Viruses** | Influenza, coronaviruses, HIV, herpes, ebola — fast mutation; the highest-priority threat class. |
-| 02 | **Bacteria** | TB, staph, strep, mycobacteria — antibiotic resistance and cell-cell warfare with the immune system. |
-| 03 | **Fungi** | Candida, aspergillus, cryptococcus — emerging threats with few drug classes. |
-| 04 | **Parasites** | Plasmodium, helminths, trypanosomes — global disease burden; complex life cycles. |
-| 05 | **Prions** | CJD, kuru — edge cases that stress-test the model. |
-| 06 | **Microbiome** | Gut, skin, respiratory commensals — not all microbes are threats; many are partners. |
-
-Each entry in the Pathogen Atlas links back into the Human Atlas at the level where it interacts — molecular for receptor binding, cellular for invasion, immune for response, organ for symptom.
-
-> **The vaccine, the antibody, the antibiotic — each is a designed bridge between the Human and Pathogen atlases, and each is itself an entry in the Medicine Atlas below.** Together, the three atlases form an open **training corpus for AI agents** working on the next vaccine, and an open **educational foundation** for human researchers, clinicians, and students worldwide.
+**Read the full atlas → [`atlases/02-pathogen/`](atlases/02-pathogen/README.md)**
 
 ### Atlas Three — The Medicine Atlas
 
-A comprehensive open encyclopedia of every medicine humanity has used to heal — **modern**, **traditional**, and **food**. Modern pharmaceuticals and 3,000-year-old healing systems are catalogued with the same rigor: *what is it, how does it work, what is the evidence, what does it interact with?*
+An encyclopedia of every medicine humanity has used to heal — modern pharmaceuticals, traditional medicine systems thousands of years old, and the foods and spices we already cook with.
 
-| Stream | Categories | What's catalogued |
-|:---:|:---|:---|
-| **Modern** | Pharmaceuticals · Antibiotics · Antivirals · Vaccines · Biologics &amp; Gene Therapy · Cancer · Cardiovascular · Mental Health · Hormones | Two centuries of clinical pharmacology |
-| **Traditional &amp; Cultural** | Ayurveda · Traditional Chinese Medicine · Western Herbalism · Indigenous Medicine *(and more)* | Millennia of refined healing knowledge from every continent |
-| **Food &amp; Nutrition** | Food-as-Medicine · Spices &amp; Adaptogens · Probiotics &amp; Microbiome | The medicines we already eat |
+**Read the full atlas → [`atlases/03-medicine/`](atlases/03-medicine/README.md)** · **[Live page](https://equalinformation.com/human/medicine.html)**
 
-> Modern science gets no automatic priority; tradition gets no automatic pass. Every entry is cross-referenced into the Human Atlas (which scale does it act on?) and the Pathogen Atlas (which threats does it target or disturb?). The full atlas is in **[MEDICINE.md](MEDICINE.md)** — live at **[equalinformation.com/human/medicine.html](https://equalinformation.com/human/medicine.html)**.
+> **The vaccine, the antibody, the antibiotic — each is a designed bridge between the Human and Pathogen atlases, and each is itself an entry in the Medicine Atlas.** Together, the three atlases form an open **training corpus for AI agents** working on the next vaccine, and an open **educational foundation** for human researchers, clinicians, and students worldwide.
 
 ### Four Capabilities
 
-Across both atlases, four capabilities become tractable.
+Across all three atlases, four capabilities become tractable.
 
 | Capability | What it unlocks |
 |:---|:---|
@@ -134,15 +112,28 @@ These are non-negotiable. They define what makes this project *Human Engineering
 
 ```
 human/
-├── docs/              # Public website — served via GitHub Pages
-│   ├── index.html     # Landing page (live at equalinformation.com/human/)
-│   └── medicine.html  # The Medicine Atlas (Atlas Three encyclopedia)
-├── MEDICINE.md        # Medicine Atlas companion documentation
-├── LICENSE            # MIT
-└── README.md          # You are here
+├── README.md                       # Project front door (you are here)
+├── LICENSE                         # MIT
+│
+├── docs/                           # PUBLIC WEBSITE — served via GitHub Pages
+│   ├── index.html                  # Mission landing — equalinformation.com/human/
+│   └── medicine.html               # Medicine Atlas page — /human/medicine.html
+│
+└── atlases/                        # CONTENT — markdown source of truth
+    ├── README.md                   # Atlases index
+    ├── 01-human/                   # Atlas One — host biology
+    │   └── README.md
+    ├── 02-pathogen/                # Atlas Two — pathogens & microbes
+    │   └── README.md
+    └── 03-medicine/                # Atlas Three — medicines
+        └── README.md
 ```
 
-More directories will appear as the project grows — for the model, the methods, the data pipelines, and the documentation. Contributors will help shape that structure.
+**Why the `docs/` vs `atlases/` split:**
+- `docs/` is the *presentation layer* — HTML pages served by GitHub Pages to the public web.
+- `atlases/` is the *content layer* — markdown source of truth, where contributors write entries without needing to touch HTML. Each atlas folder's `README.md` renders directly on GitHub for native browsing.
+
+More atlases will appear as the project grows (Pathology, Clinical, Public Health, Imaging, Genetics — see the [atlases index](atlases/README.md) for the planned set).
 
 ---
 
