@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/03-molecular/beta1-adrenergic-receptor
     relation: expresses
     note: "SA node cells express β1-AR; Gαs/PKA signaling phosphorylates HCN4 and Cav1.2, shifting If activation and increasing action potential frequency — positive chronotropy."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: part-of
+    note: "SA node cells are the automaticity cells of the sinoatrial node — the leading pacemaker and first node of the cardiac conduction system."
 ---
 
 # SA node cell

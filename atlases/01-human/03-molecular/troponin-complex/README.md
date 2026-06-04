@@ -43,6 +43,12 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: expressed-by
     note: "Cardiac troponin isoforms (TnC TNNC1, TnI TNNI3, TnT TNNT2) are expressed by cardiomyocytes and assembled onto every thin filament."
+  - target: 01-human/02-atomic/calcium
+    relation: modulated-by
+    note: "Ca²⁺ binding to the EF-hand of TnC (site II, low-affinity regulatory site) is the trigger that gates every heartbeat."
+  - target: 01-human/01-subatomic/electron
+    relation: modulated-by
+    note: "Electron configuration and electrostatics govern the Ca²⁺–EF-hand coordination chemistry and the phosphoanhydride energy that drives SERCA Ca²⁺ reuptake."
 taxonomy:
   uniprot: "P63316,P19429,P45379"
   gene_symbol: "TNNC1,TNNI3,TNNT2"

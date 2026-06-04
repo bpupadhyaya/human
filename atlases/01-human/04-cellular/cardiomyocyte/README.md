@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/03-molecular/beta1-adrenergic-receptor
     relation: expresses
     note: "Primary β-adrenergic receptor on working cardiomyocytes; relays sympathetic input to contractility and heart rate."
+  - target: 01-human/02-atomic/calcium
+    relation: modulated-by
+    note: "The cytosolic Ca²⁺ transient (100 nM → ~1 µM during systole) is the direct trigger of EC coupling in every cardiomyocyte."
+  - target: 02-pathogen/01-viruses/coxsackievirus-b
+    relation: infected-by
+    note: "CVB serotypes 1–6 enter cardiomyocytes via the CAR receptor; cytolytic replication and protease-mediated dystrophin cleavage cause acute viral myocarditis."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: infected-by
+    note: "SARS-CoV-2 enters ACE2-expressing cardiomyocytes; direct infection and immune-mediated injury contribute to COVID-19-associated myocarditis."
 taxonomy:
   cell_ontology: "CL:0000746"
   lineage: "mesoderm — lateral plate (cardiogenic mesoderm)"

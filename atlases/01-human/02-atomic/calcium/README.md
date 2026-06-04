@@ -42,6 +42,9 @@ cross_links:
   - target: 01-human/03-molecular/beta1-adrenergic-receptor
     relation: modulates
     note: "β1-AR/PKA signaling modulates Ca²⁺ handling: PKA phosphorylates Cav1.2 (more Ca²⁺ in), RyR2, phospholamban (faster Ca²⁺ reuptake to SR) — all changing Ca²⁺ transient amplitude and kinetics."
+  - target: 01-human/01-subatomic/electron
+    relation: modulated-by
+    note: "The electron configuration of Ca ([Ar] 4s²) determines its ionization to Ca²⁺ and the electrostatic basis of EF-hand coordination chemistry."
 ---
 
 # Calcium

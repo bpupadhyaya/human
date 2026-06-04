@@ -46,6 +46,18 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: part-of
     note: "The heart is the pump driving the cardiovascular system."
+  - target: 01-human/05-tissue/endocardium
+    relation: contains
+    note: "The endocardium lines all four chambers and valve surfaces, forming the blood-contacting barrier."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: contains
+    note: "The conduction system (SA node → AV node → His–Purkinje) generates and distributes the electrical impulse that coordinates every heartbeat."
+  - target: 01-human/04-cellular/sa-node-cell
+    relation: contains
+    note: "SA node pacemaker cells reside in the right atrium and set the intrinsic heart rate."
+  - target: 01-human/08-whole-body/human-body
+    relation: part-of
+    note: "The heart is a component of the cardiovascular system and of the integrated human body."
 taxonomy:
   uberon: "UBERON:0000948"
   fma: "FMA:7088"

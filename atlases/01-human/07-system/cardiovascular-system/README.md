@@ -33,6 +33,12 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: contains
     note: "The pump driving the entire cardiovascular system."
+  - target: 01-human/08-whole-body/human-body
+    relation: part-of
+    note: "The cardiovascular system is one of the body's principal organ systems, regulated by and embedded in the integrated whole organism."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: damaged-by
+    note: "SARS-CoV-2 causes systemic cardiovascular sequelae: endothelial dysfunction, microvascular thrombosis, myocarditis, arrhythmia, and post-acute cardiovascular complications."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"

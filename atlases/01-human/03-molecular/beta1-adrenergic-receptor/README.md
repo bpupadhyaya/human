@@ -38,6 +38,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: expressed-by
     note: "Predominant β-adrenergic receptor on working cardiomyocytes (~75–80% of total β-AR in healthy ventricle); also expressed on SA-nodal pacemaker cells."
+  - target: 01-human/02-atomic/calcium
+    relation: modulated-by
+    note: "β1-AR/PKA signaling modulates Ca²⁺ handling: Cav1.2 and RyR2 phosphorylation increase Ca²⁺ transient amplitude; phospholamban phosphorylation accelerates SERCA reuptake."
+  - target: 01-human/04-cellular/sa-node-cell
+    relation: expressed-by
+    note: "SA node pacemaker cells express β1-AR; sympathetic activation shifts the HCN4 (If) activation curve rightward — positive chronotropy."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: target-of
+    note: "β-blockers (metoprolol, bisoprolol, carvedilol) competitively antagonise β1-AR and are first-line therapy for HFrEF, hypertension, angina, and post-MI prophylaxis."
 taxonomy:
   uniprot: "P08588"
   gene_symbol: "ADRB1"

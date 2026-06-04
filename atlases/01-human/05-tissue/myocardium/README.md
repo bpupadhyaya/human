@@ -31,6 +31,12 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: composed-of
     note: "The contractile cell type — about 30–40% of cells by count, ~75% by volume."
+  - target: 02-pathogen/01-viruses/coxsackievirus-b
+    relation: damaged-by
+    note: "CVB replication in cardiomyocytes and the ensuing CD8⁺ T-cell infiltration cause myocardial inflammation and fibrosis — the histological hallmark of viral myocarditis."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: damaged-by
+    note: "SARS-CoV-2-associated myocarditis — via direct cardiomyocyte infection, immune-mediated injury, and microvascular disease — is detectable by troponin elevation and cardiac MRI."
 taxonomy:
   uberon: "UBERON:0002349"
   fma: "FMA:9462"
