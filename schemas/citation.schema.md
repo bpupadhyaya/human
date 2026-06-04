@@ -25,7 +25,7 @@ Every claim in the project must be traceable to a source — that is non-negotia
 | `id` | ✅ | string (kebab-case) | Locally unique slug within the entry's `sources` array. Used by other fields to reference this source (e.g. `claim_source: openstax-anatomy-19-1`). |
 | `type` | ✅ | enum | One of: `textbook`, `peer-reviewed`, `preprint`, `clinical-guideline`, `regulatory`, `database`, `consortium`, `oral-tradition`. See *Type guide* below. |
 | `cite` | ✅ | string | Full human-readable citation. Author(s), title, venue, year. No formatting requirements beyond legibility. |
-| `url` | ⚠️ strongly preferred | URI | Canonical, stable URL. Prefer DOI redirector or publisher's permalink over a search-engine result. |
+| `url` | ✅ required | URI | Canonical, stable URL. Prefer DOI redirector or publisher's permalink over a search-engine result. For entries with a DOI, `https://doi.org/{doi}` is the canonical URL and must be provided. |
 | `doi` | optional | string | Bare DOI (e.g. `10.1038/s41586-022-04819-6`). No `https://doi.org/` prefix. |
 | `pmid` | optional | string of digits | PubMed ID, if peer-reviewed and indexed. |
 | `accessed` | ⚠️ for non-DOI sources | ISO date `YYYY-MM-DD` | When the source was last verified. Required if the source has no DOI/PMID (because URLs rot). |
@@ -133,6 +133,7 @@ The validator checks that every `[^id]` reference resolves to a `sources[].id`.
 4. If `type` is `peer-reviewed` or `preprint`, exactly one of `doi`, `pmid`, or `url` must be present.
 5. If neither `doi` nor `pmid` is present, `accessed` must be set.
 6. `accessed`, if set, must be a valid `YYYY-MM-DD` date.
+7. **At least one of `url`, `doi`, or `pmid` must be present in every source.** A citation with none of these fields is not linkable and will generate a warning.
 
 ---
 

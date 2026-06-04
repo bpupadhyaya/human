@@ -49,6 +49,7 @@ cross_links:
 taxonomy:
   uberon: "UBERON:0000948"
   fma: "FMA:7088"
+simulator: docs/heart.html
 ---
 
 # Heart
@@ -170,8 +171,8 @@ A model of *the* heart that ignores variation is a model of one person, not of h
 - [`atlases/01-human/07-system/cardiovascular-system`](../../07-system/cardiovascular-system/README.md) — the system the heart drives.
 - [Schema](../../../../schemas/human-scale-entry.schema.md) this entry conforms to.
 
-[^openstax-anatomy-19-1]: See entry frontmatter.
-[^openstax-anatomy-19-3]: See entry frontmatter.
-[^openstax-anatomy-19-4]: See entry frontmatter.
-[^bers-2002-cardiac-ec-coupling]: See entry frontmatter.
-[^heidenreich-2022-hf-guideline]: See entry frontmatter.
+[^openstax-anatomy-19-1]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.1: Heart Anatomy. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy)
+[^openstax-anatomy-19-3]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.3: Cardiac Cycle. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-3-cardiac-cycle)
+[^openstax-anatomy-19-4]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.4: Cardiac Physiology. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-4-cardiac-physiology)
+[^bers-2002-cardiac-ec-coupling]: Bers DM. Cardiac excitation-contraction coupling. *Nature.* 2002;415(6868):198-205. [doi:10.1038/415198a](https://doi.org/10.1038/415198a) · [PubMed 11805843](https://pubmed.ncbi.nlm.nih.gov/11805843/)
+[^heidenreich-2022-hf-guideline]: Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. *Circulation.* 2022;145(18):e895–e1032. [doi:10.1161/CIR.0000000000001063](https://doi.org/10.1161/CIR.0000000000001063) · [PubMed 35363499](https://pubmed.ncbi.nlm.nih.gov/35363499/)

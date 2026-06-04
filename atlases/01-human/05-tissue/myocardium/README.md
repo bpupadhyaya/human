@@ -144,6 +144,6 @@ Adult human cardiomyocytes turn over at roughly **~1 %/year in early adulthood, 
 - [`cardiomyocyte`](../../04-cellular/cardiomyocyte/README.md) — the cell that gives the myocardium its identity.
 - [`troponin-complex`](../../03-molecular/troponin-complex/README.md) — calcium switch on the thin filament.
 
-[^openstax-anatomy-19-2]: See entry frontmatter.
-[^bers-2002-cardiac-ec-coupling]: See entry frontmatter.
-[^bergmann-2009-cardiomyocyte-renewal]: See entry frontmatter.
+[^openstax-anatomy-19-2]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.2: Cardiac Muscle and Electrical Activity. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity)
+[^bers-2002-cardiac-ec-coupling]: Bers DM. Cardiac excitation-contraction coupling. *Nature.* 2002;415(6868):198-205. [doi:10.1038/415198a](https://doi.org/10.1038/415198a) · [PubMed 11805843](https://pubmed.ncbi.nlm.nih.gov/11805843/)
+[^bergmann-2009-cardiomyocyte-renewal]: Bergmann O, Bhardwaj RD, Bernard S, et al. Evidence for cardiomyocyte renewal in humans. *Science.* 2009;324(5923):98-102. [doi:10.1126/science.1164680](https://doi.org/10.1126/science.1164680) · [PubMed 19342590](https://pubmed.ncbi.nlm.nih.gov/19342590/)

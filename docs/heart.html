@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive 0D cardiovascular simulator — Human Engineering. Explore healthy adult hemodynamics and six pathological scenarios in real time.">
+  <meta property="og:title" content="Heart Simulator — Human Engineering">
+  <meta property="og:description" content="Interactive 0D coupled cardiovascular simulator. Explore hemodynamics across six clinical scenarios.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#07120f">
+  <title>Heart Simulator — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #07120f;
+      --bg-2: #0c1a16;
+      --bg-3: #0f2019;
+      --surface: #0d1a16;
+      --surface-2: #122620;
+      --fg: #ecfff7;
+      --fg-soft: #d3ebde;
+      --muted: #8ea69b;
+      --muted-2: #6a8278;
+      --border: rgba(255, 255, 255, 0.07);
+      --border-strong: rgba(255, 255, 255, 0.14);
+      --bio: #00d9a3;
+      --eng: #3aa9ff;
+      --ai: #c084fc;
+      --human: #ffb86b;
+      --radius-sm: 8px;
+      --radius: 14px;
+      --radius-lg: 20px;
+      --maxw: 1200px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      overflow-x: hidden;
+    }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
+    a:hover { color: var(--human); }
+
+    /* ---------- NAV ---------- */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      background: rgba(7, 18, 15, 0.80);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 0.7rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-weight: 700;
+      font-size: 0.96rem;
+      color: var(--fg);
+    }
+    .brand-mark {
+      width: 24px; height: 24px;
+      border-radius: 7px;
+      background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 4px 16px rgba(0, 217, 163, 0.18);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      font-size: 0.88rem;
+      flex-wrap: wrap;
+    }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+
+    /* ---------- PAGE HEADER ---------- */
+    .page-header {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .page-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--bio);
+      margin-bottom: 0.65rem;
+    }
+    .page-header h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      background: linear-gradient(120deg, var(--bio) 0%, var(--eng) 50%, var(--human) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 1rem;
+    }
+    .page-header p {
+      color: var(--fg-soft);
+      max-width: 760px;
+      font-size: 1.0rem;
+      line-height: 1.7;
+    }
+
+    /* ---------- MAIN LAYOUT ---------- */
+    .sim-outer {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 1.5rem;
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 1.25rem;
+    }
+    @media (max-width: 900px) {
+      .sim-outer { grid-template-columns: 1fr; }
+    }
+
+    /* ---------- LEFT PANEL (anatomy + readouts + controls) ---------- */
+    .panel-left {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .panel-card {
+      background: linear-gradient(180deg, var(--surface), var(--bg-2));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .panel-card-header {
+      padding: 0.7rem 1rem 0.5rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .panel-card-body { padding: 0.85rem 1rem; }
+
+    /* SVG heart anatomy */
+    #anatomy-svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: var(--bg);
+    }
+
+    /* Readout grid */
+    .readout-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.55rem;
+    }
+    .readout-item {
+      background: var(--bg-3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.5rem 0.7rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .readout-label {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted-2);
+      margin-bottom: 0.2rem;
+    }
+    .readout-value {
+      font-family: ui-monospace, SFMono-Regular, Menlo, "Courier New", monospace;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--bio);
+      line-height: 1;
+    }
+    .readout-unit {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+
+    /* Playback controls */
+    .playback-row {
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .ctrl-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.5rem 0.9rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-strong);
+      background: rgba(255,255,255,0.04);
+      color: var(--fg);
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s ease, border-color .15s ease;
+    }
+    .ctrl-btn:hover { background: rgba(255,255,255,0.08); border-color: var(--bio); }
+    .ctrl-select {
+      padding: 0.45rem 0.7rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-strong);
+      background: rgba(255,255,255,0.04);
+      color: var(--fg);
+      font-size: 0.88rem;
+      cursor: pointer;
+    }
+    .ctrl-select option { background: #0c1a16; }
+    .ctrl-label {
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    /* Sliders */
+    .slider { margin-bottom: 0.7rem; }
+    .slider:last-child { margin-bottom: 0; }
+    .slider-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.2rem;
+    }
+    .slider-row label {
+      font-size: 0.82rem;
+      color: var(--fg-soft);
+      font-weight: 500;
+    }
+    .slider-row span {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.82rem;
+      color: var(--bio);
+      font-weight: 700;
+    }
+    input[type="range"] {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 4px;
+      background: var(--surface-2);
+      border-radius: 2px;
+      outline: none;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 14px; height: 14px;
+      border-radius: 50%;
+      background: var(--bio);
+      cursor: pointer;
+      box-shadow: 0 0 6px rgba(0, 217, 163, 0.4);
+    }
+
+    /* Scenario buttons */
+    .scenario-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+    .scenario {
+      background: var(--bg-3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.55rem 0.8rem;
+      cursor: pointer;
+      text-align: left;
+      color: var(--fg-soft);
+      font-size: 0.83rem;
+      transition: border-color .15s ease, background .15s ease;
+      width: 100%;
+    }
+    .scenario strong { display: block; font-size: 0.88rem; color: var(--fg); margin-bottom: 0.2rem; }
+    .scenario small { color: var(--muted); font-size: 0.76rem; line-height: 1.4; }
+    .scenario:hover { border-color: var(--border-strong); background: var(--surface-2); }
+    .scenario.active { border-color: var(--bio); background: rgba(0, 217, 163, 0.06); }
+    .scenario.active strong { color: var(--bio); }
+
+    /* ---------- RIGHT PANEL (plots) ---------- */
+    .panel-right {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .plot-card {
+      background: linear-gradient(180deg, var(--surface), var(--bg-2));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .plot-card-header {
+      padding: 0.6rem 1rem 0.45rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .plot-canvas-wrap { padding: 0; }
+    canvas {
+      display: block;
+      width: 100%;
+      height: 130px;
+    }
+    .plot-pv-wrap { padding: 0; }
+    #plot-pv { height: 220px; }
+
+    /* Two-column plot layout for larger screens */
+    .plots-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 700px) {
+      .plots-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ---------- SECTION DIVIDERS ---------- */
+    .section-wrap {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+    .section-wrap h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+      color: var(--fg);
+    }
+
+    /* ---------- REFERENCES ---------- */
+    .references ol {
+      padding-left: 1.4rem;
+      color: var(--fg-soft);
+      font-size: 0.88rem;
+      line-height: 1.75;
+    }
+    .references ol li { margin-bottom: 0.45rem; }
+    .references a { color: var(--eng); }
+    .references a:hover { color: var(--bio); }
+
+    /* ---------- FOOTER ---------- */
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 2rem 1.5rem 1.5rem;
+      font-size: 0.82rem;
+      color: var(--muted-2);
+    }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--bio); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html">← Human Engineering</a>
+        <a href="https://github.com/bpupadhyaya/human/tree/main/atlases/01-human/06-organ/heart"
+           target="_blank" rel="noopener noreferrer">Heart Atlas Entry →</a>
+        <a href="https://github.com/bpupadhyaya/human/tree/main/atlases/01-human/07-system/cardiovascular-system"
+           target="_blank" rel="noopener noreferrer">Cardiovascular System →</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <p class="page-eyebrow">Atlas 01-Human · Scale 06-Organ · Interactive Model</p>
+    <h1>Heart Simulator</h1>
+    <p>
+      This page hosts a lumped-parameter (0D) coupled cardiovascular model: two time-varying elastance
+      ventricles, four diode-like valves, and two Windkessel compartments each for the systemic and
+      pulmonary circulations — a closed loop with six volume state variables integrated in real time
+      via fixed-step RK4. The model is based on the framework of Smith et al. (2004) and produces
+      physiologically faithful pressure-volume waveforms, cardiac output, stroke volume, and ejection
+      fraction under resting healthy conditions. Six built-in scenarios — healthy adult, heart failure
+      with reduced EF, aortic stenosis, hypertension, sinus tachycardia, and sinus bradycardia — can
+      be selected to observe how multi-scale dysfunction at the molecular or cellular level (reduced
+      Emax, elevated valve resistance, altered HR) propagates to organ-level hemodynamics. Use the
+      sliders to explore parameter space continuously; the anatomy panel and plots update at 60 fps.
+    </p>
+  </div>
+
+  <div class="sim-outer">
+    <!-- LEFT: anatomy SVG + readouts + controls -->
+    <div class="panel-left">
+
+      <!-- Anatomy SVG -->
+      <div class="panel-card">
+        <div class="panel-card-header">Heart Anatomy — Schematic</div>
+        <svg id="anatomy-svg" viewBox="0 0 480 510" xmlns="http://www.w3.org/2000/svg"
+             role="img" aria-label="Schematic diagram of the four cardiac chambers with valve indicators and flow arrows">
+
+          <defs>
+            <!-- SA node glow -->
+            <filter id="glow-sa" x="-80%" y="-80%" width="260%" height="260%">
+              <feGaussianBlur stdDeviation="4" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+            <!-- Heart outline clip path -->
+            <clipPath id="heart-clip">
+              <!-- Approximate heart silhouette: wide at top, tapers to apex at bottom center -->
+              <path d="
+                M 120 80
+                C 80 60, 40 80, 40 130
+                C 40 180, 80 210, 120 240
+                L 240 380
+                L 360 240
+                C 400 210, 440 180, 440 130
+                C 440 80, 400 60, 360 80
+                C 340 60, 300 50, 240 70
+                C 200 50, 150 60, 120 80 Z
+              "/>
+            </clipPath>
+            <!-- Flow arrow marker -->
+            <marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="currentColor"/>
+            </marker>
+          </defs>
+
+          <!-- Background heart silhouette for context -->
+          <path d="
+            M 120 80
+            C 80 60, 40 80, 40 130
+            C 40 180, 80 210, 120 240
+            L 240 380
+            L 360 240
+            C 400 210, 440 180, 440 130
+            C 440 80, 400 60, 360 80
+            C 340 60, 300 50, 240 70
+            C 200 50, 150 60, 120 80 Z
+          " fill="#0d1a16" stroke="#1e3428" stroke-width="2"/>
+
+          <!-- Interventricular / interatrial septum (vertical divider) -->
+          <line x1="240" y1="75" x2="240" y2="360" stroke="#253830" stroke-width="2.5"/>
+          <!-- AV groove (horizontal divider between atria and ventricles) -->
+          <line x1="60" y1="200" x2="420" y2="200" stroke="#253830" stroke-width="2"/>
+
+          <!-- ===== CHAMBERS (clipped to heart outline) ===== -->
+          <g clip-path="url(#heart-clip)">
+            <!-- RA — upper left (right side of body = left of diagram in anatomical position,
+                 but by convention: RA top-left, LA top-right, RV bottom-left, LV bottom-right) -->
+            <rect id="chamber-ra" x="50" y="80" width="180" height="115" rx="18"
+                  fill="#3a5fa8" opacity="0.75"/>
+            <!-- LA — upper right -->
+            <rect id="chamber-la" x="250" y="80" width="175" height="115" rx="18"
+                  fill="#a64054" opacity="0.75"/>
+            <!-- RV — lower left (tapers to apex) -->
+            <path id="chamber-rv"
+                  d="M 50 205 L 220 205 L 240 375 L 80 270 Z"
+                  fill="#1a3a7a" opacity="0.75"/>
+            <!-- LV — lower right (thicker wall, largest chamber) -->
+            <path id="chamber-lv"
+                  d="M 260 205 L 430 205 L 400 265 L 240 375 Z"
+                  fill="#7a1a26" opacity="0.75"/>
+          </g>
+
+          <!-- ===== VALVE INDICATORS ===== -->
+          <!-- TV: between RA and RV (left side, mid-height) -->
+          <g id="valve-tv" opacity="0.30">
+            <ellipse cx="135" cy="200" rx="28" ry="8" fill="#5090d0" stroke="#78a8e0" stroke-width="1.5"/>
+            <text x="135" y="203" text-anchor="middle" font-size="8" fill="#aacce8" font-weight="700">TV</text>
+          </g>
+          <!-- MV: between LA and LV (right side, mid-height) -->
+          <g id="valve-mv" opacity="0.30">
+            <ellipse cx="345" cy="200" rx="28" ry="8" fill="#c04060" stroke="#e06080" stroke-width="1.5"/>
+            <text x="345" y="203" text-anchor="middle" font-size="8" fill="#f0a0b8" font-weight="700">MV</text>
+          </g>
+          <!-- PV: RV outlet (top-left area, pulmonary artery stub) -->
+          <g id="valve-pv" opacity="0.30">
+            <ellipse cx="120" cy="82" rx="22" ry="7" fill="#3070b0" stroke="#5090d0" stroke-width="1.5"/>
+            <text x="120" y="85" text-anchor="middle" font-size="8" fill="#90c0e8" font-weight="700">PV</text>
+          </g>
+          <!-- AV: LV outlet (top-right area, aorta stub) -->
+          <g id="valve-av" opacity="0.30">
+            <ellipse cx="360" cy="82" rx="22" ry="7" fill="#a01828" stroke="#c03040" stroke-width="1.5"/>
+            <text x="360" y="85" text-anchor="middle" font-size="8" fill="#f08090" font-weight="700">AV</text>
+          </g>
+
+          <!-- ===== VESSEL STUBS ===== -->
+          <!-- Pulmonary artery (from RV, top left) -->
+          <rect x="90" y="20" width="60" height="62" rx="12" fill="#1a3070" stroke="#2a4898" stroke-width="1.5"/>
+          <text x="120" y="42" text-anchor="middle" font-size="11" fill="#90b4e8" font-weight="700">PA</text>
+          <text x="120" y="56" text-anchor="middle" font-size="9" fill="#6090c8">Pulm. A.</text>
+
+          <!-- Aorta (from LV, top right) -->
+          <rect x="330" y="20" width="60" height="62" rx="12" fill="#700e18" stroke="#a01828" stroke-width="1.5"/>
+          <text x="360" y="42" text-anchor="middle" font-size="11" fill="#f08080" font-weight="700">Ao</text>
+          <text x="360" y="56" text-anchor="middle" font-size="9" fill="#d06070">Aorta</text>
+
+          <!-- ===== FLOW ARROWS ===== -->
+          <!-- Flow-TV (RA → RV, downward on left) -->
+          <g id="flow-tv" opacity="0" style="color: #5090d0;">
+            <line x1="135" y1="210" x2="135" y2="235"
+                  stroke="currentColor" stroke-width="2.5"
+                  marker-end="url(#arrow)"/>
+          </g>
+          <!-- Flow-MV (LA → LV, downward on right) -->
+          <g id="flow-mv" opacity="0" style="color: #e06080;">
+            <line x1="345" y1="210" x2="345" y2="235"
+                  stroke="currentColor" stroke-width="2.5"
+                  marker-end="url(#arrow)"/>
+          </g>
+          <!-- Flow-PV (RV → PA, upward left) -->
+          <g id="flow-pv" opacity="0" style="color: #5090d0;">
+            <line x1="120" y1="90" x2="120" y2="65"
+                  stroke="currentColor" stroke-width="2.5"
+                  marker-end="url(#arrow)"/>
+          </g>
+          <!-- Flow-AV (LV → Ao, upward right) -->
+          <g id="flow-av" opacity="0" style="color: #e06080;">
+            <line x1="360" y1="90" x2="360" y2="65"
+                  stroke="currentColor" stroke-width="2.5"
+                  marker-end="url(#arrow)"/>
+          </g>
+
+          <!-- ===== SA NODE ===== -->
+          <circle id="sa-node" cx="90" cy="115" r="9"
+                  fill="#ffb86b" opacity="0.3"
+                  filter="url(#glow-sa)"/>
+          <text x="103" y="119" font-size="9" fill="#c89050" font-weight="700">SA</text>
+
+          <!-- ===== CHAMBER LABELS ===== -->
+          <text x="130" y="148" text-anchor="middle" font-size="16" font-weight="800"
+                fill="rgba(180,210,255,0.85)" letter-spacing="0.05em">RA</text>
+          <text x="350" y="148" text-anchor="middle" font-size="16" font-weight="800"
+                fill="rgba(255,160,180,0.85)" letter-spacing="0.05em">LA</text>
+          <text x="120" y="280" text-anchor="middle" font-size="16" font-weight="800"
+                fill="rgba(100,160,255,0.80)" letter-spacing="0.05em">RV</text>
+          <text x="360" y="280" text-anchor="middle" font-size="16" font-weight="800"
+                fill="rgba(255,100,120,0.80)" letter-spacing="0.05em">LV</text>
+
+          <!-- ===== READOUT PANEL (below heart, inside SVG) ===== -->
+          <rect x="25" y="405" width="430" height="95" rx="12"
+                fill="#0d1a16" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+          <!-- HR -->
+          <text x="75" y="428" text-anchor="middle" font-size="9" fill="#6a8278"
+                font-weight="700" letter-spacing="0.08em">HR</text>
+          <text id="readout-hr" x="75" y="448" text-anchor="middle"
+                font-family="ui-monospace, SFMono-Regular, monospace"
+                font-size="22" font-weight="700" fill="#00d9a3">—</text>
+          <text x="75" y="465" text-anchor="middle" font-size="8" fill="#6a8278">bpm</text>
+
+          <!-- SV -->
+          <text x="161" y="428" text-anchor="middle" font-size="9" fill="#6a8278"
+                font-weight="700" letter-spacing="0.08em">SV</text>
+          <text id="readout-sv" x="161" y="448" text-anchor="middle"
+                font-family="ui-monospace, SFMono-Regular, monospace"
+                font-size="22" font-weight="700" fill="#3aa9ff">—</text>
+          <text x="161" y="465" text-anchor="middle" font-size="8" fill="#6a8278">mL</text>
+
+          <!-- CO -->
+          <text x="247" y="428" text-anchor="middle" font-size="9" fill="#6a8278"
+                font-weight="700" letter-spacing="0.08em">CO</text>
+          <text id="readout-co" x="247" y="448" text-anchor="middle"
+                font-family="ui-monospace, SFMono-Regular, monospace"
+                font-size="22" font-weight="700" fill="#c084fc">—</text>
+          <text x="247" y="465" text-anchor="middle" font-size="8" fill="#6a8278">L/min</text>
+
+          <!-- EF -->
+          <text x="333" y="428" text-anchor="middle" font-size="9" fill="#6a8278"
+                font-weight="700" letter-spacing="0.08em">EF</text>
+          <text id="readout-ef" x="333" y="448" text-anchor="middle"
+                font-family="ui-monospace, SFMono-Regular, monospace"
+                font-size="22" font-weight="700" fill="#ffb86b">—</text>
+          <text x="333" y="465" text-anchor="middle" font-size="8" fill="#6a8278">%</text>
+
+          <!-- MAP -->
+          <text x="420" y="428" text-anchor="middle" font-size="9" fill="#6a8278"
+                font-weight="700" letter-spacing="0.08em">MAP</text>
+          <text id="readout-map" x="420" y="448" text-anchor="middle"
+                font-family="ui-monospace, SFMono-Regular, monospace"
+                font-size="22" font-weight="700" fill="#f87171">—</text>
+          <text x="420" y="465" text-anchor="middle" font-size="8" fill="#6a8278">mmHg</text>
+
+          <!-- Readout dividers -->
+          <line x1="114" y1="415" x2="114" y2="490" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <line x1="200" y1="415" x2="200" y2="490" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <line x1="286" y1="415" x2="286" y2="490" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <line x1="372" y1="415" x2="372" y2="490" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+        </svg>
+      </div><!-- /anatomy card -->
+
+      <!-- Playback controls -->
+      <div class="panel-card">
+        <div class="panel-card-header">Playback</div>
+        <div class="panel-card-body">
+          <div class="playback-row">
+            <button id="btn-pause" class="ctrl-btn">⏸ Pause</button>
+            <span class="ctrl-label">Speed</span>
+            <select id="speed" class="ctrl-select">
+              <option value="0.5">0.5×</option>
+              <option value="1" selected>1×</option>
+              <option value="2">2×</option>
+              <option value="4">4×</option>
+            </select>
+            <button id="btn-reset" class="ctrl-btn">↺ Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Parameter sliders -->
+      <div class="panel-card">
+        <div class="panel-card-header">Parameters</div>
+        <div class="panel-card-body" id="sliders">
+          <!-- Populated by heart-app.js -->
+        </div>
+      </div>
+
+      <!-- Scenario presets -->
+      <div class="panel-card">
+        <div class="panel-card-header">Scenarios</div>
+        <div class="panel-card-body">
+          <div class="scenario-grid" id="scenarios">
+            <!-- Populated by heart-app.js -->
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /panel-left -->
+
+    <!-- RIGHT: time-series plots + PV loop -->
+    <div class="panel-right">
+
+      <div class="plot-card">
+        <div class="plot-card-header">ECG — Synthetic (Lead II equivalent)</div>
+        <div class="plot-canvas-wrap">
+          <canvas id="plot-ecg"></canvas>
+        </div>
+      </div>
+
+      <div class="plot-card">
+        <div class="plot-card-header">Pressures — Aortic / LV / Pulmonary vein (mmHg)</div>
+        <div class="plot-canvas-wrap">
+          <canvas id="plot-pressure"></canvas>
+        </div>
+      </div>
+
+      <div class="plot-card">
+        <div class="plot-card-header">Chamber Volumes — LV / RV (mL)</div>
+        <div class="plot-canvas-wrap">
+          <canvas id="plot-volumes"></canvas>
+        </div>
+      </div>
+
+      <div class="plot-card">
+        <div class="plot-card-header">Pressure-Volume Loop — Left Ventricle</div>
+        <div class="plot-pv-wrap">
+          <canvas id="plot-pv"></canvas>
+        </div>
+      </div>
+
+    </div><!-- /panel-right -->
+  </div><!-- /sim-outer -->
+
+  <!-- References -->
+  <div class="section-wrap references">
+    <h2>References</h2>
+    <ol>
+      <li>
+        Smith BW, Chase JG, Nokes RI, Shaw GM, Wake G. Minimal haemodynamic system model including
+        ventricular interaction and valve dynamics. <em>Med Eng Phys.</em> 2004;26(2):131–139.
+        <a href="https://doi.org/10.1016/j.medengphy.2003.10.001"
+           target="_blank" rel="noopener noreferrer">doi:10.1016/j.medengphy.2003.10.001</a>
+        · <a href="https://pubmed.ncbi.nlm.nih.gov/15036180/"
+             target="_blank" rel="noopener noreferrer">PubMed 15036180</a>
+      </li>
+      <li>
+        Bers DM. Cardiac excitation-contraction coupling. <em>Nature.</em> 2002;415(6868):198–205.
+        <a href="https://doi.org/10.1038/415198a"
+           target="_blank" rel="noopener noreferrer">doi:10.1038/415198a</a>
+        · <a href="https://pubmed.ncbi.nlm.nih.gov/11805843/"
+             target="_blank" rel="noopener noreferrer">PubMed 11805843</a>
+      </li>
+      <li>
+        OpenStax. <em>Anatomy &amp; Physiology 2e</em>, Ch. 19: The Cardiovascular System — The Heart.
+        Open textbook; Rice University.
+        <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy"
+           target="_blank" rel="noopener noreferrer">Read online →</a>
+      </li>
+      <li>
+        Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management
+        of Heart Failure. <em>Circulation.</em> 2022;145(18):e895–e1032.
+        <a href="https://doi.org/10.1161/CIR.0000000000001063"
+           target="_blank" rel="noopener noreferrer">doi:10.1161/CIR.0000000000001063</a>
+        · <a href="https://pubmed.ncbi.nlm.nih.gov/35363499/"
+             target="_blank" rel="noopener noreferrer">PubMed 35363499</a>
+      </li>
+      <li>
+        U.S. National Heart, Lung, and Blood Institute (NHLBI). How the Heart Works.
+        <a href="https://www.nhlbi.nih.gov/health/heart/anatomy"
+           target="_blank" rel="noopener noreferrer">nhlbi.nih.gov/health/heart/anatomy</a>
+      </li>
+    </ol>
+  </div>
+
+  <footer>
+    <p>
+      <a href="index.html">Human Engineering</a> · Open, free, global ·
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+      Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
+    </p>
+    <p style="margin-top:0.5rem;">&copy; <span id="year"></span> Bhim Upadhyaya · MIT License</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script type="module" src="sim/heart-app.js"></script>
+</body>
+</html>

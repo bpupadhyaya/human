@@ -180,8 +180,8 @@ Together with PKA's effects on phospholamban and Cav1.2, TnI phosphorylation let
 - [`myocardium`](../../05-tissue/myocardium/README.md) — the tissue.
 - [`heart`](../../06-organ/heart/README.md) — the organ.
 
-[^bers-2002-cardiac-ec-coupling]: See entry frontmatter.
-[^uniprot-p63316-tnnc1]: See entry frontmatter.
-[^uniprot-p19429-tnni3]: See entry frontmatter.
-[^uniprot-p45379-tnnt2]: See entry frontmatter.
-[^thygesen-2018-mi-definition]: See entry frontmatter.
+[^bers-2002-cardiac-ec-coupling]: Bers DM. Cardiac excitation-contraction coupling. *Nature.* 2002;415(6868):198-205. [doi:10.1038/415198a](https://doi.org/10.1038/415198a) · [PubMed 11805843](https://pubmed.ncbi.nlm.nih.gov/11805843/)
+[^uniprot-p63316-tnnc1]: UniProt — Troponin C, slow skeletal and cardiac muscles (TNNC1, human; P63316). [uniprot.org/uniprotkb/P63316](https://www.uniprot.org/uniprotkb/P63316/entry)
+[^uniprot-p19429-tnni3]: UniProt — Troponin I, cardiac muscle (TNNI3, human; P19429). [uniprot.org/uniprotkb/P19429](https://www.uniprot.org/uniprotkb/P19429/entry)
+[^uniprot-p45379-tnnt2]: UniProt — Troponin T, cardiac muscle (TNNT2, human; P45379). [uniprot.org/uniprotkb/P45379](https://www.uniprot.org/uniprotkb/P45379/entry)
+[^thygesen-2018-mi-definition]: Thygesen K, Alpert JS, Jaffe AS, et al. Fourth Universal Definition of Myocardial Infarction. *J Am Coll Cardiol.* 2018;72(18):2231-2264. [doi:10.1016/j.jacc.2018.08.1038](https://doi.org/10.1016/j.jacc.2018.08.1038) · [PubMed 30153967](https://pubmed.ncbi.nlm.nih.gov/30153967/)

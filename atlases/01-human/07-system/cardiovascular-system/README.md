@@ -213,5 +213,5 @@ System-level cardiovascular disease — pathologies that can't be assigned clean
 - [`troponin-complex`](../../03-molecular/troponin-complex/README.md) — molecular calcium switch.
 - [`beta1-adrenergic-receptor`](../../03-molecular/beta1-adrenergic-receptor/README.md) — primary sympathetic relay.
 
-[^openstax-anatomy-19-1]: See entry frontmatter.
-[^openstax-anatomy-20-2]: See entry frontmatter.
+[^openstax-anatomy-19-1]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.1: Heart Anatomy. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy)
+[^openstax-anatomy-20-2]: OpenStax. *Anatomy & Physiology 2e*, Ch. 20.2: Blood Flow, Blood Pressure, and Resistance. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance)

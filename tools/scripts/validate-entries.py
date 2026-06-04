@@ -404,6 +404,16 @@ def validate_human_entry(
                 line=body_start_line,
             )
 
+    # URL/linkability check: every source should have at least one of url, doi, pmid.
+    for src in frontmatter.get("sources", []):
+        has_link = bool(src.get("url") or src.get("doi") or src.get("pmid"))
+        if not has_link:
+            reporter.warn(
+                path,
+                f"sources[id={src.get('id', '?')}] has no url, doi, or pmid — citation is not linkable",
+                line=1,
+            )
+
     # Inline citation references resolve.
     source_ids = {s["id"] for s in frontmatter.get("sources", [])}
     for m in INLINE_CITATION_RE.finditer(body):

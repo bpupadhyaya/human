@@ -179,8 +179,8 @@ These pharmacogenomic variants have been studied in the context of personalizing
 - [`cardiomyocyte`](../../04-cellular/cardiomyocyte/README.md) — the cell expressing this receptor.
 - [`heart`](../../06-organ/heart/README.md) — the organ this receptor regulates.
 
-[^uniprot-p08588-adrb1]: See entry frontmatter.
-[^warne-2008-b1ar-structure]: See entry frontmatter.
-[^lefkowitz-2007-b-arrestin-review]: See entry frontmatter.
-[^bristow-2000-bar-failure]: See entry frontmatter.
-[^heidenreich-2022-hf-guideline]: See entry frontmatter.
+[^uniprot-p08588-adrb1]: UniProt — Beta-1 adrenergic receptor (ADRB1, human; P08588). [uniprot.org/uniprotkb/P08588](https://www.uniprot.org/uniprotkb/P08588/entry)
+[^warne-2008-b1ar-structure]: Warne T, Serrano-Vega MJ, Baker JG, et al. Structure of a beta1-adrenergic G-protein-coupled receptor. *Nature.* 2008;454(7203):486-491. [doi:10.1038/nature07101](https://doi.org/10.1038/nature07101) · [PubMed 18594507](https://pubmed.ncbi.nlm.nih.gov/18594507/)
+[^lefkowitz-2007-b-arrestin-review]: Lefkowitz RJ, Shenoy SK. Transduction of receptor signals by beta-arrestins. *Science.* 2005;308(5721):512-517. [doi:10.1126/science.1109237](https://doi.org/10.1126/science.1109237) · [PubMed 15845844](https://pubmed.ncbi.nlm.nih.gov/15845844/)
+[^bristow-2000-bar-failure]: Bristow MR. β-Adrenergic receptor blockade in chronic heart failure. *Circulation.* 2000;101(5):558-569. [doi:10.1161/01.CIR.101.5.558](https://doi.org/10.1161/01.CIR.101.5.558) · [PubMed 10662755](https://pubmed.ncbi.nlm.nih.gov/10662755/)
+[^heidenreich-2022-hf-guideline]: Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. *Circulation.* 2022;145(18):e895–e1032. [doi:10.1161/CIR.0000000000001063](https://doi.org/10.1161/CIR.0000000000001063) · [PubMed 35363499](https://pubmed.ncbi.nlm.nih.gov/35363499/)

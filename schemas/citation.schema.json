@@ -77,6 +77,14 @@
       "then": {
         "required": ["accessed"]
       }
+    },
+    {
+      "description": "Every source must have at least one of: url, doi, or pmid — for linkability.",
+      "anyOf": [
+        { "required": ["url"] },
+        { "required": ["doi"] },
+        { "required": ["pmid"] }
+      ]
     }
   ]
 }
