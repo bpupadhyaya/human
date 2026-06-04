@@ -7,28 +7,26 @@
   <meta property="og:title" content="Human Engineering">
   <meta property="og:description" content="Three open atlases — host biology, pathogens, and medicines. An open, free model of human health, for all of humanity.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#07120f">
+  <meta name="theme-color" content="#f2f2f7">
   <title>Human Engineering — for all of humanity</title>
   <style>
     :root {
-      /* Base */
-      --bg: #07120f;
-      --bg-2: #0c1a16;
-      --bg-3: #0f2019;
-      --surface: #0d1a16;
-      --surface-2: #122620;
-      --fg: #ecfff7;
-      --fg-soft: #d3ebde;
-      --muted: #8ea69b;
-      --muted-2: #6a8278;
-      --border: rgba(255, 255, 255, 0.07);
-      --border-strong: rgba(255, 255, 255, 0.14);
+      --bg: #f2f2f7;
+      --bg-2: #ffffff;
+      --bg-3: #e5e5ea;
+      --surface: #ffffff;
+      --surface-2: #f2f2f7;
+      --fg: #1c1c1e;
+      --fg-soft: #3a3a3c;
+      --muted: #6e6e73;
+      --muted-2: #8e8e93;
+      --border: rgba(0, 0, 0, 0.12);
+      --border-strong: rgba(0, 0, 0, 0.22);
 
-      /* Theme accents */
-      --bio: #00d9a3;        /* biology — life, emerald */
-      --eng: #3aa9ff;        /* engineering — precision, cool blue */
-      --ai: #c084fc;         /* AI — intelligence, soft violet */
-      --human: #ffb86b;      /* humanity — warmth, amber */
+      --bio: #059669;
+      --eng: #2563eb;
+      --ai: #7c3aed;
+      --human: #d97706;
 
       --radius-sm: 8px;
       --radius: 14px;
@@ -55,9 +53,9 @@
       position: sticky;
       top: 0;
       z-index: 50;
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      background: rgba(7, 18, 15, 0.65);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      background: rgba(242, 242, 247, 0.85);
       border-bottom: 1px solid var(--border);
     }
     .nav-inner {
@@ -82,7 +80,7 @@
       width: 26px; height: 26px;
       border-radius: 7px;
       background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-      box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 4px 16px rgba(0, 217, 163, 0.2);
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5, 150, 105, 0.2);
     }
     .nav-links {
       display: flex;
@@ -97,7 +95,7 @@
     .nav-links a:hover { color: var(--fg); }
     .nav-cta {
       background: linear-gradient(135deg, var(--bio), var(--eng));
-      color: #062018 !important;
+      color: #ffffff !important;
       padding: 0.5rem 0.95rem;
       border-radius: 999px;
       font-weight: 700;
@@ -126,7 +124,7 @@
       inset: -20%;
       z-index: -1;
       filter: blur(70px);
-      opacity: 0.55;
+      opacity: 0.1;
       animation: drift 24s ease-in-out infinite alternate;
     }
     .aurora::before, .aurora::after, .aurora span {
@@ -168,8 +166,8 @@
       align-items: center;
       gap: 0.5rem;
       padding: 0.4rem 0.9rem;
-      background: rgba(0, 217, 163, 0.08);
-      border: 1px solid rgba(0, 217, 163, 0.25);
+      background: rgba(5, 150, 105, 0.08);
+      border: 1px solid rgba(5, 150, 105, 0.3);
       border-radius: 999px;
       color: var(--bio);
       font-size: 0.78rem;
@@ -235,16 +233,16 @@
     }
     .btn-primary {
       background: linear-gradient(135deg, var(--bio), var(--eng));
-      color: #062018;
-      box-shadow: 0 8px 32px rgba(0, 217, 163, 0.25);
+      color: #ffffff;
+      box-shadow: 0 8px 24px rgba(5, 150, 105, 0.2);
     }
-    .btn-primary:hover { transform: translateY(-1px); filter: brightness(1.05); color: #062018; }
+    .btn-primary:hover { transform: translateY(-1px); filter: brightness(1.05); color: #ffffff; }
     .btn-ghost {
-      background: rgba(255,255,255,0.04);
+      background: rgba(0,0,0,0.05);
       color: var(--fg);
       border-color: var(--border-strong);
     }
-    .btn-ghost:hover { background: rgba(255,255,255,0.08); color: var(--fg); transform: translateY(-1px); }
+    .btn-ghost:hover { background: rgba(0,0,0,0.09); color: var(--fg); transform: translateY(-1px); }
     .btn svg { width: 16px; height: 16px; }
 
     /* ---------- PROMISE BAR ---------- */
@@ -263,7 +261,7 @@
       border: 1px solid var(--border);
       border-radius: var(--radius-lg);
       padding: 1.4rem;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     }
     .promise-item {
       display: flex;
@@ -275,7 +273,7 @@
       width: 36px; height: 36px;
       border-radius: 10px;
       display: grid; place-items: center;
-      background: rgba(255,255,255,0.04);
+      background: rgba(0,0,0,0.04);
       border: 1px solid var(--border);
     }
     .promise-icon svg { width: 18px; height: 18px; }
@@ -346,7 +344,7 @@
     .scale-card:hover {
       transform: translateY(-3px);
       border-color: var(--border-strong);
-      box-shadow: 0 12px 36px rgba(0,0,0,0.4);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
     }
     .scale-card:hover::before {
       background: linear-gradient(135deg, var(--bio), var(--eng));
@@ -477,8 +475,8 @@
       margin-top: 2rem;
       padding: 2rem;
       background:
-        radial-gradient(circle at 0% 0%, rgba(0, 217, 163, 0.08), transparent 40%),
-        radial-gradient(circle at 100% 100%, rgba(255, 184, 107, 0.08), transparent 40%),
+        radial-gradient(circle at 0% 0%, rgba(5, 150, 105, 0.06), transparent 40%),
+        radial-gradient(circle at 100% 100%, rgba(217, 119, 6, 0.06), transparent 40%),
         var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius-lg);
@@ -497,73 +495,6 @@
       display: flex;
       gap: 0.6rem;
       flex-wrap: wrap;
-    }
-
-    /* ---------- LIGHT SECTION (post-hero) ---------- */
-    .light-section {
-      --bg: #f2f2f7;
-      --bg-2: #ffffff;
-      --bg-3: #e5e5ea;
-      --surface: #ffffff;
-      --surface-2: #f2f2f7;
-      --fg: #1c1c1e;
-      --fg-soft: #3a3a3c;
-      --muted: #6e6e73;
-      --muted-2: #8e8e93;
-      --border: rgba(0, 0, 0, 0.12);
-      --border-strong: rgba(0, 0, 0, 0.22);
-      --bio: #059669;
-      --eng: #2563eb;
-      --ai: #7c3aed;
-      --human: #d97706;
-
-      background: var(--bg);
-      color: var(--fg);
-    }
-    .light-section a { color: var(--bio); }
-    .light-section a:hover { color: var(--human); }
-    .light-section .btn-ghost {
-      background: rgba(0, 0, 0, 0.05);
-      color: var(--fg);
-      border-color: var(--border-strong);
-    }
-    .light-section .btn-ghost:hover { background: rgba(0, 0, 0, 0.09); color: var(--fg); }
-    .light-section .promise-icon {
-      background: rgba(0, 0, 0, 0.04);
-      border-color: var(--border);
-    }
-    .light-section .promise-grid {
-      background: var(--surface);
-      border-color: var(--border);
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    }
-    .light-section .scale-card {
-      background: var(--surface);
-      border-color: var(--border);
-    }
-    .light-section .scale-card:hover {
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    }
-    .light-section .cap {
-      background: var(--surface);
-      border-color: var(--border);
-    }
-    .light-section .why {
-      background: var(--surface);
-      border-color: var(--border);
-    }
-    .light-section .role {
-      background: var(--surface);
-      border-color: var(--border);
-      color: var(--fg-soft);
-    }
-    .light-section .role:hover { background: var(--bg-3); }
-    .light-section .support-card {
-      background:
-        radial-gradient(circle at 0% 0%, rgba(5, 150, 105, 0.06), transparent 40%),
-        radial-gradient(circle at 100% 100%, rgba(217, 119, 6, 0.06), transparent 40%),
-        var(--surface);
-      border-color: var(--border);
     }
 
     /* ---------- FOOTER ---------- */
@@ -634,8 +565,6 @@
       </a>
     </div>
   </header>
-
-  <div class="light-section">
 
   <div class="promise">
     <div class="promise-grid">
@@ -856,8 +785,6 @@
     </div>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
   </footer>
-
-  </div><!-- /.light-section -->
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
