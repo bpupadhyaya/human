@@ -39,6 +39,9 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: damaged-by
     note: "SARS-CoV-2 causes systemic cardiovascular sequelae: endothelial dysfunction, microvascular thrombosis, myocarditis, arrhythmia, and post-acute cardiovascular complications."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The cardiovascular and respiratory systems are tightly coupled via the pulmonary circuit: the right heart delivers deoxygenated blood to the alveolar capillaries, and the left heart receives oxygenated blood — making them functionally inseparable in gas exchange."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"

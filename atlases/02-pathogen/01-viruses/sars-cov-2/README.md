@@ -6,7 +6,7 @@ atlas: 02-pathogen
 scale: 01-viruses
 status: draft
 last_reviewed: 2026-06-03
-summary: "Betacoronavirus (Coronaviridae). This entry focuses on cardiac interactions: ACE2-dependent entry into cardiomyocytes, direct viral myocarditis, immune-mediated myocardial injury, microvascular dysfunction, and systemic cardiovascular consequences of COVID-19. ACE2, the primary receptor, is expressed on cardiomyocytes, endothelial cells, and pericytes."
+summary: "Betacoronavirus (Coronaviridae). Cardiac focus: ACE2-dependent entry into cardiomyocytes, direct viral myocarditis, immune-mediated myocardial injury, microvascular dysfunction, and systemic cardiovascular consequences of COVID-19."
 aliases: ["COVID-19 cardiac", "SARS-CoV-2 myocarditis", "2019-nCoV"]
 sources:
   - id: lindner-2020-cardiac-involvement
@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: damages
     note: "Systemic cardiovascular effects: acute MI (plaque rupture, microvascular thrombosis), arrhythmias, right heart failure (pulmonary hypertension), and endothelial dysfunction."
+  - target: 01-human/06-organ/lung
+    relation: damages
+    note: "SARS-CoV-2 causes diffuse alveolar damage (DAD) and ARDS in severe COVID-19: bilateral alveolar flooding, hyaline membranes, and loss of surfactant — the most lethal pulmonary manifestation."
 ---
 
 # SARS-CoV-2 (cardiac effects)
@@ -70,7 +73,13 @@ SARS-CoV-2 key components relevant to cardiac pathophysiology:
 | **M (membrane) protein** | Structural; immunosuppressive, counteracts IFN | Immune evasion during early infection |
 | **N (nucleocapsid)** | RNA packaging, replication complex | Diagnostic antigen; may contribute to intracellular pathology |
 
-## ACE2 on Cardiomyocytes
+## Infection Mechanism
+
+SARS-CoV-2 cell entry requires binding of the spike (S1) subunit to **ACE2** on the target cell surface, followed by priming of the S2 subunit by the serine protease **TMPRSS2** (or endosomal cathepsins), enabling membrane fusion and genome delivery [^hoffmann-2020-ace2-entry]. ACE2 is expressed on cardiomyocytes, cardiac endothelial cells, pericytes, and fibroblasts — providing multiple cardiac entry routes. The minimal infectious dose via aerosol is estimated at 10–100 viral particles; viral load in respiratory secretions peaks ~1–3 days before symptom onset.
+
+## Host Interactions
+
+### ACE2 on Cardiomyocytes
 
 ACE2 is a **carboxypeptidase** and a key regulator of the renin-angiotensin-aldosterone system (RAAS): it converts angiotensin II (pro-inflammatory, vasoconstrictive) to angiotensin 1-7 (cardioprotective, vasodilatory). When SARS-CoV-2 binds and internalizes ACE2, it downregulates surface ACE2 expression, shifting the local RAAS balance toward excess angiotensin II — with potential downstream effects on cardiomyocyte inflammation, oxidative stress, and fibrosis [^hoffmann-2020-ace2-entry].
 
@@ -102,7 +111,9 @@ QTc prolongation, atrial fibrillation, and ventricular arrhythmias are common in
 
 Severe ARDS-related hypoxic pulmonary vasoconstriction, pulmonary embolism, and high PEEP ventilation all increase right ventricular afterload, precipitating acute cor pulmonale in critically ill patients.
 
-## Cardiac Pathology Summary
+## Pathology
+
+### Cardiac Pathology Summary
 
 | Syndrome | Frequency | Mechanism |
 |:---|:---|:---|

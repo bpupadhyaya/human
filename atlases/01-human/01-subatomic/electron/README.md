@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: modulates
     note: "Electrostatic interactions (electron density differences) between Ca²⁺ and the EF-hand of troponin C drive the Ca²⁺-triggered conformational change that gates every heartbeat."
+  - target: 01-human/02-atomic/oxygen
+    relation: modulates
+    note: "The electron configuration of oxygen (Z=8, [He]2s²2p⁴) gives it high electronegativity and two unpaired electrons, enabling it to accept 4 electrons at Complex IV of the ETC to form water — the thermodynamic sink that drives aerobic metabolism and ATP production."
 ---
 
 # Electron

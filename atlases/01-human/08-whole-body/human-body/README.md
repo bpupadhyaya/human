@@ -33,6 +33,9 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: contains
     note: "The heart is the pump of the cardiovascular system, which is the primary determinant of VO₂max and whole-body oxygen delivery."
+  - target: 01-human/07-system/respiratory-system
+    relation: contains
+    note: "The respiratory system is one of the eleven major organ systems of the human body; it provides O₂ to the blood and removes CO₂, working in concert with the cardiovascular system to sustain aerobic metabolism."
 ---
 
 # Human body

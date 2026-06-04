@@ -6,7 +6,7 @@ atlas: 03-medicine
 scale: 01-modern
 status: draft
 last_reviewed: 2026-06-03
-summary: "Competitive antagonists at β-adrenergic receptors (primarily β1-selective in cardiac use). First-line therapy in heart failure with reduced ejection fraction (HFrEF), hypertension, stable angina, post-myocardial infarction prophylaxis, and certain arrhythmias. Reduce mortality in HFrEF by blunting chronic sympathetic toxicity — a mechanism counter-intuitive to naive physiology but now one of the most robust survival benefits in cardiovascular medicine."
+summary: "Competitive β-adrenergic receptor antagonists (primarily β1-selective). First-line therapy for HFrEF, hypertension, angina, post-MI prophylaxis, and arrhythmias. Reduce all-cause mortality in HFrEF ~34% by reversing chronic catecholamine toxicity and cardiac remodeling."
 aliases: ["beta-adrenergic blockers", "beta-adrenoreceptor antagonists", "β-blockers"]
 sources:
   - id: merit-hf-1999
@@ -93,7 +93,7 @@ The acute effect of beta-blockers — reduced HR, contractility, and CO — is w
 
 The time course of benefit (weeks-to-months) explains why patients who feel worse acutely often improve dramatically at 3–6 months if the drug is tolerated.
 
-## Indications
+## Clinical Use
 
 | Indication | Level of evidence | Comment |
 |:---|:---|:---|
@@ -149,6 +149,18 @@ Lipophilic agents (metoprolol, carvedilol, propranolol) cross the blood-brain ba
 - **Bronchospasm** — avoid non-selective agents in asthma; β1-selective agents can be used with caution in stable COPD
 - **Sexual dysfunction** — particularly with non-selective and lipophilic agents
 - **Masking hypoglycemia** — in insulin-dependent diabetics (blunts tachycardia, not sweating)
+
+## Evidence
+
+### Key Randomised Controlled Trials
+
+| Trial | Drug | Population | Key result |
+|:---|:---|:---|:---|
+| **MERIT-HF (1999)** | Metoprolol CR/XL | 3,991 HFrEF patients (EF ≤ 40%) | 34% reduction in all-cause mortality vs placebo [^merit-hf-1999] |
+| **CIBIS-II (1999)** | Bisoprolol | 2,647 HFrEF patients (NYHA III–IV) | 34% reduction in all-cause mortality; trial stopped early [^cibis-ii-1999] |
+| **COPERNICUS (2001)** | Carvedilol | 2,289 severe HFrEF (EF < 25%) | 35% reduction in all-cause mortality [^copernicus-2001] |
+
+The convergence of three independent trials with three different agents — all showing ~34–35% mortality reduction — is among the most compelling evidence in cardiovascular pharmacology. These results established beta-blockers as mandatory therapy for HFrEF in current guidelines [^heidenreich-2022-hf-guideline].
 
 ## Connections
 

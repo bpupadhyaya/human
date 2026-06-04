@@ -6,7 +6,7 @@ atlas: 03-medicine
 scale: 01-modern
 status: draft
 last_reviewed: 2026-06-03
-summary: "HMG-CoA reductase inhibitors — the most widely prescribed class of cholesterol-lowering drugs and the cornerstone of cardiovascular risk reduction. Inhibit the rate-limiting step of hepatic cholesterol synthesis, trigger compensatory LDL-receptor upregulation, and reduce plasma LDL-C by 30–55%. Landmark RCTs across primary and secondary prevention consistently demonstrate 20–35% relative risk reductions in major cardiovascular events."
+summary: "HMG-CoA reductase inhibitors — cornerstone of cardiovascular risk reduction. Reduce plasma LDL-C 30–55% via hepatic cholesterol synthesis inhibition. Landmark RCTs demonstrate 20–35% relative risk reductions in major cardiovascular events across primary and secondary prevention."
 aliases: ["HMG-CoA reductase inhibitors", "statins", "statin therapy"]
 sources:
   - id: fourS-1994
@@ -83,7 +83,7 @@ Statins produce benefits beyond LDL-C reduction that are observed at the tissue 
 
 Whether pleiotropic effects provide clinical benefit independent of LDL-C lowering remains debated; the CTT meta-analysis supports LDL-C reduction as the dominant mechanism.
 
-## Indications
+## Clinical Use
 
 Per the 2018 AHA/ACC Guideline on Management of Blood Cholesterol [^acc-aha-2018-lipid-guideline]:
 
@@ -112,7 +112,7 @@ Per the 2018 AHA/ACC Guideline on Management of Blood Cholesterol [^acc-aha-2018
 - **Moderate-intensity:** Atorvastatin 10–20 mg, Rosuvastatin 5–10 mg, Simvastatin 20–40 mg (30–50% reduction)
 - **Low-intensity:** Simvastatin 10 mg, Pravastatin 10–20 mg (<30% reduction)
 
-## Evidence Base
+## Evidence
 
 ### Landmark Trials
 

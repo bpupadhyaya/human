@@ -62,6 +62,21 @@ VALID_SCALES = [
     "08-whole-body",
 ]
 
+PATHOGEN_VALID_SCALES = [
+    "01-viruses",
+    "02-bacteria",
+    "03-fungi",
+    "04-parasites",
+    "05-prions",
+    "06-environmental",
+]
+
+MEDICINE_VALID_SCALES = [
+    "01-modern",
+    "02-traditional",
+    "03-food",
+]
+
 # Required body sections, by scale. "Overview" is the first heading after `# Name`.
 SCALE_REQUIRED_SECTIONS: dict[str, list[str]] = {
     "01-subatomic": ["Overview", "Structure", "Function", "Connections"],
@@ -324,13 +339,10 @@ def validate_entry(
     # Dispatch to per-schema validators.
     if schema_id == "human-scale-entry/v1":
         validate_human_entry(path, root, frontmatter, body, body_start_line, registry, schemas, reporter)
-    elif schema_id.startswith("pathogen-entry/") or schema_id.startswith("medicine-entry/"):
-        reporter.warn(
-            path,
-            f"schema '{schema_id}' is not yet implemented in the validator (pathogen/medicine schemas are Phase 3); "
-            f"frontmatter not validated, but cross-links targeting this entry will still resolve.",
-            line=1,
-        )
+    elif schema_id == "pathogen-entry/v1":
+        validate_pathogen_entry(path, root, frontmatter, body, body_start_line, registry, schemas, reporter)
+    elif schema_id == "medicine-entry/v1":
+        validate_medicine_entry(path, root, frontmatter, body, body_start_line, registry, schemas, reporter)
     else:
         reporter.error(path, f"unknown schema: {schema_id}", line=1)
 
@@ -435,6 +447,172 @@ def validate_human_entry(
                 f"cross_links[{i}].evidence='{evidence}' does not match any sources[].id",
                 line=1,
             )
+
+
+def _validate_common_fields(
+    path: Path,
+    frontmatter: dict,
+    body: str,
+    body_start_line: int,
+    reporter: Reporter,
+    required_sections: list[str],
+    expected_atlas: str,
+    valid_scales: list[str],
+) -> None:
+    """Shared validation logic for pathogen and medicine entries."""
+    # Required top-level fields.
+    required_fields = ["schema", "id", "name", "atlas", "scale", "status",
+                       "last_reviewed", "summary", "sources", "cross_links"]
+    for fld in required_fields:
+        if fld not in frontmatter or frontmatter[fld] is None:
+            reporter.error(path, f"frontmatter missing required field: {fld}", line=1)
+
+    # id matches folder name.
+    folder = path.parent.name
+    entry_id = frontmatter.get("id", "")
+    if entry_id and entry_id != folder:
+        reporter.error(
+            path,
+            f"id '{entry_id}' does not match folder name '{folder}'",
+            line=1,
+        )
+
+    # atlas check.
+    atlas = frontmatter.get("atlas", "")
+    if atlas and atlas != expected_atlas:
+        reporter.error(
+            path,
+            f"atlas '{atlas}' is not '{expected_atlas}' for this schema",
+            line=1,
+        )
+
+    # scale check.
+    scale = frontmatter.get("scale", "")
+    if scale and scale not in valid_scales:
+        reporter.error(
+            path,
+            f"scale '{scale}' is not valid; expected one of {valid_scales}",
+            line=1,
+        )
+
+    # Scale matches parent folder.
+    scale_folder = path.parent.parent.name
+    if scale and scale_folder in valid_scales and scale != scale_folder:
+        reporter.error(
+            path,
+            f"scale '{scale}' does not match parent folder '{scale_folder}'",
+            line=1,
+        )
+
+    # summary length.
+    summary = frontmatter.get("summary", "")
+    if summary and len(summary) > 280:
+        reporter.error(
+            path,
+            f"summary is {len(summary)} characters; must be ≤280",
+            line=1,
+        )
+
+    # Source linkability.
+    for src in frontmatter.get("sources", []) or []:
+        has_link = bool(src.get("url") or src.get("doi") or src.get("pmid"))
+        if not has_link:
+            reporter.warn(
+                path,
+                f"sources[id={src.get('id', '?')}] has no url, doi, or pmid — citation is not linkable",
+                line=1,
+            )
+
+    # Body sections.
+    headings = extract_headings(body, body_start_line)
+    h1s = [h for h in headings if h[0] == 1]
+    if not h1s:
+        reporter.error(path, "body missing top-level `# <Name>` heading", line=body_start_line)
+    else:
+        level, line, text = h1s[0]
+        name = frontmatter.get("name", "")
+        if name and text != name:
+            reporter.error(
+                path,
+                f"H1 heading '{text}' does not match frontmatter name '{name}'",
+                line=line,
+            )
+
+    section_titles = {h[2] for h in headings if h[0] == 2}
+    for required_section in required_sections:
+        if required_section not in section_titles:
+            reporter.error(
+                path,
+                f"missing required body section: ## {required_section}",
+                line=body_start_line,
+            )
+
+    # Inline citation references resolve.
+    source_ids = {s["id"] for s in frontmatter.get("sources", []) or []}
+    for m in INLINE_CITATION_RE.finditer(body):
+        cite_id = m.group(1)
+        if cite_id not in source_ids:
+            line = body_start_line + body[: m.start()].count("\n")
+            reporter.warn(
+                path,
+                f"inline citation [^{cite_id}] does not match any sources[].id",
+                line=line,
+            )
+
+    # Cross-link evidence references.
+    for i, link in enumerate(frontmatter.get("cross_links", []) or []):
+        evidence = link.get("evidence")
+        if evidence and evidence not in source_ids:
+            reporter.error(
+                path,
+                f"cross_links[{i}].evidence='{evidence}' does not match any sources[].id",
+                line=1,
+            )
+
+
+PATHOGEN_REQUIRED_SECTIONS = [
+    "Overview", "Structure", "Infection Mechanism", "Host Interactions", "Connections", "Pathology"
+]
+
+MEDICINE_REQUIRED_SECTIONS = [
+    "Overview", "Mechanism", "Clinical Use", "Evidence", "Connections"
+]
+
+
+def validate_pathogen_entry(
+    path: Path,
+    root: Path,
+    frontmatter: dict,
+    body: str,
+    body_start_line: int,
+    registry: Registry,
+    schemas: dict[str, dict],
+    reporter: Reporter,
+) -> None:
+    _validate_common_fields(
+        path, frontmatter, body, body_start_line, reporter,
+        required_sections=PATHOGEN_REQUIRED_SECTIONS,
+        expected_atlas="02-pathogen",
+        valid_scales=PATHOGEN_VALID_SCALES,
+    )
+
+
+def validate_medicine_entry(
+    path: Path,
+    root: Path,
+    frontmatter: dict,
+    body: str,
+    body_start_line: int,
+    registry: Registry,
+    schemas: dict[str, dict],
+    reporter: Reporter,
+) -> None:
+    _validate_common_fields(
+        path, frontmatter, body, body_start_line, reporter,
+        required_sections=MEDICINE_REQUIRED_SECTIONS,
+        expected_atlas="03-medicine",
+        valid_scales=MEDICINE_VALID_SCALES,
+    )
 
 
 def resolve_cross_links(

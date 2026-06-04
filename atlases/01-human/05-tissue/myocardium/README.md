@@ -37,6 +37,9 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: damaged-by
     note: "SARS-CoV-2-associated myocarditis — via direct cardiomyocyte infection, immune-mediated injury, and microvascular disease — is detectable by troponin elevation and cardiac MRI."
+  - target: 01-human/03-molecular/connexin43
+    relation: expresses
+    note: "Connexin-43 (Cx43/GJA1) is concentrated at the intercalated discs of ventricular working myocardium; its density and distribution determine the electrical coupling and conduction velocity of the tissue."
 taxonomy:
   uberon: "UBERON:0002349"
   fma: "FMA:9462"

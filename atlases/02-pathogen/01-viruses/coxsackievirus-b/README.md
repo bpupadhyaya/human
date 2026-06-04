@@ -6,7 +6,7 @@ atlas: 02-pathogen
 scale: 01-viruses
 status: draft
 last_reviewed: 2026-06-03
-summary: "Non-enveloped +ssRNA enterovirus (Picornaviridae) with six serotypes (B1–B6). The leading infectious cause of acute myocarditis and a major antecedent of dilated cardiomyopathy. Replicates cytolytically in cardiomyocytes via the coxsackievirus and adenovirus receptor (CAR); protease 2A cleaves dystrophin, initiating sarcolemmal disruption."
+summary: "Non-enveloped +ssRNA enterovirus (Picornaviridae), 6 serotypes. Leading infectious cause of acute myocarditis; major antecedent of dilated cardiomyopathy. Replicates cytolytically in cardiomyocytes via CAR; protease 2A cleaves dystrophin."
 aliases: ["CVB", "Coxsackie B virus", "enterovirus B"]
 sources:
   - id: cooper-2009-myocarditis-nejm
@@ -70,7 +70,7 @@ CVB shares the canonical picornavirus icosahedral capsid architecture:
 
 The canyon on the surface of VP1 accommodates receptor binding. Antivirals targeting this canyon (e.g., pleconaril, which obstructs receptor binding) have been studied but not yet approved for routine use.
 
-## Mechanism of Harm
+## Infection Mechanism
 
 ### Cytolytic Replication in Cardiomyocytes
 
@@ -96,7 +96,7 @@ A cardinal mechanism of CVB cardiac pathology beyond simple cytolysis: the viral
 
 Acute lytic infection triggers innate immune responses (interferon, NK cells, macrophages). In the subsequent adaptive phase, **CD8⁺ cytotoxic T lymphocytes** target virus-infected cardiomyocytes. However, molecular mimicry between CVB capsid proteins (particularly VP1) and cardiac myosin heavy chain (MHC-α, MHC-β) can generate **autoreactive T cells and antibodies** that continue to damage the myocardium after viral clearance [^rose-2016-inflammatory-cardiomyopathy-nejm]. This immune-mediated component explains why myocarditis can persist and worsen in the convalescent phase.
 
-## Cardiac Pathology
+## Pathology
 
 | Phase | Mechanism | Tissue signature |
 |:---|:---|:---|
@@ -106,7 +106,7 @@ Acute lytic infection triggers innate immune responses (interferon, NK cells, ma
 
 Approximately 30% of patients with symptomatic CVB myocarditis develop **dilated cardiomyopathy** with reduced ejection fraction, meeting criteria for HFrEF and often requiring long-term guideline-directed medical therapy (beta-blockers, ACE inhibitors/ARBs, MRAs, SGLT2 inhibitors) [^kindermann-2012-myocarditis-circulation].
 
-## Immune Signature
+## Host Interactions
 
 - **Innate:** IFN-α/β (type I interferons) restrict early replication; RIG-I/MDA5 are the primary RNA sensors.
 - **Adaptive:** CD4⁺ Th1 cells support cytotoxic CD8⁺ responses; CD8⁺ T cells are the primary effectors against infected cardiomyocytes.

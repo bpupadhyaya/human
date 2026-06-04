@@ -47,6 +47,18 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/beta-blockers
     relation: target-of
     note: "β-blockers (metoprolol, bisoprolol, carvedilol) competitively antagonise β1-AR and are first-line therapy for HFrEF, hypertension, angina, and post-MI prophylaxis."
+  - target: 01-human/03-molecular/ryr2
+    relation: modulates
+    note: "β1-AR/PKA phosphorylates RyR2 at Ser2808, increasing channel open probability and SR Ca²⁺ release gain — part of the inotropic response."
+  - target: 01-human/03-molecular/serca2a
+    relation: modulates
+    note: "β1-AR/PKA phosphorylates phospholamban (PLN) at Ser16, relieving PLN inhibition of SERCA2a → faster Ca²⁺ reuptake → lusitropy and increased SR Ca²⁺ loading."
+  - target: 01-human/03-molecular/phospholamban
+    relation: modulates
+    note: "β1-AR/PKA phosphorylates PLN at Ser16 — the dominant regulatory switch that relieves SERCA2a inhibition and produces the sympathetic lusitropic response."
+  - target: 01-human/03-molecular/hcn4
+    relation: modulates
+    note: "cAMP produced downstream of β1-AR binds the CNBD of HCN4, shifting I_f activation by ~+10 mV → faster diastolic depolarisation → positive chronotropy."
 taxonomy:
   uniprot: "P08588"
   gene_symbol: "ADRB1"

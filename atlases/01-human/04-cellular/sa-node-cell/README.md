@@ -42,6 +42,12 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: part-of
     note: "SA node cells are the automaticity cells of the sinoatrial node — the leading pacemaker and first node of the cardiac conduction system."
+  - target: 01-human/03-molecular/hcn4
+    relation: expresses
+    note: "HCN4 is the dominant pacemaker channel of SA node cells; its hyperpolarisation-activated current (I_f) drives diastolic depolarisation and sets intrinsic heart rate."
+  - target: 01-human/03-molecular/ncx1
+    relation: expresses
+    note: "NCX1 is expressed in SA node pacemaker cells; reverse-mode NCX1 generates an inward depolarising current during Ca²⁺ spark events (Ca²⁺ clock), contributing to pacemaker automaticity."
 ---
 
 # SA node cell

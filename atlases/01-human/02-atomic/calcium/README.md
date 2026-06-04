@@ -45,6 +45,15 @@ cross_links:
   - target: 01-human/01-subatomic/electron
     relation: modulated-by
     note: "The electron configuration of Ca ([Ar] 4s²) determines its ionization to Ca²⁺ and the electrostatic basis of EF-hand coordination chemistry."
+  - target: 01-human/03-molecular/ryr2
+    relation: modulated-by
+    note: "RyR2 is the primary SR Ca²⁺ release channel; its opening during CICR accounts for ~75% of the systolic Ca²⁺ transient that drives cardiac contraction."
+  - target: 01-human/03-molecular/serca2a
+    relation: modulated-by
+    note: "SERCA2a is the dominant cardiac SR Ca²⁺ reuptake pump, responsible for ~70% of cytosolic Ca²⁺ removal after each systole, setting diastolic [Ca²⁺]i."
+  - target: 01-human/03-molecular/ncx1
+    relation: modulated-by
+    note: "NCX1 in forward mode extrudes ~28% of cytosolic Ca²⁺ per beat across the sarcolemma; it is the second-largest Ca²⁺ removal mechanism after SERCA2a."
 ---
 
 # Calcium

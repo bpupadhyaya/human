@@ -48,6 +48,21 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: infected-by
     note: "SARS-CoV-2 enters ACE2-expressing cardiomyocytes; direct infection and immune-mediated injury contribute to COVID-19-associated myocarditis."
+  - target: 01-human/03-molecular/ryr2
+    relation: expresses
+    note: "Cardiomyocytes express RyR2 as the primary SR Ca²⁺ release channel, positioned at junctional SR facing Cav1.2 in T-tubule dyads."
+  - target: 01-human/03-molecular/serca2a
+    relation: expresses
+    note: "SERCA2a is the dominant Ca²⁺ reuptake pump of the cardiac SR, expressed in the longitudinal SR of ventricular and atrial cardiomyocytes."
+  - target: 01-human/03-molecular/connexin43
+    relation: expresses
+    note: "Connexin-43 (Cx43/GJA1) is the primary gap junction protein at the intercalated discs of working ventricular cardiomyocytes, enabling electrical coupling."
+  - target: 01-human/03-molecular/ncx1
+    relation: expresses
+    note: "NCX1 (SLC8A1) is expressed in the sarcolemma and T-tubule membrane of cardiomyocytes; it extrudes ~28% of Ca²⁺ per beat and shapes the action potential."
+  - target: 01-human/02-atomic/oxygen
+    relation: modulated-by
+    note: "Cardiomyocytes are obligate aerobic cells; oxygen delivery (via haemoglobin and the coronary circulation) directly sets mitochondrial ETC flux and ATP production, governing contractile capacity."
 taxonomy:
   cell_ontology: "CL:0000746"
   lineage: "mesoderm — lateral plate (cardiogenic mesoderm)"
