@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Statins — HMG-CoA reductase inhibitors, the cornerstone of cardiovascular risk reduction. Mechanism, landmark trials, indications, and key agents. Part of the Human Engineering project.">
+  <meta property="og:title" content="Statins — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Statins — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #b45309;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(180,83,9,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #78350f); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .intensity-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .intensity-grid { grid-template-columns: 1fr; } }
+    .intensity-card { border-radius: var(--radius-sm); padding: 0.85rem 1rem; }
+    .intensity-card.high { background: rgba(185,28,28,0.07); border: 1px solid rgba(185,28,28,0.2); }
+    .intensity-card.moderate { background: rgba(37,99,235,0.07); border: 1px solid rgba(37,99,235,0.2); }
+    .intensity-card.low { background: rgba(110,110,115,0.07); border: 1px solid rgba(110,110,115,0.2); }
+    .intensity-card h4 { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+    .intensity-card.high h4 { color: #b91c1c; }
+    .intensity-card.moderate h4 { color: #2563eb; }
+    .intensity-card.low h4 { color: var(--muted); }
+    .intensity-card p { font-size: 0.82rem; color: var(--fg-soft); line-height: 1.5; margin: 0; }
+
+    .principle-box { background: rgba(180,83,9,0.07); border: 1px solid rgba(180,83,9,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine Atlas
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Cardiovascular</div>
+    <h1>Statins</h1>
+    <p class="tagline">HMG-CoA reductase inhibitors — the most widely prescribed cardiovascular drug class and the cornerstone of LDL-C reduction and atherosclerosis prevention.</p>
+    <p class="subtagline">30–55% LDL-C reduction. 22% MACE reduction per 1 mmol/L LDL-C fall. 170,000 participants across 26 trials. The lower-the-better principle.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">4</span><span class="stat-label">Landmark Trials</span></div>
+      <div class="stat"><span class="stat-num">22%</span><span class="stat-label">MACE ↓ per 1 mmol/L</span></div>
+      <div class="stat"><span class="stat-num">30–55%</span><span class="stat-label">LDL-C ↓</span></div>
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">Key Agents</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Cardiovascular · HMG-CoA Reductase Inhibitors</div>
+        <h2>Statins</h2>
+        <div class="drug-class">Class: HMG-CoA reductase inhibitor &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Status: First-line lipid-lowering, primary and secondary prevention of ASCVD</div>
+        <p class="summary">Competitive inhibitors of HMG-CoA reductase — the rate-limiting enzyme in the mevalonate pathway. Reduce hepatic cholesterol synthesis → SREBP-2 activation → LDL receptor upregulation → plasma LDL-C falls 30–55%. Landmark RCTs across five decades demonstrate consistent 20–35% relative risk reductions in MACE. The Cholesterol Treatment Trialists meta-analysis (170,000 participants, 26 trials) established a linear dose-response: 22% MACE reduction per 1 mmol/L LDL-C fall.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">HMG-CoA reductase inhibitors</span>
+          <span class="alias-pill">statin therapy</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>Statins are <strong>HMG-CoA reductase inhibitors</strong> — competitive inhibitors of 3-hydroxy-3-methylglutaryl-coenzyme A reductase, the rate-limiting enzyme in the mevalonate pathway that produces cholesterol in the liver. By blocking this enzyme, statins reduce hepatic cholesterol synthesis, causing compensatory upregulation of LDL receptors on hepatocytes, which clears LDL-C from plasma. Net result: 30–55% reduction in plasma LDL-C depending on agent and dose.</p>
+          <p>They are the most widely prescribed cardiovascular drugs globally, with one of the strongest evidence bases in clinical pharmacology. Landmark trials across five decades have consistently demonstrated that lowering LDL-C with statins reduces major adverse cardiovascular events (MACE: MI, stroke, cardiovascular death) in both primary prevention (no prior CV disease) and secondary prevention (established ASCVD).</p>
+          <p>The Cholesterol Treatment Trialists (CTT) meta-analysis (2010) — pooling 26 trials and 170,000 participants — found a <strong>22% reduction in MACE per 1 mmol/L (~39 mg/dL) reduction in LDL-C</strong>, a dose-response relationship that is linear and consistent across all risk groups.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action</h3>
+          <h4>HMG-CoA Reductase Inhibition — The Mevalonate Pathway</h4>
+          <div class="pathway-block">
+<pre>
+  Acetyl-CoA
+      │
+      ▼
+   HMG-CoA  ──────────────────────────────────────────────
+      │                                                    │
+      │  HMG-CoA reductase  ← STATIN BINDS HERE           │
+      │  (rate-limiting step)                              │
+      ▼                                                   (blocked)
+  Mevalonate
+      │
+      ▼
+  Isoprenoids → Cholesterol → bile acids, steroid hormones
+              → Dolichols, Ubiquinone (CoQ10)
+              → Ras/Rho prenylation (pleiotropic effects here)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;">Statins contain a structural mimic of the HMG-CoA substrate that occupies the active site with nanomolar affinity. Competitive inhibition at this step:</p>
+          <ol class="step-list">
+            <li>Reduces intracellular cholesterol in hepatocytes</li>
+            <li>Activates <strong>SREBP-2</strong> — the cholesterol sensor transcription factor</li>
+            <li>SREBP-2 drives transcription of <strong>LDLR</strong> — LDL receptor density on hepatocytes increases</li>
+            <li>Increased LDL-R captures LDL particles from plasma → <strong>plasma LDL-C falls</strong></li>
+            <li>VLDL secretion also mildly reduced; HDL-C increases modestly (~5–10%)</li>
+          </ol>
+
+          <h4>Pleiotropic Effects</h4>
+          <p>Statins produce benefits at the tissue and system level beyond LDL-C reduction, likely through inhibition of isoprenoid intermediates (Ras/Rho prenylation):</p>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Plaque stabilization</h4>
+              <p>Reduce macrophage infiltration, upregulate eNOS, stabilize the fibrous cap — reducing rupture risk even before significant plaque volume regression</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Anti-inflammatory</h4>
+              <p>Reduced hsCRP; modulation of NF-κB and cytokine production — independent of LDL-C changes</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Endothelial function</h4>
+              <p>Improved nitric oxide bioavailability → vasodilation; reduced endothelial dysfunction — an early step in atherogenesis</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Antithrombotic</h4>
+              <p>Reduced tissue factor expression; attenuated platelet aggregation — reduces thrombotic risk at the plaque surface</p>
+            </div>
+          </div>
+          <p style="margin-top:0.75rem;">Whether pleiotropic effects confer clinical benefit <em>independent of</em> LDL-C lowering remains debated; the CTT meta-analysis supports LDL-C reduction as the dominant mechanism.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Indications</h3>
+          <p>Per the 2018 AHA/ACC Guideline on Management of Blood Cholesterol:</p>
+          <table class="data-table">
+            <tr><th>Patient Group</th><th>Recommendation</th><th>Statin Intensity</th></tr>
+            <tr>
+              <td><strong>Clinical ASCVD</strong> (secondary prevention)</td>
+              <td>High-intensity statin</td>
+              <td>Atorvastatin 40–80 mg or rosuvastatin 20–40 mg</td>
+            </tr>
+            <tr>
+              <td><strong>LDL ≥ 190 mg/dL</strong> (familial hypercholesterolemia)</td>
+              <td>High-intensity ± ezetimibe ± PCSK9i</td>
+              <td>Atorvastatin 40–80 mg or rosuvastatin 20–40 mg</td>
+            </tr>
+            <tr>
+              <td><strong>Diabetes + age 40–75</strong>, LDL 70–189 mg/dL</td>
+              <td>Moderate-intensity statin</td>
+              <td>Atorvastatin 10–20 mg, rosuvastatin 5–10 mg, simvastatin 20–40 mg</td>
+            </tr>
+            <tr>
+              <td><strong>10-yr ASCVD risk ≥ 7.5%</strong>, LDL ≥ 70 mg/dL</td>
+              <td>Moderate-intensity (discuss risk)</td>
+              <td>As above; shared decision-making with risk calculator</td>
+            </tr>
+            <tr>
+              <td><strong>Lower risk</strong> (primary prevention)</td>
+              <td>Shared decision-making</td>
+              <td>Based on 10-yr ASCVD risk calculation and patient preference</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Agents</h3>
+          <table class="data-table">
+            <tr><th>Agent</th><th>LDL-C ↓ (max dose)</th><th>Half-life</th><th>Metabolism</th><th>Notes</th></tr>
+            <tr>
+              <td><strong>Rosuvastatin</strong> (Crestor)</td>
+              <td>~55% (40 mg) · <span class="badge badge-hi">High</span></td>
+              <td>~19 h</td>
+              <td>Minimal CYP450; renal/fecal</td>
+              <td>Hydrophilic; lowest drug-drug interaction risk</td>
+            </tr>
+            <tr>
+              <td><strong>Atorvastatin</strong> (Lipitor)</td>
+              <td>~50% (80 mg) · <span class="badge badge-hi">High</span></td>
+              <td>~14 h (active metabolites longer)</td>
+              <td>CYP3A4</td>
+              <td>Most widely prescribed; both primary and secondary prevention trials</td>
+            </tr>
+            <tr>
+              <td><strong>Simvastatin</strong> (Zocor)</td>
+              <td>~38% (40 mg) · <span class="badge badge-mod">Moderate</span></td>
+              <td>~2 h (prodrug)</td>
+              <td>CYP3A4</td>
+              <td>HPS trial; dose-limited — 80 mg associated with myopathy risk</td>
+            </tr>
+            <tr>
+              <td><strong>Pravastatin</strong> (Pravachol)</td>
+              <td>~28% (40 mg) · <span class="badge badge-mod">Moderate</span></td>
+              <td>~2 h</td>
+              <td>Not CYP metabolized; renal</td>
+              <td>Lowest drug-drug interaction; WOSCOPS trial; preferred in complex regimens</td>
+            </tr>
+            <tr>
+              <td><strong>Pitavastatin</strong></td>
+              <td>~32% (4 mg) · <span class="badge badge-mod">Moderate</span></td>
+              <td>~11 h</td>
+              <td>Minimal CYP</td>
+              <td>Preferred in patients on complex multi-drug regimens; no major interactions</td>
+            </tr>
+            <tr>
+              <td><strong>Fluvastatin</strong></td>
+              <td>~24% (80 mg) · <span class="badge badge-lo">Low–Moderate</span></td>
+              <td>~3 h</td>
+              <td>CYP2C9</td>
+              <td>Weaker; less commonly used</td>
+            </tr>
+          </table>
+
+          <h4>Intensity Classification</h4>
+          <div class="intensity-grid">
+            <div class="intensity-card high">
+              <h4>High Intensity</h4>
+              <p>≥50% LDL-C reduction expected<br><br>Atorvastatin 40–80 mg<br>Rosuvastatin 20–40 mg</p>
+            </div>
+            <div class="intensity-card moderate">
+              <h4>Moderate Intensity</h4>
+              <p>30–50% LDL-C reduction<br><br>Atorvastatin 10–20 mg<br>Rosuvastatin 5–10 mg<br>Simvastatin 20–40 mg<br>Pravastatin 40–80 mg</p>
+            </div>
+            <div class="intensity-card low">
+              <h4>Low Intensity</h4>
+              <p>&lt;30% LDL-C reduction<br><br>Simvastatin 10 mg<br>Pravastatin 10–20 mg</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Evidence Base — Landmark Trials</h3>
+          <table class="data-table">
+            <tr><th>Trial</th><th>Drug</th><th>Population</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>4S (1994)</strong></td>
+              <td>Simvastatin 20–40 mg</td>
+              <td>4,444 patients with CAD, LDL 213 mg/dL mean</td>
+              <td class="trial-result">30% ↓ all-cause mortality; 34% ↓ MACE. First trial to show statins reduce mortality.</td>
+            </tr>
+            <tr>
+              <td><strong>WOSCOPS (1995)</strong></td>
+              <td>Pravastatin 40 mg</td>
+              <td>6,595 men, no prior MI, hypercholesterolemia</td>
+              <td class="trial-result">31% ↓ non-fatal MI + coronary death. Landmark primary prevention RCT.</td>
+            </tr>
+            <tr>
+              <td><strong>HPS (2002)</strong></td>
+              <td>Simvastatin 40 mg</td>
+              <td>20,536 high-risk patients, LDL ≥ 116 mg/dL</td>
+              <td class="trial-result">25% ↓ MACE across all LDL levels — including those with LDL &lt;116 mg/dL, establishing benefit regardless of baseline LDL.</td>
+            </tr>
+            <tr>
+              <td><strong>CTT meta-analysis (2010)</strong></td>
+              <td>Multiple statins</td>
+              <td>170,000 participants across 26 randomised trials</td>
+              <td class="trial-result">22% ↓ MACE per 1 mmol/L LDL-C reduction; linear dose-response with no safety floor identified.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>The Lower-the-Better Principle:</strong> CTT data support a continuous, log-linear relationship — every additional 1 mmol/L (~39 mg/dL) reduction in LDL-C reduces MACE by ~22%, with no lower safety threshold identified in statin trials. This underpins the 2018 guideline principle of maximizing statin intensity in high-risk patients and combining with ezetimibe or PCSK9 inhibitors when targets are not met.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Side Effects</h3>
+          <ul class="se-list">
+            <li><strong>Myopathy / statin-associated muscle symptoms (SAMS)</strong> — most common reason for discontinuation. Spectrum: myalgia (no CK elevation) → myositis (CK elevation) → rhabdomyolysis (CK &gt;10× ULN + renal injury; rare, ~0.1%). Risk increased by high-dose statins, CYP3A4 inhibitors (with atorvastatin/simvastatin), hypothyroidism, renal insufficiency.</li>
+            <li><strong>Liver enzyme elevation</strong> — transaminase rises &gt;3× ULN in ~0.1–1%; usually transient and dose-dependent; routine monitoring not required in the absence of symptoms.</li>
+            <li><strong>New-onset diabetes</strong> — moderate increased risk (~10–15% relative; smaller absolute risk); more prevalent with high-intensity statins in pre-diabetic patients. Clinical cardiovascular benefits overwhelmingly exceed this risk in at-risk populations.</li>
+            <li><strong>Cognitive effects</strong> — rare case reports; not confirmed in large RCTs; not considered a contraindication.</li>
+            <li><strong>Teratogenicity</strong> — contraindicated in pregnancy and breastfeeding; cholesterol is essential for fetal development (stop before conception where possible).</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Acts on</span>
+              Cardiovascular System
+            </a>
+            <a href="beta-blockers.html" class="conn-pill acts">
+              <span class="rel">Used with</span>
+              Beta-blockers
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              HMG-CoA Reductase (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Scandinavian Simvastatin Survival Study Group. Randomised trial of cholesterol lowering in 4444 patients with coronary heart disease (4S). <em>Lancet.</em> 1994;344(8934):1383-9. <a href="https://doi.org/10.1016/S0140-6736(94)90566-5">doi:10.1016/S0140-6736(94)90566-5</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/7968073/">PubMed 7968073</a></li>
+            <li>Shepherd J, Cobbe SM, Ford I, et al. Prevention of coronary heart disease with pravastatin in men with hypercholesterolemia (WOSCOPS). <em>N Engl J Med.</em> 1995;333(20):1301-7. <a href="https://doi.org/10.1056/NEJM199511163332001">doi:10.1056/NEJM199511163332001</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/7566020/">PubMed 7566020</a></li>
+            <li>Heart Protection Study Collaborative Group. MRC/BHF Heart Protection Study of cholesterol lowering with simvastatin in 20,536 high-risk individuals (HPS). <em>Lancet.</em> 2002;360(9326):7-22. <a href="https://doi.org/10.1016/S0140-6736(02)09327-3">doi:10.1016/S0140-6736(02)09327-3</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/12114036/">PubMed 12114036</a></li>
+            <li>Cholesterol Treatment Trialists' Collaboration. Efficacy and safety of more intensive lowering of LDL cholesterol: a meta-analysis of data from 170,000 participants in 26 randomised trials (CTT). <em>Lancet.</em> 2010;376(9753):1670-81. <a href="https://doi.org/10.1016/S0140-6736(10)61350-5">doi:10.1016/S0140-6736(10)61350-5</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/21067804/">PubMed 21067804</a></li>
+            <li>Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC Guideline on the Management of Blood Cholesterol. <em>J Am Coll Cardiol.</em> 2019;73(24):e285-e350. <a href="https://doi.org/10.1016/j.jacc.2018.11.003">doi:10.1016/j.jacc.2018.11.003</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/30423393/">PubMed 30423393</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="cardiovascular-system.html">Cardiovascular System</a>
+      <a href="beta-blockers.html">Beta-blockers</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
+    </div>
+    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+</body>
+</html>

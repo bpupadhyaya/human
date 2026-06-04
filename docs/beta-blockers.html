@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Beta-blockers — competitive antagonists at β-adrenergic receptors. Mechanism, indications, key agents, and landmark trial evidence. Part of the Human Engineering project.">
+  <meta property="og:title" content="Beta-blockers — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Beta-blockers — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #b91c1c;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(185,28,28,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b91c1c, #7f1d1d); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .data-table .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-a { background: rgba(5,150,105,0.12); color: #059669; }
+    .badge-b { background: rgba(37,99,235,0.12); color: #2563eb; }
+
+    .mech-item { padding: 0.75rem 1rem 0.75rem 1.1rem; border-left: 3px solid var(--border); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; background: var(--bg); margin-bottom: 0.5rem; }
+    .mech-item:last-child { margin-bottom: 0; }
+    .mech-item.danger { border-left-color: #dc2626; }
+    .mech-item.benefit { border-left-color: var(--bio); }
+    .mech-item.neutral { border-left-color: var(--eng); }
+    .mech-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .note-box { background: rgba(185,28,28,0.07); border: 1px solid rgba(185,28,28,0.2); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-top: 0.5rem; }
+    .note-box p { font-size: 0.88rem; color: var(--fg-soft); line-height: 1.55; margin: 0; }
+    .note-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine Atlas
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Cardiovascular</div>
+    <h1>Beta-blockers</h1>
+    <p class="tagline">Competitive antagonists at β-adrenergic receptors — one of the most mortality-proven drug classes in cardiovascular medicine, paradoxically beneficial in the failing heart.</p>
+    <p class="subtagline">Metoprolol, bisoprolol, carvedilol: ~34% all-cause mortality reduction in HFrEF. The mechanism is chronic remodeling reversal, not acute inotropy.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Landmark Trials</span></div>
+      <div class="stat"><span class="stat-num">~34%</span><span class="stat-label">Mortality ↓ in HFrEF</span></div>
+      <div class="stat"><span class="stat-num">β1</span><span class="stat-label">Primary Target</span></div>
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">Key Agents</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Cardiovascular · β-Adrenergic Receptor Antagonists</div>
+        <h2>Beta-blockers</h2>
+        <div class="drug-class">Class: β-Adrenergic receptor antagonist &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Status: First-line in HFrEF, HTN, stable angina, post-MI, AF rate control</div>
+        <p class="summary">Competitive, reversible antagonists at β-adrenergic receptors. Reduce heart rate, contractility, and renin release acutely; chronically reverse pathological cardiac remodeling in HFrEF by blunting catecholamine toxicity — one of the strongest survival signals in cardiovascular pharmacology (MERIT-HF, CIBIS-II, COPERNICUS).</p>
+        <div class="alias-pills">
+          <span class="alias-pill">beta-adrenergic blockers</span>
+          <span class="alias-pill">β-blockers</span>
+          <span class="alias-pill">beta-adrenoreceptor antagonists</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>Beta-blockers act by <strong>competitive, reversible antagonism at β-adrenergic receptors</strong> — primarily the β1 subtype (cardiac, renal juxtaglomerular) for agents most used in heart disease — blocking the physiological actions of norepinephrine and epinephrine at those receptors.</p>
+          <p>Their clinical utility spans multiple indications:</p>
+          <p><strong>HFrEF</strong> — reduce all-cause mortality by ~34% vs placebo, one of the strongest survival effects in cardiovascular pharmacology. <strong>Hypertension</strong> — lower cardiac output and, over weeks, vascular resistance. <strong>Stable angina</strong> — reduce heart rate and myocardial oxygen demand; extend time-to-ischemia on exercise. <strong>Post-MI prophylaxis</strong> — reduce reinfarction and sudden cardiac death. <strong>AF rate control</strong> — slow AV-nodal conduction. <strong>Certain arrhythmias</strong> — CPVT, long-QT, inappropriate sinus tachycardia.</p>
+          <p>The paradox that agents reducing contractility benefit patients with already-reduced contractility (HFrEF) was one of the great surprises of 20th-century cardiology. It is understood through chronic catecholamine toxicity: in HFrEF, persistently elevated sympathetic drive down-regulates β1-AR, promotes cardiomyocyte apoptosis, and drives pathological remodeling. Beta-blockers interrupt this vicious cycle.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action</h3>
+          <h4>Molecular Target</h4>
+          <p>Beta-blockers bind competitively to the <strong>orthosteric binding pocket</strong> of β-adrenergic receptors — the same pocket occupied by norepinephrine and epinephrine. By occupying this pocket without activating Gαs, they prevent receptor coupling to adenylyl cyclase, blocking the cAMP → PKA signaling cascade. Key PKA substrates affected in the heart:</p>
+          <table class="data-table">
+            <tr><th>PKA Substrate</th><th>Normal Function</th><th>Effect of Beta-blockade</th></tr>
+            <tr><td>Cav1.2 (L-type Ca²⁺ channel)</td><td>Ca²⁺ influx driving contraction</td><td>Reduced Ca²⁺ influx → reduced contractility (acute)</td></tr>
+            <tr><td>RyR2 (ryanodine receptor)</td><td>Sarcoplasmic Ca²⁺ release</td><td>Reduced Ca²⁺ release; less diastolic Ca²⁺ leak</td></tr>
+            <tr><td>Phospholamban</td><td>SERCA2a inhibitor (phosphorylation relieves inhibition)</td><td>Less SERCA disinhibition; slightly slower relaxation but preserved</td></tr>
+            <tr><td>Troponin I</td><td>Reduces myofilament Ca²⁺ sensitivity when phosphorylated</td><td>Less reduction in Ca²⁺ sensitivity</td></tr>
+            <tr><td>HCN4 (SA node)</td><td>Drives diastolic depolarization (funny current)</td><td>Slowed diastolic depolarization → reduced heart rate</td></tr>
+          </table>
+
+          <h4>Acute vs. Chronic Effects</h4>
+          <p>The <strong>acute effect</strong> — reduced HR, contractility, and CO — is what naive physiology predicts and why beta-blockers are dangerous in acute decompensated HF. Their benefit in HFrEF is a <strong>chronic remodeling effect</strong> apparent over weeks to months:</p>
+          <div class="mech-item danger">
+            <h4>Acute (days 1–7): Hemodynamic depression</h4>
+            <p>Reduced HR, SV, and CO. Patients may feel worse. Do NOT initiate in decompensated HF — wait until euvolemic.</p>
+          </div>
+          <div class="mech-item neutral">
+            <h4>Weeks 2–8: Receptor up-regulation</h4>
+            <p>Chronic β1-AR overstimulation in HFrEF down-regulates receptor density by ~50%. Beta-blocker therapy reduces activation → receptors up-regulate over weeks, restoring sensitivity.</p>
+          </div>
+          <div class="mech-item benefit">
+            <h4>Months 2–6: Reverse remodeling</h4>
+            <p>Reduced catecholamine-driven apoptosis → less ongoing cardiomyocyte loss. Ventricles often decrease in volume; EF may improve dramatically (e.g., 15% → 35%). This is <strong>reverse remodeling</strong> — one of the most robust phenomena in heart failure pharmacotherapy.</p>
+          </div>
+          <div class="mech-item benefit">
+            <h4>Ongoing: Reduced arrhythmic death</h4>
+            <p>Beta-blockade raises VF threshold, reduces ectopic automaticity, and blunts catecholamine surges that trigger fatal arrhythmias — the primary mechanism behind reduced sudden cardiac death.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Indications</h3>
+          <table class="data-table">
+            <tr><th>Indication</th><th>Evidence Level</th><th>Comment</th></tr>
+            <tr>
+              <td><strong>HFrEF (EF &lt; 40%)</strong></td>
+              <td><span class="badge badge-a">Class I · Level A</span></td>
+              <td>Carvedilol, metoprolol succinate, or bisoprolol — these three specifically. Other beta-blockers NOT substitutable.</td>
+            </tr>
+            <tr>
+              <td><strong>Hypertension</strong></td>
+              <td><span class="badge badge-a">Class I</span></td>
+              <td>β1-selective preferred; avoid in asthma and severe COPD</td>
+            </tr>
+            <tr>
+              <td><strong>Stable angina</strong></td>
+              <td><span class="badge badge-a">Class I</span></td>
+              <td>Reduce ischemic burden and exercise-induced angina via HR and O₂ demand reduction</td>
+            </tr>
+            <tr>
+              <td><strong>Post-MI (LVEF &lt; 40%)</strong></td>
+              <td><span class="badge badge-a">Class I · Level A</span></td>
+              <td>Start within 24 h of stabilization in STEMI; continue indefinitely</td>
+            </tr>
+            <tr>
+              <td><strong>AF — ventricular rate control</strong></td>
+              <td><span class="badge badge-a">Class I</span></td>
+              <td>Metoprolol or bisoprolol preferred; caution in decompensated HF</td>
+            </tr>
+            <tr>
+              <td><strong>CPVT</strong></td>
+              <td><span class="badge badge-a">Class I</span></td>
+              <td>Catecholaminergic polymorphic VT — non-selective nadolol often preferred</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Agents</h3>
+          <table class="data-table">
+            <tr><th>Agent</th><th>Selectivity</th><th>Notable Pharmacology</th><th>Key Trial</th></tr>
+            <tr>
+              <td><strong>Metoprolol succinate</strong> (CR/XL)</td>
+              <td>β1-selective</td>
+              <td>Extended-release; lipophilic; CYP2D6 substrate</td>
+              <td>MERIT-HF — 34% mortality reduction in HFrEF</td>
+            </tr>
+            <tr>
+              <td><strong>Bisoprolol</strong></td>
+              <td>β1-selective (highest)</td>
+              <td>Once daily; dual renal/hepatic excretion; intermediate lipophilicity</td>
+              <td>CIBIS-II — 34% mortality reduction in HFrEF</td>
+            </tr>
+            <tr>
+              <td><strong>Carvedilol</strong></td>
+              <td>Non-selective β + α1</td>
+              <td>α1-blockade adds vasodilation; antioxidant properties; lipophilic; twice daily</td>
+              <td>COPERNICUS — 35% mortality reduction in severe HFrEF</td>
+            </tr>
+            <tr>
+              <td><strong>Atenolol</strong></td>
+              <td>β1-selective</td>
+              <td>Hydrophilic; once daily; renal excretion; minimal CNS penetration</td>
+              <td>Not studied in HFrEF; used in HTN/angina</td>
+            </tr>
+            <tr>
+              <td><strong>Propranolol</strong></td>
+              <td>Non-selective</td>
+              <td>Lipophilic; CNS penetration; used in tremor, migraine, HOCM, portal hypertension</td>
+              <td>Historical; not preferred in HFrEF</td>
+            </tr>
+            <tr>
+              <td><strong>Nadolol</strong></td>
+              <td>Non-selective</td>
+              <td>Long half-life; hydrophilic; minimal CNS; preferred in CPVT</td>
+              <td>—</td>
+            </tr>
+          </table>
+          <div class="note-box">
+            <p><strong>Critical point:</strong> Only metoprolol succinate, bisoprolol, and carvedilol have demonstrated mortality benefit in HFrEF randomized controlled trials. Other beta-blockers — even other β1-selective agents — should <strong>NOT</strong> be substituted in HFrEF without evidence.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pharmacology</h3>
+          <h4>β1-Selectivity</h4>
+          <p>Selectivity is dose-dependent. At therapeutic doses: metoprolol is ~75× more potent at β1 vs β2; bisoprolol ~100×; carvedilol is non-selective (β1 = β2), plus α1 blockade. At high doses, "cardioselective" agents lose β2 selectivity — important in patients with asthma or COPD.</p>
+
+          <h4>Lipophilicity and CNS Penetration</h4>
+          <p>Lipophilic agents (metoprolol, carvedilol, propranolol) cross the blood-brain barrier → greater CNS side effects (vivid dreams, fatigue, depression). Hydrophilic agents (atenolol, nadolol; bisoprolol is intermediate) have less CNS penetration and may be preferred in susceptible patients.</p>
+
+          <h4>Half-life and Dosing</h4>
+          <table class="data-table">
+            <tr><th>Agent</th><th>Half-life</th><th>Dosing</th></tr>
+            <tr><td><strong>Bisoprolol</strong></td><td>~10–12 h</td><td>Once daily</td></tr>
+            <tr><td><strong>Metoprolol succinate</strong></td><td>~3–7 h (extended-release matrix ~24 h effective)</td><td>Once daily</td></tr>
+            <tr><td><strong>Carvedilol</strong></td><td>~7–10 h</td><td>Twice daily (carvedilol phosphate CR: once daily)</td></tr>
+            <tr><td><strong>Atenolol</strong></td><td>~6–9 h</td><td>Once daily</td></tr>
+            <tr><td><strong>Nadolol</strong></td><td>~20–24 h</td><td>Once daily</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Side Effects</h3>
+          <ul class="se-list">
+            <li><strong>Bradycardia and AV block</strong> — dose-limiting; monitor HR and PR interval; titrate up slowly</li>
+            <li><strong>Hypotension</strong> — especially carvedilol (α1 blockade); initiate at low dose in HFrEF and titrate over weeks</li>
+            <li><strong>Fatigue</strong> — common at initiation; often improves at 4–8 weeks as remodeling progresses</li>
+            <li><strong>Worsening HF symptoms at initiation</strong> — defer start if decompensated; begin only when euvolemic</li>
+            <li><strong>Bronchospasm</strong> — avoid non-selective agents in asthma; β1-selective agents can be used cautiously in stable COPD</li>
+            <li><strong>Sexual dysfunction</strong> — particularly with non-selective and lipophilic agents</li>
+            <li><strong>Masking hypoglycemia</strong> — blunts tachycardia (not sweating) in insulin-dependent diabetics; use cautiously</li>
+            <li><strong>CNS effects</strong> — vivid dreams, fatigue, depression with lipophilic agents (metoprolol, propranolol); consider switching to hydrophilic agent</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Acts on</span>
+              Cardiovascular System
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Acts on</span>
+              Heart (entry pending)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              β1-Adrenergic Receptor (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>MERIT-HF Study Group. Effect of metoprolol CR/XL in chronic heart failure (MERIT-HF). <em>Lancet.</em> 1999;353(9169):2001-7. <a href="https://doi.org/10.1016/S0140-6736(99)04440-2">doi:10.1016/S0140-6736(99)04440-2</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/10376614/">PubMed 10376614</a></li>
+            <li>CIBIS-II Investigators. The Cardiac Insufficiency Bisoprolol Study II (CIBIS-II). <em>Lancet.</em> 1999;353(9146):9-13. <a href="https://doi.org/10.1016/S0140-6736(98)11181-9">doi:10.1016/S0140-6736(98)11181-9</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/10023943/">PubMed 10023943</a></li>
+            <li>Packer M, Coats AJ, Fowler MB, et al. Effect of carvedilol on survival in severe chronic heart failure (COPERNICUS). <em>N Engl J Med.</em> 2001;344(22):1651-8. <a href="https://doi.org/10.1056/NEJM200105313442201">doi:10.1056/NEJM200105313442201</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/11386263/">PubMed 11386263</a></li>
+            <li>Bristow MR. β-Adrenergic receptor blockade in chronic heart failure. <em>Circulation.</em> 2000;101(5):558-69. <a href="https://doi.org/10.1161/01.CIR.101.5.558">doi:10.1161/01.CIR.101.5.558</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/10662755/">PubMed 10662755</a></li>
+            <li>Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. <em>Circulation.</em> 2022;145(18):e895-e1032. <a href="https://doi.org/10.1161/CIR.0000000000001063">doi:10.1161/CIR.0000000000001063</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/35363499/">PubMed 35363499</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="cardiovascular-system.html">Cardiovascular System</a>
+      <a href="statins.html">Statins</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
+    </div>
+    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+</body>
+</html>
