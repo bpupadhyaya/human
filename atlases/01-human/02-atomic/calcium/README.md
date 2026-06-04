@@ -6,7 +6,7 @@ atlas: 01-human
 scale: 02-atomic
 status: draft
 last_reviewed: 2026-06-03
-summary: "Ca²⁺ (atomic number 20, alkaline earth metal). The most abundant mineral in the human body (≈1 kg in bone/teeth) and the preeminent intracellular second messenger. In the heart, a 10-fold cytosolic Ca²⁺ transient (100 nM → 1 µM during systole) triggers troponin C conformational change and every contraction via CICR from the sarcoplasmic reticulum."
+summary: "Ca²⁺ — the preeminent intracellular second messenger. In the heart, a 10-fold cytosolic Ca²⁺ transient (100 nM → 1 µM during systole) triggers troponin C and every contraction via CICR from the SR. β1-AR/PKA signaling and SERCA2a tune the Ca²⁺ transient."
 aliases: ["Ca", "Ca²⁺", "calcium ion", "calcium signaling"]
 sources:
   - id: clapham-2007-calcium-signaling

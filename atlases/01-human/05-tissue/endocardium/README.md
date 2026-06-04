@@ -6,7 +6,7 @@ atlas: 01-human
 scale: 05-tissue
 status: draft
 last_reviewed: 2026-06-03
-summary: "The innermost lining of all four cardiac chambers and valve surfaces — a continuous endothelial monolayer on a subendocardial connective tissue layer. Serves as a blood-contacting barrier, paracrine signaling hub (endothelin-1, nitric oxide) to adjacent cardiomyocytes, and the embryological origin of the valves via endocardial-to-mesenchymal transition. Site of infective endocarditis and Loeffler endocarditis."
+summary: "Innermost lining of all four cardiac chambers and valves — a blood-contacting endothelial monolayer and paracrine hub (ET-1, NO) modulating subjacent cardiomyocytes. Embryological origin of valves via EndMT. Site of infective endocarditis and Loeffler endocarditis."
 aliases: ["cardiac endothelium", "endocardial endothelium"]
 sources:
   - id: brutsaert-2003-endocardial-endothelium

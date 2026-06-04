@@ -6,7 +6,7 @@ atlas: 01-human
 scale: 01-subatomic
 status: draft
 last_reviewed: 2026-06-03
-summary: "The fundamental subatomic particle whose configuration governs all chemical bonding and reactivity in biology. Redox reactions are electron transfers; membrane potentials arise from charge separation; the mitochondrial electron transport chain generates the ATP that powers every heartbeat."
+summary: "Subatomic particle governing all chemical bonding in biology. Redox reactions are electron transfers; membrane potentials arise from charge separation; the mitochondrial electron transport chain generates the ATP that powers every heartbeat."
 aliases: ["e⁻", "valence electron", "conduction electron"]
 sources:
   - id: lodish-molecular-cell-biology

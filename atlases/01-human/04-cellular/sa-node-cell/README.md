@@ -6,7 +6,7 @@ atlas: 01-human
 scale: 04-cellular
 status: draft
 last_reviewed: 2026-06-03
-summary: "The sinoatrial (SA) node pacemaker cell — the heart's spontaneously-depolarizing automaticity cell. Lacks a stable resting potential; generates rhythmic action potentials via the 'funny current' (I_f through HCN4 channels), L-type and T-type Ca²⁺ channels, and clock-like SR Ca²⁺ release events. The intrinsic pacemaker of the entire heart, modulated by sympathetic (β1-AR → +chronotropy) and parasympathetic (M2 → −chronotropy) input."
+summary: "SA node pacemaker cell with no stable resting potential. Spontaneous depolarization via funny current (HCN4/I_f), L-type and T-type Ca²⁺ channels, and Ca-clock SR release. Intrinsic rate 60–100 bpm; tuned by sympathetic (β1-AR → +chronotropy) and vagal (M2 → −chronotropy) input."
 aliases: ["sinoatrial node cell", "SA nodal cell", "pacemaker cell", "P cell"]
 sources:
   - id: difrancesco-2010-funny-current

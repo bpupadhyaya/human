@@ -6,7 +6,7 @@ atlas: 01-human
 scale: 08-whole-body
 status: draft
 last_reviewed: 2026-06-03
-summary: "The integrated human organism — the scale at which disease presents, treatment is experienced, and medicine is evaluated. This entry focuses on cardiovascular coupling at the whole-body level: the Fick principle linking cardiac output to oxygen delivery, autonomic regulation and HRV as windows into homeostasis, and the RAAS as a whole-body volume/pressure regulator."
+summary: "The integrated human organism — the scale at which disease presents and treatment is evaluated. Cardiovascular focus: Fick principle linking cardiac output to O₂ delivery, HRV as autonomic readout, and RAAS as whole-body volume/pressure regulator."
 aliases: ["whole body", "organism", "human physiology"]
 sources:
   - id: guyton-hall-textbook

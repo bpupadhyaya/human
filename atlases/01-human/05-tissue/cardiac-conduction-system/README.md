@@ -6,7 +6,7 @@ atlas: 01-human
 scale: 05-tissue
 status: draft
 last_reviewed: 2026-06-03
-summary: "Specialized cardiac tissue that generates and distributes the electrical impulse governing each heartbeat: SA node → internodal tracts → AV node → Bundle of His → left and right bundle branches → Purkinje fibers. Each segment has distinct automaticity, conduction velocity, and refractory period. Ensures atrial contraction precedes ventricular by ~120 ms (PR interval) and synchronizes ventricular activation for efficient ejection."
+summary: "Specialized tissue routing the cardiac impulse: SA node → AV node → Bundle of His → bundle branches → Purkinje fibers. The AV delay (~120 ms PR interval) ensures atrial kick before ventricular systole; Purkinje network synchronizes ventricular activation for efficient ejection."
 aliases: ["conduction system", "cardiac impulse system", "specialized conduction tissue"]
 sources:
   - id: dobrzynski-2007-sa-node-pacemaking
