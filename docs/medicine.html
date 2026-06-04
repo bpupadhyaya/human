@@ -242,6 +242,18 @@
 
     .card.food       { background: linear-gradient(135deg, #fb923c 0%, #ea7517 100%); }
     .card.spices     { background: linear-gradient(135deg, #facc15 0%, #ca8a04 100%); }
+
+    .entry-subsection { margin-top: 1.75rem; }
+    .entry-sub-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.65rem; }
+    .entry-list { display: flex; flex-direction: column; gap: 0.5rem; }
+    .entry-row { display: flex; align-items: center; gap: 1rem; padding: 0.85rem 1.1rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-left: 4px solid var(--border); border-radius: var(--radius); text-decoration: none; color: var(--fg); transition: all .15s; }
+    .entry-row:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.07); border-color: var(--border); color: var(--fg); }
+    .entry-row.cardio { border-left-color: #dc2626; }
+    .entry-info { flex: 1; min-width: 0; }
+    .entry-name { font-weight: 700; font-size: 0.95rem; color: var(--fg); }
+    .entry-class { font-size: 0.8rem; color: var(--muted); margin-top: 0.15rem; }
+    .entry-stat { font-size: 0.8rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+    .entry-arrow { color: var(--muted-2); flex-shrink: 0; width: 16px; height: 16px; }
     .card.probiotics { background: linear-gradient(135deg, #f472b6 0%, #ec4899 100%); }
 
     /* ---------- CONTRIBUTE CTA ---------- */
@@ -415,7 +427,7 @@
           </div>
         </a>
 
-        <a class="card cardio" href="#">
+        <a class="card cardio" href="#cardio">
           <div class="card-icon">
             <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
           </div>
@@ -446,6 +458,29 @@
         </a>
 
       </div>
+
+      <div class="entry-subsection" id="cardio">
+        <p class="entry-sub-label">Cardiovascular &mdash; entries</p>
+        <div class="entry-list">
+          <a class="entry-row cardio" href="beta-blockers.html">
+            <div class="entry-info">
+              <div class="entry-name">Beta-blockers</div>
+              <div class="entry-class">β-Adrenergic receptor antagonists &nbsp;·&nbsp; Metoprolol, bisoprolol, carvedilol</div>
+            </div>
+            <span class="entry-stat">~34% mortality ↓ in HFrEF</span>
+            <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+          </a>
+          <a class="entry-row cardio" href="statins.html">
+            <div class="entry-info">
+              <div class="entry-name">Statins</div>
+              <div class="entry-class">HMG-CoA reductase inhibitors &nbsp;·&nbsp; Atorvastatin, rosuvastatin, simvastatin</div>
+            </div>
+            <span class="entry-stat">22% MACE ↓ per 1 mmol/L LDL-C</span>
+            <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
     </section>
 
     <section class="cat-section" id="traditional">
