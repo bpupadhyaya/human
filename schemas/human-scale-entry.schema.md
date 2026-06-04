@@ -149,6 +149,8 @@ Recommended for any scale:
 
 ## Scale-specific structure (the optional `taxonomy` field)
 
+> ⚠️ **DEPRECATED** — `taxonomy:` is superseded by the **`xrefs:`** block defined in [`entry-frontmatter.schema.md`](entry-frontmatter.schema.md#external-cross-references--the-xrefs-block). New entries should use `xrefs:` (e.g., `xrefs.uniprot: "P12883"` instead of `taxonomy.uniprot: "P12883"`). Existing entries using `taxonomy:` remain valid; migration to `xrefs:` is non-blocking and will happen as entries are revisited.
+
 For some scales, structured data beyond prose is valuable. When provided, it lives in the `taxonomy` field of the frontmatter and follows scale-specific conventions:
 
 ### `03-molecular`

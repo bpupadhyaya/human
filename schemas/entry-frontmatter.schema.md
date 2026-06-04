@@ -2,7 +2,7 @@
 
 The **shared YAML frontmatter contract** that every atlas entry — Human, Pathogen, Medicine, Vaccine — must satisfy. Atlas-specific fields live in per-atlas extension schemas; this doc defines the spine they all inherit.
 
-> **Status:** Proposal — does not yet have a JSON Schema companion. Lives alongside the existing per-atlas schemas (`human-scale-entry.schema.md` and the implicit `pathogen-entry/v1`, `medicine-entry/v1` referenced in entry frontmatter). If accepted, the per-atlas schemas become extensions of this one.
+> **Status:** Adopted. JSON Schema companion not yet written. Per-atlas schemas — `human-scale-entry.schema.md`, `pathogen-entry.schema.md` *(planned)*, `medicine-entry.schema.md` *(planned)*, `vaccine-entry.schema.md` — extend this spine.
 
 **Consumers:**
 - All atlas entries: `atlases/01-human/**/README.md`, `atlases/02-pathogen/**/README.md`, `atlases/03-medicine/**/README.md`, `atlases/04-vaccine/**/README.md` (planned)

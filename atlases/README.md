@@ -21,6 +21,7 @@ The work is organized into knowledge bases — *atlases* — each modeled at eve
 | 01 | **[The Human Atlas](01-human/README.md)** | Host biology, subatomic to whole-body | Building |
 | 02 | **[The Pathogen Atlas](02-pathogen/README.md)** | Viruses, bacteria, fungi, parasites, prions, microbiome | Building |
 | 03 | **[The Medicine Atlas](03-medicine/README.md)** | Modern, traditional, and food medicines | Building |
+| 04 | **[The Vaccine Atlas](04-vaccine/README.md)** | Every vaccine humanity has built — by platform | Building |
 
 ## Planned atlases
 

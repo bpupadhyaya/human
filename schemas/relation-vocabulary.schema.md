@@ -2,7 +2,7 @@
 
 The **controlled list of relation names** that every cross-link in the project's knowledge graph must use, with formal mappings to OBO Foundry ontologies (RO, BFO) so the graph is interoperable with external biomedical reasoning tools.
 
-> **Status:** Proposal — supersedes the relation tables currently embedded in [`cross-link.schema.md`](cross-link.schema.md). The intent is that `cross-link.schema.md` keeps only the *edge data structure* (target/scale/evidence/note fields) and defers the *vocabulary* to this file, so the two concerns are cleanly separated.
+> **Status:** Adopted. Supersedes the relation tables currently embedded in [`cross-link.schema.md`](cross-link.schema.md). `cross-link.schema.md` will be slimmed in a follow-up to keep only the *edge data structure* (target/scale/evidence/note fields); the *vocabulary* lives here.
 
 **Consumers:**
 - All atlas entries (every `cross_links[].relation` must be a member here)
@@ -201,6 +201,7 @@ A new atlas (planned `04-vaccine/` or as a sub-tree under `03-medicine/02-vaccin
 | `elicits` | (no inverse) | Mrna-1273 `elicits` neutralizing-antibody-response |
 | `induces-memory-in` | (no inverse) | Mrna-1273 `induces-memory-in` cd4-t-cell |
 | `delivered-via` | (no inverse) | Mrna-1273 `delivered-via` lipid-nanoparticle |
+| `causes-adverse-event-in` | `experiences-adverse-event-from` | Mrna-1273 `causes-adverse-event-in` heart (rare myocarditis). Reserve for *undesired* effects; desired immune effects use `elicits`. |
 
 ### V → V
 
@@ -244,15 +245,18 @@ This is `relation-vocabulary/v1`. Adding new relations is **non-breaking** (exis
 
 ---
 
-## Open issues to resolve before adoption
+## Resolved decisions
 
-These are flagged for discussion, not yet decided:
+- ✅ **Vaccine atlas placement** — Adopted as top-level **`atlases/04-vaccine/`**. Vaccines are the primary *output artifact* of the project's mission (the thing the AI agent must design); top-level standing makes V → P / V → H / V → V relations cleaner than `03-medicine/02-vaccines/` would.
+- ✅ **`taxonomy` → `xrefs`** — `taxonomy:` is **deprecated** in `human-scale-entry/v1`. New entries use `xrefs:` from the spine. Existing entries using `taxonomy:` remain valid; migration is non-blocking.
+
+## Open issues
+
+Still flagged for discussion:
 
 1. **Where does `cross_links[].relation` legality live?** Today the source/target/relation triple legality is enforced via tables in `cross-link.schema.md`. Proposal: keep it there (data-structure spec) and reference *into* this vocabulary doc by name.
 2. **`binds` in multiple atlas pairs.** `binds` appears as both H→H and P→H today. The simplest model is: the *relation* is the same; only the source/target atlas pair differs. The validator dispatches behavior off the pair, not the relation name. Confirm this is acceptable.
-3. **Vaccine atlas placement.** The relations above assume `04-vaccine/`. If vaccines instead live as `03-medicine/02-vaccines/`, the V → ... relations are still well-defined (just with M as their domain) but lose semantic clarity. Worth deciding before adding many vaccine entries.
-4. **RO mapping rigor.** Several relations above are marked `(project-specific)` for now. A follow-up sweep with a domain-experienced ontologist (or the OBO community) would tighten these.
-5. **Whether `taxonomy` (in current `human-scale-entry`) should be replaced by `xrefs`** (introduced in `entry-frontmatter.schema.md`). They overlap heavily — `taxonomy.uniprot` ≡ `xrefs.uniprot`. Recommend deprecating `taxonomy` in favor of `xrefs`.
+3. **RO mapping rigor.** Several relations above are marked `(project-specific)` for now. A follow-up sweep with a domain-experienced ontologist (or the OBO community) would tighten these.
 
 ---
 
