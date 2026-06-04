@@ -7,25 +7,25 @@
   <meta property="og:title" content="Heart Simulator — Human Engineering">
   <meta property="og:description" content="Interactive 0D coupled cardiovascular simulator. Explore hemodynamics across six clinical scenarios.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#07120f">
+  <meta name="theme-color" content="#f2f2f7">
   <title>Heart Simulator — Human Engineering</title>
   <style>
     :root {
-      --bg: #07120f;
-      --bg-2: #0c1a16;
-      --bg-3: #0f2019;
-      --surface: #0d1a16;
-      --surface-2: #122620;
-      --fg: #ecfff7;
-      --fg-soft: #d3ebde;
-      --muted: #8ea69b;
-      --muted-2: #6a8278;
-      --border: rgba(255, 255, 255, 0.07);
-      --border-strong: rgba(255, 255, 255, 0.14);
-      --bio: #00d9a3;
-      --eng: #3aa9ff;
-      --ai: #c084fc;
-      --human: #ffb86b;
+      --bg: #f2f2f7;
+      --bg-2: #ffffff;
+      --bg-3: #e8e8ed;
+      --surface: #ffffff;
+      --surface-2: #f2f2f7;
+      --fg: #1c1c1e;
+      --fg-soft: #3a3a3c;
+      --muted: #6e6e73;
+      --muted-2: #8e8e93;
+      --border: rgba(0, 0, 0, 0.08);
+      --border-strong: rgba(0, 0, 0, 0.16);
+      --bio: #00a878;
+      --eng: #0071e3;
+      --ai: #6e40c9;
+      --human: #c84b00;
       --radius-sm: 8px;
       --radius: 14px;
       --radius-lg: 20px;
@@ -43,8 +43,8 @@
       text-rendering: optimizeLegibility;
       overflow-x: hidden;
     }
-    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
-    a:hover { color: var(--human); }
+    a { color: var(--eng); text-decoration: none; transition: color .15s ease; }
+    a:hover { color: var(--bio); }
 
     /* ---------- NAV ---------- */
     nav {
@@ -53,7 +53,7 @@
       z-index: 50;
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
-      background: rgba(7, 18, 15, 0.80);
+      background: rgba(242, 242, 247, 0.88);
       border-bottom: 1px solid var(--border);
     }
     .nav-inner {
@@ -77,8 +77,8 @@
     .brand-mark {
       width: 24px; height: 24px;
       border-radius: 7px;
-      background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-      box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 4px 16px rgba(0, 217, 163, 0.18);
+      background: conic-gradient(from 140deg, #00a878, #0071e3, #6e40c9, #c84b00, #00a878);
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.06), 0 4px 16px rgba(0, 168, 120, 0.18);
     }
     .nav-links {
       display: flex;
@@ -110,7 +110,7 @@
       font-weight: 800;
       letter-spacing: -0.03em;
       line-height: 1.1;
-      background: linear-gradient(120deg, var(--bio) 0%, var(--eng) 50%, var(--human) 100%);
+      background: linear-gradient(120deg, #00a878 0%, #0071e3 50%, #6e40c9 100%);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
@@ -143,10 +143,11 @@
       gap: 1rem;
     }
     .panel-card {
-      background: linear-gradient(180deg, var(--surface), var(--bg-2));
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       overflow: hidden;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05), 0 2px 12px rgba(0,0,0,0.04);
     }
     .panel-card-header {
       padding: 0.7rem 1rem 0.5rem;
@@ -159,12 +160,12 @@
     }
     .panel-card-body { padding: 0.85rem 1rem; }
 
-    /* SVG heart anatomy */
+    /* SVG heart anatomy — keep dark: it is a visualization element */
     #anatomy-svg {
       display: block;
       width: 100%;
       height: auto;
-      background: var(--bg);
+      background: #07120f;
     }
 
     /* Readout grid */
@@ -216,24 +217,24 @@
       padding: 0.5rem 0.9rem;
       border-radius: var(--radius-sm);
       border: 1px solid var(--border-strong);
-      background: rgba(255,255,255,0.04);
+      background: var(--surface);
       color: var(--fg);
       font-size: 0.88rem;
       font-weight: 600;
       cursor: pointer;
       transition: background .15s ease, border-color .15s ease;
     }
-    .ctrl-btn:hover { background: rgba(255,255,255,0.08); border-color: var(--bio); }
+    .ctrl-btn:hover { background: var(--bg-3); border-color: var(--bio); }
     .ctrl-select {
       padding: 0.45rem 0.7rem;
       border-radius: var(--radius-sm);
       border: 1px solid var(--border-strong);
-      background: rgba(255,255,255,0.04);
+      background: var(--surface);
       color: var(--fg);
       font-size: 0.88rem;
       cursor: pointer;
     }
-    .ctrl-select option { background: #0c1a16; }
+    .ctrl-select option { background: #ffffff; }
     .ctrl-label {
       font-size: 0.8rem;
       color: var(--muted);
@@ -264,7 +265,7 @@
       -webkit-appearance: none;
       width: 100%;
       height: 4px;
-      background: var(--surface-2);
+      background: #d1d1d6;
       border-radius: 2px;
       outline: none;
     }
@@ -274,7 +275,7 @@
       border-radius: 50%;
       background: var(--bio);
       cursor: pointer;
-      box-shadow: 0 0 6px rgba(0, 217, 163, 0.4);
+      box-shadow: 0 0 6px rgba(0, 168, 120, 0.35);
     }
 
     /* Scenario buttons */
@@ -297,8 +298,8 @@
     }
     .scenario strong { display: block; font-size: 0.88rem; color: var(--fg); margin-bottom: 0.2rem; }
     .scenario small { color: var(--muted); font-size: 0.76rem; line-height: 1.4; }
-    .scenario:hover { border-color: var(--border-strong); background: var(--surface-2); }
-    .scenario.active { border-color: var(--bio); background: rgba(0, 217, 163, 0.06); }
+    .scenario:hover { border-color: var(--border-strong); background: #e5e5ea; }
+    .scenario.active { border-color: var(--bio); background: rgba(0, 168, 120, 0.07); }
     .scenario.active strong { color: var(--bio); }
 
     /* ---------- RIGHT PANEL (plots) ---------- */
@@ -308,10 +309,11 @@
       gap: 1rem;
     }
     .plot-card {
-      background: linear-gradient(180deg, var(--surface), var(--bg-2));
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       overflow: hidden;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05), 0 2px 12px rgba(0,0,0,0.04);
     }
     .plot-card-header {
       padding: 0.6rem 1rem 0.45rem;
@@ -363,9 +365,12 @@
       font-size: 0.88rem;
       line-height: 1.75;
     }
-    .references ol li { margin-bottom: 0.45rem; }
-    .references a { color: var(--eng); }
+    .references ol li { margin-bottom: 0.6rem; }
+    .references a { color: var(--eng); font-weight: 500; }
     .references a:hover { color: var(--bio); }
+    .references .ref-secondary { font-size: 0.82rem; color: var(--muted); margin-left: 0.3rem; }
+    .references .ref-secondary a { font-weight: 400; color: var(--muted); }
+    .references .ref-secondary a:hover { color: var(--bio); }
 
     /* ---------- FOOTER ---------- */
     footer {
@@ -692,38 +697,36 @@
     <h2>References</h2>
     <ol>
       <li>
-        Smith BW, Chase JG, Nokes RI, Shaw GM, Wake G. Minimal haemodynamic system model including
-        ventricular interaction and valve dynamics. <em>Med Eng Phys.</em> 2004;26(2):131–139.
+        Smith BW, Chase JG, Nokes RI, Shaw GM, Wake G.
         <a href="https://doi.org/10.1016/j.medengphy.2003.10.001"
-           target="_blank" rel="noopener noreferrer">doi:10.1016/j.medengphy.2003.10.001</a>
-        · <a href="https://pubmed.ncbi.nlm.nih.gov/15036180/"
-             target="_blank" rel="noopener noreferrer">PubMed 15036180</a>
+           target="_blank" rel="noopener noreferrer">Minimal haemodynamic system model including ventricular interaction and valve dynamics.</a>
+        <em>Med Eng Phys.</em> 2004;26(2):131–139.
+        <span class="ref-secondary">· <a href="https://pubmed.ncbi.nlm.nih.gov/15036180/" target="_blank" rel="noopener noreferrer">PubMed 15036180</a></span>
       </li>
       <li>
-        Bers DM. Cardiac excitation-contraction coupling. <em>Nature.</em> 2002;415(6868):198–205.
+        Bers DM.
         <a href="https://doi.org/10.1038/415198a"
-           target="_blank" rel="noopener noreferrer">doi:10.1038/415198a</a>
-        · <a href="https://pubmed.ncbi.nlm.nih.gov/11805843/"
-             target="_blank" rel="noopener noreferrer">PubMed 11805843</a>
+           target="_blank" rel="noopener noreferrer">Cardiac excitation-contraction coupling.</a>
+        <em>Nature.</em> 2002;415(6868):198–205.
+        <span class="ref-secondary">· <a href="https://pubmed.ncbi.nlm.nih.gov/11805843/" target="_blank" rel="noopener noreferrer">PubMed 11805843</a></span>
       </li>
       <li>
-        OpenStax. <em>Anatomy &amp; Physiology 2e</em>, Ch. 19: The Cardiovascular System — The Heart.
-        Open textbook; Rice University.
+        OpenStax.
         <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy"
-           target="_blank" rel="noopener noreferrer">Read online →</a>
+           target="_blank" rel="noopener noreferrer">Anatomy &amp; Physiology 2e, Ch. 19: The Cardiovascular System — The Heart.</a>
+        Open textbook; Rice University.
       </li>
       <li>
-        Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management
-        of Heart Failure. <em>Circulation.</em> 2022;145(18):e895–e1032.
+        Heidenreich PA, Bozkurt B, Aguilar D, et al.
         <a href="https://doi.org/10.1161/CIR.0000000000001063"
-           target="_blank" rel="noopener noreferrer">doi:10.1161/CIR.0000000000001063</a>
-        · <a href="https://pubmed.ncbi.nlm.nih.gov/35363499/"
-             target="_blank" rel="noopener noreferrer">PubMed 35363499</a>
+           target="_blank" rel="noopener noreferrer">2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure.</a>
+        <em>Circulation.</em> 2022;145(18):e895–e1032.
+        <span class="ref-secondary">· <a href="https://pubmed.ncbi.nlm.nih.gov/35363499/" target="_blank" rel="noopener noreferrer">PubMed 35363499</a></span>
       </li>
       <li>
-        U.S. National Heart, Lung, and Blood Institute (NHLBI). How the Heart Works.
+        U.S. National Heart, Lung, and Blood Institute (NHLBI).
         <a href="https://www.nhlbi.nih.gov/health/heart/anatomy"
-           target="_blank" rel="noopener noreferrer">nhlbi.nih.gov/health/heart/anatomy</a>
+           target="_blank" rel="noopener noreferrer">How the Heart Works.</a>
       </li>
     </ol>
   </div>
