@@ -48,6 +48,46 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: contains
     note: "The digestive system absorbs nutrients from food; the liver is the central metabolic processor linking portal absorption to systemic circulation."
+  - target: 01-human/02-atomic/carbon
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "Carbon is 18% of body mass — ~12.6 kg in a 70 kg adult — the structural backbone of all proteins, lipids, nucleic acids, and carbohydrates."
+  - target: 01-human/02-atomic/hydrogen
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "Hydrogen is the most abundant element by atom count (~60% of atoms), present in every water molecule and every organic bond in the body."
+  - target: 01-human/02-atomic/nitrogen
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "Nitrogen is ~3% of body mass (~2.1 kg), present in all proteins, nucleotide bases, haem porphyrin rings, and signalling molecules including nitric oxide."
+  - target: 01-human/02-atomic/sodium
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "Sodium is ~92 g total body content; as Na⁺ it is the principal extracellular cation determining plasma osmolality and action potential generation."
+  - target: 01-human/02-atomic/potassium
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "Potassium is ~140 g total body content; as K⁺ it is the principal intracellular cation setting resting membrane potential in all excitable and non-excitable cells."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "The human body contains ~25 trillion erythrocytes, the most abundant cell type, circulating continuously to deliver O₂ to every tissue."
+  - target: 01-human/04-cellular/macrophage
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "Macrophages number ~200–400 billion in the human body, resident in all tissues as Kupffer cells, alveolar macrophages, microglia, and other tissue-specific forms."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "NK cells number ~2–7 billion in the human body, circulating in blood and residing in liver, lung, uterus, and lymphoid tissues as innate immune sentinels."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "Bone marrow (~1.5 kg in adults) fills the medullary cavities of flat and long bones, producing ~500 billion blood cells per day."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: contains
+    evidence: guyton-hall-textbook
+    note: "Intestinal epithelium lines ~32 m² of bowel surface, replaced every 3–5 days; the largest renewable epithelial surface in the human body."
 ---
 
 # Human body

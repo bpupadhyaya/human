@@ -48,6 +48,10 @@ cross_links:
   - target: 01-human/03-molecular/ncx1
     relation: expresses
     note: "NCX1 is expressed in SA node pacemaker cells; reverse-mode NCX1 generates an inward depolarising current during Ca²⁺ spark events (Ca²⁺ clock), contributing to pacemaker automaticity."
+  - target: 01-human/02-atomic/potassium
+    relation: modulated-by
+    evidence: difrancesco-2010-funny-current
+    note: "IKr (hERG) and IKs (KCNQ1) repolarise the SA node AP; EK sets the maximum diastolic potential; hypokalaemia prolongs repolarisation and alters pacemaking rate."
 ---
 
 # SA node cell

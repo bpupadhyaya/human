@@ -66,6 +66,14 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: expresses
     note: "Cardiomyocytes sustain the highest ATP turnover of any mammalian cell — ~2×10⁻¹² mol ATP per beat, ~40 kg recycled per day across the adult heart; F₀F₁-ATP synthase drives continuous mitochondrial synthesis essential for contractile and ion-transport work."
+  - target: 01-human/02-atomic/sodium
+    relation: modulated-by
+    evidence: bers-2002-cardiac-ec-coupling
+    note: "Nav1.5 INa drives Phase 0; Na⁺/K⁺-ATPase gradient powers NCX1 Ca²⁺ extrusion; Na⁺ overload in ischaemia reverses NCX1 causing Ca²⁺ overload."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: modulated-by
+    evidence: bers-2002-cardiac-ec-coupling
+    note: "Erythrocytes deliver O₂ to cardiomyocytes; reduced O₂ delivery triggers ischaemic signalling and metabolic shift to anaerobic glycolysis."
 taxonomy:
   cell_ontology: "CL:0000746"
   lineage: "mesoderm — lateral plate (cardiogenic mesoderm)"

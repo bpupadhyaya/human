@@ -54,6 +54,10 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: expresses
     note: "Activated CD4+ T helper cells, particularly Th17 precursors, co-produce IL-6 with TGF-β, driving autocrine Th17 differentiation and amplifying local inflammatory circuits."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: modulated-by
+    evidence: zhu-paul-2010-th-differentiation
+    note: "NK cells suppress T helper cell activation through cytotoxic elimination of antigen-presenting dendritic cells and regulatory cytokine secretion."
 ---
 
 # T Helper Cell

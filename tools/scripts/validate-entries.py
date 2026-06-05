@@ -69,6 +69,7 @@ PATHOGEN_VALID_SCALES = [
     "04-parasites",
     "05-prions",
     "06-environmental",
+    "06-microbiome",
 ]
 
 MEDICINE_VALID_SCALES = [

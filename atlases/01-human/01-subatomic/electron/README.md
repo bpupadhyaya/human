@@ -35,6 +35,10 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: modulates
     note: "The electron configuration of oxygen (Z=8, [He]2s²2p⁴) gives it high electronegativity and two unpaired electrons, enabling it to accept 4 electrons at Complex IV of the ETC to form water — the thermodynamic sink that drives aerobic metabolism and ATP production."
+  - target: 01-human/01-subatomic/photon
+    relation: modulated-by
+    evidence: lodish-molecular-cell-biology
+    note: "UV photons excite DNA base electrons to singlet excited states, enabling pyrimidine dimer formation; visible photons drive retinal isomerization; ionizing photons eject electrons from water producing OH• radicals."
 ---
 
 # Electron

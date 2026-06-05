@@ -38,6 +38,10 @@ cross_links:
   - target: 01-human/01-subatomic/electron
     relation: modulated-by
     note: "The electron configuration of O ([He] 2s² 2p⁴) determines O₂ reactivity: two unpaired electrons in π* antibonding orbitals make O₂ paramagnetic and a diradical, explaining its reduction to superoxide (O₂⁻) and water (H₂O) in mitochondrial electron transport."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: modulated-by
+    evidence: perutz-1979-haemoglobin
+    note: "Erythrocytes carry ~250 million haemoglobin tetramers each; 25 trillion RBCs deliver ~250 mL O₂/min at rest, binding O₂ cooperatively in the lungs (P₅₀ ~26 mmHg) and releasing it via the Bohr effect in tissues."
 taxonomy:
   element_symbol: "O"
   atomic_number: 8

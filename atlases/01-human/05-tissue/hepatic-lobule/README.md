@@ -42,6 +42,10 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Blood flows from portal triads (mixed portal venous + hepatic arterial) → sinusoids → central vein. All portal blood from the gastrointestinal tract first passes through liver sinusoids before entering systemic circulation."
+  - target: 01-human/04-cellular/macrophage
+    relation: contains
+    evidence: hall-guyton-14-liver
+    note: "Kupffer cells are resident macrophages lining the hepatic sinusoids within each lobule; they are the first line of defence against portal vein pathogens"
 ---
 
 # Hepatic Lobule

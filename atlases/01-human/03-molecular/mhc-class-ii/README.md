@@ -41,6 +41,10 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: part-of
     note: "MHC class II is the molecular interface linking innate antigen processing to adaptive T cell priming — a core component of humoral and cellular immune regulation."
+  - target: 01-human/04-cellular/macrophage
+    relation: expressed-by
+    evidence: abbas-immunology-9e
+    note: "Macrophages constitutively express MHC-II as professional APCs; after phagocytosis, processed peptides are loaded onto HLA-DR/DQ/DP and displayed to CD4⁺ T helper cells, linking innate pathogen sensing to adaptive immune priming."
 ---
 
 # MHC Class II

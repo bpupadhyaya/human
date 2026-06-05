@@ -63,6 +63,10 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: modulated-by
     note: "Insulin crosses the BBB via receptor-mediated transcytosis; acts in hypothalamus to suppress appetite and food intake; modulates hippocampal synaptic plasticity and memory; central insulin resistance contributes to neurodegeneration risk."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: modulated-by
+    evidence: kandel-principles-ns
+    note: "Ashwagandha withanolides cross the blood-brain barrier and modulate GABA-A receptors and cortisol-driven HPA axis activity, reducing anxiety and neuroinflammation."
 ---
 
 # Nervous System

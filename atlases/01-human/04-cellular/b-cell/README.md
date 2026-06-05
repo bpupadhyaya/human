@@ -39,6 +39,18 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: modulates
     note: "Activated B cells differentiate into antibody-secreting plasmablasts and long-lived plasma cells upon receiving sufficient T cell help and antigen stimulation."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: modulated-by
+    evidence: nutt-2015-b-cell-fate
+    note: "NK cells modulate B cell activation through IFN-γ and TNF secretion and direct cytotoxic control of abnormal B cell clones."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: modulated-by
+    evidence: nutt-2015-b-cell-fate
+    note: "Intestinal epithelium provides BAFF/APRIL signals driving IgA class switch in gut-associated B cells via GALT interaction."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: part-of
+    evidence: nutt-2015-b-cell-fate
+    note: "B cell lymphopoiesis originates in bone marrow from CLPs; pro-B → pre-B → immature B cell maturation occurs in marrow stroma."
 ---
 
 # B Cell

@@ -54,6 +54,14 @@ cross_links:
     relation: damages
     evidence: tracey-1987-tnf-cachectin
     note: "TNF-α-mediated hepatocyte apoptosis and inflammatory signaling cause liver injury in septic shock, alcoholic hepatitis, and autoimmune hepatitis; the liver is a primary organ target of systemic TNF-α excess."
+  - target: 01-human/04-cellular/macrophage
+    relation: expressed-by
+    evidence: aggarwal-2003-tnf-biology
+    note: "M1-polarised macrophages are the dominant cellular source of TNF-α: TLR4/LPS activates NF-κB → TNF gene transcription within 15–30 min; macrophage-released TNF-α amplifies systemic inflammation and drives the acute-phase response."
+  - target: 03-medicine/03-food/curcumin
+    relation: modulated-by
+    evidence: aggarwal-2003-tnf-biology
+    note: "Curcumin covalently inhibits IKKβ (Michael addition to Cys-179), trapping NF-κB in the cytoplasm and suppressing TNF-α transcription; AP-1 suppression (via JNK inhibition) and STAT3 inhibition provide additional multi-level anti-inflammatory suppression."
 ---
 
 # TNF-α (Tumor Necrosis Factor-alpha)

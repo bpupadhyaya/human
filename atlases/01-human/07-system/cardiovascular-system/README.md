@@ -87,6 +87,18 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: modulated-by
     note: "Insulin promotes endothelial nitric oxide production (via Akt → eNOS), vasodilation, and glucose uptake in vascular smooth muscle; chronic hyperinsulinemia and insulin resistance drive endothelial dysfunction and atherosclerosis."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: contains
+    evidence: openstax-anatomy-19-1
+    note: "Erythrocytes circulate within the cardiovascular system delivering O₂ to tissues; ~25 trillion RBCs are in continuous transit through the cardiac and vascular loop."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: contains
+    evidence: openstax-anatomy-19-1
+    note: "Bone marrow produces erythrocytes, platelets, and leukocytes that populate the cardiovascular system; the sinusoidal vasculature of marrow is part of the circulation."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: modulated-by
+    evidence: openstax-anatomy-20-1
+    note: "EPA/DHA lower triglycerides, reduce platelet aggregation, and decrease arterial inflammation, collectively improving cardiovascular risk profile."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"

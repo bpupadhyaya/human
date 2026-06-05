@@ -60,6 +60,18 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: expresses
     note: "Serotonergic neurons in the dorsal and median raphe nuclei synthesize 5-HT via TPH2 + AADC and project broadly to limbic, prefrontal, and cerebellar targets; raphe neurons provide ~5% of total body serotonin."
+  - target: 01-human/02-atomic/sodium
+    relation: modulated-by
+    evidence: bhatt-hodgkin-huxley
+    note: "Nav1.x channels generate the depolarising INa upstroke of neuronal action potentials; Na⁺/K⁺-ATPase restores gradient, consuming ~20–30% of neuronal ATP."
+  - target: 01-human/02-atomic/potassium
+    relation: modulated-by
+    evidence: bhatt-hodgkin-huxley
+    note: "Kv channels repolarise neuronal APs; Kir2.x maintains resting potential at ~−70 mV; hypokalaemia prolongs AP duration and predisposes to seizures."
+  - target: 02-pathogen/05-prions/prion-protein
+    relation: damaged-by
+    evidence: kandel-principles
+    note: "PrPSc templated misfolding accumulates as amyloid plaques in neural tissue, causing spongiform vacuolation, synaptic loss, and neuronal death in CJD/prion diseases."
 ---
 
 # Neuron

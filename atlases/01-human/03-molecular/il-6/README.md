@@ -46,6 +46,22 @@ cross_links:
   - target: 03-medicine/01-modern/02-respiratory/corticosteroids
     relation: modulated-by
     note: "Corticosteroids suppress IL-6 transcription via GR-mediated transrepression of NF-κB and AP-1 at the IL-6 promoter; this mechanism underlies the mortality benefit of dexamethasone in severe COVID-19."
+  - target: 01-human/04-cellular/macrophage
+    relation: expressed-by
+    evidence: tanaka-2016-il6-disease
+    note: "M1-polarised macrophages are the primary cellular source of IL-6 after TLR4/LPS activation via NF-κB; macrophage-derived IL-6 drives the hepatic acute-phase response, Th17 differentiation, and cytokine storm."
+  - target: 03-medicine/02-traditional/berberine
+    relation: modulated-by
+    evidence: tanaka-2016-il6-disease
+    note: "Berberine inhibits IKKβ phosphorylation, blocking NF-κB nuclear translocation and reducing IL-6 transcription; NLRP3 inflammasome inhibition further decreases downstream IL-1β/IL-18. Clinically reduces CRP and IL-6 in metabolic syndrome."
+  - target: 03-medicine/03-food/curcumin
+    relation: modulated-by
+    evidence: tanaka-2016-il6-disease
+    note: "Curcumin's covalent IKKβ inhibition (Michael addition to Cys-179) and AP-1 suppression (via JNK inhibition) reduce IL-6 transcription; direct JAK/STAT3 inhibition attenuates downstream IL-6 signalling amplitude. RCTs show modest IL-6 reduction."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: modulated-by
+    evidence: tanaka-2016-il6-disease
+    note: "EPA/DHA competitively displace arachidonic acid from membrane phospholipids, shifting eicosanoid synthesis toward weaker PGE₃/LTB₅; reduced prostaglandin signalling lowers IL-6 production. SPMs (resolvins, protectins) actively resolve inflammation."
 ---
 
 # Interleukin-6

@@ -57,6 +57,26 @@ cross_links:
   - target: 02-pathogen/04-parasites/plasmodium-falciparum
     relation: infected-by
     note: "P. falciparum sporozoites invade hepatocytes via CD81/SR-B1 after Anopheles inoculation; clinically silent hepatic schizogony produces 10,000–30,000 merozoites per infected hepatocyte over 5–7 days before bloodstream release."
+  - target: 01-human/01-subatomic/photon
+    relation: damaged-by
+    evidence: taub-2004-hepatocyte-regeneration
+    note: "Ionizing photons produce DSBs in hepatocyte DNA via radiolysis; hepatocytes undergo apoptosis at high doses or neoplastic transformation if DSBs misrepair."
+  - target: 01-human/04-cellular/macrophage
+    relation: damaged-by
+    evidence: taub-2004-hepatocyte-regeneration
+    note: "Activated Kupffer cell macrophages release TNF-α and ROS that induce hepatocyte apoptosis in alcoholic and NASH-related liver disease."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: target-of
+    evidence: taub-2004-hepatocyte-regeneration
+    note: "Hepatic NK cells patrol the liver sinusoids and kill virus-infected or transformed hepatocytes via perforin-granzyme and TRAIL pathways."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: damaged-by
+    evidence: taub-2004-hepatocyte-regeneration
+    note: "UPEC and EHEC Shiga toxins damage hepatocytes during bacteraemia; LPS activates Kupffer TLR4, causing bystander hepatocyte injury via cytokines."
+  - target: 03-medicine/03-food/curcumin
+    relation: modulated-by
+    evidence: taub-2004-hepatocyte-regeneration
+    note: "Curcumin activates Nrf2-HO-1 in hepatocytes, reducing oxidative injury, and inhibits NF-κB, suppressing hepatic stellate cell activation in NAFLD/NASH."
 taxonomy:
   cell_ontology: "CL:0000182"
   lineage: "endoderm — hepatic endoderm — hepatoblast — hepatocyte"

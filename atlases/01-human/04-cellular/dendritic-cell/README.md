@@ -48,6 +48,26 @@ cross_links:
   - target: 02-pathogen/01-viruses/dengue-virus
     relation: infected-by
     note: "Skin-resident immature DCs (Langerhans cells) are the primary target of initial dengue infection via DC-SIGN (CD209) and AXL; viral replication in DCs leads to systemic dissemination via lymphatics."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: modulated-by
+    evidence: banchereau-steinman-1998
+    note: "NK cells activate dendritic cells via IFN-γ, enhancing DC maturation, IL-12 production, and antigen presentation."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: modulated-by
+    evidence: merad-2013-dc-biology
+    note: "Intestinal epithelium provides TSLP and IL-25 signals that programme gut DCs toward tolerogenic Th2/Treg phenotypes."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: damaged-by
+    evidence: banchereau-steinman-1998
+    note: "S. aureus leukotoxins including PVL form pores in DC membranes, inducing cell death and impairing adaptive immune priming."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: damaged-by
+    evidence: merad-2013-dc-biology
+    note: "A. fumigatus gliotoxin induces apoptosis in dendritic cells, impairing fungal antigen presentation and enabling immune evasion."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: infected-by
+    evidence: merad-2013-dc-biology
+    note: "Candida albicans is recognised by DC Dectin-1 and TLR2; in immunocompromised hosts DCs may harbour intracellular yeast, impairing killing."
 ---
 
 # Dendritic Cell

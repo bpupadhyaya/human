@@ -58,6 +58,10 @@ cross_links:
   - target: 01-human/08-whole-body/human-body
     relation: part-of
     note: "The heart is a component of the cardiovascular system and of the integrated human body."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: treated-by
+    evidence: openstax-anatomy-19-1
+    note: "EPA/DHA reduce cardiovascular mortality; REDUCE-IT trial showed icosapentaenoic acid 4 g/day reduced major cardiovascular events by 25% in statin-treated high-risk patients"
 taxonomy:
   uberon: "UBERON:0000948"
   fma: "FMA:7088"

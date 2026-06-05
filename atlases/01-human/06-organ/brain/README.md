@@ -51,6 +51,10 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "The brain requires ~20% of resting cardiac output; cerebrovascular autoregulation and the baroreceptor reflex link brain and cardiovascular system."
+  - target: 02-pathogen/05-prions/prion-protein
+    relation: damaged-by
+    evidence: kandel-principles-brain
+    note: "PrPSc accumulation in brain parenchyma causes spongiform vacuolation, astrogliosis, and neuronal loss; CJD destroys cortex, thalamus, and cerebellum progressively"
 ---
 
 # Brain

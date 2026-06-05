@@ -41,6 +41,14 @@ cross_links:
   - target: 03-medicine/01-modern/07-metabolic/metformin
     relation: modulated-by
     note: "Metformin reduces hepatic insulin resistance via AMPK-mediated gluconeogenesis suppression, allowing lower insulin concentrations to maintain euglycemia; metformin does not stimulate insulin secretion."
+  - target: 01-human/02-atomic/carbon
+    relation: contains
+    evidence: saltiel-2001-insulin-signaling
+    note: "Insulin's 51-residue chain is built entirely on carbon backbones: each α-carbon provides the sp³ stereocentre of every amino acid, carbonyl carbons form every peptide bond, and cysteine carbons anchor the three disulfide bonds."
+  - target: 03-medicine/02-traditional/berberine
+    relation: modulated-by
+    evidence: saltiel-2001-insulin-signaling
+    note: "Berberine activates AMPK (via mitochondrial Complex I inhibition) and independently upregulates insulin receptor expression, sensitising peripheral tissues to insulin signalling; HbA1c reduction ~1.0% is comparable to metformin 1500 mg/day."
 ---
 
 # Insulin

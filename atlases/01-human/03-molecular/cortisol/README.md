@@ -45,6 +45,10 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: modulated-by
     note: "The CNS (hypothalamus via CRH, hippocampus via negative feedback) is the primary driver and regulator of cortisol secretion patterns."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: modulated-by
+    evidence: chrousos-1995-stress-hpa
+    note: "Withanolides in standardised root extract reduce serum cortisol by 14–32% in placebo-controlled RCTs via HPA axis modulation; DHEA-S is preserved, suggesting selective stress-response normalisation rather than adrenal suppression."
 ---
 
 # Cortisol

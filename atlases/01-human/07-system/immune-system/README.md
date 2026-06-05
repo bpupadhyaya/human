@@ -100,6 +100,42 @@ cross_links:
   - target: 02-pathogen/04-parasites/plasmodium-falciparum
     relation: damaged-by
     note: "P. falciparum evades adaptive immunity via extensive var-gene antigenic variation (PfEMP1 switching); GPI-mediated TLR activation drives systemic inflammation; repeated infections cause progressive immune exhaustion and impaired T-cell and antibody responses."
+  - target: 01-human/04-cellular/macrophage
+    relation: contains
+    evidence: janeway-immunobiology-9e
+    note: "Macrophages are resident and recruited innate immune cells present in every tissue; they are core effectors of the immune system's first-line and inflammatory responses."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: contains
+    evidence: janeway-immunobiology-9e
+    note: "NK cells are innate lymphoid cells that are core constituents of the immune system, providing rapid cytotoxic surveillance against infected and malignant cells."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: contains
+    evidence: janeway-immunobiology-9e
+    note: "Bone marrow is the primary haematopoietic organ generating all immune cells: HSCs → CLPs → T, B, NK cells; GMPs → granulocytes, monocytes, macrophages."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: modulated-by
+    evidence: janeway-immunobiology-9e
+    note: "Intestinal epithelium shapes systemic immunity via GALT and microbiome interactions, secreting cytokines and antimicrobial peptides that calibrate mucosal and systemic immune tone."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: infected-by
+    evidence: janeway-immunobiology-9e
+    note: "S. aureus evades immune surveillance via Protein A (IgG Fc binding), leukotoxins killing neutrophils and macrophages, and biofilm formation resistant to phagocytosis."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: infected-by
+    evidence: janeway-immunobiology-9e
+    note: "A. fumigatus infects the immune system's phagocytes by evading killing through gliotoxin-mediated immune evasion and ROS scavenging via catalase/SOD."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: damaged-by
+    evidence: janeway-immunobiology-9e
+    note: "Systemic candidiasis overwhelms immune surveillance; Candida suppresses DC and T cell responses via Crk1-regulated immune evasion mechanisms."
+  - target: 02-pathogen/06-microbiome/lactobacillus-rhamnosus
+    relation: modulated-by
+    evidence: janeway-immunobiology-9e
+    note: "L. rhamnosus GG enhances immune system function by stimulating mucosal IgA, NK cell activity, and Treg development, reducing pathogen susceptibility."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: treated-by
+    evidence: janeway-immunobiology-9e
+    note: "Ashwagandha withanolides enhance NK cell cytotoxicity, lymphocyte proliferation, and immunoglobulin levels in clinical trials of immune function."
 ---
 
 # Immune System

@@ -80,6 +80,26 @@ cross_links:
   - target: 03-medicine/01-modern/07-metabolic/metformin
     relation: treated-by
     note: "The primary site of metformin action; OCT1-mediated hepatocyte uptake → Complex I inhibition → AMPK activation → suppression of PEPCK and G6Pase → reduced hepatic glucose output."
+  - target: 01-human/04-cellular/macrophage
+    relation: contains
+    evidence: hall-guyton-14-liver
+    note: "Kupffer cells are the liver's resident macrophages, comprising 15% of hepatic cells and ~80% of all tissue-resident macrophages in the body"
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: damaged-by
+    evidence: hall-guyton-14-liver
+    note: "E. coli bacteraemia seeds the liver via portal circulation; LPS activates Kupffer TLR4 causing hepatic inflammation; EHEC Shiga toxin causes hepatocyte injury"
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: damaged-by
+    evidence: hall-guyton-14-liver
+    note: "S. aureus hepatic abscesses and TSST-1-mediated cytokine storm cause hepatocyte apoptosis and elevated transaminases in severe staphylococcal infections"
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: damaged-by
+    evidence: hall-guyton-14-liver
+    note: "hepatosplenic candidiasis (chronic disseminated candidiasis) causes liver microabscesses and granulomas in neutropenic patients recovering from chemotherapy"
+  - target: 03-medicine/02-traditional/berberine
+    relation: treated-by
+    evidence: younossi-2019-nafld
+    note: "berberine activates AMPK in hepatocytes, reducing lipogenesis and improving insulin sensitivity; clinical trials show reductions in hepatic steatosis markers in NAFLD patients"
 taxonomy:
   uberon: "UBERON:0002107"
   fma: "FMA:7197"

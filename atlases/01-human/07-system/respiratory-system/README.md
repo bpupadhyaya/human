@@ -47,6 +47,10 @@ cross_links:
   - target: 03-medicine/01-modern/02-respiratory/corticosteroids
     relation: treated-by
     note: "Inhaled corticosteroids (ICS) are the cornerstone maintenance therapy for persistent asthma, reducing airway inflammation and exacerbation frequency by 50–60%; systemic corticosteroids are first-line for COPD exacerbations and acute severe asthma."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: damaged-by
+    evidence: west-respiratory-physiology
+    note: "A. fumigatus conidia inhaled into the respiratory system germinate in the bronchi and alveoli of immunocompromised hosts, causing invasive pulmonary aspergillosis with angioinvasion and haemoptysis."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"

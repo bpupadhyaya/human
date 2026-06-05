@@ -44,6 +44,18 @@ cross_links:
     relation: modulates
     evidence: bers-2001-cardiac-excitation
     note: "SERCA2a hydrolyzes one molecule of ATP per Ca²⁺ ion pair transported into the SR; ATP depletion during ischemia directly impairs SR Ca²⁺ reuptake, elevating diastolic Ca²⁺ and impairing relaxation."
+  - target: 01-human/01-subatomic/proton
+    relation: modulated-by
+    evidence: boyer-1997-atp-synthase
+    note: "Proton-motive force (pmf = Δψ + ΔpH) across the inner mitochondrial membrane drives proton flow through the F₀ c-ring of ATP synthase, rotating the γ-stalk and synthesising ATP from ADP + Pᵢ via the binding-change mechanism."
+  - target: 01-human/02-atomic/hydrogen
+    relation: modulated-by
+    evidence: boyer-1997-atp-synthase
+    note: "H⁺ electrochemical gradient (pmf) across the inner mitochondrial membrane drives F₀F₁-ATP synthase: proton flow through the F₀ c-ring rotates the γ-stalk, synthesising ~28 of ~32 ATP per glucose molecule."
+  - target: 01-human/02-atomic/nitrogen
+    relation: contains
+    evidence: lipmann-1941-atp-review
+    note: "Adenine contains 5 nitrogen atoms (N1, N3, N7, N9 purine ring + exocyclic amino N6); ring nitrogens engage in hydrogen bonding with kinase active sites, and N9 links adenine to ribose — essential for ATP recognition."
 ---
 
 # ATP (Adenosine Triphosphate)

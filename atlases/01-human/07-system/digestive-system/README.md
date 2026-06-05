@@ -67,6 +67,18 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: modulates
     note: "Gut-derived incretin hormones (GLP-1 from L-cells, GIP from K-cells) amplify glucose-stimulated insulin secretion; postprandial nutrient absorption in the small intestine is the primary physiological trigger for insulin release."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: contains
+    evidence: openstax-anatomy-ch23
+    note: "The intestinal epithelium is the primary cellular barrier of the digestive system, covering ~32 m² of luminal surface."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: infected-by
+    evidence: hall-guyton-14-gi
+    note: "ETEC and EHEC colonise and infect the intestinal epithelium of the digestive system, causing diarrhoea, HUS, and intestinal inflammation."
+  - target: 02-pathogen/06-microbiome/lactobacillus-rhamnosus
+    relation: modulated-by
+    evidence: hall-guyton-14-gi
+    note: "L. rhamnosus GG colonises the gut epithelium, modulating digestive system function by enhancing barrier integrity and reducing transit time in antibiotic-associated diarrhoea."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
