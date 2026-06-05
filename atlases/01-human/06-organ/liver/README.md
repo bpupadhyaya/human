@@ -71,6 +71,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: modulated-by
     note: "Insulin suppresses hepatic glucose output via FOXO1 phosphorylation and promotes glycogen synthesis and lipogenesis; hepatic insulin resistance is a key driver of fasting hyperglycemia in T2DM."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: damaged-by
+    note: "At high concentrations (septic shock, immune hepatitis), TNFR1-mediated caspase-8 activation causes hepatocyte apoptosis and contributes to acute liver failure and coagulopathy."
+  - target: 02-pathogen/01-viruses/dengue-virus
+    relation: damaged-by
+    note: "Dengue virus infects hepatocytes via AXL and DC-SIGN; elevated AST/ALT occurs in >80% of dengue cases; fulminant hepatic failure in severe dengue contributes to coagulopathy."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: treated-by
+    note: "The primary site of metformin action; OCT1-mediated hepatocyte uptake → Complex I inhibition → AMPK activation → suppression of PEPCK and G6Pase → reduced hepatic glucose output."
 taxonomy:
   uberon: "UBERON:0002107"
   fma: "FMA:7197"

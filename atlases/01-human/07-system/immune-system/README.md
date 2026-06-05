@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: modulated-by
     note: "Cortisol suppresses the immune system via NF-κB inhibition, lymphocyte apoptosis induction, and downregulation of pro-inflammatory cytokines, COX-2, and adhesion molecules; therapeutic glucocorticoids exploit this pathway."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: expresses
+    note: "Macrophages and monocytes of the immune system are the primary source of TNF-α; released within minutes of innate receptor (TLR) activation, TNF-α is the proximal alarm cytokine of systemic inflammation."
+  - target: 02-pathogen/01-viruses/dengue-virus
+    relation: damaged-by
+    note: "Dengue NS5 degrades STAT2 (blocking IFN-α/β signaling); secondary heterotypic infection triggers ADE and cross-reactive T-cell responses, amplifying viral burden in monocytes and driving the cytokine storm that causes vascular leak in dengue hemorrhagic fever."
+  - target: 02-pathogen/04-parasites/plasmodium-falciparum
+    relation: damaged-by
+    note: "P. falciparum evades adaptive immunity via extensive var-gene antigenic variation (PfEMP1 switching); GPI-mediated TLR activation drives systemic inflammation; repeated infections cause progressive immune exhaustion and impaired T-cell and antibody responses."
 ---
 
 # Immune System

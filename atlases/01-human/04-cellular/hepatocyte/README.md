@@ -51,6 +51,12 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-b-virus
     relation: damaged-by
     note: "HBV-mediated hepatocyte injury is primarily immune-mediated (CTL-driven hepatocyte killing) rather than direct cytopathic; hepatocyte loss drives fibrosis, cirrhosis, and HCC risk."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: damaged-by
+    note: "High-concentration TNF-α causes hepatocyte apoptosis via TNFR1-caspase-8-caspase-3 cascade; a key mechanism of hepatocyte loss in septic shock, alcoholic hepatitis, and drug-induced liver injury."
+  - target: 02-pathogen/04-parasites/plasmodium-falciparum
+    relation: infected-by
+    note: "P. falciparum sporozoites invade hepatocytes via CD81/SR-B1 after Anopheles inoculation; clinically silent hepatic schizogony produces 10,000–30,000 merozoites per infected hepatocyte over 5–7 days before bloodstream release."
 taxonomy:
   cell_ontology: "CL:0000182"
   lineage: "endoderm — hepatic endoderm — hepatoblast — hepatocyte"

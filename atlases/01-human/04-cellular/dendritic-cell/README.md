@@ -45,6 +45,9 @@ cross_links:
   - target: 02-pathogen/01-viruses/hiv-1
     relation: infected-by
     note: "Plasmacytoid and myeloid DCs express CD4 and CCR5/CXCR4; HIV-1 infects and impairs DCs, suppressing type I IFN production and MHC-II-mediated antigen presentation to T cells, facilitating immune escape."
+  - target: 02-pathogen/01-viruses/dengue-virus
+    relation: infected-by
+    note: "Skin-resident immature DCs (Langerhans cells) are the primary target of initial dengue infection via DC-SIGN (CD209) and AXL; viral replication in DCs leads to systemic dissemination via lymphatics."
 ---
 
 # Dendritic Cell

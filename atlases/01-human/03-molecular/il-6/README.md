@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: modulated-by
     note: "IL-6 production is upregulated by pro-inflammatory signals (TNF, IL-1β, LPS) and downregulated by IL-10, glucocorticoids, and tocilizumab-mediated IL-6R blockade."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: modulated-by
+    note: "TNF-α is a potent inducer of IL-6 transcription via NF-κB; the two cytokines act synergistically in driving the acute-phase response and cytokine storm."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: modulated-by
+    note: "Corticosteroids suppress IL-6 transcription via GR-mediated transrepression of NF-κB and AP-1 at the IL-6 promoter; this mechanism underlies the mortality benefit of dexamethasone in severe COVID-19."
 ---
 
 # Interleukin-6

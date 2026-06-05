@@ -63,6 +63,9 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: modulated-by
     note: "Cardiomyocytes are obligate aerobic cells; oxygen delivery (via haemoglobin and the coronary circulation) directly sets mitochondrial ETC flux and ATP production, governing contractile capacity."
+  - target: 01-human/03-molecular/atp
+    relation: expresses
+    note: "Cardiomyocytes sustain the highest ATP turnover of any mammalian cell — ~2×10⁻¹² mol ATP per beat, ~40 kg recycled per day across the adult heart; F₀F₁-ATP synthase drives continuous mitochondrial synthesis essential for contractile and ion-transport work."
 taxonomy:
   cell_ontology: "CL:0000746"
   lineage: "mesoderm — lateral plate (cardiogenic mesoderm)"

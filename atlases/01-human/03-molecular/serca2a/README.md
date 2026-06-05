@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/phospholamban
     relation: modulated-by
     note: "Dephosphorylated phospholamban (PLN) binds SERCA2a and reduces its Ca²⁺ affinity (Km from ~0.2 µM to ~0.6 µM); PLN phosphorylation by PKA/CaMKII relieves this inhibition."
+  - target: 01-human/03-molecular/atp
+    relation: modulated-by
+    note: "SERCA2a hydrolyzes one ATP per two Ca²⁺ ions pumped into the SR; ATP availability directly gates diastolic Ca²⁺ reuptake — depletion during ischemia impairs relaxation and elevates diastolic Ca²⁺."
 taxonomy:
   uniprot: "P16615"
   gene_symbol: "ATP2A2"

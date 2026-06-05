@@ -44,6 +44,9 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: damaged-by
     note: "Pneumococcal pneumonia causes acute alveolar consolidation, fibrinopurulent exudate, impaired gas exchange, and — in severe disease — respiratory failure; pneumolysin contributes to alveolar epithelial damage."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: treated-by
+    note: "Inhaled corticosteroids (ICS) are the cornerstone maintenance therapy for persistent asthma, reducing airway inflammation and exacerbation frequency by 50–60%; systemic corticosteroids are first-line for COPD exacerbations and acute severe asthma."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"

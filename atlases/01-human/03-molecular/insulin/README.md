@@ -38,6 +38,9 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: modulated-by
     note: "Nutrient absorption in the gut drives postprandial glucose and GLP-1/GIP incretin release, which are the primary physiological stimuli for insulin secretion."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: modulated-by
+    note: "Metformin reduces hepatic insulin resistance via AMPK-mediated gluconeogenesis suppression, allowing lower insulin concentrations to maintain euglycemia; metformin does not stimulate insulin secretion."
 ---
 
 # Insulin
