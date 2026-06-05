@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kidney — paired retroperitoneal organs housing ~1 million nephrons, filtering 180 L of plasma per day via GFR, RAAS, and endocrine functions. Scale 06 of the Human Atlas. Part of the Human Engineering project.">
+  <meta property="og:title" content="Kidney — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Kidney — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #2563eb;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(37,99,235,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #2563eb, #1e3a8a); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas One &middot; Host Biology &middot; Scale 06 &mdash; Organ</div>
+    <h1>Kidney</h1>
+    <p class="tagline">Paired retroperitoneal organs that filter the entire plasma volume 30 times per day — regulating fluid composition, acid-base balance, blood pressure, and erythropoiesis through integrated filtration, reabsorption, and endocrine signaling.</p>
+    <p class="subtagline">UBERON:0002113 &middot; FMA:7203. Each kidney weighs ~150 g and houses ~1 million nephrons. The RAAS makes the kidney the master regulator of systemic blood pressure.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">~1 million</span><span class="stat-label">Nephrons/kidney</span></div>
+      <div class="stat"><span class="stat-num">125 mL/min</span><span class="stat-label">GFR</span></div>
+      <div class="stat"><span class="stat-num">180 L/day</span><span class="stat-label">Filtered</span></div>
+      <div class="stat"><span class="stat-num">5</span><span class="stat-label">CKD stages</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0002113 &middot; FMA:7203 &middot; Atlas One / Scale 06</div>
+        <h2>Kidney</h2>
+        <p class="summary">Paired, bean-shaped retroperitoneal organs (~150 g each, ~11&times;6&times;3 cm) at vertebral levels T12–L3. Core functions: plasma filtration (GFR ~125 mL/min → 180 L/day filtered, 99% reabsorbed as ~1.5 L urine), tubular reabsorption and secretion, acid-base homeostasis, and endocrine roles (EPO for erythropoiesis, renin for RAAS blood pressure control, calcitriol for calcium homeostasis). Central to cardiorenal physiology — RAAS links renal perfusion directly to systemic blood pressure. Leading causes of kidney failure: diabetic nephropathy, hypertension, glomerulonephritis.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>The kidneys are the primary regulators of body fluid composition, volume, and acid-base balance. At a normal GFR of 125 mL/min, the two kidneys filter <strong>180 liters of plasma per day</strong> — more than 30 times the total blood volume. Yet only about 1.5 liters of urine is produced, meaning <strong>99% of the filtrate is reabsorbed</strong> with exquisite selectivity by the tubular system.</p>
+          <p>Beyond filtration, the kidneys act as an endocrine organ: <strong>erythropoietin (EPO)</strong> drives red blood cell production; <strong>renin</strong> activates the RAAS to regulate blood pressure; <strong>calcitriol</strong> (active vitamin D) controls calcium and phosphate homeostasis. The right kidney sits 1–2 cm lower than the left (displaced by the liver). Each kidney receives ~20–25% of cardiac output (~1.1 L/min combined).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Gross Anatomy</h3>
+          <table class="data-table">
+            <tr><th>Region</th><th>Contents</th><th>Function</th></tr>
+            <tr><td><strong>Cortex</strong></td><td>Glomeruli, proximal/distal convoluted tubules, cortical collecting ducts</td><td>Filtration; most tubular reabsorption (isosmotic)</td></tr>
+            <tr><td><strong>Medulla</strong></td><td>Loops of Henle, medullary collecting ducts, vasa recta; organized into 8–18 renal pyramids</td><td>Countercurrent multiplication and exchange; urine concentration up to 1200 mOsm/kg</td></tr>
+            <tr><td><strong>Pelvis</strong></td><td>Minor calyces → major calyces → renal pelvis → ureter</td><td>Urine collection and drainage to bladder</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;">Each renal pyramid apex (renal papilla) drains into a minor calyx. A <strong>renal column</strong> (of Bertin) is cortical tissue extending between pyramids, carrying arcuate and interlobar vessels. Each pyramid plus its associated cortex constitutes one renal lobe.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>The Nephron</h3>
+          <p>The nephron is the structural and functional unit of the kidney. Each kidney contains ~0.7–1.4 million nephrons (average ~1 million). The nephron's five sequential segments perform distinct physiological tasks:</p>
+          <div class="circuit-diagram">
+<pre>
+  Glomerulus (Bowman's capsule)
+       │  filtration ~125 mL/min
+       ▼
+  Proximal Convoluted Tubule (PCT)
+       │  60–70% Na⁺/H₂O reabsorbed; 100% glucose &amp; amino acids
+       │  SGLT1/2, NHE3, aquaporin-1
+       ▼
+  Loop of Henle
+       │  ─ Descending limb: water-permeable (AQP1), salt-impermeable
+       │    → tubular fluid concentrates
+       │  ─ Thick ascending limb: NKCC2 pumps NaCl out (no water)
+       │    → builds medullary osmotic gradient (~1200 mOsm/kg at papilla)
+       ▼
+  Distal Convoluted Tubule (DCT)
+       │  ~5% NaCl; NCC (thiazide target); Ca²⁺ via TRPV5
+       │  aldosterone target
+       ▼
+  Collecting Duct
+       │  ADH (vasopressin) inserts AQP2 → variable water reabsorption
+       │  ENaC (aldosterone target) → Na⁺ reabsorption
+       ▼
+  Urine → renal pelvis → ureter → bladder
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Cortical nephrons</strong> (85%) have short loops extending only into outer medulla. <strong>Juxtamedullary nephrons</strong> (15%) have long loops reaching deep medulla — essential for maximal urine concentration. The parallel vasa recta capillaries act as countercurrent exchangers, preserving the medullary osmotic gradient without washing it out.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Glomerular Filtration</h3>
+          <p>At the glomerulus, hydrostatic pressure (~60 mmHg) drives plasma ultrafiltration across a three-layer barrier:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Filtration barrier layers</h4>
+              <p>(1) Fenestrated endothelium — charged glycocalyx excludes proteins; (2) Glomerular basement membrane (GBM) — collagen IV α3/α4/α5 chains, laminin, heparan sulfate; (3) Podocyte slit diaphragm — nephrin, podocin proteins. Together: protein-free ultrafiltrate of plasma.</p>
+            </div>
+            <div class="info-block">
+              <h4>GFR determinants</h4>
+              <p>Filtration coefficient Kf (permeability × surface area); afferent arteriole tone (↑ constriction → ↓ GFR); efferent arteriole tone (↑ constriction → ↑ GFR acutely, then ↓ with severe constriction); oncotic pressure of plasma (↑ protein → ↓ GFR).</p>
+            </div>
+          </div>
+          <div class="formula-block" style="margin-top:0.75rem;">
+            GFR = Kf × (P_GC − P_BS − π_GC)
+            <div class="formula-note">P_GC = glomerular capillary hydrostatic pressure; P_BS = Bowman's space pressure; π_GC = glomerular capillary oncotic pressure. Normal GFR ≈ 125 mL/min (males), ~110 mL/min (females)</div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Tubular Reabsorption</h3>
+          <table class="data-table">
+            <tr><th>Segment</th><th>Key reabsorption</th><th>Transporters / mechanism</th></tr>
+            <tr><td><strong>PCT</strong></td><td>65–70% Na⁺/H₂O; 100% glucose; 100% amino acids; 85% HCO₃⁻</td><td>SGLT1/2 (Na⁺-glucose cotransport), NHE3 (Na⁺/H⁺ exchange), aquaporin-1</td></tr>
+            <tr><td><strong>Descending limb</strong></td><td>~15% water (passive)</td><td>Aquaporin-1; water follows medullary osmotic gradient</td></tr>
+            <tr><td><strong>Thick ascending limb</strong></td><td>~25% NaCl (no water)</td><td>NKCC2 (loop diuretic target); K⁺ recycle via ROMK — dilutes tubular fluid</td></tr>
+            <tr><td><strong>DCT</strong></td><td>~5% NaCl; Ca²⁺</td><td>NCC (thiazide diuretic target); TRPV5 for Ca²⁺ (PTH-regulated)</td></tr>
+            <tr><td><strong>Collecting duct</strong></td><td>2–3% Na⁺; variable H₂O</td><td>ENaC (aldosterone-regulated); aquaporin-2 (ADH/vasopressin-regulated)</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Acid-Base Homeostasis</h3>
+          <p>The kidney is the only organ that can regenerate HCO₃⁻ and vary net acid excretion on a timescale of hours to days — the dominant long-term buffer system (lungs handle minute-to-minute):</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>HCO₃⁻ reclamation (PCT)</h4>
+              <p>NHE3 secretes H⁺ into lumen → reacts with filtered HCO₃⁻ → H₂CO₃ → CO₂ + H₂O (carbonic anhydrase IV on luminal brush border) → CO₂ diffuses into cell → regenerated as intracellular HCO₃⁻ returned to blood. Reclaims 85% of filtered bicarbonate.</p>
+            </div>
+            <div class="info-block">
+              <h4>Net acid excretion (collecting duct)</h4>
+              <p>α-intercalated cells: H⁺-ATPase and H⁺/K⁺-ATPase secrete H⁺ → new HCO₃⁻ returned to blood; titratable acid (HPO₄²⁻ + H⁺ → H₂PO₄⁻) and ammonium (NH₄⁺ from glutamine catabolism in PCT) are the two main H⁺ buffers excreted. β-intercalated cells correct alkalosis by secreting HCO₃⁻.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>RAAS — Renin–Angiotensin–Aldosterone System</h3>
+          <p>The RAAS is the primary hormonal loop linking renal perfusion to systemic blood pressure — the kidney's most powerful cardiovascular signal:</p>
+          <div class="circuit-diagram">
+<pre>
+  Low renal perfusion pressure
+  OR low NaCl at macula densa
+  OR β1-adrenergic stimulation
+           │
+           ▼
+  JG cells (afferent arteriole) release RENIN
+           │
+           ▼
+  Renin cleaves angiotensinogen (liver)
+    → Angiotensin I (inactive decapeptide)
+           │
+           ▼
+  ACE (lung endothelium) converts Ang I
+    → Angiotensin II (octapeptide)
+           │
+           ├──► AT1R on VSMCs: vasoconstriction → BP ↑
+           │
+           ├──► Adrenal cortex: ALDOSTERONE release
+           │    → ENaC upregulation in collecting duct
+           │    → Na⁺/H₂O retention → volume ↑ → BP ↑
+           │
+           └──► Efferent arteriole constriction
+                → ↑ intraglomerular pressure → GFR maintained
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;">ACE inhibitors interrupt this cascade at ACE, reducing Ang II, dilating efferent arterioles, lowering intraglomerular pressure, and slowing CKD progression in diabetic and non-diabetic nephropathy. ARBs block AT1R directly. Both are first-line renoprotective agents.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Endocrine Functions</h3>
+          <table class="data-table">
+            <tr><th>Hormone</th><th>Producing cell</th><th>Stimulus</th><th>Effect</th></tr>
+            <tr><td><strong>Erythropoietin (EPO)</strong></td><td>Peritubular fibroblasts (cortex)</td><td>Hypoxia → HIF-2α stabilization</td><td>Stimulates erythroid progenitor proliferation/differentiation in bone marrow → ↑ RBC production. Deficiency in CKD causes normocytic anemia.</td></tr>
+            <tr><td><strong>Renin</strong></td><td>JG cells of afferent arteriole</td><td>Low perfusion pressure, low NaCl (macula densa), β1-adrenergic</td><td>Activates RAAS cascade → Ang II → vasoconstriction + aldosterone → Na⁺/H₂O retention → BP ↑</td></tr>
+            <tr><td><strong>Calcitriol (1,25(OH)₂D₃)</strong></td><td>Proximal tubule 1α-hydroxylase</td><td>PTH; low Ca²⁺; low phosphate</td><td>Active vitamin D; increases intestinal Ca²⁺/PO₄ absorption; bone mineral mobilization; suppresses PTH. Deficiency in CKD → renal osteodystrophy.</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Acute Kidney Injury (AKI)</h4>
+            <p>KDIGO criteria: serum creatinine rise ≥0.3 mg/dL within 48 h, ≥1.5&times; baseline within 7 days, or urine output &lt;0.5 mL/kg/h for ≥6 h. Staged 1–3 by severity. Major causes: prerenal (hypoperfusion), intrinsic (acute tubular necrosis, glomerulonephritis, AIN, rhabdomyolysis), postrenal (obstruction). COVID-19 AKI occurs in ~25–30% of ICU patients via direct ACE2-mediated tubular infection, cytokine storm, thrombotic microangiopathy, and collapsing glomerulopathy.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Chronic Kidney Disease (CKD)</h4>
+            <p>GFR &lt;60 mL/min/1.73 m² or markers of kidney damage for ≥3 months. KDIGO G-staging: G1 (≥90, normal/high) → G2 (60–89, mildly decreased) → G3a (45–59) → G3b (30–44) → G4 (15–29, severely decreased) → G5 (&lt;15, kidney failure/ESRD requiring dialysis or transplant). Leading causes worldwide: diabetic nephropathy (40%), hypertensive nephrosclerosis (25%), glomerulonephritis (15%). CKD independently raises cardiovascular mortality.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Autosomal Dominant Polycystic Kidney Disease (ADPKD)</h4>
+            <p>PKD1 (chr. 16, ~85%) or PKD2 (chr. 4, ~15%) mutations disrupt polycystin-1/2 complex. Bilateral cyst growth progressively replaces functional parenchyma — median ESRD age 54 (PKD1) vs. 74 (PKD2). Prevalence ~1:400–1000; most common life-threatening monogenic disease. Tolvaptan (V2R antagonist) slows cyst growth. ARPKD (PKHD1) presents in neonates/infants with pulmonary hypoplasia.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Nephrotic syndrome</h4>
+            <p>Triad: proteinuria (&gt;3.5 g/day), hypoalbuminemia, edema. Causes: minimal change disease (children, steroid-responsive; podocyte effacement without structural change), focal segmental glomerulosclerosis (FSGS; podocyte loss + scarring; primary or secondary to obesity/HIV/sickle cell), membranous nephropathy (anti-PLA2R antibodies in 70% of primary cases; subepithelial immune complex deposition). Membranous nephropathy is the leading cause of nephrotic syndrome in adults.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Renal cell carcinoma (RCC)</h4>
+            <p>Clear cell RCC (~75%) driven by VHL tumor suppressor loss (chr. 3p); disrupts HIF degradation → VEGF/PDGF overexpression → angiogenesis. Papillary (types 1/2, ~15%) and chromophobe (~5%) subtypes. Often found incidentally on imaging. Susceptible to VEGF/mTOR targeted therapies and immune checkpoint inhibitors (PD-1/PD-L1). 5-year survival ~75% for localized disease, ~12% for metastatic.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Blood Supply and the Vasa Recta</h3>
+          <p>The kidney receives ~20–25% of cardiac output via a hierarchical arterial tree:</p>
+          <div class="formula-block">
+            Renal artery → segmental → interlobar → arcuate → interlobular (cortical radiate) arteries → afferent arterioles → glomerular capillaries → efferent arterioles → peritubular capillaries (cortex) / vasa recta (medulla)
+            <div class="formula-note">The efferent arteriole creates a unique portal arrangement — two capillary beds in series. ACE inhibitors dilate the efferent arteriole, lowering intraglomerular pressure.</div>
+          </div>
+          <p style="margin-top:0.75rem;">The <strong>vasa recta</strong> are hairpin-shaped capillaries descending into the medulla alongside the loops of Henle. Their countercurrent flow pattern preserves the medullary osmotic gradient by exchanging solutes and water with the interstitium without washing out the gradient — essential for urine concentration up to 1200 mOsm/kg.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Juxtaglomerular Apparatus</h3>
+          <p>The JGA sits at the vascular pole of each glomerulus and is the anatomical locus of RAAS initiation and tubuloglomerular feedback:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>JG (granular) cells</h4>
+              <p>Modified smooth muscle cells in the afferent arteriole wall. Synthesize, store, and secrete renin in response to: (1) decreased afferent arteriole stretch (low BP); (2) reduced NaCl delivery to macula densa; (3) β1-adrenergic stimulation.</p>
+            </div>
+            <div class="info-block">
+              <h4>Macula densa</h4>
+              <p>Specialized NaCl-sensing epithelial cells in the distal nephron wall adjacent to the JGA. When tubular NaCl is low → signal to JG cells → ↑ renin release. When NaCl is high → tubuloglomerular feedback → afferent arteriole constriction → ↓ GFR (auto-regulation).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>renal-system</a>
+            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Connects to</span>cardiovascular-system</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>glomerulus</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>podocyte</a>
+            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2</a>
+            <a class="conn-pill" href="medicine.html#ace-inhibitors"><span class="rel">Treated by</span>ace-inhibitors</a>
+            <a class="conn-pill" href="medicine.html#loop-diuretics"><span class="rel">Treated by</span>loop-diuretics</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Hall JE. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Ch. 26–32. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Levey AS, Coresh J, Balk E, et al. National Kidney Foundation practice guidelines for chronic kidney disease. <em>Ann Intern Med.</em> 2003;139(2):137-47. <a href="https://doi.org/10.7326/0003-4819-139-2-200307150-00013" target="_blank" rel="noopener">doi:10.7326/0003-4819-139-2-200307150-00013</a></li>
+            <li>KDIGO CKD Work Group. KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. <em>Kidney Int Suppl.</em> 2013;3(1):1-150. <a href="https://kdigo.org/guidelines/ckd-evaluation-and-management/" target="_blank" rel="noopener">kdigo.org</a></li>
+            <li>KDIGO AKI Work Group. KDIGO Clinical Practice Guideline for Acute Kidney Injury. <em>Kidney Int Suppl.</em> 2012;2(1):1-138. <a href="https://kdigo.org/guidelines/acute-kidney-injury/" target="_blank" rel="noopener">kdigo.org</a></li>
+            <li>Vanholder R, Annemans L, Brown E, et al. Reducing the costs of chronic kidney disease while delivering quality health care. <em>Nat Rev Nephrol.</em> 2017;13(7):393-409. <a href="https://doi.org/10.1038/nrneph.2017.63" target="_blank" rel="noopener">doi:10.1038/nrneph.2017.63</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

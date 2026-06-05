@@ -36,6 +36,18 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: contains
     note: "The respiratory system is one of the eleven major organ systems of the human body; it provides O₂ to the blood and removes CO₂, working in concert with the cardiovascular system to sustain aerobic metabolism."
+  - target: 01-human/07-system/nervous-system
+    relation: contains
+    note: "The nervous system coordinates sensation, motor control, cognition, and autonomic regulation; the brain alone consumes ~20% of the body's resting energy."
+  - target: 01-human/07-system/immune-system
+    relation: contains
+    note: "The immune system defends the body against pathogens and neoplastic cells; its lymphoid organs (bone marrow, thymus, lymph nodes, spleen, MALT) are distributed throughout the body."
+  - target: 01-human/07-system/renal-system
+    relation: contains
+    note: "The renal system maintains fluid, electrolyte, and acid-base homeostasis; the kidneys produce renin, erythropoietin, and calcitriol as systemic hormones."
+  - target: 01-human/07-system/digestive-system
+    relation: contains
+    note: "The digestive system absorbs nutrients from food; the liver is the central metabolic processor linking portal absorption to systemic circulation."
 ---
 
 # Human body

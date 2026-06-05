@@ -43,6 +43,12 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: acts-on
     note: "Statins reduce atherosclerotic plaque burden in the systemic vasculature, lowering the risk of major adverse cardiovascular events (MI, stroke, cardiovascular death) — the primary beneficial effect at the system scale."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: modulates
+    note: "Statins inhibit HMG-CoA reductase in hepatocytes, the rate-limiting step in cholesterol synthesis; compensatory LDL receptor upregulation clears plasma LDL-C by 30–55% depending on agent and dose."
+  - target: 01-human/06-organ/liver
+    relation: treats
+    note: "NASH/steatohepatitis: statins reduce hepatic steatosis and inflammation markers; generally safe in compensated liver disease and not contraindicated in NAFLD, despite early concerns about statin hepatotoxicity."
 ---
 
 # Statins

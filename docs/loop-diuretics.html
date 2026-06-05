@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Loop Diuretics — NKCC2 inhibitors in the thick ascending limb of Henle. Furosemide, bumetanide, torsemide mechanism, DOSE trial, heart failure clinical use, side effects. Part of the Human Engineering project.">
+  <meta property="og:title" content="Loop Diuretics — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Loop Diuretics — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #7c3aed;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #3b0764); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .agent-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .agent-grid { grid-template-columns: 1fr; } }
+    .agent-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .agent-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .agent-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .principle-box { background: rgba(124,58,237,0.06); border: 1px solid rgba(124,58,237,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Modern Pharmacology</div>
+    <h1>Loop Diuretics</h1>
+    <p class="tagline">NKCC2 inhibitors in the thick ascending limb of Henle — the most potent diuretic class available, blocking ~25% of filtered NaCl and generating rapid, massive natriuresis even in severe renal impairment.</p>
+    <p class="subtagline">First-line therapy for acute decompensated heart failure, CKD-associated oedema, nephrotic syndrome, and hypercalcaemia. IV furosemide: venodilation within 5–15 minutes, diuresis within 30 minutes. Symptom relief agents — not mortality-modifying in heart failure.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">NKCC2</span><span class="stat-label">Molecular Target</span></div>
+      <div class="stat"><span class="stat-num">~25%</span><span class="stat-label">NaCl Reabsorption Blocked</span></div>
+      <div class="stat"><span class="stat-num">15–30 min</span><span class="stat-label">IV Onset of Action</span></div>
+      <div class="stat"><span class="stat-num">Cornerstone</span><span class="stat-label">Heart Failure / Oedema</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas &middot; Cardiovascular / Renal &middot; Diuretics</div>
+        <h2>Loop Diuretics</h2>
+        <div class="drug-class">Class: Loop Diuretic &nbsp;&middot;&nbsp; Natriuretic &nbsp;|&nbsp; Route: Oral or IV &nbsp;|&nbsp; Status: First-line for ADHF, refractory oedema, and oedematous states with reduced GFR where thiazides fail</div>
+        <p class="summary">Loop diuretics are the most potent class of diuretics in clinical medicine. They act by inhibiting <strong>NKCC2 (Na&#x207a;-K&#x207a;-2Cl&#x207b; cotransporter)</strong> in the thick ascending limb of the loop of Henle, blocking reabsorption of approximately 25% of filtered sodium — far exceeding the 3–8% blocked by thiazides. By abolishing the medullary concentration gradient, they generate profound natriuresis and diuresis even in significant CKD. IV furosemide additionally causes acute venodilation within 5–15 minutes, relieving pulmonary oedema before diuresis begins. Critical caveat: loop diuretics provide symptom relief but carry no mortality benefit in heart failure — that benefit comes from neurohormonal agents (ACEi/ARBs/ARNIs, beta-blockers, MRAs, SGLT2i).</p>
+        <div class="alias-pills">
+          <span class="alias-pill">furosemide</span>
+          <span class="alias-pill">Lasix</span>
+          <span class="alias-pill">bumetanide</span>
+          <span class="alias-pill">torsemide</span>
+          <span class="alias-pill">ethacrynic acid</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>Loop diuretics are the <strong>most potent class of diuretic agents</strong> available in clinical medicine, capable of inducing massive natriuresis and diuresis even in the setting of significantly reduced glomerular filtration rate. They act by inhibiting the <strong>Na&#x207a;-K&#x207a;-2Cl&#x207b; cotransporter (NKCC2, SLC12A1)</strong> in the thick ascending limb (TAL) of the loop of Henle, blocking reabsorption of approximately 25% of filtered sodium — compared to 3–8% for thiazide diuretics.</p>
+          <p>The three principal agents in clinical use are <strong>furosemide</strong> (the most widely prescribed), <strong>bumetanide</strong>, and <strong>torsemide</strong>, which share the same mechanism but differ in bioavailability, duration, and pharmacokinetics. A fourth agent, <strong>ethacrynic acid</strong>, is chemically distinct (not sulfonamide-based) and reserved for patients with true sulfa allergy.</p>
+          <p>Loop diuretics are <strong>first-line therapy</strong> for: acute decompensated heart failure (ADHF) with volume overload; chronic HFrEF and HFpEF to maintain euvolaemia; refractory oedema in hepatic cirrhosis, nephrotic syndrome, and hypoalbuminaemia; hypercalcaemia (via calciuresis); and oedema in CKD where thiazides lose efficacy at GFR &lt;30 mL/min.</p>
+          <div class="agent-grid">
+            <div class="agent-item">
+              <h4>Furosemide (Lasix) — 40 mg reference</h4>
+              <p>Most widely used. Oral bioavailability highly variable (10–90%) — a major clinical problem in acute decompensation. IV preferred in ADHF. Duration 4–6 h. Sulfonamide-based.</p>
+            </div>
+            <div class="agent-item">
+              <h4>Bumetanide — 1 mg &asymp; furosemide 40 mg</h4>
+              <p>40&times; more potent by weight than furosemide. Oral bioavailability ~80% (more reliable). Duration 4–6 h. Useful when oral furosemide absorption is uncertain. Sulfonamide-based.</p>
+            </div>
+            <div class="agent-item">
+              <h4>Torsemide — 10–20 mg &asymp; furosemide 40 mg</h4>
+              <p>Oral bioavailability ~80% (reliable). Duration 12–16 h (once daily). More predictable PK than furosemide. TRANSFORM-HF (2023): no mortality difference vs furosemide in HF despite theoretical advantages.</p>
+            </div>
+            <div class="agent-item">
+              <h4>Ethacrynic Acid — reserved use</h4>
+              <p>Only non-sulfonamide loop diuretic. First-line in true sulfa allergy (furosemide allergy). Higher risk of ototoxicity. Not preferred otherwise due to less favourable side-effect profile vs sulfonamide-based agents.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action</h3>
+          <h4>NKCC2 Inhibition in the Thick Ascending Limb (TAL)</h4>
+          <p>The thick ascending limb of Henle is the site of <strong>active NaCl reabsorption without water</strong> — the TAL is impermeable to water. This reabsorption is mediated by <strong>NKCC2</strong>, which co-transports one Na&#x207a;, one K&#x207a;, and two Cl&#x207b; from the tubular lumen into the tubular cell simultaneously. Loop diuretics are secreted into the tubular lumen by organic anion transporters (OAT1/OAT3) and act from the <strong>luminal side</strong> of NKCC2.</p>
+          <div class="pathway-block">
+<pre>
+  Thick Ascending Limb (TAL) — impermeable to water
+  ─────────────────────────────────────────────────
+  Tubular lumen                    Tubular cell               Interstitium
+
+  Na⁺ ]                           Na⁺ →  Na⁺/K⁺-ATPase  →   Na⁺
+  K⁺  ]  → NKCC2 →  [into cell]  K⁺  →  ROMK (recycled  ←   K⁺
+  2Cl⁻]              (blocked by       back to lumen)
+                      loop diuretic)  Cl⁻ →  Cl⁻ channels  →   Cl⁻
+
+  ─────────────────────────────────────────────────
+  NKCC2 blockade effect:
+
+  1. Na⁺, Cl⁻, K⁺ remain in lumen → passed to collecting duct
+  2. Medullary concentration gradient ABOLISHED
+     (normal: ~300 mOsm cortex → ~1200 mOsm inner medulla)
+  3. Even with maximal ADH, collecting duct cannot concentrate urine
+     → free water loss continues
+  4. Increased distal Na⁺ delivery → aldosterone-mediated Na⁺/K⁺ exchange
+     → K⁺ secretion → hypokalaemia
+  5. Increased Mg²⁺ and Ca²⁺ delivery distally → wasting → hypomagnesaemia,
+     hypocalcaemia (unlike thiazides which promote Ca²⁺ reabsorption)
+</pre>
+          </div>
+
+          <h4>Consequences of NKCC2 Blockade</h4>
+          <ol class="step-list">
+            <li><strong>Massive natriuresis and diuresis:</strong> ~25% of filtered Na&#x207a; blocked &rarr; excreted; far exceeds the ~3–8% achievable by thiazides; diuresis of 1–4+ L feasible over hours with IV dosing</li>
+            <li><strong>Abolition of medullary concentration gradient:</strong> The gradient (cortex 300 &rarr; inner medulla 1200 mOsm) that drives water reabsorption in the collecting duct is generated by NKCC2-dependent Na&#x207a;/Cl&#x207b; deposition in the medullary interstitium. Loop diuretics eliminate this gradient &rarr; collecting duct cannot concentrate urine even with full ADH signalling</li>
+            <li><strong>Hypokalaemia:</strong> Increased Na&#x207a; delivery to the distal collecting tubule &rarr; aldosterone-mediated Na&#x207a;/K&#x207a; exchange &rarr; K&#x207a; secretion into urine. A predictable, often significant side effect requiring monitoring and supplementation</li>
+            <li><strong>Hypomagnesaemia and hypocalcaemia:</strong> NKCC2 normally drives paracellular reabsorption of Mg&#xb2;&#x207a; and Ca&#xb2;&#x207a; in the TAL (via the lumen-positive voltage generated by K&#x207a; recycling). Blockade &rarr; urinary loss of both. Unlike thiazides, which promote Ca&#xb2;&#x207a; reabsorption, loop diuretics cause calciuresis.</li>
+          </ol>
+
+          <h4>Acute Haemodynamic Effect of IV Furosemide — Venodilation Before Diuresis</h4>
+          <p>Within <strong>5–15 minutes</strong> of IV furosemide administration — well before significant diuresis begins — there is an acute <strong>venodilatory effect</strong> mediated by increased renal prostaglandin E&#x2082; and prostacyclin synthesis:</p>
+          <ul class="se-list">
+            <li><strong>Venodilation:</strong> &#8595;venous return &rarr; &#8595;preload &rarr; &#8595;pulmonary capillary wedge pressure &rarr; relief of pulmonary oedema</li>
+            <li>This rapid effect explains why IV furosemide is superior to oral in acute pulmonary oedema — the venodilation precedes and augments the diuresis</li>
+            <li>Crucially: this venodilatory effect is <strong>blocked by NSAIDs</strong> (which inhibit prostaglandin synthesis) and is <strong>absent with oral furosemide</strong> (prostaglandins released locally in kidney before systemic distribution)</li>
+          </ul>
+          <p>Diuresis then follows: onset ~30 minutes, peak ~1–2 hours, duration ~4–6 hours for IV furosemide.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Use</h3>
+          <h4>Acute Decompensated Heart Failure (ADHF)</h4>
+          <p>The primary use of loop diuretics in cardiology. Goal: achieve negative fluid balance of 1–2 L/day to relieve congestion while monitoring renal function, electrolytes, and haemodynamics.</p>
+          <ul class="se-list">
+            <li><strong>Route:</strong> IV preferred over oral in ADHF (more reliable absorption, faster onset, venodilatory benefit)</li>
+            <li><strong>Dosing (DOSE trial strategy):</strong> Start at &ge;1&times; the patient's prior oral maintenance dose IV; escalate if inadequate diuretic response. High-dose IV strategy (2.5&times; prior oral dose) achieves better decongestion at cost of slightly more creatinine rise — both strategies acceptable per DOSE trial</li>
+            <li><strong>Diuretic resistance:</strong> When furosemide dose escalation fails, add metolazone (thiazide-like) 30 minutes before loop diuretic &rarr; sequential nephron blockade &rarr; synergistic natriuresis. Monitor electrolytes closely</li>
+            <li><strong>Monitoring:</strong> Daily weight, urine output, serum creatinine, electrolytes (K&#x207a;, Mg&#xb2;&#x207a;). Target 0.5–1 kg weight loss/day in severe congestion; reassess haemodynamics if creatinine rises &gt;0.3 mg/dL above baseline</li>
+          </ul>
+
+          <h4>Chronic Heart Failure (HFrEF and HFpEF)</h4>
+          <p>Loop diuretics maintain euvolaemia and relieve congestion symptoms in chronic HF. Dose is titrated flexibly, ideally with patient-directed diuresis based on daily weight monitoring (patient adjusts dose by 1 tablet if weight rises &gt;2 kg over 2 days). The <strong>critical caveat</strong>: loop diuretics have no mortality benefit in HF — they are symptom-relief agents. All mortality-modifying therapy in HFrEF (beta-blockers, ACEi/ARBs/ARNIs, MRAs, SGLT2i) should be optimised alongside loop diuretics.</p>
+
+          <h4>Other Key Indications</h4>
+          <table class="data-table">
+            <tr><th>Indication</th><th>Mechanism</th><th>Clinical Note</th></tr>
+            <tr>
+              <td><strong>CKD-associated oedema</strong></td>
+              <td>NKCC2 blockade effective even at GFR &lt;30 mL/min (unlike thiazides)</td>
+              <td>May require high doses due to reduced OAT secretion and competing uremic organic anions; torsemide or bumetanide preferred (more reliable bioavailability)</td>
+            </tr>
+            <tr>
+              <td><strong>Nephrotic syndrome</strong></td>
+              <td>Massive sodium/water retention from hypoalbuminaemia</td>
+              <td>Hypoalbuminaemia reduces furosemide binding to albumin for tubular delivery; may require IV or continuous infusion; combine with albumin in severe cases</td>
+            </tr>
+            <tr>
+              <td><strong>Hypercalcaemia</strong></td>
+              <td>Calciuresis — loop diuretics block Ca&#xb2;&#x207a; reabsorption in TAL, promoting urinary Ca&#xb2;&#x207a; loss</td>
+              <td>IV furosemide + normal saline (volume expansion must precede diuresis to prevent volume depletion). Bisphosphonates preferred for malignancy-associated hypercalcaemia</td>
+            </tr>
+            <tr>
+              <td><strong>Hepatic cirrhosis</strong></td>
+              <td>Reduce ascites and peripheral oedema from portal hypertension/hypoalbuminaemia</td>
+              <td>Usually combined with spironolactone (aldosterone antagonist) for synergistic effect and hypokalaemia prevention; spironolactone first-line, furosemide added for refractory ascites</td>
+            </tr>
+            <tr>
+              <td><strong>Hypertensive urgency with volume overload</strong></td>
+              <td>Rapid volume reduction via diuresis</td>
+              <td>IV furosemide useful if fluid overload contributes to hypertension; acute haemodynamic benefit within minutes</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Agents — Comparison</h3>
+          <table class="data-table">
+            <tr><th>Agent</th><th>Bioavailability (oral)</th><th>Onset IV / Oral</th><th>Duration</th><th>Equivalent Dose</th><th>Key Notes</th></tr>
+            <tr>
+              <td><strong>Furosemide</strong> (Lasix)</td>
+              <td>10–90% (highly variable)</td>
+              <td>5 min / 30–60 min</td>
+              <td>4–6 h</td>
+              <td>40 mg (reference)</td>
+              <td>Most prescribed; highly variable oral absorption in HF (gut oedema, &#8595;splanchnic blood flow); IV essential in ADHF; sulfonamide-based</td>
+            </tr>
+            <tr>
+              <td><strong>Bumetanide</strong></td>
+              <td>~80% (reliable)</td>
+              <td>5 min / 30 min</td>
+              <td>4–6 h</td>
+              <td>1 mg &asymp; furosemide 40 mg</td>
+              <td>More predictable oral absorption than furosemide; useful when outpatient oral furosemide absorption suspected; sulfonamide-based</td>
+            </tr>
+            <tr>
+              <td><strong>Torsemide</strong></td>
+              <td>~80% (reliable)</td>
+              <td>10 min / 60 min</td>
+              <td>12–16 h</td>
+              <td>10–20 mg &asymp; furosemide 40 mg</td>
+              <td>Once-daily oral; reliable absorption; longest duration; TRANSFORM-HF (2023): no mortality advantage vs furosemide despite PK advantages; sulfonamide-based</td>
+            </tr>
+            <tr>
+              <td><strong>Ethacrynic acid</strong></td>
+              <td>~100%</td>
+              <td>15 min / 30 min</td>
+              <td>4–6 h</td>
+              <td>25 mg &asymp; furosemide 40 mg</td>
+              <td><strong>Not sulfonamide-based</strong> — only option in true sulfa allergy. Higher ototoxicity risk; less convenient preparation. Not preferred unless sulfa contraindicated</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Dosing in CKD — The Ceiling Dose Concept:</strong> In severe CKD, competing organic anions (uremic toxins) reduce OAT-mediated secretion of loop diuretics into the tubular lumen, requiring much higher doses to achieve sufficient luminal drug concentrations. However, there is a functional ceiling dose: above ~400–600 mg IV furosemide/day, increasing Na&#x207a; delivery to the aldosterone-sensitive distal nephron triggers Na&#x207a;/K&#x207a; exchange adaptation that limits further natriuresis. At this point, adding sequential nephron blockade (metolazone, thiazides) achieves synergistic diuresis by blocking Na&#x207a; reabsorption at the distal tubule as well as the TAL.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Evidence Base — DOSE Trial and Guidelines</h3>
+          <table class="data-table">
+            <tr><th>Trial / Source</th><th>Population</th><th>Intervention</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>DOSE (2011)</strong></td>
+              <td>308 patients with ADHF requiring IV diuresis</td>
+              <td>Factorial design: high-dose (2.5&times; prior oral dose IV) vs low-dose IV furosemide; continuous infusion vs bolus</td>
+              <td class="trial-result">No significant difference in global clinical assessment at 72 h between high vs low dose, or continuous vs bolus. High-dose strategy: better decongestion (more urine output, more weight loss) + slightly more creatinine rise. Both strategies acceptable; clinical judgment guides dose selection based on congestion severity.</td>
+            </tr>
+            <tr>
+              <td><strong>TRANSFORM-HF (2023)</strong></td>
+              <td>2,859 patients hospitalised for HF</td>
+              <td>Torsemide vs furosemide (both oral)</td>
+              <td class="trial-result">No difference in all-cause mortality or hospitalisations. Despite torsemide's theoretical PK advantages, clinical outcomes equivalent. Agent choice may be guided by individual patient factors (absorption, insurance, cost).</td>
+            </tr>
+            <tr>
+              <td><strong>2022 AHA/ACC/HFSA Heart Failure Guideline</strong></td>
+              <td>All patients with HF and signs/symptoms of volume overload</td>
+              <td>Loop diuretics (Class I recommendation)</td>
+              <td class="trial-result">Recommended for all HF patients with signs/symptoms of congestion to relieve dyspnoea and oedema, improve functional capacity, and reduce hospitalisations. No mortality benefit established — neurohormonal agents provide that benefit.</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Side Effects</h3>
+          <ul class="se-list">
+            <li><strong>Hypokalaemia</strong> — most common electrolyte disturbance; mechanism: increased Na&#x207a; delivery to distal nephron &rarr; aldosterone-driven Na&#x207a;/K&#x207a; exchange &rarr; K&#x207a; secretion. Risk is proportional to dose and diuresis intensity. Management: oral KCl supplementation, dietary K&#x207a; increase, concomitant MRA (spironolactone, eplerenone) in HFrEF (which also has independent mortality benefit). Target serum K&#x207a; &ge;4.0 mmol/L in HF (hypokalaemia increases arrhythmia risk in the context of heart disease and digoxin use).</li>
+            <li><strong>Hypomagnesaemia</strong> — urinary Mg&#xb2;&#x207a; loss from NKCC2 blockade (paracellular Mg&#xb2;&#x207a; reabsorption in TAL driven by the lumen-positive potential generated by K&#x207a; recycling — abolished by furosemide). Often co-occurs with hypokalaemia; hypomagnesaemia itself drives persistent renal K&#x207a; wasting. Replace magnesium orally or IV if symptomatic or K&#x207a; refractory to supplementation.</li>
+            <li><strong>Hypocalcaemia</strong> — unlike thiazides (which promote Ca&#xb2;&#x207a; reabsorption), loop diuretics cause calciuresis. NKCC2 blockade eliminates the lumen-positive voltage driving passive Ca&#xb2;&#x207a; reabsorption in the TAL. Usually mild with standard dosing; monitor in prolonged high-dose therapy. This property is exploited therapeutically in hypercalcaemia.</li>
+            <li><strong>Volume depletion / prerenal azotaemia</strong> — excessive diuresis or failure to adjust dose when the patient has improved. Presents as rising creatinine, thirst, postural hypotension. Manage by dose reduction, holding diuretic temporarily, oral rehydration. Distinguish from true AKI. A rise in creatinine of 0.3–0.5 mg/dL during decongestion in ADHF is often acceptable if the patient is improving clinically.</li>
+            <li><strong>Ototoxicity</strong> — cochlear NKCC2 (expressed in the stria vascularis of the cochlea) is also blocked by high-dose loop diuretics, disrupting endolymph Na&#x207a;/K&#x207a;/Cl&#x207b; homeostasis &rarr; sensorineural hearing loss, tinnitus, vertigo. Risk is greatest with: rapid high-dose IV infusion (inject furosemide IV slowly, &le;4 mg/min); combination with aminoglycosides (synergistic cochlear toxicity); renal failure (reduced drug clearance &rarr; elevated plasma levels). Ethacrynic acid carries the highest ototoxicity risk among loop diuretics.</li>
+            <li><strong>Hyperuricaemia / gout</strong> — competition between loop diuretics and uric acid for OAT-mediated tubular secretion &rarr; reduced uric acid excretion &rarr; hyperuricaemia &rarr; may precipitate gout in susceptible patients. Manage with allopurinol or febuxostat if symptomatic.</li>
+            <li><strong>Sulfonamide allergy</strong> — furosemide, bumetanide, and torsemide contain a sulfonamide group. In patients with true sulfonamide allergy, use ethacrynic acid. Note: cross-reactivity between sulfonamide antimicrobials and sulfonamide-based diuretics is not well established and should not preclude use without confirmed allergy.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Acts on</span>
+              Cardiovascular System
+            </a>
+            <a href="ace-inhibitors.html" class="conn-pill acts">
+              <span class="rel">Used with</span>
+              ACE Inhibitors
+            </a>
+            <a href="beta-blockers.html" class="conn-pill acts">
+              <span class="rel">Used with</span>
+              Beta-blockers
+            </a>
+            <a href="statins.html" class="conn-pill acts">
+              <span class="rel">Used with</span>
+              Statins
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              NKCC2 / SLC12A1 (entry pending)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Acts on</span>
+              Kidney — Loop of Henle (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Brater DC. Diuretic therapy. <em>N Engl J Med.</em> 1998;339(6):387-95. <a href="https://doi.org/10.1056/NEJM199808063390607">doi:10.1056/NEJM199808063390607</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9691107/">PubMed 9691107</a></li>
+            <li>Felker GM, Lee KL, Bull DA, et al. Diuretic strategies in patients with acute decompensated heart failure (DOSE). <em>N Engl J Med.</em> 2011;364(9):797-805. <a href="https://doi.org/10.1056/NEJMoa1005419">doi:10.1056/NEJMoa1005419</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21366472/">PubMed 21366472</a></li>
+            <li>Felker GM, Mentz RJ. Diuretics and ultrafiltration in acute decompensated heart failure. <em>J Am Coll Cardiol.</em> 2012;59(24):2145-53. <a href="https://doi.org/10.1016/j.jacc.2011.10.907">doi:10.1016/j.jacc.2011.10.907</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22676935/">PubMed 22676935</a></li>
+            <li>Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. <em>Circulation.</em> 2022;145(18):e895-e1032. <a href="https://doi.org/10.1161/CIR.0000000000001063">doi:10.1161/CIR.0000000000001063</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/35363499/">PubMed 35363499</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="ace-inhibitors.html">ACE Inhibitors</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

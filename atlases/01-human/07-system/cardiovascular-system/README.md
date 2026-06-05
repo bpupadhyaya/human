@@ -42,6 +42,33 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "The cardiovascular and respiratory systems are tightly coupled via the pulmonary circuit: the right heart delivers deoxygenated blood to the alveolar capillaries, and the left heart receives oxygenated blood — making them functionally inseparable in gas exchange."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The autonomic nervous system regulates heart rate (via SA node), contractility (β1-AR), and vascular tone; baroreceptor reflex provides moment-to-moment blood pressure feedback."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain receives ~20% of cardiac output despite being ~2% of body weight; cerebral autoregulation maintains constant CBF over MAP 60–150 mmHg; ischemic stroke results from thromboembolic occlusion or sustained hypoperfusion."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "RAAS couples renal perfusion pressure to angiotensin II and aldosterone, governing Na⁺/H₂O retention and systemic BP; cardiorenal syndrome links heart failure to acute kidney injury."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Portal circulation delivers absorbed nutrients from gut to liver; hepatic lipoprotein synthesis and coagulation factor production directly shape cardiovascular risk and thrombosis."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Portal vein drains intestinal blood to liver before reaching systemic circulation; mesenteric blood flow (~30% of cardiac output postprandially) is regulated by autonomic and local vasoactive signals."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Renal perfusion (20–25% of cardiac output) is directly coupled to cardiac output; acute heart failure reduces GFR; the RAAS axis from the kidney feeds back to regulate systemic vascular resistance and cardiac preload."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Glomerular filtration is driven entirely by systemic hydrostatic pressure from the renal artery; cardiac output and mean arterial pressure are the primary determinants of GFR."
+  - target: 01-human/05-tissue/glomerulus
+    relation: modulates
+    note: "Systemic blood pressure modulates glomerular filtration pressure; hypertension causes hyperfiltration and eventual glomerulosclerosis; heart failure reduces GFR via low perfusion."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Hepatic lobules receive dual blood supply — portal vein (~75%, nutrient-rich) and hepatic artery (~25%, oxygenated); portal hypertension in liver disease reflects cardiovascular-hepatic coupling."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"

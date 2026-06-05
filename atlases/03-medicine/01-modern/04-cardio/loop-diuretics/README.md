@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: acts-on
     note: "By reducing preload, loop diuretics reduce wall stress and oxygen demand in the volume-overloaded heart; rapid IV furosemide also has acute venodilatory effects reducing pulmonary oedema within minutes of administration."
+  - target: 01-human/06-organ/kidney
+    relation: treats
+    note: "Furosemide acts at NKCC2 in the thick ascending limb to increase urinary Na⁺/Cl⁻/K⁺/H₂O excretion; used for edematous states (heart failure, cirrhosis, nephrotic syndrome) and for maintaining urine output in AKI."
+  - target: 01-human/07-system/renal-system
+    relation: treats
+    note: "Loop diuretics are first-line for ADHF with CKD; retain efficacy at GFR <30 mL/min where thiazides lose effect; used for oliguric AKI to promote diuresis, though evidence for mortality benefit is limited."
 ---
 
 # Loop diuretics

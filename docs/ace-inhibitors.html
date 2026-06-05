@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ACE Inhibitors — angiotensin-converting enzyme inhibitors, first-line for HFrEF, hypertension, and diabetic nephropathy. RAAS mechanism, landmark trials (CONSENSUS, SOLVD, HOPE, SAVE), key agents. Part of the Human Engineering project.">
+  <meta property="og:title" content="ACE Inhibitors — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>ACE Inhibitors — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0369a1;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #082f49); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .haemo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .haemo-grid { grid-template-columns: 1fr; } }
+    .haemo-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .haemo-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .haemo-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .principle-box { background: rgba(3,105,161,0.07); border: 1px solid rgba(3,105,161,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Modern Pharmacology</div>
+    <h1>ACE Inhibitors</h1>
+    <p class="tagline">Angiotensin-converting enzyme inhibitors — competitive blockers of ACE that interrupt the RAAS cascade, lowering angiotensin II, reducing aldosterone, and potentiating bradykinin.</p>
+    <p class="subtagline">First-line for HFrEF, hypertension, diabetic nephropathy, and post-MI LV dysfunction. CONSENSUS (1987) to HOPE (2000) — four decades of mortality benefit across cardiovascular and renal disease.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">~27%</span><span class="stat-label">Mortality ↓ in HFrEF</span></div>
+      <div class="stat"><span class="stat-num">1987</span><span class="stat-label">CONSENSUS Trial</span></div>
+      <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Agents in Class</span></div>
+      <div class="stat"><span class="stat-num">First-line</span><span class="stat-label">HFrEF / HTN / CKD</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas &middot; Cardiovascular &middot; RAAS Inhibitors</div>
+        <h2>ACE Inhibitors</h2>
+        <div class="drug-class">Class: ACE Inhibitor &nbsp;&middot;&nbsp; Antihypertensive &nbsp;&middot;&nbsp; Renoprotective &nbsp;|&nbsp; Route: Oral (most agents) &nbsp;|&nbsp; Status: First-line HFrEF, HTN with CKD/DM, diabetic nephropathy, post-MI</div>
+        <p class="summary">Competitive inhibitors of angiotensin-converting enzyme (ACE/kininase II) — the enzyme that converts angiotensin I to the potent vasoconstrictor angiotensin II. ACE inhibition also prevents bradykinin degradation, potentiating vasodilation. Net result: reduced afterload, preload, aldosterone-mediated sodium retention, and adverse ventricular remodelling. Landmark RCTs from CONSENSUS (1987) through HOPE (2000) established that ACEi reduce all-cause mortality in HFrEF by ~27% and confer cardiovascular protection broadly — including in patients with no heart failure but high vascular risk.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">ACEi</span>
+          <span class="alias-pill">angiotensin-converting enzyme inhibitors</span>
+          <span class="alias-pill">captopril</span>
+          <span class="alias-pill">enalapril</span>
+          <span class="alias-pill">lisinopril</span>
+          <span class="alias-pill">ramipril</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>ACE inhibitors (angiotensin-converting enzyme inhibitors) are a class of drugs that competitively inhibit <strong>ACE (kininase II, EC 3.4.15.1)</strong> — the enzyme responsible for converting the inactive decapeptide angiotensin I into the potent vasoconstrictor <strong>angiotensin II</strong> in the renin-angiotensin-aldosterone system (RAAS). ACE also degrades <strong>bradykinin</strong> — a vasodilatory peptide — so ACE inhibition potentiates bradykinin effects, producing additional vasodilation (and the characteristic dry cough side effect via bradykinin-stimulated pulmonary C-fibres).</p>
+          <p>ACE inhibitors are among the most impactful drug classes in the history of cardiovascular medicine. Their landmark trials — beginning with CONSENSUS (1987) and SOLVD (1991) — established that RAAS blockade reduces <strong>all-cause mortality in heart failure with reduced ejection fraction (HFrEF)</strong> and transformed heart failure therapy. They are now first-line therapy for:</p>
+          <ul class="se-list">
+            <li><strong>Heart failure with reduced ejection fraction (HFrEF, EF &lt;40%):</strong> Class I, Level A recommendation in all major guidelines</li>
+            <li><strong>Hypertension:</strong> Particularly with concurrent CKD, diabetes, or HF — where RAAS blockade confers organ-protective benefits beyond blood pressure lowering</li>
+            <li><strong>Diabetic nephropathy:</strong> Reduce proteinuria 30–50% and slow CKD progression independent of BP lowering</li>
+            <li><strong>Post-myocardial infarction with LV dysfunction (LVEF &lt;40%):</strong> Prevent progressive adverse remodelling and reduce mortality (SAVE, AIRE trials)</li>
+            <li><strong>High cardiovascular risk (secondary prevention):</strong> HOPE trial established benefit even in patients without HF or known LV dysfunction</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action</h3>
+          <h4>RAAS Cascade and ACE Inhibition</h4>
+          <div class="pathway-block">
+<pre>
+  Angiotensinogen (liver)
+          │
+          │  Renin (JG cells, kidney) — stimulated by ↓BP, ↓Na⁺, sympathetic activity
+          ▼
+  Angiotensin I (10 amino acids)
+          │
+          │  ACE (lung, vascular endothelium) ← ACE INHIBITOR BINDS HERE
+          │  (zinc metalloprotease, EC 3.4.15.1)
+          ▼
+  Angiotensin II (8 amino acids)
+          │
+          ▼
+  AT1 receptor → vasoconstriction · aldosterone release · norepinephrine release
+                   sympathetic activation · cardiac fibrosis · LV remodelling
+
+  Bradykinin → (normally degraded by ACE) → ACEi allows accumulation
+                  → eNOS activation → NO → vasodilation
+                  → pulmonary C-fibre stimulation → dry cough (25–40%)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;">ACE inhibitors bind the zinc-containing active site of ACE with high affinity, blocking angiotensin I cleavage. This produces a cascade of beneficial haemodynamic and structural effects:</p>
+          <ol class="step-list">
+            <li><strong>&#8595;Angiotensin II</strong> &rarr; less AT1 receptor stimulation &rarr; arterial and venous vasodilation (&darr;afterload, &darr;preload) &rarr; &darr;cardiac work</li>
+            <li><strong>&#8595;Aldosterone</strong> &rarr; less renal Na&#x207A;/H&#x2082;O retention &rarr; &darr;blood volume &rarr; &darr;preload; renal K&#x207A; retention (risk of hyperkalaemia)</li>
+            <li><strong>&#8593;Bradykinin</strong> &rarr; bradykinin-mediated vasodilation (eNOS activation &rarr; NO &rarr; vasodilation); also responsible for the bradykinin-mediated cough (25–40%) and rare angioedema (&lt;0.5%)</li>
+            <li><strong>Anti-fibrotic effects:</strong> Angiotensin II drives cardiac fibroblast activation, myocardial fibrosis, and ventricular remodelling. ACE inhibition reverses these processes over weeks-to-months &rarr; reverse remodelling in HFrEF, improving LVEF</li>
+          </ol>
+
+          <h4>Haemodynamic Effects</h4>
+          <div class="haemo-grid">
+            <div class="haemo-item">
+              <h4>&#8595; Afterload</h4>
+              <p>Arteriolar dilation via &darr;angiotensin II. Reduces cardiac work — allows ventricular function to improve at the same energy cost in HFrEF</p>
+            </div>
+            <div class="haemo-item">
+              <h4>&#8595; Preload</h4>
+              <p>Venodilation + &darr;aldosterone. Reduces filling pressures and pulmonary venous congestion; relieves dyspnoea in HFrEF</p>
+            </div>
+            <div class="haemo-item">
+              <h4>&#8593; Cardiac Output</h4>
+              <p>Net effect of &darr;afterload and &darr;preload in HFrEF: cardiac output increases despite &darr;BP. Haemodynamic improvement correlates with clinical benefit</p>
+            </div>
+            <div class="haemo-item">
+              <h4>Renal Efferent Dilation</h4>
+              <p>Angiotensin II preferentially constricts efferent arteriole. ACEi dilates it &rarr; &darr;intraglomerular pressure &rarr; &darr;proteinuria. Risk in bilateral renal artery stenosis: GFR may fall acutely</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Use</h3>
+          <p>Per the 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure and supporting trial evidence:</p>
+          <table class="data-table">
+            <tr><th>Indication</th><th>Guideline Strength</th><th>Key Evidence</th><th>Preferred Agents</th></tr>
+            <tr>
+              <td><strong>HFrEF (EF &lt;40%)</strong></td>
+              <td><span class="badge badge-hi">Class I Level A</span></td>
+              <td>CONSENSUS, SOLVD — mortality reduction ~27%</td>
+              <td>Enalapril, lisinopril, ramipril, captopril (titrate to target dose)</td>
+            </tr>
+            <tr>
+              <td><strong>Hypertension</strong></td>
+              <td><span class="badge badge-hi">Class I</span></td>
+              <td>First-line with CKD, DM, or HF; HOPE trial (ramipril)</td>
+              <td>Any ACEi; once-daily preferred for adherence</td>
+            </tr>
+            <tr>
+              <td><strong>Post-MI with LV dysfunction</strong></td>
+              <td><span class="badge badge-hi">Class I</span></td>
+              <td>SAVE (captopril), AIRE (ramipril) — 19–27% mortality reduction</td>
+              <td>Captopril (SAVE), ramipril (AIRE)</td>
+            </tr>
+            <tr>
+              <td><strong>Diabetic nephropathy (T1DM with proteinuria)</strong></td>
+              <td><span class="badge badge-hi">Class I</span></td>
+              <td>Reduce proteinuria 30–50%; slow GFR decline independent of BP</td>
+              <td>Any ACEi; titrate to maximum tolerated dose</td>
+            </tr>
+            <tr>
+              <td><strong>High CV risk (without HF/LV dysfunction)</strong></td>
+              <td><span class="badge badge-mod">Class IIa</span></td>
+              <td>HOPE (ramipril): 22% reduction in CV death/MI/stroke</td>
+              <td>Ramipril 10 mg/day (HOPE dose); perindopril (EUROPA)</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Dosing principle:</strong> ACE inhibitors must be <em>titrated to target dose</em> in HFrEF — the same doses proven to reduce mortality in trials. Start at low dose (e.g., enalapril 2.5 mg BD) and double every 2 weeks to target (e.g., enalapril 10 mg BD). The mortality benefit is dose-dependent; under-dosing is a common clinical error.</p>
+          <h4>Contraindications</h4>
+          <ul class="se-list">
+            <li><strong>Bilateral renal artery stenosis / severe aortic stenosis</strong> — efferent arteriolar dilation removes the pressure support driving GFR; may precipitate acute renal failure</li>
+            <li><strong>Pregnancy (Category D/X):</strong> Fetal ACE is essential for kidney development — ACEi causes oligohydramnios, renal tubular dysplasia, skull hypoplasia ("ACE inhibitor fetopathy")</li>
+            <li><strong>Hyperkalaemia (K&#x207A; &gt;5.5 mmol/L):</strong> Significant risk, especially with concomitant MRA or ARB. Monitor potassium closely in CKD</li>
+            <li><strong>Known angioedema from prior ACEi:</strong> Switch to ARB (slightly lower angioedema risk, but not zero). Do not rechallenge</li>
+            <li><strong>Severe hypotension (SBP &lt;90 mmHg):</strong> Contraindicated at initiation; start at very low dose in borderline cases</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Agents</h3>
+          <table class="data-table">
+            <tr><th>Agent</th><th>Prodrug?</th><th>Dosing</th><th>Key Pharmacology &amp; Clinical Distinguishing Features</th></tr>
+            <tr>
+              <td><strong>Captopril</strong></td>
+              <td>No (active)</td>
+              <td>6.25–50 mg three times daily</td>
+              <td>Oldest ACEi (1981); thiol group (SH) confers different side-effect profile (rash, dysgeusia more common); three-times daily dosing limits adherence; used in SAVE trial (post-MI)</td>
+            </tr>
+            <tr>
+              <td><strong>Enalapril</strong></td>
+              <td>Yes (enalaprilat)</td>
+              <td>2.5–10 mg twice daily</td>
+              <td>The SOLVD and CONSENSUS trial drug; twice daily; IV form (enalaprilat) available for hypertensive emergencies; longest track record in HFrEF</td>
+            </tr>
+            <tr>
+              <td><strong>Lisinopril</strong></td>
+              <td>No (active)</td>
+              <td>2.5–35 mg once daily</td>
+              <td>Once daily; hydrophilic — renally excreted, not metabolised; no CYP interactions; preferred in hepatic impairment; widely prescribed for HTN/HFrEF</td>
+            </tr>
+            <tr>
+              <td><strong>Ramipril</strong></td>
+              <td>Yes (ramiprilat)</td>
+              <td>1.25–10 mg once daily</td>
+              <td>HOPE trial drug (vascular protection in high-risk patients without HF); high tissue ACE selectivity; once daily; preferred for secondary prevention without HF</td>
+            </tr>
+            <tr>
+              <td><strong>Perindopril</strong></td>
+              <td>Yes (perindoprilat)</td>
+              <td>4–8 mg once daily</td>
+              <td>EUROPA trial (post-MI secondary prevention); long-acting; once daily; often combined with amlodipine (ADVANCE combination formulation)</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>ACEi vs ARB vs ARNI in HFrEF:</strong> ARBs (valsartan, candesartan) are non-inferior to ACEi and preferred when ACEi cough is intolerable; lower angioedema risk. <strong>ARNI (sacubitril/valsartan)</strong> is now preferred over ACEi alone in HFrEF — PARADIGM-HF showed 20% further reduction in CV death/HF hospitalisation vs enalapril. ACEi must be stopped 36 hours before starting ARNI to avoid angioedema from simultaneous bradykinin potentiation.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Evidence Base — Landmark Trials</h3>
+          <table class="data-table">
+            <tr><th>Trial</th><th>Drug</th><th>Population</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>CONSENSUS (1987)</strong></td>
+              <td>Enalapril</td>
+              <td>253 patients, NYHA class IV HFrEF</td>
+              <td class="trial-result">40% reduction in 6-month mortality vs placebo; trial stopped early due to overwhelming benefit. First RCT to demonstrate mortality reduction with RAAS blockade in heart failure.</td>
+            </tr>
+            <tr>
+              <td><strong>SOLVD (1991)</strong></td>
+              <td>Enalapril</td>
+              <td>2,569 patients, LVEF &le;35%, symptomatic HFrEF</td>
+              <td class="trial-result">16% reduction in all-cause mortality; 26% reduction in hospitalisations for HF. Confirmed mortality benefit across a broader HFrEF population.</td>
+            </tr>
+            <tr>
+              <td><strong>SAVE (1992)</strong></td>
+              <td>Captopril</td>
+              <td>2,231 post-MI patients, LVEF &le;40% (asymptomatic LV dysfunction)</td>
+              <td class="trial-result">19% reduction in all-cause mortality; 25% reduction in HF hospitalisation. Extended ACEi indication to asymptomatic post-MI LV dysfunction.</td>
+            </tr>
+            <tr>
+              <td><strong>HOPE (2000)</strong></td>
+              <td>Ramipril 10 mg/day</td>
+              <td>9,297 high-risk patients — no HF, no known LV dysfunction</td>
+              <td class="trial-result">22% reduction in composite of CV death, MI, stroke vs placebo. Established ACEi benefit in vascular protection beyond heart failure — patients with diabetes, peripheral arterial disease, prior MI, or stroke.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Why ACEi Work Across So Many Indications:</strong> The RAAS is activated in virtually all patients with cardiovascular disease — from heart failure to post-MI remodelling to diabetic nephropathy. By interrupting this maladaptive neurohormonal system, ACEi prevent the downstream cascades (fibrosis, volume retention, vasoconstriction, inflammation) that drive disease progression. The convergence of evidence across multiple agents, populations, and endpoints over three decades reflects a drug class acting on a fundamental pathophysiological pathway.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Side Effects</h3>
+          <ul class="se-list">
+            <li><strong>Dry cough (25–40%)</strong> — most common side effect; caused by bradykinin and substance P accumulation in the lung (ACE also degrades these). Predictable, class-specific. Often dose-independent. Switch to ARB (does not potentiate bradykinin) if intolerable. Not a contraindication to continuing if the patient tolerates it.</li>
+            <li><strong>Angioedema (&lt;0.5%)</strong> — potentially life-threatening swelling of the lips, tongue, larynx, or gut wall; also bradykinin-mediated. More common in Black patients (~4× risk) and with concomitant mTOR inhibitors. Absolute contraindication to reuse. Switch to ARB (lower risk, but not zero) or ARNI only after careful consideration.</li>
+            <li><strong>Hyperkalaemia</strong> — reduced aldosterone leads to potassium retention. Clinically significant risk in CKD, with concomitant MRA (spironolactone/eplerenone), ARBs (dual RAAS blockade not recommended), or NSAIDs. Monitor potassium at 1–2 weeks after initiation or dose increase.</li>
+            <li><strong>Acute kidney injury / creatinine rise</strong> — an initial rise in creatinine of up to 30% after initiation is expected (efferent arteriolar dilation reduces intraglomerular pressure and GFR). This is usually acceptable and not a reason to stop. &gt;30% rise or creatinine &gt;3.5 mg/dL: investigate for bilateral renal artery stenosis.</li>
+            <li><strong>Hypotension (first-dose effect)</strong> — significant in volume-depleted patients or those on high-dose diuretics. Start at very low dose in heart failure initiation. Avoid in SBP &lt;90 mmHg.</li>
+            <li><strong>Teratogenicity (Category D/X)</strong> — contraindicated throughout pregnancy; fetal exposure leads to ACE inhibitor fetopathy (oligohydramnios, renal dysplasia, neonatal renal failure, limb contractures, lung hypoplasia). Stop before conception.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Acts on</span>
+              Cardiovascular System
+            </a>
+            <a href="statins.html" class="conn-pill acts">
+              <span class="rel">Used with</span>
+              Statins
+            </a>
+            <a href="beta-blockers.html" class="conn-pill acts">
+              <span class="rel">Used with</span>
+              Beta-blockers
+            </a>
+            <a href="loop-diuretics.html" class="conn-pill acts">
+              <span class="rel">Used with</span>
+              Loop Diuretics
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              ACE / Kininase II (entry pending)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Treats</span>
+              Kidney / CKD (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>CONSENSUS Trial Study Group. Effects of enalapril on mortality in severe congestive heart failure. <em>N Engl J Med.</em> 1987;316(23):1429-35. <a href="https://doi.org/10.1056/NEJM198706043162301">doi:10.1056/NEJM198706043162301</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/2883575/">PubMed 2883575</a></li>
+            <li>The SOLVD Investigators. Effect of enalapril on survival in patients with reduced left ventricular ejection fractions and congestive heart failure. <em>N Engl J Med.</em> 1991;325(5):293-302. <a href="https://doi.org/10.1056/NEJM199108013250501">doi:10.1056/NEJM199108013250501</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/2057034/">PubMed 2057034</a></li>
+            <li>Pfeffer MA, Braunwald E, Moye LA, et al. Effect of captopril on mortality and morbidity in patients with left ventricular dysfunction after myocardial infarction (SAVE). <em>N Engl J Med.</em> 1992;327(10):669-77. <a href="https://doi.org/10.1056/NEJM199209033271001">doi:10.1056/NEJM199209033271001</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/1386652/">PubMed 1386652</a></li>
+            <li>Yusuf S, Sleight P, Pogue J, et al. Effects of an angiotensin-converting-enzyme inhibitor, ramipril, on cardiovascular events in high-risk patients (HOPE). <em>N Engl J Med.</em> 2000;342(3):145-53. <a href="https://doi.org/10.1056/NEJM200001203420301">doi:10.1056/NEJM200001203420301</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10639539/">PubMed 10639539</a></li>
+            <li>Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. <em>Circulation.</em> 2022;145(18):e895-e1032. <a href="https://doi.org/10.1161/CIR.0000000000001063">doi:10.1161/CIR.0000000000001063</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/35363499/">PubMed 35363499</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="statins.html">Statins</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

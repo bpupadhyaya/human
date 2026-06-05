@@ -52,6 +52,36 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: damages
     note: "SARS-CoV-2 causes diffuse alveolar damage (DAD) and ARDS in severe COVID-19: bilateral alveolar flooding, hyaline membranes, and loss of surfactant — the most lethal pulmonary manifestation."
+  - target: 01-human/07-system/immune-system
+    relation: damages
+    note: "SARS-CoV-2 evades innate immunity (NSP1/NSP3 block IFN-I production, ORF3b suppresses IFN signaling), depletes lymphocytes, and triggers dysregulated cytokine storm causing immune organ failure in severe COVID-19."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: infects
+    note: "SARS-CoV-2 infects plasmacytoid DCs (via CLEC4M/DC-SIGN, ACE2-independent), impairing type I IFN production and antigen presentation early in infection."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: infects
+    note: "Direct infection of CD4+ T cells demonstrated in autopsy tissue; contributes to lymphopenia and CD4 depletion observed in severe COVID-19, impairing adaptive immune response."
+  - target: 01-human/05-tissue/glomerulus
+    relation: damages
+    note: "COVID-19-associated nephropathy: SARS-CoV-2 infects ACE2-expressing glomerular cells, causing collapsing focal segmental glomerulosclerosis (FSGS), particularly in APOL1 high-risk genotype patients."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: damages
+    note: "ACE2 is expressed in hepatocytes and cholangiocytes; direct viral hepatitis and ischemic/drug-induced liver injury contribute to enzyme elevation (ALT/AST ×3–5 ULN) in 14–53% of hospitalized patients."
+  - target: 01-human/04-cellular/podocyte
+    relation: damages
+    note: "Podocyte ACE2-mediated viral entry leads to foot process effacement and slit diaphragm disruption, causing collapsing glomerulopathy in COVID-19 AKI."
+  - target: 01-human/06-organ/kidney
+    relation: damages
+    note: "AKI occurs in 5–30% of hospitalized and up to 50% of ICU COVID-19 patients via cytopathic effect, cytokine storm-mediated tubular injury, microvascular thrombosis, and hemodynamic compromise."
+  - target: 01-human/06-organ/liver
+    relation: damages
+    note: "COVID-19 liver injury includes direct viral hepatitis, ischemic hepatitis in severe cases, and drug-induced liver injury from COVID-19 treatments (remdesivir, dexamethasone)."
+  - target: 01-human/07-system/digestive-system
+    relation: damages
+    note: "GI manifestations occur in ~17% of patients (diarrhea, nausea, abdominal pain); ACE2 in enterocytes enables viral replication in gut epithelium; fecal-oral transmission potential documented."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: target-of
+    note: "Neutralizing IgG antibodies targeting the spike RBD (and S2 fusion domain) are the primary adaptive humoral defense against SARS-CoV-2; anti-spike IgG titers correlate with protection against reinfection and severe disease."
 ---
 
 # SARS-CoV-2 (cardiac effects)

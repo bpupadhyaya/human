@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Liver — largest internal organ, metabolic hub: 500+ functions, dual blood supply, Couinaud segments, CYP450 detoxification. Scale 06 of the Human Atlas. Part of the Human Engineering project.">
+  <meta property="og:title" content="Liver — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Liver — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #d97706;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(217,119,6,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #d97706, #92400e); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas One &middot; Host Biology &middot; Scale 06 &mdash; Organ</div>
+    <h1>Liver</h1>
+    <p class="tagline">Largest internal organ and metabolic hub — performing over 500 functions including glucose homeostasis, lipid metabolism, protein synthesis, detoxification, and bile secretion.</p>
+    <p class="subtagline">Unique dual blood supply: portal vein (75%) + hepatic artery (25%). Exceptional regenerative capacity — restores 70% hepatectomy within 4–8 weeks.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Functions</span></div>
+      <div class="stat"><span class="stat-num">1.5 kg</span><span class="stat-label">Weight</span></div>
+      <div class="stat"><span class="stat-num">8</span><span class="stat-label">Couinaud Segments</span></div>
+      <div class="stat"><span class="stat-num">25%</span><span class="stat-label">of Cardiac Output</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0002107 &middot; FMA:7197 &middot; Atlas One / Scale 06</div>
+        <h2>Liver</h2>
+        <p class="summary">Largest internal organ (~1.5 kg), right upper quadrant. Dual blood supply: portal vein (75%) + hepatic artery (25%). Performs &gt;500 functions: glucose/lipid homeostasis, protein synthesis, detoxification, bile secretion. Contains ~100,000 hepatic lobules and is the site of CYP450-mediated drug metabolism, first-pass metabolism, and bilirubin conjugation. Exceptional regenerative capacity after injury.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>The liver is the largest internal organ of the human body and the metabolic hub of virtually every major biochemical pathway. Weighing approximately 1.2–1.6 kg in adults, it occupies the right hypochondriac region and much of the epigastric region of the upper abdomen, tucked beneath the right hemidiaphragm and protected by the lower rib cage.</p>
+          <p>Two features make the liver anatomically unique among abdominal organs. First, its <strong>dual blood supply:</strong> the hepatic portal vein (~75% of total flow, nutrient-rich but relatively O₂-poor, arriving from the gastrointestinal tract) and the hepatic artery proper (~25% of flow, O₂-rich from the aorta via the celiac trunk). This portal circulation ensures that absorbed nutrients, drugs, and gut-derived toxins all pass through the liver before entering the systemic circulation — the <strong>first-pass effect</strong> that enables the liver to buffer and regulate systemic blood chemistry. Second, its <strong>exceptional regenerative capacity:</strong> after a 70% hepatectomy (the amount donated in living-related transplantation), the remnant restores full functional mass within 4–8 weeks in humans.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Gross Anatomy — Couinaud Segments</h3>
+          <p>The liver is classically described as having <strong>4 lobes</strong> (right, left, caudate, quadrate), but the surgical gold standard is the <strong>Couinaud classification</strong> — 8 independent functional segments based on hepatic venous and portal pedicle territory. Each segment has its own portal pedicle (portal vein branch + hepatic artery branch + bile duct) and drains into a hepatic vein, making them independently resectable.</p>
+          <table class="data-table">
+            <tr><th>Segment</th><th>Location</th><th>Clinical note</th></tr>
+            <tr><td>I (Caudate)</td><td>Posterior, between IVC and porta hepatis</td><td>Drains directly into IVC; spared in Budd-Chiari syndrome</td></tr>
+            <tr><td>II–III</td><td>Left lateral section</td><td>Left lobe (left of falciform); segments of living donor left lateral graft</td></tr>
+            <tr><td>IV (a/b)</td><td>Left medial section (quadrate lobe)</td><td>Between falciform and middle hepatic vein</td></tr>
+            <tr><td>V–VI</td><td>Right anterior / posterior inferior</td><td>Lower right lobe; accessible via anterior approach</td></tr>
+            <tr><td>VII–VIII</td><td>Right posterior / anterior superior</td><td>Superior right lobe; challenging laparoscopic access</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Porta hepatis</strong> ("gate of the liver"): transverse fissure where portal vein, hepatic artery, and common hepatic duct enter/exit. The <strong>Pringle maneuver</strong> compresses the hepatoduodenal ligament to temporarily stop inflow bleeding during liver surgery.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Dual Blood Supply</h3>
+          <div class="circuit-diagram">
+<pre>
+  GI tract / spleen / pancreas
+           │
+           ▼
+    Portal vein (~75%)       Hepatic artery (~25%)
+    [nutrient-rich,          [O₂-rich, from aorta
+     relatively O₂-poor]      via celiac trunk]
+           │                         │
+           └────────────┬────────────┘
+                        ▼
+               Liver sinusoids
+               (LSEC fenestrations →
+                Disse space →
+                Hepatocytes)
+                        │
+                        ▼
+               Hepatic veins → IVC
+               Bile canaliculi → biliary tree → duodenum
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;">The dual supply creates a metabolic <strong>zonation gradient</strong> along the hepatic acinus: <strong>Zone 1</strong> (periportal) receives the highest O₂ and nutrient concentrations — site of gluconeogenesis, β-oxidation, amino acid catabolism. <strong>Zone 3</strong> (centrilobular/perivenous) is relatively hypoxic — site of glycolysis, lipogenesis, CYP2E1-mediated drug metabolism, and the greatest vulnerability to ischemia and acetaminophen toxicity.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Microscopic Structure</h3>
+          <p>The liver contains approximately 100,000 <strong>hepatic lobules</strong> — hexagonal units with a central vein surrounded by hepatocyte cords and sinusoids, with portal triads (portal vein branch + hepatic artery branch + bile ductule) at each vertex.</p>
+          <table class="data-table">
+            <tr><th>Cell type</th><th>Proportion</th><th>Primary function</th></tr>
+            <tr><td>Hepatocytes</td><td>~60% of cells, ~80% volume</td><td>Metabolism, protein synthesis, detoxification, bile secretion</td></tr>
+            <tr><td>Liver sinusoidal endothelial cells (LSEC)</td><td>~20%</td><td>Fenestrated; gatekeep access to Disse space; scavenge oxidized LDL; anti-inflammatory signaling</td></tr>
+            <tr><td>Kupffer cells</td><td>~15%</td><td>Resident macrophages; phagocytosis; immune surveillance; TLR4-LPS sensing in portal blood</td></tr>
+            <tr><td>Hepatic stellate cells (HSC)</td><td>~5%</td><td>Quiescent: vitamin A storage. Activated: myofibroblast → collagen I/III → fibrosis</td></tr>
+            <tr><td>Cholangiocytes</td><td>Small %</td><td>Line bile ducts; HCO₃⁻ secretion; water modification; primary target in PBC/PSC</td></tr>
+            <tr><td>Pit cells (NK cells)</td><td>Small %</td><td>Liver-resident lymphocytes; immune surveillance against infected/malignant hepatocytes</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Carbohydrate and Lipid Metabolism</h3>
+          <p>The liver maintains blood glucose within 70–100 mg/dL through opposing processes regulated by insulin and glucagon:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Postprandial (insulin-dominant)</h4>
+              <p>Glucose uptake via GLUT2 → glucokinase phosphorylation → glycogen synthesis. Surplus calories: glycolysis → acetyl-CoA → de novo lipogenesis → VLDL secretion.</p>
+            </div>
+            <div class="info-block">
+              <h4>Fasted state (glucagon-dominant)</h4>
+              <p>Glycogenolysis → glucose-6-phosphatase (liver/kidney specific) → free glucose. Prolonged fast: gluconeogenesis from lactate, alanine, glycerol; ketogenesis (β-hydroxybutyrate, acetoacetate).</p>
+            </div>
+            <div class="info-block">
+              <h4>Cholesterol synthesis</h4>
+              <p>Acetyl-CoA → HMG-CoA → (HMG-CoA reductase, HMGCR — <strong>statin target</strong>) → mevalonate → cholesterol. ~70% of total body cholesterol is synthesized here.</p>
+            </div>
+            <div class="info-block">
+              <h4>LDL clearance</h4>
+              <p>Hepatic LDL receptors (LDLR) clear ~70% of plasma LDL. Statin-induced ↓intracellular cholesterol → SREBP2 activation → LDLR upregulation → ↓plasma LDL-C.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Protein Synthesis</h3>
+          <p>The liver secretes a remarkable range of plasma proteins daily:</p>
+          <table class="data-table">
+            <tr><th>Protein</th><th>Daily output</th><th>Function</th></tr>
+            <tr><td>Albumin</td><td>10–15 g/day</td><td>Oncotic pressure; carrier for fatty acids, bilirubin, drugs, calcium, hormones</td></tr>
+            <tr><td>Fibrinogen</td><td>1–5 g/day</td><td>Clotting substrate; cleaved by thrombin to fibrin</td></tr>
+            <tr><td>Clotting factors II, V, VII, IX, X</td><td>Continuous</td><td>Coagulation cascade; factors II, VII, IX, X require vitamin K (γ-carboxylation)</td></tr>
+            <tr><td>Complement C1–C9</td><td>Continuous</td><td>Innate immune opsonization, lysis, chemotaxis</td></tr>
+            <tr><td>CRP, SAA, haptoglobin, ferritin</td><td>Upregulated acutely</td><td>Acute-phase response (IL-6/STAT3 activation within hours of injury/infection)</td></tr>
+            <tr><td>IGF-1</td><td>Continuous</td><td>GH → hepatic IGF-1 → somatic growth axis</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;">Prothrombin time (PT/INR) and albumin are the most clinically useful markers of hepatic synthetic function; both fall in hepatocellular failure.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>CYP450 Detoxification — Phase I / II / III</h3>
+          <p>The liver intercepts xenobiotics and metabolic waste before systemic exposure. The three-phase system converts lipophilic compounds into water-soluble excretable metabolites:</p>
+          <table class="data-table">
+            <tr><th>Enzyme / system</th><th>Reaction</th><th>Key substrates / notes</th></tr>
+            <tr><td><strong>CYP3A4</strong></td><td>Phase I: oxidation</td><td>~50% of all drugs; statins, midazolam, cyclosporin; inducible by rifampicin, St John's Wort</td></tr>
+            <tr><td><strong>CYP2D6</strong></td><td>Phase I: oxidation</td><td>Codeine, metoprolol, many antidepressants; polymorphic (poor/ultrarapid metabolizers)</td></tr>
+            <tr><td><strong>CYP2E1</strong></td><td>Phase I: oxidation</td><td>Ethanol → acetaldehyde (toxic) → acetate; zone 3 dominant; activates acetaminophen at high doses → NAPQI</td></tr>
+            <tr><td><strong>UGTs (glucuronidation)</strong></td><td>Phase II: conjugation</td><td>Bilirubin, morphine, estrogen; UGT1A1 polymorphism → Gilbert syndrome</td></tr>
+            <tr><td><strong>GSTs (glutathione conjugation)</strong></td><td>Phase II: conjugation</td><td>Reactive electrophiles; NAPQI neutralization — overdose depletes glutathione → zone-3 necrosis</td></tr>
+            <tr><td><strong>BSEP, MRP2, P-gp</strong></td><td>Phase III: transport</td><td>Canalicular export; BSEP mutations → progressive familial intrahepatic cholestasis (PFIC)</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Ammonia detoxification:</strong> The urea cycle (carbamoyl phosphate synthetase → citrulline → argininosuccinate → arginine → urea + ornithine) converts toxic NH₃ from amino acid catabolism and gut bacteria into non-toxic urea excreted by the kidneys. Hepatic failure → hyperammonemia → hepatic encephalopathy.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Bilirubin Metabolism</h3>
+          <div class="circuit-diagram">
+<pre>
+  Senescent RBCs (120-day lifespan)
+           │
+           ▼ macrophage heme catabolism
+  Unconjugated (indirect) bilirubin
+  [lipophilic, toxic — bound to albumin in plasma]
+           │
+           ▼ liver uptake (OATP1B1/1B3)
+  Conjugation: UGT1A1 glucuronidation
+           │
+           ▼
+  Conjugated (direct) bilirubin
+  [water-soluble] → bile → duodenum
+           │
+           ▼ gut bacteria
+  Urobilinogen
+  ├── reabsorbed → kidney → urobilin (urine, yellow)
+  └── gut → stercobilin (feces, brown)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Jaundice</strong> (bilirubin &gt;2–3 mg/dL → scleral icterus → skin yellowing): causes include unconjugated hyperbilirubinemia (hemolysis, Gilbert syndrome: UGT1A1 polymorphism, neonatal), conjugated hyperbilirubinemia (biliary obstruction: choledocholithiasis, pancreatic cancer, cholangiocarcinoma), or mixed (hepatocellular disease: hepatitis, cirrhosis, DILI).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Cirrhosis</h4>
+            <p>End-stage chronic liver disease: replacement of functional parenchyma with fibrotic scar (collagen I/III from activated HSCs) → nodular regenerative architecture → ↑intrahepatic vascular resistance → portal hypertension. Complications: esophageal varices (hemorrhage risk), ascites, hepatorenal syndrome, hepatic encephalopathy, spontaneous bacterial peritonitis (SBP). Child-Pugh and MELD scores predict mortality.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>NAFLD / MASLD</h4>
+            <p>Affects ~25% of the global adult population (~1.8 billion people). Spectrum: simple steatosis (≥5% hepatocyte fat, benign) → NASH/MASH (steatosis + ballooning + lobular inflammation) → advanced fibrosis → cirrhosis → HCC. Driven by insulin resistance; pathomechanism: lipotoxicity → ER stress → mitochondrial dysfunction → JNK/NF-κB → Kupffer activation → TGF-β → stellate cell fibrosis.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Hepatocellular Carcinoma (HCC)</h4>
+            <p>Third most common cause of cancer death worldwide. Major risk factors: HBV (viral DNA integration + cirrhosis), HCV cirrhosis, NASH-cirrhosis, aflatoxin (CYP3A4 activation → aflatoxin B1-8,9-epoxide → TP53 R249S mutation), alcohol cirrhosis. Surveillance: AFP + liver ultrasound every 6 months in all cirrhotic patients.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Wilson Disease / Hemochromatosis</h4>
+            <p><strong>Wilson disease</strong> (ATP7B mutation): impaired hepatic copper export → copper accumulates in liver (cirrhosis), brain (neuropsychiatric), cornea (Kayser-Fleischer rings). Treated with chelation (penicillamine, trientine) or zinc. <strong>Hereditary hemochromatosis</strong> (HFE C282Y): iron overload → hepatic fibrosis/cirrhosis, cardiomyopathy, diabetes, hypogonadism. Treated by therapeutic phlebotomy.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Acute Liver Failure (ALF)</h4>
+            <p>Rapid hepatocellular necrosis in a previously healthy liver: coagulopathy (INR &gt;1.5) + encephalopathy within 26 weeks of illness onset. Most common causes: acetaminophen overdose (Western countries, &gt;50% of ALF), viral hepatitis (HBV, HAV, HEV), drug idiosyncrasy, Wilson's disease (acute). High mortality without liver transplantation; bridging with N-acetylcysteine in acetaminophen ALF.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Viral Hepatitis</h4>
+            <p>HAV and HEV: fecal-oral, self-limited, no chronicity. <strong>HBV:</strong> blood/sexual/perinatal — 5–10% adult chronicity (90% neonates); ~296 million chronic carriers; high HCC risk. <strong>HCV:</strong> blood-borne, 55–85% chronicity, ~58 million chronic; now curable (&gt;95% SVR with 8–12 weeks direct-acting antivirals). Cirrhosis → HCC at ~1–4%/year.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Digestive System</a>
+            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Connects to</span>Cardiovascular System</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Hepatocyte (Scale 04)</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Hepatic Lobule (Scale 05)</a>
+            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2</a>
+            <a class="conn-pill" href="statins.html"><span class="rel">Targeted by</span>Statins</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Hall JE. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Ch. 71. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Michalopoulos GK. Liver regeneration. <em>J Cell Physiol.</em> 2007;213(2):286-300. <a href="https://doi.org/10.1002/jcp.21172" target="_blank" rel="noopener">doi:10.1002/jcp.21172</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/17559071/" target="_blank" rel="noopener">PubMed 17559071</a></li>
+            <li>Friedman SL. Mechanisms of hepatic fibrogenesis. <em>Gastroenterology.</em> 2008;134(6):1655-69. <a href="https://doi.org/10.1053/j.gastro.2008.03.003" target="_blank" rel="noopener">doi:10.1053/j.gastro.2008.03.003</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/18471545/" target="_blank" rel="noopener">PubMed 18471545</a></li>
+            <li>Younossi ZM et al. Global epidemiology of nonalcoholic fatty liver disease. <em>Hepatology.</em> 2016;64(1):73-84. <a href="https://doi.org/10.1002/hep.28431" target="_blank" rel="noopener">doi:10.1002/hep.28431</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/26707365/" target="_blank" rel="noopener">PubMed 26707365</a></li>
+            <li>World Health Organization. Hepatitis B Fact Sheet. WHO; 2023. <a href="https://www.who.int/news-room/fact-sheets/detail/hepatitis-b" target="_blank" rel="noopener">who.int</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="cardiovascular-system.html">Cardiovascular System</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

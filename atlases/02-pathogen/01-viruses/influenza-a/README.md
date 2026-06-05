@@ -42,6 +42,12 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: damages
     note: "Influenza A is primarily a respiratory tract pathogen: upper respiratory illness in most cases; in severe disease, tracheobronchitis, viral pneumonitis, and ARDS impair ventilation and gas exchange throughout the respiratory system."
+  - target: 01-human/07-system/immune-system
+    relation: damages
+    note: "NS1 protein blocks RIG-I/MDA5 innate sensing and IFN-I production; PA-X degrades host mRNAs including antiviral transcripts; systemic cytokine storm in H5N1 and 2009 H1N1pdm09 causes lymphocyte apoptosis and immune dysregulation."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: target-of
+    note: "Anti-hemagglutinin (HA) and anti-neuraminidase (NA) IgG antibodies are the principal correlates of protection; strain-matched serum IgG titers >1:40 by HAI are the historical vaccine efficacy benchmark."
 ---
 
 # Influenza A virus

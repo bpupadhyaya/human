@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aspirin (acetylsalicylic acid) — irreversible COX-1/COX-2 inhibitor. Antiplatelet mechanism, ISIS-2 trial, secondary prevention evidence, and the changed landscape of primary prevention. Part of the Human Engineering project.">
+  <meta property="og:title" content="Aspirin — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Aspirin — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #dc2626;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #7f1d1d); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .badge-caution { background: rgba(220,38,38,0.12); color: #dc2626; }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .dose-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .dose-grid { grid-template-columns: 1fr; } }
+    .dose-card { border-radius: var(--radius-sm); padding: 0.85rem 1rem; }
+    .dose-card.low { background: rgba(220,38,38,0.07); border: 1px solid rgba(220,38,38,0.2); }
+    .dose-card.mid { background: rgba(37,99,235,0.07); border: 1px solid rgba(37,99,235,0.2); }
+    .dose-card.high { background: rgba(110,110,115,0.07); border: 1px solid rgba(110,110,115,0.2); }
+    .dose-card h4 { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+    .dose-card.low h4 { color: #dc2626; }
+    .dose-card.mid h4 { color: #2563eb; }
+    .dose-card.high h4 { color: var(--muted); }
+    .dose-card p { font-size: 0.82rem; color: var(--fg-soft); line-height: 1.5; margin: 0; }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .principle-box { background: rgba(220,38,38,0.06); border: 1px solid rgba(220,38,38,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Modern Pharmacology</div>
+    <h1>Aspirin</h1>
+    <p class="tagline">Acetylsalicylic acid — the world's oldest synthetic drug and the cornerstone of antiplatelet therapy. Irreversible COX-1 inhibition abolishes platelet TXA&#x2082; for the platelet's lifetime.</p>
+    <p class="subtagline">From willow bark to ISIS-2: 23% MI mortality reduction in 17,187 patients. Dose-dependent pharmacology — antiplatelet at 75–100 mg, anti-inflammatory at grams. The paradigm of primary vs secondary prevention rethought 2018.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">1897</span><span class="stat-label">Synthesis by Bayer</span></div>
+      <div class="stat"><span class="stat-num">&gt;100 billion</span><span class="stat-label">Tablets/year worldwide</span></div>
+      <div class="stat"><span class="stat-num">23%</span><span class="stat-label">MI mortality ↓ (ISIS-2)</span></div>
+      <div class="stat"><span class="stat-num">Dual</span><span class="stat-label">Antiplatelet + Anti-inflammatory</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas &middot; Cardiovascular &middot; Analgesic / Antiplatelet</div>
+        <h2>Aspirin</h2>
+        <div class="drug-class">Class: Antiplatelet &nbsp;&middot;&nbsp; NSAID &nbsp;&middot;&nbsp; Analgesic &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Status: Standard of care for secondary CV prevention; no longer routinely recommended for primary prevention</div>
+        <p class="summary">Aspirin (acetylsalicylic acid, ASA) is one of the most prescribed drugs in human history — an irreversible COX-1/COX-2 inhibitor whose pharmacological action is exquisitely dose-dependent. At low doses (75–325 mg), it permanently acetylates platelet COX-1, abolishing thromboxane A&#x2082; (TXA&#x2082;) synthesis for the platelet's 10-day lifespan — the basis of its antiplatelet effect. At higher doses, it achieves systemic COX inhibition for anti-inflammatory and analgesic effects. ISIS-2 (1988) established it as a cornerstone of acute MI treatment (23% mortality reduction), equal in magnitude to thrombolysis. But three 2018 RCTs in primary prevention showed no benefit and increased bleeding — fundamentally changing how aspirin is used in asymptomatic patients.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">ASA</span>
+          <span class="alias-pill">acetylsalicylic acid</span>
+          <span class="alias-pill">Bayer Aspirin</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>Aspirin (acetylsalicylic acid, ASA) is the <strong>acetyl ester of salicylic acid</strong> — a simple chemical modification of the ancient therapeutic principle found in willow bark (salicin). Its synthesis by Felix Hoffmann at Bayer in 1897 produced a drug that would become one of the most consequential in history. The key discovery came 74 years later, when John Vane demonstrated in 1971 that aspirin-like drugs act by <strong>inhibiting prostaglandin synthesis</strong> — a finding that earned him the Nobel Prize in 1982.</p>
+          <p>The pharmacological action of aspirin depends critically on dose, reflecting the differential sensitivity and regenerative capacity of COX enzymes in different tissues:</p>
+          <div class="dose-grid">
+            <div class="dose-card low">
+              <h4>Low Dose — 75–325 mg</h4>
+              <p>Irreversibly inactivates platelet COX-1 &rarr; blocks TXA&#x2082; for platelet lifetime (~10 days). <strong>Antiplatelet effect.</strong> Standard for secondary CV prevention and acute ACS.</p>
+            </div>
+            <div class="dose-card mid">
+              <h4>Intermediate — 0.5–2 g/day</h4>
+              <p>Systemic COX inhibition. <strong>Analgesic and antipyretic.</strong> Inhibits PGE&#x2082;-mediated fever sensitisation; reduces nociceptive prostaglandins.</p>
+            </div>
+            <div class="dose-card high">
+              <h4>High Dose — 2–6 g/day</h4>
+              <p>Full anti-inflammatory COX-1/COX-2 blockade. Used historically for <strong>rheumatic fever</strong>. Salicylate accumulation &rarr; tinnitus at toxicity threshold.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action</h3>
+          <h4>Irreversible COX Inhibition — Molecular Mechanism</h4>
+          <div class="pathway-block">
+<pre>
+  Arachidonic acid (released from membrane phospholipids by PLA₂)
+          │
+          ▼
+  COX active site (cyclooxygenase channel)
+          │
+          │  Normal: Arachidonic acid → PGG₂ → PGH₂ (precursor to all prostaglandins)
+          │
+          │  With aspirin:
+          │    Aspirin enters the COX channel
+          │    Acetyl group transfers to Ser530 (COX-1) or Ser516 (COX-2) — covalent bond
+          │    Acetylated serine BLOCKS arachidonic acid access to catalytic Tyr385
+          │    → Permanent inactivation (unlike reversible NSAIDs e.g. ibuprofen)
+          │
+          ▼
+  COX-1 products blocked: TXA₂ (platelet aggregation, vasoconstriction)
+                            PGE₂ (gastroprotection in gastric mucosa)
+                            PGI₂ (antiaggregatory, vasodilatory in endothelium)
+  COX-2 products blocked: PGI₂ (endothelium, regenerated quickly)
+                            PGE₂/PGD₂ (inflammatory mediators)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Why platelets are especially vulnerable to aspirin:</strong> Platelets are anucleate — they cannot synthesise new proteins. Once platelet COX-1 is acetylated by aspirin, that platelet permanently lacks TXA&#x2082; synthesis capacity for its entire ~10-day lifespan. New platelets (~10% replaced per day) gradually restore aggregate TXA&#x2082; capacity 5–10 days after stopping aspirin — hence the recommendation to hold aspirin 5–7 days before elective surgery.</p>
+
+          <h4>COX Isoforms and Differential Aspirin Sensitivity</h4>
+          <table class="data-table">
+            <tr><th>Isoform</th><th>Expression</th><th>Key Products</th><th>Aspirin Sensitivity</th></tr>
+            <tr>
+              <td><strong>COX-1</strong></td>
+              <td>Constitutive (platelets, gastric mucosa, kidney, endothelium)</td>
+              <td>TXA&#x2082; (platelet aggregation, vasoconstriction); PGE&#x2082; (gastroprotection); PGI&#x2082; (anti-aggregatory endothelium)</td>
+              <td>Irreversibly inhibited. <strong>Platelets cannot regenerate COX</strong> — anucleate cells. Gastric mucosa: COX-1 loss &rarr; reduced mucosal protection &rarr; GI toxicity</td>
+            </tr>
+            <tr>
+              <td><strong>COX-2</strong></td>
+              <td>Inducible (inflammation sites, endothelium, kidney under certain conditions)</td>
+              <td>PGI&#x2082; (endothelium — antiplatelet, vasodilatory); prostaglandins of inflammation (PGE&#x2082;, PGD&#x2082;)</td>
+              <td>Irreversibly inhibited at aspirin doses. Nucleated cells regenerate COX-2 de novo &rarr; faster recovery. Selective COX-2 inhibitors (coxibs) spare COX-1; low-dose aspirin retains COX-1 antiplatelet effect even with coxibs</td>
+            </tr>
+          </table>
+
+          <h4>Platelet TXA&#x2082; Amplification Loop</h4>
+          <p>Platelet COX-1 converts arachidonic acid &rarr; PGG&#x2082; &rarr; PGH&#x2082; &rarr; <strong>TXA&#x2082;</strong> (thromboxane synthase). TXA&#x2082; then:</p>
+          <ol class="step-list">
+            <li>Binds TP receptors on adjacent platelets &rarr; Gq signalling &rarr; &#8593;[Ca&#xb2;&#x207a;] &rarr; platelet activation and shape change</li>
+            <li>Causes vasoconstriction (TP receptors on vascular smooth muscle)</li>
+            <li>Amplifies platelet activation synergistically with ADP, thrombin, and collagen exposure at the site of plaque rupture</li>
+            <li>Aspirin blocks step 1 irreversibly &rarr; the amplification loop is permanently suppressed for that platelet</li>
+          </ol>
+          <p>This is why even very low doses of aspirin are sufficient for antiplatelet effect — complete COX-1 inhibition in platelets is achieved at doses below 100 mg, and unlike most drugs, higher doses do not add antiplatelet potency but do increase toxicity.</p>
+
+          <h4>Anti-inflammatory Mechanism</h4>
+          <p>At higher doses, aspirin inhibits COX-2 at sites of inflammation &rarr; &#8595;PGE&#x2082;, PGI&#x2082;, PGD&#x2082; &rarr; &#8595;vasodilation, &#8595;oedema, &#8595;sensitisation of pain receptors &rarr; classic NSAID anti-inflammatory effect. Salicylate (the hydrolysis product) also has aspirin-independent anti-inflammatory effects via NF-&#x3ba;B inhibition. Additionally, <strong>aspirin-triggered lipoxins (ATLs)</strong> are generated by acetylated COX-2 acting on arachidonic acid — these have pro-resolution, anti-inflammatory activity distinct from blockade of prostaglandin synthesis.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Use</h3>
+          <h4>Acute MI (STEMI / NSTEMI)</h4>
+          <p><strong>Standard acute dosing:</strong> 300–325 mg chewed immediately as a loading dose — chewing achieves peak plasma levels ~30 minutes (vs ~60 minutes swallowed), ensuring rapid complete platelet COX-1 inhibition. Then 75–100 mg daily. The ISIS-2 trial established aspirin as equivalent in benefit to thrombolysis (streptokinase) in suspected acute MI — and the two treatments were additive when combined, establishing the modern standard.</p>
+          <p><strong>Dual antiplatelet therapy (DAPT):</strong> After ACS or coronary stent implantation, aspirin + P2Y&#x2081;&#x2082; inhibitor (ticagrelor, prasugrel, or clopidogrel) is standard for 12 months — aspirin is the permanent backbone (indefinitely in secondary prevention), and the P2Y&#x2081;&#x2082; inhibitor is discontinued after the DAPT period.</p>
+
+          <h4>Secondary Cardiovascular Prevention</h4>
+          <p>Patients with established ASCVD (prior MI, prior stroke/TIA, peripheral arterial disease, stable coronary artery disease) benefit clearly from low-dose aspirin. The Antithrombotic Trialists' Collaboration (2002) meta-analysis of 287 trials and 135,000 patients demonstrated a <strong>22% proportional reduction in serious vascular events</strong> — absolute benefit ~1–2% per year in high-risk patients (number needed to treat ~40–50 per year to prevent one event).</p>
+
+          <h4>Primary Prevention — Changed Landscape (2018)</h4>
+          <p>Three large RCTs reported in 2018 dramatically changed practice:</p>
+          <ul class="se-list">
+            <li><strong>ASPREE (McNeil et al, 2018):</strong> 19,114 healthy elderly patients (&ge;70 years) randomised to aspirin 100 mg/day vs placebo — <strong>no reduction</strong> in disability-free survival; <strong>increased</strong> risk of major hemorrhage (GI, intracranial), and a signal toward increased all-cause mortality</li>
+            <li><strong>ARRIVE (Gaziano et al, 2018):</strong> 12,546 patients at moderate CV risk — no significant reduction in MACE; GI bleeding increased</li>
+            <li><strong>ASCEND (Bowman et al, 2018):</strong> 15,480 patients with diabetes — aspirin 100 mg/day reduced serious vascular events, but was offset by an equal increase in major bleeding; no net clinical benefit</li>
+          </ul>
+          <p>Current ACC/AHA 2019 guidelines: aspirin <strong>not routinely recommended for primary prevention</strong> in most adults. May be considered in selected individuals aged 40–70 with high 10-year ASCVD risk AND low bleeding risk, after shared decision-making. Not recommended in adults &ge;70 years for primary prevention.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Evidence Base — Key Trials</h3>
+          <table class="data-table">
+            <tr><th>Trial</th><th>Population</th><th>Aspirin Regimen</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>ISIS-2 (1988)</strong></td>
+              <td>17,187 suspected acute MI</td>
+              <td>162 mg/day for 1 month</td>
+              <td class="trial-result">23% reduction in 5-week vascular mortality. Equal magnitude to streptokinase; additive when combined. Established aspirin as cornerstone of acute MI therapy.</td>
+            </tr>
+            <tr>
+              <td><strong>ATC meta-analysis (2002)</strong></td>
+              <td>135,000 high-risk patients (prior MI, stroke, or high CV risk); 287 trials</td>
+              <td>Various antiplatelet regimens</td>
+              <td class="trial-result">22% proportional reduction in serious vascular events in secondary prevention. NNT ~40–50/year to prevent 1 event in high-risk patients.</td>
+            </tr>
+            <tr>
+              <td><strong>ASPREE (2018)</strong></td>
+              <td>19,114 healthy elderly &ge;70</td>
+              <td>100 mg/day</td>
+              <td class="trial-result">No reduction in disability-free survival or MACE. Increased major haemorrhage. Signal of increased all-cause mortality. Changed primary prevention guidelines.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>The Secondary/Primary Prevention Divide:</strong> Aspirin's benefit-to-harm ratio depends entirely on the baseline absolute cardiovascular risk. In secondary prevention (established ASCVD, risk ~3–5% per year), the absolute risk reduction from antiplatelet therapy (~1–2% per year) clearly outweighs the absolute bleeding risk (~0.5% per year). In primary prevention (baseline risk 1–2% per year), the benefits and harms are nearly equal — explaining why three large modern RCTs found no net benefit. This is one of the clearest demonstrations in pharmacology of how baseline risk determines whether a treatment helps or harms.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Side Effects</h3>
+          <ul class="se-list">
+            <li><strong>GI bleeding / gastric ulceration</strong> — most clinically important side effect of long-term aspirin. Mechanism: COX-1 inhibition in gastric mucosa reduces PGE&#x2082;-mediated bicarbonate secretion, mucus production, and mucosal blood flow. Risk reduced by enteric coating (delays absorption but does not eliminate systemic COX-1 inhibition) and proton pump inhibitors (PPIs, recommended in patients at high GI risk on long-term aspirin).</li>
+            <li><strong>Intracranial haemorrhage</strong> — rare but serious; absolute risk ~0.1–0.2% per year with long-term low-dose aspirin. The most feared bleeding complication; risk increases with age, hypertension, and concurrent anticoagulation.</li>
+            <li><strong>Aspirin hypersensitivity / Samter's triad</strong> — aspirin-exacerbated respiratory disease (AERD) in patients with asthma, nasal polyps, and aspirin hypersensitivity. Mechanism: COX-1 blockade shifts arachidonate metabolism toward the 5-lipoxygenase pathway &rarr; &#8593;leukotrienes &rarr; bronchoconstriction, rhinorrhoea.</li>
+            <li><strong>Reye's syndrome</strong> — encephalopathy and liver failure in children and adolescents with viral infections (influenza, varicella) given aspirin. Mechanism unclear but well-established epidemiologically. <strong>Contraindicated in children &lt;16 years</strong> except in specific conditions (Kawasaki disease, juvenile arthritis) under specialist supervision.</li>
+            <li><strong>Salicylate toxicity (overdose)</strong> — tinnitus, hearing loss (high-frequency), sweating, hyperpnoea, metabolic acidosis. In severe poisoning: mixed respiratory alkalosis/metabolic acidosis, hyperthermia, seizures. Management: activated charcoal, alkalinisation of urine, haemodialysis in severe cases.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Acts on</span>
+              Cardiovascular System
+            </a>
+            <a href="ace-inhibitors.html" class="conn-pill acts">
+              <span class="rel">Used with</span>
+              ACE Inhibitors
+            </a>
+            <a href="statins.html" class="conn-pill acts">
+              <span class="rel">Used with</span>
+              Statins
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              COX-1 / COX-2 (entry pending)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Acts on</span>
+              Platelet (entry pending)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Immune System (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Vane JR. Inhibition of prostaglandin synthesis as a mechanism of action for aspirin-like drugs. <em>Nat New Biol.</em> 1971;231(25):232-5. <a href="https://doi.org/10.1038/newbio231232a0">doi:10.1038/newbio231232a0</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/5284360/">PubMed 5284360</a></li>
+            <li>ISIS-2 (Second International Study of Infarct Survival) Collaborative Group. Randomised trial of intravenous streptokinase, oral aspirin, both, or neither among 17,187 cases of suspected acute myocardial infarction. <em>Lancet.</em> 1988;2(8607):349-60. <a href="https://doi.org/10.1016/S0140-6736(88)92833-4">doi:10.1016/S0140-6736(88)92833-4</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/2899772/">PubMed 2899772</a></li>
+            <li>Antithrombotic Trialists' Collaboration. Collaborative meta-analysis of randomised trials of antiplatelet therapy for prevention of death, myocardial infarction, and stroke in high risk patients. <em>BMJ.</em> 2002;324(7329):71-86. <a href="https://doi.org/10.1136/bmj.324.7329.71">doi:10.1136/bmj.324.7329.71</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11786451/">PubMed 11786451</a></li>
+            <li>McNeil JJ, Woods RL, Nelson MR, et al. Effect of aspirin on disability-free survival in the healthy elderly (ASPREE). <em>N Engl J Med.</em> 2018;379(16):1499-508. <a href="https://doi.org/10.1056/NEJMoa1800722">doi:10.1056/NEJMoa1800722</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30133574/">PubMed 30133574</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="ace-inhibitors.html">ACE Inhibitors</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

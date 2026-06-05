@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Immune system — two-layer defense with innate and adaptive arms, lymphoid organs, and immunological memory. Scale 07 of the Human Atlas. Part of the Human Engineering project.">
+  <meta property="og:title" content="Immune System — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Immune System — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #059669;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #064e3b); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas One &middot; Host Biology &middot; Scale 07 &mdash; System</div>
+    <h1>Immune system</h1>
+    <p class="tagline">Two-layer defense — innate (fast, pattern-based) and adaptive (antigen-specific, memory-forming) — distributed across every tissue, communicating through cytokines, antibodies, and complement.</p>
+    <p class="subtagline">Not a single organ but a distributed network: ~2&thinsp;&times;&thinsp;10¹² lymphocytes surveilling 37 trillion cells. The only system that learns from every infection it encounters.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">~2&thinsp;&times;&thinsp;10¹²</span><span class="stat-label">Lymphocytes</span></div>
+      <div class="stat"><span class="stat-num">2</span><span class="stat-label">Arms (innate + adaptive)</span></div>
+      <div class="stat"><span class="stat-num">7–14 days</span><span class="stat-label">First adaptive response</span></div>
+      <div class="stat"><span class="stat-num">2–3 days</span><span class="stat-label">Memory recall</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One / Scale 07 &middot; immune-system</div>
+        <h2>Immune system</h2>
+        <p class="summary">Two-layer defense: innate (fast, pattern recognition, complement, IFN) and adaptive (antigen-specific T/B lymphocytes, immunological memory). Peak adaptive response 7–14 days on first exposure; memory recall 2–3 days. Organized around primary lymphoid organs (thymus, bone marrow) for cell development and secondary organs (lymph nodes, spleen, MALT) for response initiation. This is also the system that can turn against the host — autoimmunity, allergy, and cytokine storm are all failures of regulation.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>The immune system is the body's multilayered defense against pathogens, malignant cells, and foreign substances — and simultaneously the regulatory network that maintains tolerance to self. It is <strong>not a single organ</strong> but a distributed system spanning every tissue: cells circulate in blood and lymph, patrol tissues as resident populations, and communicate through soluble mediators (cytokines, chemokines, antibodies, complement proteins).</p>
+          <p>Two functionally distinct but deeply interconnected arms cooperate:</p>
+          <div class="two-col" style="margin-top:0.75rem;">
+            <div class="info-block">
+              <h4>Arm 1 — Innate immunity</h4>
+              <p>Rapid (minutes to hours). Broad-specificity, non-adaptive detection of PAMPs (pathogen-associated molecular patterns) and DAMPs (damage-associated molecular patterns) via TLRs, NLRs, RIG-I, cGAS/STING. Effectors: neutrophils, macrophages, NK cells, dendritic cells, complement, type I interferons.</p>
+            </div>
+            <div class="info-block">
+              <h4>Arm 2 — Adaptive immunity</h4>
+              <p>Slow first response (7–14 days). Exquisitely antigen-specific via rearranged TCR and BCR. Capable of immunological memory — on re-encounter, memory recall peaks in 2–3 days with higher magnitude and affinity. Effectors: CD4+ T helper cells, CD8+ cytotoxic T cells, regulatory T cells, B lymphocytes, antibodies.</p>
+            </div>
+          </div>
+          <p style="margin-top:0.75rem;">This two-layer architecture is why vaccination works: a vaccine primes the adaptive immune system without disease, establishing memory cells and <strong>long-lived plasma cells</strong> that enable rapid, protective responses on subsequent natural exposure.</p>
+          <p>The immune system surveils approximately <strong>37 trillion cells</strong> in the human body via constitutive MHC-I self-presentation — any cell that fails to display normal MHC-I with normal self-peptides is detected as abnormal by NK cells and cytotoxic T cells. This surveillance is the primary defense against intracellular pathogens and cancer.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lymphoid Organs — Primary</h3>
+          <p>Primary lymphoid organs are the sites of immune cell development and education:</p>
+          <table class="data-table">
+            <tr><th>Organ</th><th>Function</th></tr>
+            <tr><td><strong>Bone marrow</strong></td><td>Origin of all immune cells (hematopoietic stem cells); site of B cell development, maturation, and central tolerance; long-lived plasma cell niche</td></tr>
+            <tr><td><strong>Thymus</strong></td><td>T cell development: TCR rearrangement, positive selection (MHC restriction), negative selection (central tolerance/clonal deletion), Treg generation. Involutes with age — T cell repertoire largely established by adolescence</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lymphoid Organs — Secondary</h3>
+          <p>Secondary lymphoid organs are where adaptive immune responses are initiated — where circulating naïve lymphocytes encounter antigen presented by dendritic cells:</p>
+          <table class="data-table">
+            <tr><th>Organ</th><th>Specialization</th></tr>
+            <tr><td><strong>Lymph nodes</strong></td><td>Filter lymph draining tissues; T cell zones (paracortex) + B cell follicles (cortex); site of DC–T cell priming and germinal center reactions</td></tr>
+            <tr><td><strong>Spleen</strong></td><td>Filters blood; marginal zone (innate, T-independent B responses) + white pulp (T and B cell zones, GC reactions); red pulp (erythrophagocytosis)</td></tr>
+            <tr><td><strong>MALT</strong></td><td>Tonsils, Peyer's patches (gut), bronchus-associated lymphoid tissue (BALT); front-line mucosal immunity; IgA production</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Circulating Cell Types</h3>
+          <table class="data-table">
+            <tr><th>Cell type</th><th>Approx. blood count</th><th>Primary function</th></tr>
+            <tr><td><strong>Neutrophils</strong></td><td>1.8–7.7 &times; 10⁹/L</td><td>First phagocytic responders; bacteria/fungi; NET formation</td></tr>
+            <tr><td><strong>Monocytes</strong></td><td>0.2–1.0 &times; 10⁹/L</td><td>Phagocytosis; cytokine production; DC precursors</td></tr>
+            <tr><td><strong>NK cells</strong></td><td>0.07–0.5 &times; 10⁹/L</td><td>Kill MHC-I-low cells; produce IFN-γ</td></tr>
+            <tr><td><strong>CD4+ T cells</strong></td><td>0.4–1.1 &times; 10⁹/L</td><td>Coordinate adaptive response (Th1, Th2, Th17, Tfh, Treg subsets)</td></tr>
+            <tr><td><strong>CD8+ T cells</strong></td><td>0.2–0.9 &times; 10⁹/L</td><td>Kill infected and malignant cells via perforin/granzyme</td></tr>
+            <tr><td><strong>B cells</strong></td><td>0.05–0.4 &times; 10⁹/L</td><td>Produce antibodies; professional APCs</td></tr>
+            <tr><td><strong>Eosinophils</strong></td><td>0.02–0.5 &times; 10⁹/L</td><td>Anti-parasite; allergy; tissue remodeling</td></tr>
+            <tr><td><strong>Basophils / mast cells</strong></td><td>&lt;0.1 &times; 10⁹/L</td><td>IgE-mediated degranulation; allergy; anaphylaxis</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Soluble Mediators</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Complement system</h4>
+              <p>30+ plasma proteins; three activation pathways (classical, lectin, alternative) converging on C3 cleavage → C3b opsonization + MAC lysis + C5a anaphylatoxin/chemoattractant.</p>
+            </div>
+            <div class="info-block">
+              <h4>Cytokines &amp; interferons</h4>
+              <p>Interleukins (IL-1 through IL-38+); type I interferons (IFN-α/β) for antiviral state; type II (IFN-γ) for macrophage activation; TNF, TGF-β, colony-stimulating factors.</p>
+            </div>
+            <div class="info-block">
+              <h4>Chemokines</h4>
+              <p>~50 small cytokines guiding cell migration via concentration gradients. CXCL8/IL-8 for neutrophils; CCL19/21 for DC/T cell homing; CXCL13 for B cell follicle formation.</p>
+            </div>
+            <div class="info-block">
+              <h4>Antibodies (immunoglobulins)</h4>
+              <p>IgM (first response, complement), IgG (most abundant, long half-life, placental transfer), IgA (mucosal secretory), IgE (allergy, anti-parasite), IgD (B cell surface co-receptor).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Innate Response — Phase 1 (Minutes to Hours)</h3>
+          <p>When a pathogen breaches barriers (skin, mucosa), innate immune cells respond within minutes:</p>
+          <div class="circuit-diagram">
+<pre>
+  Pathogen breaches barrier
+         │
+         ▼
+  TLRs / NLRs / RIG-I / cGAS–STING
+  (pattern recognition of PAMPs/DAMPs)
+         │
+         ├──► Mast cell degranulation
+         │    (histamine, leukotrienes)
+         │    → vasodilation, permeability ↑
+         │
+         ├──► Neutrophil recruitment (CXCL8)
+         │    → phagocytosis, NETs, ROS burst
+         │
+         ├──► Complement activation
+         │    → C3b opsonization + MAC lysis
+         │
+         └──► IFN-β / IFN-α induction
+              → IFNAR signaling → ISG expression
+              (OAS, MX1, PKR, IFIT — antiviral state)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Cytokine storm risk:</strong> Excessive innate activation (IL-6, IL-1β, TNF, IL-18) can cause systemic inflammatory response syndrome (SIRS) — the pathological basis of severe COVID-19 and influenza complications.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Adaptive Response — Phase 2 (Days 3–14)</h3>
+          <table class="data-table">
+            <tr><th>Step</th><th>Timing</th><th>Key events</th></tr>
+            <tr><td><strong>DC maturation &amp; migration</strong></td><td>Days 1–3</td><td>PAMPs trigger DC maturation; upregulate MHC-II, CD80/86, CCR7; migrate to draining lymph nodes</td></tr>
+            <tr><td><strong>T cell priming</strong></td><td>Days 3–5</td><td>DC–T cell pMHC-II–TCR interaction in lymph node paracortex; Signals 1+2+3 trigger clonal expansion of naïve CD4+ and CD8+ T cells</td></tr>
+            <tr><td><strong>B cell activation &amp; GC</strong></td><td>Days 5–14</td><td>Antigen-specific B cells activated at follicle border by cognate antigen + Tfh help; germinal centers form; affinity maturation, class switching, plasmablast and memory B cell generation</td></tr>
+            <tr><td><strong>Effector deployment</strong></td><td>Days 7–14+</td><td>Cytotoxic CD8+ T cells kill infected cells; IgM then IgG antibodies neutralize pathogen; opsonization, ADCC, complement enhance clearance</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Immunological Memory</h3>
+          <p>After primary response contraction, long-lived memory cells persist — the molecular basis of lasting protective immunity:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Memory T cells</h4>
+              <p>Memory CD4+ and CD8+ T cells distributed in lymphoid and non-lymphoid tissues (including tissue-resident memory T<sub>RM</sub> cells in lung, gut, skin). Respond within hours of re-exposure — orders of magnitude faster than naïve T cell priming.</p>
+            </div>
+            <div class="info-block">
+              <h4>Memory B cells &amp; long-lived plasma cells</h4>
+              <p>Memory B cells circulate; respond within 1–3 days on re-encounter with rapid secondary germinal center reactions and high-affinity IgG. Long-lived plasma cells (LLPCs) in bone marrow continuously secrete IgG for years, maintaining serum antibody titers that provide immediate neutralization on re-exposure.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Severe Combined Immunodeficiency (SCID)</h4>
+            <p>Absence of both T and B cell function; causes include ADA-SCID (adenosine deaminase deficiency), X-SCID (IL-2Rγ chain mutation), RAG1/2 mutations. Untreated, invariably fatal in infancy. Curable by HSCT or gene therapy. ADA-SCID was the first human gene therapy success (1990).</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>HIV/AIDS</h4>
+            <p>HIV-1 retrovirus selectively infects and depletes CD4+ T cells (via CCR5/CXCR4 co-receptors). CD4+ count &lt;200 cells/µL defines AIDS; opportunistic infections (PCP, CMV retinitis, cryptococcal meningitis, MAI) are the proximate causes of death. Antiretroviral therapy (ART) can fully reconstitute CD4+ counts and prevent progression.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Systemic Lupus Erythematosus (SLE)</h4>
+            <p>Loss of tolerance to nuclear antigens (dsDNA, histones, Sm); anti-dsDNA antibodies form immune complexes; complement-mediated damage in kidneys (lupus nephritis), skin, joints, brain. HLA-DR2/DR3 strongly associated. Type I IFN signature is pathognomonic.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Rheumatoid Arthritis (RA)</h4>
+            <p>Anti-citrullinated protein antibodies (ACPA/anti-CCP) + rheumatoid factor (RF) attack synovial joint membranes; Th17-driven neutrophilic/macrophage synovitis → cartilage and bone destruction. HLA-DRB1 shared epitope is the major genetic risk factor.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Anaphylaxis &amp; allergy</h4>
+            <p>Systemic mast cell degranulation (IgE crosslinking by allergen → FcεRI → histamine, tryptase, LTC4) causes airway edema, bronchospasm, and circulatory collapse. Type I hypersensitivity (Gell-Coombs). Treatment: epinephrine reverses bronchospasm and vasoconstriction. Atopy (asthma, rhinitis, eczema) shares the IgE-mast cell axis without systemic collapse.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Cytokine storm</h4>
+            <p>Uncontrolled amplification of pro-inflammatory cytokines (IL-6, IL-1β, TNF, IL-18, IFN-γ) — seen in severe COVID-19, hemophagocytic lymphohistiocytosis (HLH), chimeric antigen receptor (CAR) T cell therapy. Results in multi-organ failure from immunopathology rather than direct pathogen damage. Targeted by tocilizumab (anti-IL-6R) and dexamethasone.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathogen Evasion</h3>
+          <table class="data-table">
+            <tr><th>Pathogen</th><th>Key evasion mechanisms</th></tr>
+            <tr><td><strong>SARS-CoV-2</strong></td><td>NSP1 blocks mRNA translation of innate immune genes; ORF3b and ORF6 suppress IFN-β; N protein prevents TRIM25-mediated RIG-I ubiquitination; spike downregulates MHC-I. Severe disease linked to defective early IFN response and subsequent hyperinflammation.</td></tr>
+            <tr><td><strong>Influenza A</strong></td><td>NS1 binds TRIM25, blocking RIG-I/IFN-β; PB1-F2 promotes mitochondrial apoptosis in immune cells; neuraminidase cleaves sialic acids that facilitate IgA binding; annual antigenic drift in HA/NA evades prior antibody responses.</td></tr>
+            <tr><td><strong>M. tuberculosis</strong></td><td>ESAT-6 perforates phagosomal membrane; LAM blocks phagosome maturation (blocks Rab7, preventing lysosome fusion); coronin-1A retains mitochondria near phagosome; bacterium persists for decades in granulomas. Reactivation highest with HIV co-infection or anti-TNF therapy.</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>human-body</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>dendritic-cell</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>t-helper-cell</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>b-cell</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>plasma-cell</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>immunoglobulin-g</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>mhc-class-ii</a>
+            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2</a>
+            <a class="conn-pill damaged" href="pathogens.html#influenza-a"><span class="rel">Damaged by</span>influenza-a</a>
+            <a class="conn-pill damaged" href="pathogens.html#tuberculosis"><span class="rel">Damaged by</span>tuberculosis</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Murphy K, Weaver C, Berg L. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2016. <a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener">garlandscience.com</a></li>
+            <li>Abbas AK, Lichtman AH, Pillai S. <em>Cellular and Molecular Immunology.</em> 9th ed. Elsevier; 2018. <a href="https://www.elsevier.com/books/cellular-and-molecular-immunology/abbas/978-0-323-52323-3" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Medzhitov R. Recognition of microorganisms and activation of the immune response. <em>Nature.</em> 2007;449(7164):819-26. <a href="https://doi.org/10.1038/nature06246" target="_blank" rel="noopener">doi:10.1038/nature06246</a></li>
+            <li>Iwasaki A, Medzhitov R. Control of adaptive immunity by the innate immune system. <em>Nat Immunol.</em> 2015;16(4):343-53. <a href="https://doi.org/10.1038/ni.3123" target="_blank" rel="noopener">doi:10.1038/ni.3123</a></li>
+            <li>Akbar AN, Gilroy DW. Aging immunity may exacerbate COVID-19. <em>Science.</em> 2020;369(6501):256-257. <a href="https://doi.org/10.1126/science.abb0762" target="_blank" rel="noopener">doi:10.1126/science.abb0762</a></li>
+            <li>World Health Organization / NIH. Understanding the Immune System: How It Works. NIH Pub. No. 03-5423. <a href="https://www.niaid.nih.gov/sites/default/files/theimmunesystem.pdf" target="_blank" rel="noopener">niaid.nih.gov</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="kidney.html">Kidney</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

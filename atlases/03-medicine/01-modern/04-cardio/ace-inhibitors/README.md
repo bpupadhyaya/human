@@ -46,6 +46,12 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: acts-on
     note: "ACE inhibitors reverse adverse ventricular remodelling in HFrEF: reduce LV end-diastolic and end-systolic volumes, prevent progressive LV dilation, and improve ejection fraction over months of therapy."
+  - target: 01-human/06-organ/kidney
+    relation: treats
+    note: "ACE inhibitors reduce intraglomerular hypertension via efferent arteriolar dilation, decrease proteinuria by 30–50%, and slow CKD progression in diabetic and non-diabetic proteinuric nephropathy — independent of blood pressure lowering."
+  - target: 01-human/07-system/renal-system
+    relation: treats
+    note: "RAAS blockade with ACE inhibitors is first-line for proteinuric CKD (any cause): reduces ESRD incidence by ~30% in diabetic nephropathy (RENAAL, IDNT trials) and slows GFR decline in IgA nephropathy."
 ---
 
 # ACE inhibitors

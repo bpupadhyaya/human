@@ -1,0 +1,161 @@
+---
+schema: human-scale-entry/v1
+id: nervous-system
+name: Nervous System
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-04
+summary: "CNS (brain + spinal cord) + PNS (somatic, autonomic, enteric) — the master regulatory system for sensation, movement, cognition, and homeostasis. Signal velocity 0.5–120 m/s. Neurological diseases are the leading cause of global disability."
+aliases: ["CNS", "PNS", "central nervous system", "peripheral nervous system", "autonomic nervous system", "somatic nervous system"]
+sources:
+  - id: kandel-principles-ns
+    type: textbook
+    cite: "Kandel ER, Koester JD, Mack SH, Siegelbaum SA. Principles of Neural Science. 6th ed. McGraw-Hill; 2021."
+    url: "https://www.mhprofessional.com/principles-of-neural-science-sixth-edition-9781259642234-usa"
+    accessed: "2026-06-04"
+  - id: guyton-hall-physiology
+    type: textbook
+    cite: "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2020."
+    url: "https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8"
+    accessed: "2026-06-04"
+  - id: who-neurological-2006
+    type: regulatory
+    cite: "World Health Organization. Neurological Disorders: Public Health Challenges. WHO Press; 2006."
+    url: "https://www.who.int/publications/i/item/9241563362"
+    accessed: "2026-06-04"
+  - id: purves-neuroscience-ns
+    type: textbook
+    cite: "Purves D, Augustine GJ, Fitzpatrick D, et al. Neuroscience. 6th ed. Sinauer Associates; 2018."
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK10792/"
+    accessed: "2026-06-04"
+cross_links:
+  - target: 01-human/08-whole-body/human-body
+    relation: part-of
+    note: "The nervous system is one of the 11 major organ systems of the human body."
+  - target: 01-human/06-organ/brain
+    relation: contains
+    note: "The brain is the primary organ of the nervous system and CNS."
+  - target: 01-human/04-cellular/neuron
+    relation: contains
+    note: "Neurons are the fundamental computational cells of the nervous system throughout CNS and PNS."
+  - target: 01-human/03-molecular/dopamine
+    relation: contains
+    note: "Dopamine is a core neurotransmitter operating within multiple CNS circuits of the nervous system."
+  - target: 01-human/03-molecular/glutamate
+    relation: contains
+    note: "Glutamate is the dominant excitatory neurotransmitter throughout CNS circuits."
+  - target: 01-human/03-molecular/gaba
+    relation: contains
+    note: "GABA is the dominant inhibitory neurotransmitter throughout CNS circuits."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Autonomic nervous system controls heart rate, vascular tone, and blood pressure; baroreceptor reflex links the two systems bidirectionally."
+---
+
+# Nervous System
+
+## Overview
+
+The nervous system is the **master regulatory and integrative system** of the human body — responsible for detecting stimuli from the internal and external environment, processing and integrating that information, and coordinating appropriate responses ranging from voluntary skeletal muscle movement to unconscious visceral homeostasis. It is the biological substrate of all perception, thought, emotion, language, and behavior.
+
+Broadly organized into two anatomical divisions — the **Central Nervous System (CNS)** and the **Peripheral Nervous System (PNS)** — the nervous system comprises the brain, spinal cord, 12 pairs of cranial nerves, 31 pairs of spinal nerves, and extensive networks of autonomic ganglia and plexuses distributed throughout the body. Together these structures contain approximately **86 billion neurons** in the brain alone [^kandel-principles-ns], with additional hundreds of millions in the spinal cord, enteric system, and peripheral ganglia.
+
+Neurological and psychiatric disorders constitute the **leading cause of disability** and the second leading cause of death globally — affecting over 1 billion people according to the World Health Organization [^who-neurological-2006]. The nervous system's central role in virtually all physiological functions means that neurological disease has cascading consequences across every organ system.
+
+## Structure
+
+### Central Nervous System (CNS)
+
+The CNS consists of the **brain** and **spinal cord**, enclosed and protected by the bony skull and vertebral column, the three-layer meninges (dura mater, arachnoid mater, pia mater), and the cerebrospinal fluid (CSF) that circulates in the subarachnoid space and ventricular system.
+
+**Brain** (~1.4 kg): Cerebral cortex (4 lobes × 2 hemispheres), subcortical structures (basal ganglia, hippocampus, amygdala, thalamus, hypothalamus), cerebellum, and brainstem. See the [brain](../../06-organ/brain/README.md) entry for full detail.
+
+**Spinal cord** (~45 cm, ~30 g): A segmented cylindrical structure (31 segments: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal). Cross-section shows butterfly-shaped **gray matter** (dorsal horn: sensory processing; ventral horn: lower motor neurons; lateral horn: sympathetic preganglionic neurons in T1–L2/L3) surrounded by **white matter** (ascending sensory tracts: spinothalamic, dorsal columns; descending motor tracts: corticospinal, rubrospinal, vestibulospinal).
+
+### Peripheral Nervous System (PNS)
+
+Everything outside the skull and vertebral canal — the nerves, ganglia, and sensory receptors that connect the CNS to the body.
+
+**Somatic PNS:**
+- **Afferent (sensory):** Dorsal root ganglia neurons carry signals from skin (mechanoreceptors, thermoreceptors, nociceptors), muscle spindles, Golgi tendon organs, and joints → spinal cord dorsal horn or brainstem.
+- **Efferent (motor):** Lower motor neurons (alpha motor neurons in ventral horn) → neuromuscular junction → skeletal muscle (voluntary movement).
+
+**Autonomic Nervous System (ANS):**
+
+| Division | Ganglia location | Transmitter (pre/post) | Effect on target organs |
+|:---|:---|:---|:---|
+| **Sympathetic** | Paravertebral chain ganglia (T1–L2/3) | ACh (preganglionic) / NE (postganglionic) | Fight-or-flight: ↑HR, ↑BP, bronchodilation, ↓GI motility, pupil dilation, adrenal catecholamine release |
+| **Parasympathetic** | Terminal ganglia near or within target organ | ACh / ACh | Rest-and-digest: ↓HR, ↑GI motility, bronchoconstriction, pupil constriction, bladder/bowel contraction, erection |
+| **Enteric** | Myenteric (Auerbach's) plexus + submucosal (Meissner's) plexus | Multiple (ACh, NO, serotonin, VIP, substance P) | Semi-autonomous GI motility, secretion, blood flow; ~500 million neurons — the "gut brain" |
+
+### Nerve fiber classification
+
+| Fiber class | Myelin | Diameter | Conduction velocity | Sensory modality |
+|:---|:---|:---|:---|:---|
+| **Aα** | Heavily myelinated | 13–20 μm | 70–120 m/s | Proprioception (muscle spindle Ia, Ib), motor efferents |
+| **Aβ** | Myelinated | 6–12 μm | 30–70 m/s | Touch, pressure, vibration |
+| **Aδ** | Lightly myelinated | 1–5 μm | 5–30 m/s | Fast/sharp pain; cold thermoreception |
+| **C** | Unmyelinated | 0.2–1.5 μm | 0.5–2 m/s | Slow/burning pain, warmth, itch, autonomic postganglionic |
+
+### Glial cells
+
+Non-neuronal support cells outnumber neurons approximately 1:1 in the brain:
+
+| Glia | Location | Function |
+|:---|:---|:---|
+| **Astrocytes** | CNS | Metabolic support; BBB formation; K⁺ and glutamate buffering; tripartite synapse participant; reactive gliosis |
+| **Oligodendrocytes** | CNS | Myelin production (one oligo myelinates up to 50 axon segments) |
+| **Microglia** | CNS | Resident immune cells; synaptic pruning; phagocytosis; neuroinflammation |
+| **Schwann cells** | PNS | Myelin for single PNS axon segments; guide axon regeneration |
+| **Satellite glia** | PNS ganglia | Support and modulate sensory and autonomic neurons |
+
+## Function
+
+### Sensorimotor integration
+
+The nervous system's fundamental function is the **sensorimotor loop**: sense → integrate → respond. At the simplest level, the monosynaptic stretch reflex (patellar tendon reflex) completes this loop in the spinal cord within ~25–50 ms. At the most complex level, the entirety of cortical processing, memory retrieval, planning, and learned motor skill underlies a skilled voluntary action.
+
+**Sensory processing** is hierarchical: primary sensory areas (S1, V1, A1) represent basic features; secondary and association areas (STS, PPC, PFC) build increasingly abstract representations. The somatosensory homunculus in S1 represents the body surface with cortical area proportional to tactile receptor density (fingertips and lips are disproportionately large).
+
+**Motor control** uses parallel hierarchical pathways: cortex (planning) → brainstem (postural reflexes) → spinal cord (pattern generators) → muscle. The cerebellum provides real-time error correction; the basal ganglia select and gate which motor program executes.
+
+### Autonomic and homeostatic control
+
+The hypothalamus is the **supreme autonomic center**: it integrates hormonal signals (leptin, ghrelin, cortisol), temperature information, and limbic inputs to coordinate sympathetic/parasympathetic balance, HPA axis activity, circadian rhythms (via the suprachiasmatic nucleus), and hunger/satiety. The **nucleus tractus solitarius (NTS)** in the medulla processes baroreceptor, chemoreceptor, and visceral afferent inputs, providing the primary interface between peripheral autonomic signals and CNS integration.
+
+The **baroreceptor reflex** — a classic example of autonomic homeostasis — continuously monitors carotid sinus and aortic arch pressure, feeding back via cranial nerves IX and X to the NTS, which adjusts sympathetic outflow to heart and vasculature to maintain arterial blood pressure within narrow bounds (~120/80 mmHg).
+
+### Higher cognitive functions
+
+Distributed cortical networks underlie language (Broca's area, Wernicke's area, arcuate fasciculus), spatial attention (right parietal), face recognition (fusiform face area), emotion regulation (PFC-amygdala circuit), and social cognition (mirror neuron system, temporoparietal junction). The integration of these networks, coordinated through synchronized oscillations and the thalamic "broadcasting" function, gives rise to the unified experience of consciousness.
+
+## Connections
+
+- `part-of` → **[human-body](../../08-whole-body/human-body/README.md)** — the nervous system is one of the 11 major organ systems
+- `contains` → **[brain](../../06-organ/brain/README.md)** — the brain is the primary CNS organ
+- `contains` → **[neuron](../../04-cellular/neuron/README.md)** — neurons are the functional units throughout the nervous system
+- `contains` → **[dopamine](../../03-molecular/dopamine/README.md)** — dopaminergic circuits operate within CNS pathways
+- `contains` → **[glutamate](../../03-molecular/glutamate/README.md)** — glutamate is the CNS's dominant excitatory transmitter
+- `contains` → **[gaba](../../03-molecular/gaba/README.md)** — GABA is the CNS's dominant inhibitory transmitter
+- `connects-to` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — autonomic nervous system governs cardiac rate, contractility, and vascular tone; the baroreceptor reflex and cerebral autoregulation link the two systems bidirectionally
+
+## Pathology
+
+| Disease | CNS/PNS | Mechanism | Global burden |
+|:---|:---|:---|:---|
+| **Alzheimer's disease** | CNS | Amyloid-β + tau aggregation → synaptic loss → cortical and hippocampal neurodegeneration | ~50 million affected; >$1 trillion annual cost |
+| **Parkinson's disease** | CNS | Selective SNc dopaminergic neuron loss → nigrostriatal pathway failure → basal ganglia circuit dysfunction | ~10 million; 2nd most common neurodegenerative disease |
+| **Stroke** | CNS | Ischemic or hemorrhagic → focal neuronal death → acute neurological deficit | ~15 million/year; #2 cause of death globally |
+| **Multiple sclerosis (MS)** | CNS | Autoimmune demyelination of CNS white matter tracts → conduction failure and neurodegeneration | ~2.8 million worldwide; peak onset 20–40 yr |
+| **ALS** | CNS/PNS | Progressive degeneration of upper and lower motor neurons → paralysis, respiratory failure | ~300,000 globally; median survival ~2–4 yr |
+| **Epilepsy** | CNS | Recurrent unprovoked seizures from E/I imbalance; 30+ genetic, structural, metabolic causes | ~50 million; 30% drug-resistant |
+| **Depression** | CNS | Monoaminergic, glutamatergic, neuroinflammatory dysregulation; PFC-limbic circuit impairment | ~280 million; #1 cause of global disability |
+| **Schizophrenia** | CNS | DA dysregulation, NMDA hypofunction, PV interneuron loss → psychosis and cognitive deficit | ~24 million; lifetime prevalence ~0.5–1% |
+| **Peripheral neuropathy** | PNS | Axonal degeneration/demyelination from diabetes, chemotherapy, autoimmune causes | >20 million in USA alone; diabetic neuropathy most common |
+| **Guillain-Barré syndrome** | PNS | Autoimmune demyelination of peripheral nerves → ascending paralysis | ~1–2/100,000/year; often post-infectious |
+
+[^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
+[^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.
+[^who-neurological-2006]: World Health Organization. *Neurological Disorders: Public Health Challenges.* WHO Press; 2006. [who.int/publications/i/item/9241563362](https://www.who.int/publications/i/item/9241563362)
+[^purves-neuroscience-ns]: Purves D, Augustine GJ, Fitzpatrick D, et al. *Neuroscience.* 6th ed. Sinauer Associates; 2018. [ncbi.nlm.nih.gov/books/NBK10792/](https://www.ncbi.nlm.nih.gov/books/NBK10792/)

@@ -39,6 +39,12 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: damages
     note: "Mtb infects alveolar macrophages residing within alveoli; granuloma formation destroys alveolar architecture and the caseating necrosis of primary and reactivation TB obliterates alveolar structure."
+  - target: 01-human/07-system/immune-system
+    relation: damages
+    note: "Mtb actively evades immune clearance: ESX-1 secretion system disrupts phagosome acidification, LpqH/LprG lipoproteins block MHC-II antigen presentation, and T cell exhaustion in chronic TB progressively impairs adaptive immunity."
+  - target: 01-human/07-system/digestive-system
+    relation: damages
+    note: "Extrapulmonary TB causes peritoneal TB (ascites, bowel obstruction), ileocecal TB mimicking Crohn's disease, and hepatic TB — occurring in 5–15% of TB cases globally."
 ---
 
 # Mycobacterium tuberculosis
