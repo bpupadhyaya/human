@@ -510,10 +510,10 @@
 
       /* ── Scenario definitions ───────────────────────────────────────── */
       const SCENARIOS = {
-        normal:   { label:'Normal',   TLC:6.0, FRC:2.5, RV:1.2, FVC:4.6, FEV1:3.9, ratio:0.85, tau:0.50, VT:0.50, RR:14, Ti:1.4, n:0.7, PEF:9.0,  color:'#059669', k:0.5 },
-        copd:     { label:'COPD',     TLC:7.5, FRC:4.0, RV:3.0, FVC:3.8, FEV1:1.3, ratio:0.34, tau:2.80, VT:0.45, RR:20, Ti:1.0, n:0.5, PEF:4.0,  color:'#f59e0b', k:0.8 },
-        fibrosis: { label:'Fibrosis', TLC:4.0, FRC:1.8, RV:1.0, FVC:2.8, FEV1:2.4, ratio:0.86, tau:0.38, VT:0.32, RR:24, Ti:0.9, n:0.7, PEF:6.0,  color:'#7c3aed', k:0.5 },
-        ards:     { label:'ARDS',     TLC:3.5, FRC:1.3, RV:1.2, FVC:2.0, FEV1:1.5, ratio:0.75, tau:0.60, VT:0.28, RR:28, Ti:0.8, n:0.8, PEF:4.0,  color:'#dc2626', k:0.5 },
+        normal:   { label:'Normal',   TLC:6.0, FRC:2.5, RV:1.2, FVC:4.6, FEV1:3.9, ratio:0.85, tau:0.50, VT:0.50, RR:14, Ti:1.4, n:0.75, PEF:9.0,  color:'#059669', k:0.5 },
+        copd:     { label:'COPD',     TLC:7.5, FRC:4.0, RV:3.0, FVC:3.8, FEV1:1.3, ratio:0.34, tau:2.80, VT:0.45, RR:20, Ti:1.0, n:2.5,  PEF:4.0,  color:'#f59e0b', k:0.8 },
+        fibrosis: { label:'Fibrosis', TLC:4.0, FRC:1.8, RV:1.0, FVC:2.8, FEV1:2.4, ratio:0.86, tau:0.38, VT:0.32, RR:24, Ti:0.9, n:0.65, PEF:6.5,  color:'#7c3aed', k:0.5 },
+        ards:     { label:'ARDS',     TLC:3.5, FRC:1.3, RV:1.2, FVC:2.0, FEV1:1.5, ratio:0.75, tau:0.60, VT:0.28, RR:28, Ti:0.8, n:1.3,  PEF:4.5,  color:'#dc2626', k:0.5 },
       };
 
       /* ── State ──────────────────────────────────────────────────────── */
@@ -670,170 +670,190 @@
       }
 
       /* ── Flow-Volume Loop ───────────────────────────────────────────── */
-      function mefvFlow(V_L, sc) {
-        /* V_L = absolute lung volume; returns flow in L/s */
-        const V_rel = (V_L - sc.RV) / (sc.TLC - sc.RV);
-        if (V_rel <= 0) return 0;
-        return sc.PEF * Math.pow(Math.max(V_rel, 0), sc.n);
-      }
+      let fvcAnimID = null;
 
-      function drawFV() {
+      function drawFV(animProgress) {
+        if (animProgress === undefined) animProgress = 1;
         const { w, h } = resizeCanvas(cvsFV);
         const ctx = ctxFV;
         ctx.clearRect(0, 0, w, h);
 
         const sc = Object.assign({}, SCENARIOS[currentScenario]);
-        // Apply slider overrides
-        sc.FEV1 = sc.FVC * (sliderFev1Pct / 100);
+        sc.FEV1  = sc.FVC * (sliderFev1Pct / 100);
         sc.ratio = sliderFev1Pct / 100;
 
         const PAD_L = Math.round(44 * dpr);
         const PAD_R = Math.round(14 * dpr);
         const PAD_T = Math.round(14 * dpr);
-        const PAD_B = Math.round(28 * dpr);
+        const PAD_B = Math.round(30 * dpr);
         const pw    = w - PAD_L - PAD_R;
         const ph    = h - PAD_T - PAD_B;
 
-        // Axes extents — use scenario TLC/RV for x, PEF*1.15 for y
-        const xMin = sc.RV;
-        const xMax = sc.TLC;
-        const yMin = 0;
-        const yMax = sc.PEF * 1.15;
+        // Expired-volume x-axis: 0 (TLC, left) → FVC (RV, right)
+        const norm     = SCENARIOS.normal;
+        const isNorm   = (currentScenario === 'normal');
+        const xMax_exp = isNorm ? sc.FVC * 1.06 : Math.max(sc.FVC, norm.FVC) * 1.02;
+        // Y: positive = expiration (top), negative = inspiration (bottom)
+        const peakPEF = isNorm ? sc.PEF : Math.max(sc.PEF, norm.PEF);
+        const yMax    = peakPEF * 1.15;
+        const yMin    = -peakPEF * 0.65;
+        const yRange  = yMax - yMin;
 
-        function xOf(v) { return PAD_L + ((v - xMin) / (xMax - xMin)) * pw; }
-        function yOf(f) { return PAD_T + ph * (1 - (f - yMin) / (yMax - yMin)); }
+        function xOf(Vexp) { return PAD_L + (Vexp / xMax_exp) * pw; }
+        function yOf(f)    { return PAD_T + ph * (1 - (f - yMin) / yRange); }
 
-        // Grid lines
-        ctx.strokeStyle = `rgba(${isDark() ? '255,255,255' : '0,0,0'},0.06)`;
+        const STEPS    = 400;
+        const darkMode = isDark();
+        const mutedColor = getComputedStyle(document.documentElement)
+          .getPropertyValue('--muted').trim() || '#6e6e73';
+
+        // ── Grid ─────────────────────────────────────────────────────
+        ctx.strokeStyle = `rgba(${darkMode ? '255,255,255' : '0,0,0'},0.06)`;
         ctx.lineWidth = 1 * dpr;
-        for (let v = Math.ceil(xMin); v <= xMax; v++) {
+        for (let v = 0; v <= Math.ceil(xMax_exp); v++) {
           const x = xOf(v);
+          if (x < PAD_L - 1 || x > PAD_L + pw + 1) continue;
           ctx.beginPath(); ctx.moveTo(x, PAD_T); ctx.lineTo(x, PAD_T + ph); ctx.stroke();
         }
-        // Zero-flow axis
-        ctx.strokeStyle = `rgba(${isDark() ? '255,255,255' : '0,0,0'},0.2)`;
+        const yStep = (peakPEF >= 7) ? 2 : 1;
+        for (let f = Math.ceil(yMin / yStep) * yStep; f <= yMax; f += yStep) {
+          const y = yOf(f);
+          if (y < PAD_T - 1 || y > PAD_T + ph + 1) continue;
+          ctx.beginPath(); ctx.moveTo(PAD_L, y); ctx.lineTo(PAD_L + pw, y); ctx.stroke();
+        }
+
+        // ── Axes ─────────────────────────────────────────────────────
+        ctx.strokeStyle = `rgba(${darkMode ? '255,255,255' : '0,0,0'},0.2)`;
         ctx.lineWidth = 1 * dpr;
         ctx.beginPath(); ctx.moveTo(PAD_L, yOf(0)); ctx.lineTo(PAD_L + pw, yOf(0)); ctx.stroke();
-        ctx.beginPath(); ctx.moveTo(PAD_L, PAD_T); ctx.lineTo(PAD_L, PAD_T + ph); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(PAD_L, PAD_T);  ctx.lineTo(PAD_L, PAD_T + ph);  ctx.stroke();
 
-        // Axis labels
-        const mutedColor = getComputedStyle(document.documentElement).getPropertyValue('--muted').trim() || '#6e6e73';
-        ctx.fillStyle    = mutedColor;
-        ctx.font         = `${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
-        ctx.textAlign    = 'center';
-        ctx.textBaseline = 'top';
-        ctx.fillText('Volume (L)', PAD_L + pw / 2, PAD_T + ph + 6 * dpr);
-        // Y label
+        // ── Tick labels ───────────────────────────────────────────────
+        ctx.fillStyle = mutedColor;
+        ctx.font = `${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
+        // X ticks
+        ctx.textAlign = 'center'; ctx.textBaseline = 'top';
+        for (let v = 0; v <= Math.floor(xMax_exp) + 1; v++) {
+          const x = xOf(v);
+          if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
+          ctx.fillText(v.toFixed(0), x, PAD_T + ph + 5 * dpr);
+        }
+        ctx.fillText('Expired Volume (L)', PAD_L + pw / 2, PAD_T + ph + 18 * dpr);
+        // Y ticks
+        ctx.textAlign = 'right'; ctx.textBaseline = 'middle';
+        for (let f = Math.ceil(yMin / yStep) * yStep; f <= yMax; f += yStep) {
+          if (f === 0) continue;
+          const y = yOf(f);
+          if (y < PAD_T - 2 || y > PAD_T + ph + 2) continue;
+          ctx.fillText(f.toFixed(0), PAD_L - 4 * dpr, y);
+        }
+        // Y-axis rotated label
         ctx.save();
         ctx.translate(Math.round(10 * dpr), PAD_T + ph / 2);
         ctx.rotate(-Math.PI / 2);
-        ctx.textAlign    = 'center';
-        ctx.textBaseline = 'middle';
+        ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
         ctx.fillText('Flow (L/s)', 0, 0);
         ctx.restore();
-        // X tick labels
-        ctx.textAlign    = 'center';
-        ctx.textBaseline = 'top';
-        for (let v = Math.ceil(xMin); v <= xMax; v++) {
-          ctx.fillText(v.toFixed(0), xOf(v), PAD_T + ph + 6 * dpr);
-        }
-        // Y tick labels
-        ctx.textAlign    = 'right';
-        ctx.textBaseline = 'middle';
-        for (let f = 0; f <= Math.floor(yMax); f += 2) {
-          ctx.fillText(f.toFixed(0), PAD_L - 4 * dpr, yOf(f));
-        }
 
-        const STEPS = 400;
+        // TLC → RV direction cues on zero-flow line
+        ctx.fillStyle = mutedColor;
+        ctx.font = `bold ${Math.round(8 * dpr)}px -apple-system,sans-serif`;
+        ctx.textAlign = 'left'; ctx.textBaseline = 'bottom';
+        ctx.fillText('TLC→', xOf(0) + 2 * dpr, yOf(0) - 2 * dpr);
+        ctx.textAlign = 'right';
+        ctx.fillText('←RV', xOf(sc.FVC) - 2 * dpr, yOf(0) - 2 * dpr);
 
-        // Reference normal curve (if not normal scenario)
-        if (currentScenario !== 'normal') {
-          const norm = SCENARIOS.normal;
+        // ── Reference normal curve (grey dashed) ──────────────────────
+        if (!isNorm) {
+          ctx.save();
           ctx.beginPath();
-          ctx.strokeStyle = 'rgba(0,0,0,0.13)';
+          ctx.strokeStyle = darkMode ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.18)';
           ctx.lineWidth   = 1.5 * dpr;
           ctx.setLineDash([4 * dpr, 3 * dpr]);
+          let firstN = true;
           for (let i = 0; i <= STEPS; i++) {
-            const V = norm.TLC - (norm.FVC * i / STEPS);
-            const F = mefvFlow(V, norm);
-            // Map to current axes
-            const xr = PAD_L + ((V - xMin) / (xMax - xMin)) * pw;
-            const yr = PAD_T + ph * (1 - Math.min(F, yMax) / (yMax - yMin));
-            if (xr < PAD_L - 2 || xr > PAD_L + pw + 2) continue;
-            if (i === 0) ctx.moveTo(xr, yr); else ctx.lineTo(xr, yr);
+            const Vexp = norm.FVC * i / STEPS;
+            const Vabs = norm.TLC - Vexp;
+            const Vrel = (Vabs - norm.RV) / (norm.TLC - norm.RV);
+            const F = (Vrel <= 0) ? 0 : norm.PEF * Math.pow(Vrel, norm.n);
+            const x = xOf(Vexp); const y = yOf(Math.min(F, yMax * 0.98));
+            if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
+            if (firstN) { ctx.moveTo(x, y); firstN = false; } else ctx.lineTo(x, y);
           }
-          // Normal inspiration limb
           for (let i = STEPS; i >= 0; i--) {
-            const V = norm.TLC - (norm.FVC * i / STEPS);
-            const F_insp = -(norm.PEF * 0.7) * Math.sin(Math.PI * i / STEPS);
-            const xr = PAD_L + ((V - xMin) / (xMax - xMin)) * pw;
-            const yr = PAD_T + ph * (1 - Math.min(F_insp, 0) / (yMax - yMin));
-            if (xr < PAD_L - 2 || xr > PAD_L + pw + 2) continue;
-            ctx.lineTo(xr, yr);
+            const Vexp  = norm.FVC * i / STEPS;
+            const frac  = i / STEPS;
+            const Finsp = -(norm.PEF * 0.65) * Math.sin(Math.PI * frac);
+            const x = xOf(Vexp); const y = yOf(Math.max(Finsp, yMin * 0.98));
+            if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
+            ctx.lineTo(x, y);
           }
-          ctx.stroke();
-          ctx.setLineDash([]);
+          ctx.stroke(); ctx.setLineDash([]);
+          ctx.restore();
+          ctx.fillStyle = darkMode ? 'rgba(255,255,255,0.35)' : 'rgba(0,0,0,0.3)';
+          ctx.font = `${Math.round(8.5 * dpr)}px -apple-system,sans-serif`;
+          ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+          ctx.fillText('Normal', xOf(0.1), yOf(norm.PEF) + 10 * dpr);
         }
 
-        // Active MEFV expiratory curve
+        // ── Active MEFV expiratory curve ──────────────────────────────
+        const maxI = Math.round(STEPS * animProgress);
         ctx.beginPath();
-        ctx.strokeStyle = '#0284c7';
+        ctx.strokeStyle = SCENARIOS[currentScenario].color;
         ctx.lineWidth   = 2.5 * dpr;
+        ctx.lineJoin    = 'round'; ctx.lineCap = 'round';
         let firstPt = true;
-        for (let i = 0; i <= STEPS; i++) {
-          const V = sc.TLC - (sc.FVC * i / STEPS);
-          const F = mefvFlow(V, sc);
-          const x = xOf(V);
-          const y = yOf(Math.min(F, yMax * 0.98));
-          if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
-          if (firstPt) { ctx.moveTo(x, y); firstPt = false; }
-          else         { ctx.lineTo(x, y); }
+        for (let i = 0; i <= maxI; i++) {
+          const Vexp = sc.FVC * i / STEPS;
+          const Vabs = sc.TLC - Vexp;
+          const Vrel = (Vabs - sc.RV) / (sc.TLC - sc.RV);
+          const F = (Vrel <= 0) ? 0 : sc.PEF * Math.pow(Vrel, sc.n);
+          const x = xOf(Vexp); const y = yOf(Math.min(F, yMax * 0.98));
+          if (firstPt) { ctx.moveTo(x, y); firstPt = false; } else ctx.lineTo(x, y);
         }
-        // Inspiration limb (parabolic)
-        for (let i = STEPS; i >= 0; i--) {
-          const V    = sc.TLC - (sc.FVC * i / STEPS);
-          const frac = i / STEPS;  // 1 at TLC end, 0 at RV end
-          const F_insp = -(sc.PEF * 0.7) * Math.sin(Math.PI * frac);
-          const x = xOf(V);
-          const y = yOf(0) + (yOf(0) - yOf(Math.abs(F_insp)));  // mirror below zero-flow
-          if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
-          ctx.lineTo(x, y);
+        // Inspiration limb — only once animation is complete
+        if (animProgress >= 1) {
+          for (let i = STEPS; i >= 0; i--) {
+            const Vexp  = sc.FVC * i / STEPS;
+            const frac  = i / STEPS;
+            const Finsp = -(sc.PEF * 0.65) * Math.sin(Math.PI * frac);
+            const x = xOf(Vexp); const y = yOf(Math.max(Finsp, yMin * 0.98));
+            ctx.lineTo(x, y);
+          }
         }
         ctx.stroke();
 
-        // PEF marker
-        const pefX = xOf(sc.TLC);
-        ctx.beginPath();
-        ctx.strokeStyle = '#0284c7';
-        ctx.lineWidth   = 1.5 * dpr;
-        ctx.setLineDash([3 * dpr, 3 * dpr]);
-        ctx.moveTo(pefX, yOf(sc.PEF));
-        ctx.lineTo(pefX - 14 * dpr, yOf(sc.PEF));
-        ctx.stroke();
-        ctx.setLineDash([]);
-        ctx.fillStyle   = '#0284c7';
-        ctx.font        = `bold ${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
-        ctx.textAlign   = 'right';
-        ctx.textBaseline = 'middle';
-        ctx.fillText('PEF ' + sc.PEF.toFixed(1) + ' L/s', pefX - 16 * dpr, yOf(sc.PEF));
-
-        // FEV₁ dashed vertical at TLC - FEV1
-        const fev1Vol = sc.TLC - sc.FEV1;
-        if (fev1Vol >= xMin && fev1Vol <= xMax) {
-          const fev1X = xOf(fev1Vol);
+        // ── PEF annotation (at TLC / left edge) ──────────────────────
+        if (animProgress >= 0.02) {
+          const pefX = xOf(0); const pefY = yOf(sc.PEF);
           ctx.beginPath();
-          ctx.strokeStyle = '#dc2626';
+          ctx.strokeStyle = SCENARIOS[currentScenario].color;
           ctx.lineWidth   = 1.5 * dpr;
-          ctx.setLineDash([4 * dpr, 3 * dpr]);
-          ctx.moveTo(fev1X, PAD_T);
-          ctx.lineTo(fev1X, PAD_T + ph);
-          ctx.stroke();
-          ctx.setLineDash([]);
-          ctx.fillStyle    = '#dc2626';
-          ctx.font         = `bold ${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
-          ctx.textAlign    = 'center';
-          ctx.textBaseline = 'bottom';
-          ctx.fillText('FEV₁', fev1X, PAD_T + ph - 2 * dpr);
+          ctx.setLineDash([3 * dpr, 3 * dpr]);
+          ctx.moveTo(pefX, pefY); ctx.lineTo(pefX + 18 * dpr, pefY);
+          ctx.stroke(); ctx.setLineDash([]);
+          ctx.fillStyle = SCENARIOS[currentScenario].color;
+          ctx.font = `bold ${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
+          ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+          ctx.fillText('PEF ' + sc.PEF.toFixed(1), pefX + 20 * dpr, pefY);
+        }
+
+        // ── FEV₁ marker — appears when animation reaches 1 s mark ────
+        const fev1Frac = sc.FEV1 / sc.FVC;
+        if (animProgress >= fev1Frac - 0.01) {
+          const fev1X = xOf(sc.FEV1);
+          if (fev1X >= PAD_L - 2 && fev1X <= PAD_L + pw + 2) {
+            ctx.beginPath();
+            ctx.strokeStyle = '#dc2626';
+            ctx.lineWidth   = 1.5 * dpr;
+            ctx.setLineDash([4 * dpr, 3 * dpr]);
+            ctx.moveTo(fev1X, PAD_T); ctx.lineTo(fev1X, PAD_T + ph);
+            ctx.stroke(); ctx.setLineDash([]);
+            ctx.fillStyle = '#dc2626';
+            ctx.font = `bold ${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
+            ctx.textAlign = 'center'; ctx.textBaseline = 'top';
+            ctx.fillText('FEV₁ ' + sc.FEV1.toFixed(1) + 'L', fev1X, PAD_T + 2 * dpr);
+          }
         }
       }
 
@@ -920,6 +940,7 @@
 
       /* ── Scenario loading ───────────────────────────────────────────── */
       function loadScenario(key) {
+        if (fvcAnimID !== null) { cancelAnimationFrame(fvcAnimID); fvcAnimID = null; }
         currentScenario = key;
         const sc = SCENARIOS[key];
         state   = Object.assign({}, sc);
@@ -983,7 +1004,21 @@
         updateDerived();
       });
       document.getElementById('btn-fvc').addEventListener('click', () => {
-        drawFV();
+        if (fvcAnimID !== null) {
+          // Second click while running: snap to complete
+          cancelAnimationFrame(fvcAnimID);
+          fvcAnimID = null;
+          drawFV(1);
+          return;
+        }
+        const dur = 2500;
+        const t0  = performance.now();
+        (function step(ts) {
+          const p = Math.min((ts - t0) / dur, 1);
+          drawFV(p);
+          if (p < 1) { fvcAnimID = requestAnimationFrame(step); }
+          else        { fvcAnimID = null; }
+        })(performance.now());
       });
 
       document.addEventListener('visibilitychange', () => {
