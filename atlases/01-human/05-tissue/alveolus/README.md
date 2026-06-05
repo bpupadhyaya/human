@@ -42,6 +42,12 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: damaged-by
     note: "M. tuberculosis infects alveolar macrophages residing within alveoli, then spreads to the alveolar epithelium and parenchyma, causing granuloma formation and caseating necrosis that destroys alveolar structure."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: modulated-by
+    note: "Modulated by Hemoglobin."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: infected-by
+    note: "Infected by Pneumocystis jirovecii (formerly carinii)."
 taxonomy:
   uberon: "UBERON:0002299"
   fma: "FMA:7318"

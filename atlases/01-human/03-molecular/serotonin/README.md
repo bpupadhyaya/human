@@ -39,6 +39,9 @@ cross_links:
     relation: modulated-by
     evidence: berger-2009-ssri
     note: "SERT (SLC6A4) terminates serotonergic neurotransmission by actively transporting 5-HT from the synapse into the presynaptic terminal; SSRI blockade of SERT increases synaptic 5-HT and mediates antidepressant effects."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: modulated-by
+    note: "Modulated by St. John's Wort (Hypericum perforatum)."
 ---
 
 # Serotonin

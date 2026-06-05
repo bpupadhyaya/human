@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: treats
     note: "NASH/steatohepatitis: statins reduce hepatic steatosis and inflammation markers; generally safe in compensated liver disease and not contraindicated in NAFLD, despite early concerns about statin hepatotoxicity."
+  - target: 01-human/03-molecular/cholesterol
+    relation: modulates
+    note: "Modulates by Cholesterol."
 ---
 
 # Statins

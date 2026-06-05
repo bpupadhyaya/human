@@ -93,6 +93,48 @@ cross_links:
     relation: prevented-by
     evidence: de-la-rosa-2021-hepatocyte-cyp450
     note: "Direct-acting antivirals (sofosbuvir/velpatasvir, glecaprevir/pibrentasvir) achieve >95% SVR12, clearing HCV from hepatocytes and halting progression to cirrhosis and HCC; WHO target: 90% treated by 2030."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: expressed-by
+    note: "Expressed by Fibrinogen."
+  - target: 01-human/03-molecular/cholesterol
+    relation: modulated-by
+    note: "Modulated by Cholesterol."
+  - target: 01-human/03-molecular/epinephrine
+    relation: modulated-by
+    note: "Modulated by Epinephrine."
+  - target: 01-human/03-molecular/glucagon
+    relation: modulated-by
+    note: "Modulated by Glucagon."
+  - target: 01-human/03-molecular/ampk
+    relation: modulated-by
+    note: "Modulated by AMPK."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: modulated-by
+    note: "Modulated by Angiotensin II."
+  - target: 01-human/03-molecular/albumin
+    relation: expressed-by
+    note: "Expressed by Albumin."
+  - target: 01-human/03-molecular/leptin
+    relation: modulated-by
+    note: "Modulated by Leptin."
+  - target: 01-human/02-atomic/selenium
+    relation: modulated-by
+    note: "Modulated by Selenium."
+  - target: 01-human/02-atomic/phosphorus
+    relation: composed-of
+    note: "Composed Of by Phosphorus."
+  - target: 01-human/02-atomic/sulfur
+    relation: composed-of
+    note: "Composed Of by Sulfur."
+  - target: 01-human/04-cellular/adipocyte
+    relation: modulated-by
+    note: "Modulated by Adipocyte."
+  - target: 03-medicine/03-food/sulforaphane
+    relation: modulated-by
+    note: "Modulated by Sulforaphane."
+  - target: 03-medicine/02-traditional/milk-thistle
+    relation: modulated-by
+    note: "Modulated by Milk Thistle / Silymarin (Silybum marianum)."
 taxonomy:
   cell_ontology: "CL:0000182"
   lineage: "endoderm — hepatic endoderm — hepatoblast — hepatocyte"

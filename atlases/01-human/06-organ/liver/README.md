@@ -103,6 +103,72 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-c-virus
     relation: damaged-by
     note: "Chronic HCV triggers hepatic stellate cell activation via TGF-β, driving progressive fibrosis (METAVIR F0→F4); 20–30% develop cirrhosis within 20 years; HCC risk is 2–4% annually after cirrhosis."
+  - target: 01-human/03-molecular/collagen
+    relation: modulated-by
+    note: "Modulated by Collagen."
+  - target: 01-human/03-molecular/glucagon
+    relation: modulated-by
+    note: "Modulated by Glucagon."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: modulated-by
+    note: "Modulated by Thyroid Hormones (T3/T4)."
+  - target: 01-human/02-atomic/copper
+    relation: modulated-by
+    note: "Modulated by Copper."
+  - target: 01-human/02-atomic/iron
+    relation: modulated-by
+    note: "Modulated by Iron."
+  - target: 01-human/02-atomic/sulfur
+    relation: modulated-by
+    note: "Modulated by Sulfur."
+  - target: 01-human/07-system/reproductive-system
+    relation: modulated-by
+    note: "Modulated by Reproductive System."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: modulated-by
+    note: "Modulated by Islet of Langerhans."
+  - target: 01-human/04-cellular/neutrophil
+    relation: modulated-by
+    note: "Modulated by Neutrophil."
+  - target: 01-human/04-cellular/fibroblast
+    relation: modulated-by
+    note: "Modulated by Fibroblast."
+  - target: 01-human/06-organ/large-intestine
+    relation: modulated-by
+    note: "Modulated by Large Intestine."
+  - target: 01-human/06-organ/small-intestine
+    relation: modulated-by
+    note: "Modulated by Small Intestine."
+  - target: 01-human/06-organ/stomach
+    relation: modulated-by
+    note: "Modulated by Stomach."
+  - target: 01-human/06-organ/thyroid
+    relation: modulated-by
+    note: "Modulated by Thyroid Gland."
+  - target: 02-pathogen/01-viruses/ebola-virus
+    relation: damaged-by
+    note: "Damaged by Ebola Virus (EBOV)."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: damaged-by
+    note: "Damaged by Epstein-Barr Virus."
+  - target: 02-pathogen/04-parasites/leishmania-donovani
+    relation: damaged-by
+    note: "Damaged by Leishmania donovani."
+  - target: 02-pathogen/02-bacteria/salmonella-typhi
+    relation: damaged-by
+    note: "Damaged by Salmonella typhi."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: damaged-by
+    note: "Damaged by Helicobacter pylori."
+  - target: 03-medicine/03-food/sulforaphane
+    relation: modulated-by
+    note: "Modulated by Sulforaphane."
+  - target: 03-medicine/03-food/resveratrol
+    relation: modulated-by
+    note: "Modulated by Resveratrol."
+  - target: 03-medicine/02-traditional/milk-thistle
+    relation: modulated-by
+    note: "Modulated by Milk Thistle / Silymarin (Silybum marianum)."
 taxonomy:
   uberon: "UBERON:0002107"
   fma: "FMA:7197"

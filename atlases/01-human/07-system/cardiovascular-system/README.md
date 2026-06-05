@@ -99,6 +99,111 @@ cross_links:
     relation: modulated-by
     evidence: openstax-anatomy-20-1
     note: "EPA/DHA lower triglycerides, reduce platelet aggregation, and decrease arterial inflammation, collectively improving cardiovascular risk profile."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: modulated-by
+    note: "Modulated by Hemoglobin."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: modulated-by
+    note: "Modulated by Fibrinogen."
+  - target: 01-human/03-molecular/vasopressin
+    relation: modulated-by
+    note: "Modulated by Vasopressin."
+  - target: 01-human/03-molecular/epinephrine
+    relation: modulated-by
+    note: "Modulated by Epinephrine."
+  - target: 01-human/03-molecular/ampk
+    relation: modulated-by
+    note: "Modulated by AMPK."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: modulated-by
+    note: "Modulated by Nitric Oxide."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: modulated-by
+    note: "Modulated by Angiotensin II."
+  - target: 01-human/03-molecular/albumin
+    relation: modulated-by
+    note: "Modulated by Albumin."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: modulated-by
+    note: "Modulated by Erythropoietin."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: modulated-by
+    note: "Modulated by Norepinephrine."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: modulated-by
+    note: "Modulated by Thyroid Hormones (T3/T4)."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: modulated-by
+    note: "Modulated by Prostaglandins (Eicosanoids)."
+  - target: 01-human/02-atomic/iodine
+    relation: modulated-by
+    note: "Modulated by Iodine."
+  - target: 01-human/07-system/reproductive-system
+    relation: modulated-by
+    note: "Modulated by Reproductive System."
+  - target: 01-human/07-system/lymphatic-system
+    relation: modulated-by
+    note: "Modulated by Lymphatic System."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: modulated-by
+    note: "Modulated by Musculoskeletal System."
+  - target: 01-human/07-system/endocrine-system
+    relation: modulated-by
+    note: "Modulated by Endocrine System."
+  - target: 01-human/07-system/integumentary-system
+    relation: modulated-by
+    note: "Modulated by Integumentary System."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: modulated-by
+    note: "Modulated by Cortical Bone."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: composed-of
+    note: "Composed Of by Arterial Wall."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: composed-of
+    note: "Composed Of by Endothelial Cell."
+  - target: 01-human/04-cellular/platelet
+    relation: modulated-by
+    note: "Modulated by Platelet."
+  - target: 01-human/04-cellular/mast-cell
+    relation: modulated-by
+    note: "Modulated by Mast Cell."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: composed-of
+    note: "Composed Of by Smooth Muscle Cell."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: modulated-by
+    note: "Modulated by Adrenal Gland."
+  - target: 01-human/06-organ/thyroid
+    relation: modulated-by
+    note: "Modulated by Thyroid Gland."
+  - target: 02-pathogen/04-parasites/trypanosoma-cruzi
+    relation: damaged-by
+    note: "Damaged by Trypanosoma cruzi."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: damaged-by
+    note: "Damaged by Streptococcus pyogenes."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: damaged-by
+    note: "Damaged by Neisseria meningitidis."
+  - target: 03-medicine/03-food/resveratrol
+    relation: modulated-by
+    note: "Modulated by Resveratrol."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: modulated-by
+    note: "Modulated by Dietary Fiber and Butyrate."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: modulated-by
+    note: "Modulated by Dietary Magnesium."
+  - target: 03-medicine/02-traditional/ginkgo-biloba
+    relation: modulated-by
+    note: "Modulated by Ginkgo biloba (EGb 761)."
+  - target: 03-medicine/02-traditional/licorice-root
+    relation: modulated-by
+    note: "Modulated by Licorice Root (Glycyrrhiza glabra / G. uralensis)."
+  - target: 03-medicine/02-traditional/panax-ginseng
+    relation: modulated-by
+    note: "Modulated by Panax ginseng (Korean Red Ginseng)."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"

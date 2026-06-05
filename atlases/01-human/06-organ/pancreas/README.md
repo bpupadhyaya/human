@@ -56,6 +56,18 @@ cross_links:
   - target: 01-human/08-whole-body/human-body
     relation: part-of
     note: "The pancreas is a retroperitoneal gland (~85 g) between the stomach and duodenum; it is a distinct anatomical organ connecting the gastrointestinal and endocrine systems."
+  - target: 01-human/07-system/endocrine-system
+    relation: part-of
+    note: "Part Of by Endocrine System."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: composed-of
+    note: "Composed Of by Islet of Langerhans."
+  - target: 01-human/06-organ/small-intestine
+    relation: modulated-by
+    note: "Modulated by Small Intestine."
+  - target: 01-human/06-organ/stomach
+    relation: modulated-by
+    note: "Modulated by Stomach."
 taxonomy:
   uberon: "UBERON:0001264"
   fma: "FMA:7198"

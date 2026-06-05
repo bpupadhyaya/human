@@ -65,6 +65,21 @@ cross_links:
     relation: modulated-by
     evidence: banting-best-1922-insulin
     note: "Pancreatic β cells secrete insulin in response to glucose (>6 mmol/L), amino acids, GLP-1, and GIP; glucose-stimulated insulin secretion via KATP channel closure and Ca²⁺-triggered exocytosis is the primary regulatory mechanism."
+  - target: 01-human/03-molecular/glucagon
+    relation: modulates
+    note: "Modulates by Glucagon."
+  - target: 01-human/03-molecular/ampk
+    relation: modulated-by
+    note: "Modulated by AMPK."
+  - target: 01-human/02-atomic/zinc
+    relation: modulated-by
+    note: "Modulated by Zinc."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: expressed-by
+    note: "Expressed by Islet of Langerhans."
+  - target: 03-medicine/02-traditional/panax-ginseng
+    relation: modulated-by
+    note: "Modulated by Panax ginseng (Korean Red Ginseng)."
 ---
 
 # Insulin

@@ -50,6 +50,18 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: modulated-by
     note: "Dopamine modulates synaptic plasticity (LTP/LTD) and neurotransmitter release via presynaptic and postsynaptic D1–D5 receptors at excitatory and inhibitory synapses."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: modulated-by
+    note: "Modulated by Acetylcholine."
+  - target: 01-human/04-cellular/microglia
+    relation: modulated-by
+    note: "Modulated by Microglia."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: modulated-by
+    note: "Modulated by Oligodendrocyte."
+  - target: 01-human/04-cellular/astrocyte
+    relation: modulated-by
+    note: "Modulated by Astrocyte."
 ---
 
 # Synapse

@@ -74,6 +74,15 @@ cross_links:
     relation: modulated-by
     evidence: bers-2002-cardiac-ec-coupling
     note: "Erythrocytes deliver O₂ to cardiomyocytes; reduced O₂ delivery triggers ischaemic signalling and metabolic shift to anaerobic glycolysis."
+  - target: 01-human/03-molecular/cholesterol
+    relation: modulated-by
+    note: "Modulated by Cholesterol."
+  - target: 01-human/02-atomic/magnesium
+    relation: modulated-by
+    note: "Modulated by Magnesium."
+  - target: 02-pathogen/04-parasites/trypanosoma-cruzi
+    relation: damaged-by
+    note: "Damaged by Trypanosoma cruzi."
 taxonomy:
   cell_ontology: "CL:0000746"
   lineage: "mesoderm — lateral plate (cardiogenic mesoderm)"

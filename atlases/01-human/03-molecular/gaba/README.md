@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: part-of
     note: "GABA is the primary inhibitory chemical signal throughout the CNS."
+  - target: 01-human/02-atomic/chloride
+    relation: modulated-by
+    note: "Modulated by Chloride."
 ---
 
 # GABA

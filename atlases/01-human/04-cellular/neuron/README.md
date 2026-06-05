@@ -84,6 +84,33 @@ cross_links:
     relation: damaged-by
     evidence: kandel-principles
     note: "Tetanospasmin (TeNT) undergoes retrograde axonal transport to inhibitory interneurons, where VAMP-2 cleavage blocks GABA/glycine release, removing inhibitory control of α-motor neurons and causing spastic paralysis."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: modulated-by
+    note: "Modulated by Acetylcholine."
+  - target: 01-human/02-atomic/chloride
+    relation: modulated-by
+    note: "Modulated by Chloride."
+  - target: 01-human/02-atomic/magnesium
+    relation: modulated-by
+    note: "Modulated by Magnesium."
+  - target: 01-human/05-tissue/hippocampus
+    relation: modulated-by
+    note: "Modulated by Hippocampus."
+  - target: 01-human/04-cellular/microglia
+    relation: modulated-by
+    note: "Modulated by Microglia."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: modulated-by
+    note: "Modulated by Oligodendrocyte."
+  - target: 01-human/04-cellular/astrocyte
+    relation: modulated-by
+    note: "Modulated by Astrocyte."
+  - target: 02-pathogen/01-viruses/rabies-virus
+    relation: infected-by
+    note: "Infected by Rabies Virus (RABV)."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: infected-by
+    note: "Infected by Varicella-Zoster Virus."
 ---
 
 # Neuron

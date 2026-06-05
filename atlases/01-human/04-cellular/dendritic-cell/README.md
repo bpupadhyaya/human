@@ -76,6 +76,27 @@ cross_links:
     relation: infected-by
     evidence: banchereau-steinman-1998
     note: "HPV-16 infects keratinocytes and may be carried by Langerhans cells (skin DCs) to lymph nodes; HPV E7 impairs IRF3 and TLR9 signalling in DCs, reducing IFN-β production and allowing persistent mucosal infection."
+  - target: 01-human/03-molecular/histamine
+    relation: modulated-by
+    note: "Modulated by Histamine."
+  - target: 01-human/07-system/integumentary-system
+    relation: part-of
+    note: "Part Of by Integumentary System."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: modulated-by
+    note: "Modulated by Cytotoxic T Cell."
+  - target: 02-pathogen/01-viruses/norovirus
+    relation: damaged-by
+    note: "Damaged by Norovirus."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: infected-by
+    note: "Infected by Epstein-Barr Virus."
+  - target: 02-pathogen/01-viruses/measles-virus
+    relation: infected-by
+    note: "Infected by Measles Virus."
+  - target: 02-pathogen/04-parasites/giardia-lamblia
+    relation: damaged-by
+    note: "Damaged by Giardia lamblia (G. intestinalis / G. duodenalis)."
 ---
 
 # Dendritic Cell

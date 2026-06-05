@@ -49,6 +49,9 @@ cross_links:
     relation: modulated-by
     evidence: saltiel-2001-insulin-signaling
     note: "Berberine activates AMPK independently of insulin, sensitising downstream IR pathway components; also upregulates IR expression in hepatocytes."
+  - target: 01-human/04-cellular/adipocyte
+    relation: modulated-by
+    note: "Modulated by Adipocyte."
 ---
 
 # Insulin Receptor

@@ -79,6 +79,102 @@ cross_links:
   - target: 02-pathogen/02-bacteria/clostridium-tetani
     relation: treated-by
     note: "Tetanus treatment includes TIG to neutralise unbound toxin, wound debridement, metronidazole (kills vegetative C. tetani), benzodiazepines for spasm control, and ICU supportive care with mechanical ventilation if needed."
+  - target: 01-human/03-molecular/vasopressin
+    relation: modulated-by
+    note: "Modulated by Vasopressin."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: modulated-by
+    note: "Modulated by Nitric Oxide."
+  - target: 01-human/03-molecular/histamine
+    relation: modulated-by
+    note: "Modulated by Histamine."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: modulated-by
+    note: "Modulated by Norepinephrine."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: modulated-by
+    note: "Modulated by Thyroid Hormones (T3/T4)."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: modulated-by
+    note: "Modulated by Acetylcholine."
+  - target: 01-human/03-molecular/leptin
+    relation: modulated-by
+    note: "Modulated by Leptin."
+  - target: 01-human/02-atomic/iodine
+    relation: modulated-by
+    note: "Modulated by Iodine."
+  - target: 01-human/02-atomic/copper
+    relation: modulated-by
+    note: "Modulated by Copper."
+  - target: 01-human/07-system/reproductive-system
+    relation: modulated-by
+    note: "Modulated by Reproductive System."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: modulated-by
+    note: "Modulated by Musculoskeletal System."
+  - target: 01-human/07-system/endocrine-system
+    relation: modulated-by
+    note: "Modulated by Endocrine System."
+  - target: 01-human/07-system/integumentary-system
+    relation: modulated-by
+    note: "Modulated by Integumentary System."
+  - target: 01-human/04-cellular/microglia
+    relation: modulated-by
+    note: "Modulated by Microglia."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: modulated-by
+    note: "Modulated by Oligodendrocyte."
+  - target: 01-human/04-cellular/astrocyte
+    relation: modulated-by
+    note: "Modulated by Astrocyte."
+  - target: 01-human/04-cellular/mast-cell
+    relation: modulated-by
+    note: "Modulated by Mast Cell."
+  - target: 01-human/06-organ/large-intestine
+    relation: modulated-by
+    note: "Modulated by Large Intestine."
+  - target: 01-human/06-organ/stomach
+    relation: modulated-by
+    note: "Modulated by Stomach."
+  - target: 01-human/06-organ/thyroid
+    relation: modulated-by
+    note: "Modulated by Thyroid Gland."
+  - target: 02-pathogen/01-viruses/rabies-virus
+    relation: damaged-by
+    note: "Damaged by Rabies Virus (RABV)."
+  - target: 02-pathogen/01-viruses/zika-virus
+    relation: damaged-by
+    note: "Damaged by Zika Virus (ZIKV)."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: damaged-by
+    note: "Damaged by Varicella-Zoster Virus."
+  - target: 02-pathogen/03-fungi/cryptococcus-neoformans
+    relation: damaged-by
+    note: "Damaged by Cryptococcus neoformans."
+  - target: 02-pathogen/04-parasites/trypanosoma-brucei
+    relation: damaged-by
+    note: "Damaged by Trypanosoma brucei."
+  - target: 02-pathogen/04-parasites/trypanosoma-cruzi
+    relation: damaged-by
+    note: "Damaged by Trypanosoma cruzi."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: damaged-by
+    note: "Damaged by Toxoplasma gondii."
+  - target: 02-pathogen/02-bacteria/listeria-monocytogenes
+    relation: damaged-by
+    note: "Damaged by Listeria monocytogenes."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: modulated-by
+    note: "Modulated by Dietary Magnesium."
+  - target: 03-medicine/02-traditional/ginkgo-biloba
+    relation: modulated-by
+    note: "Modulated by Ginkgo biloba (EGb 761)."
+  - target: 03-medicine/02-traditional/panax-ginseng
+    relation: modulated-by
+    note: "Modulated by Panax ginseng (Korean Red Ginseng)."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: modulated-by
+    note: "Modulated by St. John's Wort (Hypericum perforatum)."
 ---
 
 # Nervous System

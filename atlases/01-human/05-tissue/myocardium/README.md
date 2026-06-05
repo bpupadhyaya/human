@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/03-molecular/connexin43
     relation: expresses
     note: "Connexin-43 (Cx43/GJA1) is concentrated at the intercalated discs of ventricular working myocardium; its density and distribution determine the electrical coupling and conduction velocity of the tissue."
+  - target: 01-human/03-molecular/collagen
+    relation: composed-of
+    note: "Composed Of by Collagen."
+  - target: 01-human/04-cellular/fibroblast
+    relation: modulated-by
+    note: "Modulated by Fibroblast."
 taxonomy:
   uberon: "UBERON:0002349"
   fma: "FMA:9462"

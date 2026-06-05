@@ -58,6 +58,27 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/loop-diuretics
     relation: treated-by
     note: "Loop diuretics (e.g., furosemide) block NKCC2 in the thick ascending limb of Henle; used for fluid overload in AKI and CKD."
+  - target: 01-human/03-molecular/vasopressin
+    relation: modulated-by
+    note: "Modulated by Vasopressin."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: modulated-by
+    note: "Modulated by Angiotensin II."
+  - target: 01-human/03-molecular/albumin
+    relation: modulated-by
+    note: "Modulated by Albumin."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: expressed-by
+    note: "Expressed by Erythropoietin."
+  - target: 01-human/02-atomic/chloride
+    relation: modulated-by
+    note: "Modulated by Chloride."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: modulated-by
+    note: "Modulated by Vitamin D (Calciferol)."
+  - target: 03-medicine/02-traditional/licorice-root
+    relation: modulated-by
+    note: "Modulated by Licorice Root (Glycyrrhiza glabra / G. uralensis)."
 taxonomy:
   uberon: "UBERON:0002113"
   fma: "FMA:7203"

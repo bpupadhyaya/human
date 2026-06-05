@@ -42,6 +42,9 @@ cross_links:
     relation: treats
     evidence: ukpds-1998-metformin
     note: "The primary site of metformin action is the liver; OCT1-mediated accumulation in hepatocytes reaches 50–500× plasma concentrations; Complex I inhibition raises AMP/ATP ratio → AMPK activation → ACC phosphorylation (↓ malonyl-CoA) + CREB-TORC2 disruption → ↓ PEPCK and G6Pase transcription → ↓ hepatic gluconeogenesis, the dominant mechanism of fasting hyperglycemia in T2DM."
+  - target: 01-human/03-molecular/ampk
+    relation: modulates
+    note: "Modulates by AMPK."
 ---
 
 # Metformin

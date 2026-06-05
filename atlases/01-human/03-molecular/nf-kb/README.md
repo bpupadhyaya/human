@@ -49,6 +49,27 @@ cross_links:
     relation: modulated-by
     evidence: liu-2017-nfkb-inflammation
     note: "Curcumin inhibits IKKβ, preventing IκBα phosphorylation and NF-κB nuclear translocation; demonstrated in cancer cell lines and inflammatory disease models."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: modulated-by
+    note: "Modulated by Nitric Oxide."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: modulated-by
+    note: "Modulated by Prostaglandins (Eicosanoids)."
+  - target: 02-pathogen/01-viruses/zika-virus
+    relation: modulated-by
+    note: "Modulated by Zika Virus (ZIKV)."
+  - target: 03-medicine/03-food/sulforaphane
+    relation: modulated-by
+    note: "Modulated by Sulforaphane."
+  - target: 03-medicine/03-food/resveratrol
+    relation: modulated-by
+    note: "Modulated by Resveratrol."
+  - target: 03-medicine/03-food/quercetin
+    relation: modulated-by
+    note: "Modulated by Quercetin."
+  - target: 03-medicine/02-traditional/milk-thistle
+    relation: modulated-by
+    note: "Modulated by Milk Thistle / Silymarin (Silybum marianum)."
 ---
 
 # NF-κB

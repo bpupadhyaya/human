@@ -82,6 +82,57 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: modulated-by
     note: "The exocrine pancreas secretes ~1.5 L/day of bicarbonate-rich fluid containing amylase, lipase, and proteases into the duodenum via the pancreatic duct, providing the digestive system's principal luminal enzyme activity."
+  - target: 01-human/03-molecular/glucagon
+    relation: modulated-by
+    note: "Modulated by Glucagon."
+  - target: 01-human/06-organ/large-intestine
+    relation: composed-of
+    note: "Composed Of by Large Intestine."
+  - target: 01-human/06-organ/small-intestine
+    relation: composed-of
+    note: "Composed Of by Small Intestine."
+  - target: 01-human/06-organ/stomach
+    relation: composed-of
+    note: "Composed Of by Stomach."
+  - target: 02-pathogen/01-viruses/norovirus
+    relation: damaged-by
+    note: "Damaged by Norovirus."
+  - target: 02-pathogen/01-viruses/rotavirus
+    relation: damaged-by
+    note: "Damaged by Rotavirus."
+  - target: 02-pathogen/06-microbiome/bacteroides-fragilis
+    relation: modulated-by
+    note: "Modulated by Bacteroides fragilis."
+  - target: 02-pathogen/06-microbiome/akkermansia-muciniphila
+    relation: modulated-by
+    note: "Modulated by Akkermansia muciniphila."
+  - target: 02-pathogen/06-microbiome/faecalibacterium-prausnitzii
+    relation: modulated-by
+    note: "Modulated by Faecalibacterium prausnitzii."
+  - target: 02-pathogen/06-microbiome/bifidobacterium-longum
+    relation: modulated-by
+    note: "Modulated by Bifidobacterium longum."
+  - target: 02-pathogen/04-parasites/giardia-lamblia
+    relation: damaged-by
+    note: "Damaged by Giardia lamblia (G. intestinalis / G. duodenalis)."
+  - target: 02-pathogen/04-parasites/leishmania-donovani
+    relation: damaged-by
+    note: "Damaged by Leishmania donovani."
+  - target: 02-pathogen/02-bacteria/salmonella-typhi
+    relation: damaged-by
+    note: "Damaged by Salmonella typhi."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: damaged-by
+    note: "Damaged by Clostridioides difficile."
+  - target: 02-pathogen/02-bacteria/listeria-monocytogenes
+    relation: infected-by
+    note: "Infected by Listeria monocytogenes."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: damaged-by
+    note: "Damaged by Helicobacter pylori."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: modulated-by
+    note: "Modulated by Dietary Fiber and Butyrate."
 taxonomy:
   uberon: "UBERON:0001007"
 ---

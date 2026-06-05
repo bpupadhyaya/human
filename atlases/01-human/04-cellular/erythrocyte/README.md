@@ -48,6 +48,15 @@ cross_links:
   - target: 01-human/08-whole-body/human-body
     relation: part-of
     note: "Approximately 25 trillion erythrocytes are present in the adult human body at any time, constituting ~70% of all human cells by number."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: composed-of
+    note: "Composed Of by Hemoglobin."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: modulated-by
+    note: "Modulated by Erythropoietin."
+  - target: 01-human/02-atomic/iron
+    relation: composed-of
+    note: "Composed Of by Iron."
 ---
 
 # Erythrocyte

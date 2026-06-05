@@ -55,6 +55,15 @@ cross_links:
     relation: part-of
     evidence: nutt-2015-b-cell-fate
     note: "Splenic follicles contain B cells that mount T-dependent germinal centre responses and T-independent IgM responses to blood-borne antigens; marginal zone B cells are specialised for rapid responses to encapsulated bacteria."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: modulated-by
+    note: "Modulated by Cytotoxic T Cell."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: modulated-by
+    note: "Modulated by Regulatory T Cell."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: infected-by
+    note: "Infected by Epstein-Barr Virus."
 ---
 
 # B Cell

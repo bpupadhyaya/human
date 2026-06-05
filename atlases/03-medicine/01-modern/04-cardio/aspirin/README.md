@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: treats
     note: "COX inhibition reduces prostaglandin E₂ and thromboxane A₂, modulating fever, pain, and inflammatory responses; aspirin-triggered lipoxins (ATLs) generated via acetylated COX-2 have active pro-resolution, anti-inflammatory activity."
+  - target: 01-human/04-cellular/platelet
+    relation: modulates
+    note: "Modulates by Platelet."
 ---
 
 # Aspirin

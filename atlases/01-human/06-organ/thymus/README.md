@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/08-whole-body/human-body
     relation: part-of
     note: "The thymus is a bilobed organ in the anterior superior mediastinum; largest at puberty (~40 g), it involutes progressively and is replaced by fat, but retains residual T cell output throughout life."
+  - target: 01-human/07-system/lymphatic-system
+    relation: part-of
+    note: "Part Of by Lymphatic System."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: composed-of
+    note: "Composed Of by Cytotoxic T Cell."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: composed-of
+    note: "Composed Of by Regulatory T Cell."
 taxonomy:
   uberon: "UBERON:0002370"
   fma: "FMA:9607"

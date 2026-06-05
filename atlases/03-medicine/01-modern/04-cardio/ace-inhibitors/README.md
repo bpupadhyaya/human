@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: treats
     note: "RAAS blockade with ACE inhibitors is first-line for proteinuric CKD (any cause): reduces ESRD incidence by ~30% in diabetic nephropathy (RENAAL, IDNT trials) and slows GFR decline in IgA nephropathy."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: modulates
+    note: "Modulates by Angiotensin II."
 ---
 
 # ACE inhibitors

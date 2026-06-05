@@ -58,6 +58,12 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/arbs
     relation: modulated-by
     note: "RAAS blockade by ARBs reduces angiotensin II–driven efferent vasoconstriction, decreasing glomerular hypertension and filtration of albumin; also reduces aldosterone-driven Na⁺ retention and tubular fibrosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: modulated-by
+    note: "Modulated by Vasopressin."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: damaged-by
+    note: "Damaged by Streptococcus pyogenes."
 taxonomy:
   uberon: "UBERON:0001008"
 ---

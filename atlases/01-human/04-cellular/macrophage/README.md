@@ -82,6 +82,72 @@ cross_links:
     relation: part-of
     evidence: ginhoux-2016-macrophage-ontogeny
     note: "Splenic red pulp macrophages phagocytose senescent erythrocytes and recycle haem iron; marginal zone macrophages clear encapsulated bacteria; both populations derive from blood monocytes seeding the spleen."
+  - target: 01-human/03-molecular/complement-c3
+    relation: modulated-by
+    note: "Modulated by Complement C3."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: modulated-by
+    note: "Modulated by Nitric Oxide."
+  - target: 01-human/03-molecular/histamine
+    relation: modulated-by
+    note: "Modulated by Histamine."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: expressed-by
+    note: "Expressed by Prostaglandins (Eicosanoids)."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: modulated-by
+    note: "Modulated by Arterial Wall."
+  - target: 01-human/04-cellular/neutrophil
+    relation: modulated-by
+    note: "Modulated by Neutrophil."
+  - target: 01-human/04-cellular/osteoclast
+    relation: modulated-by
+    note: "Modulated by Osteoclast."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: modulated-by
+    note: "Modulated by Endothelial Cell."
+  - target: 01-human/04-cellular/platelet
+    relation: modulated-by
+    note: "Modulated by Platelet."
+  - target: 02-pathogen/01-viruses/ebola-virus
+    relation: infected-by
+    note: "Infected by Ebola Virus (EBOV)."
+  - target: 02-pathogen/01-viruses/rotavirus
+    relation: damaged-by
+    note: "Damaged by Rotavirus."
+  - target: 02-pathogen/06-microbiome/akkermansia-muciniphila
+    relation: modulated-by
+    note: "Modulated by Akkermansia muciniphila."
+  - target: 02-pathogen/03-fungi/cryptococcus-neoformans
+    relation: damaged-by
+    note: "Damaged by Cryptococcus neoformans."
+  - target: 02-pathogen/04-parasites/trypanosoma-brucei
+    relation: damaged-by
+    note: "Damaged by Trypanosoma brucei."
+  - target: 02-pathogen/04-parasites/trypanosoma-cruzi
+    relation: damaged-by
+    note: "Damaged by Trypanosoma cruzi."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: damaged-by
+    note: "Damaged by Toxoplasma gondii."
+  - target: 02-pathogen/04-parasites/leishmania-donovani
+    relation: infected-by
+    note: "Infected by Leishmania donovani."
+  - target: 02-pathogen/02-bacteria/salmonella-typhi
+    relation: damaged-by
+    note: "Damaged by Salmonella typhi."
+  - target: 02-pathogen/02-bacteria/listeria-monocytogenes
+    relation: damaged-by
+    note: "Damaged by Listeria monocytogenes."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: damaged-by
+    note: "Damaged by Helicobacter pylori."
+  - target: 03-medicine/03-food/resveratrol
+    relation: modulated-by
+    note: "Modulated by Resveratrol."
+  - target: 03-medicine/03-food/quercetin
+    relation: modulated-by
+    note: "Modulated by Quercetin."
 ---
 
 # Macrophage

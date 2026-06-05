@@ -43,6 +43,9 @@ cross_links:
   - target: 02-pathogen/01-viruses/influenza-a
     relation: infected-by
     note: "Influenza A virus infects AT2 cells via sialic acid receptors; AT2 cells are a primary target in severe influenza, leading to diffuse alveolar damage and respiratory failure."
+  - target: 02-pathogen/01-viruses/respiratory-syncytial-virus
+    relation: infected-by
+    note: "Infected by Respiratory Syncytial Virus."
 taxonomy:
   cell_ontology: "CL:0002063"
   lineage: "endoderm — foregut — lung endoderm → NKX2.1+ progenitor → AT2"

@@ -60,6 +60,9 @@ cross_links:
   - target: 01-human/08-whole-body/human-body
     relation: part-of
     note: "The spleen is a fist-sized lymphoid organ in the left upper quadrant under the 9th–11th ribs; it weighs ~150 g and lies between the stomach and left kidney."
+  - target: 01-human/07-system/lymphatic-system
+    relation: part-of
+    note: "Part Of by Lymphatic System."
 taxonomy:
   uberon: "UBERON:0002106"
   fma: "FMA:7196"

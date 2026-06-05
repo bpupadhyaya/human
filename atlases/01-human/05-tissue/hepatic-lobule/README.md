@@ -46,6 +46,9 @@ cross_links:
     relation: contains
     evidence: hall-guyton-14-liver
     note: "Kupffer cells are resident macrophages lining the hepatic sinusoids within each lobule; they are the first line of defence against portal vein pathogens"
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: modulated-by
+    note: "Modulated by Endothelial Cell."
 ---
 
 # Hepatic Lobule

@@ -51,6 +51,15 @@ cross_links:
     relation: damaged-by
     evidence: west-respiratory-physiology
     note: "A. fumigatus conidia inhaled into the respiratory system germinate in the bronchi and alveoli of immunocompromised hosts, causing invasive pulmonary aspergillosis with angioinvasion and haemoptysis."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: modulated-by
+    note: "Modulated by Smooth Muscle Cell."
+  - target: 02-pathogen/01-viruses/respiratory-syncytial-virus
+    relation: damaged-by
+    note: "Damaged by Respiratory Syncytial Virus."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: damaged-by
+    note: "Damaged by Pneumocystis jirovecii (formerly carinii)."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"

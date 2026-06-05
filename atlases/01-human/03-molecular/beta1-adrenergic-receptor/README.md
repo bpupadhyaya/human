@@ -59,6 +59,12 @@ cross_links:
   - target: 01-human/03-molecular/hcn4
     relation: modulates
     note: "cAMP produced downstream of β1-AR binds the CNBD of HCN4, shifting I_f activation by ~+10 mV → faster diastolic depolarisation → positive chronotropy."
+  - target: 01-human/03-molecular/epinephrine
+    relation: modulated-by
+    note: "Modulated by Epinephrine."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: modulated-by
+    note: "Modulated by Norepinephrine."
 taxonomy:
   uniprot: "P08588"
   gene_symbol: "ADRB1"

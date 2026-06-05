@@ -49,6 +49,15 @@ cross_links:
     relation: modulates
     evidence: barnes-2006-gr-asthma
     note: "GR activation suppresses innate and adaptive immunity via GRE transactivation (IκBα, GILZ, Annexin-A1) and transrepression of NF-κB and AP-1 target genes."
+  - target: 01-human/03-molecular/epinephrine
+    relation: modulates
+    note: "Modulates by Epinephrine."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: modulated-by
+    note: "Modulated by Islet of Langerhans."
+  - target: 03-medicine/02-traditional/licorice-root
+    relation: modulated-by
+    note: "Modulated by Licorice Root (Glycyrrhiza glabra / G. uralensis)."
 ---
 
 # Glucocorticoid Receptor

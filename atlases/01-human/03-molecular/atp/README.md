@@ -56,6 +56,15 @@ cross_links:
     relation: contains
     evidence: lipmann-1941-atp-review
     note: "Adenine contains 5 nitrogen atoms (N1, N3, N7, N9 purine ring + exocyclic amino N6); ring nitrogens engage in hydrogen bonding with kinase active sites, and N9 links adenine to ribose — essential for ATP recognition."
+  - target: 01-human/02-atomic/magnesium
+    relation: modulated-by
+    note: "Modulated by Magnesium."
+  - target: 01-human/02-atomic/phosphorus
+    relation: composed-of
+    note: "Composed Of by Phosphorus."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: modulated-by
+    note: "Modulated by Dietary Magnesium."
 ---
 
 # ATP (Adenosine Triphosphate)

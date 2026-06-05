@@ -55,6 +55,45 @@ cross_links:
     relation: damaged-by
     evidence: kandel-principles-brain
     note: "PrPSc accumulation in brain parenchyma causes spongiform vacuolation, astrogliosis, and neuronal loss; CJD destroys cortex, thalamus, and cerebellum progressively"
+  - target: 01-human/05-tissue/hippocampus
+    relation: composed-of
+    note: "Composed Of by Hippocampus."
+  - target: 01-human/04-cellular/microglia
+    relation: composed-of
+    note: "Composed Of by Microglia."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: composed-of
+    note: "Composed Of by Oligodendrocyte."
+  - target: 01-human/04-cellular/astrocyte
+    relation: composed-of
+    note: "Composed Of by Astrocyte."
+  - target: 02-pathogen/01-viruses/rabies-virus
+    relation: damaged-by
+    note: "Damaged by Rabies Virus (RABV)."
+  - target: 02-pathogen/01-viruses/zika-virus
+    relation: damaged-by
+    note: "Damaged by Zika Virus (ZIKV)."
+  - target: 02-pathogen/03-fungi/cryptococcus-neoformans
+    relation: damaged-by
+    note: "Damaged by Cryptococcus neoformans."
+  - target: 02-pathogen/04-parasites/trypanosoma-brucei
+    relation: damaged-by
+    note: "Damaged by Trypanosoma brucei."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: damaged-by
+    note: "Damaged by Toxoplasma gondii."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: damaged-by
+    note: "Damaged by Neisseria meningitidis."
+  - target: 02-pathogen/02-bacteria/listeria-monocytogenes
+    relation: damaged-by
+    note: "Damaged by Listeria monocytogenes."
+  - target: 03-medicine/02-traditional/ginkgo-biloba
+    relation: modulated-by
+    note: "Modulated by Ginkgo biloba (EGb 761)."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: modulated-by
+    note: "Modulated by St. John's Wort (Hypericum perforatum)."
 ---
 
 # Brain

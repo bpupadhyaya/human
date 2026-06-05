@@ -52,6 +52,18 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: infected-by
     note: "S. pneumoniae is the most common cause of community-acquired bacterial pneumonia; aspiration of colonized nasopharyngeal secretions seeds alveolar spaces, causing lobar consolidation, fibrinous exudate, and impaired gas exchange."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: damaged-by
+    note: "Damaged by Varicella-Zoster Virus."
+  - target: 02-pathogen/01-viruses/respiratory-syncytial-virus
+    relation: damaged-by
+    note: "Damaged by Respiratory Syncytial Virus."
+  - target: 02-pathogen/01-viruses/measles-virus
+    relation: damaged-by
+    note: "Damaged by Measles Virus."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: damaged-by
+    note: "Damaged by Pneumocystis jirovecii (formerly carinii)."
 taxonomy:
   uberon: "UBERON:0002048"
   fma: "FMA:7195"

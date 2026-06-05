@@ -53,6 +53,12 @@ cross_links:
     relation: targets
     evidence: chrousos-1995-stress-hpa
     note: "Cortisol is the primary endogenous ligand of GR (NR3C1); binding Kd ~5 nM displaces HSP90/FKBP51 chaperone complex, enabling GR nuclear translocation and transactivation/transrepression of inflammatory gene networks."
+  - target: 01-human/05-tissue/hippocampus
+    relation: modulated-by
+    note: "Modulated by Hippocampus."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: modulated-by
+    note: "Modulated by Adrenal Gland."
 ---
 
 # Cortisol

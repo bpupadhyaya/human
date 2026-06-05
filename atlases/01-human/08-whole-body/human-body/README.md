@@ -97,6 +97,54 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: contains
     note: "The pancreas (~85 g) is a retroperitoneal gland between the duodenum and spleen; its β cells produce insulin regulating glucose homeostasis, while exocrine cells secrete ~1.5 L/day of digestive enzymes."
+  - target: 01-human/03-molecular/cholesterol
+    relation: composed-of
+    note: "Composed Of by Cholesterol."
+  - target: 01-human/03-molecular/collagen
+    relation: composed-of
+    note: "Composed Of by Collagen."
+  - target: 01-human/02-atomic/selenium
+    relation: composed-of
+    note: "Composed Of by Selenium."
+  - target: 01-human/02-atomic/iodine
+    relation: composed-of
+    note: "Composed Of by Iodine."
+  - target: 01-human/02-atomic/chloride
+    relation: composed-of
+    note: "Composed Of by Chloride."
+  - target: 01-human/02-atomic/copper
+    relation: composed-of
+    note: "Composed Of by Copper."
+  - target: 01-human/02-atomic/magnesium
+    relation: composed-of
+    note: "Composed Of by Magnesium."
+  - target: 01-human/02-atomic/iron
+    relation: composed-of
+    note: "Composed Of by Iron."
+  - target: 01-human/02-atomic/phosphorus
+    relation: composed-of
+    note: "Composed Of by Phosphorus."
+  - target: 01-human/02-atomic/zinc
+    relation: composed-of
+    note: "Composed Of by Zinc."
+  - target: 01-human/02-atomic/sulfur
+    relation: composed-of
+    note: "Composed Of by Sulfur."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: composed-of
+    note: "Composed Of by Cortical Bone."
+  - target: 01-human/04-cellular/adipocyte
+    relation: composed-of
+    note: "Composed Of by Adipocyte."
+  - target: 01-human/04-cellular/osteoblast
+    relation: modulated-by
+    note: "Modulated by Osteoblast."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: composed-of
+    note: "Composed Of by Adrenal Gland."
+  - target: 01-human/06-organ/thyroid
+    relation: composed-of
+    note: "Composed Of by Thyroid Gland."
 ---
 
 # Human body

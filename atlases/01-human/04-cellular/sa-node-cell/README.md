@@ -52,6 +52,9 @@ cross_links:
     relation: modulated-by
     evidence: difrancesco-2010-funny-current
     note: "IKr (hERG) and IKs (KCNQ1) repolarise the SA node AP; EK sets the maximum diastolic potential; hypokalaemia prolongs repolarisation and alters pacemaking rate."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: modulated-by
+    note: "Modulated by Acetylcholine."
 ---
 
 # SA node cell

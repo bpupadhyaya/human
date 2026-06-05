@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: part-of
     note: "Dopamine is a core chemical signal within the nervous system."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: modulates
+    note: "Modulates by Norepinephrine."
+  - target: 01-human/02-atomic/copper
+    relation: modulated-by
+    note: "Modulated by Copper."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: modulated-by
+    note: "Modulated by St. John's Wort (Hypericum perforatum)."
 ---
 
 # Dopamine

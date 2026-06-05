@@ -51,6 +51,33 @@ cross_links:
   - target: 01-human/08-whole-body/human-body
     relation: part-of
     note: "Bone marrow is distributed across the axial skeleton (vertebrae, sternum, ribs, pelvis) and epiphyses of long bones; total marrow volume in an adult is ~1.5–2 kg (~4% of body weight)."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: composed-of
+    note: "Composed Of by Hemoglobin."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: modulated-by
+    note: "Modulated by Erythropoietin."
+  - target: 01-human/02-atomic/phosphorus
+    relation: modulated-by
+    note: "Modulated by Phosphorus."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: part-of
+    note: "Part Of by Musculoskeletal System."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: modulated-by
+    note: "Modulated by Cortical Bone."
+  - target: 01-human/04-cellular/neutrophil
+    relation: composed-of
+    note: "Composed Of by Neutrophil."
+  - target: 01-human/04-cellular/osteoblast
+    relation: composed-of
+    note: "Composed Of by Osteoblast."
+  - target: 01-human/04-cellular/osteoclast
+    relation: composed-of
+    note: "Composed Of by Osteoclast."
+  - target: 01-human/04-cellular/platelet
+    relation: composed-of
+    note: "Composed Of by Platelet."
 ---
 
 # Bone Marrow

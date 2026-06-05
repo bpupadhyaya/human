@@ -52,6 +52,12 @@ cross_links:
   - target: 01-human/08-whole-body/human-body
     relation: part-of
     note: "The intestinal epithelium is the largest mucosal surface in the human body; it separates the ~38 trillion microorganisms of the gut microbiome from the host's sterile internal compartments."
+  - target: 01-human/06-organ/small-intestine
+    relation: part-of
+    note: "Part Of by Small Intestine."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: infected-by
+    note: "Infected by Clostridioides difficile."
 ---
 
 # Intestinal Epithelium

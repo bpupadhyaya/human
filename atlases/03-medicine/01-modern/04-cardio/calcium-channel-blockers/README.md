@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulates
     note: "L-type calcium channel blockade modulates vascular tone, cardiac contractility, SA node automaticity, and AV node conduction — differentially depending on subclass tissue selectivity."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: modulates
+    note: "Modulates by Smooth Muscle Cell."
 ---
 
 # Calcium Channel Blockers

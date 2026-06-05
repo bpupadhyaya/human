@@ -57,6 +57,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulated-by
     note: "Systemic blood pressure directly modulates glomerular hydrostatic pressure and GFR; hypertension causes glomerular hyperfiltration and eventual glomerulosclerosis."
+  - target: 01-human/03-molecular/collagen
+    relation: composed-of
+    note: "Composed Of by Collagen."
+  - target: 01-human/03-molecular/complement-c3
+    relation: modulated-by
+    note: "Modulated by Complement C3."
+  - target: 01-human/03-molecular/albumin
+    relation: modulated-by
+    note: "Modulated by Albumin."
 ---
 
 # Glomerulus

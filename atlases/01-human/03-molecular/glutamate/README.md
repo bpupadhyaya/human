@@ -48,6 +48,9 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: part-of
     note: "Glutamate is the dominant excitatory neurotransmitter throughout the CNS."
+  - target: 01-human/05-tissue/hippocampus
+    relation: modulated-by
+    note: "Modulated by Hippocampus."
 ---
 
 # Glutamate

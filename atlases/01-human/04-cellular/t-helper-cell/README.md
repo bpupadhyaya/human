@@ -62,6 +62,24 @@ cross_links:
     relation: part-of
     evidence: zhu-paul-2010-th-differentiation
     note: "CD4⁺ T helper cells undergo positive selection on MHC class II and negative selection on self-antigens in the thymus; exported as naive CD4⁺ T cells to peripheral lymphoid organs to initiate adaptive immune responses."
+  - target: 01-human/03-molecular/leptin
+    relation: modulated-by
+    note: "Modulated by Leptin."
+  - target: 01-human/02-atomic/zinc
+    relation: modulated-by
+    note: "Modulated by Zinc."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: modulated-by
+    note: "Modulated by Regulatory T Cell."
+  - target: 01-human/04-cellular/mast-cell
+    relation: modulated-by
+    note: "Modulated by Mast Cell."
+  - target: 02-pathogen/01-viruses/measles-virus
+    relation: infected-by
+    note: "Infected by Measles Virus."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: modulated-by
+    note: "Modulated by Dietary Zinc."
 ---
 
 # T Helper Cell

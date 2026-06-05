@@ -157,6 +157,156 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: modulated-by
     note: "GR activation by glucocorticoids broadly suppresses the immune system via transrepression of NF-κB and AP-1, reducing production of pro-inflammatory cytokines (TNF-α, IL-6, IL-1β, IL-12) across innate and adaptive compartments."
+  - target: 01-human/03-molecular/complement-c3
+    relation: modulated-by
+    note: "Modulated by Complement C3."
+  - target: 01-human/03-molecular/histamine
+    relation: modulated-by
+    note: "Modulated by Histamine."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: modulated-by
+    note: "Modulated by Prostaglandins (Eicosanoids)."
+  - target: 01-human/03-molecular/leptin
+    relation: modulated-by
+    note: "Modulated by Leptin."
+  - target: 01-human/02-atomic/selenium
+    relation: modulated-by
+    note: "Modulated by Selenium."
+  - target: 01-human/02-atomic/iron
+    relation: modulated-by
+    note: "Modulated by Iron."
+  - target: 01-human/02-atomic/zinc
+    relation: modulated-by
+    note: "Modulated by Zinc."
+  - target: 01-human/07-system/reproductive-system
+    relation: modulated-by
+    note: "Modulated by Reproductive System."
+  - target: 01-human/07-system/lymphatic-system
+    relation: modulated-by
+    note: "Modulated by Lymphatic System."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: modulated-by
+    note: "Modulated by Musculoskeletal System."
+  - target: 01-human/07-system/endocrine-system
+    relation: modulated-by
+    note: "Modulated by Endocrine System."
+  - target: 01-human/07-system/integumentary-system
+    relation: modulated-by
+    note: "Modulated by Integumentary System."
+  - target: 01-human/04-cellular/neutrophil
+    relation: composed-of
+    note: "Composed Of by Neutrophil."
+  - target: 01-human/04-cellular/adipocyte
+    relation: modulated-by
+    note: "Modulated by Adipocyte."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: composed-of
+    note: "Composed Of by Cytotoxic T Cell."
+  - target: 01-human/04-cellular/osteoblast
+    relation: modulated-by
+    note: "Modulated by Osteoblast."
+  - target: 01-human/04-cellular/osteoclast
+    relation: modulated-by
+    note: "Modulated by Osteoclast."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: modulated-by
+    note: "Modulated by Regulatory T Cell."
+  - target: 01-human/04-cellular/fibroblast
+    relation: modulated-by
+    note: "Modulated by Fibroblast."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: modulated-by
+    note: "Modulated by Endothelial Cell."
+  - target: 01-human/04-cellular/mast-cell
+    relation: composed-of
+    note: "Composed Of by Mast Cell."
+  - target: 01-human/06-organ/large-intestine
+    relation: modulated-by
+    note: "Modulated by Large Intestine."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: modulated-by
+    note: "Modulated by Adrenal Gland."
+  - target: 02-pathogen/01-viruses/norovirus
+    relation: damaged-by
+    note: "Damaged by Norovirus."
+  - target: 02-pathogen/01-viruses/ebola-virus
+    relation: damaged-by
+    note: "Damaged by Ebola Virus (EBOV)."
+  - target: 02-pathogen/01-viruses/zika-virus
+    relation: damaged-by
+    note: "Damaged by Zika Virus (ZIKV)."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: damaged-by
+    note: "Damaged by Varicella-Zoster Virus."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: damaged-by
+    note: "Damaged by Epstein-Barr Virus."
+  - target: 02-pathogen/01-viruses/respiratory-syncytial-virus
+    relation: damaged-by
+    note: "Damaged by Respiratory Syncytial Virus."
+  - target: 02-pathogen/01-viruses/measles-virus
+    relation: damaged-by
+    note: "Damaged by Measles Virus."
+  - target: 02-pathogen/06-microbiome/bacteroides-fragilis
+    relation: modulated-by
+    note: "Modulated by Bacteroides fragilis."
+  - target: 02-pathogen/06-microbiome/akkermansia-muciniphila
+    relation: modulated-by
+    note: "Modulated by Akkermansia muciniphila."
+  - target: 02-pathogen/06-microbiome/faecalibacterium-prausnitzii
+    relation: modulated-by
+    note: "Modulated by Faecalibacterium prausnitzii."
+  - target: 02-pathogen/06-microbiome/bifidobacterium-longum
+    relation: modulated-by
+    note: "Modulated by Bifidobacterium longum."
+  - target: 02-pathogen/03-fungi/cryptococcus-neoformans
+    relation: damaged-by
+    note: "Damaged by Cryptococcus neoformans."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: damaged-by
+    note: "Damaged by Pneumocystis jirovecii (formerly carinii)."
+  - target: 02-pathogen/04-parasites/trypanosoma-brucei
+    relation: damaged-by
+    note: "Damaged by Trypanosoma brucei."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: damaged-by
+    note: "Damaged by Toxoplasma gondii."
+  - target: 02-pathogen/04-parasites/giardia-lamblia
+    relation: damaged-by
+    note: "Damaged by Giardia lamblia (G. intestinalis / G. duodenalis)."
+  - target: 02-pathogen/04-parasites/leishmania-donovani
+    relation: damaged-by
+    note: "Damaged by Leishmania donovani."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: damaged-by
+    note: "Damaged by Streptococcus pyogenes."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: damaged-by
+    note: "Damaged by Clostridioides difficile."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: damaged-by
+    note: "Damaged by Neisseria meningitidis."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: modulated-by
+    note: "Modulated by Vitamin D (Calciferol)."
+  - target: 03-medicine/03-food/sulforaphane
+    relation: modulated-by
+    note: "Modulated by Sulforaphane."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: modulated-by
+    note: "Modulated by Dietary Zinc."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: modulated-by
+    note: "Modulated by Dietary Fiber and Butyrate."
+  - target: 03-medicine/03-food/quercetin
+    relation: modulated-by
+    note: "Modulated by Quercetin."
+  - target: 03-medicine/02-traditional/milk-thistle
+    relation: modulated-by
+    note: "Modulated by Milk Thistle / Silymarin (Silybum marianum)."
+  - target: 03-medicine/02-traditional/panax-ginseng
+    relation: modulated-by
+    note: "Modulated by Panax ginseng (Korean Red Ginseng)."
 ---
 
 # Immune System

@@ -74,6 +74,18 @@ cross_links:
     relation: modulated-by
     evidence: tanaka-2016-il6-disease
     note: "GR activation by glucocorticoids transrepresses IL-6 transcription via direct protein–protein interaction with NF-κB p65, competing for coactivators CBP/p300 and recruiting HDAC2 to the IL-6 promoter."
+  - target: 01-human/02-atomic/sulfur
+    relation: modulated-by
+    note: "Modulated by Sulfur."
+  - target: 01-human/04-cellular/osteoblast
+    relation: modulated-by
+    note: "Modulated by Osteoblast."
+  - target: 01-human/04-cellular/osteoclast
+    relation: modulated-by
+    note: "Modulated by Osteoclast."
+  - target: 01-human/04-cellular/fibroblast
+    relation: modulated-by
+    note: "Modulated by Fibroblast."
 ---
 
 # Interleukin-6
