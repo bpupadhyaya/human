@@ -38,6 +38,12 @@ cross_links:
   - target: 02-pathogen/01-viruses/influenza-a
     relation: damaged-by
     note: "Influenza A is primarily a respiratory pathogen; severe disease causes viral pneumonitis, ARDS, and respiratory failure through destruction of the alveolar-capillary interface."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: infected-by
+    note: "S. pneumoniae colonizes the nasopharynx asymptomatically in 5–70% of children; lower respiratory tract invasion causes lobar pneumonia, bacteremia (20–30% of CAP), and meningitis; the respiratory system is its primary site of pathology."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: damaged-by
+    note: "Pneumococcal pneumonia causes acute alveolar consolidation, fibrinopurulent exudate, impaired gas exchange, and — in severe disease — respiratory failure; pneumolysin contributes to alveolar epithelial damage."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"

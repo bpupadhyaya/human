@@ -55,6 +55,18 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: damaged-by
     note: "GI tuberculosis: ileocecal TB (most common site), peritoneal TB, hepatic TB; M. tuberculosis can infect any GI segment via swallowed sputum or hematogenous spread."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: infected-by
+    note: "HBV infects hepatocytes within the liver — the dominant accessory digestive organ — via NTCP receptor; cccDNA persistence drives chronic liver disease that manifests throughout the digestive system."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: damaged-by
+    note: "HBV primarily damages the liver (an accessory digestive organ), causing chronic hepatitis, cirrhosis, and portal hypertension; GI manifestations include variceal bleeding, ascites, and hepatic encephalopathy."
+  - target: 01-human/03-molecular/serotonin
+    relation: modulated-by
+    note: "~95% of body serotonin resides in enterochromaffin cells of the GI mucosa; 5-HT4 receptor activation drives the peristaltic reflex; 5-HT3 mediates nausea and vomiting; 5-HT coordinates enteric nervous system motility throughout the gut."
+  - target: 01-human/03-molecular/insulin
+    relation: modulates
+    note: "Gut-derived incretin hormones (GLP-1 from L-cells, GIP from K-cells) amplify glucose-stimulated insulin secretion; postprandial nutrient absorption in the small intestine is the primary physiological trigger for insulin release."
 taxonomy:
   uberon: "UBERON:0001007"
 ---

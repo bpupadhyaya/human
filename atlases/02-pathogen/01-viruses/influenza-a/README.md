@@ -48,6 +48,12 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: target-of
     note: "Anti-hemagglutinin (HA) and anti-neuraminidase (NA) IgG antibodies are the principal correlates of protection; strain-matched serum IgG titers >1:40 by HAI are the historical vaccine efficacy benchmark."
+  - target: 03-medicine/01-modern/05-antiviral/oseltamivir
+    relation: treated-by
+    note: "Oseltamivir (Tamiflu) inhibits influenza neuraminidase, preventing viral egress; reduces symptom duration by ~1 day in uncomplicated influenza and reduces hospitalizations in high-risk groups when started within 48 h."
+  - target: 03-medicine/01-modern/05-antiviral/oseltamivir
+    relation: modulated-by
+    note: "Oseltamivir's NA inhibition blocks sialic acid cleavage, tethering newly assembled virions to the host cell surface; H274Y mutation in N1 confers oseltamivir resistance while retaining zanamivir sensitivity."
 ---
 
 # Influenza A virus

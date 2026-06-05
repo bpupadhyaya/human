@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Insulin — glucose-stimulated secretion (GSIS), insulin receptor RTK signalling, GLUT4 translocation, first vs. second phase secretion, therapeutic insulins table, T1DM, T2DM, DKA, and DCCT results. Part of the Human Engineering project.">
+  <meta property="og:title" content="Insulin — Molecular Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Insulin — Molecular Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #2563eb;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(37,99,235,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #2563eb, #1e3a8a); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-rapid { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-long { background: rgba(5,150,105,0.12); color: #059669; }
+    .badge-nph { background: rgba(110,110,115,0.12); color: var(--muted); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .principle-box { background: rgba(37,99,235,0.06); border: 1px solid rgba(37,99,235,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 03-Molecular</div>
+    <h1>Insulin</h1>
+    <p class="tagline">The master anabolic hormone — a 51-amino acid peptide from pancreatic beta cells that gates glucose entry into cells, suppresses hepatic glucose production, and integrates energy storage across liver, muscle, and fat.</p>
+    <p class="subtagline">Secreted in two phases in response to rising blood glucose: a rapid first-phase (pre-formed vesicle release, 1–3 min) followed by a sustained second phase (newly synthesised insulin, 20–90 min). Absolute deficiency (T1DM) or relative deficiency with resistance (T2DM) together affect ~500 million people globally. The DCCT trial established that intensive insulin therapy reduces microvascular complications by 50–76%.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">51 aa</span><span class="stat-label">Residues (mature)</span></div>
+      <div class="stat"><span class="stat-num">5.8 kDa</span><span class="stat-label">Molecular weight</span></div>
+      <div class="stat"><span class="stat-num">P01308</span><span class="stat-label">UniProt ID</span></div>
+      <div class="stat"><span class="stat-num">2 chains</span><span class="stat-label">A-chain (21 aa) + B-chain (30 aa)</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Peptide Hormone / Anabolic Regulator</div>
+        <h2>Insulin</h2>
+        <div class="drug-class">Class: Peptide hormone &nbsp;&middot;&nbsp; Growth factor &nbsp;&middot;&nbsp; RTK ligand &nbsp;|&nbsp; Gene: INS (chr 11p15.5) &nbsp;|&nbsp; UniProt: P01308 &nbsp;|&nbsp; Produced in: pancreatic &#x3b2; cells (islets of Langerhans)</div>
+        <p class="summary">Insulin is the central hormone of energy anabolism. Its discovery by Banting, Best, Macleod, and Collip in 1921–22 transformed type 1 diabetes from a universally fatal disease into a manageable chronic condition — one of the most consequential medical breakthroughs in history. Structurally, mature insulin is a two-chain disulfide-linked polypeptide (A-chain 21 aa + B-chain 30 aa) derived from the single-chain precursor proinsulin by removal of the C-peptide. It acts via the insulin receptor (INSR) — a receptor tyrosine kinase — to drive GLUT4 translocation in muscle and fat, suppress hepatic glucose output, and promote glycogen synthesis, lipogenesis, and protein synthesis. Understanding insulin signalling is foundational for understanding T1DM, T2DM, metabolic syndrome, and cardiovascular risk.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">INS gene product</span>
+          <span class="alias-pill">proinsulin-derived</span>
+          <span class="alias-pill">C-peptide (co-secreted)</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Structure and Processing</h3>
+          <p>Insulin is synthesised as preproinsulin (110 aa) in pancreatic beta cells. The signal peptide (24 aa) is co-translationally cleaved in the ER to yield proinsulin (86 aa), a single chain that folds and forms two disulfide bonds between A and B chains (A7–B7, A20–B19) plus one intrachain bond in the A chain (A6–A11). In the Golgi/secretory granule, PC1/3 and PC2 (prohormone convertases) cleave the connecting C-peptide (31 aa), releasing mature insulin (A + B chains, 51 aa, 5.8 kDa) and C-peptide in equimolar amounts.</p>
+          <p><strong>C-peptide as a clinical marker:</strong> C-peptide has a longer half-life than insulin (~30 min vs. ~5 min) and is not cleared by the liver on first pass — making it the preferred marker for endogenous insulin secretion. C-peptide is near-zero in T1DM (beta cell destruction) but present in T2DM and MODY; it distinguishes exogenous insulin injection from endogenous secretion in hypoglycaemia workup.</p>
+          <p><strong>In solution, insulin forms hexamers (3 dimers) in the presence of Zn²⁺</strong> — the storage form in secretory granules. This hexameric form is pharmacologically important: rapid-acting analogues (lispro, aspart, glulisine) have mutations that prevent hexamerisation &rarr; faster absorption as monomers from the SC injection site.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Glucose-Stimulated Insulin Secretion (GSIS)</h3>
+          <div class="pathway-block">
+<pre>
+  Rising blood glucose (postprandial: >5 mmol/L in portal vein)
+       │
+       │  GLUT2 (low-affinity, high-capacity glucose transporter) on &#x3b2; cell
+       ▼
+  Glucose enters &#x3b2; cell ─► glycolysis ─► TCA cycle
+       │
+       │  &#8593;ATP/ADP ratio  (key signal)
+       ▼
+  KATP channel (Kir6.2 / SUR1) CLOSES
+       │  (K⁺ cannot exit → membrane depolarises)
+       ▼
+  Membrane depolarisation
+       │
+       ▼
+  Voltage-gated Ca²⁺ channels (L-type VGCC) OPEN
+       │
+       ▼
+  [Ca²⁺]i rises (from ~100 nM to ~500 nM)
+       │
+       ▼
+  Ca²⁺-calmodulin → triggers vesicle fusion machinery (SNARE complex)
+       │
+       ▼
+  Exocytosis of insulin secretory granules → insulin released into portal vein
+
+  PHASE 1 (0–10 min): Pre-formed granules at the plasma membrane "readily
+                       releasable pool (RRP)" — immediate spike in insulin.
+                       Absent in T2DM (impaired in pre-diabetes).
+
+  PHASE 2 (10–60+ min): Newly mobilised granules + newly synthesised insulin.
+                         Sustained plateau. Driven by both KATP and amplifying
+                         signals (GLP-1 receptor → cAMP → PKA/Epac2;
+                         acetylcholine M3 receptor; glucose metabolism products).
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>The K&#x1D418;TP channel is the pharmacological nexus of sulfonylureas and GLP-1 agonists:</strong> Sulfonylureas (glibenclamide, glipizide, gliclazide) bind the SUR1 subunit and close K&#x1D418;TP channels independent of glucose — forcing insulin release regardless of blood glucose level and explaining their hypoglycaemia risk. GLP-1 receptor agonists (semaglutide, liraglutide) and DPP-4 inhibitors amplify insulin secretion in a glucose-dependent manner (amplifying pathways only active when glucose is elevated), explaining their lower hypoglycaemia risk.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Insulin Receptor Signalling</h3>
+          <div class="pathway-block">
+<pre>
+  Insulin binds insulin receptor (INSR) — &#x3b1;2&#x3b2;2 heterotetramer, receptor tyrosine kinase (RTK)
+       │
+       │  Conformational change in &#x3b1; subunits ─► trans-autophosphorylation of &#x3b2; subunits
+       │  Key tyrosine residues: Tyr1158, Tyr1162, Tyr1163 in activation loop
+       ▼
+  INSR kinase domain active
+       │
+       │  Phosphorylates IRS1/IRS2 (insulin receptor substrate)
+       ▼
+  IRS1/2 tyrosine-phosphorylated
+       │
+       ├── PI3K recruited (SH2 domains bind pY-IRS1) ─► PIP3 generated
+       │         │
+       │         ▼
+       │     PDK1 ─► Akt (PKB) phosphorylated (Thr308, Ser473)
+       │               │
+       │      ┌────────┼─────────────────┐
+       │      ▼        ▼                 ▼
+       │  GLUT4       FOXO1           Glycogen
+       │  vesicle    suppressed       synthase
+       │  fusion     (&#8595;gluconeo-       kinase-3
+       │  (AS160/    genesis;          (GSK-3)
+       │  TBC1D4     &#8595;glucagon-like     inhibited
+       │  phospho-   gene expression)  ─► &#8593;glycogen
+       │  rylation)                       synthesis
+       │      │
+       │      ▼
+       │  GLUT4 translocates to plasma membrane
+       │  ─► &#8593;glucose uptake (skeletal muscle, adipose)
+       │     (accounts for ~80% of postprandial glucose disposal)
+       │
+       └── Grb2/SOS ─► RAS ─► RAF ─► MEK ─► ERK1/2
+                  (MAPK pathway — cell growth, proliferation,
+                   gene expression; less metabolic, more mitogenic)
+</pre>
+          </div>
+          <h4>Key downstream effects of insulin signalling</h4>
+          <p><strong>Liver:</strong> Inhibits glycogenolysis and gluconeogenesis (via FOXO1 nuclear exclusion and PEPCK/G6Pase suppression); promotes glycogen synthesis (GSK-3 inhibition &rarr; glycogen synthase active); promotes lipogenesis (SREBP-1c activation &rarr; &#8593;FAS, ACC).</p>
+          <p><strong>Skeletal muscle:</strong> GLUT4 translocation is the dominant postprandial glucose disposal pathway. Also promotes glycogen synthesis, protein synthesis (mTORC1 activation), and amino acid uptake.</p>
+          <p><strong>Adipose:</strong> GLUT4 translocation; inhibits hormone-sensitive lipase (HSL) &rarr; suppresses lipolysis — this is insulin's most sensitive metabolic effect (half-maximal effect at ~10–20 pmol/L). In insulin resistance, this effect is impaired &rarr; elevated FFA &rarr; ectopic lipid deposition &rarr; hepatic and skeletal muscle insulin resistance (lipotoxicity).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Therapeutic Insulins</h3>
+          <table class="data-table">
+            <tr><th>Type</th><th>Examples</th><th>Onset</th><th>Peak</th><th>Duration</th><th>Key Notes</th></tr>
+            <tr>
+              <td><span class="badge badge-rapid">Rapid-acting analogue</span></td>
+              <td>Lispro (Humalog), aspart (NovoLog/NovoRapid), glulisine (Apidra), faster aspart (Fiasp)</td>
+              <td>5–15 min</td>
+              <td>30–90 min</td>
+              <td>3–5 h</td>
+              <td>Mutations prevent hexamer formation &rarr; rapid SC absorption as monomers/dimers. Taken immediately before meals. Reduced post-meal hypoglycaemia vs. regular insulin. Fiasp has additional niacinamide additive for even faster absorption (&lt;5 min).</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-nph">Short-acting (regular)</span></td>
+              <td>Regular insulin (Humulin R, Novolin R)</td>
+              <td>30–60 min</td>
+              <td>2–4 h</td>
+              <td>5–8 h</td>
+              <td>Hexameric in solution; dissociation at SC site takes time. Given 30 min before meals. Used IV for hyperglycaemic emergencies (DKA) — only insulin suitable for IV infusion.</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-nph">Intermediate-acting</span></td>
+              <td>NPH / isophane (Humulin N, Novolin N)</td>
+              <td>1–4 h</td>
+              <td>4–10 h</td>
+              <td>10–18 h</td>
+              <td>Protamine-insulin crystal suspension (cloudy); must be re-suspended. Twice-daily in T2DM "basal" regimens; less predictable absorption than analogues.</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-long">Long-acting analogue</span></td>
+              <td>Glargine (Lantus, Toujeo U-300, Basaglar), detemir (Levemir)</td>
+              <td>1–4 h</td>
+              <td>Flat / no peak (glargine); mild peak at 6–8 h (detemir)</td>
+              <td>20–24 h (glargine U-100); ~42 h (detemir)</td>
+              <td>Glargine: precipitates at pH 7.4 SC &rarr; slow dissolution. Cannot be mixed with other insulins. Once daily. Toujeo (U-300 glargine) has even flatter profile. Detemir: albumin binding prolongs action. Reduced nocturnal hypoglycaemia vs. NPH.</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-long">Ultra-long-acting analogue</span></td>
+              <td>Degludec (Tresiba)</td>
+              <td>~1 h</td>
+              <td>No peak</td>
+              <td>42+ h (steady state)</td>
+              <td>Forms multi-hexamer chains in SC tissue &rarr; very slow release. Highly predictable PK. Can be dosed on flexible schedule. Superior nocturnal hypoglycaemia reduction vs. glargine (SWITCH trials).</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-rapid">Concentrated formulations</span></td>
+              <td>Regular U-500 (Humulin R U-500), glargine U-300 (Toujeo), lispro U-200 (Humalog U-200)</td>
+              <td>Varies</td>
+              <td>Varies</td>
+              <td>Varies</td>
+              <td>For high total daily dose (&gt;200–300 units/day) patients; reduces injection volume. Dose conversion errors are a patient safety risk.</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>Core Defect</th><th>Pathophysiology</th><th>Key Clinical Features</th></tr>
+            <tr>
+              <td><strong>Type 1 Diabetes (T1DM)</strong></td>
+              <td>Absolute insulin deficiency</td>
+              <td>Autoimmune T-cell-mediated destruction of &#x3b2; cells. HLA-DR3/DR4 association. Autoantibodies: anti-GAD65, anti-IA-2, anti-insulin, anti-ZnT8. &gt;80% &#x3b2; cell loss before clinical hyperglycaemia. Latent autoimmune diabetes in adults (LADA) = slower progression form</td>
+              <td>Polyuria, polydipsia, weight loss. Ketosis-prone — without insulin, lipolysis &#8593; &rarr; FFA &#8593; &rarr; ketogenesis. Requires insulin for survival. C-peptide undetectable</td>
+            </tr>
+            <tr>
+              <td><strong>Type 2 Diabetes (T2DM)</strong></td>
+              <td>Insulin resistance + progressive &#x3b2; cell failure</td>
+              <td>Ectopic lipid (visceral, hepatic, intramyocellular) impairs IRS1/PI3K signalling &rarr; insulin resistance. Initially compensated by hyperinsulinaemia. Over years, &#x3b2; cell exhaustion &rarr; relative insulin deficiency. Glucolipotoxicity, ER stress, amyloid (IAPP) deposits accelerate &#x3b2; cell loss</td>
+              <td>Often asymptomatic early; detected on screening. Insidious onset. Complications driven by duration and glycaemic control. C-peptide present but insufficient. Metformin + lifestyle first-line; eventual insulin required in many</td>
+            </tr>
+            <tr>
+              <td><strong>Diabetic Ketoacidosis (DKA)</strong></td>
+              <td>Near-complete insulin deficiency + counter-regulatory hormone excess</td>
+              <td>&#8595;&#8595;Insulin + &#8593;glucagon, catecholamines, cortisol, GH &rarr; unrestrained lipolysis &rarr; FFA flood to liver &rarr; &#x3b2;-oxidation &rarr; acetyl-CoA exceeds TCA capacity &rarr; ketogenesis (AcAc, &#x3b2;-OH-butyrate, acetone). Ketonaemia &rarr; anion-gap metabolic acidosis. Osmotic diuresis &rarr; dehydration</td>
+              <td>Nausea/vomiting, abdominal pain, Kussmaul breathing (deep, rapid — compensatory respiratory alkalosis), fruity breath (acetone), &#8595;consciousness. pH &lt;7.3, bicarbonate &lt;15, positive ketones, BG usually &gt;11 mmol/L (may be lower in "euglycaemic DKA" — e.g. SGLT2 inhibitor use). Treatment: IV fluids, insulin infusion (0.1 U/kg/h), potassium replacement, identify and treat precipitant</td>
+            </tr>
+            <tr>
+              <td><strong>Hyperosmolar Hyperglycaemic State (HHS)</strong></td>
+              <td>Relative insulin deficiency (enough to prevent ketosis but not hyperglycaemia)</td>
+              <td>Extreme hyperglycaemia (BG typically &gt;33 mmol/L) &rarr; osmotic diuresis &rarr; profound dehydration &rarr; serum osmolality &gt;320 mOsm/kg. Typically in elderly T2DM with reduced thirst sensation and renal impairment. No significant ketoacidosis (residual insulin suppresses lipolysis)</td>
+              <td>Gradual onset (days–weeks), altered consciousness, seizures, focal deficits. High mortality (5–20%). Treatment: aggressive fluid replacement is the cornerstone; cautious insulin (premature insulin risks vascular sludging as osmolality falls rapidly)</td>
+            </tr>
+            <tr>
+              <td><strong>Hypoglycaemia</strong></td>
+              <td>Insulin excess relative to glucose availability</td>
+              <td>Exogenous insulin overdose; insulin secretagogue (sulfonylurea, meglitinide); insulinoma; IGF-2-secreting tumour. Counter-regulatory response: glucagon (hepatic glycogenolysis), catecholamines, cortisol, GH. Hypoglycaemia unawareness develops after recurrent episodes (impaired autonomic response)</td>
+              <td>Adrenergic symptoms (tremor, tachycardia, diaphoresis, anxiety) at BG ~3.5–4 mmol/L; neuroglycopenic symptoms (confusion, slurred speech, seizure, coma) at &lt;2.8 mmol/L. Treatment: oral glucose if conscious; IV dextrose (25–50 ml 50% dextrose) or IM glucagon if not</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>The DCCT Trial — evidence that tight glycaemic control prevents microvascular complications:</strong> The Diabetes Control and Complications Trial (DCCT, 1993) randomised 1,441 T1DM patients to intensive insulin therapy (HbA1c target ~7%) vs. conventional therapy (~9%). After 6.5 years, intensive therapy reduced: <strong>retinopathy</strong> by 76% (primary prevention) and 54% (secondary prevention); <strong>nephropathy</strong> by 50%; <strong>neuropathy</strong> by 60%. Long-term follow-up (EDIC study) showed continued benefit 30+ years later ("metabolic memory") — early intensive control durably reprograms epigenetic marks in vascular tissue. The DCCT established HbA1c as the primary therapeutic target and &lt;7% as the benchmark for intensive control in T1DM.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="liver.html" class="conn-pill targets">
+              <span class="rel">Acts on</span>
+              Liver (gluconeogenesis suppression)
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Affects</span>
+              Cardiovascular System
+            </a>
+            <a href="cortisol.html" class="conn-pill acts">
+              <span class="rel">Counter-regulated by</span>
+              Cortisol
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Co-axis</span>
+              Glucagon (entry pending)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Related</span>
+              GLP-1 (entry pending)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              mTORC1 / FOXO1 (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>The DCCT Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. <em>N Engl J Med.</em> 1993;329(14):977-86. <a href="https://doi.org/10.1056/NEJM199309303291401">doi:10.1056/NEJM199309303291401</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8366922/">PubMed 8366922</a></li>
+            <li>Saltiel AR, Kahn CR. Insulin signalling and the regulation of glucose and lipid metabolism. <em>Nature.</em> 2001;414(6865):799-806. <a href="https://doi.org/10.1038/414799a">doi:10.1038/414799a</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11742412/">PubMed 11742412</a></li>
+            <li>Rorsman P, Ashcroft FM. Pancreatic beta-cell electrical activity and insulin secretion: of mice and men. <em>Physiol Rev.</em> 2018;98(1):117-214. <a href="https://doi.org/10.1152/physrev.00008.2017">doi:10.1152/physrev.00008.2017</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29212789/">PubMed 29212789</a></li>
+            <li>Hirsch IB. Insulin analogues. <em>N Engl J Med.</em> 2005;352(2):174-83. <a href="https://doi.org/10.1056/NEJMra040832">doi:10.1056/NEJMra040832</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15647580/">PubMed 15647580</a></li>
+            <li>Kitabchi AE, Umpierrez GE, Miles JM, Fisher JN. Hyperglycemic crises in adult patients with diabetes. <em>Diabetes Care.</em> 2009;32(7):1335-43. <a href="https://doi.org/10.2337/dc09-9032">doi:10.2337/dc09-9032</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19564476/">PubMed 19564476</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="serotonin.html">Serotonin</a>
+      <a href="il-6.html">IL-6</a>
+      <a href="cortisol.html">Cortisol</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

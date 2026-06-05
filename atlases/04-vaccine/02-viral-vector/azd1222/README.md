@@ -85,6 +85,12 @@ sources:
     doi: "10.1016/S0140-6736(21)01358-1"
     pmid: "34139198"
     url: "https://doi.org/10.1016/S0140-6736(21)01358-1"
+  - id: knoll-2021-review
+    type: peer-reviewed
+    cite: "Knoll MD, Wonodi C. Oxford–AstraZeneca COVID-19 vaccine efficacy. Lancet. 2021;397(10269):72-74."
+    doi: "10.1016/S0140-6736(20)32623-4"
+    pmid: "33306990"
+    url: "https://doi.org/10.1016/S0140-6736(20)32623-4"
 cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: immunizes-against
@@ -104,7 +110,7 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: elicits
     note: "Neutralizing IgG targeting the spike receptor-binding domain is the primary correlate of protection; post-dose-2 IgG titers at 8-week interval significantly exceed 4-week schedule titers."
-  - target: 01-mrna/mrna-1273
+  - target: 04-vaccine/01-mrna/mrna-1273
     relation: same-platform-as
     note: "Both target SARS-CoV-2 spike antigen as primary immunogen; diverge in delivery platform (viral vector vs LNP-mRNA), cold-chain requirements, and T-cell response profiles."
 ---

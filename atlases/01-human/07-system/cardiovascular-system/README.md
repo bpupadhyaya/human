@@ -69,6 +69,24 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Hepatic lobules receive dual blood supply — portal vein (~75%, nutrient-rich) and hepatic artery (~25%, oxygenated); portal hypertension in liver disease reflects cardiovascular-hepatic coupling."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: treated-by
+    note: "ARBs reduce cardiac afterload and preload via AT1 blockade; indicated for hypertension, HFrEF (if ACE-I intolerant), and post-MI LV dysfunction; reduce hospitalizations and improve survival in heart failure."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: modulated-by
+    note: "AT1 receptor blockade by ARBs redirects angiotensin II to the AT2 receptor, producing vasodilation and anti-fibrotic effects; RAAS suppression reduces cardiac remodeling after MI and in heart failure."
+  - target: 03-medicine/01-modern/04-cardio/calcium-channel-blockers
+    relation: treated-by
+    note: "CCBs reduce peripheral vascular resistance (dihydropyridines) or slow heart rate and AV conduction (non-dihydropyridines); first-line for hypertension and angina; amlodipine demonstrated CV event reduction in ALLHAT and CAMELOT trials."
+  - target: 03-medicine/01-modern/04-cardio/calcium-channel-blockers
+    relation: modulated-by
+    note: "L-type Cav1.2 channel blockade by CCBs reduces Ca²⁺ entry into vascular smooth muscle (→ vasodilation) and cardiomyocytes (→ negative chronotropy/inotropy for non-DHPs); use-dependent block during tachycardia or increased firing."
+  - target: 01-human/03-molecular/cortisol
+    relation: modulated-by
+    note: "Cortisol enhances vascular smooth muscle responsiveness to catecholamines and angiotensin II, maintaining vascular tone; chronic glucocorticoid excess (Cushing's) causes hypertension via Na⁺ retention and increased SVR."
+  - target: 01-human/03-molecular/insulin
+    relation: modulated-by
+    note: "Insulin promotes endothelial nitric oxide production (via Akt → eNOS), vasodilation, and glucose uptake in vascular smooth muscle; chronic hyperinsulinemia and insulin resistance drive endothelial dysfunction and atherosclerosis."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"

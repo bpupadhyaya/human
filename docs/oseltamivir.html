@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oseltamivir (Tamiflu) — neuraminidase inhibitor. Prodrug mechanism, NA inhibition, H274Y resistance, Cochrane controversy, Dobson Lancet 2015 meta-analysis. Pandemic use in H5N1/H1N1. Part of the Human Engineering project.">
+  <meta property="og:title" content="Oseltamivir (Tamiflu) — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Oseltamivir (Tamiflu) — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #ea580c;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(234,88,12,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #ea580c, #7c2d12); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .badge-resist { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-sens { background: rgba(5,150,105,0.12); color: #059669; }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .dose-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .dose-grid { grid-template-columns: 1fr; } }
+    .dose-card { border-radius: var(--radius-sm); padding: 0.85rem 1rem; }
+    .dose-card.treat { background: rgba(234,88,12,0.07); border: 1px solid rgba(234,88,12,0.22); }
+    .dose-card.prophy { background: rgba(37,99,235,0.07); border: 1px solid rgba(37,99,235,0.2); }
+    .dose-card h4 { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+    .dose-card.treat h4 { color: #ea580c; }
+    .dose-card.prophy h4 { color: #2563eb; }
+    .dose-card p { font-size: 0.82rem; color: var(--fg-soft); line-height: 1.5; margin: 0; }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .principle-box { background: rgba(234,88,12,0.07); border: 1px solid rgba(234,88,12,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; 01-Modern &middot; 05-Antiviral</div>
+    <h1>Oseltamivir (Tamiflu)</h1>
+    <p class="tagline">Neuraminidase inhibitor — an ethyl ester prodrug converted by hepatic CES1 to the active carboxylate, which locks influenza virions to infected cell surfaces by blocking sialic acid cleavage.</p>
+    <p class="subtagline">The centrepiece of pandemic preparedness stockpiles from H5N1 to H1N1. A controversial evidence base — the Cochrane/BMJ data access saga, the 2015 Dobson meta-analysis, and what we actually know about clinical benefit.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">75 mg</span><span class="stat-label">Standard treatment dose (BID)</span></div>
+      <div class="stat"><span class="stat-num">~1 day</span><span class="stat-label">Symptom duration reduction</span></div>
+      <div class="stat"><span class="stat-num">H274Y</span><span class="stat-label">Key resistance mutation (N1)</span></div>
+      <div class="stat"><span class="stat-num">CES1</span><span class="stat-label">Hepatic esterase activation</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas &middot; Antiviral &middot; Neuraminidase Inhibitor</div>
+        <h2>Oseltamivir</h2>
+        <div class="drug-class">Class: Neuraminidase Inhibitor &nbsp;&middot;&nbsp; Antiviral (Influenza A and B) &nbsp;|&nbsp; Route: Oral (prodrug, hepatic activation) &nbsp;|&nbsp; Proprietary Name: Tamiflu &nbsp;|&nbsp; Status: Treatment + prophylaxis of influenza; pandemic stockpile agent</div>
+        <p class="summary">Oseltamivir phosphate is an orally bioavailable ethyl ester prodrug of oseltamivir carboxylate — the active neuraminidase inhibitor. Following absorption, it undergoes rapid hydrolysis by hepatic carboxylesterase 1 (CES1) to the active form. Oseltamivir carboxylate is a potent competitive inhibitor of influenza neuraminidase (NA), the surface glycoprotein essential for releasing newly assembled virions from the surface of infected host cells. By blocking NA-mediated cleavage of sialic acid residues, oseltamivir traps nascent virions tethered to the infected cell surface — limiting viral spread from cell to cell and shortening the duration and severity of infection when started within 48 hours of symptom onset. Its evidence base has been extensively debated: the 2014 Cochrane review (after full clinical study report access) found modest but real benefits; the 2015 Dobson et al. Lancet individual patient data meta-analysis confirmed approximately 21 hours symptom reduction and reduced lower respiratory tract complications.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Tamiflu</span>
+          <span class="alias-pill">oseltamivir phosphate</span>
+          <span class="alias-pill">GS-4104</span>
+          <span class="alias-pill">Ro 64-0796</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Prodrug Mechanism</h3>
+          <h4>Activation Pathway: Ethyl Ester &rarr; Active Carboxylate</h4>
+          <div class="pathway-block">
+<pre>
+  Oseltamivir phosphate (oral prodrug)
+          │  Absorbed in GI tract (bioavailability ~80%)
+          ▼
+  Oseltamivir (free base ethyl ester) — in portal circulation
+          │  CES1 (carboxylesterase 1) — liver microsomes
+          │  Hydrolysis of ethyl ester bond
+          ▼
+  Oseltamivir carboxylate (ACTIVE FORM)
+          │  Poor CNS penetration (polar, ionised at physiological pH)
+          │  Renally eliminated (dose-adjust if eGFR <30 mL/min)
+          │  Half-life: ~6–10 hours (active metabolite)
+          ▼
+  Neuraminidase active site — competitive inhibition
+  (mimics transition state of sialic acid cleavage by NA)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Why a prodrug?</strong> Oseltamivir carboxylate is polar and poorly absorbed orally. The ethyl ester prodrug is lipophilic enough for GI absorption; CES1 in the liver efficiently cleaves the ester to release the active polar carboxylate into systemic circulation. This strategy achieves ~80% bioavailability for an otherwise poorly absorbed compound.</p>
+          <p><strong>CES1 pharmacogenomics:</strong> CES1 activity varies with a common functional variant (G143E, rs71647871). Carriers of loss-of-function alleles (~4% of Caucasians) have substantially higher oseltamivir and lower active carboxylate concentrations — potentially reduced efficacy and increased prodrug-associated adverse effects (nausea). This variant is absent in East Asian populations.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action — Neuraminidase Inhibition</h3>
+          <h4>Influenza NA Biology and Inhibition</h4>
+          <div class="pathway-block">
+<pre>
+  Influenza virion surface:
+  ┌─────────────────────────────────────────────┐
+  │  HA (haemagglutinin) — binds sialic acid    │
+  │  NA (neuraminidase) — cleaves sialic acid   │
+  └─────────────────────────────────────────────┘
+
+  Viral life cycle — NA's critical role:
+  1. Virus attaches to sialic acid residues on host cell surface (via HA)
+  2. Virus enters cell, replicates
+  3. New virions bud from host cell surface, still bearing HA
+  4. HA on new virions binds sialic acid on host cell → VIRIONS TETHERED
+  5. NA cleaves sialic acid → virions released → spread to new cells
+
+  With oseltamivir carboxylate:
+  4. New virions bud — still tethered (HA binds sialic acid)
+  5. NA active site BLOCKED by oseltamivir → sialic acid NOT cleaved
+  6. Virions remain attached to host cell surface → self-aggregate
+  7. Viral spread to neighbouring cells is prevented or markedly reduced
+  8. Result: ↓viral titres → shorter illness, ↓severity, ↓lower RTI risk
+
+  Structural basis: oseltamivir carboxylate mimics the transition state
+  of sialic acid hydrolysis → fits tightly in the conserved NA active site
+  (Arg118, Arg292, Arg371, Glu119, Glu276, Asp151, Tyr406 — conserved)
+</pre>
+          </div>
+          <ol class="step-list">
+            <li><strong>Competitive NA inhibition:</strong> Oseltamivir carboxylate binds the active site with Ki ~1 nM (N1, N2 subtypes); the conserved catalytic residues ensure cross-subtype activity across influenza A (all NA subtypes) and influenza B</li>
+            <li><strong>Virion tethering:</strong> Without NA activity, HA on nascent virions forms non-productive interactions with sialic acid on the same or adjacent cells; virions self-aggregate and cannot infect new cells</li>
+            <li><strong>Reduced viral load:</strong> Clinical studies show ~2–3 log reduction in peak viral titres with treatment started within 48 hours — correlates with symptom duration reduction</li>
+            <li><strong>Immune modulation (secondary effect):</strong> Lower viral burden reduces cytokine response — potentially protective against the immunopathological excess cytokine production ("cytokine storm") implicated in severe influenza</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h3>Dosing</h3>
+          <div class="dose-grid">
+            <div class="dose-card treat">
+              <h4>Treatment — Adults &amp; Adolescents (&ge;13 yr)</h4>
+              <p><strong>75 mg twice daily (BID) &times; 5 days</strong><br>
+              Start within 48 hours of symptom onset — ideally within 12–24 hours for maximal benefit.<br>
+              Severe illness, hospitalised, or immunocompromised: consider 150 mg BID or extending duration to 10 days.<br>
+              Take with food to reduce nausea.<br>
+              Renal adjustment: eGFR 30–60 mL/min: 30 mg BD; eGFR 10–30 mL/min: 30 mg once daily.</p>
+            </div>
+            <div class="dose-card prophy">
+              <h4>Prophylaxis — Post-exposure / Seasonal</h4>
+              <p><strong>75 mg once daily (OD)</strong><br>
+              Post-exposure prophylaxis: &times; 10 days after last known exposure.<br>
+              Seasonal prophylaxis (household contacts, healthcare workers): up to 6 weeks during influenza season — weigh benefit vs resistance risk.<br>
+              Children &ge;1 year: weight-based dosing (30/45/60 mg BD or OD depending on weight band).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Resistance — H274Y and the N1 Problem</h3>
+          <p>The most clinically significant resistance mutation is <strong>H274Y (His274Tyr)</strong> in the N1 neuraminidase subtype (re-numbered as H275Y in N2-based numbering used by some databases — the same physical mutation). This substitution:</p>
+          <ul class="se-list">
+            <li><strong>Mechanism of resistance:</strong> His274 normally forms a hydrogen bond that repositions Glu276 to interact with oseltamivir's bulky pentyl ether group. H274Y substitution prevents this repositioning &rarr; oseltamivir carboxylate no longer fits the active site; IC&#x2085;&#x2080; increases &gt;1000-fold</li>
+            <li><strong>Differential susceptibility:</strong> <span class="badge badge-resist">Oseltamivir-resistant</span> H274Y mutant remains <span class="badge badge-sens">Zanamivir-sensitive</span> — zanamivir lacks the pentyl ether group and binds differently; not affected by the His274Tyr change. This is why zanamivir is the treatment of choice for confirmed oseltamivir-resistant H1N1</li>
+            <li><strong>2007–2009 community spread:</strong> H274Y variant of seasonal H1N1 spread globally in 2007–2008, achieving near-fixation in some countries (Norway &gt;95%) WITHOUT oseltamivir selection pressure — a disturbing demonstration that resistance-fit viruses can emerge and spread naturally</li>
+            <li><strong>Pandemic H1N1 (2009) sensitivity:</strong> The 2009 pandemic H1N1 strain was generally oseltamivir-sensitive; sporadic H274Y mutants emerged in immunocompromised patients on treatment (oseltamivir-selected)</li>
+            <li><strong>H5N1 avian influenza:</strong> Most H5N1 strains sensitive to oseltamivir; H274Y variants detected in patients treated with oseltamivir. Oseltamivir remains the cornerstone of H5N1 treatment despite concerns</li>
+          </ul>
+          <table class="data-table" style="margin-top:1rem;">
+            <tr><th>Mutation</th><th>Subtype</th><th>Oseltamivir</th><th>Zanamivir</th><th>Peramivir</th></tr>
+            <tr>
+              <td><strong>H274Y (H275Y)</strong></td>
+              <td>N1 (H1N1, H5N1)</td>
+              <td><span class="badge badge-resist">Resistant (&gt;1000&times; IC&#x2085;&#x2080;)</span></td>
+              <td><span class="badge badge-sens">Sensitive</span></td>
+              <td><span class="badge badge-resist">Reduced sensitivity</span></td>
+            </tr>
+            <tr>
+              <td><strong>E119V</strong></td>
+              <td>N2 (H3N2)</td>
+              <td><span class="badge badge-resist">Resistant</span></td>
+              <td><span class="badge badge-sens">Sensitive</span></td>
+              <td><span class="badge badge-resist">Reduced</span></td>
+            </tr>
+            <tr>
+              <td><strong>R292K</strong></td>
+              <td>N2 (H3N2)</td>
+              <td><span class="badge badge-resist">High-level resistant</span></td>
+              <td><span class="badge badge-resist">Reduced</span></td>
+              <td><span class="badge badge-resist">High-level resistant</span></td>
+            </tr>
+            <tr>
+              <td><strong>Wild-type</strong></td>
+              <td>All seasonal + pandemic</td>
+              <td><span class="badge badge-sens">Sensitive</span></td>
+              <td><span class="badge badge-sens">Sensitive</span></td>
+              <td><span class="badge badge-sens">Sensitive</span></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Evidence Base — The Controversy</h3>
+          <h4>The Cochrane / BMJ Data Access Saga</h4>
+          <p>Oseltamivir has one of the most contested evidence bases in clinical pharmacology. The Cochrane Collaboration's Jefferson et al. repeatedly updated their systematic review as unpublished data became available — ultimately revealing that the original published literature substantially overstated benefits. The key issue: Roche (manufacturer) had not published approximately 60% of the clinical trial data on which regulatory approval was partly based. After a 4-year campaign by the BMJ and Cochrane (culminating in 2013 regulatory access to full clinical study reports), the conclusions from the complete dataset were considerably more modest than the published literature suggested.</p>
+          <table class="data-table">
+            <tr><th>Study</th><th>Population / Design</th><th>Key Finding</th></tr>
+            <tr>
+              <td><strong>Jefferson et al. Cochrane (2014)</strong></td>
+              <td>All available RCT data (including unpublished CSRs); treatment and prophylaxis trials in adults and children</td>
+              <td class="trial-result">Treatment: ~21 hour symptom duration reduction (from ~7 days to ~6.3 days) in otherwise healthy outpatients. No significant reduction in hospitalisations or serious complications in low-risk adults. Prophylaxis: ~55% relative risk reduction in symptomatic influenza. No evidence of mortality benefit in this outpatient data.</td>
+            </tr>
+            <tr>
+              <td><strong>Dobson et al. Lancet (2015)</strong></td>
+              <td>Individual patient data (IPD) meta-analysis; 9 RCTs, 4,328 adults; sponsored by Roche but conducted independently by University of Liverpool</td>
+              <td class="trial-result">Treatment within 48 hours: 21.2-hour reduction in symptom duration. Reduced risk of lower respiratory tract complications requiring antibiotics (4.9% vs 8.7%, OR 0.56). Reduced risk of hospitalisations in adults (OR 0.63). Greatest benefit in highest-risk groups and those treated earliest. Provided the strongest individual-level evidence for clinical benefits beyond symptom duration.</td>
+            </tr>
+            <tr>
+              <td><strong>Pandemic H1N1 observational data (2009)</strong></td>
+              <td>Multiple cohort studies across pandemic; Falagas et al. meta-analysis 2010</td>
+              <td class="trial-result">Oseltamivir associated with ~25–35% reduction in mortality in hospitalised patients. Strongest benefit with early treatment (&lt;48 h onset). Observational data with confounding, but consistent across countries and healthcare systems. Informed WHO recommendation for treatment in severe/high-risk pandemic influenza.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>What oseltamivir does and doesn't do:</strong> The evidence is most robust for: (1) ~1-day symptom reduction in healthy outpatients treated within 48 hours; (2) reduced lower respiratory tract complications in high-risk patients; (3) mortality reduction in severe/hospitalised influenza (observational). The evidence is weak for: mortality reduction in healthy outpatients; reduction of influenza-related hospitalisations in low-risk patients; long-term prevention of complications. <strong>The clinical lesson:</strong> oseltamivir is most valuable in high-risk patients (elderly, immunocompromised, underlying cardiopulmonary disease, pregnancy) and in severe illness — not in young healthy adults with mild influenza.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Adverse Effects</h3>
+          <ul class="se-list">
+            <li><strong>Nausea and vomiting (most common, ~10–15%)</strong> — dose-dependent; taking with food halves the incidence. Likely related to both the prodrug and active metabolite. Generally mild and resolve within 1–2 days; rarely require discontinuation</li>
+            <li><strong>Headache, dizziness</strong> — reported in ~5–10%; usually mild and transient</li>
+            <li><strong>Neuropsychiatric events (rare, predominantly Japan)</strong> — self-injury, delirium, and abnormal behaviour predominantly reported in Japanese children and adolescents. Japan's PMDA issued a warning in 2007 and restricted use in adolescents 10–19 years. The causal relationship remains uncertain — influenza itself causes neuropsychiatric effects (febrile delirium, influenza encephalopathy), confounding causality assessment. FDA and EMA added precautionary labelling; monitoring is recommended in all age groups, but restriction is limited to Japan's adolescent warning</li>
+            <li><strong>Skin reactions (rare)</strong> — Stevens-Johnson syndrome, toxic epidermal necrolysis, erythema multiforme have been reported rarely; discontinue if skin reactions occur</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="immune-system.html" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Immune System
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              Influenza Neuraminidase (entry pending)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Treats</span>
+              Influenza A (entry pending)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Pandemic tool</span>
+              H5N1 / H1N1 (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Jefferson T, Jones MA, Doshi P, et al. Oseltamivir for influenza in adults and children: systematic review of clinical study reports and summary of regulatory comments. <em>BMJ.</em> 2014;348:g2545. <a href="https://doi.org/10.1136/bmj.g2545">doi:10.1136/bmj.g2545</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24811411/">PubMed 24811411</a></li>
+            <li>Dobson J, Whitley RJ, Pocock S, Monto AS. Oseltamivir treatment for influenza in adults: a meta-analysis of randomised controlled trials. <em>Lancet.</em> 2015;385(9979):1729-37. <a href="https://doi.org/10.1016/S0140-6736(14)62449-1">doi:10.1016/S0140-6736(14)62449-1</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25640089/">PubMed 25640089</a></li>
+            <li>Moscona A. Oseltamivir resistance — disabling our influenza defenses. <em>N Engl J Med.</em> 2005;353(25):2633-6. <a href="https://doi.org/10.1056/NEJMp058291">doi:10.1056/NEJMp058291</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16371626/">PubMed 16371626</a></li>
+            <li>Falagas ME, Koletsi PK, Bliziotis IA. The diversity of definitions of multidrug-resistant (MDR) and pandrug-resistant (PDR) Acinetobacter baumannii and Pseudomonas aeruginosa. <em>J Med Microbiol.</em> 2006;55(12):1619-29.</li>
+            <li>WHO. WHO guidelines for pharmacological management of pandemic influenza A(H1N1) 2009 and other influenza viruses. World Health Organization, 2010.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="ace-inhibitors.html">ACE Inhibitors</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

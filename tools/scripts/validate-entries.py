@@ -77,6 +77,16 @@ MEDICINE_VALID_SCALES = [
     "03-food",
 ]
 
+VACCINE_VALID_PLATFORMS = [
+    "01-mrna",
+    "02-viral-vector",
+    "03-recombinant-subunit",
+    "04-inactivated",
+    "05-live-attenuated",
+    "06-toxoid",
+    "07-vhp",
+]
+
 # Required body sections, by scale. "Overview" is the first heading after `# Name`.
 SCALE_REQUIRED_SECTIONS: dict[str, list[str]] = {
     "01-subatomic": ["Overview", "Structure", "Function", "Connections"],
@@ -275,7 +285,7 @@ def extract_headings(body: str, body_start_line: int) -> list[tuple[int, int, st
 # Entry discovery
 # ──────────────────────────────────────────────────────────────────────────────
 
-ATLAS_DIRS = ("01-human", "02-pathogen", "03-medicine")
+ATLAS_DIRS = ("01-human", "02-pathogen", "03-medicine", "04-vaccine")
 
 
 def discover_entries(atlases_dir: Path) -> list[Path]:
@@ -343,6 +353,8 @@ def validate_entry(
         validate_pathogen_entry(path, root, frontmatter, body, body_start_line, registry, schemas, reporter)
     elif schema_id == "medicine-entry/v1":
         validate_medicine_entry(path, root, frontmatter, body, body_start_line, registry, schemas, reporter)
+    elif schema_id == "vaccine-entry/v1":
+        validate_vaccine_entry(path, root, frontmatter, body, body_start_line, registry, schemas, reporter)
     else:
         reporter.error(path, f"unknown schema: {schema_id}", line=1)
 
@@ -578,6 +590,10 @@ MEDICINE_REQUIRED_SECTIONS = [
     "Overview", "Mechanism", "Clinical Use", "Evidence", "Connections"
 ]
 
+VACCINE_REQUIRED_SECTIONS = [
+    "Overview", "Immunogenicity", "Safety", "Connections"
+]
+
 
 def validate_pathogen_entry(
     path: Path,
@@ -613,6 +629,104 @@ def validate_medicine_entry(
         expected_atlas="03-medicine",
         valid_scales=MEDICINE_VALID_SCALES,
     )
+
+
+def validate_vaccine_entry(
+    path: Path,
+    root: Path,
+    frontmatter: dict,
+    body: str,
+    body_start_line: int,
+    registry: Registry,
+    schemas: dict[str, dict],
+    reporter: Reporter,
+) -> None:
+    required_fields = ["schema", "id", "name", "atlas", "platform", "status",
+                       "last_reviewed", "summary", "sources", "cross_links"]
+    for fld in required_fields:
+        if fld not in frontmatter or frontmatter[fld] is None:
+            reporter.error(path, f"frontmatter missing required field: {fld}", line=1)
+
+    folder = path.parent.name
+    entry_id = frontmatter.get("id", "")
+    if entry_id and entry_id != folder:
+        reporter.error(path, f"id '{entry_id}' does not match folder name '{folder}'", line=1)
+
+    atlas = frontmatter.get("atlas", "")
+    if atlas and atlas != "04-vaccine":
+        reporter.error(path, f"atlas '{atlas}' is not '04-vaccine' for this schema", line=1)
+
+    platform = frontmatter.get("platform", "")
+    if platform and platform not in VACCINE_VALID_PLATFORMS:
+        reporter.error(
+            path,
+            f"platform '{platform}' is not valid; expected one of {VACCINE_VALID_PLATFORMS}",
+            line=1,
+        )
+
+    platform_folder = path.parent.parent.name
+    if platform and platform_folder in VACCINE_VALID_PLATFORMS and platform != platform_folder:
+        reporter.error(
+            path,
+            f"platform '{platform}' does not match parent folder '{platform_folder}'",
+            line=1,
+        )
+
+    summary = frontmatter.get("summary", "")
+    if summary and len(summary) > 280:
+        reporter.error(path, f"summary is {len(summary)} characters; must be ≤280", line=1)
+
+    for src in frontmatter.get("sources", []) or []:
+        has_link = bool(src.get("url") or src.get("doi") or src.get("pmid"))
+        if not has_link:
+            reporter.warn(
+                path,
+                f"sources[id={src.get('id', '?')}] has no url, doi, or pmid — citation is not linkable",
+                line=1,
+            )
+
+    headings = extract_headings(body, body_start_line)
+    h1s = [h for h in headings if h[0] == 1]
+    if not h1s:
+        reporter.error(path, "body missing top-level `# <Name>` heading", line=body_start_line)
+    else:
+        _, line_no, text = h1s[0]
+        name = frontmatter.get("name", "")
+        if name and text != name:
+            reporter.error(
+                path,
+                f"H1 heading '{text}' does not match frontmatter name '{name}'",
+                line=line_no,
+            )
+
+    section_titles = {h[2] for h in headings if h[0] == 2}
+    for required_section in VACCINE_REQUIRED_SECTIONS:
+        if required_section not in section_titles:
+            reporter.error(
+                path,
+                f"missing required body section: ## {required_section}",
+                line=body_start_line,
+            )
+
+    source_ids = {s["id"] for s in frontmatter.get("sources", []) or []}
+    for m in INLINE_CITATION_RE.finditer(body):
+        cite_id = m.group(1)
+        if cite_id not in source_ids:
+            line = body_start_line + body[: m.start()].count("\n")
+            reporter.warn(
+                path,
+                f"inline citation [^{cite_id}] does not match any sources[].id",
+                line=line,
+            )
+
+    for i, link in enumerate(frontmatter.get("cross_links", []) or []):
+        evidence = link.get("evidence")
+        if evidence and evidence not in source_ids:
+            reporter.error(
+                path,
+                f"cross_links[{i}].evidence='{evidence}' does not match any sources[].id",
+                line=1,
+            )
 
 
 def resolve_cross_links(

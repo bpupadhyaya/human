@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Angiotensin Receptor Blockers (ARBs) — AT1 receptor antagonists. RAAS blockade without bradykinin accumulation. Key agents: losartan, valsartan, irbesartan, candesartan, olmesartan, telmisartan. Val-HeFT, LIFE, RENAAL, ONTARGET trials. Part of the Human Engineering project.">
+  <meta property="og:title" content="ARBs — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Angiotensin Receptor Blockers (ARBs) — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #1d4ed8;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(29,78,216,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #1d4ed8, #1e3a8a); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .haemo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .haemo-grid { grid-template-columns: 1fr; } }
+    .haemo-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .haemo-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .haemo-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .principle-box { background: rgba(29,78,216,0.07); border: 1px solid rgba(29,78,216,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; 01-Modern &middot; 04-Cardio</div>
+    <h1>Angiotensin Receptor Blockers</h1>
+    <p class="tagline">AT1 receptor antagonists — block angiotensin II at its receptor without touching ACE, preserving bradykinin metabolism and eliminating the ACE inhibitor cough.</p>
+    <p class="subtagline">The "ACEi without the cough": equivalent RAAS blockade, plus unopposed AT2 activation driving vasodilation and anti-fibrotic signalling. Val-HeFT, LIFE, RENAAL, and ONTARGET defined their role — and their limits.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">~0%</span><span class="stat-label">Bradykinin cough (vs 25–40% ACEi)</span></div>
+      <div class="stat"><span class="stat-num">6+</span><span class="stat-label">Agents in Class</span></div>
+      <div class="stat"><span class="stat-num">2003</span><span class="stat-label">LIFE / RENAAL Trials</span></div>
+      <div class="stat"><span class="stat-num">No dual</span><span class="stat-label">RAAS (ONTARGET lesson)</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas &middot; Cardiovascular &middot; RAAS Inhibitors</div>
+        <h2>Angiotensin Receptor Blockers (ARBs)</h2>
+        <div class="drug-class">Class: AT1 Receptor Antagonist &nbsp;&middot;&nbsp; Antihypertensive &nbsp;&middot;&nbsp; Renoprotective &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Status: First-line HTN with CKD/DM; alternative to ACEi in HFrEF when cough intolerable</div>
+        <p class="summary">ARBs (angiotensin II receptor blockers, or "sartans") are competitive antagonists at the angiotensin II type 1 (AT1) receptor — the receptor mediating virtually all the harmful effects of angiotensin II (vasoconstriction, aldosterone release, cardiac fibrosis, renal efferent constriction). Unlike ACE inhibitors, ARBs act downstream of ACE and do not block bradykinin degradation — they produce no bradykinin-mediated cough and a much lower risk of angioedema. A crucial added benefit: by blocking AT1, ARBs allow angiotensin II to act unopposed on the AT2 receptor, which mediates vasodilation, natriuresis, and anti-fibrotic effects. This AT2 overdrive may contribute to the cardiovascular and renal protective effects unique to this class.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">ARBs</span>
+          <span class="alias-pill">sartans</span>
+          <span class="alias-pill">losartan</span>
+          <span class="alias-pill">valsartan</span>
+          <span class="alias-pill">irbesartan</span>
+          <span class="alias-pill">candesartan</span>
+          <span class="alias-pill">olmesartan</span>
+          <span class="alias-pill">telmisartan</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>ARBs block the angiotensin II type 1 (AT1) receptor — a G-protein coupled receptor (Gq/11) expressed in vascular smooth muscle, adrenal cortex, kidney, heart, and brain. AT1 stimulation by angiotensin II mediates all the haemodynamically and structurally deleterious effects of RAAS activation: vasoconstriction, aldosterone release, renal sodium retention, cardiac fibrosis, and adverse ventricular remodelling. By selectively antagonising AT1 while leaving the AT2 receptor available, ARBs achieve RAAS blockade with a distinct pharmacological signature from ACE inhibitors:</p>
+          <div class="haemo-grid">
+            <div class="haemo-item">
+              <h4>AT1 Blockade</h4>
+              <p>Blocks vasoconstriction, aldosterone release, sympathetic potentiation, and cardiac fibroblast activation. Net: &darr;afterload, &darr;preload, anti-remodelling — identical haemodynamic footprint to ACEi</p>
+            </div>
+            <div class="haemo-item">
+              <h4>AT2 Overdrive</h4>
+              <p>Angiotensin II accumulates (ACE not blocked) and funnels exclusively into AT2 signalling. AT2: vasodilation, natriuresis, apoptosis of hyperplastic cells, anti-fibrotic. May contribute to ARB-specific organ protection</p>
+            </div>
+            <div class="haemo-item">
+              <h4>No Bradykinin Potentiation</h4>
+              <p>ACE remains uninhibited. Bradykinin is degraded normally. Result: no class-specific dry cough; angioedema rate &lt;0.1% (vs &lt;0.5% ACEi). ARBs are the preferred switch when ACEi cough is intolerable</p>
+            </div>
+            <div class="haemo-item">
+              <h4>Reactive Angiotensin II Rise</h4>
+              <p>AT1 blockade removes negative feedback &rarr; renin and angiotensin II levels rise. This "reactive hyperangiotensinaemia" drives AT2 overdrive but also means some AT1 receptor escape is theoretically possible at very high angiotensin concentrations</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action</h3>
+          <h4>RAAS Cascade — AT1 vs AT2 Receptor Signalling</h4>
+          <div class="pathway-block">
+<pre>
+  Angiotensinogen (liver)
+          │  Renin (JG cells, kidney)
+          ▼
+  Angiotensin I (10 aa)
+          │  ACE (lung, endothelium) — NOT blocked by ARBs
+          ▼
+  Angiotensin II (8 aa)  ← accumulates higher than with ACEi
+          │
+          ├──► AT1 receptor  ◄── ARB BLOCKS HERE
+          │    Gq/11 signalling → ↑IP3 → ↑[Ca²⁺]i
+          │    → vasoconstriction (VSM)
+          │    → aldosterone synthesis (adrenal)
+          │    → cardiac fibrosis (fibroblasts)
+          │    → renal efferent constriction (mesangial cells)
+          │    → sympathetic facilitation (NTS, heart)
+          │
+          └──► AT2 receptor  ◄── UNOPPOSED with ARB (AT2 overdrive)
+               Gi / NO / bradykinin signalling
+               → vasodilation
+               → natriuresis
+               → anti-fibrotic (opposes TGF-β)
+               → apoptosis of abnormal cells
+
+  Bradykinin (normal ACE degradation continues with ARBs):
+  → no cough, near-zero angioedema risk
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;">ARBs bind the AT1 receptor with extremely high affinity (Ki in nanomolar range for most agents) and most are surmountable competitive antagonists — at very high angiotensin II concentrations, some agents (losartan) show slight insurmountable binding, while others (candesartan, olmesartan) show tighter, longer-lasting AT1 blockade. This translates to clinical differences in the duration and completeness of 24-hour BP control.</p>
+          <ol class="step-list">
+            <li><strong>AT1 blockade &rarr; vasodilation:</strong> Removal of angiotensin II-mediated vascular smooth muscle constriction &rarr; &darr;systemic vascular resistance &rarr; &darr;afterload</li>
+            <li><strong>AT1 blockade &rarr; &darr;aldosterone:</strong> Reduced aldosterone secretion from adrenal zona glomerulosa &rarr; &darr;renal Na&#x207A; retention &rarr; &darr;plasma volume &rarr; &darr;preload; K&#x207A; retention (hyperkalaemia risk)</li>
+            <li><strong>Renal efferent dilation:</strong> Angiotensin II constricts efferent arteriole preferentially; ARBs relieve this &rarr; &darr;intraglomerular pressure &rarr; &darr;proteinuria. Key mechanism in diabetic nephropathy protection</li>
+            <li><strong>AT2 overdrive (unique to ARBs):</strong> Rising angiotensin II acts through unopposed AT2 &rarr; NO generation, bradykinin release in local tissues, TGF-&#x3b2; antagonism &rarr; anti-fibrotic cardiac and renal effects</li>
+            <li><strong>Anti-remodelling:</strong> AT1 drives cardiac fibroblast proliferation and extracellular matrix deposition. ARBs prevent this &rarr; reverse remodelling in HFrEF, reduction in LVH (LIFE trial)</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Agents</h3>
+          <table class="data-table">
+            <tr><th>Agent</th><th>Half-life</th><th>Standard Dose</th><th>Unique Features</th></tr>
+            <tr>
+              <td><strong>Losartan</strong></td>
+              <td>2 h (active metabolite EXP-3174: 6–9 h)</td>
+              <td>50–100 mg once daily</td>
+              <td>First ARB (1995); active metabolite EXP-3174 is 10–40× more potent; uricosuric (unique — mildly lowers uric acid via URAT1 inhibition); LIFE trial (LVH regression, stroke reduction vs atenolol)</td>
+            </tr>
+            <tr>
+              <td><strong>Valsartan</strong></td>
+              <td>6–9 h</td>
+              <td>80–320 mg once daily</td>
+              <td>Val-HeFT trial drug (HFrEF); high AT1 selectivity; available as sacubitril/valsartan (Entresto, PARADIGM-HF) — now preferred in HFrEF over standalone ARB</td>
+            </tr>
+            <tr>
+              <td><strong>Irbesartan</strong></td>
+              <td>11–15 h</td>
+              <td>150–300 mg once daily</td>
+              <td>IDNT and IRMA-2 trial drug (T2DM nephropathy); no active metabolite; consistent once-daily BP control; linear pharmacokinetics</td>
+            </tr>
+            <tr>
+              <td><strong>Candesartan</strong></td>
+              <td>9–13 h (prodrug: cilexetil)</td>
+              <td>8–32 mg once daily</td>
+              <td>Prodrug hydrolysed in gut wall; very tight, slowly reversible AT1 binding ("insurmountable"); CHARM trial (HFrEF, HFpEF); SCOPE trial (elderly HTN); highest relative AT1 receptor occupancy among class</td>
+            </tr>
+            <tr>
+              <td><strong>Olmesartan</strong></td>
+              <td>13–16 h (prodrug: medoxomil)</td>
+              <td>20–40 mg once daily</td>
+              <td>Prodrug; very potent AT1 blockade; ROADMAP trial (T2DM); rare sprue-like enteropathy (villous atrophy, profound diarrhoea) — class-specific and unique; BP-lowering efficacy among highest in class</td>
+            </tr>
+            <tr>
+              <td><strong>Telmisartan</strong></td>
+              <td>24 h (longest in class)</td>
+              <td>40–80 mg once daily</td>
+              <td>Longest half-life — best 24-hour and early-morning BP coverage; partial PPAR-&#x3b3; agonism (insulin-sensitising, metabolic benefits); biliary excretion — safe in renal impairment; ONTARGET trial vs ramipril</td>
+            </tr>
+            <tr>
+              <td><strong>Azilsartan</strong></td>
+              <td>11 h (prodrug: medoxomil)</td>
+              <td>40–80 mg once daily</td>
+              <td>Newest agent; superior mean 24-h BP lowering vs olmesartan and valsartan in head-to-head trials; very tight, slowly dissociating AT1 binding; no major outcome trials yet</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Use</h3>
+          <table class="data-table">
+            <tr><th>Indication</th><th>Evidence Level</th><th>Key Trials</th><th>Notes</th></tr>
+            <tr>
+              <td><strong>Hypertension</strong></td>
+              <td><span class="badge badge-hi">Class I</span></td>
+              <td>LIFE, VALUE, ONTARGET</td>
+              <td>First-line for HTN with CKD, diabetes, or LVH; all agents broadly equivalent for BP lowering; telmisartan preferred for 24-h coverage</td>
+            </tr>
+            <tr>
+              <td><strong>HFrEF (EF &lt;40%)</strong></td>
+              <td><span class="badge badge-mod">Class I (if ACEi intolerant)</span></td>
+              <td>Val-HeFT, CHARM-Alternative</td>
+              <td>ARBs non-inferior to ACEi in HFrEF. Candesartan or valsartan preferred. ARNI (sacubitril/valsartan) now preferred over standalone ARB per 2022 AHA/ACC/HFSA guidelines</td>
+            </tr>
+            <tr>
+              <td><strong>Diabetic nephropathy (T2DM)</strong></td>
+              <td><span class="badge badge-hi">Class I</span></td>
+              <td>RENAAL (losartan), IDNT (irbesartan)</td>
+              <td>Reduce proteinuria and delay ESRD independent of BP lowering; standard of care in T2DM with CKD and albuminuria</td>
+            </tr>
+            <tr>
+              <td><strong>LVH regression</strong></td>
+              <td><span class="badge badge-hi">Class I</span></td>
+              <td>LIFE (losartan vs atenolol)</td>
+              <td>Losartan superior to atenolol in LVH regression and stroke reduction at similar BP reduction — suggesting LVH benefit beyond BP</td>
+            </tr>
+            <tr>
+              <td><strong>Post-MI LV dysfunction</strong></td>
+              <td><span class="badge badge-mod">Class IIa (ACEi intolerant)</span></td>
+              <td>OPTIMAAL, VALIANT</td>
+              <td>Valsartan non-inferior to captopril post-MI; losartan inferior to captopril (OPTIMAAL) — candesartan or valsartan preferred in this indication</td>
+            </tr>
+          </table>
+
+          <h4>Contraindications</h4>
+          <ul class="se-list">
+            <li><strong>Pregnancy (all trimesters — Category D/X):</strong> Like ACEi, ARBs are teratogenic. AT1 receptors are critical for fetal kidney development — ARB exposure causes oligohydramnios, renal tubular dysplasia, neonatal renal failure, and skull hypoplasia. Contraindicated from conception</li>
+            <li><strong>Bilateral renal artery stenosis / severe unilateral RAS with solitary kidney:</strong> Same haemodynamic risk as ACEi — efferent dilation drops GFR below the threshold sustained by angiotensin II-mediated efferent constriction</li>
+            <li><strong>Hyperkalaemia (K&#x207A; &gt;5.5 mmol/L):</strong> Especially with concomitant MRA, ACEi, or advanced CKD. ARBs reduce aldosterone &rarr; potassium retention</li>
+            <li><strong>Dual RAAS blockade (ARB + ACEi):</strong> ONTARGET definitively showed that combining an ARB (telmisartan) with an ACEi (ramipril) increased hypotension, syncope, and renal failure without additional cardiovascular benefit. Dual RAAS blockade is contraindicated except in highly selected proteinuric CKD under specialist supervision</li>
+            <li><strong>Angioedema from ARBs (rare, AT2-mediated):</strong> ARBs can rarely cause angioedema via AT2-mediated bradykinin release in local tissues. Prior ACEi angioedema is a relative (not absolute) contraindication to ARBs — ARB angioedema risk ~10-fold lower than ACEi, but not zero</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Evidence Base — Landmark Trials</h3>
+          <table class="data-table">
+            <tr><th>Trial</th><th>Drug</th><th>Population</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>Val-HeFT (2001)</strong></td>
+              <td>Valsartan 160 mg BD</td>
+              <td>5,010 patients, HFrEF, NYHA II–IV (on background therapy including ACEi)</td>
+              <td class="trial-result">28% reduction in HF hospitalisation; no significant reduction in all-cause mortality. Subset with no ACEi showed dramatic mortality benefit. Cautionary finding: valsartan + ACEi + beta-blocker combination increased mortality — affirmed that dual RAAS blockade adds harm, not benefit.</td>
+            </tr>
+            <tr>
+              <td><strong>LIFE (2002)</strong></td>
+              <td>Losartan 50–100 mg/day</td>
+              <td>9,193 hypertensive patients with ECG LVH vs atenolol</td>
+              <td class="trial-result">13% reduction in composite CV death/MI/stroke vs atenolol at similar BP reduction. LVH regression significantly greater with losartan. Stroke reduction 25% greater. First evidence that ARBs may have benefits beyond BP lowering, particularly anti-LVH effects.</td>
+            </tr>
+            <tr>
+              <td><strong>RENAAL (2001)</strong></td>
+              <td>Losartan 50–100 mg/day</td>
+              <td>1,513 patients with T2DM, nephropathy, HTN</td>
+              <td class="trial-result">16% reduction in composite of doubling of serum creatinine, ESRD, or death. 35% reduction in ESRD. 35% reduction in first hospitalisation for HF. Benefits independent of BP lowering. Established losartan as standard of care in T2DM nephropathy.</td>
+            </tr>
+            <tr>
+              <td><strong>ONTARGET (2008)</strong></td>
+              <td>Telmisartan 80 mg vs ramipril 10 mg vs combination</td>
+              <td>25,620 high-risk vascular patients (equivalent to HOPE population)</td>
+              <td class="trial-result">Telmisartan non-inferior to ramipril (the gold-standard ACEi) in high-risk vascular patients. Combination arm: significantly more hypotension, syncope, renal impairment — with no reduction in CV outcomes. Definitively ended interest in dual RAAS blockade for cardiovascular prevention.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>ARBs vs ACEi — When to Choose Which:</strong> ACEi and ARBs produce equivalent RAAS blockade and equivalent clinical outcomes across virtually all indications. <strong>The choice is usually driven by tolerability.</strong> ARBs are preferred when: (1) ACEi cough is intolerable (most common switch reason — cough rate ~25–40% ACEi vs &lt;1% ARBs); (2) prior ACEi angioedema (ARB risk much lower but not zero); (3) telmisartan may be preferred for 24-hour BP control and metabolic benefits (PPAR-&#x3b3; activity). <strong>ACEi are preferred when:</strong> HFrEF or post-MI (more outcome data, lower cost); or when the ARNI (sacubitril/valsartan) is the ultimate goal — start ACEi, then upgrade to ARNI.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Side Effects</h3>
+          <ul class="se-list">
+            <li><strong>Hyperkalaemia</strong> — reduced aldosterone leads to potassium retention; clinically significant in advanced CKD (eGFR &lt;30), concomitant MRA, or potassium-sparing diuretics. Monitor K&#x207A; at 1–2 weeks after initiation, dose change, or in any clinical deterioration</li>
+            <li><strong>Acute kidney injury / creatinine rise</strong> — same mechanism as ACEi (efferent arteriolar dilation); up to 30% creatinine rise acceptable. &gt;30% rise prompts investigation for bilateral renal artery stenosis</li>
+            <li><strong>Hypotension (first-dose / postural)</strong> — volume-depleted patients; start at low dose. Less pronounced than ACEi in some patients because no bradykinin-mediated additional vasodilation</li>
+            <li><strong>Angioedema (rare, &lt;0.1%)</strong> — lower risk than ACEi; mechanism involves AT2-mediated tissue bradykinin effects. More common in patients who have already had ACEi angioedema (use with caution) and in Black patients</li>
+            <li><strong>Olmesartan-associated sprue-like enteropathy</strong> — class-specific to olmesartan; presents with severe chronic diarrhoea, weight loss, and villous atrophy on small bowel biopsy months-to-years after starting treatment. Resolves after drug discontinuation; may be misdiagnosed as coeliac disease. FDA warning issued 2013</li>
+            <li><strong>Teratogenicity (Category D/X)</strong> — same mechanism as ACEi; contraindicated in pregnancy at any trimester</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="ace-inhibitors.html" class="conn-pill acts">
+              <span class="rel">Same pathway as</span>
+              ACE Inhibitors
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Acts on</span>
+              Cardiovascular System
+            </a>
+            <a href="kidney.html" class="conn-pill acts">
+              <span class="rel">Protects</span>
+              Kidney / CKD
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              AT1 Receptor (entry pending)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Enables</span>
+              AT2 Overdrive (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Cohn JN, Tognoni G; Valsartan Heart Failure Trial Investigators. A randomized trial of the angiotensin-receptor blocker valsartan in chronic heart failure (Val-HeFT). <em>N Engl J Med.</em> 2001;345(23):1667-75. <a href="https://doi.org/10.1056/NEJMoa010713">doi:10.1056/NEJMoa010713</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11759645/">PubMed 11759645</a></li>
+            <li>Dahlöf B, Devereux RB, Kjeldsen SE, et al. Cardiovascular morbidity and mortality in the Losartan Intervention For Endpoint reduction in hypertension study (LIFE). <em>Lancet.</em> 2002;359(9311):995-1003. <a href="https://doi.org/10.1016/S0140-6736(02)08089-3">doi:10.1016/S0140-6736(02)08089-3</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11937178/">PubMed 11937178</a></li>
+            <li>Brenner BM, Cooper ME, de Zeeuw D, et al. Effects of losartan on renal and cardiovascular outcomes in patients with type 2 diabetes and nephropathy (RENAAL). <em>N Engl J Med.</em> 2001;345(12):861-9. <a href="https://doi.org/10.1056/NEJMoa011161">doi:10.1056/NEJMoa011161</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11565518/">PubMed 11565518</a></li>
+            <li>The ONTARGET Investigators. Telmisartan, ramipril, or both in patients at high risk for vascular events. <em>N Engl J Med.</em> 2008;358(15):1547-59. <a href="https://doi.org/10.1056/NEJMoa0801317">doi:10.1056/NEJMoa0801317</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18378520/">PubMed 18378520</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="ace-inhibitors.html">ACE Inhibitors</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

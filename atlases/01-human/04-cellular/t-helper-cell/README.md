@@ -45,6 +45,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: infected-by
     note: "SARS-CoV-2 can infect a subset of CD4+ T cells via ACE2 or CD147; viral RNA has been detected in T cells from severe COVID-19 patients, potentially contributing to lymphopenia and immune dysregulation."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: infected-by
+    note: "HIV-1 preferentially depletes CD4+ T helper cells via CCR5/CXCR4-mediated entry; progressive loss below 200 cells/μL defines AIDS and abrogates all T-cell-dependent adaptive immunity."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: damaged-by
+    note: "HIV-induced CD4+ T cell depletion occurs via direct cytopathic killing, pyroptosis of bystander cells, immune activation exhaustion, and Nef-mediated MHC-II downregulation impairing antigen presentation."
+  - target: 01-human/03-molecular/il-6
+    relation: expresses
+    note: "Activated CD4+ T helper cells, particularly Th17 precursors, co-produce IL-6 with TGF-β, driving autocrine Th17 differentiation and amplifying local inflammatory circuits."
 ---
 
 # T Helper Cell

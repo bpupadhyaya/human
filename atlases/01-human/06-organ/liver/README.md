@@ -56,6 +56,21 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/statins
     relation: treated-by
     note: "Statins inhibit HMG-CoA reductase in hepatocytes, reducing LDL-C synthesis and upregulating hepatic LDL receptor expression; approved for primary and secondary cardiovascular prevention."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: infected-by
+    note: "HBV infects hepatocytes via NTCP receptor; cccDNA persists in hepatocyte nuclei as a stable minichromosome; chronic infection leads to fibrosis progression (Metavir F0→F4), cirrhosis, and HCC in 20–30% of cirrhotics."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: damaged-by
+    note: "HBV-mediated immune activation drives hepatocellular necroinflammation; progressive hepatocyte loss causes bridging fibrosis, cirrhosis, portal hypertension, and hepatocellular carcinoma."
+  - target: 01-human/03-molecular/il-6
+    relation: modulated-by
+    note: "IL-6/gp130 signaling drives the hepatic acute-phase response: CRP, fibrinogen, SAA, hepcidin synthesis ↑; albumin, transferrin ↓; this is the molecular basis for elevated inflammatory markers in infection and injury."
+  - target: 01-human/03-molecular/cortisol
+    relation: modulated-by
+    note: "Cortisol drives hepatic gluconeogenesis (via PEPCK, G6Pase induction) and glycogen synthesis; chronic glucocorticoid excess causes hepatic steatosis and central obesity."
+  - target: 01-human/03-molecular/insulin
+    relation: modulated-by
+    note: "Insulin suppresses hepatic glucose output via FOXO1 phosphorylation and promotes glycogen synthesis and lipogenesis; hepatic insulin resistance is a key driver of fasting hyperglycemia in T2DM."
 taxonomy:
   uberon: "UBERON:0002107"
   fma: "FMA:7197"

@@ -42,6 +42,9 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: infected-by
     note: "Plasmacytoid DCs and some monocyte-derived DCs are susceptible to SARS-CoV-2 infection; viral accessory proteins suppress MHC-II expression and type I IFN production, impairing antigen presentation."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: infected-by
+    note: "Plasmacytoid and myeloid DCs express CD4 and CCR5/CXCR4; HIV-1 infects and impairs DCs, suppressing type I IFN production and MHC-II-mediated antigen presentation to T cells, facilitating immune escape."
 ---
 
 # Dendritic Cell

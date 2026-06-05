@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Streptococcus pneumoniae — Atlas Two Pathogen entry. Virulence factors, capsule serotypes, lobar pneumonia, bacteremia, meningitis, PCV13 vs PPSV23, penicillin resistance. Part of the Human Engineering project.">
+  <meta property="og:title" content="Streptococcus pneumoniae — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Pneumococcus entry: capsule, pneumolysin, PspA, colonisation-to-invasive progression, PCV13/PPSV23 vaccines, pbp resistance, lobar pneumonia, meningitis.">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Streptococcus pneumoniae — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7;
+      --bg-elev: #ffffff;
+      --bg-soft: #e5e5ea;
+      --fg: #1c1c1e;
+      --fg-soft: #3a3a3c;
+      --muted: #6e6e73;
+      --muted-2: #8e8e93;
+      --border: #d1d1d6;
+      --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #1e40af;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg); color: var(--fg);
+      line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+    }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
+    a:hover { color: var(--human); }
+
+    /* ---------- NAV ---------- */
+    nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
+    }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+
+    /* ---------- HERO ---------- */
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      background: rgba(30, 64, 175, 0.1); color: var(--accent);
+      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
+    }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 22ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    /* ---------- MAIN ---------- */
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger  { border-left-color: #dc2626; }
+    .mech-item.immune  { border-left-color: var(--ai); }
+    .mech-item.resist  { border-left-color: #ea580c; }
+    .mech-item.drug    { border-left-color: var(--bio); }
+    .mech-item.vasc    { border-left-color: var(--accent); }
+
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.resist   { border-color: #ea580c; color: #ea580c; background: rgba(234,88,12,0.07); }
+    .itag.vax      { border-color: var(--bio); color: var(--bio); background: rgba(5,150,105,0.07); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.colonises .rel { color: var(--accent); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Pathogens
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Scale 02-Bacteria</div>
+    <h1>Streptococcus pneumoniae</h1>
+    <p class="tagline">The leading cause of community-acquired pneumonia and adult bacterial meningitis worldwide. Over 100 polysaccharide serotypes; colonises the nasopharynx asymptomatically before invading the host when defences slip.</p>
+    <p class="subtagline">Gram-positive, lancet-shaped diplococci living in the nasopharynx of 20–40% of healthy adults. Pneumococcus is a master of opportunistic pathogenesis: it transitions from commensal coloniser to lobar pneumonia, bacteremia, and meningitis when physical or immune barriers are compromised. Its polysaccharide capsule — the primary virulence factor and vaccine target — exists in &gt;100 antigenically distinct serotypes, driving vaccine design toward broad coverage. Penicillin resistance occurs not through &#946;-lactamase but through mosaic mutations in penicillin-binding protein genes (<em>pbp1a</em>, <em>pbp2b</em>, <em>pbp2x</em>) acquired from commensal streptococci.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">#1</span><span class="stat-label">Cause adult CAP</span></div>
+      <div class="stat"><span class="stat-num">#1</span><span class="stat-label">Adult bacterial meningitis</span></div>
+      <div class="stat"><span class="stat-num">&gt;100</span><span class="stat-label">Capsule serotypes</span></div>
+      <div class="stat"><span class="stat-num">~1M</span><span class="stat-label">Child deaths / year (pre-PCV)</span></div>
+    </div>
+  </div>
+
+  <main>
+
+    <div class="detail-card" id="s-pneumoniae">
+      <div class="detail-header" style="background: linear-gradient(135deg, #1e40af, #1e3a8a);">
+        <div class="entry-eyebrow">Streptococcaceae &middot; Streptococcus &middot; Gram-positive, Encapsulated diplococci &middot; ~0.5–1.25 &#956;m</div>
+        <h3>Streptococcus pneumoniae <span style="font-weight:400;font-size:0.68em;opacity:0.75;">(the pneumococcus)</span></h3>
+        <p class="summary">Alpha-haemolytic Gram-positive diplococci, facultative anaerobe, optochin-sensitive, bile-soluble. 2.0 Mb genome; no flagella; non-motile. The polysaccharide capsule is the master virulence determinant — anti-phagocytic, anti-complement, anti-opsonin — and the primary vaccine antigen. Pneumolysin (Ply), a cholesterol-dependent cytolysin, is the key toxin: it forms transmembrane pores in host cells and activates complement. Below the capsule, surface proteins PspA, PspC/CbpA, and PiuA mediate adherence, complement evasion, and iron acquisition. After nasopharyngeal colonisation, pneumococcus invades when mucosal barriers are disrupted (viral infection, anatomical defect, immune deficiency), causing lobar pneumonia → bacteremia → meningitis — a stereotyped progression exploiting the same surface-protein toolkit at each anatomical site.</p>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h4>Virulence Factors</h4>
+          <table class="detail-table">
+            <tr><td>Polysaccharide capsule</td><td>&gt;100 distinct serotypes (CPS). Anti-phagocytic: prevents complement C3b opsonisation and Fc receptor recognition. The dominant vaccine target. Encapsulated strains required for invasive disease; unencapsulated strains cause mucosal-only disease (e.g. otitis media, conjunctivitis).</td></tr>
+            <tr><td>Pneumolysin (Ply)</td><td>Cholesterol-dependent cytolysin; forms &beta;-barrel pores in host membranes (lung epithelium, endothelium, erythrocytes). Activates the complement classical pathway; stimulates TNF-&#945; and IL-1&#946; via TLR4. Causes ALI in pneumonia and BBB disruption in meningitis. Ply is cytoplasmic — released via autolysin-mediated autolysis.</td></tr>
+            <tr><td>PspA (pneumococcal surface protein A)</td><td>Blocks classical complement activation by binding C-reactive protein and factor H. Highly immunogenic; included in experimental protein vaccines. PspA family 1 (clades 1–2) and family 2 (clades 3–5).</td></tr>
+            <tr><td>CbpA / PspC (choline-binding protein A)</td><td>Binds secretory IgA and complement factor H — dual complement evasion and mucosal adhesion. Mediates transcytosis across nasopharyngeal epithelium via polymeric immunoglobulin receptor (pIgR). Essential for invasion.</td></tr>
+            <tr><td>Autolysin (LytA)</td><td>N-acetylmuramyl-L-alanine amidase; lyses pneumococcal cells during stationary phase or antibiotic-induced lysis, releasing pneumolysin, DNA, and teichoic acids — amplifying the inflammatory cascade. The biochemical basis of bile solubility and optochin sensitivity.</td></tr>
+            <tr><td>Hyaluronidase</td><td>Degrades hyaluronic acid in connective tissue matrix, facilitating spread from alveolar space into interstitium and blood.</td></tr>
+            <tr><td>IgA1 protease</td><td>Cleaves the hinge region of secretory IgA1, destroying mucosal immunity and enabling colonisation despite local antibody. Key colonisation factor shared with <em>H. influenzae</em> and <em>N. meningitidis</em>.</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Pathogenesis — Colonisation to Invasive Disease</h4>
+          <div class="mech-list">
+            <div class="mech-item vasc">
+              <h5>Stage 1 &middot; Nasopharyngeal colonisation (asymptomatic)</h5>
+              <p>CbpA/PspC binds carbohydrate moieties on nasopharyngeal epithelial cells. IgA1 protease destroys mucosal antibody. Pneumococcus forms biofilms on epithelial surfaces (facilitated by LytA-mediated release of eDNA). Colonisation rates: 20–40% adults, up to 65% in children; highest in winter. Colonisation is the obligate precursor to all invasive disease and the transmission reservoir.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>Stage 2 &middot; Lobar pneumonia — alveolar invasion</h5>
+              <p>Aspiration of colonising organisms past epiglottic/mucociliary defences (impaired by influenza, alcohol, smoking, or immunosuppression) delivers pneumococci to lower airways. Bacteria bind platelet-activating factor receptor (PAF-R) on type II pneumocytes via phosphorylcholine on teichoic acid, triggering transcytosis. Alveolar macrophages initiate phagocytosis — overwhelmed when capsule load is high. IL-8/CXCL1 recruits neutrophils; massive exudate fills alveolar spaces. Classic lobar consolidation on CXR reflects confluent alveolar flooding — the radiographic hallmark distinguishing pneumococcal from atypical CAP.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>Stage 3 &middot; Bacteremia</h5>
+              <p>Bacteremia occurs in 15–30% of pneumococcal pneumonia; mortality rises sharply. Capsule enables intravascular survival by resisting complement-mediated killing and neutrophil phagocytosis. Bacteremic pneumococcal pneumonia is associated with sepsis, DIC, and multiorgan failure. The spleen is the primary site of pneumococcal clearance — asplenic/hyposplenic patients (sickle cell disease, post-splenectomy) are at dramatically elevated risk of fulminant sepsis ("overwhelming post-splenectomy infection," OPSI).</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>Stage 4 &middot; Meningitis — CNS invasion</h5>
+              <p>Bacteremia seeds the choroid plexus; pneumococcal surface adhesins (PavB, CbpA) bind fibronectin and laminin on brain endothelium. Transcytosis across the blood-brain barrier initiates CSF invasion. Pneumolysin and cell wall components (peptidoglycan, teichoic acid) activate TLR2/TLR4 on microglia and astrocytes, driving IL-1&#946;, TNF-&#945;, and IL-6 surges. Neutrophil infiltration into CSF produces H&#8322;O&#8322; and proteases that damage neurons, basilar cistern adhesions causing CN palsies, and aquaporin-mediated brain oedema. Case fatality rate 20–30% despite antibiotics; 30–50% of survivors have neurological sequelae (hearing loss, cognitive deficit).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Clinical Manifestations</h4>
+          <table class="path-table">
+            <tr><th>Syndrome</th><th>Distinguishing features</th><th>Key complications</th></tr>
+            <tr><td>Community-acquired pneumonia (CAP)</td><td>Abrupt onset, rigors, pleuritic chest pain, rust-coloured sputum; lobar consolidation on CXR; WBC &gt;15&times;10&#8305;/L</td><td>Parapneumonic effusion, empyema, lung abscess (rare with S. pneumoniae), respiratory failure</td></tr>
+            <tr><td>Bacteremia (without focus)</td><td>Febrile illness without localising signs; high mortality in elderly/asplenic</td><td>Septic shock, DIC, OPSI in asplenic patients</td></tr>
+            <tr><td>Bacterial meningitis</td><td>Classic triad: fever, neck stiffness, altered mental status; CSF: &#8593; WBC (neutrophils), &#8593; protein, &#8595; glucose</td><td>Hearing loss, hydrocephalus, CN palsy, cortical infarction, death</td></tr>
+            <tr><td>Acute otitis media (AOM)</td><td>Most common bacterial cause in children; unencapsulated strains common here</td><td>Mastoiditis, intracranial extension (rare)</td></tr>
+            <tr><td>Sinusitis</td><td>Complication of viral URI; maxillary most common</td><td>Orbital cellulitis, intracranial extension</td></tr>
+            <tr><td>Empyema</td><td>Complicated parapneumonic effusion with bacteria in pleural space; requires drainage</td><td>Fibrinous loculation, lung entrapment</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Vaccine Comparison — PCV13 vs PPSV23</h4>
+          <table class="path-table">
+            <tr><th>Feature</th><th>PCV13 (Prevnar 13)</th><th>PPSV23 (Pneumovax 23)</th></tr>
+            <tr><td>Type</td><td>Conjugate (CPS linked to CRM197 protein)</td><td>Polysaccharide only (unconjugated)</td></tr>
+            <tr><td>Immune mechanism</td><td>T-dependent: activates CD4+ Th cells → immunological memory, affinity maturation, IgG class switching</td><td>T-independent: B-cell direct activation → no memory, no boostable response, poor in children &lt;2 years</td></tr>
+            <tr><td>Serotypes covered</td><td>13 (1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 23F)</td><td>23 (broader coverage incl. many non-PCV13 serotypes)</td></tr>
+            <tr><td>Efficacy in &lt;2 years</td><td>Effective — major impact on childhood IPD</td><td>Ineffective — T-independent response immature in infants</td></tr>
+            <tr><td>Herd immunity</td><td>Yes — colonisation reduction confers indirect protection to unvaccinated</td><td>No herd protection</td></tr>
+            <tr><td>Recommended for</td><td>All infants (2, 4, 6, 12–15 months); adults &#8805;65 (sequential with PPSV23); immunocompromised</td><td>Adults &#8805;65 (after PCV); high-risk adults 19–64 (asplenia, immunosuppression, chronic illness)</td></tr>
+            <tr><td>PCV15 / PCV20</td><td colspan="2">Newer conjugate vaccines (PCV15 = 13 + 22F, 33F; PCV20 = 13 + 7 additional) now recommended in many guidelines, progressively replacing PCV13 in adults.</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Penicillin Resistance — pbp Mutations, Not &#946;-Lactamase</h4>
+          <div class="mech-list">
+            <div class="mech-item resist">
+              <h5>Mechanism: altered penicillin-binding proteins (PBPs)</h5>
+              <p>Unlike <em>Staphylococcus aureus</em>, pneumococcus does not produce &#946;-lactamase. Resistance arises through point mutations and mosaic gene sequences in the PBP genes — <em>pbp1a</em>, <em>pbp2b</em>, and <em>pbp2x</em> — encoding cell wall transpeptidases. These mutations (often acquired from commensal streptococci via natural transformation and recombination) reduce the affinity of PBPs for &#946;-lactam antibiotics. The clinical breakpoints: penicillin MIC &lt;0.06 &#956;g/mL = susceptible; 0.12–1 = intermediate; &#8805;2 = resistant (non-meningitis); &#8805;0.12 = non-susceptible for meningitis (lower threshold due to poor CSF penetration).</p>
+            </div>
+            <div class="mech-item resist">
+              <h5>Epidemiology and clonal spread</h5>
+              <p>Global spread driven by successful resistant clones (e.g. Spain&#178;&#8315;-23F, Taiwan&#185;&#8313;F-14, multidrug-resistant 19A — ST320 clone) disseminated internationally. Penicillin non-susceptibility varies geographically: &lt;5% in most of Europe, &gt;30% in some East Asian and Middle Eastern countries. Conjugate vaccines targeting 19A have significantly reduced resistant-clone prevalence where widely used.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>Clinical impact and treatment adjustments</h5>
+              <p>For non-meningitis CAP: amoxicillin remains effective for most intermediate-resistance strains (pharmacokinetic/pharmacodynamic target attainment). For meningitis: use high-dose ceftriaxone (2 g IV q12h) ± vancomycin empirically until susceptibilities known — CSF penetration of penicillin/amoxicillin is inadequate against resistant strains. For MDR strains: moxifloxacin (respiratory fluoroquinolone), linezolid, or ceftaroline as alternatives.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Immune Signature</h4>
+          <div class="immune-tags">
+            <span class="itag innate">TLR2 (peptidoglycan / teichoic acid)</span>
+            <span class="itag innate">TLR4 (pneumolysin)</span>
+            <span class="itag innate">NLRP3 inflammasome → IL-1&#946; (pneumolysin pore)</span>
+            <span class="itag innate">Complement C3b opsonisation (blocked by capsule)</span>
+            <span class="itag innate">Alveolar macrophage first-line phagocytosis</span>
+            <span class="itag adaptive">IgG anti-capsular antibody (primary protective mechanism)</span>
+            <span class="itag adaptive">CD4+ Th17 — IL-17 recruits neutrophils to lung</span>
+            <span class="itag resist">Capsule blocks complement opsonisation — core immune evasion</span>
+            <span class="itag vax">PCV13: T-dependent memory IgG anti-CPS — boostable, herd protection</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Cross-Atlas Connections</h4>
+          <div class="connections">
+            <a class="conn-pill colonises" href="respiratory-system.html"><span class="rel">Colonises</span>Nasopharynx (respiratory system)</a>
+            <a class="conn-pill damages" href="lung.html"><span class="rel">Damages</span>Lung — lobar pneumonia</a>
+            <a class="conn-pill damages" href="brain.html"><span class="rel">Damages</span>CNS — bacterial meningitis</a>
+            <a class="conn-pill infects" href="immune-system.html"><span class="rel">Evades</span>Complement (capsule); phagocytosis</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
+          <ul class="refs">
+            <li>Weiser JN, Ferreira DM, Paton JC. Streptococcus pneumoniae: transmission, colonization and invasion. <em>Nat Rev Microbiol.</em> 2018;16(6):355–67. <a href="https://doi.org/10.1038/s41579-018-0001-8" target="_blank" rel="noopener">doi:10.1038/s41579-018-0001-8</a> &middot; PubMed 29599457</li>
+            <li>Mook-Kanamori BB, Geldhoff M, van der Poll T, van de Beek D. Pathogenesis and pathophysiology of pneumococcal meningitis. <em>Clin Microbiol Rev.</em> 2011;24(3):557–91. <a href="https://doi.org/10.1128/CMR.00008-11" target="_blank" rel="noopener">doi:10.1128/CMR.00008-11</a> &middot; PubMed 21734248</li>
+            <li>Feldman C, Anderson R. Recent advances in our understanding of Streptococcus pneumoniae infection. <em>F1000Prime Rep.</em> 2014;6:82. <a href="https://doi.org/10.12703/P6-82" target="_blank" rel="noopener">doi:10.12703/P6-82</a> &middot; PubMed 25343036</li>
+            <li>Tomczyk S, Bennett NM, Stoecker C, et al. Use of 13-valent pneumococcal conjugate vaccine and 23-valent pneumococcal polysaccharide vaccine among adults aged &#8805;65 years. MMWR 2014;63(37):822–5. <a href="https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6337a4.htm" target="_blank" rel="noopener">cdc.gov/mmwr</a></li>
+            <li>Appelbaum PC. Resistance among Streptococcus pneumoniae: implications for drug selection. <em>Clin Infect Dis.</em> 2002;34(12):1613–20. <a href="https://doi.org/10.1086/340400" target="_blank" rel="noopener">doi:10.1086/340400</a> &middot; PubMed 12032898</li>
+            <li>Pilishvili T, Lexau C, Farley MM, et al. Sustained reductions in invasive pneumococcal disease in the era of conjugate vaccine. <em>J Infect Dis.</em> 2010;201(1):32–41. <a href="https://doi.org/10.1086/648593" target="_blank" rel="noopener">doi:10.1086/648593</a> &middot; PubMed 19947881</li>
+          </ul>
+        </div>
+
+      </div>
+    </div><!-- /.detail-card -->
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers pneumococcal biology, invasive disease progression, vaccine immunology, and resistance mechanisms. Planned expansions: non-typeable pneumococcal strains in otitis media, serotype replacement dynamics post-PCV, and novel protein vaccine candidates (PspA, PlyD1). Every entry follows the same open schema.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=S.pneumoniae%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="lung.html">Lung</a>
+      <a href="respiratory-system.html">Respiratory System</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

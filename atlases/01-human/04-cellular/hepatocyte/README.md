@@ -45,6 +45,12 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/statins
     relation: modulated-by
     note: "Statins inhibit HMG-CoA reductase in hepatocytes, reducing intracellular cholesterol synthesis and upregulating LDL receptor expression to clear circulating LDL-C."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: infected-by
+    note: "Hepatocytes are the exclusive replication site for HBV; viral entry is mediated by preS1 binding to NTCP (SLC10A1) transporter; cccDNA persists in nucleus as viral minichromosome, conferring lifelong reservoir."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: damaged-by
+    note: "HBV-mediated hepatocyte injury is primarily immune-mediated (CTL-driven hepatocyte killing) rather than direct cytopathic; hepatocyte loss drives fibrosis, cirrhosis, and HCC risk."
 taxonomy:
   cell_ontology: "CL:0000182"
   lineage: "endoderm — hepatic endoderm — hepatoblast — hepatocyte"

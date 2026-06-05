@@ -6,7 +6,7 @@ atlas: 04-vaccine
 platform: 01-mrna
 status: draft
 last_reviewed: 2026-06-04
-summary: "Modified-nucleoside mRNA vaccine encoding the SARS-CoV-2 prefusion-stabilized (2P) spike protein, delivered in a lipid nanoparticle. Co-developed by Moderna and the NIH Vaccine Research Center; designed within 2 days of the SARS-CoV-2 sequence release; first clinical batch shipped 6 weeks later; FDA EUA December 2020."
+summary: "Modified-nucleoside mRNA-LNP encoding prefusion-stabilized (2P) SARS-CoV-2 spike. Moderna/NIH VRC; sequence-to-IND 42 days. 94.1% efficacy (COVE trial). FDA EUA December 2020; first mRNA vaccine on WHO Emergency Use Listing."
 aliases: ["Spikevax", "Moderna COVID-19 vaccine", "CX-024414", "elasomeran"]
 target_pathogens:
   - target: 02-pathogen/01-viruses/sars-cov-2
@@ -185,7 +185,7 @@ The mRNA is encapsulated in a **lipid nanoparticle (LNP)** with four lipid compo
 
 The LNP is a ~80–100 nm sphere with the mRNA in its hydrophilic core, surrounded by a lipid bilayer/multi-lamellar architecture. After intramuscular injection, LNPs are taken up by local cells (myocytes, dermal dendritic cells, draining-lymph-node cells) via endocytosis, the ionizable lipid disrupts the endosomal membrane, and the mRNA is released into the cytoplasm where ribosomes translate it.
 
-## Mechanism of immunity
+## Immunogenicity
 
 Translated spike protein is processed via two pathways simultaneously:
 
@@ -269,6 +269,13 @@ Variant-targeted formulations (bivalent BA.1, bivalent BA.4/5, monovalent XBB.1.
 - **Self-amplifying mRNA at lower doses** — saRNA platforms (ARCT-154 / Kostaive) achieve protection at ~1/10 the dose; next-generation candidates may displace m1Ψ-modified mRNA if reactogenicity and durability profiles improve.
 - **Pan-coronavirus / variant-proof spike designs** — hexapro stabilization, designed nanoparticle scaffolds, conserved-epitope display. Multiple candidates are in clinical development.
 - **Correlates of protection with strict CIs** — population-level threshold values for anti-RBD IgG and pseudovirus-neutralizing titer that confer protection have been estimated but not yet codified as regulatory bridging endpoints, which would speed authorization of variant-updated formulations.
+
+## Connections
+
+- **Target pathogen**: [`02-pathogen/01-viruses/sars-cov-2`](../../../02-pathogen/01-viruses/sars-cov-2/README.md)
+- **Sibling mRNA vaccine**: [`04-vaccine/01-mrna/bnt162b2`](../bnt162b2/README.md) (Pfizer-BioNTech, ALC-0315 LNP, 30 µg)
+- **Antigen target**: prefusion-stabilized spike protein; B cells in draining lymph nodes generate anti-RBD IgG
+- **Immune effectors**: CD4+ Th1 T cells, CD8+ cytotoxic T cells, anti-spike neutralizing IgG (IgG1/IgG3)
 
 ## See also
 

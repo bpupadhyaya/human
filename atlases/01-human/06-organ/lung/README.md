@@ -49,6 +49,9 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: damaged-by
     note: "Pulmonary tuberculosis causes caseating granulomas, cavitation, and progressive parenchymal destruction within the lung; upper lobe predominance reflects higher O₂ tension."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: infected-by
+    note: "S. pneumoniae is the most common cause of community-acquired bacterial pneumonia; aspiration of colonized nasopharyngeal secretions seeds alveolar spaces, causing lobar consolidation, fibrinous exudate, and impaired gas exchange."
 taxonomy:
   uberon: "UBERON:0002048"
   fma: "FMA:7195"

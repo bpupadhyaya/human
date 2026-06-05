@@ -47,6 +47,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: part-of
     note: "IgG is the principal soluble effector molecule of the humoral adaptive immune system, circulating in blood and extravascular spaces."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: targets
+    note: "Neutralizing IgG targeting HIV-1 gp120/gp41 provides partial protection; broadly neutralizing antibodies (bNAbs) against the CD4-binding site and V3 loop are under investigation for prevention and therapy."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: targets
+    note: "Anti-HBsAg IgG (anti-HBs titer ≥10 mIU/mL) is the correlate of protection from HBV vaccination; anti-HBc IgG marks prior infection; therapeutic monoclonal anti-HBs (HBIG) is used for post-exposure prophylaxis."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: targets
+    note: "Serotype-specific IgG against the pneumococcal polysaccharide capsule is the primary correlate of vaccine-mediated protection; PCV13-elicited T-dependent IgG persists longer than PPSV23-elicited T-independent responses."
 ---
 
 # Immunoglobulin G

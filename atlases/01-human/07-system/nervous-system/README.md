@@ -51,6 +51,18 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Autonomic nervous system controls heart rate, vascular tone, and blood pressure; baroreceptor reflex links the two systems bidirectionally."
+  - target: 01-human/03-molecular/serotonin
+    relation: modulated-by
+    note: "CNS serotonin (5-HT) from raphe nuclei projects broadly to limbic, prefrontal cortex, and cerebellar circuits; regulates mood, sleep-wake cycles, appetite, cognition, and thermoregulation via 14+ receptor subtypes."
+  - target: 01-human/03-molecular/cortisol
+    relation: modulated-by
+    note: "Cortisol crosses the blood-brain barrier and acts on hippocampal, amygdalar, and prefrontal GRs, modulating memory consolidation, fear conditioning, and mood; chronic cortisol excess causes hippocampal atrophy and depression-like states."
+  - target: 01-human/03-molecular/cortisol
+    relation: modulates
+    note: "The CNS drives cortisol secretion via the HPA axis: hypothalamic CRH → anterior pituitary ACTH → adrenal cortex cortisol; hippocampal GRs provide negative feedback to terminate the cortisol response after acute stress."
+  - target: 01-human/03-molecular/insulin
+    relation: modulated-by
+    note: "Insulin crosses the BBB via receptor-mediated transcytosis; acts in hypothalamus to suppress appetite and food intake; modulates hippocampal synaptic plasticity and memory; central insulin resistance contributes to neurodegeneration risk."
 ---
 
 # Nervous System

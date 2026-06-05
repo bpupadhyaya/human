@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Serotonin (5-HT) — biosynthesis from tryptophan, 14+ receptor subtypes, SERT reuptake, SSRIs, and the dual gut–brain serotonin system. Part of the Human Engineering project.">
+  <meta property="og:title" content="Serotonin (5-HT) — Molecular Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Serotonin (5-HT) — Molecular Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #7c3aed;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
+    .principle-box { background: rgba(124,58,237,0.06); border: 1px solid rgba(124,58,237,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 03-Molecular</div>
+    <h1>Serotonin (5-HT)</h1>
+    <p class="tagline">5-hydroxytryptamine — the dual-function monoamine that governs gut motility and CNS mood, synthesized from dietary tryptophan via TPH1/2 and AADC.</p>
+    <p class="subtagline">~95% lives in enterochromaffin cells of the GI tract; only ~5% crosses the blood-brain barrier. Fourteen-plus receptor subtypes spanning Gi, Gq, and Gs G-proteins plus a ligand-gated ion channel (5-HT3). SERT (SLC6A4) is the primary reuptake transporter and the target of the most-prescribed antidepressants on earth.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">176.21</span><span class="stat-label">MW (g/mol)</span></div>
+      <div class="stat"><span class="stat-num">~95%</span><span class="stat-label">GI (enterochromaffin)</span></div>
+      <div class="stat"><span class="stat-num">14+</span><span class="stat-label">Receptor subtypes</span></div>
+      <div class="stat"><span class="stat-num">SLC6A4</span><span class="stat-label">SERT gene (SSRI target)</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Monoamine Neurotransmitter / Enteric Hormone</div>
+        <h2>Serotonin (5-HT)</h2>
+        <div class="drug-class">Class: Monoamine &nbsp;&middot;&nbsp; Neurotransmitter &nbsp;&middot;&nbsp; Enteric hormone &nbsp;&middot;&nbsp; Paracrine mediator &nbsp;|&nbsp; Gene: TPH1 (peripheral), TPH2 (CNS) &nbsp;|&nbsp; UniProt (SERT): Q9Y3Q4</div>
+        <p class="summary">Serotonin (5-hydroxytryptamine, 5-HT) is a monoamine derived from the essential amino acid tryptophan. Despite its fame as a "brain chemical," the vast majority of the body's serotonin resides in the gut, where it regulates motility and acts as a paracrine signal. In the central nervous system, raphe nucleus neurons project widely to modulate mood, appetite, sleep, and cognition. The discovery that selective serotonin reuptake inhibitors (SSRIs) elevate synaptic 5-HT and alleviate depression transformed psychiatry — SSRIs became the most-prescribed class of psychiatric drugs worldwide. The 14+ receptor subtypes of 5-HT mediate diverse and sometimes opposing effects across the body.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">5-hydroxytryptamine</span>
+          <span class="alias-pill">5-HT</span>
+          <span class="alias-pill">enteramine</span>
+          <span class="alias-pill">thrombocytin</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Biosynthesis Pathway</h3>
+          <div class="pathway-block">
+<pre>
+  Tryptophan  (dietary essential amino acid)
+       │
+       │  Tryptophan hydroxylase 1 (TPH1) — gut, pineal
+       │  Tryptophan hydroxylase 2 (TPH2) — raphe neurons (CNS)
+       │  Co-factor: tetrahydrobiopterin (BH4); molecular O₂
+       ▼
+  5-Hydroxytryptophan  (5-HTP)
+       │
+       │  Aromatic L-amino acid decarboxylase (AADC / DDC)
+       │  Co-factor: pyridoxal phosphate (vitamin B6)
+       ▼
+  Serotonin (5-HT)  ←── stored in vesicles; released by Ca²⁺-dependent exocytosis
+       │
+       ├─── Reuptake via SERT (SLC6A4) → recycled or degraded
+       │
+       ├─── MAO-A oxidative deamination → 5-HIAA  (urine metabolite)
+       │
+       └─── N-acetyltransferase / HIOMT (pineal gland only)
+                 ↓
+            Melatonin  (N-acetyl-5-methoxytryptamine)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Rate-limiting step:</strong> Tryptophan hydroxylation by TPH1/2. Availability of dietary tryptophan limits 5-HT synthesis, particularly in the CNS where tryptophan competes with other large neutral amino acids for the LAT1 transporter across the blood-brain barrier.</p>
+          <p><strong>Peripheral vs. central synthesis:</strong> TPH1 is expressed in enterochromaffin (EC) cells of the gut mucosa, platelets, and the pineal gland. TPH2 is expressed exclusively in neurons of the raphe nuclei in the brainstem — the sole source of CNS serotonin. These two pools are largely independent: peripherally produced serotonin does not cross the blood-brain barrier.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Receptor Subtypes</h3>
+          <p>The serotonin receptor family is the largest in the CNS. All subtypes except 5-HT3 are GPCRs. 5-HT3 is a ligand-gated cation channel (related to the nAChR superfamily).</p>
+          <table class="data-table">
+            <tr><th>Receptor</th><th>G-protein</th><th>Distribution</th><th>Key Functions</th><th>Clinical relevance</th></tr>
+            <tr>
+              <td><strong>5-HT1A</strong></td>
+              <td>Gi/Go (&#8595;cAMP)</td>
+              <td>Raphe nuclei (somatodendritic autoreceptors), hippocampus, cortex</td>
+              <td>Autoreceptor: inhibits raphe firing &rarr; reduces 5-HT release. Anxiolytic, antidepressant effects when blocked/desensitized</td>
+              <td>Target of buspirone (partial agonist); SSRI efficacy partly via 5-HT1A desensitization after chronic use</td>
+            </tr>
+            <tr>
+              <td><strong>5-HT1B/1D</strong></td>
+              <td>Gi/Go (&#8595;cAMP)</td>
+              <td>Presynaptic terminals (heteroreceptors and autoreceptors), basal ganglia, cerebral blood vessels</td>
+              <td>Terminal autoreceptors: inhibit 5-HT release; vasoconstriction of cranial vessels</td>
+              <td>Triptans (sumatriptan, rizatriptan) are 5-HT1B/1D agonists — migraine acute treatment</td>
+            </tr>
+            <tr>
+              <td><strong>5-HT2A</strong></td>
+              <td>Gq (&#8593;IP3/DAG, &#8593;Ca&#xb2;&#x207a;)</td>
+              <td>Cortex (layer V pyramidal neurons), platelets, smooth muscle</td>
+              <td>Excitatory; modulates glutamate release; platelet aggregation; vasoconstriction</td>
+              <td>Target of classic hallucinogens (LSD, psilocybin — agonists). Atypical antipsychotics are 5-HT2A antagonists (e.g. olanzapine, risperidone)</td>
+            </tr>
+            <tr>
+              <td><strong>5-HT2C</strong></td>
+              <td>Gq (&#8593;IP3/DAG)</td>
+              <td>Choroid plexus, hypothalamus, limbic system</td>
+              <td>Appetite suppression; anxiety modulation; mood</td>
+              <td>Lorcaserin (withdrawn) acted via 5-HT2C. Atypical antipsychotics that block 5-HT2C &rarr; weight gain</td>
+            </tr>
+            <tr>
+              <td><strong>5-HT3</strong></td>
+              <td>Ion channel (Na&#x207a;/K&#x207a;; depolarising)</td>
+              <td>Area postrema (CTZ), vagal afferents, enteric neurons, dorsal horn</td>
+              <td>Rapid depolarization; emesis reflex; gut motility; pain sensitisation</td>
+              <td>Ondansetron, granisetron, palonosetron — 5-HT3 antagonists for CINV and PONV; highly effective</td>
+            </tr>
+            <tr>
+              <td><strong>5-HT4</strong></td>
+              <td>Gs (&#8593;cAMP)</td>
+              <td>GI tract (smooth muscle, myenteric plexus), CNS</td>
+              <td>Prokinetic: stimulates peristalsis and gastric emptying; modulates acetylcholine release</td>
+              <td>Cisapride (withdrawn due to QT), mosapride, prucalopride (selective 5-HT4 agonist for constipation)</td>
+            </tr>
+            <tr>
+              <td><strong>5-HT6/7</strong></td>
+              <td>Gs (&#8593;cAMP)</td>
+              <td>Striatum (5-HT6); hypothalamus, limbic (5-HT7)</td>
+              <td>Circadian rhythm (5-HT7); cognitive function (5-HT6)</td>
+              <td>5-HT7 agonism may contribute to antidepressant effects of vortioxetine; lurasidone is a 5-HT7 antagonist</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>SERT Reuptake and SSRI Mechanism</h3>
+          <h4>SERT (Serotonin Transporter, SLC6A4)</h4>
+          <p>After synaptic release, the primary mechanism for terminating 5-HT signalling is reuptake via the serotonin transporter SERT (gene SLC6A4). SERT is a Na&#x207a;/Cl&#x207a;-dependent secondary active transporter that co-transports Na&#x207a; and Cl&#x207a; down their electrochemical gradient, coupled to uptake of 5-HT against its concentration gradient. Intracellular K&#x207a; moves outward to reset the cycle.</p>
+          <ol class="step-list">
+            <li><strong>Release:</strong> Action potential at serotonergic terminal &rarr; Ca&#xb2;&#x207a; influx &rarr; vesicle fusion &rarr; 5-HT released into synapse</li>
+            <li><strong>Receptor binding:</strong> 5-HT binds post-synaptic and pre-synaptic (autoreceptor) receptors, initiating downstream signalling</li>
+            <li><strong>Reuptake:</strong> SERT on presynaptic membrane transports 5-HT back into the terminal; repackaged into vesicles by VMAT2</li>
+            <li><strong>Degradation (overflow):</strong> Excess 5-HT is metabolized by MAO-A &rarr; 5-HIAA, which is renally excreted</li>
+            <li><strong>SSRI block:</strong> Fluoxetine, sertraline, escitalopram bind the central allosteric site of SERT &rarr; competitive + non-competitive inhibition &rarr; 5-HT accumulates in the synapse &rarr; prolonged receptor stimulation</li>
+          </ol>
+          <p style="margin-top:0.75rem;"><strong>Onset paradox:</strong> SSRIs elevate synaptic 5-HT within hours, yet antidepressant effects require 2–6 weeks. This lag is partly explained by desensitization of 5-HT1A autoreceptors (which initially counteract the increased 5-HT by reducing raphe firing) and downstream neuroplastic changes (BDNF upregulation, hippocampal neurogenesis).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pharmacology</h3>
+          <table class="data-table">
+            <tr><th>Drug / Class</th><th>Target</th><th>Mechanism</th><th>Primary Use</th></tr>
+            <tr>
+              <td><strong>SSRIs</strong> (fluoxetine, sertraline, escitalopram, paroxetine, citalopram, fluvoxamine)</td>
+              <td>SERT (SLC6A4)</td>
+              <td>Block 5-HT reuptake &rarr; &#8593;synaptic 5-HT</td>
+              <td>Depression, anxiety disorders, OCD, PTSD, PMDD, eating disorders</td>
+            </tr>
+            <tr>
+              <td><strong>SNRIs</strong> (venlafaxine, duloxetine, desvenlafaxine)</td>
+              <td>SERT + NET</td>
+              <td>Block both 5-HT and norepinephrine reuptake</td>
+              <td>Depression, GAD, neuropathic pain, fibromyalgia</td>
+            </tr>
+            <tr>
+              <td><strong>Triptans</strong> (sumatriptan, zolmitriptan, rizatriptan)</td>
+              <td>5-HT1B/1D</td>
+              <td>Agonist: cranial vasoconstriction + inhibit trigeminal neuropeptide release</td>
+              <td>Acute migraine, cluster headache</td>
+            </tr>
+            <tr>
+              <td><strong>5-HT3 antagonists</strong> (ondansetron, granisetron, palonosetron)</td>
+              <td>5-HT3 (ion channel)</td>
+              <td>Block CTZ and vagal afferent 5-HT3 &rarr; suppress emesis reflex</td>
+              <td>Chemotherapy-induced nausea (CINV), post-operative nausea (PONV)</td>
+            </tr>
+            <tr>
+              <td><strong>5-HT4 agonists</strong> (prucalopride, mosapride)</td>
+              <td>5-HT4</td>
+              <td>Stimulate myenteric plexus &rarr; &#8593;acetylcholine release &rarr; prokinetic</td>
+              <td>Chronic idiopathic constipation, gastroparesis</td>
+            </tr>
+            <tr>
+              <td><strong>Buspirone</strong></td>
+              <td>5-HT1A (partial agonist)</td>
+              <td>Partial agonism at 5-HT1A autoreceptors; also D2 partial agonist</td>
+              <td>Generalized anxiety disorder (GAD)</td>
+            </tr>
+            <tr>
+              <td><strong>Psilocybin / LSD</strong></td>
+              <td>5-HT2A (full agonist)</td>
+              <td>Activate cortical 5-HT2A &rarr; glutamate release &rarr; default mode network disruption</td>
+              <td>Research: treatment-resistant depression, PTSD, addiction (psilocybin-assisted therapy)</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Functions</h3>
+          <h4>Peripheral (GI Tract — ~95% of total body 5-HT)</h4>
+          <p>Enterochromaffin cells in the gut mucosa are the main serotonin factory. 5-HT released by EC cells acts on myenteric plexus neurons (via 5-HT4) to initiate the peristaltic reflex: ascending contraction above, descending relaxation below a bolus. It also activates vagal afferents (via 5-HT3) that signal satiety and nausea to the brainstem. Platelets take up 5-HT from the portal circulation via SERT and release it at sites of vascular injury, contributing to vasoconstriction (5-HT2A on smooth muscle).</p>
+          <h4>Central (Raphe Nuclei — ~5%)</h4>
+          <p>The dorsal and median raphe nuclei project diffusely throughout the brain. Major projections include limbic system (mood, anxiety, fear memory), frontal cortex (executive function, impulse control), hypothalamus (appetite, sleep-wake), striatum (reward, motor control), and spinal dorsal horn (descending pain modulation). The wide reach of raphe projections explains why manipulating 5-HT has such diverse behavioral effects.</p>
+          <h4>Other roles</h4>
+          <p>Serotonin also contributes to <strong>bone metabolism</strong> (gut-derived 5-HT inhibits osteoblast proliferation; CNS-derived 5-HT may promote it — a key finding from LRP5 pathway studies), <strong>platelet aggregation</strong>, <strong>fetal neurodevelopment</strong>, and cardiovascular function via 5-HT2A-mediated vasoconstriction.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>5-HT Perturbation</th><th>Mechanism</th><th>Clinical Features</th></tr>
+            <tr>
+              <td><strong>Depression / Anxiety disorders</strong></td>
+              <td>Reduced serotonergic tone (low synaptic 5-HT)</td>
+              <td>Multifactorial; SERT upregulation, reduced TPH2 expression, altered 5-HT1A autoreceptor sensitivity</td>
+              <td>Low mood, anhedonia, anxiety, sleep disruption, impaired cognition. SSRIs are first-line treatment</td>
+            </tr>
+            <tr>
+              <td><strong>Serotonin syndrome</strong></td>
+              <td>Marked 5-HT excess</td>
+              <td>Drug interaction (SSRI + MAOI, linezolid, tramadol, lithium, triptans, St John's wort, MDMA) or single-agent overdose</td>
+              <td>Diagnostic triad: <strong>(1) altered mental status</strong> (agitation, confusion) + <strong>(2) autonomic instability</strong> (hyperthermia, tachycardia, diaphoresis, hypertension) + <strong>(3) neuromuscular abnormalities</strong> (clonus, hyperreflexia, tremor, myoclonus). Clonus (especially inducible ocular clonus) is pathognomonic. Treatment: stop offending drugs; cyproheptadine (5-HT2A antagonist) in moderate cases; ICU/cooling/benzodiazepines in severe cases</td>
+            </tr>
+            <tr>
+              <td><strong>Irritable bowel syndrome (IBS)</strong></td>
+              <td>Dysregulated gut 5-HT signalling</td>
+              <td>Altered EC cell 5-HT release, SERT expression changes, visceral hypersensitivity via 5-HT3</td>
+              <td>Altered bowel habits, abdominal pain, bloating. 5-HT3 antagonists (alosetron) for IBS-D; 5-HT4 agonists (tegaserod, prucalopride) for IBS-C</td>
+            </tr>
+            <tr>
+              <td><strong>Carcinoid syndrome</strong></td>
+              <td>Massive 5-HT overproduction</td>
+              <td>Neuroendocrine tumour of gut EC cells secreting large quantities of 5-HT into systemic circulation</td>
+              <td>Flushing, diarrhoea, bronchospasm, right-sided valvular heart disease. Urine 5-HIAA elevated. Treatment: somatostatin analogues (octreotide), telotristat (TPH1 inhibitor)</td>
+            </tr>
+            <tr>
+              <td><strong>Migraine</strong></td>
+              <td>Transient 5-HT fluctuations</td>
+              <td>Platelet 5-HT release and 5-HT1B/1D-mediated changes in cranial vessel tone and trigeminal activation</td>
+              <td>Unilateral throbbing headache, nausea, photophobia. Triptans (5-HT1B/1D agonists) abort acute attacks</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Serotonin Syndrome vs. Neuroleptic Malignant Syndrome (NMS):</strong> Both cause hyperthermia and altered mental status. Key differentiator: <strong>clonus and hyperreflexia</strong> are hallmarks of serotonin syndrome (excess serotonin), whereas NMS features <strong>lead-pipe rigidity and bradyreflexia</strong> (dopamine blockade). Onset: serotonin syndrome is rapid (hours); NMS develops over days. This distinction is clinically critical because treatment differs fundamentally — cyproheptadine (5-HT2A antagonist) for serotonin syndrome vs. bromocriptine/dantrolene for NMS.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="nervous-system.html" class="conn-pill acts">
+              <span class="rel">Acts in</span>
+              Nervous System
+            </a>
+            <a href="immune-system.html" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Immune System
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              SERT / SLC6A4 (SSRI target)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Related to</span>
+              Dopamine (entry pending)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Precursor to</span>
+              Melatonin (entry pending)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Atlas</span>
+              Raphe Nuclei (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Berger M, Gray JA, Roth BL. The expanded biology of serotonin. <em>Annu Rev Med.</em> 2009;60:355-66. <a href="https://doi.org/10.1146/annurev.med.60.042307.110802">doi:10.1146/annurev.med.60.042307.110802</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19630576/">PubMed 19630576</a></li>
+            <li>Gershon MD, Tack J. The serotonin signaling system: from basic understanding to drug development for functional GI disorders. <em>Gastroenterology.</em> 2007;132(1):397-414. <a href="https://doi.org/10.1053/j.gastro.2006.11.002">doi:10.1053/j.gastro.2006.11.002</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17241888/">PubMed 17241888</a></li>
+            <li>Ciranna L. Serotonin as a modulator of glutamate- and GABA-mediated neurotransmission. <em>Curr Neuropharmacol.</em> 2006;4(2):101-14. <a href="https://doi.org/10.2174/157015906776359540">doi:10.2174/157015906776359540</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18615128/">PubMed 18615128</a></li>
+            <li>Boyer EW, Shannon M. The serotonin syndrome. <em>N Engl J Med.</em> 2005;352(11):1112-20. <a href="https://doi.org/10.1056/NEJMra041867">doi:10.1056/NEJMra041867</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15784664/">PubMed 15784664</a></li>
+            <li>Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder. <em>Lancet.</em> 2018;391(10128):1357-66. <a href="https://doi.org/10.1016/S0140-6736(17)32802-7">doi:10.1016/S0140-6736(17)32802-7</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29477251/">PubMed 29477251</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="il-6.html">IL-6</a>
+      <a href="cortisol.html">Cortisol</a>
+      <a href="insulin.html">Insulin</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

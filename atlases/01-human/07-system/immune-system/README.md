@@ -73,6 +73,24 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/aspirin
     relation: treated-by
     note: "Aspirin inhibits COX-1 and COX-2, reducing prostaglandin E2 (PGE2) production; PGE2 is an immunomodulatory lipid mediator that normally suppresses T cell activation and NK cell cytotoxicity, so aspirin has net immunostimulatory effects in some inflammatory contexts."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: damaged-by
+    note: "HIV-1 systematically destroys the immune system by depleting CD4+ T helper cells (hallmark of AIDS), impairing DC antigen presentation via Nef, exhausting CTL responses, and driving chronic immune activation; AIDS is defined as CD4 <200/μL or an AIDS-defining illness."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: infected-by
+    note: "S. pneumoniae evades innate immunity via polysaccharide capsule (anti-phagocytic), pneumolysin (disrupts complement and oxidative burst), PspA (inhibits complement deposition), and CbpA (impairs IgA-mediated clearance in mucosa)."
+  - target: 01-human/03-molecular/il-6
+    relation: expresses
+    note: "The immune system is the dominant source of IL-6 in infection and inflammation: macrophages, DCs, T cells, and B cells all produce IL-6 in response to PAMPs, DAMPs, and pro-inflammatory cytokines."
+  - target: 01-human/03-molecular/il-6
+    relation: modulates
+    note: "IL-6 shapes adaptive immunity by driving Th17 differentiation, suppressing Treg development, promoting B cell to plasma cell differentiation, and activating effector T cells; IL-6/IL-6R signaling is a key checkpoint in the immune-inflammatory response."
+  - target: 01-human/03-molecular/il-6
+    relation: modulated-by
+    note: "Immune activation (infection, injury, cytokine storm) dramatically upregulates IL-6 production; conversely, IL-10, glucocorticoids, and anti-IL-6R therapy (tocilizumab) suppress IL-6 levels."
+  - target: 01-human/03-molecular/cortisol
+    relation: modulated-by
+    note: "Cortisol suppresses the immune system via NF-κB inhibition, lymphocyte apoptosis induction, and downregulation of pro-inflammatory cytokines, COX-2, and adhesion molecules; therapeutic glucocorticoids exploit this pathway."
 ---
 
 # Immune System

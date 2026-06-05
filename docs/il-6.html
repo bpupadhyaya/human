@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interleukin-6 (IL-6) — JAK-STAT3 signalling, classical vs. trans-signalling, acute-phase response, and therapeutic targeting with tocilizumab, sarilumab, and JAK inhibitors. Part of the Human Engineering project.">
+  <meta property="og:title" content="Interleukin-6 (IL-6) — Molecular Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Interleukin-6 (IL-6) — Molecular Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #dc2626;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #7f1d1d); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .col-card { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .col-card h4 { font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.6rem; }
+    .col-card.pos h4 { color: var(--accent); }
+    .col-card.neg h4 { color: var(--bio); }
+    .col-card ul { list-style: none; display: flex; flex-direction: column; gap: 0.3rem; }
+    .col-card ul li { font-size: 0.88rem; color: var(--fg-soft); padding: 0.25rem 0; border-bottom: 1px solid var(--border-soft); line-height: 1.4; }
+    .col-card ul li:last-child { border-bottom: none; }
+    .col-card ul li strong { color: var(--fg); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .principle-box { background: rgba(220,38,38,0.06); border: 1px solid rgba(220,38,38,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 03-Molecular</div>
+    <h1>Interleukin-6 (IL-6)</h1>
+    <p class="tagline">The master cytokine of acute-phase response — a 21 kDa, 4-helix bundle that drives JAK1/STAT3 signalling, hepatic acute-phase proteins, and fever through both classical and trans-signalling modes.</p>
+    <p class="subtagline">Produced by macrophages, T cells, fibroblasts, and endothelium in response to infection, injury, and malignancy. Dysregulated IL-6 drives cytokine storm in COVID-19 and CAR-T CRS, synovitis in RA, and tumour-promoting inflammation in multiple myeloma. Tocilizumab (anti-IL-6R) is FDA-approved for six distinct conditions.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">21 kDa</span><span class="stat-label">Molecular weight</span></div>
+      <div class="stat"><span class="stat-num">4-helix</span><span class="stat-label">Bundle structure</span></div>
+      <div class="stat"><span class="stat-num">P05231</span><span class="stat-label">UniProt ID</span></div>
+      <div class="stat"><span class="stat-num">gp130</span><span class="stat-label">Signal transducer</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Cytokine / Interleukin</div>
+        <h2>Interleukin-6 (IL-6)</h2>
+        <div class="drug-class">Class: Type I cytokine &nbsp;&middot;&nbsp; Interleukin &nbsp;&middot;&nbsp; Pleiotropic mediator &nbsp;|&nbsp; Gene: IL6 (chr 7p15.3) &nbsp;|&nbsp; UniProt: P05231 &nbsp;|&nbsp; MW: 21 kDa (212 aa)</div>
+        <p class="summary">IL-6 is the archetypal pleiotropic cytokine — a single molecule that bridges innate and adaptive immunity, orchestrates the acute-phase response, drives haematopoiesis, and (when dysregulated) fuels the most dangerous cytokine-driven pathologies of our era. Its structural 4-helix bundle fold is shared with IL-11, IL-31, OSM, LIF, and CNTF. Signal transduction requires a unique dual-receptor architecture: the ligand-binding IL-6R (CD126) paired with the signal-transducing gp130 (CD130). The distinction between classical signalling (membrane IL-6R) and trans-signalling (soluble IL-6R) elegantly explains why IL-6 can simultaneously be essential for host defence and pathological when overproduced.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">B cell differentiation factor</span>
+          <span class="alias-pill">BSF-2</span>
+          <span class="alias-pill">IFN-&#x3b2;2</span>
+          <span class="alias-pill">hepatocyte-stimulating factor</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Signalling Pathway</h3>
+          <h4>Classical vs. Trans-Signalling</h4>
+          <div class="pathway-block">
+<pre>
+  CLASSICAL SIGNALLING                          TRANS-SIGNALLING
+  (membrane-bound IL-6R, restricted            (soluble IL-6R, ubiquitous)
+   expression: hepatocytes, some
+   leukocytes)
+         │                                              │
+  IL-6 binds membrane IL-6R (CD126)            IL-6 binds sIL-6R (shed by ADAM10/17)
+         │                                              │
+         └──────── IL-6 / IL-6R complex ───────────────┘
+                          │
+                          │  Binds gp130 homodimer (ubiquitously expressed)
+                          │
+                          ▼
+                  [gp130]═══[gp130]  (hexameric complex: 2×IL-6 + 2×IL-6R + 2×gp130)
+                          │
+                          │  JAK1 and JAK2 constitutively associated with gp130
+                          │  Trans-phosphorylation of JAKs → activated
+                          │
+                          ▼
+                    JAK1/2 active
+                          │
+                  ┌────────┴────────┐
+                  ▼                 ▼
+               STAT3            SHP2/RAS/ERK
+            phosphorylated      pathway
+            (Y705, S727)           │
+                  │                ▼
+             Dimerisation       MAPK cascade
+             Nuclear            (proliferation,
+             translocation      survival)
+                  │
+                  ▼
+             STAT3 target genes:
+             SOCS1/3 (negative feedback)
+             BCL2, MCL1 (survival)
+             Acute-phase proteins (hepatocytes)
+             MHC class I, IL-17, IL-22 induction
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Why trans-signalling matters therapeutically:</strong> Classical signalling is largely beneficial — it is required for hepatocyte acute-phase protein production and mucosal defence. Trans-signalling via sIL-6R allows IL-6 to act on virtually any nucleated cell (all express gp130), amplifying inflammatory effects in sites that do not normally express membrane IL-6R. Sgp130Fc (olamkicept) can selectively block trans-signalling while preserving classical signalling — a therapeutic distinction relevant to IBD.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Acute-Phase Response</h3>
+          <p>IL-6 is the principal inducer of the hepatic acute-phase response — a systemic inflammatory programme that redirects liver protein synthesis within hours of infection or tissue injury. This shifts hepatocyte output from constitutive proteins (negative acute-phase reactants) to protective acute-phase proteins (positive reactants).</p>
+          <div class="two-col">
+            <div class="col-card pos">
+              <h4>Positive Acute-Phase Proteins (induced)</h4>
+              <ul>
+                <li><strong>CRP (C-reactive protein)</strong> — opsonin, complement activator; rises 1,000-fold; gold standard inflammatory marker</li>
+                <li><strong>Fibrinogen</strong> — coagulation factor I; elevated in inflammation &rarr; &#8593;ESR</li>
+                <li><strong>SAA (serum amyloid A)</strong> — apolipoprotein; opsonin; HDL-associated; chronic elevation &rarr; AA amyloidosis</li>
+                <li><strong>Ferritin</strong> — iron-storage; &#8593; sequesters iron from pathogens; marker of hyperferritinaemic syndromes (MAS, sHLH)</li>
+                <li><strong>Hepcidin</strong> — key iron regulator; IL-6-induced &rarr; &#8595;ferroportin &rarr; &#8595;serum iron &rarr; anaemia of chronic disease</li>
+                <li><strong>Complement components</strong> (C3, C4, factor B) — enhanced innate opsonisation</li>
+                <li><strong>Haptoglobin, &#x3b1;1-antitrypsin, fibronectin</strong></li>
+              </ul>
+            </div>
+            <div class="col-card neg">
+              <h4>Negative Acute-Phase Proteins (suppressed)</h4>
+              <ul>
+                <li><strong>Albumin</strong> — constitutive plasma protein; falls during inflammation; low albumin = severity marker in sepsis, malnutrition</li>
+                <li><strong>Transferrin</strong> — iron-transport protein; decreased &rarr; contributes to iron sequestration</li>
+                <li><strong>Transthyretin (prealbumin)</strong> — short half-life; sensitive marker of nutritional status and acute illness</li>
+                <li><strong>Retinol-binding protein</strong></li>
+                <li><strong>&#x3b1;2-macroglobulin</strong> (humans; positive in rodents)</li>
+              </ul>
+            </div>
+          </div>
+          <p style="margin-top:0.85rem;"><strong>Anaemia of chronic disease:</strong> IL-6-driven hepcidin production is the molecular explanation for why patients with RA, cancer, and chronic infection develop a normocytic, normochromic anaemia refractory to iron supplementation — iron is trapped inside macrophages and enterocytes by ferroportin degradation. Tocilizumab treatment measurably reduces hepcidin and improves haemoglobin in RA.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Therapeutic Targeting</h3>
+          <table class="data-table">
+            <tr><th>Drug</th><th>Class</th><th>Target</th><th>Route</th><th>Approved Indications</th></tr>
+            <tr>
+              <td><strong>Tocilizumab</strong> (Actemra)</td>
+              <td>Humanised monoclonal antibody</td>
+              <td>IL-6R (blocks both mIL-6R and sIL-6R)</td>
+              <td>IV / SC</td>
+              <td>RA, polyarticular/systemic JIA, giant-cell arteritis (GCA), cytokine release syndrome (CAR-T, tisagenlecleucel), COVID-19 severe pneumonia (hospitalised, on O&#x2082;)</td>
+            </tr>
+            <tr>
+              <td><strong>Sarilumab</strong> (Kevzara)</td>
+              <td>Human monoclonal antibody</td>
+              <td>IL-6R (blocks both mIL-6R and sIL-6R)</td>
+              <td>SC</td>
+              <td>RA (moderate-to-severe, MTX-inadequate response or intolerant)</td>
+            </tr>
+            <tr>
+              <td><strong>Siltuximab</strong> (Sylvant)</td>
+              <td>Chimeric monoclonal antibody</td>
+              <td>IL-6 (ligand itself)</td>
+              <td>IV</td>
+              <td>Multicentric Castleman disease (MCD) without HIV/HHV-8; occasionally used off-label in cytokine storms</td>
+            </tr>
+            <tr>
+              <td><strong>Baricitinib</strong> (Olumiant)</td>
+              <td>JAK1/JAK2 inhibitor (small molecule)</td>
+              <td>JAK1, JAK2 (downstream of gp130, IL-6R, and multiple other cytokine receptors)</td>
+              <td>Oral</td>
+              <td>RA, alopecia areata, COVID-19 (hospitalised requiring O&#x2082;), atopic dermatitis</td>
+            </tr>
+            <tr>
+              <td><strong>Tofacitinib</strong> (Xeljanz)</td>
+              <td>JAK1/JAK3 inhibitor (small molecule)</td>
+              <td>JAK1, JAK3 (and JAK2 at higher doses)</td>
+              <td>Oral</td>
+              <td>RA, psoriatic arthritis, UC, polyarticular JIA; now with black-box warning re: cardiovascular risk (ORAL Surveillance study)</td>
+            </tr>
+            <tr>
+              <td><strong>Upadacitinib</strong> (Rinvoq)</td>
+              <td>Selective JAK1 inhibitor</td>
+              <td>JAK1 (preferred selectivity)</td>
+              <td>Oral</td>
+              <td>RA, PsA, AS, nr-axSpA, atopic dermatitis, UC, Crohn's disease</td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>Anti-IL-6R vs. anti-IL-6 vs. JAK inhibitors:</strong> Anti-IL-6R antibodies (tocilizumab, sarilumab) block the receptor and cause accumulation of free IL-6 in plasma — a useful biomarker for drug activity but can cause IL-6 rebound on dose interruption. Anti-IL-6 antibodies (siltuximab) directly neutralise the cytokine. JAK inhibitors act downstream, blocking multiple cytokine pathways simultaneously — broader immunosuppression but also broader side-effect profile (opportunistic infections, VTE, lipid changes). JAK inhibitor selectivity (JAK1 vs. JAK2 vs. JAK3) affects which cytokine pathways are preferentially blocked and the safety/efficacy trade-offs.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>IL-6 Role</th><th>Key Features</th><th>Treatment implications</th></tr>
+            <tr>
+              <td><strong>Cytokine storm / CRS</strong> (COVID-19, CAR-T therapy)</td>
+              <td>IL-6 is the dominant driver; massively elevated serum IL-6 correlates with severity and ICU admission</td>
+              <td>Fever, hypoxia, bilateral infiltrates, organ dysfunction; CAR-T CRS: fever, hypotension, neurotoxicity (ICANS)</td>
+              <td>Tocilizumab dramatically reduces need for mechanical ventilation and 28-day mortality in COVID-19 (RECOVERY trial); first-line for CAR-T CRS grade &#x2265;2</td>
+            </tr>
+            <tr>
+              <td><strong>Rheumatoid arthritis</strong></td>
+              <td>IL-6 produced by synoviocytes drives pannus formation, osteoclast activation, and systemic features</td>
+              <td>Symmetric polyarthritis, morning stiffness, elevated CRP/ESR, erosive disease</td>
+              <td>Tocilizumab/sarilumab effective as monotherapy (unlike most biologics that require MTX background); normalise CRP rapidly</td>
+            </tr>
+            <tr>
+              <td><strong>Giant-cell arteritis (GCA)</strong></td>
+              <td>IL-6 drives granulomatous vasculitis of large vessels; elevated in virtually all active GCA</td>
+              <td>Temporal headache, jaw claudication, vision loss risk (anterior ischaemic optic neuropathy)</td>
+              <td>Tocilizumab SC weekly is FDA-approved; reduces relapse rate and cumulative steroid dose (GiACTA trial)</td>
+            </tr>
+            <tr>
+              <td><strong>Multiple myeloma</strong></td>
+              <td>IL-6 acts as a growth and survival factor for malignant plasma cells; drives resistance to apoptosis via STAT3/BCL2</td>
+              <td>Bone lesions, hypercalcaemia, renal impairment, anaemia, M-protein</td>
+              <td>IL-6 blockade has been explored; current therapy includes proteasome inhibitors (bortezomib), IMiDs, anti-CD38 (daratumumab)</td>
+            </tr>
+            <tr>
+              <td><strong>Castleman disease (MCD)</strong></td>
+              <td>HHV-8-negative MCD driven by IL-6 hypersecretion; IL-6 is the cardinal disease mediator</td>
+              <td>Lymphadenopathy, constitutional symptoms, hepatosplenomegaly, anaemia, CRP markedly elevated</td>
+              <td>Siltuximab (anti-IL-6) approved; tocilizumab used off-label; rituximab for HHV-8+ variant</td>
+            </tr>
+            <tr>
+              <td><strong>Colorectal cancer</strong></td>
+              <td>Tumour-promoting: IL-6/STAT3 drives epithelial survival, angiogenesis, and immunosuppression in TME</td>
+              <td>Elevated serum IL-6 correlates with metastatic burden and worse prognosis</td>
+              <td>Research: IL-6 pathway inhibition being explored as adjunct to checkpoint immunotherapy; no approved IL-6-targeted regimen yet</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="immune-system.html" class="conn-pill acts">
+              <span class="rel">Acts in</span>
+              Immune System
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Affects</span>
+              Cardiovascular System
+            </a>
+            <a href="liver.html" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              Liver (acute-phase)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Related</span>
+              IL-1 beta (entry pending)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Drives</span>
+              TNF-alpha signalling (entry pending)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Induces</span>
+              CRP / Ferritin (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Hunter CA, Jones SA. IL-6 as a keystone cytokine in health and disease. <em>Nat Immunol.</em> 2015;16(5):448-57. <a href="https://doi.org/10.1038/ni.3153">doi:10.1038/ni.3153</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25898198/">PubMed 25898198</a></li>
+            <li>Rose-John S. IL-6 trans-signaling via the soluble IL-6 receptor: importance for the pro-inflammatory activities of IL-6. <em>Int J Biol Sci.</em> 2012;8(9):1237-47. <a href="https://doi.org/10.7150/ijbs.4989">doi:10.7150/ijbs.4989</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23136552/">PubMed 23136552</a></li>
+            <li>RECOVERY Collaborative Group. Tocilizumab in patients admitted to hospital with COVID-19 (RECOVERY). <em>Lancet.</em> 2021;397(10285):1637-45. <a href="https://doi.org/10.1016/S0140-6736(21)00676-0">doi:10.1016/S0140-6736(21)00676-0</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33933206/">PubMed 33933206</a></li>
+            <li>Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis (GiACTA). <em>N Engl J Med.</em> 2017;377(4):317-28. <a href="https://doi.org/10.1056/NEJMoa1703093">doi:10.1056/NEJMoa1703093</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28745999/">PubMed 28745999</a></li>
+            <li>Tanaka T, Narazaki M, Kishimoto T. IL-6 in inflammation, immunity, and disease. <em>Cold Spring Harb Perspect Biol.</em> 2014;6(10):a016295. <a href="https://doi.org/10.1101/cshperspect.a016295">doi:10.1101/cshperspect.a016295</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25190079/">PubMed 25190079</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="serotonin.html">Serotonin</a>
+      <a href="cortisol.html">Cortisol</a>
+      <a href="insulin.html">Insulin</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

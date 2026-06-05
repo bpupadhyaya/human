@@ -57,6 +57,9 @@ cross_links:
   - target: 01-human/03-molecular/gaba
     relation: modulated-by
     note: "GABA activates GABA-A and GABA-B receptors on neuronal soma and dendrites, providing inhibitory control."
+  - target: 01-human/03-molecular/serotonin
+    relation: expresses
+    note: "Serotonergic neurons in the dorsal and median raphe nuclei synthesize 5-HT via TPH2 + AADC and project broadly to limbic, prefrontal, and cerebellar targets; raphe neurons provide ~5% of total body serotonin."
 ---
 
 # Neuron

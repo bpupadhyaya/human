@@ -52,6 +52,12 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Renal and intestinal Na⁺/H₂O handling are complementary; aldosterone and ANP coordinate gut and kidney fluid reabsorption; hepatorenal interactions include shared RAAS regulation."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: treated-by
+    note: "ARBs are first-line renoprotective therapy in diabetic and non-diabetic CKD; AT1 blockade dilates the efferent arteriole, reducing intraglomerular pressure, proteinuria, and CKD progression (RENAAL, IDNT trials)."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: modulated-by
+    note: "RAAS blockade by ARBs reduces angiotensin II–driven efferent vasoconstriction, decreasing glomerular hypertension and filtration of albumin; also reduces aldosterone-driven Na⁺ retention and tubular fibrosis."
 taxonomy:
   uberon: "UBERON:0001008"
 ---

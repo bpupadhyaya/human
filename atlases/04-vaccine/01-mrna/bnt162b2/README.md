@@ -86,6 +86,21 @@ It was the **first vaccine globally authorized against COVID-19** (UK MHRA, Dece
 
 This is a **stub entry** — to be expanded with full Platform / Antigen design / Mechanism of immunity / Manufacturing / Trials / Regulatory / Safety / Variation / Equity & access / Open questions sections, parallel to the [mRNA-1273 entry](../mrna-1273/README.md).
 
+## Immunogenicity
+
+*(Stub — to be expanded.)* Phase 1/2 data (Walsh 2020): robust spike-specific IgG and neutralizing antibody responses in all age groups after 2 doses (21-day interval). Th1-biased CD4⁺ T-cell responses. Anti-RBD IgG titer correlates with protection against symptomatic COVID-19 and severe disease. Immunogenicity wanes over 4–8 months; boosters restore peak titers.
+
+## Safety
+
+*(Stub — to be expanded.)* Phase 3 C4591001 (Polack 2020): well-tolerated; common adverse events local pain, fatigue, headache, chills, fever (mostly grade 1–2, resolving within 1–2 days). Post-marketing: rare myocarditis/pericarditis signal (mRNA-specific; younger males, dose 2 > dose 1; typically self-limited). No VITT. Cold chain originally −80°C; reformulated for −20°C and 2–8°C storage.
+
+## Connections
+
+- **Target pathogen**: [`02-pathogen/01-viruses/sars-cov-2`](../../../02-pathogen/01-viruses/sars-cov-2/README.md)
+- **Sibling mRNA vaccine**: [`04-vaccine/01-mrna/mrna-1273`](../mrna-1273/README.md) (Moderna, SM-102 LNP, 100 µg)
+- **Antigen**: Prefusion-stabilized (2P) spike protein; same design principle as mRNA-1273
+- **Immune effectors**: Anti-spike neutralizing IgG (IgG1/IgG3), spike-specific CD4⁺ Th1, CD8⁺ T cells
+
 ## See also
 
 - [`04-vaccine/01-mrna/mrna-1273`](../mrna-1273/README.md) — sibling mRNA-LNP vaccine (Moderna)

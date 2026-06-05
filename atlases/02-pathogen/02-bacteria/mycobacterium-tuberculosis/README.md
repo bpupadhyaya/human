@@ -45,6 +45,12 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: damages
     note: "Extrapulmonary TB causes peritoneal TB (ascites, bowel obstruction), ileocecal TB mimicking Crohn's disease, and hepatic TB — occurring in 5–15% of TB cases globally."
+  - target: 03-medicine/01-modern/06-antimicrobial/rifampicin
+    relation: treated-by
+    note: "Rifampicin is the cornerstone of first-line TB therapy (HRZE: isoniazid, rifampicin, pyrazinamide, ethambutol × 2 months, then HR × 4 months); bactericidal and sterilizing activity against actively dividing and dormant bacilli."
+  - target: 03-medicine/01-modern/06-antimicrobial/rifampicin
+    relation: modulated-by
+    note: "Rifampicin binds rpoB (β-subunit of RNA polymerase), blocking RNA elongation after dinucleotide initiation; rpoB mutations (codons 516, 526, 531) confer RIF resistance (RIF-R is a proxy for MDR-TB in rapid testing)."
 ---
 
 # Mycobacterium tuberculosis
