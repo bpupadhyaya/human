@@ -44,8 +44,9 @@ Each atlas entry is cross-referenced with entries in the others:
 - **Medicine** entries link to the **Human** scales they act on and the **Pathogen** entries they target.
 - **Pathogen** entries link to the **Human** scales they interact with and the **Medicine** entries that treat them.
 - **Human** entries link out to **Pathogen** vulnerabilities and **Medicine** options.
+- **Vaccine** entries link to the **Pathogen** they immunize against, the **Human** immune-system scales they activate, and the **Medicine** platform entries they share mechanisms with.
 
-This is what turns three lists into a navigable **knowledge graph** — useful as a training corpus for AI agents and as a reference for human researchers, clinicians, and students worldwide.
+This is what turns four knowledge bases into a navigable **knowledge graph** — useful as a training corpus for AI agents and as a reference for human researchers, clinicians, and students worldwide.
 
 ## How to contribute
 

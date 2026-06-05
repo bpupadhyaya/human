@@ -40,7 +40,7 @@ This project belongs to everyone. It will always be free.
 
 ## The Vision
 
-The work organizes into **three interlocking, open knowledge bases** — the body, the threats, and the cures — each held to the same standard of scientific rigor.
+The work organizes into **Four open, interlocking Atlases** — the body, the threats, the cures, and the vaccines — each held to the same standard of scientific rigor.
 
 📚 **[Browse all atlases →](atlases/README.md)**
 
@@ -62,7 +62,13 @@ An encyclopedia of every medicine humanity has used to heal — modern pharmaceu
 
 **Read the full atlas → [`atlases/03-medicine/`](atlases/03-medicine/README.md)** · **[Live page](https://equalinformation.com/human/medicine.html)**
 
-> **The vaccine, the antibody, the antibiotic — each is a designed bridge between the Human and Pathogen atlases, and each is itself an entry in the Medicine Atlas.** Together, the three atlases form an open **training corpus for AI agents** working on the next vaccine, and an open **educational foundation** for human researchers, clinicians, and students worldwide.
+### Atlas Four — The Vaccine Atlas
+
+Every vaccine humanity has built, organized by delivery platform: mRNA, viral vector, recombinant subunit, inactivated whole-virion, and live-attenuated. Each entry covers antigen design, mechanism of immunity, clinical efficacy, safety profile, and connections to the Human and Pathogen atlases.
+
+**Read the full atlas → [`atlases/04-vaccine/`](atlases/04-vaccine/README.md)**
+
+> **The four atlases form an interconnected knowledge graph**: the Human Atlas supplies the biological targets, the Pathogen Atlas supplies the threats, the Medicine Atlas supplies the interventions, and the Vaccine Atlas supplies the prophylactic designs that collapse the gap between *pathogen detected* and *population protected*. Together they are an open **training corpus for AI agents** working on the next vaccine — and an open **educational foundation** for human researchers, clinicians, and students worldwide.
 
 ### Four Capabilities
 
@@ -119,10 +125,11 @@ human/
 │
 │  ─────────── CONTENT (what we know) ───────────
 ├── atlases/                        # KNOWLEDGE — markdown source of truth
-│   ├── README.md                   # Atlases index (3 current + 5 planned)
+│   ├── README.md                   # Atlases index (4 current + 5 planned)
 │   ├── 01-human/                   # Atlas One — host biology
 │   ├── 02-pathogen/                # Atlas Two — pathogens & microbes
-│   └── 03-medicine/                # Atlas Three — medicines
+│   ├── 03-medicine/                # Atlas Three — medicines
+│   └── 04-vaccine/                 # Atlas Four — vaccines by platform
 │
 ├── media/                          # IMAGES, VIDEOS, DIAGRAMS — referenced by atlases & docs
 ├── data/                           # DATASETS — small inline + pointers to external

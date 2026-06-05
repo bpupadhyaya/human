@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modified-nucleoside mRNA-LNP encoding prefusion-stabilized (2P) SARS-CoV-2 spike. Moderna/NIH VRC; sequence-to-IND 42 days. 94.1% efficacy (COVE trial). FDA EUA">
+  <meta property="og:title" content="mRNA-1273 (Spikevax) — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>mRNA-1273 (Spikevax) — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 01 — mRNA</div>
+    <h1>mRNA-1273 (Spikevax)</h1>
+    <p class="tagline">Modified-nucleoside mRNA-LNP encoding prefusion-stabilized (2P) SARS-CoV-2 spike. Moderna/NIH VRC; sequence-to-IND 42 days. 94.1% efficacy (COVE trial). FDA EUA December 2020; first mRNA vaccine on WHO Emergency Use Listing.</p>
+    <p class="aliases">Also known as: Spikevax, Moderna COVID-19 vaccine, CX-024414, elasomeran</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">01 — mRNA</span><span class="stat-label">Platform</span></div>
+        <div class="stat"><span class="stat-num">intramuscular</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">−25°C to −15°C frozen for long-term storage (up to 9 months); 2°–8°C refrigerated for up to 30 days unpunctured</span><span class="stat-label">Cold Chain</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
+        <div class="entry-eyebrow">mrna-1273</div>
+        <h2>mRNA-1273 (Spikevax)</h2>
+        <p class="summary">Modified-nucleoside mRNA-LNP encoding prefusion-stabilized (2P) SARS-CoV-2 spike. Moderna/NIH VRC; sequence-to-IND 42 days. 94.1% efficacy (COVE trial). FDA EUA December 2020; first mRNA vaccine on WHO Emergency Use Listing.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>mrna-1273</td></tr>
+            <tr><td>Name</td><td>mRNA-1273 (Spikevax)</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Platform</td><td>01 — mRNA</td></tr>
+            <tr><td>Delivery system</td><td>lipid-nanoparticle (LNP); four-lipid composition: SM-102 (proprietary ionizable cationic lipid), PEG2000-DMG, cholesterol, DSPC; molar ratio ~50:1.5:38.5:10</td></tr>
+            <tr><td>Adjuvants</td><td>None</td></tr>
+            <tr><td>Route</td><td>intramuscular</td></tr>
+            <tr><td>Dose — primary series adult</td><td>2 doses, 28 days apart, 100 µg each (adults ≥18)</td></tr>
+            <tr><td>Dose — primary series adolescent</td><td>2 doses, 28 days apart, 100 µg (ages 12–17, original EUA)</td></tr>
+            <tr><td>Dose — pediatric 50ug</td><td>2 doses, 28 days apart, 50 µg (ages 6–11)</td></tr>
+            <tr><td>Dose — pediatric 25ug</td><td>2 doses, 28 days apart, 25 µg (ages 6 months–5 years)</td></tr>
+            <tr><td>Dose — booster</td><td>single 50 µg dose ≥ 5 months after primary; later updated bivalent / monovalent formulations</td></tr>
+            <tr><td>Developer</td><td>Moderna, Inc. (Cambridge, Massachusetts) with NIAID Vaccine Research Center</td></tr>
+            <tr><td>Partners</td><td>Acuitas Therapeutics (LNP IP licensing), Lonza (drug substance manufacturing), Catalent (fill-finish), ROVI (EU fill-finish)</td></tr>
+            <tr><td>Cold chain</td><td>−25°C to −15°C frozen for long-term storage (up to 9 months); 2°–8°C refrigerated for up to 30 days unpunctured</td></tr>
+            <tr><td>FDA (2020-12-18)</td><td>EUA</td></tr>
+            <tr><td>EMA (2021-01-06)</td><td>Conditional Marketing Authorization</td></tr>
+            <tr><td>MHRA (2021-01-08)</td><td>Conditional Marketing Authorization</td></tr>
+            <tr><td>WHO (2021-04-30)</td><td>Emergency Use Listing</td></tr>
+            <tr><td>FDA (2022-01-31)</td><td>BLA-approved (Spikevax) — adults</td></tr>
+            <tr><td>FDA (2024-07-10)</td><td>BLA-approved — pediatric (6 months–17 years)</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="sars-cov-2.html" title="Phase 3 COVE: 94.1% efficacy against symptomatic COVID-19 (95% CI 89.3–96.8) at median 2 months follow-up; sustained ~93% at 5+ months for primary series, against pre-Omicron strains."><span class="rel">immunizes-against</span>Sars Cov 2</a>
+            <a class="conn-pill" href="sars-cov-2.html" title="Encodes the SARS-CoV-2 spike (S) glycoprotein with 2P prefusion stabilization (K986P + V987P)."><span class="rel">targets-antigen-of</span>Sars Cov 2</a>
+            <a class="conn-pill" href="bnt162b2.html" title="Both modified-nucleoside mRNA-LNP encoding 2P-stabilized spike. Differ in lipid composition (SM-102 vs ALC-0315), dose (100 µg vs 30 µg), and dose interval."><span class="rel">same-platform-as</span>Bnt162B2</a>
+            <a class="conn-pill" href="heart.html" title="Rare myocarditis / pericarditis adverse event, predominantly in young adult males within 1–7 days of dose 2; incidence ~10–25 per 100,000 in highest-risk age band; typically self-limiting with full recovery."><span class="rel">causes-adverse-event-in</span>Heart</a>
+            <a class="conn-pill" href="cardiomyocyte.html" title="Mechanism of vaccine-associated myocarditis is incompletely understood — proposed mechanisms include molecular mimicry between spike and cardiac proteins, hyperimmune response to LNP/mRNA, and dysregulated cytokine signaling. Histology resembles lymphocytic myocarditis but milder."><span class="rel">causes-adverse-event-in</span>Cardiomyocyte</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1056/NEJMoa2022483" target="_blank" rel="noopener noreferrer">Jackson LA, Anderson EJ, Rouphael NG, et al. An mRNA Vaccine against SARS-CoV-2 — Preliminary Report. NEJM. 2020;383(20):1920-1931.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32663912/" target="_blank" rel="noopener noreferrer">PubMed 32663912</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa2028436" target="_blank" rel="noopener noreferrer">Anderson EJ, Rouphael NG, Widge AT, et al. Safety and Immunogenicity of SARS-CoV-2 mRNA-1273 Vaccine in Older Adults. NEJM. 2020;383(25):2427-2438.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32991794/" target="_blank" rel="noopener noreferrer">PubMed 32991794</a></li>
+            <li><a href="https://doi.org/10.1038/s41586-020-2622-0" target="_blank" rel="noopener noreferrer">Corbett KS, Edwards DK, Leist SR, et al. SARS-CoV-2 mRNA vaccine design enabled by prototype pathogen preparedness. Nature. 2020;586(7830):567-571.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32756549/" target="_blank" rel="noopener noreferrer">PubMed 32756549</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa2035389" target="_blank" rel="noopener noreferrer">Baden LR, El Sahly HM, Essink B, et al. Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine. NEJM. 2021;384(5):403-416.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33378609/" target="_blank" rel="noopener noreferrer">PubMed 33378609</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa2113017" target="_blank" rel="noopener noreferrer">El Sahly HM, Baden LR, Essink B, et al. Efficacy of the mRNA-1273 SARS-CoV-2 Vaccine at Completion of Blinded Phase. NEJM. 2021;385(19):1774-1785.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/34551225/" target="_blank" rel="noopener noreferrer">PubMed 34551225</a></li>
+            <li><a href="https://doi.org/10.1126/science.abb2507" target="_blank" rel="noopener noreferrer">Wrapp D, Wang N, Corbett KS, et al. Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. Science. 2020;367(6483):1260-1263.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32075877/" target="_blank" rel="noopener noreferrer">PubMed 32075877</a></li>
+            <li><a href="https://doi.org/10.1038/nrd.2017.243" target="_blank" rel="noopener noreferrer">Pardi N, Hogan MJ, Porter FW, Weissman D. mRNA vaccines — a new era in vaccinology. Nat Rev Drug Discov. 2018;17(4):261-279.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29326426/" target="_blank" rel="noopener noreferrer">PubMed 29326426</a></li>
+            <li><a href="https://doi.org/10.1016/j.immuni.2005.06.008" target="_blank" rel="noopener noreferrer">Karikó K, Buckstein M, Ni H, Weissman D. Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA. Immunity. 2005;23(2):165-175.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16111635/" target="_blank" rel="noopener noreferrer">PubMed 16111635</a></li>
+            <li><a href="https://doi.org/10.1073/pnas.1707304114" target="_blank" rel="noopener noreferrer">Pallesen J, Wang N, Corbett KS, et al. Immunogenicity and structures of a rationally designed prefusion MERS-CoV spike antigen. PNAS. 2017;114(35):E7348-E7357.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28807998/" target="_blank" rel="noopener noreferrer">PubMed 28807998</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa2109730" target="_blank" rel="noopener noreferrer">Mevorach D, Anis E, Cedar N, et al. Myocarditis after BNT162b2 mRNA Vaccine against Covid-19 in Israel. NEJM. 2021;385(23):2140-2149.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/34614328/" target="_blank" rel="noopener noreferrer">PubMed 34614328</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

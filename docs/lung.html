@@ -307,6 +307,708 @@
 
       </div>
     </div>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         RESPIRATORY MECHANICS SIMULATOR
+         ═══════════════════════════════════════════════════════════ -->
+    <div class="detail-card" id="sim-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Interactive Model &middot; Spirometry &amp; Lung Mechanics</div>
+        <h2>Respiratory Mechanics Simulator</h2>
+        <p class="summary">Explore tidal breathing waveforms and spirometric flow-volume loops across four clinical scenarios. Adjust respiratory rate, tidal volume, FEV₁%, and compliance to see real-time changes in minute ventilation, alveolar ventilation, and lung volume distributions.</p>
+      </div>
+
+      <div class="detail-body" style="gap:1.5rem;">
+
+        <!-- ─── Main 2-column layout ─── -->
+        <div style="display:grid;grid-template-columns:280px 1fr;gap:1.5rem;align-items:start;">
+
+          <!-- LEFT PANEL -->
+          <div style="display:flex;flex-direction:column;gap:1rem;">
+
+            <!-- Scenario buttons -->
+            <div>
+              <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.6rem;">Scenario</div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.45rem;" id="sim-scenarios">
+                <button class="sim-scenario-btn sim-active" data-scenario="normal">Normal</button>
+                <button class="sim-scenario-btn" data-scenario="copd">COPD</button>
+                <button class="sim-scenario-btn" data-scenario="fibrosis">Fibrosis</button>
+                <button class="sim-scenario-btn" data-scenario="ards">ARDS</button>
+              </div>
+            </div>
+
+            <!-- Sliders -->
+            <div style="display:flex;flex-direction:column;gap:0.75rem;">
+
+              <div class="sim-slider-group">
+                <div class="sim-slider-label">
+                  <span>Resp. Rate</span>
+                  <span id="lbl-rr" class="sim-slider-val">14 bpm</span>
+                </div>
+                <input type="range" id="sl-rr" class="sim-slider" min="8" max="35" value="14" step="1">
+              </div>
+
+              <div class="sim-slider-group">
+                <div class="sim-slider-label">
+                  <span>Tidal Volume</span>
+                  <span id="lbl-vt" class="sim-slider-val">500 mL</span>
+                </div>
+                <input type="range" id="sl-vt" class="sim-slider" min="200" max="800" value="500" step="10">
+              </div>
+
+              <div class="sim-slider-group">
+                <div class="sim-slider-label">
+                  <span>FEV₁%</span>
+                  <span id="lbl-fev1pct" class="sim-slider-val">85%</span>
+                </div>
+                <input type="range" id="sl-fev1pct" class="sim-slider" min="25" max="100" value="85" step="1">
+              </div>
+
+              <div class="sim-slider-group">
+                <div class="sim-slider-label">
+                  <span>Compliance</span>
+                  <span id="lbl-comp" class="sim-slider-val">200 mL/cmH₂O</span>
+                </div>
+                <input type="range" id="sl-comp" class="sim-slider" min="20" max="300" value="200" step="5">
+              </div>
+
+            </div><!-- /sliders -->
+
+            <!-- Derived values -->
+            <div style="background:var(--bg);border-radius:var(--radius-sm);padding:0.9rem 1rem;">
+              <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.65rem;">Computed Values</div>
+              <table style="width:100%;border-collapse:collapse;font-size:0.82rem;">
+                <tr>
+                  <td style="color:var(--muted);padding:0.2rem 0;">Minute vent. (V&#775;E)</td>
+                  <td id="dv-ve" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
+                </tr>
+                <tr>
+                  <td style="color:var(--muted);padding:0.2rem 0;">Alveolar vent. (V&#775;A)</td>
+                  <td id="dv-va" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
+                </tr>
+                <tr>
+                  <td style="color:var(--muted);padding:0.2rem 0;">FVC</td>
+                  <td id="dv-fvc" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
+                </tr>
+                <tr>
+                  <td style="color:var(--muted);padding:0.2rem 0;">FEV₁</td>
+                  <td id="dv-fev1" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
+                </tr>
+                <tr>
+                  <td style="color:var(--muted);padding:0.2rem 0;">FEV₁/FVC</td>
+                  <td id="dv-ratio" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
+                </tr>
+                <tr>
+                  <td style="color:var(--muted);padding:0.2rem 0;padding-top:0.45rem;border-top:1px solid var(--border-soft);">Pattern</td>
+                  <td id="dv-pattern" style="text-align:right;font-weight:700;padding-top:0.45rem;border-top:1px solid var(--border-soft);">—</td>
+                </tr>
+              </table>
+            </div>
+
+            <!-- FVC maneuver button -->
+            <button id="btn-fvc" style="padding:0.55rem 1rem;background:var(--accent);color:#fff;border:none;border-radius:var(--radius-sm);font-size:0.85rem;font-weight:600;cursor:pointer;transition:opacity .15s;">Run FVC Maneuver</button>
+
+          </div><!-- /left panel -->
+
+          <!-- RIGHT PANEL -->
+          <div style="display:flex;flex-direction:column;gap:1rem;">
+
+            <!-- Volume-Time canvas -->
+            <div>
+              <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.5rem;">Volume–Time (Tidal Breathing)</div>
+              <canvas id="cvs-vt" style="display:block;width:100%;height:280px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);"></canvas>
+            </div>
+
+            <!-- Flow-Volume canvas -->
+            <div>
+              <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.5rem;">Flow–Volume Loop (MEFV)</div>
+              <canvas id="cvs-fv" style="display:block;width:100%;height:240px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);"></canvas>
+            </div>
+
+          </div><!-- /right panel -->
+
+        </div><!-- /2-col grid -->
+
+        <!-- ─── Lung volumes stack bar ─── -->
+        <div>
+          <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.65rem;">Lung Volume Compartments</div>
+          <div id="sim-stack-outer" style="position:relative;height:52px;border-radius:var(--radius-sm);overflow:hidden;border:1px solid var(--border);">
+            <div id="sim-stack-inner" style="display:flex;height:100%;"></div>
+          </div>
+          <div id="sim-stack-labels" style="display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:0.6rem;font-size:0.78rem;color:var(--muted);"></div>
+        </div>
+
+      </div><!-- /detail-body -->
+    </div><!-- /sim detail-card -->
+
+    <!-- ─── Simulator Styles ─── -->
+    <style>
+      .sim-scenario-btn {
+        padding: 0.45rem 0.6rem;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-sm);
+        font-size: 0.83rem;
+        font-weight: 600;
+        color: var(--fg-soft);
+        cursor: pointer;
+        transition: all .15s;
+        text-align: center;
+      }
+      .sim-scenario-btn:hover {
+        border-color: var(--accent);
+        color: var(--fg);
+      }
+      .sim-scenario-btn.sim-active {
+        background: rgba(2,132,199,0.1);
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+      .sim-slider-group { display: flex; flex-direction: column; gap: 0.3rem; }
+      .sim-slider-label { display: flex; justify-content: space-between; font-size: 0.82rem; color: var(--muted); }
+      .sim-slider-val { font-weight: 700; color: var(--fg); font-variant-numeric: tabular-nums; }
+      .sim-slider {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        height: 4px;
+        background: var(--border);
+        border-radius: 2px;
+        outline: none;
+        cursor: pointer;
+      }
+      .sim-slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: var(--accent);
+        cursor: pointer;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+      }
+      .sim-slider::-moz-range-thumb {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: var(--accent);
+        cursor: pointer;
+        border: none;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+      }
+      @media (max-width: 700px) {
+        #sim-card .detail-body > div:first-child {
+          grid-template-columns: 1fr !important;
+        }
+      }
+    </style>
+
+    <!-- ─── Simulator Script ─── -->
+    <script>
+    (function() {
+      'use strict';
+
+      /* ── Scenario definitions ───────────────────────────────────────── */
+      const SCENARIOS = {
+        normal:   { label:'Normal',   TLC:6.0, FRC:2.5, RV:1.2, FVC:4.6, FEV1:3.9, ratio:0.85, tau:0.50, VT:0.50, RR:14, Ti:1.4, n:0.7, PEF:9.0,  color:'#059669', k:0.5 },
+        copd:     { label:'COPD',     TLC:7.5, FRC:4.0, RV:3.0, FVC:3.8, FEV1:1.3, ratio:0.34, tau:2.80, VT:0.45, RR:20, Ti:1.0, n:0.5, PEF:4.0,  color:'#f59e0b', k:0.8 },
+        fibrosis: { label:'Fibrosis', TLC:4.0, FRC:1.8, RV:1.0, FVC:2.8, FEV1:2.4, ratio:0.86, tau:0.38, VT:0.32, RR:24, Ti:0.9, n:0.7, PEF:6.0,  color:'#7c3aed', k:0.5 },
+        ards:     { label:'ARDS',     TLC:3.5, FRC:1.3, RV:1.2, FVC:2.0, FEV1:1.5, ratio:0.75, tau:0.60, VT:0.28, RR:28, Ti:0.8, n:0.8, PEF:4.0,  color:'#dc2626', k:0.5 },
+      };
+
+      /* ── State ──────────────────────────────────────────────────────── */
+      let currentScenario = 'normal';
+      let state = Object.assign({}, SCENARIOS.normal);
+      // Override with slider-controllable fields
+      let sliderRR    = state.RR;
+      let sliderVT    = Math.round(state.VT * 1000);  // mL
+      let sliderFev1Pct = Math.round(state.ratio * 100);
+      let sliderComp  = 200;
+
+      /* ── Canvases ───────────────────────────────────────────────────── */
+      const cvsVT = document.getElementById('cvs-vt');
+      const cvsFV = document.getElementById('cvs-fv');
+      const ctxVT = cvsVT.getContext('2d');
+      const ctxFV = cvsFV.getContext('2d');
+      const dpr   = window.devicePixelRatio || 1;
+
+      function resizeCanvas(cvs) {
+        const rect = cvs.getBoundingClientRect();
+        const w = Math.round(rect.width  * dpr);
+        const h = Math.round(rect.height * dpr);
+        if (cvs.width !== w || cvs.height !== h) {
+          cvs.width  = w;
+          cvs.height = h;
+        }
+        return { w, h, css_w: rect.width, css_h: rect.height };
+      }
+
+      /* ── Time-domain animation ──────────────────────────────────────── */
+      const WINDOW_SEC = 6;    // rolling 6-second display
+      const TRAIL = [];        // [{t, v}] in seconds and litres above FRC
+      let animT    = 0;        // simulation clock (seconds)
+      let lastRAF  = null;
+      let rafID    = null;
+      let paused   = false;
+
+      function breathVolume(tInCycle, T, Ti, VT_L, tau) {
+        /* Returns volume above FRC in litres */
+        if (tInCycle <= Ti) {
+          return (VT_L / 2) * (1 - Math.cos(Math.PI * tInCycle / Ti));
+        } else {
+          const tExp = tInCycle - Ti;
+          return VT_L * Math.exp(-tExp / tau);
+        }
+      }
+
+      function tick(ts) {
+        if (paused || document.visibilityState === 'hidden') {
+          lastRAF = ts;
+          rafID = requestAnimationFrame(tick);
+          return;
+        }
+        if (lastRAF === null) lastRAF = ts;
+        const dt = Math.min((ts - lastRAF) / 1000, 0.05); // cap at 50 ms
+        lastRAF  = ts;
+        animT   += dt;
+
+        const RR_s   = sliderRR;
+        const VT_L   = sliderVT / 1000;
+        const T      = 60 / RR_s;
+        const Ti     = state.Ti;
+        const tau    = state.tau;
+        const tInCycle = animT % T;
+        const v      = breathVolume(tInCycle, T, Ti, VT_L, tau);
+
+        TRAIL.push({ t: animT, v });
+        // cull old points
+        const cutoff = animT - WINDOW_SEC - 0.1;
+        while (TRAIL.length > 1 && TRAIL[0].t < cutoff) TRAIL.shift();
+
+        drawVT();
+        rafID = requestAnimationFrame(tick);
+      }
+
+      function drawVT() {
+        const { w, h } = resizeCanvas(cvsVT);
+        const ctx = ctxVT;
+        ctx.clearRect(0, 0, w, h);
+
+        const PAD_L = Math.round(44 * dpr);
+        const PAD_R = Math.round(12 * dpr);
+        const PAD_T = Math.round(14 * dpr);
+        const PAD_B = Math.round(28 * dpr);
+        const pw    = w - PAD_L - PAD_R;
+        const ph    = h - PAD_T - PAD_B;
+
+        const VT_L  = sliderVT / 1000;
+        const yMax  = VT_L * 1.15;
+        const yMin  = -VT_L * 0.1;
+        const yRange = yMax - yMin;
+
+        function xOfT(t) {
+          const frac = (t - (animT - WINDOW_SEC)) / WINDOW_SEC;
+          return PAD_L + frac * pw;
+        }
+        function yOfV(v) {
+          const frac = (v - yMin) / yRange;
+          return PAD_T + ph * (1 - frac);
+        }
+
+        // Grid
+        ctx.strokeStyle = `rgba(${isDark() ? '255,255,255' : '0,0,0'},0.06)`;
+        ctx.lineWidth   = 1 * dpr;
+        for (let s = 0; s <= WINDOW_SEC; s++) {
+          const xt = xOfT(animT - s);
+          ctx.beginPath(); ctx.moveTo(xt, PAD_T); ctx.lineTo(xt, PAD_T + ph); ctx.stroke();
+        }
+        // Zero line
+        ctx.strokeStyle = `rgba(${isDark() ? '255,255,255' : '0,0,0'},0.15)`;
+        ctx.beginPath(); ctx.moveTo(PAD_L, yOfV(0)); ctx.lineTo(PAD_L + pw, yOfV(0)); ctx.stroke();
+
+        // Y-axis labels
+        ctx.fillStyle   = getComputedStyle(document.documentElement).getPropertyValue('--muted').trim() || '#6e6e73';
+        ctx.font        = `${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
+        ctx.textAlign   = 'right';
+        ctx.textBaseline = 'middle';
+        const vticks = [0, 0.25, 0.5, 0.75, 1.0].filter(v => v <= VT_L * 1.12);
+        vticks.forEach(v => {
+          if (v > yMax - 0.01) return;
+          const y = yOfV(v);
+          ctx.fillText((v * 1000).toFixed(0), PAD_L - 4 * dpr, y);
+        });
+        ctx.save();
+        ctx.translate(Math.round(10 * dpr), PAD_T + ph / 2);
+        ctx.rotate(-Math.PI / 2);
+        ctx.textAlign   = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('Vol (mL)', 0, 0);
+        ctx.restore();
+
+        // X-axis label
+        ctx.textAlign   = 'center';
+        ctx.textBaseline = 'top';
+        ctx.fillText('Time (s)', PAD_L + pw / 2, PAD_T + ph + 6 * dpr);
+
+        // Trace
+        if (TRAIL.length < 2) return;
+        const scColor = SCENARIOS[currentScenario].color;
+        ctx.beginPath();
+        ctx.strokeStyle = scColor;
+        ctx.lineWidth   = 2.5 * dpr;
+        ctx.lineJoin    = 'round';
+        ctx.lineCap     = 'round';
+        let first = true;
+        TRAIL.forEach(pt => {
+          const x = xOfT(pt.t);
+          if (x < PAD_L - 2 || x > PAD_L + pw + 2) return;
+          const y = yOfV(pt.v);
+          if (first) { ctx.moveTo(x, y); first = false; }
+          else       { ctx.lineTo(x, y); }
+        });
+        ctx.stroke();
+      }
+
+      /* ── Flow-Volume Loop ───────────────────────────────────────────── */
+      function mefvFlow(V_L, sc) {
+        /* V_L = absolute lung volume; returns flow in L/s */
+        const V_rel = (V_L - sc.RV) / (sc.TLC - sc.RV);
+        if (V_rel <= 0) return 0;
+        return sc.PEF * Math.pow(Math.max(V_rel, 0), sc.n);
+      }
+
+      function drawFV() {
+        const { w, h } = resizeCanvas(cvsFV);
+        const ctx = ctxFV;
+        ctx.clearRect(0, 0, w, h);
+
+        const sc = Object.assign({}, SCENARIOS[currentScenario]);
+        // Apply slider overrides
+        sc.FEV1 = sc.FVC * (sliderFev1Pct / 100);
+        sc.ratio = sliderFev1Pct / 100;
+
+        const PAD_L = Math.round(44 * dpr);
+        const PAD_R = Math.round(14 * dpr);
+        const PAD_T = Math.round(14 * dpr);
+        const PAD_B = Math.round(28 * dpr);
+        const pw    = w - PAD_L - PAD_R;
+        const ph    = h - PAD_T - PAD_B;
+
+        // Axes extents — use scenario TLC/RV for x, PEF*1.15 for y
+        const xMin = sc.RV;
+        const xMax = sc.TLC;
+        const yMin = 0;
+        const yMax = sc.PEF * 1.15;
+
+        function xOf(v) { return PAD_L + ((v - xMin) / (xMax - xMin)) * pw; }
+        function yOf(f) { return PAD_T + ph * (1 - (f - yMin) / (yMax - yMin)); }
+
+        // Grid lines
+        ctx.strokeStyle = `rgba(${isDark() ? '255,255,255' : '0,0,0'},0.06)`;
+        ctx.lineWidth = 1 * dpr;
+        for (let v = Math.ceil(xMin); v <= xMax; v++) {
+          const x = xOf(v);
+          ctx.beginPath(); ctx.moveTo(x, PAD_T); ctx.lineTo(x, PAD_T + ph); ctx.stroke();
+        }
+        // Zero-flow axis
+        ctx.strokeStyle = `rgba(${isDark() ? '255,255,255' : '0,0,0'},0.2)`;
+        ctx.lineWidth = 1 * dpr;
+        ctx.beginPath(); ctx.moveTo(PAD_L, yOf(0)); ctx.lineTo(PAD_L + pw, yOf(0)); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(PAD_L, PAD_T); ctx.lineTo(PAD_L, PAD_T + ph); ctx.stroke();
+
+        // Axis labels
+        const mutedColor = getComputedStyle(document.documentElement).getPropertyValue('--muted').trim() || '#6e6e73';
+        ctx.fillStyle    = mutedColor;
+        ctx.font         = `${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
+        ctx.textAlign    = 'center';
+        ctx.textBaseline = 'top';
+        ctx.fillText('Volume (L)', PAD_L + pw / 2, PAD_T + ph + 6 * dpr);
+        // Y label
+        ctx.save();
+        ctx.translate(Math.round(10 * dpr), PAD_T + ph / 2);
+        ctx.rotate(-Math.PI / 2);
+        ctx.textAlign    = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('Flow (L/s)', 0, 0);
+        ctx.restore();
+        // X tick labels
+        ctx.textAlign    = 'center';
+        ctx.textBaseline = 'top';
+        for (let v = Math.ceil(xMin); v <= xMax; v++) {
+          ctx.fillText(v.toFixed(0), xOf(v), PAD_T + ph + 6 * dpr);
+        }
+        // Y tick labels
+        ctx.textAlign    = 'right';
+        ctx.textBaseline = 'middle';
+        for (let f = 0; f <= Math.floor(yMax); f += 2) {
+          ctx.fillText(f.toFixed(0), PAD_L - 4 * dpr, yOf(f));
+        }
+
+        const STEPS = 400;
+
+        // Reference normal curve (if not normal scenario)
+        if (currentScenario !== 'normal') {
+          const norm = SCENARIOS.normal;
+          ctx.beginPath();
+          ctx.strokeStyle = 'rgba(0,0,0,0.13)';
+          ctx.lineWidth   = 1.5 * dpr;
+          ctx.setLineDash([4 * dpr, 3 * dpr]);
+          for (let i = 0; i <= STEPS; i++) {
+            const V = norm.TLC - (norm.FVC * i / STEPS);
+            const F = mefvFlow(V, norm);
+            // Map to current axes
+            const xr = PAD_L + ((V - xMin) / (xMax - xMin)) * pw;
+            const yr = PAD_T + ph * (1 - Math.min(F, yMax) / (yMax - yMin));
+            if (xr < PAD_L - 2 || xr > PAD_L + pw + 2) continue;
+            if (i === 0) ctx.moveTo(xr, yr); else ctx.lineTo(xr, yr);
+          }
+          // Normal inspiration limb
+          for (let i = STEPS; i >= 0; i--) {
+            const V = norm.TLC - (norm.FVC * i / STEPS);
+            const F_insp = -(norm.PEF * 0.7) * Math.sin(Math.PI * i / STEPS);
+            const xr = PAD_L + ((V - xMin) / (xMax - xMin)) * pw;
+            const yr = PAD_T + ph * (1 - Math.min(F_insp, 0) / (yMax - yMin));
+            if (xr < PAD_L - 2 || xr > PAD_L + pw + 2) continue;
+            ctx.lineTo(xr, yr);
+          }
+          ctx.stroke();
+          ctx.setLineDash([]);
+        }
+
+        // Active MEFV expiratory curve
+        ctx.beginPath();
+        ctx.strokeStyle = '#0284c7';
+        ctx.lineWidth   = 2.5 * dpr;
+        let firstPt = true;
+        for (let i = 0; i <= STEPS; i++) {
+          const V = sc.TLC - (sc.FVC * i / STEPS);
+          const F = mefvFlow(V, sc);
+          const x = xOf(V);
+          const y = yOf(Math.min(F, yMax * 0.98));
+          if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
+          if (firstPt) { ctx.moveTo(x, y); firstPt = false; }
+          else         { ctx.lineTo(x, y); }
+        }
+        // Inspiration limb (parabolic)
+        for (let i = STEPS; i >= 0; i--) {
+          const V    = sc.TLC - (sc.FVC * i / STEPS);
+          const frac = i / STEPS;  // 1 at TLC end, 0 at RV end
+          const F_insp = -(sc.PEF * 0.7) * Math.sin(Math.PI * frac);
+          const x = xOf(V);
+          const y = yOf(0) + (yOf(0) - yOf(Math.abs(F_insp)));  // mirror below zero-flow
+          if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
+          ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+
+        // PEF marker
+        const pefX = xOf(sc.TLC);
+        ctx.beginPath();
+        ctx.strokeStyle = '#0284c7';
+        ctx.lineWidth   = 1.5 * dpr;
+        ctx.setLineDash([3 * dpr, 3 * dpr]);
+        ctx.moveTo(pefX, yOf(sc.PEF));
+        ctx.lineTo(pefX - 14 * dpr, yOf(sc.PEF));
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.fillStyle   = '#0284c7';
+        ctx.font        = `bold ${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
+        ctx.textAlign   = 'right';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('PEF ' + sc.PEF.toFixed(1) + ' L/s', pefX - 16 * dpr, yOf(sc.PEF));
+
+        // FEV₁ dashed vertical at TLC - FEV1
+        const fev1Vol = sc.TLC - sc.FEV1;
+        if (fev1Vol >= xMin && fev1Vol <= xMax) {
+          const fev1X = xOf(fev1Vol);
+          ctx.beginPath();
+          ctx.strokeStyle = '#dc2626';
+          ctx.lineWidth   = 1.5 * dpr;
+          ctx.setLineDash([4 * dpr, 3 * dpr]);
+          ctx.moveTo(fev1X, PAD_T);
+          ctx.lineTo(fev1X, PAD_T + ph);
+          ctx.stroke();
+          ctx.setLineDash([]);
+          ctx.fillStyle    = '#dc2626';
+          ctx.font         = `bold ${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
+          ctx.textAlign    = 'center';
+          ctx.textBaseline = 'bottom';
+          ctx.fillText('FEV₁', fev1X, PAD_T + ph - 2 * dpr);
+        }
+      }
+
+      /* ── Lung volumes stack bar ─────────────────────────────────────── */
+      function updateStack() {
+        const sc = SCENARIOS[currentScenario];
+        const TLC  = sc.TLC;
+        const ERV  = sc.FRC - sc.RV;
+        const VT_L = sliderVT / 1000;
+        const IRV  = TLC - sc.FRC - VT_L;
+
+        const segments = [
+          { label:'RV',  vol: sc.RV,           color:'#ef4444' },
+          { label:'ERV', vol: Math.max(ERV, 0), color:'#f97316' },
+          { label:'VT',  vol: VT_L,             color:'#22c55e' },
+          { label:'IRV', vol: Math.max(IRV, 0), color:'#3b82f6' },
+        ];
+
+        const inner  = document.getElementById('sim-stack-inner');
+        const labels = document.getElementById('sim-stack-labels');
+        inner.innerHTML  = '';
+        labels.innerHTML = '';
+
+        segments.forEach(seg => {
+          const pct = (seg.vol / TLC) * 100;
+          const div = document.createElement('div');
+          div.style.cssText = `flex:0 0 ${pct.toFixed(2)}%;background:${seg.color};`;
+          inner.appendChild(div);
+
+          const lbl = document.createElement('span');
+          lbl.style.cssText = 'display:inline-flex;align-items:center;gap:0.3rem;';
+          lbl.innerHTML = `<span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${seg.color};flex-shrink:0;"></span>${seg.label} ${(seg.vol * 1000).toFixed(0)} mL`;
+          labels.appendChild(lbl);
+        });
+
+        // Add summary labels
+        const sumVals = [
+          { name:'TLC', val: TLC },
+          { name:'FRC', val: sc.FRC },
+          { name:'VC',  val: TLC - sc.RV },
+        ];
+        sumVals.forEach(s => {
+          const lbl = document.createElement('span');
+          lbl.style.cssText = 'display:inline-flex;align-items:center;gap:0.3rem;font-weight:700;color:var(--fg-soft);';
+          lbl.textContent = `${s.name} ${(s.val * 1000).toFixed(0)} mL`;
+          labels.appendChild(lbl);
+        });
+      }
+
+      /* ── Derived values display ─────────────────────────────────────── */
+      function updateDerived() {
+        const VT_L   = sliderVT / 1000;
+        const RR_s   = sliderRR;
+        const VE     = RR_s * VT_L;                    // L/min
+        const VA     = RR_s * (VT_L - 0.150);         // L/min (VD=150 mL)
+        const sc     = SCENARIOS[currentScenario];
+        const fvc    = sc.FVC;
+        const fev1   = fvc * (sliderFev1Pct / 100);
+        const ratio  = sliderFev1Pct / 100;
+
+        // Pattern classification
+        const normalFVC = SCENARIOS.normal.FVC;
+        const fvcPct    = (fvc / normalFVC) * 100;
+        let pattern, patternColor;
+        if (ratio < 0.70 && fvcPct >= 80) {
+          pattern = 'Obstructive'; patternColor = '#f59e0b';
+        } else if (ratio >= 0.70 && fvcPct < 80) {
+          pattern = 'Restrictive'; patternColor = '#7c3aed';
+        } else if (ratio < 0.70 && fvcPct < 80) {
+          pattern = 'Mixed'; patternColor = '#dc2626';
+        } else {
+          pattern = 'Normal'; patternColor = '#059669';
+        }
+
+        document.getElementById('dv-ve').textContent     = VE.toFixed(1)  + ' L/min';
+        document.getElementById('dv-va').textContent     = Math.max(VA,0).toFixed(1) + ' L/min';
+        document.getElementById('dv-fvc').textContent    = fvc.toFixed(2) + ' L';
+        document.getElementById('dv-fev1').textContent   = fev1.toFixed(2) + ' L';
+        document.getElementById('dv-ratio').textContent  = (ratio * 100).toFixed(0) + '%';
+        const patEl = document.getElementById('dv-pattern');
+        patEl.textContent  = pattern;
+        patEl.style.color  = patternColor;
+      }
+
+      /* ── Scenario loading ───────────────────────────────────────────── */
+      function loadScenario(key) {
+        currentScenario = key;
+        const sc = SCENARIOS[key];
+        state   = Object.assign({}, sc);
+
+        // Update sliders
+        sliderRR      = sc.RR;
+        sliderVT      = Math.round(sc.VT * 1000);
+        sliderFev1Pct = Math.round(sc.ratio * 100);
+        // compliance doesn't map directly — reset to mid-point per scenario
+        const compMap = { normal: 200, copd: 240, fibrosis: 60, ards: 50 };
+        sliderComp = compMap[key];
+
+        document.getElementById('sl-rr').value       = sliderRR;
+        document.getElementById('sl-vt').value       = sliderVT;
+        document.getElementById('sl-fev1pct').value  = sliderFev1Pct;
+        document.getElementById('sl-comp').value     = sliderComp;
+
+        document.getElementById('lbl-rr').textContent      = sliderRR + ' bpm';
+        document.getElementById('lbl-vt').textContent      = sliderVT + ' mL';
+        document.getElementById('lbl-fev1pct').textContent = sliderFev1Pct + '%';
+        document.getElementById('lbl-comp').textContent    = sliderComp + ' mL/cmH₂O';
+
+        // Update active button
+        document.querySelectorAll('.sim-scenario-btn').forEach(b => {
+          b.classList.toggle('sim-active', b.dataset.scenario === key);
+        });
+
+        updateDerived();
+        updateStack();
+        drawFV();
+      }
+
+      /* ── Dark-mode helper ───────────────────────────────────────────── */
+      function isDark() {
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      }
+
+      /* ── Event wiring ───────────────────────────────────────────────── */
+      document.querySelectorAll('.sim-scenario-btn').forEach(btn => {
+        btn.addEventListener('click', () => loadScenario(btn.dataset.scenario));
+      });
+
+      document.getElementById('sl-rr').addEventListener('input', e => {
+        sliderRR = parseInt(e.target.value, 10);
+        document.getElementById('lbl-rr').textContent = sliderRR + ' bpm';
+        updateDerived(); updateStack();
+      });
+      document.getElementById('sl-vt').addEventListener('input', e => {
+        sliderVT = parseInt(e.target.value, 10);
+        document.getElementById('lbl-vt').textContent = sliderVT + ' mL';
+        updateDerived(); updateStack();
+      });
+      document.getElementById('sl-fev1pct').addEventListener('input', e => {
+        sliderFev1Pct = parseInt(e.target.value, 10);
+        document.getElementById('lbl-fev1pct').textContent = sliderFev1Pct + '%';
+        updateDerived(); drawFV();
+      });
+      document.getElementById('sl-comp').addEventListener('input', e => {
+        sliderComp = parseInt(e.target.value, 10);
+        document.getElementById('lbl-comp').textContent = sliderComp + ' mL/cmH₂O';
+        updateDerived();
+      });
+      document.getElementById('btn-fvc').addEventListener('click', () => {
+        drawFV();
+      });
+
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible' && paused === false) lastRAF = null;
+      });
+
+      window.addEventListener('resize', () => {
+        resizeCanvas(cvsVT); resizeCanvas(cvsFV);
+        drawVT(); drawFV();
+      });
+
+      /* ── Initialise ─────────────────────────────────────────────────── */
+      // Let layout settle then size canvases
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          resizeCanvas(cvsVT);
+          resizeCanvas(cvsFV);
+          loadScenario('normal');
+          rafID = requestAnimationFrame(tick);
+        });
+      });
+
+    })();
+    </script>
+
   </main>
 
   <footer>
