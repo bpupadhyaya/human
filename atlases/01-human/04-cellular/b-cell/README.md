@@ -51,6 +51,10 @@ cross_links:
     relation: part-of
     evidence: nutt-2015-b-cell-fate
     note: "B cell lymphopoiesis originates in bone marrow from CLPs; pro-B → pre-B → immature B cell maturation occurs in marrow stroma."
+  - target: 01-human/06-organ/spleen
+    relation: part-of
+    evidence: nutt-2015-b-cell-fate
+    note: "Splenic follicles contain B cells that mount T-dependent germinal centre responses and T-independent IgM responses to blood-borne antigens; marginal zone B cells are specialised for rapid responses to encapsulated bacteria."
 ---
 
 # B Cell

@@ -40,6 +40,10 @@ cross_links:
     relation: modulates
     evidence: aggarwal-2009-curcumin-diseases
     note: "Curcumin activates Nrf2 (nuclear factor erythroid 2-related factor 2) in hepatocytes by modifying Keap1 cysteine residues, releasing Nrf2 to translocate to the nucleus and drive ARE (antioxidant response element) gene expression: HO-1 (heme oxygenase-1), NQO1 (NAD(P)H:quinone oxidoreductase), glutathione S-transferases, and ferritin — providing cytoprotection against oxidative/electrophilic stress. Curcumin inhibits TGF-β-induced hepatic stellate cell (HSC) activation, suppressing α-SMA expression and collagen type I secretion → anti-fibrotic in NAFLD/NASH models. These hepatoprotective mechanisms are primarily established in cell culture and animal models; clinical biopsy-confirmed anti-fibrotic data in humans are limited."
+  - target: 01-human/03-molecular/nf-kb
+    relation: modulates
+    evidence: aggarwal-2009-curcumin-diseases
+    note: "Curcumin inhibits IKKβ (IC50 ~2 µM) and directly binds the p65 subunit of NF-κB, preventing IκBα phosphorylation, NF-κB nuclear translocation, and transcription of TNF-α, IL-6, and COX-2 target genes."
 ---
 
 # Curcumin

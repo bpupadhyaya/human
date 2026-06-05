@@ -58,6 +58,10 @@ cross_links:
     relation: modulated-by
     evidence: zhu-paul-2010-th-differentiation
     note: "NK cells suppress T helper cell activation through cytotoxic elimination of antigen-presenting dendritic cells and regulatory cytokine secretion."
+  - target: 01-human/06-organ/thymus
+    relation: part-of
+    evidence: zhu-paul-2010-th-differentiation
+    note: "CD4⁺ T helper cells undergo positive selection on MHC class II and negative selection on self-antigens in the thymus; exported as naive CD4⁺ T cells to peripheral lymphoid organs to initiate adaptive immune responses."
 ---
 
 # T Helper Cell

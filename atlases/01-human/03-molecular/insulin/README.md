@@ -49,6 +49,22 @@ cross_links:
     relation: modulated-by
     evidence: saltiel-2001-insulin-signaling
     note: "Berberine activates AMPK (via mitochondrial Complex I inhibition) and independently upregulates insulin receptor expression, sensitising peripheral tissues to insulin signalling; HbA1c reduction ~1.0% is comparable to metformin 1500 mg/day."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: targets
+    evidence: saltiel-2001-insulin-signaling
+    note: "The insulin receptor (INSR) is the primary target of insulin; insulin binds with Kd ~0.1 nM, triggering β-subunit Tyr1158/1162/1163 autophosphorylation and IRS-1/2-mediated PI3K→Akt signalling cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: modulated-by
+    evidence: saltiel-2001-insulin-signaling
+    note: "Insulin secretion and receptor downregulation create a feedback loop: activated IR drives IRS-1 Ser phosphorylation via mTORC1/S6K1, reducing IRS-1 Tyr signalling — a negative feedback limiting insulin action."
+  - target: 01-human/06-organ/pancreas
+    relation: part-of
+    evidence: banting-best-1922-insulin
+    note: "Insulin is synthesised exclusively in pancreatic β cells of the islets of Langerhans; preproinsulin is processed to proinsulin in the ER and cleaved by PC1/3 and PC2 to yield mature insulin stored in secretory granules."
+  - target: 01-human/06-organ/pancreas
+    relation: modulated-by
+    evidence: banting-best-1922-insulin
+    note: "Pancreatic β cells secrete insulin in response to glucose (>6 mmol/L), amino acids, GLP-1, and GIP; glucose-stimulated insulin secretion via KATP channel closure and Ca²⁺-triggered exocytosis is the primary regulatory mechanism."
 ---
 
 # Insulin

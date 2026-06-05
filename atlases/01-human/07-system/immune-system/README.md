@@ -136,6 +136,27 @@ cross_links:
     relation: treated-by
     evidence: janeway-immunobiology-9e
     note: "Ashwagandha withanolides enhance NK cell cytotoxicity, lymphocyte proliferation, and immunoglobulin levels in clinical trials of immune function."
+  - target: 01-human/03-molecular/stat3
+    relation: modulated-by
+    note: "STAT3 downstream of IL-6 and IL-10 shapes innate and adaptive immunity; constitutive STAT3 in tumour-associated immune cells suppresses antitumour responses; STAT3 in Tregs maintains immune homeostasis."
+  - target: 01-human/06-organ/thymus
+    relation: contains
+    note: "The thymus is the primary lymphoid organ responsible for generating the entire peripheral T cell repertoire via positive and negative selection; loss of thymic function (DiGeorge syndrome) causes profound T cell immunodeficiency."
+  - target: 01-human/06-organ/spleen
+    relation: modulated-by
+    note: "The spleen orchestrates adaptive immune responses to blood-borne antigens via marginal zone B cells, follicular T/B GC reactions, and macrophage-T cell crosstalk; splenectomy increases susceptibility to encapsulated bacteria."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: damaged-by
+    note: "HCV drives T cell exhaustion via PD-1/TIM-3 upregulation; chronic antigen stimulation depletes HCV-specific CD8⁺ T cells; NS3/4A cleaves MAVS and TRIF to suppress innate immune sensing, enabling viral persistence."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: damaged-by
+    note: "HPV E6/E7 suppress innate immune sensing by impairing IFN-β production; E7 degrades IRF3 and inhibits TLR9; this immune evasion enables persistent infection, failure of immune clearance, and oncogenic transformation."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: prevented-by
+    note: "Gardasil-9 generates neutralising IgG against HPV-16 L1 VLPs, preventing viral entry into mucosal keratinocytes; 90%+ efficacy against CIN2/3 and cervical cancer in seronegative individuals at time of vaccination."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: modulated-by
+    note: "GR activation by glucocorticoids broadly suppresses the immune system via transrepression of NF-κB and AP-1, reducing production of pro-inflammatory cytokines (TNF-α, IL-6, IL-1β, IL-12) across innate and adaptive compartments."
 ---
 
 # Immune System

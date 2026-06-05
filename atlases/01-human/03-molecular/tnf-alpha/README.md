@@ -62,6 +62,14 @@ cross_links:
     relation: modulated-by
     evidence: aggarwal-2003-tnf-biology
     note: "Curcumin covalently inhibits IKKβ (Michael addition to Cys-179), trapping NF-κB in the cytoplasm and suppressing TNF-α transcription; AP-1 suppression (via JNK inhibition) and STAT3 inhibition provide additional multi-level anti-inflammatory suppression."
+  - target: 01-human/03-molecular/nf-kb
+    relation: modulated-by
+    evidence: aggarwal-2003-tnf-biology
+    note: "NF-κB p65/p50 binds two κB sites in the TNF promoter, driving TNF-α transcription in macrophages; TNF-α in turn activates NF-κB via TNFR1→TRADD→RIP1→IKK, creating a positive inflammatory feedback loop."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: modulated-by
+    evidence: aggarwal-2003-tnf-biology
+    note: "GR activation transrepresses TNF-α transcription via direct binding to NF-κB p65, displacing coactivators CBP/p300 and recruiting HDAC2; this is the mechanistic basis of glucocorticoid anti-inflammatory action."
 ---
 
 # TNF-α (Tumor Necrosis Factor-alpha)

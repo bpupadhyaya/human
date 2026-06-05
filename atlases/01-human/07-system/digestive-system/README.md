@@ -79,6 +79,9 @@ cross_links:
     relation: modulated-by
     evidence: hall-guyton-14-gi
     note: "L. rhamnosus GG colonises the gut epithelium, modulating digestive system function by enhancing barrier integrity and reducing transit time in antibiotic-associated diarrhoea."
+  - target: 01-human/06-organ/pancreas
+    relation: modulated-by
+    note: "The exocrine pancreas secretes ~1.5 L/day of bicarbonate-rich fluid containing amylase, lipase, and proteases into the duodenum via the pancreatic duct, providing the digestive system's principal luminal enzyme activity."
 taxonomy:
   uberon: "UBERON:0001007"
 ---

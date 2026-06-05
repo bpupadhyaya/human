@@ -40,6 +40,10 @@ cross_links:
     relation: treats
     evidence: yin-2008-berberine-t2dm
     note: "Berberine activates AMPK in hepatocytes via Complex I inhibition (similar to metformin), reducing malonyl-CoA and lipogenesis. It inhibits SREBP-1c → reduced fatty acid synthesis; activates autophagy via AMPK → improved lipid clearance. Clinical RCTs show improved liver enzyme profiles (ALT, AST), reduced hepatic fat on imaging, and improved histological NAFLD activity scores."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: modulates
+    evidence: zhang-2010-berberine-insulin-receptor
+    note: "Berberine activates AMPK independently of insulin, phosphorylating IRS-1 and sensitising downstream IR signalling; it also upregulates insulin receptor mRNA and protein expression in hepatocytes and skeletal muscle cells."
 ---
 
 # Berberine

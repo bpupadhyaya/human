@@ -67,6 +67,18 @@ cross_links:
     relation: modulated-by
     evidence: kandel-principles-ns
     note: "Ashwagandha withanolides cross the blood-brain barrier and modulate GABA-A receptors and cortisol-driven HPA axis activity, reducing anxiety and neuroinflammation."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: modulated-by
+    note: "SERT sets ambient 5-HT tone across the CNS; SSRI inhibition of SERT elevates synaptic 5-HT at serotonergic synapses throughout the nervous system, mediating antidepressant, anxiolytic, and other CNS effects over weeks."
+  - target: 02-pathogen/02-bacteria/clostridium-tetani
+    relation: damaged-by
+    note: "Tetanospasmin blocks inhibitory interneurons throughout the CNS, causing generalised rigidity (risus sardonicus, opisthotonos), trismus, and autonomic instability; untreated case fatality exceeds 50% without ICU support."
+  - target: 02-pathogen/02-bacteria/clostridium-tetani
+    relation: prevented-by
+    note: "Tetanus toxoid (DTP/Td/TT) prevents nervous system damage by inducing neutralising IgG against TeNT; childhood primary series plus boosters every 10 years maintain protective antibody titres (>0.1 IU/mL)."
+  - target: 02-pathogen/02-bacteria/clostridium-tetani
+    relation: treated-by
+    note: "Tetanus treatment includes TIG to neutralise unbound toxin, wound debridement, metronidazole (kills vegetative C. tetani), benzodiazepines for spasm control, and ICU supportive care with mechanical ventilation if needed."
 ---
 
 # Nervous System

@@ -55,6 +55,10 @@ cross_links:
   - target: 01-human/08-whole-body/human-body
     relation: part-of
     note: "NK cells are distributed throughout blood (~5–20% of circulating lymphocytes), spleen, liver (liver NK cells = ~30–50% of hepatic lymphocytes), lung, uterine decidua, and bone marrow."
+  - target: 01-human/06-organ/spleen
+    relation: part-of
+    evidence: vivier-2008-nk-functions
+    note: "The spleen contains a resident NK cell population in the red pulp and marginal zone providing innate surveillance against blood-borne pathogens and malignant cells; splenic NK cells exhibit high cytotoxic activity."
 ---
 
 # Natural Killer Cell

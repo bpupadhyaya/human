@@ -49,6 +49,10 @@ cross_links:
     relation: modulated-by
     evidence: chrousos-1995-stress-hpa
     note: "Withanolides in standardised root extract reduce serum cortisol by 14–32% in placebo-controlled RCTs via HPA axis modulation; DHEA-S is preserved, suggesting selective stress-response normalisation rather than adrenal suppression."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: targets
+    evidence: chrousos-1995-stress-hpa
+    note: "Cortisol is the primary endogenous ligand of GR (NR3C1); binding Kd ~5 nM displaces HSP90/FKBP51 chaperone complex, enabling GR nuclear translocation and transactivation/transrepression of inflammatory gene networks."
 ---
 
 # Cortisol

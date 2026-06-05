@@ -62,6 +62,18 @@ cross_links:
     relation: modulated-by
     evidence: tanaka-2016-il6-disease
     note: "EPA/DHA competitively displace arachidonic acid from membrane phospholipids, shifting eicosanoid synthesis toward weaker PGE₃/LTB₅; reduced prostaglandin signalling lowers IL-6 production. SPMs (resolvins, protectins) actively resolve inflammation."
+  - target: 01-human/03-molecular/stat3
+    relation: modulates
+    evidence: tanaka-2016-il6-disease
+    note: "IL-6 trans-signals via sIL-6R→gp130 homodimerisation→JAK1/JAK2 activation→STAT3 Tyr705 phosphorylation; this is the dominant pathway for STAT3 activation in systemic inflammation, the acute-phase response, and cancer."
+  - target: 01-human/03-molecular/nf-kb
+    relation: modulated-by
+    evidence: tanaka-2016-il6-disease
+    note: "NF-κB p65/p50 binds two κB sites in the IL-6 promoter and drives IL-6 transcription in macrophages and stromal cells; IκBα-mediated NF-κB cycling produces oscillating IL-6 pulses during LPS stimulation."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: modulated-by
+    evidence: tanaka-2016-il6-disease
+    note: "GR activation by glucocorticoids transrepresses IL-6 transcription via direct protein–protein interaction with NF-κB p65, competing for coactivators CBP/p300 and recruiting HDAC2 to the IL-6 promoter."
 ---
 
 # Interleukin-6

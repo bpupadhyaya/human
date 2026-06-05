@@ -88,6 +88,15 @@ cross_links:
     relation: contains
     evidence: guyton-hall-textbook
     note: "Intestinal epithelium lines ~32 m² of bowel surface, replaced every 3–5 days; the largest renewable epithelial surface in the human body."
+  - target: 01-human/06-organ/thymus
+    relation: contains
+    note: "The thymus is a bilobed organ in the anterior superior mediastinum, largest at puberty (~40 g), involuting progressively to <10 g in the elderly while retaining residual T cell output critical for immune competence."
+  - target: 01-human/06-organ/spleen
+    relation: contains
+    note: "The spleen (~150 g) is the largest lymphoid organ, in the left upper quadrant under ribs 9–11; it filters blood for pathogens and damaged RBCs and initiates adaptive immune responses to blood-borne antigens."
+  - target: 01-human/06-organ/pancreas
+    relation: contains
+    note: "The pancreas (~85 g) is a retroperitoneal gland between the duodenum and spleen; its β cells produce insulin regulating glucose homeostasis, while exocrine cells secrete ~1.5 L/day of digestive enzymes."
 ---
 
 # Human body

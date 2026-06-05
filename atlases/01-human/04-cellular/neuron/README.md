@@ -72,6 +72,18 @@ cross_links:
     relation: damaged-by
     evidence: kandel-principles
     note: "PrPSc templated misfolding accumulates as amyloid plaques in neural tissue, causing spongiform vacuolation, synaptic loss, and neuronal death in CJD/prion diseases."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: modulated-by
+    evidence: kandel-principles
+    note: "SERT (SLC6A4) on presynaptic serotonergic neurons reuptakes 5-HT from the synapse; SSRI blockade increases synaptic 5-HT, sustaining 5-HT1A/5-HT2A receptor activation and mediating antidepressant action."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: contains
+    evidence: kandel-principles
+    note: "SERT is an integral membrane protein of serotonergic neuron presynaptic terminals; it localises to lipid raft microdomains adjacent to the active zone and is regulated by PKC-mediated Thr616 phosphorylation and internalisation."
+  - target: 02-pathogen/02-bacteria/clostridium-tetani
+    relation: damaged-by
+    evidence: kandel-principles
+    note: "Tetanospasmin (TeNT) undergoes retrograde axonal transport to inhibitory interneurons, where VAMP-2 cleavage blocks GABA/glycine release, removing inhibitory control of α-motor neurons and causing spastic paralysis."
 ---
 
 # Neuron

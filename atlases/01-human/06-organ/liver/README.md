@@ -100,6 +100,9 @@ cross_links:
     relation: treated-by
     evidence: younossi-2019-nafld
     note: "berberine activates AMPK in hepatocytes, reducing lipogenesis and improving insulin sensitivity; clinical trials show reductions in hepatic steatosis markers in NAFLD patients"
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: damaged-by
+    note: "Chronic HCV triggers hepatic stellate cell activation via TGF-β, driving progressive fibrosis (METAVIR F0→F4); 20–30% develop cirrhosis within 20 years; HCC risk is 2–4% annually after cirrhosis."
 taxonomy:
   uberon: "UBERON:0002107"
   fma: "FMA:7197"

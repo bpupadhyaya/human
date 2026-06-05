@@ -70,6 +70,18 @@ cross_links:
     relation: part-of
     evidence: ginhoux-2016-macrophage-ontogeny
     note: "Bone marrow monocyte progenitors (cMoPs from GMPs) give rise to circulating monocytes that seed tissues and differentiate into resident macrophages."
+  - target: 01-human/03-molecular/stat3
+    relation: modulated-by
+    evidence: murray-2017-macrophage-activation
+    note: "STAT3 downstream of IL-10 and IL-6 drives macrophage M2-like polarisation and suppresses M1 pro-inflammatory gene expression; tumour-associated macrophage STAT3 constitutive activity sustains immunosuppressive TME."
+  - target: 01-human/03-molecular/nf-kb
+    relation: modulated-by
+    evidence: murray-2017-macrophage-activation
+    note: "NF-κB p65/p50 is the master transcriptional driver of macrophage M1 polarisation: LPS→TLR4→MyD88/TRIF→IKKβ→NF-κB drives TNF-α, IL-6, IL-12, and iNOS expression in activated macrophages."
+  - target: 01-human/06-organ/spleen
+    relation: part-of
+    evidence: ginhoux-2016-macrophage-ontogeny
+    note: "Splenic red pulp macrophages phagocytose senescent erythrocytes and recycle haem iron; marginal zone macrophages clear encapsulated bacteria; both populations derive from blood monocytes seeding the spleen."
 ---
 
 # Macrophage

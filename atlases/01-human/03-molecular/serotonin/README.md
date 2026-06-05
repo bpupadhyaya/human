@@ -35,6 +35,10 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: modulates
     note: "GI 5-HT coordinates peristalsis (5-HT4), mediates nausea signaling (5-HT3), and regulates secretion across the enteric nervous system."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: modulated-by
+    evidence: berger-2009-ssri
+    note: "SERT (SLC6A4) terminates serotonergic neurotransmission by actively transporting 5-HT from the synapse into the presynaptic terminal; SSRI blockade of SERT increases synaptic 5-HT and mediates antidepressant effects."
 ---
 
 # Serotonin

@@ -68,6 +68,14 @@ cross_links:
     relation: infected-by
     evidence: merad-2013-dc-biology
     note: "Candida albicans is recognised by DC Dectin-1 and TLR2; in immunocompromised hosts DCs may harbour intracellular yeast, impairing killing."
+  - target: 01-human/06-organ/thymus
+    relation: part-of
+    evidence: merad-2013-dc-biology
+    note: "Thymic DCs present self-antigens to developing thymocytes in the medulla, deleting autoreactive T cells (negative selection); medullary thymic DCs also generate natural Tregs via low-affinity self-peptide recognition."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: infected-by
+    evidence: banchereau-steinman-1998
+    note: "HPV-16 infects keratinocytes and may be carried by Langerhans cells (skin DCs) to lymph nodes; HPV E7 impairs IRF3 and TLR9 signalling in DCs, reducing IFN-β production and allowing persistent mucosal infection."
 ---
 
 # Dendritic Cell

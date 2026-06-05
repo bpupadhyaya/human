@@ -77,6 +77,22 @@ cross_links:
     relation: modulated-by
     evidence: taub-2004-hepatocyte-regeneration
     note: "Curcumin activates Nrf2-HO-1 in hepatocytes, reducing oxidative injury, and inhibits NF-κB, suppressing hepatic stellate cell activation in NAFLD/NASH."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: modulated-by
+    evidence: hall-guyton-14-liver
+    note: "IR signalling in hepatocytes drives GLUT2-mediated glucose uptake, glycogen synthesis (GSK3β inhibition), and suppression of gluconeogenesis via Akt→FoxO1 phosphorylation; hepatic insulin resistance impairs FoxO1 suppression, causing fasting hyperglycaemia."
+  - target: 01-human/03-molecular/stat3
+    relation: modulated-by
+    evidence: taub-2004-hepatocyte-regeneration
+    note: "STAT3 activation in hepatocytes by IL-6 drives the acute-phase response (CRP, fibrinogen, SAA transcription); constitutive STAT3 promotes hepatocellular carcinoma by upregulating MCL-1, BCL-XL, and VEGF."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: infected-by
+    evidence: gebhardt-2014-hepatocyte-heterogeneity
+    note: "HCV infects hepatocytes via CD81/SR-B1/CLDN1/OCLN co-receptor complex; intracellular replication on ER-derived membranous web leads to 75% chronic infection rate and progressive fibrosis/HCC over 20+ years."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: prevented-by
+    evidence: de-la-rosa-2021-hepatocyte-cyp450
+    note: "Direct-acting antivirals (sofosbuvir/velpatasvir, glecaprevir/pibrentasvir) achieve >95% SVR12, clearing HCV from hepatocytes and halting progression to cirrhosis and HCC; WHO target: 90% treated by 2030."
 taxonomy:
   cell_ontology: "CL:0000182"
   lineage: "endoderm — hepatic endoderm — hepatoblast — hepatocyte"
