@@ -1,0 +1,130 @@
+---
+schema: human-scale-entry/v1
+id: covid-19-disease
+name: COVID-19 Disease
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Multisystem infectious disease caused by SARS-CoV-2; clinical spectrum from asymptomatic to severe ARDS and cytokine storm. Spike protein binds ACE2 for cell entry; hyperinflammation drives severe disease; mRNA vaccines (mRNA-1273, BNT162b2) provide high efficacy."
+aliases: ["COVID-19", "coronavirus disease 2019", "SARS-CoV-2 infection", "COVID"]
+sources:
+  - id: guan-2020-china-cohort
+    type: peer-reviewed
+    cite: "Guan WJ, Ni ZY, Hu Y, et al. Clinical Characteristics of Coronavirus Disease 2019 in China. N Engl J Med. 2020;382(18):1708-1720."
+    doi: "10.1056/NEJMoa2002032"
+    pmid: "32109013"
+    url: "https://doi.org/10.1056/NEJMoa2002032"
+  - id: hoffmann-2020-ace2-entry
+    type: peer-reviewed
+    cite: "Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. Cell. 2020;181(2):271-280."
+    doi: "10.1016/j.cell.2020.02.052"
+    pmid: "32142651"
+    url: "https://doi.org/10.1016/j.cell.2020.02.052"
+  - id: polack-2020-bnt162b2
+    type: peer-reviewed
+    cite: "Polack FP, Thomas SJ, Kitchin N, et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. N Engl J Med. 2020;383(27):2603-2615."
+    doi: "10.1056/NEJMoa2034577"
+    pmid: "33301246"
+    url: "https://doi.org/10.1056/NEJMoa2034577"
+cross_links:
+  - target: 01-human/03-molecular/ace2
+    relation: modulates
+    note: "SARS-CoV-2 spike protein binds ACE2 for cell entry; viral binding downregulates surface ACE2, shifting angiotensin II/Ang-(1-7) balance toward pro-inflammatory Ang II signaling — amplifying vascular injury and cytokine release in severe COVID-19."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Severe COVID-19 is pathologically defined by a hyperinflammatory cytokine release syndrome (elevated IL-6, IL-1β, TNF-α, ferritin); cytokine storm drives the vascular leak, ARDS, multiorgan failure, and high mortality of critical COVID-19."
+  - target: 01-human/06-organ/lung
+    relation: targets
+    note: "The lung is the primary target organ in COVID-19 pneumonitis: diffuse alveolar damage, type II pneumocyte injury, pulmonary vascular thrombosis, and hyaline membrane formation produce the bilateral infiltrates and hypoxemia characteristic of COVID-19 ARDS."
+  - target: 01-human/07-system/respiratory-system
+    relation: targets
+    note: "SARS-CoV-2 infects upper and lower respiratory epithelium via ACE2; initial upper respiratory replication (nasal turbinates, oropharynx) is followed by lower respiratory spread in severe cases, causing COVID-19 pneumonia and respiratory failure."
+---
+
+# COVID-19 Disease
+
+## Overview
+
+**COVID-19 (Coronavirus Disease 2019)** is an infectious, multisystem disease caused by **SARS-CoV-2** (Severe Acute Respiratory Syndrome Coronavirus 2), a betacoronavirus identified in Wuhan, China in December 2019. It caused the first pandemic of the 21st century, responsible for >7 million documented deaths globally as of 2024 (with substantial excess-mortality estimates suggesting 14–24 million total).
+
+The clinical spectrum is remarkably broad — ranging from **completely asymptomatic** (~35–45% of infections) to **mild-moderate respiratory illness** to **severe pneumonia, ARDS, and multiorgan failure**. Risk stratification is critically determined by age (strong exponential increase in severity/mortality above 50 years), immunosuppression, diabetes, obesity, cardiovascular disease, and CKD. The case-fatality rate (CFR) of the original Wuhan strain was ~1–3%; Omicron subvariants have substantially lower CFR (~0.1–0.3%) due to immune escape mutations reducing lower respiratory tropism and widespread population immunity from vaccination and prior infection.
+
+SARS-CoV-2 belongs to the same betacoronavirus clade as SARS-CoV-1 (2003 outbreak) and shares the ACE2 receptor; its spike protein RBD has ~10–20× higher ACE2 affinity than SARS-CoV-1, contributing to efficient upper respiratory transmission.
+
+## Structure
+
+### Viral cell entry and early replication
+
+SARS-CoV-2 infects cells via the **spike (S) protein** trimer on the viral surface [^hoffmann-2020-ace2-entry]:
+1. **Receptor binding:** The spike receptor-binding domain (RBD) binds **ACE2** (angiotensin-converting enzyme 2) on host cell surfaces; ACE2 is highly expressed on type II pneumocytes, nasal goblet/ciliated cells, enterocytes, cardiomyocytes, and renal proximal tubule cells — explaining the multiorgan tropism
+2. **Spike priming:** Host serine protease **TMPRSS2** (or cathepsin L in endosomes) cleaves the spike at S1/S2 and S2' sites → conformational change → fusion peptide insertion into host membrane → membrane fusion and viral entry
+3. **Replication:** Positive-sense ssRNA genome (29.9 kb) → translation of replicase (ORF1a/1b, pp1a/pp1ab, cleaved to nsp1-16) → RNA-dependent RNA polymerase (nsp12) → genome replication and subgenomic mRNA synthesis → structural proteins (S, E, M, N) → assembly and budding from ER-Golgi intermediate compartment (ERGIC)
+
+### Innate immune evasion and early pathogenesis
+
+A key feature distinguishing SARS-CoV-2 from influenza is its ability to **suppress early innate immune responses**:
+- ORF6 and ORF9b block type I interferon (IFN-α/β) signaling by sequestering KPNA2 and blocking STAT1/2 import
+- nsp3 (papain-like protease) deubiquitinates innate signaling intermediates; nsp16 methylates viral RNA cap to avoid MDA5 recognition
+- Result: initial viral replication can proceed with minimal IFN response → high viral loads in the nasopharynx → efficient spread; then delayed, dysregulated immune activation produces hyperinflammation
+
+## Function
+
+### Clinical course and staging [^guan-2020-china-cohort]
+
+**Stage I — Asymptomatic/presymptomatic (days 1–5):**
+Active viral replication in upper respiratory tract (nasopharynx, oropharynx); peak infectivity occurs 1–2 days before and within ~5 days of symptom onset; most transmission occurs in this window.
+
+**Stage II — Mild-moderate disease (days 1–10):**
+Fever, cough, myalgia, fatigue, headache, anosmia/ageusia (loss of smell/taste — characteristic of original strain and Delta but less prominent in Omicron); most patients recover without hospitalization; oxygen saturation normal at rest.
+
+**Stage III — Severe disease (days 7–14, ~15% of symptomatic):**
+COVID-19 pneumonia: bilateral infiltrates, progressive hypoxemia (SpO₂ <94%), dyspnea; CT: "ground-glass opacities," consolidation, vascular congestion; driven by viral cytopathology in type II pneumocytes and alveolar macrophage hyperactivation.
+
+**Stage IV — Critical disease (~5% of symptomatic):**
+ARDS (PaO₂/FiO₂ <300), requiring mechanical ventilation; associated:
+- **Cytokine storm:** Hyperactivated innate immunity (macrophage activation, complement activation, NF-κB) → massive release of IL-6, IL-1β, TNF-α, GM-CSF → diffuse vascular leak, coagulation activation, multiorgan dysfunction
+- **COVID-19-associated coagulopathy:** Microvascular thrombosis (fibrin, platelet-rich thrombi) in pulmonary vasculature and systemic organs → thrombocytopenia, elevated D-dimer, arterial/venous thromboembolism
+
+**Long COVID (post-acute sequelae of SARS-CoV-2 / PASC):**
+Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brain fog"), dyspnea, autonomic dysfunction (POTS), musculoskeletal pain. Affects 10–20% of hospitalized and 5–10% of non-hospitalized patients. Mechanisms: viral persistence, autoantibodies, immune dysregulation, mitochondrial dysfunction, gut microbiome disruption.
+
+### Treatment
+
+**Antivirals:**
+- **Nirmatrelvir/ritonavir (Paxlovid):** Protease inhibitor combination; >85% reduction in hospitalization/death if given within 5 days of symptom onset to high-risk patients; broad effectiveness across variants (targets conserved Mpro)
+- **Remdesivir:** Nucleoside analog inhibiting RdRp (nsp12); IV formulation; reduces hospitalization duration and progression to ARDS in moderately ill patients
+- **Molnupiravir:** Oral mutagenic nucleoside; 30% risk reduction; inferior to nirmatrelvir
+
+**Immunomodulation (severe/critical disease):**
+- **Dexamethasone 6 mg daily × 10 days:** Reduces 28-day mortality by 35% in ventilated patients (RECOVERY trial); no benefit in non-oxygen-requiring patients
+- **Anti-IL-6 (tocilizumab, sarilumab):** Additional mortality benefit in patients already on dexamethasone with severe disease (CRP-guided)
+- **Baricitinib (JAK1/2 inhibitor):** WHO-recommended for severe/critical disease; reduces mortality
+
+**mRNA vaccines [^polack-2020-bnt162b2]:**
+- BNT162b2 (Pfizer-BioNTech): 95% efficacy against original-strain symptomatic infection (Phase 3); encodes pre-fusion stabilized spike (2P mutations)
+- mRNA-1273 (Moderna): 94% efficacy; higher dose (100 μg), more reactogenic; similar durability
+- Both vaccines drive robust germinal center reactions in draining lymph nodes (months-long GC persistence), generating high-affinity memory B cells and long-lived plasma cells
+
+## Connections
+
+- `modulates` → **[ACE2](../../03-molecular/ace2/README.md)** — SARS-CoV-2 binds and downregulates ACE2, shifting Ang II/Ang-(1-7) balance toward pro-inflammatory Ang II signaling; ACE2 downregulation contributes to vascular dysfunction, hypertension, and ARDS in severe COVID-19.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — severe COVID-19 is characterized by pathological cytokine release (IL-6, IL-1β, TNF-α, ferritin elevation); cytokine storm is the proximate driver of ARDS, vascular injury, and multiorgan failure in critical COVID-19.
+- `targets` → **[Lung](../../06-organ/lung/README.md)** — the lung is the primary COVID-19 target organ; diffuse alveolar damage, type II pneumocyte necrosis, and pulmonary vascular thrombosis produce the bilateral ground-glass infiltrates and hypoxemia of COVID-19 pneumonia.
+- `targets` → **[Respiratory System](../respiratory-system/README.md)** — SARS-CoV-2 initiates infection in the upper respiratory epithelium (ACE2-TMPRSS2 expression) and progresses to lower respiratory tract pneumonitis in severe disease; respiratory failure is the leading cause of COVID-19 mortality.
+
+## Pathology
+
+**Diffuse alveolar damage (DAD):** Autopsy studies of COVID-19 ARDS show exudative phase DAD: protein-rich edema, hyaline membranes, type I pneumocyte necrosis, fibrin deposition, and reactive type II pneumocyte hyperplasia. Organizing phase: fibroblast proliferation, myofibroblast invasion, progressive fibrosis in some survivors.
+
+**COVID-19-associated coagulopathy:** Elevated D-dimer, fibrinogen, and PT; microvascular fibrin thrombi throughout pulmonary and systemic capillaries (distinctive from DIC); likely driven by endothelialitis, platelet-endothelium interactions, and complement activation. Anticoagulation (prophylactic heparin) is standard for hospitalized COVID-19.
+
+**Myocarditis/pericarditis:** Cardiac complications from direct myocardial ACE2-mediated infection or immune-mediated injury; also seen as rare (1 in 50,000–100,000) complication of mRNA vaccination, predominantly in young males, mostly mild and self-limited.
+
+**COVID-19 and special populations:**
+- Pregnancy: Higher risk of preterm birth, ICU admission, preeclampsia; vaccine strongly recommended
+- Immunocompromised: Prolonged infection, viral evolution to immune-escape variants; chronic infection documented in hematology/oncology patients
+
+[^guan-2020-china-cohort]: Guan WJ, Ni ZY, Hu Y, et al. Clinical Characteristics of Coronavirus Disease 2019 in China. *N Engl J Med.* 2020;382(18):1708-1720. [doi:10.1056/NEJMoa2002032](https://doi.org/10.1056/NEJMoa2002032) · [PubMed 32109013](https://pubmed.ncbi.nlm.nih.gov/32109013/)
+[^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
+[^polack-2020-bnt162b2]: Polack FP, Thomas SJ, Kitchin N, et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. *N Engl J Med.* 2020;383(27):2603-2615. [doi:10.1056/NEJMoa2034577](https://doi.org/10.1056/NEJMoa2034577) · [PubMed 33301246](https://pubmed.ncbi.nlm.nih.gov/33301246/)
