@@ -1,200 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="C20 lipid mediators derived from arachidonic acid via COX-1/COX-2. PGE2 mediates fever, pain, and inflammation; PGI2 vasodilates and inhibits platelets; TXA2 pr">
-  <meta property="og:title" content="Prostaglandins (Eicosanoids) — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Prostaglandins (Eicosanoids) — Human Engineering</title>
-  <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prostaglandins · Atlas One · Human · Molecular</title>
+<style>
+  :root {
+    --accent: #9f1239;
+    --accent-dark: #4c0519;
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface2: #273549;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --radius-sm: 6px;
+    --radius: 12px;
+    --radius-lg: 18px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(15,23,42,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem; }
+  nav a { color: var(--text-muted); text-decoration: none; font-size: 0.875rem; }
+  nav a:hover { color: var(--accent); }
+  nav .sep { color: var(--border); }
+  .hero { background: linear-gradient(135deg, #9f1239, #4c0519); padding: 3rem 2rem 2.5rem; }
+  .hero-inner { max-width: 860px; margin: 0 auto; }
+  .eyebrow { display: inline-block; background: rgba(255,255,255,0.2); color: #fff; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 1rem; }
+  .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1.1; }
+  .hero .tagline { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 0.5rem; max-width: 620px; }
+  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
+  .stat { background: rgba(255,255,255,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; }
+  .stat .val { font-size: 1.25rem; font-weight: 700; color: #fff; }
+  .stat .lbl { font-size: 0.7rem; color: rgba(255,255,255,0.75); letter-spacing: 0.06em; text-transform: uppercase; }
+  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+  .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 2rem; overflow: hidden; }
+  .detail-header { background: linear-gradient(135deg, #9f1239, #4c0519); padding: 1rem 1.5rem; }
+  .detail-header h2 { color: #fff; font-size: 1.1rem; font-weight: 700; }
+  .detail-body { padding: 1.5rem; }
+  .detail-body p { color: var(--text-muted); margin-bottom: 0.75rem; }
+  .detail-body p:last-child { margin-bottom: 0; }
+  .pathway-block { background: #0d1b2e; border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; overflow-x: auto; }
+  .pathway-block pre { font-family: 'Fira Mono', 'Cascadia Code', monospace; font-size: 0.78rem; line-height: 1.6; color: #93c5fd; white-space: pre; }
+  .data-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+  .data-table th { background: var(--surface2); color: var(--text); text-align: left; padding: 0.6rem 0.875rem; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  .data-table td { padding: 0.6rem 0.875rem; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table tr:hover td { background: var(--surface2); }
+  .step-list { list-style: none; counter-reset: steps; margin: 0.75rem 0; }
+  .step-list li { counter-increment: steps; display: flex; gap: 0.875rem; margin-bottom: 0.6rem; color: var(--text-muted); font-size: 0.9rem; }
+  .step-list li::before { content: counter(steps); background: var(--accent); color: #fff; font-weight: 700; font-size: 0.75rem; min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.15rem; }
+  .principle-box { background: rgba(159,18,57,0.1); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.875rem 1rem; margin: 1rem 0; color: var(--text-muted); font-size: 0.9rem; }
+  .principle-box strong { color: var(--text); }
+  .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+  .conn-pill { background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted); font-size: 0.78rem; padding: 0.3rem 0.75rem; border-radius: 999px; text-decoration: none; transition: border-color 0.15s, color 0.15s; }
+  .conn-pill:hover { border-color: var(--accent); color: var(--accent); }
+  .refs { list-style: none; margin-top: 0.5rem; }
+  .refs li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+  .refs li:last-child { border-bottom: none; }
+  .refs li::before { content: "↗ "; color: var(--accent); }
+  footer { text-align: center; padding: 2rem 1rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.8rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<nav>
+  <a href="index.html">Atlas</a>
+  <span class="sep">›</span>
+  <a href="index.html">Human</a>
+  <span class="sep">›</span>
+  <a href="#">Prostaglandins</a>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>Prostaglandins (Eicosanoids)</h1>
-    <p class="tagline">C20 lipid mediators derived from arachidonic acid via COX-1/COX-2. PGE2 mediates fever, pain, and inflammation; PGI2 vasodilates and inhibits platelets; TXA2 promotes vasoconstriction and aggregation. NSAIDs and coxibs inhibit these pathways.</p>
-    <p class="aliases">Also known as: prostaglandins, eicosanoids, PGE2, PGI2, prostacyclin, TXA2, thromboxane, PGD2, PGF2alpha, COX-1, COX-2, cyclooxygenase, prostaglandin H synthase, arachidonic acid, PTGS1, PTGS2</p>
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Atlas One · Human · Molecular</span>
+    <h1>Prostaglandins</h1>
+    <p class="tagline">Local lipid mediators derived from arachidonic acid via COX enzymes — orchestrating inflammation, pain, fever, haemostasis, and tissue repair with receptor-specific precision.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><div class="val">C₂₀</div><div class="lbl">Eicosanoid backbone</div></div>
+      <div class="stat"><div class="val">COX-1/COX-2</div><div class="lbl">Key enzymes</div></div>
+      <div class="stat"><div class="val">Ser530</div><div class="lbl">Aspirin acetylation site</div></div>
+      <div class="stat"><div class="val">~1–2 min</div><div class="lbl">Plasma half-life</div></div>
+    </div>
+  </div>
+</section>
+
+<main>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Overview</h2></div>
+    <div class="detail-body">
+      <p>Prostaglandins (PGs) are 20-carbon lipid autacoids derived from membrane phospholipids via a conserved biosynthetic cascade. They act in a paracrine or autocrine manner with very short plasma half-lives (~1–2 minutes) due to rapid enzymatic inactivation (15-PGDH). Together with thromboxanes, prostacyclin, and leukotrienes they constitute the eicosanoids — lipid mediators critical to inflammation, immunity, pain, fever, parturition, platelet activation, renal function, and gastric mucosal protection.</p>
+      <p>The pathway is triggered when cell membranes are perturbed (mechanical stress, cytokines, growth factors) — cytosolic phospholipase A₂α (cPLA₂α) is activated, releasing arachidonic acid (AA) from the sn-2 position of membrane phosphatidylcholine and phosphatidylethanolamine. AA then serves as substrate for cyclooxygenases (COX-1 and COX-2), which catalyse the committed, rate-limiting step of the prostanoid pathway.</p>
+      <p>Aspirin's irreversible acetylation of COX Ser530 is the cornerstone of antiplatelet therapy and anti-inflammatory medicine — one of the most important pharmacological mechanisms in clinical practice. The distinction between COX-1 (constitutive) and COX-2 (inducible) provides a therapeutic window for selective anti-inflammatory drugs, though selective COX-2 inhibition carries prothrombotic risk due to loss of PGI₂ without impairing TXA₂.</p>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header"><h2>Structure &amp; Prostanoid Family</h2></div>
+    <div class="detail-body">
+      <p>All prostaglandins share a cyclopentane ring attached to two aliphatic chains (C1–C7 carboxylic acid chain and C13–C20 ω-chain), forming a 20-carbon "prostanoic acid" skeleton. The letter (E, F, D, I) indicates the substituents on the ring; the number subscript indicates the number of double bonds in the side chains.</p>
+      <table class="data-table">
+        <thead><tr><th>Prostanoid</th><th>Synthase</th><th>Primary source</th><th>Main receptors</th><th>Key effects</th></tr></thead>
+        <tbody>
+          <tr><td>PGE₂ (prostaglandin E₂)</td><td>mPGES-1 (inducible), mPGES-2, cPGES</td><td>Macrophages, mast cells, DCs, endothelium, gastric mucosa, kidney</td><td>EP1–EP4 (4 GPCR subtypes)</td><td>Fever, pain sensitisation, inflammation, gastric mucus/HCO₃⁻ secretion, renal vasodilation, immunomodulation</td></tr>
+          <tr><td>PGI₂ (prostacyclin)</td><td>PGI₂ synthase (PGIS/CYP8A1)</td><td>Vascular endothelium</td><td>IP receptor (Gαs → cAMP)</td><td>Vasodilation, platelet aggregation inhibition, anti-thrombotic, cytoprotection</td></tr>
+          <tr><td>TXA₂ (thromboxane A₂)</td><td>TXA₂ synthase (TBXAS1/CYP5A1)</td><td>Platelets (COX-1)</td><td>TP receptor (Gαq → Ca²⁺)</td><td>Platelet aggregation, vasoconstriction, bronchoconstriction</td></tr>
+          <tr><td>PGD₂</td><td>H-PGDS (haematopoietic), L-PGDS</td><td>Mast cells, brain, testes</td><td>DP1, DP2 (CRTH2)</td><td>Sleep regulation, allergic inflammation, inhibits platelet aggregation; OAB treatment (DP2 antagonists)</td></tr>
+          <tr><td>PGF₂α</td><td>AKR1B1 (PGF synthase)</td><td>Uterus, lung, kidney</td><td>FP receptor (Gαq)</td><td>Uterine contraction, luteolysis, bronchoconstriction, raised IOP (prostaglandin analogue glaucoma drops)</td></tr>
+        </tbody>
+      </table>
     </div>
+  </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">prostaglandins</div>
-        <h2>Prostaglandins (Eicosanoids)</h2>
-        <p class="summary">C20 lipid mediators derived from arachidonic acid via COX-1/COX-2. PGE2 mediates fever, pain, and inflammation; PGI2 vasodilates and inhibits platelets; TXA2 promotes vasoconstriction and aggregation. NSAIDs and coxibs inhibit these pathways.</p>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Mechanism — COX Pathway &amp; Aspirin</h2></div>
+    <div class="detail-body">
+      <div class="pathway-block"><pre>
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │           ARACHIDONIC ACID CASCADE → PROSTANOIDS                    │
+  │                                                                      │
+  │  Membrane phospholipids (PC, PE)                                    │
+  │       │ (stimulus: mechanical stress, IL-1β, TNF, LPS, Ca²⁺ ↑)    │
+  │  cPLA₂α (cytosolic phospholipase A₂α)                              │
+  │       │  [Ca²⁺-dependent; ERK/p38 MAP-kinase phosphorylation]      │
+  │       ▼                                                              │
+  │  Arachidonic acid (AA; C20:4 n-6) — released to cytoplasm          │
+  │       │                                                              │
+  │  ┌────┴──────────────────────────────────────────────┐              │
+  │  │                │                                  │              │
+  │  COX-1 (PTGS1)   COX-2 (PTGS2)              5-LOX pathway         │
+  │  constitutive     inducible (NFκB, HIF-1α)    → leukotrienes       │
+  │  platelets,       macrophages, epithelia,       (separate)         │
+  │  GI mucosa        fibroblasts, synovium                            │
+  │       │                   │                                         │
+  │  Both: cyclooxygenase step (AA + 2O₂ → PGG₂)                      │
+  │         peroxidase step   (PGG₂ → PGH₂)                           │
+  │                           │                                         │
+  │            ┌──────────────┼──────────────┬────────────┐            │
+  │         mPGES          PGIS           TXA₂S          PGDS         │
+  │            │              │               │             │           │
+  │          PGE₂           PGI₂           TXA₂          PGD₂         │
+  │       (EP1-EP4)        (IP-R)          (TP-R)        (DP1/2)       │
+  │                                                                      │
+  │   PGE₂ → EP3 (Gαi): suppress cAMP in parietal cells (↓HCl)       │
+  │   PGE₂ → EP4 (Gαs): immunosuppressive on DCs, NK cells           │
+  │   PGI₂ → IP (Gαs): cAMP↑ → PKA → MLC dephosphorylation           │
+  │          → vasodilation + platelet cAMP → ↓TXA₂ response          │
+  │   TXA₂ → TP (Gαq): IP₃→Ca²⁺ → platelet activation               │
+  │          → shape change → GPIIb/IIIa → fibrinogen binding         │
+  │                                                                      │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │              ASPIRIN (ACETYLSALICYLIC ACID) MECHANISM               │
+  │                                                                      │
+  │  Aspirin → deacetylated to salicylate + acetyl group               │
+  │  Acetyl group → covalent bond → COX-1/COX-2 Ser530 (COX-1)        │
+  │                                            Ser516 (COX-2)          │
+  │       │                                                             │
+  │  Ser530 in COX channel → blocks AA access → NO PGH₂                │
+  │       │                                                             │
+  │  COX-1 in platelets (anucleate → cannot synthesise new COX)        │
+  │       → Irreversible inhibition → NO TXA₂ for platelet LIFETIME   │
+  │       → Anti-platelet effect lasts 7–10 days (platelet lifespan)  │
+  │                                                                      │
+  │  COX-2 in endothelium (nucleated → resynthesises COX-2 in hours)  │
+  │       → Transient inhibition → PGI₂ resumes                        │
+  │                                                                      │
+  │  Low-dose aspirin (75–100 mg): preferentially inhibits platelet     │
+  │  TXA₂ (high-sensitivity COX-1) over endothelial PGI₂              │
+  │  → Net anti-thrombotic effect                                       │
+  │                                                                      │
+  │  NSAIDs (ibuprofen, naproxen): reversible, non-selective           │
+  │  COX-1 + COX-2 inhibition (competitive) → anti-inflammatory         │
+  │  but compete with aspirin for COX-1 Ser530 binding                 │
+  │                                                                      │
+  │  Selective COX-2 inhibitors (celecoxib, rofecoxib):                │
+  │  ↓PGE₂/PGI₂ inflammation → less GI toxicity                       │
+  │  BUT ↓PGI₂ without ↓TXA₂ → ↑thrombotic risk (Vioxx withdrawal)   │
+  └──────────────────────────────────────────────────────────────────────┘</pre></div>
+      <ol class="step-list">
+        <li>Cell membrane disruption → cPLA₂α activation (Ca²⁺ + ERK phosphorylation) → AA liberated from phospholipid sn-2 position by cleavage of the ester bond.</li>
+        <li>COX cyclooxygenase domain: AA enters hydrophobic channel; two sequential oxygenations → PGG₂ (C9-C11 endoperoxide, C15-hydroperoxide).</li>
+        <li>COX peroxidase domain: heme-mediated reduction → PGG₂ → PGH₂ (unstable; half-life 5 min at 37°C).</li>
+        <li>PGH₂ is isomerised by cell-specific terminal synthases: mPGES-1 (GSH-dependent, inducible) → PGE₂; PGIS (CYP8A1, vascular endothelium) → PGI₂ (prostacyclin); TBXAS1 (platelet) → TXA₂.</li>
+        <li>Prostanoids exit the cell (MRP4/ABCC4 transporter or simple diffusion) → bind cognate GPCRs on same/neighbouring cells → intracellular signalling (cAMP or Ca²⁺ depending on receptor subtype).</li>
+        <li>Aspirin: acetyl-CoA-like acetyl group is transferred to COX-1 Ser530 OH → ester bond → permanent steric blockade of AA access. Anucleate platelets cannot replenish COX-1 → anti-platelet effect throughout 10-day platelet lifespan.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Physiological Roles</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>System</th><th>Prostanoid</th><th>Role</th></tr></thead>
+        <tbody>
+          <tr><td>Fever (pyrexia)</td><td>PGE₂ (EP3 in OVLT/POMC)</td><td>IL-1β/IL-6 → COX-2 in circumventricular organs → PGE₂ → EP3R in preoptic area → raises thermoregulatory set-point; aspirin/paracetamol block this</td></tr>
+          <tr><td>Pain sensitisation</td><td>PGE₂ (EP1, EP4 on DRG)</td><td>Reduces threshold of TRPV1 and Nav1.8 on nociceptors → peripheral sensitisation; spinal COX-2 → central sensitisation</td></tr>
+          <tr><td>Gastric cytoprotection</td><td>PGE₂, PGI₂ (EP3, IP)</td><td>COX-1 in gastric mucosa → PGE₂ → ↑mucus/HCO₃⁻ secretion, ↑mucosal blood flow, ↓parietal cell HCl; NSAID inhibition → ulcers</td></tr>
+          <tr><td>Platelet haemostasis</td><td>TXA₂ (TP) / PGI₂ (IP)</td><td>TXA₂: platelet activation + aggregation + vasoconstriction; PGI₂: antagonises TXA₂, vasodilates; balance governs thrombosis vs haemorrhage</td></tr>
+          <tr><td>Renal function</td><td>PGE₂ (EP4), PGI₂ (IP)</td><td>Afferent arteriole vasodilation; maintain GFR when RAAS activated; NSAIDs → acute kidney injury in volume-depleted/CKD patients</td></tr>
+          <tr><td>Parturition</td><td>PGE₂, PGF₂α (FP)</td><td>Uterine contractions; cervical ripening; misoprostol (PGE₁ analogue) / dinoprostone (PGE₂) for labour induction; indomethacin closes PDA</td></tr>
+          <tr><td>Sleep</td><td>PGD₂ (DP1 in basal forebrain)</td><td>PGD₂ accumulates during waking → VLPO activation → NREM sleep; SCI/PGD₂-linked narcolepsy models</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pharmacology &amp; Clinical Use</h2></div>
+    <div class="detail-body">
+      <p><strong>Aspirin</strong> — 75–300 mg daily for secondary CVD prevention (anti-TXA₂); 1–4 g for fever/inflammation (paediatric Reye syndrome risk with viral illness — contraindicated under 16 years). Irreversible anti-platelet; preoperative hold 7–10 days for elective surgery (not CABG).</p>
+      <p><strong>NSAIDs</strong> — ibuprofen, naproxen, diclofenac, ketorolac: competitive reversible COX-1+2 inhibitors; GI side effects (mucus loss), renal toxicity (PGE₂-dependent afferent dilation lost), platelet dysfunction (reversible). Enteric-coated formulations; PPIs co-prescription if high GI risk.</p>
+      <p><strong>Selective COX-2 inhibitors (coxibs)</strong> — celecoxib, etoricoxib: spares gastric COX-1 → less GI toxicity; but ↑thrombotic risk (rofecoxib withdrawn 2004 — VIGOR trial: ×5 MI vs naproxen). Celecoxib has lowest cardiovascular risk among coxibs; appropriate in GI-high-risk patients with CV monitoring.</p>
+      <p><strong>Prostaglandin analogues (therapeutic)</strong> — misoprostol (PGE₁, EP2/3/4): gastric ulcer prophylaxis with NSAIDs, cervical ripening, medical abortion (with mifepristone); alprostadil (PGE₁): erectile dysfunction (intracavernosal), ductal-dependent CHD (IV to maintain PDA); latanoprost/bimatoprost (PGF₂α FP agonists): lower IOP in glaucoma via uveoscleral outflow; epoprostenol/iloprost (PGI₂ analogues): pulmonary arterial hypertension (vasodilation, anti-proliferative).</p>
+      <div class="principle-box"><strong>Clinical pearl:</strong> Indomethacin closes a haemodynamically significant patent ductus arteriosus in premature neonates (inhibits PGE₂-driven ductal smooth muscle relaxation) — a striking COX-1 pharmacology application. Conversely, in ductal-dependent congenital heart disease (e.g., pulmonary atresia) IV alprostadil (PGE₁) maintains PDA patency as a life-saving bridge to surgery.</div>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pathology</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Condition</th><th>Prostanoid involvement</th><th>Mechanism</th></tr></thead>
+        <tbody>
+          <tr><td>NSAID-induced peptic ulcer</td><td>↓COX-1 PGE₂/PGI₂</td><td>Loss of mucosal cytoprotection → parietal cell HCl unopposed → erosions; risk: elderly, H. pylori, prior ulcer</td></tr>
+          <tr><td>Aspirin-exacerbated respiratory disease (AERD)</td><td>COX-1 blocked → AA shunted to 5-LOX → excess LTC₄</td><td>Samter's triad: nasal polyposis, asthma, aspirin/NSAID sensitivity; bronchoconstriction via cysteinyl leukotrienes; treat with montelukast + aspirin desensitisation</td></tr>
+          <tr><td>Bartter syndrome type I</td><td>Excess PGE₂ (COX-2 activated by NKCC2 dysfunction)</td><td>Hypokalaemia, metabolic alkalosis, elevated renin/aldosterone; indomethacin suppresses PGE₂ → corrects hypokalaemia partially</td></tr>
+          <tr><td>Colorectal cancer</td><td>COX-2 overexpression → PGE₂ → EP4 → Wnt/β-catenin, immunosuppression</td><td>Regular aspirin use associated with 20–30% reduction in CRC risk (epidemiological); COX-2 inhibitors trial ongoing (CaPP3)</td></tr>
+          <tr><td>Pulmonary arterial hypertension</td><td>↓PGI₂ (PGIS mutations or endothelial dysfunction)</td><td>Loss of anti-proliferative, vasodilatory PGI₂ → right heart afterload ↑; prostacyclin analogues (epoprostenol, treprostinil) are first-line PAH therapy</td></tr>
+          <tr><td>Pre-eclampsia</td><td>TXA₂/PGI₂ imbalance</td><td>Placental trophoblast hypoxia → ↑TXA₂ / ↓PGI₂ → vasoconstriction, platelet aggregation, reduced placental blood flow; low-dose aspirin from 12 weeks is primary prophylaxis in high-risk women</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2></div>
+    <div class="detail-body">
+      <p>Prostaglandins are upstream modulators of nitric oxide (PGI₂ and eNOS cooperate to maintain endothelial vasodilation; PGE₂ can induce iNOS in macrophages), vasopressin (PGE₂ at EP3R on collecting duct antagonises V2R-cAMP → natriuresis), fibrinogen/coagulation (TXA₂ drives platelet aggregation, a key trigger for coagulation cascade), and glucocorticoids (cortisol suppresses cPLA₂α and COX-2 — the rationale for corticosteroid anti-inflammatory potency exceeding NSAIDs).</p>
+      <div class="conn-pills">
+        <a class="conn-pill" href="nitric-oxide.html">Nitric oxide (endothelial synergy)</a>
+        <a class="conn-pill" href="vasopressin.html">Vasopressin (PGE₂ opposes V2R)</a>
+        <a class="conn-pill" href="fibrinogen.html">Fibrinogen (TXA₂-driven platelet plug)</a>
+        <a class="conn-pill" href="cholesterol.html">Cholesterol (membrane AA source)</a>
+        <a class="conn-pill" href="ampk.html">AMPK (inhibits COX-2 in some contexts)</a>
       </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>prostaglandins</td></tr>
-            <tr><td>Name</td><td>Prostaglandins (Eicosanoids)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="immune-system.html" title="PGE2 (EP2/EP4) and PGD2 (DP1) modulate dendritic cell maturation, T-cell polarization (PGE2 suppresses Th1, promotes Th17/Treg), and mast cell degranulation. COX-2 prostanoids amplify acute inflammation; NSAIDs reduce fever (hypothalamic PGE2) and pain via PGE2 suppression."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="macrophage.html" title="Macrophages express COX-2 upon LPS/cytokine stimulation (NF-κB/AP-1) and are major sources of PGE2 and TXA2 in inflamed tissue. COX-2-derived PGE2 feeds back via EP2/EP4 to limit macrophage NLRP3 inflammasome activation; excessive macrophage PGE2 can suppress anti-tumor immunity."><span class="rel">expresses</span>Macrophage</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="TXA2 (platelet COX-1) promotes aggregation and vasoconstriction; PGI2 (endothelial COX-1/2) counters via vasodilation and platelet inhibition. Aspirin irreversibly acetylates COX-1 → ↓TXA2 &gt; PGI2 (antithrombotic). Selective COX-2 inhibition ↓PGI2 → ↑CV risk."><span class="rel">modulates</span>Cardiovascular System</a>
-            <a class="conn-pill" href="nf-kb.html" title="NF-κB drives COX-2 transcription upon inflammatory stimulation; COX-2-derived PGE2 reciprocally activates NF-κB via EP1/EP3 → PKC → IKK (amplification loop). PGE2 also activates CREB and β-catenin, contributing to immune evasion in COX-2-overexpressing tumors."><span class="rel">modulates</span>Nf Kb</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1161/ATVBAHA.110.207449" target="_blank" rel="noopener noreferrer">Ricciotti E, FitzGerald GA. Prostaglandins and inflammation. Arterioscler Thromb Vasc Biol. 2011;31(5):986-1000.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21508345/" target="_blank" rel="noopener noreferrer">PubMed 21508345</a></li>
-            <li><a href="https://doi.org/10.1126/science.294.5548.1871" target="_blank" rel="noopener noreferrer">Funk CD. Prostaglandins and leukotrienes: advances in eicosanoid biology. Science. 2001;294(5548):1871-5.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11729303/" target="_blank" rel="noopener noreferrer">PubMed 11729303</a></li>
-          </ul>
-        </div>
-
-      </div>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header"><h2>References</h2></div>
+    <div class="detail-body">
+      <ul class="refs">
+        <li>Smith WL, DeWitt DL, Garavito RM (2000). Cyclooxygenases: structural, cellular, and molecular biology. <em>Annu Rev Biochem</em> 69:145–182.</li>
+        <li>Vane JR (1971). Inhibition of prostaglandin synthesis as a mechanism of action for aspirin-like drugs. <em>Nature New Biol</em> 231:232–235.</li>
+        <li>Patrono C et al. (2017). Antiplatelet drugs: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (9th ed.). <em>Chest</em> 141:e89S–119S.</li>
+        <li>Smyth EM, Grosser T, FitzGerald GA (2009). Prostanoids in health and disease. <em>J Lipid Res</em> 50(Suppl):S423–S428.</li>
+        <li>Warner TD, Mitchell JA (2004). Cyclooxygenases: new forms, new inhibitors, and lessons from the clinic. <em>FASEB J</em> 18:790–804.</li>
+        <li>Ricciotti E, FitzGerald GA (2011). Prostaglandins and inflammation. <em>Arterioscler Thromb Vasc Biol</em> 31:986–1000.</li>
+        <li>Aspirin Collaborative Group (2002). Collaborative meta-analysis of randomised trials of antiplatelet therapy. <em>BMJ</em> 324:71–86.</li>
+      </ul>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</main>
+
+<footer>
+  <p>Atlas One · Human · Molecular · Prostaglandins</p>
+  <p style="margin-top:0.4rem;">
+    Open source · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
+    <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
+  </p>
+  <p style="margin-top:0.4rem; font-size:0.75rem; color:#64748b;">
+    This page is co-maintained with AI assistance. Content is for educational purposes.
+    Always verify clinical information against primary sources. &copy; <span id="yr"></span>
+  </p>
+</footer>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -3,199 +3,199 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="HCN4 (Hyperpolarization-activated Cyclic Nucleotide-gated channel 4, gene HCN4) — cardiac funny current (I_f). Activated by hyperpolarisation at ~−60 mV; carrie">
-  <meta property="og:title" content="HCN4 — Human Engineering">
+  <meta name="description" content="HCN4 — cardiac pacemaker funny current (If), cAMP gating, ivabradine target, sick sinus syndrome. Human Engineering Atlas.">
+  <meta property="og:title" content="HCN4 — Human Engineering Atlas">
   <meta name="theme-color" content="#f2f2f7">
   <title>HCN4 — Human Engineering</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff0f0 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    td code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em;background:var(--bg-3);padding:.1em .4em;border-radius:4px}
+    .pathway-block{background:#0f1a14;color:#a8f0c8;border-radius:var(--radius);padding:1.25rem 1.5rem;font-family:ui-monospace,SFMono-Regular,Menlo,"Courier New",monospace;font-size:.82rem;line-height:1.9;overflow-x:auto;margin:1rem 0}
+    .pathway-block .c{color:#4a7a5e}.pathway-block .hi{color:#ffb86b;font-weight:700}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
   </style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>HCN4</h1>
-    <p class="tagline">HCN4 (Hyperpolarization-activated Cyclic Nucleotide-gated channel 4, gene HCN4) — cardiac funny current (I_f). Activated by hyperpolarisation at ~−60 mV; carries mixed Na⁺/K⁺ inward current; directly gated by cAMP. Dominant pacemaker channel of the SA node; ivabradine target.</p>
-    <p class="aliases">Also known as: HCN4, funny channel, If channel, pacemaker channel, hyperpolarization-activated channel</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="sa-node-cell.html">SA Node Cell</a>
+      <a href="cardiac-conduction-system.html">Conduction System</a>
     </div>
   </div>
+</nav>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Atlas One · Human · Molecular · UniProt Q9Y3Q4</p>
+    <h1><span>HCN4</span> — Funny Channel</h1>
+    <p class="hero-lead">HCN4 (Hyperpolarization-activated Cyclic Nucleotide-gated channel 4, gene <em>HCN4</em>) — the molecular basis of the cardiac funny current (I<sub>f</sub>). Activated by hyperpolarization, carries mixed Na⁺/K⁺ inward current, and is directly gated by cAMP. The dominant pacemaker channel of the SA node; the target of ivabradine for heart-rate reduction without affecting contractility.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span><strong>Gene:</strong> HCN4 · 15q24.1</span>
+  <span><strong>UniProt:</strong> Q9Y3Q4</span>
+  <span><strong>Aliases:</strong> funny channel, I<sub>f</sub> channel, pacemaker channel</span>
+  <span><strong>Scale:</strong> 03-Molecular</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="overview">
+    <h2>Overview</h2>
+    <p>HCN4 is the <strong>molecular basis of the cardiac funny current (I<sub>f</sub>)</strong> — named "funny" because it activates upon membrane <strong>hyperpolarization</strong> (opposite to most voltage-gated channels) and carries a <strong>mixed inward Na⁺/K⁺ current</strong> at physiological potentials. Discovered by Dario DiFrancesco, I<sub>f</sub> is the primary current driving spontaneous <strong>diastolic depolarization (phase 4)</strong> in SA node pacemaker cells — the slow voltage rise from maximum diastolic potential (~−60 mV) to action potential threshold (~−40 mV).</p>
+    <p>HCN4's dual sensitivity to both <strong>membrane voltage</strong> and <strong>intracellular cAMP</strong> makes it the molecular integrator of autonomic heart rate control: sympathetic stimulation (↑cAMP via β1-AR) shifts the activation curve rightward, opening more channels at any given diastolic potential and speeding pacemaking; vagal stimulation (↓cAMP via M2/Gi) shifts it leftward, slowing pacemaking. This cAMP-mediated shift is the mechanistic basis of the chronotropic response to exercise and stress.</p>
+    <div class="callout"><strong>Drug target:</strong> Ivabradine is a specific use-dependent open-channel blocker of HCN4 (and HCN1). It reduces heart rate by 10–15 bpm without affecting contractility — approved for stable angina and HFrEF with HR &gt;70 bpm on maximally-tolerated beta-blocker. The first clinically validated I<sub>f</sub>-blocking drug.</div>
+  </div>
+
+  <div class="section" id="structure">
+    <h2>Structure</h2>
+    <h3>Channel Topology and Domains</h3>
+    <table>
+      <thead><tr><th>Feature</th><th>HCN4</th></tr></thead>
+      <tbody>
+        <tr><td>Topology</td><td>6 transmembrane segments (S1–S6); cytoplasmic N- and C-termini</td></tr>
+        <tr><td>Voltage sensor (S4)</td><td>Positively charged Arg/Lys residues; moves inward at hyperpolarization (reversed from Kv channels) → opens activation gate</td></tr>
+        <tr><td>Selectivity filter (P-loop)</td><td>GYG motif variant → mixed Na⁺/K⁺ permeability; PNa/PK ≈ 0.2–0.4; reversal potential −25 to −35 mV</td></tr>
+        <tr><td>C-linker</td><td>Connects S6 to CNBD; critical for cAMP-dependent gating shift; transmits cAMP signal to voltage gate</td></tr>
+        <tr><td>CNBD (cyclic nucleotide binding domain)</td><td>Binds cAMP directly (Kd ~0.1–1 µM); one cAMP per subunit; binding shifts V½ by ~+10 mV rightward</td></tr>
+        <tr><td>Assembly</td><td>Homotetramer; four-fold symmetry; large cytoplasmic octameric ring (C-linker + CNBD) below the membrane transmits cAMP signals to the gate</td></tr>
+      </tbody>
+    </table>
+
+    <h3>HCN Family Context</h3>
+    <p>HCN channels belong to the voltage-gated channel superfamily but are evolutionarily related to both Kv channels and cyclic-nucleotide-gated (CNG) channels. Four isoforms exist (HCN1–4) with different kinetics and cAMP sensitivities. HCN4 is the dominant cardiac isoform (SA node &gt;80% of I<sub>f</sub>); HCN1 is fast (brain/heart); HCN2 is widely distributed; HCN3 is minor.</p>
+  </div>
+
+  <div class="section" id="mechanism">
+    <h2>Mechanism</h2>
+    <h3>Pacemaker Potential Diagram</h3>
+    <div class="pathway-block">
+<span class="c">── HCN4 / I_f — pacemaker potential mechanism ───────────</span>
+
+Action potential fires → repolarization → Vm reaches ~−60 mV
+  │
+  │  <span class="hi">HCN4 (I_f)</span> ACTIVATION
+  │  At Vm = −60 mV: V½ ≈ −65 to −70 mV (no cAMP)
+  │  S4 voltage sensors move inward → activation gate opens
+  │  Mixed Na⁺/K⁺ inward current (net inward at −60 mV)
+  │  Slow, sustained depolarizing current during phase 4
+  ▼
+Vm rises slowly from −60 → −50 mV  (I_f contribution)
+  │  Plus: ICaT (Cav3.1) opens at −50 mV → additional depolarization
+  │  Plus: Ca²⁺ clock (SR Ca²⁺ sparks → NCX forward mode → inward current)
+  ▼
+Vm = −40 mV  (threshold)
+  │  ICaL (Cav1.2) opens → action potential upstroke
+  ▼
+Action potential → repolarization → cycle repeats
+
+<span class="c">SYMPATHETIC ACCELERATION (β1-AR → PKA → ↑cAMP):</span>
+  cAMP binds CNBD of each HCN4 subunit
+  V½ shifts from −65 mV → −55 mV  (+10 mV rightward)
+  At same Vm = −60 mV: MORE channels open → larger I_f
+  → FASTER phase 4 → shorter cycle → HIGHER heart rate
+
+<span class="c">PARASYMPATHETIC DECELERATION (M2 → Gi → ↓cAMP):</span>
+  V½ shifts leftward → fewer channels open at −60 mV
+  → SLOWER phase 4 → longer cycle → LOWER heart rate
     </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">hcn4</div>
-        <h2>HCN4</h2>
-        <p class="summary">HCN4 (Hyperpolarization-activated Cyclic Nucleotide-gated channel 4, gene HCN4) — cardiac funny current (I_f). Activated by hyperpolarisation at ~−60 mV; carries mixed Na⁺/K⁺ inward current; directly gated by cAMP. Dominant pacemaker channel of the SA node; ivabradine target.</p>
-      </div>
-      <div class="detail-body">
+    <h3>Ion Selectivity</h3>
+    <p>HCN4 carries Na⁺ and K⁺ inward at diastolic potentials. The reversal potential is approximately −25 to −35 mV (between ENa and EK). At the maximum diastolic potential (~−60 mV), the net current is inward, providing the depolarizing drive. The contribution of I<sub>f</sub> to total diastolic depolarizing current in central SA node cells is approximately 10–30%, with the remainder from ICaT and the Ca²⁺ clock.</p>
+  </div>
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>hcn4</td></tr>
-            <tr><td>Name</td><td>HCN4</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-            <tr><td>Uniprot</td><td>Q9Y3Q4</td></tr>
-            <tr><td>Gene Symbol</td><td>HCN4</td></tr>
-            <tr><td>Chromosome</td><td>15q24.1</td></tr>
-          </table>
-        </div>
+  <div class="section" id="pharmacology">
+    <h2>Pharmacology &amp; Drug Targets</h2>
+    <table>
+      <thead><tr><th>Drug</th><th>Mechanism</th><th>Indication</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Ivabradine (Corlanor/Procoralan)</strong></td><td>Specific use-dependent open-channel blocker of I<sub>f</sub> (HCN4 &gt; HCN1); accesses channel from intracellular face during open state; reduces HR by 10–15 bpm; no effect on contractility, AV conduction, or blood pressure</td><td>Stable angina (HR ≥70 bpm in sinus rhythm); HFrEF (LVEF ≤35%, HR ≥70 bpm on maximally-tolerated beta-blocker; SHIFT trial showed reduced HF hospitalization); inappropriate sinus tachycardia</td></tr>
+        <tr><td><strong>Beta-blockers</strong></td><td>Reduce cAMP → shift HCN4 V½ leftward (indirect I<sub>f</sub> reduction) + decrease sympathetic chronotropy via multiple targets</td><td>Standard heart failure, angina, hypertension, AF rate control</td></tr>
+        <tr><td><strong>Zatebradine / cilobradine (experimental)</strong></td><td>Earlier I<sub>f</sub> blockers; less selective than ivabradine; not approved</td><td>Proof-of-concept historical</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="sa-node-cell.html" title="HCN4 is the dominant HCN isoform in SA node pacemaker cells, accounting for &gt;80% of cardiac I_f; its activation during hyperpolarisation drives diastolic depolarisation and pacemaker automaticity."><span class="rel">expressed-by</span>Sa Node Cell</a>
-            <a class="conn-pill" href="beta1-adrenergic-receptor.html" title="β1-AR/Gαs/adenylyl cyclase raises cAMP, which binds the CNBD of HCN4 and shifts its activation curve ~+10 mV rightward → more I_f at any given diastolic potential → faster pacemaker rate (positive chronotropy)."><span class="rel">modulated-by</span>Beta1 Adrenergic Receptor</a>
-          </div>
-        </div>
+  <div class="section" id="pathology">
+    <h2>Pathology</h2>
+    <table>
+      <thead><tr><th>Disease</th><th>HCN4 mechanism</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Familial sick sinus syndrome</strong></td><td>Loss-of-function HCN4 mutations (e.g., Arg524Gln — prevents cAMP-dependent shift; D553N — reduced surface expression); autosomal dominant; symptomatic bradycardia, sinus arrest, paroxysmal AF; pacemaker implantation often required</td></tr>
+        <tr><td><strong>Inappropriate sinus tachycardia (IST)</strong></td><td>Rare HCN4 gain-of-function mutations shift I<sub>f</sub> activation rightward; more commonly, IST reflects autonomic dysregulation rather than HCN4 mutation; ivabradine treatment effective in both</td></tr>
+        <tr><td><strong>Congenital heart block</strong></td><td>Some HCN4 mutations associated with AV conduction abnormalities — reflects HCN4 expression in AV node as well as SA node</td></tr>
+        <tr><td><strong>Age-related bradycardia</strong></td><td>HCN4 expression may decline subtly with aging, contributing to lower maximum heart rate in elderly; SA node fibrosis compounds this</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://doi.org/10.1161/CIRCRESAHA.109.208041" target="_blank" rel="noopener noreferrer">DiFrancesco D. The role of the funny current in pacemaker activity. Circ Res. 2010;106(3):434-46.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20167941/" target="_blank" rel="noopener noreferrer">PubMed 20167941</a></li>
-            <li><a href="https://doi.org/10.1073/pnas.1010122108" target="_blank" rel="noopener noreferrer">Baruscotti M, Bucchi A, Viscomi C, et al. Deep bradycardia and heart block caused by inducible cardiac-specific knockout of the pacemaker channel gene Hcn4. Proc Natl Acad Sci USA. 2011;108(4):1705-10.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21205885/" target="_blank" rel="noopener noreferrer">PubMed 21205885</a></li>
-            <li><a href="https://doi.org/10.1038/31255" target="_blank" rel="noopener noreferrer">Ludwig A, Zong X, Jeglitsch M, Hofmann F, Biel M. A family of hyperpolarization-activated mammalian cation channels. Nature. 1998;393(6685):587-91.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9634236/" target="_blank" rel="noopener noreferrer">PubMed 9634236</a></li>
-            <li><a href="https://doi.org/10.1074/jbc.M208251200" target="_blank" rel="noopener noreferrer">Stieber J, Herrmann S, Feil S, et al. The hyperpolarization-activated channel HCN4 underlies the If current in sinoatrial node myocytes. J Biol Chem. 2003;278(36):33672-80.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12826672/" target="_blank" rel="noopener noreferrer">PubMed 12826672</a></li>
-          </ul>
-        </div>
+  <div class="section" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">expressed-by</span><span><a href="sa-node-cell.html">SA node cell</a> — HCN4 is the dominant I<sub>f</sub> channel accounting for &gt;80% of SA node funny current; loss causes sick sinus syndrome in mice and humans</span></li>
+      <li><span class="conn-rel">modulated-by</span><span>β1-adrenergic receptor — cAMP binds HCN4 CNBD, shifts V½ +10 mV → positive chronotropy; the molecular mechanism of sympathetic heart rate acceleration</span></li>
+      <li><span class="conn-rel">modulated-by</span><span>M2 muscarinic receptor → Gi → ↓cAMP → V½ shifts leftward → negative chronotropy</span></li>
+      <li><span class="conn-rel">part-of</span><span><a href="cardiac-conduction-system.html">Cardiac conduction system</a> — HCN4 is the dominant pacemaker channel of the SA node and contributes to AV node automaticity</span></li>
+    </ul>
+  </div>
 
-      </div>
-    </div>
-  </main>
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>DiFrancesco D. <a href="https://doi.org/10.1161/CIRCRESAHA.109.208041" target="_blank" rel="noopener">The role of the funny current in pacemaker activity.</a> <em>Circ Res.</em> 2010;106(3):434–46. PubMed 20167941.</li>
+      <li>Baruscotti M, Bucchi A, Viscomi C, et al. <a href="https://doi.org/10.1073/pnas.1010122108" target="_blank" rel="noopener">Deep bradycardia and heart block caused by inducible cardiac-specific knockout of the pacemaker channel gene Hcn4.</a> <em>Proc Natl Acad Sci USA.</em> 2011;108(4):1705–10. PubMed 21205885.</li>
+      <li>Ludwig A, Zong X, Jeglitsch M, Hofmann F, Biel M. <a href="https://doi.org/10.1038/31255" target="_blank" rel="noopener">A family of hyperpolarization-activated mammalian cation channels.</a> <em>Nature.</em> 1998;393:587–91. PubMed 9634236.</li>
+      <li>Stieber J, Herrmann S, Feil S, et al. <a href="https://doi.org/10.1074/jbc.M208251200" target="_blank" rel="noopener">The hyperpolarization-activated channel HCN4 underlies the If current in sinoatrial node myocytes.</a> <em>J Biol Chem.</em> 2003;278(36):33672–80. PubMed 12826672.</li>
+    </ol>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+</div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<footer>
+  <p><a href="index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> · bpupadhyaya@gmail.com</p>
+  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</p>
+</footer>
 </body>
 </html>

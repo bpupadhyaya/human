@@ -3,195 +3,214 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Most abundant complement protein (~1.3 mg/mL); central hub of classical, lectin, and alternative pathways. C3 convertase cleaves C3 → C3a (anaphylatoxin) + C3b ">
-  <meta property="og:title" content="Complement C3 — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Complement C3 — Human Engineering</title>
+  <title>Complement C3 — Human Engineering Atlas</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
+    :root { --accent: #9f1239; --bg: #0f0f13; --surface: #18181f; --surface2: #1f1f2a; --border: #2a2a3a; --fg: #e8e8f0; --muted: #9090a8; --radius: 10px; }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    body { background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(15,15,19,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 1.5rem; display: flex; align-items: center; gap: 1rem; height: 52px; }
+    .nav-logo { font-weight: 700; font-size: 1rem; color: var(--fg); } .nav-sep { color: var(--border); } .nav-link { font-size: 0.85rem; color: var(--muted); }
+    .hero { padding: 4rem 1.5rem 3rem; max-width: 860px; margin: 0 auto; }
+    .hero-eyebrow { display: inline-block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: rgba(159,18,57,0.15); color: #fb7185; border: 1px solid rgba(159,18,57,0.4); border-radius: 20px; padding: 0.25rem 0.8rem; margin-bottom: 1.2rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; line-height: 1.1; margin-bottom: 0.6rem; }
+    .hero-tagline { font-size: 1.15rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .hero-sub { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.8rem; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.8rem; }
+    .alias-pill { font-size: 0.78rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.7rem; color: var(--muted); }
+    .stat-row { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.9rem 1.2rem; min-width: 130px; }
+    .stat-val { font-size: 1.5rem; font-weight: 700; color: #fb7185; } .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 4rem; display: grid; gap: 1.5rem; }
+    .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+    .detail-header { background: linear-gradient(135deg, #9f1239, #4c0519); padding: 1.2rem 1.5rem; }
+    .detail-header h2 { font-size: 1.1rem; font-weight: 700; color: #fff; } .detail-header p { font-size: 0.82rem; color: rgba(255,255,255,0.7); margin-top: 0.2rem; }
+    .detail-body { padding: 1.4rem 1.5rem; }
+    .detail-body p { font-size: 0.93rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .detail-body h3 { font-size: 0.95rem; font-weight: 600; color: var(--fg); margin: 1.2rem 0 0.5rem; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.8rem 0; }
+    .data-table th { text-align: left; color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.5rem 0.8rem; border-bottom: 1px solid var(--border); }
+    .data-table td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(42,42,58,0.5); color: var(--fg); vertical-align: top; }
+    .data-table tr:last-child td { border-bottom: none; }
+    .pathway-block { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; margin: 0.8rem 0; overflow-x: auto; }
+    .pathway-block pre { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.78rem; color: #fda4af; line-height: 1.7; white-space: pre; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 1.4rem 1.5rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.3rem 0.9rem; color: var(--fg); transition: border-color 0.2s; }
+    .conn-pill:hover { border-color: #fb7185; color: #fb7185; } .conn-pill-label { font-size: 0.7rem; color: var(--muted); }
+    .refs { padding: 1.4rem 1.5rem; } .refs ol { padding-left: 1.2rem; } .refs li { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.4rem; line-height: 1.5; }
+    footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; max-width: 860px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: flex-start; }
+    .footer-copy { font-size: 0.8rem; color: var(--muted); } .footer-disclaimer { font-size: 0.75rem; color: var(--muted); opacity: 0.7; max-width: 480px; line-height: 1.5; }
   </style>
 </head>
 <body>
+<nav>
+  <span class="nav-logo">Human Engineering</span><span class="nav-sep">›</span>
+  <a class="nav-link" href="index.html">Atlas</a><span class="nav-sep">›</span>
+  <span class="nav-link">Complement C3</span>
+</nav>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<section class="hero">
+  <div class="hero-eyebrow">Atlas One · Human · Molecular</div>
+  <h1>Complement C3</h1>
+  <p class="hero-tagline">Central convergence point of all three complement activation pathways — opsonin, anaphylatoxin precursor, and MAC initiator</p>
+  <p class="hero-sub">185 kDa plasma glycoprotein · α-chain (110 kDa) + β-chain (75 kDa) · internal thioester bond Cys988-Gln991</p>
+  <div class="alias-pills">
+    <span class="alias-pill">Complement component 3</span>
+    <span class="alias-pill">C3b (opsonin)</span>
+    <span class="alias-pill">C3a (anaphylatoxin)</span>
+    <span class="alias-pill">iC3b / C3dg (CR ligands)</span>
+  </div>
+  <div class="stat-row">
+    <div class="stat"><div class="stat-val">185 kDa</div><div class="stat-label">Molecular weight</div></div>
+    <div class="stat"><div class="stat-val">0.8–1.8 g/L</div><div class="stat-label">Plasma conc.</div></div>
+    <div class="stat"><div class="stat-val">3 pathways</div><div class="stat-label">Classical/Lectin/Alternative</div></div>
+    <div class="stat"><div class="stat-val">~1%/hr</div><div class="stat-label">AP tick-over rate</div></div>
+  </div>
+</section>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>Complement C3</h1>
-    <p class="tagline">Most abundant complement protein (~1.3 mg/mL); central hub of classical, lectin, and alternative pathways. C3 convertase cleaves C3 → C3a (anaphylatoxin) + C3b (opsonin). Internal thioester enables covalent surface labelling for phagocytosis.</p>
-    <p class="aliases">Also known as: C3, C3b, iC3b, C3d, complement component 3, C3a anaphylatoxin</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+<main>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Atlas One · Molecular · Plasma Glycoprotein / Immune Effector</h2><p>Liver-synthesised; the most abundant complement protein; proteolytically activated by C3 convertases</p></div>
+    <div class="detail-body">
+      <h3>Structure</h3>
+      <table class="data-table">
+        <thead><tr><th>Feature</th><th>Detail</th></tr></thead>
+        <tbody>
+          <tr><td>α-chain</td><td>110 kDa; N-terminal C3a anaphylatoxin domain; internal thioester bond (Cys988-Gln991); cleaved by convertase releasing C3a</td></tr>
+          <tr><td>β-chain</td><td>75 kDa; disulfide-linked to α-chain; contains binding sites for Factor B/D and regulatory proteins</td></tr>
+          <tr><td>Thioester bond</td><td>Metastable –C(=O)–S– between Cys988 and Gln991; masked in native C3; exposed in C3b → reacts with OH or NH₂ on pathogen surface → covalent opsonisation</td></tr>
+          <tr><td>Conformational change</td><td>Convertase cleavage → Arg726-Ser727 bond cut → C3a released → large C3b undergoes dramatic conformational rearrangement exposing reactive thioester</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header"><h2>Three Activation Pathways</h2><p>All converge at C3 convertase → C3a + C3b → amplification loop → MAC</p></div>
+    <div class="detail-body">
+      <div class="pathway-block"><pre>
+  ┌─────────────────────┬──────────────────────┬──────────────────────┐
+  │   CLASSICAL (CP)    │   LECTIN (LP)        │  ALTERNATIVE (AP)   │
+  │                     │                      │                      │
+  │ IgM/IgG + Ag bind   │ MBL/Ficolin bind     │ Spontaneous C3       │
+  │ C1q → C1r/s activ.  │ mannose/GlcNAc on    │ hydrolysis (tick-   │
+  │                     │ pathogen surface     │ over ~1%/hr)         │
+  │ C1s cleaves C4 → C4b│ → MASP-1/2 activate  │ C3(H₂O) + Bb        │
+  │ C4b + C2 → C2a      │ C4 and C2            │ → fluid phase C3Bbb  │
+  │                     │                      │ → cleaves C3 → C3b   │
+  └────────────────────────────┬───────────────────────────────────────┘
+                               │ All 3 pathways generate C3 convertases:
+                               │   CP/LP: C4b2a
+                               │   AP: C3bBb (+ Properdin stabilises)
+                               ▼
+                        C3 + Convertase
+                               │
+                ┌──────────────┴──────────────┐
+                ▼                             ▼
+             C3a                           C3b
+    (Anaphylatoxin)                   (Opsonin — covalently
+     C3aR on mast cells                attached to surface)
+     → Mast cell degranulation               │
+     → Histamine release                     ├─ + Factor B + Factor D
+     → Smooth muscle contraction             │   → C3bBb (AP C3 conv)
+     → Chemotaxis (weak)                     │   → Amplification loop
+                                             │
+                                             ├─ C3b + C4b2a → C5 conv
+                                             │   → C5a + C5b
+                                             │
+                                             ▼
+                                   C5b + C6 + C7 + C8 + C9(×18)
+                                             │
+                                    MAC (Membrane Attack Complex)
+                                   poly-C9 pore in lipid bilayer
+                                   → lysis of Gram-negative bacteria,
+                                     RBCs (PNH), complement targets
+</pre></div>
+      <h3>C3b Opsonisation and Receptor Interactions</h3>
+      <table class="data-table">
+        <thead><tr><th>Fragment</th><th>Receptor</th><th>Cell type</th><th>Outcome</th></tr></thead>
+        <tbody>
+          <tr><td>C3b</td><td>CR1 (CD35)</td><td>Macrophages, neutrophils, B cells, erythrocytes</td><td>Phagocytosis; immune complex clearance; erythrocyte complement catabolism</td></tr>
+          <tr><td>iC3b (Factor I + CR1 → iC3b)</td><td>CR3 (CD11b/CD18, Mac-1)</td><td>Macrophages, NK cells, neutrophils</td><td>Phagocytosis without inflammation; adhesion</td></tr>
+          <tr><td>C3d/C3dg (further cleavage)</td><td>CR2 (CD21)</td><td>B cells, follicular DCs</td><td>B-cell co-stimulation (10³-fold ↑ B-cell activation threshold lowering)</td></tr>
+        </tbody>
+      </table>
     </div>
+  </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">complement-c3</div>
-        <h2>Complement C3</h2>
-        <p class="summary">Most abundant complement protein (~1.3 mg/mL); central hub of classical, lectin, and alternative pathways. C3 convertase cleaves C3 → C3a (anaphylatoxin) + C3b (opsonin). Internal thioester enables covalent surface labelling for phagocytosis.</p>
-      </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>complement-c3</td></tr>
-            <tr><td>Name</td><td>Complement C3</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="immune-system.html" title="C3 is the central hub of all 3 complement pathways. C3b opsonises pathogens; C3a recruits neutrophils/mast cells; C3d on antigen lowers B cell activation threshold ~1000-fold via CR2/CD21 co-stimulation."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="macrophage.html" title="C3b and iC3b on opsonised targets bind CR1 and CR3 (Mac-1) on macrophages → phagocytic cup formation and phagolysosome maturation. iC3b-CR3 is especially important for phagocytosis of fungal cells (A. fumigatus)."><span class="rel">modulates</span>Macrophage</a>
-            <a class="conn-pill" href="glomerulus.html" title="Alternative pathway C3 dysregulation causes MPGN via GBM deposition. C3 nephritic factor (C3NeF) stabilises alternative C3 convertase → persistent C3 activation → MPGN type II/Dense Deposit Disease."><span class="rel">modulates</span>Glomerulus</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener noreferrer">Murphy K, Weaver C. Janeway's Immunobiology. 9th ed. Garland Science; 2017.</a></li>
-          </ul>
-        </div>
-
-      </div>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Regulation</h2><p>Multiple levels of control prevent autologous complement activation</p></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Regulator</th><th>Mechanism</th><th>Location</th></tr></thead>
+        <tbody>
+          <tr><td>Factor H (CFH)</td><td>Competes with Factor B for C3b binding; cofactor for Factor I → degrades C3b to iC3b; preferentially binds self surfaces (polyanions) over pathogens</td><td>Plasma; binds C3b on self cells</td></tr>
+          <tr><td>DAF / CD55</td><td>Decay-accelerating factor; accelerates dissociation of C3 convertases (C4b2a and C3bBb)</td><td>GPI-anchored on all blood cells</td></tr>
+          <tr><td>MCP / CD46</td><td>Membrane cofactor protein; cofactor for Factor I → C3b cleavage to iC3b on self cells</td><td>All nucleated cells</td></tr>
+          <tr><td>CD59 (protectin)</td><td>Inhibits MAC formation by blocking C9 insertion into lipid bilayer</td><td>GPI-anchored on all blood cells</td></tr>
+          <tr><td>Factor I</td><td>Serine protease; cleaves C3b (with cofactors) → iC3b → C3d; requires CR1, Factor H, MCP, or C4BP as cofactors</td><td>Plasma</td></tr>
+          <tr><td>C1-inhibitor (C1-INH)</td><td>SERPIN; irreversibly inhibits C1r, C1s, MASP-1, MASP-2; also inhibits kallikrein, plasmin, thrombin</td><td>Plasma</td></tr>
+        </tbody>
+      </table>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pathology</h2><p>Loss of control or deficiency leads to infections, autoimmunity, and haemolysis</p></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Disease</th><th>Mechanism</th><th>Key Features</th><th>Treatment</th></tr></thead>
+        <tbody>
+          <tr><td>C3 deficiency</td><td>Homozygous C3 mutation; loss of all 3 pathway effectors downstream</td><td>Recurrent encapsulated bacterial infections (S. pneumoniae, H. influenzae, N. meningitidis); SLE-like illness from ↓ immune complex clearance</td><td>Supportive; vaccines; prophylactic antibiotics</td></tr>
+          <tr><td>Dense Deposit Disease (DDD) / C3GN</td><td>C3NeF (C3 nephritic factor): IgG autoAb stabilises AP C3 convertase → uncontrolled C3 consumption; C3 deposition in GBM</td><td>Low serum C3; haematuria; proteinuria; CKD; partial lipodystrophy (adipocyte complement-mediated)</td><td>Eculizumab (C5 inhibitor); avacopan (C5aR antagonist); immunosuppression</td></tr>
+          <tr><td>Paroxysmal nocturnal haemoglobinuria (PNH)</td><td>PIGA somatic mutation → loss of GPI anchors (DAF/CD55 + CD59) on haematopoietic stem cell clone → unregulated MAC on RBCs</td><td>Intravascular haemolysis; thrombosis (hepatic/portal vein); cytopenias; haemoglobinuria (AM urine)</td><td>Eculizumab / ravulizumab (anti-C5); pegcetacoplan (anti-C3); allogeneic SCT</td></tr>
+          <tr><td>Atypical HUS (aHUS)</td><td>CFH/CFI/MCP/C3/CFB mutations → uncontrolled AP on glomerular endothelium</td><td>Thrombotic microangiopathy; AKI; thrombocytopenia; MAHA; no Stx</td><td>Eculizumab (anti-C5) — dramatically effective; plasma exchange as bridge</td></tr>
+          <tr><td>AMD / CFH Y402H</td><td>CFH polymorphism → ↓ Factor H binding to C3b in retinal drusen → local complement activation in sub-RPE space</td><td>Geographic atrophy; choroidal neovascularisation; >50% of AMD risk attributable to CFH and ARMS2 variants</td><td>Anti-VEGF (wet AMD); pegcetacoplan (GA — FILLY/DERBY trials)</td></tr>
+        </tbody>
+      </table>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Therapeutic Targeting</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Drug</th><th>Target</th><th>Indications</th></tr></thead>
+        <tbody>
+          <tr><td>Eculizumab (Soliris)</td><td>Anti-C5 monoclonal IgG2/4 hybrid; blocks C5 convertase cleavage → inhibits C5a + MAC</td><td>PNH; aHUS; generalised MG (anti-AChR); NMOSD; hMBS</td></tr>
+          <tr><td>Ravulizumab (Ultomiris)</td><td>Anti-C5; engineered Fc → longer half-life (~8 weeks vs. 2 weeks eculizumab)</td><td>PNH; aHUS; ALS (clinical trial)</td></tr>
+          <tr><td>Pegcetacoplan (Empaveli)</td><td>Anti-C3 (PEGylated compstatin analogue) → blocks all 3 pathways downstream</td><td>PNH (including C5 inhibitor non-responders); Geographic atrophy — FILLY trial (↓ lesion growth 29%)</td></tr>
+          <tr><td>Avacopan (Tavneos)</td><td>C5aR (CD88) antagonist; oral</td><td>ANCA vasculitis (replaces high-dose prednisolone — ADVOCATE trial); C3G trials ongoing</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2></div>
+    <div class="connections">
+      <a class="conn-pill" href="platelet.html"><span>Platelet</span><span class="conn-pill-label">Complement-mediated platelet activation</span></a>
+      <a class="conn-pill" href="igg.html"><span>IgG</span><span class="conn-pill-label">CP C1q binding</span></a>
+      <a class="conn-pill" href="mhc-ii.html"><span>MHC-II</span><span class="conn-pill-label">Antigen presentation interaction</span></a>
+      <a class="conn-pill" href="epo.html"><span>EPO</span><span class="conn-pill-label">PNH anaemia / EPO response</span></a>
+    </div>
+  </div>
+
+  <div class="detail-card refs">
+    <div class="detail-header"><h2>References</h2></div>
+    <ol>
+      <li>Walport MJ. "Complement (parts 1 and 2)." <em>N Engl J Med</em> 2001;344:1058–1066 and 1140–1144.</li>
+      <li>Ricklin D, et al. "Complement: a key system for immune surveillance and homeostasis." <em>Nat Immunol</em> 2010;11:785–797.</li>
+      <li>Legendre CM, et al. "Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome." <em>N Engl J Med</em> 2013;368:2169–2181.</li>
+      <li>Jayne DRW, et al. (ADVOCATE). "Avacopan for the treatment of ANCA-associated vasculitis." <em>N Engl J Med</em> 2021;384:599–609.</li>
+      <li>Apellis. DERBY/FILLY trials of pegcetacoplan in geographic atrophy. <em>Ophthalmology</em> 2023.</li>
+    </ol>
+  </div>
+</main>
+
+<footer>
+  <div><p class="footer-copy">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p></div>
+  <p class="footer-disclaimer">This page is co-maintained by AI (Claude, Anthropic) and human editors as part of the open Human Engineering Atlas project. Content is for educational purposes; verify clinical information with qualified sources before application.</p>
+</footer>
 </body>
 </html>

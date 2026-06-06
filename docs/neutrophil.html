@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Most abundant circulating leukocyte (50–70% of WBC); first-responder innate immune cell produced at ~10¹¹/day in bone marrow. Kills bacteria and fungi via phago">
+  <meta name="description" content="Neutrophil — most abundant circulating leukocyte (50–70% of WBC). First-responder innate immune cell. Kills bacteria and fungi via phagocytosis, NADPH oxidase respiratory burst producing HOCl, degranulation, and neutrophil extracellular traps (NETs).">
   <meta property="og:title" content="Neutrophil — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Neutrophil — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #dc2626;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,51 +32,49 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b91c1c, #7f1d1d); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+    .detail-section ol, .detail-section ul { padding-left: 1.4rem; color: var(--fg-soft); font-size: 0.95rem; line-height: 1.7; }
+    .detail-section li { margin-bottom: 0.3rem; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -108,8 +99,8 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="immune-system.html">Immune System</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -119,64 +110,248 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
     <h1>Neutrophil</h1>
-    <p class="tagline">Most abundant circulating leukocyte (50–70% of WBC); first-responder innate immune cell produced at ~10¹¹/day in bone marrow. Kills bacteria and fungi via phagocytosis, respiratory burst (NADPH oxidase/MPO/HOCl), degranulation, and neutrophil extracellular traps (NETs).</p>
-    <p class="aliases">Also known as: PMN, polymorphonuclear leukocyte, granulocyte, poly</p>
+    <p class="tagline">The innate immune first-responder — 50–70% of all white blood cells, arriving at infection sites within minutes, unleashing a multilayered antimicrobial arsenal that includes the most potent chemical weapon the immune system produces.</p>
+    <p class="subtagline">~10¹¹ produced per day in bone marrow. Circulating half-life only 6–8 hours. Deploys phagocytosis, oxidative burst (NADPH oxidase → superoxide → H₂O₂ → MPO → HOCl), granule degranulation, and neutrophil extracellular traps (NETs). Dysregulation drives ARDS, vasculitis, and COVID-19 coagulopathy.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">1.8–7.7&thinsp;&times;&thinsp;10⁹/L</span><span class="stat-label">Blood concentration</span></div>
+      <div class="stat"><span class="stat-num">~10¹¹/day</span><span class="stat-label">Production rate</span></div>
+      <div class="stat"><span class="stat-num">6–8 hours</span><span class="stat-label">Circulating half-life</span></div>
+      <div class="stat"><span class="stat-num">4 granule types</span><span class="stat-label">Azurophil / specific / gelatinase / secretory</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">neutrophil</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One / Scale 04 &middot; neutrophil</div>
         <h2>Neutrophil</h2>
-        <p class="summary">Most abundant circulating leukocyte (50–70% of WBC); first-responder innate immune cell produced at ~10¹¹/day in bone marrow. Kills bacteria and fungi via phagocytosis, respiratory burst (NADPH oxidase/MPO/HOCl), degranulation, and neutrophil extracellular traps (NETs).</p>
+        <p class="summary">Neutrophils (PMNs) are the most abundant leukocyte — 50–70% of circulating WBC — and the central first-responders of innate immunity produced at ~10¹¹/day. They deploy a multi-layered antimicrobial arsenal: phagocytosis of opsonised targets, NADPH oxidase (NOX2) oxidative burst generating HOCl via MPO, hierarchically ordered granule degranulation (azurophil → specific → gelatinase → secretory), and suicidal/vital NETosis. Dysregulation causes chronic granulomatous disease (NOX2 mutations), ANCA-associated vasculitis, and drives COVID-19 microvascular thrombosis.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The neutrophil (polymorphonuclear leukocyte, PMN) is the most abundant circulating white blood cell, comprising 50–70% of all leukocytes (1.8–7.7×10⁹/L in adult blood). It is the central first-responder of innate immunity, recruited within minutes of tissue infection or injury. Neutrophils are short-lived but produced in vast numbers — approximately <strong>10¹¹ cells per day</strong> — from myeloid progenitors in the bone marrow. Their name reflects the neutral (weakly eosinophilic) staining of their cytoplasm with Romanowsky-type dyes; "poly" refers to their multilobed nucleus — 3–5 lobes connected by thin chromatin filaments visible on blood smear.</p>
+          <p>Neutrophils are the primary defense against bacteria and fungi. Their dysregulation contributes to sterile inflammatory injury (ARDS, ischaemia-reperfusion), autoimmune vasculitis (ANCA-associated vasculitides), and immunodeficiency (chronic granulomatous disease, CGD). The NET-COVID-19 connection — where SARS-CoV-2 drives excessive neutrophil extracellular trap formation contributing to microvascular thrombosis and ARDS — has made neutrophil biology a major focus of critical care immunology.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure — Granule Types and Surface Receptors</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>neutrophil</td></tr>
-            <tr><td>Name</td><td>Neutrophil</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
+            <tr><th>Granule Type</th><th>Contents</th><th>Primary function</th></tr>
+            <tr><td>Primary (azurophil)</td><td>MPO, neutrophil elastase, cathepsin G, proteinase 3, α-defensins (HNP1-4), BPI, azurocidin</td><td>Fuse with phagosome — enzymatic killing; MPO → HOCl; defensins → membrane disruption</td></tr>
+            <tr><td>Secondary (specific)</td><td>Lactoferrin, collagenase (MMP-8), hCAP18/LL-37, NGAL, transcobalamin I</td><td>Most numerous; surface CR3/CXCR2 delivered on activation; lactoferrin sequesters iron</td></tr>
+            <tr><td>Tertiary (gelatinase)</td><td>Gelatinase (MMP-9), leukolysin (MT6-MMP), acetyltransferase</td><td>Easily mobilized; basement membrane penetration during transmigration</td></tr>
+            <tr><td>Secretory vesicles</td><td>Albumin (endocytic), fMLP receptor (FPR1), CR3</td><td>First to mobilize; rapidly delivers receptors to surface on even mild stimulation</td></tr>
           </table>
+          <table class="data-table" style="margin-top:1rem;">
+            <tr><th>Receptor</th><th>Ligand</th><th>Function</th></tr>
+            <tr><td>FcγRIIA (CD32), FcγRIII (CD16)</td><td>IgG Fc</td><td>Phagocytosis of opsonized targets; ADCP</td></tr>
+            <tr><td>CR1 (CD35), CR3 (CD11b/CD18)</td><td>C3b, iC3b</td><td>Complement-opsonized phagocytosis; integrin-mediated adhesion</td></tr>
+            <tr><td>CXCR1/CXCR2</td><td>CXCL8 (IL-8), CXCL1/2</td><td>Chemotaxis and egress from bone marrow</td></tr>
+            <tr><td>FPR1</td><td>fMLF (formyl peptides)</td><td>Bacterial sensing; chemotaxis toward infection source</td></tr>
+            <tr><td>C5aR1 (CD88)</td><td>C5a</td><td>Complement-driven recruitment and priming</td></tr>
+            <tr><td>TLR4, TLR2, TLR9</td><td>LPS, peptidoglycan, CpG</td><td>Innate PAMP sensing; cytokine production; priming</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — Recruitment Cascade and Oxidative Burst</h3>
+          <div class="circuit-diagram">
+<pre>
+  TISSUE INFECTION / INJURY
+         │
+         ▼
+  Endothelium activated by IL-1β / TNF-α (1–2 h):
+  P-selectin released from Weibel-Palade bodies (minutes)
+  E-selectin induced (hours)
+         │
+  RECRUITMENT CASCADE:
+  1. Rolling: P/E-selectin binds PSGL-1 (CD162) on neutrophil
+     → deceleration from free flow (~1–50 µm/s)
+
+  2. Chemokine activation: CXCL8, C5a, fMLF on endothelium
+     → CXCR1/2, C5aR, FPR1 → Gαi → PI3Kγ → PIP3
+     → PLC → IP₃ → Ca²⁺ → inside-out integrin activation
+
+  3. Firm adhesion: LFA-1 (αLβ2) + Mac-1 (αMβ2)
+     extend to high-affinity → bind ICAM-1/ICAM-2
+
+  4. Transmigration: PECAM-1 homophilic + JAM proteins
+     MMP-9 + MMP-8 degrade basement membrane (collagen IV)
+
+  5. Chemotaxis: up CXCL8/C5a/LTB4/fMLF gradients
+     PI3K + Rho GTPases → F-actin polymerization (leading edge)
+     myosin II retraction (uropod)
+         │
+         ▼
+  PHAGOCYTOSIS: IgG (FcγR) or C3b (CR1/3) opsonized target
+  Pseudopod extension → phagosome → granule fusion (phagolysosome)
+         │
+         ▼
+  OXIDATIVE (RESPIRATORY) BURST — NADPH Oxidase Assembly:
+
+  Phagosomal membrane:
+  gp91phox (NOX2, CYBB) + p22phox (CYBA) heterodimer [membrane]
+         │
+         ▼
+  Cytosolic components assemble on activation:
+  p47phox (NCF1) + p67phox (NCF2) + p40phox → heterotrimeric complex
+  + Rac2-GTP (small GTPase)
+         │
+         ▼
+  Assembled NOX2 complex
+  NADPH + 2O₂ → NADP⁺ + 2O₂•⁻ (superoxide)
+         │
+         ▼
+  O₂•⁻ + O₂•⁻ + 2H⁺ → H₂O₂ + O₂ (SOD / spontaneous)
+         │
+         ▼
+  Myeloperoxidase (MPO, primary granule) catalyzes:
+  H₂O₂ + Cl⁻ → HOCl + OH⁻
+  (hypochlorous acid — the most potent neutrophil antimicrobial)
+         │
+         ▼
+  Also: OH• (hydroxyl radical, Fenton), ¹O₂ (singlet oxygen)
+  These ROS denature bacterial proteins, lipids, and nucleic acids
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>NETs (Neutrophil Extracellular Traps):</strong> Stimulated by PMA, LPS, IL-8, or fungi, neutrophils expel decondensed chromatin scaffolded with histones (H3Cit4 by PAD4), MPO, elastase, and LL-37 — extracellular mesh structures that immobilize and kill bacteria/fungi. "Suicidal" NETosis: cell lysis (ROS-dependent PAD4 activation). "Vital" NETosis: NET release via vesicle extrusion while cell survives. NETs are also pathological in COVID-19 thrombosis, autoimmune vasculitis, and stroke.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lifecycle / Differentiation — Granulopoiesis</h3>
+          <div class="circuit-diagram">
+<pre>
+  Bone marrow HSC → GMP (granulocyte-monocyte progenitor)
+         │
+  Myeloblast → Promyelocyte
+  (primary azurophil granule synthesis: MPO, elastase, defensins)
+         │
+  Myelocyte (secondary specific granule synthesis: lactoferrin, MMP-8)
+         │
+  Metamyelocyte (kidney-shaped nucleus, post-mitotic)
+         │
+  Band neutrophil (C/horseshoe-shaped nucleus)
+         │
+  Segmented mature neutrophil (3–5 lobes connected by chromatin)
+  Maturation: ~14 days in bone marrow
+         │
+  G-CSF (CSF3) → G-CSFR → drives terminal maturation and release
+  BM reserve: ~10× circulating pool (can mobilize rapidly)
+         │
+  Blood circulation (CXCR2:CXCL1/2 → egress)
+  Half-life in blood: 6–8 hours
+  CXCR4:CXCL12 → return to BM ("neutrophil ageing")
+         │
+  Tissue recruitment (inflammation):
+  Survive 1–4 days in inflamed tissue
+  G-CSF, GM-CSF, IL-8, hypoxia → extend survival (inhibit Mcl-1 degradation)
+         │
+  Spontaneous apoptosis:
+  Caspase-3/9 mediated; Mcl-1/Bcl-xL balance
+  PS/calreticulin "eat-me" signals displayed
+         │
+  Efferocytosis by macrophages (MerTK, LRP1, TIM-4, PS receptors)
+  → Macrophage switch: pro- to anti-inflammatory (↑IL-10, TGF-β)
+  Defective efferocytosis → secondary necrosis → chronic inflammation
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Chronic Granulomatous Disease (CGD)</h4>
+            <p>X-linked (gp91phox/CYBB mutations, 70%) or autosomal recessive (p47phox/NCF1, p67phox/NCF2, p22phox/CYBA subunit mutations). NOX2 NADPH oxidase non-functional → absent oxidative burst → recurrent infections with catalase-positive organisms (Staphylococcus aureus, Aspergillus, Nocardia, Burkholderia cepacia) and granuloma formation. Granulomas form because macrophages cannot kill engulfed organisms. Diagnose with dihydrorhodamine (DHR) flow cytometry. Treat with TMP-SMX + itraconazole prophylaxis + IFN-γ (2×/week). Cure with HSCT or gene therapy (lentiviral vector correcting gp91phox or p47phox).</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Neutropenia</h4>
+            <p>Absolute neutrophil count (ANC) below 1.5×10⁹/L; severe neutropenia (ANC &lt;0.5×10⁹/L) causes febrile neutropenia — life-threatening susceptibility to gram-negative bacteremia (Pseudomonas, E. coli, Klebsiella) and invasive fungal infections (Aspergillus, Candida). Causes: chemotherapy myelosuppression, aplastic anemia, cyclic neutropenia (ELANE mutations, 3-week cycle), autoimmune neutropenia. G-CSF (filgrastim, pegfilgrastim) stimulates BM production and mobilization — standard prophylaxis with myelosuppressive chemotherapy.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>ANCA-Associated Vasculitis (AAV)</h4>
+            <p>NET-derived MPO and PR3 serve as autoantigens for ANCA (antineutrophil cytoplasmic antibodies): anti-MPO (p-ANCA) in microscopic polyangiitis (MPA) and eosinophilic GPA (EGPA); anti-PR3 (c-ANCA) in granulomatosis with polyangiitis (GPA). ANCA binds primed neutrophil surface → FcγR activation → NETosis → vascular injury → glomerulonephritis, alveolar hemorrhage, pauci-immune vasculitis. Treat with rituximab or cyclophosphamide + steroids; avacopan (C5aR1 antagonist) FDA-approved as steroid-sparing adjunct.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>COVID-19 neutrophil hyperactivation and NETs</h4>
+            <p>SARS-CoV-2 infection drives excessive NETosis via TLR7/TLR8 sensing and complement activation; NET-derived DNA/histones trigger endothelial damage, complement activation (C3/C5), platelet aggregation (via HMGB1, citrullinated histones), and microvascular thrombosis. NET burden correlates strongly with COVID-19 severity, ARDS, and D-dimer elevation. Low-dose corticosteroids (dexamethasone) suppress NET-mediated inflammation — the mechanistic basis of the RECOVERY trial mortality benefit.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>MPO deficiency</h4>
+            <p>Most common primary neutrophil disorder (1:2000–4000); usually asymptomatic — compensatory prolonged respiratory burst compensates for absent MPO. Increased risk of Candida infections specifically in concurrent diabetes mellitus (dual defect: impaired killing + hyperglycemia feeding fungus). Detected incidentally by automated haematology analysers (MPO fluorescence channel shows absent signal). No treatment generally needed.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>NETs — Formation, Function, and Pathology</h3>
+          <p><strong>Neutrophil Extracellular Traps (NETs)</strong> are extracellular web-like DNA/protein structures first described by Brinkmann et al. in 2004. They represent a third killing mechanism distinct from phagocytosis and degranulation:</p>
+          <div class="circuit-diagram">
+<pre>
+  SUICIDAL NETOSIS (cell death, 2–4 hours):
+  Trigger: PMA, LPS, activated platelets, C3b, fungi (Candida/Aspergillus)
+         │
+         ▼
+  NADPH oxidase (ROS) → PAD4 activation (peptidylarginine deiminase 4)
+         │
+         ▼
+  PAD4 citrullinates H3 at Arg2, Arg8, Arg17 → chromatin decondensation
+  + Nuclear envelope breakdown
+  + Granule fusion (MPO + elastase translocate to nucleus)
+         │
+         ▼
+  Cell lysis → NET release
+  Scaffold: dsDNA + citrullinated histones (H3Cit4)
+  Armed with: MPO, neutrophil elastase, LL-37, granulysin, lactoferrin
+         │
+         ▼
+  NET immobilizes bacteria/fungi → killing via ROS and AMPs
+
+  VITAL NETOSIS (cell survives, ~minutes):
+  Triggered by: platelet interaction, low-level LPS, complement
+  NETs released via mitochondrial DNA extrusion (anuclear vesicles)
+  Neutrophil retains functional capacity after NET release
+         │
+  NET RESOLUTION:
+  DNase I (serum) degrades NET scaffold
+  Macrophage efferocytosis of NET remnants
+  C1q + histones → NET complement activation (pathological)
+
+  NET PATHOLOGY:
+  ├── ANCA-AAV: NET-derived MPO/PR3 become autoantigens → ANCA → re-activates PMNs
+  ├── COVID-19: SARS-CoV-2 NET hyperactivation → microvascular thrombosis, ARDS
+  ├── SLE: NET DNA/citrullinated histones activate pDCs (TLR9) → type I IFN loop
+  ├── Atherosclerosis: NETs in plaque macrophages → foam cell formation, instability
+  └── Stroke: neutrophil NETs in cerebral vasculature → thrombus formation
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Therapeutic targeting:</strong> DNase I (dornase alfa, nebulized) breaks up NET-rich mucus in cystic fibrosis. PAD4 inhibitors (BB-Cl-amidine) being investigated for ANCA vasculitis and SLE. Low-molecular-weight heparin (LMWH) in COVID-19 reduces NET-mediated coagulopathy. Gasdermin D inhibitors (in development) may block both NET and pyroptosis pathways.</p>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="bone-marrow.html" title="Neutrophils are produced at ~10¹¹/day from myeloid progenitors in bone marrow (CFU-GM → myeloblast → promyelocyte → myelocyte → metamyelocyte → band → neutrophil); G-CSF (CSF3) drives terminal maturation."><span class="rel">part-of</span>Bone Marrow</a>
-            <a class="conn-pill part" href="immune-system.html" title="Neutrophils are the first-responder innate immune cells; they arrive at infection sites within minutes, deploying phagocytosis, respiratory burst, degranulation, and NETs against bacteria and fungi."><span class="rel">part-of</span>Immune System</a>
-            <a class="conn-pill" href="macrophage.html" title="Neutrophil-derived CXCL8 and azurocidin recruit monocytes; apoptotic neutrophils are cleared by macrophage efferocytosis; neutrophil–macrophage crosstalk shapes the transition from acute to chronic inflammation."><span class="rel">modulates</span>Macrophage</a>
-            <a class="conn-pill" href="liver.html" title="Hepatic neutrophil infiltration (via CXCL1/CXCL2/CXCL8) drives acute liver injury in ischaemia-reperfusion, alcoholic hepatitis, and NASH; NET components activate Kupffer cells via TLR4/TLR9, amplifying inflammation."><span class="rel">modulates</span>Liver</a>
-            <a class="conn-pill" href="streptococcus-pyogenes.html" title="Infected by Streptococcus pyogenes."><span class="rel">infected-by</span>Streptococcus Pyogenes</a>
-            <a class="conn-pill damaged" href="clostridioides-difficile.html" title="Damaged by Clostridioides difficile."><span class="rel">damaged-by</span>Clostridioides Difficile</a>
-            <a class="conn-pill" href="neisseria-meningitidis.html" title="Infected by Neisseria meningitidis."><span class="rel">infected-by</span>Neisseria Meningitidis</a>
+            <a class="conn-pill part" href="immune-system.html"><span class="rel">Part of</span>immune-system</a>
+            <a class="conn-pill" href="bone-marrow.html"><span class="rel">Produced in</span>bone-marrow (~10¹¹/day)</a>
+            <a class="conn-pill" href="macrophage.html"><span class="rel">Cleared by</span>macrophage (efferocytosis)</a>
+            <a class="conn-pill" href="il-6.html"><span class="rel">Amplified by</span>IL-6</a>
+            <a class="conn-pill" href="tnf-alpha.html"><span class="rel">Recruited by</span>TNF-alpha (E-selectin)</a>
+            <a class="conn-pill" href="liver.html"><span class="rel">Injures</span>liver (NASH, ischemia-reperfusion)</a>
+            <a class="conn-pill damaged" href="staphylococcus-aureus.html"><span class="rel">Fights</span>S. aureus (primary target)</a>
+            <a class="conn-pill damaged" href="neisseria-meningitidis.html"><span class="rel">Fights</span>N. meningitidis</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
-            <li><a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener noreferrer">Murphy K, Weaver C. Janeway's Immunobiology. 9th ed. Garland Science; 2017.</a></li>
+            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">ncbi.nlm.nih.gov</a></li>
+            <li>Murphy K, Weaver C. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2017. <a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener">garlandscience.com</a></li>
+            <li>Kolaczkowska E, Kubes P. Neutrophil recruitment and function in health and inflammation. <em>Nat Rev Immunol.</em> 2013;13(3):159-75. <a href="https://doi.org/10.1038/nri3399" target="_blank" rel="noopener">doi:10.1038/nri3399</a></li>
+            <li>Brinkmann V, et al. Neutrophil extracellular traps kill bacteria. <em>Science.</em> 2004;303(5663):1532-5. <a href="https://doi.org/10.1126/science.1092385" target="_blank" rel="noopener">doi:10.1126/science.1092385</a></li>
+            <li>Papayannopoulos V. Neutrophil extracellular traps in immunity and disease. <em>Nat Rev Immunol.</em> 2018;18(2):134-47. <a href="https://doi.org/10.1038/nri.2017.105" target="_blank" rel="noopener">doi:10.1038/nri.2017.105</a></li>
           </ul>
         </div>
 
@@ -188,14 +363,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="mast-cell.html">Mast Cell</a>
+      <a href="macrophage.html">Macrophage</a>
       <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

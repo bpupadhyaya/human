@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="γ-Aminobutyric acid — the principal inhibitory neurotransmitter of the brain. Acts via GABA-A (ionotropic Cl⁻ channel) and GABA-B (metabotropic GPCR) receptors.">
-  <meta property="og:title" content="GABA — Human Engineering">
+  <meta name="description" content="GABA (γ-aminobutyric acid) — the principal inhibitory neurotransmitter of the brain. GABA-A ionotropic Cl⁻ channel, GABA-B metabotropic GPCR. Target of benzodiazepines, barbiturates, and anaesthetics. E/I balance governs circuit stability.">
+  <meta property="og:title" content="GABA (γ-Aminobutyric Acid) — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>GABA — Human Engineering</title>
+  <title>GABA (γ-Aminobutyric Acid) — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0891b2;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,46 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(8,145,178,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0891b2, #0e7490); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .principle-box { background: rgba(8,145,178,0.06); border: 1px solid rgba(8,145,178,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +94,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,64 +106,243 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>GABA</h1>
-    <p class="tagline">γ-Aminobutyric acid — the principal inhibitory neurotransmitter of the brain. Acts via GABA-A (ionotropic Cl⁻ channel) and GABA-B (metabotropic GPCR) receptors. E/I balance governs circuit stability; GABA-A is target of benzodiazepines, barbiturates, and anesthetics.</p>
-    <p class="aliases">Also known as: γ-aminobutyric acid, GABA-A, GABA-B, GABAergic, gamma-aminobutyric acid</p>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
+    <h1>GABA (γ-Aminobutyric Acid)</h1>
+    <p class="tagline">The brain's primary braking neurotransmitter — GABA mediates fast inhibitory synaptic transmission via Cl⁻-permeable GABA-A receptors and slow inhibition via Gi-coupled GABA-B GPCRs, maintaining the E/I balance that prevents seizures.</p>
+    <p class="subtagline">MW 103.12 g/mol. Synthesised from glutamate in a single step by GAD65/GAD67 (pyridoxal phosphate-dependent). Terminated by GAT-1/GAT-3 transporter reuptake and GABA-T catabolism. GABA-A is the target of benzodiazepines, barbiturates, propofol, neurosteroids, alcohol, and Z-drugs. ~20–30% of cortical neurons are GABAergic interneurons.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">103.12</span><span class="stat-label">MW (g/mol)</span></div>
+      <div class="stat"><span class="stat-num">~25%</span><span class="stat-label">Cortical neurons (GABAergic)</span></div>
+      <div class="stat"><span class="stat-num">19 subunits</span><span class="stat-label">GABA-A subunit family</span></div>
+      <div class="stat"><span class="stat-num">GAD65 / GAD67</span><span class="stat-label">Biosynthetic enzymes</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">gaba</div>
-        <h2>GABA</h2>
-        <p class="summary">γ-Aminobutyric acid — the principal inhibitory neurotransmitter of the brain. Acts via GABA-A (ionotropic Cl⁻ channel) and GABA-B (metabotropic GPCR) receptors. E/I balance governs circuit stability; GABA-A is target of benzodiazepines, barbiturates, and anesthetics.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Inhibitory Neurotransmitter</div>
+        <h2>GABA (γ-Aminobutyric Acid)</h2>
+        <div class="drug-class">Class: Non-protein amino acid &nbsp;&middot;&nbsp; Inhibitory neurotransmitter &nbsp;|&nbsp; Biosynthesis: GAD65/GAD67 (GAD1/GAD2 genes) &nbsp;|&nbsp; Reuptake: GAT-1 (SLC6A1), GAT-3 (SLC6A11) &nbsp;|&nbsp; Catabolism: GABA-T + SSADH → succinate</div>
+        <p class="summary">GABA (γ-aminobutyric acid) is the dominant inhibitory neurotransmitter of the mammalian CNS, estimated to mediate inhibitory signalling at approximately one-third of all brain synapses. If glutamate is the accelerator, GABA is the brake — and the excitation–inhibition (E/I) balance is the fundamental homeostatic parameter governing circuit stability, oscillatory rhythms, and information processing. GABA operates through two structurally unrelated receptor types: GABA-A (a pentameric Cl⁻-permeable ligand-gated ion channel mediating fast IPSPs within milliseconds) and GABA-B (a Gi-coupled GPCR mediating slow, prolonged inhibition over hundreds of milliseconds). The GABA-A receptor is the molecular target of the most clinically important sedative, anxiolytic, anticonvulsant, and anaesthetic drug classes in medicine.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">γ-aminobutyric acid</span>
+          <span class="alias-pill">GABA-A</span>
+          <span class="alias-pill">GABA-B</span>
+          <span class="alias-pill">GABAergic</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>gaba</td></tr>
-            <tr><td>Name</td><td>GABA</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-          </table>
+          <h3>Overview &amp; Structure</h3>
+          <p>GABA is a <strong>four-carbon amino acid</strong> (formula C₄H₉NO₂; MW 103.12) that is not incorporated into proteins — it exists only as a free signalling molecule. Unlike glutamate (α-amino), GABA is a γ-amino acid: its amino group is on the γ-carbon. It is neutral at physiological pH. GABA cannot cross the blood-brain barrier efficiently; the CNS pool is synthesised locally in GABAergic interneurons.</p>
+          <p>GABAergic interneurons — parvalbumin (PV), somatostatin (SST), and VIP-expressing subtypes — make up ~20–30% of cortical neurons and exert powerful inhibitory control over the much larger population of glutamatergic principal neurons. Their loss or dysfunction is central to epilepsy, schizophrenia, and anxiety disorders.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="neuron.html" title="GABA hyperpolarizes postsynaptic neurons via GABA-A (Cl⁻ influx) and GABA-B (K⁺ efflux/↓cAMP) receptors, reducing excitability and action potential firing."><span class="rel">modulates</span>Neuron</a>
-            <a class="conn-pill" href="neuron.html" title="Synthesized and released by GABAergic interneurons, the predominant inhibitory cell class of the CNS."><span class="rel">expressed-by</span>Neuron</a>
-            <a class="conn-pill" href="synapse.html" title="Mediates fast and slow inhibitory synaptic transmission, opposing glutamatergic excitation to maintain E/I balance."><span class="rel">modulates</span>Synapse</a>
-            <a class="conn-pill" href="brain.html" title="GABA governs neural circuit stability, oscillations, and synchrony across all brain regions."><span class="rel">modulates</span>Brain</a>
-            <a class="conn-pill part" href="nervous-system.html" title="GABA is the primary inhibitory chemical signal throughout the CNS."><span class="rel">part-of</span>Nervous System</a>
+          <h3>Synthesis, Release &amp; Degradation Pathway</h3>
+          <div class="pathway-block">
+<pre>
+  L-Glutamate  (from glutamine via mitochondrial glutaminase)
+       │
+       │  GAD67 (cytoplasmic, constitutive) — bulk GABA pool (tonic inhibition)
+       │  GAD65 (vesicle-associated, inducible) — phasic/activity-driven GABA
+       │  Cofactor: pyridoxal phosphate (PLP, vitamin B6)
+       ▼
+  GABA
+       │
+       │  VGAT / VIAAT (SLC32A1) — vesicular inhibitory amino acid transporter
+       │  H⁺-ATPase drives GABA into vesicles
+       ▼
+  Inhibitory synaptic vesicle → Ca²⁺-triggered exocytosis → synaptic cleft
+       │
+       ├─── GABA-A (pentameric Cl⁻ channel) → fast IPSP (&lt;1 ms onset)
+       │    Requires 2 GABA molecules; Cl⁻ influx → hyperpolarisation in adults
+       │    (Neonates: high intracellular Cl⁻ due to immature KCC2 → GABA depolarising)
+       │
+       └─── GABA-B (Gi/o GPCR) → slow IPSP (onset ~50–200 ms, duration ~1 s)
+            Gαi → ↓adenylyl cyclase; Gβγ → GIRK K⁺ channels + ↓P/Q-type VGCCs
+       │
+       ▼
+  Clearance:
+  ├─ GAT-1 (SLC6A1, neurons) — Na⁺/Cl⁻-dependent reuptake into presynaptic terminal
+  ├─ GAT-3 (SLC6A11, astrocytes) — astrocytic uptake
+  └─ GABA-T (mitochondrial) → succinic semialdehyde → SSADH → succinate (TCA cycle)
+     [Vigabatrin irreversibly inhibits GABA-T → ↑extracellular GABA → anticonvulsant]
+</pre>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Mechanism of Action — GABA-A Ionotropic vs GABA-B Metabotropic</h3>
+          <div class="pathway-block">
+<pre>
+  GABA-A  (Cl⁻ ligand-gated ion channel — fast inhibitory transmission)
+  ─────────────────────────────────────────────────────────────────────
+  2 GABA molecules bind α/β interface of pentameric receptor
+        │  Pore opens (TM2 helices rotate)
+        ▼
+  Cl⁻ influx (adult: intracellular Cl⁻ low via KCC2 → ECl ≈ −70 mV)
+        │
+        ▼  Postsynaptic hyperpolarisation → IPSP → ↓probability of action potential
+
+  Allosteric modulation sites on GABA-A:
+  ┌──────────────────────────────────────────────────────────────────┐
+  │ Site               │ Drug class              │ Effect           │
+  ├──────────────────────────────────────────────────────────────────┤
+  │ α/γ2 interface     │ Benzodiazepines (BZDs)  │ ↑ channel open   │
+  │ (BZD binding site) │ diazepam, lorazepam     │ frequency (PAM)  │
+  ├──────────────────────────────────────────────────────────────────┤
+  │ β subunit TM2/3    │ Barbiturates            │ ↑ open duration; │
+  │                    │ phenobarbital           │ direct activation │
+  ├──────────────────────────────────────────────────────────────────┤
+  │ β subunit TM2/3    │ Propofol, etomidate     │ PAM; anaesthesia  │
+  ├──────────────────────────────────────────────────────────────────┤
+  │ δ-containing extra-│ Neurosteroids           │ Tonic inhibition; │
+  │ synaptic receptors │ allopregnanolone        │ brexanolone (PPD) │
+  ├──────────────────────────────────────────────────────────────────┤
+  │ Channel pore       │ Picrotoxin              │ Blocker; convulsant│
+  └──────────────────────────────────────────────────────────────────┘
+
+  GABA-B  (Gi/o GPCR — slow inhibitory modulation)
+  ─────────────────────────────────────────────────
+  GABA binds GABA-B1 (Venus flytrap domain)
+        │  Heterodimer GABA-B1 + GABA-B2 activates Gαi/o
+        ▼
+  Gαi → ↓adenylyl cyclase → ↓cAMP → ↓PKA
+  Gβγ → GIRK channels → K⁺ efflux → hyperpolarisation (postsynaptic)
+  Gβγ → ↓P/Q-type + N-type Ca²⁺ channels → ↓neurotransmitter release (presynaptic)
+        │
+        ▼  Baclofen (GABA-B agonist) exploits this for spasticity, alcohol withdrawal
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Roles — Organ System Table</h3>
+          <table class="data-table">
+            <tr><th>System / Circuit</th><th>GABA Role</th><th>Receptor</th><th>Net Effect</th></tr>
+            <tr><td><strong>Cortex</strong></td><td>PV interneurons generate gamma (30–80 Hz) oscillations coordinating information processing; axo-axonic chandelier cells control pyramidal cell output at axon initial segment</td><td>GABA-A (synaptic + extrasynaptic)</td><td>Oscillatory timing, signal-to-noise, memory encoding</td></tr>
+            <tr><td><strong>Hippocampus</strong></td><td>Basket and chandelier cells gate place cell activity; extrasynaptic δ-GABA-A provides tonic inhibition in dentate gyrus</td><td>GABA-A (α1βγ2 synaptic; α4/5βδ extrasynaptic)</td><td>Memory selectivity; θ-rhythms; seizure threshold</td></tr>
+            <tr><td><strong>Cerebellum</strong></td><td>Purkinje cells (pure GABAergic) project to deep cerebellar nuclei → inhibitory output modulates motor timing</td><td>GABA-A on deep nuclei</td><td>Precise motor coordination and error correction</td></tr>
+            <tr><td><strong>Basal ganglia</strong></td><td>GABAergic striatal medium spiny neurons form direct (D1) and indirect (D2) pathways; GPi/SNr GABA output inhibits thalamus</td><td>GABA-A on thalamic relay neurons</td><td>Motor programme selection and suppression</td></tr>
+            <tr><td><strong>Spinal cord</strong></td><td>Renshaw cell recurrent inhibition of motor neurons; presynaptic inhibition of sensory afferents</td><td>GABA-A + glycine receptors</td><td>Motor tone regulation; pain gate control theory</td></tr>
+            <tr><td><strong>Sleep circuits</strong></td><td>GABA-A agonism promotes NREM sleep; thalamic reticular nucleus (GABAergic) hyperpolarises relay neurons → sleep spindles</td><td>GABA-A (α1 subunit)</td><td>Sedation; α1-selective Z-drugs (zolpidem) preferentially target NREM sleep</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pharmacology</h3>
+          <table class="data-table">
+            <tr><th>Drug / Class</th><th>Target</th><th>Mechanism</th><th>Primary Use</th></tr>
+            <tr>
+              <td><strong>Benzodiazepines</strong> — diazepam, lorazepam, clonazepam, midazolam</td>
+              <td>GABA-A (BZD site, α/γ2 interface) — positive allosteric modulator (PAM)</td>
+              <td>↑Channel open frequency (not duration); shift GABA concentration-response curve leftward; require GABA to be present</td>
+              <td>Anxiety (diazepam), acute seizures (lorazepam IV), procedural sedation (midazolam), alcohol withdrawal, status epilepticus</td>
+            </tr>
+            <tr>
+              <td><strong>Barbiturates</strong> — phenobarbital, thiopental, phenobarbitone</td>
+              <td>GABA-A (β TM2/3 site) — PAM; at high doses, direct channel activation</td>
+              <td>↑Channel open duration; at anaesthetic doses, can activate GABA-A without GABA → more dangerous respiratory depression than BZDs</td>
+              <td>Epilepsy (phenobarbital, still first-line in LMIC), anaesthesia induction (thiopental), status epilepticus, neonatal seizures</td>
+            </tr>
+            <tr>
+              <td><strong>Propofol</strong></td>
+              <td>GABA-A (β TM2/3, same general region as barbiturates)</td>
+              <td>Potentiates Cl⁻ current; also modulates glycine receptors and Nav channels; ultra-short onset/offset due to rapid redistribution</td>
+              <td>General anaesthesia induction and maintenance; procedural sedation; ICU sedation; anti-emesis at sub-anaesthetic doses</td>
+            </tr>
+            <tr>
+              <td><strong>Z-drugs</strong> — zolpidem, zaleplon, eszopiclone</td>
+              <td>GABA-A α1 subunit-selective BZD site PAM</td>
+              <td>Prefer α1βγ2-containing receptors (sedation) over α2/α3 (anxiolysis, muscle relaxation) — selectivity reduces daytime sedation and motor impairment</td>
+              <td>Insomnia (short-term); zolpidem most prescribed sleep aid globally</td>
+            </tr>
+            <tr>
+              <td><strong>Vigabatrin</strong></td>
+              <td>GABA-T (irreversible inhibitor)</td>
+              <td>Covalent inactivation of GABA transaminase → ↑brain GABA; slow onset (days); risk of permanent visual field defects (retinal toxicity)</td>
+              <td>Infantile spasms (West syndrome, first-line with ACTH), focal epilepsy refractory to other agents</td>
+            </tr>
+            <tr>
+              <td><strong>Valproate</strong></td>
+              <td>Multiple: GABA-T inhibition (minor), Nav blockade, Ca²⁺ channel, HDAC inhibition</td>
+              <td>Raises GABA levels + blocks neuronal firing; broad-spectrum anti-seizure</td>
+              <td>Epilepsy (broad-spectrum), bipolar disorder, migraine prophylaxis; teratogenic (contraindicated in pregnancy)</td>
+            </tr>
+            <tr>
+              <td><strong>Brexanolone (allopregnanolone IV)</strong></td>
+              <td>GABA-A δ-subunit extrasynaptic receptors (neurosteroid site)</td>
+              <td>Positive allosteric modulator of extrasynaptic GABA-A → ↑tonic inhibition; mimics the neurosteroid that surges in pregnancy and drops postpartum</td>
+              <td>Postpartum depression (PPD) — FDA-approved 2019; rapid onset (days vs weeks for SSRIs)</td>
+            </tr>
+            <tr>
+              <td><strong>Baclofen</strong></td>
+              <td>GABA-B agonist</td>
+              <td>Gi/o → ↓cAMP + GIRK + ↓Ca²⁺ channels → presynaptic reduction of excitatory transmitter release + postsynaptic hyperpolarisation</td>
+              <td>Spasticity (MS, spinal cord injury), alcohol use disorder (cravings), treatment-resistant depression (off-label), trigeminal neuralgia</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>GABA Perturbation</th><th>Mechanism</th><th>Clinical Approach</th></tr>
+            <tr><td><strong>Epilepsy</strong></td><td>↓GABAergic inhibition → E/I shift toward excess excitability</td><td>Mutation of GABA-A subunits (SCN1A → Dravet; GABAergic interneuron loss in focal epilepsies); acquired (trauma, hypoxia)</td><td>BZDs (acute), barbiturates, valproate, vigabatrin, levetiracetam, lamotrigine; ketogenic diet increases GABA</td></tr>
+            <tr><td><strong>Anxiety disorders</strong></td><td>Reduced GABA-A tone in amygdala and PFC; stress-driven PV interneuron hypofunction</td><td>Chronic stress → ↓GAD67 expression → ↓GABA synthesis; corticosterone reduces GABA-A surface expression</td><td>BZDs (short-term); SSRIs/SNRIs (chronic); pregabalin (GABA analogue that reduces Ca²⁺ channel α2δ subunit)</td></tr>
+            <tr><td><strong>Insomnia</strong></td><td>Reduced sleep-promoting GABAergic tone in thalamus and brainstem</td><td>Age-related decline in α1 GABA-A expression; circadian disruption reduces GABA release from SCN</td><td>Z-drugs (zolpidem, first-line), BZDs, doxepin (histamine/mAChR antagonist), orexin antagonists (suvorexant)</td></tr>
+            <tr><td><strong>Schizophrenia</strong></td><td>PV interneuron hypofunction → ↓gamma oscillations → impaired cognition</td><td>Reduced GAD67 in PFC PV interneurons (post-mortem data); possibly NMDA hypofunction → ↓drive to PV cells</td><td>Antipsychotics (D2 block, not direct GABA target); GABA-modulating approaches in clinical trials</td></tr>
+            <tr><td><strong>Alcohol use disorder — withdrawal</strong></td><td>Chronic alcohol ↑GABA-A → homeostatic downregulation → withdrawal seizures when alcohol removed</td><td>Rebound GABA-A hypofunction + NA/5-HT excess → autonomic hyperactivity, seizures, delirium tremens</td><td>BZDs (diazepam or chlordiazepoxide, CIWA-guided) — cross-tolerance provides sedation and seizure prevention; GABA-B (baclofen) for craving</td></tr>
+            <tr><td><strong>Postpartum depression</strong></td><td>Withdrawal of endogenous allopregnanolone (δ-GABA-A neurosteroid) after delivery</td><td>Rapid fall in progesterone/allopregnanolone → loss of tonic extrasynaptic GABA-A inhibition in limbic regions</td><td>Brexanolone IV infusion (FDA-approved 2019); oral zuranolone (2023 approval)</td></tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>BZD vs. barbiturate overdose risk:</strong> Benzodiazepines require GABA to be present — they are positive allosteric modulators and cannot activate GABA-A directly. This means BZD overdose is rarely fatal alone (ceiling effect). Barbiturates can directly activate GABA-A at high doses — producing profound respiratory depression with no ceiling. <strong>Flumazenil</strong> is a competitive BZD antagonist at the α/γ2 site — it reverses BZD but NOT barbiturate sedation, and can precipitate withdrawal seizures in BZD-dependent patients.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="glutamate.html" class="conn-pill acts">
+              <span class="rel">Opposes</span>
+              Glutamate (E/I balance)
+            </a>
+            <a href="nervous-system.html" class="conn-pill acts">
+              <span class="rel">Inhibits</span>
+              Nervous System
+            </a>
+            <a href="serotonin.html" class="conn-pill acts">
+              <span class="rel">Parallel modulator</span>
+              Serotonin
+            </a>
+            <a href="dopamine.html" class="conn-pill targets">
+              <span class="rel">Inhibits release of</span>
+              Dopamine (GABA-B on DA terminals)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Target</span>
+              GABA-A (BZD / barbiturate / anaesthetic site)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Atlas</span>
+              Synapse (entry present)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1124/pr.108.00505" target="_blank" rel="noopener noreferrer">Olsen RW, Sieghart W. International Union of Pharmacology. LXX. Subtypes of gamma-aminobutyric acid(A) receptors: classification on the basis of subunit composition, pharmacology, and function. Pharmacol Rev. 2008;60(3):243-260.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18790874/" target="_blank" rel="noopener noreferrer">PubMed 18790874</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK10792/" target="_blank" rel="noopener noreferrer">Purves D, Augustine GJ, Fitzpatrick D, et al. Neuroscience. 6th ed. Sinauer Associates; 2018.</a></li>
-            <li><a href="https://doi.org/10.1038/sj.bjp.0706443" target="_blank" rel="noopener noreferrer">Bowery NG, Smart TG. GABA and glycine as neurotransmitters: a brief history. Br J Pharmacol. 2006;147(Suppl 1):S109-S119.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16402094/" target="_blank" rel="noopener noreferrer">PubMed 16402094</a></li>
-            <li><a href="https://doi.org/10.1016/bs.apha.2014.10.002" target="_blank" rel="noopener noreferrer">Sieghart W. Allosteric modulation of GABAA receptors via multiple drug-binding sites. Adv Pharmacol. 2015;72:53-96.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25600566/" target="_blank" rel="noopener noreferrer">PubMed 25600566</a></li>
+            <li>Olsen RW, Sieghart W. International Union of Pharmacology. LXX. Subtypes of gamma-aminobutyric acid(A) receptors. <em>Pharmacol Rev.</em> 2008;60(3):243-260. <a href="https://doi.org/10.1124/pr.108.00505">doi:10.1124/pr.108.00505</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18790874/">PubMed 18790874</a></li>
+            <li>Sieghart W. Allosteric modulation of GABAA receptors via multiple drug-binding sites. <em>Adv Pharmacol.</em> 2015;72:53-96. <a href="https://doi.org/10.1016/bs.apha.2014.10.002">doi:10.1016/bs.apha.2014.10.002</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25600566/">PubMed 25600566</a></li>
+            <li>Bowery NG, Smart TG. GABA and glycine as neurotransmitters: a brief history. <em>Br J Pharmacol.</em> 2006;147(Suppl 1):S109-S119. <a href="https://doi.org/10.1038/sj.bjp.0706443">doi:10.1038/sj.bjp.0706443</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16402094/">PubMed 16402094</a></li>
+            <li>Purves D, Augustine GJ, Fitzpatrick D, et al. <em>Neuroscience.</em> 6th ed. Sinauer Associates; 2018. <a href="https://www.ncbi.nlm.nih.gov/books/NBK10792/">NCBI Bookshelf</a></li>
+            <li>Maguire JL, Mody I. Neurosteroid synthesis-mediated regulation of GABA(A) receptors: relevance to the ovarian cycle and stress. <em>J Neurosci.</em> 2007;27(9):2155-2162. <a href="https://doi.org/10.1523/JNEUROSCI.4945-06.2007">doi:10.1523/JNEUROSCI.4945-06.2007</a></li>
           </ul>
         </div>
 
@@ -185,17 +351,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="glutamate.html">Glutamate</a>
+      <a href="dopamine.html">Dopamine</a>
+      <a href="serotonin.html">Serotonin</a>
+      <a href="acetylcholine.html">Acetylcholine</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());</script>
 </body>
 </html>

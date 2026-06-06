@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Level 07: System — networks of organs working together. 11 physiological systems compose the whole body. Part of the Human Engineering project.">
+  <meta property="og:title" content="System — Atlas One · Human Engineering">
+  <meta property="og:description" content="11 body systems: cardiovascular, nervous, immune, respiratory, digestive, renal, endocrine, musculoskeletal, lymphatic, integumentary, and reproductive. Open and free for all of humanity.">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>System — Level 07 · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7;
+      --bg-elev: #ffffff;
+      --bg-soft: #e5e5ea;
+      --fg: #1c1c1e;
+      --fg-soft: #3a3a3c;
+      --muted: #6e6e73;
+      --muted-2: #8e8e93;
+      --border: #d1d1d6;
+      --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg); color: var(--fg);
+      line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+    }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
+    a:hover { color: var(--human); }
+
+    /* ---------- NAV ---------- */
+    nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
+    }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+
+    /* ---------- HERO ---------- */
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      background: rgba(194, 65, 12, 0.12); color: #c2410c;
+      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
+    }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    /* ---------- MAIN ---------- */
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    /* ---------- SECTION HEADERS ---------- */
+    .cat-section { margin-top: 3.25rem; }
+    .cat-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+    .cat-section h2 { font-size: clamp(1.4rem, 2vw, 1.75rem); font-weight: 800; color: var(--fg); letter-spacing: -0.025em; margin-bottom: 0.5rem; }
+    .cat-section .cat-desc { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; font-size: 0.98rem; }
+
+    /* ---------- SUBSECTION HEADER ---------- */
+    .subsection-header {
+      display: flex; align-items: center; gap: 0.75rem;
+      margin-top: 2.25rem; margin-bottom: 0.85rem;
+      padding-bottom: 0.6rem; border-bottom: 1px solid var(--border-soft);
+    }
+    .subsection-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .subsection-title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+
+    /* ---------- ENTRY LIST ---------- */
+    .entry-subsection { margin-top: 1rem; }
+    .entry-list { display: flex; flex-direction: column; gap: 0.5rem; }
+    .entry-row {
+      display: flex; align-items: center; gap: 1rem;
+      padding: 0.85rem 1.1rem;
+      background: var(--bg-elev); border: 1px solid var(--border-soft);
+      border-left: 4px solid var(--border);
+      border-radius: var(--radius); text-decoration: none; color: var(--fg);
+      transition: all .15s;
+    }
+    .entry-row:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.07); color: var(--fg); transform: translateX(2px); }
+    .entry-info { flex: 1; min-width: 0; }
+    .entry-name { font-weight: 700; font-size: 0.95rem; color: var(--fg); }
+    .entry-class { font-size: 0.8rem; color: var(--muted); margin-top: 0.15rem; }
+    .entry-stat { font-size: 0.8rem; font-weight: 600; color: var(--muted); white-space: nowrap; max-width: 280px; text-align: right; }
+    .entry-arrow { color: var(--muted-2); flex-shrink: 0; width: 16px; height: 16px; }
+    @media (max-width: 640px) { .entry-stat { display: none; } }
+
+    /* ---------- CONTRIBUTE ---------- */
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
+
+    /* ---------- FOOTER ---------- */
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html#join">Join</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Back to Atlas
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Level 07</div>
+    <h1>System</h1>
+    <p class="tagline">Networks of organs working together — 11 physiological systems compose the whole body.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">11</span><span class="stat-label">Entries</span></div>
+      <div class="stat"><span class="stat-num">11</span><span class="stat-label">Major body systems</span></div>
+      <div class="stat"><span class="stat-num">∞</span><span class="stat-label">For Everyone</span></div>
+      <div class="stat"><span class="stat-num">0</span><span class="stat-label">Paywalls</span></div>
+    </div>
+  </div>
+
+  <main>
+
+    <section class="cat-section">
+      <div class="cat-eyebrow">Level 07</div>
+      <h2>Interdependence and cross-regulation</h2>
+      <p class="cat-desc">At the system scale, organs are not isolated units but nodes in coordinated physiological networks. The cardiovascular system connects to every other system; the nervous system regulates all of them; the immune system monitors all tissue compartments. All 11 systems are present in the atlas — each with its own dedicated page.</p>
+
+      <!-- ===== COVERED IN ATLAS ===== -->
+      <div class="subsection-header">
+        <span class="subsection-dot" style="background:#c2410c;"></span>
+        <span class="subsection-title">Covered in Atlas</span>
+      </div>
+      <div class="entry-list">
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="cardiovascular-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Cardiovascular System</div>
+            <div class="entry-class">Heart + 60,000 miles vasculature &nbsp;·&nbsp; CO=HR&times;SV &nbsp;·&nbsp; Hemodynamics &nbsp;·&nbsp; Blood pressure regulation</div>
+          </div>
+          <span class="entry-stat">~5 L blood · complete circuit ~60 seconds</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="nervous-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Nervous System</div>
+            <div class="entry-class">CNS + PNS &nbsp;·&nbsp; 86B neurons &nbsp;·&nbsp; Somatic + autonomic divisions</div>
+          </div>
+          <span class="entry-stat">~100T synaptic connections · signals at 120 m/s</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="immune-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Immune System</div>
+            <div class="entry-class">Innate + adaptive &nbsp;·&nbsp; Self vs non-self &nbsp;·&nbsp; Tolerance vs autoimmunity</div>
+          </div>
+          <span class="entry-stat">~2 trillion immune cells · ~5 g antibodies in serum</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="respiratory-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Respiratory System</div>
+            <div class="entry-class">Lungs + airways &nbsp;·&nbsp; Gas exchange &nbsp;·&nbsp; Acid-base balance &nbsp;·&nbsp; Ventilation control</div>
+          </div>
+          <span class="entry-stat">~500 mL tidal volume · 6 L/min at rest</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="digestive-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Digestive System</div>
+            <div class="entry-class">GI tract + liver + pancreas &nbsp;·&nbsp; Nutrient absorption &nbsp;·&nbsp; Gut-brain axis</div>
+          </div>
+          <span class="entry-stat">~9 m total length · 24–72 hr transit time</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="renal-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Renal System</div>
+            <div class="entry-class">Kidneys + ureters + bladder &nbsp;·&nbsp; Fluid/electrolyte balance &nbsp;·&nbsp; Acid-base &nbsp;·&nbsp; RAAS</div>
+          </div>
+          <span class="entry-stat">~180 L filtered/day · 1.5 L urine excreted</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="endocrine-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Endocrine System</div>
+            <div class="entry-class">Hypothalamus-pituitary axes + peripheral glands &nbsp;·&nbsp; Hormone signaling &nbsp;·&nbsp; Metabolic regulation</div>
+          </div>
+          <span class="entry-stat">~50+ identified hormones · picogram-level signaling</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="musculoskeletal-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Musculoskeletal System</div>
+            <div class="entry-class">Bone + cartilage + muscle + tendons &nbsp;·&nbsp; Locomotion &nbsp;·&nbsp; Calcium homeostasis</div>
+          </div>
+          <span class="entry-stat">~206 bones · ~650 skeletal muscles · 40% body mass</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="lymphatic-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Lymphatic System</div>
+            <div class="entry-class">Lymph vessels + nodes + spleen + thymus &nbsp;·&nbsp; Fluid balance &nbsp;·&nbsp; Immune trafficking</div>
+          </div>
+          <span class="entry-stat">~600–700 lymph nodes · 2–4 L lymph returned to blood/day</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="integumentary-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Integumentary System</div>
+            <div class="entry-class">Skin + hair + nails &nbsp;·&nbsp; Barrier &nbsp;·&nbsp; Thermoregulation &nbsp;·&nbsp; Vitamin D synthesis</div>
+          </div>
+          <span class="entry-stat">~1.7 m² surface area · ~4 kg largest organ by mass</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="entry-row" style="border-left-color:#c2410c;" href="reproductive-system.html">
+          <div class="entry-info">
+            <div class="entry-name">Reproductive System</div>
+            <div class="entry-class">Gonads + ducts &nbsp;·&nbsp; Gamete production &nbsp;·&nbsp; Sex hormones &nbsp;·&nbsp; HPG axis</div>
+          </div>
+          <span class="entry-stat">~300M sperm/ejaculate · ~400 oocytes released over lifetime</span>
+          <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- ===== CONTRIBUTE ===== -->
+    <div class="contribute">
+      <h2>Help expand the System Atlas</h2>
+      <p>Each system entry covers the member organs, key regulatory loops, cross-system interactions, pathophysiology of system failure, and links to the tissue and organ levels below and to the whole-body level above.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Human%20Engineering%20%E2%80%94%20System%20Atlas">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology at every scale — from molecule to system — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.4rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

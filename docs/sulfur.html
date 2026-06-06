@@ -3,196 +3,190 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sulfur (S, Z=16, [Ne] 3s² 3p⁴). ~0.25% body mass (~175g); found in cysteine (thiol –SH), methionine (thioether), glutathione, CoA, SAM, iron-sulfur clusters, an">
-  <meta property="og:title" content="Sulfur — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Sulfur — Human Engineering</title>
+  <title>Sulfur — Human Engineering Atlas</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
+    :root { --accent: #f59e0b; --bg: #0f0f13; --surface: #18181f; --surface2: #1f1f2a; --border: #2a2a3a; --fg: #e8e8f0; --muted: #9090a8; --radius: 10px; }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    body { background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(15,15,19,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 1.5rem; display: flex; align-items: center; gap: 1rem; height: 52px; }
+    .nav-logo { font-weight: 700; font-size: 1rem; color: var(--fg); } .nav-sep { color: var(--border); } .nav-link { font-size: 0.85rem; color: var(--muted); }
+    .hero { padding: 4rem 1.5rem 3rem; max-width: 860px; margin: 0 auto; }
+    .hero-eyebrow { display: inline-block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: rgba(245,158,11,0.12); color: var(--accent); border: 1px solid rgba(245,158,11,0.3); border-radius: 20px; padding: 0.25rem 0.8rem; margin-bottom: 1.2rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; line-height: 1.1; margin-bottom: 0.6rem; }
+    .hero-tagline { font-size: 1.15rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .hero-sub { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.8rem; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.8rem; }
+    .alias-pill { font-size: 0.78rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.7rem; color: var(--muted); }
+    .stat-row { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.9rem 1.2rem; min-width: 130px; }
+    .stat-val { font-size: 1.5rem; font-weight: 700; color: var(--accent); } .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 4rem; display: grid; gap: 1.5rem; }
+    .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+    .detail-header { background: linear-gradient(135deg, #f59e0b, #92400e); padding: 1.2rem 1.5rem; }
+    .detail-header h2 { font-size: 1.1rem; font-weight: 700; color: #fff; } .detail-header p { font-size: 0.82rem; color: rgba(255,255,255,0.7); margin-top: 0.2rem; }
+    .detail-body { padding: 1.4rem 1.5rem; }
+    .detail-body p { font-size: 0.93rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .detail-body h3 { font-size: 0.95rem; font-weight: 600; color: var(--fg); margin: 1.2rem 0 0.5rem; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.8rem 0; }
+    .data-table th { text-align: left; color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.5rem 0.8rem; border-bottom: 1px solid var(--border); }
+    .data-table td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(42,42,58,0.5); color: var(--fg); vertical-align: top; }
+    .data-table tr:last-child td { border-bottom: none; }
+    .pathway-block { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; margin: 0.8rem 0; overflow-x: auto; }
+    .pathway-block pre { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.78rem; color: #fcd34d; line-height: 1.7; white-space: pre; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 1.4rem 1.5rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.3rem 0.9rem; color: var(--fg); transition: border-color 0.2s; }
+    .conn-pill:hover { border-color: var(--accent); color: var(--accent); } .conn-pill-label { font-size: 0.7rem; color: var(--muted); }
+    .refs { padding: 1.4rem 1.5rem; } .refs ol { padding-left: 1.2rem; } .refs li { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.4rem; line-height: 1.5; }
+    footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; max-width: 860px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: flex-start; }
+    .footer-copy { font-size: 0.8rem; color: var(--muted); } .footer-disclaimer { font-size: 0.75rem; color: var(--muted); opacity: 0.7; max-width: 480px; line-height: 1.5; }
   </style>
 </head>
 <body>
+<nav>
+  <span class="nav-logo">Human Engineering</span><span class="nav-sep">›</span>
+  <a class="nav-link" href="index.html">Atlas</a><span class="nav-sep">›</span>
+  <span class="nav-link">Sulfur</span>
+</nav>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<section class="hero">
+  <div class="hero-eyebrow">Atlas One · Human · Atomic</div>
+  <h1>Sulfur</h1>
+  <p class="hero-tagline">Thiol chemistry, glutathione antioxidant defence, CoA thioester energy, and Fe-S cluster electron relay</p>
+  <p class="hero-sub">Z = 16 · Period 3 chalcogen · ~140 g body content · cysteine pKa 8.3 · SAM transmethylation hub</p>
+  <div class="alias-pills">
+    <span class="alias-pill">S / –SH / –S–S–</span>
+    <span class="alias-pill">Cysteine / Methionine</span>
+    <span class="alias-pill">GSH / Glutathione</span>
+    <span class="alias-pill">CoA / SAM / Fe-S</span>
+  </div>
+  <div class="stat-row">
+    <div class="stat"><div class="stat-val">16</div><div class="stat-label">Atomic number</div></div>
+    <div class="stat"><div class="stat-val">~140 g</div><div class="stat-label">Total body S</div></div>
+    <div class="stat"><div class="stat-val">~31 kJ/mol</div><div class="stat-label">CoA thioester ΔG</div></div>
+    <div class="stat"><div class="stat-val">8.3</div><div class="stat-label">Cys –SH pKa</div></div>
+  </div>
+</section>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 02 — Atomic</div>
-    <h1>Sulfur</h1>
-    <p class="tagline">Sulfur (S, Z=16, [Ne] 3s² 3p⁴). ~0.25% body mass (~175g); found in cysteine (thiol –SH), methionine (thioether), glutathione, CoA, SAM, iron-sulfur clusters, and sulfated glycosaminoglycans. Major antioxidant and methyl-donor element.</p>
-    <p class="aliases">Also known as: S, sulphur, thiol, disulfide, sulfate</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 02 — Atomic</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+<main>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Atlas One · Atomic · Chalcogen / Redox Active / Structural</h2><p>Period 3, Group 16 — thiol chemistry enables redox sensing, protein folding, and energy transfer</p></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Functional Group</th><th>pKa / ΔG</th><th>Examples</th><th>Biological Role</th></tr></thead>
+        <tbody>
+          <tr><td>Thiol (–SH)</td><td>pKa 8.3 (Cys); ~5–6 (active-site Cys near Arg)</td><td>Cysteine residues; GSH; Trx active site</td><td>Nucleophile in catalysis; redox sensor; metal ligand</td></tr>
+          <tr><td>Disulfide (–S–S–)</td><td>−125 kJ/mol per bond (protein stabilisation)</td><td>IgG inter/intra-chain; insulin A-B chain; keratin</td><td>Protein folding/stability in ER oxidising environment; PDI catalysed</td></tr>
+          <tr><td>Thioether (–S–)</td><td>Non-ionisable</td><td>Methionine; SAM; biotin</td><td>SAM transmethylation; Met oxidation (biomarker)</td></tr>
+          <tr><td>Thioester (–C(O)–S–)</td><td>~31 kJ/mol hydrolysis</td><td>Acetyl-CoA; succinyl-CoA; malonyl-CoA</td><td>High-energy acyl carrier; fatty acid/TCA/ketone metabolism</td></tr>
+          <tr><td>Sulfate ester</td><td>Stable at pH 7</td><td>Heparan sulfate; chondroitin sulfate; cholesterol sulfate</td><td>ECM structure; anticoagulation; lipid bilayer</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header"><h2>Biological Roles</h2><p>Glutathione antioxidant cycle, CoA thioester metabolism, SAM methylation, Fe-S cluster relay</p></div>
+    <div class="detail-body">
+      <h3>Glutathione Antioxidant System</h3>
+      <div class="pathway-block"><pre>
+  γ-Glu–Cys–Gly  (GSH, tripeptide; thiol from Cys)
+       │
+       ├─ GPx (selenoprotein): 2 GSH + H₂O₂ → GSSG + 2H₂O
+       │                       2 GSH + PLOOH → GSSG + PLOH + H₂O  (GPx4/ferroptosis)
+       │
+       ├─ GST (phase II): GSH + electrophile → GSH-conjugate (hepatic detox)
+       │                  Exported by MRP1/2; mercapturate pathway → urinary excretion
+       │
+       └─ GSSG ──Glutathione reductase (GR) + NADPH──► 2 GSH
+                  (NADPH from Pentose Phosphate Pathway, G6PD)
+
+  G6PD deficiency → ↓ NADPH → ↓ GSH → haemolytic anaemia under oxidative stress
+</pre></div>
+      <h3>Coenzyme A — Thioester Energy Carrier</h3>
+      <p>CoA (pantothenate-derived) forms thioesters with acyl groups (~31 kJ/mol). Acetyl-CoA enters TCA cycle (citrate synthase); is substrate for fatty acid synthesis (ACC → malonyl-CoA); donates acetyl group to histones (HATs → chromatin remodelling). Succinyl-CoA is a TCA intermediate and haem synthesis precursor (ALA synthase). Malonyl-CoA inhibits CPT1 (fatty acid import into mitochondria) — key in fed/fasted switching.</p>
+      <h3>SAM and One-Carbon Transmethylation</h3>
+      <p>S-adenosylmethionine (SAM): Met + ATP → SAM (by MAT). SAM donates methyl groups to: DNA (DNMT → cytosine methylation / gene silencing), histones (HMTs → H3K4me3/H3K27me3), norepinephrine (PNMT → epinephrine), phosphatidylethanolamine (PE → PC), and many other substrates. SAM → SAH (S-adenosylhomocysteine) → Hcy (homocysteine) → remethylated (B12/folate) or transsulfurated (B6/CBS → cystathionine → Cys → GSH).</p>
+      <h3>Iron-Sulfur Clusters</h3>
+      <p>[2Fe-2S] and [4Fe-4S] clusters: assembled by ISC (iron-sulfur cluster) machinery in mitochondria. Key sites: Complex I (8 Fe-S clusters), Complex II (3 Fe-S clusters), Complex III (Rieske [2Fe-2S]), aconitase ([4Fe-4S]), ferredoxin. Cys residues ligate iron atoms. Reduced [4Fe-4S]²⁺ / [4Fe-4S]¹⁺ transitions relay single electrons. Loss of Fe-S in aconitase = citrate accumulation, IRP1 activation (iron sensor).</p>
     </div>
+  </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">sulfur</div>
-        <h2>Sulfur</h2>
-        <p class="summary">Sulfur (S, Z=16, [Ne] 3s² 3p⁴). ~0.25% body mass (~175g); found in cysteine (thiol –SH), methionine (thioether), glutathione, CoA, SAM, iron-sulfur clusters, and sulfated glycosaminoglycans. Major antioxidant and methyl-donor element.</p>
-      </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>sulfur</td></tr>
-            <tr><td>Name</td><td>Sulfur</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>02-atomic</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="human-body.html" title="~0.25% body mass (~175g); sulfur present in cysteine, methionine, taurine, heparan sulfate, iron-sulfur clusters, and coenzyme A — present in virtually every cell type and tissue."><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill part" href="hepatocyte.html" title="Hepatocytes are the primary site of glutathione synthesis, SAM production, cytochrome P450 activity (cysteine-thiolate axial ligand at active site), and sulfotransferase-mediated phase II xenobiotic conjugation."><span class="rel">part-of</span>Hepatocyte</a>
-            <a class="conn-pill" href="il-6.html" title="S-nitrosylation and oxidation of cysteine residues on JAK1/JAK2 and STAT3 modulate IL-6 receptor signal transduction, making redox sulfur chemistry a regulator of the JAK–STAT3 inflammatory pathway."><span class="rel">modulates</span>Il 6</a>
-            <a class="conn-pill" href="liver.html" title="GSH-dependent detoxification (via GPx, GSTs) and sulfotransferases (SULT enzymes) conjugating xenobiotics and hormones constitute the liver's sulfur-driven phase II metabolic detoxification capacity."><span class="rel">modulates</span>Liver</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-          </ul>
-        </div>
-
-      </div>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Absorption &amp; Metabolism</h2><p>Methionine cycle, transsulfuration, and sulfate conjugation</p></div>
+    <div class="detail-body">
+      <p>Dietary sulfur arrives as Met (~50% essential), Cys (conditionally essential), and inorganic sulfate. Met is absorbed by enterocytes via ASCT1/2 and B0AT1. The transsulfuration pathway (CBS + CSE, B6-dependent) converts Hcy → Cys → GSH. Cys/Met oxidation produces sulfite (oxidised by SUOX to sulfate) and H₂S (gasotransmitter; made by CBS/CSE in vascular smooth muscle — vasodilation).</p>
+      <table class="data-table">
+        <thead><tr><th>Pathway</th><th>Key Enzymes</th><th>Products</th></tr></thead>
+        <tbody>
+          <tr><td>Met cycle</td><td>MAT, SAHH, MTHFR, MS (B12)</td><td>SAM (methylation), SAH, Hcy</td></tr>
+          <tr><td>Transsulfuration</td><td>CBS (B6), CSE (B6)</td><td>Cystathionine, Cys, H₂S</td></tr>
+          <tr><td>GSH synthesis</td><td>GCL (γ-GCS, rate-limiting), GSS</td><td>GSH (γ-Glu-Cys-Gly)</td></tr>
+          <tr><td>Phase II (liver)</td><td>GSTs (α,µ,π,θ classes)</td><td>GSH-conjugates → mercapturates → urine</td></tr>
+          <tr><td>Sulfate conjugation</td><td>SULTs (sulfotransferases)</td><td>PAPS + R-OH → R-O-SO₃⁻ (bile acids, steroids, drugs)</td></tr>
+        </tbody>
+      </table>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Deficiency &amp; Toxicity</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Condition</th><th>Mechanism</th><th>Signs</th><th>Treatment</th></tr></thead>
+        <tbody>
+          <tr><td>Homocystinuria</td><td>CBS deficiency (B6-responsive ~50% or B6-non-responsive); Hcy accumulates</td><td>Lens dislocation (ectopia lentis), Marfanoid habitus, intellectual disability, thromboembolic events</td><td>Pyridoxine (B6); betaine (Hcy remethylation); Met restriction + Cys supplementation</td></tr>
+          <tr><td>Cystinuria</td><td>SLC3A1/SLC7A9 mutations; defective cystine reabsorption in PCT and intestine</td><td>Recurrent cystine nephrolithiasis (hexagonal crystals); renal insufficiency</td><td>High fluid intake; urinary alkalinisation; D-penicillamine (cystine solubilising)</td></tr>
+          <tr><td>Friedreich's ataxia</td><td>FXN (frataxin) deficiency → mitochondrial Fe-S assembly failure → Fe accumulation in mitochondria → ROS</td><td>Progressive spinocerebellar ataxia; hypertrophic cardiomyopathy; DM</td><td>Antioxidants (idebenone); omaveloxolone (Nrf2 activator, FDA 2023); supportive</td></tr>
+          <tr><td>G6PD deficiency</td><td>↓ NADPH → ↓ GSH → susceptible erythrocytes to oxidative haemolysis</td><td>Haemolytic anaemia triggered by fava beans, primaquine, dapsone, viral illness</td><td>Avoid oxidant drugs; folic acid; supportive transfusion; gene therapy trials</td></tr>
+          <tr><td>Hydrogen sulfide toxicity</td><td>Endogenous H₂S excess or environmental H₂S exposure; inhibits CcO (Complex IV)</td><td>Smell of rotten eggs; at high concentrations: olfactory fatigue, pulmonary oedema, death</td><td>Nitrites (methb formation sequesters H₂S); hydroxocobalamin</td></tr>
+        </tbody>
+      </table>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Clinical Use</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Application</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>N-acetylcysteine (NAC)</td><td>GSH precursor: reduces Cys-Gly → replenishes hepatic GSH; acetaminophen overdose antidote (4-hour nomogram); mucolytic (breaks disulfide bonds in mucus)</td></tr>
+          <tr><td>Dimercaprol (BAL)</td><td>Dithiol chelator; chelates As, Hg, Pb; competes with enzyme SH groups</td></tr>
+          <tr><td>D-penicillamine</td><td>Thiol compound; cystinuria (complexes cystine), Wilson disease (Cu chelation), RA (immunomodulation)</td></tr>
+          <tr><td>Mesna (MESNA)</td><td>–SH group reacts with acrolein (toxic cyclophosphamide metabolite) in urine → prevents haemorrhagic cystitis</td></tr>
+          <tr><td>Heparin / LMWH</td><td>Sulfated polysaccharide (heparan sulfate-like); potentiates ATIII to inhibit thrombin and Xa; O-sulfate groups are critical for activity</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2></div>
+    <div class="connections">
+      <a class="conn-pill" href="selenium.html"><span>Selenium</span><span class="conn-pill-label">GPx Sec vs. Cys; TrxR</span></a>
+      <a class="conn-pill" href="iron.html"><span>Iron</span><span class="conn-pill-label">Fe-S cluster assembly</span></a>
+      <a class="conn-pill" href="nitrogen.html"><span>Nitrogen</span><span class="conn-pill-label">Cys/Met in proteins; SAM</span></a>
+      <a class="conn-pill" href="carbon.html"><span>Carbon</span><span class="conn-pill-label">Acetyl-CoA TCA/FA synthesis</span></a>
+      <a class="conn-pill" href="copper.html"><span>Copper</span><span class="conn-pill-label">Cu chaperones ATOX1 thiol</span></a>
+    </div>
+  </div>
+
+  <div class="detail-card refs">
+    <div class="detail-header"><h2>References</h2></div>
+    <ol>
+      <li>Lu SC. "Glutathione synthesis." <em>Biochim Biophys Acta</em> 2013;1830:3143–3153.</li>
+      <li>Lill R. "Function and biogenesis of iron-sulphur proteins." <em>Nature</em> 2009;460:831–838.</li>
+      <li>Stipanuk MH. "Sulfur amino acid metabolism: pathways for production and removal of homocysteine and cysteine." <em>Annu Rev Nutr</em> 2004;24:539–577.</li>
+      <li>Prigione A, et al. "SAM in health and disease." <em>Nat Rev Mol Cell Biol</em> 2019.</li>
+      <li>Wang R. "Two's company, three's a crowd: can H₂S be the third endogenous gaseous transmitter?" <em>FASEB J</em> 2002;16:1792–1798.</li>
+    </ol>
+  </div>
+</main>
+
+<footer>
+  <div><p class="footer-copy">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p></div>
+  <p class="footer-disclaimer">This page is co-maintained by AI (Claude, Anthropic) and human editors as part of the open Human Engineering Atlas project. Content is for educational purposes; verify clinical information with qualified sources before application.</p>
+</footer>
 </body>
 </html>

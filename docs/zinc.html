@@ -3,199 +3,274 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Zinc (Zn²⁺, atomic number 30) — 2–4 g in the human body, 2nd most abundant trace metal after iron. Structural in ~2500 zinc-finger proteins; catalytic in &gt;200 e">
-  <meta property="og:title" content="Zinc — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Zinc — Human Engineering</title>
+  <title>Zinc — Human Engineering Atlas</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
+    :root { --accent: #0284c7; --bg: #0f0f13; --surface: #18181f; --surface2: #1f1f2a; --border: #2a2a3a; --fg: #e8e8f0; --muted: #9090a8; --radius: 10px; }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    body { background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(15,15,19,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 1.5rem; display: flex; align-items: center; gap: 1rem; height: 52px; }
+    .nav-logo { font-weight: 700; font-size: 1rem; color: var(--fg); } .nav-sep { color: var(--border); } .nav-link { font-size: 0.85rem; color: var(--muted); }
+    .hero { padding: 4rem 1.5rem 3rem; max-width: 860px; margin: 0 auto; }
+    .hero-eyebrow { display: inline-block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: rgba(2,132,199,0.15); color: #7dd3fc; border: 1px solid rgba(2,132,199,0.4); border-radius: 20px; padding: 0.25rem 0.8rem; margin-bottom: 1.2rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; line-height: 1.1; margin-bottom: 0.6rem; }
+    .hero-tagline { font-size: 1.15rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .hero-sub { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.8rem; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.8rem; }
+    .alias-pill { font-size: 0.78rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.7rem; color: var(--muted); }
+    .stat-row { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.9rem 1.2rem; min-width: 130px; }
+    .stat-val { font-size: 1.5rem; font-weight: 700; color: #7dd3fc; } .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 4rem; display: grid; gap: 1.5rem; }
+    .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+    .detail-header { background: linear-gradient(135deg, #0284c7, #0369a1); padding: 1.2rem 1.5rem; }
+    .detail-header h2 { font-size: 1.1rem; font-weight: 700; color: #fff; } .detail-header p { font-size: 0.82rem; color: rgba(255,255,255,0.7); margin-top: 0.2rem; }
+    .detail-body { padding: 1.4rem 1.5rem; }
+    .detail-body p { font-size: 0.93rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .detail-body h3 { font-size: 0.95rem; font-weight: 600; color: var(--fg); margin: 1.2rem 0 0.5rem; }
+    .detail-body ul { margin-left: 1.4rem; font-size: 0.88rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.8rem 0; }
+    .data-table th { text-align: left; color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.5rem 0.8rem; border-bottom: 1px solid var(--border); }
+    .data-table td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(42,42,58,0.5); color: var(--fg); vertical-align: top; }
+    .data-table tr:last-child td { border-bottom: none; }
+    .pathway-block { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; margin: 0.8rem 0; overflow-x: auto; }
+    .pathway-block pre { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.78rem; color: #d1d5db; line-height: 1.7; white-space: pre; }
+    .item { padding: 0.8rem 0; border-bottom: 1px solid rgba(42,42,58,0.5); }
+    .item:last-child { border-bottom: none; }
+    .item-label { font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.3rem; }
+    .item-label.danger { color: #f87171; } .item-label.warn { color: #fbbf24; } .item-label.info { color: #60a5fa; }
+    .item-text { font-size: 0.88rem; color: var(--muted); }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 1.4rem 1.5rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.3rem 0.9rem; color: var(--fg); transition: border-color 0.2s; }
+    .conn-pill:hover { border-color: #60a5fa; color: #bae6fd; } .conn-pill-label { font-size: 0.7rem; color: var(--muted); }
+    .refs { padding: 1.4rem 1.5rem; } .refs ol { padding-left: 1.2rem; } .refs li { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.4rem; line-height: 1.5; }
+    footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; max-width: 860px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: flex-start; }
+    .footer-copy { font-size: 0.8rem; color: var(--muted); } .footer-disclaimer { font-size: 0.75rem; color: var(--muted); opacity: 0.7; max-width: 480px; line-height: 1.5; }
   </style>
 </head>
 <body>
+<nav>
+  <span class="nav-logo">Human Engineering</span><span class="nav-sep">›</span>
+  <a class="nav-link" href="index.html">Atlas</a><span class="nav-sep">›</span>
+  <a class="nav-link" href="scale-atomic.html">Atomic</a><span class="nav-sep">›</span>
+  <span class="nav-link">Zinc</span>
+</nav>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
+<div class="hero">
+  <div class="hero-eyebrow">Atlas One · Human · Atomic · Level 02</div>
+  <h1>Zinc (Zn²⁺)</h1>
+  <p class="hero-tagline">The second most abundant trace metal — catalytic cofactor in >300 enzymes, structural anchor for ~2,500 zinc-finger proteins, and an essential signal ion in immunity and reproduction.</p>
+  <p class="hero-sub">Atomic number 30 · Period 4, Group 12 · [Ar]3d¹⁰4s² · Closed d-shell; not redox-active under physiological conditions · Strong Lewis acid</p>
+  <div class="alias-pills">
+    <span class="alias-pill">Zn · Zn²⁺</span>
+    <span class="alias-pill">Z=30, A=65.38</span>
+    <span class="alias-pill">2–3 g total body</span>
+    <span class="alias-pill">Ionic radius 0.74 Å</span>
+    <span class="alias-pill">CHEBI:27363</span>
+  </div>
+  <div class="stat-row">
+    <div class="stat"><div class="stat-val">2–3 g</div><div class="stat-label">total body zinc</div></div>
+    <div class="stat"><div class="stat-val">>300</div><div class="stat-label">enzyme cofactor roles</div></div>
+    <div class="stat"><div class="stat-val">~2500</div><div class="stat-label">zinc-finger proteins</div></div>
+    <div class="stat"><div class="stat-val">85%</div><div class="stat-label">stored in muscle + bone</div></div>
+  </div>
+</div>
+
+<main>
+
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Chemistry &amp; Biological Role</h2>
+      <p>Closed d-shell Lewis acid — activates water, stabilises protein folds, gates ion channels</p>
     </div>
-  </nav>
+    <div class="detail-body">
+      <p>Zinc is the only metal represented in all six enzyme classes (oxidoreductases, transferases, hydrolases, lyases, isomerases, ligases). Its d¹⁰ configuration makes it redox-inert — unlike copper and iron — but an exceptionally strong Lewis acid. It polarises bound water to generate Zn-OH nucleophiles (carbonic anhydrase, carboxypeptidase), stabilises tetrahedral coordination geometries (alcohol dehydrogenase, insulin hexamer), and anchors DNA-binding zinc-finger folds.</p>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 02 — Atomic</div>
-    <h1>Zinc</h1>
-    <p class="tagline">Zinc (Zn²⁺, atomic number 30) — 2–4 g in the human body, 2nd most abundant trace metal after iron. Structural in ~2500 zinc-finger proteins; catalytic in &gt;200 enzymes (carbonic anhydrase, carboxypeptidase, ADH, MMPs); regulates insulin storage and immunity.</p>
-    <p class="aliases">Also known as: Zn, Zn2+, zinc ion, zinc finger, zinc-65</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 02 — Atomic</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <h3>Key Catalytic Sites</h3>
+      <table class="data-table">
+        <tr><th>Enzyme</th><th>Zinc Role</th><th>Reaction / Significance</th></tr>
+        <tr><td>Carbonic anhydrase II</td><td>Zn-OH nucleophile</td><td>CO₂ + H₂O → HCO₃⁻ + H⁺; ~10⁶/s; RBC acid-base, proximal tubule, brain</td></tr>
+        <tr><td>Carboxypeptidase A</td><td>Water activation</td><td>Pancreatic exopeptidase; C-terminal hydrolysis</td></tr>
+        <tr><td>Alcohol dehydrogenase</td><td>Catalytic + structural Zn</td><td>Ethanol → acetaldehyde; retinol metabolism</td></tr>
+        <tr><td>Matrix metalloproteinases</td><td>Active-site Zn²⁺</td><td>ECM degradation; wound healing; tumour invasion</td></tr>
+        <tr><td>Cu/Zn-SOD1</td><td>Structural stabiliser</td><td>O₂•⁻ → H₂O₂; SOD1 mutations cause familial ALS</td></tr>
+      </table>
+
+      <h3>Zinc-Finger Proteins</h3>
+      <p>~2,500 human proteins use Cys/His-coordinated Zn²⁺ to fold stable domains:</p>
+      <ul>
+        <li>C2H2 Krüppel (WT1, Sp1, CTCF) — sequence-specific DNA binding</li>
+        <li>RING domain (BRCA1, MDM2) — E3 ubiquitin ligase scaffolds</li>
+        <li>LIM domains (FHL, zyxin) — protein-protein interaction hubs</li>
+        <li>GATA factors (GATA-1, GATA-3) — haematopoiesis and T-cell development</li>
+        <li>Nuclear hormone receptors (GR, ER, AR) — ligand-gated transcription</li>
+      </ul>
+
+      <h3>Insulin Hexamer Formation</h3>
+      <div class="pathway-block"><pre>
+2 Zn²⁺ coordinate 6 × His10 (B-chain)
+        ↓
+  Hexameric insulin in secretory granule (T₆ / T₃R₃ / R₆)
+        ↓
+  ~10× more stable than monomer → dense packing in granule
+        ↓
+  Exocytosis: Zn²⁺ dissociates → bioactive monomer / dimer
+        ↓
+  Released Zn²⁺ → paracrine signalling to α-cells
+                → portal pulse → hepatic insulin sensitivity
+
+Clinical: NPH, glargine exploit hexamer stability for slow-release
+      </pre></div>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Absorption, Transport &amp; Homeostasis</h2>
+      <p>ZIP importers, ZnT exporters, metallothionein buffer</p>
     </div>
+    <div class="detail-body">
+      <div class="pathway-block"><pre>
+DIETARY ZINC (duodenum / proximal jejunum):
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">zinc</div>
-        <h2>Zinc</h2>
-        <p class="summary">Zinc (Zn²⁺, atomic number 30) — 2–4 g in the human body, 2nd most abundant trace metal after iron. Structural in ~2500 zinc-finger proteins; catalytic in &gt;200 enzymes (carbonic anhydrase, carboxypeptidase, ADH, MMPs); regulates insulin storage and immunity.</p>
+  Phytate/oxalate → chelation → ↓ bioavailability (plant-based diets)
+  Animal protein → competitive chelation release → ↑ absorption
+
+  Apical import:  ZIP4 (SLC39A4) — primary route (mutated in AE)
+                  ZIP8 — additional uptake; Mn²⁺ co-transport
+  ↓
+  Intracellular:  Metallothionein-1/2 (Cys-rich, 7 Zn²⁺/molecule)
+                  MT induction by IL-6 → zinc sequestration in infection
+  ↓
+  Basolateral:    ZnT1 (SLC30A1) → portal vein
+  ↓
+  Plasma:         ~70% albumin-bound (Cys34 + His67)
+                  ~18% α2-macroglobulin
+                  ~12% free / amino acid complexes
+                  Normal: 70–120 μg/dL (11–18 μmol/L)
+  ↓
+  Excretion:      Pancreatic secretions ~3–5 mg/day (primary)
+                  Intestinal sloughing; urine/sweat (minor)
+      </pre></div>
+
+      <h3>Key Transporters</h3>
+      <table class="data-table">
+        <tr><th>Transporter</th><th>Direction</th><th>Tissue</th><th>Clinical Note</th></tr>
+        <tr><td>ZIP4 (SLC39A4)</td><td>Import (apical)</td><td>Intestine, kidney</td><td>LOF → acrodermatitis enteropathica</td></tr>
+        <tr><td>ZnT1 (SLC30A1)</td><td>Export (basolateral)</td><td>Ubiquitous</td><td>First characterised zinc exporter</td></tr>
+        <tr><td>ZnT8 (SLC30A8)</td><td>Granule loading</td><td>Pancreatic β-cell</td><td>T2DM risk allele Arg325Trp; ZnT8A autoantibodies in T1DM</td></tr>
+        <tr><td>ZnT3 (SLC30A3)</td><td>Vesicle loading</td><td>Brain mossy fibres</td><td>Synaptic zinc release; NMDA modulation</td></tr>
+        <tr><td>ZIP8 (SLC39A8)</td><td>Import</td><td>Lung, brain, placenta</td><td>Mn²⁺/Zn²⁺ co-transport; immune cells</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Immune Function &amp; Signalling</h2>
+      <p>Thymulin activation, zinc spark at fertilisation, synaptic Zn²⁺</p>
+    </div>
+    <div class="detail-body">
+      <table class="data-table">
+        <tr><th>Cell / Context</th><th>Zinc Function</th><th>Deficiency Effect</th></tr>
+        <tr><td>T cells / Thymus</td><td>Thymulin (nonapeptide + Zn²⁺) drives T-cell maturation; IL-2R expression</td><td>Thymic atrophy; lymphopenia; ↓ CD4⁺/CD8⁺</td></tr>
+        <tr><td>Macrophages</td><td>Zn²⁺ burst inside phagosome kills pathogens (Zn toxicity)</td><td>↑ intracellular pathogen survival</td></tr>
+        <tr><td>NK cells</td><td>Perforin/granzyme expression; ADCC</td><td>↓ NK cytotoxicity</td></tr>
+        <tr><td>B cells</td><td>BCR signalling; AID for class switch recombination</td><td>↓ antibody diversity; IgM dominant</td></tr>
+        <tr><td>Oocyte (fertilisation)</td><td>"Zinc spark" — ~10⁹ Zn²⁺ atoms released in milliseconds; ZP3 cross-linking blocks polyspermy</td><td>Fertilisation failure in severe deficiency</td></tr>
+        <tr><td>Hippocampal synapse</td><td>ZnT3-loaded mossy fibre vesicles release Zn²⁺ → NMDA/AMPA receptor modulation; LTP co-factor</td><td>Impaired memory consolidation</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Pathology</h2>
+      <p>Deficiency, toxicity, genetic disorders</p>
+    </div>
+    <div class="detail-body">
+      <div class="item">
+        <div class="item-label danger">Acrodermatitis Enteropathica</div>
+        <div class="item-text">Autosomal recessive LOF in ZIP4 (SLC39A4). Triad after weaning: periorificial/extremity dermatitis, alopecia, diarrhoea. Serum zinc &lt;60 μg/dL. Treatment: oral zinc sulfate 1–3 mg/kg/day lifelong.</div>
       </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>zinc</td></tr>
-            <tr><td>Name</td><td>Zinc</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>02-atomic</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="human-body.html" title="2–4 g total Zn²⁺ (60% muscle, 30% bone, 10% liver/kidney/retina/prostate); structural in ~2500 zinc-finger proteins; catalytic in &gt;200 enzymes across every cell type."><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill" href="t-helper-cell.html" title="Zinc is required for T-cell maturation via thymulin (Zn-dependent thymic hormone), proliferation, and cytokine production; severe deficiency causes lymphopenia and impaired T-helper function."><span class="rel">modulates</span>T Helper Cell</a>
-            <a class="conn-pill" href="insulin.html" title="3 Zn²⁺ ions per insulin hexamer in pancreatic β-cell secretory granules; crystallises insulin for dense storage; Zn²⁺ is co-released into portal circulation alongside insulin."><span class="rel">modulates</span>Insulin</a>
-            <a class="conn-pill" href="immune-system.html" title="Zn²⁺ is a central regulator of innate and adaptive immunity — required for neutrophil function, NK cell activity, and Ab production; deficiency impairs all arms of immunity."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill part" href="zinc-dietary.html" title="Composed Of by Dietary Zinc."><span class="rel">composed-of</span>Zinc Dietary</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1152/physrev.1993.73.1.79" target="_blank" rel="noopener noreferrer">Vallee BL, Falchuk KH. The biochemical basis of zinc physiology. Physiol Rev. 1993;73(1):79-118.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8380364/" target="_blank" rel="noopener noreferrer">PubMed 8380364</a></li>
-            <li><a href="https://doi.org/10.2119/2008-00033.Prasad" target="_blank" rel="noopener noreferrer">Prasad AS. Zinc in human health: effect of zinc on immune cells. Mol Med. 2008;14(5-6):353-7.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18385818/" target="_blank" rel="noopener noreferrer">PubMed 18385818</a></li>
-          </ul>
-        </div>
-
+      <div class="item">
+        <div class="item-label danger">Acquired Zinc Deficiency</div>
+        <div class="item-text">Global prevalence ~17% (WHO). Risk: plant-heavy diets (phytate), alcoholism, IBD, short-gut, elderly. Features: hypogonadism, growth failure, impaired wound healing, ageusia/hyposmia, night blindness, lymphopenia.</div>
+      </div>
+      <div class="item">
+        <div class="item-label warn">Zinc Toxicity</div>
+        <div class="item-text">UL 40 mg/day. Acute: nausea/vomiting (&gt;200 mg). Chronic &gt;150 mg/day: copper deficiency (competition at ZIP transporters) → sideroblastic anaemia, myelopathy. Denture adhesive creams historically caused copper deficiency neurological syndrome.</div>
+      </div>
+      <div class="item">
+        <div class="item-label warn">ZnT8 &amp; Diabetes</div>
+        <div class="item-text">Anti-ZnT8 autoantibodies in 60–70% of T1DM at diagnosis (5-Ab panel: IA-2, IAA, GADA, ZnT8A, ICA). ZnT8 Trp325 allele (rs13266634) is a T2DM GWAS risk hit — reduced β-cell zinc loading impairs insulin granule formation.</div>
+      </div>
+      <div class="item">
+        <div class="item-label info">SOD1 Mutations — ALS</div>
+        <div class="item-text">Cu/Zn-SOD1 mutations (A4V, G93A, H46R; >200 known) cause familial ALS (~20% fALS). Zinc loss weakens SOD1 dimer interface → misfolding and toxic gain-of-function aggregation. Tofersen (ASO) approved 2023 for SOD1-ALS.</div>
       </div>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Clinical Uses</h2>
+      <p>AMD, common cold, diarrhoea, Wilson disease</p>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+    <div class="detail-body">
+      <table class="data-table">
+        <tr><th>Indication</th><th>Evidence / Dose</th><th>Notes</th></tr>
+        <tr><td>Zinc deficiency</td><td>RDA 8 mg/day (F), 11 mg/day (M); therapeutic 25–45 mg/day elemental</td><td>Acetate form best tolerated</td></tr>
+        <tr><td>Age-related macular degeneration</td><td>AREDS2: 80 mg zinc oxide + 2 mg Cu + antioxidants</td><td>25% RR reduction in progression to advanced AMD</td></tr>
+        <tr><td>Common cold</td><td>Zinc acetate lozenges ≥75 mg/day within 24h of symptom onset</td><td>Cochrane: −3 days duration; ionic Zn²⁺ blocks rhinovirus ICAM-1 attachment</td></tr>
+        <tr><td>Paediatric diarrhoea</td><td>WHO/UNICEF: 20 mg/day × 10–14 days</td><td>↓ duration 25%, ↓ severity; standard of care LMICs</td></tr>
+        <tr><td>Wilson disease</td><td>Zinc acetate 50 mg TID (150 mg/day elemental) maintenance</td><td>Induces intestinal MT → sequesters copper; reduces Cu absorption</td></tr>
+        <tr><td>Acrodermatitis enteropathica</td><td>1–3 mg/kg/day lifelong</td><td>ZIP4 bypass via alternative absorption routes</td></tr>
+      </table>
+    </div>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Atlas Connections</h2></div>
+    <div class="connections">
+      <a class="conn-pill" href="insulin.html"><span class="conn-pill-label">Molecular</span>Insulin</a>
+      <a class="conn-pill" href="copper.html"><span class="conn-pill-label">Atomic</span>Copper</a>
+      <a class="conn-pill" href="selenium.html"><span class="conn-pill-label">Atomic</span>Selenium</a>
+      <a class="conn-pill" href="iron.html"><span class="conn-pill-label">Atomic</span>Iron</a>
+      <a class="conn-pill" href="albumin.html"><span class="conn-pill-label">Molecular</span>Albumin</a>
+      <a class="conn-pill" href="complement-c3.html"><span class="conn-pill-label">Molecular</span>Complement C3</a>
+      <a class="conn-pill" href="islet-of-langerhans.html"><span class="conn-pill-label">Tissue</span>Islet of Langerhans</a>
+      <a class="conn-pill" href="hepatocyte.html"><span class="conn-pill-label">Cellular</span>Hepatocyte</a>
+      <a class="conn-pill" href="neutrophil.html"><span class="conn-pill-label">Cellular</span>Neutrophil</a>
+      <a class="conn-pill" href="t-helper-cell.html"><span class="conn-pill-label">Cellular</span>T Helper Cell</a>
+      <a class="conn-pill" href="natural-killer-cell.html"><span class="conn-pill-label">Cellular</span>NK Cell</a>
+      <a class="conn-pill" href="nf-kb.html"><span class="conn-pill-label">Molecular</span>NF-κB</a>
+      <a class="conn-pill" href="scale-atomic.html"><span class="conn-pill-label">Level 02</span>All Atomic Entries</a>
+    </div>
+  </div>
+
+  <div class="detail-card refs">
+    <ol>
+      <li>Andreini C et al. (2006). Counting the zinc-proteins encoded in the human genome. <em>J Proteome Res</em> 5(1):196–201.</li>
+      <li>Prasad AS (2013). Discovery of human zinc deficiency: its impact on human health and disease. <em>Adv Nutr</em> 4(2):176–190. <a href="https://doi.org/10.3945/an.112.003210">doi:10.3945/an.112.003210</a></li>
+      <li>AREDS Research Group (2001). High-dose supplementation with vitamins C and E, beta carotene, and zinc for AMD. <em>Arch Ophthalmol</em> 119(10):1417–36.</li>
+      <li>Hemilä H &amp; Chalker E (2015). Zinc acetate lozenges on common cold symptoms. <em>PeerJ</em> 3:e1515. <a href="https://doi.org/10.7717/peerj.1515">doi:10.7717/peerj.1515</a></li>
+      <li>WHO/UNICEF (2004). Clinical management of acute diarrhoea — zinc supplementation joint statement.</li>
+      <li>Rink L &amp; Gabriel P (2000). Zinc and the immune system. <em>Proc Nutr Soc</em> 59(4):541–52.</li>
+      <li>Chimienti F et al. (2006). ZnT8 as a major zinc transporter in insulin-secreting cells. <em>J Cell Sci</em> 119:4199–4206.</li>
+    </ol>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-copy">
+    <p>Human Engineering · Atlas One · Atomic Level</p>
+    <p style="margin-top:0.3rem;">Open source · CC BY 4.0 · <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  </div>
+  <div class="footer-disclaimer">
+    This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.
+  </div>
+</footer>
 </body>
 </html>

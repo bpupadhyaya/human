@@ -3,197 +3,199 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Magnesium (Mg, Z=12, [Ne] 3s²). ~25g total; 4th most abundant cation. Cofactor for &gt;300 enzymes; all ATP-utilising reactions require Mg-ATP²⁻. Mg²⁺ blocks NMDA ">
-  <meta property="og:title" content="Magnesium — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Magnesium — Human Engineering</title>
+  <title>Magnesium — Human Engineering Atlas</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
+    :root { --accent: #059669; --bg: #0f0f13; --surface: #18181f; --surface2: #1f1f2a; --border: #2a2a3a; --fg: #e8e8f0; --muted: #9090a8; --radius: 10px; }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    body { background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(15,15,19,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 1.5rem; display: flex; align-items: center; gap: 1rem; height: 52px; }
+    .nav-logo { font-weight: 700; font-size: 1rem; color: var(--fg); } .nav-sep { color: var(--border); } .nav-link { font-size: 0.85rem; color: var(--muted); } .nav-link:hover { color: var(--fg); }
+    .hero { padding: 4rem 1.5rem 3rem; max-width: 860px; margin: 0 auto; }
+    .hero-eyebrow { display: inline-block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: rgba(5,150,105,0.12); color: var(--accent); border: 1px solid rgba(5,150,105,0.3); border-radius: 20px; padding: 0.25rem 0.8rem; margin-bottom: 1.2rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; line-height: 1.1; margin-bottom: 0.6rem; }
+    .hero-tagline { font-size: 1.15rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .hero-sub { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.8rem; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.8rem; }
+    .alias-pill { font-size: 0.78rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.7rem; color: var(--muted); }
+    .stat-row { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.9rem 1.2rem; min-width: 130px; }
+    .stat-val { font-size: 1.5rem; font-weight: 700; color: var(--accent); } .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 4rem; display: grid; gap: 1.5rem; }
+    .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+    .detail-header { background: linear-gradient(135deg, #059669, #064e3b); padding: 1.2rem 1.5rem; }
+    .detail-header h2 { font-size: 1.1rem; font-weight: 700; color: #fff; } .detail-header p { font-size: 0.82rem; color: rgba(255,255,255,0.7); margin-top: 0.2rem; }
+    .detail-body { padding: 1.4rem 1.5rem; }
+    .detail-body p { font-size: 0.93rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .detail-body h3 { font-size: 0.95rem; font-weight: 600; color: var(--fg); margin: 1.2rem 0 0.5rem; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.8rem 0; }
+    .data-table th { text-align: left; color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.5rem 0.8rem; border-bottom: 1px solid var(--border); }
+    .data-table td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(42,42,58,0.5); color: var(--fg); vertical-align: top; }
+    .data-table tr:last-child td { border-bottom: none; }
+    .pathway-block { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; margin: 0.8rem 0; overflow-x: auto; }
+    .pathway-block pre { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.78rem; color: #6ee7b7; line-height: 1.7; white-space: pre; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 1.4rem 1.5rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.3rem 0.9rem; color: var(--fg); transition: border-color 0.2s; }
+    .conn-pill:hover { border-color: var(--accent); color: var(--accent); } .conn-pill-label { font-size: 0.7rem; color: var(--muted); }
+    .refs { padding: 1.4rem 1.5rem; } .refs ol { padding-left: 1.2rem; } .refs li { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.4rem; line-height: 1.5; }
+    footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; max-width: 860px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: flex-start; }
+    .footer-copy { font-size: 0.8rem; color: var(--muted); } .footer-disclaimer { font-size: 0.75rem; color: var(--muted); opacity: 0.7; max-width: 480px; line-height: 1.5; }
   </style>
 </head>
 <body>
+<nav>
+  <span class="nav-logo">Human Engineering</span><span class="nav-sep">›</span>
+  <a class="nav-link" href="index.html">Atlas</a><span class="nav-sep">›</span>
+  <span class="nav-link">Magnesium</span>
+</nav>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<section class="hero">
+  <div class="hero-eyebrow">Atlas One · Human · Atomic</div>
+  <h1>Magnesium</h1>
+  <p class="hero-tagline">Universal kinase cofactor, NMDA gatekeeper, and cardiac rhythm stabiliser</p>
+  <p class="hero-sub">Z = 12 · alkaline earth metal · ~25 g body content · 60% in bone</p>
+  <div class="alias-pills">
+    <span class="alias-pill">Mg / Mg²⁺</span>
+    <span class="alias-pill">Mg-ATP²⁻</span>
+    <span class="alias-pill">Chlorophyll metal</span>
+    <span class="alias-pill">NMDA pore blocker</span>
+  </div>
+  <div class="stat-row">
+    <div class="stat"><div class="stat-val">12</div><div class="stat-label">Atomic number</div></div>
+    <div class="stat"><div class="stat-val">25 g</div><div class="stat-label">Total body content</div></div>
+    <div class="stat"><div class="stat-val">0.75–1.1 mmol/L</div><div class="stat-label">Serum Mg²⁺ (ionised)</div></div>
+    <div class="stat"><div class="stat-val">310–420 mg/day</div><div class="stat-label">RDA adult</div></div>
+  </div>
+</section>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 02 — Atomic</div>
-    <h1>Magnesium</h1>
-    <p class="tagline">Magnesium (Mg, Z=12, [Ne] 3s²). ~25g total; 4th most abundant cation. Cofactor for &gt;300 enzymes; all ATP-utilising reactions require Mg-ATP²⁻. Mg²⁺ blocks NMDA receptor pores at rest and competes with Ca²⁺ in cardiomyocytes.</p>
-    <p class="aliases">Also known as: Mg, Mg2+, magnesium ion, magnesium-24</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 02 — Atomic</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+<main>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Atlas One · Atomic · Alkaline Earth / Enzyme Cofactor / Electrolyte</h2><p>Period 3, Group 2 — second most abundant intracellular cation (after K⁺)</p></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Property</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td>Atomic mass</td><td>24.31 Da</td></tr>
+          <tr><td>Ionic radius</td><td>0.72 Å (smaller than Ca²⁺ 1.00 Å — higher charge density)</td></tr>
+          <tr><td>Intracellular free [Mg²⁺]</td><td>0.5–1.0 mmol/L free; 5–20 mmol/L total (mostly Mg-ATP)</td></tr>
+          <tr><td>Bone content</td><td>~60% of body Mg; surface-exchangeable pool important for buffering</td></tr>
+          <tr><td>Muscle content</td><td>~25%; primarily as Mg-ATP and Mg-ADP</td></tr>
+          <tr><td>Dietary sources</td><td>Nuts, seeds, legumes, whole grains, green leafy vegetables, dark chocolate</td></tr>
+          <tr><td>Absorption site</td><td>Ileum/colon (~30–40% of dietary Mg); TRPM6/7 channels</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header"><h2>Biological Roles</h2><p>Mg-ATP²⁻ as universal kinase substrate; NMDA receptor voltage-dependent block; cardiac Ca²⁺ antagonism</p></div>
+    <div class="detail-body">
+      <h3>Mg²⁺ in ATP Biochemistry and Signalling</h3>
+      <div class="pathway-block"><pre>
+  All ATP-dependent reactions require Mg²⁺ as Mg-ATP²⁻ chelate:
+
+  Mg²⁺ + ATP⁴⁻  ⇌  Mg-ATP²⁻   (Kd ~0.1 mmol/L)
+                                  ↓
+                    Kinases (≥300 reactions):
+                    Hexokinase, PFK-1, Pyruvate kinase
+                    Protein kinases (PKA, PKC, CaMKII, AMPK)
+                    ATPases: Na⁺/K⁺-ATPase, SERCA, myosin-ATPase
+                    DNA polymerase / RNA polymerase
+                                  ↓
+                    Structural role in DNA/RNA — stabilises
+                    phosphodiester backbone negative charges
+
+  NMDA Receptor — Mg²⁺ Voltage-Dependent Pore Block:
+
+  Resting membrane (~−70 mV):
+  Mg²⁺ occupies channel pore → NMDA receptor blocked
+  (both glutamate and glycine bound but no current)
+                    ↓
+  Depolarisation (AMPA-mediated ~−30 mV):
+  Mg²⁺ expelled from pore by positive Vm
+  NMDA opens → Ca²⁺ influx → LTP induction (coincidence detector)
+</pre></div>
+      <h3>Cardiovascular Roles</h3>
+      <p>Mg²⁺ competes with Ca²⁺ at L-type (Cav1.2) and T-type Ca²⁺ channels in vascular smooth muscle (VSM), causing vasodilation. In cardiac muscle, Mg²⁺ reduces automaticity of ectopic pacemakers. Intravenous MgSO₄ is first-line treatment for torsades de pointes (TdP) by stabilising the cardiac resting potential and suppressing early afterdepolarisations (EADs).</p>
+      <h3>Mg²⁺ and Pre-eclampsia</h3>
+      <p>MgSO₄ (4 g IV loading dose; 1–2 g/h maintenance) prevents and treats eclamptic seizures, likely by blocking NMDA receptors in cerebral vasculature, reducing cerebral vasospasm and preventing cortical spreading depression. Mg level monitoring (deep tendon reflex loss at ~4–5 mmol/L; respiratory paralysis at &gt;6 mmol/L) is essential.</p>
     </div>
+  </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">magnesium</div>
-        <h2>Magnesium</h2>
-        <p class="summary">Magnesium (Mg, Z=12, [Ne] 3s²). ~25g total; 4th most abundant cation. Cofactor for &gt;300 enzymes; all ATP-utilising reactions require Mg-ATP²⁻. Mg²⁺ blocks NMDA receptor pores at rest and competes with Ca²⁺ in cardiomyocytes.</p>
-      </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>magnesium</td></tr>
-            <tr><td>Name</td><td>Magnesium</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>02-atomic</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="human-body.html" title="~25g total (~0.034% body mass); 4th most abundant cation. 60% in bone, 38% intracellular; cofactor for &gt;300 enzymes and every ATP-utilising reaction in the body."><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill" href="atp.html" title="All kinases and ATPases bind Mg-ATP²⁻, not free ATP; Mg²⁺ chelates the β,γ-phosphates of ATP, activating the complex and positioning the γ-phosphate for nucleophilic attack by substrate."><span class="rel">modulates</span>Atp</a>
-            <a class="conn-pill" href="neuron.html" title="Mg²⁺ provides voltage-dependent block of the NMDA receptor channel pore at resting membrane potential; depolarisation relieves the block, enabling Ca²⁺ influx essential for long-term potentiation."><span class="rel">modulates</span>Neuron</a>
-            <a class="conn-pill" href="cardiomyocyte.html" title="Mg²⁺ competes with Ca²⁺ at L-type Ca²⁺ channels and myosin binding sites; hypomagnesaemia predisposes to early afterdepolarisations and torsades de pointes arrhythmia."><span class="rel">modulates</span>Cardiomyocyte</a>
-            <a class="conn-pill part" href="magnesium-dietary.html" title="Composed Of by Dietary Magnesium."><span class="rel">composed-of</span>Magnesium Dietary</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-          </ul>
-        </div>
-
-      </div>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Absorption &amp; Metabolism</h2><p>TRPM6/7 epithelial transport; claudin-16/19 paracellular reabsorption in TAL</p></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Transporter/Channel</th><th>Location</th><th>Function</th></tr></thead>
+        <tbody>
+          <tr><td>TRPM7</td><td>All tissues (ubiquitous)</td><td>Constitutive Mg²⁺ entry; also Zn²⁺, Ca²⁺; channel-kinase fusion protein</td></tr>
+          <tr><td>TRPM6</td><td>Intestinal epithelium (apical), distal tubule</td><td>Dietary Mg²⁺ absorption; regulated by EGF and oestrogen</td></tr>
+          <tr><td>Claudin-16 / claudin-19</td><td>Thick ascending limb (TAL)</td><td>Paracellular cation selectivity filter — Mg²⁺ and Ca²⁺ reabsorption driven by lumen-positive voltage (NaKCl2 + ROMK)</td></tr>
+          <tr><td>CNNM2 / SLC41A1</td><td>Distal tubule basolateral</td><td>Mg²⁺ efflux into blood; loss-of-function → hypomagnesaemia</td></tr>
+        </tbody>
+      </table>
+      <p>~70% of plasma Mg²⁺ is filtered; ~95% reabsorbed (60% TAL paracellular, 10% DCT transcellular via TRPM6). Aldosterone and thiazide diuretics → ↓ DCT Mg²⁺ reabsorption. PTH and calcitriol promote TRPM6 expression.</p>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Deficiency &amp; Toxicity</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Status</th><th>Serum Mg²⁺</th><th>Signs</th><th>Treatment</th></tr></thead>
+        <tbody>
+          <tr><td>Severe hypomagnesaemia</td><td>&lt;0.4 mmol/L</td><td>Tetany, seizures, torsades de pointes (TdP), hypokalaemia (K⁺ renal wasting), hypocalcaemia (↓ PTH secretion/action)</td><td>IV MgSO₄ (1–2 g over 5–10 min for TdP); oral Mg supplementation</td></tr>
+          <tr><td>Mild hypomagnesaemia</td><td>0.4–0.74 mmol/L</td><td>Muscle cramps, tremor, fatigue, anxiety, hypertension, insulin resistance</td><td>Oral magnesium oxide/citrate/glycinate; dietary improvement</td></tr>
+          <tr><td>Normal</td><td>0.75–1.0 mmol/L</td><td>—</td><td>—</td></tr>
+          <tr><td>Hypermagnesaemia (usually iatrogenic)</td><td>&gt;2 mmol/L</td><td>Loss of deep tendon reflexes, somnolence, hypotension, bradycardia</td><td>IV calcium gluconate (antagonises Mg²⁺); haemodialysis in severe cases</td></tr>
+          <tr><td>Lethal hypermagnesaemia</td><td>&gt;6 mmol/L</td><td>Respiratory paralysis, cardiac arrest</td><td>Emergency calcium; ventilatory support; haemodialysis</td></tr>
+        </tbody>
+      </table>
+      <p>Hypomagnesaemia causes refractory hypokalaemia (Mg²⁺ required for ROMK-mediated K⁺ reabsorption in distal nephron) and hypocalcaemia (Mg²⁺ required for PTH secretion and PTH receptor signalling). Correct Mg²⁺ first when managing these electrolyte disturbances.</p>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Clinical Use</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Application</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Torsades de pointes</td><td>IV MgSO₄ 2 g over 1–2 min; suppresses EADs regardless of serum Mg²⁺ level</td></tr>
+          <tr><td>Pre-eclampsia/eclampsia</td><td>MgSO₄ Pritchard/Sibai regimen; reduces seizure recurrence (vs. diazepam, Magpie trial)</td></tr>
+          <tr><td>Asthma (refractory)</td><td>IV MgSO₄ 2 g over 20 min; bronchodilation via smooth muscle Ca²⁺ channel antagonism</td></tr>
+          <tr><td>Pre-term labour tocolysis</td><td>MgSO₄ short-term neuroprotection for &lt;32-week fetuses (reduces CP risk, ACT trial)</td></tr>
+          <tr><td>Laxative / bowel prep</td><td>Oral magnesium citrate / Mg(OH)₂ — osmotic laxative effect</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2></div>
+    <div class="connections">
+      <a class="conn-pill" href="calcium.html"><span>Calcium</span><span class="conn-pill-label">Antagonist / ECM partner</span></a>
+      <a class="conn-pill" href="potassium.html"><span>Potassium</span><span class="conn-pill-label">ROMK-Mg²⁺ dependency</span></a>
+      <a class="conn-pill" href="phosphorus.html"><span>Phosphorus</span><span class="conn-pill-label">Mg-ATP²⁻ chelation</span></a>
+      <a class="conn-pill" href="sodium.html"><span>Sodium</span><span class="conn-pill-label">Na⁺/K⁺-ATPase cofactor</span></a>
+      <a class="conn-pill" href="ampk.html"><span>AMPK</span><span class="conn-pill-label">Mg-ADP sensor</span></a>
+    </div>
+  </div>
+
+  <div class="detail-card refs">
+    <div class="detail-header"><h2>References</h2></div>
+    <ol>
+      <li>de Baaij JHF, Hoenderop JGJ, Bindels RJM. "Magnesium in man: implications for health and disease." <em>Physiol Rev</em> 2015;95:1–46.</li>
+      <li>Magpie Trial Collaborative Group. "Do women with pre-eclampsia, and their babies, benefit from magnesium sulphate?" <em>Lancet</em> 2002;359:1877–1890.</li>
+      <li>DiNicolantonio JJ, O'Keefe JH, Wilson W. "Subclinical magnesium deficiency: a principal driver of cardiovascular disease." <em>Open Heart</em> 2018;5:e000668.</li>
+      <li>Schlingmann KP, et al. "Hypomagnesemia with secondary hypocalcemia is caused by mutations in TRPM6." <em>Nat Genet</em> 2002;31:166–170.</li>
+    </ol>
+  </div>
+</main>
+
+<footer>
+  <div><p class="footer-copy">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p></div>
+  <p class="footer-disclaimer">This page is co-maintained by AI (Claude, Anthropic) and human editors as part of the open Human Engineering Atlas project. Content is for educational purposes; verify clinical information with qualified sources before application.</p>
+</footer>
 </body>
 </html>

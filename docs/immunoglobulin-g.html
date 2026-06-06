@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Y-shaped tetrameric antibody (2 heavy + 2 light chains) — the most abundant serum immunoglobulin (~10–15 mg/mL), with ~21-day half-life. Four subclasses (IgG1–4">
-  <meta property="og:title" content="Immunoglobulin G — Human Engineering">
+  <meta name="description" content="Immunoglobulin G (IgG) — Y-shaped antibody structure, Fab/Fc regions, ADCC, complement activation, FcRn half-life recycling, vaccine-elicited immunity. Part of the Human Engineering molecular atlas.">
+  <meta property="og:title" content="Immunoglobulin G — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Immunoglobulin G — Human Engineering</title>
+  <title>Immunoglobulin G — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #2563eb;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,44 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(37,99,235,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #2563eb, #1e3a8a); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .principle-box { background: rgba(37,99,235,0.06); border: 1px solid rgba(37,99,235,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +92,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,67 +104,186 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
     <h1>Immunoglobulin G</h1>
-    <p class="tagline">Y-shaped tetrameric antibody (2 heavy + 2 light chains) — the most abundant serum immunoglobulin (~10–15 mg/mL), with ~21-day half-life. Four subclasses (IgG1–4). Principal mediator of humoral immunity and vaccine-elicited protection.</p>
-    <p class="aliases">Also known as: IgG, gamma-globulin, antibody IgG</p>
+    <p class="tagline">The most abundant serum antibody — a Y-shaped 150 kDa glycoprotein (2 heavy + 2 light chains) and the primary mediator of long-term humoral immunity, vaccine-elicited protection, and placental passive immunity.</p>
+    <p class="subtagline">IgG circulates at 10–15 mg/mL (~75% of all serum immunoglobulins), persists for ~21 days via FcRn-mediated endosomal recycling, and mediates protection through antigen neutralization, opsonization, complement activation, and ADCC. Four subclasses (IgG1–4) differ in Fc effector functions. The goal of virtually every modern vaccine is to elicit high-affinity, durable IgG against the target antigen.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~150 kDa</span><span class="stat-label">Molecular weight</span></div>
+      <div class="stat"><span class="stat-num">10–15 mg/mL</span><span class="stat-label">Serum concentration</span></div>
+      <div class="stat"><span class="stat-num">~21 days</span><span class="stat-label">Plasma half-life</span></div>
+      <div class="stat"><span class="stat-num">4 subclasses</span><span class="stat-label">IgG1, IgG2, IgG3, IgG4</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">immunoglobulin-g</div>
-        <h2>Immunoglobulin G</h2>
-        <p class="summary">Y-shaped tetrameric antibody (2 heavy + 2 light chains) — the most abundant serum immunoglobulin (~10–15 mg/mL), with ~21-day half-life. Four subclasses (IgG1–4). Principal mediator of humoral immunity and vaccine-elicited protection.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Antibody / Immune Effector</div>
+        <h2>Immunoglobulin G (IgG)</h2>
+        <div class="drug-class">Class: Antibody (immunoglobulin) &nbsp;&middot;&nbsp; Humoral immune effector &nbsp;|&nbsp; Encoded by: IGH locus (chr 14q32) + IGK/IGL loci &nbsp;|&nbsp; Produced by: Plasma cells (terminally differentiated B cells)</div>
+        <p class="summary">Immunoglobulin G is the central molecular effector of adaptive humoral immunity. Secreted by long-lived plasma cells in the bone marrow, IgG circulates at concentrations of ~10–15 mg/mL in healthy adults and mediates protection against pathogens through four primary mechanisms: neutralization (Fab arms block receptor-binding domains), opsonization (Fc tail recruits FcγR on macrophages and neutrophils), complement activation (IgG1/IgG3 bind C1q → classical pathway → MAC), and ADCC (Fc–FcγRIII engagement on NK cells → perforin/granzyme release → killing of antibody-coated targets). Its extraordinarily long half-life (~21 days) is maintained by FcRn-mediated rescue from lysosomal degradation — the same pathway that extends the half-life of albumin and of every therapeutic monoclonal antibody in clinical use.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">IgG</span>
+          <span class="alias-pill">gamma-globulin</span>
+          <span class="alias-pill">IgG1/IgG2/IgG3/IgG4</span>
+          <span class="alias-pill">antibody</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Structure — The Y-Shaped Tetramer</h3>
+          <p>IgG is a <strong>tetrameric glycoprotein</strong> consisting of two identical heavy chains (&gamma;-chains, ~50 kDa each) and two identical light chains (&kappa; or &lambda;, ~25 kDa each), joined by disulfide bonds and non-covalent interactions. The total molecular weight is ~150 kDa. Its Y-shaped architecture reflects three functional regions:</p>
+          <div class="pathway-block">
+<pre>
+        Fab arm                    Fab arm
+  (antigen binding)          (antigen binding)
+   ┌─────────┐                ┌─────────┐
+   │  VH+VL  │                │  VH+VL  │
+   │  CDR1-3 │                │  CDR1-3 │
+   │  (antigen contact)       │  (antigen contact)
+   │  CH1+CL │                │  CH1+CL │
+   └────┬────┘                └────┬────┘
+        └──────────┬───────────────┘
+                   │  Hinge region
+                   │  (flexible; Pro/Cys-rich)
+                   │  inter-heavy-chain disulfides
+                   │
+              ┌────┴────┐
+              │  Fc arm  │
+              │  CH2 CH2 │  ← C1q binding (complement)
+              │           │  ← FcγR binding (macrophage/NK)
+              │  CH3 CH3 │  ← FcRn binding (half-life)
+              └──────────┘
+
+  CDR = complementarity-determining region (hypervariable loops)
+  VH = variable heavy domain; VL = variable light domain
+  CH = constant heavy domain; CL = constant light domain
+</pre>
+          </div>
+          <h4>The Asn297 glycan — essential for effector function</h4>
+          <p>A single N-linked oligosaccharide at <strong>Asn297</strong> of each CH2 domain is required for Fc effector functions. The glycan composition (sialylation, fucosylation, galactosylation) modulates C1q binding, Fc&gamma;R affinity, and the pro- vs. anti-inflammatory balance of IgG. Afucosylated IgG has ~50-fold higher affinity for Fc&gamma;RIII on NK cells and macrophages, massively amplifying ADCC — this is the basis of afucosylated therapeutic antibodies (mogamulizumab, obinutuzumab).</p>
+          <h4>IgG subclasses</h4>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>immunoglobulin-g</td></tr>
-            <tr><td>Name</td><td>Immunoglobulin G</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
+            <tr><th>Subclass</th><th>Abundance</th><th>Complement</th><th>ADCC (FcγRIII)</th><th>Half-life</th><th>Key notes</th></tr>
+            <tr><td>IgG1</td><td>~60%</td><td>Strong</td><td>Strong</td><td>~21 days</td><td>Most therapeutic mAbs are IgG1 format; elicited by protein antigens; primary response to viruses</td></tr>
+            <tr><td>IgG2</td><td>~25%</td><td>Weak</td><td>Weak</td><td>~21 days</td><td>Major response to polysaccharide antigens (pneumococcal, meningococcal); T-independent B cell response</td></tr>
+            <tr><td>IgG3</td><td>~7%</td><td>Strongest</td><td>Strong</td><td>~7 days</td><td>Longest hinge; most potent complement activator; shorter t½ (unique IGHG3 alleles)</td></tr>
+            <tr><td>IgG4</td><td>~4%</td><td>Very weak</td><td>Very weak</td><td>~21 days</td><td>Induced by chronic/persistent antigen exposure; Fab arm exchange (bispecific in vivo); allergen immunotherapy; some IgG4-related disease (autoimmune)</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="plasma-cell.html" title="IgG is produced and secreted by terminally differentiated plasma cells; long-lived plasma cells in bone marrow maintain durable serum IgG titers."><span class="rel">expressed-by</span>Plasma Cell</a>
-            <a class="conn-pill" href="sars-cov-2.html" title="Vaccine-elicited and infection-induced IgG binds SARS-CoV-2 spike protein, neutralizing virus entry and mediating ADCC via FcγRIII on NK cells and macrophages."><span class="rel">targets</span>Sars Cov 2</a>
-            <a class="conn-pill" href="influenza-a.html" title="Anti-hemagglutinin IgG prevents receptor binding; anti-neuraminidase IgG limits viral spread; both contribute to sterilizing immunity after vaccination."><span class="rel">targets</span>Influenza A</a>
-            <a class="conn-pill part" href="immune-system.html" title="IgG is the principal soluble effector molecule of the humoral adaptive immune system, circulating in blood and extravascular spaces."><span class="rel">part-of</span>Immune System</a>
-            <a class="conn-pill" href="hiv-1.html" title="Neutralizing IgG targeting HIV-1 gp120/gp41 provides partial protection; broadly neutralizing antibodies (bNAbs) against the CD4-binding site and V3 loop are under investigation for prevention and therapy."><span class="rel">targets</span>Hiv 1</a>
-            <a class="conn-pill" href="hepatitis-b-virus.html" title="Anti-HBsAg IgG (anti-HBs titer ≥10 mIU/mL) is the correlate of protection from HBV vaccination; anti-HBc IgG marks prior infection; therapeutic monoclonal anti-HBs (HBIG) is used for post-exposure prophylaxis."><span class="rel">targets</span>Hepatitis B Virus</a>
-            <a class="conn-pill" href="streptococcus-pneumoniae.html" title="Serotype-specific IgG against the pneumococcal polysaccharide capsule is the primary correlate of vaccine-mediated protection; PCV13-elicited T-dependent IgG persists longer than PPSV23-elicited T-independent responses."><span class="rel">targets</span>Streptococcus Pneumoniae</a>
+          <h3>Mechanism — From B Cell to Affinity-Matured IgG</h3>
+          <div class="pathway-block">
+<pre>
+  Naive B cell: IgM surface BCR encounters antigen
+       │
+       ▼ (T cell-dependent response in secondary lymphoid organ)
+  B cell + Tfh cell interaction (CD40L–CD40; IL-4/IL-21)
+       │
+       ▼ Germinal Centre (GC) reaction:
+       │
+  CLASS-SWITCH RECOMBINATION (CSR)
+    AID (activation-induced cytidine deaminase) creates DSBs
+    at switch (S) regions upstream of Cγ genes
+    VDJ exon recombines to be upstream of Cγ (not Cμ)
+    Cytokine environment determines subclass:
+      IL-4 → IgG1 (and IgG3 in humans, IgG1/IgE in mice)
+      IFN-γ → IgG3/IgG2 in humans
+    → B cell now secretes IgG (not IgM)
+       │
+       ▼ Simultaneously:
+  SOMATIC HYPERMUTATION (SHM)
+    AID introduces point mutations in V-region at ~10⁻³/bp/division
+    (10⁶× baseline mutation rate)
+    B cells compete for limiting antigen on follicular dendritic cells
+    High-affinity clones selected → AFFINITY MATURATION
+    Final IgG may have pM–nM KD (vs. μM for naïve IgM precursor)
+       │
+       ▼
+  Long-lived plasma cells → bone marrow niches
+    → sustained IgG secretion for years/decades (immunological memory)
+</pre>
+          </div>
+          <h4>FcRn — the half-life recycling receptor</h4>
+          <p>The <strong>neonatal Fc receptor (FcRn)</strong> binds IgG Fc at histidines 310 and 435 of each CH2–CH3 interface at acidic pH (~6.0) in endosomes of vascular endothelial cells and macrophages. This rescues IgG from lysosomal degradation; at neutral pH at the cell surface, lower affinity releases IgG back into circulation. IgG not recycled is degraded, limiting the half-life from the theoretical ~200+ days to ~21 days. <strong>Fc engineering</strong> (YTE, LS, M428L/N434S mutations) enhances FcRn binding affinity 5–10-fold → extended half-life to ~4–6 weeks for therapeutic antibodies (e.g., nivolumab-YTE).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Effector Functions</h3>
+          <table class="data-table">
+            <tr><th>Mechanism</th><th>Receptor/pathway</th><th>Executing cells</th><th>Biological outcome</th></tr>
+            <tr><td><strong>Neutralization</strong></td><td>Fab CDRs directly block pathogen–receptor interactions; no Fc required</td><td>Antibody acting alone (no cells needed)</td><td>Prevents viral entry (e.g., SARS-CoV-2 RBD/ACE2 block), toxin binding, bacterial adhesion</td></tr>
+            <tr><td><strong>Opsonization</strong></td><td>Fc–FcγRI (CD64), FcγRII (CD32), FcγRIII (CD16) on phagocytes</td><td>Macrophages, neutrophils, monocytes</td><td>Enhanced phagocytosis + respiratory burst → pathogen killing; ITAM signalling → SykPLCγ→Ca²⁺→gene activation</td></tr>
+            <tr><td><strong>Complement activation</strong></td><td>IgG1/IgG3 array on antigen surface → C1q binding to CH2 → classical pathway</td><td>Serum proteins (C1q, C4, C2, C3, C5b-9)</td><td>MAC lysis of Gram-negative bacteria; C3b opsonization; C3a/C5a anaphylatoxin recruitment</td></tr>
+            <tr><td><strong>ADCC</strong></td><td>IgG on target cell surface → Fc–FcγRIII (CD16) on NK cells; ITAM→Syk→perforin/granzyme</td><td>NK cells; macrophages (ADCP); neutrophils</td><td>Lysis of antibody-coated target cells (virus-infected cells, tumour cells); does not require MHC class I recognition</td></tr>
+            <tr><td><strong>Placental transfer</strong></td><td>FcRn on syncytiotrophoblast → transcytosis of maternal IgG → fetal circulation</td><td>Placenta (syncytiotrophoblast)</td><td>Passive immunity for neonates; protects against infections in first 6 months of life; basis of maternal vaccination strategy</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pharmacology / Clinical Use</h3>
+          <p><strong>Therapeutic monoclonal antibodies (mAbs):</strong> Modern mAbs are almost exclusively IgG1 or IgG4 format. IgG1 is chosen when ADCC/complement killing is desired (rituximab in B-cell lymphoma; trastuzumab in HER2+ breast cancer; nivolumab in cancer immunotherapy). IgG4 is chosen when effector functions are undesired (sarilumab anti-IL-6R; dupilumab anti-IL-4R&alpha; — blocking cytokine signalling without cytotoxicity of the signalling cell).</p>
+          <p><strong>Intravenous immunoglobulin (IVIG):</strong> Pooled IgG from thousands of donors (~10–15 g/L protein, &gt;95% IgG); used for: primary immunodeficiencies (replacement therapy), Kawasaki disease (prevents coronary aneurysms; mechanism unclear but FcγRIIB inhibitory receptor engagement is hypothesised), Guillain-Barré syndrome (anti-idiotypic neutralization of pathogenic autoantibodies), immune thrombocytopenia (ITP: FcRn saturation → accelerates clearance of anti-platelet IgG autoantibodies).</p>
+          <p><strong>Subcutaneous immunoglobulin (SCIG):</strong> Alternative to IVIG for primary antibody deficiency; 10–20% IgG solutions; better quality of life; home administration; comparable efficacy; preferred in European centres.</p>
+          <div class="principle-box">
+            <p><strong>IgG as vaccine correlate of protection:</strong> For essentially every approved vaccine, the correlate of protection is a <strong>threshold serum IgG titer</strong> against the pathogen target antigen (e.g., anti-HBs &ge;10 mIU/mL for hepatitis B; anti-Hib polysaccharide &ge;0.15 &mu;g/mL; anti-SARS-CoV-2 spike RBD IgG &ge;264 BAU/mL for 50% protection against symptomatic COVID-19). mRNA vaccines (BNT162b2, mRNA-1273) elicit peak serum IgG titers 2–4 weeks after completion of primary series, with geometric mean titers declining ~6-fold over 6 months, then stabilising — maintained by long-lived plasma cells in bone marrow niches.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>IgG mechanism</th><th>Clinical features</th></tr>
+            <tr><td><strong>Agammaglobulinaemia (XLA)</strong></td><td>BTK mutation → B cell maturation block → near-absent IgG (&lt;2 mg/dL) → no humoral immunity</td><td>Recurrent bacterial infections (encapsulated organisms: Streptococcus, Haemophilus) from 6 months of age; treated with IVIG/SCIG replacement lifelong</td></tr>
+            <tr><td><strong>Common variable immunodeficiency (CVID)</strong></td><td>Heterogeneous B/T cell defects → ↓IgG (and IgA/IgM) → impaired antibody response to vaccines</td><td>Recurrent sinopulmonary infections, autoimmunity, granulomatous disease; IVIG replacement therapy; most common symptomatic primary antibody deficiency in adults</td></tr>
+            <tr><td><strong>Multiple myeloma</strong></td><td>Malignant plasma cell clone → monoclonal IgG paraprotein (M-spike on SPEP) + suppression of normal polyclonal IgG</td><td>Osteolytic bone lesions, hypercalcaemia, renal failure (light chain cast nephropathy), anaemia; paraprotein detected by SPEP/immunofixation; treat with bortezomib/lenalidomide/daratumumab</td></tr>
+            <tr><td><strong>IgG4-related disease</strong></td><td>IgG4 subclass enrichment in fibroinflammatory lesions (pancreas, salivary glands, orbit, kidney, aorta) — Fab arm exchange creates bispecific IgG4 molecules with uncertain pathogenicity</td><td>Autoimmune pancreatitis type 1, sclerosing cholangitis, orbital pseudotumour, aortitis; serum IgG4 &gt;135 mg/dL; dramatic response to glucocorticoids; anti-CD20 (rituximab) for refractory cases</td></tr>
+            <tr><td><strong>Autoimmune disease</strong></td><td>IgG autoantibodies against self-antigens: anti-AChR (myasthenia gravis), anti-dsDNA (SLE), anti-GBM (Goodpasture), ANCA (granulomatosis with polyangiitis), anti-Ro/La (Sjögren's), anti-CCP (RA)</td><td>Tissue damage via type II (cytotoxic) or type III (immune complex) hypersensitivity; therapeutic targets: rituximab (anti-CD20), belimumab (anti-BAFF), eculizumab (anti-C5) in complement-mediated autoimmunity</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="#" class="conn-pill">
+              <span class="rel">Produced by</span>
+              Plasma cells (bone marrow)
+            </a>
+            <a href="mhc-class-ii.html" class="conn-pill targets">
+              <span class="rel">Requires</span>
+              MHC-II for B cell help (Tfh priming)
+            </a>
+            <a href="albumin.html" class="conn-pill">
+              <span class="rel">Shares</span>
+              FcRn recycling pathway (like albumin)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Activates</span>
+              Complement (classical pathway via C1q)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Mediates</span>
+              ADCC via FcγRIII on NK cells
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Crosses</span>
+              Placenta (passive neonatal immunity)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/cellular-and-molecular-immunology/abbas/978-0-323-52323-3" target="_blank" rel="noopener noreferrer">Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9th ed. Elsevier; 2018.</a></li>
-            <li><a href="https://doi.org/10.1016/j.jaci.2009.09.046" target="_blank" rel="noopener noreferrer">Schroeder HW Jr, Cavacini L. Structure and function of immunoglobulins. J Allergy Clin Immunol. 2010;125(2 Suppl 2):S41-52.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20176268/" target="_blank" rel="noopener noreferrer">PubMed 20176268</a></li>
-            <li><a href="https://doi.org/10.1038/s41577-019-0260-y" target="_blank" rel="noopener noreferrer">Ward ES, Bhatt DL, Bhatt DL, et al. The role of FcRn in immunity and its therapeutic implications. Nat Rev Immunol. 2020;20(7):399-407.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32015434/" target="_blank" rel="noopener noreferrer">PubMed 32015434</a></li>
-            <li><a href="https://doi.org/10.1038/s41577-021-00573-4" target="_blank" rel="noopener noreferrer">Subbarao K. The success of SARS-CoV-2 vaccines and prospects for the future. Nat Rev Immunol. 2021;21(8):469-470.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/34155386/" target="_blank" rel="noopener noreferrer">PubMed 34155386</a></li>
-            <li><a href="https://www.who.int/publications/m/item/WHO-BS-2020.2403" target="_blank" rel="noopener noreferrer">World Health Organization. The WHO International Standard for anti-SARS-CoV-2 immunoglobulin. WHO/BS/2020.2403.</a></li>
+            <li>Schroeder HW Jr, Cavacini L. Structure and function of immunoglobulins. <em>J Allergy Clin Immunol.</em> 2010;125(2 Suppl 2):S41-52. <a href="https://doi.org/10.1016/j.jaci.2009.09.046">doi:10.1016/j.jaci.2009.09.046</a></li>
+            <li>Ward ES, Bhatt DL, et al. The role of FcRn in immunity and its therapeutic implications. <em>Nat Rev Immunol.</em> 2020;20(7):399-407. <a href="https://doi.org/10.1038/s41577-019-0260-y">doi:10.1038/s41577-019-0260-y</a></li>
+            <li>Abbas AK, Lichtman AH, Pillai S. <em>Cellular and Molecular Immunology.</em> 9th ed. Elsevier; 2018.</li>
+            <li>Subbarao K. The success of SARS-CoV-2 vaccines and prospects for the future. <em>Nat Rev Immunol.</em> 2021;21(8):469-70. <a href="https://doi.org/10.1038/s41577-021-00573-4">doi:10.1038/s41577-021-00573-4</a></li>
+            <li>Wang TT, Ravetch JV. Functional diversification of IgGs through Fc glycosylation. <em>J Clin Invest.</em> 2019;129(9):3492-8. <a href="https://doi.org/10.1172/JCI130029">doi:10.1172/JCI130029</a></li>
           </ul>
         </div>
 
@@ -188,14 +292,18 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="mhc-class-ii.html">MHC-II</a>
+      <a href="albumin.html">Albumin</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta" style="margin-top:0.5rem;">&copy; <span id="year"></span> Bhim Upadhyaya</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

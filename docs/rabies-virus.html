@@ -3,93 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Rhabdoviridae; bullet-shaped enveloped negative-sense ssRNA. G protein binds nAChR at NMJ; retrograde axonal transport to CNS. Near-100% fatal once symptomatic;">
-  <meta property="og:title" content="Rabies Virus (RABV) — Human Engineering">
+  <meta name="description" content="Rabies Virus (RABV) — Rhabdoviridae, bullet-shaped (-) ssRNA. G-protein entry via nAChR/NCAM/p75NTR, retrograde axonal transport, limbic tropism, Negri bodies, PEP, HDCV/PCECV vaccines. Part of the Human Engineering project.">
+  <meta property="og:title" content="Rabies Virus — Human Engineering Pathogen Atlas">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Rabies Virus (RABV) — Human Engineering</title>
+  <title>Rabies Virus — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bg: #f2f2f7;
+      --bg-elev: #ffffff;
+      --bg-soft: #e5e5ea;
+      --fg: #1c1c1e;
+      --fg-soft: #3a3a3c;
+      --muted: #6e6e73;
+      --muted-2: #8e8e93;
+      --border: #d1d1d6;
+      --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg); color: var(--fg);
+      line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+    }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
+    }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      background: rgba(159, 18, 57, 0.1); color: var(--accent);
+      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
+    }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h5 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin: 0.8rem 0 0.35rem; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.93rem; line-height: 1.65; margin-bottom: 0.55rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; }
+
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; margin: 0; }
+    .mech-item.danger  { border-left-color: #dc2626; }
+    .mech-item.immune  { border-left-color: var(--ai); }
+    .mech-item.latent  { border-left-color: var(--accent); }
+    .mech-item.drug    { border-left-color: var(--bio); }
+    .mech-item.neuro   { border-left-color: #d97706; }
+
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.88rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '\2197'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,89 +148,245 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogens
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
-    <h1>Rabies Virus (RABV)</h1>
-    <p class="tagline">Rhabdoviridae; bullet-shaped enveloped negative-sense ssRNA. G protein binds nAChR at NMJ; retrograde axonal transport to CNS. Near-100% fatal once symptomatic; ~59,000 deaths/year. PEP (RIG + vaccine) essentially 100% effective if timely.</p>
-    <p class="aliases">Also known as: RABV, classical rabies virus, rabies lyssavirus, Lyssavirus rabies</p>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus</div>
+    <h1>Rabies Virus</h1>
+    <p class="tagline">The most lethally efficient neurotropic virus known. Once clinical rabies begins, death is virtually universal &mdash; yet it is almost entirely preventable by timely post-exposure prophylaxis.</p>
+    <p class="subtagline">Rabies virus (RABV) exploits the nervous system's own axonal transport machinery for invasion: G-protein binding at the neuromuscular junction initiates a retrograde journey up peripheral axons at ~2&ndash;3 mm/day, ultimately causing a limbic encephalitis so severe that its clinical manifestations &mdash; hydrophobia, aerophobia, and furious agitation &mdash; have terrorised human cultures for millennia. The incubation window before CNS penetration is the only therapeutic opportunity, and it is the reason PEP works.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~59,000</span><span class="stat-label">Deaths/year globally</span></div>
+      <div class="stat"><span class="stat-num">&gt;99%</span><span class="stat-label">Case fatality once symptomatic</span></div>
+      <div class="stat"><span class="stat-num">~100%</span><span class="stat-label">PEP efficacy (if timely)</span></div>
+      <div class="stat"><span class="stat-num">~12 kb</span><span class="stat-label">(&#x2212;) ssRNA genome, 5 genes</span></div>
+      <div class="stat"><span class="stat-num">75&times;180 nm</span><span class="stat-label">Bullet-shaped particle</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">rabies-virus</div>
-        <h2>Rabies Virus (RABV)</h2>
-        <p class="summary">Rhabdoviridae; bullet-shaped enveloped negative-sense ssRNA. G protein binds nAChR at NMJ; retrograde axonal transport to CNS. Near-100% fatal once symptomatic; ~59,000 deaths/year. PEP (RIG + vaccine) essentially 100% effective if timely.</p>
+    <div class="detail-card" id="rabies-virus">
+      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #4c0519);">
+        <div class="entry-eyebrow">Rhabdoviridae &middot; Lyssavirus &middot; (&minus;)ssRNA, Enveloped &middot; 75&times;180 nm bullet-shaped</div>
+        <h3>Rabies Virus (RABV)</h3>
+        <p class="summary">Enveloped negative-sense single-stranded RNA virus with a characteristic bullet morphology and a 5-gene genome (N-P-M-G-L). G protein binding to nAChR, NCAM, and p75NTR at the neuromuscular junction initiates dynein-mediated retrograde axonal transport, carrying the nucleocapsid to the CNS at ~2&ndash;3 mm/day. The virus then spreads trans-synaptically through limbic circuits, producing a fulminant encephalomyelitis. Pathognomonic Negri bodies (eosinophilic intracytoplasmic inclusions of N-protein aggregates) appear in hippocampal neurons. Clinical disease is encephalitic (~80%) or paralytic (~20%). No proven cure exists; palliative care and the anecdotal Milwaukee Protocol are the only options once symptoms begin. Post-exposure prophylaxis (wound wash + RIG + 4-dose vaccine) is essentially 100% effective when initiated before symptom onset. ~59,000 deaths per year globally, predominantly in Asia and Africa from dog bites.</p>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>rabies-virus</td></tr>
-            <tr><td>Name</td><td>Rabies Virus (RABV)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>01-viruses</td></tr>
+          <h4>Genome and Structural Proteins</h4>
+          <table class="detail-table">
+            <tr><td>Genome</td><td>~12 kb negative-sense ssRNA; single-stranded, non-segmented; 5 genes in obligate order: 3&prime;-N-P-M-G-L-5&prime;</td></tr>
+            <tr><td>N (nucleoprotein)</td><td>Encapsidates RNA in a helical ribonucleoprotein (RNP) complex; protects genome from nuclease degradation; primary target for diagnostic DFA (direct fluorescent antibody) and RT-PCR</td></tr>
+            <tr><td>P (phosphoprotein)</td><td>Essential polymerase cofactor (L subunit co-factor); also an interferon antagonist &mdash; blocks nuclear import of phospho-STAT1 and STAT2, preventing IFN-stimulated gene transcription in peripheral nerve terminals before CNS entry</td></tr>
+            <tr><td>M (matrix protein)</td><td>Structural link between nucleocapsid and envelope; critical determinant of bullet-shaped morphology; drives budding from plasma membrane</td></tr>
+            <tr><td>G (glycoprotein)</td><td>Homotrimeric surface spike; sole target of virus-neutralising antibodies; mediates receptor binding and low-pH-triggered membrane fusion; Arg333 critical for full neurotropism and pathogenicity (Arg&rarr;Gln attenuates)</td></tr>
+            <tr><td>L (large protein)</td><td>RNA-dependent RNA polymerase (RdRp) and mRNA capping enzyme; responsible for transcription of 5 mRNAs and genome replication via full-length antigenome intermediate</td></tr>
+            <tr><td>Particle shape</td><td>Distinctive asymmetric bullet: flat at one end (L face, 3&prime; genome terminus), rounded at the other (S face, 5&prime; terminus); 75 nm diameter &times; 180 nm length; unique among human-pathogenic viruses</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill damaged" href="nervous-system.html" title="Rabies travels by retrograde axonal transport through peripheral nervous system to the CNS at ~2-3 mm/day, causing encephalomyelitis with Negri bodies in hippocampal neurons and near-universal fatality once symptoms appear."><span class="rel">damages</span>Nervous System</a>
-            <a class="conn-pill damaged" href="brain.html" title="Rabies spreads trans-synaptically from limbic regions to neocortex and brainstem, causing behavioural changes, hydrophobia, and autonomic failure; Negri bodies (eosinophilic inclusions) are pathognomonic in hippocampal neurons."><span class="rel">damages</span>Brain</a>
-            <a class="conn-pill" href="neuron.html" title="Rabies G protein binds nAChR, NCAM, and p75NTR on neurons at the NMJ; endocytic internalization enables retrograde axonal transport to cell bodies and subsequent trans-synaptic spread through neuronal networks."><span class="rel">infects</span>Neuron</a>
-            <a class="conn-pill" href="rabies-vaccine.html" title="PrEP and PEP using inactivated rabies vaccines (HDCV, PCECV) with rabies immunoglobulin essentially eliminate fatal outcome; timeliness of administration after exposure is the critical determinant of efficacy."><span class="rel">prevented-by</span>Rabies Vaccine</a>
+          <h4>Entry &mdash; Neuromuscular Junction and Three Receptors</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>Receptor 1 &mdash; Nicotinic Acetylcholine Receptor (nAChR)</h5>
+              <p>RABV G protein contains a sequence homologous to the alpha-neurotoxin binding region of snake venom curaremimetic toxins. This region binds the acetylcholine binding site on the alpha subunit of nAChR at the postsynaptic NMJ membrane with moderate affinity. The high density of nAChR at NMJ folds makes this the predominant initial binding site. G protein binding may also partially block neuromuscular transmission &mdash; a mechanism possibly contributing to functional neurological deficits disproportionate to the modest neuronal cell death observed at autopsy.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>Receptor 2 &mdash; Neural Cell Adhesion Molecule (NCAM / CD56)</h5>
+              <p>NCAM is expressed broadly on neurons, muscle cells, and Schwann cells. It functions as an alternative receptor for RABV G protein, facilitating entry at non-NMJ sites. NCAM-mediated entry may account for infection of sensory neurons and Schwann cells, contributing to the sensory prodrome (paraesthesias at the bite site) that is pathognomonic when present.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>Receptor 3 &mdash; p75 Neurotrophin Receptor (p75NTR / LNGFR)</h5>
+              <p>The low-affinity nerve growth factor receptor p75NTR is expressed on peripheral neurons and is the receptor for which G protein position-333 arginine (Arg333) is most critical. p75NTR binds RABV G protein at a site distinct from the NGF binding site. Arg333 &rarr; Gln or Gly mutations at this position severely attenuate neuroinvasiveness, which is why all attenuated vaccine strains carry this mutation. Following G-protein binding at any receptor, RABV is internalised by clathrin-mediated endocytosis; endosomal acidification (pH ~5.5) triggers G protein refolding and membrane fusion, releasing nucleocapsid into the cytoplasm.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Retrograde Axonal Transport &mdash; The Incubation Window</h4>
+          <div class="pathway-block">
+<pre>
+RABIES AXONAL TRANSPORT AND CNS INVASION
+
+  Bite (infected saliva deposited into muscle/SC tissue)
+       |
+       v
+  Virus replicates locally in muscle cells (brief period)
+  OR enters motor/sensory nerve terminals directly
+       |
+       v
+  G protein binds nAChR / NCAM / p75NTR at NMJ
+       |
+       v
+  Clathrin-mediated endocytosis --> endosomal acidification
+  --> G protein fusogenic conformational change
+  --> nucleocapsid released into axon cytoplasm
+       |
+       v
+  RETROGRADE AXONAL TRANSPORT
+  Nucleocapsid (RNP) associated with dynein/dynactin motor complex
+  on microtubule tracks (moves toward neuronal cell body, soma)
+  Rate: ~2-3 mm/day in motor axons (slower ~1mm/day in sensory)
+       |
+  [INCUBATION PERIOD -- length determines by bite location]
+  Face/neck bite:  2-3 cm to brainstem --> ~1-2 weeks
+  Arm bite:        50-80 cm to spinal cord --> 1-3 months
+  Foot bite:       100-120 cm to spinal cord --> 1-6+ months
+  (range: days to years, median 1-3 months)
+       |
+       v
+  Cell body in dorsal root ganglion / anterior horn
+  --> virus replicates --> new virions produced
+       |
+       v
+  TRANS-SYNAPTIC SPREAD (centripetal)
+  New virions released at synapses infect post-synaptic neurons
+  Brainstem --> cerebellum --> hippocampus --> limbic cortex
+  --> neocortex (ascending spread through limbic system)
+       |
+       v
+  CENTRIFUGAL SPREAD (after CNS infection established)
+  Along autonomic/motor efferents to:
+  - Salivary glands (enables transmission via bite)
+  - Cornea, skin (enables antemortem diagnosis by DFA)
+  - Heart, adrenal glands, retina
+
+PEP WINDOW:
+  Post-exposure prophylaxis MUST be initiated before the
+  virus reaches the CNS. Once CNS penetration occurs and
+  encephalitis begins, PEP cannot prevent death.
+  The axonal transport window IS the therapeutic window.
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Immune Evasion &mdash; Exploiting Neuronal Privilege</h4>
+          <div class="mech-list">
+            <div class="mech-item immune">
+              <h5>IFN Antagonism by P protein</h5>
+              <p>The phosphoprotein (P) directly blocks nuclear import of phosphorylated STAT1 (pSTAT1) and STAT2, preventing IFN-stimulated gene (ISG) transcription. This evasion is active in peripheral nerve terminals during the retrograde transport phase &mdash; the period when the immune system has the best chance of intercepting the virus. Without robust ISG responses, RABV traverses peripheral nerves undetected.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>Minimal Neuronal Apoptosis</h5>
+              <p>RABV suppresses neuronal apoptosis during active replication &mdash; maintaining neuronal viability is essential for sustained trans-synaptic spread. This contrasts with many other neurotropic viruses (e.g., herpes, encephalitic flaviviruses) that rapidly kill neurons. The clinical severity of rabies encephalitis is therefore largely functional &mdash; disruption of ion channel function, synaptic transmission, and neurotransmitter release &mdash; rather than structural neuronal destruction.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>Blood-Brain Barrier and Immune Exclusion</h5>
+              <p>Neurons in the CNS express low levels of MHC-I, are relatively inaccessible to CTL killing, and are protected by the blood-brain barrier from circulating antibodies and immune cells. RABV exploits this immune privilege: by the time adaptive immunity generates RABV-neutralising antibodies, the virus is replicating in an immunologically shielded compartment. This is why even high neutralising antibody titres (induced by PEP) cannot rescue patients once clinical encephalitis is established.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Clinical Disease &mdash; Stages and Forms</h4>
+          <table class="path-table">
+            <tr><th>Stage</th><th>Duration</th><th>Hallmarks</th></tr>
+            <tr><td><strong>Incubation</strong></td><td>Days to years (median 1&ndash;3 months)</td><td>Completely asymptomatic; virus confined to peripheral nervous system during retrograde transport; PEP fully effective here</td></tr>
+            <tr><td><strong>Prodrome</strong></td><td>2&ndash;10 days</td><td>Non-specific: fever, malaise, headache, nausea; <em>pathognomonic when present</em>: paraesthesias, pain, or itching at the healed bite site (centrifugal spread to sensory nerves from spinal cord)</td></tr>
+            <tr><td><strong>Acute neurological &mdash; Encephalitic (furious) form</strong></td><td>2&ndash;7 days</td><td>~80% of cases. Hydrophobia (water triggers laryngeal/pharyngeal spasms: inspiratory spasms on swallowing; RABV may suppress central swallowing inhibition); aerophobia (air currents trigger same); agitation, hyperexcitability, autonomic instability (tachycardia, hypersalivation, piloerection); fluctuating consciousness; preserved lucid intervals initially</td></tr>
+            <tr><td><strong>Acute neurological &mdash; Paralytic (dumb) form</strong></td><td>2&ndash;14 days</td><td>~20% of cases. Ascending flaccid paralysis mimicking Guillain-Barr&eacute; syndrome; less dramatic hydrophobia/aerophobia; brainstem and respiratory failure. More often misdiagnosed; associated with bat exposures in some series</td></tr>
+            <tr><td><strong>Coma and death</strong></td><td>Days</td><td>Progressive brainstem failure; central apnoea; cardiac arrhythmias; multiple organ failure; death near-universal without aggressive ICU support</td></tr>
+          </table>
+
+          <h5>Neuropathology</h5>
+          <p><strong>Negri bodies:</strong> Eosinophilic intracytoplasmic inclusion bodies in pyramidal neurons of the hippocampus (Sommer sector, CA3) and cerebellar Purkinje cells &mdash; pathognomonic of rabies. Represent phase-separated condensates (membrane-less organelles) of N-protein and viral RNA. DFA against N-protein on brain touch impressions or frozen sections is the reference diagnostic standard (sensitivity ~99% in brain, lower in ante-mortem biopsies). RT-PCR (saliva, CSF, nuchal skin biopsy) is preferred for ante-mortem diagnosis.</p>
+          <p><strong>Babes nodules:</strong> Small perivascular glial and lymphocytic aggregates throughout brainstem and spinal cord; non-specific but supportive of diagnosis in context.</p>
+          <p><strong>Paradox of minimal cell death:</strong> Neuronal loss is relatively modest despite overwhelming encephalitis severity. This supports the hypothesis that RABV causes primarily functional neurological disruption &mdash; via inhibition of synaptic proteins, alteration of ion channels (GABAA, nAChR), and neurotransmitter release &mdash; rather than the structural neuronal destruction seen in HSV or Japanese encephalitis virus.</p>
+        </div>
+
+        <div class="detail-section">
+          <h4>Post-Exposure Prophylaxis (PEP) &mdash; The Axonal Transport Window</h4>
+          <ul class="step-list">
+            <li><strong>Immediate wound care:</strong> Vigorous washing with soap and water for &ge;15 minutes; povidone-iodine application; debridement if indicated. This step alone may mechanically remove virus. Do not suture unless haemostasis requires it (suturing seals virus in).</li>
+            <li><strong>Rabies Immunoglobulin (RIG):</strong> Human RIG (HRIG) 20 IU/kg, or equine RIG (ERIG) 40 IU/kg for Day 0 only. Infiltrate as much as anatomically possible into and around the wound; remainder given IM at a distant site. RIG provides immediate passive antibody until the vaccine generates active immunity. NOT given to previously vaccinated individuals.</li>
+            <li><strong>Rabies vaccine &mdash; 4-dose series (CDC/WHO recommended for unvaccinated):</strong> Days 0, 3, 7, 14 IM (deltoid in adults; anterolateral thigh in children). HDCV (Human Diploid Cell Vaccine) or PCECV (Purified Chick Embryo Cell Vaccine) are the primary modern vaccines. Previously vaccinated: 2 doses only (Days 0, 3); no RIG required.</li>
+            <li><strong>Category-based risk stratification (WHO):</strong> Category I (touching/feeding animals, licks on intact skin): no PEP. Category II (nibbling unbroken skin, minor scratches): vaccine alone. Category III (transdermal bites/scratches, licks on broken skin, bat contact): full RIG + vaccine. All Category III require immediate action.</li>
+          </ul>
+
+          <h5>Milwaukee Protocol &mdash; Experimental Management of Established Rabies</h5>
+          <p>In 2004, a 15-year-old Wisconsin patient (Jeanna Giese) survived clinical rabies following treatment with <strong>therapeutic coma induction</strong> (ketamine, midazolam), antivirals (ribavirin, amantadine), and intensive supportive care. A formal protocol (the Milwaukee Protocol) was developed and applied in >40 subsequent cases globally, with only 5&ndash;6 additional survivors. The original rationale was that coma would reduce metabolic demand while host immunity cleared the virus. Subsequent analysis suggests survival correlated with early onset of virus-neutralising antibodies and a degree of immune-mediated viral clearance &mdash; not with the pharmacological protocol itself. The Milwaukee Protocol is not recommended outside of experimental ethics-approved settings.</p>
+        </div>
+
+        <div class="detail-section">
+          <h4>Vaccines &mdash; Pre-Exposure Prophylaxis (PrEP)</h4>
+          <table class="path-table">
+            <tr><th>Vaccine</th><th>Type</th><th>Schedule (PrEP)</th><th>Key notes</th></tr>
+            <tr><td>HDCV (Imovax Rabies)</td><td>Inactivated virus, human diploid cell grown</td><td>Days 0, 7, 21 or 28 IM; booster every 2&ndash;3 years or per titre testing</td><td>Reference standard; highest immunogenicity; recommended for high-risk occupations (veterinarians, lab workers, travellers to enzootic areas)</td></tr>
+            <tr><td>PCECV (RabAvert)</td><td>Inactivated virus, purified chick embryo cell grown</td><td>Same as HDCV</td><td>Equally immunogenic; lower cost; widely available globally</td></tr>
+            <tr><td>PVRV (Verorab)</td><td>Inactivated, Vero cell</td><td>Days 0, 7, 21 or 28</td><td>WHO prequalified; extensively used in Asia and Africa; cost-effective for global programs</td></tr>
+            <tr><td>mRNA vaccines (experimental)</td><td>Lipid nanoparticle-encapsulated mRNA encoding G protein</td><td>Under clinical investigation (phase I/II)</td><td>Potential for low-cost, thermostable manufacture; accelerated antibody response; not yet approved</td></tr>
+          </table>
+          <p>PrEP does not eliminate the need for post-exposure care after a potential exposure, but simplifies it: 2 booster doses only (Days 0 and 3), no RIG required. This is critical in low-resource settings where RIG is often unavailable. <strong>RIG unavailability is the most significant barrier to effective PEP globally.</strong></p>
+        </div>
+
+        <div class="detail-section">
+          <h4>Cross-Atlas Connections</h4>
+          <div class="connections">
+            <a class="conn-pill infects" href="#"><span class="rel">Infects</span>Neurons (via nAChR/NCAM/p75NTR at NMJ)</a>
+            <a class="conn-pill damages" href="#"><span class="rel">Damages</span>Peripheral Nervous System (retrograde transport)</a>
+            <a class="conn-pill damages" href="#"><span class="rel">Damages</span>Brain (limbic encephalitis, Negri bodies)</a>
+            <a class="conn-pill targets" href="#"><span class="rel">Prevented by</span>HDCV / PCECV vaccines + RIG (PEP)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1371/journal.pntd.0003709" target="_blank" rel="noopener noreferrer">Hampson K, Coudeville L, Lembo T, et al. Estimating the global burden of endemic canine rabies. PLoS Negl Trop Dis. 2015;9(4):e0003709.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25881058/" target="_blank" rel="noopener noreferrer">PubMed 25881058</a></li>
-            <li><a href="https://doi.org/10.1080/13550280590900427" target="_blank" rel="noopener noreferrer">Lafon M. Rabies virus receptors. J Neurovirol. 2005;11(1):82-87.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15804965/" target="_blank" rel="noopener noreferrer">PubMed 15804965</a></li>
-            <li><a href="https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5902a1.htm" target="_blank" rel="noopener noreferrer">Rupprecht CE, Briggs D, Brown CM, et al. Use of a reduced (4-dose) vaccine schedule for postexposure prophylaxis to prevent human rabies. MMWR Recomm Rep. 2010;59(RR-2):1-9.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20300058/" target="_blank" rel="noopener noreferrer">PubMed 20300058</a></li>
+            <li>Hampson K, Coudeville L, Lembo T, et al. Estimating the global burden of endemic canine rabies. <em>PLoS Negl Trop Dis.</em> 2015;9(4):e0003709. <a href="https://doi.org/10.1371/journal.pntd.0003709">doi:10.1371/journal.pntd.0003709</a> &middot; PubMed 25881058</li>
+            <li>Lafon M. Rabies virus receptors. <em>J Neurovirol.</em> 2005;11(1):82-87. <a href="https://doi.org/10.1080/13550280590900427">doi:10.1080/13550280590900427</a> &middot; PubMed 15804965</li>
+            <li>Rupprecht CE, Briggs D, Brown CM, et al. Use of a reduced (4-dose) vaccine schedule for postexposure prophylaxis to prevent human rabies. <em>MMWR Recomm Rep.</em> 2010;59(RR-2):1-9. PubMed 20300058</li>
+            <li>Jackson AC, Warrell MJ, Rupprecht CE, et al. Management of rabies in humans. <em>Clin Infect Dis.</em> 2003;36(1):60-63. <a href="https://doi.org/10.1086/344905">doi:10.1086/344905</a> &middot; PubMed 12491202</li>
+            <li>Willoughby RE Jr, Tieves KS, Hoffman GM, et al. Survival after treatment of rabies with induction of coma. <em>N Engl J Med.</em> 2005;352(24):2508-14. <a href="https://doi.org/10.1056/NEJMoa050382">doi:10.1056/NEJMoa050382</a> &middot; PubMed 15958806</li>
+            <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020.</li>
           </ul>
         </div>
 
       </div>
     </div>
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers RABV genome, axonal transport, clinical stages, PEP protocol, and vaccine types. Planned expansions: RABV molecular neuroscience, bat reservoir ecology, global elimination targets (WHO 2030), and novel mRNA vaccine platforms.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Rabies%20Virus%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
+    </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="hiv-1.html">HIV-1</a>
+      <a href="coxsackievirus-b.html">Coxsackievirus B</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>

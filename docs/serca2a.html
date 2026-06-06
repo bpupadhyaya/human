@@ -3,201 +3,210 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SR/ER Ca²⁺-ATPase isoform 2a (gene ATP2A2). Cardiac SR Ca²⁺ reuptake pump: uses 2 ATP per cycle to transport 2 Ca²⁺ from cytosol to SR lumen, restoring diastoli">
-  <meta property="og:title" content="SERCA2a — Human Engineering">
+  <meta name="description" content="SERCA2a (ATP2A2) — cardiac SR Ca²⁺ pump, P-type ATPase, Post-Albers cycle, PLN regulation, heart failure, gene therapy. Human Engineering Atlas.">
+  <meta property="og:title" content="SERCA2a — Human Engineering Atlas">
   <meta name="theme-color" content="#f2f2f7">
   <title>SERCA2a — Human Engineering</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff0f0 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    td code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em;background:var(--bg-3);padding:.1em .4em;border-radius:4px}
+    .pathway-block{background:#0f1a14;color:#a8f0c8;border-radius:var(--radius);padding:1.25rem 1.5rem;font-family:ui-monospace,SFMono-Regular,Menlo,"Courier New",monospace;font-size:.82rem;line-height:1.9;overflow-x:auto;margin:1rem 0}
+    .pathway-block .c{color:#4a7a5e}.pathway-block .hi{color:#ffb86b;font-weight:700}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
   </style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>SERCA2a</h1>
-    <p class="tagline">SR/ER Ca²⁺-ATPase isoform 2a (gene ATP2A2). Cardiac SR Ca²⁺ reuptake pump: uses 2 ATP per cycle to transport 2 Ca²⁺ from cytosol to SR lumen, restoring diastolic [Ca²⁺]i to ~100 nM. Tonically inhibited by phospholamban; β1-AR/PKA disinhibits via PLN phosphorylation.</p>
-    <p class="aliases">Also known as: SERCA2a, ATP2A2, SR Ca2+-ATPase, sarcoendoplasmic reticulum calcium ATPase 2a</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="phospholamban.html">Phospholamban</a>
+      <a href="ryr2.html">RyR2</a>
+      <a href="cardiomyocyte.html">Cardiomyocyte</a>
     </div>
   </div>
+</nav>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Atlas One · Human · Molecular · UniProt P16615</p>
+    <h1>SERCA<span>2a</span></h1>
+    <p class="hero-lead">SERCA2a (Sarco/Endoplasmic Reticulum Ca²⁺-ATPase isoform 2a, gene <em>ATP2A2</em>) — the dominant Ca²⁺ reuptake pump of the cardiac SR. Uses 1 ATP per cycle to transport 2 Ca²⁺ from cytosol to SR lumen, handling ~70% of diastolic Ca²⁺ removal. Tonically inhibited by phospholamban (PLN); β1-AR/PKA disinhibits via PLN Ser16 phosphorylation. Activity is reduced 30–50% in heart failure — a central driver of impaired relaxation and contractility.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span><strong>Gene:</strong> ATP2A2 · 12q24.11</span>
+  <span><strong>UniProt:</strong> P16615</span>
+  <span><strong>Mass:</strong> ~110 kDa</span>
+  <span><strong>Scale:</strong> 03-Molecular</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="overview">
+    <h2>Overview</h2>
+    <p>SERCA2a is the <strong>dominant Ca²⁺ reuptake pump of the cardiac sarcoplasmic reticulum (SR)</strong> and the molecular engine of diastolic Ca²⁺ removal. Each catalytic cycle couples the hydrolysis of <strong>one ATP</strong> to the active transport of <strong>two Ca²⁺ ions</strong> from the cytosol into the SR lumen against a steep electrochemical gradient, restoring diastolic [Ca²⁺]i to ~100 nM.</p>
+    <p>SERCA2a is responsible for approximately <strong>70% of cytosolic Ca²⁺ removal</strong> following each systole in human ventricular myocytes. By refilling the SR Ca²⁺ store, it simultaneously: (1) lowers cytosolic [Ca²⁺] → enables muscle relaxation (lusitropy); and (2) refills the SR → provides Ca²⁺ available for the next contraction cycle.</p>
+    <p>SERCA2a function is tonically inhibited by <a href="phospholamban.html">phospholamban (PLN)</a> — a 52 aa micropeptide that is the principal physiological brake on pump activity. This PLN–SERCA2a binary interaction is a central regulatory node of sympathetic heart rate and contractility.</p>
+    <div class="callout"><strong>Heart failure target:</strong> SERCA2a expression and activity are reduced 30–50% in HFrEF, impairing Ca²⁺ reuptake, slowing relaxation, and reducing SR Ca²⁺ load. AAV1-SERCA2a gene therapy (CUPID trial) showed promising phase 2a results but did not demonstrate benefit in the definitive phase 2b — ongoing investigation into vector efficiency and patient selection continues.</div>
+  </div>
+
+  <div class="section" id="structure">
+    <h2>Structure</h2>
+    <h3>P-type ATPase Architecture</h3>
+    <table>
+      <thead><tr><th>Domain</th><th>Location</th><th>Function</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Actuator domain (A)</strong></td><td>Cytoplasmic, N-terminal</td><td>Couples ATP hydrolysis to TM motion; contains invariant Glu-239</td></tr>
+        <tr><td><strong>Nucleotide-binding domain (N)</strong></td><td>Cytoplasmic, central</td><td>ATP binding; largest cytoplasmic domain</td></tr>
+        <tr><td><strong>Phosphorylation domain (P)</strong></td><td>Cytoplasmic, between TM4–5</td><td>Catalytic Asp-351; transiently phosphorylated during E1P→E2P cycle</td></tr>
+        <tr><td><strong>TM1–TM10 bundle</strong></td><td>Membrane</td><td>Ca²⁺ binding sites I (Asn-768/Glu-771/Thr-799/Asp-800) and II (Glu-309/Asn-796/Asp-800/Glu-908); conformational change drives Ca²⁺ translocation</td></tr>
+      </tbody>
+    </table>
+
+    <h3>SERCA Isoforms</h3>
+    <table>
+      <thead><tr><th>Gene</th><th>Isoform</th><th>Predominant tissue</th></tr></thead>
+      <tbody>
+        <tr><td><code>ATP2A1</code></td><td>SERCA1a/1b</td><td>Fast-twitch skeletal muscle</td></tr>
+        <tr><td><code>ATP2A2</code></td><td><strong>SERCA2a</strong></td><td><strong>Cardiac and slow-twitch skeletal muscle</strong></td></tr>
+        <tr><td><code>ATP2A2</code></td><td>SERCA2b</td><td>Ubiquitous (longer C-terminus; higher Ca²⁺ affinity; not regulated by PLN)</td></tr>
+        <tr><td><code>ATP2A3</code></td><td>SERCA3</td><td>Platelets, immune cells, epithelium</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="mechanism">
+    <h2>Mechanism</h2>
+    <h3>Post-Albers Catalytic Cycle and PLN Regulation</h3>
+    <div class="pathway-block">
+<span class="c">── SERCA2a Post-Albers cycle ─────────────────────────────</span>
+
+<span class="hi">E1</span> state  (cytoplasmic face open, high Ca²⁺ affinity)
+  Km ~0.2 µM (free SERCA2a)  /  ~0.6 µM (PLN-inhibited)
+  ↓  Binds 2 Ca²⁺ at cytoplasmic sites I + II
+  ↓  ATP binds N domain
+
+<span class="hi">E1P · 2Ca²⁺</span>  (phosphoenzyme)
+  γ-phosphate transfers from ATP to Asp-351 (P domain)
+  ↓
+
+<span class="hi">E2P</span>  (occluded / low-affinity lumen-facing)
+  TM helices rearrange → Ca²⁺ occluded then released into SR lumen
+  [Ca²⁺]SR lumen: free ~1–2 mM, bound ~30 mM (CASQ2)
+  ↓
+
+<span class="hi">E2</span>  (Pi released, pump resets)
+  Returns to E1 conformation  →  next cycle
+
+<span class="c">── PLN inhibition and relief ──────────────────────────────</span>
+
+<span class="hi">Unphospho-PLN</span>:
+  TM helix engages SERCA2a TM2/6/9 → stabilizes E2 state
+  Cytoplasmic domain Ia contacts actuator domain
+  Net: Km for Ca²⁺ 0.2 → 0.6 µM  (~2x slower pump at 100 nM [Ca²⁺])
+
+<span class="hi">PKA → PLN Ser16-P</span>  (β1-AR sympathetic stimulation):
+  Negative charge on PLN-Ia → electrostatic repulsion
+  PLN disengages from SERCA2a
+  Km returns to 0.2 µM → FASTER Ca²⁺ reuptake
+  → FASTER relaxation (lusitropy)
+  → HIGHER SR Ca²⁺ load → LARGER Ca²⁺ transient next beat (inotropy)
     </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">serca2a</div>
-        <h2>SERCA2a</h2>
-        <p class="summary">SR/ER Ca²⁺-ATPase isoform 2a (gene ATP2A2). Cardiac SR Ca²⁺ reuptake pump: uses 2 ATP per cycle to transport 2 Ca²⁺ from cytosol to SR lumen, restoring diastolic [Ca²⁺]i to ~100 nM. Tonically inhibited by phospholamban; β1-AR/PKA disinhibits via PLN phosphorylation.</p>
-      </div>
-      <div class="detail-body">
+    <h3>Fractional Ca²⁺ Removal Per Beat</h3>
+    <table>
+      <thead><tr><th>Pathway</th><th>Fractional removal (human ventricle)</th></tr></thead>
+      <tbody>
+        <tr><td><strong>SERCA2a (SR uptake)</strong></td><td>~70%</td></tr>
+        <tr><td>NCX1 (sarcolemmal extrusion)</td><td>~28%</td></tr>
+        <tr><td>Sarcolemmal Ca²⁺-ATPase (PMCA)</td><td>~1%</td></tr>
+        <tr><td>Mitochondrial uniporter</td><td>~1%</td></tr>
+      </tbody>
+    </table>
+    <p>The predominance of SERCA2a (~70%) in human myocardium means most of the Ca²⁺ released each beat is recaptured into the SR, maintaining SR Ca²⁺ content relatively constant beat-to-beat. This contrasts with rabbit myocytes where NCX1 contributes ~50% — an important species difference in Ca²⁺ cycling.</p>
+  </div>
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>serca2a</td></tr>
-            <tr><td>Name</td><td>SERCA2a</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-            <tr><td>Uniprot</td><td>P16615</td></tr>
-            <tr><td>Gene Symbol</td><td>ATP2A2</td></tr>
-            <tr><td>Chromosome</td><td>12q24.11</td></tr>
-          </table>
-        </div>
+  <div class="section" id="pathology">
+    <h2>Pathology</h2>
+    <table>
+      <thead><tr><th>Disease</th><th>SERCA2a mechanism</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Heart failure with reduced EF (HFrEF)</strong></td><td>SERCA2a expression and activity reduced 30–50%; Ca²⁺ reuptake slower; diastolic [Ca²⁺] elevated; SR Ca²⁺ load depleted → reduced systolic Ca²⁺ transient → reduced contractility + impaired relaxation. One of the most consistent molecular hallmarks of HFrEF.</td></tr>
+        <tr><td><strong>Diastolic dysfunction (HFpEF)</strong></td><td>Impaired SERCA2a kinetics prolong Ca²⁺ transient decay → slower IVRT → elevated filling pressures. PLN hyper-inhibition and reduced PLN phosphorylation are contributing mechanisms.</td></tr>
+        <tr><td><strong>AAV1-SERCA2a gene therapy (CUPID)</strong></td><td>Intracoronary delivery of AAV1-SERCA2a in HFrEF patients; improved NYHA class and HF hospitalizations in phase 2a (n=39); phase 2b (CUPID-2, n=250) showed no significant benefit — likely due to insufficient gene delivery; optimization of vectors and dosing ongoing.</td></tr>
+        <tr><td><strong>Darier disease</strong></td><td>Autosomal dominant ATP2A2 mutations primarily affect the ubiquitous SERCA2b isoform → keratinocyte Ca²⁺ dysregulation → acantholytic skin disorder. Cardiac SERCA2a isoform may be mildly affected in some patients.</td></tr>
+        <tr><td><strong>Ischemia</strong></td><td>ATP depletion → SERCA2a stops pumping → cytosolic Ca²⁺ rises → Ca²⁺ overload → myofibril hypercontraction → cell death. NCX reverse mode also contributes (see NCX1 entry).</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="calcium.html" title="SERCA2a is the primary Ca²⁺ reuptake pump of the cardiac SR, responsible for ~70% of Ca²⁺ removal from the cytosol after each contraction, restoring diastolic [Ca²⁺]i."><span class="rel">modulates</span>Calcium</a>
-            <a class="conn-pill" href="cardiomyocyte.html" title="SERCA2a is the dominant SERCA isoform in adult ventricular cardiomyocytes, localised to the longitudinal SR membrane."><span class="rel">expressed-by</span>Cardiomyocyte</a>
-            <a class="conn-pill" href="beta1-adrenergic-receptor.html" title="β1-AR/PKA phosphorylates phospholamban (PLN) at Ser16, relieving PLN inhibition of SERCA2a → faster Ca²⁺ reuptake → faster relaxation (lusitropy) and larger SR Ca²⁺ load."><span class="rel">modulated-by</span>Beta1 Adrenergic Receptor</a>
-            <a class="conn-pill" href="phospholamban.html" title="Dephosphorylated phospholamban (PLN) binds SERCA2a and reduces its Ca²⁺ affinity (Km from ~0.2 µM to ~0.6 µM); PLN phosphorylation by PKA/CaMKII relieves this inhibition."><span class="rel">modulated-by</span>Phospholamban</a>
-          </div>
-        </div>
+  <div class="section" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">expressed-by</span><span><a href="cardiomyocyte.html">Cardiomyocyte</a> — SERCA2a is the dominant cardiac SR pump, localized to longitudinal SR membrane; handles ~70% of Ca²⁺ removal per beat</span></li>
+      <li><span class="conn-rel">modulated-by</span><span><a href="phospholamban.html">Phospholamban</a> — tonic inhibitor; dephospho-PLN shifts SERCA2a Km from 0.2 to 0.6 µM; phospho-PLN (by PKA/CaMKII) relieves inhibition</span></li>
+      <li><span class="conn-rel">modulated-by</span><span>β1-adrenergic receptor → PKA → PLN Ser16 phosphorylation → SERCA2a disinhibition → lusitropy + increased SR loading</span></li>
+      <li><span class="conn-rel">refills</span><span><a href="ryr2.html">RyR2</a> SR Ca²⁺ store — SERCA2a replenishes the SR after each CICR cycle; the ratio of SERCA2a activity to RyR2 leak determines SR Ca²⁺ content</span></li>
+      <li><span class="conn-rel">competes-with</span><span><a href="ncx1.html">NCX1</a> — competing Ca²⁺ removal pathways; SERCA2a recaptures Ca²⁺ into SR; NCX1 extrudes Ca²⁺ extracellularly; balance determines SR Ca²⁺ load</span></li>
+    </ul>
+  </div>
 
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://doi.org/10.1038/nrm1151" target="_blank" rel="noopener noreferrer">MacLennan DH, Kranias EG. Phospholamban: a crucial regulator of cardiac contractility. Nat Rev Mol Cell Biol. 2003;4(7):566-77.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12838339/" target="_blank" rel="noopener noreferrer">PubMed 12838339</a></li>
-            <li><a href="https://doi.org/10.1038/415198a" target="_blank" rel="noopener noreferrer">Bers DM. Cardiac excitation-contraction coupling. Nature. 2002;415(6868):198-205.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11805843/" target="_blank" rel="noopener noreferrer">PubMed 11805843</a></li>
-            <li><a href="https://doi.org/10.1016/S0008-6363(99)00042-4" target="_blank" rel="noopener noreferrer">Periasamy M, Bhargava V. Sarcoplasmic reticulum calcium ATPase pump expression and its relevance to cardiac muscle physiology and pathology. Cardiovasc Res. 1999;42(3):583-597.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10533672/" target="_blank" rel="noopener noreferrer">PubMed 10533672</a></li>
-            <li><a href="https://doi.org/10.1161/CIRCULATIONAHA.111.022889" target="_blank" rel="noopener noreferrer">Jessup M, Greenberg B, Mancini D, et al. Calcium upregulation by percutaneous administration of gene therapy in cardiac disease (CUPID). Circulation. 2011;124(3):304-13.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21709064/" target="_blank" rel="noopener noreferrer">PubMed 21709064</a></li>
-          </ul>
-        </div>
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>MacLennan DH, Kranias EG. <a href="https://doi.org/10.1038/nrm1151" target="_blank" rel="noopener">Phospholamban: a crucial regulator of cardiac contractility.</a> <em>Nat Rev Mol Cell Biol.</em> 2003;4(7):566–77. PubMed 12838339.</li>
+      <li>Bers DM. <a href="https://doi.org/10.1038/415198a" target="_blank" rel="noopener">Cardiac excitation-contraction coupling.</a> <em>Nature.</em> 2002;415:198–205. PubMed 11805843.</li>
+      <li>Periasamy M, Bhargava V. <a href="https://doi.org/10.1016/S0008-6363(99)00042-4" target="_blank" rel="noopener">Sarcoplasmic reticulum calcium ATPase pump expression and its relevance to cardiac muscle physiology and pathology.</a> <em>Cardiovasc Res.</em> 1999;42(3):583–97. PubMed 10533672.</li>
+      <li>Jessup M, Greenberg B, Mancini D, et al. <a href="https://doi.org/10.1161/CIRCULATIONAHA.111.022889" target="_blank" rel="noopener">CUPID: Calcium upregulation by percutaneous administration of gene therapy in cardiac disease.</a> <em>Circulation.</em> 2011;124(3):304–13. PubMed 21709064.</li>
+    </ol>
+  </div>
 
-      </div>
-    </div>
-  </main>
+</div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<footer>
+  <p><a href="index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> · bpupadhyaya@gmail.com</p>
+  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</p>
+</footer>
 </body>
 </html>

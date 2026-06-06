@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CD4+CD25hiFOXP3+ T lymphocytes; 5–10% of peripheral CD4+ cells. Master regulators of immune tolerance: suppress autoreactive T cells via IL-10, TGF-β, CTLA-4, I">
+  <meta name="description" content="Regulatory T Cell (Treg) — CD4+CD25hiFOXP3+ master regulators of immune tolerance. Suppress autoreactive T cells via IL-10, TGF-β, CTLA-4, IL-2 consumption, and adenosine. Loss of FOXP3 causes fatal IPEX autoimmunity syndrome.">
   <meta property="og:title" content="Regulatory T Cell — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Regulatory T Cell — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #2563eb;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,51 +32,49 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(37,99,235,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #1d4ed8, #1e3a8a); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+    .detail-section ol, .detail-section ul { padding-left: 1.4rem; color: var(--fg-soft); font-size: 0.95rem; line-height: 1.7; }
+    .detail-section li { margin-bottom: 0.3rem; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -108,8 +99,8 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="immune-system.html">Immune System</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -119,65 +110,198 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
     <h1>Regulatory T Cell</h1>
-    <p class="tagline">CD4+CD25hiFOXP3+ T lymphocytes; 5–10% of peripheral CD4+ cells. Master regulators of immune tolerance: suppress autoreactive T cells via IL-10, TGF-β, CTLA-4, IL-2 consumption, and adenosine. Loss of FOXP3 causes fatal IPEX autoimmunity syndrome.</p>
-    <p class="aliases">Also known as: Treg, CD4+CD25+FOXP3+ T cell, regulatory lymphocyte, suppressor T cell</p>
+    <p class="tagline">The immune system's brake — CD4+CD25hiFOXP3+ T cells that maintain peripheral tolerance, prevent autoimmunity, and suppress excess inflammation through multiple complementary mechanisms.</p>
+    <p class="subtagline">5–10% of peripheral CD4+ T cells. Loss of FOXP3 causes IPEX syndrome — fatal neonatal autoimmunity. Excess in tumors promotes immune evasion — CTLA-4 blockade (ipilimumab) depletes tumour-infiltrating Tregs as a primary anti-cancer mechanism.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">5–10%</span><span class="stat-label">of peripheral CD4+ T cells</span></div>
+      <div class="stat"><span class="stat-num">FOXP3</span><span class="stat-label">Master transcription factor</span></div>
+      <div class="stat"><span class="stat-num">7 mechanisms</span><span class="stat-label">Suppression modes</span></div>
+      <div class="stat"><span class="stat-num">IPEX</span><span class="stat-label">Disease of FOXP3 loss</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">regulatory-t-cell</div>
-        <h2>Regulatory T Cell</h2>
-        <p class="summary">CD4+CD25hiFOXP3+ T lymphocytes; 5–10% of peripheral CD4+ cells. Master regulators of immune tolerance: suppress autoreactive T cells via IL-10, TGF-β, CTLA-4, IL-2 consumption, and adenosine. Loss of FOXP3 causes fatal IPEX autoimmunity syndrome.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One / Scale 04 &middot; regulatory-t-cell</div>
+        <h2>Regulatory T Cell (Treg)</h2>
+        <p class="summary">CD4+CD25hiFOXP3+ regulatory T cells are the central cellular mechanisms of immunological self-tolerance — 5–10% of peripheral CD4+ T cells that actively monitor and restrain immune responses through IL-10, TGF-β, CTLA-4 trans-endocytosis, IL-2 deprivation, adenosine generation (CD39/CD73), and direct granzyme B-mediated killing. Loss of FOXP3 causes IPEX — fatal neonatal multi-organ autoimmunity. Excess in tumours promotes immune evasion; depletion by anti-CTLA-4 therapy reinvigorates anti-tumour immunity.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>Regulatory T cells (Tregs) are a specialized subset of CD4+ T lymphocytes defined by constitutive co-expression of CD4, CD25 (IL-2Rα), and the master transcription factor <strong>FOXP3</strong> (forkhead box P3). They comprise 5–10% of peripheral CD4+ T cells in humans and are the central cellular mechanisms of immunological self-tolerance.</p>
+          <p>Tregs are not simply suppressive bystanders: they actively monitor and restrain immune responses through a diverse toolkit of contact-dependent and contact-independent mechanisms, maintaining the delicate balance between protective immunity and destructive autoimmunity. This dual role — too few Tregs leads to autoimmunity; too many leads to immune evasion in cancer and chronic infection — makes them important targets in both autoimmune disease therapy (Treg enhancement) and cancer immunotherapy (Treg depletion).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure — Surface Markers</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>regulatory-t-cell</td></tr>
-            <tr><td>Name</td><td>Regulatory T Cell</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
+            <tr><th>Marker</th><th>Expression</th><th>Function / Significance</th></tr>
+            <tr><td>CD4</td><td>Constitutive</td><td>MHC-II co-receptor; carries Lck; defines T helper lineage</td></tr>
+            <tr><td>CD25 (IL-2Rα)</td><td>Constitutively high</td><td>High-affinity IL-2R subunit; ~100× higher IL-2 affinity than dimeric IL-2R; "IL-2 sink"</td></tr>
+            <tr><td>FOXP3</td><td>Nuclear; constitutive</td><td>Master TF; represses IL-2, IFN-γ, IL-17; induces CD25, CTLA-4; 431-aa forkhead protein</td></tr>
+            <tr><td>CD127 (IL-7Rα)</td><td>Low (inverse to FOXP3)</td><td>Clinical surrogate for FOXP3; used to sort Tregs (CD4+CD25+CD127low)</td></tr>
+            <tr><td>CTLA-4 (CD152)</td><td>Constitutively high</td><td>Higher CD80/86 avidity than CD28 (Kd 0.4 µM vs 4 µM); trans-endocytosis of CD80/86 from APCs</td></tr>
+            <tr><td>CD39 (NTPDase1)</td><td>+</td><td>Converts extracellular ATP/ADP → AMP; pair with CD73</td></tr>
+            <tr><td>CD73</td><td>+</td><td>Converts AMP → adenosine; adenosine → A2AR → immunosuppression</td></tr>
+            <tr><td>Helios (IKZF2)</td><td>tTreg marker</td><td>Marks thymic-origin Tregs; pTregs are Helios−</td></tr>
+            <tr><td>CXCR5 (Tfr)</td><td>Follicular Treg subset</td><td>Follicular regulatory T cells (Tfr); CXCR5+FOXP3+; control GC reactions with Tfh</td></tr>
+            <tr><td>GITR (TNFRSF18)</td><td>Constitutive</td><td>Glucocorticoid-induced TNFR; agonism overcomes Treg suppression (anti-tumor strategy)</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — FoxP3 Axis and Suppression Mechanisms</h3>
+          <div class="circuit-diagram">
+<pre>
+  Treg activation (TCR:self-pMHC-II + IL-2 via CD25)
+         │
+         ▼
+  FOXP3 maintains suppressive program:
+  Represses: IL-2, IFN-γ, IL-4, IL-17
+  Induces:   CD25, CTLA-4, Helios, GITR
+         │
+         ▼
+  Seven Suppression Mechanisms:
+
+  1. Inhibitory cytokines
+     ├──► IL-10 → DCs: ↓CD80/86, ↓MHC-II, ↓IL-12 → block Teff priming
+     ├──► TGF-β → Teff: ↓proliferation, ↓IFN-γ; → B cells: IgA CSR
+     └──► IL-35 → "infectious tolerance" converts Teff to Tr35 suppressors
+
+  2. CTLA-4 trans-endocytosis
+     CTLA-4 (Treg) captures and internalises CD80/CD86 from APC surface
+     → depletes co-stimulatory ligands available to effector T cells
+     → CD28 signaling in Teff cells impaired
+
+  3. IL-2 deprivation ("IL-2 sink")
+     CD25hi Tregs consume IL-2 from microenvironment
+     → effector T cells starved of survival/proliferation cytokine
+
+  4. cAMP transfer
+     Tregs contain high cAMP → transfer to Teff via connexin-43 gap junctions
+     → PKA → ↓IL-2 transcription + ↑ICER repressor
+
+  5. Adenosine pathway
+     CD39 (ATP → AMP) + CD73 (AMP → adenosine)
+     Adenosine → A2AR (Gαs) on T cells/DCs/NK cells
+     → ↑cAMP → suppress TCR signaling and cytotoxicity
+
+  6. Granzyme B-mediated killing (perforin-independent)
+     Direct elimination of DCs, Teff cells, NK cells in tumor microenvironment
+
+  7. TIM-1/TIM-4 direct contact suppression
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lifecycle / Differentiation — tTreg vs pTreg</h3>
+          <div class="circuit-diagram">
+<pre>
+  === Thymic Tregs (tTreg) ===
+
+  DP thymocyte with HIGH-AFFINITY self-TCR
+  (above positive selection, below deletion threshold)
+         │
+         ▼
+  Signals: TCR:self-pMHC-II (avidity) + CD28 + IL-2/IL-15
+  → FOXP3 induction via NFAT → FOXP3 promoter
+  → CNS2 demethylation (TSDR: Treg-specific demethylated region)
+  → Stable, heritable FOXP3 expression
+         │
+         ▼
+  Helios+ tTreg: stable even in inflammatory conditions
+  Represent ~60–70% of peripheral Tregs
+
+  === Peripheral Tregs (pTreg) ===
+
+  Naive peripheral CD4+ T cell
+         │
+         ▼
+  Tolerogenic conditions: TGF-β + IL-2
+  + Retinoic acid (gut CD103+ cDC2s, dietary vitamin A → ALDH1A1)
+  → Smad2/3 + NFAT → FOXP3 induction
+  → Helios− pTreg (FOXP3+RORγt+ in gut lamina propria)
+         │
+         ▼
+  Peripheral tolerance to:
+  - Commensal bacteria (gut pTregs, microbiome-induced)
+  - Dietary antigens
+  - Self-antigens not seen in thymus
+
+  === Stability and Plasticity ===
+
+  Stable Tregs (CNS2 demethylated): maintain FOXP3 in inflammation
+  Plastic Tregs (CNS2 methylated): FOXP3 loss under IL-6/IL-1β/TNF-α
+  → "ExTreg" Th17-like cells: contribute to autoimmune flares
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>IPEX Syndrome — FOXP3 loss of function</h4>
+            <p>X-linked recessive loss-of-function mutations in <em>FOXP3</em> (Xp11.23) → absent tTreg development → neonatal multi-organ autoimmunity: type 1 diabetes mellitus, autoimmune thyroiditis, severe eczema, life-threatening enteropathy (villous atrophy, diarrhoea), hemolytic anemia. Without haematopoietic stem cell transplant (HSCT), most patients die in infancy. HSCT (if HLA-matched sibling available) is curative. Rapamycin (mTOR inhibitor) bridges to HSCT by preferentially expanding Tregs.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>CTLA-4 Haploinsufficiency</h4>
+            <p>Autosomal dominant CTLA4 mutations → insufficient CTLA-4 → impaired Treg suppression → lymphocytic infiltration of lungs, CNS, and GI tract; autoimmune cytopenias; resembles IPEX-like syndrome but milder. Abatacept (CTLA-4-Ig fusion protein) replaces CTLA-4 function and is the treatment of choice.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Autoimmune diseases — Treg dysfunction</h4>
+            <p>Treg dysfunction documented in type 1 diabetes (↓Treg numbers and function in pancreatic lymph nodes); multiple sclerosis (Tregs fail to suppress myelin-reactive Th17 in CNS); rheumatoid arthritis (Tregs in joints but impaired by TNF-α); IBD (colonic Treg FOXP3 instability under bacterial dysbiosis). Low-dose IL-2 therapy (expanding Tregs preferentially over Teffs) is in clinical trials for T1DM, SLE, IBD, and GVHD.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Cancer — Treg-mediated immune evasion</h4>
+            <p>Tumour-infiltrating Tregs recruited by CCL17/CCL22 (CCR4-expressing Tregs) suppress anti-tumour CTL responses. High Treg:CTL ratios in tumour microenvironments correlate with poor prognosis in ovarian cancer, colorectal cancer, and lung adenocarcinoma. CTLA-4 blockade (ipilimumab) depletes tumour-infiltrating Tregs via ADCC (Tregs are the dominant CTLA-4-expressing cells in tumours) and reinvigorates CTL responses.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Graft-versus-Host Disease (GVHD)</h4>
+            <p>Donor Tregs suppress alloreactive donor T cells after haematopoietic stem cell transplantation (HSCT); Treg depletion or dysfunction → acute GVHD (liver, gut, skin). Adoptive infusion of donor Tregs (ex vivo-expanded CD4+CD25+CD127low Tregs) is a clinical strategy to prevent GVHD without impairing graft-versus-leukaemia (GVL) effect — one of the most promising cell therapies for GVHD prevention.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Therapeutic Manipulation of Tregs</h3>
+          <table class="data-table">
+            <tr><th>Strategy</th><th>Mechanism</th><th>Clinical application</th></tr>
+            <tr><td>Low-dose IL-2 therapy</td><td>IL-2 preferentially expands Tregs over Teffs at low dose (CD25hi Tregs have 100× higher IL-2 affinity); promotes FOXP3 stability</td><td>Phase 2/3 trials: Type 1 diabetes (ITACA, DIABIL-2), SLE, IBD, GVHD prevention; aldesleukin (Proleukin) at low dose (1 MIU/m²) vs high dose used for cancer</td></tr>
+            <tr><td>CTLA-4 blockade (ipilimumab, tremelimumab)</td><td>Anti-CTLA-4 antibody depletes tumour-infiltrating Tregs (Fc-mediated ADCC via tumour macrophages expressing FcγRIII); reinvigorates anti-tumour CTL</td><td>FDA-approved: melanoma, RCC, NSCLC (ipilimumab + nivolumab); the dominant mechanism for solid tumour efficacy may be Treg depletion rather than CTL checkpoint reversal</td></tr>
+            <tr><td>Adoptive Treg transfer</td><td>Ex-vivo expansion of CD4+CD25+CD127low Tregs (1000×) using anti-CD3/CD28 beads + IL-2; infused donor Tregs suppress alloreactive T cells</td><td>ONE Study (renal transplant), THRio (GvHD prevention); ~2×10⁸ Tregs per infusion; CAR-Tregs (anti-HLA-A2 CAR to direct antigen-specificity) in clinical development</td></tr>
+            <tr><td>mTOR inhibition (rapamycin)</td><td>mTOR signaling is required for effector T cell proliferation but Tregs are relatively mTOR-independent (FOXP3 drives alternative metabolic programs); net effect: Treg expansion relative to Teffs</td><td>Transplant immunosuppression; IPEX bridging to HSCT; investigational in autoimmunity; combination with low-dose IL-2 synergistic</td></tr>
+            <tr><td>Vitamin D supplementation</td><td>1,25(OH)₂D₃ (calcitriol) binds VDR in T cells → upregulates FOXP3 transcription; promotes tolerogenic DC phenotype → pTreg induction; inhibits Th1/Th17 differentiation</td><td>Observational: Vitamin D deficiency associated with autoimmune disease (MS, T1D, IBD) and Treg insufficiency; supplementation trials ongoing in MS, SLE</td></tr>
+            <tr><td>Anti-CCR4 (mogamulizumab)</td><td>Depletes CCR4+ Tregs (and Th2 cells); Fc-mediated ADCC; CCR4 is the primary chemokine receptor driving Treg tumour infiltration</td><td>FDA-approved: CTCL (cutaneous T-cell lymphoma); combination with PD-1 blockade in clinical trials for solid tumours to relieve Treg-mediated immune suppression</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="thymus.html" title="tTregs (thymic Tregs) are selected from CD4+ thymocytes displaying high-affinity self-TCR recognition in the medulla; FOXP3 is induced by AIRE-dependent high-avidity self-antigen presentation + IL-2 + CD28 co-stimulation."><span class="rel">part-of</span>Thymus</a>
-            <a class="conn-pill" href="immune-system.html" title="Tregs maintain peripheral tolerance by suppressing autoreactive T cells, limiting effector T cell responses via IL-10/TGF-β/CTLA-4 mechanisms, and promoting resolution of inflammation after pathogen clearance."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="t-helper-cell.html" title="Tregs suppress CD4+ Th1/Th2/Th17 effector cells via IL-10, TGF-β, IL-2 deprivation (CD25 sponge), CTLA-4 downregulation of co-stimulatory ligands on APCs, and direct cAMP transfer through gap junctions."><span class="rel">modulates</span>T Helper Cell</a>
-            <a class="conn-pill" href="b-cell.html" title="Follicular regulatory T cells (Tfr, CXCR5+FOXP3+) co-localise with Tfh in germinal centres to limit Ab somatic hypermutation, affinity maturation, and plasma cell output; prevent autoreactive B cell escape."><span class="rel">modulates</span>B Cell</a>
-            <a class="conn-pill" href="bacteroides-fragilis.html" title="Modulated by Bacteroides fragilis."><span class="rel">modulated-by</span>Bacteroides Fragilis</a>
-            <a class="conn-pill" href="faecalibacterium-prausnitzii.html" title="Modulated by Faecalibacterium prausnitzii."><span class="rel">modulated-by</span>Faecalibacterium Prausnitzii</a>
-            <a class="conn-pill" href="bifidobacterium-longum.html" title="Modulated by Bifidobacterium longum."><span class="rel">modulated-by</span>Bifidobacterium Longum</a>
-            <a class="conn-pill" href="vitamin-d.html" title="Modulated by Vitamin D (Calciferol)."><span class="rel">modulated-by</span>Vitamin D</a>
+            <a class="conn-pill part" href="immune-system.html"><span class="rel">Modulates</span>immune-system (tolerance)</a>
+            <a class="conn-pill" href="thymus.html"><span class="rel">Developed in</span>thymus (tTreg)</a>
+            <a class="conn-pill" href="t-helper-cell.html"><span class="rel">Suppresses</span>t-helper-cell</a>
+            <a class="conn-pill" href="t-cytotoxic-cell.html"><span class="rel">Suppresses</span>t-cytotoxic-cell</a>
+            <a class="conn-pill" href="b-cell.html"><span class="rel">Regulates GC via</span>Tfr (follicular Treg)</a>
+            <a class="conn-pill" href="dendritic-cell.html"><span class="rel">Suppresses</span>dendritic-cell (CTLA-4)</a>
+            <a class="conn-pill" href="vitamin-d.html"><span class="rel">Expanded by</span>vitamin-D</a>
+            <a class="conn-pill" href="il-6.html"><span class="rel">Destabilized by</span>IL-6 (→ Th17)</a>
+            <a class="conn-pill" href="bacteroides-fragilis.html"><span class="rel">Induced by</span>B. fragilis PSA</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
-            <li><a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener noreferrer">Murphy K, Weaver C. Janeway's Immunobiology. 9th ed. Garland Science; 2017.</a></li>
+            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">ncbi.nlm.nih.gov</a></li>
+            <li>Murphy K, Weaver C. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2017. <a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener">garlandscience.com</a></li>
+            <li>Josefowicz SZ, Lu LF, Rudensky AY. Regulatory T cells: mechanisms of differentiation and function. <em>Annu Rev Immunol.</em> 2012;30:531-64. <a href="https://doi.org/10.1146/annurev.immunol.25.022106.141623" target="_blank" rel="noopener">doi:10.1146/annurev.immunol.25.022106.141623</a></li>
+            <li>Abbas AK, Lichtman AH, Pillai S. <em>Cellular and Molecular Immunology.</em> 9th ed. Elsevier; 2018.</li>
           </ul>
         </div>
 
@@ -189,14 +313,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="t-helper-cell.html">T Helper Cell</a>
+      <a href="t-cytotoxic-cell.html">Cytotoxic T Cell</a>
       <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

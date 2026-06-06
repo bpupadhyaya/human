@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Compact endocrine clusters (~1 million per pancreas) containing β-cells (insulin), α-cells (glucagon), δ-cells (somatostatin), PP cells, and ε-cells (ghrelin). ">
+  <meta name="description" content="Islet of Langerhans — pancreatic endocrine microorgan, beta-cell GSIS (KATP channel, Ca2+, insulin exocytosis), alpha/delta/PP cell interactions, T1DM/T2DM pathology. Atlas One · Human Engineering.">
   <meta property="og:title" content="Islet of Langerhans — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Islet of Langerhans — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: #6d28d9; }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,49 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: #d97706; }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill.mod .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +97,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,61 +109,168 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Tissue &mdash; Scale 05</div>
     <h1>Islet of Langerhans</h1>
-    <p class="tagline">Compact endocrine clusters (~1 million per pancreas) containing β-cells (insulin), α-cells (glucagon), δ-cells (somatostatin), PP cells, and ε-cells (ghrelin). KATP channel-coupled glucose sensing drives pulsatile insulin secretion controlling systemic glycaemia.</p>
-    <p class="aliases">Also known as: pancreatic islet, islet, islets of Langerhans, endocrine pancreas, pancreatic islet microorgan</p>
+    <p class="tagline">Compact endocrine microorgans of the pancreas — ~1 million per adult, housing &beta;-cells (insulin), &alpha;-cells (glucagon), &delta;-cells (somatostatin), PP cells, and &epsilon;-cells (ghrelin), forming a paracrine community that controls systemic glycaemia.</p>
+    <p class="subtagline">UBERON:0000006 &middot; 100–200 µm diameter. Receive 5–10&times; higher blood flow than surrounding acinar tissue. KATP channel-coupled glucose sensing drives pulsatile insulin secretion every 2–14 minutes via Cx36 gap junction oscillations.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~1 million</span><span class="stat-label">Islets / Pancreas</span></div>
+      <div class="stat"><span class="stat-num">65–80%</span><span class="stat-label">&beta;-cells</span></div>
+      <div class="stat"><span class="stat-num">4–7 mmol/L</span><span class="stat-label">Target Blood Glucose</span></div>
+      <div class="stat"><span class="stat-num">~50%</span><span class="stat-label">&beta;-cell loss at T2DM onset</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">islet-of-langerhans</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0000006 &middot; Atlas One / Scale 05 &mdash; Tissue</div>
         <h2>Islet of Langerhans</h2>
-        <p class="summary">Compact endocrine clusters (~1 million per pancreas) containing β-cells (insulin), α-cells (glucagon), δ-cells (somatostatin), PP cells, and ε-cells (ghrelin). KATP channel-coupled glucose sensing drives pulsatile insulin secretion controlling systemic glycaemia.</p>
+        <p class="summary">Compact, ovoid endocrine clusters (100–200 µm) distributed throughout exocrine pancreatic tissue. ~1 million islets per adult pancreas (1–2% of mass; 5–10&times; higher blood flow per unit weight). &beta;-cells form the central core; &alpha;/&delta;/PP cells form a peripheral mantle. KATP channel-coupled glucose sensing &rarr; Ca&#x00B2;&#x207A; influx &rarr; pulsatile insulin exocytosis. Loss or dysfunction underlies T1DM (autoimmune) and T2DM (progressive failure + insulin resistance).</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>Islets of Langerhans are compact, ovoid endocrine microorgans dispersed throughout the exocrine pancreatic tissue. Approximately one million islets exist per adult pancreas, representing only 1–2% of pancreatic mass yet receiving 5–10 times higher blood flow per unit weight than the surrounding acinar tissue. Each islet is a highly vascularised, autonomously regulated endocrine unit that monitors blood glucose, amino acid, and incretin levels in real time and secretes hormones to maintain glycaemia within the narrow physiological range of 4–7 mmol/L.</p>
+          <p>The five cell types of the islet act as a <strong>paracrine community</strong>, integrating signals from the portal blood, autonomic nervous system, and neighbouring islet cells through connexin-36 gap junctions, paracrine diffusion (aided by the centrifugal portal blood flow: &beta;-cell core &rarr; &alpha;/&delta;-cell periphery), and direct neural input. Loss or dysfunction of &beta;-cells underlies both type 1 diabetes mellitus (T1DM, absolute loss via autoimmune destruction) and type 2 diabetes mellitus (T2DM, progressive functional failure combined with insulin resistance), the two most prevalent metabolic diseases globally.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure — Cell Types and Architecture</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>islet-of-langerhans</td></tr>
-            <tr><td>Name</td><td>Islet of Langerhans</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>05-tissue</td></tr>
+            <tr><th>Cell Type</th><th>Proportion</th><th>Hormone(s)</th><th>Location in Human Islet</th></tr>
+            <tr><td>&beta;-cell</td><td>65–80%</td><td>Insulin, C-peptide, amylin (IAPP)</td><td>Central core; Cx36 gap junctions synchronise Ca&#x00B2;&#x207A; oscillations</td></tr>
+            <tr><td>&alpha;-cell</td><td>15–20%</td><td>Glucagon</td><td>Peripheral mantle; first bathed by &beta;-cell secretions (paracrine inhibition)</td></tr>
+            <tr><td>&delta;-cell</td><td>5–10%</td><td>Somatostatin (SST-14/SST-28)</td><td>Peripheral mantle; SSTR2 on &beta;-cells, SSTR1/2 on &alpha;-cells</td></tr>
+            <tr><td>PP/&gamma;-cell</td><td>1–5%</td><td>Pancreatic polypeptide</td><td>Peripheral; predominantly in head of pancreas; inhibits pancreatic secretion</td></tr>
+            <tr><td>&epsilon;-cell</td><td>&lt;1%</td><td>Ghrelin</td><td>Scattered; mainly fetal pancreas; &darr;insulin secretion via growth hormone secretagogue receptor</td></tr>
           </table>
+          <p style="margin-top:0.75rem;"><strong>KATP channel structure:</strong> An octameric complex of 4 Kir6.2 pore subunits (KCNJ11) + 4 SUR1 regulatory subunits (ABCC8). SUR1 contains two ABC domains: NBD1 binds ATP (inhibitory, closes channel); NBD2 binds MgADP (stimulatory, opens channel — provides negative feedback after secretion). Gain-of-function KCNJ11 or ABCC8 mutations &rarr; permanent channel opening &rarr; neonatal diabetes. Sulphonylureas (glibenclamide, gliclazide) bind SUR1 &rarr; channel closure &rarr; depolarisation &rarr; &uarr;insulin. Diazoxide opens KATP &rarr; &darr;insulin (used in nesidioblastosis). Meglitinides (repaglinide) bind a distinct SUR1 site for faster meal-coupled secretion.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — GSIS Circuit and Paracrine Interactions</h3>
+          <div class="circuit-diagram">
+<pre>
+  GLUCOSE-STIMULATED INSULIN SECRETION (GSIS) — beta-cell
+  ═══════════════════════════════════════════════════════
+  Blood glucose rises (postprandial or IV glucose)
+       |
+       v  GLUT2 (low-affinity, high-capacity; Km ~15 mM)
+  Glucose enters beta-cell
+       |
+       v  Glucokinase (GCK / HK IV; Km ~10 mM, Hill ~1.7)
+          ** GLUCOSE SENSOR / THERMOSTAT **
+  Glucose-6-phosphate
+       |
+       v  Glycolysis --> pyruvate --> TCA --> OXPHOS
+  ATP/ADP ratio RISES  (from ~1:1 to ~10:1)
+       |
+       v  KATP channel CLOSES  (Kir6.2/SUR1)
+  Plasma membrane DEPOLARISES  (~-70 mV --> ~-40 mV)
+       |
+       v  L-type Ca2+ channel opens  (Cav1.2, Cav1.3)
+  [Ca2+]i RISES  (~100 nM --> ~500 nM)
+       |
+       v  SNARE-mediated exocytosis
+          (VAMP2 / syntaxin-1A / SNAP25 complex)
+  INSULIN GRANULE FUSION --> INSULIN + C-PEPTIDE secreted
+
+  FIRST PHASE  (0-5 min): Pre-docked release-ready granules
+  SECOND PHASE (5-60 min): Reserve pool granule recruitment via cytoskeleton
+
+  ── AMPLIFYING SIGNALS (KATP-independent) ────────────────
+  GLP-1 (L-cells) --> GLP-1R --> Gs --> cAMP --> PKA + Epac2
+        --> potentiates GSIS; protects beta-cell survival
+        ** Basis of semaglutide, liraglutide therapy **
+  GIP (K-cells) --> GIPR --> Gs --> cAMP  (blunted in T2DM)
+  FFA (NEFA) --> FFA1R/GPR40 --> Gq --> IP3 --> Ca2+
+  Acetylcholine (cephalic phase) --> M3R --> Gq --> IP3/DAG
+
+  ── ALPHA-CELL GLUCAGON SECRETION ────────────────────────
+  Low glucose --> partial KATP open --> T-type Ca2+ + Na+ channel
+        --> action potential --> glucagon granule exocytosis
+  Paracrine INHIBITION by:
+    - beta-cell insulin --> IR on alpha-cell --> Akt --> inhibition
+    - beta-cell Zn2+ (co-secreted with insulin) --> K+ channel opening
+    - delta-cell SST --> SSTR1/2 --> Gi --> cAMP reduction
+
+  ── DELTA-CELL SOMATOSTATIN ─────────────────────────────
+  Stimulated by: high glucose, amino acids, GLP-1
+  Acts via SSTR2 (beta-cells, Gi --> cAMP reduction --> exocytosis)
+  Acts via SSTR1/2 (alpha-cells, Gi --> glucagon inhibition)
+  Paracrine brake on both insulin AND glucagon secretion
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Biphasic Insulin Secretion and Pharmacology</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>First Phase (0–5 min)</h4>
+              <p>Pre-docked, release-ready insulin granules at the plasma membrane. Immediately responsive to acute glucose rise. Blunted or absent in early T2DM — the earliest functional defect and important clinical biomarker. Captured by intravenous glucose tolerance test (IVGTT) or hyperglycaemic clamp.</p>
+            </div>
+            <div class="info-block">
+              <h4>Second Phase (5–60+ min)</h4>
+              <p>Reserve pool granules recruited from cytoplasm via actin/tubulin cytoskeletal tracks. Dependent on ongoing Ca&#x00B2;&#x207A; influx + amplifying signals (GLP-1, GIP, ACh). Reduced in established T2DM; partially restored by weight loss, GLP-1 agonists, and sulphonylureas.</p>
+            </div>
+            <div class="info-block">
+              <h4>Sulphonylureas (SU)</h4>
+              <p>Glibenclamide, gliclazide, glipizide, glimepiride &rarr; bind SUR1/ABCC8 &rarr; KATP closure &rarr; depolarisation &rarr; Ca&#x00B2;&#x207A; influx &rarr; &uarr;insulin secretion (glucose-independent). Risk: hypoglycaemia, weight gain. First-line T2DM after metformin in many guidelines.</p>
+            </div>
+            <div class="info-block">
+              <h4>GLP-1 Receptor Agonists</h4>
+              <p>Semaglutide, liraglutide, dulaglutide &rarr; GLP-1R/Gs &rarr; cAMP &rarr; PKA + Epac2 &rarr; potentiate GSIS + &darr;glucagon + &beta;-cell survival. Weight loss via hypothalamic appetite suppression. Cardiovascular and renal benefits independent of glycaemia (LEADER, SUSTAIN-6, REWIND trials).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Type 1 Diabetes Mellitus (T1DM)</h4>
+            <p>CD4&#x207A; and CD8&#x207A; T cell autoimmune destruction of &beta;-cells. Autoantigens: GAD65, IA-2/ICA512, ZnT8, proinsulin. HLA-DR3/DR4-DQ2/DQ8 haplotypes confer ~50% of genetic risk; PTPN22, INS VNTR, IL2RA contribute additionally. Complete &beta;-cell loss &rarr; absolute insulin deficiency &rarr; fasting hyperglycaemia + ketoacidosis (unopposed glucagon &rarr; &uarr;hepatic ketogenesis). Treatment: basal-bolus insulin analogues; closed-loop systems (artificial pancreas); Edmonton protocol islet transplantation; Vertex VX-880 stem cell-derived &beta;-cells (Phase 1/2: insulin independence achieved in trial).</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Type 2 Diabetes Mellitus (T2DM)</h4>
+            <p>Progressive &beta;-cell functional failure superimposed on peripheral insulin resistance. Islet amyloid (IAPP/amylin aggregation &rarr; &beta;-cell toxicity, membrane disruption), glucolipotoxicity (chronic &uarr;glucose + &uarr;FFA &rarr; ER stress + oxidative stress + mitochondrial dysfunction), and HIF-1&alpha; hypoxia &rarr; ~50% &beta;-cell mass loss by T2DM diagnosis. First-phase insulin secretion loss is the earliest functional defect. Treatment escalation: lifestyle &rarr; metformin (&darr;hepatic glucose output) &rarr; sulphonylureas &rarr; GLP-1 agonists &rarr; DPP-4 inhibitors &rarr; SGLT2 inhibitors &rarr; insulin.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Insulinoma</h4>
+            <p>&beta;-cell adenoma (~90% benign); autonomous insulin secretion independent of blood glucose &rarr; fasting hypoglycaemia. Whipple's triad: symptomatic hypoglycaemia + documented low glucose + relief with glucose administration. C-peptide elevated (distinguishes from exogenous insulin use). Localised by endoscopic ultrasound + CT/MRI; curative: enucleation or distal pancreatectomy. Medical bridge: diazoxide (KATP opener &rarr; &darr;insulin), octreotide (SSTR &rarr; &darr;insulin).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Glucagonoma</h4>
+            <p>&alpha;-cell tumour &rarr; chronic glucagon excess &rarr; necrolytic migratory erythema (NME, pathognomonic skin rash), new-onset diabetes, normochromic anaemia, weight loss, DVT/PE risk. ~80% malignant at diagnosis. Measure fasting glucagon (&gt;500 pg/mL, often &gt;1000). Octreotide (SSTR agonist) for symptom control; surgical resection; everolimus/streptozocin for metastatic disease.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Nesidioblastosis / PHHI (Persistent Hyperinsulinaemic Hypoglycaemia of Infancy)</h4>
+            <p>Loss-of-function mutations in ABCC8 (SUR1) or KCNJ11 (Kir6.2) &rarr; constitutive KATP channel closure &rarr; permanent depolarisation &rarr; unregulated insulin secretion regardless of glucose &rarr; severe neonatal hypoglycaemia. Treatment: diazoxide (if SUR1-responsive); if unresponsive &rarr; near-total pancreatectomy. Gain-of-function GCK mutations also cause PHHI by &uarr;glucose sensitivity threshold.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="pancreas.html" title="~1 million islets dispersed within exocrine pancreatic tissue (~1–2% of mass); islets receive 5–10× higher blood flow per unit weight; paracrine and neural signals within islets coordinate β/α/δ cell function."><span class="rel">part-of</span>Pancreas</a>
-            <a class="conn-pill" href="insulin.html" title="β-cells are the exclusive source of insulin; GLUT2/glucokinase sensing → KATP channel closure → Ca²⁺ influx → exocytosis; first-phase (pre-formed granules) and second-phase secretion; first-phase loss is an early T2DM marker."><span class="rel">expresses</span>Insulin</a>
-            <a class="conn-pill" href="liver.html" title="Portal vein delivers insulin (~5× peripheral concentration) to hepatocytes; 50% extracted in first pass; portal insulin suppresses hepatic glucose output (glycogenolysis + gluconeogenesis); absent in T1DM → fasting hyperglycaemia."><span class="rel">modulates</span>Liver</a>
-            <a class="conn-pill" href="glucocorticoid-receptor.html" title="Cortisol activates GR in β-cells → impairs GLP-1R signalling and Ca²⁺ entry; GR in hepatocytes → ↑gluconeogenesis; GR in skeletal muscle → ↑insulin resistance; β-cell reserve determines steroid-induced DM risk."><span class="rel">modulates</span>Glucocorticoid Receptor</a>
+            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Pancreas (Scale 06)</a>
+            <a class="conn-pill" href="liver.html"><span class="rel">Modulates</span>Liver (portal insulin)</a>
+            <a class="conn-pill" href="adipocyte.html"><span class="rel">Modulates</span>Adipocyte (anti-lipolysis)</a>
+            <a class="conn-pill mod" href="hepatocyte.html"><span class="rel">Modulates</span>Hepatocyte (glycogen synthesis)</a>
+            <a class="conn-pill" href="medicine.html"><span class="rel">Targeted by</span>GLP-1 Agonists / SU / DPP-4i</a>
+            <a class="conn-pill" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2 (ACE2+ &beta;-cells)</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li>Rorsman P, Ashcroft FM. Pancreatic &beta;-cell electrical activity and insulin secretion: of mice and men. <em>Physiol Rev.</em> 2018;98(1):117-214. <a href="https://doi.org/10.1152/physrev.00008.2017" target="_blank" rel="noopener">doi:10.1152/physrev.00008.2017</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29212789/" target="_blank" rel="noopener">PubMed 29212789</a></li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Ch. 78.</li>
+            <li>Alberts B et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022.</li>
+            <li>Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. <em>Lancet.</em> 2014;383(9911):69-82. <a href="https://doi.org/10.1016/S0140-6736(13)60591-7" target="_blank" rel="noopener">doi:10.1016/S0140-6736(13)60591-7</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23890997/" target="_blank" rel="noopener">PubMed 23890997</a></li>
+            <li>Drucker DJ. The biology of incretin hormones. <em>Cell Metab.</em> 2006;3(3):153-65. <a href="https://doi.org/10.1016/j.cmet.2006.01.004" target="_blank" rel="noopener">doi:10.1016/j.cmet.2006.01.004</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16517403/" target="_blank" rel="noopener">PubMed 16517403</a></li>
           </ul>
         </div>
 
@@ -185,14 +282,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="adipocyte.html">Adipocyte</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

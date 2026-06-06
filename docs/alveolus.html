@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Functional gas-exchange unit of the lung — 0.2 mm diameter air sac lined by AT1 (95% surface, flat) and AT2 (5% surface, cuboidal/surfactant) cells on a shared ">
+  <meta name="description" content="Alveolus — functional gas-exchange unit of the lung: 0.2 mm air sac lined by AT1 (95% surface) and AT2 (5% surface, surfactant) cells, shared basement membrane with pulmonary capillaries, ~300 million alveoli providing ~70 m² surface area. Scale 05 of the Human Atlas.">
   <meta property="og:title" content="Alveolus — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Alveolus — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0891b2;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--bio); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,51 +32,46 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(8,145,178,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0891b2, #0e7490); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -94,7 +82,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
+    .footer-links a:hover { color: var(--accent); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -108,6 +96,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,64 +108,108 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Tissue</div>
     <h1>Alveolus</h1>
-    <p class="tagline">Functional gas-exchange unit of the lung — 0.2 mm diameter air sac lined by AT1 (95% surface, flat) and AT2 (5% surface, cuboidal/surfactant) cells on a shared basement membrane apposed to pulmonary capillaries. ~300 million alveoli provide ~70 m² surface area.</p>
-    <p class="aliases">Also known as: alveoli, air sac, pulmonary alveolus</p>
+    <p class="tagline">Functional unit of pulmonary gas exchange — a 0.2 mm air sac at the end of the airway tree where O₂ loads into haemoglobin and CO₂ unloads into expired air.</p>
+    <p class="subtagline">~300 million alveoli provide ~70 m² of surface area. Air-blood barrier as thin as 0.2–0.5 µm on the "thin side." Surfactant from AT2 cells prevents collapse. Alveolar macrophages provide first-line immune surveillance.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~300 million</span><span class="stat-label">Alveoli (adult)</span></div>
+      <div class="stat"><span class="stat-num">~70 m²</span><span class="stat-label">Total surface area</span></div>
+      <div class="stat"><span class="stat-num">0.2–0.5 µm</span><span class="stat-label">Air-blood barrier (thin side)</span></div>
+      <div class="stat"><span class="stat-num">~0.2 mm</span><span class="stat-label">Mean alveolar diameter</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">alveolus</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0002299 &middot; FMA:7318 &middot; Atlas One / Scale 05 &mdash; Tissue &middot; Lung</div>
         <h2>Alveolus</h2>
-        <p class="summary">Functional gas-exchange unit of the lung — 0.2 mm diameter air sac lined by AT1 (95% surface, flat) and AT2 (5% surface, cuboidal/surfactant) cells on a shared basement membrane apposed to pulmonary capillaries. ~300 million alveoli provide ~70 m² surface area.</p>
+        <p class="summary">Terminal air sac of the lung respiratory zone — the site of O₂/CO₂ exchange by passive diffusion across the air-blood barrier. ~300 million alveoli in the adult provide ~70 m² total surface. Each alveolus is ~0.2 mm diameter and lined by a continuous epithelium of AT1 cells (flat, ~95% surface, gas exchange) and AT2 cells (cuboidal, ~5% surface, surfactant + stem cell). The epithelium rests on a shared basement membrane fused at points to the pulmonary capillary endothelium, reducing the air-blood barrier to as little as 0.2–0.5 µm. Surfactant (from AT2 lamellar bodies) reduces surface tension to &lt;5 mN/m, maintaining alveolar patency against the LaPlace collapse pressure.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The alveolus (plural: alveoli) is the <strong>functional unit of pulmonary gas exchange</strong> — the terminal air sac at the end of the branching airways where inhaled oxygen diffuses into pulmonary capillary blood and CO₂ diffuses out. The lungs contain approximately <strong>300 million alveoli</strong> in the adult human, with a total internal surface area of approximately <strong>70 m²</strong> — an extraordinary surface-to-volume ratio engineered by evolution for maximal gas exchange.</p>
+          <p>Each alveolus is lined by a <strong>continuous epithelium</strong> composed of AT1 cells (~95% of surface area) and AT2 cells (~5% of surface area, ~60% of epithelial cells by count). The epithelium rests on a shared basement membrane apposed directly to the pulmonary capillary endothelium — fused at many points to reduce the air-blood barrier to as little as 0.2–0.5 µm. <strong>Pulmonary surfactant</strong> secreted by AT2 cells covers the alveolar surface, reducing surface tension from ~70 mN/m (water) to &lt;5 mN/m at end-expiration and preventing alveolar collapse (atelectasis).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Anatomy — Alveolar Wall (Septum)</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>alveolus</td></tr>
-            <tr><td>Name</td><td>Alveolus</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>05-tissue</td></tr>
-            <tr><td>Uberon</td><td>UBERON:0002299</td></tr>
-            <tr><td>Fma</td><td>FMA:7318</td></tr>
+            <tr><th>Layer</th><th>Components</th><th>Thickness</th></tr>
+            <tr><td>Surfactant film</td><td>DPPC phospholipid monolayer + SP-A, SP-B, SP-C, SP-D; covers alveolar lumen</td><td>~0.02–0.1 µm (hypophase)</td></tr>
+            <tr><td>Type I epithelium</td><td>AT1 squamous cells, tight junctions; covers ~95% of surface; gas exchange</td><td>50–200 nm per cell</td></tr>
+            <tr><td>Type II epithelium</td><td>AT2 cuboidal cells at alveolar corners; lamellar bodies; tight junctions</td><td>Cellular (~8–10 µm height)</td></tr>
+            <tr><td>Epithelial basement membrane</td><td>Collagen IV, laminin, fibronectin</td><td>~50–100 nm</td></tr>
+            <tr><td>Interstitium (thin side)</td><td>Fused basement membranes (no interstitial space) — minimal barrier; most gas exchange occurs here</td><td>~0 µm</td></tr>
+            <tr><td>Interstitium (thick side)</td><td>Separate basement membranes + interstitial space; fibroblasts, elastic fibres; immune cell passage</td><td>~0.5–5 µm</td></tr>
+            <tr><td>Capillary basement membrane</td><td>Collagen IV, laminin</td><td>~50–100 nm</td></tr>
+            <tr><td>Capillary endothelium</td><td>Continuous (non-fenestrated); tight junctions</td><td>~200–300 nm</td></tr>
           </table>
+          <p style="margin-top:0.75rem;"><strong>Alveolar macrophages (AMs):</strong> Resident macrophages patrol the alveolar surface — the most abundant leukocyte in the lung (~93% of BAL cells). First cellular responder to inhaled pathogens including <em>M. tuberculosis</em>. Phagocytose particles, debris, and apoptotic cells. SP-A and SP-D (collectins from AT2 cells) act as opsonins, facilitating AM phagocytosis.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — Gas Exchange and Ventilation-Perfusion Matching</h3>
+          <p><strong>Gas exchange by passive diffusion</strong> follows Fick's law (flux = D × A × ΔP / T). At rest: O₂ diffuses from alveolar air (PAO₂ ~100 mmHg) into capillary blood (PvO₂ ~40 mmHg) along a ~60 mmHg gradient; CO₂ diffuses in the opposite direction (PvCO₂ ~46 mmHg → PACO₂ ~40 mmHg) along only a ~6 mmHg gradient (CO₂ is ~20× more soluble than O₂ — smaller gradient sufficient). Equilibration is virtually complete within ~0.25 s of the ~0.75 s capillary transit time — a 3-fold safety margin at rest.</p>
+          <div class="formula-block">
+            V̇gas = D × A × ΔP / T
+            <div class="formula-note">D = diffusivity (CO₂ ~20× O₂), A = ~70 m² total surface, T = 0.2–0.5 µm (thin side barrier), ΔP = partial pressure gradient at rest: O₂ ~60 mmHg, CO₂ ~6 mmHg</div>
+          </div>
+          <p><strong>LaPlace law and surfactant:</strong> P = 2γ/r. At r ~0.1 mm (fully deflated alveolus), without surfactant (γ = 70 mN/m) → collapsing pressure ~1,400 Pa — incompatible with breathing. AT2 surfactant reduces γ to &lt;5 mN/m → collapsing pressure falls to &lt;100 Pa — easily overcome by inspiratory muscles. Normal lung compliance: ~200 mL/cmH₂O (↓ dramatically in surfactant deficiency — neonatal RDS, ARDS).</p>
+          <p><strong>Ventilation-Perfusion (V̇/Q̇) matching:</strong> Each alveolus must receive matched air (ventilation) and blood (perfusion). Ideal V̇/Q̇ ~0.8–1.0. Gravity distributes both V̇ and Q̇ unevenly (Q̇ is more gravity-dependent → V̇/Q̇ higher at apex, lower at base). Hypoxic pulmonary vasoconstriction (HPV) — local arteriolar constriction in response to low PAO₂ — redirects blood flow away from poorly ventilated alveoli, actively matching perfusion to ventilation. V̇/Q̇ mismatch is the most common cause of hypoxaemia in respiratory disease.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>ARDS (Acute Respiratory Distress Syndrome)</h4>
+            <p>Diffuse alveolar damage (DAD): epithelial (AT1 + AT2) and endothelial injury → alveolar flooding with protein-rich exudate, hyaline membrane formation, loss of surfactant → alveolar collapse → V̇/Q̇ mismatch + shunt → severe bilateral hypoxaemia. Berlin criteria: PaO₂/FiO₂ &lt;300, bilateral infiltrates on CXR/CT, non-cardiogenic. Mortality 30–50% in severe ARDS. Treatment: lung-protective ventilation (6 mL/kg IBW, plateau P &lt;30 cmH₂O), prone positioning, conservative fluid strategy.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Pneumonia (Alveolar Consolidation)</h4>
+            <p>Bacterial or viral invasion → inflammatory exudate fills alveoli → consolidation (air replaced by fluid/cells) → impaired ventilation while perfusion maintained → V̇/Q̇ mismatch → hypoxaemia. Classic lobar pneumonia: <em>Streptococcus pneumoniae</em>; bronchopneumonia: <em>Staphylococcus aureus</em>, <em>Klebsiella</em>; atypical: <em>Mycoplasma</em>, <em>Legionella</em>; viral: COVID-19 bilateral interstitial pattern.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Pulmonary Oedema</h4>
+            <p>Alveolar flooding from elevated capillary hydrostatic pressure (cardiogenic: LV failure → ↑pulmonary venous pressure → capillary leak) or capillary leak (non-cardiogenic: inflammation, ARDS). Clinical: frothy pink sputum, bilateral rales, bat-wing infiltrates on CXR. Starling equation imbalance: capillary hydrostatic pressure (Pcap, normally ~8 mmHg) rises above oncotic pressure (π, ~25 mmHg) → net filtration into alveolus.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Emphysema</h4>
+            <p>Protease-mediated destruction of alveolar walls (septal destruction) → fewer, larger air spaces → ↓total surface area → ↓gas exchange capacity → impaired O₂ diffusion (↓DLCO) + loss of radial airway traction → airflow obstruction. Cause: cigarette smoke → oxidative stress → neutrophil/macrophage elastase overactivity → protease-antiprotease imbalance. Also: α1-antitrypsin deficiency (SERPINA1 mutation — panacinar emphysema at younger age).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Idiopathic Pulmonary Fibrosis (IPF)</h4>
+            <p>Progressive fibrotic replacement of normal alveolar architecture (UIP pattern: honeycombing + traction bronchiectasis) → loss of gas-exchange units → restrictive ventilatory defect (↓TLC, ↓FVC) + ↓DLCO → progressive hypoxaemia. Median survival 3–5 years from diagnosis. AT2 injury and aberrant repair underlie the fibrotic cascade. Anti-fibrotics: nintedanib (↓fibroblast proliferation), pirfenidone (anti-TGF-β).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Pulmonary TB (Alveolar Macrophage Infection)</h4>
+            <p><em>Mycobacterium tuberculosis</em> infects alveolar macrophages → intracellular replication → granuloma formation (Langhans giant cells, caseating necrosis) → cavitation and destruction of alveolar structure. Inhaled droplets of 1–5 µm reach alveoli. Ghon focus (primary complex) in subpleural alveoli.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="type-ii-pneumocyte.html" title="AT2 cells are the surfactant-producing and progenitor cells of the alveolar epithelium; they constitute ~60% of alveolar epithelial cells by number and occupy ~5% of the alveolar surface area."><span class="rel">composed-of</span>Type Ii Pneumocyte</a>
-            <a class="conn-pill part" href="lung.html" title="~300 million alveoli constitute the gas-exchange parenchyma of the lung, providing ~70 m² of surface area across which O₂ and CO₂ are exchanged."><span class="rel">part-of</span>Lung</a>
-            <a class="conn-pill damaged" href="mycobacterium-tuberculosis.html" title="M. tuberculosis infects alveolar macrophages residing within alveoli, then spreads to the alveolar epithelium and parenchyma, causing granuloma formation and caseating necrosis that destroys alveolar structure."><span class="rel">damaged-by</span>Mycobacterium Tuberculosis</a>
+            <a class="conn-pill part" href="type-ii-pneumocyte.html"><span class="rel">Composed of</span>Type II Pneumocyte (AT2)</a>
+            <a class="conn-pill part" href="lung.html"><span class="rel">Part of</span>Lung</a>
+            <a class="conn-pill damaged" href="sars-cov-2.html"><span class="rel">Damaged by</span>SARS-CoV-2</a>
+            <a class="conn-pill damaged" href="influenza-a.html"><span class="rel">Damaged by</span>Influenza A</a>
+            <a class="conn-pill damaged" href="mycobacterium-tuberculosis.html"><span class="rel">Damaged by</span>M. tuberculosis</a>
+            <a class="conn-pill damaged" href="pneumocystis-jirovecii.html"><span class="rel">Infected by</span>Pneumocystis jirovecii</a>
+            <a class="conn-pill" href="hemoglobin.html"><span class="rel">Loads O₂ into</span>Haemoglobin</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1007/s00441-016-2541-4" target="_blank" rel="noopener noreferrer">Weibel ER. Lung morphometry: the link between structure and function. Cell Tissue Res. 2017;367(3):413-26.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27981371/" target="_blank" rel="noopener noreferrer">PubMed 27981371</a></li>
-            <li><a href="https://doi.org/10.1164/arrd.1982.125.6.740" target="_blank" rel="noopener noreferrer">Crapo JD, Barry BE, Gehr P, Bachofen M, Weibel ER. Cell number and cell characteristics of the normal human lung. Am Rev Respir Dis. 1982;125(6):740-5.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/7044530/" target="_blank" rel="noopener noreferrer">PubMed 7044530</a></li>
-            <li><a href="https://www.lww.com/Product/9781496310118" target="_blank" rel="noopener noreferrer">West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10th ed. Wolters Kluwer; 2016. ISBN 978-1-4963-1011-1.</a></li>
-            <li><a href="https://doi.org/10.1152/physrev.00022.2004" target="_blank" rel="noopener noreferrer">Maina JN, West JB. Thin and strong! The bioengineering dilemma in the structural and functional design of the blood-gas barrier. Physiol Rev. 2005;85(3):811-44.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15987797/" target="_blank" rel="noopener noreferrer">PubMed 15987797</a></li>
+            <li>Weibel ER. Lung morphometry: the link between structure and function. <em>Cell Tissue Res.</em> 2017;367(3):413–26. <a href="https://doi.org/10.1007/s00441-016-2541-4" target="_blank" rel="noopener">doi:10.1007/s00441-016-2541-4</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27981371/" target="_blank" rel="noopener">PubMed 27981371</a></li>
+            <li>Crapo JD, Barry BE, Gehr P, Bachofen M, Weibel ER. Cell number and cell characteristics of the normal human lung. <em>Am Rev Respir Dis.</em> 1982;125(6):740–5. <a href="https://doi.org/10.1164/arrd.1982.125.6.740" target="_blank" rel="noopener">doi:10.1164/arrd.1982.125.6.740</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/7044530/" target="_blank" rel="noopener">PubMed 7044530</a></li>
+            <li>West JB, Luks AM. <em>West's Respiratory Physiology: The Essentials.</em> 10th ed. Wolters Kluwer; 2016. <a href="https://www.lww.com/Product/9781496310118" target="_blank" rel="noopener">lww.com/Product/9781496310118</a></li>
+            <li>Maina JN, West JB. Thin and strong! The bioengineering dilemma in the structural and functional design of the blood-gas barrier. <em>Physiol Rev.</em> 2005;85(3):811–44. <a href="https://doi.org/10.1152/physrev.00022.2004" target="_blank" rel="noopener">doi:10.1152/physrev.00022.2004</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15987797/" target="_blank" rel="noopener">PubMed 15987797</a></li>
           </ul>
         </div>
 
@@ -188,11 +221,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="type-ii-pneumocyte.html">Type II Pneumocyte</a>
+      <a href="lung.html">Lung</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.4rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

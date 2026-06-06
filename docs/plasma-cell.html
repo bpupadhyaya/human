@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Terminal effector of B cell differentiation — large oval cell with eccentric nucleus, clock-face chromatin, and massive rough ER secreting 1,000–10,000 antibodi">
+  <meta name="description" content="Plasma Cell — terminally differentiated B lymphocyte and the body's primary antibody factory. Long-lived plasma cells in bone marrow secrete thousands of IgG molecules per second for years, providing durable humoral protection after vaccination.">
   <meta property="og:title" content="Plasma Cell — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Plasma Cell — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #2563eb;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,51 +32,49 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(37,99,235,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #1d4ed8, #1e3a8a); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+    .detail-section ol, .detail-section ul { padding-left: 1.4rem; color: var(--fg-soft); font-size: 0.95rem; line-height: 1.7; }
+    .detail-section li { margin-bottom: 0.3rem; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -108,8 +99,8 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="immune-system.html">Immune System</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -119,62 +110,212 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
     <h1>Plasma Cell</h1>
-    <p class="tagline">Terminal effector of B cell differentiation — large oval cell with eccentric nucleus, clock-face chromatin, and massive rough ER secreting 1,000–10,000 antibodies/sec. Long-lived plasma cells in bone marrow are the cellular basis of durable humoral immunity.</p>
-    <p class="aliases">Also known as: plasmablast, LLPC, long-lived plasma cell, antibody-secreting cell, ASC</p>
+    <p class="tagline">The body's antibody factory — terminally differentiated B lymphocyte that secretes thousands of high-affinity IgG molecules per second, and in long-lived form persists in bone marrow for decades.</p>
+    <p class="subtagline">The plasma cell is the ultimate goal of germinal center reactions and the reason vaccination confers durable protection. A single long-lived plasma cell produces ~10,000 antibody molecules per second throughout its lifespan. BLIMP-1 drives terminal differentiation; loss of surface BCR and MHC-II marks commitment.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~10,000/s</span><span class="stat-label">IgG molecules per cell</span></div>
+      <div class="stat"><span class="stat-num">Decades</span><span class="stat-label">Long-lived plasma cell lifespan</span></div>
+      <div class="stat"><span class="stat-num">BLIMP-1</span><span class="stat-label">Master terminal differentiation TF</span></div>
+      <div class="stat"><span class="stat-num">~21 days</span><span class="stat-label">IgG half-life (serum)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">plasma-cell</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One / Scale 04 &middot; plasma-cell</div>
         <h2>Plasma Cell</h2>
-        <p class="summary">Terminal effector of B cell differentiation — large oval cell with eccentric nucleus, clock-face chromatin, and massive rough ER secreting 1,000–10,000 antibodies/sec. Long-lived plasma cells in bone marrow are the cellular basis of durable humoral immunity.</p>
+        <p class="summary">Plasma cells are terminally differentiated B lymphocytes specialised for massive immunoglobulin secretion. They lose surface BCR and MHC-II expression, downregulate B cell identity factors (PAX5), and massively expand rough ER to accommodate antibody synthesis. Short-lived plasmablasts (days) arise early in the response; long-lived plasma cells (LLPCs) in bone marrow survival niches secrete high-affinity IgG for years–decades — the cellular basis of durable humoral memory after vaccination.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>Plasma cells are the terminal effectors of humoral adaptive immunity — the cells that do the work the B cell lineage is built toward: synthesizing and secreting vast quantities of high-affinity antibody. They are produced when B cells are activated by antigen, receive T cell help (Tfh-derived CD40L + IL-21), and undergo the germinal center reaction.</p>
+          <p>Two fundamentally different plasma cell populations exist, with profoundly different lifespans:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Plasmablasts (short-lived)</h4>
+              <p>Arise within 3–5 days of B cell activation (extrafollicular response). Lifespan days–weeks. Produce mainly IgM initially, then IgG after class switching. The "rapid-response" factory — peak titers fast but low-affinity, short-lived serum antibody.</p>
+            </div>
+            <div class="info-block">
+              <h4>Long-lived plasma cells (LLPCs)</h4>
+              <p>Arise from GC-selected, affinity-matured B cells. Home to bone marrow survival niches (CXCL12+VCAM1+ stromal cells provide IL-6, APRIL, BAFF, SDF-1). Produce high-affinity class-switched IgG for decades without further antigen stimulation. The cellular basis of lasting vaccine protection.</p>
+            </div>
+          </div>
+          <p style="margin-top:0.75rem;">The durability of antibody-mediated immunity — whether from natural infection or vaccination — depends on the number and quality of LLPCs established during the primary immune response. A vaccine that fails to generate a robust GC reaction produces poor LLPCs, and serum antibody titers wane rapidly.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure — Surface Markers (vs B Cell)</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>plasma-cell</td></tr>
-            <tr><td>Name</td><td>Plasma Cell</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
+            <tr><th>Marker</th><th>Naive B cell</th><th>Plasmablast</th><th>Long-lived Plasma Cell</th><th>Significance</th></tr>
+            <tr><td>Surface BCR (IgM/IgD)</td><td>+</td><td>+/−</td><td>−</td><td>Loss of BCR marks plasma cell commitment</td></tr>
+            <tr><td>CD19</td><td>+</td><td>+/−</td><td>−</td><td>Downregulated upon terminal differentiation</td></tr>
+            <tr><td>CD20</td><td>+</td><td>−/low</td><td>−</td><td>Absent — rituximab does NOT deplete LLPCs (major therapeutic implication)</td></tr>
+            <tr><td>CD38</td><td>−</td><td>+</td><td>++</td><td>Key plasma cell marker; daratumumab target in myeloma</td></tr>
+            <tr><td>CD138 (Syndecan-1)</td><td>−</td><td>+</td><td>++</td><td>Canonical LLPC marker; heparan-sulfate proteoglycan; bone marrow homing</td></tr>
+            <tr><td>CD27</td><td>−</td><td>+</td><td>+</td><td>Memory/plasma cell marker; TNFRSF member</td></tr>
+            <tr><td>MHC-II</td><td>+</td><td>Low</td><td>−</td><td>Lost — plasma cells are not APCs; focused on secretion</td></tr>
+            <tr><td>BLIMP-1 (PRDM1)</td><td>−</td><td>+</td><td>++</td><td>Master TF; represses PAX5, BCL-6, c-Myc; drives secretory program</td></tr>
+            <tr><td>IRF4</td><td>Low</td><td>++</td><td>++</td><td>Co-driver of plasma cell program; required for BLIMP-1</td></tr>
+            <tr><td>XBP1 (spliced)</td><td>−</td><td>+</td><td>++</td><td>UPR transcription factor; massively expands rough ER for Ig secretion</td></tr>
           </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — Terminal Differentiation and Antibody Secretion</h3>
+          <div class="circuit-diagram">
+<pre>
+  GC B cell (affinity-matured, class-switched)
+  receiving Tfh signals: CD40L + IL-21
+         │
+         ▼
+  BCL-6 downregulated → IRF4 upregulated
+         │
+         ▼
+  BLIMP-1 (PRDM1) induced:
+  ├── Represses PAX5 (B cell identity factor)
+  ├── Represses BCL-6 (GC master TF)
+  ├── Represses c-Myc (proliferation)
+  └── Activates IRF4 (secretory program)
+         │
+         ▼
+  Plasma cell commitment:
+  ├── Surface BCR lost (secretory Ig only)
+  ├── MHC-II lost (no longer APC)
+  ├── CD138 (Syndecan-1) upregulated
+  ├── CD38 high
+  └── XBP1 spliced (ER stress sensor/UPR)
+       → Massive rough ER expansion
+       → >10,000 antibody molecules/cell/second
+         │
+         ▼
+  Antibody isotypes produced (LLPC in BM):
+  ├── IgG (most common; ~21-day serum half-life)
+  │   IgG1, IgG2, IgG3, IgG4 (different Fc effector functions)
+  ├── IgA (secretory; MALT-resident LLPCs; mucosal immunity)
+  └── IgE (rare, allergy; short serum half-life, arms mast cells)
+         │
+         ▼
+  LLPC bone marrow niche survival:
+  CXCL12 (SDF-1) → CXCR4 (homing to niche)
+  IL-6, APRIL, BAFF from stromal cells → survival signals (STAT3, NF-κB)
+  Competitive niche occupancy — limited BM space means old LLPCs
+  can be displaced by new ones from subsequent vaccinations
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lifecycle / Differentiation — B cell → Plasma Cell</h3>
+          <table class="data-table">
+            <tr><th>Stage</th><th>Location</th><th>Lifespan</th><th>Antibody characteristics</th></tr>
+            <tr><td>Extrafollicular plasmablast</td><td>Lymph node medullary cords</td><td>Days–1 week</td><td>IgM early; IgG after CSR; modest affinity; rapid kinetics</td></tr>
+            <tr><td>Early GC-derived plasma cell</td><td>Lymph node / spleen</td><td>Weeks</td><td>Class-switched; improving affinity; moderate persistence</td></tr>
+            <tr><td>Long-lived plasma cell (LLPC)</td><td>Bone marrow niches (CXCL12+VCAM1+)</td><td>Years–decades</td><td>High-affinity, class-switched IgG; continuous secretion without antigen</td></tr>
+            <tr><td>Mucosal LLPC</td><td>Gut lamina propria, salivary glands, lung</td><td>Months–years</td><td>Secretory IgA (dIgA); mucosal protection</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Competition for bone marrow niches:</strong> Bone marrow LLPC niches are limited. Booster vaccination can establish new LLPCs with higher-affinity antibody (from secondary GC reactions using memory B cells) that outcompete older LLPCs occupying niches — providing a mechanistic basis for dose 3 improvements in antibody quality and breadth seen with mRNA COVID-19 vaccines.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Antibody Isotypes and Effector Functions</h3>
+          <table class="data-table">
+            <tr><th>Isotype</th><th>Serum half-life</th><th>Key effector functions</th><th>Clinical notes</th></tr>
+            <tr><td>IgM</td><td>~5 days</td><td>First responder; classical complement activation (C1q); agglutination</td><td>Primary response marker; does not cross placenta; pentameric</td></tr>
+            <tr><td>IgG</td><td>~21 days (IgG1/2/3)</td><td>Neutralization; opsonization; ADCC (FcγRIII/NK cells); complement; placental transfer (FcRn)</td><td>Most abundant serum Ig; 4 subclasses with different Fc activities; IVIG replacement for antibody deficiency</td></tr>
+            <tr><td>IgA</td><td>~6 days (serum)</td><td>Mucosal secretory immunity; neutralization; immune exclusion; anti-inflammatory at mucosal surfaces</td><td>Most produced (70 mg/kg/day); secretory IgA (sIgA) at mucosal surfaces; IgA nephropathy when in glomeruli</td></tr>
+            <tr><td>IgE</td><td>~2 days (serum)</td><td>FcεRI binding on mast cells/basophils → allergic degranulation; anti-parasite; low serum levels</td><td>Anti-IgE (omalizumab) blocks FcεRI binding; elevated in atopy, parasitic infection</td></tr>
+            <tr><td>IgD</td><td>~3 days</td><td>B cell co-receptor (surface); limited secreted form; IgD-class switching in upper respiratory B cells</td><td>Rare specialized function; IgD myeloma exists but rare</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Multiple Myeloma</h4>
+            <p>Clonal expansion of malignant plasma cells in bone marrow. Secretes monoclonal immunoglobulin (M-protein, "myeloma protein") detectable by serum protein electrophoresis (SPEP) and immunofixation. Bone destruction (osteoclast activation via RANKL from myeloma cells), renal impairment (light chain cast nephropathy, AL amyloidosis), anemia (bone marrow suppression), hypercalcemia. Diagnosis: CRAB criteria + bone marrow >10% clonal plasma cells. Treatment: proteasome inhibitors (bortezomib, carfilzomib), IMiDs (thalidomide, lenalidomide), anti-CD38 monoclonal antibody (daratumumab), BCMA CAR-T (idecabtagene, ciltacabtagene). Not curable by standard therapy; autologous SCT extends remission.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>MGUS and Smoldering Myeloma</h4>
+            <p>Monoclonal gammopathy of undetermined significance (MGUS): M-protein &lt;30 g/L, &lt;10% bone marrow plasma cells, no CRAB. Risk of progression ~1%/year. Smoldering MM: M-protein ≥30 g/L or ≥10% bone marrow plasma cells, no end-organ damage. Risk of progression to active MM ~10%/year initially. Requires surveillance but not treatment unless progresses.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>AL Amyloidosis (Primary Amyloidosis)</h4>
+            <p>Clonal plasma cells secrete amyloidogenic light chains (most often lambda) that misfold and deposit as β-sheet fibrils (AL amyloid) in heart (restrictive cardiomyopathy — the major cause of death), kidneys (nephrotic syndrome), liver, peripheral nerves. Diagnosed by fat pad biopsy or bone marrow biopsy + mass spectrometry to confirm AL type. Treated with clone-directed therapy (bortezomib + dexamethasone ± daratumumab) and autologous SCT in eligible patients.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Rituximab and LLPC persistence</h4>
+            <p>Rituximab (anti-CD20) depletes B cells and short-lived plasmablasts but does NOT deplete long-lived plasma cells, which are CD20-negative. This explains why serum IgG titers and vaccine-induced antibody levels can persist even months after rituximab therapy. However, the B cell compartment cannot replenish LLPCs during rituximab treatment, so secondary responses to new antigens are severely impaired — critical for vaccination timing in patients starting rituximab-based therapy (vaccinate ≥4 weeks before rituximab if possible).</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Antibody Effector Function Mechanisms</h3>
+          <p>Antibodies produced by plasma cells exert protection through multiple molecular mechanisms, each dependent on antibody isotype and Fc interactions:</p>
+          <div class="circuit-diagram">
+<pre>
+  High-affinity IgG from long-lived plasma cell
+         │
+         ▼
+  Fab region binds antigen (virus, bacteria, toxin)
+         │
+         ├──► NEUTRALIZATION
+         │    Fab blocks receptor-binding domain (e.g., spike RBD:ACE2)
+         │    Steric hindrance prevents cell entry
+         │    Mucosal IgA: immune exclusion at epithelial surfaces
+         │
+         ├──► OPSONIZATION
+         │    IgG Fc → FcγRIIA/III on macrophages/neutrophils
+         │    → phagocytosis of opsonized pathogen
+         │    → phagolysosome fusion → killing
+         │
+         ├──► COMPLEMENT ACTIVATION (classical pathway)
+         │    IgG (IgG1 > IgG3) or IgM Fc → C1q binding
+         │    → C4b2a (C3 convertase) → C3b opsonization
+         │    → C5b-9 MAC lysis (gram-negative bacteria)
+         │    → C3a/C5a anaphylatoxins
+         │
+         ├──► ADCC (Antibody-Dependent Cellular Cytotoxicity)
+         │    IgG Fc → FcγRIII (CD16) on NK cells
+         │    → NK activation → perforin/granzyme killing
+         │    of IgG-coated target cells
+         │    Also: macrophages, neutrophils via FcγRII/III
+         │
+         └──► PLACENTAL/NEONATAL TRANSFER
+              IgG (not IgM/IgA) → FcRn (neonatal Fc receptor)
+              on placental syncytiotrophoblasts
+              → transcytosis → fetal circulation
+              Protects newborn until ~6 months
+              (basis of maternal vaccination strategy)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>IgG subclass differences:</strong> IgG1 (dominant vaccine response, strong FcγRIII, good complement); IgG2 (polysaccharide antigens, weaker Fc effector); IgG3 (strongest complement activation, short half-life ~7 days); IgG4 (weak complement, no ADCC, half-life ~21 days; chronic antigen exposure → IgG4 class switch = "blocking" antibody; pemphigus target antigen).</p>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="immune-system.html" title="Plasma cells are the terminal effector cells of humoral adaptive immunity, secreting the antibodies that circulate throughout the immune system."><span class="rel">part-of</span>Immune System</a>
-            <a class="conn-pill" href="b-cell.html" title="Plasma cells differentiate from germinal-center B cells that have received sufficient T cell help and undergone class-switch recombination and affinity maturation."><span class="rel">modulated-by</span>B Cell</a>
-            <a class="conn-pill" href="immunoglobulin-g.html" title="Long-lived plasma cells are the primary source of circulating IgG; each LLPC secretes thousands of IgG molecules per second continuously for years."><span class="rel">expresses</span>Immunoglobulin G</a>
+            <a class="conn-pill part" href="immune-system.html"><span class="rel">Part of</span>immune-system</a>
+            <a class="conn-pill" href="b-cell.html"><span class="rel">Derived from</span>b-cell (GC reaction)</a>
+            <a class="conn-pill" href="t-helper-cell.html"><span class="rel">Requires Tfh help from</span>t-helper-cell</a>
+            <a class="conn-pill" href="immunoglobulin-g.html"><span class="rel">Produces</span>IgG (high-affinity)</a>
+            <a class="conn-pill" href="bone-marrow.html"><span class="rel">Long-lived niche in</span>bone-marrow</a>
+            <a class="conn-pill" href="complement-c3.html"><span class="rel">IgG activates</span>complement (classical)</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/S1074-7613(00)80541-5" target="_blank" rel="noopener noreferrer">Slifka MK, Antia R, Whitmire JK, Ahmed R. Humoral immunity due to long-lived plasma cells. Immunity. 1998;8(3):363-72.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9529153/" target="_blank" rel="noopener noreferrer">PubMed 9529153</a></li>
-            <li><a href="https://doi.org/10.1038/nri3795" target="_blank" rel="noopener noreferrer">Nutt SL, Hodgkin PD, Tarlinton DM, Corcoran LM. The generation of antibody-secreting plasma cells. Nat Rev Immunol. 2015;15(3):160-71.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25698678/" target="_blank" rel="noopener noreferrer">PubMed 25698678</a></li>
-            <li><a href="https://doi.org/10.1111/j.1600-065X.2010.00912.x" target="_blank" rel="noopener noreferrer">Amanna IJ, Slifka MK. Mechanisms that determine plasma cell lifespan and the duration of humoral immunity. Immunol Rev. 2010;236(1):125-38.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20636813/" target="_blank" rel="noopener noreferrer">PubMed 20636813</a></li>
-            <li><a href="https://doi.org/10.1038/s41586-021-03738-2" target="_blank" rel="noopener noreferrer">Turner JS, et al. SARS-CoV-2 mRNA vaccines induce persistent human germinal centre responses. Nature. 2021;596(7870):109-113.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/34182569/" target="_blank" rel="noopener noreferrer">PubMed 34182569</a></li>
+            <li>Nutt SL, Hodgkin PD, Tarlinton DM, Corcoran LM. The generation of antibody-secreting plasma cells. <em>Nat Rev Immunol.</em> 2015;15(3):160-71. <a href="https://doi.org/10.1038/nri3795" target="_blank" rel="noopener">doi:10.1038/nri3795</a></li>
+            <li>Victora GD, Nussenzweig MC. Germinal centers. <em>Annu Rev Immunol.</em> 2012;30:429-57. <a href="https://doi.org/10.1146/annurev-immunol-020711-075032" target="_blank" rel="noopener">doi:10.1146/annurev-immunol-020711-075032</a></li>
+            <li>Halliley JL, et al. Long-lived plasma cells are contained within the CD19−CD38hiCD138+ subset in human bone marrow. <em>Immunity.</em> 2015;43(1):132-145. <a href="https://doi.org/10.1016/j.immuni.2015.06.016" target="_blank" rel="noopener">doi:10.1016/j.immuni.2015.06.016</a></li>
+            <li>Abbas AK, Lichtman AH, Pillai S. <em>Cellular and Molecular Immunology.</em> 9th ed. Elsevier; 2018.</li>
+            <li>Murphy K, Weaver C. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2017.</li>
           </ul>
         </div>
 
@@ -186,14 +327,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="b-cell.html">B Cell</a>
+      <a href="t-helper-cell.html">T Helper Cell</a>
+      <a href="immunoglobulin-g.html">IgG</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

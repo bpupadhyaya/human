@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Network of blind-ended capillaries, collecting vessels, 400–700 lymph nodes, spleen, thymus, and MALT returning 3–4 L/day interstitial fluid to circulation and ">
+  <meta name="description" content="Lymphatic System — blind-ended capillaries, 400–700 lymph nodes, spleen, thymus, and MALT returning 3–4 L/day interstitial fluid and routing immune surveillance. Scale 07 of the Human Atlas.">
   <meta property="og:title" content="Lymphatic System — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Lymphatic System — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0891b2;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,52 +32,48 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(8,145,178,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0891b2, #164e63); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
@@ -108,6 +97,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,61 +109,145 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 07 &mdash; System</div>
     <h1>Lymphatic System</h1>
-    <p class="tagline">Network of blind-ended capillaries, collecting vessels, 400–700 lymph nodes, spleen, thymus, and MALT returning 3–4 L/day interstitial fluid to circulation and routing immune surveillance of antigens.</p>
-    <p class="aliases">Also known as: lymphatics, lymph system, lymphoid system, secondary lymphoid organs, lymph vessels</p>
+    <p class="tagline">The body's second vascular network — a one-way drainage system of blind-ended capillaries, 400–700 lymph nodes, spleen, thymus, and MALT returning ~3 L/day of protein-rich interstitial fluid to the circulation while routing antigen surveillance and dietary fat transport.</p>
+    <p class="subtagline">UBERON:0006558 &middot; Without the lymphatics, Starling filtration would produce progressive tissue oedema within hours. Lymph nodes are the encounter point between travelling DCs and recirculating naïve lymphocytes — where adaptive immunity begins.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">400–700</span><span class="stat-label">Lymph nodes</span></div>
+      <div class="stat"><span class="stat-num">~3 L/day</span><span class="stat-label">Lymph returned</span></div>
+      <div class="stat"><span class="stat-num">~150 g</span><span class="stat-label">Spleen mass</span></div>
+      <div class="stat"><span class="stat-num">~40 g</span><span class="stat-label">Thymus at puberty</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">lymphatic-system</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0006558 &middot; Atlas One / Scale 07</div>
         <h2>Lymphatic System</h2>
-        <p class="summary">Network of blind-ended capillaries, collecting vessels, 400–700 lymph nodes, spleen, thymus, and MALT returning 3–4 L/day interstitial fluid to circulation and routing immune surveillance of antigens.</p>
+        <p class="summary">The lymphatic system is a one-way drainage network beginning with blind-ended lymphatic capillaries in nearly every vascularised tissue, converging through collecting vessels and 400–700 lymph nodes, and emptying into the venous circulation at the thoracic duct (left subclavian vein) and right lymphatic duct. Three core functions: (1) fluid homeostasis — returns ~3 L/day of Starling filtrate not reabsorbed by venous capillaries; (2) immune surveillance — highways for DCs carrying antigens from tissues to lymph nodes where adaptive responses initiate; (3) lipid transport — chylomicrons enter intestinal lacteals bypassing the portal route. The spleen (largest secondary lymphoid organ) and thymus (T-cell education) complete the system.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The lymphatic system operates in parallel with and complementary to the cardiovascular system. Unlike the closed cardiovascular circuit, the lymphatics form a <strong>one-way drainage network</strong>. The critical driving pressure is tissue interstitial pressure: Starling forces at capillary beds net ~3 L/day of protein-rich plasma filtrate into the interstitium that venous capillary reabsorption cannot fully reclaim — the lymphatics collect and return this fluid, preventing progressive oedema.</p>
+          <p>The system's immune function is equally fundamental: lymphatic capillaries are the highway by which antigen-bearing dendritic cells (DCs) travel from peripheral tissues to regional lymph nodes — the anatomical encounter point where naïve T and B cells are activated to initiate adaptive immune responses. Dietary fat absorption adds a third dimension: chylomicrons (75–1200 nm) are too large for blood capillary junctions and exclusively enter intestinal lacteals → thoracic duct → systemic circulation, bypassing first-pass hepatic metabolism.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Components</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>lymphatic-system</td></tr>
-            <tr><td>Name</td><td>Lymphatic System</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>07-system</td></tr>
+            <tr><th>Component</th><th>Structure</th><th>Function</th></tr>
+            <tr><td><strong>Lymphatic capillaries</strong></td><td>Blind-ended; button junctions (overlapping VE-cadherin flaps); no basement membrane; anchoring filaments; LYVE-1+, podoplanin+, PROX1+, VEGFR3+</td><td>One-way uptake of interstitial fluid, macromolecules, lipid particles, and immune cells; ~0 mmHg intraluminal pressure</td></tr>
+            <tr><td><strong>Collecting lymphatics</strong></td><td>Zipper junctions (less permeable); lymphatic smooth muscle (intrinsic ~10 contractions/min); bicuspid valves every 1–2 cm (lymphangions); sympathetic adrenergic innervation</td><td>Active propulsion of lymph toward lymph nodes; valves prevent backflow; augmented by skeletal muscle pump, respiration, and arterial pulsatility</td></tr>
+            <tr><td><strong>Lymph nodes (400–700)</strong></td><td>Subcapsular sinus (CD169+ macrophages, DCs); cortex (B cell follicles, germinal centres, FDCs); paracortex (T cell zone, HEV, DCs); medullary cords (plasma cells)</td><td>Antigen filtration and immune activation hub; HEV enable naïve lymphocyte recirculation; GC → affinity maturation → IgG plasma cells + memory B cells</td></tr>
+            <tr><td><strong>Thoracic duct</strong></td><td>38–45 cm; ~5 mm diameter; drains left upper body + all of lower body → left subclavian vein; right lymphatic duct drains right upper body</td><td>Returns 2–4 L/day lymph + dietary chylomicrons to venous circulation</td></tr>
+            <tr><td><strong>Spleen (~150 g)</strong></td><td>Red pulp: splenic cords + venous sinuses (2–3 µm gaps); white pulp: PALS + B cell follicles + marginal zone (MZ B cells)</td><td>Red pulp: RBC quality control (senescent RBCs trapped), iron recycling, platelet reservoir; White pulp: adaptive immunity to blood-borne antigens; MZ: T-independent IgM to polysaccharide antigens</td></tr>
+            <tr><td><strong>Thymus</strong></td><td>Bilobed, anterior mediastinum; cortex (DP thymocytes + cTECs, positive selection); medulla (SP thymocytes + mTECs/AIRE, negative selection); Hassall's corpuscles</td><td>T-cell education: V(D)J rearrangement, positive selection (self-MHC recognition), negative selection (AIRE-driven self-antigen deletion → autoimmune prevention); involutes with age</td></tr>
+            <tr><td><strong>MALT</strong></td><td>Tonsils (Waldeyer's ring); Peyer's patches (ileum, M-cell antigen sampling); BALT (induced); mesenteric lymph nodes</td><td>Mucosal immune surveillance; IgA production → sIgA → luminal protection without inflammation</td></tr>
           </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Functions</h3>
+          <p><strong>Fluid homeostasis (Starling forces):</strong> At the arterial end of capillaries, hydrostatic pressure (~35 mmHg) exceeds oncotic pressure (~28 mmHg) → net filtration (~20 mL/min systemic). At the venous end, net reabsorption is slightly less → ~3 L/day accumulates in interstitium → must be drained by lymphatics to prevent progressive oedema. Failure → lymphoedema.</p>
+          <p><strong>Immune surveillance:</strong> The lymph node is the critical encounter point between antigen-bearing DCs (arriving via afferent lymph, guided by CCL19/21 gradient through CCR7 expression) and recirculating naïve lymphocytes (entering via HEV using L-selectin/PNAd tethering → LFA-1/ICAM-1 arrest). DC-T cell cognate interaction (TCR-pMHC + CD28-B7 + cytokines) → T cell activation → clonal expansion → Tfh-B cell interaction → germinal centre → affinity maturation → class switch → plasma cells and memory B cells exit via efferent lymphatics → blood → effector tissues.</p>
+          <p><strong>Dietary lipid transport:</strong> Enterocytes package dietary TG + cholesterol + apoB-48 into chylomicrons (75–1,200 nm) — too large for blood capillary junctions. Chylomicrons enter intestinal lacteals via button junctions → mesenteric lymphatics → cisterna chyli → thoracic duct → left subclavian vein. This explains why fat-soluble vitamins (A, D, E, K) and lipophilic drugs initially bypass hepatic first-pass metabolism.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lymph Node Immune Architecture</h3>
+          <div class="circuit-diagram">
+<pre>
+  Tissue injury / pathogen
+         │ DC maturation → CCR7 ↑
+         ▼
+  Afferent lymphatic → subcapsular sinus
+  (SCS macrophages trap large antigens + cell debris;
+   relay to follicular DCs and B cells)
+         │
+         ▼
+  Paracortex (T-cell zone)
+  DC presents antigen on MHC-I (CD8 CTL) / MHC-II (CD4 Th)
+  + CD28-B7 co-stimulation + cytokine signals
+         │ T cell activation + clonal expansion
+         │ Tfh cells differentiate → migrate to follicle
+         ▼
+  Secondary follicle → GERMINAL CENTRE
+  Centroblasts (rapid division + somatic hypermutation)
+    → centrocytes compete for FDC antigen
+    → affinity selection → class switch recombination
+         │
+         ├─► Long-lived plasma cells (bone marrow)
+         │   → high-affinity IgG/IgA/IgE
+         └─► Memory B cells (circulate indefinitely)
+         │
+  Medullary cords: plasma cell IgG/IgA secretion
+  Efferent lymphatic: antibodies + effector cells → blood
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Spleen — Haematological and Immune Functions</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Red pulp — quality control</h4>
+              <p>~350 L of blood filtered daily. Senescent or deformed RBCs (↓deformability → cannot squeeze through 1–3 µm slit pores of venous sinuses) are trapped and phagocytosed by red pulp macrophages (CD163+). Iron recycled: Hb → haem oxygenase → biliverdin → bilirubin + iron → ferroportin → transferrin → bone marrow. Platelet reservoir (~30% sequestered at rest).</p>
+            </div>
+            <div class="info-block">
+              <h4>White pulp — adaptive immunity</h4>
+              <p>PALS (periarteriolar lymphatic sheath): T cell zone surrounding central arteriole; T cell activation by blood-borne antigens. Follicles: B cell zone; secondary follicles develop GCs. Marginal zone (MZ) B cells: CD21hi, IgMhi, IgDlo; mount rapid T-independent IgM responses to polysaccharide antigens (encapsulated bacteria). Splenectomy → loss of MZ → ↑OPSI risk.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Lymphoma — Hodgkin and Non-Hodgkin</h4>
+            <p>Hodgkin Lymphoma (HL): Reed-Sternberg cells (binucleate CD30+, CD15+, PAX5 dim, CD45−; GC B-cell origin; lost BCR expression; NF-κB/JAK-STAT rescue; EBV ~40%). Nodular sclerosis most common (young adults, mediastinal). Treatment: ABVD → &gt;85% cure early-stage; brentuximab vedotin (anti-CD30 ADC) for relapsed/refractory. NHL (&gt;60 entities): DLBCL (30%, aggressive, R-CHOP; BCL6/MYC/BCL2 double/triple hit → poor prognosis), follicular lymphoma (t(14;18) BCL2 overexpression → indolent), Burkitt (t(8;14) MYC, EBV/HIV-associated, highly aggressive), CLL/SLL (CD5+, CD23+; ibrutinib/venetoclax), mantle cell (t(11;14) cyclin D1).</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Lymphoedema</h4>
+            <p>Primary: monogenic lymphatic development disorders — Milroy disease (VEGFR3/FLT4 loss → absent/hypoplastic lymphatics, bilateral leg oedema from birth), Meige disease / lymphoedema praecox (FOXC2 mutations, pubertal onset), Hennekam syndrome (CCBE1/ADAMTS3 → generalised lymphangiectasia). Secondary (far more common): filariasis (most common globally — W. bancrofti/B. malayi), breast cancer surgery + RT (20–30% arm lymphoedema), recurrent cellulitis. Treatment: complex decongestive therapy (CDT), pneumatic compression, vascularised lymph node transfer, lymphovenous anastomosis.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Overwhelming Post-Splenectomy Infection (OPSI)</h4>
+            <p>Splenectomy removes marginal zone B cells (T-independent IgM responses to polysaccharide antigens) and reduces opsonisation → fulminant sepsis by S. pneumoniae (~50%), H. influenzae b, N. meningitidis. Lifetime risk ~1–5%; mortality ~50%. Prevention: pre-splenectomy vaccination (PCV13 + PPSV23, Hib, MenACWY, MenB) + lifelong penicillin prophylaxis (especially children/first 2 years) + antibiotic standby + medical alert.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Filariasis (Elephantiasis)</h4>
+            <p>W. bancrofti and B. malayi/timori filarial nematodes (Culex/Anopheles mosquitoes) → adults in lymphatic vessels → host inflammatory response → lymphangitis + progressive fibrosis → chronic lymphoedema → elephantiasis. ~120 million infected globally; 40 million with clinical lymphoedema. Treatment: diethylcarbamazine (DEC) + albendazole + ivermectin (triple therapy, WHO 2022) kills microfilariae; doxycycline (kills endosymbiotic Wolbachia → adult worm sterilisation/death).</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Kaposi Sarcoma and Chylothorax</h4>
+            <p>Kaposi sarcoma: HHV-8 infects lymphatic endothelial cells → spindle cell tumour; forms: classic (elderly Mediterranean), endemic (African children), AIDS-related (now rare with ART), iatrogenic (transplant). Chylothorax: thoracic duct injury (trauma, oesophagectomy, lymphoma) → chyle in pleural space (milky, TG &gt;110 mg/dL); treat: nil by mouth → MCT diet → octreotide → pleurodesis → TD ligation.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="spleen.html" title="Spleen is the largest secondary lymphoid organ; red pulp macrophages clear senescent RBCs and recycle iron; white pulp PALS (T cells) and B-cell follicles with marginal zone B cells respond to polysaccharide antigens."><span class="rel">contains</span>Spleen</a>
-            <a class="conn-pill part" href="thymus.html" title="Thymus is the primary lymphoid organ for T-cell development: V(D)J rearrangement, positive selection on cTEC MHC, and negative selection on mTEC AIRE-presented self antigens; thymic output declines with age."><span class="rel">contains</span>Thymus</a>
-            <a class="conn-pill" href="immune-system.html" title="Lymph nodes (400–700) are antigen-filtering and immune activation hubs; DCs arriving via afferent lymph activate naïve T/B cells; germinal centre reactions produce affinity-matured IgG plasma cells; HEV enable lymphocyte recirculation."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="Thoracic duct returns 2–4 L lymph/day to the left subclavian vein, essential for plasma volume maintenance; lymphatic dysfunction → oedema and chylothorax; collecting vessels have intrinsic smooth muscle and valves for unidirectional flow."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill part" href="human-body.html"><span class="rel">Part of</span>Human Body</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Spleen (secondary lymphoid)</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Thymus (T-cell education)</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Immune System (adaptive hubs)</a>
+            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Modulates</span>Cardiovascular System (plasma volume)</a>
+            <a class="conn-pill" href="integumentary-system.html"><span class="rel">Drains</span>Skin (Langerhans cell trafficking)</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">NCBI Bookshelf</a></li>
+            <li>Swartz MA. The physiology of the lymphatic system. <em>Adv Drug Deliv Rev.</em> 2001;50(1-2):3-20. <a href="https://doi.org/10.1016/S0169-409X(01)00150-8" target="_blank" rel="noopener">doi:10.1016/S0169-409X(01)00150-8</a></li>
+            <li>WHO. Lymphatic Filariasis. <a href="https://www.who.int/news-room/fact-sheets/detail/lymphatic-filariasis" target="_blank" rel="noopener">who.int</a></li>
+            <li>Morton LM, et al. Lymphoma Incidence Patterns by WHO Subtype in the United States. <em>Blood.</em> 2006;107(1):265-276. <a href="https://doi.org/10.1182/blood-2005-06-2508" target="_blank" rel="noopener">doi:10.1182/blood-2005-06-2508</a></li>
           </ul>
         </div>
 
@@ -185,11 +259,13 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="human-body.html">Human Body</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

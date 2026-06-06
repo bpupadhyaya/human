@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Most abundant human protein (~30% of total protein); triple-helix of Gly-X-Y repeats (~300 nm). &gt;28 types; types I–IV underpin bone, skin, cartilage, and baseme">
-  <meta property="og:title" content="Collagen — Human Engineering">
+  <meta name="description" content="Collagen — triple-helix Gly-X-Y repeats, 28+ types, osteogenesis imperfecta, Ehlers-Danlos, Alport syndrome, fibrosis. Part of the Human Engineering molecular atlas.">
+  <meta property="og:title" content="Collagen — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Collagen — Human Engineering</title>
+  <title>Collagen — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #b45309;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,48 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(180,83,9,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #78350f); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .principle-box { background: rgba(180,83,9,0.06); border: 1px solid rgba(180,83,9,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +96,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,62 +108,163 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
     <h1>Collagen</h1>
-    <p class="tagline">Most abundant human protein (~30% of total protein); triple-helix of Gly-X-Y repeats (~300 nm). &gt;28 types; types I–IV underpin bone, skin, cartilage, and basement membranes. Mutations cause OI, Alport syndrome, Ehlers-Danlos; excess deposition causes fibrosis.</p>
-    <p class="aliases">Also known as: type I collagen, type IV collagen, procollagen, tropocollagen, collagen fibril</p>
+    <p class="tagline">The most abundant protein in the human body — ~30% of total protein mass — a family of &gt;28 types unified by the Gly-X-Y triple-helix that scaffolds bone, skin, cartilage, tendons, blood vessel walls, and every basement membrane.</p>
+    <p class="subtagline">The triple helix, elucidated by Ramachandran and Kartha in 1955, achieves tensile strength exceeding ~1 GPa for type I collagen fibrils — surpassing many steel alloys at comparable cross-section. Mutations in collagen genes or their biosynthetic enzymes cause osteogenesis imperfecta, Ehlers-Danlos syndrome, Alport syndrome, and scurvy; dysregulated deposition drives fibrosis of liver, lung, and kidney.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">&gt;28 types</span><span class="stat-label">Collagen family</span></div>
+      <div class="stat"><span class="stat-num">~30%</span><span class="stat-label">Total body protein</span></div>
+      <div class="stat"><span class="stat-num">44+ genes</span><span class="stat-label">COL gene family</span></div>
+      <div class="stat"><span class="stat-num">300 nm</span><span class="stat-label">Fibril length (type I)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">collagen</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Structural Protein / Extracellular Matrix</div>
         <h2>Collagen</h2>
-        <p class="summary">Most abundant human protein (~30% of total protein); triple-helix of Gly-X-Y repeats (~300 nm). &gt;28 types; types I–IV underpin bone, skin, cartilage, and basement membranes. Mutations cause OI, Alport syndrome, Ehlers-Danlos; excess deposition causes fibrosis.</p>
+        <div class="drug-class">Class: Structural protein &nbsp;&middot;&nbsp; Extracellular matrix scaffold &nbsp;|&nbsp; Key genes: COL1A1/A2, COL3A1, COL4A1-A6, COL5A1/A2 &nbsp;|&nbsp; Produced by: Fibroblasts, osteoblasts, chondrocytes, myofibroblasts, endothelial cells</div>
+        <p class="summary">Collagen is the most abundant protein in the human body, constituting ~30% of total protein mass and providing the structural scaffold for virtually every tissue. Its defining feature — the triple helix — three &alpha;-chains coiling around each other, each requiring every third residue to be glycine and stabilised by 4-hydroxyproline formed by vitamin C-dependent prolyl hydroxylase. More than 28 distinct types serve specific mechanical and signalling roles: type I dominates bone, skin, and tendon; type IV scaffolds all basement membranes; type VII anchors dermal-epidermal junctions. The same architecture that creates extraordinary tensile strength in healthy tissue becomes pathological excess in fibrosis — where TGF-&beta;-driven myofibroblast activation deposits type I/III collagen in liver (cirrhosis), lung (IPF), and kidney (CKD).</p>
+        <div class="alias-pills">
+          <span class="alias-pill">type I collagen</span>
+          <span class="alias-pill">type IV collagen</span>
+          <span class="alias-pill">procollagen</span>
+          <span class="alias-pill">tropocollagen</span>
+          <span class="alias-pill">collagen fibril</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The collagen superfamily contains <strong>more than 28 distinct types</strong>, encoded by at least 44 genes, ranging from large fibril-forming collagens (types I–III, V, XI) that provide tensile strength in bone, skin, and tendon, to the sheet-forming type IV that scaffolds all basement membranes, to transmembrane collagens (type XVII) that anchor cells. About 90% of body collagen is type I.</p>
+          <p>Collagen pathology is correspondingly broad: <strong>scurvy</strong> (vitamin C deficiency → prolyl hydroxylase failure → unstable helix), <strong>osteogenesis imperfecta</strong> (COL1A1/A2 Gly substitution — dominant-negative defect), <strong>Ehlers-Danlos syndrome</strong> (multiple types; COL5A1/A2, COL3A1, PLOD1), <strong>Alport syndrome</strong> (COL4A3-A5 mutations → GBM failure), and organ <strong>fibrosis</strong> (TGF-&beta; → myofibroblast activation → excess type I/III deposition).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure</h3>
+          <h4>Triple-helix architecture</h4>
+          <p>The fundamental structural unit of all collagens is the <strong>triple helix</strong>: three &alpha;-chains, each in a left-handed polyproline II (PPII) helix conformation, coil around each other into a right-handed superhelix (~300 nm long, 1.5 nm diameter for fibrillar collagens). The <strong>Gly-X-Y repeat</strong> is the structural imperative — every third residue must be <strong>glycine</strong>, the only residue small enough to occupy the sterically crowded central axis of the triple helix. X is frequently proline; Y is frequently <strong>4-hydroxyproline (Hyp)</strong>, which forms interchain hydrogen bonds via water bridges that critically stabilise the helix. Loss of Hyp (scurvy) destabilises the triple helix → connective tissue fragility.</p>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>collagen</td></tr>
-            <tr><td>Name</td><td>Collagen</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
+            <tr><th>Type</th><th>Genes</th><th>Distribution</th><th>Primary role</th></tr>
+            <tr><td>I</td><td>COL1A1/A2</td><td>Bone, skin, tendon, cornea, dentin</td><td>Tensile strength; ~90% of body collagen</td></tr>
+            <tr><td>II</td><td>COL2A1</td><td>Cartilage, vitreous</td><td>Compressive force resistance</td></tr>
+            <tr><td>III</td><td>COL3A1</td><td>Fetal skin, blood vessels, GI tract</td><td>Often co-deposited with type I; vascular compliance</td></tr>
+            <tr><td>IV</td><td>COL4A1–A6</td><td>All basement membranes (GBM, tubular BM, skin BMZ)</td><td>Sheet network; filtration scaffold</td></tr>
+            <tr><td>V</td><td>COL5A1/A2</td><td>Cornea, interstitial tissues</td><td>Regulates type I fibril diameter (template function)</td></tr>
+            <tr><td>VII</td><td>COL7A1</td><td>Skin dermal-epidermal junction</td><td>Anchoring fibrils for epidermis to dermis</td></tr>
+            <tr><td>XVII</td><td>COL17A1</td><td>Skin hemidesmosomes</td><td>Transmembrane; BPAG2; epidermal adhesion</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="human-body.html" title="~30% of total protein mass; types I–VII provide tensile strength in bone, skin, cartilage, tendons, blood vessel walls and basement membranes throughout every organ system."><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill part" href="glomerulus.html" title="Type IV collagen forms the glomerular basement membrane network; Alport syndrome (COL4A3/4/5 mutations) disrupts GBM structure causing haematuria and progressive CKD."><span class="rel">part-of</span>Glomerulus</a>
-            <a class="conn-pill part" href="myocardium.html" title="Cardiac ECM is ~2–5% collagen (mainly types I and III); the collagen network transmits cardiomyocyte force and maintains ventricular geometry; excess deposition causes restrictive physiology."><span class="rel">part-of</span>Myocardium</a>
-            <a class="conn-pill" href="liver.html" title="Liver fibrosis: stellate cell activation → excess type I/III collagen deposition → scar tissue replaces hepatic lobule architecture → cirrhosis and portal hypertension."><span class="rel">modulates</span>Liver</a>
-            <a class="conn-pill part" href="cortical-bone.html" title="Composed Of by Cortical Bone."><span class="rel">composed-of</span>Cortical Bone</a>
+          <h3>Mechanism — Biosynthesis Pathway</h3>
+          <div class="pathway-block">
+<pre>
+  RIBOSOME: Pre-pro-α-chain synthesis; signal peptide → ER
+
+  ER PROCESSING:
+    1. Signal peptide cleavage → pro-α-chain
+    2. Prolyl 4-hydroxylase (P4H):
+       Pro(Y) + O₂ + ascorbate + Fe²⁺ + α-KG → 4-Hydroxyproline (Hyp)
+       [~100 Hyp per α-chain; VITAMIN C cofactor → SCURVY if deficient]
+    3. Prolyl 3-hydroxylase → 3-Hyp at Pro986 (1 per chain)
+    4. Lysyl hydroxylase (PLOD1/2/3):
+       Lys → Hydroxylysine (Hyl) → O-glycosylated (Gal-Hyl; Glc-Gal-Hyl)
+    5. C-propeptide disulfide bonding → nucleates α-chain registration
+    6. Triple helix propagates N-terminally (zipper mechanism)
+
+  GOLGI: Glycosylation; packaging into secretory vesicles
+
+  EXTRACELLULAR:
+    ADAMTS2/14 (N-proteinase) + BMP1/tolloid (C-proteinase)
+    → cleave N- and C-propeptides → tropocollagen (300 nm × 1.5 nm)
+    → self-assembles into D-staggered fibrils (67 nm D-period)
+
+  CROSS-LINKING (extracellular):
+    Lysyl oxidase (LOX; Cu²⁺-dependent):
+    Lys/Hyl → allysine → spontaneous condensation
+    → pyridinoline + deoxypyridinoline cross-links (trivalent)
+    → fibril tensile strength and resistance to proteolysis
+</pre>
+          </div>
+          <h4>Collagen degradation</h4>
+          <p>Triple helices resist most proteases. Specific cleavage requires: <strong>Collagenases (MMP-1, MMP-8, MMP-13)</strong> — cleave the triple helix at a specific Gly-Ile/Leu site ~75% from the N-terminus &rarr; &frac34; and &frac14; fragments that denature at 37&deg;C; <strong>Gelatinases (MMP-2, MMP-9)</strong> — degrade denatured collagen fragments; <strong>MT-MMPs (MMP-14)</strong> — pericellular collagen degradation in invasion; <strong>Cathepsins (B, K, L)</strong> — intracellular lysosomal degradation (relevant in osteoclast bone resorption). MMP activity is regulated by TIMPs; imbalance toward proteolysis drives ECM degradation (joint destruction, tumour invasion); imbalance toward synthesis drives fibrosis.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Roles</h3>
+          <p><strong>Bone:</strong> Type I collagen fibrils in bone are mineralized with hydroxyapatite, creating a composite material that resists both tension (collagen) and compression (mineral). The collagen scaffold determines bone quality independent of bone mineral density (BMD) — explaining why bone density measurements alone underpredict fracture risk.</p>
+          <p><strong>Vascular wall:</strong> Types I and III collagen form the arterial media and adventitia, determining arterial stiffness and providing the mechanical foundation upon which smooth muscle cells generate tone. Degradation by MMPs in atherosclerotic plaques reduces tensile strength, predisposing to plaque rupture and acute coronary events.</p>
+          <p><strong>Glomerular basement membrane:</strong> Type IV collagen (COL4A3-A5 isoforms) forms a covalently crosslinked network in the GBM contributing to charge and size selectivity of glomerular filtration. The GBM type IV network is the only collagen network that forms true covalent crosslinks in vivo (NC1 sulfilimine bond formed by peroxidasin).</p>
+          <p><strong>Cardiac ECM:</strong> Types I and III collagen form the myocardial collagen network (perimysium, endomysium) that couples cardiomyocyte shortening to chamber ejection and prevents over-distension. Excess type I deposition (fibrosis) in heart failure increases myocardial stiffness &rarr; diastolic dysfunction &rarr; HFpEF phenotype.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Disease</th><th>Gene/mechanism</th><th>Clinical features</th></tr>
+            <tr><td><strong>Scurvy</strong></td><td>Vitamin C deficiency → P4H failure → unstable triple helix → non-secreted procollagen degraded intracellularly</td><td>Perifollicular haemorrhages, bleeding gums, corkscrew hairs, wound dehiscence, costochondral "rosary"; reverses rapidly with vitamin C</td></tr>
+            <tr><td><strong>Osteogenesis imperfecta (OI)</strong></td><td>COL1A1/A2 Gly substitution (any Gly→X in Gly-X-Y triplet) → dominant-negative disruption of triple helix; all 3 chains affected even if only 1 is mutant</td><td>Brittle bones (fracture at minimal trauma), blue sclerae, dentinogenesis imperfecta, hearing loss; 8 types (I–VIII) by severity; type I = mildest (heterozygous nonsense → haploinsufficiency); type II = lethal perinatal (Gly→large residue)</td></tr>
+            <tr><td><strong>Ehlers-Danlos syndrome (EDS)</strong></td><td>Classical: COL5A1/A2 → ↓type V → dysregulated fibril diameter; Vascular (EDS type IV): COL3A1 → type III deficiency; Kyphoscoliotic: PLOD1 (lysyl hydroxylase deficiency)</td><td>Skin hyperextensibility, joint hypermobility; Vascular EDS: arterial/bowel/uterine rupture risk — life-threatening; kyphoscoliotic: progressive scoliosis, ocular fragility</td></tr>
+            <tr><td><strong>Alport syndrome</strong></td><td>COL4A3/A4 (AR) or COL4A5 (X-linked) mutations → abnormal type IV collagen network in GBM → structural failure → GBM thinning then splitting</td><td>Haematuria (earliest sign, childhood), proteinuria, progressive CKD (ESRD by age 20–30 in X-linked males), sensorineural deafness (30–70%), anterior lenticonus (25%); ACE inhibitors delay ESRD; sparsentan approved 2024</td></tr>
+            <tr><td><strong>Pulmonary fibrosis (IPF)</strong></td><td>Repetitive alveolar epithelial injury → dysregulated repair → TGF-&beta; → myofibroblast activation → excess type I/III collagen deposited in interstitium → "honeycombing"</td><td>Progressive dyspnoea, ↓DLCO, usual interstitial pneumonia (UIP) pattern on CT; median survival 3 years from diagnosis; antifibrotics pirfenidone and nintedanib slow progression</td></tr>
+            <tr><td><strong>Liver fibrosis / cirrhosis</strong></td><td>Hepatic stellate cell (HSC) activation (alcohol, viral hepatitis, NAFLD, cholestasis) → myofibroblasts → excess type I/III collagen → bridging fibrosis → portal hypertension</td><td>Portal hypertension, ascites, varices, hepatic encephalopathy, ↑HCC risk; METAVIR F0-F4 staging; liver stiffness by FibroScan correlates with collagen content</td></tr>
+            <tr><td><strong>Keloid</strong></td><td>Unregulated type I/III collagen production from dermal fibroblasts post-injury, beyond wound margins (vs. hypertrophic scar which stays within margins)</td><td>Raised, firm, itchy/painful scar growing beyond original wound; predilection for chest, ear lobes, jaw; treatments: intralesional steroids, silicone sheets, laser, radiotherapy</td></tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>The scurvy connection:</strong> Prolyl 4-hydroxylase requires <strong>Fe²⁺, O₂, &alpha;-ketoglutarate, and ascorbate (vitamin C)</strong> as cofactors. Vitamin C is consumed stoichiometrically during each hydroxylation (regenerated by NADH under normal conditions; rate-limiting when deficient). Without hydroxylation, collagen triple helices cannot form at 37°C — collagen is retained in the ER and degraded. Supplementation reverses scurvy within days as new collagen is synthesised and secreted.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Pharmacology / Clinical Relevance</h3>
+          <p><strong>Antifibrotic therapies:</strong> Pirfenidone (pleiotropic; attenuates TGF-&beta; signalling, ↓myofibroblast proliferation, ↓collagen synthesis — IPF); nintedanib (triple kinase inhibitor: PDGFR, VEGFR, FGFR — IPF, systemic sclerosis ILD, progressive pulmonary fibrosis); losartan/ACE inhibitors (↓TGF-&beta; via RAS blockade — used in Alport syndrome, some hepatic fibrosis regimens).</p>
+          <p><strong>Collagen as therapeutic target in cardiovascular disease:</strong> Post-MI cardiac fibrosis is driven by type I/III collagen deposition by activated cardiac fibroblasts. Mineralocorticoid receptor antagonists (spironolactone, eplerenone) reduce myocardial collagen content and improve diastolic function in heart failure clinical trials. Serum PICP (procollagen I C-terminal peptide) and PIIINP (N-terminal propeptide of type III procollagen) are biomarkers of active fibrosis turnover used in research.</p>
+          <p><strong>Collagen-based biomaterials:</strong> Purified type I collagen and gelatin (hydrolysed collagen) are used in wound dressings, haemostatic agents (Gelfoam, Surgiflo), tissue-engineering scaffolds, and injectables for soft-tissue augmentation (though largely replaced by hyaluronic acid fillers in cosmetic medicine).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="#" class="conn-pill">
+              <span class="rel">Part of</span>
+              Bone ECM (~30% collagen by mass)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Forms</span>
+              Glomerular basement membrane (type IV)
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill">
+              <span class="rel">Scaffolds</span>
+              Arterial wall (types I, III)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Degraded by</span>
+              MMP-1/8/13 (collagenases)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Overproduced in</span>
+              Fibrosis (TGF-&beta; → myofibroblast)
+            </a>
+            <a href="ampk.html" class="conn-pill">
+              <span class="rel">Indirectly linked</span>
+              AMPK (energy-state collagen synthesis regulation)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. Chapter 27 (protein folding and structure).</li>
+            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022.</li>
+            <li>Ricard-Blum S. The collagen family. <em>Cold Spring Harb Perspect Biol.</em> 2011;3(1):a004978. <a href="https://doi.org/10.1101/cshperspect.a004978">doi:10.1101/cshperspect.a004978</a></li>
+            <li>Byers PH, Pyott SM. Recessively inherited forms of osteogenesis imperfecta. <em>Annu Rev Genet.</em> 2012;46:475-97. <a href="https://doi.org/10.1146/annurev-genet-110711-155608">doi:10.1146/annurev-genet-110711-155608</a></li>
+            <li>Raghu G, et al. Idiopathic pulmonary fibrosis. <em>Nat Rev Dis Primers.</em> 2023;9(1):46. <a href="https://doi.org/10.1038/s41572-023-00457-2">doi:10.1038/s41572-023-00457-2</a></li>
           </ul>
         </div>
 
@@ -183,14 +273,18 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="albumin.html">Albumin</a>
+      <a href="fibrinogen.html">Fibrinogen</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta" style="margin-top:0.5rem;">&copy; <span id="year"></span> Bhim Upadhyaya</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

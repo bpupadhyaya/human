@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="6–7 m tube (duodenum, jejunum, ileum); ~250 m² absorptive surface via villi and microvilli. Primary site of nutrient absorption: sugars (SGLT1/GLUT5), amino aci">
+  <meta name="description" content="Small Intestine — 6–7 m tube (duodenum, jejunum, ileum); ~250 m² absorptive surface via villi and microvilli. SGLT1/GLUT2 sugar transport, PepT1 peptide transport, chylomicron fat absorption, enteroendocrine hormones (CCK, GLP-1, GIP, secretin). Scale 06 of the Human Atlas.">
   <meta property="og:title" content="Small Intestine — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Small Intestine — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,51 +32,42 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #065f46); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -94,7 +78,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
+    .footer-links a:hover { color: var(--accent); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -108,6 +92,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,65 +104,160 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Organ</div>
     <h1>Small Intestine</h1>
-    <p class="tagline">6–7 m tube (duodenum, jejunum, ileum); ~250 m² absorptive surface via villi and microvilli. Primary site of nutrient absorption: sugars (SGLT1/GLUT5), amino acids (PepT1), fats (chylomicrons), vitamins, minerals. Enteroendocrine cells secrete CCK, GLP-1, GIP, secretin.</p>
-    <p class="aliases">Also known as: duodenum, jejunum, ileum, small bowel, intestinum tenue</p>
+    <p class="tagline">6–7 m convoluted tube — principal site of nutrient digestion and absorption — achieving ~250 m² of absorptive surface via circular folds, villi, and microvilli.</p>
+    <p class="subtagline">Three segments: duodenum (25–30 cm), jejunum (~2.5 m), ileum (~3.5 m). Largest endocrine organ by cell number — secretes CCK, secretin, GLP-1, GIP, GLP-2, PYY from enteroendocrine cells coordinating digestion, appetite, and metabolism.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~250 m²</span><span class="stat-label">Absorptive surface area</span></div>
+      <div class="stat"><span class="stat-num">6–7 m</span><span class="stat-label">Length</span></div>
+      <div class="stat"><span class="stat-num">3–5 days</span><span class="stat-label">Epithelial turnover (LGR5+ stem cells)</span></div>
+      <div class="stat"><span class="stat-num">&gt;20</span><span class="stat-label">Peptide hormones secreted</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">small-intestine</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0002108 &middot; Atlas One / Scale 06 &mdash; Organ &middot; Digestive</div>
         <h2>Small Intestine</h2>
-        <p class="summary">6–7 m tube (duodenum, jejunum, ileum); ~250 m² absorptive surface via villi and microvilli. Primary site of nutrient absorption: sugars (SGLT1/GLUT5), amino acids (PepT1), fats (chylomicrons), vitamins, minerals. Enteroendocrine cells secrete CCK, GLP-1, GIP, secretin.</p>
+        <p class="summary">The principal site of nutrient digestion and absorption — spanning from the pyloric sphincter to the ileocaecal valve. Three hierarchical surface amplifications achieve ~250 m² from a 2.5–3 cm diameter tube: plica circulares (Kerckring folds), villi (0.5–1.5 mm finger-like projections with central lacteals), and microvilli (brush border, ~2 µm). Each villus is renewed every 3–5 days from LGR5+ intestinal stem cells (ISCs) in crypts of Lieberkühn. Enterocytes absorb sugars (SGLT1/GLUT5 apical → GLUT2 basolateral), amino acids (PepT1, multiple SLC family transporters), and fats (chylomicrons → lacteals → thoracic duct). The ileum specifically absorbs vitamin B12 (cubilin/amnionless receptor) and bile acids (ASBT, 95% recovery per cycle). The enteroendocrine system constitutes the body's largest endocrine organ by cell number.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The small intestine is a 6–7 m convoluted tube spanning from the pyloric sphincter to the ileocaecal valve — the principal site of nutrient digestion and absorption in the human body. Divided into three anatomically and functionally distinct segments: the <strong>duodenum</strong> (25–30 cm, C-shaped, fixed retroperitoneal), <strong>jejunum</strong> (~2.5 m, proximal mobile small bowel), and <strong>ileum</strong> (~3.5 m, distal mobile small bowel). Despite its modest luminal diameter (2.5–3 cm), the small intestine achieves a total absorptive surface area of approximately <strong>250 m²</strong> through three hierarchical surface amplifications.</p>
+          <p>The small intestine is not merely an absorptive tube. Its enteroendocrine system constitutes the <strong>largest endocrine organ in the body by cell number</strong>, secreting more than 20 peptide hormones — including CCK, secretin, GIP, GLP-1, GLP-2, and PYY — that coordinate digestion, appetite, and metabolic homeostasis. Its immune apparatus (Peyer's patches, intraepithelial lymphocytes, lamina propria lymphocytes) provides the intestinal mucosal firewall against luminal pathogens while maintaining tolerance to dietary antigens.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Anatomy — Three Segments and Wall Structure</h3>
+          <p><strong>Duodenum</strong> (25–30 cm, C-shaped, retroperitoneal): The superior (first) part — duodenal cap — is most vulnerable to peptic ulceration. Second (descending) part receives bile and pancreatic juice via the major duodenal papilla (ampulla of Vater, sphincter of Oddi) and minor papilla (accessory pancreatic duct). Fourth part passes the ligament of Treitz (upper/lower GI bleeding landmark). Brunner's glands in the submucosa secrete alkaline mucus (pH 8.1–9.3) to neutralise acid chyme. Iron and calcium absorbed primarily here.</p>
+          <p><strong>Jejunum</strong> (~2.5 m): Wider lumen, thicker wall, more prominent plica circulares and villi per cm². Majority of carbohydrate, protein, and fat absorbed here. Fewer goblet cells, more enterocytes per villus than ileum.</p>
+          <p><strong>Ileum</strong> (~3.5 m): Narrower, less prominent folds. Specialised for vitamin B12-intrinsic factor complex absorption (cubilin/amnionless [CUBAM] receptor → transcytosis → transcobalamin II), bile acid reabsorption (ASBT/SLC10A2 apical → IBABP intracellular → OSTα/β basolateral → portal circulation → hepatic NTCP reuptake — ~95% recovery per enterohepatic cycle), and immune surveillance (20–30 Peyer's patches in terminal ileum).</p>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>small-intestine</td></tr>
-            <tr><td>Name</td><td>Small Intestine</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>06-organ</td></tr>
+            <tr><th>Layer</th><th>Key features</th></tr>
+            <tr><td>Mucosa</td><td>Epithelium (enterocytes, goblet, Paneth, enteroendocrine, tuft, M-cells) + lamina propria (capillaries, lacteal, immune cells, IgA plasma cells) + muscularis mucosae</td></tr>
+            <tr><td>Submucosa</td><td>Meissner's (submucosal) plexus; Brunner's glands (duodenum only)</td></tr>
+            <tr><td>Muscularis externa</td><td>Inner circular + outer longitudinal; Auerbach's (myenteric) plexus; interstitial cells of Cajal (ICCs) as pacemakers for peristalsis</td></tr>
+            <tr><td>Serosa</td><td>Visceral peritoneum (absent over retroperitoneal duodenum)</td></tr>
           </table>
+          <table class="data-table" style="margin-top:1rem;">
+            <tr><th>Cell type</th><th>Proportion</th><th>Location</th><th>Function</th></tr>
+            <tr><td>Enterocytes</td><td>~80%</td><td>Villus surface</td><td>Absorption; brush border enzymes (lactase, sucrase-isomaltase); SGLT1, GLUT5, PepT1, CD36</td></tr>
+            <tr><td>Goblet cells</td><td>~15%</td><td>Villi + crypts</td><td>MUC2 mucin secretion → gel-forming mucus layer</td></tr>
+            <tr><td>Paneth cells</td><td>Rare</td><td>Crypt base only</td><td>α-defensins (cryptdins), lysozyme, REG3γ — antimicrobial; support LGR5+ ISC niche</td></tr>
+            <tr><td>Enteroendocrine cells</td><td>~1%</td><td>Villi + crypts</td><td>Hormone secretion (CCK, secretin, GIP, GLP-1/2, PYY, serotonin)</td></tr>
+            <tr><td>Tuft cells</td><td>~0.4%</td><td>Villi</td><td>Chemosensory; IL-25 → ILC2 → Th2 immunity against helminths/protozoa</td></tr>
+            <tr><td>M-cells</td><td>Rare</td><td>Follicle-associated epithelium over Peyer's patches</td><td>Antigen sampling for Peyer's patches; entry site for some pathogens</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — Nutrient Absorption and Enteroendocrine Axis</h3>
+          <div class="circuit-diagram">
+<pre>CARBOHYDRATE ABSORPTION (Enterocyte — Brush Border → Basolateral)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Luminal starch → salivary + pancreatic amylase → dextrins + maltose
+Brush border:
+  Lactase (LCT)           : lactose → galactose + glucose
+  Sucrase-isomaltase (SI) : sucrose → glucose + fructose; maltose → glucose
+  Glucoamylase            : maltooligosaccharides → glucose
+
+Apical uptake:
+  SGLT1 (SLC5A1) — Na⁺-coupled glucose/galactose (against gradient; driven by Na⁺/K⁺-ATPase)
+  GLUT5 (SLC2A5) — facilitated fructose uptake (concentration gradient)
+
+Basolateral export to portal blood:
+  GLUT2 (SLC2A2) — all three monosaccharides → portal vein → liver
+
+PROTEIN ABSORPTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Gastric pepsin + pancreatic endopeptidases (trypsin, chymotrypsin, elastase)
++ carboxypeptidases → oligopeptides + amino acids
+
+Brush border peptidases → dipeptides, tripeptides, amino acids
+
+  PepT1 (SLC15A1) — H⁺-coupled di/tripeptide uptake (high capacity)
+    Clinically exploited by prodrugs: valacyclovir, enalapril
+  Amino acid transporters: rBAT/b⁰,+AT (cationic), ASCT2 (neutral), SLC6A19/B0AT1
+    (neutral — mutated in Hartnup disease → niacin deficiency + pellagra-like symptoms)
+
+FAT ABSORPTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TG → emulsified by bile salts (micelles) → pancreatic lipase + colipase
+  → fatty acids + 2-monoacylglycerol
+
+Enterocyte apical uptake:
+  Passive diffusion of FFA + CD36/FAT (long-chain FA)
+  Re-esterification in ER → TG → assembled into CHYLOMICRONS
+    (TG core + ApoB-48, ApoA-I/IV, ApoE; MTP essential — abetalipoproteinaemia = MTP mutation)
+  Chylomicrons exocytosed basolaterally → enter lacteal (central villus lymphatic)
+    → thoracic duct → left subclavian vein (bypass portal circulation entirely)
+
+Fat-soluble vitamins A, D, E, K absorbed with fat → same chylomicron route
+
+ENTEROENDOCRINE HORMONES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CCK       (I-cell, duodenum/jejunum): fat + protein → gallbladder contraction + pancreatic enzymes + satiety
+Secretin  (S-cell, duodenum): luminal acid (pH <4) → pancreatic HCO₃⁻ + ↓gastric acid
+GIP       (K-cell, duodenum/jejunum): glucose + fat → incretin (↑insulin glucose-dependently) + ↓gastric motility
+GLP-1     (L-cell, ileum/colon): glucose + fat + SCFAs → potent incretin + ↓glucagon + ↑satiety + slow gastric emptying
+           → TARGET of semaglutide (GLP-1 receptor agonist — type 2 diabetes + obesity)
+GLP-2     (L-cell): nutrients → intestinal trophism + ↑blood flow + ↑epithelial proliferation
+PYY       (L-cell, ileum/colon): fat + protein → ileal brake (↓appetite, ↓gastric motility)
+5-HT      (EC-cell, throughout): mechanical/chemical → peristaltic reflex via 5-HT3/4 on ENS neurons</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Motility — Migratory Motor Complex</h3>
+          <p>Two patterns coordinate digestion: <strong>Segmental contractions (fed state)</strong> — rhythmic, non-propagating contractions of circular muscle → mixing chyme with digestive secretions and repeated contact with absorptive surface. <strong>Peristalsis</strong> — aboral propagating contractions (ascending excitation + descending inhibition, via myenteric plexus) → net aboral movement of chyme.</p>
+          <p><strong>Migratory Motor Complex (MMC, fasted state)</strong> — cyclic ~90 min activity complex: Phase I (quiescence, ~45 min) → Phase II (irregular contractions, ~30 min) → Phase III ("housekeeper wave," 5–10 min): intense high-amplitude contractions sweep residue, bacteria, and sloughed cells from stomach to ileum; driven by motilin (duodenum, every 90 min during fasting) + 5-HT. Loss of MMC (e.g., opioids, scleroderma autonomic neuropathy) → small intestinal bacterial overgrowth (SIBO).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Coeliac Disease (Gluten-Sensitive Enteropathy)</h4>
+            <p>Immune-mediated enteropathy in HLA-DQ2 (~90%) or HLA-DQ8 (~5%) individuals triggered by gluten (gliadin from wheat, rye, barley). Tissue transglutaminase (tTG) deamidates gliadin → enhanced HLA-DQ2/8 binding → CD4+ T cell activation → Th1 → mucosal inflammation. Histology: villous atrophy (Marsh III), crypt hyperplasia, ↑intraepithelial lymphocytes (IELs). Malabsorption of fat (steatorrhoea), iron (anaemia), Ca²⁺ (osteoporosis), B vitamins. Serology: anti-tTG IgA (&gt;90% sensitivity/specificity). Treat: lifelong gluten-free diet → villous restoration within 2 years. Complications: refractory coeliac, EATL (enteropathy-associated T-cell lymphoma).</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Crohn's Disease (Small Bowel)</h4>
+            <p>Transmural, granulomatous, chronic inflammatory bowel disease; predilection for terminal ileum and ileocolon. Pathogenesis: NOD2/CARD15, ATG16L1, IL23R mutations + dysbiosis + mucosal barrier defect → aberrant innate + adaptive immune activation → transmural inflammation. Features: skip lesions, cobblestone mucosa, deep fissuring ulcers, non-caseating granulomata (histological hallmark), strictures (fibrosis), fistulae (enterocutaneous, enteroenteric, enterovesical, perianal). Complications: SBO (strictures), B12 malabsorption + bile acid depletion with terminal ileal disease, abscesses. Treat: steroids (acute), azathioprine/6-MP (maintenance), anti-TNF (adalimumab, infliximab), anti-integrin (vedolizumab), anti-IL-12/23 (ustekinumab).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>SIBO (Small Intestinal Bacterial Overgrowth)</h4>
+            <p>Overgrowth of colonic-type bacteria (&gt;10⁵ CFU/mL on jejunal aspirate; H₂ breath test). Causes: anatomical (strictures, Roux-en-Y, small bowel diverticula), motility disorders (diabetes autonomic neuropathy — ICC dysfunction; scleroderma — MMC loss), achlorhydria, immune deficiency. Consequences: bile acid deconjugation → fat malabsorption + diarrhoea; B12 consumption → megaloblastic anaemia; gas production → bloating. Treat: rifaximin (first-line); address underlying cause.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Small Intestinal NET / Carcinoid</h4>
+            <p>Most common primary small intestinal malignancy; arise from enterochromaffin cells, predominantly distal ileum, often multifocal. Secrete serotonin (5-HT), substance P, bradykinin → carcinoid syndrome (flushing, diarrhoea, right-sided valvular disease [carcinoid plaques], bronchospasm) — occurs when hepatic metastases secrete directly into systemic circulation. Diagnose: plasma chromogranin A, 24h urine 5-HIAA, ⁶⁸Ga-DOTATATE PET. Treat: surgical resection; somatostatin analogues (octreotide/lanreotide); PRRT for metastatic disease.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="digestive-system.html" title="Small intestine is the primary site of nutrient digestion and absorption; ~250 m² surface absorbs sugars (SGLT1/GLUT5), amino acids (PepT1), fats (chylomicrons), vitamins, minerals; enteroendocrine cells secrete CCK, GLP-1, GIP."><span class="rel">part-of</span>Digestive System</a>
-            <a class="conn-pill part" href="intestinal-epithelium.html" title="Intestinal epithelium (villi + crypts) lines the small intestine; LGR5+ stem cells in crypts renew the epithelium every 3–5 days; enterocytes, goblet, Paneth, and enteroendocrine cells form the functional absorptive unit."><span class="rel">contains</span>Intestinal Epithelium</a>
-            <a class="conn-pill" href="liver.html" title="Small intestine delivers absorbed nutrients to liver via portal circulation (first-pass metabolism); duodenal iron absorption and ileal bile acid reabsorption (enterohepatic circulation ~95%) directly regulate hepatic physiology."><span class="rel">modulates</span>Liver</a>
-            <a class="conn-pill" href="pancreas.html" title="Duodenal I-cells secrete CCK in response to fat/protein stimulating pancreatic enzyme secretion; S-cells secrete secretin in response to acid driving pancreatic HCO3 secretion; GIP from K-cells → incretin effect on pancreatic β-cells."><span class="rel">modulates</span>Pancreas</a>
-            <a class="conn-pill" href="norovirus.html" title="Infected by Norovirus."><span class="rel">infected-by</span>Norovirus</a>
-            <a class="conn-pill" href="rotavirus.html" title="Infected by Rotavirus."><span class="rel">infected-by</span>Rotavirus</a>
-            <a class="conn-pill" href="giardia-lamblia.html" title="Infected by Giardia lamblia (G. intestinalis / G. duodenalis)."><span class="rel">infected-by</span>Giardia Lamblia</a>
-            <a class="conn-pill" href="salmonella-typhi.html" title="Infected by Salmonella typhi."><span class="rel">infected-by</span>Salmonella Typhi</a>
+            <a class="conn-pill part" href="digestive-system.html"><span class="rel">Part of</span>Digestive System</a>
+            <a class="conn-pill" href="stomach.html"><span class="rel">Receives from</span>Stomach</a>
+            <a class="conn-pill" href="liver.html"><span class="rel">Delivers to</span>Liver (portal vein)</a>
+            <a class="conn-pill" href="pancreas.html"><span class="rel">Regulates</span>Pancreas (CCK, secretin, GIP)</a>
+            <a class="conn-pill" href="intestinal-epithelium.html"><span class="rel">Contains</span>Intestinal Epithelium</a>
+            <a class="conn-pill damaged" href="norovirus.html"><span class="rel">Infected by</span>Norovirus</a>
+            <a class="conn-pill damaged" href="rotavirus.html"><span class="rel">Infected by</span>Rotavirus</a>
+            <a class="conn-pill damaged" href="giardia-lamblia.html"><span class="rel">Infected by</span>Giardia lamblia</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. <a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener">macmillanlearning.com</a></li>
+            <li>Drucker DJ. Mechanisms of action and therapeutic application of glucagon-like peptide-1. <em>Cell Metab.</em> 2018;27(4):740–56. <a href="https://doi.org/10.1016/j.cmet.2018.03.001" target="_blank" rel="noopener">doi:10.1016/j.cmet.2018.03.001</a></li>
+            <li>Barker N, van Es JH, Kuipers J, et al. Identification of stem cells in small intestine and colon by marker gene Lgr5. <em>Nature.</em> 2007;449(7165):1003–7. <a href="https://doi.org/10.1038/nature06196" target="_blank" rel="noopener">doi:10.1038/nature06196</a></li>
           </ul>
         </div>
 
@@ -189,11 +269,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="stomach.html">Stomach</a>
+      <a href="liver.html">Liver</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.4rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

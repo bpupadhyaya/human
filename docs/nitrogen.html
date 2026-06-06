@@ -3,194 +3,204 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="N, atomic number 7. Third most abundant element by body mass (~3%). Present in every amino acid (α-amino group, peptide bond), every nucleotide base, and in hae">
-  <meta property="og:title" content="Nitrogen — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Nitrogen — Human Engineering</title>
+  <title>Nitrogen — Human Engineering Atlas</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
+    :root { --accent: #2563eb; --bg: #0f0f13; --surface: #18181f; --surface2: #1f1f2a; --border: #2a2a3a; --fg: #e8e8f0; --muted: #9090a8; --radius: 10px; }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    body { background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(15,15,19,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 1.5rem; display: flex; align-items: center; gap: 1rem; height: 52px; }
+    .nav-logo { font-weight: 700; font-size: 1rem; color: var(--fg); } .nav-sep { color: var(--border); } .nav-link { font-size: 0.85rem; color: var(--muted); }
+    .hero { padding: 4rem 1.5rem 3rem; max-width: 860px; margin: 0 auto; }
+    .hero-eyebrow { display: inline-block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: rgba(37,99,235,0.12); color: var(--accent); border: 1px solid rgba(37,99,235,0.3); border-radius: 20px; padding: 0.25rem 0.8rem; margin-bottom: 1.2rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; line-height: 1.1; margin-bottom: 0.6rem; }
+    .hero-tagline { font-size: 1.15rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .hero-sub { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.8rem; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.8rem; }
+    .alias-pill { font-size: 0.78rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.7rem; color: var(--muted); }
+    .stat-row { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.9rem 1.2rem; min-width: 130px; }
+    .stat-val { font-size: 1.5rem; font-weight: 700; color: var(--accent); } .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 4rem; display: grid; gap: 1.5rem; }
+    .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+    .detail-header { background: linear-gradient(135deg, #2563eb, #1e3a8a); padding: 1.2rem 1.5rem; }
+    .detail-header h2 { font-size: 1.1rem; font-weight: 700; color: #fff; } .detail-header p { font-size: 0.82rem; color: rgba(255,255,255,0.7); margin-top: 0.2rem; }
+    .detail-body { padding: 1.4rem 1.5rem; }
+    .detail-body p { font-size: 0.93rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .detail-body h3 { font-size: 0.95rem; font-weight: 600; color: var(--fg); margin: 1.2rem 0 0.5rem; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.8rem 0; }
+    .data-table th { text-align: left; color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.5rem 0.8rem; border-bottom: 1px solid var(--border); }
+    .data-table td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(42,42,58,0.5); color: var(--fg); vertical-align: top; }
+    .data-table tr:last-child td { border-bottom: none; }
+    .pathway-block { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; margin: 0.8rem 0; overflow-x: auto; }
+    .pathway-block pre { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.78rem; color: #93c5fd; line-height: 1.7; white-space: pre; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 1.4rem 1.5rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.3rem 0.9rem; color: var(--fg); transition: border-color 0.2s; }
+    .conn-pill:hover { border-color: var(--accent); color: var(--accent); } .conn-pill-label { font-size: 0.7rem; color: var(--muted); }
+    .refs { padding: 1.4rem 1.5rem; } .refs ol { padding-left: 1.2rem; } .refs li { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.4rem; line-height: 1.5; }
+    footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; max-width: 860px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: flex-start; }
+    .footer-copy { font-size: 0.8rem; color: var(--muted); } .footer-disclaimer { font-size: 0.75rem; color: var(--muted); opacity: 0.7; max-width: 480px; line-height: 1.5; }
   </style>
 </head>
 <body>
+<nav>
+  <span class="nav-logo">Human Engineering</span><span class="nav-sep">›</span>
+  <a class="nav-link" href="index.html">Atlas</a><span class="nav-sep">›</span>
+  <span class="nav-link">Nitrogen</span>
+</nav>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<section class="hero">
+  <div class="hero-eyebrow">Atlas One · Human · Atomic</div>
+  <h1>Nitrogen</h1>
+  <p class="hero-tagline">Backbone of proteins, nucleic acids, and the signalling molecule nitric oxide</p>
+  <p class="hero-sub">Z = 7 · Period 2 nonmetal · ~3% body mass (~1.8 kg) · pKa diversity from amino to guanidinium</p>
+  <div class="alias-pills">
+    <span class="alias-pill">N / NH₃ / NH₄⁺</span>
+    <span class="alias-pill">Amide / Amine / Imine</span>
+    <span class="alias-pill">Nitric oxide (NO)</span>
+    <span class="alias-pill">Urea cycle</span>
+  </div>
+  <div class="stat-row">
+    <div class="stat"><div class="stat-val">7</div><div class="stat-label">Atomic number</div></div>
+    <div class="stat"><div class="stat-val">~3%</div><div class="stat-label">Body mass</div></div>
+    <div class="stat"><div class="stat-val">6.25</div><div class="stat-label">Kjeldahl protein factor</div></div>
+    <div class="stat"><div class="stat-val">0.8 g/kg/day</div><div class="stat-label">Protein RDA</div></div>
+  </div>
+</section>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 02 — Atomic</div>
-    <h1>Nitrogen</h1>
-    <p class="tagline">N, atomic number 7. Third most abundant element by body mass (~3%). Present in every amino acid (α-amino group, peptide bond), every nucleotide base, and in haem. Atmospheric N₂ is inaccessible; biological nitrogen derives entirely from dietary protein.</p>
-    <p class="aliases">Also known as: N, nitrogen-14, ¹⁴N, amide nitrogen, amino group, nitric oxide</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 02 — Atomic</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+<main>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Atlas One · Atomic · Nonmetal / Protein Constituent / Signalling</h2><p>Period 2, Group 15 — sp³/sp²/sp hybridisation; pKa 9.3 (α-amino), 6.0 (imidazole), 12.5 (guanidinium)</p></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>N Functional Group</th><th>pKa</th><th>Example</th><th>Biological Role</th></tr></thead>
+        <tbody>
+          <tr><td>α-Amino (sp³)</td><td>~9.3</td><td>All amino acids</td><td>Peptide bond backbone; N-terminus charge</td></tr>
+          <tr><td>ε-Amino (Lys)</td><td>~10.5</td><td>Histone Lys4, Lys27</td><td>Methylation / acetylation epigenetic marks</td></tr>
+          <tr><td>Imidazole (His)</td><td>6.0</td><td>Catalytic His in serine proteases</td><td>Acid-base catalysis near physiological pH</td></tr>
+          <tr><td>Guanidinium (Arg)</td><td>12.5</td><td>Arg in signal sequences, NO substrate</td><td>DNA/heparin binding; NOS substrate</td></tr>
+          <tr><td>Amide</td><td>~15 (N-H)</td><td>Peptide bond C(O)-NH</td><td>Protein backbone; H-bond donor/acceptor</td></tr>
+          <tr><td>Purine/pyrimidine</td><td>variable</td><td>Adenine N1 pKa 4.1</td><td>Watson-Crick H-bonding; tRNA wobble</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header"><h2>Biological Roles</h2><p>Urea cycle detoxifies ammonia; NO synthases produce the gasotransmitter nitric oxide</p></div>
+    <div class="detail-body">
+      <h3>Urea Cycle — Hepatic Ammonia Detoxification</h3>
+      <div class="pathway-block"><pre>
+  NH₃ (from amino acid catabolism, gut bacteria)
+      │
+      ▼  CPS I (carbamoyl phosphate synthetase I) + N-acetylglutamate
+  Carbamoyl phosphate  [mitochondria]
+      │
+      ▼  OTC (ornithine transcarbamylase)
+  Citrulline  ──→ exported to cytoplasm
+      │
+      ▼  ASS (argininosuccinate synthetase) + Aspartate (2nd N)
+  Argininosuccinate
+      │
+      ▼  ASL (argininosuccinate lyase) → fumarate (→ TCA)
+  Arginine
+      │
+      ▼  Arginase I
+  Urea (excreted in urine) + Ornithine (recycled back)
+
+  Nitrogen output: urea ~30 g/day (adults on normal protein diet)
+  BUN (blood urea nitrogen) normal 2.5–7.1 mmol/L
+</pre></div>
+      <h3>Nitric Oxide Synthesis</h3>
+      <div class="pathway-block"><pre>
+  L-Arginine + O₂ + NADPH
+      │
+      ▼  NOS (eNOS / nNOS / iNOS) — FAD/FMN/BH₄/CaM cofactors
+  L-Citrulline + NO•
+
+  eNOS (endothelial): Ca²⁺/CaM-activated; Akt-Ser1177 phosphorylation
+      → NO diffuses to VSM → sGC → cGMP → PKG → myosin dephosphorylation
+      → vasodilation
+
+  nNOS (neuronal): constitutive in neurons; synaptic plasticity; retrograde messenger
+  iNOS (inducible): cytokine-induced; high-output NO for antimicrobial killing
+</pre></div>
+      <h3>Nucleotide Biosynthesis — Nitrogen Donors</h3>
+      <p>De novo purine biosynthesis: N1 from Asp; N3,9 from Gln; N7 from Gly. De novo pyrimidine: ring N1 from Asp; C2 from CO₂; N3 from Gln (CPS II). These biosynthetic pathways are targets for chemotherapy (methotrexate → DHFR inhibition → depletes formyl-THF for purine N10).</p>
     </div>
+  </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">nitrogen</div>
-        <h2>Nitrogen</h2>
-        <p class="summary">N, atomic number 7. Third most abundant element by body mass (~3%). Present in every amino acid (α-amino group, peptide bond), every nucleotide base, and in haem. Atmospheric N₂ is inaccessible; biological nitrogen derives entirely from dietary protein.</p>
-      </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>nitrogen</td></tr>
-            <tr><td>Name</td><td>Nitrogen</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>02-atomic</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="human-body.html" title="Nitrogen is ~3% of body mass (~2.1 kg in a 70 kg adult), present in every protein (α-amino groups, peptide bonds), every nucleotide base (purine and pyrimidine rings), haem porphyrin rings, creatine, urea, and hundreds of metabolites and signalling molecules."><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill part" href="atp.html" title="Adenine contains 5 nitrogen atoms: N1, N3, N7, N9 (purine ring) and exocyclic amino N6. The ring nitrogens engage in hydrogen bonding with kinase active sites, essential for adenine recognition by ATP-binding proteins. N9 links adenine to ribose via the glycosidic bond."><span class="rel">part-of</span>Atp</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
-          </ul>
-        </div>
-
-      </div>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Absorption &amp; Metabolism</h2><p>Dietary protein digestion, transamination, and nitrogen balance</p></div>
+    <div class="detail-body">
+      <p>Dietary proteins are hydrolysed by pepsin (stomach), pancreatic proteases (trypsin, chymotrypsin, elastase), and brush-border peptidases to free amino acids and di/tripeptides. Amino acids enter portal blood; hepatic first-pass metabolises ~50%.</p>
+      <table class="data-table">
+        <thead><tr><th>Process</th><th>Enzymes</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Transamination</td><td>ALT (Ala↔Pyr), AST (Asp↔OAA)</td><td>Transfer α-amino group to α-ketoglutarate → glutamate</td></tr>
+          <tr><td>Oxidative deamination</td><td>GDH (mitochondrial)</td><td>Glu → α-KG + NH₄⁺; coupled to urea cycle</td></tr>
+          <tr><td>Nitrogen balance</td><td>—</td><td">N in (protein) = N out (urea + feces + skin); positive in growth, negative in catabolism/starvation</td></tr>
+          <tr><td>Protein factor (Kjeldahl)</td><td>—</td><td>% N × 6.25 = crude protein (assumes 16% N per gram protein)</td></tr>
+        </tbody>
+      </table>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Deficiency &amp; Toxicity</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Condition</th><th>Mechanism</th><th>Signs</th><th>Treatment</th></tr></thead>
+        <tbody>
+          <tr><td>Protein-energy malnutrition (Kwashiorkor)</td><td>Protein deficiency despite adequate calories</td><td>Oedema, hypoalbuminaemia, fatty liver, depigmented hair, growth failure</td><td>Careful refeeding with protein/micronutrients</td></tr>
+          <tr><td>Hyperammonaemia — OTC deficiency</td><td>X-linked; OTC loss → NH₃ accumulates, citrulline ↓</td><td>Neonatal lethargy → coma; protein-induced vomiting in partial deficiency; triphasic brain stem failure</td><td>Protein restriction; Na-benzoate/phenylbutyrate; liver transplant</td></tr>
+          <tr><td>Gout</td><td>Purine excess → uric acid (xanthine oxidase) → monosodium urate crystals</td><td>Podagra; tophi; uric acid nephrolithiasis</td><td>Allopurinol/febuxostat (xanthine oxidase inhibitors); colchicine/NSAIDs acute</td></tr>
+          <tr><td>Nitric oxide deficiency (eNOS dysfunction)</td><td>L-arginine deficiency; BH₄ oxidation; ADMA inhibition</td><td>Hypertension; erectile dysfunction; atherosclerosis progression</td><td>L-arginine; folic acid (restores BH₄); phosphodiesterase-5 inhibitors</td></tr>
+        </tbody>
+      </table>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Clinical Use</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Application</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Inhaled NO (iNO)</td><td>20–40 ppm; selective pulmonary vasodilation; neonatal PPHN (persistent pulmonary hypertension); acute ARDS right-heart failure</td></tr>
+          <tr><td>Sodium nitroprusside</td><td>NO donor; IV vasodilator for hypertensive emergencies; careful cyanide monitoring</td></tr>
+          <tr><td>Organic nitrates</td><td>GTN/ISDN — NO donors for angina; tolerance via mitochondrial aldehyde dehydrogenase depletion</td></tr>
+          <tr><td>Sodium benzoate/phenylbutyrate</td><td>Alternative nitrogen excretion pathways in urea cycle defects; conjugates Gly/Gln → hippurate/phenylacetylglutamine</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2></div>
+    <div class="connections">
+      <a class="conn-pill" href="carbon.html"><span>Carbon</span><span class="conn-pill-label">Amino acid backbone</span></a>
+      <a class="conn-pill" href="oxygen.html"><span>Oxygen</span><span class="conn-pill-label">NOS substrate; NO + O₂ → RNS</span></a>
+      <a class="conn-pill" href="sulfur.html"><span>Sulfur</span><span class="conn-pill-label">Cys/Met in proteins</span></a>
+      <a class="conn-pill" href="phosphorus.html"><span>Phosphorus</span><span class="conn-pill-label">Nucleotide base N atoms</span></a>
+      <a class="conn-pill" href="nitric-oxide.html"><span>Nitric Oxide</span><span class="conn-pill-label">eNOS/nNOS/iNOS product</span></a>
+    </div>
+  </div>
+
+  <div class="detail-card refs">
+    <div class="detail-header"><h2>References</h2></div>
+    <ol>
+      <li>Brusilow SW, Horwich AL. "Urea cycle enzymes." In: <em>The Metabolic and Molecular Bases of Inherited Disease</em>, 8th ed., 2001.</li>
+      <li>Moncada S, Higgs A. "The L-arginine-nitric oxide pathway." <em>N Engl J Med</em> 1993;329:2002–2012.</li>
+      <li>Krebs HA, Henseleit K. "Untersuchungen über die Harnstoffbildung im Tierkörper." <em>Z Physiol Chem</em> 1932;210:33–66.</li>
+      <li>Stipanuk MH, Caudill MA, eds. <em>Biochemical, Physiological, and Molecular Aspects of Human Nutrition</em>, 3rd ed. Elsevier, 2012.</li>
+    </ol>
+  </div>
+</main>
+
+<footer>
+  <div><p class="footer-copy">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p></div>
+  <p class="footer-disclaimer">This page is co-maintained by AI (Claude, Anthropic) and human editors as part of the open Human Engineering Atlas project. Content is for educational purposes; verify clinical information with qualified sources before application.</p>
+</footer>
 </body>
 </html>

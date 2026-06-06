@@ -3,93 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The integrated human organism — the scale at which disease presents and treatment is evaluated. Cardiovascular focus: Fick principle linking cardiac output to O">
-  <meta property="og:title" content="Human body — Human Engineering">
+  <meta name="description" content="Human body — the integrated organism at scale 08-whole-body. Integrative physiology, body composition, Fick principle, RAAS, VO₂max, and all-systems connections. Human Engineering project.">
+  <meta property="og:title" content="Human Body — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Human body — Human Engineering</title>
+  <title>Human Body — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--bio); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .formula-block { background: var(--bg); border-left: 3px solid var(--bio); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill.modulated .rel { color: var(--human); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,95 +113,369 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Index
         </a>
       </div>
     </div>
   </nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 08 — Whole Body</div>
-    <h1>Human body</h1>
-    <p class="tagline">The integrated human organism — the scale at which disease presents and treatment is evaluated. Cardiovascular focus: Fick principle linking cardiac output to O₂ delivery, HRV as autonomic readout, and RAAS as whole-body volume/pressure regulator.</p>
-    <p class="aliases">Also known as: whole body, organism, human physiology</p>
+  <section class="hero">
+    <span class="hero-eyebrow">Atlas One &middot; Human &middot; Whole-Body</span>
+    <h1>Human Body</h1>
+    <p class="tagline">The integrated organism — where all scales converge into physiology, disease, and healing.</p>
+    <p class="subtagline">Scale 08-whole-body &middot; UBERON:0000468 (multicellular organism) &middot; 11 major systems &middot; 37.2 trillion cells &middot; ~70 kg reference adult</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 08 — Whole Body</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">37.2T</span><span class="stat-label">Total cells</span></div>
+      <div class="stat"><span class="stat-num">11</span><span class="stat-label">Major systems</span></div>
+      <div class="stat"><span class="stat-num">500B</span><span class="stat-label">Blood cells/day</span></div>
+      <div class="stat"><span class="stat-num">~250</span><span class="stat-label">mL O₂/min (rest)</span></div>
+      <div class="stat"><span class="stat-num">~5 L</span><span class="stat-label">VO₂max (trained)</span></div>
     </div>
-  </div>
+  </section>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
+    <!-- Main entry card -->
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">human-body</div>
-        <h2>Human body</h2>
-        <p class="summary">The integrated human organism — the scale at which disease presents and treatment is evaluated. Cardiovascular focus: Fick principle linking cardiac output to O₂ delivery, HRV as autonomic readout, and RAAS as whole-body volume/pressure regulator.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Scale 08 &mdash; Whole-Body &middot; Organism &middot; UBERON:0000468</div>
+        <h2>Human Body</h2>
+        <p class="summary">The scale at which medicine operates: symptoms are experienced here, diagnoses made here, therapies applied here, outcomes measured here. All seven scales below — from electron orbitals to organ systems — contribute constraints whose emergent behavior is a living person.</p>
       </div>
       <div class="detail-body">
 
+        <!-- Overview -->
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview — Integrative Biology</h3>
+          <p>The human body is a tightly coupled network of eleven major organ systems operating under constant homeostatic regulation. No system acts in isolation: the cardiovascular system carries oxygen and hormones that every other system depends on; the nervous system encodes and coordinates; the endocrine system broadcasts chemical signals with whole-body reach; the musculoskeletal system houses haematopoiesis and enables movement; the immune system surveils every tissue. Understanding any single disease requires tracing its origins and consequences across multiple scales and systems simultaneously.</p>
+          <p>This atlas entry serves as the whole-body hub — a navigational and conceptual anchor linking all organism-level parameters (body composition, physiological set-points, homeostatic mechanisms) down to the molecular, atomic, and cellular entries that underpin them.</p>
+        </div>
+
+        <!-- Body composition -->
+        <div class="detail-section">
+          <h3>Body Composition — Reference 70 kg Adult</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>human-body</td></tr>
-            <tr><td>Name</td><td>Human body</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>08-whole-body</td></tr>
+            <thead>
+              <tr>
+                <th>Component / Element</th>
+                <th>% Body Mass</th>
+                <th>~Mass (70 kg)</th>
+                <th>Primary Location / Role</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Water (H₂O)</td><td>60%</td><td>~42 L</td><td>ICF ~28 L, ECF ~14 L (plasma 3 L, interstitial 11 L)</td></tr>
+              <tr><td>Protein</td><td>17%</td><td>~12 kg</td><td>Skeletal muscle (~8 kg), structural collagen, enzymes, antibodies</td></tr>
+              <tr><td>Fat (lipid)</td><td>15%</td><td>~10.5 kg</td><td>Adipose (~9 kg), structural membranes, myelin; varies widely</td></tr>
+              <tr><td>Minerals (total)</td><td>6%</td><td>~4.2 kg</td><td>Bone (~3.7 kg as hydroxyapatite Ca/P); electrolytes in solution</td></tr>
+              <tr><td>Carbohydrate</td><td>&lt;1%</td><td>~500 g</td><td>Glycogen (liver ~100 g, muscle ~400 g); glucose in plasma ~5 g</td></tr>
+              <tr><td>&nbsp;&nbsp;&bull; Oxygen (O)</td><td>65%</td><td>~45.5 kg</td><td>Dominant element; in water, proteins, lipids, nucleic acids</td></tr>
+              <tr><td>&nbsp;&nbsp;&bull; Carbon (C)</td><td>18%</td><td>~12.6 kg</td><td>Backbone of every organic molecule</td></tr>
+              <tr><td>&nbsp;&nbsp;&bull; Hydrogen (H)</td><td>10%</td><td>~7 kg</td><td>Most abundant by atom count (~60% of atoms); in water and all C-H bonds</td></tr>
+              <tr><td>&nbsp;&nbsp;&bull; Nitrogen (N)</td><td>3%</td><td>~2.1 kg</td><td>All proteins, nucleotides, haem, nitric oxide</td></tr>
+              <tr><td>&nbsp;&nbsp;&bull; Calcium (Ca)</td><td>1.5%</td><td>~1.05 kg</td><td>99% in bone; cytosolic Ca²⁺ is universal second messenger</td></tr>
+              <tr><td>&nbsp;&nbsp;&bull; Phosphorus (P)</td><td>1.0%</td><td>~700 g</td><td>85% in bone; ATP, phospholipids, nucleic acids</td></tr>
+              <tr><td>&nbsp;&nbsp;&bull; Potassium (K)</td><td>0.35%</td><td>~245 g</td><td>Principal intracellular cation; resting membrane potential</td></tr>
+              <tr><td>&nbsp;&nbsp;&bull; Sodium (Na)</td><td>0.15%</td><td>~105 g</td><td>Principal extracellular cation; osmolality, action potentials</td></tr>
+              <tr><td>&nbsp;&nbsp;&bull; Trace minerals</td><td>&lt;0.1%</td><td>&lt;70 g</td><td>Fe (haemoglobin/cytochromes), Zn (enzymes), Mg (ATP-Mg, 300+ enzymes), I (thyroid hormones), Se (glutathione peroxidase), Cu, Mn, Cr, Mo</td></tr>
+            </tbody>
           </table>
         </div>
 
+        <!-- Physiological parameters -->
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="cardiovascular-system.html" title="The cardiovascular system is part of the whole-body organism; whole-body metrics (BP, CO, VO₂max) integrate cardiovascular function."><span class="rel">contains</span>Cardiovascular System</a>
-            <a class="conn-pill part" href="heart.html" title="The heart is the pump of the cardiovascular system, which is the primary determinant of VO₂max and whole-body oxygen delivery."><span class="rel">contains</span>Heart</a>
-            <a class="conn-pill part" href="respiratory-system.html" title="The respiratory system is one of the eleven major organ systems of the human body; it provides O₂ to the blood and removes CO₂, working in concert with the cardiovascular system to sustain aerobic metabolism."><span class="rel">contains</span>Respiratory System</a>
-            <a class="conn-pill part" href="nervous-system.html" title="The nervous system coordinates sensation, motor control, cognition, and autonomic regulation; the brain alone consumes ~20% of the body's resting energy."><span class="rel">contains</span>Nervous System</a>
-            <a class="conn-pill part" href="immune-system.html" title="The immune system defends the body against pathogens and neoplastic cells; its lymphoid organs (bone marrow, thymus, lymph nodes, spleen, MALT) are distributed throughout the body."><span class="rel">contains</span>Immune System</a>
-            <a class="conn-pill part" href="renal-system.html" title="The renal system maintains fluid, electrolyte, and acid-base homeostasis; the kidneys produce renin, erythropoietin, and calcitriol as systemic hormones."><span class="rel">contains</span>Renal System</a>
-            <a class="conn-pill part" href="digestive-system.html" title="The digestive system absorbs nutrients from food; the liver is the central metabolic processor linking portal absorption to systemic circulation."><span class="rel">contains</span>Digestive System</a>
+          <h3>Key Physiological Parameters — Rest vs. Exercise</h3>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Parameter</th>
+                <th>Rest</th>
+                <th>Moderate exercise</th>
+                <th>Maximal exercise (trained)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Heart rate (HR)</td><td>60–80 bpm</td><td>100–140 bpm</td><td>180–200 bpm</td></tr>
+              <tr><td>Stroke volume (SV)</td><td>60–80 mL</td><td>100–130 mL</td><td>160–200 mL (trained)</td></tr>
+              <tr><td>Cardiac output (CO)</td><td>~5 L/min</td><td>12–18 L/min</td><td>20–40 L/min (elite)</td></tr>
+              <tr><td>Mean arterial pressure (MAP)</td><td>~93 mmHg</td><td>100–110 mmHg</td><td>110–120 mmHg</td></tr>
+              <tr><td>Systemic vascular resistance (SVR)</td><td>~1200 dyn·s/cm⁵</td><td>↓ 50–60%</td><td>↓ 70–75%</td></tr>
+              <tr><td>VO₂ (oxygen consumption)</td><td>~250 mL/min (3.5 mL/kg/min)</td><td>1.5–2.5 L/min</td><td>3–6 L/min</td></tr>
+              <tr><td>Ventilation (VE)</td><td>~6 L/min</td><td>30–60 L/min</td><td>120–180 L/min</td></tr>
+              <tr><td>Respiratory rate (RR)</td><td>12–16 breaths/min</td><td>20–30 breaths/min</td><td>40–60 breaths/min</td></tr>
+              <tr><td>Arterial O₂ saturation (SpO₂)</td><td>97–99%</td><td>96–99%</td><td>93–98% (may fall at elite max)</td></tr>
+              <tr><td>Blood glucose</td><td>4.4–5.6 mmol/L</td><td>4–7 mmol/L</td><td>4–8 mmol/L</td></tr>
+              <tr><td>Core body temperature</td><td>36.5–37.5 °C</td><td>38–39 °C</td><td>39–41 °C</td></tr>
+              <tr><td>Plasma lactate</td><td>&lt;1 mmol/L</td><td>2–4 mmol/L (LT1–LT2)</td><td>8–15 mmol/L</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Systems integration diagram -->
+        <div class="detail-section">
+          <h3>Systems Integration — All 11 Systems</h3>
+          <div class="circuit-diagram">
+<pre>
+         ┌─────────────────────────────────────────────────────────────┐
+         │              NERVOUS SYSTEM (CNS + PNS + ANS)               │
+         │  Coordinates all other systems; ~20% resting energy budget  │
+         └─────┬───────────────────┬───────────────────────┬───────────┘
+               │ motor/sensory     │ autonomic             │ HPA axis
+               ▼                  ▼                        ▼
+  ┌────────────────────┐  ┌────────────────────┐  ┌────────────────────┐
+  │  MUSCULOSKELETAL   │  │  CARDIOVASCULAR    │  │   ENDOCRINE        │
+  │  Movement, support │◄─┤  O₂/nutrient       │  │  Hormonal broadcast│
+  │  Haematopoiesis    │  │  delivery           │  │  Metabolic control │
+  │  Myokines (IL-6,   │  │  CO × (CaO₂−CvO₂) │  │  HPA, HPT, HPG    │
+  │  irisin, BDNF)     │  │  = VO₂ (Fick)      │  │  Insulin/glucagon  │
+  └─────────┬──────────┘  └──────┬─────────────┘  └──────┬─────────────┘
+            │ O₂ demand           │ transport               │ hormones
+            │                    ▼                         │
+            │         ┌────────────────────┐               │
+            │         │  RESPIRATORY       │               │
+            │         │  O₂ uptake / CO₂   │               │
+            │         │  elimination       │               │
+            │         │  pH buffering      │               │
+            │         └──────┬─────────────┘               │
+            │                │ oxygenated blood             │
+            ▼                ▼                              ▼
+  ┌────────────────────┐  ┌────────────────────┐  ┌────────────────────┐
+  │  LYMPHATIC /       │  │  RENAL             │  │  DIGESTIVE         │
+  │  IMMUNE            │  │  Fluid/electrolyte │  │  Nutrient absorption│
+  │  Pathogen defence  │◄─┤  homeostasis       │  │  Liver: metabolic  │
+  │  GC reactions      │  │  RAAS / EPO /      │  │  hub; bile; detox  │
+  │  OPSI protection   │  │  Calcitriol        │  │  Microbiome         │
+  └────────────────────┘  └──────┬─────────────┘  └──────┬─────────────┘
+                                  │ fluid/Na⁺              │ nutrients
+                                  ▼                        ▼
+                        ┌────────────────────┐  ┌────────────────────┐
+                        │  INTEGUMENTARY     │  │  REPRODUCTIVE      │
+                        │  Barrier; thermo-  │  │  Reproduction;     │
+                        │  regulation; UV    │  │  HPG axis; sex     │
+                        │  vitamin D synth.  │  │  steroids systemic │
+                        └────────────────────┘  └────────────────────┘
+
+  Central homeostatic variable: MAP, SpO₂, core temp, pH, plasma [glucose], [Na⁺], [K⁺]
+  All systems contribute effectors; nervous + endocrine systems integrate set-point error signals
+</pre>
           </div>
         </div>
 
+        <!-- Homeostasis -->
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Homeostasis Principles</h3>
+          <p>Homeostasis is the maintenance of physiological variables within narrow ranges despite continuously varying external and internal conditions. The key principles governing whole-body homeostasis are:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Negative Feedback Loops</h4>
+              <p>The dominant regulatory mechanism. A sensor detects deviation from set-point; an integrator computes error signal; effectors act to oppose the deviation. Examples: baroreflex (baroreceptors → NTS → sympathetic/vagal → HR/SVR → MAP restored); thyroid HPT axis (TRH→TSH→T3/T4→ negative feedback on pituitary TRβ); glucose homeostasis (hyperglycaemia → β cell insulin → GLUT4 translocation → glucose uptake → normoglycaemia).</p>
+            </div>
+            <div class="info-block">
+              <h4>Positive Feedback &amp; Set-Point Shifts</h4>
+              <p>Positive feedback amplifies deviation and is used for controlled transitions: the LH surge (oestradiol → GnRH → LH spike → ovulation); platelet aggregation in haemostasis; childbirth oxytocin surges. Set-points themselves shift: circadian rhythms lower core temperature at night; exercise training lowers resting HR set-point; fever elevates temperature set-point via PGE2 at the hypothalamic preoptic area.</p>
+            </div>
+            <div class="info-block">
+              <h4>Feedforward Control</h4>
+              <p>Anticipatory responses occur before a perturbation is detected by sensors. Examples: cephalic phase insulin release (sight/smell of food → vagal → pre-emptive insulin spike before glucose absorption); anticipatory heart rate rise before exercise begins (central command); shivering initiated before core temperature actually falls during cold exposure. Feedforward improves response speed but requires learned/conditioned circuits.</p>
+            </div>
+            <div class="info-block">
+              <h4>Redundancy &amp; Hierarchy</h4>
+              <p>Critical variables are regulated by multiple overlapping mechanisms: MAP is controlled by short-term (baroreflex, seconds), medium-term (capillary fluid exchange, minutes), and long-term (RAAS/renal pressure-natriuresis, days) mechanisms in hierarchical sequence. Acid-base pH is buffered by bicarbonate (immediate), respiratory compensation (minutes), and renal compensation (hours-days). Loss of one layer is compensated by others until tipping points are crossed.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fick Principle and VO₂max -->
+        <div class="detail-section">
+          <h3>Fick Principle and VO₂max</h3>
+          <p>The <strong>Fick principle</strong> is the quantitative foundation of whole-body oxygen physiology, relating the three measurable variables of oxygen transport:</p>
+          <div class="formula-block">
+            VO₂ = CO × (CaO₂ − CvO₂)
+            <div class="formula-note">VO₂ = whole-body O₂ consumption (mL/min); CO = cardiac output (L/min); CaO₂ − CvO₂ = arteriovenous O₂ content difference (mL O₂/dL blood). At rest: ~250 mL/min = 5 L/min × ~5 mL/dL.</div>
+          </div>
+          <p>At maximal exercise, both CO and O₂ extraction increase. VO₂max is <strong>primarily limited by cardiac output</strong> in health and normoxia (Saltin-Calbet consensus): exercising muscle can extract more oxygen than a healthy heart can deliver, making pump capacity the bottleneck. Endurance training raises VO₂max largely through increased maximal stroke volume (via eccentric ventricular remodeling and expanded plasma volume), not increased maximal HR.</p>
+          <div class="circuit-diagram">
+<pre>
+  Exercise demand↑ → CO must rise 4–5× (5 → 20–25 L/min)
+
+  Step 1: Central command (motor cortex) → anticipatory HR↑ before muscles contract
+  Step 2: Active muscle metaboreflex (H⁺/K⁺/adenosine → group III/IV afferents → ↑SNS)
+  Step 3: Venous return augmentation (skeletal muscle pump + respiratory pump + venoconstriction)
+  Step 4: Frank-Starling mechanism (↑EDV → ↑SV) — primary CO augmentation at moderate intensity
+  Step 5: Sympathetic-mediated redistribution: muscle β2-AR vasodilation; splanchnic/renal α1 constriction → MAP maintained
+
+  At peak: SV near-maximal → further CO rise = HR-dependent
+  Cardiac output ceiling → VO₂max ceiling
+</pre>
+          </div>
+          <p>Levine (2008) provides the definitive analysis: central (CO) and peripheral (muscle oxidative capacity, mitochondrial density, capillarization) factors both matter, with CO dominant in sedentary individuals and peripheral capacity becoming limiting in highly trained states.</p>
+        </div>
+
+        <!-- RAAS -->
+        <div class="detail-section">
+          <h3>RAAS — Multi-Organ Volume/Pressure Regulator</h3>
+          <p>The renin-angiotensin-aldosterone system is the body's primary long-term, multi-organ mechanism for blood pressure and extracellular volume regulation, integrating kidney, liver, lung, adrenal cortex, pituitary, and hypothalamus:</p>
+          <div class="circuit-diagram">
+<pre>
+  Trigger stimuli:
+    ↓ Renal perfusion pressure  ─┐
+    ↑ Sympathetic (β1-AR)       ├──→ JG cells (juxtaglomerular apparatus) → RENIN secretion
+    ↓ Macula densa [Na⁺/Cl⁻]   ─┘
+
+  Renin (kidney) + Angiotensinogen (liver) → Angiotensin I (inactive decapeptide)
+       ↓ ACE (lung + vascular endothelium)
+  Angiotensin II (Ang II) ──→ AT1 receptor effects:
+       ├── Vascular smooth muscle → vasoconstriction → ↑SVR → ↑MAP
+       ├── Adrenal cortex (zona glomerulosa) → ALDOSTERONE → Na⁺/H₂O retention → ↑blood volume
+       ├── Posterior pituitary → ADH (vasopressin) → renal aquaporin-2 → ↑water retention
+       ├── Hypothalamus → thirst centre → ↑fluid intake
+       └── Heart/vasculature (chronic) → fibrosis, hypertrophy (maladaptive in HFrEF)
+
+  Negative feedback: ↑MAP → ↓renin secretion; atrial stretch → ANP/BNP → ↓renin/aldosterone
+
+  Drug targets:
+    ACE inhibitors (enalapril) → ↓Ang II    ARBs (losartan) → block AT1 receptor
+    ARNi sacubitril/valsartan → ↑ANP/BNP + AT1 block    Spironolactone → aldosterone antagonist
+</pre>
+          </div>
+        </div>
+
+        <!-- Autonomic regulation -->
+        <div class="detail-section">
+          <h3>Autonomic Regulation &amp; Heart Rate Variability</h3>
+          <p>The autonomic nervous system modulates all visceral organs on a beat-to-beat basis through two opposing limbs. <strong>Sympathetic</strong> fibres release norepinephrine at β1-AR (heart: ↑HR, ↑contractility, ↑AV conduction) and α1 (vasculature: vasoconstriction). Epinephrine from the adrenal medulla amplifies the response during stress. <strong>Parasympathetic</strong> fibres release acetylcholine at M2 muscarinic receptors (SA node: ↓HR via IKAch activation; AV node: ↓dromotropy). Vagal tone dominates at rest, suppressing intrinsic SA rate (~100 bpm) to typical resting HR of 60–80 bpm.</p>
+          <p><strong>Heart rate variability (HRV)</strong> — beat-to-beat variation in R-R intervals — is a non-invasive whole-body readout of sympathovagal balance. The high-frequency component (HF-HRV, 0.15–0.4 Hz) reflects vagal tone. High HRV correlates with better cardiovascular outcomes, lower all-cause mortality, and greater cardiac reserve. HRV declines with ageing, heart failure, diabetes, and autonomic neuropathy; it increases with endurance training and improves with vagal neuromodulation therapies.</p>
+        </div>
+
+        <!-- Pathology -->
+        <div class="detail-section">
+          <h3>Whole-Body Pathological Phenotypes</h3>
+
+          <div class="pathology-item danger">
+            <h4>Shock</h4>
+            <p>Failure of cardiac output or systemic vascular resistance to maintain MAP ≥ 60 mmHg → inadequate tissue O₂ delivery → anaerobic metabolism → lactic acidosis → multi-organ dysfunction. Types: distributive (septic, anaphylactic — ↓SVR); hypovolaemic (haemorrhage, burns — ↓preload); cardiogenic (MI, HFrEF — ↓CO); obstructive (PE, tamponade — ↓venous return). Universal endpoint if untreated: MODS (multi-organ dysfunction syndrome) and death.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Heart Failure Syndrome</h4>
+            <p>↓CO → ↓renal perfusion → RAAS activation → Na⁺/H₂O retention → ↑blood volume → pulmonary and peripheral oedema (right/left HF). Simultaneously, ↓CO reduces O₂ delivery to exercising muscle → exertional dyspnoea and fatigue (HFrEF: EF &lt;40%). Maladaptive RAAS and sympathetic activation drives cardiac remodelling, worsening function. Key biomarker: BNP/NT-proBNP (released by stretched myocytes). Treatment: ACE-i/ARB/ARNi + β-blocker + MRA + SGLT2 inhibitor.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Hypertension</h4>
+            <p>Sustained MAP elevation (systolic ≥ 130 mmHg and/or diastolic ≥ 80 mmHg, ACC/AHA 2017). Multi-scale origin: ↑Na⁺ retention (kidney; genetic variants in NCC, ENaC), ↑RAAS activation, ↑SNS tone, ↑vascular smooth muscle tone, arterial stiffness (collagen cross-linking, reduced NO). Consequence: left ventricular hypertrophy, stroke, MI, CKD, retinopathy. Primary HTN: &gt;95% of cases — polygenic. Secondary causes: renal artery stenosis, phaeochromocytoma, primary aldosteronism, OSA.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Exercise Intolerance</h4>
+            <p>↓VO₂max from ↓COmax (HFrEF, coronary disease), ↓skeletal muscle oxidative capacity (deconditioning, mitochondrial disease, sarcopenia), ↓haemoglobin O₂-carrying capacity (anaemia), or pulmonary limitation (COPD, ILD). CPET (cardiopulmonary exercise test) with VO₂max measurement distinguishes cardiac vs. ventilatory vs. peripheral causes — the Fick equation disaggregated into components.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Orthostatic Hypotension</h4>
+            <p>↓MAP ≥ 20/10 mmHg within 3 min of standing. Mechanisms: ↓baroreflex sensitivity (ageing, autonomic neuropathy in diabetes/Parkinson's), ↓venous return (hypovolaemia, vasodilation from medications), ↓cardiac reserve. Can cause syncope, falls, and cognitive impairment from cerebral hypoperfusion. Treatment: volume expansion, compression garments, fludrocortisone, midodrine (α1 agonist).</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Metabolic Syndrome</h4>
+            <p>Cluster of whole-body metabolic dysregulation: central obesity (waist ≥ 102 cm men / ≥ 88 cm women), hyperglycaemia (fasting ≥ 5.6 mmol/L), hypertriglyceridaemia (≥ 1.7 mmol/L), low HDL-C, hypertension. Prevalence ~30–40% in Western populations. Pathophysiology: insulin resistance → adipocyte-driven ectopic lipid deposition → hepatic lipogenesis → VLDL ↑ + HDL-C ↓; visceral adipose IL-6/TNF-α → systemic inflammation → endothelial dysfunction → atherosclerosis. Highly amenable to lifestyle intervention.</p>
+          </div>
+        </div>
+
+        <!-- Variation -->
+        <div class="detail-section">
+          <h3>Physiological Variation</h3>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Variable</th>
+                <th>Key determinants</th>
+                <th>Physiological effect</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Sex</td><td>Testosterone (muscle mass, RBC mass, LV size); oestrogen (lipid profile, coagulation, bone)</td><td>Women: higher resting HR, lower VO₂max/kg (~10–15%), higher HDL-C, lower haemoglobin; men: higher SVT/MI risk pre-menopause</td></tr>
+              <tr><td>Age</td><td>VO₂max falls ~10%/decade after 25; arterial stiffness ↑ (collagen cross-linking); HRV ↓; baroreflex sensitivity ↓</td><td>Reduced exercise capacity; orthostatic hypotension risk; impaired immune response; sarcopenia after 50</td></tr>
+              <tr><td>Athletic training</td><td>Eccentric LV hypertrophy; plasma volume expansion (~10–20%); ↑mitochondrial density</td><td>↑SV at rest and exercise; ↓resting HR; ↑VO₂max; ↑HRV; altered Fick equation both sides</td></tr>
+              <tr><td>Altitude</td><td>↓PO₂ → ↓SaO₂ → ↓CaO₂</td><td>Acute: ↓VO₂max, ↑HR, ↑VE. Adaptation (weeks): ↑EPO → ↑RBC mass → restored O₂ delivery; ↑2,3-DPG shifts HbO₂ curve right</td></tr>
+              <tr><td>Obesity</td><td>↑Adipose mass → ↑mechanical load, ↑inflammatory cytokines, insulin resistance, OSA</td><td>↓VO₂max (relative), ↑BP, ↑risk metabolic syndrome, ↓HRV, impaired immune function</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Connections -->
+        <div class="detail-section">
+          <h3>All-Scales Connections</h3>
+          <p>The whole body contains and integrates all eleven major organ systems and all scales beneath them:</p>
+          <div class="connections">
+            <a href="cardiovascular-system.html" class="conn-pill"><span class="rel">Contains</span> Cardiovascular System</a>
+            <a href="respiratory-system.html" class="conn-pill"><span class="rel">Contains</span> Respiratory System</a>
+            <a href="nervous-system.html" class="conn-pill"><span class="rel">Contains</span> Nervous System</a>
+            <a href="endocrine-system.html" class="conn-pill"><span class="rel">Contains</span> Endocrine System</a>
+            <a href="musculoskeletal-system.html" class="conn-pill"><span class="rel">Contains</span> Musculoskeletal System</a>
+            <a href="immune-system.html" class="conn-pill"><span class="rel">Contains</span> Immune System</a>
+            <a href="lymphatic-system.html" class="conn-pill"><span class="rel">Contains</span> Lymphatic System</a>
+            <a href="digestive-system.html" class="conn-pill"><span class="rel">Contains</span> Digestive System</a>
+            <a href="renal-system.html" class="conn-pill"><span class="rel">Contains</span> Renal System</a>
+            <a href="reproductive-system.html" class="conn-pill"><span class="rel">Contains</span> Reproductive System</a>
+            <a href="integumentary-system.html" class="conn-pill"><span class="rel">Contains</span> Integumentary System</a>
+            <a href="heart.html" class="conn-pill"><span class="rel">Contains</span> Heart</a>
+            <a href="kidney.html" class="conn-pill"><span class="rel">Contains</span> Kidney</a>
+            <a href="large-intestine.html" class="conn-pill"><span class="rel">Contains</span> Large Intestine</a>
+            <a href="thyroid.html" class="conn-pill"><span class="rel">Contains</span> Thyroid</a>
+            <a href="liver.html" class="conn-pill"><span class="rel">Contains</span> Liver</a>
+            <a href="lung-slice.html" class="conn-pill"><span class="rel">Contains</span> Lung</a>
+            <a href="bone-marrow.html" class="conn-pill part"><span class="rel">Composed of</span> Bone Marrow</a>
+            <a href="intestinal-epithelium.html" class="conn-pill part"><span class="rel">Composed of</span> Intestinal Epithelium</a>
+            <a href="erythrocyte.html" class="conn-pill part"><span class="rel">Composed of</span> Erythrocyte</a>
+            <a href="cardiomyocyte.html" class="conn-pill part"><span class="rel">Composed of</span> Cardiomyocyte</a>
+            <a href="macrophage.html" class="conn-pill part"><span class="rel">Composed of</span> Macrophage</a>
+            <a href="adipocyte.html" class="conn-pill part"><span class="rel">Composed of</span> Adipocyte</a>
+            <a href="osteoblast.html" class="conn-pill part"><span class="rel">Composed of</span> Osteoblast</a>
+            <a href="cholesterol.html" class="conn-pill part"><span class="rel">Composed of</span> Cholesterol</a>
+            <a href="collagen.html" class="conn-pill part"><span class="rel">Composed of</span> Collagen</a>
+            <a href="hemoglobin.html" class="conn-pill part"><span class="rel">Composed of</span> Hemoglobin</a>
+            <a href="carbon.html" class="conn-pill part"><span class="rel">Composed of</span> Carbon (C 18%)</a>
+            <a href="oxygen.html" class="conn-pill part"><span class="rel">Composed of</span> Oxygen (O 65%)</a>
+            <a href="calcium.html" class="conn-pill part"><span class="rel">Composed of</span> Calcium (Ca)</a>
+            <a href="phosphorus.html" class="conn-pill part"><span class="rel">Composed of</span> Phosphorus (P)</a>
+            <a href="iron.html" class="conn-pill part"><span class="rel">Composed of</span> Iron (Fe)</a>
+            <a href="zinc.html" class="conn-pill part"><span class="rel">Composed of</span> Zinc (Zn)</a>
+            <a href="magnesium.html" class="conn-pill part"><span class="rel">Composed of</span> Magnesium (Mg)</a>
+            <a href="iodine.html" class="conn-pill part"><span class="rel">Composed of</span> Iodine (I)</a>
+            <a href="selenium.html" class="conn-pill part"><span class="rel">Composed of</span> Selenium (Se)</a>
+          </div>
+        </div>
+
+        <!-- References -->
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2020. ISBN 978-0-323-59712-8.</a></li>
-            <li><a href="https://doi.org/10.1152/japplphysiol.01431.2005" target="_blank" rel="noopener noreferrer">Saltin B, Calbet JA. Point: in health and in a normoxic environment, VO2max is limited by cardiac output. J Appl Physiol. 2006;100(2):744-748.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16428358/" target="_blank" rel="noopener noreferrer">PubMed 16428358</a></li>
-            <li><a href="https://doi.org/10.1113/jphysiol.2007.147629" target="_blank" rel="noopener noreferrer">Levine BD. VO2max: what do we know, and what do we still need to know? J Physiol. 2008;586(1):25-34.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17855754/" target="_blank" rel="noopener noreferrer">PubMed 17855754</a></li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2020. ISBN 978-0-323-59712-8. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Saltin B, Calbet JA. Point: in health and in a normoxic environment, VO2max is limited by cardiac output. <em>J Appl Physiol.</em> 2006;100(2):744–748. <a href="https://doi.org/10.1152/japplphysiol.01431.2005" target="_blank" rel="noopener">doi:10.1152/japplphysiol.01431.2005</a> · PubMed 16428358</li>
+            <li>Levine BD. VO2max: what do we know, and what do we still need to know? <em>J Physiol.</em> 2008;586(1):25–34. <a href="https://doi.org/10.1113/jphysiol.2007.147629" target="_blank" rel="noopener">doi:10.1113/jphysiol.2007.147629</a> · PubMed 17855754</li>
+            <li>Bianconi E et al. An estimation of the number of cells in the human body. <em>Ann Hum Biol.</em> 2013;40(6):463–471. <a href="https://doi.org/10.3109/03014460.2013.807878" target="_blank" rel="noopener">doi:10.3109/03014460.2013.807878</a></li>
+            <li>Task Force of the European Society of Cardiology and the North American Society. Heart rate variability: standards of measurement, physiological interpretation, and clinical use. <em>Circulation.</em> 1996;93(5):1043–1065. PMID 8598068.</li>
           </ul>
         </div>
 
       </div>
     </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Pages on this site are co-maintained with AI assistance and may contain errors. Always verify medical and biological information against primary sources before clinical or research use.</p>
     <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="index.html">Atlas Home</a>
+      <a href="cardiovascular-system.html">Cardiovascular</a>
+      <a href="nervous-system.html">Nervous</a>
+      <a href="endocrine-system.html">Endocrine</a>
+      <a href="musculoskeletal-system.html">Musculoskeletal</a>
+      <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

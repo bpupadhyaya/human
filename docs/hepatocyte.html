@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Parenchymal cell of the liver comprising ~80% of liver volume. Executes &gt;500 metabolic functions: gluconeogenesis, lipid/cholesterol metabolism, protein synthes">
+  <meta name="description" content="Hepatocyte — parenchymal cell of the liver, ~80% of liver volume. CYP450 drug metabolism, bile acid synthesis, gluconeogenesis, urea cycle, albumin and clotting factor synthesis. Atlas One · Human Engineering.">
   <meta property="og:title" content="Hepatocyte — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Hepatocyte — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #b45309;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--accent); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(180,83,9,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #78350f); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--accent); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill.mod .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +99,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,67 +111,188 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular &mdash; Scale 04</div>
     <h1>Hepatocyte</h1>
-    <p class="tagline">Parenchymal cell of the liver comprising ~80% of liver volume. Executes &gt;500 metabolic functions: gluconeogenesis, lipid/cholesterol metabolism, protein synthesis (albumin, clotting factors), urea cycle, phase I/II drug metabolism (CYP450s), and bile acid synthesis.</p>
-    <p class="aliases">Also known as: liver parenchymal cell, hepatic cell</p>
+    <p class="tagline">The metabolic workhorse of the liver — a polygonal parenchymal cell executing 500+ functions including CYP450 drug metabolism, bile acid synthesis, gluconeogenesis, plasma protein secretion, and the urea cycle.</p>
+    <p class="subtagline">CL:0000182 &middot; ~60% of liver cell number, ~80% of liver volume. Metabolically zonated along the sinusoidal O&#x2082; gradient: Zone 1 periportal (gluconeogenesis, &beta;-oxidation) &#x2192; Zone 3 centrilobular (CYP450, lipogenesis, ischemia-prone).</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">20–30 µm</span><span class="stat-label">Diameter</span></div>
+      <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Functions</span></div>
+      <div class="stat"><span class="stat-num">~1,500</span><span class="stat-label">Mitochondria / Cell</span></div>
+      <div class="stat"><span class="stat-num">10–15 g</span><span class="stat-label">Albumin / Day</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">hepatocyte</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">CL:0000182 &middot; Atlas One / Scale 04 &mdash; Cellular</div>
         <h2>Hepatocyte</h2>
-        <p class="summary">Parenchymal cell of the liver comprising ~80% of liver volume. Executes &gt;500 metabolic functions: gluconeogenesis, lipid/cholesterol metabolism, protein synthesis (albumin, clotting factors), urea cycle, phase I/II drug metabolism (CYP450s), and bile acid synthesis.</p>
+        <p class="summary">Large (~20–30 µm), polygonal, frequently binucleate parenchymal cell constituting ~80% of liver volume. Executes carbohydrate homeostasis, lipid/cholesterol synthesis, plasma protein secretion (albumin, clotting factors, complement), CYP450-mediated drug detoxification, bile acid synthesis, and the urea cycle. Metabolically zonated: Zone 1 (periportal) specialises in gluconeogenesis and &beta;-oxidation; Zone 3 (centrilobular) in glycolysis, lipogenesis, and CYP2E1/CYP3A4 drug metabolism.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The hepatocyte is the principal parenchymal cell of the liver — a large (~20–30 µm diameter), polygonal, binucleate-capable cell that carries out the overwhelming majority of the liver's metabolic activities. Constituting approximately 60–80% of total liver cell number and ~80% of liver volume, hepatocytes execute more than 500 distinct metabolic functions, making them among the most metabolically diverse cells in the human body.</p>
+          <p>Key metabolic domains span every major pathway: <strong>carbohydrate metabolism</strong> (gluconeogenesis, glycogenolysis, glycogen synthesis, glycolysis); <strong>lipid metabolism</strong> (fatty acid &beta;-oxidation, de novo lipogenesis, triglyceride synthesis, VLDL secretion, ketogenesis); <strong>protein synthesis</strong> (albumin 10–15 g/day, fibrinogen, clotting factors II/V/VII/IX/X, complement C1–C9); <strong>detoxification</strong> (Phase I CYP450s, Phase II glucuronidation/glutathione conjugation, Phase III transporters); <strong>bile acid synthesis</strong> (cholesterol &rarr; cholic/chenodeoxycholic acid &rarr; conjugated with glycine/taurine &rarr; bile); and the <strong>urea cycle</strong> (NH&#x2083; &rarr; urea, protecting against hyperammonemia).</p>
+          <p>Hepatocytes can regenerate extensively after injury — after 70% partial hepatectomy (living-donor transplant standard), the remnant restores full functional mass within 4–8 weeks in humans, driven by TNF-&alpha;, IL-6, HGF, and EGF signalling cascades.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>hepatocyte</td></tr>
-            <tr><td>Name</td><td>Hepatocyte</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
-            <tr><td>Cell Ontology</td><td>CL:0000182</td></tr>
-            <tr><td>Lineage</td><td>endoderm — hepatic endoderm — hepatoblast — hepatocyte</td></tr>
+            <tr><th>Feature</th><th>Value / Detail</th></tr>
+            <tr><td>Diameter</td><td>20–30 µm; polygonal with 6–8 sides</td></tr>
+            <tr><td>Nuclei</td><td>1–2 per cell; 25–30% binucleate in adults; large, centrally placed, euchromatic</td></tr>
+            <tr><td>Ploidy</td><td>Mix of 2n, 4n, 8n — polyploidy increases with age</td></tr>
+            <tr><td>Mitochondria</td><td>~1,000–2,000 per cell (~18% cell volume); &beta;-oxidation, OXPHOS, urea cycle, ketogenesis</td></tr>
+            <tr><td>Smooth ER</td><td>Extensive; CYP450 drug metabolism, cholesterol synthesis, glycogen metabolism</td></tr>
+            <tr><td>Rough ER + Golgi</td><td>Protein synthesis (albumin, clotting factors); large Golgi for VLDL secretion</td></tr>
+            <tr><td>Peroxisomes</td><td>Very-long-chain FA oxidation; catalase H&#x2082;O&#x2082; detoxification</td></tr>
+            <tr><td>Glycogen granules</td><td>~150 g stored in fed state; visible by EM and PAS stain; major glucose buffer</td></tr>
+            <tr><td>Lifespan</td><td>~150–500 days (slow turnover in normal liver)</td></tr>
           </table>
+          <p style="margin-top:0.75rem;">The plasma membrane has three functionally distinct domains. The <strong>basolateral (sinusoidal) surface</strong> (~70% of membrane area) faces the Space of Disse and contains uptake transporters: NTCP (bile salts), OATP1B1/1B3 (bilirubin and drugs), GLUT2 (glucose), amino acid transporters. The <strong>lateral surface</strong> (~15%) connects adjacent hepatocytes via connexin-32/26 gap junctions essential for coordinating glucagon/insulin signalling. The <strong>apical (canalicular) surface</strong> (~15%) faces the bile canaliculus and houses secretory transporters: BSEP (ABCB11), MRP2 (ABCC2), MDR3 (ABCB4).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — CYP450 Drug Metabolism and Bile Acid Synthesis</h3>
+          <p>The smooth ER of hepatocytes houses the cytochrome P450 monooxygenase system — the principal enzyme family for Phase I drug oxidation, responsible for metabolising ~75% of all clinically used drugs. Bile acid synthesis from cholesterol is the primary route for cholesterol elimination from the body.</p>
+          <div class="circuit-diagram">
+<pre>
+  DRUG / XENOBIOTIC (lipophilic)
+           |
+           v  Phase I — CYP450 (smooth ER)
+  Oxidation / reduction / hydrolysis
+  CYP3A4 (~50% of drugs)  CYP2D6  CYP2C9  CYP2C19  CYP1A2  CYP2E1
+           |
+           v  Phase II — Conjugation (cytosol / ER)
+  UGT glucuronidation (bilirubin, morphine, oestrogen)
+  SULT sulfation
+  GST glutathione conjugation  — NAPQI neutralisation
+  NAT acetylation (isoniazid)
+           |
+           v  Phase III — Biliary / Renal Efflux
+  BSEP (ABCB11) — bile canaliculus → duodenum
+  MRP2 (ABCC2) — bilirubin-glucuronide → bile
+  P-gp (MDR1/ABCB1) — apical efflux
+           |
+           v
+  Water-soluble metabolite excreted in bile or urine
+
+  ── BILE ACID SYNTHESIS (parallel) ──────────────────
+  Cholesterol
+    |
+    v CYP7A1 (rate-limiting; zone 1 periportal)
+  7alpha-hydroxycholesterol
+    |
+    v CYP8B1 / CYP27A1
+  Cholic acid + Chenodeoxycholic acid (primary BAs)
+    |
+    v BAAT (bile acid-CoA:amino acid N-acyltransferase)
+  Glycocholate / Taurocholate (conjugated)
+    |
+    v BSEP → bile canaliculus → bile duct → duodenum
+    v 95% reabsorbed (ASBT) → portal vein
+    v NTCP re-uptake in zone 1 (enterohepatic circulation)
+</pre>
+          </div>
+          <table class="data-table" style="margin-top:0.75rem;">
+            <tr><th>CYP Enzyme</th><th>Key Substrates</th><th>Clinical Notes</th></tr>
+            <tr><td>CYP3A4</td><td>Statins, cyclosporine, midazolam, HIV PIs, amiodarone</td><td>Inducible by rifampicin, St John's Wort; inhibited by grapefruit (CYP3A4 intestinal)</td></tr>
+            <tr><td>CYP2D6</td><td>Codeine&rarr;morphine, metoprolol, fluoxetine, TCAs</td><td>Highly polymorphic; poor/ultrarapid metaboliser phenotypes guide opioid and antidepressant dosing</td></tr>
+            <tr><td>CYP2C9</td><td>Warfarin, ibuprofen, phenytoin, losartan</td><td>*2/*3 alleles: &darr;warfarin dose; pharmacogenomics-guided anticoagulation</td></tr>
+            <tr><td>CYP2C19</td><td>Clopidogrel (prodrug), omeprazole, diazepam</td><td>Poor metabolisers: &darr;clopidogrel activation &rarr; &uarr;MACE risk; *17 ultrarapid: &uarr;PPI efficacy</td></tr>
+            <tr><td>CYP2E1</td><td>Ethanol &rarr; acetaldehyde; acetaminophen &rarr; NAPQI at high dose</td><td>Zone 3 dominant; NAPQI depletes GSH &rarr; zone-3 necrosis in APAP overdose</td></tr>
+            <tr><td>CYP1A2</td><td>Theophylline, caffeine, clozapine, ropivacaine</td><td>Induced by cigarette smoking; inhibited by fluvoxamine and ciprofloxacin</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Glucose Homeostasis and Metabolic Zonation</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Zone 1 — Periportal (pO&#x2082; ~70 mmHg)</h4>
+              <p>Gluconeogenesis (PEPCK, PC), &beta;-oxidation, urea synthesis (CPS-I), primary bile acid secretion, amino acid catabolism. First to receive portal blood. Resistant to ischemia. Wnt signalling low; PEPCK/PC/CPS-I high.</p>
+            </div>
+            <div class="info-block">
+              <h4>Zone 3 — Centrilobular (pO&#x2082; ~35 mmHg)</h4>
+              <p>Glycolysis, de novo lipogenesis, CYP2E1/CYP3A4 drug metabolism, glutamine synthesis (GS — zone-3 IHC marker), ketogenesis. Most vulnerable to ischemia, APAP toxicity, cardiac hepatopathy. Wnt/&beta;-catenin high.</p>
+            </div>
+            <div class="info-block">
+              <h4>Postprandial State (insulin-dominant)</h4>
+              <p>GLUT2 glucose uptake &rarr; glucokinase (GCK; Km ~10 mM) &rarr; glycogen synthesis + de novo lipogenesis &rarr; VLDL secretion. Insulin &rarr; IRS-1/PI3K/Akt &rarr; FoxO1 phosphorylation &rarr; suppresses gluconeogenesis genes.</p>
+            </div>
+            <div class="info-block">
+              <h4>Fasted State (glucagon-dominant)</h4>
+              <p>Glucagon &rarr; PKA &rarr; glycogen phosphorylase &rarr; glycogenolysis &rarr; glucose-6-phosphatase &rarr; free glucose. Prolonged fasting: gluconeogenesis (lactate, alanine, glycerol) + ketogenesis (acetoacetate, &beta;-hydroxybutyrate) for brain and muscle fuel.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Protein Synthesis and the Urea Cycle</h3>
+          <p>The hepatocyte is the primary factory for plasma proteins secreted into the circulation. <strong>Albumin</strong> (10–15 g/day) maintains oncotic pressure (~80% of total plasma oncotic pressure) and acts as a carrier for fatty acids, bilirubin, calcium, and drugs. <strong>Clotting factors</strong> II/VII/IX/X require hepatic vitamin K-dependent &gamma;-carboxylation (target of warfarin); PT/INR directly reflects hepatic synthetic function. Complement proteins C1–C9 are predominantly hepatocyte-synthesised. Acute-phase reactants (CRP, fibrinogen, serum amyloid A, haptoglobin) are upregulated within hours by IL-6/JAK1/STAT3 signalling during inflammation.</p>
+          <p>The <strong>urea cycle</strong> converts toxic NH&#x2083; (from amino acid catabolism and gut-derived urease activity) to urea: <strong>NH&#x2083; + CO&#x2082; &rarr; carbamoyl phosphate (CPS-I, zone 1) &rarr; citrulline (mitochondria) &rarr; argininosuccinate (cytosol) &rarr; arginine &rarr; urea + ornithine.</strong> Urea exits to blood &rarr; kidneys &rarr; excreted in urine. In hepatocellular failure, urea cycle capacity falls &rarr; hyperammonemia &rarr; hepatic encephalopathy.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lipid and Cholesterol Metabolism</h3>
+          <p>Hepatocytes synthesise ~70% of whole-body cholesterol via the <strong>mevalonate pathway:</strong> acetyl-CoA &rarr; HMG-CoA &rarr; (HMG-CoA reductase, HMGCR — <strong>statin target</strong>) &rarr; mevalonate &rarr; squalene &rarr; cholesterol. Statin inhibition of HMGCR &darr;intracellular cholesterol &rarr; SREBP2 activation &rarr; LDLR upregulation &rarr; &darr;plasma LDL-C.</p>
+          <p>VLDL assembly: triglycerides + ApoB-100 + cholesterol ester &rarr; VLDL particle (MTP-dependent) &rarr; secreted to plasma &rarr; lipolysis by LPL &rarr; IDL &rarr; LDL. Hepatic LDL receptors (LDLR, upregulated by statins) clear ~70% of plasma LDL via PCSK9-regulated endocytosis. PCSK9 inhibitors (evolocumab, alirocumab) block PCSK9-mediated LDLR degradation &rarr; further &darr;LDL-C by 50–60%.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Acetaminophen (APAP) Hepatotoxicity</h4>
+            <p>Therapeutic doses: ~90% glucuronidated/sulfated safely; ~5–10% CYP2E1/CYP3A4 &rarr; NAPQI, immediately neutralised by glutathione (GSH). Overdose: Phase II saturation &rarr; CYP2E1 overflow &rarr; excess NAPQI &rarr; GSH depletion &rarr; zone-3 covalent protein adduct formation &rarr; mitochondrial dysfunction &rarr; necrosis. Antidote: N-acetylcysteine (NAC) replenishes GSH. Leading cause of acute liver failure in Western countries (&gt;50% of ALF cases).</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Viral Hepatitis — HBV and HCV</h4>
+            <p>HBV enters hepatocytes via NTCP (SLC10A1) binding of preS1 domain; cccDNA persists as nuclear minichromosome. ~296 million chronic carriers; hepatocyte injury is primarily CTL-mediated; 1–4%/year cirrhosis &rarr; HCC risk. HCV infects via CD81/SR-B1/CLDN1/OCLN receptor complex; 55–85% chronicity; now &gt;95% SVR with 8–12 week DAA regimens (sofosbuvir/velpatasvir, glecaprevir/pibrentasvir).</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>NAFLD / NASH / MASLD</h4>
+            <p>Hepatic steatosis (&ge;5% hepatocyte fat) &rarr; NASH (steatosis + ballooning + lobular inflammation) &rarr; fibrosis &rarr; cirrhosis. Pathomechanism: insulin resistance &rarr; excess adipocyte FFA &rarr; hepatocyte lipotoxicity &rarr; ER stress + JNK activation + mitochondrial dysfunction + oxidative stress &rarr; Kupffer/stellate cell activation &rarr; TGF-&beta; &rarr; collagen I/III &rarr; portal fibrosis. Affects ~25% of global adults (~1.8 billion). Approved treatments: semaglutide, resmetirom (THR-&beta; agonist).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Drug-Induced Liver Injury (DILI)</h4>
+            <p>Idiosyncratic (amoxicillin-clavulanate, isoniazid, nitrofurantoin, diclofenac) or predictable dose-dependent (acetaminophen). Mechanisms: reactive metabolite formation (Phase I), mitochondrial dysfunction, immune-mediated hepatocyte killing (hapten hypothesis). ALT/AST elevation; R-ratio (ALT/ULN &divide; ALP/ULN) differentiates hepatocellular (R &ge;5) vs cholestatic (R &le;2) DILI patterns.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Hepatocellular Carcinoma (HCC)</h4>
+            <p>Third leading cause of cancer death globally. Risk factors: HBV (viral DNA integration), HCV cirrhosis, NASH-cirrhosis, aflatoxin B1 (CYP3A4 &rarr; 8,9-epoxide &rarr; TP53 R249S mutation), alcohol, haemochromatosis. Surveillance: AFP + liver ultrasound every 6 months in all cirrhotic patients. Systemic therapy: atezolizumab + bevacizumab (preferred first-line); sorafenib, lenvatinib (alternatives).</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>UGT1A1 Syndromes — Gilbert and Crigler-Najjar</h4>
+            <p><strong>Gilbert syndrome</strong> (UGT1A1*28 promoter polymorphism, 5–10% of population): mild unconjugated hyperbilirubinemia, benign, triggered by fasting/illness/haemolysis. <strong>Crigler-Najjar type I</strong>: complete UGT1A1 absence &rarr; severe unconjugated hyperbilirubinemia from birth &rarr; kernicterus without 10–18 h/day phototherapy &rarr; liver transplantation curative.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="hepatic-lobule.html" title="Hepatocytes are arranged in cords within the hepatic lobule, radiating from the central vein."><span class="rel">part-of</span>Hepatic Lobule</a>
-            <a class="conn-pill part" href="liver.html" title="Hepatocytes are the dominant parenchymal cell population constituting ~80% of liver volume."><span class="rel">part-of</span>Liver</a>
-            <a class="conn-pill damaged" href="sars-cov-2.html" title="SARS-CoV-2 injures hepatocytes via ACE2-mediated direct infection and immune-mediated hepatitis; COVID-19 liver injury is seen in 14-53% of patients."><span class="rel">damaged-by</span>Sars Cov 2</a>
-            <a class="conn-pill" href="statins.html" title="Statins inhibit HMG-CoA reductase in hepatocytes, reducing intracellular cholesterol synthesis and upregulating LDL receptor expression to clear circulating LDL-C."><span class="rel">modulated-by</span>Statins</a>
-            <a class="conn-pill" href="hepatitis-b-virus.html" title="Hepatocytes are the exclusive replication site for HBV; viral entry is mediated by preS1 binding to NTCP (SLC10A1) transporter; cccDNA persists in nucleus as viral minichromosome, conferring lifelong reservoir."><span class="rel">infected-by</span>Hepatitis B Virus</a>
-            <a class="conn-pill damaged" href="hepatitis-b-virus.html" title="HBV-mediated hepatocyte injury is primarily immune-mediated (CTL-driven hepatocyte killing) rather than direct cytopathic; hepatocyte loss drives fibrosis, cirrhosis, and HCC risk."><span class="rel">damaged-by</span>Hepatitis B Virus</a>
+            <a class="conn-pill part" href="hepatic-lobule.html"><span class="rel">Part of</span>Hepatic Lobule</a>
+            <a class="conn-pill part" href="liver.html"><span class="rel">Part of</span>Liver (Organ)</a>
+            <a class="conn-pill mod" href="statins.html"><span class="rel">Modulated by</span>Statins (HMG-CoA reductase)</a>
+            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2</a>
+            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">Infected by</span>HBV / HCV</a>
+            <a class="conn-pill" href="adipocyte.html"><span class="rel">Modulated by</span>Adipocyte (FFA / adipokines)</a>
+            <a class="conn-pill" href="endothelial-cell.html"><span class="rel">Adjacent to</span>LSEC via Space of Disse</a>
+            <a class="conn-pill" href="fibroblast.html"><span class="rel">Activates</span>Hepatic Stellate Cell (TGF-&beta;)</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1038/nrm1489" target="_blank" rel="noopener noreferrer">Taub R. Liver regeneration: from myth to mechanism. Nat Rev Mol Cell Biol. 2004;5(10):836-47.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15459664/" target="_blank" rel="noopener noreferrer">PubMed 15459664</a></li>
-            <li><a href="https://doi.org/10.3748/wjg.v20.i26.8491" target="_blank" rel="noopener noreferrer">Gebhardt R, Matz-Soja M. Liver zonation: Novel aspects of its regulation and its impact on homeostasis. World J Gastroenterol. 2014;20(26):8491-504.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25024605/" target="_blank" rel="noopener noreferrer">PubMed 25024605</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 71.</a></li>
-            <li><a href="https://doi.org/10.1016/j.pharmthera.2012.12.007" target="_blank" rel="noopener noreferrer">Zanger UM, Schwab M. Cytochrome P450 enzymes in drug metabolism: regulation of gene expression, enzyme activities, and impact of genetic variation. Pharmacol Ther. 2013;138(1):103-41.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23333322/" target="_blank" rel="noopener noreferrer">PubMed 23333322</a></li>
+            <li>Taub R. Liver regeneration: from myth to mechanism. <em>Nat Rev Mol Cell Biol.</em> 2004;5(10):836-47. <a href="https://doi.org/10.1038/nrm1489" target="_blank" rel="noopener">doi:10.1038/nrm1489</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15459664/" target="_blank" rel="noopener">PubMed 15459664</a></li>
+            <li>Gebhardt R, Matz-Soja M. Liver zonation: Novel aspects of its regulation and its impact on homeostasis. <em>World J Gastroenterol.</em> 2014;20(26):8491-504. <a href="https://doi.org/10.3748/wjg.v20.i26.8491" target="_blank" rel="noopener">doi:10.3748/wjg.v20.i26.8491</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25024605/" target="_blank" rel="noopener">PubMed 25024605</a></li>
+            <li>Zanger UM, Schwab M. Cytochrome P450 enzymes in drug metabolism. <em>Pharmacol Ther.</em> 2013;138(1):103-41. <a href="https://doi.org/10.1016/j.pharmthera.2012.12.007" target="_blank" rel="noopener">doi:10.1016/j.pharmthera.2012.12.007</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23333322/" target="_blank" rel="noopener">PubMed 23333322</a></li>
+            <li>Hall JE. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Ch. 71. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Alberts B et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">ncbi.nlm.nih.gov</a></li>
           </ul>
         </div>
 
@@ -191,14 +304,16 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="liver.html">Liver</a>
+      <a href="hepatic-lobule.html">Hepatic Lobule</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

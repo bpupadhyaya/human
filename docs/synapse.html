@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The chemical synapse — a ~20 nm intercellular junction between axon terminal and dendrite/soma — is the fundamental unit of neural circuit communication. Presyn">
+  <meta name="description" content="Synapse — the chemical synapse: ~20 nm junction enabling fast neurotransmission, LTP/LTD, and memory encoding. SNARE machinery, vesicle fusion, synaptic plasticity. Scale 05 (Tissue) of the Human Atlas.">
   <meta property="og:title" content="Synapse — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Synapse — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,56 +32,52 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.85rem; color: var(--fg); white-space: pre; overflow-x: auto; line-height: 1.7; }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.4rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '&#8599;'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
@@ -108,8 +97,9 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="neuron.html">Neuron</a>
+        <a href="hippocampus.html">Hippocampus</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -119,65 +109,182 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Tissue</div>
     <h1>Synapse</h1>
-    <p class="tagline">The chemical synapse — a ~20 nm intercellular junction between axon terminal and dendrite/soma — is the fundamental unit of neural circuit communication. Presynaptic vesicle exocytosis, postsynaptic receptor clustering, and LTP/LTD underlie information transmission and memory.</p>
-    <p class="aliases">Also known as: chemical synapse, synaptic junction, excitatory synapse, inhibitory synapse, synaptic cleft, dendritic spine synapse</p>
+    <p class="tagline">The chemical synapse &mdash; a precisely engineered ~20 nm intercellular junction that is the fundamental unit of information transfer in neural circuits, spanning millisecond ion channel gating to multi-hour structural memory encoding.</p>
+    <p class="subtagline">The adult human brain contains an estimated 100&ndash;500 trillion synapses. The molecular machinery of vesicle exocytosis (SNARE complex) was elucidated in work recognised by the 2013 Nobel Prize (Thomas S&uuml;dhof). LTP and LTD are the synaptic correlates of learning and memory.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~20 nm</span><span class="stat-label">Synaptic cleft width</span></div>
+      <div class="stat"><span class="stat-num">100&ndash;500 trillion</span><span class="stat-label">Synapses in brain</span></div>
+      <div class="stat"><span class="stat-num">1&ndash;5 ms</span><span class="stat-label">AP to PSP peak time</span></div>
+      <div class="stat"><span class="stat-num">Nobel 2013</span><span class="stat-label">SNARE/vesicle fusion</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">synapse</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">GO:0045202 &middot; FMA:45021 &middot; Atlas One / Scale 05 / Tissue</div>
         <h2>Synapse</h2>
-        <p class="summary">The chemical synapse — a ~20 nm intercellular junction between axon terminal and dendrite/soma — is the fundamental unit of neural circuit communication. Presynaptic vesicle exocytosis, postsynaptic receptor clustering, and LTP/LTD underlie information transmission and memory.</p>
+        <p class="summary">The chemical synapse is the fundamental unit of information transfer in neural circuits &mdash; a precisely engineered nanoscale intercellular junction allowing one neuron to influence the membrane potential of another. At ~20 nm wide, it hosts processes ranging from millisecond-timescale ion channel gating (fast synaptic transmission) to multi-hour structural remodelling (LTP/LTD) that encodes long-term memory. SNARE/synaptotagmin-driven vesicle fusion, postsynaptic PSD scaffolding, and bidirectional Hebbian plasticity constitute the core molecular logic.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The chemical synapse is far below the resolution of conventional light microscopy yet is the site of processes central to all of neuroscience: from the millisecond-timescale opening of ion channels that underlie perception and movement, to the multi-day structural changes in dendritic spines that constitute the physical trace of a memory. The adult human brain contains an estimated <strong>100&ndash;500 trillion synapses</strong> &mdash; orders of magnitude more than the number of stars in the Milky Way. This synaptic number, combined with the diversity of synapse types and the capacity for bidirectional strength modification, creates the combinatorial complexity that makes human learning possible.</p>
+          <p>The molecular machinery of synaptic vesicle exocytosis &mdash; the <strong>SNARE complex</strong> (synaptobrevin/VAMP, syntaxin-1, SNAP-25) and its Ca&#178;&#8314; sensor <strong>synaptotagmin-1/2</strong> &mdash; was elucidated in work recognized by the <strong>2013 Nobel Prize</strong> in Physiology or Medicine (Thomas S&uuml;dhof and colleagues). Structural plasticity of dendritic spines has been directly imaged in living mice, revealing ongoing dynamics of spine formation and elimination that correlate with learning.</p>
+          <p>Two broad synaptic classes exist: <strong>excitatory glutamatergic synapses</strong> (onto dendritic spines; AMPA + NMDA receptors in the PSD; ~80% of CNS synapses) and <strong>inhibitory GABAergic synapses</strong> (onto shaft/soma/AIS; GABA-A/B receptors; gephyrin scaffold). Together they define the E/I balance that determines network excitability, information routing, and plasticity.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Anatomy &mdash; Presynaptic Terminal</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>synapse</td></tr>
-            <tr><td>Name</td><td>Synapse</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>05-tissue</td></tr>
+            <tr><th>Component</th><th>Function</th></tr>
+            <tr><td><strong>Synaptic vesicles (SVs, ~40 nm)</strong></td><td>Store concentrated neurotransmitter: ~5,000&ndash;10,000 glutamate molecules; ~3,000 GABA molecules per vesicle. SV pools: readily releasable pool (RRP, ~5&ndash;20 docked), recycling pool, reserve pool.</td></tr>
+            <tr><td><strong>Active zone (AZ)</strong></td><td>Electron-dense cytomatrix scaffold: Bassoon, Piccolo (large scaffolds), RIM1/2 (Rab3 effector, tethers vesicles, opens Ca&#178;&#8314; channels), ELKS/CAST, Munc13 (vesicle priming). Positions vesicles within 50&ndash;100 nm of Ca&#178;&#8314; channels for rapid coupling.</td></tr>
+            <tr><td><strong>P/Q-type and N-type Ca&#178;&#8314; channels</strong></td><td>Clustered within 50&ndash;100 nm of docked vesicles. Ca&#178;&#8314; entry at active zone microdomain rises to ~10&ndash;100 &micro;M within 0.2 ms of AP arrival, triggering exocytosis.</td></tr>
+            <tr><td><strong>SNARE complex</strong></td><td>Synaptobrevin-2/VAMP2 (v-SNARE, vesicle) + syntaxin-1A (t-SNARE, target plasma membrane) + SNAP-25 (t-SNARE, target); form a four-helix bundle driving bilayer merger. Regulated by Munc18 (syntaxin chaperone) and Munc13 (priming factor).</td></tr>
+            <tr><td><strong>Synaptotagmin-1/2</strong></td><td>Ca&#178;&#8314; sensor on vesicle membrane; two C2 domains bind 3&ndash;5 Ca&#178;&#8314; ions (affinity ~100 &micro;M); Ca&#178;&#8314; binding displaces inhibitory clamp on SNARE &rarr; full fusion within ~0.2 ms.</td></tr>
+            <tr><td><strong>Endocytic machinery</strong></td><td>Clathrin/dynamin/AP2 recycle membrane after full collapse fusion. Kiss-and-run (pore closure without full collapse) is faster but deposits fewer transmitter molecules.</td></tr>
           </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Anatomy &mdash; Postsynaptic Density and Cleft</h3>
+          <p>The <strong>synaptic cleft (~20 nm)</strong> is not empty: it contains a dense extracellular matrix of proteoglycans and <strong>transsynaptic adhesion complexes</strong> (neurexin on presynaptic / neuroligin on postsynaptic) that align active zone and PSD and are genetically implicated in autism spectrum disorder (NRXN1, NLGN3/4 mutations).</p>
+          <table class="data-table">
+            <tr><th>PSD Component</th><th>Role (excitatory/glutamatergic synapse)</th></tr>
+            <tr><td><strong>PSD-95 (MAGUK scaffold)</strong></td><td>Master organiser; clusters NMDA receptors (PDZ1/2 binds GluN2 C-terminus), anchors CaMKII and nNOS; &ge;300 copies per PSD.</td></tr>
+            <tr><td><strong>AMPA receptors (GluA1/2/3/4)</strong></td><td>Mobile &mdash; their number in the PSD is the primary determinant of synaptic strength. LTP &rarr; more surface AMPARs; LTD &rarr; fewer. GluA2-containing receptors are Ca&#178;&#8314;-impermeable (normal); GluA2-lacking &rarr; Ca&#178;&#8314;-permeable (AMPA receptor trafficking in plasticity).</td></tr>
+            <tr><td><strong>NMDA receptors (GluN1/GluN2A/2B)</strong></td><td>Anchored by PSD-95; voltage-dependent Mg&#178;&#8314; block relieved only at depolarised potentials (coincidence detector). Essential for LTP induction; more stable in PSD than AMPARs.</td></tr>
+            <tr><td><strong>CaMKII (&alpha;/&beta;)</strong></td><td>~30% of PSD protein mass; 12-subunit holoenzyme; activated by Ca&#178;&#8314;/CaM during LTP &rarr; autophosphorylation (T286) &rarr; constitutive activity &rarr; GluA1 Ser831 phosphorylation &rarr; AMPAR conductance &#8679; and trafficking to PSD.</td></tr>
+            <tr><td><strong>Homer</strong></td><td>Clusters mGluR1/5; links to IP&#8323; receptors on ER within spine (&ldquo;spine apparatus&rdquo;) &rarr; local Ca&#178;&#8314; store for plasticity and protein synthesis.</td></tr>
+            <tr><td><strong>Shank</strong></td><td>Connects Homer and PSD-95 into unified scaffold; mutated in autism (SHANK1/2/3) and schizophrenia.</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Inhibitory (GABAergic) postsynaptic specialisation.</strong> Located on soma, dendrite shaft, or axon initial segment. Gephyrin anchors GABA-A receptors (Cl&#8315; channel, fast inhibition) and GABA-B receptors (GIRK/K&#8314; channel + &#8595;cAMP, slow inhibition). No dendritic spines; no PSD-95.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function &mdash; SNARE Vesicle Fusion Cycle</h3>
+          <p>The complete cycle of vesicle exocytosis and recycling at the active zone:</p>
+          <div class="formula-block">VESICLE CYCLE AT THE ACTIVE ZONE
+
+1. DOCKING  (Rab3-RIM interaction, syntaxin/Munc18 complex)
+   SV docks at active zone within 50-100 nm of P/Q-type Ca2+ channels
+
+2. PRIMING  (Munc13 opens syntaxin; SNARE zippering begins)
+   Synaptobrevin-2 (v-SNARE on SV)
+   + Syntaxin-1A + SNAP-25 (t-SNAREs on plasma membrane)
+   --> Partial SNARE bundle (N-terminal; ~4 layers zipped)
+   --> Vesicle in readily releasable pool (RRP)
+
+3. Ca2+ TRIGGERING
+   AP --> P/Q-type Ca2+ channels open --> [Ca2+] spikes to ~10-100 uM at AZ microdomains
+   --> Synaptotagmin-1 C2A + C2B domains bind 3-5 Ca2+ ions (affinity ~100 uM)
+   --> Ca2+-bound syt1 DISPLACES complexin inhibitory clamp
+   --> Accelerates SNARE C-terminal zippering to completion (~0.2 ms)
+   --> Bilayer merger and pore opening
+
+4. EXOCYTOSIS
+   ~5,000-10,000 NT molecules flood 20 nm cleft within 0.1 ms
+   NT binds postsynaptic ionotropic receptors within 0.2 ms
+
+5. CLEARANCE
+   Glutamate: EAAT1/2 (GLT-1, GLAST) on astrocyte perisynaptic processes -- >90% uptake
+   GABA: GAT-1 on presynaptic terminal; GAT-3 on astrocyte
+
+6. ENDOCYTOSIS + RELOADING
+   Full-collapse fusion: clathrin/dynamin/AP2 --> endosome --> SV budding (adaptin, synaptojanin)
+   Kiss-and-run: pore closure, SV retains identity
+   SV refilled: VGluT1/2 (glutamate) or VGAT (GABA) via H+-electrochemical gradient (V-ATPase)</div>
+          <p class="formula-note">Total time from AP arrival to postsynaptic PSP peak: 1&ndash;5 ms for fast synapses. The RRP is depleted within ~10 APs at 100 Hz; recycling pool sustains transmission during sustained activity.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Plasticity &mdash; LTP and LTD</h3>
+          <p><strong>Long-Term Potentiation (LTP).</strong> The canonical form at CA1 Schaffer collateral synapses (first demonstrated by Bliss and L&oslash;mo, 1973):</p>
+          <div class="formula-block">LTP INDUCTION (E-LTP, within minutes):
+  High-frequency stimulation (HFS, 100 Hz, 1 s) or theta burst stimulation
+  --> AMPAR-mediated depolarisation of postsynaptic membrane
+  --> NMDAR Mg2+ block relieved at depolarised potentials
+  --> Ca2+ influx through NMDAR (~10-50 uM in spine)
+  --> Ca2+/CaM --> CaMKII activation (T286 autophosphorylation)
+  --> GluA1 Ser831 phosphorylation --> AMPAR conductance increase
+  --> Rab11/NSF-dependent AMPAR exocytosis to PSD surface
+  --> Structural spine enlargement (F-actin remodelling via Rac1/Cofilin)
+
+LTP CONSOLIDATION (L-LTP, >1 h, transcription-dependent):
+  CaMKII --> MAPK/ERK --> CREB Ser133 phosphorylation
+  --> Arc (AMPAR endocytosis regulation; limits LTP magnitude)
+  --> BDNF (TrkB --> MAPK/PI3K --> local mRNA translation in dendrites)
+  --> CPEB --> polyadenylation of dendritic mRNAs (CaMKII-alpha, Arc, GluA1)
+  --> New protein synthesis --> stable structural LTP (new spine heads; new synapses)
+
+LTD INDUCTION (at CA1):
+  Low-frequency stimulation (LFS, 1 Hz, 900 pulses)
+  --> Moderate Ca2+ via NMDAR (lower peak than LTP)
+  --> Preferential activation of PP2B (calcineurin) and PP1
+  --> GluA2 Ser880 dephosphorylation --> GRIP release --> AMPAR endocytosis
+  --> Spine shrinkage --> silent synapse or synapse elimination
+
+mGluR-LTD (Group I mGluR; Gq --> IP3/DAG; prominent in hippocampus):
+  --> Local dendritic mRNA translation (CPEB, FMRP-regulated)
+  --> AMPAR endocytosis; dysregulated in Fragile X (excess mGluR-LTD)</div>
+          <p class="formula-note">LTP and LTD represent bidirectional Hebbian plasticity &mdash; the molecular substrate of learning-related synaptic modification. Together they implement a sliding threshold (BCM theory) that maintains neurons in a dynamic range.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Alzheimer's Disease &mdash; Early Synaptic Loss</h4>
+            <p>Amyloid-&beta; oligomers (soluble, not plaques) bind neurexin and PSD-95 &rarr; activate complement C1q tagging of synapses &rarr; microglial CR3 phagocytosis of dendritic spines. Soluble A&beta; also activates NMDARs &rarr; Ca&#178;&#8314; overload &rarr; synaptic depression (chemical LTD). Synaptic density loss precedes neuron loss by years and correlates more strongly with cognitive decline than plaque or tangle burden.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Epilepsy &mdash; Runaway Excitation</h4>
+            <p>E/I imbalance: &#8679;glutamatergic release or &#8595;GABAergic inhibition &rarr; AMPAR/NMDAR hyperactivation &rarr; synchronised burst firing propagating as seizure. Ion channel mutations (SCN1A Nav1.1, KCNQ2/3, GABA-A subunits) and synaptic protein mutations (STXBP1/Munc18, PRRT2) cause genetic epilepsies via disruption of the synaptic release machinery or E/I balance.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Schizophrenia &mdash; NMDA Hypofunction</h4>
+            <p>NMDA receptor hypofunction (particularly on PV&#8314; interneurons &rarr; disinhibition of pyramidal cells) disrupts gamma synchrony and working memory encoding. Complement-mediated over-pruning of synapses during adolescent synaptic pruning (C4A overexpression, GWAS finding) is implicated in excess synapse elimination. Cognitive symptoms correlate with prefrontal synaptic density.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Autism Spectrum Disorder</h4>
+            <p>Mutations in transsynaptic adhesion molecules (NRXN1, NLGN3/4) and PSD scaffold proteins (SHANK1/2/3, SYNGAP1, DLGAP1) disrupt synapse formation, maturation, and E/I balance. Many ASD genes converge on mTOR pathway &rarr; excess local dendritic protein synthesis &rarr; excessive mGluR-LTD &rarr; over-weakening of synapses (similar to Fragile X).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Fragile X Syndrome</h4>
+            <p>Loss of FMRP (FMR1 gene; CGG repeat expansion) &rarr; disinhibition of mGluR-dependent local mRNA translation &rarr; excess AMPAR endocytosis &rarr; exaggerated mGluR-LTD &rarr; immature, thin dendritic spines &rarr; intellectual disability, autism features. mGluR antagonists (MPEP, fenobam) and lithium partially rescue the synaptic phenotype in animal models.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Tetanus Toxin (TeNT) &mdash; Inhibitory Synapse Block</h4>
+            <p>TeNT cleaves VAMP-2/synaptobrevin on GABAergic and glycinergic interneuron terminals &rarr; blocks inhibitory neurotransmitter release &rarr; loss of inhibitory control of motor neurons &rarr; spastic paralysis (lock-jaw, opisthotonus). Botulinum toxins cleave VAMP, SNAP-25, or syntaxin at neuromuscular junctions &rarr; flaccid paralysis (opposite phenotype).</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="neuron.html" title="Synapses are formed by neurons — both the presynaptic axon terminal and postsynaptic dendrite/soma are neuronal compartments."><span class="rel">contains</span>Neuron</a>
-            <a class="conn-pill" href="glutamate.html" title="Excitatory synapses release glutamate as their primary neurotransmitter; AMPA/NMDA/kainate receptors in the PSD mediate fast depolarization and LTP induction."><span class="rel">modulated-by</span>Glutamate</a>
-            <a class="conn-pill" href="gaba.html" title="Inhibitory synapses release GABA; GABA-A (Cl⁻ channel) and GABA-B (GIRK K⁺/↓cAMP) receptors on the postsynaptic membrane mediate fast and slow inhibition."><span class="rel">modulated-by</span>Gaba</a>
-            <a class="conn-pill part" href="brain.html" title="Synapses are the nanoscale functional junctions within the brain's ~100 trillion-connection information network."><span class="rel">part-of</span>Brain</a>
-            <a class="conn-pill" href="dopamine.html" title="Dopamine modulates synaptic plasticity (LTP/LTD) and neurotransmitter release via presynaptic and postsynaptic D1–D5 receptors at excitatory and inhibitory synapses."><span class="rel">modulated-by</span>Dopamine</a>
+            <a class="conn-pill part" href="brain.html"><span class="rel">Part of</span>Brain</a>
+            <a class="conn-pill part" href="hippocampus.html"><span class="rel">Key site in</span>Hippocampus (Schaffer collateral)</a>
+            <a class="conn-pill" href="neuron.html"><span class="rel">Formed by</span>Neuron (pre + post)</a>
+            <a class="conn-pill" href="astrocyte.html"><span class="rel">Third element</span>Astrocyte (tripartite synapse)</a>
+            <a class="conn-pill" href="microglia.html"><span class="rel">Pruned by</span>Microglia (C1q/C3/CR3)</a>
+            <a class="conn-pill" href="oligodendrocyte.html"><span class="rel">Supported by speed from</span>Oligodendrocyte</a>
+            <a class="conn-pill" href="glutamate.html"><span class="rel">Transmits via</span>Glutamate (AMPA/NMDA)</a>
+            <a class="conn-pill" href="gaba.html"><span class="rel">Inhibited by</span>GABA (GABA-A/B)</a>
+            <a class="conn-pill" href="dopamine.html"><span class="rel">Modulated by</span>Dopamine (D1&ndash;D5)</a>
+            <a class="conn-pill" href="acetylcholine.html"><span class="rel">Modulated by</span>Acetylcholine (nAChR/mAChR)</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/j.neuron.2013.10.022" target="_blank" rel="noopener noreferrer">Südhof TC. Neurotransmitter release: the last millisecond in the life of a synaptic vesicle. Neuron. 2013;80(3):675-690.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24183019/" target="_blank" rel="noopener noreferrer">PubMed 24183019</a></li>
-            <li><a href="https://doi.org/10.1038/nrn2699" target="_blank" rel="noopener noreferrer">Bhatt DL, Bhatt SM, Bhatt DL. (See: Bhatt DL, Bhatt SM — note: for spine plasticity see Bhatt DL, Bhatt SM (2009). Dendritic spine plasticity.) / Holtmaat A, Svoboda K. Experience-dependent structural synaptic plasticity in the mammalian brain. Nat Rev Neurosci. 2009;10(9):647-658.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19693029/" target="_blank" rel="noopener noreferrer">PubMed 19693029</a></li>
-            <li><a href="https://doi.org/10.1038/nrn2699" target="_blank" rel="noopener noreferrer">Holtmaat A, Svoboda K. Experience-dependent structural synaptic plasticity in the mammalian brain. Nat Rev Neurosci. 2009;10(9):647-658.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19693029/" target="_blank" rel="noopener noreferrer">PubMed 19693029</a></li>
-            <li><a href="https://doi.org/10.1038/nrn3444" target="_blank" rel="noopener noreferrer">Koch C, Jones A. Big science, team science, and open science for neuroscience. Neuron. 2016;92(3):612-616. (For synapse anatomy: Bhatt DL / see also DeFelipe J et al. New insights into the classification and nomenclature of cortical GABAergic interneurons. Nat Rev Neurosci. 2013;14(3):202-216.)</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23406968/" target="_blank" rel="noopener noreferrer">PubMed 23406968</a></li>
-            <li><a href="https://doi.org/10.1038/nrn3444" target="_blank" rel="noopener noreferrer">DeFelipe J, López-Cruz PL, Benavides-Piccione R, et al. New insights into the classification and nomenclature of cortical GABAergic interneurons. Nat Rev Neurosci. 2013;14(3):202-216.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23406968/" target="_blank" rel="noopener noreferrer">PubMed 23406968</a></li>
+            <li>S&uuml;dhof TC. Neurotransmitter release: the last millisecond in the life of a synaptic vesicle. <em>Neuron.</em> 2013;80(3):675&ndash;690. <a href="https://doi.org/10.1016/j.neuron.2013.10.022" target="_blank" rel="noopener">doi:10.1016/j.neuron.2013.10.022</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24183019/" target="_blank" rel="noopener">PubMed 24183019</a></li>
+            <li>Holtmaat A, Svoboda K. Experience-dependent structural synaptic plasticity in the mammalian brain. <em>Nat Rev Neurosci.</em> 2009;10(9):647&ndash;658. <a href="https://doi.org/10.1038/nrn2699" target="_blank" rel="noopener">doi:10.1038/nrn2699</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19693029/" target="_blank" rel="noopener">PubMed 19693029</a></li>
+            <li>DeFelipe J, L&oacute;pez-Cruz PL, Benavides-Piccione R, et al. New insights into the classification and nomenclature of cortical GABAergic interneurons. <em>Nat Rev Neurosci.</em> 2013;14(3):202&ndash;216. <a href="https://doi.org/10.1038/nrn3444" target="_blank" rel="noopener">doi:10.1038/nrn3444</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23406968/" target="_blank" rel="noopener">PubMed 23406968</a></li>
+            <li>Kandel ER, Koester JD, Mack SH, Siegelbaum SA. <em>Principles of Neural Science.</em> 6th ed. McGraw-Hill; 2021. <a href="https://www.mhprofessional.com/principles-of-neural-science-sixth-edition-9781259642234-usa" target="_blank" rel="noopener">mhprofessional.com</a></li>
           </ul>
         </div>
 
@@ -186,17 +293,18 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end &mdash; in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="neuron.html">Neuron</a>
+      <a href="hippocampus.html">Hippocampus</a>
+      <a href="brain.html">Brain</a>
+      <a href="glutamate.html">Glutamate</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

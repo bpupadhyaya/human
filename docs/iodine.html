@@ -3,197 +3,269 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Iodine (I⁻, atomic number 53) — 15–20 mg total, ~75% in thyroid. Essential for T3/T4 synthesis via NIS uptake, TPO organification, and thyroglobulin coupling. D">
-  <meta property="og:title" content="Iodine — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Iodine — Human Engineering</title>
+  <title>Iodine — Human Engineering Atlas</title>
   <style>
     :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+      --accent: #7c3aed;
+      --bg: #0f0f13;
+      --surface: #18181f;
+      --surface2: #1f1f2a;
+      --border: #2a2a3a;
+      --fg: #e8e8f0;
+      --muted: #9090a8;
+      --radius: 10px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    body { background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(15,15,19,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 1.5rem; display: flex; align-items: center; gap: 1rem; height: 52px; }
+    .nav-logo { font-weight: 700; font-size: 1rem; color: var(--fg); }
+    .nav-sep { color: var(--border); }
+    .nav-link { font-size: 0.85rem; color: var(--muted); }
+    .nav-link:hover { color: var(--fg); }
+
+    .hero { padding: 4rem 1.5rem 3rem; max-width: 860px; margin: 0 auto; }
+    .hero-eyebrow { display: inline-block; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: rgba(124,58,237,0.12); color: var(--accent); border: 1px solid rgba(124,58,237,0.3); border-radius: 20px; padding: 0.25rem 0.8rem; margin-bottom: 1.2rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; line-height: 1.1; margin-bottom: 0.6rem; }
+    .hero-tagline { font-size: 1.15rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .hero-sub { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.8rem; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.8rem; }
+    .alias-pill { font-size: 0.78rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.7rem; color: var(--muted); }
+    .stat-row { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.9rem 1.2rem; min-width: 130px; }
+    .stat-val { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+    .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem; }
+
+    main { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 4rem; display: grid; gap: 1.5rem; }
+    .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+    .detail-header { background: linear-gradient(135deg, #7c3aed, #4c1d95); padding: 1.2rem 1.5rem; }
+    .detail-header h2 { font-size: 1.1rem; font-weight: 700; color: #fff; }
+    .detail-header p { font-size: 0.82rem; color: rgba(255,255,255,0.7); margin-top: 0.2rem; }
+    .detail-body { padding: 1.4rem 1.5rem; }
+    .detail-body p { font-size: 0.93rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .detail-body h3 { font-size: 0.95rem; font-weight: 600; color: var(--fg); margin: 1.2rem 0 0.5rem; }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.8rem 0; }
+    .data-table th { text-align: left; color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.5rem 0.8rem; border-bottom: 1px solid var(--border); }
+    .data-table td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(42,42,58,0.5); color: var(--fg); vertical-align: top; }
+    .data-table tr:last-child td { border-bottom: none; }
+
+    .pathway-block { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; margin: 0.8rem 0; overflow-x: auto; }
+    .pathway-block pre { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.78rem; color: #c4b5fd; line-height: 1.7; white-space: pre; }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 1.4rem 1.5rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 20px; padding: 0.3rem 0.9rem; color: var(--fg); transition: border-color 0.2s; }
+    .conn-pill:hover { border-color: var(--accent); color: var(--accent); }
+    .conn-pill-label { font-size: 0.7rem; color: var(--muted); }
+
+    .refs { padding: 1.4rem 1.5rem; }
+    .refs ol { padding-left: 1.2rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.4rem; line-height: 1.5; }
+
+    footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; max-width: 860px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: flex-start; }
+    .footer-copy { font-size: 0.8rem; color: var(--muted); }
+    .footer-disclaimer { font-size: 0.75rem; color: var(--muted); opacity: 0.7; max-width: 480px; line-height: 1.5; }
   </style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<nav>
+  <span class="nav-logo">Human Engineering</span>
+  <span class="nav-sep">›</span>
+  <a class="nav-link" href="index.html">Atlas</a>
+  <span class="nav-sep">›</span>
+  <span class="nav-link">Iodine</span>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 02 — Atomic</div>
-    <h1>Iodine</h1>
-    <p class="tagline">Iodine (I⁻, atomic number 53) — 15–20 mg total, ~75% in thyroid. Essential for T3/T4 synthesis via NIS uptake, TPO organification, and thyroglobulin coupling. Deficiency causes goitre, hypothyroidism, and cretinism — the leading preventable cause of intellectual disability.</p>
-    <p class="aliases">Also known as: I, I-, iodide, iodine-127, organically-bound iodine</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 02 — Atomic</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+<section class="hero">
+  <div class="hero-eyebrow">Atlas One · Human · Atomic</div>
+  <h1>Iodine</h1>
+  <p class="hero-tagline">The thyroid element — orchestrating metabolic rate through thyroid hormone synthesis</p>
+  <p class="hero-sub">Z = 53 · Period 5 halogen · trace mineral · daily requirement ~150 µg/day (adult)</p>
+  <div class="alias-pills">
+    <span class="alias-pill">I / I⁻</span>
+    <span class="alias-pill">Iodide</span>
+    <span class="alias-pill">¹²⁷I stable · ¹³¹I radioactive</span>
+    <span class="alias-pill">NIS substrate</span>
+  </div>
+  <div class="stat-row">
+    <div class="stat"><div class="stat-val">53</div><div class="stat-label">Atomic number</div></div>
+    <div class="stat"><div class="stat-val">15–20 mg</div><div class="stat-label">Body content</div></div>
+    <div class="stat"><div class="stat-val">~80%</div><div class="stat-label">Stored in thyroid</div></div>
+    <div class="stat"><div class="stat-val">150 µg/day</div><div class="stat-label">Adult RDA</div></div>
+  </div>
+</section>
+
+<main>
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Atlas One · Atomic · Halogen / Trace Mineral / Thyroid Element</h2>
+      <p>Period 5, Group 17 — only halogen essential in human metabolism</p>
+    </div>
+    <div class="detail-body">
+      <h3>Element Properties</h3>
+      <table class="data-table">
+        <thead><tr><th>Property</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td>Atomic mass</td><td>126.90 Da</td></tr>
+          <tr><td>Oxidation states</td><td>–1 (iodide), 0, +1, +3, +5, +7</td></tr>
+          <tr><td>Biological form</td><td>I⁻ (iodide) in plasma; organified in thyroid</td></tr>
+          <tr><td>Plasma iodide</td><td>~50–100 nmol/L fasting</td></tr>
+          <tr><td>Dietary sources</td><td>Seafood, iodised salt, dairy, eggs, seaweed</td></tr>
+          <tr><td>RDA adults</td><td>150 µg/day; pregnancy 220 µg; lactation 290 µg</td></tr>
+          <tr><td>Absorption site</td><td>Small intestine (~90% of dietary iodine)</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Biological Roles</h2>
+      <p>Thyroid hormone synthesis — from iodide uptake to active hormone secretion</p>
     </div>
+    <div class="detail-body">
+      <h3>Thyroid Hormone Synthesis Pathway</h3>
+      <div class="pathway-block"><pre>
+  Blood I⁻
+      │
+      ▼  NIS (SLC5A5) — 2 Na⁺ : 1 I⁻ symport (basolateral)
+  Follicular cell cytoplasm
+      │
+      ▼  Pendrin (SLC26A4) — apical exit into follicular lumen
+  Follicular lumen
+      │
+      ▼  TPO (thyroid peroxidase) + DUOX2-generated H₂O₂
+  Organification: I⁻ → I⁰ → MIT (monoiodotyrosine)
+                                 → DIT (diiodotyrosine)
+      │
+      ▼  Coupling reaction (TPO)
+  MIT + DIT ────────────────────────► T3 (triiodothyronine)
+  DIT + DIT ────────────────────────► T4 (thyroxine / tetraiodothyronine)
+      │
+      ▼  Stored as thyroglobulin (Tg) colloid
+  Secretion: Tg endocytosis → lysosomal proteolysis → T4/T3 release
+      │
+      ▼  Peripheral deiodination (selenoproteins)
+  T4 ──DIO1/2──► T3 (active; ~80% of circulating T3)
+  T4 ──DIO3────► rT3 (inactive; inactivation)
+  T3 ──DIO3────► T2 (inactive; degradation)
+</pre></div>
+      <p>T4 is the predominant secretory product (~90% of output). DIO2 in liver, kidney, brain, and brown adipose tissue converts T4 → T3. DIO3 inactivates T3 and T4, protecting the fetus from maternal thyroid hormones.</p>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">iodine</div>
-        <h2>Iodine</h2>
-        <p class="summary">Iodine (I⁻, atomic number 53) — 15–20 mg total, ~75% in thyroid. Essential for T3/T4 synthesis via NIS uptake, TPO organification, and thyroglobulin coupling. Deficiency causes goitre, hypothyroidism, and cretinism — the leading preventable cause of intellectual disability.</p>
-      </div>
-      <div class="detail-body">
+      <h3>Wolff-Chaikoff Effect</h3>
+      <p>Acute pharmacological iodide loading transiently inhibits TPO organification ("Wolff-Chaikoff block"), protecting against thyrotoxicosis. Normal thyroid "escapes" within 24–48 h by downregulating NIS expression. Escape failure leads to iodide-induced hypothyroidism in susceptible individuals.</p>
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>iodine</td></tr>
-            <tr><td>Name</td><td>Iodine</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>02-atomic</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="human-body.html" title="15–20 mg total; 70–80% in thyroid as organically bound iodine within thyroglobulin. Essential for thyroid hormone synthesis; dietary requirement 150 µg/day adults, 250 µg/day pregnancy."><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill" href="nervous-system.html" title="Thyroid hormones T3/T4 (iodine-containing) are essential for CNS myelination during fetal and neonatal development; severe deficiency causes cretinism — irreversible cognitive impairment."><span class="rel">modulates</span>Nervous System</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="T3 increases cardiac output, heart rate, myocardial contractility, and O₂ consumption; hypothyroidism causes bradycardia, reduced CO; hyperthyroidism causes tachycardia and AF risk."><span class="rel">modulates</span>Cardiovascular System</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1210/en.2008-1437" target="_blank" rel="noopener noreferrer">Bizhanova A, Kopp P. Minireview: The sodium-iodide symporter NIS and pendrin in iodide homeostasis of the thyroid. Endocrinology. 2009;150(3):1084-90.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19196800/" target="_blank" rel="noopener noreferrer">PubMed 19196800</a></li>
-            <li><a href="https://doi.org/10.1016/S2213-8587(14)70225-6" target="_blank" rel="noopener noreferrer">Zimmermann MB, Boelaert K. Iodine deficiency and thyroid disorders. Lancet Diabetes Endocrinol. 2015;3(4):286-95.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25591468/" target="_blank" rel="noopener noreferrer">PubMed 25591468</a></li>
-          </ul>
-        </div>
-
-      </div>
+      <h3>Thyroid Hormone Actions</h3>
+      <table class="data-table">
+        <thead><tr><th>System</th><th>T3/T4 Effect</th></tr></thead>
+        <tbody>
+          <tr><td>Metabolic rate</td><td>↑ BMR (up-regulation of Na⁺/K⁺-ATPase, uncoupling proteins)</td></tr>
+          <tr><td>Cardiac</td><td>↑ Heart rate, contractility, cardiac output (↑ β1-AR expression)</td></tr>
+          <tr><td>CNS development</td><td>Critical for myelination and synaptogenesis in fetus and neonate</td></tr>
+          <tr><td>Thermogenesis</td><td>↑ UCP1 in brown adipose tissue</td></tr>
+          <tr><td>Growth</td><td>Permissive for GH action; required for normal skeletal maturation</td></tr>
+          <tr><td>Lipid</td><td>↑ LDL receptor expression; ↓ LDL-C (hypothyroidism → hypercholesterolaemia)</td></tr>
+        </tbody>
+      </table>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Absorption &amp; Metabolism</h2>
+      <p>NIS-mediated active accumulation, pendrin apical transport, deiodination recycling</p>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+    <div class="detail-body">
+      <p>Dietary iodide is rapidly absorbed in the proximal small intestine and enters plasma. The thyroid actively concentrates iodide via NIS, achieving a thyroid:plasma ratio of 20–40:1 (up to 100:1 in iodine deficiency). TSH (thyrotropin) upregulates NIS expression through the cAMP/PKA pathway.</p>
+      <table class="data-table">
+        <thead><tr><th>Transporter</th><th>Gene</th><th>Location</th><th>Function</th></tr></thead>
+        <tbody>
+          <tr><td>NIS</td><td>SLC5A5</td><td>Thyrocyte basolateral</td><td>2Na⁺:1I⁻ symport; TSH-induced</td></tr>
+          <tr><td>Pendrin</td><td>SLC26A4</td><td>Thyrocyte apical</td><td>I⁻/Cl⁻ exchanger into follicular lumen</td></tr>
+          <tr><td>DUOX2</td><td>DUOX2</td><td>Apical membrane</td><td>H₂O₂ generation for TPO organification</td></tr>
+          <tr><td>TPO</td><td>TPO</td><td>Apical surface/lumen</td><td>Oxidises I⁻, iodination of Tg tyrosine residues, coupling</td></tr>
+          <tr><td>DIO1</td><td>DIO1</td><td>Liver, kidney, thyroid</td><td>T4 → T3 (outer ring); also T3 inner ring inactivation</td></tr>
+          <tr><td>DIO2</td><td>DIO2</td><td>Brain, BAT, pituitary</td><td>T4 → T3 exclusively (outer ring 5′-deiodination)</td></tr>
+          <tr><td>DIO3</td><td>DIO3</td><td>Placenta, brain, skin</td><td>Inactivation: T4 → rT3; T3 → T2</td></tr>
+        </tbody>
+      </table>
+      <p>~30–40 µg iodide is recycled daily from thyroid hormone deiodination by DIOs. Renal excretion accounts for &gt;90% of iodide excretion; urinary iodine concentration (UIC) is the standard epidemiological biomarker (median UIC &lt;100 µg/L indicates deficiency).</p>
+    </div>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Deficiency &amp; Toxicity</h2>
+      <p>Iodine deficiency is the world's leading preventable cause of intellectual disability</p>
+    </div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Status</th><th>UIC (µg/L)</th><th>Signs</th><th>Treatment</th></tr></thead>
+        <tbody>
+          <tr><td>Severe deficiency</td><td>&lt;20</td><td>Cretinism (neurological: deaf-mutism, spasticity; myxoedematous: profound hypothyroidism, stunted growth); goitre</td><td>Iodine supplementation; iodised salt programs</td></tr>
+          <tr><td>Moderate deficiency</td><td>20–49</td><td>Endemic goitre; subclinical hypothyroidism; impaired cognition in children</td><td>Iodine supplementation</td></tr>
+          <tr><td>Mild deficiency</td><td>50–99</td><td>Simple diffuse goitre; possible subtle cognitive effects</td><td>Dietary improvement; iodised salt</td></tr>
+          <tr><td>Sufficient</td><td>100–199</td><td>Normal thyroid function</td><td>—</td></tr>
+          <tr><td>Excess (acute)</td><td>&gt;300</td><td>Wolff-Chaikoff hypothyroidism; iodide goitre; thyroiditis (rare)</td><td>Withdraw excess iodine</td></tr>
+          <tr><td>Excess (chronic)</td><td>&gt;500</td><td>Iodine-induced hyperthyroidism (Jod-Basedow, esp. in multinodular goitre); autoimmune thyroiditis</td><td>Anti-thyroid drugs if hyperthyroid</td></tr>
+        </tbody>
+      </table>
+      <p>Congenital hypothyroidism affects ~1:3000–4000 neonates globally; neonatal screening programs (TSH + T4 heel-prick) allow early levothyroxine treatment, preventing cognitive damage if initiated within 2 weeks of birth.</p>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header">
+      <h2>Clinical Use</h2>
+      <p>Radioiodine therapy, potassium iodide prophylaxis, imaging, iodinated contrast</p>
+    </div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Application</th><th>Form / Dose</th><th>Mechanism</th></tr></thead>
+        <tbody>
+          <tr><td>¹³¹I ablation — Graves disease</td><td>³¹I sodium iodide, 5–15 mCi</td><td>β-emission destroys thyroid follicular cells; NIS concentrates ¹³¹I selectively in thyroid</td></tr>
+          <tr><td>¹³¹I ablation — differentiated thyroid cancer</td><td>100–200 mCi post-thyroidectomy</td><td>Ablates remnant thyroid tissue and RAI-avid metastases; monitored by serum Tg</td></tr>
+          <tr><td>KI nuclear prophylaxis</td><td>130 mg KI single dose</td><td>Saturates NIS, blocking thyroidal uptake of radioactive ¹³¹I from nuclear fallout</td></tr>
+          <tr><td>Lugol iodine pre-thyroidectomy</td><td>5% I₂ + 10% KI, 3–5 drops tid × 10 days</td><td>Plummer effect: ↓ thyroid vascularity and ↓ T3/T4 synthesis before surgery</td></tr>
+          <tr><td>Iodinated contrast (CT/angio)</td><td>Iohexol, iopamidol (300–400 mgI/mL)</td><td>High electron density; X-ray contrast. Risk: contrast-induced AKI; rare thyroid dysfunction</td></tr>
+          <tr><td>Amiodarone</td><td>37% iodine by weight; 200 mg/day</td><td>Causes iodine load (~75× RDA/day); inhibits DIO1/2; blocks β/α receptors. Both hypo- and hyperthyroidism occur</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2><p>Related atlas entries</p></div>
+    <div class="connections">
+      <a class="conn-pill" href="selenium.html"><span>Selenium</span><span class="conn-pill-label">DIO1/2/3 selenoproteins</span></a>
+      <a class="conn-pill" href="sodium.html"><span>Sodium</span><span class="conn-pill-label">NIS 2Na⁺:1I⁻ cotransport</span></a>
+      <a class="conn-pill" href="oxygen.html"><span>Oxygen</span><span class="conn-pill-label">DUOX2 H₂O₂ generation</span></a>
+      <a class="conn-pill" href="hydrogen.html"><span>Hydrogen</span><span class="conn-pill-label">H₂O₂ / TPO cofactor</span></a>
+      <a class="conn-pill" href="thyroid-hormones.html"><span>Thyroid Hormones</span><span class="conn-pill-label">T3/T4 product</span></a>
+    </div>
+  </div>
+
+  <div class="detail-card refs">
+    <div class="detail-header"><h2>References</h2></div>
+    <ol>
+      <li>Zimmermann MB. "Iodine deficiency." <em>Endocr Rev</em> 2009;30:376–408.</li>
+      <li>Bizhanova A, Kopp P. "Minireview: The sodium-iodide symporter NIS and pendrin in iodide homeostasis of the thyroid." <em>Endocrinology</em> 2009;150:1084–1090.</li>
+      <li>Gereben B, et al. "Cellular and molecular basis of deiodinase-regulated thyroid hormone signaling." <em>Endocr Rev</em> 2008;29:898–938.</li>
+      <li>Larsen PR, et al. "Thyroid physiology and diagnostic evaluation of patients with thyroid disorders." In: <em>Williams Textbook of Endocrinology</em>, 14th ed., 2020.</li>
+      <li>WHO. <em>Assessment of Iodine Deficiency Disorders and Monitoring Their Elimination</em>. 3rd ed. Geneva: WHO, 2007.</li>
+    </ol>
+  </div>
+</main>
+
+<footer>
+  <div>
+    <p class="footer-copy">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
+  </div>
+  <p class="footer-disclaimer">This page is co-maintained by AI (Claude, Anthropic) and human editors as part of the open Human Engineering Atlas project. Content is for educational purposes; verify clinical information with qualified sources before application.</p>
+</footer>
+
 </body>
 </html>

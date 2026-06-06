@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="30.4 kDa glycoprotein from renal peritubular cells (~90%) regulated by HIF-2α. Drives erythropoiesis via JAK2/STAT5 on BFU-E/CFU-E progenitors. rHuEPO treats CK">
-  <meta property="og:title" content="Erythropoietin — Human Engineering">
+  <meta name="description" content="Erythropoietin (EPO) — HIF-2α oxygen sensing, JAK2/STAT5 signalling, erythropoiesis, CKD anaemia, polycythaemia vera, darbepoetin. Part of the Human Engineering molecular atlas.">
+  <meta property="og:title" content="Erythropoietin — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Erythropoietin — Human Engineering</title>
+  <title>Erythropoietin — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #dc2626;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,44 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #7f1d1d); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .principle-box { background: rgba(220,38,38,0.06); border: 1px solid rgba(220,38,38,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +92,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,61 +104,161 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
     <h1>Erythropoietin</h1>
-    <p class="tagline">30.4 kDa glycoprotein from renal peritubular cells (~90%) regulated by HIF-2α. Drives erythropoiesis via JAK2/STAT5 on BFU-E/CFU-E progenitors. rHuEPO treats CKD anaemia; high Hb targets increase thrombotic risk.</p>
-    <p class="aliases">Also known as: EPO, erythropoetin, haematopoietic growth factor, recombinant EPO, rHuEPO</p>
+    <p class="tagline">The principal haematopoietic growth hormone — a 30.4 kDa glycoprotein from renal peritubular cells regulated by HIF-2&alpha;, driving erythropoiesis via JAK2/STAT5 signalling to save CFU-E progenitors from apoptosis.</p>
+    <p class="subtagline">EPO discovery transformed anaemia management: normal serum EPO is 5–30 mU/mL; in severe anaemia it rises &gt;1,000-fold. Recombinant human EPO (rHuEPO), approved 1989, treats CKD anaemia — but the CHOIR and TREAT trials showed that targeting haemoglobin &gt;13 g/dL increases thrombotic risk, reshaping clinical targets to ~10–11 g/dL.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">165 aa</span><span class="stat-label">Mature protein</span></div>
+      <div class="stat"><span class="stat-num">30.4 kDa</span><span class="stat-label">Molecular weight</span></div>
+      <div class="stat"><span class="stat-num">P01588</span><span class="stat-label">UniProt ID</span></div>
+      <div class="stat"><span class="stat-num">~8 h</span><span class="stat-label">Plasma half-life (epoetin)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">erythropoietin</div>
-        <h2>Erythropoietin</h2>
-        <p class="summary">30.4 kDa glycoprotein from renal peritubular cells (~90%) regulated by HIF-2α. Drives erythropoiesis via JAK2/STAT5 on BFU-E/CFU-E progenitors. rHuEPO treats CKD anaemia; high Hb targets increase thrombotic risk.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Cytokine / Haematopoietic Growth Factor</div>
+        <h2>Erythropoietin (EPO)</h2>
+        <div class="drug-class">Class: Glycoprotein cytokine &nbsp;&middot;&nbsp; Class I cytokine &nbsp;&middot;&nbsp; Haematopoietic growth factor &nbsp;|&nbsp; Gene: EPO (chr 7q22.1) &nbsp;|&nbsp; UniProt: P01588 &nbsp;|&nbsp; Produced by: Renal peritubular fibroblast-like cells (~90%); liver hepatocytes (~10%)</div>
+        <p class="summary">Erythropoietin is the master hormone governing red blood cell production. Secreted from renal peritubular interstitial cells under HIF-2&alpha;-driven transcriptional control when tissue oxygen tension falls, EPO binds the preformed EPOR homodimer on erythroid progenitors (BFU-E, CFU-E) in the bone marrow, triggering JAK2/STAT5 signalling that suppresses BIM-mediated progenitor apoptosis and induces haemoglobin synthesis genes. Without EPO, CFU-E progenitors die within 12–24 hours; with EPO, they survive, proliferate, and differentiate into reticulocytes and ultimately circulating red blood cells within 3–7 days. CKD progressively destroys the peritubular EPO-producing cells, causing normochromic normocytic anaemia that is the most common indication for erythropoiesis-stimulating agents (ESAs) worldwide.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">EPO</span>
+          <span class="alias-pill">rHuEPO</span>
+          <span class="alias-pill">erythropoetin</span>
+          <span class="alias-pill">darbepoetin alfa</span>
+          <span class="alias-pill">CERA</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Structure</h3>
+          <p>EPO is a <strong>165-amino acid glycoprotein</strong> with the canonical class I cytokine fold: four antiparallel &alpha;-helices (A–D) in a left-handed bundle. Its protein core is only 18.4 kDa; glycosylation (N-linked at Asn24, Asn38, Asn83; O-linked at Ser126) accounts for ~12 kDa of the total 30.4 kDa. The carbohydrate chains are <strong>essential for in vivo bioactivity</strong>: sialic acid residues prevent rapid hepatic asialoglycoprotein receptor-mediated clearance; desialylated EPO is fully active in vitro but cleared in minutes in vivo. Two disulfide bonds (Cys7–Cys161; Cys29–Cys33) stabilise the structure; Cys7–Cys161 is essential for EPOR binding.</p>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>erythropoietin</td></tr>
-            <tr><td>Name</td><td>Erythropoietin</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
+            <tr><th>Engineered EPO variant</th><th>Modification</th><th>Half-life</th><th>Dosing</th></tr>
+            <tr><td>Epoetin alfa/beta (&alpha;/&beta;)</td><td>Identical to natural EPO</td><td>~8 h IV; ~24 h SC</td><td>3&times;/week or weekly SC</td></tr>
+            <tr><td>Darbepoetin alfa (Aranesp)</td><td>2 additional N-glycosylation sites (Asn30, Asn88) → 5 N-chains vs. 3</td><td>~24 h IV; ~48 h SC</td><td>Weekly or bi-weekly SC</td></tr>
+            <tr><td>CERA (methoxy-PEG-epoetin beta, Mircera)</td><td>Large PEG polymer (30 kDa) attached to Lys45 or Lys52</td><td>~130 h SC</td><td>Once-monthly SC</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>EPOR (EPO receptor):</strong> A preformed homodimer on erythroid progenitors; single transmembrane domain; class I cytokine receptor; ~1,000 receptor sites/cell on CFU-E (highest expression of any erythroid progenitor stage). JAK2 kinase is constitutively associated with the cytoplasmic Box1/Box2 motifs; EPO binding induces a conformational tightening of the dimer that repositions JAK2 molecules for transphosphorylation.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism — HIF-2&alpha; Oxygen Sensing and JAK2/STAT5 Signalling</h3>
+          <div class="pathway-block">
+<pre>
+  OXYGEN SENSING (kidney peritubular cells):
+
+  NORMOXIA:
+    HIF-2α synthesised but → PHD1/2/3 (prolyl hydroxylases)
+    [require O₂ + Fe²⁺ + 2-OG as cofactors]
+    → Hydroxylate HIF-2α at Pro405, Pro531
+    → VHL E3 ubiquitin ligase recognises OH-HIF-2α
+    → Ubiquitylation → proteasomal degradation
+    → HIF-2α t½ < 5 minutes; EPO gene OFF
+
+  HYPOXIA:
+    ↓O₂ → PHD activity falls (O₂ is co-substrate)
+    → HIF-2α accumulates → dimerises with ARNT (HIF-1β)
+    → binds HRE at -14 kb downstream of EPO gene
+    → EPO transcription ↑ up to 1,000-fold
+    → EPO secreted → bloodstream
+
+  PHD INHIBITORS (clinical): roxadustat, daprodustat, molidustat
+    → mimic hypoxia by blocking PHD → ↑EPO even in CKD
+    → oral bioavailability; activate wider HIF-1α/2α targets
+
+  EPO RECEPTOR SIGNALLING (bone marrow erythroid progenitors):
+
+  EPO + EPOR homodimer → conformational change
+       │
+       ▼  JAK2 transphosphorylation (Tyr1007/Tyr1008)
+       │
+       ├──► STAT5a/b (primary): phospho-Tyr STAT5 dimer → nucleus
+       │      → ↑Bcl-xL (ANTI-APOPTOTIC; KEY SURVIVAL EFFECT)
+       │      → ↑Bcl-2
+       │      → ↑PIM-1 (serine kinase; cell survival + proliferation)
+       │      → ↑SOCS3 (negative feedback: binds JAK2, terminates signal)
+       │
+       ├──► PI3K/Akt (via IRS-2): → ↑GLUT1, ↑cell cycle
+       │
+       └──► MAPK/ERK1/2 (via Grb2-SOS-Ras): → cell proliferation
+              → ↑ALAS2 (rate-limiting for haem synthesis)
+              → ↑transferrin receptor (↑iron uptake)
+</pre>
+          </div>
+          <h4>Erythropoiesis cascade — EPO's precise stage of action</h4>
+          <p>EPO acts primarily at the <strong>CFU-E stage</strong> (committed erythroid progenitors with ~1,000 EPOR/cell). Without EPO, CFU-E undergo BIM-mediated apoptosis within 12–24 h. With EPO → STAT5 → Bcl-xL → CFU-E survival → proerythroblast → basophilic erythroblast → polychromatophilic → orthochromatic erythroblast → reticulocyte (enucleation) → circulating RBC (120-day lifespan). Reticulocytosis is measurable in 3–5 days; full RBC mass effect takes 2–3 weeks. EPO also acts at BFU-E but with lower EPOR density and therefore requires higher EPO concentrations.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Roles</h3>
+          <p><strong>Primary: Erythropoiesis regulation.</strong> EPO is the sole survival factor for CFU-E progenitors; without it, erythropoiesis ceases within days. EPO tightly couples red cell production to tissue O₂ delivery through the HIF-PHD-VHL oxygen-sensing feedback loop — one of the most elegantly characterised homeostatic systems in physiology (Semenza, Ratcliffe, Kaelin shared the 2019 Nobel Prize in Physiology or Medicine for elucidating the HIF pathway).</p>
+          <p><strong>Secondary: Non-haematopoietic cytoprotection.</strong> EPO receptors (as EPOR/&beta;cR heterodimers) are expressed in brain, heart, and vascular endothelium. Neuroprotective and cardioprotective effects have been demonstrated in ischaemia models. However, clinical trials of high-dose EPO in stroke, traumatic brain injury, and cardiac surgery have not shown benefit and some have shown harm — possibly from thrombotic effects at high doses. Non-haematopoietic EPO effects remain controversial in clinical translation.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>Mechanism</th><th>Clinical features</th></tr>
+            <tr><td><strong>CKD anaemia</strong></td><td>Progressive loss of peritubular EPO-producing interstitial fibroblast-like cells (replaced by fibrous tissue) → ↓EPO → normochromic normocytic anaemia; surviving cells show attenuated HIF-2&alpha; response even to severe hypoxia</td><td>Fatigue, exertional dyspnoea, ↓quality of life; treated with ESAs (epoetin alfa/beta, darbepoetin, CERA) or PHD inhibitors (roxadustat, daprodustat); target Hb ~10–11 g/dL (KDIGO 2012); iron supplementation essential (functional iron deficiency common)</td></tr>
+            <tr><td><strong>Pure red cell aplasia (PRCA)</strong></td><td>Anti-EPO neutralising antibodies (particularly with subcutaneous epoetin alfa + polysorbate-80 formulation [Eprex] → route-specific immunogenicity) → complete elimination of endogenous EPO activity → reticulocyte count falls to near zero</td><td>Sudden severe anaemia in ESA-treated CKD patients; diagnose with anti-EPO antibody assay + reticulocyte count; switch to darbepoetin (partial cross-reactivity) or CERA; IV (not SC) formulation; some require immunosuppression (steroids, cyclosporine)</td></tr>
+            <tr><td><strong>Polycythaemia vera (PV)</strong></td><td>JAK2 V617F mutation (~97% of PV) or JAK2 exon 12 mutation → constitutive JAK2/STAT5 activation → EPO-independent erythroid proliferation (with concomitant thrombocytosis and leukocytosis)</td><td>Serum EPO ↓↓ (suppressed by ↑RBC mass); ↑haematocrit, ↑Hb, ↑Hct &gt;49% (M) / &gt;48% (F); aquagenic pruritus, splenomegaly; thrombosis (DVT, stroke, Budd-Chiari) and bleeding; treat with phlebotomy, aspirin, hydroxyurea, ruxolitinib (JAK2 inhibitor)</td></tr>
+            <tr><td><strong>Secondary polycythaemia</strong></td><td>Appropriate: high altitude, COPD, sleep apnoea → ↑EPO; Inappropriate: VHL mutation (Chuvash polycythaemia — recessive VHL R200W → VHL fails to degrade HIF → constitutive EPO), EPO-secreting tumours (RCC, hepatocellular carcinoma, cerebellar haemangioblastoma)</td><td>↑Hb/Hct with ↑ or inappropriately normal EPO; contrast with PV (↓EPO); evaluate for underlying cause: check O₂ saturation, renal imaging, sleep study, VHL gene</td></tr>
+            <tr><td><strong>EPO doping</strong></td><td>Exogenous rHuEPO → ↑RBC mass → ↑VO₂max 3–5% → endurance performance advantage</td><td>WADA-prohibited; detected by isoelectric focusing (recombinant EPO has distinct sialylation pattern vs. endogenous), Athlete Biological Passport (longitudinal Hb/reticulocyte monitoring); risk of fatal thrombosis at extreme haematocrit</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="erythrocyte.html" title="EPO binds EPOR homodimer on BFU-E/CFU-E progenitors → JAK2/STAT5 → ↓apoptosis (↑Bcl-xL) + ↑haemoglobin synthesis; drives the entire erythropoiesis programme; ↑EPO → ↑RBC production within 3–7 days."><span class="rel">modulates</span>Erythrocyte</a>
-            <a class="conn-pill" href="bone-marrow.html" title="EPO acts on erythroid progenitor pool (BFU-E, CFU-E) in bone marrow, expanding erythroid islands around macrophage nurse cells that supply transferrin, ferritin, and survival signals to EPO-stimulated progenitors."><span class="rel">modulates</span>Bone Marrow</a>
-            <a class="conn-pill" href="kidney.html" title="Peritubular interstitial fibroblast-like cells in renal cortex/outer medulla produce ~90% of EPO; HIF-2α is the primary transcription factor; loss of these cells in CKD is the primary cause of CKD-related anaemia."><span class="rel">expresses</span>Kidney</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="EPO raises RBC mass (↑O₂-carrying capacity) → ↑viscosity, ↑haematocrit; rHuEPO at Hb targets &gt;12 g/dL increases thrombotic events (DVT, stroke, MI) via haemoconcentration and possible direct platelet activation."><span class="rel">modulates</span>Cardiovascular System</a>
+          <h3>Pharmacology / Clinical Use</h3>
+          <p><strong>Erythropoiesis-stimulating agents (ESAs):</strong> First-line for CKD-related anaemia not explained by iron deficiency, after adequate iron supplementation. Target Hb 10–11 g/dL for most patients; avoid &gt;13 g/dL (CHOIR trial: Hb 13.5 vs. 11.3 g/dL → ↑cardiovascular events + death; TREAT trial: darbepoetin targeting Hb 13 g/dL in T2DM-CKD → ↑stroke risk). ESAs also used for chemotherapy-induced anaemia (with iron) and pre-operative autologous blood donation.</p>
+          <p><strong>PHD inhibitors (roxadustat, daprodustat, molidustat):</strong> Oral HIF-PHD inhibitors approved for CKD anaemia in Japan, China, Europe, and some markets. Activate endogenous EPO gene transcription by stabilising HIF-2&alpha;; also have HIF-1&alpha;-mediated effects (↑VEGF, ↑iron absorption via hepcidin suppression, ↑duodenal ferroportin, ↑DMT1). Long-term cardiovascular safety data are accumulating; not yet approved in the US for non-dialysis CKD (FDA issued a refuse-to-file for cardiovascular safety concerns in 2023 for roxadustat).</p>
+          <div class="principle-box">
+            <p><strong>Clinical pearl — iron deficiency in ESA-treated patients:</strong> Adequate iron stores are essential for ESA response. Functional iron deficiency (transferrin saturation &lt;20%, even with normal ferritin) is common in CKD anaemia on ESAs because erythropoiesis outstrips iron delivery from stores. IV iron (ferric carboxymaltose, iron sucrose, ferumoxytol) is superior to oral iron in dialysis-dependent CKD; targets: ferritin 200–500 ng/mL and TSAT &ge;20% before ESA dose escalation. IV iron alone may raise Hb 1–2 g/dL without ESA.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Produced by</span>
+              Renal peritubular cells (HIF-2&alpha;)
+            </a>
+            <a href="hemoglobin.html" class="conn-pill">
+              <span class="rel">Drives synthesis of</span>
+              Haemoglobin (via ALAS2, globin genes)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Acts on</span>
+              BFU-E/CFU-E (EPOR/JAK2/STAT5)
+            </a>
+            <a href="ampk.html" class="conn-pill">
+              <span class="rel">Pathway link</span>
+              HIF pathway (PHD–VHL–HIF-2&alpha;)
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill">
+              <span class="rel">Modulates (risk)</span>
+              Cardiovascular System (high targets → thrombosis)
+            </a>
+            <a href="insulin.html" class="conn-pill">
+              <span class="rel">JAK2 pathway</span>
+              JAK-STAT signalling (shared architecture with insulin)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019.</li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021.</li>
+            <li>Semenza GL. Oxygen sensing, homeostasis, and disease. <em>N Engl J Med.</em> 2011;365(6):537-47. <a href="https://doi.org/10.1056/NEJMra1011165">doi:10.1056/NEJMra1011165</a></li>
+            <li>Singh AK, et al. (CHOIR trial). Correction of anemia with epoetin alfa in chronic kidney disease. <em>N Engl J Med.</em> 2006;355(20):2085-98. <a href="https://doi.org/10.1056/NEJMoa065485">doi:10.1056/NEJMoa065485</a></li>
+            <li>Pfeffer MA, et al. (TREAT trial). A trial of darbepoetin alfa in type 2 diabetes and chronic kidney disease. <em>N Engl J Med.</em> 2009;361(21):2019-32. <a href="https://doi.org/10.1056/NEJMoa0907845">doi:10.1056/NEJMoa0907845</a></li>
           </ul>
         </div>
 
@@ -182,14 +267,18 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="hemoglobin.html">Hemoglobin</a>
+      <a href="insulin.html">Insulin</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta" style="margin-top:0.5rem;">&copy; <span id="year"></span> Bhim Upadhyaya</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

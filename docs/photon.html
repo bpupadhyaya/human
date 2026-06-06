@@ -3,93 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Quantum of electromagnetic radiation. UV photons (200–400 nm) cause pyrimidine dimers in DNA; ionizing γ/X-ray photons generate double-strand breaks via free ra">
-  <meta property="og:title" content="Photon — Human Engineering">
+  <meta name="description" content="Photon — electromagnetic radiation quantum. Vision, retinal photoisomerisation, vitamin D synthesis, circadian rhythm, melanopsin, UV DNA damage, photobiomodulation, UV carcinogenesis. Part of the Human Engineering project.">
+  <meta property="og:title" content="Photon — Atomic/Subatomic Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Photon — Human Engineering</title>
+  <title>Photon — Atomic/Subatomic Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #374151;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(55,65,81,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #374151, #111827); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .principle-box { background: rgba(55,65,81,0.06); border: 1px solid rgba(55,65,81,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '\2197'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,6 +104,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,59 +116,212 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 01 — Subatomic</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Atomic/Subatomic</div>
     <h1>Photon</h1>
-    <p class="tagline">Quantum of electromagnetic radiation. UV photons (200–400 nm) cause pyrimidine dimers in DNA; ionizing γ/X-ray photons generate double-strand breaks via free radicals. Visible photons (400–700 nm) drive retinal photoisomerization, circadian signalling.</p>
-    <p class="aliases">Also known as: γ-ray, X-ray, UV photon, visible light, electromagnetic quantum, hν</p>
+    <p class="tagline">The quantum of electromagnetic radiation &mdash; massless, travelling at c, carrying energy E = h&#x03BD;. The particle that allows humans to see, synthesise vitamin D, entrain circadian rhythms, and that simultaneously damages DNA and drives carcinogenesis when its energy exceeds ~3.1 eV (UV).</p>
+    <p class="subtagline">Photons interact with matter in discrete quanta. In biology their energy ranges from harmless infrared (thermal) through visible (vision, circadian) to UVB (vitamin D, DNA damage) and UVC/ionising (carcinogenic, therapeutic). Each biological photon interaction &mdash; absorbing a quantum to excite an electron &mdash; illustrates that biology is fundamentally grounded in quantum physics.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 01 — Subatomic</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">0</span><span class="stat-label">Rest mass</span></div>
+      <div class="stat"><span class="stat-num">E = h&#x03BD;</span><span class="stat-label">Energy (Planck)</span></div>
+      <div class="stat"><span class="stat-num">c = 3&#xD7;10&#x2078; m/s</span><span class="stat-label">Propagation speed (vacuum)</span></div>
+      <div class="stat"><span class="stat-num">400&ndash;700 nm</span><span class="stat-label">Visible spectrum (biology-relevant)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">photon</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Atomic/Subatomic &middot; Boson / Force Carrier (electromagnetic)</div>
         <h2>Photon</h2>
-        <p class="summary">Quantum of electromagnetic radiation. UV photons (200–400 nm) cause pyrimidine dimers in DNA; ionizing γ/X-ray photons generate double-strand breaks via free radicals. Visible photons (400–700 nm) drive retinal photoisomerization, circadian signalling.</p>
+        <div class="drug-class">Symbol: &#x3B3; &nbsp;&middot;&nbsp; Charge: 0 &nbsp;&middot;&nbsp; Mass: 0 &nbsp;&middot;&nbsp; Spin: 1 (boson) &nbsp;|&nbsp; Biologically relevant as: phototransduction trigger, vitamin D precursor activator, circadian zeitgeber, UV mutagen, therapeutic radiation</div>
+        <p class="summary">The photon is the force carrier of electromagnetism and the quantum of light. Its energy E = h&#x03BD; (Planck constant &times; frequency) determines its biological effects: visible photons (&sim;1.8&ndash;3.1 eV) excite the conjugated pi-electron system of retinal, initiating vision and entraining circadian biology via melanopsin-containing intrinsically photosensitive retinal ganglion cells (ipRGCs). UVB photons (3.1&ndash;4.4 eV, 290&ndash;315 nm) are absorbed by 7-dehydrocholesterol in skin, cleaving the B-ring to begin vitamin D&#x2083; synthesis. UV photons above ~3.3 eV cause direct DNA damage through formation of cyclobutane pyrimidine dimers (CPDs) and 6-4 photoproducts (6-4PPs) &mdash; the molecular initiating events of UV-induced carcinogenesis. At longer wavelengths, red and near-infrared photons stimulate mitochondrial cytochrome c oxidase (photobiomodulation), with emerging clinical applications.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">gamma (&#x3B3;)</span>
+          <span class="alias-pill">light quantum</span>
+          <span class="alias-pill">UV radiation</span>
+          <span class="alias-pill">visible light</span>
+          <span class="alias-pill">infrared</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Structure &mdash; E = h&#x03BD; and the Biologically Relevant Spectrum</h3>
+          <p>The photon carries energy quantised by E = h&#x03BD; = hc/&#x03BB;, where h is Planck's constant (6.626 &times; 10&#x207B;&#xB3;&#x34; J&middot;s), &#x03BD; is frequency, c is the speed of light, and &#x03BB; is wavelength. A photon has no rest mass and travels at c. Its interaction with matter is entirely through absorption (electron excitation), emission, or scattering.</p>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>photon</td></tr>
-            <tr><td>Name</td><td>Photon</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>01-subatomic</td></tr>
+            <tr><th>Radiation type</th><th>Wavelength</th><th>Energy per photon</th><th>Primary biological interaction</th></tr>
+            <tr><td>Infrared (near, NIR)</td><td>700&ndash;1100 nm</td><td>1.1&ndash;1.8 eV</td><td>Mitochondrial Complex IV absorption (photobiomodulation); tissue heating</td></tr>
+            <tr><td>Visible (red)</td><td>620&ndash;700 nm</td><td>1.8&ndash;2.0 eV</td><td>Rhodopsin activation (low-sensitivity); phytochrome in dietary plants</td></tr>
+            <tr><td>Visible (green/peak)</td><td>495&ndash;570 nm</td><td>2.2&ndash;2.5 eV</td><td>Cone photoreceptors (peak sensitivity ~555 nm); circadian melanopsin peak ~480 nm (blue)</td></tr>
+            <tr><td>Visible (blue/violet)</td><td>400&ndash;495 nm</td><td>2.5&ndash;3.1 eV</td><td>Melanopsin/ipRGC circadian entrainment; retinal damage at high intensity (blue light hazard)</td></tr>
+            <tr><td>UVA</td><td>315&ndash;400 nm</td><td>3.1&ndash;3.9 eV</td><td>Indirect DNA damage (via ROS); tanning (melanin oxidation); penetrates dermis</td></tr>
+            <tr><td>UVB</td><td>290&ndash;315 nm</td><td>3.9&ndash;4.3 eV</td><td>7-DHC photolysis --> vitamin D3; direct CPD/6-4PP DNA damage; sunburn (erythema); most carcinogenic band</td></tr>
+            <tr><td>UVC</td><td>100&ndash;290 nm</td><td>4.3&ndash;12.4 eV</td><td>Blocked by ozone layer; potent DNA damage (254 nm peak CPD formation); germicidal lamps</td></tr>
+            <tr><td>X-rays / Gamma</td><td>&lt;10 nm</td><td>&gt;124 eV</td><td>Ionising radiation; double-strand DNA breaks; diagnostic imaging; radiotherapy</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
+          <h3>Biological Roles &mdash; Vision and Retinal Photoisomerisation</h3>
+          <p>Vision is the most evolutionarily ancient and precisely characterised biological photon detector. In rod photoreceptors, the chromophore 11-<em>cis</em>-retinal is covalently bound (Schiff base) to lysine-296 of opsin (rhodopsin). Absorption of a single visible photon causes ultrafast (200 femtosecond) isomerisation of the C11=C12 double bond from 11-<em>cis</em> to all-<em>trans</em>-retinal.</p>
+
+          <div class="pathway-block">
+<pre>
+RETINAL PHOTOTRANSDUCTION (rod cell)
+
+  Single photon (500 nm, ~2.5 eV)
+       |
+       v
+  11-cis-retinal (in rhodopsin, Lys296 Schiff base)
+       |  [200 femtoseconds, quantum efficiency ~0.67]
+       v
+  all-trans-retinal --> rhodopsin --> metarhodopsin II (R*)
+       |
+       v
+  Transducin (Gt, heterotrimeric G protein) activates:
+  Gt-alpha dissociates --> GTP bound --> activates PDE6
+       |
+       v
+  Phosphodiesterase 6 (PDE6) hydrolyses cGMP
+       |
+       v
+  cGMP falls --> cyclic nucleotide-gated (CNG) channels close
+       |
+       v
+  K+/Na+ influx stops --> membrane hyperpolarises
+  (dark current was depolarising; light --> hyperpolarisation is unusual)
+       |
+       v
+  Reduced glutamate release at ribbon synapse
+  --> ON bipolar cells depolarise / OFF bipolar cells hyperpolarise
+  --> retinal processing --> optic nerve --> LGN --> V1
+
+RECOVERY:
+  Rhodopsin kinase (GRK1) phosphorylates R*
+  --> arrestin binds --> quenches signalling
+  Retinal reisomerised by RPE65 (retinal pigment epithelium)
+  cGMP restored by guanylate cyclase (GCAP-regulated)
+</pre>
+          </div>
+
+          <h4>Cone Photoreceptors and Colour Vision</h4>
+          <p>Three cone opsin types (L-cone ~560 nm, M-cone ~530 nm, S-cone ~420 nm) share the same phototransduction cascade but differ in the protein environment around the retinal Schiff base, shifting the absorption spectrum via electrostatic interactions that alter the energy gap of the retinal chromophore. Colour vision emerges from comparison of cone outputs &mdash; a biological spectrophotometer built on quantum optics.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Biological Roles &mdash; Circadian Rhythm and Melanopsin/ipRGC</h3>
+          <p>The master circadian clock resides in the suprachiasmatic nucleus (SCN) of the hypothalamus. It is entrained to the external light-dark cycle by a non-image-forming photoreceptive system: <strong>intrinsically photosensitive retinal ganglion cells (ipRGCs)</strong> expressing the photopigment <strong>melanopsin (OPN4)</strong>, with peak sensitivity ~480 nm (blue light).</p>
+          <p>The melanopsin/ipRGC-to-SCN pathway (the retinohypothalamic tract) signals dawn/dusk &mdash; phase-shifting the circadian pacemaker by modulating CLOCK/BMAL1 transcription-translation feedback loops. ipRGCs also project to the olivary pretectal nucleus (pupillary light reflex) and the intergeniculate leaflet. Melanopsin is a Gq-coupled opsin activating a phospholipase C pathway rather than the Gt/cGMP cascade of rods/cones, making ipRGCs intrinsically light-sensitive even without rod/cone input.</p>
+
+          <div class="principle-box">
+            <p><strong>Clinical implications of circadian photon deprivation:</strong> Blue-light blocking by modern indoor lighting, screen use after dark, and shift work suppress melanopsin-driven SCN entrainment. This disrupts cortisol and melatonin rhythms, impairs sleep quality, and is epidemiologically associated with increased risk of metabolic syndrome, breast cancer, cardiovascular disease, and mood disorders. <strong>Evening blue-light exposure (&lt;500 nm) as little as 1 hour before sleep suppresses melatonin onset by 90 minutes</strong> in controlled studies.</p>
+          </div>
+
+          <h4>Skin Vitamin D Synthesis</h4>
+          <p>UVB photons (290&ndash;315 nm) penetrating the epidermis are absorbed by <strong>7-dehydrocholesterol (7-DHC, provitamin D&#x2083;)</strong> in keratinocytes and dermal fibroblasts. The photon energy cleaves the B-ring of the sterol via a 6-electron ring-opening electrocyclic reaction to produce pre-vitamin D&#x2083;, which thermally isomerises (non-photochemically) to vitamin D&#x2083; (cholecalciferol). Vitamin D&#x2083; undergoes 25-hydroxylation in the liver (CYP2R1/CYP27A1) and then 1alpha-hydroxylation in the kidney (CYP27B1) to produce the active hormone 1,25-(OH)&#x2082;D&#x2083; (calcitriol), which acts on VDR (vitamin D receptor, a nuclear receptor) to regulate &gt;1000 genes including calcium absorption (TRPV6, calbindin), immune modulation, and cell differentiation. Latitudes above ~35&#xB0;N have insufficient UVB in winter months to sustain synthesis.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Biological Roles &mdash; Photobiomodulation</h3>
+          <p><strong>Photobiomodulation (PBM)</strong> refers to the therapeutic application of red and near-infrared light (630&ndash;1100 nm) at low irradiances (1&ndash;1000 mW/cm&#xB2;) to modulate cellular function. The primary cellular photoacceptor is <strong>cytochrome c oxidase (Complex IV)</strong> of the mitochondrial ETC, whose copper centres (Cu&#x2082; and Cu&#x2082;) and haem groups (Fe-haem&#x2090; and Fe-haem&#x2090;&#x2090;&#x2090;) have absorption bands in the red/NIR window. Photon absorption increases Complex IV activity, elevating the proton motive force and ATP synthesis.</p>
+          <p>Downstream effects in pre-clinical and early clinical studies include: enhanced wound healing, neuroprotection (Parkinson's, TBI models), reduction of inflammation, and improvement of mitochondrial function in aged tissue. The field remains mechanistically contested and many clinical trials lack rigorous blinding, but the photoacceptor identity (Complex IV) is well established. Nitric oxide (NO) displacement from Complex IV by photons may also contribute to vasodilation effects.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology &mdash; UV Carcinogenesis</h3>
+          <p>UVB photons are the primary environmental carcinogen for skin cancers. Their interaction with DNA produces two signature lesions:</p>
+          <table class="data-table">
+            <tr><th>Lesion</th><th>Formation</th><th>Consequence</th><th>Repair pathway</th></tr>
+            <tr><td><strong>Cyclobutane pyrimidine dimers (CPDs)</strong></td><td>Adjacent pyrimidines (TT, TC, CT, CC) on same strand fused by [2+2] photocycloaddition at C5-C6 double bonds</td><td>~75% of UV-induced mutations; predominantly C&rarr;T transitions at dipyrimidine sites; "UV signature" mutations</td><td>Nucleotide excision repair (NER): DDB2/XPC recognition &rarr; TFIIH helicase &rarr; XPA/RPA &rarr; XPG/ERCC1-XPF endonucleases excise 25-30 nt patch &rarr; polymerase delta refills</td></tr>
+            <tr><td><strong>6-4 Photoproducts (6-4PPs)</strong></td><td>Covalent bond between C6 of 5' pyrimidine and C4 of 3' pyrimidine; occurs at TC, CC sites</td><td>~25% of UV lesions; more distorting to helix; also mutagenic; rapidly converted to Dewar valence isomers by UVA re-irradiation</td><td>NER (same pathway; XPC recognises 6-4PP more efficiently than CPD; CPD requires DDB2 accessory factor)</td></tr>
+          </table>
+
+          <div class="pathway-block">
+<pre>
+UV CARCINOGENESIS PATHWAY
+
+  UVB photon absorbed by thymine or cytosine in skin
+       |
+       v
+  CPD or 6-4PP formation in keratinocyte DNA
+       |
+       |--[NER successful]--> lesion repaired, no mutation
+       |
+       |--[NER overwhelmed / failed]--> replication over lesion
+       |                                by error-prone translesion
+       |                                synthesis (TLS) polymerase eta
+       v
+  C->T or CC->TT tandem mutation (UV signature)
+       |
+       v
+  If mutation in TP53 (tumour suppressor):
+  p53 pathway impaired --> loss of G1 arrest, reduced apoptosis
+       |
+       v
+  Clonal expansion of mutant keratinocytes
+       |
+       v
+  Actinic keratosis (pre-malignant)
+       |
+       v
+  Squamous cell carcinoma (SCC) or basal cell carcinoma (BCC)
+
+  If mutation drives melanocyte BRAF V600E / NRAS:
+       v
+  Melanoma (most lethal; also requires additional mutations)
+
+PREVENTION:
+  SPF 30+ sunscreen: >97% UVB blocking (chemical UV absorbers
+  or mineral physical scatterers TiO2/ZnO)
+  Protective clothing, shade behaviour, avoiding peak-hour UV (10am-4pm)
+  Childhood sun protection critical (evidence from migrant studies)
+</pre>
+          </div>
+
+          <h4>Photodermatoses</h4>
+          <p>A spectrum of disorders arises from abnormal photosensitivity. <strong>Xeroderma pigmentosum (XP)</strong> is the prototypical NER-deficiency disorder: mutations in XPA&ndash;XPG or POLH genes cause accumulation of CPDs and 6-4PPs, resulting in 10,000-fold elevated skin cancer risk and neurological degeneration. <strong>Polymorphic light eruption (PLE)</strong> is the most common photodermatosis (&sim;15% of European populations), characterised by delayed eczematous/papular rash after first sun exposure of spring; mechanism involves UVA-induced delayed-type hypersensitivity with neutrophil infiltration. <strong>Porphyrias</strong> (e.g., erythropoietic protoporphyria) involve accumulation of porphyrins that are potent photosensitisers: porphyrin excited states generate singlet oxygen (&#x00B9;O&#x2082;), a non-radical ROS, causing cutaneous phototoxicity.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
           <div class="connections">
-            <a class="conn-pill" href="electron.html" title="Photon absorption raises electrons to higher energy states (excitation) or ejects them from orbitals (ionization). UV photons promote DNA base electrons to reactive singlet states, enabling covalent bond formation between adjacent pyrimidines."><span class="rel">modulates</span>Electron</a>
-            <a class="conn-pill damaged" href="hepatocyte.html" title="Ionizing photons (γ-rays, X-rays) generate hydroxyl radicals via radiolysis that produce double-strand breaks in hepatocyte DNA, triggering apoptosis or — if misrepaired — neoplastic transformation. Liver parenchyma is radiosensitive, constraining radiotherapy doses."><span class="rel">damages</span>Hepatocyte</a>
+            <a href="electron.html" class="conn-pill acts">
+              <span class="rel">Excites</span>
+              Electron (retinal photoisomerisation)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Entrains</span>
+              Circadian clock via melanopsin/SCN (entry pending)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Activates</span>
+              Vitamin D synthesis (7-DHC photolysis)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Damages</span>
+              DNA (CPD/6-4PP UV lesions)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Stimulates</span>
+              Complex IV (photobiomodulation)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Promotes</span>
+              Melanoma / SCC / BCC (UV carcinogenesis)
+            </a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1146/annurev.biochem.73.011303.073723" target="_blank" rel="noopener noreferrer">Sancar A, Lindsey-Boltz LA, Ünsal-Kaçmaz K, Linn S. Molecular mechanisms of mammalian DNA repair and the DNA damage checkpoints. Annu Rev Biochem. 2004;73:39-85.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15189136/" target="_blank" rel="noopener noreferrer">PubMed 15189136</a></li>
-            <li><a href="https://doi.org/10.1038/nrc2248" target="_blank" rel="noopener noreferrer">Löbrich M, Jeggo PA. The impact of a negligent G2/M checkpoint on genomic instability and cancer induction. Nat Rev Cancer. 2007;7(11):861-9.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17943134/" target="_blank" rel="noopener noreferrer">PubMed 17943134</a></li>
+            <li>Wald G. The molecular basis of visual excitation. <em>Nature.</em> 1968;219(5156):800-807. <a href="https://doi.org/10.1038/219800a0">doi:10.1038/219800a0</a> &middot; PubMed 4301307</li>
+            <li>Berson DM, Dunn FA, Takao M. Phototransduction by retinal ganglion cells that set the circadian clock. <em>Science.</em> 2002;295(5557):1070-3. <a href="https://doi.org/10.1126/science.1067262">doi:10.1126/science.1067262</a> &middot; PubMed 11834835</li>
+            <li>Holick MF. Vitamin D deficiency. <em>N Engl J Med.</em> 2007;357(3):266-81. <a href="https://doi.org/10.1056/NEJMra070553">doi:10.1056/NEJMra070553</a> &middot; PubMed 17634462</li>
+            <li>Ravanat JL, Douki T, Cadet J. Direct and indirect effects of UV radiation on DNA and its components. <em>J Photochem Photobiol B.</em> 2001;63(1-3):88-102. <a href="https://doi.org/10.1016/s1011-1344(01)00206-8">doi:10.1016/s1011-1344(01)00206-8</a> &middot; PubMed 11684456</li>
+            <li>Hamblin MR. Mechanisms and mitochondrial redox signaling in photobiomodulation. <em>Photochem Photobiol.</em> 2018;94(2):199-212. <a href="https://doi.org/10.1111/php.12864">doi:10.1111/php.12864</a> &middot; PubMed 29164625</li>
+            <li>Cleaver JE. Cancer in xeroderma pigmentosum and related disorders of DNA repair. <em>Nat Rev Cancer.</em> 2005;5(7):564-73. <a href="https://doi.org/10.1038/nrc1652">doi:10.1038/nrc1652</a> &middot; PubMed 16069818</li>
           </ul>
         </div>
 
@@ -180,13 +330,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="electron.html">Electron</a>
+      <a href="proton.html">Proton</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>

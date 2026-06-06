@@ -208,37 +208,37 @@
       <h2>Six categories. Every microbe that touches human biology.</h2>
       <p class="cat-desc">The same systematic approach for each — structure, mechanism of harm, immune signature, mutation pressure. The scale ladder, viewed from the other side of the encounter.</p>
       <div class="cards-grid">
-        <div class="card virus">
+        <div class="card virus" style="cursor:pointer;" onclick="window.location='#viruses'">
           <div class="card-icon">
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
           </div>
-          <div class="card-body"><h3>Viruses</h3><p>Influenza, coronaviruses, HIV, herpes, ebola — fast mutation; highest-priority threat class. 2 entries.</p></div>
+          <div class="card-body"><h3>Viruses</h3><p>Influenza, coronaviruses, HIV, herpes, ebola — fast mutation; highest-priority threat class.</p></div>
         </div>
-        <div class="card bacteria">
+        <div class="card bacteria" style="cursor:pointer;" onclick="window.location='#bacteria'">
           <div class="card-icon">
             <svg viewBox="0 0 24 24"><ellipse cx="12" cy="12" rx="3" ry="5"/><path d="M9 10c-2 0-4 .9-4 2s2 2 4 2M15 10c2 0 4 .9 4 2s-2 2-4 2"/><path d="M12 7V4M12 20v-3"/></svg>
           </div>
           <div class="card-body"><h3>Bacteria</h3><p>TB, staph, strep, mycobacteria — antibiotic resistance and cell-cell warfare with the immune system.</p></div>
         </div>
-        <div class="card fungi">
+        <div class="card fungi" style="cursor:pointer;" onclick="window.location='#fungi'">
           <div class="card-icon">
             <svg viewBox="0 0 24 24"><path d="M12 22v-7"/><path d="M12 15C8.13 15 5 11.87 5 8a7 7 0 0 1 14 0c0 3.87-3.13 7-7 7z"/></svg>
           </div>
           <div class="card-body"><h3>Fungi</h3><p>Candida, aspergillus, cryptococcus — emerging threats with few available drug classes.</p></div>
         </div>
-        <div class="card parasite">
+        <div class="card parasite" style="cursor:pointer;" onclick="window.location='#parasites'">
           <div class="card-icon">
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/><path d="M7 3.34A10 10 0 0 1 22 12"/></svg>
           </div>
           <div class="card-body"><h3>Parasites</h3><p>Plasmodium, helminths, trypanosomes — global disease burden; complex life cycles.</p></div>
         </div>
-        <div class="card prion">
+        <div class="card prion" style="cursor:pointer;" onclick="window.location='#prions'">
           <div class="card-icon">
             <svg viewBox="0 0 24 24"><path d="M8.56 2.9A7 7 0 0 1 19 9v1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-1.07A7 7 0 0 1 5 13.07V13H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h1a7 7 0 0 1 3.56-6.1z"/></svg>
           </div>
           <div class="card-body"><h3>Prions</h3><p>CJD, kuru — misfolded protein aggregates that stress-test every assumption in the model.</p></div>
         </div>
-        <div class="card microbiome">
+        <div class="card microbiome" style="cursor:pointer;" onclick="window.location='#microbiome'">
           <div class="card-icon">
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
           </div>
@@ -505,6 +505,17 @@
           <a class="entry-row" style="border-left-color:#06b6d4;" href="trypanosoma-brucei.html"><div class="entry-info"><div class="entry-name">Trypanosoma brucei</div><div class="entry-class">Kinetoplastida &nbsp;·&nbsp; VSG coat (~1000 variants) &nbsp;·&nbsp; Sleeping sickness</div></div><span class="entry-stat">HAT Stage 1→2 CNS invasion; fexinidazole oral treatment; ~990 cases 2023</span><svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></a>
           <a class="entry-row" style="border-left-color:#06b6d4;" href="trypanosoma-cruzi.html"><div class="entry-info"><div class="entry-name">Trypanosoma cruzi</div><div class="entry-class">Kinetoplastida &nbsp;·&nbsp; Tc-Tox / cruzipain &nbsp;·&nbsp; Chagas cardiomyopathy</div></div><span class="entry-stat">6-7M infected; 30% develop cardiomyopathy; apical aneurysm / RBBB</span><svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></a>
           <a class="entry-row" style="border-left-color:#06b6d4;" href="leishmania-donovani.html"><div class="entry-info"><div class="entry-name">Leishmania donovani</div><div class="entry-class">Kinetoplastida &nbsp;·&nbsp; gp63 / LPG &nbsp;·&nbsp; Amastigote in macrophage</div></div><span class="entry-stat">Kala-azar; 50–90K cases/year; 95%+ fatal if untreated; L-AmB treatment</span><svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRIONS ===== -->
+    <section class="cat-section" id="prions">
+      <h2>Prions</h2>
+      <p class="cat-desc">Protein-only infectious agents — no nucleic acid genome. PrP<sup>Sc</sup> misfolding nucleates conversion of normal PrP<sup>C</sup>, producing uniformly fatal transmissible spongiform encephalopathies. CJD, kuru, fatal familial insomnia — edge cases that stress-test every assumption about what constitutes an infectious agent.</p>
+      <div class="entry-subsection">
+        <div class="entry-list">
+          <a class="entry-row" style="border-left-color:#475569;" href="prion-protein.html"><div class="entry-info"><div class="entry-name">Prion Protein (PrP<sup>C</sup> / PrP<sup>Sc</sup>)</div><div class="entry-class">PRNP gene · 253 aa mature GPI-anchored protein · Transmissible spongiform encephalopathy</div></div><span class="entry-stat">~1–2/M/year sporadic CJD; 100% fatal; no approved treatment; 253 aa; no nucleic acid genome</span><svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></a>
         </div>
       </div>
     </section>

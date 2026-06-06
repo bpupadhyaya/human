@@ -1,198 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="16 kDa adipokine encoded by LEP/ob gene. Signals fat mass to hypothalamus via JAK2/STAT3 → suppresses NPY/AgRP, induces POMC → ↓food intake, ↑energy expenditure">
-  <meta property="og:title" content="Leptin — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Leptin — Human Engineering</title>
-  <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leptin · Atlas One · Human · Molecular</title>
+<style>
+  :root {
+    --accent: #7c3aed;
+    --accent-dark: #4c1d95;
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface2: #273549;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --radius-sm: 6px;
+    --radius: 12px;
+    --radius-lg: 18px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(15,23,42,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem; }
+  nav a { color: var(--text-muted); text-decoration: none; font-size: 0.875rem; }
+  nav a:hover { color: var(--accent); }
+  nav .sep { color: var(--border); }
+  .hero { background: linear-gradient(135deg, #7c3aed, #4c1d95); padding: 3rem 2rem 2.5rem; }
+  .hero-inner { max-width: 860px; margin: 0 auto; }
+  .eyebrow { display: inline-block; background: rgba(255,255,255,0.2); color: #fff; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 1rem; }
+  .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1.1; }
+  .hero .tagline { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 0.5rem; max-width: 620px; }
+  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
+  .stat { background: rgba(255,255,255,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; }
+  .stat .val { font-size: 1.25rem; font-weight: 700; color: #fff; }
+  .stat .lbl { font-size: 0.7rem; color: rgba(255,255,255,0.75); letter-spacing: 0.06em; text-transform: uppercase; }
+  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+  .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 2rem; overflow: hidden; }
+  .detail-header { background: linear-gradient(135deg, #7c3aed, #4c1d95); padding: 1rem 1.5rem; }
+  .detail-header h2 { color: #fff; font-size: 1.1rem; font-weight: 700; }
+  .detail-body { padding: 1.5rem; }
+  .detail-body p { color: var(--text-muted); margin-bottom: 0.75rem; }
+  .detail-body p:last-child { margin-bottom: 0; }
+  .pathway-block { background: #0d1b2e; border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; overflow-x: auto; }
+  .pathway-block pre { font-family: 'Fira Mono', 'Cascadia Code', monospace; font-size: 0.78rem; line-height: 1.6; color: #93c5fd; white-space: pre; }
+  .data-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+  .data-table th { background: var(--surface2); color: var(--text); text-align: left; padding: 0.6rem 0.875rem; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  .data-table td { padding: 0.6rem 0.875rem; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table tr:hover td { background: var(--surface2); }
+  .step-list { list-style: none; counter-reset: steps; margin: 0.75rem 0; }
+  .step-list li { counter-increment: steps; display: flex; gap: 0.875rem; margin-bottom: 0.6rem; color: var(--text-muted); font-size: 0.9rem; }
+  .step-list li::before { content: counter(steps); background: var(--accent); color: #fff; font-weight: 700; font-size: 0.75rem; min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.15rem; }
+  .principle-box { background: rgba(124,58,237,0.1); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.875rem 1rem; margin: 1rem 0; color: var(--text-muted); font-size: 0.9rem; }
+  .principle-box strong { color: var(--text); }
+  .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+  .conn-pill { background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted); font-size: 0.78rem; padding: 0.3rem 0.75rem; border-radius: 999px; text-decoration: none; transition: border-color 0.15s, color 0.15s; }
+  .conn-pill:hover { border-color: var(--accent); color: var(--accent); }
+  .refs { list-style: none; margin-top: 0.5rem; }
+  .refs li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+  .refs li:last-child { border-bottom: none; }
+  .refs li::before { content: "↗ "; color: var(--accent); }
+  footer { text-align: center; padding: 2rem 1rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.8rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<nav>
+  <a href="index.html">Atlas</a>
+  <span class="sep">›</span>
+  <a href="index.html">Human</a>
+  <span class="sep">›</span>
+  <a href="#">Leptin</a>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Atlas One · Human · Molecular</span>
     <h1>Leptin</h1>
-    <p class="tagline">16 kDa adipokine encoded by LEP/ob gene. Signals fat mass to hypothalamus via JAK2/STAT3 → suppresses NPY/AgRP, induces POMC → ↓food intake, ↑energy expenditure. Leptin resistance underlies obesity despite high circulating levels.</p>
-    <p class="aliases">Also known as: OB protein, adipokine, satiety hormone, obesity hormone, LEP</p>
+    <p class="tagline">Adipokine master regulator of energy homeostasis — signals adipose reserves to the hypothalamus and coordinates metabolism, immunity, and reproduction.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><div class="val">16 kDa</div><div class="lbl">Molecular weight</div></div>
+      <div class="stat"><div class="val">167 aa</div><div class="lbl">Mature form</div></div>
+      <div class="stat"><div class="val">LEP (ob)</div><div class="lbl">Gene (chr7)</div></div>
+      <div class="stat"><div class="val">~25–30 min</div><div class="lbl">Plasma half-life</div></div>
+    </div>
+  </div>
+</section>
+
+<main>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Overview</h2></div>
+    <div class="detail-body">
+      <p>Leptin is a 16 kDa cytokine-like adipokine encoded by the LEP (ob) gene, discovered in 1994 by Friedman and colleagues through positional cloning of the mouse obesity gene. It is secreted proportionally to adipose mass and functions as a long-term satiety signal to the hypothalamus, signalling that fat stores are adequate. In doing so, leptin suppresses appetite, increases energy expenditure, and coordinates neuroendocrine function — suppressing reproductive (GnRH) and growth (GHRH) axes during starvation.</p>
+      <p>Leptin acts primarily on hypothalamic arcuate nucleus (ARC) neurons via the long-form receptor LepRb (LEPR). Two antagonistic ARC populations mediate its effects: NPY/AgRP neurons (orexigenic) are inhibited by leptin, while POMC/CART neurons (anorexigenic) are activated. The net result is reduced food intake, increased BAT thermogenesis, and enhanced insulin sensitivity.</p>
+      <p>Paradoxically, the majority of obese individuals have high circulating leptin yet display leptin resistance — the hypothalamus does not respond appropriately. Resistance mechanisms include impaired blood-brain barrier transport, SOCS3-mediated receptor desensitisation, and ER stress in hypothalamic neurons. This resistance is a key target for obesity pharmacotherapy.</p>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header"><h2>Structure</h2></div>
+    <div class="detail-body">
+      <p>Leptin is a 4-helix bundle cytokine (class I cytokine superfamily), structurally homologous to IL-6, IL-11, and G-CSF. It contains a single disulfide bond (Cys96–Cys146) essential for bioactivity. The ob/ob mouse mutation encodes a truncated, non-secreted protein. The human receptor (LepRb) belongs to the class I cytokine receptor superfamily — a single-pass transmembrane protein with extracellular cytokine-binding domains (CRH1, CRH2) and an intracellular domain that constitutively associates with JAK2.</p>
+      <table class="data-table">
+        <thead><tr><th>Feature</th><th>Detail</th></tr></thead>
+        <tbody>
+          <tr><td>Fold</td><td>4-helix bundle (helices A, B, C, D); long-chain cytokine topology</td></tr>
+          <tr><td>Disulfide bond</td><td>Cys96–Cys146; obligate for correct folding and secretion</td></tr>
+          <tr><td>Signal peptide</td><td>21 aa N-terminal signal; cleaved post-translationally → 146 aa mature form</td></tr>
+          <tr><td>Receptor (LepRb)</td><td>Long isoform; intracellular Box1/Box2 motifs bind constitutive JAK2; no intrinsic kinase activity</td></tr>
+          <tr><td>LepRb expression</td><td>Hypothalamus (ARC, VMH, LH, PVN), hippocampus, cerebellum, liver, muscle, immune cells</td></tr>
+          <tr><td>Short isoforms (LepRa/c/d)</td><td>Truncated intracellular domain; mediate leptin transport across choroid plexus; no STAT signalling</td></tr>
+        </tbody>
+      </table>
     </div>
+  </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">leptin</div>
-        <h2>Leptin</h2>
-        <p class="summary">16 kDa adipokine encoded by LEP/ob gene. Signals fat mass to hypothalamus via JAK2/STAT3 → suppresses NPY/AgRP, induces POMC → ↓food intake, ↑energy expenditure. Leptin resistance underlies obesity despite high circulating levels.</p>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Mechanism — ARC Circuit &amp; JAK/STAT Signalling</h2></div>
+    <div class="detail-body">
+      <p>Leptin triggers LepRb dimerisation, JAK2 auto-transphosphorylation, and activation of three major downstream pathways: JAK2/STAT3 (dominant anorexigenic signal), PI3K/Akt/FoxO1 (acute insulin sensitisation), and MAPK/ERK (proliferation/survival). SOCS3 and PTP1B are the principal negative feedback regulators — both are upregulated in leptin resistance states.</p>
+      <div class="pathway-block"><pre>
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │            ADIPOSE → HYPOTHALAMUS LEPTIN CIRCUIT                    │
+  │                                                                      │
+  │  Adipocyte                                                           │
+  │  ──────────                                                          │
+  │  Fat mass ↑ → LEP gene expression ↑ (insulin, glucocorticoids)     │
+  │             → Leptin secreted ∝ adipose mass                        │
+  │             → Circulates in free form + soluble LepR form           │
+  │                                                                      │
+  │  Blood-brain barrier transport                                       │
+  │  ─────────────────────────────                                       │
+  │  LepRa on choroid plexus/tanycytes → saturable transport            │
+  │  (IMPAIRED in obesity → central leptin resistance)                  │
+  │                                                                      │
+  │  ARC Nucleus — two antagonistic populations                         │
+  │  ──────────────────────────────────────────                         │
+  │                                                                      │
+  │  NPY/AgRP neurons     POMC/CART neurons                             │
+  │  ───────────────       ────────────────                             │
+  │  Orexigenic            Anorexigenic                                 │
+  │  Leptin INHIBITS ─────►LepRb hyperpolarisation                     │
+  │                        (via K_ATP channel opening)                  │
+  │                                                                      │
+  │  Leptin ACTIVATES ────►LepRb depolarisation                        │
+  │                        POMC → α-MSH (MC3R/MC4R)                    │
+  │                        → ↓ food intake, ↑ energy expenditure       │
+  │                                                                      │
+  │  Net effect (adequate leptin):                                       │
+  │  ↓ NPY/AgRP → ↓ hunger signals (NPY→Y1R, AgRP→MC3/4R antagonism) │
+  │  ↑ α-MSH → ↑ MC4R in PVN → ↑ sympathetic tone → ↑ BAT UCP1      │
+  │                                                                      │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                   LEPRB SIGNALLING CASCADE                           │
+  │                                                                      │
+  │  Leptin + LepRb                                                     │
+  │       │                                                              │
+  │  LepRb dimerisation → JAK2 auto-transphosphorylation               │
+  │       │                                                              │
+  │  ┌────┴──────────────────────────────────┐                          │
+  │  │                │                      │                          │
+  │  STAT3           PI3K/Akt           MAPK/ERK                        │
+  │  phospho-Y705    ─────────          ─────────                       │
+  │  → dimerises     ↓ FoxO1           → proliferation                 │
+  │  → nuclear       → ↓ AgRP          → inflammation                  │
+  │  → POMC↑         → ↑ GLUT4 in                                      │
+  │  → SOCS3↑          peripheral                                       │
+  │  (negative           tissues                                        │
+  │   feedback)                                                          │
+  │       │                                                              │
+  │  SOCS3 (feedback)  PTP1B (phosphatase)                             │
+  │  binds JAK2 → inactivates LepRb signalling                         │
+  │  UPREGULATED in OBESITY → leptin resistance                        │
+  └──────────────────────────────────────────────────────────────────────┘</pre></div>
+      <ol class="step-list">
+        <li>Adipose mass expands → LEP transcription increases (C/EBPα, PPARγ2 drive adipocyte-specific expression); leptin is constitutively secreted in pulses with diurnal rhythm (peak at night).</li>
+        <li>Circulating leptin crosses the blood-brain barrier via LepRa-mediated transcytosis in tanycytes of the median eminence and choroid plexus.</li>
+        <li>LepRb on ARC NPY/AgRP neurons → STAT3 → upregulates SOCS3 which further inhibits NPY/AgRP; net reduction in neuropeptide Y release → reduced hunger.</li>
+        <li>LepRb on POMC neurons → STAT3 → ↑POMC transcription → α-MSH post-processing → MC4R activation in paraventricular nucleus → ↑sympathetic outflow → ↑UCP1 in brown adipose tissue thermogenesis.</li>
+        <li>SOCS3 (cytokine-inducible SH2-containing protein 3) and PTP1B (protein tyrosine phosphatase 1B) act as negative regulators — both elevated in diet-induced obesity, causing cellular leptin resistance.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Physiological Roles</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Role</th><th>Detail</th></tr></thead>
+        <tbody>
+          <tr><td>Satiety / food intake</td><td>↑POMC/α-MSH → MC4R activation; ↓NPY/AgRP; reduces meal size and frequency; synergises with CCK (gut satiety)</td></tr>
+          <tr><td>Energy expenditure</td><td>↑BAT UCP1 thermogenesis via sympathetic β3-AR; ↑skeletal muscle fatty acid oxidation via AMPK activation</td></tr>
+          <tr><td>Reproductive axis</td><td>Permissive signal for GnRH pulsatility and LH surge; critical threshold for menarche; amenorrhoea in anorexia/athletes (leptinopenia)</td></tr>
+          <tr><td>HPA / stress axis</td><td>Suppresses CRH in PVN; starvation-induced cortisol rise partly reflects leptinopenia removing this inhibition</td></tr>
+          <tr><td>Immunity</td><td>Pro-inflammatory: activates macrophages, NK cells, dendritic cells; Th1 polarisation; leptin-deficient (ob/ob) mice are immunosuppressed and infection-susceptible</td></tr>
+          <tr><td>Bone metabolism</td><td>Central (hypothalamic) leptin signalling inhibits bone formation via sympathetic β2-AR on osteoblasts; peripheral leptin on osteoblasts is anabolic — net effect complex</td></tr>
+          <tr><td>Haematopoiesis</td><td>Promotes myeloid over lymphoid differentiation; ob/ob mice have reduced natural killer cells and myeloid progenitors</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pharmacology &amp; Clinical Use</h2></div>
+    <div class="detail-body">
+      <p><strong>Metreleptin (Myalept)</strong> — recombinant human leptin analogue (Met-Leu-His tag added for stability); approved for congenital or acquired generalised lipodystrophy. Remarkable: restores near-normal metabolic control in patients with absent adipose and near-zero leptin; reduces hepatic steatosis, hypertriglyceridaemia, and HbA1c dramatically. Also used compassionately for hypothalamic amenorrhoea due to low leptin.</p>
+      <p><strong>Experimental targets</strong> — PTP1B inhibitors (ertiprotafib; trodusquemine/MSI-1436): reduce leptin receptor de-phosphorylation → restore leptin sensitivity in DIO mice; ongoing clinical translation. SOCS3 antisense / hypothalamic gene delivery approaches are preclinical.</p>
+      <p><strong>GLP-1 receptor agonists</strong> (semaglutide, tirzepatide) reduce body weight substantially; partly by restoring central leptin sensitivity (reducing ER stress, SOCS3) — mechanistic overlap demonstrated in animal models. Tirzepatide (dual GIP/GLP-1) may additionally work via leptin sensitisation through GIP receptor pathways.</p>
+      <div class="principle-box"><strong>Clinical pearl:</strong> Serum leptin is NOT a useful clinical test in typical obesity — levels are already high. Leptin is diagnostic only for congenital leptin deficiency (frameshift/nonsense LEP mutation: profound early-onset hyperphagia, hypogonadism, normal or low leptin). One copy of leptin replacement → dramatic weight loss and restoration of reproductive function in these rare patients.</div>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pathology</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Condition</th><th>Leptin Status</th><th>Mechanism &amp; Consequence</th></tr></thead>
+        <tbody>
+          <tr><td>Congenital leptin deficiency</td><td>Undetectable</td><td>LEP loss-of-function mutation; severe hyperphagia, obesity from infancy, hypogonadism; responds dramatically to metreleptin</td></tr>
+          <tr><td>LepRb mutations (Zucker fa/fa rat; human)</td><td>High (ineffective)</td><td>LEPR loss-of-function → leptin cannot signal; syndromic obesity + hypogonadism; rare in humans (LEPR mutations)</td></tr>
+          <tr><td>Diet-induced obesity / leptin resistance</td><td>Very high</td><td>SOCS3 upregulation, PTP1B overactivity, ER stress, impaired BBB transport → hypothalamus unresponsive despite high leptin</td></tr>
+          <tr><td>Hypothalamic amenorrhoea</td><td>Low (starvation/athletes)</td><td>Leptinopenia → reduced GnRH pulsatility → low LH/FSH → anovulation; reversed by caloric restoration or metreleptin</td></tr>
+          <tr><td>Generalised lipodystrophy</td><td>Very low (no adipose)</td><td>Severe insulin resistance, hypertriglyceridaemia, hepatic steatosis, NASH; metreleptin replaces deficient adipokine signal</td></tr>
+          <tr><td>Cachexia / cancer anorexia</td><td>Variable</td><td>TNF-α, IL-6 can mimic leptin signalling on LepRb → anorexia despite low fat mass; melanocortin system activated by inflammatory cytokines</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2></div>
+    <div class="detail-body">
+      <p>Leptin is tightly integrated with insulin signalling (both activate PI3K/Akt in hypothalamus; insulin resistance and leptin resistance co-occur); AMPK (leptin activates hypothalamic AMPK in food intake, inhibits peripheral AMPK in fatty acid oxidation — context-dependent); thyroid hormones (T3 stimulates leptin secretion; hypothyroidism reduces leptin); glucocorticoids (oppose leptin in hypothalamus); adiponectin (anti-inflammatory adipokine whose ratio to leptin is a metabolic health marker).</p>
+      <div class="conn-pills">
+        <a class="conn-pill" href="ampk.html">AMPK (peripheral energy sensor)</a>
+        <a class="conn-pill" href="cholesterol.html">Cholesterol (lipid homeostasis)</a>
+        <a class="conn-pill" href="thyroid-hormones.html">Thyroid hormones (metabolic rate)</a>
+        <a class="conn-pill" href="glucagon.html">Glucagon (counter-regulatory)</a>
+        <a class="conn-pill" href="nitric-oxide.html">Nitric oxide (vascular tone)</a>
       </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>leptin</td></tr>
-            <tr><td>Name</td><td>Leptin</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="nervous-system.html" title="Leptin acts on ARC neurons (suppresses NPY/AgRP, stimulates POMC) via JAK2/STAT3; hypothalamic leptin resistance in obesity impairs satiety; leptin also regulates GnRH, TRH, CRH axes and sympathetic outflow to BAT."><span class="rel">modulates</span>Nervous System</a>
-            <a class="conn-pill" href="immune-system.html" title="LEPR-Rb on T cells, macrophages, NK cells; leptin promotes Th1 polarisation (↑IFN-γ) and macrophage activation; leptin deficiency impairs immunity; obesity-driven hyperleptinemia promotes chronic low-grade inflammation."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="t-helper-cell.html" title="Leptin promotes Th1 and Th17 differentiation (STAT3-mediated), inhibits Treg expansion; ob/ob mice have impaired T cell responses; high leptin in obesity skews toward inflammatory phenotypes and adipose macrophage infiltration."><span class="rel">modulates</span>T Helper Cell</a>
-            <a class="conn-pill" href="hepatocyte.html" title="Leptin signals in hepatocytes via LEPR-Rb → STAT3 → suppresses SREBP-1c (lipogenesis) and promotes fatty acid oxidation (AMPK/CPT1); leptin resistance in NAFLD removes this brake, promoting steatohepatitis progression."><span class="rel">modulates</span>Hepatocyte</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-          </ul>
-        </div>
-
-      </div>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header"><h2>References</h2></div>
+    <div class="detail-body">
+      <ul class="refs">
+        <li>Zhang Y et al. (1994). Positional cloning of the mouse obese gene and its human homologue. <em>Nature</em> 372:425–432.</li>
+        <li>Friedman JM (2019). Leptin and the endocrine control of energy balance. <em>Nat Metab</em> 1:754–764.</li>
+        <li>Myers MG Jr et al. (2010). Mechanisms of leptin action and leptin resistance. <em>Annu Rev Physiol</em> 72:537–556.</li>
+        <li>Farooqi IS et al. (1999). Effects of recombinant leptin therapy in a child with congenital leptin deficiency. <em>NEJM</em> 341:879–884.</li>
+        <li>Oral EA et al. (2002). Leptin-replacement therapy for lipodystrophy. <em>NEJM</em> 346:570–578.</li>
+        <li>Bjørbæk C, Kahn BB (2004). Leptin signaling in the central nervous system and the periphery. <em>Recent Prog Horm Res</em> 59:305–331.</li>
+        <li>Schwartz MW et al. (2000). Leptin increases hypothalamic pro-opiomelanocortin mRNA expression in the rostral arcuate nucleus. <em>Diabetes</em> 46:2119–2123.</li>
+      </ul>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</main>
+
+<footer>
+  <p>Atlas One · Human · Molecular · Leptin</p>
+  <p style="margin-top:0.4rem;">
+    Open source · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
+    <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
+  </p>
+  <p style="margin-top:0.4rem; font-size:0.75rem; color:#64748b;">
+    This page is co-maintained with AI assistance. Content is for educational purposes.
+    Always verify clinical information against primary sources. &copy; <span id="yr"></span>
+  </p>
+</footer>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>

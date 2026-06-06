@@ -1,200 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="29-aa pancreatic α-cell peptide that opposes insulin: activates glycogenolysis, gluconeogenesis, β-oxidation, and ketogenesis via GCGR-cAMP-PKA signaling. Hyper">
-  <meta property="og:title" content="Glucagon — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Glucagon — Human Engineering</title>
-  <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glucagon · Atlas One · Human · Molecular</title>
+<style>
+  :root {
+    --accent: #f59e0b;
+    --accent-dark: #b45309;
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface2: #273549;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --radius-sm: 6px;
+    --radius: 12px;
+    --radius-lg: 18px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(15,23,42,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem; }
+  nav a { color: var(--text-muted); text-decoration: none; font-size: 0.875rem; }
+  nav a:hover { color: var(--accent); }
+  nav .sep { color: var(--border); }
+  .hero { background: linear-gradient(135deg, #f59e0b, #b45309); padding: 3rem 2rem 2.5rem; }
+  .hero-inner { max-width: 860px; margin: 0 auto; }
+  .eyebrow { display: inline-block; background: rgba(255,255,255,0.2); color: #fff; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 1rem; }
+  .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1.1; }
+  .hero .tagline { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 0.5rem; max-width: 620px; }
+  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
+  .stat { background: rgba(255,255,255,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; }
+  .stat .val { font-size: 1.25rem; font-weight: 700; color: #fff; }
+  .stat .lbl { font-size: 0.7rem; color: rgba(255,255,255,0.75); letter-spacing: 0.06em; text-transform: uppercase; }
+  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+  .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 2rem; overflow: hidden; }
+  .detail-header { background: linear-gradient(135deg, #f59e0b, #b45309); padding: 1rem 1.5rem; }
+  .detail-header h2 { color: #fff; font-size: 1.1rem; font-weight: 700; }
+  .detail-body { padding: 1.5rem; }
+  .detail-body p { color: var(--text-muted); margin-bottom: 0.75rem; }
+  .detail-body p:last-child { margin-bottom: 0; }
+  .pathway-block { background: #0d1b2e; border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; overflow-x: auto; }
+  .pathway-block pre { font-family: 'Fira Mono', 'Cascadia Code', monospace; font-size: 0.78rem; line-height: 1.6; color: #93c5fd; white-space: pre; }
+  .data-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+  .data-table th { background: var(--surface2); color: var(--text); text-align: left; padding: 0.6rem 0.875rem; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  .data-table td { padding: 0.6rem 0.875rem; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table tr:hover td { background: var(--surface2); }
+  .step-list { list-style: none; counter-reset: steps; margin: 0.75rem 0; }
+  .step-list li { counter-increment: steps; display: flex; gap: 0.875rem; margin-bottom: 0.6rem; color: var(--text-muted); font-size: 0.9rem; }
+  .step-list li::before { content: counter(steps); background: var(--accent); color: #fff; font-weight: 700; font-size: 0.75rem; min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.15rem; }
+  .principle-box { background: rgba(245,158,11,0.1); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.875rem 1rem; margin: 1rem 0; color: var(--text-muted); font-size: 0.9rem; }
+  .principle-box strong { color: var(--text); }
+  .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+  .conn-pill { background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted); font-size: 0.78rem; padding: 0.3rem 0.75rem; border-radius: 999px; text-decoration: none; transition: border-color 0.15s, color 0.15s; }
+  .conn-pill:hover { border-color: var(--accent); color: var(--accent); }
+  .refs { list-style: none; margin-top: 0.5rem; }
+  .refs li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+  .refs li:last-child { border-bottom: none; }
+  .refs li::before { content: "↗ "; color: var(--accent); }
+  footer { text-align: center; padding: 2rem 1rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.8rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<nav>
+  <a href="index.html">Atlas</a>
+  <span class="sep">›</span>
+  <a href="index.html">Human</a>
+  <span class="sep">›</span>
+  <a href="#">Glucagon</a>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Atlas One · Human · Molecular</span>
     <h1>Glucagon</h1>
-    <p class="tagline">29-aa pancreatic α-cell peptide that opposes insulin: activates glycogenolysis, gluconeogenesis, β-oxidation, and ketogenesis via GCGR-cAMP-PKA signaling. Hyperglucagonemia drives fasting hyperglycemia in T2DM; target of new tri-agonist drugs.</p>
-    <p class="aliases">Also known as: glucagon, GCG, pancreatic glucagon, proglucagon, GCGR, glucagon receptor, alpha-cell hormone, hyperglucagonemia</p>
+    <p class="tagline">Pancreatic α-cell counter-regulatory hormone — mobilises hepatic glucose and fat through GCGR/cAMP/PKA signalling to defend against hypoglycaemia.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><div class="val">29 aa</div><div class="lbl">Mature peptide</div></div>
+      <div class="stat"><div class="val">3.485 kDa</div><div class="lbl">Molecular weight</div></div>
+      <div class="stat"><div class="val">GCG (chr2)</div><div class="lbl">Gene</div></div>
+      <div class="stat"><div class="val">~3–6 min</div><div class="lbl">Plasma half-life</div></div>
+    </div>
+  </div>
+</section>
+
+<main>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Overview</h2></div>
+    <div class="detail-body">
+      <p>Glucagon is the 29-amino-acid counter-regulatory hormone secreted by pancreatic islet α-cells in response to hypoglycaemia, fasting, exercise, amino acids, and sympathoadrenal activation. It is the primary driver of hepatic glucose mobilisation and ketogenesis, and thus essential for survival during fasting — a fact demonstrated by the lethal hypoglycaemia that follows pancreatectomy without exogenous glucagon replacement.</p>
+      <p>Glucagon is derived from proglucagon (180 aa), whose tissue-specific post-translational processing differs: in pancreatic α-cells, prohormone convertase 2 (PC2) yields glucagon + glicentin-related polypeptide (GRPP) + major proglucagon fragment (MPGF). In intestinal L-cells and brain neurons, PC1/3 yields GLP-1, GLP-2, and oxyntomodulin instead. This tissue-specific processing explains why GLP-1 receptor agonists (a therapeutic class targeting incretin signalling) have no direct hepatic glycogenolytic effects.</p>
+      <p>Hyperglucagonaemia is now recognised as co-driving hyperglycaemia in type 2 diabetes — glucagon is not normally suppressed post-prandially in T2D, resulting in inappropriate hepatic glucose output. GCGR antagonists, GLP-1 agonists (which suppress glucagon secretion), and dual/triple agonists (tirzepatide, retatrutide) target this axis.</p>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header"><h2>Structure &amp; Processing</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Proglucagon-derived peptide</th><th>Cell type</th><th>Convertase</th><th>Function</th></tr></thead>
+        <tbody>
+          <tr><td>Glucagon (1–29)</td><td>Pancreatic α-cell</td><td>PC2</td><td>Counter-regulation; hepatic glucose output; ketogenesis</td></tr>
+          <tr><td>GLP-1 (7–37 / 7–36-NH₂)</td><td>Intestinal L-cell, brainstem</td><td>PC1/3</td><td>Incretin (↑glucose-dependent insulin secretion); satiety; gastric emptying delay</td></tr>
+          <tr><td>GLP-2</td><td>Intestinal L-cell</td><td>PC1/3</td><td>Intestinal epithelial proliferation; mucosal integrity; teduglutide analogue for short bowel syndrome</td></tr>
+          <tr><td>Oxyntomodulin</td><td>Intestinal L-cell</td><td>PC1/3</td><td>Weak GCGR + GLP-1R agonist; satiety signal</td></tr>
+          <tr><td>Glicentin</td><td>Intestinal L-cell</td><td>PC1/3</td><td>Intestinal mucosal function; contains GRPP + glucagon sequence</td></tr>
+        </tbody>
+      </table>
+      <p>Glucagon's N-terminal His1 is critical for GCGR activation — des-His1-glucagon is a competitive antagonist. Glucagon forms α-helical structure upon receptor binding. The GCGR is a class B GPCR with a large N-terminal extracellular domain (ECD) that provides high-affinity docking for the C-terminal portion of glucagon, while the N-terminal His1 of glucagon penetrates the transmembrane bundle to activate the receptor.</p>
     </div>
+  </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">glucagon</div>
-        <h2>Glucagon</h2>
-        <p class="summary">29-aa pancreatic α-cell peptide that opposes insulin: activates glycogenolysis, gluconeogenesis, β-oxidation, and ketogenesis via GCGR-cAMP-PKA signaling. Hyperglucagonemia drives fasting hyperglycemia in T2DM; target of new tri-agonist drugs.</p>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Mechanism — GCGR/cAMP/PKA Cascade</h2></div>
+    <div class="detail-body">
+      <p>GCGR activates Gαs → adenylyl cyclase → cAMP → PKA. Hepatic PKA phosphorylates glycogen phosphorylase kinase (PhK), phosphorylase, and phosphofructokinase-2 (PFK-2), simultaneously accelerating glycogenolysis and gluconeogenesis while inhibiting glycogen synthesis and glycolysis. PKA also phosphorylates CREB → PEPCK and G6Pase gene transcription. In adipocytes, PKA-mediated phosphorylation of hormone-sensitive lipase (HSL) and perilipin-1 triggers lipolysis → FFA + glycerol released → hepatic ketogenesis.</p>
+      <div class="pathway-block"><pre>
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │              GLUCAGON SIGNALLING CASCADE (hepatocyte)               │
+  │                                                                      │
+  │  ↓Glucose → α-cell KATP channels close (paradox: low glucose       │
+  │             → depolarisation → Ca²⁺ → glucagon exocytosis)         │
+  │                                                                      │
+  │  Glucagon (portal blood) → GCGR (class B GPCR, hepatocyte)         │
+  │       │                                                              │
+  │  Gαs activation → Adenylyl cyclase → cAMP ↑↑                       │
+  │       │                                                              │
+  │  PKA (Protein kinase A) activated                                   │
+  │       │                                                              │
+  │  ┌────┴──────────────────────────────────────────────┐              │
+  │  │                    │                    │         │              │
+  │  Glycogenolysis    Gluconeogenesis    Glycolysis↓  Lipid           │
+  │  ──────────────    ───────────────    ──────────  ────────         │
+  │  PhK→P → GlyP-b→a PFK-2 Ser32→P    PFK-2 Ser32→P HSL-P           │
+  │  (phosphorylase   (bisphosphatase    (phosphatase  (lipolysis)    │
+  │   active form)     active →          active →                      │
+  │                    ↓F-2,6-BP)        ↓F-2,6-BP                    │
+  │  Glycogen→G1P     PEPCK + G6Pase    ↓glycolysis   FFA release     │
+  │  →G6P→glucose     gene expression   flux          → ketogenesis   │
+  │  (via G6Pase)     via CREB (TORC2                                  │
+  │                   nuclear entry)                                    │
+  │                                                                      │
+  │  Net hepatic output:                                                 │
+  │  GLUCOSE ↑↑ (glycogenolysis + gluconeogenesis)                     │
+  │  KETONE BODIES ↑ (FFA → β-oxidation → acetyl-CoA → HMG-CoA →      │
+  │                    acetoacetate → β-OHB; insulin-suppressed)       │
+  │                                                                      │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                 GLUCAGON-INSULIN COUNTERBALANCE                     │
+  │                                                                      │
+  │  HIGH GLUCOSE state:                                                 │
+  │    → ↑Insulin (β-cell) → GCGR expression ↓, Gαi coupling ↑        │
+  │    → ↑Insulin → PDE3B activated → cAMP degraded → PKA ↓           │
+  │    → α-cell paracrine: insulin via δ-cell somatostatin → ↓glucagon │
+  │                                                                      │
+  │  T2D state (hyperglucagonaemia):                                    │
+  │    → Inappropriate α-cell glucose sensing; zinc-glucagon            │
+  │      co-secretion blunted; α-cell GLP-1R signalling impaired       │
+  │    → Excess hepatic glucose output → fasting hyperglycaemia        │
+  └──────────────────────────────────────────────────────────────────────┘</pre></div>
+      <ol class="step-list">
+        <li>Low blood glucose (or amino acids, sympathetic activation) → α-cell KATP closes → depolarisation → voltage-gated Ca²⁺ entry → glucagon exocytosis into portal blood.</li>
+        <li>Glucagon → GCGR → Gαs → adenylyl cyclase III/IV → cAMP ↑ → PKA holoenzyme dissociates: regulatory (R) subunits bind cAMP, catalytic (C) subunits phosphorylate targets.</li>
+        <li>Glycogenolysis: PKA → phosphorylase kinase → glycogen phosphorylase b → a → glycogen → G1P → G6P → glucose (via G6Pase, liver-specific).</li>
+        <li>Gluconeogenesis: PKA → CREB (Ser133 phosphorylation) → TORC2 nuclear translocation → PEPCK1 and G6Pase gene transcription; FOXO1 also activated → amplifies gluconeogenic programme.</li>
+        <li>Lipid mobilisation: glucagon → adipocyte GCGR (lower expression but functional) → PKA → HSL-Ser563/Ser659/Ser660 phosphorylation + perilipin-1 phosphorylation → lipase accessibility to lipid droplet → FFA + glycerol release.</li>
+        <li>Ketogenesis: hepatic FFA → β-oxidation → acetyl-CoA; glucagon simultaneously depresses malonyl-CoA (via ↓ACC2) → CPT1 disinhibited → mitochondrial FFA import → HMG-CoA → acetoacetate + β-OHB.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Physiological Roles</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Context</th><th>Role</th></tr></thead>
+        <tbody>
+          <tr><td>Fasting (overnight)</td><td>Maintains glucose ≥3.5 mmol/L; glycogenolysis for first 8 h, then gluconeogenesis (alanine, lactate, glycerol) via PEPCK/G6Pase</td></tr>
+          <tr><td>Exercise</td><td>Sympathetic activation + ↓portal insulin/glucose → glucagon pulse; hepatic glucose output matches muscle uptake; prevents exercise-induced hypoglycaemia</td></tr>
+          <tr><td>Protein meal</td><td>Amino acids (Arg, Lys) depolarise α-cells → glucagon; counteracts insulin secretion to prevent hypoglycaemia after high-protein low-carb meal</td></tr>
+          <tr><td>Hypoglycaemia</td><td>First-line defence below 3.5 mmol/L; emergency kit glucagon (1 mg IM/SC) raises glucose ~3–4 mmol/L within 15 min; impaired in long-standing T1D (α-cell glucagon response defective)</td></tr>
+          <tr><td>Starvation / ketosis</td><td>Sustained low insulin/elevated glucagon → ketogenesis; ketone bodies spare glucose for brain; glucagon:insulin ratio drives metabolic state</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pharmacology &amp; Clinical Use</h2></div>
+    <div class="detail-body">
+      <p><strong>Glucagon emergency kits</strong> — traditional IM powder reconstitution (Glucagen, Novo Nordisk); now replaced by nasal powder (Baqsimi: 3 mg intranasal; GCGR-mediated hepatic glucose output within 10 min) and intradermal autoinjector (Gvoke, dasiglucagon). Standard of care for severe hypoglycaemia in T1D when IV access unavailable.</p>
+      <p><strong>GCGR antagonists</strong> — LGD-6972, MK-0893: block glucagon action → reduce fasting glucose in T2D, but cause compensatory hyperglucagonaemia → α-cell hyperplasia; hepatic side effects (hepatic lipid accumulation). Development largely discontinued.</p>
+      <p><strong>GLP-1/GCGR dual agonists</strong> — cotadutide, survodutide: balance GLP-1 (satiety, insulin secretion) with GCGR (energy expenditure, lipolysis); under investigation for NASH and obesity. Retatrutide (GLP-1/GIP/GCGR triple agonist): Phase 3 trials for obesity — up to 24% body weight reduction, partly via GCGR-mediated ↑energy expenditure and hepatic fat reduction.</p>
+      <p><strong>Glucagon in clinical imaging</strong> — IV glucagon (0.5–2 mg) reduces gastric and bowel motility during upper GI endoscopy, CT colonography, and MRCP — smooth muscle relaxation via GCGR/cAMP/PKA → smooth muscle hyperpolarisation.</p>
+      <div class="principle-box"><strong>Clinical pearl:</strong> Glucagon emergency kits fail in glycogen-depleted patients (prolonged starvation, liver disease, alcohol excess) because there is no glycogen substrate for glycogenolysis. Nasal glucagon avoids injection technique issues (caregivers often fumble powder reconstitution in emergencies) — naloxone-style simplification. IV dextrose (25–50 mL of 50% glucose) is always reliable regardless of glycogen stores.</div>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pathology</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Condition</th><th>Glucagon Status</th><th>Key Features</th></tr></thead>
+        <tbody>
+          <tr><td>T2D hyperglucagonaemia</td><td>Elevated (fasting + post-prandial)</td><td>Failure of post-prandial glucagon suppression; hepatic glucose output continues after meals; 20–30% of post-prandial glucose excursion attributed to excess glucagon</td></tr>
+          <tr><td>Glucagonoma</td><td>Very high (tumour secretion)</td><td>4Ds: Dermatitis (necrolytic migratory erythema), Diabetes, DVT, Depression; also weight loss, glossitis; somatostatin analogue (octreotide) suppresses tumour glucagon; surgical resection</td></tr>
+          <tr><td>T1D: impaired counter-regulation</td><td>Deficient response to hypoglycaemia</td><td>Loss of intra-islet paracrine signals; α-cells no longer sense low glucose → glucagon response impaired after 5+ years of T1D → severe hypoglycaemia risk</td></tr>
+          <tr><td>Multiple endocrine neoplasia type 1 (MEN1)</td><td>Variable</td><td>MEN1 (menin) mutation → pancreatic neuroendocrine tumours including glucagonoma; glucagon part of MEN1 tumour spectrum</td></tr>
+          <tr><td>Post-bariatric hypoglycaemia</td><td>Inappropriate post-prandial suppression</td><td>Roux-en-Y bypass → exaggerated GLP-1 → suppressed glucagon → post-prandial hypoglycaemia (distinct from dumping)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2></div>
+    <div class="detail-body">
+      <p>Glucagon is the direct counterpart to insulin — their molar ratio in portal blood determines hepatic metabolic state (glycogen synthesis vs breakdown). cAMP/PKA directly phosphorylates and inactivates AMPK (Ser485 on α-subunit) — thus glucagon opposes AMPK-driven anabolic/fasting adaptations. Glucagon stimulates hepatic lipolysis complementing adipose lipolysis via HSL. GLP-1 (same proglucagon gene) suppresses glucagon secretion from α-cells via paracrine D-cell somatostatin.</p>
+      <div class="conn-pills">
+        <a class="conn-pill" href="ampk.html">AMPK (glucagon opposes via cAMP/PKA)</a>
+        <a class="conn-pill" href="cholesterol.html">Cholesterol (ketogenesis via mevalonate)</a>
+        <a class="conn-pill" href="leptin.html">Leptin (energy counter-signalling)</a>
+        <a class="conn-pill" href="vasopressin.html">Vasopressin (V1b on α-cells: co-stimulates glucagon)</a>
+        <a class="conn-pill" href="nitric-oxide.html">Nitric oxide (hepatic glucose output modulation)</a>
       </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>glucagon</td></tr>
-            <tr><td>Name</td><td>Glucagon</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="liver.html" title="Glucagon activates GCGR (Gs-GPCR) on hepatocytes → cAMP → PKA → glycogen phosphorylase kinase → glycogenolysis; CREB → ↑PEPCK/G6Pase → ↑gluconeogenesis. The liver is the primary target organ, rapidly raising blood glucose during fasting, hypoglycemia, and exercise."><span class="rel">modulates</span>Liver</a>
-            <a class="conn-pill" href="hepatocyte.html" title="In hepatocytes, PKA phosphorylates glycogen phosphorylase kinase (activating it) and glycogen synthase (inactivating it), simultaneously driving glycogen breakdown and halting synthesis. Glucagon also ↓malonyl-CoA → ↑CPT-1 activity → ↑β-oxidation → ↑ketogenesis from acetyl-CoA."><span class="rel">modulates</span>Hepatocyte</a>
-            <a class="conn-pill" href="insulin.html" title="Insulin suppresses glucagon secretion via paracrine inhibition (GABA and Zn²⁺ from β-cells → α-cell hyperpolarization) and opposes downstream effects (activating glycogen synthase, inhibiting PEPCK). Insulin:glucagon ratio is the master switch for hepatic glucose output."><span class="rel">modulated-by</span>Insulin</a>
-            <a class="conn-pill" href="digestive-system.html" title="GLP-1 from intestinal L-cells (same proglucagon gene) potently suppresses α-cell glucagon secretion. Ingested amino acids directly stimulate α-cells, driving hepatic gluconeogenesis to prevent protein-induced hypoglycemia."><span class="rel">modulates</span>Digestive System</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1152/physrev.00013.2014" target="_blank" rel="noopener noreferrer">Sandoval DA, D'Alessio DA. Physiology of proglucagon peptides: role of glucagon and GLP-1 in health and disease. Physiol Rev. 2015;95(2):513-48.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25834231/" target="_blank" rel="noopener noreferrer">PubMed 25834231</a></li>
-            <li><a href="https://doi.org/10.1152/physrev.1976.56.4.778" target="_blank" rel="noopener noreferrer">Unger RH, Orci L. Physiology and pathophysiology of glucagon. Physiol Rev. 1976;56(4):778-826.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/790423/" target="_blank" rel="noopener noreferrer">PubMed 790423</a></li>
-          </ul>
-        </div>
-
-      </div>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header"><h2>References</h2></div>
+    <div class="detail-body">
+      <ul class="refs">
+        <li>Unger RH, Cherrington AD (2012). Glucagonocentric restructuring of diabetes: a pathophysiologic and therapeutic makeover. <em>J Clin Invest</em> 122:4–12.</li>
+        <li>Bæk MH et al. (2021). Structure of glucagon receptor in complex with a glucagon analogue. <em>Nature</em> 546:256–260.</li>
+        <li>Müller TD et al. (2023). Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em> 30:72–130.</li>
+        <li>Wewer Albrechtsen NJ et al. (2019). The liver–alpha cell axis and type 2 diabetes. <em>Endocr Rev</em> 40:1353–1366.</li>
+        <li>Jørgensen NB et al. (2012). Exaggerated glucagon-like peptide 1 response is important for improved β-cell function and glucose tolerance after Roux-en-Y gastric bypass. <em>Diabetes</em> 62:3044–3052.</li>
+        <li>Hædersdal S et al. (2023). Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial. <em>Lancet</em> 402:2271–2284.</li>
+      </ul>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</main>
+
+<footer>
+  <p>Atlas One · Human · Molecular · Glucagon</p>
+  <p style="margin-top:0.4rem;">
+    Open source · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
+    <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
+  </p>
+  <p style="margin-top:0.4rem; font-size:0.75rem; color:#64748b;">
+    This page is co-maintained with AI assistance. Content is for educational purposes.
+    Always verify clinical information against primary sources. &copy; <span id="yr"></span>
+  </p>
+</footer>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>

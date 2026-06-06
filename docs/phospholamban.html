@@ -3,199 +3,194 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Phospholamban (PLN, gene PLN) — 52-aa transmembrane micropeptide that tonically inhibits SERCA2a by reducing Ca²⁺ affinity (Km ~0.2→0.6 µM). PKA (Ser16) and CaM">
-  <meta property="og:title" content="Phospholamban — Human Engineering">
+  <meta name="description" content="Phospholamban (PLN) — SERCA2a inhibitor, PKA/CaMKII phosphorylation, cardiac lusitropy, heart failure, DCM mutation. Human Engineering Atlas.">
+  <meta property="og:title" content="Phospholamban — Human Engineering Atlas">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Phospholamban — Human Engineering</title>
+  <title>Phospholamban (PLN) — Human Engineering</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff0f0 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    td code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em;background:var(--bg-3);padding:.1em .4em;border-radius:4px}
+    .pathway-block{background:#0f1a14;color:#a8f0c8;border-radius:var(--radius);padding:1.25rem 1.5rem;font-family:ui-monospace,SFMono-Regular,Menlo,"Courier New",monospace;font-size:.82rem;line-height:1.9;overflow-x:auto;margin:1rem 0}
+    .pathway-block .c{color:#4a7a5e}.pathway-block .hi{color:#ffb86b;font-weight:700}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
   </style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>Phospholamban</h1>
-    <p class="tagline">Phospholamban (PLN, gene PLN) — 52-aa transmembrane micropeptide that tonically inhibits SERCA2a by reducing Ca²⁺ affinity (Km ~0.2→0.6 µM). PKA (Ser16) and CaMKII (Thr17) phosphorylation reverse inhibition, producing lusitropy and increased SR Ca²⁺ loading.</p>
-    <p class="aliases">Also known as: PLN, phospholamban micropeptide, cardiac phospholamban</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="serca2a.html">SERCA2a</a>
+      <a href="cardiomyocyte.html">Cardiomyocyte</a>
     </div>
   </div>
+</nav>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Atlas One · Human · Molecular · UniProt P26678</p>
+    <h1>Phospho<span>lamban</span></h1>
+    <p class="hero-lead">Phospholamban (PLN, gene <em>PLN</em>) — a 52-amino acid transmembrane micropeptide and the tonic inhibitor of SERCA2a. In its dephosphorylated state PLN reduces SERCA2a Ca²⁺ affinity (Km shifts ~0.2 → 0.6 µM). PKA phosphorylation at Ser16 (downstream of β1-AR) or CaMKII phosphorylation at Thr17 relieves inhibition, producing lusitropy and increased SR Ca²⁺ loading — the molecular relay of sympathetic cardiac reserve.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span><strong>Gene:</strong> PLN · 6q22.31</span>
+  <span><strong>UniProt:</strong> P26678</span>
+  <span><strong>Size:</strong> 52 amino acids, ~6 kDa</span>
+  <span><strong>Scale:</strong> 03-Molecular</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="overview">
+    <h2>Overview</h2>
+    <p>Phospholamban (PLN) is a <strong>52-amino acid transmembrane micropeptide</strong> expressed almost exclusively in cardiac muscle and slow-twitch skeletal muscle. It functions as the <strong>tonic inhibitor of SERCA2a</strong> — the SR Ca²⁺-ATPase that removes ~70% of cytosolic Ca²⁺ after each contraction. In its dephosphorylated state, PLN associates with SERCA2a and reduces the pump's apparent Ca²⁺ affinity, shifting its Km from ~0.2 µM (uninhibited) to ~0.6 µM — a threefold shift that significantly reduces pump rate at the low Ca²⁺ concentrations of diastole (~100 nM).</p>
+    <p>When PLN is phosphorylated at <strong>Ser16</strong> (by PKA, downstream of β1-adrenergic stimulation) or at <strong>Thr17</strong> (by CaMKII), it dissociates from SERCA2a, restoring full pump activity. Faster Ca²⁺ reuptake simultaneously: (1) lowers diastolic [Ca²⁺] faster → faster muscle relaxation (lusitropy); and (2) increases SR Ca²⁺ loading → larger systolic Ca²⁺ transient next beat → greater contractility. PLN is thus the molecular relay through which sympathetic activation simultaneously increases contractility and ensures complete relaxation between now-faster beats.</p>
+    <div class="callout"><strong>Physiological brake:</strong> PLN inhibition is the substrate for β-adrenergic reserve. In PLN-knockout mice, basal contractility is enhanced (SERCA2a is fully active), but the additional catecholamine response is blunted — the heart loses its sympathetic reserve. PLN is not merely a brake; it is the stored potential for catecholamine-driven performance.</div>
+  </div>
+
+  <div class="section" id="structure">
+    <h2>Structure</h2>
+    <h3>Protein Domains</h3>
+    <table>
+      <thead><tr><th>Domain</th><th>Residues</th><th>Key features</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Cytoplasmic domain Ia</strong></td><td>1–20</td><td>Disordered in solution; contains <strong>Ser16</strong> (PKA site) and <strong>Thr17</strong> (CaMKII site); forms amphipathic helix upon SERCA2a binding; carries negative charge on phosphorylation → steric and electrostatic disruption of PLN–SERCA2a interface</td></tr>
+        <tr><td><strong>Cytoplasmic domain Ib</strong></td><td>21–30</td><td>Linker connecting cytoplasmic to TM domain</td></tr>
+        <tr><td><strong>Transmembrane domain</strong></td><td>31–52</td><td>α-helix in SR membrane; engages SERCA2a TM2/TM6/TM9 helices; stabilizes SERCA2a E2 (low Ca²⁺-affinity) conformation</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Pentameric Storage Form</h3>
+    <p>In resting cardiac SR, PLN protomers exist in equilibrium between: <strong>monomers</strong> (the active inhibitory species that bind SERCA2a) and a <strong>pentamer</strong> (the inactive storage form — five PLN protomers form a "pinwheel" structure). PKA phosphorylation of monomers shifts the equilibrium toward phosphorylated monomers, recruiting additional monomers from the pentamer pool and amplifying the regulatory range.</p>
+
+    <h3>Phosphorylation Sites</h3>
+    <table>
+      <thead><tr><th>Site</th><th>Kinase</th><th>Effect</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Ser16</strong></td><td>PKA (cAMP, downstream of β1-AR)</td><td>Dominant acute regulatory site; introduces negative charge → disrupts PLN–SERCA2a interface → SERCA2a Ca²⁺ affinity restored; Ser16-Ala mutation abolishes β-agonist lusitropic effect</td></tr>
+        <tr><td><strong>Thr17</strong></td><td>CaMKII (activated by rising [Ca²⁺]/CaM)</td><td>Frequency-dependent augmentation; contributes to SR Ca²⁺ loading at higher heart rates (Bowditch effect); Thr17 phosphorylation increases during exercise even without catecholamines</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="mechanism">
+    <h2>Mechanism</h2>
+    <h3>PLN–SERCA2a Inhibition and β-AR Relief Pathway</h3>
+    <div class="pathway-block">
+<span class="c">── Phospholamban regulatory axis ─────────────────────────</span>
+
+RESTING STATE (low sympathetic tone):
+  PLN dephosphorylated (~60–80% dephospho at rest)
+  <span class="hi">PLN-TM</span> engages SERCA2a TM2/6/9 → stabilizes E2 conformation
+  <span class="hi">PLN-Ia</span> contacts SERCA2a actuator domain
+  → Km for Ca²⁺ shifts: 0.2 µM (free) → 0.6 µM (PLN-bound)
+  → SERCA2a pump rate ~50% of maximum at diastolic [Ca²⁺]
+  → Ca²⁺ transient decay τ ~150–200 ms (human ventricle)
+
+SYMPATHETIC STIMULATION:
+  NE → <span class="hi">β1-AR</span> → Gαs → adenylyl cyclase → ↑cAMP
+  ↓
+  <span class="hi">PKA</span> phosphorylates <span class="hi">PLN Ser16</span>
+  ↓
+  Negative charge on PLN-Ia → electrostatic repulsion from SERCA2a
+  PLN disengages (or adopts non-inhibitory orientation)
+  ↓
+  SERCA2a operates at intrinsic Ca²⁺ affinity: Km ~0.2 µM
+  → FASTER Ca²⁺ reuptake → SHORTER decay τ
+  → FASTER relaxation (lusitropy) ✓
+  → HIGHER SR Ca²⁺ load per cycle
+  → LARGER systolic Ca²⁺ transient next beat (inotropy) ✓
+
+FREQUENCY-DEPENDENT (CaMKII):
+  Higher heart rate → more Ca²⁺ per unit time
+  → CaMKII activated → <span class="hi">PLN Thr17</span> phosphorylated
+  → Additional SERCA2a disinhibition → even more SR loading
+  → Positive force-frequency (Bowditch) effect ✓
     </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">phospholamban</div>
-        <h2>Phospholamban</h2>
-        <p class="summary">Phospholamban (PLN, gene PLN) — 52-aa transmembrane micropeptide that tonically inhibits SERCA2a by reducing Ca²⁺ affinity (Km ~0.2→0.6 µM). PKA (Ser16) and CaMKII (Thr17) phosphorylation reverse inhibition, producing lusitropy and increased SR Ca²⁺ loading.</p>
-      </div>
-      <div class="detail-body">
+    <h3>Inhibition Mechanism: Two-Component</h3>
+    <p>Unphosphorylated PLN inhibits SERCA2a by: (1) <strong>Transmembrane interaction</strong> — PLN TM helix packs against SERCA2a TM2/TM6/TM9, stabilizing the low-Ca²⁺-affinity E2 state; (2) <strong>Cytoplasmic interaction</strong> — PLN domain Ia contacts SERCA2a's actuator domain, impeding the domain movements required for Ca²⁺ binding and translocation. The net kinetic effect is a threefold increase in Km at diastolic [Ca²⁺], reducing pump rate approximately twofold at 100 nM [Ca²⁺], while having negligible effect at systolic [Ca²⁺] (~1 µM) where SERCA2a is saturated regardless.</p>
+  </div>
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>phospholamban</td></tr>
-            <tr><td>Name</td><td>Phospholamban</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-            <tr><td>Uniprot</td><td>P26678</td></tr>
-            <tr><td>Gene Symbol</td><td>PLN</td></tr>
-            <tr><td>Chromosome</td><td>6q22.31</td></tr>
-          </table>
-        </div>
+  <div class="section" id="pathology">
+    <h2>Pathology</h2>
+    <table>
+      <thead><tr><th>Disease</th><th>PLN mechanism</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Heart failure (HFrEF)</strong></td><td>PLN hyperinhibition of SERCA2a: elevated PP1/PP2A phosphatase activity + reduced PKA signaling → less PLN phosphorylation → slower Ca²⁺ reuptake → impaired diastolic relaxation + reduced SR Ca²⁺ load → reduced systolic Ca²⁺ transient → reduced contractility. Core mechanism of both systolic and diastolic dysfunction.</td></tr>
+        <tr><td><strong>PLN Arg9Cys mutation</strong></td><td>Dominant-negative PLN that cannot be phosphorylated by PKA; super-inhibits SERCA2a constitutively; causes a well-characterized familial dilated cardiomyopathy (DCM). One of the few single-gene DCM cases with a fully explained molecular mechanism.</td></tr>
+        <tr><td><strong>PLN Leu39stop (null in homozygous)</strong></td><td>PLN loss-of-function; not known to cause severe human disease; mouse PLN-KO has enhanced basal contractility but blunted β-agonist reserve — demonstrates PLN's dual role as brake and reserve substrate.</td></tr>
+        <tr><td><strong>Diastolic dysfunction (HFpEF)</strong></td><td>Impaired PLN phosphorylation and elevated PP1 activity → SERCA2a remains tonically inhibited → prolonged Ca²⁺ transient decay → elevated diastolic Ca²⁺ → slower isovolumic relaxation → elevated filling pressures. A significant mechanistic contributor to HFpEF.</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="serca2a.html" title="Dephosphorylated PLN binds SERCA2a and reduces its Ca²⁺ affinity, slowing SR Ca²⁺ reuptake at diastolic [Ca²⁺]. Phosphorylation of PLN relieves this inhibition — a central regulatory switch in cardiac contractility."><span class="rel">modulates</span>Serca2A</a>
-            <a class="conn-pill" href="beta1-adrenergic-receptor.html" title="β1-AR/PKA phosphorylates PLN at Ser16 (the dominant site in acute sympathetic stimulation), relieving SERCA2a inhibition → faster SR Ca²⁺ reuptake → faster relaxation and increased SR Ca²⁺ loading."><span class="rel">modulated-by</span>Beta1 Adrenergic Receptor</a>
-          </div>
-        </div>
+  <div class="section" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">modulates</span><span><a href="serca2a.html">SERCA2a</a> — direct physiological inhibitor; the PLN–SERCA2a binary interaction is the primary molecular determinant of cardiac relaxation rate</span></li>
+      <li><span class="conn-rel">modulated-by</span><span>β1-adrenergic receptor — PKA downstream of β1-AR phosphorylates PLN Ser16; the dominant switch that relieves SERCA2a inhibition and produces sympathetic lusitropy</span></li>
+      <li><span class="conn-rel">modulated-by</span><span>CaMKII — phosphorylates PLN Thr17; frequency-dependent partial disinhibition of SERCA2a; contributes to Bowditch effect</span></li>
+      <li><span class="conn-rel">expressed-by</span><span><a href="cardiomyocyte.html">Cardiomyocyte</a> — PLN is expressed almost exclusively in cardiac and slow-twitch skeletal muscle; resident in longitudinal SR membrane</span></li>
+    </ul>
+  </div>
 
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://doi.org/10.1038/nrm1151" target="_blank" rel="noopener noreferrer">MacLennan DH, Kranias EG. Phospholamban: a crucial regulator of cardiac contractility. Nat Rev Mol Cell Biol. 2003;4(7):566-77.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12838339/" target="_blank" rel="noopener noreferrer">PubMed 12838339</a></li>
-            <li><a href="https://doi.org/10.1007/978-1-4020-6191-2_20" target="_blank" rel="noopener noreferrer">Kranias EG, Bers DM. Calcium and cardiomyopathies. Subcell Biochem. 2007;45:523-37.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18193649/" target="_blank" rel="noopener noreferrer">PubMed 18193649</a></li>
-            <li><a href="https://doi.org/10.1152/physrev.1998.78.4.921" target="_blank" rel="noopener noreferrer">Simmerman HK, Jones LR. Phospholamban: protein structure, mechanism of action, and role in cardiac function. Physiol Rev. 1998;78(4):921-47.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9790566/" target="_blank" rel="noopener noreferrer">PubMed 9790566</a></li>
-            <li><a href="https://doi.org/10.1126/science.1081578" target="_blank" rel="noopener noreferrer">Schmitt JP, Kamisago M, Asahi M, et al. Dilated cardiomyopathy and heart failure caused by a mutation in phospholamban. Science. 2003;299(5611):1410-3.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12610310/" target="_blank" rel="noopener noreferrer">PubMed 12610310</a></li>
-          </ul>
-        </div>
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>MacLennan DH, Kranias EG. <a href="https://doi.org/10.1038/nrm1151" target="_blank" rel="noopener">Phospholamban: a crucial regulator of cardiac contractility.</a> <em>Nat Rev Mol Cell Biol.</em> 2003;4(7):566–77. PubMed 12838339.</li>
+      <li>Simmerman HK, Jones LR. <a href="https://doi.org/10.1152/physrev.1998.78.4.921" target="_blank" rel="noopener">Phospholamban: protein structure, mechanism of action, and role in cardiac function.</a> <em>Physiol Rev.</em> 1998;78(4):921–47. PubMed 9790566.</li>
+      <li>Schmitt JP, Kamisago M, Asahi M, et al. <a href="https://doi.org/10.1126/science.1081578" target="_blank" rel="noopener">Dilated cardiomyopathy and heart failure caused by a mutation in phospholamban.</a> <em>Science.</em> 2003;299(5611):1410–3. PubMed 12610310.</li>
+      <li>Kranias EG, Bers DM. Calcium and cardiomyopathies. <em>Subcell Biochem.</em> 2007;45:523–37. <a href="https://doi.org/10.1007/978-1-4020-6191-2_20" target="_blank" rel="noopener">doi:10.1007/978-1-4020-6191-2_20</a> PubMed 18193649.</li>
+    </ol>
+  </div>
 
-      </div>
-    </div>
-  </main>
+</div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<footer>
+  <p><a href="index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> · bpupadhyaya@gmail.com</p>
+  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</p>
+</footer>
 </body>
 </html>

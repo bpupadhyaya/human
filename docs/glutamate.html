@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Principal excitatory neurotransmitter in the CNS (~80% of brain synapses). Activates AMPA, NMDA, and kainate ionotropic receptors and mGluR1–8 GPCRs. NMDA-depen">
-  <meta property="og:title" content="Glutamate — Human Engineering">
+  <meta name="description" content="Glutamate (Glu) — the principal excitatory neurotransmitter of the CNS (~80% of brain synapses). AMPA/NMDA/kainate ionotropic receptors; NMDA coincidence detection drives LTP and memory; excitotoxicity causes ischemic neuronal death. Human Engineering project.">
+  <meta property="og:title" content="Glutamate (Glu) — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Glutamate — Human Engineering</title>
+  <title>Glutamate (Glu) — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #dc2626;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,46 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #991b1b); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .principle-box { background: rgba(220,38,38,0.06); border: 1px solid rgba(220,38,38,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +94,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,65 +106,280 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>Glutamate</h1>
-    <p class="tagline">Principal excitatory neurotransmitter in the CNS (~80% of brain synapses). Activates AMPA, NMDA, and kainate ionotropic receptors and mGluR1–8 GPCRs. NMDA-dependent LTP is the molecular basis of learning; excitotoxicity drives ischemic neuronal death.</p>
-    <p class="aliases">Also known as: Glu, L-glutamate, glutamic acid, excitatory amino acid</p>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
+    <h1>Glutamate (Glu)</h1>
+    <p class="tagline">The brain's primary excitatory drive — glutamate mediates fast synaptic transmission at ~80% of CNS synapses and, via NMDA coincidence detection, provides the molecular basis of long-term potentiation and memory formation.</p>
+    <p class="subtagline">MW 147.13 g/mol. Non-essential amino acid; CNS pool synthesised from glutamine via mitochondrial glutaminase — an obligate astrocyte-neuron partnership. Three ionotropic receptor families (AMPA, NMDA, kainate) plus 8 metabotropic GPCRs (mGluR1–8). NMDA receptor Mg²⁺ block provides voltage-gated coincidence detection. Excitotoxic over-activation drives ischemic neuronal death and ALS.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">147.13</span><span class="stat-label">MW (g/mol)</span></div>
+      <div class="stat"><span class="stat-num">~80%</span><span class="stat-label">CNS synapses (excitatory)</span></div>
+      <div class="stat"><span class="stat-num">AMPA / NMDA / KA</span><span class="stat-label">Ionotropic receptor families</span></div>
+      <div class="stat"><span class="stat-num">EAAT1/2</span><span class="stat-label">Astrocyte reuptake transporters</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">glutamate</div>
-        <h2>Glutamate</h2>
-        <p class="summary">Principal excitatory neurotransmitter in the CNS (~80% of brain synapses). Activates AMPA, NMDA, and kainate ionotropic receptors and mGluR1–8 GPCRs. NMDA-dependent LTP is the molecular basis of learning; excitotoxicity drives ischemic neuronal death.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Excitatory Neurotransmitter</div>
+        <h2>Glutamate (Glu)</h2>
+        <div class="drug-class">Class: Dicarboxylic amino acid &nbsp;&middot;&nbsp; Principal excitatory neurotransmitter &nbsp;|&nbsp; Synthesis: Glutaminase (presynaptic mitochondria) &nbsp;|&nbsp; Reuptake: EAAT1–5 &nbsp;|&nbsp; Ionotropic receptors: AMPA, NMDA, Kainate &nbsp;|&nbsp; Metabotropic: mGluR1–8</div>
+        <p class="summary">Glutamate (L-glutamic acid; Glu) is the most abundant neurotransmitter in the mammalian brain, mediating fast excitatory synaptic transmission at approximately 80% of all CNS synapses. It spans the full range from the molecular basis of intelligence — through the NMDA receptor's role as a coincidence detector underlying long-term potentiation (LTP) and memory — to the mechanism of ischemic brain death via excitotoxicity. Three families of ionotropic glutamate receptors (AMPA: fast EPSPs; NMDA: Ca²⁺-permeable coincidence detector; kainate: presynaptic modulation) and eight metabotropic mGluR GPCRs (mGluR1–8) mediate its diverse signalling. Astrocytes provide the crucial glutamine-glutamate shuttle that recycles released glutamate and maintains the CNS pool separate from metabolic glutamate.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Glu</span>
+          <span class="alias-pill">L-glutamate</span>
+          <span class="alias-pill">glutamic acid</span>
+          <span class="alias-pill">excitatory amino acid (EAA)</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>glutamate</td></tr>
-            <tr><td>Name</td><td>Glutamate</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-          </table>
+          <h3>Overview &amp; Structure</h3>
+          <p>Glutamate is a <strong>dicarboxylic α-amino acid</strong> (formula C₅H₉NO₄; MW 147.13 g/mol) carrying a net negative charge at physiological pH (γ-carboxylate pKa ~4.1, fully deprotonated at pH 7.4). It cannot cross the blood-brain barrier efficiently — the CNS pool is synthesised locally from glutamine supplied by perisynaptic astrocytes, forming the <strong>glutamine-glutamate cycle</strong>.</p>
+          <p>Intraneuronally, glutamate is compartmentalised: cytosolic glutamate is ~10 mM (used for metabolism), but only vesicular glutamate (packaged by VGLUT1/2/3) is available for synaptic release. This compartmentalisation ensures that metabolic and signalling pools remain distinct.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="neuron.html" title="Glutamate activates AMPA, NMDA, and kainate receptors on postsynaptic neurons, depolarizing them and triggering action potentials in downstream circuits."><span class="rel">modulates</span>Neuron</a>
-            <a class="conn-pill" href="neuron.html" title="Synthesized and released by glutamatergic neurons — the most abundant neuron type in the CNS."><span class="rel">expressed-by</span>Neuron</a>
-            <a class="conn-pill" href="synapse.html" title="Mediates fast excitatory synaptic transmission and LTP induction at excitatory synapses."><span class="rel">modulates</span>Synapse</a>
-            <a class="conn-pill" href="brain.html" title="Drives excitatory signaling underlying perception, cognition, plasticity, and—in excess—excitotoxic injury."><span class="rel">modulates</span>Brain</a>
-            <a class="conn-pill part" href="nervous-system.html" title="Glutamate is the dominant excitatory neurotransmitter throughout the CNS."><span class="rel">part-of</span>Nervous System</a>
+          <h3>Synthesis, Release &amp; Glutamine-Glutamate Cycle</h3>
+          <div class="pathway-block">
+<pre>
+  ASTROCYTE                          NEURON (presynaptic)
+  ─────────────────────────────      ──────────────────────────────
+  Glutamine synthesised from         Glutamine imported via SN1/SN2
+  glutamate by glutamine synthetase  (SNAT1/SNAT2) transporters
+  (glutamine synthetase, GS)                │
+          │                                  ▼
+          │ Exported via SNAT3/SNAT5         Glutaminase (mitochondrial)
+          └──────────────────────►           Glutamine → Glutamate + NH₃
+                                             │
+                                             ▼
+                              Glutamate packaged by VGLUT1/2/3
+                              (SLC17A6/7/8) into synaptic vesicles
+                                             │
+                              Ca²⁺-triggered SNARE exocytosis
+                                             │
+                                             ▼
+                              SYNAPTIC CLEFT: [Glu] rises to ~1–3 mM
+                                             │
+                              Binds AMPA, NMDA, kainate receptors
+                                             │
+                              EAAT1 (GLAST) and EAAT2 (GLT-1)
+                              astrocyte reuptake → 90% of released Glu
+                              [Converted back to glutamine by GS]
+                                             │
+                              EAAT3 (EAAC1) presynaptic reuptake (minor)
+</pre>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Mechanism of Action — AMPA, NMDA, and LTP</h3>
+          <div class="pathway-block">
+<pre>
+  FAST EXCITATORY TRANSMISSION  (AMPA receptor — millisecond timescale)
+  ──────────────────────────────────────────────────────────────────────
+  Glutamate release → AMPA (GluA1-4 tetramers) binds
+        │  Na⁺ influx + K⁺ efflux → fast EPSC
+        ▼
+  Postsynaptic membrane depolarises → summates → reaches threshold → AP
+
+  NMDA COINCIDENCE DETECTION  (memory gate — voltage + ligand dual requirement)
+  ─────────────────────────────────────────────────────────────────────────────
+  At resting potential (−70 mV):
+        NMDA channel pore blocked by Mg²⁺ (1 mM extracellular)
+        Even with glutamate + glycine co-agonist bound → CHANNEL CLOSED
+
+  Simultaneous requirements for NMDA opening:
+  1. Glutamate (presynaptic activity) binds GluN2 subunit
+  2. Glycine / D-serine (co-agonist) binds GluN1 subunit
+  3. Membrane depolarisation (~−30 mV) → expels Mg²⁺ block (postsynaptic activity)
+        │
+        ▼
+  Ca²⁺ floods through NMDA channel
+        │
+        ▼
+  CaMKII (Ca²⁺/calmodulin kinase II) activated
+        ├─ Phosphorylates GluA1 Ser831 → ↑AMPA channel conductance
+        ├─ Drives AMPA receptor insertion into postsynaptic density (PSD)
+        └─ Recruits AMPA from recycling endosomes → ↑synaptic AMPA → LTP
+        │
+        ▼
+  LTP: synapse is stronger for future activation — MEMORY ENCODED
+  ("Neurons that fire together, wire together" — Hebb's rule, NMDA mechanism)
+
+  EXCITOTOXICITY  (NMDA over-activation in ischemia)
+  ────────────────────────────────────────────────────
+  Ischemia → O₂/glucose deprivation → reversal of EAATs → massive Glu release
+        │  Sustained NMDA activation → Ca²⁺ overload
+        ▼
+  Calpains, phospholipases, nNOS (NO•) → mitochondrial permeability transition
+        │
+        ▼  Neuronal death in infarct core and penumbra
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Receptor Families</h3>
+          <table class="data-table">
+            <tr><th>Receptor</th><th>Subunits</th><th>Ion Selectivity</th><th>Key Features</th><th>Clinical Target</th></tr>
+            <tr>
+              <td><strong>AMPA</strong></td>
+              <td>GluA1–4 (heterotetramers); GluA2 subunit determines Ca²⁺ permeability</td>
+              <td>Na⁺, K⁺ (Ca²⁺ if GluA2-lacking)</td>
+              <td>Fast (0.2–0.5 ms) EPSPs; primary carrier of excitatory current; GluA2-lacking AMPA permeable to Ca²⁺ (important in pathological plasticity)</td>
+              <td>Perampanel (AMPA antagonist) — focal + generalised epilepsy; research into ALS/schizophrenia</td>
+            </tr>
+            <tr>
+              <td><strong>NMDA</strong></td>
+              <td>GluN1 (mandatory) + GluN2A–D ± GluN3 (heterotetramers)</td>
+              <td>Na⁺, K⁺, Ca²⁺ (high; ~10% of current)</td>
+              <td>Voltage-dependent Mg²⁺ block; slow kinetics (100s ms); requires glycine/D-serine co-agonist; coincidence detector; LTP induction; excitotoxicity</td>
+              <td>Memantine (partial antagonist, low-affinity open-channel blocker) — Alzheimer's disease; ketamine (NMDA antagonist) — anaesthesia, TRD; amantadine — Parkinson's disease dyskinesias</td>
+            </tr>
+            <tr>
+              <td><strong>Kainate</strong></td>
+              <td>GluK1–5 (homo- or heteromers)</td>
+              <td>Na⁺, K⁺</td>
+              <td>Presynaptic autoreceptors modulating glutamate and GABA release; modulate network excitability; high density in CA3 and amygdala</td>
+              <td>GluK1 antagonism investigated for seizures; topiramate partially blocks kainate receptors</td>
+            </tr>
+            <tr>
+              <td><strong>mGluR Group I</strong> (mGluR1/5)</td>
+              <td>Dimeric 7-TM GPCR (Class C)</td>
+              <td>Gαq → PLC → IP3/DAG</td>
+              <td>Postsynaptic; potentiate NMDA receptor function; modulate LTP and LTD; mGluR5 associated with fragile X, addiction, anxiety</td>
+              <td>mGluR5 NAMs (mavoglurant, basimglustat) for Fragile X syndrome in trials; MPEP (tool compound)</td>
+            </tr>
+            <tr>
+              <td><strong>mGluR Group II</strong> (mGluR2/3)</td>
+              <td>Dimeric GPCR (Class C)</td>
+              <td>Gαi → ↓cAMP</td>
+              <td>Presynaptic autoreceptors — limit glutamate release; widespread CNS expression</td>
+              <td>mGluR2/3 agonists (pomaglumetad) trialled for schizophrenia; limited clinical success</td>
+            </tr>
+            <tr>
+              <td><strong>mGluR Group III</strong> (mGluR4/6/7/8)</td>
+              <td>Dimeric GPCR (Class C)</td>
+              <td>Gαi → ↓cAMP</td>
+              <td>Presynaptic heteroreceptors; mGluR6 retinal ON-bipolar cells; mGluR4 basal ganglia (direct pathway modulation)</td>
+              <td>mGluR4 PAMs for Parkinson's disease in preclinical/early clinical development</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Roles — Organ System Table</h3>
+          <table class="data-table">
+            <tr><th>System</th><th>Glutamate Role</th><th>Receptor</th><th>Functional Outcome</th></tr>
+            <tr><td><strong>Hippocampus</strong></td><td>Schaffer collateral LTP — basis of declarative memory; DG mossy fibre → CA3 → CA1 circuit</td><td>NMDA (LTP induction), AMPA (expression)</td><td>Memory encoding and consolidation; deficit → amnesia</td></tr>
+            <tr><td><strong>Cortex</strong></td><td>Inter-cortical communication; NMDA-mediated predictive coding; layer II/III pyramidal → layer V output</td><td>AMPA + NMDA</td><td>Perception, executive function, working memory, attention</td></tr>
+            <tr><td><strong>Cerebellum</strong></td><td>Parallel fibre → Purkinje cell synapses (AMPA); climbing fibre error signal; LTD at PF-PC</td><td>AMPA (PF), NMDA (CF components)</td><td>Motor learning, adaptation, fine timing</td></tr>
+            <tr><td><strong>Basal ganglia</strong></td><td>Corticostriatal glutamatergic drive onto MSNs; dopamine gates this signal</td><td>AMPA + NMDA on striatal MSNs</td><td>Motor programme selection; habit learning; addiction (dopamine-glutamate interaction)</td></tr>
+            <tr><td><strong>Spinal cord</strong></td><td>Primary afferent C-fibre → dorsal horn (pain sensitisation); NMDA central sensitisation</td><td>AMPA + NMDA on dorsal horn neurons</td><td>Acute and chronic pain; central sensitisation; wind-up phenomenon</td></tr>
+            <tr><td><strong>Retina</strong></td><td>Photoreceptor → bipolar cell synaptic transmission (ON-bipolar via mGluR6)</td><td>mGluR6 (ON-bipolar), AMPA/KA (OFF-bipolar)</td><td>Light signal transduction; visual processing</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pharmacology</h3>
+          <table class="data-table">
+            <tr><th>Drug / Class</th><th>Target</th><th>Mechanism</th><th>Primary Use</th></tr>
+            <tr>
+              <td><strong>Memantine</strong></td>
+              <td>NMDA (low-affinity, voltage-dependent open-channel blocker)</td>
+              <td>Preferentially blocks tonically open NMDA channels in excitotoxic conditions; spares physiological phasic NMDA activation</td>
+              <td>Alzheimer's disease (moderate-severe); modest symptomatic benefit; combined with AChEi</td>
+            </tr>
+            <tr>
+              <td><strong>Ketamine / Esketamine</strong></td>
+              <td>NMDA (dissociative antagonist, channel blocker)</td>
+              <td>Rapid NMDA blockade → burst of synaptic AMPA activity → BDNF release → rapid antidepressant effect (mechanism partially understood)</td>
+              <td>Anaesthesia induction (ketamine); treatment-resistant depression (esketamine intranasal, FDA 2019); acute pain; PTSD (investigational)</td>
+            </tr>
+            <tr>
+              <td><strong>Perampanel</strong></td>
+              <td>AMPA receptor (non-competitive antagonist)</td>
+              <td>Reduces AMPA-mediated postsynaptic excitation → ↓seizure propagation</td>
+              <td>Focal epilepsy with/without generalisation; primary generalised tonic-clonic seizures (add-on)</td>
+            </tr>
+            <tr>
+              <td><strong>Riluzole</strong></td>
+              <td>Glutamate release inhibition + Nav blockade</td>
+              <td>Reduces presynaptic glutamate release; also Nav channel blockade; reduces excitotoxic burden on motor neurons</td>
+              <td>ALS — only approved disease-modifying drug extending survival ~2–3 months</td>
+            </tr>
+            <tr>
+              <td><strong>Amantadine</strong></td>
+              <td>NMDA (low-affinity channel blocker) + dopaminergic</td>
+              <td>Blocks NMDA → reduces L-DOPA-induced dyskinesias; also increases dopamine release/reuptake block</td>
+              <td>Parkinson's disease dyskinesias; also influenza (antiviral, largely obsolete)</td>
+            </tr>
+            <tr>
+              <td><strong>Topiramate</strong></td>
+              <td>Multiple: kainate/AMPA block + Nav + GABA-A + CA inhibition</td>
+              <td>Reduces glutamatergic excitation (kainate/AMPA block) and enhances GABAergic inhibition; broad anti-seizure</td>
+              <td>Focal and generalised epilepsy; migraine prophylaxis; weight loss (in combination); cognitive side effects limit use</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>Glutamate Perturbation</th><th>Mechanism</th><th>Clinical Relevance</th></tr>
+            <tr><td><strong>Ischemic stroke</strong></td><td>Massive excitotoxic Glu release → NMDA Ca²⁺ overload</td><td>Ischemia → energy failure → EAAT reversal + vesicular Glu release → sustained NMDA → calpain/NOS activation → mitochondrial failure → necrosis</td><td>tPA reperfusion (4.5h window); thrombectomy (6–24h); NMDA antagonists (neuroprotection) — failed in trials; hypothermia for neonatal HIE</td></tr>
+            <tr><td><strong>ALS</strong></td><td>Impaired astrocytic Glu reuptake (↓EAAT2/GLT-1)</td><td>EAAT2 splicing errors + oxidative modification → motor neuron Glu excitotoxicity; selective vulnerability of spinal/cortical motor neurons</td><td>Riluzole (↓Glu release, extends survival); edaravone (antioxidant); tofersen (SOD1 ASO)</td></tr>
+            <tr><td><strong>Epilepsy</strong></td><td>E/I shift toward excess excitation</td><td>AMPA or NMDA gain-of-function mutations (GRIN2A, GRIN2B); glutamate reuptake impairment; circuit disinhibition</td><td>Perampanel, topiramate, memantine (limited), ketogenic diet (shifts fuel from glutamate toward ketone bodies)</td></tr>
+            <tr><td><strong>Schizophrenia (NMDA hypofunction)</strong></td><td>↓NMDA function on GABAergic PV interneurons → disinhibition of pyramidal cells</td><td>Phencyclidine (PCP) and ketamine induce psychosis-like symptoms in healthy subjects — supports NMDA hypofunction hypothesis; GRIN2A mutations in schizophrenia genetics</td><td>No approved NMDA-targeting antipsychotics yet; glycine site co-agonists (D-serine, glycine) show modest benefit in trials</td></tr>
+            <tr><td><strong>Alzheimer's Disease</strong></td><td>Dysregulated NMDA signalling + amyloid-driven excitotoxicity</td><td>Aβ oligomers potentiate NMDA activity → Ca²⁺ overload → synaptic loss; tau-mediated AMPA surface loss</td><td>Memantine (moderate-severe AD); combination with donepezil; lecanemab/donanemab (amyloid clearance) upstream</td></tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>NMDA-hypofunction paradox:</strong> Too much NMDA activation (excitotoxicity in ischemia) and too little NMDA activation (NMDA hypofunction in schizophrenia) both cause disease. The difference: <strong>excitotoxicity</strong> involves sustained NMDA current in neurons with high baseline activity (stroke), while <strong>NMDA hypofunction</strong> preferentially silences fast-spiking PV interneurons (which require high tonic NMDA drive) → loss of inhibitory control → disinhibited pyramidal cell activity that paradoxically increases dopamine release. Ketamine at anaesthetic doses → excitotoxic concern; ketamine at sub-anaesthetic doses → rapidly reverses depression (AMPA-mediated synaptic potentiation).</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="gaba.html" class="conn-pill acts">
+              <span class="rel">Opposed by</span>
+              GABA (E/I balance)
+            </a>
+            <a href="nervous-system.html" class="conn-pill acts">
+              <span class="rel">Drives</span>
+              Nervous System excitation
+            </a>
+            <a href="dopamine.html" class="conn-pill targets">
+              <span class="rel">Gated by</span>
+              Dopamine (corticostriatal LTP)
+            </a>
+            <a href="serotonin.html" class="conn-pill acts">
+              <span class="rel">Modulated by</span>
+              Serotonin (5-HT2A on glutamatergic neurons)
+            </a>
+            <a href="hippocampus.html" class="conn-pill acts">
+              <span class="rel">Mediates LTP in</span>
+              Hippocampus
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Target of</span>
+              Ketamine / Memantine / Perampanel
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/j.neuron.2004.09.012" target="_blank" rel="noopener noreferrer">Malenka RC, Bear MF. LTP and LTD: an embarrassment of riches. Neuron. 2004;44(1):5-21.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15450155/" target="_blank" rel="noopener noreferrer">PubMed 15450155</a></li>
-            <li>Bhatt DL et al. (see Dingledine R, Borges K, Bowie D, Traynelis SF). The glutamate receptor ion channels. Pharmacol Rev. 1999;51(1):7-61. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10049997/" target="_blank" rel="noopener noreferrer">PubMed 10049997</a></li>
-            <li>Dingledine R, Borges K, Bowie D, Traynelis SF. The glutamate receptor ion channels. Pharmacol Rev. 1999;51(1):7-61. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10049997/" target="_blank" rel="noopener noreferrer">PubMed 10049997</a></li>
-            <li><a href="https://doi.org/10.1126/science.164.3880.719" target="_blank" rel="noopener noreferrer">Olney JW. Brain lesions, obesity, and other disturbances in mice treated with monosodium glutamate. Science. 1969;164(3880):719-721.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/5778021/" target="_blank" rel="noopener noreferrer">PubMed 5778021</a></li>
-            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy and Physiology 2e. Chapter 12: The Nervous System. Rice University; 2022.</a></li>
+            <li>Malenka RC, Bear MF. LTP and LTD: an embarrassment of riches. <em>Neuron.</em> 2004;44(1):5-21. <a href="https://doi.org/10.1016/j.neuron.2004.09.012">doi:10.1016/j.neuron.2004.09.012</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15450155/">PubMed 15450155</a></li>
+            <li>Dingledine R, Borges K, Bowie D, Traynelis SF. The glutamate receptor ion channels. <em>Pharmacol Rev.</em> 1999;51(1):7-61. <a href="https://pubmed.ncbi.nlm.nih.gov/10049997/">PubMed 10049997</a></li>
+            <li>Olney JW. Brain lesions, obesity, and other disturbances in mice treated with monosodium glutamate. <em>Science.</em> 1969;164(3880):719-721. <a href="https://doi.org/10.1126/science.164.3880.719">doi:10.1126/science.164.3880.719</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/5778021/">PubMed 5778021</a></li>
+            <li>Bhatt DL et al. (Dingledine R, Traynelis SF). Glutamate receptor ion channels. <em>Pharmacol Rev.</em> 1999;51:7-61. Foundational receptor review.</li>
+            <li>Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. <em>Arch Gen Psychiatry.</em> 2006;63(8):856-64. <a href="https://doi.org/10.1001/archpsyc.63.8.856">doi:10.1001/archpsyc.63.8.856</a> — ketamine for TRD landmark</li>
           </ul>
         </div>
 
@@ -186,17 +388,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="gaba.html">GABA</a>
+      <a href="dopamine.html">Dopamine</a>
+      <a href="serotonin.html">Serotonin</a>
+      <a href="acetylcholine.html">Acetylcholine</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());</script>
 </body>
 </html>

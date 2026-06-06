@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Paired retroperitoneal glands (~5 g each). Cortex: aldosterone (ZG, RAAS), cortisol (ZF, HPA), DHEA (ZR). Medulla: epinephrine/norepinephrine from chromaffin ce">
+  <meta name="description" content="Adrenal Gland — paired retroperitoneal endocrine organs: cortex (aldosterone/ZG, cortisol/ZF, DHEA/ZR) and medulla (epinephrine/norepinephrine from chromaffin cells). HPA axis, RAAS, fight-or-flight. Scale 06 of the Human Atlas.">
   <meta property="og:title" content="Adrenal Gland — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Adrenal Gland — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #f59e0b;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,52 +32,48 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(245,158,11,0.12); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #d97706, #92400e); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
@@ -94,7 +83,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
+    .footer-links a:hover { color: var(--accent); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -108,6 +97,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,61 +109,148 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Organ</div>
     <h1>Adrenal Gland</h1>
-    <p class="tagline">Paired retroperitoneal glands (~5 g each). Cortex: aldosterone (ZG, RAAS), cortisol (ZF, HPA), DHEA (ZR). Medulla: epinephrine/norepinephrine from chromaffin cells. Essential for stress response, blood pressure, immune modulation, and electrolyte homeostasis.</p>
-    <p class="aliases">Also known as: suprarenal gland, adrenal cortex, adrenal medulla, zona glomerulosa, zona fasciculata, zona reticularis</p>
+    <p class="tagline">Paired retroperitoneal endocrine organs (~5 g each) — mesodermal cortex producing steroid hormones in three concentric zones, and neuroectodermal medulla secreting catecholamines from chromaffin cells.</p>
+    <p class="subtagline">Cortex: aldosterone (ZG, RAAS), cortisol (ZF, HPA axis), DHEA (ZR). Medulla: epinephrine/norepinephrine (fight-or-flight). Essential for stress response, blood pressure, electrolyte balance, immune modulation, and androgen precursor supply.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~4–6 g</span><span class="stat-label">Weight per gland</span></div>
+      <div class="stat"><span class="stat-num">~15–25 mg/day</span><span class="stat-label">Cortisol secreted</span></div>
+      <div class="stat"><span class="stat-num">4:1</span><span class="stat-label">Epinephrine:norepinephrine (medulla)</span></div>
+      <div class="stat"><span class="stat-num">3 zones</span><span class="stat-label">Cortical zones (GFR: glomerulosa, fasciculata, reticularis)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">adrenal-gland</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0002369 &middot; Atlas One / Scale 06 &mdash; Organ &middot; Endocrine</div>
         <h2>Adrenal Gland</h2>
-        <p class="summary">Paired retroperitoneal glands (~5 g each). Cortex: aldosterone (ZG, RAAS), cortisol (ZF, HPA), DHEA (ZR). Medulla: epinephrine/norepinephrine from chromaffin cells. Essential for stress response, blood pressure, immune modulation, and electrolyte homeostasis.</p>
+        <p class="summary">Composite endocrine organ of two embryologically distinct tissues sitting atop each kidney. Cortex (mesodermal, 80–90%): three concentric zones each producing distinct steroid hormones via cytochrome P450 enzymes from cholesterol — zona glomerulosa (aldosterone, CYP11B2), zona fasciculata (cortisol, CYP11B1), zona reticularis (DHEA/DHEAS, CYP17A1 17,20-lyase). Medulla (neuroectodermal, 10–20%): chromaffin cells (modified sympathetic postganglionic neurons) secrete epinephrine (80%) and norepinephrine (20%) via the tyrosine → L-DOPA → dopamine → NE → Epi pathway (PNMT induced by intra-adrenal portal cortisol). The gland is the principal interface between the neuroendocrine and autonomic stress response systems.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The adrenal (suprarenal) glands are paired endocrine organs sitting atop each kidney in the retroperitoneal space — the right gland is pyramidal, the left crescentic. Each weighs approximately 4–6 g and measures 3–5 cm × 3 cm, yet these compact structures regulate critical physiological processes: acute and chronic stress response, blood pressure and electrolyte homeostasis, immune modulation, carbohydrate and lipid metabolism, and androgen precursor supply for peripheral sex hormone synthesis.</p>
+          <p>The adrenal gland is developmentally and functionally a composite organ of two entirely distinct tissues: (1) <strong>Cortex</strong> (outer 80–90%): mesodermal origin; synthesises steroid hormones from cholesterol via P450 enzymes; three concentric zones. (2) <strong>Medulla</strong> (inner 10–20%): neuroectodermal origin (modified sympathetic ganglion cells); chromaffin cells secrete catecholamines directly into the bloodstream. High cortisol concentrations from the cortex are delivered via an intraglandular portal system to the medulla — inducing <strong>PNMT</strong> expression, enabling NE → Epi conversion. The adrenal gland is thus the principal interface between the neuroendocrine and autonomic stress response systems.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Anatomy and Zones</h3>
+          <p><strong>Vascular supply</strong> (three-source, stress-proof): Superior adrenal arteries (inferior phrenic artery), middle adrenal arteries (aorta), inferior adrenal arteries (renal arteries). Venous drainage: right adrenal vein → IVC directly (short, surgically challenging); left adrenal vein → left renal vein. Intraglandular portal circulation carries cortisol-rich blood from cortex to medulla.</p>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>adrenal-gland</td></tr>
-            <tr><td>Name</td><td>Adrenal Gland</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>06-organ</td></tr>
+            <tr><th>Zone</th><th>Proportion</th><th>Product</th><th>Regulator</th><th>Rate-limiting step</th></tr>
+            <tr><td>Zona glomerulosa (ZG)</td><td>~15%</td><td>Aldosterone</td><td>Angiotensin II, ↑K⁺ (primary); ACTH (permissive)</td><td>CYP11B2 (aldosterone synthase) — expressed only in ZG</td></tr>
+            <tr><td>Zona fasciculata (ZF)</td><td>~75%</td><td>Cortisol</td><td>ACTH (HPA axis) — circadian + stress</td><td>StAR (mitochondrial cholesterol import, phosphorylated by PKA)</td></tr>
+            <tr><td>Zona reticularis (ZR)</td><td>~10%</td><td>DHEA, DHEAS, androstenedione</td><td>ACTH; unknown ZR-specific factors</td><td>CYP17A1 (17,20-lyase activity, activated by cytochrome b5)</td></tr>
+            <tr><td>Medulla</td><td>~10–20%</td><td>Epinephrine (~80%), norepinephrine (~20%)</td><td>Preganglionic sympathetic (splanchnic nerve → ACh → nAChR)</td><td>Tyrosine hydroxylase (TH) — rate-limiting; PNMT for Epi synthesis</td></tr>
           </table>
+          <p style="margin-top:0.75rem;"><strong>Common steroidogenic pathway (all zones):</strong> Cholesterol → (StAR, mitochondrial import, rate-limiting) → CYP11A1 (P450scc, side-chain cleavage) → Pregnenolone → zone-specific P450 enzymes. All zones share CYP21A2 (21-hydroxylase) — its deficiency causes the commonest form of congenital adrenal hyperplasia.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function</h3>
+          <div class="circuit-diagram">
+<pre>CORTEX — Three Zones Steroidogenesis
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Cholesterol (from LDL/HDL, stored as cholesterol esters)
+  │  StAR (Steroidogenic Acute Regulatory protein)
+  │  → mitochondrial cholesterol import (rate-limiting, ACTH/AngII → PKA → StAR phosphorylation)
+  ▼
+CYP11A1 (P450scc) → Pregnenolone
+  │
+  ├─ ZG PATHWAY ─── CYP17A1 (absent in ZG) ✗
+  │   Pregnenolone → progesterone → (CYP21A2/21-hydroxylase) → 11-deoxycorticosterone
+  │   → (CYP11B2/aldosterone synthase, ZG only) → Aldosterone
+  │   Action: MR in collecting duct → ↑ENaC, ↑ROMK, ↑Na⁺/K⁺-ATPase → ↑Na⁺ reabsorption, ↑K⁺ secretion
+  │
+  ├─ ZF PATHWAY ─── CYP17A1 (17α-hydroxylase)
+  │   Pregnenolone → 17-OH-pregnenolone → 17-OH-progesterone
+  │   → (CYP21A2) → 11-deoxycortisol
+  │   → (CYP11B1/11β-hydroxylase) → Cortisol
+  │   HPA axis: Stress/circadian → PVN CRH → anterior pituitary ACTH → MC2R → Gs → cAMP → PKA → StAR/CYP11B1
+  │   Negative feedback: Cortisol → GR in hypothalamus (↓CRH) + pituitary (↓ACTH)
+  │
+  └─ ZR PATHWAY ─── CYP17A1 (17,20-lyase, activated by cytochrome b5)
+      17-OH-pregnenolone → DHEA → (SULT2A1) → DHEAS  (most abundant circulating steroid)
+      DHEA → androstenedione (peripheral conversion → testosterone, DHT, oestrogens)
+
+MEDULLA — Catecholamine Synthesis and Secretion
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Tyrosine → (TH + tetrahydrobiopterin, rate-limiting) → L-DOPA
+  → (AADC/DOPA decarboxylase) → Dopamine
+  → (DBH in chromaffin granule) → Norepinephrine
+  → (PNMT, cytosolic, cortisol-induced) → Epinephrine
+
+Splanchnic nerve (preganglionic) → ACh → nAChR on chromaffin cell
+  → depolarisation → Ca²⁺ influx → exocytosis of chromaffin granules
+  → Epi/NE + chromogranin A + enkephalin + ATP released into bloodstream
+
+FIGHT-OR-FLIGHT CARDIOVASCULAR EFFECTS:
+  Epinephrine β₁ → ↑HR + ↑contractility + ↑AV conduction
+  Epinephrine β₂ → vasodilation (skeletal muscle, coronary arteries)
+  Norepinephrine α₁ >> β → generalised vasoconstriction → ↑MAP
+  Net: ↑cardiac output + ↑MAP → ↑organ perfusion under stress
+
+METABOLIC EFFECTS:
+  β₂ → ↑hepatic glycogenolysis → ↑glucose; ↑lipolysis → ↑FFA
+  β₂ → ↑glucagon, ↓insulin → ↑hepatic glucose output
+  β₂ → bronchial smooth muscle relaxation → bronchodilation</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cortisol — Metabolic and Immune Actions</h3>
+          <p><strong>Metabolic effects:</strong> Liver: ↑PEPCK + ↑G6Pase → ↑gluconeogenesis; ↑glycogen synthesis (insulin-permissive). Muscle: ↑ubiquitin-proteasome protein catabolism → amino acids → gluconeogenic substrates. Adipose: ↑lipolysis (↑HSL) → FFA release; chronic excess → central/visceral adiposity. Bone: ↓osteoblast (↓Wnt, ↓IGF-1) + ↑osteoclast (indirect) → osteoporosis; ↓intestinal Ca²⁺ absorption (↓VDR) + ↑renal Ca²⁺ excretion → hypercalciuria.</p>
+          <p><strong>Immune effects:</strong> Activated glucocorticoid receptor (GR) → ↓NF-κB (binds p65/RelA, blocks DNA binding) + ↓AP-1 → ↓IL-1β, IL-2, IL-6, TNF-α, COX-2, iNOS gene transcription. Annexin-1 (lipocortin-1) induction → ↓phospholipase A2 → ↓arachidonic acid → ↓prostaglandins + leukotrienes. ↑Anti-inflammatory IL-10 (Th2 shift at high doses). Lymphocyte redistribution from blood to lymphoid tissues → transient lymphocytopenia and eosinopenia. ↓T cell IL-2 → ↓T cell proliferation (basis for therapeutic immunosuppression in organ transplantation + autoimmune disease).</p>
+          <p><strong>Circadian pattern:</strong> ~15–25 mg/day secreted in pulsatile circadian pattern (peak ~8:00 am, nadir at midnight). Free cortisol (~5%) is active; ~95% bound (cortisol-binding globulin 75%, albumin 20%). Cortisol circadian disruption (shift work, Cushing's disease) has downstream metabolic and immune consequences.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Primary Adrenal Insufficiency (Addison's Disease)</h4>
+            <p>Destruction of &gt;90% of adrenal cortex → combined cortisol + aldosterone deficiency. Autoimmune (70%: anti-CYP21A2 antibodies → APS-1 or APS-2), TB (bilateral caseating granulomata), metastatic cancer, Waterhouse-Friderichsen syndrome (meningococcal bilateral adrenal haemorrhage), CMV (HIV), adrenoleucodystrophy (X-linked ABCD1 mutation). Clinical: fatigue, weight loss, postural hypotension, hyponatraemia, hyperkalaemia, hypoglycaemia, hyperpigmentation (↑ACTH/α-MSH). Addisonian crisis (acute): life-threatening hypotension → IV hydrocortisone 100 mg bolus + fluid resuscitation. Long-term: hydrocortisone 15–25 mg/day + fludrocortisone 50–200 µg/day.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Cushing Syndrome (Hypercortisolism)</h4>
+            <p>Most common overall cause: exogenous glucocorticoids. Endogenous: Cushing's disease (~70%, pituitary ACTH-secreting adenoma), ectopic ACTH (SCLC, carcinoid, ~15%), adrenal adenoma/carcinoma (~15%). Clinical features: central obesity, moon face, buffalo hump, wide purple striae, proximal myopathy, osteoporosis, diabetes, hypertension, psychiatric disturbance, impaired wound healing, ↑infection risk. Diagnosis: 24h urinary free cortisol, midnight salivary cortisol, 1 mg overnight dexamethasone suppression test (fails to suppress → Cushing's). Localisation: ACTH level + pituitary MRI + inferior petrosal sinus sampling (IPSS).</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Phaeochromocytoma / Paraganglioma</h4>
+            <p>Catecholamine-secreting tumour of adrenal chromaffin cells (phaeochromocytoma) or extra-adrenal sympathetic ganglia (paraganglioma). ~30–40% hereditary (VHL, MEN-2A/2B with RET mutations, NF1, SDH subunit mutations). Classical triad: episodic hypertension + headache + diaphoresis + palpitations. Can cause Takotsubo-like cardiomyopathy. Diagnosis: plasma free metanephrines/normetanephrines (99% sensitivity); imaging CT/MRI + ⁶⁸Ga-DOTATATE PET. Treatment: α-blockade first (phenoxybenzamine or doxazosin) → then β-blockade (never β first → risk of unopposed α crisis) → laparoscopic adrenalectomy.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Primary Hyperaldosteronism (Conn Syndrome)</h4>
+            <p>Autonomous aldosterone secretion (independent of RAAS) → hypokalaemia, hypertension, ↑aldosterone, ↓renin (suppressed). Most common cause: bilateral idiopathic hyperplasia (60–65%, spironolactone/eplerenone); aldosterone-producing adenoma (30–35%, KCNJ5 somatic mutation, surgical cure after adrenal venous sampling lateralisation). Prevalence ~10% of hypertensive patients — systematically underdiagnosed. Screen with aldosterone:renin ratio (ARR) in resistant hypertension, hypokalaemic hypertension, adrenal incidentaloma.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Congenital Adrenal Hyperplasia (CAH)</h4>
+            <p>21-hydroxylase deficiency (CYP21A2, 95% of CAH): ↓cortisol + ↓aldosterone + ↑17-OH-progesterone + ↑androgens → salt-wasting crisis (neonates), virilisation of females (ambiguous genitalia), simple virilising (partial enzyme activity), or non-classical (mild, late-onset). Neonatal screening: heel-prick 17-OHP. Treatment: hydrocortisone (suppresses ACTH → reduces androgen excess) ± fludrocortisone.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="human-body.html" title="Adrenal glands produce cortisol (stress response, anti-inflammatory, gluconeogenesis), aldosterone (Na⁺/K⁺ balance, blood pressure), DHEA (androgen precursor), and epinephrine/norepinephrine (acute stress catecholamines)."><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="Adrenal catecholamines (Epi/NE) drive acute cardiovascular stress response: ↑HR (β₁), ↑contractility (β₁), vasoconstriction (α₁); aldosterone ↑Na⁺ reabsorption → ↑blood volume → ↑BP; excess → hypertension."><span class="rel">modulates</span>Cardiovascular System</a>
-            <a class="conn-pill" href="immune-system.html" title="Cortisol is the primary endogenous immunosuppressant: blocks NF-κB, ↓pro-inflammatory cytokines (IL-1β, IL-6, TNF-α), ↓arachidonic acid via annexin-1, ↓T cell proliferation, redistributes lymphocytes from blood."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="cortisol.html" title="Zona fasciculata is the sole source of cortisol; ACTH→MC2R→cAMP→PKA→StAR→CYP11A1→CYP17A1→CYP11B1 pathway; cortisol circadian peak at 8am; negative feedback via GR in hypothalamus and anterior pituitary."><span class="rel">modulates</span>Cortisol</a>
+            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="immune-system.html"><span class="rel">Modulates</span>Immune System</a>
+            <a class="conn-pill" href="cortisol.html"><span class="rel">Produces</span>Cortisol</a>
+            <a class="conn-pill" href="epinephrine.html"><span class="rel">Produces</span>Epinephrine</a>
+            <a class="conn-pill" href="norepinephrine.html"><span class="rel">Produces</span>Norepinephrine</a>
+            <a class="conn-pill part" href="endocrine-system.html"><span class="rel">Part of</span>Endocrine System</a>
+            <a class="conn-pill" href="kidney.html"><span class="rel">Sited on</span>Kidney</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. <a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener">macmillanlearning.com</a></li>
+            <li>Nieman LK. Diagnosis of Cushing's syndrome in the modern era. <em>Endocrinol Metab Clin North Am.</em> 2018;47(2):259–73. <a href="https://doi.org/10.1016/j.ecl.2018.02.001" target="_blank" rel="noopener">doi:10.1016/j.ecl.2018.02.001</a></li>
+            <li>Lenders JW, Duh QY, Eisenhofer G, et al. Phaeochromocytoma and paraganglioma: an Endocrine Society Clinical Practice Guideline. <em>J Clin Endocrinol Metab.</em> 2014;99(6):1915–42. <a href="https://doi.org/10.1210/jc.2014-1498" target="_blank" rel="noopener">doi:10.1210/jc.2014-1498</a></li>
           </ul>
         </div>
 
@@ -185,11 +262,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="cortisol.html">Cortisol</a>
+      <a href="endocrine-system.html">Endocrine System</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.4rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

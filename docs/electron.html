@@ -3,93 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Subatomic particle governing all chemical bonding in biology. Redox reactions are electron transfers; membrane potentials arise from charge separation; the mito">
-  <meta property="og:title" content="Electron — Human Engineering">
+  <meta name="description" content="Electron — sub-atomic particle, basis of chemistry and biology. Electron transport chain (Complex I-IV), ATP synthesis, redox biology, ROS, oxidative stress, antioxidant defence. Part of the Human Engineering project.">
+  <meta property="og:title" content="Electron — Atomic/Subatomic Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Electron — Human Engineering</title>
+  <title>Electron — Atomic/Subatomic Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #374151;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(55,65,81,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #374151, #111827); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .principle-box { background: rgba(55,65,81,0.06); border: 1px solid rgba(55,65,81,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '\2197'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,6 +104,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,61 +116,240 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 01 — Subatomic</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Atomic/Subatomic</div>
     <h1>Electron</h1>
-    <p class="tagline">Subatomic particle governing all chemical bonding in biology. Redox reactions are electron transfers; membrane potentials arise from charge separation; the mitochondrial electron transport chain generates the ATP that powers every heartbeat.</p>
-    <p class="aliases">Also known as: e⁻, valence electron, conduction electron</p>
+    <p class="tagline">The sub-atomic particle at the foundation of all chemistry &mdash; a quantum mechanical entity whose transfer and orbital behaviour underpins every chemical bond, every metabolic reaction, and every millivolt of biological electricity.</p>
+    <p class="subtagline">Electrons are not merely physics &mdash; they are biology. The electron transport chain extracts electrons from NADH and FADH&#x2082;, passes them through four inner-mitochondrial-membrane complexes, and couples their energetically downhill transfer to O&#x2082; with the pumping of protons that drive ATP synthase. Every molecule of glucose metabolised is, at its core, a controlled release of electrons.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 01 — Subatomic</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">9.109&times;10&#x207B;&#x2033; kg</span><span class="stat-label">Rest mass</span></div>
+      <div class="stat"><span class="stat-num">&minus;1e</span><span class="stat-label">Charge (elementary)</span></div>
+      <div class="stat"><span class="stat-num">1/2 (fermion)</span><span class="stat-label">Spin quantum number</span></div>
+      <div class="stat"><span class="stat-num">~30&ndash;32 ATP</span><span class="stat-label">Yield per glucose (aerobic)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">electron</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Atomic/Subatomic &middot; Lepton / Fundamental Particle</div>
         <h2>Electron</h2>
-        <p class="summary">Subatomic particle governing all chemical bonding in biology. Redox reactions are electron transfers; membrane potentials arise from charge separation; the mitochondrial electron transport chain generates the ATP that powers every heartbeat.</p>
+        <div class="drug-class">Symbol: e&#x207B; &nbsp;&middot;&nbsp; Charge: &minus;1 elementary charge &nbsp;&middot;&nbsp; Mass: 0.511 MeV/c&#xB2; &nbsp;&middot;&nbsp; Class: lepton (Standard Model) &nbsp;|&nbsp; Biologically relevant as: redox carrier, covalent bond orbital, charge carrier, free radical species</div>
+        <p class="summary">The electron is a fundamental lepton with no known substructure. Its wave-particle duality &mdash; having both defined quantum numbers and a probabilistic spatial distribution described by orbitals &mdash; is the direct basis of the periodic table, chemical bonding, and therefore all of biochemistry. In biology, electrons are the currency of energy metabolism: the controlled, stepwise transfer of electrons from reduced cofactors (NADH, FADH&#x2082;) to molecular oxygen releases the free energy that drives proton pumping and ultimately ATP synthesis. Electrons in unpaired states &mdash; free radicals &mdash; are potent reactive oxygen species (ROS) capable of damaging DNA, proteins, and lipids, playing central roles in ageing, cancer, neurodegeneration, and the host response to infection.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">e&#x207B;</span>
+          <span class="alias-pill">redox carrier</span>
+          <span class="alias-pill">free radical (unpaired e&#x207B;)</span>
+          <span class="alias-pill">lepton</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>electron</td></tr>
-            <tr><td>Name</td><td>Electron</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>01-subatomic</td></tr>
-          </table>
+          <h3>Overview &mdash; The Electron at Pre-Biological Scale</h3>
+          <p>The electron occupies an unusual position in this atlas. It is not a molecule, not a cell component, and not a pathogen. It is the <strong>sub-atomic substrate upon which all chemistry and therefore all biology is built</strong>. Every covalent bond in every biomolecule is a shared pair of electrons. Every enzyme reaction involves rearrangement of electron density. Every membrane potential is a charge imbalance traced ultimately to the movement of electrons and ions. This entry frames the electron through the lens of human biology &mdash; where its behaviour is most consequential for health and disease.</p>
+
+          <h4>Wave-Particle Duality and Quantum Properties</h4>
+          <p>The electron exhibits wave-particle duality: it has a well-defined mass (9.109 &times; 10&#x207B;&#xB3;&#xB9; kg) and charge (&minus;1 elementary unit), but its position cannot be simultaneously known with arbitrary precision alongside its momentum (Heisenberg uncertainty principle). In atoms and molecules, electrons occupy <strong>orbitals</strong> &mdash; regions of probability density described by four quantum numbers (principal n, angular momentum l, magnetic m&#x2097;, spin m&#x2093;). The shape of orbitals (s spherical, p dumbbell, d cloverleaf) directly determines bond geometry and therefore the three-dimensional architecture of proteins, nucleic acids, and lipid membranes.</p>
+          <p><strong>Pauli exclusion principle:</strong> No two electrons in an atom can share all four quantum numbers. This principle &mdash; purely quantum mechanical &mdash; is why matter is stable and why the periodic table has the structure it does, producing the chemical diversity necessary for life. Biological atoms of primary importance include C (4 bonding electrons), N (3 bonds + lone pair), O (2 bonds + 2 lone pairs), and P (5-coordinate in phosphates).</p>
+
+          <h4>Electronegativity and Biological Bonds</h4>
+          <p>Electronegativity (Pauling scale) describes an atom's tendency to attract electron density. Oxygen (3.44) and nitrogen (3.04) are the most electronegative biologically common atoms. This asymmetry produces polar covalent bonds and hydrogen bonds that give water its extraordinary properties, stabilise protein secondary structure (alpha-helix and beta-sheet backbone H-bonds), and drive substrate binding in enzyme active sites. The entire molecular specificity of biology &mdash; antibody-antigen, enzyme-substrate, receptor-ligand recognition &mdash; rests on the complementarity of electron density distributions and electrostatic surfaces.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="calcium.html" title="Electron configuration of Ca (Z=20, [Ar]4s²) determines that it loses 2 electrons to form Ca²⁺ — the dominant biological ion. Electron density of binding site governs Ca²⁺ coordination by EF-hand proteins."><span class="rel">modulates</span>Calcium</a>
-            <a class="conn-pill" href="troponin-complex.html" title="Electrostatic interactions (electron density differences) between Ca²⁺ and the EF-hand of troponin C drive the Ca²⁺-triggered conformational change that gates every heartbeat."><span class="rel">modulates</span>Troponin Complex</a>
-            <a class="conn-pill" href="oxygen.html" title="The electron configuration of oxygen (Z=8, [He]2s²2p⁴) gives it high electronegativity and two unpaired electrons, enabling it to accept 4 electrons at Complex IV of the ETC to form water — the thermodynamic sink that drives aerobic metabolism and ATP production."><span class="rel">modulates</span>Oxygen</a>
+          <h3>Biological Roles &mdash; Electron Transport Chain</h3>
+          <p>The mitochondrial electron transport chain (ETC) is the principal site of aerobic energy harvesting in eukaryotic cells. Located on the inner mitochondrial membrane (IMM), four protein complexes (I&ndash;IV) and two mobile electron carriers (ubiquinone/coenzyme Q and cytochrome c) form a series of coupled redox reactions. Electrons from NADH and FADH&#x2082; &mdash; generated in glycolysis, pyruvate decarboxylation, and the TCA cycle &mdash; flow down a potential gradient from more negative (NADH, E&deg;&prime; = &minus;0.32 V) to more positive (O&#x2082;, E&deg;&prime; = +0.82 V) reduction potential, releasing free energy at each step that is captured as a transmembrane proton gradient.</p>
+
+          <div class="pathway-block">
+<pre>
+MITOCHONDRIAL ELECTRON TRANSPORT CHAIN (inner mitochondrial membrane)
+
+  NADH                    FADH2 (succinate)
+    |                        |
+    v                        |
+[Complex I]                  |        H+ pumped across IMM: 4
+ NADH:ubiquinone             |        (per NADH entering here)
+ oxidoreductase              |
+ FMN + 8 Fe-S clusters       |
+    | e-  e-                 |
+    v                        v
+  [Ubiquinone / CoQ10] <--[Complex II]
+    (lipid-soluble,          Succinate dehydrogenase
+     mobile carrier          FAD-linked; no H+ pumping
+     in IMM)
+    |
+    v
+[Complex III]                         H+ pumped: 4 (Q cycle)
+ Cytochrome bc1
+ Q-cycle; transfers e- to cytochrome c
+    |
+    v
+  [Cytochrome c]
+   (soluble, in IMS; single e- per molecule)
+    |
+    v
+[Complex IV]                          H+ pumped: 2 (+ 2 consumed from matrix)
+ Cytochrome c oxidase
+ 4 cyt c + 4H+ + O2 --> 2H2O
+    |
+    v
+  H+ gradient across IMM
+  (Delta-psi ~-180 mV + Delta-pH ~0.5 units = ~200 mV proton motive force)
+    |
+    v
+[Complex V -- ATP synthase / F0F1-ATPase]
+ H+ flows back into matrix through F0 ring
+ --> rotates gamma-subunit --> beta-subunit catalytic conformational change
+ ADP + Pi --> ATP
+ (P/O ratio: NADH ~2.5 ATP; FADH2 ~1.5 ATP per electron pair)
+    |
+    v
+  ~30-32 ATP per glucose (net, accounting for transport costs)
+</pre>
+          </div>
+
+          <h4>Redox Carriers in Metabolism</h4>
+          <p>Beyond the ETC, electrons are transferred between metabolic intermediates by a suite of biological redox carriers. These represent the biological accounting system for electron flow:</p>
+          <table class="data-table">
+            <tr><th>Carrier</th><th>Oxidised</th><th>Reduced</th><th>Where generated</th><th>Biological role</th></tr>
+            <tr><td>NAD+</td><td>NAD+</td><td>NADH</td><td>Glycolysis, TCA, beta-oxidation</td><td>Delivers e- to Complex I; also substrate for sirtuin deacetylases and PARP</td></tr>
+            <tr><td>FAD</td><td>FAD</td><td>FADH2</td><td>TCA (succinate DH), beta-oxidation</td><td>Delivers e- to Complex II (CoQ)</td></tr>
+            <tr><td>NADP+</td><td>NADP+</td><td>NADPH</td><td>Pentose phosphate pathway, malic enzyme</td><td>Reductive biosynthesis; glutathione recycling (antioxidant defence)</td></tr>
+            <tr><td>CoQ (ubiquinone)</td><td>Q</td><td>QH2 (ubiquinol)</td><td>From Complex I, II</td><td>Mobile lipid-soluble carrier; also membrane antioxidant in reduced form</td></tr>
+            <tr><td>Cytochrome c</td><td>Fe3+ (ferric)</td><td>Fe2+ (ferrous)</td><td>From Complex III</td><td>Single-electron mobile carrier in IMS; also apoptosis initiator when released to cytosol</td></tr>
+          </table>
+
+          <h4>Electron Transfer in Vision &mdash; A Photoelectronic Analogy</h4>
+          <p>In retinal photoreceptors, absorption of a photon excites the retinal chromophore of rhodopsin from the 11-<em>cis</em> to all-<em>trans</em> configuration via an excited-electron transition. The quantum event &mdash; an electron jumping to a higher orbital in the conjugated pi system of retinal &mdash; is transduced into a conformational change of the GPCR opsin that ultimately activates phototransduction. All visual information begins as electrons absorbing photons. Similarly, dietary carbohydrates deliver electrons that were originally captured by chlorophyll in plant photosystems via photoexcited electron transfer &mdash; making solar electrons, via the food chain, the ultimate power source of human metabolism.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Biological Roles &mdash; Reactive Oxygen Species (ROS) Biology</h3>
+          <p>The ETC is not perfectly efficient. At Complexes I and III, occasional single-electron escapes react directly with molecular oxygen to produce <strong>superoxide radical</strong> (O&#x2082;&bull;&sup1;&sup3;) &mdash; an oxygen molecule with an extra electron in an anti-bonding orbital. Superoxide and its downstream derivatives constitute reactive oxygen species (ROS).</p>
+
+          <div class="pathway-block">
+<pre>
+ROS GENERATION, FATE, AND SIGNALLING
+
+O2 + e- (leak from Complex I/III reverse electron transport)
+     |
+     v
+Superoxide (O2*-)
+     |
+     |--[SOD2 (mitochondrial, Mn)] --> H2O2 + O2
+     |--[SOD1 (cytosolic, Cu/Zn)] --> H2O2 + O2
+     |
+     v (H2O2)
+     |
+     |--[Catalase (peroxisomal)]   --> H2O (safe)
+     |--[GPx + GSH]                --> H2O + GSSG (safe)
+     |--[Fe2+ Fenton reaction]     --> *OH (hydroxyl radical)
+                                        |
+                                   DNA strand breaks (8-oxo-dG)
+                                   Lipid peroxidation (4-HNE, MDA)
+                                   Protein carbonylation
+
+PHYSIOLOGICAL LOW ROS (signalling):
+  NF-kB activation --> cytokine production (immunity)
+  HIF-1alpha stabilisation --> hypoxia response
+  VEGF-driven angiogenesis
+  Phagocyte respiratory burst (NADPH oxidase / NOX2):
+     2O2 + NADPH --> 2O2*- + NADP+ + H+  (pathogen killing)
+
+PATHOLOGICAL HIGH ROS (oxidative stress):
+  Atherosclerosis (ox-LDL)
+  T2DM (glucotoxicity to beta cells, endothelium)
+  Parkinson's (Complex I impairment, dopamine auto-oxidation)
+  Neurodegeneration, ageing, ischaemia-reperfusion, cancer
+</pre>
+          </div>
+
+          <h4>Antioxidant Defence Systems</h4>
+          <p><strong>Enzymatic:</strong> Superoxide dismutase (SOD1, cytosolic Cu/Zn; SOD2, mitochondrial Mn) converts O&#x2082;&bull;&sup1;&sup3; to H&#x2082;O&#x2082;. Catalase (peroxisomes) and glutathione peroxidase (GPx, using GSH) convert H&#x2082;O&#x2082; to water. The <strong>Nrf2/Keap1 pathway</strong> is the master transcriptional antioxidant response: oxidative stress releases Nrf2 from Keap1, enabling nuclear translocation and activation of ARE (antioxidant response element) target genes including NQO1, HO-1, GCLC (glutamate-cysteine ligase, rate-limiting GSH synthesis), and thioredoxin reductase.</p>
+          <p><strong>Non-enzymatic:</strong> Glutathione (GSH; gamma-glutamyl-cysteinyl-glycine tripeptide) is the principal intracellular buffer &mdash; its thiol group (Cys-SH) donates electrons to GPx. Oxidised GSSG is recycled to GSH by glutathione reductase using NADPH. Vitamins C (ascorbate, aqueous phase) and E (alpha-tocopherol, lipid phase) are dietary non-enzymatic antioxidants. Vitamin E is the main interceptor of lipid peroxy radicals in membranes; its radical form is regenerated by vitamin C. Coenzyme Q10 (ubiquinol) also acts as a membrane antioxidant.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology &mdash; Oxidative Stress in Disease</h3>
+          <table class="data-table">
+            <tr><th>Disease</th><th>Electron/ROS Mechanism</th><th>Key Details</th></tr>
+            <tr>
+              <td><strong>Atherosclerosis</strong></td>
+              <td>Oxidised LDL via vascular ROS</td>
+              <td>NOX2/4 in vascular wall generate O2*-; eNOS uncoupling (BH4 depletion) produces O2*- instead of NO --> reduced vasodilation + ox-LDL formation. Macrophage scavenger receptor uptake of ox-LDL --> foam cell --> plaque. ox-LDL also activates NF-kB --> endothelial inflammation</td>
+            </tr>
+            <tr>
+              <td><strong>Type 2 Diabetes</strong></td>
+              <td>Glucotoxicity; ETC overload</td>
+              <td>Hyperglycaemia overloads TCA cycle --> excess NADH/FADH2 --> Complex I/III electron leak --> ROS damage to beta-cells and endothelium. Polyol pathway activation consumes NADPH --> reduced GSH recycling. Mitochondrial fission (DRP1 activation) impairs ETC efficiency in T2DM</td>
+            </tr>
+            <tr>
+              <td><strong>Ischaemia-Reperfusion</strong></td>
+              <td>Electron burst on reoxygenation</td>
+              <td>During ischaemia, NADH and reduced CoQ accumulate; on reperfusion, O2 returns and a burst of superoxide is generated by reverse electron transport at Complex I. This is the molecular basis of reperfusion injury in MI and stroke. Mitochondria-targeted antioxidants (MitoQ, SS-31 peptide) are under active investigation</td>
+            </tr>
+            <tr>
+              <td><strong>Parkinson's Disease</strong></td>
+              <td>Complex I dysfunction; dopamine ROS</td>
+              <td>MPTP (a toxin) and rotenone are selective Complex I inhibitors that reproduce Parkinson's pathology. Dopamine auto-oxidation in substantia nigra produces melanin + H2O2 + quinones. PINK1 and Parkin regulate mitophagy of ROS-damaged mitochondria; their loss-of-function mutations cause familial Parkinson's</td>
+            </tr>
+            <tr>
+              <td><strong>Ageing</strong></td>
+              <td>Cumulative mitochondrial damage</td>
+              <td>Lifetime ROS accumulation damages mtDNA, ETC subunits, and lipids in a vicious cycle. Caloric restriction reduces substrate flux through ETC --> less ROS --> extended lifespan in model organisms. NAD+/NADH ratio controls SIRT1/SIRT3 (sirtuins), which deacetylate and activate mitochondrial biogenesis (PGC-1alpha) and antioxidant enzymes</td>
+            </tr>
+            <tr>
+              <td><strong>Cancer</strong></td>
+              <td>ROS as mutagen and therapeutic target</td>
+              <td>8-oxo-deoxyguanosine (8-oxo-dG) from ROS-damaged DNA is one of the most common mutagenic lesions (causes G-to-T transversions). Oncogene activation raises baseline ROS (Warburg effect, NOX upregulation) --> NF-kB and HIF-1alpha pro-survival signalling. Pro-oxidant therapies exploit cancer cells' proximity to ROS tolerance limit: arsenic trioxide (APL), photodynamic therapy, high-dose ascorbate (investigational)</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Redox hormesis:</strong> ROS are not simply harmful. At physiological concentrations they are <strong>essential signalling molecules</strong>. H&#x2082;O&#x2082; oxidises critical cysteine thiols on transcription factors, kinases (e.g. Src, Akt), and phosphatases (e.g. PTEN, PTP1B) to reversibly regulate their activity. VEGF-stimulated angiogenesis, exercise-induced mitochondrial biogenesis via PGC-1alpha, and immune synapse formation all require transient, localised ROS. Complete ROS elimination is incompatible with normal physiology. The therapeutic goal is restoration of <strong>redox homeostasis</strong> &mdash; not elimination of ROS.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="proton.html" class="conn-pill acts">
+              <span class="rel">Coupled to</span>
+              Proton (ATP synthase chemiosmosis)
+            </a>
+            <a href="photon.html" class="conn-pill acts">
+              <span class="rel">Excited by</span>
+              Photon (vision, photosynthesis analogy)
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill targets">
+              <span class="rel">ROS damages</span>
+              Cardiovascular System (ox-LDL)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Powers</span>
+              Mitochondria / ETC (entry pending)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Kills via</span>
+              NADPH oxidase respiratory burst (phagocyte)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Regulated by</span>
+              Nrf2/Keap1 antioxidant pathway (entry pending)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Molecular-Cell-Biology/p/1464183392" target="_blank" rel="noopener noreferrer">Lodish H, Berk A, Kaiser CA, et al. Molecular Cell Biology. 8th ed. W.H. Freeman; 2016. ISBN 978-1-4641-8339-3.</a></li>
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019. ISBN 978-1-319-11467-1.</a></li>
-            <li><a href="https://doi.org/10.1038/415198a" target="_blank" rel="noopener noreferrer">Bers DM. Cardiac excitation-contraction coupling. Nature. 2002;415(6868):198-205.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11805843/" target="_blank" rel="noopener noreferrer">PubMed 11805843</a></li>
+            <li>Mitchell P. Coupling of phosphorylation to electron and hydrogen transfer by a chemi-osmotic type of mechanism. <em>Nature.</em> 1961;191(4784):144-8. <a href="https://doi.org/10.1038/191144a0">doi:10.1038/191144a0</a> &middot; PubMed 13771349</li>
+            <li>Murphy MP. How mitochondria produce reactive oxygen species. <em>Biochem J.</em> 2009;417(1):1-13. <a href="https://doi.org/10.1042/BJ20081386">doi:10.1042/BJ20081386</a> &middot; PubMed 19061483</li>
+            <li>Harman D. Aging: a theory based on free radical and radiation chemistry. <em>J Gerontol.</em> 1956;11(3):298-300. <a href="https://doi.org/10.1093/geronj/11.3.298">doi:10.1093/geronj/11.3.298</a> &middot; PubMed 13332224</li>
+            <li>Sies H, Jones DP. Reactive oxygen species (ROS) as pleiotropic physiological signalling agents. <em>Nat Rev Mol Cell Biol.</em> 2020;21(7):363-383. <a href="https://doi.org/10.1038/s41580-020-0230-3">doi:10.1038/s41580-020-0230-3</a> &middot; PubMed 32231263</li>
+            <li>Finkel T. Signal transduction by reactive oxygen species. <em>J Cell Biol.</em> 2011;194(1):7-15. <a href="https://doi.org/10.1083/jcb.201102095">doi:10.1083/jcb.201102095</a> &middot; PubMed 21746850</li>
+            <li>Itoh K, Chiba T, Takahashi S, et al. An Nrf2/small Maf heterodimer mediates the induction of phase II detoxifying enzyme genes through antioxidant response elements. <em>Biochem Biophys Res Commun.</em> 1997;236(2):313-22. <a href="https://doi.org/10.1006/bbrc.1997.6943">doi:10.1006/bbrc.1997.6943</a> &middot; PubMed 9240432</li>
           </ul>
         </div>
 
@@ -182,13 +358,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="photon.html">Photon</a>
+      <a href="proton.html">Proton</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="G-protein-coupled receptor (Gαs / cAMP / PKA) on cardiomyocytes and renal juxtaglomerular cells. The molecular relay through which sympathetic nervous activatio">
+  <meta name="description" content="β1-adrenergic receptor (ADRB1, UniProt P08588) — 7-TM GPCR coupling sympathetic input to cardiac inotropy, chronotropy, and lusitropy via Gαs/cAMP/PKA. Principal target of β-blockers.">
   <meta property="og:title" content="β1-adrenergic receptor — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>β1-adrenergic receptor — Human Engineering</title>
@@ -13,14 +13,14 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
            background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a { color: var(--accent); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
     nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
           -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -47,6 +47,9 @@
     .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
                      max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
     .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .alias-pills { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.5rem; }
+    .alias-pill { display: inline-block; padding: 0.2rem 0.65rem; border-radius: 999px;
+                  background: rgba(159,18,57,0.08); color: #9f1239; font-size: 0.78rem; font-weight: 600; }
     .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
                 padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
@@ -54,13 +57,10 @@
     .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
                   letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
     .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
                    border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
                    box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #9f1239, #881337); }
     .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
                                     text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
     .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
@@ -70,6 +70,12 @@
     .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
                          text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
                          padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { font-size: 0.93rem; color: var(--fg-soft); line-height: 1.7; margin-bottom: 0.75rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft);
+                     border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+                         font-size: 0.78rem; line-height: 1.6; color: var(--fg-soft); white-space: pre; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
     .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
                      font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
@@ -77,13 +83,17 @@
     .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
                      color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .principle-box { background: rgba(159,18,57,0.06); border-left: 3px solid #9f1239;
+                     border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+                     padding: 1rem 1.25rem; font-size: 0.88rem; color: var(--fg-soft); }
+    .principle-box strong { color: #9f1239; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
     .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
                  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
                  font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
     .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+                      letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -94,7 +104,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
+    .footer-links a:hover { color: var(--accent); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -119,71 +129,232 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>β1-adrenergic receptor</h1>
-    <p class="tagline">G-protein-coupled receptor (Gαs / cAMP / PKA) on cardiomyocytes and renal juxtaglomerular cells. The molecular relay through which sympathetic nervous activation accelerates and amplifies the heartbeat; the principal target of β-blockers.</p>
-    <p class="aliases">Also known as: β1AR, ADRB1, beta1 adrenoreceptor</p>
+    <div class="hero-eyebrow" style="background: rgba(159,18,57,0.1); color: #9f1239;">Atlas One &middot; Human &middot; Molecular</div>
+    <h1>&beta;1-adrenergic receptor</h1>
+    <p class="tagline">Seven-transmembrane GPCR (ADRB1, UniProt P08588) that couples sympathetic input to the heart via Gαs/cAMP/PKA — driving positive inotropy, chronotropy, dromotropy, and lusitropy. The dominant cardiac adrenergic receptor and principal target of β-blockers.</p>
+    <div class="alias-pills">
+      <span class="alias-pill">β1AR</span>
+      <span class="alias-pill">ADRB1</span>
+      <span class="alias-pill">beta1 adrenoreceptor</span>
+      <span class="alias-pill">UniProt P08588</span>
+    </div>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">477 aa</span><span class="stat-label">Protein length (human)</span></div>
+      <div class="stat"><span class="stat-num">7-TM</span><span class="stat-label">Topology</span></div>
+      <div class="stat"><span class="stat-num">75–80%</span><span class="stat-label">β-AR fraction in healthy ventricle</span></div>
+      <div class="stat"><span class="stat-num">2008</span><span class="stat-label">First crystal structure</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">beta1-adrenergic-receptor</div>
-        <h2>β1-adrenergic receptor</h2>
-        <p class="summary">G-protein-coupled receptor (Gαs / cAMP / PKA) on cardiomyocytes and renal juxtaglomerular cells. The molecular relay through which sympathetic nervous activation accelerates and amplifies the heartbeat; the principal target of β-blockers.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; GPCR · Adrenergic</div>
+        <h2>&beta;1-adrenergic receptor</h2>
+        <p class="summary">G-protein-coupled receptor on cardiomyocytes and renal juxtaglomerular cells. When norepinephrine or epinephrine binds, it activates Gαs → adenylyl cyclase → cAMP → PKA, phosphorylating Cav1.2, RyR2, phospholamban, troponin I, and HCN4 to amplify cardiac output. In chronic heart failure, β1AR is down-regulated ≥50%; β-blockers restore signalling and improve survival.</p>
       </div>
+
       <div class="detail-body">
 
+        <!-- OVERVIEW -->
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The β1-adrenergic receptor (β1AR) is the <strong>primary molecular relay</strong> between the sympathetic nervous system and the heart. It belongs to Class A (rhodopsin-like) GPCRs and is encoded by <em>ADRB1</em> on chromosome 10q24-q26. It is expressed densely on working cardiomyocytes (~75–80% of total cardiac β-AR), SA/AV-nodal pacemaker cells, and renal juxtaglomerular cells (renin release).</p>
+          <p>The receptor is activated by norepinephrine from sympathetic nerve terminals and circulating epinephrine from the adrenal medulla. Each binding event triggers the Gαs/cAMP/PKA cascade, simultaneously tuning heart rate, stroke volume, conduction velocity, and relaxation speed to match metabolic demand — the molecular basis of the fight-or-flight cardiac response.</p>
+          <p>β1AR is also one of the most clinically important drug targets in cardiology. β-blockers competitively antagonise it and are first-line therapy for heart failure with reduced ejection fraction (HFrEF), hypertension, post-MI prophylaxis, angina, and rate-control in atrial fibrillation.</p>
+        </div>
+
+        <!-- STRUCTURE -->
+        <div class="detail-section">
+          <h3>Structure and Receptor Family</h3>
+          <p>β1AR has the canonical 7-TM GPCR architecture: an extracellular N-terminus, three extracellular loops (ECL1–3), a transmembrane helix bundle (TM1–7), three intracellular loops (ICL1–3), and an intracellular C-terminal tail. The first crystal structure (turkey β1AR in complex with partial agonist cyanopindolol) was solved in 2008 at 2.7 Å.</p>
+
+          <table class="data-table" style="margin-top:1rem;">
+            <thead>
+              <tr><th>Structural feature</th><th>Residues</th><th>Functional role</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Asp<sup>3·32</sup> (TM3)</td><td>D138</td><td>Salt bridge to protonated amine of catecholamines — universal anchor point</td></tr>
+              <tr><td>Ser<sup>5·42</sup> / Ser<sup>5·46</sup> (TM5)</td><td>S215, S219</td><td>H-bonds to catechol hydroxyls; confers catechol specificity</td></tr>
+              <tr><td>TM6 intracellular end</td><td>~TM6 residues</td><td>Swings out 10–14 Å on activation, opening G-protein binding cavity</td></tr>
+              <tr><td>ICL3</td><td>Loop 3</td><td>Gαs engagement; also phosphorylated by GRK2/3 and PKA</td></tr>
+              <tr><td>C-terminal tail</td><td>C-tail</td><td>GRK2/3 phosphorylation sites → β-arrestin recruitment → desensitisation</td></tr>
+              <tr><td>Orthosteric pocket</td><td>TM3/5/6/7</td><td>Binding site for NE, Epi, and all β-blocker drugs</td></tr>
+            </tbody>
+          </table>
+
+          <p style="margin-top:1rem;">The β-adrenergic receptor family contains three human subtypes, all Gαs-coupled:</p>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>beta1-adrenergic-receptor</td></tr>
-            <tr><td>Name</td><td>β1-adrenergic receptor</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-            <tr><td>Uniprot</td><td>P08588</td></tr>
-            <tr><td>Gene Symbol</td><td>ADRB1</td></tr>
-            <tr><td>Pdb Examples</td><td>2VT4; 2Y00; 4AMI</td></tr>
+            <thead>
+              <tr><th>Receptor</th><th>Gene</th><th>UniProt</th><th>Predominant tissues</th><th>Primary roles</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>&beta;1-AR</td><td>ADRB1</td><td>P08588</td><td>Heart, kidney JG cells, adipose</td><td>Inotropy, chronotropy, lusitropy, renin release</td></tr>
+              <tr><td>&beta;2-AR</td><td>ADRB2</td><td>P07550</td><td>Lung SM, vasculature, heart (~20%), liver, skeletal muscle</td><td>Bronchodilation, vasodilation, glycogenolysis</td></tr>
+              <tr><td>&beta;3-AR</td><td>ADRB3</td><td>P13945</td><td>Brown/beige adipose, urinary bladder</td><td>Thermogenesis (UCP1), bladder relaxation</td></tr>
+            </tbody>
           </table>
         </div>
 
+        <!-- MECHANISM -->
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="cardiomyocyte.html" title="Predominant β-adrenergic receptor on working cardiomyocytes (~75–80% of total β-AR in healthy ventricle); also expressed on SA-nodal pacemaker cells."><span class="rel">expressed-by</span>Cardiomyocyte</a>
-            <a class="conn-pill" href="calcium.html" title="β1-AR/PKA signaling modulates Ca²⁺ handling: Cav1.2 and RyR2 phosphorylation increase Ca²⁺ transient amplitude; phospholamban phosphorylation accelerates SERCA reuptake."><span class="rel">modulated-by</span>Calcium</a>
-            <a class="conn-pill" href="sa-node-cell.html" title="SA node pacemaker cells express β1-AR; sympathetic activation shifts the HCN4 (If) activation curve rightward — positive chronotropy."><span class="rel">expressed-by</span>Sa Node Cell</a>
-            <a class="conn-pill" href="beta-blockers.html" title="β-blockers (metoprolol, bisoprolol, carvedilol) competitively antagonise β1-AR and are first-line therapy for HFrEF, hypertension, angina, and post-MI prophylaxis."><span class="rel">target-of</span>Beta Blockers</a>
-            <a class="conn-pill" href="ryr2.html" title="β1-AR/PKA phosphorylates RyR2 at Ser2808, increasing channel open probability and SR Ca²⁺ release gain — part of the inotropic response."><span class="rel">modulates</span>Ryr2</a>
-            <a class="conn-pill" href="serca2a.html" title="β1-AR/PKA phosphorylates phospholamban (PLN) at Ser16, relieving PLN inhibition of SERCA2a → faster Ca²⁺ reuptake → lusitropy and increased SR Ca²⁺ loading."><span class="rel">modulates</span>Serca2A</a>
-            <a class="conn-pill" href="phospholamban.html" title="β1-AR/PKA phosphorylates PLN at Ser16 — the dominant regulatory switch that relieves SERCA2a inhibition and produces the sympathetic lusitropic response."><span class="rel">modulates</span>Phospholamban</a>
-            <a class="conn-pill" href="hcn4.html" title="cAMP produced downstream of β1-AR binds the CNBD of HCN4, shifting I_f activation by ~+10 mV → faster diastolic depolarisation → positive chronotropy."><span class="rel">modulates</span>Hcn4</a>
+          <h3>Mechanism of Action</h3>
+          <p>β1AR activates a six-step signalling cascade from ligand binding to multi-target PKA phosphorylation:</p>
+
+          <div class="pathway-block">
+            <pre>
+  NE (synaptic) / Epi (adrenal)
+          │
+          ▼
+  β1AR orthosteric pocket
+  Asp³·³² salt-bridges amine; Ser⁵·⁴²/⁵·⁴⁶ H-bonds catechol hydroxyls
+  TM6 swings outward → G-protein cavity opens
+          │
+          ▼
+  Gαs·GDP recruited → GDP→GTP exchange
+  Gαs-GTP dissociates from Gβγ
+          │
+          ▼
+  Adenylyl cyclase AC5/AC6 activated by Gαs-GTP
+  ATP ──────────────────────────────────► cAMP  (↑10–20-fold acutely)
+  (hydrolyzed back by PDE3/PDE4)
+          │
+          ▼
+  cAMP binds PKA regulatory subunits → catalytic subunit release
+          │
+          ▼
+  PKA phosphorylates cardiac substrates:
+  ┌──────────────────────────────────────────────────────────────┐
+  │  Substrate         │ Site(s)      │ Effect                   │
+  │  Cav1.2 β-subunit  │ Ser1928      │ ↑Ca²⁺ influx → inotropy │
+  │  RyR2              │ Ser2808      │ ↑SR Ca²⁺ release gain    │
+  │  Phospholamban     │ Ser16        │ Relieves SERCA2a → faster│
+  │                    │              │ SR uptake = lusitropy     │
+  │  Troponin I        │ Ser23/24     │ ↓myofilament Ca²⁺ sens.  │
+  │                    │              │ → faster relaxation       │
+  │  MyBP-C            │ Ser273/282   │ Cross-bridge kinetics     │
+  │  HCN4 (nodal)      │ CNBD (+cAMP) │ If shifts +10 mV →       │
+  │                    │              │ faster pacemaking         │
+  └──────────────────────────────────────────────────────────────┘
+          │
+          ▼
+  Termination: GTPase → Gαs·GDP; PDE3/4 → 5'-AMP; PP2A → dephosphorylates PKA substrates
+            </pre>
+          </div>
+
+          <p>The net result is coordinated amplification of the cardiac cycle: faster pacemaker rate (chronotropy), faster AV conduction (dromotropy), stronger contraction (inotropy), and faster relaxation enabling greater filling (lusitropy).</p>
+
+          <p><strong>Desensitisation (GRK/β-arrestin axis):</strong> Sustained activation recruits GRK2/3, which phosphorylate ICL3 and the C-tail → β-arrestin-1/2 binding → steric block of Gαs coupling + receptor internalisation (clathrin-coated pits). β-Arrestin also scaffolds its own MAPK (ERK1/2) signal — a "biased" pathway that may be cardioprotective and is distinct from G-protein-mediated cardiotoxic signalling. Drugs that preferentially engage β-arrestin vs. Gαs ("biased agonists") are in preclinical/early clinical exploration.</p>
+        </div>
+
+        <!-- PHYSIOLOGICAL ROLES -->
+        <div class="detail-section">
+          <h3>Physiological Roles by Tissue</h3>
+          <table class="data-table">
+            <thead>
+              <tr><th>Tissue / structure</th><th>Effect of β1AR activation</th><th>PKA targets involved</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>SA node pacemaker cells</td><td>Positive chronotropy — faster diastolic depolarisation</td><td>HCN4 (↑If); Cav1.2 (↑ICaL contribution to upstroke)</td></tr>
+              <tr><td>AV node</td><td>Positive dromotropy — faster conduction velocity</td><td>Cav1.2 (enhances ICaL slow conduction)</td></tr>
+              <tr><td>Atrial myocardium</td><td>↑Atrial contractility; ↑atrial Ca²⁺ transient</td><td>Cav1.2, RyR2</td></tr>
+              <tr><td>Ventricular myocardium</td><td>Positive inotropy + lusitropy</td><td>Cav1.2, RyR2, PLN, TnI Ser23/24, MyBP-C</td></tr>
+              <tr><td>Renal JG cells</td><td>Renin secretion → activates RAAS → ↑BP + volume</td><td>AC → cAMP → PKA → renin exocytosis</td></tr>
+              <tr><td>Adipose (minor)</td><td>Lipolysis (β1 + β2; β3 dominant in brown fat)</td><td>PKA → HSL (hormone-sensitive lipase)</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- PHARMACOLOGY -->
+        <div class="detail-section">
+          <h3>Pharmacology</h3>
+          <p>β-blockers are divided by cardioselectivity (β1 vs. β2 preference) and additional properties (intrinsic sympathomimetic activity, vasodilation, α1-blockade):</p>
+          <table class="data-table">
+            <thead>
+              <tr><th>Drug</th><th>β1-selectivity</th><th>Additional properties</th><th>Key indications</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Metoprolol succinate</td><td>High (cardioselective)</td><td>Extended-release; no ISA</td><td>HFrEF (MERIT-HF), hypertension, post-MI, angina, AF rate control</td></tr>
+              <tr><td>Bisoprolol</td><td>Very high</td><td>No ISA; once-daily</td><td>HFrEF (CIBIS-II), hypertension, AF rate control</td></tr>
+              <tr><td>Carvedilol</td><td>Non-selective β1/β2 + α1</td><td>α1-blockade → vasodilation; antioxidant; biased agonist (β-arr)</td><td>HFrEF (COPERNICUS/CAPRICORN), post-MI LV dysfunction</td></tr>
+              <tr><td>Atenolol</td><td>Moderate–high</td><td>Hydrophilic; no CNS penetration</td><td>Hypertension, angina (less evidence in HF)</td></tr>
+              <tr><td>Nebivolol</td><td>High</td><td>↑eNOS-derived NO → vasodilation</td><td>HFrEF in elderly (SENIORS), hypertension</td></tr>
+              <tr><td>Labetalol</td><td>Non-selective + α1</td><td>IV formulation; rapid onset</td><td>Hypertensive urgency, eclampsia</td></tr>
+              <tr><td>Propranolol</td><td>Non-selective β1/β2</td><td>Membrane stabilising; CNS effects</td><td>Arrhythmias, hyperthyroidism, anxiety, portal hypertension</td></tr>
+              <tr><td>Dobutamine</td><td>β1-agonist (selective)</td><td>Also partial β2 agonist, weak α1</td><td>Acute HF (inotropic support), stress echocardiography</td></tr>
+              <tr><td>Isoprenaline (isoproterenol)</td><td>Non-selective β1/β2 agonist</td><td>No α effect; full agonist</td><td>Symptomatic bradycardia, torsades bridge, electrophysiology testing</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- PATHOLOGY -->
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <thead>
+              <tr><th>Condition</th><th>β1AR mechanism</th><th>Clinical relevance</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Heart failure with reduced EF (HFrEF)</td><td>Chronic NE excess → β1AR down-regulation ≥50%, GRK2 up-regulation, functional uncoupling; residual β1AR triggers pro-apoptotic Ca²⁺/CaMKII signalling</td><td>β-blockers reduce mortality 34–65% (MERIT-HF, COPERNICUS, CIBIS-II); 2022 AHA/ACC/HFSA guidelines: mandatory unless contraindicated</td></tr>
+              <tr><td>Takotsubo (stress) cardiomyopathy</td><td>Catecholamine surge → acute β1AR + β2AR overload; Ca²⁺ overload → transient apical ballooning</td><td>Typically reversible; avoid catecholamines; consider β-blocker secondary prevention</td></tr>
+              <tr><td>Catecholaminergic polymorphic VT (CPVT)</td><td>Genetic RyR2 mutations → PKA-phosphorylated RyR2 leaks Ca²⁺ → DADs → VT triggered by exercise/emotion</td><td>β-blockers (nadolol/propranolol) are first-line; flecainide adjunct (closes leaky RyR2)</td></tr>
+              <tr><td>Pheochromocytoma</td><td>Chronic catecholamine excess → receptor down-regulation, desensitisation, hypertensive cardiomyopathy</td><td>Pre-operative α-blockade first (phenoxybenzamine), then add β-blocker to avoid paradoxical hypertension</td></tr>
+              <tr><td>Long QT / arrhythmias</td><td>β1AR/PKA → excess RyR2 Ca²⁺ release → triggered arrhythmias; also direct PKA-dependent modulation of IKs</td><td>β-blockers effective in LQT1 and LQT2; most potent in exercise-triggered events</td></tr>
+            </tbody>
+          </table>
+
+          <div class="principle-box" style="margin-top:1.25rem;">
+            <strong>The β-Blocker Paradox in Heart Failure:</strong> Blocking the receptor that drives inotropy seems counterintuitive in a patient with already-reduced contractility. The key insight is time-scale. Acutely, β-blockade can worsen symptoms (initiate low and slow). Chronically (weeks to months), it blocks catecholamine toxicity, restores β1AR density and coupling, reduces apoptosis, reverses maladaptive remodelling, and dramatically reduces sudden death and hospitalisation. The benefit is maintained even when acute haemodynamic improvement is minimal.
           </div>
         </div>
 
+        <!-- PHARMACOGENOMICS -->
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Pharmacogenomics</h3>
+          <p>Two clinically studied <em>ADRB1</em> coding variants alter receptor function and may modulate β-blocker response:</p>
+          <table class="data-table">
+            <thead>
+              <tr><th>Polymorphism</th><th>Codon</th><th>Functional effect</th><th>Clinical implication</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Arg389Gly</td><td>389</td><td>Arg389 → stronger Gαs coupling → greater basal and stimulated cAMP; greater inotropic response to catecholamines</td><td>Arg/Arg patients may show larger heart rate reduction with metoprolol; associated with altered HF prognosis in some cohorts</td></tr>
+              <tr><td>Ser49Gly</td><td>49</td><td>Gly49 → enhanced agonist-promoted down-regulation; potentially faster internalization</td><td>Possible influence on long-term β-blocker efficacy; not yet clinically actionable</td></tr>
+            </tbody>
+          </table>
+          <p>Clinical use of pharmacogenomics for β-blocker personalisation is not yet routine but is an active research area (PGRN-RIKEN collaborative studies).</p>
+        </div>
+
+        <!-- CONNECTIONS -->
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="cardiomyocyte.html"><span class="rel">part-of</span>Cardiomyocyte</a>
+            <a class="conn-pill part" href="sa-node-cell.html"><span class="rel">expressed-by</span>SA Node Cell</a>
+            <a class="conn-pill" href="norepinephrine.html"><span class="rel">activated-by</span>Norepinephrine</a>
+            <a class="conn-pill" href="epinephrine.html"><span class="rel">activated-by</span>Epinephrine</a>
+            <a class="conn-pill" href="calcium.html"><span class="rel">modulates</span>Calcium</a>
+            <a class="conn-pill" href="ryr2.html"><span class="rel">phosphorylates</span>RyR2</a>
+            <a class="conn-pill" href="serca2a.html"><span class="rel">modulates</span>SERCA2a (via PLN)</a>
+            <a class="conn-pill" href="phospholamban.html"><span class="rel">phosphorylates</span>Phospholamban</a>
+            <a class="conn-pill" href="hcn4.html"><span class="rel">modulates</span>HCN4</a>
+            <a class="conn-pill" href="angiotensin-ii.html"><span class="rel">upstream-of</span>Angiotensin II (renin)</a>
+            <a class="conn-pill" href="beta-blockers.html"><span class="rel">target-of</span>Beta-blockers</a>
+            <a class="conn-pill damaged" href="heart-failure.html"><span class="rel">impaired-in</span>Heart Failure</a>
+          </div>
+        </div>
+
+        <!-- REFERENCES -->
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.uniprot.org/uniprotkb/P08588/entry" target="_blank" rel="noopener noreferrer">UniProt P08588 — Beta-1 adrenergic receptor (ADRB1, human).</a></li>
-            <li><a href="https://doi.org/10.1038/nature07101" target="_blank" rel="noopener noreferrer">Warne T, Serrano-Vega MJ, Baker JG, et al. Structure of a beta1-adrenergic G-protein-coupled receptor. Nature. 2008;454(7203):486-91.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18594507/" target="_blank" rel="noopener noreferrer">PubMed 18594507</a></li>
-            <li><a href="https://doi.org/10.1126/science.1109237" target="_blank" rel="noopener noreferrer">Lefkowitz RJ, Shenoy SK. Transduction of receptor signals by beta-arrestins. Science. 2005;308(5721):512-7.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15845844/" target="_blank" rel="noopener noreferrer">PubMed 15845844</a></li>
-            <li><a href="https://doi.org/10.1161/01.CIR.101.5.558" target="_blank" rel="noopener noreferrer">Bristow MR. β-Adrenergic receptor blockade in chronic heart failure. Circulation. 2000;101(5):558-69.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10662755/" target="_blank" rel="noopener noreferrer">PubMed 10662755</a></li>
-            <li><a href="https://doi.org/10.1161/CIR.0000000000001063" target="_blank" rel="noopener noreferrer">Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. Circulation. 2022;145(18):e895-e1032.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/35363499/" target="_blank" rel="noopener noreferrer">PubMed 35363499</a></li>
+            <li><a href="https://www.uniprot.org/uniprotkb/P08588/entry" target="_blank" rel="noopener noreferrer">UniProt P08588 — Beta-1 adrenergic receptor (ADRB1, human).</a> Accessed 2026-06-03.</li>
+            <li><a href="https://doi.org/10.1038/nature07101" target="_blank" rel="noopener noreferrer">Warne T, Serrano-Vega MJ, Baker JG, et al. Structure of a beta1-adrenergic G-protein-coupled receptor. <em>Nature.</em> 2008;454(7203):486–491.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18594507/" target="_blank" rel="noopener noreferrer">PubMed 18594507</a></li>
+            <li><a href="https://doi.org/10.1126/science.1109237" target="_blank" rel="noopener noreferrer">Lefkowitz RJ, Shenoy SK. Transduction of receptor signals by beta-arrestins. <em>Science.</em> 2005;308(5721):512–517.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15845844/" target="_blank" rel="noopener noreferrer">PubMed 15845844</a></li>
+            <li><a href="https://doi.org/10.1161/01.CIR.101.5.558" target="_blank" rel="noopener noreferrer">Bristow MR. β-Adrenergic receptor blockade in chronic heart failure. <em>Circulation.</em> 2000;101(5):558–569.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10662755/" target="_blank" rel="noopener noreferrer">PubMed 10662755</a></li>
+            <li><a href="https://doi.org/10.1161/CIR.0000000000001063" target="_blank" rel="noopener noreferrer">Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. <em>Circulation.</em> 2022;145(18):e895–e1032.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/35363499/" target="_blank" rel="noopener noreferrer">PubMed 35363499</a></li>
+            <li>MERIT-HF Study Group. Effect of metoprolol CR/XL in chronic heart failure. <em>Lancet.</em> 1999;353(9169):2001–2007. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10376614/" target="_blank" rel="noopener noreferrer">PubMed 10376614</a></li>
+            <li><a href="https://doi.org/10.1056/NEJM199912023412301" target="_blank" rel="noopener noreferrer">Packer M, Coats AJ, Fowler MB, et al. (COPERNICUS). Carvedilol in severe chronic heart failure. <em>N Engl J Med.</em> 2001;344(22):1651–1658.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11386263/" target="_blank" rel="noopener noreferrer">PubMed 11386263</a></li>
           </ul>
         </div>
 
@@ -199,8 +370,9 @@
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta" style="margin-top:0.3rem;">&copy; <span id="year"></span> Bhim Upadhyaya</p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>

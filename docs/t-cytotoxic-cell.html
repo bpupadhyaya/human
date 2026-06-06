@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CD8+ αβ T lymphocyte; 20–35% of circulating T cells. Recognises MHC-I:peptide on all nucleated cells; kills virus-infected and tumour targets via perforin/granz">
+  <meta name="description" content="Cytotoxic T Cell (CD8+) — primary cellular effector of adaptive immunity against virus-infected and malignant cells. Kills via perforin/granzyme B and Fas/FasL pathways at the immunological synapse. Exhausts under chronic antigen exposure.">
   <meta property="og:title" content="Cytotoxic T Cell — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Cytotoxic T Cell — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #2563eb;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,51 +32,49 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(37,99,235,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #1d4ed8, #1e3a8a); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+    .detail-section ol, .detail-section ul { padding-left: 1.4rem; color: var(--fg-soft); font-size: 0.95rem; line-height: 1.7; }
+    .detail-section li { margin-bottom: 0.3rem; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -108,8 +99,8 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="immune-system.html">Immune System</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -119,61 +110,189 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
     <h1>Cytotoxic T Cell</h1>
-    <p class="tagline">CD8+ αβ T lymphocyte; 20–35% of circulating T cells. Recognises MHC-I:peptide on all nucleated cells; kills virus-infected and tumour targets via perforin/granzyme B and Fas/FasL. Forms long-lived memory subsets (T_CM, T_EM, T_RM) and exhausts under chronic antigen exposure.</p>
-    <p class="aliases">Also known as: CD8+ T cell, CTL, cytotoxic T lymphocyte, killer T cell, CD8 T cell</p>
+    <p class="tagline">The primary cellular killer of adaptive immunity — CD8+ lymphocytes that survey all nucleated cells via MHC-I and eliminate virus-infected, malignant, and intracellularly invaded targets.</p>
+    <p class="subtagline">20–35% of circulating T cells. Deploys perforin/granzyme B and Fas/FasL at the immunological synapse. Exhausted by chronic antigen (HIV, tumors) — reversed by checkpoint immunotherapy. The cellular basis of anti-cancer CAR-T therapy.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">0.2–0.9&thinsp;&times;&thinsp;10⁹/L</span><span class="stat-label">Blood concentration</span></div>
+      <div class="stat"><span class="stat-num">~10¹³</span><span class="stat-label">Nucleated cells surveilled (MHC-I)</span></div>
+      <div class="stat"><span class="stat-num">10⁴–10⁶×</span><span class="stat-label">Clonal expansion</span></div>
+      <div class="stat"><span class="stat-num">5–10%</span><span class="stat-label">Survive as memory after contraction</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">t-cytotoxic-cell</div>
-        <h2>Cytotoxic T Cell</h2>
-        <p class="summary">CD8+ αβ T lymphocyte; 20–35% of circulating T cells. Recognises MHC-I:peptide on all nucleated cells; kills virus-infected and tumour targets via perforin/granzyme B and Fas/FasL. Forms long-lived memory subsets (T_CM, T_EM, T_RM) and exhausts under chronic antigen exposure.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One / Scale 04 &middot; t-cytotoxic-cell</div>
+        <h2>Cytotoxic T Cell (CD8+)</h2>
+        <p class="summary">CD8+ αβ T lymphocytes constitute 20–35% of circulating T cells. They recognize peptide:MHC-I on all nucleated cells; killing proceeds via directed degranulation of perforin + granzyme B at the immunological synapse (SMAC), and via Fas/FasL induction of apoptosis. Forms long-lived memory subsets (T<sub>CM</sub>, T<sub>EM</sub>, T<sub>RM</sub>) and exhausts under chronic antigen — PD-1 blockade partially reinvigorates exhausted CTLs, the basis of checkpoint immunotherapy.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>Cytotoxic T lymphocytes (CTLs, CD8+ T cells) are the primary cellular effectors of adaptive immunity against intracellular pathogens and neoplastic cells. They constitute 20–35% of circulating CD3+ T lymphocytes and are defined by surface expression of the <strong>CD8αβ co-receptor</strong>, which binds the α3 domain of MHC class I molecules. Because MHC class I is expressed on virtually all nucleated cells (~10¹³ in the human body), CTLs can survey the entire organismal proteome for signs of viral infection, oncogenic transformation, or intracellular bacterial invasion.</p>
+          <p>CTLs are generated in the thymus by positive and negative selection, producing a repertoire estimated at >10⁷ distinct specificities. Upon antigen encounter, naïve CD8+ T cells undergo massive clonal expansion (one cell → 10⁴–10⁶ effector progeny), mediate cytolytic effector function, then contract — leaving 5–10% long-lived memory cells capable of rapid reactivation on secondary exposure.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure — Surface Markers and Lytic Granules</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>t-cytotoxic-cell</td></tr>
-            <tr><td>Name</td><td>Cytotoxic T Cell</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
+            <tr><th>Molecule</th><th>Category</th><th>Function / Notes</th></tr>
+            <tr><td>CD8αβ</td><td>Co-receptor</td><td>Binds MHC-I α3 domain; carries Lck; distinguishes CTLs from CD4+ T cells</td></tr>
+            <tr><td>TCRαβ + CD3</td><td>Antigen receptor</td><td>Clonotypic; V(D)J generated; CD3ζ bears ITAMs for ZAP-70 recruitment</td></tr>
+            <tr><td>CD28</td><td>Co-stimulation</td><td>Binds CD80/86; PI3K/Akt; prevents anergy; essential for optimal activation</td></tr>
+            <tr><td>CD45RA/RO</td><td>Memory</td><td>RA on naïve/effector-memory; RO on effector/central-memory</td></tr>
+            <tr><td>PD-1 (CD279)</td><td>Checkpoint</td><td>Upregulated on activation and exhaustion; PD-L1/L2 → ITIM → SHP-1/2 → dampened TCR</td></tr>
+            <tr><td>TIM-3</td><td>Exhaustion</td><td>Co-expressed with PD-1 in advanced exhaustion; ligand galectin-9</td></tr>
+            <tr><td>LAG-3</td><td>Exhaustion</td><td>MHC-II ligand; synergistic exhaustion with PD-1</td></tr>
+            <tr><td>CTLA-4 (CD152)</td><td>Checkpoint</td><td>Competes with CD28 for CD80/86; higher affinity than CD28</td></tr>
+            <tr><td>Perforin (PRF1)</td><td>Lytic granule</td><td>Pore-forming protein; Ca²⁺-dependent; membrane attack</td></tr>
+            <tr><td>Granzyme B</td><td>Lytic granule</td><td>Serine protease; cleaves caspase-3 and BID → apoptosis</td></tr>
+            <tr><td>FasL (CD95L)</td><td>Death ligand</td><td>Binds Fas (CD95) on target → DISC → caspase-8 → apoptosis</td></tr>
+            <tr><td>LAMP-1/2 (CD107a/b)</td><td>Degranulation marker</td><td>Granule membrane exposed on CTL surface upon degranulation; activation marker</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — TCR Activation → Killing Mechanism</h3>
+          <div class="circuit-diagram">
+<pre>
+  TCR:pMHC-I + CD8:MHC-I α3 binding to target cell
+         │
+         ▼
+  ZAP-70 (Lck-phosphorylated ITAMs on CD3ζ)
+         │
+         ▼
+  LAT/SLP-76 scaffold → PLCγ1
+         │
+         ├──► IP₃ → ER Ca²⁺ release → NFAT (calcineurin)
+         └──► DAG → PKCθ → NF-κB + AP-1
+                    │
+                    ▼
+         CD28 signal (PI3K → Akt → mTOR) amplifies
+                    │
+                    ▼
+         Immunological synapse formation:
+         MTOC polarizes → lytic granules traffic to cSMAC
+                    │
+                    ▼
+         Directed degranulation into synaptic cleft
+                    │
+              ┌─────┴─────────────────────┐
+              ▼                           ▼
+   Perforin/Granzyme pathway         Fas/FasL pathway
+   ─────────────────────────         ─────────────────
+   Perforin → membrane pores          FasL binds Fas
+   Granzyme B enters target           → DISC formation
+   → Caspase-3 (direct)              (FADD + procaspase-8)
+   → BID → tBID → Bax/Bak            → Caspase-8 → Caspase-3
+   → cytochrome c → apoptosome        → Apoptosis
+   → Caspase-9 → Caspase-3
+   → Intrinsic apoptosis
+   (minutes, focused, bystander-sparing)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Selectivity:</strong> The immunological synapse architecture (cSMAC/pSMAC/dSMAC) ensures directed degranulation exclusively into the synaptic cleft, protecting bystander cells. A single CTL can serially kill multiple targets.</p>
+          <p><strong>IFN-γ secretion:</strong> CTLs also produce IFN-γ (upregulates MHC-I on targets improving recognition; activates macrophages) and TNF-α (synergistic killing), bridging cellular and innate immunity.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lifecycle / Differentiation and Memory Subsets</h3>
+          <div class="circuit-diagram">
+<pre>
+  Bone marrow HSC → CLP → thymus (ETP)
+         │
+  DN stages → β-selection → DP thymocytes (CD4+CD8+)
+         │
+  Positive selection (cTECs, MHC-I) → CD8 SP fate
+  Negative selection (mTECs, AIRE) → autoreactive deletion
+         │
+  Naive CD8+ T cell — blood/lymph node circulation
+  Homeostatic survival: IL-7 (CD127) + tonic TCR:MHC-I
+         │
+  Antigen priming (DC cross-presentation or direct MHC-I)
+  + CD4 help (IL-2 / Signal 3)
+         │
+  Clonal expansion: 10⁴–10⁶× (days 3–7)
+  T-bet → perforin, granzyme B, IFN-γ
+  Blimp-1 → terminal effector (KLRG1+, IL-7R−)
+  Eomes → memory precursor effector cells (MPEC, IL-2Rβ+)
+         │
+  Contraction (~day 14–21): 90–95% effectors die (Bcl-2 ↓)
+         │
+         ├──► T_CM (central memory): CCR7+CD62Lhi
+         │    Lymph-node resident; best proliferative potential
+         │    IL-15-driven long-term survival
+         │
+         ├──► T_EM (effector memory): CCR7−, CX3CR1+
+         │    Blood / non-lymphoid tissues; higher immediate cytotoxicity
+         │
+         └──► T_RM (tissue-resident memory): CD69+CD103+
+              Permanently reside in barrier tissues (lung, gut, skin)
+              First line on re-challenge; critical for mucosal anti-viral immunity
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Exhaustion:</strong> Chronic antigen (HIV, HBV/HCV, tumors) drives progressive CTL exhaustion — TOX transcription factor, PD-1hi/TIM-3hi/LAG-3hi expression, reduced cytotoxicity and IFN-γ. PD-1:PD-L1 blockade (nivolumab, pembrolizumab) partially reinvigorates exhausted CTLs — the major basis of checkpoint immunotherapy in cancer.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>HIV/AIDS — CTL impairment and exhaustion</h4>
+            <p>HIV-1 depletes CD4+ T helper cells required for CTL priming and IL-2 support. HIV-specific CTLs are initially generated but become exhausted (PD-1hi, TIM-3hi). HIV immune evasion via Nef downregulates MHC-I, reducing CTL recognition. CD8+ T cell functional capacity is a key correlate of protection in HIV elite controller phenotypes. ART restores CD4+ counts but CTL memory quality remains suboptimal.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Tumour immunology and CAR-T cell therapy</h4>
+            <p>Tumour-infiltrating lymphocytes (TILs) are often PD-1hi and functionally exhausted due to chronic tumor antigen exposure and suppressive tumour microenvironment (TGF-β, IDO, Treg-derived IL-10). Checkpoint blockade (anti-PD-1, anti-CTLA-4) reinvigorates exhausted CTLs. CAR-T cells (chimeric antigen receptor, e.g., anti-CD19 for B-ALL, anti-BCMA for myeloma) redirect CTLs to surface tumour antigens in an MHC-independent manner, achieving deep remissions.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Autoimmune CTL pathology</h4>
+            <p>CD8+ T cells infiltrate and destroy islet β-cells in type 1 diabetes (HLA-A2-restricted insulin B chain peptides); contribute to synovitis in rheumatoid arthritis; mediate allograft rejection (allorecognition of donor MHC-I peptides). EBV-specific CTL exhaustion allows persistence and transformation of EBV-infected B cells → lymphoma.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Chronic viral hepatitis — CTL exhaustion</h4>
+            <p>HBV and HCV drive CTL exhaustion; virus-specific CTLs are PD-1hi/TIM-3hi and fail to clear hepatic infection. PD-1 blockade partially restores HCV-specific CTL function. Complete HBV cure strategies require combination CTL reinvigoration with antiviral therapy (nucleos(t)ide analogues), possibly with therapeutic vaccines.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Molecules — Cytolytic Pathway Details</h3>
+          <table class="data-table">
+            <tr><th>Molecule</th><th>Pathway</th><th>Mechanism of action</th></tr>
+            <tr><td>Perforin (PRF1)</td><td>Perforin/granzyme</td><td>Pore-forming protein; Ca²⁺-dependent; inserts into target lipid bilayer; forms MAC-like channels; allows granzyme entry; also delivered via acidified endosomes after granzyme B endocytosis</td></tr>
+            <tr><td>Granzyme B (GZMB)</td><td>Perforin/granzyme</td><td>Serine protease; directly cleaves and activates pro-caspase-3; cleaves BID → tBID → mitochondrial Bax/Bak pores → cytochrome c → apoptosome → caspase-9 → caspase-3/7 (intrinsic apoptosis)</td></tr>
+            <tr><td>Granzyme A (GZMA)</td><td>Perforin/granzyme</td><td>Cleaves SET complex (SET, Ape1, pp32) → releases NM23-H1 DNase → DNA nicks; caspase-independent death; granule-derived</td></tr>
+            <tr><td>Granulysin</td><td>Perforin/granzyme</td><td>Antimicrobial peptide; disrupts bacterial membranes; synergizes with perforin; active against M. tuberculosis</td></tr>
+            <tr><td>FasL (CD95L)</td><td>Death receptor</td><td>TNF superfamily; binds Fas (CD95) → DISC (FADD + pro-caspase-8 recruitment) → caspase-8 → caspase-3 → apoptosis; also used for AICD (activation-induced cell death)</td></tr>
+            <tr><td>TRAIL (TNFSF10)</td><td>Death receptor</td><td>Binds DR4/DR5 on tumor cells; DISC-mediated caspase-8 activation; important in tumor immunosurveillance; many cancer cells upregulate DR4/5</td></tr>
+            <tr><td>IFN-γ</td><td>Cytokine</td><td>Upregulates MHC-I on target cells (improves CTL recognition); activates macrophages for intracellular killing; STAT1-dependent ISG expression; antiviral state</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="thymus.html" title="Naïve CD8+ T cells are positively selected in the thymic cortex (on cTEC MHC-I) and negatively selected in the medulla (on mTEC/AIRE-expressed self-antigens); mature SP CD8+ cells egress via CCR7/CXCR4 signalling."><span class="rel">part-of</span>Thymus</a>
-            <a class="conn-pill part" href="immune-system.html" title="Cytotoxic CD8+ T cells are the primary effectors of adaptive cellular immunity against virally infected cells and tumours; they kill via perforin/granzyme B and Fas/FasL pathways at the immunological synapse."><span class="rel">part-of</span>Immune System</a>
-            <a class="conn-pill" href="dendritic-cell.html" title="DCs cross-present exogenous viral/tumour antigens on MHC-I (cross-presentation, TAP-dependent) to prime naïve CD8+ T cells; DC-derived IL-12 and type I IFN drive CTL differentiation and expansion."><span class="rel">modulates</span>Dendritic Cell</a>
-            <a class="conn-pill" href="b-cell.html" title="CD8+ T cells regulate B cell responses: CTL kills virally infected B cells displaying viral peptide on MHC-I; CD8+ Treg-like cells can suppress Ab production; CTL exhaustion allows persistence of EBV-transformed B cells."><span class="rel">modulates</span>B Cell</a>
+            <a class="conn-pill part" href="immune-system.html"><span class="rel">Part of</span>immune-system</a>
+            <a class="conn-pill" href="thymus.html"><span class="rel">Developed in</span>thymus</a>
+            <a class="conn-pill" href="dendritic-cell.html"><span class="rel">Primed by</span>dendritic-cell (cross-presentation)</a>
+            <a class="conn-pill" href="t-helper-cell.html"><span class="rel">Licensed by</span>t-helper-cell (IL-2)</a>
+            <a class="conn-pill" href="regulatory-t-cell.html"><span class="rel">Suppressed by</span>regulatory-t-cell</a>
+            <a class="conn-pill" href="b-cell.html"><span class="rel">Kills infected</span>b-cell (viral peptide MHC-I)</a>
+            <a class="conn-pill damaged" href="hiv-1.html"><span class="rel">Exhausted by</span>HIV-1</a>
+            <a class="conn-pill damaged" href="epstein-barr-virus.html"><span class="rel">Challenged by</span>EBV latency</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
-            <li><a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener noreferrer">Murphy K, Weaver C. Janeway's Immunobiology. 9th ed. Garland Science; 2017.</a></li>
+            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">ncbi.nlm.nih.gov</a></li>
+            <li>Murphy K, Weaver C. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2017. <a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener">garlandscience.com</a></li>
+            <li>Abbas AK, Lichtman AH, Pillai S. <em>Cellular and Molecular Immunology.</em> 9th ed. Elsevier; 2018.</li>
+            <li>Wherry EJ. T cell exhaustion. <em>Nat Immunol.</em> 2011;12(6):492-9. <a href="https://doi.org/10.1038/ni.2035" target="_blank" rel="noopener">doi:10.1038/ni.2035</a></li>
           </ul>
         </div>
 
@@ -185,14 +304,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="t-helper-cell.html">T Helper Cell</a>
+      <a href="regulatory-t-cell.html">Regulatory T Cell</a>
       <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

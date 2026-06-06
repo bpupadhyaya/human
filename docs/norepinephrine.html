@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Catecholamine (MW 169.18), immediate Epi precursor and primary sympathetic postganglionic neurotransmitter. Activates α₁, α₂, β₁ adrenergic receptors. Locus coe">
-  <meta property="og:title" content="Norepinephrine — Human Engineering">
+  <meta name="description" content="Norepinephrine (NE/noradrenaline) — catecholamine (MW 169.18), primary sympathetic postganglionic neurotransmitter and locus coeruleus CNS modulator. α1/α2/β1 receptors. NET reuptake targeted by TCAs, SNRIs, atomoxetine. Key vasopressor in septic shock.">
+  <meta property="og:title" content="Norepinephrine (NE) — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Norepinephrine — Human Engineering</title>
+  <title>Norepinephrine (NE) — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,46 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(159,18,57,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #9f1239, #881337); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .principle-box { background: rgba(159,18,57,0.05); border: 1px solid rgba(159,18,57,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +94,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,61 +106,261 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>Norepinephrine</h1>
-    <p class="tagline">Catecholamine (MW 169.18), immediate Epi precursor and primary sympathetic postganglionic neurotransmitter. Activates α₁, α₂, β₁ adrenergic receptors. Locus coeruleus projects modulate CNS arousal. NET reuptake targeted by TCAs, SNRIs, cocaine, atomoxetine.</p>
-    <p class="aliases">Also known as: noradrenaline, NE, NA, levarterenol, norepinephrinum</p>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
+    <h1>Norepinephrine (NE)</h1>
+    <p class="tagline">The primary sympathetic neurotransmitter — maintains vascular tone via α1 receptors, modulates CNS arousal and attention via locus coeruleus projections, and is the first-line vasopressor in septic shock.</p>
+    <p class="subtagline">MW 169.18 g/mol. Synthesised from dopamine by DβH (intra-vesicular, Cu²⁺/ascorbate/O₂) in sympathetic terminals and locus coeruleus neurons. Precursor to epinephrine (via adrenal PNMT). Three main receptor classes: α1 (Gq, vasoconstriction), α2 (Gi, autoreceptor/sedation), β1 (Gs, cardiac inotropy/chronotropy). Reuptake: NET (SLC6A2) — target of TCAs, SNRIs, atomoxetine. Degradation: MAO-A + COMT → VMA.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">169.18</span><span class="stat-label">MW (g/mol)</span></div>
+      <div class="stat"><span class="stat-num">α1 / α2 / β1</span><span class="stat-label">Primary receptor targets</span></div>
+      <div class="stat"><span class="stat-num">NET / SLC6A2</span><span class="stat-label">Reuptake transporter</span></div>
+      <div class="stat"><span class="stat-num">LC</span><span class="stat-label">Locus coeruleus — CNS source</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">norepinephrine</div>
-        <h2>Norepinephrine</h2>
-        <p class="summary">Catecholamine (MW 169.18), immediate Epi precursor and primary sympathetic postganglionic neurotransmitter. Activates α₁, α₂, β₁ adrenergic receptors. Locus coeruleus projects modulate CNS arousal. NET reuptake targeted by TCAs, SNRIs, cocaine, atomoxetine.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Catecholamine / Sympathetic Neurotransmitter / Adrenergic</div>
+        <h2>Norepinephrine (NE) / Noradrenaline</h2>
+        <div class="drug-class">Class: Catecholamine &nbsp;&middot;&nbsp; Sympathetic neurotransmitter &nbsp;&middot;&nbsp; CNS neuromodulator &nbsp;|&nbsp; Biosynthesis: DβH (VESICULAR; dopamine precursor) &nbsp;|&nbsp; Reuptake: NET (SLC6A2) &nbsp;|&nbsp; Degradation: MAO-A → DHPG → VMA; COMT → normetanephrine</div>
+        <p class="summary">Norepinephrine (noradrenaline; NE; MW 169.18 Da) is the primary neurotransmitter of sympathetic postganglionic neurons throughout the body and the principal neuromodulator of CNS arousal states via diffuse projections from the locus coeruleus (LC) — the largest noradrenergic nucleus in the brain (A6 cell group, pontine brainstem). NE is structurally identical to epinephrine except for its primary amine (NH₂) versus epinephrine's N-methyl secondary amine — a single difference that reduces β₂ affinity substantially. It acts predominantly at α₁ (vasoconstriction → ↑TPR → ↑BP), α₂ (presynaptic autoreceptor inhibition + CNS sedation/analgesia), and β₁ (cardiac positive inotropy/chronotropy + renin release) adrenergic receptors. Its norepinephrine transporter (NET/SLC6A2) is the pharmacological target of tricyclic antidepressants, SNRIs, and atomoxetine. Clinically, IV norepinephrine is the first-line vasopressor in septic shock.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">noradrenaline</span>
+          <span class="alias-pill">NE</span>
+          <span class="alias-pill">NA</span>
+          <span class="alias-pill">levarterenol</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>norepinephrine</td></tr>
-            <tr><td>Name</td><td>Norepinephrine</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-          </table>
+          <h3>Structure &amp; Chemistry</h3>
+          <p>NE is a <strong>catecholamine</strong> (catechol ring + aminoethanol side chain). Catechol ring (3,4-dihydroxybenzene) is essential for receptor binding and is O-methylated by COMT at the 3-OH → normetanephrine. The <strong>benzylic chiral centre</strong> (R-configuration in natural L-NE) confers stereoselective receptor binding — synthetic racemic mixtures are less potent. The <strong>primary amine</strong> (−NH₂) distinguishes NE from epinephrine (−NHCH₃) and is responsible for its higher α₁/α₂ and lower β₂ selectivity relative to epinephrine.</p>
+          <p>NE is stored in <strong>dense-core vesicles</strong> in sympathetic terminals co-packaged with ATP, chromogranin A, and neuropeptide Y (NPY). In the LC, NE is synthesised and packaged in synaptic vesicles that release NE in a firing rate-dependent fashion as volume transmission throughout the forebrain.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="beta1-adrenergic-receptor.html" title="Norepinephrine is the primary endogenous agonist of β₁AR on cardiomyocytes (Gs→cAMP→PKA); activates SA node, ↑HR, ↑AV conduction, ↑ventricular contractility; maintains sympathetic tone."><span class="rel">modulates</span>Beta1 Adrenergic Receptor</a>
-            <a class="conn-pill" href="nervous-system.html" title="Locus coeruleus NE neurons project to entire CNS modulating arousal, attention, fear, and autonomic tone; LC hyperactivation in PTSD/anxiety; α₂ agonists (clonidine) suppress LC for opioid withdrawal."><span class="rel">modulates</span>Nervous System</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="NE is the principal sympathetic vasoconstrictor — activates vascular smooth muscle α₁AR → ↑peripheral resistance; maintains basal vascular tone; IV NE (vasopressor) used in septic shock."><span class="rel">modulates</span>Cardiovascular System</a>
-            <a class="conn-pill" href="dopamine.html" title="Norepinephrine is synthesised from dopamine by DβH in synaptic vesicles; the DA:NE ratio in sympathetic terminals is governed by DβH activity and vesicular transport capacity."><span class="rel">modulated-by</span>Dopamine</a>
+          <h3>Biosynthesis, Release, Reuptake &amp; Catabolism</h3>
+          <div class="pathway-block">
+<pre>
+  L-Tyrosine
+       │  TH (tyrosine hydroxylase) — RATE-LIMITING
+       │  BH4/Fe²⁺/O₂ cofactors; product inhibition by catecholamines
+       │  Activated by PKA (Ser40), CaMKII (Ser19), MAPKAPK (Ser31)
+       ▼
+  L-DOPA
+       │  AADC (aromatic L-amino acid decarboxylase; PLP cofactor)
+       ▼
+  Dopamine  [transported into vesicle by VMAT2 / SLC18A2]
+       │
+       │  DβH (dopamine β-hydroxylase) — INTRA-VESICULAR
+       │  Cu²⁺/ascorbate/O₂ required; specific to sympathetic + LC neurons
+       ▼
+  Norepinephrine  [stored in dense-core vesicle at ~0.1–1 M concentration]
+       │
+  Action potential → Cav2.2 (N-type VGCC) Ca²⁺ influx
+  SNARE exocytosis at varicose en-passant boutons (volume transmission on smooth muscle)
+       │
+       ├─ α₁AR (Gq → IP3 → ↑Ca²⁺) → arteriolar vasoconstriction → ↑TPR → ↑BP
+       ├─ α₂A/BAR (Gi → ↓cAMP, autoreceptor) → ↓NE release (presynaptic feedback)
+       └─ β₁AR (Gs → ↑cAMP → PKA) → ↑HR, ↑contractility, ↑renin (JGA)
+
+  TERMINATION:
+  NET (SLC6A2) reuptake → ~80–90% of released NE
+  ├─ MAO-A (mitochondrial) → DHPG → combined with COMT → VMA (urine)
+  ├─ COMT (cytosolic, SAM methyl donor) → normetanephrine
+  └─ VMA (vanillylmandelic acid) = major urinary metabolite; ↑ in phaeochromocytoma
+
+  [In adrenal medulla chromaffin cells: PNMT methylates NE → Epinephrine]
+</pre>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Adrenergic Receptor Selectivity — NE vs Epinephrine vs Isoprenaline</h3>
+          <table class="data-table">
+            <tr><th>Receptor</th><th>G-protein</th><th>Key Tissue</th><th>NE Effect</th><th>Clinical Relevance</th></tr>
+            <tr>
+              <td><strong>α₁AR</strong></td>
+              <td>Gq → PLC → IP3/DAG → ↑Ca²⁺</td>
+              <td>Arteriolar smooth muscle (skin, gut, kidney), iris dilator, prostate</td>
+              <td>Vasoconstriction → ↑peripheral resistance → ↑MAP; pupil dilation; prostate contraction</td>
+              <td>Prazosin/doxazosin (α₁ antagonists) — hypertension, BPH; phenylephrine (α₁ agonist) — nasal decongestant, vasopressor</td>
+            </tr>
+            <tr>
+              <td><strong>α₂A/BAR</strong></td>
+              <td>Gi → ↓cAMP; Gβγ → GIRK</td>
+              <td>Presynaptic sympathetic terminals (autoreceptor); CNS (LC, PFC); adrenal medulla; pancreatic β-cells</td>
+              <td>↓NE release (autoreceptor); CNS sedation/analgesia; ↓insulin secretion</td>
+              <td>Clonidine/dexmedetomidine (α₂ agonists) — sedation, opioid withdrawal, ADHD; guanfacine (α₂A) — ADHD/PTSD</td>
+            </tr>
+            <tr>
+              <td><strong>β₁AR</strong></td>
+              <td>Gs → ↑cAMP → PKA</td>
+              <td>SA node, AV node, ventricular myocardium, kidney JGA, adipose</td>
+              <td>↑HR (chronotropy), ↑contractility (inotropy), ↑renin, ↑lipolysis</td>
+              <td>Metoprolol/bisoprolol (cardioselective β₁ blockers) — HF, post-MI; dobutamine (β₁ agonist) — acute HF</td>
+            </tr>
+            <tr>
+              <td><strong>β₂AR</strong></td>
+              <td>Gs → ↑cAMP → PKA</td>
+              <td>Bronchi, skeletal muscle vessels, uterus, liver</td>
+              <td>Minimal effect (NE is a weak β₂ agonist; primary amine restricts β₂ binding)</td>
+              <td>Salbutamol/terbutaline (β₂ agonists — bulky N-substituents) — asthma/COPD bronchodilation; tocolysis</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>CNS Locus Coeruleus — Stress, Arousal, and HPA Axis</h3>
+          <div class="pathway-block">
+<pre>
+  STRESS / AROUSAL RESPONSE  (Locus Coeruleus — A6 noradrenergic group)
+  ─────────────────────────────────────────────────────────────────────
+  Threat / novelty / pain → afferent inputs to LC (PGi, cortex, habenula)
+        │
+        ▼
+  LC burst firing → NE released diffusely throughout brain (volume transmission)
+        │
+        ├─ Prefrontal cortex (α₂A → α2A strengthens "signals" in PFC circuits)
+        │   Optimal NE: ↑attention, sustained task performance, working memory
+        │   Excess NE: ↑noise, impairs PFC → distractible, impulsive (PTSD, stress)
+        │
+        ├─ Amygdala (β₁/β₂ → ↑fear memory consolidation during LC bursts)
+        │   LC hyperactivation → PTSD: enhanced traumatic memory storage
+        │
+        ├─ Hippocampus (β₁/β₂ → ↑LTP via cAMP/CREB)
+        │   Memory consolidation and storage
+        │
+        ├─ Thalamus (α₁ → depolarise relay neurons → ↑sensory transmission)
+        │   Arousal; ↑vigilance; anti-drowsiness
+        │
+        ├─ Hypothalamus → HPA axis activation
+        │   NE → CRH release → ACTH → cortisol (parallel stress arm to NE)
+        │
+        └─ Spinal cord (α₂ → descending pain modulation; analgesic)
+             Clonidine intrathecal for cancer pain
+
+  LC FIRING PATTERN:
+  Wakefulness: ~1–5 Hz tonic firing
+  REM sleep: LC is SILENT (NE withdrawal may enable REM ACh-mediated plasticity)
+  Threat: burst firing (10–30 Hz) → rapid NE surge → vigilance/fight-or-flight
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Roles — Organ System Table</h3>
+          <table class="data-table">
+            <tr><th>System</th><th>NE Role</th><th>Receptor</th><th>Net Effect</th></tr>
+            <tr><td><strong>Cardiovascular</strong></td><td>Sympathetic postganglionic neurotransmitter; primary basal vascular tone mediator</td><td>α₁ (vasoconstriction), β₁ (cardiac)</td><td>↑MAP, ↑TPR; direct β₁ → ↑HR (reflex bradycardia via baroreflex often counteracts in vivo)</td></tr>
+            <tr><td><strong>Kidney</strong></td><td>Renal arteriolar constriction; JGA β₁ → ↑renin</td><td>α₁ (afferent/efferent constriction), β₁ (JGA)</td><td>↓RBF + ↑renin → ↑Ang II → ↑aldosterone → Na⁺ retention</td></tr>
+            <tr><td><strong>CNS (LC-NE)</strong></td><td>Modulate arousal, attention, fear, pain; inverted-U dose-response in PFC</td><td>α₂A (PFC, analgesic spinal), β₁/β₂ (hippocampus, amygdala)</td><td>Optimal NE → focus; excess → hypervigilance, PTSD; deficit → inattention, depression</td></tr>
+            <tr><td><strong>Metabolism</strong></td><td>Stimulates hepatic glycogenolysis, adipose lipolysis</td><td>α₁ (liver), β₁/β₃ (adipose)</td><td>↑Blood glucose, ↑FFA; parallels epinephrine metabolic effects</td></tr>
+            <tr><td><strong>Immune (anti-inflammatory)</strong></td><td>β₂AR on lymphocytes, macrophages, microglia</td><td>β₂AR → ↑cAMP → ↓NF-κB, ↓TNF-α</td><td>NE has anti-inflammatory effect on activated microglia (lost when LC degenerates in AD)</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pharmacology — Drugs Targeting NE System</h3>
+          <table class="data-table">
+            <tr><th>Drug / Class</th><th>Target</th><th>Mechanism</th><th>Primary Use</th></tr>
+            <tr>
+              <td><strong>Norepinephrine IV (vasopressor)</strong></td>
+              <td>α₁ (dominant), β₁ (secondary)</td>
+              <td>Potent arteriolar vasoconstriction → ↑MAP; modest cardiac stimulation</td>
+              <td>First-line vasopressor in septic shock (surviving sepsis guidelines: target MAP ≥65 mmHg)</td>
+            </tr>
+            <tr>
+              <td><strong>TCAs</strong> — imipramine, amitriptyline, nortriptyline</td>
+              <td>NET + SERT (non-selective block)</td>
+              <td>↑Synaptic NE and 5-HT; also H1, mAChR, α₁ block (multiple side effects)</td>
+              <td>Depression (effective but side-effect burden), neuropathic pain, migraine prophylaxis</td>
+            </tr>
+            <tr>
+              <td><strong>SNRIs</strong> — duloxetine, venlafaxine, desvenlafaxine</td>
+              <td>NET + SERT (dual reuptake block)</td>
+              <td>↑Both NE and 5-HT; cleaner than TCAs (no mAChR/H1/α₁ block at therapeutic doses)</td>
+              <td>Depression, GAD, social anxiety, fibromyalgia, diabetic neuropathy, PTSD</td>
+            </tr>
+            <tr>
+              <td><strong>Atomoxetine</strong></td>
+              <td>NET (selective inhibitor — no DAT)</td>
+              <td>↑Prefrontal NE (and DA via NET cross-reactivity in PFC) → ↑attention circuits; non-stimulant</td>
+              <td>ADHD (all ages); may provide benefit in anxiety and depression</td>
+            </tr>
+            <tr>
+              <td><strong>Clonidine / Guanfacine</strong></td>
+              <td>α₂A agonists (presynaptic + postsynaptic)</td>
+              <td>α₂ activation → ↓LC firing + ↓sympathetic outflow; guanfacine → postsynaptic PFC α₂A → ↑working memory</td>
+              <td>Hypertension (clonidine, dexmedetomidine); ADHD (guanfacine ER); opioid withdrawal (clonidine); PTSD nightmares (prazosin α₁ blocker)</td>
+            </tr>
+            <tr>
+              <td><strong>Amphetamines</strong></td>
+              <td>NET + DAT reverse transport (efflux)</td>
+              <td>Force NE and DA efflux from terminals; displace vesicular stores; VMAT2 inhibition</td>
+              <td>ADHD; narcolepsy; methamphetamine — drug of abuse; lisdexamfetamine (prodrug, longer duration)</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>NE Perturbation</th><th>Mechanism</th><th>Clinical Relevance</th></tr>
+            <tr><td><strong>Major Depression</strong></td><td>↓NE in PFC, anterior cingulate → anhedonia, fatigue, poor concentration</td><td>Reduced noradrenergic tone; reserpine (catecholamine depletor) precipitates depression; NET up-regulation in some patients</td><td>TCAs, SNRIs, NDRI (bupropion) restore NE; ECT increases NE; lithium augments NE cycling</td></tr>
+            <tr><td><strong>PTSD</strong></td><td>LC hyperactivation → excess amygdala NE → fear memory potentiation</td><td>Trauma → chronic LC sensitisation → ↑NE surges during flashbacks/nightmares; hypervigilance; exaggerated startle</td><td>Prazosin (α₁ block — nightmares), clonidine/lofexidine (α₂ agonist — hyperarousal), SSRIs/SNRIs (first-line pharmacotherapy)</td></tr>
+            <tr><td><strong>ADHD</strong></td><td>↓NE + DA in PFC → inattention, impulsivity</td><td>PFC α₂A and D1 deficiency → ↓signal-to-noise, ↑distractibility; inverted-U: too little or too much impairs PFC</td><td>Stimulants (↑NE/DA), atomoxetine (selective NET block), guanfacine (α₂A PFC agonist) — non-stimulant options</td></tr>
+            <tr><td><strong>Septic shock</strong></td><td>Vasoplegia — insufficient vascular NE response due to cytokine-mediated α₁AR downregulation</td><td>Sepsis → TNF/IL-1/IL-6 → ↓α₁AR expression + ↑iNOS NO production → refractory vasodilation → MAP collapse</td><td>IV NE first-line vasopressor; vasopressin (V1R) as adjunct; consider hydrocortisone if catecholamine-refractory</td></tr>
+            <tr><td><strong>Phaeochromocytoma</strong></td><td>↑NE (often &gt; Epi) — sustained rather than paroxysmal hypertension</td><td>NE-secreting chromaffin tumours lack PNMT expression; normetanephrine elevated in plasma/urine</td><td>Alpha-block (phenoxybenzamine) then beta-block; surgical adrenalectomy; avoid β-block before α-block</td></tr>
+            <tr><td><strong>Parkinson's Disease (non-motor)</strong></td><td>LC degeneration (Braak stage 2 — often before SNc) → NE deficiency</td><td>α-Synuclein in LC neurons → progressive NE deficit → depression, cognitive impairment, REM sleep disorder, autonomic dysfunction</td><td>Noradrenergic augmentation under investigation; NE anti-inflammatory effects on microglia loss may worsen neuroinflammation</td></tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>NE vasopressor dosing guidance:</strong> At therapeutic doses in septic shock, NE (0.01–3 mcg/kg/min IV) primarily exerts α₁-mediated vasoconstriction → ↑MAP. β₁ stimulation is present but baroreflex counteracts direct chronotropic effect — resulting in little change or slight reflex bradycardia. At very high doses, vasoconstriction can reduce cardiac output by ↑afterload — watch for peripheral ischemia (fingers, gut, kidneys). Titrate to MAP ≥65 mmHg, not to achieve arbitrary NE dose.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="epinephrine.html" class="conn-pill acts">
+              <span class="rel">Precursor to</span>
+              Epinephrine (PNMT)
+            </a>
+            <a href="dopamine.html" class="conn-pill acts">
+              <span class="rel">Synthesised from</span>
+              Dopamine (DβH)
+            </a>
+            <a href="beta1-adrenergic-receptor.html" class="conn-pill targets">
+              <span class="rel">Primary agonist at</span>
+              β1-Adrenergic Receptor
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Maintains tone in</span>
+              Cardiovascular System
+            </a>
+            <a href="nervous-system.html" class="conn-pill acts">
+              <span class="rel">Modulates (LC)</span>
+              Nervous System arousal
+            </a>
+            <a href="serotonin.html" class="conn-pill acts">
+              <span class="rel">Parallel to (SNRIs target both)</span>
+              Serotonin
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. <a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X">Macmillan Learning</a></li>
+            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/">NCBI Bookshelf</a></li>
+            <li>Arnsten AF. Stress signalling pathways that impair prefrontal cortex structure and function. <em>Nat Rev Neurosci.</em> 2009;10(6):410-422. <a href="https://doi.org/10.1038/nrn2648">doi:10.1038/nrn2648</a></li>
+            <li>Rhodes KJ, Bhatt D. Norepinephrine as a vasopressor for septic shock: evidence and recommendations. <em>Intensive Care Med.</em> 2019. Surviving Sepsis Campaign guidelines reference.</li>
+            <li>Ressler KJ, Nemeroff CB. Role of norepinephrine in the pathophysiology and treatment of mood disorders. <em>Biol Psychiatry.</em> 1999;46(9):1219-1233. <a href="https://doi.org/10.1016/S0006-3223(99)00127-4">doi:10.1016/S0006-3223(99)00127-4</a></li>
           </ul>
         </div>
 
@@ -182,17 +369,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="epinephrine.html">Epinephrine</a>
+      <a href="dopamine.html">Dopamine</a>
+      <a href="beta1-adrenergic-receptor.html">β1-AR</a>
+      <a href="serotonin.html">Serotonin</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());</script>
 </body>
 </html>

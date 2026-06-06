@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="~1.5 m colon + rectum; colonocyte-lined crypts without villi. Absorbs ~1.5 L water/day; harbours ~10¹³ bacteria producing SCFAs (butyrate, propionate, acetate) ">
+  <meta name="description" content="Large Intestine — ~1.5 m colon and rectum, home to 10¹³ gut bacteria producing SCFAs from fibre. Scale 06 of the Human Atlas. Part of the Human Engineering project.">
   <meta property="og:title" content="Large Intestine — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Large Intestine — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #b45309;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,51 +32,50 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(180,83,9,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #78350f); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -108,6 +100,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,66 +112,179 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 06 &mdash; Organ</div>
     <h1>Large Intestine</h1>
-    <p class="tagline">~1.5 m colon + rectum; colonocyte-lined crypts without villi. Absorbs ~1.5 L water/day; harbours ~10¹³ bacteria producing SCFAs (butyrate, propionate, acetate) from fibre; key immunological organ. Dysbiosis linked to IBD, CRC, metabolic disease.</p>
-    <p class="aliases">Also known as: colon, large bowel, cecum, rectum, sigmoid colon, ascending colon, transverse colon</p>
+    <p class="tagline">The terminal ~1.5 m of the GI tract — recovering ~1.5 L of water per day, fermenting dietary fibre into short-chain fatty acids, and housing ~10¹³ bacteria that co-regulate immunity, metabolism, and the gut-brain axis.</p>
+    <p class="subtagline">UBERON:0000059 &middot; FMA:7201. Despite lacking villi, the large intestine is one of the most immunologically and metabolically active organs in the body.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~1.5 m</span><span class="stat-label">Length</span></div>
+      <div class="stat"><span class="stat-num">~1 kg</span><span class="stat-label">Microbiome mass</span></div>
+      <div class="stat"><span class="stat-num">10¹³</span><span class="stat-label">Bacteria</span></div>
+      <div class="stat"><span class="stat-num">~90%</span><span class="stat-label">Water recovered</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">large-intestine</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0000059 &middot; FMA:7201 &middot; Atlas One / Scale 06</div>
         <h2>Large Intestine</h2>
-        <p class="summary">~1.5 m colon + rectum; colonocyte-lined crypts without villi. Absorbs ~1.5 L water/day; harbours ~10¹³ bacteria producing SCFAs (butyrate, propionate, acetate) from fibre; key immunological organ. Dysbiosis linked to IBD, CRC, metabolic disease.</p>
+        <p class="summary">The large intestine (caecum + colon + rectum + anal canal) spans ~1.5 m from the ileocaecal valve to the anus. It receives ~1.5 L of watery ileal effluent daily and reduces it to ~150 mL of formed stool — recovering ~90% of incoming water. Its defining biological feature is the gut microbiome (~10¹³ organisms, ~1 kg by weight), which ferments indigestible dietary fibre to short-chain fatty acids (butyrate, propionate, acetate) fuelling colonocytes, regulating immune tone via FOXP3+ Tregs, and signalling to the liver and brain. Dysbiosis underlies IBD, CRC, metabolic disease, and neuropsychiatric pathology.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The large intestine is the terminal segment of the gastrointestinal tract. Unlike the small intestine, its mucosa <strong>lacks villi</strong> — the absorptive surface consists of flat colonocytes lining straight crypts (crypts of Lieberkühn). Yet it recovers most of the water in ileal effluent, synthesises microbial vitamins (K2, B7, B9), and houses the densest concentration of immune cells in the body.</p>
+          <p>The colon's defining characteristic is its microbiome: ~10¹³ bacteria (~1 kg by weight), predominantly anaerobes (Firmicutes ~60%, Bacteroidetes ~25%). These organisms transform indigestible dietary fibre and resistant starch into <strong>short-chain fatty acids (SCFAs)</strong> — butyrate, propionate, and acetate — that serve as the primary colonocyte fuel, modulate systemic inflammation via HDAC inhibition and GPR signalling, regulate epigenetics, and produce signals that reach the liver, brain, and immune system. The large intestine is simultaneously a metabolic factory, an immune organ, and a neuroendocrine interface.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Gross Anatomy</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>large-intestine</td></tr>
-            <tr><td>Name</td><td>Large Intestine</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>06-organ</td></tr>
+            <tr><th>Segment</th><th>Length</th><th>Key features</th></tr>
+            <tr><td><strong>Caecum</strong></td><td>6–8 cm</td><td>Blind pouch receiving ileal contents at ileocaecal valve; appendix (lymphoid organ) attaches posteromedially</td></tr>
+            <tr><td><strong>Ascending colon</strong></td><td>15 cm</td><td>Right side; retroperitoneal; hepatic flexure at right</td></tr>
+            <tr><td><strong>Transverse colon</strong></td><td>50 cm</td><td>Mobile, intraperitoneal; transverse mesocolon; splenic flexure at left</td></tr>
+            <tr><td><strong>Descending colon</strong></td><td>25 cm</td><td>Left side; retroperitoneal</td></tr>
+            <tr><td><strong>Sigmoid colon</strong></td><td>35–40 cm</td><td>S-shaped; mobile; commonest site of diverticular disease and volvulus</td></tr>
+            <tr><td><strong>Rectum</strong></td><td>12–15 cm</td><td>Follows sacral curve; rectal ampulla; partially extraperitoneal</td></tr>
+            <tr><td><strong>Anal canal</strong></td><td>3–4 cm</td><td>Dentate line separates squamous from columnar epithelium; internal + external anal sphincters</td></tr>
           </table>
+          <p style="margin-top:0.75rem;"><strong>Distinctive wall features:</strong> Taeniae coli (three longitudinal smooth muscle bands, shorter than the colon → haustral sacculations), haustra (segmental pouches for slow mixing), and appendices epiploicae (peritoneal fat tags). The haustral pattern is the hallmark of the colon on plain imaging.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Microscopic Structure</h3>
+          <p>The colonic mucosa has no villi. Straight crypts of Lieberkühn (~0.5 mm deep) are lined by a characteristic multi-cellular population:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Surface colonocytes</h4>
+              <p>Absorptive cells with shorter microvilli than enterocytes. Express ENaC (aldosterone-regulated, distal colon), AQP3/AQP8, and NHE3/DRA (electroneutral Na⁺/Cl⁻ co-absorption, proximal colon). Principal water and electrolyte absorbing cells.</p>
+            </div>
+            <div class="info-block">
+              <h4>Goblet cells</h4>
+              <p>~30% of crypt cells in distal colon. Secrete MUC2 mucin producing a thick bilayer (inner adherent layer — virtually sterile; outer loose layer — inhabited by bacteria). The mucus layer is the primary host-microbiome interface.</p>
+            </div>
+            <div class="info-block">
+              <h4>Enteroendocrine L-cells</h4>
+              <p>Secrete GLP-1, GLP-2, PYY, and serotonin. GLP-1 drives the incretin effect and appetite suppression — GLP-1 receptor agonists (semaglutide) pharmacologically replicate this. PYY produces the ileal brake (slows transit).</p>
+            </div>
+            <div class="info-block">
+              <h4>LGR5+ stem cells</h4>
+              <p>At the crypt base. Wnt/Notch/EGF-driven self-renewal generates all colonocyte lineages. LGR5 is also a marker of colorectal cancer stem cells — the seed of CRC relapse and metastatic potential.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — SCFA Production and Water Absorption</h3>
+          <p>The two most fundamental colonic functions — microbial fermentation and water recovery — are deeply coupled: SCFAs are absorbed with Na⁺ and water, and their production creates osmotic conditions supporting fluid reabsorption.</p>
+          <div class="circuit-diagram">
+<pre>
+  Dietary fibre / resistant starch (undigested)
+           │
+           ▼
+  Gut microbiome fermentation (~10¹³ bacteria)
+  ┌─────────────────────────────────────────────────────┐
+  │ Firmicutes (Roseburia, F. prausnitzii, Ruminococcus) │
+  │   → Butyrate                                        │
+  │     ├─ Primary colonocyte fuel (~70% of energy)     │
+  │     ├─ HDAC inhibitor → epigenetic anti-inflammatory│
+  │     ├─ GPR109a → induces colonic FOXP3+ Tregs       │
+  │     └─ TP53 activation → pro-apoptotic in CRC cells │
+  │                                                     │
+  │ Bacteroidetes (Bacteroides, Prevotella)             │
+  │   → Propionate → portal vein → hepatic              │
+  │     gluconeogenesis (propionyl-CoA → succinyl-CoA)  │
+  │                                                     │
+  │ Most bacteria → Acetate → systemic circulation      │
+  │   → crosses BBB → hypothalamic appetite regulation  │
+  └─────────────────────────────────────────────────────┘
+           │
+           ▼
+  Colonocyte SCFA + Na⁺ uptake + water (AQP3/AQP8)
+  → 1.5 L ileal effluent → ~150 mL formed stool
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Electrogenic Na⁺ absorption (distal colon):</strong> aldosterone-regulated ENaC drives Na⁺ uptake → water follows via aquaporins and paracellular routes. Secretory diarrhoea (cholera): cholera toxin → irreversible Gs activation → cAMP → PKA → CFTR → massive Cl⁻ secretion → water follows → litres of watery stool per day.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Immune Function</h3>
+          <p>The colonic lamina propria houses the densest concentration of immune cells in the body. The microbiome–immune relationship is bidirectional and calibrates both local and systemic immune tone:</p>
+          <table class="data-table">
+            <tr><th>Cell / Structure</th><th>Function</th></tr>
+            <tr><td><strong>IgA plasma cells</strong></td><td>Dimeric IgA + secretory component (pIgR transcytosis) → sIgA in lumen; neutralises pathogens without inducing inflammation; most abundant antibody in the gut</td></tr>
+            <tr><td><strong>Tolerogenic macrophages</strong></td><td>IL-10-producing; sample luminal bacteria via transepithelial dendrites; resist NF-κB activation; phenotypically altered in IBD</td></tr>
+            <tr><td><strong>Colonic Tregs (FOXP3+)</strong></td><td>Induced by butyrate via GPR109a and by commensal Clostridia; suppress excessive responses to microbial antigens; depleted in IBD and CRC</td></tr>
+            <tr><td><strong>Isolated lymphoid follicles</strong></td><td>Colonic equivalent of Peyer's patches; M-cell antigen sampling; IgA class switching; germinal centre formation</td></tr>
+            <tr><td><strong>γδ intraepithelial lymphocytes</strong></td><td>Stress surveillance of epithelium; cytotoxic toward infected or transformed colonocytes</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Dysbiosis cascade:</strong> ↑Proteobacteria + ↓Firmicutes → ↑luminal LPS → TLR4/NF-κB → pro-inflammatory cytokines (IL-1β, TNF-α, IL-6) → mucosal barrier disruption → systemic low-grade inflammation → insulin resistance, metabolic syndrome, IBD, and possibly neuropsychiatric disease.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Gut–Brain Axis and ENS</h3>
+          <p>The colon's enteric nervous system (ENS) contains ~100 million neurons — comparable to the spinal cord — organised as myenteric (Auerbach's) and submucosal (Meissner's) plexuses with interstitial cells of Cajal (ICCs) as pacemakers. <strong>Three motor patterns</strong> dominate:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Haustral contractions</h4>
+              <p>Rhythmic segmental contractions (3–12/min) mixing colonic contents without net propulsion. Slow transit allows maximal water and SCFA absorption. Prolonged transit time → harder, drier stool (constipation).</p>
+            </div>
+            <div class="info-block">
+              <h4>Mass movements (HAPCs)</h4>
+              <p>High-amplitude propagating contractions, 1–3 per day, triggered by the gastrocolic reflex (meal → colonic motor response). 5-HT4 receptor-mediated. Propel content from ascending to sigmoid colon in one sweep.</p>
+            </div>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Gut–brain axis:</strong> SCFA-derived signals (especially acetate crossing the blood–brain barrier) and tryptophan metabolites (serotonin, indole derivatives from Lactobacillus/Clostridium) signal via the vagus nerve and circulation to the CNS. Gut dysbiosis is associated with depression, anxiety, Parkinson's disease (colonic α-synuclein propagation before CNS disease), and autism spectrum disorder in epidemiological studies.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Colorectal Cancer (CRC)</h4>
+            <p>Third most common cancer globally; second most common cancer death. The Vogelstein adenoma-carcinoma sequence: APC mutation (Wnt initiation) → KRAS mutation (growth) → SMAD4/TGF-β loss (progression) → TP53 mutation (carcinoma). MSI pathway (~15%): MMR gene deficiency → hypermutation → neoantigens → immunogenic tumours → responds to pembrolizumab. Lynch syndrome (MLH1/MSH2/MSH6/PMS2 germline mutations) carries 50–80% lifetime CRC risk. Prevention: aspirin reduces risk ~30–40%; colonoscopy removes precursor adenomas.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Ulcerative Colitis (UC)</h4>
+            <p>Chronic relapsing mucosal inflammation from rectum proximally in continuous pattern. Histology: crypt abscesses, crypt distortion, goblet cell depletion — no granulomata (distinguishes from Crohn's). Complications: toxic megacolon (colon &gt;6 cm + systemic toxicity → perforation risk), primary sclerosing cholangitis (4% of UC), CRC risk ~0.5–1%/year after 8–10 years of pan-colitis. Treatment ladder: 5-ASA → steroids → azathioprine/6-MP → anti-TNF (infliximab) / vedolizumab / JAK inhibitors (upadacitinib) → proctocolectomy (curative).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Clostridioides difficile Infection (CDI)</h4>
+            <p>Post-antibiotic disruption of microbiome → C. difficile spores germinate → Toxin A (enterotoxin) + Toxin B (cytotoxin) → NF-κB/MAPK → pseudomembranous colitis (yellow-white fibrin plaques). Risk factors: clindamycin, fluoroquinolones, cephalosporins, PPIs, age &gt;65. Treatment: fidaxomicin (preferred) or oral vancomycin; faecal microbiota transplantation (FMT, ~90% efficacy) for recurrent CDI.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Diverticular Disease</h4>
+            <p>False diverticula (mucosal herniation where blood vessels penetrate muscularis propria) in sigmoid colon. Associated with low-fibre diet → small hard stools → ↑intraluminal pressure. Diverticulitis: faecalith obstruction → bacterial overgrowth → micro-perforation → pericolic abscess, fistula, peritonitis. Diverticular bleeding: most common cause of lower GI haemorrhage; venous, self-limiting in 75%.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Hirschsprung Disease (Congenital Aganglionic Megacolon)</h4>
+            <p>Failure of neural crest cell migration into distal colon → absent ENS ganglia (Auerbach's and Meissner's plexus) → functional intestinal obstruction → proximal megacolon. RET, EDNRB, EDN3 gene mutations. Presents neonatally (failure to pass meconium within 48 h). Diagnosis: suction rectal biopsy (absent ganglion cells, hypertrophied nerve trunks, ↑AChE). Treatment: surgical resection of aganglionic segment with pull-through procedure.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="digestive-system.html" title="Large intestine absorbs water and electrolytes from ileal effluent (~1.5 L → 150 mL formed stool/day), harbours ~10¹³ bacteria that ferment fibre to SCFAs (butyrate, propionate, acetate), and synthesises vitamin K2."><span class="rel">part-of</span>Digestive System</a>
-            <a class="conn-pill" href="immune-system.html" title="Large intestine is a major immunological organ; microbiota SCFAs (butyrate via GPR109a) expand colonic FOXP3+ Tregs; IgA secretion; MALT structures sample luminal antigens; dysbiosis → IBD, CRC."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="liver.html" title="Gut-liver axis: portal blood delivers SCFAs (propionate → hepatic gluconeogenesis, butyrate → ketone bodies) and microbial metabolites (bile acids, LPS, urolithins) to liver; dysbiosis → NASH via LPS/TLR4/NF-κB."><span class="rel">modulates</span>Liver</a>
-            <a class="conn-pill" href="nervous-system.html" title="Gut-brain axis: ENS contains ~100 million neurons in colon; microbiome-derived SCFAs and tryptophan metabolites (serotonin, indole) signal via vagus and circulation; gut dysbiosis linked to depression, anxiety, Parkinson's."><span class="rel">modulates</span>Nervous System</a>
-            <a class="conn-pill" href="bacteroides-fragilis.html" title="Modulated by Bacteroides fragilis."><span class="rel">modulated-by</span>Bacteroides Fragilis</a>
-            <a class="conn-pill" href="akkermansia-muciniphila.html" title="Modulated by Akkermansia muciniphila."><span class="rel">modulated-by</span>Akkermansia Muciniphila</a>
-            <a class="conn-pill" href="faecalibacterium-prausnitzii.html" title="Modulated by Faecalibacterium prausnitzii."><span class="rel">modulated-by</span>Faecalibacterium Prausnitzii</a>
-            <a class="conn-pill" href="bifidobacterium-longum.html" title="Modulated by Bifidobacterium longum."><span class="rel">modulated-by</span>Bifidobacterium Longum</a>
-            <a class="conn-pill" href="dietary-fiber.html" title="Modulated by Dietary Fiber and Butyrate."><span class="rel">modulated-by</span>Dietary Fiber</a>
+            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Digestive System</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Immune System</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Liver (gut-liver axis)</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Nervous System</a>
+            <a class="conn-pill" href="endocrine-system.html"><span class="rel">Modulates</span>Endocrine System (GLP-1)</a>
+            <a class="conn-pill part" href="human-body.html"><span class="rel">Part of</span>Human Body</a>
+            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">Colonised by</span>C. difficile</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. <a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener">macmillanlearning.com</a></li>
+            <li>Sender R, Fuchs S, Milo R. Revised estimates for the number of human and bacteria cells in the body. <em>Cell.</em> 2016;164(3):337-340. <a href="https://doi.org/10.1016/j.cell.2016.01.013" target="_blank" rel="noopener">doi:10.1016/j.cell.2016.01.013</a></li>
+            <li>Cummings JH, et al. Short chain fatty acids in human large intestine, portal, hepatic and venous blood. <em>Gut.</em> 1987;28(10):1221-1227. <a href="https://doi.org/10.1136/gut.28.10.1221" target="_blank" rel="noopener">doi:10.1136/gut.28.10.1221</a></li>
+            <li>Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. <em>Cell.</em> 1990;61(5):759-767. <a href="https://doi.org/10.1016/0092-8674(90)90186-I" target="_blank" rel="noopener">doi:10.1016/0092-8674(90)90186-I</a></li>
           </ul>
         </div>
 
@@ -190,11 +296,13 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="human-body.html">Human Body</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Visceral epithelial cell of the renal glomerulus. Interdigitating foot processes form the slit diaphragm — the final protein-selectivity barrier of glomerular f">
+  <meta name="description" content="Podocyte — visceral epithelial cell of the renal glomerulus; slit diaphragm nephrin/podocin/CD2AP; glomerular filtration barrier; proteinuria mechanisms; FSGS, MCD, nephrotic syndrome. Atlas One · Human Engineering.">
   <meta property="og:title" content="Podocyte — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Podocyte — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0369a1;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: #075985; }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,49 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #075985); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: #d97706; }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill.damaged .rel { color: #dc2626; }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +97,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,65 +109,175 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular &mdash; Scale 04</div>
     <h1>Podocyte</h1>
-    <p class="tagline">Visceral epithelial cell of the renal glomerulus. Interdigitating foot processes form the slit diaphragm — the final protein-selectivity barrier of glomerular filtration. Terminally differentiated; loss causes proteinuria and nephrotic syndrome.</p>
-    <p class="aliases">Also known as: glomerular visceral epithelial cell, visceral epithelial cell</p>
+    <p class="tagline">The visceral epithelial guardian of the renal glomerulus — wrapping glomerular capillaries with intricate interdigitating foot processes whose slit diaphragm is the final, most selective molecular barrier that keeps albumin in the blood.</p>
+    <p class="subtagline">CL:0000653 &middot; Terminally differentiated; ~500–700 per glomerulus. Slit diaphragm width: 35–40 nm. Loss of &gt;~20% podocytes &rarr; proteinuria; further depletion &rarr; FSGS and progressive CKD. The podocyte is the rate-limiting cell for renal health.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">500–700</span><span class="stat-label">Podocytes / Glomerulus</span></div>
+      <div class="stat"><span class="stat-num">35–40 nm</span><span class="stat-label">Slit Diaphragm Width</span></div>
+      <div class="stat"><span class="stat-num">&lt;150 mg</span><span class="stat-label">Normal Urinary Protein / Day</span></div>
+      <div class="stat"><span class="stat-num">~20%</span><span class="stat-label">Loss Threshold for Proteinuria</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">podocyte</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">CL:0000653 &middot; Atlas One / Scale 04 &mdash; Cellular</div>
         <h2>Podocyte</h2>
-        <p class="summary">Visceral epithelial cell of the renal glomerulus. Interdigitating foot processes form the slit diaphragm — the final protein-selectivity barrier of glomerular filtration. Terminally differentiated; loss causes proteinuria and nephrotic syndrome.</p>
+        <p class="summary">Highly specialised visceral epithelial cell on the outer (urinary) surface of glomerular capillaries. Large cell body (~15–25 µm) with primary processes extending into interdigitating foot processes (pedicels, 500–800 nm wide) separated by filtration slits (35–40 nm) bridged by the slit diaphragm — a zipper-like protein scaffold of nephrin/NEPH1/podocin/CD2AP that is the final molecular sieve preventing albumin loss. Terminally differentiated, cannot replicate; irreplaceable once lost. WT1 transcription factor maintains podocyte identity.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The podocyte is a highly specialised visceral epithelial cell that resides on the outer (urinary) surface of glomerular capillaries. The name derives from the Greek <em>podos</em> (foot) — these cells extend large primary processes from their cell body, which branch into numerous interdigitating secondary foot processes (pedicels) that embrace each capillary loop in a distinctive zipper-like pattern.</p>
+          <p>The podocyte occupies an extraordinary functional position: it is simultaneously a <strong>structural anchor</strong> for the capillary wall, a <strong>mechanosensory cell</strong>, and the architect of the <strong>slit diaphragm</strong> — the molecular filter that prevents albumin (67 kDa) and larger serum proteins from escaping into the urine. A healthy adult excretes less than 150 mg of protein per day; this near-complete retention of plasma proteins is almost entirely due to the slit diaphragm of healthy podocytes.</p>
+          <p>Podocytes are <strong>terminally differentiated</strong> cells with very limited self-renewal capacity. Once lost due to injury, the remaining podocytes must stretch to cover the exposed capillary surface — a losing battle. Lost podocytes are also shed as viable cells into the urine (podocyturia), a sensitive biomarker of active glomerular injury. The threshold for overt proteinuria is estimated at ~20% podocyte depletion; FSGS lesions appear with greater loss.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure — Morphology and Slit Diaphragm</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>podocyte</td></tr>
-            <tr><td>Name</td><td>Podocyte</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
-            <tr><td>Cell Ontology</td><td>CL:0000653</td></tr>
-            <tr><td>Lineage</td><td>intermediate mesoderm — metanephric mesenchyme — renal vesicle — S-shaped body</td></tr>
+            <tr><th>Feature</th><th>Value</th></tr>
+            <tr><td>Cell body diameter</td><td>~15–25 µm; single large euchromatic nucleus (active transcription)</td></tr>
+            <tr><td>Primary processes</td><td>2–8 per cell; 10–30 µm in length; extend from cell body to embrace capillary</td></tr>
+            <tr><td>Foot process (pedicel) width</td><td>~500–800 nm; interdigitate with foot processes from adjacent podocytes</td></tr>
+            <tr><td>Filtration slit width</td><td>~35–40 nm between adjacent pedicels</td></tr>
+            <tr><td>Slit diaphragm</td><td>Zipper-like protein scaffold bridging each filtration slit; rectangular pores allowing water/small solutes, blocking proteins &ge;69 kDa</td></tr>
+            <tr><td>GBM attachment</td><td>&alpha;3&beta;1 integrin + talin anchors foot process to laminin-521 in GBM (produced by podocytes and endothelium)</td></tr>
+            <tr><td>Podocalyxin</td><td>Heavily sialylated apical glycoprotein; negative charge &rarr; electrostatic repulsion of anionic albumin; keeps filtration slits open</td></tr>
           </table>
+          <p style="margin-top:0.75rem;"><strong>Slit diaphragm molecular architecture:</strong> A highly ordered scaffold spanning the 35–40 nm filtration slits. Key proteins: <strong>Nephrin (NPHS1)</strong> — type I transmembrane IgSF protein; homodimerises across the slit; the structural backbone; mutations cause congenital nephrotic syndrome of the Finnish type (CNF). <strong>NEPH1 (KIRREL)</strong> — interacts with nephrin heterodimers. <strong>Podocin (NPHS2)</strong> — stomatin-family protein anchoring nephrin/NEPH1 to lipid raft microdomains; mutations cause autosomal recessive steroid-resistant nephrotic syndrome. <strong>CD2AP</strong> — adaptor linking the slit diaphragm to foot process F-actin. <strong>P-cadherin, Fat1</strong> — contribute to architecture and adhesion.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — Glomerular Filtration Barrier (GFB) and Mechanosensing</h3>
+          <div class="circuit-diagram">
+<pre>
+  GLOMERULAR FILTRATION BARRIER — Three Layers
+  ═══════════════════════════════════════════════
+  1. Fenestrated glomerular endothelium
+     - Fenestrae 60-100 nm (no diaphragm in adult kidney)
+     - Charged glycocalyx (heparan sulfate) repels albumin
+     - Size and charge selectivity
+     - Passes: water, ions, glucose, small proteins
+     - Retains: cells, large proteins
+
+  2. Glomerular basement membrane (GBM, 250-350 nm thick)
+     - Laminin-521, collagen IV (alpha3/4/5 chains -- COLIV-A3/A4/A5)
+     - Agrin (heparan sulfate proteoglycan -- charge barrier)
+     - Size and charge filtration
+     *** Collagen IV alpha3-5 = target of anti-GBM (Goodpasture) Ab ***
+
+  3. Podocyte slit diaphragm (the MOST selective layer)
+     - Nephrin homodimers spanning filtration slit (35-40 nm)
+     - Rectangular pores (~4 x 14 nm): water/electrolytes pass, albumin blocked
+     - CD2AP links to F-actin cytoskeleton (structural integrity)
+     - Podocin anchors to lipid rafts
+     - Podocalyxin (apical): negative charge repels anionic albumin
+
+  ESTIMATED PROTEIN FILTRATION REDUCTION:
+  - Endothelium alone: allows some albumin (20-30 mg/hr)
+  - + GBM: reduces by 5-10x
+  - + Slit diaphragm: reduces by further 50-100x
+  - NET: <150 mg/day total urinary protein in health
+
+  ── MECHANOSENSING AND SIGNALLING ─────────────────────────
+  Glomerular capillary pressure ~60 mmHg
+  Cyclic stretch with each heartbeat
+  Podocyte sensors:
+    TRPC5, TRPC6 -- mechanosensitive ion channels in foot process membrane
+    ILK (integrin-linked kinase) -- at GBM attachment points
+    Rho/ROCK -- regulates actin stress fibres and foot process morphology
+
+  Ang II (via AT1R) --> TRPC6 --> Ca2+ influx --> RhoA activation
+       --> F-actin remodelling --> foot process EFFACEMENT
+  ACEi / ARBs: block Ang II/AT1R --> protect TRPC6 from activation
+       --> preserve foot process architecture
+       ** Clinical basis for ACEi/ARB renoprotection in all proteinuric CKDs **
+
+  WT1 (Wilms Tumour 1) transcription factor:
+    Master regulator of podocyte identity
+    Expressed throughout development and adult life
+    Target genes: nephrin, podocalyxin, synaptopodin
+    Loss-of-function: Wilms tumour (nephroblastoma), Denys-Drash syndrome
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Foot Process Cytoskeleton — Actin Regulation</h3>
+          <p>The internal skeleton of the foot process is built on F-actin, tightly regulated to maintain the narrow pedicel shape (500–800 nm width). Key regulators:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Synaptopodin</h4>
+              <p>Actin-associated protein essential for stress fibre formation in podocytes. Its loss leads to foot process effacement. Stabilised by calcineurin inhibitors (cyclosporine, tacrolimus, glucocorticoids) — the biochemical basis for steroid/calcineurin inhibitor therapy in minimal change disease (MCD) and FSGS.</p>
+            </div>
+            <div class="info-block">
+              <h4>&alpha;-Actinin-4 (ACTN4)</h4>
+              <p>Crosslinks actin filaments in foot processes. Gain-of-function mutations in ACTN4 cause focal segmental glomerulosclerosis (FSGS) — the protein over-stabilises actin, paradoxically disrupting foot process dynamics and leading to podocyte detachment.</p>
+            </div>
+            <div class="info-block">
+              <h4>Myosin IIA (MYH9)</h4>
+              <p>Contractile motor in foot processes; regulates foot process width and morphology. MYH9 variants (E1 haplotype) are associated with non-diabetic CKD in African Americans — the most important genetic risk factor for APOL1-associated nephropathy (superseded by APOL1 G1/G2 discovery).</p>
+            </div>
+            <div class="info-block">
+              <h4>TRPC5 and TRPC6</h4>
+              <p>Mechanosensitive calcium channels with opposing roles: TRPC5 (promotes Rac1 &rarr; foot process stabilisation) vs TRPC6 (promotes RhoA &rarr; foot process retraction/effacement). Ang II activates TRPC6. Gain-of-function TRPC6 mutations cause hereditary FSGS. TRPC6 inhibitors (larixyl acetate, BI-749327) are in preclinical/early clinical development.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Minimal Change Disease (MCD)</h4>
+            <p>Most common nephrotic syndrome in children (80%); ~15% in adults. Pathology: diffuse foot process effacement on EM (LM normal — hence "minimal change"). Mechanism: circulating permeability factor (possibly SMPDL-3b or CD80 from T cells) &rarr; disrupts slit diaphragm signalling &rarr; foot process effacement. Response to steroids: ~90% in children (synaptopodin stabilisation by calcineurin inhibition). Can recur post-transplant. APOL1 variants not associated.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Focal Segmental Glomerulosclerosis (FSGS)</h4>
+            <p>Focal (some glomeruli) + segmental (part of the glomerular tuft) scarring. Pathogenesis: podocyte depletion &rarr; denuded GBM &rarr; parietal epithelial cell adhesion &rarr; extracellular matrix accumulation &rarr; sclerosis. Causes: primary (circulating factor — suPAR, anti-CD40 Ab), genetic (NPHS1, NPHS2, ACTN4, TRPC6, INF2 mutations), secondary (HIV-associated nephropathy, obesity-related, reflux, reduced nephron mass), APOL1-associated (G1/G2 variants; 4&times; lifetime risk of ESRD in homozygotes). Treatment: primary FSGS &rarr; immunosuppression (steroids, CNI); secondary &rarr; treat underlying cause + RAS blockade.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Diabetic Nephropathy</h4>
+            <p>Leading cause of end-stage renal disease globally. Early: hyperfiltration (glomerular capillary hypertension &rarr; TRPC6 activation &rarr; podocyte stress); GBM thickening (collagen IV accumulation); mesangial expansion. Progressive: podocyte loss (glucolipotoxicity, advanced glycation end products &rarr; oxidative stress, Ang II, TGF-&beta; &rarr; podocyte apoptosis) &rarr; microalbuminuria &rarr; macroalbuminuria &rarr; declining GFR. ACEi/ARBs are renoprotective (reduce intraglomerular Ang II, protect TRPC6). SGLT2 inhibitors (empagliflozin, dapagliflozin) reduce renal progression independently via tubuloglomerular feedback (TGF) normalisation and reduced glomerular hyperfiltration.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Congenital Nephrotic Syndrome of the Finnish Type (CNF)</h4>
+            <p>NPHS1 mutations &rarr; absence of nephrin &rarr; absent slit diaphragm &rarr; massive proteinuria in utero &rarr; swollen placenta (&gt;25% of birth weight) and anasarca at birth. Urinary protein &gt;10 g/L from birth. Autosomal recessive; Finnish founder mutations (Fin-major: Arg1109X; Fin-minor: Leu41PhefsX90). Management: indomethacin (reduce GFR temporarily), albumin infusions, nephrectomy + dialysis, bilateral nephrectomy + renal transplantation (kidneys produce no nephrin &rarr; transplant provides nephrin-sufficient kidneys). No recurrence after transplant (recipient produces anti-nephrin Ab rarely).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Collapsing Glomerulopathy (COVID-19, APOL1)</h4>
+            <p>Collapse of the glomerular tuft with overlying podocyte hypertrophy and hyperplasia (pseudo-crescent). APOL1 high-risk genotypes (G1/G2 double-copy) confer ~4&times; risk of FSGS/collapsing glomerulopathy. COVID-19 causes collapsing glomerulopathy almost exclusively in APOL1 G1/G2 homozygotes — direct podocyte infection (ACE2 and TMPRSS2 expressed) + interferon-stimulated APOL1 upregulation &rarr; podocyte injury and rapid depletion. Rapid onset nephrotic syndrome + AKI. Outcome: high rate of ESRD without transplantation.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Alport Syndrome</h4>
+            <p>Mutations in collagen IV &alpha;3, &alpha;4, &alpha;5 chains (COL4A3, COL4A4, COL4A5 — X-linked: 80%; AR: 15%; AD: 5%) &rarr; abnormal GBM lacking the mature &alpha;3&alpha;4&alpha;5 network &rarr; GBM lamellation and thinning on EM &rarr; progressive haematuria, proteinuria, ESRD by 20–40 years (males, X-linked). Sensorineural deafness and ocular abnormalities (anterior lenticonus) are extrarenal manifestations. ACEi slows progression. SGLT2 inhibitors under investigation. Targeted RNA therapy and CRISPR-based correction are preclinical strategies. Sparsentan (dual endothelin/Ang receptor antagonist) FDA-approved for FSGS and being studied for Alport.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="glomerulus.html" title="Podocytes are integral cellular constituents of the glomerular filtration barrier, wrapped around the outer surface of glomerular capillaries."><span class="rel">part-of</span>Glomerulus</a>
-            <a class="conn-pill part" href="kidney.html" title="As a glomerular cell, the podocyte is a functional unit of the kidney."><span class="rel">part-of</span>Kidney</a>
-            <a class="conn-pill damaged" href="sars-cov-2.html" title="COVID-19 causes collapsing glomerulopathy in APOL1 high-risk individuals, with direct podocyte injury and rapid podocyte loss leading to nephrotic-range proteinuria."><span class="rel">damaged-by</span>Sars Cov 2</a>
+            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Glomerulus (Scale 05)</a>
+            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Kidney (Scale 06)</a>
+            <a class="conn-pill" href="endothelial-cell.html"><span class="rel">Adjacent to</span>Glomerular Endothelium (GBM shared)</a>
+            <a class="conn-pill" href="medicine.html"><span class="rel">Protected by</span>ACEi / ARBs (Ang II block)</a>
+            <a class="conn-pill" href="medicine.html"><span class="rel">Protected by</span>SGLT2 Inhibitors (TGF normalisation)</a>
+            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2 (APOL1 collapsing)</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1242/dev.001081" target="_blank" rel="noopener noreferrer">Quaggin SE, Kreidberg JA. Development of the renal glomerulus: good neighbors and good fences. Development. 2008;135(4):609-20.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18223199/" target="_blank" rel="noopener noreferrer">PubMed 18223199</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMra052131" target="_blank" rel="noopener noreferrer">Tryggvason K, Patrakka J, Wartiovaara J. Hereditary proteinuria syndromes and mechanisms of proteinuria. N Engl J Med. 2006;354(13):1387-401.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16571882/" target="_blank" rel="noopener noreferrer">PubMed 16571882</a></li>
-            <li><a href="https://doi.org/10.1681/ASN.2014030278" target="_blank" rel="noopener noreferrer">Kriz W, Lemley KV. A potential role for mechanical forces in the detachment of podocytes and the progression of CKD. J Am Soc Nephrol. 2015;26(2):258-69.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25060056/" target="_blank" rel="noopener noreferrer">PubMed 25060056</a></li>
-            <li><a href="https://doi.org/10.1097/01.ASN.0000139904.00623.E4" target="_blank" rel="noopener noreferrer">Reiser J, Mundel P. Dual effects of cyclosporine A on glomerular podocytes. J Am Soc Nephrol. 2004;15(10):2682-8.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15466274/" target="_blank" rel="noopener noreferrer">PubMed 15466274</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 26-27.</a></li>
+            <li>Quaggin SE, Kreidberg JA. Development of the renal glomerulus: good neighbors and good fences. <em>Development.</em> 2008;135(4):609-20. <a href="https://doi.org/10.1242/dev.001081" target="_blank" rel="noopener">doi:10.1242/dev.001081</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18223199/" target="_blank" rel="noopener">PubMed 18223199</a></li>
+            <li>Tryggvason K, Patrakka J, Wartiovaara J. Hereditary proteinuria syndromes and mechanisms of proteinuria. <em>N Engl J Med.</em> 2006;354(13):1387-401. <a href="https://doi.org/10.1056/NEJMra052131" target="_blank" rel="noopener">doi:10.1056/NEJMra052131</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16571882/" target="_blank" rel="noopener">PubMed 16571882</a></li>
+            <li>Kriz W, Lemley KV. A potential role for mechanical forces in the detachment of podocytes. <em>J Am Soc Nephrol.</em> 2015;26(2):258-69. <a href="https://doi.org/10.1681/ASN.2014030278" target="_blank" rel="noopener">doi:10.1681/ASN.2014030278</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25060056/" target="_blank" rel="noopener">PubMed 25060056</a></li>
+            <li>Reiser J, Mundel P. Dual effects of cyclosporine A on glomerular podocytes. <em>J Am Soc Nephrol.</em> 2004;15(10):2682-8. <a href="https://doi.org/10.1097/01.ASN.0000139904.00623.E4" target="_blank" rel="noopener">doi:10.1097/01.ASN.0000139904.00623.E4</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15466274/" target="_blank" rel="noopener">PubMed 15466274</a></li>
+            <li>Hall JE. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Ch. 26-27.</li>
           </ul>
         </div>
 
@@ -189,14 +289,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="endothelial-cell.html">Endothelial Cell</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

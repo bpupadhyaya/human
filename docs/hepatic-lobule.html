@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hexagonal functional unit of liver (~1–2 mm diameter). Hepatocyte cords radiate from a central vein; portal triads at corners supply blood and drain bile. Three">
+  <meta name="description" content="Hepatic Lobule — hexagonal functional unit of the liver. Portal triads, central vein, hepatocyte cords, sinusoids, metabolic zonation Zones 1–3. Atlas One · Human Engineering.">
   <meta property="og:title" content="Hepatic Lobule — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Hepatic Lobule — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #b45309;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--accent); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,51 +32,47 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(180,83,9,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #78350f); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--accent); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -108,6 +97,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,62 +109,163 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Tissue &mdash; Scale 05</div>
     <h1>Hepatic Lobule</h1>
-    <p class="tagline">Hexagonal functional unit of liver (~1–2 mm diameter). Hepatocyte cords radiate from a central vein; portal triads at corners supply blood and drain bile. Three metabolic zones: periportal (O₂-rich), intermediate, and centrilobular (CYP450-rich, ischemia-prone).</p>
-    <p class="aliases">Also known as: classic liver lobule, hepatic lobular unit, liver lobule</p>
+    <p class="tagline">The hexagonal functional unit of the liver — ~100,000 per adult liver, each organised around a central vein with portal triads at six vertices, creating a metabolic oxygen gradient that drives zone-specific biochemistry.</p>
+    <p class="subtagline">UBERON:0001210 &middot; 1–2 mm diameter. Blood flows portal triads &rarr; sinusoids &rarr; central vein. Bile flows counter-current: canaliculi &rarr; portal bile ducts. Three metabolic zones (Rappaport acinus model).</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~100,000</span><span class="stat-label">Lobules / Liver</span></div>
+      <div class="stat"><span class="stat-num">1–2 mm</span><span class="stat-label">Diameter</span></div>
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">Portal Triads / Lobule</span></div>
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Metabolic Zones</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">hepatic-lobule</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0001210 &middot; Atlas One / Scale 05 &mdash; Tissue</div>
         <h2>Hepatic Lobule</h2>
-        <p class="summary">Hexagonal functional unit of liver (~1–2 mm diameter). Hepatocyte cords radiate from a central vein; portal triads at corners supply blood and drain bile. Three metabolic zones: periportal (O₂-rich), intermediate, and centrilobular (CYP450-rich, ischemia-prone).</p>
+        <p class="summary">Hexagonal prism (~1–2 mm diameter, 1.5–2 mm length). Central vein (terminal hepatic venule) at axis; 6 portal triads (portal venule + hepatic arteriole + bile duct) at vertices. Hepatocyte cords radiate from triads toward the central vein. Sinusoids lined by fenestrated LSECs and Kupffer cells; Space of Disse enables direct plasma–hepatocyte exchange. Metabolic zonation along the O&#x2082; gradient: Zone 1 (gluconeogenesis, &beta;-oxidation) &rarr; Zone 3 (CYP450, lipogenesis, ischemia-prone).</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The hepatic lobule is the fundamental architectural and functional unit of the liver, the repeating structural module around which the liver's remarkable metabolic capacity is organised. On cross-section it appears as a hexagonal prism approximately 1–2 mm in diameter and 1.5–2 mm in length. At the geometric centre lies the <strong>central vein</strong> (a tributary of the hepatic vein draining into the IVC); at each of the six corners sits a <strong>portal triad</strong> containing a portal venule, a hepatic arteriole, and a bile duct.</p>
+          <p>An adult human liver contains approximately 100,000 hepatic lobules. These functional units are not sharply demarcated by connective tissue septa in humans (unlike pigs or pathologic congestive hepatopathy), but their boundaries are functionally defined by vascular territory. The lobular organisation explains why acetaminophen and ischemic injury preferentially destroy zone-3 (centrilobular) hepatocytes, why certain viral hepatitides cause periportal necrosis, and how the portal circulation creates the first-pass metabolic barrier that processes every nutrient, drug, and toxin from the gut before systemic exposure.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure — Blood and Bile Flow</h3>
+          <div class="circuit-diagram">
+<pre>
+  PORTAL TRIAD (x6 per lobule — hexagon vertices)
+  +--------------------------------------------------+
+  | Portal venule   [nutrient-rich, O2-depleted]     |
+  | Hepatic arteriole [O2-rich, from celiac trunk]   |
+  | Bile duct  [cholangiocytes, HCO3- secretion]     |
+  | Lymphatics (larger triads) + nerve fibres        |
+  +------------------+-------------------------------+
+                     | mixed blood enters sinusoids
+                     v
+  ==========================================
+  HEPATIC SINUSOIDS  (7-15 um wide)
+  ------------------------------------------
+  LSEC  (fenestrated, 100-150 nm pores, no diaphragm,
+         no basement membrane below them)
+       <-- plasma filtration through fenestrae -->
+  SPACE OF DISSE (0.2-0.5 um perisinusoidal space)
+       <-- direct plasma <-> hepatocyte exchange -->
+  HEPATOCYTE CORDS (1-2 cells thick, radially arranged)
+  ==========================================
+         |  BLOOD FLOWS CENTRIPETALLY
+         v
+  CENTRAL VEIN  (terminal hepatic venule, ~50-80 um)
+         |
+         v
+  Sublobular veins --> Hepatic veins --> IVC
+
+  BILE FLOWS COUNTER-CURRENT (periphery to portal tract):
+  Bile canaliculi (~1 um, between hepatocyte apical surfaces)
+       --> Canal of Hering (hepatocyte/cholangiocyte junction)
+       --> Bile ductules --> Portal bile duct
+       --> Intrahepatic biliary tree --> CBD --> duodenum
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Non-Parenchymal Cell Types</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>hepatic-lobule</td></tr>
-            <tr><td>Name</td><td>Hepatic Lobule</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>05-tissue</td></tr>
+            <tr><th>Cell Type</th><th>Location</th><th>Function</th></tr>
+            <tr><td>LSECs (liver sinusoidal endothelial cells)</td><td>Sinusoid lining</td><td>Fenestrated (100–150 nm, no diaphragm, no basement membrane); filter plasma to Disse space; scavenge oxidised LDL, colloidal waste; produce HGF, VEGF; modulate fibrosis via LSEC capillarisation in cirrhosis</td></tr>
+            <tr><td>Kupffer cells</td><td>Sinusoid lumen, adherent to LSEC</td><td>Largest tissue macrophage population in the body (yolk sac + BM origin); phagocytose gut-derived bacteria, LPS, aged RBCs; TLR4/LPS &rarr; TNF-&alpha;, IL-6, IL-1&beta; &rarr; hepatocyte acute-phase response and fibrogenic signalling</td></tr>
+            <tr><td>Hepatic stellate cells (HSC / Ito cells)</td><td>Space of Disse</td><td>Quiescent: store vitamin A as retinyl esters (80% total body retinol); GFAP+, desmin+. Activated by TGF-&beta;1/PDGF: lose retinol, upregulate &alpha;-SMA, PDGFRβ &rarr; collagen I/III secretion &rarr; perisinusoidal fibrosis &rarr; cirrhosis</td></tr>
+            <tr><td>Pit cells (liver NK cells)</td><td>Sinusoid lumen</td><td>Liver-resident CD56+ NK cells; surveillance against virus-infected and malignant hepatocytes via perforin/granzyme and TRAIL pathways</td></tr>
+            <tr><td>Cholangiocytes</td><td>Bile duct epithelium</td><td>Line interlobular and septal bile ducts; HCO&#x2083;&#x207B; secretion (CFTR/AE2); water modification via AQP1; primary autoimmune targets in PBC (AMA: anti-PDC-E2) and PSC</td></tr>
           </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Metabolic Zonation — Rappaport Hepatic Acinus</h3>
+          <p>The Rappaport acinus model describes metabolic zones along the sinusoidal axis from a portal triad blood inlet to the central vein. The pO&#x2082; gradient (~65–70 mmHg zone 1 &rarr; ~35 mmHg zone 3) drives zone-specific enzyme expression, dynamically maintained by Wnt/EGF morphogen gradients.</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Zone 1 — Periportal (pO&#x2082; ~70 mmHg, O&#x2082;-rich)</h4>
+              <p>Specialises in: gluconeogenesis (PEPCK, PC), &beta;-oxidation, urea synthesis (CPS-I), primary bile acid secretion via NTCP, amino acid deamination, glutamate dehydrogenase. Resistant to ischemia; target of periportal hepatitis (viral hepatitis B, yellow fever, AIH interface hepatitis).</p>
+            </div>
+            <div class="info-block">
+              <h4>Zone 3 — Centrilobular (pO&#x2082; ~35 mmHg, O&#x2082;-poor)</h4>
+              <p>Specialises in: glycolysis, de novo lipogenesis (ChREBP, SREBP1c), CYP3A4/CYP2E1 drug metabolism (highest expression here), glutamine synthesis (GS — reliable zone-3 IHC marker), ketogenesis. Most vulnerable to ischemia, acetaminophen toxicity, ethanol-induced injury, and congestive hepatopathy.</p>
+            </div>
+          </div>
+          <p style="margin-top:0.75rem;">Zonation is actively maintained: <strong>Wnt3a/Wnt2</strong> secreted from central vein endothelium keeps zone-3 hepatocytes in the perivenous fate (GS, CYP2E1, &beta;-catenin-high programme). <strong>EGF/EGFR</strong> signalling from portal tract maintains periportal fate (PEPCK, E-cadherin). Disruption of these morphogen gradients in NASH, cirrhosis, or hepatic regeneration causes metabolic de-zonation.</p>
+          <table class="data-table" style="margin-top:0.75rem;">
+            <tr><th>Model</th><th>Unit Definition</th><th>Primary Utility</th></tr>
+            <tr><td>Classic lobule</td><td>Hexagonal; central vein centre; portal triads at vertices</td><td>Histological description; pathologist's model for grading/staging</td></tr>
+            <tr><td>Portal lobule</td><td>Triangular; portal triad centre; bile flow orientation</td><td>Biliary pathology (PBC, PSC, biliary obstruction)</td></tr>
+            <tr><td>Hepatic acinus (Rappaport)</td><td>Diamond/rhomboid; zones 1–3 along sinusoid axis</td><td>Clinically most useful; explains ischemic, toxic, and metabolic injury patterns</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — First-Pass Metabolism</h3>
+          <p>Every nutrient absorbed by the gut epithelium enters the portal circulation and must pass through the hepatic lobule before reaching systemic blood. This portal first-pass creates a regulated buffer:</p>
+          <table class="data-table">
+            <tr><th>Substrate</th><th>Zone 1 Processing</th><th>Clinical Consequence</th></tr>
+            <tr><td>Glucose</td><td>Extracted by GLUT2/glucokinase &rarr; glycogen synthesis (postprandial); surplus &rarr; de novo lipogenesis (zone 3) &rarr; VLDL</td><td>Hepatic glucose output impaired in cirrhosis and acute liver failure</td></tr>
+            <tr><td>Amino acids</td><td>Deamination; nitrogen &rarr; urea cycle (zone 1 CPS-I); carbon &rarr; gluconeogenesis or Krebs</td><td>Hyperammonemia in liver failure; hepatic encephalopathy</td></tr>
+            <tr><td>Bile acids</td><td>&gt;95% portal bile acids reabsorbed by NTCP (zone 1) — enterohepatic circulation efficiency</td><td>Bile acid malabsorption in ileal disease; primary biliary cholangitis disrupts NTCP</td></tr>
+            <tr><td>Drugs / xenobiotics</td><td>Phase I CYP450 (zone 3 dominant for CYP2E1/3A4); Phase II conjugation; Phase III export</td><td>First-pass metabolism limits oral bioavailability; polymorphisms create drug toxicity risk</td></tr>
+            <tr><td>LPS / microbiome signals</td><td>Kupffer cells phagocytose and pattern-recognise via TLR4; prevent systemic bacteraemia</td><td>Gut-liver axis; leaky gut in cirrhosis &rarr; Kupffer overactivation &rarr; NASH progression</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Centrilobular Necrosis</h4>
+            <p>Zone-3 hepatocyte death from ischemia (right heart failure / congestive hepatopathy, shock, Budd-Chiari syndrome) or zone-3-specific toxins. Acetaminophen: CYP2E1 &rarr; NAPQI &rarr; GSH depletion &rarr; zone-3 necrosis. Carbon tetrachloride: CYP2E1 &rarr; CCl&#x2083;&#x2022; radical &rarr; lipid peroxidation. Histology: zone-3 coagulative necrosis, sinusoidal dilation. Gross pathology: "nutmeg liver" in congestive hepatopathy.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Hepatic Fibrosis and Cirrhosis</h4>
+            <p>Persistent injury (NASH, viral hepatitis, alcohol, biliary) &rarr; hepatocyte death &rarr; TGF-&beta;1 + PDGF release &rarr; HSC activation &rarr; &alpha;-SMA+ myofibroblasts &rarr; perisinusoidal collagen I/III deposition (pericellular/chicken-wire fibrosis in NASH; portal–bridging fibrosis in viral) &rarr; architectural distortion &rarr; nodular regeneration &rarr; cirrhosis. Portal hypertension results from increased sinusoidal resistance (fibrosis + activated HSC contraction).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Intrahepatic Cholestasis</h4>
+            <p>Failure of canalicular bile flow: DILI (chlorpromazine, oestrogen, amoxicillin-clavulanate), viral hepatitis, PFIC (BSEP/MDR3/FIC1 mutations), ICP (intrahepatic cholestasis of pregnancy — ABCB4 mutations). Conjugated hyperbilirubinemia; bile acid accumulation &rarr; hepatocyte toxicity; pruritus from bile acid tissue deposition. Histology: canalicular bile plugs, periportal cholate stasis.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Periportal Interface Hepatitis</h4>
+            <p>Destruction of zone-1 hepatocytes at the limiting plate (portal–parenchymal interface) by lymphoplasmacytic infiltrate. Hallmark of autoimmune hepatitis (AIH; anti-smooth muscle Ab, anti-LKM1), chronic viral hepatitis B/C, and drug reactions. Graded A1–A3 (Metavir). Severe interface hepatitis is the major determinant of fibrosis progression speed.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Sinusoidal Obstruction Syndrome (SOS/VOD)</h4>
+            <p>HSCT preparative conditioning (cyclophosphamide, busulfan, gemtuzumab ozogamicin) &rarr; LSEC injury &rarr; fibrin/collagen deposition in sinusoids &rarr; hepatic venule occlusion &rarr; portal hypertension &rarr; ascites, hepatomegaly, multi-organ failure. Defibrotide (approved EU/US) reduces SOS mortality. LSEC capillarisation (loss of fenestrae, BM deposition) is also an early event in cirrhogenesis, impairs hepatocyte–plasma exchange, and worsens metabolic zonation.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="hepatocyte.html" title="Hepatocytes are arranged in cords (1–2 cells thick) radiating from the central vein throughout the lobule, constituting the bulk of lobular parenchyma."><span class="rel">contains</span>Hepatocyte</a>
-            <a class="conn-pill part" href="liver.html" title="Each liver contains ~100,000 lobules; the hepatic lobule is the repeating functional and histological unit of the liver."><span class="rel">part-of</span>Liver</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="Blood flows from portal triads (mixed portal venous + hepatic arterial) → sinusoids → central vein. All portal blood from the gastrointestinal tract first passes through liver sinusoids before entering systemic circulation."><span class="rel">connects-to</span>Cardiovascular System</a>
+            <a class="conn-pill" href="hepatocyte.html"><span class="rel">Contains</span>Hepatocyte (Scale 04)</a>
+            <a class="conn-pill part" href="liver.html"><span class="rel">Part of</span>Liver (Scale 06)</a>
+            <a class="conn-pill" href="endothelial-cell.html"><span class="rel">Contains</span>LSEC (endothelial cell)</a>
+            <a class="conn-pill" href="fibroblast.html"><span class="rel">Contains</span>Hepatic Stellate Cell</a>
+            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Connects to</span>Cardiovascular System</a>
+            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1002/hep.510290243" target="_blank" rel="noopener noreferrer">Teutsch HF, Schuerfeld D, Groezinger E. Three-dimensional reconstruction of parenchymal units in the liver of the rat. Hepatology. 1999;29(2):494-505.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9918928/" target="_blank" rel="noopener noreferrer">PubMed 9918928</a></li>
-            <li><a href="https://doi.org/10.1016/j.redox.2017.01.012" target="_blank" rel="noopener noreferrer">Kietzmann T. Metabolic zonation of the liver: The oxygen gradient revisited. Redox Biol. 2017;11:622-630.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28126520/" target="_blank" rel="noopener noreferrer">PubMed 28126520</a></li>
-            <li><a href="https://doi.org/10.1146/annurev.nu.16.070196.001143" target="_blank" rel="noopener noreferrer">Jungermann K, Kietzmann T. Zonation of parenchymal and nonparenchymal metabolism in liver. Annu Rev Nutr. 1996;16:179-203.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8839922/" target="_blank" rel="noopener noreferrer">PubMed 8839922</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 71.</a></li>
+            <li>Teutsch HF, Schuerfeld D, Groezinger E. Three-dimensional reconstruction of parenchymal units in the liver. <em>Hepatology.</em> 1999;29(2):494-505. <a href="https://doi.org/10.1002/hep.510290243" target="_blank" rel="noopener">doi:10.1002/hep.510290243</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9918928/" target="_blank" rel="noopener">PubMed 9918928</a></li>
+            <li>Kietzmann T. Metabolic zonation of the liver: The oxygen gradient revisited. <em>Redox Biol.</em> 2017;11:622-630. <a href="https://doi.org/10.1016/j.redox.2017.01.012" target="_blank" rel="noopener">doi:10.1016/j.redox.2017.01.012</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28126520/" target="_blank" rel="noopener">PubMed 28126520</a></li>
+            <li>Jungermann K, Kietzmann T. Zonation of parenchymal and nonparenchymal metabolism in liver. <em>Annu Rev Nutr.</em> 1996;16:179-203. <a href="https://doi.org/10.1146/annurev.nu.16.070196.001143" target="_blank" rel="noopener">doi:10.1146/annurev.nu.16.070196.001143</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8839922/" target="_blank" rel="noopener">PubMed 8839922</a></li>
+            <li>Friedman SL. Mechanisms of hepatic fibrogenesis. <em>Gastroenterology.</em> 2008;134(6):1655-69. <a href="https://doi.org/10.1053/j.gastro.2008.03.003" target="_blank" rel="noopener">doi:10.1053/j.gastro.2008.03.003</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18471545/" target="_blank" rel="noopener">PubMed 18471545</a></li>
+            <li>Hall JE. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Ch. 71.</li>
           </ul>
         </div>
 
@@ -186,14 +277,15 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="liver.html">Liver</a>
+      <a href="hepatocyte.html">Hepatocyte</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The electrically excitable cell that is the functional unit of the nervous system. ~86 billion in the adult human brain. Core morphology: soma, dendrites, axon,">
+  <meta name="description" content="Neuron — the electrically excitable cell that is the functional unit of the nervous system. ~86 billion in the adult human brain. Scale 04 (Cellular) of the Human Atlas.">
   <meta property="og:title" content="Neuron — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Neuron — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,56 +32,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.85rem; color: var(--fg); white-space: pre; overflow-x: auto; line-height: 1.7; }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.4rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '&#8599;'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
@@ -108,8 +98,9 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="brain.html">Brain</a>
+        <a href="synapse.html">Synapse</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -119,69 +110,174 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
     <h1>Neuron</h1>
-    <p class="tagline">The electrically excitable cell that is the functional unit of the nervous system. ~86 billion in the adult human brain. Core morphology: soma, dendrites, axon, terminals. Propagates action potentials; integrates synaptic inputs to produce patterned output.</p>
-    <p class="aliases">Also known as: nerve cell, neural cell, dopaminergic neuron, glutamatergic neuron, GABAergic neuron, interneuron, motor neuron, sensory neuron</p>
+    <p class="tagline">The electrically excitable cell that is the fundamental unit of the nervous system &mdash; ~86 billion in the adult human brain, forming an estimated 100&ndash;500 trillion synaptic connections.</p>
+    <p class="subtagline">From spinal reflex arc to conscious experience, every nervous-system function depends on neurons integrating synaptic inputs and propagating action potentials at 0.5&ndash;120 m/s. Core mechanism described quantitatively by Hodgkin &amp; Huxley in 1952 (Nobel Prize, 1963).</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">86 billion</span><span class="stat-label">Brain neurons</span></div>
+      <div class="stat"><span class="stat-num">~10,000</span><span class="stat-label">Synaptic inputs/neuron</span></div>
+      <div class="stat"><span class="stat-num">120 m/s</span><span class="stat-label">Max conduction velocity</span></div>
+      <div class="stat"><span class="stat-num">&minus;70 mV</span><span class="stat-label">Resting potential</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">neuron</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">CL:0000540 &middot; FMA:54527 &middot; Atlas One / Scale 04 / Cellular</div>
         <h2>Neuron</h2>
-        <p class="summary">The electrically excitable cell that is the functional unit of the nervous system. ~86 billion in the adult human brain. Core morphology: soma, dendrites, axon, terminals. Propagates action potentials; integrates synaptic inputs to produce patterned output.</p>
+        <p class="summary">The fundamental cellular unit of the nervous system. An electrically excitable cell specialized to receive, integrate, and transmit information encoded as electrochemical signals. ~86 billion in the adult human brain, forming ~100&ndash;500 trillion synaptic connections &mdash; the most complex information-processing structure known to biology. Over 1,000 morphologically distinct subtypes have been identified; all share the Hodgkin-Huxley action potential mechanism.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The neuron is both a <strong>computational unit</strong> (integrating hundreds to thousands of simultaneous synaptic inputs across its dendritic tree) and a <strong>communication node</strong> (transmitting the integrated result as a stream of action potentials over axons ranging from millimeters to over a meter in length). This dual role underpins all nervous-system function, from spinal reflexes to the construction of conscious experience.</p>
+          <p>Neurons come in extraordinary variety &mdash; over 1,000 morphologically and molecularly distinct cell types in the mouse brain alone, with human diversity likely greater. Yet all neurons share the same fundamental architecture and electrical excitability mechanism, first described quantitatively by <strong>Hodgkin and Huxley in 1952</strong> &mdash; work earning the 1963 Nobel Prize in Physiology or Medicine.</p>
+          <p>Unlike most somatic cells, the vast majority of neurons in the adult brain are <strong>post-mitotic and long-lived</strong> &mdash; many neurons persist for the entire lifetime of the organism, making their maintenance, protection from injury, and resistance to neurodegeneration of extraordinary biological importance.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure &mdash; Core Morphological Components</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>neuron</td></tr>
-            <tr><td>Name</td><td>Neuron</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
+            <tr><th>Compartment</th><th>Size / Description</th><th>Function</th></tr>
+            <tr><td><strong>Soma (cell body)</strong></td><td>5&ndash;100 &micro;m diameter; nucleus, rough ER (Nissl bodies), mitochondria, Golgi apparatus</td><td>Protein synthesis and metabolic hub; integrates distal dendritic signals; contains the neuronal genome</td></tr>
+            <tr><td><strong>Dendrites</strong></td><td>Arborizing processes, hundreds of &micro;m span; surface studded with dendritic spines at excitatory synapses</td><td><strong>Input compartment</strong> &mdash; receive and spatiotemporally integrate synaptic signals via passive + active propagation toward soma</td></tr>
+            <tr><td><strong>Axon</strong></td><td>Single long process (up to ~1 m in motor neurons); arises from <strong>axon initial segment (AIS)</strong></td><td><strong>Output compartment</strong> &mdash; conducts action potentials from AIS to terminals; AIS has the highest Nav channel density and is the spike initiation zone</td></tr>
+            <tr><td><strong>Myelin sheath</strong></td><td>Oligodendrocyte (CNS) or Schwann cell (PNS) wraps; interrupted at <strong>nodes of Ranvier</strong> every ~1&ndash;2 mm</td><td>Enables saltatory conduction (10&ndash;120 m/s); reduces metabolic cost ~100-fold per conducted impulse</td></tr>
+            <tr><td><strong>Axon terminals (boutons)</strong></td><td>0.5&ndash;2 &micro;m presynaptic endings; synaptic vesicles, active zone scaffold, voltage-gated Ca&#178;&#8314; channels</td><td>Vesicle exocytosis &rarr; neurotransmitter release into synaptic cleft; release probability regulated by Ca&#178;&#8314; and neuromodulators</td></tr>
+            <tr><td><strong>Dendritic spines</strong></td><td>Mushroom-shaped protrusions, ~0.2&ndash;2 &micro;m; PSD scaffold with AMPA and NMDA receptors</td><td>Compartmentalize Ca&#178;&#8314; signaling for individual excitatory synapses; structural substrate of LTP and memory</td></tr>
           </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure &mdash; Neuronal Diversity</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>By morphology</h4>
+              <p><strong>Multipolar</strong> &mdash; most CNS neurons; multiple dendrites, single axon (pyramidal cells, Purkinje cells). <strong>Bipolar</strong> &mdash; one dendrite + one axon (retinal ganglia, olfactory sensory neurons). <strong>Pseudounipolar</strong> &mdash; single process bifurcating into peripheral and central branches (dorsal root ganglion cells).</p>
+            </div>
+            <div class="info-block">
+              <h4>By neurotransmitter identity</h4>
+              <p><strong>Glutamatergic</strong> (excitatory; ~80% cortical neurons; VGLUT1/2). <strong>GABAergic</strong> (inhibitory; ~20% cortex; GAD65/67). <strong>Dopaminergic</strong> (VTA, SNc; tyrosine hydroxylase). <strong>Serotonergic</strong> (raphe nuclei; TPH2). <strong>Cholinergic</strong> (basal forebrain; ChAT). <strong>Noradrenergic</strong> (locus coeruleus; TH+DBH).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function &mdash; Action Potential Propagation</h3>
+          <p>Neurons maintain a <strong>resting membrane potential of ~&minus;70 mV</strong> (inside negative) sustained by the Na&#8314;/K&#8314;-ATPase (3 Na&#8314; out / 2 K&#8314; in) and selective K&#8314; resting conductances (Kir channels). Summed synaptic depolarization reaching threshold (~&minus;55 mV) at the AIS triggers the action potential cycle:</p>
+          <div class="formula-block">RESTING  (~-70 mV)
+  |
+  v  Threshold reached at AIS (~-55 mV)
+DEPOLARIZATION
+  Nav1.6 opens (AIS) --> Na+ influx --> regenerative cascade --> peak ~+40 mV
+  |
+  v
+REPOLARIZATION
+  Nav inactivation (fast) + Kv delayed rectifier opens --> K+ efflux --> return toward -70 mV
+  |
+  v
+AFTER-HYPERPOLARIZATION (AHP, ~-80 mV)
+  Ca2+-activated K+ channels (SK) + persistent Kv --> brief undershoot
+  |
+  v
+ABSOLUTE REFRACTORY (~1 ms)   [Nav channels in inactivated state -- no AP possible]
+  --> RELATIVE REFRACTORY       [Nav recovering -- AP possible with stronger stimulus]
+  |
+  v
+RESTORATION  (Na+/K+-ATPase consumes ~20-30% neuronal ATP)</div>
+          <p class="formula-note">In myelinated axons, current jumps between nodes of Ranvier (spaced ~1&ndash;2 mm) &mdash; saltatory conduction. Velocity: ~0.5&ndash;2 m/s unmyelinated C-fibres vs. 70&ndash;120 m/s in A&alpha; motor fibres.</p>
+          <table class="data-table" style="margin-top:0.75rem;">
+            <tr><th>Axon class</th><th>Diameter</th><th>Myelinated?</th><th>Velocity</th><th>Function</th></tr>
+            <tr><td>A&alpha;</td><td>13&ndash;20 &micro;m</td><td>Yes (thick)</td><td>70&ndash;120 m/s</td><td>Motor efferent, proprioception (Ia spindle)</td></tr>
+            <tr><td>A&beta;</td><td>6&ndash;12 &micro;m</td><td>Yes</td><td>33&ndash;75 m/s</td><td>Tactile mechanoreception, pressure</td></tr>
+            <tr><td>A&delta;</td><td>1&ndash;5 &micro;m</td><td>Lightly</td><td>3&ndash;30 m/s</td><td>Fast (sharp) pain, cold temperature</td></tr>
+            <tr><td>C fibres</td><td>0.2&ndash;1.5 &micro;m</td><td>No</td><td>0.5&ndash;2 m/s</td><td>Slow pain, warmth, autonomic post-ganglionic</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function &mdash; Synaptic Integration</h3>
+          <p>A typical cortical pyramidal neuron receives ~10,000 synaptic inputs distributed across its dendritic tree &mdash; ~8,000 excitatory (glutamatergic, onto spines) and ~2,000 inhibitory (GABAergic, onto shaft/soma/AIS). The neuron computes a <strong>weighted, time-varying sum</strong> of these inputs, incorporating active dendritic conductances (voltage-gated Na&#8314;, Ca&#178;&#8314;, K&#8314;) that can amplify or suppress distal signals.</p>
+          <p>The output is a stream of action potentials whose <strong>firing rate</strong> (rate code) and precise <strong>spike timing</strong> relative to network oscillations (temporal code) together encode the neuron's assessment of its inputs. Firing rates range from near-silent (&lt;0.1 Hz in some PFC neurons) to fast-spiking (&gt;100 Hz in PV+ interneurons).</p>
+          <p><strong>Graded potentials</strong> (synaptic PSPs) summate spatially (from different input locations) and temporally (within the integration time window ~5&ndash;20 ms) before reaching the AIS. Active backpropagating action potentials (bAPs) into dendrites via Nav1.2 enable coincidence detection for Hebbian plasticity (bAP + EPSP within ~20 ms &rarr; NMDA receptor opens &rarr; Ca&#178;&#8314; influx &rarr; LTP).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lifecycle</h3>
+          <p><strong>Neurogenesis and migration.</strong> Most neurons are born during embryonic and early postnatal development in the ventricular and subventricular zones. Radial glial cells serve as neural stem cells; post-mitotic neurons migrate along radial glial scaffolds to their final cortical positions (inside-out lamination in the cortex: deep layers first, superficial last). Adult neurogenesis &mdash; well-established in the hippocampal dentate gyrus and olfactory bulb in rodents &mdash; remains actively debated in adult humans.</p>
+          <p><strong>Differentiation, connectivity, and pruning.</strong> After migration, neurons extend axons and dendrites guided by molecular cues (netrins, semaphorins, ephrins). Synaptic connections form initially in excess; <strong>synaptic pruning</strong> (complement-mediated via C1q/C3 tagging, executed by microglial CR3 phagocytosis) eliminates ~50% of connections, sculpting the final wiring by experience-dependent activity during critical/sensitive periods.</p>
+          <p><strong>Long-term maintenance.</strong> Post-mitotic neurons require continuous metabolic supply (O&#8322; + glucose &mdash; no meaningful glycogen reserves), trophic support via BDNF/TrkB, NGF/TrkA, NT-3/TrkC signaling, and axonal transport (kinesin anterograde; dynein retrograde; rates 0.3&ndash;400 mm/day). Structural synaptic plasticity (spine growth/retraction, new synapse formation) persists throughout life as the cellular substrate of learning and memory.</p>
+          <p><strong>Neuronal death in disease.</strong> Modes include <strong>excitotoxicity</strong> (NMDA Ca&#178;&#8314; overload in stroke/TBI &rarr; calpain, caspase, mitochondrial PTP); <strong>apoptosis</strong> (Bcl-2/caspase cascade in neurodegeneration); <strong>necrosis</strong> (acute ischaemia); and <strong>aggregation-induced toxicity</strong> (amyloid-&beta;, &alpha;-synuclein, tau, TDP-43). The adult CNS has very limited regenerative capacity &mdash; lost neurons are generally not replaced, unlike PNS axons.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Stroke / Ischaemic Excitotoxicity</h4>
+            <p>Energy failure in ischaemic penumbra &rarr; glutamate spillover &rarr; NMDA receptor Ca&#178;&#8314; overload &rarr; calpain activation, mitochondrial permeability transition pore opening &rarr; neuronal death within minutes to hours. ~87% of strokes ischaemic; CA1 hippocampal neurons (Sommer sector) uniquely vulnerable to brief global ischaemia.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Alzheimer's Disease</h4>
+            <p>Amyloid-&beta; oligomers impair synaptic plasticity and activate complement-mediated synapse pruning; tau neurofibrillary tangles (Braak I&ndash;VI) spread trans-synaptically. Entorhinal cortex and CA1 pyramidal neurons lost earliest. ~55 million globally; leading cause of dementia.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Parkinson's Disease</h4>
+            <p>Selective degeneration of SNc dopaminergic neurons; &alpha;-synuclein aggregates (Lewy bodies) impair proteasomal and mitochondrial function. Loss of &gt;60% of SNc neurons before motor symptoms emerge (tremor, rigidity, bradykinesia). ~10 million globally.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Epilepsy</h4>
+            <p>E/I imbalance &rarr; neuronal hyperexcitability &rarr; synchronised burst firing &rarr; seizure propagation. ~50 million globally; 30% drug-resistant. Ion channel mutations (Nav1.1 DRAVET, Kv1.1, GABA-A subunits) underlie many genetic epilepsies.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>ALS (Amyotrophic Lateral Sclerosis)</h4>
+            <p>Progressive degeneration of upper and lower motor neurons; TDP-43 and SOD1/C9orf72 aggregates impair axonal transport and RNA homeostasis. Median survival 2&ndash;5 years post-diagnosis; ~10% familial.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Spinal Cord Injury</h4>
+            <p>Mechanical disruption of axons + secondary excitotoxic and inflammatory cascade &rarr; permanent motor/sensory loss below injury. No approved neuroregenerative therapy; nogo-A/LINGO-1 antagonism in trials.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Prion Diseases (CJD)</h4>
+            <p>PrP<sup>Sc</sup>-templated misfolding accumulates in neural tissue &rarr; spongiform vacuolation, synaptic loss, neuronal death. Rapidly fatal; no treatment. Tetanospasmin (C. tetani) cleaves VAMP-2 in inhibitory interneurons &rarr; spastic paralysis by removing inhibitory control of motor neurons.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Rabies</h4>
+            <p>RABV enters via nicotinic ACh receptor at NMJ &rarr; retrograde axonal transport to CNS &rarr; encephalitis. Near 100% fatal once symptomatic; post-exposure prophylaxis (vaccine + RIG) nearly 100% effective.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="synapse.html" title="Neurons form the pre- and postsynaptic elements of synapses — synapses cannot exist without neurons."><span class="rel">part-of</span>Synapse</a>
-            <a class="conn-pill part" href="brain.html" title="Neurons are the primary computational cells of the brain."><span class="rel">part-of</span>Brain</a>
-            <a class="conn-pill part" href="nervous-system.html" title="Neurons are the fundamental cellular unit of the entire nervous system."><span class="rel">part-of</span>Nervous System</a>
-            <a class="conn-pill" href="dopamine.html" title="Dopaminergic neurons synthesize and release dopamine via tyrosine hydroxylase and DOPA decarboxylase."><span class="rel">expresses</span>Dopamine</a>
-            <a class="conn-pill" href="glutamate.html" title="Glutamatergic neurons — the most abundant class — synthesize and release glutamate."><span class="rel">expresses</span>Glutamate</a>
-            <a class="conn-pill" href="gaba.html" title="GABAergic interneurons synthesize GABA via GAD65/GAD67 and release it at inhibitory synapses."><span class="rel">expresses</span>Gaba</a>
-            <a class="conn-pill" href="dopamine.html" title="Dopamine modulates neuronal excitability, plasticity, and firing patterns via D1–D5 receptors on neuron dendrites and soma."><span class="rel">modulated-by</span>Dopamine</a>
-            <a class="conn-pill" href="glutamate.html" title="Glutamate activates AMPA and NMDA receptors on neuronal dendrites, providing the primary excitatory drive and triggering LTP."><span class="rel">modulated-by</span>Glutamate</a>
-            <a class="conn-pill" href="gaba.html" title="GABA activates GABA-A and GABA-B receptors on neuronal soma and dendrites, providing inhibitory control."><span class="rel">modulated-by</span>Gaba</a>
-            <a class="conn-pill" href="serotonin.html" title="Serotonergic neurons in the dorsal and median raphe nuclei synthesize 5-HT via TPH2 + AADC and project broadly to limbic, prefrontal, and cerebellar targets; raphe neurons provide ~5% of total body serotonin."><span class="rel">expresses</span>Serotonin</a>
+            <a class="conn-pill part" href="brain.html"><span class="rel">Part of</span>Brain</a>
+            <a class="conn-pill part" href="nervous-system.html"><span class="rel">Part of</span>Nervous System</a>
+            <a class="conn-pill part" href="synapse.html"><span class="rel">Forms</span>Synapse</a>
+            <a class="conn-pill" href="hippocampus.html"><span class="rel">Housed in</span>Hippocampus</a>
+            <a class="conn-pill" href="astrocyte.html"><span class="rel">Supported by</span>Astrocyte (ANLS, K&#8314; buffering)</a>
+            <a class="conn-pill" href="oligodendrocyte.html"><span class="rel">Myelinated by</span>Oligodendrocyte</a>
+            <a class="conn-pill" href="microglia.html"><span class="rel">Pruned / surveyed by</span>Microglia</a>
+            <a class="conn-pill" href="glutamate.html"><span class="rel">Expresses</span>Glutamate</a>
+            <a class="conn-pill" href="gaba.html"><span class="rel">Expresses</span>GABA</a>
+            <a class="conn-pill" href="dopamine.html"><span class="rel">Expresses</span>Dopamine</a>
+            <a class="conn-pill" href="serotonin.html"><span class="rel">Expresses</span>Serotonin</a>
+            <a class="conn-pill" href="sodium.html"><span class="rel">Modulated by</span>Sodium (Nav1.6)</a>
+            <a class="conn-pill" href="potassium.html"><span class="rel">Modulated by</span>Potassium (Kv/Kir)</a>
+            <a class="conn-pill damaged" href="prion-protein.html"><span class="rel">Damaged by</span>Prion (CJD)</a>
+            <a class="conn-pill damaged" href="rabies-virus.html"><span class="rel">Infected by</span>Rabies Virus</a>
+            <a class="conn-pill damaged" href="clostridium-tetani.html"><span class="rel">Targeted by</span>Tetanospasmin (TeNT)</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1002/cne.21974" target="_blank" rel="noopener noreferrer">Azevedo FA, Carvalho LR, Grinberg LT, et al. Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. J Comp Neurol. 2009;513(5):532-541.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19226510/" target="_blank" rel="noopener noreferrer">PubMed 19226510</a></li>
-            <li><a href="https://www.mhprofessional.com/principles-of-neural-science-sixth-edition-9781259642234-usa" target="_blank" rel="noopener noreferrer">Kandel ER, Koester JD, Mack SH, Siegelbaum SA. Principles of Neural Science. 6th ed. McGraw-Hill; 2021.</a></li>
-            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy and Physiology 2e. Chapter 12: Introduction to the Nervous System. Rice University; 2022.</a></li>
-            <li><a href="https://doi.org/10.1113/jphysiol.1952.sp004764" target="_blank" rel="noopener noreferrer">Hodgkin AL, Huxley AF. A quantitative description of membrane current and its application to conduction and excitation in nerve. J Physiol. 1952;117(4):500-544.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12991237/" target="_blank" rel="noopener noreferrer">PubMed 12991237</a></li>
+            <li>Hodgkin AL, Huxley AF. A quantitative description of membrane current and its application to conduction and excitation in nerve. <em>J Physiol.</em> 1952;117(4):500&ndash;544. <a href="https://doi.org/10.1113/jphysiol.1952.sp004764" target="_blank" rel="noopener">doi:10.1113/jphysiol.1952.sp004764</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12991237/" target="_blank" rel="noopener">PubMed 12991237</a></li>
+            <li>Azevedo FA, Carvalho LR, Grinberg LT, et al. Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. <em>J Comp Neurol.</em> 2009;513(5):532&ndash;541. <a href="https://doi.org/10.1002/cne.21974" target="_blank" rel="noopener">doi:10.1002/cne.21974</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19226510/" target="_blank" rel="noopener">PubMed 19226510</a></li>
+            <li>Kandel ER, Koester JD, Mack SH, Siegelbaum SA. <em>Principles of Neural Science.</em> 6th ed. McGraw-Hill; 2021. <a href="https://www.mhprofessional.com/principles-of-neural-science-sixth-edition-9781259642234-usa" target="_blank" rel="noopener">mhprofessional.com</a></li>
+            <li>OpenStax. <em>Anatomy and Physiology 2e.</em> Chapter 12: Introduction to the Nervous System. Rice University; 2022. <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system" target="_blank" rel="noopener">openstax.org</a></li>
           </ul>
         </div>
 
@@ -190,17 +286,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end &mdash; in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="brain.html">Brain</a>
+      <a href="synapse.html">Synapse</a>
+      <a href="hippocampus.html">Hippocampus</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
 </body>
 </html>

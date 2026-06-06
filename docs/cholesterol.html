@@ -1,200 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="C₂₇ sterol (MW 386.65); rigid 4-ring backbone + one –OH. Membrane fluidity regulator, steroid hormone and bile acid precursor. Synthesised via mevalonate/HMGR p">
-  <meta property="og:title" content="Cholesterol — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Cholesterol — Human Engineering</title>
-  <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cholesterol · Atlas One · Human · Molecular</title>
+<style>
+  :root {
+    --accent: #f59e0b;
+    --accent-dark: #b45309;
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface2: #273549;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --radius-sm: 6px;
+    --radius: 12px;
+    --radius-lg: 18px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+
+  /* NAV */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(15,23,42,0.85); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem;
+  }
+  nav a { color: var(--text-muted); text-decoration: none; font-size: 0.875rem; }
+  nav a:hover { color: var(--accent); }
+  nav .sep { color: var(--border); }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #f59e0b, #b45309);
+    padding: 3rem 2rem 2.5rem;
+  }
+  .hero-inner { max-width: 860px; margin: 0 auto; }
+  .eyebrow {
+    display: inline-block; background: rgba(255,255,255,0.2);
+    color: #fff; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em;
+    padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 1rem;
+  }
+  .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1.1; }
+  .hero .tagline { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 0.5rem; max-width: 620px; }
+  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
+  .stat { background: rgba(255,255,255,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; }
+  .stat .val { font-size: 1.25rem; font-weight: 700; color: #fff; }
+  .stat .lbl { font-size: 0.7rem; color: rgba(255,255,255,0.75); letter-spacing: 0.06em; text-transform: uppercase; }
+
+  /* MAIN LAYOUT */
+  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+  /* DETAIL CARDS */
+  .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 2rem; overflow: hidden; }
+  .detail-header {
+    background: linear-gradient(135deg, #f59e0b, #b45309);
+    padding: 1rem 1.5rem;
+  }
+  .detail-header h2 { color: #fff; font-size: 1.1rem; font-weight: 700; }
+  .detail-body { padding: 1.5rem; }
+  .detail-body p { color: var(--text-muted); margin-bottom: 0.75rem; }
+  .detail-body p:last-child { margin-bottom: 0; }
+
+  /* PATHWAY BLOCK */
+  .pathway-block {
+    background: #0d1b2e; border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 1.25rem;
+    margin: 1rem 0; overflow-x: auto;
+  }
+  .pathway-block pre {
+    font-family: 'Fira Mono', 'Cascadia Code', monospace;
+    font-size: 0.78rem; line-height: 1.6; color: #93c5fd; white-space: pre;
+  }
+
+  /* DATA TABLE */
+  .data-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+  .data-table th {
+    background: var(--surface2); color: var(--text); text-align: left;
+    padding: 0.6rem 0.875rem; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase;
+  }
+  .data-table td { padding: 0.6rem 0.875rem; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table tr:hover td { background: var(--surface2); }
+
+  /* STEP LIST */
+  .step-list { list-style: none; counter-reset: steps; margin: 0.75rem 0; }
+  .step-list li { counter-increment: steps; display: flex; gap: 0.875rem; margin-bottom: 0.6rem; color: var(--text-muted); font-size: 0.9rem; }
+  .step-list li::before {
+    content: counter(steps);
+    background: var(--accent); color: #fff; font-weight: 700; font-size: 0.75rem;
+    min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; margin-top: 0.15rem;
+  }
+
+  /* PRINCIPLE BOX */
+  .principle-box {
+    background: rgba(245,158,11,0.1); border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    padding: 0.875rem 1rem; margin: 1rem 0; color: var(--text-muted); font-size: 0.9rem;
+  }
+  .principle-box strong { color: var(--text); }
+
+  /* CONNECTIONS */
+  .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+  .conn-pill {
+    background: var(--surface2); border: 1px solid var(--border);
+    color: var(--text-muted); font-size: 0.78rem; padding: 0.3rem 0.75rem;
+    border-radius: 999px; text-decoration: none;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .conn-pill:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* REFS */
+  .refs { list-style: none; margin-top: 0.5rem; }
+  .refs li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+  .refs li:last-child { border-bottom: none; }
+  .refs li::before { content: "↗ "; color: var(--accent); }
+
+  /* FOOTER */
+  footer {
+    text-align: center; padding: 2rem 1rem;
+    border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.8rem;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<nav>
+  <a href="index.html">Atlas</a>
+  <span class="sep">›</span>
+  <a href="index.html">Human</a>
+  <span class="sep">›</span>
+  <a href="#">Cholesterol</a>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Atlas One · Human · Molecular</span>
     <h1>Cholesterol</h1>
-    <p class="tagline">C₂₇ sterol (MW 386.65); rigid 4-ring backbone + one –OH. Membrane fluidity regulator, steroid hormone and bile acid precursor. Synthesised via mevalonate/HMGR pathway. FH (LDLR mutation) → premature ASCVD; statins target HMGR to lower LDL-C by 30–55%.</p>
-    <p class="aliases">Also known as: cholesterol ester, free cholesterol, LDL cholesterol, HDL cholesterol, VLDL</p>
+    <p class="tagline">Essential C₂₇ sterol — membrane architect, steroid precursor, and central node of human lipid metabolism.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><div class="val">386.65</div><div class="lbl">MW (Da)</div></div>
+      <div class="stat"><div class="val">C₂₇H₄₆O</div><div class="lbl">Formula</div></div>
+      <div class="stat"><div class="val">HMGCR</div><div class="lbl">Rate-limiting enzyme</div></div>
+      <div class="stat"><div class="val">~5 days</div><div class="lbl">Plasma half-life</div></div>
+    </div>
+  </div>
+</section>
+
+<main>
+
+  <!-- OVERVIEW -->
+  <div class="detail-card">
+    <div class="detail-header"><h2>Overview</h2></div>
+    <div class="detail-body">
+      <p>Cholesterol is a 27-carbon amphipathic sterol that is simultaneously indispensable and dangerous. It is the primary modulator of membrane fluidity in mammalian cells, the obligate precursor to all five classes of steroid hormones, bile acids, and vitamin D, and the dominant lipid component of myelin sheaths. Yet its accumulation in arterial walls drives the leading cause of death worldwide — atherosclerotic cardiovascular disease.</p>
+      <p>The body acquires cholesterol through two routes: de novo synthesis (primarily in the liver, ~700–900 mg/day) via the mevalonate pathway, and dietary absorption (~200–500 mg/day) in the small intestine. Hepatic HMGCR (HMG-CoA reductase) catalyzes the committed, rate-limiting step (HMG-CoA → mevalonate). Plasma cholesterol is transported in lipoprotein particles — VLDL, IDL, LDL, HDL — each with distinct apolipoproteins, receptors, and metabolic fates.</p>
+      <p>Cellular cholesterol homeostasis depends on the SREBP-2 / SCAP / INSIG feedback circuit: when ER cholesterol is low, SCAP escorts SREBP-2 to the Golgi for proteolytic activation; the released transcription factor upregulates both HMGCR and the LDL receptor (LDLR). Statins exploit this circuit. PCSK9 serine protease degrades LDLR in lysosomes, and anti-PCSK9 antibodies are now first-line therapy for familial hypercholesterolaemia.</p>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <!-- STRUCTURE -->
+  <div class="detail-card">
+    <div class="detail-header"><h2>Structure</h2></div>
+    <div class="detail-body">
+      <p>Cholesterol is a tetracyclic compound (three cyclohexane rings A–C fused to a cyclopentane ring D), with a 3β-hydroxyl group (hydrophilic head), an isooctyl side chain at C17, and a double bond at C5–C6. In biological membranes the OH faces the aqueous phase while the rigid sterol nucleus intercalates between phospholipid acyl chains.</p>
+      <table class="data-table">
+        <thead><tr><th>Feature</th><th>Detail</th></tr></thead>
+        <tbody>
+          <tr><td>Ring system</td><td>Fused A-B-C-D tetracycle (perhydrophenanthrene + cyclopentane)</td></tr>
+          <tr><td>Polar head</td><td>3β-OH (hydrogen-bond donor; faces aqueous phase)</td></tr>
+          <tr><td>Rigid body</td><td>Planar ring nucleus reduces membrane disorder in fluid phase</td></tr>
+          <tr><td>Side chain</td><td>8-carbon isooctyl at C17; contributes hydrophobic tail</td></tr>
+          <tr><td>Double bond</td><td>Δ5 (C5-C6) — absent in cholestanol, affects membrane properties</td></tr>
+          <tr><td>Membrane orientation</td><td>3β-OH anchors at glycerophospholipid glycerol; nucleus alongside acyl chains</td></tr>
+          <tr><td>Lipid rafts</td><td>Cholesterol + sphingomyelin form ordered liquid phase (Lo) microdomains</td></tr>
+        </tbody>
+      </table>
+      <p>In the plasma, cholesterol is primarily esterified (cholesteryl ester, CE) at the C3 hydroxyl by LCAT (lecithin-cholesterol acyltransferase) — CE is more hydrophobic and resides in the lipoprotein core. Free cholesterol (FC) sits at the surface monolayer and in membranes.</p>
     </div>
+  </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">cholesterol</div>
-        <h2>Cholesterol</h2>
-        <p class="summary">C₂₇ sterol (MW 386.65); rigid 4-ring backbone + one –OH. Membrane fluidity regulator, steroid hormone and bile acid precursor. Synthesised via mevalonate/HMGR pathway. FH (LDLR mutation) → premature ASCVD; statins target HMGR to lower LDL-C by 30–55%.</p>
+  <!-- MECHANISM: Synthesis + LDLR pathway -->
+  <div class="detail-card">
+    <div class="detail-header"><h2>Mechanism — Mevalonate Pathway &amp; LDLR Circuit</h2></div>
+    <div class="detail-body">
+      <p>De novo synthesis proceeds from acetyl-CoA through a cascade of ~30 reactions. HMGCR (the statin target) is the committed step. Downstream, squalene cyclises to lanosterol, which is further demethylated and reduced to cholesterol. PCSK9 counters LDLR-mediated clearance. Reverse cholesterol transport by HDL removes excess cholesterol from peripheral tissues.</p>
+      <div class="pathway-block"><pre>
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                 DE NOVO SYNTHESIS (liver / all nucleated cells)        │
+  │                                                                        │
+  │  Acetyl-CoA ──► Acetoacetyl-CoA ──► HMG-CoA                          │
+  │                                         │                             │
+  │                                    HMGCR (rate-limiting)             │
+  │                                    ◄──── STATINS inhibit              │
+  │                                         │                             │
+  │                                      Mevalonate                       │
+  │                                         │                             │
+  │                           ┌────────────┴────────────┐                │
+  │                        Isoprenoids               Dolichol             │
+  │                      (farnesyl, geranyl)      CoQ10, heme            │
+  │                           │                                           │
+  │                        Squalene                                       │
+  │                           │  (squalene synthase)                     │
+  │                        Lanosterol                                     │
+  │                           │  (19 demethylation steps)                │
+  │                       Cholesterol ◄─────────────────                  │
+  └─────────────────────────┬──────────────────────────┘                 │
+                            │                                             │
+  ┌─────────────────────────▼──────────────────────────┐                 │
+  │                 LDLR PATHWAY (hepatocyte)           │                 │
+  │                                                     │                 │
+  │  Plasma LDL                                         │                 │
+  │   (apoB100) ──► LDLR on hepatocyte surface ─► Clathrin endocytosis  │
+  │                                                     │                 │
+  │                 ┌── PCSK9 (serine protease)        │                 │
+  │                 │   secreted; binds LDLR EGF-A     │                 │
+  │                 │   → lysosomal LDLR degradation   │                 │
+  │                 │   ◄─── Anti-PCSK9 mAb block      │                 │
+  │                 │        (evolocumab, alirocumab)  │                 │
+  │                 │                                   │                 │
+  │  LDLR recycled ◄┘           LDL internalized       │                 │
+  │  (low cholesterol state)    → lysosomal CE hydrolysis                │
+  │                             → free cholesterol                       │
+  │                                   │                                  │
+  │  ┌───────── FEEDBACK LOOP ────────┴──────────────────┐              │
+  │  │  ER cholesterol HIGH  → SCAP/INSIG retain SREBP-2 │              │
+  │  │  ER cholesterol LOW   → SCAP escorts SREBP-2      │              │
+  │  │                         to Golgi → S1P/S2P cleavage              │
+  │  │                         → SREBP-2 nuclear entry    │              │
+  │  │                         → ↑ HMGCR + ↑ LDLR genes  │              │
+  │  └──────────────────────────────────────────────────-┘              │
+  │                                                                       │
+  │              REVERSE CHOLESTEROL TRANSPORT                           │
+  │                                                                       │
+  │  Peripheral cells → ABCA1/ABCG1 → nascent HDL                       │
+  │                          │ (apoA-I scaffold)                         │
+  │                       LCAT (lecithin:cholesterol acyltransferase)    │
+  │                          │ → cholesteryl ester core                  │
+  │                       Mature HDL                                      │
+  │                          │                                           │
+  │                   ┌──────┴──────────┐                               │
+  │                SR-B1 (liver)     CETP → LDL/VLDL                   │
+  │              cholesterol uptake     (CE transfer)                   │
+  └────────────────────────────────────────────────────────────────────-┘</pre></div>
+      <ol class="step-list">
+        <li>Acetyl-CoA condenses to HMG-CoA (3 enzymes); HMGCR reduces HMG-CoA to mevalonate — rate-limiting step, feedback-regulated by SREBP-2 and sterol-accelerated HMGCR degradation.</li>
+        <li>Mevalonate → farnesyl-PP → squalene (squalene synthase) → lanosterol (oxidosqualene cyclase) → cholesterol (19 demethylation/reduction steps, 450 nm CYP51A1 demethylase).</li>
+        <li>LDL binds LDLR via apoB100; clathrin-coated pit endocytosis; endosome acidification releases LDL → lysosomal NPC1/NPC2 exports free cholesterol to ER.</li>
+        <li>PCSK9 binds LDLR EGF-A domain at the cell surface; co-internalized; low endosomal pH causes tight PCSK9–LDLR interaction → LDLR degraded, not recycled.</li>
+        <li>ABCA1 (ATP-binding cassette A1) exports free cholesterol and phospholipids to lipid-poor apoA-I → pre-β HDL → LCAT esterifies cholesterol → spherical HDL3 → HDL2 → SR-B1 delivers CE to liver (selective uptake).</li>
+        <li>CETP (cholesteryl ester transfer protein) exchanges CE from HDL to VLDL/LDL and triglycerides in reverse — a pharmaceutical target (anacetrapib, obicetrapib).</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- PHYSIOLOGICAL ROLES -->
+  <div class="detail-card">
+    <div class="detail-header"><h2>Physiological Roles</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Role</th><th>Detail</th></tr></thead>
+        <tbody>
+          <tr><td>Membrane fluidity buffer</td><td>At body temperature, cholesterol fills gaps between unsaturated acyl chains, reducing permeability while preventing gel phase; increases membrane thickness</td></tr>
+          <tr><td>Lipid raft formation</td><td>Liquid-ordered (Lo) phase microdomains with sphingomyelin concentrate GPI-anchored proteins, RTKs, and signaling molecules; key for T-cell receptor clustering</td></tr>
+          <tr><td>Steroid hormone precursor</td><td>Mitochondrial CYP11A1 cleaves side chain to pregnenolone → glucocorticoids, mineralocorticoids, androgens, estrogens, progestogens</td></tr>
+          <tr><td>Bile acid synthesis</td><td>CYP7A1 (rate-limiting) converts cholesterol to 7α-hydroxycholesterol → primary bile acids (cholic, chenodeoxycholic) → bile salt detergent for fat absorption</td></tr>
+          <tr><td>Vitamin D synthesis</td><td>7-dehydrocholesterol (skin) → UV-B → previtamin D3 → cholecalciferol → 25-OH-D3 (liver) → 1,25-(OH)₂D3 (kidney)</td></tr>
+          <tr><td>Myelin sheath insulation</td><td>Oligodendrocytes/Schwann cells are 70–80% lipid by dry weight; cholesterol is the dominant sterol; critical for saltatory conduction</td></tr>
+          <tr><td>Hedgehog signalling</td><td>Sonic Hedgehog (SHH) undergoes autocatalytic cholesterol modification at C-terminal Cys; cholesterol-modified SHH is essential for tissue patterning</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- PHARMACOLOGY -->
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pharmacology &amp; Clinical Use</h2></div>
+    <div class="detail-body">
+      <p><strong>Statins (HMG-CoA reductase inhibitors)</strong> — rosuvastatin, atorvastatin, simvastatin. Competitively inhibit HMGCR at the active site; cause hepatic ER cholesterol depletion → SREBP-2 activation → ↑LDLR expression → ↑ LDL-C clearance (net 30–60% LDL-C reduction). Also pleiotropic effects: anti-inflammatory, endothelial NO↑, plaque stabilization. Class-effect side effects: myopathy (CK elevation), rare rhabdomyolysis (CYP3A4 DDIs), new-onset T2DM (2–10% risk elevation).</p>
+      <p><strong>PCSK9 inhibitors</strong> — evolocumab (Repatha) and alirocumab (Praluent) are monoclonal antibodies blocking PCSK9 before it binds LDLR. Additional 50–70% LDL-C lowering on top of statins; approved for FH and high-risk ASCVD. Inclisiran is a siRNA targeting hepatic PCSK9 mRNA with twice-yearly dosing.</p>
+      <p><strong>Ezetimibe</strong> — inhibits NPC1L1 transporter in the small intestinal brush border; blocks cholesterol absorption (~18% LDL-C reduction alone; additive with statins — IMPROVE-IT trial).</p>
+      <p><strong>Bile acid sequestrants</strong> — cholestyramine, colesevelam. Bind bile acids in the intestine → bile acid recycling interrupted → liver upregulates CYP7A1 → more cholesterol converted to bile acids → LDLR upregulation. Limited use due to GI side effects; safe in pregnancy.</p>
+      <p><strong>Fibrates (PPARα agonists)</strong> — primarily lower triglycerides 20–50% and modestly raise HDL-C; used in hypertriglyceridaemia and mixed dyslipidaemia. Bezafibrate, fenofibrate.</p>
+      <div class="principle-box"><strong>Clinical pearl:</strong> Statin therapy reduces cardiovascular events by ~25% per 1 mmol/L LDL-C reduction (CTT meta-analysis). High-intensity statin (rosuvastatin 20–40 mg or atorvastatin 40–80 mg) is the foundation of ASCVD risk reduction; PCSK9i add-on is indicated when LDL-C remains ≥1.8 mmol/L despite maximally tolerated statin + ezetimibe.</div>
+    </div>
+  </div>
+
+  <!-- PATHOLOGY -->
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pathology</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Condition</th><th>Mechanism</th><th>Key Feature</th></tr></thead>
+        <tbody>
+          <tr><td>Familial hypercholesterolaemia (FH)</td><td>Loss-of-function LDLR or PCSK9 gain-of-function; LDL-C 2–4× normal</td><td>Tendon xanthomas, corneal arcus, premature ASCVD; heterozygous FH ~1/250</td></tr>
+          <tr><td>Atherosclerosis</td><td>LDL retained in arterial intima → oxidised LDL → macrophage foam cells → lipid core → fibrous cap → plaque rupture → MI/stroke</td><td>LDL-C is causal (Mendelian randomisation); each 1 mmol/L LDL-C = ~20% relative CVD risk</td></tr>
+          <tr><td>Smith-Lemli-Opitz syndrome</td><td>DHCR7 (7-dehydrocholesterol reductase) deficiency; cholesterol synthesis block → 7-DHC accumulation</td><td>Intellectual disability, syndactyly 2-3 toes, genital abnormalities; treat with dietary cholesterol</td></tr>
+          <tr><td>Tangier disease</td><td>ABCA1 loss-of-function; cholesterol efflux to HDL absent; HDL-C near zero; cholesterol accumulates in macrophages</td><td>Orange tonsils, peripheral neuropathy, hepatosplenomegaly, premature ASCVD</td></tr>
+          <tr><td>Niemann-Pick type C</td><td>NPC1/NPC2 dysfunction; cholesterol trapped in late endolysosomes despite normal cholesterol synthesis</td><td>Vertical supranuclear gaze palsy, ataxia, dementia; treatment: miglustat, arimoclomol</td></tr>
+          <tr><td>Gallstones (cholesterol)</td><td>Bile supersaturation with cholesterol (↑biliary cholesterol secretion via ABCG5/8 or ↓bile acids); cholesterol nucleates in gallbladder</td><td>Most common type in Western countries; risk: female, fat, fertile, forty, fibre-poor diet</td></tr>
+          <tr><td>Sitosterolaemia</td><td>ABCG5/ABCG8 mutations → dietary plant sterols absorbed and not excreted; mimics FH</td><td>Xanthomas, haemolytic anaemia, premature ASCVD; treat with ezetimibe</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- CONNECTIONS -->
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2></div>
+    <div class="detail-body">
+      <p>Cholesterol metabolism is linked to glucose metabolism (insulin activates HMGCR via PP2A; diabetes raises PCSK9), thyroid hormones (hypothyroidism raises LDL-C via ↓LDLR expression), and obesity/leptin. Mevalonate pathway intermediates (geranylgeranyl-PP) are required for Rac/Rho GTPase prenylation — statin effects on immune cells partly reflect this. Bile acid receptor (FXR) signalling crosstalk influences hepatic glucose and lipid metabolism.</p>
+      <div class="conn-pills">
+        <a class="conn-pill" href="ampk.html">AMPK (inhibits HMGCR)</a>
+        <a class="conn-pill" href="thyroid-hormones.html">Thyroid hormones (LDLR regulation)</a>
+        <a class="conn-pill" href="leptin.html">Leptin (adipose lipolysis)</a>
+        <a class="conn-pill" href="glucagon.html">Glucagon (hepatic lipid mobilisation)</a>
+        <a class="conn-pill" href="albumin.html">Albumin (cholesterol transport carrier)</a>
+        <a class="conn-pill" href="nitric-oxide.html">Nitric oxide (endothelial protection)</a>
       </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>cholesterol</td></tr>
-            <tr><td>Name</td><td>Cholesterol</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="human-body.html" title="~35–40g total cholesterol; 80% in cell membranes as fluidity regulator; precursor of steroid hormones (cortisol, sex steroids, vitamin D) and bile acids; every nucleated cell synthesises it."><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill" href="hepatocyte.html" title="Liver is the central cholesterol hub: hepatocytes synthesise ~70% via mevalonate/HMGR (statin target), package into VLDL→LDL, clear LDL via LDLR, and convert cholesterol to bile acids via CYP7A1."><span class="rel">modulates</span>Hepatocyte</a>
-            <a class="conn-pill" href="statins.html" title="Statins competitively inhibit HMGR (rate-limiting enzyme of mevalonate pathway) → ↓hepatic cholesterol → ↑LDLR expression → ↓LDL-C by 30–55%; primary and secondary prevention of MACE."><span class="rel">modulated-by</span>Statins</a>
-            <a class="conn-pill" href="cardiomyocyte.html" title="Cholesterol in cardiomyocyte sarcolemma and t-tubule membranes forms lipid rafts that organise L-type Ca²⁺ channels, RyR2, and β-AR signalling platforms; depletion disrupts EC coupling."><span class="rel">modulates</span>Cardiomyocyte</a>
-            <a class="conn-pill" href="arterial-wall.html" title="Modulated by Arterial Wall."><span class="rel">modulated-by</span>Arterial Wall</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
-            <li><a href="https://doi.org/10.1126/science.3513311" target="_blank" rel="noopener noreferrer">Goldstein JL, Brown MS. Nobel Lecture 1985: The LDL receptor and the regulation of cholesterol metabolism. Science. 1986;232:34-47.</a></li>
-          </ul>
-        </div>
-
-      </div>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <!-- REFERENCES -->
+  <div class="detail-card">
+    <div class="detail-header"><h2>References</h2></div>
+    <div class="detail-body">
+      <ul class="refs">
+        <li>Goldstein JL & Brown MS (2015). A century of cholesterol and coronaries. <em>Cell</em> 161:161–172.</li>
+        <li>Horton JD, Goldstein JL, Brown MS (2002). SREBPs: activators of the complete program of cholesterol and fatty acid synthesis. <em>J Clin Invest</em> 109:1125–1131.</li>
+        <li>Abifadel M et al. (2003). Mutations in PCSK9 cause autosomal dominant hypercholesterolaemia. <em>Nature Genetics</em> 34:154–156.</li>
+        <li>Cholesterol Treatment Trialists' (CTT) Collaboration (2010). Efficacy and safety of more intensive lowering of LDL cholesterol. <em>Lancet</em> 376:1670–1681.</li>
+        <li>Sabatine MS et al. (2017). Evolocumab and clinical outcomes in patients with cardiovascular disease (FOURIER). <em>NEJM</em> 376:1713–1722.</li>
+        <li>Ference BA et al. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. <em>Eur Heart J</em> 38:2459–2472.</li>
+        <li>Tall AR, Yvan-Charvet L (2015). Cholesterol, inflammation and innate immunity. <em>Nat Rev Immunol</em> 15:104–116.</li>
+      </ul>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</main>
+
+<footer>
+  <p>Atlas One · Human · Molecular · Cholesterol</p>
+  <p style="margin-top:0.4rem;">
+    Open source · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
+    <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
+  </p>
+  <p style="margin-top:0.4rem; font-size:0.75rem; color:#64748b;">
+    This page is co-maintained with AI assistance. Content is for educational purposes.
+    Always verify clinical information against primary sources. &copy; <span id="yr"></span>
+  </p>
+</footer>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>

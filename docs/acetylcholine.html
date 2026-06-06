@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Quaternary ammonium ester (MW 182.65) synthesised by ChAT from acetyl-CoA + choline. Activates nicotinic (ionotropic) and muscarinic (GPCR) receptors at NMJ, au">
-  <meta property="og:title" content="Acetylcholine — Human Engineering">
+  <meta name="description" content="Acetylcholine (ACh) — quaternary ammonium ester synthesised by ChAT from acetyl-CoA + choline. Activates nAChR (ionotropic) and mAChR (GPCR) at NMJ, autonomic ganglia, and CNS. AChE hydrolysis terminates signal in &lt;1 ms. Deficiency underlies Alzheimer's disease. Human Engineering project.">
+  <meta property="og:title" content="Acetylcholine (ACh) — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Acetylcholine — Human Engineering</title>
+  <title>Acetylcholine (ACh) — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,50 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #065f46); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .principle-box { background: rgba(5,150,105,0.06); border: 1px solid rgba(5,150,105,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +98,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,61 +110,375 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>Acetylcholine</h1>
-    <p class="tagline">Quaternary ammonium ester (MW 182.65) synthesised by ChAT from acetyl-CoA + choline. Activates nicotinic (ionotropic) and muscarinic (GPCR) receptors at NMJ, autonomic ganglia, and CNS. AChE hydrolysis terminates signal in &lt;1 ms. Deficiency underlies Alzheimer's disease.</p>
-    <p class="aliases">Also known as: ACh, choline acetyltransferase product, acetylcholinesterase substrate</p>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
+    <h1>Acetylcholine (ACh)</h1>
+    <p class="tagline">The first neurotransmitter ever discovered — a quaternary ammonium ester (MW 182.65) controlling NMJ, autonomic, and CNS circuits through nicotinic and muscarinic receptors.</p>
+    <p class="subtagline">Synthesised by choline acetyltransferase (ChAT) from acetyl-CoA + choline. Terminated by acetylcholinesterase (AChE) in &lt;1 ms — one of the fastest enzymatic reactions in biology. Two receptor superfamilies: nAChR (ionotropic, Na⁺/K⁺ channel, 5 major subtypes) and mAChR (GPCR, M1–M5). Loss of basal forebrain cholinergic neurons is the central neurochemical correlate of Alzheimer's disease.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">182.65</span><span class="stat-label">MW (g/mol)</span></div>
+      <div class="stat"><span class="stat-num">&lt;1 ms</span><span class="stat-label">AChE hydrolysis t½</span></div>
+      <div class="stat"><span class="stat-num">M1–M5</span><span class="stat-label">Muscarinic receptor subtypes</span></div>
+      <div class="stat"><span class="stat-num">ChAT</span><span class="stat-label">Biosynthetic enzyme (CHAT gene)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">acetylcholine</div>
-        <h2>Acetylcholine</h2>
-        <p class="summary">Quaternary ammonium ester (MW 182.65) synthesised by ChAT from acetyl-CoA + choline. Activates nicotinic (ionotropic) and muscarinic (GPCR) receptors at NMJ, autonomic ganglia, and CNS. AChE hydrolysis terminates signal in &lt;1 ms. Deficiency underlies Alzheimer's disease.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Cholinergic Neurotransmitter</div>
+        <h2>Acetylcholine (ACh)</h2>
+        <div class="drug-class">Class: Quaternary ammonium ester &nbsp;&middot;&nbsp; Neurotransmitter &nbsp;&middot;&nbsp; Neuromodulator &nbsp;|&nbsp; Biosynthetic enzyme: ChAT (CHAT gene) &nbsp;|&nbsp; Degrading enzyme: AChE (ACHE gene) &nbsp;|&nbsp; Storage: VAChT (SLC18A3)</div>
+        <p class="summary">Acetylcholine (ACh) is the founding member of the neurotransmitter family, identified by Otto Loewi in 1921 as "Vagusstoff." It is a simple choline ester carrying a permanent positive charge that binds nicotinic receptors (ionotropic, fast millisecond response) and muscarinic receptors (GPCR, slower modulation), mediating motor commands at the NMJ, ganglionic relay in the autonomic nervous system, and widespread neuromodulation of cognition, memory, and arousal in the CNS. Its inactivation by acetylcholinesterase (AChE) in under one millisecond makes it uniquely suited for precise rapid signalling at the motor endplate and parasympathetic effector organs. Pharmacological manipulation of ACh underpins treatment of myasthenia gravis, Alzheimer's disease, organophosphate poisoning, anaesthesia, COPD, and overactive bladder.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">ACh</span>
+          <span class="alias-pill">choline acetyltransferase product</span>
+          <span class="alias-pill">acetylcholinesterase substrate</span>
+          <span class="alias-pill">Vagusstoff (historical)</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview &amp; Structure</h3>
+          <p>ACh is a simple ester: <strong>choline + acetate</strong>, linked through an ester bond (molecular formula C₇H₁₆NO₂⁺). The quaternary ammonium nitrogen bears a permanent positive charge at all physiological pH values, which anchors ACh in the binding pockets of both nAChRs and mAChRs via <strong>cation-π interactions</strong> with aromatic residues (Tyr, Trp). Unlike monoamine neurotransmitters, there is no reuptake transporter for intact ACh — signal termination is exclusively enzymatic.</p>
+          <p><strong>Choline acetyltransferase (ChAT)</strong> catalyses: Acetyl-CoA + Choline → ACh + CoA-SH (ΔG ≈ −13 kJ/mol). ChAT is cytoplasmic in the presynaptic terminal and its expression is the defining molecular marker of cholinergic neurons. High-affinity choline reuptake via <strong>CHT1 (SLC5A7)</strong> is rate-limiting for ACh synthesis in high-demand states.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Synthesis, Vesicular Loading &amp; Exocytosis Pathway</h3>
+          <div class="pathway-block">
+<pre>
+  Choline  ←─── recycled by CHT1 (SLC5A7) reuptake from synaptic cleft
+       │         also from diet/phosphatidylcholine catabolism
+       │
+       │  ChAT (cytosolic)  +  Acetyl-CoA (from mitochondrial citrate)
+       ▼
+  Acetylcholine (ACh)
+       │
+       │  VAChT (SLC18A3) — vesicular ACh transporter
+       │  Drives 2 H⁺ efflux per ACh loaded (V-type H⁺-ATPase gradient)
+       │  ~10,000 ACh molecules per synaptic vesicle
+       ▼
+  Synaptic vesicle (ready-releasable pool at active zone)
+       │
+       │  Action potential → P/Q-type Cav2.1 (NMJ) opens
+       │  Ca²⁺ binds synaptotagmin-1 (C2A/C2B domains)
+       │  SNARE zippering: VAMP2 (vesicle) + SNAP-25 + syntaxin-1 (plasma membrane)
+       ▼
+  Synaptic cleft  →  ACh binds nAChR or mAChR
+       │
+       ├─── nAChR (ionotropic): Na⁺ influx + K⁺ efflux → depolarisation → AP
+       │
+       └─── mAChR M1/M3/M5 (Gq → PLC → IP3/DAG → ↑Ca²⁺/PKC)
+            mAChR M2/M4  (Gi → ↓cAMP + GIRK K⁺ channel → hyperpolarisation)
+       │
+       ▼
+  AChE (serine hydrolase, ~25,000 events/sec per active site)
+       │  Ser203 → tetrahedral intermediate → acetyl-enzyme + choline released
+       │  Water → deacylation → acetate + regenerated Ser203
+       ▼
+  Choline recycled by CHT1 → re-enters synthesis cycle
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Botulinum neurotoxins (BoNT A–G)</strong> are Zn²⁺-metalloproteases that cleave SNARE proteins — BoNT-A/C/E cleave SNAP-25; BoNT-B/D/F/G cleave VAMP2 (synaptobrevin); BoNT-C also cleaves syntaxin-1. Result: irreversible block of ACh exocytosis → flaccid paralysis. Therapeutic uses: cervical dystonia, cosmetic (onabotulinumtoxinA, abobotulinumtoxinA), hyperhidrosis, chronic migraine prophylaxis, spasticity.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Receptor Subtypes</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>acetylcholine</td></tr>
-            <tr><td>Name</td><td>Acetylcholine</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
+            <tr><th>Receptor</th><th>Type / Coupling</th><th>Distribution</th><th>Primary Effect</th><th>Pharmacology</th></tr>
+            <tr>
+              <td><strong>nAChR α1₂β1γδ</strong></td>
+              <td>Ionotropic (Na⁺/K⁺ channel)</td>
+              <td>NMJ motor endplate</td>
+              <td>End-plate potential → muscle AP → contraction</td>
+              <td>Blocked by rocuronium/vecuronium (non-depol); activated by suxamethonium (depol block)</td>
+            </tr>
+            <tr>
+              <td><strong>nAChR α3β4</strong></td>
+              <td>Ionotropic</td>
+              <td>Autonomic ganglia (both SNS and PNS preganglionic)</td>
+              <td>Ganglionic transmission</td>
+              <td>Blocked by hexamethonium (historical ganglionic blockers)</td>
+            </tr>
+            <tr>
+              <td><strong>nAChR α7</strong></td>
+              <td>Ionotropic (high Ca²⁺ permeability)</td>
+              <td>CNS cortex, hippocampus, microglia</td>
+              <td>Cognition, LTP, neuroprotection, anti-inflammatory</td>
+              <td>Nicotine partial agonist; α7 NAMs investigated for Alzheimer's and schizophrenia</td>
+            </tr>
+            <tr>
+              <td><strong>M1 mAChR</strong></td>
+              <td>Gq → PLC → IP3/DAG → ↑Ca²⁺</td>
+              <td>CNS cortex, hippocampus, gastric parietal cells</td>
+              <td>Excitatory; ↑gastric HCl; learning and memory</td>
+              <td>Pirenzepine (M1-selective antagonist); xanomeline-trospium (M1/M4 PAM) for schizophrenia</td>
+            </tr>
+            <tr>
+              <td><strong>M2 mAChR</strong></td>
+              <td>Gi → ↓cAMP + Gβγ → GIRK (IKACh)</td>
+              <td>SA node, AV node, atrial myocardium</td>
+              <td>↓HR (negative chronotropy), ↓AV conduction (negative dromotropy)</td>
+              <td>Atropine (competitive antagonist) → ↑HR; used for bradycardia, heart block</td>
+            </tr>
+            <tr>
+              <td><strong>M3 mAChR</strong></td>
+              <td>Gq → PLC → IP3/DAG → ↑Ca²⁺</td>
+              <td>Smooth muscle (GI, bronchi, bladder, iris), exocrine glands</td>
+              <td>Contraction, secretion; bronchospasm; miosis; lacrimation</td>
+              <td>Ipratropium/tiotropium (inhaled M3 blockers) for COPD; oxybutynin for overactive bladder</td>
+            </tr>
+            <tr>
+              <td><strong>M4 mAChR</strong></td>
+              <td>Gi → ↓cAMP (presynaptic autoreceptor)</td>
+              <td>CNS striatum, prefrontal cortex</td>
+              <td>Inhibition of DA and ACh release; motor modulation</td>
+              <td>M4-selective PAMs under investigation for schizophrenia and substance use</td>
+            </tr>
+            <tr>
+              <td><strong>M5 mAChR</strong></td>
+              <td>Gq → PLC</td>
+              <td>Brain vasculature, VTA dopaminergic neurons</td>
+              <td>Cerebrovascular dilation; modulates dopamine reward circuit</td>
+              <td>No approved selective drugs; preclinical addiction research target</td>
+            </tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="neuron.html" title="ACh is primary neurotransmitter of motor neurons at NMJ and CNS cholinergic projections (basal forebrain→cortex/hippocampus); requires ChAT synthesis, VAChT packaging, Ca²⁺-triggered exocytosis, and AChE hydrolysis."><span class="rel">modulates</span>Neuron</a>
-            <a class="conn-pill" href="sa-node-cell.html" title="Vagal ACh activates M2 mAChR on SA node → Gi → ↓adenylyl cyclase → ↓cAMP → ↑IKACh (GIRK channels) → hyperpolarisation → ↓HR (negative chronotropy)."><span class="rel">modulates</span>Sa Node Cell</a>
-            <a class="conn-pill" href="synapse.html" title="ACh released at chemical synapses by exocytosis; AChE in synaptic cleft ensures brief signal duration (&lt;1 ms); nicotinic fast response vs muscarinic GPCR-mediated slow modulation."><span class="rel">modulates</span>Synapse</a>
-            <a class="conn-pill" href="nervous-system.html" title="ACh is the primary peripheral motor and autonomic preganglionic neurotransmitter; basal forebrain cholinergic neurons project to cortex/hippocampus regulating attention, REM sleep, and memory consolidation."><span class="rel">modulates</span>Nervous System</a>
+          <h3>Mechanism of Action — Key Pathway Diagrams</h3>
+          <div class="pathway-block">
+<pre>
+  NEUROMUSCULAR JUNCTION  (nAChR α1₂β1γδ — fast ionotropic)
+  ───────────────────────────────────────────────────────────
+  Motor neuron AP
+        │  Ca²⁺ (Cav2.1) → SNARE → ACh exocytosis (~10,000 ACh/quantum)
+        ▼
+  ACh binds 2 sites on nAChR pentamer
+        │  Pore opens → Na⁺ influx + K⁺ efflux → End-Plate Potential (EPP, ~+20 mV)
+        ▼
+  Voltage-gated Na⁺ channels (Nav1.4) → muscle AP propagates
+        │  SR Ca²⁺ release → troponin → cross-bridge cycling → contraction
+        ▼
+  AChE (ColQ isoform, anchored in synaptic cleft) cleaves ACh → &lt;1 ms off
+
+  CARDIAC SA NODE  (M2 mAChR — vagal slowing)
+  ────────────────────────────────────────────
+  Vagal nerve ACh
+        │
+        ▼
+  M2 mAChR (Gi) → ↓adenylyl cyclase → ↓cAMP
+        │          Gβγ → GIRK (Kir3.1/3.4) opens → IKACh K⁺ efflux
+        ▼
+  Pacemaker membrane hyperpolarises → slower diastolic depolarisation
+        │
+        ▼  ↓Heart rate (negative chronotropy) by 20–40 bpm
+
+  PARASYMPATHETIC EFFECTORS  (M3 mAChR — secretomotor)
+  ─────────────────────────────────────────────────────
+  Parasympathetic postganglionic ACh
+        │
+        ▼
+  M3 mAChR (Gq) → PLC-β → PIP2 → IP3 + DAG
+        │  IP3 → ER Ca²⁺ release → ↑[Ca²⁺]i
+        │  DAG + Ca²⁺ → PKC → MLCK → myosin phosphorylation
+        ▼  Smooth muscle contracts; gland secretion; pupil constricts (miosis)
+</pre>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Physiological Roles — Organ System Table</h3>
+          <table class="data-table">
+            <tr><th>System / Organ</th><th>ACh Role</th><th>Receptor</th><th>Net Effect</th></tr>
+            <tr>
+              <td><strong>Skeletal muscle (NMJ)</strong></td>
+              <td>Transmit motor commands from α-motor neuron to muscle fibre</td>
+              <td>nAChR α1₂β1γδ</td>
+              <td>Muscle contraction; all voluntary and respiratory movement</td>
+            </tr>
+            <tr>
+              <td><strong>Heart</strong></td>
+              <td>Vagal parasympathetic tone — opposes sympathetic</td>
+              <td>M2 mAChR</td>
+              <td>↓HR, ↓AV conduction velocity; slows pacemaker</td>
+            </tr>
+            <tr>
+              <td><strong>Lungs</strong></td>
+              <td>Bronchoconstriction and mucus secretion (parasympathetic dominant at rest)</td>
+              <td>M3 mAChR</td>
+              <td>Airway narrowing — countered by inhaled anticholinergics in COPD/asthma</td>
+            </tr>
+            <tr>
+              <td><strong>GI tract</strong></td>
+              <td>Peristalsis, sphincter tone, glandular secretion, gastric acid</td>
+              <td>M1 (parietal), M2/M3 (smooth muscle), ganglionic nAChR</td>
+              <td>↑Motility, ↑acid secretion; unopposed → cramps, diarrhoea</td>
+            </tr>
+            <tr>
+              <td><strong>Eye</strong></td>
+              <td>Pupil constriction (miosis), ciliary muscle contraction (near accommodation)</td>
+              <td>M3 mAChR</td>
+              <td>Miosis; near-focus; pilocarpine exploits this for glaucoma</td>
+            </tr>
+            <tr>
+              <td><strong>Bladder</strong></td>
+              <td>Detrusor muscle contraction → micturition reflex</td>
+              <td>M2/M3 mAChR</td>
+              <td>Voiding; overactivity blocked by oxybutynin, solifenacin</td>
+            </tr>
+            <tr>
+              <td><strong>CNS — basal forebrain</strong></td>
+              <td>Cortical arousal, attention, encoding of episodic memory, REM sleep</td>
+              <td>M1, nAChR α7 (cortex, hippocampus)</td>
+              <td>Nucleus basalis of Meynert → cortex; medial septum → hippocampus</td>
+            </tr>
+            <tr>
+              <td><strong>Adrenal medulla</strong></td>
+              <td>Preganglionic splanchnic nerve stimulation of chromaffin cells</td>
+              <td>nAChR α3β4</td>
+              <td>Epinephrine and norepinephrine secretion into bloodstream</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pharmacology — Key Drugs Targeting ACh System</h3>
+          <table class="data-table">
+            <tr><th>Drug / Class</th><th>Target</th><th>Mechanism</th><th>Primary Use</th></tr>
+            <tr>
+              <td><strong>Donepezil, Rivastigmine, Galantamine</strong></td>
+              <td>AChE (reversible inhibition)</td>
+              <td>↑Synaptic ACh by blocking hydrolysis; prolongs and amplifies cholinergic signalling</td>
+              <td>Alzheimer's disease (symptomatic benefit); also vascular dementia and DLB</td>
+            </tr>
+            <tr>
+              <td><strong>Pyridostigmine</strong></td>
+              <td>AChE (reversible, charged — poor CNS penetration)</td>
+              <td>↑NMJ ACh → improves NMJ transmission</td>
+              <td>Myasthenia gravis (symptomatic); nerve agent prophylaxis (military)</td>
+            </tr>
+            <tr>
+              <td><strong>Neostigmine / Edrophonium</strong></td>
+              <td>AChE (reversible)</td>
+              <td>Reverse NMJ blockade from non-depolarising NMBAs</td>
+              <td>Reversal of neuromuscular block after surgery; edrophonium (Tensilon) MG diagnosis</td>
+            </tr>
+            <tr>
+              <td><strong>Atropine</strong></td>
+              <td>mAChR non-selective competitive antagonist</td>
+              <td>Blocks all muscarinic effects → ↑HR, bronchodilation, ↓secretions, mydriasis, ↓GI motility</td>
+              <td>Bradycardia, organophosphate antidote (must precede pralidoxime), anaesthetic premedication</td>
+            </tr>
+            <tr>
+              <td><strong>Ipratropium / Tiotropium</strong></td>
+              <td>M3 mAChR (inhaled anticholinergics)</td>
+              <td>Block bronchial smooth muscle M3 → bronchodilation without systemic anticholinergic effects</td>
+              <td>COPD (tiotropium LAMA first-line); acute severe asthma (ipratropium adjunct)</td>
+            </tr>
+            <tr>
+              <td><strong>Rocuronium / Vecuronium / Cisatracurium</strong></td>
+              <td>nAChR α1₂β1γδ (competitive antagonists)</td>
+              <td>Block NMJ → flaccid paralysis; reversed by neostigmine + glycopyrrolate or sugammadex</td>
+              <td>Surgical muscle relaxation during general anaesthesia</td>
+            </tr>
+            <tr>
+              <td><strong>Suxamethonium (succinylcholine)</strong></td>
+              <td>nAChR (depolarising agonist)</td>
+              <td>Persistent depolarisation → phase-II block; ultra-short action (plasma BChE)</td>
+              <td>Rapid-sequence intubation (RSI); laryngospasm; electroconvulsive therapy</td>
+            </tr>
+            <tr>
+              <td><strong>Pralidoxime (2-PAM)</strong></td>
+              <td>AChE (reactivation)</td>
+              <td>Oxime nucleophile attacks phosphorylated Ser203 → regenerates AChE before "ageing"</td>
+              <td>Organophosphate / nerve agent poisoning (must give within hours before irreversible ageing)</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>ACh Perturbation</th><th>Mechanism</th><th>Clinical Features &amp; Treatment</th></tr>
+            <tr>
+              <td><strong>Myasthenia Gravis (MG)</strong></td>
+              <td>↓Functional NMJ nAChR</td>
+              <td>Anti-AChR antibodies (~85%; accelerate receptor internalisation, fix complement) or anti-MuSK antibodies (~10%; disrupt agrin/rapsyn clustering)</td>
+              <td>Fatigable ptosis, diplopia, bulbar palsy, respiratory crisis; Tensilon test; tx: pyridostigmine, thymectomy, prednisolone/azathioprine, IVIG, efgartigimod (FcRn antagonist), eculizumab</td>
+            </tr>
+            <tr>
+              <td><strong>Lambert-Eaton Myasthenic Syndrome</strong></td>
+              <td>↓Presynaptic Ca²⁺ → ↓ACh exocytosis</td>
+              <td>Anti-Cav2.1 (P/Q-type VGCC) antibodies → ↓active zone Ca²⁺ influx; paraneoplastic (SCLC ~60%)</td>
+              <td>Proximal weakness, improves with repetitive stimulation (unique EMG); tx: 3,4-diaminopyridine (DAP), immunotherapy, tumour treatment</td>
+            </tr>
+            <tr>
+              <td><strong>Alzheimer's Disease</strong></td>
+              <td>↓Cortical/hippocampal ACh (cholinergic hypothesis)</td>
+              <td>Selective degeneration of nucleus basalis of Meynert cholinergic neurons → ↓cortical ACh → impaired attention and memory encoding</td>
+              <td>Progressive amnestic dementia; AChEi (donepezil, rivastigmine, galantamine) ± memantine (NMDA antagonist) — symptomatic benefit; amyloid/tau-targeting therapies (lecanemab) emerging</td>
+            </tr>
+            <tr>
+              <td><strong>Organophosphate / Nerve Agent Poisoning</strong></td>
+              <td>ACh accumulation — cholinergic crisis</td>
+              <td>Irreversible AChE phosphorylation (parathion, sarin, VX → Ser203-phosphate) → ACh overflow at all cholinergic synapses</td>
+              <td>SLUDGE (muscarinic: salivation, lacrimation, urination, defecation, GI distress, emesis) + bradycardia, miosis, bronchospasm; nicotinic: fasciculations, weakness, paralysis; tx: atropine (large doses, titrate secretions dry) + pralidoxime (2-PAM)</td>
+            </tr>
+            <tr>
+              <td><strong>Congenital Myasthenic Syndromes</strong></td>
+              <td>Genetic ACh pathway defects</td>
+              <td>Mutations in CHT1, ChAT, AChE (ColQ), VAChT, or nAChR subunits</td>
+              <td>Variable NMJ dysfunction from birth; ChAT mutations → episodic apnoea; AChE deficiency → paradoxical worsening with AChEi</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Clinical key:</strong> SLUDGE = muscarinic excess (M1–M3). Fasciculations + paralysis = nicotinic (NMJ) excess. Treatment sequence in organophosphate poisoning: (1) remove from exposure, (2) <strong>atropine IV</strong> titrated until secretions dry — may require massive doses (10s to 100s of mg), (3) <strong>pralidoxime (2-PAM)</strong> within hours to reactivate AChE before irreversible "ageing" of the phosphorylated enzyme occurs.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="nervous-system.html" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Nervous System
+            </a>
+            <a href="sa-node-cell.html" class="conn-pill acts">
+              <span class="rel">Slows</span>
+              SA Node (M2)
+            </a>
+            <a href="synapse.html" class="conn-pill acts">
+              <span class="rel">Transmits at</span>
+              Synapse
+            </a>
+            <a href="dopamine.html" class="conn-pill acts">
+              <span class="rel">Co-modulates with</span>
+              Dopamine
+            </a>
+            <a href="serotonin.html" class="conn-pill acts">
+              <span class="rel">Parallel to</span>
+              Serotonin
+            </a>
+            <a href="norepinephrine.html" class="conn-pill targets">
+              <span class="rel">Triggers release of</span>
+              Norepinephrine (adrenal)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. <a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X">Macmillan Learning</a></li>
+            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/">NCBI Bookshelf</a></li>
+            <li>Lindstrom JM. Acetylcholine receptors and myasthenia. <em>Muscle Nerve.</em> 2000;23(4):453-477. <a href="https://pubmed.ncbi.nlm.nih.gov/10716753/">PubMed 10716753</a></li>
+            <li>Soreq H, Seidman S. Acetylcholinesterase — new roles for an old actor. <em>Nat Rev Neurosci.</em> 2001;2(4):294-302. <a href="https://doi.org/10.1038/35067589">doi:10.1038/35067589</a></li>
+            <li>Giacobini E. Cholinesterase inhibitors: new roles and therapeutic alternatives. <em>Pharmacol Res.</em> 2004;50(4):433-440. <a href="https://doi.org/10.1016/j.phrs.2003.11.017">doi:10.1016/j.phrs.2003.11.017</a></li>
+            <li>Bhakta M, Foster NL. Cholinergic treatment in Alzheimer disease. <em>Curr Alzheimer Res.</em> 2022. Evidence base for AChEi in AD.</li>
           </ul>
         </div>
 
@@ -182,17 +487,20 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="dopamine.html">Dopamine</a>
+      <a href="serotonin.html">Serotonin</a>
+      <a href="gaba.html">GABA</a>
+      <a href="glutamate.html">Glutamate</a>
+      <a href="norepinephrine.html">Norepinephrine</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());</script>
 </body>
 </html>

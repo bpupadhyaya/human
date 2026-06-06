@@ -3,201 +3,224 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Heterotrimeric calcium switch on the thin filament — TnC binds Ca²⁺, TnI inhibits actomyosin in its absence, TnT anchors the complex to tropomyosin. The molecul">
-  <meta property="og:title" content="Troponin complex — Human Engineering">
+  <meta name="description" content="Troponin complex (TnC/TnI/TnT) — cardiac calcium switch on the thin filament, troponin assay for MI, HCM mutations, PKA phosphorylation. Human Engineering Atlas.">
+  <meta property="og:title" content="Troponin Complex — Human Engineering Atlas">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Troponin complex — Human Engineering</title>
+  <title>Troponin Complex — Human Engineering</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff0f0 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    td code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em;background:var(--bg-3);padding:.1em .4em;border-radius:4px}
+    .pathway-block{background:#0f1a14;color:#a8f0c8;border-radius:var(--radius);padding:1.25rem 1.5rem;font-family:ui-monospace,SFMono-Regular,Menlo,"Courier New",monospace;font-size:.82rem;line-height:1.9;overflow-x:auto;margin:1rem 0}
+    .pathway-block .c{color:#4a7a5e}.pathway-block .hi{color:#ffb86b;font-weight:700}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
   </style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>Troponin complex</h1>
-    <p class="tagline">Heterotrimeric calcium switch on the thin filament — TnC binds Ca²⁺, TnI inhibits actomyosin in its absence, TnT anchors the complex to tropomyosin. The molecular gate of every heartbeat.</p>
-    <p class="aliases">Also known as: cardiac troponin, Tn complex, TnC-TnI-TnT</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cardiomyocyte.html">Cardiomyocyte</a>
+      <a href="ryr2.html">RyR2</a>
+      <a href="serca2a.html">SERCA2a</a>
     </div>
   </div>
+</nav>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Atlas One · Human · Molecular · TnC · TnI · TnT</p>
+    <h1>Troponin <span>Complex</span></h1>
+    <p class="hero-lead">The heterotrimeric Ca²⁺ switch on the cardiac thin filament — TnC binds Ca²⁺ and transduces the signal; TnI inhibits actomyosin in the absence of Ca²⁺; TnT anchors the trimer to tropomyosin. Together they translate the cytosolic Ca²⁺ transient into the on/off state of the thin filament, gating every heartbeat. Cardiac-specific TnI and TnT isoforms are the diagnostic biomarkers of acute myocardial infarction.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span><strong>Genes:</strong> TNNC1, TNNI3, TNNT2</span>
+  <span><strong>UniProt:</strong> P63316 (TnC), P19429 (TnI), P45379 (TnT)</span>
+  <span><strong>Aliases:</strong> cardiac troponin, Tn complex, TnC-TnI-TnT</span>
+  <span><strong>Scale:</strong> 03-Molecular</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="overview">
+    <h2>Overview</h2>
+    <p>The troponin complex is a <strong>three-subunit Ca²⁺ switch</strong> on the thin filament of striated muscle. In the absence of Ca²⁺, it holds tropomyosin over the myosin-binding sites on actin — the muscle is <strong>off</strong>. When cytosolic Ca²⁺ rises and binds TnC, the entire complex undergoes a conformational shift that exposes those binding sites — the muscle is <strong>on</strong>. Every heartbeat is one cycle of this switch, repeated synchronously in every sarcomere of every cardiomyocyte.</p>
+    <p>The three subunits are named for their roles: <strong>TnC</strong> (Ca²⁺-binding), <strong>TnI</strong> (inhibitory), and <strong>TnT</strong> (tropomyosin-binding). The cardiac isoforms (TNNC1, TNNI3, TNNT2) are expressed exclusively or predominantly in cardiac muscle — this tissue specificity is the basis for the serum cardiac troponin assay for acute MI diagnosis.</p>
+    <div class="callout"><strong>The troponin assay:</strong> Cardiac TnI (cTnI) and cardiac TnT (cTnT) are released into the bloodstream when cardiomyocytes die. High-sensitivity cardiac troponin assays detect rises within 1–3 hours of ischemic onset, with specificity close to 99% for myocardial injury. This is the cornerstone of the Fourth Universal Definition of Myocardial Infarction (ESC/ACC/AHA/WHF 2018).</div>
+  </div>
+
+  <div class="section" id="structure">
+    <h2>Structure</h2>
+    <h3>The Trimer</h3>
+    <p>Each troponin complex is <strong>one TnC + one TnI + one TnT</strong>, sitting on the thin filament approximately every <strong>seven actin monomers</strong>, alongside one tropomyosin dimer. The thin filament presents a regularly repeating regulatory unit along its length.</p>
+    <table>
+      <thead><tr><th>Subunit</th><th>Mass</th><th>Gene</th><th>Function</th></tr></thead>
+      <tbody>
+        <tr><td><strong>TnC</strong></td><td>~18 kDa</td><td><code>TNNC1</code></td><td>Ca²⁺ sensor (EF-hand protein); transduces Ca²⁺ binding into conformational change that releases TnI from actin</td></tr>
+        <tr><td><strong>TnI</strong></td><td>~24 kDa</td><td><code>TNNI3</code></td><td>Inhibitory subunit; holds tropomyosin in blocked position in absence of Ca²⁺; releases when TnC is Ca²⁺-loaded; unique N-terminal extension (30 aa) with PKA phosphorylation sites Ser23/24</td></tr>
+        <tr><td><strong>TnT</strong></td><td>~37 kDa</td><td><code>TNNT2</code></td><td>Structural anchor; TnT1 (N-terminal) binds tropomyosin; TnT2 (C-terminal) organizes TnI and TnC; stiffens tropomyosin–actin interaction and enables cooperative thin-filament activation</td></tr>
+      </tbody>
+    </table>
+
+    <h3>TnC — the Calcium Sensor</h3>
+    <p>TnC is an EF-hand Ca²⁺-binding protein with four EF-hand domains. In the <strong>cardiac isoform</strong>, site I is non-functional (evolutionary amino acid substitution eliminates Ca²⁺ coordination). Only sites II, III, and IV bind Ca²⁺:</p>
+    <ul>
+      <li><strong>Site II</strong> — the <em>low-affinity regulatory site</em> in the N-terminal lobe (Kd ~2–5 µM). This is the calcium switch that gates contraction. Ca²⁺ binding here in systole (peak ~1 µM) is the trigger for all downstream conformational events.</li>
+      <li><strong>Sites III and IV</strong> — high-affinity structural sites in the C-terminal lobe, occupied by Mg²⁺ at rest; exchange Ca²⁺ slowly; structural role anchoring TnC to TnI.</li>
+    </ul>
+
+    <h3>TnI — the Inhibitory Subunit</h3>
+    <p>Cardiac TnI has a unique N-terminal extension (~30 aa) absent from skeletal isoforms, containing <strong>Ser23 and Ser24</strong> — the PKA phosphorylation sites linking β-adrenergic signaling to myofilament Ca²⁺ sensitivity. The C-terminal half contains the inhibitory peptide (engages actin in off state) and the switch peptide (captured by TnC hydrophobic patch in on state).</p>
+  </div>
+
+  <div class="section" id="mechanism">
+    <h2>Mechanism</h2>
+    <h3>Ca²⁺-Triggered Thin-Filament Activation</h3>
+    <div class="pathway-block">
+<span class="c">── Troponin complex — Ca²⁺ switch mechanism ──────────────</span>
+
+DIASTOLE ([Ca²⁺]i ~100 nM — OFF state):
+  <span class="hi">TnC</span> site II: EMPTY
+  <span class="hi">TnI</span> inhibitory peptide: bound to ACTIN → holds it still
+  TnI switch peptide: NOT captured by TnC
+  Tropomyosin: BLOCKED position (over myosin-binding sites on actin)
+  → No cross-bridge formation. No force.
+
+SYSTOLE ([Ca²⁺]i rises to ~1 µM — ON state):
+  ↓
+  <span class="hi">TnC</span> site II binds Ca²⁺
+  → Hydrophobic patch opens in TnC N-terminal lobe
+  → Hydrophobic patch captures <span class="hi">TnI switch peptide</span>
+  → <span class="hi">TnI inhibitory peptide releases from actin</span>
+  → Tropomyosin slides azimuthally: BLOCKED → CLOSED → OPEN
+  ↓
+  Myosin heads can now bind actin (cross-bridge formation)
+  ATP hydrolysis → power stroke → thin filament pulled inward
+  → Sarcomere shortening → cell contraction
+
+RELAXATION (Ca²⁺ falls — return to OFF state):
+  <span class="hi">SERCA2a</span> (~70%) + <span class="hi">NCX1</span> (~28%) remove Ca²⁺
+  TnC site II releases Ca²⁺
+  TnC hydrophobic patch closes → releases TnI switch peptide
+  TnI inhibitory peptide re-engages actin
+  Tropomyosin returns to blocked position
+  Cross-bridges detach → relaxation
+
+<span class="c">β-AR MODULATION — PKA phosphorylates TnI Ser23/24:</span>
+  Phospho-TnI has LOWER affinity for Ca²⁺ at TnC site II
+  → TnI-actin interaction releases Ca²⁺ sooner (faster TnI release)
+  → FASTER relaxation (lusitropy)
+  → Matched with PLN Ser16-P (faster SERCA2a) for high-HR performance
     </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">troponin-complex</div>
-        <h2>Troponin complex</h2>
-        <p class="summary">Heterotrimeric calcium switch on the thin filament — TnC binds Ca²⁺, TnI inhibits actomyosin in its absence, TnT anchors the complex to tropomyosin. The molecular gate of every heartbeat.</p>
-      </div>
-      <div class="detail-body">
+    <h3>Ca²⁺ Response of the Thin Filament</h3>
+    <table>
+      <thead><tr><th>Time point</th><th>[Ca²⁺]i</th><th>Troponin state</th><th>Filament state</th></tr></thead>
+      <tbody>
+        <tr><td>Diastole</td><td>~100 nM</td><td>Site II empty</td><td>OFF — tropomyosin blocking</td></tr>
+        <tr><td>Systole peak</td><td>~1 µM</td><td>Site II saturated</td><td>ON — myosin can bind</td></tr>
+        <tr><td>Late systole / early diastole</td><td>Falling</td><td>Site II releasing</td><td>OFF — relaxation</td></tr>
+      </tbody>
+    </table>
+    <p>The Hill coefficient for thin-filament Ca²⁺ sensitivity is ~3–5 in cardiac muscle — highly cooperative. This means a twofold change in Ca²⁺ transient amplitude can produce a several-fold change in developed force, giving the heart enormous dynamic range over Ca²⁺ concentrations.</p>
+  </div>
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>troponin-complex</td></tr>
-            <tr><td>Name</td><td>Troponin complex</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-            <tr><td>Uniprot</td><td>P63316,P19429,P45379</td></tr>
-            <tr><td>Gene Symbol</td><td>TNNC1,TNNI3,TNNT2</td></tr>
-          </table>
-        </div>
+  <div class="section" id="pharmacology">
+    <h2>Pharmacology &amp; Drug Targets</h2>
+    <table>
+      <thead><tr><th>Drug</th><th>Troponin/thin-filament mechanism</th><th>Indication</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Mavacamten (MyoKardia)</strong></td><td>Cardiac myosin inhibitor (thick filament); reduces number of actin-accessible cross-bridges → less force per Ca²⁺ signal → effective negative inotropy. Works downstream of troponin complex activation.</td><td>Symptomatic obstructive HCM; FDA-approved 2022</td></tr>
+        <tr><td><strong>Omecamtiv mecarbil</strong></td><td>Cardiac myosin activator; increases the fraction of myosin in force-producing state per Ca²⁺ signal. Works downstream of troponin activation.</td><td>HFrEF (GALACTIC-HF: modest benefit in severe HF subgroup)</td></tr>
+        <tr><td><strong>Levosimendan</strong></td><td>Directly binds TnC and stabilizes the Ca²⁺-bound conformation; positive inotropy without increasing [Ca²⁺]i. Also phosphodiesterase inhibitor and K-ATP channel opener.</td><td>Acute decompensated heart failure (widely used in Europe; limited US approval)</td></tr>
+        <tr><td><strong>Cardiac TnI Ser23/24 (endogenous PKA target)</strong></td><td>Reduced myofilament Ca²⁺ sensitivity → faster relaxation; the β-adrenergic lusitropic mechanism</td><td>Not a drug target per se; mechanistic basis of β-agonist lusitropic effect</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="cardiomyocyte.html" title="Cardiac troponin isoforms (TnC TNNC1, TnI TNNI3, TnT TNNT2) are expressed by cardiomyocytes and assembled onto every thin filament."><span class="rel">expressed-by</span>Cardiomyocyte</a>
-            <a class="conn-pill" href="calcium.html" title="Ca²⁺ binding to the EF-hand of TnC (site II, low-affinity regulatory site) is the trigger that gates every heartbeat."><span class="rel">modulated-by</span>Calcium</a>
-            <a class="conn-pill" href="electron.html" title="Electron configuration and electrostatics govern the Ca²⁺–EF-hand coordination chemistry and the phosphoanhydride energy that drives SERCA Ca²⁺ reuptake."><span class="rel">modulated-by</span>Electron</a>
-          </div>
-        </div>
+  <div class="section" id="pathology">
+    <h2>Pathology</h2>
+    <table>
+      <thead><tr><th>Disease</th><th>Mechanism</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Acute myocardial infarction</strong></td><td>Cardiomyocyte necrosis releases cTnI and cTnT into circulation. High-sensitivity assays detect rises within 1–3 hours. Basis of the Fourth Universal Definition of MI. Serial troponin measurement (0h/3h/6h protocol) is standard of care in ACS workup.</td></tr>
+        <tr><td><strong>Hypertrophic cardiomyopathy (HCM)</strong></td><td>Mutations in <code>TNNT2</code> and <code>TNNI3</code> (and sarcomeric genes: MYH7, MYBPC3) destabilize the complex, often increasing myofilament Ca²⁺ sensitivity → hypercontractility → hypertrophy, myocyte disarray, interstitial fibrosis, VT risk. Most TNNT2 mutations produce severe hypertrophy with high SCD risk despite modest hypertrophy.</td></tr>
+        <tr><td><strong>Dilated cardiomyopathy (DCM)</strong></td><td>Some <code>TNNT2</code> and <code>TNNI3</code> mutations cause decreased force generation and cooperative activation → chamber dilation, reduced EF. Distinct from HCM mutations that increase Ca²⁺ sensitivity.</td></tr>
+        <tr><td><strong>Restrictive cardiomyopathy (RCM)</strong></td><td>Rare <code>TNNI3</code> mutations produce restrictive physiology with near-normal chamber size; difficult to distinguish from constrictive pericarditis clinically.</td></tr>
+        <tr><td><strong>Cardiac troponin in non-ischemic causes</strong></td><td>Elevated troponin is not specific to MI — also seen in myocarditis, PE, sepsis, hypertensive emergency, cardiac contusion, chronic kidney disease. The clinical context determines diagnosis (Type 1 vs. Type 2 MI vs. acute non-ischemic myocardial injury per 4th Universal Definition).</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy &amp; Physiology 2e, Ch. 19.2: Cardiac Muscle and Electrical Activity.</a></li>
-            <li><a href="https://doi.org/10.1038/415198a" target="_blank" rel="noopener noreferrer">Bers DM. Cardiac excitation-contraction coupling. Nature. 2002;415(6868):198-205.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11805843/" target="_blank" rel="noopener noreferrer">PubMed 11805843</a></li>
-            <li><a href="https://www.uniprot.org/uniprotkb/P63316/entry" target="_blank" rel="noopener noreferrer">UniProt P63316 — Troponin C, slow skeletal and cardiac muscles (TNNC1, human).</a></li>
-            <li><a href="https://www.uniprot.org/uniprotkb/P19429/entry" target="_blank" rel="noopener noreferrer">UniProt P19429 — Troponin I, cardiac muscle (TNNI3, human).</a></li>
-            <li><a href="https://www.uniprot.org/uniprotkb/P45379/entry" target="_blank" rel="noopener noreferrer">UniProt P45379 — Troponin T, cardiac muscle (TNNT2, human).</a></li>
-            <li><a href="https://doi.org/10.1016/j.jacc.2018.08.1038" target="_blank" rel="noopener noreferrer">Thygesen K, Alpert JS, Jaffe AS, et al. Fourth Universal Definition of Myocardial Infarction (2018). J Am Coll Cardiol. 2018;72(18):2231-64.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30153967/" target="_blank" rel="noopener noreferrer">PubMed 30153967</a></li>
-          </ul>
-        </div>
+  <div class="section" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">expressed-by</span><span><a href="cardiomyocyte.html">Cardiomyocyte</a> — cardiac isoforms TnC (TNNC1), TnI (TNNI3), TnT (TNNT2) are assembled onto every thin filament in every sarcomere</span></li>
+      <li><span class="conn-rel">part-of</span><span><a href="myocardium.html">Myocardium</a> — the troponin complex is the Ca²⁺ switch embedded in the contractile apparatus of the myocardium</span></li>
+      <li><span class="conn-rel">activated-by</span><span>Cytosolic Ca²⁺ — the ~100 nM → ~1 µM Ca²⁺ transient during systole gates TnC site II; CICR via <a href="ryr2.html">RyR2</a> provides ~75% of this Ca²⁺</span></li>
+      <li><span class="conn-rel">modulated-by</span><span>β1-adrenergic receptor → PKA → TnI Ser23/24 phosphorylation → reduced myofilament Ca²⁺ sensitivity → faster relaxation (lusitropy)</span></li>
+      <li><span class="conn-rel">biomarker-for</span><span>Acute myocardial infarction — cardiac cTnI (TNNI3) and cTnT (TNNT2) are released into blood upon cardiomyocyte necrosis; high-sensitivity assays are standard diagnostic tools</span></li>
+    </ul>
+  </div>
 
-      </div>
-    </div>
-  </main>
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>Bers DM. <a href="https://doi.org/10.1038/415198a" target="_blank" rel="noopener">Cardiac excitation-contraction coupling.</a> <em>Nature.</em> 2002;415(6868):198–205. PubMed 11805843.</li>
+      <li>Thygesen K, Alpert JS, Jaffe AS, et al. <a href="https://doi.org/10.1016/j.jacc.2018.08.1038" target="_blank" rel="noopener">Fourth Universal Definition of Myocardial Infarction (2018).</a> <em>J Am Coll Cardiol.</em> 2018;72(18):2231–64. PubMed 30153967.</li>
+      <li>OpenStax. <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity" target="_blank" rel="noopener">Anatomy &amp; Physiology 2e, Ch. 19.2: Cardiac Muscle and Electrical Activity.</a></li>
+      <li>UniProt P63316 — Troponin C, cardiac (TNNC1). <a href="https://www.uniprot.org/uniprotkb/P63316/entry" target="_blank" rel="noopener">uniprot.org →</a></li>
+      <li>UniProt P19429 — Troponin I, cardiac (TNNI3). <a href="https://www.uniprot.org/uniprotkb/P19429/entry" target="_blank" rel="noopener">uniprot.org →</a></li>
+      <li>UniProt P45379 — Troponin T, cardiac (TNNT2). <a href="https://www.uniprot.org/uniprotkb/P45379/entry" target="_blank" rel="noopener">uniprot.org →</a></li>
+    </ol>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+</div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<footer>
+  <p><a href="index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> · bpupadhyaya@gmail.com</p>
+  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</p>
+</footer>
 </body>
 </html>

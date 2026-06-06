@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Network of glands releasing hormones into blood to regulate metabolism, growth, reproduction, stress, and water balance. Integrates nervous and immune systems v">
+  <meta name="description" content="Endocrine System — distributed glands releasing hormones to regulate metabolism, growth, reproduction, and stress via HPA, HPT, and HPG axes. Scale 07 of the Human Atlas. Part of the Human Engineering project.">
   <meta property="og:title" content="Endocrine System — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Endocrine System — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #d97706;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,52 +32,50 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(217,119,6,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #d97706, #92400e); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
@@ -108,6 +99,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,61 +111,168 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 07 &mdash; System</div>
     <h1>Endocrine System</h1>
-    <p class="tagline">Network of glands releasing hormones into blood to regulate metabolism, growth, reproduction, stress, and water balance. Integrates nervous and immune systems via hypothalamic-pituitary axes (HPA, HPT, HPG). Encompasses peptide, steroid, and tyrosine-derived hormone classes.</p>
-    <p class="aliases">Also known as: hormonal system, endocrine glands, HPA axis, HPT axis, HPG axis</p>
+    <p class="tagline">The body's long-range chemical communication network — distributed glands synthesising peptide, steroid, and tyrosine-derived hormones that regulate metabolism, growth, reproduction, stress, and water balance via three master axes: HPA, HPT, and HPG.</p>
+    <p class="subtagline">Integrates the nervous and immune systems through the hypothalamic neuroendocrine interface. Diabetes mellitus, thyroid disorders, and adrenal disease are among the most prevalent conditions in clinical medicine.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Hormones</span></div>
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Master axes (HPA/HPT/HPG)</span></div>
+      <div class="stat"><span class="stat-num">~500M</span><span class="stat-label">Adults with diabetes</span></div>
+      <div class="stat"><span class="stat-num">~5%</span><span class="stat-label">Adults hypothyroid</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">endocrine-system</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0000949 &middot; Atlas One / Scale 07</div>
         <h2>Endocrine System</h2>
-        <p class="summary">Network of glands releasing hormones into blood to regulate metabolism, growth, reproduction, stress, and water balance. Integrates nervous and immune systems via hypothalamic-pituitary axes (HPA, HPT, HPG). Encompasses peptide, steroid, and tyrosine-derived hormone classes.</p>
+        <p class="summary">The endocrine system is the body's distributed long-range chemical signalling network — specialised secretory cells, tissues, and glands releasing hormones into blood to regulate distant target organs. It encompasses peptide hormones (insulin, GH, PTH, ADH, glucagon), steroid hormones (cortisol, aldosterone, sex steroids, calcitriol), and tyrosine-derived hormones (thyroid hormones, catecholamines). Three master neuroendocrine axes — HPA (cortisol/stress), HPT (thyroid/metabolism), and HPG (sex steroids/reproduction) — are governed by the hypothalamus via portal blood to the anterior pituitary. The endocrine system is deeply integrated with the nervous system, immune system, and cardiovascular/renal systems.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>Endocrine signalling differs from nervous system signalling in three key ways: <strong>blood-borne</strong> (systemic reach vs. point-to-point), <strong>slow onset and prolonged duration</strong> (minutes to hours vs. milliseconds), and <strong>diverse targets</strong> (every cell type with the relevant receptor, not a single post-synaptic cell). This makes hormones ideal regulators of long-term adaptive processes — growth, reproduction, metabolic set point, and stress responsiveness — rather than moment-to-moment reflexes.</p>
+          <p>The endocrine system does not operate in isolation. The <strong>hypothalamus</strong> is simultaneously a brain region and the neuroendocrine master controller — receiving cortical, limbic, brainstem, retinal, and peripheral sensor inputs and translating them into trophic hormone pulses to the anterior pituitary. The <strong>immune system</strong> is regulated by cortisol (HPA axis) and sex steroids, while cytokines (IL-1β, IL-6) activate the HPA axis. The <strong>cardiovascular and renal systems</strong> are governed by aldosterone (RAAS), ANP/BNP (heart), ADH (posterior pituitary), and EPO (kidney).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Endocrine Components</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>endocrine-system</td></tr>
-            <tr><td>Name</td><td>Endocrine System</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>07-system</td></tr>
+            <tr><th>Gland / Tissue</th><th>Key hormones</th><th>Primary regulated process</th></tr>
+            <tr><td><strong>Hypothalamus</strong></td><td>CRH, TRH, GnRH, GHRH, somatostatin, dopamine, ADH/AVP, oxytocin</td><td>Neuroendocrine master controller; parvocellular → portal blood; magnocellular → posterior pituitary</td></tr>
+            <tr><td><strong>Anterior pituitary</strong></td><td>GH (50%), ACTH (20%), prolactin (15%), LH/FSH (10%), TSH (5%)</td><td>Drives all four peripheral endocrine axes (adrenal, thyroid, gonadal, growth); IGF-1 via GH/liver</td></tr>
+            <tr><td><strong>Posterior pituitary</strong></td><td>ADH/AVP, oxytocin</td><td>Water reabsorption (V2R → AQP2), vasoconstriction (V1aR), uterine contraction, milk ejection, bonding</td></tr>
+            <tr><td><strong>Thyroid gland</strong></td><td>T3, T4, calcitonin</td><td>Basal metabolic rate, cardiac output, CNS myelination, thermogenesis, bone turnover</td></tr>
+            <tr><td><strong>Parathyroid glands (×4)</strong></td><td>PTH</td><td>Serum Ca²⁺ (↑bone resorption, ↑renal Ca²⁺, ↑calcitriol synthesis)</td></tr>
+            <tr><td><strong>Adrenal cortex</strong></td><td>Aldosterone (ZG), cortisol (ZF), DHEA/DHEAS (ZR)</td><td>Na⁺/K⁺ balance, gluconeogenesis/stress/immunity, adrenarche/sex steroids</td></tr>
+            <tr><td><strong>Adrenal medulla</strong></td><td>Epinephrine (~80%), norepinephrine (~20%)</td><td>Acute stress (fight-or-flight): ↑HR, ↑CO, ↑glycogenolysis, ↑lipolysis, ↑alertness</td></tr>
+            <tr><td><strong>Pancreatic islets</strong></td><td>Insulin (β), glucagon (α), somatostatin (δ), PP (γ), ghrelin (ε)</td><td>Glucose homeostasis (insulin ↓ glucose; glucagon ↑ glucose; GLP-1 incretin)</td></tr>
+            <tr><td><strong>Gonads</strong></td><td>Testosterone (Leydig cells), oestradiol + progesterone (granulosa/CL)</td><td>Reproduction, secondary sexual characteristics, bone density, anabolism, CVD risk</td></tr>
+            <tr><td><strong>Other sources</strong></td><td>Leptin (adipose), ANP/BNP (heart), EPO + calcitriol + renin (kidney), GLP-1/GIP (GI), IGF-1 (liver), melatonin (pineal)</td><td>Distributed endocrine — energy balance, volume regulation, erythropoiesis, Ca²⁺, circadian timing</td></tr>
           </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Hormone Chemistry and Receptor Mechanisms</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Peptide / protein hormones</h4>
+              <p>Water-soluble; membrane receptors (GPCRs → cAMP or IP₃/Ca²⁺; RTKs → PI3K/Akt; cytokine receptors → JAK/STAT). Rapid onset (seconds–minutes). Examples: insulin, GH, PTH, LH, FSH, glucagon, prolactin, ACTH, ADH, oxytocin, GLP-1, leptin.</p>
+            </div>
+            <div class="info-block">
+              <h4>Steroid hormones</h4>
+              <p>Lipophilic; freely cross membranes; nuclear/cytoplasmic receptors (NR superfamily: GR, MR, AR, ERα/β, PR, VDR). Slow onset (hours–days), genomic + rapid non-genomic signalling. Examples: cortisol, aldosterone, testosterone, oestradiol, progesterone, calcitriol.</p>
+            </div>
+            <div class="info-block">
+              <h4>Tyrosine-derived hormones</h4>
+              <p>Two subtypes: (1) Catecholamines (dopamine, NE, Epi) — water-soluble, membrane α/β-adrenergic GPCRs; (2) Thyroid hormones (T3/T4 — lipophilic, nuclear TRα/TRβ receptors → major genomic effects on BMR, cardiac function, myelination).</p>
+            </div>
+            <div class="info-block">
+              <h4>Feedback regulation</h4>
+              <p>Most axes operate under negative feedback (HPA: cortisol → ↓CRH/ACTH; HPT: T3 → ↓TSH/TRH; RAAS: ↑BP → ↓renin; Ca²⁺: ↑Ca²⁺ → ↓PTH). Exception: positive feedback — mid-cycle oestradiol surge → LH surge (ovulation); Ferguson reflex (oxytocin + cervical stretch → labour).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Metabolic Coordination — Fed and Fasted States</h3>
+          <div class="circuit-diagram">
+<pre>
+  FED STATE (post-prandial)
+  ↑blood glucose → ↑insulin (β-cells) + GLP-1 (L-cells, ileum)
+  Insulin effects:
+    ↑GLUT4 in muscle + adipose (glucose uptake)
+    ↑glycogen synthesis (muscle + liver)
+    ↓hepatic gluconeogenesis
+    ↑lipogenesis (adipose), ↓lipolysis
+    ↑protein synthesis
+  → blood glucose normalised
+
+  FASTED STATE (>4h post-meal)
+  ↓blood glucose → ↓insulin, ↑glucagon (α-cells)
+  Glucagon effects:
+    ↑hepatic glycogenolysis (PKA → phosphorylase kinase)
+    ↑gluconeogenesis (↑PEPCK, ↑FBPase)
+    ↑lipolysis (PKA → HSL) → ↑FFA → β-oxidation → ketones
+  After 12–16 h: GH + cortisol amplify lipolysis +
+  gluconeogenesis
+
+  STRESS RESPONSE
+  CRH → ACTH → cortisol + sympathetic → epinephrine
+  → ↑blood glucose + ↑CO + ↑bronchodilation +
+    ↑alertness + ↑pain threshold (fight-or-flight +
+    HPA co-activation)
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Regulatory Mechanisms</h3>
+          <p>The endocrine system uses multiple regulatory strategies beyond simple negative feedback:</p>
+          <table class="data-table">
+            <tr><th>Mechanism</th><th>Example</th></tr>
+            <tr><td><strong>Negative feedback</strong></td><td>HPA axis: cortisol → ↓CRH (hypothalamus) + ↓ACTH (pituitary). HPT axis: T3 → ↓TSH + ↓TRH. RAAS: ↑BP → ↓renin. Ca²⁺: ↑Ca²⁺ → CaSR → ↓PTH.</td></tr>
+            <tr><td><strong>Positive feedback</strong></td><td>Mid-cycle LH surge: oestradiol &gt;200 pg/mL for &gt;36 h → AVPV kisspeptin → positive feedback → 10-fold LH surge → ovulation. Ferguson reflex: oxytocin + cervical stretch → more oxytocin → more contractions (until delivery).</td></tr>
+            <tr><td><strong>Circadian rhythms</strong></td><td>Cortisol peak 06:00–08:00 (CRH/ACTH pulses), nadir ~00:00. GH: pulsatile during first hour of slow-wave sleep. LH/FSH: pulsatile (GnRH every 60–90 min follicular, 3–4 h luteal). Melatonin: dusk → peak 02:00–03:00 → suppressed by light.</td></tr>
+            <tr><td><strong>Permissive effects</strong></td><td>Cortisol is permissive for catecholamine responsiveness (↑β-AR expression + vascular sensitivity) — explains poor pressor response in Addisonian patients. T3 permissive for GH action on growth.</td></tr>
+            <tr><td><strong>Ultradian pulsatility</strong></td><td>GnRH and LH/FSH are secreted in pulses — continuous GnRH downregulates pituitary GnRH-R (basis of GnRH agonist therapy: leuprolide → initial flare → medical castration).</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Diabetes Mellitus (T1DM and T2DM)</h4>
+            <p>Most prevalent endocrine disorder (~500 million adults globally). T1DM: autoimmune β-cell destruction (CD8+ CTL; HLA-DR4/DQ8) → absolute insulin deficiency → hyperglycaemia + DKA. T2DM: insulin resistance (↓IRS-1/PI3K/Akt; ↑FFA → DAG → PKC-ε inhibits IR kinase) → compensatory hyperinsulinaemia → progressive β-cell failure (ER stress, IAPP amyloid, IL-1β apoptosis). Key treatments: metformin (AMPK), SGLT2 inhibitors (empagliflozin — ↑glucosuria + cardioprotection), GLP-1 agonists (semaglutide — ↓appetite + ↓weight + ↓glucose), sulfonylureas, insulin.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Cushing's Syndrome</h4>
+            <p>Chronic cortisol excess. Causes: Cushing's disease (pituitary ACTH adenoma, ~70%), ectopic ACTH (SCLC, carcinoid, ~10%), adrenal adenoma/carcinoma (~20%), iatrogenic (most common globally). Features: central obesity (visceral fat ↑, buffalo hump), moon face, purple striae, skin thinning, hypertension, osteoporosis, insulin resistance, proximal myopathy, psychiatric disturbance (depression, psychosis). Diagnosis: 24h urine free cortisol + late-night salivary cortisol + low-dose dexamethasone suppression test.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Addison's Disease (Primary Adrenal Insufficiency)</h4>
+            <p>Autoimmune adrenal cortical destruction (anti-21-hydroxylase antibodies) → ↓cortisol + ↓aldosterone → hypotension, hyponatraemia, hyperkalaemia, hypoglycaemia, hyperpigmentation (↑ACTH → ↑α-MSH → MC1R). Adrenal crisis (severe hypotension, vomiting, collapse) precipitated by stress or illness. Treatment: hydrocortisone + fludrocortisone; double dose sick-day rules; parenteral hydrocortisone for crisis.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Phaeochromocytoma</h4>
+            <p>Chromaffin cell tumour (adrenal medulla or extra-adrenal paraganglioma) secreting catecholamines → paroxysmal hypertensive crises, headache, diaphoresis, palpitations. "Rule of 10s": 10% malignant, 10% bilateral, 10% extra-adrenal, 10% children, 10% familial. Associated with MEN2A/2B (RET), VHL, NF1, SDH mutations. Diagnosis: plasma metanephrines + 24h urine catecholamines. Treatment: α-blockade (phenoxybenzamine) first, then β-blockade, then surgical resection.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Multiple Endocrine Neoplasia (MEN) Syndromes</h4>
+            <p>MEN1 (MEN1/menin): parathyroid adenomas (&gt;95%), pituitary adenomas (prolactinoma), pancreatic NETs (gastrinoma/ZE, insulinoma). MEN2A (RET codon 634): medullary thyroid carcinoma (95%), phaeochromocytoma (50%), primary hyperparathyroidism (25%). MEN2B (RET codon 918): MTC (aggressive/early), phaeochromocytoma, marfanoid habitus, mucosal neuromas, GI ganglioneuromatosis.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Pituitary Adenomas</h4>
+            <p>~10% prevalence on MRI. Prolactinoma (40%): hyperprolactinaemia → amenorrhoea/galactorrhoea (F), hypogonadism/ED (M); treat with dopamine agonists (cabergoline). GH-secreting (15–20%): acromegaly (adults: enlarged hands/jaw, sleep apnoea, CVD) or gigantism (children). ACTH-secreting (10–15%): Cushing's disease. Non-functioning (30–40%): mass effects — bitemporal hemianopia (optic chiasm compression), hypopituitarism.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="pancreas.html" title="Pancreatic islets of Langerhans (insulin [β-cells], glucagon [α-cells], somatostatin [δ-cells]) are central glucose regulators; T1DM = autoimmune β-cell destruction; T2DM = insulin resistance + progressive β-cell failure."><span class="rel">contains</span>Pancreas</a>
-            <a class="conn-pill" href="nervous-system.html" title="Hypothalamus integrates nervous and endocrine systems; CRH, TRH, GnRH, GHRH control anterior pituitary; AVP and oxytocin store in posterior pituitary; glucocorticoids, thyroid hormones, and sex steroids feed back to regulate CNS and behaviour."><span class="rel">modulates</span>Nervous System</a>
-            <a class="conn-pill" href="immune-system.html" title="Cortisol, oestrogens, and androgens regulate immune cell trafficking, cytokine production, and lymphocyte apoptosis; HPA-axis cortisol → immunosuppression; thymic involution driven by sex steroids reduces T-cell output with age."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="ANP/BNP (heart), aldosterone (adrenal), ADH (posterior pituitary), EPO (kidney), and catecholamines (adrenal medulla) together regulate blood pressure, volume, and cardiac output; hyperthyroidism, Cushing's, and phaeochromocytoma cause CVD."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill part" href="human-body.html"><span class="rel">Part of</span>Human Body</a>
+            <a class="conn-pill" href="thyroid.html"><span class="rel">Contains</span>Thyroid Gland</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Pancreatic Islets</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Adrenal Glands</a>
+            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Nervous System</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Immune System</a>
+            <a class="conn-pill" href="reproductive-system.html"><span class="rel">Contains</span>Gonadal Axis (HPG)</a>
+            <a class="conn-pill" href="musculoskeletal-system.html"><span class="rel">Modulates</span>Bone (PTH, calcitriol)</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. <a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener">macmillanlearning.com</a></li>
+            <li>IDF Diabetes Atlas. 10th ed. International Diabetes Federation; 2021. <a href="https://diabetesatlas.org" target="_blank" rel="noopener">diabetesatlas.org</a></li>
+            <li>Nieman LK, et al. The Diagnosis of Cushing's Syndrome: An Endocrine Society Clinical Practice Guideline. <em>J Clin Endocrinol Metab.</em> 2008;93(5):1526-1540. <a href="https://doi.org/10.1210/jc.2008-0125" target="_blank" rel="noopener">doi:10.1210/jc.2008-0125</a></li>
+            <li>Thakker RV, et al. Clinical Practice Guidelines for Multiple Endocrine Neoplasia Type 1 (MEN1). <em>J Clin Endocrinol Metab.</em> 2012;97(9):2990-3011. <a href="https://doi.org/10.1210/jc.2012-1230" target="_blank" rel="noopener">doi:10.1210/jc.2012-1230</a></li>
           </ul>
         </div>
 
@@ -185,11 +284,13 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="thyroid.html">Thyroid</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

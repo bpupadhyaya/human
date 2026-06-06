@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Involuntary, non-striated, mononucleated cells lining blood vessels, airways, GI tract, bladder, and uterus. Contraction via Ca²⁺-calmodulin-MLCK axis and Rho k">
+  <meta name="description" content="Smooth Muscle Cell — Ca2+-calmodulin-MLCK contraction, Rho kinase Ca2+ sensitisation, NO/cGMP/PKG relaxation, phenotype switching in atherosclerosis and PAH. Atlas One · Human Engineering.">
   <meta property="og:title" content="Smooth Muscle Cell — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Smooth Muscle Cell — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #dc2626;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: #b91c1c; }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,49 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #991b1b); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: #d97706; }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill.mod .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +97,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,61 +109,164 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular &mdash; Scale 04</div>
     <h1>Smooth Muscle Cell</h1>
-    <p class="tagline">Involuntary, non-striated, mononucleated cells lining blood vessels, airways, GI tract, bladder, and uterus. Contraction via Ca²⁺-calmodulin-MLCK axis and Rho kinase; relaxation by NO/cGMP/PKG. Phenotype switching from contractile to synthetic drives atherosclerosis and PAH.</p>
-    <p class="aliases">Also known as: SMC, vascular smooth muscle cell, VSMC, visceral smooth muscle, myometrium cell</p>
+    <p class="tagline">Involuntary, non-striated, mononucleated contractile cells lining blood vessels, airways, GI tract, bladder, and uterus — governing vascular resistance and airway calibre through a Ca&#xB2;&#x207A;-calmodulin-MLCK axis amplified by Rho kinase Ca&#xB2;&#x207A; sensitisation.</p>
+    <p class="subtagline">CL:0000192 &middot; Phenotypic plasticity from contractile to synthetic underlies atherosclerosis, PAH, and restenosis. Relaxation by NO/cGMP/PKG. CCBs target Cav1.2 on VSMCs to reduce blood pressure.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">20–500 µm</span><span class="stat-label">Length Range</span></div>
+      <div class="stat"><span class="stat-num">~50%</span><span class="stat-label">Plaque Cells from SMC</span></div>
+      <div class="stat"><span class="stat-num">2</span><span class="stat-label">Phenotypes (contractile / synthetic)</span></div>
+      <div class="stat"><span class="stat-num">NO/cGMP</span><span class="stat-label">Primary Vasodilator Signal</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">smooth-muscle-cell</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">CL:0000192 &middot; Atlas One / Scale 04 &mdash; Cellular</div>
         <h2>Smooth Muscle Cell</h2>
-        <p class="summary">Involuntary, non-striated, mononucleated cells lining blood vessels, airways, GI tract, bladder, and uterus. Contraction via Ca²⁺-calmodulin-MLCK axis and Rho kinase; relaxation by NO/cGMP/PKG. Phenotype switching from contractile to synthetic drives atherosclerosis and PAH.</p>
+        <p class="summary">Involuntary, non-striated, mononucleated cells in the tunica media of blood vessels, muscularis of airways and GI tract, bladder detrusor, and uterine myometrium. Contraction via Ca&#xB2;&#x207A;-calmodulin-MLCK pathway and Rho kinase (ROCK) Ca&#xB2;&#x207A; sensitisation; relaxation by NO/cGMP/PKG. Phenotype switching from contractile (&alpha;SMA+, MYH11+) to synthetic (collagen-producing, migratory) is the cellular mechanism of atherosclerosis, PAH, and neointimal hyperplasia after stenting.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>smooth-muscle-cell</td></tr>
-            <tr><td>Name</td><td>Smooth Muscle Cell</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p>Smooth muscle cells (SMCs) are involuntary, non-striated, mononucleated cells that constitute the contractile layer of hollow visceral organs and blood vessels throughout the body. Unlike skeletal and cardiac muscle, smooth muscle lacks sarcomeric organisation and troponin-based regulation; instead, contraction is governed by calcium-calmodulin activation of myosin light chain kinase (MLCK) and amplified by the Rho kinase (ROCK) pathway. SMCs respond to autonomic neural input, circulating hormones, local paracrine mediators (NO, ET-1, Ang II), and mechanical stretch.</p>
+          <p>Vascular SMCs (VSMCs) are of particular clinical relevance: their contractile state determines peripheral vascular resistance and systemic blood pressure, and their capacity for <strong>phenotypic switching</strong> — from a quiescent contractile phenotype to a migratory, proliferative, collagen-producing synthetic phenotype — is a necessary event in atherosclerotic plaque formation, pulmonary arterial hypertension (PAH), and in-stent restenosis after coronary interventions.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure</h3>
+          <p><strong>Morphology:</strong> SMCs are spindle-shaped with tapered ends, 20–500 µm in length (smallest in arterioles, largest in pregnant uterus) and 5–10 µm in diameter. The single, central, elongated nucleus becomes corkscrew-shaped on contraction — a distinguishing histological feature. The cytoplasm contains abundant thin and thick filaments without regular Z-line alignment.</p>
+          <p><strong>Contractile apparatus:</strong> Thin filaments are composed of &alpha;-smooth muscle actin (&alpha;SMA, ACTA2) and tropomyosin (without troponin — the key difference from striated muscle). Thick filaments: smooth muscle myosin II (SMMHC, MYH11). Instead of sarcomeres, SMCs organise filaments around <strong>dense bodies</strong> (cytoplasmic; &alpha;-actinin anchors) and <strong>dense plaques</strong> (membrane; vinculin, talin, integrins — anchor to ECM and transmit force).</p>
+          <p><strong>Ca&#xB2;&#x207A; handling:</strong> Sarcoplasmic reticulum (SR) contains IP&#x2083;R and RyR for Ca&#xB2;&#x207A; release. Plasma membrane: L-type Cav1.2 (primary channel, CCB target), TRPC receptor-operated channels, STIM1/Orai1 store-operated channels. Ca&#xB2;&#x207A; removal: SERCA2b (SR reuptake), PMCA (plasma membrane). Gap junctions (connexin 43, 40) electrically couple adjacent SMCs in the vascular wall.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function — Contraction / Relaxation Circuit</h3>
+          <div class="circuit-diagram">
+<pre>
+  ── CONTRACTION PATHWAY ────────────────────────────────────
+  Stimulus: ET-1 (ETA/Gq), Ang II (AT1R/Gq), NE (alpha1R/Gq),
+            5-HT (5HT2A/Gq), TXA2 (TP/Gq), membrane stretch
+       |
+       v  Gq --> PLC --> IP3 + DAG
+  IP3 --> SR Ca2+ release
+  Depolarisation --> Cav1.2 opening --> Ca2+ entry
+  [Ca2+]i rises ~100 nM --> 600-1000 nM
+       |
+       v  Ca2+ binds Calmodulin (4:1 complex)
+  Ca2+-CaM --> binds and activates MLCK
+       |
+       v  MLCK phospho MLC20 (Ser19; secondarily Thr18)
+  Myosin ATPase activation --> cross-bridge cycling --> FORCE
+
+  ROCK PATHWAY (Ca2+ sensitisation):
+  ET-1/Ang II --> Galpha12/13 --> RhoGEF --> RhoA-GTP --> ROCK1/ROCK2
+  ROCK phospho MYPT1 (myosin phosphatase targeting subunit 1)
+       --> INHIBITS MLCP (myosin light chain phosphatase)
+       --> sustained MLC20 phosphorylation at SAME [Ca2+]
+       ** Ca2+ sensitisation -- more force for less Ca2+ **
+
+  ── RELAXATION PATHWAY ────────────────────────────────────
+  Source: eNOS-derived NO from adjacent endothelial cells
+       |
+       v  NO binds soluble guanylyl cyclase (sGC, haem-Fe2+)
+  GTP --> cGMP
+       |
+       v  PKG (protein kinase G):
+    [a] Phospho MYPT1 Ser695 --> MLCP activation --> MLC dephosphorylation
+    [b] Phospho BKCa (large-conductance K+ channel) --> hyperpolarisation
+                                   --> Cav1.2 closing --> Ca2+ fall
+    [c] Phospho MLCK Ser512 --> reduces MLCK affinity for Ca2+-CaM
+  NET: cross-bridge detachment --> RELAXATION
+
+  PHARMACOLOGICAL RELAXATION:
+  CCBs (amlodipine, nifedipine) --> block Cav1.2 --> Ca2+ fall
+  Nitrates (GTN, isosorbide) --> NO donor --> sGC --> cGMP
+  PDE5 inhibitors (sildenafil, tadalafil) --> cGMP breakdown -->
+       cGMP maintained --> PKG --> SMC relaxation (PAH + pulmonary vasodilation)
+  beta2-AR agonists (salbutamol) --> Gs --> cAMP --> PKA --> MLCK inhibition
+       --> bronchodilation in airway SMC
+
+  VASOCONSTRICTORS SUMMARY:
+  NE (alpha1R/Gq), Ang II (AT1R/Gq), ET-1 (ETA/Gq),
+  Serotonin (5HT2A/Gq), TXA2 (TP/Gq), Neuropeptide Y (Y1/Gq)
+
+  VASODILATORS SUMMARY:
+  NO (sGC/cGMP/PKG), PGI2 (IP/Gs/cAMP/PKA), Adenosine (A2A/Gs),
+  ANP (GC-A/cGMP), beta2-AR (Gs/cAMP), EDHF (K+ channel hyperpolarisation)
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Phenotypic Switching</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Contractile / Quiescent Phenotype</h4>
+              <p>Normal adult vascular phenotype. Low proliferation, low migration. High expression: &alpha;SMA (ACTA2), SMMHC (MYH11), calponin (CNN1), SM22&alpha; (TAGLN). Maintained by myocardin + SRF transcription factor complex driving CArG-box gene expression. KLF4 low.</p>
+            </div>
+            <div class="info-block">
+              <h4>Synthetic / Proliferative Phenotype</h4>
+              <p>&darr;Contractile markers; &uarr;collagen/ECM synthesis, &uarr;PDGFR-&beta;, &uarr;migration, &uarr;proliferation. Driven by PDGF-BB, oxidised LDL, Ang II, TGF-&beta;, inflammatory cytokines. KLF4 upregulation represses myocardin. Reversible in early disease; sustained in advanced pathology.</p>
+            </div>
+            <div class="info-block">
+              <h4>Foam Cell Differentiation</h4>
+              <p>In atherosclerosis, synthetic SMCs can engulf modified LDL via macropinocytosis &rarr; lipid-laden SMC "foam cells." SMC-derived foam cells comprise ~50% of cells in advanced human coronary plaques (not exclusively macrophage as once thought). Identified by ACTA2-lineage tracing.</p>
+            </div>
+            <div class="info-block">
+              <h4>Calcification</h4>
+              <p>Synthetic VSMCs may undergo osteoblastic transdifferentiation: Runx2/Osterix upregulation &rarr; matrix vesicle-mediated calcification. Major feature of medial arterial calcification (Mönckeberg sclerosis) in diabetes and CKD. &darr;Vascular compliance &rarr; &uarr;pulse wave velocity &rarr; &uarr;CV mortality.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Atherosclerosis — SMC Contribution</h4>
+            <p>Endothelial injury signals (oxLDL, Ang II, PDGF-BB) &rarr; VSMC phenotypic switch (contractile &rarr; synthetic; KLF4 upregulation, myocardin downregulation) &rarr; intimal migration, proliferation, collagen secretion &rarr; fibrous cap formation. SMC-derived foam cells (~50% of advanced plaque cells) contribute to lipid core. Cap thinning by SMC apoptosis (TNF-&alpha;, IFN-&gamma;, excessive ROS) + MMP-mediated collagen degradation (from macrophages) &rarr; plaque vulnerability &rarr; rupture &rarr; acute MI/stroke.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Pulmonary Arterial Hypertension (PAH)</h4>
+            <p>BMPR2 loss-of-function (heritable PAH, ~80% of HPAH, ~25% of IPAH) &rarr; unchecked VSMC proliferation and hypertrophy in pulmonary arterioles (medial hyperplasia) + endothelial dysfunction (angioproliferative lesions) + perivascular inflammation &rarr; progressive obliterative arteriopathy &rarr; &uarr;PVR &rarr; right ventricular pressure overload &rarr; RV failure. Treatment: ERA (bosentan, ambrisentan — ET-1 block), PDE5i (sildenafil, tadalafil — &uarr;cGMP), prostacyclin analogues (epoprostenol — IP/cAMP), riociguat (sGC stimulator).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Coronary Artery Spasm (Prinzmetal Angina)</h4>
+            <p>ROCK hyperactivation in coronary artery SMCs &rarr; MLC&#x2082;&#x2080; phosphorylation without &uarr;[Ca&#xB2;&#x207A;]i &rarr; coronary vasospasm &rarr; ST-elevation angina at rest, often in young individuals without obstructive disease. Trigger: hyperventilation, cold, acetylcholine provocation test. Treatment: CCBs (diltiazem, verapamil) or long-acting nitrates. Fasudil (ROCK inhibitor) effective in Japan/China; not approved in Western markets.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Bronchospasm and Asthma</h4>
+            <p>Allergen &rarr; IgE/FcεRI &rarr; mast cell degranulation &rarr; histamine, LTD&#x2084;, PGD&#x2082; &rarr; airway SMC contraction &rarr; bronchoconstriction. Chronic inflammation &rarr; airway SMC hypertrophy and hyperplasia (via TGF-&beta;, PDGF) &rarr; airway remodelling &rarr; fixed airflow limitation. Mast cells adhere directly to airway SMCs in asthma (through SCF/c-Kit and CXCL10 axes). Treatment: &beta;&#x2082;-agonists (salbutamol, salmeterol &rarr; cAMP &rarr; PKA &rarr; MLCK inhibition); anticholinergics (ipratropium &rarr; block M&#x2083;R-driven contraction); ICS (beclomethasone &rarr; &darr;inflammatory mediators); dupilumab (anti-IL-4R&alpha;) for severe eosinophilic asthma.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Leiomyoma and Leiomyosarcoma</h4>
+            <p><strong>Leiomyoma (uterine fibroid):</strong> Benign SMC tumour; most common tumour in women of reproductive age (prevalence up to 70%). Oestrogen/progesterone-dependent; MED12 exon 1/2 somatic mutations in ~70%. Symptoms: menorrhagia, pelvic pressure, infertility. Treatment: GnRH analogues (medical regression), UAE (uterine artery embolisation), myomectomy/hysterectomy. <strong>Leiomyosarcoma:</strong> Malignant SMC tumour; uterus, retroperitoneum, GI tract; TP53, RB1, PTEN mutations; aggressive — doxorubicin-based chemotherapy, poor prognosis.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="cardiovascular-system.html" title="Vascular SMCs in the tunica media regulate vascular tone via MLC20 phosphorylation/MLCK; phenotype switching from contractile to synthetic drives atherosclerotic plaque formation and neointimal hyperplasia."><span class="rel">part-of</span>Cardiovascular System</a>
-            <a class="conn-pill" href="nitric-oxide.html" title="eNOS-derived NO diffuses from endothelial cells to vascular SMCs → activates soluble guanylyl cyclase → cGMP → PKG → MLCP activation → MLC20 dephosphorylation → relaxation; NO is the primary vasodilatory signal."><span class="rel">modulates</span>Nitric Oxide</a>
-            <a class="conn-pill" href="calcium-channel-blockers.html" title="Dihydropyridine CCBs (amlodipine, nifedipine) block L-type Cav1.2 on vascular SMCs → ↓Ca²⁺ entry → ↓MLCK activation → vasodilation → ↓TPR → ↓BP; vascular selectivity via tissue-specific splicing."><span class="rel">modulated-by</span>Calcium Channel Blockers</a>
-            <a class="conn-pill" href="respiratory-system.html" title="Airway SMCs in tracheal/bronchial walls control airway calibre; β2-AR agonists → cAMP → PKA → ↓MLCK → bronchodilation; muscarinic M3 → contraction → bronchoconstriction in asthma."><span class="rel">modulates</span>Respiratory System</a>
+            <a class="conn-pill part" href="cardiovascular-system.html"><span class="rel">Part of</span>Cardiovascular System (tunica media)</a>
+            <a class="conn-pill" href="endothelial-cell.html"><span class="rel">Crosstalk with</span>Endothelial Cell (NO, ET-1, PGI&#x2082;)</a>
+            <a class="conn-pill mod" href="medicine.html"><span class="rel">Modulated by</span>Calcium Channel Blockers</a>
+            <a class="conn-pill mod" href="medicine.html"><span class="rel">Modulated by</span>Nitrates / PDE5 Inhibitors</a>
+            <a class="conn-pill" href="fibroblast.html"><span class="rel">Phenotype overlap</span>Myofibroblast (&alpha;SMA)</a>
+            <a class="conn-pill" href="index.html#scales"><span class="rel">Part of</span>Respiratory System (airway)</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li>Alberts B et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">ncbi.nlm.nih.gov</a></li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021.</li>
+            <li>Bennett MR, Sinha S, Owens GK. Vascular smooth muscle cells in atherosclerosis. <em>Circ Res.</em> 2016;118(4):692-702. <a href="https://doi.org/10.1161/CIRCRESAHA.115.306361" target="_blank" rel="noopener">doi:10.1161/CIRCRESAHA.115.306361</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26892966/" target="_blank" rel="noopener">PubMed 26892966</a></li>
+            <li>Galie N et al. ESC/ERS Guidelines for pulmonary arterial hypertension. <em>Eur Heart J.</em> 2016;37(1):67-119. <a href="https://doi.org/10.1093/eurheartj/ehv317" target="_blank" rel="noopener">doi:10.1093/eurheartj/ehv317</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26320113/" target="_blank" rel="noopener">PubMed 26320113</a></li>
+            <li>Somlyo AP, Somlyo AV. Ca2+ sensitivity of smooth muscle and nonmuscle myosin II: modulated by G proteins, kinases, and myosin phosphatase. <em>Physiol Rev.</em> 2003;83(4):1325-58. <a href="https://doi.org/10.1152/physrev.00023.2003" target="_blank" rel="noopener">doi:10.1152/physrev.00023.2003</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/14506307/" target="_blank" rel="noopener">PubMed 14506307</a></li>
           </ul>
         </div>
 
@@ -185,14 +278,16 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="endothelial-cell.html">Endothelial Cell</a>
+      <a href="cardiovascular-system.html">Cardiovascular System</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

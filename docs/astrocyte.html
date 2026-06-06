@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Star-shaped glial cell; most abundant CNS cell type. Provides metabolic support (lactate shuttle), clears synaptic glutamate, buffers K⁺, maintains the blood-br">
+  <meta name="description" content="Astrocyte — star-shaped glial cell; most abundant CNS cell type. Metabolic support, glutamate clearance, K&#8314; buffering, BBB maintenance, tripartite synapse. Scale 04 (Cellular) of the Human Atlas.">
   <meta property="og:title" content="Astrocyte — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Astrocyte — Human Engineering</title>
@@ -13,25 +13,18 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,56 +32,52 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.85rem; color: var(--fg); white-space: pre; overflow-x: auto; line-height: 1.7; }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.4rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '&#8599;'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
@@ -108,8 +97,9 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="brain.html">Brain</a>
+        <a href="neuron.html">Neuron</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -119,61 +109,140 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
     <h1>Astrocyte</h1>
-    <p class="tagline">Star-shaped glial cell; most abundant CNS cell type. Provides metabolic support (lactate shuttle), clears synaptic glutamate, buffers K⁺, maintains the blood-brain barrier via AQP4 endfeet, and forms the tripartite synapse.</p>
-    <p class="aliases">Also known as: astroglia, fibrous astrocyte, protoplasmic astrocyte, reactive astrocyte, Bergmann glia</p>
+    <p class="tagline">The most abundant CNS cell type &mdash; star-shaped glial cells that provide metabolic fuel, clear synaptic glutamate, buffer extracellular K&#8314;, maintain the blood-brain barrier, and form the tripartite synapse.</p>
+    <p class="subtagline">Far from passive scaffolding, astrocytes are active computational partners: each protoplasmic astrocyte contacts ~140,000 synapses, regulates cerebrovascular tone, and supplies neurons with lactate via the astrocyte-neuron lactate shuttle (ANLS).</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~140,000</span><span class="stat-label">Synapses/astrocyte</span></div>
+      <div class="stat"><span class="stat-num">&gt;90%</span><span class="stat-label">Synaptic Glu clearance</span></div>
+      <div class="stat"><span class="stat-num">Cx43 / Cx30</span><span class="stat-label">Gap junction syncytium</span></div>
+      <div class="stat"><span class="stat-num">GFAP / AQP4</span><span class="stat-label">Canonical markers</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">astrocyte</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">CL:0000127 &middot; FMA:54527 &middot; Atlas One / Scale 04 / Cellular</div>
         <h2>Astrocyte</h2>
-        <p class="summary">Star-shaped glial cell; most abundant CNS cell type. Provides metabolic support (lactate shuttle), clears synaptic glutamate, buffers K⁺, maintains the blood-brain barrier via AQP4 endfeet, and forms the tripartite synapse.</p>
+        <p class="summary">Star-shaped (Greek: astron) glial cells that are indispensable partners to every neuron. They supply metabolic fuel via the astrocyte-neuron lactate shuttle, clear &gt;90% of synaptic glutamate via GLT-1/GLAST transporters, buffer extracellular K&#8314; via Kir4.1, maintain BBB integrity via AQP4 endfeet, and form the third element of the tripartite synapse. Reactive gliosis in injury drives both neuroprotective and scar-forming programs.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>Astrocytes are the <strong>most abundant cell type in the central nervous system</strong> &mdash; star-shaped glial cells that are indispensable partners to every neuron. Far from passive structural scaffolding, astrocytes are <strong>active participants in neural computation</strong>: they form the third arm of the tripartite synapse, supply metabolic fuel via the astrocyte-neuron lactate shuttle, clear neurotransmitters, buffer extracellular ions, regulate cerebral blood flow, and maintain the blood-brain barrier.</p>
+          <p>Two major subtypes dominate the CNS: <strong>protoplasmic astrocytes</strong> (grey matter; highly branched, each cell contacting ~140,000 synapses) and <strong>fibrous astrocytes</strong> (white matter; fewer branches; envelop nodes of Ranvier). A third subtype, <strong>Bergmann glia</strong>, is restricted to the cerebellar cortex and guides Purkinje cell dendritogenesis. Together these cells tile the CNS in largely non-overlapping spatial domains, each astrocyte governing its own synaptic territory.</p>
+          <p>Astrocytes communicate with each other via gap junctions composed of <strong>Connexin-43 (Cx43)</strong> and <strong>Cx30</strong>, forming a functional syncytium that spatially redistributes K&#8314; and metabolites over large distances. Ca&#178;&#8314; waves propagating through this network link astrocyte activity to neurovascular coupling &mdash; the cellular basis of the BOLD signal measured by fMRI.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure &mdash; Morphology and Subtypes</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>astrocyte</td></tr>
-            <tr><td>Name</td><td>Astrocyte</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
+            <tr><th>Feature / Subtype</th><th>Detail</th></tr>
+            <tr><td><strong>Soma size</strong></td><td>9&ndash;25 &micro;m diameter; star-shaped with extensive fine processes radiating from soma</td></tr>
+            <tr><td><strong>Canonical marker</strong></td><td>GFAP (glial fibrillary acidic protein) &mdash; class III intermediate filament; upregulated in reactive gliosis</td></tr>
+            <tr><td><strong>Additional markers</strong></td><td>Vimentin, nestin (immature/reactive); S100&beta; (cytoplasmic Ca&#178;&#8314; sensor); glutamine synthetase (GS, astrocyte-specific); AQP4 (endfeet; orthogonal arrays)</td></tr>
+            <tr><td><strong>Gap junctions</strong></td><td>Cx43 and Cx30 link astrocytes into a functional syncytium for K&#8314; redistribution and metabolite sharing</td></tr>
+            <tr><td><strong>Perivascular endfeet</strong></td><td>Envelop &gt;99% of cerebral capillary surface; AQP4 (OAPs) and Kir4.1 enriched; signal endothelium to maintain BBB tight junctions</td></tr>
+            <tr><td><strong>Protoplasmic (grey matter)</strong></td><td>Highly ramified, bushy; thin perisynaptic astrocytic processes (PAPs, ~0.1&ndash;0.5 &micro;m) penetrate deep into neuropil; ~140,000 synapses/cell</td></tr>
+            <tr><td><strong>Fibrous (white matter)</strong></td><td>Longer, less branched processes; lower GFAP density per volume; wrap nodes of Ranvier</td></tr>
+            <tr><td><strong>Bergmann glia (cerebellum)</strong></td><td>Radial processes guide Purkinje cell dendritic arborisation; GLAST-rich; essential for cerebellar circuit formation</td></tr>
+            <tr><td><strong>Müller glia (retina)</strong></td><td>Radial glia spanning all retinal layers; analogous astrocytic support functions in the eye</td></tr>
           </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Function &mdash; Key Pathways</h3>
+          <p><strong>1. Astrocyte-Neuron Lactate Shuttle (ANLS).</strong> Astrocytes are the primary CNS glycogen reservoir (~100 &micro;mol/g wet brain). During neural activity:</p>
+          <div class="formula-block">Astrocyte: Glucose (GLUT1) --> Glycolysis --> Pyruvate --> Lactate
+  Lactate export: MCT4 (astrocyte) --> extracellular space
+                                          |
+                                          v
+  Neuron: Lactate uptake (MCT2) --> Pyruvate --> TCA cycle --> ATP
+  [Glycogen mobilisation (glycogen phosphorylase) sustains output during intense firing]</div>
+          <p class="formula-note">This shuttle provides neurons oxidative fuel without competing for glucose. Glycogen mobilisation sustains lactate output during intense firing or hypoglycaemia.</p>
+          <p><strong>2. Glutamate-Glutamine Cycle.</strong> Astrocytes express GLT-1 (EAAT2) and GLAST (EAAT1) &mdash; responsible for &gt;90% of synaptic glutamate clearance. Cleared glutamate is amidated by glutamine synthetase (GS, astrocyte-specific): <em>Glutamate + NH&#8323; &rarr; Glutamine (GS)</em>. Glutamine is released and taken up by neurons, which regenerate glutamate (PAG) or GABA (GAD) from it. GABA is recycled via GAT-3 on astrocyte membranes.</p>
+          <p><strong>3. K&#8314; Spatial Buffering.</strong> Action potentials release K&#8314; into extracellular space. Astrocytic Kir4.1 channels absorb this K&#8314; and redistribute it through the gap-junction syncytium to regions of lower K&#8314; concentration, preventing accumulation above the seizure threshold (~12 mM vs. resting ~3 mM).</p>
+          <p><strong>4. Tripartite Synapse and Gliotransmission.</strong> Astrocytes detect synaptic activity via mGluR2/3/5 and P2Y receptors &rarr; intracellular Ca&#178;&#8314; elevation &rarr; release of gliotransmitters:</p>
+          <table class="data-table">
+            <tr><th>Gliotransmitter</th><th>Receptor(s)</th><th>Effect</th></tr>
+            <tr><td>D-serine</td><td>NMDA NR2B co-agonist site</td><td>Enables LTP induction (NMDA co-activation)</td></tr>
+            <tr><td>ATP &rarr; Adenosine</td><td>A1 (inhibitory) / A2A (facilitatory)</td><td>Synaptic depression or facilitation depending on context</td></tr>
+            <tr><td>Glutamate</td><td>mGluRs, NMDA</td><td>Slow inward currents; synchronise neuronal networks</td></tr>
+            <tr><td>GABA</td><td>GABA-A</td><td>Tonic inhibition in cerebellum and hippocampus</td></tr>
+          </table>
+          <p><strong>5. Neurovascular Coupling.</strong> Astrocyte Ca&#178;&#8314; waves propagate to perivascular endfeet &rarr; arachidonic acid (AA) metabolised to PGE&#8322; (vasodilatory, EP receptors on smooth muscle), EETs (vasodilatory, K&#8314; channels), or 20-HETE (vasoconstrictive under high activity). This provides the cellular basis for functional hyperaemia &mdash; the fMRI BOLD signal.</p>
+          <p><strong>6. BBB Maintenance and Synaptogenesis.</strong> Astrocyte endfeet upregulate endothelial tight junctions (claudin-5, occludin, ZO-1) via angiopoietin-1/Tie2 and TGF-&beta; signaling. AQP4 prevents oedema. Astrocytes also secrete synaptogenic factors: thrombospondins 1/2 (via &alpha;2&delta;-1 receptor &rarr; silent synapse induction), glypicans 4/6 (&rarr; AMPA receptor clustering), hevin (NrCAM organiser).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Lifecycle &mdash; Development and Reactive Gliosis</h3>
+          <p><strong>Development.</strong> Astrocytes are born late in neurogenesis via a gliogenic switch driven by Notch/RBPJ, JAK/STAT3 (CNTF, LIF &rarr; pSTAT3), and BMP2/4/SMAD signaling. Radial glial cells (neural stem cells) asymmetrically divide to produce astrocyte daughters that progressively mature, retract radial processes, and elaborate territorial processes in the postnatal period.</p>
+          <p><strong>Reactive Astrogliosis.</strong> Brain injury (TBI, stroke, MS, SCI, ALS, neurodegeneration) triggers a graded response:</p>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Mild/Moderate Gliosis (isomorphic)</h4>
+              <p>&#8679;GFAP, &#8679;vimentin, process hypertrophy; domain organisation preserved; neuroprotective: trophic factor secretion (GDNF, BDNF), antioxidant (Nrf2), BBB repair. NF-&#954;B pathway drives cytokine-mediated activation.</p>
+            </div>
+            <div class="info-block">
+              <h4>Severe Gliosis &rarr; Glial Scar (anisomorphic)</h4>
+              <p>Proliferation, migration, loss of domain organisation &rarr; CSPG-rich scar (brevican, neurocan, versican, aggrecan). Limits lesion spread but inhibits axon regeneration. STAT3 drives scar formation; CSPG digestion by chABC promotes regeneration in animal models.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>Neuromyelitis Optica (NMO / NMOSD)</h4>
+            <p>Anti-AQP4 IgG (NMO-IgG) targets perivascular astrocyte endfeet &rarr; complement-mediated astrocyte destruction &rarr; inflammatory demyelinating lesions in optic nerve and spinal cord. Severe, relapsing attacks; distinct from MS. Treated with rituximab, eculizumab, inebilizumab.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Glioblastoma (GBM)</h4>
+            <p>Grade IV astrocytic tumour; IDH-wildtype; EGFR amplification, PTEN deletion, TERT promoter mutation. Diffusely infiltrating. Median survival ~15 months despite surgery + radiotherapy + temozolomide. ~3/100,000/year; most lethal primary brain tumour.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Alexander Disease</h4>
+            <p>Gain-of-function GFAP mutations &rarr; Rosenthal fibres (GFAP aggregates in astrocytes). Megalencephalic leukoencephalopathy; infantile/juvenile/adult forms; seizures, ataxia, spasticity. Rare but archetypal primary astrocytopathy.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Hepatic Encephalopathy</h4>
+            <p>Hyperammonaemia &rarr; Alzheimer type II astrocyte transformation; glutamine accumulation &rarr; osmotic astrocyte swelling (AQP4 upregulation); impaired K&#8314; buffering (Kir4.1 downregulation) &rarr; neurological impairment. Reverses with ammonia reduction.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Epilepsy</h4>
+            <p>Loss of Kir4.1 or GLT-1/GLAST function &rarr; impaired K&#8314; and glutamate buffering &rarr; elevated extracellular [K&#8314;] and [Glu] &rarr; neuronal hyperexcitability &rarr; seizures. Reactive gliosis from seizures further impairs buffering in a vicious cycle.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Astrogliosis in Neurodegeneration (AD, ALS, PD)</h4>
+            <p>In all major neurodegenerative diseases, reactive astrocytes adopt A1 (neurotoxic, NF-&#954;B-driven, complement secreting) or A2 (neuroprotective, STAT3-driven) phenotypes. A1 astrocytes lose glutamate uptake, K&#8314; buffering, and synaptogenic function &mdash; amplifying neuronal damage.</p>
+          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="brain.html" title="Protoplasmic astrocytes are the predominant glial cell in cortex and hippocampus, each contacting thousands of synapses; their endfeet envelop cerebral capillaries maintaining the blood-brain barrier."><span class="rel">part-of</span>Brain</a>
-            <a class="conn-pill" href="neuron.html" title="Astrocytes support neurons via lactate supply (ANLS), glutamate recycling via GS, K⁺ spatial buffering via Kir4.1, D-serine release (NMDA co-agonist), neurotrophic factors (GDNF, BDNF), and synaptogenesis-promoting thrombospondins."><span class="rel">modulates</span>Neuron</a>
-            <a class="conn-pill" href="synapse.html" title="Astrocytes form the third component of the tripartite synapse: take up synaptic glutamate via GLT-1/GLAST, convert to glutamine (GS), return glutamine for neurotransmitter replenishment; also release D-serine and ATP/adenosine."><span class="rel">modulates</span>Synapse</a>
-            <a class="conn-pill" href="nervous-system.html" title="Astrocytes regulate CNS K⁺ homeostasis (Kir4.1 spatial buffering), pH (bicarbonate), blood flow (Ca²⁺ waves → arteriole dilation via AA/PGE2/EET release); astrocyte dysfunction contributes to seizures, ischaemia, neurodegeneration."><span class="rel">modulates</span>Nervous System</a>
+            <a class="conn-pill part" href="brain.html"><span class="rel">Part of</span>Brain</a>
+            <a class="conn-pill part" href="nervous-system.html"><span class="rel">Part of</span>Nervous System</a>
+            <a class="conn-pill" href="neuron.html"><span class="rel">Supports</span>Neuron (ANLS, K&#8314; buffer)</a>
+            <a class="conn-pill" href="synapse.html"><span class="rel">Forms</span>Tripartite Synapse</a>
+            <a class="conn-pill" href="microglia.html"><span class="rel">Interacts with</span>Microglia (neuroinflammation)</a>
+            <a class="conn-pill" href="oligodendrocyte.html"><span class="rel">Neighbours</span>Oligodendrocyte</a>
+            <a class="conn-pill" href="glutamate.html"><span class="rel">Clears</span>Glutamate (GLT-1/GLAST)</a>
+            <a class="conn-pill" href="gaba.html"><span class="rel">Recycles</span>GABA (GAT-3)</a>
+            <a class="conn-pill" href="hippocampus.html"><span class="rel">Tiles</span>Hippocampus</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">NCBI Bookshelf</a></li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">Elsevier</a></li>
+            <li>Pellerin L, Magistretti PJ. Glutamate uptake into astrocytes stimulates aerobic glycolysis: a mechanism coupling neuronal activity to glucose utilization. <em>Proc Natl Acad Sci USA.</em> 1994;91(22):10625&ndash;10629. <a href="https://doi.org/10.1073/pnas.91.22.10625" target="_blank" rel="noopener">doi:10.1073/pnas.91.22.10625</a></li>
+            <li>Sofroniew MV, Vinters HV. Astrocytes: biology and pathology. <em>Acta Neuropathol.</em> 2010;119(1):7&ndash;35. <a href="https://doi.org/10.1007/s00401-009-0619-8" target="_blank" rel="noopener">doi:10.1007/s00401-009-0619-8</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20012068/" target="_blank" rel="noopener">PubMed 20012068</a></li>
           </ul>
         </div>
 
@@ -182,17 +251,18 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end &mdash; in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="neuron.html">Neuron</a>
+      <a href="synapse.html">Synapse</a>
+      <a href="microglia.html">Microglia</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

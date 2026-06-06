@@ -1,198 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Heterotrimeric serine/threonine kinase (α/β/γ) activated by ↑AMP:ATP via LKB1-mediated Thr172 phosphorylation. Master cellular energy sensor: switches off anabo">
-  <meta property="og:title" content="AMPK — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>AMPK — Human Engineering</title>
-  <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMPK · Atlas One · Human · Molecular</title>
+<style>
+  :root {
+    --accent: #059669;
+    --accent-dark: #064e3b;
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface2: #273549;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --radius-sm: 6px;
+    --radius: 12px;
+    --radius-lg: 18px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(15,23,42,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem; }
+  nav a { color: var(--text-muted); text-decoration: none; font-size: 0.875rem; }
+  nav a:hover { color: var(--accent); }
+  nav .sep { color: var(--border); }
+  .hero { background: linear-gradient(135deg, #059669, #064e3b); padding: 3rem 2rem 2.5rem; }
+  .hero-inner { max-width: 860px; margin: 0 auto; }
+  .eyebrow { display: inline-block; background: rgba(255,255,255,0.2); color: #fff; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 1rem; }
+  .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1.1; }
+  .hero .tagline { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 0.5rem; max-width: 620px; }
+  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
+  .stat { background: rgba(255,255,255,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; }
+  .stat .val { font-size: 1.25rem; font-weight: 700; color: #fff; }
+  .stat .lbl { font-size: 0.7rem; color: rgba(255,255,255,0.75); letter-spacing: 0.06em; text-transform: uppercase; }
+  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+  .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 2rem; overflow: hidden; }
+  .detail-header { background: linear-gradient(135deg, #059669, #064e3b); padding: 1rem 1.5rem; }
+  .detail-header h2 { color: #fff; font-size: 1.1rem; font-weight: 700; }
+  .detail-body { padding: 1.5rem; }
+  .detail-body p { color: var(--text-muted); margin-bottom: 0.75rem; }
+  .detail-body p:last-child { margin-bottom: 0; }
+  .pathway-block { background: #0d1b2e; border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; overflow-x: auto; }
+  .pathway-block pre { font-family: 'Fira Mono', 'Cascadia Code', monospace; font-size: 0.78rem; line-height: 1.6; color: #93c5fd; white-space: pre; }
+  .data-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+  .data-table th { background: var(--surface2); color: var(--text); text-align: left; padding: 0.6rem 0.875rem; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  .data-table td { padding: 0.6rem 0.875rem; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table tr:hover td { background: var(--surface2); }
+  .step-list { list-style: none; counter-reset: steps; margin: 0.75rem 0; }
+  .step-list li { counter-increment: steps; display: flex; gap: 0.875rem; margin-bottom: 0.6rem; color: var(--text-muted); font-size: 0.9rem; }
+  .step-list li::before { content: counter(steps); background: var(--accent); color: #fff; font-weight: 700; font-size: 0.75rem; min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.15rem; }
+  .principle-box { background: rgba(5,150,105,0.1); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.875rem 1rem; margin: 1rem 0; color: var(--text-muted); font-size: 0.9rem; }
+  .principle-box strong { color: var(--text); }
+  .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+  .conn-pill { background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted); font-size: 0.78rem; padding: 0.3rem 0.75rem; border-radius: 999px; text-decoration: none; transition: border-color 0.15s, color 0.15s; }
+  .conn-pill:hover { border-color: var(--accent); color: var(--accent); }
+  .refs { list-style: none; margin-top: 0.5rem; }
+  .refs li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
+  .refs li:last-child { border-bottom: none; }
+  .refs li::before { content: "↗ "; color: var(--accent); }
+  footer { text-align: center; padding: 2rem 1rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.8rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<nav>
+  <a href="index.html">Atlas</a>
+  <span class="sep">›</span>
+  <a href="index.html">Human</a>
+  <span class="sep">›</span>
+  <a href="#">AMPK</a>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Atlas One · Human · Molecular</span>
     <h1>AMPK</h1>
-    <p class="tagline">Heterotrimeric serine/threonine kinase (α/β/γ) activated by ↑AMP:ATP via LKB1-mediated Thr172 phosphorylation. Master cellular energy sensor: switches off anabolism, switches on catabolism. Metformin activates hepatic AMPK to lower glucose.</p>
-    <p class="aliases">Also known as: AMP-activated protein kinase, 5-AMP-activated protein kinase, energy sensor kinase, PRKA</p>
+    <p class="tagline">AMP-activated protein kinase — master energy sensor that detects falling ATP/rising AMP ratios to activate catabolic pathways, suppress anabolism, and restore energy homeostasis.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><div class="val">αβγ heterotrimer</div><div class="lbl">Subunit structure</div></div>
+      <div class="stat"><div class="val">Thr172</div><div class="lbl">Activation phosphosite</div></div>
+      <div class="stat"><div class="val">LKB1 / CaMKK2</div><div class="lbl">Upstream kinases</div></div>
+      <div class="stat"><div class="val">Metformin</div><div class="lbl">Indirect activator</div></div>
+    </div>
+  </div>
+</section>
+
+<main>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Overview</h2></div>
+    <div class="detail-body">
+      <p>AMP-activated protein kinase (AMPK) is a phylogenetically ancient heterotrimeric serine/threonine kinase that functions as the cell's primary energy sensor. When the cellular energy state falls — AMP and ADP rise relative to ATP — AMPK is activated, switching metabolism from ATP-consuming anabolic processes to ATP-generating catabolic processes. It is expressed in virtually all eukaryotic cells and acts as a signalling nexus for exercise, fasting, caloric restriction, and numerous metabolic diseases.</p>
+      <p>AMPK activation has two components: allosteric activation (AMP binds γ-subunit CBS domains → conformational change → activates kinase domain; blocks dephosphorylation of Thr172) and covalent activation (LKB1 or CaMKKβ phosphorylates α-subunit Thr172 → 100–1000-fold kinase activity increase). In the liver, the tumour suppressor LKB1 (STK11) is the dominant upstream kinase. In the hypothalamus and neurons, CaMKKβ (Ca²⁺/calmodulin-dependent kinase kinase β) responds to Ca²⁺ rises to activate AMPK — linking neural activity to energy state.</p>
+      <p>AMPK's physiological importance is underscored by the fact that metformin, the world's most widely prescribed antidiabetic drug, acts primarily through AMPK (by inhibiting mitochondrial Complex I → ↑AMP/ATP ratio → LKB1-mediated Thr172 phosphorylation). Exercise also activates AMPK in skeletal muscle via AMP/ADP rise and CaMKKβ, explaining many beneficial metabolic effects of physical activity.</p>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="detail-card">
+    <div class="detail-header"><h2>Structure — αβγ Heterotrimer</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Subunit</th><th>Isoforms</th><th>Domain</th><th>Function</th></tr></thead>
+        <tbody>
+          <tr><td>α (catalytic)</td><td>α1 (PRKAA1), α2 (PRKAA2)</td><td>N-terminal kinase domain + C-terminal regulatory domain (AIS + αRIM)</td><td>Kinase active site; Thr172 in activation loop (must be phosphorylated for activity); α2 nuclear localisation signal; αRIM contacts γ AMP-site for allosteric regulation</td></tr>
+          <tr><td>β (scaffold)</td><td>β1 (PRKAB1), β2 (PRKAB2)</td><td>N-terminal myristoylation + carbohydrate-binding module (CBM) + C-terminal αγ-subunit binding</td><td>Tethers α and γ; CBM senses glycogen (high glycogen → AMPK inhibited, cannot bind glycogen particle and LKB1 simultaneously); β2 expressed in skeletal muscle</td></tr>
+          <tr><td>γ (regulatory)</td><td>γ1 (PRKAG1), γ2 (PRKAG2), γ3 (PRKAG3)</td><td>4 CBS (cystathionine β-synthase) domains forming 2 Bateman domains</td><td>Binds AMP, ADP, ATP at CBS3 and CBS1; AMP binding: allosteric activation + protection of Thr172 from PP2C/PP2A dephosphorylation; γ2/γ3 mutations → Wolff-Parkinson-White (hypertrophic cardiomyopathy + pre-excitation)</td></tr>
+        </tbody>
+      </table>
+      <p>Human AMPK exists as 12 possible αβγ heterotrimer combinations (2α × 2β × 3γ), each with distinct subcellular localisation and tissue expression. The most abundant complexes in metabolic tissues: α1β1γ1 (ubiquitous); α2β2γ1 (skeletal muscle); α1β1γ2 (liver, heart).</p>
     </div>
+  </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">ampk</div>
-        <h2>AMPK</h2>
-        <p class="summary">Heterotrimeric serine/threonine kinase (α/β/γ) activated by ↑AMP:ATP via LKB1-mediated Thr172 phosphorylation. Master cellular energy sensor: switches off anabolism, switches on catabolism. Metformin activates hepatic AMPK to lower glucose.</p>
+  <div class="detail-card">
+    <div class="detail-header"><h2>Mechanism — Energy Sensing &amp; Downstream Targets</h2></div>
+    <div class="detail-body">
+      <div class="pathway-block"><pre>
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │              AMPK ACTIVATION — ENERGY SENSING                       │
+  │                                                                      │
+  │  LOW ENERGY STATE:                                                   │
+  │  Exercise / Fasting / Hypoxia / Metformin (Complex I inhibitor)    │
+  │       │                                                              │
+  │  ATP consumed → ADP rises → adenylate kinase: 2 ADP ⇌ ATP + AMP   │
+  │  AMP/ATP ratio rises (AMP rises 10-50× before ATP falls)           │
+  │       │                                                              │
+  │  AMP binds γ-CBS domains → AMPK conformation change                │
+  │       │                                                              │
+  │  Two concurrent activation mechanisms:                              │
+  │  ┌─────────────────────┬───────────────────────────┐               │
+  │  ALLOSTERIC            COVALENT ACTIVATION          │               │
+  │  (AMP → γ-subunit)    (LKB1 or CaMKK2 → α-Thr172) │               │
+  │  ↑kinase 2–5×          ↑kinase 100–1000×            │               │
+  │                                                      │               │
+  │  AMP also protects Thr172-P from PP2C dephosphorylation            │
+  │                                                                      │
+  │  LKB1 (liver kinase B1 / STK11):                                   │
+  │    constitutively active; forms complex with STRAD + MO25          │
+  │    cytoplasmic; dominant upstream kinase in liver, epithelial cells  │
+  │    tumour suppressor (Peutz-Jeghers syndrome = LKB1 mutation)      │
+  │                                                                      │
+  │  CaMKKβ (calcium/calmodulin-dependent protein kinase kinase β):    │
+  │    activated by ↑[Ca²⁺] (muscle contraction, neural activity)      │
+  │    dominant in hypothalamus, neurons, T-cells; AMP-independent     │
+  │    leptin → hypothalamic Ca²⁺ → CaMKKβ → AMPK → ↓food intake      │
+  │                                                                      │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                     AMPK SUBSTRATE TARGETS                           │
+  │                                                                      │
+  │  ANABOLIC pathways INHIBITED:                                        │
+  │  ─────────────────────────────                                       │
+  │  ACC1/ACC2 (acetyl-CoA carboxylase Ser79/Ser221)                   │
+  │    → ↓malonyl-CoA → CPT1 de-inhibited → ↑mitochondrial FA import  │
+  │    → ↑β-oxidation; also ↓fatty acid synthesis (↓ACC1→↓palmitate)  │
+  │                                                                      │
+  │  HMGCR (HMG-CoA reductase Ser872) → ↓cholesterol synthesis         │
+  │                                                                      │
+  │  Raptor (component of mTORC1) → ↓mTORC1 → ↓protein synthesis,    │
+  │    ↓S6K1, ↓4E-BP1 → ↓ribosome biogenesis                          │
+  │  [also via TSC2 Ser1387: ↑TSC2 GTPase → ↓Rheb → ↓mTORC1]         │
+  │                                                                      │
+  │  CREB-regulated transcription coactivator 2 (CRTC2) / TORC2        │
+  │    → ↓gluconeogenic gene expression (PEPCK, G6Pase) in liver       │
+  │    [note: glucagon PKA activates CRTC2 — opposite to AMPK]         │
+  │                                                                      │
+  │  GPAT1 (glycerol-3-phosphate acyltransferase) → ↓TG synthesis      │
+  │                                                                      │
+  │  CATABOLIC pathways ACTIVATED:                                       │
+  │  ─────────────────────────────                                       │
+  │  ULK1 (unc-51-like kinase 1 Ser317/Ser777) → ↑autophagy           │
+  │    [mTOR phosphorylates ULK1-Ser757 → blocks autophagy:            │
+  │     AMPK and mTOR antagonistically control ULK1]                   │
+  │                                                                      │
+  │  PGC-1α (Thr177/Ser538) + SIRT1 → ↑mitochondrial biogenesis       │
+  │           → ↑OXPHOS capacity, ↑UCP3 (exercise adaptation)         │
+  │                                                                      │
+  │  eNOS (Ser1177) → ↑endothelial NO → vasodilation                  │
+  │    (exercise → AMPK → eNOS → NO → ↑blood flow to muscle)          │
+  │                                                                      │
+  │  GLUT4 translocation → ↑skeletal muscle glucose uptake             │
+  │    (insulin-independent pathway — critical in T2D)                  │
+  │                                                                      │
+  │  TFEB (transcription factor EB) → ↑lysosomal biogenesis            │
+  └──────────────────────────────────────────────────────────────────────┘</pre></div>
+      <ol class="step-list">
+        <li>Energy stress (exercise, fasting, ischaemia, heat shock) → ATP consumption → adenylate kinase equilibrium → AMP and ADP accumulate. AMP binds to γ-subunit CBS3 site; ADP binds CBS1 — both protect Thr172-P from phosphatase.</li>
+        <li>LKB1–STRAD–MO25 complex constitutively phosphorylates AMPK α-Thr172 but PP2C continually removes this phosphate unless AMP/ADP is elevated; net effect is AMP-controlled Thr172 phospho-status.</li>
+        <li>ACC phosphorylation is the canonical AMPK readout: ACC2 Ser221 phosphorylation in mitochondria-associated membrane → ↓malonyl-CoA → CPT1A/CPT1B de-inhibited → fatty acyl-CoA import into matrix → β-oxidation. ACC1 Ser79 → ↓cytoplasmic malonyl-CoA → ↓de novo fatty acid synthesis.</li>
+        <li>mTORC1 suppression (via Raptor + TSC2): blocks protein synthesis and ribosome biogenesis — a major energy conservation strategy in nutrient deprivation; also critical link between AMPK and autophagy induction (AMPK activates ULK1; mTOR inhibits ULK1).</li>
+        <li>PGC-1α phosphorylation + SIRT1 (NAD⁺-dependent deacetylase, also activated in low-energy state) → PGC-1α activated → OXPHOS gene upregulation → mitochondrial biogenesis → long-term adaptive increase in energy production capacity.</li>
+        <li>GLUT4 translocation: AMPK → AS160 (Rab-GTPase-activating protein) Thr642 phosphorylation → Rab10 → GLUT4 vesicle fusion with plasma membrane — insulin-independent glucose uptake; persists even when insulin signalling is impaired (T2D).</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Physiological Roles</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Context</th><th>AMPK Response</th><th>Net Effect</th></tr></thead>
+        <tbody>
+          <tr><td>Aerobic exercise (skeletal muscle)</td><td>↑AMP/ATP, ↑Ca²⁺/CaMKKβ → AMPK</td><td>↑fatty acid oxidation, ↑GLUT4, ↑mitochondrial biogenesis (adaptation), ↑eNOS → muscle vasodilation</td></tr>
+          <tr><td>Fasting / caloric restriction</td><td>↑AMP/ADP, ↓insulin → AMPK (liver, adipose)</td><td>↓lipid synthesis, ↓cholesterol synthesis, ↑autophagy, ↑gluconeogenesis (via HGP, limited in acute)</td></tr>
+          <tr><td>Hypoxia (ischaemia)</td><td>Mitochondrial electron transport blocked → rapid AMP rise</td><td>↑glycolysis (through HIF-1α), ↑autophagy; cardiac preconditioning via AMPK; ischaemia-induced GLUT1 translocation</td></tr>
+          <tr><td>Hypothalamic food intake</td><td>Fasting → AMPK in ARC/VMH</td><td>↑NPY/AgRP (orexigenic); leptin and insulin INHIBIT hypothalamic AMPK → satiety (opposite to peripheral AMPK)</td></tr>
+          <tr><td>Immune function (macrophage)</td><td>LPS/IL-6 → AMPK → anti-inflammatory</td><td>AMPK inhibits NFκB (via IKK-β), ↓iNOS, ↓IL-1β, ↑IL-10; resolves inflammation after initial response</td></tr>
+          <tr><td>β-cell glucose sensing</td><td>High glucose → ↑ATP → AMPK inhibited</td><td>AMPK inhibition at high glucose facilitates KATP closure → depolarisation → insulin secretion; AMPK activation at low glucose → reduces exocytosis</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pharmacology &amp; Clinical Use</h2></div>
+    <div class="detail-body">
+      <p><strong>Metformin (biguanide)</strong> — indirect AMPK activator via Complex I inhibition in liver mitochondria → ↑AMP → LKB1 → AMPK → ↓PEPCK/G6Pase (gluconeogenesis) + ↓ACC2 + ↓HMGCR. Also AMPK-independent effects: direct inhibition of Complex IV, mitochondrial glycerophosphate dehydrogenase, and mTORC1 (via Rag GTPase pathway). First-line T2D drug globally; also studied in longevity, cancer prevention (TAME trial), PCOS. Contraindicated in eGFR <30 (lactic acidosis risk — lactate production increased when Complex I is inhibited and not cleared by liver).</p>
+      <p><strong>AICAR (5-aminoimidazole-4-carboxamide ribonucleoside)</strong> — converted intracellularly to AICA ribonucleotide (ZMP), an AMP mimetic that allosterically activates AMPK; research tool; not approved but used in ex vivo exercise research and cardiac ischaemia models.</p>
+      <p><strong>Direct AMPK activators</strong> — A-769662 (Abbott Laboratories; synthetic allosteric β1-subunit activator at the ADaM site between α and β CBM domains); MK-8722 (Merck; pan-AMPK activator; lowered glucose but caused cardiac hypertrophy in rodents via AMPK-α2 — safety concern); PF-739 (Pfizer). All face challenge of tissue selectivity — hepatic AMPK activation beneficial; hypothalamic AMPK activation → increased food intake.</p>
+      <p><strong>Exercise mimetics</strong> — no approved drug fully replicates exercise AMPK activation in muscle; GW501516 (PPARδ agonist with AMPK activation) showed cancer risk in animal studies — abandoned. Exercise itself remains the most clinically effective AMPK activator.</p>
+      <div class="principle-box"><strong>Clinical pearl:</strong> AMPK activation by metformin suppresses hepatic glucose output (↓gluconeogenesis) — this is the primary antihyperglycaemic mechanism in T2D, not insulin secretion stimulation (hence no hypoglycaemia risk as monotherapy). Metformin also lowers cardiovascular events beyond glucose control (UKPDS: 39% MI reduction in obese T2D vs conventional). The LKB1–AMPK axis is a key tumour suppressor pathway — Peutz-Jeghers syndrome (STK11/LKB1 germline mutation) → high risk of GI polyps and cancer (pancreatic, CRC, lung); AMPK loss → uncontrolled mTOR-driven anabolism in tumour cells.</div>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Pathology</h2></div>
+    <div class="detail-body">
+      <table class="data-table">
+        <thead><tr><th>Condition</th><th>AMPK Dysregulation</th><th>Mechanism &amp; Consequence</th></tr></thead>
+        <tbody>
+          <tr><td>Type 2 diabetes</td><td>Reduced hepatic AMPK activity</td><td>Ectopic lipid → IKKβ + ceramide → LKB1 S431 phosphorylation (less nuclear STRAD interaction) → ↓LKB1 activity → ↓AMPK → unrestrained hepatic gluconeogenesis; metformin restores</td></tr>
+          <tr><td>NASH / MAFLD</td><td>Reduced AMPK-ACC signalling</td><td>↑ACC2 activity → ↑malonyl-CoA → ↓CPT1 → ↓β-oxidation → hepatic lipid accumulation; ↑DNL (ACC1); AMPK activators (metformin, semaglutide, resmetirom) are therapeutic</td></tr>
+          <tr><td>Peutz-Jeghers syndrome (STK11)</td><td>Complete LKB1 loss</td><td>Germline STK11 mutation → LKB1 protein absent → AMPK cannot be activated by AMP → mTORC1 constitutively active → unchecked growth → GI polyposis + high GI/pancreatic/breast cancer risk; mTOR inhibitors (rapalogs) explored</td></tr>
+          <tr><td>Wolff-Parkinson-White + HCM (PRKAG2)</td><td>γ2 gain-of-function</td><td>PRKAG2 mutations (R302Q, N488I) → constitutively active AMPK-γ2 → ↑glucose uptake → glycogen accumulation in cardiac myocytes → pre-excitation + HCM; mimics Pompe disease but glycogen content is normal amylopectin</td></tr>
+          <tr><td>Cancer</td><td>LKB1/AMPK loss in tumours</td><td>LKB1 is mutated in ~20% NSCLC, pancreatic cancer → unrestrained mTORC1 → anabolic drive; AMPK loss also reduces cell polarity and tight junction maintenance → metastasis permissive</td></tr>
+          <tr><td>Heart failure (ischaemic)</td><td>AMPK protective → activated during ischaemia</td><td>Cardiac AMPK-α2 → ↑GLUT1/4 translocation → ↑anaerobic glycolysis during ischaemia (protective); sustained AMPK activation in HF → ↑fatty acid oxidation can increase O₂ demand — complex role depending on cardiac energy substrate preference</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-header"><h2>Connections</h2></div>
+    <div class="detail-body">
+      <p>AMPK is upstream of mTORC1 (anabolism switch), autophagy (ULK1), mitochondrial biogenesis (PGC-1α/SIRT1), lipid metabolism (ACC/HMGCR), gluconeogenesis (CRTC2/TORC2), nitric oxide production (eNOS), and glucose transport (GLUT4/AS160). It is the key molecular mechanism linking exercise, fasting, and caloric restriction to improved metabolic health. AMPK opposes the glucagon–cAMP–PKA axis (glucagon inhibits AMPK in liver via PKA Ser485 phosphorylation on α-subunit). Leptin activates hypothalamic AMPK via CaMKKβ (context: NPY/AgRP neurons — but overall leptin is anorexigenic, suppressing AMPK in feeding-relevant POMC neurons — highly context-dependent).</p>
+      <div class="conn-pills">
+        <a class="conn-pill" href="cholesterol.html">Cholesterol (AMPK inhibits HMGCR)</a>
+        <a class="conn-pill" href="leptin.html">Leptin (CaMKKβ → AMPK; complex context)</a>
+        <a class="conn-pill" href="glucagon.html">Glucagon (cAMP/PKA inhibits AMPK)</a>
+        <a class="conn-pill" href="nitric-oxide.html">Nitric oxide (AMPK activates eNOS Ser1177)</a>
+        <a class="conn-pill" href="thyroid-hormones.html">Thyroid hormones (T3 activates skeletal AMPK)</a>
+        <a class="conn-pill" href="prostaglandins.html">Prostaglandins (AMPK inhibits COX-2 in macrophage)</a>
       </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>ampk</td></tr>
-            <tr><td>Name</td><td>AMPK</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="insulin.html" title="AMPK and insulin converge on glucose and lipid metabolism; AMPK drives GLUT4 translocation in muscle independently of Akt; suppresses mTORC1 via TSC2/Raptor; metformin-activated AMPK sensitises hepatocytes to insulin action."><span class="rel">modulates</span>Insulin</a>
-            <a class="conn-pill" href="hepatocyte.html" title="Hepatic AMPK is metformin's primary target: ↓ACC → ↓malonyl-CoA → ↑FA oxidation; ↓HMGR → ↓cholesterol; ↓SREBP-1c → ↓lipogenesis; CRTC2 phosphorylation → ↓PEPCK/G6Pase → ↓gluconeogenesis; key glucose-lowering mechanism."><span class="rel">modulates</span>Hepatocyte</a>
-            <a class="conn-pill" href="metformin.html" title="Metformin inhibits mitochondrial Complex I → ↑AMP:ATP → allosteric AMPK activation → ↓hepatic gluconeogenesis, ↑FA oxidation, ↑GLUT4 in muscle; also AMPK-independent effects: direct PEPCK suppression, lysosomal mTORC1 inhibition."><span class="rel">modulated-by</span>Metformin</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="Cardiac AMPK (α2) is activated by ischaemia (↑AMP:ATP) → ↑GLUT1/4 uptake and ↑FA oxidation → cardiomyocyte survival; PRKAG2 gain-of-function γ2 mutations → glycogen storage cardiomyopathy with Wolff-Parkinson-White syndrome."><span class="rel">modulates</span>Cardiovascular System</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-          </ul>
-        </div>
-
-      </div>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <div class="detail-card">
+    <div class="detail-header"><h2>References</h2></div>
+    <div class="detail-body">
+      <ul class="refs">
+        <li>Hardie DG, Ross FA, Hawley SA (2012). AMPK: a nutrient and energy sensor that maintains energy homeostasis. <em>Nat Rev Mol Cell Biol</em> 13:251–262.</li>
+        <li>Lin S-C, Hardie DG (2018). AMPK: sensing glucose as well as cellular energy status. <em>Cell Metab</em> 27:299–313.</li>
+        <li>Hawley SA et al. (2003). Complexes between the LKB1 tumor suppressor, STRAD, and MO25 and their role in the regulation of cell polarity. <em>Science</em> 302:456–460.</li>
+        <li>Shaw RJ et al. (2005). The kinase LKB1 mediates glucose homeostasis in liver and therapeutic effects of metformin. <em>Science</em> 310:1642–1646.</li>
+        <li>Foretz M et al. (2014). Metformin: from mechanisms of action to therapies. <em>Cell Metab</em> 20:953–966.</li>
+        <li>Carling D et al. (2012). AMP-activated protein kinase: new regulation, new roles? <em>Biochem J</em> 445:11–27.</li>
+        <li>Steinberg GR, Hardie DG (2023). New insights into activation and function of the AMPK. <em>Nat Rev Mol Cell Biol</em> 24:255–272.</li>
+      </ul>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</main>
+
+<footer>
+  <p>Atlas One · Human · Molecular · AMPK</p>
+  <p style="margin-top:0.4rem;">
+    Open source · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
+    <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
+  </p>
+  <p style="margin-top:0.4rem; font-size:0.75rem; color:#64748b;">
+    This page is co-maintained with AI assistance. Content is for educational purposes.
+    Always verify clinical information against primary sources. &copy; <span id="yr"></span>
+  </p>
+</footer>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>
