@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Omeprazole (Prilosec) — proton pump inhibitor. H⁺/K⁺-ATPase covalent inhibition, prodrug activation, GERD, peptic ulcer, H. pylori eradication. Part of the Human Engineering project.">
+  <meta property="og:title" content="Omeprazole (Prilosec) — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Omeprazole (Prilosec) — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #7c3aed;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; 01-Modern &middot; 08-GI</div>
+    <h1>Omeprazole (Prilosec)</h1>
+    <p class="tagline">Proton pump inhibitor — a benzimidazole prodrug activated in parietal cell canaliculi, where it covalently inactivates H⁺/K⁺-ATPase (the gastric proton pump), suppressing acid secretion by ≥95%.</p>
+    <p class="subtagline">First PPI approved (1988), now one of the world's most prescribed drugs. Cornerstone of GERD, peptic ulcer disease, and H. pylori eradication regimens — with an important CYP2C19 pharmacogenomics story.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">20 mg</span><span class="stat-label">Standard daily dose</span></div>
+      <div class="stat"><span class="stat-num">Cys813</span><span class="stat-label">Covalent binding site</span></div>
+      <div class="stat"><span class="stat-num">≥95%</span><span class="stat-label">Acid suppression (steady state)</span></div>
+      <div class="stat"><span class="stat-num">CYP2C19</span><span class="stat-label">Primary metabolizing enzyme</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas &middot; GI Pharmacology &middot; Proton Pump Inhibitor</div>
+        <h2>Omeprazole</h2>
+        <div class="drug-class">Class: Proton Pump Inhibitor (PPI) / Benzimidazole Prodrug &nbsp;&middot;&nbsp; Route: Oral (enteric-coated) &nbsp;|&nbsp; Brand: Prilosec, Losec &nbsp;|&nbsp; Status: WHO Essential Medicine; OTC + prescription</div>
+        <p class="summary">Omeprazole is a prodrug benzimidazole that selectively concentrates in the acidic secretory canaliculi of gastric parietal cells, where it undergoes acid-catalyzed rearrangement to a sulfenamide that forms covalent disulfide bonds with Cys813 and Cys892 of H⁺/K⁺-ATPase, permanently inactivating the proton pump. First-line for GERD, peptic ulcer disease, Zollinger-Ellison syndrome, and H. pylori eradication. Bioavailability 40–65%; metabolized by CYP2C19 (significant pharmacogenomic variability); half-life 1–2 h but biological effect lasts 24+ h due to irreversible enzyme binding.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Prilosec</span>
+          <span class="alias-pill">Losec</span>
+          <span class="alias-pill">omeprazole magnesium</span>
+          <span class="alias-pill">Zegerid (+ sodium bicarbonate)</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Prodrug Activation Mechanism</h3>
+          <h4>Acid-Activated Sulfenamide Formation</h4>
+          <div class="pathway-block">
+<pre>
+  Omeprazole (inactive prodrug, weak base pKa ~4.0)
+          │  Absorbed in small intestine (~40–65% bioavailability)
+          │  Circulates systemically — inactive at physiological pH
+          ▼
+  Parietal cell secretory canaliculus (pH 1–2)
+          │  Acid-catalyzed rearrangement via spiro intermediate
+          ▼
+  Sulfenamide (ACTIVE FORM, cationic, trapped in canaliculus)
+          │  Highly reactive electrophile
+          ▼
+  H⁺/K⁺-ATPase (proton pump)
+          │  Covalent disulfide bond formation
+          │  Cys813 (primary) + Cys892 (secondary) on α-subunit
+          ▼
+  Permanently inactivated pump molecule
+          │  Acid secretion from this pump = 0
+          │  Recovery only by new pump protein synthesis (t½ ~18–24 h)
+          ▼
+  Net effect: pH >4 maintained >14–16 h/day at steady state
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;"><strong>Why the prodrug design?</strong> Omeprazole carboxylate is too reactive to administer directly — it would be activated randomly throughout the body. The prodrug strategy achieves targeted activation only in the uniquely acidic environment of the parietal cell canaliculus — a pH found nowhere else in the human body at therapeutically relevant concentrations.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action</h3>
+          <h4>H⁺/K⁺-ATPase — The Gastric Proton Pump</h4>
+          <ol class="step-list">
+            <li><strong>H⁺/K⁺-ATPase biology:</strong> The gastric proton pump is a P-type ATPase located on the apical membrane of parietal cells (gastric corpus); exchanges 2H⁺ into the stomach lumen for 2K⁺ per ATP hydrolyzed, generating the extreme pH gradient (stomach pH ~1–2 vs. cell pH ~7.2) — the steepest H⁺ gradient in the human body</li>
+            <li><strong>Final common pathway:</strong> The proton pump is the final step in acid secretion regardless of the stimulus — acetylcholine (vagal), histamine (ECL cells), gastrin (G cells) all converge on H⁺/K⁺-ATPase; omeprazole blocks ALL acid secretion simultaneously</li>
+            <li><strong>Covalent inactivation:</strong> The sulfenamide forms a stable disulfide bond with Cys813 (luminal-accessible) and, at higher concentrations, Cys892 — permanently inactivating that pump molecule; new acid secretion requires de novo pump protein synthesis</li>
+            <li><strong>Onset kinetics:</strong> Single 20 mg dose inhibits ~70–80% of actively secreting pumps; maximal effect at day 3–5 (not all pumps actively translocating H⁺ at any given time → subsequent doses catch more pumps); pH >4 maintained 14–16 h/day at steady state</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Indications &amp; Dosing</h3>
+          <table class="data-table">
+            <tr><th>Indication</th><th>Dose</th><th>Duration</th></tr>
+            <tr><td>GERD (non-erosive)</td><td>20 mg OD before breakfast</td><td>4–8 weeks; 10–20 mg OD maintenance</td></tr>
+            <tr><td>Erosive esophagitis</td><td>20–40 mg OD</td><td>4–8 weeks; maintenance as needed</td></tr>
+            <tr><td>Duodenal ulcer</td><td>20 mg OD</td><td>4 weeks (healing ~95%)</td></tr>
+            <tr><td>Gastric ulcer</td><td>20 mg OD</td><td>8 weeks (healing ~85–90%)</td></tr>
+            <tr><td>H. pylori (triple therapy)</td><td>20 mg BD + clarithromycin 500 mg BD + amoxicillin 1g BD</td><td>14 days</td></tr>
+            <tr><td>Zollinger-Ellison syndrome</td><td>60–120 mg/day (divided)</td><td>Ongoing; titrate to acid output &lt;10 mEq/h</td></tr>
+            <tr><td>NSAID gastroprotection</td><td>20 mg OD</td><td>Duration of NSAID use (high-risk patients)</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pharmacogenomics — CYP2C19</h3>
+          <p>Omeprazole is primarily metabolized by <strong>CYP2C19</strong> (hydroxylation to 5-OH-omeprazole) and secondarily by CYP3A4. CYP2C19 polymorphisms create dramatic inter-individual variability:</p>
+          <table class="data-table">
+            <tr><th>Phenotype</th><th>Genotype</th><th>Frequency</th><th>Clinical Effect</th></tr>
+            <tr><td>Poor metabolizer (PM)</td><td>*2/*2, *3/*3</td><td>2–5% European; 12–23% Asian</td><td>3–5× higher AUC; excellent acid suppression; may need dose reduction</td></tr>
+            <tr><td>Intermediate metabolizer (IM)</td><td>*1/*2, *1/*3</td><td>~25%</td><td>Moderately elevated exposure</td></tr>
+            <tr><td>Normal metabolizer (NM)</td><td>*1/*1</td><td>~50–60%</td><td>Standard dosing appropriate</td></tr>
+            <tr><td>Ultra-rapid metabolizer (URM)</td><td>*17/*17</td><td>~5–10% European</td><td>Very low AUC; may need higher doses for H. pylori eradication</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Clopidogrel interaction:</strong> Omeprazole is a potent CYP2C19 inhibitor; reduces clopidogrel activation by ~40–50% → potential reduced antiplatelet effect. Clinical significance debated; pantoprazole (weaker CYP2C19 inhibitor) preferred with clopidogrel.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Adverse Effects &amp; Long-Term Safety</h3>
+          <ul class="se-list">
+            <li><strong>Short-term (common, mild):</strong> Headache (5–7%), nausea (3–5%), diarrhea (2–4%), abdominal pain; generally well-tolerated</li>
+            <li><strong>Hypomagnesemia (long-term ≥1 year):</strong> Clinically significant in ~1%; mechanism uncertain (reduced TRPM6/TRPM7 transporter activity in gut); risk of tetany, arrhythmia; monitor Mg²⁺ in long-term users, especially on digoxin or diuretics</li>
+            <li><strong>Vitamin B12 deficiency (long-term):</strong> Reduced gastric acid → impaired pepsin-mediated release of protein-bound B12; risk increases with duration; annual B12 monitoring in long-term users &gt;50 years</li>
+            <li><strong>C. difficile infection:</strong> Elevated gastric pH allows C. difficile spore germination; ~1.7× increased risk; avoid unnecessary prolonged PPI use</li>
+            <li><strong>Fracture risk (osteoporosis):</strong> ~20–30% increased relative risk of hip/wrist/spine fractures; mechanism unclear; modest absolute risk; ensure adequate calcium/vitamin D in long-term PPI users</li>
+            <li><strong>Acute interstitial nephritis (rare):</strong> Idiosyncratic; may present as unexplained AKI; resolve on stopping PPI</li>
+            <li><strong>Community-acquired pneumonia:</strong> Elevated gastric pH → bacterial overgrowth → aspiration; small increased relative risk (~1.3×)</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Evidence</h3>
+          <table class="data-table">
+            <tr><th>Study</th><th>Key Finding</th></tr>
+            <tr><td><strong>Cochrane PPI vs H₂RA (Moayyedi 2007)</strong></td><td>PPIs significantly superior to H₂ blockers for healing of erosive esophagitis (OR ~0.33 for non-healing); similar symptom relief for non-erosive GERD</td></tr>
+            <tr><td><strong>Maastricht VI/Florence 2022</strong></td><td>PPI + clarithromycin + amoxicillin × 14 days: 80–90% H. pylori eradication in clarithromycin-susceptible regions; bismuth quadruple preferred empirically in areas with &gt;15% clarithromycin resistance</td></tr>
+            <tr><td><strong>NSAID ulcer prophylaxis RCTs</strong></td><td>PPI reduces NSAID-associated gastric/duodenal ulcer incidence by ~80% vs placebo; NNT ~5 in high-risk patients (age &gt;65, prior PUD)</td></tr>
+            <tr><td><strong>Discovery (Fellenius 1981)</strong></td><td>First demonstration that substituted benzimidazoles inhibit H⁺/K⁺-ATPase; identified the molecular target and covalent mechanism</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              H⁺/K⁺-ATPase (parietal cell)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Treats</span>
+              GERD / Peptic Ulcer
+            </a>
+            <a href="amoxicillin.html" class="conn-pill acts">
+              <span class="rel">Part-of</span>
+              H. pylori Eradication (triple therapy)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              CYP2C19 (inhibitor)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Fellenius E, Berglindh T, Sachs G, et al. Substituted benzimidazoles inhibit gastric acid secretion by blocking (H+ + K+)ATPase. <em>Nature.</em> 1981;290(5802):159-61. <a href="https://doi.org/10.1038/290159a0" target="_blank" rel="noopener noreferrer">doi:10.1038/290159a0</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/7207579/" target="_blank" rel="noopener noreferrer">PubMed 7207579</a></li>
+            <li>Moayyedi P, Santana J, Khan M, et al. Medical treatments in the short term management of reflux oesophagitis. <em>Cochrane Database Syst Rev.</em> 2007;(2):CD003244. <a href="https://doi.org/10.1002/14651858.CD003244.pub2" target="_blank" rel="noopener noreferrer">doi:10.1002/14651858.CD003244.pub2</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17443527/" target="_blank" rel="noopener noreferrer">PubMed 17443527</a></li>
+            <li>Malfertheiner P, Megraud F, Rokkas T, et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. <em>Gut.</em> 2022;71(9):1724-1762. <a href="https://doi.org/10.1136/gutjnl-2022-327745" target="_blank" rel="noopener noreferrer">doi:10.1136/gutjnl-2022-327745</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/35707400/" target="_blank" rel="noopener noreferrer">PubMed 35707400</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
