@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Antibody (Immunoglobulin) — Y-shaped glycoprotein secreted by plasma cells. Structure, isotypes (IgG/IgM/IgA/IgE/IgD), CDR antigen-binding, effector mechanisms, affinity maturation, monoclonal antibodies, and pathology. Human Engineering Atlas.">
+  <meta property="og:title" content="Antibody (Immunoglobulin) — Molecular Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Antibody (Immunoglobulin) — Molecular Atlas · Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#7c3aed;--accent-soft:rgba(124,58,237,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#f5f3ff 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    /* diagram block */
+    .diagram{background:var(--bg-3);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:1.2rem 1.4rem;overflow-x:auto;margin:1rem 0}
+    .diagram pre{font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:.8rem;line-height:1.65;color:var(--fg-soft)}
+    /* stat row */
+    .stat-row{display:flex;gap:2rem;flex-wrap:wrap;margin:1.25rem 0}
+    .stat{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.75rem 1rem;min-width:130px}
+    .stat-num{font-size:1.35rem;font-weight:800;color:var(--accent);line-height:1}
+    .stat-label{font-size:.72rem;color:var(--muted);margin-top:.25rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+    /* two-col grid */
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+    @media(max-width:600px){.two-col{grid-template-columns:1fr}}
+    .card-sm{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.9rem 1rem}
+    .card-sm h4{font-size:.88rem;font-weight:700;color:var(--fg);margin-bottom:.35rem}
+    .card-sm p{font-size:.84rem;color:var(--muted);line-height:1.55;margin:0}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="b-cell.html">B Cell</a>
+      <a href="immune-system.html">Immune System</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Atlas One &middot; Human &middot; Molecular &middot; Immunoglobulin</div>
+    <h1>Antibody <span>(Immunoglobulin)</span></h1>
+    <p class="hero-lead">Y-shaped glycoprotein secreted by plasma cells — the molecular arbiter of humoral immunity. Each antibody carries two antigen-binding Fab arms and one Fc tail that recruits effector mechanisms to eliminate pathogens and infected cells.</p>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">Isotype classes (IgG/M/A/E/D)</div></div>
+      <div class="stat"><div class="stat-num">~150 kDa</div><div class="stat-label">IgG molecular weight</div></div>
+      <div class="stat"><div class="stat-num">10&ndash;15 mg/mL</div><div class="stat-label">Serum IgG concentration</div></div>
+      <div class="stat"><div class="stat-num">6 CDRs</div><div class="stat-label">Antigen-contact loops per Fab</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Gene loci: <strong>IGH</strong> (chr 14q32) &middot; <strong>IGK</strong> (chr 2p11) &middot; <strong>IGL</strong> (chr 22q11)</span>
+  <span>Produced by: <strong>Plasma cells</strong> (terminally differentiated B cells)</span>
+  <span>Also known as: <strong>Immunoglobulin (Ig)</strong></span>
+</div>
+
+<div class="content">
+
+  <!-- OVERVIEW -->
+  <div class="section">
+    <h2>Overview</h2>
+    <p>Antibodies (immunoglobulins, Ig) are glycoproteins secreted at high rate by <strong>plasma cells</strong> &mdash; terminally differentiated B lymphocytes. Each molecule is built from two identical <strong>heavy chains</strong> and two identical <strong>light chains</strong> joined by disulfide bonds into the characteristic Y shape. The two "arms" of the Y each carry an antigen-binding site (Fab region); the "stem" is the Fc region that interacts with complement and Fc receptors on effector cells.</p>
+    <p>The human immune system can generate an estimated <strong>10<sup>12</sup> or more</strong> distinct antibody specificities through V(D)J recombination and somatic hypermutation. Once a B cell encounters its cognate antigen and receives T helper cell (Tfh) signals in the germinal center, it undergoes class-switch recombination and affinity maturation, exiting as a long-lived plasma cell that secretes high-affinity, class-switched antibody for years to decades.</p>
+    <p>Antibodies mediate protection through four principal mechanisms: <strong>neutralization</strong> (Fab arms physically block pathogen surface proteins), <strong>opsonization</strong> (Fc tail recruits Fc&gamma;R-bearing phagocytes), <strong>complement activation</strong> (classical pathway via C1q binding to Fc), and <strong>ADCC</strong> (Fc&gamma;RIII on NK cells triggers cytotoxic killing of antibody-coated target cells). Together these mechanisms make antibodies the effector molecules underlying both natural infection immunity and vaccine-elicited protection.</p>
+  </div>
+
+  <!-- STRUCTURE -->
+  <div class="section">
+    <h2>Structure</h2>
+
+    <h3>Overall architecture</h3>
+    <p>The canonical antibody monomer (exemplified by IgG) consists of four polypeptide chains: two identical <strong>heavy chains</strong> (~50 kDa each) and two identical <strong>light chains</strong> (~25 kDa each), linked by interchain disulfide bonds. The molecule is a symmetric homodimer at the heavy-chain level and is divided functionally into two Fab arms and one Fc region by the flexible <strong>hinge region</strong>.</p>
+
+    <div class="diagram">
+<pre>
+        Fab arm                          Fab arm
+   (antigen binding)               (antigen binding)
+   ┌──────────┐                     ┌──────────┐
+   │  VH + VL  │                    │  VH + VL  │
+   │ CDR1,2,3  │◄─── Paratope ─────►│ CDR1,2,3  │
+   │  (6 CDRs  │                    │  6 CDRs)  │
+   │ CH1 + CL  │                    │ CH1 + CL  │
+   └────┬──────┘                    └──────┬────┘
+        └──────────────┬────────────────────┘
+                  Hinge region
+                (flexible Pro/Cys-rich; ~15 aa in IgG1)
+                inter-heavy-chain disulfide bonds
+                       │
+                  ┌────┴─────┐
+                  │ Fc region │
+                  │  CH2+CH2  │ ← Asn297 glycan (N-linked)
+                  │           │ ← C1q binding (complement)
+                  │           │ ← Fc&gamma;R binding (macrophage/NK)
+                  │  CH3+CH3  │ ← FcRn binding (IgG half-life)
+                  └───────────┘
+</pre>
+    </div>
+
+    <h3>Fab region (Fragment antigen-binding)</h3>
+    <p>Each Fab arm is formed by the <strong>VH + CH1</strong> domains of a heavy chain paired with the <strong>VL + CL</strong> domains of a light chain. The antigen-binding site (the <strong>paratope</strong>) is formed by six <strong>complementarity-determining region (CDR)</strong> loops &mdash; CDR1, CDR2, and CDR3 from VH, plus CDR1, CDR2, and CDR3 from VL. These six loops come together at the tip of each Fab arm to create a surface that is precisely complementary to the epitope on the antigen. CDR3 is the most variable loop because it spans the VH&ndash;D&ndash;JH junction, where V(D)J recombination introduces the greatest junctional diversity via random nucleotide addition/deletion by TdT.</p>
+
+    <div class="callout">
+      <strong>Paratope specificity:</strong> The six CDR loops (3 from VH, 3 from VL) form an antigen-contact surface of roughly 600&ndash;900 &Aring;<sup>2</sup>. The precise shape and charge complementarity to the epitope determines affinity. After germinal center affinity maturation, K<sub>d</sub> values typically reach the pM&ndash;nM range, a 1,000&ndash;10,000-fold improvement over the na&iuml;ve IgM precursor.
+    </div>
+
+    <h3>Fc region (Fragment crystallizable)</h3>
+    <p>The Fc region consists of the paired <strong>CH2</strong> and <strong>CH3</strong> domains of both heavy chains. It has a constant sequence (within each isotype subclass) and does not contact antigen. Instead, Fc serves as the interface for effector cells and serum proteins:</p>
+    <ul>
+      <li><strong>C1q</strong> (complement): binds the CH2 domain of IgG1/IgG3 or the pentameric Fc of IgM &rarr; classical pathway activation</li>
+      <li><strong>Fc&gamma;R</strong> (Fc gamma receptors, I/IIa/IIb/IIIa/IIIb): on macrophages, neutrophils, NK cells, monocytes &rarr; opsonophagocytosis, ADCC, ADCP, immune complex clearance</li>
+      <li><strong>FcRn</strong> (neonatal Fc receptor): on vascular endothelial cells &rarr; pH-dependent rescue of IgG from lysosomal degradation, extending half-life to ~21 days; also mediates placental IgG transfer</li>
+    </ul>
+
+    <h3>Hinge region</h3>
+    <p>The hinge is a short, flexible, proline-rich segment between CH1 and CH2 that connects the two Fab arms to the Fc. Its flexibility allows the two Fab arms to swing independently and adopt variable angles, enabling bivalent binding to antigens on irregular surfaces. The hinge also harbours the interchain disulfide bonds between heavy chains. Hinge length and flexibility vary across isotypes: IgG3 has the longest hinge (~62 aa), IgA and IgD have intermediate hinges, while IgG1/2/4 have shorter hinges. The hinge is the protease-cleavage site exploited experimentally: <strong>papain</strong> cleaves above the disulfides &rarr; two separate Fab fragments + one Fc; <strong>pepsin</strong> cleaves below the disulfides &rarr; one bivalent F(ab&prime;)<sub>2</sub> fragment + Fc fragments.</p>
+
+    <h3>Light chains (&kappa; and &lambda;)</h3>
+    <p>Each antibody bears either two &kappa; or two &lambda; light chains (never a mixture). Both types consist of one variable domain (VL) and one constant domain (CL). The &kappa;:&lambda; ratio in healthy human serum is approximately 2:1. While light chains contribute significantly to antigen binding via their CDRs, they have no direct effector function through the Fc path. However, light chains are shed into serum and urine ("free light chains", FLCs) and their measurement is diagnostically important in multiple myeloma and AL amyloidosis.</p>
+
+    <h3>Glycosylation</h3>
+    <p>IgG carries a single N-linked oligosaccharide at <strong>Asn297</strong> of each CH2 domain (one per heavy chain, two per IgG molecule). This glycan is buried between the two CH2 domains and is essential for proper Fc conformation and effector function: removal of the glycan abolishes C1q binding and severely reduces Fc&gamma;R affinity. The glycan composition modulates function &mdash; afucosylation increases Fc&gamma;RIII affinity ~50-fold (enhanced ADCC); hypersialylation confers anti-inflammatory activity; hypogalactosylation is seen in RA and associated with increased complement activation. Therapeutic antibody engineers tune the glycan profile to optimise the desired effector balance.</p>
+  </div>
+
+  <!-- ISOTYPES -->
+  <div class="section">
+    <h2>Isotypes: The Five Immunoglobulin Classes</h2>
+    <p>Class-switch recombination (CSR) allows a single B cell clone to change the constant region of its heavy chain &mdash; and thus the isotype &mdash; while keeping the same antigen-binding V region. The isotype determines the antibody&rsquo;s physical form, half-life, tissue distribution, and effector capabilities.</p>
+    <table>
+      <tr>
+        <th>Isotype</th>
+        <th>Form</th>
+        <th>Serum conc.</th>
+        <th>Half-life</th>
+        <th>Key properties &amp; functions</th>
+      </tr>
+      <tr>
+        <td><strong>IgG</strong> (4 subclasses: IgG1&ndash;4)</td>
+        <td>Monomer (150 kDa)</td>
+        <td>~12 mg/mL (75% of total Ig)</td>
+        <td>~21 days (FcRn recycling)</td>
+        <td>Most abundant serum antibody; secondary immune response; crosses placenta (IgG1/3) via FcRn; complement activation (IgG1/3); ADCC via Fc&gamma;RIII on NK cells; opsonization; cornerstone of vaccine-elicited protection</td>
+      </tr>
+      <tr>
+        <td><strong>IgM</strong></td>
+        <td>Pentamer (900 kDa; 10 antigen-binding sites + J-chain)</td>
+        <td>~1.5 mg/mL</td>
+        <td>~5 days</td>
+        <td>First antibody produced in primary response; 10 Fab sites &rarr; very high avidity despite lower per-site affinity; exceptional complement activator (one IgM suffices vs. ~2 IgG for C1q); ABO blood group antibodies; cannot cross placenta</td>
+      </tr>
+      <tr>
+        <td><strong>IgA</strong> (IgA1, IgA2)</td>
+        <td>Serum: monomer (160 kDa); Secretory: dimer + J-chain + secretory component (385 kDa)</td>
+        <td>~2 mg/mL serum; dominant Ig in secretions</td>
+        <td>~6 days (serum)</td>
+        <td>Dominant mucosal antibody; secretory IgA (sIgA) in saliva, tears, breast milk, colostrum, intestinal secretions; prevents pathogen adherence to epithelial surfaces; poor complement activator; secretory component protects from proteolytic degradation; Fc&alpha;R on neutrophils/monocytes</td>
+      </tr>
+      <tr>
+        <td><strong>IgE</strong></td>
+        <td>Monomer (190 kDa; no hinge, extra CH domain)</td>
+        <td>~50 ng/mL (lowest of all isotypes)</td>
+        <td>~2 days (serum); weeks on mast cells</td>
+        <td>Extremely high-affinity binding to Fc&epsilon;RI on mast cells and basophils even without antigen; multivalent allergen cross-links cell-bound IgE &rarr; mast cell degranulation &rarr; histamine, leukotrienes, cytokines &rarr; type I hypersensitivity (allergy, anaphylaxis, allergic asthma); also roles in anti-helminth defense</td>
+      </tr>
+      <tr>
+        <td><strong>IgD</strong></td>
+        <td>Monomer (185 kDa)</td>
+        <td>~30 &mu;g/mL (very low)</td>
+        <td>~3 days</td>
+        <td>Co-expressed with IgM on the surface of na&iuml;ve B cells as part of the B cell receptor (BCR); sets activation threshold; nearly absent as secreted form; exact role in immunity incompletely understood; may regulate B cell homeostasis and basophil activation</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- ANTIGEN BINDING -->
+  <div class="section">
+    <h2>Antigen Binding: CDRs, Affinity, and Avidity</h2>
+
+    <h3>Complementarity-determining regions (CDRs)</h3>
+    <p>Six CDR loops form the paratope of each Fab arm: <strong>CDR-H1, CDR-H2, CDR-H3</strong> from the heavy chain variable domain, and <strong>CDR-L1, CDR-L2, CDR-L3</strong> from the light chain variable domain. The framework regions (FRs) between CDRs maintain the immunoglobulin fold scaffold but do not contact antigen. CDR lengths and sequences are the primary determinants of antibody specificity and affinity.</p>
+    <p><strong>CDR3</strong> (both heavy and light) is the most diverse CDR because it spans the recombination junction. In the heavy chain, CDR3 is formed at the VH&ndash;D&ndash;JH junctions, where TdT adds random N-nucleotides. CDR3 lengths and sequences vary enormously across the B cell repertoire, creating the dominant contribution to antigen-contact diversity.</p>
+
+    <h3>Molecular interactions at the antibody&ndash;antigen interface</h3>
+    <p>Antigen&ndash;antibody binding is non-covalent and reversible. It relies on a complementary fit between epitope and paratope through:</p>
+    <ul>
+      <li><strong>Hydrogen bonds</strong>: between polar/charged groups (backbone NH/C=O, Asn, Gln, Tyr, Ser, etc.)</li>
+      <li><strong>Electrostatic interactions</strong>: salt bridges between oppositely charged residues (Arg, Lys vs. Asp, Glu)</li>
+      <li><strong>Van der Waals forces</strong>: short-range London dispersion forces from closely packed surfaces</li>
+      <li><strong>Hydrophobic interactions</strong>: burial of apolar residues away from solvent; often a major driving force at protein&ndash;protein interfaces</li>
+    </ul>
+    <p>Binding affinity is quantified as the equilibrium dissociation constant <strong>K<sub>d</sub></strong>. Na&iuml;ve IgM BCRs have K<sub>d</sub> ~10<sup>&minus;6</sup> M (&mu;M); after affinity maturation in germinal centers, mature IgG antibodies typically reach K<sub>d</sub> ~10<sup>&minus;9</sup>&ndash;10<sup>&minus;12</sup> M (nM to pM). Therapeutic monoclonal antibodies are frequently engineered or selected at pM affinity.</p>
+
+    <h3>Affinity vs. avidity</h3>
+    <div class="two-col">
+      <div class="card-sm">
+        <h4>Affinity</h4>
+        <p>Strength of a single antigen-binding site for a single epitope. Described by K<sub>d</sub> (or the association constant K<sub>a</sub> = 1/K<sub>d</sub>). Determined by CDR sequence. Improved by somatic hypermutation + germinal center selection.</p>
+      </div>
+      <div class="card-sm">
+        <h4>Avidity</h4>
+        <p>Total binding strength of the whole antibody molecule, accounting for multiple simultaneous binding events. A pentameric IgM has 10 potential binding sites &rarr; even if each site has moderate affinity (&mu;M K<sub>d</sub>), the effective avidity for a multivalent antigen (e.g., polysaccharide repeats) can be in the pM range. This is why IgM is an excellent first-responder antibody despite lacking affinity maturation.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- EFFECTOR MECHANISMS -->
+  <div class="section">
+    <h2>Effector Mechanisms</h2>
+
+    <h3>1. Neutralization</h3>
+    <p>Antibody Fab arms physically block biologically active sites on pathogens or toxins, preventing host cell receptor engagement. Neutralization is purely a Fab-mediated function &mdash; no Fc effectors are required. Examples: anti-spike RBD antibodies blocking SARS-CoV-2 ACE2 binding; anti-hemagglutinin antibodies blocking influenza HA binding to sialic acid; anti-diphtheria toxin antibodies blocking receptor binding. Neutralization is the dominant protective mechanism measured by plaque-reduction neutralization tests (PRNT) and virus neutralization titers (VNT) as vaccine correlates of protection.</p>
+
+    <h3>2. Opsonization</h3>
+    <p>IgG coating pathogen surfaces (opsonization) dramatically enhances phagocytosis. Fc&gamma;R-bearing professional phagocytes (macrophages, neutrophils, monocytes) bind the IgG Fc tail via activating Fc&gamma;RI (CD64), Fc&gamma;RIIa (CD32a), and Fc&gamma;RIIIa (CD16a), triggering internalization of the antibody&ndash;pathogen complex and intracellular killing (oxidative burst + lysosomal enzymes). This is termed <strong>antibody-dependent cellular phagocytosis (ADCP)</strong>.</p>
+
+    <h3>3. Complement activation (classical pathway)</h3>
+    <div class="diagram">
+<pre>
+  IgG array on pathogen surface (or pentameric IgM)
+               │
+               ▼
+        C1q recognises Fc (CH2 domain)
+        C1q &rarr; C1r &rarr; C1s activation (C1 complex)
+               │
+               ▼
+        C1s cleaves C4 &rarr; C4b (covalent attachment to surface) + C4a
+        C4b + C2 &rarr; C4b2a (classical pathway C3 convertase)
+               │
+               ▼
+        C3 &rarr; C3b (opsonin) + C3a (anaphylatoxin)
+               │
+               ├─ C3b on surface &rarr; CR1 on phagocytes &rarr; phagocytosis
+               │
+               ├─ C4b2a + C3b &rarr; C5 convertase &rarr; C5a + C5b
+               │
+               └─ C5b + C6-C9 &rarr; MAC (membrane attack complex)
+                              &rarr; lysis of Gram-negative bacteria
+</pre>
+    </div>
+    <p>IgM is the most potent activator because its pentameric Fc arrangement presents multiple C1q-binding sites simultaneously. Among IgG subclasses, IgG3 &gt; IgG1 &gt;&gt; IgG2 &gt;&gt; IgG4 for classical pathway activation. At least 2&ndash;3 IgG Fc domains in proximity are required to activate C1q, hence antibody clustering on the antigen surface is required.</p>
+
+    <h3>4. ADCC (Antibody-Dependent Cellular Cytotoxicity)</h3>
+    <p>IgG bound to target cell surface antigens (e.g., viral proteins on infected cells, tumour antigens) presents Fc tails to <strong>Fc&gamma;RIII (CD16)</strong> on NK cells. Engagement crosslinks CD16, triggering NK cell activation and release of perforin and granzymes &rarr; target cell apoptosis. ADCC is Fab-guided but Fc-executed. It requires no MHC class I recognition, making it effective against MHC-downregulating viruses and tumours. ADCC is a major mechanism of action for therapeutic antibodies such as trastuzumab (HER2), rituximab (CD20), and cetuximab (EGFR).</p>
+  </div>
+
+  <!-- AFFINITY MATURATION -->
+  <div class="section">
+    <h2>Somatic Hypermutation and Affinity Maturation</h2>
+    <p>After antigen-activated B cells seed germinal centers (GCs) in secondary lymphoid organs, they enter a Darwinian selection cycle that dramatically improves antibody affinity:</p>
+    <ol>
+      <li><strong>Dark zone proliferation:</strong> GC B cells (centroblasts) proliferate rapidly. <strong>Activation-induced cytidine deaminase (AID, encoded by <em>AICDA</em>)</strong> deaminates cytosines to uracils in variable-region (V-region) DNA at a rate ~10<sup>&minus;3</sup> mutations/base/division &mdash; one million times the background rate. This introduces point mutations throughout V<sub>H</sub> and V<sub>L</sub>, predominantly targeting CDRs.</li>
+      <li><strong>Light zone selection:</strong> Mutant B cells (centrocytes) move to the light zone and compete for limiting native antigen displayed on follicular dendritic cells (FDCs). B cells with BCRs carrying affinity-enhancing mutations capture more antigen, process it, and present more pMHC-II to Tfh cells. This results in more CD40L:CD40 signaling and more IL-21, giving high-affinity clones a survival and proliferative advantage.</li>
+      <li><strong>Iterative cycles:</strong> B cells cycle between dark zone (mutate) and light zone (select) multiple times over 1&ndash;3 weeks. Each cycle preferentially enriches higher-affinity clones and eliminates lower-affinity or autoreactive ones (negative selection via Fas/FasL).</li>
+      <li><strong>Exit:</strong> Affinity-matured B cells exit the GC as <strong>long-lived plasma cells (LLPCs)</strong> migrating to bone marrow niches where they continuously secrete high-affinity IgG for decades, or as <strong>memory B cells</strong> ready for rapid recall on antigen re-exposure.</li>
+    </ol>
+    <div class="callout">
+      <strong>Affinities before and after maturation:</strong> Na&iuml;ve IgM BCR K<sub>d</sub> ~10<sup>&minus;5</sup>&ndash;10<sup>&minus;6</sup> M; affinity-matured secreted IgG K<sub>d</sub> typically 10<sup>&minus;9</sup>&ndash;10<sup>&minus;12</sup> M. This 10,000-fold improvement is the basis of why secondary immune responses (recall, boosters) generate dramatically more protective antibody than primary responses.
+    </div>
+  </div>
+
+  <!-- CLINICAL APPLICATIONS -->
+  <div class="section">
+    <h2>Clinical Applications</h2>
+    <table>
+      <tr>
+        <th>Application</th>
+        <th>Examples</th>
+        <th>Mechanism / Notes</th>
+      </tr>
+      <tr>
+        <td><strong>Monoclonal antibodies (mAbs)</strong></td>
+        <td>Adalimumab, infliximab (anti-TNF-&alpha;); bevacizumab (anti-VEGF); pembrolizumab, nivolumab (anti-PD-1/PD-L1); rituximab (anti-CD20); trastuzumab (anti-HER2); tocilizumab, sarilumab (anti-IL-6R); secukinumab, ixekizumab (anti-IL-17A)</td>
+        <td>IgG1 or IgG4 scaffold; &minus;mab suffix (WHO INN); targets include cytokines (autoimmune), growth factor receptors (oncology), and immune checkpoints (cancer immunotherapy). &gt;100 mAbs approved worldwide.</td>
+      </tr>
+      <tr>
+        <td><strong>Bispecific antibodies</strong></td>
+        <td>Blinatumomab (CD3 &times; CD19); catumaxomab (CD3 &times; EpCAM); amivantamab (EGFR &times; MET)</td>
+        <td>Two different Fab specificities in one molecule; redirect T cells to kill tumour cells (blinatumomab) or simultaneously block two tumour-promoting pathways.</td>
+      </tr>
+      <tr>
+        <td><strong>Antibody-drug conjugates (ADCs)</strong></td>
+        <td>Trastuzumab emtansine (T-DM1, HER2+ breast cancer); sacituzumab govitecan (anti-Trop-2); enfortumab vedotin (anti-Nectin-4)</td>
+        <td>mAb linked via chemical linker to cytotoxic payload (maytansine, auristatin, camptothecin analogue). Antibody provides tumour selectivity; payload kills cell after internalization.</td>
+      </tr>
+      <tr>
+        <td><strong>IVIG (intravenous immunoglobulin)</strong></td>
+        <td>Primary antibody deficiencies (XLA, CVID); Kawasaki disease; Guillain-Barr&eacute; syndrome; immune thrombocytopenia (ITP)</td>
+        <td>Pooled polyclonal IgG from &ge;1,000 donors; replacement therapy in antibody deficiency; immunomodulation (FcRn saturation accelerates pathogenic IgG clearance; Fc&gamma;RIIb inhibitory receptor engagement; anti-idiotype neutralization).</td>
+      </tr>
+      <tr>
+        <td><strong>Diagnostics</strong></td>
+        <td>ELISA; immunofluorescence; flow cytometry; pregnancy tests (anti-hCG); COVID-19 rapid antigen tests; Western blot</td>
+        <td>All exploit specific antibody&ndash;antigen binding. Diagnostic antibodies may be polyclonal (serum-derived) or monoclonal (hybridoma or recombinant). Lateral flow assays use colloidal gold-conjugated antibodies visible to the naked eye.</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- PATHOLOGY -->
+  <div class="section">
+    <h2>Pathology</h2>
+    <table>
+      <tr>
+        <th>Disease / Condition</th>
+        <th>Antibody mechanism</th>
+        <th>Clinical features &amp; treatment</th>
+      </tr>
+      <tr>
+        <td><strong>Hypogammaglobulinemia / CVID</strong></td>
+        <td>B cell maturation defect &rarr; severely low IgG (&lt;7 g/L) &rarr; absent humoral immunity</td>
+        <td>Recurrent sinopulmonary infections (encapsulated bacteria: <em>S. pneumoniae</em>, <em>H. influenzae</em>); treated with lifelong IVIG or SCIG replacement</td>
+      </tr>
+      <tr>
+        <td><strong>Multiple myeloma</strong></td>
+        <td>Malignant plasma cell clone overproduces a single monoclonal Ig species (M protein); light chain overflow &rarr; AL amyloid or cast nephropathy</td>
+        <td>Bone lytic lesions, hypercalcemia, renal failure, anemia; M protein on SPEP/immunofixation; free light chains in urine (Bence Jones protein). Treatment: bortezomib, lenalidomide, daratumumab (anti-CD38 mAb)</td>
+      </tr>
+      <tr>
+        <td><strong>Type I hypersensitivity (IgE-mediated)</strong></td>
+        <td>IgE cross-linking on mast cells by multivalent allergen &rarr; FcεRI aggregation &rarr; degranulation &rarr; histamine, leukotrienes, prostaglandins</td>
+        <td>Anaphylaxis, allergic asthma, urticaria, allergic rhinitis; treated with antihistamines, corticosteroids, epinephrine (anaphylaxis), omalizumab (anti-IgE mAb)</td>
+      </tr>
+      <tr>
+        <td><strong>Autoimmune disease (pathogenic autoantibodies)</strong></td>
+        <td>IgG autoantibodies target self-antigens: anti-dsDNA (SLE); anti-GBM (Goodpasture); anti-TPO (Hashimoto&rsquo;s thyroiditis); anti-TSHR (Graves&rsquo; disease); anti-AChR (myasthenia gravis); RF + ACPA (rheumatoid arthritis)</td>
+        <td>Type II (cytotoxic) or type III (immune complex) hypersensitivity; tissue/organ damage; treatment: corticosteroids, immunosuppression, rituximab, plasmapheresis (remove pathogenic antibodies)</td>
+      </tr>
+      <tr>
+        <td><strong>Hemolytic disease of the fetus/newborn (HDFN)</strong></td>
+        <td>Maternal IgG anti-D (Rh system) crosses placenta via FcRn &rarr; opsonization and complement-mediated lysis of Rh-positive fetal erythrocytes</td>
+        <td>Fetal/neonatal hemolytic anemia, hydrops fetalis (severe cases); prevention: Rh(D) immunoglobulin (Rh-immune globulin/RhoGAM) given to Rh-negative mothers at delivery or miscarriage</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- CONNECTIONS -->
+  <div class="section">
+    <h2>Cross-Atlas Connections</h2>
+    <ul class="conn-list">
+      <li>
+        <span class="conn-rel">Produced by</span>
+        <a href="b-cell.html">B cell</a> &mdash; antigen recognition via BCR (surface-bound antibody); germinal center reaction generates affinity-matured class-switched B cells
+      </li>
+      <li>
+        <span class="conn-rel">Secreted by</span>
+        <a href="plasma-cell.html">Plasma cell</a> &mdash; terminally differentiated B cell; long-lived plasma cells in bone marrow secrete up to 2,000 antibody molecules per second continuously for decades
+      </li>
+      <li>
+        <span class="conn-rel">Activates</span>
+        <a href="complement-c3.html">Complement C3</a> &mdash; IgG/IgM Fc binding to C1q initiates classical pathway &rarr; C3 convertase &rarr; C3b opsonization, C3a anaphylatoxin, and MAC
+      </li>
+      <li>
+        <span class="conn-rel">Matured by</span>
+        <a href="t-helper-cell.html">T helper cell (Tfh)</a> &mdash; follicular T helper cells provide CD40L, IL-21, and ICOS signals essential for germinal center reaction, class switching, and affinity maturation
+      </li>
+      <li>
+        <span class="conn-rel">Recruits</span>
+        <a href="macrophage.html">Macrophage</a> &mdash; IgG Fc binds Fc&gamma;R on macrophages &rarr; opsonophagocytosis (ADCP) and respiratory burst killing of opsonized pathogens
+      </li>
+      <li>
+        <span class="conn-rel">Recruits</span>
+        <a href="natural-killer-cell.html">Natural killer cell</a> &mdash; IgG Fc binds Fc&gamma;RIII (CD16) on NK cells &rarr; ADCC; NK cell releases perforin/granzymes &rarr; apoptosis of antibody-coated target cells
+      </li>
+    </ul>
+  </div>
+
+  <!-- REFERENCES -->
+  <div class="section references">
+    <h2>References</h2>
+    <ol>
+      <li>Janeway CA Jr, Travers P, Walport M, Shlomchik MJ. <em>Immunobiology: The Immune System in Health and Disease.</em> 9th ed. Garland Science; 2017.</li>
+      <li>Schroeder HW Jr, Cavacini L. Structure and function of immunoglobulins. <em>J Allergy Clin Immunol.</em> 2010;125(2 Suppl 2):S41&ndash;52. doi:<a href="https://doi.org/10.1016/j.jaci.2009.09.046" target="_blank" rel="noopener">10.1016/j.jaci.2009.09.046</a></li>
+      <li>Weiner LM, Surana R, Wang S. Monoclonal antibodies: versatile platforms for cancer immunotherapy. <em>Nat Rev Immunol.</em> 2010;10(5):317&ndash;327. doi:<a href="https://doi.org/10.1038/nri2744" target="_blank" rel="noopener">10.1038/nri2744</a></li>
+      <li>Victora GD, Nussenzweig MC. Germinal centers. <em>Annu Rev Immunol.</em> 2012;30:429&ndash;457. doi:<a href="https://doi.org/10.1146/annurev-immunol-020711-075032" target="_blank" rel="noopener">10.1146/annurev-immunol-020711-075032</a></li>
+      <li>Vidarsson G, Dekkers G, Rispens T. IgG subclasses and allotypes: from structure to effector functions. <em>Front Immunol.</em> 2014;5:520. doi:<a href="https://doi.org/10.3389/fimmu.2014.00520" target="_blank" rel="noopener">10.3389/fimmu.2014.00520</a></li>
+    </ol>
+  </div>
+
+</div><!-- /content -->
+
+<footer>
+  <p>Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, global model of human biology and medicine &mdash; in the service of all of humanity.</p>
+  <p style="margin-top:.6rem;">
+    <a href="index.html">Home</a> &nbsp;&middot;&nbsp;
+    <a href="b-cell.html">B Cell</a> &nbsp;&middot;&nbsp;
+    <a href="plasma-cell.html">Plasma Cell</a> &nbsp;&middot;&nbsp;
+    <a href="immune-system.html">Immune System</a> &nbsp;&middot;&nbsp;
+    <a href="complement-c3.html">Complement C3</a> &nbsp;&middot;&nbsp;
+    <a href="immunoglobulin-g.html">IgG</a> &nbsp;&middot;&nbsp;
+    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+  </p>
+  <p style="margin-top:.75rem;">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+</footer>
+
+</body>
+</html>

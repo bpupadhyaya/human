@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Erythropoietin (EPO) — primary glycoprotein hormone regulating erythropoiesis. Renal production, HIF-2α/PHD/VHL axis, JAK2/STAT5 signaling, therapeutic ESAs, blood doping, and CKD anemia. Human Engineering molecular atlas.">
+  <meta property="og:title" content="Erythropoietin (EPO) — Molecular Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Erythropoietin (EPO) — Molecular Atlas · Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff1f2 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    .diagram{background:var(--bg-3);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:1.2rem 1.4rem;overflow-x:auto;margin:1rem 0}
+    .diagram pre{font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:.8rem;line-height:1.65;color:var(--fg-soft)}
+    .stat-row{display:flex;gap:2rem;flex-wrap:wrap;margin:1.25rem 0}
+    .stat{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.75rem 1rem;min-width:130px}
+    .stat-num{font-size:1.35rem;font-weight:800;color:var(--accent);line-height:1}
+    .stat-label{font-size:.72rem;color:var(--muted);margin-top:.25rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="bone-marrow.html">Bone Marrow</a>
+      <a href="kidney.html">Kidney</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Atlas One &middot; Human &middot; Molecular &middot; Hormone &middot; Hematopoietic</div>
+    <h1>Erythro<span>poietin</span></h1>
+    <p class="hero-lead">EPO (erythropoietin) &mdash; the primary glycoprotein hormone regulating erythropoiesis. Produced primarily by peritubular interstitial cells of the renal cortex in response to hypoxia, EPO stimulates red blood cell production by preventing apoptosis of erythroid progenitors in bone marrow. The prototype hematopoietic growth factor and the basis of a major class of therapeutic biologics.</p>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num">165 aa</div><div class="stat-label">Mature protein</div></div>
+      <div class="stat"><div class="stat-num">~34 kDa</div><div class="stat-label">Molecular weight (glycosylated)</div></div>
+      <div class="stat"><div class="stat-num">P01588</div><div class="stat-label">UniProt ID</div></div>
+      <div class="stat"><div class="stat-num">4&ndash;26 mIU/mL</div><div class="stat-label">Normal serum range</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Gene: <strong>EPO</strong> &middot; 7q22.1</span>
+  <span>UniProt: <strong>P01588</strong></span>
+  <span>~34 kDa (glycosylated)</span>
+  <span>Normal range: <strong>4&ndash;26 mIU/mL</strong></span>
+</div>
+
+<div class="content">
+
+  <!-- OVERVIEW -->
+  <div class="section">
+    <h2>Overview</h2>
+    <p>EPO is a <strong>165-amino-acid glycoprotein</strong> with four glycosylation sites (3 N-linked + 1 O-linked); the carbohydrate chains account for approximately 40% of the molecular weight and are critical for circulating half-life (desialylation leads to rapid hepatic clearance). The mature hormone is secreted primarily by <strong>Type I interstitial fibroblast-like cells</strong> in the peritubular capillary region of the renal cortex (~85% of total EPO production) and by hepatocytes (~15%); minor amounts arise from macrophages and brain astrocytes.</p>
+    <p>EPO gene transcription is governed by the <strong>HIF (hypoxia-inducible factor) pathway</strong>. HIF-2&alpha; is the dominant transcription factor acting at the 3&prime; enhancer of the EPO gene. Under normoxia, <strong>PHD (prolyl hydroxylase domain) enzymes</strong> hydroxylate prolyl residues on HIF-2&alpha;; this creates a binding site for the <strong>VHL E3 ubiquitin ligase complex</strong>, which polyubiquitylates HIF-2&alpha; for proteasomal degradation. Under hypoxia, PHD enzymes become inactive (require O&sub2; as a co-substrate) &rarr; HIF-2&alpha; escapes degradation &rarr; translocates to the nucleus &rarr; binds HRE (hypoxia response element) in the EPO 3&prime; enhancer &rarr; EPO gene transcription. This sensing mechanism allows EPO levels to rise up to 1000-fold above baseline in severe hypoxia.</p>
+    <div class="diagram">
+<pre>
+  NORMOXIA                           HYPOXIA
+  ─────────────────────────────────────────────────
+  PHD enzymes (O₂ present)          PHD enzymes INACTIVE
+       │                                  │
+       ▼                                  ▼
+  HIF-2α hydroxylated (Pro405, Pro531)   HIF-2α unmodified
+       │                                  │
+       ▼                                  ▼
+  VHL binding → ubiquitylation           HIF-2α stable
+       │                                  │
+       ▼                                  ▼
+  Proteasomal degradation                Nuclear translocation
+  (HIF-2α ~5-min half-life)             │
+                                         ▼
+                                   EPO 3′ HRE enhancer
+                                         │
+                                         ▼
+                                   EPO gene transcription ↑↑↑
+                                   (up to 1000× above baseline)
+</pre>
+    </div>
+  </div>
+
+  <!-- MECHANISM OF ACTION -->
+  <div class="section">
+    <h2>Mechanism of Action</h2>
+    <p>EPO binds the <strong>homodimeric EPO receptor (EPOR)</strong> expressed on erythroid progenitors: BFU-E (burst-forming unit&ndash;erythroid), CFU-E (colony-forming unit&ndash;erythroid), and proerythroblasts. EPOR dimerization is induced by EPO binding, bringing two associated <strong>JAK2</strong> kinase molecules into proximity; trans-phosphorylation activates JAK2, which phosphorylates STAT5. Phospho-STAT5 dimerizes and translocates to the nucleus to drive expression of:</p>
+    <ul>
+      <li><strong>Anti-apoptotic genes:</strong> Bcl-2, Bcl-x<sub>L</sub> &mdash; preventing programmed death of erythroid progenitors, which would otherwise undergo apoptosis without EPO signaling</li>
+      <li><strong>Erythroid differentiation genes:</strong> GATA-1 targets, globin genes, heme biosynthesis enzymes</li>
+    </ul>
+    <p>Parallel signaling through <strong>PI3K/Akt</strong> (survival, protein synthesis) and <strong>Ras/MAPK</strong> (proliferation) amplifies the erythropoietic response. The net effect is a dramatically accelerated transition from proerythroblast &rarr; basophilic erythroblast &rarr; reticulocyte &rarr; mature RBC, which is released into circulation and survives approximately 120 days.</p>
+    <div class="callout">
+      <strong>JAK2 V617F mutation:</strong> In polycythemia vera, a gain-of-function point mutation (Val617Phe) in JAK2 renders the kinase constitutively active, signaling erythropoiesis regardless of EPO binding. EPOR does not need to be occupied. Result: erythrocytosis despite <em>suppressed</em> serum EPO levels &mdash; the key diagnostic discriminator from EPO-driven secondary erythrocytosis.
+    </div>
+  </div>
+
+  <!-- REGULATION -->
+  <div class="section">
+    <h2>Regulation</h2>
+    <table>
+      <tr>
+        <th>Stimulus / Condition</th>
+        <th>Effect on EPO</th>
+        <th>Mechanism / Notes</th>
+      </tr>
+      <tr>
+        <td><strong>Renal hypoxia</strong> (anemia, high altitude, CO exposure, cardiac failure)</td>
+        <td>&#8593; EPO (up to 1000&times; above baseline)</td>
+        <td>PHD inactivation &rarr; HIF-2&alpha; stabilization &rarr; EPO 3&prime; HRE transactivation</td>
+      </tr>
+      <tr>
+        <td><strong>Normoxia / polycythemia</strong></td>
+        <td>&#8595; EPO (negative feedback)</td>
+        <td>High O&sub2; delivery &rarr; PHD active &rarr; HIF-2&alpha; degraded; raised RBC mass reduces renal hypoxic signal</td>
+      </tr>
+      <tr>
+        <td><strong>Testosterone</strong></td>
+        <td>&#8593; EPO production</td>
+        <td>Stimulates renal EPO synthesis; explains higher hemoglobin in males (~2 g/dL above females)</td>
+      </tr>
+      <tr>
+        <td><strong>Estrogen</strong></td>
+        <td>Mildly &#8595; EPO</td>
+        <td>Explains slightly lower hemoglobin in pre-menopausal females; mechanism incompletely characterized</td>
+      </tr>
+      <tr>
+        <td><strong>Chronic kidney disease (CKD)</strong></td>
+        <td>&#8595; EPO despite anemia</td>
+        <td>Progressive fibrosis destroys peritubular interstitial cells; residual cells cannot upregulate EPO in response to hypoxia &rarr; relative EPO deficiency &rarr; normocytic normochromic anemia of CKD</td>
+      </tr>
+      <tr>
+        <td><strong>Polycythemia vera (JAK2 V617F)</strong></td>
+        <td>&#8595; EPO (suppressed)</td>
+        <td>Autonomous JAK2 activation drives erythropoiesis; high RBC mass suppresses renal EPO production; low EPO + high Hb + JAK2 mutation = diagnostic triad</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- CLINICAL MEASUREMENT -->
+  <div class="section">
+    <h2>Clinical Measurement and Interpretation</h2>
+    <p>Serum EPO is measured by immunoassay (normal: <strong>4&ndash;26 mIU/mL</strong>). The EPO level, interpreted in the context of hemoglobin and clinical picture, differentiates causes of erythrocytosis and anemia:</p>
+    <table>
+      <tr>
+        <th>EPO level</th>
+        <th>Clinical scenario</th>
+        <th>Interpretation</th>
+      </tr>
+      <tr>
+        <td><strong>Elevated (appropriate)</strong></td>
+        <td>Anemia (iron deficiency, hemolysis, CKD &mdash; early/mild), high altitude, hypoxic lung disease</td>
+        <td>Normal physiological response; EPO rises proportionately to degree of anemia / hypoxia</td>
+      </tr>
+      <tr>
+        <td><strong>Elevated (inappropriate)</strong></td>
+        <td>EPO-secreting tumors with normal / high Hb</td>
+        <td>Paraneoplastic EPO: renal cell carcinoma (most common), hepatocellular carcinoma, cerebellar hemangioblastoma, uterine fibroid; autonomously secreted EPO &rarr; polycythemia</td>
+      </tr>
+      <tr>
+        <td><strong>Low / suppressed</strong></td>
+        <td>CKD anemia (established), polycythemia vera, primary bone marrow failure</td>
+        <td>CKD: EPO below expected for degree of anemia; polycythemia vera: low EPO + JAK2 V617F; aplastic anemia: EPO elevated (marrow cannot respond)</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- THERAPEUTIC APPLICATIONS -->
+  <div class="section">
+    <h2>Therapeutic Applications</h2>
+    <table>
+      <tr>
+        <th>Agent</th>
+        <th>Class / Route</th>
+        <th>Indications and Key Trial Data</th>
+      </tr>
+      <tr>
+        <td><strong>Epoetin alfa</strong> (Epogen, Procrit)</td>
+        <td>Recombinant human EPO (rHuEPO); identical amino acid sequence, similar glycosylation; SC or IV</td>
+        <td>CKD anemia (Hb target 10&ndash;12 g/dL; TREAT, CHOIR trials: Hb targets &gt;13 g/dL increase CV events and stroke risk); cancer chemotherapy-induced anemia; HIV/AZT anemia; pre-surgery autologous blood donation. IV half-life ~4&ndash;13 h.</td>
+      </tr>
+      <tr>
+        <td><strong>Darbepoetin alfa</strong> (Aranesp)</td>
+        <td>Hyperglycosylated EPO analog; 5 N-glycosylation sites (vs. 3 in epoetin); SC or IV</td>
+        <td>Same indications as epoetin; ~3&times; longer half-life &rarr; every-1&ndash;2-week dosing. TREAT trial (T2DM + CKD): neutral on CV death/MI but ~2&times; stroke risk at high Hb targets &mdash; confirmed that aggressive Hb correction is harmful.</td>
+      </tr>
+      <tr>
+        <td><strong>Methoxy-PEG-epoetin beta</strong> (Mircera)</td>
+        <td>PEGylated long-acting ESA; SC or IV</td>
+        <td>CKD anemia; once-monthly dosing in stable patients; extended half-life via PEG shielding from renal clearance and receptor-mediated catabolism.</td>
+      </tr>
+      <tr>
+        <td><strong>HIF-PHD inhibitors</strong> (Roxadustat, Daprodustat, Vadadustat)</td>
+        <td>Oral small molecules; inhibit PHD1/2/3 &rarr; HIF-1&alpha;/2&alpha; stabilization &rarr; endogenous EPO &#8593; + iron mobilization</td>
+        <td>CKD anemia (both dialysis and non-dialysis-dependent); approved in Japan, China, EU, UK; FDA approved Daprodustat 2023. Advantages: oral dosing, improved iron mobilization (reduce hepcidin), no cold-chain; cardiovascular safety under ongoing review.</td>
+      </tr>
+      <tr>
+        <td><strong>Anemia of chronic disease</strong></td>
+        <td>Adjunctive rHuEPO; requires concurrent iron</td>
+        <td>Must exclude absolute iron deficiency (Tsat &lt;20%, ferritin &lt;100 ng/mL) before ESA use; iron supplementation often required for adequate ESA response; ESA hyporesponsiveness with TSAT &lt;20% = iron-deficient erythropoiesis despite adequate EPO.</td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>TREAT/CHOIR lesson:</strong> Targeting Hb &gt;13 g/dL with ESAs in CKD does not reduce cardiovascular events and increases stroke risk. Current guidelines (KDIGO 2012, updated 2024) recommend individualizing ESA therapy, generally targeting Hb 10&ndash;11.5 g/dL, and not exceeding 13 g/dL. Quality of life &mdash; not cardiovascular outcomes &mdash; is the primary benefit of ESA therapy.
+    </div>
+  </div>
+
+  <!-- EPO IN SPORTS -->
+  <div class="section">
+    <h2>EPO in Blood Doping and Sport</h2>
+    <p>EPO increases RBC mass and hemoglobin concentration, raising maximal oxygen uptake (VO&sub2;max). In elite endurance sport, a 5&ndash;10% improvement in VO&sub2;max can represent a decisive competitive advantage. EPO doping became widespread in professional cycling in the late 1980s and 1990s and is associated with multiple unexplained deaths from suspected thromboembolic complications (polycythemia &rarr; hyperviscosity &rarr; nocturnal bradycardia + haemoconcentration &rarr; thrombosis).</p>
+    <p><strong>Detection methods:</strong></p>
+    <ul>
+      <li><strong>Biological Passport</strong>: longitudinal tracking of haematocrit, reticulocyte count, and the OFF-score (indirect markers of EPO use; abnormal profile triggers investigation)</li>
+      <li><strong>Urine isoelectric focusing (IEF)</strong>: recombinant EPO has a different charge/isoform pattern than endogenous EPO (more basic isoforms due to different glycosylation); direct detection; window ~72 h post-dose</li>
+      <li><strong>CERA (PEGylated Mircera)</strong>: PEG groups alter the isoform pattern; initially harder to detect; specific IEF and antibody-based tests now validated</li>
+      <li><strong>SDS-PAGE / double-blot test</strong>: distinguishes EPO molecular weight bands from endogenous vs. recombinant forms</li>
+    </ul>
+    <p>Pharmacological doses of EPO producing haematocrit &gt;50% are associated with severe hyperviscosity syndrome, spontaneous arterial and venous thrombosis, pulmonary embolism, and stroke.</p>
+  </div>
+
+  <!-- PATHOLOGY -->
+  <div class="section">
+    <h2>Pathology</h2>
+    <table>
+      <tr>
+        <th>Condition</th>
+        <th>EPO level</th>
+        <th>Mechanism / Notes</th>
+      </tr>
+      <tr>
+        <td><strong>CKD anemia</strong></td>
+        <td>Low / inappropriately normal</td>
+        <td>Normochromic normocytic anemia; relative EPO deficiency from loss of peritubular fibroblasts; treat iron deficiency first, then ESA if Hb &lt;10 g/dL; most common cause of normocytic anemia in a CKD patient</td>
+      </tr>
+      <tr>
+        <td><strong>Secondary erythrocytosis (EPO-secreting tumor)</strong></td>
+        <td>Elevated</td>
+        <td>Renal cell carcinoma = most common cause; also hepatocellular carcinoma, cerebellar hemangioblastoma; High EPO + high Hb + no JAK2 V617F mutation; imaging to find tumor is mandatory</td>
+      </tr>
+      <tr>
+        <td><strong>Polycythemia vera</strong></td>
+        <td>Suppressed (&lt;4 mIU/mL)</td>
+        <td>JAK2 V617F gain-of-function; autonomous erythropoiesis; low EPO + high Hb + JAK2 mutation; high thrombosis risk; treat with phlebotomy ± hydroxyurea ± ruxolitinib</td>
+      </tr>
+      <tr>
+        <td><strong>Aplastic anemia</strong></td>
+        <td>Very elevated</td>
+        <td>Pancytopenia due to stem cell destruction; EPO rises appropriately but bone marrow cannot respond; EPO not useful therapeutically (no responsive progenitors); treat with immunosuppression or allogeneic HSCT</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- CONNECTIONS -->
+  <div class="section">
+    <h2>Cross-Atlas Connections</h2>
+    <ul class="conn-list">
+      <li>
+        <span class="conn-rel">Stimulates</span>
+        <a href="bone-marrow.html">Bone marrow</a> &mdash; EPO prevents apoptosis of BFU-E, CFU-E, and proerythroblasts via JAK2/STAT5/Bcl-x<sub>L</sub> signaling; net output is accelerated erythropoiesis
+      </li>
+      <li>
+        <span class="conn-rel">Produced by</span>
+        <a href="kidney.html">Kidney</a> &mdash; ~85% of circulating EPO originates from peritubular interstitial fibroblast-like cells of the renal cortex; CKD destroys these cells
+      </li>
+      <li>
+        <span class="conn-rel">Regulates</span>
+        <a href="hemoglobin.html">Hemoglobin</a> &mdash; EPO-driven erythropoiesis is the primary determinant of circulating RBC mass and hence hemoglobin concentration
+      </li>
+      <li>
+        <span class="conn-rel">Requires</span>
+        <a href="iron.html">Iron</a> &mdash; adequate iron supply is a prerequisite for EPO-stimulated erythropoiesis; iron deficiency is the most common cause of ESA hyporesponsiveness
+      </li>
+      <li>
+        <span class="conn-rel">EPOR on</span>
+        <a href="platelet.html">Platelet precursors</a> &mdash; EPOR is expressed on megakaryocytes; EPO may have mild thrombopoietic effects at pharmacological doses
+      </li>
+    </ul>
+  </div>
+
+  <!-- REFERENCES -->
+  <div class="section references">
+    <h2>References</h2>
+    <ol>
+      <li>Jelkmann W. Physiology and pharmacology of erythropoietin. <em>Transfus Med Hemother.</em> 2013;40(5):302&ndash;309. doi:<a href="https://doi.org/10.1159/000356193" target="_blank" rel="noopener">10.1159/000356193</a></li>
+      <li>Pfeffer MA, Burdmann EA, Chen CY, et al. (TREAT Investigators). A trial of darbepoetin alfa in type 2 diabetes and chronic kidney disease. <em>N Engl J Med.</em> 2009;361(21):2019&ndash;2032. doi:<a href="https://doi.org/10.1056/NEJMoa0907845" target="_blank" rel="noopener">10.1056/NEJMoa0907845</a></li>
+      <li>Papandreou I, Cairns RA, Fontana L, Lim AL, Denko NC. HIF-1 mediates adaptation to hypoxia by actively downregulating mitochondrial oxygen consumption. <em>Cell Metab.</em> 2006;3(3):187&ndash;197. doi:<a href="https://doi.org/10.1016/j.cmet.2006.01.012" target="_blank" rel="noopener">10.1016/j.cmet.2006.01.012</a></li>
+      <li>KDIGO Anemia Work Group. KDIGO Clinical Practice Guideline for Anemia in Chronic Kidney Disease. <em>Kidney Int Suppl.</em> 2012;2(4):279&ndash;335.</li>
+    </ol>
+  </div>
+
+</div><!-- /content -->
+
+<footer>
+  <p>Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, global model of human biology and medicine &mdash; in the service of all of humanity.</p>
+  <p style="margin-top:.6rem;">
+    <a href="index.html">Home</a> &nbsp;&middot;&nbsp;
+    <a href="bone-marrow.html">Bone Marrow</a> &nbsp;&middot;&nbsp;
+    <a href="kidney.html">Kidney</a> &nbsp;&middot;&nbsp;
+    <a href="hemoglobin.html">Hemoglobin</a> &nbsp;&middot;&nbsp;
+    <a href="iron.html">Iron</a> &nbsp;&middot;&nbsp;
+    <a href="igg.html">IgG</a> &nbsp;&middot;&nbsp;
+    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+  </p>
+  <p style="margin-top:.75rem;">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+</footer>
+
+</body>
+</html>

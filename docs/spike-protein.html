@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SARS-CoV-2 Spike Protein — domain structure, ACE2 binding mechanism, membrane fusion, variants and mutations, vaccine target strategies, neutralizing antibody epitopes. Human Engineering Atlas.">
+  <meta property="og:title" content="Spike Protein — SARS-CoV-2 · Human Engineering Atlas">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Spike Protein (SARS-CoV-2) — Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff0f0 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="sars-cov-2.html">SARS-CoV-2</a>
+      <a href="pathogens.html">Pathogens</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Atlas Two &middot; Pathogen &middot; Molecular &middot; SARS-CoV-2</p>
+    <h1>Spike <span>Protein</span></h1>
+    <p class="hero-lead">The homotrimeric class I fusion glycoprotein of SARS-CoV-2 &mdash; the primary determinant of viral tropism (ACE2 binding), host cell entry (membrane fusion), and the dominant target of protective immune responses. Encoded by gene S (~3.8 kb), translated as a 1273 aa precursor that assembles as a trimer on the viral envelope.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Gene: S (ORF)</span>
+  <span>Length: 1273 aa (monomer)</span>
+  <span>MW: ~180 kDa</span>
+  <span>UniProt: P0DTC2</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="overview">
+    <h2>Overview</h2>
+    <p>The spike protein (S) is a class I fusion glycoprotein: a single-pass type I transmembrane protein that forms non-covalent homotrimers on the viral surface. Each monomer carries ~20&ndash;24 N-linked glycosylation sites, and the resulting glycan shield occludes a substantial proportion of the protein surface from antibody recognition, contributing to immune evasion.</p>
+    <p>Spike mediates the two critical steps of SARS-CoV-2 entry into host cells:</p>
+    <ol>
+      <li><strong>Receptor binding:</strong> The S1 subunit&rsquo;s receptor-binding domain (RBD) directly contacts angiotensin-converting enzyme 2 (ACE2) on the host cell surface.</li>
+      <li><strong>Membrane fusion:</strong> After cleavage and conformational change, the S2 subunit drives fusion of the viral envelope with the host cell membrane, releasing the viral genome into the cytoplasm.</li>
+    </ol>
+    <p>Spike is the target of all approved COVID-19 vaccines worldwide, whether delivered as mRNA (mRNA-1273, BNT162b2), viral vector (AZD1222), or protein subunit (NVX-CoV2373). Its high mutation rate in circulating variants makes ongoing immunological monitoring essential.</p>
+    <div class="callout"><strong>Key structural insight:</strong> Cryo-EM studies (Wrapp et al., Science 2020; PDB 6VSB) revealed the pre-fusion trimer with RBD in the &ldquo;up&rdquo; conformation &mdash; the immunogenic state captured by 2P-stabilized vaccine antigens. This structure drove vaccine design in early 2020.</div>
+  </div>
+
+  <div class="section" id="domains">
+    <h2>Domain Structure</h2>
+    <table>
+      <thead>
+        <tr><th>Domain</th><th>Residues</th><th>Function &amp; Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Signal peptide</strong></td>
+          <td>1&ndash;12</td>
+          <td>Co-translational cleavage; directs S to ER for glycosylation and processing</td>
+        </tr>
+        <tr>
+          <td><strong>NTD</strong> (N-terminal domain)</td>
+          <td>14&ndash;305</td>
+          <td>Antibody epitope supersite for class I/IV and NTD-supersite (class V) antibodies; contains recurrent deletion regions (&Delta;69&ndash;70, &Delta;141&ndash;145, &Delta;211) in variants; exact receptor interaction disputed but NTD mutations affect cell tropism</td>
+        </tr>
+        <tr>
+          <td><strong>RBD</strong> (receptor-binding domain)</td>
+          <td>333&ndash;527</td>
+          <td>Directly contacts ACE2; receptor-binding motif (RBM) = residues 438&ndash;506; dominant target for class I and class II neutralizing antibodies; hotspot for immune-evasion mutations in variants</td>
+        </tr>
+        <tr>
+          <td><strong>SD1 / SD2</strong></td>
+          <td>528&ndash;685</td>
+          <td>Subdomain 1 and 2; structural scaffolding between RBD and S1/S2 junction; SD1/SD2 mutations (H655Y, N679K) influence furin cleavage efficiency</td>
+        </tr>
+        <tr>
+          <td><strong>S1/S2 furin cleavage site</strong></td>
+          <td>680&ndash;689 (PRRAR&darr;SV)</td>
+          <td>Polybasic insert unique to SARS-CoV-2 (absent in SARS-CoV-1 and bat coronaviruses); cleaved by furin in trans-Golgi during protein maturation &rarr; primes S for ACE2-triggered activation; P681H/P681R mutations in variants enhance furin cleavage efficiency</td>
+        </tr>
+        <tr>
+          <td><strong>S2</strong></td>
+          <td>686&ndash;1273</td>
+          <td>Fusion subunit; contains heptad repeats HR1 and HR2 that form 6-helix bundle during membrane fusion; highly conserved across betacoronaviruses; target for pan-coronavirus antibody strategies</td>
+        </tr>
+        <tr>
+          <td><strong>Fusion peptide (FP)</strong></td>
+          <td>~816&ndash;833</td>
+          <td>Inserts into host membrane bilayer after S2&prime; cleavage; initiates membrane merger; hydrophobic; blocked by site-0/site-III antibodies</td>
+        </tr>
+        <tr>
+          <td><strong>Transmembrane domain (TM)</strong></td>
+          <td>1213&ndash;1237</td>
+          <td>Anchors spike in viral envelope; required for viral assembly</td>
+        </tr>
+        <tr>
+          <td><strong>Cytoplasmic tail</strong></td>
+          <td>1238&ndash;1273</td>
+          <td>Multiple cysteine palmitoylation sites; membrane raft association; interacts with M protein for virion assembly; ER retention signal</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="callout"><strong>Vaccine antigen note:</strong> The 2P stabilization mutations used in mRNA-1273 and BNT162b2 are <strong>K986P + V987P</strong>, located in the central helix of the HR1 region. These proline substitutions introduce structural rigidity that locks the trimer in the immunogenic pre-fusion conformation, preventing the large conformational change to the post-fusion state during protein expression.</div>
+  </div>
+
+  <div class="section" id="ace2-binding">
+    <h2>ACE2 Binding Mechanism</h2>
+    <p>The RBD cycles dynamically between two conformations within the trimer: a &ldquo;down&rdquo; state (receptor-inaccessible, largely antibody-inaccessible) and an &ldquo;up&rdquo; state (ACE2-accessible; exposes neutralizing epitopes). At any given time in a trimer, one or two RBDs may be in the &ldquo;up&rdquo; state; this equilibrium is shifted by mutations in variants.</p>
+    <p>ACE2 engages the RBM (residues 438&ndash;506) via a 17-residue contact interface. Key intermolecular contacts in the original WH-01 strain include:</p>
+    <ul>
+      <li>Phe486 (S) &rarr; hydrophobic pocket around Met82 (ACE2)</li>
+      <li>Gln493 (S) &rarr; Lys31 (ACE2) &mdash; mutated to Arg in Omicron (Q493R)</li>
+      <li>Asn501 (S) &rarr; Tyr41 (ACE2) &mdash; N501Y in Alpha, Beta, Delta, Omicron &rarr; ~10-fold affinity increase</li>
+      <li>Tyr505 (S) &rarr; Arg393 (ACE2)</li>
+    </ul>
+    <p>Binding affinity for the original strain: K<sub>d</sub> ~4&ndash;35 nM (depending on assay method). Omicron RBD binds ACE2 approximately 2.5-fold more tightly due to the cumulative effects of Q493R, N501Y, and other interface mutations, contributing to its transmissibility advantage despite reduced lung tropism.</p>
+    <p>ACE2 is expressed at highest levels in <strong>type II pneumocytes</strong> (SARS-CoV-2 primary respiratory target), small intestinal enterocytes, nasal goblet/ciliated cells, cardiac pericytes, vascular endothelium, and renal tubular cells. TMPRSS2 co-expression with ACE2 defines cells permissive for efficient cell-surface entry.</p>
+  </div>
+
+  <div class="section" id="fusion">
+    <h2>Membrane Fusion Mechanism</h2>
+    <p>Entry proceeds through a sequence of irreversible conformational changes triggered by receptor binding and protease cleavage:</p>
+    <ol>
+      <li><strong>Furin pre-cleavage (S1/S2):</strong> During viral biogenesis in the producer cell, furin in the trans-Golgi cleaves at the PRRAR&darr;SV site, non-covalently separating S1 and S2. This priming step is unique to SARS-CoV-2 among SARS-like betacoronaviruses and is a key determinant of efficient human-to-human transmission.</li>
+      <li><strong>RBD &ldquo;up&rdquo; and ACE2 engagement:</strong> RBD transitions to the up conformation; ACE2 binds the RBM, stabilising S1 in the receptor-bound state and triggering S1 shedding.</li>
+      <li><strong>TMPRSS2 cleavage (S2&prime;) &mdash; cell-surface pathway:</strong> TMPRSS2 (type II transmembrane serine protease) at the plasma membrane cleaves the S2&prime; site (~residue 815), liberating the fusion peptide. This is the predominant pathway in lung cells and is not blocked by endosomal pH-raising agents.</li>
+      <li><strong>Cathepsin L/B cleavage &mdash; endosomal pathway:</strong> In cells with low TMPRSS2, virus is endocytosed; cathepsin B/L in late endosomes (pH ~5.0) substitute for TMPRSS2. This pathway is blocked by lysosomotropic agents (chloroquine, hydroxychloroquine, bafilomycin A1) in vitro, but clinical trials confirmed no benefit from these agents, consistent with TMPRSS2-dependent lung entry being dominant in vivo.</li>
+      <li><strong>6-helix bundle formation:</strong> After FP insertion into the host membrane, HR1 and HR2 zipper together antiparallel into a thermostable 6-helix bundle &mdash; a topology conserved across all class I fusion proteins (HIV gp41, influenza HA2, RSV F). This irreversible collapse brings the viral and host membranes into apposition and drives membrane fusion.</li>
+    </ol>
+  </div>
+
+  <div class="section" id="variants">
+    <h2>Variants and Key Spike Mutations</h2>
+    <table>
+      <thead>
+        <tr><th>Variant (Lineage)</th><th>Key Spike Mutations</th><th>Phenotypic Effects</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>D614G</strong><br>(all post-June 2020)</td>
+          <td>D614G</td>
+          <td>Increased furin cleavage efficiency; greater proportion of RBD &ldquo;up&rdquo; state; higher ACE2 binding; global sweep by July 2020; no major antibody evasion</td>
+        </tr>
+        <tr>
+          <td><strong>Alpha</strong><br>(B.1.1.7)</td>
+          <td>N501Y, &Delta;69&ndash;70, &Delta;144, P681H, D614G</td>
+          <td>N501Y: ~10-fold increased ACE2 affinity; &Delta;69&ndash;70: NTD supersite disruption; P681H: modestly increased furin cleavage; ~50% increased transmissibility vs. WT</td>
+        </tr>
+        <tr>
+          <td><strong>Beta</strong><br>(B.1.351)</td>
+          <td>K417N, E484K, N501Y, D614G</td>
+          <td>K417N + E484K: escape from class I/II and class III neutralizing antibodies; partial immune evasion; reduced vaccine efficacy vs. symptomatic disease (~75% &rarr; ~10% for some vaccines); N501Y: ACE2 affinity gain</td>
+        </tr>
+        <tr>
+          <td><strong>Delta</strong><br>(B.1.617.2)</td>
+          <td>L452R, T478K, P681R, D614G, T19R, &Delta;156&ndash;157</td>
+          <td>P681R: enhanced furin cleavage efficiency, TMPRSS2-dependent entry, lung tropism; L452R: partial immune evasion; globally dominant mid-2021; most pathogenic pre-Omicron variant</td>
+        </tr>
+        <tr>
+          <td><strong>Omicron BA.1</strong><br>(B.1.1.529)</td>
+          <td>32 spike mutations: K417N, E484A, Q493R, N501Y, G496S, Q498R, Y505H, H655Y, N679K, P681H, &Delta;69&ndash;70, &Delta;142&ndash;144, &Delta;211, ins214EPE</td>
+          <td>Highest immune evasion to date (3&ndash;40&times; reduction in vaccine-elicited neutralisation); reduced fusogenicity (reduced TMPRSS2 usage) &rarr; upper airway tropism &rarr; less severe lower respiratory disease; 2&ndash;3&times; increased ACE2 affinity; ACE2 quantity in nasal epithelium &gt; lung &rarr; enhanced transmissibility</td>
+        </tr>
+        <tr>
+          <td><strong>XBB.1.5, JN.1, KP.2</strong><br>(recombinant/sub-lineages, 2023&ndash;2024)</td>
+          <td>Progressive additional RBD mutations; XBB.1.5: F486P (high ACE2 affinity + antibody evasion); JN.1: L455S (strong antibody evasion); KP.2: R346T, F456L</td>
+          <td>Stepwise optimization of ACE2 affinity and antibody escape; each sub-lineage drives booster antigen updates; T-cell responses (especially S2-directed) maintain protection against severe disease</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="vaccines">
+    <h2>Vaccine Target Strategies</h2>
+    <table>
+      <thead>
+        <tr><th>Platform</th><th>Examples</th><th>Antigen Design</th><th>Key Points</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>mRNA</strong></td>
+          <td><a href="mrna-1273.html">mRNA-1273</a> (Moderna), <a href="bnt162b2.html">BNT162b2</a> (Pfizer-BioNTech)</td>
+          <td>Full-length spike with K986P + V987P (2P) proline stabilization, locking pre-fusion conformation; N1-methylpseudouridine (m1&Psi;) modification; LNP delivery (SM-102 or ALC-0315)</td>
+          <td>94.1% (mRNA-1273) and ~95% (BNT162b2) efficacy vs. original strain; induce spike-specific IgG1/IgG3 (anti-RBD dominant) and CD8<sup>+</sup>/CD4<sup>+</sup> T cells; updated annually for variant-matched boosters (BA.4/5 bivalent, XBB.1.5, JN.1 monovalent)</td>
+        </tr>
+        <tr>
+          <td><strong>Viral vector</strong></td>
+          <td><a href="azd1222.html">AZD1222</a> (Oxford-AstraZeneca, ChAdOx1)</td>
+          <td>Replication-deficient chimpanzee adenovirus expressing full-length spike (without 2P stabilization in original formulation)</td>
+          <td>~70&ndash;79% efficacy (ChAdOx1 COV001/COV002); rare VITT (vaccine-induced immune thrombocytopaenia and thrombosis) via anti-PF4 antibodies; AdS5-nCoV (Sputnik V) similar platform</td>
+        </tr>
+        <tr>
+          <td><strong>Protein subunit</strong></td>
+          <td><a href="nvx-cov2373.html">NVX-CoV2373</a> (Novavax)</td>
+          <td>Recombinant 2P-stabilized trimeric spike nanoparticles (baculovirus system) + Matrix-M saponin adjuvant</td>
+          <td>~90% efficacy (PREVENT-19); preferred by those avoiding novel platforms; strong Th1 response; favourable myocarditis profile vs. mRNA vaccines in young males</td>
+        </tr>
+        <tr>
+          <td><strong>T cell epitope conservation</strong></td>
+          <td>All platforms</td>
+          <td>S2 subunit contains more conserved CD4<sup>+</sup>/CD8<sup>+</sup> T cell epitopes across variants than S1/RBD</td>
+          <td>T-cell cross-reactivity against conserved S2 epitopes maintains protection against severe disease and hospitalisation even when antibody neutralisation of new variants is substantially reduced; correlate of protection for severe disease outcomes</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="antibodies">
+    <h2>Neutralizing Antibody Epitopes</h2>
+    <p>Spike-targeting antibodies are classified into classes based on the epitope they contact and their mechanism of neutralization:</p>
+    <ul>
+      <li><strong>Class I antibodies:</strong> VH3-53/VH3-66 germline usage; contact RBM in the &ldquo;up&rdquo; RBD conformation; directly compete with ACE2 binding; highly potent but sensitive to RBD mutations at key contact residues (K417, E484, N501); most pre-Omicron therapeutic mAbs (e.g., CB6/LY-CoV016)</li>
+      <li><strong>Class II antibodies:</strong> Contact both RBM and non-RBM surfaces of RBD; compete with ACE2; accessible in &ldquo;up&rdquo; and &ldquo;down&rdquo; states; include some of the broadest mAbs (e.g., S309 cross-reacts with SARS-CoV-1)</li>
+      <li><strong>Class III antibodies:</strong> Target RBD epitopes outside the RBM (&ldquo;cryptic face&rdquo;); do not directly compete with ACE2; often cross-reactive across betacoronaviruses; accessible in both conformations</li>
+      <li><strong>Class IV antibodies:</strong> Cryptic epitope accessible only when RBD is in &ldquo;up&rdquo; state and within a specific trimer context; generally lower potency</li>
+      <li><strong>NTD supersite antibodies (Class V):</strong> Target a glycan-free loop cluster on the NTD (approximately residues 14&ndash;20, 140&ndash;158, 245&ndash;264); highly sensitive to NTD deletions (&Delta;69&ndash;70, &Delta;141&ndash;145, &Delta;211) that recur convergently across variants of concern; include 4A8, S2L28</li>
+      <li><strong>S2 antibodies:</strong> Target HR1/HR2 or fusion peptide; cross-reactive across distantly related coronaviruses; generally lower potency but pan-coronavirus therapeutic interest (site 0, site III antibodies targeting the fusion peptide region)</li>
+    </ul>
+    <div class="callout"><strong>Therapeutic mAb landscape:</strong> Most original therapeutic mAbs (casirivimab, imdevimab, bamlanivimab, etesevimab, sotrovimab) lost substantial activity against Omicron and sub-variants. Bebtelovimab retained activity against BA.2/BA.5 but was later compromised. As of 2024, commercially available mAbs have limited effectiveness against circulating XBB/JN/KP variants &mdash; T-cell immunity and mucosal IgA from vaccination and infection remain the primary ongoing defences.</div>
+  </div>
+
+  <div class="section" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">part of</span><span><a href="sars-cov-2.html">SARS-CoV-2</a> &mdash; spike is the outermost structural protein of the virion; its evolution drives variant phenotype, transmissibility, and immune escape</span></li>
+      <li><span class="conn-rel">binds</span><span>ACE2 Receptor &mdash; primary host entry receptor; expressed in type II pneumocytes, enterocytes, nasal epithelium, cardiac pericytes; ACE2 downregulation after binding may contribute to ARDS pathophysiology</span></li>
+      <li><span class="conn-rel">vaccine target</span><span><a href="mrna-1273.html">mRNA-1273 (Spikevax)</a> &mdash; encodes 2P-stabilized full-length spike in SM-102 LNP; 94.1% efficacy in COVE trial</span></li>
+      <li><span class="conn-rel">vaccine target</span><span><a href="bnt162b2.html">BNT162b2 (Comirnaty)</a> &mdash; encodes 2P-stabilized full-length spike in ALC-0315 LNP; ~95% efficacy in C4591001 trial</span></li>
+      <li><span class="conn-rel">vaccine target</span><span><a href="azd1222.html">AZD1222</a> &mdash; ChAdOx1 expressing full-length spike; ~70&ndash;79% efficacy; VITT risk informs allocation decisions</span></li>
+      <li><span class="conn-rel">vaccine target</span><span><a href="nvx-cov2373.html">NVX-CoV2373</a> &mdash; recombinant 2P spike nanoparticles + Matrix-M adjuvant; ~90% efficacy; preferred protein subunit option</span></li>
+      <li><span class="conn-rel">immune response</span><span><a href="immune-system.html">Immune System</a> &mdash; spike-specific humoral (anti-RBD IgG) and cellular (Th1, CD8<sup>+</sup> CTL) responses are both induced by vaccination and infection and are correlates of protection</span></li>
+    </ul>
+  </div>
+
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>Wrapp D, Wang N, Corbett KS, et al. Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. <em>Science.</em> 2020;367(6483):1260&ndash;1263. doi:10.1126/science.abb2507</li>
+      <li>Lan J, Ge J, Yu J, et al. Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor. <em>Nature.</em> 2020;581(7807):215&ndash;220. doi:10.1038/s41586-020-2180-5</li>
+      <li>Harvey WT, Carabelli AM, Jackson B, et al. SARS-CoV-2 variants, spike mutations and immune escape. <em>Nat Rev Microbiol.</em> 2021;19(7):409&ndash;424. doi:10.1038/s41579-021-00573-0</li>
+      <li>Starr TN, Greaney AJ, Hilton SK, et al. Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding. <em>Cell.</em> 2020;182(5):1295&ndash;1310. doi:10.1016/j.cell.2020.08.012</li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p>Human Engineering &mdash; Open knowledge atlas at <a href="https://equalinformation.com/human">equalinformation.com/human</a>.<br>
+  Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:.6rem">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. <strong>Not medical advice.</strong> For research and educational use only.</p>
+</footer>
+
+</body>
+</html>

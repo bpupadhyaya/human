@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Immunoglobulin G (IgG) — most abundant serum antibody, secondary immune responses, four subclasses, FcRn recycling, placental transfer, Fc receptor interactions, complement activation, monoclonal antibody therapeutics, and pathology. Human Engineering molecular atlas.">
+  <meta property="og:title" content="Immunoglobulin G (IgG) — Molecular Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Immunoglobulin G (IgG) — Molecular Atlas · Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#7c3aed;--accent-soft:rgba(124,58,237,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#f5f3ff 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    .diagram{background:var(--bg-3);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:1.2rem 1.4rem;overflow-x:auto;margin:1rem 0}
+    .diagram pre{font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:.8rem;line-height:1.65;color:var(--fg-soft)}
+    .stat-row{display:flex;gap:2rem;flex-wrap:wrap;margin:1.25rem 0}
+    .stat{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.75rem 1rem;min-width:130px}
+    .stat-num{font-size:1.35rem;font-weight:800;color:var(--accent);line-height:1}
+    .stat-label{font-size:.72rem;color:var(--muted);margin-top:.25rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="antibody.html">Antibody</a>
+      <a href="immune-system.html">Immune System</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Atlas One &middot; Human &middot; Molecular &middot; Immunology</div>
+    <h1>Immuno<span>globulin G</span></h1>
+    <p class="hero-lead">The most abundant immunoglobulin in human serum (~12 mg/mL, ~75% of total serum Ig) and the dominant antibody of secondary immune responses. IgG is the only immunoglobulin that crosses the placenta to provide passive neonatal immunity, and its four subclasses (IgG1&ndash;4) mediate distinct effector functions via differential complement activation and Fc receptor binding.</p>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num">~150 kDa</div><div class="stat-label">Molecular weight</div></div>
+      <div class="stat"><div class="stat-num">~12 mg/mL</div><div class="stat-label">Serum concentration</div></div>
+      <div class="stat"><div class="stat-num">21 days</div><div class="stat-label">Half-life (FcRn recycled)</div></div>
+      <div class="stat"><div class="stat-num">4</div><div class="stat-label">Subclasses (IgG1&ndash;4)</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Isotype: <strong>IgG</strong></span>
+  <span>Serum concentration: <strong>~12 mg/mL</strong></span>
+  <span>Half-life: <strong>21 days</strong> (FcRn recycled)</span>
+  <span>Structure: <strong>monomer (2H + 2L chains)</strong></span>
+</div>
+
+<div class="content">
+
+  <!-- OVERVIEW -->
+  <div class="section">
+    <h2>Overview</h2>
+    <p>IgG is a monomer (~150 kDa) composed of two identical heavy &gamma;-chains (~50 kDa each) and two identical &kappa; or &lambda; light chains (~25 kDa each), joined by two interchain disulfide bonds at the hinge region. The molecule is divided into two <strong>Fab arms</strong> (antigen binding, via VH+VL CDRs) and one <strong>Fc region</strong> (effector functions, via CH2+CH3 domains).</p>
+    <p>The four subclasses (IgG1&ndash;4) are defined by the constant region of the &gamma; heavy chain and differ critically in hinge length, number of interchain disulfide bonds, Fc receptor (Fc&gamma;R) binding affinity, and complement-activation capacity. IgG1 and IgG3 are the principal complement-activating subclasses; IgG2 is the dominant anti-polysaccharide subclass; IgG4 is anti-inflammatory and does not activate complement.</p>
+    <p>The extraordinary <strong>21-day half-life</strong> of IgG (versus 5&ndash;7 days for IgA, IgM, or most plasma proteins) is maintained by the <strong>FcRn (neonatal Fc receptor)</strong> recycling pathway. In acidic endosomes (pH ~6) of vascular endothelial cells, IgG-Fc binds FcRn with high affinity; the IgG&ndash;FcRn complex is transcytosed back to the plasma membrane where, at physiological pH 7.4, affinity drops and IgG is released into circulation &mdash; rescuing it from lysosomal degradation. FcRn also mediates IgG transcytosis across syncytiotrophoblasts of the placenta.</p>
+    <div class="callout">
+      <strong>FcRn saturation therapy:</strong> In autoimmune diseases driven by pathogenic IgG (myasthenia gravis, NMOSD, CIDP), efgartigimod and rozanolixizumab are FcRn-blocking agents. By blocking FcRn, they prevent IgG recycling &rarr; increase IgG catabolism ~4&ndash;6-fold &rarr; specifically lower total IgG (including pathogenic autoantibodies) within 1&ndash;2 weeks without requiring immunosuppression.
+    </div>
+  </div>
+
+  <!-- SUBCLASSES -->
+  <div class="section">
+    <h2>IgG Subclasses</h2>
+    <table>
+      <tr>
+        <th>Subclass</th>
+        <th>Abundance</th>
+        <th>Hinge / SS bonds</th>
+        <th>Complement</th>
+        <th>Fc&gamma;R binding</th>
+        <th>Key roles and notes</th>
+      </tr>
+      <tr>
+        <td><strong>IgG1</strong></td>
+        <td>~65% of IgG</td>
+        <td>15 aa hinge; 2 interchain SS</td>
+        <td>Yes (C1q); activates classical pathway</td>
+        <td>Excellent Fc&gamma;RI &amp; Fc&gamma;RIII binding &rarr; ADCC, opsonophagocytosis</td>
+        <td>Anti-protein antigens; dominant response to most vaccine antigens; longest half-life among subclasses; most therapeutic mAb scaffold (adalimumab, trastuzumab, nivolumab, rituximab)</td>
+      </tr>
+      <tr>
+        <td><strong>IgG2</strong></td>
+        <td>~25% of IgG</td>
+        <td>12 aa hinge; 4 interchain SS (rigid hinge)</td>
+        <td>Weak (reduced C1q binding)</td>
+        <td>Poor Fc&gamma;RI/III binding; primarily Fc&gamma;RIIA on phagocytes</td>
+        <td>Dominant anti-polysaccharide antibody &rarr; critical for immunity to encapsulated bacteria (<em>S. pneumoniae, H. influenzae, N. meningitidis</em>); children have delayed IgG2 development &rarr; susceptibility period before PCV13 vaccination</td>
+      </tr>
+      <tr>
+        <td><strong>IgG3</strong></td>
+        <td>~8% of IgG</td>
+        <td>62 aa hinge; 11 interchain SS (longest)</td>
+        <td>Most potent complement activator (C1q binds best to IgG3 Fc)</td>
+        <td>Excellent Fc&gamma;RI &amp; Fc&gamma;RIII; shorter FcRn binding &rarr; shorter half-life (~7 days)</td>
+        <td>Anti-viral (influenza, RSV, SARS-CoV-2 spike); dominant early IgG response to many viral pathogens; most immunogenic subclass (allotype differences can induce IgG anti-IgG3 antibodies)</td>
+      </tr>
+      <tr>
+        <td><strong>IgG4</strong></td>
+        <td>~4% of IgG</td>
+        <td>12 aa hinge; 2 interchain SS</td>
+        <td>None (does not activate classical or lectin pathway)</td>
+        <td>FcγRIIb (inhibitory receptor); minimal activating Fc&gamma;R binding</td>
+        <td>Anti-inflammatory; produced in chronic allergen exposure (allergen immunotherapy blocking antibody); undergoes <em>Fab-arm exchange</em> in vivo (half-molecules swap &rarr; bispecific monomers); elevated in IgG4-related disease; therapeutic mAb scaffold when effector function is undesirable (pembrolizumab, durvalumab use IgG4 or Fc-silenced variants)</td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>IgG4-related disease (IgG4-RD):</strong> A fibroinflammatory condition characterized by tissue infiltration with IgG4-positive plasma cells and storiform fibrosis. Common manifestations include autoimmune pancreatitis (type 1), sclerosing cholangitis, orbital pseudotumor, and retroperitoneal fibrosis. Serum IgG4 &gt;135 mg/dL supports diagnosis but is neither sensitive nor specific. Responds dramatically to corticosteroids; rituximab for refractory cases.
+    </div>
+  </div>
+
+  <!-- FC RECEPTOR INTERACTIONS -->
+  <div class="section">
+    <h2>Fc Receptor Interactions</h2>
+    <p>The IgG Fc region (CH2+CH3 domains) interacts with multiple Fc&gamma; receptors on immune effector cells and with FcRn. Receptor engagement depends on IgG subclass, Fc glycosylation state (especially fucosylation of the Asn297 N-glycan), and local cytokine environment.</p>
+    <table>
+      <tr>
+        <th>Receptor</th>
+        <th>CD name / affinity</th>
+        <th>Cells</th>
+        <th>Signaling</th>
+        <th>Function</th>
+      </tr>
+      <tr>
+        <td><strong>Fc&gamma;RI</strong></td>
+        <td>CD64; K<sub>d</sub> ~10<sup>&minus;8</sup> M (binds monomeric IgG)</td>
+        <td>Monocytes, macrophages, dendritic cells</td>
+        <td>ITAM (activating)</td>
+        <td>Phagocytosis of opsonized targets; antigen uptake for presentation; activated by IFN-&gamma; upregulation</td>
+      </tr>
+      <tr>
+        <td><strong>Fc&gamma;RIIA</strong></td>
+        <td>CD32A; medium affinity (binds immune complexes)</td>
+        <td>Neutrophils, monocytes, macrophages, platelets</td>
+        <td>ITAM (activating)</td>
+        <td>Phagocytosis, respiratory burst, platelet activation; HIT: anti-PF4/heparin IgG binds Fc&gamma;RIIA on platelets &rarr; activation &rarr; thrombocytopenia + thrombosis</td>
+      </tr>
+      <tr>
+        <td><strong>Fc&gamma;RIIB</strong></td>
+        <td>CD32B; medium affinity</td>
+        <td>B cells, mast cells, basophils, macrophages</td>
+        <td>ITIM (inhibitory)</td>
+        <td>Maintains B cell tolerance; co-ligation with BCR raises activation threshold; anti-inflammatory; loss of RIIB on B cells &rarr; autoantibody production in SLE models</td>
+      </tr>
+      <tr>
+        <td><strong>Fc&gamma;RIIIA</strong></td>
+        <td>CD16A; low&ndash;medium affinity (binds immune complexes / IgG-coated cells)</td>
+        <td>NK cells, macrophages, monocytes</td>
+        <td>ITAM (activating)</td>
+        <td><strong>ADCC</strong>: NK cells recognize IgG-coated target cells &rarr; perforin/granzyme cytotoxicity; therapeutic mAbs with afucosylated Fc (obinutuzumab, benralizumab) bind Fc&gamma;RIIIA ~10&times; more avidly &rarr; enhanced ADCC efficacy</td>
+      </tr>
+      <tr>
+        <td><strong>Fc&gamma;RIIIB</strong></td>
+        <td>CD16B; GPI-anchored; low affinity</td>
+        <td>Neutrophils</td>
+        <td>GPI-linked (no cytoplasmic domain)</td>
+        <td>Neutrophil-mediated clearance of immune complexes from circulation; trapping on neutrophil surface</td>
+      </tr>
+      <tr>
+        <td><strong>FcRn</strong></td>
+        <td>MHC class I-related; pH-dependent (K<sub>d</sub> pH 6 &lt;&lt; K<sub>d</sub> pH 7.4)</td>
+        <td>Vascular endothelial cells, syncytiotrophoblasts, intestinal epithelium, hepatocytes</td>
+        <td>No canonical signaling domain</td>
+        <td>IgG half-life extension via endosomal recycling; placental IgG transfer; oral IgG absorption (?); basis for FcRn-blocking therapy in autoimmune disease</td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>Afucosylation enhances ADCC:</strong> The N-linked glycan at Fc Asn297 normally carries a core fucose. Removing this fucose (afucosylation) dramatically increases binding affinity to Fc&gamma;RIIIA (CD16A on NK cells) because fucose sterically hinders the Fc&ndash;Fc&gamma;RIIIA interface. Obinutuzumab (anti-CD20, afucosylated) has superior ADCC vs. rituximab. Benralizumab (anti-IL-5R&alpha;, afucosylated) depletes eosinophils via NK-cell ADCC. Most CHO cell lines produce partially afucosylated antibodies; engineered cell lines or specific expression conditions achieve fully afucosylated mAbs.
+    </div>
+  </div>
+
+  <!-- COMPLEMENT ACTIVATION -->
+  <div class="section">
+    <h2>Complement Activation</h2>
+    <p>IgG1 and IgG3 activate the <strong>classical complement pathway</strong> by binding C1q at their CH2 domains. C1q is a hexameric bridging protein of the C1 complex (C1q:C1r:C1s = 1:2:2); it requires simultaneous engagement of at least <strong>two adjacent Fc regions</strong> to trigger conformational changes in C1r/C1s and initiate the cascade.</p>
+    <p>On an antigen surface, multiple bound IgG molecules can spontaneously form a planar <strong>hexameric IgG ring</strong> (Fc-Fc contacts via CH2/CH3 interfaces) that optimally presents six Fc regions to the six globular heads of C1q &mdash; triggering highly efficient complement activation. This hexamer model explains why high surface IgG density triggers complement far more efficiently than low density: it is not linear, but cooperative.</p>
+    <p>Complement effector outputs: <strong>C3b opsonization</strong> &rarr; enhanced phagocytosis (CR1, CR3 on macrophages/neutrophils); <strong>C3a/C5a anaphylatoxins</strong> &rarr; mast cell degranulation, vascular permeability, chemotaxis; <strong>MAC (C5b-9)</strong> &rarr; direct lysis of gram-negative bacteria and nucleated target cells.</p>
+    <p>IgG2: weak classical pathway activation (rigid hinge limits C1q access). IgG4: none (does not bind C1q).</p>
+  </div>
+
+  <!-- PLACENTAL TRANSFER -->
+  <div class="section">
+    <h2>Placental Transfer and Neonatal Immunity</h2>
+    <p>IgG is the <em>only</em> immunoglobulin isotype that undergoes active placental transfer. The mechanism involves FcRn expressed in <strong>syncytiotrophoblast</strong> cells of the placenta:</p>
+    <ul>
+      <li>Maternal IgG in intervillous space is endocytosed into syncytiotrophoblast lysosomes (pH ~5.5)</li>
+      <li>At low pH, IgG-Fc binds FcRn with high affinity</li>
+      <li>The IgG&ndash;FcRn complex is transcytosed across the syncytiotrophoblast to the fetal endothelial side</li>
+      <li>At fetal plasma pH 7.4, affinity drops and IgG is released into fetal circulation</li>
+    </ul>
+    <p>Transfer efficiency by subclass: <strong>IgG1 &gt; IgG4 &gt; IgG3 &gt; IgG2</strong>. Transfer begins significantly in the second trimester and accelerates in the third trimester; at term, fetal IgG concentration may exceed maternal concentration (~1.1&times; maternal level). This passive immunity bridges the gap until infant B-cell-derived IgG appears at ~3&ndash;6 months post-birth.</p>
+    <p><strong>Pathological maternal IgG transfer:</strong></p>
+    <ul>
+      <li><strong>Anti-Ro/La IgG</strong> (maternal SLE/Sj&ouml;gren) &rarr; neonatal lupus (transient rash, hepatitis, complete heart block &mdash; the congenital heart block is irreversible)</li>
+      <li><strong>Anti-D IgG</strong> (Rh incompatibility) &rarr; hemolytic disease of the fetus/newborn (HDFN); prevented by Rh-immune globulin (RhoGAM) in Rh-negative mothers</li>
+      <li><strong>Anti-TSHR IgG</strong> (maternal Graves) &rarr; transient neonatal Graves disease; resolves as maternal IgG catabolizes (~3 months)</li>
+      <li><strong>Anti-PLA2R IgG</strong> (maternal membranous nephropathy) &rarr; neonatal nephrotic syndrome (transient)</li>
+    </ul>
+  </div>
+
+  <!-- THERAPEUTIC APPLICATIONS -->
+  <div class="section">
+    <h2>Therapeutic Applications</h2>
+    <h3>Monoclonal antibodies</h3>
+    <p>The vast majority of therapeutic monoclonal antibodies are built on IgG1 scaffolds (for cytotoxic applications requiring ADCC and/or complement: rituximab, trastuzumab, cetuximab, obinutuzumab) or IgG4 scaffolds (where effector function is undesirable: pembrolizumab, nivolumab, durvalumab &mdash; checkpoint inhibitors; bispecific antibodies). IgG1 with Fc point mutations (LALA, LALAPG, N297A/Q) are used when antigen blockade alone is desired without effector cell engagement.</p>
+    <h3>IVIG (Intravenous Immunoglobulin)</h3>
+    <p>IVIG is pooled polyclonal IgG from &ge;1,000 plasma donors. At immunomodulatory doses (1&ndash;2 g/kg), its primary mechanism is <strong>FcRn saturation</strong>: saturating IVIG doses compete with pathogenic IgG for FcRn binding, accelerating catabolism of all IgG &mdash; including autoantibodies. Additional mechanisms include anti-idiotype antibodies, complement consumption, DC tolerization, Treg induction, and Fc&gamma;RIIB engagement. Indications: CIDP, GBS, MG crisis, dermatomyositis, ITP, Kawasaki disease, primary immunodeficiency replacement.</p>
+    <h3>Subcutaneous immunoglobulin (SCIG)</h3>
+    <p>SCIG allows home administration; slower absorption from SC tissue &rarr; steadier serum IgG levels with smaller peak&ndash;trough variation; preferred for long-term replacement in primary immunodeficiency. Facilitated SCIG with hyaluronidase enables large volumes (10&ndash;20% Ig preparations) once monthly.</p>
+    <h3>Half-life engineering</h3>
+    <p>YTE mutation (M252Y/S254T/T256E) and LS mutation (M428L/N434S) in the CH2/CH3 FcRn-binding interface increase FcRn affinity at pH 6 without affecting pH 7.4 release &rarr; extend IgG half-life to 6&ndash;8 weeks (vs. ~3 weeks for WT IgG). Used in: motavizumab-YTE (RSV), rozanolixizumab-LS (MG). Inverse approach (FcRn-blocking mutations, e.g., H435A) used in efgartigimod for therapeutic IgG reduction.</p>
+    <h3>Antibody&ndash;drug conjugates (ADCs) and bispecifics</h3>
+    <p>ADCs use IgG1 as the targeting scaffold with cytotoxic payload conjugated via engineered cysteines or lysines (trastuzumab emtansine / T-DM1, trastuzumab deruxtecan / T-DXd). Bispecific antibodies most commonly use IgG4 with knob-into-hole CH3 engineering or single-chain Fab fusion to engage two different antigens simultaneously (blinatumomab: CD3&times;CD19 BiTE; teclistamab: CD3&times;BCMA).</p>
+  </div>
+
+  <!-- PATHOLOGY -->
+  <div class="section">
+    <h2>Pathology</h2>
+    <table>
+      <tr>
+        <th>Condition</th>
+        <th>IgG involvement</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td><strong>Multiple myeloma (IgG subtype)</strong></td>
+        <td>IgG M-protein (monoclonal IgG) in ~55% of MM cases; IgG kappa &gt; IgG lambda</td>
+        <td>Clonal plasma cells overproduce structurally intact IgG (whole molecule) or light chain only; serum protein electrophoresis shows M-spike; treat with bortezomib, lenalidomide, daratumumab</td>
+      </tr>
+      <tr>
+        <td><strong>Warm AIHA</strong></td>
+        <td>IgG autoantibodies against RBC surface antigens (Rh, Band 3) at 37&deg;C</td>
+        <td>IgG-coated RBCs detected by direct Coombs (DAT); cleared by splenic macrophages via Fc&gamma;RIII (extravascular hemolysis); treat with corticosteroids, rituximab, splenectomy</td>
+      </tr>
+      <tr>
+        <td><strong>HDFN (anti-D)</strong></td>
+        <td>Maternal IgG anti-D crosses placenta &rarr; opsonizes Rh-positive fetal RBCs</td>
+        <td>Fetal/neonatal hemolytic anemia, jaundice, hydrops fetalis; prevention: Rh(D) immunoglobulin (RhoGAM) given ante/postpartum to Rh-negative sensitized mothers</td>
+      </tr>
+      <tr>
+        <td><strong>Immune thrombocytopenia (ITP)</strong></td>
+        <td>IgG autoantibodies against platelet glycoproteins (GPIIb/IIIa = &alpha;IIb&beta;3, GPIb)</td>
+        <td>Platelet Fc&gamma;RIIIA / Fc&gamma;RIIA binding &rarr; phagocytosis by splenic macrophages; also direct Fab-mediated platelet destruction; IVIG raises platelet count via FcRn saturation; eltrombopag for chronic ITP</td>
+      </tr>
+      <tr>
+        <td><strong>Myasthenia gravis</strong></td>
+        <td>Anti-AChR IgG (IgG1/IgG3) &rarr; complement activation at neuromuscular junction</td>
+        <td>C3b/MAC deposition destroys NMJ postsynaptic membrane; also receptor blocking and accelerated endocytosis by cross-linking; anti-MuSK IgG4 (non-complement-activating; different pathomechanism); FcRn blocker efgartigimod now approved</td>
+      </tr>
+      <tr>
+        <td><strong>IgG4-related disease</strong></td>
+        <td>Elevated serum IgG4; IgG4+ plasma cell infiltrates in affected organs</td>
+        <td>Autoimmune pancreatitis (type 1), sclerosing cholangitis, orbital pseudotumor, retroperitoneal fibrosis; serum IgG4 &gt;135 mg/dL supportive; responds to prednisolone; rituximab for refractory cases</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- CONNECTIONS -->
+  <div class="section">
+    <h2>Cross-Atlas Connections</h2>
+    <ul class="conn-list">
+      <li>
+        <span class="conn-rel">Subtype of</span>
+        <a href="antibody.html">Antibody (Immunoglobulin)</a> &mdash; IgG is one of five Ig isotypes; the IgG entry details the specific subclass biology, Fc receptor pharmacology, and FcRn biology not covered in the generic antibody entry
+      </li>
+      <li>
+        <span class="conn-rel">Secreted by</span>
+        <a href="b-cell.html">B cell / Plasma cell</a> &mdash; class-switched, affinity-matured B cells differentiate into long-lived bone marrow plasma cells secreting IgG at up to 2,000 molecules per second; short-lived plasmablasts produce IgG acutely
+      </li>
+      <li>
+        <span class="conn-rel">Activates</span>
+        <a href="complement-c3.html">Complement C3</a> &mdash; IgG1/IgG3 Fc binds C1q &rarr; classical pathway &rarr; C3 convertase (C4b2a) &rarr; C3b opsonization, anaphylatoxins C3a/C5a, MAC assembly
+      </li>
+      <li>
+        <span class="conn-rel">Engages</span>
+        <a href="macrophage.html">Macrophage</a> &mdash; IgG-opsonized pathogens or cells are cleared by macrophage Fc&gamma;RI (CD64) and Fc&gamma;RIIIA (CD16) via phagocytosis and respiratory burst (ADCP)
+      </li>
+      <li>
+        <span class="conn-rel">Engages</span>
+        <a href="natural-killer-cell.html">Natural killer cell</a> &mdash; IgG-coated target cells trigger NK cell Fc&gamma;RIIIA (CD16A) &rarr; ADCC; afucosylated IgG Fc greatly amplifies this interaction; key mechanism of anti-tumor mAbs
+      </li>
+      <li>
+        <span class="conn-rel">Parent entry</span>
+        <a href="epo.html">Erythropoietin (EPO)</a> &mdash; FcRn also recycles albumin and EPO; therapeutic EPO fusion proteins use albumin-FcRn-binding for extended half-life; EPOR-expressing cells can be targeted by IgG bispecific formats
+      </li>
+    </ul>
+  </div>
+
+  <!-- REFERENCES -->
+  <div class="section references">
+    <h2>References</h2>
+    <ol>
+      <li>Vidarsson G, Dekkers G, Rispens T. IgG subclasses and allotypes: from structure to effector functions. <em>Front Immunol.</em> 2014;5:520. doi:<a href="https://doi.org/10.3389/fimmu.2014.00520" target="_blank" rel="noopener">10.3389/fimmu.2014.00520</a></li>
+      <li>Roopenian DC, Akilesh S. FcRn: the neonatal Fc receptor comes of age. <em>Nat Rev Immunol.</em> 2007;7(9):715&ndash;725. doi:<a href="https://doi.org/10.1038/nri2155" target="_blank" rel="noopener">10.1038/nri2155</a></li>
+      <li>Nimmerjahn F, Ravetch JV. Fc&gamma; receptors as regulators of immune responses. <em>Nat Rev Immunol.</em> 2008;8(1):34&ndash;47. doi:<a href="https://doi.org/10.1038/nri2206" target="_blank" rel="noopener">10.1038/nri2206</a></li>
+      <li>Bruhns P, Jorieux S. Solution for a detrimental side effect: FcRn in IgG4-related disorders. <em>Nat Struct Mol Biol.</em> 2021;28:12&ndash;14.</li>
+      <li>Wang W, Wang EQ, Balthasar JP. Monoclonal antibody pharmacokinetics and pharmacodynamics. <em>Clin Pharmacol Ther.</em> 2008;84(5):548&ndash;558. doi:<a href="https://doi.org/10.1038/clpt.2008.170" target="_blank" rel="noopener">10.1038/clpt.2008.170</a></li>
+    </ol>
+  </div>
+
+</div><!-- /content -->
+
+<footer>
+  <p>Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, global model of human biology and medicine &mdash; in the service of all of humanity.</p>
+  <p style="margin-top:.6rem;">
+    <a href="index.html">Home</a> &nbsp;&middot;&nbsp;
+    <a href="antibody.html">Antibody</a> &nbsp;&middot;&nbsp;
+    <a href="b-cell.html">B Cell</a> &nbsp;&middot;&nbsp;
+    <a href="complement-c3.html">Complement C3</a> &nbsp;&middot;&nbsp;
+    <a href="immune-system.html">Immune System</a> &nbsp;&middot;&nbsp;
+    <a href="epo.html">EPO</a> &nbsp;&middot;&nbsp;
+    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+  </p>
+  <p style="margin-top:.75rem;">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+</footer>
+
+</body>
+</html>
