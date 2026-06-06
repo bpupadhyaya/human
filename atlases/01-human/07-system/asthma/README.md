@@ -1,0 +1,164 @@
+---
+schema: human-scale-entry/v1
+id: asthma
+name: Asthma
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Chronic airway hyperresponsiveness from Th2/ILC2 cytokines (IL-4, IL-5, IL-13), mast cell, and eosinophil activation; reversible bronchoconstriction and airway remodeling. ICS are first-line; dupilumab, mepolizumab, and omalizumab for severe type 2 asthma."
+aliases: ["bronchial asthma", "allergic asthma", "eosinophilic asthma", "atopic asthma", "T2-high asthma"]
+sources:
+  - id: reddel-2022-gina
+    type: peer-reviewed
+    cite: "Reddel HK, Bacharier LB, Bateman ED, et al. Global Initiative for Asthma Strategy 2021: executive summary and rationale for key changes. Am J Respir Crit Care Med. 2022;205(1):17-35."
+    doi: "10.1164/rccm.202109-2205PP"
+    pmid: "34665667"
+    url: "https://doi.org/10.1164/rccm.202109-2205PP"
+  - id: wenzel-2012-asthma-phenotypes
+    type: peer-reviewed
+    cite: "Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. Nat Med. 2012;18(5):716-725."
+    doi: "10.1038/nm.2678"
+    pmid: "22561835"
+    url: "https://doi.org/10.1038/nm.2678"
+  - id: castro-2018-dupilumab-asthma
+    type: peer-reviewed
+    cite: "Castro M, Corren J, Pavord ID, et al. Dupilumab efficacy and safety in moderate-to-severe uncontrolled asthma. N Engl J Med. 2018;379(26):2486-2496."
+    doi: "10.1056/NEJMoa1804092"
+    pmid: "30088505"
+    url: "https://doi.org/10.1056/NEJMoa1804092"
+cross_links:
+  - target: 01-human/07-system/respiratory-system
+    relation: targets
+    note: "Asthma targets the lower respiratory system; allergen exposure → airway smooth muscle contraction → reversible obstruction; chronic inflammation → airway remodeling (smooth muscle hypertrophy, subepithelial fibrosis) → fixed obstruction in severe disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells are central acute asthma effectors; IgE cross-linking by allergen → degranulation → histamine, leukotrienes (LTC4), PGD2 → bronchoconstriction and vasodilation; tryptase and IL-5 amplify eosinophil recruitment; CRTh2+ mast cells sustain chronic airway inflammation."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 drives airway remodeling and neutrophilic asthma; elevated in severe disease; IL-6 trans-signaling promotes STAT3-dependent goblet cell differentiation and mucus hypersecretion; tocilizumab is under investigation for steroid-resistant neutrophilic asthma."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-beta1 drives asthma airway remodeling: subepithelial fibrosis, smooth muscle hypertrophy, and mucus gland hyperplasia; TGF-beta also suppresses Tregs and promotes Th17 in severe asthma; anti-TGF-beta strategies are under investigation for structural reversal."
+---
+
+# Asthma
+
+## Overview
+
+**Asthma** is a **heterogeneous chronic inflammatory disease of the airways** characterized by variable airflow obstruction, bronchial hyperresponsiveness (BHR), and airway remodeling. It is defined by episodic symptoms — **wheeze, cough, chest tightness, and dyspnea** — that vary over time and are associated with expiratory airflow limitation that is (at least partially) reversible spontaneously or with treatment [^gina-2023-asthma].
+
+Asthma affects approximately **339 million people worldwide** (WHO 2019) and is the most common chronic respiratory disease in children. It accounts for ~450,000 deaths/year and enormous healthcare costs. The global prevalence has increased over 50 years, particularly in Westernized, industrialized countries — consistent with the hygiene hypothesis (insufficient early microbial exposure → impaired immune maturation → allergic sensitization).
+
+**Clinical heterogeneity — asthma endotypes [^wenzel-2012-asthma-phenotypes]:**
+- **Type 2 (T2-high) asthma (~50% of adults):** Eosinophilic, allergic, or mixed; driven by Th2/ILC2 cytokines (IL-4, IL-5, IL-13), IgE, and eosinophils; highest biomarker activity (blood eosinophils ≥300/μL, FeNO ≥25 ppb, periostin, total IgE); best biologic candidates
+  - *Allergic asthma:* IgE-mediated; early sensitization (house dust mite, cat, mold, cockroach, pollen); atopic triad (asthma + allergic rhinitis + atopic dermatitis); anti-IgE (omalizumab) effective
+  - *Late-onset eosinophilic:* Non-allergic; often adult-onset, severe, corticosteroid-responsive but corticosteroid-requiring; anti-IL-5/IL-5R (mepolizumab, benralizumab) most effective
+- **Type 2-low (non-T2) asthma (~50% of adults):**
+  - *Neutrophilic asthma:* Smoking-related, obese, occupational; IL-8, IL-17, IL-6 driven; corticosteroid-insensitive; no approved biologic
+  - *Paucigranulocytic asthma:* Minimal airway inflammation; BHR driven by smooth muscle abnormalities and autonomic dysfunction
+
+**Severity and control:**
+- **Intermittent:** Daytime symptoms ≤2 days/week, nighttime awakenings ≤2/month, no daily medication required
+- **Mild persistent:** Daytime symptoms >2 days/week; GINA Step 2
+- **Moderate persistent:** Daily symptoms; nighttime awakenings >1/week; Step 3-4
+- **Severe persistent:** Continuous daily symptoms; frequent exacerbations; Step 5; biologic candidates
+
+## Structure
+
+### Airway pathology
+
+**Normal airway architecture:** Pseudostratified ciliated columnar epithelium + goblet cells; lamina propria with mast cells and sparse eosinophils; smooth muscle layer; submucosal glands; cartilaginous rings (large airways).
+
+**Asthmatic airway changes:**
+- **Epithelial damage:** Allergen proteases (HDM Der p 1 = cysteine protease) cleave tight junction proteins → epithelial barrier disruption → allergen entry → DC sampling → sensitization; fragile asthmatic epithelium → shed epithelial cells in sputum (Creola bodies)
+- **Goblet cell hyperplasia:** IL-13 → JAK1/STAT6 → MUC5AC transcription → mucus hypersecretion → mucus plug formation → mucoid impaction in fatal asthma
+- **Subepithelial fibrosis:** TGF-beta → fibroblast-to-myofibroblast transition → collagen III/V deposition below basement membrane → irreversible structural narrowing in severe chronic asthma
+- **Smooth muscle hypertrophy/hyperplasia:** IL-4, IL-13, and TGF-beta → increased airway smooth muscle mass → increased contractile capacity → enhanced BHR
+- **Increased vascularity:** VEGF-driven angiogenesis in asthmatic airway wall → increased edema and airway wall thickness → narrowed lumen
+
+### T2 immune cascade
+
+**Sensitization phase (first exposure):**
+1. Allergen inhaled → epithelial alarm signals (TSLP, IL-25, IL-33) released
+2. TSLP/IL-33 → activate DCs and ILC2 (type 2 innate lymphoid cells)
+3. ILC2 → IL-5 (eosinophil recruitment) + IL-13 (smooth muscle and goblet cell activation) → innate T2 amplification
+4. DCs migrate to mediastinal LN → present processed allergen peptides to naive CD4+ T cells → IL-4 (from mast cells/basophils) → Th2 polarization → IL-4, IL-5, IL-13, IL-9 cytokine production
+5. Th2-driven B cells switch to IgE class → allergen-specific IgE → binds FcεRI on mast cells and basophils
+
+**Effector phase (re-exposure):**
+1. Allergen → cross-links IgE on mast cells → FcεRI → Syk kinase → PLC-gamma → Ca²⁺ → mast cell degranulation:
+   - **Pre-formed mediators:** Histamine (bronchoconstriction, vasodilation), tryptase (pro-inflammatory), heparin
+   - **Newly synthesized:** LTC4 → LTD4/LTE4 (cysteinyl leukotrienes, potent bronchoconstrictors → montelukast target), PGD2 (CRTh2 on Th2/eosinophils → amplification)
+   - **Cytokines:** TNF-alpha, IL-5, IL-13 (late phase)
+2. **Acute phase (0-2h):** Bronchoconstriction (histamine, LTC4-D4), airway edema, mucus secretion
+3. **Late phase (4-12h):** Eosinophil recruitment (IL-5, eotaxin/CCL11 → CCR3) → eosinophil degranulation → MBP, ECP → epithelial damage; sustained inflammation → BHR
+4. **Chronic phase:** Persistent eosinophilia, Th2 cytokine production, airway remodeling
+
+## Function
+
+### Clinical presentation
+
+**Symptoms:**
+- Episodic wheeze (high-pitched expiratory) — classic symptom; also productive cough, dyspnea, chest tightness
+- **Triggers:** Allergens (HDM, pollen, pet dander), respiratory viruses (RV → ~80% of childhood and ~40% of adult exacerbations), exercise (especially cold air), NSAIDs (aspirin-exacerbated respiratory disease, AERD), tobacco smoke, occupational exposures, cold air, emotional stress
+- **Nocturnal worsening:** Circadian decrease in cortisol and epinephrine + supine posture (increased vagal tone, decreased FRC) → nocturnal symptoms
+
+**Objective measures:**
+- **Spirometry:** FEV1/FVC <0.7 or <LLN (post-bronchodilator); significant bronchodilator reversibility (≥12% AND ≥200 mL increase in FEV1 after SABA) — hallmark of asthma
+- **Peak expiratory flow (PEF) variability:** >10% diurnal variation; useful for home monitoring
+- **FeNO (fractional exhaled NO):** ≥25 ppb = eosinophilic airway inflammation; correlates with ICS responsiveness; used to guide therapy step-up
+- **Bronchoprovocation (methacholine challenge):** PC20 ≤16 mg/mL = BHR; used when spirometry and symptoms don't match; high sensitivity, moderate specificity for asthma
+- **Allergy testing:** Skin prick test or specific IgE (ImmunoCAP) to identify sensitizing allergens; guides allergen avoidance and immunotherapy decisions
+
+**Acute severe asthma (status asthmaticus):**
+- SpO2 <92%, RR >25, HR >120, unable to complete sentences, PEF <50% predicted, silent chest → imminent respiratory failure
+- Management: High-flow O2, continuous nebulized SABA + ipratropium, IV corticosteroids (methylprednisolone 40-80 mg), IV magnesium sulfate (1-2g over 20 min → smooth muscle relaxation), CPAP/HFNO; intubation if failing → severe auto-PEEP risk
+- **Risk factors for fatal asthma:** Prior near-fatal attack, ≥2 hospitalizations/year, reliance on OCS, poor perception of severity, psychiatric comorbidity, under-prescription of ICS
+
+## Pathology
+
+### Diagnosis
+
+**GINA definition:** Pattern of symptoms (variable wheeze, cough, dyspnea, chest tightness) + variable expiratory airflow limitation (spirometry, PEF monitoring).
+
+**Differential diagnosis:** COPD (irreversible obstruction, smoking, age >40), vocal cord dysfunction (inspiratory stridor, young women, exercise-triggered, responds to speech therapy), cardiac asthma (heart failure), bronchiectasis, eosinophilic bronchitis, foreign body.
+
+### Treatment [^castro-2018-dupilumab-asthma]
+
+**GINA stepwise approach:**
+
+*Step 1-2 (mild asthma):*
+- Low-dose ICS (budesonide 200 μg/day, fluticasone propionate 100-200 μg/day) — cornerstone of all asthma therapy; suppresses Th2 eosinophilic inflammation, reduces exacerbations by ~50%, reduces BHR; no disease modification (relapse on cessation)
+- SABA (salbutamol/albuterol) PRN for symptom relief; overuse predicts poor control
+- GINA 2019 update: ICS-formoterol (low-dose budesonide-formoterol) PRN preferred over SABA alone for mild asthma (SYGMA 1/2 trials)
+
+*Step 3-4 (moderate-severe):*
+- Low-dose ICS + LABA (salmeterol, formoterol): Superior to ICS alone and ICS dose escalation; standard Step 3 therapy
+- Medium-high dose ICS + LABA: Step 4; add leukotriene receptor antagonist (LTRA, montelukast) or tiotropium (LAMA) as add-on
+- **SMART (single inhaler maintenance and reliever therapy):** ICS-formoterol (budesonide-formoterol/Symbicort or beclomethasone-formoterol) as both maintenance AND reliever → superior to ICS+LABA maintenance with SABA PRN; reduces severe exacerbations 30-50%; endorsed by GINA 2019+ as preferred Step 3-4 strategy
+
+*Step 5 — Severe/refractory asthma:*
+- High-dose ICS + LABA + biologic; oral corticosteroid (OCS) should be avoided if possible (OCS toxicity: adrenal suppression, osteoporosis, DM, cardiovascular disease, cataracts)
+
+**Biologics for severe asthma (T2-high):**
+- **Omalizumab (Xolair, anti-IgE):** Binds free IgE → reduces FcεRI expression on mast cells → less IgE-mediated activation; indicated: severe allergic asthma (total IgE 30-1500 IU/mL, skin-test positive, ≥12y); reduces exacerbations ~26-50%; also prevents severe allergic reactions/anaphylaxis
+- **Mepolizumab (Nucala, anti-IL-5):** Reduces eosinophil counts by ~80-90%; indicated: severe eosinophilic asthma (blood eos ≥150/μL at initiation or ≥300/μL in prior year); 47% reduction in exacerbations (DREAM/MENSA trials); SC monthly
+- **Benralizumab (Fasenra, anti-IL-5Ra/FcgammaRIII):** Direct eosinophil depletion via ADCC; near-complete eosinophil elimination; SC Q8W (after 3 Q4W doses); non-inferior/superior to mepolizumab in indirect comparison
+- **Dupilumab (Dupixent, anti-IL-4Ra):** Blocks both IL-4 and IL-13 signaling (shared receptor subunit); QUEST trial: 46% exacerbation reduction vs. placebo at eos ≥300/μL or FeNO ≥25 ppb; also approved atopic dermatitis, CRS with NP, COPD, EoE; broadest T2 disease coverage; SC biweekly [^castro-2018-dupilumab-asthma]
+- **Tezepelumab (Tezspire, anti-TSLP):** Targets TSLP (upstream of Th2/ILC2 activation) → reduces eosinophils, ILC2s, and T2 biomarkers; NAVIGATOR trial: 70% exacerbation reduction in patients with high blood eos AND 56% in those with <300/μL — broadest efficacy regardless of eos; SC monthly
+- **Itepekimab (Regn3500, anti-IL-33):** PHASE 2 data promising; targets IL-33 upstream alarmin
+
+**Allergen immunotherapy:**
+- **Subcutaneous (SCIT) or sublingual (SLIT) immunotherapy:** Modify immune response to specific allergens → allergen tolerance; effective for allergic asthma, allergic rhinitis; 3-5 year course; reduces symptoms and medication needs; risk of anaphylaxis with SCIT → administer in clinic with epinephrine available
+
+## Connections
+
+- `targets` → **[Respiratory System](../respiratory-system/README.md)** — asthma causes reversible airway obstruction via smooth muscle contraction, mucosal edema, and mucus plugging; chronic inflammation drives irreversible airway remodeling (subepithelial fibrosis, smooth muscle hypertrophy) — the basis for step-up therapy to prevent structural changes.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — mast cells are the central acute asthma effectors; IgE cross-linking by allergen → degranulation → histamine, LTC4, PGD2 → acute bronchoconstriction; sustained mast cell cytokine release (IL-5, IL-13) amplifies eosinophil recruitment and late-phase inflammation.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 drives airway remodeling, neutrophilic airway inflammation, and corticosteroid-insensitive asthma; IL-6 trans-signaling promotes STAT3-dependent goblet cell differentiation and mucus hypersecretion; elevated serum IL-6 correlates with severe, uncontrolled asthma.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — TGF-beta1 drives airway remodeling: subepithelial fibrosis, smooth muscle hypertrophy, and goblet cell hyperplasia; also suppresses Treg function and promotes Th17 skewing in severe asthma; anti-TGF-beta strategies are under investigation to reverse established airway structural changes.
+
+[^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
+[^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
+[^castro-2018-dupilumab-asthma]: Castro M, Corren J, Pavord ID, et al. Dupilumab efficacy and safety in moderate-to-severe uncontrolled asthma. *N Engl J Med.* 2018;379(26):2486-2496. [doi:10.1056/NEJMoa1804092](https://doi.org/10.1056/NEJMoa1804092) · [PubMed 30088505](https://pubmed.ncbi.nlm.nih.gov/30088505/)
