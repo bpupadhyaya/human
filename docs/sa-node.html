@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sinoatrial Node — the heart's primary pacemaker tissue. HCN4 funny current, Ca²⁺ clock, autonomic regulation, sick sinus syndrome. Human Engineering Atlas.">
+  <meta property="og:title" content="Sinoatrial Node — Human Engineering Atlas">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Sinoatrial Node — Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff0f0 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    .footer-meta{margin-top:.4rem}
+  </style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="brand-mark"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cardiovascular-system.html">Cardiovascular</a>
+      <a href="cardiac-conduction-system.html">Conduction System</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Atlas One · Human · Tissue · Cardiac Pacemaker</div>
+    <h1>Sinoatrial <span>Node</span></h1>
+    <p class="hero-lead">The sinoatrial (SA) node — a crescent-shaped cluster of ~10,000 specialized pacemaker cells at the junction of the right atrium and superior vena cava — is the heart's primary biological clock. It generates spontaneous action potentials at 60–100 per minute at rest, setting the heart's rhythmic rate through the unique HCN4-driven funny current and the Ca²⁺ clock mechanism.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Location: RA–SVC junction</span>
+  <span>Size: ~15 × 5 × 1.5 mm</span>
+  <span>Autonomic innervation: sympathetic (β1-AR) + parasympathetic (M2)</span>
+</div>
+
+<div class="content">
+
+  <div class="section">
+    <h2>Overview</h2>
+    <p>The SA node is the primary pacemaker of the heart, with dominant automaticity over the AV node (40–60/min) and the His-Purkinje system (20–40/min). This hierarchical pacemaker system ensures backup automaticity if the SA node fails. SA node cells are heterogeneous: <strong>central cells</strong> are the slowest and most autonomous, driving normal rhythm; <strong>peripheral cells</strong> are transitional, electrically coupling the node to working atrial myocardium.</p>
+    <p>The electrophysiology of SA node cells is unique among cardiac cells. They exhibit a slow upstroke (no Nav1.5 fast sodium channel; upstroke driven only by I<sub>CaL</sub>), a low resting potential (~−60 mV), no true diastolic resting potential, and continuous spontaneous diastolic depolarization (phase 4 depolarization). The "leading pacemaker site" shifts within the SA node depending on autonomic tone — sympathetic stimulation recruits more superior nodal cells; vagal stimulation shifts dominance caudally.</p>
+    <div class="callout"><strong>Key concept:</strong> The SA node does not rest between beats. Unlike working myocardium, SA node cells continuously depolarize during diastole, driven by the funny current (I<sub>f</sub>) and Ca²⁺ clock, until the threshold for the next action potential is reached.</div>
+  </div>
+
+  <div class="section">
+    <h2>Anatomy</h2>
+    <p>The SA node is located subepicardially at the junction of the right atrium and the superior vena cava (SVC); the <em>sulcus terminalis</em> marks its position on the external surface of the heart. It is crescent-shaped, approximately 1–1.5 cm in length, 0.5 cm wide, and 1.5 mm thick.</p>
+    <ul>
+      <li><strong>Arterial supply:</strong> The central SA nodal artery arises from the right coronary artery (RCA) in ~60% of individuals and from the left circumflex artery (LCX) in ~40%.</li>
+      <li><strong>Autonomic innervation:</strong> Rich sympathetic (right stellate ganglion) and parasympathetic (right vagus nerve) innervation. Vagal tone predominates at rest, keeping the heart rate below the intrinsic ~100/min.</li>
+      <li><strong>Connective tissue:</strong> The node is embedded in a fibrous matrix that electrically isolates it from surrounding atrial myocardium, limiting conduction to specific exit pathways. Fibrosis increases with age, reducing maximum heart rate and contributing to pacemaker dysfunction in the elderly.</li>
+      <li><strong>Connexins:</strong> SA node cells express Cx45 (low conductance) rather than the Cx43 of working myocardium — this low-conductance coupling slows propagation and prevents the faster atrial potential from overriding nodal automaticity.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Cellular Mechanism</h2>
+    <p>Two interconnected mechanisms — the <strong>voltage clock</strong> and the <strong>Ca²⁺ clock</strong> — cooperate to generate diastolic depolarization and set the firing rate.</p>
+
+    <h3>Voltage Clock</h3>
+    <ul>
+      <li><strong>HCN4 (I<sub>f</sub> / funny current):</strong> Activates on hyperpolarization after repolarization; conducts mixed Na⁺/K⁺ inward current → initiates phase 4 depolarization from the maximum diastolic potential (MDP, ~−65 mV). HCN4 is the dominant isoform in humans (HCN1, HCN2 also present).</li>
+      <li><strong>I<sub>CaT</sub> (Cav3.1, T-type Ca²⁺):</strong> Activates at ~−50 mV → contributes to mid-diastolic depolarization, amplifying the slow depolarization initiated by I<sub>f</sub>.</li>
+      <li><strong>I<sub>CaL</sub> (Cav1.2, L-type Ca²⁺):</strong> Activates at ~−40 mV → drives the action potential upstroke (no Nav1.5 fast sodium channel in central SA node cells). The L-type Ca²⁺ current is also the main source of Ca²⁺ for excitation–contraction coupling in the surrounding atrium.</li>
+      <li><strong>I<sub>Kr</sub> / I<sub>Ks</sub> (delayed rectifier K⁺):</strong> Repolarize the action potential → return to MDP (~−65 mV) → next cycle begins.</li>
+    </ul>
+
+    <h3>Ca²⁺ Clock</h3>
+    <ul>
+      <li>During late diastole, spontaneous SR Ca²⁺ release via RyR2 produces local Ca²⁺ sparks/wavelets in the subsarcolemmal space.</li>
+      <li>This local Ca²⁺ elevation activates the <strong>NCX</strong> (Na⁺/Ca²⁺ exchanger) in forward mode: 3 Na⁺ in, 1 Ca²⁺ out → net inward depolarizing current → contributes to late diastolic depolarization and timing of the action potential upstroke.</li>
+      <li>The Ca²⁺ clock is tightly integrated with the voltage clock — autonomic signaling modulates both clocks in concert, primarily through cAMP/PKA phosphorylation of HCN4, RyR2, phospholamban (PLN), and Cav1.2.</li>
+    </ul>
+    <div class="callout"><strong>Coupling:</strong> Neither clock alone is sufficient for reliable pacemaking. Their mutual entrainment provides robustness and the wide dynamic range of heart rate (40–200+ bpm).</div>
+  </div>
+
+  <div class="section">
+    <h2>Autonomic Regulation</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Input</th>
+          <th>Receptor / Pathway</th>
+          <th>Ionic / Molecular Effects</th>
+          <th>Net Effect on Rate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Sympathetic</strong></td>
+          <td>β1-AR → Gs → ↑cAMP → PKA</td>
+          <td>I<sub>f</sub> V½ shifts +10 mV (activates at less negative voltage); ↑I<sub>CaL</sub> amplitude; ↑I<sub>Ks</sub>; PKA phosphorylates RyR2 and PLN → enhanced Ca²⁺ clock cycling</td>
+          <td>↑ heart rate (positive chronotropy); max HR ≈ 208 − 0.7 × age</td>
+        </tr>
+        <tr>
+          <td><strong>Parasympathetic / Vagal</strong></td>
+          <td>M2-R → Gi → ↓cAMP + opens I<sub>KACh</sub> (GIRK1/4)</td>
+          <td>↓I<sub>f</sub>; ↓I<sub>CaL</sub>; I<sub>KACh</sub> hyperpolarizes MDP from ~−65 to −75 mV → slower phase 4 depolarization; reduced Ca²⁺ clock cycling</td>
+          <td>↓ heart rate; extreme vagal tone → sinus pause/asystole (vasovagal reflex)</td>
+        </tr>
+        <tr>
+          <td><strong>Intrinsic (no ANS)</strong></td>
+          <td>—</td>
+          <td>Basal I<sub>f</sub> + Ca²⁺ clock activity</td>
+          <td>~100/min; resting HR 60–80 reflects dominant vagal tone</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Pathology</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Condition</th>
+          <th>Mechanism</th>
+          <th>Clinical Features</th>
+          <th>Treatment</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Sick Sinus Syndrome (SSS)</strong></td>
+          <td>Fibrosis (age-related), ischemia, infiltration, Cx43 remodeling, HCN4 loss-of-function mutations (familial)</td>
+          <td>Symptomatic sinus bradycardia, sinus pauses, sinoatrial exit block, tachy-brady syndrome (alternating bradycardia and AF/flutter)</td>
+          <td>Permanent pacemaker (DDDR or AAI mode)</td>
+        </tr>
+        <tr>
+          <td><strong>Inappropriate Sinus Tachycardia (IST)</strong></td>
+          <td>HCN4 gain-of-function or hyperadrenergic state; elevated I<sub>f</sub> activation</td>
+          <td>Resting HR &gt;100 without physiologic cause; palpitations, presyncope</td>
+          <td>Ivabradine (selective I<sub>f</sub> blocker); β-blockers as second line</td>
+        </tr>
+        <tr>
+          <td><strong>Sinus Node Re-entry Tachycardia</strong></td>
+          <td>Micro-reentry circuit within or around SA node; often in tachy-brady syndrome</td>
+          <td>Paroxysmal SVT with P-wave morphology identical to sinus; abrupt onset/offset</td>
+          <td>Catheter ablation; vagal maneuvers terminate acutely</td>
+        </tr>
+        <tr>
+          <td><strong>Age-related Pacemaker Dysfunction</strong></td>
+          <td>Progressive nodal fibrosis, reduced HCN4 expression, reduced β-AR responsiveness</td>
+          <td>Lower maximum HR; chronotropic incompetence; exercise intolerance in elderly</td>
+          <td>Rate-responsive pacing if symptomatic</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">Channel</span><a href="hcn4.html">HCN4</a> — pacemaker funny current channel; primary molecular target in SA node automaticity</li>
+      <li><span class="conn-rel">Transporter</span><a href="ncx1.html">NCX1</a> — Na⁺/Ca²⁺ exchanger; integral to Ca²⁺ clock diastolic depolarization</li>
+      <li><span class="conn-rel">System</span><a href="cardiac-conduction-system.html">Cardiac Conduction System</a> — SA node drives the downstream AV node → His-Purkinje → ventricular myocardium</li>
+      <li><span class="conn-rel">Cell</span><a href="cardiomyocyte.html">Cardiomyocyte</a> — SA node action potentials propagate through atrial and ventricular cardiomyocytes to produce contraction</li>
+      <li><span class="conn-rel">Receptor</span><a href="beta1-adrenergic-receptor.html">β1-Adrenergic Receptor</a> — sympathetic accelerator; cAMP/PKA axis shifts I<sub>f</sub> and Ca²⁺ clock</li>
+    </ul>
+  </div>
+
+  <div class="section references">
+    <h2>References</h2>
+    <ol>
+      <li>Dobrzynski H, et al. Structure, function and clinical relevance of the cardiac conduction system, including the atrioventricular ring and outflow tract tissues. <em>Pharmacol Ther.</em> 2013;139:260–288.</li>
+      <li>DiFrancesco D. The role of the funny current in pacemaker activity. <em>Circ Res.</em> 2010;106:434–446.</li>
+      <li>Lakatta EG, et al. A coupled SYSTEM of intracellular Ca²⁺ clocks and surface membrane voltage clocks controls the timekeeping mechanism of the heart's pacemaker. <em>Circ Res.</em> 2010;106:659–673.</li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p class="footer-meta">© 2025 Human Engineering · <a href="index.html">Atlas Home</a></p>
+  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  <p class="footer-meta" style="margin-top:0.4rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+</footer>
+</body>
+</html>

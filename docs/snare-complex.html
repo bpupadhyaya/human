@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SNARE Complex — VAMP-2, SNAP-25, syntaxin-1 four-helix bundle driving synaptic vesicle fusion. Munc18, complexin, synaptotagmin-1, NSF. Botulinum toxin, STXBP1 encephalopathy. Human Engineering Atlas.">
+  <meta property="og:title" content="SNARE Complex — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>SNARE Complex — Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-elev:#ffffff;--bg-soft:#e5e5ea;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:#d1d1d6;--border-soft:#e5e5ea;--bio:#059669;--eng:#2563eb;--ai:#7c3aed;--human:#d97706;--accent:#7c3aed;--accent-soft:rgba(124,58,237,0.10);--radius-sm:10px;--radius:18px;--radius-lg:24px;--maxw:1120px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;-webkit-font-smoothing:antialiased}
+    a{color:var(--bio);text-decoration:none;transition:color .15s}
+    a:hover{color:var(--human)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(242,242,247,0.85);border-bottom:1px solid var(--border-soft)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:0.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .brand{display:flex;align-items:center;gap:0.6rem;font-weight:700;font-size:0.98rem;letter-spacing:-0.01em;color:var(--fg)}
+    .brand-mark{width:26px;height:26px;border-radius:7px;background:conic-gradient(from 140deg,var(--bio),var(--eng),var(--ai),var(--human),var(--bio));box-shadow:0 0 0 1px rgba(0,0,0,0.08),0 4px 16px rgba(5,150,105,0.2)}
+    .nav-links{display:flex;align-items:center;gap:1.3rem;font-size:0.92rem}
+    .nav-links a{color:var(--muted);font-weight:500}
+    .nav-links a:hover{color:var(--fg)}
+    .nav-back{display:inline-flex;align-items:center;gap:0.4rem;color:var(--muted)}
+    .nav-back svg{width:14px;height:14px}
+    @media(max-width:760px){.nav-links a:not(.nav-back){display:none}}
+    .hero{max-width:var(--maxw);margin:0 auto;padding:4rem 1.5rem 2.5rem;background:linear-gradient(135deg,#f5f0ff 0%,#ffffff 60%)}
+    .hero-eyebrow{display:inline-flex;align-items:center;padding:0.4rem 0.9rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1.5rem}
+    .hero h1{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800;letter-spacing:-0.03em;color:var(--fg);line-height:1.06;margin-bottom:1.1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero .tagline{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--fg-soft);max-width:720px;font-weight:500;margin-bottom:0.75rem}
+    .hero .subtagline{font-size:0.98rem;color:var(--muted);max-width:720px}
+    .meta-strip{display:flex;gap:0;flex-wrap:wrap;margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--border-soft);font-size:0.82rem;color:var(--muted)}
+    .meta-item{padding:0.3rem 0.9rem 0.3rem 0;display:flex;flex-direction:column;gap:0.1rem}
+    .meta-item:not(:last-child){border-right:1px solid var(--border-soft);margin-right:0.9rem}
+    .meta-label{font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted-2)}
+    .meta-val{font-weight:600;color:var(--fg);font-size:0.86rem}
+    main{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 2rem}
+    .detail-card{background:var(--bg-elev);border:1px solid var(--border-soft);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.5rem;box-shadow:0 4px 14px rgba(0,0,0,0.04)}
+    .detail-header{padding:2rem 2rem 1.75rem;background:linear-gradient(135deg,#7c3aed,#4c1d95)}
+    .detail-header .entry-eyebrow{font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:0.5rem}
+    .detail-header h2{font-size:clamp(1.8rem,3vw,2.5rem);font-weight:800;color:white;letter-spacing:-0.03em;margin-bottom:0.65rem}
+    .detail-header .summary{font-size:0.98rem;color:rgba(255,255,255,0.88);line-height:1.65;max-width:780px}
+    .detail-body{padding:2rem;display:flex;flex-direction:column;gap:2rem}
+    .detail-section h3{font-size:0.76rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.8rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border-soft)}
+    .detail-section p{color:var(--fg-soft);font-size:0.95rem;line-height:1.65;margin-bottom:0.6rem}
+    .detail-section p:last-child{margin-bottom:0}
+    .detail-section strong{color:var(--fg)}
+    .data-table{width:100%;border-collapse:collapse;font-size:0.87rem;margin-top:0.5rem}
+    .data-table th{text-align:left;padding:0.5rem 0.65rem;background:var(--bg);font-weight:600;font-size:0.74rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted)}
+    .data-table td{padding:0.5rem 0.65rem;border-top:1px solid var(--border-soft);color:var(--fg-soft);vertical-align:top;line-height:1.5}
+    .data-table td:first-child{font-weight:600;color:var(--fg)}
+    .data-table td strong{color:var(--fg);font-weight:700}
+    .step-block{background:var(--bg);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:0.85rem 1.1rem;margin:0.5rem 0}
+    .step-block ol{list-style:decimal;padding-left:1.25rem;display:flex;flex-direction:column;gap:0.4rem}
+    .step-block li{font-size:0.88rem;color:var(--fg-soft);line-height:1.6}
+    .step-block li strong{color:var(--fg)}
+    .pathway-block{background:var(--bg);border:1px solid var(--border-soft);border-radius:var(--radius-sm);padding:1.25rem 1.5rem;overflow-x:auto;margin:0.5rem 0}
+    .pathway-block pre{font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:0.82rem;line-height:1.6;color:var(--fg-soft)}
+    .pathology-item{padding:0.85rem 1rem;background:var(--bg);border-radius:var(--radius-sm);border-left:3px solid var(--border);margin-bottom:0.5rem}
+    .pathology-item:last-child{margin-bottom:0}
+    .pathology-item h4{font-size:0.88rem;font-weight:700;color:var(--fg);margin-bottom:0.2rem}
+    .pathology-item p{font-size:0.84rem;color:var(--muted);line-height:1.5}
+    .pathology-item.danger{border-left-color:#dc2626}
+    .pathology-item.warn{border-left-color:var(--human)}
+    .pathology-item.info{border-left-color:var(--accent)}
+    .connections{display:flex;flex-wrap:wrap;gap:0.6rem}
+    .conn-pill{display:inline-flex;align-items:center;gap:0.4rem;padding:0.4rem 0.85rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.82rem;color:var(--fg-soft);transition:all .15s}
+    .conn-pill:hover{background:var(--bg-soft);color:var(--fg)}
+    .conn-pill .rel{font-weight:700;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--accent);margin-right:0.1rem}
+    .refs{list-style:none;display:flex;flex-direction:column;gap:0.5rem}
+    .refs li{font-size:0.82rem;color:var(--muted);line-height:1.55;padding-left:1.1rem;position:relative}
+    .refs li::before{content:'↗';position:absolute;left:0;color:var(--accent);font-size:0.75rem;top:0.05rem}
+    .refs li a{color:var(--accent)}
+    footer{margin-top:4rem;padding:2.5rem 1.5rem 2rem;border-top:1px solid var(--border-soft);text-align:center}
+    .footer-tag{font-size:0.95rem;color:var(--muted);max-width:620px;margin:0 auto 1rem}
+    .footer-links{display:flex;gap:1.25rem;justify-content:center;flex-wrap:wrap;font-size:0.88rem;margin-bottom:1rem}
+    .footer-links a{color:var(--muted)}
+    .footer-links a:hover{color:var(--bio)}
+    .footer-meta{font-size:0.8rem;color:var(--muted-2)}
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="synapse.html">Synapse</a>
+        <a href="neuron.html">Neuron</a>
+        <a href="neuromuscular-junction.html">NMJ</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular &middot; Membrane Fusion</div>
+    <h1>SNARE <span>Complex</span></h1>
+    <p class="tagline">SNARE (Soluble NSF Attachment Protein Receptor) proteins are the minimal machinery for intracellular membrane fusion &mdash; including synaptic vesicle exocytosis, secretory granule fusion, and intracellular trafficking. A synaptic SNARE complex consists of three proteins (VAMP-2, SNAP-25, syntaxin-1) that coil into a 4-helix bundle generating ~65 k&#x42;T of free energy to drive membrane merger.</p>
+    <div class="meta-strip">
+      <div class="meta-item"><span class="meta-label">Core complex</span><span class="meta-val">VAMP-2 + SNAP-25 + Syntaxin-1</span></div>
+      <div class="meta-item"><span class="meta-label">Energy</span><span class="meta-val">~65 k&#x42;T per complex</span></div>
+      <div class="meta-item"><span class="meta-label">Ca&#178;&#8314; sensor</span><span class="meta-val">Synaptotagmin-1 (Syt1)</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Membrane Fusion &middot; Vesicle Exocytosis</div>
+        <h2>SNARE Complex</h2>
+        <p class="summary">SNARE proteins are the universal engine of intracellular membrane fusion. Three synaptic SNAREs &mdash; VAMP-2, SNAP-25, and syntaxin-1 &mdash; zipper into a stable 4-helix bundle that mechanically drives bilayer merger in submillisecond response to Ca&#178;&#8314; influx, releasing neurotransmitter into the synaptic cleft.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>The <strong>SNARE hypothesis</strong> (S&ouml;llner, Rothman, 1993) proposes that every membrane fusion event in eukaryotic cell biology is mediated by cognate <strong>v-SNARE</strong> (vesicle membrane) and <strong>t-SNARE</strong> (target membrane) protein pairs. Approximately 36 SNARE proteins exist in humans, each sharing a conserved ~60 amino acid coiled-coil <strong>SNARE domain</strong>. Classification: the central &ldquo;0 layer&rdquo; of the assembled bundle contains either an arginine (<strong>R-SNARE</strong>) or a glutamine (<strong>Qa, Qb, Qc-SNARE</strong>), and cognate fusion requires one R + three Q SNAREs to form a functional complex. This R/Q rule governs fusion specificity across all membrane compartments.</p>
+          <p>The Nobel Prize in Physiology or Medicine 2013 was awarded to <strong>James Rothman</strong>, <strong>Randy Schekman</strong>, and <strong>Thomas S&uuml;dhof</strong> for the discovery of the machinery regulating vesicle transport and the SNARE mechanism. The synaptic SNARE complex is the most extensively characterised fusion machine in biology &mdash; its 3D crystal structure was solved in 1998 (S&uuml;dhof/Brunger groups), revealing an extended parallel 4-helix bundle with 16 layered hydrophobic contacts.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Synaptic SNARE Components</h3>
+          <table class="data-table">
+            <tr><th>Protein</th><th>Classification</th><th>Structure and Toxin Cleavage Sites</th></tr>
+            <tr>
+              <td>VAMP-2 (synaptobrevin-2)</td>
+              <td><strong>R-SNARE</strong>; v-SNARE on synaptic vesicle membrane</td>
+              <td>Single C-terminal transmembrane domain anchored in SV membrane; 100 aa SNARE domain faces cytoplasm; cleaved by <strong>BoNT/B, D, F, G</strong> and <strong>tetanus toxin (TeNT)</strong> at distinct Gln-Phe or Val-Glu bonds; most abundant SV protein (~70 copies/vesicle)</td>
+            </tr>
+            <tr>
+              <td>SNAP-25 (synaptosomal-associated protein 25 kDa)</td>
+              <td><strong>Qb + Qc dual SNARE</strong>; t-SNARE on plasma membrane</td>
+              <td>No transmembrane domain; attached to plasma membrane via palmitoylation (central Cys cluster); provides <strong>two</strong> of the four SNARE helices; <strong>BoNT/A</strong> removes C-terminal 9 aa (Gln197-Arg206) &rarr; blocks exocytosis; <strong>BoNT/E</strong> removes 26 aa from C-terminus</td>
+            </tr>
+            <tr>
+              <td>Syntaxin-1 (STX1A/B)</td>
+              <td><strong>Qa-SNARE</strong>; t-SNARE on plasma membrane</td>
+              <td>Single C-terminal TM domain; N-terminal <strong>Habc domain</strong> folds back (closed conformation) and must be opened by Munc18-1 for SNARE complex assembly; <strong>BoNT/C</strong> cleaves both syntaxin-1 and SNAP-25; linker between Habc and SNARE domain critical for Munc13 template action</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Fusion Mechanism</h3>
+          <div class="step-block">
+            <ol>
+              <li><strong>Docking and template assembly:</strong> <strong>Munc18-1</strong> binds syntaxin-1 in closed conformation; <strong>Munc13</strong> (MUN domain) catalyses opening of syntaxin and templates partial SNARE assembly; <strong>RIM1&alpha;</strong> tethers synaptic vesicle via Rab3, co-organises Ca&#178;&#8314; channels at active zone</li>
+              <li><strong>Priming:</strong> SNARE zippering initiates N-terminally, forming a partially assembled complex (~4 of 16 hydrophobic layers); <strong>complexin I/II</strong> binds the partially assembled complex and inserts a short &ldquo;accessory helix&rdquo; as a clamp, arresting zippering and holding the vesicle in the readily releasable pool (RRP)</li>
+              <li><strong>Ca&#178;&#8314; triggering:</strong> AP &rarr; Cav2.1 Ca&#178;&#8314; influx &rarr; local [Ca&#178;&#8314;] rises to ~100 &micro;M at active zone microdomains &rarr; <strong>synaptotagmin-1 C2A + C2B</strong> domains bind 3&ndash;5 Ca&#178;&#8314; ions (K&#7496; ~200 &micro;M in vitro; effectively ~10 &micro;M near Ca&#178;&#8314; channels in vivo) &rarr; C2B domain inserts into the plasma membrane bilayer &rarr; displaces complexin accessory helix clamp</li>
+              <li><strong>Full SNARE zippering (zipper model):</strong> C-terminal zippering completes the 4-helix bundle &rarr; generates ~65 k&#x42;T per complex; force drives membrane approximation &rarr; hemifusion stalk &rarr; fusion pore opening &rarr; neurotransmitter floods the cleft within &lt;0.5 ms</li>
+              <li><strong>Post-fusion disassembly:</strong> <strong>cis-SNARE complex</strong> (all four helices on same membrane) is highly stable (T&#189; ~5 h at 37&deg;C); <strong>NSF</strong> (N-ethylmaleimide-sensitive factor; AAA&#8314; ATPase hexamer) + <strong>&alpha;-SNAP</strong> (soluble NSF attachment protein) hydrolyse ATP &rarr; disassemble cis-SNARE &rarr; free monomeric SNAREs recycled for next round</li>
+              <li><strong>Vesicle recycling:</strong> <strong>kiss-and-stay</strong> (fusion pore closes; SV retains identity; rapid re-use) vs. <strong>full-collapse fusion</strong> (SV membrane integrates into plasma membrane; retrieved by clathrin/dynamin/AP2-mediated endocytosis; SV reformed via endosome)</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Regulatory Proteins</h3>
+          <table class="data-table">
+            <tr><th>Protein</th><th>Function</th></tr>
+            <tr>
+              <td>Munc18-1 (STXBP1)</td>
+              <td>Essential SM (Sec1/Munc18) protein; binds syntaxin-1 Habc domain (closed conformation); paradoxically also promotes SNARE complex assembly (template function); structurally essential &mdash; Munc18-1 KO abolishes all secretion in chromaffin cells; phosphorylated by CDK5 and PKC to modulate exocytosis rate</td>
+            </tr>
+            <tr>
+              <td>Munc13 (UNC-13 homologue; Munc13-1/2/3)</td>
+              <td>Priming factor; MUN domain catalyses template SNARE assembly; DAG/phorbol ester receptor (C1 domain) &rarr; PKC-independent augmentation of release; Munc13-1 KO &rarr; ~90% reduction in EPSC; binds RIM1 and calmodulin (Ca&#178;&#8314;-dependent priming augmentation)</td>
+            </tr>
+            <tr>
+              <td>Complexin I/II</td>
+              <td>Dual role: facilitates SNARE assembly (C-terminal domain) and provides a Ca&#178;&#8314;-dependent clamp (accessory helix competing with VAMP-2 C-terminus); high-amplitude fast release requires complexin; complexin KO &rarr; reduced synchronous release, increased asynchronous and spontaneous release</td>
+            </tr>
+            <tr>
+              <td>RIM1&alpha; / RIM2&alpha;</td>
+              <td>Active zone scaffold (Rab3 effector + PDZ + C2 domains); tethers SV via Rab3A/B; clusters Cav2.1 channels at active zone via RIM-BP; phosphorylated by PKA &rarr; increased RRP size (pre-synaptic LTP at mossy fiber synapses); RIM1&alpha; mutations cause autosomal dominant cone-rod dystrophy</td>
+            </tr>
+            <tr>
+              <td>Synaptotagmin-1 (Syt1)</td>
+              <td>Primary Ca&#178;&#8314; sensor for fast synchronous release; C2A + C2B domains; C2B electrostatic interaction with PI(4,5)P&#8322; in plasma membrane critical for fast fusion; Syt1 KO &rarr; abolishes fast synchronous release; Syt7 mediates asynchronous release and facilitation</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Beyond the Synapse: SNARE Proteins in Intracellular Trafficking</h3>
+          <p>The synaptic SNARE complex is the best-characterised example of a conserved mechanism used throughout all intracellular membrane trafficking:</p>
+          <table class="data-table">
+            <tr><th>Fusion Event</th><th>SNARE Proteins Involved</th></tr>
+            <tr><td>ER &rarr; Golgi (COPII vesicles)</td><td>Sec22b (v-SNARE) + STX18/STX5 (Qa) + GOSR1/GOSR2 (Qb/Qc)</td></tr>
+            <tr><td>Autophagosome + lysosome fusion</td><td>STX17 (Qa) + SNAP-29 (Qb/Qc) + VAMP7 or VAMP8 (R); ATG14L crosslinks STX17</td></tr>
+            <tr><td>Lysosomal exocytosis</td><td>VAMP7 (R-SNARE) + STX4 + SNAP-23 (Qb/Qc)</td></tr>
+            <tr><td>Recycling endosome &rarr; plasma membrane</td><td>VAMP-3 (R) + STX4 + SNAP-23</td></tr>
+            <tr><td>Golgi intra-stack fusion</td><td>GS15/Ykt6 (R) + STX5 (Qa) + membrin/GS27/GS28</td></tr>
+          </table>
+          <p>NSF and &alpha;/&beta;/&gamma;-SNAP are ubiquitous disassembly factors across all these events &mdash; NSF is an essential housekeeping gene. In yeast, the homologues are Sec18 (NSF) and Sec17 (&alpha;-SNAP).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical and Pharmacological Relevance</h3>
+          <div class="pathology-item danger">
+            <h4>Botulinum Toxin Therapeutics (BoNT/A &mdash; BOTOX)</h4>
+            <p>BoNT/A (serotype A; Botox&reg;, Dysport&reg;, Xeomin&reg;): cleaves <strong>SNAP-25</strong> at Gln197&ndash;Arg206 &rarr; blocks ACh release at NMJ and autonomic cholinergic synapses &rarr; dose-dependent flaccid paralysis or glandular inhibition. FDA-approved: cervical dystonia, blepharospasm, spasticity (limb, upper/lower), chronic migraine, hyperhidrosis, overactive bladder, strabismus, cosmetic glabellar lines. Reversal requires sprouting of new nerve terminals (~3 months). BoNT/B (Myobloc&reg;/Neurobloc&reg;) cleaves VAMP-2; approved for cervical dystonia.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Tetanus Toxin (TeNT) vs Botulinum Toxin</h4>
+            <p>Both are Zn&#178;&#8314;-endoproteases cleaving VAMP-2 (TeNT) or multiple SNAREs (BoNT). Key difference: <strong>BoNT</strong> remains at the NMJ presynaptic terminal after retrograde transport &rarr; blocks ACh at motor nerve &rarr; <strong>flaccid</strong> paralysis. <strong>TeNT</strong> undergoes transcytosis through motor neurons to inhibitory interneurons in spinal cord &rarr; blocks GABA/glycine release &rarr; loss of inhibitory control &rarr; <strong>spastic</strong> (rigid) paralysis (trismus/lockjaw, opisthotonus). Prevention: tetanus toxoid vaccine (DTP/Tdap).</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>STXBP1 Epileptic Encephalopathy (Ohtahara / West Syndrome)</h4>
+            <p>Loss-of-function mutations in <strong>STXBP1</strong> (encodes Munc18-1) &rarr; destabilisation of syntaxin-1 &rarr; reduced presynaptic secretory capacity; <strong>STXBP1</strong> is one of the most commonly mutated genes in early infantile epileptic encephalopathy (EIEE). Phenotypes: Ohtahara syndrome (neonatal-onset tonic spasms, burst-suppression EEG), West syndrome (infantile spasms, hypsarrhythmia), Dravet syndrome overlap. Treatment: phenobarbital, levetiracetam &mdash; response variable; mTOR pathway is being investigated as a therapeutic target.</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>NSF and Synaptic Plasticity (LTD)</h4>
+            <p><strong>NSF</strong> is required not only for SNARE disassembly but also for <strong>AMPA receptor trafficking</strong>: NSF directly interacts with the GluA2 subunit C-terminus, maintaining surface AMPAR expression. Blocking NSF activity (NEM or GluA2-NSF interference peptides) triggers AMPAR internalisation &rarr; LTD-like synaptic depression. NSF activity is thus a constitutive requirement for maintaining basal synaptic strength, independent of its role in vesicle recycling.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="synapse.html"><span class="rel">Core machinery of</span>Synapse</a>
+            <a class="conn-pill" href="neuromuscular-junction.html"><span class="rel">Acts at</span>Neuromuscular Junction</a>
+            <a class="conn-pill" href="acetylcholine.html"><span class="rel">Releases</span>Acetylcholine</a>
+            <a class="conn-pill" href="neuron.html"><span class="rel">Expressed in</span>Neuron</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>S&uuml;dhof TC, Rothman JE. Membrane fusion: grappling with SNARE and SM proteins. <em>Science.</em> 2009;323:474&ndash;477.</li>
+            <li>Rizo J. Mechanism of neurotransmitter release coming into focus. <em>Protein Sci.</em> 2018;27:1364&ndash;1391.</li>
+            <li>Jahn R, Fasshauer D. Molecular machines governing exocytosis of synaptic vesicles. <em>Nature.</em> 2012;490:201&ndash;207.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end &mdash; in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="synapse.html">Synapse</a>
+      <a href="neuron.html">Neuron</a>
+      <a href="neuromuscular-junction.html">NMJ</a>
+      <a href="acetylcholine.html">Acetylcholine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+  </footer>
+
+</body>
+</html>
