@@ -3,195 +3,364 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Alphaherpesvirinae; dsDNA ~125 kb; enveloped. Primary infection: varicella (chickenpox). Establishes lifelong latency in sensory ganglia. Reactivation: herpes z">
-  <meta property="og:title" content="Varicella-Zoster Virus — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Varicella-Zoster Virus — Human Engineering</title>
+  <title>Varicella-Zoster Virus (VZV / HHV-3) · Human Engineering Atlas</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    :root {
+      --accent:     #9f1239;
+      --accent-lt:  #fecdd3;
+      --accent-dim: rgba(159,18,57,.12);
+      --surface:    #ffffff;
+      --surface2:   #f8fafc;
+      --surface3:   #f1f5f9;
+      --border:     #e2e8f0;
+      --text:       #0f172a;
+      --text-2:     #475569;
+      --text-3:     #94a3b8;
+      --radius-sm:  10px;
+      --radius:     18px;
+      --radius-lg:  24px;
+      --shadow-sm:  0 1px 3px rgba(0,0,0,.07);
+      --shadow:     0 4px 16px rgba(0,0,0,.08);
+      --shadow-lg:  0 12px 40px rgba(0,0,0,.12);
+      --maxw:       1120px;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+           background: var(--surface2); color: var(--text); line-height: 1.6; }
+
+    .site-nav { background: var(--surface); border-bottom: 1px solid var(--border);
+                padding: .75rem 1.5rem; display: flex; align-items: center; gap: .75rem; }
+    .site-nav a { color: var(--accent); text-decoration: none; font-size: .875rem; font-weight: 500; }
+    .site-nav a:hover { text-decoration: underline; }
+    .nav-sep { color: var(--text-3); font-size: .75rem; }
+
+    .detail-hero { background: linear-gradient(135deg, #9f1239, #7f1d1d);
+                   color: #fff; padding: 3rem 2rem 2.5rem; }
+    .detail-hero-inner { max-width: var(--maxw); margin: 0 auto; }
+    .detail-eyebrow { font-size: .75rem; font-weight: 600; letter-spacing: .12em;
+                      text-transform: uppercase; opacity: .75; margin-bottom: .5rem; }
+    .detail-title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; line-height: 1.15;
+                    margin-bottom: .4rem; }
+    .detail-subtitle { font-size: 1rem; opacity: .8; margin-bottom: 1.5rem; }
+    .stat-row { display: flex; flex-wrap: wrap; gap: .75rem; }
+    .stat-chip { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25);
+                 border-radius: 999px; padding: .3rem .85rem;
+                 font-size: .8rem; font-weight: 600; backdrop-filter: blur(4px); }
+
+    .detail-body { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1.5rem; }
+    .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    @media (max-width: 720px) { .detail-grid { grid-template-columns: 1fr; } }
+
+    .detail-card { background: var(--surface); border: 1px solid var(--border);
+                   border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow: hidden; }
+    .detail-card.full { grid-column: 1 / -1; }
+    .detail-header { background: var(--accent-dim); border-bottom: 1px solid var(--border);
+                     padding: 1rem 1.25rem; display: flex; align-items: center; gap: .6rem; }
+    .detail-header h2 { font-size: 1rem; font-weight: 700; color: var(--accent); }
+    .detail-section { padding: 1.25rem; }
+
+    .detail-table { width: 100%; border-collapse: collapse; font-size: .875rem; }
+    .detail-table tr { border-bottom: 1px solid var(--border); }
+    .detail-table tr:last-child { border-bottom: none; }
+    .detail-table th { width: 38%; padding: .55rem .6rem; text-align: left;
+                       font-weight: 600; color: var(--text-2); background: var(--surface3); }
+    .detail-table td { padding: .55rem .6rem; color: var(--text); }
+
+    .mech-list { list-style: none; display: flex; flex-direction: column; gap: .65rem; }
+    .mech-item { border-radius: var(--radius-sm); padding: .75rem 1rem;
+                 border-left: 4px solid transparent; font-size: .875rem; }
+    .mech-item strong { display: block; font-weight: 700; margin-bottom: .2rem; font-size: .9rem; }
+    .mech-item.danger  { background: #fff1f2; border-color: #f43f5e; }
+    .mech-item.immune  { background: #f0fdf4; border-color: #22c55e; }
+    .mech-item.latent  { background: #fefce8; border-color: #eab308; }
+    .mech-item.drug    { background: #eff6ff; border-color: #3b82f6; }
+
+    .immune-tags { display: flex; flex-wrap: wrap; gap: .5rem; padding: 1.25rem; }
+    .itag { border-radius: 999px; padding: .3rem .9rem; font-size: .8rem; font-weight: 600; }
+    .itag.innate   { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
+    .itag.adaptive { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+    .itag.depleted { background: #fdf4ff; color: #7e22ce; border: 1px solid #e9d5ff; }
+
+    .path-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    .path-table th { background: var(--surface3); padding: .5rem .75rem; text-align: left;
+                     font-weight: 700; border-bottom: 2px solid var(--border); color: var(--text-2); }
+    .path-table td { padding: .5rem .75rem; border-bottom: 1px solid var(--border); }
+    .path-table tr:last-child td { border-bottom: none; }
+    .severity { display: inline-block; border-radius: 999px; padding: .15rem .65rem;
+                font-size: .75rem; font-weight: 700; }
+    .sev-low    { background: #f0fdf4; color: #166534; }
+    .sev-med    { background: #fefce8; color: #854d0e; }
+    .sev-high   { background: #fff1f2; color: #9f1239; }
+    .sev-crit   { background: #1e1b4b; color: #e0e7ff; }
+
+    .connections { display: flex; flex-wrap: wrap; gap: .6rem; padding: 1.25rem; }
+    .conn-pill { border-radius: 999px; padding: .35rem 1rem; font-size: .8rem;
+                 font-weight: 600; text-decoration: none; transition: opacity .15s; }
+    .conn-pill:hover { opacity: .75; }
+    .conn-pill.infects  { background: #fff1f2; color: #9f1239; border: 1px solid #fecdd3; }
+    .conn-pill.damages  { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
+    .conn-pill.targets  { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+    .conn-pill.triggers { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
+    .conn-pill.treated  { background: #fdf4ff; color: #7e22ce; border: 1px solid #e9d5ff; }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: .5rem;
+            font-size: .82rem; padding: 1.25rem; }
+    .refs li { padding-left: 1.2rem; position: relative; color: var(--text-2); }
+    .refs li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
+    .refs a { color: var(--accent); text-decoration: none; }
+    .refs a:hover { text-decoration: underline; }
+
+    .contribute { background: var(--accent-dim); border: 1px dashed var(--accent);
+                  border-radius: var(--radius); padding: 1.25rem 1.5rem; font-size: .875rem; }
+    .contribute strong { color: var(--accent); }
+    .contribute a { color: var(--accent); }
+
+    .site-footer { text-align: center; padding: 2.5rem 1rem 3rem;
+                   font-size: .8rem; color: var(--text-3); border-top: 1px solid var(--border);
+                   margin-top: 3rem; }
+    .site-footer a { color: var(--text-3); }
   </style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<nav class="site-nav">
+  <a href="index.html">Human Atlas</a>
+  <span class="nav-sep">›</span>
+  <a href="pathogens.html">Pathogens</a>
+  <span class="nav-sep">›</span>
+  <span>Varicella-Zoster Virus</span>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
-    <h1>Varicella-Zoster Virus</h1>
-    <p class="tagline">Alphaherpesvirinae; dsDNA ~125 kb; enveloped. Primary infection: varicella (chickenpox). Establishes lifelong latency in sensory ganglia. Reactivation: herpes zoster (shingles) with dermatomal neuritis and postherpetic neuralgia.</p>
-    <p class="aliases">Also known as: VZV, HHV-3, human herpesvirus 3, varicella virus, zoster virus, chickenpox virus</p>
+<header class="detail-hero">
+  <div class="detail-hero-inner">
+    <div class="detail-eyebrow">Atlas Two · Pathogen · Virus</div>
+    <h1 class="detail-title">Varicella-Zoster Virus (VZV / HHV-3)</h1>
+    <p class="detail-subtitle">Human herpesvirus 3 — causes chickenpox (primary) and shingles (reactivation)</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <span class="stat-chip">~125 kb dsDNA</span>
+      <span class="stat-chip">150–200 nm enveloped</span>
+      <span class="stat-chip">71 ORFs</span>
+      <span class="stat-chip">DRG / TG latency</span>
+      <span class="stat-chip">~1 M zoster cases/year (USA)</span>
+      <span class="stat-chip">&gt;90% Shingrix efficacy</span>
     </div>
   </div>
+</header>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+<main class="detail-body">
+  <div class="detail-grid">
+
+    <!-- Classification & Structure -->
+    <div class="detail-card full">
+      <div class="detail-header"><h2>Classification &amp; Structure</h2></div>
+      <div class="detail-section">
+        <table class="detail-table">
+          <tr><th>Order / Family</th><td>Herpesvirales / Herpesviridae</td></tr>
+          <tr><th>Subfamily / Genus</th><td>Alphaherpesvirinae / <em>Varicellovirus</em></td></tr>
+          <tr><th>Common names</th><td>HHV-3; chickenpox virus (varicella); shingles virus (zoster)</td></tr>
+          <tr><th>Genome</th><td>~125 kb linear dsDNA; unique long (U<sub>L</sub>) and unique short (U<sub>S</sub>) regions flanked by terminal and internal repeats (TRL/IRL, IRS/TRS); 71 predicted open reading frames</td></tr>
+          <tr><th>Virion morphology</th><td>Enveloped, 150–200 nm; icosahedral capsid (T=16) enclosing the genome; tegument layer (including ORF9 — VP22, IE62, ORF47 kinase); lipid envelope with at least 6 glycoproteins (gB, gC, gE, gH, gI, gK, gL, gM, gN)</td></tr>
+          <tr><th>Key glycoproteins</th><td>gE — major surface antigen; forms gE/gI heterodimer acting as Fc receptor (binds IgG Fc, inhibiting ADCC); gB — membrane fusion; gH/gL — fusion complex; gC — heparan sulfate binding; gE/gI critical for cell-to-cell spread</td></tr>
+          <tr><th>Immediate-early proteins</th><td>IE62 (ORF62) — major transactivator, packaged in tegument; IE63 (ORF63) — anti-apoptotic, critical for latency establishment; IE4 (ORF4), IE61 (ORF61) — additional transactivators/ubiquitin ligase</td></tr>
+          <tr><th>Latency reservoir</th><td>Dorsal root ganglia (DRG) and trigeminal ganglia (TG) sensory neurons; rarely cranial nerve ganglia. Virus establishes lifelong latency after primary varicella infection.</td></tr>
+          <tr><th>Latency transcripts</th><td>VLT (VZV latency transcript) — antisense to IE61; low-level ORF63 protein in latent neurons; no productive replication in latency. VLT·ORF63 fusion transcript upon reactivation.</td></tr>
+          <tr><th>Transmission</th><td>Highly contagious (R₀ ~12); respiratory droplets/aerosol from vesicular fluid; direct contact with lesions; contagious 1–2 d before rash until all lesions crust (~5–7 d after rash onset)</td></tr>
+        </table>
+      </div>
     </div>
 
+    <!-- Infection Mechanism -->
+    <div class="detail-card full">
+      <div class="detail-header"><h2>Infection Mechanism</h2></div>
+      <div class="detail-section">
+        <ul class="mech-list">
+          <li class="mech-item danger">
+            <strong>Step 1 — Respiratory entry &amp; tonsillar replication</strong>
+            VZV infects respiratory mucosal epithelium; gB and gH/gL mediate fusion, gC binds heparan sulfate for initial attachment. The virus replicates in tonsillar T cells (CD4+ and CD8+) — an obligate step for systemic dissemination. Infected T cells mediate viraemia, delivering VZV to skin and other tissues. gE/gI facilitate cell-to-cell spread, bypassing extracellular antibody neutralisation.
+          </li>
+          <li class="mech-item danger">
+            <strong>Step 2 — Skin tropism &amp; varicella rash</strong>
+            Skin keratinocytes and dermal fibroblasts are infected via infected T cells. Full replication cycle produces characteristic vesicular lesions: intranuclear inclusion bodies (Cowdry type A), ballooning degeneration, multinucleated giant cells. Lesions appear in crops (successive waves of viraemia) in characteristic centripetal distribution — trunk-face-limbs. ~200–500 lesions typical in unvaccinated children.
+          </li>
+          <li class="mech-item latent">
+            <strong>Step 3 — Retrograde axonal transport &amp; latency establishment</strong>
+            From skin nerve endings, VZV undergoes retrograde axonal transport to sensory ganglia (DRG, TG). In neurons, lytic gene expression is suppressed — only VLT and low-level ORF63 (IE63) are expressed. IE63 blocks apoptosis (inhibits pro-apoptotic signals) and suppresses NF-κB-dependent ISG expression. Viral DNA circularises as an episome (~50–100 copies/neuron) and persists for the host's lifetime without productive replication.
+          </li>
+          <li class="mech-item immune">
+            <strong>Step 4 — IE62 / IE63 innate immune evasion</strong>
+            IE62, the major tegument transactivator, suppresses IFN-β promoter activity by interfering with IRF3 activation. IE63 blocks STAT1 phosphorylation downstream of IFN-α/β receptor signalling. ORF61 (IE61) acts as a ubiquitin ligase targeting PML (promyelocytic leukaemia) nuclear bodies — host antiviral structures — for degradation. The gE/gI Fc receptor sequesters IgG to inhibit Fc-mediated effector functions (ADCC, complement activation).
+          </li>
+          <li class="mech-item danger">
+            <strong>Step 5 — Reactivation &amp; anterograde spread to skin (herpes zoster)</strong>
+            Waning cell-mediated immunity (ageing, immunosuppression, stress) allows VZV reactivation. Productive replication resumes in the ganglion neuron; anterograde axonal transport carries virus to the skin territory of that dermatome. Inflammation of the ganglion (ganglionitis) causes the prodromal pain before rash. The characteristic dermatomal vesicular eruption of shingles follows. Reactivation can spread to the anterior horn (motor zoster), eye (zoster ophthalmicus — CN V1), or ear (Ramsay Hunt syndrome — facial nerve / CN VII). Post-herpetic neuralgia (PHN) results from inflammatory neuronal damage and impaired pain modulation.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Host Immune Response -->
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">varicella-zoster-virus</div>
-        <h2>Varicella-Zoster Virus</h2>
-        <p class="summary">Alphaherpesvirinae; dsDNA ~125 kb; enveloped. Primary infection: varicella (chickenpox). Establishes lifelong latency in sensory ganglia. Reactivation: herpes zoster (shingles) with dermatomal neuritis and postherpetic neuralgia.</p>
-      </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>varicella-zoster-virus</td></tr>
-            <tr><td>Name</td><td>Varicella-Zoster Virus</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>01-viruses</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="neuron.html" title="VZV establishes lifelong latency in sensory ganglia neurons (DRG, trigeminal); VLT/ORF63 transcript maintains latency; reactivation causes anterograde transport to dermatome — herpes zoster (shingles); DRG neuronal damage underlies postherpetic neuralgia."><span class="rel">infects</span>Neuron</a>
-            <a class="conn-pill damaged" href="nervous-system.html" title="VZV reactivation (herpes zoster) causes dermatomal neuritis and postherpetic neuralgia (PHN, neuropathic pain, 10–15% of cases); Ramsay Hunt syndrome (CN VII palsy); encephalitis (rare); VITT-like vasculopathy (rare cerebral artery involvement)."><span class="rel">damages</span>Nervous System</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="VZV IE62/IE63 block IRF3, STAT1, and IFN-β; gE/gI heterodimer acts as IgG Fc receptor (immune evasion); VZV-specific T cell decline with ageing → zoster reactivation risk; immunosuppressed patients at risk for disseminated VZV."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill damaged" href="lung.html" title="VZV pneumonitis in adults (~1 in 400 varicella cases) and immunocompromised — diffuse bilateral nodular infiltrates, risk of respiratory failure; haemorrhagic pneumonia in severe immunosuppression; IV aciclovir reduces mortality."><span class="rel">damages</span>Lung</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.lww.com/product/9781975112547" target="_blank" rel="noopener noreferrer">Knipe DM, Howley PM, eds. Fields Virology. 7th ed. Wolters Kluwer; 2021.</a></li>
-          </ul>
-        </div>
-
+      <div class="detail-header"><h2>Host Immune Response</h2></div>
+      <div class="immune-tags">
+        <span class="itag innate">IFN-α/β (plasmacytoid DC — early)</span>
+        <span class="itag innate">NK cell cytotoxicity</span>
+        <span class="itag innate">Macrophage / DC activation</span>
+        <span class="itag innate">Complement via gC binding inhibition</span>
+        <span class="itag adaptive">VZV-specific IgG (gE, gB, gH targets)</span>
+        <span class="itag adaptive">CD4+ T cell proliferation (critical for control)</span>
+        <span class="itag adaptive">CD8+ CTL (IE62, gE epitopes)</span>
+        <span class="itag adaptive">Memory T cells maintain latency</span>
+        <span class="itag adaptive">Secretory IgA (mucosal)</span>
+        <span class="itag depleted">VZV-specific T cell immunity declines with age</span>
+        <span class="itag depleted">Immunosuppression → risk of zoster / dissemination</span>
+        <span class="itag depleted">IE63 blocks STAT1 → suppressed ISG expression</span>
       </div>
     </div>
-  </main>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <!-- Disease Spectrum -->
+    <div class="detail-card">
+      <div class="detail-header"><h2>Disease Spectrum</h2></div>
+      <div class="detail-section">
+        <table class="path-table">
+          <thead>
+            <tr><th>Syndrome</th><th>Key Features</th><th>Severity</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Varicella (chickenpox)</td>
+              <td>Pruritic vesicular rash in crops; fever; self-limited ~1 week in healthy children</td>
+              <td><span class="severity sev-low">Low (children)</span></td>
+            </tr>
+            <tr>
+              <td>Adult varicella</td>
+              <td>More severe; pneumonitis (varicella pneumonia) in ~1/400 adults; higher mortality</td>
+              <td><span class="severity sev-med">Moderate–High</span></td>
+            </tr>
+            <tr>
+              <td>Varicella in pregnancy</td>
+              <td>Maternal pneumonia; congenital varicella syndrome (limb hypoplasia, microcephaly, chorioretinitis) if &lt;20 weeks; neonatal varicella if near term</td>
+              <td><span class="severity sev-high">Severe</span></td>
+            </tr>
+            <tr>
+              <td>Herpes zoster (shingles)</td>
+              <td>Dermatomal vesicular rash; prodromal pain/allodynia; risk increases steeply with age (&gt;50)</td>
+              <td><span class="severity sev-med">Moderate</span></td>
+            </tr>
+            <tr>
+              <td>Post-herpetic neuralgia (PHN)</td>
+              <td>Persistent burning/stabbing pain &gt;90 days post-rash; 10–15% of zoster cases; debilitating in elderly</td>
+              <td><span class="severity sev-high">Severe (chronic)</span></td>
+            </tr>
+            <tr>
+              <td>Zoster ophthalmicus</td>
+              <td>CN V1 involvement; keratitis, uveitis, acute retinal necrosis; risk of blindness</td>
+              <td><span class="severity sev-high">Severe</span></td>
+            </tr>
+            <tr>
+              <td>Ramsay Hunt syndrome</td>
+              <td>Geniculate ganglion; facial palsy, auricular vesicles, vertigo, hearing loss</td>
+              <td><span class="severity sev-high">Severe</span></td>
+            </tr>
+            <tr>
+              <td>Disseminated zoster</td>
+              <td>Immunocompromised; &gt;20 lesions outside primary/adjacent dermatomes; visceral involvement (pneumonia, hepatitis, encephalitis); high mortality if untreated</td>
+              <td><span class="severity sev-crit">Critical</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <!-- Treatment & Prevention -->
+    <div class="detail-card full">
+      <div class="detail-header"><h2>Treatment &amp; Prevention</h2></div>
+      <div class="detail-section">
+        <table class="detail-table">
+          <tr>
+            <th>Acyclovir</th>
+            <td>Guanosine analogue; phosphorylated by VZV thymidine kinase (TK); inhibits viral DNA polymerase (ORF28). IV acyclovir for severe/disseminated varicella and immunocompromised patients (10–12.5 mg/kg q8h). Oral acyclovir (800 mg 5×/day) for uncomplicated zoster if started within 72h of rash onset. Foundation of anti-VZV therapy since 1982.</td>
+          </tr>
+          <tr>
+            <th>Valaciclovir</th>
+            <td>L-valyl ester prodrug of acyclovir; much improved oral bioavailability (~55% vs ~15–20%). 1 g TID × 7 days for zoster; also used for varicella prophylaxis in exposed immunocompromised contacts. Preferred oral agent due to compliance advantage.</td>
+          </tr>
+          <tr>
+            <th>Famciclovir</th>
+            <td>Prodrug of penciclovir; 500 mg TID × 7 days for zoster. Similar efficacy to valaciclovir. Also reduces PHN duration when started early.</td>
+          </tr>
+          <tr>
+            <th>Foscarnet</th>
+            <td>Pyrophosphate analogue; inhibits viral DNA polymerase without requiring TK activation. Reserved for acyclovir-resistant VZV (TK-deficient mutants) in severely immunocompromised patients (HIV, haematopoietic stem cell transplant). Nephrotoxic — requires careful monitoring.</td>
+          </tr>
+          <tr>
+            <th>Post-herpetic neuralgia management</th>
+            <td>Topical lidocaine patches / capsaicin 8% patch; gabapentin or pregabalin (first-line); tricyclic antidepressants (amitriptyline); opioids as adjunct. Early effective antiviral treatment is the best preventive strategy for PHN.</td>
+          </tr>
+          <tr>
+            <th>VZV immunoglobulin (VariZIG)</th>
+            <td>Post-exposure prophylaxis for immunocompromised susceptible individuals and neonates exposed within 96h. Reduces severity of varicella if administered promptly.</td>
+          </tr>
+          <tr>
+            <th>Varivax (live-attenuated, Oka strain)</th>
+            <td>Two-dose schedule (12–15 months; 4–6 years); ~98% efficacy against moderate/severe varicella. Recommended for all healthy children. Contraindicated in immunocompromised. Vaccinated individuals can rarely develop varicella or zoster from vaccine-strain virus.</td>
+          </tr>
+          <tr>
+            <th>Shingrix (RZV — recombinant zoster vaccine)</th>
+            <td>Adjuvanted recombinant subunit vaccine: VZV glycoprotein E (gE) + AS01B adjuvant system (MPL + QS-21 saponin). Two IM doses 2–6 months apart. &gt;90% efficacy against zoster across all age groups ≥50; &gt;90% efficacy against PHN. Replaces Zostavax (live-attenuated) due to far superior efficacy, especially in elderly. Can be given to previously vaccinated or immunocompromised individuals.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Connections -->
+    <div class="detail-card full">
+      <div class="detail-header"><h2>Connections</h2></div>
+      <div class="connections">
+        <a href="nervous-system.html" class="conn-pill infects">Establishes latency → Dorsal root ganglia</a>
+        <a href="skin.html" class="conn-pill infects">Primary site → Skin keratinocytes</a>
+        <a href="immune-system.html" class="conn-pill targets">Targets → T lymphocytes (viraemia)</a>
+        <a href="lung-alveolus.html" class="conn-pill damages">Damages → Lungs (varicella pneumonia)</a>
+        <a href="nervous-system.html" class="conn-pill damages">Damages → Sensory neurons (PHN)</a>
+        <a href="eye.html" class="conn-pill damages">Damages → Cornea/retina (zoster ophthalmicus)</a>
+        <a href="shingrix-rzv.html" class="conn-pill treated">Prevented by → Shingrix (RZV)</a>
+        <a href="varivax.html" class="conn-pill treated">Prevented by → Varivax (Oka strain)</a>
+        <a href="acyclovir.html" class="conn-pill treated">Treated by → Acyclovir / Valaciclovir</a>
+        <a href="herpesvirus.html" class="conn-pill targets">Family → Herpesviridae (HHV-3)</a>
+      </div>
+    </div>
+
+    <!-- References -->
+    <div class="detail-card full">
+      <div class="detail-header"><h2>Key References</h2></div>
+      <ul class="refs">
+        <li>Cohen JI (2013). Herpes zoster. <em>NEJM</em> 369, 255–263. <a href="https://doi.org/10.1056/NEJMcp1302674" target="_blank">DOI</a></li>
+        <li>Depledge DP et al. (2018). A spliced latency-associated VZV transcript maps antisense to the viral transactivator gene 61. <em>Nat Commun</em> 9, 1167. <a href="https://doi.org/10.1038/s41467-018-03569-2" target="_blank">DOI</a></li>
+        <li>Arvin AM (1996). Varicella-zoster virus. <em>Clin Microbiol Rev</em> 9, 361–381. <a href="https://doi.org/10.1128/CMR.9.3.361" target="_blank">DOI</a></li>
+        <li>Lal H et al. (2015). Efficacy of an adjuvanted herpes zoster subunit vaccine (ZOE-50 trial). <em>NEJM</em> 372, 2087–2096. <a href="https://doi.org/10.1056/NEJMoa1501184" target="_blank">DOI</a></li>
+        <li>Oxman MN et al. (2005). A vaccine to prevent herpes zoster and postherpetic neuralgia (Shingles Prevention Study). <em>NEJM</em> 352, 2271–2284. <a href="https://doi.org/10.1056/NEJMoa051016" target="_blank">DOI</a></li>
+        <li>Gershon AA et al. (2015). Varicella zoster virus infection. <em>Nat Rev Dis Primers</em> 1, 15016. <a href="https://doi.org/10.1038/nrdp.2015.16" target="_blank">DOI</a></li>
+        <li>Kennedy PGE &amp; Gershon AA (2018). Clinical features of varicella-zoster virus infection. <em>Viruses</em> 10, 609. <a href="https://doi.org/10.3390/v10110609" target="_blank">DOI</a></li>
+      </ul>
+    </div>
+
+    <!-- Contribute -->
+    <div class="detail-card full">
+      <div class="detail-section">
+        <div class="contribute">
+          <strong>Contribute to this entry</strong> — corrections, additional data, or pathway diagrams welcome.
+          Open an issue or PR at <a href="https://github.com/bpupadhyaya/human-atlas" target="_blank">github.com/bpupadhyaya/human-atlas</a>
+          or email <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>.
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.detail-grid -->
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+  <p style="margin-top:.4rem;">Content co-maintained with AI assistance &mdash; verify clinical details independently before use.</p>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

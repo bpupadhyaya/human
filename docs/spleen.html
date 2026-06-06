@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Largest lymphoid organ (~150 g). Red pulp: filters aged/damaged erythrocytes and sequesters platelets. White pulp: PALS (T cell zone) + follicles (B cell zone) ">
+  <meta name="description" content="Largest lymphoid organ (~150 g). Red pulp filters aged erythrocytes; white pulp (PALS + follicles + marginal zone) orchestrates adaptive immune responses to blood-borne antigens.">
   <meta property="og:title" content="Spleen — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Spleen — Human Engineering</title>
@@ -13,14 +13,14 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
            background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a { color: var(--accent); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
     nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
           -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -54,9 +54,6 @@
     .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
                   letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
     .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
                    border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
                    box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
@@ -70,6 +67,8 @@
     .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
                          text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
                          padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { font-size: 0.93rem; color: var(--fg-soft); line-height: 1.7; margin-bottom: 0.85rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
     .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
                      font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
@@ -77,6 +76,26 @@
     .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
                      color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 680px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border: 1px solid var(--border-soft);
+                  border-radius: var(--radius-sm); padding: 1.1rem 1.25rem; }
+    .info-block .ib-title { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em;
+                            text-transform: uppercase; color: var(--accent); margin-bottom: 0.55rem; }
+    .info-block p, .info-block li { font-size: 0.86rem; color: var(--fg-soft); line-height: 1.6; }
+    .info-block ul { padding-left: 1.1rem; }
+    .info-block li { margin-bottom: 0.25rem; }
+    .pathology-items { display: flex; flex-direction: column; gap: 0.75rem; }
+    .pathology-item { border-radius: var(--radius-sm); padding: 1rem 1.2rem;
+                      border-left: 3px solid; }
+    .pathology-item.danger { background: rgba(220,38,38,0.05); border-color: #dc2626; }
+    .pathology-item.warn   { background: rgba(234,179,8,0.06);  border-color: #ca8a04; }
+    .pathology-item.info   { background: rgba(159,18,57,0.05); border-color: #9f1239; }
+    .pathology-item .pi-title { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.35rem; }
+    .pathology-item.danger .pi-title { color: #dc2626; }
+    .pathology-item.warn .pi-title { color: #92400e; }
+    .pathology-item.info .pi-title { color: #9f1239; }
+    .pathology-item p { font-size: 0.84rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
     .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
                  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
@@ -94,7 +113,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
+    .footer-links a:hover { color: var(--accent); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -119,68 +138,165 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
+    <div class="hero-eyebrow" style="background: rgba(159,18,57,0.1); color: #9f1239;">Atlas One &middot; Human &middot; Scale 06 &mdash; Organ</div>
     <h1>Spleen</h1>
-    <p class="tagline">Largest lymphoid organ (~150 g). Red pulp: filters aged/damaged erythrocytes and sequesters platelets. White pulp: PALS (T cell zone) + follicles (B cell zone) — adaptive immune responses to blood-borne antigens. Backup erythropoiesis in chronic anaemia.</p>
-    <p class="aliases">Also known as: splen, lien</p>
+    <p class="tagline">Largest lymphoid organ (~150 g). Red pulp filters aged and damaged erythrocytes through inter-endothelial slits of 2–3 µm. White pulp — PALS (T cell zone), follicles (B cell zone), and marginal zone — mounts adaptive immune responses to blood-borne antigens.</p>
+    <p class="aliases">Also known as: splen &middot; lien &middot; UBERON:0002106 &middot; FMA:7196</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~150 g</span><span class="stat-label">Mass</span></div>
+      <div class="stat"><span class="stat-num">200–350 mL</span><span class="stat-label">Blood Volume</span></div>
+      <div class="stat"><span class="stat-num">30–40%</span><span class="stat-label">Platelet Pool</span></div>
+      <div class="stat"><span class="stat-num">~1000×</span><span class="stat-label">RBC Passages / 120-day lifespan</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">spleen</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #500724);">
+        <div class="entry-eyebrow">Atlas One &middot; Scale 06 &mdash; Organ</div>
         <h2>Spleen</h2>
-        <p class="summary">Largest lymphoid organ (~150 g). Red pulp: filters aged/damaged erythrocytes and sequesters platelets. White pulp: PALS (T cell zone) + follicles (B cell zone) — adaptive immune responses to blood-borne antigens. Backup erythropoiesis in chronic anaemia.</p>
+        <p class="summary">The spleen performs two parallel tasks with a single blood supply: red pulp macrophages continuously survey the entire circulating red cell population for signs of age and damage, while white pulp lymphoid tissue mounts rapid immune responses to blood-borne antigens. Removal or functional loss creates life-long vulnerability to encapsulated bacterial infections.</p>
       </div>
       <div class="detail-body">
 
+        <!-- OVERVIEW -->
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The spleen sits in the left upper quadrant, tucked under the 9th–11th ribs, protected by the lower thoracic cage. It receives ~5% of cardiac output — approximately 300 mL/min — through the splenic artery, a branch of the coeliac trunk. This extraordinary perfusion relative to its ~150 g mass reflects its surveillance role: every red blood cell in the circulation passes through the splenic red pulp roughly once daily during its 120-day lifespan, traversing the narrow inter-endothelial slits of the splenic sinuses that act as a deformability gate. Aged, damaged, or parasitised erythrocytes that cannot squeeze through the 2–3 µm slits are engulfed by red pulp macrophages. The spleen sequesters 30–40% of the platelet pool and can mobilise platelets rapidly under sympathetic stimulation.</p>
+          <p>White pulp constitutes approximately 20% of splenic volume and is organised around central arterioles. The periarteriolar lymphoid sheath (PALS) is a sleeve of T cells (CD4⁺ and CD8⁺) surrounding each central arteriole, analogous to a lymph node T cell zone — the site of T cell–dendritic cell encounter with blood-borne antigens. Surrounding the PALS are primary follicles (naive B cells) that develop into secondary follicles with germinal centres upon T-dependent antigen stimulation, generating class-switched high-affinity antibodies. The marginal zone (MZ) separating white from red pulp is populated by specialised MZ-B cells (IgM⁺IgD^low, MARCO⁺, SIGNR1⁺) that mount rapid T-independent IgM responses to polysaccharide antigens within 3–5 days — the principal early defence against encapsulated bacteria. This is why the pneumococcal vaccine response is markedly impaired in asplenic individuals.</p>
+          <p>The spleen has no afferent lymphatics — all antigen enters via the blood. The open (non-sinusoidal) circulation in humans means that blood from the trabecular arteries empties directly into the red pulp cords of Billroth before percolating through the sinus endothelium, maximising macrophage–erythrocyte contact time. In fetal life and in pathological states such as myelofibrosis, the spleen becomes a major site of extramedullary haematopoiesis, recapitulating its embryological erythropoietic role.</p>
+        </div>
+
+        <!-- ANATOMY & STRUCTURE -->
+        <div class="detail-section">
+          <h3>Anatomy &amp; Structure</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>spleen</td></tr>
-            <tr><td>Name</td><td>Spleen</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>06-organ</td></tr>
-            <tr><td>Uberon</td><td>UBERON:0002106</td></tr>
-            <tr><td>Fma</td><td>FMA:7196</td></tr>
+            <thead><tr><th>Compartment / Structure</th><th>Key Features</th></tr></thead>
+            <tbody>
+              <tr><td>Location &amp; Gross</td><td>Left upper quadrant, posterior to stomach; 9th–11th ribs; splenic hilum on medial surface; fibrous capsule + internal trabeculae; gastrosplenic ligament (short gastric vessels) + splenorenal ligament (splenic vessels, tail of pancreas)</td></tr>
+              <tr><td>Splenic Vasculature</td><td>Splenic artery (coeliac trunk) → trabecular arteries → central arterioles → penicillar arteries → red pulp; venous drainage: splenic vein → portal vein; portal hypertension → splenomegaly + hypersplenism</td></tr>
+              <tr><td>White Pulp (~20%)</td><td>Periarteriolar lymphoid sheath (PALS): T cell zone (CD4⁺, CD8⁺, DCs) surrounding central arteriole — site of T cell priming; primary follicles: IgD⁺IgM⁺ naive B cells; secondary follicles: germinal centres with centrocytes/centroblasts, FDCs, Tfh cells — affinity maturation and class switching</td></tr>
+              <tr><td>Marginal Zone (MZ)</td><td>Bridge between white and red pulp; MZ-B cells (IgM⁺IgD^low, CD21⁺⁺, CD23⁻); express MARCO and SIGNR1 pattern recognition receptors; mount T-independent IgM responses to polysaccharide antigens within 3–5 days; provide initial defence against encapsulated bacteria; absent in neonates → vulnerability before MZ matures (~2 years)</td></tr>
+              <tr><td>Red Pulp (~80%)</td><td>Splenic cords of Billroth: loose meshwork of reticular fibres and macrophages; blood percolates slowly through cords; splenic sinuses: specialised endothelial cells with inter-endothelial slits 2–3 µm; RBCs must deform to pass; rigid/damaged cells are retained and phagocytosed</td></tr>
+              <tr><td>Red Pulp Macrophages</td><td>Express SIRPα (receptor for CD47 "don't eat me" signal); recognise eat-me signals on aged RBCs: phosphatidylserine (PS) flip (membrane flip of PS to outer leaflet) and band-3 protein clustering (generates IgG autoantibody neoepitope → FcγR-mediated phagocytosis); haemoglobin recycled: heme → HO-1 → biliverdin → bilirubin + CO + Fe²⁺; iron stored as ferritin/haemosiderin (~0.3 g Fe/day recycled)</td></tr>
+              <tr><td>Platelet Reservoir</td><td>30–40% of total platelet pool sequestered in sinusoids; mobilised by epinephrine (splenic contraction); thrombocytopenia in hypersplenism due to excessive sequestration; ITP: anti-platelet IgG → splenic macrophage destruction → first-line splenectomy in steroid-refractory ITP</td></tr>
+            </tbody>
           </table>
         </div>
 
+        <!-- FUNCTION -->
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="macrophage.html" title="Splenic red pulp macrophages phagocytose senescent erythrocytes, recycling haemoglobin iron via ferritin; marginal zone macrophages clear encapsulated bacteria and blood-borne debris."><span class="rel">contains</span>Macrophage</a>
-            <a class="conn-pill part" href="b-cell.html" title="Splenic follicles contain B cells that mount T-dependent (germinal centre) and T-independent responses to blood-borne antigens; marginal zone B cells provide rapid T-independent IgM responses."><span class="rel">contains</span>B Cell</a>
-            <a class="conn-pill part" href="natural-killer-cell.html" title="The spleen contains a resident NK cell population in red pulp and marginal zone providing innate surveillance against blood-borne pathogens and malignant cells."><span class="rel">contains</span>Natural Killer Cell</a>
-            <a class="conn-pill" href="immune-system.html" title="The spleen is the largest secondary lymphoid organ; it orchestrates adaptive immune responses to blood-borne antigens via marginal zone B cells, follicular T/B interactions, and DC-T cell crosstalk."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill part" href="human-body.html" title="The spleen is a fist-sized lymphoid organ in the left upper quadrant under the 9th–11th ribs; it weighs ~150 g and lies between the stomach and left kidney."><span class="rel">part-of</span>Human Body</a>
+          <h3>Function</h3>
+
+          <p>The spleen's two major functional divisions — erythrocyte quality control (red pulp) and immune surveillance (white pulp) — operate simultaneously but with distinct cell populations and blood flow patterns. Blood enters through central arterioles and can either transit rapidly through the sinuses or percolate slowly through the cords, with the slow cord pathway serving as the quality control filter.</p>
+
+          <div class="two-col">
+            <div class="info-block">
+              <div class="ib-title">Red Pulp — Erythrocyte Quality Control</div>
+              <ul>
+                <li><strong>Deformability gate:</strong> Inter-endothelial slits are 2–3 µm wide vs. RBC diameter ~7–8 µm; erythrocytes must deform dramatically; rigid cells (spherocytosis, sickle cells, malaria-infected) are retained</li>
+                <li><strong>Eat-me signals detected by macrophages:</strong> PS externalisation (aged RBCs lose flipase activity → PS flips to outer leaflet); band-3 clustering → IgG anti-band-3 autoantibodies → FcγR phagocytosis</li>
+                <li><strong>Heinz body pitting:</strong> Denatured haemoglobin inclusions (oxidative stress, G6PD deficiency, unstable Hb variants) are pinched out ("pitted") — producing a bite cell; loss of pitting function after splenectomy → Howell-Jolly bodies persist in blood</li>
+                <li><strong>Iron recycling:</strong> Heme → HO-1 → biliverdin/bilirubin + CO + Fe²⁺; Fe²⁺ stored as ferritin → exported via ferroportin → plasma transferrin → bone marrow; ~25 mg Fe/day recycled, dwarfing dietary absorption (~1 mg/day)</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="ib-title">White Pulp — Immune Responses to Blood-Borne Antigens</div>
+              <ul>
+                <li><strong>T-independent responses (MZ-B cells):</strong> Polysaccharide antigens (capsules of <em>S. pneumoniae</em>, <em>H. influenzae</em>, <em>N. meningitidis</em>) engage B cell receptor crosslinking + TLR signals → direct class switching to IgM (and some IgG) without T cell help; IgM within 3–5 days of first exposure; critical for encapsulated bacteria since germinal centre responses take 10–14 days</li>
+                <li><strong>T-dependent responses (PALS + follicles):</strong> DCs process blood-borne protein antigens → PALS → CD4⁺ Tfh cell priming → follicular B cell activation → germinal centre (GC) reaction → somatic hypermutation + class switching → long-lived plasma cells + memory B cells; antibody responses to protein antigens (including conjugate vaccines) proceed through GC</li>
+                <li><strong>NK and innate cells:</strong> Resident NK cells patrol red pulp and MZ for blood-borne malignant cells or virally infected cells; splenic monocytes (Ly6C⁻ patrolling monocytes) survey sinusoids for danger signals</li>
+                <li><strong>Complement-mediated opsonisation:</strong> MZ macrophages (MARCO, mannose receptor) clear complement-opsonised bacteria; platelet-activating factor (PAF) from activated endothelium amplifies MZ-B cell responses</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="ib-title">Extramedullary Haematopoiesis</div>
+              <ul>
+                <li>In fetal life (3rd–7th month), spleen is a primary erythropoietic organ (along with liver)</li>
+                <li>In adults, EMH is reactivated when bone marrow capacity is insufficient: myelofibrosis, haemolytic anaemia (thalassaemia, SCD), polycythaemia vera, bone marrow infiltration</li>
+                <li>Splenic EMH → progressive splenomegaly (can reach 3–5 kg in myelofibrosis); all haematopoietic lineages may appear in peripheral blood (leukoerythroblastic blood film)</li>
+                <li>Splenectomy in severe myelofibrosis may cause liver EMH → acute hepatomegaly and portal hypertension</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="ib-title">Platelet &amp; Blood Volume Regulation</div>
+              <ul>
+                <li>30–40% of circulating platelets are in splenic pool at any time; normally in rapid equilibrium with circulation</li>
+                <li>Hypersplenism (any cause of splenomegaly) enlarges the pool → thrombocytopenia, anaemia, leucopenia even with normal bone marrow production</li>
+                <li>Splenomegaly in portal hypertension: congestion → marked sequestration → pancytopenia → may require TIPS or splenectomy</li>
+                <li>Splenic contraction (sympathetic/epinephrine): rapidly mobilises 50–100 mL blood and platelets into circulation; significant in diving mammals; less pronounced in humans</li>
+              </ul>
+            </div>
           </div>
         </div>
 
+        <!-- PATHOLOGY -->
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Pathology</h3>
+          <div class="pathology-items">
+
+            <div class="pathology-item danger">
+              <div class="pi-title">Overwhelming Post-Splenectomy Infection (OPSI)</div>
+              <p>Life-threatening sepsis from encapsulated organisms in asplenic or hyposplenic individuals; median onset within 2 years of splenectomy but lifetime risk persists. Causative organisms: <em>Streptococcus pneumoniae</em> 50–90%, <em>Haemophilus influenzae</em> type b, <em>Neisseria meningitidis</em>. Pathophysiology: loss of MZ-B cells → impaired T-independent IgM response → unchecked bacteraemia → fulminant sepsis with DIC; mortality 50–70% despite antibiotics, because presentation-to-death interval can be &lt;24h. Prevention: pneumococcal (PCV20 or PCV15+PPSV23), Hib, meningococcal vaccines at least 2 weeks before elective splenectomy; penicillin V prophylaxis 2 years post-splenectomy (some guidelines: lifelong in high-risk); patient education: fever requires immediate medical evaluation.</p>
+            </div>
+
+            <div class="pathology-item warn">
+              <div class="pi-title">Splenomegaly &amp; Hypersplenism</div>
+              <p>Normal spleen weight ~150 g; splenomegaly defined as &gt;200 g or any palpable spleen. Major categories: (1) <strong>Filtration overload</strong> — haemolytic anaemias (hereditary spherocytosis, SCD, thalassaemia, autoimmune); (2) <strong>Congestive</strong> — portal hypertension (cirrhosis, schistosomiasis, Budd-Chiari); splenic vein thrombosis; (3) <strong>Infiltrative</strong> — myelofibrosis (massive splenomegaly), Gaucher disease, amyloidosis; (4) <strong>Infectious</strong> — infectious mononucleosis (EBV), malaria, leishmaniasis, typhoid; (5) <strong>Haematopoietic neoplasms</strong> — CML, CLL, lymphoma. Hypersplenism = pancytopenia due to excessive sequestration; splenectomy or splenic embolisation may be required.</p>
+            </div>
+
+            <div class="pathology-item danger">
+              <div class="pi-title">Splenic Rupture</div>
+              <p>Traumatic splenic rupture is the most common abdominal injury in blunt trauma; spleen is unprotected inferiorly by the rib cage. Spontaneous rupture rare but occurs in infectious mononucleosis (EBV; ~0.5% of IM cases — patients must avoid contact sports for 3–4 weeks), malaria, splenic abscess, haematologic malignancies. Presents with left upper quadrant pain ± referred left shoulder pain (Kehr's sign, from diaphragmatic irritation by haemoperitoneum). Haemodynamic instability → emergent splenectomy; stable patients with grade I–III injuries → non-operative management with monitoring and angioembolisation if contrast blush on CT.</p>
+            </div>
+
+            <div class="pathology-item warn">
+              <div class="pi-title">Sickle Cell Sequestration Crisis</div>
+              <p>Acute life-threatening complication in young children with SCD (most common in HbSS before age 5, before auto-infarction of the spleen renders it fibrotic). Sickle cells sickle in the low-O₂, low-pH red pulp cords → mass sequestration of sickled RBCs → sudden splenic enlargement + acute anaemia (Hb drop &gt;2 g/dL from baseline) → hypovolaemic shock. Treatment: urgent RBC transfusion + IV fluids; recurrent crises → splenectomy (risks loss of remaining immunological spleen function). In HbSC and HbS-β⁺-thalassaemia, the spleen persists longer → sequestration crises can occur into adulthood.</p>
+            </div>
+
+            <div class="pathology-item info">
+              <div class="pi-title">Splenic Marginal Zone Lymphoma (SMZL)</div>
+              <p>Low-grade B cell lymphoma of the MZ-B cell lineage; typically presents with splenomegaly (often massive), lymphocytosis with villous lymphocytes (splenic lymphocytes with cytoplasmic villi), and bone marrow involvement; lymph nodes usually spared. Median age ~65; indolent clinical course (median OS &gt;10 years). Associated with hepatitis C virus (HCV) in ~30% — HCV-driven MZ-B cell clonal expansion; antiviral treatment can induce lymphoma remission. Diagnosis: splenectomy provides definitive histology. Asymptomatic: watch and wait; symptomatic: splenectomy (also diagnostic + therapeutic), rituximab, or bendamustine-rituximab; ibrutinib for relapsed disease. IgVH mutation status is the main prognostic factor.</p>
+            </div>
+
+            <div class="pathology-item info">
+              <div class="pi-title">Splenic Infarction</div>
+              <p>Occlusion of splenic artery or its branches → wedge-shaped areas of ischaemic necrosis in red pulp. Causes: embolic (atrial fibrillation, endocarditis, aortic atherosclerosis), in-situ thrombosis (myeloproliferative neoplasms — especially essential thrombocythaemia and polycythaemia vera, sickle cell disease), vasculitis. Presents with sudden left upper quadrant pain, pleuritic in character, ± fever (perisplenitis), ± left pleural effusion on chest X-ray. CT: hypodense wedge-shaped area. Management: mostly conservative (analgesia, anticoagulation); surgical or angiographic intervention for abscess formation or large infarct with haemodynamic compromise.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CONNECTIONS -->
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="index.html"><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill part" href="index.html"><span class="rel">contains</span>Macrophage</a>
+            <a class="conn-pill part" href="index.html"><span class="rel">contains</span>B Cell</a>
+            <a class="conn-pill part" href="index.html"><span class="rel">contains</span>Natural Killer Cell</a>
+            <a class="conn-pill" href="immune-system.html"><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="bone-marrow.html"><span class="rel">connects-to</span>Bone Marrow (EMH backup)</a>
+            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">connects-to</span>Cardiovascular System (portal circulation)</a>
+            <a class="conn-pill" href="liver.html"><span class="rel">connects-to</span>Liver (portal vein drainage)</a>
+            <a class="conn-pill" href="thymus.html"><span class="rel">connects-to</span>Thymus (T cell supply to PALS)</a>
+            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">damaged-by</span>S. pneumoniae (OPSI)</a>
+            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">damaged-by</span>EBV (rupture risk)</a>
+          </div>
+        </div>
+
+        <!-- REFERENCES -->
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1038/nri1669" target="_blank" rel="noopener noreferrer">Mebius RE, Kraal G. Structure and function of the spleen. Nat Rev Immunol. 2005;5(8):606-616.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16056254/" target="_blank" rel="noopener noreferrer">PubMed 16056254</a></li>
-            <li><a href="https://doi.org/10.1080/01926230600867743" target="_blank" rel="noopener noreferrer">Cesta MF. Normal structure, function, and histology of the spleen. Toxicol Pathol. 2006;34(5):455-465.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17067939/" target="_blank" rel="noopener noreferrer">PubMed 17067939</a></li>
-            <li><a href="https://doi.org/10.1001/jama.279.3.217" target="_blank" rel="noopener noreferrer">Weiskopf RB, Viele MK, Feiner J, et al. Human cardiovascular and metabolic response to acute, severe isovolemic anemia. JAMA. 1998;279(3):217-221.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9438742/" target="_blank" rel="noopener noreferrer">PubMed 9438742</a></li>
+            <li><a href="https://doi.org/10.1038/nri1669" target="_blank" rel="noopener noreferrer">Mebius RE, Kraal G. Structure and function of the spleen. Nat Rev Immunol. 2005;5(8):606–616.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16056254/" target="_blank" rel="noopener noreferrer">PubMed 16056254</a></li>
+            <li><a href="https://doi.org/10.1080/01926230600867743" target="_blank" rel="noopener noreferrer">Cesta MF. Normal structure, function, and histology of the spleen. Toxicol Pathol. 2006;34(5):455–465.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17067939/" target="_blank" rel="noopener noreferrer">PubMed 17067939</a></li>
+            <li><a href="https://doi.org/10.1016/j.immuni.2013.10.010" target="_blank" rel="noopener noreferrer">Bronte V, Pittet MJ. The spleen in local and systemic regulation of immunity. Immunity. 2013;39(5):806–818.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24238338/" target="_blank" rel="noopener noreferrer">PubMed 24238338</a></li>
+            <li><a href="https://doi.org/10.1093/cid/ciw013" target="_blank" rel="noopener noreferrer">Theilacker C, et al. Overwhelming postsplenectomy infection: a prospective multicenter cohort study. Clin Infect Dis. 2016;62(7):871–878.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26797211/" target="_blank" rel="noopener noreferrer">PubMed 26797211</a></li>
             <li><a href="https://www.thieme.com/books-main/hematology/product/444-color-atlas-of-hematology" target="_blank" rel="noopener noreferrer">Theml H, Diem H, Haferlach T. Color Atlas of Hematology. Thieme; 2004. Chapter: Spleen.</a></li>
-            <li><a href="https://doi.org/10.1016/j.immuni.2013.10.010" target="_blank" rel="noopener noreferrer">Bronte V, Pittet MJ. The spleen in local and systemic regulation of immunity. Immunity. 2013;39(5):806-818.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24238338/" target="_blank" rel="noopener noreferrer">PubMed 24238338</a></li>
-            <li><a href="https://doi.org/10.1093/cid/ciw013" target="_blank" rel="noopener noreferrer">Theilacker C, Ludewig K, Serr A, et al. Overwhelming postsplenectomy infection: a prospective multicenter cohort study. Clin Infect Dis. 2016;62(7):871-878.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26797211/" target="_blank" rel="noopener noreferrer">PubMed 26797211</a></li>
+            <li><a href="https://doi.org/10.1001/jama.279.3.217" target="_blank" rel="noopener noreferrer">Weiskopf RB, et al. Human cardiovascular and metabolic response to acute, severe isovolemic anemia. JAMA. 1998;279(3):217–221.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9438742/" target="_blank" rel="noopener noreferrer">PubMed 9438742</a></li>
           </ul>
         </div>
 
@@ -196,8 +312,8 @@
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem; font-style:italic;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>

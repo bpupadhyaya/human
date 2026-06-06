@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nonavalent HPV L1 VLP vaccine; types 6/11/16/18/31/33/45/52/58 from *S. cerevisiae*. Prevents ~90% of cervical cancers and most HPV anogenital/oropharyngeal can">
-  <meta property="og:title" content="Gardasil 9 (HPV9) — Human Engineering">
+  <meta name="description" content="Gardasil 9 (HPV9) — nonavalent HPV L1 VLP vaccine preventing ~90% of cervical cancers. AAHS adjuvant. 97.4% efficacy new types. Swedish registry: 88% reduction invasive cervical cancer. Human Engineering project.">
+  <meta property="og:title" content="Gardasil 9 — Vaccine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Gardasil 9 (HPV9) — Human Engineering</title>
+  <title>Gardasil 9 (HPV9) — Vaccine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0369a1;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,59 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #075985); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -119,74 +118,201 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 07 — VHP</div>
+    <div class="hero-eyebrow">Atlas Four &middot; Vaccine &middot; Virus-Like Particle</div>
     <h1>Gardasil 9 (HPV9)</h1>
-    <p class="tagline">Nonavalent HPV L1 VLP vaccine; types 6/11/16/18/31/33/45/52/58 from *S. cerevisiae*. Prevents ~90% of cervical cancers and most HPV anogenital/oropharyngeal cancers. 2-dose (ages ≤14) or 3-dose schedule. FDA 2014; Swedish registry: 88% reduction in invasive cervical cancer.</p>
-    <p class="aliases">Also known as: Gardasil-9, HPV9, 9-valent HPV vaccine, nonavalent HPV vaccine, V503</p>
+    <p class="tagline">Nonavalent HPV L1 VLP vaccine — the most cancer-preventive vaccine in clinical use, protecting against 9 HPV types responsible for ~90% of cervical cancers.</p>
+    <p class="subtagline">Types 6/11/16/18/31/33/45/52/58 &middot; AAHS adjuvant &middot; FDA Dec 2014 &middot; Swedish registry: 88% reduction invasive cervical cancer &middot; 200M+ doses administered</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">07 — VHP</span><span class="stat-label">Platform</span></div>
-        <div class="stat"><span class="stat-num">intramuscular</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">2°C–8°C; do not freeze; 3-year shelf life</span><span class="stat-label">Cold Chain</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+      <div class="stat"><span class="stat-num">97.4%</span><span class="stat-label">Efficacy New Types</span></div>
+      <div class="stat"><span class="stat-num">88%</span><span class="stat-label">Cervical Cancer ↓ (Sweden)</span></div>
+      <div class="stat"><span class="stat-num">9 types</span><span class="stat-label">HPV Types Covered</span></div>
+      <div class="stat"><span class="stat-num">~90%</span><span class="stat-label">Cervical Cancers Preventable</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
-        <div class="entry-eyebrow">gardasil-9</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Vaccine Atlas &middot; Virus-Like Particle (VLP) &middot; Recombinant Protein</div>
         <h2>Gardasil 9 (HPV9)</h2>
-        <p class="summary">Nonavalent HPV L1 VLP vaccine; types 6/11/16/18/31/33/45/52/58 from *S. cerevisiae*. Prevents ~90% of cervical cancers and most HPV anogenital/oropharyngeal cancers. 2-dose (ages ≤14) or 3-dose schedule. FDA 2014; Swedish registry: 88% reduction in invasive cervical cancer.</p>
+        <div class="drug-class">Platform: HPV L1 VLP / AAHS adjuvant &nbsp;|&nbsp; Route: Intramuscular &nbsp;|&nbsp; Developer: Merck Sharp &amp; Dohme (V503)</div>
+        <p class="summary">Nonavalent recombinant virus-like particle (VLP) vaccine containing HPV L1 major capsid protein for types 6, 11, 16, 18, 31, 33, 45, 52, and 58, produced in <em>Saccharomyces cerevisiae</em> and formulated with AAHS adjuvant. Each 55 nm VLP displays 360 copies of L1 in native capsid geometry — densely multivalent antigen presentation driving BCR crosslinking, germinal center reactions, and type-specific neutralizing IgG 5–50&times; above natural infection titers. The most cancer-preventive vaccine in clinical use.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Gardasil-9</span>
+          <span class="alias-pill">HPV9</span>
+          <span class="alias-pill">9-valent HPV vaccine</span>
+          <span class="alias-pill">V503</span>
+          <span class="alias-pill">nonavalent HPV</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>gardasil-9</td></tr>
-            <tr><td>Name</td><td>Gardasil 9 (HPV9)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Platform</td><td>07 — VHP</td></tr>
-            <tr><td>Delivery system</td><td>Aluminum-containing adjuvant (AAHS — amorphous aluminum hydroxyphosphate sulfate, 500 µg per dose); intramuscular injection</td></tr>
-            <tr><td>Adjuvants</td><td>AAHS (amorphous aluminum hydroxyphosphate sulfate)</td></tr>
-            <tr><td>Route</td><td>intramuscular</td></tr>
-            <tr><td>Dose — two dose young</td><td>Ages 9–14: 2 doses, 6–12 months apart (non-inferior to 3-dose in 16–26 year olds)</td></tr>
-            <tr><td>Dose — three dose older</td><td>Ages 15–26 (or immunocompromised): 3 doses at 0, 2, 6 months</td></tr>
-            <tr><td>Dose — catch up fda</td><td>Ages 27–45: shared decision-making (FDA-approved 2018 extension; ACIP recommends selective use)</td></tr>
-            <tr><td>Developer</td><td>Merck Sharp &amp; Dohme (MSD)</td></tr>
-            <tr><td>Partners</td><td>CSL Behring (manufacturing)</td></tr>
-            <tr><td>Cold chain</td><td>2°C–8°C; do not freeze; 3-year shelf life</td></tr>
-            <tr><td>FDA (2014-12-10)</td><td>Licensed (BLA 125508)</td></tr>
-            <tr><td>EMA (2015-06-10)</td><td>Marketing Authorization</td></tr>
-            <tr><td>WHO (2017-09-28)</td><td>Prequalified</td></tr>
-            <tr><td>FDA (2018-10-05)</td><td>BLA expanded — through age 45</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p>Gardasil 9 was developed by <strong>Merck Sharp &amp; Dohme</strong> and approved by the FDA in December 2014 (BLA 125508), by the EMA in June 2015, and WHO-prequalified in September 2017. It supersedes the previous quadrivalent Gardasil (types 6/11/16/18), adding five additional high-risk oncogenic types (31/33/45/52/58) that together with types 16 and 18 account for approximately 90% of all cervical cancers worldwide.</p>
+          <p>HPV is the most common sexually transmitted infection globally — virtually all sexually active people will encounter HPV at some point. Of 200+ HPV types, 14 are classified as high-risk oncogenic types, causing ~570,000 new cervical cancer cases and ~311,000 deaths annually (WHO). Low-risk types 6 and 11 cause ~90% of genital warts. The vaccine's coverage of types 16, 18, 31, 33, 45, 52, and 58 is scientifically estimated to prevent approximately <strong>90% of cervical cancer cases</strong> globally.</p>
+          <p>Population-level impact has been demonstrated in real-world registry data. A landmark Swedish national register study (Lei et al., <em>NEJM</em> 2020) found that vaccination before age 17 was associated with an <strong>88% reduction in invasive cervical cancer incidence</strong> (adjusted RR 0.12, 95% CI 0.00–0.34) compared to unvaccinated women. In countries with high adolescent vaccination coverage — Australia, UK, Denmark — cervical cancer is projected to meet WHO elimination criteria (&lt;4 per 100,000 age-standardized incidence) within a generation.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="immune-system.html" title="Gardasil 9 elicits type-specific neutralizing IgG against all 9 HPV L1 VLP types; geometric mean titers are 5–50-fold higher than those seen after natural HPV infection; AAHS adjuvant activates dendritic cells and drives robust Th2-biased responses with long-lived germinal center B-cell activation."><span class="rel">elicits</span>Immune System</a>
-            <a class="conn-pill" href="b-cell.html" title="Multivalent VLP display (72 L1 pentamers per VLP; 360 copies of L1) enables B-cell receptor cross-linking and strong T-independent plus T-dependent B-cell activation; germinal center reactions in draining lymph nodes produce high-affinity IgG1 and IgG4 with long-lived plasma cell differentiation."><span class="rel">elicits</span>B Cell</a>
-            <a class="conn-pill" href="immunoglobulin-g.html" title="Type-specific anti-L1 IgG is the correlate of protection; neutralizing antibodies prevent HPV virion attachment to heparan sulfate proteoglycans and α6 integrin on cervical basal epithelial cells; WHO 2022 estimates that the 5 highest-risk types in Gardasil 9 (16/18/31/33/45/52/58) cause ~90% of cervical cancers."><span class="rel">elicits</span>Immunoglobulin G</a>
+          <h3>Platform &amp; Antigen Design</h3>
+          <h4>HPV L1 VLP Architecture</h4>
+          <div class="pathway-block">
+<pre>
+  HPV L1 major capsid protein (9 types: 6, 11, 16, 18, 31, 33, 45, 52, 58)
+  Each type expressed separately in Saccharomyces cerevisiae (yeast)
+        │
+        ▼
+  L1 protein self-assembles into 55 nm VLPs
+    72 L1 pentamers per VLP = 360 L1 monomers per particle
+    No nucleic acid content — structurally identical to native HPV capsid surface
+    No oncoproteins (E6/E7) — cannot cause cancer or replicate
+
+  Formulated with AAHS adjuvant (amorphous aluminum hydroxyphosphate sulfate, 500 µg/dose)
+    AAHS > alum: activates DCs more broadly, stronger NLRP3 + TLR4 signals
+
+  IM injection
+        │
+        ├─ AAHS depot → slow antigen release + innate activation
+        │    DC maturation → draining lymph node homing
+        │
+        ├─ VLP geometry: 360 L1 copies/particle → B-cell receptor crosslinking
+        │    T-independent + T-dependent B-cell activation
+        │    Germinal center reaction → affinity maturation → long-lived plasma cells
+        │
+        ├─ Anti-L1 IgG (type-specific; IgG1 + IgG4 dominant)
+        │    Titers 5–50× higher than after natural HPV infection
+        │
+        └─ Correlate of protection: anti-L1 VLP neutralizing IgG
+             Blocks HPV attachment to heparan sulfate proteoglycans + α6 integrin
+             Prevents virion entry into cervical basal epithelium
+             → Prevents integration → prevents oncogenic transformation
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:1rem;">
+            <li><strong>VLP multivalency:</strong> 360 L1 copies per 55 nm VLP creates an extremely high-density antigen display — crosslinks B-cell receptors far more effectively than soluble monomeric antigen, driving strong germinal center formation and affinity maturation.</li>
+            <li><strong>No nucleic acid:</strong> VLPs contain no HPV DNA or RNA — cannot replicate, cannot integrate, cannot cause oncogenic transformation. This safety design is fundamental to the vaccine's acceptability.</li>
+            <li><strong>AAHS adjuvant:</strong> Amorphous aluminum hydroxyphosphate sulfate activates NLRP3 inflammasome, TLR4, and other innate pathways more potently than crystalline alum, supporting the high-magnitude germinal center responses observed with Gardasil 9.</li>
+            <li><strong>Type-specific neutralization:</strong> Anti-L1 IgG is strictly type-specific — antibodies against HPV16 L1 VLPs do not neutralize HPV18 or other types. Protection against each type is independent and requires the type's L1 VLP to be in the vaccine.</li>
+            <li><strong>Persistence without boosters:</strong> Anti-L1 IgG titers to all 9 types remain detectable &ge;12 years post-vaccination in prospective cohorts, with no evidence of immune memory failure in individuals who seroconverted on schedule.</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h3>Immunogenicity</h3>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Humoral Response</h4>
+              <p>Type-specific anti-L1 IgG titers 5–50&times; above natural infection benchmarks. Seroconversion &gt;99% for all 9 types after 3-dose series (ages 9–26) and &gt;98% after 2-dose series (ages 9–14). Titers persist &ge;12 years in follow-up cohorts. IgG1 and IgG4 subclasses dominant.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>CD4⁺ / CD8⁺ T-Cell Response</h4>
+              <p>HPV L1-specific CD4&sup+ T-cell responses detected post-vaccination; Th2-biased consistent with AAHS adjuvant. CD8&sup+ T-cell responses modest — VLPs are extracellular antigens with limited MHC I loading. T-cell help for B-cell germinal centers is the principal cellular role. No T-cell-mediated antiviral protection mechanism defined for HPV vaccines — humoral immunity is the effective arm.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Innate Activation</h4>
+              <p>AAHS activates NLRP3 inflammasome (IL-1&beta;, IL-18), TLR4, and promotes DC maturation and migration to draining lymph nodes. VLP geometry itself stimulates innate pattern recognition (virus-sized particles activate complement and macrophage receptors). Together, this creates the adjuvanted environment needed for durable plasma cell differentiation.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Duration / Durability</h4>
+              <p>Anti-L1 IgG to all 9 types is detectable at &ge;12 years in longitudinal cohorts — the longest follow-up available for Gardasil 9 (V503-002 long-term extension). No vaccine failure has been reported in individuals who seroconverted and were HPV-naive before vaccination. No booster is currently recommended.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Clinical Efficacy</h3>
+          <table class="data-table">
+            <tr><th>Trial / Study</th><th>Design</th><th>n</th><th>Primary Endpoint</th><th>VE%</th></tr>
+            <tr>
+              <td><strong>V503-002 Phase 3 (Joura 2015, NEJM)</strong></td>
+              <td>Phase 3 RCT vs. Gardasil 4; women 16–26; multinational</td>
+              <td>14,215</td>
+              <td>CIN2+/VIN2+/VaIN2+ caused by types 31/33/45/52/58; non-inferiority to Gardasil 4 for 16/18</td>
+              <td class="trial-result">97.4% (95% CI 85.0–99.9%) for types 31/33/45/52/58; non-inferior for 16/18</td>
+            </tr>
+            <tr>
+              <td><strong>Swedish National Registry (Lei 2020, NEJM)</strong></td>
+              <td>National register study; all girls/women vaccinated vs. unvaccinated; Sweden 2006–2017</td>
+              <td>1.67M women aged 10–30</td>
+              <td>Invasive cervical cancer incidence (registry linkage)</td>
+              <td class="trial-result">88% reduction if vaccinated before age 17 (adjusted RR 0.12, 95% CI 0.00–0.34)</td>
+            </tr>
+            <tr>
+              <td><strong>FDA BLA 125508 — Extended Immunobridging</strong></td>
+              <td>Non-inferiority immunobridging, ages 9–14 (2-dose) vs. 16–26 (3-dose)</td>
+              <td>~1,200 girls ages 9–14</td>
+              <td>Anti-L1 IgG GMTs non-inferior to 16–26 3-dose</td>
+              <td class="trial-result">Non-inferior GMTs for all 9 types → 2-dose schedule approved ages 9–14</td>
+            </tr>
+            <tr>
+              <td><strong>FDA BLA expanded — ages 27–45</strong></td>
+              <td>FUTURE III extended follow-up + VENUS age 27–45 RCT</td>
+              <td>~3,200 ages 27–45</td>
+              <td>HPV-related disease in mid-adult vaccine-naive cohort</td>
+              <td class="trial-result">88.2% (95% CI 78.0–94.0) in vaccine-naive subjects; selective use recommended by ACIP</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Safety Profile</h3>
+          <ul class="se-list">
+            <li><span class="badge badge-lo">Very Common</span> <strong>Injection-site reactions — pain, swelling, erythema</strong> — pain in ~85%; swelling/erythema ~25%; onset within 1–2 days; self-limiting within 3–5 days. Most common reported adverse event; not associated with systemic reactions in isolation.</li>
+            <li><span class="badge badge-lo">Common</span> <strong>Headache, fatigue, dizziness</strong> — ~10–15%; similar rates to other adolescent vaccines (Tdap, meningococcal).</li>
+            <li><span class="badge badge-mod">Uncommon</span> <strong>Syncope (vasovagal)</strong> — ~2/100,000 doses; not vaccine-specific; occurs with all adolescent IM vaccines; standard 15-minute post-injection observation period recommended.</li>
+            <li><span class="badge badge-lo">Very Rare</span> <strong>Anaphylaxis</strong> — ~1.7/1,000,000 doses; manageable with standard observation and epinephrine.</li>
+            <li><span class="badge badge-lo">Investigated / Not Established</span> <strong>POTS, CRPS, fibromyalgia</strong> — extensively investigated following media reports; large controlled studies (EMA 2015, FDA VAERS analysis, multiple national registries) found <strong>no causal relationship</strong>; WHO GACVS: acceptable safety profile; benefits far outweigh risks.</li>
+            <li><span class="badge badge-lo">Pregnancy</span> <strong>Not recommended during pregnancy</strong> (insufficient data); no adverse pregnancy outcomes documented in women inadvertently vaccinated while pregnant; resume after delivery.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Administration</h3>
+          <table class="data-table">
+            <tr><th>Parameter</th><th>Details</th></tr>
+            <tr><td>Schedule — ages 9–14</td><td>2 doses IM: Day 0 and 6–12 months (non-inferior to 3-dose in &ge;15-year-olds)</td></tr>
+            <tr><td>Schedule — ages 15–26</td><td>3 doses IM: Day 0, 2 months, 6 months</td></tr>
+            <tr><td>Catch-up — ages 27–45</td><td>FDA-approved 2018; ACIP recommends selective use in adults not previously vaccinated; shared decision-making</td></tr>
+            <tr><td>Route</td><td>IM (deltoid or anterolateral thigh in younger adolescents); not IV, SC, or intradermal</td></tr>
+            <tr><td>Storage</td><td>2–8°C; do not freeze; 3-year shelf life</td></tr>
+            <tr><td>Contraindications</td><td>Prior anaphylaxis to Gardasil 9 or yeast protein; severe allergy to any vaccine component; pregnancy (relative — defer to postpartum)</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="pathogens.html" class="conn-pill targets">
+              <span class="rel">Immunizes vs.</span>
+              HPV (9 types)
+            </a>
+            <a href="immune-system.html" class="conn-pill">
+              <span class="rel">Elicits</span>
+              Immune System
+            </a>
+            <a href="b-cell.html" class="conn-pill">
+              <span class="rel">Elicits</span>
+              B Cell (anti-L1 IgG)
+            </a>
+            <a href="t-helper-cell.html" class="conn-pill">
+              <span class="rel">Elicits</span>
+              T Helper Cell (Th2/Tfh)
+            </a>
+            <a href="nvx-cov2373.html" class="conn-pill acts">
+              <span class="rel">Platform Class</span>
+              NVX-CoV2373 (Recombinant Protein)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1056/NEJMoa1405044" target="_blank" rel="noopener noreferrer">Joura EA, Giuliano AR, Iversen OE, et al. A 9-valent HPV vaccine against infection and intraepithelial neoplasia in women. N Engl J Med. 2015;372(8):711-23.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25693011/" target="_blank" rel="noopener noreferrer">PubMed 25693011</a></li>
-            <li><a href="https://www.who.int/publications/i/item/who-wer9750" target="_blank" rel="noopener noreferrer">World Health Organization. Human papillomavirus vaccines: WHO position paper, December 2022. Wkly Epidemiol Rec. 2022;97(50):645-672.</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa1917338" target="_blank" rel="noopener noreferrer">Lei J, Ploner A, Elfström KM, et al. HPV Vaccination and the Risk of Invasive Cervical Cancer. N Engl J Med. 2020;383(14):1340-1348.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33007079/" target="_blank" rel="noopener noreferrer">PubMed 33007079</a></li>
+            <li>Joura EA, Giuliano AR, Iversen OE, et al. A 9-valent HPV vaccine against infection and intraepithelial neoplasia in women. <em>N Engl J Med.</em> 2015;372(8):711-23. <a href="https://doi.org/10.1056/NEJMoa1405044">doi:10.1056/NEJMoa1405044</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25693011/">PMID 25693011</a></li>
+            <li>Lei J, Ploner A, Elfstr&ouml;m KM, et al. HPV Vaccination and the Risk of Invasive Cervical Cancer. <em>N Engl J Med.</em> 2020;383(14):1340-1348. <a href="https://doi.org/10.1056/NEJMoa1917338">doi:10.1056/NEJMoa1917338</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33007079/">PMID 33007079</a></li>
+            <li>World Health Organization. Human papillomavirus vaccines: WHO position paper, December 2022. <em>Wkly Epidemiol Rec.</em> 2022;97(50):645-672. <a href="https://www.who.int/publications/i/item/who-wer9750">who.int/publications HPV position paper 2022</a></li>
           </ul>
         </div>
 
@@ -195,17 +321,18 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="nvx-cov2373.html">NVX-CoV2373</a>
+      <a href="tetanus-toxoid.html">Tetanus Toxoid</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

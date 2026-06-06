@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SLC6A4, reuptake transporter for 5-HT in presynaptic neurons. Cotransports 1 Na⁺ + 1 Cl⁻ : 1 5-HT into the terminal; powered by Na⁺/K⁺-ATPase gradient. The prim">
-  <meta property="og:title" content="Serotonin Transporter — Human Engineering">
+  <meta name="description" content="Serotonin Transporter (SERT / SLC6A4) — Na⁺/Cl⁻-dependent 5-HT reuptake, LeuT fold structure, SSRI mechanism, 5-HTTLPR polymorphism, serotonin syndrome, and IBS-D. Part of the Human Engineering project.">
+  <meta property="og:title" content="Serotonin Transporter — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Serotonin Transporter — Human Engineering</title>
+  <title>Serotonin Transporter (SERT) — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0891b2;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,50 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(8,145,178,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0891b2, #164e63); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .principle-box { background: rgba(8,145,178,0.06); border: 1px solid rgba(8,145,178,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +98,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,65 +110,198 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
     <h1>Serotonin Transporter</h1>
-    <p class="tagline">SLC6A4, reuptake transporter for 5-HT in presynaptic neurons. Cotransports 1 Na⁺ + 1 Cl⁻ : 1 5-HT into the terminal; powered by Na⁺/K⁺-ATPase gradient. The primary target of SSRIs (fluoxetine, sertraline). Polymorphism 5-HTTLPR modulates depression and anxiety risk.</p>
-    <p class="aliases">Also known as: SERT, SLC6A4, 5-HTT, sodium-dependent serotonin transporter, 5-hydroxytryptamine transporter</p>
+    <p class="tagline">The synaptic 5-HT gatekeeper &mdash; a 12-transmembrane Na&#x207a;/Cl&#x207b;-dependent SLC6 family member (SLC6A4) that terminates serotonergic neurotransmission by cotransporting 5-HT (1:1:1 with Na&#x207a;:Cl&#x207b;) into the presynaptic terminal, setting ambient extracellular serotonin levels across the brain and gut.</p>
+    <p class="subtagline">The primary pharmacological target of SSRIs &mdash; the world&rsquo;s most-prescribed antidepressants. The first human SERT crystal structure (Coleman et al., 2016) revealed how escitalopram simultaneously occupies the S1 central site and S2 vestibule. The 5-HTTLPR promoter polymorphism reduces SERT expression and is the most studied genetic variant in psychiatry, modulating depression risk under environmental stress. Platelet SERT provides a peripheral readout of serotonergic tone.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">638 aa</span><span class="stat-label">Protein length</span></div>
+      <div class="stat"><span class="stat-num">12 TM</span><span class="stat-label">Transmembrane helices</span></div>
+      <div class="stat"><span class="stat-num">P31645</span><span class="stat-label">UniProt ID</span></div>
+      <div class="stat"><span class="stat-num">SLC6A4</span><span class="stat-label">Gene (chr 17q11.2)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">serotonin-transporter</div>
-        <h2>Serotonin Transporter</h2>
-        <p class="summary">SLC6A4, reuptake transporter for 5-HT in presynaptic neurons. Cotransports 1 Na⁺ + 1 Cl⁻ : 1 5-HT into the terminal; powered by Na⁺/K⁺-ATPase gradient. The primary target of SSRIs (fluoxetine, sertraline). Polymorphism 5-HTTLPR modulates depression and anxiety risk.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Neurotransmitter Transporter / SLC6 Family</div>
+        <h2>Serotonin Transporter (SERT)</h2>
+        <div class="drug-class">Class: Neurotransmitter:sodium symporter (SLC6 family) &nbsp;&middot;&nbsp; 5-HT reuptake transporter &nbsp;|&nbsp; Gene: SLC6A4 (chr 17q11.2) &nbsp;|&nbsp; UniProt: P31645 &nbsp;|&nbsp; Primary drug target: SSRI class</div>
+        <p class="summary">SERT is the integral membrane protein that terminates serotonergic neurotransmission by clearing 5-hydroxytryptamine (5-HT) from the synapse. Cloned in 1991 by Blakely and colleagues from rat brain, SERT belongs to the SLC6 (neurotransmitter:sodium symporter) family alongside the dopamine transporter (DAT/SLC6A3) and norepinephrine transporter (NET/SLC6A2). All SLC6 members share the conserved LeuT-like structural fold. SERT couples the inward transport of 1 Na&#x207a; + 1 Cl&#x207b; + 1 5-HT to the electrochemical gradient established by Na&#x207a;/K&#x207a;-ATPase, achieving uphill 5-HT accumulation inside the presynaptic terminal. SSRIs (fluoxetine, sertraline, escitalopram, paroxetine, citalopram) inhibit SERT by binding in the S1 central site and S2 vestibule, blocking transport and prolonging synaptic 5-HT dwell time. The antidepressant onset lag of 2&#x2013;4 weeks &mdash; despite &gt;80% SERT occupancy within hours &mdash; reflects the time required for 5-HT1A somatodendritic autoreceptor desensitisation to restore raphe neuron firing.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">SERT</span>
+          <span class="alias-pill">SLC6A4</span>
+          <span class="alias-pill">5-HTT</span>
+          <span class="alias-pill">sodium-dependent serotonin transporter</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The serotonin transporter was cloned independently by Blakely and Amara groups in 1991&#x2013;92, ending a 30-year pharmacological era in which the target of tricyclic antidepressants and SSRIs was known only functionally. SERT belongs to the SLC6 neurotransmitter:sodium symporter family &mdash; 20 human members including DAT (dopamine), NET (norepinephrine), GAT1/2/3 (GABA), GlyT1/2 (glycine), and amino acid transporters. All share a conserved 12-transmembrane architecture with intracellular N- and C-termini, and all couple substrate transport to the electrochemical sodium gradient.</p>
+          <p>SERT&rsquo;s clinical relevance stems from three parallel threads: <strong>pharmacology</strong> (SSRI target), <strong>genetics</strong> (5-HTTLPR polymorphism), and <strong>peripheral biology</strong> (platelet SERT). The SSRI story is straightforward: by blocking 5-HT reuptake, SSRIs raise synaptic 5-HT concentrations, ultimately producing antidepressant, anxiolytic, and OCD-reducing effects through still-incompletely understood downstream neuroadaptations. The genetic story is more complex: the 5-HTTLPR short (s) allele reduces SERT expression ~40&#x2013;50%, and the landmark Caspi et al. (2003) Science paper proposed that s/s genotype increases depression risk specifically in the context of childhood adversity and stressful life events &mdash; an influential but contested gene-environment interaction that sparked a decade of replication efforts and meta-analyses, ultimately reaching mixed conclusions about effect size.</p>
+          <p>The 2016 crystal structure of human SERT by Coleman et al. was a landmark achievement: the first atomic-resolution structure of an SLC6 member from the human nervous system. The structure revealed how escitalopram simultaneously occupies both the S1 central binding site (blocking the substrate transport pathway) and the S2 vestibular site (blocking drug egress), explaining the &ldquo;two-site&rdquo; model of SSRI inhibition and opening structure-guided drug design for next-generation antidepressants.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>serotonin-transporter</td></tr>
-            <tr><td>Name</td><td>Serotonin Transporter</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-            <tr><td>Gene Symbol</td><td>SLC6A4</td></tr>
-            <tr><td>Uniprot</td><td>P31645</td></tr>
+            <tr><th>Feature</th><th>Detail</th></tr>
+            <tr><td><strong>Topology</strong></td><td>12 transmembrane helices; intracellular N- and C-termini; large extracellular loop 2 (EL2) shields S1 site; TM1 and TM6 form core substrate-binding site via partial unwinding (LeuT fold)</td></tr>
+            <tr><td><strong>S1 (central) binding site</strong></td><td>Primary 5-HT and SSRI binding pocket; key residues: Asp98 (TM1, H-bond to 5-HT amino group), Tyr95, Ala169, Phe341, Phe335 (hydrophobic packing); coordinates 2 Na&#x207a; ions and Cl&#x207b;</td></tr>
+            <tr><td><strong>S2 (vestibular) site</strong></td><td>Secondary allosteric site in outer vestibule; targeted by escitalopram&rsquo;s extended tail and by allosteric modulators; S2 occupancy by SSRIs slows drug dissociation from S1 (two-site trapping mechanism)</td></tr>
+            <tr><td><strong>Ion binding</strong></td><td>Two Na&#x207a; sites (Na1 directly coordinates 5-HT amino group; Na2 stabilizes TM1 unwinding) and one Cl&#x207b; site (stabilizes outward-facing conformation); stoichiometry: 1 5-HT : 1 Na&#x207a; : 1 Cl&#x207b; inward per cycle</td></tr>
+            <tr><td><strong>Glycosylation</strong></td><td>N-linked glycans on EL2 (Asn208, Asn217); required for correct folding, surface trafficking, and stability; glycosylation defects cause ER retention and reduced surface SERT expression</td></tr>
+            <tr><td><strong>Phosphorylation sites</strong></td><td>Ser277 (intracellular loop 2); Thr616 (C-terminus, PKC phosphorylation site) &rarr; Thr616 phosphorylation triggers clathrin-mediated SERT internalization within 30 min, reducing surface expression</td></tr>
+            <tr><td><strong>5-HTTLPR polymorphism</strong></td><td>44 bp insertion/deletion in SLC6A4 promoter (1 kb upstream); <strong>short (s) allele</strong> (14 repeats): ~40&#x2013;50% reduced promoter activity vs. long (l) allele (16 repeats); additional SNP within l allele: l-G functionally equals s; triallelic classification improves phenotype prediction</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="serotonin.html" title="SERT terminates serotonergic neurotransmission by removing 5-HT from the synapse; SSRI block increases synaptic 5-HT and is the mechanistic basis of antidepressant action."><span class="rel">modulates</span>Serotonin</a>
-            <a class="conn-pill" href="neuron.html" title="SERT is expressed on presynaptic serotonergic neurons of the dorsal raphe; its inhibition by SSRIs prolongs postsynaptic 5-HT receptor activation, mediating antidepressant effects."><span class="rel">modulates</span>Neuron</a>
-            <a class="conn-pill part" href="neuron.html" title="SERT is an integral membrane protein of serotonergic neuron presynaptic terminals; it is located on the plasma membrane adjacent to the active zone."><span class="rel">part-of</span>Neuron</a>
-            <a class="conn-pill" href="nervous-system.html" title="SERT activity sets ambient 5-HT levels across the CNS; genetic variation (5-HTTLPR short allele) reduces SERT expression and is associated with anxiety, depression, and stress sensitivity."><span class="rel">modulates</span>Nervous System</a>
+          <h3>Mechanism of Action &mdash; Transport Cycle and SSRI Pharmacology</h3>
+          <div class="pathway-block">
+<pre>
+  SEROTONIN REUPTAKE TRANSPORT CYCLE (alternating access model):
+  ─────────────────────────────────────────────────────────────
+  STATE 1 — OUTWARD-OPEN:
+    Na⁺ and Cl⁻ occupy binding sites; S1 site accessible from synapse
+    5-HT enters from extracellular space and binds S1 site
+    (Asp98 H-bonds to 5-HT amino group; Phe341/Phe335 hydrophobic packing)
+       │
+       ▼
+  STATE 2 — OCCLUDED:
+    External and internal gates both close simultaneously
+    5-HT + Na⁺ + Cl⁻ sequestered within protein core (no exchange)
+       │
+       ▼
+  STATE 3 — INWARD-OPEN:
+    Internal gate opens; 5-HT + Na⁺ + Cl⁻ released into cytoplasm
+    K⁺ or H⁺ may countertransport inward→outward (resets transporter)
+       │
+       ▼
+  STATE 4 — RESET:
+    K⁺/H⁺ binding drives return to outward-open conformation
+    Na⁺/K⁺-ATPase maintains the Na⁺ gradient that powers cycle
+
+  SSRI MECHANISM (e.g., escitalopram):
+  ─────────────────────────────────────────────────────────────
+  SSRI enters S1 site (competitive with 5-HT transport) AND S2 vestibule
+    ↓
+  SERT locked in outward-facing occluded conformation
+  Transport cycle cannot complete
+    ↓
+  Synaptic 5-HT accumulates → extended postsynaptic 5-HT receptor activation
+    ↓
+  Acute effect (hours): 5-HT1A somatodendritic autoreceptors hypersensitized
+  → raphe neuron firing suppressed → reduced serotonin release initially
+    ↓
+  Chronic effect (2–4 weeks): 5-HT1A autoreceptors desensitize/downregulate
+  → raphe firing normalizes → forebrain 5-HT output chronically elevated
+  → antidepressant/anxiolytic effect emerges
+
+  SERT OCCUPANCY vs. CLINICAL ONSET:
+  >80% SERT blockade achieved within HOURS of first SSRI dose
+  Antidepressant effect requires 2–4 WEEKS = autoreceptor desensitization lag
+</pre>
+          </div>
+          <ul class="step-list" style="margin-top:1rem;">
+            <li><strong>SSRI binding at S1 + S2:</strong> Crystal structures of escitalopram-bound human SERT (Coleman 2016) show the fluorophenyl group packing against Phe341/Phe335 in S1 while the dimethylaminoethyl tail projects into S2, achieving a two-site trap that dramatically slows dissociation. This explains why escitalopram has higher selectivity and slower washout than earlier-generation compounds.</li>
+            <li><strong>The antidepressant lag:</strong> SSRIs achieve &gt;80% SERT occupancy within 2&#x2013;4 hours of first dose. Yet antidepressant effects require 2&#x2013;4 weeks. The explanation: increased synaptic 5-HT initially hyperstimulates 5-HT1A somatodendritic autoreceptors on dorsal raphe neurons, <em>suppressing</em> their firing and partially counteracting the SSRI-induced 5-HT increase. Chronic SSRI treatment desensitises and downregulates these autoreceptors, restoring firing and enabling sustained forebrain 5-HT elevation.</li>
+            <li><strong>Tricyclic antidepressants (TCAs):</strong> Bind SERT S1 site (and NET to varying degrees depending on compound) but with less selectivity and more off-target effects (muscarinic, histaminergic, &alpha;1-adrenergic receptor blockade causing anticholinergic effects, sedation, orthostatic hypotension). Still used in treatment-resistant depression and for pain syndromes.</li>
+            <li><strong>MDMA mechanism:</strong> MDMA enters serotonergic terminals as a SERT substrate (transported in by SERT); simultaneously inhibits vesicular VMAT2 (preventing 5-HT repackaging) and drives carrier-mediated 5-HT efflux (reverse transport). This produces massive non-exocytotic 5-HT release distinct from SSRI action, causing the acute serotonergic flood and empathogenic effects. Chronic MDMA use causes oxidative damage to SERT-expressing serotonergic axon terminals, detectable as reduced SERT density on PET imaging.</li>
+            <li><strong>SERT trafficking regulation:</strong> PKC activation (by PMA, phorbol esters, or downstream of Gq-coupled receptors) phosphorylates Thr616 &rarr; SERT internalization via clathrin-mediated endocytosis within 30 min, reducing surface 5-HT uptake. PP2A phosphatase maintains surface SERT expression. Lipid raft/cholesterol disruption reduces SERT activity. Syntaxin 1A directly binds SERT N-terminus and attenuates transport velocity.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Roles</h3>
+          <table class="data-table">
+            <tr><th>Tissue / Cell Type</th><th>Role</th><th>Effect</th></tr>
+            <tr><td><strong>Dorsal raphe nucleus neurons</strong></td><td>Primary site of SERT expression in CNS; terminates synaptic 5-HT on millisecond&#x2013;second timescale</td><td>Sets amplitude and duration of postsynaptic 5-HT receptor activation; controls 5-HT1A, 5-HT2A, and other receptor occupancy time; SERT knockout mice have 3&#x2013;5&times; higher extracellular 5-HT and anxiety-like behaviour</td></tr>
+            <tr><td><strong>Enterochromaffin (EC) cells / gut epithelium</strong></td><td>SERT expressed on intestinal epithelial cells adjacent to EC cells; clears 5-HT released into lamina propria</td><td>Prevents overstimulation of vagal afferents and enteric neurons; ~95% of body&rsquo;s 5-HT is in the gut; reduced intestinal SERT in IBS-D &rarr; prolonged enteric 5-HT signalling &rarr; hypermotility</td></tr>
+            <tr><td><strong>Platelets</strong></td><td>Express abundant SERT; accumulate portal blood 5-HT into dense granules via uptake (platelets do not synthesise 5-HT)</td><td>Dense granule 5-HT released during platelet activation amplifies aggregation; SSRI-induced platelet 5-HT depletion modestly increases bleeding risk; platelet 5-HT uptake is a peripheral proxy for serotonergic tone</td></tr>
+            <tr><td><strong>Amygdala / limbic system</strong></td><td>5-HTTLPR s allele reduces SERT expression in amygdala; higher ambient 5-HT but altered receptor adaptation</td><td>s allele associated with amygdala hyperreactivity to threatening stimuli (fMRI studies); reduced amygdala&#x2013;prefrontal coupling; s/s genotype + adversity &rarr; increased depression and PTSD vulnerability in some populations</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Condition</th><th>SERT Role</th><th>Drug Target</th><th>Example Drug / Intervention</th></tr>
+            <tr>
+              <td><strong>Major depressive disorder</strong></td>
+              <td>SERT is the primary pharmacological target; 5-HTTLPR s allele associated with reduced treatment response in some meta-analyses; reduced SERT density on PET in some MDD patients</td>
+              <td>SERT (inhibition)</td>
+              <td>SSRIs: fluoxetine, sertraline, escitalopram, citalopram, paroxetine; SNRIs: venlafaxine, duloxetine; TCAs: amitriptyline, clomipramine (higher SERT affinity)</td>
+            </tr>
+            <tr>
+              <td><strong>Anxiety disorders (GAD, panic disorder, PTSD, social anxiety)</strong></td>
+              <td>5-HTTLPR s allele &rarr; amygdala hyperreactivity; SSRI SERT blockade reduces anxiety in all four disorders (GAD, panic, PTSD, SAD)</td>
+              <td>SERT; 5-HT1A (partial agonism with buspirone)</td>
+              <td>SSRIs first-line for all four disorders; SNRIs (venlafaxine) for GAD and social anxiety; paroxetine CR for panic; sertraline for PTSD; benzodiazepines short-term adjunct</td>
+            </tr>
+            <tr>
+              <td><strong>OCD</strong></td>
+              <td>Serotonergic dysregulation; SERT occupancy correlates with symptom improvement; requires higher SSRI doses than depression</td>
+              <td>SERT (high occupancy needed); augmentation with D2 antagonists</td>
+              <td>Clomipramine (most potent SERT inhibitor in TCA class), fluoxetine, sertraline, paroxetine, fluvoxamine at higher doses than MDD; risperidone / aripiprazole augmentation for partial responders</td>
+            </tr>
+            <tr>
+              <td><strong>Serotonin syndrome</strong></td>
+              <td>SERT blockade (SSRI) + MAO inhibition + serotonin precursor/releaser &rarr; massive synaptic 5-HT; overstimulation of 5-HT1A + 5-HT2A receptors</td>
+              <td>5-HT2A receptor (cyproheptadine); SERT (discontinue drug)</td>
+              <td>Remove offending drug(s); cyproheptadine (5-HT2A antagonist); benzodiazepines (agitation); active cooling; severe cases: intubation/neuromuscular blockade</td>
+            </tr>
+            <tr>
+              <td><strong>IBS-D (diarrhea-predominant IBS)</strong></td>
+              <td>Reduced intestinal SERT expression (mucosal biopsy studies) &rarr; prolonged EC-cell 5-HT signalling in lamina propria &rarr; vagal afferent activation &rarr; hypermotility and visceral hypersensitivity</td>
+              <td>5-HT3 receptor (alosetron); 5-HT4 receptor modulation</td>
+              <td>Alosetron (5-HT3 antagonist, women with severe IBS-D); ondansetron (off-label); rifaximin; low-FODMAP diet; TCAs (low-dose amitriptyline) for visceral analgesia</td>
+            </tr>
+            <tr>
+              <td><strong>Autism spectrum disorder</strong></td>
+              <td>Elevated platelet 5-HT in ~25&#x2013;30% of individuals; hyperserotonemia may reflect reduced SERT-mediated clearance or increased EC-cell 5-HT synthesis; SERT variants (Gly56Ala) identified in ASD families</td>
+              <td>5-HT3 receptor; SERT (investigational)</td>
+              <td>No approved SERT-directed therapy for ASD core symptoms; antipsychotics (aripiprazole, risperidone) for irritability; SSRIs not proven for core ASD symptoms in large RCTs</td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>Why SSRIs take 2&#x2013;4 weeks to work &mdash; the autoreceptor desensitisation hypothesis:</strong> SSRIs achieve &gt;80% SERT blockade within hours of first dose (PET occupancy studies confirmed this). Despite this, clinical antidepressant effects require 2&#x2013;4 weeks. The explanation: increased synaptic 5-HT initially activates 5-HT1A somatodendritic autoreceptors on dorsal raphe neurons (which are wired to suppress firing in response to 5-HT). This autofeedback partially counteracts the SSRI-induced 5-HT increase. Only after 2&#x2013;4 weeks of sustained SERT blockade do the 5-HT1A autoreceptors desensitise and downregulate, restoring raphe firing rate and enabling sustained forebrain 5-HT elevation. Pindolol (5-HT1A antagonist), which blocks the autoreceptor from day one, has been tested as an augmentation strategy to accelerate antidepressant onset &mdash; with modest but inconsistent clinical benefit.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="serotonin.html" class="conn-pill targets">
+              <span class="rel">Modulates</span>
+              Serotonin (terminates synaptic 5-HT)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Part of</span>
+              Serotonergic neuron (presynaptic terminal)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Nervous system (sets ambient CNS 5-HT)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Genetic variation</span>
+              5-HTTLPR (mood, anxiety, stress reactivity)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1038/354066a0" target="_blank" rel="noopener noreferrer">Blakely RD, Berson HE, Fremeau RT Jr, et al. Cloning and expression of a functional serotonin transporter from rat brain. Nature. 1991;354(6348):66-70.</a></li>
-            <li><a href="https://doi.org/10.1126/science.1083968" target="_blank" rel="noopener noreferrer">Caspi A, Sugden K, Moffitt TE, et al. Influence of life stress on depression: moderation by a polymorphism in the 5-HTT gene. Science. 2003;301(5631):386-9.</a></li>
-            <li><a href="https://doi.org/10.1038/nature17629" target="_blank" rel="noopener noreferrer">Coleman JA, Green EM, Bhatt DL, Bhatt DL, Bhatt DL. X-ray structures and mechanism of the human serotonin transporter. Nature. 2016;532(7599):334-339.</a></li>
-            <li><a href="https://doi.org/10.1038/nrn2284" target="_blank" rel="noopener noreferrer">Murphy DL, Lesch KP. Targeting the murine serotonin transporter: insights into human neurobiology. Nat Rev Neurosci. 2008;9(2):85-96.</a></li>
+            <li>Blakely RD, Berson HE, Fremeau RT Jr, et al. Cloning and expression of a functional serotonin transporter from rat brain. <em>Nature.</em> 1991;354(6348):66&#x2013;70. <a href="https://doi.org/10.1038/354066a0">doi:10.1038/354066a0</a></li>
+            <li>Caspi A, Sugden K, Moffitt TE, et al. Influence of life stress on depression: moderation by a polymorphism in the 5-HTT gene. <em>Science.</em> 2003;301(5631):386&#x2013;9. <a href="https://doi.org/10.1126/science.1083968">doi:10.1126/science.1083968</a></li>
+            <li>Coleman JA, Green EM, Bhatt DL. X-ray structures and mechanism of the human serotonin transporter. <em>Nature.</em> 2016;532(7599):334&#x2013;339. <a href="https://doi.org/10.1038/nature17629">doi:10.1038/nature17629</a></li>
+            <li>Murphy DL, Lesch KP. Targeting the murine serotonin transporter: insights into human neurobiology. <em>Nat Rev Neurosci.</em> 2008;9(2):85&#x2013;96. <a href="https://doi.org/10.1038/nrn2284">doi:10.1038/nrn2284</a></li>
           </ul>
         </div>
 
@@ -186,14 +310,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="serotonin.html">Serotonin</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="insulin.html">Insulin</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

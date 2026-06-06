@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Master transcription factor of inflammation. IKKβ phosphorylates IκBα → proteasomal degradation → p65/p50 nuclear translocation → TNF-α, IL-6, IL-1β, COX-2 tran">
-  <meta property="og:title" content="NF-κB — Human Engineering">
+  <meta name="description" content="NF-κB — master transcription factor of inflammation. IKKβ/IκBα/p65/p50 canonical pathway, non-canonical pathway, oscillatory dynamics, cancer, sepsis, RA, and IBD. Part of the Human Engineering project.">
+  <meta property="og:title" content="NF-κB — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>NF-κB — Human Engineering</title>
+  <title>NF-&#x3ba;B — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #dc2626;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,50 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #7f1d1d); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .principle-box { background: rgba(220,38,38,0.06); border: 1px solid rgba(220,38,38,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +98,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,65 +110,203 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>NF-κB</h1>
-    <p class="tagline">Master transcription factor of inflammation. IKKβ phosphorylates IκBα → proteasomal degradation → p65/p50 nuclear translocation → TNF-α, IL-6, IL-1β, COX-2 transcription. Activated by LPS, TNF-α, IL-1β, oxidative stress, and viral dsRNA.</p>
-    <p class="aliases">Also known as: NF-κB, nuclear factor kappa B, NFKB, p65/p50, RelA/p50, NF-kB</p>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
+    <h1>NF-&#x3ba;B</h1>
+    <p class="tagline">The master switch of inflammation &mdash; a family of five transcription factors (p65/p50 dimer dominant) that integrates upstream danger signals into a rapid, powerful transcriptional program driving cytokines, chemokines, cell adhesion molecules, anti-apoptotic proteins, and immune effector enzymes.</p>
+    <p class="subtagline">Discovered in 1986 by Sen and Baltimore as a nuclear factor binding the &kappa; light-chain immunoglobulin enhancer in activated B cells. NF-&#x3ba;B is activated by LPS, TNF-&#x3b1;, IL-1&beta;, viral nucleic acids, oxidative stress, and DNA damage, converting upstream IKK&beta;-mediated I&kappa;B&alpha; phosphorylation and proteasomal degradation into explosive nuclear translocation of p65/p50 within 15&#x2013;30 minutes. Dysregulated NF-&#x3ba;B is the molecular nexus of RA, IBD, septic shock, atherosclerosis, and cancer.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">5 members</span><span class="stat-label">Rel/NF-&#x3ba;B family</span></div>
+      <div class="stat"><span class="stat-num">Q04206</span><span class="stat-label">UniProt (RelA/p65)</span></div>
+      <div class="stat"><span class="stat-num">RELA</span><span class="stat-label">Gene (chr 11q13.1)</span></div>
+      <div class="stat"><span class="stat-num">~90 min</span><span class="stat-label">NF-&#x3ba;B oscillation period</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">nf-kb</div>
-        <h2>NF-κB</h2>
-        <p class="summary">Master transcription factor of inflammation. IKKβ phosphorylates IκBα → proteasomal degradation → p65/p50 nuclear translocation → TNF-α, IL-6, IL-1β, COX-2 transcription. Activated by LPS, TNF-α, IL-1β, oxidative stress, and viral dsRNA.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Transcription Factor / Inflammatory Master Regulator</div>
+        <h2>NF-&#x3ba;B (Nuclear Factor kappa B)</h2>
+        <div class="drug-class">Class: Rel/NF-&#x3ba;B transcription factor family &nbsp;&middot;&nbsp; Inflammatory master switch &nbsp;|&nbsp; Canonical dimer: p65 (RelA) / p50 (NF-&#x3ba;B1) &nbsp;|&nbsp; UniProt (p65): Q04206 &nbsp;|&nbsp; Gene: RELA (chr 11q13.1)</div>
+        <p class="summary">NF-&#x3ba;B is the master transcription factor of innate immune activation, integrating signals from pattern-recognition receptors (TLRs, NLRs), cytokine receptors (TNFR1, IL-1R), antigen receptors (BCR/TCR), genotoxic stress, and oxidative stress into a transcriptional response activating hundreds of genes within minutes. In unstimulated cells, the canonical p65/p50 heterodimer is sequestered in the cytoplasm by I&#x3ba;B&alpha;. Activation proceeds through IKK&beta; phosphorylating I&#x3ba;B&alpha; at Ser32/Ser36, triggering &beta;TrCP-mediated K48-linked polyubiquitylation and 26S proteasomal degradation, exposing the p65/p50 nuclear localisation signal for rapid nuclear translocation and target gene transcription. NF-&#x3ba;B is simultaneously essential for pathogen defence and a driver of pathological inflammation when constitutively active &mdash; a duality that has made it one of the most intensively studied but therapeutically challenging targets in medicine.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">NF-&#x3ba;B</span>
+          <span class="alias-pill">p65/p50 (canonical dimer)</span>
+          <span class="alias-pill">RelA/NF-&#x3ba;B1</span>
+          <span class="alias-pill">nuclear factor kappa B</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>NF-&#x3ba;B was discovered in 1986 by Ranjan Sen and David Baltimore at MIT as a nuclear protein that bound to a decameric DNA sequence in the immunoglobulin &kappa; light-chain enhancer specifically in activated B lymphocytes. This initial description as a B-cell-specific factor proved misleading: within a few years, NF-&#x3ba;B was found to be an inducible, ubiquitous regulator present in virtually every mammalian cell type, with a central role in innate immunity that transcended lymphocyte biology. The subsequent three decades have revealed NF-&#x3ba;B as a family of five proteins forming multiple dimers, regulated by at least three I&kappa;B inhibitory proteins and three I&kappa;B kinase (IKK) complex subunits, activated by at least a dozen distinct upstream pathways, and driving transcription of over 300 target genes.</p>
+          <p>The clinical significance of NF-&#x3ba;B spans essentially every inflammatory and many malignant diseases. In acute pathology: it is the central mediator of septic shock (LPS&#x2192;TLR4&#x2192;NF-&#x3ba;B&#x2192;cytokine storm) and cytokine release syndrome in CAR-T therapy. In chronic inflammatory disease: constitutive NF-&#x3ba;B in synovial fibroblasts drives RA pannus; in gut epithelium and lamina propria macrophages drives IBD; in endothelial cells exposed to oxidised LDL drives atherosclerosis. In cancer: constitutive NF-&#x3ba;B activity in multiple myeloma, ABC-DLBCL, and many solid tumours promotes tumour cell survival via BCL-2 family induction, resisting chemotherapy-induced apoptosis.</p>
+          <p>Despite its centrality, direct NF-&#x3ba;B inhibition as a therapeutic strategy has failed repeatedly in clinical trials &mdash; principally because NF-&#x3ba;B is also an essential anti-apoptotic survival factor in normal cells, and complete inhibition causes immunosuppression and oncogenesis from impaired apoptotic surveillance. Current therapeutic strategies instead target NF-&#x3ba;B indirectly: anti-TNF biologics remove the positive-feedback TNF&#x2192;NF-&#x3ba;B loop; corticosteroids (via GR transrepression) suppress NF-&#x3ba;B target genes without blocking IKK; bortezomib (proteasome inhibitor) prevents I&#x3ba;B&alpha; degradation in multiple myeloma.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure &mdash; NF-&#x3ba;B Family and IKK Complex</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>nf-kb</td></tr>
-            <tr><td>Name</td><td>NF-κB</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-            <tr><td>Gene Symbol</td><td>RELA</td></tr>
-            <tr><td>Uniprot</td><td>Q04206</td></tr>
+            <tr><th>Subunit</th><th>Gene</th><th>Features</th><th>Role</th></tr>
+            <tr><td><strong>RelA (p65)</strong></td><td>RELA (chr 11q13.1)</td><td>Strong transactivation domain (TAD); RHD; multiple post-translational modifications</td><td>Dominant transcriptional activator; canonical pathway; most important inflammatory subunit</td></tr>
+            <tr><td><strong>RelB</strong></td><td>RELB (chr 19q13.32)</td><td>Leucine zipper; non-canonical pathway; cannot bind I&#x3ba;B&alpha;</td><td>Non-canonical (alternative) pathway; lymphoid organogenesis, B-cell survival</td></tr>
+            <tr><td><strong>c-Rel</strong></td><td>REL (chr 2p13.1)</td><td>Lymphocyte-specific; no known transactivation domain in C-terminus</td><td>Lymphocyte survival and differentiation; amplified/mutated in lymphomas</td></tr>
+            <tr><td><strong>p50 (NF-&#x3ba;B1)</strong></td><td>NFKB1 (chr 4q24)</td><td>Lacks TAD; derived from p105 precursor by proteasomal processing; forms repressive homodimers</td><td>p65/p50 is dominant canonical dimer; p50 homodimers are repressive without p65</td></tr>
+            <tr><td><strong>p52 (NF-&#x3ba;B2)</strong></td><td>NFKB2 (chr 10q24.32)</td><td>Lacks TAD; derived from p100 precursor; non-canonical pathway</td><td>RelB/p52 heterodimer; non-canonical pathway; lymphoid organ development</td></tr>
+          </table>
+          <h4>IKK Complex (canonical pathway hub)</h4>
+          <p><strong>IKK&alpha; (IKK1)</strong>: catalytic; primarily non-canonical activation; also required for some canonical signalling. <strong>IKK&beta; (IKK2)</strong>: principal catalytic subunit of canonical NF-&#x3ba;B activation; phosphorylates I&#x3ba;B&alpha; at Ser32 and Ser36; activation loop phosphorylation at Ser177/Ser181 activates IKK&beta;. <strong>NEMO (IKK&gamma;)</strong>: non-catalytic regulatory scaffold; essential for canonical pathway; polyubiquitin-binding domain (via Uban domain) links upstream ubiquitin-based signals from TRAF6/LUBAC to IKK activation; NEMO mutations cause incontinentia pigmenti (X-linked).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action &mdash; Canonical NF-&#x3ba;B Pathway</h3>
+          <div class="pathway-block">
+<pre>
+  UPSTREAM ACTIVATING SIGNALS (multiple danger inputs converge on IKKβ):
+  ─────────────────────────────────────────────────────────────────────
+  LPS/Flagellin → TLR4/TLR5 → MyD88/TRIF → TRAF6 → TAK1 → IKKβ
+  TNF-α → TNFR1 → TRADD → TRAF2/RIP1 → IKKβ  [positive feedback loop!]
+  IL-1β → IL-1R1 → MyD88 → IRAK4 → TRAF6 → TAK1 → IKKβ
+  dsRNA → TLR3/RIG-I → TRIF/MAVS → TRAF3/6 → IKKβ
+  BCR/TCR antigen → PKCβ/θ → CBM complex (CARMA1/BCL10/MALT1) → IKKβ
+  Oxidative/genotoxic stress → ATM → NEMO SUMOylation/ubiquitylation → IKKβ
+       │
+       ▼
+  IKKβ activated (phospho-Ser177/Ser181 in activation loop)
+       │
+       ▼
+  IKKβ phosphorylates IκBα at Ser32 AND Ser36
+       │
+       ▼
+  Phospho-IκBα recognized by SCF-βTrCP E3 ubiquitin ligase complex
+  → K48-linked polyubiquitylation → 26S proteasomal degradation (15–30 min)
+       │
+       ▼
+  p65/p50 NLS exposed → importin-α3/α4 binds → nuclear import
+       │
+       ▼
+  p65/p50 binds κB sites (5′-GGGRNNTCC-3′) in target gene promoters/enhancers
+  + recruits CBP/p300, SRC-1, Mediator → RNA Pol II initiation
+       │
+       ├── PRO-INFLAMMATORY TARGET GENES:
+       │     TNF-α, IL-1β, IL-6, IL-8/CXCL8, IL-12, CXCL10
+       │     COX-2 (PTGS2), iNOS (NOS2)
+       │     ICAM-1, VCAM-1, E-selectin
+       │
+       ├── ANTI-APOPTOTIC TARGET GENES:
+       │     BCL-2, BCL-XL, XIAP, cIAP1/2, c-FLIP, A20
+       │
+       └── NEGATIVE FEEDBACK:
+             IκBα is itself an NF-κB target gene → new IκBα enters nucleus
+             → strips p65/p50 from DNA → nuclear export
+             → NF-κB oscillates with ~90-min period (single-cell imaging data)
+</pre>
+          </div>
+          <ul class="step-list" style="margin-top:1rem;">
+            <li><strong>I&#x3ba;B&alpha; negative feedback and oscillation:</strong> I&#x3ba;B&alpha; is a direct NF-&#x3ba;B target gene; newly synthesised I&#x3ba;B&alpha; enters the nucleus, strips p65/p50 from DNA, and escorts it back to the cytoplasm. This generates ~90-minute oscillations of NF-&#x3ba;B nuclear residence. Single-cell live imaging (Ashall et al., 2009) showed that the number and amplitude of NF-&#x3ba;B pulses &mdash; not simply total nuclear level &mdash; encodes signal identity and determines differential target gene expression, a form of frequency-domain information encoding.</li>
+            <li><strong>Non-canonical (alternative) pathway:</strong> Activated by TNF superfamily receptors (BAFF-R, CD40, LT&beta;R, RANK) through NIK (NF-&#x3ba;B-inducing kinase) accumulation &rarr; IKK&alpha; homodimer activation &rarr; p100 partial proteasomal processing &rarr; p52 &rarr; RelB/p52 nuclear translocation. Critical for lymphoid organ development and B-cell survival. Constitutive NIK activity (from TRAF3 loss-of-function mutations) drives non-canonical NF-&#x3ba;B in multiple myeloma.</li>
+            <li><strong>Post-translational modifications of p65:</strong> PKAc phosphorylates Ser276 (enhances CBP/p300 binding); IKK&beta; phosphorylates Ser536 (activation); CBP/p300 acetylates Lys310 (required for full transcriptional activity); SIRT1/HDAC3 deacetylates p65 &rarr; nuclear export; GSK3&beta; phosphorylates Ser468 &rarr; repression. These modifications integrate multiple signalling inputs at the level of p65 itself, enabling context-dependent fine-tuning of NF-&#x3ba;B transcriptional output beyond binary on/off activation.</li>
+            <li><strong>NF-&#x3ba;B as survival factor:</strong> The anti-apoptotic target genes (BCL-2, BCL-XL, XIAP, c-FLIP) explain why complete NF-&#x3ba;B inhibition is dangerous &mdash; cells become hypersensitive to TNF-induced apoptosis, which can cause massive tissue destruction. This survival function also explains why constitutive NF-&#x3ba;B in cancer is oncogenic: tumour cells acquire resistance to apoptosis-inducing chemotherapy and radiation.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Roles</h3>
+          <table class="data-table">
+            <tr><th>Tissue / Cell Type</th><th>Role</th><th>Effect</th></tr>
+            <tr><td><strong>Macrophage (M1)</strong></td><td>LPS&#x2192;TLR4&#x2192;MyD88&#x2192;IKK&beta;&#x2192;NF-&#x3ba;B drives M1 programme</td><td>TNF-&#x3b1;, IL-6, IL-12, iNOS, ICAM-1 production; pathogen killing; fever; acute-phase response initiation</td></tr>
+            <tr><td><strong>B lymphocyte</strong></td><td>BCR antigen activation &#x2192; PKC&beta; &#x2192; CBM complex &#x2192; IKK&beta;&#x2192;NF-&#x3ba;B</td><td>B-cell survival, proliferation, isotype class switching (non-canonical RelB/p52 for marginal zone B-cell survival); constitutive NF-&#x3ba;B in ABC-DLBCL</td></tr>
+            <tr><td><strong>T lymphocyte</strong></td><td>TCR activation &#x2192; PKC&theta; &#x2192; CBM &#x2192; IKK&beta;&#x2192;NF-&#x3ba;B; TNFR2 on Tregs promotes Treg expansion</td><td>T-cell activation, cytokine production, survival; NF-&#x3ba;B required for Th1/Th17 differentiation; constitutive NF-&#x3ba;B in anaplastic large-cell lymphoma</td></tr>
+            <tr><td><strong>Endothelium</strong></td><td>Disturbed flow, oxidised LDL, TNF-&#x3b1; &#x2192; endothelial NF-&#x3ba;B</td><td>VCAM-1, ICAM-1, E-selectin &uarr; &rarr; monocyte/leukocyte adhesion; MCP-1 &uarr; &rarr; monocyte transmigration; pro-thrombotic state; NF-&#x3ba;B is the molecular link between endothelial shear stress and atherogenesis</td></tr>
+            <tr><td><strong>Liver / hepatocyte</strong></td><td>IL-1&beta; and TNF-&#x3b1; &#x2192; NF-&#x3ba;B &#x2192; acute-phase response; NASH &#x2192; constitutive hepatocyte NF-&#x3ba;B</td><td>Acute-phase protein production (CRP, SAA, fibrinogen) via cooperation with STAT3; hepatocyte anti-apoptotic survival in acute injury; constitutive activation promotes HCC progression</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="tnf-alpha.html" title="NF-κB p65/p50 binds κB sites in the TNF promoter driving TNF-α transcription; TNF-α in turn activates NF-κB in a positive-feedback loop."><span class="rel">modulates</span>Tnf Alpha</a>
-            <a class="conn-pill" href="il-6.html" title="NF-κB is the dominant transcriptional activator of the IL-6 gene via two κB sites in the IL-6 promoter; blocked by IκBα or GR transrepression."><span class="rel">modulates</span>Il 6</a>
-            <a class="conn-pill" href="macrophage.html" title="In M1 macrophages, LPS→TLR4→MyD88→IKKβ→NF-κB drives the pro-inflammatory gene program including TNF-α, IL-6, IL-12, and iNOS."><span class="rel">modulates</span>Macrophage</a>
-            <a class="conn-pill" href="curcumin.html" title="Curcumin inhibits IKKβ, preventing IκBα phosphorylation and NF-κB nuclear translocation; demonstrated in cancer cell lines and inflammatory disease models."><span class="rel">modulated-by</span>Curcumin</a>
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Disease</th><th>NF-&#x3ba;B Role</th><th>Drug Target</th><th>Example Drug</th></tr>
+            <tr>
+              <td><strong>Rheumatoid arthritis</strong></td>
+              <td>Synovial fibroblast and macrophage constitutive NF-&#x3ba;B &rarr; TNF-&#x3b1;, IL-6, MMP production &rarr; pannus formation, cartilage and bone destruction</td>
+              <td>TNF-&#x3b1; (NF-&#x3ba;B output); IL-6R; JAK1/2 (downstream)</td>
+              <td>Adalimumab / infliximab (anti-TNF); tocilizumab (anti-IL-6R); tofacitinib / baricitinib (JAK inhibitors)</td>
+            </tr>
+            <tr>
+              <td><strong>Inflammatory bowel disease</strong></td>
+              <td>Mucosal macrophage and epithelial NF-&#x3ba;B &rarr; IL-12, IL-23, TNF-&#x3b1; &rarr; chronic mucosal inflammation and barrier disruption in Crohn&rsquo;s and UC</td>
+              <td>TNF-&#x3b1;; IL-12/23 p40 (ustekinumab); integrin &alpha;4&beta;7 (vedolizumab)</td>
+              <td>Infliximab / adalimumab; ustekinumab; vedolizumab; budesonide (local GR transrepression of NF-&#x3ba;B)</td>
+            </tr>
+            <tr>
+              <td><strong>Septic shock</strong></td>
+              <td>LPS&#x2192;TLR4&#x2192;macrophage NF-&#x3ba;B &rarr; massive cytokine storm (TNF-&#x3b1;, IL-6, IL-1&beta;) &rarr; vasodilation, capillary leak, multi-organ failure</td>
+              <td>Glucocorticoid receptor (GR transrepression); endotoxin neutralisation</td>
+              <td>Hydrocortisone (adrenal insufficiency in septic shock); dexamethasone; supportive care; direct NF-&#x3ba;B inhibitors too immunosuppressive in sepsis</td>
+            </tr>
+            <tr>
+              <td><strong>Multiple myeloma</strong></td>
+              <td>Constitutive non-canonical NF-&#x3ba;B (NIK/IKK&alpha;) via TRAF3 deletion, or canonical NF-&#x3ba;B via IL-6 loop &rarr; BCL-2/MCL-1/XIAP &rarr; plasma cell survival and chemotherapy resistance</td>
+              <td>Proteasome (I&#x3ba;B&alpha; accumulates); IL-6R; BCMA</td>
+              <td>Bortezomib / carfilzomib (proteasome inhibitors, accumulate I&#x3ba;B&alpha;); daratumumab (anti-CD38); tocilizumab (anti-IL-6R)</td>
+            </tr>
+            <tr>
+              <td><strong>Atherosclerosis</strong></td>
+              <td>Endothelial NF-&#x3ba;B (oxidised LDL, disturbed flow) &rarr; VCAM-1, MCP-1 &rarr; monocyte recruitment &rarr; foam cell formation &rarr; plaque progression</td>
+              <td>Statins (indirectly reduce NF-&#x3ba;B via Rho/Ras depletion); colchicine (NLRP3/IL-1&beta; pathway)</td>
+              <td>Atorvastatin / rosuvastatin; colchicine (COLCOT trial); canakinumab (anti-IL-1&beta;, CANTOS trial)</td>
+            </tr>
+            <tr>
+              <td><strong>Cancer (general)</strong></td>
+              <td>Constitutive NF-&#x3ba;B &rarr; tumour cell survival (BCL-2/XIAP), proliferation (cyclin D1), angiogenesis (VEGF), immune evasion (PD-L1), invasion (MMP-9)</td>
+              <td>Proteasome; upstream kinases (BTK, MALT1)</td>
+              <td>Ibrutinib (BTK inhibitor, ABC-DLBCL); bortezomib (multiple myeloma, MCL); investigational IKK&beta; inhibitors</td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>The NF-&#x3ba;B survival paradox and why it is hard to drug directly:</strong> NF-&#x3ba;B is simultaneously the master driver of pathological inflammation AND an essential anti-apoptotic survival factor in normal cells. Complete IKK&beta; inhibition eliminates cytokine production but also removes survival signals from epithelial cells, hepatocytes, and lymphocytes &mdash; causing apoptosis-driven gut barrier failure, liver injury, and lymphopenia in multiple animal studies. This dual function explains why no direct NF-&#x3ba;B inhibitor has succeeded in clinical inflammatory trials. Successful drugs instead act on <strong>upstream inputs</strong> (anti-TNF, anti-IL-1&beta;) or <strong>downstream outputs</strong> (GR transrepression via corticosteroids), selectively attenuating NF-&#x3ba;B activity in inflamed tissues without globally blocking this essential survival pathway.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="tnf-alpha.html" class="conn-pill targets">
+              <span class="rel">Drives</span>
+              TNF-&alpha; transcription (positive feedback)
+            </a>
+            <a href="il-6.html" class="conn-pill targets">
+              <span class="rel">Drives</span>
+              IL-6 transcription (two &kappa;B sites)
+            </a>
+            <a href="glucocorticoid-receptor.html" class="conn-pill acts">
+              <span class="rel">Suppressed by</span>
+              Glucocorticoid Receptor (transrepression)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Drives</span>
+              Macrophage M1 programme
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Modulated by</span>
+              Curcumin (IKK&beta; inhibition)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Modulated by</span>
+              Resveratrol / Quercetin / Sulforaphane
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/0092-8674(86)90346-6" target="_blank" rel="noopener noreferrer">Sen R, Baltimore D. Multiple nuclear factors interact with the immunoglobulin enhancer sequences. Cell. 1986;46(5):705-16.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/3091258/" target="_blank" rel="noopener noreferrer">PubMed 3091258</a></li>
-            <li><a href="https://doi.org/10.1038/nrc780" target="_blank" rel="noopener noreferrer">Karin M, Cao Y, Greten FR, Li ZW. NF-κB in cancer: from innocent bystander to major culprit. Nat Rev Cancer. 2002;2(4):301-10.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12001991/" target="_blank" rel="noopener noreferrer">PubMed 12001991</a></li>
-            <li><a href="https://doi.org/10.1101/gad.183434.111" target="_blank" rel="noopener noreferrer">Hayden MS, Ghosh S. NF-κB, the first quarter-century: remarkable progress and outstanding questions. Genes Dev. 2012;26(3):203-34.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22302935/" target="_blank" rel="noopener noreferrer">PubMed 22302935</a></li>
-            <li><a href="https://doi.org/10.1038/sigtrans.2017.23" target="_blank" rel="noopener noreferrer">Liu T, Zhang L, Joo D, Sun SC. NF-κB signaling in inflammation. Signal Transduct Target Ther. 2017;2:17023.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29158945/" target="_blank" rel="noopener noreferrer">PubMed 29158945</a></li>
+            <li>Sen R, Baltimore D. Multiple nuclear factors interact with the immunoglobulin enhancer sequences. <em>Cell.</em> 1986;46(5):705&#x2013;16. <a href="https://doi.org/10.1016/0092-8674(86)90346-6">doi:10.1016/0092-8674(86)90346-6</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/3091258/">PubMed 3091258</a></li>
+            <li>Hayden MS, Ghosh S. NF-&#x3ba;B, the first quarter-century: remarkable progress and outstanding questions. <em>Genes Dev.</em> 2012;26(3):203&#x2013;34. <a href="https://doi.org/10.1101/gad.183434.111">doi:10.1101/gad.183434.111</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22302935/">PubMed 22302935</a></li>
+            <li>Liu T, Zhang L, Joo D, Sun SC. NF-&#x3ba;B signaling in inflammation. <em>Signal Transduct Target Ther.</em> 2017;2:17023. <a href="https://doi.org/10.1038/sigtrans.2017.23">doi:10.1038/sigtrans.2017.23</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29158945/">PubMed 29158945</a></li>
+            <li>Karin M, Cao Y, Greten FR, Li ZW. NF-&#x3ba;B in cancer: from innocent bystander to major culprit. <em>Nat Rev Cancer.</em> 2002;2(4):301&#x2013;10. <a href="https://doi.org/10.1038/nrc780">doi:10.1038/nrc780</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12001991/">PubMed 12001991</a></li>
           </ul>
         </div>
 
@@ -186,14 +315,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="tnf-alpha.html">TNF-&alpha;</a>
+      <a href="il-6.html">IL-6</a>
+      <a href="glucocorticoid-receptor.html">GR</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

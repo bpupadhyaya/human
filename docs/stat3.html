@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Transcription factor activated by JAK-STAT pathway downstream of IL-6, IL-10, IFN-γ, and EGF. JAK1/2 phosphorylates STAT3 Tyr705 → dimerisation → nuclear transl">
-  <meta property="og:title" content="STAT3 — Human Engineering">
+  <meta name="description" content="STAT3 — JAK-STAT signal transducer and activator of transcription 3. IL-6/JAK1 signalling, Tyr705 phosphorylation, GAS element binding, oncogenic constitutive activation, acute-phase response, Th17 differentiation. Part of the Human Engineering project.">
+  <meta property="og:title" content="STAT3 — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>STAT3 — Human Engineering</title>
+  <title>STAT3 — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,50 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(159,18,57,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #9f1239, #4c0519); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .principle-box { background: rgba(159,18,57,0.06); border: 1px solid rgba(159,18,57,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +98,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,65 +110,204 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
     <h1>STAT3</h1>
-    <p class="tagline">Transcription factor activated by JAK-STAT pathway downstream of IL-6, IL-10, IFN-γ, and EGF. JAK1/2 phosphorylates STAT3 Tyr705 → dimerisation → nuclear translocation → target genes (MCL-1, BCL-XL, cyclin D1, VEGF, MMP-9). Constitutively active in many cancers.</p>
-    <p class="aliases">Also known as: Signal transducer and activator of transcription 3, Acute-phase response factor, APRF</p>
+    <p class="tagline">The JAK-STAT signalling effector &mdash; a 92 kDa latent cytoplasmic transcription factor activated by JAK1/2-mediated phosphorylation of Tyr705 downstream of IL-6, IL-10, EGF, and IFN-&gamma;, driving acute-phase response, Th17 differentiation, and &mdash; when constitutively active &mdash; oncogenic survival in more than 70% of human solid tumours.</p>
+    <p class="subtagline">First identified in 1994 by Darnell, Kerr, and Stark as part of the IFN/STAT system, STAT3 has emerged as one of the most intensively studied proteins in cancer biology. Under normal physiology its activation is transient and terminated by SOCS3 feedback; in cancer it is constitutively active via upstream JAK mutations, IL-6 autocrine loops, or loss of phosphatases PTPRD/PTPRT, driving MCL-1, BCL-XL, cyclin D1, VEGF, and PD-L1 &mdash; a self-reinforcing oncogenic programme.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">92 kDa</span><span class="stat-label">Molecular weight (STAT3&alpha;)</span></div>
+      <div class="stat"><span class="stat-num">770 aa</span><span class="stat-label">Protein length</span></div>
+      <div class="stat"><span class="stat-num">P40763</span><span class="stat-label">UniProt ID</span></div>
+      <div class="stat"><span class="stat-num">STAT3</span><span class="stat-label">Gene (chr 17q21.2)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">stat3</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Transcription Factor / JAK-STAT Effector</div>
         <h2>STAT3</h2>
-        <p class="summary">Transcription factor activated by JAK-STAT pathway downstream of IL-6, IL-10, IFN-γ, and EGF. JAK1/2 phosphorylates STAT3 Tyr705 → dimerisation → nuclear translocation → target genes (MCL-1, BCL-XL, cyclin D1, VEGF, MMP-9). Constitutively active in many cancers.</p>
+        <div class="drug-class">Class: Signal transducer and activator of transcription (STAT) family &nbsp;&middot;&nbsp; JAK-STAT pathway effector &nbsp;|&nbsp; Gene: STAT3 (chr 17q21.2) &nbsp;|&nbsp; UniProt: P40763 &nbsp;|&nbsp; Key activating cytokines: IL-6, IL-10, EGF, IFN-&gamma;</div>
+        <p class="summary">STAT3 is a latent cytoplasmic transcription factor that couples extracellular cytokine signals to nuclear gene programmes controlling cell survival, proliferation, differentiation, and immune regulation. Activation requires JAK kinase-mediated phosphorylation at Tyr705, which drives SH2-mediated parallel homodimerisation, nuclear import, and binding to GAS elements (TTCNnNGAA) in target gene promoters. Under normal physiology, STAT3 activation is transient: SOCS3 (itself a STAT3 target gene) rapidly terminates signalling via JAK1 ubiquitylation. In cancer, PTPRD/PTPRT deletions, IL-6 autocrine loops, JAK2 V617F, or RTK fusions maintain constitutive STAT3 phosphorylation, driving persistent expression of anti-apoptotic (MCL-1, BCL-XL), proliferative (cyclin D1, c-Myc), angiogenic (VEGF), and immune-evasion (PD-L1, IL-10) genes. STAT3 also mediates the hepatic acute-phase response, IL-10-driven M2 macrophage polarisation, and Th17 cell differentiation &mdash; making it a central node where inflammation and oncogenesis intersect.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Signal transducer and activator of transcription 3</span>
+          <span class="alias-pill">Acute-phase response factor (APRF)</span>
+          <span class="alias-pill">STAT3&alpha; / STAT3&beta;</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>STAT3 belongs to the STAT (Signal Transducers and Activators of Transcription) family of seven proteins (STAT1&#x2013;4, STAT5A, STAT5B, STAT6) that share a conserved architecture: an N-terminal domain for cooperative binding, a coiled-coil domain for protein interactions, a DNA-binding domain, an SH2 domain for receptor docking and dimerisation, and a C-terminal transactivation domain containing the critical Tyr705 phosphorylation site. Unlike transcription factors that are synthesized de novo in response to stimuli (e.g., NF-&#x3ba;B requires de novo IκBα degradation), STAT3 is constitutively expressed and present in the cytoplasm, ready for near-instantaneous activation within minutes of cytokine stimulation &mdash; making it one of the fastest-acting transcriptional effectors in biology.</p>
+          <p>The physiological breadth of STAT3 is remarkable. Downstream of IL-6/gp130/JAK1, STAT3 drives the hepatic acute-phase response (CRP, fibrinogen, SAA induction). Downstream of IL-10/IL-10R/JAK1, STAT3 drives M2 macrophage polarisation and anti-inflammatory resolution. Downstream of IL-6 + TGF-&beta; in CD4&#x207a; T cells, STAT3 drives ROR&gamma;t induction and Th17 commitment. These physiological roles explain why Hyper-IgE syndrome (dominant-negative STAT3 mutations) presents with impaired Th17, recurrent mucosal infections, and eczema &mdash; precisely the conditions dependent on STAT3-mediated mucosal immunity.</p>
+          <p>STAT3&rsquo;s oncogenic role was crystallised by Bromberg et al.&rsquo;s landmark 1999 Cell paper demonstrating that a constitutively active STAT3 mutant transforms NIH 3T3 cells &mdash; establishing STAT3 as a true oncogene when constitutively activated. This spawned intensive pharmaceutical efforts to drug STAT3 &mdash; challenging because it is a transcription factor with no enzymatic active site. The emergence of PROTAC degraders (SD-36, KT-333) targeting STAT3 for ubiquitin-mediated degradation, and SH2 domain inhibitors now in clinical trials, represent the current frontier of this effort.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure &mdash; Domain Architecture</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>stat3</td></tr>
-            <tr><td>Name</td><td>STAT3</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-            <tr><td>Gene Symbol</td><td>STAT3</td></tr>
-            <tr><td>Uniprot</td><td>P40763</td></tr>
+            <tr><th>Domain</th><th>Residues (approx.)</th><th>Function</th></tr>
+            <tr><td><strong>N-terminal domain (NTD)</strong></td><td>1&#x2013;130</td><td>Mediates cooperative DNA binding at tandem STAT3 binding sites; required for STAT3 tetramerisation on adjacent GAS elements; contributes to SOCS3 interaction</td></tr>
+            <tr><td><strong>Coiled-coil domain (CCD)</strong></td><td>130&#x2013;320</td><td>Protein&#x2013;protein interaction surface; nuclear import signal interactions; PIAS3 binding interface; contributes to STAT3 dimer lateral contacts</td></tr>
+            <tr><td><strong>DNA-binding domain (DBD)</strong></td><td>320&#x2013;480</td><td>Sequence-specific binding to GAS elements (TTCNnNGAA); immunoglobulin-like fold; phosphate backbone contacts; sequence discrimination between GAS vs. ISRE elements (STAT1 vs. STAT3 specificity)</td></tr>
+            <tr><td><strong>Linker domain</strong></td><td>480&#x2013;576</td><td>Connects DBD to SH2; contributes to pTyr705 recognition in the context of the dimerised receptor docking complex</td></tr>
+            <tr><td><strong>SH2 domain</strong></td><td>576&#x2013;683</td><td>Receptor docking via phospho-tyrosine on gp130 cytoplasmic tail (Y767, Y814, Y905, Y915); reciprocal pTyr705 binding for parallel homodimerisation; primary interface for STAT3 inhibitors targeting pY705 docking</td></tr>
+            <tr><td><strong>Transactivation domain (TAD)</strong></td><td>683&#x2013;770</td><td>Transcriptional activation; contains <strong>Tyr705</strong> (JAK1/2 phosphorylation site, essential for dimerisation) and <strong>Ser727</strong> (CDK5/mTOR phosphorylation, modulates transcriptional output); recruits CBP/p300, BRD4</td></tr>
+          </table>
+          <h4>Isoforms and dimerisation</h4>
+          <p><strong>STAT3&alpha;</strong> (full-length, 92 kDa): dominant transcriptionally active form. <strong>STAT3&beta;</strong> (83 kDa): lacks 55 residues of TAD; generated by alternative splicing; can act as dominant-negative or in specific pro-apoptotic contexts; enriched in leukocytes. Upon Tyr705 phosphorylation, STAT3 monomers form <strong>parallel homodimers</strong> via reciprocal SH2&#x2013;pTyr705 interactions (each SH2 binds the other monomer&rsquo;s pTyr705). The dimer translocates to the nucleus and binds GAS elements. STAT3 can also form STAT3:STAT1 heterodimers, shifting transcriptional target specificity toward interferon-stimulated genes.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action &mdash; JAK-STAT3 Canonical Pathway</h3>
+          <div class="pathway-block">
+<pre>
+  Cytokine stimulus (IL-6 + sIL-6R, or other STAT3-activating ligands)
+       │
+       ▼
+  Ligand binds receptor complex (e.g., IL-6 + IL-6Rα + gp130 hexamer)
+  → Receptor oligomerization juxtaposes intracellular JAK kinases
+  → JAK1 (constitutively associated with gp130 Box1/Box2 motif)
+  → JAK1 trans-phosphorylates JAK2/TYK2 → activated JAK1 phosphorylates
+    gp130 cytoplasmic tail at Tyr767, Tyr814, Tyr905, Tyr915
+       │
+       ▼
+  STAT3 SH2 domain docks onto gp130 pTyr → STAT3 Tyr705 phosphorylated by JAK1
+       │
+       ▼
+  pTyr705-STAT3 dissociates from receptor
+  → forms parallel HOMODIMER via reciprocal SH2–pTyr705 interactions
+       │
+       ▼
+  Importin-α3/α6-mediated NUCLEAR IMPORT of STAT3 dimer (minutes)
+       │
+       ▼
+  DNA binding to GAS elements (TTCNnNGAA) in target gene promoters
+  + coactivator recruitment: CBP/p300, BRD4, Mediator → RNA Pol II
+       │
+       ├── ACUTE-PHASE (hepatocytes): CRP, fibrinogen, SAA, ferritin ↑
+       │                               Albumin ↓
+       │
+       ├── ANTI-APOPTOTIC (cancer/inflammatory cells):
+       │     MCL-1, BCL-XL, BCL-2, survivin
+       │
+       ├── PROLIFERATIVE: cyclin D1, c-Myc
+       │
+       ├── ANGIOGENIC: VEGF, FGF2
+       │
+       ├── IMMUNE EVASION: PD-L1, IL-10, VEGF (tumour microenvironment)
+       │
+       └── INVASION/EMT: MMP-2, MMP-9, TWIST, vimentin
+           │
+           ▼
+  TERMINATION — SOCS3 negative feedback:
+    STAT3 induces SOCS3 → SOCS3 competes for gp130 docking site
+    + recruits elongin BC/CUL5 E3 ubiquitin ligase → JAK1 degradation
+    + TC45/PTPRT/PTPRD phosphatases dephosphorylate nuclear pTyr705-STAT3
+    → STAT3 exported from nucleus → return to cytoplasmic pool
+</pre>
+          </div>
+          <ul class="step-list" style="margin-top:1rem;">
+            <li><strong>SOCS3 feedback &mdash; the primary brake:</strong> SOCS3 (Suppressor of Cytokine Signaling 3) is a direct STAT3 target gene. Newly synthesised SOCS3 binds the gp130 docking site (competing with STAT3 SH2) and recruits the elongin BC/CUL5 E3 ubiquitin ligase to ubiquitylate and degrade JAK1. This auto-negative feedback limits the duration of each IL-6&#x2192;STAT3 pulse to ~30&#x2013;60 minutes in normal cells. In cancer, SOCS3 is frequently silenced by promoter methylation or chromosomal deletion, allowing sustained STAT3 activity.</li>
+            <li><strong>Phosphatase regulation:</strong> PTPRD and PTPRT (receptor protein tyrosine phosphatases) constitutively dephosphorylate nuclear STAT3 pTyr705. PTPRD and PTPRT are among the most frequently deleted genes in colorectal cancer, head and neck squamous cell carcinoma, and glioblastoma &mdash; directly explaining STAT3 hyperactivation in these tumour types. TC45 (TCPTP) dephosphorylates cytoplasmic STAT3. PIAS3 binds STAT3 dimer in the nucleus and blocks DNA binding without affecting phosphorylation.</li>
+            <li><strong>Non-canonical mitochondrial STAT3 (mSTAT3):</strong> pSer727-STAT3 (not pTyr705) localises to the mitochondrial inner membrane where it regulates electron transport chain complex I and II activity, ROS production, and the Warburg metabolic switch. This transcription-independent STAT3 function is particularly important in oncogenic Ras-driven transformation and in cardiac protection during ischemia-reperfusion injury.</li>
+            <li><strong>Acetylated STAT3 in epigenetic silencing:</strong> CBP/p300-mediated acetylation of STAT3 at Lys685 produces a STAT3 dimer that interacts with DNMT3a, driving methylation and silencing of tumour suppressor gene promoters &mdash; a transcription-independent epigenetic oncogenic function distinct from classical GAS element binding.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Roles</h3>
+          <table class="data-table">
+            <tr><th>Tissue / Cell Type</th><th>Role</th><th>Effect</th></tr>
+            <tr><td><strong>Hepatocyte</strong></td><td>IL-6&#x2192;gp130&#x2192;JAK1&#x2192;STAT3 drives acute-phase response (APR)</td><td>CRP &uarr; (1,000-fold), SAA &uarr;, fibrinogen &uarr;, ferritin &uarr;; albumin &darr;; hepcidin &uarr; (&#x2192; anaemia of chronic disease); primary APR driver within 6&#x2013;24 h of infection/injury</td></tr>
+            <tr><td><strong>Macrophage</strong></td><td>IL-10&#x2192;IL-10R&#x2192;JAK1/TYK2&#x2192;STAT3 drives M2 polarisation; constitutive STAT3 in TAMs suppresses antitumour immunity</td><td>Anti-inflammatory M2 genes: IL-10, arginase-1, CD206, IL-1RA; in tumour microenvironment: PD-L1, TGF-&beta; &uarr; &rarr; cytotoxic T-cell suppression</td></tr>
+            <tr><td><strong>CD4&#x207a; T cell</strong></td><td>IL-6 + TGF-&beta; &#x2192; STAT3 &#x2192; ROR&gamma;t &rarr; Th17 differentiation; STAT3 opposes TGF-&beta;-driven Foxp3/Treg development</td><td>Th17 commitment and IL-17 production; STAT3 deficiency (STAT3 dominant-negative mutations in Hyper-IgE syndrome) abolishes Th17 &rarr; mucosal fungal/bacterial susceptibility + characteristic eczema</td></tr>
+            <tr><td><strong>B cell</strong></td><td>IL-21&#x2192;IL-21R&#x2192;JAK1/JAK3&#x2192;STAT3</td><td>Plasmablast differentiation, antibody class switching, plasma cell survival; IL-6&#x2192;STAT3 loop is the dominant plasma cell survival pathway in multiple myeloma</td></tr>
+            <tr><td><strong>Intestinal epithelial cell</strong></td><td>IL-22&#x2192;IL-22R&#x2192;JAK1&#x2192;STAT3 drives barrier repair and antimicrobial peptide production</td><td>Proliferation and restitution of damaged epithelium; STAT3 deletion in IEC causes spontaneous colitis in mice; dysregulated STAT3 in IBD mucosal epithelium impairs barrier repair</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="il-6.html" title="IL-6 trans-signals via sIL-6R→gp130→JAK1/JAK2→STAT3 Tyr705 phosphorylation; this is the dominant STAT3 activation pathway in inflammation and cancer."><span class="rel">modulated-by</span>Il 6</a>
-            <a class="conn-pill" href="macrophage.html" title="STAT3 activation downstream of IL-10 drives anti-inflammatory M2-like macrophage polarisation; constitutive STAT3 in tumour-associated macrophages suppresses antitumour immunity."><span class="rel">modulates</span>Macrophage</a>
-            <a class="conn-pill" href="hepatocyte.html" title="STAT3 mediates the hepatic acute-phase response downstream of IL-6; drives fibrinogen, CRP, and SAA expression; contributes to NASH progression when constitutively active."><span class="rel">modulates</span>Hepatocyte</a>
-            <a class="conn-pill" href="immune-system.html" title="STAT3 is the primary transcription factor mediating IL-6 and IL-10 downstream immunomodulation in both innate and adaptive immunity."><span class="rel">modulates</span>Immune System</a>
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Disease</th><th>STAT3 Mechanism</th><th>Drug Target</th><th>Example Drug</th></tr>
+            <tr>
+              <td><strong>Rheumatoid arthritis</strong></td>
+              <td>IL-6&#x2192;JAK1&#x2192;STAT3 in synovial fibroblasts and T cells drives pannus, Th17 responses, and systemic acute-phase proteins</td>
+              <td>JAK1 (upstream of STAT3); IL-6R</td>
+              <td>Tofacitinib, baricitinib, upadacitinib (JAK inhibitors); tocilizumab, sarilumab (anti-IL-6R)</td>
+            </tr>
+            <tr>
+              <td><strong>Multiple myeloma</strong></td>
+              <td>IL-6 autocrine loop &#x2192; constitutive STAT3 &#x2192; MCL-1/BCL-XL survival; VEGF angiogenesis; SOCS3 silenced by methylation</td>
+              <td>JAK1/2; proteasome (indirectly impairs STAT3); IL-6R; BCMA</td>
+              <td>Bortezomib/carfilzomib (proteasome inhibitors); tocilizumab (investigational); daratumumab (anti-CD38)</td>
+            </tr>
+            <tr>
+              <td><strong>Hepatocellular carcinoma (HCC)</strong></td>
+              <td>Chronic HBV/HCV infection or NASH &#x2192; IL-6&#x2192;STAT3; constitutive STAT3 drives MMP-9, VEGF, cyclin D1; PTPRD/SOCS3 deleted in many HCC</td>
+              <td>STAT3 SH2 domain; JAK; VEGF (sorafenib blocks downstream of STAT3)</td>
+              <td>Sorafenib (multi-kinase including VEGFR); atezolizumab + bevacizumab; investigational: TTI-101 (STAT3 SH2 inhibitor, clinical trials)</td>
+            </tr>
+            <tr>
+              <td><strong>JAK2 V617F myeloproliferative neoplasms</strong></td>
+              <td>Constitutively active JAK2 V617F &#x2192; pSTAT3 + pSTAT5 &#x2192; erythroid and megakaryocyte hyperproliferation (PV, ET, MF)</td>
+              <td>JAK1/2</td>
+              <td>Ruxolitinib (JAK1/2 inhibitor, approved for MF and PV); fedratinib, pacritinib (JAK2-selective)</td>
+            </tr>
+            <tr>
+              <td><strong>Hyper-IgE syndrome</strong></td>
+              <td>Dominant-negative STAT3 mutations &#x2192; impaired Th17 differentiation &#x2192; mucosal candidal and staph infections, eczema, bone fragility, scoliosis; IgE markedly elevated</td>
+              <td>Supportive; mucosal antifungal prophylaxis; dupilumab for eczema component</td>
+              <td>Trimethoprim-sulfamethoxazole prophylaxis; antifungal azoles; dupilumab (anti-IL-4R&alpha;) for eczema; IVIg for recurrent infections</td>
+            </tr>
+            <tr>
+              <td><strong>COVID-19 cytokine storm</strong></td>
+              <td>Massive IL-6 &uarr; &#x2192; STAT3 &#x2192; MCL-1, VEGF in endothelium &#x2192; capillary leak, cytokine amplification; STAT3 also promotes PD-L1 on myeloid cells impeding antiviral T-cell response</td>
+              <td>IL-6R (tocilizumab); JAK1/2 (baricitinib)</td>
+              <td>Tocilizumab + dexamethasone (RECOVERY trial standard of care for severe COVID-19); baricitinib (ACTT-2 trial)</td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>STAT3 as an &ldquo;undruggable&rdquo; transcription factor &mdash; emerging solutions:</strong> STAT3 has long been considered undruggable because transcription factors lack enzymatic active sites that accept small-molecule inhibitors. Three inhibitor classes are now in clinical trials: (1) <strong>SH2 domain inhibitors</strong> (e.g., TTI-101) compete with pTyr705-gp130 docking; (2) <strong>Antisense oligonucleotides</strong> (AZD9150) degrade STAT3 mRNA selectively; (3) <strong>PROTAC degraders</strong> (SD-36, KT-333) recruit an E3 ubiquitin ligase to ubiquitylate STAT3 and drive proteasomal degradation. PROTACs are particularly promising because they require only catalytic (substoichiometric) target engagement rather than sustained occupancy, enabling degradation of STAT3 even in tumours with high STAT3 expression. KT-333 (targeting STAT3) entered Phase I trials in 2022 for T-cell lymphomas with constitutive STAT3 activity.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="il-6.html" class="conn-pill targets">
+              <span class="rel">Modulated by</span>
+              IL-6 (dominant STAT3 activating cytokine)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Macrophage (M2 polarisation, TAM immunosuppression)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Hepatocyte (acute-phase response)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Immune system (Th17/Treg balance, IL-10 signalling)
+            </a>
+            <a href="nf-kb.html" class="conn-pill targets">
+              <span class="rel">Cooperates with</span>
+              NF-&#x3ba;B (shared target genes, CRS)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1126/science.8197455" target="_blank" rel="noopener noreferrer">Darnell JE Jr, Kerr IM, Stark GR. Jak-STAT pathways and transcriptional activation in response to IFNs and other extracellular signaling proteins. Science. 1994;264(5164):1415-21.</a></li>
-            <li><a href="https://doi.org/10.1038/nrc2734" target="_blank" rel="noopener noreferrer">Yu H, Pardoll D, Jove R. STATs in cancer inflammation and immunity: a leading role for STAT3. Nat Rev Cancer. 2009;9(11):798-809.</a></li>
-            <li><a href="https://doi.org/10.1016/S0092-8674(00)81959-5" target="_blank" rel="noopener noreferrer">Bromberg JF, Wrzeszczynska MH, Devgan G, et al. Stat3 as an oncogene. Cell. 1999;98(3):295-303.</a></li>
-            <li><a href="https://doi.org/10.1038/nrclinonc.2018.8" target="_blank" rel="noopener noreferrer">Johnson DE, O'Keefe RA, Grandis JR. Targeting the IL-6/JAK/STAT3 signalling axis in cancer. Nat Rev Clin Oncol. 2018;15(4):234-248.</a></li>
+            <li>Darnell JE Jr, Kerr IM, Stark GR. Jak-STAT pathways and transcriptional activation in response to IFNs and other extracellular signaling proteins. <em>Science.</em> 1994;264(5164):1415&#x2013;21. <a href="https://doi.org/10.1126/science.8197455">doi:10.1126/science.8197455</a></li>
+            <li>Bromberg JF, Wrzeszczynska MH, Devgan G, et al. Stat3 as an oncogene. <em>Cell.</em> 1999;98(3):295&#x2013;303. <a href="https://doi.org/10.1016/S0092-8674(00)81959-5">doi:10.1016/S0092-8674(00)81959-5</a></li>
+            <li>Yu H, Pardoll D, Jove R. STATs in cancer inflammation and immunity: a leading role for STAT3. <em>Nat Rev Cancer.</em> 2009;9(11):798&#x2013;809. <a href="https://doi.org/10.1038/nrc2734">doi:10.1038/nrc2734</a></li>
+            <li>Johnson DE, O&rsquo;Keefe RA, Grandis JR. Targeting the IL-6/JAK/STAT3 signalling axis in cancer. <em>Nat Rev Clin Oncol.</em> 2018;15(4):234&#x2013;248. <a href="https://doi.org/10.1038/nrclinonc.2018.8">doi:10.1038/nrclinonc.2018.8</a></li>
           </ul>
         </div>
 
@@ -186,14 +316,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="il-6.html">IL-6</a>
+      <a href="nf-kb.html">NF-&#x3ba;B</a>
+      <a href="tnf-alpha.html">TNF-&alpha;</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

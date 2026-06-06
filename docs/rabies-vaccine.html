@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Inactivated whole-virus vaccine (HDCV, PCECV, PVRV) preventing rabies via pre- or post-exposure prophylaxis. PEP is nearly 100% effective if given promptly; onc">
-  <meta property="og:title" content="Rabies Vaccine (Inactivated) — Human Engineering">
+  <meta name="description" content="Rabies Vaccine (HDCV/PCECV/PVRV) — inactivated whole-virion rabies vaccines for pre- and post-exposure prophylaxis. Platform, immunogenicity, PEP regimens, and global burden. Human Engineering project.">
+  <meta property="og:title" content="Rabies Vaccine — Vaccine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Rabies Vaccine (Inactivated) — Human Engineering</title>
+  <title>Rabies Vaccine (HDCV/PCECV/PVRV) — Vaccine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0369a1;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,170 +32,321 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #075985); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .detail-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .detail-table td { padding: 0.55rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; width: 9rem; }
+    .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+    .conn-pill { display: inline-block; padding: 0.3rem 0.8rem; background: rgba(3,105,161,0.08); border: 1px solid rgba(3,105,161,0.2); border-radius: 999px; font-size: 0.82rem; font-weight: 600; color: var(--accent); transition: background .15s; }
+    .conn-pill:hover { background: rgba(3,105,161,0.16); color: var(--accent); }
+    .ref-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .ref-list li { font-size: 0.85rem; color: var(--muted); line-height: 1.6; padding-left: 1.4rem; position: relative; }
+    .ref-list li::before { content: "›"; position: absolute; left: 0.3rem; color: var(--accent); font-weight: 700; }
+    .ref-list a { color: var(--accent); }
+    .ref-list a:hover { color: var(--bio); }
+    footer { border-top: 1px solid var(--border-soft); padding: 2.5rem 1.5rem; }
+    .footer-inner { max-width: var(--maxw); margin: 0 auto; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-meta { font-size: 0.82rem; color: var(--muted); }
   </style>
 </head>
 <body>
-
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
+<nav>
+  <div class="nav-inner">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      Human Engineering
     </div>
-  </nav>
-
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 04 — Inactivated</div>
-    <h1>Rabies Vaccine (Inactivated)</h1>
-    <p class="tagline">Inactivated whole-virus vaccine (HDCV, PCECV, PVRV) preventing rabies via pre- or post-exposure prophylaxis. PEP is nearly 100% effective if given promptly; once neurological symptoms appear, survival is near-zero. ~59,000 deaths/year remain preventable.</p>
-    <p class="aliases">Also known as: HDCV, PCECV, PVRV, Rabipur, RabAvert, Imovax, Verorab</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">04 — Inactivated</span><span class="stat-label">Platform</span></div>
-        <div class="stat"><span class="stat-num">intramuscular (deltoid); intradermal (approved for some formulations in resource-limited settings)</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">2–8°C; do not freeze; lyophilized formulations (HDCV, some PCECV) reconstitute before use; liquid PVRV single-dose vials</span><span class="stat-label">Cold Chain</span></div>
-        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
+    <div class="nav-links">
+      <a href="index.html" class="nav-back">
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 2L4 7l5 5"/></svg>
+        Home
+      </a>
+      <a href="medicine.html">Medicine</a>
+      <a href="immune-system.html">Immune System</a>
     </div>
   </div>
+</nav>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+<section class="hero">
+  <div class="hero-eyebrow">Atlas Four · Vaccine · Inactivated</div>
+  <h1>Rabies Vaccine</h1>
+  <p class="tagline">HDCV / PCECV / PVRV — inactivated whole-virion vaccines for pre- and post-exposure prophylaxis</p>
+  <p class="subtagline">Multiple manufacturers · BPL inactivation · CVS / Pitman-Moore strains · VNA ≥0.5 IU/mL correlate of protection · WHO EML</p>
+  <div class="stat-row">
+    <div class="stat"><span class="stat-num">~100%</span><span class="stat-label">PEP efficacy if prompt + RIG</span></div>
+    <div class="stat"><span class="stat-num">59,000</span><span class="stat-label">deaths/year (preventable)</span></div>
+    <div class="stat"><span class="stat-num">≥0.5 IU/mL</span><span class="stat-label">VNA seroprotection threshold</span></div>
+    <div class="stat"><span class="stat-num">3–5 doses</span><span class="stat-label">PEP Essen regimen (Day 0/3/7/14/28)</span></div>
+  </div>
+</section>
+
+<main>
+  <div class="detail-card">
+    <div class="detail-header">
+      <div class="entry-eyebrow">Vaccine Entry · Atlas Four</div>
+      <h2>Rabies Vaccine (HDCV/PCECV/PVRV)</h2>
+      <div class="drug-class">Inactivated Whole-Virion · BPL-Inactivated · Rabies Prophylaxis (Pre- and Post-Exposure)</div>
+      <p class="summary">Rabies vaccines are inactivated whole-virion preparations of rabies virus grown in cell culture (human diploid, chick embryo, or Vero cells), inactivated with beta-propiolactone, and used for both pre-exposure prophylaxis (PrEP) and post-exposure prophylaxis (PEP). When administered correctly with rabies immunoglobulin (RIG) on Day 0, PEP is virtually 100% effective — yet rabies kills ~59,000 people annually, almost entirely because of delayed or absent access to post-exposure care.</p>
+      <div class="alias-pills">
+        <span class="alias-pill">HDCV (Imovax)</span>
+        <span class="alias-pill">PCECV (RabAvert)</span>
+        <span class="alias-pill">PVRV (Verorab)</span>
+        <span class="alias-pill">Rabies Immune Globulin (RIG) — co-admin Day 0</span>
+      </div>
     </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
-        <div class="entry-eyebrow">rabies-vaccine</div>
-        <h2>Rabies Vaccine (Inactivated)</h2>
-        <p class="summary">Inactivated whole-virus vaccine (HDCV, PCECV, PVRV) preventing rabies via pre- or post-exposure prophylaxis. PEP is nearly 100% effective if given promptly; once neurological symptoms appear, survival is near-zero. ~59,000 deaths/year remain preventable.</p>
+    <div class="detail-body">
+
+      <!-- OVERVIEW -->
+      <div class="detail-section">
+        <h3>Overview</h3>
+        <p>Rabies remains one of the world's most lethal infectious diseases, with a case fatality rate approaching 100% once clinical signs appear. The causative agent, <em>Rabies lyssavirus</em> (RABV), travels centripetally along peripheral motor and sensory axons at 50–100 mm/day after inoculation, crossing into the CNS before reaching the brain, where it causes a rapidly fatal encephalitis. This slow axonal transport creates a critical window during which post-exposure prophylaxis — consisting of wound washing, vaccine, and rabies immunoglobulin — can intercept the virus before CNS entry. The three main licensed vaccine platforms are: <strong>HDCV</strong> (Human Diploid Cell Vaccine, MRC-5 cells; Imovax — Sanofi Pasteur), <strong>PCECV</strong> (Purified Chick Embryo Cell Vaccine; RabAvert — Bavarian Nordic/GSK), and <strong>PVRV</strong> (Purified Vero-cell Rabies Vaccine; Verorab — Sanofi). All use β-propiolactone (BPL) to inactivate either the CVS or Pitman-Moore strain of rabies virus.</p>
+        <p>The correlate of protection is a <strong>virus-neutralizing antibody (VNA) titer ≥0.5 IU/mL</strong> as measured by the Rapid Fluorescent Focus Inhibition Test (RFFIT) or Fluorescent Antibody Virus Neutralization (FAVN) assay. Greater than 99% of immunocompetent individuals reach this threshold after a completed primary pre-exposure or post-exposure series. Rabies vaccines appear on the <strong>WHO Essential Medicines List</strong> and are subject to WHO prequalification (Verorab and others). Pre-exposure prophylaxis (PrEP) protects high-risk professionals and travelers and simplifies post-exposure management to 2 booster doses without RIG.</p>
+        <p>Despite effective vaccines existing since the 1970s (Wiktor 1964 HDCV development; WHO position papers 1973–2018), rabies kills approximately 59,000 people per year globally (Hampson 2015), predominantly in Asia and Africa, and predominantly in children bitten by dogs. This toll reflects not vaccine failure but a prevention gap: lack of affordable vaccine access, inadequate canine vaccination programs, and the high cost and scarcity of rabies immunoglobulin (RIG) in low-income settings. The 2018 WHO position paper endorsed a simplified 2-dose PrEP schedule (Day 0 and Day 7) replacing the earlier 3-dose schedule, increasing feasibility of mass pre-exposure coverage.</p>
       </div>
-      <div class="detail-body">
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>rabies-vaccine</td></tr>
-            <tr><td>Name</td><td>Rabies Vaccine (Inactivated)</td></tr>
-            <tr><td>Status</td><td>active</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Platform</td><td>04 — Inactivated</td></tr>
-            <tr><td>Delivery system</td><td>inactivated whole virus in cell-culture supernatant, aluminium phosphate adjuvant (some formulations)</td></tr>
-            <tr><td>Adjuvants</td><td>aluminium phosphate (HDCV formulation; PCECV/PVRV may be adjuvant-free)</td></tr>
-            <tr><td>Route</td><td>intramuscular (deltoid); intradermal (approved for some formulations in resource-limited settings)</td></tr>
-            <tr><td>Dose schedule</td><td>Pre-exposure prophylaxis (PrEP): 2-dose IM series Day 0 and Day 7 (WHO 2018 schedule); traditional 3-dose Day 0/7/21-28 also accepted.
-Post-exposure prophylaxis (PEP): 4–5 doses IM on Days 0/3/7/14 (Essen) or Days 0/3/7 (Zagreb 2-site), combined with rabies immune globulin (RIG) on Day 0 for previously unvaccinated patients.
-</td></tr>
-            <tr><td>Manufacturer</td><td>Sanofi Pasteur (HDCV — Imovax), Bavarian Nordic/GSK (PCECV — RabAvert/Rabipur), Sanofi Pasteur (PVRV — Verorab), and others</td></tr>
-            <tr><td>Cold chain</td><td>2–8°C; do not freeze; lyophilized formulations (HDCV, some PCECV) reconstitute before use; liquid PVRV single-dose vials</td></tr>
-          </table>
+      <!-- PLATFORM & ANTIGEN DESIGN -->
+      <div class="detail-section">
+        <h3>Platform &amp; Antigen Design</h3>
+        <div class="pathway-block">
+<pre>
+INACTIVATED RABIES VACCINE — MANUFACTURE &amp; PEP MECHANISM
+==========================================================
+
+  MANUFACTURE:
+  Rabies virus (CVS or Pitman-Moore strain)
+  grown in MRC-5 / chick embryo / Vero cells
+          │
+          ▼
+  Harvest → clarification → concentration
+          │
+          ▼
+  β-Propiolactone (BPL) inactivation
+  [alkylates viral nucleic acid; preserves G protein]
+          │
+          ▼
+  Purification → adjuvant-free formulation (HDCV/PCECV)
+  or alum-adjuvanted (PVRV)
+
+  POST-EXPOSURE RACE AGAINST AXONAL TRANSPORT:
+  Bite site (peripheral nerve)
+          │ Virus travels retrogradely
+          │ ~50–100 mm/day centripetal
+          │
+          ▼
+  Vaccine + RIG given Day 0 (wound site)
+  → Passive neutralization by RIG at entry point
+  → Active immunity building (VNA detectable ~Day 7–14)
+  → Antibody reaches CNS-ward viral front
+          │
+          ▼
+  If VNA ≥0.5 IU/mL before viral CNS entry → survival
+  If viral entry to CNS before immune response → fatal encephalitis
+</pre>
         </div>
+        <ol class="step-list" style="margin-top:1rem;">
+          <li><strong>Cell culture propagation:</strong> Rabies virus (CVS or Pitman-Moore strain) is grown to high titer in MRC-5 human diploid cells (HDCV), chick embryo cells (PCECV), or Vero cells (PVRV); cells are lysed and virus harvested after peak replication.</li>
+          <li><strong>BPL inactivation:</strong> β-Propiolactone alkylates viral RNA, rendering the virus non-replicative while preserving the glycoprotein (G protein) antigen — the primary target for virus-neutralizing antibodies and T-cell responses.</li>
+          <li><strong>Purification:</strong> Zonal centrifugation and/or column chromatography removes cellular debris and concentrates inactivated virions. HDCV and PCECV are adjuvant-free; PVRV uses aluminum phosphate adjuvant in some formulations.</li>
+          <li><strong>VNA production:</strong> After IM injection, inactivated virions are phagocytosed by APCs → CD4⁺ T-cell priming → B-cell activation → VNA (predominantly anti-G-protein IgG) detectable by Day 7–14; peak titer by Day 28–35.</li>
+          <li><strong>PEP window:</strong> The critical principle is that rabies virus travels centripetally along axons at ~50–100 mm/day. This slow transport gives a window (hours to days) in which RIG (passive) plus vaccine (active) can generate neutralizing antibody before the virus crosses into the CNS — after which clinical rabies is uniformly fatal.</li>
+        </ol>
+      </div>
 
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="rabies-virus.html" title="Neutralizing antibodies (≥0.5 IU/mL) block viral attachment to nAChR and p75NTR; PEP interrupts retrograde axonal transport before virus reaches CNS. No effective treatment once encephalitis begins."><span class="rel">prevents</span>Rabies Virus</a>
-            <a class="conn-pill" href="nervous-system.html" title="Rabies virus invades via peripheral nerves and ascends to the CNS at ~12–24 mm/day. PEP must precede neuroinvasion; once the virus enters the spinal cord and brainstem, the vaccine is ineffective."><span class="rel">protects</span>Nervous System</a>
-            <a class="conn-pill" href="b-cell.html" title="B cells produce virus-neutralizing IgG targeting the rabies glycoprotein G; titer ≥0.5 IU/mL (WHO threshold) correlates with protection. Memory B-cell responses allow rapid anamnestic rise on booster or re-exposure."><span class="rel">elicits</span>B Cell</a>
-            <a class="conn-pill" href="dendritic-cell.html" title="Inactivated virus particles are processed by dendritic cells at the injection site; antigen presentation via MHC II drives CD4+ T-helper priming and supports germinal centre B-cell responses for high-affinity IgG."><span class="rel">elicits</span>Dendritic Cell</a>
+      <!-- IMMUNOGENICITY -->
+      <div class="detail-section">
+        <h3>Immunogenicity</h3>
+        <div class="pleiotropic-grid">
+          <div class="pleio-item">
+            <h4>Humoral Response</h4>
+            <p>Anti-G-protein IgG (VNA) is the dominant protective response. VNA ≥0.5 IU/mL (RFFIT/FAVN) achieved in &gt;99% of immunocompetent adults after 3-dose PrEP or completed PEP series. Titers peak at Day 28–35 post-series initiation and may persist ≥2 years. Memory B cells allow rapid booster anamnestic responses in previously vaccinated individuals exposed again (only 2 doses needed, no RIG).</p>
+          </div>
+          <div class="pleio-item">
+            <h4>CD4⁺ / CD8⁺ T-Cell Response</h4>
+            <p>Th1-skewed CD4⁺ T-cell responses (IFN-γ, IL-2) against rabies nucleoprotein (N) and glycoprotein (G) epitopes contribute to long-term memory. CD8⁺ cytotoxic T cells play a secondary role; their importance is emphasized in murine models. T-cell memory provides the cellular basis for rapid VNA anamnestic response upon booster or re-exposure.</p>
+          </div>
+          <div class="pleio-item">
+            <h4>Innate Activation</h4>
+            <p>Inactivated whole-virion preparations activate pattern recognition receptors including TLR7/8 (single-stranded viral RNA remnants) and TLR2/4, triggering modest innate activation (IL-6, TNF-α, type-I IFN). Alum adjuvant (PVRV) provides additional depot effect and NLRP3 inflammasome activation. Overall reactogenicity is lower than live vaccines.</p>
+          </div>
+          <div class="pleio-item">
+            <h4>Duration / Durability</h4>
+            <p>VNA titers wane over years; however, immunological memory is robust. WHO previously recommended 10-year PrEP boosters for ongoing-risk occupations; 2018 position paper deferred serological booster decision to national programs. Travelers with completed PrEP series can receive 2-dose simplified PEP without RIG, even years later, due to memory B-cell persistence. Immunosuppressed individuals may require serological monitoring.</p>
           </div>
         </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://doi.org/10.1016/S0140-6736(13)62707-5" target="_blank" rel="noopener noreferrer">Fooks AR, Banyard AC, Horton DL, et al. Current status of rabies and prospects for elimination. Lancet. 2014;384(9951):1389-1399.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25078306/" target="_blank" rel="noopener noreferrer">PubMed 25078306</a></li>
-            <li><a href="https://www.who.int/publications/i/item/who-wer9316" target="_blank" rel="noopener noreferrer">World Health Organization. Rabies vaccines: WHO position paper – April 2018. Wkly Epidemiol Rec. 2018;93(16):201-220.</a></li>
-            <li><a href="https://doi.org/10.1371/journal.pntd.0003709" target="_blank" rel="noopener noreferrer">Hampson K, Coudeville L, Lembo T, et al. Estimating the global burden of endemic canine rabies. PLoS Negl Trop Dis. 2015;9(4):e0003709.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25881058/" target="_blank" rel="noopener noreferrer">PubMed 25881058</a></li>
-            <li><a href="https://doi.org/10.1093/clinids/22.2.228" target="_blank" rel="noopener noreferrer">Wilde H, Sirikawin S, Sabcharoen A, et al. Failure of postexposure treatment of rabies in children. Clin Infect Dis. 1996;22(2):228-232.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8838177/" target="_blank" rel="noopener noreferrer">PubMed 8838177</a></li>
-          </ul>
-        </div>
-
       </div>
-    </div>
-  </main>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+      <!-- CLINICAL EFFICACY -->
+      <div class="detail-section">
+        <h3>Clinical Efficacy</h3>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Context / Study</th>
+              <th>Design</th>
+              <th>n / Exposure</th>
+              <th>Primary Endpoint</th>
+              <th>Outcome</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PEP — Essen regimen (historic)</td>
+              <td>Observational; WHO-standardized protocol (Day 0/3/7/14/28, IM + RIG Day 0)</td>
+              <td>Thousands of bite-exposed cases globally</td>
+              <td>Survival after confirmed rabid animal exposure</td>
+              <td><span class="trial-result">~100%</span> when initiated promptly and correctly (Rupprecht 2010)</td>
+            </tr>
+            <tr>
+              <td>PrEP — Controlled efficacy (Wiktor 1980)</td>
+              <td>Seroconversion study; HDCV 3-dose IM primary series</td>
+              <td>~100 healthy adults</td>
+              <td>VNA ≥0.5 IU/mL at Day 35</td>
+              <td><span class="trial-result">100%</span> seroconversion; titer mean ~11 IU/mL</td>
+            </tr>
+            <tr>
+              <td>PrEP 2-dose (WHO 2018)</td>
+              <td>Non-inferiority immunogenicity; Day 0+7 vs. Day 0+7+21</td>
+              <td>~800 participants (pooled)</td>
+              <td>VNA ≥0.5 IU/mL at Day 28</td>
+              <td><span class="trial-result">≥98%</span> seroconversion; non-inferior to 3-dose (WHO/IVB/17.01)</td>
+            </tr>
+            <tr>
+              <td>Zagreb PEP regimen</td>
+              <td>2-dose IM Day 0 (both deltoids) + 1 dose Day 7 + 1 dose Day 21; alternative to Essen</td>
+              <td>Comparative immunogenicity</td>
+              <td>VNA ≥0.5 IU/mL kinetics</td>
+              <td><span class="trial-result">Equivalent</span> immunogenicity; faster peak (Day 14 vs. 28)</td>
+            </tr>
+            <tr>
+              <td>Hampson et al. 2015 (burden)</td>
+              <td>Systematic review / global burden modeling</td>
+              <td>Global surveillance data</td>
+              <td>Annual rabies deaths globally</td>
+              <td>~59,000 deaths/year; 99% preventable with PEP access</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+      <!-- SAFETY PROFILE -->
+      <div class="detail-section">
+        <h3>Safety Profile</h3>
+        <ul class="se-list">
+          <li><span class="badge badge-hi">Rare / Serious</span> <strong>Serum sickness-like reaction (HDCV, boosters)</strong> — Immune-complex hypersensitivity (Type III) reported in ~6% of adults receiving HDCV booster doses; mediated by altered human albumin (HSA) in HDCV formulation interacting with anti-HSA antibodies from prior doses. Presents with urticaria, arthralgia, angioedema 2–21 days post-booster. Risk lower with PCECV/PVRV. Incidence after primary series &lt;0.1%.</li>
+          <li><span class="badge badge-hi">Rare / Serious</span> <strong>Anaphylaxis</strong> — Very rare; estimated ~1–3 per 100,000 doses. Requires immediate epinephrine. Do not discontinue PEP course for anaphylaxis — switch to PCECV if HDCV-mediated, continue under medical supervision.</li>
+          <li><span class="badge badge-hi">Rare / Serious</span> <strong>Neurological events (historical)</strong> — Rare Guillain-Barré-like syndrome reported with older nerve tissue vaccines (now discontinued). Not reported with modern cell-culture vaccines at significant frequency.</li>
+          <li><span class="badge badge-mod">Common</span> <strong>Injection-site pain, erythema, swelling</strong> — 30–74% of recipients; localized, self-limiting within 24–48 hours.</li>
+          <li><span class="badge badge-mod">Common</span> <strong>Systemic reactions</strong> — Headache (~5%), nausea, dizziness, abdominal pain; reported in 5–40% of recipients depending on regimen. More common with intradermal (ID) route.</li>
+          <li><span class="badge badge-lo">Uncommon</span> <strong>Fever</strong> — Low-grade (&lt;38.5 °C) in &lt;5% of recipients; self-limited. Higher rates in children.</li>
+          <li><span class="badge badge-lo">Note — RIG co-administration</span> <strong>Rabies immunoglobulin (hRIG or eRIG)</strong> — RIG (human or equine) given Day 0 at/around wound site has its own safety profile: local pain, rare serum sickness (eRIG ~0.7%). Human RIG (hRIG) preferred. Equine RIG (eRIG) requires skin testing.</li>
+        </ul>
+      </div>
+
+      <!-- ADMINISTRATION -->
+      <div class="detail-section">
+        <h3>Administration</h3>
+        <table class="detail-table">
+          <thead><tr><th>Parameter</th><th>Details</th></tr></thead>
+          <tbody>
+            <tr><td>PrEP Schedule</td><td>2-dose (WHO 2018): Day 0 and Day 7 IM (deltoid). Older 3-dose: Day 0, 7, 21 or 28. For ongoing risk, booster per national guidance or serology (VNA &lt;0.5 IU/mL triggers booster).</td></tr>
+            <tr><td>PEP — Essen</td><td>5-dose: Days 0, 3, 7, 14, 28 IM. Plus RIG (20 IU/kg hRIG or 40 IU/kg eRIG) infiltrated into and around wound Day 0. If prior vaccinated: 2-dose Day 0 + 3 (or 0 + 7), no RIG.</td></tr>
+            <tr><td>PEP — Zagreb</td><td>4-dose: Day 0 ×2 (one each deltoid), Day 7, Day 21. Plus RIG Day 0. Equivalent immunogenicity to Essen; fewer clinic visits.</td></tr>
+            <tr><td>Route</td><td>IM (deltoid); never gluteal (reduces immunogenicity). Intradermal (ID) regimens used in resource-limited settings to reduce dose/cost — WHO-approved for cell-culture vaccines.</td></tr>
+            <tr><td>Storage</td><td>2–8 °C. Do not freeze. Use reconstituted vaccine immediately (lyophilized formulations). Standard cold chain; widely available globally.</td></tr>
+            <tr><td>Wound care</td><td>Thorough wound washing with soap and water for ≥15 minutes + virucidal agent (povidone-iodine or 70% ethanol) is an independent life-saving step — reduces viral load at entry site before immune system is engaged.</td></tr>
+            <tr><td>Contraindications</td><td>PEP: NO absolute contraindications — risk of fatal rabies outweighs all risks. PrEP: history of severe hypersensitivity to vaccine components. Pregnancy is NOT a contraindication for PEP.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- CONNECTIONS -->
+      <div class="detail-section">
+        <h3>Connections</h3>
+        <div class="conn-pills">
+          <a href="immune-system.html" class="conn-pill">Immune System</a>
+          <a href="b-cell.html" class="conn-pill">B Cell</a>
+          <a href="t-helper-cell.html" class="conn-pill">T Helper Cell</a>
+          <a href="antibody.html" class="conn-pill">Antibody (IgG)</a>
+          <a href="nervous-system.html" class="conn-pill">Nervous System</a>
+          <a href="peripheral-nerve.html" class="conn-pill">Peripheral Nerve</a>
+          <a href="axonal-transport.html" class="conn-pill">Axonal Transport</a>
+          <a href="dendritic-cell.html" class="conn-pill">Dendritic Cell</a>
+          <a href="zoonosis.html" class="conn-pill">Zoonosis</a>
+          <a href="tetanus-toxoid.html" class="conn-pill">Tetanus Toxoid</a>
+        </div>
+      </div>
+
+      <!-- REFERENCES -->
+      <div class="detail-section">
+        <h3>References</h3>
+        <ul class="ref-list">
+          <li>Hampson K, et al. Estimating the Global Burden of Endemic Canine Rabies. <em>PLoS Negl Trop Dis.</em> 2015;9(4):e0003709. <a href="https://doi.org/10.1371/journal.pntd.0003709" target="_blank">doi:10.1371/journal.pntd.0003709</a></li>
+          <li>Fooks AR, et al. Current status of rabies and prospects for elimination. <em>Lancet.</em> 2014;384(9951):1389–1399. <a href="https://doi.org/10.1016/S0140-6736(13)62707-5" target="_blank">doi:10.1016/S0140-6736(13)62707-5</a></li>
+          <li>WHO. Rabies vaccines: WHO position paper. <em>Wkly Epidemiol Rec.</em> 2018;93(16):201–220. WHO/IVB/17.01. <a href="https://www.who.int/publications/i/item/who-wer9316" target="_blank">WHO WER 2018</a></li>
+          <li>Rupprecht CE, et al. Rabies re-examined. <em>Lancet Infect Dis.</em> 2002;2(6):327–343. PMID 12144896</li>
+          <li>Wiktor TJ, et al. Development and clinical trials of the new human rabies vaccine of tissue culture (human diploid cell) origin. <em>Dev Biol Stand.</em> 1978;40:3–9. PMID 357997</li>
+          <li>Shantavasinkul P, Wilde H. Failure of rabies postexposure prophylaxis in patients presenting with incubating rabies. <em>Curr Infect Dis Rep.</em> 2012;14(3):242–248. PMID 22399285</li>
+        </ul>
+      </div>
+
+    </div><!-- /detail-body -->
+  </div><!-- /detail-card -->
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <p class="footer-meta">Open source · CC BY 4.0 · <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">
+      <em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em>
+    </p>
+  </div>
+</footer>
 </body>
 </html>

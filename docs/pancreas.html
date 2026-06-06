@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dual-function (exocrine + endocrine) gland behind the stomach. Exocrine: ~1.5 L/day digestive enzyme secretion. Endocrine: islets of Langerhans — β cells secret">
+  <meta name="description" content="Dual-function gland behind the stomach. Exocrine: ~1.5 L/day enzyme-rich bicarbonate secretion. Endocrine: islets of Langerhans regulate glucose homeostasis via insulin, glucagon, and somatostatin.">
   <meta property="og:title" content="Pancreas — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Pancreas — Human Engineering</title>
@@ -13,14 +13,14 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
            background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a { color: var(--accent); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
     nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
           -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -54,9 +54,6 @@
     .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
                   letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
     .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
                    border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
                    box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
@@ -70,6 +67,8 @@
     .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
                          text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
                          padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { font-size: 0.93rem; color: var(--fg-soft); line-height: 1.7; margin-bottom: 0.85rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
     .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
                      font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
@@ -77,6 +76,32 @@
     .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
                      color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 680px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border: 1px solid var(--border-soft);
+                  border-radius: var(--radius-sm); padding: 1.1rem 1.25rem; }
+    .info-block .ib-title { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em;
+                            text-transform: uppercase; color: var(--accent); margin-bottom: 0.55rem; }
+    .info-block p, .info-block li { font-size: 0.86rem; color: var(--fg-soft); line-height: 1.6; }
+    .info-block ul { padding-left: 1.1rem; }
+    .info-block li { margin-bottom: 0.25rem; }
+    .circuit-diagram { background: #1c1c1e; border-radius: var(--radius-sm); padding: 1.2rem 1.4rem;
+                       font-family: "SF Mono", "Fira Code", "Fira Mono", monospace;
+                       font-size: 0.8rem; color: #e5e5ea; line-height: 1.7; overflow-x: auto;
+                       margin-top: 0.5rem; }
+    .circuit-diagram .step { color: #a78bfa; }
+    .circuit-diagram .arrow { color: #6ee7b7; }
+    .pathology-items { display: flex; flex-direction: column; gap: 0.75rem; }
+    .pathology-item { border-radius: var(--radius-sm); padding: 1rem 1.2rem;
+                      border-left: 3px solid; }
+    .pathology-item.danger { background: rgba(220,38,38,0.05); border-color: #dc2626; }
+    .pathology-item.warn   { background: rgba(234,179,8,0.06);  border-color: #ca8a04; }
+    .pathology-item.info   { background: rgba(124,58,237,0.05); border-color: #7c3aed; }
+    .pathology-item .pi-title { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.35rem; }
+    .pathology-item.danger .pi-title { color: #dc2626; }
+    .pathology-item.warn .pi-title { color: #92400e; }
+    .pathology-item.info .pi-title { color: #5b21b6; }
+    .pathology-item p { font-size: 0.84rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
     .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
                  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
@@ -94,7 +119,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
+    .footer-links a:hover { color: var(--accent); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -119,67 +144,187 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas One &middot; Human &middot; Scale 06 &mdash; Organ</div>
     <h1>Pancreas</h1>
-    <p class="tagline">Dual-function (exocrine + endocrine) gland behind the stomach. Exocrine: ~1.5 L/day digestive enzyme secretion. Endocrine: islets of Langerhans — β cells secrete insulin, α cells glucagon, δ cells somatostatin. Central regulator of glucose homeostasis.</p>
-    <p class="aliases">Also known as: pancreatic gland, glandula pancreatica</p>
+    <p class="tagline">Dual-function retroperitoneal gland behind the stomach. Exocrine component secretes ~1.5 L/day of enzyme-rich alkaline fluid into the duodenum. Endocrine islets of Langerhans govern glucose homeostasis through insulin, glucagon, and somatostatin.</p>
+    <p class="aliases">Also known as: pancreatic gland &middot; glandula pancreatica &middot; UBERON:0001264 &middot; FMA:7198</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~85 g</span><span class="stat-label">Mass</span></div>
+      <div class="stat"><span class="stat-num">~1 M</span><span class="stat-label">Islets (total)</span></div>
+      <div class="stat"><span class="stat-num">1.5 L/day</span><span class="stat-label">Exocrine Output</span></div>
+      <div class="stat"><span class="stat-num">12%</span><span class="stat-label">PDAC 5-yr Survival</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">pancreas</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">Atlas One &middot; Scale 06 &mdash; Organ</div>
         <h2>Pancreas</h2>
-        <p class="summary">Dual-function (exocrine + endocrine) gland behind the stomach. Exocrine: ~1.5 L/day digestive enzyme secretion. Endocrine: islets of Langerhans — β cells secrete insulin, α cells glucagon, δ cells somatostatin. Central regulator of glucose homeostasis.</p>
+        <p class="summary">The pancreas is the only gland in the body that performs both exocrine digestive secretion and endocrine blood-glucose regulation. Its exocrine acini synthesise and secrete zymogens neutralised by bicarbonate; its endocrine islets integrate nutrient, neural, and incretin signals to maintain euglycaemia.</p>
       </div>
       <div class="detail-body">
 
+        <!-- OVERVIEW -->
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The pancreas is a soft, lobulated retroperitoneal gland weighing 70–120 g, stretching from the C-loop of the duodenum to the splenic hilum. Its dual nature sets it apart from every other digestive organ: roughly 85% of its mass is exocrine acinar tissue dedicated to producing the full complement of digestive enzymes, while ~2% consists of the endocrine islets of Langerhans embedded throughout the parenchyma. The two compartments are developmentally distinct — arising from separate dorsal and ventral pancreatic buds that fuse around gestational week 7 — yet are tightly coupled in function through paracrine signalling and a unique portal microcirculation that lets islet hormones bathe acinar tissue at high local concentrations.</p>
+          <p>The exocrine pancreas is essential for digestion of all three macronutrient classes. Acinar cells synthesise and package proteases (trypsinogen, chymotrypsinogen, proelastase, procarboxypeptidases), lipases (lipase, co-lipase, phospholipase A₂), and amylase as inactive zymogens, preventing autodigestion. Ductal centroacinar cells secrete a high-volume bicarbonate-rich fluid (up to 113 mEq/L HCO₃⁻) driven by CFTR-mediated Cl⁻/HCO₃⁻ exchange, which neutralises gastric acid in the duodenum and creates the pH optimum (~pH 7–8) required for enzyme activity. Three neural-hormonal phases — cephalic (vagal ACh), gastric (gastrin, continued vagal), and intestinal (CCK, secretin) — coordinate secretory volume and enzyme composition with meal size and type.</p>
+          <p>The endocrine islets integrate multiple inputs — blood glucose, circulating amino acids, fatty acids, GIP and GLP-1 from enteroendocrine L/K cells, and autonomic innervation — to produce tightly regulated insulin and glucagon pulses. Glucose-stimulated insulin secretion (GSIS) from β cells operates through a metabolic trigger (GLUT2/glucokinase → ATP/ADP ratio) that closes KATP channels, depolarises the membrane, opens L-type Ca²⁺ channels, and triggers granule exocytosis; this pathway is the target of sulfonylureas. Glucagon from α cells rises during fasting to drive hepatic glycogenolysis and gluconeogenesis; δ-cell somatostatin provides local inhibitory feedback on both α and β cells.</p>
+        </div>
+
+        <!-- ANATOMY & STRUCTURE -->
+        <div class="detail-section">
+          <h3>Anatomy &amp; Structure</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>pancreas</td></tr>
-            <tr><td>Name</td><td>Pancreas</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>06-organ</td></tr>
-            <tr><td>Uberon</td><td>UBERON:0001264</td></tr>
-            <tr><td>Fma</td><td>FMA:7198</td></tr>
+            <thead><tr><th>Region / Component</th><th>Key Features</th></tr></thead>
+            <tbody>
+              <tr><td>Head</td><td>Nestled in the C-loop of the duodenum; contains the main pancreatic duct (Wirsung) and accessory duct (Santorini); uncinate process projects posterior to superior mesenteric vessels; head drained by pancreaticoduodenal arteries</td></tr>
+              <tr><td>Neck</td><td>Short (~2 cm) isthmus anterior to portal/SMV confluence; critical surgical landmark in pancreaticoduodenectomy (Whipple procedure)</td></tr>
+              <tr><td>Body &amp; Tail</td><td>Retroperitoneal crossing the spine at L1–L2; tail reaches the splenic hilum; tail contains highest density of islets; blood supply from splenic artery branches</td></tr>
+              <tr><td>Main Duct (Wirsung)</td><td>Runs entire length, joins common bile duct at ampulla of Vater; sphincter of Oddi regulates combined flow; normal diameter ≤3 mm; >5 mm suggests obstruction or chronic pancreatitis</td></tr>
+              <tr><td>Acinar cells</td><td>~85% of mass; pyramidal cells with basal rough ER and apical zymogen granules; secrete proteases, lipases, amylase, and nucleases as inactive zymogens; regulated by CCK (high enzyme output) and ACh</td></tr>
+              <tr><td>Centroacinar &amp; Ductal cells</td><td>Line duct lumens; express CFTR and SLC26A6 anion exchangers; secrete HCO₃⁻-rich fluid (up to 1.5 L/day total); stimulated by secretin; CFTR mutations → cystic fibrosis-related exocrine insufficiency</td></tr>
+              <tr><td>Islets of Langerhans</td><td>~1 million scattered throughout parenchyma, ~150–300 µm diameter; highest density in tail; each islet has a unique portal microcirculation — β cells in core are perfused first, then α/δ cells; paracrine insulin → α cells inhibits glucagon; paracrine somatostatin → inhibits both</td></tr>
+              <tr><td>Islet Cell Types</td><td>β cells 60–80% (insulin + C-peptide + amylin); α cells 15–20% (glucagon); δ cells 5–10% (somatostatin); PP cells (pancreatic polypeptide, head/uncinate dominant); ε cells &lt;1% (ghrelin)</td></tr>
+            </tbody>
           </table>
         </div>
 
+        <!-- FUNCTION -->
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="insulin.html" title="β cells of the islets of Langerhans synthesise insulin as preproinsulin; C-peptide cleavage produces active insulin stored in secretory granules and released by Ca²⁺-triggered exocytosis at glucose &gt;6 mmol/L."><span class="rel">contains</span>Insulin</a>
-            <a class="conn-pill" href="insulin.html" title="Pancreatic β cells synthesise and secrete insulin in response to blood glucose, amino acids, and incretins; glucose-stimulated insulin secretion is the primary mechanism of postprandial blood glucose regulation."><span class="rel">modulates</span>Insulin</a>
-            <a class="conn-pill" href="digestive-system.html" title="Exocrine pancreas secretes ~1.5 L/day of enzyme-rich bicarbonate fluid into the duodenum via the pancreatic duct; amylase, lipase, and proteases digest carbohydrates, fats, and proteins."><span class="rel">modulates</span>Digestive System</a>
-            <a class="conn-pill part" href="human-body.html" title="The pancreas is a retroperitoneal gland (~85 g) between the stomach and duodenum; it is a distinct anatomical organ connecting the gastrointestinal and endocrine systems."><span class="rel">part-of</span>Human Body</a>
+          <h3>Function</h3>
+
+          <p>The core functional outputs of the pancreas are macronutrient digestion (exocrine) and blood glucose homeostasis (endocrine). These two systems are coordinated during meals so that enzyme secretion and insulin release rise together in proportion to nutrient load.</p>
+
+          <div class="circuit-diagram">
+<span class="step">GLUCOSE-STIMULATED INSULIN SECRETION (GSIS)</span>
+<span class="arrow">Blood glucose ↑ (>5 mmol/L)</span>
+  → GLUT2 transports glucose into β cell (Km ~20 mmol/L; senses hyperglycaemia)
+  → Glucokinase (hexokinase IV) phosphorylates → glucose-6-phosphate
+  → Glycolysis + TCA → ↑ ATP/ADP ratio
+<span class="arrow">↓</span>
+  → KATP channel closes (SUR1/Kir6.2 complex)
+  → Membrane depolarisation (−70 mV → −20 mV)
+  → L-type voltage-gated Ca²⁺ channel opens
+  → [Ca²⁺]i ↑ triggers insulin granule exocytosis
+<span class="step">Amplification signals</span>
+  GLP-1/GIP → Gs → cAMP → PKA + Epac2 → augment Ca²⁺-triggered exocytosis
+  Amino acids (Arg, Leu) → depolarise β cell independently of glucose
+  Vagal ACh (M3) → Gq → IP3/DAG → PKC → further amplification
+<span class="step">Sulfonylurea target: KATP (SUR1) → forced closure → insulin release independent of glucose</span>
+          </div>
+
+          <div class="two-col" style="margin-top:1.2rem;">
+            <div class="info-block">
+              <div class="ib-title">Exocrine — Three-Phase Secretion</div>
+              <ul>
+                <li><strong>Cephalic phase (20–25%):</strong> Sight/smell/taste of food → vagal ACh → acinar enzyme output; modest bicarbonate</li>
+                <li><strong>Gastric phase (5–10%):</strong> Gastric distension + gastrin → sustained low-level secretion</li>
+                <li><strong>Intestinal phase (60–70%):</strong> Chyme enters duodenum; fatty acids + protein → CCK from I cells → high enzyme secretion; acid + fatty acids → secretin from S cells → high bicarbonate (up to 113 mEq/L); enzyme:bicarbonate ratio inversely regulated by CCK:secretin balance</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="ib-title">Zymogen Activation Cascade</div>
+              <ul>
+                <li>Zymogens secreted to prevent autodigestion: trypsinogen, chymotrypsinogen, proelastase, procarboxypeptidases</li>
+                <li><strong>Enterokinase</strong> (brush border of duodenum) cleaves trypsinogen → <strong>trypsin</strong> (master activator)</li>
+                <li>Trypsin cleaves all other zymogens: chymotrypsinogen → chymotrypsin; proelastase → elastase; procarboxypeptidases → carboxypeptidases</li>
+                <li><strong>Pancreatic trypsin inhibitor</strong> (SPINK1) provides safety valve against premature activation in acinar cells</li>
+                <li>Lipase + colipase cleave triglycerides → 2-monoglyceride + fatty acids (bile needed for emulsification)</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="ib-title">Glucagon &amp; Counter-Regulation</div>
+              <ul>
+                <li>α cells secrete glucagon when blood glucose &lt;4 mmol/L, during amino acid loads, and under sympathetic drive</li>
+                <li>Glucagon → hepatic glucagon receptor → Gs/cAMP/PKA → glycogenolysis + gluconeogenesis → hepatic glucose output</li>
+                <li>Also lipolysis in adipocytes → FFA release → ketogenesis in fasting</li>
+                <li>Paracrine inhibition: insulin (from β cells via portal circulation within islet) suppresses glucagon; loss of intra-islet insulin in T1DM → unopposed glucagon → DKA risk</li>
+                <li>δ cells secrete somatostatin (SS-14 in islets) in response to both high glucose and high glucagon → tonic brake on both α and β cell secretion</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="ib-title">Incretin Amplification</div>
+              <ul>
+                <li><strong>GLP-1</strong> (L cells, distal small bowel) and <strong>GIP</strong> (K cells, duodenum/jejunum) are released by fat/protein/glucose in the intestinal lumen</li>
+                <li>Both bind Gs-coupled receptors on β cells → ↑ cAMP → augment GSIS (incretin effect: ~50–70% of postprandial insulin response)</li>
+                <li>GLP-1 also suppresses glucagon, slows gastric emptying, and enhances satiety</li>
+                <li>GLP-1R agonists (semaglutide, liraglutide) exploit this axis; DPP-4 inhibitors prevent GLP-1/GIP degradation (t½ ~2 min endogenous)</li>
+                <li>Incretin effect is severely blunted in T2DM despite intact GIP/GLP-1 secretion — GIP receptor downregulation implicated</li>
+              </ul>
+            </div>
           </div>
         </div>
 
+        <!-- PATHOLOGY -->
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Pathology</h3>
+          <div class="pathology-items">
+
+            <div class="pathology-item danger">
+              <div class="pi-title">Pancreatic Ductal Adenocarcinoma (PDAC)</div>
+              <p>Most common pancreatic malignancy (~85% of cases); arises from ductal epithelium. Near-universal driver mutations: <em>KRAS</em> &gt;90% (G12D/G12V/G12R), <em>CDKN2A</em> ~90%, <em>TP53</em> ~70%, <em>SMAD4</em> ~55%. Characterised by dense desmoplastic stroma that excludes immune cells and impairs drug delivery. Typically presents late — jaundice (head lesion), weight loss, back pain. Median survival 6–12 months without curative resection; only ~20% are resectable at diagnosis; 5-year survival ~12% overall. Surgical option: Whipple procedure (pancreaticoduodenectomy) or distal pancreatectomy. Gemcitabine ± nab-paclitaxel or FOLFIRINOX for advanced disease.</p>
+            </div>
+
+            <div class="pathology-item danger">
+              <div class="pi-title">Type 1 Diabetes Mellitus (T1DM)</div>
+              <p>T-cell-mediated autoimmune destruction of β cells; HLA-DR3/DR4-DQ8 haplotypes confer highest risk. Autoantigens include GAD65, IA-2 (ICA512), ZnT8, and insulin. Insulitis precedes clinical onset by years; patients present with DKA or symptomatic hyperglycaemia once ~70–80% of β-cell mass is destroyed. Absolute insulin deficiency + unopposed glucagon → lipolysis → ketoacidosis. Management: multiple daily injections or continuous subcutaneous insulin infusion (CSII); closed-loop systems (artificial pancreas). Anti-CD3 (teplizumab) delays onset in high-risk first-degree relatives (stage 2 T1DM).</p>
+            </div>
+
+            <div class="pathology-item warn">
+              <div class="pi-title">Type 2 Diabetes Mellitus (T2DM)</div>
+              <p>Combination of peripheral insulin resistance (muscle, liver, adipose) and progressive β-cell loss (~40–60% reduction at diagnosis). β-cell failure is multifactorial: glucotoxicity, lipotoxicity, amyloid deposition (IAPP/amylin), endoplasmic reticulum stress, and mitochondrial dysfunction. Glucagon hypersecretion persists despite hyperglycaemia (the "missing brake"). Incretin effect is blunted. Pharmacotherapy: metformin (↓ hepatic glucose output), GLP-1 agonists (↑ insulin, ↓ glucagon, weight loss), SGLT2 inhibitors (renal glucose excretion, cardio/renoprotection), sulfonylureas/glinides (KATP closure), and ultimately insulin.</p>
+            </div>
+
+            <div class="pathology-item danger">
+              <div class="pi-title">Acute Pancreatitis</div>
+              <p>Premature intracellular activation of zymogens within acinar cells triggers autodigestion and a SIRS-like systemic inflammatory cascade. Leading causes: gallstones (40–70%, biliary obstruction at ampulla of Vater), alcohol (&gt;5 drinks/day × years, 25–35%), hypertriglyceridaemia, medications, ERCP trauma. Severity by revised Atlanta criteria: mild (no organ failure, no local complications) → moderately severe (transient organ failure &lt;48h or local complications) → severe (persistent organ failure ≥48h). Necrosis + infection (infected necrotising pancreatitis) carries 20–30% mortality. CT severity index (Balthazar/CTSI) guides management. Treatment: aggressive IV hydration, pain control, early enteral nutrition, antibiotic only for infected necrosis.</p>
+            </div>
+
+            <div class="pathology-item warn">
+              <div class="pi-title">Chronic Pancreatitis</div>
+              <p>Irreversible fibroinflammatory destruction of pancreatic parenchyma resulting in exocrine insufficiency (steatorrhoea, fat-soluble vitamin malabsorption) and endocrine insufficiency (pancreatogenic/type 3c diabetes). Alcohol + smoking is the most common aetiology; hereditary chronic pancreatitis from <em>PRSS1</em> (cationic trypsinogen), <em>SPINK1</em>, or <em>CFTR</em> mutations in younger patients. Pathognomonic: parenchymal calcifications on CT (calcium carbonate stones in ducts). Pain management is the greatest clinical challenge (central sensitisation); endoscopic/surgical drainage for large duct disease; enzyme replacement therapy (PERT) for EPI; monitoring for PDAC (10× increased lifetime risk).</p>
+            </div>
+
+            <div class="pathology-item info">
+              <div class="pi-title">Pancreatic Neuroendocrine Tumours (PNETs)</div>
+              <p>Arise from islet cells; most (~65%) are non-functional (discovered incidentally or from mass effect). Functional PNETs cause dramatic clinical syndromes: <strong>Insulinoma</strong> (most common functional PNET, ~90% benign, Whipple's triad: symptoms with glucose &lt;2.2 mmol/L, relief with glucose); <strong>Gastrinoma</strong> (Zollinger-Ellison syndrome: refractory peptic ulcers, diarrhoea; 50–60% malignant; 25% in MEN1); <strong>Glucagonoma</strong> (necrolytic migratory erythema, diabetes, hypoaminoacidaemia); <strong>VIPoma</strong> (WDHA: watery diarrhoea, hypokalaemia, achlorhydria); <strong>Somatostatinoma</strong> (diabetes, gallstones, steatorrhoea). Grade 1–3 by Ki-67; somatostatin receptor scintigraphy (Ga-68 DOTATATE PET) is the imaging modality of choice. Treatment: somatostatin analogues (octreotide/lanreotide), PRRT, everolimus/sunitinib, or surgery.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CONNECTIONS -->
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="digestive-system.html"><span class="rel">part-of</span>Digestive System</a>
+            <a class="conn-pill" href="digestive-system.html"><span class="rel">modulates</span>Duodenum</a>
+            <a class="conn-pill" href="liver.html"><span class="rel">connects-to</span>Liver</a>
+            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">connects-to</span>Cardiovascular System</a>
+            <a class="conn-pill" href="intestinal-epithelium.html"><span class="rel">connects-to</span>Intestinal Epithelium</a>
+            <a class="conn-pill part" href="insulin.html"><span class="rel">contains</span>Insulin (&#946; cells)</a>
+            <a class="conn-pill" href="insulin.html"><span class="rel">modulates</span>Blood Glucose</a>
+            <a class="conn-pill" href="immune-system.html"><span class="rel">modulated-by</span>Immune System (T1DM)</a>
+            <a class="conn-pill damaged" href="renal-system.html"><span class="rel">damages</span>Renal System (diabetic nephropathy)</a>
+            <a class="conn-pill" href="medicine.html"><span class="rel">treated-by</span>GLP-1 Agonists</a>
+            <a class="conn-pill" href="medicine.html"><span class="rel">treated-by</span>Insulin Therapy</a>
+            <a class="conn-pill" href="medicine.html"><span class="rel">treated-by</span>SGLT2 Inhibitors</a>
+          </div>
+        </div>
+
+        <!-- REFERENCES -->
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 66.</a></li>
-            <li><a href="https://doi.org/10.1146/annurev-physiol-030212-183754" target="_blank" rel="noopener noreferrer">Rorsman P, Braun M. Regulation of insulin secretion in human pancreatic islets. Annu Rev Physiol. 2013;75:155-179.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22974438/" target="_blank" rel="noopener noreferrer">PubMed 22974438</a></li>
-            <li><a href="https://doi.org/10.1111/j.1463-1326.2008.00969.x" target="_blank" rel="noopener noreferrer">Rahier J, Guiot Y, Goebbels RM, Sempoux C, Henquin JC. Pancreatic beta-cell mass in European subjects with type 2 diabetes. Diabetes Obes Metab. 2008;10 Suppl 4:32-42.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18834431/" target="_blank" rel="noopener noreferrer">PubMed 18834431</a></li>
-            <li><a href="https://doi.org/10.3998/panc.2014.3" target="_blank" rel="noopener noreferrer">Longnecker DS. Anatomy and histology of the pancreas. Pancreapedia: The Exocrine Pancreas Knowledge Base. 2014.</a></li>
-            <li><a href="https://doi.org/10.14740/wjon1166" target="_blank" rel="noopener noreferrer">Rawla P, Sunkara T, Gaduputi V. Epidemiology of pancreatic cancer: global trends, etiology and risk factors. World J Oncol. 2019;10(1):10-27.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30834048/" target="_blank" rel="noopener noreferrer">PubMed 30834048</a></li>
-            <li><a href="https://doi.org/10.1016/S0140-6736(13)60591-7" target="_blank" rel="noopener noreferrer">Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. Lancet. 2014;383(9911):69-82.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23890997/" target="_blank" rel="noopener noreferrer">PubMed 23890997</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 66 — Secretory Functions of the Alimentary Tract.</a></li>
+            <li><a href="https://doi.org/10.1146/annurev-physiol-030212-183754" target="_blank" rel="noopener noreferrer">Rorsman P, Braun M. Regulation of insulin secretion in human pancreatic islets. Annu Rev Physiol. 2013;75:155–179.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22974438/" target="_blank" rel="noopener noreferrer">PubMed 22974438</a></li>
+            <li><a href="https://doi.org/10.1111/j.1463-1326.2008.00969.x" target="_blank" rel="noopener noreferrer">Rahier J, et al. Pancreatic beta-cell mass in European subjects with type 2 diabetes. Diabetes Obes Metab. 2008;10 Suppl 4:32–42.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18834431/" target="_blank" rel="noopener noreferrer">PubMed 18834431</a></li>
+            <li><a href="https://doi.org/10.3998/panc.2014.3" target="_blank" rel="noopener noreferrer">Longnecker DS. Anatomy and histology of the pancreas. Pancreapedia: Exocrine Pancreas Knowledge Base. 2014.</a></li>
+            <li><a href="https://doi.org/10.14740/wjon1166" target="_blank" rel="noopener noreferrer">Rawla P, Sunkara T, Gaduputi V. Epidemiology of pancreatic cancer: global trends, etiology and risk factors. World J Oncol. 2019;10(1):10–27.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30834048/" target="_blank" rel="noopener noreferrer">PubMed 30834048</a></li>
+            <li><a href="https://doi.org/10.1016/S0140-6736(13)60591-7" target="_blank" rel="noopener noreferrer">Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. Lancet. 2014;383(9911):69–82.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23890997/" target="_blank" rel="noopener noreferrer">PubMed 23890997</a></li>
           </ul>
         </div>
 
@@ -195,8 +340,8 @@
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem; font-style:italic;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>

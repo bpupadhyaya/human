@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="17 kDa TNF-superfamily homotrimer. Produced by macrophages/monocytes; signals via TNFR1/TNFR2 → NF-κB, MAPK, apoptosis. Master proximal alarm cytokine; drives s">
-  <meta property="og:title" content="TNF-α (Tumor Necrosis Factor-alpha) — Human Engineering">
+  <meta name="description" content="TNF-α (Tumor Necrosis Factor-alpha) — 17 kDa homotrimer, TNFR1/TNFR2 signalling, NF-κB/MAPK/apoptosis/necroptosis pathways, septic shock, RA, Crohn's, anti-TNF biologics (adalimumab, infliximab, etanercept). Part of the Human Engineering project.">
+  <meta property="og:title" content="TNF-α — Molecular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>TNF-α (Tumor Necrosis Factor-alpha) — Human Engineering</title>
+  <title>TNF-&alpha; — Molecular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,50 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(159,18,57,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #9f1239, #4c0519); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .principle-box { background: rgba(159,18,57,0.06); border: 1px solid rgba(159,18,57,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -108,6 +98,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,66 +110,194 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
-    <h1>TNF-α (Tumor Necrosis Factor-alpha)</h1>
-    <p class="tagline">17 kDa TNF-superfamily homotrimer. Produced by macrophages/monocytes; signals via TNFR1/TNFR2 → NF-κB, MAPK, apoptosis. Master proximal alarm cytokine; drives septic shock, cytokine storm, RA, Crohn's. Targeted by adalimumab, infliximab, etanercept — best-selling biologic class.</p>
-    <p class="aliases">Also known as: TNF-alpha, TNF-α, tumor necrosis factor, TNF, cachectin, DIF, TNFSF2</p>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
+    <h1>TNF-&alpha;</h1>
+    <p class="tagline">The proximal alarm cytokine &mdash; a 17 kDa TNF-superfamily homotrimer produced by activated macrophages within minutes of TLR activation, orchestrating NF-&#x3ba;B-driven inflammation, MAPK/AP-1 cytokine amplification, death-receptor apoptosis, and necroptosis through its two receptors TNFR1 and TNFR2.</p>
+    <p class="subtagline">Originally named &ldquo;cachectin&rdquo; for inducing cancer wasting, then &ldquo;tumor necrosis factor&rdquo; for causing tumour haemorrhagic necrosis, TNF-&alpha; was cloned in 1984 by Pennica and colleagues at Genentech. It remains the molecular target of the best-selling biologic drug class in history &mdash; anti-TNF monoclonal antibodies (adalimumab, infliximab, certolizumab, golimumab) and etanercept &mdash; with combined annual sales exceeding $30 billion for RA, AS, psoriatic arthritis, and IBD.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">17 kDa</span><span class="stat-label">Soluble monomer</span></div>
+      <div class="stat"><span class="stat-num">Homotrimer</span><span class="stat-label">Bioactive unit</span></div>
+      <div class="stat"><span class="stat-num">P01375</span><span class="stat-label">UniProt ID</span></div>
+      <div class="stat"><span class="stat-num">TNF</span><span class="stat-label">Gene (chr 6p21.33)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">tnf-alpha</div>
-        <h2>TNF-α (Tumor Necrosis Factor-alpha)</h2>
-        <p class="summary">17 kDa TNF-superfamily homotrimer. Produced by macrophages/monocytes; signals via TNFR1/TNFR2 → NF-κB, MAPK, apoptosis. Master proximal alarm cytokine; drives septic shock, cytokine storm, RA, Crohn's. Targeted by adalimumab, infliximab, etanercept — best-selling biologic class.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Cytokine / TNF Superfamily</div>
+        <h2>TNF-&alpha; (Tumor Necrosis Factor-alpha)</h2>
+        <div class="drug-class">Class: Type II transmembrane cytokine &nbsp;&middot;&nbsp; TNF superfamily member (TNFSF2) &nbsp;|&nbsp; Gene: TNF (chr 6p21.33, MHC class III region) &nbsp;|&nbsp; UniProt: P01375 &nbsp;|&nbsp; MW: 17 kDa (soluble monomer)</div>
+        <p class="summary">TNF-&alpha; is the founding member of the 27-member TNF superfamily and one of the master proximal alarm cytokines of the innate immune system. Synthesised as a 26 kDa type II transmembrane precursor (tmTNF), it is cleaved by ADAM17 (TACE) to release the soluble 17 kDa form that assembles into non-covalent homotrimers &mdash; the bioactive species. Both soluble and membrane-bound forms are biologically active. TNF-&alpha; signals through two distinct receptors: TNFR1 (ubiquitously expressed, death domain-containing, mediates NF-&#x3ba;B activation and apoptosis/necroptosis) and TNFR2 (predominantly immune cells, no death domain, pro-survival/proliferative). The canonical downstream consequence is NF-&#x3ba;B activation driving inflammatory cytokines, adhesion molecules, and anti-apoptotic genes &mdash; but under certain conditions (sustained high TNF, caspase-8 inhibition) TNFR1 signals instead drive apoptosis or necroptosis. Understanding when TNF promotes survival vs. death is central to inflammation biology and therapeutic targeting.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">TNF-&alpha;</span>
+          <span class="alias-pill">cachectin</span>
+          <span class="alias-pill">TNFSF2</span>
+          <span class="alias-pill">DIF (differentiation-inducing factor)</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>Tumor necrosis factor-alpha was first described as &ldquo;cachectin&rdquo; &mdash; a serum factor from endotoxin-treated animals that caused cancer wasting &mdash; and independently as the factor causing haemorrhagic tumour necrosis. These were unified by Beutler, Cerami, and colleagues in the early 1980s, and the cDNA was cloned in 1984 by Pennica and colleagues at Genentech and independently by Aggarwal et al. The protein was found to be identical to cachectin, resolving the nomenclature. Early work by Tracey, Fong, and colleagues using anti-TNF monoclonal antibodies in baboon models of bacterial sepsis demonstrated that blocking TNF dramatically prevented septic shock &mdash; providing proof-of-concept for therapeutic TNF neutralisation that would eventually lead to the development of the anti-TNF biologic class.</p>
+          <p>The subsequent development of anti-TNF biologics represents one of the most transformative therapeutic advances in medicine. Marc Feldmann and Ravinder Maini at the Kennedy Institute recognised that TNF-&alpha; drove the synovitis of rheumatoid arthritis, leading to clinical trials of infliximab (chimeric anti-TNF antibody) that demonstrated dramatic clinical remission &mdash; earning Feldmann, Maini, and Beutler the Lasker Clinical Medical Research Award (2003) and Beutler a share of the Nobel Prize in Physiology or Medicine (2011, for TLR biology discoveries). Today, anti-TNF biologics (adalimumab, infliximab, etanercept, certolizumab, golimumab) are the world&rsquo;s best-selling drug class by revenue.</p>
+          <p>TNF-&alpha; is produced within 15&#x2013;30 minutes of macrophage TLR4 activation by LPS &mdash; far faster than most cytokines, reflecting that macrophages store pre-formed tmTNF mRNA and protein and rapidly release it upon innate receptor activation. This speed makes TNF an early-response amplification factor: a small number of tissue-resident macrophages detecting a pathogen rapidly secrete enough TNF to activate endothelium (VCAM-1/ICAM-1 upregulation), recruit circulating leukocytes, induce fever via hypothalamic prostaglandin E&#x2082; production, and stimulate the liver acute-phase response via secondary IL-6 induction.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>tnf-alpha</td></tr>
-            <tr><td>Name</td><td>TNF-α (Tumor Necrosis Factor-alpha)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>03-molecular</td></tr>
-            <tr><td>Gene Symbol</td><td>TNF</td></tr>
-            <tr><td>Chromosome</td><td>6p21.33</td></tr>
-            <tr><td>Uniprot</td><td>P01375</td></tr>
+            <tr><th>Feature</th><th>Detail</th></tr>
+            <tr><td><strong>Precursor (tmTNF)</strong></td><td>233 aa; type II transmembrane topology (N-terminus intracellular, C-terminus extracellular); N-terminal cytoplasmic domain (1&#x2013;39), transmembrane helix (40&#x2013;57), 157-aa ectodomain</td></tr>
+            <tr><td><strong>ADAM17 (TACE) cleavage</strong></td><td>ADAM17 cleaves the ectodomain at Ala76&#x2013;Val77; releases soluble 17 kDa monomer; ADAM17 activity regulated by PMA, LPS, and protein kinase activation; tmTNF also biologically active (juxtacrine signalling)</td></tr>
+            <tr><td><strong>Soluble homotrimer</strong></td><td>Three 17 kDa monomers associate non-covalently around a 3-fold symmetry axis; cone-shaped trimer; each protomer adopts a 10-stranded antiparallel &beta;-jelly-roll fold; three receptor-binding grooves at the trimer base (between protomers); single disulfide Cys-69/Cys-101 stabilises each protomer</td></tr>
+            <tr><td><strong>TNFR1 (p55, CD120a)</strong></td><td>Ubiquitously expressed; intracellular death domain (DD); binds soluble and tmTNF; primary mediator of inflammatory and cell-death signalling; SODD (silencer of death domain) prevents constitutive signalling in unstimulated cells</td></tr>
+            <tr><td><strong>TNFR2 (p75, CD120b)</strong></td><td>Predominantly on immune cells, endothelial cells, neurons; no death domain; preferentially activated by tmTNF (higher binding affinity); signals via TRAF1/2 &#x2192; PI3K/Akt (survival) and non-canonical NF-&#x3ba;B (RelB/p52); Treg expansion; NK cell activation</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="immune-system.html" title="TNF-α is the canonical product of activated macrophages and monocytes within the immune system; it is released within minutes of pattern-recognition receptor activation (TLRs, NLRs) and serves as the proximal alarm signal of systemic inflammation."><span class="rel">expressed-by</span>Immune System</a>
-            <a class="conn-pill" href="il-6.html" title="TNF-α is a potent inducer of IL-6 transcription via NF-κB binding to the IL-6 promoter; TNF and IL-6 act synergistically in driving the acute-phase response and cytokine storm in sepsis and severe viral infections."><span class="rel">modulates</span>Il 6</a>
-            <a class="conn-pill damaged" href="hepatocyte.html" title="High-concentration TNF-α causes hepatocyte apoptosis via TNFR1-caspase-8-caspase-3 cascade; contributes to hepatic dysfunction in septic shock, DILI (drug-induced liver injury), and alcoholic hepatitis."><span class="rel">damages</span>Hepatocyte</a>
-            <a class="conn-pill damaged" href="liver.html" title="TNF-α-mediated hepatocyte apoptosis and inflammatory signaling cause liver injury in septic shock, alcoholic hepatitis, and autoimmune hepatitis; the liver is a primary organ target of systemic TNF-α excess."><span class="rel">damages</span>Liver</a>
+          <h3>Mechanism of Action &mdash; TNFR1 Signalling Bifurcation</h3>
+          <div class="pathway-block">
+<pre>
+  TNF-α homotrimer binds TNFR1 (p55) → TNFR1 trimerization/clustering
+  → SODD displacement → intracellular TRADD (TNFR1-associated death domain) recruited
+       │
+       ├── COMPLEX I (at plasma membrane — pro-survival):
+       │     TRADD → TRAF2/5 + RIP1 (K63-ubiquitylated by cIAP1/2 + LUBAC)
+       │     → NEMO/IKK recruitment → IKKβ activation → IκBα phosphorylation
+       │     → NF-κB nuclear translocation → BCL-2, XIAP, c-FLIP, IL-6, IL-8
+       │     → simultaneously: TRAF2 → ASK1 → MKK4/7 → JNK/p38
+       │       → AP-1 (c-Fos/c-Jun) → additional cytokine transcription
+       │
+       │  [if NF-κB activation is sufficient → survival; Complex II formation blocked]
+       │  [if NF-κB fails or cIAP1/2 depleted → Complex II forms]
+       │
+       ├── COMPLEX II / Ripoptosome (cytoplasmic — APOPTOSIS):
+       │     TRADD/RIP1 + FADD + caspase-8 (+ c-FLIP) → activated caspase-8
+       │     → caspase-3/7 activation → APOPTOSIS
+       │     [c-FLIP inhibits caspase-8; ratio of c-FLIP : caspase-8 determines fate]
+       │
+       └── COMPLEX III / Necrosome (when caspase-8 is blocked — NECROPTOSIS):
+             If caspase-8 inhibited (e.g., viral CrmA, FLIP overexpression):
+             RIP1 + RIP3 form amyloid-like necrosome
+             → RIP3 phosphorylates MLKL → MLKL oligomerizes
+             → plasma membrane rupture → NECROPTOSIS (inflammatory cell death)
+             → DAMPs released (ATP, HMGB1, mtDNA)
+
+  TNFR2 (p75) SIGNALLING (parallel):
+  tmTNF binds TNFR2 → TRAF1/2 recruitment → cIAP1/2 depletion (from TNFR1)
+  → PI3K/Akt → cell survival and proliferation
+  → non-canonical NF-κB (NIK/IKKα → p52/RelB) → lymphoid biology
+  → Treg expansion (important in tumour immunosuppression)
+</pre>
+          </div>
+          <ul class="step-list" style="margin-top:1rem;">
+            <li><strong>Complex I vs. Complex II &mdash; the survival/death switch:</strong> Whether TNFR1 signals to NF-&#x3ba;B survival or caspase-8 apoptosis is determined by the abundance and activity of cIAP1/2 (E3 ubiquitin ligases for RIP1), NF-&#x3ba;B-induced c-FLIP (caspase-8 inhibitory decoy protease), and the kinetics of Complex I to II transition. Smac mimetics (XIAP and cIAP antagonists) shift the balance toward Complex II apoptosis and are being investigated as cancer therapeutics.</li>
+            <li><strong>Necroptosis:</strong> When caspase-8 is blocked (by viral inhibitors like CrmA, or by pharmacological caspase inhibitors), RIP1 and RIP3 form an amyloid-like necrosome complex. RIP3 phosphorylates MLKL at Thr357/Ser358; phospho-MLKL oligomerises and inserts into the plasma membrane, causing rupture and inflammatory cell death with DAMP release. Necroptosis is a defence mechanism against viruses that inhibit apoptosis; pathologically it drives inflammatory tissue injury in ischemia-reperfusion and IBD.</li>
+            <li><strong>TNF-&alpha; positive feedback loop:</strong> TNF-&alpha; activates NF-&#x3ba;B, which induces further TNF-&alpha; transcription (NF-&#x3ba;B binds two &#x3ba;B sites in the TNF promoter). TNF-&alpha; also induces IL-6 (which amplifies the acute-phase response and activates STAT3), IL-8 (neutrophil recruitment), and endothelial adhesion molecules. This positive-feedback architecture explains why TNF-driven inflammation is self-amplifying and why early intervention with anti-TNF biologics is so effective in diseases like RA.</li>
+            <li><strong>Granuloma formation and TB reactivation risk:</strong> TNF-&alpha; is essential for macrophage activation and granuloma formation in mycobacterial infection. Granulomas in TB require continuous TNF-&alpha; signalling to maintain the containment structure &mdash; anti-TNF therapy disrupts this, explaining the ~25-fold increase in TB reactivation risk in anti-TNF recipients. Infliximab (binds transmembrane TNF, inducing granuloma macrophage apoptosis) carries higher TB risk than etanercept (soluble receptor fusion, does not bind tmTNF efficiently).</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Physiological Roles</h3>
+          <table class="data-table">
+            <tr><th>Tissue / Cell Type</th><th>Role</th><th>Effect</th></tr>
+            <tr><td><strong>Macrophage / monocyte</strong></td><td>Primary source of TNF-&alpha;; TLR4/LPS &#x2192; NF-&#x3ba;B/AP-1 &#x2192; TNF gene transcription within 15&#x2013;30 min</td><td>Initiates systemic inflammatory alarm; amplifies innate immune activation; drives M1 polarisation; autocrine TNFR1 signalling sustains macrophage activation</td></tr>
+            <tr><td><strong>Endothelium</strong></td><td>TNFR1 on endothelial cells &#x2192; NF-&#x3ba;B &#x2192; VCAM-1, ICAM-1, E-selectin &uarr;; also: COX-2 (prostaglandin E&#x2082; &#x2192; fever)</td><td>Leukocyte adhesion and transmigration (rolling via E-selectin, firm adhesion via ICAM-1/VCAM-1); endothelial activation is the molecular basis of local inflammatory oedema and heat; sustained activation promotes atherosclerosis</td></tr>
+            <tr><td><strong>Hypothalamus</strong></td><td>TNF-&alpha; stimulates cyclooxygenase-2 (COX-2) in hypothalamic endothelium &#x2192; prostaglandin E&#x2082; &#x2192; EP3 receptor on thermoregulatory neurons</td><td>Fever generation (via PGE&#x2082;-mediated resetting of hypothalamic thermostat); inhibited by NSAIDs and corticosteroids (anti-pyretic mechanism)</td></tr>
+            <tr><td><strong>Liver / hepatocyte</strong></td><td>TNF-&alpha; &#x2192; NF-&#x3ba;B &#x2192; survival genes in low doses; high-dose TNF (septic shock) &#x2192; TNFR1-caspase-8-caspase-3 &#x2192; hepatocyte apoptosis</td><td>Dose-dependent: physiological TNF promotes hepatocyte survival and drives acute-phase response (via secondary IL-6); supraphysiological TNF (septic shock) causes liver injury</td></tr>
+            <tr><td><strong>Adipose tissue</strong></td><td>TNF-&alpha; acts on adipocytes &#x2192; activates hormone-sensitive lipase (HSL) &#x2192; lipolysis; suppresses lipoprotein lipase (LPL)</td><td>Cancer cachexia: elevated TNF (from tumour macrophages) causes progressive fat mobilisation and muscle wasting; also contributes to insulin resistance in obesity (TNF from visceral adipose macrophages impairs insulin signalling)</td></tr>
+            <tr><td><strong>Immune cell communication</strong></td><td>Paracrine and endocrine coordination of innate response</td><td>Promotes dendritic cell maturation and antigen presentation; activates NK cells; drives Th1 polarisation; maintains granuloma integrity in mycobacterial infection; TNFR2 on Tregs promotes Treg expansion</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Disease</th><th>TNF-&alpha; Mechanism</th><th>Drug Target</th><th>Example Drug</th></tr>
+            <tr>
+              <td><strong>Rheumatoid arthritis</strong></td>
+              <td>Synovial macrophage and fibroblast TNF-&alpha; production &#x2192; NF-&#x3ba;B &#x2192; IL-6, MMP-1/3, RANKL &#x2192; pannus formation, cartilage destruction, periarticular bone erosion; TNF also drives systemic features (fatigue, anaemia of chronic disease)</td>
+              <td>TNF-&alpha; (direct neutralisation)</td>
+              <td>Adalimumab (Humira &mdash; fully human IgG1 mAb); infliximab (Remicade &mdash; chimeric); etanercept (Enbrel &mdash; p75-Fc fusion); certolizumab pegol; golimumab; all combined with methotrexate for synergy</td>
+            </tr>
+            <tr>
+              <td><strong>Crohn&rsquo;s disease</strong></td>
+              <td>Macrophage and T-cell TNF-&alpha; in transmural bowel wall inflammation &#x2192; NF-&#x3ba;B &#x2192; COX-2, IL-6, MMP-9 &#x2192; deep ulceration, fistula, stricture; additionally TNF-&alpha; drives epithelial apoptosis disrupting mucosal barrier</td>
+              <td>TNF-&alpha;; IL-12/23 (ustekinumab); integrin &alpha;4&beta;7 (vedolizumab)</td>
+              <td>Infliximab, adalimumab, certolizumab (approved anti-TNFs for Crohn&rsquo;s); ustekinumab; vedolizumab; risankizumab (anti-IL-23)</td>
+            </tr>
+            <tr>
+              <td><strong>Septic shock</strong></td>
+              <td>LPS (gram-negative bacteria) or PAMP &#x2192; TLR4 &#x2192; macrophage NF-&#x3ba;B &#x2192; massive TNF-&alpha; production &#x2192; systemic endothelial activation &#x2192; vasodilation + capillary leak + tissue factor &#x2192; DIC &#x2192; multi-organ failure; Tracey 1987 showed anti-TNF prevented septic shock in baboons</td>
+              <td>GR (dexamethasone suppresses TNF transcription); source control; vasopressors</td>
+              <td>Dexamethasone (reduces 28-day mortality in septic shock requiring vasopressors); hydrocortisone + fludrocortisone (APROCCHSS); direct anti-TNF failed clinical trials in sepsis (too late, paradoxical effects on bacterial clearance)</td>
+            </tr>
+            <tr>
+              <td><strong>Psoriasis / psoriatic arthritis</strong></td>
+              <td>Keratinocyte and dermal DC TNF-&alpha; &#x2192; keratinocyte proliferation, VEGF (angiogenesis in plaques), CXCL8 (neutrophil recruitment); synovial TNF-&alpha; in psoriatic arthritis drives joint inflammation</td>
+              <td>TNF-&alpha;; IL-23/IL-17A axis (now preferred for skin)</td>
+              <td>Adalimumab, etanercept (approved for PsA and Ps); secukinumab/ixekizumab (anti-IL-17A, superior skin response vs. anti-TNF); guselkumab/risankizumab (anti-IL-23)</td>
+            </tr>
+            <tr>
+              <td><strong>Ankylosing spondylitis (AS)</strong></td>
+              <td>TNF-&alpha; in sacroiliac joints and entheses &#x2192; NF-&#x3ba;B &#x2192; inflammation + paradoxically &uarr;Wnt signalling &#x2192; syndesmophyte (bone bridge) formation; TNF blockade controls inflammation but may not halt radiographic progression</td>
+              <td>TNF-&alpha;; IL-17A (secukinumab)</td>
+              <td>Adalimumab, infliximab, etanercept, certolizumab, golimumab (all approved for AS); secukinumab/ixekizumab (anti-IL-17A); NSAIDs remain first-line for mild disease</td>
+            </tr>
+            <tr>
+              <td><strong>Cytokine storm / COVID-19</strong></td>
+              <td>TNF-&alpha; (alongside IL-6) is markedly elevated in severe COVID-19; contributes to ARDS via endothelial injury, epithelial cell apoptosis, and coagulopathy; positive feedback with NF-&#x3ba;B amplifies cytokine storm</td>
+              <td>IL-6R (tocilizumab &mdash; more evidence); JAK1/2 (baricitinib); dexamethasone</td>
+              <td>Dexamethasone (RECOVERY trial: 36% relative reduction in 28-day mortality in ventilated patients); tocilizumab; baricitinib; TNF-&alpha; specifically has been less studied as a COVID target</td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>Anti-TNF biologics &mdash; mechanism differences and TB risk:</strong> The five approved anti-TNF agents differ mechanistically in ways that matter clinically: <strong>Adalimumab, infliximab, certolizumab, golimumab</strong> are all antibody-based and bind both soluble and transmembrane TNF (tmTNF). <strong>Etanercept</strong> is a TNFR2-Fc fusion protein that binds only soluble TNF and lymphotoxin-&alpha;, with weaker tmTNF binding. This matters for <strong>TB risk</strong>: infliximab and adalimumab (which bind tmTNF efficiently) cause macrophage apoptosis within granulomas, disrupting granuloma architecture and releasing latent TB. Etanercept carries approximately 3&#x2013;4-fold lower TB reactivation risk than infliximab. All anti-TNF therapy requires TB screening (Mantoux/IGRA) and treatment of latent TB before initiation. This is one of the best examples of mechanism-based prediction of an adverse drug effect.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Expressed by</span>
+              Immune system (macrophages, monocytes, DCs)
+            </a>
+            <a href="il-6.html" class="conn-pill acts">
+              <span class="rel">Induces</span>
+              IL-6 (NF-&#x3ba;B at IL-6 promoter)
+            </a>
+            <a href="nf-kb.html" class="conn-pill targets">
+              <span class="rel">Modulated by</span>
+              NF-&#x3ba;B (&#x3ba;B sites in TNF promoter, positive feedback)
+            </a>
+            <a href="glucocorticoid-receptor.html" class="conn-pill acts">
+              <span class="rel">Suppressed by</span>
+              Glucocorticoid receptor (GR transrepression)
+            </a>
+            <a href="#" class="conn-pill acts">
+              <span class="rel">Damages</span>
+              Hepatocyte (TNFR1-caspase cascade at high dose)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Modulated by</span>
+              Curcumin (IKK&beta; inhibition, TNF transcription &darr;)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1038/312724a0" target="_blank" rel="noopener noreferrer">Pennica D, Nedwin GE, Hayflick JS, et al. Human tumour necrosis factor: precursor structure, expression and homology to lymphotoxin. Nature. 1984;312(5996):724-9.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/6392892/" target="_blank" rel="noopener noreferrer">PubMed 6392892</a></li>
-            <li><a href="https://doi.org/10.1038/nri1184" target="_blank" rel="noopener noreferrer">Aggarwal BB. Signalling pathways of the TNF superfamily: a double-edged sword. Nat Rev Immunol. 2003;3(9):745-56.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12949498/" target="_blank" rel="noopener noreferrer">PubMed 12949498</a></li>
-            <li><a href="https://doi.org/10.1038/330662a0" target="_blank" rel="noopener noreferrer">Tracey KJ, Fong Y, Hesse DG, et al. Anti-cachectin/TNF monoclonal antibodies prevent septic shock during lethal bacteraemia. Nature. 1987;330(6149):662-4.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/3317066/" target="_blank" rel="noopener noreferrer">PubMed 3317066</a></li>
-            <li><a href="https://doi.org/10.1016/S0092-8674(00)81109-5" target="_blank" rel="noopener noreferrer">Feldmann M, Brennan FM, Maini RN. Rheumatoid arthritis. Cell. 1996;85(3):307-10.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8616886/" target="_blank" rel="noopener noreferrer">PubMed 8616886</a></li>
+            <li>Pennica D, Nedwin GE, Hayflick JS, et al. Human tumour necrosis factor: precursor structure, expression and homology to lymphotoxin. <em>Nature.</em> 1984;312(5996):724&#x2013;9. <a href="https://doi.org/10.1038/312724a0">doi:10.1038/312724a0</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/6392892/">PubMed 6392892</a></li>
+            <li>Tracey KJ, Fong Y, Hesse DG, et al. Anti-cachectin/TNF monoclonal antibodies prevent septic shock during lethal bacteraemia. <em>Nature.</em> 1987;330(6149):662&#x2013;4. <a href="https://doi.org/10.1038/330662a0">doi:10.1038/330662a0</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/3317066/">PubMed 3317066</a></li>
+            <li>Aggarwal BB. Signalling pathways of the TNF superfamily: a double-edged sword. <em>Nat Rev Immunol.</em> 2003;3(9):745&#x2013;56. <a href="https://doi.org/10.1038/nri1184">doi:10.1038/nri1184</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12949498/">PubMed 12949498</a></li>
+            <li>Feldmann M, Brennan FM, Maini RN. Rheumatoid arthritis. <em>Cell.</em> 1996;85(3):307&#x2013;10. <a href="https://doi.org/10.1016/S0092-8674(00)81109-5">doi:10.1016/S0092-8674(00)81109-5</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8616886/">PubMed 8616886</a></li>
           </ul>
         </div>
 
@@ -187,14 +306,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="il-6.html">IL-6</a>
+      <a href="nf-kb.html">NF-&#x3ba;B</a>
+      <a href="glucocorticoid-receptor.html">GR</a>
+      <a href="stat3.html">STAT3</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

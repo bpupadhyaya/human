@@ -3,93 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Reoviridae; triple-layered icosahedral dsRNA virus (11 segments). Infects villus tip enterocytes causing secretory diarrhea. Leading cause of severe diarrhea in">
-  <meta property="og:title" content="Rotavirus — Human Engineering">
+  <meta name="description" content="Rotavirus — Atlas Two Pathogen entry. Reoviridae; triple-layered dsRNA; NSP4 enterotoxin; Rotarix/RotaTeq vaccines; ORS treatment. Part of the Human Engineering project.">
+  <meta property="og:title" content="Rotavirus — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Rotavirus: triple-layered capsid, NSP4 enterotoxin, villus tip enterocyte tropism, 128,000 child deaths/year, Rotarix and RotaTeq vaccines.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Rotavirus — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c;
+      --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(159,18,57,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger { border-left-color: #dc2626; }
+    .mech-item.immune { border-left-color: var(--ai); }
+    .mech-item.latent { border-left-color: var(--accent); }
+    .mech-item.drug   { border-left-color: var(--bio); }
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,93 +112,192 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogens
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus</div>
     <h1>Rotavirus</h1>
-    <p class="tagline">Reoviridae; triple-layered icosahedral dsRNA virus (11 segments). Infects villus tip enterocytes causing secretory diarrhea. Leading cause of severe diarrhea in children &lt;5; ~128,000 deaths/year. Vaccine-preventable (Rotarix, RotaTeq).</p>
-    <p class="aliases">Also known as: RV, rotavirus A, infantile gastroenteritis virus</p>
+    <p class="tagline">The wheel-shaped killer of children. A triple-layered icosahedral dsRNA virus whose NSP4 enterotoxin triggers secretory diarrhea before a single cell is lysed — and whose global toll falls almost entirely on children under 5 in low-resource settings.</p>
+    <p class="subtagline">Rotavirus A (family <em>Reoviridae</em>) is classified by its outer capsid proteins VP7 (G-type) and VP4 (P-type). Strains G1P[8], G2P[4], G3P[8], G4P[8], and G9P[8] cause &gt;80% of disease. With vaccine introduction since 2009, annual under-5 deaths have fallen from ~500,000 to ~128,000 — but the burden in sub-Saharan Africa and South Asia remains substantial.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~128,000</span><span class="stat-label">Child deaths / year</span></div>
+      <div class="stat"><span class="stat-num">11</span><span class="stat-label">dsRNA genome segments</span></div>
+      <div class="stat"><span class="stat-num">70–75 nm</span><span class="stat-label">Triple-layered particle</span></div>
+      <div class="stat"><span class="stat-num">~10</span><span class="stat-label">HID50 (particles)</span></div>
+      <div class="stat"><span class="stat-num">85–90%</span><span class="stat-label">Rotarix efficacy (HIC)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">rotavirus</div>
-        <h2>Rotavirus</h2>
-        <p class="summary">Reoviridae; triple-layered icosahedral dsRNA virus (11 segments). Infects villus tip enterocytes causing secretory diarrhea. Leading cause of severe diarrhea in children &lt;5; ~128,000 deaths/year. Vaccine-preventable (Rotarix, RotaTeq).</p>
+    <div class="detail-card" id="rotavirus">
+      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #7f1d1d);">
+        <div class="entry-eyebrow">Reoviridae &middot; Rotavirus A &middot; dsRNA (11 segments), Non-enveloped &middot; 70–75 nm</div>
+        <h3>Rotavirus</h3>
+        <p class="summary">Non-enveloped triple-layered icosahedral virus with 11 dsRNA genome segments encoding 6 structural (VP1–VP4, VP6, VP7) and 6 non-structural (NSP1–NSP6) proteins. VP8* tip of the VP4 spike mediates HBGA/glycan attachment; VP5* drives endosomal membrane penetration. NSP4 acts as a viral enterotoxin — secreted by infected enterocytes, it elevates intracellular calcium in adjacent uninfected cells via phospholipase C-independent pathways, activating CFTR-mediated chloride secretion and producing secretory diarrhea before significant villous destruction. NSP1 broadly suppresses innate immunity by targeting IRF3, IRF5, IRF7, and &#946;-TrCP for proteasomal degradation. Vaccine-preventable: Rotarix and RotaTeq are highly effective in high-income settings.</p>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>rotavirus</td></tr>
-            <tr><td>Name</td><td>Rotavirus</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>01-viruses</td></tr>
+          <h4>Classification &amp; Structure</h4>
+          <table class="detail-table">
+            <tr><td>Family / genus</td><td>Reoviridae / Rotavirus; species A–J; Rotavirus A (RVA) causes virtually all human disease; binary classification by outer capsid serotype: VP7 G-type and VP4 P-type (e.g., G1P[8])</td></tr>
+            <tr><td>Genome</td><td>11 dsRNA segments; ~18.5 kb total; each segment encodes 1 protein except segment 11 (encodes NSP5 + NSP6 from two ORFs)</td></tr>
+            <tr><td>Outer capsid</td><td>VP7 (58 kDa glycoprotein, G-type serotype antigen) + VP4 spike (P-type; trypsin-cleaved to VP8* + VP5*); VP8* HBGA/sialoglycan binding; VP5* membrane penetration; together determine neutralization serotype</td></tr>
+            <tr><td>Middle layer</td><td>VP6 (45 kDa) — most abundant structural protein; species/group antigen (A–J); not exposed on intact virion; target of protective IgA acting within the transcytosis pathway</td></tr>
+            <tr><td>Core</td><td>VP2 (structural scaffold), VP1 (RdRp; transcribes all 11 segments simultaneously), VP3 (capping enzyme + 2'-5'-phosphodiesterase — degrades 2-5A to block RNase L)</td></tr>
+            <tr><td>NSP4 — enterotoxin</td><td>Non-structural transmembrane glycoprotein; first viral enterotoxin discovered; secreted by infected enterocytes; binds adjacent uninfected cells via integrin &#945;1&#946;1; mobilizes intracellular Ca2+ via PLC-independent pathway → activates CFTR and Ca2+-dependent Cl&#8315; channels → secretory diarrhea preceding cell death; also activates enteroendocrine cells (5-HT, substance P) via enteric nervous system → vomiting reflex via vagal afferents</td></tr>
+            <tr><td>NSP1 — IFN antagonist</td><td>RING finger domain; targets IRF3, IRF5, IRF7 (IFN transcription factors) and &#946;-TrCP (activator of NF-&#954;B and IFN-induction) for proteasomal degradation; broadly suppresses innate antiviral gene expression; strain-specific variation in potency</td></tr>
+            <tr><td>Dominant strains</td><td>G1P[8], G2P[4], G3P[8], G4P[8], G9P[8] — &gt;80% of global cases; G3P[8] increasing in prevalence post-vaccine introduction in some settings</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="small-intestine.html" title="Rotavirus infects mature villus tip enterocytes via VP4/VP7-integrin-Hsc70 interactions, causing cytoskeletal disruption, CFTR activation, and NSP4 enterotoxin-driven secretory diarrhea without mucosal destruction."><span class="rel">infects</span>Small Intestine</a>
-            <a class="conn-pill damaged" href="digestive-system.html" title="Rotavirus causes villous atrophy, impaired brush-border enzyme activity, and NSP4 enterotoxin-mediated fluid hypersecretion in the digestive system, producing watery diarrhea that rapidly causes fatal dehydration in infants."><span class="rel">damages</span>Digestive System</a>
-            <a class="conn-pill" href="rotarix.html" title="Rotarix (G1P[8] monovalent oral) and RotaTeq (G1-G4/P[8] pentavalent oral) live-attenuated vaccines prevent severe rotavirus gastroenteritis; WHO recommends inclusion in all national immunization programmes."><span class="rel">prevented-by</span>Rotarix</a>
-            <a class="conn-pill damaged" href="macrophage.html" title="Rotavirus antigens and particles detected in mesenteric-node macrophages; macrophage activation drives the systemic viremia and biliary excretion seen in immunocompromised hosts with chronic rotavirus infection."><span class="rel">damages</span>Macrophage</a>
+          <h4>Infection Mechanism</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>1 &middot; Sequential cell attachment — a multi-step process</h5>
+              <p>Rotavirus attachment to villus tip enterocytes is an ordered cascade. VP8* (tip of the VP4 spike) first engages histo-blood group antigens (HBGAs) or sialylated glycolipids on the apical surface: P[8] strains bind Lewis b/H type 1; P[4] binds Lewis x/Lewis b; P[6] binds A antigen. This HBGA interaction is followed by engagement of post-attachment co-receptors: Hsc70 (heat shock cognate 70) binds VP5*, and integrins &#945;2&#946;1, &#945;v&#946;3, and &#945;x&#946;2 mediate tight virus-cell contact and trigger endocytic uptake.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>2 &middot; Endosomal uncoating and genome delivery</h5>
+              <p>Rotavirus enters via receptor-mediated endocytosis. Endosomal calcium chelation (by NPC1L1 or other transporters) causes outer capsid disassembly — VP7 and VP4 are shed — generating a transcriptionally active double-layered particle (DLP). VP5* undergoes class II fusion protein-like conformational rearrangement to penetrate the endosomal membrane and deliver the DLP into the cytoplasm. Within the DLP, VP1 RdRp simultaneously transcribes all 11 genome segments into capped, non-polyadenylated positive-sense mRNAs. The VP3 2'-5'-PDE activity cleaves 2-5A oligoadenylates generated downstream of OAS pathway activation, blocking RNase L-mediated mRNA degradation.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>3 &middot; Replication in viroplasms and assembly</h5>
+              <p>Viral replication and assembly occur in cytoplasmic viroplasms — dense inclusions formed by NSP2 and NSP5 that concentrate VP1, VP2, VP3, and VP6 around packaging positive-sense RNA. VP1 dsRNA synthesis produces the dsRNA genome within assembling cores. New triple-layered particles bud through the endoplasmic reticulum membrane, where VP7 and VP4 are acquired from ER-resident pools. Viroplasms sequester dsRNA intermediates from cytosolic MDA5/RIG-I detection, limiting innate immune sensing during active replication.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>4 &middot; NSP4 enterotoxin — two-phase diarrhea mechanism</h5>
+              <p><strong>Phase 1 (early secretory, begins within hours):</strong> NSP4 secreted by infected enterocytes acts on adjacent uninfected cells to elevate intracellular Ca2+ via a phospholipase C-independent mechanism. Elevated Ca2+ activates CFTR and calcium-dependent Cl&#8315; channels → active chloride secretion → osmotic water efflux into gut lumen → watery diarrhea before any structural damage is visible. NSP4 simultaneously activates enteroendocrine cells to release serotonin (5-HT), activating the enteric nervous system and vagal afferents to trigger the vomiting reflex. <strong>Phase 2 (late malabsorptive, days 1–3):</strong> Villous tip cell lysis reduces SGLT1 sodium-glucose cotransporter activity and brush-border enzyme (lactase, sucrase-isomaltase) levels → osmotic diarrhea from carbohydrate malabsorption. Both phases compound to produce the profound dehydration seen in severe infant disease.</p>
+            </div>
+            <div class="mech-item latent">
+              <h5>5 &middot; Innate immune evasion — NSP1 and VP3</h5>
+              <p>NSP1 RING finger domain targets host IRF3, IRF5, and IRF7 — the primary transcription factors for IFN-&#946; and IFN-&#945;4 induction — as well as &#946;-TrCP (an E3 ligase subunit required for both IKK&#946;-activated NF-&#954;B and IFN-related signaling) for proteasomal degradation. This broadly suppresses the innate antiviral transcriptional program during early infection. VP3 possesses 2'-5'-phosphodiesterase (PDE) activity: it degrades 2-5A oligoadenylate second messengers produced by the OAS1/2/3 pathway, blocking RNase L activation and preventing the RNA degradation response to dsRNA sensing.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Host Immune Response</h4>
+          <div class="immune-tags">
+            <span class="itag innate">MDA5 / RIG-I dsRNA sensing (partially shielded by viroplasms)</span>
+            <span class="itag innate">TLR3 (dsRNA) — gut epithelial and DC activation</span>
+            <span class="itag innate">OAS/RNase L pathway (blocked by VP3 2'-5'-PDE activity)</span>
+            <span class="itag innate">IFN-&#945;/&#946; response (suppressed by NSP1 IRF3/7 degradation)</span>
+            <span class="itag innate">Macrophage activation — mesenteric lymph node antigen presentation</span>
+            <span class="itag adaptive">Fecal secretory IgA (sIgA) — primary correlate of protection against reinfection; anti-VP4 (P-type) and anti-VP7 (G-type)</span>
+            <span class="itag adaptive">Serum IgA and IgG — anti-VP4 (P-type) and anti-VP7 (G-type) neutralising antibodies</span>
+            <span class="itag adaptive">VP6-specific IgA — protects from within the epithelial transcytosis pathway (FcRn-mediated)</span>
+            <span class="itag adaptive">CD4+ T cell help for IgA class switching; CD8+ CTL role limited in primary protection</span>
+            <span class="itag depleted">Immunity serotype-specific; heterotypic cross-protection partial — reinfection with different strains possible throughout childhood</span>
+            <span class="itag depleted">Vaccine efficacy lower in LMIC settings (gut microbiota differences, co-infections, maternal antibody interference with oral vaccine take)</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Disease Spectrum</h4>
+          <table class="path-table">
+            <tr><th>Presentation</th><th>Typical Host</th><th>Key Features</th></tr>
+            <tr><td>Asymptomatic infection</td><td>Neonates; re-exposed adults</td><td>Common; neonatal P[6] strains often non-pathogenic; serological evidence of prior infection universal by age 5; remains a transmission source</td></tr>
+            <tr><td>Mild-to-moderate gastroenteritis</td><td>Children 6 months – 2 years</td><td>Watery non-bloody diarrhea 3–8 days; vomiting; low-grade fever; ORT sufficient; most common presentation in vaccinated populations</td></tr>
+            <tr><td>Severe dehydrating gastroenteritis</td><td>Children 3 months – 2 years (peak); elderly</td><td>High-volume watery diarrhea; profound isonatraemic dehydration (weight loss &gt;5%); IV fluid replacement required; most severe with primary (first) infection; accounts for virtually all rotavirus mortality</td></tr>
+            <tr><td>Chronic infection</td><td>Immunocompromised: SCID, HIV, HSCT, solid organ transplant</td><td>Persistent diarrhea weeks to months; evolving quasi-species in serial stool samples; biliary and hepatic involvement (cholestatic jaundice, transaminase elevation); potential systemic viremia detected in mesenteric macrophages</td></tr>
+            <tr><td>Extraintestinal manifestations</td><td>Rare in immunocompetent hosts</td><td>Transient afebrile seizures / "benign convulsions with mild gastroenteritis" (CwG) — self-limiting, mechanism unclear; transient hepatitis; intussusception risk marginally elevated with oral live vaccines (pre-licensure RRV-TV, not current vaccines)</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Treatment &amp; Prevention</h4>
+          <div class="mech-list">
+            <div class="mech-item drug">
+              <h5>Oral rehydration therapy (ORT) — cornerstone of treatment</h5>
+              <p>WHO/UNICEF low-osmolarity ORS (sodium 75 mmol/L, glucose 75 mmol/L, potassium 20 mmol/L, citrate 10 mmol/L; osmolarity 245 mOsm/L) exploits SGLT1 co-transporter function in crypt-derived cells that survive rotavirus infection. First-line for mild-to-moderate dehydration. Zinc supplementation (10–20 mg/day for 10–14 days) reduces disease duration and severity in low-income settings (WHO/UNICEF recommendation). IV fluids (Ringer's lactate or 0.9% saline) for severe dehydration or inability to tolerate oral intake.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>Rotarix (GSK) — monovalent oral live-attenuated vaccine</h5>
+              <p>Monovalent G1P[8] attenuated human rotavirus strain (89-12); 2-dose oral schedule at 6 and 10 weeks of age. Efficacy: ~85–90% against severe rotavirus gastroenteritis in high-income countries (HIC); ~50–65% in low-income countries (LIC). WHO-recommended for inclusion in all national immunization programmes. Dramatically reduced rotavirus hospitalisations in countries with &gt;80% coverage. No clinically meaningful intussusception risk with current formulation.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>RotaTeq (Merck) — pentavalent oral live-attenuated vaccine</h5>
+              <p>Pentavalent human-bovine reassortant vaccine (WC3 bovine backbone with human VP7 G1–G4 and VP4 P[8] genes); 3-dose oral schedule at 2, 4, and 6 months. Efficacy: ~85–98% against severe disease in HIC settings; ~39–63% in LIC. Broader genotype coverage theoretically advantageous for strain diversity but efficacy gap vs monovalent in LMIC similar.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>ROTAVAC and RotaSIIL — equity-oriented LMIC vaccines</h5>
+              <p>ROTAVAC (Bharat Biotech): monovalent 116E human-bovine reassortant neonatal strain; 3-dose oral schedule; ~55% efficacy against severe disease in India; lowest cost, locally produced, WHO-prequalified. RotaSIIL (Serum Institute of India): pentavalent bovine-human reassortant; 3-dose; ~67% efficacy; also WHO-prequalified. Both address cold-chain and cost barriers that limit Rotarix/RotaTeq reach in highest-mortality settings. No specific antiviral approved; nitazoxanide shows modest benefit in some trials but is not universally recommended.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Connections</h4>
+          <div class="connections">
+            <a class="conn-pill infects" href="index.html"><span class="rel">Infects</span>Small intestine villus tip enterocytes</a>
+            <a class="conn-pill damages" href="index.html"><span class="rel">Damages</span>Digestive system (NSP4 enterotoxin, villous atrophy)</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Innate immunity (NSP1 degrades IRF3/5/7 and &#946;-TrCP)</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Mesenteric macrophages (chronic infection, viremia)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1093/cid/civ1013" target="_blank" rel="noopener noreferrer">Tate JE, Burton AH, Boschi-Pinto C, Parashar UD. Global, regional, and national estimates of rotavirus mortality in children &lt;5 years of age, 2000-2013. Clin Infect Dis. 2016;62(Suppl 2):S96-S105.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26966244/" target="_blank" rel="noopener noreferrer">PubMed 26966244</a></li>
-            <li>Estes MK, Kapikian AZ. Rotaviruses. In: Knipe DM, Howley PM, eds. Fields Virology. 5th ed. Lippincott Williams &amp; Wilkins; 2007:1917-1974.</li>
-            <li><a href="https://doi.org/10.3201/eid0905.020562" target="_blank" rel="noopener noreferrer">Parashar UD, Johnson H, Estes MK, Gentsch JR. Global illness and deaths caused by rotavirus disease in children. Emerg Infect Dis. 2003;9(5):565-572.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12737740/" target="_blank" rel="noopener noreferrer">PubMed 12737740</a></li>
+            <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020. <a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Murray PR, Rosenthal KS, Pfaller MA. <em>Medical Microbiology.</em> 9th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Tate JE, Burton AH, Boschi-Pinto C, Parashar UD. Global, regional, and national estimates of rotavirus mortality in children &lt;5 years, 2000-2013. <em>Clin Infect Dis.</em> 2016;62(Suppl 2):S96-S105. <a href="https://doi.org/10.1093/cid/civ1013" target="_blank" rel="noopener">doi:10.1093/cid/civ1013</a> &middot; PubMed 26966244</li>
+            <li>Estes MK, Kapikian AZ. Rotaviruses. In: Knipe DM, Howley PM, eds. <em>Fields Virology.</em> 5th ed. Lippincott Williams &amp; Wilkins; 2007:1917-1974.</li>
+            <li>Parashar UD, Johnson H, Estes MK, Gentsch JR. Global illness and deaths caused by rotavirus disease in children. <em>Emerg Infect Dis.</em> 2003;9(5):565-572. <a href="https://doi.org/10.3201/eid0905.020562" target="_blank" rel="noopener">doi:10.3201/eid0905.020562</a> &middot; PubMed 12737740</li>
           </ul>
         </div>
 
       </div>
+    </div><!-- /.detail-card -->
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers rotavirus triple-layered capsid biology, NSP4 enterotoxin two-phase diarrhea mechanism, and the global vaccine landscape. Planned expansions: viroplasm liquid-liquid phase condensate biology, P-type HBGA-binding specificity variation, vaccine efficacy gap in LMIC. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Rotavirus%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
     </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

@@ -3,195 +3,175 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gram-negative encapsulated diplococcus; obligate human pathogen. Causes bacterial meningitis and fulminant septicaemia. Serogroups A/B/C/W/Y/X; LOS endotoxin dr">
-  <meta property="og:title" content="Neisseria meningitidis — Human Engineering">
+  <meta name="description" content="Neisseria meningitidis — Atlas Two Pathogen entry. Gram-negative encapsulated diplococcus, LOS endotoxin, DIC, Waterhouse-Friderichsen syndrome, meningococcal vaccines. Human Engineering project.">
+  <meta property="og:title" content="Neisseria meningitidis — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Meningococcus: encapsulated diplococcus, LOS-driven septicaemia, complement evasion, DIC, MenACWY and MenB vaccines.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Neisseria meningitidis — Human Engineering</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    :root{--bg:#f2f2f7;--bg-elev:#ffffff;--bg-soft:#e5e5ea;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:#d1d1d6;--border-soft:#e5e5ea;--bio:#059669;--eng:#2563eb;--ai:#7c3aed;--human:#d97706;--accent:#92400e;--radius-sm:10px;--radius:18px;--radius-lg:24px;--maxw:1120px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6;-webkit-font-smoothing:antialiased}a{color:var(--bio);text-decoration:none;transition:color .15s}a:hover{color:var(--human)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(242,242,247,0.85);border-bottom:1px solid var(--border-soft)}.nav-inner{max-width:var(--maxw);margin:0 auto;padding:0.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}.brand{display:flex;align-items:center;gap:0.6rem;font-weight:700;font-size:0.98rem;color:var(--fg)}.brand-mark{width:26px;height:26px;border-radius:7px;background:conic-gradient(from 140deg,var(--bio),var(--eng),var(--ai),var(--human),var(--bio));box-shadow:0 0 0 1px rgba(0,0,0,0.08),0 4px 16px rgba(5,150,105,0.2)}.nav-links{display:flex;align-items:center;gap:1.3rem;font-size:0.92rem}.nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}.nav-back{display:inline-flex;align-items:center;gap:0.4rem;color:var(--muted)}.nav-back svg{width:14px;height:14px}@media(max-width:760px){.nav-links a:not(.nav-back):not(.current){display:none}}
+    .hero{max-width:var(--maxw);margin:0 auto;padding:4rem 1.5rem 2.5rem}.hero-eyebrow{display:inline-flex;align-items:center;gap:0.5rem;padding:0.4rem 0.9rem;background:rgba(146,64,14,0.1);color:var(--accent);border-radius:999px;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1.5rem}.hero h1{font-size:clamp(2.5rem,6.5vw,4.5rem);font-weight:800;letter-spacing:-0.035em;color:var(--fg);line-height:1.04;margin-bottom:1.25rem;max-width:18ch}.hero .tagline{font-size:clamp(1.1rem,1.7vw,1.3rem);color:var(--fg-soft);max-width:720px;margin-bottom:0.85rem;font-weight:500}.hero .subtagline{font-size:1rem;color:var(--muted);max-width:720px}.stat-row{display:flex;gap:2.5rem;flex-wrap:wrap;margin-top:2.25rem;padding-top:1.5rem;border-top:1px solid var(--border-soft)}.stat{display:flex;flex-direction:column}.stat-num{font-size:1.6rem;font-weight:800;color:var(--fg);letter-spacing:-0.02em;line-height:1}.stat-label{font-size:0.82rem;color:var(--muted);margin-top:0.35rem;letter-spacing:0.04em;text-transform:uppercase;font-weight:600}
+    main{max-width:var(--maxw);margin:0 auto;padding:0 1.5rem 2rem}.detail-card{background:var(--bg-elev);border:1px solid var(--border-soft);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.5rem;box-shadow:0 4px 14px rgba(0,0,0,0.04)}.detail-header{padding:1.75rem 2rem}.detail-header .entry-eyebrow{font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:0.6rem}.detail-header h3{font-size:clamp(1.6rem,2.8vw,2.2rem);font-weight:800;color:white;letter-spacing:-0.025em;margin-bottom:0.65rem;line-height:1.1}.detail-header .summary{font-size:0.98rem;color:rgba(255,255,255,0.88);line-height:1.65;max-width:780px}.detail-body{padding:1.75rem 2rem;display:flex;flex-direction:column;gap:1.75rem}.detail-section h4{font-size:0.76rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.75rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border-soft)}
+    .detail-table{width:100%;border-collapse:collapse;font-size:0.88rem}.detail-table tr:not(:first-child) td{border-top:1px solid var(--border-soft)}.detail-table td{padding:0.55rem 0.5rem;color:var(--fg-soft);vertical-align:top;line-height:1.5}.detail-table td:first-child{font-weight:600;color:var(--fg);width:30%;padding-right:1rem;white-space:nowrap}
+    .mech-list{display:flex;flex-direction:column;gap:0.6rem}.mech-item{padding:0.9rem 1rem;background:var(--bg);border-radius:var(--radius-sm);border-left:3px solid var(--border)}.mech-item h5{font-size:0.88rem;font-weight:700;color:var(--fg);margin-bottom:0.25rem}.mech-item p{font-size:0.84rem;color:var(--muted);line-height:1.55}.mech-item.danger{border-left-color:#dc2626}.mech-item.immune{border-left-color:var(--ai)}.mech-item.latent{border-left-color:var(--accent)}.mech-item.drug{border-left-color:var(--bio)}
+    .path-table{width:100%;border-collapse:collapse;font-size:0.85rem}.path-table th{text-align:left;padding:0.45rem 0.65rem;background:var(--bg);font-weight:600;font-size:0.74rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted)}.path-table td{padding:0.5rem 0.65rem;border-top:1px solid var(--border-soft);color:var(--fg-soft);vertical-align:top;line-height:1.45}.path-table td:first-child{font-weight:600;color:var(--fg)}
+    .immune-tags{display:flex;flex-wrap:wrap;gap:0.5rem}.itag{padding:0.3rem 0.75rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.8rem;color:var(--fg-soft)}.itag.innate{border-color:var(--human);color:var(--human);background:rgba(217,119,6,0.07)}.itag.adaptive{border-color:var(--ai);color:var(--ai);background:rgba(124,58,237,0.07)}.itag.depleted{border-color:#dc2626;color:#dc2626;background:rgba(220,38,38,0.07)}
+    .connections{display:flex;flex-wrap:wrap;gap:0.6rem}.conn-pill{display:inline-flex;align-items:center;gap:0.4rem;padding:0.4rem 0.85rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.82rem;color:var(--fg-soft);transition:all .15s}.conn-pill:hover{background:var(--bg-soft);color:var(--fg)}.conn-pill .rel{font-weight:700;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;margin-right:0.1rem}.conn-pill.infects .rel{color:var(--ai)}.conn-pill.damages .rel{color:#dc2626}.conn-pill.targets .rel{color:var(--accent)}
+    .refs{list-style:none;display:flex;flex-direction:column;gap:0.5rem}.refs li{font-size:0.82rem;color:var(--muted);line-height:1.55;padding-left:1.1rem;position:relative}.refs li::before{content:'↗';position:absolute;left:0;color:var(--eng);font-size:0.75rem;top:0.08rem}.refs li a{color:var(--eng)}.refs li a:hover{color:var(--human)}
+    .contribute{margin-top:4rem;padding:2.2rem 2rem 2rem;background:var(--bg-elev);border:1px solid var(--border-soft);border-radius:var(--radius-lg);box-shadow:0 4px 14px rgba(0,0,0,0.04)}.contribute h2{font-size:clamp(1.4rem,2vw,1.65rem);font-weight:800;letter-spacing:-0.02em;margin-bottom:0.6rem;color:var(--fg)}.contribute p{color:var(--muted);max-width:720px;margin-bottom:1.5rem}.btn-row{display:flex;gap:0.6rem;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:0.45rem;padding:0.75rem 1.3rem;border-radius:999px;font-weight:700;font-size:0.92rem;border:1px solid transparent;cursor:pointer;transition:transform .15s ease,filter .15s ease,background .15s ease,color .15s ease}.btn-primary{background:linear-gradient(135deg,var(--bio),var(--eng));color:white}.btn-primary:hover{color:white;transform:translateY(-1px);filter:brightness(1.05)}.btn-ghost{background:var(--bg);color:var(--fg);border-color:var(--border)}.btn-ghost:hover{background:var(--bg-soft);color:var(--fg);transform:translateY(-1px)}.btn svg{width:16px;height:16px}
+    footer{margin-top:4rem;padding:2.5rem 1.5rem 2rem;border-top:1px solid var(--border-soft);text-align:center}.footer-tag{font-size:0.95rem;color:var(--muted);max-width:620px;margin:0 auto 1rem}.footer-links{display:flex;gap:1.25rem;justify-content:center;flex-wrap:wrap;font-size:0.88rem;margin-bottom:1rem}.footer-links a{color:var(--muted)}.footer-links a:hover{color:var(--bio)}.footer-meta{font-size:0.8rem;color:var(--muted-2)}
   </style>
 </head>
 <body>
-
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="index.html#mission">Mission</a><a href="index.html#scales">Scales</a><a href="pathogens.html">Pathogens</a><a href="medicine.html">Medicine</a><a href="index.html#join">Join</a>
+      <a href="pathogens.html" class="nav-back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>Pathogens</a>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 02-bacteria</div>
-    <h1>Neisseria meningitidis</h1>
-    <p class="tagline">Gram-negative encapsulated diplococcus; obligate human pathogen. Causes bacterial meningitis and fulminant septicaemia. Serogroups A/B/C/W/Y/X; LOS endotoxin drives DIC and Waterhouse-Friderichsen syndrome. Complement deficiency markedly increases risk.</p>
-    <p class="aliases">Also known as: N. meningitidis, meningococcus, meningococcal disease, IMD, serogroup A B C W Y X meningococcus</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">02-bacteria</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+<div class="hero">
+  <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Bacteria</div>
+  <h1>Neisseria meningitidis</h1>
+  <p class="tagline">The meningococcus: well at breakfast, dead by evening. An encapsulated Gram-negative diplococcus whose lipooligosaccharide endotoxin ignites DIC and adrenal haemorrhage with unmatched speed.</p>
+  <p class="subtagline">Obligate human commensal of the nasopharynx (~10% carriage), <em>N. meningitidis</em> breaches the blood-brain barrier to cause bacterial meningitis or fulminant septicaemia. Serogroup B polysialic acid capsule mimics host NCAM, demanding protein-antigen vaccines. Terminal complement deficiency raises susceptibility 500&ndash;2000-fold.</p>
+  <div class="stat-row">
+    <div class="stat"><span class="stat-num">5&ndash;10%</span><span class="stat-label">IMD case fatality</span></div>
+    <div class="stat"><span class="stat-num">~10%</span><span class="stat-label">Adult nasopharyngeal carriage</span></div>
+    <div class="stat"><span class="stat-num">12</span><span class="stat-label">Serogroups identified</span></div>
+    <div class="stat"><span class="stat-num">500&ndash;1000&times;</span><span class="stat-label">IMD risk with C5&ndash;C9 deficiency</span></div>
+  </div>
+</div>
+
+<main>
+  <div class="detail-card" id="neisseria-meningitidis">
+    <div class="detail-header" style="background: linear-gradient(135deg, #92400e, #78350f);">
+      <div class="entry-eyebrow">Neisseriaceae &middot; Gram-negative diplococcus &middot; Encapsulated &middot; ~0.6&ndash;1.0 &micro;m</div>
+      <h3>Neisseria meningitidis</h3>
+      <p class="summary">Gram-negative, encapsulated diplococcus; obligate human pathogen. Colonises the nasopharynx of ~10% of healthy adults asymptomatically and causes invasive meningococcal disease (IMD) in a small fraction. IMD manifests as bacterial meningitis, fulminant meningococcal septicaemia (purpuric non-blanching rash, DIC, Waterhouse-Friderichsen syndrome), or both. The polysaccharide capsule is antiphagocytic and the primary vaccine antigen for serogroups A, C, W, Y. Serogroup B capsule is polysialic acid identical to host neural cell adhesion molecule (NCAM) &mdash; intrinsically non-immunogenic &mdash; requiring the 4-component protein vaccines Bexsero and Trumenba. LOS (lipooligosaccharide) drives endotoxic shock via TLR4 &rarr; massive cytokine storm &rarr; endothelial apoptosis + DIC. Terminal complement deficiency (C5&ndash;C9) raises IMD risk 500&ndash;1000-fold; eculizumab (anti-C5) raises it 1000&ndash;2000-fold requiring mandatory MenACWY + MenB vaccination before initiation.</p>
+    </div>
+    <div class="detail-body">
+
+      <div class="detail-section">
+        <h4>Classification &amp; Structure</h4>
+        <table class="detail-table">
+          <tr><td>Gram reaction</td><td>Gram-negative diplococcus (kidney/coffee-bean shaped pairs, ~0.6&ndash;1.0 &micro;m); aerobic; oxidase-positive; fastidious (requires enriched media, 5% CO&sub;2;); Thayer-Martin selective medium for clinical specimens</td></tr>
+          <tr><td>Morphology</td><td>Non-motile; encapsulated; ferments glucose and maltose (not lactose/sucrose); distinguishes from <em>N. gonorrhoeae</em> (glucose only); oxidase-positive (all Neisseria)</td></tr>
+          <tr><td>Cell wall / Capsule</td><td>Polysaccharide capsule defines serogroup (A: N-acetyl-mannosamine-1-phosphate; B: polysialic acid = human NCAM; C: poly-&alpha;-2,9-NeuNAc; W/Y: distinct hexose-containing repeat units). LOS (lipooligosaccharide): lacks O-antigen repeat; potent TLR4 agonist; primary mediator of endotoxic shock. LOS sialylation recruits factor H &rarr; &darr;complement activation</td></tr>
+          <tr><td>Key virulence factors</td><td>Polysaccharide capsule (antiphagocytic, serum resistance); fHbp (factor H binding protein &mdash; complement evasion; MenB vaccine antigen); NadA (&beta;1-integrin binding; Bexsero antigen); NHBA (heparan sulfate binding; Bexsero antigen); PorA OMV (Bexsero antigen); IgA1 protease; Type IV pili (nasopharyngeal adhesion via CEACAM1)</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Pathogenesis</h4>
+        <div class="mech-list">
+          <div class="mech-item danger">
+            <h5>1 &middot; Nasopharyngeal colonisation</h5>
+            <p>Type IV pili bind CEACAM1 on nasopharyngeal columnar epithelial cells &rarr; initial attachment &rarr; pilus retraction (PilT ATPase) &rarr; tight microcolony formation. IgA1 protease cleaves secretory IgA1 &rarr; &darr;mucosal antibody defence. Bacteria undergo transcytosis through the mucosal epithelium into the subepithelial space, then enter the bloodstream.</p>
+          </div>
+          <div class="mech-item danger">
+            <h5>2 &middot; Bacteraemia and complement evasion</h5>
+            <p>In blood, the polysaccharide capsule prevents C3b deposition; fHbp recruits factor H &rarr; &darr;C3b opsonisation and MAC formation; LOS sialylation further recruits factor H. Terminal complement (MAC, C5b&ndash;C9) is the critical bactericidal effector: C5&ndash;C9 deficiency raises IMD risk 500&ndash;1000&times;; properdin deficiency causes fulminant meningococcaemia; eculizumab (anti-C5) raises risk 1000&ndash;2000&times; &rarr; mandatory dual vaccination before initiation.</p>
+          </div>
+          <div class="mech-item danger">
+            <h5>3 &middot; LOS-driven endotoxic shock and DIC</h5>
+            <p>LOS binds TLR4/MD-2 on monocytes, macrophages, and endothelium &rarr; MyD88/TRIF &rarr; NF-&kappa;B + IRF3 &rarr; massive TNF-&alpha;, IL-1&beta;, IL-6, IL-8, IL-12 release &rarr; endothelial apoptosis + &uarr;tissue factor expression &rarr; DIC. Purpuric rash progresses from petechiae &rarr; ecchymoses &rarr; skin confluence &rarr; gangrene requiring amputation. Waterhouse-Friderichsen syndrome (bilateral adrenal haemorrhage &rarr; acute cortisol deficiency &rarr; refractory shock) occurs in ~10% of fulminant septicaemia. LOS serum concentration correlates directly with disease severity and mortality.</p>
+          </div>
+          <div class="mech-item immune">
+            <h5>4 &middot; Meningeal seeding and CNS injury</h5>
+            <p>Bacteria adhere to blood-brain barrier (BBB) endothelium via CEACAM1, NadA, and pili &rarr; transcytosis &rarr; subarachnoid space. CSF is poor in complement, antibody, and immune cells &rarr; unrestricted replication. LOS &rarr; IL-8/CXCL8 &rarr; massive neutrophilic pleocytosis (&gt;1000 WBC/&micro;L) &rarr; &uarr;ICP &rarr; cerebral oedema &rarr; herniation (primary cause of acute death). Subarachnoid vessel vasculitis &rarr; thrombosis &rarr; brain infarcts. Cochlear blood vessel inflammation &rarr; sensorineural hearing loss in 5&ndash;10% of survivors.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>Host Immune Response</h4>
+        <div class="immune-tags">
+          <span class="itag innate">TLR4/MD-2 &rarr; NF-&kappa;B (LOS endotoxin sensing)</span>
+          <span class="itag innate">Neutrophils (complement-opsonised killing)</span>
+          <span class="itag innate">Complement MAC (C5b-C9) &mdash; primary bactericidal effector</span>
+          <span class="itag innate">Macrophages &mdash; endotoxin amplification, cytokine storm</span>
+          <span class="itag adaptive">Capsule-specific IgG (opsonisation, complement fixation)</span>
+          <span class="itag adaptive">fHbp-specific bactericidal antibodies (MenB vaccine-induced)</span>
+          <span class="itag depleted">C5&ndash;C9 / MAC deficiency: 500&ndash;1000&times; IMD risk</span>
+          <span class="itag depleted">Properdin deficiency: fulminant meningococcaemia</span>
+          <span class="itag depleted">Eculizumab/anti-C5 therapy: 1000&ndash;2000&times; IMD risk</span>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>Disease Spectrum</h4>
+        <table class="path-table">
+          <tr><th>Syndrome</th><th>Frequency</th><th>Key features</th></tr>
+          <tr><td>Meningococcal meningitis</td><td>~50% of IMD</td><td>Headache, photophobia, neck stiffness, fever; Kernig&rsquo;s/Brudzinski&rsquo;s signs; CSF turbid, WBC &gt;1000 (neutrophils), &uarr;protein, &darr;glucose; &uarr;ICP &rarr; herniation risk; do not delay treatment for LP</td></tr>
+          <tr><td>Meningococcal septicaemia</td><td>~30&ndash;40% of IMD</td><td>Purpuric/petechial non-blanching rash (pathognomonic); high fever; haemodynamic instability; DIC; MODS; Waterhouse-Friderichsen syndrome; rapidly expanding purpura is a medical emergency</td></tr>
+          <tr><td>Combined meningitis + septicaemia</td><td>~20% of IMD</td><td>Features of both; worst prognosis; highest mortality</td></tr>
+          <tr><td>Serogroup Y pneumonia</td><td>Rare</td><td>Lobar/multilobar pneumonia; elderly; consider in culture-negative pneumonia</td></tr>
+          <tr><td>Arthritis / pericarditis</td><td>Rare</td><td>Post-infectious immune-complex manifestations; generally favourable outcome with treatment</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Treatment &amp; Prophylaxis</h4>
+        <table class="detail-table">
+          <tr><td>IV ceftriaxone 2 g (adult)</td><td>GIVE IMMEDIATELY if IMD clinically suspected &mdash; before LP if not immediately available. Bactericidal; excellent CSF penetration; penicillin G alternative if susceptibility confirmed.</td></tr>
+          <tr><td>Dexamethasone</td><td>0.15 mg/kg IV before/with first antibiotic dose; reduces hearing loss in bacterial meningitis; benefit less certain specifically for meningococcal but recommended.</td></tr>
+          <tr><td>ICU support</td><td>Aggressive fluid resuscitation; vasopressors (distributive shock + adrenal insufficiency); hydrocortisone in refractory shock; limb viability monitoring and surgery for gangrenous extremities.</td></tr>
+          <tr><td>Close contact prophylaxis</td><td>Rifampicin 2 days, or ciprofloxacin single dose, or ceftriaxone IM single dose for household contacts within 24 h; eradicates nasopharyngeal carriage, preventing secondary cases.</td></tr>
+          <tr><td>MenACWY conjugate vaccine</td><td>Covers serogroups A, C, W, Y; routine at 11&ndash;12 years + booster at 16 (US); high-risk groups from &ge;2 months; near-eliminates serogroup C IMD in vaccinated populations. Mandatory before eculizumab.</td></tr>
+          <tr><td>MenB vaccines</td><td>Bexsero (4CMenB: fHbp, NHBA, NadA, PorA OMV) or Trumenba (bivalent fHbp); 16&ndash;23 years or outbreak/complement-deficient/eculizumab populations; 2&ndash;3 dose series. Mandatory before anti-C5 therapy.</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Cross-Atlas Connections</h4>
+        <div class="connections">
+          <a class="conn-pill damages" href="brain.html"><span class="rel">Damages</span>Brain (neutrophilic meningitis, &uarr;ICP, vasculitis, herniation)</a>
+          <a class="conn-pill damages" href="cardiovascular-system.html"><span class="rel">Damages</span>Cardiovascular system (DIC, purpura, Waterhouse-Friderichsen)</a>
+          <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system (complement evasion; MAC deficiency risk)</a>
+          <a class="conn-pill infects" href="immune-system.html"><span class="rel">Infects</span>Neutrophils (capsule blocks opsonophagocytosis)</a>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>References</h4>
+        <ul class="refs">
+          <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett&rsquo;s Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020.</li>
+          <li>Murray PR, Rosenthal KS, Pfaller MA. <em>Medical Microbiology.</em> 9th ed. Elsevier; 2021.</li>
+        </ul>
+      </div>
+
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="contribute">
+    <h2>Contribute to the Pathogen Atlas</h2>
+    <p>This entry covers meningococcal biology, complement evasion, and IMD management. Planned expansions: serogroup X vaccine development, genomic epidemiology of hypervirulent lineages CC11/CC32, and eculizumab-era prophylaxis data.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+        Contribute on GitHub
+      </a>
+      <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=N.meningitidis%20Atlas%20entry">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in touch
+      </a>
     </div>
+  </div>
+</main>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">neisseria-meningitidis</div>
-        <h2>Neisseria meningitidis</h2>
-        <p class="summary">Gram-negative encapsulated diplococcus; obligate human pathogen. Causes bacterial meningitis and fulminant septicaemia. Serogroups A/B/C/W/Y/X; LOS endotoxin drives DIC and Waterhouse-Friderichsen syndrome. Complement deficiency markedly increases risk.</p>
-      </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>neisseria-meningitidis</td></tr>
-            <tr><td>Name</td><td>Neisseria meningitidis</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>02-bacteria</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="neutrophil.html" title="N. meningitidis evades neutrophils via polysaccharide capsule (anti-phagocytic), fHbp (complement evasion), and IgA1 protease (↓mucosal IgA); LOS activates TLR4 → massive cytokine storm paradoxically drives endovascular damage rather than clearance."><span class="rel">infects</span>Neutrophil</a>
-            <a class="conn-pill damaged" href="brain.html" title="Meningococci seed the subarachnoid space → LOS triggers neutrophilic meningitis → ↑ICP, cerebral oedema, vasculitis, neuronal loss; herniation is the primary cause of death; hearing loss (VIII nerve) and brain infarcts are common sequelae in survivors."><span class="rel">damages</span>Brain</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="Complement deficiency (C5–C9/MAC) dramatically increases meningococcal risk; eculizumab (anti-C5) raises risk 1000–2000×→ mandatory MenACWY+MenB vaccination before anti-complement therapy; properdin deficiency → fulminant meningococcaemia."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill damaged" href="cardiovascular-system.html" title="Meningococcal septicaemia: LOS→TLR4→TNF-α storm → endothelial apoptosis + DIC → purpuric haemorrhage (petechiae→ecchymoses→gangrene); Waterhouse-Friderichsen syndrome (bilateral adrenal haemorrhage → cortisol deficiency → refractory shock)."><span class="rel">damages</span>Cardiovascular System</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<footer>
+  <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a><a href="index.html#mission">Mission</a><a href="pathogens.html">Pathogens</a><a href="medicine.html">Medicine</a><a href="immune-system.html">Immune System</a><a href="index.html#join">Join</a><a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+</footer>
 </body>
 </html>

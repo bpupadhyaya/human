@@ -3,93 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Professional phagocyte and innate immune effector. Derived from monocytes; tissue-resident forms include Kupffer cells (liver), microglia (brain), alveolar macr">
-  <meta property="og:title" content="Macrophage — Human Engineering">
+  <meta name="description" content="Macrophage — professional phagocyte, innate immune effector, M1/M2 polarisation, TLR-NF-κB signalling, Kupffer cell, microglia, tissue-resident macrophage, pathology in atherosclerosis and NASH. Part of the Human Engineering project.">
+  <meta property="og:title" content="Macrophage — Cellular Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Macrophage — Human Engineering</title>
+  <title>Macrophage — Cellular Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #b45309;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--accent); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(180,83,9,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #78350f); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .mech-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .mech-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .mech-list li::before { content: '&#9658;'; flex-shrink: 0; color: var(--accent); font-size: 0.8rem; margin-top: 0.15rem; }
+    .mech-list li strong { color: var(--fg); }
+
+    .pleio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleio-grid { grid-template-columns: 1fr; } }
+    .pleio-card { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 0.85rem 1rem; }
+    .pleio-card .pc-title { font-size: 0.8rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.35rem; }
+    .pleio-card p { font-size: 0.87rem; color: var(--fg-soft); margin: 0; line-height: 1.5; }
+
+    .principle-box { background: rgba(180,83,9,0.06); border: 1px solid rgba(180,83,9,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
+    .conn-pill.expresses .rel { color: var(--bio); }
+    .conn-pill.targets .rel { color: var(--eng); }
+    .conn-pill.partof .rel { color: var(--muted); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '&#8599;'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,6 +122,7 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -119,70 +134,271 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
     <h1>Macrophage</h1>
-    <p class="tagline">Professional phagocyte and innate immune effector. Derived from monocytes; tissue-resident forms include Kupffer cells (liver), microglia (brain), alveolar macrophages (lung). Phagocytoses pathogens and apoptotic cells; secretes IL-6, TNF-α, and ROS upon TLR/NLR activation.</p>
-    <p class="aliases">Also known as: tissue macrophage, Kupffer cell, microglia, alveolar macrophage, M1 macrophage, M2 macrophage</p>
+    <p class="tagline">Professional phagocyte and master innate immune regulator &mdash; a long-lived, tissue-resident sentinel that devours pathogens, clears apoptotic debris, and orchestrates inflammation through cytokine secretion and antigen presentation.</p>
+    <p class="subtagline">Derived from circulating monocytes or embryonic precursors, macrophages inhabit virtually every tissue. Tissue-resident forms include Kupffer cells (liver), microglia (brain), and alveolar macrophages (lung). Upon TLR or NLR activation, macrophages secrete IL-6, TNF-&alpha;, IL-1&beta;, and reactive oxygen species within minutes, linking pathogen detection directly to systemic inflammation. Their polarisation between M1 (pro-inflammatory) and M2 (tissue-repair) states underpins diverse disease processes from atherosclerosis to cancer.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">10&ndash;30 &micro;m</span><span class="stat-label">Diameter (activation-dependent)</span></div>
+      <div class="stat"><span class="stat-num">10&sup1;&sup1;</span><span class="stat-label">Macrophages in adult human body</span></div>
+      <div class="stat"><span class="stat-num">CD14&sup+ CD11b&sup+</span><span class="stat-label">Canonical surface markers</span></div>
+      <div class="stat"><span class="stat-num">weeks &ndash; years</span><span class="stat-label">Lifespan (tissue-resident)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">macrophage</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas One &middot; Cellular &middot; Innate Immune Effector / Professional Phagocyte</div>
         <h2>Macrophage</h2>
-        <p class="summary">Professional phagocyte and innate immune effector. Derived from monocytes; tissue-resident forms include Kupffer cells (liver), microglia (brain), alveolar macrophages (lung). Phagocytoses pathogens and apoptotic cells; secretes IL-6, TNF-α, and ROS upon TLR/NLR activation.</p>
+        <div class="drug-class">Lineage: Myeloid &nbsp;&middot;&nbsp; Origin: Monocyte / Embryonic yolk-sac progenitor &nbsp;|&nbsp; Scale: 04-Cellular &nbsp;|&nbsp; Phenotype: CD14&sup+ CD11b&sup+ MHC-II&sup+ (professional APC)</div>
+        <p class="summary">Macrophages are the most versatile cellular players of innate immunity. Their name &mdash; from Greek <em>makros</em> (large) and <em>phagein</em> (to eat) &mdash; reflects their defining capacity to engulf and destroy targets ranging from bacterial pathogens to senescent red blood cells. Beyond phagocytosis, macrophages are master regulators of inflammation: they sense danger through an array of pattern-recognition receptors (TLRs, NLRs, scavenger receptors, complement receptors), rapidly produce a burst of pro-inflammatory mediators, present antigens to T cells, and ultimately resolve inflammation and remodel tissue. Their functional identity is profoundly shaped by tissue context and activation state, existing on a spectrum from classically activated M1 (bactericidal, tumouricidal) to alternatively activated M2 (wound-healing, tolerogenic). Dysregulation of this balance underlies atherosclerosis, NAFLD/NASH, cancer immune evasion, and neurodegeneration.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">tissue macrophage</span>
+          <span class="alias-pill">Kupffer cell (liver)</span>
+          <span class="alias-pill">microglia (brain)</span>
+          <span class="alias-pill">alveolar macrophage (lung)</span>
+          <span class="alias-pill">M1 / M2 macrophage</span>
+          <span class="alias-pill">foam cell (atherosclerosis)</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>Macrophages are long-lived, tissue-resident phagocytes and innate immune effectors that form the first line of defence against pathogens, coordinate inflammation, and maintain tissue homeostasis through continuous surveillance and clearance of apoptotic cells, cellular debris, and foreign material. The adult human body harbours an estimated 10&sup1;&sup1; macrophages. In steady state, macrophages perform constitutive <strong>efferocytosis</strong> (clearance of ~2&times;10&sup1;&sup1; senescent erythrocytes per day), pattern-recognition surveillance via Toll-like receptors (TLRs 1&ndash;9), NOD-like receptors (NLRs), scavenger receptors (SR-A, CD36), and complement receptors (CR1, CR3).</p>
+          <p>In adult humans, macrophages exist in two principal pools: (1) <strong>monocyte-derived macrophages</strong> that differentiate from circulating Ly6C&sup+ classical monocytes following tissue infiltration, and (2) <strong>tissue-resident macrophages (TRMs)</strong> seeded during embryonic development from yolk-sac progenitors and fetal liver monocytes. TRMs self-renew locally and are remarkably long-lived; Kupffer cells (liver), microglia (CNS), Langerhans cells (skin), and alveolar macrophages (lung) are paradigmatic examples. This ontological duality &mdash; embryonic vs. monocyte-derived &mdash; profoundly shapes functional identity and tissue-specific gene expression.</p>
+          <p>Pathologically, macrophage dysregulation is central to atherosclerotic plaque formation (foam cells), sterile inflammation in NAFLD/NASH (Kupffer cell activation), neurodegeneration (microglial activation in Alzheimer's disease), and tumour immune evasion (tumour-associated macrophages, TAMs). Understanding macrophage biology is therefore essential for cardiovascular medicine, oncology, and metabolic disease.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Structure</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>macrophage</td></tr>
-            <tr><td>Name</td><td>Macrophage</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>04-cellular</td></tr>
+            <tr><th>Feature</th><th>Detail</th></tr>
+            <tr>
+              <td>Size</td>
+              <td>10&ndash;30 &micro;m diameter; activation-dependent &mdash; resting macrophages are compact (~10&ndash;15 &micro;m); fully spread, activated macrophages reach 20&ndash;30 &micro;m with extensive pseudopodia</td>
+            </tr>
+            <tr>
+              <td>Shape</td>
+              <td>Rounded or dendriform at rest; upon activation, lamellipodia and membrane ruffles dramatically increase surface area. Tissue-resident forms are often stellate (microglia), cuboidal (Kupffer cells), or flattened (alveolar macrophages)</td>
+            </tr>
+            <tr>
+              <td>Nucleus</td>
+              <td>Single, kidney-shaped nucleus with dispersed (open) chromatin; accessible chromatin at inflammatory gene loci (<em>Il6</em>, <em>Tnf</em>, <em>Il1b</em>) allows rapid transcriptional activation within 30&ndash;60 min of PRR engagement. Multinucleate giant cells form by macrophage fusion during granulomatous responses to large foreign bodies or persistent pathogens</td>
+            </tr>
+            <tr>
+              <td>Organelles</td>
+              <td>Abundant lysosomes (pH 4.5&ndash;5.0) containing cathepsins B/D/L, hydrolases, myeloperoxidase, and the NADPH oxidase complex (gp91<sup>phox</sup> + p22<sup>phox</sup> + p47<sup>phox</sup> + p67<sup>phox</sup> + Rac2) responsible for the oxidative burst. Well-developed rough ER supports high-volume cytokine synthesis. Mitochondria undergo dynamic reprogramming: M1 macrophages shift to aerobic glycolysis (Warburg-like) with fragmented mitochondria; broken TCA cycle accumulates succinate &rarr; HIF-1&alpha; activation &rarr; IL-1&beta; production</td>
+            </tr>
+            <tr>
+              <td>Surface markers</td>
+              <td><strong>Pan-macrophage:</strong> CD14 (LPS co-receptor), CD11b/CD18 (Mac-1/CR3), CD64 (Fc&gamma;RI), MHC-II (professional APC). <strong>M1-upregulated:</strong> CD86, CD80, MHC-II high. <strong>M2-upregulated:</strong> CD163 (haemoglobin scavenger), CD206 (mannose receptor), CD36 (lipid scavenger). <strong>Tissue-patrol:</strong> CX3CR1 (fractalkine receptor)</td>
+            </tr>
+            <tr>
+              <td>Special features</td>
+              <td>Phagolysosomal system capable of digesting bacteria, fungi, parasites, apoptotic cells, and lipid particles. Acidification to pH 4.5&ndash;5.0 optimises hydrolase activity. Macrophage foam cells in atherosclerosis accumulate oxidised LDL via scavenger receptors (SR-A, CD36), forming cytoplasmic lipid droplets that overwhelm cholesterol efflux machinery (ABCA1/ABCG1)</td>
+            </tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="immune-system.html" title="Macrophages are central cellular effectors of the innate immune system, present in virtually every tissue."><span class="rel">part-of</span>Immune System</a>
-            <a class="conn-pill" href="il-6.html" title="Macrophages are major IL-6 producers upon TLR4 (LPS) and NLR (NLRP3) activation; IL-6 drives acute-phase response and T-cell differentiation."><span class="rel">expresses</span>Il 6</a>
-            <a class="conn-pill" href="tnf-alpha.html" title="TNF-α is the canonical macrophage/monocyte cytokine — its name derives from macrophage-mediated tumor necrosis; released via NF-κB signalling downstream of TLR stimulation."><span class="rel">expresses</span>Tnf Alpha</a>
-            <a class="conn-pill" href="mhc-class-ii.html" title="Macrophages are professional antigen-presenting cells (APCs) expressing constitutive MHC-II; present processed peptides to CD4⁺ T-helper cells."><span class="rel">expresses</span>Mhc Class Ii</a>
-            <a class="conn-pill damaged" href="hepatocyte.html" title="Activated Kupffer cells (liver-resident macrophages) secrete ROS, TNF-α, and IL-6, driving hepatocyte apoptosis and steatohepatitis in NAFLD/NASH progression."><span class="rel">damages</span>Hepatocyte</a>
-            <a class="conn-pill part" href="hepatic-lobule.html" title="Kupffer cells are the liver-resident macrophage population, lining hepatic sinusoids within each hepatic lobule."><span class="rel">part-of</span>Hepatic Lobule</a>
-            <a class="conn-pill part" href="liver.html" title="Kupffer cells constitute ~15% of total hepatic cells and represent the largest pool of tissue-resident macrophages in the body."><span class="rel">part-of</span>Liver</a>
-            <a class="conn-pill part" href="human-body.html" title="Macrophages are ubiquitous; estimated 10¹¹ macrophages populate the adult human body across all major organs."><span class="rel">part-of</span>Human Body</a>
-            <a class="conn-pill" href="natural-killer-cell.html" title="NK cells stimulate macrophage M1 activation via IFN-γ and suppress M2 polarisation; NK-derived GM-CSF promotes macrophage survival."><span class="rel">modulated-by</span>Natural Killer Cell</a>
-            <a class="conn-pill" href="intestinal-epithelium.html" title="Intestinal epithelial cells secrete IL-10 and TGF-β that polarise mucosal macrophages toward tolerogenic M2-like phenotype."><span class="rel">modulated-by</span>Intestinal Epithelium</a>
-            <a class="conn-pill part" href="bone-marrow.html" title="Bone marrow monocyte progenitors (cMoPs from GMPs) give rise to circulating monocytes that seed tissues and differentiate into resident macrophages."><span class="rel">part-of</span>Bone Marrow</a>
+          <h3>Function</h3>
+          <p>Macrophages are functionally pleiotropic, acting as phagocytes, secretory cells, antigen-presenting cells, and tissue-repair coordinators. Key functions are illustrated below:</p>
+          <div class="pleio-grid">
+            <div class="pleio-card">
+              <div class="pc-title">Phagocytosis &amp; Killing</div>
+              <p>PRR engagement or opsonisation (IgG-Fc&gamma;R, C3b-CR3) drives pseudopodal engulfment into phagosomes. Phagosome&ndash;lysosome fusion generates reactive oxygen species (O&sup2;&bull;&minus; via NADPH oxidase &rarr; H&sup2;O&sup2; &rarr; HOCl via myeloperoxidase) and reactive nitrogen species (NO via iNOS/NOS2 &rarr; peroxynitrite ONOO&minus;). Combined, these kill even intracellular pathogens such as <em>Mycobacterium tuberculosis</em> and <em>Listeria monocytogenes</em>.</p>
+            </div>
+            <div class="pleio-card">
+              <div class="pc-title">Cytokine Secretion</div>
+              <p>LPS &rarr; TLR4 &rarr; MyD88/TRIF &rarr; IRAK4 &rarr; TRAF6 &rarr; NF-&kappa;B p65/p50 nuclear translocation &rarr; <em>TNF</em>, <em>IL6</em>, <em>IL1B</em>, <em>IL12A/B</em>, <em>CXCL8</em> transcription within 30&ndash;60 min. TNF-&alpha; triggers endothelial activation, fever, and acute-phase response. IL-12 + IL-18 synergise to activate NK cells and drive Th1 CD4&sup+ T-cell polarisation.</p>
+            </div>
+            <div class="pleio-card">
+              <div class="pc-title">Antigen Presentation</div>
+              <p>After phagocytosis, peptides are loaded onto MHC-II and transported to the cell surface. MHC-II + peptide + CD86 co-stimulation is recognised by CD4&sup+ T-helper cells, licensing adaptive immunity. Cross-presentation of exogenous antigens on MHC-I also enables CD8&sup+ T-cell priming &mdash; critical for anti-tumour responses.</p>
+            </div>
+            <div class="pleio-card">
+              <div class="pc-title">Tissue Homeostasis</div>
+              <p>Kupffer cells clear immune complexes and gut-derived LPS from portal blood, preventing systemic endotoxaemia. Alveolar macrophages clear surfactant and inhaled particles. Osteoclasts (monocyte/macrophage lineage) remodel bone. Microglia prune synapses during development and clear amyloid-&beta; in the ageing brain. Efferocytosis of apoptotic cells suppresses inflammation via PGE&sup2; and TGF-&beta; release.</p>
+            </div>
+          </div>
+          <h4 style="margin-top:1.25rem;">M1 / M2 Polarisation Spectrum</h4>
+          <ul class="mech-list">
+            <li><strong>M1 (classical activation):</strong> IFN-&gamma; + LPS &rarr; STAT1 signalling &rarr; pro-inflammatory phenotype: high iNOS, IL-12, IL-23, TNF-&alpha;, ROS; low IL-10. Metabolically: aerobic glycolysis (succinate accumulation, HIF-1&alpha; active). Kills intracellular pathogens and tumour cells.</li>
+            <li><strong>M2 (alternative activation):</strong> IL-4 / IL-13 &rarr; STAT6 signalling &rarr; anti-inflammatory / tissue-repair phenotype: high arginase-1 (Arg1), IL-10, TGF-&beta;, CD206, VEGF; low TNF-&alpha;, iNOS. Supports wound healing, fibrosis, and helminth responses. Tumour-associated macrophages (TAMs) are largely M2-like, promoting immune evasion and angiogenesis.</li>
+            <li><strong>M(IL-10):</strong> IL-10 &rarr; STAT3 &rarr; regulatory/tolerogenic phenotype; suppresses M1-driven inflammation in mucosa and liver; central to resolution of inflammatory episodes.</li>
+            <li><strong>Note on the spectrum:</strong> Real-world macrophages exist on a continuum with mixed transcriptional states, especially in chronic disease. The M1/M2 dichotomy is a useful simplification that oversimplifies the full transcriptional diversity observed by single-cell RNA-seq.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>TLR Signalling Pathway</h3>
+          <div class="pathway-block">
+<pre>
+  LPS (Gram-negative bacterial membrane lipopolysaccharide)
+       |
+       |  Detected by CD14 + LBP (LPS-binding protein) -> transfers LPS to
+       |  MD-2 / TLR4 heterodimer on macrophage surface
+       v
+  TLR4 homodimerises -> cytoplasmic TIR domain engagement
+       |
+       +-- MyD88-dependent arm:
+       |     MyD88 -> IRAK4 -> IRAK1/2 -> TRAF6 -> TAK1
+       |           |
+       |           +-- IKKbeta complex -> IkBa phosphorylation -> NF-kB nuclear entry
+       |           |         -> TNF-a, IL-6, IL-1b, IL-12, CXCL8 transcription
+       |           |
+       |           +-- MAP kinase cascade (p38, JNK, ERK)
+       |                     -> AP-1 activation -> cytokine mRNA stabilisation
+       |
+       +-- TRIF-dependent arm (endosomal TLR4):
+             TRIF -> TRAF3 -> TBK1 -> IRF3 phosphorylation -> nuclear entry
+                   -> IFN-b, IP-10/CXCL10 transcription (type I interferon response)
+                   -> TRIF -> RIP1 -> NF-kB (delayed wave)
+
+  Net outcome (within 30-60 min):
+  +-------------------------------------------------------------------+
+  | TNF-a  . IL-6  . IL-1b  . IL-12p70  . CXCL8  . IFN-b  . NO     |
+  | ROS (NADPH oxidase activated in parallel via PI3K/Rac2)           |
+  | Prostaglandin E2 (COX-2 induced by NF-kB)                        |
+  +-------------------------------------------------------------------+
+
+  RESOLUTION: IL-10 (autocrine) -> STAT3 -> suppressor genes (SOCS3);
+              efferocytosis of apoptotic cells -> PGE2/TGF-b -> M2 reprogramming
+</pre>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Lifecycle</h3>
+          <div class="pathway-block">
+<pre>
+  EMBRYONIC LINEAGE (tissue-resident macrophages -- TRMs)
+  -------------------------------------------------------
+  Yolk-sac primitive myeloid progenitors (~E6.5)
+       |
+       v
+  Yolk-sac macrophages (CSF1R+ / Kit+) -- seed CNS (microglia),
+  liver (early Kupffer cells), skin, heart
+       |
+       v  Second wave: Fetal liver monocytes (~E12.5)
+       v
+  Tissue-resident macrophages (TRMs) established in most organs
+       |
+       v
+  Self-renewal in situ driven by CSF1 (M-CSF), IL-4, GATA6
+  Half-life: weeks to years (microglia turn over very slowly;
+  alveolar macrophages ~1 year; Kupffer cells ~months-years)
+
+
+  MONOCYTE-DERIVED LINEAGE (inflammation / replenishment)
+  --------------------------------------------------------
+  HSC (bone marrow)
+   +-> CMP (common myeloid progenitor)
+         +-> GMP (granulocyte-monocyte progenitor)
+               +-> cMoP (common monocyte progenitor)
+                     +-> Classical monocyte (Ly6Chigh / CD14++CD16-)
+                     |    Blood patrol: ~1-3 days
+                     |    Tissue entry during inflammation:
+                     |    CCL2 (MCP-1) -> CCR2 on monocyte -> extravasation
+                     |         |
+                     |         v
+                     |    Infiltrating macrophage
+                     |    (M1 or M2 fate determined by local signals)
+                     |
+                     +-> Non-classical monocyte (Ly6Clow / CD14+CD16++)
+                          Patrol luminal surface of vasculature; recruited later;
+                          anti-inflammatory, TLR7/TLR8 responsive
+
+  RESOLUTION / REMOVAL:
+  Efferocytosis-triggered reprogramming -> IL-10/TGF-b autocrine loop
+  -> surviving macrophages adopt reparative M2 phenotype or undergo
+  apoptosis; monocyte-derived macrophages largely cleared; TRMs
+  re-establish homeostatic density via local proliferation
+</pre>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <table class="data-table">
+            <tr><th>Disease</th><th>Mechanism</th><th>Clinical Features</th><th>Treatment Implications</th></tr>
+            <tr>
+              <td><strong>Atherosclerosis</strong></td>
+              <td>Monocyte recruitment into sub-intimal space &rarr; uptake of oxidised LDL via scavenger receptors (SR-A, CD36) &rarr; lipid-laden foam cells. NLRP3 inflammasome activation by cholesterol crystals &rarr; IL-1&beta; release &rarr; plaque inflammation. Impaired cholesterol efflux (ABCA1/ABCG1) traps macrophages in plaque.</td>
+              <td>Coronary artery disease, angina, myocardial infarction, stroke; vulnerable plaque rupture driven by MMP secretion from macrophages</td>
+              <td>Statins reduce LDL (less oxLDL substrate); PCSK9 inhibitors; canakinumab (anti-IL-1&beta;, CANTOS trial) reduced cardiovascular events; colchicine (NLRP3 inhibition in COLCOT trial)</td>
+            </tr>
+            <tr>
+              <td><strong>NAFLD / NASH</strong></td>
+              <td>Hepatic steatosis &rarr; Kupffer cell activation (TLR4 by gut-derived LPS, TLR9 by mitochondrial DNA from hepatocytes) &rarr; TNF-&alpha;, IL-6, ROS &rarr; hepatocyte apoptosis and stellate cell activation &rarr; fibrosis. Monocyte-derived macrophages infiltrate during NASH, amplifying inflammation.</td>
+              <td>Elevated liver enzymes, steatohepatitis on biopsy, progression to cirrhosis and hepatocellular carcinoma in a minority</td>
+              <td>Weight loss (reduces portal LPS flux); semaglutide / tirzepatide (GLP-1 agonists reduce hepatic fat and Kupffer cell activation); anti-fibrotic trials ongoing (CCR2/CCR5 antagonist cenicriviroc)</td>
+            </tr>
+            <tr>
+              <td><strong>Sepsis</strong></td>
+              <td>Uncontrolled systemic macrophage / monocyte activation &rarr; cytokine storm (TNF-&alpha;, IL-1&beta;, IL-6) &rarr; vascular leak, hypotension, disseminated intravascular coagulation (DIC), multi-organ failure. HLH (haemophagocytic lymphohistiocytosis) is the extreme end: macrophage activation syndrome with massive cytokine release and uncontrolled phagocytosis.</td>
+              <td>Fever, hypotension, organ failure, 30&ndash;50% mortality in septic shock. HLH: pancytopenia, hyperferritinaemia (&gt;10,000 ng/mL), liver failure, CNS involvement</td>
+              <td>Broad-spectrum antibiotics + source control for sepsis; tocilizumab (anti-IL-6R), anakinra (anti-IL-1R), dexamethasone, etoposide + cyclosporin for HLH/MAS</td>
+            </tr>
+            <tr>
+              <td><strong>Tumour-associated macrophages (TAMs)</strong></td>
+              <td>Tumour microenvironment (TME) skews infiltrating macrophages toward M2-like TAM phenotype via IL-10, TGF-&beta;, CSF1, and hypoxia. TAMs suppress cytotoxic T cells (IL-10, TGF-&beta;, PD-L1 expression), promote angiogenesis (VEGF), and remodel ECM (MMP secretion). High TAM density correlates with poor prognosis in breast, colorectal, and lung cancer.</td>
+              <td>Immune evasion, resistance to immunotherapy; high TAM density is an adverse prognostic marker in many cancers</td>
+              <td>Anti-PD-1/PD-L1 checkpoint inhibitors; anti-CSF1R (pexidartinib) depletes TAMs in TGCT; CD47 "don't eat me signal" blockade (magrolimab) promotes macrophage phagocytosis of tumour cells</td>
+            </tr>
+            <tr>
+              <td><strong>Alzheimer's Disease</strong></td>
+              <td>Microglia fail to clear amyloid-&beta; plaques efficiently in ageing brain (impaired TREM2-driven phagocytosis); alternatively, hyperactivated microglia produce TNF-&alpha; and IL-1&beta; driving neuroinflammation and synaptic pruning dysregulation. TREM2 loss-of-function variants (R47H) increase AD risk ~3-fold.</td>
+              <td>Progressive cognitive decline; amyloid plaques and tau neurofibrillary tangles; neuroinflammation visible on PET imaging (TSPO tracer)</td>
+              <td>Lecanemab / donanemab (anti-amyloid antibodies) engage Fc receptors on microglia to promote amyloid clearance; anti-TREM2 agonist antibodies in clinical trials to restore microglial phagocytic function</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="il-6.html" class="conn-pill expresses">
+              <span class="rel">Expresses</span>
+              IL-6 (canonical cytokine)
+            </a>
+            <a href="immune-system.html" class="conn-pill partof">
+              <span class="rel">Part of</span>
+              Immune System
+            </a>
+            <a href="liver.html" class="conn-pill partof">
+              <span class="rel">Resident in</span>
+              Liver (Kupffer cells)
+            </a>
+            <a href="bone-marrow.html" class="conn-pill partof">
+              <span class="rel">Derived from</span>
+              Bone Marrow (monocytes)
+            </a>
+            <a href="natural-killer-cell.html" class="conn-pill targets">
+              <span class="rel">Activated by</span>
+              Natural Killer Cell (IFN-&gamma;)
+            </a>
+            <a href="erythrocyte.html" class="conn-pill targets">
+              <span class="rel">Clears senescent</span>
+              Erythrocytes
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill targets">
+              <span class="rel">Drives pathology in</span>
+              Cardiovascular System
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/j.immuni.2016.02.026" target="_blank" rel="noopener noreferrer">Gordon S. Phagocytosis: an immunobiologic process. Immunity. 2016;44(3):463-75.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27002634/" target="_blank" rel="noopener noreferrer">PubMed 27002634</a></li>
-            <li><a href="https://doi.org/10.1016/j.immuni.2016.02.024" target="_blank" rel="noopener noreferrer">Ginhoux F, Guilliams M. Tissue-resident macrophage ontogeny and homeostasis. Immunity. 2016;44(3):439-49.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27002631/" target="_blank" rel="noopener noreferrer">PubMed 27002631</a></li>
-            <li><a href="https://doi.org/10.1146/annurev-physiol-022516-034339" target="_blank" rel="noopener noreferrer">Murray PJ. Macrophage polarization. Annu Rev Physiol. 2017;79:541-66.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27813830/" target="_blank" rel="noopener noreferrer">PubMed 27813830</a></li>
-            <li><a href="https://doi.org/10.1002/path.4133" target="_blank" rel="noopener noreferrer">Mantovani A, Biswas SK, Galdiero MR, et al. Macrophage plasticity and polarization in tissue repair and remodelling. J Pathol. 2013;229(2):176-85.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23096265/" target="_blank" rel="noopener noreferrer">PubMed 23096265</a></li>
+            <li>Gordon S. Phagocytosis: an immunobiologic process. <em>Immunity.</em> 2016;44(3):463-75. <a href="https://doi.org/10.1016/j.immuni.2016.02.026">doi:10.1016/j.immuni.2016.02.026</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27002634/">PubMed 27002634</a></li>
+            <li>Ginhoux F, Guilliams M. Tissue-resident macrophage ontogeny and homeostasis. <em>Immunity.</em> 2016;44(3):439-49. <a href="https://doi.org/10.1016/j.immuni.2016.02.024">doi:10.1016/j.immuni.2016.02.024</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27002631/">PubMed 27002631</a></li>
+            <li>Murray PJ. Macrophage polarization. <em>Annu Rev Physiol.</em> 2017;79:541-66. <a href="https://doi.org/10.1146/annurev-physiol-022516-034339">doi:10.1146/annurev-physiol-022516-034339</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27813830/">PubMed 27813830</a></li>
+            <li>Mantovani A, Biswas SK, Galdiero MR, et al. Macrophage plasticity and polarization in tissue repair and remodelling. <em>J Pathol.</em> 2013;229(2):176-85. <a href="https://doi.org/10.1002/path.4133">doi:10.1002/path.4133</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23096265/">PubMed 23096265</a></li>
           </ul>
         </div>
 
@@ -191,17 +407,21 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="erythrocyte.html">Erythrocyte</a>
+      <a href="natural-killer-cell.html">NK Cell</a>
+      <a href="il-6.html">IL-6</a>
+      <a href="insulin.html">Insulin</a>
       <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>document.getElementById && (document.querySelectorAll('[id="year"]').forEach(function(el){ el.textContent = new Date().getFullYear(); }));</script>
 </body>
 </html>

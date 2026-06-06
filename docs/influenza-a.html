@@ -3,93 +3,128 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Enveloped, segmented −ssRNA virus (Orthomyxoviridae). 8 genome segments; HA (18 subtypes) + NA (11 subtypes). Infects respiratory epithelium via sialic acid; an">
-  <meta property="og:title" content="Influenza A virus — Human Engineering">
+  <meta name="description" content="Influenza A virus — Atlas Two Pathogen entry. Enveloped segmented &minus;ssRNA; 8 genome segments; HA/NA subtypes; antigenic drift and shift; pandemic potential. Part of the Human Engineering project.">
+  <meta property="og:title" content="Influenza A Virus — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Influenza A: sialic acid tropism, HA/NA subtypes, NS1 IFN antagonism, antigenic drift/shift, antivirals and annual vaccine.">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Influenza A virus — Human Engineering</title>
+  <title>Influenza A Virus — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bg: #f2f2f7;
+      --bg-elev: #ffffff;
+      --bg-soft: #e5e5ea;
+      --fg: #1c1c1e;
+      --fg-soft: #3a3a3c;
+      --muted: #6e6e73;
+      --muted-2: #8e8e93;
+      --border: #d1d1d6;
+      --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg); color: var(--fg);
+      line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+    }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
+    }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      background: rgba(159, 18, 57, 0.1); color: var(--accent);
+      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
+    }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger  { border-left-color: #dc2626; }
+    .mech-item.immune  { border-left-color: var(--ai); }
+    .mech-item.latent  { border-left-color: var(--accent); }
+    .mech-item.drug    { border-left-color: var(--bio); }
+
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,95 +143,174 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogens
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
-    <h1>Influenza A virus</h1>
-    <p class="tagline">Enveloped, segmented −ssRNA virus (Orthomyxoviridae). 8 genome segments; HA (18 subtypes) + NA (11 subtypes). Infects respiratory epithelium via sialic acid; antigenic drift/shift drives annual epidemics and pandemic potential.</p>
-    <p class="aliases">Also known as: influenza A, flu, IAV, H1N1, H3N2, influenza type A virus</p>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus</div>
+    <h1>Influenza A Virus</h1>
+    <p class="tagline">The segmented &minus;ssRNA shapeshifter: antigenic drift drives annual epidemics; antigenic shift creates pandemics without warning.</p>
+    <p class="subtagline">Influenza A virus (IAV) is an enveloped Orthomyxovirus with 8 genome segments, 18 haemagglutinin subtypes, and 11 neuraminidase subtypes. HA binds sialic acid on respiratory epithelium &mdash; &#945;-2,6 linkage for human upper respiratory strains (H1N1, H3N2) and &#945;-2,3 linkage for avian lower respiratory strains (H5N1). NS1 is the primary IFN antagonist. Annual epidemics cause up to 650,000 deaths; the 1918 H1N1 pandemic killed an estimated 50&ndash;100 million people. Oseltamivir (NA inhibitor), baloxavir (cap-dependent endonuclease inhibitor), and annually updated vaccines are the principal countermeasures.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~1B</span><span class="stat-label">Infections/year globally</span></div>
+      <div class="stat"><span class="stat-num">290&ndash;650K</span><span class="stat-label">Deaths/year (seasonal)</span></div>
+      <div class="stat"><span class="stat-num">8</span><span class="stat-label">Genome segments</span></div>
+      <div class="stat"><span class="stat-num">H18 &times; N11</span><span class="stat-label">HA &times; NA subtype combinations</span></div>
+      <div class="stat"><span class="stat-num">50&ndash;100M</span><span class="stat-label">Deaths &mdash; 1918 pandemic</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">influenza-a</div>
-        <h2>Influenza A virus</h2>
-        <p class="summary">Enveloped, segmented −ssRNA virus (Orthomyxoviridae). 8 genome segments; HA (18 subtypes) + NA (11 subtypes). Infects respiratory epithelium via sialic acid; antigenic drift/shift drives annual epidemics and pandemic potential.</p>
+    <div class="detail-card" id="influenza-a">
+      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #7f1d1d);">
+        <div class="entry-eyebrow">Orthomyxoviridae &middot; Influenzavirus A &middot; (&minus;)ssRNA segmented, Enveloped &middot; ~80&ndash;120 nm</div>
+        <h3>Influenza A Virus (IAV)</h3>
+        <p class="summary">Enveloped negative-sense segmented ssRNA virus with 8 genome segments encoding 10&ndash;14 proteins. Classified by two surface glycoproteins: haemagglutinin (HA; 18 subtypes) mediates receptor binding to sialic acid and endosomal membrane fusion; neuraminidase (NA; 11 subtypes) cleaves sialic acid to release progeny virions and is the target of oseltamivir and zanamivir. The segmented genome enables antigenic shift (segment reassortment between strains), generating novel HA/NA combinations against which the human population has no immunity &mdash; the basis of pandemic emergence. Antigenic drift (point mutations in HA/NA under immune selection) drives annual epidemic strain evolution, necessitating yearly vaccine reformulation. NS1 protein is the principal IFN antagonist, binding dsRNA to block RIG-I activation and inhibiting PKR. In severe avian influenza (H5N1) and pandemic strains, NS1-mediated IFN suppression is followed by exuberant cytokine storm driving alveolar damage and ARDS.</p>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>influenza-a</td></tr>
-            <tr><td>Name</td><td>Influenza A virus</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Class</td><td>01-viruses</td></tr>
+          <h4>Classification &amp; Structure</h4>
+          <table class="detail-table">
+            <tr><td>Genome</td><td>8 segments of negative-sense single-stranded RNA (~13.5 kb total); each segment encapsidated in ribonucleoprotein (RNP) complex with nucleoprotein (NP) and the RNA polymerase (PB1, PB2, PA); pleomorphic virion shape (spherical to filamentous)</td></tr>
+            <tr><td>Family / Classification</td><td>Orthomyxoviridae / Influenzavirus A; classified by HA (H1&ndash;H18) and NA (N1&ndash;N11) subtypes; current human seasonal strains: H1N1 (re-emerged 2009) and H3N2 (emerged 1968); zoonotic high-risk strains: H5N1, H7N9</td></tr>
+            <tr><td>Envelope</td><td>Enveloped; lipid bilayer derived from host plasma membrane; ~500 HA homotrimers, ~100 NA homotetramers, and ~16&ndash;20 M2 ion channel tetramers per virion; M1 matrix protein lines inner envelope face</td></tr>
+            <tr><td>Size</td><td>~80&ndash;120 nm diameter (spherical strains); filamentous forms up to several micrometres in fresh clinical isolates</td></tr>
+            <tr><td>Key proteins</td><td>HA (receptor binding; membrane fusion; antigenic target; haemagglutination inhibition (HAI) antibody target); NA (sialic acid cleavage; virion release; oseltamivir/zanamivir target); M2 (proton channel; uncoating; amantadine target &mdash; now resistance-limited); PB1/PB2/PA (RNA polymerase complex); NS1 (IFN antagonist); PA-X (host mRNA degradation / shutoff); NP (RNA encapsidation); M1 (matrix scaffold); NS2/NEP (nuclear export)</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="type-ii-pneumocyte.html" title="Influenza A infects AT2 cells expressing α-2,3 sialic acid receptors (avian-like strains, e.g., H5N1) and α-2,6 sialic acid receptors (human strains, H1N1/H3N2); AT2 destruction causes loss of surfactant and alveolar repair capacity."><span class="rel">infects</span>Type Ii Pneumocyte</a>
-            <a class="conn-pill damaged" href="lung.html" title="Influenza A causes primary viral pneumonitis (bilateral interstitial infiltrates), secondary bacterial pneumonia (classically Staphylococcus aureus, Streptococcus pneumoniae), and ARDS in severe cases — all causing acute lung damage."><span class="rel">damages</span>Lung</a>
-            <a class="conn-pill damaged" href="respiratory-system.html" title="Influenza A is primarily a respiratory tract pathogen: upper respiratory illness in most cases; in severe disease, tracheobronchitis, viral pneumonitis, and ARDS impair ventilation and gas exchange throughout the respiratory system."><span class="rel">damages</span>Respiratory System</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="NS1 protein blocks RIG-I/MDA5 innate sensing and IFN-I production; PA-X degrades host mRNAs including antiviral transcripts; systemic cytokine storm in H5N1 and 2009 H1N1pdm09 causes lymphocyte apoptosis and immune dysregulation."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill" href="immunoglobulin-g.html" title="Anti-hemagglutinin (HA) and anti-neuraminidase (NA) IgG antibodies are the principal correlates of protection; strain-matched serum IgG titers &gt;1:40 by HAI are the historical vaccine efficacy benchmark."><span class="rel">target-of</span>Immunoglobulin G</a>
-            <a class="conn-pill" href="oseltamivir.html" title="Oseltamivir (Tamiflu) inhibits influenza neuraminidase, preventing viral egress; reduces symptom duration by ~1 day in uncomplicated influenza and reduces hospitalizations in high-risk groups when started within 48 h."><span class="rel">treated-by</span>Oseltamivir</a>
-            <a class="conn-pill" href="oseltamivir.html" title="Oseltamivir's NA inhibition blocks sialic acid cleavage, tethering newly assembled virions to the host cell surface; H274Y mutation in N1 confers oseltamivir resistance while retaining zanamivir sensitivity."><span class="rel">modulated-by</span>Oseltamivir</a>
+          <h4>Infection Mechanism</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>1 &middot; Sialic acid receptor binding and cell tropism</h5>
+              <p>Influenza A HA binds sialic acid (Sia) residues on host cell glycoproteins and glycolipids. The linkage of sialic acid to the penultimate galactose determines tropism: &#945;-2,6 Sia (predominant in human upper respiratory epithelium &mdash; trachea, bronchi) is recognised by human H1N1 and H3N2 &mdash; explaining upper respiratory tract tropism and efficient human-to-human transmission. &#945;-2,3 Sia (predominant in avian intestinal epithelium and human lower respiratory tract/alveolar AT2 cells) is recognised by avian H5N1 &mdash; explaining lower respiratory tract tropism, inability for efficient droplet transmission, and high-severity pneumonitis. A single amino acid substitution in HA can switch receptor specificity, enabling zoonotic adaptation.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>2 &middot; Endocytosis, M2 uncoating, and nuclear replication</h5>
+              <p>After HA binding, IAV is endocytosed into clathrin-coated vesicles. Endosomal acidification (~pH 5.0) triggers two events: (1) HA conformational change exposes the fusion peptide, which inserts into the endosomal membrane, driving viral&ndash;endosomal membrane fusion; (2) M2 proton channel allows H&sup3; influx into the virion interior, dissociating the M1&ndash;vRNP interaction, releasing vRNPs into the cytoplasm. vRNPs are imported into the nucleus via importin-&#945;/&#946;. The PB1&ndash;PB2&ndash;PA polymerase complex performs &ldquo;cap-snatching&rdquo; &mdash; PB2 binds host pre-mRNA caps while PA endonuclease cleaves the host mRNA 10&ndash;13 nt downstream &mdash; to prime viral mRNA synthesis. Eight viral mRNA species are produced; replication proceeds via cRNA antigenome intermediates.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>3 &middot; NS1 protein &mdash; primary interferon antagonist</h5>
+              <p>NS1 is a multifunctional IFN antagonist central to immune evasion: it binds dsRNA (replication intermediates) directly, preventing RIG-I recognition and IRF3 phosphorylation, thereby blocking IFN-&beta; induction; it binds and inactivates PKR (protein kinase R), preventing eIF2&#945; phosphorylation and translational shutdown; it sequesters CPSF30 (cleavage and polyadenylation specificity factor), inhibiting 3&prime;-end processing of cellular antiviral mRNAs. PA-X (alternative reading frame product of PA segment) degrades host mRNAs including antiviral transcripts (host shutoff). Together NS1 and PA-X create a permissive intracellular environment for viral replication.</p>
+            </div>
+            <div class="mech-item latent">
+              <h5>4 &middot; Antigenic drift and shift &mdash; immune evasion at the population level</h5>
+              <p>Antigenic drift: IAV RdRp lacks proofreading (~10&minus;&sup3; errors/site/cycle); point mutations accumulate in HA and NA under antibody selection pressure, gradually altering antigenic surface epitopes. This continuous antigenic evolution means prior season&rsquo;s antibodies become partially or fully non-protective &mdash; driving annual epidemic recurrence and necessitating yearly vaccine strain updates by the WHO Global Influenza Surveillance and Response System (GISRS). Antigenic shift: when two distinct IAV strains simultaneously infect the same cell (e.g., human and avian IAV in a pig), the 8 segments can reassort into novel combinations. If the resulting reassortant carries a novel HA (e.g., H2 or H3 in 1968) or NA subtype to which humans have no pre-existing immunity, pandemic emergence is possible. The 2009 H1N1pdm was a quadruple reassortant (human, avian, and two swine lineage segments).</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>5 &middot; Virion assembly, budding, and NA-mediated release</h5>
+              <p>New vRNPs export from the nucleus via NEP/NS2 in complex with M1. vRNPs traffic to the apical plasma membrane of polarised respiratory epithelial cells, guided by M1 and HA/NA membrane targeting signals. Segment packaging ensures incorporation of all 8 distinct vRNPs via specific packaging signals. Virions bud from the apical surface. NA cleaves sialic acid on newly released virions (which would otherwise re-attach to adjacent HA molecules on the same cell), enabling efficient spread. Oseltamivir (Tamiflu) and zanamivir (Relenza) competitively inhibit NA active site; H274Y (N1 numbering) is the primary oseltamivir resistance mutation, retaining zanamivir sensitivity.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Host Immune Response</h4>
+          <div class="immune-tags">
+            <span class="itag innate">RIG-I &mdash; cytoplasmic dsRNA sensor; detects IAV replication intermediates; blocked by NS1</span>
+            <span class="itag innate">TLR3/7/8 &mdash; endosomal ssRNA/dsRNA sensors in pDCs &rarr; IFN-&#945; burst</span>
+            <span class="itag innate">NK cells &mdash; activated early; kill IAV-infected cells via NKG2D/perforin</span>
+            <span class="itag innate">Cytokine storm (H5N1, 1918 H1N1) &mdash; IL-6, TNF-&#945;, IP-10, MCP-1 &rarr; ARDS</span>
+            <span class="itag adaptive">CD4+ Th1 &mdash; B cell help; IFN-&#947; production; critical for heterosubtypic memory</span>
+            <span class="itag adaptive">CD8+ CTL &mdash; target conserved NP/M1 epitopes; cross-reactive across subtypes</span>
+            <span class="itag adaptive">Anti-HA antibodies &mdash; principal correlate of protection; strain-specific; HAI titre &gt;1:40 historical benchmark</span>
+            <span class="itag adaptive">Anti-NA antibodies &mdash; reduce severity and transmission; less strain-specific than anti-HA</span>
+            <span class="itag depleted">NS1 &mdash; suppresses IFN-&beta; induction; allows viral replication window before adaptive response</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Disease Spectrum</h4>
+          <table class="path-table">
+            <tr><th>Severity</th><th>Presentation</th><th>Pathology</th><th>Notes</th></tr>
+            <tr><td>Uncomplicated influenza (most common)</td><td>Abrupt onset fever (38&ndash;40&deg;C), myalgia, headache, cough, rhinorrhoea, sore throat; 5&ndash;7 days duration</td><td>Tracheobronchitis; no parenchymal involvement; ciliated epithelial cell destruction</td><td>Infectious 1 day before symptoms to 5&ndash;7 days after onset</td></tr>
+            <tr><td>Primary viral pneumonia</td><td>Bilateral infiltrates, rapid progression, hypoxaemia; high fever; dyspnoea within 24&ndash;48 h</td><td>Diffuse alveolar damage: AT1 and AT2 cell death, hyaline membranes, alveolar haemorrhage</td><td>High-risk groups: elderly, pregnant, immunocompromised, cardiopulmonary disease</td></tr>
+            <tr><td>Secondary bacterial pneumonia</td><td>Clinical improvement followed by recurrence of fever and focal consolidation at days 5&ndash;10</td><td>Focal bacterial pneumonia; S. aureus (including MRSA), S. pneumoniae, H. influenzae most common</td><td>High mortality; IAV-induced ciliary clearance loss + immune suppression predispose</td></tr>
+            <tr><td>ARDS</td><td>PaO&#8322;/FiO&#8322; &lt;200, bilateral infiltrates, rapid ventilatory failure</td><td>Extensive DAD; macrophage/neutrophil infiltration; flooding of alveolar space</td><td>ICU care required; mechanical ventilation; ECMO in refractory cases</td></tr>
+            <tr><td>Pandemic / avian strain (H5N1, 1918)</td><td>Often young adults; cytokine storm; multi-organ failure; W-shaped mortality curve (young adults, elderly, infants) in 1918</td><td>Extensive bilateral pneumonitis; cytokine-driven DAD; lymphocyte apoptosis; &#945;-2,3 Sia tropism drives lower respiratory tract tropism</td><td>Case fatality rate ~60% for H5N1 hospitalised cases; 50&ndash;100M deaths in 1918</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Treatment &amp; Prevention</h4>
+          <table class="detail-table">
+            <tr><td>Oseltamivir (Tamiflu)</td><td>NA inhibitor; oral prodrug (phosphate); reduces symptom duration by ~1 day in uncomplicated influenza; reduces hospitalisations in high-risk groups when started within 48 h of symptom onset; H274Y (N1) mutation confers resistance while retaining zanamivir sensitivity</td></tr>
+            <tr><td>Zanamivir (Relenza)</td><td>NA inhibitor; inhaled powder; active against oseltamivir-resistant H274Y strains; less convenient route limits use; IV zanamivir available for severe hospitalised cases</td></tr>
+            <tr><td>Baloxavir marboxil (Xofluza)</td><td>Cap-dependent endonuclease (PA) inhibitor; single oral dose; blocks cap-snatching; I38T/M mutations in PA confer resistance; active against oseltamivir-resistant strains; approved for uncomplicated and high-risk influenza</td></tr>
+            <tr><td>Inactivated influenza vaccine (IIV)</td><td>Annually reformulated based on WHO GISRS strain selection to match predicted circulating strains; trivalent (2A + 1B) or quadrivalent (2A + 2B); adjuvanted for elderly (MF59, AS03); ~40&ndash;60% efficacy in well-matched seasons; standard recommendation for healthcare workers and high-risk groups</td></tr>
+            <tr><td>Live-attenuated influenza vaccine (LAIV)</td><td>Intranasal; cold-adapted temperature-sensitive strains; induces mucosal IgA and cellular immunity; approved for healthy non-pregnant individuals aged 2&ndash;49; preferred in some paediatric programmes; higher efficacy in children than IIV in some studies</td></tr>
+            <tr><td>mRNA influenza vaccines (pipeline)</td><td>mRNA-based seasonal and pandemic influenza vaccines (Moderna, Pfizer/BioNTech) in Phase 2&ndash;3 trials; potential for faster strain-matched production; head-to-head trials versus standard IIV ongoing</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Cross-Atlas Connections</h4>
+          <div class="connections">
+            <a class="conn-pill infects" href="lung.html"><span class="rel">Infects</span>Type II pneumocytes (AT2) &mdash; sialic acid receptors</a>
+            <a class="conn-pill damages" href="lung.html"><span class="rel">Damages</span>Lung &mdash; viral pneumonitis, secondary bacterial pneumonia, ARDS</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Respiratory system &mdash; tracheobronchitis to ventilatory failure</a>
+            <a class="conn-pill targets" href="immune-system.html"><span class="rel">Targets</span>Innate immune sensing &mdash; NS1 blocks RIG-I/IFN-&beta;</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1038/nm1141" target="_blank" rel="noopener noreferrer">Palese P. Influenza: old and new threats. Nat Med. 2004;10(12 Suppl):S82-7.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15577936/" target="_blank" rel="noopener noreferrer">PubMed 15577936</a></li>
-            <li><a href="https://doi.org/10.1128/mr.56.1.152-179.1992" target="_blank" rel="noopener noreferrer">Webster RG, Bean WJ, Gorman OT, Chambers TM, Kawaoka Y. Evolution and ecology of influenza A viruses. Microbiol Rev. 1992;56(1):152-79.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/1579108/" target="_blank" rel="noopener noreferrer">PubMed 1579108</a></li>
-            <li><a href="https://doi.org/10.3201/eid1201.050979" target="_blank" rel="noopener noreferrer">Taubenberger JK, Morens DM. 1918 influenza: the mother of all pandemics. Emerg Infect Dis. 2006;12(1):15-22.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16494711/" target="_blank" rel="noopener noreferrer">PubMed 16494711</a></li>
-            <li><a href="https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)" target="_blank" rel="noopener noreferrer">World Health Organization. Influenza (seasonal) Fact Sheet. WHO; 2023.</a></li>
+            <li>Palese P. Influenza: old and new threats. <em>Nat Med.</em> 2004;10(12 Suppl):S82-7. <a href="https://doi.org/10.1038/nm1141" target="_blank" rel="noopener">doi:10.1038/nm1141</a> &middot; PubMed 15577936</li>
+            <li>Webster RG, Bean WJ, Gorman OT, Chambers TM, Kawaoka Y. Evolution and ecology of influenza A viruses. <em>Microbiol Rev.</em> 1992;56(1):152-79. <a href="https://doi.org/10.1128/mr.56.1.152-179.1992" target="_blank" rel="noopener">doi:10.1128/mr.56.1.152-179.1992</a> &middot; PubMed 1579108</li>
+            <li>Taubenberger JK, Morens DM. 1918 influenza: the mother of all pandemics. <em>Emerg Infect Dis.</em> 2006;12(1):15-22. <a href="https://doi.org/10.3201/eid1201.050979" target="_blank" rel="noopener">doi:10.3201/eid1201.050979</a> &middot; PubMed 16494711</li>
+            <li>World Health Organization. Influenza (seasonal) Fact Sheet. WHO; 2023. <a href="https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)" target="_blank" rel="noopener">who.int/news-room/fact-sheets/detail/influenza-(seasonal)</a></li>
           </ul>
         </div>
 
       </div>
+    </div><!-- /.detail-card -->
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers IAV structure, sialic acid tropism, NS1 immune evasion, antigenic variation, and treatment. Avian H5N1 / H7N9 pandemic risk assessment, universal influenza vaccine targets (HA stalk, M2e, NP), and baloxavir resistance mechanisms are planned expansions. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Influenza-A%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
     </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="lung.html">Lung</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

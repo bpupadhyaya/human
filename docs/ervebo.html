@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Live recombinant VSV vector with Zaire ebolavirus GP replacing VSV-G. Single-dose IM; no adjuvant. First licensed Ebola vaccine (FDA/EMA/WHO 2019). 100% efficac">
-  <meta property="og:title" content="Ervebo (rVSV-ZEBOV-GP) — Human Engineering">
+  <meta name="description" content="Ervebo (rVSV-ZEBOV-GP) — first licensed Ebola vaccine. Live recombinant VSV vector; single dose; 100% efficacy Guinea ring trial; 97.5% DRC field effectiveness. Arthralgia safety signal. Human Engineering project.">
+  <meta property="og:title" content="Ervebo (rVSV-ZEBOV-GP) — Vaccine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Ervebo (rVSV-ZEBOV-GP) — Human Engineering</title>
+  <title>Ervebo (rVSV-ZEBOV-GP) — Vaccine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0369a1;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,59 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #075985); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -119,70 +118,197 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 02 — Viral Vector</div>
+    <div class="hero-eyebrow">Atlas Four &middot; Vaccine &middot; Viral Vector</div>
     <h1>Ervebo (rVSV-ZEBOV-GP)</h1>
-    <p class="tagline">Live recombinant VSV vector with Zaire ebolavirus GP replacing VSV-G. Single-dose IM; no adjuvant. First licensed Ebola vaccine (FDA/EMA/WHO 2019). 100% efficacy (Guinea ring trial). Used in 2018–2020 DRC outbreak (325,000+ doses; 97.5% VE).</p>
-    <p class="aliases">Also known as: rVSV-ZEBOV, V920, VSV-EBOLA</p>
+    <p class="tagline">World's first licensed Ebola vaccine — live replication-competent VSV vector with Zaire EBOV glycoprotein; single dose; 100% per-protocol efficacy in the Guinea ring trial.</p>
+    <p class="subtagline">rVSV-ZEBOV &middot; V920 &middot; Merck/PHAC &middot; EMA Nov 2019 &middot; FDA Dec 2019 &middot; 325,000+ doses in DRC 2018–2020 &middot; 97.5% field effectiveness</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">02 — Viral Vector</span><span class="stat-label">Platform</span></div>
-        <div class="stat"><span class="stat-num">intramuscular</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">-60°C to -80°C (frozen storage); thaw before use; do not refreeze</span><span class="stat-label">Cold Chain</span></div>
-        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Guinea Ring Trial VE</span></div>
+      <div class="stat"><span class="stat-num">97.5%</span><span class="stat-label">DRC Field Effectiveness</span></div>
+      <div class="stat"><span class="stat-num">~25%</span><span class="stat-label">Arthralgia Rate</span></div>
+      <div class="stat"><span class="stat-num">1 dose</span><span class="stat-label">Complete Schedule</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
-        <div class="entry-eyebrow">ervebo</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Vaccine Atlas &middot; Viral Vector &middot; Live Replication-Competent</div>
         <h2>Ervebo (rVSV-ZEBOV-GP)</h2>
-        <p class="summary">Live recombinant VSV vector with Zaire ebolavirus GP replacing VSV-G. Single-dose IM; no adjuvant. First licensed Ebola vaccine (FDA/EMA/WHO 2019). 100% efficacy (Guinea ring trial). Used in 2018–2020 DRC outbreak (325,000+ doses; 97.5% VE).</p>
+        <div class="drug-class">Platform: Live replication-competent recombinant VSV &nbsp;|&nbsp; Route: Single dose IM &nbsp;|&nbsp; Developer: PHAC / Merck Sharp &amp; Dohme</div>
+        <p class="summary">Recombinant VSV with the native VSV glycoprotein gene (VSV-G) completely replaced by the Zaire ebolavirus glycoprotein gene (EBOV GP1,2). The vaccine replicates at the injection site and in synovial tissue, providing strong innate self-adjuvanting and durable EBOV GP-specific IgG. Single intramuscular dose. Arthritis/arthralgia (~25%) is the defining safety signal, caused by VSV replication in synovial fibroblasts. First licensed Ebola vaccine globally: EMA November 11, 2019; FDA December 19, 2019.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">rVSV-ZEBOV</span>
+          <span class="alias-pill">V920</span>
+          <span class="alias-pill">VSV-EBOLA</span>
+          <span class="alias-pill">Ervebo</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>ervebo</td></tr>
-            <tr><td>Name</td><td>Ervebo (rVSV-ZEBOV-GP)</td></tr>
-            <tr><td>Status</td><td>active</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Platform</td><td>02 — Viral Vector</td></tr>
-            <tr><td>Delivery system</td><td>live replication-competent recombinant VSV vector</td></tr>
-            <tr><td>Adjuvants</td><td>None</td></tr>
-            <tr><td>Route</td><td>intramuscular</td></tr>
-            <tr><td>Dose schedule</td><td>single dose (0.5 mL IM); no booster required</td></tr>
-            <tr><td>Manufacturer</td><td>Merck Sharp &amp; Dohme (MSD); originally developed by Public Health Agency of Canada (PHAC), licensed to NewLink Genetics then Merck</td></tr>
-            <tr><td>Cold chain</td><td>-60°C to -80°C (frozen storage); thaw before use; do not refreeze</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p>Ervebo was originally engineered at the <strong>Public Health Agency of Canada (PHAC)</strong>, Winnipeg, by Gary Kobinger, Heinz Feldmann, and colleagues, who published the foundational preclinical data in <em>Nature Medicine</em> in 2005. PHAC licensed it to NewLink Genetics, which sublicensed it to <strong>Merck Sharp &amp; Dohme</strong> in 2014 amid the West Africa Ebola emergency. Merck completed development, ran the pivotal Guinea ring trial ("Ebola &ccedil;a Suffit!"), and manufactures the licensed product.</p>
+          <p>The molecular design is elegant: the entire VSV glycoprotein gene (VSV-G — the viral attachment/fusion protein and sole surface antigen) is <strong>completely replaced</strong> by the Zaire EBOV glycoprotein gene (GP1,2). The chimeric virus retains VSV's replication machinery (N, P, M, L proteins) and can replicate in a wide range of host cells, but presents exclusively EBOV GP on its surface. This simultaneously renders EBOV GP the sole immunogen and attenuates the virus relative to wild-type VSV, because EBOV GP is a less efficient fusion protein for most non-Ebola-susceptible cells and because deletion of VSV-G removes VSV's principal neurovirulence determinant.</p>
+          <p>Ervebo's real-world deployment has been almost exclusively in <strong>outbreak response</strong> via ring vaccination — vaccinating contacts and contacts-of-contacts of confirmed cases, adapted from the smallpox eradication playbook. The 2018–2020 DRC North Kivu/Ituri outbreak (3,481 cases, 2,299 deaths — second-largest in history) saw &gt;325,000 doses administered under expanded access, with estimated field effectiveness of <strong>97.5%</strong>. The vaccine is not currently used in routine childhood immunization; Ebola's episodic zoonotic spillover pattern makes outbreak-response deployment the rational strategy.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="ebola-virus.html" title="Ervebo replaces VSV-G with EBOV GP1,2 — the sole antigen. Neutralizing IgG against EBOV GP correlates with protection; 100% efficacy in Guinea ring trial, 97.5% in DRC outbreak (2018–2020)."><span class="rel">prevents</span>Ebola Virus</a>
-            <a class="conn-pill" href="immune-system.html" title="rVSV replication drives innate activation via RIG-I/MDA5 and TLR signaling. Outcome: strong Th1/Th2 CD4+, CD8+ CTL, and durable neutralizing IgG. Live vector self-adjuvants; no exogenous adjuvant needed."><span class="rel">elicits</span>Immune System</a>
-            <a class="conn-pill" href="dendritic-cell.html" title="DCs are the primary APCs processing VSV-delivered Ebola GP. VSV infects DCs directly, enabling MHC II presentation (CD4+ priming) and cross-presentation via MHC I (CD8+ CTL priming), driving durable adaptive immunity."><span class="rel">elicits</span>Dendritic Cell</a>
-            <a class="conn-pill" href="macrophage.html" title="VSV replicates in macrophages at the IM site and synovial tissue, providing antigen depot and innate signaling. Synovial macrophage infection underlies the ~25% arthritis/arthralgia adverse event post-vaccination."><span class="rel">elicits</span>Macrophage</a>
+          <h3>Platform &amp; Antigen Design</h3>
+          <h4>rVSV-ZEBOV-GP Vector Architecture</h4>
+          <div class="pathway-block">
+<pre>
+  Wild-type VSV genome: N — P — M — G — L
+                                    |
+                                    └─ VSV-G REPLACED by EBOV GP1,2
+
+  rVSV-ZEBOV-GP:         N — P — M — [EBOV GP] — L
+    - Replication-competent (N, P, M, L intact)
+    - EBOV GP is the sole surface protein and sole immunogen
+    - Entry via macropinocytosis + late-endosomal NPC1 receptor (EBOV tropism)
+    - Attenuated vs. wt-VSV: EBOV GP less efficient fusion protein
+
+  IM injection (0.5 mL, 10⁸ PFU)
+        │
+        ├─ Local replication (1–4 days) in macrophages, DCs, fibroblasts
+        │    dsRNA intermediates + 5'-ppp RNA → RIG-I / MDA5 → MAVS
+        │    → IRF3/IRF7 → type I IFN (IFN-α/β) burst
+        │    → TLR3/7/8 → NF-κB → IL-6, TNF-α, IL-12
+        │    (strong innate adjuvanting; no exogenous adjuvant needed)
+        │
+        ├─ Transient low-level viremia (days 1–7)
+        │    → systemic lymphoid tissue engagement (spleen, etc.)
+        │
+        ├─ DCs migrate to draining LN → EBOV GP on MHC II → CD4⁺ Th1/Th2
+        │                                EBOV GP on MHC I  → CD8⁺ CTL
+        │
+        └─ B cells → EBOV GP-specific IgG (IgG1/IgG3)
+             Detectable day 7–14; peaks day 28
+             Correlate of protection: EBOV GP-specific neutralizing IgG
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:1rem;">
+            <li><strong>VSV-G → EBOV GP swap:</strong> Complete glycoprotein gene replacement makes EBOV GP the sole antigen, ensuring focused, monovalent immune responses without any anti-VSV immunity diversion.</li>
+            <li><strong>Self-adjuvanting replication:</strong> VSV's dsRNA intermediates and 5&prime;-ppp RNA activate RIG-I and MDA5 — producing a type I interferon burst that acts as an endogenous adjuvant, driving DC maturation without formulated adjuvant.</li>
+            <li><strong>Rapid IgG kinetics:</strong> EBOV GP-specific IgG detectable within 7–14 days — critically matching the protection timeline in ring vaccination where early post-exposure protection is required.</li>
+            <li><strong>CD8+ CTL via direct infection:</strong> VSV infects dendritic cells directly, loading EBOV GP peptides onto MHC I and priming CD8+ cytotoxic T lymphocytes — a cellular immune arm in addition to the dominant antibody response.</li>
+            <li><strong>Synovial tropism:</strong> VSV-ZEBOV-GP replicates in synovial fibroblasts and macrophages at joint spaces, causing the characteristic ~25% arthritis/arthralgia adverse event and vesicular skin lesions (~10%).</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h3>Immunogenicity</h3>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Humoral Response</h4>
+              <p>EBOV GP-specific IgG (IgG1/IgG3) detectable day 7–14; peaks day 28. Geometric mean titers 3,000–10,000 ELISA units at day 28. Neutralizing antibodies persist &ge;12 months; protective titers detectable &ge;2 years in Sierra Leone trial participants. Neutralizing titer is the primary correlate of protection.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>CD4⁺ / CD8⁺ T-Cell Response</h4>
+              <p>Mixed Th1/Th2 CD4&sup+ responses (IFN-&gamma;, IL-4); CD8&sup+ CTLs with EBOV GP-specific cytolytic activity via direct DC infection. T-cell responses detectable from day 14; contribute to clearing virally infected cells and may support durable protection beyond antibody alone.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Innate Activation</h4>
+              <p>VSV replication activates RIG-I/MDA5 (dsRNA intermediates, 5&prime;-ppp RNA) + TLR3/7/8 → IRF3/7 → type I IFN burst; NF-&kappa;B → IL-6, IL-12, TNF-&alpha;. This is the most powerful innate adjuvanting mechanism of any licensed vaccine — equivalent to acute viral infection innate signaling.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Duration / Durability</h4>
+              <p>EBOV GP-specific IgG persists &ge;12 months (measured in Guinea ring trial participants); detectable titers at 2 years in Sierra Leone STRIVE trial cohort. Whether protection extends beyond 2 years — and whether a booster will eventually be needed — is an active area of investigation. Replication-competent vectors generally produce more durable immunity than non-replicating platforms.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Clinical Efficacy</h3>
+          <table class="data-table">
+            <tr><th>Trial / Study</th><th>Design</th><th>n</th><th>Primary Endpoint</th><th>VE%</th></tr>
+            <tr>
+              <td><strong>Guinea Ring Trial Interim — Henao-Restrepo 2015 (Lancet)</strong></td>
+              <td>Phase 3 cluster-RCT, ring vaccination; Guinea, West Africa</td>
+              <td>4,123 contacts</td>
+              <td>Confirmed EVD &ge;10 days post-vaccination</td>
+              <td class="trial-result">100% per-protocol (immediate rings: 0/2,119 cases vs. 16/2,004 delayed ring)</td>
+            </tr>
+            <tr>
+              <td><strong>Guinea Ring Trial Final — Henao-Restrepo 2017 (Lancet)</strong></td>
+              <td>Phase 3 final analysis, same trial</td>
+              <td>&gt;11,000 in rings</td>
+              <td>Confirmed EVD</td>
+              <td class="trial-result">100% per-protocol confirmed; modified ITT 70.8% (95% CI 31.1–88.1%)</td>
+            </tr>
+            <tr>
+              <td><strong>DRC 2018–2020 Compassionate Use</strong></td>
+              <td>Field effectiveness, ring vaccination, North Kivu/Ituri</td>
+              <td>325,000+ doses</td>
+              <td>Confirmed EVD in vaccinated contacts</td>
+              <td class="trial-result">97.5% (95% CI 95.8–98.7%) field effectiveness</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Safety Profile</h3>
+          <ul class="se-list">
+            <li><span class="badge badge-lo">Common</span> <strong>Injection-site pain/erythema</strong> — ~60–70%; onset day 1–2; resolves 2–5 days. Fatigue, myalgia: ~35–45%; headache: ~30–40%; chills: ~15–25%.</li>
+            <li><span class="badge badge-lo">Common</span> <strong>Fever (&ge;38°C)</strong> — ~25–30%; onset day 1–3; resolves 1–3 days.</li>
+            <li><span class="badge badge-hi">Common / Important</span> <strong>Arthritis / arthralgia</strong> — ~25% of vaccinees. Onset day 7–21 (delayed relative to injection reactions). Mechanism: VSV-ZEBOV-GP replicates in synovial fibroblasts and macrophages. Polyarticular pattern (hands, wrists, ankles, knees). Duration: most resolve weeks–months; &lt;3% persistent &gt;6 months (chronic arthralgia). Management: NSAIDs; joint aspiration if large effusion. Skin vesicles (~10%) accompany arthritis in many cases.</li>
+            <li><span class="badge badge-mod">Uncommon</span> <strong>Vesicular skin lesions</strong> — ~10%; onset day 7–21; small fluid-filled blisters on trunk/hands/oral mucosa; contain live rVSV-ZEBOV-GP; self-limiting; vaccinees advised to cover until healed.</li>
+            <li><span class="badge badge-mod">Uncommon</span> <strong>Transient viremia</strong> — detectable in a subset of vaccinees days 1–7; potential but undocumented transmission risk; vaccine not recommended for close contacts of immunocompromised individuals during this window.</li>
+            <li><span class="badge badge-hi">Contraindication</span> <strong>Severe immunocompromise</strong> — HIV with low CD4+, primary immunodeficiency, high-dose corticosteroids: risk of uncontrolled VSV replication; generally contraindicated except when risk of actual EBOV exposure clearly outweighs risk.</li>
+            <li><span class="badge badge-hi">Contraindication</span> <strong>Pregnancy</strong> — not formally approved; WHO guidance allows use in pregnant women at high Ebola exposure risk (healthcare workers, direct contacts) under expanded access; no safety signal detected in DRC post-outbreak analyses.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Administration</h3>
+          <table class="data-table">
+            <tr><th>Parameter</th><th>Details</th></tr>
+            <tr><td>Dose / Schedule</td><td>Single dose: 1 mL IM; ~1&times;10&sup8; plaque-forming units (PFU); no booster in current labeling</td></tr>
+            <tr><td>Route</td><td>Intramuscular (deltoid); not IV or SC</td></tr>
+            <tr><td>Storage</td><td>&minus;60°C to &minus;80°C frozen storage; thaw before use; do not refreeze; ultra-cold chain required — logistic challenge in outbreak settings</td></tr>
+            <tr><td>Indications</td><td>FDA/EMA: adults &ge;18 years; ring vaccination of contacts and contacts-of-contacts of confirmed Zaire EBOV cases; healthcare workers and frontline responders in outbreak settings</td></tr>
+            <tr><td>Contraindications</td><td>Severe immunocompromise; allergy to rice protein or any vaccine component; hypersensitivity to any prior dose</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="pathogens.html" class="conn-pill targets">
+              <span class="rel">Immunizes vs.</span>
+              Ebola Virus (ZEBOV)
+            </a>
+            <a href="immune-system.html" class="conn-pill">
+              <span class="rel">Elicits</span>
+              Immune System
+            </a>
+            <a href="dendritic-cell.html" class="conn-pill">
+              <span class="rel">Via</span>
+              Dendritic Cell
+            </a>
+            <a href="b-cell.html" class="conn-pill">
+              <span class="rel">Elicits</span>
+              B Cell (EBOV GP IgG)
+            </a>
+            <a href="azd1222.html" class="conn-pill acts">
+              <span class="rel">Platform Class</span>
+              AZD1222 (Viral Vector)
+            </a>
+            <a href="bcg.html" class="conn-pill acts">
+              <span class="rel">Live Vector Compare</span>
+              BCG
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/S0140-6736(15)61117-5" target="_blank" rel="noopener noreferrer">Henao-Restrepo AM, Longini IM, Egger M, et al. Efficacy and effectiveness of an rVSV-vectored vaccine expressing Ebola surface glycoprotein: interim results from the Guinea ring vaccination cluster-randomised trial. Lancet. 2015;386(9996):857-866.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26248676/" target="_blank" rel="noopener noreferrer">PubMed 26248676</a></li>
-            <li><a href="https://doi.org/10.1016/S0140-6736(16)32621-6" target="_blank" rel="noopener noreferrer">Henao-Restrepo AM, Camacho A, Longini IM, et al. Efficacy and effectiveness of an rVSV-vectored vaccine in preventing Ebola virus disease: final results from the Guinea ring vaccination, open-label, cluster-randomised trial (Ebola ça Suffit!). Lancet. 2017;389(10068):505-518.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28017403/" target="_blank" rel="noopener noreferrer">PubMed 28017403</a></li>
-            <li><a href="https://doi.org/10.1016/S1473-3099(19)30124-8" target="_blank" rel="noopener noreferrer">Mbala-Kingebeni P, Pratt CB, Wiley MR, et al. 2018 Ebola Virus Disease Outbreak in Équateur Province, Democratic Republic of the Congo: A Retrospective Study. Lancet Infect Dis. 2019;19(6):641-647.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30987916/" target="_blank" rel="noopener noreferrer">PubMed 30987916</a></li>
-            <li><a href="https://www.fda.gov/vaccines-blood-biologics/vaccines/ervebo" target="_blank" rel="noopener noreferrer">U.S. Food and Drug Administration. ERVEBO (Ebola Zaire Vaccine, Live) — Prescribing Information. FDA BLA 125630. December 2019.</a></li>
-            <li><a href="https://doi.org/10.1038/nm1258" target="_blank" rel="noopener noreferrer">Jones SM, Feldmann H, Ströher U, et al. Live attenuated recombinant vaccine protects nonhuman primates against Ebola and Marburg viruses. Nat Med. 2005;11(7):786-790.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15937495/" target="_blank" rel="noopener noreferrer">PubMed 15937495</a></li>
+            <li>Henao-Restrepo AM, Longini IM, Egger M, et al. Efficacy and effectiveness of an rVSV-vectored vaccine expressing Ebola surface glycoprotein: interim results from the Guinea ring vaccination cluster-randomised trial. <em>Lancet.</em> 2015;386(9996):857-866. <a href="https://doi.org/10.1016/S0140-6736(15)61117-5">doi:10.1016/S0140-6736(15)61117-5</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26248676/">PMID 26248676</a></li>
+            <li>Henao-Restrepo AM, Camacho A, Longini IM, et al. Efficacy and effectiveness of an rVSV-vectored vaccine in preventing Ebola virus disease: final results from the Guinea ring vaccination trial (Ebola &ccedil;a Suffit!). <em>Lancet.</em> 2017;389(10068):505-518. <a href="https://doi.org/10.1016/S0140-6736(16)32621-6">doi:10.1016/S0140-6736(16)32621-6</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28017403/">PMID 28017403</a></li>
+            <li>Jones SM, Feldmann H, Str&ouml;her U, et al. Live attenuated recombinant vaccine protects nonhuman primates against Ebola and Marburg viruses. <em>Nat Med.</em> 2005;11(7):786-790. <a href="https://doi.org/10.1038/nm1258">doi:10.1038/nm1258</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15937495/">PMID 15937495</a></li>
+            <li>U.S. Food and Drug Administration. ERVEBO (Ebola Zaire Vaccine, Live) — Prescribing Information. FDA BLA 125630. December 2019. <a href="https://www.fda.gov/vaccines-blood-biologics/vaccines/ervebo">fda.gov/vaccines/ervebo</a></li>
           </ul>
         </div>
 
@@ -191,17 +317,18 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="azd1222.html">AZD1222</a>
+      <a href="bcg.html">BCG</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

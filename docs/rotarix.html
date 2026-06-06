@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Oral live-attenuated human rotavirus vaccine (G1P[8] strain RIX4414); 2-dose series at 2 and 4 months. 85–96% efficacy against severe RVGE in high-income settin">
-  <meta property="og:title" content="Rotarix (RIX4414) — Human Engineering">
+  <meta name="description" content="Rotarix (RIX4414) — GSK live-attenuated oral monovalent G1P[8] rotavirus vaccine. Mucosal immunity, sIgA, HBGA hypothesis, global efficacy gradient, intussusception signal. Human Engineering project.">
+  <meta property="og:title" content="Rotarix (RIX4414) — Vaccine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Rotarix (RIX4414) — Human Engineering</title>
+  <title>Rotarix (RIX4414) — Vaccine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0369a1;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,174 +32,324 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #075985); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .detail-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .detail-table td { padding: 0.55rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; width: 9rem; }
+    .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+    .conn-pill { display: inline-block; padding: 0.3rem 0.8rem; background: rgba(3,105,161,0.08); border: 1px solid rgba(3,105,161,0.2); border-radius: 999px; font-size: 0.82rem; font-weight: 600; color: var(--accent); transition: background .15s; }
+    .conn-pill:hover { background: rgba(3,105,161,0.16); color: var(--accent); }
+    .ref-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .ref-list li { font-size: 0.85rem; color: var(--muted); line-height: 1.6; padding-left: 1.4rem; position: relative; }
+    .ref-list li::before { content: "›"; position: absolute; left: 0.3rem; color: var(--accent); font-weight: 700; }
+    .ref-list a { color: var(--accent); }
+    .ref-list a:hover { color: var(--bio); }
+    footer { border-top: 1px solid var(--border-soft); padding: 2.5rem 1.5rem; }
+    .footer-inner { max-width: var(--maxw); margin: 0 auto; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-meta { font-size: 0.82rem; color: var(--muted); }
   </style>
 </head>
 <body>
-
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
+<nav>
+  <div class="nav-inner">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      Human Engineering
     </div>
-  </nav>
-
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 05 — Live-Attenuated</div>
-    <h1>Rotarix (RIX4414)</h1>
-    <p class="tagline">Oral live-attenuated human rotavirus vaccine (G1P[8] strain RIX4414); 2-dose series at 2 and 4 months. 85–96% efficacy against severe RVGE in high-income settings; WHO prequalified 2007; deployed in 100+ country immunization programs.</p>
-    <p class="aliases">Also known as: RIX4414, rotavirus vaccine, live oral, human rotavirus vaccine</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">05 — Live-Attenuated</span><span class="stat-label">Platform</span></div>
-        <div class="stat"><span class="stat-num">oral</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">2–8°C; must NOT be frozen; oral applicator stored refrigerated; shelf life ~3 years</span><span class="stat-label">Cold Chain</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+    <div class="nav-links">
+      <a href="index.html" class="nav-back">
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 2L4 7l5 5"/></svg>
+        Home
+      </a>
+      <a href="medicine.html">Medicine</a>
+      <a href="immune-system.html">Immune System</a>
     </div>
   </div>
+</nav>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+<section class="hero">
+  <div class="hero-eyebrow">Atlas Four · Vaccine · Live-Attenuated (Oral)</div>
+  <h1>Rotarix (RIX4414)</h1>
+  <p class="tagline">Monovalent live-attenuated oral G1P[8] rotavirus vaccine — mucosal sIgA, gut-homing, cross-protection</p>
+  <p class="subtagline">GSK · ~30–35 Vero-cell passages · 2-dose oral series · Peyer's patches → α4β7 integrin → secretory IgA · WHO EML · 89 countries (GAVI)</p>
+  <div class="stat-row">
+    <div class="stat"><span class="stat-num">96.4%</span><span class="stat-label">VE severe RVGE (European Phase 3)</span></div>
+    <div class="stat"><span class="stat-num">49%</span><span class="stat-label">VE severe RVGE (Africa trial)</span></div>
+    <div class="stat"><span class="stat-num">~200,000</span><span class="stat-label">rotavirus deaths prevented/year</span></div>
+    <div class="stat"><span class="stat-num">~1–2/100k</span><span class="stat-label">intussusception risk, dose 1</span></div>
+  </div>
+</section>
+
+<main>
+  <div class="detail-card">
+    <div class="detail-header">
+      <div class="entry-eyebrow">Vaccine Entry · Atlas Four</div>
+      <h2>Rotarix (RIX4414)</h2>
+      <div class="drug-class">Live-Attenuated Oral Vaccine · Monovalent G1P[8] Rotavirus · Mucosal Immunity · Pediatric</div>
+      <p class="summary">Rotarix is a live-attenuated, human G1P[8] rotavirus vaccine (strain RIX4414) administered orally in a 2-dose series at 2 and 4 months of age. It induces gut mucosal immunity via secretory IgA (sIgA) and cellular responses in Peyer's patches, providing cross-protective immunity against heterologous serotypes. Efficacy ranges from 96% in high-income settings to 49% in sub-Saharan Africa, reflecting a complex gradient driven by HBGA secretor status, enteropathogen burden, maternal antibody interference, and OPV co-administration.</p>
+      <div class="alias-pills">
+        <span class="alias-pill">Rotarix</span>
+        <span class="alias-pill">RIX4414</span>
+        <span class="alias-pill">G1P[8] human rotavirus strain</span>
+        <span class="alias-pill">Live oral rotavirus vaccine</span>
+      </div>
     </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
-        <div class="entry-eyebrow">rotarix</div>
-        <h2>Rotarix (RIX4414)</h2>
-        <p class="summary">Oral live-attenuated human rotavirus vaccine (G1P[8] strain RIX4414); 2-dose series at 2 and 4 months. 85–96% efficacy against severe RVGE in high-income settings; WHO prequalified 2007; deployed in 100+ country immunization programs.</p>
+    <div class="detail-body">
+
+      <!-- OVERVIEW -->
+      <div class="detail-section">
+        <h3>Overview</h3>
+        <p>Rotavirus is the leading cause of severe diarrheal disease in children under 5 globally, responsible for approximately 200,000 deaths per year (post-vaccine introduction era) and hundreds of millions of episodes annually. Before vaccine introduction, virtually all children were infected by age 5 in both high- and low-income settings. The <strong>RIX4414</strong> strain used in Rotarix was derived from a natural G1P[8] human rotavirus isolate, attenuated by approximately 30–35 serial passages in Vero cells under controlled conditions. It was developed by <strong>GlaxoSmithKline (GSK)</strong> and first licensed in Mexico in 2004, followed by WHO prequalification and EMA approval in 2006, and FDA approval in 2008. It is now included in over 89 countries' national immunization programs through GAVI support.</p>
+        <p>The oral route of administration is functionally critical: <strong>replication in the gut epithelium and Peyer's patch M cells</strong> directly stimulates the gut-associated lymphoid tissue (GALT), inducing virus-specific B cells that express α4β7 integrin (the gut-homing receptor), migrate via mesenteric lymph nodes and thoracic duct to the lamina propria, and differentiate into IgA-secreting plasma cells. The resulting <strong>secretory IgA (sIgA)</strong> neutralizes incoming rotavirus at the mucosal surface before cell entry. This mucosal immunity provides cross-protection against heterologous G- and P-type strains beyond G1P[8], because VP4 and VP6 epitopes shared across strains trigger broadly reactive sIgA.</p>
+        <p>Efficacy data from the landmark <strong>Vesikari 2007 Lancet</strong> European Phase 3 trial (96.4% VE against severe rotavirus gastroenteritis, RVGE) contrasts markedly with <strong>Madhi 2010 NEJM</strong> Africa data (49–61.2% VE), revealing a robust income/latitude-linked efficacy gradient confirmed by the Burnett 2020 <em>Lancet Global Health</em> meta-analysis. Proposed mechanisms for this gradient include higher background rates of enteropathogens interfering with vaccine virus replication, lower HBGA secretor-status prevalence reducing VP8* binding in certain African populations, maternal breast-milk anti-rotavirus antibodies neutralizing vaccine virus, and OPV co-administration interference.</p>
       </div>
-      <div class="detail-body">
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>rotarix</td></tr>
-            <tr><td>Name</td><td>Rotarix (RIX4414)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Platform</td><td>05 — Live-Attenuated</td></tr>
-            <tr><td>Delivery system</td><td>live attenuated human rotavirus in oral liquid formulation</td></tr>
-            <tr><td>Adjuvants</td><td>None</td></tr>
-            <tr><td>Route</td><td>oral</td></tr>
-            <tr><td>Dose — primary series</td><td>2 doses at 2 and 4 months of age (oral)</td></tr>
-            <tr><td>Dose — notes</td><td>First dose must be given between 6 and 12 weeks of age; series must be completed by 24 weeks of age per WHO guidance</td></tr>
-            <tr><td>Developer</td><td>GlaxoSmithKline (GSK)</td></tr>
-            <tr><td>Cold chain</td><td>2–8°C; must NOT be frozen; oral applicator stored refrigerated; shelf life ~3 years</td></tr>
-            <tr><td>WHO (2007)</td><td>Prequalified</td></tr>
-            <tr><td>FDA (USA) (2008)</td><td>Approved</td></tr>
-            <tr><td>EMA (2006)</td><td>Approved</td></tr>
-          </table>
+      <!-- PLATFORM & ANTIGEN DESIGN -->
+      <div class="detail-section">
+        <h3>Platform &amp; Antigen Design</h3>
+        <div class="pathway-block">
+<pre>
+LIVE-ATTENUATED ORAL ROTAVIRUS — GUT MUCOSAL IMMUNITY CIRCUIT
+==============================================================
+
+  Oral dose (RIX4414 live virus)
+          │
+          ▼
+  Intestinal lumen
+  → Replication in villous enterocytes + M cells
+    over Peyer's patches
+          │
+          ▼
+  Antigen uptake by subepithelial DCs
+  → Peyer's patch follicle B-cell activation
+  → Gut-homing imprinting: α4β7 integrin upregulation
+          │
+          ▼
+  B cells migrate: mesenteric LN → thoracic duct
+  → blood → intestinal lamina propria
+          │
+          ▼
+  Differentiation: IgA-secreting plasma cells
+  → Secretory IgA (sIgA) — pIgR-mediated transcytosis
+  → Secretory component protects sIgA from proteolysis
+          │
+          ▼
+  sIgA in intestinal lumen
+  → Neutralizes incoming rotavirus (VP4/VP7/VP6)
+  → Cross-reactive vs. G1–G4, G9, P[8], P[4] serotypes
+
+  EFFICACY GRADIENT HYPOTHESIS:
+  High income: ~96% VE ← clean water + low pathogen burden
+  Low income:  ~49% VE ← HBGA non-secretors (P[8] can't bind)
+                        + maternal anti-RV sIgA (breast milk)
+                        + OPV competition + enteropathogen load
+</pre>
         </div>
+        <ol class="step-list" style="margin-top:1rem;">
+          <li><strong>Attenuation:</strong> Wild-type human G1P[8] rotavirus serially passaged ~30–35 times in Vero cells; attenuated strains replicate less efficiently in the gut, causing no disease but sufficient immunostimulation to prime GALT.</li>
+          <li><strong>Gut replication:</strong> Vaccine virus replicates in villous enterocytes and M cells overlying Peyer's patches, producing viral antigens (VP2, VP4, VP6, VP7, NSP4) that are sampled by subepithelial dendritic cells and macrophages.</li>
+          <li><strong>Gut-homing imprinting:</strong> Peyer's patch DCs present antigen and provide retinoic acid signals that upregulate α4β7 integrin and CCR9 on activated B cells, directing their migration back to the intestinal lamina propria.</li>
+          <li><strong>sIgA secretion:</strong> Lamina propria plasma cells secrete dimeric IgA, which is transcytosed by the polymeric immunoglobulin receptor (pIgR) across epithelial cells and released as secretory IgA into the intestinal lumen, with the secretory component providing protease resistance.</li>
+          <li><strong>Cross-protection:</strong> sIgA antibodies target conserved VP6 epitopes (inner capsid protein) and VP4 P[8] epitopes shared across common strains, providing heterotypic immunity beyond the vaccine's G1P[8] genotype.</li>
+        </ol>
+      </div>
 
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="rotavirus.html" title="G1P[8] live strain elicits VP7/VP4 neutralizing antibodies and mucosal IgA; 85–96% efficacy against severe RVGE in high-income settings; heterotypic protection against G2–G4, G9 strains via cross-reactive immunity."><span class="rel">prevents</span>Rotavirus</a>
-            <a class="conn-pill" href="immune-system.html" title="Drives mucosal and systemic immunity: intestinal IgA secretion, serum IgG and IgA, rotavirus-specific CD4+ and CD8+ T-cell responses; innate activation via dsRNA (TLR3/MDA5) and NSP4 enterotoxin signaling."><span class="rel">elicits</span>Immune System</a>
-            <a class="conn-pill" href="t-helper-cell.html" title="Th1/Th2 mixed CD4+ response; Th2-skewed IgA class-switching in Peyer's patches and mesenteric lymph nodes; Tfh cells support germinal center B-cell maturation for high-affinity anti-VP7/VP4 antibody production."><span class="rel">elicits</span>T Helper Cell</a>
-            <a class="conn-pill" href="small-intestine.html" title="Oral attenuated virus colonizes small-intestinal epithelium transiently; infects enterocytes and M cells overlying Peyer's patches; local antigen presentation drives lamina propria IgA plasma cell differentiation."><span class="rel">replicates-in</span>Small Intestine</a>
+      <!-- IMMUNOGENICITY -->
+      <div class="detail-section">
+        <h3>Immunogenicity</h3>
+        <div class="pleiotropic-grid">
+          <div class="pleio-item">
+            <h4>Humoral Response — Mucosal (sIgA)</h4>
+            <p>Seroconversion (≥3-fold rise in anti-rotavirus IgA) in 77–95% after 2-dose series in high-income settings; 56–73% in low-income settings. Fecal and serum anti-rotavirus sIgA titer correlates with protection. sIgA targets VP4 (P[8]), VP7 (G1), and VP6 (cross-reactive). Gut-mucosal IgA remains detectable for ≥2 years.</p>
+          </div>
+          <div class="pleio-item">
+            <h4>CD4⁺ / CD8⁺ T-Cell Response</h4>
+            <p>Mucosal CD4⁺ Th1 and CD8⁺ cytotoxic T-cell responses against VP6 and NSP4 in Peyer's patches and mesenteric lymph nodes. CD8⁺ CTL in intestinal epithelium contribute to clearance of infected cells. VP6-specific T-cell responses may cross-protect against heterologous strains beyond antibody-mediated protection.</p>
+          </div>
+          <div class="pleio-item">
+            <h4>Innate Activation</h4>
+            <p>Vaccine virus dsRNA activates RIG-I/MDA5 and TLR3 in enterocytes and Peyer's patch DCs, driving type-I and type-III (IFN-λ) interferon responses. Innate activation amplifies antigen presentation and supports the transition to adaptive mucosal immunity. NSP4 (viral enterotoxin) at attenuated doses may contribute to DC activation signals.</p>
+          </div>
+          <div class="pleio-item">
+            <h4>Duration / Durability</h4>
+            <p>Protective sIgA detectable at 1–2 years post-vaccination. Waning correlates with efficacy decline in 2nd–3rd year of life (coincides with exposure to heterologous strains). Natural boosting by circulating rotavirus in the community may extend protection. Memory B cells (α4β7+) in gut-associated lymphoid tissue persist and can be recalled by subsequent natural infection.</p>
           </div>
         </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://doi.org/10.1016/S0140-6736(07)61744-9" target="_blank" rel="noopener noreferrer">Vesikari T, Karvonen A, Prymula R, et al. Efficacy of human rotavirus vaccine against rotavirus gastroenteritis during the first 2 years of life in European infants: randomised, double-blind controlled study. Lancet. 2007;370(9601):1757-1763.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18037080/" target="_blank" rel="noopener noreferrer">PubMed 18037080</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa0904741" target="_blank" rel="noopener noreferrer">Madhi SA, Cunliffe NA, Steele D, et al. Effect of Human Rotavirus Vaccine on Severe Diarrhea in African Infants. N Engl J Med. 2010;362(4):289-298.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20107215/" target="_blank" rel="noopener noreferrer">PubMed 20107215</a></li>
-            <li><a href="https://www.who.int/publications/i/item/WER8805" target="_blank" rel="noopener noreferrer">World Health Organization. Rotavirus vaccines WHO position paper – January 2013. Wkly Epidemiol Rec. 2013;88(5):49-64.</a></li>
-            <li><a href="https://www.who.int/publications/i/item/WER8622" target="_blank" rel="noopener noreferrer">Global Advisory Committee on Vaccine Safety. Rotavirus vaccines and intussusception. Wkly Epidemiol Rec. 2011;86(22):225-226.</a></li>
-            <li><a href="https://doi.org/10.1128/JVI.02690-09" target="_blank" rel="noopener noreferrer">Victoria JG, Wang C, Jones MS, et al. Viral Nucleic Acids in Live-Attenuated Vaccines: Detection of Minority Variants and an Adventitious Virus. J Virol. 2010;84(12):6033-6040.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20375157/" target="_blank" rel="noopener noreferrer">PubMed 20375157</a></li>
-            <li><a href="https://doi.org/10.1016/S2214-109X(20)30262-X" target="_blank" rel="noopener noreferrer">Burnett E, Parashar UD, Tate JE. Real-world effectiveness of rotavirus vaccines, 2006–19: a literature review and meta-analysis. Lancet Glob Health. 2020;8(9):e1195-e1202.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32800145/" target="_blank" rel="noopener noreferrer">PubMed 32800145</a></li>
-          </ul>
-        </div>
-
       </div>
-    </div>
-  </main>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+      <!-- CLINICAL EFFICACY -->
+      <div class="detail-section">
+        <h3>Clinical Efficacy</h3>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Trial / Study</th>
+              <th>Design</th>
+              <th>n</th>
+              <th>Primary Endpoint</th>
+              <th>VE%</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Vesikari 2007 (Europe Phase 3)</td>
+              <td>RCT, 11 European countries; 2-dose series at 2+4 months</td>
+              <td>3,994</td>
+              <td>Severe RVGE (Vesikari score ≥11) through second season</td>
+              <td><span class="trial-result">96.4%</span> (Lancet 2007; doi:10.1016/S0140-6736(07)61946-3)</td>
+            </tr>
+            <tr>
+              <td>Ruiz-Palacios 2006 (Latin America / Finland)</td>
+              <td>Phase 3 RCT; 2-dose oral series</td>
+              <td>63,225</td>
+              <td>Any RVGE; severe RVGE through first rotavirus season</td>
+              <td><span class="trial-result">84.7%</span> severe RVGE; 100% hospitalization prevention</td>
+            </tr>
+            <tr>
+              <td>Madhi 2010 NEJM (Malawi / S. Africa)</td>
+              <td>Phase 3 RCT; 3-dose series (0, 1, 2 months); Africa</td>
+              <td>4,939</td>
+              <td>Severe RVGE (Vesikari ≥11) through first year of life</td>
+              <td><span class="trial-result">49%</span> Malawi; 61.2% S. Africa (doi:10.1056/NEJMoa0904481)</td>
+            </tr>
+            <tr>
+              <td>Burnett 2020 (meta-analysis, Lancet Glob Health)</td>
+              <td>Systematic review; 27 trials across income groups</td>
+              <td>&gt;100,000</td>
+              <td>VE vs. severe RVGE by country income level</td>
+              <td>High-income: ~90%; middle-income: ~74%; low-income: ~57%. Clear income gradient.</td>
+            </tr>
+            <tr>
+              <td>Real-world impact (WHO 2022 review)</td>
+              <td>Pre/post introduction surveillance; 36 GAVI countries</td>
+              <td>National surveillance</td>
+              <td>Rotavirus-attributable diarrhea hospitalizations</td>
+              <td>~59% reduction in hospitalizations; ~200,000 deaths prevented annually</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+      <!-- SAFETY PROFILE -->
+      <div class="detail-section">
+        <h3>Safety Profile</h3>
+        <ul class="se-list">
+          <li><span class="badge badge-hi">Rare / Serious</span> <strong>Intussusception</strong> — Approximately 1–2 excess cases per 100,000 vaccinated infants after dose 1 in high-income settings (Brighton Collaboration criteria). Mechanism: vaccine virus-induced lymphoid hyperplasia in Peyer's patches and ileocecal lymph nodes may trigger ileoileal intussusception. Risk concentrated within 7 days of dose 1. Risk in low-income settings may differ. Benefit-risk clearly favorable globally (~40 intussusception cases per year vs. hundreds of thousands of severe RVGE episodes prevented). ACIP/WHO recommend adhering to age limits to minimize risk.</li>
+          <li><span class="badge badge-hi">Note — 2010 Suspension (resolved)</span> <strong>Porcine circovirus-1 (PCV1) contamination</strong> — FDA temporarily suspended Rotarix in 2010 after PCV1 DNA detected in vaccine. PCV1 is not known to cause disease in humans or animals. Suspension lifted after WHO/FDA risk assessment confirmed no evidence of harm; manufacturing processes updated. Not a current safety concern.</li>
+          <li><span class="badge badge-mod">Common</span> <strong>Irritability / Fussiness</strong> — Most common AE; reported in 25–52% within 8 days of vaccination. Comparable to placebo group rates in blinded trials. Self-limiting.</li>
+          <li><span class="badge badge-mod">Common</span> <strong>Transient diarrhea</strong> — Mild increase in loose stools (5–8% vs. 4% placebo) within first week after oral dose; attributable to vaccine virus replication in gut. Resolves spontaneously.</li>
+          <li><span class="badge badge-lo">Uncommon</span> <strong>Vomiting</strong> — Reported in ~8% within 8 days; similar to placebo. Oral administration means vomiting immediately post-dose raises question of re-dosing (generally not recommended unless dose clearly expelled).</li>
+          <li><span class="badge badge-lo">Uncommon</span> <strong>Fever</strong> — &lt;5% in trials; low-grade; non-differentiable from concurrent intercurrent viral illness in infants. Self-limiting.</li>
+          <li><span class="badge badge-hi">Contraindication</span> <strong>Severe combined immunodeficiency (SCID)</strong> — Vaccine-derived rotavirus replication causes severe prolonged gastroenteritis in SCID infants. Rotarix is absolutely contraindicated in known/suspected SCID. Several SCID cases reported worldwide; screening guidelines for SCID in some countries now include pre-vaccination testing.</li>
+        </ul>
+      </div>
+
+      <!-- ADMINISTRATION -->
+      <div class="detail-section">
+        <h3>Administration</h3>
+        <table class="detail-table">
+          <thead><tr><th>Parameter</th><th>Details</th></tr></thead>
+          <tbody>
+            <tr><td>Dose / Schedule</td><td>2-dose oral series: Dose 1 at 6 weeks of age (not earlier); Dose 2 at 10 weeks. Complete series by 24 weeks of age. Do not give first dose after 15 weeks. Minimum 4-week interval between doses.</td></tr>
+            <tr><td>Route</td><td>Oral (by mouth). Squeeze entire contents of pre-filled oral applicator into infant's cheek. Do not inject.</td></tr>
+            <tr><td>Storage</td><td>2–8 °C (refrigerated). Do not freeze. Protect from light. Lyophilized formulation: reconstitute with liquid diluent immediately before use; use within 24 hours. Liquid formulation: use immediately.</td></tr>
+            <tr><td>Age limits</td><td>First dose: 6–15 weeks of age. Final dose: no later than 24 weeks of age. Age limits designed to minimize intussusception risk (post-Rotashield experience, 1999). Do not administer outside these limits.</td></tr>
+            <tr><td>OPV co-admin</td><td>OPV (oral polio vaccine) may interfere with Rotarix immunogenicity when given simultaneously; WHO recommends separating by ≥2 weeks where feasible, but co-administration is acceptable for programmatic reasons in high-risk polio settings.</td></tr>
+            <tr><td>Contraindications</td><td>Known/suspected SCID or combined immunodeficiency. History of intussusception or intestinal malformation predisposing to intussusception. Hypersensitivity to any component. Defer if acute severe gastroenteritis.</td></tr>
+            <tr><td>Breastfeeding</td><td>May be given to breastfed infants. Some evidence that breast milk anti-rotavirus antibodies may slightly reduce seroconversion in high-burden settings; benefits of breastfeeding outweigh this effect — do not advise suspension of breastfeeding.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- CONNECTIONS -->
+      <div class="detail-section">
+        <h3>Connections</h3>
+        <div class="conn-pills">
+          <a href="immune-system.html" class="conn-pill">Immune System</a>
+          <a href="b-cell.html" class="conn-pill">B Cell</a>
+          <a href="t-helper-cell.html" class="conn-pill">T Helper Cell</a>
+          <a href="gut-microbiome.html" class="conn-pill">Gut Microbiome</a>
+          <a href="peyers-patches.html" class="conn-pill">Peyer's Patches / GALT</a>
+          <a href="secretory-iga.html" class="conn-pill">Secretory IgA</a>
+          <a href="dendritic-cell.html" class="conn-pill">Dendritic Cell</a>
+          <a href="rotavirus.html" class="conn-pill">Rotavirus</a>
+          <a href="diarrheal-disease.html" class="conn-pill">Diarrheal Disease</a>
+          <a href="bcg.html" class="conn-pill">BCG (mucosal parallel)</a>
+        </div>
+      </div>
+
+      <!-- REFERENCES -->
+      <div class="detail-section">
+        <h3>References</h3>
+        <ul class="ref-list">
+          <li>Vesikari T, et al. Safety and Efficacy of a Pentavalent Human–Bovine (WC3) Reassortant Rotavirus Vaccine. <em>N Engl J Med.</em> 2006;354:23–33. (Rotateq; parallel platform comparison) PMID 16394299</li>
+          <li>Vesikari T, et al. Efficacy of human rotavirus vaccine against rotavirus gastroenteritis during the first 2 years of life in European infants. <em>Lancet.</em> 2007;370(9601):1757–1763. <a href="https://doi.org/10.1016/S0140-6736(07)61946-3" target="_blank">doi:10.1016/S0140-6736(07)61946-3</a></li>
+          <li>Madhi SA, et al. Effect of Human Rotavirus Vaccine on Severe Diarrhea in African Infants. <em>N Engl J Med.</em> 2010;362:289–298. <a href="https://doi.org/10.1056/NEJMoa0904481" target="_blank">doi:10.1056/NEJMoa0904481</a></li>
+          <li>Burnett E, et al. Rotavirus vaccine efficacy and effectiveness by country income level: meta-analysis. <em>Lancet Glob Health.</em> 2020;8(9):e1195–e1202. <a href="https://doi.org/10.1016/S2214-109X(20)30228-2" target="_blank">doi:10.1016/S2214-109X(20)30228-2</a></li>
+          <li>Ruiz-Palacios GM, et al. Safety and Efficacy of an Attenuated Vaccine against Severe Rotavirus Gastroenteritis. <em>N Engl J Med.</em> 2006;354:11–22. <a href="https://doi.org/10.1056/NEJMoa052434" target="_blank">doi:10.1056/NEJMoa052434</a></li>
+          <li>Patel MM, et al. Intussusception risk and health benefits of rotavirus vaccination in Mexico and Brazil. <em>N Engl J Med.</em> 2011;364:2283–2292. PMID 21675888</li>
+          <li>WHO. Rotavirus vaccines: WHO position paper — July 2021. <em>Wkly Epidemiol Rec.</em> 2021;96(29/30):301–319.</li>
+        </ul>
+      </div>
+
+    </div><!-- /detail-body -->
+  </div><!-- /detail-card -->
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <p class="footer-meta">Open source · CC BY 4.0 · <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">
+      <em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em>
+    </p>
+  </div>
+</footer>
 </body>
 </html>

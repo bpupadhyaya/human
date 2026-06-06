@@ -3,195 +3,177 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gram-positive, beta-haemolytic Group A Streptococcus (GAS). Causes pharyngitis, scarlet fever, and necrotising fasciitis. Superantigen exotoxins drive toxic sho">
-  <meta property="og:title" content="Streptococcus pyogenes — Human Engineering">
+  <meta name="description" content="Streptococcus pyogenes — Atlas Two Pathogen entry. Group A Streptococcus, M protein, SpeA superantigen, necrotising fasciitis, rheumatic fever, post-streptococcal GN. Human Engineering project.">
+  <meta property="og:title" content="Streptococcus pyogenes — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="GAS: M protein molecular mimicry drives rheumatic fever; SpeA/SpeC superantigens drive STSS; SLO, streptolysin, streptodornase anti-neutrophil evasion.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Streptococcus pyogenes — Human Engineering</title>
   <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+    :root{--bg:#f2f2f7;--bg-elev:#ffffff;--bg-soft:#e5e5ea;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:#d1d1d6;--border-soft:#e5e5ea;--bio:#059669;--eng:#2563eb;--ai:#7c3aed;--human:#d97706;--accent:#92400e;--radius-sm:10px;--radius:18px;--radius-lg:24px;--maxw:1120px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6;-webkit-font-smoothing:antialiased}a{color:var(--bio);text-decoration:none;transition:color .15s}a:hover{color:var(--human)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(242,242,247,0.85);border-bottom:1px solid var(--border-soft)}.nav-inner{max-width:var(--maxw);margin:0 auto;padding:0.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}.brand{display:flex;align-items:center;gap:0.6rem;font-weight:700;font-size:0.98rem;color:var(--fg)}.brand-mark{width:26px;height:26px;border-radius:7px;background:conic-gradient(from 140deg,var(--bio),var(--eng),var(--ai),var(--human),var(--bio));box-shadow:0 0 0 1px rgba(0,0,0,0.08),0 4px 16px rgba(5,150,105,0.2)}.nav-links{display:flex;align-items:center;gap:1.3rem;font-size:0.92rem}.nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}.nav-back{display:inline-flex;align-items:center;gap:0.4rem;color:var(--muted)}.nav-back svg{width:14px;height:14px}@media(max-width:760px){.nav-links a:not(.nav-back):not(.current){display:none}}
+    .hero{max-width:var(--maxw);margin:0 auto;padding:4rem 1.5rem 2.5rem}.hero-eyebrow{display:inline-flex;align-items:center;gap:0.5rem;padding:0.4rem 0.9rem;background:rgba(146,64,14,0.1);color:var(--accent);border-radius:999px;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1.5rem}.hero h1{font-size:clamp(2.5rem,6.5vw,4.5rem);font-weight:800;letter-spacing:-0.035em;color:var(--fg);line-height:1.04;margin-bottom:1.25rem;max-width:18ch}.hero .tagline{font-size:clamp(1.1rem,1.7vw,1.3rem);color:var(--fg-soft);max-width:720px;margin-bottom:0.85rem;font-weight:500}.hero .subtagline{font-size:1rem;color:var(--muted);max-width:720px}.stat-row{display:flex;gap:2.5rem;flex-wrap:wrap;margin-top:2.25rem;padding-top:1.5rem;border-top:1px solid var(--border-soft)}.stat{display:flex;flex-direction:column}.stat-num{font-size:1.6rem;font-weight:800;color:var(--fg);letter-spacing:-0.02em;line-height:1}.stat-label{font-size:0.82rem;color:var(--muted);margin-top:0.35rem;letter-spacing:0.04em;text-transform:uppercase;font-weight:600}
+    main{max-width:var(--maxw);margin:0 auto;padding:0 1.5rem 2rem}.detail-card{background:var(--bg-elev);border:1px solid var(--border-soft);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.5rem;box-shadow:0 4px 14px rgba(0,0,0,0.04)}.detail-header{padding:1.75rem 2rem}.detail-header .entry-eyebrow{font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:0.6rem}.detail-header h3{font-size:clamp(1.6rem,2.8vw,2.2rem);font-weight:800;color:white;letter-spacing:-0.025em;margin-bottom:0.65rem;line-height:1.1}.detail-header .summary{font-size:0.98rem;color:rgba(255,255,255,0.88);line-height:1.65;max-width:780px}.detail-body{padding:1.75rem 2rem;display:flex;flex-direction:column;gap:1.75rem}.detail-section h4{font-size:0.76rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.75rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border-soft)}
+    .detail-table{width:100%;border-collapse:collapse;font-size:0.88rem}.detail-table tr:not(:first-child) td{border-top:1px solid var(--border-soft)}.detail-table td{padding:0.55rem 0.5rem;color:var(--fg-soft);vertical-align:top;line-height:1.5}.detail-table td:first-child{font-weight:600;color:var(--fg);width:30%;padding-right:1rem;white-space:nowrap}
+    .mech-list{display:flex;flex-direction:column;gap:0.6rem}.mech-item{padding:0.9rem 1rem;background:var(--bg);border-radius:var(--radius-sm);border-left:3px solid var(--border)}.mech-item h5{font-size:0.88rem;font-weight:700;color:var(--fg);margin-bottom:0.25rem}.mech-item p{font-size:0.84rem;color:var(--muted);line-height:1.55}.mech-item.danger{border-left-color:#dc2626}.mech-item.immune{border-left-color:var(--ai)}.mech-item.latent{border-left-color:var(--accent)}.mech-item.drug{border-left-color:var(--bio)}
+    .path-table{width:100%;border-collapse:collapse;font-size:0.85rem}.path-table th{text-align:left;padding:0.45rem 0.65rem;background:var(--bg);font-weight:600;font-size:0.74rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted)}.path-table td{padding:0.5rem 0.65rem;border-top:1px solid var(--border-soft);color:var(--fg-soft);vertical-align:top;line-height:1.45}.path-table td:first-child{font-weight:600;color:var(--fg)}
+    .immune-tags{display:flex;flex-wrap:wrap;gap:0.5rem}.itag{padding:0.3rem 0.75rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.8rem;color:var(--fg-soft)}.itag.innate{border-color:var(--human);color:var(--human);background:rgba(217,119,6,0.07)}.itag.adaptive{border-color:var(--ai);color:var(--ai);background:rgba(124,58,237,0.07)}.itag.depleted{border-color:#dc2626;color:#dc2626;background:rgba(220,38,38,0.07)}
+    .connections{display:flex;flex-wrap:wrap;gap:0.6rem}.conn-pill{display:inline-flex;align-items:center;gap:0.4rem;padding:0.4rem 0.85rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.82rem;color:var(--fg-soft);transition:all .15s}.conn-pill:hover{background:var(--bg-soft);color:var(--fg)}.conn-pill .rel{font-weight:700;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;margin-right:0.1rem}.conn-pill.infects .rel{color:var(--ai)}.conn-pill.damages .rel{color:#dc2626}.conn-pill.targets .rel{color:var(--accent)}
+    .refs{list-style:none;display:flex;flex-direction:column;gap:0.5rem}.refs li{font-size:0.82rem;color:var(--muted);line-height:1.55;padding-left:1.1rem;position:relative}.refs li::before{content:'↗';position:absolute;left:0;color:var(--eng);font-size:0.75rem;top:0.08rem}.refs li a{color:var(--eng)}.refs li a:hover{color:var(--human)}
+    .contribute{margin-top:4rem;padding:2.2rem 2rem 2rem;background:var(--bg-elev);border:1px solid var(--border-soft);border-radius:var(--radius-lg);box-shadow:0 4px 14px rgba(0,0,0,0.04)}.contribute h2{font-size:clamp(1.4rem,2vw,1.65rem);font-weight:800;letter-spacing:-0.02em;margin-bottom:0.6rem;color:var(--fg)}.contribute p{color:var(--muted);max-width:720px;margin-bottom:1.5rem}.btn-row{display:flex;gap:0.6rem;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:0.45rem;padding:0.75rem 1.3rem;border-radius:999px;font-weight:700;font-size:0.92rem;border:1px solid transparent;cursor:pointer;transition:transform .15s ease,filter .15s ease,background .15s ease,color .15s ease}.btn-primary{background:linear-gradient(135deg,var(--bio),var(--eng));color:white}.btn-primary:hover{color:white;transform:translateY(-1px);filter:brightness(1.05)}.btn-ghost{background:var(--bg);color:var(--fg);border-color:var(--border)}.btn-ghost:hover{background:var(--bg-soft);color:var(--fg);transform:translateY(-1px)}.btn svg{width:16px;height:16px}
+    footer{margin-top:4rem;padding:2.5rem 1.5rem 2rem;border-top:1px solid var(--border-soft);text-align:center}.footer-tag{font-size:0.95rem;color:var(--muted);max-width:620px;margin:0 auto 1rem}.footer-links{display:flex;gap:1.25rem;justify-content:center;flex-wrap:wrap;font-size:0.88rem;margin-bottom:1rem}.footer-links a{color:var(--muted)}.footer-links a:hover{color:var(--bio)}.footer-meta{font-size:0.8rem;color:var(--muted-2)}
   </style>
 </head>
 <body>
-
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="index.html#mission">Mission</a><a href="index.html#scales">Scales</a><a href="pathogens.html">Pathogens</a><a href="medicine.html">Medicine</a><a href="index.html#join">Join</a>
+      <a href="pathogens.html" class="nav-back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>Pathogens</a>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 02-bacteria</div>
-    <h1>Streptococcus pyogenes</h1>
-    <p class="tagline">Gram-positive, beta-haemolytic Group A Streptococcus (GAS). Causes pharyngitis, scarlet fever, and necrotising fasciitis. Superantigen exotoxins drive toxic shock; M-protein mimicry triggers rheumatic fever and post-streptococcal GN.</p>
-    <p class="aliases">Also known as: Group A Streptococcus, GAS, S. pyogenes, GAS pharyngitis, strep throat organism</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">02-bacteria</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+<div class="hero">
+  <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Bacteria</div>
+  <h1>Streptococcus pyogenes</h1>
+  <p class="tagline">Group A Streptococcus: from sore throat to necrotising fasciitis to rheumatic heart disease. The M protein that evades neutrophils also triggers autoimmune carditis, making GAS uniquely capable of injuring organs it has never infected.</p>
+  <p class="subtagline">GAS combines M-protein molecular mimicry (driving ARF and PSGN), SpeA/SpeC superantigen TSS, SLO-mediated neutrophil killing, and streptodornase NET dissolution into a pathogen responsible for the world&rsquo;s leading preventable cause of heart disease in LMICs.</p>
+  <div class="stat-row">
+    <div class="stat"><span class="stat-num">~750M</span><span class="stat-label">GAS pharyngitis cases/year</span></div>
+    <div class="stat"><span class="stat-num">~40M</span><span class="stat-label">People with rheumatic heart disease</span></div>
+    <div class="stat"><span class="stat-num">&gt;250</span><span class="stat-label">M-types described</span></div>
+    <div class="stat"><span class="stat-num">0</span><span class="stat-label">Acquired penicillin resistance</span></div>
+  </div>
+</div>
+
+<main>
+  <div class="detail-card" id="streptococcus-pyogenes">
+    <div class="detail-header" style="background: linear-gradient(135deg, #92400e, #78350f);">
+      <div class="entry-eyebrow">Streptococcaceae &middot; Gram-positive &middot; Beta-haemolytic &middot; Lancefield Group A &middot; Chains</div>
+      <h3>Streptococcus pyogenes (Group A Streptococcus)</h3>
+      <p class="summary">Gram-positive, beta-haemolytic coccus forming chains; carries Lancefield Group A carbohydrate antigen (N-acetylglucosamine polymer); obligate human pathogen. M protein &mdash; the defining virulence factor (&gt;250 M-types) &mdash; binds complement factor H, blocking C3b opsonisation, and shares epitopes with cardiac myosin and tropomyosin, driving acute rheumatic fever (ARF) via molecular mimicry. Pyrogenic exotoxins SpeA and SpeC are superantigens crosslinking MHC-II with TCR V&beta; to activate up to 20% of T cells, producing Streptococcal TSS (STSS). Streptolysin O (SLO) provides the diagnostic ASO titre rise and kills neutrophils; streptodornase Sda1 dissolves neutrophil extracellular traps. Penicillin/amoxicillin remain universally active &mdash; no acquired penicillin resistance has ever been documented in GAS. ARF is preventable by treating pharyngitis within 9 days of symptom onset.</p>
+    </div>
+    <div class="detail-body">
+
+      <div class="detail-section">
+        <h4>Classification &amp; Structure</h4>
+        <table class="detail-table">
+          <tr><td>Gram reaction</td><td>Gram-positive; thick peptidoglycan; Lancefield Group A carbohydrate (rhamnose-N-acetylglucosamine polymer); beta-haemolysis (complete, clear zone) on sheep blood agar; PYR positive; bacitracin sensitive; catalase negative</td></tr>
+          <tr><td>Morphology</td><td>Spherical cocci 2&ndash;&gt;20 cells per chain; non-motile, non-spore-forming; obligate human pathogen; spread by respiratory droplets (pharyngitis) and direct contact (skin infections)</td></tr>
+          <tr><td>Cell wall / Capsule</td><td>Hyaluronic acid capsule: non-immunogenic (molecular mimicry of host HA) &rarr; no antibody recognition; anti-phagocytic physical barrier. Lancefield Group A carbohydrate antigen: basis of serological classification. M protein (surface fibrillar coiled-coil dimer): binds factor H &rarr; &darr;C3b opsonisation; shares epitopes with cardiac myosin/tropomyosin/laminin &rarr; ARF molecular mimicry</td></tr>
+          <tr><td>Key virulence factors</td><td>M protein (&gt;250 types: factor H binding, molecular mimicry, fibronectin binding); SpeA/SpeC superantigens (TSS); SpeB (cysteine protease, tissue invasion, NADase); SLO (streptolysin O: cholesterol-dependent cytolysin, ASO titre target, neutrophil lysis); SLS (streptolysin S: beta-haemolysis on plates, non-immunogenic); C5a peptidase (ScpA: degrades neutrophil chemoattractant); streptodornase Sda1 (DNase: dissolves NETs); streptokinase (fibrinolysis, systemic spread)</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Pathogenesis</h4>
+        <div class="mech-list">
+          <div class="mech-item danger">
+            <h5>1 &middot; Pharyngeal colonisation and neutrophil evasion</h5>
+            <p>M protein, Protein F1/SfbI, and pili mediate adhesion to pharyngeal epithelium via fibronectin binding. GAS then deploys multi-layer neutrophil evasion: M protein binds factor H &rarr; &darr;C3b opsonisation; C5a peptidase (ScpA) cleaves the dominant neutrophil chemoattractant C5a &rarr; &darr;neutrophil influx; hyaluronic acid capsule provides anti-phagocytic physical barrier; streptodornase Sda1 dissolves neutrophil extracellular traps (NETs); SLO lyses neutrophils that have engulfed bacteria.</p>
+          </div>
+          <div class="mech-item danger">
+            <h5>2 &middot; Spreading factors and tissue invasion</h5>
+            <p>Hyaluronidase degrades HA in connective tissue; streptodornases (B, C, D) degrade extracellular DNA; streptokinase binds plasminogen &rarr; plasmin activity &rarr; fibrin dissolution &rarr; systemic spread through fascial planes. SpeB (cysteine protease) degrades immunoglobulins, complement proteins, extracellular matrix, and cytokines. NADase (Spn/NdaS) depletes intracellular NAD+ in invaded host cells &rarr; cytotoxicity. Collectively, these spreading factors convert localised pharyngitis or impetigo into necrotising fasciitis.</p>
+          </div>
+          <div class="mech-item danger">
+            <h5>3 &middot; Superantigen toxic shock (STSS)</h5>
+            <p>Pyrogenic exotoxins SpeA and SpeC bind <em>outside</em> the MHC-II peptide groove (on &alpha;1 and &beta;1 domains) and crosslink to TCR V&beta; chains outside CDR3, activating ALL T cells bearing specific V&beta; families (up to 20% of the entire T-cell repertoire vs. &lt;0.01% in conventional antigen response). This triggers a tsunami of TNF-&alpha;, IL-1&beta;, IL-6, IL-2 &rarr; fever, hypotension, multi-organ failure, DIC. STSS mortality is 20&ndash;70% even in modern ICUs. M1T1 strains carry SpeA and SpeC; M1 is the dominant global invasive lineage.</p>
+          </div>
+          <div class="mech-item immune">
+            <h5>4 &middot; Molecular mimicry driving ARF and PSGN</h5>
+            <p><strong>ARF:</strong> Anti-M-protein antibodies (particularly against N-terminal hypervariable region of M5, M6, M19 types) cross-react with cardiac myosin, tropomyosin, laminin, and N-acetyl-&beta;-D-glucosamine (valve carbohydrate) &rarr; myocarditis, valvulitis. The adaptive immune response attacks the heart, joints, and CNS without the bacteria being present. Jones criteria (2015): major = carditis, polyarthritis, chorea, erythema marginatum, subcutaneous nodules; minor = fever, &uarr;ESR/CRP, &uarr;PR interval. Penicillin within 9 days of symptom onset prevents ARF. <strong>PSGN:</strong> Streptococcal antigens (SPEB/zymogen, enolase, NaPl-1/plasmin receptor) deposit in glomeruli &rarr; in situ immune complexes &rarr; alternative complement activation (&darr;C3, normal C4) &rarr; acute nephritic syndrome (haematuria, proteinuria, hypertension, oedema).</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>Host Immune Response</h4>
+        <div class="immune-tags">
+          <span class="itag innate">TLR2 (M protein, LTA); TLR4 (streptolysin)</span>
+          <span class="itag innate">Neutrophils (primary innate defence; evaded by multiple GAS mechanisms)</span>
+          <span class="itag innate">NLRP3 inflammasome (SLO-mediated IL-1&beta; activation)</span>
+          <span class="itag innate">NK cells (early IFN-&gamma;)</span>
+          <span class="itag adaptive">Anti-M-protein IgG (type-specific opsonisation; protection vs. re-infection with same M-type)</span>
+          <span class="itag adaptive">Anti-SLO (ASO titre): diagnostic marker of recent GAS infection</span>
+          <span class="itag adaptive">SpeA/SpeC superantigen &rarr; polyclonal T-cell activation &rarr; cytokine storm</span>
+          <span class="itag depleted">Molecular mimicry: anti-M-protein Ab &rarr; cross-reactive cardiac/renal autoimmunity</span>
+          <span class="itag depleted">C5a peptidase: degrades neutrophil chemoattractant &rarr; &darr;recruitment</span>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>Disease Spectrum</h4>
+        <table class="path-table">
+          <tr><th>Disease</th><th>Key features</th><th>Treatment / prevention</th></tr>
+          <tr><td>Pharyngitis / tonsillitis</td><td>Sore throat, fever, tonsillar exudate, cervical LAD, no cough; Centor/McIsaac score; RADT</td><td>Penicillin V 10 days or amoxicillin; prevents ARF if started within 9 days</td></tr>
+          <tr><td>Scarlet fever</td><td>Pharyngitis + sandpaper erythematous rash (SpeA-driven); strawberry tongue; circumoral pallor; Pastia lines in flexures</td><td>Same as pharyngitis; notifiable in many countries</td></tr>
+          <tr><td>Impetigo (GAS)</td><td>Honey-crusted vesicular/pustular superficial skin lesions; painless; associated with PSGN (not ARF)</td><td>Topical mupirocin (mild); oral amoxicillin-clavulanate (extensive); PSGN risk watch for 1&ndash;3 weeks</td></tr>
+          <tr><td>Erysipelas</td><td>Sharply demarcated, raised, fiery-red skin lesion; butterfly/facial or lower limb; fever; GAS (not <em>S. aureus</em>)</td><td>IV penicillin G or cefazolin; recurrence common</td></tr>
+          <tr><td>Necrotising fasciitis type 2</td><td>Rapidly progressing deep fascial necrosis; severe pain out of proportion to skin findings; &ldquo;dusky&rdquo; skin &rarr; bullae &rarr; necrosis; STSS in ~50%</td><td>Immediate surgical debridement + IV penicillin G + clindamycin (protein synthesis blockade stops exotoxin production); mortality 20&ndash;30% even with surgery</td></tr>
+          <tr><td>Streptococcal TSS (STSS)</td><td>SpeA/SpeC superantigen &rarr; fever, hypotension, multi-organ failure, DIC; from any GAS focus</td><td>ICU; IV penicillin G + clindamycin; IVIG in severe cases (neutralises toxins); mortality 30&ndash;70%</td></tr>
+          <tr><td>Acute rheumatic fever (ARF)</td><td>Migratory polyarthritis, carditis (most serious), Sydenham&rsquo;s chorea, erythema marginatum, subcutaneous nodules; follows pharyngitis ONLY (not skin GAS infection)</td><td>Penicillin V 10 days; anti-inflammatory (aspirin/prednisolone); long-term benzathine penicillin prophylaxis to prevent recurrence and RHD progression</td></tr>
+          <tr><td>Post-streptococcal GN (PSGN)</td><td>Haematuria (&ldquo;cola/smoky urine&rdquo;), proteinuria, hypertension, oliguria, oedema; &darr;C3, normal C4; &uarr;ASO (pharyngeal) or &uarr;anti-DNase B (skin)</td><td>Supportive; antibiotics do NOT prevent PSGN (unlike ARF); monitor for CKD in adults</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Treatment &amp; Prophylaxis</h4>
+        <table class="detail-table">
+          <tr><td>First-line (all GAS)</td><td>Penicillin V 10 days (oral) or amoxicillin 10 days; NO acquired penicillin resistance in GAS has ever been documented. Single-dose benzathine penicillin G IM is equivalent for pharyngitis and preferred in resource-limited settings.</td></tr>
+          <tr><td>Invasive GAS (NF2, STSS)</td><td>IV penicillin G PLUS clindamycin (inhibits protein synthesis &rarr; blocks exotoxin SpeA/SpeC production; superior to penicillin alone in high bacterial burden). IVIG (1&ndash;2 g/kg) neutralises circulating superantigens in STSS; evidence of mortality benefit in severe STSS.</td></tr>
+          <tr><td>Penicillin allergy</td><td>Azithromycin (macrolide, 5 days) for pharyngitis; clindamycin for skin/invasive; resistance rates vary by region.</td></tr>
+          <tr><td>ARF prevention</td><td>Complete 10-day penicillin course within 9 days of pharyngitis symptom onset prevents ARF in virtually all cases, even though clinical improvement occurs earlier. Critical public health rationale for testing and treating strep throat in children.</td></tr>
+          <tr><td>Secondary ARF prophylaxis</td><td>Benzathine penicillin G IM every 3&ndash;4 weeks (or oral penicillin V daily); prevents recurrent GAS pharyngitis &rarr; limits progressive valvular RHD. Duration: 10+ years (or age 21) without carditis; lifelong in severe RHD or high-risk settings.</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Cross-Atlas Connections</h4>
+        <div class="connections">
+          <a class="conn-pill infects" href="immune-system.html"><span class="rel">Infects</span>Neutrophils (M protein, C5a peptidase, SLO, Sda1 evasion)</a>
+          <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system (SpeA/SpeC superantigen TSS; molecular mimicry)</a>
+          <a class="conn-pill damages" href="cardiovascular-system.html"><span class="rel">Damages</span>Cardiovascular system (ARF carditis &rarr; rheumatic heart disease)</a>
+          <a class="conn-pill damages" href="renal-system.html"><span class="rel">Damages</span>Renal system (PSGN &rarr; acute nephritic syndrome)</a>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>References</h4>
+        <ul class="refs">
+          <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett&rsquo;s Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020.</li>
+          <li>Murray PR, Rosenthal KS, Pfaller MA. <em>Medical Microbiology.</em> 9th ed. Elsevier; 2021.</li>
+        </ul>
+      </div>
+
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+  <div class="contribute">
+    <h2>Contribute to the Pathogen Atlas</h2>
+    <p>This entry covers GAS biology, M-protein molecular mimicry, and ARF/PSGN pathogenesis. Planned expansions: GAS vaccine pipeline (SpyCEP, M-protein-based), global RHD echocardiographic screening data, and STSS immunotherapy trials.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+        Contribute on GitHub
+      </a>
+      <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=S.pyogenes%20Atlas%20entry">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in touch
+      </a>
     </div>
+  </div>
+</main>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">streptococcus-pyogenes</div>
-        <h2>Streptococcus pyogenes</h2>
-        <p class="summary">Gram-positive, beta-haemolytic Group A Streptococcus (GAS). Causes pharyngitis, scarlet fever, and necrotising fasciitis. Superantigen exotoxins drive toxic shock; M-protein mimicry triggers rheumatic fever and post-streptococcal GN.</p>
-      </div>
-      <div class="detail-body">
-
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>streptococcus-pyogenes</td></tr>
-            <tr><td>Name</td><td>Streptococcus pyogenes</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>02-bacteria</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="neutrophil.html" title="GAS evades neutrophils via M protein (factor H → ↓C3b opsonisation), C5a peptidase (↓recruitment), SLO pore-forming cytolysis, and hyaluronic acid capsule (anti-phagocytic); streptodornase Sda1 dissolves neutrophil extracellular traps."><span class="rel">infects</span>Neutrophil</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="Pyrogenic exotoxins SpeA/SpeC are superantigens crosslinking MHCII with TCR Vβ → polyclonal T cell expansion → massive TNF-α/IL-1β/IL-6 cytokine storm → Streptococcal TSS; M-protein molecular mimicry drives acute rheumatic fever carditis."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill damaged" href="cardiovascular-system.html" title="ARF: anti-M protein Ab cross-react with cardiac myosin/tropomyosin → carditis (acute mitral regurgitation; chronic stenosis from scarring); up to 60% of ARF cases progress to chronic rheumatic heart disease — leading preventable heart disease globally."><span class="rel">damages</span>Cardiovascular System</a>
-            <a class="conn-pill damaged" href="renal-system.html" title="Post-streptococcal GN follows throat [M12] or skin [M49] GAS infection; immune complexes deposit in glomeruli → complement activation → acute nephritic syndrome; ↓C3, ↑ASO titre; self-limiting in most patients but may progress to CKD."><span class="rel">damages</span>Renal System</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<footer>
+  <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a><a href="index.html#mission">Mission</a><a href="pathogens.html">Pathogens</a><a href="medicine.html">Medicine</a><a href="immune-system.html">Immune System</a><a href="index.html#join">Join</a><a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+</footer>
 </body>
 </html>

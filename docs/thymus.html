@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Primary lymphoid organ in the mediastinum. Site of T lymphocyte maturation: bone-marrow-derived progenitors undergo positive selection (MHC restriction) in the ">
+  <meta name="description" content="Primary lymphoid organ in the anterior mediastinum. T lymphocyte education: positive selection by cTECs, negative selection by AIRE-expressing mTECs. Involutes after puberty; ~70% volume loss by age 45.">
   <meta property="og:title" content="Thymus — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Thymus — Human Engineering</title>
@@ -13,14 +13,14 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #4f46e5;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
            background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a { color: var(--accent); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
     nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
           -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -54,9 +54,6 @@
     .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
                   letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
     .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
                    border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
                    box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
@@ -70,6 +67,8 @@
     .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
                          text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
                          padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { font-size: 0.93rem; color: var(--fg-soft); line-height: 1.7; margin-bottom: 0.85rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
     .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
                      font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
@@ -77,6 +76,32 @@
     .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
                      color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 680px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border: 1px solid var(--border-soft);
+                  border-radius: var(--radius-sm); padding: 1.1rem 1.25rem; }
+    .info-block .ib-title { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em;
+                            text-transform: uppercase; color: var(--accent); margin-bottom: 0.55rem; }
+    .info-block p, .info-block li { font-size: 0.86rem; color: var(--fg-soft); line-height: 1.6; }
+    .info-block ul { padding-left: 1.1rem; }
+    .info-block li { margin-bottom: 0.25rem; }
+    .circuit-diagram { background: #1c1c1e; border-radius: var(--radius-sm); padding: 1.2rem 1.4rem;
+                       font-family: "SF Mono", "Fira Code", "Fira Mono", monospace;
+                       font-size: 0.8rem; color: #e5e5ea; line-height: 1.7; overflow-x: auto;
+                       margin-top: 0.5rem; }
+    .circuit-diagram .step { color: #a5b4fc; }
+    .circuit-diagram .arrow { color: #6ee7b7; }
+    .pathology-items { display: flex; flex-direction: column; gap: 0.75rem; }
+    .pathology-item { border-radius: var(--radius-sm); padding: 1rem 1.2rem;
+                      border-left: 3px solid; }
+    .pathology-item.danger { background: rgba(220,38,38,0.05); border-color: #dc2626; }
+    .pathology-item.warn   { background: rgba(234,179,8,0.06);  border-color: #ca8a04; }
+    .pathology-item.info   { background: rgba(79,70,229,0.05); border-color: #4f46e5; }
+    .pathology-item .pi-title { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.35rem; }
+    .pathology-item.danger .pi-title { color: #dc2626; }
+    .pathology-item.warn .pi-title { color: #92400e; }
+    .pathology-item.info .pi-title { color: #4338ca; }
+    .pathology-item p { font-size: 0.84rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
     .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
                  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
@@ -94,7 +119,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
+    .footer-links a:hover { color: var(--accent); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -119,67 +144,187 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
+    <div class="hero-eyebrow" style="background: rgba(79,70,229,0.1); color: #4f46e5;">Atlas One &middot; Human &middot; Scale 06 &mdash; Organ</div>
     <h1>Thymus</h1>
-    <p class="tagline">Primary lymphoid organ in the mediastinum. Site of T lymphocyte maturation: bone-marrow-derived progenitors undergo positive selection (MHC restriction) in the cortex, negative selection (self-tolerance) in the medulla. Involutes after puberty; ~70% reduction by age 45.</p>
-    <p class="aliases">Also known as: thymic gland, glandula thymus</p>
+    <p class="tagline">Primary lymphoid organ in the anterior superior mediastinum. T lymphocyte education: cortical TECs perform positive selection for MHC restriction; medullary TECs expressing AIRE enforce self-tolerance. Involutes progressively after puberty; ~70% volume loss by age 45.</p>
+    <p class="aliases">Also known as: thymic gland &middot; glandula thymus &middot; UBERON:0002370 &middot; FMA:9607</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~40 g</span><span class="stat-label">Peak Mass (puberty)</span></div>
+      <div class="stat"><span class="stat-num">~70%</span><span class="stat-label">Volume Loss by Age 45</span></div>
+      <div class="stat"><span class="stat-num">~5%</span><span class="stat-label">DP Thymocytes Selected</span></div>
+      <div class="stat"><span class="stat-num">10⁶–10⁷</span><span class="stat-label">Naive T Cells Exported/Day</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
-        <div class="entry-eyebrow">thymus</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #4f46e5, #312e81);">
+        <div class="entry-eyebrow">Atlas One &middot; Scale 06 &mdash; Organ</div>
         <h2>Thymus</h2>
-        <p class="summary">Primary lymphoid organ in the mediastinum. Site of T lymphocyte maturation: bone-marrow-derived progenitors undergo positive selection (MHC restriction) in the cortex, negative selection (self-tolerance) in the medulla. Involutes after puberty; ~70% reduction by age 45.</p>
+        <p class="summary">The thymus is the sole site of T lymphocyte development and education. It imposes two sequential quality-control checkpoints on every developing T cell: positive selection ensures TCRs can recognise self-MHC (enabling antigen recognition), and negative selection eliminates T cells with dangerously high affinity for self-antigens (preventing autoimmunity). Failure of either checkpoint has catastrophic immunological consequences.</p>
       </div>
       <div class="detail-body">
 
+        <!-- OVERVIEW -->
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>The thymus is a bilobed lymphoepithelial organ occupying the anterior superior mediastinum, anterior to the great vessels and posterior to the manubrium of the sternum. It derives from the third pharyngeal pouch (epithelial scaffold from endoderm) and is colonised by bone-marrow-derived T cell progenitors throughout foetal development and childhood. At birth it weighs 12–15 g; it reaches its peak of ~30–40 g at puberty before undergoing progressive involution driven by sex steroids, with replacement of parenchyma by adipose tissue. By age 45 roughly 70% of the functional cortex is gone, though a remnant thymus persists throughout life and its output — though diminished — remains measurable (TRECs, T-cell receptor excision circles, are a biomarker of recent thymic emigrants).</p>
+          <p>The thymus is the only lymphoid organ that lacks afferent lymphatics and does not directly respond to peripheral antigens. Its entire function is the generation and education of the T cell repertoire. Each day in childhood and young adulthood, ~10⁶–10⁷ naive T cells egress from the thymus into blood via S1PR1-mediated migration, seeding the peripheral T cell pool of secondary lymphoid organs. The price of this output is extreme selectivity: only ~2–5% of incoming progenitors complete development and are exported; the other ~95% die by apoptosis, either having failed positive selection (no recognition of self-MHC) or having been deleted by negative selection (too-high affinity for self-antigens). This stringent education is the mechanistic basis of MHC restriction and central tolerance.</p>
+          <p>The thymic stromal scaffold — predominantly thymic epithelial cells (TECs) — plays an indispensable instructive role. Cortical TECs (cTECs) express the thymoproteasome (incorporating the unique subunit β5t) that generates a distinct peptide repertoire for presenting on MHC I to DP thymocytes during positive selection. Medullary TECs (mTECs) are distinguished by expression of the Autoimmune Regulator (AIRE) transcription factor, which drives ectopic transcription of &gt;10,000 peripheral tissue-restricted antigens (TRAs) — including insulin, thyroglobulin, retinal arrestin — in the medulla. This "promiscuous gene expression" by mTECs projects a shadow of the entire body's self-antigen repertoire into the thymus, enabling deletion of T cells that would cause organ-specific autoimmunity if they reached the periphery.</p>
+        </div>
+
+        <!-- ANATOMY & STRUCTURE -->
+        <div class="detail-section">
+          <h3>Anatomy &amp; Structure</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>thymus</td></tr>
-            <tr><td>Name</td><td>Thymus</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Atlas</td><td>01-human</td></tr>
-            <tr><td>Scale</td><td>06-organ</td></tr>
-            <tr><td>Uberon</td><td>UBERON:0002370</td></tr>
-            <tr><td>Fma</td><td>FMA:9607</td></tr>
+            <thead><tr><th>Compartment / Structure</th><th>Key Features</th></tr></thead>
+            <tbody>
+              <tr><td>Gross Anatomy</td><td>Bilobed; enclosed by a fibrous capsule with septa dividing each lobe into lobules; anterior superior mediastinum (retrosternal); embryologically derived from 3rd pharyngeal pouch; involutes after puberty → replaced by adipose (thymic remnant); no afferent lymphatics</td></tr>
+              <tr><td>Cortico-Medullary Junction (CMJ)</td><td>Entry point for bone-marrow-derived T cell progenitors (ETPs): CCR7 ligands (CCL19/21) and PSGL-1 guide progenitors from blood to CMJ; export site for mature SP thymocytes via S1PR1/S1P gradient</td></tr>
+              <tr><td>Cortex</td><td>~85% of thymic volume; densely packed with immature thymocytes (mostly DP: CD4⁺CD8⁺); cTECs form a reticular network expressing MHC I + MHC II with thymoproteasome-generated peptides; blood-thymus barrier (tight junctions of perivascular space) prevents blood-borne antigen access; macrophages clear apoptotic cells continuously (95% deletion rate)</td></tr>
+              <tr><td>Cortical TECs (cTECs)</td><td>Express unique thymoproteasome (β5t subunit replaces β5 of standard 20S proteasome) → generates peptide ligands optimised for positive selection; express MHC I and MHC II simultaneously; Notch ligand DLL4 drives T cell commitment from progenitors; CD205 (DEC-205) + Ly51 markers</td></tr>
+              <tr><td>Medulla</td><td>~15% of thymic volume; contains mature SP (single positive) thymocytes, mTECs, dendritic cells (cDC1, cDC2, pDC), and Hassall's corpuscles; Hassall's corpuscles are concentric epithelial whorls that produce TSLP → signal DCs to convert high-affinity thymocytes to Tregs; mTECs are major site of AIRE expression and TRA presentation</td></tr>
+              <tr><td>Medullary TECs (mTECs)</td><td>Express AIRE (Autoimmune Regulator; a PHD-bromodomain transcriptional activator); AIRE drives ectopic expression of &gt;10,000 TRAs; mTECs present TRA peptides on MHC II to SP CD4⁺ T cells → deletion of autoreactive T cells; mTECs also transfer TRAs to DCs for additional negative selection; UEA-1⁺ CD80⁺CD86⁺ markers</td></tr>
+              <tr><td>Thymic DCs</td><td>cDC1 (XCR1⁺), cDC2 (CD11b⁺), pDC (Siglec-H⁺); present antigen on both MHC I (cross-presentation by cDC1) and MHC II; DCs receive TRAs from mTECs via direct cell-cell contact or exosome transfer; critical for negative selection of CD8⁺ T cells against peripheral antigens; pDCs may also contribute to Treg generation</td></tr>
+              <tr><td>Thymocyte Development Stages</td><td>ETP/DN1 (CD44⁺CD25⁻) → DN2 (CD44⁺CD25⁺, TCRβ rearrangement) → DN3 (CD44⁻CD25⁺, β-selection: productive VDJ rearrangement → pre-TCR signalling) → DN4 (CD44⁻CD25⁻) → DP (CD4⁺CD8⁺, TCRα rearrangement) → positive selection → SP CD4⁺ or SP CD8⁺ → negative selection → export</td></tr>
+            </tbody>
           </table>
         </div>
 
+        <!-- FUNCTION -->
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill part" href="t-helper-cell.html" title="CD4⁺ T helper cells undergo positive selection on MHC class II in the thymic cortex and negative selection in the medulla; exported as naive CD4⁺ T cells to the periphery."><span class="rel">contains</span>T Helper Cell</a>
-            <a class="conn-pill part" href="dendritic-cell.html" title="Thymic DCs present self-antigens to developing T cells in the medulla, deleting autoreactive thymocytes; medullary thymic epithelial cells expressing AIRE provide peripheral self-antigens for central tolerance."><span class="rel">contains</span>Dendritic Cell</a>
-            <a class="conn-pill part" href="immune-system.html" title="The thymus is the primary lymphoid organ that generates the entire peripheral T cell repertoire; without thymic education, adaptive cellular immunity fails — as in DiGeorge syndrome (22q11 deletion)."><span class="rel">part-of</span>Immune System</a>
-            <a class="conn-pill part" href="human-body.html" title="The thymus is a bilobed organ in the anterior superior mediastinum; largest at puberty (~40 g), it involutes progressively and is replaced by fat, but retains residual T cell output throughout life."><span class="rel">part-of</span>Human Body</a>
+          <h3>Function</h3>
+
+          <p>The thymus accomplishes three linked tasks: commitment of multipotent progenitors to the T cell lineage, selection of a self-MHC-restricted T cell repertoire, and purging of autoreactive T cells that would cause autoimmune disease. A small fraction of high-affinity T cells escapes deletion and is diverted instead into the regulatory T cell (Treg) lineage, producing FoxP3⁺ CD25⁺ CD4⁺ Tregs that enforce peripheral tolerance.</p>
+
+          <div class="circuit-diagram">
+<span class="step">T CELL EDUCATION — SELECTION CHECKPOINTS</span>
+
+<span class="step">STEP 1: POSITIVE SELECTION (cortex, cTECs)</span>
+DP thymocyte TCR engages peptide:MHC on cTEC
+  TCR affinity too low → no signal → death by neglect (~90% of DP)
+  TCR affinity "just right" (intermediate) → survival signal (ERK/Ras) → positive selection
+  MHC II recognition → CD4 co-receptor stabilises → CD4 SP fate
+  MHC I recognition → CD8 co-receptor stabilises → CD8 SP fate
+<span class="arrow">~5% of DP thymocytes survive positive selection</span>
+
+<span class="step">STEP 2: NEGATIVE SELECTION (medulla, mTECs + DCs)</span>
+SP thymocyte TCR engages self-peptide:MHC on mTEC or DC
+  AIRE in mTECs drives expression of >10,000 peripheral TRAs
+  Low affinity → T cell survives → exported to periphery
+  High affinity (strong TCR signal) → Bim-dependent apoptosis (clonal deletion)
+  ~3–5% of high-affinity cells diverted → FoxP3⁺ Treg lineage (Foxp3 expression requires IL-2 + TGF-β + TSLP from Hassall's corpuscles)
+
+<span class="step">STEP 3: EXPORT</span>
+KLF2 upregulation → S1PR1 expression → thymocyte senses S1P gradient
+S1P high in blood → S1PR1-mediated chemotaxis → exit via CMJ venules
+~10⁶–10⁷ naive CD4⁺ and CD8⁺ T cells exported/day (childhood peak)
+Naive T cell: CCR7⁺CD62L⁺CD45RA⁺, requires tonic TCR signalling + IL-7 for survival in periphery
+          </div>
+
+          <div class="two-col" style="margin-top:1.2rem;">
+            <div class="info-block">
+              <div class="ib-title">AIRE and Promiscuous Gene Expression</div>
+              <ul>
+                <li>AIRE (Autoimmune Regulator) is a transcription factor expressed exclusively in mature mTECs (CCR7⁺CD80⁺UEA-1⁺ subset)</li>
+                <li>AIRE binds unmethylated H3K4 (an "open" chromatin mark) and activates transcription of TRAs whose epigenetic landscape is typically repressive in non-cognate tissues</li>
+                <li>TRAs include: insulin (INS), thyroglobulin (Tg), retinal arrestin (S-Ag), glutamic acid decarboxylase (GAD65), and &gt;10,000 others</li>
+                <li>Biallelic AIRE loss-of-function → APECED/APS-1 syndrome: candidiasis + hypoparathyroidism + Addison's disease + type 1 diabetes + alopecia + multiple autoimmune manifestations</li>
+                <li>IFN-α autoantibodies are pathognomonic for APECED and predict severe COVID-19 (these autoantibodies can also arise somatically in elderly)</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="ib-title">Treg Generation in the Thymus</div>
+              <ul>
+                <li>~5% of T cells with high self-affinity (that would otherwise be deleted) are diverted to FoxP3⁺ regulatory T cell fate</li>
+                <li>Requirements: high-affinity TCR signal + IL-2 signal + TGF-β; Hassall's corpuscle-derived TSLP activates DCs that produce IL-2 and TGF-β for Treg induction</li>
+                <li>Thymic Tregs (tTregs) are distinguished from peripherally-induced Tregs (pTregs) by Helios + Neuropilin-1 co-expression</li>
+                <li>tTregs are essential for organ-specific self-tolerance: in mouse models where Foxp3 is absent (scurfy), lethal multi-organ autoimmunity develops by 4 weeks of age</li>
+                <li>tTreg specificity is biased toward self-antigens expressed in the thymus, including many AIRE-driven TRAs</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="ib-title">Thymic Involution &amp; Immunosenescence</div>
+              <ul>
+                <li>Sex steroids (testosterone, oestradiol) drive thymic involution post-puberty: androgens accelerate cortical thymocyte apoptosis and reduce cTEC/mTEC numbers; castration reverses involution in experimental models</li>
+                <li>Involution → progressive decline in thymic export → peripheral T cell pool maintained increasingly by homeostatic proliferation of existing memory cells (IL-7/IL-15 driven)</li>
+                <li>Consequences: narrowing TCR repertoire diversity (oligoclonal expansion), impaired responses to novel antigens (poor vaccine efficacy in elderly), chronic inflammation ("inflammageing")</li>
+                <li>Clinical relevance: thymic atrophy post-chemotherapy/radiation → prolonged lymphopenia; thymic transplantation in complete DiGeorge syndrome restores T cell production; IL-7 therapy under investigation for immune reconstitution</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="ib-title">Thymic Hormones</div>
+              <ul>
+                <li><strong>Thymulin</strong> (FTS — facteur thymique sérique): zinc-dependent nonapeptide; active only when zinc-bound; promotes T cell differentiation and IL-2 production; serum levels decline with age and thymic involution</li>
+                <li><strong>Thymopoietin:</strong> 49 aa peptide; promotes DP → SP transition; synthetic pentapeptide thymopentin (TP-5) explored clinically for immunostimulation</li>
+                <li><strong>Thymosin α1:</strong> 28 aa N-terminal fragment of prothymosin-α; promotes T cell maturation and IFN-γ production; thymalfasin (recombinant Tα1) used in HBV/HCV treatment and as adjuvant in some cancer immunotherapies in Asia</li>
+                <li><strong>Thymosin β4:</strong> G-actin sequestering peptide; promotes tissue repair and angiogenesis beyond T cell biology; explored for cardiac and wound healing applications</li>
+              </ul>
+            </div>
           </div>
         </div>
 
+        <!-- PATHOLOGY -->
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Pathology</h3>
+          <div class="pathology-items">
+
+            <div class="pathology-item danger">
+              <div class="pi-title">DiGeorge Syndrome (22q11.2 Deletion Syndrome)</div>
+              <p>Most common microdeletion syndrome (~1:4,000 live births); ~90% have del22q11.2 detectable by FISH/chromosomal microarray. Haploinsufficiency of <em>TBX1</em> (T-box transcription factor) disrupts pharyngeal arch development → classic triad: conotruncal cardiac defects (tetralogy of Fallot, interrupted aortic arch, truncus arteriosus), hypoparathyroidism (parathyroid aplasia/hypoplasia → neonatal hypocalcaemia + seizures), and T cell immunodeficiency (thymic aplasia/hypoplasia). Spectrum from complete DiGeorge (absent thymus, profound T cell lymphopenia, SCID-like) to partial (small thymus, CD4 &gt;500/µL). Complete DiGeorge (~1–2%): absolute T cell deficiency → recurrent infections, inability to reject allografts; treatment: thymic transplantation (cultured postnatal thymus tissue implants in quadriceps) restores T cell production and has been curative. Psychiatric features (schizophrenia, psychosis ~30%), learning disabilities, facial dysmorphology (tubular nose, low-set ears, micrognathia) are common.</p>
+            </div>
+
+            <div class="pathology-item danger">
+              <div class="pi-title">APECED / APS-1 (AIRE Mutation Syndrome)</div>
+              <p>Autoimmune Polyendocrinopathy-Candidiasis-Ectodermal Dystrophy; caused by biallelic loss-of-function mutations in <em>AIRE</em>; most common in Finnish (~1:25,000), Sardinian, and Iranian Jewish populations. Classical triad: chronic mucocutaneous candidiasis (often first manifestation, ages 1–5), hypoparathyroidism (ages 5–15), Addison's disease (adrenal cortex autoimmunity, ages 5–20); >50% also develop T1DM, premature ovarian/testicular failure, hypothyroidism, pernicious anaemia, alopecia, vitiligo, hepatitis. Pathognomonic finding: high-titre IFN-α and IFN-ω autoantibodies — these neutralise Type I interferon antiviral defences → ~40× increased risk of severe/fatal COVID-19. Diagnosis: clinical triad + AIRE sequencing; autoantibody panel (anti-21-hydroxylase, anti-NALP5, anti-IFN-α/ω). Management: immunosuppression (corticosteroids, mycophenolate, rituximab for specific manifestations); antifungal prophylaxis; hormone replacement for each insufficiency; COVID-19 special surveillance and early treatment.</p>
+            </div>
+
+            <div class="pathology-item warn">
+              <div class="pi-title">Thymoma &amp; Thymic Carcinoma</div>
+              <p>Thymic epithelial tumours; thymoma is the most common anterior mediastinal mass in adults (&gt;40 years). WHO classification: Type A (spindle cell, indolent, excellent prognosis), AB (mixed, good prognosis), B1 (lymphocyte-rich, like normal thymus histology), B2 (cortical type, most common), B3 (epithelial dominant, high risk), and thymic carcinoma (WHO C, aggressive). ~30–50% of thymoma patients develop myasthenia gravis (MG) due to autoantibodies against acetylcholine receptor (AChR) — ectopic mTEC expression of AChR ± loss of normal thymic tolerance for AChR antigens; thymectomy improves MG prognosis (MGTX trial, NEJM 2016). Paraneoplastic associations: pure red cell aplasia, Good's syndrome (combined B and T cell immunodeficiency), polymyositis, SLE. Treatment: resection (curative for stages I–II); adjuvant radiotherapy for stage III/IV; cisplatin-based chemotherapy ± immune checkpoint inhibitors (with caution — risk of flare of autoimmune co-morbidities). PD-L1 expression common in thymic carcinoma → pembrolizumab.</p>
+            </div>
+
+            <div class="pathology-item warn">
+              <div class="pi-title">Thymic Lymphoid Hyperplasia &amp; Myasthenia Gravis</div>
+              <p>In ~80% of AChR antibody-positive MG patients without thymoma, the thymus shows lymphoid follicular hyperplasia — germinal centres containing B cells producing anti-AChR autoantibodies. This "non-thymomatous" MG thymus is enlarged and histologically resembles a lymph node. Pathophysiology: defect in central tolerance to AChR + ectopic germinal centre formation in thymic medulla → ongoing autoreactive B cell activation. Thymectomy removes the ongoing germinal centre activity and leads to clinical improvement over months to years: MGTX trial (NEJM 2016) — extended thymectomy vs. prednisone alone in generalised AChR⁺ MG: thymectomy + prednisone group had significantly better 3-year clinical status scores and required lower steroid doses. Thymectomy is now standard of care for non-elderly generalised AChR⁺ MG. Effect is delayed (peak benefit 2–3 years post-surgery) reflecting slow decline of long-lived plasma cells and memory B cells.</p>
+            </div>
+
+            <div class="pathology-item info">
+              <div class="pi-title">Thymic Involution &amp; COVID-19 Risk</div>
+              <p>Age-related thymic involution progressively reduces naive T cell export and TCR repertoire diversity, contributing to immunosenescence — impaired vaccine responses, increased susceptibility to novel pathogens, chronic low-grade inflammation. The critical importance of thymic output was dramatically illustrated during COVID-19: individuals with thymic dysfunction (APECED/APS-1 with anti-IFN autoantibodies; elderly with severely involuted thymuses; patients post-haematopoietic stem cell transplant with poor immune reconstitution) had dramatically worse outcomes. Anti-IFN-α/ω autoantibodies — found in ~4% of people &gt;70 years — account for an estimated 15–20% of life-threatening COVID-19 cases (Bastard et al., Science 2020). Strategies to reverse thymic involution under investigation include sex-steroid blockade (GnRH agonists/antagonists) and IL-7 supplementation.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CONNECTIONS -->
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="immune-system.html"><span class="rel">part-of</span>Immune System</a>
+            <a class="conn-pill part" href="index.html"><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill part" href="index.html"><span class="rel">contains</span>T Helper Cell (CD4)</a>
+            <a class="conn-pill part" href="index.html"><span class="rel">contains</span>Dendritic Cell</a>
+            <a class="conn-pill" href="bone-marrow.html"><span class="rel">supplied-by</span>Bone Marrow (ETP progenitors)</a>
+            <a class="conn-pill" href="spleen.html"><span class="rel">connects-to</span>Spleen (exports naive T cells)</a>
+            <a class="conn-pill" href="intestinal-epithelium.html"><span class="rel">connects-to</span>Intestinal Epithelium (GALT Treg seeding)</a>
+            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">impaired-by</span>AIRE Loss (APECED)</a>
+            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">impaired-by</span>22q11.2 Deletion (DiGeorge)</a>
+            <a class="conn-pill" href="medicine.html"><span class="rel">targeted-by</span>Thymectomy (MG treatment)</a>
+          </div>
+        </div>
+
+        <!-- REFERENCES -->
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1038/nri3534" target="_blank" rel="noopener noreferrer">Boehm T, Swann JB. Thymus involution and regeneration: two sides of the same coin? Nat Rev Immunol. 2013;13(11):831-838.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24052146/" target="_blank" rel="noopener noreferrer">PubMed 24052146</a></li>
-            <li><a href="https://doi.org/10.1038/nri3667" target="_blank" rel="noopener noreferrer">Klein L, Kyewski B, Allen PM, Hogquist KA. Positive and negative selection of the T cell repertoire: what thymocytes see (and don't see). Nat Rev Immunol. 2014;14(6):377-391.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24830344/" target="_blank" rel="noopener noreferrer">PubMed 24830344</a></li>
-            <li><a href="https://doi.org/10.1126/science.1075958" target="_blank" rel="noopener noreferrer">Anderson MS, Venanzi ES, Klein L, et al. Projection of an immunological self shadow within the thymus by the Aire protein. Science. 2002;298(5597):1395-1401.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12376594/" target="_blank" rel="noopener noreferrer">PubMed 12376594</a></li>
-            <li><a href="https://doi.org/10.1016/j.it.2009.04.003" target="_blank" rel="noopener noreferrer">Lynch HE, Goldberg GL, Chidgey A, Van den Brink MR, Boyd R, Sempowski GD. Thymic involution and immune reconstitution. Trends Immunol. 2009;30(7):366-373.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19540807/" target="_blank" rel="noopener noreferrer">PubMed 19540807</a></li>
-            <li><a href="https://doi.org/10.1016/S0022-3476(98)70478-0" target="_blank" rel="noopener noreferrer">Markert ML, Hummell DS, Rosenblatt HM, et al. Complete DiGeorge syndrome: persistence of profound immunodeficiency. J Pediatr. 1998;132(1):15-21.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9469993/" target="_blank" rel="noopener noreferrer">PubMed 9469993</a></li>
-            <li><a href="https://doi.org/10.1200/JOP.2014.003434" target="_blank" rel="noopener noreferrer">Bhatt VR, Bhatt SS, Limbu K, Silberstein PT. Management of thymoma and thymic carcinoma. J Oncol Pract. 2015;11(4):297-299.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25667274/" target="_blank" rel="noopener noreferrer">PubMed 25667274</a></li>
+            <li><a href="https://doi.org/10.1038/nri3534" target="_blank" rel="noopener noreferrer">Boehm T, Swann JB. Thymus involution and regeneration: two sides of the same coin? Nat Rev Immunol. 2013;13(11):831–838.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24052146/" target="_blank" rel="noopener noreferrer">PubMed 24052146</a></li>
+            <li><a href="https://doi.org/10.1038/nri3667" target="_blank" rel="noopener noreferrer">Klein L, Kyewski B, Allen PM, Hogquist KA. Positive and negative selection of the T cell repertoire: what thymocytes see (and don't see). Nat Rev Immunol. 2014;14(6):377–391.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24830344/" target="_blank" rel="noopener noreferrer">PubMed 24830344</a></li>
+            <li><a href="https://doi.org/10.1126/science.1075958" target="_blank" rel="noopener noreferrer">Anderson MS, et al. Projection of an immunological self shadow within the thymus by the Aire protein. Science. 2002;298(5597):1395–1401.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12376594/" target="_blank" rel="noopener noreferrer">PubMed 12376594</a></li>
+            <li><a href="https://doi.org/10.1016/j.it.2009.04.003" target="_blank" rel="noopener noreferrer">Lynch HE, et al. Thymic involution and immune reconstitution. Trends Immunol. 2009;30(7):366–373.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19540807/" target="_blank" rel="noopener noreferrer">PubMed 19540807</a></li>
+            <li><a href="https://doi.org/10.1016/S0022-3476(98)70478-0" target="_blank" rel="noopener noreferrer">Markert ML, et al. Complete DiGeorge syndrome: persistence of profound immunodeficiency. J Pediatr. 1998;132(1):15–21.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9469993/" target="_blank" rel="noopener noreferrer">PubMed 9469993</a></li>
+            <li><a href="https://doi.org/10.1200/JOP.2014.003434" target="_blank" rel="noopener noreferrer">Bhatt VR, Bhatt SS, Limbu K, Silberstein PT. Management of thymoma and thymic carcinoma. J Oncol Pract. 2015;11(4):297–299.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25667274/" target="_blank" rel="noopener noreferrer">PubMed 25667274</a></li>
           </ul>
         </div>
 
@@ -195,8 +340,8 @@
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem; font-style:italic;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>

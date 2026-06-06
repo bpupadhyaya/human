@@ -3,93 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Apicomplexan; obligate intracellular; cats are definitive hosts (oocysts). Tachyzoite (acute), bradyzoite/tissue cyst (chronic). Parasitophorous vacuole resists">
-  <meta property="og:title" content="Toxoplasma gondii — Human Engineering">
+  <meta name="description" content="Toxoplasma gondii — Atlas Two Pathogen entry. Parasitophorous vacuole, ROP kinases, congenital toxoplasmosis, AIDS reactivation encephalitis. Part of the Human Engineering project.">
+  <meta property="og:title" content="Toxoplasma gondii — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Toxoplasma gondii: PV non-fusogenicity, ROP18/ROP5 immune evasion, congenital toxoplasmosis, cerebral reactivation in AIDS, pyrimethamine/sulfadiazine treatment.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Toxoplasma gondii — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea; --fg: #1c1c1e; --fg-soft: #3a3a3c;
+      --muted: #6e6e73; --muted-2: #8e8e93; --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #1d4ed8;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(29,78,216,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger { border-left-color: #dc2626; }
+    .mech-item.immune { border-left-color: var(--ai); }
+    .mech-item.latent { border-left-color: var(--accent); }
+    .mech-item.drug  { border-left-color: var(--bio); }
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,92 +110,185 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogens
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 04-parasites</div>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Parasite</div>
     <h1>Toxoplasma gondii</h1>
-    <p class="tagline">Apicomplexan; obligate intracellular; cats are definitive hosts (oocysts). Tachyzoite (acute), bradyzoite/tissue cyst (chronic). Parasitophorous vacuole resists killing. Congenital toxoplasmosis; reactivation encephalitis in AIDS. &gt;33% of humans seropositive globally.</p>
-    <p class="aliases">Also known as: T. gondii, Toxoplasma, toxoplasmosis, congenital toxoplasmosis, cerebral toxoplasmosis</p>
+    <p class="tagline">Infects over one-third of humanity and lives silently in the brain for decades &mdash; until the immune system collapses and tissue cysts detonate into necrotising encephalitis.</p>
+    <p class="subtagline"><em>Toxoplasma gondii</em> is an obligate intracellular apicomplexan with the widest host range of any eukaryotic pathogen. Asymptomatic in immunocompetent adults, it causes devastating congenital disease (chorioretinitis, hydrocephalus, psychomotor retardation) and reactivation encephalitis in AIDS (ring-enhancing brain lesions at CD4 &lt;100). The parasite's non-fusogenic parasitophorous vacuole and ROP18/ROP5 kinases that neutralise host immunity-related GTPases explain its extraordinary ability to persist in neural tissue lifelong. More than 33% of the global human population is seropositive.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">04-parasites</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">&gt;33%</span><span class="stat-label">Global seroprevalence</span></div>
+      <div class="stat"><span class="stat-num">~190,000</span><span class="stat-label">Congenital cases/year</span></div>
+      <div class="stat"><span class="stat-num">CD4 &lt;100</span><span class="stat-label">Reactivation risk in AIDS</span></div>
+      <div class="stat"><span class="stat-num">5&ndash;200 &micro;m</span><span class="stat-label">Tissue cyst diameter</span></div>
+      <div class="stat"><span class="stat-num">6&ndash;8 h</span><span class="stat-label">Tachyzoite division cycle</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">toxoplasma-gondii</div>
-        <h2>Toxoplasma gondii</h2>
-        <p class="summary">Apicomplexan; obligate intracellular; cats are definitive hosts (oocysts). Tachyzoite (acute), bradyzoite/tissue cyst (chronic). Parasitophorous vacuole resists killing. Congenital toxoplasmosis; reactivation encephalitis in AIDS. &gt;33% of humans seropositive globally.</p>
+    <div class="detail-card" id="toxoplasma-gondii">
+      <div class="detail-header" style="background: linear-gradient(135deg, #1d4ed8, #1e3a8a);">
+        <div class="entry-eyebrow">Apicomplexa &middot; Coccidia &middot; Sarcocystidae &middot; Obligate intracellular</div>
+        <h3>Toxoplasma gondii</h3>
+        <p class="summary">Obligate intracellular apicomplexan; definitive hosts are felids (cats) where sexual reproduction produces environmentally hardy oocysts. Three infectious forms in humans: oocysts (environmental; cat feces &rarr; soil/water), tachyzoites (acute infection; rapidly dividing, disseminating), and bradyzoites (chronic; slow-metabolising, tissue-cyst-enclosed in brain and muscle). Invasion uses gliding motility (glideosome) and AMA1/RON2-mediated tight junction formation to enter virtually any nucleated cell; the resulting non-fusogenic parasitophorous vacuole (PV) actively excludes lysosomal fusion markers (Rab5, Rab7, LAMP). ROP18 kinase phosphorylates and inactivates host IRG/GBP immunity-related GTPases, preventing vacuole disruption. Dormant bradyzoite tissue cysts in neurons persist lifelong; reactivation in CD4+ T-cell deficiency produces necrotising focal encephalitis (ring-enhancing lesions). Treatment: pyrimethamine + sulfadiazine + leucovorin; prophylaxis: TMP-SMX.</p>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>toxoplasma-gondii</td></tr>
-            <tr><td>Name</td><td>Toxoplasma gondii</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>04-parasites</td></tr>
+          <h4>Classification &amp; Structure</h4>
+          <table class="detail-table">
+            <tr><td>Taxonomy</td><td>Apicomplexa; Coccidia; Sarcocystidae; <em>Toxoplasma gondii</em> &mdash; 3 major clonal lineages (Type I, II, III) in Europe/North America; greater diversity in South America and Africa</td></tr>
+            <tr><td>Tachyzoite</td><td>4&ndash;8 &micro;m, banana-shaped; rapidly dividing (endodyogeny every 6&ndash;8 h); fills host cell PV as rosette of 8&ndash;32 parasites before lysis; responsible for acute dissemination</td></tr>
+            <tr><td>Bradyzoite</td><td>5&ndash;9 &micro;m, slower metabolism; enclosed in tissue cysts (5&ndash;200 &micro;m diameter) in neurons and muscle; cyst wall (CST1/MAG1 matrix proteins); amylopectin granules (energy storage); stage conversion triggered by stress</td></tr>
+            <tr><td>Oocyst</td><td>10&ndash;12 &micro;m; produced by cats (only felid definitives); unsporulated (non-infectious); sporulates in 1&ndash;5 days &rarr; 2 sporocysts &times; 4 sporozoites; extremely hardy (months in soil); resistant to most disinfectants</td></tr>
+            <tr><td>MIC proteins</td><td>Microneme proteins (MIC2, MIC3, MIC8) secreted upon host cell contact; mediate initial adhesion (MIC2 binds heparan sulfate/ICAM-1); bridging molecules between parasite and host</td></tr>
+            <tr><td>RON proteins</td><td>RON2/RON4/RON5/RON8 complex injected into host cell membrane; form the moving junction &mdash; the constricting ring through which the parasite threads itself during active invasion</td></tr>
+            <tr><td>ROP kinases</td><td>ROP18 (active kinase): phosphorylates IRGAs (IRGA6, IRGB6) at inhibitory Thr/Ser &rarr; prevents vacuole disruption; ROP5 (pseudokinase): stabilises ROP18, co-factor; ROP16: activates STAT3/STAT6 (anti-inflammatory); injected into host cell cytoplasm at invasion</td></tr>
+            <tr><td>GRA proteins</td><td>Dense granule proteins (GRA7, GRA15, GRA24) secreted into PV and host cytosol; GRA15 activates NF-&kappa;B; GRA24 activates p38 MAPK &rarr; IL-12 from host; modulate the immune response toward a controlled Th1 that contains but does not eliminate infection</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill damaged" href="brain.html" title="Bradyzoites persist as tissue cysts in neurons and glial cells; reactivation in AIDS (CD4&lt;100) causes necrotising encephalitis with ring-enhancing MRI lesions, mass effect, and risk of herniation."><span class="rel">damages</span>Brain</a>
-            <a class="conn-pill damaged" href="nervous-system.html" title="Chronic neurological infection disrupts dopamine metabolism and GABAergic signalling; congenital toxoplasmosis causes hydrocephalus and intracranial calcifications in neonates."><span class="rel">damages</span>Nervous System</a>
-            <a class="conn-pill damaged" href="macrophage.html" title="Toxoplasma resides in PV within macrophages; ROP18/ROP5 kinases phosphorylate and neutralise GBP/IRGB immunity-related GTPases, preventing vacuole destruction and enabling intracellular survival."><span class="rel">damages</span>Macrophage</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="Toxoplasma actively modulates Th1/Th2 balance; IL-12/IFN-gamma axis is critical for control; chronic infection induces IL-10-mediated immunosuppression; CD8+ T cell exhaustion promotes cyst persistence."><span class="rel">damages</span>Immune System</a>
+          <h4>Infection Mechanism &amp; Pathogenesis</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>1 &middot; Acquisition and gut invasion</h5>
+              <p>Three transmission routes: (a) ingestion of oocysts from cat-feces-contaminated soil/water/produce (sporulated oocysts viable months); (b) ingestion of tissue cysts in undercooked/raw meat (most common in seropositive adults); (c) congenital transmission &mdash; primary maternal infection &rarr; tachyzoitaemia &rarr; transplacental passage. Risk increases with gestational age (1st trimester: low risk, severe disease; 3rd trimester: high risk, milder disease). Sporozoites/bradyzoites are released by gastric acid and trypsin; tachyzoites emerge in intestinal epithelium and begin active invasion using gliding motility (glideosome: MyoA/MLC1/GAP45 actin-myosin corkscrew motion at ~1&ndash;2 &micro;m/s).</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>2 &middot; Parasitophorous vacuole (PV) formation and non-fusogenicity</h5>
+              <p>During active invasion, AMA1 on the parasite surface engages RON2 embedded in the host cell membrane, forming the moving junction. Cholesterol is selectively excluded from the nascent PV membrane &mdash; preventing Rab5/Rab7 endosomal fusion markers from accumulating. The sealed PV does not fuse with lysosomes; it is maintained as an isolated compartment in the host cell cytoplasm. GRA proteins are secreted to remodel the PV membrane and establish nutrient-scavenging contacts with host mitochondria and ER. This non-fusogenic PV is the central immune evasion mechanism of <em>T. gondii</em>.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>3 &middot; ROP kinase-mediated immune evasion</h5>
+              <p>ROP18 and ROP5 are injected into the host cell cytoplasm at the moment of invasion. ROP18 phosphorylates IRGAs (immunity-related GTPases: IRGA6, IRGB6) at regulatory Thr/Ser residues &rarr; prevents their oligomerisation on the PV membrane &rarr; IRGAs cannot disrupt the vacuole. ROP5 co-localises with GBP (guanylate-binding proteins) and blocks their coating of the PV. Host autophagy of the PV is blocked by ROP18-mediated ATG13 phosphorylation. ROP16 directly phosphorylates STAT3 and STAT6 &rarr; IL-4/IL-13 anti-inflammatory signalling &rarr; Th2-skewed environment reduces IFN-&gamma;. Net result: the PV persists indefinitely despite IFN-&gamma; stimulation.</p>
+            </div>
+            <div class="mech-item latent">
+              <h5>4 &middot; Bradyzoite cyst formation and latency</h5>
+              <p>Stress signals (alkaline pH, nutrient stress, immune pressure, nitric oxide) activate AP2IV transcription factors &rarr; tachyzoite-to-bradyzoite differentiation. Bradyzoites upregulate CST1 (cyst wall glycoprotein), BAG1 (small HSP), and amylopectin granules; downregulate TgSAG1 (tachyzoite surface antigen). Tissue cysts are immunologically "invisible" &mdash; cyst wall is poorly immunogenic; bradyzoites express stage-specific surface antigens. Neurons and skeletal/cardiac muscle are preferentially colonised. Neurotropism involves lower STAT1 expression in neurons (less IFN-&gamma; responsiveness) and possible dopaminergic neuron preference (bradyzoites express tyrosine hydroxylase).</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>5 &middot; Reactivation in immunosuppression</h5>
+              <p>CD8+ T-cell depletion (AIDS: CD4 &lt;100/&micro;L; haematological malignancy; transplant immunosuppression) removes the primary effector controlling cyst stability. Bradyzoites convert back to tachyzoites, lyse cyst walls, and establish rapidly expanding necrotic foci in grey matter &mdash; predominantly at grey-white junction and basal ganglia. MRI: multiple ring-enhancing lesions with mass effect (must be distinguished from primary CNS lymphoma by EBV CSF PCR and empirical treatment response at 2 weeks). Without treatment: uniformly fatal progression to herniation.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Host Immune Response</h4>
+          <div class="immune-tags">
+            <span class="itag innate">NK cell + &gamma;&delta; T cell activation (acute); IL-12 from DCs</span>
+            <span class="itag innate">GRA24 &rarr; p38 MAPK &rarr; IL-12 production</span>
+            <span class="itag innate">TLR11/TLR12 (mouse) recognition of profilin &rarr; IL-12</span>
+            <span class="itag adaptive">CD4+ Th1 + CD8+ CTL: IFN-&gamma; &rarr; macrophage iNOS &rarr; NO &rarr; kills tachyzoites</span>
+            <span class="itag adaptive">Anti-Toxoplasma IgG: lifelong seroconversion; IgG avidity diagnoses timing</span>
+            <span class="itag adaptive">IL-10 from Tregs + exhausted CD8+ T cells: allows cyst persistence (balance)</span>
+            <span class="itag depleted">CD8+ T-cell depletion (AIDS) &rarr; cyst reactivation &rarr; fatal encephalitis</span>
+            <span class="itag depleted">ROP18/ROP5 neutralise IRG/GBP &rarr; IFN-&gamma;-resistance of PV</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Disease Spectrum</h4>
+          <table class="path-table">
+            <tr><th>Context</th><th>Manifestation</th><th>Key Details</th></tr>
+            <tr><td>Immunocompetent adult</td><td>Asymptomatic (90%) or cervical lymphadenopathy (10%)</td><td>Mild self-limited; heterophile-negative mononucleosis-like; seropositivity may be only evidence of infection; no treatment required</td></tr>
+            <tr><td>Congenital (1st trimester)</td><td>Severe; low transmission risk (~15%)</td><td>Chorioretinitis, hydrocephalus, intracranial calcifications, psychomotor retardation; "Sabin tetrad"; many appear normal at birth but develop late sequelae</td></tr>
+            <tr><td>Congenital (3rd trimester)</td><td>High transmission risk (~60%); milder disease</td><td>Majority subclinical at birth; chorioretinitis may develop years later; treatment for 12 months reduces sequelae</td></tr>
+            <tr><td>AIDS (CD4 &lt;100)</td><td>Cerebral toxoplasmosis &mdash; most common focal brain lesion</td><td>Multiple ring-enhancing lesions at grey-white junction/basal ganglia on CT/MRI; empirical pyrimethamine/sulfadiazine &rarr; radiological improvement at 2 weeks confirms diagnosis; maintain secondary prophylaxis until CD4 &gt;200 on ART</td></tr>
+            <tr><td>Transplant / haematological malignancy</td><td>Primary or reactivation encephalitis; pneumonitis; myocarditis</td><td>Seronegative donor + seropositive recipient highest risk; PCR monitoring of blood; prophylaxis with TMP-SMX</td></tr>
+            <tr><td>Ocular toxoplasmosis</td><td>Chorioretinitis (most common cause of infectious posterior uveitis globally)</td><td>Reactivation of congenital or acquired cysts in retina; white-yellow retinal lesion adjacent to pigmented scar; pyrimethamine/sulfadiazine + systemic steroids for macular involvement</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Treatment &amp; Prophylaxis</h4>
+          <div class="mech-list">
+            <div class="mech-item drug">
+              <h5>Pyrimethamine + Sulfadiazine + Leucovorin &mdash; First-line (active infection)</h5>
+              <p>Pyrimethamine (DHFR inhibitor) + sulfadiazine (dihydropteroate synthase inhibitor) synergistically block folate synthesis in <em>T. gondii</em>. Leucovorin (folinic acid) prevents pyrimethamine-induced bone marrow toxicity. Duration: 6 weeks for immunocompromised; 12 months for congenital neonatal treatment; followed by lifelong secondary prophylaxis in AIDS until CD4 &gt;200 on ART.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>TMP-SMX &mdash; Primary Prophylaxis (AIDS, CD4 &lt;100)</h5>
+              <p>Trimethoprim-sulfamethoxazole 1 DS tablet daily; prevents toxoplasma encephalitis in seropositive AIDS patients with CD4 &lt;100; also prevents <em>Pneumocystis jirovecii</em> pneumonia (dual indication); discontinue when CD4 &gt;200 on sustained ART.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>Alternative: Pyrimethamine + Clindamycin</h5>
+              <p>For sulfadiazine allergy or intolerance; atovaquone can substitute for sulfadiazine in some regimens; spiramycin used in pregnancy (after 1st trimester) to prevent maternal-fetal transmission before confirmed fetal infection.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>Congenital: Neonatal Treatment &amp; Prenatal Screening</h5>
+              <p>Pyrimethamine + sulfadiazine &times; 12 months for all congenitally infected neonates (even asymptomatic); reduces late chorioretinitis and neurodevelopmental sequelae. Prenatal IgG avidity test determines timing; universal maternal serological screening (France); targeted screening in USA/UK.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Cross-Atlas Connections</h4>
+          <div class="connections">
+            <a class="conn-pill damages" href="brain.html"><span class="rel">Damages</span>Brain (bradyzoite cysts; reactivation encephalitis)</a>
+            <a class="conn-pill damages" href="index.html"><span class="rel">Damages</span>Nervous system (dopamine disruption; congenital hydrocephalus)</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Macrophages (ROP18/ROP5 IRG neutralisation)</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system (Th1/Th2 modulation; IL-10 suppression)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1146/annurev-micro-091014-104100" target="_blank" rel="noopener noreferrer">Blader IJ, Coleman BI, Chen CT, Bhatt D. Lytic Cycle of Toxoplasma gondii: 15 Years Later. Annu Rev Microbiol. 2015;69:463-85.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26332089/" target="_blank" rel="noopener noreferrer">PubMed 26332089</a></li>
-            <li><a href="https://doi.org/10.1016/S0140-6736(04)16412-X" target="_blank" rel="noopener noreferrer">Montoya JG, Liesenfeld O. Toxoplasmosis. Lancet. 2004;363(9425):1965-76.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15194258/" target="_blank" rel="noopener noreferrer">PubMed 15194258</a></li>
+            <li>Blader IJ, Coleman BI, Chen CT, Bhatt D. Lytic Cycle of Toxoplasma gondii: 15 Years Later. <em>Annu Rev Microbiol.</em> 2015;69:463-85. <a href="https://doi.org/10.1146/annurev-micro-091014-104100" target="_blank" rel="noopener">doi:10.1146/annurev-micro-091014-104100</a> &middot; PubMed 26332089</li>
+            <li>Montoya JG, Liesenfeld O. Toxoplasmosis. <em>Lancet.</em> 2004;363(9425):1965-76. <a href="https://doi.org/10.1016/S0140-6736(04)16412-X" target="_blank" rel="noopener">doi:10.1016/S0140-6736(04)16412-X</a> &middot; PubMed 15194258</li>
+            <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020.</li>
+            <li>Murray PR, Rosenthal KS, Pfaller MA. <em>Medical Microbiology.</em> 9th ed. Elsevier; 2021.</li>
           </ul>
         </div>
 
       </div>
     </div>
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers <em>Toxoplasma gondii</em> biology, PV biology, and clinical disease. ROP kinase structural biology, congenital screening protocols by country, and novel anti-toxoplasma drug targets (TgCDPK1) are planned expansions.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Toxoplasma%20gondii%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
+    </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

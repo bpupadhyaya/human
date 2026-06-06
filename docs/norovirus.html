@@ -3,93 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Caliciviridae; non-enveloped icosahedral ssRNA virus (~7.7 kb). Binds HBGAs for cell entry; infective dose ~18 particles. Leading cause of foodborne illness glo">
-  <meta property="og:title" content="Norovirus — Human Engineering">
+  <meta name="description" content="Norovirus — Atlas Two Pathogen entry. Caliciviridae; non-enveloped ssRNA; HBGA-mediated entry; leading cause of foodborne gastroenteritis globally. Part of the Human Engineering project.">
+  <meta property="og:title" content="Norovirus — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Norovirus: HBGA-mediated entry, NS6 IFN evasion, 685 million cases/year, no approved antiviral or vaccine.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Norovirus — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c;
+      --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(159,18,57,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger { border-left-color: #dc2626; }
+    .mech-item.immune { border-left-color: var(--ai); }
+    .mech-item.latent { border-left-color: var(--accent); }
+    .mech-item.drug   { border-left-color: var(--bio); }
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,93 +112,191 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogens
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus</div>
     <h1>Norovirus</h1>
-    <p class="tagline">Caliciviridae; non-enveloped icosahedral ssRNA virus (~7.7 kb). Binds HBGAs for cell entry; infective dose ~18 particles. Leading cause of foodborne illness globally (~685 million cases/year); 200,000 deaths/year. No approved antiviral or vaccine.</p>
-    <p class="aliases">Also known as: Norwalk virus, NV, stomach flu, winter vomiting bug, human calicivirus</p>
+    <p class="tagline">The "stomach flu" pathogen. A 38 nm non-enveloped icosahedral calicivirus that can infect a host with as few as 18 particles — and causes more foodborne disease globally than any other pathogen.</p>
+    <p class="subtagline">Norovirus (family <em>Caliciviridae</em>, genus <em>Norovirus</em>) is the dominant cause of acute epidemic gastroenteritis worldwide, accounting for ~685 million cases and 200,000 deaths per year. Genogroup II genotype 4 (GII.4) has driven successive global pandemics since the mid-1990s via antigenic drift in the VP1 P2 subdomain. Despite enormous disease burden, no approved antiviral or vaccine exists, and the virus resists alcohol-based hand rubs and many disinfectants.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~685M</span><span class="stat-label">Cases / year</span></div>
+      <div class="stat"><span class="stat-num">200,000</span><span class="stat-label">Deaths / year</span></div>
+      <div class="stat"><span class="stat-num">~18</span><span class="stat-label">HID50 (particles)</span></div>
+      <div class="stat"><span class="stat-num">7.7 kb</span><span class="stat-label">ssRNA genome</span></div>
+      <div class="stat"><span class="stat-num">38 nm</span><span class="stat-label">Icosahedral particle</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">norovirus</div>
-        <h2>Norovirus</h2>
-        <p class="summary">Caliciviridae; non-enveloped icosahedral ssRNA virus (~7.7 kb). Binds HBGAs for cell entry; infective dose ~18 particles. Leading cause of foodborne illness globally (~685 million cases/year); 200,000 deaths/year. No approved antiviral or vaccine.</p>
+    <div class="detail-card" id="norovirus">
+      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #7f1d1d);">
+        <div class="entry-eyebrow">Caliciviridae &middot; Norovirus &middot; +ssRNA, Non-enveloped &middot; 38 nm</div>
+        <h3>Norovirus</h3>
+        <p class="summary">Non-enveloped icosahedral virus with a ~7.7 kb positive-sense ssRNA genome encoding three ORFs. VP1 capsid protein (ORF2) carries the hypervariable P2 subdomain that mediates histo-blood group antigen (HBGA) binding and is the target of neutralizing antibodies. The NS6 3C-like protease cleaves host STAT1/STAT2, disabling interferon signaling for the duration of peak viral replication. With an HID50 of approximately 18 particles and fecal titers exceeding 10<sup>11</sup>/gram, norovirus is among the most efficiently transmitted human pathogens — and no approved therapeutic exists.</p>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>norovirus</td></tr>
-            <tr><td>Name</td><td>Norovirus</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>01-viruses</td></tr>
+          <h4>Classification &amp; Structure</h4>
+          <table class="detail-table">
+            <tr><td>Family / genus</td><td>Caliciviridae / Norovirus; genogroups GI–GX; human strains in GI, GII (dominant: GII.4), and GIV; GII.4 variants named by first-detection year (e.g., Sydney 2012, Osaka 2022)</td></tr>
+            <tr><td>Genome</td><td>~7.7 kb positive-sense ssRNA; 3 ORFs; genome-linked VPg protein at 5' end (primer for RdRp; replaces conventional 5' cap); polyadenylated 3' end</td></tr>
+            <tr><td>ORF1</td><td>Encodes non-structural polyprotein NS1-7: VPg, 2C-like NTPase (NS3), NS6 3C-like protease (3C<sup>pro</sup>), NS7 RNA-dependent RNA polymerase (RdRp); autocatalytically cleaved by NS6</td></tr>
+            <tr><td>ORF2 — VP1</td><td>Major capsid protein (58 kDa); S (shell) domain: icosahedral scaffold for T=3 symmetry; P (protruding) domain: P1 + P2 subdomains; P2 is hypervariable — HBGA binding site and primary neutralization target; 180 copies of VP1 form 90 dimers</td></tr>
+            <tr><td>ORF3 — VP2</td><td>Minor structural protein (23 kDa); stabilizes VP1 P domain; required for efficient capsid assembly; present at ~1–2 copies per virion</td></tr>
+            <tr><td>Particle</td><td>38 nm icosahedral; T=3 symmetry; no lipid envelope — confers resistance to alcohol-based disinfectants and heat (survives 60 &deg;C); partial resistance to standard chlorine water-treatment concentrations</td></tr>
+            <tr><td>Entry receptor</td><td>Histo-blood group antigens (HBGAs) on gut epithelium and in secretions (lectin-like attachment factor); bile acids (co-factor for GII.3 entry); true endocytic receptor not yet fully characterized</td></tr>
+            <tr><td>Secretor status</td><td>FUT2 gene encodes H-antigen synthase; ~20% of humans are non-secretors (homozygous loss-of-function FUT2 variant) — resistant to GI.1 (Norwalk strain) but may be susceptible to other strains via alternative HBGA subtypes</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill damaged" href="digestive-system.html" title="Norovirus disrupts digestive-system absorptive and secretory function causing acute gastroenteritis; outbreaks spread rapidly in closed settings via fomites, aerosolized vomitus, and contaminated food or water."><span class="rel">damages</span>Digestive System</a>
-            <a class="conn-pill" href="small-intestine.html" title="Norovirus replicates in villus tip enterocytes of the proximal small intestine, causing villous blunting and transient malabsorption without the mucosal inflammation typical of bacterial enteropathogens."><span class="rel">infects</span>Small Intestine</a>
-            <a class="conn-pill damaged" href="dendritic-cell.html" title="Norovirus infects gut-associated dendritic cells, impairing antigen presentation and contributing to short-lived immunity that permits repeated reinfections across a lifetime with the same genogroup."><span class="rel">damages</span>Dendritic Cell</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="Norovirus protease NS6 cleaves STAT1/STAT2, blocking interferon signalling and dampening innate immune responses, enabling high-titre replication before adaptive immunity can mount an effective clearance response."><span class="rel">damages</span>Immune System</a>
+          <h4>Infection Mechanism</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>1 &middot; HBGA-mediated attachment</h5>
+              <p>The VP1 P2 subdomain engages fucosylated histo-blood group antigens (HBGAs) displayed on intestinal epithelial cell surfaces and in secretions. Different strains show distinct HBGA binding specificity: GI.1 binds H type 1 and Lewis b; GII.4 binds Lewis b and H3; P[II] strains vary. HBGA binding concentrates virus at the apical surface of villus tip enterocytes but does not appear to directly drive endocytosis. Bile acids (especially chenodeoxycholic acid) act as additional entry cofactors for certain strains by inducing conformational changes in the P domain that facilitate receptor engagement.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>2 &middot; Endocytosis and genome delivery</h5>
+              <p>Following HBGA-mediated surface concentration, norovirus enters villus tip enterocytes via receptor-mediated endocytosis. Within the endosomal compartment, low pH and possible protease cleavage facilitate VP1 conformational change and genome release into the cytoplasm. The positive-sense genome carries a covalently linked VPg at its 5' end rather than a conventional m7G cap; VPg interacts with eIF4E-family translation initiation factors, enabling direct ribosomal recruitment without cap-dependent scanning.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>3 &middot; Replication and assembly</h5>
+              <p>The ORF1 polyprotein is autocatalytically cleaved by NS6 3C<sup>pro</sup> into 6 non-structural proteins. The NS7 RdRp generates negative-sense RNA intermediates on ER-associated membrane complexes that serve as templates for new positive-sense genomes and a shorter subgenomic RNA encoding VP1 and VP2. VPg is covalently linked to nascent RNA molecules by VPg nucleotidylation (NS5 activity), enabling ribosome recruitment to progeny genomes. VP1 and VP2 self-assemble around newly synthesized genomic RNA; virions released by cell lysis can reach titers exceeding 10<sup>11</sup> particles per gram of feces during peak infection.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>4 &middot; Innate immune evasion — NS6 cleavage of STAT1/STAT2</h5>
+              <p>The NS6 3C-like protease directly cleaves host STAT1 and STAT2, dismantling the Jak-STAT signaling cascade downstream of both the type I IFN receptor (IFNAR1/2) and the IFN-&#947; receptor. This prevents transcription of hundreds of interferon-stimulated genes (ISGs) and blocks establishment of the antiviral state in bystander epithelial cells. NS3 NTPase additionally disrupts NF-&#954;B signaling in some experimental models, and NS1-2 membrane complex remodeling sequesters replication complexes from cytosolic PRR detection.</p>
+            </div>
+            <div class="mech-item latent">
+              <h5>5 &middot; Microbiome interactions and environmental stability</h5>
+              <p>Commensal gut bacteria expressing HBGA-like antigens on their cell surfaces may enhance norovirus stability and attachment in the intestinal lumen, potentially acting as "Trojan horse" carriers. Murine norovirus (MNV) persistence in germ-free mice is dramatically reduced, underscoring the microbiome dependency of norovirus biology. Environmentally, the non-enveloped capsid is highly stable: survives on surfaces for days to weeks, resists 60 &deg;C heating, and is not reliably inactivated by 60–70% ethanol — soap-and-water mechanical removal is required.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Host Immune Response</h4>
+          <div class="immune-tags">
+            <span class="itag innate">TLR3 / TLR7 — dsRNA and ssRNA sensing in endosomes</span>
+            <span class="itag innate">RIG-I / MDA5 — cytosolic RNA sensing (partially evaded)</span>
+            <span class="itag innate">IFN-&#945;/&#946; burst — rapidly suppressed by NS6 STAT1/2 cleavage</span>
+            <span class="itag innate">Macrophage activation — gut-associated lymphoid tissue</span>
+            <span class="itag innate">Enteroendocrine cell activation (5-HT, substance P) — drives vomiting via vagal afferents</span>
+            <span class="itag adaptive">Secretory IgA (sIgA) — mucosal VP1 P2 neutralization; primary correlate of protection</span>
+            <span class="itag adaptive">Serum IgA and blocking antibody (P2 subdomain target)</span>
+            <span class="itag adaptive">CD4+ T helper responses — short-lived, strain-specific; limited cross-genogroup protection</span>
+            <span class="itag depleted">Immunity strain-specific and short-lived (6–24 months) — GII.4 antigenic drift permits lifelong reinfection</span>
+            <span class="itag depleted">Gut DC impairment — NS6-mediated STAT1/2 cleavage reduces downstream antigen presentation</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Disease Spectrum</h4>
+          <table class="path-table">
+            <tr><th>Presentation</th><th>Typical Host</th><th>Key Features</th></tr>
+            <tr><td>Acute self-limited gastroenteritis</td><td>Immunocompetent adults, older children</td><td>Nausea, projectile vomiting, watery non-bloody diarrhea, low-grade fever (37.5–38.5 &deg;C); abrupt onset 12–48 h post-exposure; resolution within 24–72 h; biopsy shows villous blunting without significant inflammatory infiltrate</td></tr>
+            <tr><td>Severe dehydrating illness</td><td>Children &lt;5 years; elderly &gt;65 years; frail institutionalized adults</td><td>High-volume fluid losses with risk of serious dehydration and electrolyte imbalance; IV rehydration may be required; accounts for the majority of the 200,000 annual deaths globally</td></tr>
+            <tr><td>Prolonged / chronic infection</td><td>Immunocompromised: solid organ transplant, HSCT, HIV/AIDS, CVID and other primary immunodeficiencies</td><td>Weeks to months of persistent diarrhea; serial stool samples reveal evolving viral quasi-species; severe malnutrition and graft dysfunction confound management; ribavirin and IVIG used anecdotally with limited evidence</td></tr>
+            <tr><td>Asymptomatic shedding</td><td>All ages</td><td>Common; shedding may continue for weeks after clinical resolution; a major driver of ongoing outbreak transmission and incomplete outbreak control</td></tr>
+            <tr><td>Healthcare / institutional outbreaks</td><td>Hospital wards, nursing homes, cruise ships, schools, military</td><td>Explosive cluster onset (attack rate 30–50%); aerosolized vomitus is a major nosocomial transmission route; ward closure and environmental bleach decontamination frequently required; national surveillance systems track outbreak strains</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Treatment &amp; Prevention</h4>
+          <div class="mech-list">
+            <div class="mech-item drug">
+              <h5>Oral rehydration therapy (ORT) — mainstay of treatment</h5>
+              <p>WHO low-osmolarity ORS (sodium 75 mmol/L, glucose 75 mmol/L, potassium 20 mmol/L, citrate 10 mmol/L; osmolarity 245 mOsm/L) is first-line. ORT exploits the sodium-glucose cotransporter (SGLT1) which remains functional in crypt-derived cells even when villous tips are disrupted. IV fluid replacement (Ringer's lactate or normal saline) is used for severe dehydration or inability to tolerate oral intake. Antiemetics (ondansetron, 5-HT3 antagonist) may reduce vomiting and facilitate ORT. Zinc supplementation (10–20 mg/day for 10 days) benefits children in low-income settings.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>No approved antiviral — investigational agents</h5>
+              <p>Nitazoxanide showed marginal benefit (approximately 1.5-day reduction in illness duration) in one small RCT in immunocompetent adults; not broadly recommended and not licensed for norovirus. NS6 3C<sup>pro</sup> protease inhibitors are in preclinical development as antivirals. In immunocompromised patients with chronic norovirus infection, ribavirin, IVIG, and immune reconstitution (reducing immunosuppression) have been used with anecdotal success.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>No approved vaccine — development pipeline</h5>
+              <p>Virus-like particle (VLP) bivalent vaccines (GI.1 + GII.4 VLPs) and P-domain nanoparticle vaccines are in Phase II clinical trials. Challenges include short-lived and genogroup-restricted immunity, limited correlates of protection, and the requirement to reformulate for emerging GII.4 variants. No product has reached licensure as of 2026.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>Infection control</h5>
+              <p>Soap-and-water handwashing is superior to alcohol-based hand rubs, which do not reliably inactivate non-enveloped norovirus. Surface decontamination requires bleach at &#8805;1000 ppm (0.1% sodium hypochlorite). Symptomatic individuals should be excluded from food handling and patient care for at least 48 h after symptom resolution. During healthcare outbreaks, cohorting of symptomatic patients and thorough environmental disinfection of aerosolized vomitus contamination zones are critical control measures.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Connections</h4>
+          <div class="connections">
+            <a class="conn-pill damages" href="index.html"><span class="rel">Damages</span>Digestive system (gastroenteritis, villous blunting)</a>
+            <a class="conn-pill infects" href="index.html"><span class="rel">Infects</span>Small intestine villus tip enterocytes</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Innate immunity (NS6 cleaves STAT1/STAT2)</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Gut dendritic cells (impairs antigen presentation)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1371/journal.pone.0151219" target="_blank" rel="noopener noreferrer">Bartsch SM, Lopman BA, Ozawa S, Hall AJ, Lee BY. Global economic burden of norovirus gastroenteritis. PLoS ONE. 2016;11(4):e0151219.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27049645/" target="_blank" rel="noopener noreferrer">PubMed 27049645</a></li>
-            <li><a href="https://doi.org/10.1038/nrmicro.2015.25" target="_blank" rel="noopener noreferrer">Karst SM. The influence of commensal bacteria on infection with enteric viruses. Nat Rev Microbiol. 2016;14(4):197-204.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26775934/" target="_blank" rel="noopener noreferrer">PubMed 26775934</a></li>
-            <li><a href="https://doi.org/10.1128/JCM.01535-14" target="_blank" rel="noopener noreferrer">Vinjé J. Advances in laboratory methods for detection and typing of norovirus. J Clin Microbiol. 2015;53(2):373-381.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25056323/" target="_blank" rel="noopener noreferrer">PubMed 25056323</a></li>
+            <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020. <a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Murray PR, Rosenthal KS, Pfaller MA. <em>Medical Microbiology.</em> 9th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li>Bartsch SM, Lopman BA, Ozawa S, Hall AJ, Lee BY. Global economic burden of norovirus gastroenteritis. <em>PLoS ONE.</em> 2016;11(4):e0151219. <a href="https://doi.org/10.1371/journal.pone.0151219" target="_blank" rel="noopener">doi:10.1371/journal.pone.0151219</a> &middot; PubMed 27049645</li>
+            <li>Karst SM. The influence of commensal bacteria on infection with enteric viruses. <em>Nat Rev Microbiol.</em> 2016;14(4):197-204. <a href="https://doi.org/10.1038/nrmicro.2015.25" target="_blank" rel="noopener">doi:10.1038/nrmicro.2015.25</a> &middot; PubMed 26775934</li>
+            <li>Vinj&eacute; J. Advances in laboratory methods for detection and typing of norovirus. <em>J Clin Microbiol.</em> 2015;53(2):373-381. <a href="https://doi.org/10.1128/JCM.01535-14" target="_blank" rel="noopener">doi:10.1128/JCM.01535-14</a> &middot; PubMed 25056323</li>
           </ul>
         </div>
 
       </div>
+    </div><!-- /.detail-card -->
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers norovirus biology, HBGA receptor tropism, IFN evasion, and outbreak management. Planned expansions: VP1 structure-function analysis, 3C<sup>pro</sup> inhibitor drug development, VLP and P-domain nanoparticle vaccine candidates. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Norovirus%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
     </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

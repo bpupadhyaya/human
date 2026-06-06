@@ -3,93 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Apicomplexan protozoan; severe/cerebral malaria. Liver schizogony (5–7 d) → 48 h RBC cycles → gametocytes. 249M cases/yr; 608,000 deaths (WHO 2022). PfEMP1 cyto">
-  <meta property="og:title" content="Plasmodium falciparum — Human Engineering">
+  <meta name="description" content="Plasmodium falciparum — Atlas Two Pathogen entry. Cerebral malaria, PfEMP1 cytoadherence, 48-hour RBC cycles, artemisinin-based combination therapy. Part of the Human Engineering project.">
+  <meta property="og:title" content="Plasmodium falciparum — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Plasmodium falciparum: PfEMP1 sequestration, var gene antigenic variation, cerebral malaria, ACT treatment, 249 million cases/year.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Plasmodium falciparum — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea; --fg: #1c1c1e; --fg-soft: #3a3a3c;
+      --muted: #6e6e73; --muted-2: #8e8e93; --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #1d4ed8;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(29,78,216,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger { border-left-color: #dc2626; }
+    .mech-item.immune { border-left-color: var(--ai); }
+    .mech-item.latent { border-left-color: var(--accent); }
+    .mech-item.drug  { border-left-color: var(--bio); }
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,90 +110,180 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogens
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 04-parasites</div>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Parasite</div>
     <h1>Plasmodium falciparum</h1>
-    <p class="tagline">Apicomplexan protozoan; severe/cerebral malaria. Liver schizogony (5–7 d) → 48 h RBC cycles → gametocytes. 249M cases/yr; 608,000 deaths (WHO 2022). PfEMP1 cytoadherence causes cerebral malaria. Treated with ACT; no fully protective vaccine.</p>
-    <p class="aliases">Also known as: Pf, P. falciparum, malaria, Plasmodium falciparum, falciparum malaria</p>
+    <p class="tagline">Humanity's deadliest parasite &mdash; 249 million cases and 608,000 deaths in 2022. PfEMP1 cytoadherence in brain microvasculature defines the lethal difference between uncomplicated fever and cerebral malaria.</p>
+    <p class="subtagline"><em>Plasmodium falciparum</em> is an apicomplexan with a complex two-host life cycle: asymptomatic hepatic schizogony (5&ndash;7 days) followed by synchronised 48-hour erythrocytic cycles that drive fever. After 12&ndash;16 hours intra-erythrocytically, infected red blood cells (iRBCs) express PfEMP1 &mdash; encoded by ~60 <em>var</em> genes &mdash; on their surface, mediating sequestration in brain, heart, and placental microvasculature. Artemisinin-based combination therapy (ACT) remains highly effective, though partial resistance is spreading from Southeast Asia.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">04-parasites</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">249M</span><span class="stat-label">Cases in 2022</span></div>
+      <div class="stat"><span class="stat-num">608,000</span><span class="stat-label">Deaths in 2022</span></div>
+      <div class="stat"><span class="stat-num">15&ndash;20%</span><span class="stat-label">Cerebral malaria CFR</span></div>
+      <div class="stat"><span class="stat-num">48 h</span><span class="stat-label">Erythrocytic cycle</span></div>
+      <div class="stat"><span class="stat-num">~60</span><span class="stat-label">var gene variants</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">plasmodium-falciparum</div>
-        <h2>Plasmodium falciparum</h2>
-        <p class="summary">Apicomplexan protozoan; severe/cerebral malaria. Liver schizogony (5–7 d) → 48 h RBC cycles → gametocytes. 249M cases/yr; 608,000 deaths (WHO 2022). PfEMP1 cytoadherence causes cerebral malaria. Treated with ACT; no fully protective vaccine.</p>
+    <div class="detail-card" id="plasmodium-falciparum">
+      <div class="detail-header" style="background: linear-gradient(135deg, #1d4ed8, #1e3a8a);">
+        <div class="entry-eyebrow">Apicomplexa &middot; Haemosporida &middot; Plasmodiidae &middot; ~23 Mb / 14 chromosomes</div>
+        <h3>Plasmodium falciparum</h3>
+        <p class="summary">Apicomplexan protozoan with a two-host life cycle: definitive host (<em>Anopheles</em> mosquito, sexual reproduction) and human intermediate host (asexual amplification). Sporozoites travel to liver within 30 minutes of inoculation; hepatic schizogony produces 10,000&ndash;30,000 merozoites per infected hepatocyte in 5&ndash;7 days. Blood-stage merozoites invade erythrocytes via MSP1, AMA1/RON2, and EBA175; synchronised schizont rupture every 48 hours drives fever spikes via GPI toxins and TNF-&alpha;. After 12&ndash;16 hours, infected RBCs express PfEMP1 (&sim;350 kDa; ~60 <em>var</em> genes, one expressed at a time) on the RBC surface &mdash; mediating cytoadherence to ICAM-1, CD36, and PECAM-1 on vascular endothelium. Cerebral sequestration causes microvascular obstruction, endothelial activation, BBB disruption, coma, and 15&ndash;20% mortality despite treatment. Partial artemisinin resistance (kelch13 mutations) emerging in Southeast Asia and spreading to Africa.</p>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>plasmodium-falciparum</td></tr>
-            <tr><td>Name</td><td>Plasmodium falciparum</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Class</td><td>04-parasites</td></tr>
+          <h4>Classification &amp; Structure</h4>
+          <table class="detail-table">
+            <tr><td>Taxonomy</td><td>Apicomplexa; Haemosporida; Plasmodiidae; <em>Plasmodium</em> &mdash; 5 species infect humans: <em>P. falciparum</em> (most lethal), <em>P. vivax</em>, <em>P. malariae</em>, <em>P. ovale</em>, <em>P. knowlesi</em></td></tr>
+            <tr><td>Hepatic phase</td><td>Sporozoite &rarr; hepatocyte invasion via CD81/SR-B1; hepatic schizogony 5&ndash;7 days; 10,000&ndash;30,000 merozoites/hepatocyte; clinically silent; no fever; merosomes bud into bloodstream</td></tr>
+            <tr><td>Blood phase</td><td>Ring stage (0&ndash;24 h) &rarr; trophozoite (24&ndash;36 h) &rarr; schizont (36&ndash;48 h) &rarr; 16&ndash;32 merozoites &rarr; RBC rupture &rarr; synchronised fever spike</td></tr>
+            <tr><td>PfEMP1</td><td>~350 kDa; exported to RBC surface from 12&ndash;16 h post-invasion; encoded by ~60 <em>var</em> genes (one expressed at a time); binds ICAM-1, CD36, PECAM-1 on endothelium; mediates cytoadherence and rosetting (binding uninfected RBCs)</td></tr>
+            <tr><td>Hemozoin</td><td>Crystalline heme polymer produced as parasite detoxifies hemoglobin-derived heme in food vacuole; activates TLR9 and NLRP3 inflammasome; major driver of systemic inflammation and fever</td></tr>
+            <tr><td>Apicoplast</td><td>Non-photosynthetic plastid (relic of secondary endosymbiosis); essential for fatty acid, isoprenoid, and heme biosynthesis; ~35 kb circular genome; targeted by doxycycline and clindamycin</td></tr>
+            <tr><td>Gametocyte</td><td>Crescent-shaped; 8&ndash;12 &micro;m; takes 7&ndash;15 days to mature; ingested by <em>Anopheles</em> during blood meal; gametes fertilise in mosquito midgut; ookinete &rarr; oocyst &rarr; sporozoites (&rarr; salivary gland)</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="hepatocyte.html" title="Sporozoites injected by *Anopheles* mosquito travel to liver via bloodstream; invade hepatocytes via CD81/SR-B1 receptors and migrate through Kupffer cells; complete hepatic schizogony (5–7 days) producing 10,000–30,000 merozoites per infected hepatocyte, with no clinical symptoms during this phase."><span class="rel">infects</span>Hepatocyte</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="P. falciparum evades adaptive immunity by extensive antigenic variation (PfEMP1/var gene family — ~60 var genes per parasite; expression switching); GPI anchors on parasite surface activate TLR2/TLR4 (systemic inflammation); rosetting (P. falciparum-infected RBCs binding uninfected RBCs) prevents complement-mediated clearance; splenomegaly and repeated episodes cause progressive immune exhaustion."><span class="rel">damages</span>Immune System</a>
+          <h4>Infection Mechanism &amp; Pathogenesis</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>1 &middot; Hepatic phase (5&ndash;7 days, asymptomatic)</h5>
+              <p><em>Anopheles</em> female inoculates sporozoites; they travel to liver via portal circulation within 30 minutes. Sporozoites invade Kupffer cells (liver macrophages), traverse through them, then invade hepatocytes using CD81 and SR-B1 receptors. Inside a parasitophorous vacuole, hepatic schizogony produces 10,000&ndash;30,000 merozoites per infected hepatocyte. Merosomes (merozoite-filled hepatocyte blebs) bud into the bloodstream and are transported to lung capillaries, releasing merozoites. The entire hepatic phase is clinically silent &mdash; no symptoms, no fever &mdash; making pre-erythrocytic vaccine targets attractive.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>2 &middot; Erythrocytic cycles and fever (48 h, symptomatic)</h5>
+              <p>Merozoites invade RBCs via multiple redundant invasion ligands: MSP1 (merozoite surface protein 1), AMA1/RON2 complex (tight junction formation), EBA175 (binds glycophorin A on RBC surface). Inside the RBC, the parasite degrades hemoglobin in its food vacuole, converting toxic heme to crystalline hemozoin. Synchronised schizont rupture every 48 hours releases GPI toxins and hemozoin that activate TLR2/TLR4 and NLRP3 on macrophages &rarr; massive TNF-&alpha;, IL-6, IL-1&beta; release &rarr; high fever spikes (tertian pattern), rigors, headache, myalgia.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>3 &middot; Cytoadherence and sequestration (cerebral malaria)</h5>
+              <p>After 12&ndash;16 hours of intra-erythrocytic development, iRBCs export PfEMP1 to the RBC surface via the PEXEL-mediated export pathway and the MAHRP1/KAHRP knob structure. PfEMP1 binds ICAM-1, CD36, PECAM-1, and endothelial protein C receptor (EPCR) on cerebrovascular endothelium &mdash; anchoring iRBCs to vessel walls and removing them from splenic clearance. In cerebral malaria: sequestration in brain microvasculature &rarr; mechanical obstruction + endothelial activation (ICAM-1 upregulation, NF-&kappa;B) + blood-brain barrier disruption &rarr; cerebral oedema, raised ICP, coma, seizures. Case fatality 15&ndash;20% even with IV artesunate.</p>
+            </div>
+            <div class="mech-item latent">
+              <h5>4 &middot; var gene antigenic variation</h5>
+              <p>~60 <em>var</em> genes per haploid genome; only one is transcribed at a time (monoallelic expression maintained by epigenetic silencing: H3K9me3 marks at silent loci; active locus associates with perinuclear transcription zone). Immune pressure from host anti-PfEMP1 antibodies selects for iRBCs expressing a different <em>var</em> allele; switching frequency ~10&#8315;&#178;/cell/generation. This mechanism ensures that acquired immunity to PfEMP1 variants takes years of cumulative exposure to develop &mdash; explaining why children bear the highest mortality burden in endemic areas.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Host Immune Response</h4>
+          <div class="immune-tags">
+            <span class="itag innate">Hemozoin / GPI &rarr; TLR2/TLR4/TLR9 &rarr; TNF-&alpha;, IL-6, IL-12</span>
+            <span class="itag innate">NLRP3 inflammasome activation (hemozoin) &rarr; IL-1&beta;</span>
+            <span class="itag innate">NK cell activation (early); &gamma;&delta; T cells (acute fever)</span>
+            <span class="itag adaptive">Anti-merozoite antibodies (anti-MSP1, anti-AMA1) &mdash; partially protective</span>
+            <span class="itag adaptive">Anti-PfEMP1 antibodies (develop over years of exposure)</span>
+            <span class="itag adaptive">CD4+ T cell help; CD8+ T cells (hepatocytic stage)</span>
+            <span class="itag depleted">PfEMP1 var gene switching prevents sustained antibody response</span>
+            <span class="itag depleted">Splenomegaly + repeated infections &rarr; progressive immune exhaustion</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Disease Spectrum</h4>
+          <table class="path-table">
+            <tr><th>Syndrome</th><th>Mechanism</th><th>Key Features</th></tr>
+            <tr><td>Uncomplicated malaria</td><td>Synchronised schizont rupture + GPI toxins/hemozoin &rarr; TNF-&alpha;/IL-6 storm</td><td>Cyclical fever every 48 h (tertian), rigors, headache, myalgia, anaemia; self-limited with ACT treatment</td></tr>
+            <tr><td>Severe malaria (WHO criteria)</td><td>Multiple organ involvement</td><td>Cerebral malaria, severe anaemia (Hb &lt;7 g/dL), AKI, respiratory distress (metabolic acidosis), hypoglycaemia, shock, haemoglobinuria</td></tr>
+            <tr><td>Cerebral malaria</td><td>iRBC sequestration in brain microvasculature &rarr; obstruction + BBB disruption</td><td>Unrousable coma, seizures, intracranial hypertension; cortical ribboning on MRI; 15&ndash;20% mortality with treatment; neurological sequelae in survivors</td></tr>
+            <tr><td>Placental malaria</td><td>VAR2CSA PfEMP1 variant binds chondroitin sulfate A on placental syncytiotrophoblasts</td><td>Maternal anaemia, fetal growth restriction, low birth weight, preterm delivery; leading cause of maternal/infant morbidity in endemic Africa</td></tr>
+            <tr><td>Severe anaemia</td><td>RBC lysis at schizont rupture + bystander uninfected RBC destruction + dyserythropoiesis</td><td>Up to 25% of children chronically anaemic in high-transmission areas; requires transfusion + ACT</td></tr>
+            <tr><td>Blackwater fever</td><td>Massive intravascular haemolysis (associated with quinine, G6PD deficiency)</td><td>Haemoglobinuria ("black urine"), AKI; rare; poor prognosis without intensive support</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Treatment &amp; Prophylaxis</h4>
+          <div class="mech-list">
+            <div class="mech-item drug">
+              <h5>Artemisinin-Based Combination Therapy (ACT) &mdash; Standard of Care</h5>
+              <p>Artesunate + amodiaquine (Africa), artesunate + lumefantrine (AL, Coartem &mdash; global), artesunate + mefloquine (SE Asia), dihydroartemisinin-piperaquine (DHA-PPQ). Artemisinin acts via ROS generation from heme-activated endoperoxide bridge &mdash; kills ring-stage and young trophozoites within hours. Partner drug kills remaining asexual parasites and provides post-treatment prophylaxis. ACT is &gt;95% effective against susceptible strains.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>IV Artesunate &mdash; Severe Malaria</h5>
+              <p>IV artesunate (2.4 mg/kg at 0, 12, 24 h, then daily) is WHO recommended for severe malaria; superior to IV quinine in reducing mortality in RCTs (AQUAMAT trial); transition to oral ACT when patient can tolerate; follow with single primaquine dose to clear gametocytes in non-G6PD-deficient patients.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>Chemoprophylaxis</h5>
+              <p>Atovaquone-proguanil (Malarone): daily; start 1&ndash;2 days before travel; well tolerated. Doxycycline: daily; start 1&ndash;2 days before; avoid in pregnancy/children &lt;8 years. Mefloquine: weekly; start 2&ndash;3 weeks before; neuropsychiatric side effects. Primaquine: prevents <em>P. vivax</em>/<em>P. ovale</em> relapse (must test G6PD first).</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>RTS,S/AS01 Vaccine (Mosquirix) and R21/Matrix-M</h5>
+              <p>RTS,S/AS01: WHO-approved 2021 for children in high-transmission areas; targets circumsporozoite protein (CSP); ~50% efficacy against clinical malaria over 4-dose schedule; approved for routine childhood immunisation in Africa. R21/Matrix-M (Serum Institute/Oxford): ~75% efficacy at 1 year in Phase 3 trial; WHO approval 2023; higher efficacy, simpler supply chain; being rolled out across Africa.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Cross-Atlas Connections</h4>
+          <div class="connections">
+            <a class="conn-pill infects" href="index.html"><span class="rel">Infects</span>Hepatocytes (silent hepatic phase)</a>
+            <a class="conn-pill infects" href="index.html"><span class="rel">Infects</span>Erythrocytes (symptomatic blood phase)</a>
+            <a class="conn-pill damages" href="brain.html"><span class="rel">Damages</span>Brain (cerebral sequestration, coma)</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system (var-gene evasion, exhaustion)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://www.who.int/publications/i/item/9789240086173" target="_blank" rel="noopener noreferrer">World Health Organization. World Malaria Report 2023. WHO; 2023.</a></li>
-            <li><a href="https://doi.org/10.1038/415673a" target="_blank" rel="noopener noreferrer">Miller LH, Baruch DI, Marsh K, Doumbo OK. The pathogenic basis of malaria. Nature. 2002;415(6872):673-9.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11832955/" target="_blank" rel="noopener noreferrer">PubMed 11832955</a></li>
-            <li><a href="https://doi.org/10.1016/j.cell.2016.07.055" target="_blank" rel="noopener noreferrer">Cowman AF, Healer J, Marapana D, Marsh K. Malaria: Biology and Disease. Cell. 2016;167(3):610-624.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27768886/" target="_blank" rel="noopener noreferrer">PubMed 27768886</a></li>
-            <li><a href="https://doi.org/10.1186/1475-2875-13-500" target="_blank" rel="noopener noreferrer">Ashley EA, White NJ. The duration of Plasmodium falciparum infections. Malar J. 2014;13:500.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25519842/" target="_blank" rel="noopener noreferrer">PubMed 25519842</a></li>
+            <li>World Health Organization. <em>World Malaria Report 2023.</em> WHO; 2023. <a href="https://www.who.int/publications/i/item/9789240086173" target="_blank" rel="noopener">who.int/publications/i/item/9789240086173</a></li>
+            <li>Miller LH, Baruch DI, Marsh K, Doumbo OK. The pathogenic basis of malaria. <em>Nature.</em> 2002;415(6872):673-9. <a href="https://doi.org/10.1038/415673a" target="_blank" rel="noopener">doi:10.1038/415673a</a> &middot; PubMed 11832955</li>
+            <li>Cowman AF, Healer J, Marapana D, Marsh K. Malaria: Biology and Disease. <em>Cell.</em> 2016;167(3):610-624. <a href="https://doi.org/10.1016/j.cell.2016.07.055" target="_blank" rel="noopener">doi:10.1016/j.cell.2016.07.055</a> &middot; PubMed 27768886</li>
+            <li>Ashley EA, White NJ. The duration of <em>Plasmodium falciparum</em> infections. <em>Malar J.</em> 2014;13:500. <a href="https://doi.org/10.1186/1475-2875-13-500" target="_blank" rel="noopener">doi:10.1186/1475-2875-13-500</a> &middot; PubMed 25519842</li>
           </ul>
         </div>
 
       </div>
     </div>
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers <em>P. falciparum</em> biology, cerebral malaria pathogenesis, and treatment. Partial artemisinin resistance mechanisms (kelch13 mutations), EPCR-binding PfEMP1 variants, and placental malaria are planned expansions.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Plasmodium%20falciparum%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
+    </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

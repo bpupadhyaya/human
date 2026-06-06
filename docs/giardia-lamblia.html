@@ -3,93 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Diplomonad protozoan; pear-shaped trophozoite + oval cysts; ventral adhesive disc attaches to duodenal/jejunal epithelium; disrupts tight junctions → secretory ">
-  <meta property="og:title" content="Giardia lamblia (G. intestinalis / G. duodenalis) — Human Engineering">
+  <meta name="description" content="Giardia lamblia — Atlas Two Pathogen entry. Diplomonad protozoan, ventral disc adhesion, VSP antigenic variation, secretory diarrhoea, malabsorption. Part of the Human Engineering project.">
+  <meta property="og:title" content="Giardia lamblia — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Giardia lamblia: ventral disc, VSP antigenic variation, tight junction disruption, malabsorption, tinidazole treatment.">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Giardia lamblia (G. intestinalis / G. duodenalis) — Human Engineering</title>
+  <title>Giardia lamblia — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea; --fg: #1c1c1e; --fg-soft: #3a3a3c;
+      --muted: #6e6e73; --muted-2: #8e8e93; --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #1d4ed8;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(29,78,216,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger { border-left-color: #dc2626; }
+    .mech-item.immune { border-left-color: var(--ai); }
+    .mech-item.latent { border-left-color: var(--accent); }
+    .mech-item.drug  { border-left-color: var(--bio); }
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,92 +110,187 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogens
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 04-parasites</div>
-    <h1>Giardia lamblia (G. intestinalis / G. duodenalis)</h1>
-    <p class="tagline">Diplomonad protozoan; pear-shaped trophozoite + oval cysts; ventral adhesive disc attaches to duodenal/jejunal epithelium; disrupts tight junctions → secretory diarrhea; no mitochondria; fecal-oral/waterborne. Most common intestinal protozoan worldwide.</p>
-    <p class="aliases">Also known as: Giardia intestinalis, Giardia duodenalis, G. lamblia, giardiasis, traveler's diarrhea (Giardia), beaver fever</p>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Parasite</div>
+    <h1>Giardia lamblia</h1>
+    <p class="tagline">The most common intestinal protozoan worldwide &mdash; a diplomonad time capsule thriving without mitochondria, using a hydrodynamic suction disc to colonise your duodenum.</p>
+    <p class="subtagline"><em>Giardia lamblia</em> (also <em>G. intestinalis / G. duodenalis</em>) infects 280&ndash;300 million people per year. Pear-shaped trophozoites attach to duodenal and jejunal epithelium via the ventral adhesive disc, disrupting tight junctions, stripping microvilli, and triggering malabsorption &mdash; all without ever invading host tissue. VSP antigenic variation drives immune escape. Chronic infection stunts childhood growth; treatment is highly effective with single-dose tinidazole.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">04-parasites</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">280&ndash;300M</span><span class="stat-label">Cases per year</span></div>
+      <div class="stat"><span class="stat-num">~10</span><span class="stat-label">Cysts to infect</span></div>
+      <div class="stat"><span class="stat-num">~190</span><span class="stat-label">VSP gene variants</span></div>
+      <div class="stat"><span class="stat-num">8</span><span class="stat-label">Flagella (4 pairs)</span></div>
+      <div class="stat"><span class="stat-num">90&ndash;95%</span><span class="stat-label">Tinidazole cure rate</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">giardia-lamblia</div>
-        <h2>Giardia lamblia (G. intestinalis / G. duodenalis)</h2>
-        <p class="summary">Diplomonad protozoan; pear-shaped trophozoite + oval cysts; ventral adhesive disc attaches to duodenal/jejunal epithelium; disrupts tight junctions → secretory diarrhea; no mitochondria; fecal-oral/waterborne. Most common intestinal protozoan worldwide.</p>
+    <div class="detail-card" id="giardia-lamblia">
+      <div class="detail-header" style="background: linear-gradient(135deg, #1d4ed8, #1e3a8a);">
+        <div class="entry-eyebrow">Metamonada &middot; Diplomonadida &middot; Non-motile cyst + flagellate trophozoite &middot; 9&ndash;21 &micro;m</div>
+        <h3>Giardia lamblia</h3>
+        <p class="summary">Binucleate flagellated protozoan and one of the earliest-diverging eukaryotic lineages. Trophozoites colonise the duodenum and jejunum and attach exclusively via the ventral adhesive disc &mdash; a rigid cytoskeletal organelle generating hydrodynamic suction via flagellar beating. Infection is strictly extracellular: tight junctions are disrupted by cysteine protease cleavage of ZO-1 (via PAR-2/PKC/claudin-2), brush border disaccharidases are displaced, and bile salts are deconjugated &mdash; producing a combined osmotic and secretory diarrhoea with steatorrhoea. VSP antigenic switching (epigenetically regulated, ~190 variants) continuously subverts mucosal IgA. In hypogammaglobulinaemia (CVID), absence of IgA allows chronic, treatment-refractory infection. Single-dose tinidazole (2 g) achieves 90&ndash;95% cure.</p>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>giardia-lamblia</td></tr>
-            <tr><td>Name</td><td>Giardia lamblia (G. intestinalis / G. duodenalis)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>04-parasites</td></tr>
+          <h4>Classification &amp; Structure</h4>
+          <table class="detail-table">
+            <tr><td>Kingdom / Supergroup</td><td>Eukaryota; Excavata; Metamonada; Fornicata; Diplomonadida &mdash; one of the earliest-diverging eukaryotic lineages; sister group to Retortamonadida</td></tr>
+            <tr><td>Trophozoite</td><td>9&ndash;21 &micro;m &times; 5&ndash;15 &micro;m, pear/tear-drop; 2 nuclei (symmetrically paired); 4 pairs of flagella (anterior, posterior-lateral, caudal, ventral); 1 ventral adhesive disc; 2 L-shaped median bodies (tubulin-based, function uncertain)</td></tr>
+            <tr><td>Cyst</td><td>8&ndash;12 &micro;m oval; 4 nuclei; &beta;-1,3-GalNAc polymer wall (CWP1/2/3); extremely hardy &mdash; viable months in cold water; resistant to standard chlorination; killed by boiling or UV</td></tr>
+            <tr><td>Ventral adhesive disc</td><td>Rigid concave cytoskeletal plate; spiral coil of &alpha;/&beta;/&gamma;-tubulin with contractile microribbons (giardins &alpha;, &beta;, &delta;, &epsilon;, &zeta; &mdash; unique to <em>Giardia</em>); hydrodynamic low-pressure suction created by flagellar current; mannose-binding lectins supplement mechanical adhesion</td></tr>
+            <tr><td>VSP coat</td><td>~190 Variant Surface Protein genes; only one expressed per trophozoite at a time; highly cysteine-rich; C-terminal CRGKA transmembrane anchor; forms dense protease-resistant coat; switched by IgA-driven epigenetic derepression (H3K4me3 / RNAi mechanism)</td></tr>
+            <tr><td>Mitosomes</td><td>Rudimentary mitochondria-derived organelles retaining only Fe-S cluster assembly pathway; no oxidative phosphorylation; no conventional Golgi or peroxisomes &mdash; reflects deep evolutionary divergence and anaerobic lifestyle</td></tr>
+            <tr><td>Fermentation end-products</td><td>Ethanol and acetate; cannot synthesise long-chain fatty acids de novo; relies on host bile for lipid acquisition</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="small-intestine.html" title="Trophozoites attach to duodenal and jejunal brush border via ventral disc; VSP antigenic variation evades mucosal IgA; disruption of tight junctions (ZO-1 redistribution) causes villous blunting and malabsorption."><span class="rel">infects</span>Small Intestine</a>
-            <a class="conn-pill damaged" href="digestive-system.html" title="Disruption of duodenal and jejunal epithelium reduces digestive enzyme activity; villous blunting causes fat malabsorption (steatorrhoea); lactase deficiency often persists after clearance."><span class="rel">damages</span>Digestive System</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="Secretory IgA production against VSPs drives antigenic switching; CD4+ T cell-mediated immunity required for clearance; hypogammaglobulinaemia (e.g. common variable immunodeficiency) leads to chronic giardiasis."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill damaged" href="dendritic-cell.html" title="Giardia-derived proteases activate dendritic cells via TLR4; paradoxical suppression of DC maturation and IL-12 production reduces Th1 responses, facilitating persistent infection."><span class="rel">damages</span>Dendritic Cell</a>
+          <h4>Infection Mechanism &amp; Pathogenesis</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>1 &middot; Transmission and excystation</h5>
+              <p>Ingestion of as few as 10 cysts from contaminated water or food (the lowest infectious dose of any intestinal protozoan). Gastric acid (pH 2) triggers excystation; pancreatic trypsin in the duodenum completes the process &mdash; two trophozoites emerge per cyst within minutes. Cysts resist standard chlorination (require UV or filtration); person-to-person transmission in childcare centres and institutions; zoonotic transmission from beavers and dogs (assemblage A strains). VSPs are expressed immediately on emerging trophozoites.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>2 &middot; Ventral disc adhesion</h5>
+              <p>Trophozoites colonise the duodenum and proximal jejunum &mdash; where bile (paradoxically) stimulates their growth. The ventral disc generates hydrodynamic suction via caudal flagellar current creating a low-pressure zone beneath the disc; &alpha;/&beta;-giardin contractile microribbons adjust disc curvature to maximise contact with enterocyte microvilli. Mannose-binding lectins on the parasite surface provide additional adhesion to the enterocyte glycocalyx. <em>Giardia</em> is strictly extracellular and never invades the lamina propria.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>3 &middot; Tight junction disruption and barrier failure</h5>
+              <p>Secreted cysteine proteases (CP2, CP14, CP49) cleave ZO-1 (zonula occludens-1) from tight junctions; trophozoite signalling via PAR-2 (protease-activated receptor 2) activates PKC, upregulating claudin-2 (paracellular cation channels). Claudin-1 and occludin are redistributed away from junctions. Simultaneously, disc adhesion physically strips microvilli from the brush border, reducing mucosal surface area. The result is a "leaky gut" phenotype with paracellular leak of luminal antigens and water.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>4 &middot; Malabsorption mechanisms</h5>
+              <p>Brush border disaccharidases (lactase, sucrase, maltase) are displaced from the epithelial membrane &rarr; carbohydrate malabsorption &rarr; osmotic diarrhoea. Giardia deconjugates bile salts via its own hydrolases &rarr; deconjugated bile salts are ineffective emulsifiers &rarr; fat malabsorption &rarr; steatorrhoea. Cysteine protease activation of PAR-2 on enterocytes &rarr; increased Cl&#8315; secretion via CFTR &rarr; secretory diarrhoea. The dual (osmotic + secretory) mechanism explains the classic foul-smelling, greasy, non-bloody stools of giardiasis.</p>
+            </div>
+            <div class="mech-item latent">
+              <h5>5 &middot; VSP antigenic variation and immune escape</h5>
+              <p>One of ~190 VSP genes is expressed per trophozoite; silent VSPs are epigenetically suppressed (H3K4me3 marks the active locus; RNAi suppresses inactive loci). When mucosal IgA targeting the surface VSP accumulates, parasites switch expression to an alternative VSP &mdash; escaping antibody-mediated killing. This cycle allows chronic infection to persist despite IgA responses. In hypogammaglobulinaemia (CVID, agammaglobulinaemia), absence of secretory IgA leads to severe, treatment-refractory chronic giardiasis that requires repeated or long-term courses of antiparasitic therapy.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Host Immune Response</h4>
+          <div class="immune-tags">
+            <span class="itag innate">Mast cell degranulation (contributes to symptoms)</span>
+            <span class="itag innate">PAR-2 activation by secreted cysteine proteases</span>
+            <span class="itag innate">Partial TLR4 activation &rarr; limited NF-&kappa;B</span>
+            <span class="itag adaptive">Mucosal secretory IgA against VSPs (drives antigenic switching)</span>
+            <span class="itag adaptive">CD4+ Th1 response required for clearance</span>
+            <span class="itag adaptive">Anti-VSP IgA in intestinal lumen &rarr; VSP switch pressure</span>
+            <span class="itag depleted">Hypogammaglobulinaemia (CVID) &rarr; chronic refractory infection</span>
+            <span class="itag depleted">DC maturation suppressed (IL-12 &darr;) &rarr; impaired Th1</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Disease Spectrum</h4>
+          <table class="path-table">
+            <tr><th>Presentation</th><th>Proportion</th><th>Key Features</th></tr>
+            <tr><td>Asymptomatic carriage</td><td>~50&ndash;60%</td><td>Cyst excretion without illness; common in endemic areas from partial acquired immunity; major reservoir for transmission</td></tr>
+            <tr><td>Acute giardiasis</td><td>~40%</td><td>1&ndash;3-week incubation; watery, foul-smelling, greasy, non-bloody diarrhoea; bloating, flatulence, abdominal cramps, nausea, weight loss; fever absent or low-grade; self-limited in 2&ndash;6 weeks in immunocompetent hosts</td></tr>
+            <tr><td>Chronic giardiasis</td><td>~5&ndash;10%</td><td>Intermittent diarrhoea, steatorrhoea, malabsorption syndrome; lactose intolerance (may persist post-clearance); children: growth stunting, cognitive impairment; persists months to years without treatment</td></tr>
+            <tr><td>CVID / hypogammaglobulinaemia</td><td>Near universal in untreated</td><td>Chronic severe infection; profound malabsorption; repeated treatment courses required; can be life-threatening from nutritional failure</td></tr>
+            <tr><td>Post-infectious IBS</td><td>~10&ndash;15% of acute cases</td><td>Persistent GI symptoms after eradication; altered gut microbiome and epithelial function; lactase deficiency often persists &gt;6 months post-infection</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Treatment &amp; Prophylaxis</h4>
+          <div class="mech-list">
+            <div class="mech-item drug">
+              <h5>Tinidazole &mdash; First-line (single dose)</h5>
+              <p>2 g orally, single dose; 90&ndash;95% cure rate; nitroimidazole class; fewer GI side effects than metronidazole; preferred for compliance simplicity. Avoid in first trimester of pregnancy.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>Metronidazole &mdash; Effective alternative</h5>
+              <p>250 mg TID &times; 5&ndash;7 days orally; metallic taste and nausea common; alcohol interaction (disulfiram-like); avoid in first trimester. Widely available globally; cure rate ~85&ndash;90%.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>Nitazoxanide &mdash; Broad-spectrum alternative</h5>
+              <p>500 mg BID &times; 3 days; also active against <em>Cryptosporidium</em>; paediatric liquid formulation (100 mg/5 mL) available; useful for mixed infections and when metronidazole-resistant strains suspected.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>Paromomycin &mdash; Pregnancy-safe</h5>
+              <p>500 mg TID &times; 5&ndash;10 days; poorly absorbed aminoglycoside; preferred in pregnancy (minimal systemic fetal exposure); efficacy ~60&ndash;70%, lower than systemic agents; suitable when other drugs contraindicated.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>Prevention</h5>
+              <p>Water filtration or UV treatment (chlorination alone is insufficient &mdash; cysts are chlorine-resistant); hand hygiene in childcare and institutional settings; no licensed vaccine available as of 2026.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Cross-Atlas Connections</h4>
+          <div class="connections">
+            <a class="conn-pill infects" href="index.html"><span class="rel">Infects</span>Small intestine (duodenum/jejunum epithelium)</a>
+            <a class="conn-pill damages" href="index.html"><span class="rel">Damages</span>Digestive system (malabsorption, steatorrhoea)</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system (VSP-driven IgA evasion)</a>
+            <a class="conn-pill damages" href="index.html"><span class="rel">Damages</span>Dendritic cells (IL-12 suppression; Th2 skewing)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1051/parasite/2008153261" target="_blank" rel="noopener noreferrer">Buret AG. Pathophysiology of enteric infections with Giardia duodenalis. Parasite. 2008;15(3):261-5.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18814694/" target="_blank" rel="noopener noreferrer">PubMed 18814694</a></li>
-            <li><a href="https://doi.org/10.1038/nrmicro2317" target="_blank" rel="noopener noreferrer">Ankarklev J, Jerlström-Hultqvist J, Ringqvist E, Troell K, Svärd SG. Behind the smile: cell biology and disease mechanisms of Giardia species. Nat Rev Microbiol. 2010;8(6):413-22.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20400969/" target="_blank" rel="noopener noreferrer">PubMed 20400969</a></li>
+            <li>Ankarklev J, Jerlstr&ouml;m-Hultqvist J, Ringqvist E, Troell K, Sv&auml;rd SG. Behind the smile: cell biology and disease mechanisms of Giardia species. <em>Nat Rev Microbiol.</em> 2010;8(6):413-22. <a href="https://doi.org/10.1038/nrmicro2317" target="_blank" rel="noopener">doi:10.1038/nrmicro2317</a> &middot; PubMed 20400969</li>
+            <li>Buret AG. Pathophysiology of enteric infections with Giardia duodenalis. <em>Parasite.</em> 2008;15(3):261-5. <a href="https://doi.org/10.1051/parasite/2008153261" target="_blank" rel="noopener">doi:10.1051/parasite/2008153261</a> &middot; PubMed 18814694</li>
+            <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020.</li>
+            <li>Murray PR, Rosenthal KS, Pfaller MA. <em>Medical Microbiology.</em> 9th ed. Elsevier; 2021.</li>
           </ul>
         </div>
 
       </div>
     </div>
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers <em>Giardia lamblia</em> biology, pathogenesis, and treatment. Post-infectious IBS mechanisms, proteomics of the ventral disc, and VSP regulation are planned expansions. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Giardia%20lamblia%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
+    </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

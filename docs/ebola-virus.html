@@ -3,93 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Filoviridae; filamentous enveloped negative-sense ssRNA (~19 kb). GP1,2 trimers bind NPC1 in late endosomes for entry; VP35/VP40/VP24 suppress IFN signaling. Ca">
-  <meta property="og:title" content="Ebola Virus (EBOV) — Human Engineering">
+  <meta name="description" content="Ebola Virus — Atlas Two Pathogen entry. Filoviridae, NPC1 receptor, VP35/VP24 IFN evasion, DIC, hemorrhagic fever, Ervebo vaccine, Inmazeb treatment. Part of the Human Engineering project.">
+  <meta property="og:title" content="Ebola Virus — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Ebola virus entry: GP1,2–NPC1 mechanism, VP35/VP24 IFN blockade, cytokine storm, DIC, EVD clinical stages, Ervebo/Inmazeb approvals.">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Ebola Virus (EBOV) — Human Engineering</title>
+  <title>Ebola Virus — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bg: #f2f2f7;
+      --bg-elev: #ffffff;
+      --bg-soft: #e5e5ea;
+      --fg: #1c1c1e;
+      --fg-soft: #3a3a3c;
+      --muted: #6e6e73;
+      --muted-2: #8e8e93;
+      --border: #d1d1d6;
+      --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg); color: var(--fg);
+      line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+    }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    /* ---------- NAV ---------- */
+    nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
+    }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+
+    /* ---------- HERO ---------- */
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      background: rgba(159, 18, 57, 0.1); color: var(--accent);
+      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
+    }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    /* ---------- MAIN ---------- */
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.9rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); border-radius: 999px; font-size: 0.74rem; color: rgba(255,255,255,0.82); font-weight: 600; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger  { border-left-color: #dc2626; }
+    .mech-item.immune  { border-left-color: var(--ai); }
+    .mech-item.latent  { border-left-color: var(--accent); }
+    .mech-item.drug    { border-left-color: var(--bio); }
+
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,94 +148,192 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogen Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
-    <h1>Ebola Virus (EBOV)</h1>
-    <p class="tagline">Filoviridae; filamentous enveloped negative-sense ssRNA (~19 kb). GP1,2 trimers bind NPC1 in late endosomes for entry; VP35/VP40/VP24 suppress IFN signaling. Causes hemorrhagic fever with DIC, vascular leak; CFR 25-90%. Ervebo vaccine FDA-approved.</p>
-    <p class="aliases">Also known as: EBOV, Ebola, Ebola haemorrhagic fever virus, EHF, EVD virus, Zaire ebolavirus</p>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus</div>
+    <h1>Ebola Virus</h1>
+    <p class="tagline">A filamentous filovirus that silences innate immunity with VP35 and VP24, converts macrophages into cytokine factories, and drives disseminated intravascular coagulation — one of the most lethal human pathogens ever recorded.</p>
+    <p class="subtagline">Ebola virus (EBOV; <em>Zaire ebolavirus</em>) causes Ebola Virus Disease (EVD) with case fatality rates of 25–90%. The 2014–2016 West Africa epidemic — ~28,600 cases, 11,325 deaths — remains the largest outbreak on record. Entry requires GP1,2-mediated macropinocytosis and NPC1 receptor engagement in late endosomes. Ervebo (rVSV-ZEBOV-GP) achieved &gt;97% efficacy in ring vaccination trials and is FDA-approved. Monoclonal antibody cocktail Inmazeb is the first approved antiviral treatment.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">25–90%</span><span class="stat-label">Case fatality rate</span></div>
+      <div class="stat"><span class="stat-num">28,600</span><span class="stat-label">Cases (2014–2016)</span></div>
+      <div class="stat"><span class="stat-num">~19 kb</span><span class="stat-label">&minus;ssRNA genome</span></div>
+      <div class="stat"><span class="stat-num">&gt;97%</span><span class="stat-label">Ervebo vaccine efficacy</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">ebola-virus</div>
-        <h2>Ebola Virus (EBOV)</h2>
-        <p class="summary">Filoviridae; filamentous enveloped negative-sense ssRNA (~19 kb). GP1,2 trimers bind NPC1 in late endosomes for entry; VP35/VP40/VP24 suppress IFN signaling. Causes hemorrhagic fever with DIC, vascular leak; CFR 25-90%. Ervebo vaccine FDA-approved.</p>
+    <div class="detail-card" id="ebola-virus">
+      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #7f1d1d);">
+        <div class="entry-eyebrow">Filoviridae &middot; Ebolavirus &middot; &minus;ssRNA, Enveloped &middot; ~80 nm &times; 800–1,000 nm</div>
+        <h3>Ebola Virus (EBOV)</h3>
+        <p class="summary">Filamentous enveloped negative-sense ssRNA virus (~19 kb; 7 genes in 3&prime;&rarr;5&prime; order: NP–VP35–VP40–GP–VP30–VP24–L). The sole surface antigen, the GP1,2 trimeric spike, mediates entry via macropinocytosis and cathepsin B/L-dependent cleavage in late endosomes to expose the NPC1 (Niemann-Pick C1) receptor-binding domain — an obligate intracellular receptor unique among human viral pathogens. VP40 (matrix protein) drives virion budding and filamentous morphology. Pathogenicity arises from a coordinated dual immune evasion: VP35 blocks RIG-I/MDA5-mediated IFN-&beta; production; VP24 prevents STAT1 nuclear import, blocking IFN-JAK-STAT signalling. Secreted sGP (soluble GP decoy) absorbs neutralising antibodies; infected macrophages/DCs release massive cytokine storms (TNF-&alpha;, IL-6, IL-1&beta;) while failing to prime adaptive T-cell responses. The terminal common pathway is multi-organ failure from vascular leak, DIC, and hepatic necrosis rather than exsanguination per se.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">EBOV</span>
+          <span class="alias-pill">Zaire ebolavirus</span>
+          <span class="alias-pill">EHF</span>
+          <span class="alias-pill">EVD virus</span>
+          <span class="alias-pill">Ebola haemorrhagic fever virus</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>ebola-virus</td></tr>
-            <tr><td>Name</td><td>Ebola Virus (EBOV)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>01-viruses</td></tr>
+          <h4>Classification &amp; Structure</h4>
+          <table class="detail-table">
+            <tr><td>Genome</td><td>~19 kb negative-sense single-stranded RNA (&minus;ssRNA); non-segmented; 7 genes in 3&prime;&rarr;5&prime; order: NP, VP35, VP40, GP, VP30, VP24, L (RNA-dependent RNA polymerase). Must be transcribed to +sense mRNAs before translation — L polymerase bundled in nucleocapsid.</td></tr>
+            <tr><td>Family / Genus</td><td><em>Filoviridae</em> / <em>Ebolavirus</em>. Species: <em>Zaire ebolavirus</em> (most lethal; responsible for all major outbreaks). Other species: Sudan, Bundibugyo, Ta&iuml; Forest, Reston (non-pathogenic in humans), Bombali.</td></tr>
+            <tr><td>Envelope</td><td>Yes — host-derived lipid bilayer; GP1,2 trimeric spikes (~10 nm projections) are the sole surface antigen; VP40 major matrix protein lines inner leaflet and drives budding</td></tr>
+            <tr><td>Size / morphology</td><td>~80 nm diameter, uniformly; 800–1,000 nm length (typical infectious unit ~805 nm); characteristic filamentous "shepherd&rsquo;s crook" or loop shape by electron microscopy; some virions reach 14,000 nm in length</td></tr>
+            <tr><td>Genotypes</td><td>Makona (2014–2016 West Africa — accumulated &gt;600 fixed mutations), Kikwit (1995 DRC), Mayinga (1976 DRC). No clinically distinct serotypes; all strains antigenically cross-reactive.</td></tr>
+            <tr><td>Key virulence factors</td><td>GP1,2 (entry + sGP antibody decoy); VP35 (IFN-&beta; production block via RIG-I/IRF3 inhibition); VP24 (STAT1 nuclear import block); VP40 (budding, tetherin/BST-2 antagonist); NP (innate immune suppression)</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="macrophage.html" title="Macrophages and monocytes are primary early targets of EBOV; GP1,2 binds DC-SIGN/L-SIGN enabling viral uptake, replication, and cytokine storm (TNF-α, IL-6, IL-8) that amplifies systemic pathology."><span class="rel">infects</span>Macrophage</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="VP35 blocks RIG-I/MDA5 sensing; VP24 prevents STAT1 nuclear import; lymphocyte apoptosis depletes T and NK cells, leaving unchecked viral replication and fatal immune collapse."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill damaged" href="liver.html" title="EBOV infects hepatocytes causing diffuse necrosis, markedly elevated transaminases, and coagulopathy from impaired clotting factor synthesis — hepatic failure drives DIC and hemorrhage."><span class="rel">damages</span>Liver</a>
-            <a class="conn-pill" href="ervebo.html" title="Ervebo (rVSV-ZEBOV-GP) is a live recombinant VSV expressing Ebola GP; FDA-approved 2019; ring vaccination achieved &gt;97% efficacy in the Guinea Ebola ring vaccination trial (Henao-Restrepo 2017)."><span class="rel">prevented-by</span>Ervebo</a>
+          <h4>Infection Mechanism</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>1 &middot; Contact transmission and primary target cells</h5>
+              <p>EBOV is transmitted exclusively by direct contact with blood, secretions, or organs of infected persons — no aerosol transmission documented in natural outbreaks. Healthcare workers, burial teams, and close family caregivers face highest risk. The natural reservoir is most likely insectivorous fruit bats (<em>Rousettus aegyptiacus</em>). Upon exposure, macrophages and dendritic cells are the primary early cellular targets, expressing DC-SIGN (CD209) and L-SIGN (CD209L) — high-affinity attachment factors for GP1.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>2 &middot; Macropinocytosis and endosomal entry via NPC1</h5>
+              <p>EBOV triggers large-scale macropinocytosis (actin-driven membrane ruffling, forming ~0.5–5 &micro;m vesicles) as its primary internalization route. Within the late endosome/lysosome, host cathepsins B and L proteolytically cleave GP1 from ~130 kDa to a ~19 kDa core fragment, exposing the <strong>NPC1 (Niemann-Pick C1) receptor-binding domain</strong>. NPC1 is a late endosomal cholesterol transporter; its discovery as EBOV&rsquo;s intracellular receptor (Carette et al., <em>Nature</em> 2011) explained EBOV&rsquo;s broad cellular tropism and opened cathepsin/NPC1 as drug targets.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>3 &middot; Membrane fusion, replication, and VP40-driven budding</h5>
+              <p>NPC1 engagement triggers GP2 conformational change: the internal fusion peptide inserts into the endosomal membrane, driving six-helix-bundle formation and lipid bilayer merging — releasing the nucleocapsid. The L polymerase transcribes 7 capped, polyadenylated mRNAs. Replication occurs in perinuclear inclusion bodies (viral factories) visible by EM. New nucleocapsids are transported to the plasma membrane; VP40 drives actin-dependent budding into the filamentous progeny virion shape.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>4 &middot; VP35 blocks IFN-&beta; production at the RIG-I level</h5>
+              <p>VP35 is a dsRNA-binding protein that competitively inhibits RIG-I and MDA5 from recognising viral dsRNA replication intermediates. VP35 also directly blocks IRF3 and IRF7 phosphorylation and nuclear translocation, preventing IFN-&beta; gene transcription. Recombinant EBOVs with mutated VP35 dsRNA-binding domains are markedly attenuated in non-human primate models, confirming VP35 as an essential virulence determinant.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>5 &middot; VP24 blocks STAT1 nuclear import — IFN signalling shut down</h5>
+              <p>VP24 competes with phosphorylated STAT1 for binding to karyopherin-&alpha;1, -&alpha;5, and -&alpha;6 — the nuclear import adaptors required for ISG (interferon-stimulated gene) induction. By blocking STAT1 nuclear transport, VP24 prevents ISG induction even when IFN is produced by uninfected bystander cells. VP35 + VP24 together create a dual-layer IFN blockade uniquely potent: VP35 prevents IFN production, VP24 prevents IFN signalling — the host is effectively blind to the infection at the cytokine level.</p>
+            </div>
+            <div class="mech-item latent">
+              <h5>6 &middot; sGP antibody decoy and bystander lymphocyte apoptosis</h5>
+              <p>A transcriptional editing event in the GP gene produces large quantities of soluble GP (sGP), a disulfide-linked homodimer antigenically similar to but distinct from the virion GP1,2 trimer. sGP is secreted at molar excess and absorbs anti-GP patient antibodies — an antibody sponge delaying humoral clearance. Separately, bystander lymphocyte apoptosis (via Fas/FasL and TRAIL pathways) depletes CD4+, CD8+, and NK cells without direct infection, creating profound immunosuppression alongside intense systemic inflammation — the paradox that defines fatal EVD.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Host Immune Response</h4>
+          <div class="immune-tags">
+            <span class="itag innate">Macrophage infection &rarr; cytokine storm (TNF-&alpha;, IL-6, IL-1&beta;, IL-8)</span>
+            <span class="itag innate">DC infection &rarr; failure to mature; MHC-II, CD80/86 not upregulated</span>
+            <span class="itag innate">NK cell activation (early), then depleted by bystander apoptosis</span>
+            <span class="itag innate">Complement activated &rarr; contributes to vascular leak and DIC</span>
+            <span class="itag adaptive">CD4+ T cells — poorly primed due to DC dysfunction; low in fatal cases</span>
+            <span class="itag adaptive">CD8+ CTL — attenuated in fatal disease; strong EBOV-specific CTL in survivors</span>
+            <span class="itag adaptive">IgG anti-GP (survivors) — GP-specific IgG correlates of protection</span>
+            <span class="itag depleted">IFN-&beta; production blocked by VP35 (RIG-I/IRF3 inhibition)</span>
+            <span class="itag depleted">STAT1 nuclear import blocked by VP24 — no ISG induction</span>
+            <span class="itag depleted">Bystander CD4+/CD8+/NK apoptosis — lymphopenia in fatal EVD</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Disease Spectrum — Ebola Virus Disease (EVD)</h4>
+          <table class="path-table">
+            <tr><th>Phase</th><th>Presentation</th><th>Severity</th><th>Mortality correlation</th></tr>
+            <tr><td>Incubation</td><td>2–21 days (typically 4–10); asymptomatic; not infectious</td><td>None</td><td>—</td></tr>
+            <tr><td>Prodromal (Days 1–3)</td><td>Abrupt fever (&ge;38.6&deg;C), severe headache, fatigue, myalgia — clinically indistinguishable from malaria or typhoid; contact history is the key epidemiological clue</td><td>Moderate</td><td>Viral load at day 3 predicts outcome</td></tr>
+            <tr><td>Gastrointestinal (Days 3–7)</td><td>Profuse watery diarrhoea (3–10 L/day), vomiting, abdominal pain — major source of dehydration; electrolyte derangements (hyponatraemia, hypokalaemia, metabolic acidosis)</td><td>Severe</td><td>GI fluid losses drive hypovolaemic shock</td></tr>
+            <tr><td>Peak viremia (Days 5–10)</td><td>Viral loads 10&#8312;–10&#185;&#8304; copies/mL in fatal cases; DIC onset; petechiae, ecchymoses; splenic necrosis; markedly elevated AST/ALT (hepatocellular necrosis)</td><td>Critical</td><td>10&#185;&#8304; copies/mL &rarr; &gt;80% CFR</td></tr>
+            <tr><td>Hemorrhagic (Days 7–12)</td><td>Overt bleeding (oozing IV sites, haematemesis, melaena, epistaxis) in ~50% of cases — NOT the dominant cause of death; most deaths are from shock + MOF</td><td>Critical</td><td>Hemorrhage = DIC complication</td></tr>
+            <tr><td>Recovery / Late complications</td><td>Survivors: fever defervescence, weeks of recovery; EBOV may persist in semen (&gt;500 days post-clearance), CSF, aqueous humor — sexual transmission documented. Post-EVD syndrome: arthralgia, uveitis, hearing loss, neurological sequelae</td><td>Convalescent</td><td>~40% of survivors have post-EVD syndrome</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Treatment &amp; Prevention</h4>
+          <table class="detail-table">
+            <tr><td>Inmazeb (FDA Oct 2020)</td><td>Triple mAb cocktail (atoltivimab + maftivimab + odesivimab); targets GP1 (two non-overlapping RBD epitopes) + GP2 fusion loop; single IV infusion. PALM RCT (DRC 2018–19): 28-day mortality ~34% vs ~49% in control; efficacy highest in low-viremia early-treated patients (&lt;20% mortality).</td></tr>
+            <tr><td>Ebanga (FDA Dec 2020)</td><td>Single mAb (ansuvimab); targets GP1 receptor-binding domain; similar efficacy to Inmazeb in PALM trial; single IV dose.</td></tr>
+            <tr><td>Ervebo (FDA Dec 2019)</td><td>rVSV-ZEBOV-GP (Merck); live recombinant VSV with VSV-G replaced by EBOV GP; single dose; ring vaccination strategy (contacts + contacts-of-contacts &le;21 days post-exposure). &gt;97% efficacy in Guinea Ebola &Ccedil;a Suffit! trial (Henao-Restrepo 2017). WHO prequalified. Used in ongoing DRC outbreaks.</td></tr>
+            <tr><td>Zabdeno + Mvabea (EMA 2020)</td><td>Johnson &amp; Johnson two-dose regimen: Ad26.ZEBOV prime (day 0) + MVA-BN-Filo boost (day 56); for broader population prophylaxis including HCWs; less stringent cold-chain requirements than Ervebo.</td></tr>
+            <tr><td>Supportive care</td><td>Cornerstone: aggressive IV/oral rehydration (matching GI losses 3–10 L/day); electrolyte correction; antiemetics; analgesics; management of secondary infections; DIC management (FFP, platelets). Barrier nursing in full PPE (BSL-3/4 level) mandatory for HCWs — PPE failures drove healthcare transmission in 2014–16.</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Connections</h4>
+          <div class="connections">
+            <a class="conn-pill infects" href="macrophage.html"><span class="rel">Infects</span>Macrophage (primary cytokine amplifier)</a>
+            <a class="conn-pill infects" href="dendritic-cell.html"><span class="rel">Infects</span>Dendritic cell (DC dysfunction)</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system (VP35/VP24, lymphocyte apoptosis)</a>
+            <a class="conn-pill damages" href="liver.html"><span class="rel">Damages</span>Liver (hepatocellular necrosis, DIC)</a>
+            <a class="conn-pill damages" href="endothelial-cell.html"><span class="rel">Damages</span>Endothelial cell (cytokine vascular leak)</a>
+            <a class="conn-pill targets" href="ervebo.html"><span class="rel">Prevented by</span>Ervebo (rVSV-ZEBOV-GP)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1016/S0140-6736(10)60667-8" target="_blank" rel="noopener noreferrer">Feldmann H, Geisbert TW. Ebola haemorrhagic fever. Lancet. 2011;377(9768):849-62.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21084112/" target="_blank" rel="noopener noreferrer">PubMed 21084112</a></li>
-            <li><a href="https://doi.org/10.1016/S0140-6736(16)32621-6" target="_blank" rel="noopener noreferrer">Henao-Restrepo AM, Camacho A, Longini IM, et al. Efficacy and effectiveness of an rVSV-vectored vaccine in preventing Ebola virus disease: final results from the Guinea ring vaccination, open-label, cluster-randomised trial (Ebola Ça Suffit!). Lancet. 2017;389(10068):505-18.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28017403/" target="_blank" rel="noopener noreferrer">PubMed 28017403</a></li>
-            <li><a href="https://doi.org/10.1017/S1462399404008300" target="_blank" rel="noopener noreferrer">Geisbert TW, Hensley LE. Ebola virus: new insights into disease aetiopathology and possible therapeutic interventions. Expert Rev Mol Med. 2004;6(20):1-24.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15504257/" target="_blank" rel="noopener noreferrer">PubMed 15504257</a></li>
-            <li><a href="https://doi.org/10.1038/nature10348" target="_blank" rel="noopener noreferrer">Carette JE, Raaben M, Wong AC, et al. Ebola virus entry requires the cholesterol transporter Niemann-Pick C1. Nature. 2011;477(7364):340-3.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21866103/" target="_blank" rel="noopener noreferrer">PubMed 21866103</a></li>
+            <li>Feldmann H, Geisbert TW. Ebola haemorrhagic fever. <em>Lancet.</em> 2011;377(9768):849–62. <a href="https://doi.org/10.1016/S0140-6736(10)60667-8" target="_blank" rel="noopener">doi:10.1016/S0140-6736(10)60667-8</a> &middot; PubMed 21084112</li>
+            <li>Henao-Restrepo AM, Camacho A, Longini IM, et al. Efficacy and effectiveness of an rVSV-vectored vaccine in preventing Ebola virus disease (Ebola &Ccedil;a Suffit!). <em>Lancet.</em> 2017;389(10068):505–18. <a href="https://doi.org/10.1016/S0140-6736(16)32621-6" target="_blank" rel="noopener">doi:10.1016/S0140-6736(16)32621-6</a> &middot; PubMed 28017403</li>
+            <li>Carette JE, Raaben M, Wong AC, et al. Ebola virus entry requires the cholesterol transporter Niemann-Pick C1. <em>Nature.</em> 2011;477(7364):340–3. <a href="https://doi.org/10.1038/nature10348" target="_blank" rel="noopener">doi:10.1038/nature10348</a> &middot; PubMed 21866103</li>
+            <li>Mulangu S, Dodd LE, Davey RT Jr, et al. A randomized, controlled trial of Ebola virus disease therapeutics (PALM). <em>N Engl J Med.</em> 2019;381(24):2293–303. <a href="https://doi.org/10.1056/NEJMoa1910993" target="_blank" rel="noopener">doi:10.1056/NEJMoa1910993</a> &middot; PubMed 31774950</li>
+            <li>Geisbert TW, Hensley LE. Ebola virus: new insights into disease aetiopathology and possible therapeutic interventions. <em>Expert Rev Mol Med.</em> 2004;6(20):1–24. <a href="https://doi.org/10.1017/S1462399404008300" target="_blank" rel="noopener">doi:10.1017/S1462399404008300</a> &middot; PubMed 15504257</li>
+            <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett&rsquo;s Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020.</li>
           </ul>
         </div>
 
       </div>
+    </div><!-- /.detail-card -->
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers EBOV biology, NPC1 entry, immune evasion, EVD clinical course, and approved therapies. Planned expansions: Sudan/Bundibugyo cross-protection data, VP35 dsRNA-binding structure, and Marburg virus comparison. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Ebola%20Virus%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
     </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

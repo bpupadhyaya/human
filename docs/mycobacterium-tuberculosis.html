@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Aerobic acid-fast bacillus (Mycobacteriaceae). Causes TB — leading infectious disease killer (~1.5 million deaths/year). Resides in alveolar macrophages by bloc">
-  <meta property="og:title" content="Mycobacterium tuberculosis — Human Engineering">
+  <meta name="description" content="Mycobacterium tuberculosis — Atlas Two Pathogen entry. Acid-fast bacillus, phagosome arrest, granuloma biology, TB disease spectrum, RIPE therapy, BCG vaccine. Part of the Human Engineering project.">
+  <meta property="og:title" content="Mycobacterium tuberculosis — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="Mtb: acid-fast bacillus, mycolic acid cell wall, ESX-1 virulence, phagosome arrest, latent TB, RIPE chemotherapy.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Mycobacterium tuberculosis — Human Engineering</title>
   <style>
@@ -13,83 +14,84 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #92400e;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(146,64,14,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger { border-left-color: #dc2626; }
+    .mech-item.immune { border-left-color: var(--ai); }
+    .mech-item.latent { border-left-color: var(--accent); }
+    .mech-item.drug { border-left-color: var(--bio); }
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -100,102 +102,182 @@
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="index.html#mission">Mission</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="index.html#join">Join</a>
+      <a href="pathogens.html" class="nav-back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        Pathogens
       </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 02-bacteria</div>
-    <h1>Mycobacterium tuberculosis</h1>
-    <p class="tagline">Aerobic acid-fast bacillus (Mycobacteriaceae). Causes TB — leading infectious disease killer (~1.5 million deaths/year). Resides in alveolar macrophages by blocking phagosome-lysosome fusion. Transmitted by aerosolised droplet nuclei.</p>
-    <p class="aliases">Also known as: Mtb, M. tuberculosis, TB bacillus, Koch's bacillus, MTBC</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">02-bacteria</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+<div class="hero">
+  <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Bacteria</div>
+  <h1>Mycobacterium tuberculosis</h1>
+  <p class="tagline">The tubercle bacillus that turned the macrophage against itself. A slow-growing acid-fast obligate intracellular pathogen that persists latently in one-quarter of humanity and kills 1.5 million people every year.</p>
+  <p class="subtagline">Mtb is unique for its lipid-rich mycolic acid cell wall, 15&ndash;20 hour generation time, and ability to arrest phagosome maturation inside the alveolar macrophage. The granuloma &mdash; Mtb&rsquo;s evolutionary accommodation with host immunity &mdash; contains but rarely eradicates the bacillus, leaving a latent reservoir that reactivates with HIV, malnutrition, or immunosuppression.</p>
+  <div class="stat-row">
+    <div class="stat"><span class="stat-num">1.5M</span><span class="stat-label">Deaths / year</span></div>
+    <div class="stat"><span class="stat-num">10M</span><span class="stat-label">New cases / year</span></div>
+    <div class="stat"><span class="stat-num">~25%</span><span class="stat-label">Global latent infection</span></div>
+    <div class="stat"><span class="stat-num">4.4 Mb</span><span class="stat-label">Genome size</span></div>
+    <div class="stat"><span class="stat-num">15&ndash;20 h</span><span class="stat-label">Generation time</span></div>
+  </div>
+</div>
+
+<main>
+
+  <div class="detail-card" id="mtb">
+    <div class="detail-header" style="background: linear-gradient(135deg, #92400e, #78350f);">
+      <div class="entry-eyebrow">Mycobacteriaceae &middot; Actinomycetales &middot; Acid-fast bacillus &middot; 1&ndash;4 &micro;m rod</div>
+      <h3>Mycobacterium tuberculosis</h3>
+      <p class="summary">Aerobic, non-motile, obligate intracellular acid-fast bacillus (AFB) with a uniquely complex cell wall: ~60% lipids by dry weight, including very-long-chain mycolic acids (C70&ndash;C90) that confer intrinsic impermeability, acid-alcohol retention on Ziehl-Neelsen stain, and resistance to most disinfectants. Generation time 15&ndash;20 hours dictates months of chemotherapy. Pathogenesis centres on phagosomal maturation arrest inside alveolar macrophages, granuloma formation in the lung, and latency establishment in ~90% of primary infections. Lifetime reactivation risk is 5&ndash;10% in immunocompetent hosts but rises sharply with HIV, TNF-&alpha; inhibitors, malnutrition, and silicosis. MDR-TB (isoniazid + rifampicin resistance) affects ~400,000 patients annually and requires novel drug regimens including bedaquiline and pretomanid.</p>
+    </div>
+
+    <div class="detail-body">
+
+      <div class="detail-section">
+        <h4>Classification &amp; Structure</h4>
+        <table class="detail-table">
+          <tr><td>Gram reaction</td><td>Gram-indeterminate; classified by Ziehl-Neelsen acid-fast stain (retains carbol fuchsin after acid-alcohol decolorisation) due to mycolic acid retention</td></tr>
+          <tr><td>Morphology</td><td>Non-motile, non-spore-forming rod, 1&ndash;4 &micro;m &times; 0.3&ndash;0.6 &micro;m; may appear beaded; aerobic; generation time 15&ndash;20 h vs. 20 min for <em>E. coli</em></td></tr>
+          <tr><td>Cell wall</td><td>Plasma membrane &rarr; peptidoglycan &rarr; arabinogalactan &rarr; mycolic acids (C70&ndash;C90) &rarr; loosely associated capsule-like layer. ~60% lipids by dry weight. Antibiotic targets: isoniazid (InhA/KasA, mycolic acid synthesis), rifampicin (rpoB, RNA polymerase), ethambutol (EmbB, arabinosyltransferase), pyrazinamide (PncA, multiple targets)</td></tr>
+          <tr><td>Key virulence factors</td><td>ESX-1 T7SS (ESAT-6, CFP-10 &mdash; phagosome disruption &amp; T-cell antigens); SapM phosphatase (PI3P depletion &rarr; phagosome arrest); KatG/SodA/SodC (ROS/RNS neutralisation); Mce4 operon (host cholesterol import); PtpA phosphatase (impairs MHC-II presentation)</td></tr>
+          <tr><td>Genome</td><td>4.4 Mb; GC 65.6%; ~4,000 genes; unusually large lipid metabolism gene family; T7SS systems ESX-1, ESX-3, ESX-5 are major virulence determinants; no plasmids in H37Rv reference strain</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Pathogenesis</h4>
+        <div class="mech-list">
+          <div class="mech-item danger">
+            <h5>1 &middot; Aerosol transmission and alveolar deposition</h5>
+            <p>Droplet nuclei (1&ndash;5 &micro;m) from coughing/sneezing of active pulmonary TB cases carry 1&ndash;5 bacilli, remain airborne for hours, bypass the mucociliary escalator, and deposit in terminal alveoli. Infectious dose is as low as 1&ndash;10 bacilli; ~25&ndash;50% of household contacts of smear-positive TB develop latent infection.</p>
+          </div>
+          <div class="mech-item danger">
+            <h5>2 &middot; Macrophage uptake and phagosome arrest</h5>
+            <p>Alveolar macrophages phagocytose Mtb via mannose receptor, complement receptors CR3/CR4, and Fc&gamma;Rs. Normally the phagosome acidifies (pH ~5.0) and fuses with lysosomes. Mtb prevents this by: depleting PI3P via SapM lipid phosphatase (blocking Rab5&rarr;Rab7 conversion); ESX-1-secreted ESAT-6 permeabilising the phagosomal membrane; and using host cholesterol/fatty acids via the mce4 operon as carbon and energy sources.</p>
+          </div>
+          <div class="mech-item immune">
+            <h5>3 &middot; Granuloma formation and bacterial containment</h5>
+            <p>CD4+ Th1 cells (IFN-&gamma;) and CD8+ CTLs coordinate with macrophages and fibroblasts to form the granuloma: a caseating necrotic core surrounded by epithelioid macrophages, Langhans giant cells, a lymphocyte mantle, and a fibroblast rim. The granuloma walls off but rarely sterilises infection. Mtb within the necrotic core encounters low O&sub;2;, acid pH, and nutrient limitation &mdash; inducing a dormant (non-replicating) phenotype refractory to most antibiotics.</p>
+          </div>
+          <div class="mech-item latent">
+            <h5>4 &middot; Latency and reactivation risk</h5>
+            <p>In ~90&ndash;95% of immunocompetent primary infections, Mtb is contained as latent TB infection (LTBI) &mdash; bacteriologically quiescent but not eradicated. Lifetime reactivation risk is 5&ndash;10%; multiplied by HIV (&gt;10%/year without ART), TNF-&alpha; inhibitors, high-dose steroids, silicosis, diabetes, and malnutrition. Reactivation produces upper-lobe cavitary disease and is the dominant source of active TB in adults worldwide.</p>
+          </div>
+          <div class="mech-item drug">
+            <h5>5 &middot; Drug resistance by chromosomal mutation</h5>
+            <p>Mtb acquires antibiotic resistance exclusively by chromosomal mutation (no horizontal transfer of resistance genes). Key mutations: rpoB (rifampicin resistance &mdash; proxy for MDR in rapid testing); katG/inhA promoter (isoniazid); embB (ethambutol); rrs/eis (aminoglycosides); gyrA/gyrB (fluoroquinolones); Rv0678 (bedaquiline efflux). MDR-TB (~400,000 cases/year) requires BPaL (bedaquiline + pretomanid + linezolid) or similar 6&ndash;24-month novel regimens.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>Host Immune Response</h4>
+        <div class="immune-tags">
+          <span class="itag innate">Alveolar macrophages (primary initial host cell)</span>
+          <span class="itag innate">Neutrophils (early killing &amp; NET formation)</span>
+          <span class="itag innate">NK cells (early IFN-&gamma; production)</span>
+          <span class="itag innate">NLRP3 inflammasome &mdash; IL-1&beta; &amp; pyroptosis</span>
+          <span class="itag adaptive">CD4+ Th1 (IFN-&gamma; &rarr; macrophage activation &mdash; central protective response)</span>
+          <span class="itag adaptive">CD8+ CTL (infected macrophage killing)</span>
+          <span class="itag adaptive">Th17 cells (IL-17 &rarr; neutrophil recruitment)</span>
+          <span class="itag adaptive">B cells / IgG (modest opsonisation role)</span>
+          <span class="itag depleted">T-cell exhaustion in chronic TB &rarr; impaired clearance</span>
+          <span class="itag depleted">HIV co-infection: CD4+ depletion &rarr; reactivation cascade</span>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>Disease Spectrum</h4>
+        <table class="path-table">
+          <tr><th>Presentation</th><th>Features</th><th>Key points</th></tr>
+          <tr><td>Primary TB</td><td>Usually asymptomatic or mild febrile illness; Ghon complex (primary focus + hilar adenopathy) on CXR</td><td>90&ndash;95% self-limited; 5&ndash;10% progress to active disease</td></tr>
+          <tr><td>Latent TB (LTBI)</td><td>Asymptomatic; positive TST or IGRA (ESAT-6/CFP-10-based); no clinical disease</td><td>Treat to prevent reactivation in high-risk groups; 6H isoniazid or 3HP reduces risk 60&ndash;90%</td></tr>
+          <tr><td>Reactivation TB</td><td>Upper-lobe cavitary disease; chronic cough, haemoptysis, fever, night sweats, weight loss; smear +ve if cavity</td><td>Classic "consumption"; dominant presentation in adults; highly infectious</td></tr>
+          <tr><td>Miliary TB</td><td>Haematogenous dissemination; millet-seed granulomas in lungs, liver, spleen, meninges; CXR "snowstorm"</td><td>Uniformly fatal if untreated; common in immunocompromised and infants</td></tr>
+          <tr><td>Extrapulmonary TB</td><td>Pleural (~20%), lymph node (most common extrapulmonary), vertebral/Pott&rsquo;s disease, renal, pericardial, meningeal</td><td>5&ndash;15% of all TB; over-represented in HIV patients</td></tr>
+          <tr><td>MDR-TB / XDR-TB</td><td>Resistant to isoniazid + rifampicin (MDR); additional fluoroquinolone + bedaquiline/linezolid resistance (XDR)</td><td>~400,000 MDR cases/year; BPaL regimen; longer treatment, higher toxicity, worse outcomes</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Treatment &amp; Prophylaxis</h4>
+        <table class="detail-table">
+          <tr><td>Standard DS-TB regimen</td><td>2 months RIPE (rifampicin + isoniazid + pyrazinamide + ethambutol) &rarr; 4 months RI. Total 6 months. Shorter 4-month regimens (2HRZE + 2 rifapentine/moxifloxacin) validated for eligible drug-sensitive patients.</td></tr>
+          <tr><td>MDR-TB (BPaL regimen)</td><td>Bedaquiline (ATP synthase inhibitor) + pretomanid (nitroimidazole prodrug, multi-target) + linezolid (50S ribosome inhibitor) &times; 6 months; 90% culture conversion in ZeNix trial. Replaced older injectable-containing regimens.</td></tr>
+          <tr><td>LTBI treatment</td><td>Isoniazid 6H (6 months daily); 3HP (rifapentine + isoniazid weekly &times;12 doses); 1HP (daily &times;28 days, preferred in HIV); reduces reactivation risk by 60&ndash;90%.</td></tr>
+          <tr><td>BCG vaccine</td><td>Live-attenuated <em>M. bovis</em>; single neonatal dose; 70&ndash;80% efficacy against miliary/meningeal TB in children; variable (0&ndash;80%) against pulmonary TB in adults. Recommended at birth in high-TB-burden countries. Contraindicated in severe immunodeficiency.</td></tr>
+          <tr><td>Prophylaxis in immunocompromised</td><td>Screen for LTBI (IGRA preferred) before anti-TNF therapy, transplant, or immunosuppression. IPT (isoniazid preventive therapy) in all HIV patients with positive LTBI test in high-burden settings. BCG contraindicated in HIV/severe immunodeficiency.</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Cross-Atlas Connections</h4>
+        <div class="connections">
+          <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system (phagosome arrest, T-cell evasion, exhaustion)</a>
+          <a class="conn-pill damages" href="lung.html"><span class="rel">Damages</span>Lung (cavitary granulomas, parenchymal destruction)</a>
+          <a class="conn-pill damages" href="alveolus.html"><span class="rel">Damages</span>Alveolus (granuloma formation destroys gas-exchange units)</a>
+          <a class="conn-pill targets" href="brain.html"><span class="rel">Targets</span>CNS (TB meningitis, miliary CNS dissemination)</a>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>References</h4>
+        <ul class="refs">
+          <li>World Health Organization. Global Tuberculosis Report 2023. <a href="https://www.who.int/teams/global-tuberculosis-programme/tb-reports/global-tuberculosis-report-2023" target="_blank" rel="noopener">who.int/teams/global-tuberculosis-programme</a></li>
+          <li>Dartois VA, Rubin EJ. Anti-tuberculosis treatment strategies and drug development: challenges and priorities. <em>Nat Rev Microbiol.</em> 2022;20(11):685&ndash;701. <a href="https://doi.org/10.1038/s41579-022-00731-y" target="_blank" rel="noopener">doi:10.1038/s41579-022-00731-y</a> &middot; PubMed 35478222</li>
+          <li>Russell DG, Barry CE 3rd, Flynn JL. Tuberculosis: what we don&rsquo;t know can, and does, hurt us. <em>Science.</em> 2010;328(5980):852&ndash;6. <a href="https://doi.org/10.1126/science.1184563" target="_blank" rel="noopener">doi:10.1126/science.1184563</a> &middot; PubMed 20466922</li>
+          <li>Ehrt S, Schnappinger D. Mycobacterial survival strategies in the phagosome: defence against host stresses. <em>Cell Microbiol.</em> 2009;11(8):1170&ndash;8. <a href="https://doi.org/10.1111/j.1462-5822.2009.01335.x" target="_blank" rel="noopener">doi:10.1111/j.1462-5822.2009.01335.x</a> &middot; PubMed 19438517</li>
+        </ul>
+      </div>
+
+    </div>
+  </div><!-- /.detail-card -->
+
+  <div class="contribute">
+    <h2>Contribute to the Pathogen Atlas</h2>
+    <p>This entry covers Mtb biology, granuloma immunology, and TB chemotherapy. Planned expansions include host-directed therapy, TB vaccine pipeline (M72/AS01E, ID93), and bedaquiline resistance mechanisms. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+        Contribute on GitHub
+      </a>
+      <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Mtb%20Atlas%20entry">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in touch
+      </a>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
+</main>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">mycobacterium-tuberculosis</div>
-        <h2>Mycobacterium tuberculosis</h2>
-        <p class="summary">Aerobic acid-fast bacillus (Mycobacteriaceae). Causes TB — leading infectious disease killer (~1.5 million deaths/year). Resides in alveolar macrophages by blocking phagosome-lysosome fusion. Transmitted by aerosolised droplet nuclei.</p>
-      </div>
-      <div class="detail-body">
+<footer>
+  <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#mission">Mission</a>
+    <a href="pathogens.html">Pathogens</a>
+    <a href="medicine.html">Medicine</a>
+    <a href="immune-system.html">Immune System</a>
+    <a href="index.html#join">Join</a>
+    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+</footer>
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>mycobacterium-tuberculosis</td></tr>
-            <tr><td>Name</td><td>Mycobacterium tuberculosis</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
-            <tr><td>Class</td><td>02-bacteria</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill damaged" href="lung.html" title="Pulmonary TB causes caseating granulomas, cavitation, and progressive parenchymal destruction; upper-lobe predominance reflects higher O₂ tension. Radiographic consolidation, cavities, and tree-in-bud pattern are hallmarks."><span class="rel">damages</span>Lung</a>
-            <a class="conn-pill damaged" href="alveolus.html" title="Mtb infects alveolar macrophages residing within alveoli; granuloma formation destroys alveolar architecture and the caseating necrosis of primary and reactivation TB obliterates alveolar structure."><span class="rel">damages</span>Alveolus</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="Mtb actively evades immune clearance: ESX-1 secretion system disrupts phagosome acidification, LpqH/LprG lipoproteins block MHC-II antigen presentation, and T cell exhaustion in chronic TB progressively impairs adaptive immunity."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill damaged" href="digestive-system.html" title="Extrapulmonary TB causes peritoneal TB (ascites, bowel obstruction), ileocecal TB mimicking Crohn's disease, and hepatic TB — occurring in 5–15% of TB cases globally."><span class="rel">damages</span>Digestive System</a>
-            <a class="conn-pill" href="rifampicin.html" title="Rifampicin is the cornerstone of first-line TB therapy (HRZE: isoniazid, rifampicin, pyrazinamide, ethambutol × 2 months, then HR × 4 months); bactericidal and sterilizing activity against actively dividing and dormant bacilli."><span class="rel">treated-by</span>Rifampicin</a>
-            <a class="conn-pill" href="rifampicin.html" title="Rifampicin binds rpoB (β-subunit of RNA polymerase), blocking RNA elongation after dinucleotide initiation; rpoB mutations (codons 516, 526, 531) confer RIF resistance (RIF-R is a proxy for MDR-TB in rapid testing)."><span class="rel">modulated-by</span>Rifampicin</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://doi.org/10.1038/s41579-022-00731-y" target="_blank" rel="noopener noreferrer">Dartois VA, Rubin EJ. Anti-tuberculosis treatment strategies and drug development: challenges and priorities. Nat Rev Microbiol. 2022;20(11):685-701.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/35478222/" target="_blank" rel="noopener noreferrer">PubMed 35478222</a></li>
-            <li><a href="https://www.who.int/teams/global-tuberculosis-programme/tb-reports/global-tuberculosis-report-2023" target="_blank" rel="noopener noreferrer">World Health Organization. Global Tuberculosis Report 2023. WHO; 2023.</a></li>
-            <li><a href="https://doi.org/10.1126/science.1184563" target="_blank" rel="noopener noreferrer">Russell DG, Barry CE 3rd, Flynn JL. Tuberculosis: what we don't know can, and does, hurt us. Science. 2010;328(5980):852-6.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20466922/" target="_blank" rel="noopener noreferrer">PubMed 20466922</a></li>
-            <li><a href="https://doi.org/10.1111/j.1462-5822.2009.01335.x" target="_blank" rel="noopener noreferrer">Ehrt S, Schnappinger D. Mycobacterial survival strategies in the phagosome: defence against host stresses. Cell Microbiol. 2009;11(8):1170-8.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19438517/" target="_blank" rel="noopener noreferrer">PubMed 19438517</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

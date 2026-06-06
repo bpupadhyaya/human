@@ -1,199 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Basidiomycete yeast pathogen with a unique polysaccharide capsule (glucuronoxylomannan) enabling immune evasion. Causes life-threatening cryptococcal meningitis">
-  <meta property="og:title" content="Cryptococcus neoformans — Human Engineering">
-  <meta name="theme-color" content="#f2f2f7">
-  <title>Cryptococcus neoformans — Human Engineering</title>
-  <style>
-    :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
-      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
-      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
-    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
-    .nav-links a { color: var(--muted); font-weight: 500; }
-    .nav-links a:hover { color: var(--fg); }
-    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
-    .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
-    .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
-    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
-    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
-    .refs li a { color: var(--eng); }
-    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
-    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
-    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
-    .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--bio); }
-    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cryptococcus neoformans — Human Engineering Atlas</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0f172a;color:#e2e8f0;line-height:1.6}
+:root{--accent:#6b21a8}
+a{color:#c4b5fd;text-decoration:none}
+a:hover{text-decoration:underline}
+nav{background:#1e293b;border-bottom:1px solid #334155;padding:12px 24px;display:flex;align-items:center;gap:16px}
+nav a{font-size:.85rem;color:#94a3b8}
+nav a:hover{color:#e2e8f0}
+.hero{background:linear-gradient(135deg,#6b21a8,#4c1d95);padding:48px 24px 36px;text-align:center}
+.eyebrow{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:#ddd6fe;margin-bottom:8px}
+.hero h1{font-size:2.4rem;font-weight:700;margin-bottom:6px}
+.hero .subtitle{font-size:1rem;color:#ddd6fe;margin-bottom:24px}
+.stat-row{display:flex;flex-wrap:wrap;justify-content:center;gap:24px;margin-top:16px}
+.stat{text-align:center}
+.stat-val{font-size:1.6rem;font-weight:700;color:#f5f3ff}
+.stat-lbl{font-size:.75rem;color:#c4b5fd;text-transform:uppercase;letter-spacing:.08em}
+main{max-width:900px;margin:0 auto;padding:32px 24px}
+section{margin-bottom:40px}
+section h2{font-size:1.25rem;font-weight:600;color:#a78bfa;border-bottom:1px solid #334155;padding-bottom:6px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.06em}
+.detail-card{background:#1e293b;border:1px solid #334155;border-radius:10px;overflow:hidden;margin-bottom:16px}
+.detail-header{background:#0f172a;padding:12px 16px;font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8}
+.detail-body{padding:0}
+.detail-table{width:100%;border-collapse:collapse}
+.detail-table tr{border-bottom:1px solid #1e293b}
+.detail-table tr:last-child{border-bottom:none}
+.detail-table td{padding:10px 16px;font-size:.9rem;vertical-align:top}
+.detail-table td:first-child{color:#94a3b8;width:38%;font-weight:500}
+.mech-list{list-style:none;padding:12px 16px;display:flex;flex-direction:column;gap:10px}
+.mech-item{padding:10px 14px;border-radius:8px;font-size:.88rem;border-left:4px solid #6b21a8}
+.mech-item.danger{border-left-color:#dc2626;background:#1a0a0a}
+.mech-item.immune{border-left-color:#0891b2;background:#0a1a1f}
+.mech-item.latent{border-left-color:#d97706;background:#1a130a}
+.mech-item.drug{border-left-color:#16a34a;background:#0a1a10}
+.mech-item strong{display:block;margin-bottom:2px;color:#e2e8f0}
+.path-table{width:100%;border-collapse:collapse;font-size:.88rem}
+.path-table th{background:#0f172a;padding:9px 14px;text-align:left;color:#94a3b8;font-weight:600;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+.path-table td{padding:9px 14px;border-top:1px solid #1e293b;vertical-align:top}
+.path-table tr:hover td{background:#162032}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.75rem;font-weight:600;margin-right:4px}
+.badge.mild{background:#14532d;color:#86efac}
+.badge.moderate{background:#713f12;color:#fde68a}
+.badge.severe{background:#7f1d1d;color:#fca5a5}
+.badge.critical{background:#4c1d95;color:#ddd6fe}
+.immune-tags{display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px}
+.itag{padding:5px 12px;border-radius:20px;font-size:.82rem;font-weight:500}
+.itag.innate{background:#1e3a5f;color:#93c5fd}
+.itag.adaptive{background:#3b1f5e;color:#c4b5fd}
+.itag.depleted{background:#4a1515;color:#fca5a5}
+.connections{display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px}
+.conn-pill{padding:6px 14px;border-radius:20px;font-size:.82rem;font-weight:500;border:1px solid}
+.conn-pill.infects{background:#1a0533;border-color:#7c3aed;color:#ddd6fe}
+.conn-pill.damages{background:#1a0a0a;border-color:#dc2626;color:#fca5a5}
+.conn-pill.targets{background:#0a1a10;border-color:#16a34a;color:#86efac}
+.refs{list-style:none;display:flex;flex-direction:column;gap:6px}
+.refs li{font-size:.82rem;color:#64748b;padding-left:16px;position:relative}
+.refs li::before{content:'›';position:absolute;left:0;color:#6b21a8}
+footer{background:#1e293b;border-top:1px solid #334155;padding:24px;text-align:center;font-size:.8rem;color:#475569;margin-top:40px}
+footer a{color:#7c3aed}
+</style>
 </head>
 <body>
+<nav>
+  <a href="../index.html">Human Engineering</a>
+  <span style="color:#475569">›</span>
+  <a href="pathogens.html">Pathogens</a>
+  <span style="color:#475569">›</span>
+  <span style="color:#e2e8f0">Cryptococcus neoformans</span>
+</nav>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
-      </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
-    </div>
-  </nav>
+<div class="hero">
+  <div class="eyebrow">Atlas Two · Pathogen · Fungi</div>
+  <h1><em>Cryptococcus neoformans</em></h1>
+  <div class="subtitle">Encapsulated Basidiomycete Yeast · Neurotropic Environmental Pathogen</div>
+  <div class="stat-row">
+    <div class="stat"><div class="stat-val">~1M</div><div class="stat-lbl">Cases / year (global)</div></div>
+    <div class="stat"><div class="stat-val">~180K</div><div class="stat-lbl">Deaths / year</div></div>
+    <div class="stat"><div class="stat-val">CD4 &lt;100</div><div class="stat-lbl">HIV threshold for risk</div></div>
+    <div class="stat"><div class="stat-val">10⁷ Da</div><div class="stat-lbl">GXM capsule max MW</div></div>
+  </div>
+</div>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 03-fungi</div>
-    <h1>Cryptococcus neoformans</h1>
-    <p class="tagline">Basidiomycete yeast pathogen with a unique polysaccharide capsule (glucuronoxylomannan) enabling immune evasion. Causes life-threatening cryptococcal meningitis, particularly in HIV/AIDS patients with CD4 &lt;100. ~180,000 deaths annually worldwide.</p>
-    <p class="aliases">Also known as: C. neoformans, cryptococcus, cryptococcal meningitis, Torula histolytica</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">03-fungi</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+<main>
+
+<section>
+  <h2>Classification &amp; Structure</h2>
+  <div class="detail-card">
+    <div class="detail-header">Taxonomy &amp; Morphology</div>
+    <div class="detail-body">
+      <table class="detail-table">
+        <tr><td>Kingdom / Phylum</td><td>Fungi · Basidiomycota · Tremellomycetes; teleomorph <em>Filobasidiella neoformans</em></td></tr>
+        <tr><td>Species complex</td><td>C. neoformans (serotypes A, D, AD hybrid) — predominantly HIV/immunosuppressed hosts; C. gattii (serotypes B, C) — immunocompetent hosts</td></tr>
+        <tr><td>Environmental reservoir</td><td>Pigeon (<em>Columba livia</em>) guano (alkaline high-creatinine substrate); soil; eucalyptus trees (C. gattii)</td></tr>
+        <tr><td>Yeast morphology</td><td>5–10 µm encapsulated yeast; reproduces by unipolar budding; polysaccharide capsule 1–100 µm thick</td></tr>
+        <tr><td>Polysaccharide capsule</td><td>Glucuronoxylomannan (GXM) 88%; galactoxylomannan (GalXM/GXMGal) 10%; mannoproteins 2%; MW up to 10⁷ Da; anti-phagocytic; main virulence factor</td></tr>
+        <tr><td>Melanin / cell wall</td><td>Laccase enzymes (LAC1, LAC2) oxidise exogenous catecholamines (dopamine, DOPA) → melanin deposited in cell wall; particularly active in brain (high dopamine)</td></tr>
+        <tr><td>Titan cells</td><td>Polyploid cells up to 100 µm diameter in vivo; too large to phagocytose; form by endoreplication; bystander immune modulation</td></tr>
+        <tr><td>Mating type</td><td>MATα dominant in clinical isolates; MATa necessary for sexual reproduction → basidiospores (infective propagules)</td></tr>
+        <tr><td>Identification</td><td>India ink CSF smear (capsule as clear halo); CrAg latex agglutination/LFA (serum and CSF); mucicarmine staining of capsule in tissue</td></tr>
+      </table>
     </div>
   </div>
+</section>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
+<section>
+  <h2>Pathogenesis Mechanisms</h2>
+  <div class="detail-card">
+    <div class="detail-body">
+      <ul class="mech-list">
+        <li class="mech-item danger">
+          <strong>GXM capsule — master immune suppressor</strong>
+          Glucuronoxylomannan (GXM) is shed copiously into surrounding tissue and bloodstream. Free GXM:
+          (1) blocks phagocytosis by steric hindrance and complement factor displacement;
+          (2) induces IL-10, IL-4 in macrophages → Th2/Treg polarization, suppressing Th1/Th17;
+          (3) binds Fc receptors non-productively, blocking IgG-mediated opsonisation;
+          (4) captures anti-cryptococcal antibodies as decoy antigen;
+          (5) inhibits leukocyte migration. Capsule size correlates with virulence and inversely with immune competence.
+        </li>
+        <li class="mech-item danger">
+          <strong>Laccase / melanin — oxidative protection and neurotropism</strong>
+          LAC1/LAC2 laccase enzymes use L-DOPA and dopamine as substrates, found in abundance in the CNS. Melanin:
+          scavenges reactive oxygen species from macrophage oxidative burst; confers resistance to amphotericin B;
+          acts as cation chelator reducing antifungal penetration. CNS dopamine availability explains preferential
+          CNS colonisation (brain tropism) beyond immune privilege alone.
+        </li>
+        <li class="mech-item danger">
+          <strong>Urease (URE1) — phagosome alkalinisation and neurotropism</strong>
+          Urease hydrolyses urea → NH₃ + CO₂. NH₃ alkalinises the macrophage phagolysosome, blunting
+          acidification-dependent killing. Urease also promotes crossing of the blood-brain barrier by altering
+          endothelial tight junctions. Urease-deficient mutants show reduced brain invasion in animal models.
+        </li>
+        <li class="mech-item immune">
+          <strong>Trojan horse mechanism — macrophage-mediated CNS entry</strong>
+          <em>C. neoformans</em> survives inside alveolar macrophages after pulmonary inhalation. Infected macrophages
+          transmigrate across the blood-brain barrier in a paracellular fashion (Trojan horse) or by directly
+          traversing endothelial cells. Intracellular yeast avoid complement and antibody; macrophages serve
+          as protected transport vehicles. Also enters CNS by direct transcytosis through endothelium (fungus
+          binds CD44 on brain endothelium).
+        </li>
+        <li class="mech-item immune">
+          <strong>Vomocytosis — non-lytic macrophage escape</strong>
+          After phagocytosis, <em>C. neoformans</em> can be expelled from macrophages without killing the host cell
+          (non-lytic exocytosis / vomocytosis). Yeast replicate within vacuoles, acidify the phagosome via
+          V-ATPase inhibition, and are expelled in a polarised manner. Expelled cells disseminate while macrophage
+          continues to circulate — maintaining the Trojan horse reservoir.
+        </li>
+        <li class="mech-item latent">
+          <strong>Latent pulmonary infection — reactivation model</strong>
+          Primary infection in childhood via inhalation of desiccated yeast/basidiospores; controlled in immunocompetent hosts by granuloma formation. Latent organisms persist in lung granulomas and/or regional lymph nodes.
+          Reactivation occurs decades later upon T-cell depletion (HIV, transplant, anti-CD20 therapy). Explains lack
+          of geographic restriction in HIV-associated cryptococcosis.
+        </li>
+        <li class="mech-item drug">
+          <strong>Fluconazole tolerance — non-resistance survival</strong>
+          <em>C. neoformans</em> shows high MICs to fluconazole (MIC 4–8 µg/mL, vs 0.5–1 for <em>C. albicans</em>) and
+          is intrinsically less susceptible. Tolerance (growth below MIC) allows population survival. ERG11 mutations
+          are less common than in <em>C. albicans</em>; efflux pumps (AFR1) contribute to azole tolerance. 5-fluorocytosine
+          resistance arises through FUR1/UPP1 pyrimidine salvage mutations; thus 5-FC must never be used as monotherapy.
+        </li>
+      </ul>
     </div>
+  </div>
+</section>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">cryptococcus-neoformans</div>
-        <h2>Cryptococcus neoformans</h2>
-        <p class="summary">Basidiomycete yeast pathogen with a unique polysaccharide capsule (glucuronoxylomannan) enabling immune evasion. Causes life-threatening cryptococcal meningitis, particularly in HIV/AIDS patients with CD4 &lt;100. ~180,000 deaths annually worldwide.</p>
+<section>
+  <h2>Host Immune Response</h2>
+  <div class="detail-card">
+    <div class="detail-header">Innate &amp; Adaptive Defences</div>
+    <div class="detail-body">
+      <div class="immune-tags">
+        <span class="itag innate">Alveolar macrophages — primary encounter</span>
+        <span class="itag innate">Complement C3b/C3d opsonisation of capsule</span>
+        <span class="itag innate">NK cells — IFN-γ production</span>
+        <span class="itag innate">Dendritic cells — Dectin-1 (core β-glucan)</span>
+        <span class="itag adaptive">CD4⁺ T cells — Th1/IFN-γ critical</span>
+        <span class="itag adaptive">Th17 / IL-17A — granuloma maintenance</span>
+        <span class="itag adaptive">Anti-GXM IgG (protective with FcγRIII)</span>
+        <span class="itag adaptive">Granuloma — latency containment</span>
+        <span class="itag depleted">CD4 &lt;100/µL → reactivation/primary dissemination</span>
+        <span class="itag depleted">GXM → Th2/Treg polarization</span>
+        <span class="itag depleted">Immune Reconstitution Inflammatory Syndrome (IRIS)</span>
+        <span class="itag depleted">Steroid use, calcineurin inhibitors — T-cell depletion</span>
       </div>
-      <div class="detail-body">
+    </div>
+  </div>
+</section>
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>cryptococcus-neoformans</td></tr>
-            <tr><td>Name</td><td>Cryptococcus neoformans</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>03-fungi</td></tr>
-          </table>
-        </div>
+<section>
+  <h2>Disease Spectrum</h2>
+  <div class="detail-card">
+    <div class="detail-body">
+      <table class="path-table">
+        <tr><th>Syndrome</th><th>Population</th><th>Severity</th><th>Key Feature</th></tr>
+        <tr>
+          <td>Pulmonary cryptococcosis</td>
+          <td>HIV CD4 100–200; solid organ transplant; low-dose steroids</td>
+          <td><span class="badge moderate">Moderate</span></td>
+          <td>Asymptomatic to pneumonia; nodular/infiltrative CXR; positive serum CrAg; may self-resolve in immunocompetent</td>
+        </tr>
+        <tr>
+          <td>Cryptococcal meningitis (CM)</td>
+          <td>HIV CD4 &lt;100; SCT; anti-CD20; iatrogenic</td>
+          <td><span class="badge critical">Critical</span></td>
+          <td>Sub-acute onset: headache, fever, meningismus (often absent); CSF: India ink halo, CrAg +ve, high opening pressure (&gt;25 cmH₂O); mortality 10–40%</td>
+        </tr>
+        <tr>
+          <td>Cryptococcoma (brain mass)</td>
+          <td>C. gattii; non-HIV immunosuppressed</td>
+          <td><span class="badge severe">Severe</span></td>
+          <td>Ring-enhancing CNS mass; surgical resection may be required; prolonged antifungal course; C. gattii more neurotropic/virulent</td>
+        </tr>
+        <tr>
+          <td>Cryptococcus-IRIS (unmasking)</td>
+          <td>ART initiation in CM patients; CD4 recovery</td>
+          <td><span class="badge severe">Severe</span></td>
+          <td>Paradoxical worsening 4–8 weeks post-ART; do NOT stop ART; NO corticosteroids (increase mortality); manage ICP with LPs</td>
+        </tr>
+        <tr>
+          <td>Disseminated cryptococcosis</td>
+          <td>Profound immunosuppression</td>
+          <td><span class="badge critical">Critical</span></td>
+          <td>Skin lesions (umbilicated, molluscum-like), fungaemia; bone/joint; prostate is a sanctuary reservoir</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</section>
 
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill damaged" href="brain.html" title="Cryptococcal meningitis establishes in the CNS via hematogenous spread. ICP elevation from polysaccharide accumulation in CSF is the primary driver of mortality; serial lumbar punctures or VP shunting are life-saving in refractory raised ICP."><span class="rel">damages</span>Brain</a>
-            <a class="conn-pill damaged" href="nervous-system.html" title="Cryptococcal meningoencephalitis is the dominant CNS manifestation. Neurological sequelae (hydrocephalus, cranial nerve palsies, cognitive decline) result from direct fungal invasion and polysaccharide-driven elevation of intracranial pressure."><span class="rel">damages</span>Nervous System</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="GXM capsule suppresses T-cell activation, inhibits complement, and paralyses macrophages, enabling CNS colonisation in CD4 &lt;100 HIV patients. Post-ART immune reconstitution inflammatory syndrome (IRIS) can paradoxically worsen neurological outcomes."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill damaged" href="macrophage.html" title="Intracellular yeast survive phagolysosomal killing via melanin, urease-driven alkalinisation, and anti-apoptotic signalling, then cross the blood-brain barrier inside macrophages — the classical Trojan horse mechanism of CNS dissemination."><span class="rel">damages</span>Macrophage</a>
-          </div>
-        </div>
+<section>
+  <h2>Treatment &amp; Prophylaxis</h2>
+  <div class="detail-card">
+    <div class="detail-header">IDSA/WHO Cryptococcal Meningitis Protocol</div>
+    <div class="detail-body">
+      <table class="detail-table">
+        <tr><td>Induction (2 weeks)</td><td>Amphotericin B-deoxycholate 0.7–1.0 mg/kg/day IV + flucytosine (5-FC) 25 mg/kg Q6H PO — superior fungicidal activity; 5-FC accelerates CSF sterilisation</td></tr>
+        <tr><td>Consolidation (8 weeks)</td><td>Fluconazole 400 mg/day PO after 2-week induction and CSF sterilisation confirmed</td></tr>
+        <tr><td>Maintenance / suppression</td><td>Fluconazole 200 mg/day PO — minimum 1 year or until CD4 &gt;200 cells/µL × 6 months on ART</td></tr>
+        <tr><td>Lipid formulation AmB</td><td>L-AmB 3–4 mg/kg/day for renal toxicity prevention (transplant patients, pre-existing renal disease); equivalent efficacy to AmB-D</td></tr>
+        <tr><td>Single high-dose fluconazole</td><td>Not recommended for CM (fungistatic only); acceptable for uncomplicated pulmonary disease in immunocompetent</td></tr>
+        <tr><td>Raised ICP management</td><td>Serial lumbar punctures daily until opening pressure &lt;20 cmH₂O; lumbar drain or VP shunt if refractory; NO acetazolamide; NO dexamethasone for ICP control (worsens outcome)</td></tr>
+        <tr><td>ART timing in HIV-CM</td><td>Defer ART 4–6 weeks after antifungal induction — earlier initiation increases IRIS risk and mortality (COAT trial); exception: very low CD4/high viral load may require earlier</td></tr>
+        <tr><td>Screening strategy</td><td>Serum CrAg lateral flow assay at CD4 &lt;100 cells/µL — pre-emptive fluconazole if CrAg+, LP to exclude CM; WHO recommends population-level CrAg screening in high-burden settings</td></tr>
+        <tr><td>Primary prophylaxis</td><td>Fluconazole 200 mg/day where CrAg screening unavailable and CD4 &lt;100; not routine in resource-rich settings</td></tr>
+        <tr><td>Cryptococcus-IRIS</td><td>Continue antifungals; serial LPs for ICP; NSAIDs; short-course corticosteroids (controversial, avoid in CM-IRIS); do NOT stop ART</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
 
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1086/649858" target="_blank" rel="noopener noreferrer">Perfect JR, Dismukes WE, Dromer F, et al. Clinical practice guidelines for the management of cryptococcal disease: 2010 update. Clin Infect Dis. 2010;50(3):291-322.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20047480/" target="_blank" rel="noopener noreferrer">PubMed 20047480</a></li>
-            <li><a href="https://doi.org/10.1016/S1473-3099(17)30243-8" target="_blank" rel="noopener noreferrer">Rajasingham R, Smith RM, Park BJ, et al. Global burden of disease of HIV-associated cryptococcal meningitis: an updated analysis. Lancet Infect Dis. 2017;17(8):873-881.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28483415/" target="_blank" rel="noopener noreferrer">PubMed 28483415</a></li>
-          </ul>
-        </div>
-
+<section>
+  <h2>Connections</h2>
+  <div class="detail-card">
+    <div class="detail-body">
+      <div class="connections">
+        <span class="conn-pill infects">Lung (primary site)</span>
+        <span class="conn-pill infects">CNS / meninges (neurotropism)</span>
+        <span class="conn-pill infects">Prostate (sanctuary site)</span>
+        <span class="conn-pill infects">Bloodstream (fungaemia)</span>
+        <span class="conn-pill infects">Skin (dissemination marker)</span>
+        <span class="conn-pill damages">Brain parenchyma (gelatinous pseudocysts)</span>
+        <span class="conn-pill damages">CSF drainage pathways (raised ICP)</span>
+        <span class="conn-pill damages">Th1/Th17 immune polarization</span>
+        <span class="conn-pill targets">Macrophages (Trojan horse)</span>
+        <span class="conn-pill targets">Blood-brain barrier (CD44 binding)</span>
+        <span class="conn-pill targets">Ergosterol (AmB target)</span>
+        <span class="conn-pill targets">Erg11 (fluconazole target)</span>
+        <span class="conn-pill targets">Pyrimidine synthesis (5-FC → 5-FU)</span>
       </div>
     </div>
-  </main>
+  </div>
+</section>
 
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+<section>
+  <h2>References</h2>
+  <div class="detail-card">
+    <div class="detail-body" style="padding:14px 16px">
+      <ul class="refs">
+        <li>Perfect JR et al. IDSA Guidelines for Cryptococcal Disease. <em>Clin Infect Dis</em> 2010;50:291–322.</li>
+        <li>WHO Guidelines for the Diagnosis, Prevention and Management of Cryptococcal Disease in HIV-Infected Adults. WHO 2022.</li>
+        <li>Rajasingham R et al. Global burden of disease of HIV-associated cryptococcal meningitis. <em>Lancet Infect Dis</em> 2017;17:873–881.</li>
+        <li>Jarvis JN et al. Single-dose liposomal amphotericin B treatment for cryptococcal meningitis (AMBITION-cm). <em>N Engl J Med</em> 2022;386:1109–1120.</li>
+        <li>Kronstad JW et al. Expanding fungal pathogenesis: Cryptococcus breaks out of the opportunistic box. <em>Nat Rev Microbiol</em> 2011;9:193–203.</li>
+        <li>Jain N et al. Cryptococcus neoformans titan cell formation is regulated by G-protein signalling. <em>Cell Microbiol</em> 2009;11:432–442.</li>
+        <li>Boulware DR et al. Timing of ART after cryptococcal meningitis (COAT trial). <em>N Engl J Med</em> 2014;370:2487–98.</li>
+      </ul>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
+  </div>
+</section>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</main>
+
+<footer>
+  <p>Human Engineering Atlas · <a href="pathogens.html">Pathogens</a> · Atlas Two</p>
+  <p style="margin-top:6px">Open source · CC BY 4.0 · <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:8px;font-size:.75rem;color:#334155">
+    This page is co-maintained with AI assistance. Content is reviewed for accuracy but may contain errors.
+    Not for clinical use. Verify with primary sources before any medical application.
+  </p>
+</footer>
 </body>
 </html>

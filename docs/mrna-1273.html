@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Modified-nucleoside mRNA-LNP encoding prefusion-stabilized (2P) SARS-CoV-2 spike. Moderna/NIH VRC; sequence-to-IND 42 days. 94.1% efficacy (COVE trial). FDA EUA">
-  <meta property="og:title" content="mRNA-1273 (Spikevax) — Human Engineering">
+  <meta name="description" content="mRNA-1273 (Spikevax) — Moderna/NIH modified-nucleoside mRNA-LNP COVID-19 vaccine. 94.1% efficacy, SM-102 LNP, 2P-stabilized spike, sequence-to-IND in 42 days. Human Engineering project.">
+  <meta property="og:title" content="mRNA-1273 (Spikevax) — Vaccine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>mRNA-1273 (Spikevax) — Human Engineering</title>
+  <title>mRNA-1273 (Spikevax) — Vaccine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0369a1;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,59 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #075985); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -119,87 +118,213 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 01 — mRNA</div>
+    <div class="hero-eyebrow">Atlas Four &middot; Vaccine &middot; mRNA</div>
     <h1>mRNA-1273 (Spikevax)</h1>
-    <p class="tagline">Modified-nucleoside mRNA-LNP encoding prefusion-stabilized (2P) SARS-CoV-2 spike. Moderna/NIH VRC; sequence-to-IND 42 days. 94.1% efficacy (COVE trial). FDA EUA December 2020; first mRNA vaccine on WHO Emergency Use Listing.</p>
-    <p class="aliases">Also known as: Spikevax, Moderna COVID-19 vaccine, CX-024414, elasomeran</p>
+    <p class="tagline">Moderna/NIH modified-nucleoside mRNA-LNP COVID-19 vaccine — sequence-to-IND in 42 days, proof of the platform hypothesis that had been built over 15 years.</p>
+    <p class="subtagline">SM-102 LNP &middot; 100 &micro;g dose &middot; 94.1% efficacy (COVE) &middot; FDA EUA Dec 18, 2020 &middot; WHO EML listed</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01 — mRNA</span><span class="stat-label">Platform</span></div>
-        <div class="stat"><span class="stat-num">intramuscular</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">−25°C to −15°C frozen for long-term storage (up to 9 months); 2°–8°C refrigerated for up to 30 days unpunctured</span><span class="stat-label">Cold Chain</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+      <div class="stat"><span class="stat-num">94.1%</span><span class="stat-label">COVE Efficacy</span></div>
+      <div class="stat"><span class="stat-num">42 days</span><span class="stat-label">Sequence to IND</span></div>
+      <div class="stat"><span class="stat-num">100 &micro;g</span><span class="stat-label">Adult Dose</span></div>
+      <div class="stat"><span class="stat-num">2P</span><span class="stat-label">Prefusion-Stabilized Spike</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
-        <div class="entry-eyebrow">mrna-1273</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Vaccine Atlas &middot; mRNA &middot; Lipid Nanoparticle</div>
         <h2>mRNA-1273 (Spikevax)</h2>
-        <p class="summary">Modified-nucleoside mRNA-LNP encoding prefusion-stabilized (2P) SARS-CoV-2 spike. Moderna/NIH VRC; sequence-to-IND 42 days. 94.1% efficacy (COVE trial). FDA EUA December 2020; first mRNA vaccine on WHO Emergency Use Listing.</p>
+        <div class="drug-class">Platform: Modified-nucleoside mRNA / SM-102 LNP &nbsp;|&nbsp; Route: Intramuscular &nbsp;|&nbsp; Developer: Moderna, Inc. &amp; NIAID Vaccine Research Center</div>
+        <p class="summary">Modified-nucleoside mRNA (N1-methylpseudouridine) encoding the SARS-CoV-2 prefusion-stabilized spike (2P mutations K986P/V987P), encapsulated in a four-lipid SM-102 LNP. SARS-CoV-2 genome sequence finalized January 10–11, 2020; mRNA-1273 sequence finalized January 13; first clinical vial shipped February 24; first human dose March 16. This was not designed in 6 weeks — it was assembled in 6 weeks from 15 years of convergent platform science. Phase 3 COVE trial: 94.1% efficacy.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Spikevax</span>
+          <span class="alias-pill">elasomeran</span>
+          <span class="alias-pill">CX-024414</span>
+          <span class="alias-pill">Moderna COVID-19 vaccine</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>mrna-1273</td></tr>
-            <tr><td>Name</td><td>mRNA-1273 (Spikevax)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Platform</td><td>01 — mRNA</td></tr>
-            <tr><td>Delivery system</td><td>lipid-nanoparticle (LNP); four-lipid composition: SM-102 (proprietary ionizable cationic lipid), PEG2000-DMG, cholesterol, DSPC; molar ratio ~50:1.5:38.5:10</td></tr>
-            <tr><td>Adjuvants</td><td>None</td></tr>
-            <tr><td>Route</td><td>intramuscular</td></tr>
-            <tr><td>Dose — primary series adult</td><td>2 doses, 28 days apart, 100 µg each (adults ≥18)</td></tr>
-            <tr><td>Dose — primary series adolescent</td><td>2 doses, 28 days apart, 100 µg (ages 12–17, original EUA)</td></tr>
-            <tr><td>Dose — pediatric 50ug</td><td>2 doses, 28 days apart, 50 µg (ages 6–11)</td></tr>
-            <tr><td>Dose — pediatric 25ug</td><td>2 doses, 28 days apart, 25 µg (ages 6 months–5 years)</td></tr>
-            <tr><td>Dose — booster</td><td>single 50 µg dose ≥ 5 months after primary; later updated bivalent / monovalent formulations</td></tr>
-            <tr><td>Developer</td><td>Moderna, Inc. (Cambridge, Massachusetts) with NIAID Vaccine Research Center</td></tr>
-            <tr><td>Partners</td><td>Acuitas Therapeutics (LNP IP licensing), Lonza (drug substance manufacturing), Catalent (fill-finish), ROVI (EU fill-finish)</td></tr>
-            <tr><td>Cold chain</td><td>−25°C to −15°C frozen for long-term storage (up to 9 months); 2°–8°C refrigerated for up to 30 days unpunctured</td></tr>
-            <tr><td>FDA (2020-12-18)</td><td>EUA</td></tr>
-            <tr><td>EMA (2021-01-06)</td><td>Conditional Marketing Authorization</td></tr>
-            <tr><td>MHRA (2021-01-08)</td><td>Conditional Marketing Authorization</td></tr>
-            <tr><td>WHO (2021-04-30)</td><td>Emergency Use Listing</td></tr>
-            <tr><td>FDA (2022-01-31)</td><td>BLA-approved (Spikevax) — adults</td></tr>
-            <tr><td>FDA (2024-07-10)</td><td>BLA-approved — pediatric (6 months–17 years)</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p>mRNA-1273 was co-developed by <strong>Moderna, Inc.</strong> (Cambridge, Massachusetts) and the <strong>NIH Vaccine Research Center</strong> (NIAID/VRC) under Barney Graham, Kizzmekia Corbett, and Jason McLellan. The vaccine is the most consequential demonstration that a pathogen genome can be translated into a protective vaccine candidate in weeks — a proof of concept that the field had pursued for a decade using respiratory syncytial virus (RSV F) and MERS-CoV spike as model antigens.</p>
+          <p>Three independent technology streams converged: <strong>modified-nucleoside mRNA chemistry</strong> (Katal&iacute;n Karik&oacute; and Drew Weissman, 2005 onward — replacing uridine with N1-methylpseudouridine to evade TLR7/TLR8 and dramatically boost translation); <strong>prefusion-stabilized class-I fusion glycoproteins</strong> (Graham/McLellan/Corbett, 2013–2017 — two proline substitutions lock the spike in immunogenic prefusion conformation); and <strong>lipid nanoparticle delivery</strong> (Pieter Cullis / Acuitas / Arbutus IP lineage — ionizable lipid particles for cytoplasmic mRNA delivery). mRNA-1273 was not designed in 6 weeks. It was assembled in 6 weeks; the design took 15 years.</p>
+          <p>FDA Emergency Use Authorization came on <strong>December 18, 2020</strong>. Phase 3 COVE trial (NCT04470427; 30,420 participants) reported <strong>94.1% efficacy</strong> (95% CI 89.3–96.8%) against symptomatic COVID-19. Full approval as <strong>Spikevax</strong> for adults came January 31, 2022; pediatric full approval July 10, 2024. mRNA-1273 is on the WHO Essential Medicines List — the only mRNA vaccine to achieve that designation.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="sars-cov-2.html" title="Phase 3 COVE: 94.1% efficacy against symptomatic COVID-19 (95% CI 89.3–96.8) at median 2 months follow-up; sustained ~93% at 5+ months for primary series, against pre-Omicron strains."><span class="rel">immunizes-against</span>Sars Cov 2</a>
-            <a class="conn-pill" href="sars-cov-2.html" title="Encodes the SARS-CoV-2 spike (S) glycoprotein with 2P prefusion stabilization (K986P + V987P)."><span class="rel">targets-antigen-of</span>Sars Cov 2</a>
-            <a class="conn-pill" href="bnt162b2.html" title="Both modified-nucleoside mRNA-LNP encoding 2P-stabilized spike. Differ in lipid composition (SM-102 vs ALC-0315), dose (100 µg vs 30 µg), and dose interval."><span class="rel">same-platform-as</span>Bnt162B2</a>
-            <a class="conn-pill" href="heart.html" title="Rare myocarditis / pericarditis adverse event, predominantly in young adult males within 1–7 days of dose 2; incidence ~10–25 per 100,000 in highest-risk age band; typically self-limiting with full recovery."><span class="rel">causes-adverse-event-in</span>Heart</a>
-            <a class="conn-pill" href="cardiomyocyte.html" title="Mechanism of vaccine-associated myocarditis is incompletely understood — proposed mechanisms include molecular mimicry between spike and cardiac proteins, hyperimmune response to LNP/mRNA, and dysregulated cytokine signaling. Histology resembles lymphocytic myocarditis but milder."><span class="rel">causes-adverse-event-in</span>Cardiomyocyte</a>
+          <h3>Platform &amp; Antigen Design</h3>
+          <h4>mRNA Construct and SM-102 LNP</h4>
+          <div class="pathway-block">
+<pre>
+  mRNA-1273 construct (~4,200 nt, N1-methylpseudouridine throughout):
+    5' cap1 (m7G) → 5' UTR (&beta;-globin based) → [spike CDS] → 3' UTR (&beta;-globin) → poly(A) ~100 nt
+
+  Spike: full-length SARS-CoV-2 S with K986P + V987P (2P stabilization)
+    ┌─ Proline kinks lock central helix in prefusion bundle
+    └─ RBD-up state preserved → optimal neutralizing epitope display (PDB 6VSB)
+
+  SM-102 LNP (four-lipid, ~80-100 nm):
+    SM-102     (~50%)  ionizable lipid — neutral at pH 7.4; protonated in endosome → disrupts membrane
+    DSPC       (~10%)  structural phospholipid
+    Cholesterol(~38.5%) membrane fluidity modulator
+    PEG2000-DMG(~1.5%) surface PEGylation — prevents aggregation; sheds within hours
+
+  IM injection (deltoid, 100 µg = 0.5 mL)
+        │
+        ├─ LNP endocytosis: muscle cells, dermal fibroblasts, migratory DCs
+        │
+        ├─ Late endosome (pH ~5.5) → SM-102 protonation → membrane disruption
+        │    mRNA released into cytoplasm
+        │
+        ├─ Ribosomes translate spike → membrane-anchored spike trimer displayed
+        │
+        ├─ MHC I loading of spike peptides → CD8⁺ CTL priming
+        │
+        └─ Secreted / shed spike trimers → lymph node B cells
+             Germinal center → anti-RBD IgG1/IgG3 (neutralizing, dominant correlate)
+             CD4⁺ Th1 help → B-cell class switching + CD8⁺ cytokine support
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:1rem;">
+            <li><strong>N1-methylpseudouridine (m1&Psi;):</strong> Every uridine replaced — evades TLR7/TLR8 and RIG-I innate RNA sensing; 10–100&times; increased translation efficiency; reduced reactogenicity vs. unmodified mRNA. Karik&oacute; &amp; Weissman 2005 Nobel Prize-winning innovation.</li>
+            <li><strong>2P prefusion stabilization:</strong> K986P + V987P lock the spike heptad repeat in its prefusion trimer conformation. Solved structure (PDB 6VSB) shows RBD in "up" state — exposing the ACE2 binding site epitope that is the dominant neutralizing target.</li>
+            <li><strong>SM-102 ionizable lipid:</strong> Proprietary to Moderna; near-neutral at physiological pH (avoids rapid clearance); protonates at endosomal pH to disrupt membrane and release mRNA into cytoplasm for ribosomal translation.</li>
+            <li><strong>In vitro transcription (IVT) manufacturing:</strong> mRNA is produced enzymatically from a linearized plasmid template using T7 RNA polymerase with m1&Psi;-UTP. Rigorous purification removes dsRNA byproducts (highly inflammatory), residual DNA, and proteins. Drug product manufactured via microfluidic LNP encapsulation.</li>
+            <li><strong>No genomic integration:</strong> mRNA has no nuclear access, no reverse transcriptase in cytoplasm of somatic cells, and is degraded within days by RNases. No risk of permanent genetic modification.</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h3>Immunogenicity</h3>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Humoral Response</h4>
+              <p>Anti-RBD IgG (predominantly IgG1/IgG3) is the dominant correlate of protection. Geometric mean titers after dose 2: ~10&times; convalescent serum benchmarks. Pseudovirus neutralization titers strongly predict risk of symptomatic COVID-19. Titers wane ~5-fold by 6 months; boosters restore peak levels.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>CD4⁺ / CD8⁺ T-Cell Response</h4>
+              <p>Th1-biased CD4&sup+ T cells (IFN-&gamma;, IL-2, TNF-&alpha;). Spike-specific CD8&sup+ CTLs via MHC I loading. T-cell responses decline more slowly than humoral responses and correlate with protection against severe disease — important for variant-shifted strains where antibody neutralization is partially evaded.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Innate Activation</h4>
+              <p>SM-102 LNP activates NLRP3 inflammasome and TLR4 at the injection site. m1&Psi; modification attenuates TLR7/8 sensing of mRNA itself. Net result: moderate innate signal sufficient for DC maturation and adaptive priming without excessive inflammation — explaining why reactogenicity is greater at 100 &micro;g than at lower doses.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Duration / Durability</h4>
+              <p>Humoral: neutralizing titers wane with ~69-day half-life; ~5–10-fold fall by 6 months. Cellular: T-cell responses persist &gt;12 months. Against Omicron (BA.1+): ~10–20&times; reduction in neutralizing titer motivating bivalent and updated boosters; T-cell cross-reactivity against conserved spike epitopes preserved, maintaining protection against severe disease.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Clinical Efficacy</h3>
+          <table class="data-table">
+            <tr><th>Trial</th><th>Design</th><th>n</th><th>Primary Endpoint</th><th>Result</th></tr>
+            <tr>
+              <td><strong>Phase 1 NCT04283461 (Jackson 2020)</strong></td>
+              <td>Phase 1 dose-escalation, US adults 18–55 &amp; older</td>
+              <td>45 (initial) + expansion</td>
+              <td>Safety; dose selection (25/100/250 &micro;g)</td>
+              <td class="trial-result">100 &micro;g selected; all doses immunogenic; 250 &micro;g excess reactogenicity</td>
+            </tr>
+            <tr>
+              <td><strong>Phase 3 COVE NCT04470427 (Baden 2021, NEJM)</strong></td>
+              <td>Phase 3 RCT, 1:1 vaccine:placebo, US sites</td>
+              <td>30,420</td>
+              <td>Symptomatic COVID-19 &ge;14d post-dose 2</td>
+              <td class="trial-result">94.1% efficacy (95% CI 89.3–96.8%); 100% severe disease prevention in primary analysis</td>
+            </tr>
+            <tr>
+              <td><strong>COVE blinded-phase completion (El Sahly 2021)</strong></td>
+              <td>Extended COVE follow-up</td>
+              <td>30,420</td>
+              <td>Sustained efficacy through ~5 months</td>
+              <td class="trial-result">93.2% (95% CI 91.0–94.8%); durability confirmed</td>
+            </tr>
+            <tr>
+              <td><strong>KidCOVE NCT04796896</strong></td>
+              <td>Phase 2/3 pediatric bridging study</td>
+              <td>~13,000</td>
+              <td>Non-inferiority to adult immunogenicity</td>
+              <td class="trial-result">Non-inferiority confirmed; dose-adjusted (50 &micro;g, 25 &micro;g) schedules for pediatric groups</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Safety Profile</h3>
+          <ul class="se-list">
+            <li><span class="badge badge-lo">Very Common</span> <strong>Injection-site pain, fatigue, headache, myalgia, chills</strong> — &gt;50–85% of vaccinees after dose 2 (100 &micro;g); onset 1–2 days; resolves within 2–3 days. More pronounced after dose 2 than dose 1, consistent with recall immune response. Grade 3 (limiting daily activity) in ~10–15% after dose 2 at 100 &micro;g — higher frequency than BNT162b2, likely reflecting the 3.3&times; higher dose.</li>
+            <li><span class="badge badge-lo">Common</span> <strong>Fever (&ge;38°C)</strong> — ~15% after dose 2; &lt;1% after dose 1. Erythema and swelling at injection site.</li>
+            <li><span class="badge badge-hi">Rare / Serious</span> <strong>Myocarditis / pericarditis</strong> — predominantly young adult males within 1–7 days of dose 2. Israeli surveillance: ~10–25 per 100,000 doses in highest-risk band (males 16–29). Slightly higher absolute rate than BNT162b2 at this age group, consistent with higher 100 &micro;g dose. Most cases mild and self-limiting (full recovery expected). Mechanism: proposed molecular mimicry (spike epitopes cross-reactive with cardiac &alpha;-myosin), dysregulated innate-immune response to LNP/mRNA, or individual susceptibility loci — not resolved.</li>
+            <li><span class="badge badge-mod">Very Rare</span> <strong>Anaphylaxis</strong> — ~2–5 per million doses; related to PEG-lipid component; onset within 15–30 min; manageable with standard observation and epinephrine.</li>
+            <li><span class="badge badge-lo">Not Established</span> <strong>No VITT</strong> (unlike adenoviral vector vaccines); no evidence of genomic integration, infertility, or autoimmune signal in controlled studies.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Administration</h3>
+          <table class="data-table">
+            <tr><th>Parameter</th><th>Details</th></tr>
+            <tr><td>Adult dose / schedule</td><td>2 doses, 100 &micro;g (0.5 mL) IM, 28 days apart; deltoid</td></tr>
+            <tr><td>Pediatric doses</td><td>Ages 6–11: 50 &micro;g (2 doses, 28d); ages 6 months–5 years: 25 &micro;g (2 doses, 28d)</td></tr>
+            <tr><td>Booster</td><td>Single 50 &micro;g &ge;5 months after primary; updated bivalent (BA.4/5) and XBB.1.5 monovalent formulations for annual updates</td></tr>
+            <tr><td>Storage</td><td>&minus;25°C to &minus;15°C up to 9 months; 2–8°C up to 30 days (unpunctured); do not refreeze after thaw</td></tr>
+            <tr><td>Contraindications</td><td>Prior anaphylaxis to mRNA-1273 or any component (PEG-DMG); severe allergy to polyethylene glycol; history of myocarditis/pericarditis after mRNA-1273 — discuss benefit-risk with cardiologist before booster</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="pathogens.html" class="conn-pill targets">
+              <span class="rel">Immunizes vs.</span>
+              SARS-CoV-2
+            </a>
+            <a href="immune-system.html" class="conn-pill">
+              <span class="rel">Elicits</span>
+              Immune System
+            </a>
+            <a href="b-cell.html" class="conn-pill">
+              <span class="rel">Elicits</span>
+              B Cell (anti-RBD IgG)
+            </a>
+            <a href="t-helper-cell.html" class="conn-pill">
+              <span class="rel">Elicits</span>
+              T Helper Cell (Th1)
+            </a>
+            <a href="dendritic-cell.html" class="conn-pill">
+              <span class="rel">Via</span>
+              Dendritic Cell
+            </a>
+            <a href="bnt162b2.html" class="conn-pill acts">
+              <span class="rel">Same Platform</span>
+              BNT162b2
+            </a>
+            <a href="azd1222.html" class="conn-pill acts">
+              <span class="rel">Same Antigen</span>
+              AZD1222
+            </a>
+            <a href="nvx-cov2373.html" class="conn-pill acts">
+              <span class="rel">Compare</span>
+              NVX-CoV2373
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1056/NEJMoa2022483" target="_blank" rel="noopener noreferrer">Jackson LA, Anderson EJ, Rouphael NG, et al. An mRNA Vaccine against SARS-CoV-2 — Preliminary Report. NEJM. 2020;383(20):1920-1931.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32663912/" target="_blank" rel="noopener noreferrer">PubMed 32663912</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa2028436" target="_blank" rel="noopener noreferrer">Anderson EJ, Rouphael NG, Widge AT, et al. Safety and Immunogenicity of SARS-CoV-2 mRNA-1273 Vaccine in Older Adults. NEJM. 2020;383(25):2427-2438.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32991794/" target="_blank" rel="noopener noreferrer">PubMed 32991794</a></li>
-            <li><a href="https://doi.org/10.1038/s41586-020-2622-0" target="_blank" rel="noopener noreferrer">Corbett KS, Edwards DK, Leist SR, et al. SARS-CoV-2 mRNA vaccine design enabled by prototype pathogen preparedness. Nature. 2020;586(7830):567-571.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32756549/" target="_blank" rel="noopener noreferrer">PubMed 32756549</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa2035389" target="_blank" rel="noopener noreferrer">Baden LR, El Sahly HM, Essink B, et al. Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine. NEJM. 2021;384(5):403-416.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33378609/" target="_blank" rel="noopener noreferrer">PubMed 33378609</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa2113017" target="_blank" rel="noopener noreferrer">El Sahly HM, Baden LR, Essink B, et al. Efficacy of the mRNA-1273 SARS-CoV-2 Vaccine at Completion of Blinded Phase. NEJM. 2021;385(19):1774-1785.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/34551225/" target="_blank" rel="noopener noreferrer">PubMed 34551225</a></li>
-            <li><a href="https://doi.org/10.1126/science.abb2507" target="_blank" rel="noopener noreferrer">Wrapp D, Wang N, Corbett KS, et al. Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. Science. 2020;367(6483):1260-1263.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32075877/" target="_blank" rel="noopener noreferrer">PubMed 32075877</a></li>
-            <li><a href="https://doi.org/10.1038/nrd.2017.243" target="_blank" rel="noopener noreferrer">Pardi N, Hogan MJ, Porter FW, Weissman D. mRNA vaccines — a new era in vaccinology. Nat Rev Drug Discov. 2018;17(4):261-279.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29326426/" target="_blank" rel="noopener noreferrer">PubMed 29326426</a></li>
-            <li><a href="https://doi.org/10.1016/j.immuni.2005.06.008" target="_blank" rel="noopener noreferrer">Karikó K, Buckstein M, Ni H, Weissman D. Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA. Immunity. 2005;23(2):165-175.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16111635/" target="_blank" rel="noopener noreferrer">PubMed 16111635</a></li>
-            <li><a href="https://doi.org/10.1073/pnas.1707304114" target="_blank" rel="noopener noreferrer">Pallesen J, Wang N, Corbett KS, et al. Immunogenicity and structures of a rationally designed prefusion MERS-CoV spike antigen. PNAS. 2017;114(35):E7348-E7357.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28807998/" target="_blank" rel="noopener noreferrer">PubMed 28807998</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa2109730" target="_blank" rel="noopener noreferrer">Mevorach D, Anis E, Cedar N, et al. Myocarditis after BNT162b2 mRNA Vaccine against Covid-19 in Israel. NEJM. 2021;385(23):2140-2149.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/34614328/" target="_blank" rel="noopener noreferrer">PubMed 34614328</a></li>
+            <li>Jackson LA, Anderson EJ, Rouphael NG, et al. An mRNA Vaccine against SARS-CoV-2 — Preliminary Report. <em>N Engl J Med.</em> 2020;383(20):1920-1931. <a href="https://doi.org/10.1056/NEJMoa2022483">doi:10.1056/NEJMoa2022483</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32663912/">PMID 32663912</a></li>
+            <li>Baden LR, El Sahly HM, Essink B, et al. Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine. <em>N Engl J Med.</em> 2021;384(5):403-416. <a href="https://doi.org/10.1056/NEJMoa2035389">doi:10.1056/NEJMoa2035389</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33378609/">PMID 33378609</a></li>
+            <li>El Sahly HM, Baden LR, Essink B, et al. Efficacy of the mRNA-1273 SARS-CoV-2 Vaccine at Completion of Blinded Phase. <em>N Engl J Med.</em> 2021;385(19):1774-1785. <a href="https://doi.org/10.1056/NEJMoa2113017">doi:10.1056/NEJMoa2113017</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/34551225/">PMID 34551225</a></li>
+            <li>Corbett KS, Edwards DK, Leist SR, et al. SARS-CoV-2 mRNA vaccine design enabled by prototype pathogen preparedness. <em>Nature.</em> 2020;586(7830):567-571. <a href="https://doi.org/10.1038/s41586-020-2622-0">doi:10.1038/s41586-020-2622-0</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32756549/">PMID 32756549</a></li>
+            <li>Karik&oacute; K, Buckstein M, Ni H, Weissman D. Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification. <em>Immunity.</em> 2005;23(2):165-175. <a href="https://doi.org/10.1016/j.immuni.2005.06.008">doi:10.1016/j.immuni.2005.06.008</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16111635/">PMID 16111635</a></li>
+            <li>Wrapp D, Wang N, Corbett KS, et al. Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. <em>Science.</em> 2020;367(6483):1260-1263. <a href="https://doi.org/10.1126/science.abb2507">doi:10.1126/science.abb2507</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32075877/">PMID 32075877</a></li>
+            <li>Mevorach D, Anis E, Cedar N, et al. Myocarditis after BNT162b2 mRNA Vaccine against Covid-19 in Israel. <em>N Engl J Med.</em> 2021;385(23):2140-2149. <a href="https://doi.org/10.1056/NEJMoa2109730">doi:10.1056/NEJMoa2109730</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/34614328/">PMID 34614328</a></li>
           </ul>
         </div>
 
@@ -208,17 +333,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="bnt162b2.html">BNT162b2</a>
+      <a href="azd1222.html">AZD1222</a>
+      <a href="nvx-cov2373.html">NVX-CoV2373</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

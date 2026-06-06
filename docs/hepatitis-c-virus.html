@@ -3,93 +3,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="(+)ssRNA Hepacivirus; 9.6 kb genome. NS3/4A protease cleaves MAVS/TRIF, disabling innate immune sensing. Infects hepatocytes via CD81/SR-B1/CLDN1/OCLN entry. 75">
-  <meta property="og:title" content="Hepatitis C Virus — Human Engineering">
+  <meta name="description" content="Hepatitis C Virus — Atlas Two Pathogen entry. (+)ssRNA Hepacivirus; NS3/4A MAVS/TRIF cleavage; DAA cure; cirrhosis and HCC. Part of the Human Engineering project.">
+  <meta property="og:title" content="Hepatitis C Virus — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="HCV: CD81/SR-B1/CLDN1/OCLN entry, NS3/4A innate immune evasion, chronic infection, cirrhosis, HCC, and DAA cure.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Hepatitis C Virus — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bg: #f2f2f7;
+      --bg-elev: #ffffff;
+      --bg-soft: #e5e5ea;
+      --fg: #1c1c1e;
+      --fg-soft: #3a3a3c;
+      --muted: #6e6e73;
+      --muted-2: #8e8e93;
+      --border: #d1d1d6;
+      --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg); color: var(--fg);
+      line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+    }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    /* ---------- NAV ---------- */
+    nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
+    }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+
+    /* ---------- HERO ---------- */
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      background: rgba(159, 18, 57, 0.1); color: var(--accent);
+      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
+    }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    /* ---------- MAIN ---------- */
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger  { border-left-color: #dc2626; }
+    .mech-item.immune  { border-left-color: var(--ai); }
+    .mech-item.latent  { border-left-color: var(--accent); }
+    .mech-item.drug    { border-left-color: var(--bio); }
+
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,97 +146,179 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogens
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus</div>
     <h1>Hepatitis C Virus</h1>
-    <p class="tagline">(+)ssRNA Hepacivirus; 9.6 kb genome. NS3/4A protease cleaves MAVS/TRIF, disabling innate immune sensing. Infects hepatocytes via CD81/SR-B1/CLDN1/OCLN entry. 75% chronic infection rate; leading cause of cirrhosis and HCC globally. Curable with DAAs (NS5B/NS5A inhibitors).</p>
-    <p class="aliases">Also known as: HCV, hepatitis C, non-A non-B hepatitis virus, NANBH</p>
+    <p class="tagline">The silent hepatotropic RNA virus that weaponises its own protease to blind the innate immune system — and is now curable in 8&ndash;12 weeks.</p>
+    <p class="subtagline">HCV is a (+)ssRNA Hepacivirus infecting ~58 million people worldwide, responsible for ~290,000 deaths per year from cirrhosis and hepatocellular carcinoma. Its NS3/4A serine protease cleaves MAVS and TRIF &mdash; the two central innate immune adaptors &mdash; creating a cytokine-poor hepatic environment that permits decades of silent, progressive liver destruction. Direct-acting antivirals now achieve &gt;95% sustained virological response, constituting functional cure.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">58M</span><span class="stat-label">Infected globally</span></div>
+      <div class="stat"><span class="stat-num">~290K</span><span class="stat-label">Deaths / year</span></div>
+      <div class="stat"><span class="stat-num">75%</span><span class="stat-label">Chronic infection rate</span></div>
+      <div class="stat"><span class="stat-num">9.6 kb</span><span class="stat-label">(+)ssRNA genome</span></div>
+      <div class="stat"><span class="stat-num">&gt;95%</span><span class="stat-label">DAA cure rate (SVR12)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">hepatitis-c-virus</div>
-        <h2>Hepatitis C Virus</h2>
-        <p class="summary">(+)ssRNA Hepacivirus; 9.6 kb genome. NS3/4A protease cleaves MAVS/TRIF, disabling innate immune sensing. Infects hepatocytes via CD81/SR-B1/CLDN1/OCLN entry. 75% chronic infection rate; leading cause of cirrhosis and HCC globally. Curable with DAAs (NS5B/NS5A inhibitors).</p>
+    <div class="detail-card" id="hcv">
+      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #7f1d1d);">
+        <div class="entry-eyebrow">Flaviviridae &middot; Hepacivirus &middot; (+)ssRNA, Enveloped &middot; ~50&ndash;60 nm</div>
+        <h3>Hepatitis C Virus (HCV)</h3>
+        <p class="summary">Enveloped positive-sense ssRNA virus with a ~9.6 kb genome encoding a single large polyprotein processed by host signal peptidases and the viral NS3/4A serine protease. Entry into hepatocytes requires sequential co-receptor engagement: E2 glycoprotein binds SR-B1 and CD81, then migrates to tight junctions for CLDN1 and OCLN engagement, followed by clathrin-mediated endocytosis and low-pH E1-mediated fusion. NS3/4A is the master immune evasion factor: it cleaves MAVS (blocking RIG-I&rarr;IRF3&rarr;IFN-&beta; signalling) and TRIF (blocking TLR3 signalling), producing a cytokine-poor hepatic environment that drives the 75% chronic infection rate. Chronic infection triggers hepatic stellate cell activation via TGF-&beta;, fibrosis, cirrhosis, and HCC. Pangenotypic DAAs (sofosbuvir/velpatasvir or glecaprevir/pibrentasvir) cure &gt;95% of patients in 8&ndash;12 weeks.</p>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>hepatitis-c-virus</td></tr>
-            <tr><td>Name</td><td>Hepatitis C Virus</td></tr>
-            <tr><td>Status</td><td>active</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>01-viruses</td></tr>
-            <tr><td>Family</td><td>Flaviviridae</td></tr>
-            <tr><td>Genus</td><td>Hepacivirus</td></tr>
-            <tr><td>Species</td><td>Hepatitis C virus</td></tr>
+          <h4>Classification &amp; Structure</h4>
+          <table class="detail-table">
+            <tr><td>Genome</td><td>~9.6 kb positive-sense single-stranded RNA; single ORF flanked by conserved 5&prime; and 3&prime; UTRs with internal ribosomal entry site (IRES) driving cap-independent translation; seven major genotypes (GT1&ndash;7) with 60+ subtypes; GT1 most prevalent globally</td></tr>
+            <tr><td>Family / Genus</td><td>Flaviviridae / Hepacivirus; no approved vaccine; eradication feasible via DAAs + diagnosis scale-up</td></tr>
+            <tr><td>Envelope</td><td>Enveloped; E1/E2 glycoprotein heterodimer on virion surface; E2 HVR1 hypervariable region enables antibody escape; circulates in blood as lipoviroparticles (LVP) associated with VLDL/LDL — structural immune evasion masking E2 neutralising epitopes</td></tr>
+            <tr><td>Size</td><td>~50&ndash;60 nm diameter; low buoyant density (~1.03&ndash;1.25 g/mL) due to lipoprotein association</td></tr>
+            <tr><td>Key proteins</td><td>Core (nucleocapsid + lipid droplet assembly); E1/E2 (entry); p7 (viroporin); NS2 (NS2-NS3 junction cleavage); NS3/4A (serine protease + helicase; MAVS/TRIF cleavage; primary immune evasion); NS4B (membranous web induction); NS5A (replication scaffold; assembly factor); NS5B (RNA-dependent RNA polymerase; sofosbuvir target)</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="hepatocyte.html" title="HCV enters hepatocytes via CD81, SR-B1, claudin-1, and occludin receptors. NS3/4A serine protease cleaves MAVS and TRIF, blocking RIG-I and TLR3 innate immune sensing to enable persistent infection."><span class="rel">infects</span>Hepatocyte</a>
-            <a class="conn-pill damaged" href="liver.html" title="Chronic HCV triggers portal inflammation, HSC activation via TGF-β, progressive fibrosis, and cirrhosis; 20–30% of chronically infected patients develop cirrhosis within 20 years, with HCC risk rising thereafter."><span class="rel">damages</span>Liver</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="HCV drives T cell exhaustion via PD-1 and TIM-3 upregulation; chronic antigen stimulation depletes HCV-specific CD8+ T cells, enabling persistence and impairing broad antiviral immunity over years."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill" href="hepatocyte.html" title="DAAs (sofosbuvir/ledipasvir, glecaprevir/pibrentasvir) achieve &gt;95% SVR12, preventing further hepatocyte damage and reducing HCC incidence by eliminating active HCV replication."><span class="rel">prevents</span>Hepatocyte</a>
+          <h4>Infection Mechanism</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>1 &middot; Multi-step receptor-coordinated hepatocyte entry</h5>
+              <p>E2 engages SR-B1 and CD81 on hepatocytes for initial attachment. The virus-receptor complex migrates to tight junctions where CLDN1 and OCLN are recruited to complete the entry complex. Clathrin-mediated endocytosis internalises the intact four-receptor complex; endosomal acidification (~pH 5) triggers E1-mediated membrane fusion and nucleocapsid release into the cytoplasm. This multistep, hepatocyte-specific entry mechanism restricts HCV tropism almost entirely to the liver.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>2 &middot; Replication in the membranous web</h5>
+              <p>The (+)ssRNA genome is directly translated at the IRES into a ~3,000 aa polyprotein, processed into 10 proteins. NS4B induces ER membrane rearrangements to form the membranous web &mdash; a protected replication organelle where NS5B RdRp synthesises a (&minus;)ssRNA template then amplifies (+)ssRNA progeny. NS5B lacks proofreading; error rate ~10&minus;&sup4; substitutions/site/cycle generates a quasispecies swarm (~10&sup1;&sup2; virions/day) driving antibody escape and drug resistance.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>3 &middot; NS3/4A &mdash; dual innate immune sabotage</h5>
+              <p>NS3/4A serine protease cleaves MAVS (mitochondrial antiviral signalling protein, the RIG-I/MDA5 adaptor) at Cys-508, releasing it from the mitochondrial outer membrane and abolishing downstream IRF3 phosphorylation and IFN-&beta; production. NS3/4A simultaneously cleaves TRIF (the TLR3 adaptor), blocking dsRNA-triggered IFN induction. Infected hepatocytes produce minimal type I/III interferons, enabling viral persistence in an immune-silent liver. NS3/4A protease inhibitors (glecaprevir, grazoprevir) target this protein therapeutically.</p>
+            </div>
+            <div class="mech-item latent">
+              <h5>4 &middot; T cell exhaustion and chronic persistence</h5>
+              <p>Persistent HCV antigenemia drives progressive upregulation of PD-1, TIM-3, and CTLA-4 on HCV-specific CD8+ T cells, impairing effector function (T cell exhaustion). CD4+ Th1 help is weakened, removing co-stimulation needed for CTL maintenance. Regulatory T cell expansion and IL-10 further dampen liver-resident immune surveillance. Spontaneous clearance (~25% of acutely infected) requires broad, polyfunctional CD4+/CD8+ T cell responses with early Th1 help &mdash; a correlate of protection not achieved in the majority.</p>
+            </div>
+            <div class="mech-item drug">
+              <h5>5 &middot; Assembly via the VLDL secretory pathway</h5>
+              <p>Core protein accumulates on cytosolic lipid droplets and recruits NS5A and the replication complex. Nascent virions bud into the ER lumen and traffic through the VLDL secretory pathway, acquiring their lipoprotein coat. Released LVPs mask neutralising epitopes on E2 through lipoprotein association &mdash; a structural immune evasion mechanism complementing NS3/4A innate blockade.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Host Immune Response</h4>
+          <div class="immune-tags">
+            <span class="itag innate">RIG-I / MDA5 sensing &mdash; blocked by NS3/4A&rarr;MAVS cleavage</span>
+            <span class="itag innate">TLR3 sensing &mdash; blocked by NS3/4A&rarr;TRIF cleavage</span>
+            <span class="itag innate">NK cell activation &mdash; partial; partially suppressed by HCV</span>
+            <span class="itag adaptive">CD4+ Th1 response &mdash; correlate of spontaneous clearance</span>
+            <span class="itag adaptive">CD8+ CTL &mdash; HCV-specific; exhausted in chronic infection (PD-1/TIM-3)</span>
+            <span class="itag adaptive">Neutralising antibodies (anti-E2) &mdash; broadly reactive epitopes studied for vaccine</span>
+            <span class="itag depleted">IFN-&beta; / IFN-&lambda; &mdash; markedly suppressed in infected hepatocytes</span>
+            <span class="itag depleted">HCV-specific CD8+ T cells &mdash; progressively exhausted; reversed after SVR</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Disease Spectrum</h4>
+          <table class="path-table">
+            <tr><th>Stage</th><th>Presentation</th><th>Severity</th><th>Approximate frequency</th></tr>
+            <tr><td>Acute HCV (0&ndash;6 months)</td><td>Usually subclinical; 20&ndash;30% have fatigue, jaundice, RUQ discomfort; ALT/AST elevated; HCV RNA detectable 1&ndash;2 weeks after exposure</td><td>Mild&ndash;moderate; acute liver failure rare (&lt;1%)</td><td>100% of newly infected</td></tr>
+            <tr><td>Spontaneous clearance</td><td>HCV RNA becomes undetectable; ALT normalises; associated with IL28B CC genotype, female sex, symptomatic acute illness</td><td>Favourable; immune-mediated resolution</td><td>~25% of acutely infected</td></tr>
+            <tr><td>Chronic infection</td><td>Persistent HCV RNA &gt;6 months; most asymptomatic; ongoing hepatocyte inflammation and silent fibrosis accumulate over decades</td><td>Moderate; slowly progressive</td><td>~75% of acutely infected</td></tr>
+            <tr><td>Compensated cirrhosis (F4)</td><td>Asymptomatic or mild portal hypertension; varices forming; HCC risk rising</td><td>Serious; HCC risk 2&ndash;5%/year</td><td>~20&ndash;30% of chronically infected within 20 years</td></tr>
+            <tr><td>Decompensated cirrhosis</td><td>Ascites, variceal haemorrhage, hepatic encephalopathy, spontaneous bacterial peritonitis</td><td>Severe; liver transplant is definitive therapy</td><td>~5&ndash;7%/year from compensated cirrhosis</td></tr>
+            <tr><td>Hepatocellular carcinoma (HCC)</td><td>Usually on background of cirrhosis; often asymptomatic until advanced; elevated AFP; confirmed by CT/MRI; 5-year survival &lt;15% without resection or transplant</td><td>Life-threatening</td><td>~2&ndash;5%/year in cirrhotic patients</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Treatment &amp; Prevention</h4>
+          <table class="detail-table">
+            <tr><td>NS5B inhibitor (nucleotide)</td><td>Sofosbuvir &mdash; nucleotide analogue chain terminator at NS5B RdRp active site; backbone of all current pangenotypic regimens; very high barrier to resistance; once-daily oral</td></tr>
+            <tr><td>NS5A inhibitors</td><td>Ledipasvir, velpatasvir, pibrentasvir &mdash; block NS5A phosphoprotein (replication scaffold + assembly); resistance-associated substitutions (RASs) possible at Y93H/L31M; pibrentasvir has highest barrier to resistance across genotypes</td></tr>
+            <tr><td>NS3/4A protease inhibitors</td><td>Glecaprevir, grazoprevir &mdash; block polyprotein processing; lower barrier to resistance than NS5B NUCs; hepatotoxic at high doses; avoid in decompensated cirrhosis</td></tr>
+            <tr><td>Pangenotypic regimens</td><td>Sofosbuvir/velpatasvir (Epclusa) 12 weeks; glecaprevir/pibrentasvir (Maviret) 8 weeks (treatment-naive, non-cirrhotic); both achieve &gt;95% SVR12 across all genotypes; once-daily oral; minimal drug interactions</td></tr>
+            <tr><td>Vaccine</td><td>No approved vaccine. Challenges include 7 genotypes with 60+ subtypes, LVP lipoprotein masking of E2 neutralising epitopes, and NS3/4A innate evasion impairing adaptive priming. Broadly cross-neutralising anti-E2 antibodies and T cell vaccine strategies are in clinical trials</td></tr>
+            <tr><td>Post-SVR management</td><td>Liver fibrosis can partially regress after SVR; HCC surveillance (ultrasound &#177; AFP every 6 months) continues indefinitely in cirrhotic patients even after cure; HCC risk falls substantially but does not reach uninfected-individual levels</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Cross-Atlas Connections</h4>
+          <div class="connections">
+            <a class="conn-pill infects" href="liver.html"><span class="rel">Infects</span>Hepatocytes (liver) via CD81/SR-B1/CLDN1/OCLN</a>
+            <a class="conn-pill damages" href="liver.html"><span class="rel">Damages</span>Liver &mdash; fibrosis, cirrhosis, HCC</a>
+            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system &mdash; T cell exhaustion (PD-1/TIM-3)</a>
+            <a class="conn-pill targets" href="immune-system.html"><span class="rel">Targets</span>MAVS/TRIF innate adaptors (NS3/4A cleavage)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1126/science.2523562" target="_blank" rel="noopener noreferrer">Choo QL, Kuo G, Weiner AJ, et al. Isolation of a cDNA clone derived from a blood-borne non-A, non-B viral hepatitis genome. Science. 1989;244(4902):359-62.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/2523562/" target="_blank" rel="noopener noreferrer">PubMed 2523562</a></li>
-            <li><a href="https://doi.org/10.1038/nrmicro3098" target="_blank" rel="noopener noreferrer">Lindenbach BD, Rice CM. The ins and outs of hepatitis C virus entry and assembly. Nat Rev Microbiol. 2013;11(10):688-700.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24018384/" target="_blank" rel="noopener noreferrer">PubMed 24018384</a></li>
-            <li><a href="https://doi.org/10.1073/pnas.0508531102" target="_blank" rel="noopener noreferrer">Li XD, Sun L, Seth RB, Pineda G, Chen ZJ. Hepatitis C virus protease NS3/4A cleaves mitochondrial antiviral signalling protein off the mitochondria to evade innate immunity. Proc Natl Acad Sci USA. 2005;102(49):17717-22.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16301520/" target="_blank" rel="noopener noreferrer">PubMed 16301520</a></li>
-            <li><a href="https://doi.org/10.1053/j.gastro.2016.04.003" target="_blank" rel="noopener noreferrer">Pawlotsky JM. COVID-19 and the liver-related deaths to come. Nat Rev Gastroenterol Hepatol. 2020;17(5):255-256. [see also: Pawlotsky JM. Hepatitis C virus resistance to direct-acting antiviral drugs. Gastroenterology. 2016;151(1):70-86.]</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27147299/" target="_blank" rel="noopener noreferrer">PubMed 27147299</a></li>
-            <li><a href="https://www.who.int/news-room/fact-sheets/detail/hepatitis-c" target="_blank" rel="noopener noreferrer">World Health Organization. Hepatitis C. WHO Fact Sheet. 2023.</a></li>
-            <li><a href="https://doi.org/10.3322/caac.21660" target="_blank" rel="noopener noreferrer">Sung H, Ferlay J, Siegel RL, et al. Global Cancer Statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2021;71(3):209-249.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33538338/" target="_blank" rel="noopener noreferrer">PubMed 33538338</a></li>
+            <li>Choo QL, Kuo G, Weiner AJ, et al. Isolation of a cDNA clone derived from a blood-borne non-A, non-B viral hepatitis genome. <em>Science.</em> 1989;244(4902):359-62. <a href="https://doi.org/10.1126/science.2523562" target="_blank" rel="noopener">doi:10.1126/science.2523562</a> &middot; PubMed 2523562</li>
+            <li>Lindenbach BD, Rice CM. The ins and outs of hepatitis C virus entry and assembly. <em>Nat Rev Microbiol.</em> 2013;11(10):688-700. <a href="https://doi.org/10.1038/nrmicro3098" target="_blank" rel="noopener">doi:10.1038/nrmicro3098</a> &middot; PubMed 24018384</li>
+            <li>Li XD, Sun L, Seth RB, Pineda G, Chen ZJ. Hepatitis C virus protease NS3/4A cleaves mitochondrial antiviral signalling protein off the mitochondria to evade innate immunity. <em>Proc Natl Acad Sci USA.</em> 2005;102(49):17717-22. <a href="https://doi.org/10.1073/pnas.0508531102" target="_blank" rel="noopener">doi:10.1073/pnas.0508531102</a> &middot; PubMed 16301520</li>
+            <li>Pawlotsky JM. Hepatitis C virus resistance to direct-acting antiviral drugs. <em>Gastroenterology.</em> 2016;151(1):70-86. <a href="https://doi.org/10.1053/j.gastro.2016.04.003" target="_blank" rel="noopener">doi:10.1053/j.gastro.2016.04.003</a> &middot; PubMed 27147299</li>
+            <li>World Health Organization. Hepatitis C. <em>WHO Fact Sheet.</em> 2023. <a href="https://www.who.int/news-room/fact-sheets/detail/hepatitis-c" target="_blank" rel="noopener">who.int/news-room/fact-sheets/detail/hepatitis-c</a></li>
+            <li>Sung H, Ferlay J, Siegel RL, et al. Global Cancer Statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. <em>CA Cancer J Clin.</em> 2021;71(3):209-249. <a href="https://doi.org/10.3322/caac.21660" target="_blank" rel="noopener">doi:10.3322/caac.21660</a> &middot; PubMed 33538338</li>
           </ul>
         </div>
 
       </div>
+    </div><!-- /.detail-card -->
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers HCV biology, NS3/4A immune evasion, chronic liver disease, and DAA cure. Extrahepatic manifestations (cryoglobulinaemia, MPGN, lymphoma), fibrosis regression post-SVR, and HCV vaccine immunology are planned expansions. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=HCV%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
     </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="liver.html">Liver</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.querySelector && true;
+  </script>
 </body>
 </html>

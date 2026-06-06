@@ -3,93 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hepadnavirus (Hepadnaviridae). 3.2 kb rcDNA; smallest DNA virus. Infects hepatocytes via NTCP receptor; nuclear cccDNA minichromosome drives persistence. Chroni">
-  <meta property="og:title" content="Hepatitis B Virus — Human Engineering">
+  <meta name="description" content="Hepatitis B Virus (HBV) — Atlas Two Pathogen entry. Hepadnaviridae, NTCP receptor, cccDNA persistence, HBx oncogene, cirrhosis, HCC, tenofovir/entecavir, 3-dose vaccine. Part of the Human Engineering project.">
+  <meta property="og:title" content="Hepatitis B Virus — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="HBV entry: preS1–NTCP mechanism, cccDNA nuclear minichromosome, HBx oncogenesis, chronic hepatitis phases, Metavir fibrosis staging, antiviral therapy, vaccine.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Hepatitis B Virus — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
-      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
-      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bg: #f2f2f7;
+      --bg-elev: #ffffff;
+      --bg-soft: #e5e5ea;
+      --fg: #1c1c1e;
+      --fg-soft: #3a3a3c;
+      --muted: #6e6e73;
+      --muted-2: #8e8e93;
+      --border: #d1d1d6;
+      --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #9f1239;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg); color: var(--fg);
+      line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+    }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    /* ---------- NAV ---------- */
+    nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
+    }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+
+    /* ---------- HERO ---------- */
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      background: rgba(159, 18, 57, 0.1); color: var(--accent);
+      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
+    }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    /* ---------- MAIN ---------- */
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.9rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); border-radius: 999px; font-size: 0.74rem; color: rgba(255,255,255,0.82); font-weight: 600; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger  { border-left-color: #dc2626; }
+    .mech-item.immune  { border-left-color: var(--ai); }
+    .mech-item.latent  { border-left-color: var(--accent); }
+    .mech-item.drug    { border-left-color: var(--bio); }
+
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -108,97 +148,193 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Pathogen Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
+    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus</div>
     <h1>Hepatitis B Virus</h1>
-    <p class="tagline">Hepadnavirus (Hepadnaviridae). 3.2 kb rcDNA; smallest DNA virus. Infects hepatocytes via NTCP receptor; nuclear cccDNA minichromosome drives persistence. Chronic infection leads to cirrhosis and hepatocellular carcinoma.</p>
-    <p class="aliases">Also known as: HBV, hepatitis B, Australia antigen virus, Dane particle virus</p>
+    <p class="tagline">The world's smallest DNA virus infects hepatocytes via NTCP receptor and builds a covalently closed circular DNA (cccDNA) minichromosome that no current antiviral can eradicate — making chronic hepatitis B the leading vaccine-preventable cause of liver cancer.</p>
+    <p class="subtagline">Hepatitis B virus (HBV; <em>Hepadnaviridae</em>) chronically infects 254 million people and causes 820,000 deaths annually from cirrhosis and hepatocellular carcinoma (HCC). Its 3.2 kb partially double-stranded rcDNA genome replicates through an RNA intermediate via reverse transcriptase — explaining susceptibility to NRTIs. Nuclear cccDNA is the source of viral persistence. The HBV vaccine, available since 1982 and proven to reduce HCC incidence by 90% in Taiwan, was the first vaccine shown to prevent human cancer.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">254M</span><span class="stat-label">Chronic infections</span></div>
+      <div class="stat"><span class="stat-num">820K</span><span class="stat-label">Deaths / year</span></div>
+      <div class="stat"><span class="stat-num">3.2 kb</span><span class="stat-label">Smallest DNA virus</span></div>
+      <div class="stat"><span class="stat-num">90%</span><span class="stat-label">Perinatal chronicity rate</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">hepatitis-b-virus</div>
-        <h2>Hepatitis B Virus</h2>
-        <p class="summary">Hepadnavirus (Hepadnaviridae). 3.2 kb rcDNA; smallest DNA virus. Infects hepatocytes via NTCP receptor; nuclear cccDNA minichromosome drives persistence. Chronic infection leads to cirrhosis and hepatocellular carcinoma.</p>
+    <div class="detail-card" id="hepatitis-b-virus">
+      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #7f1d1d);">
+        <div class="entry-eyebrow">Hepadnaviridae &middot; Orthohepadnavirus &middot; dsDNA (rcDNA), Enveloped &middot; 42 nm Dane particle</div>
+        <h3>Hepatitis B Virus (HBV)</h3>
+        <p class="summary">The smallest DNA virus infecting humans: 3.2 kb partially double-stranded relaxed circular DNA (rcDNA) with four overlapping ORFs (S, C, P, X) encoding more protein per nucleotide than virtually any other known virus. Infection is exclusively hepatotropic — HBsAg preS1 binds heparan sulfate proteoglycans for initial attachment, then engages NTCP (sodium-taurocholate cotransporting polypeptide; SLC10A1), a bile acid transporter expressed almost exclusively on hepatocytes, for high-affinity entry. In the nucleus, the viral polymerase and host DNA repair enzymes convert rcDNA to covalently closed circular DNA (cccDNA) — a ~3.2 kb episomal minichromosome associated with histones. cccDNA drives transcription of all viral RNAs including the pregenomic RNA (pgRNA) template for reverse transcription. Current nucleos(t)ide analogues (tenofovir, entecavir) suppress HBV DNA replication but do not eliminate cccDNA — the fundamental barrier to functional cure. HBx protein is an essential transcriptional co-activator that also drives oncogenic signalling (Src/Ras/ERK, PI3K/Akt), p53 inhibition, and epigenetic reprogramming, making HBV the most common cause of hepatocellular carcinoma globally.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">HBV</span>
+          <span class="alias-pill">hepatitis B</span>
+          <span class="alias-pill">Australia antigen virus</span>
+          <span class="alias-pill">Dane particle virus</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>hepatitis-b-virus</td></tr>
-            <tr><td>Name</td><td>Hepatitis B Virus</td></tr>
-            <tr><td>Status</td><td>active</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Class</td><td>01-viruses</td></tr>
-            <tr><td>Family</td><td>Hepadnaviridae</td></tr>
-            <tr><td>Genus</td><td>Orthohepadnavirus</td></tr>
+          <h4>Classification &amp; Structure</h4>
+          <table class="detail-table">
+            <tr><td>Genome</td><td>3.2 kb partially double-stranded relaxed circular DNA (rcDNA); complete (&minus;) strand + incomplete (+) strand held in circular form by cohesive overlapping ends; 4 overlapping ORFs (S, C, P, X) — remarkable information density. Replicates through an RNA intermediate (pgRNA) via reverse transcriptase, uniquely among DNA viruses.</td></tr>
+            <tr><td>Family / Genus</td><td><em>Hepadnaviridae</em> / <em>Orthohepadnavirus</em>. 10 genotypes (A–J) with geographic distributions: genotype C (East Asia) and F (Alaska/Latin America) associated with higher HCC risk.</td></tr>
+            <tr><td>Envelope</td><td>Yes — host-derived lipid bilayer + HBsAg (Surface antigen); 3 forms: Large HBsAg (preS1+preS2+S; NTCP-binding), Medium (preS2+S), Small (S only). HBsAg subviral particles circulate at 10,000&times; molar excess over complete virions.</td></tr>
+            <tr><td>Size / particles</td><td>Dane particle (complete virion): 42 nm. HBsAg spherical subviral particles: 22 nm (up to 10&#185;&#179; particles/mL — acts as enormous antibody decoy). HBsAg filamentous particles: 22 nm &times; variable length.</td></tr>
+            <tr><td>Genotypes</td><td>A–J (10 genotypes); clinical importance: genotype C/F &rarr; higher HCC risk; genotype A &rarr; best IFN response; genotype B &rarr; more HBeAg seroconversion in young adults</td></tr>
+            <tr><td>Key proteins</td><td>Large HBsAg (LHBsAg; preS1 domain; NTCP-binding; entry); HBcAg (capsid; major immune target); HBeAg (secreted tolerogen); HBV Polymerase (RT + RNase H + terminal protein; drug target); HBx (transcriptional transactivator; oncogenic)</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="hepatocyte.html" title="HBsAg preS1 domain binds NTCP (sodium-taurocholate cotransporting polypeptide) on hepatocytes; this is the primary and essentially exclusive cell type productively infected by HBV."><span class="rel">infects</span>Hepatocyte</a>
-            <a class="conn-pill" href="liver.html" title="Hepatocytes in all zones of the hepatic lobule can be infected; HBsAg subviral particles and Dane particles circulate in blood at extraordinary concentrations during active replication."><span class="rel">infects</span>Liver</a>
-            <a class="conn-pill" href="digestive-system.html" title="The liver is the dominant organ of the digestive system targeted by HBV; cccDNA establishes a persistent nuclear minichromosome in hepatocytes that is refractory to current antiviral agents."><span class="rel">infects</span>Digestive System</a>
-            <a class="conn-pill damaged" href="hepatocyte.html" title="HBV-mediated liver injury is primarily immune-mediated: CD8+ T cell killing of HBsAg-expressing hepatocytes. Direct cytopathic effect is minimal; immunotolerant neonates have minimal inflammation despite high viral loads."><span class="rel">damages</span>Hepatocyte</a>
-            <a class="conn-pill damaged" href="liver.html" title="Chronic HBV causes progressive hepatic fibrosis (Metavir F0→F4), cirrhosis, and hepatocellular carcinoma; HBsAg integrations and HBx transactivation promote oncogenesis even at low replication levels."><span class="rel">damages</span>Liver</a>
-            <a class="conn-pill damaged" href="digestive-system.html" title="Chronic HBV damages the liver (dominant accessory digestive organ), causing cirrhosis and portal hypertension with GI sequelae: esophageal varices, ascites, spontaneous bacterial peritonitis, and hepatic encephalopathy."><span class="rel">damages</span>Digestive System</a>
-            <a class="conn-pill" href="immunoglobulin-g.html" title="Anti-HBs IgG (≥10 mIU/mL) is the serological correlate of vaccine-induced protection; anti-HBc IgG marks prior or current infection. Passively administered anti-HBs HBIG prevents perinatal transmission."><span class="rel">target-of</span>Immunoglobulin G</a>
+          <h4>Infection Mechanism</h4>
+          <div class="mech-list">
+            <div class="mech-item danger">
+              <h5>1 &middot; Attachment and NTCP receptor binding</h5>
+              <p>HBV entry is a two-step process. <strong>Step 1 (low affinity):</strong> The LHBsAg preS1 domain binds heparan sulfate proteoglycans (HSPGs) on the hepatocyte surface, concentrating virions near the cell. <strong>Step 2 (high affinity):</strong> The preS1 domain (aa 2–48 of the myristoylated N-terminal peptide) binds <strong>NTCP (SLC10A1)</strong> — the basolateral sodium-dependent bile acid transporter expressed almost exclusively on hepatocytes. NTCP expression explains HBV&rsquo;s strict hepatotropism. Bulevirtide (Hepcludex), a synthetic preS1 lipopeptide competitive inhibitor of NTCP, is the first approved HBV/HDV entry inhibitor (EMA-approved for HDV co-infection).</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>2 &middot; Nuclear import and cccDNA formation — the persistence mechanism</h5>
+              <p>After clathrin-mediated endocytosis and cytoplasmic uncoating, the partially double-stranded rcDNA is transported into the nucleus via importin-&alpha;/&beta;. In the nucleus, the viral polymerase completes the (+) strand and cellular DNA repair enzymes (including PCNA, RFC, Lig1) convert rcDNA to <strong>covalently closed circular DNA (cccDNA)</strong> — an episomal ~3.2 kb minichromosome wrapped around histones H3/H4 and viral core protein. cccDNA is the persistent transcriptional template for all viral RNAs. Critically, cccDNA is <em>not targeted</em> by tenofovir or entecavir (which act downstream on reverse transcriptase). This is why treatment suppresses but cannot eliminate HBV: cccDNA persists in non-dividing hepatocytes for decades.</p>
+            </div>
+            <div class="mech-item danger">
+              <h5>3 &middot; Reverse transcription — RNA intermediate to rcDNA</h5>
+              <p>cccDNA serves as template for the ~3.5 kb pregenomic RNA (pgRNA), which is packaged with HBV polymerase into new core particles. The polymerase then acts as a <strong>reverse transcriptase</strong>: it synthesises the (&minus;) DNA strand using pgRNA as template (degrading the pgRNA via the RNase H domain), then partially synthesises the (+) strand from the (&minus;) strand template — producing the characteristic rcDNA molecule. This RNA-intermediate strategy is the mechanistic basis for HBV susceptibility to NRTI drugs originally developed for HIV reverse transcriptase.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>4 &middot; Immunological tolerance vs. immune-mediated damage</h5>
+              <p>HBV itself is minimally cytopathic — liver damage is almost entirely immune-mediated. In <strong>perinatal infection</strong>, maternal HBeAg crosses the placenta and tolerises the foetal/neonatal immune system to HBV antigens; combined with an immature adaptive immune system, this leads to 90% chronicity. In <strong>adult infection</strong>, a robust CD4+ Th1 and CD8+ CTL response drives vigorous hepatocyte killing — the molecular basis of acute hepatitis B — but resolves infection in &gt;95% of adults. The characteristic ALT/AST elevation directly reflects the magnitude of immune-mediated hepatocyte destruction, not viral replication per se.</p>
+            </div>
+            <div class="mech-item latent">
+              <h5>5 &middot; HBx protein — cccDNA transcription activator and oncogene</h5>
+              <p>The X protein (HBx; 154 aa; no known enzymatic activity) is essential for cccDNA transcription — it interacts with SMC complex/chromatin remodelling machinery at the cccDNA minichromosome. Beyond transcriptional function, HBx activates Src/Ras/ERK, PI3K/Akt/mTOR, and NF-&kB; signalling pathways; inhibits p53-mediated apoptosis; and drives epigenetic reprogramming of host hepatocytes through histone methyltransferase recruitment. HBsAg integrations into host chromosomes (a stochastic by-product of rcDNA recombination, accumulating over decades) can directly disrupt tumour suppressor genes and provide a c<em>is</em>-acting transcriptional activation of oncogenes — HBx drives HCC development even in patients with suppressed viral replication.</p>
+            </div>
+            <div class="mech-item immune">
+              <h5>6 &middot; HBsAg subviral particles — antibody decoy at extraordinary scale</h5>
+              <p>During active replication, HBsAg spherical and filamentous subviral particles (22 nm; no nucleocapsid) are secreted at 10,000–100,000&times; molar excess over infectious Dane particles — reaching up to 10&#185;&#178;–10&#185;&#179; particles/mL in serum. These particles, dominated by Small HBsAg (S), absorb anti-HBs antibodies and delay immune clearance. The sheer excess of non-infectious antigen overwhelms humoral responses, explaining why anti-HBs antibodies appear only after HBsAg clearance (anti-HBs and HBsAg do not coexist in serum in natural infection). This &ldquo;antigen flood&rdquo; is a major immune evasion strategy for persistence.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h4>Host Immune Response</h4>
+          <div class="immune-tags">
+            <span class="itag innate">NK cell activation (early; viral NTCP binding modulates NK activity)</span>
+            <span class="itag innate">pDC type I IFN (limited; HBV weakly induces IFN via cGAS-STING)</span>
+            <span class="itag innate">Kupffer cell activation &rarr; TNF-&alpha;, IL-6, IL-12 (promotes T cell priming)</span>
+            <span class="itag adaptive">CD4+ Th1 — IFN-&gamma;, IL-2 (critical for viral clearance in adults)</span>
+            <span class="itag adaptive">CD8+ CTL recognising HLA-A2/HBcAg and HBsAg epitopes — kill infected hepatocytes; <em>primary mechanism of hepatitis</em></span>
+            <span class="itag adaptive">Anti-HBs IgG (&ge;10 mIU/mL) — correlate of vaccine-induced protection</span>
+            <span class="itag adaptive">Anti-HBc IgG (lifelong marker of past/current infection)</span>
+            <span class="itag depleted">HBeAg-mediated neonatal tolerisation &rarr; 90% chronicity in perinatal infection</span>
+            <span class="itag depleted">HBsAg 22 nm particle flood — absorbs anti-HBs antibodies, delays clearance</span>
+            <span class="itag depleted">Exhausted HBV-specific T cells in chronic HBV (PD-1, TIM-3, LAG-3 upregulation)</span>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Disease Spectrum — Chronic Hepatitis B Phases</h4>
+          <table class="path-table">
+            <tr><th>Phase</th><th>HBeAg / HBV DNA</th><th>ALT / Histology</th><th>Clinical significance</th></tr>
+            <tr><td>Acute hepatitis B</td><td>HBsAg+, HBeAg+, HBV DNA high</td><td>ALT often &gt;1,000 IU/L; lobular inflammation, spotty necrosis</td><td>&gt;95% adults self-resolve; fulminant hepatic failure rare (&lt;1%)</td></tr>
+            <tr><td>HBeAg+ immune tolerant</td><td>HBeAg+; DNA &gt;10&#8311; IU/mL</td><td>Normal ALT; minimal histology</td><td>Perinatal acquisition; low immediate fibrosis risk; treatment usually not indicated; long phase in Asians</td></tr>
+            <tr><td>HBeAg+ immune active</td><td>HBeAg+; DNA high</td><td>Elevated ALT; active hepatitis, fibrosis</td><td>Progressive fibrosis risk; antiviral therapy indicated</td></tr>
+            <tr><td>HBeAg&minus; immune inactive (low replication)</td><td>HBeAg&minus;; DNA &lt;2,000 IU/mL</td><td>Normal ALT; minimal histology</td><td>Favourable; monitor every 6–12 months; low fibrosis progression</td></tr>
+            <tr><td>HBeAg&minus; immune active (preCore/BCP mutant)</td><td>HBeAg&minus;; DNA moderate–high (&gt;2,000 IU/mL)</td><td>Elevated ALT; active hepatitis; fibrosis progression</td><td>HBeAg-negative variant — preCore A1896 and BCP mutations abolish HBeAg; most common chronic HBV globally; treat</td></tr>
+            <tr><td>Cirrhosis (Metavir F4)</td><td>Variable</td><td>Variable ALT; bridging fibrosis/cirrhosis</td><td>Portal hypertension; oesophageal varices; ascites; SBP; HRS; hepatic encephalopathy; 15–20% annual mortality (decompensated)</td></tr>
+            <tr><td>Hepatocellular carcinoma (HCC)</td><td>Any</td><td>Often elevated AFP + liver mass on US/CT/MRI</td><td>20–30% of cirrhotics over lifetime; can arise in non-cirrhotics; 6-monthly US surveillance standard</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Treatment &amp; Prevention</h4>
+          <table class="detail-table">
+            <tr><td>Tenofovir (TDF / TAF)</td><td>Tenofovir disoproxil fumarate (TDF) and tenofovir alafenamide (TAF) are first-line NRTIs. TAF achieves equivalent HBV DNA suppression at 10&times; lower plasma tenofovir concentrations — less renal and bone toxicity. Both are potent HBV polymerase RT inhibitors; high barrier to resistance (no resistance mutations reported for TDF/TAF after 10+ years). Used indefinitely in most chronic HBV patients requiring treatment.</td></tr>
+            <tr><td>Entecavir (ETV)</td><td>Cyclopentyl guanosine analogue; potent HBV polymerase inhibitor; high barrier to resistance in treatment-na&iuml;ve patients; first-line option alongside tenofovir. Reduced efficacy if lamivudine resistance present (YMDD mutations). Equivalent to TDF in long-term outcomes.</td></tr>
+            <tr><td>Pegylated interferon-&alpha; (Peg-IFN)</td><td>Immunomodulatory + antiviral; finite 48-week course; achieves HBsAg loss (&ldquo;functional cure&rdquo;) in ~3–7% of treated HBeAg+ patients (highest in genotype A/B); limited by significant side effects (flu-like syndrome, cytopenias, neuropsychiatric). Only option with defined treatment duration; off-treatment response possible.</td></tr>
+            <tr><td>Bulevirtide (Hepcludex)</td><td>EMA-approved (2020) for chronic HDV co-infection. Synthetic preS1 myristoylated lipopeptide that competitively inhibits LHBsAg binding to NTCP — first-in-class HBV/HDV entry inhibitor. Under investigation for HBV monoinfection in combination with other agents.</td></tr>
+            <tr><td>Functional cure strategies</td><td>HBsAg loss (&plusmn; anti-HBs seroconversion) — the current practical treatment endpoint — achieved in ~1% of NA-treated patients/year. Novel pipeline: capsid assembly modulators (CAMs; block pgRNA encapsidation); siRNA/antisense oligonucleotides targeting HBsAg mRNA; cccDNA-targeting strategies (CRISPR, SMAD inhibitors); toll-like receptor agonists (TLR7/8 — innate immune reactivation); therapeutic vaccines. Multiple Phase II/III trials ongoing as of 2026.</td></tr>
+            <tr><td>HBV vaccine</td><td>3-dose recombinant HBsAg series (0, 1, 6 months); anti-HBs &ge;10 mIU/mL = protective. Neonates born to HBsAg+ mothers receive vaccine + HBIG within 12 hours of birth &rarr; reduces perinatal transmission by ~95%. Taiwan universal infant vaccination programme (from 1984) achieved 90% reduction in childhood HCC after two decades (Chang et al., <em>NEJM</em> 1997) — the first vaccine proven to prevent human cancer. Universal infant vaccination now WHO policy globally.</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Connections</h4>
+          <div class="connections">
+            <a class="conn-pill infects" href="hepatocyte.html"><span class="rel">Infects</span>Hepatocyte (preS1/NTCP; exclusive target cell)</a>
+            <a class="conn-pill infects" href="liver.html"><span class="rel">Infects</span>Liver (cccDNA persists in all zones of hepatic lobule)</a>
+            <a class="conn-pill infects" href="digestive-system.html"><span class="rel">Infects</span>Digestive system (liver as dominant accessory organ)</a>
+            <a class="conn-pill damages" href="hepatocyte.html"><span class="rel">Damages</span>Hepatocyte (CD8+ CTL immune lysis; HBx oncogenic transformation)</a>
+            <a class="conn-pill damages" href="liver.html"><span class="rel">Damages</span>Liver (fibrosis F0&rarr;F4; cirrhosis; HCC)</a>
+            <a class="conn-pill targets" href="immunoglobulin-g.html"><span class="rel">Target of</span>IgG anti-HBs (&ge;10 mIU/mL; vaccine correlate)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
           <ul class="refs">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/14325610/" target="_blank" rel="noopener noreferrer">Blumberg BS, Alter HJ, Visnich S. A 'new' antigen in leukemia sera. JAMA. 1965;191(7):541-6.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/14325610/" target="_blank" rel="noopener noreferrer">PubMed 14325610</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMra1700786" target="_blank" rel="noopener noreferrer">Lok AS, McMahon BJ, Brown RS Jr, et al. Antiviral therapy for chronic hepatitis B viral infection in adults: a systematic review and meta-analysis. Hepatology. 2016;63(1):284-306. [Review reference: Lok AS. Hepatitis B. N Engl J Med. 2017.]</a></li>
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/9187068/" target="_blank" rel="noopener noreferrer">Chang MH, Chen CJ, Lai MS, et al. Universal hepatitis B vaccination in Taiwan and the incidence of hepatocellular carcinoma in children. N Engl J Med. 1997;336(26):1855-9.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9187068/" target="_blank" rel="noopener noreferrer">PubMed 9187068</a></li>
-            <li><a href="https://doi.org/10.7554/eLife.00049" target="_blank" rel="noopener noreferrer">Yan H, Zhong G, Xu G, et al. Sodium taurocholate cotransporting polypeptide is a functional receptor for human hepatitis B and D virus. eLife. 2012;1:e00049.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23150796/" target="_blank" rel="noopener noreferrer">PubMed 23150796</a></li>
+            <li>Blumberg BS, Alter HJ, Visnich S. A &ldquo;new&rdquo; antigen in leukemia sera. <em>JAMA.</em> 1965;191(7):541–6. PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/14325610/" target="_blank" rel="noopener">14325610</a></li>
+            <li>Yan H, Zhong G, Xu G, et al. Sodium taurocholate cotransporting polypeptide is a functional receptor for human hepatitis B and D virus. <em>eLife.</em> 2012;1:e00049. <a href="https://doi.org/10.7554/eLife.00049" target="_blank" rel="noopener">doi:10.7554/eLife.00049</a> &middot; PubMed 23150796</li>
+            <li>Chang MH, Chen CJ, Lai MS, et al. Universal hepatitis B vaccination in Taiwan and the incidence of hepatocellular carcinoma in children. <em>N Engl J Med.</em> 1997;336(26):1855–9. PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/9187068/" target="_blank" rel="noopener">9187068</a></li>
+            <li>Lok AS. Hepatitis B. <em>N Engl J Med.</em> 2002;346(22):1682–3. (See also: Lok AS, McMahon BJ. Chronic hepatitis B. <em>Hepatology.</em> 2007;45(2):507–39.) <a href="https://doi.org/10.1002/hep.21513" target="_blank" rel="noopener">doi:10.1002/hep.21513</a> &middot; PubMed 17256718</li>
+            <li>Marcellin P, Gane E, Buti M, et al. Regression of cirrhosis during treatment with tenofovir disoproxil fumarate for chronic hepatitis B: a 5-year open-label follow-up study. <em>Lancet.</em> 2013;381(9865):468–75. <a href="https://doi.org/10.1016/S0140-6736(12)61425-1" target="_blank" rel="noopener">doi:10.1016/S0140-6736(12)61425-1</a> &middot; PubMed 23234725</li>
+            <li>Terrault NA, Lok ASF, McMahon BJ, et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance. <em>Hepatology.</em> 2018;67(4):1560–99. <a href="https://doi.org/10.1002/hep.29803" target="_blank" rel="noopener">doi:10.1002/hep.29803</a> &middot; PubMed 29405329</li>
           </ul>
         </div>
 
       </div>
+    </div><!-- /.detail-card -->
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers HBV biology, NTCP entry, cccDNA persistence, HBx oncogenesis, chronic hepatitis B phases, and approved/pipeline therapies. Planned expansions: detailed cccDNA chromatin structure, HDV co-infection biology, and HBV cure pipeline modelling. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=HBV%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
     </div>
+
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gram-positive anaerobic spore-forming rod; reclassified from Clostridium in 2016. Causes antibiotic-associated colitis via TcdA/TcdB glucosyltransferase toxins ">
-  <meta property="og:title" content="Clostridioides difficile — Human Engineering">
+  <meta name="description" content="Clostridioides difficile — Atlas Two Pathogen entry. TcdA/TcdB glucosyltransferase toxins, Rho GTPase mechanism, NAP1/027 hypervirulent ribotype, FMT, fidaxomicin. Part of the Human Engineering project.">
+  <meta property="og:title" content="Clostridioides difficile — Human Engineering Pathogen Atlas">
+  <meta property="og:description" content="C. diff: spore biology, TcdA/TcdB Rho GTPase glucosylation, pseudomembranous colitis, NAP1/027, fidaxomicin, FMT, bezlotoxumab.">
   <meta name="theme-color" content="#f2f2f7">
   <title>Clostridioides difficile — Human Engineering</title>
   <style>
@@ -13,83 +14,84 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #92400e;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(146,64,14,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 22ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.danger { border-left-color: #dc2626; }
+    .mech-item.immune { border-left-color: var(--ai); }
+    .mech-item.latent { border-left-color: var(--accent); }
+    .mech-item.drug   { border-left-color: var(--bio); }
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
+    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
+    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
+    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.infects .rel { color: var(--ai); }
+    .conn-pill.damages .rel { color: #dc2626; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
     .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -100,98 +102,212 @@
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a href="index.html" class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        Human Engineering
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="index.html#mission">Mission</a>
+      <a href="index.html#scales">Scales</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="index.html#join">Join</a>
+      <a href="pathogens.html" class="nav-back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        Pathogens
       </a>
-      <div class="nav-links">
-        <a href="index.html#mission">Mission</a>
-        <a href="pathogens.html">Pathogens</a>
-        <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
-        </a>
-      </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 02-bacteria</div>
-    <h1>Clostridioides difficile</h1>
-    <p class="tagline">Gram-positive anaerobic spore-forming rod; reclassified from Clostridium in 2016. Causes antibiotic-associated colitis via TcdA/TcdB glucosyltransferase toxins and binary toxin (CDT). NAP1/027 hypervirulent ribotype; FMT ~90% effective for recurrent CDI.</p>
-    <p class="aliases">Also known as: C. difficile, C. diff, Clostridium difficile, CDI, CDAD, NAP1/027 strain</p>
-    <div class="stat-row">
-        <div class="stat"><span class="stat-num">02-bacteria</span><span class="stat-label">Class</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+<div class="hero">
+  <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Bacteria</div>
+  <h1><em>Clostridioides difficile</em></h1>
+  <p class="tagline">The spore-armoured hospital pathogen. Antibiotic-disrupted microbiome, two glucosyltransferase toxins, and a destroyed colonic epithelium — C. diff causes 500,000 US infections and 30,000 deaths annually.</p>
+  <p class="subtagline">Reclassified from <em>Clostridium</em> in 2016, this obligate anaerobe survives outside the host as alcohol-resistant endospores that persist on surfaces for months. Disease arises almost exclusively when antibiotics collapse colonisation resistance. TcdA and TcdB glucosylate Rho GTPases, destroying the colonic epithelium. The hypervirulent NAP1/B1/027 ribotype amplifies toxin output via a mutated negative regulator and adds binary toxin CDT, driving outbreaks with elevated mortality and recurrence.</p>
+  <div class="stat-row">
+    <div class="stat"><span class="stat-num">~500K</span><span class="stat-label">US infections / year</span></div>
+    <div class="stat"><span class="stat-num">~30K</span><span class="stat-label">US deaths / year</span></div>
+    <div class="stat"><span class="stat-num">15–35%</span><span class="stat-label">Recurrence after 1st episode</span></div>
+    <div class="stat"><span class="stat-num">~90%</span><span class="stat-label">FMT cure rate (rCDI)</span></div>
+    <div class="stat"><span class="stat-num">19.6 kb</span><span class="stat-label">PaLoc pathogenicity island</span></div>
+  </div>
+</div>
+
+<main>
+
+  <div class="detail-card" id="c-difficile">
+    <div class="detail-header" style="background: linear-gradient(135deg, #92400e, #78350f);">
+      <div class="entry-eyebrow">Clostridiaceae &middot; Gram-positive obligate anaerobic spore-forming rod &middot; 3–5 &micro;m</div>
+      <h3><em>Clostridioides difficile</em></h3>
+      <p class="summary">Obligate anaerobic Gram-positive spore-forming rod; dominant cause of healthcare-associated infectious diarrhoea in high-income countries. The 19.6 kb pathogenicity locus (PaLoc) encodes TcdA (309 kDa enterotoxin) and TcdB (270 kDa cytotoxin) — both glucosyltransferases that inactivate Rho GTPases by UDP-glucose transfer onto Thr37 of RhoA, locking them in their GDP-inactive form and collapsing the actin cytoskeleton, tight junctions, and epithelial barrier. Disease arises almost exclusively in antibiotic-disrupted colonic microbiota. The NAP1/B1/027 hypervirulent ribotype carries a tcdC deletion (loss of negative regulation &rarr; 16&ndash;23&times; higher toxin output), binary toxin CDT (ADP-ribosylates actin &rarr; enhanced bacterial adhesion), and fluoroquinolone resistance &mdash; the combination driving early-2000s outbreaks. Spores resist alcohol hand gels and most disinfectants; only soap-and-water and bleach are effective.</p>
+    </div>
+
+    <div class="detail-body">
+
+      <div class="detail-section">
+        <h4>Classification &amp; Structure</h4>
+        <table class="detail-table">
+          <tr><td>Gram stain</td><td>Gram-positive (thick peptidoglycan; may appear Gram-variable in older cultures or stationary phase)</td></tr>
+          <tr><td>Morphology</td><td>Straight to slightly curved rod, 3–5 &micro;m &times; 0.5 &micro;m; white/off-white "ground glass" irregular colonies on CCFA selective agar; characteristic horse-manure odour from p-cresol production</td></tr>
+          <tr><td>Motility</td><td>Peritrichous flagella; motile in reduced liquid media; non-motile in sporulation phase</td></tr>
+          <tr><td>Toxins</td><td>TcdA (309 kDa glucosyltransferase enterotoxin) and TcdB (270 kDa glucosyltransferase cytotoxin) encoded on PaLoc; binary toxin CDT (CdtA ADP-ribosyltransferase + CdtB binding subunit on LSR receptor) in NAP1/027 and ribotype 078 strains only</td></tr>
+          <tr><td>Spores</td><td>Oval, subterminal endospores; resistant to alcohol gel, heat, desiccation, and most disinfectants; survive months on environmental surfaces; not killed by gastric acid; killed by autoclaving (121&deg;C, 15 min) or sodium hypochlorite &ge;0.5%</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Pathogenesis</h4>
+        <div class="mech-list">
+          <div class="mech-item latent">
+            <h5>1 &middot; Antibiotic-CDI cascade — microbiome collapse</h5>
+            <p>CDI requires antibiotic-disrupted colonisation resistance. Clindamycin, fluoroquinolones, 3rd-generation cephalosporins, and broad-spectrum penicillins (in descending order of risk) deplete Bacteroidetes and Lachnospiraceae. <em>Clostridium scindens</em> and related secondary bile acid producers are eliminated; primary bile acid taurocholate accumulates and stimulates spore germination. <em>C. difficile</em> colonises the vacated niche and produces toxins. Even a single perioperative antibiotic dose can precipitate CDI in susceptible hosts (&gt;65 years, prior CDI, PPI use, IBD, immunosuppression).</p>
+          </div>
+          <div class="mech-item danger">
+            <h5>2 &middot; TcdB receptor binding — the dominant cytotoxin</h5>
+            <p>TcdB (270 kDa) binds Frizzled receptors (FZD1, FZD2, FZD7), PVRL3 (nectin-3), and CSPG4 on colonocytes with 10&ndash;1,000&times; higher potency than TcdA in human colonic epithelium. Receptor-mediated endocytosis delivers TcdB to late endosomes; acidic pH (pH 4–5) drives conformational change of the hydrophobic loop &rarr; pore formation &rarr; translocation of the N-terminal glucosyltransferase domain into the cytosol. TcdA uses carbohydrate receptors with the same subsequent mechanism.</p>
+          </div>
+          <div class="mech-item danger">
+            <h5>3 &middot; Rho GTPase glucosylation — cytoskeletal collapse</h5>
+            <p>Both TcdA and TcdB transfer UDP-glucose onto <strong>Thr37 of RhoA</strong> (and Thr35 of Rac1, Cdc42). This mono-O-glucosylation sterically blocks guanine exchange factor (GEF) binding, locking Rho GTPases in their GDP-inactive form. Downstream: F-actin depolymerisation, stress fibre loss, cell rounding, tight junction breakdown, and colonocyte apoptosis &rarr; epithelial barrier failure &rarr; diarrhoea. TcdB additionally activates the Pyrin inflammasome via RHOA glucosylation (Pyrin de-repression &rarr; IL-1&beta;/IL-18 maturation), driving intense mucosal inflammation and neutrophil recruitment.</p>
+          </div>
+          <div class="mech-item danger">
+            <h5>4 &middot; Binary toxin CDT — actin ADP-ribosylation and enhanced adhesion (NAP1/027)</h5>
+            <p>CdtA (ADP-ribosyltransferase) ADP-ribosylates actin at Arg177, sequestering G-actin and depolymerising F-actin. CdtB (binding component) docks on LSR receptor on colonocytes. CDT-mediated actin disruption paradoxically induces <strong>microtubule-dependent protrusions</strong> from the bacterial surface, dramatically increasing bacterial adhesion to colonocyte surfaces despite actin loss &mdash; explaining the higher virulence and colonisation persistence of CDT-positive strains.</p>
+          </div>
+          <div class="mech-item immune">
+            <h5>5 &middot; Immune evasion — spore biology and IgG threshold</h5>
+            <p>Spores resist neutrophil and macrophage killing, alcohol hand gels, and standard disinfectants. Only soap-and-water mechanically removes spores from skin; bleach solutions decontaminate surfaces. Patients with low serum anti-TcdA/TcdB IgG titres develop symptomatic CDI; high titres (from prior exposure or natural immunity) correlate with asymptomatic colonisation. This immunological threshold is the rationale for bezlotoxumab (anti-TcdB monoclonal antibody) as adjunct therapy.</p>
+          </div>
+          <div class="mech-item drug">
+            <h5>6 &middot; NAP1/027 hypervirulence — tcdC deletion removes toxin brake</h5>
+            <p>TcdC is an anti-sigma factor that negatively regulates TcdR-driven tcdA/tcdB transcription. In NAP1/B1/027, a 39-bp tcdC deletion plus a single-base frameshift produce truncated, non-functional TcdC, removing the negative regulatory brake and yielding 16&ndash;23&times; higher TcdB output in vitro. Combined with CDT and fluoroquinolone resistance (gyrA/gyrB mutations), this ribotype drove epidemic spread with elevated mortality and recurrence rates in healthcare facilities worldwide.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>Host Immune Response</h4>
+        <div class="immune-tags">
+          <span class="itag innate">Colonisation resistance — commensal microbiome (primary innate defence)</span>
+          <span class="itag innate">Secondary bile acids (deoxycholate, lithocholate) — inhibit vegetative growth</span>
+          <span class="itag innate">Colonocyte NF-&kappa;B &rarr; IL-8/CXCL8 &rarr; intense neutrophilic mucosal infiltration</span>
+          <span class="itag innate">TcdB &rarr; Pyrin inflammasome &rarr; IL-1&beta;/IL-18 &rarr; pseudomembrane formation</span>
+          <span class="itag innate">Butyrate from commensals &rarr; maintains colonocyte tight junctions</span>
+          <span class="itag adaptive">Serum anti-TcdA/TcdB IgG — correlates with protection against symptomatic CDI and recurrence</span>
+          <span class="itag adaptive">Secretory IgA against <em>C. difficile</em> colonisation factors</span>
+          <span class="itag depleted">Antibiotic-depleted microbiome — collapse of colonisation resistance (CDI prerequisite)</span>
+          <span class="itag depleted">Spore resistance to phagocyte killing and alcohol disinfection</span>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>Disease Spectrum</h4>
+        <table class="path-table">
+          <tr><th>Presentation</th><th>Severity</th><th>At-Risk Groups</th><th>Mortality</th></tr>
+          <tr>
+            <td>Asymptomatic colonisation</td>
+            <td>PCR/GDH positive; &ge;3 loose stools absent; no treatment needed; infection control required</td>
+            <td>Hospitalised; antibiotic-exposed; neonates (colonised but clinically tolerant due to absent TcdB receptors)</td>
+            <td>0%</td>
+          </tr>
+          <tr>
+            <td>Non-severe CDI</td>
+            <td>&ge;3 loose/watery stools per 24h; WBC &le;15,000/&micro;L; serum creatinine &lt;1.5&times; baseline; no shock</td>
+            <td>Any antibiotic-exposed patient; age &gt;65; PPI use; IBD; concurrent hospitalisation</td>
+            <td>&lt;1%</td>
+          </tr>
+          <tr>
+            <td>Severe CDI (pseudomembranous colitis)</td>
+            <td>WBC &gt;15,000/&micro;L or creatinine &ge;1.5&times; baseline; colonoscopy reveals 2–10 mm yellow-white pseudomembranes (fibrin, mucus, necrotic cells, neutrophils)</td>
+            <td>Elderly; immunosuppressed; NAP1/027 strain; IBD; renal failure; low anti-TcdB IgG</td>
+            <td>5–10%</td>
+          </tr>
+          <tr>
+            <td>Fulminant CDI</td>
+            <td>Hypotension/shock; ileus (paradoxically reduced diarrhoea as gut paralysed); toxic megacolon (&gt;6 cm transverse colon on plain film); CT: colonic wall thickening, pericolonic fat stranding, ascites</td>
+            <td>Same as severe plus recent immunosuppressants; organ transplant; malignancy</td>
+            <td>30–50%</td>
+          </tr>
+          <tr>
+            <td>Recurrent CDI (rCDI)</td>
+            <td>CDI within 8 weeks of prior episode (same or different strain); 15–35% recur after 1st episode; ~60% after 2nd; driven by incomplete microbiome recovery and persistent environmental spores</td>
+            <td>&ge;65 years; prior CDI; NAP1/027; ongoing antibiotics; low anti-TcdB IgG; immunosuppression; prior healthcare exposure</td>
+            <td>Cumulative mortality rises with each recurrence</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Treatment &amp; Prophylaxis</h4>
+        <table class="detail-table">
+          <tr><td>Fidaxomicin (preferred 1st line)</td><td>Narrow-spectrum macrocyclic lactone RNA polymerase inhibitor (distinct site from rifamycins); minimal impact on Bacteroidetes (preserves colonisation resistance recovery); reduces spore shedding vs. vancomycin; ~40% relative reduction in recurrence (pivotal RCTs); dose 200 mg PO twice daily &times; 10 days; extended pulse-taper regimen for recurrence; FDA-approved first and second line.</td></tr>
+          <tr><td>Vancomycin oral (alternative/fulminant)</td><td>Non-absorbed glycopeptide; inhibits cell wall peptidoglycan cross-linking; 125 mg PO QID &times; 10 days (non-severe/severe); 500 mg QID for fulminant + IV metronidazole; vancomycin taper-pulse regimen (125 mg QID &times; 10d &rarr; taper over 6 weeks) for recurrence prevention.</td></tr>
+          <tr><td>Metronidazole IV (adjunct)</td><td>Adjunct for fulminant CDI only (500 mg IV TID alongside oral/NG vancomycin); no longer recommended as monotherapy (inferior efficacy vs. vancomycin/fidaxomicin in trials).</td></tr>
+          <tr><td>FMT — Faecal Microbiota Transplant</td><td>Restores colonisation resistance via screened-donor microbiome engraftment; ~85–90% cure rate for &ge;2nd recurrence; routes: colonoscopy (highest efficacy), nasogastric tube, oral capsule (equivalent efficacy in RCTs). FDA-approved live biotherapeutics: SER-109 (oral spore-based product; 2023), RBX2660 (enema-based; 2023).</td></tr>
+          <tr><td>Bezlotoxumab (recurrence prevention)</td><td>Human monoclonal IgG1 antibody targeting TcdB binding domain; single IV infusion 10 mg/kg concurrent with antibiotic therapy; reduces recurrence by ~40% in high-risk patients (&ge;65 years, NAP1/027 strain, severe CDI, prior CDI episode, immunosuppression); FDA-approved 2016.</td></tr>
+          <tr><td>Resistance profile</td><td>Metronidazole MIC creep documented (reduced susceptibility without formal resistance); fidaxomicin resistance rare (rpoB mutations); vancomycin resistance not clinically significant in <em>C. difficile</em>; fluoroquinolone resistance common in NAP1/027 (gyrA/gyrB mutations &mdash; major contributor to epidemic spread).</td></tr>
+          <tr><td>Infection control</td><td>Contact precautions (gown + gloves) for duration of diarrhoea; private room or CDI cohorting; soap-and-water handwashing (alcohol gel insufficient for spore removal); sodium hypochlorite (0.5% minimum) surface decontamination; prolonged precautions (&ge;48h after diarrhoea resolution &mdash; many guidelines recommend for full hospitalisation); antibiotic stewardship is the single most impactful prevention intervention.</td></tr>
+        </table>
+      </div>
+
+      <div class="detail-section">
+        <h4>Connections</h4>
+        <div class="connections">
+          <a class="conn-pill infects" href="intestinal-epithelium.html"><span class="rel">Infects</span>Intestinal epithelium — TcdA/TcdB Rho GTPase glucosylation</a>
+          <a class="conn-pill damages" href="digestive-system.html"><span class="rel">Damages</span>Digestive system — pseudomembranous colitis, toxic megacolon</a>
+          <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system — microbiome colonisation resistance</a>
+          <a class="conn-pill damages" href="neutrophil.html"><span class="rel">Damages</span>Neutrophil — CDT actin protrusion evasion</a>
+        </div>
+      </div>
+
+      <div class="detail-section">
+        <h4>References</h4>
+        <ul class="refs">
+          <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020. <a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener">elsevier.com</a></li>
+          <li>Murray PR, Rosenthal KS, Pfaller MA. <em>Medical Microbiology.</em> 9th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener">elsevier.com</a></li>
+          <li>McDonald LC, Gerding DN, Johnson S, et al. Clinical Practice Guidelines for <em>Clostridium difficile</em> Infection in Adults and Children: 2017 Update by IDSA and SHEA. <em>Clin Infect Dis.</em> 2018;66(7):e1-e48. <a href="https://doi.org/10.1093/cid/cix1085" target="_blank" rel="noopener">doi:10.1093/cid/cix1085</a> &middot; PubMed 29462280</li>
+          <li>Aktories K, Schwan C, Jank T. Clostridium difficile Toxin Biology. <em>Annu Rev Microbiol.</em> 2017;71:281-307. <a href="https://doi.org/10.1146/annurev-micro-090816-093458" target="_blank" rel="noopener">doi:10.1146/annurev-micro-090816-093458</a> &middot; PubMed 28697672</li>
+          <li>Buffie CG, Bucci V, Stein RR, et al. Precision microbiome modulation with discrete dietary fiber structures directs short-chain fatty acid production. <em>Nature.</em> 2015;517(7533):205-8. <a href="https://doi.org/10.1038/nature13828" target="_blank" rel="noopener">doi:10.1038/nature13828</a> &middot; PubMed 25337874</li>
+          <li>Wilcox MH, Gerding DN, Poxton IR, et al. Bezlotoxumab for Prevention of Recurrent <em>Clostridium difficile</em> Infection. <em>N Engl J Med.</em> 2017;376(4):305-317. <a href="https://doi.org/10.1056/NEJMoa1602615" target="_blank" rel="noopener">doi:10.1056/NEJMoa1602615</a> &middot; PubMed 28121498</li>
+        </ul>
+      </div>
+
+    </div>
+  </div><!-- /.detail-card -->
+
+  <div class="contribute">
+    <h2>Contribute to the Pathogen Atlas</h2>
+    <p>This entry covers <em>C. difficile</em> biology, toxin mechanism, and current treatment. Planned expansions include SER-109 microbiome engraftment data, CRISPR-based diagnostics, and spore germination signal transduction. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+        Contribute on GitHub
+      </a>
+      <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=C.%20difficile%20Atlas%20entry">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in touch
+      </a>
     </div>
   </div>
 
-  <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
+</main>
 
-    <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">clostridioides-difficile</div>
-        <h2>Clostridioides difficile</h2>
-        <p class="summary">Gram-positive anaerobic spore-forming rod; reclassified from Clostridium in 2016. Causes antibiotic-associated colitis via TcdA/TcdB glucosyltransferase toxins and binary toxin (CDT). NAP1/027 hypervirulent ribotype; FMT ~90% effective for recurrent CDI.</p>
-      </div>
-      <div class="detail-body">
+<footer>
+  <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#mission">Mission</a>
+    <a href="pathogens.html">Pathogens</a>
+    <a href="medicine.html">Medicine</a>
+    <a href="index.html#join">Join</a>
+    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+</footer>
 
-        <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>clostridioides-difficile</td></tr>
-            <tr><td>Name</td><td>Clostridioides difficile</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Class</td><td>02-bacteria</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="intestinal-epithelium.html" title="TcdA and TcdB bind colonocyte receptors (FZD/PVRL3 for TcdB) → Rho GTPase glucosylation → tight junction disruption, cytoskeletal collapse, colonocyte apoptosis → epithelial barrier failure → diarrhoea and pseudomembranous colitis."><span class="rel">infects</span>Intestinal Epithelium</a>
-            <a class="conn-pill damaged" href="digestive-system.html" title="C. difficile overgrows after antibiotic-induced microbiome disruption; TcdA/B destroy colonic epithelium → pseudomembranous colitis (yellow-white plaques), toxic megacolon, perforation; NAP1/027 (↑toxin output) → ↑mortality and recurrence."><span class="rel">damages</span>Digestive System</a>
-            <a class="conn-pill damaged" href="immune-system.html" title="Colonisation resistance (commensal microbiome competition) is the primary defence; antibiotic exposure depletes this defence. Spores survive alcohol hand gel. Anti-TcdA/TcdB serum IgG correlates with protection against recurrent CDI."><span class="rel">damages</span>Immune System</a>
-            <a class="conn-pill damaged" href="neutrophil.html" title="TcdA stimulates IL-8/CXCL8 from colonocytes and macrophages → intense neutrophilic mucosal infiltration (acute-phase response); CDT binary toxin promotes neutrophil evasion by inducing microtubule-dependent actin protrusions on bacterial surface."><span class="rel">damages</span>Neutrophil</a>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sources</h3>
-          <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
-            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
