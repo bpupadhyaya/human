@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TGF-β — transforming growth factor beta signaling: SMAD2/3 canonical pathway, non-SMAD pathways, fibrosis, EMT, tumor suppression, cancer paradox, galunisertib, fresolimumab, bintrafusp alfa. Human Engineering Atlas.">
+  <meta property="og:title" content="TGF-β — Human Engineering Atlas">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>TGF-β — Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#7c3aed;--accent-soft:rgba(124,58,237,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#f5f0ff 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:110px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="fibrosis.html">Fibrosis</a>
+      <a href="nlrp3-inflammasome.html">NLRP3</a>
+      <a href="medicine.html">Medicine</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Atlas One · Molecular / Signaling · Scale L02 · Pleiotropic Cytokine</p>
+    <h1>TGF-β — <span>Transforming Growth Factor Beta</span></h1>
+    <p class="hero-lead">A pleiotropic cytokine superfamily whose most abundant member, TGF-β1, orchestrates wound healing, fibrosis, immune suppression, epithelial-mesenchymal transition, and paradoxically acts as both a tumor suppressor in early carcinogenesis and a tumor promoter in advanced cancer — driven primarily through SMAD2/3 canonical signaling and multiple non-SMAD pathways.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span><strong>Gene:</strong> TGFB1 (chr 19q13.2)</span>
+  <span><strong>Scale:</strong> L02 Molecular / Signaling</span>
+  <span><strong>System:</strong> Multi-system</span>
+  <span><strong>Type:</strong> Cytokine / growth factor</span>
+  <span><strong>Reviewed:</strong> 2026-06-05</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="family">
+    <h2>TGF-β Superfamily and Structure</h2>
+    <p>The TGF-β superfamily is the largest family of secreted signaling proteins in metazoans, comprising <strong>33 members in humans</strong>. Members share a conserved C-terminal "cystine knot" growth factor domain (~110 amino acids, 7 invariant cysteines) and signal through heteromeric serine/threonine kinase receptor complexes. Major branches:</p>
+    <table>
+      <thead><tr><th>Subfamily</th><th>Members</th><th>Key Functions</th></tr></thead>
+      <tbody>
+        <tr><td><strong>TGF-β</strong></td><td>TGF-β1, TGF-β2, TGF-β3</td><td>Fibrosis, immune suppression, wound healing, EMT; all three signal via ALK5/TβRII → SMAD2/3. TGF-β1 most abundant and widely expressed; TGF-β3 important in palatogenesis (cleft palate when absent); TGF-β2 in eye/cardiac development</td></tr>
+        <tr><td><strong>BMPs</strong> (bone morphogenetic proteins)</td><td>BMP2, BMP4, BMP5–9, BMP15 (20 members)</td><td>Osteogenesis, cartilage formation, neural patterning (BMP4 — dorso-ventral axis), vascular regulation (BMP9/10 — hepatic ligands for ALK1/ENG); signal via ALK1/2/3/6 → SMAD1/5/8</td></tr>
+        <tr><td><strong>Activins</strong></td><td>Activin A, B, AB, C, E</td><td>FSH secretion (gonadotropin regulation), erythropoiesis, wound healing, inflammatory modulation; signal via ALK4 → SMAD2/3</td></tr>
+        <tr><td><strong>GDFs</strong> (growth and differentiation factors)</td><td>GDF5/6/7 (joint/tendon formation), GDF8/myostatin (muscle mass suppressor), GDF11 (aging), GDF15 (stress cytokine, cachexia)</td><td>Musculoskeletal development; GDF8/myostatin inhibits skeletal muscle growth via ActRIIB → ALK4/5 → SMAD2/3; GDF15 elevated in cancer cachexia, heart failure, metformin treatment</td></tr>
+        <tr><td><strong>AMH / MIS</strong></td><td>Anti-Müllerian hormone</td><td>Regression of Müllerian ducts in male fetal development; clinical marker for ovarian reserve</td></tr>
+        <tr><td><strong>Nodal</strong></td><td>Nodal</td><td>Left-right body axis determination, mesoderm induction; signals via ALK4/7 + EGF-CFC co-receptor → SMAD2/3</td></tr>
+      </tbody>
+    </table>
+
+    <h3>TGF-β1 Protein Structure and Latency</h3>
+    <p>TGF-β1 is synthesized as a 390 amino acid precursor (pre-pro-TGF-β1). The signal peptide is cleaved, yielding pro-TGF-β1; furin in the trans-Golgi cleaves the prodomain (latency-associated peptide, LAP) from the growth factor domain, but the two remain noncovalently associated as the <strong>small latent complex (SLC)</strong> — a disulfide-linked homodimer of mature TGF-β1 with its LAP. LAP wraps around the growth factor domain and sterically blocks receptor binding. The SLC is additionally disulfide-linked to LTBP-1, -3, or -4 (latent TGF-β binding proteins) to form the <strong>large latent complex (LLC)</strong>, which is secreted and sequestered in the ECM via LTBP's fibronectin/fibrillin-1 binding domains.</p>
+    <p><strong>Latent TGF-β activation</strong> — the step that determines when and where TGF-β signals — occurs via multiple mechanisms:</p>
+    <ul>
+      <li><strong>Integrin αvβ6</strong> (on epithelial cells, especially injured lung/kidney epithelium): RGDLXXL motif in LAP binds integrin → cell-generated traction force deforms LAP → release of active TGF-β; most important mechanism in lung fibrosis (IPF)</li>
+      <li><strong>Integrin αvβ8</strong> (on astrocytes, dendritic cells): Presents latent TGF-β to MT1-MMP at cell surface for proteolytic cleavage</li>
+      <li><strong>MMP-2 and MMP-9</strong>: Cleave LAP at specific sites to release active TGF-β; important in tumor microenvironment and wound healing</li>
+      <li><strong>Thrombospondin-1 (TSP-1)</strong>: Binds LSKL motif in LAP → conformational change → active TGF-β; important in platelets and endothelial cells during injury</li>
+      <li><strong>Extreme pH and ROS:</strong> Acidic conditions (tumor microenvironment) and reactive oxygen species can directly unfold LAP</li>
+    </ul>
+  </div>
+
+  <div class="section" id="canonical">
+    <h2>Canonical SMAD Signaling</h2>
+    <p>The canonical TGF-β pathway is defined by the activation of receptor-regulated SMADs (R-SMADs) following receptor kinase activation:</p>
+
+    <h3>Receptor Complex Assembly and Kinase Activation</h3>
+    <p>Active TGF-β1 homodimer binds the <strong>TGF-β type II receptor (TβRII)</strong> — a constitutively active serine/threonine kinase. TβRII-TGF-β1 complex recruits and transphosphorylates the <strong>TGF-β type I receptor (TβRI/ALK5)</strong> in the GS domain (Gly-Ser rich juxtamembrane region) at Ser/Thr residues. Active ALK5 phosphorylates R-SMADs.</p>
+    <p>Different type I receptors (ALKs) specify downstream SMAD pathway:</p>
+    <ul>
+      <li><strong>ALK5 (TβRI):</strong> Activated by TGF-β1/2/3 → phosphorylates SMAD2 and SMAD3 (fibrosis, EMT, immune suppression)</li>
+      <li><strong>ALK1:</strong> Activated by TGF-β1/BMP9/10 in endothelial cells → phosphorylates SMAD1/5/8 (pro-angiogenic; ALK1 mutations → hereditary hemorrhagic telangiectasia/HHT; endoglin/ENG is co-receptor)</li>
+      <li><strong>ALK2/3/6:</strong> BMP-specific ALKs → SMAD1/5/8 (bone formation, development)</li>
+      <li><strong>ALK4/7:</strong> Activin/Nodal receptors → SMAD2/3</li>
+    </ul>
+
+    <h3>SMAD Activation and Nuclear Signaling</h3>
+    <p>ALK5 phosphorylates SMAD2 at C-terminal SxS motif (Ser465/Ser467) and SMAD3 (Ser423/Ser425). Phosphorylated SMAD2/3 dissociate from the receptor → form heterotrimeric complexes with the co-SMAD <strong>SMAD4</strong> → nuclear import via importin-β3/α → binding to SMAD binding elements (SBE; CAGACA consensus) in target gene promoters → recruitment of co-activators (p300/CBP, PCAF histone acetyltransferases) or co-repressors (HDAC, Ski/SnoN) depending on cellular context.</p>
+    <p>Key TGF-β/SMAD target genes in fibrosis: COL1A1 (collagen Iα1), COL3A1, ACTA2 (α-SMA), CTGF/CCN2, FN1 (fibronectin), SERPINE1 (PAI-1), MMP-2/9 (paradoxically both induced and later suppressed by SMAD).</p>
+    <p>Key TGF-β/SMAD target genes in growth arrest: CDKN2B/p15 (CDK4/6 inhibitor) and CDKN1A/p21 (CDK2 inhibitor) — both strongly induced by SMAD3 → G1 cell cycle arrest. This is the tumor suppressor function of TGF-β.</p>
+
+    <h3>Inhibitory SMADs — Negative Feedback</h3>
+    <p><strong>SMAD7</strong> is the primary inhibitor of TGF-β/SMAD signaling. SMAD7 is a transcriptional target of TGF-β/SMAD3 itself — creating a negative feedback loop. SMAD7 acts by: (1) competing with R-SMADs for receptor interaction, preventing phosphorylation; (2) recruiting SMURF1 and SMURF2 (E3 ubiquitin ligases) to TβRI → ubiquitin-mediated receptor degradation; (3) recruiting PP1c phosphatase to dephosphorylate TβRI. In IPF and fibrotic disease, <strong>SMAD7 expression is reduced</strong>, removing this brake and sustaining TGF-β signaling. <strong>SMAD6</strong> preferentially inhibits BMP/SMAD1/5/8 signaling via analogous mechanisms.</p>
+    <div class="callout"><strong>SMAD paradox in cancer:</strong> SMAD4 is a tumor suppressor gene mutated or deleted in ~50% of pancreatic ductal adenocarcinomas (PDACs) and ~10–15% of colorectal cancers. Loss of SMAD4 abolishes TGF-β growth arrest (loss of p15/p21 induction) while preserving or even enhancing non-SMAD pro-tumorigenic signaling — explaining why TGF-β becomes a tumor promoter rather than suppressor in cancers with SMAD4 loss.</div>
+  </div>
+
+  <div class="section" id="non-smad">
+    <h2>Non-SMAD Signaling Pathways</h2>
+    <p>TGF-β activates multiple non-SMAD pathways, primarily through TRAF6 (TNFR-associated factor 6) recruited to the receptor complex and through direct activation of kinases by TβRI/TβRII:</p>
+    <table>
+      <thead><tr><th>Pathway</th><th>Mechanism</th><th>Functional Outcome</th></tr></thead>
+      <tbody>
+        <tr><td><strong>TRAF6/TAK1 → NF-κB</strong></td><td>TβRI binds TRAF6 → TRAF6 Lys63-polyubiquitylation → TAK1 (MAP3K7) activation → IKK complex → IκBα phosphorylation/degradation → NF-κB nuclear translocation</td><td>Pro-inflammatory gene expression; survival signals; context-dependent induction of IL-6, TNF-α, MMP-9. Relevant in epithelial cells and macrophages where TGF-β drives inflammatory phenotypes despite SMAD-mediated growth arrest</td></tr>
+        <tr><td><strong>TAK1 → p38 MAPK / JNK</strong></td><td>TAK1 → MKK3/6 → p38; TAK1 → MKK4/7 → JNK</td><td>p38: stress-responsive fibroblast activation, EMT (α-SMA induction), apoptosis in epithelial cells. JNK: EMT transcription factor (Snail, Twist) induction; TGF-β-induced apoptosis via Bim/Bad phosphorylation. p38 and JNK often cooperate with SMAD3 to maximize EMT gene responses</td></tr>
+        <tr><td><strong>PI3K/Akt/mTOR</strong></td><td>TβRI/II directly phosphorylates and activates PI3K regulatory subunit p85 → Akt → mTORC1. Also indirect: TβRI → TRAF6 → PI3K</td><td>Cell survival (anti-apoptotic via BAD phosphorylation, Mcl-1 upregulation); cell migration and invasion; mTORC1-dependent protein synthesis for fibrotic ECM production. PI3K/Akt cooperates with SMAD2/3 in EMT and resistance to TGF-β-induced apoptosis in cancer cells</td></tr>
+        <tr><td><strong>Rho/ROCK</strong></td><td>TGF-β → RhoA GTP loading (via direct receptor interaction or SMAD-independent mechanisms) → ROCK1/2 → LIM kinase → cofilin phosphorylation (inactivation) → F-actin polymerization; also ROCK → MLC phosphorylation → increased cell contractility</td><td>Stress fiber formation (α-SMA incorporation), cell contraction (myofibroblast phenotype), cell migration and invasion (EMT), mechanosensing amplification. ROCK inhibitors (fasudil, Y-27632) reduce TGF-β-driven fibrosis in animal models</td></tr>
+        <tr><td><strong>Src/ERK</strong></td><td>TβRII contains a Src-homology 2 (SH2) binding motif → direct Src recruitment and activation → Grb2/Sos → Ras → Raf → MEK → ERK1/2</td><td>Cell proliferation signals (paradoxically co-exist with SMAD-mediated growth arrest in non-epithelial cells); synergy with EGFR signaling in cancer; regulation of SMAD nucleo-cytoplasmic shuttling via ERK-mediated SMAD linker phosphorylation (at Thr179/Ser204/Ser208 of SMAD3) → attenuated transcriptional activity</td></tr>
+        <tr><td><strong>β-catenin/Wnt crosstalk</strong></td><td>TGF-β/SMAD3 complex can directly bind β-catenin in the nucleus → cooperative gene activation; SMAD3 also stabilizes β-catenin via inhibition of GSK-3β (APC/Axin/GSK-3β destruction complex)</td><td>Fibroblast-to-myofibroblast transition; AT2 cell fate decisions in lung injury; Wnt/β-catenin and TGF-β cooperatively drive fibrosis and EMT in multiple organs. IPF patient lungs show co-activation of Wnt and TGF-β targets</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="functions">
+    <h2>Pleiotropic Biological Functions</h2>
+
+    <h3>Anti-Proliferative / Tumor Suppressor Activity</h3>
+    <p>In normal epithelial cells, TGF-β induces G1 cell cycle arrest via SMAD3-dependent transcriptional induction of <strong>p15/CDKN2B</strong> (inhibits CDK4/6 → prevents pRb phosphorylation → E2F remains bound to pRb → no S-phase entry) and <strong>p21/CDKN1A</strong> (inhibits CDK2 → reinforces G1 arrest). Simultaneously, SMAD3 represses c-Myc and Id proteins that drive proliferation. This makes TGF-β a potent inhibitor of epithelial cell proliferation — the basis for its tumor-suppressor role in early carcinogenesis.</p>
+
+    <h3>Epithelial-Mesenchymal Transition (EMT)</h3>
+    <p>TGF-β is the canonical inducer of EMT — the process by which epithelial cells lose apical-basal polarity, disrupt cell-cell junctions (E-cadherin/CDH1 downregulation), and acquire a mesenchymal gene expression program (N-cadherin/CDH2, vimentin/VIM, fibronectin/FN1, α-SMA/ACTA2). EMT transcription factors induced by TGF-β/SMAD3 + non-SMAD pathways:</p>
+    <ul>
+      <li><strong>Snail1 (SNAI1):</strong> Direct SMAD3 target; zinc finger transcriptional repressor of E-cadherin (CDH1); also represses claudins, occludins. Induced within hours of TGF-β stimulation.</li>
+      <li><strong>Slug/Snail2 (SNAI2):</strong> Similar mechanism; more relevant in wound healing and tumor invasion contexts</li>
+      <li><strong>ZEB1 and ZEB2:</strong> Zinc finger E-box binding homeobox proteins; bind E-cadherin and claudin promoters; ZEB1 is also repressed by miR-200 family microRNAs (miR-200a/b/c, miR-141, miR-429) — the ZEB/miR-200 double-negative feedback loop is the key switch controlling epithelial-mesenchymal plasticity</li>
+      <li><strong>Twist1:</strong> bHLH transcription factor induced by TGF-β/non-SMAD pathways; important in cancer invasion and metastasis</li>
+    </ul>
+
+    <h3>Immune Suppression and Treg Induction</h3>
+    <p>TGF-β is the dominant cytokine for peripheral immune tolerance:</p>
+    <ul>
+      <li><strong>Foxp3+ Treg induction:</strong> TGF-β1 + IL-2 (+ retinoic acid in mucosal tissues) → SMAD3/NFAT → Foxp3 transcription → induction of regulatory T cells. Tregs suppress CD4 and CD8 T cells via TGF-β, IL-10, and CTLA-4 contact suppression.</li>
+      <li><strong>Th17 balance:</strong> TGF-β alone → Treg; TGF-β + IL-6 → SMAD3/STAT3 → RORγt → Th17 differentiation (pro-inflammatory). The Treg/Th17 balance controlled by TGF-β + cytokine context is critical in autoimmunity and cancer.</li>
+      <li><strong>NK/CTL suppression:</strong> TGF-β directly inhibits perforin/granzyme B expression in CD8+ CTLs and NK cells; also suppresses NKG2D expression → reduced cytotoxic activity against tumor cells</li>
+      <li><strong>Macrophage skewing:</strong> TGF-β promotes M2 (anti-inflammatory, pro-repair) macrophage polarization; suppresses M1 killing functions; contributes to immunosuppressive tumor microenvironment</li>
+    </ul>
+
+    <h3>Wound Healing and Fibrosis</h3>
+    <p>TGF-β1 (released by platelets in the initial injury response) orchestrates wound healing: fibroblast recruitment → myofibroblast differentiation (α-SMA, collagen production, wound contraction) → VEGF induction (angiogenesis) → provisional matrix remodeling. In <strong>normal healing</strong>, TGF-β signaling is self-limited by SMAD7 feedback and myofibroblast apoptosis as the wound closes. In <strong>fibrosis</strong>, persistent TGF-β1 signaling — from ongoing injury, ER stress, senescent cells, or autocrine loops — prevents myofibroblast apoptosis and drives progressive ECM accumulation (see fibrosis.html).</p>
+  </div>
+
+  <div class="section" id="cancer-paradox">
+    <h2>TGF-β Paradox in Cancer</h2>
+    <p>TGF-β exhibits a striking contextual duality in cancer — <strong>tumor suppressor in early carcinogenesis vs. tumor promoter in advanced cancer</strong>:</p>
+
+    <h3>Tumor Suppressor Phase (Early)</h3>
+    <p>In normal epithelium and early-stage cancer with intact SMAD4, TGF-β enforces G1 arrest (p15/p21 induction), induces apoptosis, and suppresses oncogene-driven proliferation. SMAD4 mutations (loss of heterozygosity 18q21.2) occur in ~55% of PDACs and ~15% of CRCs — inactivating the SMAD4 co-SMAD disrupts all canonical TGF-β growth-arrest signals. Inactivating mutations in TβRII (microsatellite instability-driven frameshift mutations in HNPCC/Lynch syndrome colorectal cancers) similarly abolish growth arrest without eliminating pro-tumorigenic TGF-β responses.</p>
+
+    <h3>Tumor Promoter Phase (Advanced)</h3>
+    <p>In advanced tumors with KRAS mutations, PI3K activation, or SMAD4 loss, TGF-β no longer arrests growth but retains and may amplify pro-tumorigenic functions:</p>
+    <ul>
+      <li><strong>EMT and invasion:</strong> TGF-β drives Snail/ZEB1 → loss of E-cadherin → dissemination of circulating tumor cells</li>
+      <li><strong>Immunosuppression:</strong> TGF-β in the tumor microenvironment (TME) suppresses CD8+ T cell function, induces Treg infiltration, and impairs NK cell cytotoxicity → immune escape and checkpoint immunotherapy resistance</li>
+      <li><strong>Angiogenesis:</strong> TGF-β1 induces VEGF-A in stromal fibroblasts and tumor cells → tumor vasculogenesis; ALK1 signaling in endothelial cells is specifically pro-angiogenic</li>
+      <li><strong>Bone metastasis:</strong> TGF-β released from bone matrix by osteoclast activity → breast/prostate tumor cell TGF-β signaling → PTHrP production → further osteoclast activation: the "vicious cycle" of bone metastasis</li>
+      <li><strong>Cancer-associated fibroblasts (CAFs):</strong> Tumor cell-derived TGF-β activates stromal fibroblasts → CAFs → create desmoplastic ECM → physical barrier to T cell infiltration and drug delivery (especially relevant in pancreatic cancer)</li>
+    </ul>
+    <div class="callout"><strong>TGF-β as an immunotherapy resistance mechanism:</strong> TGF-β in the TME suppresses CD8+ T cell effector function and prevents T cell infiltration into "immune-excluded" tumors — a major mechanism of resistance to PD-1/PD-L1 checkpoint blockade. Bintrafusp alfa (bifunctional anti-PD-L1/TGF-β trap) was designed to simultaneously block PD-L1 and neutralize TGF-β at the tumor surface. JAVELIN Bladder 100 and NSCLC trials showed this approach is feasible but efficacy improvements over anti-PD-L1 monotherapy have been modest, suggesting complex biology.</div>
+  </div>
+
+  <div class="section" id="therapeutics">
+    <h2>Therapeutic Targeting of TGF-β</h2>
+    <table>
+      <thead><tr><th>Agent</th><th>Class / Target</th><th>Mechanism</th><th>Clinical Context</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Galunisertib (LY2157299)</strong></td><td>Small molecule; ALK5/TβRI kinase inhibitor</td><td>ATP-competitive inhibition of ALK5 kinase → blocks SMAD2/3 phosphorylation → abolishes canonical TGF-β signaling</td><td>Hepatocellular carcinoma (HCC): phase 2 (RECOURSE) — OS improvement in subset. Glioblastoma: phase 2 with lomustine — OS improvement. NSCLC + pembrolizumab combination trials. Major concern: cardiac toxicity (hypertrophy) with continuous dosing → intermittent 2-weeks-on/2-off schedule used in clinical trials.</td></tr>
+        <tr><td><strong>Vactosertib (EW-7197)</strong></td><td>Small molecule; ALK5/ALK4 kinase inhibitor</td><td>Dual inhibitor of TGF-β and activin signaling; highly selective and orally bioavailable</td><td>Phase 1/2 trials in colorectal cancer, cholangiocarcinoma, and fibrodysplasia ossificans progressiva (FOP — ALK2 gain-of-function → heterotopic ossification)</td></tr>
+        <tr><td><strong>Fresolimumab (GC1008)</strong></td><td>Human anti-TGF-β1/2/3 pan-neutralizing monoclonal antibody</td><td>Neutralizes all three TGF-β isoforms; pan-blockade; long half-life IV administration</td><td>IPF: phase 2 (Lonzano 2011): small trial showed some benefit on HRCT scores; safety concerns (skin lesions, neoplasms). NSCLC with focal radiation (SBRT): pilot trial showed improved immune activation (abscopal-like effects). Not approved; limited by systemic side effects.</td></tr>
+        <tr><td><strong>Bintrafusp alfa (M7824)</strong></td><td>Bifunctional fusion protein: anti-PD-L1 IgG + TGF-β RII extracellular domain (TGF-β trap)</td><td>PD-L1 arm blocks checkpoint → disinhibits T cells; TGF-β trap arm sequesters tumor-microenvironment TGF-β → relieves immunosuppression and EMT. Designed to deliver TGF-β blockade locally at PD-L1+ tumor sites</td><td>JAVELIN Bladder 100 phase 3 — did not improve OS vs avelumab. NSCLC first-line phase 3 (INTR@PID Lung 037) — did not improve PFS vs pembrolizumab. Biliary tract cancer: phase 2 showed activity. Research ongoing in HPV+ cancers (cervical, HNSCC) where TGF-β immunosuppression is dominant.</td></tr>
+        <tr><td><strong>Pirfenidone</strong></td><td>Small molecule; indirect TGF-β suppression</td><td>Inhibits TGF-β-stimulated collagen synthesis, myofibroblast differentiation, and PDGF-mediated fibroblast proliferation; also anti-TNF-α and anti-oxidant; mechanism imprecisely defined</td><td>IPF: approved 2014 (see fibrosis.html). Cardiac fibrosis post-MI: PIROUETTE trial (phase 2 RCT, n=116): pirfenidone 2403 mg/day × 52 weeks → reduction in extracellular volume fraction on CMR (−0.44% vs +0.47% placebo, p=0.048). Signals of efficacy in HFpEF-related fibrosis.</td></tr>
+        <tr><td><strong>Lorecivivint (SM04690)</strong></td><td>CLK2/DYRK1A kinase inhibitor; indirect Wnt/TGF-β modulator</td><td>Inhibits CLK2 → reduced SMAD2/3 phosphorylation; also activates β-catenin cartilage anabolic effects; cartilage-protective via dual Wnt-activating and TGF-β-suppressing actions</td><td>Osteoarthritis: phase 2 (STRIDES-OA) intra-articular injection — reduced cartilage loss and pain vs saline at 1 year. Phase 3 (STRIDES 3) ongoing.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">drives</span><a href="fibrosis.html">Fibrosis</a> — TGF-β1 is the master profibrotic mediator in IPF, liver cirrhosis, cardiac fibrosis, renal IFTA, and scleroderma; SMAD2/3 → Col1A1/α-SMA transcription is the core fibrogenic signal</li>
+      <li><span class="conn-rel">injures</span><a href="lung-alveolus.html">Lung Alveolus</a> — in ARDS and IPF, TGF-β1 released from injured AT2 cells and alveolar macrophages drives barrier disruption (acute) and subsequent fibroproliferation (chronic) in the alveolar compartment</li>
+      <li><span class="conn-rel">amplified-by</span><a href="nlrp3-inflammasome.html">NLRP3 Inflammasome</a> — IL-1β (produced downstream of NLRP3) potently induces TGF-β1 production in macrophages and epithelial cells; NLRP3 and TGF-β form a feed-forward loop amplifying both inflammation and fibrosis</li>
+      <li><span class="conn-rel">late-driver-of</span><a href="ards.html">ARDS</a> — TGF-β1 is acutely immunosuppressive on alveolar macrophages (reducing early injury) but dominates the fibroproliferative phase of DAD; dual role makes TGF-β a complex therapeutic target in ARDS</li>
+      <li><span class="conn-rel">endpoint-of</span><a href="ckd.html">CKD</a> — TGF-β/SMAD3 drives pericyte-to-myofibroblast transition in the renal interstitium; TGF-β1 is the principal mediator of tubular atrophy and interstitial fibrosis in all forms of CKD</li>
+      <li><span class="conn-rel">occurs-in</span><a href="skin.html">Skin</a> — TGF-β/SMAD3 drives dermal fibrosis in scleroderma via fibroblast activation; also essential for normal skin wound healing (keratinocyte migration, dermal repair) when transiently activated</li>
+      <li><span class="conn-rel">regulates</span><a href="germinal-center.html">Germinal Center</a> — TGF-β drives class switching to IgA in mucosal germinal centers (with IL-10); simultaneously suppresses Tfh cell function and germinal center reactions via Foxp3+ Treg induction — balancing humoral immunity at mucosal surfaces</li>
+      <li><span class="conn-rel">amplifies</span><a href="cytokine-storm.html">Cytokine Storm</a> — paradoxically, TGF-β can contribute to cytokine storm environments indirectly via Th17 promotion (TGF-β + IL-6) and via tissue damage that releases further DAMPs; sustained TGF-β in COVID-19 ARDS correlates with poor outcomes and persistent fibrosis</li>
+    </ul>
+  </div>
+
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>Massagué J. TGFβ signalling in context. <em>Nat Rev Mol Cell Biol.</em> 2012;13(10):616–30. <a href="https://doi.org/10.1038/nrm3434" target="_blank" rel="noopener">doi:10.1038/nrm3434</a></li>
+      <li>Derynck R, Turley SJ, Akhurst RJ. TGFβ biology in cancer progression and immunotherapy. <em>Nat Rev Clin Oncol.</em> 2021;18(1):9–34. <a href="https://doi.org/10.1038/s41571-020-0403-1" target="_blank" rel="noopener">doi:10.1038/s41571-020-0403-1</a></li>
+      <li>Hinz B. Myofibroblasts. <em>Exp Eye Res.</em> 2016;142:56–70. <a href="https://doi.org/10.1016/j.exer.2015.07.009" target="_blank" rel="noopener">doi:10.1016/j.exer.2015.07.009</a></li>
+      <li>Travis MA, Sheppard D. TGF-β activation and function in immunity. <em>Annu Rev Immunol.</em> 2014;32:51–82. <a href="https://doi.org/10.1146/annurev-immunol-032713-120257" target="_blank" rel="noopener">doi:10.1146/annurev-immunol-032713-120257</a></li>
+      <li>Bierie B, Moses HL. Tumour microenvironment: TGFβ: the molecular Jekyll and Hyde of cancer. <em>Nat Rev Cancer.</em> 2006;6(7):506–20. <a href="https://doi.org/10.1038/nrc1926" target="_blank" rel="noopener">doi:10.1038/nrc1926</a></li>
+      <li>Akhurst RJ, Hata A. Targeting the TGFβ signalling pathway in disease. <em>Nat Rev Drug Discov.</em> 2012;11(10):790–811. <a href="https://doi.org/10.1038/nrd3810" target="_blank" rel="noopener">doi:10.1038/nrd3810</a></li>
+      <li>Heldin CH, Moustakas A. Signaling receptors for TGF-β family members. <em>Cold Spring Harb Perspect Biol.</em> 2016;8(8):a022053. <a href="https://doi.org/10.1101/cshperspect.a022053" target="_blank" rel="noopener">doi:10.1101/cshperspect.a022053</a></li>
+      <li>Kamato D, Burch ML, Piva TJ, et al. Transforming growth factor-β signalling: role and consequences of Smad linker region phosphorylation. <em>Cell Signal.</em> 2013;25(10):2017–24. <a href="https://doi.org/10.1016/j.cellsig.2013.06.001" target="_blank" rel="noopener">doi:10.1016/j.cellsig.2013.06.001</a></li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p><a href="../index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
+  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+</footer>
+
+</body>
+</html>

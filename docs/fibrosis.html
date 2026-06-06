@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fibrosis — pathological ECM deposition and scar formation; IPF/UIP, TGF-β1/SMAD signaling, myofibroblast activation, liver cirrhosis, cardiac fibrosis; pirfenidone, nintedanib, antifibrotic mechanisms. Human Engineering Atlas.">
+  <meta property="og:title" content="Fibrosis — Human Engineering Atlas">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Fibrosis — Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#f59e0b;--accent-soft:rgba(245,158,11,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fffbeb 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:110px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="lung-alveolus.html">Alveolus</a>
+      <a href="tgf-beta.html">TGF-β</a>
+      <a href="medicine.html">Medicine</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Atlas One · Cellular / Molecular · Scale L04 · Pathology</p>
+    <h1>Fibrosis — <span>Pathological Scarring</span></h1>
+    <p class="hero-lead">Fibrosis is the pathological outcome of dysregulated wound healing — excess deposition of extracellular matrix (collagen I/III, fibronectin) and architectural distortion driven by activated myofibroblasts, predominantly under TGF-β1 control. It affects lung (IPF), liver (cirrhosis), heart, kidney, and skin, and underlies an estimated 45% of all deaths in developed countries.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span><strong>Key driver:</strong> TGF-β1 / SMAD2/3</span>
+  <span><strong>Scale:</strong> L04 Cellular / Molecular</span>
+  <span><strong>Organs:</strong> Lung, Liver, Heart, Kidney, Skin</span>
+  <span><strong>Type:</strong> Pathological process</span>
+  <span><strong>Reviewed:</strong> 2026-06-05</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="definition">
+    <h2>Definition and Concept</h2>
+    <p>Fibrosis refers to the excess accumulation of fibrous connective tissue — predominantly type I and type III collagens, fibronectin, laminin, and proteoglycans — within an organ as a response to sustained injury or chronic inflammation. In normal wound healing, injured tissue is temporarily replaced by a provisional fibrin/fibronectin matrix, invaded by myofibroblasts that contract and synthesize collagen, and then remodeled back to near-normal architecture as myofibroblasts undergo apoptosis. <strong>Fibrosis occurs when this resolution phase fails</strong> — myofibroblasts persist, collagen accumulates, and architectural distortion impairs organ function.</p>
+    <p>Fibrosis is not a single disease but a pathological endpoint reached by diverse organs through shared molecular mechanisms. Estimates suggest fibrotic diseases collectively account for approximately <strong>45% of all deaths in the developed world</strong> (Wynn and Ramalingam, 2012), including:</p>
+    <table>
+      <thead><tr><th>Organ</th><th>Disease / Condition</th><th>Key Cellular Source</th><th>Prevalence / Burden</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Lung</strong></td><td>IPF (usual interstitial pneumonia), post-ARDS fibrosis, hypersensitivity pneumonitis, scleroderma lung, drug-induced</td><td>Fibroblasts/myofibroblasts (activated from resident fibroblasts, circulating fibrocytes, possibly EMT of AT2 cells)</td><td>IPF: 3–9/100,000/year; ~100,000 new cases/year in USA; median survival 2–5 years</td></tr>
+        <tr><td><strong>Liver</strong></td><td>Cirrhosis (NASH/NAFLD, alcoholic, viral hepatitis B/C, biliary)</td><td>Hepatic stellate cells (HSCs) — the hepatic myofibroblast</td><td>~1.5% of global deaths from cirrhosis; NASH-related fibrosis fastest growing cause</td></tr>
+        <tr><td><strong>Heart</strong></td><td>Post-MI interstitial fibrosis, hypertensive cardiomyopathy, HFpEF, dilated cardiomyopathy</td><td>Cardiac fibroblasts → myofibroblasts; macrophage-derived TGF-β</td><td>Cardiac fibrosis present in &gt;70% of HFpEF; contributes to stiffness and arrhythmia</td></tr>
+        <tr><td><strong>Kidney</strong></td><td>Interstitial fibrosis and tubular atrophy (IFTA) in CKD, diabetic nephropathy, IgA nephropathy</td><td>Interstitial fibroblasts, pericytes → myofibroblasts; tubular EMT debated</td><td>Fibrosis is the final common pathway of all CKD; degree of fibrosis predicts dialysis requirement</td></tr>
+        <tr><td><strong>Skin</strong></td><td>Systemic sclerosis (scleroderma), keloid scars, hypertrophic scars, nephrogenic systemic fibrosis</td><td>Dermal fibroblasts activated by TGF-β, CTGF; autoimmune component in scleroderma</td><td>Scleroderma: 7–50/100,000; keloids: ~100 million new cases/year globally</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="ipf">
+    <h2>Idiopathic Pulmonary Fibrosis (IPF)</h2>
+    <p>IPF is the archetypal organ fibrosis — the most severe and best-characterized fibrotic lung disease. It is defined as a specific form of chronic, progressive, fibrosing interstitial pneumonia of unknown cause that occurs primarily in older adults, with the histological and/or radiological pattern of <strong>usual interstitial pneumonia (UIP)</strong>.</p>
+
+    <h3>Clinical and Radiological Features</h3>
+    <p>IPF affects predominantly males &gt;65 years of age, with risk factors including cigarette smoking (relative risk ~2), gastroesophageal reflux disease, and genetic susceptibility. The <strong>MUC5B promoter variant rs35705950</strong> (common allele frequency ~11% in general population, ~38% in IPF patients) is the strongest genetic risk factor for IPF; it increases MUC5B expression in distal airways, though the mechanism connecting mucin overproduction to fibrosis is incompletely understood. Rare variants in telomere-related genes (TERT, TERC, RTEL1, PARN) are found in ~20% of familial IPF cases and a subset of sporadic IPF — short telomeres → AT2 cell senescence/apoptosis → impaired epithelial renewal.</p>
+    <p>The UIP pattern on HRCT is characterized by:</p>
+    <ul>
+      <li><strong>Honeycombing:</strong> Clustered cystic airspaces (3–10 mm) in a subpleural, basal-predominant distribution — the radiological hallmark that allows confident UIP diagnosis without surgical biopsy</li>
+      <li><strong>Traction bronchiectasis / bronchiolectasis:</strong> Irregular bronchial dilation due to surrounding fibrotic distortion</li>
+      <li><strong>Reticulation:</strong> Irregular interstitial thickening in basal and peripheral zones</li>
+      <li><strong>Fibroblastic foci:</strong> On histology — small aggregates of actively proliferating myofibroblasts embedded in loose connective tissue at the leading edge of advancing fibrosis; their density correlates with disease progression rate</li>
+    </ul>
+    <p>IPF clinical course: median survival without treatment is <strong>2–3 years from diagnosis</strong> (range 1–5+ years); ~10–15% experience acute exacerbations (sudden deterioration mimicking ARDS superimposed on UIP) with 50% short-term mortality. Lung function tests show a restrictive pattern: ↓TLC, ↓FVC, ↓DLCO (reduced diffusing capacity — most sensitive to early IPF).</p>
+    <div class="callout"><strong>Incidence and epidemiology:</strong> IPF incidence is 3–9 per 100,000 per year in Europe; higher in North America (14 per 100,000). Overall prevalence ~50/100,000. Incidence is increasing — likely due to aging populations and improved recognition. Annual worldwide mortality ~40,000 in the USA alone.</div>
+  </div>
+
+  <div class="section" id="pathophysiology">
+    <h2>Pathophysiology: Aberrant Repair Hypothesis</h2>
+    <p>The current consensus model for IPF pathogenesis is the <strong>"aberrant alveolar repair" hypothesis</strong>, which centers on recurrent microinjury to the alveolar epithelium (particularly AT2 cells) rather than primary inflammation as the initiating event:</p>
+
+    <h3>Initiating Injury and Epithelial Stress</h3>
+    <p>Repetitive, subclinical injury to AT2 cells (from microaspiration, viral infections, oxidative stress, aging) → ER stress (unfolded protein response, UPR) → activation of PERK/IRE1α/ATF6 branches → ATF4/CHOP → AT2 apoptosis. ER stress in AT2 cells → release of TGF-β1 from its latent complex → activation of neighboring fibroblasts. Senescent AT2 cells (p21/p53/p16 activation → SASP — senescence-associated secretory phenotype) constitutively secrete TGF-β1, MMP-3, and CXCL1 — amplifying fibroblast activation even in the absence of ongoing injury.</p>
+
+    <h3>TGF-β1 — Central Fibrogenic Mediator</h3>
+    <p>TGF-β1 is the <strong>master regulator of fibrosis</strong> across all organs. In IPF specifically:</p>
+    <ul>
+      <li>Latent TGF-β1 is sequestered in the ECM by LTBP-1/3; activation requires integrin αvβ6 (expressed on injured alveolar epithelial cells) or MMP2/9 or thrombospondin-1</li>
+      <li>Active TGF-β1 binds TGF-βRII → transphosphorylates TGF-βRI/ALK5 → SMAD2/3 phosphorylation → SMAD2/3 + SMAD4 heterotrimer → nuclear translocation → transcription of Col1A1, Col3A1, α-SMA (ACTA2), CTGF, fibronectin-1</li>
+      <li>SMAD7 provides negative feedback by targeting R-SMADs for SMURF1/2-mediated proteasomal degradation; in IPF, SMAD7 expression is reduced, removing this brake</li>
+    </ul>
+
+    <h3>Fibroblast and Myofibroblast Activation</h3>
+    <p>Resident lung fibroblasts, upon TGF-β1/PDGF stimulation, acquire the <strong>myofibroblast phenotype</strong>: expression of α-smooth muscle actin (α-SMA, incorporated into stress fibers), increased contractility, excessive collagen I/III production, and resistance to apoptosis. Myofibroblast origins are debated — resident fibroblasts (primary), bone marrow-derived fibrocytes (CD45+/Col1+, ~5% of myofibroblasts), and possibly epithelial-mesenchymal transition (EMT) of AT2 cells (gaining vimentin/N-cadherin/α-SMA while losing E-cadherin) — though the contribution of EMT in vivo remains contested. Once activated, myofibroblasts are self-sustaining via autocrine TGF-β1 loops.</p>
+
+    <h3>Mechanosignaling: YAP/TAZ and Matrix Stiffness</h3>
+    <p>Fibrotic ECM is mechanically stiff — lung stiffness increases from ~1–2 kPa (normal) to &gt;10–20 kPa in advanced IPF. This stiffness is sensed by fibroblasts via integrin-FAK-Rho/ROCK mechanosensing → activation of YAP (Yes-associated protein) and TAZ (transcriptional coactivator with PDZ-binding motif), which are Hippo pathway effectors. YAP/TAZ translocate to the nucleus on stiff matrices → transcriptional activation of pro-fibrotic genes (CTGF, CYR61, COL1A1) and inhibition of AT2 differentiation. This creates a <strong>positive feedback loop</strong>: fibrosis → stiffness → YAP/TAZ → more fibrosis — explaining why IPF is progressive even in the absence of ongoing epithelial injury.</p>
+
+    <h3>Cellular Senescence and SASP</h3>
+    <p>Senescent cells accumulate in IPF lungs — both AT2 cells (p21+/p16+) and fibroblasts. SASP cytokines secreted by senescent cells (TGF-β1, IL-6, IL-8, MMP-3) paracrinally activate neighboring fibroblasts. The <strong>senostatic/senolytic hypothesis</strong> in IPF: ABT-737, navitoclax, and dasatinib + quercetin (senolytic combinations) reduce fibrotic burden in bleomycin mouse models; clinical trials ongoing (ClinicalTrials.gov NCT02874989 — dasatinib + quercetin in IPF).</p>
+  </div>
+
+  <div class="section" id="antifibrotics">
+    <h2>Antifibrotic Pharmacology</h2>
+    <p>Two antifibrotic drugs are approved for IPF: <strong>pirfenidone</strong> and <strong>nintedanib</strong>. Both slow but do not halt disease progression; no drug reverses established fibrosis. Additional agents are in late-stage development targeting integrin αvβ6, CTGF, and galectin-3.</p>
+    <table>
+      <thead><tr><th>Drug</th><th>Class / Mechanism</th><th>Key Trials</th><th>Outcome / Approval</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Pirfenidone</strong></td><td>Small molecule; pyridone derivative. Multi-target: inhibits TGF-β1-stimulated collagen synthesis, TGF-β-induced myofibroblast differentiation, PDGF-stimulated fibroblast proliferation, TNF-α-mediated inflammation; also antioxidant. Precise molecular target uncertain — may interact with TGF-β downstream signaling.</td><td>CAPACITY 1 &amp; 2 (2011, n=779 total): pirfenidone 2403 mg/day vs placebo — FVC decline reduced ~33–70% across two trials. ASCEND (2014, n=555): confirmed FVC benefit; reduced decline by 4.5% in percent predicted over 52 weeks; reduced risk of ≥10% FVC decline (HR 0.52).</td><td>Japan 2008; EU 2011; FDA 2014. Dose: 801 mg three times daily (2403 mg/day). Side effects: photosensitivity rash, nausea, anorexia, dizziness.</td></tr>
+        <tr><td><strong>Nintedanib</strong></td><td>Intracellular tyrosine kinase inhibitor (TKI). Targets: FGFR1-3, VEGFR1-3, PDGFRα/β, Flt3, Src, Abl, Lck. Multiple profibrotic and angiogenic receptor kinases inhibited simultaneously. Blocks fibroblast proliferation (FGFR/PDGFR), migration, and differentiation into myofibroblasts.</td><td>INPULSIS-1 &amp; 2 (2014, n=1066 total): nintedanib 150 mg twice daily vs placebo — annual rate of FVC decline reduced by ~50% (−114 mL/year vs −239 mL/year in placebo). Significant reduction in acute exacerbations in INPULSIS-2. Open-label extension (INPULSIS-ON) confirmed durable effect.</td><td>FDA and EU 2014. Dose: 150 mg twice daily. Side effects: diarrhea (most common, ~60%), nausea, elevated liver enzymes (LFT monitoring required). Also approved for systemic sclerosis-ILD (SENSCIS trial 2019) and progressive fibrosing ILD (INBUILD trial 2019).</td></tr>
+        <tr><td><strong>Pamrevlumab</strong></td><td>Fully human anti-CTGF (connective tissue growth factor / CCN2) monoclonal antibody. CTGF is a downstream mediator of TGF-β and an independent profibrotic factor that stimulates fibroblast proliferation and collagen synthesis via integrins αvβ3/αvβ5.</td><td>PRAISE trial (phase 2, n=103): pamrevlumab 30 mg/kg IV q4w vs placebo — significant reduction in FVC decline and fibrosis score on HRCT over 48 weeks. ZEPHYRUS-1 (phase 3) — ongoing; results expected 2025–2026.</td><td>Phase 3 (Roche/FibroGen). Not yet approved.</td></tr>
+        <tr><td><strong>Bexotegrast (PLN-74809)</strong></td><td>Dual integrin αvβ6 and αvβ1 inhibitor (oral small molecule). αvβ6 is the primary integrin that activates latent TGF-β1 on injured epithelial surfaces; αvβ1 on fibroblasts independently promotes collagen synthesis via TGF-β-independent integrin signaling.</td><td>INTEGRIS-IPF (phase 2, n=203, 2023): bexotegrast 320 mg/day → −47 mL FVC decline vs −88 mL placebo (p=0.04) over 24 weeks; reductions in HRCT fibrosis scores. Well-tolerated. Phase 3 BEACON-IPF ongoing.</td><td>Phase 3 (Pliant Therapeutics). Not yet approved.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="liver">
+    <h2>Liver Fibrosis and Cirrhosis</h2>
+    <p>Hepatic fibrosis follows the same TGF-β/myofibroblast paradigm but with organ-specific effector cells. The primary myofibroblast in liver fibrosis is the <strong>hepatic stellate cell (HSC)</strong> — a perisinusoidal cell that stores vitamin A in lipid droplets under quiescent conditions. Upon liver injury (alcohol, NASH, viral hepatitis, cholestasis), Kupffer cells (hepatic macrophages) produce TGF-β1 and PDGF → HSC activation → loss of lipid droplets, acquisition of α-SMA, and massive collagen I/III secretion around sinusoids → sinusoidal constriction → portal hypertension → cirrhosis.</p>
+    <p>Key differences from pulmonary fibrosis: liver has greater regenerative capacity; early fibrosis (&lt;F3 on METAVIR scale) can regress if the underlying cause is treated (antiviral therapy for HCV → fibrosis regression in 30–40% of patients; abstinence from alcohol → partial regression). F4 (cirrhosis) may be irreversible. Non-invasive fibrosis assessment: FIB-4 index (age × AST / [platelet count × √ALT]), APRI score, transient elastography (FibroScan — liver stiffness kPa).</p>
+  </div>
+
+  <div class="section" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">driven-by</span><a href="tgf-beta.html">TGF-β</a> — TGF-β1 is the master profibrotic cytokine in lung, liver, kidney, heart, and skin fibrosis; its latent activation by integrin αvβ6 on injured epithelial cells is the proximal trigger for myofibroblast differentiation</li>
+      <li><span class="conn-rel">occurs-in</span><a href="lung-alveolus.html">Lung Alveolus</a> — in IPF, the fibrotic process obliterates alveolar architecture; fibroblastic foci form at the interface between normal and fibrotic lung, destroying the gas-exchange surface</li>
+      <li><span class="conn-rel">late-phase-of</span><a href="ards.html">ARDS</a> — fibroproliferative and fibrotic phases of DAD are mechanistically identical to early IPF pathogenesis; TGF-β1-driven myofibroblast activation in late ARDS explains the persistent lung stiffness and reduced compliance</li>
+      <li><span class="conn-rel">visualized-at</span><a href="lung-slice.html">Lung Slice</a> — honeycombing and traction bronchiectasis in IPF/UIP pattern are recognizable on CT-equivalent lung slice anatomy; basal and subpleural distribution is anatomically explicable</li>
+      <li><span class="conn-rel">amplified-by</span><a href="nlrp3-inflammasome.html">NLRP3 Inflammasome</a> — NLRP3-derived IL-1β and IL-18 amplify fibroblast activation via NF-κB and STAT3; NLRP3 is activated in IPF by mtDNA, particulates, and ER stress signals from AT2 cells</li>
+      <li><span class="conn-rel">endpoint-of</span><a href="ckd.html">CKD</a> — renal interstitial fibrosis and tubular atrophy (IFTA) is the histological correlate and final common pathway of all progressive CKD; TGF-β/SMAD3 drives pericyte-to-myofibroblast transition in the kidney</li>
+      <li><span class="conn-rel">occurs-in</span><a href="skin.html">Skin</a> — dermal fibrosis (scleroderma, keloid) involves the same TGF-β/α-SMA/collagen I pathway in dermal fibroblasts; scleroderma also has autoimmune components (anti-topoisomerase I, anti-centromere antibodies)</li>
+    </ul>
+  </div>
+
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>Richeldi L, Collard HR, Jones MG. Idiopathic pulmonary fibrosis. <em>Lancet.</em> 2017;389(10082):1941–52. <a href="https://doi.org/10.1016/S0140-6736(17)30866-8" target="_blank" rel="noopener">doi:10.1016/S0140-6736(17)30866-8</a></li>
+      <li>Wynn TA, Ramalingam TR. Mechanisms of fibrosis: therapeutic translation for fibrotic disease. <em>Nat Med.</em> 2012;18(7):1028–40. <a href="https://doi.org/10.1038/nm.2807" target="_blank" rel="noopener">doi:10.1038/nm.2807</a></li>
+      <li>Richeldi L, du Bois RM, Raghu G, et al. (INPULSIS Trial Investigators). Efficacy and safety of nintedanib in idiopathic pulmonary fibrosis. <em>N Engl J Med.</em> 2014;370(22):2071–82. <a href="https://doi.org/10.1056/NEJMoa1402584" target="_blank" rel="noopener">doi:10.1056/NEJMoa1402584</a></li>
+      <li>King TE Jr, Bradford WZ, Castro-Bernardini S, et al. (ASCEND Study Group). A phase 3 trial of pirfenidone in patients with idiopathic pulmonary fibrosis. <em>N Engl J Med.</em> 2014;370(22):2083–92. <a href="https://doi.org/10.1056/NEJMoa1402582" target="_blank" rel="noopener">doi:10.1056/NEJMoa1402582</a></li>
+      <li>Wolters PJ, Collard HR, Jones KD. Pathogenesis of idiopathic pulmonary fibrosis. <em>Annu Rev Pathol.</em> 2014;9:157–79. <a href="https://doi.org/10.1146/annurev-pathol-012513-104706" target="_blank" rel="noopener">doi:10.1146/annurev-pathol-012513-104706</a></li>
+      <li>Friedman SL, Sheppard D, Duffield JS, Violette S. Therapy for fibrotic diseases: nearing the starting line. <em>Sci Transl Med.</em> 2013;5(167):167sr1. <a href="https://doi.org/10.1126/scitranslmed.3004700" target="_blank" rel="noopener">doi:10.1126/scitranslmed.3004700</a></li>
+      <li>Hinz B, Phan SH, Thannickal VJ, et al. Recent developments in myofibroblast biology: paradigms for connective tissue remodeling. <em>Am J Pathol.</em> 2012;180(4):1340–55. <a href="https://doi.org/10.1016/j.ajpath.2012.02.004" target="_blank" rel="noopener">doi:10.1016/j.ajpath.2012.02.004</a></li>
+      <li>Liu F, Mih JD, Shea BS, et al. Feedback amplification of fibrosis through matrix stiffening and COX-2 suppression. <em>J Cell Biol.</em> 2010;190(4):693–706. <a href="https://doi.org/10.1083/jcb.201004082" target="_blank" rel="noopener">doi:10.1083/jcb.201004082</a></li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p><a href="../index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
+  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+</footer>
+
+</body>
+</html>
