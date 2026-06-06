@@ -56,7 +56,7 @@ cross_links:
     note: "Renal ACE2 regulates tubular amino acid transport (collectrin-like domain) and counter-balances RAAS-driven renal inflammation and fibrosis."
 ---
 
-# Angiotensin-Converting Enzyme 2 (ACE2)
+# Angiotensin-Converting Enzyme 2
 
 ## Overview
 

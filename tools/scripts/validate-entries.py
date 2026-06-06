@@ -86,6 +86,7 @@ VACCINE_VALID_PLATFORMS = [
     "05-live-attenuated",
     "06-toxoid",
     "07-vhp",
+    "08-conjugate",
 ]
 
 # Required body sections, by scale. "Overview" is the first heading after `# Name`.

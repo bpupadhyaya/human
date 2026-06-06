@@ -6,7 +6,7 @@ atlas: 03-medicine
 scale: 01-modern
 status: draft
 last_reviewed: 2026-06-06
-summary: "Potent synthetic glucocorticoid (25× cortisol potency); GR-mediated genomic suppression of NF-κB/AP-1 → ↓ IL-1/6/8/TNF. Zero mineralocorticoid activity. RECOVERY trial: 17% mortality ↓ in severe COVID-19. Also used for cerebral edema, anaphylaxis, adrenal crisis, chemotherapy antiemesis."
+summary: "Potent synthetic glucocorticoid (25× cortisol potency); GR-mediated genomic suppression of NF-κB/AP-1 → ↓ IL-1/6/8/TNF. Zero mineralocorticoid activity. RECOVERY trial: 17% mortality ↓ in severe COVID-19. Also used for cerebral edema, anaphylaxis, adrenal crisis, antiemesis."
 aliases: ["dexamethasone", "Decadron", "Dexasone", "Maxidex", "dexamethasone sodium phosphate", "9α-fluoro-16α-methylprednisolone"]
 sources:
   - id: horby-2021-recovery

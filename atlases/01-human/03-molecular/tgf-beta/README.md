@@ -62,7 +62,7 @@ cross_links:
     note: "TGF-β/SMAD signaling interacts with STAT3 pathway in cancer cells to drive EMT and metastatic programming; both pathways converge in cancer-associated fibroblasts."
 ---
 
-# Transforming Growth Factor Beta (TGF-β)
+# Transforming Growth Factor Beta
 
 ## Overview
 

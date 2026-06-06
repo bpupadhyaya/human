@@ -1,5 +1,5 @@
 ---
-schema: human-scale-entry/v1
+schema: pathogen-entry/v1
 id: sars-cov-2-spike
 name: SARS-CoV-2 Spike Glycoprotein
 atlas: 02-pathogen
@@ -89,7 +89,7 @@ Spike exists in dynamic conformational equilibrium [^cai-2020-s2-fusion]:
 3. **Post-receptor-binding**: ACE2-bound spike (S1 engagement); vulnerable to TMPRSS2 cleavage at S2' site
 4. **Postfusion** (hairpin / 6HB): After S1 shedding, S2 refolds — HR1 and HR2 form antiparallel 6-helix bundle; irreversible; drives membrane merger
 
-## Function
+## Infection Mechanism
 
 ### Host receptor recognition
 
@@ -124,7 +124,7 @@ Major neutralizing antibody epitopes on the spike:
 
 VOC mutations (Alpha N501Y, Beta K417N/E484K/N501Y, Delta L452R/T478K, Omicron BA.1 15 RBD mutations) primarily target Class I/II and NTD supersite to evade vaccine- and infection-elicited antibodies while maintaining or enhancing ACE2 affinity.
 
-## Mechanism
+## Host Interactions
 
 ### Vaccine antigen design
 

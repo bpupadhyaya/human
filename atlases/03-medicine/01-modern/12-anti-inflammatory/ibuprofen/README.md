@@ -38,9 +38,6 @@ cross_links:
     relation: modulates
     evidence: vane-1971-aspirin-mechanism
     note: "Ibuprofen reversibly occupies the cyclooxygenase channel of both COX-1 (PTGS1) and COX-2 (PTGS2) → prevents arachidonic acid access to the catalytic tyrosine (Tyr385) → ↓ PGE₂, PGI₂, PGD₂, PGF₂α, TXA₂ synthesis — reducing inflammation, pain sensitization, fever, and platelet aggregation."
-  - target: 01-human/03-molecular/cox-2
-    relation: targets
-    note: "COX-2 inhibition is the anti-inflammatory mechanism; COX-2 is induced by IL-1β/TNFα/LPS in macrophages and synoviocytes — producing PGE₂ that sensitizes pain receptors (peripheral sensitization) and acts on hypothalamus (fever). Ibuprofen's COX-2 inhibition has shorter duration than aspirin (reversible, not covalent)."
 ---
 
 # Ibuprofen

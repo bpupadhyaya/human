@@ -6,7 +6,7 @@ atlas: 04-vaccine
 platform: 05-live-attenuated
 status: active
 last_reviewed: 2026-06-06
-summary: "Live-attenuated trivalent oral polio vaccine (tOPV) containing Sabin strains of poliovirus types 1, 2, and 3. Administered orally; replicates in the gut, inducing mucosal IgA and systemic neutralising IgG. Core tool of the WHO Global Polio Eradication Initiative; led to elimination of wild poliovirus type 2 (2015) and type 3 (2019) globally. Carries a small risk of vaccine-associated paralytic poliomyelitis (VAPP, ~1:750,000 first doses) and circulating vaccine-derived poliovirus (cVDPV)."
+summary: "Trivalent live-attenuated oral poliovirus vaccine (Sabin strains). Gut replication induces mucosal sIgA + systemic IgG. WHO Polio Eradication cornerstone; eliminated WPV2 (2015) and WPV3 (2019). Risks: VAPP (~1:750,000 first doses) and vaccine-derived poliovirus (cVDPV)."
 target_pathogens:
   - poliovirus-type-1
   - poliovirus-type-2
@@ -66,7 +66,7 @@ cross_links:
     note: "Both are live oral vaccines; rotarix uses Vero cell production; both replicate in gut; both can be impaired by maternal antibodies and enteric co-infections in LMICs."
 ---
 
-# OPV (Oral Polio Vaccine / Sabin)
+# OPV (Oral Polio Vaccine / Sabin trivalent)
 
 ## Overview
 
@@ -128,7 +128,7 @@ Activation of GALT (gut-associated lymphoid tissue)
 **Manufacturing:**
 Sabin strains are grown in **Vero cells** (African green monkey kidney cells) or **MRC-5** human diploid cells under controlled conditions. The virus is harvested, pooled, concentrated, filtered, and blended to achieve the required potency for each serotype (per WHO standards: ≥10^6.0 CCID50/dose for type 1; ≥10^5.0 for type 2; ≥10^5.5 for type 3). The monovalent bulks are combined into trivalent or bivalent formulations. Magnesium chloride stabiliser (MgCl2 1M) is added to protect the live virus during storage. The liquid vaccine is filled into multidose vials (10 or 20 dose) with a **Vaccine Vial Monitor (VVM)** label that indicates cumulative heat exposure.
 
-## Immunological Mechanism
+## Immunogenicity
 
 **Mucosal IgA — the eradication-relevant immune response:**
 

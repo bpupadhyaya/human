@@ -38,10 +38,6 @@ cross_links:
     relation: modulates
     evidence: preskorn-2003-fluoxetine
     note: "Fluoxetine selectively blocks SERT (serotonin transporter, SLC6A4) → prolongs synaptic 5-HT dwell time → desensitization of presynaptic 5-HT1A autoreceptors over 2–4 weeks → sustained ↑ serotonergic neurotransmission in limbic and prefrontal circuits."
-  - target: 01-human/03-molecular/bdnf
-    relation: modulates
-    evidence: krishnan-2008-ssri-neuroplasticity
-    note: "Chronic SSRI treatment upregulates BDNF expression and TrkB signaling in hippocampus — reversing stress-induced hippocampal atrophy; this neuroplastic mechanism likely underlies the delayed 2–6 week therapeutic onset."
 ---
 
 # Fluoxetine

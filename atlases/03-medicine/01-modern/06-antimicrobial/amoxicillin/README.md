@@ -31,11 +31,7 @@ sources:
     pmid: "20350720"
     url: "https://doi.org/10.1016/j.amjmed.2010.02.004"
 cross_links:
-  - target: 01-human/03-molecular/peptidoglycan
-    relation: targets
-    evidence: rolinson-1998-penicillins-history
-    note: "Amoxicillin binds penicillin-binding proteins (PBPs, class B β-lactam-sensitive transpeptidases — PBP1a/1b, PBP2, PBP3 in gram-positives; PBP3 in gram-negatives) via covalent acylation of the catalytic serine residue → inhibits DD-transpeptidase activity → prevents peptidoglycan cross-linking → osmotic lysis."
-  - target: 01-human/02-microbial/streptococcus-pneumoniae
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: treats
     note: "S. pneumoniae is the primary target for amoxicillin in community-acquired pneumonia; high-dose amoxicillin (3g/day) overcomes intermediate-level penicillin resistance via PBP2b affinity changes (MIC ≤2 mg/L)."
 ---

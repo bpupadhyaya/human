@@ -33,11 +33,7 @@ sources:
     pmid: "32191793"
     url: "https://doi.org/10.1093/ajhp/zxaa036"
 cross_links:
-  - target: 01-human/03-molecular/peptidoglycan
-    relation: targets
-    evidence: mccormick-1956-vancomycin
-    note: "Vancomycin forms five hydrogen bonds with the D-Ala-D-Ala C-terminus of lipid II and peptidoglycan precursor pentapeptides — physically blocking transglycosylation (MurG) and transpeptidation steps; too large to be overcome by PBP mutations alone."
-  - target: 01-human/02-microbial/staphylococcus-aureus
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: treats
     evidence: liu-2011-mrsa-guidelines
     note: "MRSA (methicillin-resistant Staphylococcus aureus) expresses PBP2a (mecA gene) that is resistant to all beta-lactams; vancomycin remains first-line IV therapy for MRSA bacteremia, endocarditis, and pneumonia per IDSA guidelines."

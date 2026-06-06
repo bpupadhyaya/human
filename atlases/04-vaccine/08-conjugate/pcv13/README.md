@@ -6,7 +6,7 @@ atlas: 04-vaccine
 platform: 08-conjugate
 status: active
 last_reviewed: 2026-06-06
-summary: "13-valent pneumococcal conjugate vaccine (PCV13 / Prevnar 13); polysaccharide capsular antigens from 13 Streptococcus pneumoniae serotypes individually conjugated to the CRM197 diphtheria toxoid carrier protein. Converts T-cell-independent polysaccharide response to T-cell-dependent, enabling immune memory and effective immunisation of infants under 2 years. Replaced PCV7 (7 serotypes, 2000–2010) in most national programs 2010–2012. Efficacy against vaccine-type IPD: >75% in IMPACT study; invasive pneumococcal disease rates in US children fell >80% following universal PCV introduction."
+summary: "13-valent pneumococcal conjugate vaccine (Prevnar 13); CPS from 13 S. pneumoniae serotypes conjugated to CRM197 toxoid. Enables T-cell-dependent infant immunization with memory. Reduced invasive pneumococcal disease >80% in children <5."
 target_pathogens:
   - streptococcus-pneumoniae
 antigens:
@@ -79,7 +79,7 @@ cross_links:
     note: ">80% reduction in vaccine-type invasive pneumococcal disease in children <5 after universal PCV introduction; herd protection extends to unvaccinated elderly."
 ---
 
-# PCV13 (Prevnar 13 / Pneumococcal Conjugate Vaccine 13-valent)
+# PCV13 (Prevnar 13)
 
 ## Overview
 
@@ -147,7 +147,7 @@ This transformation — from TI-2 to TD antigen via conjugation — is the found
 
 **Aluminium phosphate adjuvant:** PCV13 uses aluminium phosphate (distinct from the aluminium hydroxide in DTP), which enhances antigen uptake at the injection site and activates NLRP3 inflammasome-mediated innate signalling, further enhancing the adaptive response.
 
-## Immunological Mechanism
+## Immunogenicity
 
 **Opsonophagocytic killing as the primary protective mechanism:**
 

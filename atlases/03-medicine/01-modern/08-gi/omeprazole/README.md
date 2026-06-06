@@ -37,9 +37,6 @@ cross_links:
     relation: targets
     evidence: fellenius-1981-omeprazole
     note: "Omeprazole concentrates in the acidic secretory canaliculi of parietal cells, where it is protonated and converted to the active sulfenamide form that covalently binds Cys813 and Cys892 of H⁺/K⁺-ATPase, irreversibly inhibiting acid secretion."
-  - target: 03-medicine/01-modern/06-antimicrobial
-    relation: part-of
-    note: "Omeprazole is a required component of triple and quadruple H. pylori eradication regimens — it raises intragastric pH, enhancing antibiotic stability and efficacy."
 ---
 
 # Omeprazole

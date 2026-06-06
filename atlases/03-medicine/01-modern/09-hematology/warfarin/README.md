@@ -34,12 +34,8 @@ sources:
     pmid: "21900891"
     url: "https://doi.org/10.1038/clpt.2011.185"
 cross_links:
-  - target: 01-human/03-molecular/coagulation-cascade
-    relation: modulates
-    evidence: hart-2007-warfarin-af-meta
-    note: "Warfarin depletes γ-carboxylated forms of factors II (prothrombin), VII, IX, X and anticoagulant proteins C and S by blocking VKORC1 — preventing vitamin K recycling required for γ-glutamyl carboxylase activity in the liver."
   - target: 01-human/06-organ/liver
-    relation: targets
+    relation: acts-on
     note: "Liver is the primary site of warfarin action — hepatic γ-glutamyl carboxylase and VKORC1 are the molecular targets; CYP2C9 in liver microsomes is the major metabolizing enzyme."
 ---
 

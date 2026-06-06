@@ -6,7 +6,7 @@ atlas: 04-vaccine
 platform: 05-live-attenuated
 status: active
 last_reviewed: 2026-06-06
-summary: "Combined live-attenuated vaccine containing three separately propagated viruses: Edmonston B measles virus (Merck M-M-R II) or Schwarz/Moraten (Priorix), Jeryl Lynn mumps virus, and RA 27/3 rubella virus. Two-dose schedule (12–15 months + 4–6 years) achieves >97% seroconversion for all three components; 95% population coverage required for measles herd immunity. Wakefield 1998 Lancet fraud (Retracted 2010) falsely linked MMR to autism, creating a lasting vaccine hesitancy movement — definitively refuted by >15 large cohort studies including the 2019 Danish cohort (n=650,000)."
+summary: "Live-attenuated measles-mumps-rubella vaccine. Two-dose schedule achieves >97% seroconversion; 95% coverage required for measles herd immunity. Wakefield 1998 paper (retracted 2010) falsely linked MMR to autism — refuted by >15 large cohort studies."
 target_pathogens:
   - measles-virus
   - mumps-virus
@@ -70,10 +70,10 @@ sources:
     url: "https://apps.who.int/iris/handle/10665/44855"
     note: "WHO framework for measles and rubella elimination; 95% coverage threshold for herd immunity; regional elimination criteria."
 cross_links:
-  - target: 02-pathogen/01-virus/measles-virus
+  - target: 02-pathogen/01-viruses/measles-virus
     relation: immunizes-against
     note: "Edmonston B or Schwarz/Moraten strain; 97%+ seroconversion after 2 doses; measles herd immunity threshold 95% coverage (R0=12–18)."
-  - target: 02-pathogen/01-virus/varicella-zoster-virus
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: platform-peer
     note: "Both live-attenuated herpesvirus / paramyxovirus vaccines; both combined as MMRV (ProQuad / Priorix-Tetra) with VZV Oka strain; MMRV has slightly higher febrile seizure rate vs. MMR+V separately in first dose."
 ---
@@ -123,7 +123,7 @@ Mumps attenuating changes: reduced parotid tropism, reduced neurotropism; preser
 
 Developed by **Stanley Plotkin** at the Wistar Institute, Philadelphia, in 1965–1969. The strain was isolated from an aborted fetus (RA = Rubella Abortus; "27/3" = 27th specimen, 3rd explant passage) during the 1964–65 rubella pandemic — the same pandemic that caused >11,000 fetal deaths and 20,000 infants born with CRS in the US. The virus was passaged in WI-38 human diploid cells, preserving its ability to grow in human tissue while losing pathogenicity. RA 27/3 has supplanted all earlier rubella strains globally because of its superior immunogenicity (induces high-titre IgG and mucosal IgA against the E1 glycoprotein) and its long safety record.
 
-## Immunological Mechanism
+## Immunogenicity
 
 **Mechanism of attenuation and immune induction:**
 
