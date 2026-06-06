@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cancer chemotherapy — cytotoxic drug classes, combination regimens, mechanisms, and toxicity management. Alkylating agents, anthracyclines, taxanes, antimetabolites, and topoisomerase inhibitors. Part of the Human Engineering project.">
+  <meta property="og:title" content="Cancer Chemotherapy — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Cancer Chemotherapy — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #ec4899;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(236,72,153,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #be185d, #701a75); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-alk { background: rgba(220,38,38,0.12); color: #dc2626; }
+    .badge-anth { background: rgba(236,72,153,0.12); color: #ec4899; }
+    .badge-anti { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-tax { background: rgba(124,58,237,0.12); color: #7c3aed; }
+    .badge-vinca { background: rgba(5,150,105,0.12); color: #059669; }
+    .badge-topo { background: rgba(217,119,6,0.12); color: #d97706; }
+
+    .principle-box { background: rgba(236,72,153,0.07); border: 1px solid rgba(236,72,153,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .combo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .combo-grid { grid-template-columns: 1fr; } }
+    .combo-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .combo-item.solid { border-left-color: var(--eng); }
+    .combo-item.heme { border-left-color: var(--bio); }
+    .combo-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .combo-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
+    .note-box { background: rgba(236,72,153,0.07); border: 1px solid rgba(236,72,153,0.2); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-top: 0.5rem; }
+    .note-box p { font-size: 0.88rem; color: var(--fg-soft); line-height: 1.55; margin: 0; }
+    .note-box strong { color: var(--accent); }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="../index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine Atlas
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Four &middot; Medicine &middot; Cancer Pharmacology &middot; L02 Molecular</div>
+    <h1>Cancer Chemotherapy</h1>
+    <p class="tagline">Cytotoxic agents that exploit the rapid proliferation of cancer cells — the founding pharmacology of oncology. Alkylating agents, anthracyclines, taxanes, antimetabolites, and topoisomerase inhibitors — individually and in landmark combinations.</p>
+    <p class="subtagline">BEP regimen: &gt;95% cure rate in Stage I-II testicular germ cell tumors. R-CHOP: transformed DLBCL from 58% to 71% 5-year OS. FOLFOX: standard 1st-line colorectal cancer. The Skipper log-kill hypothesis and combination chemotherapy principles remain foundational to all of oncology.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">Drug Classes</span></div>
+      <div class="stat"><span class="stat-num">&gt;95%</span><span class="stat-label">Cure Stage I-II GCT (BEP)</span></div>
+      <div class="stat"><span class="stat-num">R-CHOP</span><span class="stat-label">DLBCL Standard of Care</span></div>
+      <div class="stat"><span class="stat-num">FOLFOX</span><span class="stat-label">CRC 1st-Line Backbone</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Cancer Pharmacology · Cytotoxic Chemotherapy</div>
+        <h2>Cancer Chemotherapy</h2>
+        <div class="drug-class">Scale: L02 Molecular &nbsp;|&nbsp; System: Oncology (multi-tumor) &nbsp;|&nbsp; Type: Cytotoxic agents — DNA damage, mitotic poisons, antimetabolites &nbsp;|&nbsp; Route: IV and oral</div>
+        <p class="summary">Cytotoxic chemotherapy encompasses drugs that kill rapidly dividing cells by disrupting DNA replication, repair, or mitosis. Unlike targeted therapy, cytotoxic agents are largely non-selective — they exploit the faster cell-cycle kinetics of cancer cells vs. most normal tissues but inevitably damage rapidly renewing normal tissues (bone marrow, GI mucosa, hair follicles). Despite this lack of selectivity, combination chemotherapy regimens produce curative outcomes in many hematological malignancies and solid tumors (testicular cancer, lymphoma, pediatric ALL) and substantially prolong life in many others. The Skipper log-kill hypothesis (each dose of chemotherapy kills a constant fraction, not a constant number, of tumor cells) and the Norton-Simon hypothesis (growth-rate–dependent cytotoxicity) provide the mathematical framework for dose-intensity and combination scheduling.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">cytotoxic chemotherapy</span>
+          <span class="alias-pill">cancer chemotherapy</span>
+          <span class="alias-pill">antineoplastic agents</span>
+          <span class="alias-pill">combination chemotherapy</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview — Principles of Cytotoxic Chemotherapy</h3>
+          <p>Modern combination chemotherapy emerged from two fundamental insights. First, the <strong>Skipper log-kill hypothesis</strong> (developed using L1210 leukemia in mice, 1960s): each dose of drug kills a constant <em>proportion</em> of tumor cells — not a fixed number. Therefore, to achieve cure (zero remaining cells), you must reduce tumor burden logarithmically, requiring multiple cycles at adequate dose intensity. Second, the <strong>Norton-Simon hypothesis</strong> (1977): tumor growth follows Gompertzian kinetics (faster growth at small size) — chemotherapy is most effective when tumor is small and growing fastest, providing the rationale for dose-dense and adjuvant chemotherapy.</p>
+          <p>Combination chemotherapy is superior to single agents because: (1) drugs with independent mechanisms prevent cross-resistance; (2) drugs with non-overlapping toxicities allow full-dose administration; (3) simultaneous attack on multiple cellular targets reduces the probability of selecting a resistant clone. The MOPP regimen (Hodgkin lymphoma, 1967) and the CHOP regimen (NHL, 1976) established these principles clinically, producing first cures in disseminated lymphoma.</p>
+          <p><strong>Cell cycle considerations:</strong> Cell cycle–specific agents (antimetabolites — S phase; taxanes/vincas — M phase) must be administered during the relevant phase — favoring prolonged exposure schedules. Cell cycle–nonspecific agents (alkylating agents, anthracyclines) can kill cells regardless of cycle phase — permitting bolus dosing and high dose intensity.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Drug Classes — Mechanisms and Key Agents</h3>
+          <table class="data-table">
+            <tr><th>Class</th><th>Mechanism</th><th>Key Agents</th><th>Major Toxicities</th><th>Representative Use</th></tr>
+            <tr>
+              <td><span class="badge badge-alk">Alkylating Agents</span></td>
+              <td>Covalently alkylate N7-guanine of DNA → intra-strand (GG, AG) or inter-strand crosslinks → stall replication forks → mismatch repair → apoptosis. Platinum agents form aquated electrophilic species that create GG/AG intra-strand adducts (90% of platinum-DNA adducts are intra-strand). Bifunctional alkylators (cyclophosphamide, chlorambucil) form interstrand crosslinks recognized by NER/MMR.</td>
+              <td>Cyclophosphamide, ifosfamide, melphalan, chlorambucil; <strong>Cisplatin (CDDP)</strong> — intra-strand GG adducts + inter-strand crosslinks; <strong>Carboplatin</strong> — same adduct profile, less nephrotoxic; <strong>Oxaliplatin</strong> — bulkier adducts, active in MMR-deficient tumors</td>
+              <td>Cyclophosphamide: hemorrhagic cystitis (mesna prophylaxis), myelosuppression, gonadotoxicity. <strong>Cisplatin:</strong> nephrotoxicity (aggressive hydration, amifostine), neurotoxicity (dose-limiting cumulative), ototoxicity (high-frequency hearing loss), severe N/V (NK1+5-HT3+steroid protocol). Carboplatin: thrombocytopenia AUC-based. Oxaliplatin: cumulative peripheral neuropathy (cold dysesthesia), neuropathy dose-limiting.</td>
+              <td>BEACOPP (Hodgkin), BEP (testicular GCT), MVAC (bladder), cisplatin-based neoadjuvant (bladder, head/neck), FOLFOX/XELOX (CRC), carboplatin-paclitaxel (NSCLC, ovarian), melphalan conditioning (myeloma)</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-anth">Anthracyclines</span></td>
+              <td>Dual mechanism: (1) <strong>Topoisomerase II (Top2) poisoning</strong> — intercalate into DNA and stabilize the Top2–DNA cleavable complex → DNA double-strand breaks upon Top2 dissociation; (2) <strong>Free radical generation</strong> — quinone ring redox cycling → reactive oxygen species → lipid peroxidation + oxidative DNA damage (main mechanism of cardiotoxicity). Daunorubicin/doxorubicin: broad-spectrum Top2 poisoning. Epirubicin: epimer, less cardiotoxic at equimolar doses.</td>
+              <td><strong>Doxorubicin</strong> (Adriamycin); <strong>Epirubicin</strong>; <strong>Daunorubicin</strong> (AML); <strong>Idarubicin</strong> (AML); Liposomal doxorubicin (Doxil — reduced cardiotoxicity)</td>
+              <td><strong>Cardiotoxicity</strong> — dose-dependent, cumulative; dilated cardiomyopathy at cumulative doses &gt;400–450 mg/m² doxorubicin (or equivalent); mechanism: ROS-mediated mitochondrial damage + mitochondria-rich cardiomyocytes lack catalase; dexrazoxane (iron chelator) prevents cardiotoxicity when indicated. Myelosuppression; alopecia; mucositis; vesicant (extravasation injury — dexrazoxane antidote).</td>
+              <td>ABVD (Hodgkin); R-CHOP (DLBCL); AC-T (breast — doxorubicin + cyclophosphamide → taxane); FAC/FEC (breast); CHOP; DA-EPOCH-R (aggressive NHL); AML induction (3+7: daunorubicin + ara-C)</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-anti">Antimetabolites</span></td>
+              <td>Structural analogs of nucleosides or folate — inhibit nucleotide synthesis or incorporate into DNA/RNA causing chain termination. <strong>Methotrexate:</strong> inhibits DHFR (dihydrofolate reductase) → blocks tetrahydrofolate synthesis → thymidylate and purine synthesis fail; leucovorin rescue restores normal cell folate. <strong>5-FU:</strong> inhibits thymidylate synthase (FdUMP + CH₂-THF) + RNA incorporation; leucovorin stabilizes TS-FdUMP ternary complex (FOLFOX/FOLFIRI). <strong>Pemetrexed:</strong> multi-target — TS, DHFR, GARFT; requires vitamin B12/folate supplementation. <strong>Ara-C:</strong> incorporates into DNA → DNA polymerase stall (AML); <strong>Gemcitabine:</strong> ribonucleotide reductase inhibition + DNA incorporation (pancreatic, NSCLC, bladder).</td>
+              <td>Methotrexate (ALL maintenance, osteosarcoma, DLBCL IT prophylaxis); 5-Fluorouracil (CRC, gastric, breast); Capecitabine (oral 5-FU prodrug); Pemetrexed (NSCLC non-squamous, MPM); Cytarabine/ara-C (AML, ALL CNS); Gemcitabine (NSCLC, pancreas, bladder, breast)</td>
+              <td>Methotrexate: mucositis, nephrotoxicity (high-dose), myelosuppression; leucovorin rescue mandatory for high-dose. 5-FU: hand-foot syndrome (capecitabine), diarrhea (dose-limiting with irinotecan), mucositis, DPD deficiency → fatal toxicity (DPYD testing). Pemetrexed: pneumonitis, rash. Ara-C: cerebellar toxicity (high-dose), myelosuppression. Gemcitabine: flu-like syndrome, peripheral edema, thrombotic microangiopathy (prolonged).</td>
+              <td>FOLFOX/FOLFIRI/XELOX (CRC); FOLFIRINOX (pancreatic); CMF/FAC (breast historical); ABVD contains vinblastine + dacarbazine (not antimetabolites); pemetrexed+carboplatin+pembrolizumab (non-squamous NSCLC 1st-line)</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-tax">Taxanes</span></td>
+              <td><strong>Microtubule stabilizers</strong> — bind β-tubulin at the taxane site (distinct from vinca site) → hyperstabilize microtubule polymers → prevent depolymerization at kinetochore → spindle cannot exert proper tension → spindle assembly checkpoint activation → mitotic arrest at metaphase → apoptosis via BCL-2 phosphorylation + caspase activation. At low concentrations: suppress microtubule dynamics without complete arrest → interfere with mitotic exit. Cell cycle–specific (M phase).</td>
+              <td><strong>Paclitaxel</strong> (Taxol — solvent: Cremophor EL → premedication; nab-paclitaxel: albumin-bound, no Cremophor); <strong>Docetaxel</strong> (polysorbate 80 formulation; fluid retention; weekly vs 3-weekly); <strong>Cabazitaxel</strong> (2nd-gen taxane for prostate cancer — overcomes P-gp efflux)</td>
+              <td><strong>Peripheral neuropathy</strong> (dose-limiting, cumulative; paclitaxel-associated PN most prominent, partially reversible); Myelosuppression (docetaxel more myelosuppressive; G-CSF support); Alopecia (complete in most regimens); Hypersensitivity reactions (premedicate with dexamethasone + H1/H2 antagonists; nab-paclitaxel avoids Cremophor reactions); Fluid retention (docetaxel — corticosteroid prophylaxis); Nail changes (docetaxel).</td>
+              <td>AC-T (breast — paclitaxel or docetaxel); Taxol+carboplatin (ovarian GCIG standard); FLOT (gastric/GEJ — docetaxel+5-FU+leucovorin+oxaliplatin); cabazitaxel (mCRPC post-docetaxel); nab-paclitaxel+gemcitabine (pancreatic — MPACT: OS 8.5m vs 6.7m)</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-vinca">Vinca Alkaloids</span></td>
+              <td><strong>Microtubule destabilizers</strong> — bind β-tubulin at the vinca site (GTP exchange site, distinct from taxane site) → prevent tubulin polymerization → disassembly of mitotic spindle → mitotic arrest at metaphase (metaphase block, distinct from taxane mechanism) → cells cannot complete chromosome segregation → apoptosis. Also inhibit microtubule-dependent vesicular transport (mechanism of peripheral neuropathy).</td>
+              <td><strong>Vincristine</strong> (neurotoxic — dose-capped 2 mg; CLL/lymphoma/ALL); <strong>Vinblastine</strong> (ABVD for Hodgkin); <strong>Vinorelbine</strong> (NSCLC, breast); <strong>Vindesine</strong> (pediatric, limited use)</td>
+              <td><strong>Neurotoxicity (vincristine)</strong>: peripheral sensorimotor neuropathy (dose-limiting), constipation/autonomic neuropathy, cranial nerve palsies; vincristine is NOT myelosuppressive (unique among cytotoxics). Vinblastine/vinorelbine: myelosuppression predominant; less neurotoxic than vincristine. All: alopecia; vesicant properties. Hyponatremia (vincristine — SIADH).</td>
+              <td>CHOP → R-CHOP (DLBCL, NHL); ABVD (vincristine historically replaced by vinblastine in ABVD; BV-AVD); CVP (follicular lymphoma); ALL induction (vincristine cornerstone); CMF (historical breast); MVAC (bladder)</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-topo">Topoisomerase Inhibitors</span></td>
+              <td><strong>Top1 inhibitors (camptothecins):</strong> Irinotecan (SN-38 active metabolite via CES1/2) and topotecan → stabilize Top1-DNA cleavable complex → single-strand nicks accumulate → replication fork encounters nick → DSBs → S-phase–specific cytotoxicity. UGT1A1*28 polymorphism (Gilbert variant): reduced SN-38 glucuronidation → severe diarrhea/neutropenia. <strong>Top2 inhibitors (epipodophyllotoxins):</strong> Etoposide (VP-16) → stabilize Top2-DNA complex → DSBs → G2 arrest → apoptosis (similar to anthracyclines but structurally distinct, non-intercalating).</td>
+              <td><strong>Irinotecan</strong> (CRC — FOLFIRI; SCLC); <strong>Topotecan</strong> (ovarian, SCLC 2nd-line); <strong>Etoposide</strong> (SCLC, BEP for testicular GCT, BEACOPP); Teniposide (pediatric ALL)</td>
+              <td><strong>Irinotecan:</strong> diarrhea (acute — cholinergic; delayed — SN-38 GI mucosal damage; loperamide prophylaxis for delayed); myelosuppression. Check UGT1A1*28 genotype before irinotecan (FDA label). <strong>Etoposide:</strong> myelosuppression (particularly thrombocytopenia); secondary AML (dose-dependent, via balanced MLL translocations — del 11q23 — particularly with repetitive low-dose scheduling); hypotension if infused too rapidly. <strong>Both:</strong> alopecia.</td>
+              <td>FOLFIRI (CRC 1st/2nd-line; FIRE-3, TRIBE); BEP (bleomycin+etoposide+cisplatin — testicular GCT &gt;95% cure Stage I-II); EP (SCLC — etoposide+cisplatin); BEACOPP (Hodgkin escalated — etoposide+doxorubicin+cyclophosphamide+vincristine+bleomycin+procarbazine+prednisone)</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Landmark Combination Regimens</h3>
+          <div class="combo-grid">
+            <div class="combo-item solid">
+              <h4>FOLFOX (CRC)</h4>
+              <p>5-FU bolus + leucovorin + infusional 5-FU + oxaliplatin. MOSAIC trial (André 2004): adjuvant FOLFOX vs 5-FU/LV in Stage II-III CRC — 6-yr DFS 73.3% vs 67.4% (HR 0.84); OS benefit in Stage III. 1st-line mCRC with bevacizumab: TREE/NO16966 established FOLFOX + bev backbone. mFOLFOX6 most commonly used schedule.</p>
+            </div>
+            <div class="combo-item solid">
+              <h4>FOLFIRI (CRC)</h4>
+              <p>5-FU + leucovorin + irinotecan. FIRE-3 (FOLFIRI+cetuximab vs FOLFIRI+bev in RAS-WT CRC): OS 33.1m vs 25.6m for cetuximab arm. TRIBE (FOLFIRI+bev vs FOLFOXIRI+bev): mOS 29.8m vs 25.8m FOLFOXIRI advantage. FOLFIRI and FOLFOX have equivalent efficacy in mCRC — sequence selection depends on oxaliplatin vs irinotecan toxicity profile.</p>
+            </div>
+            <div class="combo-item heme">
+              <h4>R-CHOP (DLBCL)</h4>
+              <p>Rituximab + cyclophosphamide + doxorubicin + vincristine + prednisone. GELA LNH-98.5: 10-yr OS 43.5% vs 27.6% (CHOP alone) in elderly DLBCL — rituximab addition transformed lymphoma outcomes. Standard 6-cycle R-CHOP every 21 days for most DLBCL. Dose-adjusted EPOCH-R used in high-risk subtypes (double-hit lymphoma).</p>
+            </div>
+            <div class="combo-item heme">
+              <h4>ABVD (Hodgkin Lymphoma)</h4>
+              <p>Doxorubicin (Adriamycin) + bleomycin + vinblastine + dacarbazine. ECHELON-1: brentuximab vedotin + AVD (BV-AVD) vs ABVD in advanced Hodgkin — 5-yr PFS 82.1% vs 75.3%; OS superior BV-AVD (HR 0.59). BV-AVD now preferred over ABVD for Stage III-IV (bleomycin lung toxicity avoided). ABVD remains standard in limited-stage Hodgkin.</p>
+            </div>
+            <div class="combo-item">
+              <h4>BEP (Testicular GCT)</h4>
+              <p>Bleomycin + etoposide + cisplatin — Williams et al., 1987. Stage I nonseminoma: &gt;99% cure with surveillance or adjuvant. Stage II-III: &gt;95% cure rate with BEP × 3-4 cycles — one of the highest cure rates in metastatic solid tumors. Bleomycin pulmonary toxicity risk in patients &gt;40 yo or with pre-existing lung disease → EP substitute.</p>
+            </div>
+            <div class="combo-item">
+              <h4>AC-T (Breast Cancer)</h4>
+              <p>Doxorubicin (Adriamycin) + cyclophosphamide × 4 cycles → paclitaxel × 4 cycles. NSABP B-28 and E1199 established AC-T as standard adjuvant regimen. Dose-dense AC-T (ddAC-T, q2w with G-CSF, CALGB 9741) superior to q3w: 4-yr DFS 82% vs 75%. AC-T + trastuzumab for HER2+ disease.</p>
+            </div>
+            <div class="combo-item solid">
+              <h4>MVAC (Bladder Cancer)</h4>
+              <p>Methotrexate + vinblastine + doxorubicin + cisplatin. Standard neoadjuvant cisplatin-based regimen for MIBC (SWOG 8710: OS 77m vs 46m with radical cystectomy alone). Dose-dense MVAC (ddMVAC + G-CSF) has improved tolerance and efficacy over conventional MVAC. Cisplatin eligibility (GFR ≥60, PS 0-1, no neuropathy) limits use — carboplatin-based inferior.</p>
+            </div>
+            <div class="combo-item heme">
+              <h4>BEACOPP (Hodgkin Lymphoma)</h4>
+              <p>Bleomycin + etoposide + doxorubicin + cyclophosphamide + vincristine + procarbazine + prednisone. Escalated BEACOPP (eBEACOPP, HD15): superior to COPP-ABVD/standard BEACOPP PFS but higher toxicity (secondary AML risk from etoposide, gonadotoxicity). Now largely replaced by BV-AVD in advanced Hodgkin but used in select high-risk/refractory patients. GHSG HD18: 2 cycles eBEACOPP + PET-guided escalation.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Resistance Mechanisms</h3>
+          <h4>MDR1/P-glycoprotein (P-gp) Drug Efflux</h4>
+          <p>ATP-binding cassette (ABC) transporter ABCB1 (MDR1/P-gp) pumps a broad range of hydrophobic drugs out of cells — including anthracyclines, taxanes, and vinca alkaloids. Tumor cells that upregulate MDR1 (via promoter methylation reversal, amplification) become broadly multidrug resistant. Cabazitaxel was developed as a taxane with poor P-gp affinity for use in docetaxel-resistant prostate cancer. Cyclosporine analogs (PSC-833) as P-gp inhibitors failed clinically due to toxicity and pharmacokinetic complexity.</p>
+          <h4>DNA Repair Upregulation</h4>
+          <p><strong>Nucleotide excision repair (NER)</strong> — removes platinum-DNA adducts; high ERCC1 expression predicts cisplatin resistance (extensively studied in NSCLC — but ERCC1 IHC unreliable as predictive biomarker clinically). <strong>Homologous recombination (HR)</strong> — BRCA1/2-proficient tumors repair DSBs from platinum/alkylators more efficiently. <strong>O⁶-methylguanine-DNA methyltransferase (MGMT)</strong> — repairs alkylating agent adducts at O6-guanine; MGMT promoter methylation predicts temozolomide benefit in glioblastoma (EORTC 26981).</p>
+          <h4>BCL-2 Overexpression and Apoptosis Defects</h4>
+          <p>Upregulation of anti-apoptotic BCL-2, BCL-XL, or MCL-1 → resistance to chemotherapy-induced apoptosis. MCL-1 amplification is a common resistance mechanism in myeloma and lymphoma. Venetoclax (BCL-2 inhibitor) overcomes BCL-2 overexpression — approved in AML, CLL, myeloma combinations.</p>
+          <h4>Drug Inactivation and Activation Failure</h4>
+          <p>Cytidine deaminase (CDA) inactivates ara-C and gemcitabine — CDA overexpression in AML blasts reduces intracellular ara-CTP. Deoxycytidine kinase (DCK) is required for ara-C phosphorylation to active ara-CTP — DCK loss → ara-C resistance. Thymidine phosphorylase converts capecitabine → 5-FU in tumor; low TP → reduced activation. DPD (DPYD) converts 5-FU → inactive FBAL — DPD deficiency causes severe toxicity, not resistance.</p>
+          <h4>Tumor Microenvironment Sanctuary</h4>
+          <p>Physical and cellular barriers limit drug delivery: high interstitial fluid pressure in solid tumors (driven by lack of lymphatics), collagen-rich stroma (pancreatic cancer — key basis for poor chemotherapy efficacy), tumor vasculature heterogeneity, and hypoxic regions (hypoxia reduces effectiveness of oxygen-dependent DNA damage from radiation + some chemotherapy).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Adverse Effects and Management</h3>
+          <h4>Myelosuppression</h4>
+          <p>The most common dose-limiting toxicity. Neutropenia nadir typically occurs at days 10–14 post-chemotherapy (for most regimens — varies: day 7 for cyclophosphamide; day 18-21 for BEACOPP). <strong>Febrile neutropenia (FN)</strong>: ANC &lt;500/µL + fever ≥38.3°C or ≥38.0°C × 1h — medical emergency. Risk stratification: MASCC score ≥21 = low risk → oral quinolones outpatient; MASCC &lt;21 = high risk → IV beta-lactam inpatient. <strong>G-CSF prophylaxis</strong> (filgrastim/pegfilgrastim): ASCO guidelines recommend primary prophylaxis when FN risk ≥20% (e.g., ABVD ~25%, dose-dense AC ~25%; R-CHOP with dose-dense modifications); secondary prophylaxis after prior FN episode. Thrombocytopenia: transfuse platelets &lt;10,000/µL prophylactically (&lt;50,000/µL for procedures). Anemia: ESA if Hgb &lt;10 g/dL in non-curative setting; transfuse if symptomatic.</p>
+
+          <h4>Nausea and Vomiting (CINV)</h4>
+          <p>Classified by emetogenic risk: <strong>highly emetogenic</strong> (HEC: cisplatin, AC combination, dacarbazine ≥ 90% without prophylaxis) → triple therapy: 5-HT3 antagonist (ondansetron/palonosetron) + NK1 antagonist (aprepitant/fosaprepitant) + dexamethasone ± olanzapine. <strong>Moderately emetogenic</strong> (MEC: carboplatin, oxaliplatin, irinotecan — 30–90%) → 5-HT3 + dexamethasone ± NK1 for high-risk. <strong>MASCC/ESMO/ASCO antiemetic guidelines</strong> updated 2023: olanzapine added to HEC quadruplet regimen (palonosetron + NK1 + dexa + olanzapine superior for delayed CINV). Lorazepam for anticipatory N/V.</p>
+
+          <ul class="se-list">
+            <li><strong>Mucositis</strong> — oral and GI mucosal damage; grades 1-4 (WHO/NCI CTCAE); risk highest with methotrexate, 5-FU, doxorubicin at high dose; cryotherapy (ice chips) during 5-FU bolus reduces severity; palifermin (recombinant KGF) for high-dose chemotherapy/HSCT; good oral hygiene, chlorhexidine rinses, pain management</li>
+            <li><strong>Alopecia</strong> — reversible in almost all cases after regimen completion (3–6 months); scalp cooling (Paxman, DigniCap) reduces severity with taxane/anthracycline-based regimens; complete alopecia with CHOP, AC, docetaxel regimens</li>
+            <li><strong>Gonadotoxicity and Fertility</strong> — cyclophosphamide and other alkylating agents most gonadotoxic; cisplatin-containing regimens (BEP) affect spermatogenesis (usually recovers); all patients of reproductive age should receive fertility counseling before chemotherapy; sperm/oocyte/embryo cryopreservation options (ASCO guideline); GnRH agonists (ovarian suppression) during chemotherapy may reduce gonadal damage in premenopausal women</li>
+            <li><strong>Secondary Malignancy</strong> — alkylating agents + topoisomerase II inhibitors increase risk of therapy-related myeloid neoplasms (t-AML/t-MDS): alkylator-related: monosomy 5/7, complex karyotype; Top2 inhibitor-related: balanced translocations MLL (11q23), RUNX1 (t-AML with short latency 1-3 years). Risk increases with cumulative dose and patient age. BEACOPP risk ~1-2% 10-yr t-AML risk (vs &lt;0.1% ABVD). All patients cured of lymphoma with Top2-containing regimens require periodic CBC surveillance.</li>
+          </ul>
+
+          <div class="note-box">
+            <p><strong>Tumor Lysis Syndrome (TLS):</strong> Massive cell death (especially with bulky lymphoma, ALL, AML) → release of uric acid, potassium, phosphate → hyperuricemia + hyperkalemia + hyperphosphatemia + hypocalcemia → acute kidney injury, cardiac arrhythmias. Prevention: aggressive IV hydration, allopurinol (24-48h before) or rasburicase (enzymatic uric acid conversion — not in G6PD deficiency) for high-risk patients. Cairo-Bishop classification for TLS. Monitor electrolytes and uric acid q6-8h during high-risk chemotherapy induction.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="targeted-therapy.html" class="conn-pill acts">
+              <span class="rel">Contrasted with</span>
+              Targeted Therapy
+            </a>
+            <a href="checkpoint-inhibitors.html" class="conn-pill acts">
+              <span class="rel">Combined with</span>
+              Checkpoint Inhibitors
+            </a>
+            <a href="car-t.html" class="conn-pill acts">
+              <span class="rel">Related to</span>
+              CAR-T Cell Therapy
+            </a>
+            <a href="parp-inhibitors.html" class="conn-pill targets">
+              <span class="rel">Complements</span>
+              PARP Inhibitors
+            </a>
+            <a href="cytokine-storm.html" class="conn-pill targets">
+              <span class="rel">Can cause</span>
+              Cytokine Release
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>André T, Boni C, Mounedji-Boudiaf L, et al. Oxaliplatin, fluorouracil, and leucovorin as adjuvant treatment for colon cancer (MOSAIC). <em>N Engl J Med.</em> 2004;350(23):2343-51. <a href="https://doi.org/10.1056/NEJMoa032709">doi:10.1056/NEJMoa032709</a> · PubMed 15175436</li>
+            <li>Coiffier B, Lepage E, Brière J, et al. CHOP chemotherapy plus rituximab compared with CHOP alone in elderly patients with diffuse large-B-cell lymphoma (LNH 98-5). <em>N Engl J Med.</em> 2002;346(4):235-42. <a href="https://doi.org/10.1056/NEJMoa011795">doi:10.1056/NEJMoa011795</a> · PubMed 11807147</li>
+            <li>Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma (ECHELON-1). <em>N Engl J Med.</em> 2018;378(4):331-344. <a href="https://doi.org/10.1056/NEJMoa1708984">doi:10.1056/NEJMoa1708984</a> · PubMed 29224502</li>
+            <li>Williams SD, Birch R, Einhorn LH, et al. Treatment of disseminated germ-cell tumors with cisplatin, bleomycin, and either vinblastine or etoposide (BEP). <em>N Engl J Med.</em> 1987;316(23):1435-40. <a href="https://doi.org/10.1056/NEJM198706043162301">doi:10.1056/NEJM198706043162301</a> · PubMed 2437455</li>
+            <li>Skipper HE, Schabel FM Jr, Wilcox WS. Experimental evaluation of potential anticancer agents. XIII. On the criteria and kinetics associated with "curability" of experimental leukemia. <em>Cancer Chemother Rep.</em> 1964;35:1-111. PubMed 14128553</li>
+            <li>Herrmann R, Bodoky G, Ruhstaller T, et al. Gemcitabine plus capecitabine compared with gemcitabine alone in advanced pancreatic cancer: a randomized, multicenter, phase III trial (SAKK 44/00-CECOG/PAN.1.3.001). <em>J Clin Oncol.</em> 2007;25(16):2212-7. <a href="https://doi.org/10.1200/JCO.2006.09.0936">doi:10.1200/JCO.2006.09.0936</a> · PubMed 17538165</li>
+            <li>Hershman DL, Lacchetti C, Dworkin RH, et al. Prevention and management of chemotherapy-induced peripheral neuropathy in survivors of adult cancers: ASCO clinical practice guideline. <em>J Clin Oncol.</em> 2014;32(18):1941-67. <a href="https://doi.org/10.1200/JCO.2013.54.0914">doi:10.1200/JCO.2013.54.0914</a> · PubMed 24733808</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="../index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="checkpoint-inhibitors.html">Checkpoint Inhibitors</a>
+      <a href="car-t.html">CAR-T</a>
+      <a href="targeted-therapy.html">Targeted Therapy</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
+    </div>
+    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+  </footer>
+
+</body>
+</html>

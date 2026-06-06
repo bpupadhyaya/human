@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CAR-T cell therapy — chimeric antigen receptor T cells. Structure, manufacturing, FDA-approved products, CRS/ICANS toxicity management, and emerging directions. Part of the Human Engineering project.">
+  <meta property="og:title" content="CAR-T Cell Therapy — Medicine Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>CAR-T Cell Therapy — Medicine Atlas · Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #ec4899;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(236,72,153,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #ec4899, #7e22ce); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-cd19 { background: rgba(236,72,153,0.12); color: #ec4899; }
+    .badge-bcma { background: rgba(124,58,237,0.12); color: #7c3aed; }
+    .badge-gen { background: rgba(37,99,235,0.12); color: #2563eb; }
+
+    .gen-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .gen-grid { grid-template-columns: 1fr; } }
+    .gen-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .gen-item.g2 { border-left-color: var(--eng); }
+    .gen-item.g3 { border-left-color: var(--bio); }
+    .gen-item.g4 { border-left-color: var(--ai); }
+    .gen-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .gen-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .note-box { background: rgba(236,72,153,0.07); border: 1px solid rgba(236,72,153,0.2); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-top: 0.5rem; }
+    .note-box p { font-size: 0.88rem; color: var(--fg-soft); line-height: 1.55; margin: 0; }
+    .note-box strong { color: var(--accent); }
+
+    .warn-box { background: rgba(220,38,38,0.07); border: 1px solid rgba(220,38,38,0.2); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-top: 0.5rem; }
+    .warn-box p { font-size: 0.88rem; color: var(--fg-soft); line-height: 1.55; margin: 0; }
+    .warn-box strong { color: #dc2626; }
+
+    .tox-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .tox-grid { grid-template-columns: 1fr; } }
+    .tox-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--border); }
+    .tox-item.danger { border-left-color: #dc2626; }
+    .tox-item.warn { border-left-color: #d97706; }
+    .tox-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .tox-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="../index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="medicine.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Medicine Atlas
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Four &middot; Medicine &middot; Cancer Cell Therapy &middot; L04 Cellular</div>
+    <h1>CAR-T Cell Therapy</h1>
+    <p class="tagline">Chimeric antigen receptor T cells — genetically engineered autologous T cells redirected to kill tumor cells bearing a specific surface antigen, producing remarkable remissions in hematological malignancies refractory to all prior therapies.</p>
+    <p class="subtagline">Tisagenlecleucel (Kymriah) for pediatric ALL: 81% complete remission in ELIANA. Ciltacabtagene autoleucel (Carvykti) for myeloma: 98% ORR in CARTITUDE-1. Six FDA-approved products as of 2024.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">FDA-Approved Products</span></div>
+      <div class="stat"><span class="stat-num">81%</span><span class="stat-label">CR in Pediatric r/r ALL (ELIANA)</span></div>
+      <div class="stat"><span class="stat-num">98%</span><span class="stat-label">ORR Multiple Myeloma (CARTITUDE-1)</span></div>
+      <div class="stat"><span class="stat-num">3–4 wks</span><span class="stat-label">Vein-to-Vein Time</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Cancer Cell Therapy · Adoptive Immunotherapy</div>
+        <h2>CAR-T Cell Therapy</h2>
+        <div class="drug-class">Scale: L04 Cellular &nbsp;|&nbsp; System: Hematologic/Lymphoid Malignancies &nbsp;|&nbsp; Type: Autologous engineered T cell product &nbsp;|&nbsp; Route: Intravenous infusion (post-lymphodepletion)</div>
+        <p class="summary">CAR-T cells are autologous (or allogeneic) T lymphocytes engineered to express a chimeric antigen receptor — a synthetic fusion of a tumor-targeting scFv antibody domain with T cell activation and co-stimulatory signaling domains. Unlike natural T cells that recognize peptide-MHC complexes, CAR-T cells recognize intact surface antigens on tumor cells, enabling MHC-independent cytotoxicity. FDA-approved products target CD19 (hematological B-cell malignancies) and BCMA (multiple myeloma), with pivotal trial response rates that were unprecedented in refractory disease.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">CAR-T</span>
+          <span class="alias-pill">chimeric antigen receptor T cells</span>
+          <span class="alias-pill">adoptive cell therapy</span>
+          <span class="alias-pill">gene-modified T cells</span>
+        </div>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>CAR Structure and Generations</h3>
+          <p>A chimeric antigen receptor is a modular transmembrane protein with distinct functional domains:</p>
+          <ul style="margin-left:1.2rem;margin-bottom:0.75rem;font-size:0.93rem;color:var(--fg-soft);line-height:1.7;">
+            <li><strong>Extracellular antigen-binding domain:</strong> Single-chain variable fragment (scFv) derived from the heavy and light chain variable regions of a monoclonal antibody, joined by a flexible linker. The CD19-targeting scFv (FMC63 clone) is used in tisagenlecleucel and axicabtagene. BCMA-targeting scFvs (or nanobodies in ciltacabtagene) are used in myeloma products.</li>
+            <li><strong>Hinge/spacer domain:</strong> Provides flexibility and reach; derived from IgG1/IgG4 Fc, CD8α, or CD28 sequences. Spacer length affects tumor synapse formation and antigen density requirements.</li>
+            <li><strong>Transmembrane domain:</strong> Anchors the CAR in the membrane; typically from CD8α or CD28.</li>
+            <li><strong>Intracellular signaling domains:</strong> CD3ζ (zeta) provides primary T cell activation signal (3 ITAMs); co-stimulatory domains (CD28, 4-1BB/CD137) provide survival and proliferation signals.</li>
+          </ul>
+          <h4>Generations of CAR Design</h4>
+          <div class="gen-grid">
+            <div class="gen-item">
+              <h4>1st Generation</h4>
+              <p>CD3ζ only — primary TCR signal without co-stimulation. Poor in vivo persistence; minimal clinical activity. Used in early proof-of-concept trials.</p>
+            </div>
+            <div class="gen-item g2">
+              <h4>2nd Generation (Clinical Standard)</h4>
+              <p>CD3ζ + one co-stimulatory domain: <strong>CD28</strong> (axicabtagene, brexucabtagene) or <strong>4-1BB</strong> (tisagenlecleucel, lisocabtagene). CD28: faster expansion, more effector phenotype; 4-1BB: greater persistence, central memory, less exhaustion. All FDA-approved products use 2nd-gen CARs.</p>
+            </div>
+            <div class="gen-item g3">
+              <h4>3rd Generation</h4>
+              <p>CD3ζ + two co-stimulatory domains (e.g., CD28 + 4-1BB). Enhanced activation; risk of constitutive signaling/toxicity. No approved products yet — investigational.</p>
+            </div>
+            <div class="gen-item g4">
+              <h4>4th Generation — "TRUCKs"</h4>
+              <p>T cells Redirected for Universal Cytokine-mediated Killing — express an inducible cytokine cassette (IL-12, IL-18, or others) upon CAR engagement. Designed to remodel the tumor microenvironment for solid tumor activity. Investigational.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Manufacturing Process</h3>
+          <p>CAR-T manufacturing is a complex, individualized biological process taking 3–4 weeks from leukapheresis to patient infusion ("vein-to-vein"). Each product batch is made from a single patient's own T cells, creating significant logistical and supply-chain challenges.</p>
+          <ol class="step-list">
+            <li><strong>Leukapheresis:</strong> Patient's peripheral blood mononuclear cells (PBMCs) collected by apheresis — typically yielding 1–3×10⁹ T cells. Product quality depends on prior therapy (prior CD19-targeted therapy, lymphopenia from prior treatment may compromise T cell number/quality).</li>
+            <li><strong>T cell activation:</strong> T cells activated ex vivo with anti-CD3/anti-CD28 antibody-coated beads (or soluble reagents) + recombinant IL-2 + IL-7/IL-15 → blast formation and rapid proliferation over 2-3 days.</li>
+            <li><strong>Viral transduction:</strong> Activated T cells transduced with γ-retroviral (Yescarta) or lentiviral (Kymriah, Breyanzi, Carvykti) vectors carrying the CAR transgene. Lentiviral vectors integrate more stably and randomly into the genome; semi-random integration carries a theoretical oncogenic insertion risk (occurred historically with γ-retroviral transduction in SCID-X1 trials, not observed with CAR-T products to date). Alternatively, non-viral methods include Sleeping Beauty transposon system or piggyBac — lower cost, investigational — or mRNA electroporation (transient expression, for allogeneic platforms).</li>
+            <li><strong>Ex vivo expansion:</strong> Transduced T cells expanded in bioreactors for 7–14 days in cytokine-supplemented medium → target of 1–5×10⁸ CAR-T cells (product-dependent).</li>
+            <li><strong>Quality release testing:</strong> Sterility, CAR+ T cell percentage (≥15–20% threshold), viability, identity (CD4:CD8 ratio), residual bead removal, vector copy number, transduction efficiency.</li>
+            <li><strong>Cryopreservation:</strong> Formulated in cryoprotectant (DMSO + albumin) → stored in liquid nitrogen vapor → shipped to treating center.</li>
+            <li><strong>Lymphodepletion conditioning:</strong> Patient receives fludarabine 25 mg/m²/day × 3 days + cyclophosphamide 900 mg/m²/day × 1 day (Flu/Cy) approximately 2–7 days before infusion. Lymphodepletion eliminates host lymphocytes → reduces competition for homeostatic cytokines (IL-7, IL-15) → creates "space" for CAR-T expansion (lymphopenia-induced proliferation signal).</li>
+            <li><strong>CAR-T infusion:</strong> Single IV infusion. Typical doses: 0.6–6×10⁶ CAR-T cells/kg (pediatric ALL) or fixed dose (adult DLBCL: 2×10⁸; myeloma products: various).</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h3>FDA-Approved Products</h3>
+          <table class="data-table">
+            <tr><th>Product (Brand)</th><th>Target</th><th>Indications</th><th>Key Trial Result</th></tr>
+            <tr>
+              <td><strong>Tisagenlecleucel</strong> (Kymriah)</td>
+              <td><span class="badge badge-cd19">CD19</span> 4-1BB</td>
+              <td>r/r ALL ≤25 yo; r/r DLBCL ≥2 prior lines; r/r FL ≥2 prior lines</td>
+              <td>ELIANA: 81% CR in pediatric/young adult r/r B-ALL; JULIET: 40% CR in r/r DLBCL (12m DOR 65% maintained)</td>
+            </tr>
+            <tr>
+              <td><strong>Axicabtagene ciloleucel</strong> (Yescarta)</td>
+              <td><span class="badge badge-cd19">CD19</span> CD28</td>
+              <td>r/r large B-cell lymphoma ≥2 prior lines; 2nd-line (ZUMA-7); FL ≥2 prior lines</td>
+              <td>ZUMA-1: 54% CR, 83% ORR in r/r DLBCL; ZUMA-7: EFS superiority vs SOC in 2nd-line relapsed DLBCL (median EFS 8.3m vs 2.0m)</td>
+            </tr>
+            <tr>
+              <td><strong>Brexucabtagene autoleucel</strong> (Tecartus)</td>
+              <td><span class="badge badge-cd19">CD19</span> CD28</td>
+              <td>r/r MCL; r/r B-ALL (adults)</td>
+              <td>ZUMA-2: 91% ORR, 68% CR in r/r MCL (previously ibrutinib-failed); durable responses at median 12m follow-up</td>
+            </tr>
+            <tr>
+              <td><strong>Lisocabtagene maraleucel</strong> (Breyanzi)</td>
+              <td><span class="badge badge-cd19">CD19</span> 4-1BB</td>
+              <td>r/r large B-cell lymphoma; 2nd-line (TRANSFORM); CLL (lisocabtagene, 2024)</td>
+              <td>TRANSCEND: 73% ORR, 53% CR in r/r DLBCL; defined CD4:CD8 1:1 ratio product — reduced variability; lower CRS/ICANS rate vs axi-cel in retrospective comparisons</td>
+            </tr>
+            <tr>
+              <td><strong>Idecabtagene vicleucel</strong> (Abecma)</td>
+              <td><span class="badge badge-bcma">BCMA</span> 4-1BB</td>
+              <td>r/r multiple myeloma ≥4 prior lines (now ≥2 with recent label expansion)</td>
+              <td>KarMMa: 73% ORR, 33% CR/sCR; median PFS 8.8m; first CAR-T approved for myeloma (2021)</td>
+            </tr>
+            <tr>
+              <td><strong>Ciltacabtagene autoleucel</strong> (Carvykti)</td>
+              <td><span class="badge badge-bcma">BCMA</span> (biepitopic nanobody) 4-1BB</td>
+              <td>r/r multiple myeloma ≥1 prior line (CARTITUDE-4)</td>
+              <td>CARTITUDE-1: 98% ORR, 83% ≥VGPR, 78% sCR/CR; 18-month DOR 66% maintained; deepest responses of any myeloma CAR-T product to date</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Toxicity Management</h3>
+          <h4>Cytokine Release Syndrome (CRS)</h4>
+          <p><strong>CRS</strong> is the most common serious toxicity, occurring in 70–90% of patients (most grade 1–2) and driven by massive cytokine release — primarily <strong>IL-6</strong> and <strong>IL-1</strong> — from activated CAR-T cells and bystander macrophages. It typically begins within 1–14 days of infusion, peaking around day 5–10. ASTCT (American Society for Transplantation and Cellular Therapy) grading:</p>
+          <table class="data-table" style="margin-bottom:0.75rem;">
+            <tr><th>Grade</th><th>Criteria</th><th>Management</th></tr>
+            <tr><td><strong>Grade 1</strong></td><td>Fever ≥38°C only</td><td>Supportive: antipyretics, IV fluids, monitoring</td></tr>
+            <tr><td><strong>Grade 2</strong></td><td>Fever + hypotension responding to fluids/low-dose vasopressors OR O₂ req &lt;40% FiO₂</td><td><strong>Tocilizumab</strong> 8 mg/kg IV (max 800 mg) — first-line anti-IL-6R; can repeat × 3 doses q8h. Consider corticosteroids if no response in 12–24h.</td></tr>
+            <tr><td><strong>Grade 3</strong></td><td>Hypotension requiring high-dose vasopressors OR O₂ req ≥40% FiO₂ (non-invasive)</td><td>Tocilizumab + IV methylprednisolone 1-2 mg/kg; ICU transfer; consider siltuximab if unresponsive to tocilizumab</td></tr>
+            <tr><td><strong>Grade 4</strong></td><td>Life-threatening: pressor-refractory hypotension, mechanical ventilation, organ failure</td><td>ICU; high-dose methylprednisolone 1000 mg/day; escalate to tocilizumab + anakinra (IL-1 blockade); HLH protocol if MAS features</td></tr>
+          </table>
+          <p>In ZUMA-1 (axicabtagene), grade 3-4 CRS occurred in 13% and grade 3-4 ICANS in 28%. Lisocabtagene maraleucel (Breyanzi) was designed with controlled dosing to reduce severe CRS/ICANS.</p>
+
+          <h4>ICANS — Immune Effector Cell-Associated Neurotoxicity Syndrome</h4>
+          <p>ICANS is a potentially life-threatening neurological toxicity, typically peaking at days 5–14, often after CRS has resolved. Mechanism: disruption of blood-brain barrier by cytokines → monocyte/macrophage and T cell brain infiltration → cerebral edema. <strong>ICE Score</strong> assesses orientation, naming, commands, writing, and attention (0–10; higher = better). Severe ICANS (grade 4) may include seizures, cerebral edema, and coma. Management: dexamethasone (first-line for ICANS, not tocilizumab); grade ≥3: high-dose methylprednisolone; intracranial hypertension protocol for cerebral edema. Unlike CRS, tocilizumab does NOT cross the BBB and is ineffective for ICANS — steroids are the cornerstone.</p>
+
+          <div class="tox-grid">
+            <div class="tox-item warn">
+              <h4>Prolonged Cytopenias</h4>
+              <p>Persistent grade 3-4 neutropenia/thrombocytopenia beyond day 30 in 40–50% of DLBCL patients. Mechanism: lymphodepletion + bone marrow suppression from inflammatory cytokines. G-CSF support; consider GCSF mobilization or SCT as recovery bridge.</p>
+            </div>
+            <div class="tox-item warn">
+              <h4>B Cell Aplasia / Hypogammaglobulinemia</h4>
+              <p>On-target, off-tumor effect of CD19 CAR-T cells — persistent B cell aplasia → hypogammaglobulinemia → recurrent infections. IVIG prophylaxis (monthly) until B cell reconstitution. May persist years in durable remissions.</p>
+            </div>
+            <div class="tox-item danger">
+              <h4>HLH / Macrophage Activation Syndrome</h4>
+              <p>Occurs in severe CRS. Hyperferritinemia (>10,000 µg/L), bicytopenia, splenomegaly, hepatitis, fibrinogen fall. Anakinra (IL-1 blockade) ± etoposide; requires urgent specialist management.</p>
+            </div>
+            <div class="tox-item">
+              <h4>Tumor Lysis Syndrome</h4>
+              <p>Particularly in high tumor burden ALL/aggressive lymphoma. Aggressive hydration + allopurinol or rasburicase pre- and post-infusion. Monitor uric acid, potassium, phosphate, creatinine.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Emerging Directions and Limitations</h3>
+          <h4>Allogeneic CAR-T ("Off-the-Shelf")</h4>
+          <p>Autologous manufacturing is slow, expensive (~$400,000–500,000 per product), and fails for 5–10% of patients with insufficient or exhausted T cells. <strong>Allogeneic CAR-T</strong> uses healthy donor T cells: CRISPR-Cas9 knockout of TCRα (TRAC locus) to eliminate graft-versus-host disease (GvHD) and HLA class I (B2M) to delay host-vs-graft rejection → potentially universal product. CRISPR-based products (e.g., NTLA-5001 for AML) are in Phase I trials. CAR-NK (natural killer cell CARs) offer another allogeneic avenue with different toxicity profile (no GvHD, no CRS from cytokines).</p>
+
+          <h4>Bispecific Antibodies as Alternative Platform</h4>
+          <p><strong>Blinatumomab</strong> (CD3×CD19 BiTE) achieves T cell redirection without ex vivo engineering or manufacturing — continuous IV infusion redirects endogenous T cells to CD19+ tumor cells. Approved for r/r B-ALL and MRD+ B-ALL. CR rates in r/r ALL ~39–44% in adults, with bridge-to-transplant intent. Less durable than CAR-T but immediately available.</p>
+
+          <h4>Solid Tumor Challenges</h4>
+          <p>CAR-T has shown limited success in solid tumors despite extensive investigation (mesothelin, GD2, HER2, EGFR, IL-13Rα2 targets). Key barriers: (1) <strong>Antigen heterogeneity</strong> — tumor escape through antigen downregulation; (2) <strong>Immunosuppressive TME</strong> — regulatory T cells, MDSCs, IDO, adenosine, TGF-β antagonize CAR-T function; (3) <strong>T cell trafficking</strong> — poor homing to solid tumor stroma; (4) <strong>CAR-T exhaustion</strong> — chronic antigen stimulation in vivo. Next-generation approaches: armored CARs (4th gen), logic-gated CARs (AND gates for dual antigen requirement), locally administered CARs (locoregional delivery), combined CAR-T + ICI (checkpoint blockade to prevent exhaustion).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="checkpoint-inhibitors.html" class="conn-pill acts">
+              <span class="rel">Related to</span>
+              Checkpoint Inhibitors
+            </a>
+            <a href="antibody.html" class="conn-pill targets">
+              <span class="rel">Uses</span>
+              Antibody (scFv domain)
+            </a>
+            <a href="mhc-ii.html" class="conn-pill acts">
+              <span class="rel">Bypasses</span>
+              MHC-II Restriction
+            </a>
+            <a href="cytokine-storm.html" class="conn-pill targets">
+              <span class="rel">Can cause</span>
+              Cytokine Storm (CRS)
+            </a>
+            <a href="t-cytotoxic-cell.html" class="conn-pill acts">
+              <span class="rel">Engineered from</span>
+              Cytotoxic T Cell
+            </a>
+            <a href="igg.html" class="conn-pill targets">
+              <span class="rel">CAR domain from</span>
+              IgG Antibody
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia (ELIANA). <em>N Engl J Med.</em> 2018;378(5):439-448. <a href="https://doi.org/10.1056/NEJMoa1709866">doi:10.1056/NEJMoa1709866</a> · PubMed 29385370</li>
+            <li>Schuster SJ, Bishop MR, Tam CS, et al. Tisagenlecleucel in adult relapsed or refractory diffuse large B-cell lymphoma (JULIET). <em>N Engl J Med.</em> 2019;380(1):45-56. <a href="https://doi.org/10.1056/NEJMoa1804980">doi:10.1056/NEJMoa1804980</a> · PubMed 30501490</li>
+            <li>Neelapu SS, Locke FL, Bartlett NL, et al. Axicabtagene ciloleucel CAR T-cell therapy in refractory large B-cell lymphoma (ZUMA-1). <em>N Engl J Med.</em> 2017;377(26):2531-2544. <a href="https://doi.org/10.1056/NEJMoa1707447">doi:10.1056/NEJMoa1707447</a> · PubMed 29226797</li>
+            <li>Locke FL, Miklos DB, Jacobson CA, et al. Axicabtagene ciloleucel as second-line therapy for large B-cell lymphoma (ZUMA-7). <em>N Engl J Med.</em> 2022;386(7):640-654. <a href="https://doi.org/10.1056/NEJMoa2116133">doi:10.1056/NEJMoa2116133</a> · PubMed 35021063</li>
+            <li>Munshi NC, Anderson LD Jr, Shah N, et al. Idecabtagene vicleucel in relapsed and refractory multiple myeloma (KarMMa). <em>N Engl J Med.</em> 2021;384(8):705-716. <a href="https://doi.org/10.1056/NEJMoa2024850">doi:10.1056/NEJMoa2024850</a> · PubMed 33626253</li>
+            <li>San-Miguel J, Dhakal B, Yong K, et al. Cilta-cel or standard care in lenalidomide-refractory multiple myeloma (CARTITUDE-4). <em>N Engl J Med.</em> 2023;389(4):335-347. <a href="https://doi.org/10.1056/NEJMoa2303379">doi:10.1056/NEJMoa2303379</a> · PubMed 37285130</li>
+            <li>Lee DW, Santomasso BD, Locke FL, et al. ASTCT consensus grading for cytokine release syndrome and neurologic toxicity associated with immune effector cells. <em>Biol Blood Marrow Transplant.</em> 2019;25(4):625-638. <a href="https://doi.org/10.1016/j.bbmt.2018.12.758">doi:10.1016/j.bbmt.2018.12.758</a> · PubMed 30592986</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Part of the <a href="../index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <div class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="checkpoint-inhibitors.html">Checkpoint Inhibitors</a>
+      <a href="targeted-therapy.html">Targeted Therapy</a>
+      <a href="cancer-chemotherapy.html">Chemotherapy</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
+    </div>
+    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+  </footer>
+
+</body>
+</html>
