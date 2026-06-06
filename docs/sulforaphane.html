@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Isothiocyanate from broccoli glucoraphanin hydrolysis; potent Nrf2 activator inducing phase II detoxification enzymes and glutathione synthesis; HDAC inhibitor ">
-  <meta property="og:title" content="Sulforaphane — Human Engineering">
+  <meta name="description" content="Sulforaphane — isothiocyanate from broccoli glucoraphanin; potent Nrf2 activator inducing phase II detoxification enzymes and glutathione synthesis; HDAC inhibitor. Part of the Human Engineering project.">
+  <meta property="og:title" content="Sulforaphane — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Sulforaphane — Human Engineering</title>
+  <title>Sulforaphane — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,59 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #065f46); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .principle-box { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +109,259 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 03-food</div>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Food &amp; Nutraceuticals</div>
     <h1>Sulforaphane</h1>
-    <p class="tagline">Isothiocyanate from broccoli glucoraphanin hydrolysis; potent Nrf2 activator inducing phase II detoxification enzymes and glutathione synthesis; HDAC inhibitor with liver-protective and anti-inflammatory activity.</p>
-    <p class="aliases">Also known as: sulforaphane, SFN, 1-isothiocyanato-4-(methylsulfinyl)butane, 4-methylsulfinylbutyl isothiocyanate, glucoraphanin (precursor), broccoli isothiocyanate, sulforaphane nitrile</p>
+    <p class="tagline">Broccoli-derived isothiocyanate — the most potent known dietary activator of the Nrf2 cytoprotective pathway, inducing phase II detoxification enzymes, glutathione synthesis, and anti-inflammatory gene expression.</p>
+    <p class="subtagline">CD value 0.2 µM at NQO1 induction — ~10× more potent than other broccoli components. Broccoli sprouts: 20–50× more glucoraphanin than mature broccoli. Qidong trial (n=291): validated carcinogen detoxification biomarkers. GSTM1 null genotype shapes SFN kinetics.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">03-food</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">0.2 µM</span><span class="stat-label">NQO1 CD value</span></div>
+      <div class="stat"><span class="stat-num">~80%</span><span class="stat-label">GI Absorption</span></div>
+      <div class="stat"><span class="stat-num">&gt;9</span><span class="stat-label">Nrf2 Target Genes</span></div>
+      <div class="stat"><span class="stat-num">n=291</span><span class="stat-label">Qidong AFB1 Trial</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">sulforaphane</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Food &amp; Nutraceuticals · Isothiocyanates</div>
         <h2>Sulforaphane</h2>
-        <p class="summary">Isothiocyanate from broccoli glucoraphanin hydrolysis; potent Nrf2 activator inducing phase II detoxification enzymes and glutathione synthesis; HDAC inhibitor with liver-protective and anti-inflammatory activity.</p>
+        <div class="drug-class">Source: Broccoli, Brassica vegetables &nbsp;|&nbsp; Active form: Sulforaphane (SFN) &nbsp;|&nbsp; Precursor: Glucoraphanin &nbsp;|&nbsp; Category: Isothiocyanate / Nrf2 inducer</div>
+        <p class="summary">Isothiocyanate generated from glucoraphanin by myrosinase upon tissue disruption. SFN covalently alkylates KEAP1 cysteines (C151, C273, C288), stabilising Nrf2 to drive ARE-mediated transcription of phase II enzymes (NQO1, HO-1, GSTs) and glutathione biosynthesis genes. Also a class I/II HDAC inhibitor; suppresses NF-κB via HO-1-derived CO; directly inhibits H. pylori. The Qidong trial (n=291, Egner 2014) demonstrated urinary reduction of aflatoxin B1-DNA adducts and mercapturic acid carcinogen metabolites — the strongest clinical evidence for dietary Phase II enzyme induction.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">SFN</span>
+          <span class="alias-pill">1-isothiocyanato-4-(methylsulfinyl)butane</span>
+          <span class="alias-pill">4-methylsulfinylbutyl isothiocyanate</span>
+          <span class="alias-pill">glucoraphanin (precursor)</span>
+          <span class="alias-pill">broccoli isothiocyanate</span>
+          <span class="alias-pill">C&#x2086;H&#x2081;&#x2081;NOS&#x2082;</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>sulforaphane</td></tr>
-            <tr><td>Name</td><td>Sulforaphane</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>03-food</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Sulforaphane</strong> (SFN; MW 177.3 Da; formula C&#x2086;H&#x2081;&#x2081;NOS&#x2082;) is an <strong>isothiocyanate</strong> — an organosulfur compound bearing the &minus;N=C=S functional group — generated enzymatically in cruciferous vegetables. Unlike most dietary bioactives that exist preformed in plant tissue, sulforaphane is a <strong>prodrug</strong> that does not exist in intact plant cells. It is produced only when plant tissue is disrupted, triggering a two-component enzymatic reaction: the stable vacuolar precursor <strong>glucoraphanin</strong> (4-methylsulfinylbutyl glucosinolate) mixes with <strong>myrosinase</strong> (&#x03B2;-thioglucosidase; EC 3.2.1.147), which hydrolyses the glucose&#x2013;sulfur bond to yield an unstable aglycone that rearranges to sulforaphane. The epithiospecifier protein (ESP) can divert this reaction to the less bioactive sulforaphane nitrile, so plant genetics, cooking method, and preparation all govern final SFN yield.</p>
+          <p>The richest dietary source is <strong>3-day-old broccoli sprouts</strong>, which contain 20&#x2013;50&#xD7; more glucoraphanin per gram than mature broccoli heads (~100&#x2013;400 mg sulforaphane potential per 28 g). Mature broccoli provides 10&#x2013;100 mg glucoraphanin per 100 g fresh weight. Myrosinase is inactivated above 60&deg;C, so <strong>boiling or microwaving destroys the enzyme</strong> — glucoraphanin survives intact but is then converted only by gut bacteria at 3&#x2013;10% of the efficiency of plant myrosinase. Brief steaming al dente, thorough chewing, or adding raw mustard powder to cooked broccoli restores SFN yield by providing exogenous myrosinase activity.</p>
+          <p>Pharmacokinetically, approximately 80% of intact SFN is absorbed in the small intestine; plasma Cmax reaches 1&#x2013;3 &#xB5;M after a broccoli sprout-based dose; t&#x00BD; ~2&#x2013;3 h. Metabolism proceeds through the <strong>mercapturic acid pathway</strong>: SFN conjugates with glutathione via glutathione-S-transferase &#x2192; GS-SFN &#x2192; Cys-SFN &#x2192; N-acetyl-Cys-SFN, excreted in urine. This urinary metabolite serves as a validated biomarker of exposure in epidemiological studies. Notably, ~50% of Caucasians carry a null GSTM1 genotype, metabolising SFN more slowly and attaining higher, more prolonged plasma SFN concentrations &#x2014; potentially yielding greater Nrf2 activation.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="liver.html" title="Sulforaphane activates Nrf2 in hepatocytes, inducing NQO1, HO-1, and glutathione-S-transferases; reduces oxidative hepatocellular damage in APAP toxicity models and attenuates NASH-related fibrosis."><span class="rel">modulates</span>Liver</a>
-            <a class="conn-pill" href="immune-system.html" title="Nrf2-mediated HO-1 induction by sulforaphane suppresses NF-κB-driven cytokine release; sulforaphane also reduces NLRP3 inflammasome activation in dendritic cells and macrophages via KEAP1/Nrf2 axis."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="nf-kb.html" title="Sulforaphane alkylates KEAP1 cysteines (C151, C273, C288), releasing Nrf2 to suppress IKK and NF-κB; also directly inhibits HDAC activity, altering chromatin accessibility at inflammatory gene promoters."><span class="rel">modulates</span>Nf Kb</a>
-            <a class="conn-pill" href="hepatocyte.html" title="Sulforaphane induces phase II detoxification enzymes (GSTM1, GSTP1, UGT1A) in hepatocytes via Nrf2/ARE, increasing xenobiotic conjugation capacity and protecting against aflatoxin B1 and APAP hepatotoxicity."><span class="rel">modulates</span>Hepatocyte</a>
+          <h3>Mechanism of Action</h3>
+          <h4>KEAP1/Nrf2 Pathway &#x2014; Central Mechanism</h4>
+          <div class="pathway-block">
+<pre>
+  Glucoraphanin (vacuole)
+       |
+       |  Myrosinase (tissue disruption: chewing / cutting)
+       v
+  Sulforaphane (SFN)  ---N=C=S electrophilic isothiocyanate
+       |
+       |  Covalent alkylation: KEAP1 Cys151, Cys273, Cys288
+       v
+  KEAP1 conformational change
+       |
+       |  Impaired CUL3-dependent Nrf2 ubiquitination
+       v
+  Nrf2 stabilises (t1/2: <20 min -> >60 min) -> nuclear translocation
+       |
+       |  Heterodimerises with small Maf; binds ARE (5'-TGACnnnGCA-3')
+       v
+  Nrf2 target gene induction:
+       |-- NQO1      (quinone reductase; CD value 0.2 uM for SFN)
+       |-- HMOX1/HO-1 (heme oxygenase -> CO + bilirubin; anti-inflammatory)
+       |-- GSTM1/GSTP1 (phase II conjugation: electrophile + GSH -> excretable)
+       |-- GCLC/GCLM (rate-limiting GSH synthesis)
+       |-- SLC7A11/xCT (cystine import -> GSH precursor)
+       |-- TXNRD1, PRDX1/6 (thioredoxin/peroxiredoxin H2O2 clearance)
+       `-- FTH1/FTL  (ferritin -> iron sequestration -> less Fenton OH*)
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;">Fahey and Talalay (1999) quantified sulforaphane's potency by the <strong>CD value</strong> &#x2014; the concentration doubling NQO1 activity in Hepa1c1c7 murine hepatoma cells &#x2014; at just <strong>0.2 &#xB5;M</strong>, approximately 10&#xD7; more potent than any other component of broccoli extracts at Nrf2-target induction.</p>
+          <ol class="step-list">
+            <li><strong>KEAP1 cysteine alkylation:</strong> SFN's &#x2212;N=C=S group forms covalent carbamate/dithiocarbamate adducts with sensor cysteines C151, C273, C288 of KEAP1 (analogous to Michael addition chemistry).</li>
+            <li><strong>Nrf2 escapes proteasomal degradation:</strong> Alkylated KEAP1 cannot ubiquitinate Nrf2 via CUL3/RBX1 complex; Nrf2 protein half-life rises from &lt;20 min to &gt;60 min.</li>
+            <li><strong>Nuclear translocation and ARE binding:</strong> Stabilised Nrf2 heterodimerises with small Maf proteins and binds ARE sequences (5&#x2019;-TGACnnnGCA-3&#x2019;) in promoters of target genes.</li>
+            <li><strong>Phase II enzyme transcription:</strong> NQO1, HO-1, GSTM1/GSTP1, GCL subunits, xCT cystine transporter, peroxiredoxins, ferritin chains &#x2014; a coordinated antioxidant and detoxification programme.</li>
+            <li><strong>Glutathione surge:</strong> Combined upregulation of GCL (rate-limiting GSH synthesis) and xCT (cystine import) substantially increases intracellular GSH &#x2014; SFN is among the most potent physiological inducers of intracellular glutathione.</li>
+          </ol>
+
+          <h4>Pleiotropic Mechanisms</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>HDAC Inhibition</h4>
+              <p>SFN inhibits class I/II HDACs (HDAC1, 2, 3, 6, 8; IC&#x2085;&#x2080; in the &#xB5;M range) &#x2192; maintained histone acetylation &#x2192; &#x2191;tumour suppressor expression (p21/CDKN1A, p27) &#x2192; G2/M arrest. Most relevant at gut lumen concentrations and high supplemental doses.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>NF-&#x03BA;B Suppression</h4>
+              <p>HO-1&#x2013;derived CO inhibits IKK &#x2192; &#x2193;I&#x03BA;B&#x03B1; phosphorylation &#x2192; &#x2193;NF-&#x03BA;B nuclear translocation. GSH elevation reduces ROS-dependent IKK activation. Net: &#x2193;TNF-&#x03B1;, &#x2193;IL-6, &#x2193;IL-1&#x03B2;, &#x2193;COX-2 in macrophages and hepatocytes.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>H. pylori Inhibition</h4>
+              <p>Direct antimicrobial activity (MIC ~4&#x2013;12 &#xB5;g/mL) via isothiocyanate reactivity with bacterial proteins. Fahey 2002 demonstrated H. pylori eradication in mouse gastric mucosa; clinical pilot data: &#x2193;H. pylori density, &#x2193;IL-8 in gastric biopsies after broccoli sprout consumption.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Apoptosis / Anti-cancer</h4>
+              <p>&#x2191;Bax/&#x2193;Bcl-2 &#x2192; cytochrome c release &#x2192; caspase-9/3; &#x2191;p21 (HDAC inhibition) &#x2192; G2/M arrest; mTOR suppression &#x2192; autophagy. Anti-androgen receptor effects in prostate cancer cells via HDAC inhibition-dependent mechanism.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Dietary Sources &amp; RDA</h3>
+          <p>Sulforaphane has no established RDA; figures below reflect glucoraphanin content and estimated SFN yield under optimal myrosinase conditions.</p>
+          <table class="data-table">
+            <tr><th>Source</th><th>Serving</th><th>Glucoraphanin / SFN Potential</th><th>Notes</th></tr>
+            <tr>
+              <td><strong>Broccoli sprouts (3-day)</strong></td>
+              <td>28 g (1 oz)</td>
+              <td>100&#x2013;400 mg SFN potential</td>
+              <td>Richest source; 20&#x2013;50&#xD7; mature broccoli; myrosinase intact</td>
+            </tr>
+            <tr>
+              <td><strong>Mature broccoli (raw)</strong></td>
+              <td>100 g</td>
+              <td>10&#x2013;100 mg glucoraphanin</td>
+              <td>Full conversion if raw; thorough chewing improves yield</td>
+            </tr>
+            <tr>
+              <td><strong>Mature broccoli (boiled)</strong></td>
+              <td>100 g</td>
+              <td>~2&#x2013;10 mg SFN equivalent</td>
+              <td>Myrosinase inactivated; only gut bacterial conversion</td>
+            </tr>
+            <tr>
+              <td><strong>Brussels sprouts (raw)</strong></td>
+              <td>100 g</td>
+              <td>High glucoraphanin</td>
+              <td>Also contains sinigrin; myrosinase intact if raw</td>
+            </tr>
+            <tr>
+              <td><strong>Kale, cabbage, cauliflower</strong></td>
+              <td>100 g</td>
+              <td>Lower but significant</td>
+              <td>Variable glucosinolate profiles; not all yield SFN specifically</td>
+            </tr>
+            <tr>
+              <td><strong>Stabilised SFN supplement</strong></td>
+              <td>Per label</td>
+              <td>~50&#x2013;400 &#xB5;mol/serving (variable)</td>
+              <td>Prefer verified glucoraphanin + active myrosinase co-formulations</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Preparation tip:</strong> Add raw mustard seed powder (~1 tsp) to cooked or microwaved broccoli &#x2014; provides exogenous myrosinase to recover SFN production from intact surviving glucoraphanin.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Evidence</h3>
+          <table class="data-table">
+            <tr><th>Trial</th><th>Design</th><th>Intervention</th><th>Key Result</th><th>GRADE</th></tr>
+            <tr>
+              <td><strong>Qidong AFB1 / Air Pollution</strong><br>(Egner et al., Cancer Prev Res 2014)</td>
+              <td>RCT; n=291; 12 wk; Jiangsu Province, China</td>
+              <td>Broccoli sprout beverage (glucoraphanin + myrosinase &#x2192; SFN in vivo)</td>
+              <td class="trial-result">Urinary benzene mercapturic acid &#x2191;61%; acrolein mercapturic acid &#x2191;23% vs. placebo. AFB1-DNA adduct biomarkers significantly reduced. Direct evidence of enhanced Phase II carcinogen detoxification.</td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+            </tr>
+            <tr>
+              <td><strong>ASD Phase II Trial</strong><br>(Singh et al., PNAS 2014)</td>
+              <td>RCT, DB-PC; n=40; 44 wk</td>
+              <td>SFN 50&#x2013;150 &#xB5;mol/day (broccoli sprout extract)</td>
+              <td class="trial-result">ABC social withdrawal (p&lt;0.001) and SRS (p=0.017) improved vs. placebo at 18 wks. Changes largely reversed post-discontinuation. <em>Not replicated</em> in larger Curtin 2022 trial (n=54, JAMA Netw Open &#x2014; primary endpoint not met).</td>
+              <td><span class="badge badge-lo">Low</span></td>
+            </tr>
+            <tr>
+              <td><strong>NAFLD RCTs</strong><br>(multiple groups; 2016&#x2013;2023)</td>
+              <td>Small RCTs, n=30&#x2013;80; 12&#x2013;24 wk</td>
+              <td>Broccoli sprout extracts ~150&#x2013;400 mg SFN equivalent/day</td>
+              <td class="trial-result">Consistent directional effect: &#x2193;ALT, &#x2193;AST, &#x2193;&#x03B3;-GT; improved liver stiffness (Fibroscan) and ultrasound steatosis grading. Small samples, short follow-up.</td>
+              <td><span class="badge badge-lo">Low</span></td>
+            </tr>
+            <tr>
+              <td><strong>H. pylori Pilot</strong><br>(Fahey et al., 2002)</td>
+              <td>Pilot clinical + murine</td>
+              <td>Broccoli sprout 70 g/day</td>
+              <td class="trial-result">Eradication of H. pylori in mouse gastric mucosa; clinical pilot: &#x2193;H. pylori density and &#x2193;IL-8 in gastric biopsies.</td>
+              <td><span class="badge badge-lo">Low</span></td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>Evidence principle:</strong> The strongest clinical evidence is for <strong>carcinogen detoxification</strong> (Qidong, GRADE Moderate) using objective urinary biomarkers that directly confirm mechanistic predictions. Cancer chemoprevention and NAFLD endpoints remain low-evidence due to small samples and short follow-up. The ASD signal requires adequately powered replication before clinical application. Sulforaphane is not a drug substitute for any condition.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Deficiency &amp; Excess</h3>
+          <p>Sulforaphane is not an essential nutrient &#x2014; no recognised deficiency syndrome exists. The table covers suboptimal intake and high-dose supplemental risks.</p>
+          <table class="data-table">
+            <tr><th>Status</th><th>Signs &amp; Features</th><th>Marker</th><th>Threshold / Comment</th></tr>
+            <tr>
+              <td><strong>Low dietary intake</strong></td>
+              <td>No clinical deficiency; theoretical &#x2193;Phase II enzyme capacity, &#x2193;GSH pool, &#x2191;oxidative burden in high-exposure individuals</td>
+              <td>Urinary N-acetyl-Cys-SFN (research only)</td>
+              <td>No established threshold; typical Western diet provides minimal SFN</td>
+            </tr>
+            <tr>
+              <td><strong>Adequate / optimal intake</strong></td>
+              <td>Upregulated Nrf2 target gene expression; &#x2191;intracellular GSH; &#x2191;Phase II enzyme activity</td>
+              <td>Urinary SFN metabolites; NQO1 induction (research)</td>
+              <td>Sprout-based doses achieving plasma Cmax ~1&#x2013;3 &#xB5;M</td>
+            </tr>
+            <tr>
+              <td><strong>High-dose supplementation (&gt;400 &#xB5;mol/day)</strong></td>
+              <td>GI discomfort, nausea at very high doses; no major safety signals in Phase I/II trials to date</td>
+              <td>Clinical monitoring</td>
+              <td>CYP1A2 induction possible at prolonged high doses &#x2014; may reduce efficacy of clozapine, theophylline, duloxetine</td>
+            </tr>
+            <tr>
+              <td><strong>Iodine-deficient individuals (high dose)</strong></td>
+              <td>Theoretical goitrogenic effect: isothiocyanate competes with iodine uptake in thyroid</td>
+              <td>TSH, free T4</td>
+              <td>Not clinically significant at normal dietary doses; only relevant with concurrent iodine deficiency</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="liver.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Liver
+            </a>
+            <a href="immune-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Immune System
+            </a>
+            <a href="nf-kb.html" class="conn-pill targets">
+              <span class="rel">Targets</span>
+              NF-&#x03BA;B
+            </a>
+            <a href="hepatocyte.html" class="conn-pill">
+              <span class="rel">Acts in</span>
+              Hepatocyte
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/s0278-6915(99)00082-4" target="_blank" rel="noopener noreferrer">Fahey JW, Talalay P. Antioxidant functions of sulforaphane: a potent inducer of Phase II detoxication enzymes. Food Chem Toxicol. 1999;37(9-10):973-9.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10541453/" target="_blank" rel="noopener noreferrer">PubMed 10541453</a></li>
-            <li><a href="https://doi.org/10.1007/128_2012_339" target="_blank" rel="noopener noreferrer">Kensler TW, Egner PA, Agyeman AS, et al. Keap1-Nrf2 signaling: a target for cancer prevention by sulforaphane. Top Curr Chem. 2013;329:163-77.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22752583/" target="_blank" rel="noopener noreferrer">PubMed 22752583</a></li>
-            <li><a href="https://www.cochranelibrary.com/" target="_blank" rel="noopener noreferrer">Cochrane Database of Systematic Reviews. Various systematic reviews available at cochranelibrary.com</a></li>
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li>Fahey JW, Talalay P. Antioxidant functions of sulforaphane: a potent inducer of Phase II detoxication enzymes. <em>Food Chem Toxicol.</em> 1999;37(9-10):973-9. <a href="https://doi.org/10.1016/s0278-6915(99)00082-4" target="_blank" rel="noopener noreferrer">doi:10.1016/s0278-6915(99)00082-4</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10541453/" target="_blank" rel="noopener noreferrer">PubMed 10541453</a></li>
+            <li>Kensler TW, Egner PA, Agyeman AS, et al. Keap1-Nrf2 signaling: a target for cancer prevention by sulforaphane. <em>Top Curr Chem.</em> 2013;329:163-77. <a href="https://doi.org/10.1007/128_2012_339" target="_blank" rel="noopener noreferrer">doi:10.1007/128_2012_339</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22752583/" target="_blank" rel="noopener noreferrer">PubMed 22752583</a></li>
+            <li>Egner PA, Chen JG, Zarth AT, et al. Rapid and sustainable detoxication of airborne pollutants by broccoli sprout beverage: results of a randomized clinical trial in China. <em>Cancer Prev Res.</em> 2014;7(8):813-23. <a href="https://doi.org/10.1158/1940-6207.CAPR-14-0103" target="_blank" rel="noopener noreferrer">doi:10.1158/1940-6207.CAPR-14-0103</a></li>
+            <li>Singh K, Connors SL, Macklin EA, et al. Sulforaphane treatment of autism spectrum disorder (ASD). <em>Proc Natl Acad Sci USA.</em> 2014;111(43):15550-5. <a href="https://doi.org/10.1073/pnas.1416940111" target="_blank" rel="noopener noreferrer">doi:10.1073/pnas.1416940111</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. Chapter on oxidative stress signalling and Nrf2 pathway.</li>
           </ul>
         </div>
 
@@ -184,17 +370,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &#x2014; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="vitamin-d.html">Vitamin D</a>
+      <a href="dietary-fiber.html">Dietary Fiber</a>
+      <a href="zinc-dietary.html">Zinc</a>
+      <a href="magnesium-dietary.html">Magnesium</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

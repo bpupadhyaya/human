@@ -3,93 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Glucocorticoid receptor agonists; most potent anti-inflammatory class. Suppress NF-κB/AP-1 → ↓ cytokines, eosinophils, permeability. ICS for asthma/COPD; system">
-  <meta property="og:title" content="Corticosteroids — Human Engineering">
+  <meta name="description" content="Corticosteroids — glucocorticoid receptor agonists and the most potent anti-inflammatory drug class in medicine. Mechanism, RECOVERY trial, indications, and key agents. Part of the Human Engineering project.">
+  <meta property="og:title" content="Corticosteroids — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Corticosteroids — Human Engineering</title>
+  <title>Corticosteroids — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #0891b2;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(8,145,178,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0891b2, #0e7490); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .principle-box { background: rgba(8,145,178,0.07); border: 1px solid rgba(8,145,178,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '&#8599;'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -110,70 +128,317 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Respiratory</div>
     <h1>Corticosteroids</h1>
-    <p class="tagline">Glucocorticoid receptor agonists; most potent anti-inflammatory class. Suppress NF-κB/AP-1 → ↓ cytokines, eosinophils, permeability. ICS for asthma/COPD; systemic for acute asthma, ARDS, anaphylaxis. RECOVERY trial: dexamethasone 6 mg/d cut COVID-19 ventilator mortality 36%.</p>
-    <p class="aliases">Also known as: glucocorticoids, steroids, corticosteroids, ICS, inhaled corticosteroids, systemic corticosteroids, prednisolone, dexamethasone, budesonide, fluticasone, methylprednisolone, hydrocortisone</p>
+    <p class="tagline">Glucocorticoid receptor agonists — the most potent anti-inflammatory drug class in clinical medicine, spanning asthma, COPD, ARDS, and critical illness.</p>
+    <p class="subtagline">50&ndash;60% exacerbation reduction with ICS in asthma. 36% mortality reduction in ventilated COVID-19. 75 years of clinical use since the 1949 cortisone breakthrough.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">36%</span><span class="stat-label">Mortality &#x2193; in ventilated COVID-19</span></div>
+      <div class="stat"><span class="stat-num">50&ndash;60%</span><span class="stat-label">Exacerbation &#x2193; (ICS, asthma)</span></div>
+      <div class="stat"><span class="stat-num">1948</span><span class="stat-label">First clinical use (cortisone)</span></div>
+      <div class="stat"><span class="stat-num">6&nbsp;mg/d</span><span class="stat-label">RECOVERY dexamethasone dose</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">corticosteroids</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas &middot; Respiratory &middot; Glucocorticoid Receptor Agonists</div>
         <h2>Corticosteroids</h2>
-        <p class="summary">Glucocorticoid receptor agonists; most potent anti-inflammatory class. Suppress NF-κB/AP-1 → ↓ cytokines, eosinophils, permeability. ICS for asthma/COPD; systemic for acute asthma, ARDS, anaphylaxis. RECOVERY trial: dexamethasone 6 mg/d cut COVID-19 ventilator mortality 36%.</p>
+        <div class="drug-class">Class: Glucocorticoid receptor agonist &nbsp;|&nbsp; Route: Inhaled / Oral / IV &nbsp;|&nbsp; Status: First-line anti-inflammatory; cornerstone of asthma, COPD, and critical-care management</div>
+        <p class="summary">Glucocorticoid receptor agonists; most potent anti-inflammatory class. Suppress NF-&#954;B/AP-1 &#x2192; &#x2193; cytokines, eosinophils, vascular permeability. ICS for asthma/COPD maintenance; systemic for acute asthma, ARDS, anaphylaxis. RECOVERY trial: dexamethasone 6&nbsp;mg/d cut COVID-19 ventilator mortality 36%. Nobel Prize 1950.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">glucocorticoids</span>
+          <span class="alias-pill">steroids</span>
+          <span class="alias-pill">ICS</span>
+          <span class="alias-pill">inhaled corticosteroids</span>
+          <span class="alias-pill">prednisolone</span>
+          <span class="alias-pill">dexamethasone</span>
+          <span class="alias-pill">budesonide</span>
+          <span class="alias-pill">fluticasone</span>
+          <span class="alias-pill">methylprednisolone</span>
+          <span class="alias-pill">hydrocortisone</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>corticosteroids</td></tr>
-            <tr><td>Name</td><td>Corticosteroids</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
-            <tr><td>Stream</td><td>01-modern</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Corticosteroids</strong> (glucocorticoids used clinically) are <strong>steroid hormones that bind and activate the glucocorticoid receptor (GR, NR3C1)</strong>, producing the most potent anti-inflammatory effect of any drug class in clinical medicine. The class encompasses both <strong>endogenous cortisol</strong> (hydrocortisone) and a wide range of synthetic derivatives engineered for enhanced anti-inflammatory potency, altered pharmacokinetics, and reduced mineralocorticoid side effects.</p>
+          <p>The therapeutic era began in 1948 when Philip Hench administered <strong>compound E</strong> (cortisone) to a patient bedridden with severe rheumatoid arthritis — within two days she could walk; within weeks her debilitating disease was in remission. Hench, Kendall, and Reichstein shared the <strong>1950 Nobel Prize in Physiology or Medicine</strong> for this discovery. Within a decade, the class had been adopted across pulmonology, critical care, rheumatology, allergy, dermatology, and oncology.</p>
+          <p>In respiratory medicine specifically, two therapeutic roles define the class: <strong>inhaled corticosteroids (ICS)</strong> — budesonide, fluticasone, beclomethasone — as the cornerstone of persistent asthma maintenance (GINA Steps 2&ndash;5), reducing exacerbation rates by 50&ndash;60% and hospitalizations by approximately 80%; and <strong>systemic corticosteroids</strong> (prednisolone, methylprednisolone, dexamethasone) for acute severe asthma, COPD exacerbations, ARDS, and COVID-19 critical illness. The 2021 RECOVERY trial, demonstrating a 36% reduction in 28-day mortality in mechanically ventilated COVID-19 patients treated with dexamethasone 6&nbsp;mg/day, stands as one of the most important landmark trials of the 21st century for any respiratory indication.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="respiratory-system.html" title="Inhaled corticosteroids (ICS) are the cornerstone of persistent asthma management (GINA Steps 2–5); suppression of airway eosinophil recruitment, mast cell degranulation, mucus secretion, and bronchial hyperresponsiveness reduces exacerbation frequency by 50–60%. Systemic corticosteroids are first-line for acute severe asthma and COPD exacerbations."><span class="rel">treats</span>Respiratory System</a>
-            <a class="conn-pill" href="il-6.html" title="Corticosteroids suppress IL-6 transcription via GR-mediated transrepression of NF-κB and AP-1 at the IL-6 promoter; dexamethasone in the RECOVERY trial reduced mortality in ventilated COVID-19 patients by 36%, with the benefit attributable in part to suppression of IL-6-driven hyperinflammation."><span class="rel">modulates</span>Il 6</a>
+          <h3>Mechanism of Action</h3>
+          <h4>Genomic Pathway &mdash; GR-Mediated Transactivation and Transrepression</h4>
+          <div class="pathway-block">
+<pre>
+  Corticosteroid (lipophilic steroid)
+       |
+       |  passive diffusion across cell membrane
+       v
+  Cytoplasmic GR-HSP90 complex
+       |
+       |  ligand binding --> HSP90 dissociation
+       v
+  GR-ligand complex
+       |
+       +--- [NUCLEUS: GR homodimer] -----------------------------------------
+       |         |                                                            |
+       |         |  binds GRE (glucocorticoid response elements)             |
+       |         v                                                            |
+       |     TRANSACTIVATION                                                 |
+       |     ^ IkBa  (NF-kB inhibitor)                                      |
+       |     ^ GILZ  (anti-inflammatory mediator)                            |
+       |     ^ Annexin-1  (phospholipase A2 inhibitor)                      |
+       |     ^ MKP-1  (MAPK phosphatase -- inactivates ERK/JNK/p38)        |
+       |                                                                     |
+       +--- [NUCLEUS: GR monomer tethers NF-kB p65 / AP-1 (c-Fos/c-Jun)] -+
+                   |
+                   |  TRANSREPRESSION -- blocks binding to inflammatory promoters
+                   v
+             v TNF-a  v IL-1b  v IL-6  v IL-8
+             v COX-2  v iNOS   v VCAM-1  v ICAM-1
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;">The dual mechanism &mdash; transactivation of anti-inflammatory genes and transrepression of pro-inflammatory transcription factors &mdash; explains why corticosteroids are so broadly and potently effective. The transrepression arm (suppression of NF-&#954;B and AP-1) is responsible for most therapeutic benefit; transactivation of metabolic genes (gluconeogenesis, lipolysis, protein catabolism) accounts for many of the adverse effects seen with prolonged systemic use.</p>
+          <ol class="step-list">
+            <li><strong>GR binding:</strong> Corticosteroid diffuses through the lipophilic cell membrane and binds the cytoplasmic glucocorticoid receptor (GR), displacing HSP90 chaperones that hold GR in an inactive conformation</li>
+            <li><strong>Nuclear translocation:</strong> GR&ndash;ligand complex translocates into the nucleus; GR homodimers bind glucocorticoid response elements (GREs) in target gene promoter regions</li>
+            <li><strong>Transactivation of anti-inflammatory genes:</strong> Drives transcription of I&#954;B&#945; (sequesters NF-&#954;B in cytoplasm), GILZ, Annexin-1 (inhibits phospholipase A2), and MKP-1 (dephosphorylates and inactivates MAPK signaling)</li>
+            <li><strong>Transrepression of NF-&#954;B and AP-1:</strong> GR monomer physically tethers to NF-&#954;B p65 and AP-1 (c-Fos/c-Jun), preventing their binding to promoters of TNF-&#945;, IL-1&#946;, IL-6, IL-8, COX-2, iNOS, and endothelial adhesion molecules</li>
+            <li><strong>Non-genomic effects (minutes timescale):</strong> Membrane-associated GR signaling; cAMP elevation; relevant for rapid bronchodilator augmentation and acute anti-edema effects in anaphylaxis, before genomic effects develop</li>
+          </ol>
+
+          <h4>Net Pharmacological Effects on the Airway and Immune Response</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Airway eosinophil suppression</h4>
+              <p>Reduced eosinophil survival (promotes apoptosis) and inhibition of eotaxin-driven recruitment to the airway mucosa; primary mechanism of exacerbation prevention in eosinophilic asthma</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Cytokine storm attenuation</h4>
+              <p>Suppression of IL-6, TNF-&#945;, IL-1&#946;, IL-8 via NF-&#954;B transrepression; mechanism underlying the mortality benefit in COVID-19 hyperinflammation demonstrated by RECOVERY trial</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Vascular permeability reduction</h4>
+              <p>Upregulation of Annexin-1 inhibits phospholipase A2, reducing prostaglandins and leukotrienes; decreases mucosal edema, airway secretions, and anaphylactic vascular leak</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Beta-2 receptor upregulation</h4>
+              <p>Corticosteroids increase airway smooth muscle &#946;&#8322;-adrenergic receptor expression and prevent agonist-induced downregulation &mdash; explains the pharmacological synergy with SABA and LABA combination inhalers</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Indications</h3>
+          <p>Per GINA 2023 (asthma), GOLD 2023 (COPD), and international critical care guidelines:</p>
+          <table class="data-table">
+            <tr><th>Patient Group</th><th>Recommendation</th><th>Dosing</th></tr>
+            <tr>
+              <td><strong>Persistent asthma &mdash; maintenance</strong> (GINA Steps 2&ndash;5)</td>
+              <td>Inhaled corticosteroids (ICS) &mdash; first-line controller therapy</td>
+              <td>Low/medium/high ICS doses by agent: budesonide 200&ndash;1600&nbsp;&#956;g/day, fluticasone propionate 100&ndash;1000&nbsp;&#956;g/day, beclomethasone 200&ndash;2000&nbsp;&#956;g/day; step-up with LABA at Steps 3&ndash;4</td>
+            </tr>
+            <tr>
+              <td><strong>Acute severe asthma</strong></td>
+              <td>Systemic corticosteroids &mdash; first-line alongside bronchodilators</td>
+              <td>Oral prednisolone 40&ndash;50&nbsp;mg/day &times; 5&ndash;7 days; IV hydrocortisone 100&nbsp;mg every 6h if unable to swallow; IV methylprednisolone 40&ndash;125&nbsp;mg; reduces relapse rate after ED discharge by ~50%</td>
+            </tr>
+            <tr>
+              <td><strong>COPD exacerbation</strong> (GOLD 2023)</td>
+              <td>Systemic prednisolone &mdash; recommended for moderate&ndash;severe exacerbations</td>
+              <td>Oral prednisolone 30&ndash;40&nbsp;mg/day &times; 5 days; non-inferior to 14-day course; fewer treatment failures, shorter hospital stay vs. placebo</td>
+            </tr>
+            <tr>
+              <td><strong>COVID-19 &mdash; mechanically ventilated or supplemental O&#8322;</strong> (RECOVERY)</td>
+              <td>Dexamethasone &mdash; standard of care; WHO-recommended</td>
+              <td>Dexamethasone 6&nbsp;mg/day &times; 10 days (oral or IV); 36% &#x2193; mortality in ventilated patients; 18% &#x2193; in oxygen-only patients; no benefit (possible harm) in patients not requiring supplemental oxygen</td>
+            </tr>
+            <tr>
+              <td><strong>ARDS</strong></td>
+              <td>Dexamethasone or methylprednisolone &mdash; evidence supports use in early moderate&ndash;severe ARDS</td>
+              <td>DEXA-ARDS protocol: dexamethasone 20&nbsp;mg/day &times; 5 days then 10&nbsp;mg/day &times; 5 days; improved ventilator-free days and reduced 60-day mortality</td>
+            </tr>
+            <tr>
+              <td><strong>Anaphylaxis / severe allergic reaction</strong></td>
+              <td>Adjunct to adrenaline &mdash; used to prevent biphasic anaphylaxis</td>
+              <td>IV hydrocortisone 200&nbsp;mg or oral prednisolone 50&nbsp;mg; onset delayed relative to adrenaline; onset of genomic effects 2&ndash;4 hours; routine use debated in current guidelines</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Agents</h3>
+          <table class="data-table">
+            <tr><th>Agent</th><th>Route</th><th>Potency vs. Cortisol</th><th>Notes</th></tr>
+            <tr>
+              <td><strong>Budesonide</strong></td>
+              <td>Inhaled (DPI / MDI / nebulizer)</td>
+              <td>High ICS potency; ~11% oral bioavailability (low systemic)</td>
+              <td>Most extensively studied ICS; on WHO Essential Medicines List; nebulized form used in children under 5 and croup; reference ICS in most GINA trials</td>
+            </tr>
+            <tr>
+              <td><strong>Fluticasone propionate / furoate</strong></td>
+              <td>Inhaled (MDI / DPI)</td>
+              <td>High ICS potency; &lt;1% oral bioavailability</td>
+              <td>Fluticasone furoate (Ellipta device) once-daily; fluticasone propionate in Seretide (+ salmeterol), Relvar (+ vilanterol), Breo (+ vilanterol); widest ICS/LABA range</td>
+            </tr>
+            <tr>
+              <td><strong>Beclomethasone dipropionate</strong></td>
+              <td>Inhaled (MDI)</td>
+              <td>Moderate; activated in lung to active BMP metabolite</td>
+              <td>Longest clinical track record; extra-fine particle formulation (QVAR) achieves small-airway deposition; also in COPD triple therapy combinations</td>
+            </tr>
+            <tr>
+              <td><strong>Ciclesonide</strong></td>
+              <td>Inhaled (MDI)</td>
+              <td>Prodrug; activated by airway esterases; low oropharyngeal deposition</td>
+              <td>Lowest oral candidiasis and dysphonia risk of ICS class; once-daily dosing; minimal systemic effects; useful in patients intolerant of other ICS</td>
+            </tr>
+            <tr>
+              <td><strong>Prednisolone / prednisone</strong></td>
+              <td>Oral</td>
+              <td>4&times; cortisol; moderate mineralocorticoid activity</td>
+              <td>Standard systemic agent for COPD exacerbations, acute asthma, most inflammatory indications; prednisone is a prodrug converted hepatically to active prednisolone; widely available generically</td>
+            </tr>
+            <tr>
+              <td><strong>Dexamethasone</strong></td>
+              <td>Oral / IV</td>
+              <td>25&times; cortisol; negligible mineralocorticoid activity</td>
+              <td>RECOVERY trial agent (COVID-19); long half-life 36&ndash;54h; preferred in CNS (cerebral edema) and critical-care settings; anti-emesis in oncology; can cause significant HPA suppression due to long half-life</td>
+            </tr>
+            <tr>
+              <td><strong>Methylprednisolone</strong></td>
+              <td>IV / oral</td>
+              <td>5&times; cortisol; minimal mineralocorticoid activity</td>
+              <td>IV agent for severe asthma, status asthmaticus, ARDS (DEXA-ARDS protocol); pulse dosing (500&ndash;1000&nbsp;mg IV) in rheumatological emergencies and transplant rejection</td>
+            </tr>
+            <tr>
+              <td><strong>Hydrocortisone</strong></td>
+              <td>IV</td>
+              <td>1&times; (reference cortisol equivalent); significant mineralocorticoid activity</td>
+              <td>Anaphylaxis adjunct; low-dose (200&nbsp;mg/day infusion) septic shock with refractory vasopressor dependence; adrenal insufficiency replacement; fastest onset systemic agent</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Evidence Base</h3>
+          <table class="data-table">
+            <tr><th>Trial / Guideline</th><th>Drug</th><th>Population</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>RECOVERY (2021)</strong></td>
+              <td>Dexamethasone 6&nbsp;mg/d &times; 10d</td>
+              <td>6,425 hospitalized COVID-19 patients requiring oxygen or ventilation; UK multicentre open-label RCT</td>
+              <td class="trial-result">RR 0.83 overall; RR 0.64 (95% CI 0.51&ndash;0.81) in ventilated patients &mdash; 36% &#x2193; 28-day mortality. No benefit if no supplemental O&#8322; required (RR 1.22; possible harm).</td>
+            </tr>
+            <tr>
+              <td><strong>DEXA-ARDS (2020)</strong></td>
+              <td>Dexamethasone 20&nbsp;mg &rarr; 10&nbsp;mg &times; 10d</td>
+              <td>277 patients moderate&ndash;severe ARDS (PaO&#8322;/FiO&#8322; &lt;200); Spanish multicentre RCT</td>
+              <td class="trial-result">+4.8 ventilator-free days (p=0.04); 21% vs. 36% 60-day mortality (p=0.02). First dedicated ARDS RCT showing mortality benefit with corticosteroids.</td>
+            </tr>
+            <tr>
+              <td><strong>GINA 2023 (meta-evidence)</strong></td>
+              <td>ICS (budesonide, fluticasone, beclomethasone)</td>
+              <td>Persistent asthma &mdash; GINA Steps 2&ndash;5 guideline population; multiple RCTs</td>
+              <td class="trial-result">ICS reduces exacerbation rate 50&ndash;60%, hospitalizations ~80%, near-fatal asthma events; systematic review basis; no alternative controller therapy matches this benefit profile.</td>
+            </tr>
+            <tr>
+              <td><strong>GOLD 2023 (meta-evidence)</strong></td>
+              <td>Prednisolone 30&ndash;40&nbsp;mg/d &times; 5d</td>
+              <td>COPD exacerbation &mdash; moderate to severe; based on Leuppi 2013 REDUCE trial and predecessors</td>
+              <td class="trial-result">Fewer treatment failures, shorter hospital stay vs. placebo; 5-day course non-inferior to 14-day course for re-exacerbation (REDUCE trial, Leuppi 2013).</td>
+            </tr>
+            <tr>
+              <td><strong>Hench 1948&ndash;1949</strong></td>
+              <td>Cortisone (compound E)</td>
+              <td>Severe rheumatoid arthritis &mdash; clinical case series, Mayo Clinic</td>
+              <td class="trial-result">Dramatic remission in previously bedridden patients within 48&ndash;72 hours; launched the glucocorticoid era; led directly to the 1950 Nobel Prize in Physiology or Medicine.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>The Inflammatory Phase Principle:</strong> RECOVERY established that corticosteroids save lives in severe viral pneumonia only when hyperinflammation &mdash; not direct viral pathology &mdash; dominates. Dexamethasone showed no benefit and possible harm in patients not requiring supplemental oxygen, confirming the therapeutic window is the cytokine-storm phase of illness. Timing matters as much as dose: corticosteroids given during active viral replication may impair immune clearance; given in the subsequent inflammatory phase, they are life-saving. This principle likely applies across viral pneumonias and acute inflammatory lung diseases generally.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Side Effects</h3>
+          <ul class="se-list">
+            <li><span class="badge badge-hi">High (systemic)</span> <strong>HPA axis suppression</strong> &mdash; dose- and duration-dependent suppression of the hypothalamic-pituitary-adrenal axis; adrenal insufficiency on abrupt withdrawal; requires tapering for courses &gt;3 weeks; risk varies with cumulative prednisolone-equivalent dose.</li>
+            <li><span class="badge badge-hi">High (systemic)</span> <strong>Metabolic effects</strong> &mdash; hyperglycemia (new-onset or worsened in diabetic/pre-diabetic patients); weight gain and central fat redistribution; dyslipidemia; Cushingoid features (moon face, buffalo hump) with prolonged courses.</li>
+            <li><span class="badge badge-hi">High (systemic)</span> <strong>Immunosuppression</strong> &mdash; impaired neutrophil trafficking, macrophage function, and T-cell responses; increased susceptibility to bacterial, fungal (PCP, aspergillosis), and viral opportunistic infections with high-dose or prolonged use; PCP prophylaxis indicated with prednisolone &gt;20&nbsp;mg/day &gt;1 month.</li>
+            <li><span class="badge badge-mod">Moderate (long-term)</span> <strong>Osteoporosis</strong> &mdash; suppress osteoblast activity, increase osteoclast activation, reduce calcium absorption; fracture risk increases significantly with &gt;5&nbsp;mg/day prednisolone equivalent for &gt;3 months; bisphosphonate co-prescription recommended per FRAX risk guidelines.</li>
+            <li><span class="badge badge-mod">Moderate (systemic)</span> <strong>Psychiatric effects</strong> &mdash; mood elevation, euphoria, irritability, insomnia; steroid-induced psychosis with high doses (uncommon); usually reversible on dose reduction; relevant history taking required before prescribing.</li>
+            <li><span class="badge badge-mod">Moderate (chronic)</span> <strong>Cataracts and glaucoma</strong> &mdash; posterior subcapsular cataracts with chronic systemic use; elevated intraocular pressure with both systemic and high-dose ICS; ophthalmological monitoring for long-term users, particularly in patients with family history of glaucoma.</li>
+            <li><span class="badge badge-lo">Low (ICS)</span> <strong>Oropharyngeal candidiasis</strong> &mdash; local ICS deposition promotes Candida growth in the oral cavity and pharynx; mitigated by spacer device use and mouth rinsing immediately after inhalation; lowest incidence with ciclesonide and dry powder inhalers.</li>
+            <li><span class="badge badge-lo">Low (ICS)</span> <strong>Dysphonia</strong> &mdash; laryngeal myopathy from local ICS deposition on vocal cords; hoarseness and voice changes; more common with fluticasone propionate; spacers and dose reduction reduce risk substantially.</li>
+            <li><span class="badge badge-lo">Low (ICS, children)</span> <strong>Growth suppression</strong> &mdash; dose-dependent modest effect on linear growth velocity with high-dose ICS; clinically minimal at low&ndash;medium recommended doses; risk-benefit strongly favors ICS over poorly controlled asthma in all but the smallest children.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="respiratory-system.html" class="conn-pill acts">
+              <span class="rel">Treats</span>
+              Respiratory System
+            </a>
+            <a href="immune-system.html" class="conn-pill targets">
+              <span class="rel">Modulates</span>
+              Immune System
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill acts">
+              <span class="rel">Affects</span>
+              Cardiovascular System
+            </a>
+            <a href="liver.html" class="conn-pill acts">
+              <span class="rel">Metabolized by</span>
+              Liver
+            </a>
+            <a href="kidney.html" class="conn-pill acts">
+              <span class="rel">Mineralocorticoid effects on</span>
+              Kidney
+            </a>
+            <a href="beta-blockers.html" class="conn-pill acts">
+              <span class="rel">Interacts with</span>
+              Beta-blockers
+            </a>
+            <a href="statins.html" class="conn-pill acts">
+              <span class="rel">Co-prescribed with</span>
+              Statins
+            </a>
+            <a href="metformin.html" class="conn-pill acts">
+              <span class="rel">Antagonizes glucose effect of</span>
+              Metformin
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://pubmed.ncbi.nlm.nih.gov/18134783/" target="_blank" rel="noopener noreferrer">Hench PS, Kendall EC, Slocumb CH, Polley HF. The effect of a hormone of the adrenal cortex (17-hydroxy-11-dehydrocorticosterone: compound E) and of pituitary adrenocortical hormone in arthritis. Proc Staff Meet Mayo Clin. 1949;24(8):181-97.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18134783/" target="_blank" rel="noopener noreferrer">PubMed 18134783</a></li>
-            <li><a href="https://ginasthma.org/2023-gina-main-report/" target="_blank" rel="noopener noreferrer">Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. GINA; 2023.</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa2021436" target="_blank" rel="noopener noreferrer">RECOVERY Collaborative Group. Dexamethasone in Hospitalized Patients with Covid-19. N Engl J Med. 2021;384(8):693-704.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32678530/" target="_blank" rel="noopener noreferrer">PubMed 32678530</a></li>
-            <li><a href="https://goldcopd.org/2023-gold-report-2/" target="_blank" rel="noopener noreferrer">Global Initiative for Chronic Obstructive Lung Disease. Global Strategy for the Diagnosis, Management, and Prevention of COPD. GOLD; 2023.</a></li>
+            <li>Hench PS, Kendall EC, Slocumb CH, Polley HF. The effect of a hormone of the adrenal cortex (17-hydroxy-11-dehydrocorticosterone: compound E) and of pituitary adrenocortical hormone in arthritis. <em>Proc Staff Meet Mayo Clin.</em> 1949;24(8):181-97. <a href="https://pubmed.ncbi.nlm.nih.gov/18134783/">PubMed 18134783</a></li>
+            <li>RECOVERY Collaborative Group. Dexamethasone in Hospitalized Patients with Covid-19. <em>N Engl J Med.</em> 2021;384(8):693-704. <a href="https://doi.org/10.1056/NEJMoa2021436">doi:10.1056/NEJMoa2021436</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32678530/">PubMed 32678530</a></li>
+            <li>Villar J, Ferrando C, Mart&#237;nez D, et al. Dexamethasone treatment for the acute respiratory distress syndrome: a multicentre, randomised controlled trial (DEXA-ARDS). <em>Lancet Respir Med.</em> 2020;8(3):267-276. <a href="https://doi.org/10.1016/S2213-2600(19)30417-5">doi:10.1016/S2213-2600(19)30417-5</a></li>
+            <li>Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. GINA; 2023. <a href="https://ginasthma.org/2023-gina-main-report/">ginasthma.org/2023-gina-main-report/</a></li>
+            <li>Global Initiative for Chronic Obstructive Lung Disease. Global Strategy for the Diagnosis, Management, and Prevention of COPD. GOLD; 2023. <a href="https://goldcopd.org/2023-gold-report-2/">goldcopd.org/2023-gold-report-2/</a></li>
+            <li>Leuppi JD, Schuetz P, Bingisser R, et al. Short-term vs conventional glucocorticoid therapy in acute exacerbations of chronic obstructive pulmonary disease (REDUCE). <em>JAMA.</em> 2013;309(21):2223-31. <a href="https://doi.org/10.1001/jama.2013.5023">doi:10.1001/jama.2013.5023</a></li>
+            <li>Barnes PJ. Glucocorticosteroids. <em>Handb Exp Pharmacol.</em> 2017;237:93-115. Comprehensive review of genomic and non-genomic mechanisms of corticosteroid action in respiratory disease.</li>
           </ul>
         </div>
 
@@ -182,17 +447,20 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="respiratory-system.html">Respiratory System</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="statins.html">Statins</a>
+      <a href="metformin.html">Metformin</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

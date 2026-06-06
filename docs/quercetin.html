@@ -3,35 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Flavonol abundant in onions and apples; mast cell stabilizer, NF-κB inhibitor, Zn ionophore, and antiviral; bioavailability varies significantly across aglycone">
-  <meta property="og:title" content="Quercetin — Human Engineering">
+  <meta name="description" content="Quercetin — flavonol from onions, capers, and apples. Mast cell stabiliser, NF-κB/NLRP3 inhibitor, zinc ionophore. Blood pressure meta-analysis: −3 mmHg SBP. Bioavailability varies 20-fold across formulations. Part of the Human Engineering project.">
+  <meta property="og:title" content="Quercetin — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Quercetin — Human Engineering</title>
+  <title>Quercetin — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
+      --accent-dark: #047857;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +33,57 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #064e3b); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .principle-box { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent-dark); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +108,269 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 03-food</div>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Food &amp; Nutraceuticals</div>
     <h1>Quercetin</h1>
-    <p class="tagline">Flavonol abundant in onions and apples; mast cell stabilizer, NF-κB inhibitor, Zn ionophore, and antiviral; bioavailability varies significantly across aglycone vs. glycoside vs. phytosome formulations.</p>
-    <p class="aliases">Also known as: quercetin, 3,3',4',5,7-pentahydroxyflavone, quercetin aglycone, rutin (quercetin-3-rutinoside), quercitrin, isoquercetin, quercetin dihydrate, quercetin phytosome</p>
+    <p class="tagline">Flavonol from onions, capers, and apples — mast cell stabiliser via PKC/Ca²⁺ pathway inhibition, NF-κB and NLRP3 inflammasome suppressor, zinc ionophore; moderate-quality evidence for blood pressure reduction and chronic venous insufficiency.</p>
+    <p class="subtagline">C₁₅H₁₀O₇ · 3,3',4',5,7-pentahydroxyflavone &nbsp;&middot;&nbsp; Estimated 5–40 mg/day in Western diets &nbsp;&middot;&nbsp; Phytosome: ~20-fold bioavailability improvement &nbsp;&middot;&nbsp; Rutin approved in EU for chronic venous disease</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">03-food</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">−3 mmHg</span><span class="stat-label">SBP Reduction (meta-analysis)</span></div>
+      <div class="stat"><span class="stat-num">20×</span><span class="stat-label">Bioavailability ↑ (phytosome)</span></div>
+      <div class="stat"><span class="stat-num">1,800</span><span class="stat-label">mg/kg in Capers (richest source)</span></div>
+      <div class="stat"><span class="stat-num">7</span><span class="stat-label">RCTs in BP Meta-analysis</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">quercetin</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Food &amp; Nutraceuticals · Flavonol · Mast Cell Stabiliser</div>
         <h2>Quercetin</h2>
-        <p class="summary">Flavonol abundant in onions and apples; mast cell stabilizer, NF-κB inhibitor, Zn ionophore, and antiviral; bioavailability varies significantly across aglycone vs. glycoside vs. phytosome formulations.</p>
+        <div class="drug-class">Source: Onions, capers, apples, kale, berries, tea &nbsp;|&nbsp; Active forms: Aglycone, isoquercetin (glucoside), rutin (rutinoside), phytosome &nbsp;|&nbsp; Category: Flavonoid / Flavonol · Nutraceutical · Dietary supplement</div>
+        <p class="summary">Quercetin (C₁₅H₁₀O₇, MW 302.2 Da) is one of the most abundant dietary flavonoids — a 3-hydroxyflavone with a 2,3-double bond and ketone at C-4. Stabilises mast cells via PKC inhibition and Ca²⁺ influx blockade → ↓histamine, LTC4, PGD2 release from mast cells and basophils; this is mechanistically distinct from antihistamines. Inhibits NF-κB (via IKK/PI3K suppression), NLRP3 inflammasome (via ATPase inhibition), and acts as a zinc ionophore facilitating antiviral Zn²⁺-mediated RdRp inhibition. Bioavailability varies profoundly by form: aglycone (low) &lt; rutin (colonic deglycosylation required) &lt; isoquercetin/phytosome (~20-fold improvement). Clinical evidence: moderate for chronic venous insufficiency (rutin); low-moderate for blood pressure (−3 mmHg SBP meta-analysis); low for most other indications; insufficient for antiviral/COVID-19.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">quercetin</span>
+          <span class="alias-pill">quercetin aglycone</span>
+          <span class="alias-pill">3,3',4',5,7-pentahydroxyflavone</span>
+          <span class="alias-pill">rutin</span>
+          <span class="alias-pill">isoquercetin</span>
+          <span class="alias-pill">quercitrin</span>
+          <span class="alias-pill">quercetin phytosome</span>
+          <span class="alias-pill">quercetin dihydrate</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>quercetin</td></tr>
-            <tr><td>Name</td><td>Quercetin</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>03-food</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p>Quercetin (3,3',4',5,7-pentahydroxyflavone, C₁₅H₁₀O₇, MW 302.2 Da) is a <strong>flavonol</strong> — characterised by a 3-hydroxyflavone backbone with a 2,3-double bond and a ketone at position 4 in the C-ring, plus a catechol B-ring (3',4'-dihydroxyphenyl). It is one of the most abundant dietary flavonoids globally, estimated at 5–40 mg/day in typical Western diets. The richest food source by weight is <strong>capers</strong> (up to 1,800 mg/kg fresh); onions are the most practically significant common source (200–1,200 mg/kg fresh weight, predominantly in the outer layers and as quercetin glucosides). Apples, kale, broccoli, berries, and tea are also meaningful sources.</p>
+          <p>Quercetin exists in food and supplements in multiple forms with dramatically different pharmacokinetics. The <strong>aglycone</strong> (free quercetin) has low water solubility (0.0006 mg/mL) and requires intestinal β-glucosidase activity for absorption — paradoxically, it is sometimes absorbed as well as glycoside forms in certain conditions. <strong>Isoquercetin</strong> (quercetin-3-glucoside, as found in onions) is absorbed more efficiently via intestinal SGLT1 and brush-border lactase-phlorizin hydrolase. <strong>Rutin</strong> (quercetin-3-rutinoside) requires colonic bacterial α-rhamnosidase and β-glucosidase for deglycosylation — absorption is slower, more variable, and microbiome-dependent. The <strong>quercetin phytosome</strong> (QUERCEFIT; quercetin-phosphatidylcholine complex) achieves ~20-fold higher Cmax compared to aglycone in published pharmacokinetic studies. This formulation heterogeneity is a major confounder when interpreting pooled clinical evidence.</p>
+          <p>Historically, quercetin (principally as rutin-containing preparations) has been used in European phytomedicine for capillary fragility and chronic venous insufficiency. Contemporary research interest encompasses allergic conditions (mast cell stabilisation), metabolic syndrome, hypertension, and antiviral applications, though the clinical evidence base remains largely low-to-moderate quality.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="immune-system.html" title="Quercetin stabilizes mast cell membranes via PKC inhibition, reducing histamine and LTC4 release; also suppresses T-helper polarization toward Th2 and inhibits IgE-mediated degranulation pathways."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="histamine.html" title="Quercetin inhibits histamine release by blocking Ca²⁺ influx and PKC activation in mast cells and basophils; COMT inhibition by quercetin additionally prolongs catecholamine half-life in adrenergic signaling."><span class="rel">modulates</span>Histamine</a>
-            <a class="conn-pill" href="nf-kb.html" title="Quercetin blocks IKK phosphorylation and prevents IκBα degradation, inhibiting NF-κB nuclear translocation and downstream expression of TNF-α, IL-6, IL-8, and COX-2 in macrophages and epithelial cells."><span class="rel">modulates</span>Nf Kb</a>
-            <a class="conn-pill" href="macrophage.html" title="Quercetin suppresses NLRP3 inflammasome assembly and caspase-1 activation in macrophages, reducing IL-1β and IL-18 maturation; also inhibits PI3K/Akt survival signaling in activated macrophages."><span class="rel">modulates</span>Macrophage</a>
+          <h3>Mechanism of Action</h3>
+          <h4>Primary Pathways: Mast Cell Stabilisation / NF-κB / NLRP3 / Zn Ionophore</h4>
+          <div class="pathway-block">
+<pre>
+  Quercetin
+       │
+  ┌────┼────────────────────────────────────────────────────────────┐
+  │    │  Mast Cell / Basophil                                      │  Macrophage / Epithelium
+  │    ▼                                                            ▼
+  │  FcεRI cross-linking → IgE signalling                    IKK inhibition (PI3K/Akt ↓)
+  │    │                                                            │
+  │  PKC inhibition ←── Quercetin                           IκBα NOT degraded
+  │  Ca²⁺ influx blockade (SOCE, IP₃ pathway)                      │
+  │    │                                                     NF-κB trapped in cytoplasm
+  │    ▼                                                            │
+  │  ↓Degranulation: ↓Histamine, ↓Tryptase                  ↓TNF-α, ↓IL-6, ↓IL-8, ↓COX-2
+  │  ↓LTC4, ↓LTD4, ↓PGD2                                          │
+  │  (upstream of histamine release — NOT antihistamine)            │
+  │                                                                 │
+  └────────────────────────────────────────────────────────────────┘
+       │
+  ┌────┼─────────────────────────────────────────────────────────────┐
+  │    │  NLRP3 Inflammasome (macrophage)                           │  Zinc ionophore activity
+  │    ▼                                                            ▼
+  │  NLRP3 ATPase inhibition ← Quercetin               Quercetin forms lipophilic Zn²⁺ chelate
+  │  ↓ASC speck formation                                           │
+  │  ↓Caspase-1 auto-processing                           Zn²⁺ transported across membrane
+  │    │                                                            │
+  │    ▼                                                  ↑Intracellular Zn²⁺
+  │  ↓IL-1β, ↓IL-18 maturation                                     │
+  │  Relevant in gout, metabolic syndrome                 Zn²⁺ inhibits viral RdRp
+  └───────────────────────────────────────────────────────────────────┘
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:0.75rem;">
+            <li><strong>Mast cell stabilisation (PKC + Ca²⁺):</strong> Quercetin inhibits PKC and blocks IP₃-mediated Ca²⁺ release and store-operated Ca²⁺ entry (SOCE) in mast cells and basophils downstream of FcεRI — preventing exocytosis of secretory granules (histamine, tryptase, heparin) and de novo synthesis of LTC4/LTD4 and PGD2. This upstream prevention of mediator release is mechanistically distinct from antihistamines, which block H1/H2 receptors post-release.</li>
+            <li><strong>NF-κB inhibition (IKK/PI3K upstream):</strong> Quercetin inhibits PI3Kδ (IC₅₀ ~3 µM) and downstream IKK activity → IκBα not phosphorylated or ubiquitinated → NF-κB (p65/p50) remains cytoplasmic → ↓TNF-α, IL-6, IL-8, MCP-1, COX-2, iNOS, VCAM-1 transcription across macrophages, epithelial cells, and endothelium.</li>
+            <li><strong>NLRP3 inflammasome suppression:</strong> Quercetin inhibits NLRP3 ATPase activity and ASC speck formation, blocking caspase-1 auto-processing → ↓IL-1β and IL-18 maturation and secretion from macrophages. Relevant in gout (MSU crystal-activated NLRP3), metabolic syndrome, and atherosclerosis contexts.</li>
+            <li><strong>Zinc ionophore activity (antiviral proposed mechanism):</strong> Quercetin's catechol B-ring forms membrane-permeable Zn²⁺ chelate complexes, facilitating intracellular zinc accumulation; elevated intracellular Zn²⁺ inhibits RNA-dependent RNA polymerase (RdRp) of RNA viruses. Clinical antiviral efficacy in humans is not established; concentrations required far exceed standard supplement plasma levels.</li>
+          </ol>
+
+          <h4>Additional Mechanisms</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>COMT inhibition</h4>
+              <p>Quercetin's catechol-like B-ring inhibits catechol-O-methyltransferase (COMT) → ↑catecholamine half-life; structurally analogous to clinical COMT inhibitors (entacapone). Also affects catechol estrogen metabolism — COMT inhibition relevant in estrogen catechol pathways</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Antioxidant</h4>
+              <p>High ORAC value due to catechol B-ring and 3-OH/4-keto arrangement; Fe²⁺/Cu²⁺ chelation reduces Fenton-type OH• generation; H-atom and single-electron transfer radical scavenging. PAINS-like metal chelation can confound in vitro assays</p>
+            </div>
+            <div class="pleio-item">
+              <h4>PI3K/Akt/mTOR</h4>
+              <p>PI3Kδ inhibition (IC₅₀ ~3 µM) → ↓Akt → ↓mTOR → anti-proliferative and pro-autophagic effects in cancer cell lines; PI3Kδ selectivity relevant in immune cells (same target as idelalisib in B-cell malignancies)</p>
+            </div>
+            <div class="pleio-item">
+              <h4>eNOS upregulation</h4>
+              <p>Quercetin increases endothelial nitric oxide synthase (eNOS) expression and activity → ↑NO → vasodilation; proposed mechanism for blood pressure reduction in meta-analyses alongside antioxidant protection of NO from superoxide-mediated inactivation</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Dietary Sources &amp; Supplementation</h3>
+          <table class="data-table">
+            <tr>
+              <th>Food Source</th>
+              <th>Typical Quercetin Content</th>
+              <th>Bioavailability</th>
+              <th>Notes</th>
+            </tr>
+            <tr>
+              <td>Capers (raw/pickled)</td>
+              <td>Up to 1,800 mg/kg fresh weight</td>
+              <td>Moderate (aglycone predominant)</td>
+              <td>Richest common food source by weight; quercetin aglycone + rutin</td>
+            </tr>
+            <tr>
+              <td>Yellow/red onions (raw)</td>
+              <td>200–1,200 mg/kg fresh (outer layers highest)</td>
+              <td>Good; glucoside forms via SGLT1</td>
+              <td>Most significant common dietary source; quercetin-4'-glucoside dominant; cooking reduces content</td>
+            </tr>
+            <tr>
+              <td>Apple (with peel, 100 g)</td>
+              <td>~40 mg/100 g peel vs. ~10 mg/100 g flesh</td>
+              <td>Moderate</td>
+              <td>Hyperoside (quercetin-3-galactoside) predominant; peel is the key source — eat whole</td>
+            </tr>
+            <tr>
+              <td>Kale (raw, 100 g)</td>
+              <td>~50–100 mg/100 g fresh</td>
+              <td>Moderate</td>
+              <td>Quercetin-3-glucoside and rutin; also rich in kaempferol glycosides</td>
+            </tr>
+            <tr>
+              <td>Black tea (1 cup)</td>
+              <td>~2–5 mg quercetin equivalents</td>
+              <td>Moderate</td>
+              <td>Includes kaempferol and catechin co-exposure; cumulative daily intake modest</td>
+            </tr>
+            <tr>
+              <td>Quercetin aglycone supplement (500 mg)</td>
+              <td>500 mg quercetin</td>
+              <td>Low (0.0006 mg/mL solubility)</td>
+              <td>Most common supplement form; take with fatty meal; significant inter-individual variability</td>
+            </tr>
+            <tr>
+              <td>Quercetin phytosome (QUERCEFIT)</td>
+              <td>250–500 mg per capsule</td>
+              <td>~20× higher Cmax vs. aglycone</td>
+              <td>Quercetin-phosphatidylcholine complex; best-characterised enhanced formulation</td>
+            </tr>
+            <tr>
+              <td>Rutin (quercetin-3-rutinoside)</td>
+              <td>250–500 mg per tablet</td>
+              <td>Low initially; colonic deglycosylation; microbiome-dependent</td>
+              <td>Used clinically in EU for chronic venous insufficiency; Daflon contains rutin + diosmin</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Evidence</h3>
+          <table class="data-table">
+            <tr>
+              <th>Study / Indication</th>
+              <th>Design</th>
+              <th>n</th>
+              <th>Key Result</th>
+            </tr>
+            <tr>
+              <td><strong>BP meta-analysis (Serban 2016)</strong></td>
+              <td>Systematic review + meta-analysis of 7 RCTs; J Am Heart Assoc</td>
+              <td>587</td>
+              <td class="trial-result">SBP: −3.04 mmHg (95% CI −5.26 to −0.83; p=0.006); DBP: −2.63 mmHg (95% CI −3.72 to −1.53; p&lt;0.0001). Stronger at ≥500 mg/day and in metabolic syndrome. GRADE: Low–Moderate.</td>
+            </tr>
+            <tr>
+              <td><strong>Chronic venous insufficiency (Cochrane 2016)</strong></td>
+              <td>Cochrane review of 53 RCTs of flavonoids (incl. rutin/diosmin) for chronic venous disease; EU populations</td>
+              <td>&gt;5,000</td>
+              <td class="trial-result">Significant reduction in oedema and trophic skin changes vs. placebo; improvements in leg pain, heaviness, and QoL. Rutin/flavonoid preparations (Daflon) registered as medicines in EU. GRADE: Moderate.</td>
+            </tr>
+            <tr>
+              <td><strong>Inflammatory markers (Li 2014 and subsequent meta-analyses)</strong></td>
+              <td>Meta-analyses of quercetin RCTs for CRP, IL-6, TNF-α</td>
+              <td>~1,000 pooled</td>
+              <td>CRP reduction ~−0.33 mg/L (modest; not consistently significant); IL-6 reduction more consistent at ≥500 mg/day. GRADE: Low — heterogeneous formulations and populations.</td>
+            </tr>
+            <tr>
+              <td><strong>COVID-19 (Di Pierro 2021)</strong></td>
+              <td>Non-randomised observational study; quercetin phytosome 1 g/day + standard care in COVID-19 outpatients</td>
+              <td>152</td>
+              <td>Reduced hospitalisation rate vs. standard care. <strong>Very high risk of bias</strong>; not a controlled RCT. No large adequately powered blinded RCT demonstrating clinical benefit as of 2026. GRADE: Insufficient/Very Low.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Evidence summary:</strong> Quercetin has the strongest clinical evidence for <strong>chronic venous insufficiency</strong> (rutin/flavonoid preparations, Moderate) and a <strong>modest blood pressure effect</strong> (~3 mmHg SBP, Low–Moderate). Anti-inflammatory biomarker reductions are real but modest and heterogeneous (Low). The antiviral mechanism — though scientifically interesting (zinc ionophore → RdRp inhibition) — operates at concentrations far exceeding plasma levels achievable with current formulations, and clinical antiviral evidence is insufficient. The overall safety profile is good, and quercetin represents a genuinely interesting nutraceutical, but most mechanistic claims from cell-culture studies are not directly clinically translatable.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Safety &amp; Interactions</h3>
+          <ul class="se-list">
+            <li><strong>Generally safe profile:</strong> Quercetin aglycone at 500–1000 mg/day is well-tolerated in most RCTs; GI side effects (mild nausea, headache) occasionally reported but not common. Long-term safety data beyond 12 weeks are limited. No established hepatotoxicity at standard doses.</li>
+            <li><strong>Warfarin — CYP2C9 inhibition:</strong> Quercetin inhibits CYP2C9 (IC₅₀ ~1–5 µM in microsomes) → potential ↑warfarin exposure and elevated INR; monitor closely. Additive anticoagulant concern with direct oral anticoagulants and NSAIDs.</li>
+            <li><strong>Cyclosporine — significant interaction:</strong> CYP3A4 and P-glycoprotein inhibition → ↑cyclosporine AUC; clinically meaningful for this narrow therapeutic index drug. Avoid high-dose quercetin in transplant patients on cyclosporine without monitoring.</li>
+            <li><strong>Digoxin — P-gp inhibition:</strong> Quercetin inhibits P-glycoprotein → ↑digoxin intestinal absorption and ↑plasma levels; cardiac toxicity risk. Avoid concomitant use or monitor digoxin levels.</li>
+            <li><strong>Quinolone antibiotics:</strong> Quercetin inhibits organic anion transporter-mediated renal ciprofloxacin excretion → ↑ciprofloxacin exposure. Separate administration by several hours.</li>
+            <li><strong>Estrogen-containing medications:</strong> COMT inhibition may alter catechol estrogen metabolism; theoretical interaction with HRT or oral contraceptives — not clinically characterised but relevant for theoretical consideration in hormone-sensitive contexts.</li>
+            <li><strong>Iron and metal supplements:</strong> Quercetin chelates Fe³⁺, Zn²⁺, Cu²⁺; may reduce absorption of iron supplements and metal-dependent drugs when taken simultaneously. Separate dosing by ≥2 hours.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Immune System (entry pending)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Histamine (entry pending)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              NF-κB (entry pending)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Macrophage (entry pending)
+            </a>
+            <a href="curcumin.html" class="conn-pill">
+              <span class="rel">Related</span>
+              Curcumin
+            </a>
+            <a href="omega-3-fatty-acids.html" class="conn-pill">
+              <span class="rel">Related</span>
+              Omega-3 Fatty Acids
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/j.ejphar.2008.03.008" target="_blank" rel="noopener noreferrer">Boots AW, Haenen GR, Bast A. Health effects of quercetin: from antioxidant to nutraceutical. Eur J Pharmacol. 2008;585(2-3):325-37.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18417116/" target="_blank" rel="noopener noreferrer">PubMed 18417116</a></li>
-            <li><a href="https://doi.org/10.1016/0278-6915(95)00077-1" target="_blank" rel="noopener noreferrer">Formica JV, Regelson W. Review of the biology of quercetin and related bioflavonoids. Food Chem Toxicol. 1995;33(12):1061-80.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8847003/" target="_blank" rel="noopener noreferrer">PubMed 8847003</a></li>
-            <li><a href="https://www.cochranelibrary.com/" target="_blank" rel="noopener noreferrer">Cochrane Database of Systematic Reviews. Various systematic reviews available at cochranelibrary.com</a></li>
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li>Boots AW, Haenen GR, Bast A. Health effects of quercetin: from antioxidant to nutraceutical. <em>Eur J Pharmacol.</em> 2008;585(2-3):325-37. <a href="https://doi.org/10.1016/j.ejphar.2008.03.008">doi:10.1016/j.ejphar.2008.03.008</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/18417116/">PubMed 18417116</a></li>
+            <li>Formica JV, Regelson W. Review of the biology of quercetin and related bioflavonoids. <em>Food Chem Toxicol.</em> 1995;33(12):1061-80. <a href="https://doi.org/10.1016/0278-6915(95)00077-1">doi:10.1016/0278-6915(95)00077-1</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/8847003/">PubMed 8847003</a></li>
+            <li>Serban MC, Sahebkar A, Zanchetti A, et al. Effects of quercetin on blood pressure: a systematic review and meta-analysis of randomized controlled trials. <em>J Am Heart Assoc.</em> 2016;5(7):e002713. <a href="https://doi.org/10.1161/JAHA.115.002713">doi:10.1161/JAHA.115.002713</a></li>
+            <li>Martinez-Zapata MJ, Vernooij RW, Uriona Tuma SM, et al. Phlebotonics for venous insufficiency. <em>Cochrane Database Syst Rev.</em> 2016;(4):CD003229. <a href="https://doi.org/10.1002/14651858.CD003229.pub3">doi:10.1002/14651858.CD003229.pub3</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. ISBN 131911467X.</li>
           </ul>
         </div>
 
@@ -184,17 +379,20 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="omega-3-fatty-acids.html">Omega-3 Fatty Acids</a>
+      <a href="curcumin.html">Curcumin</a>
+      <a href="resveratrol.html">Resveratrol</a>
+      <a href="statins.html">Statins</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

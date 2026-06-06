@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Fermentable dietary fiber (pectin, β-glucan, inulin) is converted by gut microbiota to SCFAs — butyrate fuels colonocytes and acts as HDAC inhibitor; propionate">
-  <meta property="og:title" content="Dietary Fiber and Butyrate — Human Engineering">
+  <meta name="description" content="Dietary Fiber and Butyrate — fermentable fiber converted by gut microbiota to SCFAs; butyrate fuels colonocytes and acts as HDAC inhibitor; β-glucan reduces LDL-C; inversely associated with CRC, T2DM, and CVD. Part of the Human Engineering project.">
+  <meta property="og:title" content="Dietary Fiber — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Dietary Fiber and Butyrate — Human Engineering</title>
+  <title>Dietary Fiber — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,58 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #065f46); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .principle-box { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +108,279 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 03-food</div>
-    <h1>Dietary Fiber and Butyrate</h1>
-    <p class="tagline">Fermentable dietary fiber (pectin, β-glucan, inulin) is converted by gut microbiota to SCFAs — butyrate fuels colonocytes and acts as HDAC inhibitor; propionate and acetate regulate metabolism. Inversely associated with CRC, T2DM, and CVD.</p>
-    <p class="aliases">Also known as: dietary fibre, insoluble fiber, soluble fiber, fermentable fiber, prebiotic fiber, SCFAs, short-chain fatty acids, butyrate, propionate, acetate, β-glucan, pectin, inulin, FOS, GOS, cellulose, hemicellulose, psyllium</p>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Food &amp; Nutraceuticals</div>
+    <h1>Dietary Fiber</h1>
+    <p class="tagline">Fermentable plant polysaccharides converted by colonic microbiota to short-chain fatty acids &#x2014; butyrate fuels colonocytes and acts as an HDAC inhibitor; propionate regulates hepatic metabolism; &#x03B2;-glucan reduces LDL-C via bile acid sequestration.</p>
+    <p class="subtagline">Colonocytes derive ~70% of ATP from butyrate. 3 g/day oat &#x03B2;-glucan: FDA health claim for LDL reduction (~0.28 mmol/L). Every 10 g/day &#x2191;fiber &#x2192; ~10% &#x2193; colorectal cancer risk (WCRF Grade A). Average US intake ~15 g/day vs. 25&#x2013;38 g/day recommended.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">03-food</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~70%</span><span class="stat-label">Colonocyte ATP from Butyrate</span></div>
+      <div class="stat"><span class="stat-num">3 g/day</span><span class="stat-label">&#x03B2;-glucan LDL Health Claim</span></div>
+      <div class="stat"><span class="stat-num">~10%</span><span class="stat-label">CRC Risk &#x2193; per 10g/day</span></div>
+      <div class="stat"><span class="stat-num">60:20:20</span><span class="stat-label">Acetate:Propionate:Butyrate Ratio</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">dietary-fiber</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Food &amp; Nutraceuticals · Prebiotics &amp; Fermentable Carbohydrates</div>
         <h2>Dietary Fiber and Butyrate</h2>
-        <p class="summary">Fermentable dietary fiber (pectin, β-glucan, inulin) is converted by gut microbiota to SCFAs — butyrate fuels colonocytes and acts as HDAC inhibitor; propionate and acetate regulate metabolism. Inversely associated with CRC, T2DM, and CVD.</p>
+        <div class="drug-class">Active metabolites: SCFAs (butyrate, propionate, acetate) &nbsp;|&nbsp; Key types: Cellulose, pectin, &#x03B2;-glucan, inulin/FOS, psyllium &nbsp;|&nbsp; Category: Non-digestible plant polysaccharides / prebiotic</div>
+        <p class="summary">Dietary fiber encompasses all plant polysaccharides and oligosaccharides that resist human digestive enzymes and reach the colon intact. Insoluble fiber (cellulose, hemicellulose) increases fecal bulk and accelerates transit; soluble/fermentable fiber (pectin, &#x03B2;-glucan, inulin/FOS, psyllium) is metabolised by colonic Firmicutes and Bacteroidetes to short-chain fatty acids &#x2014; butyrate (~10&#x2013;20 mmol/L proximal colon), propionate (~20&#x2013;25 mmol/L), and acetate (~60&#x2013;70 mmol/L). Butyrate fuels colonocytes (~70% of ATP), inhibits class I/IIa HDACs, and drives Foxp3&#x207A; Treg differentiation. &#x03B2;-Glucan sequesters bile acids &#x2192; hepatic CYP7A1 &#x2191; &#x2192; LDL-R &#x2191; (FDA health claim). WCRF 2018 rates high fiber intake as Convincing evidence for colorectal cancer risk reduction.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">dietary fibre</span>
+          <span class="alias-pill">SCFAs</span>
+          <span class="alias-pill">butyrate</span>
+          <span class="alias-pill">&#x03B2;-glucan</span>
+          <span class="alias-pill">pectin</span>
+          <span class="alias-pill">inulin / FOS</span>
+          <span class="alias-pill">psyllium</span>
+          <span class="alias-pill">cellulose</span>
+          <span class="alias-pill">prebiotic fiber</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>dietary-fiber</td></tr>
-            <tr><td>Name</td><td>Dietary Fiber and Butyrate</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>03-food</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Dietary fiber</strong> encompasses all plant-derived polysaccharides and oligosaccharides that resist hydrolysis by human digestive enzymes (amylase, proteases, lipases) in the small intestine. Two functionally distinct categories have very different physiological effects:</p>
+          <p><strong>Insoluble fiber</strong> does not dissolve in water and is minimally fermented. <em>Cellulose</em> (&#x03B2;-1,4-linked glucose polymer &#x2014; the most abundant organic compound on Earth) provides structural integrity in plant cell walls and passes through the colon largely intact, increasing fecal bulk and accelerating transit, thereby reducing colonic mucosal exposure time to luminal carcinogens. <em>Hemicellulose</em> (xylans, mannans &#x2014; heterogeneous &#x03B2;-linked polysaccharides in whole grains) and <em>lignin</em> (polyphenolic polymer; entirely non-fermentable; binds carcinogens and bile acids) complete the insoluble fraction.</p>
+          <p><strong>Soluble / fermentable fiber</strong> dissolves in water to form viscous gels and is substantially fermented by colonic microbiota. <em>Pectin</em> (&#x03B1;-1,4-linked galacturonic acid; abundant in apple skin, citrus pith, berries) forms gel in the GI lumen, markedly slowing gastric emptying and attenuating postprandial glucose spikes. <em>&#x03B2;-Glucan</em> (&#x03B2;-1,3/1,4-linked glucose polymer; ~4&#x2013;8% dry weight in oat bran) is viscous and carries the FDA-approved health claim for LDL reduction. <em>Inulin and FOS</em> (&#x03B2;-2,1-linked fructose chains; 15&#x2013;20% fresh weight in chicory) are selectively fermented by Bifidobacterium and Lactobacillus &#x2014; the classic prebiotic effect. <em>Psyllium husk</em> (~85% soluble; remarkable water-holding capacity) is used therapeutically for constipation, cholesterol reduction, and glycaemic management. Recommended intake is 25&#x2013;38 g/day (IOM); average US intake is only ~15&#x2013;17 g/day.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="large-intestine.html" title="Colonocytes derive ~70% of their ATP from butyrate produced by microbial fermentation of dietary fiber; butyrate acts as HDAC inhibitor, inducing MUC2 (mucus) and tight-junction proteins (claudin-1, occludin), reinforcing epithelial barrier integrity."><span class="rel">modulates</span>Large Intestine</a>
-            <a class="conn-pill" href="digestive-system.html" title="Soluble/viscous fiber slows gastric emptying and small-intestinal transit, modulates GI motility, and feeds the colonic microbiome. Insoluble fiber increases fecal bulk and reduces colonic transit time, decreasing mucosal exposure to carcinogens."><span class="rel">modulates</span>Digestive System</a>
-            <a class="conn-pill" href="immune-system.html" title="Butyrate suppresses NF-κB in colonocytes and macrophages via HDAC inhibition, driving Foxp3+ Treg differentiation. Propionate and acetate signal via GPR41/GPR43 on immune cells. Prebiotics (inulin, FOS) increase Bifidobacterium and shape gut-associated lymphoid tissue."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="β-Glucan and pectin bind bile acids in the GI lumen, increasing hepatic LDL-receptor expression and reducing LDL-C. Propionate modulates hepatic lipogenesis via portal vein delivery. Meta-analyses show ~3-5% LDL reduction with 3 g/day oat β-glucan."><span class="rel">modulates</span>Cardiovascular System</a>
+          <h3>Mechanism of Action</h3>
+          <h4>Microbial Fermentation and SCFA Production</h4>
+          <div class="pathway-block">
+<pre>
+  Fermentable fiber (pectin, beta-glucan, inulin, FOS)
+       |
+       |  Colonic microbiota (~10^11 organisms/mL)
+       |  Bacteroidetes (Bacteroides, Prevotella): PUL-encoded CAZymes
+       |   -> depolymerisation to oligomers (selfish uptake)
+       |  Firmicutes (Roseburia, Faecalibacterium, Eubacterium):
+       |   -> cross-feeding on released oligomers
+       v
+  Anaerobic glycolysis -> Pyruvate -> Acetyl-CoA
+       |
+       |-- Acetate pathway: Acetyl-CoA -> Acetate        [~60-70 mmol/L proximal colon]
+       |-- Propionate pathway: Succinate/acrylate        [~20-25 mmol/L]
+       `-- Butyrate pathway: Acetyl-CoA -> Acetoacetyl-CoA
+             -> 3-hydroxybutyryl-CoA -> Crotonyl-CoA
+             -> Butyryl-CoA -> Butyrate                  [~10-20 mmol/L]
+
+  BUTYRATE in colonocyte (apical MCT1/SLC16A1 uptake):
+       |
+       |-- Beta-oxidation -> TCA -> OXPHOS (~70% colonocyte ATP)
+       |
+       `-- HDAC inhibition (class I/IIa: HDAC1, 2, 3, 8):
+             -> Maintained histone acetylation
+             -> MUC2 (goblet cell mucus) upregulation
+             -> Claudin-1/3, occludin (tight junctions): barrier repair
+             -> Foxp3 locus derepression -> Treg differentiation
+             -> p21/WAF1 in cancer cells -> cell cycle arrest (butyrate paradox)
+
+  PROPIONATE (portal vein -> liver):
+       -> Propionyl-CoA -> methylmalonyl-CoA -> succinyl-CoA -> TCA
+       -> Inhibits HMG-CoA reductase (modest cholesterol-lowering)
+       -> Substrate for gluconeogenesis
+
+  GPR41 (FFAR3) + GPR43 (FFAR2) signalling:
+       -> L-cells: GLP-1 + PYY secretion (incretin + satiety)
+       -> Macrophages/neutrophils: NLRP3 inflammasome suppression
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:0.75rem;">
+            <li><strong>Microbial depolymerisation:</strong> Bacteroidetes encode polysaccharide utilisation loci (PULs) with carbohydrate-active enzymes (CAZymes) that cleave fiber polymers to oligomers at the bacterial outer membrane.</li>
+            <li><strong>Cross-feeding fermentation:</strong> Released oligomers are captured by butyrate-producing Firmicutes (Roseburia intestinalis, Eubacterium rectale) &#x2014; a keystone ecological cross-feeding network.</li>
+            <li><strong>SCFA production:</strong> Anaerobic fermentation yields acetate (~60&#x2013;70%), propionate (~20%), and butyrate (~20%) at proximal colon concentrations of 50&#x2013;150 mmol/L total SCFA.</li>
+            <li><strong>Butyrate as colonocyte fuel and epigenetic regulator:</strong> Taken up by MCT1, &#x03B2;-oxidised to provide ~70% of colonocyte ATP; nuclear accumulation in Warburg-phenotype cancer cells &#x2192; HDAC inhibition &#x2192; p21 &#x2191; &#x2192; apoptosis (butyrate paradox).</li>
+            <li><strong>&#x03B2;-Glucan bile acid sequestration:</strong> Viscous gel traps bile acids in small intestinal lumen &#x2192; reduced enterohepatic return &#x2192; hepatic CYP7A1 &#x2191; &#x2192; cholesterol &#x2192; bile acids &#x2192; SREBP2 &#x2191; &#x2192; LDL-R &#x2191; &#x2192; plasma LDL-C &#x2193;.</li>
+          </ol>
+
+          <h4>Pleiotropic Actions</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Colonic Barrier Integrity</h4>
+              <p>Butyrate HDAC inhibition &#x2192; &#x2191;claudin-1/3, occludin, ZO-1 &#x2192; improved tight-junction assembly &#x2192; &#x2193;intestinal permeability. &#x2191;MUC2 from goblet cells &#x2192; thicker mucus layer &#x2192; physical barrier to luminal pathogens.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Immune Regulation</h4>
+              <p>Butyrate inhibits NF-&#x03BA;B in colonocytes and macrophages; Foxp3 locus derepression &#x2192; &#x2191;Treg. GPR41/43 on innate immune cells &#x2192; &#x2193;NLRP3 inflammasome. FOS/inulin prebiotics &#x2191;Bifidobacterium &#x2192; shapes gut-associated lymphoid tissue composition.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Glucose Homeostasis</h4>
+              <p>Viscous fiber (pectin, psyllium) slows gastric emptying &#x2192; &#x2193;postprandial glucose spike. GPR43 on L-cells &#x2192; &#x2191;GLP-1 (incretin) + &#x2191;PYY (satiety). Butyrate &#x2192; GPR43 on adipocytes &#x2192; &#x2191;insulin sensitivity. Net: lower T2DM incidence in high-fiber dietary patterns (RR ~0.75&#x2013;0.80).</p>
+            </div>
+            <div class="pleio-item">
+              <h4>LDL-C Reduction (&#x03B2;-Glucan)</h4>
+              <p>&#x03B2;-Glucan gel binds bile acids &#x2192; interrupts enterohepatic circulation &#x2192; CYP7A1 &#x2191; &#x2192; LDL-R &#x2191; &#x2192; LDL-C &#x2193; ~0.28 mmol/L per 3 g/day (Cochrane, 28+ RCTs). FDA health claim: 3 g/day oat &#x03B2;-glucan reduces coronary heart disease risk.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Dietary Sources &amp; Recommended Intake</h3>
+          <table class="data-table">
+            <tr><th>Source</th><th>Serving</th><th>Total Fiber</th><th>Key Fiber Type</th></tr>
+            <tr>
+              <td><strong>Chicory root (raw)</strong></td>
+              <td>100 g</td>
+              <td>~41 g</td>
+              <td>Inulin/FOS (prebiotic)</td>
+            </tr>
+            <tr>
+              <td><strong>Psyllium husk</strong></td>
+              <td>7 g (1 tsp)</td>
+              <td>~6 g</td>
+              <td>Soluble psyllium (~85% soluble)</td>
+            </tr>
+            <tr>
+              <td><strong>Oat bran (dry)</strong></td>
+              <td>28 g (1 oz)</td>
+              <td>~4.4 g total; ~2 g &#x03B2;-glucan</td>
+              <td>&#x03B2;-Glucan (LDL-lowering)</td>
+            </tr>
+            <tr>
+              <td><strong>Lentils (cooked)</strong></td>
+              <td>180 g (1 cup)</td>
+              <td>~15.6 g</td>
+              <td>Soluble + insoluble; resistant starch</td>
+            </tr>
+            <tr>
+              <td><strong>Black beans (cooked)</strong></td>
+              <td>172 g (1 cup)</td>
+              <td>~15 g</td>
+              <td>Soluble + insoluble</td>
+            </tr>
+            <tr>
+              <td><strong>Avocado</strong></td>
+              <td>150 g (1 medium)</td>
+              <td>~10 g</td>
+              <td>Soluble + insoluble; pectin</td>
+            </tr>
+            <tr>
+              <td><strong>Apple (with skin)</strong></td>
+              <td>182 g (1 medium)</td>
+              <td>~4.4 g</td>
+              <td>Pectin (soluble, LDL-lowering)</td>
+            </tr>
+            <tr>
+              <td><strong>Whole-wheat bread</strong></td>
+              <td>28 g (1 slice)</td>
+              <td>~1.9 g</td>
+              <td>Cellulose + hemicellulose (insoluble)</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Recommended intake:</strong> 25 g/day (women) / 38 g/day (men) &#x2014; Institute of Medicine. Average US intake ~15&#x2013;17 g/day. Gradual increase (2&#x2013;3 g increments per week) minimises fermentation-associated gas, bloating, and cramping during microbiome adaptation.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Evidence</h3>
+          <table class="data-table">
+            <tr><th>Outcome</th><th>Evidence Source</th><th>Key Result</th><th>GRADE</th></tr>
+            <tr>
+              <td><strong>Colorectal cancer (CRC)</strong></td>
+              <td>WCRF 2018 Continuous Update Project; pooled cohorts n&gt;800,000 person-years</td>
+              <td class="trial-result">Every 10 g/day fiber increment &#x2192; ~9&#x2013;10% &#x2193; CRC risk. Whole grains: Convincing (WCRF Grade A). Mechanisms: &#x2193;transit time, butyrate-induced apoptosis, altered bile acid metabolism.</td>
+              <td><span class="badge badge-hi">Strong (Grade A)</span></td>
+            </tr>
+            <tr>
+              <td><strong>LDL-C reduction (&#x03B2;-glucan)</strong></td>
+              <td>Cochrane review (Hartley 2016); 28+ RCTs</td>
+              <td class="trial-result">Soluble fiber &#x2193; LDL-C by ~0.28 mmol/L overall; oat &#x03B2;-glucan specifically &#x2193; LDL-C ~0.25&#x2013;0.30 mmol/L per 3 g/day. Consistent across trials. FDA health claim status.</td>
+              <td><span class="badge badge-hi">High</span></td>
+            </tr>
+            <tr>
+              <td><strong>Type 2 diabetes prevention</strong></td>
+              <td>Meta-analyses (Ye 2012; Aune 2015); pooled prospective cohorts</td>
+              <td class="trial-result">High vs. low fiber intake: pooled RR ~0.75&#x2013;0.80 for T2DM incidence. Cereal fiber shows strongest association. Mechanisms: incretin effect (GLP-1), &#x2193;glycaemic index, &#x2191;insulin sensitivity via GPR43/butyrate.</td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+            </tr>
+            <tr>
+              <td><strong>Cardiovascular disease</strong></td>
+              <td>EPIC-Europe (n&gt;350,000); multiple meta-analyses</td>
+              <td class="trial-result">Highest vs. lowest fiber quintile: HR 0.77 (95% CI: 0.67&#x2013;0.89) for CVD mortality (EPIC-Europe). LDL-C reduction and modest BP reduction (~1&#x2013;2 mmHg) contribute mechanistically.</td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>Evidence principle:</strong> Dietary fiber has the strongest evidence base of any macronutrient class for <strong>colorectal cancer prevention</strong> (WCRF Grade A) and <strong>LDL-C reduction with &#x03B2;-glucan</strong> (Cochrane; FDA health claim). T2DM and CVD associations are epidemiologically robust but partially confounded by healthy dietary patterns. Importantly, <strong>dietary fiber consistently outperforms fiber supplements</strong> in epidemiological studies &#x2014; whole-food matrix effects (phytochemicals, micronutrients, water) likely contribute to observed benefits beyond fiber alone.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Deficiency &amp; Excess</h3>
+          <table class="data-table">
+            <tr><th>Status</th><th>Signs &amp; Features</th><th>Marker</th><th>Threshold / Comment</th></tr>
+            <tr>
+              <td><strong>Low intake (&lt;15 g/day, typical Western)</strong></td>
+              <td>Constipation, &#x2193;fecal bulk, &#x2191;transit time, &#x2193;SCFA production, microbiome diversity erosion, &#x2191;CRC/T2DM/CVD risk in epidemiological studies</td>
+              <td>Dietary recall; stool SCFA (research); microbiome diversity (research)</td>
+              <td>Average US intake ~15&#x2013;17 g/day vs. recommended 25&#x2013;38 g/day</td>
+            </tr>
+            <tr>
+              <td><strong>Adequate (25&#x2013;38 g/day)</strong></td>
+              <td>Normal bowel habit; adequate SCFA production; healthy microbiome diversity</td>
+              <td>Dietary assessment</td>
+              <td>IOM recommendation; achievable with whole grains, legumes, vegetables, fruit</td>
+            </tr>
+            <tr>
+              <td><strong>Rapid high-dose introduction</strong></td>
+              <td>Bloating, flatulence (CO&#x2082;, H&#x2082;, CH&#x2084;), cramping during microbiome adaptation &#x2014; transient, not a disease state</td>
+              <td>Clinical symptom monitoring</td>
+              <td>Introduce gradually (2&#x2013;3 g/wk increments); psyllium and inulin/FOS most gas-producing at &gt;15 g/day</td>
+            </tr>
+            <tr>
+              <td><strong>Active Crohn's disease (small bowel)</strong></td>
+              <td>Fermentable fiber may exacerbate symptoms in active small-bowel Crohn's &#x2014; low-residue diet may be indicated during flares</td>
+              <td>Clinical assessment; CRP; calprotectin</td>
+              <td>Fiber is not universally beneficial in IBD; context-specific; colonic Crohn's may tolerate fiber differently from ileal disease</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="large-intestine.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Large Intestine
+            </a>
+            <a href="digestive-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Digestive System
+            </a>
+            <a href="immune-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Immune System
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Cardiovascular System
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1038/nature18846" target="_blank" rel="noopener noreferrer">Sonnenburg JL, Bäckhed F. Diet-microbiota interactions as moderators of human metabolism. Nature. 2016;535(7610):56-64.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27383980/" target="_blank" rel="noopener noreferrer">PubMed 27383980</a></li>
-            <li><a href="https://doi.org/10.4161/gmic.19897" target="_blank" rel="noopener noreferrer">Flint HJ, Scott KP, Duncan SH, Louis P, Forano E. Microbial degradation of complex carbohydrates in the gut. Gut Microbes. 2012;3(4):289-306.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22572875/" target="_blank" rel="noopener noreferrer">PubMed 22572875</a></li>
+            <li>Sonnenburg JL, B&#xE4;ckhed F. Diet-microbiota interactions as moderators of human metabolism. <em>Nature.</em> 2016;535(7610):56-64. <a href="https://doi.org/10.1038/nature18846" target="_blank" rel="noopener noreferrer">doi:10.1038/nature18846</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27383980/" target="_blank" rel="noopener noreferrer">PubMed 27383980</a></li>
+            <li>Flint HJ, Scott KP, Duncan SH, Louis P, Forano E. Microbial degradation of complex carbohydrates in the gut. <em>Gut Microbes.</em> 2012;3(4):289-306. <a href="https://doi.org/10.4161/gmic.19897" target="_blank" rel="noopener noreferrer">doi:10.4161/gmic.19897</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22572875/" target="_blank" rel="noopener noreferrer">PubMed 22572875</a></li>
+            <li>World Cancer Research Fund / American Institute for Cancer Research. Diet, Nutrition, Physical Activity and Cancer: a Global Perspective. Continuous Update Project Expert Report 2018. <a href="https://www.wcrf.org/dietandcancer" target="_blank" rel="noopener noreferrer">wcrf.org/dietandcancer</a></li>
+            <li>Hartley L, May MD, Loveman E, et al. Dietary fibre for the primary prevention of cardiovascular disease. <em>Cochrane Database Syst Rev.</em> 2016;(1):CD011472. <a href="https://doi.org/10.1002/14651858.CD011472.pub2" target="_blank" rel="noopener noreferrer">doi:10.1002/14651858.CD011472.pub2</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. Chapters on lipid metabolism and microbiome.</li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Chapter on GI physiology.</li>
           </ul>
         </div>
 
@@ -184,17 +389,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &#x2014; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="sulforaphane.html">Sulforaphane</a>
+      <a href="vitamin-d.html">Vitamin D</a>
+      <a href="zinc-dietary.html">Zinc</a>
+      <a href="magnesium-dietary.html">Magnesium</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

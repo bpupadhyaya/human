@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dietary zinc (RDA 8–11 mg/day) is essential for immune function, wound healing, and enzyme catalysis. Bioavailability is limited by phytates. Supplementation ≥7">
-  <meta property="og:title" content="Dietary Zinc — Human Engineering">
+  <meta name="description" content="Dietary Zinc — essential trace mineral; ZIP4-absorbed; cofactor for 300+ enzymes and zinc finger transcription factors; critical for T-cell maturation, wound healing, and AMD. Part of the Human Engineering project.">
+  <meta property="og:title" content="Dietary Zinc — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Dietary Zinc — Human Engineering</title>
+  <title>Dietary Zinc — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,59 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #065f46); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .principle-box { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +109,281 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 03-food</div>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Food &amp; Nutraceuticals</div>
     <h1>Dietary Zinc</h1>
-    <p class="tagline">Dietary zinc (RDA 8–11 mg/day) is essential for immune function, wound healing, and enzyme catalysis. Bioavailability is limited by phytates. Supplementation ≥75 mg/day reduces cold duration ~33%. Deficiency impairs T-cell maturation and growth.</p>
-    <p class="aliases">Also known as: zinc, Zn, zinc supplement, zinc acetate, zinc gluconate, zinc sulfate, zinc picolinate, zinc lozenges, zinc bisglycinate, zinc deficiency, hypozincemia</p>
+    <p class="tagline">Essential trace mineral absorbed via ZIP4/SLC39A4 in the duodenum; required cofactor for &gt;300 enzymes and structural element in ~3% of the human proteome via zinc finger domains; indispensable for T-cell maturation, wound healing, and retinal function.</p>
+    <p class="subtagline">RDA 8&#x2013;11 mg/day. 74 mg/serving in oysters. Bioavailability: ~25&#x2013;30% omnivore vs. ~15&#x2013;20% vegan (phytate inhibition). Zinc acetate lozenges &#x2265;75 mg/day: ~33% &#x2193; cold duration. AREDS: zinc 80 mg/day &#x2192; RR 0.72 for advanced AMD progression.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">03-food</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">2&#x2013;3 g</span><span class="stat-label">Total Body Zinc</span></div>
+      <div class="stat"><span class="stat-num">&gt;300</span><span class="stat-label">Enzyme Cofactor Roles</span></div>
+      <div class="stat"><span class="stat-num">~33%</span><span class="stat-label">Cold Duration Reduction</span></div>
+      <div class="stat"><span class="stat-num">RR 0.72</span><span class="stat-label">AMD Progression (AREDS)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">zinc-dietary</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Food &amp; Nutraceuticals · Essential Minerals</div>
         <h2>Dietary Zinc</h2>
-        <p class="summary">Dietary zinc (RDA 8–11 mg/day) is essential for immune function, wound healing, and enzyme catalysis. Bioavailability is limited by phytates. Supplementation ≥75 mg/day reduces cold duration ~33%. Deficiency impairs T-cell maturation and growth.</p>
+        <div class="drug-class">Element: Zn (atomic no. 30) &nbsp;|&nbsp; Absorption: ZIP4/SLC39A4 (duodenum) &nbsp;|&nbsp; Storage: None (no labile reserves) &nbsp;|&nbsp; Category: Essential trace mineral</div>
+        <p class="summary">Zinc is the second most abundant trace element in the human body (~2&#x2013;3 g total), with no dedicated labile storage form &#x2014; making dietary adequacy critical. Absorbed via ZIP4 (SLC39A4) in duodenum/jejunum; bioavailability is strongly inhibited by phytates (IP6) in plant foods (PZR &gt;15 &#x2192; severe inhibition). Zinc functions in three biochemical roles: catalytic (carbonic anhydrase, carboxypeptidase, MMPs, ACE), structural (C&#x2082;H&#x2082; zinc fingers &#x2014; ~3% of human proteome), and regulatory (synaptic zinc, immune signalling). Key immune roles: thymulin (zinc-dependent thymic peptide driving T-cell maturation), NK cell cytotoxicity, macrophage respiratory burst. AREDS (n=3,640): zinc 80 mg/day &#x2192; RR 0.72 for advanced AMD progression over 10 years.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Zn</span>
+          <span class="alias-pill">zinc acetate</span>
+          <span class="alias-pill">zinc gluconate</span>
+          <span class="alias-pill">zinc sulfate</span>
+          <span class="alias-pill">zinc picolinate</span>
+          <span class="alias-pill">zinc lozenges</span>
+          <span class="alias-pill">zinc bisglycinate</span>
+          <span class="alias-pill">hypozincemia</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>zinc-dietary</td></tr>
-            <tr><td>Name</td><td>Dietary Zinc</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>03-food</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Zinc (Zn, atomic number 30)</strong> is an essential trace mineral present in every cell of the human body. It ranks second only to iron as the most abundant trace element in humans, with a total body content of approximately <strong>2&#x2013;3 g</strong> distributed across muscle (~57%), bone (~29%), skin and hair (~6%), liver (~5%), and all other tissues. Notably high concentrations occur in the prostate gland, choroid of the eye, and immune cells. Unlike iron, zinc has <strong>no dedicated storage form</strong> &#x2014; the body maintains no appreciable labile zinc reserve &#x2014; making dietary adequacy critical for moment-to-moment immune function and enzyme activity.</p>
+          <p>Zinc bioavailability differs dramatically by dietary matrix. From animal foods (meat, shellfish), ~25&#x2013;30% of dietary zinc is absorbed because cysteine-rich peptides from meat digestion form soluble zinc-amino acid chelates that maintain zinc solubility through the upper intestine. From plant foods, absorption falls to ~15&#x2013;20% because <strong>phytic acid (inositol hexaphosphate, IP6)</strong> &#x2014; the primary phosphate-storage form in plant seeds (legumes, grains, nuts) &#x2014; binds zinc with high affinity in the GI lumen, forming insoluble zinc-phytate complexes. The molar phytate:zinc ratio (PZR) predicts bioavailability: PZR &lt;5 (minimal inhibition), 5&#x2013;15 (moderate), &gt;15 (severe &#x2014; common in un-fermented whole-grain and legume-staple diets). Fermentation (sourdough, tempeh, natto), soaking, and sprouting reduce phytate 25&#x2013;75% via phytase activation, substantially improving zinc bioavailability.</p>
+          <p>Zinc functions in three distinct biochemical categories: <strong>catalytic</strong> (Zn&#x00B2;&#x207A; as Lewis acid in enzyme active sites), <strong>structural</strong> (tetrahedral Zn&#x00B2;&#x207A; coordination in zinc finger domains of transcription factors), and <strong>regulatory</strong> (synaptic zinc release from glutamatergic vesicles; zinc transients in immune signalling). The <em>Global Burden of Disease</em> estimates zinc deficiency as the <strong>fifth leading cause of disease burden</strong> in developing countries, manifesting primarily as childhood growth failure, immune deficiency, and increased mortality from diarrhoeal and respiratory infections.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="immune-system.html" title="Zinc is required for thymulin (a zinc-dependent thymic peptide driving T-cell maturation), NK cell cytotoxicity, and macrophage oxidative burst. Deficiency impairs lymphocyte proliferation, reduces CD4+ T-cell counts, and increases susceptibility to intracellular pathogens and respiratory infections."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="t-helper-cell.html" title="Zinc is essential for IL-2 signalling and T-helper cell proliferation; zinc finger domains in TCR signalling kinases and transcription factors (GATA-3, T-bet, RORγt) require Zn²⁺ for structural integrity. Supplementation in deficient subjects restores Th1/Th2 balance and thymulin activity."><span class="rel">modulates</span>T Helper Cell</a>
-            <a class="conn-pill" href="musculoskeletal-system.html" title="Zinc is required for collagen synthesis, keratinocyte migration during wound healing, and osteoblast differentiation. Zinc finger-containing transcription factors (Runx2, Sp7/Osterix) govern osteoblastogenesis. Deficiency causes growth retardation, impaired wound healing, and reduced bone mineral density in children."><span class="rel">modulates</span>Musculoskeletal System</a>
-            <a class="conn-pill part" href="zinc.html" title="Dietary zinc entry covers bioavailability, absorption (ZIP4/SLC39A4), RDA, food sources, and supplementation context. The atomic-scale entry covers Zn²⁺ electron configuration, coordination chemistry, and role as Lewis acid in catalytic zinc enzymes (carbonic anhydrase, carboxypeptidase, alcohol dehydrogenase)."><span class="rel">part-of</span>Zinc</a>
+          <h3>Mechanism of Action</h3>
+          <h4>Intestinal Absorption: ZIP4 and Metallothionein</h4>
+          <div class="pathway-block">
+<pre>
+  Dietary zinc (Zn2+) in duodenum / proximal jejunum
+       |
+       |  ZIP4 (SLC39A4) -- apical brush-border importer (upregulated in deficiency)
+       |  ZIP5 (SLC39A5) -- basolateral (efflux during zinc repletion)
+       v
+  Enterocyte cytoplasm
+       |
+       |-- Metallothionein (MT-1/MT-2): 7 Zn2+/molecule; induced by MTF1
+       |   (High zinc -> more MT -> zinc trapped -> shed at villus tip -> limits absorption)
+       |-- ZnT5 (SLC30A5): ER/Golgi zinc loading of secretory zinc proteins
+       v
+  ZnT1 (SLC30A1) -- basolateral export into portal circulation
+       |
+       v  Albumin (~80%) + alpha2-macroglobulin (~18%) -> liver -> systemic distribution
+
+  Zinc in 3 biochemical roles:
+  ┌─────────────────────────────────────────────────────────┐
+  │ CATALYTIC (>300 enzymes):                               │
+  │  Carbonic anhydrase II: CO2 + H2O -> HCO3- + H+ (10^6/s)│
+  │  Carboxypeptidase A: C-terminal peptide digestion        │
+  │  Alcohol dehydrogenase: ethanol -> acetaldehyde          │
+  │  MMPs: ECM remodelling (wound healing, invasion)         │
+  │  ACE: Ang I -> Ang II (target of ACE inhibitors)         │
+  ├─────────────────────────────────────────────────────────┤
+  │ STRUCTURAL (zinc fingers, ~3% human proteome):          │
+  │  C2H2 type: Zn2+ tetrahedral (2Cys + 2His)              │
+  │  GATA-3 (Th2), T-bet (Th1), RORgammat (Th17),           │
+  │  Foxp3 (Treg), Runx2 (osteoblast), Sp7/Osterix           │
+  │  RING domains (E3 ubiquitin ligases), PHD fingers        │
+  ├─────────────────────────────────────────────────────────┤
+  │ REGULATORY:                                              │
+  │  Synaptic zinc (~300 uM from glutamatergic vesicles):    │
+  │   -> NMDA-R modulation, GABA-A receptor, ASIC channels  │
+  │  Immune zinc transients:                                 │
+  │   -> BCR/TCR activation -> rapid Zn2+ flux              │
+  │   -> modulates MAPK and PI3K/Akt signalling              │
+  └─────────────────────────────────────────────────────────┘
+</pre>
+          </div>
+
+          <h4>Immune Function: Thymulin and Lymphocyte Biology</h4>
+          <ol class="step-list">
+            <li><strong>Thymulin (FTS):</strong> Nonapeptide hormone secreted by thymic epithelial cells; active only when chelated with Zn&#x00B2;&#x207A;. Apothymulin (zinc-free) is inactive. Drives thymocyte maturation &#x2192; CD3&#x207A; T-cell development, CD4/CD8 differentiation, IL-2 receptor expression.</li>
+            <li><strong>T-helper cell transcription factors:</strong> GATA-3 (Th2), T-bet (Th1), ROR&#x03B3;t (Th17), and Foxp3 (Treg) all contain zinc finger DNA-binding domains requiring Zn&#x00B2;&#x207A; for structural integrity. Deficiency &#x2192; impaired T-cell lineage commitment.</li>
+            <li><strong>NK cell cytotoxicity:</strong> Perforin assembly and granzyme B activation in cytotoxic granules require zinc. Deficiency &#x2192; &#x2193;NK cell numbers and ADCC activity.</li>
+            <li><strong>Macrophage respiratory burst:</strong> NADPH oxidase-dependent superoxide generation against phagocytosed pathogens requires zinc. Deficiency &#x2192; &#x2193;phagocytic capacity, &#x2193;IL-12 &#x2192; biases away from Th1 protective immunity.</li>
+            <li><strong>Anti-inflammatory at adequate levels:</strong> Zinc upregulates A20/TNFAIP3 &#x2192; NF-&#x03BA;B inhibition &#x2192; &#x2193;pro-inflammatory cytokines. This physiological anti-inflammatory effect contrasts with the immune-deficiency seen in frank zinc deficiency.</li>
+          </ol>
+
+          <h4>Pleiotropic Roles</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Wound Healing</h4>
+              <p>Zinc-dependent MMPs remodel ECM during granulation tissue formation. Keratinocyte proliferation and migration require zinc for collagen synthesis (prolyl hydroxylase) and keratin structure. Zinc-finger TF Runx2 governs osteoblastogenesis; deficiency &#x2192; impaired fracture healing.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Retinal Function</h4>
+              <p>Retinal pigment epithelium and choroid have the highest zinc concentration in the eye. Zinc is required for retinol dehydrogenase (retinol &#x2194; retinaldehyde) in the visual cycle; deficiency &#x2192; night blindness (impaired dark adaptation). AREDS: 80 mg/day Zn &#x2192; significant protection against advanced AMD.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>CO&#x2082; Transport (Carbonic Anhydrase)</h4>
+              <p>Carbonic anhydrase II in RBCs contains catalytic Zn&#x00B2;&#x207A;; converts CO&#x2082; + H&#x2082;O &#x21CC; HCO&#x2083;&#x207B; + H&#x207A; at ~10&#x2076; reactions/sec &#x2014; one of the fastest enzymes known. Essential for efficient CO&#x2082; transport from tissues to lungs.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Oropharyngeal Antiviral (Common Cold)</h4>
+              <p>Zn&#x00B2;&#x207A; ions released from lozenges directly inhibit rhinovirus 3C protease (Cys-protease; Zn&#x00B2;&#x207A; coordinates active-site Cys) and block rhinovirus attachment to ICAM-1. Requires slow lozenge dissolution in mouth; swallowed tablets ineffective for cold treatment.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Dietary Sources &amp; RDA</h3>
+          <table class="data-table">
+            <tr><th>Source</th><th>Serving</th><th>Zinc Content</th><th>% RDA (men 11 mg)</th></tr>
+            <tr>
+              <td><strong>Oysters (cooked)</strong></td>
+              <td>3 oz (85 g)</td>
+              <td>74 mg</td>
+              <td>673% &#x2014; by far the richest source</td>
+            </tr>
+            <tr>
+              <td><strong>Beef (ground, cooked)</strong></td>
+              <td>3 oz</td>
+              <td>5.4 mg</td>
+              <td>49%</td>
+            </tr>
+            <tr>
+              <td><strong>Crab (blue, cooked)</strong></td>
+              <td>3 oz</td>
+              <td>3.2 mg</td>
+              <td>29%</td>
+            </tr>
+            <tr>
+              <td><strong>Pork loin (cooked)</strong></td>
+              <td>3 oz</td>
+              <td>2.9 mg</td>
+              <td>26%</td>
+            </tr>
+            <tr>
+              <td><strong>Baked beans</strong></td>
+              <td>&#x00BD; cup</td>
+              <td>2.9 mg</td>
+              <td>26% (phytate-inhibited; ~15&#x2013;20% bioavailable)</td>
+            </tr>
+            <tr>
+              <td><strong>Pumpkin seeds (roasted)</strong></td>
+              <td>1 oz (28 g)</td>
+              <td>2.2 mg</td>
+              <td>20% (phytate-inhibited)</td>
+            </tr>
+            <tr>
+              <td><strong>Cashews</strong></td>
+              <td>1 oz</td>
+              <td>1.6 mg</td>
+              <td>15% (phytate-inhibited)</td>
+            </tr>
+            <tr>
+              <td><strong>Yogurt (plain)</strong></td>
+              <td>8 oz</td>
+              <td>1.7 mg</td>
+              <td>15%</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>RDA:</strong> Men &#x2265;19 yrs: 11 mg/day; Women &#x2265;19 yrs: 8 mg/day; Pregnant: 11 mg/day; Lactating: 12 mg/day. Tolerable Upper Limit (UL): 40 mg/day (chronic). Vegetarians/vegans may need 50% higher intakes due to phytate inhibition.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Evidence</h3>
+          <table class="data-table">
+            <tr><th>Trial / Evidence</th><th>Design</th><th>Key Result</th><th>GRADE</th></tr>
+            <tr>
+              <td><strong>AREDS (Age-Related Eye Disease Study)</strong><br>Macular degeneration</td>
+              <td>RCT; n=3,640; 10-year follow-up; zinc oxide 80 mg/day + antioxidants</td>
+              <td class="trial-result">Zinc + antioxidants &#x2192; RR 0.72 (95% CI: 0.60&#x2013;0.87) for progression to advanced AMD. AREDS2 formula retains zinc 80 mg/day as key component (with lutein/zeaxanthin replacing &#x03B2;-carotene).</td>
+              <td><span class="badge badge-hi">High</span></td>
+            </tr>
+            <tr>
+              <td><strong>Zinc Lozenges Meta-analysis</strong><br>Common cold (Science et al., CMAJ 2012)</td>
+              <td>Systematic review &amp; MA of RCTs</td>
+              <td class="trial-result">Zinc acetate lozenges &#x2265;75 mg/day elemental zinc: ~33% &#x2193; cold duration (RR 0.67 for symptom resolution by day 7). Zinc sulfate: less consistent benefit. Bolus tablets (swallowed): no cold-treatment benefit.</td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+            </tr>
+            <tr>
+              <td><strong>Zinc in Child Diarrhoea / Pneumonia</strong><br>(WHO/UNICEF evidence base)</td>
+              <td>Multiple RCTs in deficient developing-country children</td>
+              <td class="trial-result">Zinc 10&#x2013;20 mg/day for 2 weeks &#x2192; ~25% &#x2193; acute diarrhoea duration; &#x2193;pneumonia morbidity. WHO/UNICEF recommend zinc as adjunct treatment for acute diarrhoea in children &lt;5 yrs.</td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+            </tr>
+            <tr>
+              <td><strong>Growth in Zinc-Deficient Children</strong><br>(multiple RCTs)</td>
+              <td>RCTs in stunted children (&lt;&#x2212;2 HAZ); 10&#x2013;20 mg/day zinc supplementation</td>
+              <td class="trial-result">Significant improvements in height and weight velocity vs. placebo. Effect size largest in stunted children. Supports zinc deficiency as a primary cause of childhood stunting in low-income countries.</td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>Evidence principle:</strong> Zinc's strongest RCT evidence is for <strong>AMD progression</strong> (AREDS, GRADE High) and <strong>childhood diarrhoea/pneumonia in deficient populations</strong> (WHO, Moderate). Oropharyngeal zinc lozenges for cold-duration reduction have moderate evidence but a strict requirement &#x2014; lozenges must dissolve slowly in the mouth to release Zn&#x00B2;&#x207A; in the oropharynx; swallowed tablets do not work for this indication. Zinc supplementation in replete adults does not meaningfully improve immune function above baseline.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Deficiency &amp; Excess</h3>
+          <table class="data-table">
+            <tr><th>Status</th><th>Signs &amp; Symptoms</th><th>Lab Marker</th><th>Threshold</th></tr>
+            <tr>
+              <td><strong>Deficiency</strong></td>
+              <td>Hypogeusia/anosmia (gustin/CA-VI requires zinc); growth retardation; impaired wound healing; alopecia; dermatitis (perioral/perigenital in severe deficiency: acrodermatitis enteropathica); night blindness; &#x2191;infection susceptibility; male hypogonadism</td>
+              <td>Plasma zinc (low sensitivity &#x2014; falls late in deficiency); alkaline phosphatase (zinc-dependent); hair zinc; serum thymulin</td>
+              <td>Plasma zinc &lt;70 &#xB5;g/dL; clinical context essential as plasma zinc is insensitive</td>
+            </tr>
+            <tr>
+              <td><strong>Adequate</strong></td>
+              <td>Normal immune function, wound healing, taste sensation, growth</td>
+              <td>Dietary assessment; plasma zinc</td>
+              <td>RDA: 8&#x2013;11 mg/day; UL 40 mg/day</td>
+            </tr>
+            <tr>
+              <td><strong>Chronic excess (&gt;40 mg/day UL)</strong></td>
+              <td>Copper deficiency (zinc competes via MT induction; MT has higher Cu affinity &#x2192; Cu trapped in shed enterocytes) &#x2192; microcytic anaemia, peripheral neuropathy (myelopathy), neutropenia</td>
+              <td>Serum copper; ceruloplasmin; CBC</td>
+              <td>Therapeutic exception: 150&#x2013;200 mg/day intentionally used in Wilson&#x2019;s disease to block Cu absorption via MT mechanism</td>
+            </tr>
+            <tr>
+              <td><strong>Acute high dose (&gt;150&#x2013;200 mg)</strong></td>
+              <td>Nausea, vomiting, abdominal cramping (direct GI irritant effect of ionic zinc)</td>
+              <td>Clinical</td>
+              <td>Self-limiting; no long-term harm from single episode</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="immune-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Immune System
+            </a>
+            <a href="t-helper-cell.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              T-Helper Cell
+            </a>
+            <a href="musculoskeletal-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Musculoskeletal System
+            </a>
+            <a href="zinc.html" class="conn-pill targets">
+              <span class="rel">Part-of</span>
+              Zinc (Atomic)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1097/MCO.0b013e3283312956" target="_blank" rel="noopener noreferrer">Prasad AS. Zinc: role in immunity, oxidative stress and chronic inflammation. Curr Opin Clin Nutr Metab Care. 2009;12(6):646-52.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19770647/" target="_blank" rel="noopener noreferrer">PubMed 19770647</a></li>
-            <li><a href="https://doi.org/10.1503/cmaj.111990" target="_blank" rel="noopener noreferrer">Science M, Johnstone J, Roth DE, Guyatt G, Loeb M. Zinc for the treatment of the common cold: a systematic review and meta-analysis of randomized controlled trials. CMAJ. 2012;184(10):E551-61.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22566526/" target="_blank" rel="noopener noreferrer">PubMed 22566526</a></li>
+            <li>Prasad AS. Zinc: role in immunity, oxidative stress and chronic inflammation. <em>Curr Opin Clin Nutr Metab Care.</em> 2009;12(6):646-52. <a href="https://doi.org/10.1097/MCO.0b013e3283312956" target="_blank" rel="noopener noreferrer">doi:10.1097/MCO.0b013e3283312956</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19770647/" target="_blank" rel="noopener noreferrer">PubMed 19770647</a></li>
+            <li>Science M, Johnstone J, Roth DE, Guyatt G, Loeb M. Zinc for the treatment of the common cold: a systematic review and meta-analysis of randomized controlled trials. <em>CMAJ.</em> 2012;184(10):E551-61. <a href="https://doi.org/10.1503/cmaj.111990" target="_blank" rel="noopener noreferrer">doi:10.1503/cmaj.111990</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22566526/" target="_blank" rel="noopener noreferrer">PubMed 22566526</a></li>
+            <li>Age-Related Eye Disease Study Research Group. A randomized, placebo-controlled, clinical trial of high-dose supplementation with vitamins C and E, beta carotene, and zinc for age-related macular degeneration and vision loss: AREDS report no. 8. <em>Arch Ophthalmol.</em> 2001;119(10):1417-36. <a href="https://doi.org/10.1001/archopht.119.10.1417" target="_blank" rel="noopener noreferrer">doi:10.1001/archopht.119.10.1417</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. Chapter on zinc enzymes and metalloenzymes.</li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Chapter on trace minerals.</li>
           </ul>
         </div>
 
@@ -184,17 +392,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &#x2014; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="sulforaphane.html">Sulforaphane</a>
+      <a href="vitamin-d.html">Vitamin D</a>
+      <a href="dietary-fiber.html">Dietary Fiber</a>
+      <a href="magnesium-dietary.html">Magnesium</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

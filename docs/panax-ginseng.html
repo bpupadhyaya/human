@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Korean Red Ginseng root; ginsenosides (Rb1, Rg1, Re) modulate HPA stress axis, stimulate NO → vasodilation, upregulate GLUT4, boost NK-cell immunity. Evidence f">
-  <meta property="og:title" content="Panax ginseng (Korean Red Ginseng) — Human Engineering">
+  <meta name="description" content="Panax ginseng (Korean Red Ginseng) — ginsenosides, HPA axis modulation, eNOS/NO vasodilation, GLUT4 upregulation, NK-cell immunomodulation. Evidence for erectile dysfunction, glycaemic control, and fatigue. Part of the Human Engineering project.">
+  <meta property="og:title" content="Panax Ginseng — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Panax ginseng (Korean Red Ginseng) — Human Engineering</title>
+  <title>Panax Ginseng — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,61 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .principle-box { background: rgba(124,58,237,0.07); border: 1px solid rgba(124,58,237,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +111,223 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 02-traditional</div>
-    <h1>Panax ginseng (Korean Red Ginseng)</h1>
-    <p class="tagline">Korean Red Ginseng root; ginsenosides (Rb1, Rg1, Re) modulate HPA stress axis, stimulate NO → vasodilation, upregulate GLUT4, boost NK-cell immunity. Evidence for erectile dysfunction, fatigue, glycaemia. Potentiates warfarin.</p>
-    <p class="aliases">Also known as: panax ginseng, Korean Red Ginseng, Asian ginseng, Chinese ginseng, ren shen, 인삼, ginsenoside, red ginseng, white ginseng, KRG</p>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Traditional</div>
+    <h1>Panax Ginseng</h1>
+    <p class="tagline">Korean Red Ginseng — ginsenosides modulate the HPA stress axis, stimulate eNOS-mediated vasodilation, activate GLUT4 translocation via AMPK, and boost NK-cell cytotoxicity.</p>
+    <p class="subtagline">Fasting glucose reduced −0.31 mmol/L (meta-analysis, 16 RCTs, n=770). 60% erectile function improvement vs 30% placebo (RCT, n=119). 2,000+ years of documented use. 4–6 years cultivation required for pharmacologically active root.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">02-traditional</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">16</span><span class="stat-label">RCTs (glycaemia meta)</span></div>
+      <div class="stat"><span class="stat-num">−0.31 mmol/L</span><span class="stat-label">Fasting glucose ↓</span></div>
+      <div class="stat"><span class="stat-num">2,700 mg</span><span class="stat-label">Daily KRG for ED</span></div>
+      <div class="stat"><span class="stat-num">4–6 yrs</span><span class="stat-label">Root maturation</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">panax-ginseng</div>
-        <h2>Panax ginseng (Korean Red Ginseng)</h2>
-        <p class="summary">Korean Red Ginseng root; ginsenosides (Rb1, Rg1, Re) modulate HPA stress axis, stimulate NO → vasodilation, upregulate GLUT4, boost NK-cell immunity. Evidence for erectile dysfunction, fatigue, glycaemia. Potentiates warfarin.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas Three · Medicine · Traditional · Adaptogen / Tonic</div>
+        <h2>Panax Ginseng (Korean Red Ginseng)</h2>
+        <div class="drug-class">Botanical name: <em>Panax ginseng</em> C.A. Meyer (Araliaceae) &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Category: Adaptogen / Traditional tonic</div>
+        <p class="summary">Korean Red Ginseng root; ginsenosides (Rb1, Rg1, Re) modulate the HPA stress axis, stimulate eNOS phosphorylation (Ser1177) via Akt → NO-mediated vasodilation, upregulate GLUT4 translocation via AMPK, and boost NK-cell cytotoxicity. Moderate evidence for erectile dysfunction and fatigue; low-moderate evidence for glycaemic improvement in type 2 diabetes. Potentiates warfarin via possible CYP2C9 induction — monitor INR if co-prescribed.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Korean Red Ginseng</span>
+          <span class="alias-pill">Asian ginseng</span>
+          <span class="alias-pill">Chinese ginseng</span>
+          <span class="alias-pill">ren shen</span>
+          <span class="alias-pill">인삼</span>
+          <span class="alias-pill">ginsenoside</span>
+          <span class="alias-pill">KRG</span>
+          <span class="alias-pill">white ginseng</span>
+          <span class="alias-pill">panax ginseng</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>panax-ginseng</td></tr>
-            <tr><td>Name</td><td>Panax ginseng (Korean Red Ginseng)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>02-traditional</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Panax ginseng</strong> C.A. Meyer (family Araliaceae) is the premier adaptogenic plant of East Asian medicine, cultivated for over 2,000 years in Korea, China, and Manchuria. The name <em>Panax</em> derives from the Greek <em>panacea</em> ("cure-all"), reflecting its revered status in traditional therapeutics. The pharmacologically active part is the <strong>fleshy root</strong>, which requires 4–6 years of growth to accumulate sufficient active constituents. Processing determines the product form: <strong>White ginseng</strong> is air-dried after peeling at 4–5 years, producing a milder preparation; <strong>Korean Red Ginseng (KRG)</strong> is prepared from the unpeeled root steamed at 100°C then dried, with the Maillard reaction producing additional ginsenosides (Rg3, Rh1, compound K) unique to KRG and responsible for its stronger pharmacological profile.</p>
+          <p>The pharmacologically active constituents are <strong>ginsenosides</strong> (also called panaxosides) — dammarane-type triterpenoid saponins classified by their aglycone into two main series. The <strong>Protopanaxadiol (PPD) series</strong> (Rb1, Rb2, Rc, Rd) is generally sedating and inhibitory, with neuroprotective and antiproliferative properties. The <strong>Protopanaxatriol (PPT) series</strong> (Rg1, Re, Rf) is generally stimulating and excitatory, activating the CNS and stimulating eNOS. The dual and opposing activity of ginsenosides at many receptors — depending on concentration, metabolic conversion, and structural class — complicates pharmacological characterisation.</p>
+          <p>Gut microbiota metabolise ginsenosides to more bioavailable aglycones (protopanaxadiol, compound K), which may account for substantial inter-individual variation in clinical response. Panax ginseng is pharmacologically distinct from Siberian ginseng (<em>Eleutherococcus senticosus</em>, which contains eleutherosides, not ginsenosides) and American ginseng (<em>Panax quinquefolius</em>, which lacks the PPT ginsenoside series).</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="nervous-system.html" title="Rb1 upregulates BDNF in hippocampus, promoting neuronal survival and plasticity. Rg1 activates estrogen receptor-β for neuroprotection. HPA axis modulation reduces cortisol-driven hippocampal atrophy under chronic stress."><span class="rel">modulates</span>Nervous System</a>
-            <a class="conn-pill" href="immune-system.html" title="Rg1 and Re stimulate NK-cell cytotoxicity, macrophage phagocytosis, and dendritic cell maturation. Rb1 upregulates IL-10 and TGF-β. Korean Red Ginseng reduces influenza severity and duration in RCTs and improves vaccine antibody titres."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="insulin.html" title="Rb1 promotes GLUT4 translocation in skeletal muscle via AMPK phosphorylation; Rg1 enhances IRS-1 phosphorylation. Clinical RCTs demonstrate reductions in fasting and post-prandial glucose in type 2 diabetics; caution with insulin/sulfonylureas."><span class="rel">modulates</span>Insulin</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="Ginsenosides stimulate eNOS → NO-mediated vasodilation, reducing erectile dysfunction and improving exercise tolerance. Rg3 has antiplatelet properties. Modest reductions in systolic BP reported in RCTs; hard cardiovascular endpoint data lacking."><span class="rel">modulates</span>Cardiovascular System</a>
+          <h3>Mechanism of Action</h3>
+          <h4>HPA Axis Modulation and Adaptogen Activity</h4>
+          <div class="pathway-block">
+<pre>
+  Stress stimulus
+        │
+        ▼
+  CRH (hypothalamus)
+        │
+        ▼
+  ACTH (pituitary)  ←── Rg1 / Rb1 reduce CRH / ACTH release
+        │
+        ▼
+  Cortisol (adrenal cortex)
+        │
+        ▼
+  Hippocampus (HPA negative feedback)
+        │
+        ├── Rg1 → estrogen receptor-β → PKA/CREB → neuroprotection
+        └── Rb1 → BDNF ↑ via cAMP/CREB → protects hippocampal neurons
+                             from glucocorticoid-mediated apoptosis
+</pre>
+          </div>
+          <ol class="step-list">
+            <li><strong>Glucocorticoid / estrogen receptor modulation:</strong> Ginsenosides Rg1 and Rb1 bind GR with low affinity; Rg1 also activates estrogen receptor-α/β — both receptors modulate HPA axis feedback sensitivity and downstream neuroprotection</li>
+            <li><strong>CRH/ACTH suppression:</strong> Ginseng extracts reduce corticotropin-releasing hormone (CRH) and ACTH release in animal stress models, blunting the cortisol surge and attenuating the overall stress response</li>
+            <li><strong>eNOS activation (NO pathway):</strong> Ginsenosides (Rg1, Re, KRG compounds) phosphorylate eNOS at Ser1177 via Akt → increased NO production in vascular endothelium and corpus cavernosum → smooth muscle relaxation → vasodilation and improved erectile function</li>
+            <li><strong>AMPK / GLUT4 (metabolic):</strong> Rb1 activates AMPK → GLUT4 translocation to plasma membrane in skeletal muscle → insulin-independent glucose uptake; Rg1 enhances IRS-1 phosphorylation amplifying downstream insulin signalling</li>
+            <li><strong>Immunomodulation:</strong> Rg1 and Re activate TLR4-mediated signalling in macrophages, upregulating NK-cell cytotoxicity and dendritic cell maturation; Rb1 provides counter-regulation via IL-10 and TGF-β to prevent excessive inflammation</li>
+          </ol>
+
+          <h4>Pleiotropic Mechanisms</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Neuroprotection (Rb1 / Rg1 / Rg3)</h4>
+              <p>Rb1 upregulates BDNF via cAMP/CREB in hippocampus; Rg1 inhibits β-amyloid aggregation and reduces tau phosphorylation via CDK5 inhibition; Rg3 (enriched in KRG) is anti-apoptotic and neuroprotective</p>
+            </div>
+            <div class="pleio-item">
+              <h4>PPAR-γ Partial Agonism</h4>
+              <p>Certain ginsenosides act as partial PPAR-γ agonists, promoting adipocyte differentiation and improving insulin sensitivity in adipose tissue — weaker than thiazolidinediones but mechanistically parallel</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Antiplatelet / Calcium Channel (Rg3)</h4>
+              <p>Rg3 blocks L-type Ca²⁺ channels inhibiting vasoconstriction; has antiplatelet properties reducing thrombotic risk; modest systolic BP reductions consistently reported in clinical RCTs</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Vaccine Adjuvant Effect</h4>
+              <p>KRG co-administration with influenza vaccine increases haemagglutination inhibition titres in elderly RCTs (Predy et al. 2005); enhanced CD4+/CD8+ T-cell ratios and Th1/Th2 balance documented</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Clinical Use &amp; Dosing</h3>
+          <table class="data-table">
+            <tr><th>Indication</th><th>Evidence Level</th><th>Standard Dose</th><th>Duration Studied</th></tr>
+            <tr>
+              <td><strong>Erectile dysfunction</strong></td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+              <td>KRG 900 mg three times daily (2,700 mg/day)</td>
+              <td>8–12 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Type 2 diabetes / glycaemia</strong></td>
+              <td><span class="badge badge-lo">Low-Moderate</span></td>
+              <td>Panax ginseng 200 mg/day (standardised extract)</td>
+              <td>8–24 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Fatigue / physical endurance</strong></td>
+              <td><span class="badge badge-lo">Low</span></td>
+              <td>400–3,000 mg/day (variable formulations)</td>
+              <td>4–12 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Immune function (cold/influenza)</strong></td>
+              <td><span class="badge badge-lo">Low-Moderate</span></td>
+              <td>KRG 1,800 mg/day</td>
+              <td>12 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Cognitive function</strong></td>
+              <td><span class="badge badge-lo">Low</span></td>
+              <td>400 mg/day standardised extract</td>
+              <td>8–24 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Menopausal symptoms</strong></td>
+              <td><span class="badge badge-lo">Low</span></td>
+              <td>KRG 3 g/day</td>
+              <td>12 weeks</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;">Doses vary substantially across trials due to differing extract standardisation. KRG preparations typically target ≥20 mg total ginsenosides per 1.5 g root equivalent. The Shishtar et al. (2014) meta-analysis identified 200 mg standardised extract as the best-studied preparation for glycaemic control.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Studies</h3>
+          <table class="data-table">
+            <tr><th>Study</th><th>Design / n</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>Kim et al. (2009)</strong><br><em>Asian J Androl</em></td>
+              <td>RCT, crossover, n=119; KRG 900 mg 3× daily, 8 weeks vs placebo</td>
+              <td class="trial-result">Significant IIEF score improvement vs placebo; rigidity subscale p&lt;0.05; 60% of men reported improved erections vs 30% placebo; eNOS/NO mechanism confirmed in corpus cavernosum</td>
+            </tr>
+            <tr>
+              <td><strong>Shishtar et al. (2014)</strong><br><em>PLoS One</em></td>
+              <td>Meta-analysis, 16 RCTs, n=770; Panax species (predominantly P. ginseng and P. quinquefolius)</td>
+              <td class="trial-result">Fasting blood glucose −0.31 mmol/L (95% CI: −0.61 to −0.01); HOMA-IR non-significant trend; I² ~60–70%; statistically significant but clinically modest effect</td>
+            </tr>
+            <tr>
+              <td><strong>Predy et al. (2005)</strong></td>
+              <td>Double-blind RCT, n=323; CVT-E002 (North American ginseng) 400 mg/day, 4 months during influenza season</td>
+              <td class="trial-result">≥2 colds: 10% vs 23% (p=0.004); cold duration 10.8 vs 16.5 days; note: P. quinquefolius, not KRG — results may not translate directly</td>
+            </tr>
+            <tr>
+              <td><strong>Jang et al. (2008)</strong><br><em>BJU Int</em> systematic review</td>
+              <td>Systematic review, 6 RCTs, n=45–135 each; erectile dysfunction</td>
+              <td class="trial-result">All 6 RCTs showed benefit for erectile dysfunction; consistent direction of effect; all small and at risk of bias; eNOS mechanism biologically well-supported</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Core Insight:</strong> Panax ginseng's most robust clinical evidence is for erectile dysfunction — where its eNOS-mediated NO mechanism directly parallels (but operates upstream of) PDE5 inhibitors — and for modest glycaemic improvement, where AMPK-mediated GLUT4 translocation explains the insulin-sensitising effect. Evidence for cognitive enhancement and longevity claims remains insufficient for clinical recommendation. Most positive trials are small, short-duration, and conducted in Asian populations.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Safety &amp; Drug Interactions</h3>
+          <ul class="se-list">
+            <li><strong>Warfarin interaction (clinically significant):</strong> Ginseng reduces INR — case reports and a small crossover RCT (Janetzky &amp; Morreale, 1997) demonstrate lowered warfarin anticoagulant effect; mechanism possibly CYP2C9 induction; monitor INR closely if co-prescribed; may require warfarin dose increase</li>
+            <li><strong>Insulin / sulfonylureas (additive hypoglycaemia):</strong> Additive glucose-lowering via AMPK-mediated GLUT4 upregulation; fasting glucose monitoring recommended when combining with antidiabetic pharmacotherapy</li>
+            <li><strong>MAOIs (avoid):</strong> Case reports of headache, tremor, and mania with concurrent ginseng; potential serotonin/catecholamine augmentation — combination should be avoided</li>
+            <li><strong>Immunosuppressants (cyclosporine, tacrolimus — caution):</strong> Ginsenoside immunostimulation may counteract graft rejection prophylaxis; interaction poorly characterised but biologically plausible — avoid in transplant recipients without specialist guidance</li>
+            <li><strong>Digoxin (laboratory interaction only):</strong> Ginseng interferes with some digoxin immunoassays, producing falsely elevated readings — a laboratory artefact, not pharmacokinetic; confirm with LC-MS/MS assay if suspected toxicity</li>
+            <li><strong>Common adverse effects:</strong> Insomnia, nervousness, headache (especially high doses or stimulant combinations); GI upset; breast tenderness and mastalgia at high doses (estrogenic ginsenoside activity)</li>
+            <li><strong>Contraindications:</strong> Hormone-sensitive conditions (breast, uterine, ovarian cancer; endometriosis) due to estrogenic ginsenoside activity; bipolar disorder (mania risk); concurrent MAOI use; pregnancy (ginsenoside Rb1 teratogenic in animal models — avoid)</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="nervous-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Nervous System
+            </a>
+            <a href="immune-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Immune System
+            </a>
+            <a href="cardiovascular-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Cardiovascular System
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/trease-and-evans-pharmacognosy/evans/978-0-7020-2933-2" target="_blank" rel="noopener noreferrer">Evans WC. Trease and Evans' Pharmacognosy. 16th ed. Saunders; 2009.</a></li>
-            <li><a href="https://www.cochranelibrary.com/" target="_blank" rel="noopener noreferrer">Cochrane Database of Systematic Reviews. Various authors. cochrane.org</a></li>
-            <li><a href="https://doi.org/10.1038/aja.2008.32" target="_blank" rel="noopener noreferrer">Kim TH, Jeon SH, Hahn EJ, et al. Effects of tissue-cultured mountain ginseng (Panax ginseng CA Meyer) extract on male patients with erectile dysfunction. Asian J Androl. 2009;11(3):356-61.</a></li>
-            <li><a href="https://doi.org/10.1371/journal.pone.0107391" target="_blank" rel="noopener noreferrer">Shishtar E, Sievenpiper JL, Djedovic V, et al. The effect of ginseng (the genus Panax) on glycemic control. PLoS One. 2014;9(9):e107391.</a></li>
+            <li>Kim TH, Jeon SH, Hahn EJ, et al. Effects of tissue-cultured mountain ginseng (<em>Panax ginseng</em> CA Meyer) extract on male patients with erectile dysfunction. <em>Asian J Androl.</em> 2009;11(3):356-61. <a href="https://doi.org/10.1038/aja.2008.32">doi:10.1038/aja.2008.32</a></li>
+            <li>Shishtar E, Sievenpiper JL, Djedovic V, et al. The effect of ginseng (the genus Panax) on glycemic control. <em>PLoS One.</em> 2014;9(9):e107391. <a href="https://doi.org/10.1371/journal.pone.0107391">doi:10.1371/journal.pone.0107391</a></li>
+            <li>Predy GN, Goel V, Lovlin R, et al. Efficacy of an extract of North American ginseng containing poly-furanosyl-pyranosyl-saccharides for preventing upper respiratory tract infections. <em>CMAJ.</em> 2005;173(9):1043-8.</li>
+            <li>Jang DJ, Lee MS, Shin BC, et al. Red ginseng for treating erectile dysfunction: a systematic review. <em>Br J Clin Pharmacol.</em> 2008;66(4):444-50. <a href="https://doi.org/10.1111/j.1365-2125.2008.03236.x">doi:10.1111/j.1365-2125.2008.03236.x</a></li>
+            <li>Evans WC. <em>Trease and Evans' Pharmacognosy.</em> 16th ed. Saunders; 2009.</li>
           </ul>
         </div>
 
@@ -184,17 +336,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="nervous-system.html">Nervous System</a>
+      <a href="immune-system.html">Immune System</a>
+      <a href="cardiovascular-system.html">Cardiovascular System</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

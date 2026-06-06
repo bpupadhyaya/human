@@ -3,35 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Stilbenoid polyphenol from grape skin and red wine; SIRT1 activator driving anti-inflammatory and mitochondrial biogenesis effects; phytoestrogen; poor oral bio">
-  <meta property="og:title" content="Resveratrol — Human Engineering">
+  <meta name="description" content="Resveratrol — trans-stilbenoid polyphenol from grape skin and Japanese knotweed. SIRT1/AMPK/PGC-1α activator, NF-κB suppressor via p65 deacetylation, phytoestrogen. Poor oral bioavailability (&lt;1% free). Promising preclinical data; limited human clinical translation. Part of the Human Engineering project.">
+  <meta property="og:title" content="Resveratrol — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Resveratrol — Human Engineering</title>
+  <title>Resveratrol — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
+      --accent-dark: #047857;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +33,57 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #064e3b); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .principle-box { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent-dark); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +108,258 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 03-food</div>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Food &amp; Nutraceuticals</div>
     <h1>Resveratrol</h1>
-    <p class="tagline">Stilbenoid polyphenol from grape skin and red wine; SIRT1 activator driving anti-inflammatory and mitochondrial biogenesis effects; phytoestrogen; poor oral bioavailability limits clinical translation despite promising preclinical data.</p>
-    <p class="aliases">Also known as: resveratrol, trans-resveratrol, trans-3,5,4'-trihydroxystilbene, 3,5,4'-stilbenetriol, Veri-te, pterostilbene precursor analogue, grape polyphenol</p>
+    <p class="tagline">Trans-stilbenoid phytoalexin from grape skin and Japanese knotweed — activates SIRT1/AMPK/PGC-1α to mimic aspects of caloric restriction; NF-κB suppressor via p65 deacetylation; promising in rodent models but poor oral bioavailability (&lt;1% free) limits clinical translation.</p>
+    <p class="subtagline">C₁₄H₁₂O₃ · trans-3,5,4'-trihydroxystilbene &nbsp;&middot;&nbsp; Red wine: 0.1–14.3 mg/L &nbsp;&middot;&nbsp; Oral free resveratrol bioavailability &lt;1% despite ~70% intestinal absorption &nbsp;&middot;&nbsp; SIRT1 → PGC-1α deacetylation: caloric restriction mimicry</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">03-food</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">&lt;1%</span><span class="stat-label">Free Resveratrol Bioavailability</span></div>
+      <div class="stat"><span class="stat-num">~70%</span><span class="stat-label">Intestinal Absorption</span></div>
+      <div class="stat"><span class="stat-num">−5.9 mg/dL</span><span class="stat-label">Fasting Glucose ↓ (meta-analysis)</span></div>
+      <div class="stat"><span class="stat-num">0.5%</span><span class="stat-label">Dry Weight in Japanese Knotweed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">resveratrol</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Food &amp; Nutraceuticals · Stilbenoid Polyphenol · SIRT1 Activator</div>
         <h2>Resveratrol</h2>
-        <p class="summary">Stilbenoid polyphenol from grape skin and red wine; SIRT1 activator driving anti-inflammatory and mitochondrial biogenesis effects; phytoestrogen; poor oral bioavailability limits clinical translation despite promising preclinical data.</p>
+        <div class="drug-class">Source: Grape skin/seeds, red wine, Japanese knotweed, blueberries, peanuts &nbsp;|&nbsp; Active form: trans-Resveratrol (C₁₄H₁₂O₃, MW 228.2 Da) &nbsp;|&nbsp; Category: Stilbenoid polyphenol · Phytoalexin · Phytoestrogen · Nutraceutical</div>
+        <p class="summary">Resveratrol (trans-3,5,4'-trihydroxystilbene) is a phytoalexin produced by plants under stress — characterised by two phenolic rings connected by a trans-ethylene bridge. Primary mechanism: allosteric SIRT1 (Sirtuin-1, NAD⁺-dependent deacetylase) activation → deacetylation of PGC-1α (mitochondrial biogenesis), RelA/p65 (↓NF-κB transcriptional activity), and FOXO3a (antioxidant gene expression). AMPK activation (via Complex I inhibition) provides upstream SIRT1 amplification. Phytoestrogenic activity (weak ER-α/β binding, ERβ-selective). The French Paradox hypothesis linking red wine resveratrol to cardiovascular protection remains controversial. Critical limitation: despite ~70% intestinal absorption, &gt;99% is rapidly glucuronidated/sulfated → &lt;1% systemic free resveratrol. Clinical evidence is Low for most indications; no large Phase III trial demonstrating outcome benefit. Most promising indications: metabolic syndrome, NAFLD, type 2 diabetes biomarker improvements at 150–500 mg/day.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">resveratrol</span>
+          <span class="alias-pill">trans-resveratrol</span>
+          <span class="alias-pill">trans-3,5,4'-trihydroxystilbene</span>
+          <span class="alias-pill">3,5,4'-stilbenetriol</span>
+          <span class="alias-pill">Veri-te</span>
+          <span class="alias-pill">grape polyphenol</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>resveratrol</td></tr>
-            <tr><td>Name</td><td>Resveratrol</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>03-food</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p>Resveratrol (<em>trans</em>-3,5,4'-trihydroxystilbene, C₁₄H₁₂O₃, MW 228.2 Da) is a stilbenoid polyphenol produced by plants as a <strong>phytoalexin</strong> — a stress-response compound synthesised in response to pathogen attack, UV irradiation, drought, and mechanical injury. The <em>trans</em> isomer is the biologically predominant and more stable form. Primary dietary sources include <strong>grape skin</strong> (50–100 µg/g fresh weight, concentrated in red and purple varieties), <strong>red wine</strong> (0.1–14.3 mg/L, highly variable by style and vintage), <strong>blueberries and bilberries</strong> (16–100 µg/g), <strong>peanuts</strong> (0.02–1.79 µg/g), and <strong>Japanese knotweed</strong> (<em>Fallopia japonica</em>) — which at up to 0.5% dry weight is the primary botanical source for commercial supplements.</p>
+          <p>The <strong>French Paradox</strong> — relatively low cardiovascular mortality in France despite high saturated fat intake — was proposed in 1992 (Renaud and de Lorgeril) to partly reflect resveratrol in red wine. This hypothesis drove enormous research interest but remains controversial: alcohol itself, overall dietary patterns (Mediterranean diet elements), reporting biases, and confounding lifestyle factors are likely major contributors. The xenohormesis hypothesis (Howitz and Sinclair, 2004) provides elegant evolutionary rationale — stressed plants signal environmental adversity to herbivores via resveratrol, activating conserved longevity-promoting stress responses — but is difficult to test directly in humans.</p>
+          <p>The <strong>bioavailability paradox</strong> is central to interpreting resveratrol's clinical relevance: while ~70% of an oral dose is absorbed from the intestine (high absorption), &gt;99% is rapidly converted by UGT1A1, UGT1A6, and SULT1A1 to resveratrol glucuronide and sulfate conjugates before reaching systemic circulation. Free resveratrol bioavailability is &lt;1%; plasma free concentrations after 25 mg are ≈5–10 ng/mL (t₁/₂ ~1–3 h), while most in vitro mechanistic studies use 1–100 µM — a 100–1000-fold concentration gap. Whether resveratrol conjugates are partially active and whether enterohepatic recycling and microbiome metabolism compensate is an open question.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="cardiovascular-system.html" title="Resveratrol activates SIRT1 and AMPK in vascular endothelium, reducing oxidative stress, improving endothelial NO bioavailability, and attenuating atherosclerotic plaque progression in animal models."><span class="rel">modulates</span>Cardiovascular System</a>
-            <a class="conn-pill" href="nf-kb.html" title="SIRT1-mediated deacetylation of RelA/p65 suppresses NF-κB transcriptional activity; resveratrol also stabilizes IκBα, reducing downstream cytokine gene expression in immune and epithelial cells."><span class="rel">modulates</span>Nf Kb</a>
-            <a class="conn-pill" href="macrophage.html" title="Resveratrol polarizes macrophages toward an M2 anti-inflammatory phenotype via SIRT1/PGC-1α axis, reducing TNF-α and IL-6 secretion while increasing IL-10 output in LPS-stimulated models."><span class="rel">modulates</span>Macrophage</a>
-            <a class="conn-pill" href="liver.html" title="Resveratrol activates hepatic SIRT1, promoting fatty acid oxidation via PGC-1α/PPARα, reducing steatosis in NAFLD models; also inhibits hepatic stellate cell activation, limiting fibrosis progression."><span class="rel">modulates</span>Liver</a>
+          <h3>Mechanism of Action</h3>
+          <h4>SIRT1 / AMPK / NF-κB — Central Signalling Axes</h4>
+          <div class="pathway-block">
+<pre>
+  Resveratrol
+       │
+       ├──────────────────────────────────────────────────────────────────────┐
+       │  SIRT1 allosteric activation                                         │  Complex I inhibition (high conc.)
+       │  (STAC-binding domain; enhanced substrate affinity)                  │  → ↑AMP/ATP → AMPK activation (LKB1)
+       ▼                                                                      ▼
+  SIRT1 (NAD⁺-dependent deacetylase) active                           AMPK activated
+       │                                                                      │
+       ├── PGC-1α deacetylation ──► PGC-1α active                           ↑NAMPT → ↑NAD⁺
+       │     │                                                                │
+       │     ▼                                                        Positive feedback loop ↑SIRT1
+       │   NRF1, TFAM: ↑Mitochondrial biogenesis                             │
+       │   PPARα: ↑Fatty acid oxidation                              AMPK also:
+       │   OXPHOS gene ↑ (caloric restriction mimicry)               ↓ACC → ↑FA oxidation
+       │                                                              ↓mTOR → ↑autophagy
+       ├── RelA/p65 deacetylation (Lys-310) ──► ↓NF-κB transcriptional activity
+       │     │
+       │     ▼
+       │   ↓TNF-α, ↓IL-6, ↓IL-8, ↓MCP-1, ↓VCAM-1, ↓ICAM-1
+       │
+       ├── FOXO3a deacetylation ──► FOXO3a active ──► ↑Catalase, ↑SOD2, ↑GADD45
+       │                                                ↑Autophagy
+       │
+       └── p53 deacetylation (Lys-382) ──► Complex p53 regulation (context-dependent)
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:0.75rem;">
+            <li><strong>SIRT1 allosteric activation:</strong> Resveratrol binds the N-terminal STAC-binding domain of SIRT1, enhancing substrate binding affinity and deacetylase catalytic rate — the key primary mechanism. Early concerns about a fluorophore-dependent assay artefact have been partially resolved; SIRT1 activation with native substrates is confirmed in cellular systems.</li>
+            <li><strong>PGC-1α deacetylation → mitochondrial biogenesis:</strong> Activated SIRT1 deacetylates PGC-1α, the master co-activator of mitochondrial biogenesis and fatty acid oxidation. This drives NRF1/TFAM-mediated mitochondrial gene expression and PPARα-driven fatty acid oxidation — phenocopying aspects of caloric restriction in animal models.</li>
+            <li><strong>RelA/p65 deacetylation → NF-κB suppression:</strong> SIRT1 deacetylates RelA/p65 at Lys-310, directly reducing NF-κB transcriptional activity → ↓pro-inflammatory cytokine gene expression (TNF-α, IL-6, IL-8) and ↓endothelial adhesion molecules (VCAM-1, ICAM-1). Resveratrol also independently stabilises IκBα via weak IKKβ inhibition.</li>
+            <li><strong>AMPK activation → SIRT1 amplification loop:</strong> At higher concentrations, resveratrol inhibits mitochondrial Complex I → ↑AMP/ATP → AMPK activation via LKB1 → ↑NAMPT → ↑NAD⁺ → further SIRT1 activation. This SIRT1-AMPK positive feedback loop may be the dominant mechanism at pharmacological supplement doses where direct SIRT1 activation is sub-threshold.</li>
+          </ol>
+
+          <h4>Additional Mechanisms</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>eNOS upregulation (CV)</h4>
+              <p>SIRT1 deacetylates eNOS at Lys-496/506 → ↑eNOS activity → ↑NO → vasodilation and ↓platelet aggregation; the SIRT1-AMPK-eNOS axis is the key proposed cardiovascular mechanism linking resveratrol to endothelial function</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Phytoestrogen (ERα/β)</h4>
+              <p>Weak ER-α and ER-β binding (~10,000-fold lower affinity than 17β-estradiol); ERβ-selective activity potentially anti-proliferative in breast cancer (opposite of ERα effects). Clinical hormonal effect at standard doses is likely minimal given very low affinity</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Anti-fibrotic (liver)</h4>
+              <p>SIRT1 activation reduces hepatic stellate cell (HSC) activation and TGF-β-driven collagen deposition; SIRT1/PGC-1α axis reduces hepatic lipid accumulation in NAFLD models; inhibits HSC-myofibroblast transdifferentiation</p>
+            </div>
+            <div class="pleio-item">
+              <h4>M2 macrophage polarisation</h4>
+              <p>Resveratrol polarises macrophages toward anti-inflammatory M2 phenotype via SIRT1/PGC-1α metabolic reprogramming → ↑IL-10, ↓TNF-α, ↓IL-6; relevant to adipose tissue inflammation in obesity and foam cell formation in atherosclerosis</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Dietary Sources &amp; Supplementation</h3>
+          <table class="data-table">
+            <tr>
+              <th>Food / Supplement Source</th>
+              <th>Typical Resveratrol Content</th>
+              <th>Bioavailability</th>
+              <th>Notes</th>
+            </tr>
+            <tr>
+              <td>Red wine (1 glass, ~150 mL)</td>
+              <td>~0.015–2.1 mg trans-resveratrol</td>
+              <td>Moderate for free resveratrol; alcohol co-consumption alters metabolism</td>
+              <td>Highly variable by grape variety, region, and vintage; Pinot Noir and Muscadine typically highest</td>
+            </tr>
+            <tr>
+              <td>Red grape juice (150 mL)</td>
+              <td>~0.1–0.5 mg resveratrol</td>
+              <td>Moderate</td>
+              <td>No alcohol — cleaner resveratrol source for those avoiding alcohol; also contains other polyphenols</td>
+            </tr>
+            <tr>
+              <td>Blueberries (100 g fresh)</td>
+              <td>~0.0016–0.01 mg (trace)</td>
+              <td>Moderate</td>
+              <td>Minor resveratrol source; valuable for other anthocyanins and polyphenols</td>
+            </tr>
+            <tr>
+              <td>Peanuts (100 g roasted)</td>
+              <td>~0.002–0.18 mg</td>
+              <td>Moderate</td>
+              <td>Boiled peanuts contain more than dry-roasted; commercially available peanut butter contains trace amounts</td>
+            </tr>
+            <tr>
+              <td>Standard resveratrol supplement (100–500 mg)</td>
+              <td>100–500 mg trans-resveratrol (from Japanese knotweed)</td>
+              <td>Low free resveratrol (&lt;1%); conjugates accumulate</td>
+              <td>Doses far exceed dietary amounts; optimal dose for humans unknown; take with fatty meal for better absorption</td>
+            </tr>
+            <tr>
+              <td>Micronised / liposomal resveratrol</td>
+              <td>50–250 mg per serving</td>
+              <td>Modestly improved Cmax vs. standard</td>
+              <td>Particle size reduction ↑dissolution; independent clinical pharmacokinetic validation is limited for most commercial preparations</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Evidence</h3>
+          <table class="data-table">
+            <tr>
+              <th>Study</th>
+              <th>Design</th>
+              <th>n</th>
+              <th>Key Result</th>
+            </tr>
+            <tr>
+              <td><strong>Baur et al. Nature 2006 (preclinical)</strong></td>
+              <td>Mouse study; high-calorie diet + resveratrol 22 mg/kg/day; survival and metabolic endpoints</td>
+              <td>Murine</td>
+              <td class="trial-result">↑Survival vs. untreated high-calorie; ↑insulin sensitivity; ↑mitochondrial biogenesis via SIRT1/PGC-1α; phenotypic resemblance to caloric restriction. Landmark but NOT directly translatable — murine dose exceeds human equivalent; mouse metabolism differs substantially.</td>
+            </tr>
+            <tr>
+              <td><strong>Timmers et al. Cell Metab 2011</strong></td>
+              <td>RCT, crossover; 150 mg/day resveratrol vs. placebo; 30 days; healthy obese men</td>
+              <td>11</td>
+              <td class="trial-result">↓Metabolic rate; ↑AMPK activity in muscle biopsies; ↑SIRT1 protein; ↑mitochondrial density; ↓plasma TG. Promising mechanistic validation in humans — but small (n=11) and short-term.</td>
+            </tr>
+            <tr>
+              <td><strong>Diabetes/metabolic meta-analysis (Liu 2014, AJCN)</strong></td>
+              <td>Meta-analysis of 9 RCTs; resveratrol 150–3,000 mg/day in type 2 diabetes / pre-diabetes</td>
+              <td>~300 pooled</td>
+              <td class="trial-result">Fasting glucose: −5.9 mg/dL (95% CI −11.2 to −0.5; p=0.04); HOMA-IR: −0.38. Modest but statistically significant. Heterogeneous formulations and doses; many trials n&lt;30. GRADE: Low.</td>
+            </tr>
+            <tr>
+              <td><strong>NAFLD (multiple small RCTs)</strong></td>
+              <td>RCTs; resveratrol 300–500 mg/day; 8–24 wk; NAFLD confirmed by ultrasound</td>
+              <td>30–100 per trial</td>
+              <td>Some improvement in ALT, hepatic steatosis grade on ultrasound, and HOMA-IR. Inconsistent across trials. GRADE: Low.</td>
+            </tr>
+            <tr>
+              <td><strong>Cognitive ageing (Turner 2015)</strong></td>
+              <td>RCT; 200 mg/day resveratrol; 26 weeks; postmenopausal women</td>
+              <td>80</td>
+              <td class="trial-result">Improved word retention and memory performance vs. placebo; ↑cerebrovascular responsiveness on fMRI. Interesting but single trial, not replicated consistently. GRADE: Low.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>The clinical translation gap:</strong> Resveratrol has arguably the most compelling preclinical mechanistic story in nutritional biochemistry — SIRT1/AMPK activation genuinely mimicking aspects of caloric restriction in rodents is scientifically well-established. However, the pharmacokinetic barrier (&lt;1% free bioavailability) creates a fundamental challenge: <strong>no large, adequately powered Phase III RCT has demonstrated resveratrol benefit on any clinical outcome</strong> (mortality, cardiovascular events, diabetes incidence). The CALERIE-2 caloric restriction trial showed that actual caloric restriction benefits in humans are modest and may not be replicated by SIRT1 activators alone. The SRT-501 (high-bioavailability formulation) multiple myeloma trial was halted due to renal adverse events. Resveratrol remains genuinely interesting scientifically but clinical recommendations await higher-quality evidence.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Safety &amp; Interactions</h3>
+          <ul class="se-list">
+            <li><strong>Generally well-tolerated at &le;1 g/day:</strong> Most RCTs report good tolerability at 150–1000 mg/day in short-term studies. GI adverse effects (nausea, diarrhoea, abdominal discomfort) emerge dose-dependently at &gt;2.5 g/day. High-dose SRT-501 formulation caused renal adverse events in a multiple myeloma trial — caution at doses &gt;2.5 g/day.</li>
+            <li><strong>Warfarin — CYP2C9 inhibition:</strong> Resveratrol inhibits CYP2C9 in vitro → potential ↑warfarin exposure and elevated INR. Clinically relevant at supplement doses ≥500 mg/day. Monitor INR in anticoagulated patients.</li>
+            <li><strong>Statins — CYP3A4 inhibition:</strong> Resveratrol inhibits CYP3A4 → potentially ↑simvastatin, atorvastatin, lovastatin AUC → myopathy risk. Use caution with combination at high resveratrol doses (&gt;500 mg/day); pravastatin and rosuvastatin are safer alternatives (not CYP3A4 substrates).</li>
+            <li><strong>Antiplatelet effects — additive bleeding risk:</strong> Resveratrol inhibits COX-1 (weak, high-concentration) → ↓TXA₂ → antiplatelet effect; SIRT1/eNOS activation → ↑NO → vasodilation and ↓platelet adhesion. Additive with aspirin, clopidogrel, heparin, and NSAIDs. Caution pre-operatively.</li>
+            <li><strong>Cyclosporine — CYP3A4/P-gp inhibition:</strong> ↑Cyclosporine AUC → nephrotoxicity and toxicity risk. Avoid in transplant patients on cyclosporine without close monitoring.</li>
+            <li><strong>Phytoestrogen considerations:</strong> Weak ERβ-selective binding; theoretical concerns in hormone-sensitive conditions (estrogen receptor-positive breast cancer, active hormonal therapy). Clinical evidence for significant hormonal effect at standard doses (&lt;500 mg/day) is limited, but caution is prudent in ER+ breast cancer patients without oncologist guidance.</li>
+            <li><strong>No established therapeutic dose:</strong> There is no regulatory-approved dosing for any indication; typical commercial supplements provide 100–500 mg/day. The optimal dose for human health, if any, remains unknown pending adequately powered RCTs.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="cardiovascular-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Cardiovascular System
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              NF-κB (entry pending)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Macrophage (entry pending)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Liver (entry pending)
+            </a>
+            <a href="curcumin.html" class="conn-pill">
+              <span class="rel">Related</span>
+              Curcumin
+            </a>
+            <a href="quercetin.html" class="conn-pill">
+              <span class="rel">Related</span>
+              Quercetin
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1038/nature05354" target="_blank" rel="noopener noreferrer">Baur JA, Pearson KJ, Price NL, et al. Resveratrol improves health and survival of mice on a high-calorie diet. Nature. 2006;444(7117):337-342.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17086191/" target="_blank" rel="noopener noreferrer">PubMed 17086191</a></li>
-            <li><a href="https://doi.org/10.1124/dmd.104.000885" target="_blank" rel="noopener noreferrer">Walle T, Hsieh F, DeLegge MH, Oatis JE Jr, Walle UK. High absorption but very low bioavailability of oral resveratrol in humans. Drug Metab Dispos. 2004;32(12):1377-82.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15333514/" target="_blank" rel="noopener noreferrer">PubMed 15333514</a></li>
-            <li><a href="https://www.cochranelibrary.com/" target="_blank" rel="noopener noreferrer">Cochrane Database of Systematic Reviews. Various systematic reviews available at cochranelibrary.com</a></li>
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li>Baur JA, Pearson KJ, Price NL, et al. Resveratrol improves health and survival of mice on a high-calorie diet. <em>Nature.</em> 2006;444(7117):337-342. <a href="https://doi.org/10.1038/nature05354">doi:10.1038/nature05354</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/17086191/">PubMed 17086191</a></li>
+            <li>Walle T, Hsieh F, DeLegge MH, Oatis JE Jr, Walle UK. High absorption but very low bioavailability of oral resveratrol in humans. <em>Drug Metab Dispos.</em> 2004;32(12):1377-82. <a href="https://doi.org/10.1124/dmd.104.000885">doi:10.1124/dmd.104.000885</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/15333514/">PubMed 15333514</a></li>
+            <li>Timmers S, Konings E, Bilet L, et al. Calorie restriction-like effects of 30 days of resveratrol supplementation on energy metabolism and metabolic profile in obese humans. <em>Cell Metab.</em> 2011;14(5):612-22. <a href="https://doi.org/10.1016/j.cmet.2011.10.002">doi:10.1016/j.cmet.2011.10.002</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/22055504/">PubMed 22055504</a></li>
+            <li>Liu K, Zhou R, Wang B, Mi MT. Effect of resveratrol on glucose control and insulin sensitivity: a meta-analysis of 11 randomized controlled trials. <em>Am J Clin Nutr.</em> 2014;99(6):1510-9. <a href="https://doi.org/10.3945/ajcn.113.082024">doi:10.3945/ajcn.113.082024</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/24695888/">PubMed 24695888</a></li>
+            <li>Renaud S, de Lorgeril M. Wine, alcohol, platelets, and the French paradox for coronary heart disease. <em>Lancet.</em> 1992;339(8808):1523-6. <a href="https://doi.org/10.1016/0140-6736(92)91277-F">doi:10.1016/0140-6736(92)91277-F</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/1351198/">PubMed 1351198</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. ISBN 131911467X.</li>
           </ul>
         </div>
 
@@ -184,17 +368,20 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="omega-3-fatty-acids.html">Omega-3 Fatty Acids</a>
+      <a href="curcumin.html">Curcumin</a>
+      <a href="quercetin.html">Quercetin</a>
+      <a href="statins.html">Statins</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -3,93 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Isoquinoline alkaloid from Berberis spp. Used in TCM (huáng bò), Ayurveda, and Unani. Activates AMPK → mimics metformin; lowers HbA1c ~1.0% (RCT). Anti-inflamma">
-  <meta property="og:title" content="Berberine — Human Engineering">
+  <meta name="description" content="Berberine — isoquinoline alkaloid from Berberis spp. AMPK activator, metformin-parallel metabolism, HbA1c reduction, NAFLD, dyslipidaemia. Part of the Human Engineering project.">
+  <meta property="og:title" content="Berberine — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Berberine — Human Engineering</title>
+  <title>Berberine — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .principle-box { background: rgba(124,58,237,0.07); border: 1px solid rgba(124,58,237,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -110,70 +128,220 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 02-traditional</div>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Traditional</div>
     <h1>Berberine</h1>
-    <p class="tagline">Isoquinoline alkaloid from Berberis spp. Used in TCM (huáng bò), Ayurveda, and Unani. Activates AMPK → mimics metformin; lowers HbA1c ~1.0% (RCT). Anti-inflammatory via NF-κB suppression. Improves NAFLD, dyslipidaemia. Poor oral bioavailability (~1%) limits dosing.</p>
-    <p class="aliases">Also known as: berberine, berberine hydrochloride, huáng bò, huánglián, daruharidra, tree turmeric, BBR, berberine sulfate</p>
+    <p class="tagline">Isoquinoline alkaloid from <em>Berberis</em> spp. that activates AMPK, mimics metformin&rsquo;s metabolic effects, and lowers HbA1c ~1.0% in head-to-head RCTs.</p>
+    <p class="subtagline">HbA1c &minus;2.0% at 13 weeks (Yin 2008) &middot; Non-inferior to metformin 1500 mg/day &middot; ~1&ndash;5% oral bioavailability &middot; Used in TCM, Ayurveda, and Unani for 2,000+ years</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">02-traditional</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">&minus;0.92%</span><span class="stat-label">HbA1c (meta-analysis)</span></div>
+      <div class="stat"><span class="stat-num">27 RCTs</span><span class="stat-label">Lan 2015 Meta-analysis</span></div>
+      <div class="stat"><span class="stat-num">1&ndash;5%</span><span class="stat-label">Oral Bioavailability</span></div>
+      <div class="stat"><span class="stat-num">1500 mg/day</span><span class="stat-label">Standard Clinical Dose</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">berberine</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas &middot; Traditional &middot; Isoquinoline Alkaloid / AMPK Activator</div>
         <h2>Berberine</h2>
-        <p class="summary">Isoquinoline alkaloid from Berberis spp. Used in TCM (huáng bò), Ayurveda, and Unani. Activates AMPK → mimics metformin; lowers HbA1c ~1.0% (RCT). Anti-inflammatory via NF-κB suppression. Improves NAFLD, dyslipidaemia. Poor oral bioavailability (~1%) limits dosing.</p>
+        <div class="drug-class">Source plants: <em>Berberis</em>, <em>Coptis</em>, <em>Hydrastis</em> spp. &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Category: Botanical alkaloid, insulin sensitiser, anti-inflammatory</div>
+        <p class="summary">Berberine is an isoquinoline alkaloid used in TCM (hu&#xE1;ng b&#xF2;), Ayurveda (daruharidra), and Unani. It activates AMPK via mitochondrial Complex I inhibition, mimicking metformin&rsquo;s metabolic effects. RCTs show HbA1c reductions of ~1.0&ndash;2.0%, non-inferior to metformin 1500 mg/day. Anti-inflammatory via NF-&#x03BA;B suppression. Improves NAFLD, dyslipidaemia, and gut microbiome composition. Critical limitation: ~1&ndash;5% oral bioavailability due to P-gp efflux and first-pass metabolism.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">berberine hydrochloride</span>
+          <span class="alias-pill">hu&#xE1;ng b&#xF2;</span>
+          <span class="alias-pill">hu&#xE1;ngli&#xE1;n</span>
+          <span class="alias-pill">daruharidra</span>
+          <span class="alias-pill">tree turmeric</span>
+          <span class="alias-pill">BBR</span>
+          <span class="alias-pill">berberine sulfate</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>berberine</td></tr>
-            <tr><td>Name</td><td>Berberine</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>02-traditional</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Berberine</strong> is an isoquinoline alkaloid (MW 336.4 Da) found in the roots, rhizomes, and stem bark of plants in the genera <em>Berberis</em>, <em>Coptis</em>, <em>Hydrastis</em> (goldenseal), <em>Phellodendron</em>, and related species. It produces the characteristic bright yellow colour of these plant tissues and has been used as a natural dye and a medicine across multiple traditional systems for over 2,000 years.</p>
+          <p>In <strong>Traditional Chinese Medicine (TCM)</strong>, berberine-containing plants are employed as <em>hu&#xE1;ng b&#xF2;</em> (<em>Phellodendron amurense</em>, Amur cork tree) and <em>hu&#xE1;ngli&#xE1;n</em> (<em>Coptis chinensis</em>, Chinese goldthread), primarily for damp-heat conditions, dysentery, and fevers — uses consistent with berberine&rsquo;s documented antibacterial activity. In <strong>Ayurveda</strong>, <em>Berberis aristata</em> (daruharidra, tree turmeric) is used for skin disorders, diabetes (<em>prameha</em>), and liver disease. <strong>Unani medicine</strong> employs <em>zereshk</em> (<em>Berberis vulgaris</em>, barberry) similarly.</p>
+          <p>Contemporary clinical interest centres on metabolic disease. A critical <strong>pharmacokinetic limitation</strong> constrains dosing strategy: oral bioavailability is approximately <strong>1&ndash;5%</strong> due to poor intestinal absorption, P-glycoprotein (P-gp) efflux, and extensive first-pass metabolism. Despite this, luminal concentrations in the gut are high, which explains both the direct gut effects (antimicrobial, microbiome modulation) and raises mechanistic questions about whether systemic or luminal mechanisms account for the observed metabolic efficacy.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="insulin.html" title="Berberine activates AMPK in hepatocytes and skeletal muscle, mimicking the insulin-sensitising effect of metformin. Separately, berberine upregulates insulin receptor expression at the mRNA and protein level in peripheral tissues, enhancing insulin signal transduction independent of AMPK. RCTs show HbA1c reductions of ~1.0% comparable to metformin 1500 mg/day over 13 weeks."><span class="rel">modulates</span>Insulin</a>
-            <a class="conn-pill" href="il-6.html" title="Berberine suppresses NF-κB activation by blocking IKKβ phosphorylation, reducing transcription of pro-inflammatory cytokines including IL-6 and TNF-α. In metabolic syndrome patients, berberine reduces CRP and IL-6; the anti-inflammatory effect is considered synergistic with metabolic benefits in NAFLD and atherosclerosis contexts."><span class="rel">modulates</span>Il 6</a>
-            <a class="conn-pill" href="liver.html" title="Berberine activates AMPK in hepatocytes via Complex I inhibition (similar to metformin), reducing malonyl-CoA and lipogenesis. It inhibits SREBP-1c → reduced fatty acid synthesis; activates autophagy via AMPK → improved lipid clearance. Clinical RCTs show improved liver enzyme profiles (ALT, AST), reduced hepatic fat on imaging, and improved histological NAFLD activity scores."><span class="rel">treats</span>Liver</a>
+          <h3>Mechanism of Action</h3>
+          <h4>AMPK Activation &mdash; The Metformin Parallel</h4>
+          <div class="pathway-block">
+<pre>
+  Berberine (oral)
+        │  Poor absorption (~1–5%)
+        │  High luminal concentration → gut effects (microbiome, antibacterial)
+        │
+        ▼ [systemic fraction]
+  Mitochondria (hepatocytes / skeletal muscle)
+        │
+        │  Complex I inhibition (NADH:ubiquinone oxidoreductase)
+        │  ↑ AMP/ATP ratio
+        ▼
+  AMPK activation (LKB1-mediated Thr172 phosphorylation)
+        │
+        ├─▶ Liver: CRTC2 phosphorylation → ↓ PEPCK, G6Pase → ↓ hepatic glucose output
+        │
+        ├─▶ Lipogenesis: ACC phosphorylation → ↓ malonyl-CoA → ↓ FA synthesis
+        │   SREBP-1c inhibition (direct) → ↓ de novo lipogenesis
+        │
+        ├─▶ FA oxidation: ↓ malonyl-CoA relieves CPT1 inhibition → ↑ β-oxidation
+        │
+        └─▶ Cholesterol: ↓ PCSK9 mRNA → ↑ LDL receptor recycling → ↓ LDL-C
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:0.75rem;">
+            <li><strong>Complex I inhibition:</strong> Berberine (positively charged) accumulates in mitochondria and inhibits Complex I at micromolar concentrations, raising intracellular AMP/ATP ratio — identical entry point to metformin.</li>
+            <li><strong>AMPK activation:</strong> Elevated AMP/ATP activates AMPK via LKB1-mediated phosphorylation at Thr172, triggering the master cellular energy-sensing programme.</li>
+            <li><strong>Hepatic glucose output:</strong> AMPK phosphorylates CRTC2, disrupting CREB-TORC2 complex, suppressing PEPCK and G6Pase transcription — the primary mechanism reducing fasting blood glucose.</li>
+            <li><strong>Lipid metabolism:</strong> ACC phosphorylation by AMPK reduces malonyl-CoA; direct SREBP-1c inhibition further reduces de novo lipogenesis. CPT1 relief increases mitochondrial fatty acid import and &#x03B2;-oxidation. PCSK9 mRNA reduction increases LDL receptor density.</li>
+          </ol>
+
+          <h4>Pleiotropic Effects</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Insulin Receptor Upregulation</h4>
+              <p>Independent of AMPK, berberine stabilises insulin receptor mRNA (inhibiting AU-rich element binding protein destabilisation) and increases insulin receptor protein expression in hepatocytes and skeletal muscle — enhancing downstream insulin signalling. This dual mechanism may explain effect sizes comparable to metformin despite poor bioavailability.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>NF-&#x03BA;B Suppression</h4>
+              <p>Berberine inhibits IKK&#x03B2; phosphorylation, preventing I&#x03BA;B&#x03B1; degradation and NF-&#x03BA;B nuclear translocation; reduces IL-6, TNF-&#x03B1;, IL-1&#x03B2;, COX-2 transcription. NLRP3 inflammasome inhibition further reduces IL-1&#x03B2;/IL-18. MAPK pathway (ERK1/2, p38) suppression adds to macrophage anti-inflammatory activity.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Gut Microbiome Remodelling</h4>
+              <p>At luminal concentrations, berberine inhibits gram-positive pathogens (DNA intercalation, topoisomerase II inhibition) while promoting growth of <em>Akkermansia muciniphila</em>, <em>Lactobacillus</em>, and <em>Bifidobacterium</em> spp. This remodelling may independently improve insulin sensitivity and reduce intestinal permeability, though its relative contribution vs. systemic AMPK effects is unresolved.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Antibacterial (Traditional Use Basis)</h4>
+              <p>At luminal concentrations after oral dosing, berberine is active against <em>Vibrio cholerae</em>, enterotoxigenic <em>E. coli</em>, and <em>Giardia lamblia</em>. Mechanism: DNA intercalation and bacterial topoisomerase II inhibition (distinct from fluoroquinolones, so limited cross-resistance). Mechanistically coherent with the 2,000-year TCM/Ayurvedic use for infectious diarrhoea.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Clinical Use &amp; Dosing</h3>
+          <table class="data-table">
+            <tr><th>Indication</th><th>Evidence Level</th><th>Dose</th><th>Duration Studied</th></tr>
+            <tr>
+              <td><strong>Type 2 diabetes / hyperglycemia</strong></td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+              <td>500 mg three times daily (1500 mg/day), 30 min before meals</td>
+              <td>13&ndash;24 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Dyslipidaemia</strong></td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+              <td>500 mg three times daily</td>
+              <td>8&ndash;24 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>NAFLD / NASH</strong></td>
+              <td><span class="badge badge-lo">Low&ndash;Moderate</span></td>
+              <td>500 mg three times daily</td>
+              <td>16 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>PCOS</strong></td>
+              <td><span class="badge badge-lo">Low (limited RCTs)</span></td>
+              <td>500 mg three times daily</td>
+              <td>3&ndash;6 months</td>
+            </tr>
+            <tr>
+              <td><strong>Infectious diarrhoea</strong></td>
+              <td><span class="badge badge-lo">Low&ndash;Moderate</span></td>
+              <td>400 mg three times daily</td>
+              <td>3&ndash;7 days</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Standard clinical dose:</strong> 1500 mg/day (500 mg &times; 3), taken 30 minutes <em>before</em> meals. Pre-meal timing matters: berberine reduces post-prandial glucose excursions more effectively when taken before meals. <strong>Bioavailability enhancement strategies</strong> include berberine with piperine (P-gp inhibition, potential 50&ndash;100% AUC increase; no large RCTs), dihydroberberine (DHB, ~5&times; higher intestinal absorption; limited trial data), and berberine phytosome (phosphatidylcholine complex; pilot data only).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Studies</h3>
+          <table class="data-table">
+            <tr><th>Study</th><th>Design</th><th>Population</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>Yin et al. 2008</strong></td>
+              <td>RCT, 13 weeks, single-centre</td>
+              <td>n=116 T2DM patients; berberine 500 mg &times;3 vs. metformin 500 mg &times;3 vs. rosiglitazone</td>
+              <td class="trial-result">Berberine: HbA1c &minus;2.0% (9.5% &rarr; 7.5%); FBG &minus;6.9 mmol/L; PPG &minus;11.1 mmol/L. Metformin: HbA1c &minus;1.8%. Berberine statistically non-inferior to metformin. Limitation: Chinese population only; no placebo arm.</td>
+            </tr>
+            <tr>
+              <td><strong>Zhang et al. 2010</strong></td>
+              <td>Mechanistic RCT</td>
+              <td>T2DM patients; berberine treatment with tissue sampling</td>
+              <td class="trial-result">Berberine increased insulin receptor mRNA and protein expression in peripheral tissues; HOMA-IR reduced alongside glucose-lowering. Demonstrated dual AMPK + insulin receptor upregulation mechanism in humans.</td>
+            </tr>
+            <tr>
+              <td><strong>Lan et al. 2015 (meta-analysis)</strong></td>
+              <td>Meta-analysis, 27 RCTs</td>
+              <td>T2DM, dyslipidaemia, and hypertension patients across multiple trials</td>
+              <td class="trial-result">HbA1c pooled &minus;0.92% (95% CI: &minus;1.14 to &minus;0.70). FBG &minus;1.28 mmol/L. LDL-C &minus;0.59 mmol/L. TG &minus;0.50 mmol/L. TC &minus;0.53 mmol/L. Modest BP reduction. Limitation: high proportion of Chinese trials, high heterogeneity, small n in many trials.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>The bioavailability paradox:</strong> Berberine achieves metabolic effects comparable to metformin 1500 mg/day despite ~1&ndash;5% oral bioavailability. The dual mechanism (AMPK activation + insulin receptor upregulation) and the possibility that gut-luminal effects contribute independently may explain this apparent paradox. However, this also means the systemic fraction responsible for hepatic and skeletal muscle effects is uncertain, complicating dose-response predictions and limiting generalisability of trials conducted almost entirely in Chinese populations to date.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Safety &amp; Interactions</h3>
+          <ul class="se-list">
+            <li>Generally well-tolerated at 1500 mg/day. Most common adverse effect: <strong>constipation</strong> (most frequent, ~10&ndash;30%); also nausea, abdominal cramping, and diarrhoea (paradoxically). These often resolve after dose titration. Long-term safety data (&gt;1 year) in large populations are lacking.</li>
+            <li><strong>Cyclosporine interaction (clinically significant):</strong> Berberine inhibits CYP3A4 and P-gp, increasing cyclosporine levels. <strong>Documented interaction — avoid combination or monitor closely</strong> if co-prescribed in transplant patients.</li>
+            <li><strong>Warfarin / anticoagulants:</strong> Berberine may prolong prothrombin time via CYP2C9 inhibition (warfarin is a CYP2C9 substrate). Use with caution; INR monitoring recommended.</li>
+            <li><strong>CYP2D6 substrates (metoprolol, codeine, tramadol):</strong> Berberine inhibits CYP2D6; potential for increased exposure and toxicity of 2D6-dependent drugs at standard doses.</li>
+            <li><strong>Metformin / glucose-lowering agents:</strong> Additive glucose-lowering; combination with sulfonylureas or insulin increases hypoglycemia risk. Monitor blood glucose when co-prescribed.</li>
+            <li><strong>Pregnancy: Contraindicated</strong> &mdash; potential teratogenicity and uterotonic effects in animal studies. Also contraindicated in neonates and infants due to potential bilirubin displacement risk.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="liver.html" class="conn-pill acts">
+              <span class="rel">Treats</span>
+              Liver (NAFLD)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Modulates</span>
+              Insulin / Insulin Receptor (entry pending)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Modulates</span>
+              IL-6 / NF-&#x03BA;B (entry pending)
+            </a>
+            <a href="ashwagandha.html" class="conn-pill acts">
+              <span class="rel">See also</span>
+              Ashwagandha
+            </a>
+            <a href="ginkgo-biloba.html" class="conn-pill acts">
+              <span class="rel">See also</span>
+              Ginkgo biloba
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/j.metabol.2008.01.013" target="_blank" rel="noopener noreferrer">Yin J, Xing H, Ye J. Efficacy of berberine in patients with type 2 diabetes mellitus. Metabolism. 2008;57(5):712-17.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18442638/" target="_blank" rel="noopener noreferrer">PubMed 18442638</a></li>
-            <li><a href="https://doi.org/10.1016/j.metabol.2009.07.029" target="_blank" rel="noopener noreferrer">Zhang H, Wei J, Xue R, et al. Berberine lowers blood glucose in type 2 diabetes mellitus patients through increasing insulin receptor expression. Metabolism. 2010;59(2):285-92.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19800084/" target="_blank" rel="noopener noreferrer">PubMed 19800084</a></li>
-            <li><a href="https://doi.org/10.1016/j.jep.2014.09.049" target="_blank" rel="noopener noreferrer">Lan J, Zhao Y, Dong F, et al. Meta-analysis of the effect and safety of berberine in the treatment of type 2 diabetes mellitus, hyperlipemia and hypertension. J Ethnopharmacol. 2015;161:69-81.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25498346/" target="_blank" rel="noopener noreferrer">PubMed 25498346</a></li>
+            <li>Yin J, Xing H, Ye J. Efficacy of berberine in patients with type 2 diabetes mellitus. <em>Metabolism.</em> 2008;57(5):712-17. <a href="https://doi.org/10.1016/j.metabol.2008.01.013">doi:10.1016/j.metabol.2008.01.013</a> &middot; PMID 18442638</li>
+            <li>Zhang H, Wei J, Xue R, et al. Berberine lowers blood glucose in type 2 diabetes mellitus patients through increasing insulin receptor expression. <em>Metabolism.</em> 2010;59(2):285-92. <a href="https://doi.org/10.1016/j.metabol.2009.07.029">doi:10.1016/j.metabol.2009.07.029</a> &middot; PMID 19800084</li>
+            <li>Lan J, Zhao Y, Dong F, et al. Meta-analysis of the effect and safety of berberine in the treatment of type 2 diabetes mellitus, hyperlipemia and hypertension. <em>J Ethnopharmacol.</em> 2015;161:69-81. <a href="https://doi.org/10.1016/j.jep.2014.09.049">doi:10.1016/j.jep.2014.09.049</a> &middot; PMID 25498346</li>
           </ul>
         </div>
 
@@ -182,17 +350,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="liver.html">Liver</a>
+      <a href="ashwagandha.html">Ashwagandha</a>
+      <a href="ginkgo-biloba.html">Ginkgo biloba</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

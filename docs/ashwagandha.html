@@ -3,93 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Withania somnifera (ashwagandha). Ayurvedic rasayana adaptogen. Active withanolides reduce cortisol by 14–32% (RCT), improve anxiety (GAD-7 −6 points), and incr">
-  <meta property="og:title" content="Ashwagandha — Human Engineering">
+  <meta name="description" content="Ashwagandha (Withania somnifera) — Ayurvedic rasayana adaptogen. Mechanism, clinical evidence, cortisol reduction, and safety. Part of the Human Engineering project.">
+  <meta property="og:title" content="Ashwagandha — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Ashwagandha — Human Engineering</title>
+  <title>Ashwagandha — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
+
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+    .trial-result { font-weight: 700; color: var(--bio); }
+
+    .principle-box { background: rgba(124,58,237,0.07); border: 1px solid rgba(124,58,237,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill.acts .rel { color: var(--eng); }
+
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
+
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -110,70 +128,228 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 02-traditional</div>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Traditional</div>
     <h1>Ashwagandha</h1>
-    <p class="tagline">Withania somnifera (ashwagandha). Ayurvedic rasayana adaptogen. Active withanolides reduce cortisol by 14–32% (RCT), improve anxiety (GAD-7 −6 points), and increase testosterone/VO₂max in trials. Also used in Unani (asgandh). GABA-A receptor modulation proposed mechanism.</p>
-    <p class="aliases">Also known as: ashwagandha, Withania somnifera, Indian ginseng, winter cherry, asgandh, ajagandha, kanaje Hindi, WS, KSM-66, Sensoril</p>
+    <p class="tagline">Ayurvedic rasayana adaptogen that reduces cortisol 14&ndash;32%, modulates the HPA axis, and improves anxiety, sleep, and athletic performance in RCTs.</p>
+    <p class="subtagline">3,000+ years of traditional use &middot; Cortisol &minus;27.9% vs. placebo (Chandrasekhar 2012) &middot; KSM-66 &amp; Sensoril are the most clinically studied extracts &middot; GABA-A receptor partial agonism proposed mechanism</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">02-traditional</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">27.9%</span><span class="stat-label">Cortisol Reduction (RCT)</span></div>
+      <div class="stat"><span class="stat-num">&minus;44%</span><span class="stat-label">Perceived Stress Scale</span></div>
+      <div class="stat"><span class="stat-num">+96 ng/dL</span><span class="stat-label">Testosterone Increase</span></div>
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Key Proprietary Extracts</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">ashwagandha</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas &middot; Traditional &middot; Adaptogen / Rasayana</div>
         <h2>Ashwagandha</h2>
-        <p class="summary">Withania somnifera (ashwagandha). Ayurvedic rasayana adaptogen. Active withanolides reduce cortisol by 14–32% (RCT), improve anxiety (GAD-7 −6 points), and increase testosterone/VO₂max in trials. Also used in Unani (asgandh). GABA-A receptor modulation proposed mechanism.</p>
+        <div class="drug-class">Botanical: <em>Withania somnifera</em> (Solanaceae) &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Category: Adaptogen, rasayana, immunomodulator</div>
+        <p class="summary">Withania somnifera (ashwagandha) is an Ayurvedic rasayana adaptogen with over 3,000 years of documented use. Active withanolides reduce serum cortisol by 14&ndash;32% in placebo-controlled RCTs, improve anxiety scores (GAD-7, PSS), and increase testosterone and VO&#x2082;max in trials. GABA-A receptor modulation and HPA axis normalisation are the proposed primary mechanisms. Commercial extracts KSM-66, Sensoril, and Shoden are standardised by withanolide content and represent the clinical evidence base.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Withania somnifera</span>
+          <span class="alias-pill">Indian ginseng</span>
+          <span class="alias-pill">winter cherry</span>
+          <span class="alias-pill">asgandh</span>
+          <span class="alias-pill">ajagandha</span>
+          <span class="alias-pill">kanaje Hindi</span>
+          <span class="alias-pill">KSM-66</span>
+          <span class="alias-pill">Sensoril</span>
+          <span class="alias-pill">Shoden</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>ashwagandha</td></tr>
-            <tr><td>Name</td><td>Ashwagandha</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>02-traditional</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Ashwagandha</strong> (<em>Withania somnifera</em>, family Solanaceae) is a small woody shrub native to the Indian subcontinent, North Africa, and the Mediterranean. It has been used in <strong>Ayurvedic medicine</strong> for over 3,000 years as a <em>rasayana</em> — a rejuvenative tonic intended to promote longevity, vitality, and resilience. The Sanskrit name <em>ashwagandha</em> ("smell of horse") refers both to the root's characteristic odour and to the traditional belief that the herb imparts the strength and vitality of a horse. The plant is also used in <strong>Unani medicine</strong> as <em>asgandh</em> and across North African and Middle Eastern herbal traditions. In contemporary Western markets it is one of the best-selling herbal supplements, marketed primarily for stress, sleep, and athletic performance.</p>
+          <p><strong>Active constituents</strong> are concentrated in the root and to a lesser extent the leaves. The most pharmacologically characterised are the <strong>withanolides</strong> — a class of steroidal lactones (C&#x2082;&#x2088;) unique to <em>Withania</em> spp; over 40 have been identified, including withaferin A, withanolide A and D, and withanoside IV and VI. Supporting constituents include <strong>alkaloids</strong> (isopelletierine, anaferine, cuseohygrine), <strong>saponins</strong> (sitoindosides VII&ndash;X) that contribute to adaptogenic and immunomodulatory effects, and <strong>triethylene glycol</strong> in leaf extracts, shown to have sleep-promoting effects in animal models.</p>
+          <p>Three proprietary standardised extract forms dominate the clinical evidence base: <strong>KSM-66</strong> (5% withanolides, root only), <strong>Sensoril</strong> (10% withanolides, root + leaf), and <strong>Shoden</strong> (35% withanosides + withanolides, the highest-concentration form). Most RCTs have used KSM-66 at 300&ndash;600 mg/day. Traditional raw-root powder preparations (<em>churna</em>) have minimal clinical trial data; their withanolide content (~0.1&ndash;0.5%) is far lower than standardised extracts, though the effective withanolide dose at traditional serving sizes may be loosely comparable.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="cortisol.html" title="Root extract standardised to withanolides reduces serum cortisol by 14–32% in placebo-controlled RCTs; mechanism involves withanolide action on the hypothalamic-pituitary-adrenal axis, suppressing corticotropin-releasing hormone (CRH) signalling and reducing adrenocortical sensitivity. DHEA-S is preserved or increased, suggesting selective modulation rather than adrenal suppression."><span class="rel">modulates</span>Cortisol</a>
-            <a class="conn-pill" href="nervous-system.html" title="Adaptogen: modulates the HPA axis and autonomic nervous system. Withanolides (particularly withaferin A and withanolide D) have GABA-mimetic activity at GABA-A receptors, reducing neuronal excitability. RCTs show reductions in anxiety scales (GAD-7, Hamilton Anxiety Scale). Triethylene glycol found in leaf extract contributes to sleep induction in animal models."><span class="rel">modulates</span>Nervous System</a>
-            <a class="conn-pill" href="immune-system.html" title="Ayurvedic rasayana use includes immune enhancement. Withanolides enhance NK cell activity, macrophage phagocytosis, and IFN-γ production in human studies. Withaferin A inhibits NF-κB in macrophages — a dual immunomodulatory (enhancing innate, dampening excessive inflammatory) profile consistent with rasayana rejuvenation protocols. Note: clinical immunology data are less robust than cortisol data."><span class="rel">treats</span>Immune System</a>
+          <h3>Mechanism of Action</h3>
+          <h4>HPA Axis Modulation and Cortisol Reduction</h4>
+          <div class="pathway-block">
+<pre>
+  Chronic Stress Signal
+        │
+        ▼
+  Hypothalamus (PVN)
+        │  CRH release ──&lt; Withanolides may suppress CRH expression
+        ▼                   (animal evidence; human mechanism unconfirmed)
+  Anterior Pituitary
+        │  ACTH release
+        ▼
+  Adrenal Cortex
+        │  Cortisol synthesis
+        │  ← Withanolides reduce adrenocortical output
+        │  ← DHEA-S preserved or increased (selective modulation, not suppression)
+        ▼
+  [Chronically elevated cortisol]
+        │   Ashwagandha treatment
+        ▼
+  Cortisol ↓ 14–32% vs. baseline (RCTs)
+  PSS ↓ 44% vs. 5.9% placebo (Chandrasekhar 2012)
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:0.75rem;">
+            <li><strong>Hypothalamic level:</strong> Animal studies show reduced CRH expression in the paraventricular nucleus under chronic stress conditions with ashwagandha treatment; the precise receptor mediating this is not confirmed in humans.</li>
+            <li><strong>Adrenal level:</strong> Withanolides reduce cortisol secretion from adrenocortical cells in vitro. Whether this constitutes adrenal suppression or normalisation of excessive output is debated — DHEA-S is maintained or increased in RCTs, suggesting selective modulation.</li>
+            <li><strong>Net effect in RCTs:</strong> Serum cortisol reduced 14&ndash;32% from baseline vs. placebo in participants with chronic stress. PSS (Perceived Stress Scale) reduced 44.0% vs. 5.9% placebo at 60 days (Chandrasekhar 2012). CRP also significantly reduced.</li>
+          </ol>
+
+          <h4>Pleiotropic Effects</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>GABAergic / Anxiolytic</h4>
+              <p>Withanolides bind GABA-A receptors with modest affinity at a site distinct from the benzodiazepine allosteric site (&#x3B1;-subunit). Withaferin A also inhibits GABA transaminase (GABA-T), increasing synaptic GABA availability and reducing neuronal excitability without addiction liability.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>NF-&#x03BA;B Suppression</h4>
+              <p>Withaferin A inhibits IKK&#x03B2; (I&#x03BA;B kinase &#x03B2;), blocking NF-&#x03BA;B nuclear translocation and reducing transcription of TNF-&#x03B1;, IL-6, IL-1&#x03B2;, and COX-2. Withanolides also bind Hsp90 and inhibit its ATPase activity, disrupting pro-inflammatory signalling scaffolds.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Dual Immunomodulation</h4>
+              <p>Enhances innate immunity (NK cell cytotoxicity, macrophage phagocytosis, IFN-&#x03B3; production) while dampening excessive NF-&#x03BA;B-driven inflammation via withaferin A. Profile is consistent with classical rasayana immunomodulation; clinical immunology data are less robust than cortisol data.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Testosterone / Anabolic</h4>
+              <p>Reducing cortisol disinhibits Leydig cell testosterone synthesis (cortisol suppresses LH-driven testosterone production). 600 mg/day KSM-66 raised testosterone +96.2 ng/dL and LH +34% vs. placebo (Wankhede 2015); direct anabolic mechanisms (myostatin inhibition) proposed but not confirmed in humans.</p>
+            </div>
+          </div>
+
+          <h4>Neuroprotective Mechanisms</h4>
+          <p>Withanoside IV promotes axon and dendrite regeneration in hippocampal neurons and reverses memory deficits in scopolamine-treated mice. This neuroprotective effect is mechanistically distinct from the GABA-A anxiolytic pathway and may underlie the cognitive and sleep benefits observed in trials. Triethylene glycol (leaf extract component) has sleep-promoting effects in mice via unknown mechanisms. Direct human neuroimaging evidence for these neuroprotective pathways is currently absent.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Use &amp; Dosing</h3>
+          <table class="data-table">
+            <tr><th>Indication</th><th>Evidence Level</th><th>Dose (Standardised Extract)</th><th>Duration Studied</th></tr>
+            <tr>
+              <td><strong>Chronic stress / anxiety</strong></td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+              <td>300&ndash;600 mg/day (5% withanolides)</td>
+              <td>8&ndash;12 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Sleep quality</strong></td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+              <td>300&ndash;600 mg/day KSM-66</td>
+              <td>8&ndash;10 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Athletic performance / VO&#x2082;max</strong></td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+              <td>500&ndash;600 mg/day</td>
+              <td>8&ndash;12 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Testosterone / male fertility</strong></td>
+              <td><span class="badge badge-lo">Low&ndash;Moderate</span></td>
+              <td>675 mg/day root extract</td>
+              <td>90 days</td>
+            </tr>
+            <tr>
+              <td><strong>Subclinical hypothyroidism</strong></td>
+              <td><span class="badge badge-lo">Low (single trial)</span></td>
+              <td>600 mg/day</td>
+              <td>8 weeks</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Traditional Ayurvedic dosing:</strong> 3&ndash;6 g of raw root powder per day (<em>churna</em>) taken with milk, honey, or ghee. Significantly higher gram dose than modern extracts, but withanolide content of raw powder (~0.1&ndash;0.5%) is much lower than standardised extracts. <strong>Ashwagandha ghrita</strong> (root extract in clarified butter) is a traditional lipid formulation that may improve bioavailability, as withanolides are lipophilic.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Studies</h3>
+          <table class="data-table">
+            <tr><th>Study</th><th>Design</th><th>Population</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>Chandrasekhar et al. 2012</strong></td>
+              <td>Double-blind RCT, 60 days, single-centre</td>
+              <td>n=64 chronically stressed adults; KSM-66 300 mg twice daily vs. placebo</td>
+              <td class="trial-result">Cortisol &minus;27.9% (treatment) vs. &minus;7.9% (placebo); p&lt;0.0001. PSS &minus;44.0% vs. &minus;5.9%. Significant CRP reduction. Anxiety scales improved. Limitation: small n, industry-adjacent investigators.</td>
+            </tr>
+            <tr>
+              <td><strong>Pratte et al. 2014 (systematic review)</strong></td>
+              <td>Systematic review, 5 human trials</td>
+              <td>Mixed stressed/anxious adult populations across multiple preparations</td>
+              <td class="trial-result">Consistent improvement in stress, anxiety, and fatigue outcomes across trials. GRADE: Low to Moderate — all trials have risk of bias (small n, industry funding, heterogeneous populations).</td>
+            </tr>
+            <tr>
+              <td><strong>Wankhede et al. 2015</strong></td>
+              <td>RCT, 8 weeks</td>
+              <td>n=57 young men; KSM-66 300 mg twice daily vs. placebo; resistance training protocol</td>
+              <td class="trial-result">Bench press 1-RM +46.0 kg vs. +26.4 kg (p=0.001). Testosterone +96.2 ng/dL vs. +18.0 ng/dL (p=0.004). CK recovery improved. Limitation: small n, industry-adjacent; large effect sizes warrant independent replication.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Evidence interpretation:</strong> Cortisol and stress reduction are the most consistent and replicated findings across ashwagandha trials. Athletic performance and testosterone data from Wankhede 2015 are promising but effect sizes are large and the trial is small — independent replication is needed before these are considered well-established. Long-term safety beyond 6 months has not been evaluated in formal RCTs. Mechanisms in humans remain largely extrapolated from preclinical studies; no head-to-head comparisons with established anxiolytics exist.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Safety &amp; Interactions</h3>
+          <ul class="se-list">
+            <li>Generally well-tolerated at doses &le;600 mg/day. Most common adverse effects: <strong>GI upset, drowsiness, loose stools</strong> — usually mild and resolve with dose titration.</li>
+            <li><strong>Thyroid interactions:</strong> Ashwagandha elevates T3 and T4 in euthyroid subjects in one small trial. Caution in <strong>hyperthyroidism</strong> or patients on <strong>levothyroxine</strong> — thyroid function monitoring is advisable.</li>
+            <li><strong>Sedative potentiation:</strong> Additive CNS depression with <strong>benzodiazepines, barbiturates, alcohol</strong>. Clinical significance is unclear at standard doses but caution is warranted when co-prescribed with sedating medications.</li>
+            <li><strong>Immunosuppressant interactions:</strong> Immunoenhancing effects create theoretical antagonism. <strong>Avoid in transplant patients on calcineurin inhibitors</strong> (tacrolimus, cyclosporine) without explicit medical supervision.</li>
+            <li><strong>Pregnancy: Contraindicated</strong> — traditionally used as an abortifacient; uterotonic activity confirmed in animal models. Avoid throughout pregnancy and breastfeeding.</li>
+            <li><strong>Autoimmune disease:</strong> Immunostimulatory effects could theoretically exacerbate autoimmune flares (rheumatoid arthritis, lupus, multiple sclerosis). Human data are lacking; risk remains theoretical but mechanistically plausible.</li>
+            <li><strong>Hepatotoxicity (rare):</strong> 5 published case reports of liver injury 2019&ndash;2023, all with additional confounders. FDA has not issued a formal warning but the cases highlight the need for monitoring in high-dose or prolonged use. Risk appears low but not zero.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="nervous-system.html" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Nervous System
+            </a>
+            <a href="immune-system.html" class="conn-pill acts">
+              <span class="rel">Modulates</span>
+              Immune System
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Acts on</span>
+              Adrenal Gland / HPA Axis (entry pending)
+            </a>
+            <a href="#" class="conn-pill targets">
+              <span class="rel">Modulates</span>
+              Cortisol (entry pending)
+            </a>
+            <a href="berberine.html" class="conn-pill acts">
+              <span class="rel">See also</span>
+              Berberine
+            </a>
+            <a href="ginkgo-biloba.html" class="conn-pill acts">
+              <span class="rel">See also</span>
+              Ginkgo biloba
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.4103/0253-7176.106022" target="_blank" rel="noopener noreferrer">Chandrasekhar K, Kapoor J, Anishetty S. A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root in reducing stress and anxiety in adults. Indian J Psychol Med. 2012;34(3):255-62.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23439798/" target="_blank" rel="noopener noreferrer">PubMed 23439798</a></li>
-            <li><a href="https://doi.org/10.1089/acm.2014.0177" target="_blank" rel="noopener noreferrer">Pratte MA, Nanavati KB, Young V, Morley CP. An alternative treatment for anxiety: a systematic review of human trial results reported for the Ayurvedic herb ashwagandha (Withania somnifera). J Altern Complement Med. 2014;20(12):901-8.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25405876/" target="_blank" rel="noopener noreferrer">PubMed 25405876</a></li>
-            <li><a href="https://doi.org/10.1186/s12970-015-0104-9" target="_blank" rel="noopener noreferrer">Wankhede S, Langade D, Joshi K, et al. Examining the effect of Withania somnifera supplementation on muscle strength and recovery: a randomized controlled trial. J Int Soc Sports Nutr. 2015;12:43.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26609282/" target="_blank" rel="noopener noreferrer">PubMed 26609282</a></li>
+            <li>Chandrasekhar K, Kapoor J, Anishetty S. A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root in reducing stress and anxiety in adults. <em>Indian J Psychol Med.</em> 2012;34(3):255-62. <a href="https://doi.org/10.4103/0253-7176.106022">doi:10.4103/0253-7176.106022</a> &middot; PMID 23439798</li>
+            <li>Pratte MA, Nanavati KB, Young V, Morley CP. An alternative treatment for anxiety: a systematic review of human trial results reported for the Ayurvedic herb ashwagandha (Withania somnifera). <em>J Altern Complement Med.</em> 2014;20(12):901-8. <a href="https://doi.org/10.1089/acm.2014.0177">doi:10.1089/acm.2014.0177</a> &middot; PMID 25405876</li>
+            <li>Wankhede S, Langade D, Joshi K, et al. Examining the effect of Withania somnifera supplementation on muscle strength and recovery: a randomized controlled trial. <em>J Int Soc Sports Nutr.</em> 2015;12:43. <a href="https://doi.org/10.1186/s12970-015-0104-9">doi:10.1186/s12970-015-0104-9</a> &middot; PMID 26609282</li>
           </ul>
         </div>
 
@@ -182,17 +358,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="nervous-system.html">Nervous System</a>
+      <a href="berberine.html">Berberine</a>
+      <a href="ginkgo-biloba.html">Ginkgo biloba</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

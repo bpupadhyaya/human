@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Glycyrrhiza root triterpene saponin glycyrrhizin hydrolyzed to glycyrrhetic acid, which inhibits renal 11β-HSD2 → pseudo-hyperaldosteronism: Na+ retention, hype">
-  <meta property="og:title" content="Licorice Root (Glycyrrhiza glabra / G. uralensis) — Human Engineering">
+  <meta name="description" content="Licorice Root (Glycyrrhiza glabra / G. uralensis) — glycyrrhizin, glycyrrhetic acid, 11β-HSD2 inhibition, pseudo-hyperaldosteronism, DGL mucosal healing, antiviral properties against SARS-CoV and HBV. Part of the Human Engineering project.">
+  <meta property="og:title" content="Licorice Root — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Licorice Root (Glycyrrhiza glabra / G. uralensis) — Human Engineering</title>
+  <title>Licorice Root — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,66 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .toxicity-box { background: rgba(185,28,28,0.06); border: 1px solid rgba(185,28,28,0.25); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .toxicity-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .toxicity-box strong { color: #b91c1c; }
+    .principle-box { background: rgba(124,58,237,0.07); border: 1px solid rgba(124,58,237,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+    .se-list li.danger { border-left: 3px solid #b91c1c; }
+    .se-list li.danger strong { color: #b91c1c; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +116,236 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 02-traditional</div>
-    <h1>Licorice Root (Glycyrrhiza glabra / G. uralensis)</h1>
-    <p class="tagline">Glycyrrhiza root triterpene saponin glycyrrhizin hydrolyzed to glycyrrhetic acid, which inhibits renal 11β-HSD2 → pseudo-hyperaldosteronism: Na+ retention, hypertension, hypokalemia. DGL (deglycyrrhizinated) promotes ulcer healing safely. Antiviral against SARS-CoV, HIV.</p>
-    <p class="aliases">Also known as: licorice, liquorice, Glycyrrhiza glabra, Glycyrrhiza uralensis, Glycyrrhiza inflata, glycyrrhizin, glycyrrhizic acid, glycyrrhetic acid, DGL, deglycyrrhizinated licorice, gancao, 甘草</p>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Traditional</div>
+    <h1>Licorice Root</h1>
+    <p class="tagline"><em>Glycyrrhiza glabra / G. uralensis</em> — glycyrrhetic acid inhibits renal 11β-HSD2, producing pseudo-hyperaldosteronism (Na+ retention, hypokalemia, hypertension); DGL safely promotes gastric ulcer healing via mucosal defence mechanisms; glycyrrhizin shows in vitro antiviral activity against SARS-CoV and is licensed for hepatitis B in Japan.</p>
+    <p class="subtagline">11β-HSD2 Ki ~0.1–1 μM (glycyrrhetic acid). +15 mmHg systolic BP at 100 g licorice/day. Urinary cortisol:cortisone ratio ↑ 3–10 fold. DGL peptic ulcer healing 78% vs cimetidine 60% (pilot RCT). WHO safe limit: ≤100 mg glycyrrhizin/day.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">02-traditional</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">50×</span><span class="stat-label">Sweeter than sucrose</span></div>
+      <div class="stat"><span class="stat-num">+15 mmHg</span><span class="stat-label">Systolic BP at 100 g/day</span></div>
+      <div class="stat"><span class="stat-num">100 mg/day</span><span class="stat-label">WHO glycyrrhizin safe limit</span></div>
+      <div class="stat"><span class="stat-num">3–10×</span><span class="stat-label">Cortisol:cortisone ratio ↑</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">licorice-root</div>
-        <h2>Licorice Root (Glycyrrhiza glabra / G. uralensis)</h2>
-        <p class="summary">Glycyrrhiza root triterpene saponin glycyrrhizin hydrolyzed to glycyrrhetic acid, which inhibits renal 11β-HSD2 → pseudo-hyperaldosteronism: Na+ retention, hypertension, hypokalemia. DGL (deglycyrrhizinated) promotes ulcer healing safely. Antiviral against SARS-CoV, HIV.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas Three · Medicine · Traditional · 11β-HSD2 Inhibitor / GI Mucoprotectant</div>
+        <h2>Licorice Root (<em>Glycyrrhiza glabra / G. uralensis</em>)</h2>
+        <div class="drug-class">Botanical name: <em>Glycyrrhiza glabra</em> (European); <em>G. uralensis</em> (Chinese, Fabaceae) &nbsp;|&nbsp; Route: Oral; IV (Japan, HBV) &nbsp;|&nbsp; Category: 11β-HSD2 inhibitor / mucosal cytoprotectant / antiviral</div>
+        <p class="summary">Glycyrrhiza root triterpene saponin glycyrrhizin hydrolysed to glycyrrhetic acid (GA), which potently inhibits renal 11β-HSD2 (Ki ~0.1–1 μM), blocking cortisol inactivation → cortisol activates mineralocorticoid receptors → Na+ retention, K+ wasting, hypertension — pseudo-hyperaldosteronism (apparent mineralocorticoid excess). DGL (deglycyrrhizinated licorice) removes glycyrrhizin and promotes ulcer healing via mucin and PGE₂ upregulation without cardiovascular risk. Glycyrrhizin is antiviral against SARS-CoV-1 in vitro (EC50 ~300 μg/mL) and is used in Japan as IV SNMC for chronic hepatitis B. 50 times sweeter than sucrose. One of the oldest documented medicines — found in Tutankhamun's tomb.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">liquorice</span>
+          <span class="alias-pill">Glycyrrhiza glabra</span>
+          <span class="alias-pill">Glycyrrhiza uralensis</span>
+          <span class="alias-pill">glycyrrhizin</span>
+          <span class="alias-pill">glycyrrhizic acid</span>
+          <span class="alias-pill">glycyrrhetic acid</span>
+          <span class="alias-pill">DGL</span>
+          <span class="alias-pill">gancao / 甘草</span>
+          <span class="alias-pill">SNMC</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>licorice-root</td></tr>
-            <tr><td>Name</td><td>Licorice Root (Glycyrrhiza glabra / G. uralensis)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>02-traditional</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Glycyrrhiza</strong> (family Fabaceae) is a genus of perennial herbs native to Mediterranean Europe, central Asia, and East Asia. The name derives from Greek <em>glykys</em> (sweet) + <em>rhiza</em> (root) — the dried rhizome and root are approximately <strong>50 times sweeter than sucrose</strong> due to glycyrrhizin. Two principal species dominate pharmaceutical use: <strong>Glycyrrhiza glabra</strong> (Spanish/Italian licorice) for European and Western pharmacopoeial preparations; and <strong>Glycyrrhiza uralensis</strong> (Chinese licorice; <em>gancao</em>, 甘草) as the dominant species in Traditional Chinese Medicine, one of the most frequently prescribed TCM herbs, used as a "harmonising" agent to moderate other ingredients and for cough, gastric ulcers, and detoxification.</p>
+          <p>Licorice root is among the oldest documented medicinal plants — found in Egyptian tombs (including Tutankhamun's), described by Dioscorides and Hippocrates, and used in TCM and Ayurveda for peptic ulcers, cough/bronchitis, and adrenal support. These traditional uses align closely with the modern mechanistic understanding. The <strong>primary active constituent is glycyrrhizin</strong> (glycyrrhizic acid) — a triterpene saponin constituting 4–20% of dry root weight — which is hydrolysed by intestinal bacterial β-glucuronidase to <strong>glycyrrhetic acid (GA)</strong>, the bioactive aglycone that drives both therapeutic and toxic effects through 11β-HSD2 inhibition.</p>
+          <p><strong>DGL (Deglycyrrhizinated Licorice)</strong> is a processed form with &gt;97% glycyrrhizin removal, retaining the flavonoid and mucilagenic components responsible for mucosal healing while eliminating the mineralocorticoid-excess risk entirely. DGL and whole licorice root are pharmacologically distinct preparations — they must never be substituted for each other in clinical practice. Additional active constituents include flavonoids (liquiritin, liquiritigenin, isoliquiritin), chalcones (isoliquiritigenin — antispasmodic, MAO-A inhibition, AMPK activation), and formononetin (phytoestrogen).</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="kidney.html" title="Glycyrrhetic acid inhibits 11β-HSD2 in renal collecting duct cells, blocking cortisol-to-cortisone conversion. Cortisol activates mineralocorticoid receptors, causing Na+ retention, K+ loss, and hypertension — resembling mineralocorticoid excess."><span class="rel">modulates</span>Kidney</a>
-            <a class="conn-pill" href="cardiovascular-system.html" title="Pseudo-hyperaldosteronism → hypertension and QT prolongation via hypokalemia. Na+ retention raises BP dose-dependently. Hypokalemia predisposes to ventricular arrhythmias. DGL formulations largely eliminate cardiovascular risk."><span class="rel">modulates</span>Cardiovascular System</a>
-            <a class="conn-pill" href="stomach.html" title="DGL stimulates gastric mucus secretion by increasing mucin biosynthesis and prostaglandin E2 production, promoting mucosal barrier integrity and ulcer healing. Comparable to antacid therapy in pilot RCTs; no systemic mineralocorticoid risk."><span class="rel">modulates</span>Stomach</a>
-            <a class="conn-pill" href="glucocorticoid-receptor.html" title="By inhibiting 11β-HSD2, glycyrrhetic acid amplifies glucocorticoid receptor activation in mineralocorticoid-target tissues. Glycyrrhizin also binds GR directly, modulating anti-inflammatory transcription of IL-10 and lipocortin-1."><span class="rel">modulates</span>Glucocorticoid Receptor</a>
+          <h3>Mechanism of Action</h3>
+          <h4>11β-HSD2 Inhibition — Pseudo-Hyperaldosteronism (Apparent Mineralocorticoid Excess)</h4>
+          <div class="pathway-block">
+<pre>
+  Normal renal physiology (collecting duct):
+  ─────────────────────────────────────────────────
+  Cortisol [high] → 11β-HSD2 → Cortisone (inactive)
+  Aldosterone [low] → MR activation → normal Na+/K+ balance
+
+  With Glycyrrhetic Acid:
+  ─────────────────────────────────────────────────
+  Glycyrrhizin → gut β-glucuronidase → Glycyrrhetic Acid (GA)
+          │
+          ▼
+  GA inhibits 11β-HSD2 (Ki ~0.1–1 μM)
+          │
+          ▼
+  Cortisol NOT converted → accumulates in renal cells
+          │
+          ▼
+  Cortisol activates Mineralocorticoid Receptor (MR)
+          │
+          ├── ↑ ENaC expression   →  Na+ reabsorption ↑
+          ├── ↑ Na+/K+-ATPase     →  K+ secretion ↑
+          ├── Volume expansion    →  BP ↑
+          ├── Hypokalemia         →  QT prolongation risk
+          └── Renin ↓, Aldosterone ↓ (volume-suppressed)
+              = PSEUDO-HYPERALDOSTERONISM / AME
+</pre>
+          </div>
+          <ol class="step-list">
+            <li><strong>Intestinal hydrolysis:</strong> Ingested glycyrrhizin is cleaved by gut bacterial β-glucuronidase, releasing glycyrrhetic acid (GA) — the bioactive aglycone that reaches systemic circulation with sufficient plasma levels for renal 11β-HSD2 inhibition</li>
+            <li><strong>Renal 11β-HSD2 inhibition:</strong> GA (Ki ~0.1–1 μM) competitively inhibits 11β-HSD2 in the collecting duct — the enzyme that normally converts cortisol to inactive cortisone, protecting mineralocorticoid receptors from cortisol which circulates at 100–1000× higher concentrations than aldosterone</li>
+            <li><strong>Cortisol-driven MR activation:</strong> Uninhibited cortisol freely activates MR → ↑ENaC expression in principal cells → Na+ reabsorption; ↑Na+/K+-ATPase → K+ secretion and enhanced Na+ efflux; volume expansion follows osmotically</li>
+            <li><strong>Clinical syndrome emerges:</strong> Na+ retention → osmotic water reabsorption → plasma volume expansion → hypertension; K+ wasting → hypokalemia; renin and aldosterone are suppressed by volume expansion (diagnostic hallmark distinguishing pseudo-hyperaldosteronism from primary hyperaldosteronism)</li>
+            <li><strong>QT prolongation and arrhythmia risk:</strong> Hypokalemia reduces the transmembrane K+ gradient → prolongs cardiac action potential repolarisation (QT interval) → predisposes to ventricular arrhythmias including torsades de pointes — a potentially fatal consequence</li>
+          </ol>
+
+          <h4>Pleiotropic Mechanisms</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>DGL — Gastric Mucosal Defence</h4>
+              <p>Flavonoid components (liquiritigenin, isoliquiritin) stimulate mucin MUC5AC/5B gene expression → thicker gastric mucus layer; ↑COX-1 → ↑PGE₂ → mucosal cell proliferation and bicarbonate secretion. Cytoprotective mechanism distinct from PPIs (acid suppression) — no cardiovascular risk</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Antiviral (glycyrrhizin)</h4>
+              <p>SARS-CoV-1: membrane fusion inhibition and viral adsorption interference (EC50 ~300 μg/mL, Vero E6 cells — greatest anti-SARS activity among antivirals panel tested; Cinatl et al. 2003). HIV-1 protease inhibition in vitro. HBV: IV SNMC reduces ALT and inflammation in chronic hepatitis — licensed in Japan for decades</p>
+            </div>
+            <div class="pleio-item">
+              <h4>PLA₂ Inhibition / NF-κB Suppression</h4>
+              <p>Glycyrrhizin inhibits phospholipase A₂ → reduced arachidonic acid → reduced prostaglandins and leukotrienes (mechanism shared with glucocorticoids); NF-κB suppression → ↓TNF-α, IL-6; complement inhibition via alternative pathway — systemic anti-inflammatory profile</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Chalcone / Flavonoid Activities</h4>
+              <p>Isoliquiritigenin: AMPK activation (insulin-sensitising), MAO-A inhibition (antidepressant potential), antispasmodic. Liquiritigenin: ERβ phytoestrogenic agonist — relevant to traditional menopausal and hormone-related uses. Formononetin: additional phytoestrogen activity</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Clinical Use &amp; Dosing</h3>
+
+          <div class="toxicity-box">
+            <p><strong>Critical distinction — DGL vs whole licorice:</strong> Whole licorice root and glycyrrhizin-containing preparations are NOT interchangeable with DGL. DGL is the only form appropriate for self-medication without cardiovascular monitoring. WHO/EMEA safe limit for glycyrrhizin: ≤100 mg/day for long-term intake. EFSA: 100 mg/day can cause hypertension in sensitive individuals.</p>
+          </div>
+
+          <table class="data-table" style="margin-top:0.75rem;">
+            <tr><th>Indication</th><th>Evidence Level</th><th>Dose / Form</th><th>Duration</th></tr>
+            <tr>
+              <td><strong>Peptic / duodenal ulcer healing</strong></td>
+              <td><span class="badge badge-lo">Low-Moderate</span></td>
+              <td>DGL 380 mg chewed before meals, 3–4×/day</td>
+              <td>8–16 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>GERD / acid reflux</strong></td>
+              <td><span class="badge badge-lo">Low</span></td>
+              <td>DGL 380–760 mg/meal</td>
+              <td>Ongoing (DGL only)</td>
+            </tr>
+            <tr>
+              <td><strong>Canker sores / oral mucositis</strong></td>
+              <td><span class="badge badge-lo">Low</span></td>
+              <td>DGL mouthwash</td>
+              <td>1–2 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Chronic hepatitis B (liver)</strong></td>
+              <td><span class="badge badge-mod">Moderate (Japan)</span></td>
+              <td>IV glycyrrhizin 40–100 mL/day (SNMC); supervised only</td>
+              <td>Months–years</td>
+            </tr>
+            <tr>
+              <td><strong>Antiviral (investigational)</strong></td>
+              <td><span class="badge badge-lo">Low</span></td>
+              <td>Glycyrrhizin IV or high-dose oral</td>
+              <td>Variable; specialist supervision only</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Studies</h3>
+          <table class="data-table">
+            <tr><th>Study</th><th>Design / n</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>Glick et al. (1982)</strong><br>DGL vs cimetidine RCT</td>
+              <td>RCT, n=100; DGL 760 mg 3× daily vs cimetidine 200 mg 3× daily, 12 weeks; peptic ulcer</td>
+              <td class="trial-result">Endoscopic healing: DGL 78% vs cimetidine 60%; symptom improvement similar. Limitation: small, not replicated with modern placebo-controlled design; GRADE evidence: low</td>
+            </tr>
+            <tr>
+              <td><strong>Walker &amp; Edwards (1994)</strong><br><em>Endocrinol Metab Clin North Am</em></td>
+              <td>Clinical review + volunteer experiments; 100 g licorice/day (~150 mg glycyrrhizin/day) for 2–4 weeks</td>
+              <td class="trial-result">+15 mmHg systolic BP; −0.4 mmol/L serum K+; suppressed renin and aldosterone; urinary cortisol:cortisone ratio ↑ 3–10-fold — directly quantifying 11β-HSD2 inhibition in vivo; case reports of K+ &lt;2.0 mmol/L and rhabdomyolysis</td>
+            </tr>
+            <tr>
+              <td><strong>Cinatl et al. (2003)</strong><br><em>Lancet</em></td>
+              <td>In vitro; SARS-CoV Vero E6 cells; comparative panel including ribavirin, mycophenolic acid, interferon</td>
+              <td class="trial-result">Glycyrrhizin had greatest anti-SARS-CoV activity of all agents tested (EC50 ~300 μg/mL); no clinical RCT completed before SARS epidemic ended; cited extensively during COVID-19 pandemic</td>
+            </tr>
+            <tr>
+              <td><strong>Arase et al. (1997)</strong><br>Retrospective cohort (Japan)</td>
+              <td>Retrospective cohort, n=453 over 10 years; IV SNMC for chronic hepatitis B; observational</td>
+              <td class="trial-result">Sustained ALT reduction and reduced hepatocellular carcinoma incidence vs untreated controls; regulatory approval based on cohort and open-label data; no RCT of adequate size</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Key Insight — The DGL Solution:</strong> Licorice root's most well-characterised toxicity (pseudo-hyperaldosteronism via 11β-HSD2 inhibition) and its most well-validated therapeutic use (gastric mucosal healing) are mediated by entirely different molecular fractions. Glycyrrhizin/glycyrrhetic acid drives the cardiovascular toxicity; the flavonoid and mucilagenic components in DGL drive mucosal healing. This clean molecular separation allows DGL to preserve the cytoprotective GI effect while eliminating dose-limiting mineralocorticoid toxicity — a phytochemical engineering solution achieved by targeted extraction.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Safety &amp; Drug Interactions</h3>
+          <ul class="se-list">
+            <li class="danger"><strong>Pseudo-hyperaldosteronism — dose-dependent and cumulative:</strong> Hypertension, hypokalemia, suppressed renin and aldosterone; can emerge at 100 mg/day glycyrrhizin in sensitive individuals; severe cases: K+ &lt;2.0 mmol/L, rhabdomyolysis, hypertensive emergencies; monitoring required for all glycyrrhizin-containing preparations</li>
+            <li class="danger"><strong>QT prolongation / ventricular arrhythmias:</strong> Hypokalemia from 11β-HSD2 inhibition prolongs the QT interval and predisposes to torsades de pointes; ECG monitoring required if K+ falls below 3.0 mmol/L; potentially fatal</li>
+            <li><strong>Antihypertensives — pharmacodynamic antagonism:</strong> Glycyrrhizin raises BP via Na+ retention, a mechanism independent of most antihypertensive drug targets; BP may remain elevated despite therapy; screen all hypertensive patients for licorice use</li>
+            <li><strong>Diuretics (thiazides, loop) — additive hypokalemia:</strong> Combined K+ loss can be severe and rapid; increases digoxin toxicity risk (digoxin sensitivity is K+-dependent); avoid combination without close monitoring</li>
+            <li><strong>Corticosteroids — synergism:</strong> Glycyrrhizin inhibits corticosteroid metabolism via 11β-HSD, prolonging steroid activity; both therapeutic and adverse steroid effects may be amplified; carefully monitor patients on concurrent steroid therapy</li>
+            <li><strong>Digoxin — hypokalemia-mediated toxicity:</strong> Glycyrrhizin-driven hypokalemia increases myocardial digoxin sensitivity; monitor serum K+ and digoxin levels; digoxin toxicity can be precipitated even at therapeutic digoxin doses</li>
+            <li><strong>Spironolactone — pharmacodynamic antagonism:</strong> Competitive MR antagonism may partially offset glycyrrhizin's mineralocorticoid effect; can mask toxicity signs and complicate clinical assessment</li>
+            <li><strong>Monitoring (glycyrrhizin preparations):</strong> BP at baseline and every 2–4 weeks; serum K+ every 4 weeks (target &gt;3.5 mmol/L); renin and aldosterone levels (suppressed in pseudo-hyperaldosteronism); ECG if K+ &lt;3.0 mmol/L</li>
+            <li><strong>Contraindications (whole licorice / glycyrrhizin):</strong> Hypertension, heart failure, renal disease, hypokalemia, hepatic cirrhosis, pregnancy (inhibits 11β-HSD1 in placenta, potentially reducing protective cortisone in fetal compartment); concurrent diuretic use without monitoring</li>
+            <li><strong>DGL safety profile:</strong> Generally very safe; rare Fabaceae (legume family) allergy; no cardiovascular monitoring required; suitable for long-term GI use; caution in known legume allergy</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="cardiovascular-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Cardiovascular System
+            </a>
+            <a href="digestive-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Digestive System
+            </a>
+            <a href="kidney.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Kidney
+            </a>
+            <a href="liver.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Liver
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/trease-and-evans-pharmacognosy/evans/978-0-7020-2933-2" target="_blank" rel="noopener noreferrer">Evans WC. Trease and Evans' Pharmacognosy. 16th ed. Saunders; 2009.</a></li>
-            <li><a href="https://www.cochranelibrary.com/" target="_blank" rel="noopener noreferrer">Cochrane Database of Systematic Reviews. Various authors. cochrane.org</a></li>
-            <li><a href="https://doi.org/10.1016/S0140-6736(03)13615-X" target="_blank" rel="noopener noreferrer">Cinatl J, Morgenstern B, Bauer G, et al. Glycyrrhizin, an active component of liquorice roots, and replication of SARS-associated coronavirus. Lancet. 2003;361(9374):2045-6.</a></li>
-            <li>Walker BR, Edwards CR. Licorice-induced hypertension and syndromes of apparent mineralocorticoid excess. Endocrinol Metab Clin North Am. 1994;23(2):359-77. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8070431/" target="_blank" rel="noopener noreferrer">PubMed 8070431</a></li>
+            <li>Walker BR, Edwards CR. Licorice-induced hypertension and syndromes of apparent mineralocorticoid excess. <em>Endocrinol Metab Clin North Am.</em> 1994;23(2):359-77. <a href="https://pubmed.ncbi.nlm.nih.gov/8070431/">PMID 8070431</a></li>
+            <li>Cinatl J, Morgenstern B, Bauer G, et al. Glycyrrhizin, an active component of liquorice roots, and replication of SARS-associated coronavirus. <em>Lancet.</em> 2003;361(9374):2045-6. <a href="https://doi.org/10.1016/S0140-6736(03)13615-X">doi:10.1016/S0140-6736(03)13615-X</a></li>
+            <li>Glick L. Deglycyrrhizinated liquorice for peptic ulcer. <em>Lancet.</em> 1982;2(8302):817. <a href="https://doi.org/10.1016/S0140-6736(82)92724-4">doi:10.1016/S0140-6736(82)92724-4</a></li>
+            <li>Arase Y, Ikeda K, Murashima N, et al. The long term efficacy of glycyrrhizin in chronic hepatitis C patients. <em>Cancer.</em> 1997;79(8):1494-500. <a href="https://pubmed.ncbi.nlm.nih.gov/9118029/">PMID 9118029</a></li>
+            <li>Fiore C, Eisenhut M, Krausse R, et al. Antiviral effects of Glycyrrhiza species. <em>Phytochemistry.</em> 2008;69(3):631-45. <a href="https://doi.org/10.1016/j.phytochem.2007.07.010">doi:10.1016/j.phytochem.2007.07.010</a></li>
+            <li>Evans WC. <em>Trease and Evans' Pharmacognosy.</em> 16th ed. Saunders; 2009.</li>
           </ul>
         </div>
 
@@ -184,17 +354,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="cardiovascular-system.html">Cardiovascular System</a>
+      <a href="kidney.html">Kidney</a>
+      <a href="digestive-system.html">Digestive System</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

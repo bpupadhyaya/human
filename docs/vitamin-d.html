@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Fat-soluble secosteroid hormone; UV-B-synthesized or dietary; activated in liver then kidney to calcitriol; VDR nuclear receptor regulates &gt;1,000 genes governin">
-  <meta property="og:title" content="Vitamin D (Calciferol) — Human Engineering">
+  <meta name="description" content="Vitamin D (Calciferol) — fat-soluble secosteroid prohormone; UV-B synthesized from 7-dehydrocholesterol; activated by CYP2R1 and CYP27B1 to calcitriol; VDR nuclear receptor regulates >1,000 genes. Part of the Human Engineering project.">
+  <meta property="og:title" content="Vitamin D — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Vitamin D (Calciferol) — Human Engineering</title>
+  <title>Vitamin D — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,59 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #065f46); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .principle-box { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +109,270 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 03-food</div>
-    <h1>Vitamin D (Calciferol)</h1>
-    <p class="tagline">Fat-soluble secosteroid hormone; UV-B-synthesized or dietary; activated in liver then kidney to calcitriol; VDR nuclear receptor regulates &gt;1,000 genes governing calcium homeostasis, bone integrity, and immune modulation.</p>
-    <p class="aliases">Also known as: vitamin D, calciferol, cholecalciferol (D3), ergocalciferol (D2), calcitriol (active form), 1,25-dihydroxyvitamin D3, calcidiol (25(OH)D), 25-hydroxyvitamin D, vitamin D deficiency, VDR ligand</p>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Food &amp; Nutraceuticals</div>
+    <h1>Vitamin D</h1>
+    <p class="tagline">Fat-soluble secosteroid prohormone &#x2014; synthesised in skin from 7-dehydrocholesterol under UV-B, sequentially activated by hepatic CYP2R1 and renal CYP27B1 to calcitriol, which governs calcium homeostasis, bone integrity, and immune modulation via the VDR nuclear receptor.</p>
+    <p class="subtagline">VDR regulates &gt;1,000 genes. ~1 billion people globally deficient. VITAL trial (n=25,871, 5.3 yr): negative for CVD/cancer incidence but suggestive for cancer mortality. Martineau meta-analysis: 70% respiratory infection risk reduction in severely deficient individuals with daily dosing.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">03-food</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">&gt;1,000</span><span class="stat-label">VDR-Regulated Genes</span></div>
+      <div class="stat"><span class="stat-num">~1 B</span><span class="stat-label">Deficient Globally</span></div>
+      <div class="stat"><span class="stat-num">n=25,871</span><span class="stat-label">VITAL Trial</span></div>
+      <div class="stat"><span class="stat-num">2-step</span><span class="stat-label">Activation (CYP2R1 &#x2192; CYP27B1)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">vitamin-d</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Food &amp; Nutraceuticals · Fat-Soluble Vitamins</div>
         <h2>Vitamin D (Calciferol)</h2>
-        <p class="summary">Fat-soluble secosteroid hormone; UV-B-synthesized or dietary; activated in liver then kidney to calcitriol; VDR nuclear receptor regulates &gt;1,000 genes governing calcium homeostasis, bone integrity, and immune modulation.</p>
+        <div class="drug-class">Active form: Calcitriol (1,25(OH)&#x2082;D&#x2083;) &nbsp;|&nbsp; Serum marker: 25(OH)D (calcidiol) &nbsp;|&nbsp; Receptor: VDR (NR1I1) &nbsp;|&nbsp; Category: Secosteroid prohormone / nuclear receptor ligand</div>
+        <p class="summary">Fat-soluble secosteroid more accurately classified as a prohormone than a true vitamin: synthesised in keratinocytes from 7-dehydrocholesterol under UV-B (290&#x2013;315 nm) or obtained as D&#x2083; (animal foods) or D&#x2082; (fungi). Two successive cytochrome P450 hydroxylations &#x2014; hepatic CYP2R1 produces calcidiol (25(OH)D), renal CYP27B1 produces calcitriol &#x2014; generate the active hormone. Calcitriol binds VDR at Kd ~0.1 nM; VDR/RXR heterodimer binds DR3-type VDREs in promoters of &gt;1,000 gene loci. Classical skeletal roles in calcium/phosphate homeostasis are unambiguous. Non-skeletal evidence (cancer, CVD) is contested: VITAL (n=25,871) found no benefit for CVD or cancer incidence in a well-nourished US population; Autier 2017 argues low 25(OH)D is largely a consequence, not cause, of poor health (reverse causation).</p>
+        <div class="alias-pills">
+          <span class="alias-pill">calciferol</span>
+          <span class="alias-pill">cholecalciferol (D3)</span>
+          <span class="alias-pill">ergocalciferol (D2)</span>
+          <span class="alias-pill">calcitriol (active)</span>
+          <span class="alias-pill">1,25(OH)&#x2082;D&#x2083;</span>
+          <span class="alias-pill">calcidiol / 25(OH)D</span>
+          <span class="alias-pill">VDR ligand</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>vitamin-d</td></tr>
-            <tr><td>Name</td><td>Vitamin D (Calciferol)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>03-food</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Vitamin D</strong> is a fat-soluble <strong>secosteroid</strong> &#x2014; structurally related to steroid hormones but distinguished by a photochemically broken B-ring in the four-ring steroid backbone (hence <em>seco</em>-steroid). Unlike true vitamins that cannot be synthesised endogenously, vitamin D is more accurately a <strong>prohormone</strong>: its biologically active form, calcitriol, acts as a classical nuclear receptor ligand governing gene expression in virtually every tissue type.</p>
+          <p>Two primary dietary forms are recognised: <strong>Vitamin D&#x2083; (cholecalciferol)</strong>, the mammalian form synthesised in skin from 7-dehydrocholesterol and found in animal-derived foods, is approximately twice as effective as D&#x2082; at raising serum 25(OH)D. <strong>Vitamin D&#x2082; (ergocalciferol)</strong> is produced by UV-irradiation of ergosterol in fungi and is used in some supplements and fortified foods. The skin synthesis pathway has a built-in photoregulatory mechanism: excess UV-B converts pre-vitamin D&#x2083; to tachysterol and lumisterol (inactive photoproducts), preventing toxicity from sun exposure alone.</p>
+          <p>Global vitamin D deficiency affects an estimated <strong>1 billion people</strong>. Key risk factors: high latitude, limited outdoor exposure, dark skin (melanin absorbs UV-B &#x2014; requires 3&#x2013;5&#xD7; more sun time vs. pale skin to synthesise equivalent D&#x2083;), advancing age (reduced 7-DHC in epidermis; reduced renal CYP27B1 activity), obesity (fat-soluble D&#x2083; sequestered in adipose tissue, lowering serum 25(OH)D per unit synthesised), malabsorption (Crohn's, coeliac, post-bariatric surgery), and chronic kidney disease (impaired renal 1&#x03B1;-hydroxylation). The clinical serum marker is <strong>25(OH)D (calcidiol)</strong>, with a half-life of ~2&#x2013;3 weeks, reflecting cumulative sun exposure and dietary/supplemental intake.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="musculoskeletal-system.html" title="Calcitriol upregulates intestinal TRPV6 and calbindin-D9k for calcium absorption and renal TRPV5 for reabsorption; also stimulates RANKL on osteoblasts promoting osteoclastogenesis essential for bone remodeling."><span class="rel">modulates</span>Musculoskeletal System</a>
-            <a class="conn-pill" href="immune-system.html" title="VDR activation in macrophages and dendritic cells induces cathelicidin and β-defensin 2 for innate immunity; in lymphocytes promotes regulatory T-cell differentiation, suppressing Th1/Th17 autoimmune responses."><span class="rel">modulates</span>Immune System</a>
-            <a class="conn-pill" href="regulatory-t-cell.html" title="Calcitriol drives naïve CD4+ T-cell differentiation toward Foxp3+ regulatory T cells by upregulating IL-2 and CTLA-4; this Treg induction reduces autoreactive T-cell activity in MS, T1D, and IBD models."><span class="rel">modulates</span>Regulatory T Cell</a>
-            <a class="conn-pill" href="kidney.html" title="Renal CYP27B1 converts 25(OH)D to active calcitriol under PTH stimulation; CYP24A1 catalyzes inactivation forming 24,25(OH)₂D; FGF-23 from bone suppresses CYP27B1 and stimulates CYP24A1 to limit calcitriol."><span class="rel">modulates</span>Kidney</a>
+          <h3>Mechanism of Action</h3>
+          <h4>Two-Step Metabolic Activation</h4>
+          <div class="pathway-block">
+<pre>
+  7-Dehydrocholesterol (keratinocytes / dermal fibroblasts)
+       |
+       |  UV-B photons (290-315 nm) -> photolysis of B-ring
+       v
+  Pre-vitamin D3 -> [thermal isomerisation] -> Cholecalciferol (D3)
+       |  (excess UV-B -> tachysterol + lumisterol: built-in toxicity limit)
+       |  Binds vitamin D-binding protein (DBP) -> circulation
+       v
+  ─── LIVER ───────────────────────────────────────────────────────
+  CYP2R1 (primary; microsomal) / CYP27A1 (minor; mitochondrial)
+       |  25-hydroxylation (largely constitutive; substrate-driven)
+       v
+  25(OH)D3 / Calcidiol   [t1/2 ~2-3 wk; clinical status biomarker]
+       |  DBP-bound (>99%); only free fraction filtered at glomerulus
+       v
+  ─── KIDNEY (proximal tubular cells) ──────────────────────────────
+  CYP27B1 (1alpha-hydroxylase)
+  Upregulated by: PTH (cAMP-PKA), low phosphate, low Ca2+, IGF-1
+  Inhibited by: FGF-23 (FGFR1-Klotho), calcitriol (neg feedback), high Ca2+
+       |  1alpha-hydroxylation (rate-limiting, tightly regulated)
+       v
+  1,25(OH)2D3 / Calcitriol  [Kd ~0.1 nM to VDR; t1/2 ~4-6 h]
+       |
+       |  CYP24A1 (24-hydroxylase, VDR-induced) -> calcitroic acid (bile excretion)
+       v
+  VDR / RXR heterodimer -> DR3 VDREs (AGGTCAnnnAGGTCA)
+       |
+       v  >1,000 target genes:
+       |-- TRPV6, calbindin-D9k (Ca2+ absorption: duodenum)
+       |-- TRPV5, calbindin-D28k (Ca2+ reabsorption: DCT)
+       |-- RANKL (osteoblasts -> osteoclastogenesis)
+       |-- PTH suppression (parathyroid gland)
+       |-- Cathelicidin/LL-37 (macrophages: antimicrobial)
+       `-- CYP24A1 (self-inactivation feedback)
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:0.75rem;">
+            <li><strong>UV-B skin synthesis:</strong> 7-DHC in keratinocytes absorbs UV-B &#x2192; pre-vitamin D&#x2083; &#x2192; thermal isomerisation to cholecalciferol &#x2192; enters circulation bound to DBP.</li>
+            <li><strong>Hepatic 25-hydroxylation (CYP2R1):</strong> Constitutive, substrate-driven; produces calcidiol (25(OH)D) &#x2014; the clinical status marker with t&#x00BD; ~2&#x2013;3 wk.</li>
+            <li><strong>Renal 1&#x03B1;-hydroxylation (CYP27B1):</strong> Rate-limiting; tightly regulated; upregulated by PTH and low mineral status; produces calcitriol (1,25(OH)&#x2082;D&#x2083;).</li>
+            <li><strong>VDR binding:</strong> Calcitriol diffuses into cells, binds VDR with Kd ~0.1 nM; VDR/RXR heterodimer binds DR3-type VDREs (direct repeats, 3-nt spacer).</li>
+            <li><strong>Transcriptional regulation:</strong> &gt;1,000 target genes including TRPV6 (Ca&#x00B2;&#x207A; absorption), RANKL (bone remodelling), cathelicidin (innate immunity), PTH suppression, and CYP24A1 (autoregulatory inactivation).</li>
+          </ol>
+
+          <h4>Pleiotropic Actions via VDR</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Calcium &amp; Bone Homeostasis</h4>
+              <p>VDR &#x2192; &#x2191;TRPV6 + calbindin-D9k &#x2192; &#x2191;intestinal Ca&#x00B2;&#x207A; absorption (10&#x2013;15% &#x2192; 30&#x2013;40%); &#x2191;TRPV5 in DCT &#x2192; &#x2191;renal Ca&#x00B2;&#x207A; reabsorption; &#x2191;RANKL on osteoblasts &#x2192; osteoclastogenesis for bone remodelling. Deficiency &#x2192; rickets (children) / osteomalacia (adults) / secondary hyperparathyroidism.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Innate Immunity</h4>
+              <p>Macrophages and DCs express CYP27B1 &#x2014; local calcitriol production autocrine/paracrine. VDR &#x2192; &#x2191;cathelicidin/LL-37 (broad antimicrobial peptide) and &#x2191;&#x03B2;-defensin 2. Critical in TB susceptibility (VDR-cathelicidin axis). Most clearly beneficial in frank deficiency.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Adaptive Immune Modulation</h4>
+              <p>&#x2193;DC IL-12 &#x2192; &#x2193;Th1 polarisation; &#x2193;IL-23/IL-17 &#x2192; &#x2193;Th17 activity; &#x2191;Foxp3&#x207A; Treg differentiation via VDR in na&#xEF;ve CD4&#x207A; cells &#x2192; &#x2191;IL-10, &#x2191;TGF-&#x03B2; &#x2192; immune tolerance. Relevant in MS, T1D, IBD models &#x2014; but RCTs of supplementation largely negative for clinical outcomes.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Non-Genomic Rapid Signalling</h4>
+              <p>Membrane VDR / PDIA3 &#x2192; rapid (seconds&#x2013;minutes) &#x2191;intracellular Ca&#x00B2;&#x207A; (PLC &#x2192; IP&#x2083;), &#x2191;PKC, &#x2191;MAPK &#x2192; rapid insulin secretion from pancreatic &#x03B2;-cells; vascular smooth muscle tone regulation independent of nuclear VDR.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Dietary Sources &amp; RDA</h3>
+          <table class="data-table">
+            <tr><th>Source</th><th>Serving</th><th>Vitamin D Content</th><th>% RDA (600 IU/day)</th></tr>
+            <tr>
+              <td><strong>Wild-caught salmon</strong></td>
+              <td>3 oz (85 g)</td>
+              <td>600&#x2013;1,000 IU D&#x2083;</td>
+              <td>100&#x2013;167%</td>
+            </tr>
+            <tr>
+              <td><strong>Cod liver oil</strong></td>
+              <td>1 tsp (5 mL)</td>
+              <td>~400 IU D&#x2083;</td>
+              <td>67%</td>
+            </tr>
+            <tr>
+              <td><strong>Canned tuna</strong></td>
+              <td>3 oz</td>
+              <td>150&#x2013;200 IU D&#x2083;</td>
+              <td>25&#x2013;33%</td>
+            </tr>
+            <tr>
+              <td><strong>UV-irradiated mushrooms</strong></td>
+              <td>3 oz</td>
+              <td>400&#x2013;1,000 IU D&#x2082;</td>
+              <td>67&#x2013;167% (variable; rapidly degrades)</td>
+            </tr>
+            <tr>
+              <td><strong>Fortified milk</strong></td>
+              <td>8 oz (240 mL)</td>
+              <td>100&#x2013;120 IU D&#x2083;</td>
+              <td>17&#x2013;20%</td>
+            </tr>
+            <tr>
+              <td><strong>Egg yolk</strong></td>
+              <td>1 large</td>
+              <td>40&#x2013;60 IU D&#x2083;</td>
+              <td>~8%</td>
+            </tr>
+            <tr>
+              <td><strong>Fortified orange juice</strong></td>
+              <td>8 oz</td>
+              <td>100 IU D&#x2083;</td>
+              <td>17%</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>RDA (US):</strong> 600 IU/day (adults &lt;70); 800 IU/day (&#x2265;70). Tolerable Upper Intake Level: 4,000 IU/day (US) / 100 &#xB5;g/day (EU) &#x2014; conservative. Most dietary patterns fall far short of needs at high latitude or with limited sun &#x2014; supplementation is routinely required in at-risk groups.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Evidence</h3>
+          <table class="data-table">
+            <tr><th>Trial / Evidence</th><th>Design</th><th>Key Result</th><th>GRADE</th></tr>
+            <tr>
+              <td><strong>DIPART Meta-analysis (2010)</strong><br>Hip fracture prevention</td>
+              <td>IPD meta-analysis; n=68,500; 7 trials</td>
+              <td class="trial-result">Vitamin D&#x2083; + calcium &#x2192; 16% &#x2193; hip fracture risk (HR 0.84; 95% CI 0.74&#x2013;0.96) in institutionalised elderly. Vitamin D alone: less consistent benefit.</td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+            </tr>
+            <tr>
+              <td><strong>VITAL Trial (2019)</strong><br>Cancer &amp; CVD prevention</td>
+              <td>RCT; n=25,871; 5.3 yr follow-up; 2,000 IU D&#x2083;/day + omega-3</td>
+              <td class="trial-result">No significant reduction in cancer incidence (HR 0.96; p=0.59) or CVD events (HR 0.97; p=0.74). Cancer-related mortality: HR 0.83 (p=0.06 &#x2014; marginal, not prespecified primary). Baseline 25(OH)D median ~30 ng/mL (already sufficient).</td>
+              <td><span class="badge badge-mod">Moderate (negative)</span></td>
+            </tr>
+            <tr>
+              <td><strong>Martineau Meta-analysis (2017, BMJ)</strong><br>Acute respiratory infections</td>
+              <td>IPD meta-analysis; 25 RCTs; n=11,321</td>
+              <td class="trial-result">Daily/weekly dosing &#x2192; OR 0.81 (95% CI 0.72&#x2013;0.91) for any respiratory infection. Severely deficient (&lt;25 nmol/L): OR 0.30 &#x2014; 70% risk reduction. Bolus dosing: no significant benefit.</td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+            </tr>
+            <tr>
+              <td><strong>Autier et al. (2017, Lancet DE)</strong><br>Non-skeletal outcomes</td>
+              <td>Systematic review of meta-analyses &amp; RCTs</td>
+              <td class="trial-result">Strong observational associations between low 25(OH)D and diverse disease outcomes likely reflect reverse causation (sick/inactive people &#x2192; less sun &#x2192; lower D) rather than causation. RCTs consistently negative for non-skeletal benefits in non-deficient populations.</td>
+              <td><span class="badge badge-lo">Low&#x2013;Insufficient (non-skeletal)</span></td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>Evidence hierarchy:</strong> Vitamin D supplementation has <strong>unambiguous benefit</strong> for skeletal outcomes (rickets prevention, fracture reduction with calcium in elderly) and in frank deficiency (&lt;20 ng/mL). For non-skeletal outcomes &#x2014; cancer incidence, CVD, T2DM, autoimmunity &#x2014; observational associations are strong but RCTs are largely negative, consistent with reverse causation. VITAL is the best-powered non-skeletal RCT and was clearly negative for primary endpoints. The most compelling benefit signal remains in severely deficient populations for infectious disease outcomes.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Deficiency &amp; Excess</h3>
+          <table class="data-table">
+            <tr><th>Status</th><th>Signs &amp; Symptoms</th><th>Lab Marker</th><th>Threshold</th></tr>
+            <tr>
+              <td><strong>Deficiency</strong></td>
+              <td>Children: rickets (bowed legs, craniotabes, rachitic rosary). Adults: osteomalacia (bone pain, proximal myopathy), secondary hyperparathyroidism, &#x2191;fracture risk, &#x2193;immune defence, fatigue</td>
+              <td>Serum 25(OH)D</td>
+              <td>&lt;20 ng/mL (&lt;50 nmol/L) &#x2014; Endocrine Society / NIH ODS</td>
+            </tr>
+            <tr>
+              <td><strong>Insufficiency</strong></td>
+              <td>Subclinical: mild fatigue, myalgia, secondary hyperparathyroidism driving bone loss, impaired immune regulation</td>
+              <td>Serum 25(OH)D</td>
+              <td>20&#x2013;29 ng/mL (50&#x2013;75 nmol/L)</td>
+            </tr>
+            <tr>
+              <td><strong>Sufficiency</strong></td>
+              <td>Normal calcium homeostasis, bone mineralisation, immune function</td>
+              <td>Serum 25(OH)D</td>
+              <td>30&#x2013;60 ng/mL (75&#x2013;150 nmol/L)</td>
+            </tr>
+            <tr>
+              <td><strong>Toxicity (hypervitaminosis D)</strong></td>
+              <td>Hypercalcaemia: nausea, vomiting, polyuria, polydipsia, confusion, weakness, nephrolithiasis. Prolonged severe excess: metastatic calcification (vascular, renal). Almost exclusively from excessive supplementation &#x2014; sun alone cannot cause toxicity (photoregulatory conversion).</td>
+              <td>Serum 25(OH)D; serum Ca&#x00B2;&#x207A;; urinary Ca&#x00B2;&#x207A;</td>
+              <td>&gt;150 ng/mL (&gt;375 nmol/L); typically requires sustained &gt;10,000 IU/day. CYP24A1 inactivating mutations (Williams syndrome) cause hypersensitivity at lower doses.</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="musculoskeletal-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Musculoskeletal System
+            </a>
+            <a href="immune-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Immune System
+            </a>
+            <a href="kidney.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Kidney
+            </a>
+            <a href="regulatory-t-cell.html" class="conn-pill targets">
+              <span class="rel">Acts via</span>
+              Regulatory T Cell
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1056/NEJMra070553" target="_blank" rel="noopener noreferrer">Holick MF. Vitamin D deficiency. N Engl J Med. 2007;357(3):266-81.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17634462/" target="_blank" rel="noopener noreferrer">PubMed 17634462</a></li>
-            <li><a href="https://doi.org/10.1016/S2213-8587(17)30357-1" target="_blank" rel="noopener noreferrer">Autier P, Mullie P, Macacu A, et al. Effect of vitamin D supplementation on non-skeletal disorders: a systematic review of meta-analyses and randomised trials. Lancet Diabetes Endocrinol. 2017;5(12):986-1004.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29102597/" target="_blank" rel="noopener noreferrer">PubMed 29102597</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa1809944" target="_blank" rel="noopener noreferrer">Manson JE, Cook NR, Lee IM, et al. Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease. N Engl J Med. 2019;380(1):33-44.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30415629/" target="_blank" rel="noopener noreferrer">PubMed 30415629</a></li>
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li>Holick MF. Vitamin D deficiency. <em>N Engl J Med.</em> 2007;357(3):266-81. <a href="https://doi.org/10.1056/NEJMra070553" target="_blank" rel="noopener noreferrer">doi:10.1056/NEJMra070553</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17634462/" target="_blank" rel="noopener noreferrer">PubMed 17634462</a></li>
+            <li>Manson JE, Cook NR, Lee IM, et al. Vitamin D supplements and prevention of cancer and cardiovascular disease (VITAL). <em>N Engl J Med.</em> 2019;380(1):33-44. <a href="https://doi.org/10.1056/NEJMoa1809944" target="_blank" rel="noopener noreferrer">doi:10.1056/NEJMoa1809944</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30415629/" target="_blank" rel="noopener noreferrer">PubMed 30415629</a></li>
+            <li>Autier P, Mullie P, Macacu A, et al. Effect of vitamin D supplementation on non-skeletal disorders. <em>Lancet Diabetes Endocrinol.</em> 2017;5(12):986-1004. <a href="https://doi.org/10.1016/S2213-8587(17)30357-1" target="_blank" rel="noopener noreferrer">doi:10.1016/S2213-8587(17)30357-1</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29102597/" target="_blank" rel="noopener noreferrer">PubMed 29102597</a></li>
+            <li>Martineau AR, Jolliffe DA, Hooper RL, et al. Vitamin D supplementation to prevent acute respiratory tract infections: systematic review and meta-analysis of individual participant data. <em>BMJ.</em> 2017;356:i6583. <a href="https://doi.org/10.1136/bmj.i6583" target="_blank" rel="noopener noreferrer">doi:10.1136/bmj.i6583</a></li>
+            <li>DIPART Group. Patient level pooled analysis of 68,500 patients from seven major vitamin D fracture trials. <em>BMJ.</em> 2010;340:b5463. <a href="https://doi.org/10.1136/bmj.b5463" target="_blank" rel="noopener noreferrer">doi:10.1136/bmj.b5463</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019.</li>
           </ul>
         </div>
 
@@ -184,17 +381,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &#x2014; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="sulforaphane.html">Sulforaphane</a>
+      <a href="dietary-fiber.html">Dietary Fiber</a>
+      <a href="zinc-dietary.html">Zinc</a>
+      <a href="magnesium-dietary.html">Magnesium</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

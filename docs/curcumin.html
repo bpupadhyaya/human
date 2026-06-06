@@ -3,35 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Polyphenol from Curcuma longa (turmeric). Inhibits NF-κB (via IKKβ) and AP-1 → reduces TNF-α, IL-1β, IL-6. Activates Nrf2 → antioxidant response. ~1% oral bioav">
-  <meta property="og:title" content="Curcumin — Human Engineering">
+  <meta name="description" content="Curcumin — diferuloylmethane from Curcuma longa (turmeric). NF-κB inhibitor via IKKβ, Nrf2 activator, AP-1 suppressor. ~1% oral bioavailability without piperine. Clinical evidence in osteoarthritis, NAFLD, and metabolic inflammation. Part of the Human Engineering project.">
+  <meta property="og:title" content="Curcumin — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Curcumin — Human Engineering</title>
+  <title>Curcumin — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
+      --accent-dark: #047857;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +33,61 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #064e3b); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(5,150,105,0.12); color: #047857; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .principle-box { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent-dark); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,70 +112,251 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 03-food</div>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Food &amp; Nutraceuticals</div>
     <h1>Curcumin</h1>
-    <p class="tagline">Polyphenol from Curcuma longa (turmeric). Inhibits NF-κB (via IKKβ) and AP-1 → reduces TNF-α, IL-1β, IL-6. Activates Nrf2 → antioxidant response. ~1% oral bioavailability without piperine. RCTs: reduces CRP/IL-6 in metabolic syndrome; anti-fibrotic in NAFLD. 5,000+ publications.</p>
-    <p class="aliases">Also known as: curcumin, diferuloylmethane, turmeric extract, curcuminoids, Curcuma longa, haldi, haridra, jiang huang, curcumin I, bis-demethoxycurcumin</p>
+    <p class="tagline">Polyphenol from Curcuma longa (turmeric) — inhibits NF-κB via IKKβ, activates the Nrf2 antioxidant response, and suppresses STAT3; clinical evidence in osteoarthritis, metabolic inflammation, and NAFLD is moderate-quality and honest about the bioavailability challenge.</p>
+    <p class="subtagline">C₂₁H₂₀O₆ · diferuloylmethane · 75–80% of turmeric curcuminoids &nbsp;&middot;&nbsp; ~1% oral bioavailability without enhancer &nbsp;&middot;&nbsp; &gt;5,000 publications &nbsp;&middot;&nbsp; PAINS caution on in vitro data</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">03-food</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">~1%</span><span class="stat-label">Oral Bioavailability (standard)</span></div>
+      <div class="stat"><span class="stat-num">2000×</span><span class="stat-label">Bioavailability ↑ with Piperine</span></div>
+      <div class="stat"><span class="stat-num">2–5%</span><span class="stat-label">Curcuminoids in Dried Rhizome</span></div>
+      <div class="stat"><span class="stat-num">5,000+</span><span class="stat-label">PubMed Publications</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">curcumin</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Food &amp; Nutraceuticals · Polyphenol · NF-κB Inhibitor</div>
         <h2>Curcumin</h2>
-        <p class="summary">Polyphenol from Curcuma longa (turmeric). Inhibits NF-κB (via IKKβ) and AP-1 → reduces TNF-α, IL-1β, IL-6. Activates Nrf2 → antioxidant response. ~1% oral bioavailability without piperine. RCTs: reduces CRP/IL-6 in metabolic syndrome; anti-fibrotic in NAFLD. 5,000+ publications.</p>
+        <div class="drug-class">Source: Curcuma longa rhizome (turmeric) &nbsp;|&nbsp; Active form: Curcumin (diferuloylmethane, C₂₁H₂₀O₆) + curcuminoids &nbsp;|&nbsp; Category: Polyphenol · Nutraceutical · Dietary supplement</div>
+        <p class="summary">Curcumin (diferuloylmethane, MW 368.4 Da) is the primary bioactive polyphenol of turmeric, accounting for ~75–80% of total curcuminoids. It directly inhibits IKKβ (covalent Michael addition at Cys-179) → NF-κB nuclear translocation blocked → ↓TNF-α, IL-1β, IL-6, COX-2. Activates Nrf2 (via Keap1-Cys modification) → HO-1, NQO1, GSH induction. Also inhibits AP-1 (via JNK), JAK-STAT3, and TGF-β/Smad signalling. Major limitation: ~1% oral bioavailability without enhancement; piperine (BioPerine) raises AUC ~2000%. Moderate-quality clinical evidence for osteoarthritis, metabolic inflammation (CRP reduction), and NAFLD at 1,000–1,500 mg/day with bioavailability enhancers.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">curcumin</span>
+          <span class="alias-pill">diferuloylmethane</span>
+          <span class="alias-pill">turmeric extract</span>
+          <span class="alias-pill">curcuminoids</span>
+          <span class="alias-pill">Curcuma longa</span>
+          <span class="alias-pill">haldi</span>
+          <span class="alias-pill">haridra</span>
+          <span class="alias-pill">jiang huang</span>
+          <span class="alias-pill">curcumin I</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
+          <h3>Overview</h3>
+          <p>Curcumin (C₂₁H₂₀O₆, MW 368.4 Da) is the primary bioactive polyphenol of <strong>turmeric</strong> (<em>Curcuma longa</em>, family Zingiberaceae). It accounts for approximately 75–80% of the curcuminoid fraction in the dried rhizome, alongside demethoxycurcumin (~15–20%) and bis-demethoxycurcumin (~5%). All curcuminoids share the characteristic β-diketone backbone with two phenolic rings connected by a heptadienedione linker — a structure that underlies both the distinctive yellow colour (absorbing at ~420 nm) and the chemical reactivity that drives its pharmacology.</p>
+          <p>Turmeric has been central to Ayurvedic medicine for millennia — known as <em>haridra</em> (Sanskrit) in Ayurveda, <em>manjal</em> in Siddha tradition, and <em>jiang huang</em> in Traditional Chinese Medicine — used across South Asia for wound healing, liver disease, joint pain, and digestive complaints. Daily dietary turmeric intake in India (~1.5–2 g powder/day) delivers approximately 30–90 mg curcumin — well below the 500–1500 mg/day doses used in clinical trials. Commercial turmeric contains 2–5% curcuminoids by weight; curry powders contain 0.58–3.14% curcumin.</p>
+          <p>Curcumin has generated over <strong>5,000 publications</strong> and attracted extraordinary research interest for its multi-target anti-inflammatory pharmacology. However, it is also one of the most studied <strong>pan-assay interference compounds (PAINS)</strong> — its β-diketone and phenolic groups cause autofluorescence, non-specific metal chelation, electrophilic protein modification, and instability in aqueous solution, which confound many in vitro biochemical assays. This does not invalidate all curcumin research, but means in vitro mechanistic claims require interpretation with heightened caution and weight should be placed on properly controlled clinical RCTs.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mechanism of Action</h3>
+          <h4>NF-κB Inhibition / AP-1 / JAK-STAT3 — Multi-Target Anti-Inflammatory</h4>
+          <div class="pathway-block">
+<pre>
+  Curcumin (Michael acceptor via β-diketone moiety)
+        │
+  ┌─────┴──────────────────────────────────────────────────────┐
+  │  IKKβ inhibition (Cys-179 covalent modification)           │  Keap1 modification (Nrf2 pathway)
+  ▼                                                            ▼
+IκBα NOT phosphorylated                                Keap1 cannot ubiquitinate Nrf2
+        │                                                      │
+IκBα stays bound to NF-κB (p65/p50)                   Nrf2 accumulates → nucleus
+        │                                                      │
+NF-κB cannot translocate to nucleus                   ARE target genes ↑:
+        │                                              HO-1, NQO1, GCL, thioredoxin reductase
+        ▼
+↓TNF-α, ↓IL-1β, ↓IL-6, ↓IL-8, ↓COX-2, ↓iNOS, ↓MMP-9
+  (NF-κB-driven transcription suppressed)
+
+  ┌─────────────────────────────┐
+  │  AP-1 inhibition            │  JAK-STAT3 inhibition
+  │  (JNK suppression → ↓c-Jun) │  (JAK1/2 activity ↓ → STAT3 Tyr705 unphosphorylated)
+  └─────┬───────────────────────┘          │
+        │ Complementary transcriptional suppression of          │
+        │ pro-inflammatory genes (IL-6, COX-2, VEGF)           │
+        └──────────────────────────────────────────────────────┘
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:0.75rem;">
+            <li><strong>IKKβ covalent inhibition (Cys-179):</strong> Curcumin's β-diketone acts as a Michael acceptor, covalently modifying the activation loop cysteine of IKKβ, preventing phosphorylation of IκBα and thereby trapping NF-κB (p65/p50) in the cytoplasm — the primary anti-inflammatory mechanism.</li>
+            <li><strong>AP-1 suppression via JNK:</strong> Curcumin inhibits c-Jun N-terminal kinase (JNK), reducing AP-1 (c-Jun/c-Fos) activation — complementary suppression of inflammatory gene transcription at promoters co-regulated by both NF-κB and AP-1 (including IL-6 and COX-2).</li>
+            <li><strong>JAK-STAT3 inhibition:</strong> Direct inhibition of JAK1/JAK2 activity reduces STAT3 Tyr705 phosphorylation → unphosphorylated STAT3 cannot dimerize or translocate → ↓Bcl-2, ↓cyclin D1, ↓VEGF; relevant in both chronic inflammation and cancer biology.</li>
+            <li><strong>Nrf2 activation (cytoprotective arm):</strong> Curcumin's Michael acceptor moiety modifies Keap1 cysteine residues (Cys151, Cys273, Cys288), preventing Nrf2 ubiquitination → Nrf2 accumulates → ARE target genes (HO-1, NQO1, GSH synthesis enzymes) provide oxidative stress cytoprotection — particularly relevant in hepatocytes.</li>
+          </ol>
+
+          <h4>Anti-fibrotic Mechanisms (Liver)</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>TGF-β/Smad inhibition</h4>
+              <p>Curcumin inhibits TGF-β receptor signalling → ↓Smad2/3 phosphorylation → reduced hepatic stellate cell (HSC) transdifferentiation to myofibroblast phenotype → ↓α-SMA and collagen type I/III secretion</p>
+            </div>
+            <div class="pleio-item">
+              <h4>PPARγ activation in HSCs</h4>
+              <p>PPARγ activation in hepatic stellate cells antagonises the TGF-β pro-fibrogenic programme → reversal of activated HSC phenotype; curcumin-induced PPARγ is an important anti-NASH mechanism in animal models</p>
+            </div>
+            <div class="pleio-item">
+              <h4>HSC apoptosis</h4>
+              <p>Curcumin triggers mitochondrial apoptosis in activated hepatic stellate cells — reduces fibrotic cell burden; effect established in cell culture and rodent NASH models; human biopsy-confirmed data are limited</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Hepatocyte Nrf2/HO-1</h4>
+              <p>In hepatocytes, Nrf2-driven HO-1 and NQO1 induction provides cytoprotection against oxidative injury relevant in acetaminophen toxicity and NAFLD; liver portal concentrations may substantially exceed systemic plasma levels, making liver a high-priority target</p>
+            </div>
+          </div>
+
+          <h4>Bioavailability — The Critical Limitation</h4>
+          <p>Curcumin has famously poor oral bioavailability: aqueous solubility is ~11 ng/mL (essentially insoluble at physiological pH); intestinal absorption is limited by insolubility and P-gp efflux; rapid glucuronidation and sulfation in enterocytes and hepatocytes converts free curcumin to pharmacologically weaker conjugates. <strong>Systemic free curcumin bioavailability is ~1%</strong> following standard powder; plasma concentrations rarely exceed 10–50 nM after 1–2 g doses — far below the EC₅₀ of most reported in vitro mechanisms (1–50 µM). This is the fundamental pharmacokinetic challenge.</p>
+          <p>Enhancement strategies with clinical validation: <strong>Piperine (BioPerine, 20 mg)</strong> — inhibits glucuronidation (UGT enzymes) and P-gp efflux → ~2000% AUC increase (Shoba et al., 1998); widely used but piperine inhibits CYP1A2 and numerous drug-metabolising enzymes, raising drug interaction risk substantially. <strong>Phospholipid complex (Meriva)</strong> — curcumin-phosphatidylcholine complex with ~29-fold improved absorption over standard curcumin in one comparative study; used in most osteoarthritis RCTs. <strong>SLCP (Longvida)</strong> — solid lipid curcumin particle with improved free curcumin plasma concentrations; used in some cognitive RCTs.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Dietary Sources &amp; Supplementation</h3>
           <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>curcumin</td></tr>
-            <tr><td>Name</td><td>Curcumin</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>03-food</td></tr>
+            <tr>
+              <th>Food / Supplement Source</th>
+              <th>Typical Curcumin Content</th>
+              <th>Bioavailability</th>
+              <th>Notes</th>
+            </tr>
+            <tr>
+              <td>Turmeric powder (1 tsp, ~2.5 g)</td>
+              <td>~50–150 mg curcumin</td>
+              <td>Very low (~1%)</td>
+              <td>Daily dietary intake in India; culinary amounts are pharmacologically sub-therapeutic for most indications</td>
+            </tr>
+            <tr>
+              <td>Curry powder (1 tbsp, ~6.3 g)</td>
+              <td>~36–198 mg curcumin (0.58–3.14%)</td>
+              <td>Very low (~1%)</td>
+              <td>Variable; curcumin % depends on turmeric content of the blend</td>
+            </tr>
+            <tr>
+              <td>Standard curcumin extract capsule (500 mg)</td>
+              <td>400–475 mg curcuminoids (standardised 95%)</td>
+              <td>Low (~1%); ~5 mg absorbed</td>
+              <td>Without bioavailability enhancer; clinical doses of 500–1500 mg/day still yield low plasma levels</td>
+            </tr>
+            <tr>
+              <td>Curcumin + Piperine (BioPerine) capsule</td>
+              <td>500 mg curcumin + 20 mg piperine</td>
+              <td>Improved; ~20-fold ↑ AUC</td>
+              <td>Most common commercial formulation; drug interaction risk from piperine; caution with narrow-index drugs</td>
+            </tr>
+            <tr>
+              <td>Meriva (curcumin-phospholipid complex)</td>
+              <td>200–400 mg curcumin equivalent per capsule</td>
+              <td>~29-fold improvement vs. standard</td>
+              <td>Used in osteoarthritis RCTs; more expensive; better-characterised pharmacokinetics</td>
+            </tr>
+            <tr>
+              <td>Longvida (SLCP solid lipid curcumin)</td>
+              <td>80–400 mg per serving</td>
+              <td>Improved free curcumin Cmax</td>
+              <td>Used in cognitive RCTs; independent clinical pharmacokinetic data available</td>
+            </tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="tnf-alpha.html" title="Curcumin directly inhibits IKKβ (IκB kinase β), preventing phosphorylation and degradation of IκBα, thereby trapping NF-κB in the cytoplasm in an inactive complex. NF-κB is the master transcriptional driver of TNF-α, IL-1β, IL-6, COX-2, and iNOS. Curcumin also inhibits AP-1 (via JNK suppression) and the JAK-STAT3 pathway, providing multi-level suppression of the pro-inflammatory transcriptional programme. Effect is concentration-dependent; plasma concentrations achievable without enhanced formulations are generally below the EC50 in cell-based assays."><span class="rel">modulates</span>Tnf Alpha</a>
-            <a class="conn-pill" href="il-6.html" title="NF-κB and AP-1 co-regulate IL-6 gene transcription; curcumin's dual suppression of both transcription factors leads to reduced IL-6 mRNA and protein. STAT3 (a key IL-6 downstream effector) is also directly inhibited by curcumin. In meta-analyses of RCTs, curcumin supplementation reduces circulating IL-6 and CRP significantly in subjects with metabolic syndrome, obesity, and inflammatory conditions, though effect sizes are modest (IL-6 reduction ~0.5–1.5 pg/mL in most trials)."><span class="rel">modulates</span>Il 6</a>
-            <a class="conn-pill" href="hepatocyte.html" title="Curcumin activates Nrf2 (nuclear factor erythroid 2-related factor 2) in hepatocytes by modifying Keap1 cysteine residues, releasing Nrf2 to translocate to the nucleus and drive ARE (antioxidant response element) gene expression: HO-1 (heme oxygenase-1), NQO1 (NAD(P)H:quinone oxidoreductase), glutathione S-transferases, and ferritin — providing cytoprotection against oxidative/electrophilic stress. Curcumin inhibits TGF-β-induced hepatic stellate cell (HSC) activation, suppressing α-SMA expression and collagen type I secretion → anti-fibrotic in NAFLD/NASH models. These hepatoprotective mechanisms are primarily established in cell culture and animal models; clinical biopsy-confirmed anti-fibrotic data in humans are limited."><span class="rel">modulates</span>Hepatocyte</a>
+          <h3>Clinical Evidence</h3>
+          <table class="data-table">
+            <tr>
+              <th>Study / Population</th>
+              <th>Design</th>
+              <th>n (approx.)</th>
+              <th>Key Result</th>
+            </tr>
+            <tr>
+              <td><strong>Osteoarthritis (multiple RCTs)</strong></td>
+              <td>RCTs vs. ibuprofen or placebo; 8–24 wk; curcumin 1500 mg/day (Meriva or + piperine)</td>
+              <td>40–350 per trial</td>
+              <td class="trial-result">WOMAC pain and function scores improved vs. placebo (ES ~0.4–0.8 SD). One trial: curcumin non-inferior to ibuprofen 1200 mg/day with fewer GI adverse events. GRADE: Moderate.</td>
+            </tr>
+            <tr>
+              <td><strong>Inflammatory markers meta-analysis (Tabrizi 2019)</strong></td>
+              <td>Meta-analysis of 10 RCTs in metabolic syndrome / elevated CRP populations</td>
+              <td>~600 pooled</td>
+              <td class="trial-result">CRP: WMD −6.4 mg/L (95% CI: −7.0 to −5.8); IL-6: WMD −0.52 pg/mL; TNF-α: WMD −3.8 pg/mL. Significant heterogeneity (I² &gt;75%).</td>
+            </tr>
+            <tr>
+              <td><strong>NAFLD (multiple RCTs, 8–16 wk)</strong></td>
+              <td>RCTs vs. placebo; curcumin 1000–1500 mg/day in NAFLD confirmed by ultrasound or biopsy</td>
+              <td>30–100 per trial</td>
+              <td class="trial-result">Significant ALT/AST reduction; improved hepatic steatosis grade on ultrasound; ↓HOMA-IR. One biopsy-confirmed trial (n=50): improved NAFLD Activity Score. GRADE: Low (small trials, no hard endpoints).</td>
+            </tr>
+            <tr>
+              <td><strong>Cognition (Longvida RCTs)</strong></td>
+              <td>Small RCTs; 200–400 mg/day Longvida curcumin; 18 months in mild cognitive impairment</td>
+              <td>~40</td>
+              <td>Modest improvements in working memory and attention vs. placebo; not powered for Alzheimer's endpoints. GRADE: Low.</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Evidence quality and the PAINS issue:</strong> Curcumin's evidence base is genuine but widely over-interpreted. The meta-analytic evidence for CRP and IL-6 reduction in metabolic inflammation is consistent and statistically significant; the osteoarthritis RCT evidence is moderate-quality and clinically meaningful. However, <strong>most of curcumin's 5,000+ papers describe in vitro mechanisms at concentrations (1–50 µM) that are 100–1000-fold above achievable plasma levels</strong>. Nelson et al. (2017, J Med Chem) formally classified curcumin as a PAINS compound — autofluorescence and non-specific protein binding confound many assays. This does not invalidate clinical RCTs with validated biomarker endpoints, but extreme caution is warranted extrapolating in vitro target findings to clinical relevance.</p>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Safety &amp; Interactions</h3>
+          <ul class="se-list">
+            <li><strong>Generally well-tolerated:</strong> Standard curcumin extract at 500–1500 mg/day is well-tolerated with GI symptoms (nausea, diarrhoea) as the most common complaint, particularly at higher doses or on an empty stomach. No hepatotoxicity at therapeutic doses; rare case reports of liver injury exist at very high doses.</li>
+            <li><strong>Anticoagulants / antiplatelets — monitor:</strong> Curcumin inhibits platelet TXA₂ synthesis and has mild anticoagulant properties (inhibits platelet aggregation via multiple mechanisms); additive bleeding risk with warfarin (monitor INR), aspirin, NSAIDs, and clopidogrel. Discontinue 2 weeks pre-operatively at supplemental doses.</li>
+            <li><strong>CYP1A2 inhibition:</strong> Curcumin inhibits CYP1A2 → increased plasma levels of CYP1A2 substrates (clozapine, theophylline, caffeine, some tricyclics); clinical significance more pronounced with piperine-containing formulations (piperine inhibits multiple CYPs and P-gp).</li>
+            <li><strong>Chemotherapy — expert guidance required:</strong> Curcumin inhibits CYP3A4 and P-gp, potentially increasing toxicity of narrow-index cytotoxics. Some experimental data suggest cancer cell sensitisation; do not use concurrently with chemotherapy without oncologist guidance.</li>
+            <li><strong>Iron chelation:</strong> Curcumin chelates iron (Fe²⁺/Fe³⁺); long-term high-dose supplementation may contribute to iron-deficiency anaemia in susceptible individuals (pre-menopausal women, vegetarians). Separate dosing from iron supplements by ≥2 hours.</li>
+            <li><strong>Piperine co-administration:</strong> Significantly amplifies drug interaction risk (CYP inhibition, P-gp inhibition); caution with narrow therapeutic index medications when piperine-enhanced formulations are used.</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              TNF-α (entry pending)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              IL-6 (entry pending)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              NF-κB (entry pending)
+            </a>
+            <a href="#" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Hepatocyte (entry pending)
+            </a>
+            <a href="omega-3-fatty-acids.html" class="conn-pill">
+              <span class="rel">Related</span>
+              Omega-3 Fatty Acids
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://doi.org/10.1016/j.biocel.2008.06.010" target="_blank" rel="noopener noreferrer">Aggarwal BB, Harikumar KB. Potential therapeutic effects of curcumin, the anti-inflammatory agent, against neurodegenerative, cardiovascular, pulmonary, metabolic, autoimmune and neoplastic diseases. Int J Biochem Cell Biol. 2009;41(1):40-59.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18662800/" target="_blank" rel="noopener noreferrer">PubMed 18662800</a></li>
-            <li><a href="https://doi.org/10.1207/s15327914nc5502_2" target="_blank" rel="noopener noreferrer">Tayyem RF, Heath DD, Al-Delaimy WK, Rock CL. Curcumin content of turmeric and curry powders. Nutr Cancer. 2006;55(2):126-31.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17044766/" target="_blank" rel="noopener noreferrer">PubMed 17044766</a></li>
-            <li><a href="https://doi.org/10.3390/foods6100092" target="_blank" rel="noopener noreferrer">Hewlings SJ, Kalman DS. Curcumin: a review of its effects on human health. Foods. 2017;6(10):92.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29065496/" target="_blank" rel="noopener noreferrer">PubMed 29065496</a></li>
+            <li>Aggarwal BB, Harikumar KB. Potential therapeutic effects of curcumin, the anti-inflammatory agent, against neurodegenerative, cardiovascular, pulmonary, metabolic, autoimmune and neoplastic diseases. <em>Int J Biochem Cell Biol.</em> 2009;41(1):40-59. <a href="https://doi.org/10.1016/j.biocel.2008.06.010">doi:10.1016/j.biocel.2008.06.010</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/18662800/">PubMed 18662800</a></li>
+            <li>Tayyem RF, Heath DD, Al-Delaimy WK, Rock CL. Curcumin content of turmeric and curry powders. <em>Nutr Cancer.</em> 2006;55(2):126-31. <a href="https://doi.org/10.1207/s15327914nc5502_2">doi:10.1207/s15327914nc5502_2</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/17044766/">PubMed 17044766</a></li>
+            <li>Hewlings SJ, Kalman DS. Curcumin: a review of its effects on human health. <em>Foods.</em> 2017;6(10):92. <a href="https://doi.org/10.3390/foods6100092">doi:10.3390/foods6100092</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/29065496/">PubMed 29065496</a></li>
+            <li>Nelson KM, Dahlin JL, Bisson J, et al. The essential medicinal chemistry of curcumin (PAINS critique). <em>J Med Chem.</em> 2017;60(5):1620-1637. <a href="https://doi.org/10.1021/acs.jmedchem.6b00975">doi:10.1021/acs.jmedchem.6b00975</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/28074653/">PubMed 28074653</a></li>
+            <li>Shoba G, Joy D, Joseph T, et al. Influence of piperine on the pharmacokinetics of curcumin. <em>Planta Med.</em> 1998;64(4):353-6. <a href="https://doi.org/10.1055/s-2006-957450">doi:10.1055/s-2006-957450</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/9619120/">PubMed 9619120</a></li>
           </ul>
         </div>
 
@@ -182,17 +365,20 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="omega-3-fatty-acids.html">Omega-3 Fatty Acids</a>
+      <a href="quercetin.html">Quercetin</a>
+      <a href="resveratrol.html">Resveratrol</a>
+      <a href="statins.html">Statins</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hypericum perforatum. Hyperforin inhibits monoamine reuptake via TRPC6 channel; hypericin weakly inhibits MAO. Cochrane evidence supports efficacy in mild-moder">
-  <meta property="og:title" content="St. John's Wort (Hypericum perforatum) — Human Engineering">
+  <meta name="description" content="St. John's Wort (Hypericum perforatum) — hyperforin TRPC6-mediated multi-transmitter reuptake inhibition, Cochrane-level evidence for mild-moderate depression, CYP3A4/P-gp induction causing ciclosporin, OCP, and antiretroviral interactions. Part of the Human Engineering project.">
+  <meta property="og:title" content="St. John's Wort — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>St. John's Wort (Hypericum perforatum) — Human Engineering</title>
+  <title>St. John's Wort — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #7c3aed;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,66 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .warn-box { background: rgba(185,28,28,0.06); border: 1px solid rgba(185,28,28,0.25); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .warn-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .warn-box strong { color: #b91c1c; }
+    .principle-box { background: rgba(124,58,237,0.07); border: 1px solid rgba(124,58,237,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
+    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .se-list li strong { color: var(--fg); }
+    .se-list li.danger { border-left: 3px solid #b91c1c; }
+    .se-list li.danger strong { color: #b91c1c; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +116,228 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 02-traditional</div>
-    <h1>St. John's Wort (Hypericum perforatum)</h1>
-    <p class="tagline">Hypericum perforatum. Hyperforin inhibits monoamine reuptake via TRPC6 channel; hypericin weakly inhibits MAO. Cochrane evidence supports efficacy in mild-moderate depression. CYP3A4/P-gp inducer — reduces cyclosporine, OCP, and antiretroviral levels.</p>
-    <p class="aliases">Also known as: St. John's Wort, Hypericum perforatum, SJW, Johanniskraut, hyperforin, hypericin, klamath weed, goatweed, tipton weed</p>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Traditional</div>
+    <h1>St. John's Wort</h1>
+    <p class="tagline"><em>Hypericum perforatum</em> — hyperforin activates TRPC6 channels to simultaneously inhibit reuptake of serotonin, dopamine, norepinephrine, GABA, and glutamate; the most mechanistically unique antidepressant in clinical use.</p>
+    <p class="subtagline">29 RCTs, n&gt;5,000 (Cochrane). Remission rate RR 2.77 vs placebo. Non-inferior to SSRIs/TCAs (RR 1.02). Midazolam AUC reduced 52% by CYP3A4 induction. Ciclosporin, oral contraceptives, HIV antiretrovirals: absolute contraindications for combination use.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">02-traditional</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">29</span><span class="stat-label">RCTs (Cochrane)</span></div>
+      <div class="stat"><span class="stat-num">5,000+</span><span class="stat-label">Patients reviewed</span></div>
+      <div class="stat"><span class="stat-num">52%</span><span class="stat-label">Midazolam AUC ↓</span></div>
+      <div class="stat"><span class="stat-num">3–8×</span><span class="stat-label">CYP3A4 mRNA induction</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">st-johns-wort</div>
-        <h2>St. John's Wort (Hypericum perforatum)</h2>
-        <p class="summary">Hypericum perforatum. Hyperforin inhibits monoamine reuptake via TRPC6 channel; hypericin weakly inhibits MAO. Cochrane evidence supports efficacy in mild-moderate depression. CYP3A4/P-gp inducer — reduces cyclosporine, OCP, and antiretroviral levels.</p>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas Three · Medicine · Traditional · Botanical Antidepressant / CYP3A4 Inducer</div>
+        <h2>St. John's Wort (<em>Hypericum perforatum</em>)</h2>
+        <div class="drug-class">Botanical name: <em>Hypericum perforatum</em> (Hypericaceae) &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Category: Botanical antidepressant / PXR activator / CYP3A4 inducer</div>
+        <p class="summary">Hyperforin inhibits monoamine reuptake via TRPC6 channel activation (unique mechanism — simultaneously inhibits SERT, DAT, NET, GABA-T, and glutamate reuptake); hypericin weakly inhibits MAO-A/B and is a photosensitiser. Cochrane meta-analysis (29 RCTs, n&gt;5,000) confirms efficacy comparable to TCAs and SSRIs for mild-moderate depression with superior tolerability. Hyperforin activates PXR → CYP3A4 and P-gp induction 3–8-fold — reduces plasma levels of ciclosporin, oral contraceptives, warfarin, HIV antiretrovirals, and digoxin. Several interactions are life-threatening.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Hypericum perforatum</span>
+          <span class="alias-pill">SJW</span>
+          <span class="alias-pill">Johanniskraut</span>
+          <span class="alias-pill">hyperforin</span>
+          <span class="alias-pill">hypericin</span>
+          <span class="alias-pill">klamath weed</span>
+          <span class="alias-pill">goatweed</span>
+          <span class="alias-pill">LI 160</span>
+          <span class="alias-pill">WS 5570</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>st-johns-wort</td></tr>
-            <tr><td>Name</td><td>St. John's Wort (Hypericum perforatum)</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>02-traditional</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Hypericum perforatum</strong> (family Hypericaceae) is a perennial herb native to Europe and western Asia, now widely naturalised across temperate regions worldwide. Its common name derives from the traditional harvest around St. John's Day (June 24), when the plant blooms. The "perforatum" epithet refers to the translucent secretory gland-like oil dots visible in leaves when held to light — these are lysigenous secretory ducts containing phloroglucinol derivatives including the primary active compound, hyperforin.</p>
+          <p>Traditional use spans over 2,000 years: Hippocrates, Paracelsus, and Culpeper all described uses for wound healing, anxiety, nerve pain, and melancholy — a traditional use that aligns closely with modern pharmacological understanding. St. John's Wort is the best-selling botanical antidepressant in Europe, particularly Germany, where it outsells synthetic antidepressants and is licensed as a prescription medicine for mild-moderate depression.</p>
+          <p>The two key active constituents are mechanistically distinct. <strong>Hyperforin</strong> (phloroglucinol derivative, 2–5% in dried aerial parts) is the primary antidepressant compound — a non-selective monoamine reuptake inhibitor via TRPC6 activation, chemically unstable (oxidises rapidly in air and light), explaining why unstabilised OTC products show inconsistent efficacy. <strong>Hypericin</strong> (naphthodianthrone, 0.1–0.3%) is a weak MAO-A/B inhibitor and photosensitiser. Standardised extracts — LI 160 (0.3% hypericin) and WS 5570 (0.3% hypericin + 3% hyperforin) — are pharmacologically superior to unstabilised preparations, and results across preparations are not interchangeable.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="nervous-system.html" title="Hyperforin activates TRPC6 → Na+ influx → inhibits vesicular reuptake of serotonin, dopamine, norepinephrine, GABA, and glutamate. This broad multi-transmitter reuptake inhibition is mechanistically distinct from selective SSRI or SNRI pharmacology."><span class="rel">modulates</span>Nervous System</a>
-            <a class="conn-pill" href="dopamine.html" title="Hyperforin TRPC6 activation inhibits DAT by raising presynaptic Na+, increasing dopaminergic tone. Hypericin weakly inhibits MAO-A/B, reducing dopamine catabolism. Their relative contribution to antidepressant effect remains unresolved."><span class="rel">modulates</span>Dopamine</a>
-            <a class="conn-pill" href="serotonin.html" title="Hyperforin inhibits SERT via TRPC6-mediated depolarization; hypericin MAO-A inhibition further amplifies serotonergic tone. Clinically significant serotonin syndrome risk with SSRIs, SNRIs, tramadol, or linezolid. FDA warns against combination use."><span class="rel">modulates</span>Serotonin</a>
-            <a class="conn-pill" href="brain.html" title="Cochrane meta-analysis (29 RCTs, n&gt;5000) confirms efficacy comparable to TCAs/SSRIs for mild-moderate depression with superior tolerability. Hyperforin-driven PXR activation induces CYP3A4, reducing plasma levels of hepatic substrates."><span class="rel">modulates</span>Brain</a>
+          <h3>Mechanism of Action</h3>
+          <h4>Hyperforin — TRPC6 Channel-Mediated Multi-Transmitter Reuptake Inhibition</h4>
+          <div class="pathway-block">
+<pre>
+  Hyperforin (lipophilic phloroglucinol)
+        │
+        ▼
+  TRPC6 (Transient Receptor Potential Canonical 6)
+  — sodium-permeable non-selective cation channel —
+        │
+        ▼
+  Na+ influx → presynaptic terminal depolarisation
+        │
+        ▼
+  Electrochemical gradient collapse
+  (VMAT2, SERT, DAT, NET all Na+-gradient dependent)
+        │
+        ├── SERT inhibited  →  ↑ synaptic serotonin (5-HT)
+        ├── DAT inhibited   →  ↑ synaptic dopamine (DA)
+        ├── NET inhibited   →  ↑ synaptic norepinephrine (NE)
+        ├── GABA-T inhibited →  ↑ synaptic GABA
+        └── Glu transporter  →  ↑ synaptic glutamate
+</pre>
+          </div>
+          <p style="margin-top:0.75rem;">This mechanism is unique among antidepressants, discovered by Müller et al. (2001) and confirmed by Leuner et al. (2007). It contrasts sharply with SSRIs (selective SERT only), SNRIs (SERT + NET), and TCAs (SERT + NET + receptor blockade). No other licensed antidepressant inhibits all five neurotransmitter systems simultaneously via a single upstream ion channel mechanism.</p>
+          <ol class="step-list">
+            <li><strong>TRPC6 activation:</strong> Hyperforin potently activates TRPC6 — a sodium-permeable, non-selective cation channel expressed at presynaptic terminals throughout the brain</li>
+            <li><strong>Na+ influx:</strong> TRPC6 opening → Na+ influx into the presynaptic terminal → membrane depolarisation, raising intracellular [Na+]</li>
+            <li><strong>Gradient collapse for all monoamine transporters:</strong> VMAT2 and plasma membrane transporters (SERT, DAT, NET) depend on the transmembrane Na+ electrochemical gradient; raised presynaptic [Na+] eliminates the driving force for reuptake</li>
+            <li><strong>Simultaneous multi-transmitter inhibition:</strong> Serotonin, dopamine, norepinephrine, GABA, and glutamate reuptake all inhibited — unlike any pharmaceutical antidepressant</li>
+            <li><strong>PXR activation → CYP3A4/P-gp induction:</strong> Hyperforin is a potent PXR (Pregnane X Receptor) ligand → PXR/RXR heterodimerisation → binds PXREs in CYP3A4 and MDR1/ABCB1 promoters → 3–8-fold induction of CYP3A4 expression and 2–4-fold induction of P-gp</li>
+          </ol>
+
+          <h4>Pleiotropic Effects</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Hypericin — MAO Inhibition</h4>
+              <p>Hypericin inhibits MAO-A and MAO-B with IC50 in micromolar range — significantly weaker than pharmaceutical MAOIs; not clinically relevant at standard doses, but contributes to additive serotonergic risk when combined with SSRIs or SNRIs</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Hypericin — Photosensitisation</h4>
+              <p>Hypericin absorbs UV-A/B light and generates singlet oxygen in excited triplet state → oxidative membrane damage in sun-exposed skin. Fair-skinned individuals at highest risk; explains the characteristic photosensitivity adverse effect</p>
+            </div>
+            <div class="pleio-item">
+              <h4>NF-κB Suppression and COX Inhibition</h4>
+              <p>Hyperforin inhibits NF-κB activation and COX-1/2 at higher concentrations, contributing to the traditional wound-healing and anti-inflammatory uses; may also reduce neuroinflammation at therapeutic CNS concentrations</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Amentoflavone (biflavonoid)</h4>
+              <p>CNS benzodiazepine receptor site modulation; PDE inhibition — potential anxiolytic contribution; clinical significance at physiological concentrations uncertain but may explain anxiolytic effects reported in some trials</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Clinical Use &amp; Dosing</h3>
+          <table class="data-table">
+            <tr><th>Indication</th><th>Evidence Level</th><th>Standard Dose</th><th>Preparation</th><th>Duration</th></tr>
+            <tr>
+              <td><strong>Mild-moderate depression</strong></td>
+              <td><span class="badge badge-hi">High (Cochrane)</span></td>
+              <td>300 mg three times daily (900 mg/day)</td>
+              <td>LI 160 or WS 5570</td>
+              <td>6–12 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Seasonal affective disorder</strong></td>
+              <td><span class="badge badge-mod">Moderate</span></td>
+              <td>300–900 mg/day</td>
+              <td>Standardised extract</td>
+              <td>8 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Menopausal symptoms</strong></td>
+              <td><span class="badge badge-lo">Low</span></td>
+              <td>300–600 mg/day</td>
+              <td>Standardised extract</td>
+              <td>12 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Anxiety</strong></td>
+              <td><span class="badge badge-lo">Low</span></td>
+              <td>300–600 mg/day</td>
+              <td>Standardised extract</td>
+              <td>6–12 weeks</td>
+            </tr>
+            <tr>
+              <td><strong>Severe / major depression</strong></td>
+              <td><span class="badge badge-lo">Insufficient</span></td>
+              <td>Not recommended</td>
+              <td>—</td>
+              <td>—</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>Extract standardisation matters critically:</strong> LI 160 (standardised to 0.3% hypericin) is the most studied preparation in older trials; WS 5570 (0.3% hypericin + 3% hyperforin) is pharmacologically superior and preferred in mechanistically-informed trials. WS 5573 (low-hyperforin variant) was less effective in one head-to-head RCT, directly supporting hyperforin as the primary active constituent. Doses across preparations are not interchangeable.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Key Studies</h3>
+          <table class="data-table">
+            <tr><th>Study</th><th>Design / n</th><th>Key Result</th></tr>
+            <tr>
+              <td><strong>Linde, Berner, Kriston (2008)</strong><br><em>Cochrane Database Syst Rev</em></td>
+              <td>Systematic review, 29 RCTs, n&gt;5,000; vs placebo (17 trials) and vs antidepressants (13 trials)</td>
+              <td class="trial-result">Vs placebo: RR remission 2.77 (95% CI: 1.87–4.11). Vs TCAs/SSRIs: RR response 1.02 (non-inferior). Dropout for adverse effects: SJW 0–3% vs TCAs 10–15% vs SSRIs 3–6%</td>
+            </tr>
+            <tr>
+              <td><strong>Madabushi et al. (2006)</strong><br><em>Eur J Clin Pharmacol</em></td>
+              <td>Clinical pharmacokinetic study; SJW 14 days then midazolam (CYP3A4 probe)</td>
+              <td class="trial-result">Midazolam AUC reduced 52%; hyperforin content correlated with magnitude of CYP3A4 induction; induction washout period: 14–21 days post-discontinuation</td>
+            </tr>
+            <tr>
+              <td><strong>Shelton et al. (2001)</strong><br><em>JAMA</em></td>
+              <td>RCT, n=200, LI 160 vs placebo; major (not mild-moderate) depression</td>
+              <td>No significant difference — but this trial targeted major depression, outside the Cochrane-supported indication; used incorrectly to claim SJW does not work</td>
+            </tr>
+            <tr>
+              <td><strong>Hypericum Depression Trial Study Group (2002)</strong><br><em>JAMA</em></td>
+              <td>RCT, n=340, hypericum vs sertraline vs placebo; major depression</td>
+              <td>Hypericum non-superior to placebo; sertraline also failed to separate from placebo in this trial, suggesting inadequate assay sensitivity rather than a SJW-specific failure</td>
+            </tr>
+          </table>
+
+          <div class="principle-box">
+            <p><strong>Key Insight — The Standardisation Effect:</strong> The Cochrane review identifies a geographic divide: European trials (SJW licensed, standardised, physician-prescribed) show consistent positive results; US/UK trials (OTC, variable quality) show inconsistent results. This is not a population difference — it is a product quality difference. The evidence supports SJW only with validated standardised preparations (LI 160 or WS 5570) at the correct 900 mg/day dose for <em>mild-to-moderate</em> (not severe/major) depression.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Safety &amp; Drug Interactions</h3>
+
+          <div class="warn-box">
+            <p><strong>CYP3A4 / P-gp Induction — Life-Threatening Interactions:</strong> Hyperforin activates PXR → CYP3A4 and P-glycoprotein induction 3–8 fold. Plasma levels of drugs metabolised by CYP3A4 or transported by P-gp are substantially reduced. CYP3A4 induction persists 1–2 weeks after SJW discontinuation — a washout period is mandatory before starting sensitive substrate drugs.</p>
+          </div>
+
+          <ul class="se-list" style="margin-top:0.75rem;">
+            <li class="danger"><strong>Ciclosporin / tacrolimus — ABSOLUTE CONTRAINDICATION:</strong> Multiple case series document acute transplant rejection from SJW-induced ciclosporin plasma level reduction; all transplant patients must be screened for SJW use</li>
+            <li class="danger"><strong>HIV antiretrovirals (indinavir, nevirapine, efavirenz) — AVOID:</strong> CYP3A4/P-gp induction reduces plasma levels → virological failure documented in clinical case reports; HIV therapy must not be combined with SJW</li>
+            <li class="danger"><strong>Oral contraceptive pill (ethinylestradiol) — SWITCH CONTRACEPTION:</strong> Reduced OCP plasma levels → contraceptive failure and breakthrough bleeding; women must use alternative contraception during SJW use and for 2 weeks after stopping</li>
+            <li><strong>Warfarin — MONITOR INR CLOSELY:</strong> CYP2C9/3A4-mediated warfarin metabolism increases → reduced INR → thrombosis risk; dose increases likely needed; close monitoring essential</li>
+            <li><strong>SSRIs / SNRIs / MAOIs / tramadol — SEROTONIN SYNDROME RISK:</strong> Additive serotonergic effects via TRPC6-mediated SERT inhibition + hypericin MAO-A inhibition; case reports of agitation, myoclonus, diaphoresis, hyperthermia; FDA warns against combination without supervision</li>
+            <li><strong>Digoxin (P-gp substrate):</strong> P-gp induction reduces digoxin plasma levels — monitor drug levels and therapeutic effect</li>
+            <li><strong>Irinotecan / imatinib:</strong> CYP3A4 induction reduces antineoplastic plasma levels → compromised cancer therapy efficacy; avoid in oncology patients receiving these agents</li>
+            <li><strong>Photosensitivity (hypericin-mediated):</strong> UV-A/B sensitisation; fair-skinned individuals should limit sun exposure during treatment; avoid sunbeds</li>
+            <li><strong>Discontinuation:</strong> Tapering recommended for patients on maintenance therapy to avoid rebound depressive symptoms; CYP3A4 induction persists for 1–2 weeks after stopping</li>
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="nervous-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Nervous System
+            </a>
+            <a href="brain.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Brain
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.elsevier.com/books/trease-and-evans-pharmacognosy/evans/978-0-7020-2933-2" target="_blank" rel="noopener noreferrer">Evans WC. Trease and Evans' Pharmacognosy. 16th ed. Saunders; 2009.</a></li>
-            <li><a href="https://www.cochranelibrary.com/" target="_blank" rel="noopener noreferrer">Cochrane Database of Systematic Reviews. Various authors. cochrane.org</a></li>
-            <li><a href="https://doi.org/10.1002/14651858.CD000448.pub3" target="_blank" rel="noopener noreferrer">Linde K, Berner MM, Kriston L. St John's wort for major depression. Cochrane Database Syst Rev. 2008;(4):CD000448.</a></li>
-            <li><a href="https://doi.org/10.1007/s00228-006-0096-z" target="_blank" rel="noopener noreferrer">Madabushi R, Frank B, Drewelow B, et al. Hyperforin in St. John's wort drug interactions. Eur J Clin Pharmacol. 2006;62(3):225-33.</a></li>
+            <li>Linde K, Berner MM, Kriston L. St John's wort for major depression. <em>Cochrane Database Syst Rev.</em> 2008;(4):CD000448. <a href="https://doi.org/10.1002/14651858.CD000448.pub3">doi:10.1002/14651858.CD000448.pub3</a></li>
+            <li>Madabushi R, Frank B, Drewelow B, et al. Hyperforin in St. John's wort drug interactions. <em>Eur J Clin Pharmacol.</em> 2006;62(3):225-33. <a href="https://doi.org/10.1007/s00228-006-0096-z">doi:10.1007/s00228-006-0096-z</a></li>
+            <li>Shelton RC, Keller MB, Gelenberg A, et al. Effectiveness of St John's Wort in major depression. <em>JAMA.</em> 2001;285(15):1978-86. <a href="https://doi.org/10.1001/jama.285.15.1978">doi:10.1001/jama.285.15.1978</a></li>
+            <li>Hypericum Depression Trial Study Group. Effect of Hypericum perforatum (St John's Wort) in major depressive disorder. <em>JAMA.</em> 2002;287(14):1807-14. <a href="https://doi.org/10.1001/jama.287.14.1807">doi:10.1001/jama.287.14.1807</a></li>
+            <li>Müller WE. Current St. John's wort research from mode of action to clinical efficacy. <em>Pharmacol Res.</em> 2003;47(2):101-9. <a href="https://doi.org/10.1016/s1043-6618(02)00266-9">doi:10.1016/S1043-6618(02)00266-9</a></li>
+            <li>Evans WC. <em>Trease and Evans' Pharmacognosy.</em> 16th ed. Saunders; 2009.</li>
           </ul>
         </div>
 
@@ -184,17 +346,18 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="pathogens.html">Pathogen Atlas</a>
+      <a href="nervous-system.html">Nervous System</a>
+      <a href="brain.html">Brain</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

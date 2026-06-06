@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dietary magnesium (RDA 310–420 mg/day) is cofactor for 300+ enzymes and the Mg-ATP complex. Deficiency (~50% US adults) links to T2DM, hypertension, and migrain">
-  <meta property="og:title" content="Dietary Magnesium — Human Engineering">
+  <meta name="description" content="Dietary Magnesium — essential macromineral; TRPM6/TRPM7-absorbed; Mg-ATP cofactor for 300+ enzymes; NMDA receptor blocker; IV MgSO4 first-line for eclampsia and torsades. Part of the Human Engineering project.">
+  <meta property="og:title" content="Dietary Magnesium — Medicine Atlas · Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Dietary Magnesium — Human Engineering</title>
+  <title>Dietary Magnesium — Medicine Atlas · Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0284c7;
+      --accent: #059669;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
-           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
-          -webkit-backdrop-filter: saturate(180%) blur(20px);
-          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
-                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
-             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
-                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
-                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -39,53 +32,59 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
-                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
-               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
-                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
-                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
-                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
-                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
-                   color: #92400e; margin-bottom: 1.5rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
-                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
-                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
-                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
-                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #065f46); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
-                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
-                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
+    .detail-section h4:first-child { margin-top: 0; }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
-                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
-                     letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
-                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
+    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
+    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
+    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
+    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
+    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
+    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
+    .step-list li strong { color: var(--fg); }
+    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
+    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
+    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
+    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
+    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
+    .trial-result { font-weight: 700; color: var(--bio); }
+    .principle-box { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
+    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
+    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
-                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
-                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.damaged .rel { color: #dc2626; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.targets .rel { color: var(--accent); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -110,72 +109,278 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html" class="nav-back">
+        <a href="medicine.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Home
+          Medicine Atlas
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 03-food</div>
+    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Food &amp; Nutraceuticals</div>
     <h1>Dietary Magnesium</h1>
-    <p class="tagline">Dietary magnesium (RDA 310–420 mg/day) is cofactor for 300+ enzymes and the Mg-ATP complex. Deficiency (~50% US adults) links to T2DM, hypertension, and migraine. IV MgSO4 treats eclampsia, torsades de pointes, and severe asthma.</p>
-    <p class="aliases">Also known as: magnesium, Mg, magnesium supplement, magnesium glycinate, magnesium citrate, magnesium oxide, magnesium malate, magnesium L-threonate, magnesium sulfate, MgSO4, hypomagnesemia, magnesium deficiency</p>
+    <p class="tagline">Fourth most abundant mineral in the human body &#x2014; absorbed via TRPM6/TRPM7 channels; required as Mg-ATP for virtually all phosphotransferase reactions; physiological voltage-dependent blocker of the NMDA receptor; IV MgSO&#x2084; first-line for eclampsia and torsades de pointes.</p>
+    <p class="subtagline">RDA 310&#x2013;420 mg/day. ~50% of US adults below EAR (median intake ~250&#x2013;270 mg/day). Magpie Trial (n=10,141): IV MgSO&#x2084; &#x2192; 58% &#x2193; eclamptic seizures. AAN Grade B: Mg supplementation reduces migraine frequency ~40&#x2013;50% vs. placebo.</p>
     <div class="stat-row">
-        <div class="stat"><span class="stat-num">03-food</span><span class="stat-label">Stream</span></div>
-        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
-        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
-        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+      <div class="stat"><span class="stat-num">24 g</span><span class="stat-label">Total Body Content</span></div>
+      <div class="stat"><span class="stat-num">&gt;300</span><span class="stat-label">Enzyme Cofactor Roles</span></div>
+      <div class="stat"><span class="stat-num">~50%</span><span class="stat-label">US Adults Below EAR</span></div>
+      <div class="stat"><span class="stat-num">58%</span><span class="stat-label">Eclampsia Seizure Reduction (Magpie)</span></div>
     </div>
   </div>
 
   <main>
-    <div class="stub-notice">
-      This is an auto-generated stub page built from atlas entry frontmatter. A richer
-      hand-crafted page is planned. See the
-      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
-      for the full entry including detailed body sections.
-    </div>
-
     <div class="detail-card">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
-        <div class="entry-eyebrow">magnesium-dietary</div>
+      <div class="detail-header">
+        <div class="entry-eyebrow">Medicine Atlas · Food &amp; Nutraceuticals · Essential Minerals</div>
         <h2>Dietary Magnesium</h2>
-        <p class="summary">Dietary magnesium (RDA 310–420 mg/day) is cofactor for 300+ enzymes and the Mg-ATP complex. Deficiency (~50% US adults) links to T2DM, hypertension, and migraine. IV MgSO4 treats eclampsia, torsades de pointes, and severe asthma.</p>
+        <div class="drug-class">Element: Mg (atomic no. 12) &nbsp;|&nbsp; Absorption: TRPM6/TRPM7 channels (jejunum/ileum) &nbsp;|&nbsp; Regulation: Renal &#x2014; dominant homeostatic site &nbsp;|&nbsp; Category: Essential macromineral / Mg-ATP cofactor</div>
+        <p class="summary">Magnesium is the fourth most abundant mineral in the human body (~24 g total) and the second most abundant intracellular cation (after K&#x207A;). Critically, serum magnesium &#x2014; the routine clinical measure &#x2014; reflects only ~1% of total body magnesium, making deficiency assessment challenging and deficiency chronically underdiagnosed. Absorbed via TRPM6 (intestinal/renal) and TRPM7 (ubiquitous); homeostasis is dominated by renal handling (loop of Henle + distal convoluted tubule). The Mg-ATP chelate complex is the true substrate for virtually all ATP-utilizing enzymes &#x2014; hexokinase, Na&#x207A;/K&#x207A;-ATPase, DNA polymerase, RNA polymerase, ATP synthase all require Mg-ATP, not free ATP&#x2074;&#x207B;. Mg&#x00B2;&#x207A; also provides the voltage-dependent block of the NMDA receptor ion channel at resting membrane potential &#x2014; the coincidence-detection mechanism underlying synaptic plasticity. IV MgSO&#x2084; is first-line treatment for eclampsia (Magpie trial: 58% &#x2193; seizures) and torsades de pointes.</p>
+        <div class="alias-pills">
+          <span class="alias-pill">Mg</span>
+          <span class="alias-pill">magnesium glycinate</span>
+          <span class="alias-pill">magnesium citrate</span>
+          <span class="alias-pill">magnesium oxide</span>
+          <span class="alias-pill">magnesium L-threonate</span>
+          <span class="alias-pill">MgSO&#x2084; (IV)</span>
+          <span class="alias-pill">hypomagnesemia</span>
+        </div>
       </div>
+
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Entry Metadata</h3>
-          <table class="data-table">
-            <tr><th>Field</th><th>Value</th></tr>
-            <tr><td>ID</td><td>magnesium-dietary</td></tr>
-            <tr><td>Name</td><td>Dietary Magnesium</td></tr>
-            <tr><td>Status</td><td>draft</td></tr>
-            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
-            <tr><td>Stream</td><td>03-food</td></tr>
-          </table>
+          <h3>Overview</h3>
+          <p><strong>Magnesium (Mg, atomic number 12)</strong> is the fourth most abundant mineral in the human body and the second most abundant intracellular cation after potassium. Total body magnesium is approximately <strong>24 g (1,000 mmol)</strong>, distributed as ~60% in bone (bound to hydroxyapatite crystal lattice as long-term reserve), ~39% intracellular (predominantly skeletal muscle; ~95% complexed as Mg-ATP, with &lt;5% as free Mg&#x00B2;&#x207A; at ~0.5&#x2013;1.0 mmol/L), and ~1% extracellular (serum 0.75&#x2013;1.05 mmol/L). The critical clinical implication: <strong>serum magnesium reflects only ~1% of total body magnesium</strong> &#x2014; normomagnesaemia can coexist with substantial intracellular or bone depletion, making deficiency assessment with standard serum values highly insensitive.</p>
+          <p>Dietary magnesium comes primarily from <strong>green vegetables</strong> (magnesium is the central metal atom of chlorophyll), nuts and seeds, legumes, whole grains, and dark chocolate. Approximately <strong>50% of American adults consume below the Estimated Average Requirement (EAR)</strong> for magnesium (Rosanoff et al., 2012), with median intake of ~250&#x2013;270 mg/day &#x2014; well below the RDA of 310&#x2013;420 mg/day. This widespread subclinical deficiency is linked epidemiologically to type 2 diabetes, hypertension, migraine, cardiovascular disease, and depression, though establishing causation vs. confounding remains challenging.</p>
+          <p>Magnesium is simultaneously a mundane dietary mineral and a critical pharmacological agent. Oral magnesium supplements vary enormously in bioavailability &#x2014; magnesium oxide (~4% absorbable) is the cheapest and worst-absorbed form and should be avoided for repletion; magnesium glycinate, citrate, and malate provide markedly superior bioavailability. Intravenous magnesium sulfate (MgSO&#x2084;) is one of a small number of truly life-saving therapeutic agents: first-line for eclampsia, torsades de pointes, and severe asthma exacerbations.</p>
         </div>
 
         <div class="detail-section">
-          <h3>Cross-Atlas Connections</h3>
-          <div class="connections">
-            <a class="conn-pill" href="cardiovascular-system.html" title="Mg²⁺ activates eNOS and increases NO-mediated vasodilation; stabilizes cardiac membrane potential by blocking voltage-gated Ca²⁺ channels at rest. Deficiency causes arrhythmias, hypertension, and coronary vasospasm. IV MgSO₄ terminates torsades de pointes and reduces vasospasm in eclampsia."><span class="rel">modulates</span>Cardiovascular System</a>
-            <a class="conn-pill" href="nervous-system.html" title="Mg²⁺ is the physiological voltage-dependent blocker of the NMDA receptor channel at resting membrane potential; its removal requires depolarization (coincidence-detection mechanism). Deficiency lowers seizure threshold and is associated with migraine, depression, anxiety, and peripheral neuropathy."><span class="rel">modulates</span>Nervous System</a>
-            <a class="conn-pill part" href="magnesium.html" title="Dietary magnesium entry covers intestinal absorption (TRPM6/TRPM7), RDA, food sources, and clinical deficiency/supplementation. The atomic entry covers Mg²⁺ electron configuration (2,8,2), ionic radius, coordination chemistry, and its role as the central metal of chlorophyll in photosynthesis."><span class="rel">part-of</span>Magnesium</a>
-            <a class="conn-pill" href="atp.html" title="Nearly all ATP-consuming enzymatic reactions require Mg²⁺ in the Mg-ATP chelate complex; Mg²⁺ coordinates the β- and γ-phosphates of ATP, lowering activation energy for phosphoryl-transfer. Hexokinase, Na⁺/K⁺-ATPase, DNA polymerase, RNA polymerase, and ATP synthase all require Mg-ATP."><span class="rel">modulates</span>Atp</a>
+          <h3>Mechanism of Action</h3>
+          <h4>Intestinal Absorption: TRPM6/TRPM7</h4>
+          <div class="pathway-block">
+<pre>
+  Dietary Mg2+ (jejunum / ileum)
+       |
+       |  TRPM6 (SLC-independent Mg2+ channel; apical brush-border of enterocytes)
+       |   Upregulated by: estrogen, EGF, insulin, hypomagnesemia
+       |   Downregulated by: anti-EGFR therapy (cetuximab) -> clinical hypomagnesemia
+       |  TRPM7 (ubiquitous; forms heteromers with TRPM6; has alpha-kinase domain)
+       |   Feedback-inhibited by intracellular Mg2+
+       |  Paracellular (claudin-7/12 tight-junction channels; high-dose/supplemental)
+       v
+  Enterocyte -> TRPM6-mediated basolateral exit -> portal vein
+       |
+       v
+  ─── KIDNEY (dominant homeostatic site) ────────────────────
+  ~65% reabsorbed in thick ascending limb (TAL):
+    Paracellular via paracellin-1 (claudin-16/19); lumen-positive voltage (NKCC2)
+    FUROSEMIDE BLOCKS NKCC2 -> major renal Mg2+ wasting
+  ~15% reabsorbed in distal convoluted tubule (DCT):
+    Transcellular via TRPM6; fine-tuning
+    Calcineurin inhibitors (tacrolimus/cyclosporin) -> downregulate DCT TRPM6
+  ~3-5% excreted (adjusts to match intake)
+
+  ─── THE Mg-ATP COMPLEX ─────────────────────────────────────
+  Nearly all ATP-utilizing enzymes require Mg2+ as Mg-ATP:
+    Mg2+ coordinates beta- and gamma-phosphates of ATP4-
+    -> stabilises ATP for nucleophilic phosphoryl-transfer
+    Examples: Hexokinase, PFK1, pyruvate kinase, Na+/K+-ATPase,
+    SERCA, DNA pol, RNA pol II, ATP synthase, aminoacyl-tRNA synthetases
+
+  ─── NMDA RECEPTOR BLOCK ─────────────────────────────────────
+  At resting Vm (~-70 mV):
+    Extracellular Mg2+ occupies NMDAR channel pore -> blocks Ca2+/Na+ flux
+    Even when glutamate + glycine are bound, Mg2+ block prevents current
+  On depolarisation (AMPA-R activation):
+    Positive Vm repels Mg2+ from pore -> Ca2+ influx through NMDAR
+    -> Hebbian coincidence detection -> LTP / synaptic plasticity
+  Mg2+ deficiency: -> lower threshold NMDAR activation -> hyperexcitability
+</pre>
+          </div>
+          <ol class="step-list" style="margin-top:0.75rem;">
+            <li><strong>TRPM6-mediated intestinal absorption:</strong> Selective Mg&#x00B2;&#x207A; channel on enterocyte apical membrane; upregulated by estrogen and EGF; downregulated by anti-EGFR biologics (cetuximab causes clinically significant hypomagnesaemia in ~50% of treated patients).</li>
+            <li><strong>Renal fine-tuning (dominant homeostasis):</strong> ~65% reabsorbed paracellularly in TAL (NKCC2-driven lumen-positive voltage; furosemide-sensitive); ~15% transcellularly in DCT via TRPM6.</li>
+            <li><strong>Mg-ATP cofactor:</strong> Virtually all phosphotransferase reactions require Mg&#x00B2;&#x207A;-ATP chelate as the true substrate; free ATP&#x2074;&#x207B; is a poor substrate for kinases and ATPases. Deficiency &#x2192; impaired glycolysis, Na&#x207A;/K&#x207A;-ATPase function, and DNA replication.</li>
+            <li><strong>NMDA receptor voltage-dependent block:</strong> Extracellular Mg&#x00B2;&#x207A; physically blocks the NMDAR ion channel at resting potential; coincidence-detection mechanism for Hebbian plasticity and LTP. Deficiency &#x2192; lower seizure threshold, migraine susceptibility.</li>
+            <li><strong>Cardiovascular: eNOS, SERCA, Kir2.x:</strong> Mg&#x00B2;&#x207A; activates eNOS &#x2192; &#x2191;NO &#x2192; vasodilation; supports SERCA Ca&#x00B2;&#x207A; re-uptake; physiological Ca&#x00B2;&#x207A; channel blocker in vascular smooth muscle and cardiomyocytes; blocks inward rectifier K&#x207A; channels (Kir2.x) &#x2192; influences QTc interval.</li>
+          </ol>
+
+          <h4>Pleiotropic Roles</h4>
+          <div class="pleiotropic-grid">
+            <div class="pleio-item">
+              <h4>Migraine Pathophysiology</h4>
+              <p>Low brain Mg&#x00B2;&#x207A; (documented by &#x00B3;&#x00B9;P-MRS in migraineurs) lowers threshold for cortical spreading depression (CSD) &#x2014; the electrophysiological correlate of migraine aura &#x2014; via increased NMDAR sensitivity. Mg supplementation (400&#x2013;600 mg/day) reduces migraine frequency ~40&#x2013;50% (AAN Grade B).</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Cardiac Electrophysiology</h4>
+              <p>Mg&#x00B2;&#x207A; physiological calcium channel blockade in cardiomyocytes shortens QTc and reduces early after-depolarisations (EADs). IV MgSO&#x2084; terminates torsades de pointes even when serum Mg is normal &#x2014; the therapeutic mechanism is direct membrane stabilisation, not repletion.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Insulin Signalling</h4>
+              <p>Insulin receptor tyrosine kinase is an Mg-ATP-dependent enzyme. Mg deficiency &#x2192; impaired insulin receptor signalling &#x2192; &#x2191;insulin resistance. Prospective cohorts: highest vs. lowest Mg intake &#x2192; ~15&#x2013;20% &#x2193; T2DM incidence; RCTs show &#x2193;HOMA-IR with supplementation in deficient individuals.</p>
+            </div>
+            <div class="pleio-item">
+              <h4>Glutathione Synthesis</h4>
+              <p>Glutathione synthetase (GSH-S) requires Mg-ATP as substrate. Mg deficiency &#x2192; &#x2193;GSH synthesis &#x2192; &#x2191;oxidative stress &#x2014; creating a mechanistic link between Mg inadequacy and oxidative-stress-associated chronic diseases.</p>
+            </div>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>Sources</h3>
+          <h3>Dietary Sources &amp; RDA</h3>
+          <table class="data-table">
+            <tr><th>Source</th><th>Serving</th><th>Magnesium Content</th><th>% RDA (men &lt;31: 400 mg)</th></tr>
+            <tr>
+              <td><strong>Pumpkin seeds (roasted)</strong></td>
+              <td>1 oz (28 g)</td>
+              <td>156 mg</td>
+              <td>39%</td>
+            </tr>
+            <tr>
+              <td><strong>Chia seeds</strong></td>
+              <td>1 oz</td>
+              <td>111 mg</td>
+              <td>28%</td>
+            </tr>
+            <tr>
+              <td><strong>Spinach (boiled)</strong></td>
+              <td>&#x00BD; cup</td>
+              <td>78 mg</td>
+              <td>20%</td>
+            </tr>
+            <tr>
+              <td><strong>Almonds</strong></td>
+              <td>1 oz (28 g)</td>
+              <td>77 mg</td>
+              <td>19%</td>
+            </tr>
+            <tr>
+              <td><strong>Dark chocolate (70&#x2013;85%)</strong></td>
+              <td>1 oz (28 g)</td>
+              <td>64 mg</td>
+              <td>16%</td>
+            </tr>
+            <tr>
+              <td><strong>Black beans (cooked)</strong></td>
+              <td>&#x00BD; cup</td>
+              <td>60 mg</td>
+              <td>15%</td>
+            </tr>
+            <tr>
+              <td><strong>Quinoa (cooked)</strong></td>
+              <td>&#x00BD; cup</td>
+              <td>59 mg</td>
+              <td>15%</td>
+            </tr>
+            <tr>
+              <td><strong>Avocado</strong></td>
+              <td>1 medium (150 g)</td>
+              <td>58 mg</td>
+              <td>15%</td>
+            </tr>
+          </table>
+          <p style="margin-top:0.75rem;"><strong>RDA:</strong> Men 19&#x2013;30: 400 mg/day; Men &#x2265;31: 420 mg/day; Women 19&#x2013;30: 310 mg/day; Women &#x2265;31: 320 mg/day; Pregnant: 350&#x2013;360 mg/day. No established Tolerable Upper Intake Level for dietary magnesium from food (excess excreted via urine); supplemental UL 350 mg/day elemental (to prevent osmotic diarrhoea).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Clinical Evidence</h3>
+          <table class="data-table">
+            <tr><th>Trial / Evidence</th><th>Design</th><th>Key Result</th><th>GRADE</th></tr>
+            <tr>
+              <td><strong>Magpie Trial (2002)</strong><br>Eclampsia prevention</td>
+              <td>RCT; n=10,141 women with pre-eclampsia; IV MgSO&#x2084; vs. placebo</td>
+              <td class="trial-result">MgSO&#x2084; &#x2192; 58% &#x2193; eclamptic seizures (RR 0.42; 95% CI 0.29&#x2013;0.60). Trend towards &#x2193; maternal mortality. First-line standard of care globally for severe pre-eclampsia/eclampsia seizure prevention.</td>
+              <td><span class="badge badge-hi">High (Grade A)</span></td>
+            </tr>
+            <tr>
+              <td><strong>Torsades de Pointes</strong><br>(consensus / case series)</td>
+              <td>Clinical consensus; multiple case series</td>
+              <td class="trial-result">IV MgSO&#x2084; (1&#x2013;2 g over 1&#x2013;2 min) is first-line treatment for torsades de pointes, effective even when serum Mg is normal. Mechanism: QTc shortening via Ca&#x00B2;&#x207A; channel blockade, &#x2193;EADs.</td>
+              <td><span class="badge badge-hi">High (consensus/standard care)</span></td>
+            </tr>
+            <tr>
+              <td><strong>Migraine Prevention</strong><br>(multiple RCTs; AAN review)</td>
+              <td>Multiple RCTs (400&#x2013;600 mg/day Mg oxide or citrate); AAN/AHS evidence review</td>
+              <td class="trial-result">Mg supplementation &#x2192; ~40&#x2013;50% &#x2193; migraine frequency vs. placebo. AAN/AHS rates as &#x201C;probably effective&#x201D; (Grade B). Effect strongest in migraineurs with aura (documented low brain Mg&#x00B2;&#x207A; by &#x00B3;&#x00B9;P-MRS).</td>
+              <td><span class="badge badge-mod">Moderate (Grade B)</span></td>
+            </tr>
+            <tr>
+              <td><strong>Type 2 Diabetes</strong><br>(prospective cohorts + RCTs)</td>
+              <td>Prospective cohorts; RCTs of Mg supplementation in T2DM/pre-DM</td>
+              <td class="trial-result">Highest vs. lowest Mg intake: ~15&#x2013;20% &#x2193; T2DM incidence in prospective cohorts. RCTs: &#x2193;HOMA-IR and &#x2193;fasting glucose in Mg-deficient subjects. Confounding cannot be fully excluded in observational data.</td>
+              <td><span class="badge badge-mod">Moderate (observational + RCT)</span></td>
+            </tr>
+          </table>
+          <div class="principle-box">
+            <p><strong>Evidence principle:</strong> IV MgSO&#x2084; has the strongest evidence in acute hospital medicine &#x2014; <strong>Grade A for eclampsia</strong> (Magpie trial) and <strong>consensus first-line for torsades de pointes</strong>. For oral supplementation, migraine prevention is the best-supported indication (AAN Grade B). The widespread subclinical deficiency (50% of US adults) and magnesium&#x2019;s role in &gt;300 enzymatic reactions support optimising dietary intake even absent overt deficiency symptoms. Critical assessment limitation: <strong>serum Mg is insensitive</strong> &#x2014; a normal serum level does not exclude cellular magnesium depletion.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Deficiency &amp; Excess</h3>
+          <table class="data-table">
+            <tr><th>Status</th><th>Signs &amp; Symptoms</th><th>Lab Marker</th><th>Threshold</th></tr>
+            <tr>
+              <td><strong>Subclinical deficiency</strong><br>(most common; normal serum Mg)</td>
+              <td>Fatigue, muscle cramps, impaired exercise performance, insomnia, anxiety, mild hypertension, &#x2191;migraine frequency; links to T2DM and CVD in epidemiological data</td>
+              <td>Serum Mg (insensitive); RBC Mg (more sensitive); 24-hr urinary Mg (&lt;24 mg/day suggests deficiency); Mg loading test (retention &gt;50% after IV load suggests cellular deficiency)</td>
+              <td>Serum Mg may be normal despite 30&#x2013;50% body depletion</td>
+            </tr>
+            <tr>
+              <td><strong>Clinical hypomagnesaemia</strong></td>
+              <td>Muscle weakness, tremor, tetany (hypocalcaemia secondary to impaired PTH secretion), ventricular arrhythmias (torsades), seizures, personality changes; often co-exists with hypokalaemia (Mg required for K&#x207A; reabsorption)</td>
+              <td>Serum Mg &lt;0.75 mmol/L; ECG (QTc prolongation, flattened T waves)</td>
+              <td>Serum Mg &lt;0.75 mmol/L; severe &lt;0.5 mmol/L</td>
+            </tr>
+            <tr>
+              <td><strong>Adequate</strong></td>
+              <td>Normal neuromuscular function, cardiac rhythm, blood pressure, insulin sensitivity</td>
+              <td>Serum Mg 0.75&#x2013;1.05 mmol/L</td>
+              <td>RDA 310&#x2013;420 mg/day</td>
+            </tr>
+            <tr>
+              <td><strong>Hypermagnesaemia</strong><br>(almost always iatrogenic)</td>
+              <td>Mild: nausea, flushing, &#x2193;BP. Moderate: loss of deep tendon reflexes (Mg ~4&#x2013;5 mmol/L). Severe: respiratory paralysis, cardiac arrest (Mg &gt;6&#x2013;7 mmol/L). Almost exclusively from IV MgSO&#x2084; therapy or renal failure + Mg supplementation.</td>
+              <td>Serum Mg; clinical monitoring of DTRs and respiratory rate during IV therapy</td>
+              <td>Toxicity threshold ~2.5 mmol/L (serum); DTR loss ~4 mmol/L; respiratory arrest ~6 mmol/L. Calcium gluconate is the antidote (IV Ca&#x00B2;&#x207A; antagonises Mg&#x00B2;&#x207A; effects).</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Connections</h3>
+          <div class="connections">
+            <a href="cardiovascular-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Cardiovascular System
+            </a>
+            <a href="nervous-system.html" class="conn-pill">
+              <span class="rel">Modulates</span>
+              Nervous System
+            </a>
+            <a href="atp.html" class="conn-pill targets">
+              <span class="rel">Modulates</span>
+              ATP
+            </a>
+            <a href="magnesium.html" class="conn-pill targets">
+              <span class="rel">Part-of</span>
+              Magnesium (Atomic)
+            </a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
           <ul class="refs">
-            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
-            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
-            <li><a href="https://doi.org/10.1152/physrev.00012.2014" target="_blank" rel="noopener noreferrer">de Baaij JH, Hoenderop JG, Bindels RJ. Magnesium in man: implications for health and disease. Physiol Rev. 2015;95(1):1-46.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25540137/" target="_blank" rel="noopener noreferrer">PubMed 25540137</a></li>
-            <li><a href="https://doi.org/10.1111/j.1753-4887.2011.00465.x" target="_blank" rel="noopener noreferrer">Rosanoff A, Weaver CM, Rude RK. Suboptimal magnesium status in the United States: are the health consequences underestimated? Nutr Rev. 2012;70(3):153-64.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22364157/" target="_blank" rel="noopener noreferrer">PubMed 22364157</a></li>
+            <li>de Baaij JH, Hoenderop JG, Bindels RJ. Magnesium in man: implications for health and disease. <em>Physiol Rev.</em> 2015;95(1):1-46. <a href="https://doi.org/10.1152/physrev.00012.2014" target="_blank" rel="noopener noreferrer">doi:10.1152/physrev.00012.2014</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25540137/" target="_blank" rel="noopener noreferrer">PubMed 25540137</a></li>
+            <li>Rosanoff A, Weaver CM, Rude RK. Suboptimal magnesium status in the United States: are the health consequences underestimated? <em>Nutr Rev.</em> 2012;70(3):153-64. <a href="https://doi.org/10.1111/j.1753-4887.2011.00465.x" target="_blank" rel="noopener noreferrer">doi:10.1111/j.1753-4887.2011.00465.x</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22364157/" target="_blank" rel="noopener noreferrer">PubMed 22364157</a></li>
+            <li>Altman D, Carroli G, Duley L, et al. Do women with pre-eclampsia, and their babies, benefit from magnesium sulphate? The Magpie Trial: a randomised placebo-controlled trial. <em>Lancet.</em> 2002;359(9321):1877-90. <a href="https://doi.org/10.1016/S0140-6736(02)08778-0" target="_blank" rel="noopener noreferrer">doi:10.1016/S0140-6736(02)08778-0</a></li>
+            <li>Peikert A, Wilimzig C, K&#xF6;hne-Volland R. Prophylaxis of migraine with oral magnesium: results from a prospective, multi-center, placebo-controlled and double-blind randomized study. <em>Cephalalgia.</em> 1996;16(4):257-63. <a href="https://doi.org/10.1046/j.1468-2982.1996.1604257.x" target="_blank" rel="noopener noreferrer">doi:10.1046/j.1468-2982.1996.1604257.x</a></li>
+            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. Chapter on metal ions in enzyme catalysis and Mg-ATP.</li>
+            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Chapters on mineral homeostasis and renal tubular transport.</li>
           </ul>
         </div>
 
@@ -184,17 +389,19 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &#x2014; an open, free, multi-scale model of human biology and medicine.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="pathogens.html">Pathogens</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="medicine.html">Medicine Atlas</a>
+      <a href="sulforaphane.html">Sulforaphane</a>
+      <a href="vitamin-d.html">Vitamin D</a>
+      <a href="dietary-fiber.html">Dietary Fiber</a>
+      <a href="zinc-dietary.html">Zinc</a>
+      <a href="https://github.com/bpupadhyaya/human-engineering" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
