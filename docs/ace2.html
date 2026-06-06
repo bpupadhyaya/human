@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ACE2 (Angiotensin-Converting Enzyme 2) — structure, RAAS counter-regulation, SARS-CoV-2 binding interface, viral downregulation, and soluble ACE2 as a therapeutic decoy. Human Engineering Atlas.">
+  <meta property="og:title" content="ACE2 — Molecular Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>ACE2 — Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff0f0 0%,#fef2f2 40%,#ffffff 100%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="spike-protein.html">Spike Protein</a>
+      <a href="covid-19-disease.html">COVID-19</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">L02 Molecular &middot; Receptor &middot; RAAS &middot; Cardiovascular</p>
+    <h1><span>ACE2</span> Receptor</h1>
+    <p class="hero-lead">Angiotensin-converting enzyme 2 is a type I transmembrane carboxypeptidase and the primary SARS-CoV-2 entry receptor. In homeostasis it counter-regulates the renin&ndash;angiotensin&ndash;aldosterone system (RAAS) by cleaving Ang II to the vasodilatory peptide Ang(1&ndash;7). Its viral hijacking by SARS-CoV-2 simultaneously enables cell entry and depletes a protective enzyme, creating a molecular paradox at the heart of COVID-19 lung pathophysiology.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Gene: ACE2 (Xp22.2)</span>
+  <span>Protein: 805 aa, ~92 kDa (glycosylated ~120 kDa)</span>
+  <span>UniProt: Q9BYF1</span>
+  <span>Chromosome: X (PAR1-proximal)</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="structure">
+    <h2>Protein Structure</h2>
+    <p>ACE2 is a <strong>type I transmembrane protein</strong> with a single-pass topology: a large N-terminal extracellular ectodomain (~740 aa), a single transmembrane helix (~21 aa), and a short intracellular C-terminal tail (~44 aa). It is the closest homolog of <strong>ACE</strong> (angiotensin-converting enzyme, a dipeptidyl carboxypeptidase/zinc metalloprotease) but has critically different enzymatic properties: while ACE has two active sites (N- and C-domain), ACE2 has <strong>only one active catalytic site</strong> in its ectodomain. ACE2 functions as a <em>monocarboxypeptidase</em>, removing a single C-terminal residue from its substrates, unlike the dipeptidyl activity of canonical ACE.</p>
+    <p>The active site contains the canonical zinc metalloprotease <strong>HEXXH motif</strong> (H374-E375-X-X-H378 in human ACE2), in which two histidines coordinate the zinc ion essential for catalysis and glutamate acts as the general base. The catalytic domain folds into two lobes that open and close around the substrate, a mechanism shared with ACE and the bacterial angiotensin-homolog thermolysin (carboxypeptidase B-like fold).</p>
+    <h3>Glycosylation</h3>
+    <p>ACE2 is heavily N-glycosylated; seven experimentally validated N-linked glycosylation sites are located in the ectodomain: <strong>N90, N103, N322, N432, N546, and N690</strong> (and the site at N53 in some annotations). Glycosylation is important for:</p>
+    <ul>
+      <li>Correct protein folding and ER quality control</li>
+      <li>Cell surface trafficking and stability</li>
+      <li>Modulating shedding efficiency by ADAM17 — glycans near the cleavage site (K716&ndash;R717 region) influence protease accessibility</li>
+      <li>Partially shielding the receptor from SARS-CoV-2 spike contact: N90 glycan on ACE2 projects toward the spike RBD interface but does not sterically block binding</li>
+    </ul>
+    <h3>Collectrin Domain and Dimerisation</h3>
+    <p>The C-terminal portion of the ACE2 ectodomain (residues ~616&ndash;740) is homologous to <strong>collectrin</strong>, a kidney-specific type I transmembrane protein that acts as a chaperone for amino acid transporters. The collectrin-like domain mediates homodimerisation of ACE2 on the cell surface and also supports its function as a <strong>chaperone for B(0)AT1</strong> (SLC6A19, the neutral amino acid transporter) in the small intestine and kidney. The cryo-EM structure of the ACE2–B0AT1 complex (Yan et al., <em>Science</em> 2020) revealed a 2:2 heterotetramer, providing structural insight into ACE2 dimerization relevant to understanding spike binding geometry.</p>
+    <h3>Shedding by ADAM17/TACE</h3>
+    <p>The ectodomain of ACE2 is shed from the cell surface by <strong>ADAM17</strong> (a disintegrin and metalloproteinase 17, also called TACE), generating soluble ACE2 (sACE2) detectable in plasma and bronchoalveolar fluid. The cleavage site is located just proximal to the transmembrane domain. ADAM17-mediated shedding is enhanced by several stimuli including lipopolysaccharide, angiotensin II itself, and certain cytokines — creating a potential feedback loop between RAAS activation and ACE2 regulation. Soluble ACE2 retains enzymatic activity and can still bind SARS-CoV-2 spike protein, forming the basis for recombinant sACE2 therapeutic strategies.</p>
+  </div>
+
+  <div class="section" id="raas">
+    <h2>Physiological Function: RAAS Counter-Regulation</h2>
+    <p>The renin&ndash;angiotensin&ndash;aldosterone system (RAAS) is the principal long-term regulator of blood pressure, fluid volume, and electrolyte homeostasis. ACE is the classical arm: it cleaves Ang I (10 aa) → Ang II (8 aa) by removing the C-terminal dipeptide. Ang II acts on AT1R (angiotensin type 1 receptor) to cause vasoconstriction, sodium retention, aldosterone secretion, and pro-inflammatory/pro-fibrotic signalling.</p>
+    <p>ACE2 is the <strong>counter-regulatory arm</strong>:</p>
+    <ul>
+      <li><strong>ACE2 cleaves Ang II → Ang(1&ndash;7)</strong> (removing the C-terminal phenylalanine). Ang(1&ndash;7) then acts on the <strong>Mas receptor</strong> (MasR, a G protein-coupled receptor encoded by the <em>MAS1</em> proto-oncogene), producing vasodilation, anti-fibrotic effects, anti-inflammation, and reduction of oxidative stress — directly opposing AT1R signalling.</li>
+      <li><strong>ACE2 also cleaves Ang I → Ang(1&ndash;9)</strong> (removing the C-terminal leucine). Ang(1&ndash;9) can then be processed by ACE to form Ang(1&ndash;7). This route is a quantitatively minor contribution compared to direct Ang II cleavage.</li>
+    </ul>
+    <p>The net result is that ACE2 shifts the RAAS balance away from Ang II/AT1R-mediated vasoconstriction, injury, and inflammation toward Ang(1&ndash;7)/MasR-mediated protection. This makes ACE2 expression level a critical determinant of organ susceptibility to RAAS-mediated injury in hypertension, heart failure, CKD, and ALI/ARDS.</p>
+    <h3>Tissue Expression</h3>
+    <table>
+      <thead>
+        <tr><th>Tissue / Cell Type</th><th>ACE2 Expression Level</th><th>Functional Significance</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lung type II alveolar cells (AT2)</td>
+          <td>High</td>
+          <td>Primary site of SARS-CoV-2 initial infection; ACE2 downregulation here directly exacerbates Ang II&ndash;mediated ALI</td>
+        </tr>
+        <tr>
+          <td>Small intestinal enterocytes (ileum &gt; jejunum)</td>
+          <td>Very high</td>
+          <td>B0AT1 chaperone function; possible route of SARS-CoV-2 GI infection and fecal&ndash;oral transmission</td>
+        </tr>
+        <tr>
+          <td>Renal proximal tubule epithelium</td>
+          <td>High</td>
+          <td>Local RAAS regulation; AKI susceptibility in COVID-19</td>
+        </tr>
+        <tr>
+          <td>Cardiac pericytes and cardiomyocytes</td>
+          <td>Moderate</td>
+          <td>Cardioprotection via Ang(1&ndash;7)/MasR; myocarditis risk in SARS-CoV-2</td>
+        </tr>
+        <tr>
+          <td>Testis (Leydig and Sertoli cells)</td>
+          <td>High</td>
+          <td>Local function incompletely characterised; concerns for male fertility post-COVID-19 (evidence mixed)</td>
+        </tr>
+        <tr>
+          <td>Vascular endothelium</td>
+          <td>Low&ndash;moderate</td>
+          <td>Endothelial dysfunction and endotheliitis in severe COVID-19</td>
+        </tr>
+        <tr>
+          <td>Nasal goblet and ciliated cells</td>
+          <td>High (co-expressed with TMPRSS2)</td>
+          <td>Primary site of SARS-CoV-2 upper airway infection; Omicron's tropism shift here underpins lower severity</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="sars-binding">
+    <h2>SARS-CoV-2 Binding Interface</h2>
+    <p>The receptor-binding domain (RBD) of SARS-CoV-2 spike directly contacts the ACE2 ectodomain in an extensive protein&ndash;protein interface spanning ~1700 &Aring;<sup>2</sup> of buried surface area. The high-resolution crystal structure (Lan et al., <em>Nature</em> 2020; PDB 6M0J) resolved the atomic contacts at the interface.</p>
+    <h3>Key Contact Residues</h3>
+    <table>
+      <thead>
+        <tr><th>Spike RBD Residue</th><th>ACE2 Residue(s) Contacted</th><th>Interaction Type</th><th>Variant Impact</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>F486</strong></td>
+          <td>L79, M82, Y83</td>
+          <td>Hydrophobic pocket insertion; van der Waals</td>
+          <td>F486P (XBB.1.5) unexpectedly maintains ACE2 affinity; F486V in BA.2</td>
+        </tr>
+        <tr>
+          <td><strong>N501</strong></td>
+          <td>Y41, K353</td>
+          <td>Hydrogen bond (N501 to Y41); &pi;&ndash;cation stacking via K353</td>
+          <td>N501Y (Alpha, Beta, Delta, all Omicron): enhanced van der Waals with Y41; ~5&ndash;10&times; ACE2 affinity gain</td>
+        </tr>
+        <tr>
+          <td><strong>K417</strong></td>
+          <td>D30</td>
+          <td>Salt bridge (K417 with D30)</td>
+          <td>K417N/T in Beta, Delta, Omicron: loss of salt bridge → reduced ACE2 affinity but concomitant antibody evasion is net advantageous for virus</td>
+        </tr>
+        <tr>
+          <td><strong>E484</strong></td>
+          <td>K31, E35</td>
+          <td>Electrostatic; salt bridge network</td>
+          <td>E484K (Beta, Gamma) improves this contact; E484A (Omicron BA.1) reduces it; class III antibody escape</td>
+        </tr>
+        <tr>
+          <td><strong>Q493</strong></td>
+          <td>E35, K31</td>
+          <td>Hydrogen bonds</td>
+          <td>Q493R (Omicron BA.1): positive charge improves contact with E35; contributes to higher Omicron ACE2 affinity</td>
+        </tr>
+        <tr>
+          <td><strong>Q498</strong></td>
+          <td>Q42, K353, D38</td>
+          <td>Hydrogen bond network</td>
+          <td>Q498R (Omicron): &pi;&ndash;cation with Y41; part of Omicron's cumulative affinity gain</td>
+        </tr>
+        <tr>
+          <td><strong>Y505</strong></td>
+          <td>R393</td>
+          <td>Hydrogen bond and hydrophobic</td>
+          <td>Conserved across most variants; Y505H in Omicron BA.1</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>The cumulative effect of Omicron BA.1 RBD mutations at the ACE2 interface yields a binding affinity of <strong>K<sub>d</sub> ~15 nM</strong> for SARS-CoV-2 (original strain), approximately 10&ndash;20-fold stronger than SARS-CoV-1 RBD (&gt;200 nM), which helps explain the greater human transmissibility of SARS-CoV-2 from the outset.</p>
+    <h3>TMPRSS2 Priming</h3>
+    <p>ACE2 binding alone is insufficient for efficient cell entry. <strong>TMPRSS2</strong> (transmembrane serine protease 2), co-expressed with ACE2 on many respiratory epithelial cells, cleaves the spike S2&prime; site after RBD/ACE2 engagement, liberating the fusion peptide and enabling cell-surface membrane fusion. In cells lacking TMPRSS2, the virus can use the endosomal cathepsin L/B route, but this is less efficient in lung cells. The combined expression of ACE2 + TMPRSS2 defines the most permissive cells for SARS-CoV-2 infection <em>in vivo</em>.</p>
+  </div>
+
+  <div class="section" id="downregulation">
+    <h2>Viral Downregulation of ACE2 and the ACE2 Paradox</h2>
+    <p>After SARS-CoV-2 spike binds ACE2, the spike&ndash;ACE2 complex is internalised into endosomes. This <strong>receptor-mediated endocytosis</strong> removes ACE2 from the cell surface, reducing its enzymatic availability. Additionally, viral replication impairs ACE2 expression at the transcriptional and post-translational level. The net result is a significant reduction in surface ACE2 in infected cells and, during high viral burden, across the alveolar epithelium.</p>
+    <p>This creates the <strong>"ACE2 paradox"</strong>: ACE2 is the host entry receptor exploited by SARS-CoV-2, yet it simultaneously serves a protective function. Its depletion leads to:</p>
+    <ul>
+      <li><strong>Ang II accumulation</strong> in the lung (reduced cleavage by ACE2) → AT1R signalling → increased vascular permeability, NLRP3 inflammasome activation, cytokine production, and lung fibrosis</li>
+      <li><strong>Reduced Ang(1&ndash;7)</strong> → loss of MasR-mediated vasodilation and anti-inflammatory signalling</li>
+      <li>Both changes amplify ARDS pathophysiology — a "second hit" beyond direct viral cytopathic effect</li>
+    </ul>
+    <p>This mechanism was first proposed by Kuba et al. (<em>Nature Medicine</em> 2005) for SARS-CoV-1 and validated experimentally using <em>Ace2</em>-knockout mice, which developed more severe lung injury with ALI induction; recombinant ACE2 treatment was protective. Subsequent clinical correlations in COVID-19 showed lower plasma ACE2 activity in severely ill patients.</p>
+    <div class="callout"><strong>ACE inhibitors and ARBs:</strong> Early concern that ACE inhibitors (ACEi) and ARBs might upregulate ACE2 and increase COVID-19 susceptibility was not borne out in clinical studies. Multiple large observational studies and randomised trials (e.g., REPLACE COVID) showed no increased risk or harm from continuing ACEi/ARB therapy during SARS-CoV-2 infection; discontinuation is not recommended.</div>
+  </div>
+
+  <div class="section" id="soluble">
+    <h2>Soluble ACE2 as a Therapeutic Decoy</h2>
+    <p>Since SARS-CoV-2 spike binds ACE2 with high affinity, soluble recombinant ACE2 can act as a <strong>decoy receptor</strong> — sequestering spike protein before it can engage cell-surface ACE2 — while simultaneously retaining enzymatic activity that would restore Ang II cleavage and reduce lung injury signalling.</p>
+    <p><strong>APN01</strong> (recombinant human ACE2, rhACE2; APEIRON Biologics) completed a Phase II randomised controlled trial (APACE) in hospitalised COVID-19 patients. Results showed faster viral clearance and a significant reduction in plasma IL-6 in the rhACE2 arm, with a favourable safety profile. Phase III development continued in 2022&ndash;2023.</p>
+    <p>Cross-species susceptibility to SARS-CoV-2 is largely determined by ACE2 ortholog compatibility. Structural modelling and ACE2 sequence comparisons across >50 vertebrate species show that the residues K31, E35, E37, D38, Y41, Q42, and K353 in the spike-binding hotspot residues 1 and 2 determine whether a given species' ACE2 supports spike binding. Mink, cats, golden Syrian hamsters, ferrets, and many non-human primates (NHPs) express ACE2 orthologs compatible with SARS-CoV-2 binding — consistent with documented spillover events. Human D30 and K31, together with Y41, form the critical hotspot.</p>
+    <p>ACE2 is encoded on the <strong>X chromosome</strong> (Xp22.2, within the pseudoautosomal region boundary). Common ACE2 coding variants (e.g., D30E, H34R in non-human primates) can alter spike-binding affinity. Genome-wide association studies have not identified ACE2 variants strongly associated with COVID-19 severity in humans, suggesting that baseline ACE2 expression level (regulated by sex hormones, tissue context, comorbidities) rather than coding variants is the dominant modulator of disease.</p>
+  </div>
+
+  <div class="section" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">bound by</span><span><a href="spike-protein.html">SARS-CoV-2 Spike Protein</a> &mdash; RBD residues F486/N501/K417/E484/Q493 contact ACE2 K31/E35/E37/D38/Y41/Q42; Kd ~15 nM; molecular basis of SARS-CoV-2 receptor tropism and variant evolution</span></li>
+      <li><span class="conn-rel">disease</span><span><a href="covid-19-disease.html">COVID-19</a> &mdash; ACE2 downregulation by spike binding amplifies ARDS via Ang II accumulation; ACE2 is the molecular fulcrum of COVID-19 pathophysiology</span></li>
+      <li><span class="conn-rel">counter-regulates</span><span><a href="hypertension.html">Hypertension</a> &mdash; ACE2 metabolises Ang II → Ang(1&ndash;7) → MasR vasodilation; reduced ACE2 activity contributes to hypertensive organ injury; ACEi/ARB therapy context</span></li>
+      <li><span class="conn-rel">downstream</span><span><a href="aldosterone.html">Aldosterone</a> &mdash; Ang II drives aldosterone synthesis via adrenal AT1R; ACE2 limits Ang II bioavailability and therefore aldosterone-mediated sodium retention and fibrosis</span></li>
+      <li><span class="conn-rel">primary site</span><span><a href="lung-alveolus.html">Lung Alveolus</a> &mdash; AT2 cells express the highest ACE2 + TMPRSS2 in the respiratory tract; alveolar ACE2 depletion by SARS-CoV-2 drives DAD and ARDS</span></li>
+      <li><span class="conn-rel">related organ</span><span><a href="ckd.html">Chronic Kidney Disease</a> &mdash; renal proximal tubule expresses high ACE2; AKI is common in severe COVID-19; CKD alters RAAS and ACE2 expression; ACEi/ARB nephroprotection is linked to ACE2/RAAS balance</span></li>
+    </ul>
+  </div>
+
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>Lan J, Ge J, Yu J, et al. Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor. <em>Nature.</em> 2020;581(7807):215&ndash;220. doi:10.1038/s41586-020-2180-5</li>
+      <li>Yan R, Zhang Y, Li Y, Xia L, Guo Y, Zhou Q. Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2. <em>Science.</em> 2020;367(6485):1444&ndash;1448. doi:10.1126/science.abb2762</li>
+      <li>Kuba K, Imai Y, Rao S, et al. A crucial role of angiotensin converting enzyme 2 (ACE2) in SARS coronavirus&ndash;induced lung injury. <em>Nat Med.</em> 2005;11(8):875&ndash;879. doi:10.1038/nm1267</li>
+      <li>Tipnis SR, Hooper NM, Hyde R, Karran E, Christie G, Turner AJ. A human homolog of angiotensin-converting enzyme. Cloning and functional expression as a captopril-insensitive carboxypeptidase. <em>J Biol Chem.</em> 2000;275(43):33238&ndash;33243. doi:10.1074/jbc.M002615200</li>
+      <li>Monteil V, Kwon H, Prado P, et al. Inhibition of SARS-CoV-2 infections in engineered human tissues using clinical-grade soluble human ACE2. <em>Cell.</em> 2020;181(4):905&ndash;913. doi:10.1016/j.cell.2020.04.004</li>
+      <li>Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor. <em>Cell.</em> 2020;181(2):271&ndash;280. doi:10.1016/j.cell.2020.02.052</li>
+      <li>Kruse RL. Therapeutic strategies in an outbreak scenario to treat the novel coronavirus originating in Wuhan, China. <em>F1000Res.</em> 2020;9:72. doi:10.12688/f1000research.22211.2</li>
+      <li>de Abajo FJ, Rodríguez-Martín S, Lerma V, et al. Use of renin&ndash;angiotensin&ndash;aldosterone system inhibitors and risk of COVID-19 requiring admission to hospital. <em>Lancet.</em> 2020;395(10238):1705&ndash;1714. doi:10.1016/S0140-6736(20)31030-8</li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p>Human Engineering &mdash; Open knowledge atlas at <a href="https://equalinformation.com/human">equalinformation.com/human</a>.<br>
+  Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:.6rem">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. <strong>Not medical advice.</strong> For research and educational use only.</p>
+  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+</footer>
+
+</body>
+</html>

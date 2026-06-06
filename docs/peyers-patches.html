@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Peyer's Patches — aggregated lymphoid follicles in the ileal submucosa. M cells, antigen sampling, IgA generation, oral tolerance, mucosal immunity, and pathogen entry. Human Engineering Atlas.">
+  <meta property="og:title" content="Peyer's Patches — Cellular/Tissue Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Peyer&rsquo;s Patches — Cellular/Tissue Atlas · Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#16a34a;--accent-soft:rgba(22,163,74,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#f0fdf4 0%,#dcfce7 40%,#ffffff 80%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    .diagram{background:var(--bg-3);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:1.2rem 1.4rem;overflow-x:auto;margin:1rem 0}
+    .diagram pre{font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:.8rem;line-height:1.65;color:var(--fg-soft)}
+    .stat-row{display:flex;gap:2rem;flex-wrap:wrap;margin:1.25rem 0}
+    .stat{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.75rem 1rem;min-width:130px}
+    .stat-num{font-size:1.35rem;font-weight:800;color:var(--accent);line-height:1}
+    .stat-label{font-size:.72rem;color:var(--muted);margin-top:.25rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+    @media(max-width:600px){.two-col{grid-template-columns:1fr}}
+    .card-sm{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.9rem 1rem}
+    .card-sm h4{font-size:.88rem;font-weight:700;color:var(--fg);margin-bottom:.35rem}
+    .card-sm p{font-size:.84rem;color:var(--muted);line-height:1.55;margin:0}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="gut-microbiome.html">Gut Microbiome</a>
+      <a href="secretory-iga.html">Secretory IgA</a>
+      <a href="immune-system.html">Immune System</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Cellular / Tissue Atlas &middot; L04 Cellular/Tissue &middot; GALT &middot; Mucosal Immunology</div>
+    <h1>Peyer&rsquo;s <span>Patches</span></h1>
+    <p class="hero-lead">Aggregated lymphoid follicles embedded in the ileal submucosa &mdash; the primary sites of mucosal antigen surveillance and intestinal IgA induction. Peyer&rsquo;s patches continuously sample luminal contents via specialized M cells, initiating adaptive immune responses that govern gut homeostasis, oral tolerance, and defence against enteric pathogens.</p>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num">~30&ndash;40</div><div class="stat-label">Peyer&rsquo;s patches in adult humans</div></div>
+      <div class="stat"><div class="stat-num">10&ndash;15 g/day</div><div class="stat-label">Secretory IgA produced (gut)</div></div>
+      <div class="stat"><div class="stat-num">~5% FAE</div><div class="stat-label">M cells among FAE enterocytes</div></div>
+      <div class="stat"><div class="stat-num">&gt; 10<sup>11</sup></div><div class="stat-label">IgA plasma cells in gut lamina propria</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Scale: <strong>L04 Cellular / Tissue</strong></span>
+  <span>System: <strong>Gastrointestinal / Immune</strong> &mdash; GALT</span>
+  <span>Type: <strong>Secondary lymphoid organ (mucosal)</strong></span>
+  <span>Location: <strong>Ileal submucosa</strong> (small intestine)</span>
+</div>
+
+<div class="content">
+
+  <!-- OVERVIEW -->
+  <div class="section">
+    <h2>Overview</h2>
+    <p>Peyer&rsquo;s patches (PPs) are the principal organized component of gut-associated lymphoid tissue (GALT), forming dome-shaped aggregates of lymphoid follicles beneath the follicle-associated epithelium (FAE) of the terminal ileum. They are named after the Swiss anatomist Johann Conrad Peyer who described them in 1677. In humans, approximately 30&ndash;40 Peyer&rsquo;s patches develop along the anti-mesenteric wall of the ileum, with the density greatest in the terminal ileum.</p>
+    <p>Unlike peripheral lymph nodes, Peyer&rsquo;s patches lack afferent lymphatics &mdash; they have no incoming lymphatic vessels. Instead, luminal antigens are delivered directly through the overlying FAE, principally via specialized <strong>microfold (M) cells</strong> that constitutively transcytose particles, microorganisms, and soluble antigens from the intestinal lumen into the subepithelial dome (SED). This makes Peyer&rsquo;s patches the primary inductive site for intestinal IgA responses.</p>
+    <p>The functional output of the Peyer&rsquo;s patch GC reaction is a continuous stream of IgA<sup>+</sup> B cells that upregulate the gut-homing integrin <strong>&alpha;4&beta;7</strong> and chemokine receptor <strong>CCR9</strong>, exit via efferent lymphatics, transit through mesenteric lymph nodes (MLN) and the thoracic duct into blood, and home to the small intestinal lamina propria where they terminally differentiate into IgA-secreting plasma cells. These plasma cells produce the bulk of the body&rsquo;s ~10&ndash;15 g/day of secretory IgA.</p>
+  </div>
+
+  <!-- ANATOMY AND MICROSTRUCTURE -->
+  <div class="section">
+    <h2>Anatomy and Microstructure</h2>
+
+    <h3>Zonal organization</h3>
+    <p>Each Peyer&rsquo;s patch is organized into three distinct anatomical zones that recapitulate &mdash; but are more complex than &mdash; the B cell follicle/T cell zone organization of peripheral lymph nodes:</p>
+    <ul>
+      <li><strong>Follicle-associated epithelium (FAE):</strong> a monolayer of enterocytes interspersed with M cells (&sim;5&ndash;10% of FAE cells) that overlies the subepithelial dome. FAE lacks the villus/crypt structure of adjacent absorptive epithelium; enterocytes here have shorter microvilli and reduced mucus production, facilitating direct contact between luminal contents and M cell apical surfaces. The basal surface of the FAE is not separated from the SED by a basement membrane &mdash; immune cells can directly contact the epithelium.</li>
+      <li><strong>Subepithelial dome (SED):</strong> immediately beneath the FAE, the SED contains a dense population of macrophages, conventional dendritic cells (cDC1 CD103<sup>+</sup>CX3CR1<sup>lo</sup> and cDC2), B cells, T cells, and NK cells. Antigens transcytosed by M cells are deposited here and sampled by antigen-presenting cells (APCs). DCs in the SED can extend dendrites through M cell channels directly into the lumen, a more active sampling mechanism paralleling the CX3CR1<sup>+</sup> macrophage transepithelial dendrites in the villous epithelium.</li>
+      <li><strong>Germinal centers (GC zone):</strong> beneath the SED lie the organized lymphoid follicles containing B cell zones with active germinal centers, surrounded by mantle zones of naive IgM<sup>+</sup>IgD<sup>+</sup> B cells. T cell zones (interfollicular areas) containing CD4<sup>+</sup> T cells, including Tfh cells, are located between follicles. Efferent lymphatics collect activated lymphocytes and carry them to draining mesenteric lymph nodes.</li>
+    </ul>
+
+    <div class="diagram">
+<pre>
+  ───────────── INTESTINAL LUMEN ─────────────
+        bacteria, antigens, particles
+                    │
+  ══════════════════╪════════════════════════ FAE
+       M cell        enterocytes (short microvilli)
+  (basolateral pocket
+   with lymphocytes)
+            │
+  ──────────▼───────────────────────────────── SED
+   Macrophages, cDC1, cDC2, B cells, T cells
+   Antigen deposited → DC capture → pMHCII
+            │
+  ──────────▼───────────────────────────────── FOLLICLE
+   B cell zone: germinal center (dark + light zone)
+   Tfh cells in interfollicular T zone
+   IgA CSR: TGF-β + IL-10 → Sα germline transcripts
+            │
+  ──────────▼───────────────────────────────── EXIT
+   IgA+ B cells (α4β7+ CCR9+) → efferent lymphatics
+           → MLN → thoracic duct → blood
+           → homing to lamina propria → sIgA secretion
+</pre>
+    </div>
+
+    <h3>Absence of afferent lymphatics</h3>
+    <p>The absence of incoming lymphatics is a key anatomical distinction from peripheral lymph nodes. Peyer&rsquo;s patches are inductive sites that receive antigen solely from the lumen via M cell transcytosis &mdash; they are not downstream recipients of lymph-borne antigen from peripheral tissues. This topology means Peyer&rsquo;s patches respond specifically to luminal (gut-derived) antigens, making them ideally suited to calibrate mucosal immunity to the constant antigenic challenge from food proteins, commensal microbiota, and pathogens.</p>
+  </div>
+
+  <!-- M CELL BIOLOGY -->
+  <div class="section">
+    <h2>M Cell Biology</h2>
+
+    <h3>Morphology and the basolateral pocket</h3>
+    <p><strong>Microfold (M) cells</strong> are highly specialized epithelial cells uniquely adapted for transcytosis rather than absorption. Their defining morphological feature is the <strong>basolateral pocket</strong> &mdash; a deep invagination of the basolateral membrane that houses lymphocytes (B cells, T cells) and macrophages in intimate apposition to the transcytotic machinery. This architecture minimizes the distance antigens must travel after transcytosis before encountering immune cells. M cells have sparse, irregular microvilli (hence &ldquo;microfold&rdquo;) on the apical surface, a thin glycocalyx (compared to absorptive enterocytes), and a reduced mucus coat, all facilitating direct contact with luminal particles.</p>
+
+    <h3>Transcytosis mechanism</h3>
+    <p>M cells constitutively transcytose luminal contents without prior activation &mdash; they continuously sample the intestinal lumen regardless of the nature of the antigen. The transcytotic route is:</p>
+    <ol>
+      <li><strong>Apical binding:</strong> antigen or particle adsorbs to M cell apical surface via specific receptors or non-specifically via charge/hydrophobic interactions</li>
+      <li><strong>Macropinocytosis / endocytosis:</strong> M cells take up material via clathrin-mediated endocytosis, macropinocytosis, and phagocytosis (for large particles including bacteria up to 10 &mu;m)</li>
+      <li><strong>Vesicular transport:</strong> endocytic vesicles bypass the endo-lysosomal degradation pathway (unlike conventional enterocytes) and are transported across the cell intact</li>
+      <li><strong>Exocytosis into the pocket:</strong> vesicles fuse with the basolateral membrane facing the pocket, releasing intact antigens, particles, or even live microorganisms into the subepithelial space where immune cells immediately sample them</li>
+    </ol>
+
+    <h3>M cell surface receptors</h3>
+    <table>
+      <tr>
+        <th>Receptor</th>
+        <th>Ligand / Pathogen</th>
+        <th>Function / Notes</th>
+      </tr>
+      <tr>
+        <td><strong>GP2 (Glycoprotein 2)</strong></td>
+        <td>Type I fimbriae (FimH) on <em>Salmonella</em>, <em>E. coli</em>, <em>Yersinia</em>; bacterial flagellin</td>
+        <td>Glycosylphosphatidylinositol-anchored apical receptor; major transcytosis receptor for Gram-negative enteric pathogens; GP2-deficient mice show impaired mucosal IgA responses to FimH-expressing bacteria</td>
+      </tr>
+      <tr>
+        <td><strong>&alpha;5&beta;1 integrin</strong></td>
+        <td>Reovirus outer capsid protein &sigma;1; <em>Yersinia</em> invasin</td>
+        <td>RGD-binding integrin expressed on M cell apical surface; unusual because most integrins are basolateral; mediates reovirus and <em>Yersinia</em> transcytosis; basis of reovirus gut tropism and intestinal dissemination</td>
+      </tr>
+      <tr>
+        <td><strong>PrP<sup>C</sup> (cellular prion protein)</strong></td>
+        <td>Abnormal prion protein (PrP<sup>Sc</sup>)</td>
+        <td>M cells express high levels of PrP<sup>C</sup>; PrP<sup>Sc</sup> binds and is transcytosed efficiently; critical early step in oral prion infection (variant CJD, scrapie); explains why ingested prions reach Peyer&rsquo;s patches before neuroinvasion</td>
+      </tr>
+      <tr>
+        <td><strong>Annexin V</strong></td>
+        <td>Apoptotic bodies, phosphatidylserine-exposing particles</td>
+        <td>Mediates uptake of apoptotic epithelial fragments and phosphatidylserine-exposing bacteria for antigen sampling</td>
+      </tr>
+      <tr>
+        <td><strong>Dectin-1 (CLEC7A)</strong></td>
+        <td>&beta;-1,3-glucan (fungal cell walls)</td>
+        <td>M cell expression enables Peyer&rsquo;s patches to sample fungal antigens from the gut lumen</td>
+      </tr>
+    </table>
+
+    <h3>M cell differentiation: RANKL and SpiB</h3>
+    <p>M cell differentiation requires two key signals. <strong>RANKL (TNFSF11, receptor activator of NF-&kappa;B ligand)</strong> is secreted by stromal cells (subepithelial myofibroblasts) in the SED and signals through RANK on FAE crypt progenitor cells, driving commitment to the M cell fate. RANKL-deficient mice completely lack M cells and have severely impaired mucosal IgA responses. <strong>SpiB</strong>, an ETS family transcription factor, is a downstream target of RANK signaling and is the master regulator of M cell differentiation &mdash; it directly transactivates GP2 and other M cell identity genes. Notch signaling also cooperates with RANKL/SpiB to specify M cell fate and suppress the goblet cell default.</p>
+  </div>
+
+  <!-- IGA INDUCTION PATHWAY -->
+  <div class="section">
+    <h2>IgA Induction: From Antigen Sampling to Luminal Secretion</h2>
+
+    <h3>T-dependent IgA pathway</h3>
+    <p>The dominant, high-affinity IgA pathway in Peyer&rsquo;s patches requires T cell help and is analogous to the germinal center-based IgG response in peripheral lymph nodes, with the key difference that cytokine signals (TGF-&beta; + IL-10) drive IgA class-switch recombination rather than IgG:</p>
+    <ol>
+      <li><strong>Antigen sampling:</strong> M cell transcytoses luminal antigen (bacteria, food proteins, viruses) into the SED</li>
+      <li><strong>APC processing:</strong> SED DCs (CD103<sup>+</sup> cDC1 and cDC2) capture antigen and process it into peptide&ndash;MHC II complexes; CD103<sup>+</sup> DCs also produce retinoic acid (RA, derived from vitamin A metabolism via RALDH2/ALDH1a2) which imprints gut-homing receptors (&alpha;4&beta;7, CCR9) on T and B cells during activation</li>
+      <li><strong>T cell priming:</strong> activated DCs migrate to the T cell zone of the Peyer&rsquo;s patch and prime antigen-specific CD4<sup>+</sup> T cells; cytokine environment (TGF-&beta;, RA, IL-2) supports Tfh differentiation and Foxp3<sup>+</sup> Treg induction</li>
+      <li><strong>GC reaction with IgA CSR:</strong> T-B conjugate interaction in the Peyer&rsquo;s patch triggers GC formation; Tfh-derived TGF-&beta; + IL-10 (and IL-21) drive germline transcript induction at the S&alpha; switch region &rarr; AID-mediated CSR from IgM to IgA; affinity maturation proceeds in the dark/light zone cycle</li>
+      <li><strong>IgA<sup>+</sup> B cell egress:</strong> class-switched IgA<sup>+</sup> B cells exit via efferent lymphatics, transit MLN and thoracic duct, and enter blood; &alpha;4&beta;7 integrin interacts with MAdCAM-1 on intestinal lamina propria venules (HEV-like) to home specifically to the gut</li>
+      <li><strong>Plasma cell differentiation:</strong> IgA<sup>+</sup> B cells in the lamina propria differentiate into IgA plasma cells, stimulated by APRIL and BAFF from epithelial cells and stromal cells</li>
+      <li><strong>pIgR transcytosis to lumen:</strong> dimeric IgA (J-chain-linked) binds the polymeric immunoglobulin receptor (pIgR) on the basolateral surface of enterocytes; the complex is transcytosed and cleaved at the apical surface; secretory component (remaining pIgR ectodomain) remains attached, protecting sIgA from proteolysis in the lumen</li>
+    </ol>
+
+    <div class="callout">
+      <strong>Scale of IgA production:</strong> The gut is by far the largest antibody-secreting organ in the human body, producing 10&ndash;15 g of secretory IgA per day &mdash; exceeding the daily production of all other immunoglobulin isotypes combined (&sim;2&ndash;3 g IgG). This reflects the continuous antigenic challenge of the intestinal lumen and the unique reliance on IgA for mucosal immune exclusion rather than inflammatory effector mechanisms.
+    </div>
+
+    <h3>T-independent IgA pathway</h3>
+    <p>A second IgA pathway operates without T cells and occurs in GALT as well as the bone marrow and spleen. In the gut, the cytokines <strong>APRIL (TNFSF13)</strong> and <strong>BAFF (TNFSF13B)</strong> secreted by intestinal epithelial cells, goblet cells, and stromal cells can drive IgA class-switch recombination in lamina propria B cells independently of GC reactions. This T-independent IgA is produced faster, is more polyreactive (lower specificity), and is present at lower concentrations than T-dependent IgA. It is particularly important for maintaining homeostatic IgA coating of commensal bacteria in the microbiota, contributing to intestinal ecosystem stability without requiring specific adaptive recognition.</p>
+  </div>
+
+  <!-- ORAL TOLERANCE -->
+  <div class="section">
+    <h2>Oral Tolerance</h2>
+    <p>Peyer&rsquo;s patches, in concert with mesenteric lymph nodes (MLN), are the primary inductive sites for <strong>oral tolerance</strong> &mdash; the systemic unresponsiveness to antigens that are first encountered by ingestion. The failure of oral tolerance underlies food allergy and celiac disease. The mechanism involves:</p>
+    <ul>
+      <li><strong>Tolerogenic DCs:</strong> CD103<sup>+</sup> DCs in Peyer&rsquo;s patches and MLN produce retinoic acid (RA) and TGF-&beta;; these cytokines, during T cell priming, promote differentiation of antigen-specific na&iuml;ve CD4<sup>+</sup> T cells into Foxp3<sup>+</sup> regulatory T cells (iTregs) rather than effector T cells</li>
+      <li><strong>Foxp3<sup>+</sup> Tregs:</strong> RA-imprinted iTregs upregulate CCR9 and &alpha;4&beta;7 and home to the small intestinal lamina propria, where they suppress local immune responses to dietary and microbial antigens via IL-10, TGF-&beta;, and cell contact mechanisms</li>
+      <li><strong>Clonal deletion and anergy:</strong> very high doses of oral antigen can also lead to clonal deletion (apoptosis of antigen-specific T cells) or clonal anergy (T cell functional inactivation), contributing a second layer of oral tolerance</li>
+      <li><strong>Systemic tolerance spread:</strong> RA-imprinted Tregs from the gut recirculate and can suppress antigen-specific immune responses at peripheral sites, explaining why oral antigen feeding can desensitize systemic immune responses &mdash; the basis of oral immunotherapy (OIT) for food allergy</li>
+    </ul>
+    <p>Breakdown of oral tolerance mechanisms is observed in <strong>food allergy</strong> (IgE-mediated sensitization instead of tolerance), <strong>celiac disease</strong> (HLA-DQ2/DQ8-restricted Th1/Th17 response to gliadin peptides in genetically susceptible individuals), and <strong>inflammatory bowel disease</strong> (loss of tolerance to commensal antigens).</p>
+  </div>
+
+  <!-- PATHOGEN ENTRY VIA PEYER'S PATCHES -->
+  <div class="section">
+    <h2>Pathogens Exploiting Peyer&rsquo;s Patches as Entry Routes</h2>
+    <p>The very efficiency of M cell sampling that enables mucosal immune surveillance also makes Peyer&rsquo;s patches vulnerable to exploitation by enteric pathogens as a &ldquo;Trojan horse&rdquo; entry site &mdash; transcytosis through M cells delivers live pathogens directly beneath the epithelium to a site rich in macrophages and DCs, enabling systemic dissemination.</p>
+    <table>
+      <tr>
+        <th>Pathogen</th>
+        <th>M cell entry mechanism</th>
+        <th>Post-transcytosis outcome</th>
+      </tr>
+      <tr>
+        <td><strong><em>Salmonella enterica</em></strong></td>
+        <td>SPI-1 type III secretion system delivers effectors (SipA, SipC, SipD) to actin cytoskeleton; GP2 (FimH-mediated) and SopB/SopE trigger macropinocytosis; can also invade via non-GP2 routes</td>
+        <td>Transcytosis to SED; macrophage uptake; survival within macrophage phagosomes (SPI-2 T3SS); dissemination to MLN, liver, spleen via mesenteric lymph; systemic infection (typhoid: <em>S. typhi</em>) or gastroenteritis (<em>S. typhimurium</em>)</td>
+      </tr>
+      <tr>
+        <td><strong><em>Yersinia</em> spp.</strong></td>
+        <td>Invasin protein (InvA) mimics fibronectin; binds &alpha;5&beta;1 integrin on M cells with very high affinity (&sim;100-fold greater than fibronectin); YadA (adhesin) also contributes</td>
+        <td>Transcytosis; delivery to SED; evasion of macrophage killing via Yop effectors (Ysc/Yop T3SS) that block phagocytosis and kill macrophages; colonization of Peyer&rsquo;s patch and MLN; rare systemic yersiniosis</td>
+      </tr>
+      <tr>
+        <td><strong>Reovirus (mammalian orthoreovirus)</strong></td>
+        <td>&sigma;1 outer capsid protein binds &alpha;5&beta;1 integrin on M cells and junctional adhesion molecule-A (JAM-A) on tight junctions; robust M cell transcytosis</td>
+        <td>Delivery to SED macrophages and DCs; dendritic cell-mediated spread to MLN; neural dissemination to CNS (encephalitis in neonates); also implicated in breaking oral tolerance to gluten in murine models of celiac disease</td>
+      </tr>
+      <tr>
+        <td><strong>Poliovirus</strong></td>
+        <td>Binds PVR (CD155) expressed on M cells; transcytosed intact virion</td>
+        <td>Delivery to SED lymphocytes; mucosal replication; viremia and potential CNS spread; explains gut as initial port of poliovirus entry before neuropathology</td>
+      </tr>
+      <tr>
+        <td><strong>Prions (vCJD, scrapie)</strong></td>
+        <td>PrP<sup>Sc</sup> binds PrP<sup>C</sup> on M cell surface; highly efficient transcytosis without degradation; complement opsonization may also enhance uptake</td>
+        <td>Delivery to SED follicular DCs which replicate prions; FDC-to-sympathetic nerve axon neuroinvasion; retrograde axonal transport to spinal cord and brain; years-long incubation; GALT is required for oral prion neuroinvasion in rodent models</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- CONNECTIONS -->
+  <div class="section">
+    <h2>Cross-Atlas Connections</h2>
+    <ul class="conn-list">
+      <li>
+        <span class="conn-rel">Produces</span>
+        <a href="secretory-iga.html">Secretory IgA</a> &mdash; Peyer&rsquo;s patches are the principal inductive site for gut IgA; GC reactions here generate IgA<sup>+</sup> B cells that home to lamina propria and secrete dimeric IgA that transits via pIgR into the gut lumen
+      </li>
+      <li>
+        <span class="conn-rel">Samples via</span>
+        <a href="antibody.html">Antibody (Immunoglobulin)</a> &mdash; IgA generated in Peyer&rsquo;s patches is the most abundant antibody isotype in the body by mass; sIgA differs structurally from serum IgG through its dimeric form, J-chain, and secretory component
+      </li>
+      <li>
+        <span class="conn-rel">GC site</span>
+        <a href="germinal-center.html">Germinal Center</a> &mdash; active germinal centers within Peyer&rsquo;s patches drive TGF-&beta;/IL-10-directed IgA class switching and affinity maturation; Tfh cells here co-produce IL-21 and TGF-&beta;, unlike the IL-4/IL-21 profile in peripheral lymph nodes
+      </li>
+      <li>
+        <span class="conn-rel">Microbiome sensing</span>
+        <a href="gut-microbiome.html">Gut Microbiome</a> &mdash; Peyer&rsquo;s patches continuously sample commensal bacteria, shaping the microbiome through targeted sIgA coating; IgA coats ~70% of gut bacteria in the terminal ileum; alterations in IgA selection correlate with dysbiosis
+      </li>
+      <li>
+        <span class="conn-rel">Pathogen entry</span>
+        <a href="pathogens.html">Pathogens</a> &mdash; enteric pathogens (Salmonella, Yersinia, poliovirus, reovirus, prions) exploit M cell transcytosis to breach the gut barrier; Peyer&rsquo;s patches are simultaneously the immune inductive site and the pathogen Achilles heel of mucosal defence
+      </li>
+      <li>
+        <span class="conn-rel">Antigen presentation</span>
+        <a href="mhc-ii.html">MHC Class II</a> &mdash; CD103<sup>+</sup> DCs in the SED and T cell zones process and present luminal antigens on MHC-II, driving both tolerogenic (Treg) and immunogenic (Tfh) T cell responses depending on cytokine context and antigen nature
+      </li>
+    </ul>
+  </div>
+
+  <!-- REFERENCES -->
+  <div class="section references">
+    <h2>References</h2>
+    <ol>
+      <li>Mabbott NA, Donaldson DS, Ohno H, Williams IR, Mahajan A. Microfold (M) cells: important immunosurveillance posts in the intestinal epithelium. <em>Mucosal Immunol.</em> 2013;6(4):666&ndash;677. doi:<a href="https://doi.org/10.1038/mi.2013.30" target="_blank" rel="noopener">10.1038/mi.2013.30</a></li>
+      <li>Corr SC, Gahan CC, Hill C. M-cells: origin, morphology and role in mucosal immunity and microbial pathogenesis. <em>FEMS Immunol Med Microbiol.</em> 2008;52(1):2&ndash;12. doi:<a href="https://doi.org/10.1111/j.1574-695X.2007.00359.x" target="_blank" rel="noopener">10.1111/j.1574-695X.2007.00359.x</a></li>
+      <li>Ohno H. Intestinal M cells. <em>J Biochem.</em> 2016;159(2):151&ndash;160. doi:<a href="https://doi.org/10.1093/jb/mvv121" target="_blank" rel="noopener">10.1093/jb/mvv121</a></li>
+      <li>Reboldi A, Cyster JG. Peyer&rsquo;s patches: organizing B-cell responses at the intestinal frontier. <em>Immunol Rev.</em> 2016;271(1):230&ndash;245. doi:<a href="https://doi.org/10.1111/imr.12400" target="_blank" rel="noopener">10.1111/imr.12400</a></li>
+      <li>Tsuji M, Suzuki K, Kitamura H, et al. Requirement for lymphoid tissue-inducer cells in isolated follicle formation and T cell-independent immunoglobulin A generation in the gut. <em>Immunity.</em> 2008;29(2):261&ndash;271. doi:<a href="https://doi.org/10.1016/j.immuni.2008.05.014" target="_blank" rel="noopener">10.1016/j.immuni.2008.05.014</a></li>
+      <li>Mucida D, Park Y, Kim G, et al. Reciprocal TH17 and regulatory T cell differentiation mediated by retinoic acid. <em>Science.</em> 2007;317(5835):256&ndash;260. doi:<a href="https://doi.org/10.1126/science.1145697" target="_blank" rel="noopener">10.1126/science.1145697</a></li>
+      <li>Schulz O, Pabst O. Antigen sampling in the small intestine. <em>Trends Immunol.</em> 2013;34(4):155&ndash;161. doi:<a href="https://doi.org/10.1016/j.it.2012.09.006" target="_blank" rel="noopener">10.1016/j.it.2012.09.006</a></li>
+      <li>Mantis NJ, Rol N, Corthesy B. Secretory IgA&rsquo;s complex roles in immunity and mucosal homeostasis in the gut. <em>Mucosal Immunol.</em> 2011;4(6):603&ndash;611. doi:<a href="https://doi.org/10.1038/mi.2011.41" target="_blank" rel="noopener">10.1038/mi.2011.41</a></li>
+    </ol>
+  </div>
+
+</div><!-- /content -->
+
+<footer>
+  <p>Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, global model of human biology and medicine &mdash; in the service of all of humanity.</p>
+  <p style="margin-top:.6rem;">
+    <a href="index.html">Home</a> &nbsp;&middot;&nbsp;
+    <a href="gut-microbiome.html">Gut Microbiome</a> &nbsp;&middot;&nbsp;
+    <a href="secretory-iga.html">Secretory IgA</a> &nbsp;&middot;&nbsp;
+    <a href="germinal-center.html">Germinal Center</a> &nbsp;&middot;&nbsp;
+    <a href="pathogens.html">Pathogens</a> &nbsp;&middot;&nbsp;
+    <a href="antibody.html">Antibody</a> &nbsp;&middot;&nbsp;
+    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+  </p>
+  <p style="margin-top:.75rem;">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+</footer>
+
+</body>
+</html>

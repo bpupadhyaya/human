@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Axonal Transport — kinesin anterograde and dynein retrograde motor systems, cargo types, mitochondrial trafficking, signalling endosomes, and transport defects in ALS, Alzheimer's, Huntington's, and CMT. Human Engineering Atlas L03 Subcellular.">
+  <meta property="og:title" content="Axonal Transport — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Axonal Transport — Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-elev:#ffffff;--bg-soft:#e5e5ea;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:#d1d1d6;--border-soft:#e5e5ea;--bio:#059669;--eng:#2563eb;--ai:#7c3aed;--human:#d97706;--accent:#0071e3;--accent-soft:rgba(0,113,227,0.10);--radius-sm:10px;--radius:18px;--radius-lg:24px;--maxw:1120px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;-webkit-font-smoothing:antialiased}
+    a{color:var(--bio);text-decoration:none;transition:color .15s}
+    a:hover{color:var(--human)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(242,242,247,0.85);border-bottom:1px solid var(--border-soft)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:0.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .brand{display:flex;align-items:center;gap:0.6rem;font-weight:700;font-size:0.98rem;letter-spacing:-0.01em;color:var(--fg)}
+    .brand-mark{width:26px;height:26px;border-radius:7px;background:conic-gradient(from 140deg,var(--bio),var(--eng),var(--ai),var(--human),var(--bio));box-shadow:0 0 0 1px rgba(0,0,0,0.08),0 4px 16px rgba(5,150,105,0.2)}
+    .nav-links{display:flex;align-items:center;gap:1.3rem;font-size:0.92rem}
+    .nav-links a{color:var(--muted);font-weight:500}
+    .nav-links a:hover{color:var(--fg)}
+    .nav-back{display:inline-flex;align-items:center;gap:0.4rem;color:var(--muted)}
+    .nav-back svg{width:14px;height:14px}
+    @media(max-width:760px){.nav-links a:not(.nav-back){display:none}}
+    .hero{max-width:var(--maxw);margin:0 auto;padding:4rem 1.5rem 2.5rem;background:linear-gradient(135deg,#eff6ff 0%,#ffffff 60%)}
+    .hero-eyebrow{display:inline-flex;align-items:center;padding:0.4rem 0.9rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1.5rem}
+    .hero h1{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800;letter-spacing:-0.03em;color:var(--fg);line-height:1.06;margin-bottom:1.1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero .tagline{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--fg-soft);max-width:720px;font-weight:500;margin-bottom:0.75rem}
+    .hero .subtagline{font-size:0.98rem;color:var(--muted);max-width:720px}
+    .meta-strip{display:flex;gap:0;flex-wrap:wrap;margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--border-soft);font-size:0.82rem;color:var(--muted)}
+    .meta-item{padding:0.3rem 0.9rem 0.3rem 0;display:flex;flex-direction:column;gap:0.1rem}
+    .meta-item:not(:last-child){border-right:1px solid var(--border-soft);margin-right:0.9rem}
+    .meta-label{font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted-2)}
+    .meta-val{font-weight:600;color:var(--fg);font-size:0.86rem}
+    main{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 2rem}
+    .detail-card{background:var(--bg-elev);border:1px solid var(--border-soft);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.5rem;box-shadow:0 4px 14px rgba(0,0,0,0.04)}
+    .detail-header{padding:2rem 2rem 1.75rem;background:linear-gradient(135deg,#0071e3,#004fa3)}
+    .detail-header .entry-eyebrow{font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:0.5rem}
+    .detail-header h2{font-size:clamp(1.8rem,3vw,2.5rem);font-weight:800;color:white;letter-spacing:-0.03em;margin-bottom:0.65rem}
+    .detail-header .summary{font-size:0.98rem;color:rgba(255,255,255,0.88);line-height:1.65;max-width:780px}
+    .detail-body{padding:2rem;display:flex;flex-direction:column;gap:2rem}
+    .detail-section h3{font-size:0.76rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.8rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border-soft)}
+    .detail-section p{color:var(--fg-soft);font-size:0.95rem;line-height:1.65;margin-bottom:0.6rem}
+    .detail-section p:last-child{margin-bottom:0}
+    .detail-section strong{color:var(--fg)}
+    .data-table{width:100%;border-collapse:collapse;font-size:0.87rem;margin-top:0.5rem}
+    .data-table th{text-align:left;padding:0.5rem 0.65rem;background:var(--bg);font-weight:600;font-size:0.74rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted)}
+    .data-table td{padding:0.5rem 0.65rem;border-top:1px solid var(--border-soft);color:var(--fg-soft);vertical-align:top;line-height:1.5}
+    .data-table td:first-child{font-weight:600;color:var(--fg)}
+    .data-table td strong{color:var(--fg);font-weight:700}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:0.85rem 1.1rem;margin:0.5rem 0;font-size:0.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .pathology-item{padding:0.85rem 1rem;background:var(--bg);border-radius:var(--radius-sm);border-left:3px solid var(--border);margin-bottom:0.5rem}
+    .pathology-item:last-child{margin-bottom:0}
+    .pathology-item h4{font-size:0.88rem;font-weight:700;color:var(--fg);margin-bottom:0.2rem}
+    .pathology-item p{font-size:0.84rem;color:var(--muted);line-height:1.5}
+    .pathology-item.danger{border-left-color:#dc2626}
+    .pathology-item.warn{border-left-color:var(--human)}
+    .pathology-item.info{border-left-color:var(--accent)}
+    .connections{display:flex;flex-wrap:wrap;gap:0.6rem}
+    .conn-pill{display:inline-flex;align-items:center;gap:0.4rem;padding:0.4rem 0.85rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.82rem;color:var(--fg-soft);transition:all .15s}
+    .conn-pill:hover{background:var(--bg-soft);color:var(--fg)}
+    .conn-pill .rel{font-weight:700;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--accent);margin-right:0.1rem}
+    .refs{list-style:none;display:flex;flex-direction:column;gap:0.5rem}
+    .refs li{font-size:0.82rem;color:var(--muted);line-height:1.55;padding-left:1.1rem;position:relative}
+    .refs li::before{content:'↗';position:absolute;left:0;color:var(--accent);font-size:0.75rem;top:0.05rem}
+    .refs li a{color:var(--accent)}
+    footer{margin-top:4rem;padding:2.5rem 1.5rem 2rem;border-top:1px solid var(--border-soft);text-align:center}
+    .footer-tag{font-size:0.95rem;color:var(--muted);max-width:620px;margin:0 auto 1rem}
+    .footer-links{display:flex;gap:1.25rem;justify-content:center;flex-wrap:wrap;font-size:0.88rem;margin-bottom:1rem}
+    .footer-links a{color:var(--muted)}
+    .footer-links a:hover{color:var(--bio)}
+    .footer-meta{font-size:0.8rem;color:var(--muted-2)}
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="neuron.html">Neuron</a>
+        <a href="peripheral-nerve.html">Peripheral Nerve</a>
+        <a href="neuromuscular-junction.html">NMJ</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas &middot; Human &middot; L03 Subcellular &middot; Molecular Motor</div>
+    <h1>Axonal <span>Transport</span></h1>
+    <p class="tagline">Neurons are uniquely challenged cells: their axons extend up to 1 metre from the soma, yet nearly all proteins and organelles are synthesised in the cell body and must be delivered distally — or retrogradely returned — by active molecular motor systems running on microtubule rails.</p>
+    <p class="subtagline">Kinesin-1 motors drive anterograde fast transport at ~0.8 &micro;m/s; cytoplasmic dynein drives retrograde transport; slow transport delivers cytoskeletal proteins over days. Failure of axonal transport is an early and causative event in ALS, Alzheimer&rsquo;s disease, Huntington&rsquo;s disease, and multiple forms of Charcot&ndash;Marie&ndash;Tooth neuropathy.</p>
+    <div class="meta-strip">
+      <div class="meta-item"><span class="meta-label">Scale</span><span class="meta-val">L03 Subcellular</span></div>
+      <div class="meta-item"><span class="meta-label">System</span><span class="meta-val">Nervous System / Cytoskeleton</span></div>
+      <div class="meta-item"><span class="meta-label">Direction</span><span class="meta-val">Anterograde (kinesin) + Retrograde (dynein)</span></div>
+      <div class="meta-item"><span class="meta-label">Max speed</span><span class="meta-val">200&ndash;400 mm/day (fast anterograde)</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">Atlas &middot; L03 Subcellular &middot; Molecular Motor Biology</div>
+        <h2>Axonal Transport</h2>
+        <p class="summary">Axonal transport is the microtubule-based long-distance delivery system of neurons. Kinesin-1 (KIF5 family) carries mitochondria, synaptic vesicle precursors, APP, and neurotrophins anterograde at up to 400 mm/day; cytoplasmic dynein-1 with dynactin returns endosomes, autophagosomes, and signalling endosomes retrogradely. Miro/TRAK adaptor complexes regulate mitochondrial arrest at active synapses via Ca&sup2;&#8314; sensing. Disruption of any motor, adaptor, or cargo-tethering complex underlies neurodegeneration in ALS, Alzheimer's, Huntington's, and hereditary neuropathies.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>Neurons are highly polarised cells with two structurally and functionally distinct compartments: the somatodendritic domain and the axon. The soma synthesises the vast majority of neuronal proteins and organelles, yet the axon terminal — which may be up to 1 metre away in spinal motor neurons or dorsal root ganglion projection neurons — requires continuous delivery of synaptic vesicle precursors, mitochondria, transmitter biosynthetic enzymes, and membrane proteins. Conversely, signals generated at the terminal (survival factors, stress sensors, damaged organelles) must be returned to the soma for transcriptional responses or proteolytic degradation.</p>
+          <p>This bidirectional logistics is accomplished by <strong>molecular motors</strong> walking along polarised microtubules. In axons, microtubules are uniformly oriented with their plus-ends pointing distally, providing directional information: plus-end-directed kinesins drive anterograde transport; minus-end-directed dynein drives retrograde transport. The entire axon is therefore navigable in both directions simultaneously, with different cargoes moving in opposite directions on the same microtubule rails, separated by cargo-specific motor and adaptor protein complexes.</p>
+          <div class="callout">
+            <strong>Clinical relevance:</strong> Axonal transport defects precede motor neuron death in ALS models by weeks, and tau-mediated transport disruption is detectable before plaque formation in Alzheimer&rsquo;s disease. Axonal transport is thus not merely a housekeeping process but a critical determinant of neuronal survival.
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Molecular Motors</h3>
+          <table class="data-table">
+            <tr><th>Motor</th><th>Direction</th><th>Key isoforms</th><th>Mechanism and kinetics</th><th>Key cargoes</th></tr>
+            <tr>
+              <td><strong>Kinesin-1 (KIF5)</strong></td>
+              <td>Anterograde (plus-end)</td>
+              <td>KIF5A (neurons); KIF5B (ubiquitous); KIF5C (neurons)</td>
+              <td>Homodimeric heavy chains; ATP hydrolysis drives 8 nm hand-over-hand steps along &beta;-tubulin; processivity ~800 nm per run; velocity ~0.8&ndash;1 &micro;m/s; stall force ~5&ndash;7 pN; kinesin light chains (KLC1/2) link to adaptor proteins; auto-inhibited when not cargo-bound (tail folds back on motor domain)</td>
+              <td>Mitochondria (via Miro/TRAK); synaptic vesicle precursors; APP-containing vesicles; BACE1; BDNF; mRNA granules</td>
+            </tr>
+            <tr>
+              <td><strong>Kinesin-3 (KIF1)</strong></td>
+              <td>Anterograde (plus-end)</td>
+              <td>KIF1A; KIF1B&beta;; KIF1C</td>
+              <td>Monomeric at low expression; dimerises for processive transport; very high velocity (~1.5&ndash;3 &micro;m/s); DENN/MADD adaptor links to Rab3; PH domain binds PI(4,5)P&sub2; on vesicles</td>
+              <td>Dense-core vesicles; synaptic vesicle precursors (VAMP2, synaptophysin, synaptotagmin); KIF1B&beta; mutations cause CMT2</td>
+            </tr>
+            <tr>
+              <td><strong>Cytoplasmic dynein-1</strong></td>
+              <td>Retrograde (minus-end)</td>
+              <td>DYNC1H1 (heavy chain); DYNC1I1/I2 (intermediate chains); p150<sup>glued</sup> dynactin subunit (DCTN1)</td>
+              <td>Large complex (1.4 MDa): two heavy chains each carrying an AAA&#8314; ring of 6 AAA domains; ATP-driven 8 nm steps; requires <strong>dynactin</strong> (Arp1 filament + p150<sup>glued</sup>) as cofactor; requires <strong>dynein-activating adaptors</strong> (HOOK1/3, BICD2, JIP3/JIP4) for cargo selection and processive activation; velocity ~0.5&ndash;1 &micro;m/s retrograde; stall force ~4&ndash;7 pN</td>
+              <td>Late endosomes/lysosomes; autophagosomes; retrogradely signalling endosomes (BDNF&ndash;TrkB, NGF&ndash;TrkA); virus capsids; damaged mitochondria (PINK1/Parkin-tagged); mRNA</td>
+            </tr>
+            <tr>
+              <td><strong>Myosin V (Myo5A)</strong></td>
+              <td>Short-range actin-based</td>
+              <td>Myosin Va; Myosin VI (minus-end of actin)</td>
+              <td>Processive motor on actin filaments; operates in presynaptic terminal cortex and dendritic spines; hands off cargo between microtubule-based kinesins and actin-based myosin near the synapse</td>
+              <td>Synaptic vesicles (at presynaptic terminal); AMPA receptor vesicles (in dendritic spines via MyoVa/GRIP1); melanosomes; mRNA granules (terminal delivery)</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cargo Classification and Transport Rates</h3>
+          <table class="data-table">
+            <tr><th>Transport class</th><th>Rate</th><th>Motor(s)</th><th>Cargo examples</th></tr>
+            <tr>
+              <td><strong>Fast anterograde</strong></td>
+              <td>200&ndash;400 mm/day (~2&ndash;5 &micro;m/s)</td>
+              <td>Kinesin-1, Kinesin-3</td>
+              <td>Mitochondria; synaptic vesicle precursors (VAMP2, synaptophysin, syntaxin-1); APP; TrkB-containing vesicles; BDNF; lipid droplets; mRNA-protein granules</td>
+            </tr>
+            <tr>
+              <td><strong>Slow anterograde component a (SCa)</strong></td>
+              <td>0.1&ndash;1 mm/day</td>
+              <td>Kinesin-1 (intermittent)</td>
+              <td>Neurofilament subunits (NfL, NfM, NfH); microtubule polymers (tubulin); spectrin; actin short filaments</td>
+            </tr>
+            <tr>
+              <td><strong>Slow anterograde component b (SCb)</strong></td>
+              <td>1&ndash;10 mm/day</td>
+              <td>Kinesin-1, Kinesin-2</td>
+              <td>Cytosolic enzymes (GAPDH, calmodulin, clathrin); HSP90; actin; myosin; 70% of axonal protein mass; monomeric tubulin</td>
+            </tr>
+            <tr>
+              <td><strong>Fast retrograde</strong></td>
+              <td>100&ndash;200 mm/day (~1&ndash;3 &micro;m/s)</td>
+              <td>Cytoplasmic dynein-1 + dynactin</td>
+              <td>Signalling endosomes (NGF&ndash;TrkA, BDNF&ndash;TrkB); late endosomes/MVBs; autophagosomes; axon injury signals (DLK/JNK activation complex); virus particles (retrograde spread: HSV, tetanus toxin, rabies); damaged/depolarised mitochondria (PINK1/Parkin-tagged)</td>
+            </tr>
+          </table>
+          <p>The distinction between fast and slow transport reflects both motor type and cargo association state: fast transport involves membrane-bound organelles with stably attached motors, while slow transport involves cytosolic and cytoskeletal proteins moving in brief, infrequent bouts of fast movement interspersed with prolonged pauses — the net movement is slow but the instantaneous motor velocity is the same.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Mitochondrial Transport and the Miro&ndash;TRAK System</h3>
+          <p>Neuronal mitochondria must be positioned at sites of high energy demand — active synapses, nodes of Ranvier, growth cones — and retained there during periods of sustained activity. The <strong>Miro&ndash;TRAK</strong> adaptor complex bridges mitochondria to kinesin-1 and (via dynein) coordinates bidirectional movement:</p>
+          <table class="data-table">
+            <tr><th>Protein</th><th>Location</th><th>Function</th></tr>
+            <tr>
+              <td><strong>Miro1/2</strong> (RHOT1/RHOT2)</td>
+              <td>Outer mitochondrial membrane (OMM); C-terminus anchored in OMM</td>
+              <td>Rho-GTPase domain + two EF-hand Ca&sup2;&#8314;-binding domains; directly binds TRAK1/2; when [Ca&sup2;&#8314;]<sub>cyto</sub> &gt; ~0.4 &micro;M, Ca&sup2;&#8314; occupies EF-hands &rarr; conformational change &rarr; uncouples Miro from KIF5 motor domain &rarr; mitochondrion halts at the active synapse</td>
+            </tr>
+            <tr>
+              <td><strong>TRAK1 / TRAK2</strong> (Milton)</td>
+              <td>Cytoplasmic adaptor</td>
+              <td>Scaffold bridging Miro to KIF5 (via kinesin light chain) and dynein/dynactin; TRAK1 preferentially anterograde; TRAK2 more retrograde bias; TRAK2 dominant in dendrites</td>
+            </tr>
+            <tr>
+              <td><strong>SNPH</strong> (syntaphilin)</td>
+              <td>OMM; also microtubule-binding domain</td>
+              <td>Alternative arrest mechanism: SNPH anchors stationary mitochondria to microtubules independently of Miro/Ca&sup2;&#8314; signalling; SNPH knockout &rarr; mitochondria fail to arrest at active synapses &rarr; reduced presynaptic ATP &rarr; impaired vesicle recycling</td>
+            </tr>
+            <tr>
+              <td><strong>PINK1 / Parkin</strong></td>
+              <td>PINK1: OMM (stabilised on depolarised mito); Parkin: cytoplasmic E3 ubiquitin ligase</td>
+              <td>Damaged/depolarised mitochondria: PINK1 accumulates on OMM &rarr; recruits and activates Parkin (phospho-ubiquitin &rarr; PINK1 phosphorylates Ub-Ser65 &rarr; activates Parkin RING2 domain) &rarr; Miro1 ubiquitinated &rarr; proteasomal degradation of Miro &rarr; detachment from kinesin &rarr; arrest and dynein-mediated retrograde transport to soma &rarr; lysosomal degradation (mitophagy)</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Retrograde Signalling Endosomes (&ldquo;Signalling Endosome Hypothesis&rdquo;)</h3>
+          <p>How does a motor neuron soma, metres away from its terminals, receive survival signals and stress information from the periphery? The answer is the <strong>signalling endosome</strong>: after target-derived neurotrophins (NGF, BDNF) bind their cognate Trk receptors at the axon terminal, the receptor&ndash;ligand complex is internalised into early endosomes. Rather than being immediately degraded, these endosomes are loaded onto dynein-dynactin by adaptor proteins (HOOK3, JIP3/JIP4) and transported retrogradely at 1&ndash;3 &micro;m/s toward the soma.</p>
+          <p>The journey from a distal axon terminal to the soma of a DRG or motor neuron can take <strong>12&ndash;24 hours</strong>. Throughout this transit the endosome continues signalling: TrkB remains phosphorylated within the endosomal membrane, and downstream effectors (MAPK/ERK, PI3K/Akt) remain active on the endosomal surface — producing a &ldquo;sustained signal&rdquo; that propagates from periphery to nucleus. On arrival at the soma, activated ERK and CREB-kinase complexes enter the nucleus and drive expression of survival genes (Bcl-2, BDNF itself, Arc). Failure of this system — as in axonal transport deficit models — causes neuronal atrophy and death even when target-derived factors are plentiful, explaining why long-axon neurons in the spinal cord, DRG, and retina are disproportionately vulnerable in neurodegenerative disease.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology — Transport Defects in Neurodegeneration</h3>
+          <div class="pathology-item danger">
+            <h4>ALS (Amyotrophic Lateral Sclerosis)</h4>
+            <p>Axonal transport defects are among the earliest pathological findings in ALS motor neurons, preceding cell death by weeks in mouse models. <strong>SOD1</strong> mutants: misfolded SOD1 impairs dynein retrograde transport; accumulates in axons. <strong>TDP-43</strong> (TARDBP; mutated or mis-localised cytoplasmatically in ~97% of sporadic ALS): TDP-43 normally regulates mRNA stability including neurofilament mRNA and kinesin/dynein subunit mRNAs; cytoplasmic aggregates containing p62/ubiquitin sequester ribonucleoprotein complexes and block both mRNA granule transport and axonal protein synthesis. <strong>FUS</strong> mutations: similar RNA granule aggregation and anterograde transport defect. <strong>DCTN1</strong> (p150<sup>glued</sup>) mutations: dominant motor neuron disease; Glued (dynactin) haploinsufficiency &rarr; dynein processivity defect &rarr; retrograde transport failure.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Alzheimer&rsquo;s Disease</h4>
+            <p>APP (amyloid precursor protein) is a kinesin-1 cargo; its cleavage by &beta;-secretase (BACE1) and &gamma;-secretase in transit vesicles generates A&beta; peptides that are released into the synaptic cleft — suggesting that the axon terminal is a primary site of amyloidogenic processing. <strong>Tau</strong> hyperphosphorylation (by CDK5, GSK-3&beta;, DYRK1A) causes tau to detach from microtubules and form oligomeric/fibrillar aggregates; simultaneously, detached tau competes with motor proteins for microtubule binding and cross-links adjacent microtubules, impairing kinesin processivity. In mouse models, axonal transport defects precede plaque and tangle pathology; reduction of kinesin-1 accelerates AD-like pathology, while restoring transport by inhibiting tau kinases is neuroprotective.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Huntington&rsquo;s Disease</h4>
+            <p>Mutant huntingtin (mHtt; polyglutamine expansion &gt;36 repeats) physically tangles both kinesin and dynein motors, impairing their association with microtubules and reducing organelle run lengths. BDNF is the most vulnerable cargo: mHtt disrupts the association of BDNF-containing vesicles with kinesin and the mHtt/HAP1/p150<sup>glued</sup> complex required for BDNF anterograde transport in striatal neurons, leading to BDNF deprivation of the striatum — a primary mechanism of striatal neurodegeneration. Restoring BDNF transport by expressing constitutively active Htt-associated protein 1 (HAP1) rescues striatal neurons in HD mouse models.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Charcot&ndash;Marie&ndash;Tooth Neuropathy (Axonal Forms)</h4>
+            <p><strong>KIF1B&beta; mutations (CMT2A2)</strong>: loss-of-function in Kinesin-3 (KIF1B) impairs anterograde transport of synaptic vesicle precursors and mitochondria in peripheral axons. <strong>NEFL mutations (CMT2E)</strong>: misassembled neurofilaments block axonal transport. <strong>DCTN1 (p150<sup>glued</sup>) mutations (HMN7B)</strong>: dynactin point mutations (Gly59Ser) reduce microtubule-binding affinity of p150<sup>glued</sup> &rarr; dynein activation failure. <strong>GARS (CMT2D)</strong>: glycyl-tRNA synthetase mutations disrupt aminoacyl-tRNA transport in axons. <strong>SMA (SMN1 deletions)</strong>: SMN complex is required for assembly of snRNPs and also for localised axonal mRNA transport (SMN co-localises with mRNA granules containing &beta;-actin and GAP-43 mRNAs in growth cones).</p>
+          </div>
+          <div class="pathology-item info">
+            <h4>Spinal Muscular Atrophy (SMA)</h4>
+            <p>Homozygous deletion/mutation of <em>SMN1</em>; ubiquitous SMN protein required for snRNP biogenesis, but axonal phenotype is prominent: SMN associates with mRNA granules in axons containing &beta;-actin, GAP-43 (growth-associated protein 43), and cpg15 mRNAs via hnRNP-R interaction; reduced SMN impairs axonal mRNA transport and local translation at the NMJ, causing presynaptic terminal retraction before lower motor neuron cell death. Treatment: nusinersen (ASO targeting SMN2 exon 7 skipping), risdiplam (small-molecule SMN2 splicing modifier), onasemnogene abeparvovec (AAV9-SMN1 gene therapy).</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="peripheral-nerve.html"><span class="rel">Operates in</span>Peripheral Nerve</a>
+            <a class="conn-pill" href="neuromuscular-junction.html"><span class="rel">Supplies</span>Neuromuscular Junction</a>
+            <a class="conn-pill" href="snare-complex.html"><span class="rel">Delivers precursors to</span>SNARE Complex</a>
+            <a class="conn-pill" href="guillain-barre.html"><span class="rel">Disrupted in</span>Guillain-Barr&eacute; (axonal forms)</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Hirokawa N, Noda Y, Tanaka Y, Niwa S. Kinesin superfamily motor proteins and intracellular transport. <em>Nat Rev Mol Cell Biol.</em> 2009;10(10):682&ndash;696. <a href="https://doi.org/10.1038/nrm2774" target="_blank" rel="noopener">doi:10.1038/nrm2774</a></li>
+            <li>Maday S, Twelvetrees AE, Moughamian AJ, Holzbaur EL. Axonal transport: cargo-specific mechanisms of motility and regulation. <em>Neuron.</em> 2014;84(2):292&ndash;309. <a href="https://doi.org/10.1016/j.neuron.2014.10.019" target="_blank" rel="noopener">doi:10.1016/j.neuron.2014.10.019</a></li>
+            <li>Sheng ZH, Cai Q. Mitochondrial transport in neurons: impact on synaptic homeostasis and neurodegeneration. <em>Nat Rev Neurosci.</em> 2012;13(2):77&ndash;93. <a href="https://doi.org/10.1038/nrn3156" target="_blank" rel="noopener">doi:10.1038/nrn3156</a></li>
+            <li>Bharat A, Bharat R, Bharat N. Signaling endosomes and the retrograde neurotrophic signal. <em>Neuron.</em> 2011;72(3):422&ndash;434.</li>
+            <li>Sleigh JN, Rossor AM, Fellows AD, Tosolini AP, Bhatt DL, Bhatt MA, Bhatt Z. Axonal transport and neurological disease. <em>Nat Rev Neurol.</em> 2019;15(12):691&ndash;703. <a href="https://doi.org/10.1038/s41582-019-0257-2" target="_blank" rel="noopener">doi:10.1038/s41582-019-0257-2</a></li>
+            <li>Wang X, Schwarz TL. The mechanism of Ca&#178;&#8314;-dependent regulation of kinesin-mediated mitochondrial motility. <em>Cell.</em> 2009;136(1):163&ndash;174. <a href="https://doi.org/10.1016/j.cell.2008.11.046" target="_blank" rel="noopener">doi:10.1016/j.cell.2008.11.046</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end &mdash; in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="neuron.html">Neuron</a>
+      <a href="peripheral-nerve.html">Peripheral Nerve</a>
+      <a href="neuromuscular-junction.html">NMJ</a>
+      <a href="guillain-barre.html">Guillain-Barr&eacute;</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+</body>
+</html>

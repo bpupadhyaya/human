@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Herpesviridae — 8 human herpesviruses, enveloped dsDNA structure, neuronal latency mechanisms, immune evasion strategies, and clinical pathology. Human Engineering Atlas.">
+  <meta property="og:title" content="Herpesviridae — Pathogen Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Herpesviridae — Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff0f0 0%,#fef2f2 40%,#ffffff 100%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">L01 Molecular &middot; Pathogen &middot; dsDNA Virus</p>
+    <h1>Herpes<span>viridae</span></h1>
+    <p class="hero-lead">The eight human herpesviruses share a conserved architecture &mdash; an enveloped, icosahedral dsDNA virion with a characteristic tegument layer &mdash; yet occupy remarkably diverse biological niches. Their defining feature is lifelong latency in specific host cell populations, punctuated by periodic reactivation that drives transmission and disease. Herpesviruses have co-evolved with vertebrates for over 180 million years and have devised elaborate strategies to subvert innate immunity, MHC-I antigen presentation, and complement.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Family: Herpesviridae</span>
+  <span>Genome: ~125&ndash;235 kb dsDNA (linear)</span>
+  <span>Virion: ~200 nm enveloped</span>
+  <span>Subfamilies: Alpha-, Beta-, Gammaherpesvirinae</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="family">
+    <h2>The Eight Human Herpesviruses</h2>
+    <p>All eight members infect humans as their primary or a significant host. They are subdivided by biology and genomic relatedness into three subfamilies: <em>Alphaherpesvirinae</em> (HSV-1, HSV-2, VZV) are neurotropic with rapid lytic cycles; <em>Betaherpesvirinae</em> (CMV, HHV-6A, HHV-6B, HHV-7) are lymphotropic and have slow replication cycles; <em>Gammaherpesvirinae</em> (EBV, KSHV) are lymphotropic and are associated with lymphoid malignancies and solid tumours.</p>
+    <table>
+      <thead>
+        <tr><th>Virus (HHV #)</th><th>Common Name</th><th>Primary Target Cells</th><th>Primary Disease</th><th>Latency Site</th><th>Key Association</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>HSV-1 (HHV-1)</strong></td>
+          <td>Herpes simplex 1</td>
+          <td>Mucosal epithelium, neurons</td>
+          <td>Oral herpes, herpetic gingivostomatitis, HSV encephalitis</td>
+          <td>Trigeminal ganglia</td>
+          <td>Keratitis, sporadic encephalitis (most common cause of fatal sporadic encephalitis in Western countries)</td>
+        </tr>
+        <tr>
+          <td><strong>HSV-2 (HHV-2)</strong></td>
+          <td>Herpes simplex 2</td>
+          <td>Genital mucosa, neurons</td>
+          <td>Genital herpes, neonatal herpes</td>
+          <td>Sacral dorsal root ganglia (DRG)</td>
+          <td>Neonatal herpes (mortality 60% untreated); HIV acquisition risk 3&ndash;4&times;</td>
+        </tr>
+        <tr>
+          <td><strong>VZV (HHV-3)</strong></td>
+          <td>Varicella-zoster virus</td>
+          <td>T cells (dissemination), neurons, skin</td>
+          <td>Varicella (chickenpox), herpes zoster (shingles)</td>
+          <td>Dorsal root ganglia, trigeminal ganglia, geniculate ganglia</td>
+          <td>Postherpetic neuralgia; VZV vasculopathy; Ramsay Hunt syndrome</td>
+        </tr>
+        <tr>
+          <td><strong>EBV (HHV-4)</strong></td>
+          <td>Epstein&ndash;Barr virus</td>
+          <td>B lymphocytes, oropharyngeal epithelium</td>
+          <td>Infectious mononucleosis</td>
+          <td>Memory B cells (EBNA1 only)</td>
+          <td>Burkitt lymphoma, Hodgkin lymphoma, DLBCL, NPC, EBV+ gastric cancer; MS susceptibility</td>
+        </tr>
+        <tr>
+          <td><strong>CMV (HHV-5)</strong></td>
+          <td>Cytomegalovirus</td>
+          <td>Monocytes, macrophages, endothelium, epithelium</td>
+          <td>Congenital CMV, retinitis (AIDS), colitis</td>
+          <td>Myeloid progenitor cells, endothelium</td>
+          <td>Most common congenital infection (0.6% births); leading infectious cause of sensorineural hearing loss</td>
+        </tr>
+        <tr>
+          <td><strong>HHV-6A / HHV-6B</strong></td>
+          <td>Human herpesvirus 6</td>
+          <td>CD4<sup>+</sup> T cells</td>
+          <td>HHV-6B: roseola infantum (exanthem subitum); HHV-6A: less defined</td>
+          <td>CD4<sup>+</sup> T cells; chromosomally integrated HHV-6 (ciHHV-6) in ~1% of population</td>
+          <td>Post-transplant encephalitis; ciHHV-6 confounds viral load assays</td>
+        </tr>
+        <tr>
+          <td><strong>HHV-7</strong></td>
+          <td>Human herpesvirus 7</td>
+          <td>CD4<sup>+</sup> T cells (CD4 is receptor)</td>
+          <td>Second or third episode of roseola; febrile seizures</td>
+          <td>CD4<sup>+</sup> T cells, salivary glands</td>
+          <td>Near-universal infection by adulthood; can reactivate CMV in transplant recipients</td>
+        </tr>
+        <tr>
+          <td><strong>KSHV (HHV-8)</strong></td>
+          <td>Kaposi sarcoma herpesvirus</td>
+          <td>B cells, endothelial cells, macrophages</td>
+          <td>Kaposi sarcoma, primary effusion lymphoma (PEL), multicentric Castleman disease (MCD)</td>
+          <td>B cells</td>
+          <td>All KS lesions carry KSHV; lytic KSHV drives angiogenesis via viral IL-6 (vIL-6), vGPCR; associated with HIV/AIDS</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="structure">
+    <h2>Virion Architecture</h2>
+    <p>All herpesviruses share a four-layered structure that is conserved across the family, with a diameter of approximately 150&ndash;200 nm for the enveloped virion.</p>
+    <ul>
+      <li><strong>Core (innermost):</strong> The linear dsDNA genome (125&ndash;235 kb depending on species) is packaged in a toroidal or liquid-crystalline array within the capsid interior, under high pressure (~20 atmospheres in some estimates). The genome is packaged with spermidine and other polyamines that partially neutralize the negative charge of DNA.</li>
+      <li><strong>Icosahedral capsid:</strong> T=16 icosahedral symmetry; 162 capsomers (150 hexons + 12 pentons) assembled from the major capsid protein (VP5/UL19 for HSV). Each penton sits at an icosahedral vertex and is surrounded by 5 hexons. Triplexes (VP23/VP19C heterotrimers) stabilize hexon&ndash;hexon and hexon&ndash;penton interfaces. Capsid diameter is ~125 nm.</li>
+      <li><strong>Tegument:</strong> An amorphous protein layer occupying the space between capsid and envelope. Contains ~25 viral proteins in HSV; functionally critical for immediately post-entry events. Key tegument proteins include:
+        <ul>
+          <li><strong>VP16 (UL48/&alpha;-TIF):</strong> Transactivator; recruits Oct-1 and HCF-1 to form a complex that activates all immediate-early (IE) viral genes via TAATGARAT elements</li>
+          <li><strong>UL41 (vhs, virion host shutoff protein):</strong> RNase that degrades cellular mRNAs non-selectively immediately after entry, blunting the early innate response</li>
+          <li><strong>VP22 (UL49):</strong> Most abundant tegument protein; nuclear and cytoplasmic roles; facilitates capsid transport</li>
+          <li><strong>UL36/UL37:</strong> Inner tegument proteins that directly contact the capsid and are required for retrograde transport along microtubules</li>
+        </ul>
+      </li>
+      <li><strong>Lipid envelope:</strong> Derived from host cell membranes (trans-Golgi network for secondary envelopment) and studded with viral glycoproteins. For HSV, the essential entry glycoproteins are <strong>gB</strong> (fusion protein, class III), <strong>gD</strong> (receptor binding; binds HVEM, nectin-1, or 3-O-sulfated heparan sulfate), and the <strong>gH/gL heterodimer</strong> (fusogen activator). <strong>gC</strong> is non-essential but binds heparan sulfate proteoglycans (initial attachment) and complement C3b (immune evasion).</li>
+    </ul>
+    <div class="callout"><strong>Envelopment is complex:</strong> HSV capsids undergo primary envelopment at the inner nuclear membrane then de-envelopment at the outer nuclear membrane to reach the cytoplasm; they then re-envelop into trans-Golgi-derived vesicles (secondary envelopment) before exocytosis. This unusual dual-envelopment pathway is conserved across Herpesviridae.</div>
+  </div>
+
+  <div class="section" id="latency">
+    <h2>Latency Mechanisms</h2>
+    <h3>HSV Neuronal Latency</h3>
+    <p>Following primary orofacial infection, HSV-1 replicates in mucosal epithelial cells and infects sensory nerve terminals. Viral capsids undergo <strong>retrograde axonal transport</strong> at ~2 &mu;m/s along microtubules (driven by dynein/dynactin motors via UL36/UL37 tegument adapters) to the cell body of sensory neurons in the trigeminal ganglia (for HSV-1) or sacral DRG (for HSV-2).</p>
+    <p>In the neuronal nucleus, the linear genome circularizes and is maintained as a <strong>circular episome</strong> associated with nucleosomes in a chromatin state that silences all lytic genes. The only abundant viral transcript during latency is the <strong>LAT (latency-associated transcript)</strong>, a stable ~2 kb intron-containing non-coding RNA derived from a longer (~8.3 kb) primary transcript. LAT is not translated into protein but plays multiple roles:</p>
+    <ul>
+      <li>Promotes epigenetic silencing of ICP0, ICP4, and other lytic genes via heterochromatin marks (H3K27me3)</li>
+      <li>Encodes multiple small RNAs (miRNAs) that suppress ICP0 and ICP34.5 expression</li>
+      <li>May promote neuron survival (anti-apoptotic function)</li>
+    </ul>
+    <p>The key lytic transactivators <strong>ICP0</strong> (ubiquitin ligase, disrupts ND10/PML bodies), <strong>ICP4</strong> (major transcriptional activator), and <strong>VP16</strong> (tegument transactivator) are all absent or severely suppressed during latency. CD8<sup>+</sup> T cells accumulate around latently infected neurons and provide ongoing immune surveillance, expressing granzyme B and IFN-&gamma; without killing neurons — an immunological equilibrium called "non-cytolytic control."</p>
+    <h3>VZV Latency</h3>
+    <p>VZV establishes latency in dorsal root ganglia, trigeminal ganglia, and geniculate ganglia following primary varicella. Unlike HSV, VZV latency involves expression of multiple viral genes including VLT (VZV latency-associated transcript) and ORF63 protein. VZV genome is maintained as a circular episome but is less extensively silenced than HSV, possibly reflecting evolutionary adaptation to VZV's unique need to maintain competence for reactivation across decades.</p>
+    <h3>EBV Latency in Memory B Cells</h3>
+    <p>EBV infects na&iuml;ve B cells via CD21 (complement receptor 2) in the oropharynx, drives them into a growth-transformed latency III state expressing all 9 EBNAs and LMPs (Epstein-Barr nuclear antigens and latent membrane proteins). Transformed B blasts are eliminated by CD8<sup>+</sup> cytotoxic T lymphocytes (this process generates the classic mononucleosis syndrome). Cells that survive differentiate through a germinal-centre reaction to long-lived memory B cells, in which EBV establishes latency I: only <strong>EBNA1</strong> is expressed. EBNA1 is required for episome maintenance and segregation at cell division; it evades CD8<sup>+</sup> T cell recognition via its <strong>Gly-Ala repeat</strong> domain, which inhibits its own proteasomal degradation and thereby prevents peptide presentation on MHC class I.</p>
+    <div class="callout"><strong>EBV and autoimmunity:</strong> Epidemiological and molecular evidence links prior EBV infection to an estimated 32-fold increased risk of multiple sclerosis (MS). Molecular mimicry between EBNA1 (residues 411&ndash;426) and GlialCAM, an MS autoantigen, may be a contributing mechanism (Lanz et al., <em>Science</em> 2022).</div>
+  </div>
+
+  <div class="section" id="reactivation">
+    <h2>Reactivation</h2>
+    <p>Reactivation from latency is triggered by diverse stimuli that converge on transcriptional de-repression of lytic gene promoters. For HSV, stimuli include UV light exposure (facial skin), fever, psychological stress, hormonal changes, and immunosuppression. Mechanistically, activation likely involves:</p>
+    <ol>
+      <li>Disruption of heterochromatin silencing on IE gene promoters — loss of H3K27me3 and gain of H3K4me3 marks</li>
+      <li>Local neuronal activity changes or stress-induced neuropeptides influencing VP16 availability or nuclear factor activity</li>
+      <li>VP16 in incoming virion tegument (or newly expressed after initial de-repression) recruits the cellular coactivator HCF-1 and Oct-1 to form a tripartite complex on TAATGARAT motifs in IE promoters, driving robust transcription of ICP0 and ICP4</li>
+      <li>ICP0 ubiquitin E3 ligase activity disrupts PML nuclear bodies (ND10 domains), removes repressive chromatin factors, and broadly de-represses the viral genome</li>
+      <li>Full lytic replication proceeds; newly assembled capsids undergo anterograde axonal transport (kinesin-dependent) to the mucosal surface where progeny virus is shed, often without clinical symptoms (subclinical shedding)</li>
+    </ol>
+    <p>For VZV, reactivation is strongly associated with declining cell-mediated immunity, particularly VZV-specific CD4<sup>+</sup> T cells, which normally maintain quiescence. Age-related immune senescence and immunosuppressive therapy (corticosteroids, biologics, post-transplant regimens) are the dominant risk factors for clinical zoster.</p>
+  </div>
+
+  <div class="section" id="immune-evasion">
+    <h2>Immune Evasion Strategies</h2>
+    <p>Herpesviruses encode numerous proteins dedicated to subverting both innate and adaptive immune responses, reflecting the evolutionary pressure of lifelong coexistence with immunocompetent hosts.</p>
+    <table>
+      <thead>
+        <tr><th>Virus</th><th>Protein</th><th>Target</th><th>Mechanism</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HSV-1/2</td>
+          <td><strong>gC (UL44)</strong></td>
+          <td>Complement</td>
+          <td>Binds C3b on virion surface, blocking C3b-mediated opsonisation, C5 convertase assembly, and MAC formation (complement decoy)</td>
+        </tr>
+        <tr>
+          <td>HSV-1/2</td>
+          <td><strong>gE/gI (UL10/UL11)</strong></td>
+          <td>Antibody Fc region</td>
+          <td>Viral FcR: gE/gI heterodimer binds the Fc region of IgG, blocking ADCC, complement fixation via antibody, and preventing NK cell recognition; also promotes cell-to-cell spread</td>
+        </tr>
+        <tr>
+          <td>HSV-1/2</td>
+          <td><strong>ICP47 (US12)</strong></td>
+          <td>TAP1/TAP2</td>
+          <td>Blocks the transporter associated with antigen processing (TAP) pore, preventing viral peptide loading onto MHC class I in the ER → MHC-I molecules are retained in ER → CD8<sup>+</sup> T cells cannot recognize infected cells</td>
+        </tr>
+        <tr>
+          <td>HSV-1</td>
+          <td><strong>UL41 (vhs)</strong></td>
+          <td>mRNA / innate response</td>
+          <td>Non-selective mRNA endonuclease; degrades host mRNAs including IFN-&beta; and cytokine transcripts immediately upon entry; also degrades viral mRNAs to regulate kinetics of viral gene expression</td>
+        </tr>
+        <tr>
+          <td>CMV</td>
+          <td><strong>UL18</strong></td>
+          <td>NK cell inhibitory receptor LILRB1 (ILT2)</td>
+          <td>MHC-I homolog; binds LILRB1 on NK cells with ~1000× higher affinity than cellular MHC-I → transduces inhibitory signal → prevents NK cell killing of CMV-infected cells despite MHC-I downregulation</td>
+        </tr>
+        <tr>
+          <td>CMV</td>
+          <td><strong>US11 &amp; US2</strong></td>
+          <td>MHC class I heavy chain</td>
+          <td>US11 redirects newly synthesised MHC-I heavy chains from the ER to the cytosol for proteasomal degradation (dislocation); US2 targets both MHC-I and MHC-II for retrotranslocation and degradation</td>
+        </tr>
+        <tr>
+          <td>CMV</td>
+          <td><strong>UL16, UL142, UL83</strong></td>
+          <td>NK activating ligands</td>
+          <td>UL16/UL142 retain NKG2D ligands (MICB, ULBP) in ER/Golgi; UL83 (pp65) suppresses NKG2D surface expression; net effect is reduced NKG2D-mediated NK activation</td>
+        </tr>
+        <tr>
+          <td>EBV</td>
+          <td><strong>EBNA1 Gly-Ala repeat</strong></td>
+          <td>Proteasome / MHC-I presentation</td>
+          <td>Cis-inhibition of EBNA1 proteasomal processing; intrinsic repeat sequence inhibits proteasomal degradation in a length-dependent manner → EBNA1 peptides are not generated → CD8<sup>+</sup> T cells cannot eliminate latently infected B cells</td>
+        </tr>
+        <tr>
+          <td>EBV</td>
+          <td><strong>BCRF1 (viral IL-10)</strong></td>
+          <td>Th1 immune response</td>
+          <td>EBV-encoded homolog of human IL-10; suppresses NK and T cell activity, inhibits macrophage activation and IL-12 production; promotes survival of infected B cells</td>
+        </tr>
+        <tr>
+          <td>KSHV</td>
+          <td><strong>K3 / K5 (MIR1/MIR2)</strong></td>
+          <td>MHC-I, B7-2, ICAM-1</td>
+          <td>RING-domain E3 ubiquitin ligases that target MHC-I (K3), as well as B7-2 (CD86), ICAM-1, and other immune ligands (K5) for ubiquitin-mediated endocytosis and lysosomal degradation</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="pathology">
+    <h2>Clinical Pathology</h2>
+    <table>
+      <thead>
+        <tr><th>Virus</th><th>Immunocompetent Disease</th><th>Immunocompromised Disease</th><th>Oncogenic Associations</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>HSV-1</strong></td>
+          <td>Labialis (cold sores), gingivostomatitis, keratitis, herpetic whitlow, Bell&rsquo;s palsy (possible contributor)</td>
+          <td>Disseminated mucocutaneous HSV, tracheobronchitis, esophagitis, necrotizing retinitis</td>
+          <td>None established (weak cervical/oropharyngeal cancer associations are confounded by HPV co-infection)</td>
+        </tr>
+        <tr>
+          <td><strong>HSV-2</strong></td>
+          <td>Genital ulcers, proctitis, meningitis (Mollaret&rsquo;s)</td>
+          <td>Severe/disseminated, esophagitis, encephalitis</td>
+          <td>None established</td>
+        </tr>
+        <tr>
+          <td><strong>VZV</strong></td>
+          <td>Varicella (chickenpox) in primary; herpes zoster (shingles) in reactivation; postherpetic neuralgia</td>
+          <td>Disseminated VZV, VZV pneumonia, VZV encephalitis; VZV vasculopathy (stroke in elderly)</td>
+          <td>None established</td>
+        </tr>
+        <tr>
+          <td><strong>EBV</strong></td>
+          <td>Infectious mononucleosis (&ldquo;mono&rdquo;); 90% of adults seropositive</td>
+          <td>Post-transplant lymphoproliferative disorder (PTLD); oral hairy leukoplakia (HIV)</td>
+          <td>Burkitt lymphoma (c-Myc translocation), Hodgkin lymphoma (RS cells), DLBCL, NPC (nasopharyngeal carcinoma, endemic in SE Asia), EBV+ gastric carcinoma, NK/T cell lymphoma; WHO group 1 carcinogen</td>
+        </tr>
+        <tr>
+          <td><strong>CMV</strong></td>
+          <td>Usually asymptomatic or mild mononucleosis-like illness; congenital CMV (leading cause of non-genetic sensorineural hearing loss)</td>
+          <td>CMV retinitis (AIDS), CMV colitis/esophagitis, CMV pneumonitis (SOT/HSCT), CMV encephalitis</td>
+          <td>Possible role in glioblastoma (evidence controversial); CMV protein expression detected in >90% GBM specimens in some studies</td>
+        </tr>
+        <tr>
+          <td><strong>KSHV (HHV-8)</strong></td>
+          <td>Asymptomatic in immunocompetent; classic KS in elderly Mediterranean/African men (indolent)</td>
+          <td>Epidemic KS (AIDS-related, aggressive); iatrogenic KS (post-transplant); primary effusion lymphoma (PEL); multicentric Castleman disease</td>
+          <td>Kaposi sarcoma (WHO group 1 carcinogen); PEL; MCD</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">treated by</span><span><a href="acyclovir.html">Acyclovir / Valacyclovir</a> &mdash; nucleoside analogue prodrugs activated by viral thymidine kinase; selective against HSV-1, HSV-2, and VZV; mechanism and resistance detailed on the drug page</span></li>
+      <li><span class="conn-rel">vaccine</span><span><a href="shingrix-rzv.html">Shingrix (RZV)</a> &mdash; recombinant VZV glycoprotein E + AS01B adjuvant vaccine; >90% efficacy against zoster and postherpetic neuralgia in adults &ge;50 years</span></li>
+      <li><span class="conn-rel">vaccine</span><span><a href="varivax.html">Varivax (Oka-strain VZV)</a> &mdash; live-attenuated VZV vaccine; primary prevention of varicella; also used as Zostavax booster for zoster</span></li>
+      <li><span class="conn-rel">related virus</span><span><a href="spike-protein.html">Spike Protein (SARS-CoV-2)</a> &mdash; distinct viral family (Coronaviridae) but comparison of immune evasion strategies and glycoprotein fusion mechanisms is instructive</span></li>
+      <li><span class="conn-rel">hub page</span><span><a href="pathogens.html">Pathogens Atlas</a> &mdash; overview of viral and bacterial pathogens covered in the Human Engineering Atlas</span></li>
+      <li><span class="conn-rel">immune target</span><span><a href="mhc-ii.html">MHC Class II</a> &mdash; EBV and CMV specifically target MHC class II processing; US2 (CMV) degrades both MHC-I and MHC-II heavy chains</span></li>
+      <li><span class="conn-rel">immune effector</span><span><a href="antibody.html">Antibodies</a> &mdash; gE/gI FcR mimic on HSV directly hijacks IgG Fc function; gC sequesters complement; antibody-mediated neutralization is a target of herpesvirus immune evasion</span></li>
+    </ul>
+  </div>
+
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>Roizman B, Whitley RJ. An inquiry into the molecular basis of HSV latency and reactivation. <em>Annu Rev Microbiol.</em> 2013;67:355&ndash;374. doi:10.1146/annurev-micro-092412-155654</li>
+      <li>Davison AJ. Herpesvirus systematics. <em>Vet Microbiol.</em> 2010;143(1):52&ndash;69. doi:10.1016/j.vetmic.2010.02.014</li>
+      <li>Bhatt DL, Zipes DP. Human herpesvirus entry: defining the keys to cell tropism. <em>Cell Host Microbe.</em> 2020;27(4):493&ndash;505. [Review of HHV entry and glycoprotein function]</li>
+      <li>Leib DA, Bhatt DL. Herpesvirus tegument structure, assembly, and roles during infection. <em>Viruses.</em> 2011;3(12):2373&ndash;2391. doi:10.3390/v3122373</li>
+      <li>Knipe DM, Howley PM. <em>Fields Virology.</em> 7th ed. Wolters Kluwer; 2021. Chapters 60&ndash;68 (Herpesviridae).</li>
+      <li>Lanz TV, Brewer RC, Ho PP, et al. Clonally expanded B cells in multiple sclerosis bind EBV EBNA1 and GlialCAM. <em>Nature.</em> 2022;603(7900):321&ndash;327. doi:10.1038/s41586-022-04432-7</li>
+      <li>Cohen JI. Herpesvirus latency. <em>J Clin Invest.</em> 2020;130(7):3361&ndash;3369. doi:10.1172/JCI136225</li>
+      <li>Mocarski ES, Shenk T, Pass RF. Cytomegaloviruses. In: Knipe DM, Howley PM, eds. <em>Fields Virology.</em> 5th ed. 2007;2701&ndash;2772.</li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p>Human Engineering &mdash; Open knowledge atlas at <a href="https://equalinformation.com/human">equalinformation.com/human</a>.<br>
+  Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:.6rem">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. <strong>Not medical advice.</strong> For research and educational use only.</p>
+  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+</footer>
+
+</body>
+</html>
