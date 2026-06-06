@@ -91,6 +91,7 @@
     .card.platform-live         { background: linear-gradient(135deg, #1e3a5f, #1e293b); }
     .card.platform-toxoid       { background: linear-gradient(135deg, #334155, #1e293b); }
     .card.platform-vlp          { background: linear-gradient(135deg, #172554, #0f172a); }
+    .card.platform-conjugate    { background: linear-gradient(135deg, #1e3a8a, #1e40af); }
 
     /* ---------- ENTRY ROWS ---------- */
     .entry-section { margin-top: 2rem; }
@@ -144,6 +145,7 @@
         <a href="#live-attenuated">Live</a>
         <a href="#toxoid">Toxoid</a>
         <a href="#vlp">VLP</a>
+        <a href="#conjugate">Conjugate</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -159,7 +161,7 @@
     <p class="subtagline">A vaccine is a designed molecular interface between a host immune system and a pathogen antigen. Understanding that interface at the mechanistic level — delivery vehicle, adjuvant, antigen format, immune readout — is prerequisite to designing the next one in hours. Open and free for all of humanity.</p>
     <div class="stat-row">
       <div class="stat"><span class="stat-num">~20</span><span class="stat-label">Licensed (WHO)</span></div>
-      <div class="stat"><span class="stat-num">7</span><span class="stat-label">Platforms</span></div>
+      <div class="stat"><span class="stat-num">8</span><span class="stat-label">Platforms</span></div>
       <div class="stat"><span class="stat-num">~5B</span><span class="stat-label">Doses / Year</span></div>
       <div class="stat"><span class="stat-num">2020</span><span class="stat-label">First mRNA Vaccine</span></div>
     </div>
@@ -170,7 +172,7 @@
     <!-- ===== PLATFORM OVERVIEW ===== -->
     <section class="cat-section">
       <div class="cat-eyebrow">The Platforms</div>
-      <h2>Seven delivery platforms. Every licensed human vaccine maps to one.</h2>
+      <h2>Eight delivery platforms. Every licensed human vaccine maps to one.</h2>
       <p class="cat-desc">Each platform encodes a fundamentally different answer to the question: how do you present a foreign antigen to the immune system safely and durably? The choice of platform determines thermostability, manufacturing complexity, innate immune activation profile, and suitability for rapid redesign.</p>
       <div class="cards-grid">
 
@@ -221,6 +223,13 @@
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8"/><path d="M12 4v2M12 18v2M4 12h2M18 12h2"/></svg>
           </div>
           <div class="card-body"><h3>VLP</h3><p>Recombinant virus-like particles (L1, HBsAg) — no nucleic acid. Dense multivalent antigen display drives strong B-cell responses.</p></div>
+        </div>
+
+        <div class="card platform-conjugate" style="cursor:pointer;" onclick="window.location='#conjugate'">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="3"/><circle cx="15" cy="12" r="3"/><path d="M12 9v6"/></svg>
+          </div>
+          <div class="card-body"><h3>Conjugate</h3><p>Polysaccharide capsular antigens conjugated to carrier protein (CRM197). Converts TI-2 to T-cell-dependent response; enables infant immunisation from 6 weeks.</p></div>
         </div>
 
       </div>
@@ -363,6 +372,24 @@
             <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
           </a>
 
+          <a class="entry-row" style="border-left-color:#1e3a5f;" href="oral-polio-vaccine.html">
+            <div class="entry-info">
+              <div class="entry-name">OPV &mdash; Oral Polio Vaccine (Sabin trivalent)</div>
+              <div class="entry-class">Multiple manufacturers &nbsp;&middot;&nbsp; Live-attenuated poliovirus types 1, 2, 3 (Sabin strains) &nbsp;&middot;&nbsp; Oral; intestinal sIgA induction</div>
+            </div>
+            <span class="entry-stat">&gt;99.9% reduction in wild poliovirus cases (1988&ndash;2023) &nbsp;&middot;&nbsp; VAPP ~1:750,000 first doses &nbsp;&middot;&nbsp; Core tool of WHO GPEI eradication program</span>
+            <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+          </a>
+
+          <a class="entry-row" style="border-left-color:#1e3a5f;" href="mmr-vaccine.html">
+            <div class="entry-info">
+              <div class="entry-name">MMR Vaccine (M-M-R II / Priorix)</div>
+              <div class="entry-class">Merck / GSK &nbsp;&middot;&nbsp; Measles (Edmonston B), Mumps (Jeryl Lynn B), Rubella (RA 27/3) &nbsp;&middot;&nbsp; Live-attenuated triple combination</div>
+            </div>
+            <span class="entry-stat">&gt;97% seroconversion (2-dose) &nbsp;&middot;&nbsp; Measles US eliminated 2000; CRS Americas eliminated 2015 &nbsp;&middot;&nbsp; Wakefield 1998: RETRACTED 2010; no MMR&ndash;autism link</span>
+            <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+          </a>
+
         </div>
       </div>
     </section>
@@ -402,6 +429,27 @@
               <div class="entry-class">Merck &nbsp;&middot;&nbsp; HPV L1 VLP (9-valent: types 6, 11, 16, 18, 31, 33, 45, 52, 58) &nbsp;&middot;&nbsp; AS04 adjuvant (alum + MPL)</div>
             </div>
             <span class="entry-stat">&gt;96% efficacy CIN2+ against covered types &nbsp;&middot;&nbsp; 2-dose adolescents / 3-dose adults &nbsp;&middot;&nbsp; 2&ndash;8&deg;C &nbsp;&middot;&nbsp; Prevents 90% HPV-related cancers</span>
+            <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PLATFORM 08: CONJUGATE ===== -->
+    <section class="cat-section" id="conjugate">
+      <div class="cat-eyebrow">Platform 08</div>
+      <h2>Conjugate Vaccines</h2>
+      <p class="cat-desc">Polysaccharide capsular antigens from encapsulated bacteria (<em>Streptococcus pneumoniae</em>, <em>Haemophilus influenzae</em> type b, <em>Neisseria meningitidis</em>) are individually conjugated to a carrier protein — most commonly CRM197 (a non-toxic diphtheria toxin mutant) or tetanus toxoid. This conjugation converts a T-cell-independent (TI-2) polysaccharide antigen into a T-cell-dependent one, enabling germinal center reactions, affinity maturation, memory B-cell formation, and effective immunisation of infants as young as 6 weeks. The central immunological innovation of the conjugate platform — first established for Hib vaccine by Robbins and Schneerson — is responsible for the near-elimination of invasive <em>H. influenzae</em> type b disease and the dramatic reduction in pneumococcal and meningococcal invasive disease across all age groups.</p>
+      <div class="entry-section">
+        <div class="entry-list">
+
+          <a class="entry-row" style="border-left-color:#1e40af;" href="pcv13.html">
+            <div class="entry-info">
+              <div class="entry-name">PCV13 (Prevnar 13)</div>
+              <div class="entry-class">Pfizer &nbsp;&middot;&nbsp; 13 pneumococcal capsular polysaccharide serotypes conjugated to CRM197 &nbsp;&middot;&nbsp; Aluminium phosphate adjuvant &nbsp;&middot;&nbsp; Pediatric + adult (&ge;50)</div>
+            </div>
+            <span class="entry-stat">75% VE vs. IPD (CAPiTA RCT, n=84,496) &nbsp;&middot;&nbsp; &gt;80% reduction in vaccine-type IPD in children &nbsp;&middot;&nbsp; 3+1 dose schedule &nbsp;&middot;&nbsp; 2&ndash;8&deg;C &nbsp;&middot;&nbsp; PCV7&rarr;PCV13&rarr;PCV15/20</span>
             <svg class="entry-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
           </a>
 
