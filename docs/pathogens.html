@@ -156,6 +156,17 @@
     .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
     .btn svg { width: 16px; height: 16px; }
 
+    /* ---------- ENTRY ROWS (list view) ---------- */
+    .entry-subsection { margin-top: 1.5rem; }
+    .entry-list { display: flex; flex-direction: column; gap: 0.4rem; }
+    .entry-row { display: flex; align-items: center; gap: 1rem; padding: 0.75rem 1rem; border-left: 3px solid; border-radius: 0 8px 8px 0; background: var(--bg-elev); text-decoration: none; color: inherit; transition: background 0.15s; }
+    .entry-row:hover { background: var(--bg-soft); }
+    .entry-info { flex: 1; min-width: 0; }
+    .entry-name { font-weight: 600; color: var(--fg); font-size: 0.92rem; }
+    .entry-class { font-size: 0.78rem; color: var(--muted); margin-top: 0.15rem; }
+    .entry-stat { font-size: 0.78rem; color: var(--muted-2); white-space: nowrap; flex-shrink: 0; max-width: 280px; text-align: right; }
+    .entry-arrow { width: 18px; height: 18px; color: var(--muted-2); flex-shrink: 0; }
+
     /* ---------- FOOTER ---------- */
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
