@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lung Alveolus — functional gas-exchange unit: AT1/AT2 pneumocytes, surfactant biophysics (DPPC, LaPlace law), Fick diffusion, alveolar-capillary barrier (0.2–0.7 µm), innate immunity. Scale L05 Tissue/Organ of the Human Atlas.">
+  <meta property="og:title" content="Lung Alveolus — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Lung Alveolus — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0071e3;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(0,113,227,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0071e3, #003d82); }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
+    .detail-section p:last-child { margin-bottom: 0; }
+    .detail-section strong { color: var(--fg); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); }
+    .data-table td strong { color: var(--fg); font-weight: 700; }
+    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
+    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
+    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
+    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
+    .pathology-item:last-child { margin-bottom: 0; }
+    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
+    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .pathology-item.danger { border-left-color: #dc2626; }
+    .pathology-item.warn { border-left-color: var(--human); }
+    .pathology-item.info { border-left-color: var(--eng); }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="../index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#mission">Mission</a>
+        <a href="../index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="../index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas One &middot; Host Biology &middot; Scale L05 &mdash; Tissue / Organ</div>
+    <h1>Lung Alveolus</h1>
+    <p class="tagline">The functional gas-exchange unit of the lung — a 0.2 mm air sac whose ultrathin walls enable O₂ and CO₂ diffusion between atmosphere and blood across a barrier of 0.2–0.7 µm.</p>
+    <p class="subtagline">~300–500 million alveoli per lung; total gas-exchange surface ~70 m². Lined by AT1 pneumocytes (gas exchange), AT2 pneumocytes (surfactant, progenitor), and alveolar macrophages. Surfactant reduces surface tension from ~70 to &lt;5 mN/m, preventing collapse at end-expiration.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">~0.2 mm</span><span class="stat-label">Mean alveolar diameter</span></div>
+      <div class="stat"><span class="stat-num">0.2–0.7 µm</span><span class="stat-label">Alveolar-capillary barrier</span></div>
+      <div class="stat"><span class="stat-num">&lt;5 mN/m</span><span class="stat-label">Surface tension with surfactant</span></div>
+      <div class="stat"><span class="stat-num">~70 m²</span><span class="stat-label">Total gas-exchange surface</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="detail-card">
+      <div class="detail-header">
+        <div class="entry-eyebrow">UBERON:0002299 &middot; FMA:7318 &middot; Scale L05 Tissue/Organ &middot; Respiratory</div>
+        <h2>Lung Alveolus</h2>
+        <p class="summary">The alveolus is the terminal respiratory unit — a thin-walled, air-filled polyhedral sac (~0.2 mm diameter) lined by type I (AT1) and type II (AT2) pneumocytes, studded with alveolar macrophages, and surrounded by a dense network of pulmonary capillaries. Gas exchange follows Fick's law across the alveolar-capillary barrier (total thickness 0.2–0.7 µm). AT2 cells secrete pulmonary surfactant — a phospholipid-protein film dominated by DPPC — that reduces alveolar surface tension from ~70 mN/m (air-water interface) to below 5 mN/m, counteracting the LaPlace pressure that would collapse small alveoli. AT2 cells also serve as the alveolar progenitor, replenishing AT1 cells after injury. Alveolar macrophages provide first-line innate immune defence via pattern recognition (TLR4/CD14), and SP-A and SP-D act as soluble collectins that opsonise pathogens. Dysfunction of the alveolar unit underlies ARDS, pulmonary fibrosis, infant RDS, and severe pneumonia.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Overview</h3>
+          <p>The alveolus is the <strong>terminal gas-exchange unit</strong> of the mammalian lung — a polyhedral air sac (mean diameter ~200 µm) at the end of alveolar ducts (generations 20–22 by Weibel's model) and alveolar sacs (generation 23). Each lung contains approximately 300–500 million alveoli providing a collective gas-exchange surface area of roughly 70 m² — roughly the floor area of a studio apartment — folded into an organ that weighs only ~350 g per side.</p>
+          <p>The alveolar wall (septum) consists of the capillary endothelium, fused basement membranes, and the overlying pneumocyte layer, with a total thickness averaging <strong>0.2–0.7 µm</strong> on the thin (gas-exchange) side. This extraordinarily slim barrier enables the rapid diffusion equilibration of O₂ and CO₂ that sustains aerobic life.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Alveolar Cell Types</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Type I Pneumocytes (AT1)</h4>
+              <p>Flat, squamous epithelial cells covering approximately <strong>95% of the alveolar surface area</strong> despite constituting only ~40% of alveolar cells by number. Individual cells are extremely thin — cytoplasmic thickness 0.1–0.5 µm over the gas-exchange zones — and spread over areas up to 5,000 µm². Joined by tight junctions (ZO-1, claudin-3/18) that prevent alveolar flooding. AT1 cells lack proliferative capacity; after injury they must be replenished by AT2-to-AT1 transdifferentiation.</p>
+            </div>
+            <div class="info-block">
+              <h4>Type II Pneumocytes (AT2)</h4>
+              <p>Cuboidal cells covering only <strong>~5% of alveolar surface area</strong> but accounting for ~60% of alveolar epithelial cells by number; preferentially located at alveolar corners. Contain distinctive lamellar bodies — the intracellular storage organelle for surfactant — which exocytose their contents to form the surface-active film. AT2 cells are the <strong>alveolar stem cell</strong>: they self-renew and transdifferentiate into AT1 cells during normal epithelial turnover and after acute lung injury, driven by Wnt/β-catenin and EGF receptor signalling.</p>
+            </div>
+            <div class="info-block">
+              <h4>Alveolar Macrophages (AMs)</h4>
+              <p>Tissue-resident macrophages that patrol the alveolar airspace. Derived from fetal liver monocytes and maintained locally by self-renewal, supplemented by blood-borne monocytes under inflammatory conditions. Primary functions: phagocytosis of inhaled particles and microorganisms; TLR4/CD14 sensing of lipopolysaccharide (LPS) from gram-negative bacteria; secretion of TNF-α, IL-1β, IL-6, and IL-12 upon activation; removal of apoptotic cells (efferocytosis) to maintain alveolar homeostasis. AMs simultaneously suppress excessive inflammation via IL-10 and TGF-β to prevent immunopathology.</p>
+            </div>
+            <div class="info-block">
+              <h4>Club Cells (Clara Cells) at the Junction</h4>
+              <p>Non-ciliated secretory cells concentrated at the <strong>bronchiolar-alveolar junction</strong> (terminal and respiratory bronchioles). Secrete Club Cell Secretory Protein (CC16/CC10/uteroglobin), a potent anti-inflammatory protein that suppresses phospholipase A2. Also express CYP450 enzymes (CYP1B1, CYP2B6) for detoxification of inhaled hydrophobic compounds. Serve as progenitors for the bronchiolar epithelium. Their CYP450 activity makes them preferential targets of inhaled toxicants such as naphthalene.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pulmonary Surfactant — Composition and Biophysics</h3>
+          <p>Pulmonary surfactant is an organised mixture of phospholipids and proteins secreted by AT2 cells, stored in lamellar bodies, and deployed at the air-liquid interface lining each alveolus. Its defining function is to reduce surface tension, opposing the LaPlace pressure that would otherwise collapse small alveoli during exhalation.</p>
+          <div class="formula-block">
+            LaPlace Law:  P = 2T / r
+            <div class="formula-note">P = pressure required to keep alveolus open; T = surface tension; r = alveolar radius. Without surfactant (T ≈ 70 mN/m), small alveoli (r ↓) would require dangerously high pressures and preferentially empty into large ones — leading to atelectasis.</div>
+          </div>
+          <p>Surfactant composition (by mass of dry weight) is approximately:</p>
+          <table class="data-table">
+            <tr><th>Component</th><th>Proportion</th><th>Function</th></tr>
+            <tr><td>DPPC (dipalmitoylphosphatidylcholine)</td><td>~50%</td><td>Principal surface-tension-reducing lipid; saturated acyl chains pack densely at low lung volumes, achieving surface tensions &lt;5 mN/m at end-expiration</td></tr>
+            <tr><td>Unsaturated phosphatidylcholines (POPC etc.)</td><td>~25%</td><td>Maintain fluidity and film spreading at higher lung volumes; prevent crystallisation</td></tr>
+            <tr><td>Phosphatidylglycerol (PG)</td><td>~10%</td><td>Anionic lipid; interacts with SP-B/C; immunomodulatory (TLR4 antagonist)</td></tr>
+            <tr><td>Other lipids (cholesterol, PI, PE)</td><td>~10%</td><td>Structural and regulatory roles</td></tr>
+            <tr><td>SP-A (surfactant protein A)</td><td>~5% protein</td><td>Hydrophilic collectin; opsonises bacteria, fungi, viruses via lectin domain; activates alveolar macrophages; regulates surfactant pool size</td></tr>
+            <tr><td>SP-B</td><td>&lt;1% protein</td><td>Small, amphipathic; critical for lamellar body formation and tubular myelin assembly; <strong>essential for life</strong> — SP-B null is lethal at birth</td></tr>
+            <tr><td>SP-C</td><td>&lt;1% protein</td><td>Extremely hydrophobic transmembrane protein; inserts into lipid monolayer, stabilises film during compression; mutations → familial interstitial pneumonia</td></tr>
+            <tr><td>SP-D (surfactant protein D)</td><td>&lt;1% protein</td><td>Hydrophilic collectin; binds carbohydrate patterns on pathogens; anti-inflammatory; regulates AM activation; SP-D knock-out mice develop emphysema-like pathology</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;">Surfactant reduces alveolar surface tension from <strong>~70 mN/m</strong> (pure air-water interface) to <strong>&lt;5 mN/m</strong> at end-expiration. This 14-fold reduction in T lowers the LaPlace pressure proportionally, allowing normal alveoli to remain open at physiological transpulmonary pressures of 5–10 cmH₂O. Surfactant also exhibits <strong>surface-tension–area hysteresis</strong>: tension rises during inspiration as the film is diluted and falls during expiration as lipids re-pack — a key stabilising feature that couples alveolar stability to the breathing cycle.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Gas Exchange — Fick's Law and Diffusing Capacity</h3>
+          <p>Gas exchange across the alveolar-capillary membrane follows <strong>Fick's law of diffusion</strong>. The rate of transfer is proportional to the diffusion coefficient of the gas and the driving partial pressure gradient, and inversely proportional to membrane thickness:</p>
+          <div class="formula-block">
+            V&#775;gas = (D × A × ΔP) / T
+            <div class="formula-note">D = diffusion coefficient; A = surface area (~70 m²); ΔP = partial pressure gradient; T = membrane thickness (0.2–0.7 µm). CO₂ diffuses ~20× faster than O₂ per unit gradient due to higher solubility in the aqueous membrane.</div>
+          </div>
+          <p><strong>O₂ diffusion:</strong> Alveolar PO₂ ~100 mmHg vs. mixed venous PO₂ ~40 mmHg → net diffusion into capillary blood. Capillary transit time at rest ~0.75 s; O₂ equilibrates in ~0.25 s, leaving a threefold diffusion reserve. Equilibration is diffusion-limited only in extreme exertion or when the barrier is thickened (interstitial lung disease) or surface area is lost (emphysema).</p>
+          <p><strong>CO₂ transfer:</strong> Mixed venous PCO₂ ~46 mmHg vs. alveolar PCO₂ ~40 mmHg. Despite the smaller gradient (6 vs. 60 mmHg for O₂), CO₂ equilibrates rapidly due to its ~20-fold greater solubility. The <strong>Haldane effect</strong> amplifies CO₂ unloading: O₂ binding to haemoglobin in the alveolus reduces Hb's affinity for CO₂ (decreasing carbamino-CO₂) and raises the pKa of carbonic acid, shifting the bicarbonate equilibrium toward CO₂ release — augmenting CO₂ excretion by approximately 60% beyond simple dissolved-gas diffusion.</p>
+          <p>The <strong>diffusing capacity of the lung for CO (DLCO)</strong> is the clinically measured integrative index of the gas-exchange surface area and membrane properties:</p>
+          <div class="formula-block">
+            DLCO = V&#775;CO / (PACO − PcCO)
+            <div class="formula-note">Normal: 20–30 mL/min/mmHg. Reduced in emphysema (↓surface area), IPF (↑membrane thickness), pulmonary hypertension (↓capillary volume), and anaemia (↓Hb binding capacity). Preserved or elevated in pulmonary haemorrhage (extra Hb in alveoli binds CO).</div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Alveolar-Capillary Barrier Architecture</h3>
+          <p>The blood-gas barrier through which O₂ and CO₂ diffuse consists of three layers, each contributed by distinct cell types, but functionally fused to minimise thickness:</p>
+          <table class="data-table">
+            <tr><th>Layer</th><th>Cell / Structure</th><th>Thickness</th><th>Key Features</th></tr>
+            <tr><td>Alveolar epithelium</td><td>AT1 pneumocyte cytoplasm</td><td>0.1–0.3 µm</td><td>Squamous; ZO-1/claudin tight junctions prevent alveolar flooding; aquaporin-5 (AQP5) water channel</td></tr>
+            <tr><td>Fused basement membranes</td><td>Epithelial + endothelial BM fused on thin side</td><td>0.05–0.1 µm</td><td>Collagen IV, laminin, perlecan; separated (with interstitial space) on thick side to allow fluid drainage</td></tr>
+            <tr><td>Capillary endothelium</td><td>Pulmonary capillary endothelial cell</td><td>0.1–0.3 µm</td><td>Fenestrated or non-fenestrated; continuous tight junctions; ACE on surface converts AngI → AngII</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;">Total barrier thickness on the <strong>thin (gas-exchange) side</strong>: 0.2–0.7 µm — thinner than the wavelength of visible light. The <strong>thick side</strong> (0.5–2 µm) contains the interstitial space, fibroblasts, and pericytes, allowing fluid and macromolecule movement via lymphatics. Pathological thickening of this barrier — as in pulmonary fibrosis (collagen deposition) or pulmonary oedema (fluid accumulation) — impairs O₂ transfer preferentially, because CO₂'s greater diffusivity compensates for increased distance.</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Innate Immunity at the Alveolar Surface</h3>
+          <p>The alveolus is continuously exposed to inhaled air carrying microorganisms, particles, and antigens. Several overlapping mechanisms provide rapid innate defence without triggering destructive inflammation:</p>
+          <table class="data-table">
+            <tr><th>Mechanism</th><th>Mediator / Receptor</th><th>Function</th></tr>
+            <tr><td>Collectin opsonisation</td><td>SP-A, SP-D (surfactant proteins)</td><td>Bind carbohydrate patterns on bacterial, fungal, and viral surfaces via C-type lectin domain; promote phagocytosis by alveolar macrophages; SP-A activates AM phagocytosis via calreticulin/CD91; SP-D neutralises influenza A</td></tr>
+            <tr><td>LPS sensing</td><td>TLR4/CD14/MD-2 complex on AMs</td><td>Detect gram-negative LPS; activate NF-κB → TNF-α, IL-1β, IL-6, IL-8 (CXCL8) → neutrophil recruitment</td></tr>
+            <tr><td>Neutrophil recruitment</td><td>IL-8 (CXCL8), C5a, LTB4</td><td>AM-derived CXCL8 binds CXCR2 on circulating neutrophils → diapedesis through capillary wall → alveolar space; neutrophils deploy MPO, elastase, NETs</td></tr>
+            <tr><td>Mucociliary escalator</td><td>Ciliated epithelium + mucus (conducting zone)</td><td>Clears particles &gt;5 µm before reaching alveoli; impaired in cystic fibrosis (ΔF508 CFTR → thick mucus) and primary ciliary dyskinesia</td></tr>
+            <tr><td>Antimicrobial peptides</td><td>β-defensins, lysozyme, lactoferrin</td><td>Secreted by AT2 cells, club cells, macrophages; disrupt microbial membranes; synergise with SP-A/D</td></tr>
+          </table>
+          <p style="margin-top:0.75rem;">Paradoxically, <strong>alveolar macrophages maintain tonic immunosuppression</strong> under homeostatic conditions — producing IL-10, TGF-β, and PGE₂ to prevent sterile inflammation from the constant low-level antigenic load of inhaled air. This tolerance is rapidly overridden by strong TLR signals, but its disruption by, e.g., influenza infection leaves the alveolus hyper-responsive to secondary bacterial superinfection (S. aureus, S. pneumoniae).</p>
+        </div>
+
+        <div class="detail-section">
+          <h3>Pathology</h3>
+          <div class="pathology-item danger">
+            <h4>ARDS — Acute Respiratory Distress Syndrome (Diffuse Alveolar Damage)</h4>
+            <p><strong>Berlin Definition (2012):</strong> acute onset (&lt;7 days), bilateral radiographic infiltrates not fully explained by heart failure, PaO₂/FiO₂ &lt;300 on PEEP ≥5 cmH₂O. Underlying histology = <strong>diffuse alveolar damage (DAD)</strong>: exudative phase (0–7 days) — capillary endothelial and AT1 injury → protein-rich alveolar exudate → hyaline membrane formation + AT2 hyperplasia; proliferative phase (7–21 days) — AT2 progenitor expansion → attempted re-epithelialisation; fibrotic phase (&gt;21 days, in non-resolving ARDS) — collagen deposition → honeycombing. Triggers: pneumonia (including COVID-19), sepsis, aspiration, trauma, pancreatitis. Mortality 35–45% for severe ARDS (P/F &lt;100). Treatment: lung-protective ventilation (6 mL/kg IBW, plateau P &lt;30 cmH₂O), prone positioning (12+ h/day), conservative fluid strategy; no proven pharmacotherapy.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Idiopathic Pulmonary Fibrosis (IPF) — TGF-β Driven Alveolar Remodelling</h4>
+            <p>Progressive fibrotic replacement of the alveolar architecture — the <strong>usual interstitial pneumonia (UIP) pattern</strong> on HRCT: basal, subpleural honeycombing, traction bronchiectasis, and heterogeneous fibrosis. Pathogenesis: repetitive microinjury to the alveolar epithelium (AT2 cells) → aberrant wound healing → TGF-β1 hypersecretion → myofibroblast activation → excessive collagen deposition → alveolar obliteration. Key driver: TGF-β1 binds TGF-βRII/ALK5 → SMAD2/3 phosphorylation → pro-fibrotic gene programme (collagen I/III, fibronectin, α-SMA). Anti-fibrotic therapies: <strong>nintedanib</strong> (tyrosine kinase inhibitor — PDGFR, VEGFR, FGFR — slows FVC decline ~50%) and <strong>pirfenidone</strong> (TGF-β/TNF-α inhibitor — slows decline ~50%). Median survival without treatment 3–5 years. Only cure: lung transplantation.</p>
+          </div>
+          <div class="pathology-item danger">
+            <h4>Infant Respiratory Distress Syndrome (RDS/IRDS) — Surfactant Deficiency</h4>
+            <p>Affects premature infants, especially &lt;28 weeks' gestation, before AT2 cell maturation and surfactant production reach adequate levels (glucocorticoid-dependent maturation pathway: cortisol → glucocorticoid receptor → SP-A/B/C gene transcription + phospholipid synthesis). Inadequate surfactant → alveolar collapse at end-expiration (atelectasis) + high work of breathing → progressive hypoxic respiratory failure. Treatment: <strong>exogenous surfactant replacement</strong> (beractant [bovine lipid extract, contains SP-B analogue] or poractant alfa — instilled via endotracheal tube) plus CPAP/positive-pressure ventilation. Antenatal betamethasone (2 doses, 24 h apart, 24–34 weeks) accelerates fetal AT2 maturation and reduces RDS incidence by ~50%.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Pneumonia — Lobar vs. Bronchopneumonia</h4>
+            <p><strong>Lobar pneumonia:</strong> Homogeneous consolidation of an entire lobe or segment; classic S. pneumoniae community-acquired pattern; four stages — congestion → red hepatisation (alveoli fill with RBCs + fibrin + neutrophils) → grey hepatisation (RBC lysis, macrophages) → resolution. <strong>Bronchopneumonia:</strong> Patchy, multifocal, peribronchiolar consolidation; typical of S. aureus, K. pneumoniae, gram-negatives, viral (influenza, COVID-19); affects multiple lobes. Both patterns result in V/Q mismatch (perfused but unconsolidated alveoli do not ventilate → shunt → hypoxaemia). Atypical pneumonia (Mycoplasma, Legionella, Chlamydophila) — interstitial pattern; alveolar septum thickened without frank consolidation.</p>
+          </div>
+          <div class="pathology-item warn">
+            <h4>Pulmonary Oedema — Hydrostatic vs. Increased Permeability</h4>
+            <p><strong>Hydrostatic (cardiogenic) oedema:</strong> Left heart failure → elevated pulmonary capillary wedge pressure (&gt;18 mmHg) → fluid filtration exceeds lymphatic drainage → interstitial then alveolar oedema. Bat-wing perihilar distribution on CXR; frothy, protein-poor fluid. Treatment: diuretics (furosemide), preload reduction, treat underlying cardiac cause. <strong>Increased-permeability oedema (non-cardiogenic / ARDS):</strong> Endothelial and epithelial injury → disruption of tight junctions → protein-rich fluid floods alveoli. Distinguished from cardiogenic by PCWP ≤18 mmHg, high BAL protein:plasma protein ratio (&gt;0.7), bilateral infiltrates. The two forms can co-exist — distinction critical because diuresis is therapeutic in hydrostatic oedema but must be balanced against cardiac output in ARDS.</p>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="lung.html"><span class="rel">Part of</span>Lung</a>
+            <a class="conn-pill part" href="respiratory-system.html"><span class="rel">Part of</span>Respiratory System</a>
+            <a class="conn-pill" href="type-ii-pneumocyte.html"><span class="rel">Contains</span>Type II Pneumocyte</a>
+            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Coupled to</span>Cardiovascular System</a>
+            <a class="conn-pill" href="surfactant.html"><span class="rel">Produces</span>Pulmonary Surfactant</a>
+            <a class="conn-pill damaged" href="ards.html"><span class="rel">Damaged in</span>ARDS</a>
+            <a class="conn-pill damaged" href="fibrosis.html"><span class="rel">Remodelled in</span>Pulmonary Fibrosis</a>
+            <a class="conn-pill damaged" href="tgf-beta.html"><span class="rel">Driven by</span>TGF-β (IPF)</a>
+            <a class="conn-pill damaged" href="sars-cov-2.html"><span class="rel">Damaged by</span>SARS-CoV-2</a>
+            <a class="conn-pill damaged" href="influenza-a.html"><span class="rel">Damaged by</span>Influenza A</a>
+            <a class="conn-pill" href="macrophage.html"><span class="rel">Patrolled by</span>Alveolar Macrophage</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>References</h3>
+          <ul class="refs">
+            <li>Weibel ER. On the tricks alveolar epithelial cells play to make a good lung. <em>Am J Respir Crit Care Med.</em> 2015;191(5):504–13. <a href="https://doi.org/10.1164/rccm.201409-1663OE" target="_blank" rel="noopener">doi:10.1164/rccm.201409-1663OE</a></li>
+            <li>Whitsett JA, Wert SE, Weaver TE. Alveolar surfactant homeostasis and the pathogenesis of pulmonary disease. <em>Annu Rev Med.</em> 2010;61:105–19. <a href="https://doi.org/10.1146/annurev.med.60.041807.123500" target="_blank" rel="noopener">doi:10.1146/annurev.med.60.041807.123500</a></li>
+            <li>Matthay MA, Zemans RL, Zimmerman GA, et al. Acute respiratory distress syndrome. <em>Nat Rev Dis Primers.</em> 2019;5(1):18. <a href="https://doi.org/10.1038/s41572-019-0069-0" target="_blank" rel="noopener">doi:10.1038/s41572-019-0069-0</a></li>
+            <li>Richeldi L, Collard HR, Jones MG. Idiopathic pulmonary fibrosis. <em>Lancet.</em> 2017;389(10082):1941–52. <a href="https://doi.org/10.1016/S0140-6736(17)30866-8" target="_blank" rel="noopener">doi:10.1016/S0140-6736(17)30866-8</a></li>
+            <li>West JB, Luks AM. <em>West's Respiratory Physiology: The Essentials.</em> 10th ed. Wolters Kluwer; 2016. ISBN 978-1-4963-1011-8.</li>
+            <li>Seeger W, Günther A, Walmrath HD, et al. Alveolar surfactant and adult respiratory distress syndrome: pathogenetic role and therapeutic prospects. <em>Clin Investig.</em> 1993;71(3):177–90. <a href="https://doi.org/10.1007/BF00184908" target="_blank" rel="noopener">doi:10.1007/BF00184908</a></li>
+            <li>Whitsett JA, Alenghat T. Respiratory epithelial cells orchestrate pulmonary innate immunity. <em>Nat Immunol.</em> 2015;16(1):27–35. <a href="https://doi.org/10.1038/ni.3045" target="_blank" rel="noopener">doi:10.1038/ni.3045</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#scales">Scales</a>
+      <a href="lung.html">Lung</a>
+      <a href="respiratory-system.html">Respiratory System</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.4rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

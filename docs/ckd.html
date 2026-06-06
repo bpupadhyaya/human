@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chronic Kidney Disease (CKD) — KDIGO staging G1-G5, albuminuria A1-A3, pathophysiology of nephron loss and hyperfiltration, causes, complications, SGLT2i renoprotection, and renal replacement therapy. Human Engineering Atlas.">
+  <meta property="og:title" content="Chronic Kidney Disease — Human Engineering Atlas">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Chronic Kidney Disease (CKD) — Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .hero{background:linear-gradient(135deg,#fff0f0 0%,#fef2f2 40%,#ffffff 100%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .callout-blue{background:rgba(0,113,227,0.08);border-left:3px solid var(--eng);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout-blue strong{color:var(--eng)}
+    .pathway-block{background:var(--bg-3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:1.1rem 1.25rem;overflow-x:auto;margin:1rem 0}
+    .pathway-block pre{font-family:"SF Mono","Fira Code",Consolas,monospace;font-size:.82rem;line-height:1.65;color:var(--fg-soft)}
+    .kdigo-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--border-strong);border-radius:var(--radius-sm);overflow:hidden;margin:1rem 0;font-size:.84rem}
+    .kdigo-grid .kh{background:var(--bg-3);padding:.5rem .7rem;font-weight:700;font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+    .kdigo-grid .kc{padding:.45rem .7rem;border-top:1px solid var(--border);color:var(--fg-soft);line-height:1.4}
+    .kdigo-grid .kc.red{color:var(--accent);font-weight:700}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    @media(max-width:580px){.kdigo-grid{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="kidney.html">Kidney</a>
+      <a href="hypertension.html">Hypertension</a>
+      <a href="aldosterone.html">Aldosterone</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Atlas One &middot; Human &middot; L05 Tissue/Organ &middot; Nephrology / Clinical</p>
+    <h1>Chronic Kidney <span>Disease</span></h1>
+    <p class="hero-lead">A progressive, irreversible loss of kidney function defined by GFR &lt;60 mL/min/1.73 m&sup2; and/or markers of kidney damage persisting for &gt;3 months. CKD affects approximately 10% of the global population (&sim;800 million people) and is the 12th leading cause of death worldwide, with a cardiovascular mortality risk 10&ndash;20&times; higher than the general population at advanced stages.</p>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span><strong>Scale:</strong> L05 Tissue/Organ</span>
+  <span><strong>ICD-10:</strong> N18 (N18.1&ndash;N18.6)</span>
+  <span><strong>Prevalence:</strong> ~800 million globally (~10%)</span>
+  <span><strong>Guideline:</strong> KDIGO 2012 / 2024 update</span>
+</div>
+
+<div class="content">
+
+  <div class="section" id="definition">
+    <h2>Definition and Staging</h2>
+    <p>CKD is defined by the <strong>KDIGO 2012 criteria</strong> as abnormalities of kidney structure or function present for &gt;3 months with implications for health. Either criterion alone is sufficient:</p>
+    <ul>
+      <li><strong>eGFR &lt;60 mL/min/1.73 m&sup2;</strong> for &gt;3 months (corresponding to loss of &gt;50% of normal kidney function)</li>
+      <li><strong>Markers of kidney damage</strong> for &gt;3 months: albuminuria (urinary albumin-to-creatinine ratio, UACR &ge;30 mg/g), abnormal urine sediment (casts, dysmorphic RBCs), abnormal renal imaging, electrolyte or tubular disorders due to tubular dysfunction, renal biopsy abnormality, or history of kidney transplant</li>
+    </ul>
+    <p>The KDIGO framework uses a combined GFR (G) and albuminuria (A) staging system that better predicts risk than GFR alone:</p>
+    <div class="kdigo-grid">
+      <div class="kh">Stage (G)</div><div class="kh">eGFR (mL/min/1.73m&sup2;)</div><div class="kh">Description</div><div class="kh">Clinical significance</div>
+      <div class="kc">G1</div><div class="kc">&ge;90</div><div class="kc">Normal or high</div><div class="kc">Only CKD if other damage markers present</div>
+      <div class="kc">G2</div><div class="kc">60&ndash;89</div><div class="kc">Mildly decreased</div><div class="kc">Often asymptomatic; hypertension common</div>
+      <div class="kc">G3a</div><div class="kc">45&ndash;59</div><div class="kc">Mildly to moderately decreased</div><div class="kc">Anemia, PTH elevation begins; CV risk elevated</div>
+      <div class="kc">G3b</div><div class="kc">30&ndash;44</div><div class="kc">Moderately to severely decreased</div><div class="kc">CKD-MBD, acidosis; referral to nephrology</div>
+      <div class="kc">G4</div><div class="kc">15&ndash;29</div><div class="kc">Severely decreased</div><div class="kc">RRT planning; uremic symptoms begin</div>
+      <div class="kc kc red">G5</div><div class="kc kc red">&lt;15</div><div class="kc kc red">Kidney failure (ESRD)</div><div class="kc kc red">Dialysis or transplantation required</div>
+    </div>
+    <p>Albuminuria categories: <strong>A1</strong> (UACR &lt;30 mg/g, normal to mildly increased), <strong>A2</strong> (30&ndash;300 mg/g, moderately increased = microalbuminuria), <strong>A3</strong> (&gt;300 mg/g, severely increased = macroalbuminuria/proteinuria). A2 and A3 albuminuria independently predict GFR decline, cardiovascular events, and mortality. A patient with G3a A3 has substantially higher risk than one with G4 A1.</p>
+  </div>
+
+  <div class="section" id="pathophysiology">
+    <h2>Pathophysiology</h2>
+    <h3>Nephron Loss and the Hyperfiltration Cycle</h3>
+    <p>The <strong>Brenner hypothesis</strong> (Barry Brenner, 1982) provides the foundational model of CKD progression. After nephron loss from any cause, surviving nephrons undergo compensatory hypertrophy and hyperfiltration to maintain total GFR. This adaptive response ultimately becomes maladaptive:</p>
+    <div class="pathway-block">
+<pre>
+  Nephron loss (any cause: DKD, HTN, glomerulonephritis, ADPKD&hellip;)
+       │
+       ▼
+  Surviving nephron hyperfiltration
+  (single-nephron GFR &uarr;; tubular hypertrophy)
+       │
+       ├──&rarr; Efferent arteriolar resistance &gt; afferent arteriolar resistance
+       │      &rarr; intraglomerular capillary hypertension (&gt;50 mmHg vs. normal ~35 mmHg)
+       │
+       ├──&rarr; Mechanical stretch of glomerular mesangium and podocytes
+       │      &rarr; TGF-&beta;1 activation in mesangial cells &rarr; collagen IV synthesis
+       │      &rarr; mesangial expansion &rarr; FSGS (focal segmental glomerulosclerosis)
+       │
+       ├──&rarr; Podocyte injury and detachment
+       │      &bull; synaptopodin (podocyte actin regulator) disrupted
+       │      &bull; nephrin (slit diaphragm transmembrane protein) reduced
+       │      &rarr; protein leak &rarr; proteinuria
+       │
+       ├──&rarr; Proteinuria &rarr; tubular absorption of excess protein
+       │      &rarr; tubular cell activation &rarr; NF-&kappa;B, TGF-&beta; &rarr; interstitial inflammation
+       │      &rarr; interstitial fibrosis and tubular atrophy (IFTA)
+       │
+       └──&rarr; RAAS activation (low renal perfusion &rarr; renin &rarr; Ang II &rarr; aldosterone)
+              &rarr; further efferent constriction &rarr; more intraglomerular hypertension
+              &rarr; aldosterone &rarr; additional tubulointerstitial fibrosis (TGF-&beta; pathway)
+              VICIOUS CYCLE &rarr; progressive nephron loss &rarr; GFR decline
+</pre>
+    </div>
+    <p>RAAS blockade (ACE inhibitors, ARBs) interrupts this cycle by dilating the efferent arteriole, reducing intraglomerular pressure, and suppressing Ang II- and aldosterone-driven fibrosis. This is the mechanistic basis for renoprotection independently of blood pressure lowering.</p>
+    <div class="callout">
+      <strong>Podocyte biology in CKD:</strong> Podocytes are terminally differentiated, non-proliferating cells that wrap the glomerular capillary loops with interdigitating foot processes bridged by the slit diaphragm. <strong>Nephrin</strong> (gene: <em>NPHS1</em>) and <strong>podocin</strong> (<em>NPHS2</em>) are structural components of the slit diaphragm that also signal to the actin cytoskeleton via synaptopodin. Podocyte loss exceeding 40% of the initial complement triggers FSGS. In diabetic kidney disease, advanced glycation end-products (AGEs) and VEGF dysregulation promote podocyte apoptosis and detachment.
+    </div>
+  </div>
+
+  <div class="section" id="causes">
+    <h2>Common Causes</h2>
+    <table>
+      <tr><th>Cause</th><th>Prevalence in CKD</th><th>Key Pathology</th><th>Specific Features</th></tr>
+      <tr>
+        <td><strong>Diabetic kidney disease (DKD)</strong></td>
+        <td>~40% of CKD in developed countries; most common cause of ESRD in the US and EU</td>
+        <td>Glomerular hyperfiltration &rarr; mesangial expansion &rarr; Kimmelstiel&ndash;Wilson nodules (pathognomonic) &rarr; diffuse and nodular glomerulosclerosis; RAAS activation; AGE accumulation; VEGF-driven endothelial dysfunction</td>
+        <td>ACR &gt;30 mg/g in the presence of diabetes (with or without retinopathy) is diagnostic of DKD without biopsy. GFR may initially be supranormal (hyperfiltration phase) before declining. SGLT2 inhibitors and finerenone now reduce progression independently of glycemic control.</td>
+      </tr>
+      <tr>
+        <td><strong>Hypertensive nephrosclerosis</strong></td>
+        <td>~25&ndash;30% of CKD in developed countries; leading cause of ESRD in Black Americans</td>
+        <td>Chronic hypertension &rarr; hyaline arteriolosclerosis (afferent arteriole hyalinization) &rarr; ischemic glomerulosclerosis &rarr; tubular atrophy and IFTA; nephron dropout from ischemia</td>
+        <td>Usually benign course with modest proteinuria (A1&ndash;A2); BP control with RAAS blockade is essential. &ldquo;Benign&rdquo; nephrosclerosis may be underdiagnosed DKD or primary FSGS in some patients.</td>
+      </tr>
+      <tr>
+        <td><strong>IgA nephropathy (IgAN)</strong></td>
+        <td>Most common primary glomerulonephritis worldwide; ~10% of CKD globally</td>
+        <td>Galactose-deficient IgA1 (Gd-IgA1) &rarr; mesangial IgA immune complex deposition &rarr; complement activation (lectin and alternative pathways) &rarr; mesangial and endocapillary proliferation &rarr; crescentic change in severe cases</td>
+        <td>Classic presentation: macroscopic hematuria 24&ndash;72 h after upper respiratory tract infection (synpharyngitic hematuria). Persistent microscopic hematuria + proteinuria between episodes. 20&ndash;40% progress to ESRD over 20 years. Sparsentan (dual AT1R/endothelin-A receptor antagonist) and targeted-release budesonide (Nefecon) are newer approved therapies.</td>
+      </tr>
+      <tr>
+        <td><strong>Autosomal dominant polycystic kidney disease (ADPKD)</strong></td>
+        <td>~5% of ESRD; most common inherited kidney disease (1:400&ndash;1000)</td>
+        <td>PKD1 (chromosome 16p13.3, polycystin-1, ~85%) or PKD2 (chromosome 4q22.1, polycystin-2, ~15%) mutations &rarr; defective polycystin-1/2 complex &rarr; abnormal mechanosensation and Ca<sup>2+</sup> signaling &rarr; cAMP accumulation &rarr; cyst epithelial proliferation and fluid secretion. Bilateral cysts progressively replace functional parenchyma.</td>
+        <td>Median ESRD age 54 (PKD1) vs. 74 (PKD2). Flank pain, hematuria, hypertension, palpable kidneys, intracranial aneurysms (in 8%), liver cysts. Total kidney volume (TKV) by MRI is the best prognostic surrogate. Tolvaptan (V2R antagonist, reduces cAMP) slows TKV growth and GFR decline (TEMPO 3:4, REPRISE trials).</td>
+      </tr>
+      <tr>
+        <td><strong>Lupus nephritis (LN)</strong></td>
+        <td>~50% of SLE patients develop LN; Class III/IV most severe; ~10&ndash;30% progress to ESRD</td>
+        <td>Circulating anti-dsDNA, anti-C1q immune complexes deposit in glomerular subendothelium and subepithelium &rarr; complement activation &rarr; neutrophil/monocyte recruitment &rarr; glomerulonephritis. ISN/RPS classification: Class I (minimal mesangial) through Class VI (advanced sclerosing).</td>
+        <td>UACR &gt;500 mg/g or red cell casts indicate active Class III/IV LN. Induction: mycophenolate mofetil (MMF) + glucocorticoids (superior to cyclophosphamide for non-Black patients; Black and Hispanic patients respond equally). Belimumab + MMF improves renal response (BLISS-LN). Maintenance: MMF or azathioprine.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section" id="complications">
+    <h2>Complications of CKD</h2>
+    <h3>Anemia of CKD</h3>
+    <p>Normocytic, normochromic anemia develops when GFR falls below ~45 mL/min (G3b) due to <strong>EPO deficiency</strong>: peritubular fibroblasts lose the ability to sense hypoxia and upregulate HIF-2&alpha;, reducing erythropoietin secretion. Inflammatory cytokines (IL-6 via hepcidin) also reduce iron utilization. Treatment uses <strong>erythropoiesis-stimulating agents (ESAs)</strong> &mdash; see <a href="epo.html">erythropoietin</a> &mdash; targeting hemoglobin 10&ndash;11.5 g/dL (higher targets increase cardiovascular events: TREAT, CHOIR trials). Iron supplementation is co-required; IV iron (ferric carboxymaltose, ferumoxytol) is preferred when transferrin saturation &lt;20% and ferritin &lt;200 ng/mL.</p>
+    <h3>CKD&ndash;Mineral and Bone Disorder (CKD-MBD)</h3>
+    <p>A systemic disorder of mineral metabolism beginning as early as G2&ndash;G3, driven by sequential endocrine changes:</p>
+    <ul>
+      <li><strong>FGF23 &uarr;:</strong> the earliest biomarker change; rises to force phosphaturia from remaining nephrons; simultaneously suppresses 1&alpha;-hydroxylase, reducing calcitriol</li>
+      <li><strong>Calcitriol (1,25-dihydroxyvitamin D) &darr;:</strong> reduced intestinal calcium absorption &rarr; hypocalcemia tendency</li>
+      <li><strong>PTH &uarr; (secondary hyperparathyroidism):</strong> driven by low calcitriol and hypocalcemia; PTH mobilizes calcium from bone &rarr; renal osteodystrophy (osteomalacia, osteitis fibrosa cystica, adynamic bone disease)</li>
+      <li><strong>Phosphate retention &uarr;:</strong> reduced renal phosphate excretion; hyperphosphatemia drives vascular calcification and further suppresses calcitriol</li>
+    </ul>
+    <p>Management: dietary phosphate restriction, phosphate binders (calcium carbonate, sevelamer, lanthanum), vitamin D analogues (calcitriol, paricalcitol), cinacalcet (calcimimetic, reduces PTH secretion by increasing CaSR sensitivity).</p>
+    <h3>Metabolic Acidosis</h3>
+    <p>In healthy kidneys, the proximal tubule generates NH<sub>4</sub><sup>+</sup> from glutamine and excretes it via the collecting duct as the primary mechanism of net acid excretion. CKD impairs <strong>ammoniagenesis</strong> &mdash; fewer tubular cells produce less NH<sub>4</sub><sup>+</sup>, reducing buffering capacity. Result: plasma HCO<sub>3</sub><sup>&minus;</sup> falls (&lt;22 mmol/L is the treatment threshold in CKD). Chronic acidosis accelerates CKD progression (protein catabolism, bone mineral buffering, aldosterone activation, complement activation). Oral sodium bicarbonate 0.5&ndash;1 mEq/kg/day slows GFR decline (BICARB trial).</p>
+    <h3>Hyperkalemia</h3>
+    <p>The kidney normally excretes 90% of dietary potassium. In CKD, reduced distal tubular flow and aldosterone resistance impair K<sup>+</sup> secretion. Hyperkalemia risk is compounded by ACE inhibitors, ARBs (both block aldosterone), and SGLT2 inhibitors can paradoxically reduce hyperkalemia risk by improving GFR and stimulating aldosterone in some settings. Novel K<sup>+</sup> binders (patiromer, sodium zirconium cyclosilicate) allow continuation of RAAS blockade in hyperkalemic CKD patients.</p>
+    <h3>Uremia</h3>
+    <p>When GFR falls below ~10&ndash;15 mL/min, uremic solute accumulation causes a systemic syndrome. More than 150 uremic retention solutes have been identified, but no single toxin explains all manifestations. Key toxic species include:</p>
+    <ul>
+      <li><strong>Guanidino compounds</strong> (guanidinosuccinic acid, methyl-guanidine): inhibit platelet aggregation; cause uremic bleeding diathesis; neurotoxic</li>
+      <li><strong>Indoxyl sulfate</strong> (gut-derived, protein-bound): endothelial toxicity, tubular toxicity, ROS generation; poorly removed by conventional hemodialysis</li>
+      <li><strong>p-cresyl sulfate</strong> (protein-bound): promotes oxidative stress, endothelial dysfunction</li>
+      <li><strong>BUN (&gt;100 mg/dL):</strong> surrogate marker of uremia; causes nausea, vomiting, anorexia, asterixis, pericarditis, encephalopathy, uremic frost (urea crystals on skin at very high levels)</li>
+    </ul>
+    <div class="callout">
+      <strong>Uremic pericarditis:</strong> A clinical indication for urgent dialysis initiation. Presents as pleuritic chest pain, pericardial friction rub, and hemorrhagic pericardial effusion. Unlike viral pericarditis, uremic pericarditis does not respond to NSAIDs (which also worsen kidney function) and requires dialysis.
+    </div>
+  </div>
+
+  <div class="section" id="progression">
+    <h2>Monitoring Progression and Slowing CKD</h2>
+    <h3>Monitoring Tools</h3>
+    <table>
+      <tr><th>Parameter</th><th>Measure</th><th>Target / Interpretation</th></tr>
+      <tr><td><strong>eGFR slope</strong></td><td>mL/min/1.73m&sup2;/year (chronic eGFR decline)</td><td>Loss &gt;5 mL/min/year indicates rapid progression; trigger intensification of therapy. Acute dip on RAAS blockade or SGLT2i initiation (&lt;30%) is acceptable and protective long-term.</td></tr>
+      <tr><td><strong>UACR (urine albumin-to-creatinine ratio)</strong></td><td>Spot urine sample (mg/g)</td><td>Reduction in UACR is a validated surrogate for reduced CKD progression and CV events. Target UACR as low as achievable. Changes in UACR with treatment predict future GFR trajectory.</td></tr>
+      <tr><td><strong>Kidney ultrasound</strong></td><td>Kidney size (cm), echogenicity, cysts, obstruction</td><td>Small echogenic kidneys (&lt;9 cm in adults) indicate chronic parenchymal loss (CKD). Normal or large kidneys in CKD: consider DKD, ADPKD, amyloidosis. Asymmetry: consider renovascular disease.</td></tr>
+      <tr><td><strong>Blood pressure</strong></td><td>Systolic/diastolic</td><td>Target &lt;130/80 mmHg in CKD (SPRINT sub-analysis supports lower targets in non-diabetic CKD). RAAS blockade first-line if albuminuria A2/A3.</td></tr>
+      <tr><td><strong>HbA1c</strong></td><td>%</td><td>Target &lt;7.0% in DKD; &lt;8.0% in elderly or high hypoglycemia risk. Caution: HbA1c underestimates true glycemia in CKD (reduced RBC lifespan); use fructosamine or continuous glucose monitoring where available.</td></tr>
+    </table>
+    <h3>SGLT2 Inhibitors: Renoprotection Beyond Glucose</h3>
+    <div class="callout-blue">
+      <strong>CREDENCE (2019, canagliflozin):</strong> In patients with DKD and UACR 300&ndash;5000 mg/g on maximum RAAS blockade, canagliflozin 100 mg/day reduced the primary composite (ESRD, doubling of creatinine, renal/CV death) by 30% relative to placebo (HR 0.70; 95% CI 0.59&ndash;0.82; p=0.00001). Trial stopped early for efficacy.<br><br>
+      <strong>DAPA-CKD (2020, dapagliflozin):</strong> Broader CKD population (eGFR 25&ndash;75, UACR 200&ndash;5000 mg/g, including non-diabetic CKD). Dapagliflozin 10 mg/day reduced sustained &ge;50% eGFR decline, ESRD, or renal/CV death by 39% (HR 0.61; 95% CI 0.51&ndash;0.72). Benefit present in diabetic and non-diabetic CKD subgroups. Now approved for CKD (eGFR 25+) regardless of diabetes status.<br><br>
+      <strong>Mechanism beyond glucose:</strong> Tubuloglomerular feedback restoration (SGLT2 inhibition &rarr; macula densa NaCl sensing &rarr; afferent arteriole constriction &rarr; reduced intraglomerular pressure), reduced hyperfiltration, lower tubular metabolic demand (reduced proximal tubular O&sub;2; consumption), and anti-inflammatory/anti-fibrotic effects via AMPK activation.
+    </div>
+    <h3>Finerenone in DKD</h3>
+    <p>The non-steroidal MR antagonist <a href="aldosterone.html">finerenone</a> (FIDELIO-DKD and FIGARO-DKD trials) reduces both kidney disease progression and cardiovascular events in T2DM + CKD patients on maximum RAAS blockade. Used as a third layer of RAAS-MBD protection alongside ACE inhibitor/ARB and SGLT2 inhibitor. The hyperkalemia risk is lower with finerenone than with steroidal MR antagonists at equivalent anti-fibrotic doses.</p>
+  </div>
+
+  <div class="section" id="rrt">
+    <h2>Renal Replacement Therapy (RRT)</h2>
+    <p>RRT is indicated when conservative management can no longer maintain an acceptable quality of life, typically at GFR &lt;10&ndash;15 mL/min/1.73m&sup2; with uremic symptoms, refractory hyperkalemia, refractory volume overload, or uremic pericarditis/encephalopathy.</p>
+    <table>
+      <tr><th>Modality</th><th>Mechanism</th><th>Dosing/Logistics</th><th>Adequacy / Key Points</th></tr>
+      <tr>
+        <td><strong>Hemodialysis (HD)</strong></td>
+        <td>Blood pumped through a semipermeable membrane dialyzer; urea and small solutes clear by diffusion (dialysis) and ultrafiltration removes excess fluid by convection</td>
+        <td>3&times;/week, 3&ndash;5 hours per session in-center; home HD (5&ndash;7&times;/week) provides superior outcomes. Requires AV fistula (best access), AV graft, or tunneled central venous catheter (highest infection risk).</td>
+        <td><strong>Kt/V &ge;1.2</strong> (single-pool) per session is the adequacy target. K = dialyzer clearance of urea (mL/min); t = session duration (min); V = urea distribution volume (body water, ~60% TBW). Insufficient Kt/V associated with mortality. Limitations: protein-bound uremic toxins (indoxyl sulfate, p-cresyl sulfate) poorly cleared by conventional diffusion &mdash; high-flux or hemodiafiltration membranes partially improve this.</td>
+      </tr>
+      <tr>
+        <td><strong>Peritoneal dialysis (PD)</strong></td>
+        <td>Peritoneum acts as a native semipermeable membrane; dialysate instilled into peritoneal cavity dwells for hours, then drains. Urea/solutes diffuse across visceral peritoneum; glucose osmotic gradient drives ultrafiltration.</td>
+        <td><strong>CAPD</strong> (continuous ambulatory PD): 4 manual exchanges/day, each with 2 L dialysate, 4&ndash;6 h dwell; <strong>APD</strong> (automated PD): cycler overnight performs 8&ndash;10 exchanges; patient sleeps attached to cycler. Requires Tenckhoff catheter implantation.</td>
+        <td>Preserves residual kidney function longer than HD (gentler solute removal). Better suited to patients preferring home-based modality, rural patients, patients with CV instability on HD. Main risks: peritonitis (S. aureus, coagulase-negative staph most common; monthly peritonitis rate should be &lt;1 episode/24 patient-months in a quality program), membrane failure (encapsulating peritoneal sclerosis with long-term PD).</td>
+      </tr>
+      <tr>
+        <td><strong>Kidney transplantation</strong></td>
+        <td>Surgical placement of donor kidney (living or deceased) in iliac fossa; anastomoses to external iliac artery/vein; ureter implanted into bladder. Native kidneys usually left in situ.</td>
+        <td><strong>Living donor</strong>: superior outcomes (5-year graft survival ~90%); donor evaluation mandatory (single-kidney function adequate for donor health). <strong>Deceased donor</strong>: 3&ndash;5 year wait in most countries; expanded criteria donors (ECD) for older recipients.</td>
+        <td>Best survival of all RRT modalities: 5-year patient survival ~85&ndash;90% vs. ~35&ndash;40% on dialysis in matched cohorts. <strong>Immunosuppression protocol:</strong> calcineurin inhibitor (tacrolimus preferred over cyclosporine) + mycophenolate mofetil + tapering prednisolone; mTOR inhibitors (sirolimus, everolimus) as alternatives. Rejection types: hyperacute (complement-mediated, minutes; caused by preformed donor-specific antibodies; prevented by crossmatch), acute cellular (days&ndash;weeks; T cell-mediated; treated with pulse steroids), antibody-mediated rejection (AMR; requires anti-CD20, IVIG, plasmapheresis). Tacrolimus nephrotoxicity is a leading cause of late graft failure.</td>
+      </tr>
+    </table>
+    <div class="callout">
+      <strong>Timing of RRT initiation:</strong> The landmark IDEAL trial (2010) found no survival benefit of early RRT initiation (eGFR 10&ndash;14) vs. late initiation (eGFR 5&ndash;7 or uremic symptoms) in planned, planned dialysis starts. Current practice: initiate RRT based on symptoms, not an arbitrary GFR threshold. However, AV fistula creation (which requires 4&ndash;6 weeks to mature) should be planned well in advance at G4&ndash;G5.
+    </div>
+  </div>
+
+  <div class="section connections" id="connections">
+    <h2>Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">organ</span><span><a href="kidney.html">Kidney</a> &mdash; CKD is the progressive functional failure of the kidney; nephron anatomy, GFR physiology, and RAAS endocrinology are the anatomical substrate of CKD pathophysiology</span></li>
+      <li><span class="conn-rel">cause / driver</span><span><a href="hypertension.html">Hypertension</a> &mdash; both a leading cause of CKD (hypertensive nephrosclerosis) and a near-universal complication of CKD (RAAS activation, volume retention); tight BP control slows CKD progression</span></li>
+      <li><span class="conn-rel">mediator</span><span><a href="aldosterone.html">Aldosterone</a> &mdash; RAAS-driven aldosterone excess contributes to CKD progression via tubulointerstitial fibrosis; hyporeninemic hypoaldosteronism (type 4 RTA) is a complication of advanced CKD; finerenone (MR antagonist) reduces CKD progression in T2DM</span></li>
+      <li><span class="conn-rel">complication</span><span><a href="epo.html">Erythropoietin (EPO)</a> &mdash; EPO deficiency from loss of peritubular fibroblasts is the primary cause of anemia in CKD G3b and beyond; ESA therapy is a cornerstone of CKD anemia management</span></li>
+      <li><span class="conn-rel">outcome</span><span><a href="heart-failure.html">Heart Failure</a> &mdash; CKD dramatically amplifies HF risk; cardiorenal syndrome (types 2 and 4) reflects bidirectional injury; CKD is present in ~40&ndash;50% of HF patients and worsens prognosis significantly</span></li>
+      <li><span class="conn-rel">podocyte</span><span><a href="podocyte.html">Podocyte</a> &mdash; podocyte injury and loss is central to the progression of diabetic nephropathy, FSGS, and IgA nephropathy; nephrin and synaptopodin are key molecular markers of slit diaphragm integrity</span></li>
+      <li><span class="conn-rel">leading cause</span><span><a href="glomerulus.html">Glomerulus</a> &mdash; glomerular hyperfiltration and sclerosis (FSGS) are the histological correlates of progressive nephron loss and the Brenner hypothesis</span></li>
+    </ul>
+  </div>
+
+  <div class="section references" id="references">
+    <h2>References</h2>
+    <ol>
+      <li>Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. <em>Kidney Int Suppl.</em> 2013;3(1):1&ndash;150.</li>
+      <li>Brenner BM, Meyer TW, Hostetter TH. Dietary protein intake and the progressive nature of kidney disease. <em>N Engl J Med.</em> 1982;307(11):652&ndash;659. doi:10.1056/NEJM198209093071104</li>
+      <li>Perkovic V, Jardine MJ, Neal B, et al. (CREDENCE). Canagliflozin and Renal Outcomes in Type 2 Diabetes and Nephropathy. <em>N Engl J Med.</em> 2019;380(24):2295&ndash;2306. doi:10.1056/NEJMoa1811744</li>
+      <li>Heerspink HJL, Stef&aacute;nsson BV, Correa-Rotter R, et al. (DAPA-CKD). Dapagliflozin in Patients with Chronic Kidney Disease. <em>N Engl J Med.</em> 2020;383(15):1436&ndash;1446. doi:10.1056/NEJMoa2024816</li>
+      <li>Bakris GL, Agarwal R, Anker SD, et al. (FIDELIO-DKD). Effect of Finerenone on Chronic Kidney Disease Outcomes in Type 2 Diabetes. <em>N Engl J Med.</em> 2020;383(23):2219&ndash;2229. doi:10.1056/NEJMoa2025845</li>
+      <li>Cooper BA, Branley P, Bulfone L, et al. (IDEAL). A Randomized, Controlled Trial of Early versus Late Initiation of Dialysis. <em>N Engl J Med.</em> 2010;363(7):609&ndash;619. doi:10.1056/NEJMoa1000552</li>
+      <li>Levey AS, de Jong PE, Coresh J, et al. The definition, classification, and prognosis of chronic kidney disease: a KDIGO Controversies Conference report. <em>Kidney Int.</em> 2011;80(1):17&ndash;28. doi:10.1038/ki.2010.483</li>
+      <li>Sarnak MJ, Levey AS, Schoolwerth AC, et al. Kidney disease as a risk factor for development of cardiovascular disease. <em>Circulation.</em> 2003;108(17):2154&ndash;2169. doi:10.1161/01.CIR.0000095676.90936.80</li>
+      <li>Vanholder R, De Smet R, Glorieux G, et al. Review on uremic toxins: classification, concentration, and interindividual variability. <em>Kidney Int.</em> 2003;63(5):1934&ndash;1943. doi:10.1046/j.1523-1755.2003.00924.x</li>
+      <li>Cherney DZI, Zinman B, Inzucchi SE, et al. Effects of empagliflozin on the urinary albumin-to-creatinine ratio in patients with type 2 diabetes and established cardiovascular disease. <em>Lancet Diabetes Endocrinol.</em> 2017;5(8):610&ndash;621. doi:10.1016/S2213-8587(17)30148-X</li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p>Human Engineering &mdash; Open knowledge atlas at <a href="https://equalinformation.com/human">equalinformation.com/human</a>.<br>
+  Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+  <p style="margin-top:.6rem">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. <strong>Not medical advice.</strong> For research and educational use only.</p>
+  <p style="margin-top:.6rem;font-style:italic;font-size:.8rem"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+</footer>
+
+</body>
+</html>
