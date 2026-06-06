@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Microcephaly — reduced brain volume, cortical development, neural progenitor cells, ASPM/CDK5RAP2 genetics, Zika virus mechanism (AXL/TLR3), TORCH infections, congenital Zika syndrome. Human Engineering Atlas L05 Clinical/Developmental.">
+  <meta property="og:title" content="Microcephaly — Clinical/Developmental Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Microcephaly — Clinical/Developmental Atlas · Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(12px);-webkit-backdrop-filter:saturate(180%) blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .nav-back{display:inline-flex;align-items:center;gap:.4rem}
+    .nav-back svg{width:14px;height:14px}
+    .hero{background:linear-gradient(135deg,#fff1f2 0%,#ffe4e6 40%,#ffffff 80%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .stat-row{display:flex;gap:2rem;flex-wrap:wrap;margin:1.25rem 0}
+    .stat{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.75rem 1rem;min-width:130px}
+    .stat-num{font-size:1.35rem;font-weight:800;color:var(--accent);line-height:1}
+    .stat-label{font-size:.72rem;color:var(--muted);margin-top:.25rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .diagram{background:var(--bg-3);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:1.2rem 1.4rem;overflow-x:auto;margin:1rem 0}
+    .diagram pre{font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:.8rem;line-height:1.65;color:var(--fg-soft)}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+    @media(max-width:600px){.two-col{grid-template-columns:1fr}}
+    .card-sm{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.9rem 1rem}
+    .card-sm h4{font-size:.88rem;font-weight:700;color:var(--fg);margin-bottom:.35rem}
+    .card-sm p{font-size:.84rem;color:var(--muted);line-height:1.55;margin:0}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:100px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="../index.html" class="nav-back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        Home
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Clinical Atlas &middot; L05 Clinical / Developmental &middot; Neurology &middot; Congenital</div>
+    <h1><span>Microcephaly</span></h1>
+    <p class="hero-lead">A condition defined by head circumference more than 2 standard deviations below the mean for gestational age and sex, reflecting reduced brain volume. Caused by genetic defects in neural progenitor cell proliferation or by acquired insults — infections (Zika, CMV, toxoplasmosis), ischemia, or toxins — that disrupt corticogenesis.</p>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num">&gt;2 SD</div><div class="stat-label">OFC below mean (definition)</div></div>
+      <div class="stat"><div class="stat-num">~1%</div><div class="stat-label">CMV congenital infection rate</div></div>
+      <div class="stat"><div class="stat-num">Wk 22–24</div><div class="stat-label">Cortical layering onset</div></div>
+      <div class="stat"><div class="stat-num">ASPM</div><div class="stat-label">Most common AR genetic cause</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Scale: <strong>L05 Clinical / Developmental</strong></span>
+  <span>System: <strong>Central Nervous System</strong></span>
+  <span>Type: <strong>Congenital / acquired brain malformation</strong></span>
+  <span>ICD-11: <strong>LA22</strong></span>
+</div>
+
+<div class="content">
+
+  <div class="section">
+    <h2>Definition and Classification</h2>
+    <p><strong>Microcephaly</strong> is defined clinically as an occipitofrontal circumference (OFC) more than <strong>2 standard deviations below the mean</strong> for gestational age and sex using validated growth standards (WHO, Fenton/Intergrowth-21st charts). <strong>Severe microcephaly</strong> (more commonly used for research and prognostic purposes) is defined as OFC &gt;3 SD below the mean; this threshold is more specifically associated with intellectual disability and seizures.</p>
+    <p>Two broad etiological categories exist:</p>
+    <ul>
+      <li><strong>Primary (congenital) microcephaly:</strong> present at birth; typically reflects a developmental defect in brain growth during the period of active neurogenesis (conception → mid-gestation); causes include genetic mutations affecting neural progenitor cell (NPC) proliferation, chromosomal aneuploidy, and first/second trimester infections</li>
+      <li><strong>Secondary (postnatal) microcephaly:</strong> head circumference normal at birth but growth falls below the threshold postnatally due to a brain insult (perinatal asphyxia, metabolic disease, postnatal infection, trauma); reflects failure of brain growth rather than failure of initial neurogenesis</li>
+    </ul>
+    <p>OFC measurement must be performed correctly (maximum circumference, non-compressible tape, supine in infants) and plotted on appropriate charts with gestation correction for preterm infants. Serial measurements over time are more informative than a single measurement. Head circumference is a proxy for brain volume; MRI provides direct assessment of cortical architecture.</p>
+  </div>
+
+  <div class="section">
+    <h2>Normal Cortical Development</h2>
+    <p>Understanding microcephaly requires understanding the cellular and molecular machinery that normally generates the human neocortex — a structure with ~16 billion neurons organized into six cortical layers, all derived from a thin neuroepithelium lining the lateral ventricles.</p>
+    <h3>Neural progenitor cell hierarchy</h3>
+    <p>Corticogenesis begins around gestational week 5–6. Neuroepithelial cells (NECs) in the ventricular zone (VZ) divide symmetrically to expand the progenitor pool, then transform into <strong>radial glial cells (RGCs)</strong> — the primary progenitors of the cerebral cortex. RGCs have a characteristic bipolar morphology with apical processes touching the ventricular surface and basal fibers extending to the pial surface, serving dual functions as both progenitors and scaffolding for neuronal migration.</p>
+    <p>RGC divisions generate neurons by two routes:</p>
+    <ol>
+      <li><strong>Direct neurogenesis:</strong> RGC divides asymmetrically → one RGC (self-renewal) + one post-mitotic neuron that migrates radially along the RGC fiber to the cortical plate</li>
+      <li><strong>Indirect neurogenesis (amplifying):</strong> RGC → intermediate progenitor cell (IPC) in the subventricular zone (SVZ) → IPC divides symmetrically (once or twice) → 2–4 neurons; greatly amplifies neuron output per RGC division; the SVZ is substantially expanded in primates vs. rodents</li>
+    </ol>
+    <p>In humans and great apes, a third progenitor type — <strong>outer radial glia (oRG, basal RGCs)</strong> in the outer SVZ (oSVZ) — is particularly abundant. oRG cells lack an apical process but retain the basal fiber; they undergo mitotic somal translocation and generate large numbers of IPCs. The oSVZ expansion in humans is the primary driver of the immense surface area amplification (gyrification) that distinguishes the human brain. Disruption of oRG production or self-renewal reduces cortical surface area disproportionately.</p>
+    <p><strong>Inside-out cortical layering:</strong> Early-born neurons form the deepest layers (L6, L5 — corticospinal and corticothalamic projections); later-born neurons migrate past earlier cohorts to form progressively more superficial layers (L2/3 — callosal and corticocortical projections). Six layers are established by approximately gestational week 24. Key regulators: Reelin (secreted by Cajal-Retzius cells in layer I) — attracts migrating neurons toward the pial surface; LIS1/PAFAH1B1 and DCX (doublecortin) regulate nucleokinesis during migration.</p>
+    <div class="diagram">
+<pre>
+Ventricular Zone (VZ)
+  └─ Radial Glia Cells (RGC) ─┬─ Self-renewal
+                               └─ IPC → Neurons
+Subventricular Zone (SVZ / oSVZ)
+  └─ Outer RGC (oRG) → IPC → Neurons   ← Human expansion
+Cortical Plate (CP): inside-out layering
+  Deep layers: L6 (born ~wk 8) → L5 → L4 → L3 → L2 (born ~wk 16–22)
+</pre>
+    </div>
+    <p><strong>Molecular regulation of NPC self-renewal:</strong> CDK5RAP2 (centrosomin homolog) localizes to centrosomes and regulates mitotic spindle orientation — symmetric (planar) divisions expand the NPC pool; asymmetric (oblique) divisions favor neuronal differentiation. ASPM (Abnormal Spindle-like Microcephaly Associated) similarly regulates mitotic spindle pole size and symmetric division. WDR62 anchors CDK5RAP2 at spindle poles. Mutations in all three genes cause primary autosomal recessive microcephaly (MCPH family).</p>
+  </div>
+
+  <div class="section">
+    <h2>Genetic Causes</h2>
+    <p>More than 30 autosomal recessive <strong>MCPH (primary microcephaly)</strong> loci have been identified; all encode proteins involved in centrosome function, mitotic spindle regulation, or DNA damage response:</p>
+    <table>
+      <tr>
+        <th>Gene (MCPH locus)</th>
+        <th>Protein function</th>
+        <th>Frequency</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td><strong>ASPM (MCPH5)</strong></td>
+        <td>Abnormal spindle protein; regulates mitotic spindle pole; promotes symmetric NPC divisions; contains ARM/HEAT repeats and IQ calmodulin-binding motifs</td>
+        <td>Most common AR cause (~50% of MCPH cases)</td>
+        <td>OFC typically −10 to −12 SD; intelligence relatively preserved in some families; positively selected in human lineage</td>
+      </tr>
+      <tr>
+        <td><strong>CDK5RAP2 (MCPH3)</strong></td>
+        <td>CEP215; pericentriolar material component; anchors γ-TuRC for microtubule nucleation; sister chromatid cohesion</td>
+        <td>Second most common</td>
+        <td>Severe microcephaly; impaired NPC self-renewal → premature differentiation → reduced neuron pool</td>
+      </tr>
+      <tr>
+        <td><strong>CENPJ / CPAP (MCPH6)</strong></td>
+        <td>Centromere protein J; centriole elongation and duplication; interacts with SAS-4</td>
+        <td>Moderate frequency</td>
+        <td>Can overlap with Seckel syndrome (microcephalic primordial dwarfism)</td>
+      </tr>
+      <tr>
+        <td><strong>WDR62 (MCPH2)</strong></td>
+        <td>WD40 repeat scaffold; recruits CDK5RAP2 and Aurora A to mitotic spindle poles; regulates spindle orientation</td>
+        <td>Common in consanguineous populations</td>
+        <td>Associated with severe lissencephaly and pachygyria in some cases beyond microcephaly</td>
+      </tr>
+      <tr>
+        <td><strong>Chromosomal aneuploidies</strong></td>
+        <td>Trisomy 13 (Patau), trisomy 18 (Edwards), trisomy 21 (Down syndrome — mild microcephaly relative to body size)</td>
+        <td>Common, screened prenatally</td>
+        <td>Multiple congenital anomalies; trisomy 13/18 typically lethal in infancy</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Zika Virus — Molecular Mechanism of Microcephaly</h2>
+    <p>The 2015–2016 Brazilian Zika epidemic established conclusively that congenital ZIKV infection causes microcephaly. ZIKV (Flaviviridae, single-stranded positive-sense RNA) preferentially infects and disrupts neural progenitor cells during cortical neurogenesis.</p>
+    <h3>Cellular entry via AXL receptor</h3>
+    <p>ZIKV enters neural progenitor cells primarily via <strong>AXL</strong> (a receptor tyrosine kinase of the TAM family — Tyro3, AXL, MerTK) which is highly expressed on radial glia and outer radial glia in the human fetal brain. AXL normally binds GAS6 (growth arrest-specific 6) and Protein S — ligands that bridge phosphatidylserine on apoptotic cell membranes to AXL, mediating efferocytosis. ZIKV exploits this phosphatidylserine-mimicry pathway to enter cells (apoptotic mimicry). AXL is far more highly expressed in the human oSVZ (on oRG cells) than in rodent cortex — which partly explains why mouse models recapitulate microcephaly poorly while human cerebral organoids faithfully reproduce the pathology.</p>
+    <h3>Intracellular mechanisms</h3>
+    <p>Once inside NPCs, ZIKV triggers multiple converging pathogenic mechanisms:</p>
+    <ul>
+      <li><strong>TLR3 activation:</strong> ZIKV dsRNA replication intermediates activate Toll-like receptor 3 (TLR3) on NPCs → downstream TRIF/IRF3 signaling → dysregulation of genes controlling neurogenesis and axon guidance (Courchet et al. transcriptome analysis: ~15% of neurogenesis genes disrupted in ZIKV-infected organoids)</li>
+      <li><strong>NPC apoptosis:</strong> Caspase-3 activation in ZIKV-infected NPCs → premature apoptosis → reduced progenitor pool; early-stage organoids show marked reduction in ventricular zone thickness</li>
+      <li><strong>Premature differentiation:</strong> Infected RGCs and oRGCs show reduced self-renewal — prematurely exiting the cell cycle and differentiating into neurons → depletion of the progenitor pool before sufficient neurons have been generated; analogous to genetically caused MCPH</li>
+      <li><strong>Centrosome abnormalities:</strong> ZIKV NS2A and NS4A proteins localize to the centrosome and Golgi apparatus → centrosome duplication failure → mitotic spindle defects → increased oblique/asymmetric divisions → fewer symmetric divisions → NPC pool depletion; ZIKV NS2A disrupts adherens junctions at the ventricular surface → delamination of NPCs from the neuroepithelium</li>
+      <li><strong>Cell cycle arrest:</strong> ZIKV activates ATM/Chk1 DNA damage response pathway → G2/M arrest → reduced mitotic rate independent of apoptosis</li>
+    </ul>
+    <h3>Congenital Zika syndrome</h3>
+    <p>The full clinical spectrum of congenital ZIKV infection includes:</p>
+    <ul>
+      <li><strong>Microcephaly</strong> (often severe, &gt;3 SD; brain:body size discordance — disproportionate microcephaly)</li>
+      <li><strong>Cortical calcifications</strong> (periventricular, cortical, and subcortical — especially at gray-white junction): necrotic foci from NPC destruction; visible on CT without contrast</li>
+      <li><strong>Abnormal cortical gyration:</strong> lissencephaly, pachygyria, or simplified gyral pattern from insufficient neuron production</li>
+      <li><strong>Ophthalmologic manifestations:</strong> macular atrophy, chorioretinal atrophy, optic nerve hypoplasia, and pale optic disc — reflecting retinal RGC/RPE involvement</li>
+      <li><strong>Clubfoot (talipes equinovarus):</strong> from cortical motor neuron loss and consequent reduced fetal movement; also arthrogryposis</li>
+      <li><strong>Ventriculomegaly</strong> and corpus callosum abnormalities</li>
+    </ul>
+    <p>Severity correlates strongly with gestational age at maternal infection: infection in the first trimester (when neurogenesis and progenitor expansion are most active) produces the most severe microcephaly; second-trimester infection still causes significant injury but the cortical progenitor pool is partially established.</p>
+  </div>
+
+  <div class="section">
+    <h2>TORCH Infections Causing Microcephaly</h2>
+    <table>
+      <tr>
+        <th>Pathogen</th>
+        <th>Key features</th>
+        <th>Microcephaly mechanism</th>
+        <th>Diagnosis</th>
+      </tr>
+      <tr>
+        <td><strong>Toxoplasma gondii</strong></td>
+        <td>Intracellular protozoan; primary maternal infection during pregnancy; transmitted via cat feces or undercooked meat; incidence ~1–2/10,000 live births in high-prevalence areas</td>
+        <td>Necrotizing encephalitis → scattered cerebral calcifications (throughout cortex, not periventricular); hydrocephalus (aqueductal stenosis from inflammation); chorioretinitis (yellow-white retinal scars); hepatosplenomegaly</td>
+        <td>Maternal IgM/IgG serology; infant serology at birth; CSF PCR for toxoplasma DNA; ophthalmologic exam; CT head (calcifications)</td>
+      </tr>
+      <tr>
+        <td><strong>Rubella virus</strong></td>
+        <td>RNA virus (Togaviridae); now rare in vaccinated populations (MMR vaccine); most dangerous in first trimester (1st trimester infection → 85% risk of congenital rubella syndrome)</td>
+        <td>Cataracts + PDA + sensorineural deafness + microcephaly (Gregg triad + extensions); virus infects and destroys NPCs + endothelial cells; periventricular necrosis</td>
+        <td>Maternal rubella IgM/IgG; neonatal IgM; viral culture/PCR from throat/urine/CSF; ophthalmology; cardiology (echo for PDA/VSD/PS)</td>
+      </tr>
+      <tr>
+        <td><strong>Cytomegalovirus (CMV)</strong></td>
+        <td>Most common congenital viral infection worldwide (~0.5–1% of all live births; ~40,000/year in USA); primary maternal infection in pregnancy most dangerous but reactivation also causes fetal disease</td>
+        <td>CMV infects NPCs (and their progeny) via cell-surface integrins; triggers NPC apoptosis and inflammatory destruction of periventricular germinal matrix → <strong>periventricular calcifications</strong> (characteristic pattern); sensorineural hearing loss (SNHL) in up to 60% of symptomatic; lissencephaly, polymicrogyria; hepatosplenomegaly; thrombocytopenia</td>
+        <td>Urine CMV PCR (gold standard, within first 3 weeks of life); saliva PCR; CMV IgM (less sensitive); brain MRI; audiology (SNHL may progress)</td>
+      </tr>
+      <tr>
+        <td><strong>Herpes simplex virus (HSV)</strong></td>
+        <td>Usually HSV-2 (neonatal herpes via intrapartum vertical transmission from genital herpes); less commonly HSV-1; CNS involvement in ~30% of disseminated/CNS disease</td>
+        <td>Necrotizing encephalitis preferentially affecting temporal lobes + widespread cortical destruction; diffuse cortical calcifications; multicystic encephalomalacia in severe cases; presents with seizures, bulging fontanelle, altered consciousness in 2nd–3rd week of life</td>
+        <td>CSF PCR for HSV DNA; skin/mucous membrane swabs; EEG (temporal focus); MRI brain (T2 hyperintensity temporal/parietal cortex); treat empirically with IV acyclovir 20 mg/kg q8h ×21 days while awaiting PCR</td>
+      </tr>
+      <tr>
+        <td><strong>Treponema pallidum (Syphilis)</strong></td>
+        <td>Congenital syphilis via transplacental transmission; re-emerging in many countries; causes early congenital syphilis (before age 2) and late forms</td>
+        <td>Diffuse meningoencephalitis; gummatous lesions; hydrocephalus; sensorineural hearing loss; Hutchinson triad (interstitial keratitis, SNHL, notched teeth) in late disease</td>
+        <td>Maternal RPR/VDRL + confirmatory TPHA/FTA-ABS; neonatal dark-field microscopy; CSF VDRL; long-bone X-rays (periostitis); treat with IV penicillin G 50,000 IU/kg q12h ×10 days</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Clinical Evaluation</h2>
+    <p>A systematic approach is required to determine etiology, which guides prognosis, recurrence risk counseling, and management:</p>
+    <ol>
+      <li><strong>OFC measurement and serial plotting:</strong> tape measure technique; corrected gestational age for preterm; plot on sex-specific and gestation-specific growth charts; assess head circumference trajectory over time</li>
+      <li><strong>Brain MRI:</strong> preferred over CT (avoids radiation, superior soft tissue contrast); evaluates cortical malformations (lissencephaly, pachygyria, polymicrogyria, heterotopia), white matter volume, myelination pattern, corpus callosum morphology, cerebellar vermis; calcifications may be less visible on MRI (CT better for calcifications)</li>
+      <li><strong>Infectious workup:</strong> congenital CMV (urine PCR within 3 weeks of birth — after 3 weeks cannot distinguish congenital from postnatal acquisition); toxoplasma serology (maternal + infant IgG/IgM); rubella IgM; ZIKV PCR/serology if exposure history; syphilis RPR on mother and infant; HSV PCR from surface swabs/CSF if encephalitis suspected</li>
+      <li><strong>Genetic evaluation:</strong> chromosomal microarray (detects copy number variants, aneuploidies); targeted gene panel (ASPM, CDK5RAP2, WDR62, CENPJ, and other MCPH genes) or whole-exome sequencing; metabolic screen (organic acids, amino acids, lysosomal enzymes) if metabolic etiology suspected</li>
+      <li><strong>Ophthalmologic examination:</strong> CMV retinitis, ZIKV chorioretinal atrophy, toxoplasma scars, rubella cataracts, optic atrophy; early referral mandatory</li>
+      <li><strong>Audiology:</strong> SNHL in CMV, rubella, HSV, syphilis; newborn hearing screen (automated auditory brainstem response); diagnostic ABR for infants who fail screen</li>
+      <li><strong>EEG:</strong> if seizures suspected or confirmed; seizures occur in ~50–60% of infants with symptomatic congenital CMV and ZIKV-associated microcephaly</li>
+      <li><strong>Multidisciplinary therapy:</strong> physical therapy (hypotonia, motor delay), occupational therapy (feeding, fine motor), speech-language therapy (communication); antiepileptic drugs for seizures; early intervention programs; hearing aids / cochlear implants for SNHL (CMV)</li>
+    </ol>
+    <p>For congenital CMV with CNS involvement or hearing loss, <strong>oral valganciclovir</strong> (16 mg/kg twice daily for 6 months) has been shown to improve hearing outcomes at 24 months and neurodevelopmental scores (Kimberlin et al., NEJM 2015).</p>
+  </div>
+
+  <div class="section">
+    <h2>Cross-Atlas Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">Receptor</span><a href="axl-receptor.html">AXL Receptor</a> — ZIKV entry into neural progenitor cells via AXL/GAS6 pathway</li>
+      <li><span class="conn-rel">Vector</span><a href="aedes-aegypti.html">Aedes aegypti</a> — primary mosquito vector for Zika virus transmission</li>
+      <li><span class="conn-rel">Pathogen</span><a href="herpesvirus.html">Herpesvirus</a> — CMV (congenital; periventricular calcifications, SNHL) and HSV (neonatal encephalitis)</li>
+      <li><span class="conn-rel">Related page</span><a href="neonatal-medicine.html">Neonatal Medicine</a> — TORCH evaluation and management in the neonatal period</li>
+      <li><span class="conn-rel">Related organ</span><a href="placenta.html">Placenta</a> — transplacental TORCH transmission; ZIKV placentitis; placental barrier to vertical infection</li>
+      <li><span class="conn-rel">Zoonosis</span><a href="zoonosis.html">Zoonosis</a> — Zika as arboviral zoonosis; Toxoplasma as cat-to-human; congenital infection epidemiology</li>
+    </ul>
+  </div>
+
+  <div class="section references">
+    <h2>References</h2>
+    <ol>
+      <li>Alcantara D, O'Driscoll M. Congenital microcephaly. <em>Am J Med Genet C Semin Med Genet.</em> 2014;166C(2):124–139. doi:10.1002/ajmg.c.31397</li>
+      <li>Qian X, Nguyen HN, Song MM, et al. Brain-region-specific organoids using mini-bioreactors for modeling ZIKV exposure. <em>Cell.</em> 2016;165(5):1238–1254. doi:10.1016/j.cell.2016.04.032</li>
+      <li>Li C, Xu D, Ye Q, et al. Zika virus disrupts neural progenitor development and leads to microcephaly in mice. <em>Cell Stem Cell.</em> 2016;19(1):120–126. doi:10.1016/j.stem.2016.04.013</li>
+      <li>Nowakowski TJ, Pollen AA, Di Lullo E, et al. Expression analysis highlights AXL as a candidate Zika virus entry receptor in neural stem cells. <em>Cell Stem Cell.</em> 2016;18(5):591–596. doi:10.1016/j.stem.2016.03.012</li>
+      <li>Dang J, Tiwari SK, Lichinchi G, et al. Zika virus depletes neural progenitors in human cerebral organoids through activation of the innate immune receptor TLR3. <em>Cell Stem Cell.</em> 2016;19(2):258–265. doi:10.1016/j.stem.2016.04.014</li>
+      <li>Mlakar J, Korva M, Tul N, et al. Zika virus associated with microcephaly. <em>N Engl J Med.</em> 2016;374(10):951–958. doi:10.1056/NEJMoa1600651</li>
+      <li>Kimberlin DW, Jester PM, Sánchez PJ, et al. Valganciclovir for symptomatic congenital cytomegalovirus disease. <em>N Engl J Med.</em> 2015;372(10):933–943. doi:10.1056/NEJMoa1404599</li>
+      <li>Sun T, Hevner RF. Growth and folding of the mammalian cerebral cortex: from molecules to malformations. <em>Nat Rev Neurosci.</em> 2014;15(4):217–232. doi:10.1038/nrn3707</li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p>Human Engineering &mdash; open, free, global project to model human biology end-to-end.</p>
+  <p style="margin-top:.5rem;"><a href="../index.html">Home</a> &nbsp;&middot;&nbsp; <a href="pathogens.html">Pathogens</a> &nbsp;&middot;&nbsp; <a href="medicine.html">Medicine</a> &nbsp;&middot;&nbsp; <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a></p>
+  <p style="margin-top:.5rem;">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+  <p style="margin-top:.5rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
+  <p style="margin-top:.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

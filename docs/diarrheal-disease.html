@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Diarrheal Disease — global epidemiology, pathogen table (rotavirus, norovirus, ETEC, EPEC, cholera, Campylobacter, Cryptosporidium), ORS management, zinc, and WASH. Part of the Human Engineering project.">
+  <meta property="og:title" content="Diarrheal Disease — Human Engineering Atlas">
+  <meta property="og:description" content="Diarrheal disease: 1.7B cases/year, 525K child deaths, pathophysiology of secretory vs osmotic vs inflammatory diarrhea, ORS composition, zinc, antibiotic indications.">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Diarrheal Disease — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #16a34a;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    a { color: var(--accent); text-decoration: none; transition: color .15s ease; }
+    a:hover { color: var(--human); }
+
+    /* NAV */
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-links a.current { color: var(--fg); font-weight: 700; }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+
+    /* HERO */
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(22, 163, 74, 0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
+    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
+    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+
+    /* MAIN */
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 1.75rem 2rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
+    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
+    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
+    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 22%; padding-right: 1rem; }
+    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
+    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
+    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
+    .mech-item.secretory { border-left-color: var(--eng); }
+    .mech-item.osmotic { border-left-color: var(--human); }
+    .mech-item.inflammatory { border-left-color: #dc2626; }
+    .mech-item.motility { border-left-color: var(--ai); }
+    .mech-item.mgmt { border-left-color: var(--accent); }
+    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
+    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
+    .conn-pill.causes .rel { color: #dc2626; }
+    .conn-pill.linked .rel { color: var(--ai); }
+    .conn-pill.related .rel { color: var(--accent); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li a { color: var(--eng); }
+    .refs li a:hover { color: var(--human); }
+    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
+    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
+    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
+    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
+    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
+    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
+    .btn svg { width: 16px; height: 16px; }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html#join">Join</a>
+        <a href="pathogens.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Pathogen Atlas
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Atlas Two &middot; Clinical / Global Health &middot; L05</div>
+    <h1>Diarrheal Disease</h1>
+    <p class="tagline">The second leading cause of death in children under five globally — yet almost entirely preventable and treatable with ORS, zinc, clean water, and vaccines.</p>
+    <p class="subtagline">Diarrheal disease encompasses any clinical syndrome of three or more loose stools per day, caused by a diverse array of enteric pathogens (viruses, bacteria, parasites) as well as non-infectious causes. Despite enormous reductions in child mortality since the 1970s driven by oral rehydration therapy (ORT), diarrheal disease still kills ~525,000 children under five per year, with 80% of deaths in sub-Saharan Africa and South Asia. Understanding each pathogen's unique mechanism — from enterotoxin-driven secretion to attaching-effacing lesions to direct invasion — is essential for rational management and vaccine development.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">1.7B</span><span class="stat-label">Cases / year</span></div>
+      <div class="stat"><span class="stat-num">525K</span><span class="stat-label">Child deaths / year (&lt;5)</span></div>
+      <div class="stat"><span class="stat-num">80%</span><span class="stat-label">Deaths in Africa + South Asia</span></div>
+      <div class="stat"><span class="stat-num">50×</span><span class="stat-label">Mortality reduction by ORS since 1970s</span></div>
+    </div>
+  </div>
+
+  <main>
+
+    <div class="detail-card" id="diarrheal-disease">
+      <div class="detail-header" style="background: linear-gradient(135deg, #16a34a, #14532d);">
+        <div class="entry-eyebrow">Clinical Syndrome &middot; Global Health &middot; Multi-pathogen &middot; L05</div>
+        <h3>Diarrheal Disease — Epidemiology, Pathogens &amp; Management</h3>
+        <p class="summary">Diarrheal disease is a syndromic diagnosis encompassing distinct molecular and cellular mechanisms: secretory diarrhea driven by enterotoxin-mediated cAMP/cGMP elevation; osmotic diarrhea from unabsorbed solutes; inflammatory/invasive diarrhea with mucosal destruction; and motility-mediated diarrhea. Each pathogen exploits a specific mechanism that dictates both clinical presentation and optimal management. Rotavirus alone causes ~25% of childhood diarrheal deaths, yet rotavirus vaccines have achieved 50–90% efficacy in preventing hospitalisation. <em>Vibrio cholerae</em> cholera toxin (CT) remains the canonical model of secretory diarrhea: CT ADP-ribosylates the Gsα subunit of adenylate cyclase, driving massive Cl⁻/HCO₃⁻ secretion via CFTR and producing rice-water stool at up to 1 litre/hour. ORS remains the intervention with the greatest impact per cost in the history of medicine.</p>
+      </div>
+
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h4>Major Pathogens</h4>
+          <table class="path-table">
+            <tr><th>Pathogen</th><th>Class / Mechanism</th><th>Epidemiology</th><th>Key features</th></tr>
+            <tr><td>Rotavirus (RVA)</td><td>Reoviridae; dsRNA 11-segment; VP4/VP7 surface proteins; NSP4 enterotoxin</td><td>Leading vaccine-preventable cause; ~25% childhood diarrheal deaths globally; seasonal peaks; predominantly under-2</td><td>NSP4 acts as a viral enterotoxin triggering Ca²⁺-dependent Cl⁻ secretion and enteric nervous system activation; RV1 (Rotarix) and RV5 (RotaTeq) reduce hospitalisations 50–90%; ~100K child deaths/year remain (gaps in low-income vaccine access)</td></tr>
+            <tr><td>Norovirus (GII.4)</td><td>Caliciviridae; +ssRNA; VP1/VP2 capsid; HBGA attachment</td><td>Most common cause of diarrhea across all ages worldwide; 685M cases/year; 200,000 deaths/year; accounts for 18% of all acute gastroenteritis globally</td><td>Extremely contagious — infectious dose ~18–2,800 viral particles; 18-hour median incubation; self-limited 1–3 days; HBGA (histoblood group antigen) on GI epithelium is the receptor — secretor-negative individuals (~20%) largely resistant; no approved vaccine (mRNA and VLP candidates in trials)</td></tr>
+            <tr><td>ETEC</td><td>Escherichia coli; heat-labile (LT) and heat-stable (ST) enterotoxins</td><td>Leading bacterial cause of traveller's diarrhea; major childhood burden in LMICs; ~840M cases/year estimated</td><td>LT binds GM1 ganglioside → ADP-ribosylates Gsα → adenylate cyclase activation → cAMP ↑ → PKA phosphorylation of CFTR → Cl⁻/HCO₃⁻ secretion (identical pathway to cholera toxin); ST (STa) binds guanylate cyclase C (GCC) → cGMP ↑ → PKG → CFTR activation; watery, high-volume, non-bloody; usually self-limited 3–5 days</td></tr>
+            <tr><td>EPEC</td><td>Enteropathogenic <em>E. coli</em>; attaching-effacing lesion via T3SS/intimin-Tir complex</td><td>Major cause of infantile diarrhea in LMICs; rare in high-income settings; associated with prolonged diarrhea and malnutrition in infants &lt;2 years</td><td>Type III secretion system (T3SS) injects effectors including Tir (translocated intimin receptor) into host enterocyte; intimin on bacterial surface binds Tir on host cell; destroys microvilli (attaching-effacing histopathology); subverts actin cytoskeleton forming characteristic pedestal; no enterotoxin — pathology is structural; no vaccine</td></tr>
+            <tr><td>Salmonella (NTS)</td><td>Non-typhoidal Salmonella spp.; SPI-1/SPI-2 T3SS; invasion of enterocytes and M cells</td><td>Major zoonotic enteric pathogen; primarily from poultry, eggs, reptiles; ~94M NTS gastroenteritis cases/year globally; 155,000 deaths</td><td>Bloody diarrhea with fever; NTS invades enterocytes and M cells via SPI-1 T3SS; travels to Peyer's patches; can disseminate to bloodstream in susceptible hosts (infants, elderly, immunocompromised, sickle cell disease — iNTS risk 25× higher in SCA due to impaired splenic function)</td></tr>
+            <tr><td>Campylobacter jejuni</td><td>Epsilonproteobacteria; zoonotic; motility/adherence/invasion and CDT toxin</td><td>Most common bacterial cause of diarrhea in high-income countries; leading foodborne pathogen (poultry); ~500M cases/year globally; increasing antimicrobial resistance</td><td>Bloody diarrhea; fever; incubation 2–5 days; self-limited but severe; cytolethal distending toxin (CDT) causes DNA damage, cell cycle arrest in enterocytes; molecular mimicry between lipooligosaccharide (LOS) GM1-like epitopes and peripheral nerve gangliosides triggers Guillain-Barré syndrome (GBS) in ~1:1,000 cases; azithromycin first-line when treatment needed</td></tr>
+            <tr><td>Vibrio cholerae O1/O139</td><td>Gamma proteobacteria; cholera toxin (CT); CT subunit A + B5 structure</td><td>7th cholera pandemic ongoing (El Tor biotype O1); endemic in South Asia and parts of Africa; epidemic outbreaks (Haiti 2010, Yemen 2016–, Zimbabwe 2023); ~3–4M cases/year; 21,000–143,000 deaths</td><td>CT B subunit binds GM1 on intestinal epithelium; A1 fragment ADP-ribosylates Gsα → constitutively active adenylate cyclase → cAMP ↑↑ → CFTR-mediated massive Cl⁻/HCO₃⁻ secretion; rice-water stool; up to 20L/day fluid loss; death from hypovolaemic shock within hours if untreated; ORS + doxycycline/azithromycin; Shanchol and Euvichol oral vaccines; OCV important for outbreak control</td></tr>
+            <tr><td>Cryptosporidium parvum / hominis</td><td>Apicomplexa; intracellular parasite; waterborne</td><td>Major waterborne pathogen; Milwaukee 1993 outbreak: 403,000 ill; leading cause of diarrhea and mortality in immunocompromised (HIV, primary immunodeficiencies); important cause of childhood diarrhea in LMICs</td><td>Oocysts (4–6 µm, resistant to chlorination at standard concentrations); invade apical enterocyte surface; disrupt tight junctions; trigger epithelial apoptosis; profuse watery diarrhea; self-limited in immunocompetent; life-threatening in AIDS (CD4 &lt;100); nitazoxanide effective in immunocompetent; no proven effective treatment in HIV without immune restoration</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Pathophysiology — Four Mechanisms</h4>
+          <div class="mech-list">
+            <div class="mech-item secretory">
+              <h5>Secretory diarrhea</h5>
+              <p>Driven by pathological elevation of intracellular second messengers that activate chloride secretion channels (primarily CFTR) independently of osmotic driving forces. cAMP is the key mediator for cholera toxin (CT) and ETEC LT: both ADP-ribosylate Gsα → constitutively active adenylate cyclase → cAMP ↑↑ → PKA → CFTR phosphorylation → Cl⁻ efflux into lumen (with compensatory Na⁺ and water secretion). ETEC ST enterotoxin and guanylin act via guanylate cyclase C (GCC) → cGMP ↑ → PKG → CFTR. VIP-secreting tumors (VIPoma) and carcinoid tumors cause secretory diarrhea by the same downstream pathways. Key clinical features: large-volume, watery, non-bloody; persists with fasting (unlike osmotic); isotonic stool; no fever; osmotic gap in stool is normal (&lt;50 mOsm/kg).</p>
+            </div>
+            <div class="mech-item osmotic">
+              <h5>Osmotic diarrhea</h5>
+              <p>Results from the presence of poorly absorbed, osmotically active solutes in the intestinal lumen, which retain water and prevent reabsorption. Examples: lactose in lactase deficiency (undigested disaccharide → bacterial fermentation → short-chain acids + gas + osmotic load); magnesium-containing antacids/laxatives (Mg²⁺ is poorly absorbed); lactulose used therapeutically in hepatic encephalopathy; sorbitol and fructose malabsorption. Key diagnostic feature: diarrhea stops with fasting. Stool osmotic gap is elevated: measured osmolarity &minus; 2×(stool Na⁺ + K⁺) &gt;125 mOsm/kg indicates osmotic etiology.</p>
+            </div>
+            <div class="mech-item inflammatory">
+              <h5>Inflammatory / invasive diarrhea</h5>
+              <p>Mucosal invasion and destruction by enteroinvasive pathogens — classically Shigella (the prototypical dysentery organism), EIEC, Campylobacter jejuni, non-typhoidal Salmonella, Entamoeba histolytica, and CDAD (<em>Clostridioides difficile</em> TcdA/TcdB). Pathogens invade the colonic mucosa (or ileum), inducing an intense inflammatory response with neutrophil and macrophage infiltration. Results in: small-volume bloody/mucoid stool (dysentery), fever, lower abdominal cramping, tenesmus, and urgency. Stool microscopy shows white blood cells (WBCs) and red blood cells. Histopathology: mucosal ulceration, crypt abscesses, lamina propria neutrophilia. Treatment with appropriate antibiotics (azithromycin for Campylobacter/Salmonella; ciprofloxacin or ceftriaxone for Shigella in adults; metronidazole/vancomycin for C. difficile) is important; antimotility agents contraindicated in bloody/febrile diarrhea due to risk of toxic megacolon and delayed pathogen clearance.</p>
+            </div>
+            <div class="mech-item motility">
+              <h5>Motility-related diarrhea</h5>
+              <p>Abnormal accelerated intestinal transit reduces contact time between luminal contents and the absorptive mucosal surface, resulting in loose stools despite normal absorptive capacity. Mechanisms include: post-infectious irritable bowel syndrome (PI-IBS) — persistent altered motility after an acute enteric infection (rotavirus, Campylobacter, ETEC), associated with mast cell activation and serotonin release; thyrotoxicosis (elevated T3/T4 increases smooth muscle excitability and GI transit); diabetic autonomic neuropathy (vagal denervation disrupts peristaltic coordination); short bowel syndrome after ileal resection; and VIP/serotonin-mediated disorders. IBS diarrhea subtype (IBS-D): altered gut-brain axis, visceral hypersensitivity, low-grade immune activation, and dysbiosis contribute.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>Management</h4>
+          <div class="mech-list">
+            <div class="mech-item mgmt">
+              <h5>Oral Rehydration Solution (ORS)</h5>
+              <p>The WHO/UNICEF low-osmolality ORS formula (2002): Na⁺ 75 mmol/L, Cl⁻ 65 mmol/L, glucose 75 mmol/L (1:1 molar ratio with Na⁺ — exploits coupled Na⁺-glucose cotransporter SGLT1 in enterocytes, which is preserved even in secretory diarrhea because SGLT1 is cAMP-independent), K⁺ 20 mmol/L, citrate 10 mmol/L, total osmolarity 245 mOsm/L. The reduction from 311 mOsm/L (original formula) to 245 mOsm/L reduced stool output by 33% and vomiting by 30% in children. ORS has reduced child diarrheal mortality by an estimated 50-fold since introduction in the 1970s. For cholera (very high purge rates), some guidelines retain higher-sodium ORS; IV Ringer's lactate for severe dehydration (sunken eyes, poor skin turgor, lethargy, inability to drink).</p>
+            </div>
+            <div class="mech-item mgmt">
+              <h5>Zinc supplementation</h5>
+              <p>WHO/UNICEF recommend zinc 20 mg/day (10 mg/day in infants &lt;6 months) for 10–14 days in all children with acute diarrhea. Evidence base: Bhutta et al. meta-analysis (2000, Pediatrics) and subsequent pooled analyses show zinc reduces diarrhea duration by ~25% and frequency by ~25%, and reduces the risk of a subsequent diarrheal episode by 33% over the following 2–3 months. Mechanism: zinc restores intestinal mucosal barrier function (tight junctions, brush-border enzymes), modulates immune response, and reverses zinc depletion from diarrheal losses (zinc is secreted in large quantities in stool during acute diarrhea). Zinc deficiency affects &gt;2 billion people globally and is independently associated with increased severity and duration of diarrhea.</p>
+            </div>
+            <div class="mech-item mgmt">
+              <h5>Antibiotic use — targeted indications only</h5>
+              <p>Antibiotics are indicated for: <strong>cholera</strong> (single-dose azithromycin 1g adult/20 mg/kg child, or doxycycline 300 mg single dose, reduces duration and transmission; reduces stool output by ~50%); <strong>Shigella dysentery</strong> (azithromycin first-line due to widespread fluoroquinolone resistance); <strong>severe or prolonged Salmonella</strong> (NTS in immunocompromised, infants, or bacteraemic disease — azithromycin or ceftriaxone); <strong>febrile traveller's diarrhea with systemic symptoms</strong>. Antibiotics are NOT indicated for: viral diarrhea (rotavirus, norovirus), ETEC (self-limited), or uncomplicated non-bloody watery diarrhea in immunocompetent adults. Empiric antibiotic use in uncomplicated childhood diarrhea is associated with microbiome disruption, Clostridioides difficile risk, and antibiotic resistance without benefit.</p>
+            </div>
+            <div class="mech-item mgmt">
+              <h5>Antimotility agents</h5>
+              <p>Loperamide (a peripheral µ-opioid receptor agonist) reduces intestinal motility and secretion, decreasing stool volume and frequency. Appropriate use: uncomplicated non-dysenteric, non-febrile traveller's diarrhea in adults; reduces trip-interrupting diarrhea episodes. Absolute contraindications: bloody diarrhea, fever (may indicate invasive bacterial or colitis requiring antibiotic clearance), <em>Shigella</em> or STEC (<em>E. coli</em> O157:H7) infection (risk of toxic megacolon, prolonged bacteraemia, and haemolytic uraemic syndrome — HUS), children under 2 years (risk of ileus and CNS effects), and colitis. Evidence for bismuth subsalicylate (BSS): ~62% efficacy for prevention and ~50% treatment of traveller's diarrhea; MOA includes antisecretory and anti-inflammatory properties.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>WASH and Global Prevention</h4>
+          <table class="detail-table">
+            <tr><td>WASH framework</td><td>Water, Sanitation, and Hygiene (WASH) — 94% of diarrheal disease is attributable to unsafe water, inadequate sanitation, and poor hygiene (WHO). WASH encompasses: safe drinking water supply (piped, treated, protected); improved sanitation (toilets connected to sewers or safely managed pits, eliminating open defecation); and handwashing with soap at critical times (after defecation, before food handling). WASH is also one of the most cost-effective health interventions — every $1 invested returns $5–$11 in economic benefits (reduced healthcare costs, lost productivity).</td></tr>
+            <tr><td>SDG 6 targets</td><td>Sustainable Development Goal 6 (Clean Water and Sanitation): achieve universal access to safe and affordable drinking water (SDG 6.1) and adequate and equitable sanitation and hygiene (SDG 6.2) by 2030. As of 2023, ~2.2 billion people lack safely managed drinking water services; ~3.5 billion lack safely managed sanitation. Progress is off track for 2030 deadline in Sub-Saharan Africa and parts of South Asia.</td></tr>
+            <tr><td>Vaccine impact</td><td>Rotavirus vaccines (Rotarix/RotaTeq) have prevented an estimated 4 million hospitalisations and 180,000–200,000 deaths per year globally since 2006 introduction and WHO recommendation. Oral cholera vaccines (OCV: Shanchol, Euvichol-Plus) are WHO pre-qualified for outbreak response; 2-dose regimens provide 65% protection for 2+ years. Typhoid conjugate vaccine (TCV) protects against enteric fever (Salmonella typhi), increasingly relevant as an invasive complication of enteric disease in endemic regions. No licensed vaccine exists for ETEC, Campylobacter, Cryptosporidium, or norovirus as of 2026 (multiple in trials).</td></tr>
+            <tr><td>Breastfeeding</td><td>Exclusive breastfeeding for 6 months provides passive immune protection against enteric pathogens via secretory IgA and bioactive compounds (lactoferrin, oligosaccharides, lysozyme) in breast milk. Breastfed infants have 50–70% lower risk of diarrheal disease-related hospitalisation compared to formula-fed infants in LMICs. WHO recommends exclusive breastfeeding to 6 months, continued alongside complementary foods to 2 years.</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h4>Connections</h4>
+          <div class="connections">
+            <a class="conn-pill related" href="pathogens.html"><span class="rel">Pathogens</span>Pathogen Atlas (rotavirus, ETEC, Vibrio, Crypto)</a>
+            <a class="conn-pill linked" href="gut-microbiome.html"><span class="rel">System</span>Gut Microbiome (dysbiosis in acute diarrhea)</a>
+            <a class="conn-pill linked" href="peyers-patches.html"><span class="rel">Tissue</span>Peyer's Patches (Salmonella / EPEC invasion)</a>
+            <a class="conn-pill related" href="vaccines.html"><span class="rel">Prevention</span>Vaccine Atlas (rotavirus, OCV, TCV)</a>
+            <a class="conn-pill causes" href="zoonosis.html"><span class="rel">Context</span>Zoonosis (Campylobacter, NTS, Cryptosporidium)</a>
+            <a class="conn-pill linked" href="aedes-aegypti.html"><span class="rel">Context</span>Tropical disease burden / WASH</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h4>References</h4>
+          <ul class="refs">
+            <li>GBD 2016 Diarrhoeal Disease Collaborators. Estimates of the global, regional, and national morbidity, mortality, and aetiologies of diarrhoea in 195 countries. <em>Lancet Infect Dis.</em> 2018;18(11):1211–28. <a href="https://doi.org/10.1016/S1473-3099(18)30362-1" target="_blank" rel="noopener">doi:10.1016/S1473-3099(18)30362-1</a> &middot; PubMed 30243583</li>
+            <li>Bhutta ZA, Bird SM, Black RE, et al. Therapeutic effects of oral zinc in acute and persistent diarrhea in children in developing countries: pooled analysis of randomized controlled trials. <em>Am J Clin Nutr.</em> 2000;72(6):1516–22. <a href="https://doi.org/10.1093/ajcn/72.6.1516" target="_blank" rel="noopener">doi:10.1093/ajcn/72.6.1516</a> &middot; PubMed 11101480</li>
+            <li>Guerrant RL, Van Gilder T, Steiner TS, et al. Practice guidelines for the management of infectious diarrhea. <em>Clin Infect Dis.</em> 2001;32(3):331–51. <a href="https://doi.org/10.1086/318514" target="_blank" rel="noopener">doi:10.1086/318514</a> &middot; PubMed 11170940</li>
+            <li>Walker CLF, Rudan I, Liu L, et al. Global burden of childhood pneumonia and diarrhoea. <em>Lancet.</em> 2013;381(9875):1405–16. <a href="https://doi.org/10.1016/S0140-6736(13)60222-6" target="_blank" rel="noopener">doi:10.1016/S0140-6736(13)60222-6</a> &middot; PubMed 23582727</li>
+            <li>Tate JE, Burton AH, Boschi-Pinto C, Parashar UD. Global, regional, and national estimates of rotavirus mortality in children &lt;5 years of age, 2000–2013. <em>Clin Infect Dis.</em> 2016;62(Suppl 2):S96–S105. <a href="https://doi.org/10.1093/cid/civ1013" target="_blank" rel="noopener">doi:10.1093/cid/civ1013</a> &middot; PubMed 27059362</li>
+            <li>WHO/UNICEF. Oral rehydration salts: production of the new ORS. WHO document WHO/FCH/CAH/06.1. World Health Organization; 2006. <a href="https://www.who.int/publications/i/item/WHO-FCH-CAH-06.1" target="_blank" rel="noopener">who.int</a></li>
+            <li>Moss DM, Bhaskaran K, Bhatt S, et al. Systematic review of the epidemiology of norovirus gastroenteritis. <em>BMJ Open.</em> 2012;2(6):e001564. <a href="https://doi.org/10.1136/bmjopen-2012-001564" target="_blank" rel="noopener">doi:10.1136/bmjopen-2012-001564</a></li>
+            <li>Field M. Intestinal ion transport and the pathophysiology of diarrhea. <em>J Clin Invest.</em> 2003;111(7):931–43. <a href="https://doi.org/10.1172/JCI18"  target="_blank" rel="noopener">doi:10.1172/JCI18</a> &middot; PubMed 12671039</li>
+          </ul>
+        </div>
+
+      </div>
+    </div><!-- /.detail-card -->
+
+    <div class="contribute">
+      <h2>Contribute to the Pathogen Atlas</h2>
+      <p>This entry covers the full spectrum of diarrheal disease: epidemiology, eight major pathogens and their molecular mechanisms, four pathophysiological classes, ORS composition, zinc evidence, antibiotic indications, and WASH. Planned expansions: persistent diarrhea (post-infectious IBS, microbiome), GEMS study pathogen distribution data, country-specific vaccine impact analyses.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+          Contribute on GitHub
+        </a>
+        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Diarrheal%20Disease%20Atlas%20entry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get in touch
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#mission">Mission</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="vaccines.html">Vaccines</a>
+      <a href="index.html#join">Join</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neonatal Medicine — transition at birth, RDS, surfactant, preterm physiology, neonatal sepsis, hyperbilirubinemia, kangaroo mother care, key interventions. Human Engineering Atlas L05 Clinical.">
+  <meta property="og:title" content="Neonatal Medicine — Clinical Atlas · Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Neonatal Medicine — Clinical Atlas · Human Engineering</title>
+  <style>
+    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#f59e0b;--accent-soft:rgba(245,158,11,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
+    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(12px);-webkit-backdrop-filter:saturate(180%) blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
+    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
+    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
+    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
+    .nav-back{display:inline-flex;align-items:center;gap:.4rem}
+    .nav-back svg{width:14px;height:14px}
+    .hero{background:linear-gradient(135deg,#fffbeb 0%,#fef3c7 40%,#ffffff 80%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
+    .hero-inner{max-width:var(--maxw);margin:0 auto}
+    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
+    .hero h1 span{color:var(--accent)}
+    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
+    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
+    .stat-row{display:flex;gap:2rem;flex-wrap:wrap;margin:1.25rem 0}
+    .stat{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.75rem 1rem;min-width:130px}
+    .stat-num{font-size:1.35rem;font-weight:800;color:var(--accent);line-height:1}
+    .stat-label{font-size:.72rem;color:var(--muted);margin-top:.25rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
+    .section{margin-bottom:2.5rem}
+    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
+    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
+    .section p{color:var(--fg-soft);margin-bottom:.9rem}
+    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
+    .section li{margin-bottom:.35rem}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
+    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
+    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
+    tr:last-child td{border-bottom:none}
+    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
+    .callout strong{color:var(--accent)}
+    .formula-block{background:var(--bg-3);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.85rem 1.1rem;margin:.5rem 0;font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:.88rem;color:var(--fg)}
+    .formula-note{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:.82rem;color:var(--muted);margin-top:.3rem}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+    @media(max-width:600px){.two-col{grid-template-columns:1fr}}
+    .card-sm{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.9rem 1rem}
+    .card-sm h4{font-size:.88rem;font-weight:700;color:var(--fg);margin-bottom:.35rem}
+    .card-sm p{font-size:.84rem;color:var(--muted);line-height:1.55;margin:0}
+    .conn-list{list-style:none;padding:0}
+    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
+    .conn-list li:last-child{border-bottom:none}
+    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:100px}
+    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
+    .references ol li{margin-bottom:.6rem}
+    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
+    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Human Engineering
+    </a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="../index.html" class="nav-back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        Home
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Clinical Atlas &middot; L05 Clinical &middot; Neonatology &middot; Perinatal Medicine</div>
+    <h1><span>Neonatal Medicine</span></h1>
+    <p class="hero-lead">The clinical and physiological science of the newborn — from the dramatic circulatory transition at birth to the management of extreme prematurity. Neonatal conditions account for 47% of all under-5 mortality globally, making this one of the highest-impact domains in human health.</p>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num">47%</div><div class="stat-label">Share of under-5 global mortality</div></div>
+      <div class="stat"><div class="stat-num">&lt;32 wks</div><div class="stat-label">Very preterm threshold</div></div>
+      <div class="stat"><div class="stat-num">~65%</div><div class="stat-label">RDS incidence &lt;1500 g</div></div>
+      <div class="stat"><div class="stat-num">~40%</div><div class="stat-label">VLBW mortality reduction with KMC</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="meta-strip">
+  <span>Scale: <strong>L05 Clinical</strong></span>
+  <span>System: <strong>Neonatal / Perinatal</strong></span>
+  <span>Type: <strong>Clinical specialty</strong></span>
+  <span>Age window: <strong>Birth → 28 days</strong></span>
+</div>
+
+<div class="content">
+
+  <div class="section">
+    <h2>Definitions and Epidemiology</h2>
+    <p>A <strong>neonate</strong> is a newborn in the first 28 days of life. <strong>Preterm</strong> birth is defined as delivery before 37 completed weeks of gestation; subcategories of clinical importance:</p>
+    <ul>
+      <li><strong>Moderate-to-late preterm:</strong> 32–36⁺⁶ weeks — largest group numerically, relatively lower risk</li>
+      <li><strong>Very preterm (VPT):</strong> &lt;32 weeks — substantially higher risk of respiratory, neurological, and infectious complications</li>
+      <li><strong>Extremely preterm (EPT):</strong> &lt;28 weeks — at the limits of viability (~22–24 weeks in high-resource settings); survival with major morbidity common</li>
+    </ul>
+    <p>Birth weight classification: <strong>Low birth weight (LBW)</strong> &lt;2,500 g; <strong>Very low birth weight (VLBW)</strong> &lt;1,500 g; <strong>Extremely low birth weight (ELBW)</strong> &lt;1,000 g. LBW encompasses both prematurity and intrauterine growth restriction (IUGR). Globally, ~15 million preterm births occur each year (WHO, 2023); prematurity complications are the leading cause of death in children under 5, accounting for approximately 47% of deaths in the neonatal period (first 28 days).</p>
+  </div>
+
+  <div class="section">
+    <h2>Transition at Birth — Circulatory and Respiratory</h2>
+    <p>Birth triggers the most abrupt physiological transition in human life. In the fetal circulation, the lungs receive only ~8% of combined ventricular output (high pulmonary vascular resistance, low oxygen tension), with oxygenated blood reaching the fetus via the placenta. Three fetal shunts direct blood away from the lungs and liver:</p>
+    <ul>
+      <li><strong>Ductus venosus:</strong> bypasses hepatic sinusoids; oxygenated umbilical venous blood → inferior vena cava</li>
+      <li><strong>Foramen ovale:</strong> interatrial shunt (right → left); preferentially streams well-oxygenated IVC blood to the coronary arteries and brain</li>
+      <li><strong>Ductus arteriosus (DA):</strong> connects pulmonary artery trunk to the descending aorta; maintained patent by prostaglandin E2 (PGE2, produced by the placenta and ductal wall) and low PO₂; carries ~60% of right ventricular output away from the lungs</li>
+    </ul>
+    <p><strong>At birth:</strong> Clamping of the umbilical cord removes the placental PGE2 source + low-resistance placental circulation. The first breath delivers oxygen → pulmonary arteriolar vasodilatation (PO₂ rise + pH rise → ↓hypoxic vasoconstriction) → pulmonary vascular resistance falls → pulmonary blood flow ↑10-fold within minutes. Increased pulmonary venous return → left atrial pressure rises → foramen ovale functional closure (flap valve). Oxygen exposure + reduced circulating PGE2 → ductal smooth muscle contraction → functional DA closure within 24–72 hours in term infants; anatomical closure follows over weeks. <strong>Failure of DA closure</strong> (patent ductus arteriosus, PDA) is common in preterm infants and causes a left-to-right shunt with pulmonary overcirculation.</p>
+    <p>The <strong>Apgar score</strong>, assessed at 1 minute and 5 minutes after birth, provides a rapid standardized assessment of neonatal transition:</p>
+    <div class="formula-block">
+      Apgar = HR + Respirations + Muscle Tone + Reflex Irritability + Color
+      <div class="formula-note">Each component scored 0–2; maximum score 10. Score 7–10: normal. Score 4–6: moderate concern, stimulation/O₂. Score 0–3: severe depression, immediate resuscitation required. 1-min score reflects intrauterine conditions; 5-min score predicts neonatal outcome.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Respiratory Distress Syndrome (RDS)</h2>
+    <p>RDS (historically called Hyaline Membrane Disease) results from <strong>pulmonary surfactant deficiency</strong> in preterm infants. Surfactant synthesis begins in type II pneumocytes around 22–24 weeks' gestation but reaches physiologically adequate levels only around 34–36 weeks. Below ~32 weeks, surfactant quantity and composition (particularly DPPC and SP-B) are insufficient to prevent alveolar collapse at end-expiration.</p>
+    <p><strong>Pathophysiology:</strong> Insufficient surfactant → alveolar surface tension remains high → alveoli collapse at end-expiration (atelectasis) → increasing work of breathing → hypoxia → anaerobic metabolism → lactic acidosis → pulmonary vasoconstriction → further ischemia to type II pneumocytes → further surfactant synthesis impairment (vicious cycle). Protein-rich exudate from damaged epithelium lines alveolar ducts forming <strong>hyaline membranes</strong> (the histological hallmark). Incidence ~65% in infants &lt;1,500 g.</p>
+    <h3>Management — Antenatal Corticosteroids</h3>
+    <p>Antenatal corticosteroids (ACS) are the single most effective intervention for preterm birth. <strong>Betamethasone</strong> 11.4 mg IM ×2 doses 24 hours apart (or dexamethasone 6 mg IM ×4 doses 12 hours apart) given to mothers at 24–34⁺⁶ weeks at risk of preterm delivery within 7 days accelerates fetal lung maturation via glucocorticoid receptor-mediated upregulation of surfactant protein gene expression (SP-A, SP-B, SP-C, SP-D) and phospholipid synthesis enzymes. The landmark 1972 trial by Liggins and Howie (New Zealand) established this benefit; meta-analyses confirm ~50% reduction in RDS incidence and significant reductions in IVH, NEC, and neonatal mortality.</p>
+    <h3>Management — Exogenous Surfactant Replacement</h3>
+    <p>Natural surfactant preparations derived from animal lungs are instilled via endotracheal tube:</p>
+    <ul>
+      <li><strong>Beractant (Survanta):</strong> bovine lipid extract; contains SP-B and SP-C analogues; 100 mg/kg dose</li>
+      <li><strong>Poractant alfa (Curosurf):</strong> porcine minced lung extract; higher phospholipid concentration; 100–200 mg/kg dose</li>
+      <li><strong>Calfactant (Infasurf):</strong> calf lung lavage extract</li>
+    </ul>
+    <p>Delivery strategies: <strong>INSURE</strong> (INtubate-SURfactant-Extubate to CPAP) — brief intubation for surfactant delivery then immediate extubation to CPAP; <strong>LISA</strong> (Less Invasive Surfactant Administration) — thin catheter passed through vocal cords during CPAP breathing, surfactant instilled without intubation; reduces mechanical ventilation exposure. Both strategies are superior to intubation-ventilation alone (CURPAP, COIN trials).</p>
+    <p>Respiratory support: <strong>CPAP</strong> (continuous positive airway pressure, 5–8 cmH₂O) maintains end-expiratory lung volume, preventing alveolar collapse; first-line for spontaneously breathing preterm infants. <strong>HFNC</strong> (high-flow nasal cannula) used as step-down or mild RDS. Intubation and conventional mechanical ventilation (or high-frequency oscillatory ventilation, HFOV) for severe RDS or CPAP failure.</p>
+  </div>
+
+  <div class="section">
+    <h2>Neonatal Sepsis</h2>
+    <p>Neonatal sepsis is a clinical syndrome of systemic infection in the first 28 days of life; a major cause of neonatal mortality in low-income settings (~680,000 deaths/year globally, WHO).</p>
+    <h3>Early-onset sepsis (EOS, &lt;72 hours)</h3>
+    <p>Results from <strong>vertical transmission</strong> — organisms colonizing the maternal genital tract ascend to infect the fetus/neonate before or during delivery. Principal pathogens:</p>
+    <ul>
+      <li><strong>Group B Streptococcus (GBS, Streptococcus agalactiae):</strong> leading cause in high-income settings; maternal rectovaginal colonization ~15–30%; prevention: intrapartum GBS prophylaxis (IV penicillin G) for GBS-positive mothers</li>
+      <li><strong>Escherichia coli:</strong> second most common; ESBL-producing strains increasingly prevalent; especially in preterm ELBW infants</li>
+      <li><strong>Listeria monocytogenes:</strong> from contaminated food; causes granulomatosis infantiseptica (disseminated abscesses)</li>
+    </ul>
+    <p>Empirical treatment: <strong>ampicillin + gentamicin</strong> (covers GBS, E. coli, Listeria; synergistic bactericidal activity). Duration 10–14 days for confirmed bacteremia/meningitis.</p>
+    <h3>Late-onset sepsis (LOS, &gt;72 hours)</h3>
+    <p>Predominantly <strong>nosocomial</strong> (hospital-acquired), especially in NICU settings. Principal pathogens:</p>
+    <ul>
+      <li><strong>Coagulase-negative staphylococci (CoNS, esp. S. epidermidis):</strong> most common in VLBW infants; associated with central venous catheters (biofilm formation)</li>
+      <li><strong>Staphylococcus aureus</strong> including MRSA; <em>Candida</em> species in ELBW infants receiving broad-spectrum antibiotics/steroids; Gram-negative rods (Klebsiella, Pseudomonas, Enterobacter)</li>
+    </ul>
+    <p>Empirical treatment: <strong>vancomycin</strong> ± aminoglycoside (covers CoNS and MRSA); add antifungal (fluconazole or micafungin) if Candida risk factors. Laboratory: CBC with differential, CRP, blood culture (minimum 1 mL); procalcitonin useful after 48h of life. Lumbar puncture mandatory if blood culture positive or clinical meningitis suspected. NEC must be considered in septic preterm infants.</p>
+  </div>
+
+  <div class="section">
+    <h2>Neonatal Hyperbilirubinemia</h2>
+    <p>Unconjugated hyperbilirubinemia is extremely common in neonates; it becomes clinically significant — jaundice visible when serum bilirubin &gt;5–7 mg/dL — in ~60% of term and ~80% of preterm infants in the first week of life.</p>
+    <p><strong>Physiological basis:</strong> Fetal hemoglobin (HbF) is replaced by adult hemoglobin postnatally → accelerated red cell turnover → increased bilirubin load. Hepatic UDP-glucuronosyltransferase 1A1 (UGT1A1) is immature in neonates → reduced conjugating capacity → unconjugated bilirubin accumulates. Intestinal bacteria that convert bilirubin to urobilin are absent → enterohepatic circulation of bilirubin (β-glucuronidase in gut deconjugates bilirubin → reabsorption). Peak: day 3–5 in term infants, day 5–7 in preterm.</p>
+    <p><strong>Pathological causes</strong> require earlier and more aggressive management:</p>
+    <ul>
+      <li><strong>ABO incompatibility:</strong> maternal O blood type + infant A or B → maternal IgG anti-A/B crosses placenta → hemolysis; most common cause of severe jaundice requiring exchange transfusion in high-income settings</li>
+      <li><strong>Rh (D) incompatibility:</strong> Rh-negative mother previously sensitized → anti-D IgG → severe hemolytic disease of the fetus and newborn (HDFN); prevented by antenatal and postpartum anti-D immunoglobulin (RhoGAM)</li>
+      <li><strong>G6PD deficiency:</strong> X-linked; oxidative stress → episodic hemolysis; common in populations from malaria-endemic regions; triggers: naphthalene (mothballs), fava beans, infections, certain drugs</li>
+      <li><strong>Cephalohematoma:</strong> subperiosteal hemorrhage → hematoma resorption → bilirubin load</li>
+    </ul>
+    <p><strong>Treatment — Phototherapy:</strong> Blue-spectrum light (peak 460–490 nm, matching peak bilirubin absorption) converts unconjugated bilirubin in skin capillaries via two photochemical reactions: (1) configurational photoisomerization: 4Z,15Z-bilirubin → 4Z,15E-bilirubin (lumibilirubin) — water-soluble, excreted in bile without conjugation; (2) structural photoisomerization → lumirubin — excreted in urine. Intensive phototherapy (irradiance ≥30 µW/cm²/nm) accelerates conversion; double-surface LED phototherapy units are standard. Exchange transfusion (double-volume, removing ~85% of circulating bilirubin and sensitized RBCs) is reserved for severe hyperbilirubinemia at threshold levels per nomograms (Bhutani) or when bilirubin rises despite phototherapy.</p>
+    <p><strong>Bilirubin neurotoxicity (kernicterus):</strong> Unconjugated bilirubin is lipophilic and crosses the blood-brain barrier when albumin binding capacity is saturated. Preferential deposition in the basal ganglia, subthalamic nuclei, and auditory nuclei → acute bilirubin encephalopathy (hypotonia → hypertonia → seizures → opisthotonus) → chronic kernicterus: athetoid cerebral palsy, sensorineural hearing loss, upward gaze palsy. Kernicterus is preventable with timely phototherapy.</p>
+  </div>
+
+  <div class="section">
+    <h2>Key Interventions Summary</h2>
+    <table>
+      <tr>
+        <th>Intervention</th>
+        <th>Indication</th>
+        <th>Mechanism / Evidence</th>
+        <th>Key trial / reference</th>
+      </tr>
+      <tr>
+        <td><strong>Antenatal corticosteroids</strong></td>
+        <td>Threatened preterm birth 24–34⁺⁶ wks</td>
+        <td>Betamethasone 12 mg IM ×2 doses, 24h apart; accelerates surfactant synthesis, lung maturation, reduces IVH and NEC</td>
+        <td>Liggins &amp; Howie 1972; Roberts et al., Cochrane review</td>
+      </tr>
+      <tr>
+        <td><strong>Exogenous surfactant</strong></td>
+        <td>RDS in preterm infants, especially &lt;32 wks</td>
+        <td>Beractant or poractant alfa via ETT (INSURE/LISA); replaces deficient surfactant; reduces ventilator days and BPD</td>
+        <td>CURPAP, COIN, AMV trials</td>
+      </tr>
+      <tr>
+        <td><strong>CPAP / HFNC</strong></td>
+        <td>Spontaneously breathing preterm with RDS</td>
+        <td>Continuous distending pressure prevents end-expiratory collapse; COIN trial showed non-inferior to intubation for ≥25 wks</td>
+        <td>COIN trial (Morley et al., NEJM 2008)</td>
+      </tr>
+      <tr>
+        <td><strong>Kangaroo mother care (KMC)</strong></td>
+        <td>Stable preterm/LBW infants</td>
+        <td>Continuous skin-to-skin contact + exclusive breastfeeding + early discharge; provides thermal regulation, promotes bonding, reduces infection; reduces VLBW mortality by ~40%</td>
+        <td>Conde-Agudelo &amp; Díaz-Rossello, Cochrane 2016</td>
+      </tr>
+      <tr>
+        <td><strong>Phototherapy</strong></td>
+        <td>Hyperbilirubinemia above age/weight thresholds</td>
+        <td>460–490 nm light; bilirubin photoisomerization → water-soluble isomers; intensive double-surface LED units</td>
+        <td>Bhutani nomogram; AAP guidelines 2022</td>
+      </tr>
+      <tr>
+        <td><strong>IVIG</strong></td>
+        <td>Isoimmune hemolytic disease (ABO/Rh)</td>
+        <td>IV immunoglobulin (0.5–1 g/kg) → Fc receptor blockade on neonatal macrophages → reduced RBC destruction; reduces exchange transfusion rates</td>
+        <td>Gottstein &amp; Cooke, Cochrane 2003</td>
+      </tr>
+      <tr>
+        <td><strong>Caffeine citrate</strong></td>
+        <td>Apnea of prematurity (&lt;34 wks)</td>
+        <td>Adenosine A1/A2 receptor antagonist → central respiratory stimulation; loading 20 mg/kg, maintenance 5–10 mg/kg/day; reduces BPD and neurodevelopmental impairment (CAP trial)</td>
+        <td>Schmidt et al., CAP trial, NEJM 2006</td>
+      </tr>
+      <tr>
+        <td><strong>Indomethacin / Ibuprofen / Acetaminophen</strong></td>
+        <td>Hemodynamically significant PDA</td>
+        <td>Indomethacin/ibuprofen: COX inhibition → reduced PGE2 → ductal constriction; IV paracetamol: alternative with fewer renal side effects; surgical/catheter ligation reserved for failures</td>
+        <td>Van Overmeire et al., NEJM 2000; multiple RCTs</td>
+      </tr>
+      <tr>
+        <td><strong>Total parenteral nutrition (TPN)</strong></td>
+        <td>VLBW/ELBW preterm; inability to tolerate enteral feeds</td>
+        <td>Amino acids from birth day 1; lipid emulsions (SMOF lipid), glucose; enteral feeds advanced gradually (trophic feeds); breast milk preferred to reduce NEC risk</td>
+        <td>Koletzko et al., ESPGHAN guidelines</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Cross-Atlas Connections</h2>
+    <ul class="conn-list">
+      <li><span class="conn-rel">Related organ</span><a href="placenta.html">Placenta</a> — feto-maternal physiology, preeclampsia, intrauterine growth restriction, IgG transfer</li>
+      <li><span class="conn-rel">Related organ</span><a href="lung-alveolus.html">Lung Alveolus</a> — surfactant biology and RDS pathophysiology</li>
+      <li><span class="conn-rel">Preventive</span><a href="vaccines.html">Vaccines</a> — neonatal immunization schedule; maternal vaccination (TdaP, influenza) to protect newborns</li>
+      <li><span class="conn-rel">Co-morbidity</span><a href="ckd.html">CKD</a> — prematurity-associated nephron deficit increases lifetime CKD risk; aminoglycoside nephrotoxicity in neonatal sepsis</li>
+    </ul>
+  </div>
+
+  <div class="section references">
+    <h2>References</h2>
+    <ol>
+      <li>Liggins GC, Howie RN. A controlled trial of antepartum glucocorticoid treatment for prevention of the respiratory distress syndrome in premature infants. <em>Pediatrics.</em> 1972;50(4):515–525.</li>
+      <li>Roberts D, Brown J, Medley N, Dalziel SR. Antenatal corticosteroids for accelerating fetal lung maturation for women at risk of preterm birth. <em>Cochrane Database Syst Rev.</em> 2017;3:CD004454. doi:10.1002/14651858.CD004454.pub3</li>
+      <li>Morley CJ, Davis PG, Doyle LW, et al. Nasal CPAP or intubation at birth for very preterm infants (COIN trial). <em>N Engl J Med.</em> 2008;358(7):700–708. doi:10.1056/NEJMoa072788</li>
+      <li>Schmidt B, Roberts RS, Davis P, et al. Caffeine therapy for apnea of prematurity. <em>N Engl J Med.</em> 2006;354(20):2112–2121. doi:10.1056/NEJMoa054065</li>
+      <li>Conde-Agudelo A, Díaz-Rossello JL. Kangaroo mother care to reduce morbidity and mortality in low birthweight infants. <em>Cochrane Database Syst Rev.</em> 2016;8:CD002771. doi:10.1002/14651858.CD002771.pub4</li>
+      <li>Bhutani VK, Johnson L, Sivieri EM. Predictive ability of a predischarge hour-specific serum bilirubin for subsequent significant hyperbilirubinemia in healthy term and near-term newborns. <em>Pediatrics.</em> 1999;103(1):6–14. doi:10.1542/peds.103.1.6</li>
+      <li>American Academy of Pediatrics. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. <em>Pediatrics.</em> 2022;150(3):e2022058859. doi:10.1542/peds.2022-058859</li>
+      <li>Polin RA, Watterberg K, Benitz W, Eichenwald E. The conundrum of early-onset sepsis. <em>Pediatrics.</em> 2014;133(6):1122–1123. doi:10.1542/peds.2014-0360</li>
+    </ol>
+  </div>
+
+</div>
+
+<footer>
+  <p>Human Engineering &mdash; open, free, global project to model human biology end-to-end.</p>
+  <p style="margin-top:.5rem;"><a href="../index.html">Home</a> &nbsp;&middot;&nbsp; <a href="pathogens.html">Pathogens</a> &nbsp;&middot;&nbsp; <a href="medicine.html">Medicine</a> &nbsp;&middot;&nbsp; <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a></p>
+  <p style="margin-top:.5rem;">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+  <p style="margin-top:.5rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
+  <p style="margin-top:.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
