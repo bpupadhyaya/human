@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Cardioembolic stroke (25-30% of ischemic strokes) originates from cardiac thrombi: atrial fibrillation (left atrial appendage) is the dominant source; also prosthetic valves, post-MI mural thrombi, and endocarditis; oral anticoagulants (DOACs) prevent cardioembolic stroke in AF."
+  - target: 01-human/03-molecular/pcsk9
+    relation: connects-to
+    note: "LDL-C-driven carotid atherosclerosis causes ischemic stroke via thromboembolism; PCSK9 inhibitors (evolocumab, alirocumab) reduce stroke risk ~25% in post-MI patients; very low LDL-C (<25 mg/dL) with PCSK9 inhibition does not impair cognition and reduces stroke incidence."
 ---
 
 # Stroke
@@ -151,6 +154,7 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — hypertension is the dominant modifiable stroke risk factor; drives small vessel disease (lacunar infarcts), ICH, and accelerates atherosclerosis; BP lowering reduces recurrent stroke by 30-40%.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — eNOS-derived NO maintains cerebral vasodilation and platelet inhibition; ischemia depletes protective NO and activates nNOS → peroxynitrite neurotoxicity; the dual role of NO isoforms in stroke is therapeutically important.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — cardioembolic stroke (25-30%) arises from cardiac thrombi in AF, post-MI, and endocarditis; atrial fibrillation is the single most treatable cardioembolic risk factor (DOACs reduce AF stroke by ~64% vs warfarin by ~60%).
+- `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — LDL-C-driven carotid atherosclerosis causes ischemic stroke via thromboembolism; PCSK9 inhibitors (evolocumab, alirocumab) reduce stroke risk ~25% in post-MI patients; very low LDL-C (<25 mg/dL) with PCSK9 inhibition does not impair cognition and reduces stroke incidence.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

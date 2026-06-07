@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: contains
     note: "Cardiomyocytes are the primary failing cells in heart failure: adaptive hypertrophy, calcium handling dysfunction (reduced SERCA2a, elevated diastolic Ca2+), sarcomeric disarray, mitochondrial dysfunction, and ultimately apoptosis drive the progression to heart failure."
+  - target: 01-human/03-molecular/pcsk9
+    relation: connects-to
+    note: "Elevated LDL-C from PCSK9 GOF mutations accelerates coronary atherosclerosis → MI → ischemic cardiomyopathy and heart failure; PCSK9 inhibitors reduce MI risk in high-risk CVD patients; PCSK9 may also have direct myocardial effects via apoE and apoB receptor pathways."
 ---
 
 # Heart Failure
@@ -114,6 +117,7 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `modulated-by` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — drives vasoconstriction, volume expansion, cardiac fibrosis, and hypertrophy in HF; ACE-I/ARBs block this arm of GDMT
 - `modulated-by` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cardiac fibrosis, sodium retention, and potassium wasting; MRAs (spironolactone/eplerenone) reduce mortality in HFrEF
 - `contains` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — the primary failing cell type; cardiomyocyte loss, hypertrophy, and calcium handling dysfunction are the central cellular mechanisms of HFrEF
+- `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — elevated LDL-C from PCSK9 GOF mutations accelerates coronary atherosclerosis → MI → ischemic cardiomyopathy and heart failure; PCSK9 inhibitors reduce MI risk in high-risk CVD patients; PCSK9 may also have direct myocardial effects via apoE and apoB receptor pathways.
 
 ## Pathology
 
