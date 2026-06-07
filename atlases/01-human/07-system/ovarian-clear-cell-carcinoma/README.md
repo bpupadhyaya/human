@@ -1,0 +1,186 @@
+---
+schema: human-scale-entry/v1
+id: ovarian-clear-cell-carcinoma
+name: Ovarian Clear Cell Carcinoma
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "Ovarian clear cell carcinoma (OCCC) is an endometriosis-derived subtype; ARID1A (~50%) and PIK3CA (~50%) are hallmark mutations; platinum-resistant; no FDA-approved targeted therapy; higher incidence in Asian women; mTOR inhibitors and EZH2 inhibitors under investigation."
+aliases: ["OCCC", "ovarian clear cell carcinoma", "clear cell ovarian cancer", "endometriosis-associated ovarian cancer", "ARID1A ovarian cancer", "PIK3CA ovarian clear cell", "clear cell adenocarcinoma ovary", "endometrioid-related ovarian cancer", "ovarian cancer clear cell", "CCC ovarian"]
+sources:
+  - id: jones-2010-arid1a-occc
+    type: peer-reviewed
+    cite: "Jones S, Wang TL, Shih IeM, et al. Frequent mutations of chromatin remodeling gene ARID1A in ovarian clear cell carcinoma. Science. 2010;330(6001):228-231."
+    doi: "10.1126/science.1196333"
+    pmid: "20826764"
+    url: "https://doi.org/10.1126/science.1196333"
+  - id: kim-2015-arid1a-ezh2
+    type: peer-reviewed
+    cite: "Kim KH, Kim W, Howard TP, et al. SWI/SNF-mutant cancers depend on catalytic and non-catalytic activity of EZH2. Nat Med. 2015;21(12):1491-1496."
+    doi: "10.1038/nm.3968"
+    pmid: "26552009"
+    url: "https://doi.org/10.1038/nm.3968"
+cross_links:
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A (BAF250A) is mutated in ~50% of OCCC; biallelic ARID1A LOF → cBAF disruption; ARID1A IHC (BAF250A, clone PSG3) protein loss is a surrogate diagnostic marker in OCCC; ARID1A + PIK3CA co-mutation in ~25-30% OCCC defines the highest-risk molecular subgroup."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "ARID1A LOF disrupts cBAF → EZH2/PRC2 accesses ARID1A-target loci → H3K27me3 accumulation; OCCC with ARID1A LOF shows EZH2 dependency in preclinical models; tazemetostat under investigation in ARID1A-mutant OCCC; EZH2 + PARP inhibitor combination explored."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "ARID1A + PIK3CA co-mutation defines ~25-30% of ovarian clear cell carcinomas; PIK3CA → PI3K/AKT/mTOR → OCCC proliferation; ARID1A LOF + PIK3CA creates synthetic vulnerability to dual PI3K/mTOR inhibition; temsirolimus active in PIK3CA-mutant OCCC Phase 2."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "ARID1A LOF in OCCC → PD-L1 upregulation via MLH1 suppression and IFN-γ signaling pathway enhancement; OCCC has higher PD-L1 expression than high-grade serous ovarian cancer; pembrolizumab + bevacizumab shows activity in PD-L1+ OCCC; durvalumab combination trials ongoing."
+---
+
+# Ovarian Clear Cell Carcinoma
+
+## Overview
+
+**Ovarian clear cell carcinoma (OCCC)** is a distinct histological and molecular subtype of epithelial ovarian cancer characterized by clear cytoplasm (glycogen-rich), hobnail cells, and a unique molecular profile dominated by **ARID1A** and **PIK3CA** mutations. OCCC is strongly associated with endometriosis (~40% of cases arise from endometriotic cysts) and is relatively resistant to standard platinum-based chemotherapy compared to high-grade serous ovarian carcinoma (HGSOC). It has a unique geographic distribution with significantly higher incidence in East Asian women, and remains one of the most therapeutically challenging gynecologic malignancies due to the absence of FDA-approved targeted therapies [^jones-2010-arid1a-occc].
+
+**Epidemiology:**
+- Frequency: ~10-12% of all epithelial ovarian cancers in Western populations; ~15-25% in Japan and East Asia
+- Geographic/ethnic disparity: Japanese women: ~25% of ovarian cancers are clear cell; Caucasian women: ~5-8%; genetic predisposition and endometriosis prevalence differences explain part of this disparity
+- Incidence: ~2,000-2,500 cases/year USA; ~5,000-6,000 in Japan
+- Median age: ~50-55 years (younger than HGSOC, median ~60 years)
+- Association with endometriosis: ~40% of OCCC arise within or adjacent to endometriotic cysts (endometriomas); endometriosis-associated OCCC: slightly better prognosis; lower CA-125 at presentation
+- Germline predisposition: BRCA1/2 pathogenic variants confer HGSOC risk, not OCCC-specific risk; Lynch syndrome (MSH2) predisposes to endometrioid and OCCC subtypes
+
+**Contrast with HGSOC:**
+
+| Feature | OCCC | HGSOC |
+|---|---|---|
+| BRCA1/2 mutations | ~2-5% | ~15-20% |
+| TP53 mutations | ~5-10% | ~95% |
+| ARID1A mutations | ~50-55% | <5% |
+| PIK3CA mutations | ~40-50% | ~3-5% |
+| HER2 amplification | <5% | ~20% |
+| Platinum sensitivity | ~20-30% | ~70-80% |
+| Taxane sensitivity | Moderate | High |
+| CA-125 at diagnosis | Often normal | Usually elevated |
+| Stage at diagnosis | Often early (I-II) | Usually late (III-IV) |
+
+## Structure
+
+### Molecular landscape of OCCC
+
+**Hallmark mutations:**
+
+**ARID1A (~50-55%):** [^jones-2010-arid1a-occc]
+Truncating mutations in exons 8-18; biallelic LOF in most cases; BAF250A protein lost by IHC; disrupts cBAF complex → EZH2/PRC2 gains access → H3K27me3 accumulation → silencing of differentiation and tumor suppressor genes; ARID1A-mutant tumors are EZH2-dependent; enriched in endometriosis-associated OCCC
+
+**PIK3CA (~40-50%):**
+Activating mutations: E542K, E545K (helical domain) and H1047R/L (kinase domain); → PI3K p110α activation → AKT/mTOR → proliferation and survival; co-mutation with ARID1A in ~25-30% of OCCC; PIK3CA mutation is the main kinase driver in OCCC (in contrast to HGSOC which lacks PIK3CA-activating mutations)
+
+**KRAS (~15%):**
+G12D/V activating mutations; KRAS + ARID1A co-mutation in ~8-10%; KRAS-mutant OCCC: MEK/ERK pathway driven; MEK inhibitors explored; KRAS mutations more common in endometriosis-associated OCCC
+
+**PPP2R1A (~5-8%):**
+Regulatory subunit of PP2A phosphatase; mutations → PP2A inactivation → AKT/mTOR persistence; less common than HGSOC (PPP2R1A ~15% in HG endometrioid)
+
+**TP53 (~5-10%):**
+Strikingly lower than HGSOC (~95%); TP53 wildtype is a key molecular feature of OCCC; helps distinguish from HGSOC in ambiguous cases
+
+**TERT promoter mutations (~15%):**
+Activating TERT promoter mutations; longer telomere maintenance; associated with more aggressive OCCC behavior
+
+**MYC amplification (~10%):**
+Associates with ARID1A-mutant OCCC; predicts worse outcomes; MYC overexpression through CTNNB1-independent mechanisms
+
+### Histology
+
+**Classic OCCC features:**
+- **Clear cell pattern**: large polyhedral cells with abundant clear cytoplasm (glycogen by PAS staining); nuclear pleomorphism moderate; "fried egg" nuclei with prominent single nucleolus
+- **Hobnail pattern**: cells with bulging nuclei protruding into glandular lumina; nuclei appear above the cytoplasm plane
+- **Papillary/tubulocystic pattern**: papillae with hyalinized cores lined by hobnail cells; characteristic of OCCC
+- Low mitotic rate; necrosis variable; psammoma bodies absent (unlike serous tumors)
+
+**IHC for OCCC:**
+- **Napsin A**: positive in ~80-90% of OCCC; most sensitive single marker; also positive in lung adenocarcinoma (helpful for primary site)
+- **HNF1β**: positive in ~80-85% of OCCC; nuclear; also expressed in some endometrioid tumors
+- **ARID1A (BAF250A)**: LOST in ~50% (protein loss = ARID1A mutation)
+- **WT1**: negative in OCCC (contrast HGSOC: strongly WT1-positive)
+- **ER/PR**: negative/focal (contrast endometrioid: often ER/PR-positive)
+- **p53**: wild-type pattern (contrast HGSOC: aberrant p53 overexpression or complete null)
+- **PAX8**: positive in most OCCC (Müllerian origin marker)
+
+## Function
+
+### Endometriosis → OCCC carcinogenesis
+
+The transition from endometriosis to OCCC follows a defined molecular sequence:
+1. **Ectopic endometrium** (endometriotic cyst/endometrioma): cyclic hemorrhage → iron deposition → oxidative stress → mutagenic environment
+2. **Atypical endometriosis**: ARID1A mutation + PIK3CA mutation appear first; early clonal expansion without overt malignancy; transition lesion
+3. **OCCC in situ** (clear cell glandular neoplasia): increasing nuclear atypia; stromal invasion begins
+4. **Invasive OCCC**: full OCCC; additional mutations in TERT, MYC amplification, TP53 (rare late event)
+
+**Iron-mediated mutagenesis:**
+Endometrioma fluid contains high concentrations of free iron (from RBC hemoglobin degradation) → Fenton reaction → hydroxyl radical production → oxidative DNA damage → ARID1A and PIK3CA mutations preferentially acquired (mechanism of mutagenic specificity incompletely understood)
+
+**HIF-1α in endometriosis:**
+Ectopic endometrium is hypoxic → HIF-1α activation → VEGF, PDGF → angiogenesis and survival; endometriosis-derived OCCC expresses HIF-1α targets constitutively
+
+## Pathology
+
+### Staging and treatment
+
+**Staging:** FIGO staging (same as all epithelial ovarian cancers)
+- Stage I (~35-40% of OCCC at diagnosis — higher than HGSOC due to endometrioma detection): best prognosis; 5-year OS ~80-90%
+- Stage II (~10-15%): 5-year OS ~60-70%
+- Stage III (~35-40%): 5-year OS ~25-40%
+- Stage IV (~10-15%): 5-year OS ~15-25%
+
+**Surgery:**
+Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphadenectomy, peritoneal biopsy) for apparent early-stage disease; cytoreductive surgery for advanced stage; complete cytoreduction (R0) critical for improved OS; OCCC tends to have fewer peritoneal implants than HGSOC → surgical debulking feasible in more cases
+
+**First-line chemotherapy:**
+- **Standard**: carboplatin + paclitaxel × 6 cycles (as per HGSOC)
+- **Platinum resistance**: ~40-60% of OCCC are platinum-resistant or -refractory (vs ~20% in HGSOC); especially stage III-IV
+- **Irinotecan + cisplatin** (irinotecan-cisplatin, IC): Japanese GCIG trial showed IC equivalent to CP in OCCC; IC preferred in Japan for OCCC; irinotecan may exploit OCCC-specific DNA repair defect
+- **Bevacizumab**: benefit in OCCC less established than HGSOC; GOG-218 and ICON7 included OCCC but subgroup benefit unclear; used in some guidelines for stage III-IV
+
+**PARP inhibitors:**
+- BRCA1/2 mutation rare in OCCC (~2-5%); HRD (homologous recombination deficiency) low in OCCC (~15-20% vs ~50% in HGSOC)
+- ARIEL3 (rucaparib maintenance): OCCC had lowest benefit among epithelial ovarian subtypes
+- However, ARID1A LOF → partial HR defect → exploratory role for PARP inhibitors in ARID1A-mutant OCCC
+
+**EZH2 inhibitors:** [^kim-2015-arid1a-ezh2]
+- Tazemetostat: Phase 2 trials in ARID1A-mutant solid tumors including OCCC ongoing; ORR data pending (NCT04171700); rationale from ARID1A LOF → EZH2 dependency
+- Combination tazemetostat + PARP inhibitor (olaparib): Phase 1/2 being explored
+
+**mTOR inhibitors:**
+- Rationale: PIK3CA mutations in ~40-50% → mTOR pathway hyperactivation
+- Temsirolimus monotherapy Phase 2 (OCCC-enriched): ORR ~10-15%; DCR ~30-40%
+- Combination mTOR + MEK (for KRAS-PIK3CA co-mutation): exploratory
+- Alpelisib (PIK3CA inhibitor): breast cancer-approved; being explored in PIK3CA-mutant OCCC
+
+**Immunotherapy:**
+- OCCC TMB: moderate (~5-8 mut/Mb); PD-L1: expressed in ~30-40%
+- KEYNOTE-100 (pembrolizumab in recurrent OC): OCCC subgroup ORR ~15-17% (higher than HGSOC ~8%)
+- ARID1A-mutant OCCC → PD-L1 upregulated → higher ICB response: preclinical rationale supported
+- Pembrolizumab + bevacizumab: Phase 2 showing activity in recurrent OCCC; ORR ~25-30% in PD-L1+ cases
+- Durvalumab + olaparib combination: GOG 3032 (MEDUSA) includes OCCC cohort
+
+**CDK4/6 inhibitors:**
+- OCCC co-expresses CDK4/6 via CCND1 upregulation; palbociclib Phase 2 in OCCC with CDK pathway activation
+
+**Prognosis by stage and molecular subtype:**
+- Early-stage (I-II): 5-year OS ~70-85%; early detection via endometrioma surveillance recommended
+- Advanced (III-IV): 5-year OS ~20-35%; significantly worse than HGSOC at same stage due to platinum resistance
+- ARID1A-mutant vs WT: ARID1A mutation alone not independently prognostic; combined with PIK3CA → worse prognosis
+- Endometriosis-associated OCCC: slightly better prognosis than de novo OCCC (detected at earlier stage)
+- Recurrent disease: median PFS 2nd line ~4-6 months; few effective options; clinical trial enrollment strongly recommended
+
+## Connections
+
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A (BAF250A) is mutated in ~50% of OCCC; biallelic ARID1A LOF → cBAF disruption; ARID1A IHC (BAF250A, clone PSG3) protein loss is a surrogate diagnostic marker in OCCC; ARID1A + PIK3CA co-mutation in ~25-30% OCCC defines the highest-risk molecular subgroup.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — ARID1A LOF disrupts cBAF → EZH2/PRC2 accesses ARID1A-target loci → H3K27me3 accumulation; OCCC with ARID1A LOF shows EZH2 dependency in preclinical models; tazemetostat under investigation in ARID1A-mutant OCCC; EZH2 + PARP inhibitor combination explored.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — ARID1A + PIK3CA co-mutation defines ~25-30% of ovarian clear cell carcinomas; PIK3CA → PI3K/AKT/mTOR → OCCC proliferation; ARID1A LOF + PIK3CA creates synthetic vulnerability to dual PI3K/mTOR inhibition; temsirolimus active in PIK3CA-mutant OCCC Phase 2.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — ARID1A LOF in OCCC → PD-L1 upregulation via MLH1 suppression and IFN-γ signaling pathway enhancement; OCCC has higher PD-L1 expression than high-grade serous ovarian cancer; pembrolizumab + bevacizumab shows activity in PD-L1+ OCCC; durvalumab combination trials ongoing.
+
+[^jones-2010-arid1a-occc]: Jones S, Wang TL, Shih IeM, et al. Frequent mutations of chromatin remodeling gene ARID1A in ovarian clear cell carcinoma. *Science.* 2010;330(6001):228-231. [doi:10.1126/science.1196333](https://doi.org/10.1126/science.1196333) · [PubMed 20826764](https://pubmed.ncbi.nlm.nih.gov/20826764/)
+[^kim-2015-arid1a-ezh2]: Kim KH, Kim W, Howard TP, et al. SWI/SNF-mutant cancers depend on catalytic and non-catalytic activity of EZH2. *Nat Med.* 2015;21(12):1491-1496. [doi:10.1038/nm.3968](https://doi.org/10.1038/nm.3968) · [PubMed 26552009](https://pubmed.ncbi.nlm.nih.gov/26552009/)
