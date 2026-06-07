@@ -1,0 +1,181 @@
+---
+schema: human-scale-entry/v1
+id: uveal-melanoma
+name: Uveal Melanoma
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Uveal melanoma is the most common primary intraocular malignancy; GNAQ/GNA11 ~85%, BAP1 ~45%, SF3B1 R625 ~15-20%, EIF1AX ~15%; Class 2 (BAP1 loss) has 25-35% 5-year metastasis-free survival; tebentafusp (gp100×CD3) is FDA-approved for HLA-A*02:01+ metastatic disease."
+aliases: ["uveal melanoma", "choroidal melanoma", "iris melanoma", "ciliary body melanoma", "intraocular melanoma", "ocular melanoma", "GNAQ melanoma"]
+sources:
+  - id: nathan-2021-tebentafusp
+    type: peer-reviewed
+    cite: "Nathan P, Hassel JC, Rutkowski P, et al. Overall survival benefit with tebentafusp in metastatic uveal melanoma. N Engl J Med. 2021;385(13):1196-1206."
+    doi: "10.1056/NEJMoa2103485"
+    pmid: "34551229"
+    url: "https://doi.org/10.1056/NEJMoa2103485"
+  - id: harbour-2010-bap1-uveal
+    type: peer-reviewed
+    cite: "Harbour JW, Onken MD, Roberson ED, et al. Frequent mutation of BAP1 in metastasizing uveal melanomas. Science. 2010;330(6009):1410-1413."
+    doi: "10.1126/science.1194472"
+    pmid: "21051595"
+    url: "https://doi.org/10.1126/science.1194472"
+cross_links:
+  - target: 01-human/03-molecular/sf3b1
+    relation: connects-to
+    note: "SF3B1 R625C/H occurs in ~15-20% uveal melanoma → cryptic 3' SS activation → Class 1B (intermediate prognosis, late relapses); SF3B1-mutant uveal melanoma has a distinct transcriptome from BAP1-loss Class 2; H3B-8800 may exploit this vulnerability."
+  - target: 01-human/03-molecular/bap1
+    relation: connects-to
+    note: "BAP1 biallelic loss → Class 2 uveal melanoma (~45%; high metastatic risk, early liver relapse); BAP1 IHC nuclear loss is the primary prognostic marker; BAP1-TPDS germline → uveal melanoma lifetime risk ~30-45%; EZH2 inhibition studied in BAP1-null disease."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN loss occurs in ~15-20% of metastatic uveal melanoma; PI3K-AKT-mTOR activation drives progression; PI3K/mTOR + MEK inhibitor combinations overcome GNAQ-driven resistance in preclinical uveal melanoma models; everolimus studied in metastatic disease."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PD-1/PD-L1 checkpoint inhibitors have very low activity in uveal melanoma (ORR <5%) due to low tumor mutational burden and immunosuppressive tumor microenvironment; tebentafusp bypasses checkpoint resistance by directly recruiting T cells via gp100-TCR×CD3 bispecific mechanism."
+---
+
+# Uveal Melanoma
+
+## Overview
+
+**Uveal melanoma** is the most common primary **intraocular malignancy** in adults, arising from melanocytes of the uveal tract (choroid ~90%, ciliary body ~7%, iris ~3%). Despite its rarity (~5 cases/100,000/year), uveal melanoma carries the worst prognosis among ocular cancers and is biologically distinct from cutaneous melanoma — driven by **GNAQ/GNA11 Gαq-family mutations** (not BRAF V600E), with a profoundly **immunologically cold** tumor microenvironment and near-universal liver tropism for metastases. The landmark molecular classification divides uveal melanoma into four classes based on **BAP1, SF3B1, and EIF1AX** mutation status, each with distinct metastatic risk [^harbour-2010-bap1-uveal]. **Tebentafusp** (ImmTAC bispecific redirecting T cells to gp100-expressing cells) became the first agent to demonstrate OS benefit in metastatic uveal melanoma in the randomized Phase 3 IMCgp100-202 trial (FDA approved January 2022), a landmark achievement given the total failure of checkpoint inhibitors in this disease [^nathan-2021-tebentafusp].
+
+**Epidemiology:**
+- Incidence: ~6-7/million/year USA; ~7,000 cases/year globally
+- Median age: ~60 years; slight male predominance (M:F ~1.3:1)
+- Risk factors: fair skin, light-colored iris, UV light exposure (iris melanoma), BAP1-TPDS germline syndrome, large ocular nevi
+- Race: predominantly Caucasians; rare in African Americans (~6-fold lower risk)
+- ~50% develop metastatic disease within 15 years; liver is the dominant metastatic site (~90%)
+
+## Structure
+
+### Molecular subtypes (WHO/TCGA classification)
+
+**Class 1A (~25-30%) — EIF1AX mutation:**
+- EIF1AX (eukaryotic initiation factor 1A, X-linked): mutations in intron 5-6 splice site or exon 1/2 → aberrant translation initiation; functionally alters protein synthesis
+- 5-year metastasis-free survival: ~95-100%; extremely favorable; late relapses rare
+- BAP1 and SF3B1 intact; chromosome 3 disomy; 6p gain often present
+- Usually requires no systemic surveillance after local treatment; ophthalmologic follow-up
+
+**Class 1B (~20-25%) — SF3B1 mutation (R625C/H/S):**
+- SF3B1 R625 in HEAT repeat 12 → cryptic 3' splice site activation (same mechanism as K700E in MDS)
+- 5-year metastasis-free survival: ~80-85%; late relapses documented 10-20 years post-diagnosis
+- Chromosome 6p gain, 8q gain patterns; BAP1 intact
+- Requires prolonged surveillance (annual liver MRI for ≥15 years)
+
+**Class 2 (~40-45%) — BAP1 loss:**
+- BAP1 biallelic loss (somatic mutation + LOH at chromosome 3): ~45% of all uveal melanoma; nearly all Class 2 tumors
+- 5-year metastasis-free survival: ~25-35%; median time to metastasis ~2-3 years
+- Early liver metastases; poor prognosis
+- Monosomy 3 (chromosome 3 loss of heterozygosity) is the cytogenetic hallmark
+- BAP1 IHC (nuclear loss in >90% of tumor cells): primary clinical prognostic test
+
+**Class overlap:** A minority of tumors harbor two driver mutations or don't fit neatly into one class; EIF1AX+SF3B1 co-mutations have been reported rarely.
+
+### Oncogenic drivers
+
+**GNAQ/GNA11 (Gαq/Gα11 mutations, ~85% combined):**
+- GNAQ R183Q (codon 183, GTP-to-GDP exchange) or Q209L/P (effector binding domain): ~45%
+- GNA11 Q209L: ~40%
+- Both Q209 mutations: equivalent functional outcome — constitutive GTP-bound active Gαq/Gα11
+- **Downstream:** PLCβ → IP₃ → Ca²⁺ + DAG → PKC activation → MEK/ERK (MAPK) + YAP/TAZ (Hippo pathway) constitutive activation
+- **NOT RAS-BRAF-MEK:** Unlike cutaneous melanoma; RAS not required; BRAF V600E absent
+- **Therapeutic implications:** MEK inhibitors (selumetinib, trametinib) have activity (ORR ~15-20%) but limited duration; PKC inhibitors (sotrastaurin) studied; YAP/TAZ inhibitors preclinical
+
+**CYSLTR2 and PLCB4 (rare alternative drivers, ~3% each):**
+- CYSLTR2 L129Q (cysteinyl leukotriene receptor 2) → constitutive Gαq activation without GNAQ/GNA11 mutation
+- PLCB4 D630N → downstream PLCβ constitutive activation
+
+**Secondary somatic events (metastatic progression):**
+- Monosomy 3 (~50% of all uveal melanoma): loss of BAP1 (chromosome 3p) is the key event; non-random
+- 8q gain (MYC amplification): ~50-60%; correlates with metastatic risk
+- 6p gain: ~40%; associated with Class 1B
+- MDM2 amplification: ~20%; p53 pathway inhibition
+
+## Function
+
+### Normal uveal melanocyte biology
+
+Uveal melanocytes are neural crest-derived, residing in the uveal stroma and maintaining retinal pigment epithelium-independent pigmentation. They do not cycle under normal conditions (post-mitotic). GNAQ/GNA11 mutations in uveal melanocytes → constitutive MAPK + PKC-β signaling → cell cycle re-entry → proliferation while retaining melanocyte identity (S100, HMB-45, gp100/PMEL17 expression). gp100 (PMEL17, a premelanosomal protein responsible for melanin granule structure) is ubiquitously and stably expressed in uveal melanoma → the basis for tebentafusp's TCR targeting.
+
+### Uveal melanoma vs. cutaneous melanoma differences
+
+| Feature | Uveal Melanoma | Cutaneous Melanoma |
+|---------|---------------|-------------------|
+| Primary driver | GNAQ/GNA11 (~85%) | BRAF V600E (~40-50%) |
+| TMB | Very low (<1 mut/Mb) | High (10-50 mut/Mb) |
+| PD-L1 | Low/absent | Variable |
+| ICI response | <5% ORR | 30-60% ORR |
+| Metastatic site | Liver (~90%) | Lung, brain, liver |
+| Liver microenvironment | Immunosuppressive | Less suppressive |
+| UV mutation signature | Absent | Present (C>T transitions) |
+
+## Pathology
+
+### Local tumor characteristics
+
+**Primary tumor staging (AJCC 8th edition):**
+- T1: Tumor ≤12 mm largest basal diameter; ≤3 mm height → T1a (no ciliary body, no extraocular ext.), T1b-c (ciliary body involvement ± extraocular)
+- T2: 12.1-18 mm and/or 3.1-6 mm height
+- T3: >18 mm and/or >6 mm height
+- T4: With extraocular extension (T4a: ≤5 mm, T4b: >5 mm)
+
+**Histological types:**
+- Spindle cell (most favorable): uniform spindle-shaped cells; rare mitoses
+- Epithelioid (most aggressive): large polygonal cells; prominent nucleoli; frequent mitoses
+- Mixed: mixed spindle and epithelioid (most common)
+
+**Prognostic biomarkers:**
+- BAP1 IHC (nuclear loss): ~45% of cases; highest-risk marker; clinical standard
+- Monosomy 3 FISH: equivalent to BAP1 loss; performed on tumor biopsy
+- Gene expression profiling (GEP, DecisionDx-UM): 15-gene assay; Class 1A/1B/2 classification; validated in multiple cohorts
+- SF3B1 molecular testing: next-gen sequencing; identifies Class 1B for late-relapse surveillance
+
+### Treatment of primary uveal melanoma
+
+**Local treatment (eye preservation or enucleation):**
+- **Plaque brachytherapy (I-125 episcleral plaque):** Standard for medium tumors (≤10 mm height); comparable local control to enucleation; 5-year local failure rate ~10%; visual acuity decline over time (radiation optic neuropathy, maculopathy)
+- **Proton beam radiotherapy:** Requires specialized facility (Boston, San Francisco, Philadelphia); excellent local control; particularly for large/posteriorly located tumors
+- **Stereotactic radiosurgery (Gamma Knife, CyberKnife):** Emerging for select cases
+- **Enucleation:** Required for large tumors (>12 mm height) or those not amenable to globe-sparing treatment; no OS benefit over brachytherapy (COMS trial)
+- **COMS Trial:** Iodine-125 brachytherapy vs. enucleation for medium choroidal melanoma: equivalent 5-year survival (~81% both arms) — established eye-preserving therapy as standard
+
+**Iris melanoma:** Wide local excision or iridocyclectomy; low metastatic risk; usually indolent
+
+### Treatment of metastatic uveal melanoma
+
+**Systemic therapy (prior era — largely ineffective):**
+- Dacarbazine, ipilimumab, nivolumab, pembrolizumab: ORR <5%; no OS benefit vs best supportive care
+- Selumetinib (MEK1/2 inhibitor): ORR ~15%; improved PFS over chemotherapy but no OS benefit (SUMIT trial vs dacarbazine+temozolomide)
+- Combination MEK+PKC (selumetinib+sotrastaurin): modest activity
+
+**Tebentafusp (Kimmtrak — FDA Jan 2022 for HLA-A*02:01+ metastatic uveal melanoma):**
+- **Mechanism:** ImmTAC (immune-mobilizing monoclonal TCR against cancer) bispecific: one arm is a soluble high-affinity TCR binding gp100/PMEL17 peptide-HLA-A*02:01 complex on melanoma cells; other arm is anti-CD3 scFv → recruits polyclonal T cells → directed killing regardless of TCR specificity
+- **HLA restriction:** Requires HLA-A*02:01 genotype (~50% of Caucasians, ~25% of Asians); companion diagnostic required
+- **IMCgp100-202 (Phase 3 RCT, N=378):** Tebentafusp vs. investigator's choice (pembrolizumab, ipilimumab, or dacarbazine) in HLA-A*02:01+ treatment-naive metastatic uveal melanoma: OS 21.7 vs 16.0 months (HR 0.51, p<0.001); 1-year OS 73% vs 58%; first Phase 3 OS benefit in metastatic uveal melanoma [^nathan-2021-tebentafusp]
+- **Toxicity:** Cytokine release syndrome (grades 1-3 in >80%, Grade 4 rare); skin reactions (rash, erythema); pyrexia; most toxicities occur with first 3 infusions and diminish
+- **Limitation:** Only for HLA-A*02:01+ patients; liver metastasis ORR ~10% (better for non-liver sites); primary benefit likely through immune activation rather than direct tumor lysis
+
+**Liver-directed therapies:**
+- Hepatic arterial infusion (HAI): melphalan via isolated hepatic perfusion (IHP/Delcath); ORR ~35-50%; liver-directed control; ~6-month hepatic PFS; not OS benefit demonstrated in Phase 3
+- TACE (transarterial chemoembolization): ORR ~25-35%; symptom control
+- Y-90 radioembolization (SIR-spheres/TheraSphere): moderate activity in liver metastases
+- Surgical resection: for solitary/few hepatic metastases; 3-year OS ~30-40% in selected series
+
+**Surveillance:**
+- Liver MRI or ultrasound every 6 months for ≥5 years after primary treatment
+- Class 1B (SF3B1): surveillance extended to 15+ years given late relapse pattern
+- LFTs, LDH at each visit
+- COMS trial showed no benefit of pre-enucleation radiation in reducing metastasis
+
+## Connections
+
+- `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — SF3B1 R625C/H occurs in ~15-20% uveal melanoma → cryptic 3' SS activation → Class 1B (intermediate prognosis, late relapses); SF3B1-mutant uveal melanoma has a distinct transcriptome from BAP1-loss Class 2; H3B-8800 may exploit this vulnerability.
+- `connects-to` → **[BAP1](../../03-molecular/bap1/README.md)** — BAP1 biallelic loss → Class 2 uveal melanoma (~45%; high metastatic risk, early liver relapse); BAP1 IHC nuclear loss is the primary prognostic marker; BAP1-TPDS germline → uveal melanoma lifetime risk ~30-45%; EZH2 inhibition studied in BAP1-null disease.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss occurs in ~15-20% of metastatic uveal melanoma; PI3K-AKT-mTOR activation drives progression; PI3K/mTOR + MEK inhibitor combinations overcome GNAQ-driven resistance in preclinical uveal melanoma models; everolimus studied in metastatic disease.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1/PD-L1 checkpoint inhibitors have very low activity in uveal melanoma (ORR <5%) due to low tumor mutational burden and immunosuppressive tumor microenvironment; tebentafusp bypasses checkpoint resistance by directly recruiting T cells via gp100-TCR×CD3 bispecific mechanism.
+
+[^nathan-2021-tebentafusp]: Nathan P, Hassel JC, Rutkowski P, et al. Overall survival benefit with tebentafusp in metastatic uveal melanoma. *N Engl J Med.* 2021;385(13):1196-1206. [doi:10.1056/NEJMoa2103485](https://doi.org/10.1056/NEJMoa2103485) · [PubMed 34551229](https://pubmed.ncbi.nlm.nih.gov/34551229/)
+[^harbour-2010-bap1-uveal]: Harbour JW, Onken MD, Roberson ED, et al. Frequent mutation of BAP1 in metastasizing uveal melanomas. *Science.* 2010;330(6009):1410-1413. [doi:10.1126/science.1194472](https://doi.org/10.1126/science.1194472) · [PubMed 21051595](https://pubmed.ncbi.nlm.nih.gov/21051595/)
