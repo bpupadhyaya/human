@@ -1,0 +1,180 @@
+---
+schema: human-scale-entry/v1
+id: prostate-cancer
+name: Prostate Cancer
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Second leading cancer death in men; driven by androgen receptor (AR) signaling; PTEN loss (~50%) and AR amplification underlie castration-resistant progression. Docetaxel, abiraterone, enzalutamide, olaparib (BRCA-mutant HRR deficient), and lutetium-177-PSMA are active in mCRPC."
+aliases: ["PCa", "prostate adenocarcinoma", "CRPC", "castration-resistant prostate cancer", "mCRPC", "hormone-sensitive prostate cancer", "mCSPC", "CSPC"]
+sources:
+  - id: beer-2014-prevail
+    type: peer-reviewed
+    cite: "Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. N Engl J Med. 2014;371(5):424-433."
+    doi: "10.1056/NEJMoa1405095"
+    pmid: "24881730"
+    url: "https://doi.org/10.1056/NEJMoa1405095"
+  - id: sartor-2021-vision
+    type: peer-reviewed
+    cite: "Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. N Engl J Med. 2021;385(12):1091-1103."
+    doi: "10.1056/NEJMoa2107322"
+    pmid: "34161051"
+    url: "https://doi.org/10.1056/NEJMoa2107322"
+  - id: de-bono-2020-profound
+    type: peer-reviewed
+    cite: "de Bono J, Mateo J, Fizazi K, et al. Olaparib for metastatic castration-resistant prostate cancer. N Engl J Med. 2020;382(22):2091-2102."
+    doi: "10.1056/NEJMoa1911440"
+    pmid: "32343890"
+    url: "https://doi.org/10.1056/NEJMoa1911440"
+cross_links:
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "AR is the primary driver of prostate cancer; ADT is foundational; resistance via AR amplification, AR-V7 splice variant, and LBD mutations drives CRPC; enzalutamide, apalutamide, and darolutamide extend survival in mCSPC and mCRPC."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN loss occurs in ~50% of localized and ~70% of mCRPC; PTEN null → AKT-AR crosstalk → poor prognosis; PTEN-null tumors have higher Gleason grade; ipatasertib + abiraterone (IPATential150) improves rPFS in PTEN-null mCRPC."
+  - target: 01-human/03-molecular/brca1
+    relation: connects-to
+    note: "BRCA1/2 and ATM mutations occur in ~25% of mCRPC (germline + somatic); HRR deficiency → PARP inhibitor sensitivity; olaparib (PROfound) and rucaparib (TRITON2) approved for BRCA-mutant mCRPC; germline testing recommended for all mCRPC patients."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR is activated downstream of PTEN loss in prostate cancer; mTOR inhibitors showed modest activity alone; combinations with AR-pathway inhibitors under study; TORC1/2 dual inhibitors with enzalutamide in trials for PTEN-null CRPC."
+---
+
+# Prostate Cancer
+
+## Overview
+
+**Prostate cancer (PCa)** is the most common non-skin cancer and the **second leading cause of cancer death** in men in Western countries (after lung cancer), with ~300,000 new cases and ~35,000 deaths annually in the United States. The disease spans a wide spectrum from indolent, low-grade tumors managed by active surveillance to lethal metastatic castration-resistant prostate cancer (mCRPC) with median survival of 3-5 years despite modern therapies [^beer-2014-prevail].
+
+**Incidence and risk factors:**
+- **Age:** Primary risk factor; median age at diagnosis ~66 years; rare before 40
+- **Family history:** 2× risk with first-degree relative; 4-6× with BRCA2 mutation carriers (also higher Gleason grade and younger age)
+- **Race:** African American men have 1.7× higher incidence and 2× higher mortality vs. white men; Asian-American men have lower rates; mechanisms involve genetic ancestry (HOXB13, BRCA2 variant frequencies), healthcare access, and potentially diet/exposures
+- **BRCA2 germline:** ~5-8% of high-grade or metastatic PCa; BRCA2 mutation carriers more likely to present with metastatic or high-grade disease; germline testing now recommended for all metastatic and high-grade localized PCa
+- **Geographic variation:** Rates highest in North America/Northern Europe, lowest in Asia; dietary fat, dairy, and red meat associated with increased risk in epidemiological studies; finasteride and dutasteride (5α-reductase inhibitors) reduce low-grade PCa but do not reduce high-grade cancer (possible detection bias)
+
+**Molecular subtypes:**
+- **ERG-positive (~50%):** TMPRSS2-ERG fusion → ETS factor ERG overexpressed; ERG drives invasion, EMT, and androgen-independent transcription; ERG fusions are an early and defining molecular event in ~50% of PCa
+- **ETV1/4/5-positive (~10%):** Other ETS fusions; similar to ERG; less common
+- **SPINK1-positive (~10%):** SPINK1 (serine peptidase inhibitor Kazal type 1) overexpression without ETS fusion; distinct biology; higher grade association
+- **CDK12-mutant (~5% of mCRPC):** CDK12 loss → defective DNA damage repair → tandem duplications → high focal amplifications → high neoantigen burden → immunotherapy-responsive phenotype distinct from MSI-H
+- **FOXA1-mutant (~10%):** FOXA1 is an AR pioneer factor; mutations alter AR cistrome (chromatin binding landscape) → altered transcriptional program; distinct from ERG-positive tumors
+- **MSI-H/MMR-deficient (~5% of mCRPC):** Pembrolizumab-eligible (tissue-agnostic FDA approval); Lynch syndrome rare in PCa
+- **Neuroendocrine prostate cancer (NEPC, ~10-20% of treatment-refractory mCRPC):** AR-low/negative, NE differentiation markers (synaptophysin, chromogranin, NSE), RB1 loss + TP53 loss + PTEN loss; driven by treatment selective pressure (enzalutamide/abiraterone → lineage plasticity); no approved targeted therapy; platinum-based chemotherapy + etoposide used empirically; very poor prognosis
+
+## Structure
+
+### Prostate anatomy and zones
+
+**Prostate gland anatomy:**
+- Walnut-sized gland (~20-30 g in young adult men) at the bladder neck; surrounds the proximal urethra; lies anterior to the rectum (DRE access)
+- **McNeal zones:**
+  - **Peripheral zone (PZ, ~70% of gland):** Most prostate cancers arise here (70%); palpable on DRE; immediately adjacent to the rectum; where post-biopsy bleeding and infection risk are highest
+  - **Transitional zone (TZ, ~25%):** Site of benign prostatic hyperplasia (BPH); ~25% of cancers arise here; lower grade on average; less likely to be ERG-positive
+  - **Central zone (CZ, ~5%):** Surrounds ejaculatory ducts; relatively cancer-resistant; when central zone cancer occurs, often aggressive
+  - **Anterior fibromuscular stroma:** No glandular tissue; structural component
+
+**Histology:**
+- Prostate epithelium has two cell layers: **luminal secretory cells** (AR-high, PSA-producing) and **basal cells** (AR-low, p63/CK5/14-positive, stem-cell-like); PCa arises from luminal cells (or a luminal-like progenitor)
+- **Prostatic intraepithelial neoplasia (PIN):** High-grade PIN (HGPIN) is the precursor to PCa; architectural and cytological atypia; ERG-positive HGPIN adjacent to ERG-positive PCa → shared clonal origin
+
+### Gleason grading and Grade Groups
+
+**Gleason grading (2014 ISUP revised):**
+- Based on glandular architecture (not nuclear atypia): Gleason patterns 1-5 (1=well-formed glands, 5=no glandular differentiation)
+- **Gleason score (GS):** Primary pattern + secondary pattern (most common + second most common): GS 6 (3+3) = low grade; GS 7 (3+4 or 4+3) = intermediate; GS 8-10 = high grade
+- **Grade Groups (ISUP 2016):** GG1 (GS 6), GG2 (GS 3+4=7), GG3 (GS 4+3=7), GG4 (GS 8), GG5 (GS 9-10) — simplified grading that better predicts prognosis and guides treatment intensity
+
+**Gleason pattern 4 significance:**
+- Gleason pattern 4 (poorly formed, fused, or cribriform glands) is the key dividing line between favorable and unfavorable disease
+- **Cribriform pattern 4 and intraductal carcinoma (IDC):** Both associated with adverse pathology, genomic instability, and worse prognosis independent of overall GS; ISUP recommends noting their presence specifically
+
+## Function
+
+### Clinical presentation and staging
+
+**Screening and PSA:**
+- **Prostate-specific antigen (PSA):** Serine protease (KLK3) secreted into semen; normally low in blood (<4 ng/mL); elevated in PCa, BPH, prostatitis; PSA density (PSA/prostate volume), PSA velocity, and free/total PSA ratio improve specificity
+- **PSA screening controversy:** PLCO and ERSPC trials showed PSA screening reduces PCa-specific mortality (~20-30% reduction) but over-diagnoses low-grade cancer with associated over-treatment harms (incontinence, impotence); current guideline: shared decision-making for men 50-69; USPSTF Grade C recommendation for 55-69; early testing at 40-45 for high-risk (Black men, BRCA2)
+- **MRI and mpMRI-targeted biopsy:** Multiparametric MRI (T2, DWI, DCE) before biopsy → PI-RADS 1-5 classification; PRECISION trial: MRI-targeted biopsy detected more clinically significant PCa (Grade Group ≥2) and fewer Grade Group 1 (over-diagnosis reduction) vs. systematic biopsy
+
+**Clinical staging:**
+- **T1:** Clinically inapparent (found incidentally or via biopsy only)
+- **T2:** Palpable/visible, confined to prostate
+- **T3:** Extraprostatic extension (T3a) or seminal vesicle invasion (T3b)
+- **T4:** Invasion of adjacent structures (bladder, rectum, levator muscle)
+- **N:** Regional lymph node metastasis
+- **M:** Distant metastasis (M1a: non-regional lymph node; M1b: bone — >85% of metastases; M1c: visceral)
+
+**PSMA PET imaging:**
+- **PSMA (prostate-specific membrane antigen):** Folate hydrolase enzyme overexpressed on PCa cell membranes; targeted by PSMA-617 (lutetium-177 radioligand) and PSMA PET ligands (Ga-68-PSMA-11, F-18-DCFPyL/piflufolastat)
+- PSMA PET (ProPSMA trial): Superior to conventional imaging (CT+bone scan) for primary staging (AUC 0.85 vs. 0.38); detects metastases earlier; changed management in 28% of patients; now standard for high-risk localized and biochemically recurrent PCa
+
+## Pathology
+
+### Diagnosis and risk stratification
+
+**Biopsy:** Transrectal or transperineal ultrasound-guided biopsy (12-core systematic ± MRI-targeted cores); transperineal approach has lower infectious risk (no rectal contamination); becoming preferred with antibiotic stewardship concerns.
+
+**Risk stratification (NCCN criteria for localized PCa):**
+- **Very low risk:** cT1c, GS ≤6 (GG1), PSA <10, <3 positive cores, ≤50% cancer per core, PSA density <0.15
+- **Low risk:** cT1-T2a, GS ≤6, PSA <10
+- **Favorable intermediate:** cT2b-T2c or GS 3+4=7 (GG2) or PSA 10-20; <50% positive cores
+- **Unfavorable intermediate:** GS 4+3=7 (GG3) or ≥50% positive cores
+- **High risk:** cT3a or GS 8-10 (GG4-5) or PSA >20
+- **Very high risk:** cT3b-T4, primary Gleason 5, or >4 cores GG4-5
+
+**Genomic classifiers:**
+- **Oncotype DX GPS (17-gene):** Predicts 10-year PCa-specific mortality; validated in TURP-based series; used for active surveillance vs. treatment decision in low-intermediate risk disease
+- **Decipher (22-gene):** Predicts metastasis risk after radical prostatectomy; validated in multiple post-prostatectomy series; helps guide adjuvant vs. salvage RT decision
+
+### Treatment
+
+**Active surveillance:**
+- Very low and low-risk, and selected favorable intermediate-risk PCa; PSA every 6-12 months, DRE annually, repeat biopsy at 1-2 years, PSMA PET or MRI for monitoring; 10-year PCa-specific survival >99%; avoids treatment side effects; PROTECT trial: no OS difference between active monitoring, RP, and RT at 10 years for low/intermediate risk
+
+**Radical prostatectomy (RP) and radiation therapy (RT):**
+- **RP (robotic-assisted RARP preferred):** Gold standard for localized high-risk disease and young patients; pathological staging from specimen; positive margin → salvage RT; nerve-sparing for potency preservation
+- **External beam RT (EBRT):** Intensity-modulated RT (IMRT) or stereotactic body RT (SBRT); equivalent to RP for localized disease (PROTECT); combined with ADT for intermediate/high-risk (EORTC 22991, DART 01/05)
+- **Brachytherapy (LDR/HDR):** Low-dose rate (Pd-103, I-125 seeds) or high-dose rate (Ir-192); used in low/favorable intermediate risk or as boost; excellent local control rates
+
+**Hormone-sensitive metastatic PCa (mCSPC):**
+- ADT backbone (GnRH agonist: leuprolide, goserelin; or GnRH antagonist: degarelix, relugolix)
+- **Intensification beyond ADT (all high-volume or unfavorable risk disease):**
+  - Docetaxel + ADT (CHAARTED, STAMPEDE): OS benefit; particularly for high-volume (≥4 bone metastases ± visceral) disease
+  - Abiraterone + ADT (LATITUDE, STAMPEDE): OS benefit in high-risk disease; prednisone co-administered
+  - Enzalutamide + ADT (ARCHES, ENZAMET): OS benefit
+  - Apalutamide + ADT (TITAN): OS benefit
+  - Darolutamide + ADT + docetaxel (ARASENS): OS benefit in triplet
+  - **Preferred for most patients:** Doublet (ADT + novel AR agent); triplet for highly selected fit patients with high-volume disease
+
+**Castration-resistant prostate cancer (mCRPC):**
+- **Definition:** PCa progressing (PSA, radiographic, or clinical) despite castrate testosterone levels (<50 ng/dL)
+- **Second-generation AR-pathway agents:** Enzalutamide (PREVAIL), abiraterone (COU-AA-302) for mCRPC post-ADT [^beer-2014-prevail]
+- **Docetaxel + prednisone:** Standard chemotherapy; AFFIRM, TAX327 trials; cabazitaxel for post-docetaxel
+- **PARP inhibitors for HRR-deficient mCRPC [^de-bono-2020-profound]:**
+  - **Olaparib (PROfound):** BRCA1/2 and ATM mutations; FDA approved 2020; rPFS and OS benefit
+  - **Rucaparib (TRITON2):** BRCA1/2 mutations; FDA approved 2020
+  - **Niraparib + abiraterone (MAGNITUDE):** HRR-deficient mCRPC; FDA approved 2023
+  - **Talazoparib + enzalutamide (TALAPRO-2):** HRR-deficient; FDA approved 2023
+  - All patients with mCRPC should receive germline genetic testing; somatic HRR testing on tissue/liquid biopsy
+- **Lutetium-177-PSMA-617 (VISION trial) [^sartor-2021-vision]:** PSMA-positive mCRPC post-AR-agent + taxane; rPFS improved from 3.4 → 8.7 months; OS 15.3 vs. 11.3 months; FDA approved 2022; PSMA PET required to confirm PSMA-avid disease before treatment
+- **Immunotherapy:** Sipuleucel-T (autologous DC vaccine) modest OS benefit; pembrolizumab for MSI-H/TMB-H; pembrolizumab for MMR-deficient PCa
+- **Ra-223 dichloride (ALSYMPCA):** Bone-only mCRPC; alpha emitter targets bone metastases; OS benefit; no visceral metastases; combined with AR-axis agents under study
+
+**Bone metastasis management:**
+- Denosumab (RANKL inhibitor) or zoledronic acid: Reduce skeletal-related events (SREs) in mCRPC with bone metastases; preferred: denosumab for fracture prevention
+- Bone-seeking radiopharmaceuticals: Ra-223; lutetium-177-PSMA also targets bone mets
+
+## Connections
+
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AR is the primary driver of prostate cancer; ADT is foundational; resistance via AR amplification, AR-V7 splice variant, and LBD mutations drives CRPC; enzalutamide, apalutamide, and darolutamide extend survival in mCSPC and mCRPC.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss occurs in ~50% of localized and ~70% of mCRPC; PTEN null → AKT-AR crosstalk → poor prognosis; PTEN-null tumors have higher Gleason grade; ipatasertib + abiraterone (IPATential150) improves rPFS in PTEN-null mCRPC.
+- `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BRCA1/2 and ATM mutations occur in ~25% of mCRPC (germline + somatic); HRR deficiency → PARP inhibitor sensitivity; olaparib (PROfound) and rucaparib (TRITON2) approved for BRCA-mutant mCRPC; germline testing recommended for all mCRPC patients.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR is activated downstream of PTEN loss in prostate cancer; mTOR inhibitors showed modest activity alone; combinations with AR-pathway inhibitors under study; TORC1/2 dual inhibitors with enzalutamide in trials for PTEN-null CRPC.
+
+[^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
+[^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
+[^de-bono-2020-profound]: de Bono J, Mateo J, Fizazi K, et al. Olaparib for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2020;382(22):2091-2102. [doi:10.1056/NEJMoa1911440](https://doi.org/10.1056/NEJMoa1911440) · [PubMed 32343890](https://pubmed.ncbi.nlm.nih.gov/32343890/)
