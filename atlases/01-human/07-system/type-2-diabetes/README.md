@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "T2DM and hypertension co-occur in >70% of patients via shared insulin resistance and RAAS activation; combined hyperglycemia and hypertension accelerate CVD, retinopathy, and nephropathy; preferred antihypertensives in T2DM are ACEi or ARB (renoprotective)."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "GLP-1R agonists (semaglutide, liraglutide, dulaglutide) reduce HbA1c 1-1.5% and weight 5-15%; glucose-dependent insulin secretion avoids hypoglycemia; SUSTAIN-6 (semaglutide) and LEADER (liraglutide) showed CV risk reduction in T2D with established cardiovascular disease."
 ---
 
 # Type 2 Diabetes
@@ -151,6 +154,7 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — metformin activates AMPK via Complex I inhibition → suppresses hepatic gluconeogenesis and activates GLUT4; AMPK activity is impaired in insulin-resistant states; AMPK is a major target for T2DM drug development.
 - `connects-to` → **[CKD](../ckd/README.md)** — diabetes is the leading cause of CKD globally; hyperglycemia drives diabetic nephropathy; SGLT2 inhibitors provide renoprotection beyond glycemic control.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — T2DM and hypertension co-occur in >70% of patients through shared insulin resistance and RAAS activation; combined hyperglycemia and hypertension accelerate CVD, retinopathy, and nephropathy.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1R agonists (semaglutide, liraglutide, dulaglutide) reduce HbA1c 1-1.5% and weight 5-15%; glucose-dependent insulin secretion avoids hypoglycemia; SUSTAIN-6 (semaglutide) and LEADER (liraglutide) showed CV risk reduction in T2D with established cardiovascular disease.
 
 [^defronzo-2009-t2dm]: DeFronzo RA. Banting Lecture. From the triumvirate to the ominous octet: a new paradigm for the treatment of type 2 diabetes mellitus. *Diabetes.* 2009;58(4):773-795. [doi:10.2337/db09-9028](https://doi.org/10.2337/db09-9028) · [PubMed 19336687](https://pubmed.ncbi.nlm.nih.gov/19336687/)
 [^zinman-2015-empareg]: Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes. *N Engl J Med.* 2015;373(22):2117-2128. [doi:10.1056/NEJMoa1504720](https://doi.org/10.1056/NEJMoa1504720) · [PubMed 26378978](https://pubmed.ncbi.nlm.nih.gov/26378978/)
