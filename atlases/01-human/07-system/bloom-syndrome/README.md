@@ -1,0 +1,182 @@
+---
+schema: human-scale-entry/v1
+id: bloom-syndrome
+name: Bloom Syndrome
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "Bloom syndrome is caused by biallelic BLM mutations; small body size, sun-sensitive telangiectatic facial erythema, immunodeficiency; elevated sister chromatid exchanges (~10x); pan-cancer predisposition (ALL, lymphoma, GI carcinoma, skin cancers); median survival ~30 years."
+aliases: ["Bloom syndrome", "Bloom's syndrome", "BLM syndrome", "Bloom syndrome cancer", "Bloom syndrome SCE", "RECQL3 syndrome", "Bloom syndrome ALL", "Bloom syndrome chromosomal instability", "Bloom syndrome hereditary"]
+sources:
+  - id: ellis-1995-blm-cloning
+    type: peer-reviewed
+    cite: "Ellis NA, Groden J, Ye TZ, et al. The Bloom's syndrome gene product is homologous to RecQ helicases. Cell. 1995;83(4):655-666."
+    doi: "10.1016/0092-8674(95)90105-1"
+    pmid: "7585968"
+    url: "https://doi.org/10.1016/0092-8674(95)90105-1"
+  - id: german-1997-bloom-cancer
+    type: peer-reviewed
+    cite: "German J. Bloom's syndrome. XX. The first 100 cancers. Cancer. 1997;71(12):4016-4023."
+    doi: "10.1002/1097-0142(19930615)71:12<4016::AID-CNCR18>3.0.CO;2-E"
+    pmid: "9216035"
+    url: "https://doi.org/10.1002/1097-0142(19930615)71:12<4016::AID-CNCR18>3.0.CO;2-E"
+cross_links:
+  - target: 01-human/03-molecular/blm
+    relation: connects-to
+    note: "Biallelic BLM LOF → Bloom syndrome via crossover accumulation and SCE elevation (~10x); chromosomal instability → LOH at tumor suppressor loci → pan-cancer predisposition (ALL, lymphoma, GI carcinoma, skin); Bloom Syndrome Registry has tracked >300 patients for >60 years."
+  - target: 01-human/03-molecular/brca1
+    relation: connects-to
+    note: "BLM and BRCA1 form a complex at stalled replication forks to suppress aberrant homologous recombination and resolve Holliday junctions; both BLM LOF and BRCA1 LOF result in chromosomal instability and pan-cancer predisposition via distinct but overlapping HR defects."
+  - target: 01-human/03-molecular/wrn
+    relation: connects-to
+    note: "BLM and WRN are both RecQ helicases: BLM resolves double Holliday junctions to suppress crossover (SCE elevated ~10x in BLM LOF); WRN has exonuclease activity and maintains telomeres; BLM LOF → childhood-onset pan-cancer; WRN LOF → adult progeroid syndrome."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "BLM LOF in Bloom syndrome confers elevated colorectal cancer risk due to crossover-mediated LOH at APC and other CRC tumor suppressor loci; GI carcinomas are among the most common malignancies in adult Bloom syndrome patients; colonoscopy surveillance from early adulthood."
+---
+
+# Bloom Syndrome
+
+## Overview
+
+**Bloom syndrome (BS)** is a rare autosomal recessive **chromosomal instability syndrome** caused by biallelic loss-of-function mutations in the **BLM** gene (15q26.1), encoding the BLM RecQ helicase that dissolves double Holliday junctions (dHJs) to suppress crossover during homologous recombination. Bloom syndrome was first described by dermatologist David Bloom in 1954, who reported children with sun-sensitive telangiectatic facial erythema and small body size. The BLM gene was positionally cloned by Ellis et al. in 1995. The **Bloom Syndrome Registry (BSR)**, established by James German at Weill Cornell Medical College and ongoing for >60 years, has registered >300 patients from >40 countries and provides the primary epidemiological and cancer incidence dataset for BS [^ellis-1995-blm-cloning] [^german-1997-bloom-cancer].
+
+BS is characterized by three cardinal features: **small body size** (the most consistent feature — all BS patients are substantially below the 3rd percentile for height and weight throughout life; not corrected by GH treatment), **sun-sensitive telangiectatic facial erythema** (butterfly-distribution erythema over nose/cheeks/lips, exacerbated by sun exposure, without photodamage; telangiectasias develop by 1-2 years), and **immunodeficiency** (reduced serum IgA, IgM; T-cell dysfunction; recurrent sinopulmonary infections). The **cytogenetic hallmark** is dramatically elevated **sister chromatid exchanges (SCE): ~10-fold higher** than in normal cells (50-100 SCEs/metaphase vs ~5-10 normal), the diagnostic gold standard. **Pan-cancer predisposition** affecting virtually every organ system is the dominant clinical threat in adults — arising from unconstrained crossover-mediated loss of heterozygosity (LOH) at tumor suppressor loci throughout the genome.
+
+**Bloom syndrome vs. related chromosomal instability syndromes:**
+
+| Feature | Bloom Syndrome (BLM) | Werner Syndrome (WRN) | Fanconi Anemia (FANC genes) |
+|---|---|---|---|
+| Inheritance | AR | AR | AR (XL for FANCB) |
+| Age of onset | Birth | 3rd decade | Childhood |
+| SCE | ~10x elevated | ~2-3x elevated | Normal (elevated breaks) |
+| Hallmark cytogenetic | Elevated SCE | Variegated translocations | Radial chromosomes, DSBs |
+| Cancer risk | Pan-cancer (ALL, lymphoma, GI) | Sarcomas, melanoma, thyroid | AML, squamous cell carcinoma |
+| Skin | Sun-sensitive telangiectasia | Scleroderma-like, ulcers | Café-au-lait, hyperpigmentation |
+| Immunodeficiency | Yes (IgA/IgM low) | Mild | Yes (bone marrow failure) |
+| Median survival | ~26-30 years | ~47-54 years | Variable (marrow transplant) |
+
+## Structure
+
+### Genetic basis of Bloom syndrome
+
+**BLM gene (15q26.1):**
+- 22 exons; 1,417 aa; 159 kDa; ubiquitously expressed, highest in proliferating tissues
+- All disease-causing BLM mutations result in loss of helicase activity, BTR complex assembly, or nuclear localization
+- Over 70 distinct germline BLM mutations identified; diverse spectrum (nonsense, frameshift, missense in helicase core, splice site)
+
+**blmAsh Ashkenazi Jewish founder mutation:**
+- c.2207_2212delATCTGAinsTAGATTC: 6-bp deletion + 7-bp insertion in exon 10 → net +1 frameshift → premature stop codon at aa 740 → truncated non-functional protein
+- Carrier frequency ~1/48,000 in Ashkenazi Jewish population; responsible for ~80% of Bloom syndrome in Ashkenazi families
+- allele-specific PCR detects blmAsh; included in expanded Ashkenazi carrier panels (alongside HEXA, CFTR, FANCC)
+- Non-Ashkenazi mutations: compound heterozygotes common; diverse mutations throughout BLM
+
+**Somatic BLM reversion (diagnostic pitfall):**
+- In BS cells (with ~10x elevated SCE), intragenic recombination can restore one BLM allele to wild-type within a clone → somatic mosaic revertant clones with normal SCE and growth advantage → overgrow BS cells in blood
+- Clinical implication: a negative BLM gene test or normal SCE in blood does not exclude BS; must test fibroblasts or hair roots if blood results are discordant with clinical features
+
+**Prevalence:**
+- Estimated <1/1,000,000 worldwide; most concentrated in Ashkenazi Jewish populations; BSR has >300 registered patients since 1960
+
+### Cytogenetics of Bloom syndrome
+
+**SCE assay — diagnostic gold standard:**
+- Cells cultured for two replication cycles in BrdU (bromodeoxyuridine) → sister chromatids differentially labeled (one strand BrdU-substituted) → metaphase spread staining (Hoechst 33258 + Giemsa) → sister chromatids differentially fluorescent → crossover exchanges (SCEs) visible as points where fluorescence switches between sister chromatids
+- Normal human cells: ~5-10 SCEs/metaphase
+- Bloom syndrome: ~50-100 SCEs/metaphase (~10x elevated; highly reproducible across tissues and age)
+- Specificity: SCE ≥50/metaphase is specific for BLM LOF; WRN LOF (~2-3x), BRCA1/2 LOF, and other HR defects do NOT generate this degree of SCE elevation
+- Diagnosis: SCE ≥50/metaphase in compatible clinical context = diagnostic; BLM molecular confirmation follows
+
+**Additional cytogenetic findings:**
+- Quadriradial chromosomes: four-armed chromosomal configurations from crossover between homologous chromosomes (non-sister); pathognomonic of BS when observed
+- Elevated chromatid breaks and gaps
+- Elevated numerical aberrations in some cell lineages
+
+## Function
+
+### Clinical features of Bloom syndrome
+
+**Small body size (~100% penetrance):**
+- The most consistent and defining feature; average adult height ~147-153 cm; average adult weight significantly below normal
+- NOT caused by growth hormone deficiency (GH axis intact; GH treatment ineffective) — reflects intrinsic cellular replication defect
+- Low birth weight (~2.5 kg typical); does not catch up with age
+
+**Sun-sensitive facial erythema (~90% penetrance):**
+- Telangiectatic erythema in butterfly distribution over nose, cheeks, ears, lower lip; exacerbated by sun exposure; develops 1-3 years of age
+- Does NOT involve photodamage (no actinic keratoses, no photoaging — unlike xeroderma pigmentosum); biopsy shows telangiectasias and mild dermal inflammation
+- ANA negative (distinguishes from lupus); strict sun avoidance and SPF 50+ sunscreen from infancy
+
+**Immunodeficiency:**
+- Reduced serum IgA (~90% of patients); reduced serum IgM (~60%); IgG often low-normal
+- Variable T-cell dysfunction; CD4+ lymphopenia in some; NK cell reduction in some
+- Clinical: recurrent sinopulmonary infections (otitis media, sinusitis, pneumonia) in childhood
+- Management: prophylactic IgG replacement for severely hypogammaglobulinemic patients; antibiotic prophylaxis for recurrent infections
+
+**Additional features:**
+- Narrow elongated facies with prominent ears and retrognathia; characteristic but not severe dysmorphia
+- Male infertility: azoospermia nearly universal (testes small; Sertoli-cell-only pattern on histology); female infertility: premature ovarian failure (~20-30 years); both sexes severely infertile
+- High-pitched voice: laryngeal hypoplasia in many patients
+- Diabetes mellitus: subset of older patients; mixed etiology (autoimmune T1DM, Type 3c from chronic pancreatitis, or T2DM-like insulin resistance)
+- Normal intelligence: intellectual disability NOT typical (distinguishes BS from Seckel, Cockayne, Fanconi anemia with brain involvement)
+
+### Cancer in Bloom syndrome
+
+**Cancer spectrum (BSR data, >200 cancers in >300 patients) [^german-1997-bloom-cancer]:**
+- Leukemia (AML/ALL): most common in first two decades; AML > ALL; ~50-100x general population risk; median age ~25 years for AML/ALL in BSR data
+- Non-Hodgkin lymphoma: substantial risk in 3rd-4th decades; Burkitt lymphoma reported
+- Gastrointestinal carcinomas: colorectal, gastric, esophageal, small bowel — dominant adult malignancy; colonoscopic surveillance from ~15 years
+- Skin carcinomas (BCC, SCC): elevated lifetime risk; immune dysregulation + possible sun-skin interaction
+- Breast cancer: elevated; early onset
+- Other: lung, oral, cervical, bladder — virtually all carcinoma types have excess risk
+- **Pan-cancer phenotype**: no organ is spared; reflects systemic LOH acceleration at all heterozygous tumor suppressor loci throughout the genome
+
+**Cancer mechanism:**
+- BLM LOF → unconstrained crossover → crossover-mediated LOH throughout the genome → when a heterozygous tumor suppressor allele undergoes crossover → distal LOH → biallelic TS LOF without additional mutation → tumor initiation
+- Every BS patient has a unique background of heterozygous single-nucleotide variants across the genome; LOH can expose TS alleles at many loci → broad, non-tissue-specific predisposition
+- Biallelic TS silencing by LOH is ~100x faster in BS cells than normal, because elevated SCE = elevated crossover frequency
+
+## Pathology
+
+### Diagnosis
+
+**Diagnostic approach:**
+1. **Clinical suspicion**: small body size + sun-sensitive facial erythema + immunodeficiency + Ashkenazi Jewish background OR family history of cancer → refer for SCE assay
+2. **SCE assay (gold standard)**: blood lymphocytes or fibroblasts; ≥50 SCEs/metaphase in compatible clinical context = diagnostic for Bloom syndrome
+3. **Molecular confirmation**: BLM sequencing + MLPA; in Ashkenazi patients, blmAsh allele-specific PCR first; compound heterozygotes common in non-Ashkenazi
+4. **Pitfall — somatic reversion**: if blood SCE normal but clinical suspicion high, test fibroblasts (skin biopsy) or hair roots; somatic revertant clones in blood can normalize SCE
+
+**Differential diagnosis:**
+- Lupus erythematosus: butterfly rash but ANA+, photodamage present, SCE normal, size normal
+- Xeroderma pigmentosum: sun sensitivity with photodamage, photoaging, SCE normal, NER deficiency (XPA-XPG genes)
+- Fanconi anemia: chromosomal instability presenting as pancytopenia, radial chromosomes (not SCE), ICL sensitivity, FANC gene panel
+- Werner syndrome: progeroid adult onset, scleroderma-like skin, SCE only ~2-3x elevated, normal childhood
+- Rothmund-Thomson syndrome (RECQL4): poikiloderma from infancy, skeletal abnormalities, osteosarcoma; SCE not elevated
+- Seckel syndrome (ATR): microcephaly, intellectual disability; SCE normal
+
+**Surveillance protocol:**
+- Annual CBC with differential: leukemia (AML, ALL) surveillance — lifelong from diagnosis
+- Annual upper and lower GI endoscopy: from ~15 years; colorectal carcinoma most common adult malignancy
+- Annual dermatological exam: skin carcinoma, rare melanoma
+- Annual breast MRI/mammogram: from ~25 years
+- Regular lymph node assessment: lymphoma surveillance
+- Minimize CT scans (ionizing radiation sensitivity) — use MRI where feasible
+
+**Treatment and management:**
+- No disease-modifying therapy; management is surveillance and standard cancer treatment
+- Chemotherapy sensitivity: BS cells hypersensitive to DNA crosslinkers (cisplatin, mitomycin C, cyclophosphamide) because BLM is required for interstrand crosslink (ICL) repair; dose reduction considerations for hematologic malignancies
+- Radiation sensitivity: minimize therapeutic radiation; avoid unless essential; reduce diagnostic imaging
+- IgG replacement therapy: for severe hypogammaglobulinemia with recurrent infections; IVIg or subcutaneous IgG
+- Sun avoidance and SPF 50+ sunscreen: reduces facial erythema; lifelong
+- Genetic counseling: AR inheritance; sibling recurrence 1/4; prenatal diagnosis by CVS/amniocentesis; Ashkenazi Jewish carrier screening includes blmAsh
+- Registry: Bloom Syndrome Association and BSR — research cohort participation; clinical coordination; genetic counseling referral
+
+## Connections
+
+- `connects-to` → **[BLM](../../03-molecular/blm/README.md)** — Biallelic BLM LOF → Bloom syndrome via crossover accumulation and SCE elevation (~10x); chromosomal instability → LOH at tumor suppressor loci → pan-cancer predisposition (ALL, lymphoma, GI carcinoma, skin); Bloom Syndrome Registry has tracked >300 patients for >60 years.
+- `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BLM and BRCA1 form a complex at stalled replication forks to suppress aberrant homologous recombination and resolve Holliday junctions; both BLM LOF and BRCA1 LOF result in chromosomal instability and pan-cancer predisposition via distinct but overlapping HR defects.
+- `connects-to` → **[WRN](../../03-molecular/wrn/README.md)** — BLM and WRN are both RecQ helicases: BLM resolves double Holliday junctions to suppress crossover (SCE elevated ~10x in BLM LOF); WRN has exonuclease activity and maintains telomeres; BLM LOF → childhood-onset pan-cancer; WRN LOF → adult progeroid syndrome.
+- `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — BLM LOF in Bloom syndrome confers elevated colorectal cancer risk due to crossover-mediated LOH at APC and other CRC tumor suppressor loci; GI carcinomas are among the most common malignancies in adult Bloom syndrome patients; colonoscopy surveillance from early adulthood.
+
+[^ellis-1995-blm-cloning]: Ellis NA, Groden J, Ye TZ, et al. The Bloom's syndrome gene product is homologous to RecQ helicases. *Cell.* 1995;83(4):655-666. [doi:10.1016/0092-8674(95)90105-1](https://doi.org/10.1016/0092-8674(95)90105-1) · [PubMed 7585968](https://pubmed.ncbi.nlm.nih.gov/7585968/)
+[^german-1997-bloom-cancer]: German J. Bloom's syndrome. XX. The first 100 cancers. *Cancer.* 1997;71(12):4016-4023. [doi:10.1002/1097-0142(19930615)71:12<4016::AID-CNCR18>3.0.CO;2-E](https://doi.org/10.1002/1097-0142(19930615)71:12<4016::AID-CNCR18>3.0.CO;2-E) · [PubMed 9216035](https://pubmed.ncbi.nlm.nih.gov/9216035/)
