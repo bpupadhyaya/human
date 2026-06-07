@@ -1,0 +1,175 @@
+---
+schema: human-scale-entry/v1
+id: gist
+name: GIST
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "GIST is the most common GI mesenchymal tumor, arising from ICC precursors; KIT exon 11 mutations in ~70% and PDGFRA mutations in ~10% drive constitutive RTK signaling. Imatinib is standard first-line; adjuvant imatinib (3 years) reduces recurrence for high-risk GIST."
+aliases: ["GIST", "gastrointestinal stromal tumor", "KIT-mutant GIST", "imatinib GIST", "PDGFRA D842V GIST", "SDH-deficient GIST", "CD117 positive tumor"]
+sources:
+  - id: demetri-2002-imatinib-gist
+    type: peer-reviewed
+    cite: "Demetri GD, von Mehren M, Blanke CD, et al. Efficacy and safety of imatinib mesylate in advanced gastrointestinal stromal tumors. N Engl J Med. 2002;347(7):472-480."
+    doi: "10.1056/NEJMoa020461"
+    pmid: "12181401"
+    url: "https://doi.org/10.1056/NEJMoa020461"
+  - id: joensuu-2012-ssg18
+    type: peer-reviewed
+    cite: "Joensuu H, Eriksson M, Sundby Hall K, et al. One vs three years of adjuvant imatinib for operable gastrointestinal stromal tumor: a randomized trial. JAMA. 2012;307(12):1265-1272."
+    doi: "10.1001/jama.2012.347"
+    pmid: "22453568"
+    url: "https://doi.org/10.1001/jama.2012.347"
+cross_links:
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGFRA (type III RTK paralog of KIT) is mutated in ~10% of GIST; PDGFRA D842V (exon 18) → imatinib-resistant; avapritinib (NAVIGATOR trial: ORR 84%) is FDA approved for PDGFRA D842V GIST; KIT and PDGFRA are mutually exclusive in GIST."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Sunitinib (VEGFR1/2/3+KIT+PDGFR inhibitor) approved second-line for GIST after imatinib failure (SU11248 trial: PFS 27.3 vs. 6.4 weeks vs. placebo); regorafenib (VEGFR1-3+PDGFR+KIT) approved third-line (GRID trial); ripretinib (pan-KIT/PDGFRA) approved fourth-line."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "KIT-driven PI3K-AKT-mTOR pathway mediates GIST cell survival; KIT exon 17 resistance mutations → secondary resistance to imatinib; PI3K/mTOR inhibitors studied in combination with KIT inhibitors for refractory GIST; mTOR is activated independently of KIT via RAS feedback loops."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "SRC kinase is activated downstream of KIT Tyr568/570 → FAK-SRC complex → invasion in GIST; SRC mediates KIT-independent survival in imatinib-resistant GIST; dasatinib (KIT+SRC) studied in imatinib-resistant GIST; SRC contributes to resistance to selective KIT inhibitors."
+---
+
+# GIST
+
+## Overview
+
+**Gastrointestinal stromal tumor (GIST)** is the most common primary mesenchymal neoplasm of the GI tract (~5,000-6,000 new cases/year in the US), arising from the interstitial cells of Cajal (ICC) — the pacemaker cells of GI peristalsis — or ICC precursors. GISTs express KIT (CD117) in ~95% of cases and are driven by **gain-of-function mutations** in KIT (~85%) or PDGFRA (~10%), making GIST the paradigmatic molecularly-targeted solid tumor. The landmark 2001-2002 trial demonstrating imatinib (STI571) activity in KIT-mutant advanced GIST — with unprecedented ORR of ~80% in a disease previously unresponsive to conventional chemotherapy — established GIST as proof-of-concept for oncogene-driven targeted therapy in solid tumors [^demetri-2002-imatinib-gist]. Subsequent SSG XVIII trial demonstrated that 3 years of adjuvant imatinib versus 1 year is superior for high-risk localized GIST [^joensuu-2012-ssg18].
+
+**Epidemiology:**
+- ~5,000-6,000 new cases/year in US; worldwide ~14,000/year; 5th-6th decade peak; M:F equal
+- Site distribution: Stomach ~60% (best prognosis), small intestine ~30%, colon/rectum ~5%, esophagus ~1-2%, extra-GI (omentum, mesentery) ~1%
+- 5-year survival: ~80-90% for localized GIST; ~50-55% for metastatic KIT-mutant GIST with imatinib; ~20-30% for PDGFRA D842V (historically poor, improving with avapritinib)
+- Metastasis pattern: Liver and peritoneal metastases predominant; LN and lung involvement uncommon (unlike carcinomas)
+
+**GIST subtypes by molecular driver:**
+- **KIT exon 11 (~70%):** Best imatinib response (ORR >80%); del557-558 most common specific mutation; gastric and small intestinal; Miettinen low-risk to high-risk spectrum
+- **KIT exon 9 (~10%):** Ala502_Tyr503dup; extracellular domain; more aggressive; small intestine predominant; higher-dose imatinib 800 mg/day or sunitinib preferred
+- **KIT exon 13/17 (~3-5%):** Kinase domain; less common; mixed imatinib sensitivity
+- **PDGFRA exon 18 D842V (~6%):** Stomach; epithelioid morphology; imatinib resistant; avapritinib (NAVIGATOR: ORR 84%)
+- **PDGFRA exon 18 non-D842V, PDGFRA exon 12/14:** Partial imatinib sensitivity; less common
+- **SDH-deficient (~5%):** KIT/PDGFRA WT; SDHA/B/C/D mutation (germline or somatic); young women; gastric; nodal metastasis; indolent multifocal course; no effective targeted therapy; associated with Carney triad and Carney-Stratakis syndrome
+- **NF1-associated (~2%):** NF1 germline mutation → RAS activation; KIT/PDGFRA WT; small intestinal multiple; imatinib ineffective; MEK inhibitor studied
+- **BRAF V600E (~1%):** Rare KIT/PDGFRA-WT GIST; vemurafenib/dabrafenib active
+- **Quadruple WT (~1%):** No KIT/PDGFRA/SDH/BRAF mutations; FGFR1 fusions or other alterations
+
+## Structure
+
+### Histological subtypes
+
+**Spindle cell GIST (~70%):**
+Fascicles of uniform spindle cells with eosinophilic or amphophilic cytoplasm; perinuclear cytoplasmic vacuoles (characteristic); skenoid fibers (periodic acid-Schiff positive); most common in stomach
+
+**Epithelioid GIST (~20%):**
+Rounded cells with clear or eosinophilic cytoplasm; nest pattern; more common in PDGFRA-mutant gastric GIST; larger mitochondria; may lack CD117 by IHC (particularly PDGFRA-mutant)
+
+**Mixed spindle/epithelioid (~10%):**
+Both morphologies in same tumor; associated with gastric location and higher-grade behavior
+
+**IHC markers:**
+- CD117 (KIT): >95% positive; cytoplasmic or perinuclear dot pattern; most specific for GIST among mesenchymal tumors
+- DOG1 (ANO1, chloride channel): >95% positive; even more sensitive and specific than KIT for GIST; positive in some KIT-negative GIST (PDGFRA-mutant, SDH-deficient)
+- CD34: ~70%; loss may indicate more aggressive biology
+- SMA (smooth muscle actin): ~30% (weak focal); GIST is not a smooth muscle tumor
+- S100: ~5%; negative helps distinguish from neural tumors
+- Desmin: ~5%; negative helps distinguish from true smooth muscle tumors (leiomyosarcoma)
+
+### Risk stratification (Miettinen-Lasota criteria)
+
+Risk is based on tumor size (cm), mitotic rate (per 50 HPF), and primary site:
+
+| Location | Size | Mitotic rate | Risk |
+|----------|------|--------------|------|
+| Stomach | ≤2 cm | ≤5/50 HPF | None |
+| Stomach | 2-5 cm | ≤5/50 HPF | Very low |
+| Stomach | 5-10 cm | ≤5/50 HPF | Low |
+| Stomach | >10 cm | ≤5/50 HPF | Moderate |
+| Small intestine | ≤2 cm | ≤5/50 HPF | None |
+| Small intestine | 2-5 cm | ≤5/50 HPF | Low |
+| Small intestine | 5-10 cm | ≤5/50 HPF | Moderate-high |
+| Any site | Any size | >5/50 HPF | High (>50%) |
+| Any site | Rupture | Any | High |
+
+Small intestinal GIST has higher recurrence risk than gastric GIST of same size/mitotic rate.
+
+## Function
+
+### ICC pacemaker biology
+
+**Normal ICC function:**
+ICC (Kit+/DOG1+/CD34+) form a network in the myenteric plexus and submucous plexus of the GI wall → generate slow waves (electrical pacemaker activity) → coordinate smooth muscle contraction → peristalsis. ICC require continuous KIT-SCF signaling for survival (KIT W/Wv mice → no ICC → intestinal pseudo-obstruction). GIST cells retain this ICC signature (CD117, DOG1, ANO1 expression) while losing normal ICC pacemaker function.
+
+**GIST as ICC disease:**
+KIT gain-of-function mutation in an ICC precursor or ICC → constitutive KIT signaling → ICC/GIST progenitor proliferation → clonal expansion → GIST tumor. GIST cells maintain ICC morphology (spindle cells with perinuclear vacuoles = displaced organelles from vacuolated ICC cytoplasm) and ICC markers. This explains why GIST does not respond to conventional sarcoma chemotherapy (doxorubicin, ifosfamide) — it is fundamentally a disease of ICC biology, not smooth muscle or nerve sheath biology.
+
+### KIT-driven oncogenesis in GIST
+
+**KIT exon 11 juxtamembrane mutations:**
+JMD restrains KIT kinase in inactive state; del557-558 removes inhibitory residues → constitutive kinase dimerization and activation independent of SCF → autonomous PI3K/RAS/STAT signaling → ICC progenitor immortalization → GIST. Exon 11 del557-558 is associated with higher risk (more aggressive) gastric GIST vs. point mutations which may be found in low-risk GIST.
+
+**KIT exon 9 mutations:**
+Ala502_Tyr503dup in the extracellular D5 domain → constitutive receptor dimerization by mimicking ligand-induced D4-D5 interactions → KIT kinase activation without SCF; these tumors have a constitutively dimerized conformation (vs. monomer activation in exon 11); imatinib IC50 is higher (~3×) for exon 9 vs. exon 11 → higher-dose imatinib (800 mg) or sunitinib preferred.
+
+## Pathology
+
+### Staging and workup
+
+**TNM staging (AJCC 8th edition — separate staging for stomach vs. non-stomach GIST):**
+- T1: ≤2 cm; T2: >2 to ≤5 cm; T3: >5 to ≤10 cm; T4: >10 cm
+- N0: No nodal involvement (GIST rarely spreads to lymph nodes, unlike carcinoma)
+- M1: Distant metastasis (liver, peritoneum most common)
+- **N+ is very rare in GIST** (except SDH-deficient GIST which can spread to local nodes)
+
+**Staging workup:**
+- CT chest/abdomen/pelvis with contrast: Standard staging; GIST is hypervascular on arterial phase (KIT/VEGF expression); peritoneal studding assessment
+- MRI abdomen/pelvis: Preferred for rectal GIST; superior soft tissue resolution vs. CT
+- FDG-PET/CT: Highly FDG-avid; particularly useful for early response assessment (response visible on PET within days of imatinib initiation — Choi criteria)
+- Biopsy: EUS-guided (endoscopic ultrasound) for gastric GIST; percutaneous for large tumors; avoid laparoscopic biopsy of ruptured-risk tumors (rupture → peritoneal seeding)
+- Molecular: KIT exon 9/11/13/17 + PDGFRA exon 12/14/18 mutation testing → essential for treatment decision (imatinib dose, avapritinib vs. imatinib for D842V)
+- SDHB IHC: Negative = SDH-deficient GIST; recommend germline SDHA/B/C/D testing for SDH-deficient GIST
+
+**Response assessment (Choi criteria):**
+Standard RECIST underestimates GIST response to imatinib (KIT-inhibited GIST become cystic/myxoid → may increase in size by RECIST yet respond molecularly). Choi criteria: Response = CT attenuation decrease ≥15 HU or size decrease ≥10% on CT; better correlates with PFS than RECIST for GIST.
+
+### Treatment
+
+**Localized/resectable GIST:**
+- **Surgery (en-bloc resection):** Complete macroscopic resection (R0) is curative for localized GIST; no routine lymph node dissection; laparoscopic approach for small (<5 cm) tumors in favorable locations; open for large or adherent tumors; avoid tumor rupture (converts to high-risk, peritoneal contamination)
+- **Neoadjuvant imatinib:** For locally advanced/technically unresectable GIST → reduce tumor size → facilitate R0 resection; response in ~80%; continue neoadjuvant for 6-12 months then reassess; RTOG 0132 and other trials support pre-operative imatinib
+- **Adjuvant imatinib (400 mg/day × 3 years):** [^joensuu-2012-ssg18] SSG XVIII trial: 3 years vs. 1 year adjuvant imatinib → RFS 65.6% vs. 47.9% at 5 years; OS benefit at 5 years; recommended for high-risk GIST (size >10 cm, mitotic rate >10/50 HPF, small intestinal location, rupture); mutation testing essential (KIT exon 11 → adjuvant benefit; exon 9 → may need 800 mg; PDGFRA D842V → imatinib ineffective → omit adjuvant; SDH-deficient → no adjuvant benefit)
+- **Very low/low risk GIST:** Surgery alone; no adjuvant (ACOSOG Z9001: low-risk GIST no benefit from imatinib); annual surveillance imaging × 5 years
+
+**Advanced/metastatic GIST:**
+
+**First-line:**
+- **Imatinib 400 mg/day:** [^demetri-2002-imatinib-gist] ORR ~80% for KIT exon 11; ~40-50% for exon 9; median PFS ~24 months; OS >50 months; FDA approved 2002; continue indefinitely (discontinuation → rapid progression); dose-escalate to 800 mg if progression on 400 mg (especially exon 9)
+- **KIT exon 9:** Imatinib 800 mg/day or sunitinib as preferred first-line option (non-inferior vs. imatinib 400 mg in some analyses)
+- **PDGFRA D842V:** Avapritinib 300 mg/day (NAVIGATOR trial: ORR 84%, CR 9%); FDA approved 2020; not imatinib
+
+**Second-line:**
+- **Sunitinib 50 mg/day (4 weeks on/2 weeks off):** SU11248 trial: PFS 27.3 vs. 6.4 weeks vs. placebo; ORR 7% (many stable disease); FDA approved 2006; continuous dosing 37.5 mg/day also used; toxicities: hand-foot syndrome, hypertension, hypothyroidism, fatigue; active against KIT exon 13 (V654A) and some exon 17 mutations
+
+**Third-line:**
+- **Regorafenib 160 mg/day (3 weeks on/1 week off):** GRID trial: PFS 4.8 vs. 0.9 months vs. placebo; FDA approved 2013; inhibits VEGFR+PDGFR+KIT+RET+BRAF; toxicities: hand-foot syndrome, fatigue, hypertension
+
+**Fourth-line:**
+- **Ripretinib 150 mg/day:** INVICTUS trial: PFS 6.3 vs. 1.0 months vs. placebo; ORR 9%; FDA approved 2020; pan-KIT/PDGFRA switch-pocket inhibitor; active against most secondary resistance mutations; toxicities: alopecia, myalgia, fatigue
+
+**SDH-deficient GIST:**
+No approved targeted therapy; sunitinib may have modest activity; clinical trials (HIF-2α inhibitor belzutifan, HIF pathway); surgery for resectable lesions; watch-and-wait for indolent multifocal disease
+
+## Connections
+
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGFRA (type III RTK paralog of KIT) is mutated in ~10% of GIST; PDGFRA D842V (exon 18) → imatinib-resistant; avapritinib (NAVIGATOR trial: ORR 84%) is FDA approved for PDGFRA D842V GIST; KIT and PDGFRA are mutually exclusive in GIST.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Sunitinib (VEGFR1/2/3+KIT+PDGFR inhibitor) approved second-line for GIST after imatinib failure (SU11248 trial: PFS 27.3 vs. 6.4 weeks vs. placebo); regorafenib (VEGFR1-3+PDGFR+KIT) approved third-line (GRID trial); ripretinib (pan-KIT/PDGFRA) approved fourth-line.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — KIT-driven PI3K-AKT-mTOR pathway mediates GIST cell survival; KIT exon 17 resistance mutations → secondary resistance to imatinib; PI3K/mTOR inhibitors studied in combination with KIT inhibitors for refractory GIST; mTOR is activated independently of KIT via RAS feedback loops.
+- `connects-to` → **[SRC kinase](../../03-molecular/src-kinase/README.md)** — SRC kinase is activated downstream of KIT Tyr568/570 → FAK-SRC complex → invasion in GIST; SRC mediates KIT-independent survival in imatinib-resistant GIST; dasatinib (KIT+SRC inhibitor) studied in imatinib-resistant GIST; SRC contributes to resistance to selective KIT inhibitors.
+
+[^demetri-2002-imatinib-gist]: Demetri GD, von Mehren M, Blanke CD, et al. Efficacy and safety of imatinib mesylate in advanced gastrointestinal stromal tumors. *N Engl J Med.* 2002;347(7):472-480. [doi:10.1056/NEJMoa020461](https://doi.org/10.1056/NEJMoa020461) · [PubMed 12181401](https://pubmed.ncbi.nlm.nih.gov/12181401/)
+[^joensuu-2012-ssg18]: Joensuu H, Eriksson M, Sundby Hall K, et al. One vs three years of adjuvant imatinib for operable gastrointestinal stromal tumor: a randomized trial. *JAMA.* 2012;307(12):1265-1272. [doi:10.1001/jama.2012.347](https://doi.org/10.1001/jama.2012.347) · [PubMed 22453568](https://pubmed.ncbi.nlm.nih.gov/22453568/)
