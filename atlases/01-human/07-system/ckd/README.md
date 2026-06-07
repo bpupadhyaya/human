@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "CKD and hypertension are bidirectionally causal: hypertension is the second leading cause of CKD (via nephrosclerosis); CKD causes hypertension through RAAS activation, sodium retention, and reduced nitric oxide. Controlling BP (target <130/80) slows CKD progression."
+  - target: 01-human/03-molecular/sglt2
+    relation: connects-to
+    note: "CREDENCE (canagliflozin): 30% reduction in kidney endpoint in T2D + CKD; DAPA-CKD (dapagliflozin): 39% reduction in eGFR decline/dialysis/renal death in CKD with and without T2D; SGLT2 inhibitors slow CKD progression via tubuloglomerular feedback and anti-fibrotic effects."
 ---
 
 # Chronic Kidney Disease
@@ -122,6 +125,7 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `part-of` → **[Renal System](../renal-system/README.md)** — CKD is the defining chronic pathological state of the renal system, progressively impairing all kidney functions.
 - `modulates` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — CKD reduces EPO synthesis from peritubular fibroblasts; anemia of CKD requires ESA therapy to maintain hemoglobin targets.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — CKD and hypertension are bidirectionally causal; each accelerates the other. BP control to <130/80 mmHg is the cornerstone of CKD management.
+- `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — CREDENCE (canagliflozin): 30% reduction in kidney endpoint in T2D + CKD; DAPA-CKD (dapagliflozin): 39% reduction in eGFR decline/dialysis/renal death in CKD with and without T2D; SGLT2 inhibitors slow CKD progression via tubuloglomerular feedback and anti-fibrotic effects.
 
 ## Pathology
 

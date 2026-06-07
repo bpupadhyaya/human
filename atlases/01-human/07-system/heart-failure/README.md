@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/pcsk9
     relation: connects-to
     note: "Elevated LDL-C from PCSK9 GOF mutations accelerates coronary atherosclerosis → MI → ischemic cardiomyopathy and heart failure; PCSK9 inhibitors reduce MI risk in high-risk CVD patients; PCSK9 may also have direct myocardial effects via apoE and apoB receptor pathways."
+  - target: 01-human/03-molecular/sglt2
+    relation: connects-to
+    note: "DAPA-HF (dapagliflozin, HFrEF): 25% reduction in worsening HF + CV death in T2D and non-T2D; EMPEROR-Reduced (empagliflozin): 25% reduction; SGLT2 inhibitors are the fourth pillar of GDMT, reducing HHF and CV death independent of diabetes status."
 ---
 
 # Heart Failure
@@ -118,6 +121,7 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `modulated-by` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cardiac fibrosis, sodium retention, and potassium wasting; MRAs (spironolactone/eplerenone) reduce mortality in HFrEF
 - `contains` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — the primary failing cell type; cardiomyocyte loss, hypertrophy, and calcium handling dysfunction are the central cellular mechanisms of HFrEF
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — elevated LDL-C from PCSK9 GOF mutations accelerates coronary atherosclerosis → MI → ischemic cardiomyopathy and heart failure; PCSK9 inhibitors reduce MI risk in high-risk CVD patients; PCSK9 may also have direct myocardial effects via apoE and apoB receptor pathways.
+- `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — DAPA-HF (dapagliflozin, HFrEF): 25% reduction in worsening HF + CV death in T2D and non-T2D; EMPEROR-Reduced (empagliflozin): 25% reduction; SGLT2 inhibitors are the fourth pillar of GDMT, reducing HHF and CV death independent of diabetes status.
 
 ## Pathology
 
