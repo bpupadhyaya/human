@@ -1,0 +1,146 @@
+---
+schema: human-scale-entry/v1
+id: gout
+name: Gout
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Inflammatory arthritis from monosodium urate (MSU) crystal deposition; hyperuricemia → crystals → NLRP3 inflammasome → IL-1beta → neutrophil-driven acute flares. Colchicine, NSAIDs, and IL-1 inhibitors treat flares; allopurinol and febuxostat reduce urate."
+aliases: ["gouty arthritis", "hyperuricemia", "tophaceous gout", "MSU crystallopathy", "podagra"]
+sources:
+  - id: dalbeth-2019-gout-primer
+    type: peer-reviewed
+    cite: "Dalbeth N, Choi HK, Joosten LAB, et al. Gout. Nat Rev Dis Primers. 2019;5(1):69."
+    doi: "10.1038/s41572-019-0115-y"
+    pmid: "31558729"
+    url: "https://doi.org/10.1038/s41572-019-0115-y"
+  - id: martinon-2006-nlrp3-gout
+    type: peer-reviewed
+    cite: "Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. Nature. 2006;440(7081):237-241."
+    doi: "10.1038/nature04516"
+    pmid: "16407889"
+    url: "https://doi.org/10.1038/nature04516"
+  - id: fitzgerald-2020-acr-gout
+    type: peer-reviewed
+    cite: "FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken). 2020;72(6):744-760."
+    doi: "10.1002/acr.24180"
+    pmid: "32391934"
+    url: "https://doi.org/10.1002/acr.24180"
+cross_links:
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "MSU crystals are a canonical NLRP3 activator: lysosomal destabilization → cathepsin B release → NLRP3-ASC-caspase-1 activation → IL-1beta and IL-18 secretion; IL-1 blockade (anakinra, canakinumab) rapidly resolves refractory gouty flares."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Synovial macrophages phagocytose MSU crystals → NLRP3 → IL-1beta; surface-activated macrophages produce IL-6, TNF-alpha, CXCL1 → neutrophil recruitment; colchicine blocks macrophage microtubule-dependent NLRP3 assembly and inflammasome activation."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils are the primary effectors of acute gout: IL-8/CXCL1 → neutrophil influx → MSU crystal phagocytosis → ROS and proteases → tissue damage; colchicine inhibits neutrophil migration and crystal phagocytosis via microtubule disruption."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "MSU crystals activate NF-kB in macrophages and synoviocytes via TLR4 and NLRP3 → IL-6, IL-8, TNF-alpha, COX-2 → synovial inflammation; NF-kB drives both acute flare cytokines and chronic tophus-associated synovial tissue remodeling."
+---
+
+# Gout
+
+## Overview
+
+**Gout** is the most common inflammatory arthritis in adults, affecting ~4% of adults in Western countries (>41 million affected globally). It is caused by **monosodium urate (MSU) crystal deposition** in joints and periarticular tissues, driven by chronic **hyperuricemia** (serum urate >6.8 mg/dL, the saturation threshold for MSU crystallization at physiological pH and temperature) [^dalbeth-2019-gout-primer].
+
+**The gout spectrum:**
+- **Asymptomatic hyperuricemia:** Elevated serum urate without crystals or gout; not routinely treated but associated with incident gout, CKD, hypertension, and cardiovascular events over time
+- **Acute gouty arthritis (flare):** Sudden-onset, severely painful joint inflammation; typically monoarticular initially (classically first metatarsophalangeal joint = podagra ~50%); self-limiting (3-10 days without treatment)
+- **Intercritical gout:** Asymptomatic period between flares; MSU crystals persist in joints; progressive joint damage accumulates with recurrent flares
+- **Chronic tophaceous gout:** Tophi (MSU crystal deposits in periarticular soft tissue, subcutaneous tissue, olecranon bursa, auricles, tendons) → joint destruction, deformity, functional impairment; urate-lowering therapy (ULT) can dissolve tophi over months-years
+
+**Hyperuricemia mechanisms:**
+- **Underexcretion (~90% of gout):** Impaired renal urate excretion; major genetic contributors: ABCG2 (urate transporter, gout risk alleles), SLC22A12 (URAT1, urate reabsorber in proximal tubule — target of benzbromarone, probenecid), SLC2A9 (GLUT9); risk factors: CKD, diuretics (thiazide, loop → compete with urate for renal tubular secretion), cyclosporine, low-dose aspirin
+- **Overproduction (~10% of gout):** Purine overproduction from rapid cell turnover (myeloproliferative disease, tumor lysis syndrome), HPRT1 deficiency (Lesch-Nyhan syndrome), PRPP synthetase superactivity; dietary purines (meat, seafood, organ meats, fructose-sweetened beverages — fructose → rapid ATP consumption → AMP → uric acid)
+- **Alcohol:** Ethanol → lactate → blocks urate renal excretion; beer contains purines; wine less strongly associated
+- **Comorbidities:** CKD, hypertension, metabolic syndrome, obesity, type 2 diabetes — all associated with hyperuricemia; gout disproportionately affects men (estrogen promotes uricosuria → lower serum urate in premenopausal women) and postmenopausal women
+
+## Structure
+
+### NLRP3 inflammasome activation by MSU crystals [^martinon-2006-nlrp3-gout]
+
+The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 inflammasome activation** — first definitively demonstrated in macrophages by Martinon and Tschopp in 2006 [^martinon-2006-nlrp3-gout].
+
+**Mechanism:**
+1. MSU crystals phagocytosed by synovial macrophages → crystals rupture phagolysosomes → **lysosomal destabilization** → cytosolic cathepsin B release → NLRP3 oligomerization
+2. Crystal surface-mediated ROS generation (NADPH oxidase-dependent) + cholesterol crystal co-stimulation → additional NLRP3 priming
+3. Potassium efflux (crystals insert into plasma membrane → K⁺ channels) → NLRP3 conformational change → ASC pyroptosome assembly → caspase-1 autoactivation
+4. Active caspase-1 → IL-1beta (pro-IL-1beta → mature IL-1beta) + IL-18 + gasdermin D (pore formation → pyroptosis in some macrophages)
+5. **IL-1beta** is the central acute gout mediator: binds synovial fibroblast and endothelial IL-1R1 → NF-kB → IL-6, IL-8 (CXCL8), ICAM-1 → massive neutrophil influx
+
+**Two-signal model for maximal inflammasome activation:**
+- **Signal 1 (priming):** TLR4/TLR2 ligands (MSU crystal surface, urate at lower concentrations, LPS co-stimulation) → NF-kB → pro-IL-1beta, NLRP3, and ASC transcription
+- **Signal 2 (activation):** MSU crystal phagocytosis → lysosomal rupture → NLRP3 activation
+
+**Resolution of acute gout (spontaneous within 7-10 days):**
+- Neutrophils undergo NET formation and apoptosis → efferocytosis by macrophages → anti-inflammatory macrophage polarization → IL-10, TGF-beta → resolution
+- Lipid mediators: transition from pro-inflammatory prostaglandins and leukotrienes → pro-resolving lipoxins and resolvins → self-limited flare
+
+### Crystal properties
+
+- MSU crystals: needle-shaped (monosodium urate monohydrate), negatively birefringent under polarized light (gold/yellow parallel to polarizer) — diagnostic by synovial fluid microscopy; length 2-20 μm
+- CPPD crystals (calcium pyrophosphate, pseudogout): rhomboid-shaped, weakly positively birefringent — distinct from gout; associated with OA, hemochromatosis, hyperparathyroidism
+
+## Function
+
+### Clinical presentation
+
+**Acute gouty flare:**
+- Sudden, severe pain (often awakening at night), swelling, erythema, warmth → maximal intensity within 12-24 hours
+- First MTP joint (podagra) most common; also ankle, midfoot, knee; wrist, finger (less common initially; more frequent in patients on diuretics, transplant recipients)
+- **Fever** (low-grade) and leukocytosis may be present → mimics septic arthritis (always aspirate if uncertain; gout and septic arthritis can co-exist)
+- Precipitating triggers: alcohol (especially beer), dietary purine load, dehydration, illness/surgery (acute serum urate change), starting or stopping ULT (crystal mobilization)
+
+**Tophi:**
+- Whitish chalk-like deposits in periarticular tissue, extensor surfaces, olecranon bursa, ear cartilage (helix), tendons (Achilles, finger tendons)
+- MSU crystal aggregates surrounded by chronic granulomatous inflammation; may ulcerate and drain chalky material; can destroy cartilage and bone
+- **DECT (dual-energy CT):** Differentiates MSU (green coding) from calcium crystals → non-invasive tophus detection and monitoring; superior to ultrasound and plain X-ray for tophus burden
+
+**Radiographic findings (late disease):**
+- Punched-out erosions with sclerotic margins and overhanging edges (Martel sign) — pathognomonic for tophaceous gout; first MTP most common
+- Tophaceous deposits as soft-tissue opacities; cartilage and joint space often preserved until late (unlike OA/RA)
+
+## Pathology
+
+### Diagnosis
+
+**Gold standard:** Synovial fluid or tophus aspiration → polarized light microscopy demonstrating needle-shaped, negatively birefringent MSU crystals within or adjacent to neutrophils during acute flare.
+
+**2015 ACR/EULAR Gout Classification Criteria:** Score-based (score ≥8/23 = gout); domains: clinical (joint involvement, synovitis characteristics), laboratory (serum urate, leukocytes in synovial fluid), imaging (ultrasound double contour sign, DECT urate deposits, X-ray erosions). Crystal demonstration = definitive classification regardless of score.
+
+**Serum urate:** Cannot rule out gout during acute flare (urate may be normal or low during acute flare due to acute phase response → uricosuria); repeat when patient has recovered.
+
+**Ultrasonography:** Double contour sign (urate coating on cartilage) and snowstorm appearance (hyperechoic foci in synovial fluid) — sensitive and specific for MSU deposits.
+
+### Treatment [^fitzgerald-2020-acr-gout]
+
+**Acute flare treatment:**
+- **Colchicine (low-dose, 1.2 mg then 0.6 mg 1 hour later):** First-line; tubulin polymerization inhibitor → inhibits neutrophil chemotaxis, NLRP3 inflammasome assembly (microtubule-dependent), and inflammasome-mediated IL-1beta secretion; must be initiated within 36 hours of flare onset for maximal effect; avoid in severe renal/hepatic impairment; CYP3A4/P-gp substrate
+- **NSAIDs (indomethacin, naproxen, celecoxib):** First-line alternative; COX inhibition → reduced prostaglandin-mediated vasodilation and pain; avoid in CKD, heart failure, GI ulcer history
+- **Corticosteroids (prednisone 30-40 mg/day × 5-7 days):** Preferred when colchicine and NSAIDs are contraindicated (e.g., severe CKD, anticoagulated patients); intra-articular triamcinolone effective for monoarthritis
+- **IL-1 inhibitors:** Anakinra (anti-IL-1R), canakinumab (anti-IL-1beta) → highly effective in recurrent refractory gout; canakinumab (Novartis) approved in EU for gout flares; anakinra used off-label; especially valuable in transplant patients (colchicine and NSAIDs contraindicated due to immunosuppressants and renal function)
+
+**Urate-lowering therapy (ULT) — for recurrent or tophaceous gout:**
+- **Indications (2020 ACR):** ≥2 flares/year, 1+ tophi, radiographic evidence of joint damage from gout, serum urate >9 mg/dL, or uric acid nephrolithiasis
+- **Target serum urate:** <6 mg/dL (<5 mg/dL in tophaceous gout) for crystal dissolution
+- **Allopurinol (xanthine oxidase inhibitor):** First-line; blocks urate synthesis; start low (100 mg/day) → titrate monthly to target; HLA-B*5801 screening required before use in Asian patients (SJS/TENS risk: 1-2% in HLA-B*5801 carriers); dose adjust for eGFR; drug interactions: azathioprine (XO inactivation → azathioprine toxicity → reduce azathioprine dose 75% if co-prescribed)
+- **Febuxostat (Uloric):** Non-purine XO inhibitor; more potent than allopurinol at equivalent doses; CARES trial: non-inferior to allopurinol for gout endpoints but possible increased CV mortality signal → now boxed warning; reserved for allopurinol-intolerant patients
+- **Uricosurics:** Probenecid (URAT1 inhibitor), benzbromarone (uricosuric, not available in US) — increase renal urate excretion; less effective in CKD; avoided with nephrolithiasis history
+- **Pegloticase (Krystexxa):** Pegylated recombinant uricase; converts urate → allantoin (soluble) → dramatic serum urate lowering; IV Q2W; for refractory/tophaceous gout; anti-drug antibodies → loss of efficacy and infusion reactions in ~40%; co-administration with methotrexate reduces immunogenicity and improves durability (MIRROR trial); G6PD testing required (hemolysis risk)
+- **Flare prophylaxis during ULT initiation (mandatory for ≥3-6 months):** Low-dose colchicine (0.6 mg QD-BID) or NSAID; urate mobilization from established deposits during ULT initiation triggers flares; this prophylaxis sharply reduces flare incidence during the critical ULT initiation period
+
+## Connections
+
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — MSU crystals are a canonical NLRP3 activator: lysosomal destabilization → cathepsin B → NLRP3-ASC-caspase-1 → IL-1beta secretion; IL-1 blockade (anakinra, canakinumab) rapidly resolves refractory gouty flares.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Synovial macrophages phagocytose MSU crystals → NLRP3 → IL-1beta; surface-activated macrophages produce IL-6, TNF-alpha, CXCL1 → neutrophil recruitment; colchicine blocks macrophage microtubule-dependent NLRP3 assembly.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils are the primary effectors of acute gout: IL-8/CXCL1 → neutrophil influx → MSU crystal phagocytosis → ROS and proteases → tissue damage; colchicine inhibits neutrophil migration and crystal phagocytosis via microtubule disruption.
+- `connects-to` → **[NF-kB](../../03-molecular/nf-kb/README.md)** — MSU crystals activate NF-kB in macrophages and synoviocytes via TLR4 → IL-6, IL-8, TNF-alpha, COX-2 → synovial inflammation; NF-kB drives both acute flare cytokines and chronic tophus-associated tissue remodeling.
+
+[^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
+[^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
+[^fitzgerald-2020-acr-gout]: FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. *Arthritis Care Res (Hoboken).* 2020;72(6):744-760. [doi:10.1002/acr.24180](https://doi.org/10.1002/acr.24180) · [PubMed 32391934](https://pubmed.ncbi.nlm.nih.gov/32391934/)
