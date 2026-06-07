@@ -1,0 +1,160 @@
+---
+schema: human-scale-entry/v1
+id: ovarian-cancer
+name: Ovarian Cancer
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "HGSOC accounts for ~70% of ovarian cancer; BRCA1/2 mutations in ~15-20%; TP53 mutations in ~96%; olaparib and niraparib approved as maintenance; bevacizumab improves PFS; carboplatin+paclitaxel is standard frontline; PARP inhibitor maintenance is standard for HRD+ tumors."
+aliases: ["ovarian cancer", "HGSOC", "high-grade serous ovarian cancer", "LGSOC", "clear cell ovarian cancer", "epithelial ovarian cancer", "EOC", "ovarian carcinoma"]
+sources:
+  - id: burger-2011-gog0218
+    type: peer-reviewed
+    cite: "Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. N Engl J Med. 2011;365(26):2473-2483."
+    doi: "10.1056/NEJMoa1104390"
+    pmid: "22204724"
+    url: "https://doi.org/10.1056/NEJMoa1104390"
+  - id: moore-2018-olaparib-solo1
+    type: peer-reviewed
+    cite: "Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. N Engl J Med. 2018;379(26):2495-2505."
+    doi: "10.1056/NEJMoa1810858"
+    pmid: "30345884"
+    url: "https://doi.org/10.1056/NEJMoa1810858"
+cross_links:
+  - target: 01-human/03-molecular/brca1
+    relation: connects-to
+    note: "BRCA1 germline mutations in ~10% and BRCA2 in ~5-10% of HGSOC; somatic BRCA1/2 mutations in additional ~7%; PARP inhibitors (olaparib, niraparib, rucaparib) active in BRCA-mutant ovarian cancer (SOLO-1, NOVA, ARIEL3); BRCA testing is standard in all ovarian cancer."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Pembrolizumab active in MSI-H/dMMR ovarian cancer (~5%); atezolizumab + bevacizumab + chemotherapy (IMagyn050) failed to show OS benefit vs. bev+chemo; PD-L1 expression enriched in clear cell and mucinous ovarian cancer; mirvetuximab-soravtansine + pembro under study."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Bevacizumab (anti-VEGF) + carboplatin/paclitaxel → maintenance bevacizumab (GOG-0218, ICON7 trials) → PFS improvement ~4 months; bevacizumab approved for frontline and platinum-resistant ovarian cancer; lenvatinib+pembrolizumab active in platinum-resistant ovarian cancer."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PI3K pathway mutations (PIK3CA, PTEN, AKT1) in ~50% of clear cell and endometrioid ovarian cancer → mTOR activation; everolimus + letrozole studied in ER+ endometrioid ovarian cancer; mTOR inhibitors + PARP inhibitors studied to overcome PARP resistance via AKT pathway."
+---
+
+# Ovarian Cancer
+
+## Overview
+
+**Ovarian cancer** encompasses a heterogeneous group of malignancies arising from the ovarian surface epithelium, Fallopian tube epithelium (increasingly recognized as the primary site of origin for most "ovarian" carcinomas), or ovarian stroma. **High-grade serous ovarian carcinoma (HGSOC)** is by far the most common and lethal subtype, accounting for ~70% of all ovarian cancers and nearly all ovarian cancer deaths. HGSOC is distinguished by near-universal *TP53* mutation (~96%), frequent *BRCA1/2* mutations (~15-20%), a homologous recombination deficiency (HRD) signature in ~50% of tumors, and exquisite platinum sensitivity — making PARP inhibitors after platinum-based chemotherapy the cornerstone of modern treatment [^moore-2018-olaparib-solo1].
+
+**Epidemiology:**
+- ~19,000 new cases/year in the United States; ~14,000 deaths/year; 5th most common cancer death in women
+- Median age at diagnosis: ~63 years
+- 5-year survival: ~49% overall; ~92% for localized disease (rare at diagnosis); ~30% for distant-stage disease
+- Most patients (~75%) are diagnosed with advanced-stage disease (FIGO III-IV)
+- Lifetime risk: ~1.3% in the general population; 40-60% in BRCA1 carriers; 10-30% in BRCA2 carriers
+
+**Protective factors:** Oral contraceptive use (OCP reduces risk ~50% after 5 years of use → most effective ovarian cancer prevention in BRCA1/2 carriers); parity, breastfeeding; salpingectomy (removes Fallopian tube where HGSOC originates)
+
+## Structure
+
+### Ovarian cancer subtypes and molecular features
+
+**Epithelial ovarian cancer (EOC) — Type I vs. Type II:**
+
+**Type I (Low-grade, stepwise progression from benign precursors):**
+- Low-grade serous carcinoma (LGSC): KRAS/BRAF mutations (~60%); wild-type TP53; indolent; MEK inhibitors (trametinib, binimetinib) active in BRAF-mutant LGSC
+- Clear cell carcinoma (CCC): ARID1A mutations (~50%), PIK3CA mutations (~30%), ERBB2 amplification; platinum-resistant; HIF-1alpha-driven; mTOR-active; better prognosis in early stage
+- Endometrioid carcinoma: CTNNB1 mutations (~30%), PTEN mutations (~20%), microsatellite instability (~12-20%); often endometriosis-associated; Lynch syndrome (MLH1/MSH2 mutations) → endometrioid OC
+- Mucinous carcinoma: Rare; KRAS mutations (~60%); often platinum-resistant; borderline mucinous tumor → malignant transformation; HER2 amplification in some cases
+
+**Type II (Aggressive, TP53-mutant):**
+- **HGSOC:** TP53 mutation ~96%, BRCA1/2 mutation ~15-20%, CCNE1 amplification (~20%), NF1 mutations (~10%), RB1 loss; de novo, not from preexisting benign lesion; Fallopian tube origin (STIC — serous tubal intraepithelial carcinoma) → spreads to ovary and peritoneum
+- High-grade endometrioid: Overlaps with HGSOC; TP53 often mutant; aggressive
+
+**Molecular landscape of HGSOC (TCGA 2011):**
+- TP53: ~96% (most any TP53 alteration, no specific hotspot dominant)
+- BRCA1 (germline + somatic): ~13%
+- BRCA2 (germline + somatic): ~8%
+- BRCA1 methylation (epigenetic silencing): ~11%
+- Total BRCA/HRD-positive: ~50% (using genomic scar scores)
+- CCNE1 amplification: ~20% → cyclin E1 excess → CDK2 activation → HR inhibition (functional HRD without BRCA mutation)
+- NF1 deletion: ~10% → RAS-MAPK derepression
+- RB1 loss: ~10%
+
+### Fallopian tube origin of HGSOC
+
+The paradigm shift in understanding HGSOC biology:
+- **Serous tubal intraepithelial carcinoma (STIC):** Premalignant lesion in Fallopian tube fimbriae (especially in BRCA carriers); TP53 signature present before invasion; STICs found in >50% of BRCA carrier tubes removed prophylactically
+- **Implications:** Risk-reducing salpingo-oophorectomy (RRSO) in BRCA carriers → removes Fallopian tube primary → most effective risk reduction; risk-reducing salpingectomy alone (RRSO without oophorectomy) may partially reduce risk while preserving premenopausal hormonal function
+
+## Function
+
+### Normal ovarian and Fallopian tube biology
+
+**Ovarian folliculogenesis:**
+Each monthly cycle → dominant follicle → granulosa cell proliferation → ovulation → ruptured follicle → corpus luteum → progesterone → if no pregnancy → luteolysis → menstruation. Repeated ovulations → micro-trauma to ovarian surface epithelium → repair via proliferation → cumulative mutation opportunity; lifetime number of ovulations is proportional to OC risk.
+
+**Fallopian tube secretory cells (FTSECs):**
+FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are the likely precursor cells for HGSOC; TP53 mutations arise in FTSECs decades before HGSOC development; BRCA1/2 germline carriers → accelerated accumulation of TP53 mutations in FTSECs
+
+## Pathology
+
+### Staging and diagnosis
+
+**FIGO staging:**
+- Stage I: Confined to ovary/Fallopian tube
+- Stage II: Pelvic extension
+- Stage III: Peritoneal spread beyond pelvis; most common at diagnosis (~60%)
+  - IIIC: Peritoneal implants >2 cm or retroperitoneal LN
+- Stage IV: Distant metastasis (IV A: pleural effusion; IV B: parenchymal organ metastasis)
+
+**Diagnosis:**
+- CA-125: Elevated (>35 U/mL) in ~80% of HGSOC but low specificity in premenopausal women; useful for monitoring response and recurrence
+- HE4 (human epididymis protein 4): Complementary to CA-125; ROMA score (CA-125 + HE4) → preoperative risk assessment
+- Pelvic ultrasound: Morphology, septations, solid components, vascularity (ADNEX model)
+- CT chest/abdomen/pelvis: Staging; peritoneal carcinomatosis pattern
+- Definitive diagnosis: Pathological evaluation of surgical specimen
+
+**Surgical principles:**
+- **Primary debulking surgery (PDS):** The extent of cytoreduction is the most important surgical prognostic factor; goal: complete gross resection (R0) or residual disease <1 cm; achieved in ~70% of stage III by specialized gynecologic oncology centers
+- **Neoadjuvant chemotherapy (NACT) + interval debulking surgery (IDS):** Alternative for patients who cannot achieve R0 at PDS (CHORUS/EORTC 55971 trials); equivalent OS to PDS in unresectable disease; higher rates of optimal cytoreduction at IDS
+- **Secondary cytoreduction:** For platinum-sensitive recurrence with selected good-performance patients (SOC-1 trial — OS benefit in PFI ≥12 months, AGO score positive)
+
+### Treatment
+
+**Frontline (FIGO III-IV HGSOC):**
+
+1. **Carboplatin (AUC5-6) + paclitaxel (175 mg/m²)** every 3 weeks × 6 cycles: Standard platinum-based chemotherapy backbone; ORR ~80%; majority relapse within 3 years despite response
+
+2. **Bevacizumab + chemotherapy → maintenance bevacizumab (GOG-0218, ICON7):** [^burger-2011-gog0218] PFS improvement of ~3.8 months in GOG-0218; limited OS benefit; most benefit in highest-risk patients (stage IV or suboptimally debulked stage III); bevacizumab approved with carboplatin/paclitaxel for frontline advanced OC
+
+3. **PARP inhibitor maintenance (HRD-guided):**
+   - **Olaparib (SOLO-1):** [^moore-2018-olaparib-solo1] 3-year PFS 60% vs. 27% in BRCA1/2-mutant HGSOC; FDA approved 2018
+   - **Niraparib (PRIMA trial):** 13.8 vs. 8.2 months PFS in HRD+ overall population; 21.9 vs. 10.4 months in BRCA-mutant; approved for all advanced OC regardless of BRCA
+   - **Olaparib + bevacizumab (PAOLA-1):** PFS 22.1 vs. 16.6 months in HRD+ (including BRCA+); FDA approved 2020 for BRCA-mutant or HRD+ HGSOC after bevacizumab-containing chemotherapy
+
+4. **HRD testing:** Myriad myChoice HRD Plus (genomic instability score ≥33 = HRD+) — FDA companion diagnostic for niraparib + olaparib + bevacizumab; BRCA1/2 testing required for olaparib; universal tumor testing recommended in all ovarian cancer
+
+**Platinum-sensitive recurrence (PFI ≥6 months):**
+- Re-challenge with platinum-based doublet (carboplatin + gemcitabine, or carboplatin + liposomal doxorubicin, or carboplatin + paclitaxel)
+- PARP inhibitor maintenance after response: olaparib (STUDY 19/SOLO-2), niraparib (NOVA), rucaparib (ARIEL3) all approved for platinum-sensitive recurrence maintenance
+- Bevacizumab + chemotherapy → maintenance bevacizumab (OCEANS trial)
+- Secondary debulking in selected patients with PFI ≥12 months and positive AGO score
+
+**Platinum-resistant recurrence (PFI <6 months):**
+- Single-agent chemotherapy: liposomal doxorubicin (PEGylated, PLD), topotecan, gemcitabine, weekly paclitaxel
+- **Mirvetuximab soravtansine (MIRV):** FRα-directed ADC (maytansinoid); MIRASOL trial → PFS 5.6 vs. 4.0 months vs. chemotherapy in FRα-high platinum-resistant OC; ORR 42%; FDA approved March 2023 — first ADC approved in ovarian cancer; FRα testing required (FOLR1 ≥75% by IHC)
+- **Bevacizumab + chemotherapy:** AURELIA trial → PFS 6.7 vs. 3.4 months; standard option
+- Clinical trials: PARP inhibitor + immune checkpoint (e.g., rucaparib + nivolumab), novel ADCs (upifitamab rilsodotin — NaPi2b-directed)
+
+**Clear cell ovarian cancer (specific considerations):**
+- Inherently platinum-resistant (~30% of CCC)
+- mTOR inhibitors (everolimus) under study; PI3K pathway activation
+- HER2-targeted therapy in HER2-amplified CCC
+- Immunotherapy: moderate PD-L1 expression → pembrolizumab in MSI-H or TMB-high CCC
+
+## Connections
+
+- `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BRCA1 germline mutations in ~10% and BRCA2 in ~5-10% of HGSOC; somatic BRCA1/2 mutations in additional ~7%; PARP inhibitors (olaparib, niraparib, rucaparib) active in BRCA-mutant ovarian cancer (SOLO-1, NOVA, ARIEL3 trials); BRCA mutation testing is standard in all ovarian cancer.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Pembrolizumab active in MSI-H/dMMR ovarian cancer (~5%); atezolizumab + bevacizumab + chemotherapy (IMagyn050) failed to show OS benefit vs. bevacizumab + chemotherapy; PD-L1 expression enriched in clear cell and mucinous ovarian cancer; mirvetuximab-soravtansine + pembro under study.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Bevacizumab (anti-VEGF) + carboplatin/paclitaxel → maintenance bevacizumab (GOG-0218, ICON7 trials) → PFS improvement ~4 months; bevacizumab approved for frontline and platinum-resistant ovarian cancer; lenvatinib+pembrolizumab active in platinum-resistant ovarian cancer.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K pathway mutations (PIK3CA, PTEN, AKT1) in ~50% of clear cell and endometrioid ovarian cancer → mTOR activation; everolimus + letrozole studied in ER+ endometrioid ovarian cancer; mTOR inhibitors + PARP inhibitors studied to overcome PARP resistance via AKT pathway.
+
+[^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
+[^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
