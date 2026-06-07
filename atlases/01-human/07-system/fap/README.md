@@ -1,0 +1,184 @@
+---
+schema: human-scale-entry/v1
+id: fap
+name: Familial Adenomatous Polyposis
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "Familial adenomatous polyposis (FAP) is caused by germline APC mutations; >100 colorectal adenomas from age 10-20; CRC by 30-40 without treatment; prophylactic proctocolectomy is curative; desmoid tumor, duodenal adenomas, and Gardner syndrome are extracolonic features."
+aliases: ["FAP", "familial adenomatous polyposis", "APC polyposis", "Gardner syndrome", "attenuated FAP", "AFAP", "FAP colon", "hereditary CRC APC", "APC syndrome", "FAP desmoid"]
+sources:
+  - id: kinzler-1991-apc
+    type: peer-reviewed
+    cite: "Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. Science. 1991;253(5020):661-665."
+    doi: "10.1126/science.1651562"
+    pmid: "1651562"
+    url: "https://doi.org/10.1126/science.1651562"
+  - id: fearon-1990-vogelstein
+    type: peer-reviewed
+    cite: "Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. Cell. 1990;61(5):759-767."
+    doi: "10.1016/0092-8674(90)90186-i"
+    pmid: "2188735"
+    url: "https://doi.org/10.1016/0092-8674(90)90186-i"
+cross_links:
+  - target: 01-human/03-molecular/apc
+    relation: connects-to
+    note: "Germline APC truncating mutations cause FAP; codon position determines phenotype: codons 1250-1464 = classic profuse FAP; codons 1310-2011 = mesenteric desmoid risk; codons <168 or >1580 = attenuated FAP; codon 1309 hotspot = most severe; nuclear β-catenin in FAP adenomas"
+  - target: 01-human/03-molecular/ctnnb1
+    relation: connects-to
+    note: "APC LOF → insufficient β-catenin destruction complex → nuclear β-catenin → TCF/LEF → Wnt-ON; FAP tumors show nuclear β-catenin by IHC; FAP desmoid (APC codons 1310-2011) driven by APC LOF, not CTNNB1 mutation; functionally equivalent outcome via distinct mechanisms"
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "FAP: 100% CRC penetrance by age 40 without colectomy; proctocolectomy (IPAA or ileostomy) is definitive prevention; annual colonoscopy from age 10-12; celecoxib FDA-approved for FAP adenoma reduction; sulindac reduces polyp burden; duodenal surveillance required"
+  - target: 01-human/07-system/desmoid-tumor
+    relation: connects-to
+    note: "APC germline mutations (codons 1310-2011) → FAP-associated mesenteric desmoid; more aggressive than sporadic CTNNB1-mutant desmoid; post-colectomy FAP mesenteric desmoid is a leading mortality cause in FAP; nirogacestat FDA-approved for all desmoid including FAP-associated"
+---
+
+# Familial Adenomatous Polyposis
+
+## Overview
+
+**Familial adenomatous polyposis (FAP)** is an autosomal dominant colorectal cancer predisposition syndrome caused by germline pathogenic variants in **APC** (adenomatous polyposis coli), a scaffold for the β-catenin destruction complex. FAP is characterized by the development of hundreds to thousands of colorectal adenomas beginning in adolescence, with a 100% lifetime risk of colorectal carcinoma (CRC) by the 4th-5th decade of life if the colon is not removed. In addition to colorectal polyps, FAP patients develop characteristic extracolonic manifestations: **desmoid tumors** (especially mesenteric, post-colectomy), **duodenal and periampullary adenomas** (lifetime cancer risk ~5-10%), **fundic gland polyps**, **congenital hypertrophy of the retinal pigment epithelium (CHRPE)**, and the classic **Gardner syndrome** triad (colorectal polyps + osteomas + soft tissue tumors). FAP accounts for ~1% of all CRC in Western countries. Prophylactic proctocolectomy is the definitive intervention, and endoscopic surveillance + celecoxib chemoprevention are used to manage residual rectal or duodenal adenoma burden [^kinzler-1991-apc] [^fearon-1990-vogelstein].
+
+**Epidemiology:**
+- Prevalence: 1/10,000-30,000 in Western populations; ~15,000-20,000 patients in the USA
+- Inheritance: autosomal dominant; 50% transmission; ~25-30% de novo (no family history)
+- APC germline variant: ~100% of classic FAP; ~70% of attenuated FAP (AFAP); ~30% of AFAP are MUTYH-associated polyposis (MAP), biallelic MUTYH mutations — autosomal recessive
+- Classic FAP: typically >100 adenomas, carpeting colorectum
+- Attenuated FAP (AFAP): 10-99 adenomas; later onset (age 30-40); more distal colon; APC mutations at 5' end (<168), 3' end (>1580), or exon 9
+
+**APC mutation-phenotype correlations:**
+
+| APC codon region | Phenotype | CRC onset | Desmoid |
+|---|---|---|---|
+| <168 | AFAP (few polyps, late onset) | 50-60 yrs | Rare |
+| 168-1250 | Classic FAP | 30-40 yrs | Uncommon |
+| 1250-1464 (MCR) | Profuse classic FAP | 20-30 yrs | Uncommon |
+| 1310-2011 | Classic + desmoid risk | 30-40 yrs | High (~50%) |
+| 1309 (hotspot) | Most severe FAP | 20s | Uncommon |
+| >1580 | AFAP (3' attenuated) | 50-60 yrs | Rare |
+
+## Structure
+
+### APC and the β-catenin destruction complex in FAP
+
+**Molecular basis:**
+APC protein scaffolds the β-catenin destruction complex (APC + AXIN + GSK-3β + CK1α): sequential phosphorylation of β-catenin at S45 (CK1α) → T41/S37/S33 (GSK-3β) → β-TrCP E3 ligase → proteasomal degradation → Wnt-OFF; germline APC pathogenic variant (truncating) → one allele non-functional at birth → somatic second hit (LOH at 5q21 or somatic truncating mutation) in a single colonocyte → biallelic APC LOF → β-catenin accumulates → nuclear → TCF/LEF → MYC, CCND1, VEGFA → stem cell expansion → adenoma
+
+**From one cell to thousands of polyps:**
+In FAP, every colonocyte carries the germline APC first hit; over time, independent somatic second-hit events in separate stem cells → multiple simultaneous adenoma foci; because millions of colonocytes are at risk, FAP patients develop hundreds to thousands of adenomas rather than the 1-5 sporadic adenomas a normal individual accumulates over a lifetime; polyp density is proportional to the residual APC protein function (truncation site determines how many β-catenin binding 20 aa repeats are retained)
+
+**Adenoma-to-carcinoma sequence in FAP:**
+Within FAP adenomas, additional mutations accumulate: KRAS (G12D/V, ~50% of large adenomas) → SMAD4 LOF → TP53 LOF → CRC; the sequence is the same as sporadic CRC (Fearon-Vogelstein model) but the timeline is compressed and universal because the initiating APC LOF is pre-present; FAP CRC typically arises from one of the most dysplastic adenomas (often >1 cm, villous features, high-grade dysplasia)
+
+### MUTYH-associated polyposis (MAP)
+
+**MAP genetics and phenotype:**
+- Biallelic pathogenic variants in MUTYH (MutY DNA glycosylase; base excision repair): autosomal recessive
+- MUTYH removes adenine mispaired with 8-oxoguanine (oxidative DNA damage) → prevents G:C → T:A transversions
+- Biallelic MUTYH LOF → accumulation of G:C → T:A mutations → accumulates KRAS G12C/D and APC codon 1309 mutations → adenoma formation without germline APC mutation
+- Phenotype: 10-100 adenomas (AFAP-like); CRC lifetime risk ~80%; onset slightly later than classic FAP
+- Molecular signature: characteristic APC somatic mutations (APC codon 1369, 1450 missense/nonsense from G:C→T:A transversions) + KRAS G12C (G:C→T:A)
+- IHC/testing: MUTYH germline sequencing for biallelic testing; both copies must be mutated (compound heterozygous or homozygous); heterozygous MUTYH carriers: minor CRC risk increase (~1.5-2×)
+
+## Function
+
+### Carcinogenesis in FAP
+
+**Polyp development timeline:**
+- Age 10-15: microscopic adenomas detectable by high-resolution colonoscopy; CHRPE (CHRPE associated with mutations at codons 311-1444) already present from birth
+- Age 15-25: macroscopic adenomas apparent; annual colonoscopy positive; polypectomy insufficient due to polyp burden
+- Age 25-35: hundreds to thousands of polyps; progressive high-grade dysplasia in largest polyps
+- Age 30-40: CRC inevitable without colectomy; 90% of untreated classic FAP patients develop CRC by age 40
+
+**Extracolonic manifestations:**
+
+*Gardner syndrome* (the full extracolonic FAP triad):
+- **Osteomas**: mandible (most common), skull, long bones; benign; may precede colon polyps by years; detected by panoramic dental X-ray; marker of FAP in young patients
+- **Desmoid tumors**: mesenteric (post-colectomy trigger) or abdominal wall; ~15-20% of FAP patients; especially APC codons 1310-2011; mesenteric desmoid can be life-threatening; see desmoid-tumor entry
+- **Epidermoid/sebaceous cysts**: back, face, extremities; benign; FAP stigmata
+- **Supernumerary teeth** (hyperdontia): rare; associated with FAP
+
+*Duodenal/periampullary disease:*
+- Duodenal adenomas: ~90% of FAP patients develop them by age 50; periampullary carcinoma lifetime risk ~5-10% (4th most common FAP cancer after CRC, desmoid, thyroid)
+- **Spigelman staging** (0-IV based on number, size, histology, dysplasia of duodenal polyps): Stage IV → prophylactic pancreaticoduodenectomy (Whipple) consideration
+- Surveillance: EGD every 1-5 years depending on Spigelman stage; ampullary/periampullary polyps get endoscopic ampullectomy
+
+*Fundic gland polyps (FGPs):*
+- ~90% of FAP patients; stomach body and fundus; NOT adenomas (non-dysplastic, hyperplastic-like glands); rarely progress to cancer; biopsied to confirm FGP vs adenoma
+
+*CHRPE (congenital hypertrophy of retinal pigment epithelium):*
+- Bilateral, multifocal CHRPE: highly specific for FAP with APC mutations at codons 311-1444; absent in AFAP (mutations <168 or >1580); detected by fundoscopy; useful for surveillance of at-risk relatives pre-genotyping
+- Non-FAP CHRPE: unilateral, unifocal; much more common; not associated with APC mutation
+
+*Thyroid cancer (papillary, cribriform-morular variant):*
+- ~1-2% of FAP patients; young women predominance; cribriform-morular thyroid carcinoma is pathognomonic for FAP (nuclear β-catenin by IHC); annual thyroid US recommended by some guidelines
+
+## Pathology
+
+### Diagnosis and genetic evaluation
+
+**Clinical diagnosis:**
+- Classic FAP: ≥100 colorectal adenomas (any age) OR personal/family history of FAP + any adenomas
+- AFAP: 10-99 colorectal adenomas + APC pathogenic variant OR biallelic MUTYH pathogenic variant
+- Pathological: carpeting carpet adenomas; tubulovillous histology predominates large polyps; high-grade dysplasia precedes CRC
+
+**Genetic testing:**
+- APC germline sequencing (full coding + splice sites) + MLPA (multiplex ligation-dependent probe amplification) for large rearrangements: ~95% sensitivity for APC pathogenic variant in classic FAP
+- Negative APC → MUTYH biallelic testing (rule out MAP)
+- Negative APC+MUTYH → POLE/POLD1 germline testing (polymerase proofreading-associated polyposis, PPAP): rare; 10-100 adenomas + extracolonic features
+- Cascade testing: all first-degree relatives of APC carrier should be offered testing; start surveillance colonoscopy at age 10-12 in APC+ relatives
+
+### Surveillance protocols (NCCN/ESMO 2024)
+
+**Colorectal:**
+- APC-positive individuals (or at-risk relatives pending testing): annual sigmoidoscopy or colonoscopy from age 10-12
+- Once polyps detected: annual colonoscopy + polypectomy until polyp burden mandates colectomy (typically age 15-25 for classic FAP)
+- Post-colectomy (if IRA): annual or biannual flexible sigmoidoscopy of rectal remnant (pouch or stump); rectal polyp burden dictates completion proctectomy timing
+
+**Duodenal/upper GI:**
+- EGD starting age 25-30; frequency based on Spigelman stage:
+  - Stage 0-I: every 5 years
+  - Stage II: every 3 years
+  - Stage III: every 1-2 years
+  - Stage IV: surgical consultation (Whipple vs ampullectomy)
+
+**Desmoid:**
+- Baseline abdominal MRI at time of diagnosis (FAP with codons 1310-2011 or family history of desmoid); repeat MRI if symptomatic or annually in high-risk
+- Desmoid screening intensified 1-2 years post-colectomy (surgery triggers desmoid development)
+
+### Surgical management and chemoprevention
+
+**Prophylactic colectomy options:**
+
+1. **Total proctocolectomy with IPAA (ileal pouch-anal anastomosis)**: most definitive; removes all colorectal mucosa; ileostomy reversed; continence preserved (pouch acts as neorectum); risk of pouchitis, nighttime incontinence
+2. **Colectomy with ileorectal anastomosis (IRA)**: preserves rectum; fewer complications; requires annual rectal surveillance; pouch formation later if rectal polyps progress
+3. **Total proctocolectomy with end ileostomy**: for patients with low sphincter function or inability to undergo IRA/IPAA; permanent ileostomy
+4. **Timing**: colectomy typically performed in teens to early 20s, before polyp burden is unmanageable; urgency based on polyp density and dysplasia
+
+**Medical/chemopreventive therapy:**
+- **Celecoxib (400 mg BID)**: FDA-approved for reduction of colorectal polyps in FAP patients; Phase 3 data: reduces duodenal + colorectal polyp number by ~28-45%; NOT a substitute for surveillance or surgery; concurrent use with post-colectomy surveillance
+- **Sulindac (150 mg BID)**: non-selective COX-1/COX-2 NSAID; reduces adenoma number ~50-60% in some FAP patients; polyp regression but rarely elimination; rebound after stopping; GI toxicity limits use; used in AFAP patients with low adenoma burden
+- **Eflornithine**: ornithine decarboxylase (ODC) inhibitor; explored in FAP (NCI clinical trials); less data than celecoxib
+
+**Desmoid management in FAP:**
+- Watch-and-wait (many FAP desmoids are stable): first-line for asymptomatic or slowly growing mesenteric desmoid
+- Nirogacestat (FDA 2023): indicated for all progressing desmoid tumors regardless of etiology (FAP or sporadic); ovarian toxicity in women
+- Sorafenib (VEGFR/PDGFR inhibitor): off-label; used in FAP desmoid with ORR ~15-20%
+- Imatinib + sulindac combination: Phase 2 data in FAP desmoid; partial responses
+- Surgery: reserved for localized desmoid with complete resection achievable; mesenteric desmoid often unresectable due to adherence to mesenteric vessels
+
+**Prognosis:**
+With modern surveillance and prophylactic colectomy: FAP is no longer an inevitable death sentence; colectomy by age 25 eliminates CRC risk from the colorectum; remaining risks are duodenal cancer (~5-10%), desmoid (~10-20% cause significant morbidity/mortality), papillary thyroid (~1-2%), and gastric cancer in high-risk populations; overall life expectancy now approaches near-normal if colectomy performed and extracolonic surveillance maintained
+
+## Connections
+
+- `connects-to` → **[APC](../../03-molecular/apc/README.md)** — Germline APC truncating mutations cause FAP; codon position determines phenotype: codons 1250-1464 = classic profuse FAP; codons 1310-2011 = mesenteric desmoid risk; codons <168 or >1580 = attenuated FAP; codon 1309 hotspot = most severe; nuclear β-catenin in FAP adenomas
+- `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — APC LOF → insufficient β-catenin destruction complex → nuclear β-catenin → TCF/LEF → Wnt-ON; FAP tumors show nuclear β-catenin by IHC; FAP desmoid (APC codons 1310-2011) driven by APC LOF, not CTNNB1 mutation; functionally equivalent outcome via distinct mechanisms
+- `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — FAP: 100% CRC penetrance by age 40 without colectomy; proctocolectomy (IPAA or ileostomy) is definitive prevention; annual colonoscopy from age 10-12; celecoxib FDA-approved for FAP adenoma reduction; sulindac reduces polyp burden; duodenal surveillance required
+- `connects-to` → **[Desmoid Tumor](../../07-system/desmoid-tumor/README.md)** — APC germline mutations (codons 1310-2011) → FAP-associated mesenteric desmoid; more aggressive than sporadic CTNNB1-mutant desmoid; post-colectomy FAP mesenteric desmoid is a leading mortality cause in FAP; nirogacestat FDA-approved for all desmoid including FAP-associated
+
+[^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
+[^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
