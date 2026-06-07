@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-kB activated in RA synovial fibroblasts by TNF-alpha and IL-1beta → MMP secretion → cartilage degradation; NF-kB also induces RANKL → osteoclast activation → bone erosion; glucocorticoids and DMARDs (methotrexate, bDMARDs) suppress NF-kB as a shared mechanism."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A is present in RA synovium but secondary to TNF-alpha and IL-6; IL-17A promotes osteoclastogenesis via RANKL induction; IL-17A inhibitors (secukinumab) failed pivotal RA trials; bimekizumab (anti-IL-17A/F) showed marginal RA benefit vs established TNF/IL-6 blockade."
 ---
 
 # Rheumatoid Arthritis
@@ -189,6 +192,7 @@ RA patients have:
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 drives systemic RA inflammation (acute-phase response, anemia of chronic disease, fatigue) and Th17/Tfh polarization promoting ACPA production; tocilizumab and sarilumab (anti-IL-6R) are effective monotherapy or MTX-combination biologics for RA.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Th17 cells produce IL-17A/F driving neutrophil recruitment and FLS activation; Tfh cells sustain ACPA-producing plasma cell differentiation; abatacept (CTLA-4-Ig) blocks CD28 co-stimulation, suppressing pathogenic T-cell activation in RA synovium.
 - `connects-to` → **[NF-kB](../../03-molecular/nf-kb/README.md)** — NF-kB activated in RA synovial fibroblasts and macrophages by TNF-alpha and IL-1beta → MMP secretion, RANKL induction, and osteoclast-driven bone erosion; glucocorticoids and multiple bDMARDs converge on NF-kB suppression as a shared downstream mechanism.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is present in RA synovium but secondary to TNF-alpha and IL-6; IL-17A promotes osteoclastogenesis via RANKL induction; IL-17A inhibitors (secukinumab) failed pivotal RA trials; bimekizumab (anti-IL-17A/F) showed marginal RA benefit vs established TNF/IL-6 blockade.
 
 [^smolen-2016-ra-lancet]: Smolen JS, Aletaha D, McInnes IB. Rheumatoid arthritis. *Lancet.* 2016;388(10055):2023-2038. [doi:10.1016/S0140-6736(16)30173-8](https://doi.org/10.1016/S0140-6736(16)30173-8) · [PubMed 27156434](https://pubmed.ncbi.nlm.nih.gov/27156434/)
 [^firestein-2003-ra-pathogenesis]: Firestein GS. Evolving concepts of rheumatoid arthritis. *Nature.* 2003;423(6937):356-361. [doi:10.1038/nature01661](https://doi.org/10.1038/nature01661) · [PubMed 12748655](https://pubmed.ncbi.nlm.nih.gov/12748655/)

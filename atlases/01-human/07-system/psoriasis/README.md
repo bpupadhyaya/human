@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "IL-23 from dermal DCs activates Th17 and γδ T cells → IL-17A/F and IL-22 → keratinocyte hyperproliferation, acanthosis, and neutrophil recruitment in psoriatic plaques; anti-IL-23p19 antibodies (risankizumab, guselkumab) achieve PASI 90 response in ~50% of patients."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A from skin Th17 and γδ T cells activates keratinocyte IL-17RA/RC → NF-kB → CXCL8, S100A proteins, and AMPs → neutrophil influx and epidermal hyperproliferation; secukinumab (anti-IL-17A) and ixekizumab achieve PASI 90 in ~60% of plaque psoriasis patients at 16 weeks."
 ---
 
 # Psoriasis
@@ -166,6 +169,7 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 amplifies Th17 polarization (with TGF-beta) in psoriasis; STAT3-dependent keratinocyte hyperproliferation; elevated serum IL-6 correlates with psoriasis severity and psoriatic arthritis activity; IL-6 trans-signaling drives systemic cardiovascular risk.
 - `connects-to` → **[NF-kB](../../03-molecular/nf-kb/README.md)** — NF-kB activated in psoriatic keratinocytes by TNF-alpha and IL-17A → AMP expression (LL-37, beta-defensins), CXCL8 (neutrophil chemotaxis), and CCL20 (DC recruitment); CARD14 gain-of-function mutations constitutively activate keratinocyte NF-kB → psoriasis without external trigger.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 from dermal DCs activates Th17 and γδ T cells → IL-17A/F and IL-22 → keratinocyte hyperproliferation, acanthosis, and neutrophil recruitment in psoriatic plaques; anti-IL-23p19 antibodies (risankizumab, guselkumab) achieve PASI 90 response in ~50% of patients.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A from skin Th17 and γδ T cells activates keratinocyte IL-17RA/RC → NF-kB → CXCL8, S100A proteins, and AMPs → neutrophil influx and epidermal hyperproliferation; secukinumab (anti-IL-17A) and ixekizumab achieve PASI 90 in ~60% of plaque psoriasis patients at 16 weeks.
 
 [^nestle-2009-psoriasis-review]: Nestle FO, Kaplan DH, Barker J. Psoriasis. *N Engl J Med.* 2009;361(5):496-509. [doi:10.1056/NEJMra0804595](https://doi.org/10.1056/NEJMra0804595) · [PubMed 19641206](https://pubmed.ncbi.nlm.nih.gov/19641206/)
 [^langley-2014-secukinumab]: Langley RG, Elewski BE, Lebwohl M, et al. Secukinumab in plaque psoriasis — results of two phase 3 trials. *N Engl J Med.* 2014;371(4):326-338. [doi:10.1056/NEJMoa1406095](https://doi.org/10.1056/NEJMoa1406095) · [PubMed 25007392](https://pubmed.ncbi.nlm.nih.gov/25007392/)

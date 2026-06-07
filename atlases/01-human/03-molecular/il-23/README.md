@@ -21,6 +21,9 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-23 and IL-6 cooperate to drive Th17 cells: IL-6 + TGF-β initiates Th17 polarization from naive T cells; IL-23 amplifies and stabilizes the effector Th17 program; both cytokines are elevated in IBD, psoriasis, and RA; IL-6 blockade (tocilizumab) reduces Th17 responses in RA."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; anti-IL-23p19 antibodies (risankizumab) suppress IL-17A and achieve superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis."
 sources:
   - id: oppmann-2000-il23-p19
     type: peer-reviewed
@@ -102,3 +105,5 @@ IL-23 from dermal DCs activates Th17 and γδ T cells → IL-17A/F and IL-22 →
 IL-23 signals via IL-23R/IL-12Rβ1 → JAK1/TYK2 → STAT3 homodimerization and nuclear translocation → transcription of IL-17A, IL-17F, IL-22, and RORγt; STAT3 is the master downstream effector of IL-23; JAK inhibitors (tofacitinib) block IL-23 signaling in psoriasis and IBD.
 
 IL-23 and IL-6 cooperate to drive Th17 cells: IL-6 + TGF-β initiates Th17 polarization from naive T cells; IL-23 amplifies and stabilizes the effector Th17 program; both cytokines are elevated in IBD, psoriasis, and RA; IL-6 blockade (tocilizumab) reduces Th17 responses in RA.
+
+IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; anti-IL-23p19 antibodies (risankizumab) suppress IL-17A and achieve superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis.
