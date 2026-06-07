@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-kB is activated in psoriatic keratinocytes by TNF-alpha and IL-17A → drives AMP expression (LL-37, beta-defensins), CXCL8 (neutrophil chemotaxis), IL-6, and CCL20 (DC recruitment); NF-kB inhibition is a downstream convergence point of most anti-psoriasis biologics."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "IL-23 from dermal DCs activates Th17 and γδ T cells → IL-17A/F and IL-22 → keratinocyte hyperproliferation, acanthosis, and neutrophil recruitment in psoriatic plaques; anti-IL-23p19 antibodies (risankizumab, guselkumab) achieve PASI 90 response in ~50% of patients."
 ---
 
 # Psoriasis
@@ -162,6 +165,7 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — TNF-alpha activates keratinocyte NF-kB → CXCL1/IL-8, ICAM-1, and survival genes → epidermal thickening and vascular activation; adalimumab, infliximab, etanercept, and certolizumab achieve ~60% PASI 75 in plaque psoriasis and treat psoriatic arthritis.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 amplifies Th17 polarization (with TGF-beta) in psoriasis; STAT3-dependent keratinocyte hyperproliferation; elevated serum IL-6 correlates with psoriasis severity and psoriatic arthritis activity; IL-6 trans-signaling drives systemic cardiovascular risk.
 - `connects-to` → **[NF-kB](../../03-molecular/nf-kb/README.md)** — NF-kB activated in psoriatic keratinocytes by TNF-alpha and IL-17A → AMP expression (LL-37, beta-defensins), CXCL8 (neutrophil chemotaxis), and CCL20 (DC recruitment); CARD14 gain-of-function mutations constitutively activate keratinocyte NF-kB → psoriasis without external trigger.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 from dermal DCs activates Th17 and γδ T cells → IL-17A/F and IL-22 → keratinocyte hyperproliferation, acanthosis, and neutrophil recruitment in psoriatic plaques; anti-IL-23p19 antibodies (risankizumab, guselkumab) achieve PASI 90 response in ~50% of patients.
 
 [^nestle-2009-psoriasis-review]: Nestle FO, Kaplan DH, Barker J. Psoriasis. *N Engl J Med.* 2009;361(5):496-509. [doi:10.1056/NEJMra0804595](https://doi.org/10.1056/NEJMra0804595) · [PubMed 19641206](https://pubmed.ncbi.nlm.nih.gov/19641206/)
 [^langley-2014-secukinumab]: Langley RG, Elewski BE, Lebwohl M, et al. Secukinumab in plaque psoriasis — results of two phase 3 trials. *N Engl J Med.* 2014;371(4):326-338. [doi:10.1056/NEJMoa1406095](https://doi.org/10.1056/NEJMoa1406095) · [PubMed 25007392](https://pubmed.ncbi.nlm.nih.gov/25007392/)

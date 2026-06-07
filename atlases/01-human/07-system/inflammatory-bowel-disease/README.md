@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages are dominant IBD innate effectors; colonic macrophages normally tolerogenic (CD33+, anti-inflammatory) become pro-inflammatory (TNF-alpha, IL-1beta, IL-23) in IBD under dysbiosis; macrophage polarization is the target of JAK inhibitors and IL-12/23 blockade."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "IL-23 drives Th17 polarization in the gut lamina propria → IL-17A, IL-22, and TNF-α → disruption of epithelial barrier and transmural inflammation in Crohn's disease; risankizumab (anti-IL-23p19) is FDA-approved for moderate-to-severe Crohn's disease and ulcerative colitis."
 ---
 
 # Inflammatory Bowel Disease
@@ -176,6 +179,7 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — IBD is fundamentally a dysregulated immune response to commensal bacteria in susceptible hosts; dysbiosis (loss of Faecalibacterium prausnitzii and Bacteroidetes) is universal; gut microbiome composition predicts treatment response; FMT induces UC remission in ~30-50% of patients in clinical trials.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — TNF-alpha and IL-13 in IBD disrupt tight junction proteins → increased permeability → bacterial translocation; mucosal healing (endoscopic Mayo 0-1 in UC) is now the primary therapeutic target — associated with sustained remission and reduced surgical risk.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — colonic macrophages shift from tolerogenic (CD33+, IL-10-producing) to pro-inflammatory (TNF-alpha, IL-1beta, IL-23) in IBD; macrophage IL-23 production drives Th17 differentiation; anti-IL-12/23 (ustekinumab, risankizumab) and JAK inhibitors target macrophage-driven intestinal inflammation.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 drives Th17 polarization in the gut lamina propria → IL-17A, IL-22, and TNF-α → disruption of epithelial barrier and transmural inflammation in Crohn's disease; risankizumab (anti-IL-23p19) is FDA-approved for moderate-to-severe Crohn's disease and ulcerative colitis.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
