@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Both are age-related neurodegenerative diseases with prion-like protein aggregation (tau/Abeta in AD; alpha-synuclein in PD); Lewy body dementia overlaps both; shared pathomechanisms include mitochondrial dysfunction, autophagy failure, and neuroinflammation."
+  - target: 01-human/03-molecular/snca
+    relation: connects-to
+    note: "SNCA missense mutations (A53T, A30P, E46K) and gene duplication/triplication cause familial PD; misfolded alpha-synuclein fibrils are the main component of Lewy bodies; SNCA propagates via synaptic connections following Braak staging from brainstem to neocortex."
 ---
 
 # Parkinson's Disease
@@ -186,6 +189,7 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — alpha-synuclein aggregates activate microglia via TLR2/4 and NLRP3 inflammasome, driving IL-1β-mediated dopaminergic neuron death; chronic neuroinflammation amplifies degeneration throughout disease course.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — alpha-synuclein is cleared by CMA and macroautophagy; LRRK2 and mutant SNCA impair autophagy flux, promoting aggregate accumulation; TFEB activation and rapamycin reduce synuclein pathology in preclinical PD models.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — both are age-related neurodegenerative diseases with prion-like protein spreading (tau/Aβ in AD; alpha-synuclein in PD); shared pathomechanisms include mitochondrial dysfunction, autophagy failure, and neuroinflammation; Lewy body dementia bridges both.
+- `connects-to` → **[SNCA](../../03-molecular/snca/README.md)** — SNCA missense mutations (A53T, A30P, E46K) and gene duplication/triplication cause familial PD; misfolded alpha-synuclein fibrils are the main component of Lewy bodies; SNCA propagates via synaptic connections following Braak staging from brainstem to neocortex.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
