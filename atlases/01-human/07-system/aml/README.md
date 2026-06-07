@@ -1,0 +1,164 @@
+---
+schema: human-scale-entry/v1
+id: aml
+name: AML
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Clonal myeloid malignancy; key drivers: FLT3-ITD/TKD (~30%), NPM1 (~30%), DNMT3A (~20%), IDH1/2 (~20%), and KMT2A rearrangements. Venetoclax+azacitidine is frontline for unfit patients; midostaurin (FLT3) and enasidenib/ivosidenib (IDH2/1) are approved targeted therapies."
+aliases: ["acute myeloid leukemia", "AML", "acute myelogenous leukemia", "myeloid leukemia", "APL", "acute promyelocytic leukemia", "FLT3-mutant AML", "IDH-mutant AML", "NPM1-mutant AML"]
+sources:
+  - id: dinardo-2020-viale-a
+    type: peer-reviewed
+    cite: "DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. N Engl J Med. 2020;383(7):617-629."
+    doi: "10.1056/NEJMoa2012971"
+    pmid: "32786187"
+    url: "https://doi.org/10.1056/NEJMoa2012971"
+  - id: stone-2017-midostaurin
+    type: peer-reviewed
+    cite: "Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. N Engl J Med. 2017;377(5):454-464."
+    doi: "10.1056/NEJMoa1614359"
+    pmid: "28644114"
+    url: "https://doi.org/10.1056/NEJMoa1614359"
+  - id: stein-2017-enasidenib
+    type: peer-reviewed
+    cite: "Stein EM, DiNardo CD, Pollyea DA, et al. Enasidenib in mutant IDH2 relapsed or refractory acute myeloid leukemia. Blood. 2017;130(6):722-731."
+    doi: "10.1182/blood-2017-04-779405"
+    pmid: "28588020"
+    url: "https://doi.org/10.1182/blood-2017-04-779405"
+cross_links:
+  - target: 01-human/03-molecular/flt3
+    relation: connects-to
+    note: "FLT3-ITD (~25-30%) and FLT3-TKD (~7-10%) are the most common actionable AML mutations; midostaurin + 7+3 chemotherapy improves OS in FLT3-mutant AML (RATIFY trial); gilteritinib improves OS vs. salvage chemo in R/R FLT3-mutant AML; quizartinib now approved in frontline FLT3-ITD."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "MYC is amplified and overexpressed in AML; FLT3-ITD and NPM1 mutations upregulate MYC via STAT5/HOXA9; MYC drives LSC self-renewal; BET bromodomain inhibitors suppress MYC transcription in AML; menin inhibitors downregulate HOXA9-MYC axis in KMT2A-r and NPM1-mutant AML."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "BCL-2 is overexpressed in ~80% of AML blasts; venetoclax + azacitidine (VIALE-A) improved OS vs. azacitidine alone in untreated AML (14.7 vs. 9.6 months); venetoclax sensitivity correlates with BCL-2/MCL-1 ratio; MCL-1 upregulation is the primary venetoclax resistance mechanism."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutations in ~7% of de novo AML and ~30% of therapy-related AML; TP53-mutant AML is highly drug-resistant; decitabine/azacitidine + venetoclax modestly active; magrolimab + azacitidine showed activity; eprenetapopt (APR-246) refolded mutant p53 but phase 3 trials negative."
+---
+
+# AML
+
+## Overview
+
+**Acute myeloid leukemia (AML)** is a clonal hematopoietic malignancy characterized by the accumulation of immature myeloid blasts (≥20% in bone marrow or blood) that have arrested differentiation and outcompete normal hematopoiesis → profound bone marrow failure. AML is the most common acute leukemia in adults (~21,000 new cases and ~11,000 deaths annually in the United States) and has a poor overall prognosis despite modern therapy: median OS with standard induction is ~12-18 months in fit patients; 5-year OS ~30% overall (higher in younger/favorable risk, lower in elderly/adverse risk) [^dinardo-2020-viale-a].
+
+**Incidence and risk factors:**
+- **Age:** Median diagnosis ~68; incidence increases sharply with age; AML in children (~15% of pediatric leukemia vs. ~80% in adults) has different biology and better outcomes
+- **Prior cytotoxic therapy:** Therapy-related AML (t-AML) occurs after alkylating agent exposure (latency 5-10 years, often complex karyotype, TP53 mutation) or topoisomerase II inhibitor exposure (latency 2-3 years, often MLL rearrangements)
+- **Antecedent hematologic disease:** MDS → AML transformation (~30% of AML); MDS-related AML has TP53 mutations, del(5q), del(7q), complex karyotype, and is treated differently (CPX-351 liposomal cytarabine/daunorubicin FDA-approved for secondary AML)
+- **Myeloproliferative neoplasms:** Polycythemia vera, essential thrombocythemia, myelofibrosis → blast phase AML; JAK2-mutant → JAK2 V617F often retained in transformed AML
+- **Germline predisposition (~5-10% of all AML):**
+  - *RUNX1* germline → Familial platelet disorder + AML predisposition
+  - *CEBPA* germline (N-terminal) → familial AML
+  - *DDX41* germline → predominantly myeloid malignancies in older adults (~4% of AML); autosomal dominant; splicing factor mutations are a hallmark
+  - *GATA2* germline → GATA2 deficiency syndrome → immune deficiency + MDS/AML
+  - Down syndrome (trisomy 21) → GATA1 somatic mutation → transient myeloproliferative disorder (TMD) in neonates → AML in 20% of TMD if untreated; GATA1-mutant DS-AML is exquisitely chemosensitive
+
+**The WHO 2022 and ELN 2022 classification:**
+- WHO 2022 replaces the blast threshold approach with genotype-first classification:
+  - *AML with defining genetic abnormalities:* t(8;21)/RUNX1-RUNX1T1; inv(16)/t(16;16)/CBFB-MYH11; t(15;17)/PML-RARA (APL); t(9;11)/KMT2A-MLLT3; t(6;9)/DEK-NUP214; NPM1 mutation; CEBPA mutation (biallelic or bZIP-domain); TP53 biallelic mutation (AML-TP53); IDH1/2 mutations (with specific co-mutations)
+  - *AML not otherwise specified (NOS):* When none of the above define the entity
+
+## Structure
+
+### Bone marrow and blast biology
+
+**Normal myelopoiesis:**
+- HSC (CD34+/CD38-/Lin-) → MPP → CMP (common myeloid progenitor) → GMP (granulocyte-monocyte progenitor) → monocytes or neutrophils/granulocytes; AML arises from HSC or early progenitor with acquisition of "driver" mutations → differentiation block at GMP or promyelocyte stage (depending on subtype)
+- **Morphological classification (AML FAB M0-M7):** M0 (undifferentiated), M1 (minimal maturation), M2 (maturation — most common), M3 (APL, promyelocytic), M4 (myelomonocytic), M5 (monocytic), M6 (erythroid), M7 (megakaryoblastic); WHO 2022 largely superseded FAB but FAB terminology persists clinically
+
+**Leukemic stem cells (LSCs):**
+- AML LSCs (CD34+/CD38-/CD123+/TIM-3+) are rare (0.01-0.1% of blasts) but self-renewing and chemotherapy-resistant; LSCs reside in hypoxic endosteal niches (CXCL12-rich) and are quiescent during induction → survive → give rise to MRD and relapse
+- **LSC targeting strategies:** CD33 (gemtuzumab ozogamicin ADC), CD123 (IMGN632, flotetuzumab), CD47 ("don't eat me" signal — magrolimab), CLL-1 (emerging target); FLT3 inhibitors partially target LSCs (FLT3+ LSCs)
+- **BCL-2 in LSC survival:** LSCs depend on BCL-2 for survival in the bone marrow niche → venetoclax disrupts BCL-2/BIM interaction → LSC apoptosis; LSCs have low OXPHOS metabolism → venetoclax (which requires OXPHOS) selectively kills LSCs
+
+**Molecular pathogenesis:**
+AML requires cooperative mutations in at least 2 functional categories (Gilliland-Druker model):
+- **Class I:** Activation of proliferation (FLT3-ITD, KRAS/NRAS, KIT D816V) — alone insufficient for AML
+- **Class II:** Impaired differentiation (RUNX1-RUNX1T1, CBFB-MYH11, PML-RARA, NPM1, CEBPA, IDH1/2) — alone insufficient for AML
+- **Epigenetic modifiers (Class III):** DNMT3A, TET2, IDH1/2, ASXL1, EZH2 — often in ancestral clones predating AML, also seen in CHIP (clonal hematopoiesis of indeterminate potential)
+
+## Function
+
+### Clinical presentation and diagnosis
+
+**Presentation:**
+- **Bone marrow failure symptoms:** Anemia (fatigue, pallor, dyspnea), thrombocytopenia (petechiae, bruising, mucosal bleeding — gum bleeding in monocytic AML), neutropenia (febrile, infection — often presenting illness)
+- **Leukostasis:** WBC >50,000-100,000/μL → viscous blood → pulmonary and cerebral capillary plugging → dyspnea, hypoxemia, altered consciousness; emergency leukapheresis or hydroxyurea cytoreduction
+- **Tissue infiltration:** Gingival hyperplasia (AML M4/M5 monocytic subtypes — monocytes home to gingiva); skin (leukemia cutis); CNS (rare in AML vs. ALL; more common in monocytic/M4-M5); chloroma (extramedullary myeloid tumor at any site)
+- **APL emergency (M3):** Coagulopathy (DIC, hyperfibrinolysis) from promyelocyte granule contents (tissue factor, annexin II); bleeding → ICH is the leading cause of early death in APL; ATRA must be started immediately upon APL suspicion before genetic confirmation
+
+**Diagnostic workup:**
+- **CBC/peripheral smear:** Blasts on smear; cytopenia(s); circulating blasts ≥20% → AML by WHO (blast threshold); some WHO 2022 entities diagnosed with <20% if genetic abnormality present (e.g., NPM1-mutant)
+- **Bone marrow biopsy and aspirate:** Morphology; blast count; immunohistochemistry (CD34, MPO, TDT)
+- **Flow cytometry (immunophenotyping):** Myeloid markers: CD13, CD33, CD117 (KIT), MPO, CD34, CD38, HLA-DR; monocytic: CD14, CD64, CD11b; megakaryoblastic: CD41/61; erythroid: CD71, glycophorin A; aberrant antigen expression → measurable residual disease (MRD) tracking
+- **Cytogenetics (karyotype):** FISH and conventional G-banded; 24-48 hrs; t(8;21), inv(16), t(15;17) = core-binding factor AML (CBF-AML) → favorable; del(5q), del(7), complex karyotype (≥3 abnormalities) → adverse; results critical for ELN 2022 risk stratification
+- **Molecular profiling (NGS):** FLT3-ITD/TKD, NPM1, CEBPA, IDH1, IDH2, DNMT3A, TP53, RUNX1, ASXL1, SRSF2, SF3B1, STAG2, RAD21; required for ELN 2022 risk group and therapeutic decisions; FLT3 and NPM1 simultaneously tested (co-mutation common)
+- **MRD assessment:** NPM1-PCR (most sensitive; 1 mutation/10^6 normal cells) or multicolor flow cytometry (10^-4 sensitivity); MRD negativity after induction/consolidation → lower relapse risk; MRD-guided treatment adaptation (alloSCT decision, maintenance)
+
+**ELN 2022 risk stratification:**
+- **Favorable:** t(8;21)/RUNX1-RUNX1T1; inv(16)/CBFB-MYH11; NPM1-mutant (without FLT3-ITD or low AR FLT3-ITD); CEBPA bZIP-domain mutation; 5-year OS ~65-75%
+- **Intermediate:** NPM1-mutant with FLT3-ITD high AR; NPM1-WT with FLT3-ITD; t(9;11)/KMT2A-MLLT3; others; 5-year OS ~35-50%
+- **Adverse:** TP53 mutation (biallelic or monoallelic); RUNX1-mutant; ASXL1-mutant; t(6;9)/DEK-NUP214; inv(3)/t(3;3)/GATA2-MECOM; del(5q); del(7); del(17p); complex/monosomal karyotype; 5-year OS <15%
+
+## Pathology
+
+### Diagnosis
+
+**APL diagnosis and management (urgent):**
+- Morphology: Hypergranular promyelocytes with Auer rods ± faggot cells; Microgranular variant (M3v): bilobed/kidney-shaped nuclei, high WBC → leukostasis risk
+- FISH/PCR for PML-RARA: Positive → start ATRA immediately (do not wait for PCR confirmation)
+- **ATRA + ATO (arsenic trioxide) for APL (Lo-Coco 2013, ATRA-ATO):** Standard for non-high-risk APL; CR 100%, 2-year EFS 97% (vs. ATRA-chemo 86%); no chemotherapy needed; differentiation syndrome (ATRA syndrome) — rapid promyelocyte differentiation → capillary leak → pulmonary infiltrates/fever → dexamethasone; ATO-ATRA also FDA-approved for high-risk APL (WBC >10,000 — add gemtuzumab ozogamicin)
+
+### Treatment
+
+**Fit patients (ECOG PS 0-2, age <75 with adequate organ function) — standard induction:**
+- **7+3 induction:** Cytarabine 100-200 mg/m² continuous IV infusion × 7 days + daunorubicin 60-90 mg/m² × 3 days; CR ~65-80%; refractory AML (~10%) → salvage
+- **7+3 + midostaurin** (for FLT3-mutant AML; RATIFY trial): Addition of midostaurin 50 mg BID days 8-21 of each cycle → OS benefit [^stone-2017-midostaurin]; standard for FLT3-mutant newly diagnosed AML
+- **CPX-351 (Vyxeos)** — liposomal cytarabine:daunorubicin (5:1 molar ratio): Preferred induction for therapy-related AML and AML-MRC (MDS-related changes or AML with MDS defining mutations); CPX-351 trial: OS 9.56 vs. 5.95 months vs. 7+3 in secondary AML; FDA-approved 2017
+- **Gemtuzumab ozogamicin (GO, Mylotarg):** Anti-CD33 ADC; added to 7+3 for de novo AML (CBF-AML benefit; ALFA 0701 trial); AAML1031 (pediatric CBF-AML) — major benefit; FDA-approved 2017 (re-approved after voluntary withdrawal)
+
+**Consolidation after CR:**
+- **Favorable risk (CBF-AML):** High-dose cytarabine (HiDAC, 3 g/m² q12h × 6 doses) × 3-4 cycles ± GO; alloSCT only in first relapse or MRD-positive disease
+- **Intermediate/adverse risk:** AlloSCT in first CR (CR1) is standard; HLA typing at diagnosis; MRD status after induction guides alloSCT urgency; FLT3-ITD high AR → alloSCT + gilteritinib or midostaurin maintenance
+- **MRD-guided approach:** NPM1-PCR MRD negativity after consolidation → continue without alloSCT in favorable/intermediate risk; NPM1-PCR MRD positive → alloSCT
+
+**Older/unfit patients — venetoclax-based therapy [^dinardo-2020-viale-a]:**
+- **Venetoclax + azacitidine (Ven+Aza, VIALE-A trial):** CR+CRi 36.7% vs. 17.9%; OS 14.7 vs. 9.6 months; FDA-approved 2020 for newly diagnosed AML in adults ≥75 or unfit; standard of care; tumor lysis syndrome (TLS) prophylaxis required; grade 3-4 neutropenia nearly universal
+- **Venetoclax + decitabine:** Alternative to azacitidine; similar CR rates
+- **Venetoclax + gilteritinib** (for FLT3-mutant AML in older/unfit patients): Under clinical investigation; early phase response rates promising
+- **Glasdegib + cytarabine (BRIGHT 1003):** Hedgehog (SMO) inhibitor + LDAC for unfit AML; modest OS benefit; FDA-approved 2018
+
+**Targeted therapies in AML:**
+- **Midostaurin + 7+3:** FLT3-mutant, fit; RATIFY OS benefit; FDA-approved 2017 [^stone-2017-midostaurin]
+- **Quizartinib + 7+3:** FLT3-ITD, fit; QuANTUM-First OS benefit; FDA-approved 2023
+- **Gilteritinib (R/R FLT3-mutant):** ADMIRAL OS 9.3 vs. 5.6 months; FDA-approved 2018 [^perl-2019-gilteritinib — referenced via flt3 entry]
+- **Enasidenib (IDH2-mutant R/R):** IDH2 inhibitor → 2-HG reduction → differentiation; ORR 40.3%, CR 19.3% (AGILE-2 trial) [^stein-2017-enasidenib]; FDA-approved 2017; differentiation syndrome (IDH-DS) — corticosteroids required
+- **Ivosidenib (IDH1-mutant):** IDH1 inhibitor; FDA-approved 2018 for R/R IDH1-mutant AML; enasidenib + azacitidine and ivosidenib + azacitidine frontline trials showed CR benefit
+- **Olutasidenib (IDH1-mutant R/R):** Second-generation IDH1 inhibitor; FDA-approved 2022
+- **Revumenib (KMT2A-r or NPM1-mutant R/R):** Menin-MLL interaction inhibitor; ORR 23%, CR 17%; FDA-approved 2024 for R/R KMT2A-r or NPM1-mutant AML (AUGMENT-101)
+
+**Relapsed/Refractory AML:**
+- **FLAG-IDA** (fludarabine + cytarabine + G-CSF + idarubicin): Standard salvage; CR2 ~40-50% in first relapse
+- **AlloSCT after CR2:** Only curative option; outcomes determined by remission status at transplant and cytogenetics
+- **Gilteritinib (FLT3-mutant):** Monotherapy or + venetoclax
+- **Venetoclax-based combinations:** Ven+Aza, Ven+decitabine; CR rates ~40-50% in venetoclax-naive; much lower in venetoclax-resistant (MCL-1-driven)
+- **Magrolimab (anti-CD47) + azacitidine:** "Don't eat me" signal blockade → macrophage phagocytosis of AML blasts; TP53-mutant AML (ENHANCE-2 trial) — ongoing; early signal in TP53-mutant disease
+- **Pivekimab sunirine (IMGN632):** Anti-CD123 ADC (IGN with DGN462 pyrrolobenzodiazepine payload); activity in R/R AML
+
+## Connections
+
+- `connects-to` → **[FLT3](../../03-molecular/flt3/README.md)** — FLT3-ITD (~25-30%) and FLT3-TKD (~7-10%) are the most common actionable AML mutations; midostaurin + 7+3 chemotherapy improves OS in FLT3-mutant AML (RATIFY trial); gilteritinib improves OS vs. salvage chemo in R/R FLT3-mutant AML; quizartinib now approved in frontline FLT3-ITD.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC is amplified and overexpressed in AML; FLT3-ITD and NPM1 mutations upregulate MYC via STAT5/HOXA9; MYC drives LSC self-renewal; BET bromodomain inhibitors (JQ1, ABBV-075) suppress MYC transcription in AML; menin inhibitors downregulate HOXA9-MYC axis in KMT2A-r and NPM1-mutant AML.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 is overexpressed in ~80% of AML blasts; venetoclax (BCL-2 inhibitor) + azacitidine (VIALE-A) improved OS vs. azacitidine alone in untreated AML (14.7 vs. 9.6 months); venetoclax sensitivity correlates with BCL-2/MCL-1 ratio; MCL-1 upregulation is the primary venetoclax resistance mechanism.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations in ~7% of de novo AML and ~30% of therapy-related AML; TP53-mutant AML is highly drug-resistant; decitabine/azacitidine + venetoclax modestly active; magrolimab (anti-CD47) + azacitidine showed activity; eprenetapopt (APR-246) refolded mutant p53 but phase 3 trials negative.
+
+[^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
+[^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
+[^stein-2017-enasidenib]: Stein EM, DiNardo CD, Pollyea DA, et al. Enasidenib in mutant IDH2 relapsed or refractory acute myeloid leukemia. *Blood.* 2017;130(6):722-731. [doi:10.1182/blood-2017-04-779405](https://doi.org/10.1182/blood-2017-04-779405) · [PubMed 28588020](https://pubmed.ncbi.nlm.nih.gov/28588020/)
