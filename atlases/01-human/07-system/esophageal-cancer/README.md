@@ -1,0 +1,182 @@
+---
+schema: human-scale-entry/v1
+id: esophageal-cancer
+name: Esophageal Cancer
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Esophageal cancer includes ESCC (squamous, smoking/alcohol) and EAC (adenocarcinoma, Barrett's/HER2+ ~15%); nivolumab+chemotherapy (CheckMate 648) is first-line for ESCC; trastuzumab+chemotherapy (ToGA) and T-DXd for HER2+ EAC; 5-year OS ~20%."
+aliases: ["esophageal cancer", "ESCC", "esophageal squamous cell carcinoma", "EAC", "esophageal adenocarcinoma", "Barrett's esophagus cancer", "GEJ cancer", "gastroesophageal junction cancer", "CheckMate 648", "ATTRACTION-3"]
+sources:
+  - id: doki-2022-checkmate648
+    type: peer-reviewed
+    cite: "Doki Y, Ajani JA, Kato K, et al. Nivolumab combination therapy in advanced esophageal squamous-cell carcinoma. N Engl J Med. 2022;386(5):449-462."
+    doi: "10.1056/NEJMoa2111380"
+    pmid: "35108470"
+    url: "https://doi.org/10.1056/NEJMoa2111380"
+  - id: kato-2019-attraction3
+    type: peer-reviewed
+    cite: "Kato K, Cho BC, Takahashi M, et al. Nivolumab versus chemotherapy in patients with advanced oesophageal squamous cell carcinoma refractory or intolerant to previous chemotherapy (ATTRACTION-3): a multicentre, randomised, open-label, phase 3 trial. Lancet Oncol. 2019;20(11):1506-1517."
+    doi: "10.1016/S1470-2045(19)30626-6"
+    pmid: "31582355"
+    url: "https://doi.org/10.1016/S1470-2045(19)30626-6"
+cross_links:
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "NFE2L2/NRF2 gain-of-function mutations in ~15% of ESCC; NRF2 activation → chemotherapy/platinum resistance; may predict IO benefit via altered immune microenvironment; KEAP1 loss also activates NRF2; no approved targeted NRF2 inhibitor for esophageal."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Nivolumab + cisplatin/5-FU (CheckMate 648: OS 13.2 vs 10.7 months, CPS≥1; FDA 2022) and pembrolizumab + chemo (KEYNOTE-590) are first-line for ESCC; nivolumab monotherapy (ATTRACTION-3: OS 10.9 vs 8.4 months) is second-line; PD-L1 CPS≥10 enriches benefit."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "HER2 overexpression in ~15-20% of EAC; trastuzumab + cisplatin/5-FU (ToGA: OS 13.8 vs 11.1 months, FDA 2010) first-line; trastuzumab deruxtecan (T-DXd, DESTINY-Gastric02) for HER2+ 2nd-line; pembrolizumab+trastuzumab+chemo (KEYNOTE-811) also approved."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Ramucirumab (VEGFR2 monoclonal) + paclitaxel is second-line standard for gastric/GEJ/EAC (REGARD, RAINBOW trials); bevacizumab studied but not approved for esophageal; VEGF overexpression common in ESCC (~40%) and EAC; angiogenesis contributes to poor prognosis."
+---
+
+# Esophageal Cancer
+
+## Overview
+
+**Esophageal cancer** is the seventh most common cancer worldwide and sixth leading cause of cancer mortality (~600,000 deaths/year globally), with striking geographic heterogeneity and two biologically distinct histological subtypes: **esophageal squamous cell carcinoma (ESCC)** and **esophageal adenocarcinoma (EAC)**. ESCC predominates globally (~85% worldwide) and is especially common in the **"esophageal cancer belt"** spanning Iran, Central Asian countries, and China's Taihang Mountain corridor, where environmental factors (hot tea drinking, nutritional deficiencies, aflatoxin, tobacco) conspire with genetic susceptibility. EAC predominates in Western countries (~70% of USA cases) and arises from **Barrett's esophagus** — intestinal metaplasia of the lower esophagus driven by chronic gastroesophageal reflux disease (GERD). Both subtypes are treated with platinum/fluoropyrimidine-based chemotherapy, but molecular profiling has revealed distinct targetable alterations: **NFE2L2/KEAP1** in ESCC; **HER2 amplification (~15-20%)** and **FGFR2** in EAC. The addition of immunotherapy (PD-1/PD-L1 blockade) to first-line chemotherapy has become standard for advanced ESCC [^doki-2022-checkmate648] [^kato-2019-attraction3].
+
+**Epidemiology:**
+- Global: ~600,000 deaths/year; ESCC dominant globally (China, Iran, Sub-Saharan Africa, Eastern Africa); EAC dominant in USA, UK, Australia, Northern Europe
+- USA: ~22,000 new cases/year; ~16,000 deaths/year; EAC ~70%, ESCC ~30%; 5-year OS ~20%
+- ESCC risk factors: Cigarette smoking (RR ~4-8), alcohol (synergistic with tobacco; RR ~5 for heavy use), hot beverage consumption (>65°C), low intake of fruits/vegetables, nutritional deficiencies (retinol/β-carotene, zinc, selenium), HPV in a subset (~20% in high-incidence regions), tylosis (keratoderma palmoplantaris, RHBDF2 germline mutations → near 100% ESCC lifetime risk)
+- EAC risk factors: Chronic GERD (OR ~5-6 for frequent/severe GERD → Barrett's → EAC), obesity/central adiposity (OR ~2-3 per 5 kg/m² BMI increase), smoking (~1.5-fold increased risk), H. pylori negative (paradoxically — H. pylori reduces GERD and is protective for EAC), male sex (male:female 8:1 for EAC)
+
+**Molecular landscape by subtype:**
+
+*ESCC-specific alterations:*
+- TP53 mutations: ~90%
+- NFE2L2 gain-of-function: ~15%; KEAP1 loss: ~5%
+- PIK3CA: ~15%
+- CDKN2A deletion/methylation: ~45%
+- SOX2, TP63 amplification: ~15-30% (squamous lineage TFs)
+- FGFR1 amplification: ~20%
+- EGFR overexpression/amplification: ~30%
+- CCND1 amplification: ~25%
+
+*EAC-specific alterations:*
+- TP53 mutations: ~65%
+- CDKN2A deletion: ~35%
+- ERBB2 (HER2) amplification: ~15-20%
+- FGFR2 amplification: ~7%
+- EGFR amplification: ~8%
+- KRAS amplification: ~5%
+- MYC amplification: ~10%
+- Chromosomal instability (CIN): Very high in EAC (50+ chromosomal copy number changes/tumor); mutational signatures: SBS17 (5-FU-related), SBS2/13 (APOBEC)
+
+## Structure
+
+### Barrett's esophagus and EAC carcinogenesis
+
+**Barrett's esophagus (BE):**
+Replacement of normal stratified squamous esophageal epithelium with specialized intestinal metaplasia (SIM: columnar epithelium with goblet cells) in the distal esophagus in response to chronic acid (HCl) and bile reflux injury. BE affects ~5-6% of adults with GERD symptoms and ~2% of the general population. Annual risk of EAC from non-dysplastic BE: ~0.3-0.5%/year; low-grade dysplasia (LGD): ~0.7%/year; high-grade dysplasia (HGD): ~7-10%/year → ablation or resection. Barrett's surveillance: Upper endoscopy with 4-quadrant biopsies q2 cm (Seattle protocol) every 3-5 years for non-dysplastic BE, every 6-12 months for LGD, q3 months for confirmed HGD.
+
+**Molecular progression of BE → EAC:**
+TP53 mutation (early; present in ~65% of BE with HGD) → CDKN2A loss (methylation/deletion) → telomere dysfunction → chromosomal instability → amplification of 8q24 (MYC), 17q12 (HER2), 7p12 (EGFR) → KRAS activation → EAC. This mutational timeline (TP53 → CIN → amplifications) differs from ESCC (squamous field cancerization, TF amplification).
+
+### ESCC tumor biology and NFE2L2/KEAP1
+
+**Squamous field cancerization:**
+ESCC arises in a background of diffuse squamous dysplasia throughout the esophagus (analogous to oral/oropharyngeal and lung squamous field cancerization from tobacco/alcohol); TP53 mutations are early events; NFE2L2, PIK3CA, NOTCH1 mutations follow; chromosomal instability occurs later; multisite ESCC (synchronous primary tumors) in ~5% — a challenge for staging and treatment.
+
+**NFE2L2 mutations in ESCC:**
+E79K hotspot (most common in ESCC) alters the Neh2-ETGE motif → impaired KEAP1 binding → constitutive NRF2 nuclear translocation → antioxidant target gene upregulation (SLC7A11, HO-1, NQO1, GCLC, GPX2) → resistance to cisplatin + 5-FU → platinum-containing regimens have reduced efficacy in NFE2L2-mutant ESCC; molecular testing for NFE2L2 mutations may inform first-line chemotherapy vs. immunotherapy selection.
+
+**ESCC tumor microenvironment:**
+- PD-L1: Expressed in ~30-45% of ESCC tumors (CPS ≥1); CPS ≥10 enriched for PD-1 immunotherapy benefit; expression driven by IFN-γ from CD8+ TILs and JAK-STAT signaling
+- Mismatch repair (MMR) deficiency: ~2% of ESCC; pembrolizumab tumor-agnostic approved
+- TMB-high (≥10 mutations/Mb): ~10-15% of ESCC
+
+## Function
+
+### Normal esophageal epithelium
+
+The esophagus is lined by non-keratinizing stratified squamous epithelium from cricoid cartilage to the Z-line (squamocolumnar junction, SCJ) at the gastroesophageal junction; columnar gastric epithelium begins in the stomach. Physiological roles: Mechanical protection (stratified squamous withstands abrasion from food bolus); peristaltic transport (striated muscle in upper third, smooth muscle in lower two-thirds, coordinated by enteric/vagal input); lower esophageal sphincter (LES) prevents reflux (tone maintained by myogenic activity + gastrin/cholecystokinin hormones). Normal renewal: Stratified squamous epithelium turns over every 7-14 days from basal stem cells expressing TP63 and KRT5/14.
+
+## Pathology
+
+### Diagnosis and staging
+
+**Clinical presentation:**
+- Dysphagia (progressive solid then liquid): Cardinal symptom (~90% of presenting patients); indicates >50% luminal obstruction
+- Odynophagia, weight loss, anorexia (systemic)
+- Hematemesis or melena: Advanced or ulcerated tumor
+- Voice hoarseness: Recurrent laryngeal nerve invasion (left RLN courses around aortic arch → locoregionally advanced ESCC)
+- Horner's syndrome, pleural effusion, respiratory-GI fistula: T4b disease
+
+**Staging workup:**
+- Upper endoscopy (EGD) + biopsy: Endoscopic appearance; biopsy for histology; chromoendoscopy (Lugol's iodine for ESCC: normal squamous = brown, dysplastic = unstained "Lugol-voiding")
+- CT chest/abdomen/pelvis: Locoregional extension, lung/liver/adrenal mets
+- PET/CT: Mediastinal nodes, distant mets
+- Endoscopic ultrasound (EUS): T and N staging; most accurate for depth of invasion (T1-T4); EUS-guided FNA of suspicious nodes
+- Bronchoscopy: Upper/mid ESCC ≥26 cm from incisors → tracheobronchomal fistula risk assessment; biopsy subcarinal nodes
+- MRI brain: Not routine unless neurological symptoms
+
+**AJCC 8th staging:**
+T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; T3: Adventitia; T4a: Resectable adjacent structures (pleura, pericardium, azygos, diaphragm, peritoneum); T4b: Unresectable (aorta, vertebral body, trachea, adjacent organ). N1: 1-2 regional nodes; N2: 3-6; N3: ≥7. M1: Distant metastases. Clinical staging (cTNM) differs from pathological (pTNM).
+
+**Molecular testing recommendations:**
+- HER2 IHC/FISH: All locally advanced/metastatic EAC and GEJ adenocarcinoma; HER2 IHC 3+ or IHC 2+/FISH+ → targeted therapy
+- PD-L1 CPS: ESCC and EAC; CPS ≥1, ≥10 thresholds used for drug selection
+- MMR/MSI: All patients
+- TMB: Optional; pembrolizumab tumor-agnostic for TMB-H ≥10 mutations/Mb
+- NGS panel: NFE2L2, KEAP1, PIK3CA, FGFR1 (ESCC); HER2, FGFR2, KRAS, TP53 (EAC) — informs clinical trial eligibility
+
+### Treatment by stage and subtype
+
+**Localized resectable disease (T1b-T3 N0-N1, potentially T4a):**
+- **Perioperative chemotherapy (EAC/GEJ):** FLOT regimen (docetaxel + oxaliplatin + 5-FU/leucovorin × 4 cycles pre + 4 cycles post-surgery): FLOT4 trial: OS 50 vs 35 months vs ECF (European perioperative standard); preferred for gastric/GEJ/EAC
+- **Preoperative chemoradiation (ESCC and EAC):** CROSS trial (carboplatin + paclitaxel + 41.4 Gy): OS 49.4 vs 24.0 months for EAC (NEJM 2012); also active in ESCC; trimodality therapy (CRT + surgery) is standard for T2+ ESCC in USA
+- **Definitive CRT (ESCC, unresectable/refused surgery):** Cisplatin/5-FU + 50.4 Gy; salvage surgery after CRT failure in selected centers
+- **Adjuvant nivolumab (CheckMate 577):** After neoadjuvant CRT + R0 resection with ypN+ or ypT1+ residual disease: DFS 22.4 vs 11.0 months; FDA approved 2021; 1 year nivolumab maintenance post-surgery
+
+**Advanced/Metastatic ESCC — First-line:**
+
+**Nivolumab + cisplatin/5-FU or paclitaxel (CheckMate 648, FDA 2022):** [^doki-2022-checkmate648]
+- 970 patients advanced ESCC; nivolumab 240 mg q2w + cisplatin 80 mg/m² q3w + 5-FU 800 mg/m²/day (d1-5)
+- PD-L1 CPS ≥1 (72% of patients): OS 13.2 vs 10.7 months (HR 0.76); CPS ≥1 PFS: 6.9 vs 4.4 months
+- All comers: OS 13.3 vs 10.0 months; all PFS 6.0 vs 4.4 months
+- FDA approved nivolumab + chemo (CPS ≥1) AND nivolumab + ipilimumab (CPS ≥1: OS 13.7 vs 9.1 months, HR 0.64) as first-line for ESCC
+- **Pembrolizumab + cisplatin/5-FU (KEYNOTE-590):** ESCC (CPS ≥10): OS 13.9 vs 8.8 months; all ESCC: OS 12.6 vs 9.8 months; FDA 2021
+
+**Advanced/Metastatic EAC — First-line:**
+- **Pembrolizumab + chemotherapy (KEYNOTE-590/KEYNOTE-811):** Pembrolizumab + 5-FU/cisplatin for EAC/GEJ; HER2-negative: pembrolizumab + FOLFOX or FP
+- **HER2+ EAC:** Trastuzumab + cisplatin/5-FU (ToGA trial: OS 13.8 vs 11.1 months); add pembrolizumab (KEYNOTE-811 triplet: nivolumab/pembrolizumab + trastuzumab + chemo); T-DXd for 2nd-line HER2+ (DESTINY-Gastric01: ORR 51%)
+- **Nivolumab + chemo (CheckMate 649 includes GEJ/EAC):** CPS ≥5: OS 14.4 vs 11.1 months; CPS ≥1: 13.8 vs 11.6 months
+
+**Second-line (post-platinum ESCC):**
+
+**Nivolumab monotherapy (ATTRACTION-3, FDA 2019):** [^kato-2019-attraction3]
+- 419 platinum-refractory ESCC; nivolumab 240 mg q2w vs. investigator-choice (taxane or irinotecan)
+- OS 10.9 vs 8.4 months (HR 0.77); PFS similar; ORR 19.3% vs 22.2%; duration of response longer with nivolumab
+- FDA approved for all ESCC patients post-platinum regardless of PD-L1 status
+
+**Pembrolizumab (KEYNOTE-181):** CPS ≥10: OS 10.3 vs 6.7 months; FDA approved for CPS ≥10 ESCC 2nd+ line.
+
+**Ramucirumab (VEGFR2) + paclitaxel:** RAINBOW trial (gastric/GEJ) extended to EAC; OS 9.6 vs 7.4 months; FDA approved for gastric/GEJ including EAC 2nd-line.
+
+**Salvage/3rd-line:**
+- Irinotecan (ORR ~10-15%)
+- TAS-102 (trifluridine/tipiracil): Early data in ESCC
+- Clinical trial: FGFR1 inhibitors in FGFR1-amplified ESCC (futibatinib, infigratinib); NRF2 pathway inhibitors
+
+**Endoscopic resection for early ESCC/EAC:**
+- T1a (lamina propria): Endoscopic mucosal resection (EMR) or endoscopic submucosal dissection (ESD) → curative for T1a ESCC; recurrence risk <3%
+- T1b (submucosa): ~35-50% lymph node metastasis risk → surgical esophagectomy or esophagectomy preferred; close follow-up post-EMR/ESD for T1b sm1 (superficial submucosa)
+- Barrett's with HGD: RFA (radiofrequency ablation) or cryoablation after eradication of visible lesions by EMR
+
+## Connections
+
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — NFE2L2/NRF2 gain-of-function mutations in ~15% of ESCC; NRF2 activation → chemotherapy/platinum resistance; may predict IO benefit via altered immune microenvironment; KEAP1 loss also activates NRF2; no approved targeted NRF2 inhibitor for esophageal.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Nivolumab + cisplatin/5-FU (CheckMate 648: OS 13.2 vs 10.7 months, CPS≥1; FDA 2022) and pembrolizumab + chemo (KEYNOTE-590) are first-line for ESCC; nivolumab monotherapy (ATTRACTION-3: OS 10.9 vs 8.4 months) is second-line; PD-L1 CPS≥10 enriches benefit.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — HER2 overexpression in ~15-20% of EAC; trastuzumab + cisplatin/5-FU (ToGA: OS 13.8 vs 11.1 months, FDA 2010) first-line; trastuzumab deruxtecan (T-DXd, DESTINY-Gastric02) for HER2+ 2nd-line; pembrolizumab+trastuzumab+chemo (KEYNOTE-811) also approved.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Ramucirumab (VEGFR2 monoclonal) + paclitaxel is second-line standard for gastric/GEJ/EAC (REGARD, RAINBOW trials); bevacizumab studied but not approved for esophageal; VEGF overexpression common in ESCC (~40%) and EAC; angiogenesis contributes to poor prognosis.
+
+[^doki-2022-checkmate648]: Doki Y, Ajani JA, Kato K, et al. Nivolumab combination therapy in advanced esophageal squamous-cell carcinoma. *N Engl J Med.* 2022;386(5):449-462. [doi:10.1056/NEJMoa2111380](https://doi.org/10.1056/NEJMoa2111380) · [PubMed 35108470](https://pubmed.ncbi.nlm.nih.gov/35108470/)
+[^kato-2019-attraction3]: Kato K, Cho BC, Takahashi M, et al. Nivolumab versus chemotherapy in patients with advanced oesophageal squamous cell carcinoma refractory or intolerant to previous chemotherapy (ATTRACTION-3). *Lancet Oncol.* 2019;20(11):1506-1517. [doi:10.1016/S1470-2045(19)30626-6](https://doi.org/10.1016/S1470-2045(19)30626-6) · [PubMed 31582355](https://pubmed.ncbi.nlm.nih.gov/31582355/)
