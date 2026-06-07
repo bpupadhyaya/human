@@ -1,0 +1,156 @@
+---
+schema: human-scale-entry/v1
+id: mds
+name: Myelodysplastic Syndromes
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Myelodysplastic syndromes are clonal hematopoietic disorders with cytopenias and dysplasia; SF3B1, DNMT3A, TET2, and TP53 mutations define subtypes. Azacitidine+venetoclax is higher-risk standard; luspatercept approved for SF3B1-mutant MDS; allo-SCT is the only cure."
+aliases: ["MDS", "myelodysplastic syndrome", "myelodysplasia", "MDS-EB", "refractory anemia", "IPSS-R", "azacitidine MDS", "hypomethylating agent MDS", "SF3B1 MDS", "MDS-MPN"]
+sources:
+  - id: fenaux-2009-aza001
+    type: peer-reviewed
+    cite: "Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes: a randomised open-label phase III study. Lancet Oncol. 2009;10(3):223-232."
+    doi: "10.1016/S1470-2045(09)70003-8"
+    pmid: "19230772"
+    url: "https://doi.org/10.1016/S1470-2045(09)70003-8"
+  - id: fenaux-2020-medalist
+    type: peer-reviewed
+    cite: "Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. N Engl J Med. 2020;382(2):140-151."
+    doi: "10.1056/NEJMoa1908892"
+    pmid: "31914241"
+    url: "https://doi.org/10.1056/NEJMoa1908892"
+cross_links:
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A mutations in ~20% of MDS and ~40% of CHIP; DNMT3A is the most commonly mutated gene in clonal hematopoiesis; CHIP-to-MDS progression involves co-mutation of DNMT3A with TET2, ASXL1, or splicing factors (SF3B1, SRSF2); DNMT3A R882H is the dominant hotspot."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2 loss-of-function mutations in ~6% of MDS; EZH2 and DNMT3A/TET2 mutations co-occur in MDS, compounding epigenetic deregulation; EZH2 deletion/mutation is an adverse prognostic factor in MDS; tazemetostat is not currently approved for MDS."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 biallelic mutations define ultra-high risk MDS (WHO 2022: MDS-biTP53); monosomal karyotype; median OS <1 year; venetoclax+azacitidine has limited activity in TP53-mutant MDS; eprenetapopt (p53 reactivator)+azacitidine showed CR ~35% in Phase 2."
+  - target: 01-human/03-molecular/idh2
+    relation: connects-to
+    note: "IDH1/2 mutations in ~10% of MDS (IDH1 ~5%, IDH2 ~5%); 2-HG → TET2 inhibition → hypermethylation amplifies DNMT3A epigenetic dysfunction; ivosidenib (IDH1) and enasidenib (IDH2) active in IDH-mutant MDS; FDA-approved in AML, under investigation in MDS."
+---
+
+# Myelodysplastic Syndromes
+
+## Overview
+
+**Myelodysplastic syndromes (MDS)** are a heterogeneous group of clonal hematopoietic stem cell (HSC) disorders characterized by ineffective hematopoiesis, peripheral blood cytopenias, bone marrow dysplasia, and variable risk of transformation to acute myeloid leukemia (AML). MDS is fundamentally an epigenetic and splicing disorder — most driver mutations affect DNA methylation (DNMT3A, TET2, IDH1/2), chromatin remodeling (ASXL1, EZH2, SRSF2-cohesin), or RNA splicing (SF3B1, SRSF2, U2AF1, ZRSR2) — converging on dysplastic differentiation, ineffective erythropoiesis, and immune evasion by pre-leukemic clones. MDS affects ~15,000-20,000 Americans per year; the median age at diagnosis is 70-75 years; it is more common in males (1.5:1). Prognosis varies enormously from near-normal life expectancy in very-low-risk disease to <1 year in high-risk MDS-EB2. Allogeneic stem cell transplantation is the only potentially curative treatment. The approval of azacitidine (AZA-001 trial, 2009) and subsequently venetoclax+azacitidine (2024) and luspatercept (2020) has transformed the therapeutic landscape [^fenaux-2009-aza001] [^fenaux-2020-medalist].
+
+**Epidemiology and risk factors:**
+- Incidence: ~15,000-20,000 new cases/year USA; prevalence ~60,000; rising with aging population
+- Risk factors: Prior chemotherapy or radiation (therapy-related MDS, t-MDS; ~10-15% of MDS; typically presents 2-7 years after alkylating agents or radiation, or 1-3 years after topoisomerase II inhibitors); older age (median onset 70 years); benzene/organic solvent exposure; congenital syndromes (Fanconi anemia, Diamond-Blackfan, Shwachman-Diamond, dyskeratosis congenita); CHIP → MDS progression (especially DNMT3A, TET2, ASXL1 CHIP); germline predisposition syndromes (GATA2, DDX41, RUNX1 germline variants → familial MDS/AML)
+
+**Molecular landscape:**
+- **Splicing factor mutations (~50% of MDS total):** SF3B1 (25%; ring sideroblasts, favorable prognosis), SRSF2 (15%; chronic myelomonocytic leukemia overlap), U2AF1 (10%; del20q association), ZRSR2 (X-linked; ~5%)
+- **DNA methylation:** DNMT3A (~20%), TET2 (~20%), IDH1/IDH2 (~10%)
+- **Chromatin remodeling:** ASXL1 (~20%; adverse; PRC1 complex loss), EZH2 (~6%; adverse; PRC2 loss), BCOR (~5%), KDM6A
+- **Transcription factors:** RUNX1 (~15%; adverse; AML-RGA defining), ETV6 (~10%)
+- **Cohesins and DNA repair:** STAG2 (~7%), RAD21 (~2%), CTCF; impair sister chromatid cohesion → genomic instability
+- **TP53:** ~10% of MDS; biallelic (MDS-biTP53) = WHO 2022 specific subtype; complex karyotype; worst prognosis
+
+## Structure
+
+### Bone marrow and peripheral blood findings
+
+**Morphological dysplasia:**
+MDS diagnosis requires ≥10% dysplastic cells in ≥1 hematopoietic lineage (erythroid, myeloid, megakaryocytic) on bone marrow aspirate/biopsy:
+- **Erythroid dysplasia:** Nuclear budding, multinucleation, nuclear bridging, ringed sideroblasts (pathological iron deposition around mitochondria in perinuclear ring pattern on Prussian Blue stain; ≥5% ringed sideroblasts = MDS-RS); SF3B1 mutation drives ring sideroblast formation
+- **Myeloid dysplasia:** Hypogranular/agranular neutrophils, Pelger-Huet anomaly (bilobed hyposegmented neutrophils → hypolobated PMNs); pseudo-Pelger-Huet cells; abnormal granulation; monocytoid change
+- **Megakaryocytic dysplasia:** Micromegakaryocytes (small, hypolobated), non-lobulated megakaryocytes, wide-spread nuclear segments; megakaryocyte dysplasia alone is insufficient for MDS diagnosis
+
+**Bone marrow blasts:**
+Myeloid blasts are the critical quantitative threshold determining MDS subtype and prognosis:
+- <5% blasts: MDS (non-EB variants): MDS-LB, MDS-RS, MDS-del5q, MDS-hypo, MDS-SLD/MLD
+- 5-9% blasts: MDS-EB1 (excess blasts 1): High-risk; AML transformation risk ~30% at 2 years
+- 10-19% blasts: MDS-EB2 (excess blasts 2): Very high-risk; treat as AML in many centers; AML transformation risk ~50% at 2 years
+- ≥20% blasts: AML by definition (WHO 2022; ≥20% remains AML threshold; alternative ICC 2022 uses ≥20% for AML unless defining cytogenetics)
+
+**Cytogenetics (key prognostic cytogenetic abnormalities):**
+- Favorable: del(5q) isolated, del(20q), -Y
+- Intermediate: +8, del(7q), del(11q), others
+- Adverse: del(7)/monosomy 7, del(17p), i(17q), complex karyotype (≥3 abnormalities), monosomal karyotype
+- **Monosomal karyotype (MK):** ≥2 autosomal monosomies or 1 monosomy + 1 structural abnormality → extremely adverse (IPSS-R very poor; often concurrent with TP53 biallelic, del(17p))
+- **del(5q) isolated (MDS-del5q):** Haploinsufficiency of RPS14 (ribosomal protein S14) → erythroid maturation defect; lenalidomide is highly effective (TI rate ~67%); favorable prognosis; TP53 mutation acquisition on lenalidomide is a resistance mechanism
+
+### Prognostic scoring
+
+**IPSS-R (International Prognostic Scoring System — Revised, 2012):**
+Five variables: cytogenetic risk (very good/good/intermediate/poor/very poor), hemoglobin, platelet count, ANC, blast percentage. Risk categories: Very Low (<1.5), Low (1.5-3), Intermediate (3-4.5), High (4.5-6), Very High (>6). Median OS from 8.8 years (Very Low) to 0.8 years (Very High). IPSS-R guides treatment decisions (low vs. high risk).
+
+**IPSS-M (Molecular IPSS, 2022):**
+Integrates 31 gene mutation data with 6 clinical variables → more granular risk stratification; reclassifies ~40% of patients compared to IPSS-R; identifies very-low-risk patients with favorable mutations (SF3B1 without co-mutations) and very-high-risk patients with co-mutations (RUNX1+ASXL1, TP53 biallelic). Available online via IPSS-M calculator.
+
+## Function
+
+### Hematopoietic stem cell dysfunction in MDS
+
+**Ineffective hematopoiesis:**
+MDS HSCs undergo clonal expansion and dysplastic differentiation but die within the marrow via accelerated apoptosis of committed progenitors (especially erythroid; TGF-β/activin A → Smad2/3 → GDF11 → GATA1 suppression → erythroid apoptosis; target of luspatercept via activin receptor trap). Peripheral blood cytopenias despite hypercellular marrow (most lower-risk MDS) is the hallmark paradox of MDS — high marrow cellularity with ineffective output.
+
+**MDS immune microenvironment:**
+MDS blasts and dysplastic cells evade immune destruction via:
+- CD47 overexpression ("don't eat me" signal → blocks macrophage phagocytosis → magrolimab (anti-CD47) disrupts this)
+- PD-L1 expression → T-cell exhaustion (pembrolizumab active in MSI-H MDS; azacitidine upregulates PD-L1, may synergize with checkpoint inhibitors)
+- MDS regulatory T-cells and MDSCs suppress anti-tumor immunity
+
+## Pathology
+
+### Diagnosis and clinical presentation
+
+**Clinical presentation:**
+- Symptomatic anemia (most common): Fatigue, pallor, dyspnea; transfusion-dependent anemia in ~50% of lower-risk MDS patients
+- Neutropenia: Recurrent bacterial infections; neutrophil dysfunction (hypogranular PMNs are functionally impaired even when ANC is normal)
+- Thrombocytopenia: Bleeding tendency; ecchymoses; platelet dysfunction independent of count
+- Incidental discovery on CBC: Macrocytosis (MCV >100 in ~60%), hypersegmented or hyposegmented PMNs → CBC prompts bone marrow evaluation
+
+**Diagnostic workup:**
+1. CBC with differential: Cytopenias (1 or more of: Hgb <10, ANC <1800, platelets <100,000)
+2. Peripheral blood smear: Dysplastic PMNs, oval macrocytes, hypogranular neutrophils, blasts
+3. Bone marrow aspirate + biopsy: Dysplasia in ≥10% cells; blast count; ringed sideroblasts; cellularity
+4. Conventional cytogenetics (karyotype): Required; 20-cell metaphase analysis; 50% of MDS have cytogenetic abnormality
+5. FISH: del(5q), del(7q)/monosomy 7, del(20q), +8
+6. Molecular panel: NGS 40-50 gene panel (SF3B1, ASXL1, TET2, DNMT3A, RUNX1, TP53, U2AF1, SRSF2, IDH1/2, EZH2, STAG2) → IPSS-M calculation
+7. Exclude mimics: B12/folate deficiency, copper deficiency, HIV, paroxysmal nocturnal hemoglobinuria (PNH), congenital dyserythropoiesis
+
+### Treatment by risk category
+
+**Lower-risk MDS (IPSS-R Very Low, Low, Intermediate):**
+- **Observation:** Asymptomatic lower-risk MDS; close monitoring with CBC every 3-6 months
+- **Erythropoiesis-stimulating agents (ESAs):** Epoetin alfa or darbepoetin; indicated if endogenous EPO <500 mU/mL; Hgb response in ~40-50%; predictors of response: low serum EPO, low transfusion burden, ≤5% blasts, SF3B1 mutation
+- **Luspatercept (MEDALIST trial, 2020):** [^fenaux-2020-medalist] TGF-β superfamily ligand trap → blocks GDF11/activin A → restores erythroid maturation; MEDALIST: RBC-TI in 38% vs 13% (MDS-RS, prior ESA failure); FDA approved 2020 for lower-risk MDS-RS; COMMANDS trial (luspatercept vs. epoetin alfa first-line): TI rate 58% vs 31% → FDA approved as first-line alternative to ESA (2023)
+- **Lenalidomide (del5q MDS):** FDA 2005; TI rate ~67% in del5q MDS; MDS-005 trial: TI rate 56.1% vs 1.3% placebo; TP53 mutation monitoring required (clonal selection on lenalidomide)
+- **Transfusion support:** Packed red blood cell transfusions for symptomatic anemia; iron chelation (deferasirox, deferoxamine) if chronic transfusion → ferritin >2500 ng/mL or cumulative transfusion burden >20-25 units
+- **Imetelstat (telomerase inhibitor, FDA 2024):** For lower-risk MDS with anemia failing ESA + luspatercept; IMerge: RBC-TI 40% vs 15% (non-del5q, non-RS); first telomerase inhibitor approved for MDS
+
+**Higher-risk MDS (IPSS-R High, Very High):**
+- **Azacitidine (AZA-001):** [^fenaux-2009-aza001] OS 24.5 vs 15.0 months vs conventional care (best supportive care, low-dose cytarabine, or induction chemo); CR rate ~17%; TI rate ~45%; 75 mg/m² days 1-7 q28d; now superseded by combination regimens in fit patients; remains standard for unfit patients
+- **Azacitidine + venetoclax (VIALE-A for AML; NORSE/BeyondSEVEN for MDS):** FDA approved 2024 for HMA-naive higher-risk MDS; CR+CRi ~67% vs 27% (azacitidine alone) in MDS-EB2 similar to AML data; standard of care for fit higher-risk MDS
+- **Decitabine:** Alternative HMA; 20 mg/m² days 1-5 q28d; similar efficacy to azacitidine in indirect comparison; decitabine/cedazuridine (oral decitabine) FDA approved 2020 → same exposure as IV, patient convenience
+- **Induction chemotherapy (7+3):** For MDS-EB2 younger/fit patients (age <70, no significant comorbidities); CR rate ~50-60%; bridge to allo-SCT; appropriate for RUNX1-mutant or favorable-cytogenetic MDS-EB2
+- **Allogeneic SCT:** Only curative option; IPSS-R ≥3.5 (intermediate-high) should be evaluated for transplant; MIPSS70+v2.0 for molecular-informed transplant timing; reduced intensity conditioning for older (>55) patients; 5-year OS ~30-50% depending on risk group
+
+**TP53-mutant MDS (MDS-biTP53):**
+- Venetoclax+azacitidine: Lower activity than TP53-WT (CR ~15-20% vs 60%+); OS remains poor
+- Eprenetapopt (APR-246, p53 reactivator) + azacitidine: Phase 2: CR ~33%, ORR ~58% in MDS-biTP53; Phase 3 confirmatory ongoing
+- Magrolimab (anti-CD47) + azacitidine: Phase 2: ORR ~65% in TP53-mutant MDS; Phase 3 ongoing (clinical hold resolved 2024)
+- Allo-SCT: Poor outcomes in TP53-mutant MDS even post-transplant due to rapid relapse
+
+### AML transformation
+
+MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 years for MDS-EB2. Triggers: acquisition of additional mutations (FLT3-ITD, NRAS/KRAS, IDH2); blast percentage increase; loss of response to HMA (azacitidine failure → median OS 5-6 months; venetoclax+azacitidine re-exposure or CPX-351 or clinical trial). Monitoring: CBC q4-8 weeks on therapy; marrow reassessment at 4-6 cycles of HMA to assess blast response.
+
+## Connections
+
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A mutations in ~20% of MDS and ~40% of CHIP; DNMT3A is the most commonly mutated gene in clonal hematopoiesis; CHIP-to-MDS progression involves co-mutation of DNMT3A with TET2, ASXL1, or splicing factors (SF3B1, SRSF2); DNMT3A R882H is the dominant hotspot.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2 loss-of-function mutations in ~6% of MDS; EZH2 and DNMT3A/TET2 mutations co-occur in MDS, compounding epigenetic deregulation; EZH2 deletion/mutation is an adverse prognostic factor in MDS; tazemetostat is not currently approved for MDS.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 biallelic mutations define ultra-high risk MDS (WHO 2022: MDS-biTP53); monosomal karyotype; median OS <1 year; venetoclax+azacitidine has limited activity in TP53-mutant MDS; eprenetapopt (p53 reactivator)+azacitidine showed CR ~35% in Phase 2.
+- `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH1/2 mutations in ~10% of MDS (IDH1 ~5%, IDH2 ~5%); 2-HG → TET2 inhibition → hypermethylation amplifies DNMT3A epigenetic dysfunction; ivosidenib (IDH1) and enasidenib (IDH2) active in IDH-mutant MDS; FDA-approved in AML, under investigation in MDS.
+
+[^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
+[^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
