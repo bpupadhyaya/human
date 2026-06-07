@@ -1,0 +1,195 @@
+---
+schema: human-scale-entry/v1
+id: li-fraumeni-syndrome
+name: Li-Fraumeni Syndrome
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "Li-Fraumeni syndrome (LFS) is caused by germline TP53 mutations; spectrum of sarcoma, brain tumors, breast cancer, and adrenocortical carcinoma; radiation avoidance is critical; whole-body MRI annual surveillance; TP53 is the most commonly mutated gene in all cancers."
+aliases: ["Li-Fraumeni syndrome", "LFS", "TP53 germline", "germline TP53 mutation", "SBLA syndrome", "Li-Fraumeni", "LFS surveillance", "hereditary TP53", "TP53 hereditary cancer"]
+sources:
+  - id: bougeard-2015-lfs-chompret
+    type: peer-reviewed
+    cite: "Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. J Clin Oncol. 2015;33(21):2345-2352."
+    doi: "10.1200/JCO.2014.59.5728"
+    pmid: "26014290"
+    url: "https://doi.org/10.1200/JCO.2014.59.5728"
+  - id: villani-2016-lfs-surveillance
+    type: peer-reviewed
+    cite: "Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. Lancet Oncol. 2016;17(9):1295-1305."
+    doi: "10.1016/S1470-2045(16)30249-2"
+    pmid: "27501770"
+    url: "https://doi.org/10.1016/S1470-2045(16)30249-2"
+cross_links:
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "In LFS (germline TP53), p53-driven p21 induction is severely impaired → cells fail to arrest at G1/S after DNA damage → accelerated cell cycle progression → malignant transformation; p21 loss contributes to genomic instability in TP53-mutant LFS tumors."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Germline TP53 pathogenic variants are the sole cause of LFS; TP53 is the most commonly mutated gene in somatic cancer (~50%); somatic TP53 hotspots (R175H, R248W, R273H) are often gain-of-function; MDM2 amplification phenocopies TP53 loss without mutation."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "MDM2 amplification (~7% of all tumors; liposarcoma ~90%, osteosarcoma ~20%) phenocopies LFS by inactivating p53; MDM2 inhibitors (nutlin-3, AMG-232, milademetan) being explored in LFS-associated tumors and MDM2-amplified cancers as p53-reactivating agents."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Osteosarcoma is one of the three sentinel cancers of LFS (sarcoma, brain, breast/ACC); TP53 germline present in ~3-5% of osteosarcoma; somatic TP53 LOH at 17p13 in ~60-70% of sporadic osteosarcoma; LFS osteosarcomas present at younger age and may be multifocal."
+---
+
+# Li-Fraumeni Syndrome
+
+## Overview
+
+**Li-Fraumeni syndrome (LFS)** is an autosomal dominant hereditary cancer predisposition syndrome caused by germline pathogenic variants in **TP53** (chromosome 17p13.1), the gene encoding the p53 tumor suppressor protein. LFS was first described by Frederick Li and Joseph Fraumeni Jr. in 1969 based on four families with childhood sarcomas and excess cancers in relatives. LFS affects approximately **1 in 5,000-20,000** individuals and confers a **>80-90% lifetime cancer risk** for females (~100% by age 70) and ~73% for males. Because TP53 is the **most commonly mutated gene across all human cancers** (~50% of all solid tumors), LFS provides a germline model for understanding p53 biology in tumorigenesis [^bougeard-2015-lfs-chompret] [^villani-2016-lfs-surveillance].
+
+**LFS lifetime cancer risk by tumor type:**
+
+| Cancer type | Lifetime risk in LFS | LFS fraction of that cancer |
+|---|---|---|
+| Any cancer (females) | ~100% by age 70 | — |
+| Any cancer (males) | ~73% by age 70 | — |
+| Soft tissue sarcoma | ~30% | ~3% of all STS |
+| Breast cancer (female) | ~54% | ~1% of all breast Ca |
+| Brain tumor (all types) | ~14% | ~3-5% of all CNS tumors |
+| Adrenocortical carcinoma | ~6-8% | ~80% of childhood ACC |
+| Osteosarcoma | ~8% | ~3-5% of osteosarcoma |
+| Leukemia/lymphoma | ~5% | ~2% of all hemato-lymphoid |
+| Choroid plexus carcinoma | ~5% | ~50-60% of CPC |
+| Colorectal cancer | ~5% | <1% of CRC |
+| Lung adenocarcinoma | ~6% | ~1% of lung Ca |
+
+## Structure
+
+### Diagnostic criteria
+
+**Classic LFS (Li and Fraumeni 1988):**
+- Proband with sarcoma before age 45 AND
+- First-degree relative with any cancer before age 45 AND
+- First- or second-degree relative with any cancer before age 45 or sarcoma at any age
+
+**Chompret criteria (revised 2015) — any one of:**
+
+1. **Sentinel tumor criterion**: proband with a sentinel LFS tumor (sarcoma, brain tumor, breast cancer, ACC, leukemia, bronchoalveolar lung cancer, or choroid plexus tumor) before age 46 AND at least one first- or second-degree relative with a sentinel tumor before 56 years or with multiple primaries
+2. **Multiple primaries criterion**: proband with multiple tumors (two of which are sentinel tumors), with the first occurring before age 46
+3. **Rare tumor criterion**: proband with ACC or choroid plexus tumor regardless of family history
+4. **Breast cancer criterion**: breast cancer before age 31
+
+**Note on de novo mutations:** ~7-20% of LFS cases arise from de novo TP53 mutations; therefore, absence of family history does not exclude LFS. Mosaic TP53 mutations occur in ~10% of TP53-tested LFS families.
+
+### Genetic basis
+
+- **Gene**: TP53 (chromosome 17p13.1, 19 kb, 11 exons, 393 aa p53 protein)
+- **Germline mutation spectrum**: ~75% missense (concentrated in the DNA-binding domain, exons 5-8); ~13% frameshift; ~8% splice; ~4% nonsense; large deletions by MLPA in ~10%
+- **Hotspots**: Arg175, Arg248, Arg249, Arg273, Gly245, Arg282 — same residues mutated in somatic cancer; arginine substitutions disrupt DNA-contact or structural zinc coordination
+- **Inheritance**: autosomal dominant; 50% offspring risk; penetrance is nearly complete by age 70 (especially in females)
+- **De novo rate**: ~7-20%; recommend testing both parents when proband identified
+- **Somatic mosaicism**: ~10% of LFS are mosaic (variant allele fraction 5-30%); may have intermediate penetrance; detected by deep sequencing (VAF sensitivity <5%)
+
+### TP53 functional domains and mutations
+
+```
+N-terminal          DNA-binding domain       Tetramerization  C-terminal
+transactivation     (hotspot mutations)      domain           regulatory
+[  TAD1  TAD2  ] [ PR ] [    DBD    ] [L  ] [ TET ] [ REG ]
+aa:  1-40  40-61  62-94  94-292    293  353   356-393
+                                   ↑ L2/L3 loops: R175, G245, R248, R249, R273
+                                   ↑ L1/S2-S2': R282, V143, H168
+```
+
+**Class of mutations:**
+- **DNA-contact mutants** (R248W/Q, R273H/C): p53 cannot bind DNA → transcription lost; not fully dominant negative
+- **Structural/conformational mutants** (R175H, G245S, R249S, R282W): p53 protein misfolded → no DNA binding; these gain-of-function (GOF) mutants sequester p73/p63 → oncogenic GOF activity; R175H is the most common somatic hotspot
+- **Germline LFS spectrum**: differs from somatic — germline includes more frameshift/truncating (which lack GOF), while somatic is enriched for GOF missense; clinically relevant because GOF germline TP53 may confer higher cancer risk than truncating germline variants
+
+## Function
+
+### p53 tumor suppressor program
+
+TP53-encoded p53 activates a transcriptional program in response to genotoxic stress:
+- **Cell cycle arrest**: CDKN1A (p21) → G1/S arrest; 14-3-3σ → G2/M arrest; GADD45 → G2/M
+- **DNA repair activation**: DDB2, POLK, MGMT
+- **Apoptosis**: PUMA (BBC3), NOXA (PMAIP1) → mitochondrial outer membrane permeabilization → cytochrome c → caspase-9/3 cascade; FAS, DR5 → death receptor apoptosis
+- **Senescence**: p21 sustained expression → OIS + replicative senescence (see CDKN1A entry)
+- **Metabolic**: TIGAR → redirects glucose from glycolysis to PPP → reduces ROS; GLS2 → glutamine metabolism
+- **Anti-angiogenesis**: TSP-1 → VEGF suppression
+
+**LFS mechanism of cancer initiation:**
+Germline TP53 pathogenic variant (first hit) → haploinsufficiency; cells with reduced p53 activity have impaired checkpoint responses. Second hit (somatic LOH at 17p13, or second point mutation) → complete p53 loss → no G1/S arrest after DNA damage → replication with errors → mutational accumulation → tumorigenesis. In some GOF germline mutants (R175H), the mutant p53 protein is expressed in normal tissues and exerts oncogenic GOF activity even before second hit.
+
+### Radiation sensitivity — critical clinical consideration
+
+TP53 is required for radiation-induced apoptosis in many normal tissues. LFS carriers:
+- Impaired radiation-induced apoptosis → radiation-exposed cells survive with DNA damage → higher rate of radiation-induced second malignancies
+- **Clinical rule**: avoid ionizing radiation for LFS patients when alternative imaging (MRI, ultrasound) or non-radiation therapy exists
+- Radiotherapy in LFS patients: associated with dramatically increased second cancer rates (secondary sarcoma in radiation field, secondary leukemia); use only when oncologically necessary and benefit clearly outweighs risk
+- Diagnostic CT scans: limit cumulative exposure; prefer MRI for surveillance (see below)
+
+### Unique LFS-associated cancers
+
+**Adrenocortical carcinoma (ACC):**
+- ~80% of childhood ACC (<5 years) carries germline TP53 (LFS); TP53 p.R337H is a Brazilian founder variant (high carrier frequency ~1/375 in southern Brazil due to founder effect)
+- ACC is a rare sentinel cancer; childhood presentation = immediate TP53 germline testing
+- Adult ACC: ~3-5% germline TP53
+
+**Choroid plexus carcinoma (CPC):**
+- ~50-60% of CPC carry germline TP53; pediatric brain tumor; age <3 years typical
+- Highly aggressive; LFS diagnosis often first made at CPC diagnosis in infant
+
+**LFS-associated breast cancer:**
+- Pre-menopausal; often HER2-amplified or triple-negative subtype
+- TP53-mutant breast cancer treated with chemotherapy (anthracyclines, platinum); radiation avoidance when possible; bilateral mastectomy as prevention
+
+## Pathology
+
+### Surveillance protocol (Toronto Protocol, Villani 2016)
+
+Annual surveillance significantly reduces mortality in LFS carriers (Villani 2016: 5-year OS 88.8% surveilled vs 59.6% unsurveilled in historical controls):
+
+**Annual whole-body MRI (WB-MRI):**
+- Covers brain, neck, chest, abdomen, pelvis, extremities in a single session
+- Primary tool for soft tissue sarcoma, brain tumor, adrenal detection
+- No ionizing radiation; preferred over PET-CT in LFS
+- From birth (start immediately once diagnosis established)
+
+**Annual brain MRI (with gadolinium):**
+- Covers posterior fossa carefully (for medulloblastoma, ependymoma in children)
+- For adults: glioma detection
+
+**Annual breast MRI (women ≥20 years):**
+- Preferred over mammography; start at age 20 or 10 years before earliest breast cancer in family
+- Annual alternating MRI + mammography from age 30 (some centers avoid mammography due to radiation concern — center-specific policy)
+
+**Annual abdominopelvic ultrasound (every 3-6 months in some protocols):**
+- Adrenal surveillance (ACC in children especially)
+- Liver, kidney, pelvic organs
+
+**CBC + biochemical (every 6-12 months):**
+- Leukemia/lymphoma detection (CBC)
+- Cortisol/DHEA-S (adrenal function monitoring)
+
+**Colonoscopy:**
+- Every 5 years from age 25 (CRC risk ~5% lifetime; not primary LFS cancer but TP53 somatic in CRC ~50%)
+
+### Pediatric-specific surveillance
+
+- Abdominal US every 3-4 months from birth to age 5 (ACC peak age)
+- Brain MRI annually from infancy
+- Urine catecholamines annually (pheochromocytoma, rare but reported)
+
+### Treatment considerations in LFS
+
+- **Avoid RT**: substitute chemotherapy + surgery when oncologically feasible for sarcomas, brain tumors
+- **MDM2 inhibitors**: AMG-232 (navtemadlin), milademetan, siremadlin — all Phase 1/2 in LFS-associated tumors and MDM2-amplified cancers (dedifferentiated liposarcoma, MDM2-amplified NSCLC); mechanism: occupy MDM2 p53-binding pocket → p53 stabilization → tumor cell apoptosis; require WT p53 to be effective — applicable in MDM2-amplified LFS tumors where one p53 allele remains functional
+- **APR-246 (eprenetapopt/PRIMA-1Met)**: converts mutant p53 to WT-like conformation via covalent binding to cysteine residues of mutant p53 → restores transcriptional activity; Phase 3 trials in TP53-mutant MDS/AML (RESET-2); early results mixed; active research
+- **Immunotherapy**: TP53-mutant tumors often have elevated TMB and may be PD-L1 positive; pembrolizumab explored in TP53-mutant solid tumors; no LFS-specific trial data
+- **PARP inhibitors**: under investigation in LFS-associated breast/ovarian cancers with concurrent homologous recombination deficiency signatures; limited data
+
+## Connections
+
+- `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — In LFS (germline TP53), p53-driven p21 induction is severely impaired → cells fail to arrest at G1/S after DNA damage → accelerated cell cycle progression → malignant transformation; p21 loss contributes to genomic instability in TP53-mutant LFS tumors.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Germline TP53 pathogenic variants are the sole cause of LFS; TP53 is the most commonly mutated gene in somatic cancer (~50%); somatic TP53 hotspots (R175H, R248W, R273H) are often gain-of-function; MDM2 amplification phenocopies TP53 loss without mutation.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification (~7% of all tumors; liposarcoma ~90%, osteosarcoma ~20%) phenocopies LFS by inactivating p53; MDM2 inhibitors (nutlin-3, AMG-232, milademetan) being explored in LFS-associated tumors and MDM2-amplified cancers as p53-reactivating agents.
+- `connects-to` → **[Osteosarcoma](../../07-system/osteosarcoma/README.md)** — Osteosarcoma is one of the three sentinel cancers of LFS (sarcoma, brain, breast/ACC); TP53 germline present in ~3-5% of osteosarcoma; somatic TP53 LOH at 17p13 in ~60-70% of sporadic osteosarcoma; LFS osteosarcomas present at younger age and may be multifocal.
+
+[^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
+[^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
