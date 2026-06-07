@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "Osteoclasts are the primary drivers of bone loss: RANKL (from osteoblasts/stromal cells) → RANK on osteoclast precursors → differentiation and lacunar resorption → BMD loss; denosumab (anti-RANKL) neutralizes RANKL → osteoclast suppression → fracture risk reduction."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "FGF23 inhibits 1α-hydroxylase → reduces calcitriol → decreases intestinal calcium absorption → bone demineralization; genetic FGF23 excess (XLH, ARHR) causes hypophosphatemic rickets; burosumab (anti-FGF23 mAb) corrects hypophosphatemia and heals rickets in XLH."
 ---
 
 # Osteoporosis
@@ -155,6 +158,7 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 drives RANKL-independent osteoclastogenesis via JAK-STAT3 → osteoclast precursor differentiation; elevated IL-6 in postmenopausal women, RA, and multiple myeloma → accelerated bone loss; tocilizumab reduces bone erosion in RA as a secondary bone-protective effect.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen type I is the dominant organic bone matrix component; osteoblasts synthesize type I collagen → osteoid → mineralization; osteoclastic resorption → CTX and NTX (type I collagen telopeptides) → serum biomarkers of bone resorption used to monitor osteoporosis therapy.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Osteoclasts are the primary drivers of bone loss: RANKL → RANK on osteoclast precursors → differentiation and lacunar resorption → BMD loss; denosumab (anti-RANKL) neutralizes RANKL → osteoclast suppression → fracture risk reduction 40-60%.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — FGF23 inhibits 1α-hydroxylase → reduces calcitriol → decreases intestinal calcium absorption → bone demineralization; genetic FGF23 excess (XLH, ARHR) causes hypophosphatemic rickets; burosumab (anti-FGF23 mAb) corrects hypophosphatemia and heals rickets in XLH.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

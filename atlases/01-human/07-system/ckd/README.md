@@ -42,6 +42,9 @@ cross_links:
   - target: 01-human/03-molecular/sglt2
     relation: connects-to
     note: "CREDENCE (canagliflozin): 30% reduction in kidney endpoint in T2D + CKD; DAPA-CKD (dapagliflozin): 39% reduction in eGFR decline/dialysis/renal death in CKD with and without T2D; SGLT2 inhibitors slow CKD progression via tubuloglomerular feedback and anti-fibrotic effects."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "FGF23 rises 100-1000× in CKD → suppresses 1α-hydroxylase → reduced calcitriol → secondary hyperparathyroidism and CKD-MBD; very high FGF23 predicts LVH, heart failure, and mortality in dialysis patients independent of traditional risk factors."
 ---
 
 # Chronic Kidney Disease
@@ -126,6 +129,7 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `modulates` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — CKD reduces EPO synthesis from peritubular fibroblasts; anemia of CKD requires ESA therapy to maintain hemoglobin targets.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — CKD and hypertension are bidirectionally causal; each accelerates the other. BP control to <130/80 mmHg is the cornerstone of CKD management.
 - `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — CREDENCE (canagliflozin): 30% reduction in kidney endpoint in T2D + CKD; DAPA-CKD (dapagliflozin): 39% reduction in eGFR decline/dialysis/renal death in CKD with and without T2D; SGLT2 inhibitors slow CKD progression via tubuloglomerular feedback and anti-fibrotic effects.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — FGF23 rises 100-1000× in CKD → suppresses 1α-hydroxylase → reduced calcitriol → secondary hyperparathyroidism and CKD-MBD; very high FGF23 predicts LVH, heart failure, and mortality in dialysis patients independent of traditional risk factors.
 
 ## Pathology
 
