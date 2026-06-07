@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGFBR2 frameshift mutations at poly-A tracts are the prototypical MSI-H target; ~80% of MSI-H CRC carry TGFBR2 frameshift → loss of TGF-β growth suppression → tumor progression despite high TMB; biallelic TGFBR2 frameshift is a hallmark of dMMR CRC."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Germline MLH1 LOF → Lynch syndrome via loss of MutLα mismatch repair activity; MLH1 promoter methylation also causes sporadic MSI-H CRC; Lynch syndrome CRC risk 25-80% lifetime; Amsterdam/Bethesda criteria identify Lynch patients; universal tumor MMR IHC testing."
 ---
 
 # MLH1
@@ -152,6 +155,7 @@ MSI-H tumors accumulate thousands of frameshift mutations at coding microsatelli
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MSI-H/dMMR tumors have high neoantigen load from frameshift mutations → PD-L1 upregulation → T-cell exhaustion; pembrolizumab pan-tumor MSI-H approval (FDA 2017, first tumor-agnostic indication); nivolumab + ipilimumab active in dMMR CRC; MSI-H is the strongest predictor of ICI response.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Lynch syndrome CRC development follows the microsatellite instability pathway: APC/Wnt activation → KRAS → MLH1/MSH2 loss (rather than chromosomal instability) → frameshift mutations in TGFBR2, BAX, ACVR2A → tumor progression; Wnt pathway mutations are early events in Lynch-associated CRC.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGFBR2 frameshift mutations at poly-A tracts are the prototypical MSI-H target; ~80% of MSI-H CRC have TGFBR2 frameshift → loss of TGF-β growth suppression → tumor progression despite high TMB; TGFBR2 biallelic inactivation by frameshift is a hallmark of mismatch repair deficiency in CRC.
+- `connects-to` → **[Lynch Syndrome](../../07-system/lynch-syndrome/README.md)** — Germline MLH1 LOF → Lynch syndrome via loss of MutLα mismatch repair activity; MLH1 promoter methylation also causes sporadic MSI-H CRC; Lynch syndrome CRC risk 25-80% lifetime; Amsterdam/Bethesda criteria identify Lynch patients; universal tumor MMR IHC testing.
 
 [^le-2015-msi-pembrolizumab]: Le DT, Uram JN, Wang H, et al. PD-1 blockade in tumors with mismatch-repair deficiency. *N Engl J Med.* 2015;372(26):2509-2520. [doi:10.1056/NEJMoa1500596](https://doi.org/10.1056/NEJMoa1500596) · [PubMed 26028255](https://pubmed.ncbi.nlm.nih.gov/26028255/)
 [^lynch-2015-lynch-syndrome]: Lynch HT, Snyder CL, Shaw TG, Heinen CD, Hitchins MP. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
