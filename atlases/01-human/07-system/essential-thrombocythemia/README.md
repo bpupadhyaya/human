@@ -1,0 +1,162 @@
+---
+schema: human-scale-entry/v1
+id: essential-thrombocythemia
+name: Essential Thrombocythemia
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Essential thrombocythemia is a JAK2/CALR/MPL-driven MPN with megakaryocytic hyperplasia and thrombocytosis; JAK2 V617F ~55-60%; CALR ~20-25%; MPL ~5-8%; risk-stratified aspirin ± hydroxyurea; anagrelide second-line; post-ET MF (~1-2%) and AML (<1%) transformation risk."
+aliases: ["essential thrombocythemia", "ET", "essential thrombocytosis", "primary thrombocythemia", "JAK2 thrombocythemia", "CALR ET"]
+sources:
+  - id: harrison-2005-pt1-et
+    type: peer-reviewed
+    cite: "Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. N Engl J Med. 2005;353(1):33-45."
+    doi: "10.1056/NEJMoa043800"
+    pmid: "16000354"
+    url: "https://doi.org/10.1056/NEJMoa043800"
+  - id: barbui-2012-ipset
+    type: peer-reviewed
+    cite: "Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). Blood. 2012;120(26):5128-5133."
+    doi: "10.1182/blood-2012-07-444067"
+    pmid: "23086758"
+    url: "https://doi.org/10.1182/blood-2012-07-444067"
+cross_links:
+  - target: 01-human/03-molecular/mpl
+    relation: connects-to
+    note: "MPL W515L/K mutations (~5-8% ET) cause constitutive JAK2/STAT5 activation independent of TPO; MPL-mutant ET is clinically similar to CALR-mutant ET (lower thrombosis risk vs JAK2); TPO-receptor agonists (eltrombopag, romiplostim) act on wild-type MPL."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "JAK2 V617F (~55-60% ET) causes constitutive erythroid/megakaryocytic/granulocytic proliferation; JAK2-positive ET has higher thrombosis risk than CALR-mutant ET; ruxolitinib is active in JAK2 V617F ET but is not FDA-approved for ET."
+  - target: 01-human/03-molecular/calr
+    relation: connects-to
+    note: "CALR mutations (~20-25% ET); type 2 ins5bp is predominant in ET (vs type 1 del52bp in PMF); CALR-mutant ET has lower thrombosis risk, younger age, and longer OS than JAK2-mutant ET; JAK2/CALR/MPL mutations are mutually exclusive."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "ET transforms to post-ET MF (~1-2% at 10 years); megakaryocyte-derived TGF-β1 → reticulin → collagen fibrosis; co-mutations (ASXL1, EZH2, SRSF2) accelerate MF transformation; momelotinib targets ACVR1 to address anemia in post-ET MF."
+---
+
+# Essential Thrombocythemia
+
+## Overview
+
+**Essential thrombocythemia (ET)** is a **BCR-ABL1-negative myeloproliferative neoplasm (MPN)** defined by clonal megakaryocytic hyperplasia with sustained thrombocytosis (platelet count ≥450 × 10⁹/L) driven by gain-of-function mutations in JAK2 (~55-60%), CALR (~20-25%), or MPL (~5-8%) — the three major mutually exclusive MPN driver mutations that all constitutively activate the JAK2→STAT5 megakaryopoietic axis. ET is characterized by a generally favorable prognosis with median overall survival approaching that of the general population, but with significant morbidity from **thrombosis** (arterial and venous), **microvascular symptoms** (erythromelalgia, headache, visual disturbances), and **bleeding** at extreme platelet counts. Treatment is risk-stratified using the revised IPSET-Thrombosis score: all high-risk patients (age ≥60 or prior thrombosis) receive aspirin plus cytoreductive therapy — **hydroxyurea** is first-line (PT-1 trial: superior to anagrelide in arterial thrombosis prevention, MF rate, and bleeding) [^harrison-2005-pt1-et]; low-risk and very low-risk patients receive observation or aspirin alone. Long-term complications include post-ET myelofibrosis (~1-2% at 10 years) and AML transformation (<1% at 10 years) [^barbui-2012-ipset].
+
+**Epidemiology:**
+- Incidence: ~0.6-2.5 per 100,000/year; prevalence ~30-40 per 100,000
+- Median age at diagnosis: ~60 years; bimodal distribution with a younger peak in women aged 30-50 (CALR-associated)
+- Slight female predominance overall; younger ET predominantly female (CALR-driven)
+- Median OS: approaching general population for low/intermediate risk; high-risk has shortened OS due to thrombotic events and transformation
+
+## Structure
+
+### WHO 2022 diagnostic criteria
+
+All four criteria must be met:
+
+1. **Platelet count ≥450 × 10⁹/L persistently** (sustained on ≥2 measurements at least 1 month apart)
+2. **Bone marrow biopsy:** Proliferation of the megakaryocytic lineage with large, mature megakaryocytes with hyperlobated "staghorn" nuclei; no significant increase or left shift in neutrophil granulopoiesis or erythropoiesis; rarely any minor reticulin fibrosis (Grade 1)
+3. **Not meeting WHO criteria for:** BCR-ABL1+ CML, PV, PMF, MDS, or other myeloid neoplasms
+4. **Presence of JAK2 V617F, CALR exon 9 (del/ins), or MPL exon 10 mutation;** OR in absence of mutation: exclusion of secondary thrombocytosis (reactive: infection, inflammation, iron deficiency, splenectomy) and clonal marker by NGS
+
+### Molecular landscape
+
+**JAK2 V617F (~55-60% of ET):**
+Exon 14 GOF mutation in JH2 pseudokinase → constitutive JAK2/STAT5; in ET, JAK2 V617F allele burden (VAF) is typically 25-50% (lower than in PV where VAF is often >50% and frequently homozygous); heterozygous JAK2 in ET → preferential megakaryocytic phenotype (compared to erythroid in PV); JAK2-positive ET has higher thrombosis risk (arterial) than CALR-mutant ET.
+
+**CALR exon 9 mutations (~20-25% of ET):**
+Frameshift insertions/deletions generating a novel positively charged C-terminus that binds MPL ECD → constitutive JAK2/STAT5; **type 2 ins5bp** is the predominant CALR mutation in ET (vs type 1 del52bp which predominates in PMF); type 2 CALR → weaker MPL activation → milder megakaryocytic phenotype → ET (not PMF); CALR-mutant ET: younger patients, higher platelet counts, lower thrombosis risk, longer overall survival than JAK2-mutant ET; lower risk of transformation to AML.
+
+**MPL exon 10 mutations (~5-8% of ET):**
+W515L, W515K, S505, Y591 — transmembrane/juxtatransmembrane domain GOF → constitutive JAK2 activation without TPO; clinically similar to CALR-mutant ET (younger age, higher platelets, lower thrombosis risk); less common and may be underdiagnosed due to limited panel coverage.
+
+**Triple-negative ET (~15%):**
+JAK2/CALR/MPL wild-type; requires careful exclusion of reactive thrombocytosis, early MDS, and atypical CML; if truly clonal (demonstrated by NGS identifying other somatic mutations), prognosis generally good; higher proportion may represent polyclonal reactive conditions.
+
+**Co-mutations:**
+Additional mutations in ~20-30% at diagnosis: TET2 (~11%), DNMT3A (~6%), ASXL1 (~5%), SF3B1 (<5%); ASXL1 co-mutation → increased MF transformation risk; SF3B1 co-mutation with JAK2 or CALR → consider whether MDS overlap (ring sideroblasts + thrombocytosis → WHO entity "MDS/MPN with ring sideroblasts and thrombocytosis").
+
+## Function
+
+### Pathophysiology of megakaryocytic expansion
+
+**JAK2/STAT5 → megakaryopoiesis:**
+Constitutive JAK2 activation (via JAK2 V617F, CALR/MPL) → STAT5 phosphorylation → BCL-XL (megakaryocyte survival), CCND1 (proliferation), MPL itself (positive feedback) → expanded CFU-MK pool → increased endomitosis → large hyperlobated megakaryocytes → excessive proplatelet formation → sustained thrombocytosis (platelet count 450-2,000+ × 10⁹/L).
+
+**Thrombosis mechanisms:**
+- Platelet activation: JAK2 V617F platelets have surface P-selectin expression at rest → activated state → platelet-leukocyte interactions → thrombosis
+- NETosis: Neutrophil JAK2 V617F → increased NET formation → endothelial activation → venous thrombosis (DVT, PE, splanchnic vein)
+- Platelet count contribution: Platelet count correlates weakly with thrombosis risk — JAK2 allele burden, leukocyte count, and cardiovascular risk factors are better predictors (IPSET model)
+
+**Bleeding at high platelet counts:**
+Platelet count >1,500 × 10⁹/L → acquired von Willebrand syndrome (AVWS): platelet surface GPIb absorbs large VWF multimers → depletion of high-molecular-weight VWF → impaired primary hemostasis → paradoxical bleeding (GI bleeding, epistaxis); aspirin contraindicated at platelet count >1,500 × 10⁹/L; cytoreduction first (reduce platelets to safe range); AVWS improves with platelet count normalization.
+
+**Microvascular symptoms:**
+- **Erythromelalgia:** Burning, redness, warmth of extremities (hands/feet); caused by platelet-mediated microvascular occlusion + prostaglandin release; aspirin highly effective (within 48 hours)
+- **Headache, visual disturbances:** Platelet microthrombi in cerebral microvasculature → transient neurological symptoms; aspirin provides relief
+- **Pruritus:** Less prominent than in PV but can occur with JAK2-positive ET
+
+## Pathology
+
+### Risk stratification — revised IPSET-Thrombosis
+
+| Risk Category | Criteria | Annual Thrombosis Rate | Treatment |
+|---|---|---|---|
+| Very low | Age <60, JAK2-negative, no prior thrombosis | ~0.5%/year | Observation vs aspirin |
+| Low | Age <60, JAK2-positive, no prior thrombosis | ~1.5%/year | Aspirin 81-100 mg/day |
+| Intermediate | Age ≥60, JAK2-negative, no prior thrombosis | ~2%/year | Aspirin ± cytoreduction (debated) |
+| High | Prior thrombosis (any age) OR age ≥60 + JAK2-positive | ~3-5%/year | Aspirin + cytoreduction |
+
+Cardiovascular risk factors (hypertension, diabetes, smoking, dyslipidemia) multiplicatively increase thrombosis risk; leukocytosis (WBC >11 × 10⁹/L) is an additional adverse factor.
+
+### Treatment
+
+**Aspirin:**
+Low-dose aspirin 81-100 mg/day is the foundation of ET treatment for symptomatic and JAK2-positive patients; mechanism: irreversible COX-1 inhibition → reduced thromboxane A2 → reduced platelet aggregation; effective for microvascular symptoms (erythromelalgia, headache) and reduces thrombotic events; aspirin carries bleeding risk (especially GI) — balance against thrombosis risk; contraindicated when platelet count >1,500 × 10⁹/L (AVWS → bleeding risk outweighs thrombosis prevention).
+
+**Hydroxyurea (first-line cytoreduction):**
+Ribonucleotide reductase inhibitor; reduces all lineages; effective platelet reduction within weeks; PT-1 trial: hydroxyurea + aspirin vs anagrelide + aspirin in high-risk ET; HU arm: fewer arterial thromboses (3.6% vs 9.3% at 2 years), less MF transformation (7.0% vs 13.7%), less bleeding [^harrison-2005-pt1-et]; dose: 500-2,000 mg/day titrated to platelet target <400 × 10⁹/L; standard target: platelet <400 × 10⁹/L + WBC 2-10 × 10⁹/L; toxicities: leg ulcers (~5%), myelosuppression, mucositis; resistance criteria (ELN): platelet >600 × 10⁹/L at ≥2 g/day, or toxicity.
+
+**Anagrelide (second-line):**
+Phosphodiesterase 3A (PDE3A) inhibitor → specifically impairs megakaryocyte differentiation → reduces platelet count without significantly affecting other lineages; mechanism unique (not cytotoxic, not RNR inhibition); dose: 0.5-3 mg/day orally in divided doses; PT-1 demonstrated anagrelide inferiority to HU in high-risk ET (more arterial thromboses, more MF, more bleeding); preferred in HU-intolerant patients or women of childbearing age (HU teratogenic); cardiovascular side effects: palpitations, fluid retention, headache (PDE3A also expressed in cardiac tissue).
+
+**Interferon-alpha (IFN-α):**
+Pegylated IFN-α (ropeginterferon alfa-2b, peginterferon alfa-2a): suppresses JAK2-mutant clone via STAT1 upregulation → anti-proliferative → preferred in younger patients (<60) and pregnant/potentially pregnant women (safety data better than HU); IFN is not teratogenic (recommended for ET in pregnancy); achieves molecular responses (JAK2 VAF reduction); adverse effects: flu-like symptoms, autoimmune thyroiditis, depression; not FDA-approved specifically for ET (off-label use; approved for PV).
+
+**Ruxolitinib:**
+JAK1/2 inhibitor; active in ET (reduces platelet count and spleen) but not FDA-approved for ET; may be considered for HU-intolerant patients in clinical trial settings; RESPONSE-2 trial focused on PV, not ET; ongoing trials evaluating ruxolitinib in ET with high burden.
+
+**Busulfan:**
+For elderly HU-intolerant patients; short courses achieve prolonged platelet reduction; limited by mutagenic potential.
+
+### Post-ET myelofibrosis (post-ET MF)
+
+**Transformation rate:** ~1-2% at 10 years (much lower than PV → post-PV MF); ~4-6% at 15-20 years; defined by new BM reticulin fibrosis ≥2, new anemia, leukoerythroblastic blood film, splenomegaly; co-mutations (ASXL1, SRSF2, EZH2) accelerate transformation; CALR-mutant ET has lower MF risk than JAK2-mutant ET.
+
+**Treatment of post-ET MF:**
+Similar to PMF: ruxolitinib for symptomatic splenomegaly; fedratinib; momelotinib (ACVR1/JAK1/2, addresses TGF-β-driven anemia); luspatercept for anemia; allo-SCT for eligible intermediate/high-risk post-ET MF.
+
+### AML/blast transformation
+
+**Rate:** <1-2% lifetime risk from ET (lowest of the MPNs); substantially higher in anaplastic progression or with HU-induced myelosuppression in retrospective series (debated); prior alkylator exposure (busulfan, pipobroman) → higher AML risk; JAK2-mutant ET → higher AML risk than CALR-mutant ET; AML from ET: TP53 mutations acquired at transformation; treated as secondary AML (poor prognosis with standard induction; azacitidine+venetoclax if eligible; allo-SCT).
+
+### ET in pregnancy
+
+ET carries risks of:
+- **Maternal:** First-trimester miscarriage (placental microvascular thrombosis), thrombosis
+- **Fetal:** Placental insufficiency, IUGR, stillbirth
+Management:
+- Low-risk ET in pregnancy: aspirin 81 mg/day throughout; heparin peri-delivery
+- High-risk (prior thrombosis, prior pregnancy loss ×2): add IFN-α (not HU — teratogenic); aspirin + LMWH peri-delivery
+- Platelet count typically falls in second trimester (hemodilution) → may not require cytoreduction
+- Avoid anagrelide (crosses placenta), HU (teratogenic), ruxolitinib (insufficient data) in pregnancy
+
+## Connections
+
+- `connects-to` → **[MPL](../../03-molecular/mpl/README.md)** — MPL W515L/K mutations (~5-8% ET) cause constitutive JAK2/STAT5 activation independent of TPO; MPL-mutant ET is clinically similar to CALR-mutant ET (lower thrombosis risk vs JAK2); TPO-receptor agonists (eltrombopag, romiplostim) act on wild-type MPL.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — JAK2 V617F (~55-60% ET) causes constitutive erythroid/megakaryocytic/granulocytic proliferation; JAK2-positive ET has higher thrombosis risk than CALR-mutant ET; ruxolitinib is active in JAK2 V617F ET but is not FDA-approved for ET.
+- `connects-to` → **[CALR](../../03-molecular/calr/README.md)** — CALR mutations (~20-25% ET); type 2 ins5bp is predominant in ET (vs type 1 del52bp in PMF); CALR-mutant ET has lower thrombosis risk, younger age, and longer OS than JAK2-mutant ET; JAK2/CALR/MPL mutations are mutually exclusive.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — ET transforms to post-ET MF (~1-2% at 10 years); megakaryocyte-derived TGF-β1 → reticulin → collagen fibrosis; co-mutations (ASXL1, EZH2, SRSF2) accelerate MF transformation; momelotinib targets ACVR1 to address anemia in post-ET MF.
+
+[^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
+[^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
