@@ -1,0 +1,159 @@
+---
+schema: human-scale-entry/v1
+id: hnscc
+name: HNSCC
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-06
+summary: "Head and neck SCC; HPV+ oropharyngeal HNSCC (TP53 WT, PI3K-active) has better prognosis than HPV-negative (TP53 ~80%, CDKN2A ~40%); cetuximab and pembrolizumab are approved; KEYNOTE-048 defines first-line pembrolizumab over EXTREME in PD-L1+ recurrent/metastatic disease."
+aliases: ["HNSCC", "head and neck squamous cell carcinoma", "oral cavity cancer", "oropharyngeal cancer", "HPV-positive HNSCC", "laryngeal cancer", "hypopharyngeal cancer", "head and neck cancer"]
+sources:
+  - id: burtness-2019-keynote048
+    type: peer-reviewed
+    cite: "Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). Lancet. 2019;394(10212):1915-1928."
+    doi: "10.1016/S0140-6736(19)32591-7"
+    pmid: "31679945"
+    url: "https://doi.org/10.1016/S0140-6736(19)32591-7"
+  - id: vermorken-2008-extreme
+    type: peer-reviewed
+    cite: "Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. N Engl J Med. 2008;359(11):1116-1127."
+    doi: "10.1056/NEJMoa0802656"
+    pmid: "18784101"
+    url: "https://doi.org/10.1056/NEJMoa0802656"
+cross_links:
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "EGFR overexpression in ~90% of HNSCC (copy number gain, not mutation); cetuximab + cisplatin/5-FU (EXTREME) improved OS vs. chemo alone (10.1 vs. 7.4 months); cetuximab+radiation is definitive for locally advanced HNSCC in platinum-ineligible patients."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Pembrolizumab (KEYNOTE-048) improved OS vs. EXTREME in PD-L1 CPS≥20 (14.9 vs. 10.7 months) and CPS≥1 (13.6 vs. 10.4 months); pembrolizumab+chemotherapy improved OS for CPS≥1; nivolumab (CheckMate 141) improved OS vs. chemotherapy in platinum-refractory R/M HNSCC."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutations in ~80% of HPV-negative HNSCC (UV and tobacco mutational signatures; R175H, R248W hotspots); HPV-positive HNSCC has WT TP53 (HPV E6 degrades p53 via E6AP ubiquitin ligase); TP53 mutation correlates with poor prognosis and cisplatin resistance in HNSCC."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PIK3CA mutation/amplification in ~20-30% of HNSCC; especially HPV+ oropharyngeal HNSCC (HPV E7 → RB disruption → CDK activation; higher PI3K pathway activity); PI3K inhibitors (copanlisib, alpelisib) studied in HNSCC; AKT inhibitors in clinical trials."
+---
+
+# HNSCC
+
+## Overview
+
+**Head and neck squamous cell carcinoma (HNSCC)** refers to SCC arising in the oral cavity, oropharynx, hypopharynx, larynx, and nasopharynx — a heterogeneous group of mucosal cancers unified by squamous histology and key oncogenic pathways (EGFR, TP53, CDKN2A, PIK3CA). HNSCC is globally common (~900,000 cases/year worldwide) and is etiologically divided into two biologically distinct groups: **HPV-positive oropharyngeal HNSCC** (driven by HPV16/18 E6/E7 oncoproteins targeting p53 and RB; rising incidence due to sexual transmission; favorable prognosis) and **HPV-negative HNSCC** (driven by tobacco and alcohol; TP53 mutations ~80%; worse prognosis). The systemic therapy landscape has been transformed by the KEYNOTE-048 trial demonstrating pembrolizumab superiority over the EXTREME regimen (cetuximab + platinum + 5-FU) for PD-L1-expressing recurrent/metastatic disease [^burtness-2019-keynote048].
+
+**Epidemiology:**
+- ~65,000 new cases/year in the US; ~14,000 deaths/year; 6th most common cancer worldwide
+- HPV+ oropharyngeal SCC: Rising incidence (~70-80% of oropharyngeal HNSCC in the US); younger patients (~55 years), non-smokers, better prognosis
+- HPV- HNSCC: Tobacco + alcohol; oral cavity, hypopharynx, larynx; older patients; worse outcomes
+- 5-year overall survival: ~50-60% for locally advanced; ~30% for recurrent/metastatic
+
+**Risk factors:**
+- HPV infection (HPV16 most common): Oropharynx (tonsil, base of tongue); sexual transmission; vaccination (Gardasil 9) reduces risk
+- Tobacco (cigarettes, smokeless tobacco): Risk proportional to pack-years; 5-10× increased risk
+- Alcohol: Synergistic with tobacco (~15× combined vs. either alone)
+- Betel quid chewing: Major risk factor in South and Southeast Asia (buccal/oral cavity SCC)
+- Prior radiation: Secondary malignancy
+
+## Structure
+
+### Molecular subtypes
+
+**HPV-positive oropharyngeal HNSCC:**
+- HPV16 E6 → targets p53 via E6AP ubiquitin ligase → p53 degradation; HPV16 E7 → binds RB → releases E2F → cell cycle entry
+- Molecular: PIK3CA mutation/amplification (~20-30%); FGFR3 alterations; minimal TP53 mutation (wild-type p53 degraded post-translationally)
+- Immunological: High TIL density; PD-L1 high; HPV peptide neoantigens → immunogenic; responds to de-escalated therapy
+- Prognosis: 5-year OS ~80% for locally advanced vs. ~45-50% for HPV-negative; used in treatment de-escalation trials (PATHOS, QUARTERBACK, De-ESCALaTE)
+
+**HPV-negative HNSCC (oral cavity, larynx, hypopharynx):**
+- TP53 mutations ~80%; CDKN2A (p16) deletion ~40% (tobacco signature); CCND1 amplification (~30%); EGFR amplification (~30%); MYC amplification
+- High TMB but lower neoantigen immunogenicity than HPV+ (due to fewer frameshift mutations, no viral peptides)
+- Tobacco-driven mutational signature (C→A transversions); alcohol → acetaldehyde → DNA adducts
+
+**Genomic landscape (TCGA 2015):**
+HNSCC molecular subtypes (4 clusters):
+1. **Atypical:** TP53 WT, PIK3CA/HRAS mutation, often HPV+
+2. **Classical:** EGFR amplification, CDKN2A loss, smoker-associated
+3. **Basal:** EGFR overexpression, YAP1 amplification
+4. **Mesenchymal:** Immune-rich, EMT markers, MET/AXL high
+
+### Site-specific features
+
+**Oral cavity (lip, tongue, floor of mouth, hard palate, buccal mucosa):**
+- High tobacco/alcohol/betel; TP53 ~85%; CCND1 amplification; worst nodal spread pattern
+- Surgery preferred for resectable disease; adjuvant chemoradiation for high-risk pathology (positive margins, perineural invasion, lymphovascular invasion, ≥2 LN, extranodal extension)
+
+**Oropharynx (tonsil, soft palate, base of tongue, pharyngeal walls):**
+- HPV+ increasingly common; p16 IHC as surrogate for HPV testing; p16+ = HPV+ in oropharynx (high sensitivity/specificity)
+- Favorable prognosis → de-escalation trials testing reduced chemoradiation doses or radiation alone for early-stage HPV+ disease
+
+**Larynx (supraglottic, glottic, subglottic):**
+- Glottic SCC: Often early hoarseness → early diagnosis; favorable prognosis; voice preservation with radiotherapy
+- Supraglottic SCC: Late presentation; poor prognosis; tobacco-driven
+- Larynx preservation: Concurrent cisplatin + radiotherapy (VA Cooperative Study and RTOG 91-11) established as alternative to laryngectomy for organ preservation
+
+**Hypopharynx:**
+- Poorest prognosis of all HNSCC (late presentation, high nodal involvement); pyriform sinus most common
+
+## Function
+
+### HPV oncogenesis vs. tobacco/alcohol carcinogenesis
+
+**HPV oncogenesis (HPV+ HNSCC):**
+HPV16/18 infects basal cells of the oropharyngeal mucosa → viral episome (circular dsDNA) integrates into host genome → E6/E7 oncoproteins expressed:
+- E6 + E6AP → p53 ubiquitination/degradation → impaired apoptosis and G1 checkpoint
+- E7 → binds pRB LXCXE motif → RB inactivation → E2F release → S-phase entry even without mitogens
+- E5: Promotes EGFR recycling → enhanced EGF signaling
+Result: Immortalized basal cells with active PI3K/CDK4 and impaired DNA damage response → HNSCC initiation.
+
+**Tobacco/alcohol carcinogenesis (HPV- HNSCC):**
+Polycyclic aromatic hydrocarbons (PAH) in tobacco → carcinogen-DNA adducts → C→A transversions at TP53/CDKN2A; acetaldehyde (from alcohol) → N2-ethylidene-dG adducts → TP53 mutations; combined → 15× elevated HNSCC risk; accumulating TP53 mutations in field cancerization → synchronous/metachronous multiple primary tumors (field effect throughout entire aerodigestive tract).
+
+## Pathology
+
+### Staging and workup
+
+**AJCC 8th edition (HPV+ and HPV- staged separately):**
+HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative staging follows standard pT/pN/pM.
+- Most patients present with locally advanced stage III-IV (~60%)
+
+**Staging workup:**
+- CT with contrast (neck/chest/abdomen): Primary tumor and nodal assessment; distant staging
+- FDG-PET/CT: Standard for N0 clinical staging (detect occult N+ disease); post-treatment assessment (12-16 weeks post-CRT) to determine need for planned neck dissection
+- MRI: Preferred for soft tissue involvement (tongue base, skull base)
+- HPV testing: p16 IHC in oropharynx (positive = CPS >70%, practically all oropharyngeal SCC p16+ are HPV+); HPV ISH or PCR for equivocal cases
+
+### Treatment
+
+**Locally advanced HNSCC (Stage III-IVB):**
+- **Concurrent cisplatin (100 mg/m² q3w) + IMRT:** Standard of care for resectable/unresectable disease; cisplatin superior to carboplatin or cetuximab with radiation (TROG 02.02); 3-year locoregional control ~75%
+- **Cetuximab + radiation (Bonner trial):** Inferior to cisplatin+RT in fit patients (RTOG 1016, De-ESCALaTE trials); reserved for cisplatin-ineligible patients; cisplatin+RT now preferred when feasible
+- **Surgery ± adjuvant chemoradiation:** Resectable oral cavity and selected oropharynx tumors; adjuvant CRT for positive margins or extranodal extension (EORTC 22931/RTOG 9501 trials)
+- **De-escalation (HPV+):** PATHOS, QUARTERBACK, NRG-HN002 trials studying reduced dose radiation (50-60 Gy vs. 70 Gy) in p16+/HPV+ oropharynx; not yet standard
+
+**Recurrent/metastatic HNSCC (R/M HNSCC):**
+
+**First-line:**
+- **Pembrolizumab monotherapy (CPS≥1):** FDA approved for R/M HNSCC; OS 14.9 months (CPS≥20), 13.6 months (CPS≥1) — first-line standard for PD-L1+ disease [^burtness-2019-keynote048]
+- **Pembrolizumab + platinum + 5-FU (CPS≥1):** OS benefit; preferred over EXTREME for PD-L1+ patients; ORR ~36%
+- **EXTREME (cetuximab + cisplatin/carboplatin + 5-FU):** [^vermorken-2008-extreme] OS 10.1 vs. 7.4 months vs. chemo alone; FDA approved 2011; still used for CPS<1 patients where pembrolizumab alone is not recommended; 6 cycles then maintenance cetuximab
+
+**Second-line and beyond:**
+- **Nivolumab (CheckMate 141):** OS 7.5 vs. 5.1 months vs. chemotherapy in platinum-refractory R/M HNSCC; ORR 13%; FDA approved 2016; now largely used after pembrolizumab failure
+- **Cetuximab monotherapy:** ORR ~13% in platinum-refractory disease; option for cetuximab-naive patients
+- **Docetaxel, paclitaxel, methotrexate:** Palliative options in later lines
+
+**Nasopharyngeal carcinoma (NPC — distinct from HNSCC):**
+- EBV-associated (>95% of undifferentiated/non-keratinizing NPC in endemic regions)
+- Cisplatin + radiation (NPC-specific protocols); induction chemotherapy with cisplatin+gemcitabine → CRT for locally advanced
+- Pembrolizumab and nivolumab active in recurrent/metastatic EBV+ NPC
+
+## Connections
+
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR overexpression in ~90% of HNSCC (mainly copy number gain, not mutation); cetuximab (anti-EGFR mAb) + cisplatin/5-FU (EXTREME regimen) improved OS vs. chemo alone (10.1 vs. 7.4 months); cetuximab + radiation is definitive for locally advanced HNSCC in platinum-ineligible patients.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Pembrolizumab (KEYNOTE-048) improved OS vs. EXTREME in PD-L1 CPS≥20 (14.9 vs. 10.7 months) and CPS≥1 (13.6 vs. 10.4 months); pembrolizumab+chemotherapy improved OS for CPS≥1; nivolumab (CheckMate 141) improved OS vs. chemotherapy in platinum-refractory R/M HNSCC.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations in ~80% of HPV-negative HNSCC (UV and tobacco mutational signatures; R175H, R248W hotspots); HPV-positive HNSCC has WT TP53 (HPV E6 degrades p53 via E6AP ubiquitin ligase); TP53 mutation correlates with poor prognosis and cisplatin resistance in HNSCC.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutation/amplification in ~20-30% of HNSCC; especially HPV-positive oropharyngeal HNSCC (HPV E7 → retinoblastoma pathway disruption → CDK activation; HPV-positive HNSCC has higher PI3K pathway activation); PI3K inhibitors (copanlisib, alpelisib) studied in HNSCC; AKT inhibitors in clinical trials.
+
+[^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
+[^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
