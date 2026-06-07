@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/03-molecular/apoe
     relation: connects-to
     note: "APOE4 (frequency ~15%) confers 3-4x heterozygous and 8-12x homozygous risk for late-onset AD; APOE4 impairs microglial Aβ phagocytosis, promotes Aβ aggregation, and worsens tau pathology; APOE4 homozygotes develop AD ~10 years earlier than APOE3 carriers."
+  - target: 01-human/03-molecular/app
+    relation: connects-to
+    note: "APP FAD mutations (V717I, Swedish K670N/M671L) and trisomy 21 increase Aβ42 via β/γ-secretase cleavage; Aβ42 oligomers are synaptotoxic and seed amyloid plaques; lecanemab (anti-Aβ protofibrils) slows cognitive decline 27% in MCI and mild AD."
 ---
 
 # Alzheimer's Disease
@@ -150,6 +153,7 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Aβ fibrils activate NLRP3 in microglia → IL-1β and pyroptosis → neuroinflammation and tau propagation; NLRP3 inhibition reduces AD pathology in mouse models.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — autophagy clears APP fragments and aggregated tau; declining autophagic flux in aging and AD contributes to plaque and tangle accumulation; lysosomal dysfunction is a primary AD pathomechanism; rapamycin-induced autophagy is neuroprotective in mouse models.
 - `connects-to` → **[APOE](../../03-molecular/apoe/README.md)** — APOE4 (frequency ~15%) confers 3-4x heterozygous and 8-12x homozygous risk for late-onset AD; APOE4 impairs microglial Aβ phagocytosis, promotes Aβ aggregation, and worsens tau pathology; APOE4 homozygotes develop AD ~10 years earlier than APOE3 carriers.
+- `connects-to` → **[APP](../../03-molecular/app/README.md)** — APP FAD mutations (V717I, Swedish K670N/M671L) and trisomy 21 increase Aβ42 via β/γ-secretase cleavage; Aβ42 oligomers are synaptotoxic and seed amyloid plaques; lecanemab (anti-Aβ protofibrils) slows cognitive decline 27% in MCI and mild AD.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
