@@ -57,6 +57,12 @@ cross_links:
   - target: 01-human/03-molecular/hiv-gp120
     relation: connects-to
     note: "After HIV entry via gp120/gp41, reverse transcription generates cytosolic dsDNA → cGAS → cGAMP → STING → IFN-β; HIV capsid shields DNA during nuclear pore transit; TREX1 degrades incomplete RT products; SAMHD1 restricts RT by dNTP depletion, upstream of cGAS sensing."
+  - target: 01-human/07-system/sars-cov-2
+    relation: connects-to
+    note: "SARS-CoV-2 generates cytosolic DNA via reverse transcription → cGAS sensing; ORF9b targets TOM70 → inhibits MAVS-cGAS-STING cross-talk; STING agonists (diABZI) activate innate immunity; STING-driven IFN-β correlates with mild COVID-19 and reduced viral load in early infection."
+  - target: 01-human/03-molecular/sars-cov-2-spike
+    relation: connects-to
+    note: "SARS-CoV-2 Spike-mediated syncytia → apoptotic nuclear/mtDNA release → cGAS → IFN-β; Spike TLR2/TLR4 signaling activates STING-NF-κB in endothelial cells; Spike-driven cell-cell fusion amplifies cGAS-STING activation and ISG expression in SARS-CoV-2-infected lung epithelium."
 ---
 
 # cGAS-STING
@@ -152,3 +158,7 @@ STING → TRAF6 (K63-linked ubiquitination) → TAK1 → IKKβ → IκBα phosph
 **→ [HIV](../../../07-system/hiv/)**: HIV reverse transcription generates cytosolic dsDNA → cGAS → cGAMP → STING → IFN-β; HIV capsid-CPSF6 nuclear import limits cytosolic DNA exposure to evade cGAS; TREX1 degrades incomplete RT products; SAMHD1 blocks RT by depleting dNTPs upstream of cGAS sensing.
 
 **→ [HIV gp120](../hiv-gp120/)**: After gp120/gp41-mediated entry, reverse transcription generates cytosolic HIV dsDNA → cGAS → cGAMP → STING → IFN-β; HIV capsid shields DNA during nuclear pore transit to limit cGAS sensing; TREX1 degrades incomplete RT products; SAMHD1 restricts RT by dNTP depletion, upstream of cGAS.
+
+**→ [SARS-CoV-2](../../../07-system/sars-cov-2/)**: SARS-CoV-2 generates cytosolic DNA via reverse transcription → cGAS sensing; ORF9b targets TOM70 → inhibits MAVS-cGAS-STING cross-talk; STING agonists (diABZI) activate innate immunity; STING-driven IFN-β correlates with mild COVID-19 and reduced viral load in early infection.
+
+**→ [SARS-CoV-2 Spike](../sars-cov-2-spike/)**: SARS-CoV-2 Spike-mediated syncytia → apoptotic nuclear/mtDNA release → cGAS → IFN-β; Spike TLR2/TLR4 signaling activates STING-NF-κB in endothelial cells; Spike-driven cell-cell fusion amplifies cGAS-STING activation and ISG expression in SARS-CoV-2-infected lung epithelium.

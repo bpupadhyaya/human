@@ -109,6 +109,12 @@ cross_links:
   - target: 01-human/03-molecular/hiv-gp120
     relation: connects-to
     note: "gp120 binding to CD4 on T cells activates NF-κB → T cell activation → permissive environment for HIV replication; HIV LTR κB sites (×2) require NF-κB p65/p50 for proviral transcription; Tat + NF-κB cooperate at LTR for maximal HIV gene expression."
+  - target: 01-human/07-system/sars-cov-2
+    relation: connects-to
+    note: "SARS-CoV-2 activates NF-κB via TLR2 sensing, MAVS → IKKβ, and ACE2 downregulation → Ang II → AT1R → NF-κB; Spike-induced NF-κB amplifies cytokine storm (IL-6, TNF-α, IL-1β); NSP3 PLpro deubiquitinates NF-κB pathway intermediates to modulate antiviral signaling."
+  - target: 01-human/03-molecular/sars-cov-2-spike
+    relation: connects-to
+    note: "SARS-CoV-2 Spike activates TLR2/TLR4 → NF-κB in airway epithelium and endothelial cells; Spike-induced ACE2 downregulation → Ang II excess → AT1R → NF-κB → cytokine storm; NF-κB inhibition (baricitinib) is the mechanistic basis of anti-inflammatory therapy in severe COVID-19."
 ---
 
 # NF-κB
@@ -239,6 +245,8 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 - `connects-to` → **[LMP1](../lmp1/README.md)** — LMP1 CTAR1 → TRAF1/2/3 → NIK → IKKα → p100 → p52/RelB (non-canonical); CTAR2 → TRADD → TRAF6 → TAK1 → IKKβ → IκBα → p65/p50 (canonical); dual NF-κB pathway activation by one viral protein; constitutive BCL-2, ICAM-1, IL-6, TRAF1 → B cell survival.
 - `connects-to` → **[HIV](../../07-system/hiv/README.md)** — HIV-1 LTR has two κB sites; NF-κB p65/p50 drives transcription from integrated provirus; T cell activation (TCR/CD28 → IKKβ → NF-κB) reactivates latent HIV; Tat cooperates with NF-κB at LTR → high-level virion production; NF-κB inhibition explored for latency reversal.
 - `connects-to` → **[HIV gp120](../hiv-gp120/README.md)** — gp120 binding to CD4 on T cells activates NF-κB → T cell activation → permissive environment for HIV replication; HIV LTR κB sites (×2) require NF-κB p65/p50 for proviral transcription; Tat + NF-κB cooperate at LTR for maximal HIV gene expression.
+- `connects-to` → **[SARS-CoV-2](../../07-system/sars-cov-2/README.md)** — SARS-CoV-2 activates NF-κB via TLR2 sensing, MAVS → IKKβ, and ACE2 downregulation → Ang II → AT1R → NF-κB; Spike-induced NF-κB amplifies cytokine storm (IL-6, TNF-α, IL-1β); NSP3 PLpro deubiquitinates NF-κB pathway intermediates to modulate antiviral signaling.
+- `connects-to` → **[SARS-CoV-2 Spike](../sars-cov-2-spike/README.md)** — SARS-CoV-2 Spike activates TLR2/TLR4 → NF-κB in airway epithelium and endothelial cells; Spike-induced ACE2 downregulation → Ang II excess → AT1R → NF-κB → cytokine storm; NF-κB inhibition (baricitinib) is the mechanistic basis of anti-inflammatory therapy in severe COVID-19.
 
 ## Pathology
 

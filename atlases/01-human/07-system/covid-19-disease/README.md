@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: targets
     note: "SARS-CoV-2 infects upper and lower respiratory epithelium via ACE2; initial upper respiratory replication (nasal turbinates, oropharynx) is followed by lower respiratory spread in severe cases, causing COVID-19 pneumonia and respiratory failure."
+  - target: 01-human/07-system/sars-cov-2
+    relation: connects-to
+    note: "SARS-CoV-2 betacoronavirus causes COVID-19; NSP5 Mpro (nirmatrelvir), NSP12 RdRp (remdesivir), and Spike (vaccine antigen) are the key drug/vaccine targets; NSP1/ORF6 IFN evasion enables early viral amplification; Omicron immune escape lineages drive ongoing pandemic waves."
+  - target: 01-human/03-molecular/sars-cov-2-spike
+    relation: connects-to
+    note: "SARS-CoV-2 Spike is the COVID-19 vaccine antigen; RBD:ACE2 binding (Kd ~15 nM) initiates infection of airway epithelium and type II pneumocytes; Spike-mediated ACE2 internalization amplifies ARDS; 2P-stabilized prefusion Spike is the basis of all approved mRNA vaccines."
 ---
 
 # COVID-19 Disease
@@ -112,6 +118,8 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — severe COVID-19 is characterized by pathological cytokine release (IL-6, IL-1β, TNF-α, ferritin elevation); cytokine storm is the proximate driver of ARDS, vascular injury, and multiorgan failure in critical COVID-19.
 - `targets` → **[Lung](../../06-organ/lung/README.md)** — the lung is the primary COVID-19 target organ; diffuse alveolar damage, type II pneumocyte necrosis, and pulmonary vascular thrombosis produce the bilateral ground-glass infiltrates and hypoxemia of COVID-19 pneumonia.
 - `targets` → **[Respiratory System](../respiratory-system/README.md)** — SARS-CoV-2 initiates infection in the upper respiratory epithelium (ACE2-TMPRSS2 expression) and progresses to lower respiratory tract pneumonitis in severe disease; respiratory failure is the leading cause of COVID-19 mortality.
+- `connects-to` → **[SARS-CoV-2](../sars-cov-2/README.md)** — SARS-CoV-2 is the causative betacoronavirus; NSP5 Mpro (nirmatrelvir), NSP12 RdRp (remdesivir), and Spike (vaccine antigen) are the key targets; NSP1/ORF6 IFN evasion enables early viral amplification before adaptive immunity responds.
+- `connects-to` → **[SARS-CoV-2 Spike](../../03-molecular/sars-cov-2-spike/README.md)** — Spike is the primary COVID-19 vaccine antigen; RBD:ACE2 binding initiates infection; Spike-mediated ACE2 internalization amplifies ARDS; 2P prefusion-stabilized Spike is the basis of all approved mRNA vaccines; Omicron BA.1's 37 Spike mutations drive extensive immune escape.
 
 ## Pathology
 

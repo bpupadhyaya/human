@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/rsv-f-protein
     relation: connects-to
     note: "gp41 (triggered by gp120-CD4 binding) is a class I fusogen — HR1/HR2 six-helix bundle analogous to RSV-F and SARS-CoV-2 S2; gp41 MPER targeted by 10E8/4E10 bNAbs analogous to anti-preF site Ø; SOSIP IP proline stabilization parallels DS-Cav1 RSV-F locking."
+  - target: 01-human/03-molecular/sars-cov-2-spike
+    relation: connects-to
+    note: "SARS-CoV-2 S2 and HIV gp41 are class I viral fusogens — HR1/HR2 six-helix bundles drive membrane merger; 2P proline locking of prefusion Spike parallels SOSIP IP stabilization of HIV Env; Spike and gp120 both carry N-glycan shields masking conserved neutralizing epitopes."
 ---
 
 # HIV gp120
@@ -194,6 +197,8 @@ The **BG505 SOSIP.664** (Sanders et al. 2013 [^sanders-2013-sosip-trimer]) is a 
 **→ [NF-κB](../nf-kb/)**: gp120 binding to CD4 on uninfected T cells activates NF-κB signaling → T cell activation state → permissive environment for productive HIV infection; HIV-1 LTR κB sites (×2) require NF-κB p65/p50 for proviral transcription; Tat + NF-κB cooperate at LTR for maximal HIV gene expression.
 
 **→ [RSV F Protein](../rsv-f-protein/)**: gp41 (triggered by gp120-CD4 binding) is a class I viral fusogen with HR1/HR2 forming a six-helix bundle, analogous to RSV-F and SARS-CoV-2 S2 fusion machinery; prefusion gp41 is the functional homologue of prefusion RSV-F; MPER of gp41 = analogue of fusion peptide proximal region; both are targets of the broadest neutralizing antibodies.
+
+**→ [SARS-CoV-2 Spike](../sars-cov-2-spike/)**: SARS-CoV-2 S2 and HIV gp41 are both class I viral fusogens — HR1/HR2 six-helix bundle mechanism drives membrane fusion; 2P proline locking of prefusion SARS-CoV-2 Spike is structurally parallel to SOSIP IP stabilization of the HIV Env trimer; both Spike and gp120 deploy N-glycan shields masking conserved neutralizing antibody epitopes.
 
 [^kwong-1998-gp120-structure]: Kwong PD, Wyatt R, Robinson J, et al. Structure of an HIV gp120 envelope glycoprotein in complex with the CD4 receptor and a neutralizing human antibody. *Nature.* 1998;393(6686):648-659. [doi:10.1038/31405](https://doi.org/10.1038/31405) · [PubMed 9641677](https://pubmed.ncbi.nlm.nih.gov/9641677/)
 [^walker-2011-broadly-neutralizing]: Walker LM, Huber M, Doores KJ, et al. Broad neutralization coverage of HIV by multiple highly potent antibodies. *Nature.* 2011;477(7365):466-470. [doi:10.1038/nature10373](https://doi.org/10.1038/nature10373) · [PubMed 21849977](https://pubmed.ncbi.nlm.nih.gov/21849977/)

@@ -42,6 +42,9 @@ cross_links:
   - target: 01-human/03-molecular/hiv-gp120
     relation: connects-to
     note: "gp41 (triggered by gp120-CD4 binding) is a class I viral fusogen with HR1/HR2 six-helix bundle analogous to RSV-F and SARS-CoV-2 S2; gp41 MPER targeted by 10E8 bNAbs analogous to anti-preF site Ø antibodies; SOSIP IP proline mutation parallels DS-Cav1 preF locking strategy."
+  - target: 01-human/03-molecular/sars-cov-2-spike
+    relation: connects-to
+    note: "SARS-CoV-2 S2 and RSV F are both class I viral fusogens with HR1/HR2 six-helix bundles driving membrane merger; 2P proline stabilization of SARS-CoV-2 prefusion Spike (K986P/V987P) structurally parallels DS-Cav1 RSV preF locking; mRNA vaccine platforms encode both antigens."
 ---
 
 # RSV F Protein
@@ -164,6 +167,8 @@ The FI-RSV disaster (Chin et al. 1969) taught four principles now embedded in va
 **→ [Type I Interferon](../type-i-interferon/)**: RSV NS1/NS2 collectively suppress type I IFN at multiple levels (NS1→TRIM25/IRF3; NS2→STAT2); prefusion-stabilized F vaccines (DS-Cav1 design) induce high-titer site Ø neutralizing antibodies without relying on IFN-amplified immunity; IFN-λ (type III) at mucosal surfaces remains the dominant innate antiviral defense that NS1/NS2 cannot fully block.
 
 **→ [HIV gp120](../hiv-gp120/)**: gp41 (triggered by gp120-CD4 binding) is a class I viral fusogen with HR1/HR2 six-helix bundle analogous to RSV-F and SARS-CoV-2 S2; gp41 MPER targeted by 10E8 bNAbs analogous to anti-preF site Ø antibodies; SOSIP IP proline mutation parallels DS-Cav1 preF locking strategy.
+
+**→ [SARS-CoV-2 Spike](../sars-cov-2-spike/)**: SARS-CoV-2 S2 and RSV F are both class I viral fusogens with HR1/HR2 six-helix bundles driving membrane merger; 2P proline stabilization of prefusion SARS-CoV-2 Spike (K986P/V987P) structurally parallels DS-Cav1 RSV-F locking; mRNA-LNP vaccine platforms encode both antigens using the same LNP delivery technology.
 
 [^mclellan-2013-prefusion-f-structure]: McLellan JS, Chen M, Leung S, et al. Structure-based design of a fusion glycoprotein vaccine for respiratory syncytial virus. *Science.* 2013;342(6158):592-598. [doi:10.1126/science.1234914](https://doi.org/10.1126/science.1234914) · [PubMed 23618766](https://pubmed.ncbi.nlm.nih.gov/23618766/)
 [^mazur-2018-rsv-vaccine-landscape]: Mazur NI, Higgins D, Nunes MC, et al. The respiratory syncytial virus vaccine landscape: lessons from the graveyard and promising candidates. *Lancet Infect Dis.* 2018;18(10):e295-e311. [doi:10.1016/S1473-3099(18)30292-5](https://doi.org/10.1016/S1473-3099(18)30292-5) · [PubMed 29954680](https://pubmed.ncbi.nlm.nih.gov/29954680/)

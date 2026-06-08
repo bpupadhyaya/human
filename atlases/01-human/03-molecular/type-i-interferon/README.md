@@ -34,9 +34,12 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Type I IFN signature is elevated in ~50% of SSc patients, particularly anti-RNA pol III+ dcSSc; IFN-α promotes plasmacytoid DC activation and anti-nuclear antibody amplification; type I IFN and TGF-β cooperate to drive SSc fibroblast activation and ILD progression."
-  - target: 02-pathogen/01-viruses/sars-cov-2
+  - target: 01-human/07-system/sars-cov-2
     relation: connects-to
-    note: "SARS-CoV-2 encodes multiple IFN evasion proteins (NSP1 blocks translation, NSP3 papain-like protease deISGylates, ORF6 blocks STAT1 nuclear import); impaired early IFN-β response predicts severe COVID-19; type I IFN treatment window closes after peak viral replication."
+    note: "NSP1 blocks mRNA translation; NSP3 PLpro deISGylates IRF3/STING; NSP16 2′-O-methyltransferase evades MDA5; ORF6 blocks STAT1/2 import; NSP13 disrupts TBK1; ORF9b inhibits MAVS; impaired early IFN-β is the key host determinant of COVID-19 severity."
+  - target: 01-human/03-molecular/sars-cov-2-spike
+    relation: connects-to
+    note: "SARS-CoV-2 Spike activates TLR2/TLR4 → NF-κB + IRF3 → IFN-β in airway epithelium; Spike-mediated syncytia generate apoptotic DNA → cGAS → IFN-β; Spike 2P mRNA vaccine-induced ISGs provide antiviral state; Spike 6P stabilization (NVX) drives superior Th1 + IFN-γ response."
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "TLR7/9 → MyD88 → IRF7 and TBK1 → IRF3 pathways activate type I IFN in parallel with NF-κB; NF-κB drives IFN-β enhanceosome formation (NF-κB + IRF3 + AP-1 at IFN-β promoter); type I IFN-induced ISGs suppress NF-κB through STAT1 and SOCS1."
@@ -195,7 +198,8 @@ Monogenic diseases of uncontrolled type I IFN production:
 
 - `connects-to` → **[Systemic Lupus Erythematosus](../../07-system/systemic-lupus-erythematosus/README.md)** — Type I IFN signature (↑MX1, ↑OAS1, ↑ISG15) is present in ~75% of SLE patients; IFN-α amplifies plasmacytoid DC activation, anti-dsDNA production, and NET formation; anifrolumab (anti-IFNAR1) reduced disease activity in TULIP-2 (SRI-4 response 47.8% vs. 31.5%).
 - `connects-to` → **[Systemic Sclerosis](../../07-system/systemic-sclerosis/README.md)** — Type I IFN signature is elevated in ~50% of SSc patients, particularly anti-RNA pol III+ dcSSc; IFN-α promotes plasmacytoid DC activation and anti-nuclear antibody amplification; type I IFN and TGF-β cooperate to drive SSc fibroblast activation and ILD progression.
-- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — SARS-CoV-2 encodes multiple IFN evasion proteins (NSP1 blocks translation, NSP3 papain-like protease deISGylates, ORF6 blocks STAT1 nuclear import); impaired early IFN-β response predicts severe COVID-19; type I IFN treatment window closes after peak viral replication.
+- `connects-to` → **[SARS-CoV-2](../../07-system/sars-cov-2/README.md)** — NSP1 blocks mRNA translation; NSP3 PLpro deISGylates IRF3/STING; NSP16 2′-O-methyltransferase evades MDA5; ORF6 blocks STAT1/2 import; NSP13 disrupts TBK1; ORF9b inhibits MAVS; impaired early IFN-β is the key host determinant of COVID-19 severity.
+- `connects-to` → **[SARS-CoV-2 Spike](../sars-cov-2-spike/README.md)** — SARS-CoV-2 Spike activates TLR2/TLR4 → NF-κB + IRF3 → IFN-β in airway epithelium; Spike-mediated syncytia generate apoptotic DNA → cGAS → IFN-β; Spike 2P mRNA vaccine-induced ISGs provide antiviral state; Spike 6P stabilization (NVX) drives superior Th1 + IFN-γ response.
 - `connects-to` → **[NF-κB](../nf-kb/README.md)** — TLR7/9 → MyD88 → IRF7 and TBK1 → IRF3 pathways activate type I IFN in parallel with NF-κB; NF-κB drives IFN-β enhanceosome formation (NF-κB + IRF3 + AP-1 at IFN-β promoter); type I IFN-induced ISGs suppress NF-κB through STAT1 and SOCS1.
 - `connects-to` → **[Dermatomyositis](../../07-system/dermatomyositis/README.md)** — Type I IFN signature (↑MX1, ↑OAS1, ↑RSAD2) is elevated in muscle and blood in >80% of DM; anti-MDA5 (IFIH1) senses dsRNA → MAVS-TBK1-IRF3 → IFN-β; pDC infiltration drives DM interferonopathy; anifrolumab (anti-IFNAR1) under investigation for DM.
 - `connects-to` → **[NMOSD](../../07-system/nmo/README.md)** — IFN-β is CONTRAINDICATED in AQP4-IgG+ NMOSD — clinical trials showed IFN-β increases attack frequency; IFN-β may promote plasmablast differentiation → higher AQP4-IgG titers; distinguishes NMOSD from MS (where IFN-β is first-line).

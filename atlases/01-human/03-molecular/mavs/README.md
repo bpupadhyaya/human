@@ -78,6 +78,12 @@ cross_links:
   - target: 01-human/03-molecular/hiv-gp120
     relation: connects-to
     note: "HIV gp120/gp41-mediated viral entry precedes innate sensing; cytosolic HIV reverse transcription products activate RIG-I/MDA5 → MAVS → IFN-β; HIV Vif degrades APOBEC3G; CPSF6-capsid nuclear pore threading evades cytosolic sensing before MAVS activation during nuclear import."
+  - target: 01-human/07-system/sars-cov-2
+    relation: connects-to
+    note: "SARS-CoV-2 +ssRNA and 5′ppp DI-particle RNA activate RIG-I → MAVS → IRF3 → IFN-β; NSP6 sequesters MAVS; NSP13 disrupts TBK1; ORF9b binds TOM70 → inhibits MAVS mitochondrial import; NSP16 2′-O-methyltransferase evades MDA5; impaired MAVS-IFN correlates with COVID-19 severity."
+  - target: 01-human/03-molecular/sars-cov-2-spike
+    relation: connects-to
+    note: "SARS-CoV-2 Spike-mediated syncytium formation → apoptotic cell death → mtDNA/nuclear DNA release → cytosolic DNA sensing via cGAS → STING → TBK1 (parallel to MAVS); Spike 5′ppp DI-particle RNA → RIG-I → MAVS; NSP16 2′-O-methyltransferase prevents Spike mRNA recognition by MDA5."
 ---
 
 # MAVS
@@ -187,3 +193,7 @@ Primary sensor for long dsRNA (>1 kb):
 **→ [HIV](../../../07-system/hiv/)**: HIV ssRNA/dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → IRF3 → IFN-β; Vif degrades APOBEC3G; HIV capsid-CPSF6 nuclear pore threading evades cytosolic sensing before MAVS activation; Vpx (HIV-2) degrades SAMHD1 to enable reverse transcription in macrophages.
 
 **→ [HIV gp120](../hiv-gp120/)**: HIV gp120/gp41-mediated viral entry precedes innate sensing; cytosolic HIV reverse transcription products activate RIG-I/MDA5 → MAVS → IFN-β; HIV Vif degrades APOBEC3G; CPSF6-capsid nuclear pore threading evades cytosolic sensing before MAVS activation during nuclear import.
+
+**→ [SARS-CoV-2](../../../07-system/sars-cov-2/)**: SARS-CoV-2 +ssRNA and 5′ppp DI-particle RNA activate RIG-I → MAVS → IRF3 → IFN-β; NSP6 sequesters MAVS; NSP13 disrupts TBK1; ORF9b binds TOM70 → inhibits MAVS mitochondrial import; NSP16 2′-O-methyltransferase evades MDA5; impaired MAVS-IFN correlates with COVID-19 severity.
+
+**→ [SARS-CoV-2 Spike](../sars-cov-2-spike/)**: SARS-CoV-2 Spike-mediated syncytium formation → apoptotic cell death → mtDNA/nuclear DNA release → cytosolic DNA sensing via cGAS → STING → TBK1 (parallel to MAVS); Spike 5′ppp DI-particle RNA → RIG-I → MAVS; NSP16 2′-O-methyltransferase prevents Spike mRNA recognition by MDA5.

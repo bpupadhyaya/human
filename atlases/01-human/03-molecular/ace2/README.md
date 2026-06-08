@@ -54,6 +54,12 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: modulates
     note: "Renal ACE2 regulates tubular amino acid transport (collectrin-like domain) and counter-balances RAAS-driven renal inflammation and fibrosis."
+  - target: 01-human/07-system/sars-cov-2
+    relation: connects-to
+    note: "SARS-CoV-2 Spike RBD binds ACE2 (Kd ~15 nM) as obligate entry receptor; Spike:ACE2 binding triggers ACE2 internalization → RAAS imbalance (Ang II excess → ARDS, hypertension); TMPRSS2 preferred in lung for S2′ cleavage; soluble ACE2 (sACE2) acts as decoy receptor in COVID-19."
+  - target: 01-human/03-molecular/sars-cov-2-spike
+    relation: connects-to
+    note: "SARS-CoV-2 Spike RBD:ACE2 interface buries ~1700 Å² — 18 RBD + 17 ACE2 contact residues; ACE2 Lys31 and Lys353 are critical contact points; N501Y (Alpha) enhances ACE2 affinity ~10×; Spike-mediated ACE2 internalization impairs RAAS counter-regulation in COVID-19 lung."
 ---
 
 # Angiotensin-Converting Enzyme 2
@@ -137,6 +143,8 @@ ACE2 → Ang 1-7 → MAS receptor → Gαi coupling → PI3K/Akt activation → 
 - `modulates` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — central RAAS regulator; ACE2 loss worsens hypertension, cardiac remodeling, and HF
 - `expressed-by` → **[Lung](../../06-organ/lung/README.md)** — alveolar ACE2 mediates SARS-CoV-2 pulmonary infection and ARDS amplification
 - `expressed-by` → **[Kidney](../../06-organ/kidney/README.md)** — tubular/podocyte ACE2 mediates COVID-19 nephropathy
+- `connects-to` → **[SARS-CoV-2](../../07-system/sars-cov-2/README.md)** — SARS-CoV-2 Spike RBD binds ACE2 as the obligate entry receptor; Spike:ACE2 binding triggers ACE2 internalization, shifting RAAS toward Ang II excess; TMPRSS2 (lung) and cathepsin B/L (endosomal) activate S2 after ACE2 binding; sACE2 serves as a soluble decoy receptor.
+- `connects-to` → **[SARS-CoV-2 Spike](../sars-cov-2-spike/README.md)** — Spike RBD:ACE2 interface buries ~1700 Å²; ACE2 Lys31 and Lys353 are critical contact points; N501Y (Alpha) enhances affinity ~10×; Spike-mediated ACE2 internalization impairs RAAS counter-regulation and amplifies COVID-19 ARDS.
 
 ## Pathology
 
