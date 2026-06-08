@@ -37,6 +37,12 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: modulates
     note: "VEGF-A is highly expressed by type II pneumocytes and is critical for pulmonary vascular maintenance; reduced VEGF signaling contributes to endothelial apoptosis and alveolar destruction in emphysema; VEGF is elevated in the lungs of patients with pulmonary edema."
+  - target: 01-human/07-system/diabetic-retinopathy
+    relation: connects-to
+    note: "VEGF-A drives DME and PDR neovascularization; hypoxic retina → HIF-1α → VEGF → VEGFR-2 → endothelial proliferation and barrier disruption; anti-VEGF (ranibizumab, aflibercept, bevacizumab) is the first-line treatment for center-involving DME and PDR."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Ang-2 destabilizes vessel walls (pericyte detachment, junction opening) → sensitizes endothelium to VEGF → maximal angiogenic sprouting; faricimab dual blockade (anti-Ang-2 + anti-VEGF-A) reduces edema and neovascularization more effectively than anti-VEGF monotherapy."
 ---
 
 # VEGF
@@ -135,6 +141,8 @@ Additional VEGF inducers: oncogene activation (Ras→Raf→VEGF); mutant p53 (vi
 - `acts-on` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — VEGF-A binding to VEGFR-2 is the primary angiogenic signal; endothelial cells respond with tip/stalk cell selection, proliferation, migration, and tube formation — the cellular events underlying new blood vessel growth.
 - `connects-to` → **[Nitric Oxide](../nitric-oxide/README.md)** — VEGF activates eNOS via VEGFR-2→PI3K→Akt, producing NO that mediates VEGF-dependent vasodilation and increased vascular permeability; eNOS-derived NO also promotes endothelial cell survival.
 - `modulates` → **[Lung](../../06-organ/lung/README.md)** — VEGF-A is essential for pulmonary vascular maintenance; reduced VEGF contributes to emphysema; VEGF elevation drives pulmonary edema in ARDS and high-altitude pulmonary edema.
+- `connects-to` → **[Diabetic Retinopathy](../../07-system/diabetic-retinopathy/README.md)** — VEGF-A drives DME and PDR neovascularization; hypoxic retina → HIF-1α → VEGF → VEGFR-2 → endothelial proliferation and barrier disruption; anti-VEGF (ranibizumab, aflibercept, bevacizumab) is the first-line treatment for center-involving DME and PDR.
+- `connects-to` → **[Angiopoietin](../angiopoietin/README.md)** — Ang-2 destabilizes vessel walls (pericyte detachment, junction opening) → sensitizes endothelium to VEGF → maximal angiogenic sprouting; faricimab dual blockade (anti-Ang-2 + anti-VEGF-A) reduces edema and neovascularization more effectively than anti-VEGF monotherapy.
 
 [^ferrara-2003-vegf]: Ferrara N, Gerber HP, LeCouter J. The biology of VEGF and its receptors. *Nat Med.* 2003;9(6):669-676. [doi:10.1038/nm0603-669](https://doi.org/10.1038/nm0603-669) · [PubMed 12778165](https://pubmed.ncbi.nlm.nih.gov/12778165/)
 [^hurwitz-2004-bevacizumab]: Hurwitz H, Fehrenbacher L, Novotny W, et al. Bevacizumab plus irinotecan, fluorouracil, and leucovorin for metastatic colorectal cancer. *N Engl J Med.* 2004;350(23):2335-2342. [doi:10.1056/NEJMoa032691](https://doi.org/10.1056/NEJMoa032691) · [PubMed 15175435](https://pubmed.ncbi.nlm.nih.gov/15175435/)

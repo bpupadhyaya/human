@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "ET-1 is the most potent vasoconstrictor and is elevated in resistant hypertension, CKD-related hypertension, and preeclampsia; ETA receptor on vascular smooth muscle → vasoconstriction; ETB receptor on endothelium → NO and PGI2 (counterbalances); dual ERA bosentan lowers BP."
+  - target: 01-human/07-system/diabetic-retinopathy
+    relation: connects-to
+    note: "Hypertension accelerates DR through retinal arteriolar pressure, shear stress, and RAAS activation; BP control to <130/80 mmHg reduces DR progression by ~30% (UKPDS); hypertensive retinopathy and DR frequently coexist and share pathophysiology."
 ---
 
 # Hypertension
@@ -138,6 +141,7 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `modulates` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — hypertensive shear stress damages endothelium; endothelial NO deficiency sustains elevated BP
 - `modulated-by` → **[Renin](../../03-molecular/renin/README.md)** — Renin is the rate-limiting enzyme of the RAAS: released from JG cells in response to reduced perfusion, low macula densa NaCl, and β1-adrenergic stimulation → angiotensinogen → Ang I → Ang II; aliskiren (direct renin inhibitor) reduces BP; ARR screens for primary aldosteronism.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — ET-1 is the most potent vasoconstrictor and is elevated in resistant hypertension, CKD-related hypertension, and preeclampsia; ETA receptor on vascular smooth muscle → vasoconstriction; ETB receptor on endothelium → NO and PGI2 (counterbalances); dual ERA bosentan lowers BP.
+- `connects-to` → **[Diabetic Retinopathy](../diabetic-retinopathy/README.md)** — Hypertension accelerates DR through retinal arteriolar pressure, shear stress, and RAAS activation; BP control to <130/80 mmHg reduces DR progression by ~30% (UKPDS); hypertensive retinopathy and DR frequently coexist and share pathophysiology.
 
 ## Pathology
 

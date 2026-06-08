@@ -31,6 +31,9 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: part-of
     note: "The retina is developmental brain tissue (diencephalon outgrowth); the optic nerve is a CNS tract (not peripheral nerve); the visual pathway extends from retina through LGN to primary visual cortex (V1). The eye is functionally part of the CNS visual system."
+  - target: 01-human/07-system/diabetic-retinopathy
+    relation: connects-to
+    note: "Diabetic retinopathy targets the retina: pericyte loss → microaneurysms → exudates → macular edema → neovascularization → vitreous hemorrhage → tractional retinal detachment; foveal photoreceptors are most critical for central vision and most vulnerable to DME-driven damage."
 ---
 
 # Eye
@@ -113,6 +116,7 @@ Intraocular pressure homeostasis: production rate = outflow rate at IOP equilibr
 
 - `contains` → **[Neuron](../../04-cellular/neuron/README.md)** — ~6 million cones, ~120 million rods, and ~1.2 million retinal ganglion cells are the photoreceptor and output neurons of the retina; the optic nerve carries ~1 million axons to the LGN
 - `part-of` → **[Nervous System](../../07-system/nervous-system/README.md)** — the retina is developmentally diencephalic; the optic nerve is a CNS tract; the eye is the sensory peripheral component of the CNS visual system
+- `connects-to` → **[Diabetic Retinopathy](../../07-system/diabetic-retinopathy/README.md)** — Diabetic retinopathy targets the retina: pericyte loss → microaneurysms → exudates → macular edema → neovascularization → vitreous hemorrhage → tractional retinal detachment; foveal photoreceptors are most critical for central vision and most vulnerable to DME-driven damage.
 
 ## Pathology
 

@@ -1,0 +1,163 @@
+---
+schema: human-scale-entry/v1
+id: diabetic-retinopathy
+name: Diabetic Retinopathy
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "Diabetic retinopathy (DR) is the leading cause of blindness in working-age adults; hyperglycemia → pericyte loss → microaneurysms → neovascularization (PDR) → vitreous hemorrhage. VEGF + Ang-2 drive macular edema; anti-VEGF and faricimab are the treatment standard."
+aliases: ["DR", "diabetic eye disease", "non-proliferative DR", "NPDR", "proliferative DR", "PDR", "diabetic macular edema", "DME", "center-involving DME"]
+sources:
+  - id: fong-2004-dr-review
+    type: peer-reviewed
+    cite: "Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. Diabetes Care. 2004;27(10):2540-2553."
+    doi: "10.2337/diacare.27.10.2540"
+    pmid: "15451934"
+    url: "https://doi.org/10.2337/diacare.27.10.2540"
+  - id: brown-2015-aflibercept-protocol-t
+    type: peer-reviewed
+    cite: "Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, Ayala AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. N Engl J Med. 2015;372(13):1193-1203."
+    doi: "10.1056/NEJMoa1414264"
+    pmid: "25692915"
+    url: "https://doi.org/10.1056/NEJMoa1414264"
+  - id: wykoff-2022-faricimab-dr
+    type: peer-reviewed
+    cite: "Wykoff CC, Abreu F, Adamis AP, et al. Efficacy, durability, and safety of intravitreal faricimab with extended dosing up to every 16 weeks in patients with diabetic macular oedema (YOSEMITE and RHINE). Lancet. 2022;399(10326):741-755."
+    doi: "10.1016/S0140-6736(22)00018-6"
+    pmid: "35085503"
+    url: "https://doi.org/10.1016/S0140-6736(22)00018-6"
+cross_links:
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Ang-2 elevated in diabetic retinas → Tie2 destabilization → pericyte loss → endothelial junction opening → macular edema + neovascularization; faricimab (anti-Ang-2 + anti-VEGF-A) achieves Q16W dosing with non-inferior VA gains vs. aflibercept Q8W (YOSEMITE/RHINE)."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-A drives DME and PDR neovascularization; hypoxic retina → HIF-1α → VEGF → VEGFR-2 → endothelial proliferation and barrier disruption; anti-VEGF (ranibizumab, aflibercept, bevacizumab) is the first-line treatment for center-involving DME and PDR."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Hypertension accelerates DR through retinal arteriolar pressure, shear stress, and RAAS activation; BP control to <130/80 mmHg reduces DR progression by ~30% (UKPDS); hypertensive retinopathy and DR frequently coexist and share pathophysiology."
+  - target: 01-human/06-organ/eye
+    relation: targets
+    note: "Diabetic retinopathy targets the retina: pericyte loss → microaneurysms → exudates → macular edema → neovascularization → vitreous hemorrhage → tractional retinal detachment; the retina is the primary organ affected, with foveal photoreceptors most critical for central vision."
+---
+
+# Diabetic Retinopathy
+
+## Overview
+
+**Diabetic retinopathy (DR)** is the most common microvascular complication of diabetes mellitus and the **leading cause of new blindness in working-age adults (20-74 years)** in developed countries [^fong-2004-dr-review]. It affects approximately **103 million adults globally** (2020 estimate), with prevalence rising proportionally to diabetes duration — present in virtually all patients with T1DM after 20 years and in >60% of patients with T2DM after 20 years.
+
+DR encompasses a spectrum from subtle vascular changes to sight-threatening neovascularization:
+1. **Non-proliferative DR (NPDR):** Microaneurysms, dot-blot hemorrhages, hard exudates, cotton-wool spots, venous beading — graded mild, moderate, severe (4-2-1 rule: hemorrhages in 4 quadrants, venous beading in 2, intraretinal microvascular abnormalities in 1)
+2. **Proliferative DR (PDR):** Neovascularization (NV) of the disc (NVD) or elsewhere (NVE) on the retinal surface and into the vitreous; fibrovascular proliferation → tractional retinal detachment; vitreous hemorrhage causing sudden vision loss
+3. **Diabetic macular edema (DME):** Vascular permeability increase → fluid accumulation in the macula (fovea-involving = center-involving DME = vision-threatening); present at any stage of NPDR/PDR; affects ~7% of all diabetic patients
+
+**Pathophysiology cascade:** Chronic hyperglycemia → (1) advanced glycation end-products (AGEs) → receptor for AGE (RAGE) activation → oxidative stress + NF-κB; (2) polyol pathway flux → sorbitol accumulation → osmotic and oxidative stress; (3) PKC-β activation → VEGF upregulation → VEGFR-2 → vascular leak; (4) pericyte apoptosis (mechanism: selective pericyte glucose overload + PDGF-B resistance) → loss of vascular autoregulation → microaneurysm formation → hemostatic breakdown.
+
+**Ang-2/VEGF cooperative axis in DR:** Diabetes → elevated circulating and retinal Ang-2 (from activated endothelial Weibel-Palade bodies) → Tie2 destabilization → pericyte detachment → capillary non-perfusion zones → retinal hypoxia → HIF-1α → VEGF-A overexpression → VEGFR-2 activation → macular edema + PDR neovascularization. Ang-2 and VEGF act synergistically: Ang-2 primes the endothelium for VEGF-driven leak at lower VEGF concentrations than would otherwise be needed.
+
+## Structure
+
+### Classification and staging (ETDRS/DRCR.net)
+
+**NPDR severity scale (Early Treatment Diabetic Retinopathy Study):**
+
+| Grade | Features |
+|:---|:---|
+| Mild NPDR | Microaneurysms only |
+| Moderate NPDR | More than mild but less than severe; dot/blot hemorrhages, hard exudates, cotton-wool spots |
+| Severe NPDR | ≥1 of: hemorrhages 4 quadrants; venous beading 2 quadrants; IRMA 1 quadrant (4-2-1 rule); 15% progress to PDR within 1 year |
+| Very severe NPDR | 2 or more of the above criteria; 45% progress to PDR within 1 year |
+
+**PDR:**
+- High-risk PDR: NVD ≥1/3 disc area; or any NVD with vitreous hemorrhage; or NVE ≥1/2 disc area with vitreous hemorrhage → immediate panretinal photocoagulation (PRP) or anti-VEGF indicated
+- Advanced PDR: Tractional retinal detachment; vitreous hemorrhage preventing examination → vitrectomy required
+
+**Clinically significant macular edema (CSME — ETDRS definition):**
+- Retinal thickening at or within 500 µm of the fovea center
+- Hard exudates at or within 500 µm with adjacent thickening
+- A zone of retinal thickening ≥1 disc area within 1 disc diameter of the fovea
+- **Center-involving DME (CI-DME):** OCT-defined fluid in the foveal center subfield; primary treatment indication for anti-VEGF
+
+### Retinal anatomy relevant to DR
+
+**Retinal vasculature:** Three-layer capillary plexuses — superficial, intermediate, deep — derived from the central retinal artery; capillary pericytes are unique in providing direct glucose metabolic support and autoregulatory tone to retinal capillaries; pericyte:endothelial cell ratio ~1:1 (highest in the body, reflecting metabolic demand)
+
+**Blood-retinal barrier (BRB):**
+- **Inner BRB:** Tight junctions (claudin-5, occludin, ZO-1) between retinal vascular endothelial cells; pericytes maintain endothelial tight junction integrity via PDGF-B/PDGFR-β and Ang-1/Tie2 signaling
+- **Outer BRB:** Tight junctions of the retinal pigment epithelium (RPE) and the choroid-RPE interface; less affected in early DR; becomes important in exudative AMD
+
+**OCT imaging:** Spectral-domain optical coherence tomography (SD-OCT) measures central subfield thickness (CST; normal ~240-260 µm in foveal center); CI-DME defined as CST ≥300 µm + foveal fluid on OCT; OCT angiography (OCTA) provides non-invasive imaging of retinal capillary plexuses and quantifies foveal avascular zone (FAZ) area
+
+## Function
+
+### Screening and prevention
+
+**Screening guidelines:**
+- T1DM: First eye exam 5 years after diagnosis; annual thereafter
+- T2DM: Eye exam at diagnosis; annually thereafter
+- Pregnancy with diabetes: First trimester + Q trimester monitoring (rapid DR progression in pregnancy)
+- Telemedicine screening: AI-based retinal image grading (IDx-DR, EyeArt) — FDA-cleared; 91% sensitivity, 94% specificity for >mild NPDR
+
+**Prevention — systemic glycemic and BP control:**
+- DCCT (T1DM): Intensive glycemic control (HbA1c ~7.2% vs. 9.1%) → 76% reduction in DR onset, 54% reduction in progression
+- UKPDS (T2DM): Each 1% reduction in HbA1c → 35% reduction in DR progression; BP control to <150/85 → 34% reduction in DR progression
+- Fenofibrate (ACCORD-Eye): +anti-VEGF effect via PPARα → ↓DR progression rate by 40% in T2DM with dyslipidemia; now recommended as adjunct in T2DM with NPDR + elevated triglycerides
+
+### Treatment — Diabetic Macular Edema
+
+**Anti-VEGF therapy (first-line for CI-DME):** [^brown-2015-aflibercept-protocol-t]
+
+**Protocol T (DRCR.net):** Head-to-head comparison of bevacizumab 1.25 mg, ranibizumab 0.3 mg, and aflibercept 2 mg intravitreal for CI-DME:
+- At 1 year: Aflibercept +13.3 letters, ranibizumab +11.2 letters, bevacizumab +9.7 letters
+- For baseline BCVA <69 letters (worse vision): Aflibercept significantly superior to bevacizumab and ranibizumab
+- At 2 years: Differences largely resolved with PRN dosing; aflibercept still superior in worse baseline VA group
+- **Dosing burden:** All require Q4-8W injections — significant patient and system burden
+
+**Faricimab (Vabysmo) — dual Ang-2/VEGF blockade:** [^wykoff-2022-faricimab-dr]
+- **YOSEMITE (N=940) + RHINE (N=951):** Faricimab 6 mg Q8W or PTI (up to Q16W) vs. aflibercept 2 mg Q8W
+- BCVA: Non-inferior to aflibercept at 1 year (+10.7 to +11.6 vs. +10.9 letters); similar at 2 years
+- **Durability (key advantage):** At 1 year, 53% (YOSEMITE) and 60% (RHINE) of PTI patients on Q12W or Q16W intervals; at 2 years ~50% remain at ≤Q16W
+- Anatomical: Greater CST reduction with faricimab; higher rates of complete fluid resolution on OCT
+- **FDA approval:** January 2022 for DME; also approved for nAMD simultaneously
+- Significance: First retinal therapy to demonstrate Ang-2 pathway targeting translates to clinical benefit with extended durability
+
+**Other approved anti-VEGF agents for DME:**
+- **Ranibizumab (Lucentis):** Anti-VEGF Fab; 0.3 mg Q4W × 6 months; FDA-approved
+- **Aflibercept (Eylea):** VEGF-trap (VEGFR1/2-Fc fusion); 2 mg Q4W × 5 → Q8W; FDA-approved; high-dose aflibercept 8 mg (PHOTON trial, Q12-16W) — FDA-approved 2023
+- **Bevacizumab (Avastin):** Off-label; cost ~$50/vial vs. ~$1,800-2,000 for ranibizumab/aflibercept; comparable efficacy in most baseline VA groups
+
+### Treatment — Proliferative DR
+
+**Panretinal photocoagulation (PRP):**
+- 1200-1600 argon laser burns in peripheral retina → ablation of ischemic retina → reduced VEGF production → NV regression
+- DRS + ETDRS: PRP reduces severe vision loss by >50% in high-risk PDR
+- Complications: Loss of peripheral visual field, reduced night vision, exacerbation of DME (laser-induced fluid)
+- **Anti-VEGF + PRP:** Protocol S (DRCR.net): Ranibizumab non-inferior to PRP for PDR at 2 years; lower rates of DME, better peripheral visual field preservation; BUT: requires sustained monthly injections — loss to follow-up can be catastrophic
+
+**Vitrectomy for advanced PDR:**
+- Tractional retinal detachment + vitreous hemorrhage obscuring the macula
+- Pars plana vitrectomy (PPV): 23G or 25G; membrane peeling, intraocular tamponade (gas/silicone oil)
+- Pre-operative anti-VEGF injection (bevacizumab 48-72h before) → reduces intraoperative bleeding and fibrovascular proliferation
+
+## Pathology
+
+**Diabetic papillopathy:** Optic disc edema in diabetes, usually self-limited; hyperemic, swollen disc; must be differentiated from ischemic optic neuropathy
+
+**Diabetic cataracts:** Sorbitol accumulation in the lens → osmotic lens swelling → cortical cataract; earlier onset in poorly controlled DM; snowflake cataract (vacuolar) pathognomonic but rare
+
+**Retinal vein occlusion comorbidity:** Diabetic patients have 2-4× higher risk of branch and central retinal vein occlusion (same endothelial + VEGF pathophysiology); both conditions respond to anti-VEGF
+
+**Neovascular glaucoma (NVG):** Retinal ischemia → VEGF → iris and angle neovascularization (rubeosis iridis) → secondary angle-closure glaucoma; complication of severe PDR; treated with anti-VEGF injection + PRP ± glaucoma surgery; a leading cause of painful blind eye in DM
+
+## Connections
+
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 elevated in diabetic retinas → Tie2 destabilization → pericyte loss → endothelial junction opening → macular edema + neovascularization; faricimab (anti-Ang-2 + anti-VEGF-A) achieves Q16W dosing with non-inferior VA gains vs. aflibercept Q8W (YOSEMITE/RHINE).
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-A drives DME and PDR neovascularization; hypoxic retina → HIF-1α → VEGF → VEGFR-2 → endothelial proliferation and barrier disruption; anti-VEGF (ranibizumab, aflibercept, bevacizumab) is the first-line treatment for center-involving DME and PDR.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Hypertension accelerates DR through retinal arteriolar pressure, shear stress, and RAAS activation; BP control to <130/80 mmHg reduces DR progression by ~30% (UKPDS); hypertensive retinopathy and DR frequently coexist and share pathophysiology.
+- `targets` → **[Eye](../../06-organ/eye/README.md)** — Diabetic retinopathy targets the retina: pericyte loss → microaneurysms → exudates → macular edema → neovascularization → vitreous hemorrhage → tractional retinal detachment; the retina is the primary organ affected, with foveal photoreceptors most critical for central vision.
+
+[^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
+[^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
+[^wykoff-2022-faricimab-dr]: Wykoff CC, Abreu F, Adamis AP, et al. Efficacy, durability, and safety of intravitreal faricimab with extended dosing up to every 16 weeks in patients with diabetic macular oedema. *Lancet.* 2022;399(10326):741-755. [doi:10.1016/S0140-6736(22)00018-6](https://doi.org/10.1016/S0140-6736(22)00018-6) · [PubMed 35085503](https://pubmed.ncbi.nlm.nih.gov/35085503/)
