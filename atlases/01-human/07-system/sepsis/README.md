@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "ADM rises dramatically in sepsis proportional to severity; vasodilation (CLR/RAMP2 → cAMP → vasodilation) contributes to distributive shock; MR-proADM predicts 28-day mortality with AUC >0.80 and guides antibiotic de-escalation in the ADAPT-sepsis trial."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "TLR4/LPS triggers gram-negative sepsis: LPS-MD-2-CD14 → TLR4 → MyD88 (NF-κB: cytokine storm) + TRIF (IRF3: IFN-β); TLR4 Asp299Gly/Thr399Ile SNPs → altered sepsis risk; OxLDL activates TLR4 → sterile inflammation; TAK-242 (TLR4 antagonist) failed Phase III sepsis trials."
 ---
 
 # Sepsis
@@ -158,6 +161,7 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — TLR4→MyD88→NF-κB is the master signaling axis of innate immune activation in sepsis; NF-κB drives all major pro-inflammatory mediators including TNF-α, IL-1β, IL-6, iNOS, and COX-2.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α is the dominant early mediator of septic cardiovascular collapse; despite strong mechanistic rationale, anti-TNF therapies have failed in sepsis RCTs — demonstrating that blocking individual cytokines cannot overcome the redundant inflammatory cascade of systemic sepsis.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ADM rises dramatically in sepsis proportional to severity; vasodilation (CLR/RAMP2 → cAMP → vasodilation) contributes to distributive shock; MR-proADM predicts 28-day mortality with AUC >0.80 and guides antibiotic de-escalation in the ADAPT-sepsis trial.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4/LPS triggers gram-negative sepsis: LPS-MD-2-CD14 → TLR4 → MyD88 (NF-κB: cytokine storm) + TRIF (IRF3: IFN-β); TLR4 Asp299Gly/Thr399Ile SNPs → altered sepsis risk; OxLDL activates TLR4 → sterile inflammation; TAK-242 (TLR4 antagonist) failed Phase III sepsis trials.
 
 [^singer-2016-sepsis3]: Singer M, Deutschman CS, Seymour CW, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). *JAMA.* 2016;315(8):801-810. [doi:10.1001/jama.2016.0287](https://doi.org/10.1001/jama.2016.0287) · [PubMed 26903338](https://pubmed.ncbi.nlm.nih.gov/26903338/)
 [^vanderpoll-2017-sepsis-immunopathology]: van der Poll T, van de Veerdonk FL, Scicluna BP, Netea MG. The immunopathology of sepsis and potential therapeutic targets. *Nat Rev Immunol.* 2017;17(7):407-420. [doi:10.1038/nri.2017.36](https://doi.org/10.1038/nri.2017.36) · [PubMed 28436424](https://pubmed.ncbi.nlm.nih.gov/28436424/)

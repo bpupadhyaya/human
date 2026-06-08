@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "MYD88 L265P → IRAK1 → JAK1 → STAT3 Tyr705 phosphorylation → BCL-XL, MYC, SOCS3 → autonomous B-cell survival in WM; STAT3 inhibition attenuates MYD88 L265P-driven growth in WM cell lines; STAT3 pathway activation also downstream of CD40L and BAFF in WM microenvironment."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "TLR4 is the primary TLR that recruits MyD88 via MAL (TIRAP) for gram-negative LPS response: TLR4/MyD88 → myddosome → IRAK4/TRAF6 → NF-κB; TLR4 also uses TRIF (absent from other MyD88-dependent TLRs) for IRF3/IFN-β; MyD88 germline deficiency → severe gram-negative susceptibility."
 ---
 
 # MYD88
@@ -125,6 +128,7 @@ PHOENIX trial (ibrutinib + R-CHOP vs. R-CHOP): Overall trial negative but OS ben
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — MYD88 L265P → IRAK1 directly phosphorylates and activates JAK1 → STAT3 phosphorylation → BCL-XL and MYC → survival in WM; this non-canonical MYD88-JAK1-STAT3 axis is distinct from cytokine receptor-JAK2 signaling; combined BTK+JAK inhibition studied in WM.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — MYD88/NF-κB transcriptionally activates BCL-2, BCL-XL → apoptosis resistance in WM and ABC-DLBCL; venetoclax (BCL-2 inhibitor) shows modest single-agent activity in WM; combined ibrutinib+venetoclax studied in R/R WM; BCL-2 protein expression is high in most WM cases.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — MYD88 L265P → IRAK1 → JAK1 → STAT3 Tyr705 phosphorylation → BCL-XL, MYC, SOCS3 → autonomous B-cell survival in WM; STAT3 inhibition attenuates MYD88 L265P-driven growth in WM cell lines; STAT3 pathway activation also downstream of CD40L and BAFF in WM microenvironment.
+- `connects-to` → **[TLR4](../tlr4/README.md)** — TLR4 is the primary TLR that recruits MyD88 via MAL (TIRAP) for gram-negative LPS response: TLR4/MyD88 → myddosome → IRAK4/TRAF6 → NF-κB; TLR4 also uses TRIF (absent from other MyD88-dependent TLRs) for IRF3/IFN-β; MyD88 germline deficiency → severe gram-negative susceptibility.
 
 [^treon-2012-myd88]: Treon SP, Xu L, Yang G, et al. MYD88 L265P somatic mutation in Waldenström's macroglobulinemia. *N Engl J Med.* 2012;367(9):826-833. [doi:10.1056/NEJMoa1200710](https://doi.org/10.1056/NEJMoa1200710) · [PubMed 22931316](https://pubmed.ncbi.nlm.nih.gov/22931316/)
 [^kawai-2010-tlr-review]: Kawai T, Akira S. The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors. *Nat Immunol.* 2010;11(5):373-384. [doi:10.1038/ni.1863](https://doi.org/10.1038/ni.1863) · [PubMed 20404851](https://pubmed.ncbi.nlm.nih.gov/20404851/)

@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/07-system/hiv-aids
     relation: connects-to
     note: "HIV-AIDS depletes CD4+ Th1 cells and impairs IL-12/IFN-γ axis: DCs from AIDS patients produce less IL-12; IL-12 deficiency underlies susceptibility to TB, NTM, Leishmania, and dimorphic fungi; ART + IFN-γ supplementation may partially restore Th1 immunity."
+  - target: 01-human/07-system/leishmaniasis
+    relation: connects-to
+    note: "Leishmania resistance is determined by IL-12-driven Th1 polarization: IL-12 → STAT4 → IFN-γ → iNOS → NO kills intracellular amastigotes; IL-12 polymorphisms (IL12B) influence VL susceptibility; L. donovani subverts TLR2 to suppress IL-12 production and evade Th1 immunity."
 ---
 
 # IL-12
@@ -142,6 +145,7 @@ Ustekinumab blocks the p40 shared subunit → inhibits both IL-12 and IL-23. Cli
 - `connects-to` → **[Anemia of Chronic Disease](../../07-system/anemia-of-chronic-disease/README.md)** — IL-12 drives Th1 activation → IFN-γ + TNF-α → macrophage activation → IL-6 → hepcidin; chronic infections sustaining IL-12/IFN-γ (TB, HIV, leishmaniasis) are classic ACD causes; IL-12-mediated nutritional immunity restricts iron from intracellular pathogens via hepcidin-mediated sequestration.
 - `modulates` → **[Immune System](../../07-system/immune-system/README.md)** — IL-12 is the master regulator of Th1 adaptive immunity, driving T-bet/IFN-γ polarization, NK cytotoxicity, and CTL development; required for effective immunity against intracellular bacteria (MTB, Listeria), dimorphic fungi, and certain viruses; its action is counterbalanced by IL-10 and IL-27.
 - `connects-to` → **[HIV/AIDS](../../07-system/hiv-aids/README.md)** — HIV-AIDS profoundly impairs the IL-12/IFN-γ axis: depletion of CD4⁺ Th1 cells reduces IFN-γ production; HIV-infected DCs produce less IL-12; the resulting Th1 deficiency underlies susceptibility to TB, NTM, Leishmania, and dimorphic fungi in AIDS patients; ART partially restores IL-12 pathway responsiveness.
+- `connects-to` → **[Leishmaniasis](../../07-system/leishmaniasis/README.md)** — Leishmania resistance is determined by IL-12-driven Th1 polarization: IL-12 → STAT4 → IFN-γ → iNOS → NO kills intracellular amastigotes; IL-12 polymorphisms (IL12B) influence VL susceptibility; L. donovani subverts TLR2 to suppress IL-12 production and evade Th1 immunity.
 
 ## Pathology
 

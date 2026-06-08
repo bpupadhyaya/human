@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: connects-to
     note: "IFN-γ is essential for macrophage activation and MTB killing (phagosome acidification, ROS, cathelicidin); IFN-γ from MTB-sensitized T cells is the basis of IGRA tests; IFNGR1/IFNGR2 mutations → MSMD with disseminated MTB/BCG; IFN-γ release drives TB-related ACD."
+  - target: 01-human/07-system/leishmaniasis
+    relation: connects-to
+    note: "IFN-γ is the critical anti-Leishmania effector: Th1 CD4+ and NK cells produce IFN-γ → macrophage iNOS → NO → kills intracellular amastigotes; IFNGR1/2 deficiency (MSMD) → disseminated VL; IFN-γ is used adjunctively in refractory VL; IL-12 drives IFN-γ in Th1 priming."
 ---
 
 # IFN-gamma
@@ -164,6 +167,7 @@ IFN-gamma is the central cytokine connecting innate immune recognition and adapt
 - `connects-to` → **[Giant Cell Arteritis](../../07-system/giant-cell-arteritis/README.md)** — IFN-γ from Th1 CD4+ T cells drives macrophage activation → multinucleated giant cell formation and intimal hyperplasia in GCA; high IFN-γ in arterial tissue correlates with GCA activity and distinguishes GCA from Takayasu arteritis histologically.
 - `connects-to` → **[IL-12](../il-12/README.md)** — IL-12 is the primary upstream inducer of IFN-γ: DC-derived IL-12 → JAK2/TYK2/STAT4 → T-bet → IFN-γ from NK cells and Th1 T cells; IFN-γ feeds back to induce more IL-12 from macrophages (positive amplification loop); IL-12 deficiency (IL12B, IL12RB1 mutations) causes MSMD with absent IFN-γ responses and susceptibility to mycobacteria.
 - `connects-to` → **[Tuberculosis](../../07-system/tuberculosis/README.md)** — IFN-γ is the central effector cytokine for MTB control: activates macrophage bactericidal programs (phagosome acidification, NO, ROS, cathelicidin); IFN-γ from MTB-sensitised T cells in response to ESAT-6/CFP-10 is the molecular basis of IGRA diagnostic tests; IFNGR1/IFNGR2 mutations → MSMD with disseminated MTB/BCG disease.
+- `connects-to` → **[Leishmaniasis](../../07-system/leishmaniasis/README.md)** — IFN-γ is the critical anti-Leishmania effector: Th1 CD4+ and NK cells produce IFN-γ → macrophage iNOS → NO → kills intracellular amastigotes; IFNGR1/2 deficiency (MSMD) → disseminated VL; IFN-γ is used adjunctively in refractory VL; IL-12 drives IFN-γ in Th1 priming.
 
 [^schroder-2004-ifng-review]: Schroder K, Hertzog PJ, Ravasi T, Hume DA. Interferon-gamma: an overview of signals, mechanisms and functions. *J Leukoc Biol.* 2004;75(2):163-189. [doi:10.1189/jlb.0603252](https://doi.org/10.1189/jlb.0603252) · [PubMed 14525967](https://pubmed.ncbi.nlm.nih.gov/14525967/)
 [^platanias-2005-jak-stat-ifn]: Platanias LC. Mechanisms of type-I- and type-II-interferon-mediated signalling. *Nat Rev Immunol.* 2005;5(5):375-386. [doi:10.1038/nri1604](https://doi.org/10.1038/nri1604) · [PubMed 15864272](https://pubmed.ncbi.nlm.nih.gov/15864272/)

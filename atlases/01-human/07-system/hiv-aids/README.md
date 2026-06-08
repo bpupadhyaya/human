@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "IL-12/IFN-γ axis is severely impaired in HIV-AIDS: HIV depletes CD4+ Th1 cells → ↓IFN-γ → ↓macrophage activation; DCs in AIDS produce less IL-12; IL-12 deficiency → susceptibility to TB, NTM, Leishmania, and dimorphic fungi; ART partially restores IL-12 responsiveness."
+  - target: 01-human/07-system/leishmaniasis
+    relation: connects-to
+    note: "HIV-VL co-infection: CD4+ Th1 cell depletion → loss of IFN-γ → Leishmania escapes macrophage control → disseminated VL; Mediterranean Europe, East Africa, and Indian subcontinent are co-endemic zones; ART partially restores anti-Leishmania Th1 immunity; L-AmB prophylaxis needed."
 ---
 
 # HIV/AIDS
@@ -158,6 +161,7 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — HIV-1 systematically destroys CD4⁺ T helper cells (primary reservoir) and impairs DC antigen presentation, NK cytotoxicity, and B cell memory; AIDS is defined by CD4 <200 cells/μL or AIDS-defining illness; chronic immune activation persists despite ART (residual inflammation, T cell exhaustion, monocyte dysregulation).
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — HIV drives ACD through sustained immune activation → IL-6 + IFN-γ → hepcidin elevation; AZT-related bone marrow suppression adds a direct aplastic component; anemia severity tracks viral load and CD4 count; ART suppression improves ACD within months.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12/IFN-γ axis is profoundly impaired in HIV-AIDS: CD4⁺ Th1 depletion → ↓IFN-γ; HIV-infected DCs produce less IL-12; the resulting Th1 deficiency explains susceptibility to TB, NTM, Leishmania, and dimorphic fungi; ART partially restores IL-12 pathway function.
+- `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — HIV-VL co-infection: CD4+ Th1 cell depletion → loss of IFN-γ → Leishmania escapes macrophage control → disseminated VL; Mediterranean Europe, East Africa, and Indian subcontinent are co-endemic zones; ART partially restores anti-Leishmania Th1 immunity; L-AmB prophylaxis needed.
 
 ## See Also
 
