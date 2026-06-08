@@ -31,6 +31,9 @@ cross_links:
   - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
     relation: connects-to
     note: "ADAMTS13 deficiency (<10% activity) is the defining pathophysiology of TTP; acquired iTTP: anti-ADAMTS13 IgG4 antibodies; hereditary Upshaw-Schulman syndrome: ADAMTS13 biallelic mutations; caplacizumab blocks VWF A1 domain → prevents ULVWF-platelet binding."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "ADAMTS13 cleaves ULVWF at Tyr1605-Met1606 in the VWF A2 domain under shear stress; VWF ULVWF multimers recruit platelets via GPIb → microthrombi without ADAMTS13; VWF A1 domain is the target of caplacizumab (anti-VWF nanobody; FDA 2019) for acute iTTP."
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Acquired iTTP is caused by IgG autoantibodies against ADAMTS13 (predominantly IgG4, inhibiting; also IgG1 non-inhibiting); anti-ADAMTS13 IgG titer tracks disease; rituximab (anti-CD20) depletes ADAMTS13-antibody-producing B cells → durable remission in iTTP."
@@ -131,6 +134,7 @@ ADAMTS13 performs ongoing surveillance and size regulation of VWF:
 ## Connections
 
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../../07-system/thrombotic-thrombocytopenic-purpura/README.md)** — ADAMTS13 deficiency (<10% activity) is the defining pathophysiology of TTP; acquired iTTP is driven by anti-ADAMTS13 IgG4 antibodies; hereditary Upshaw-Schulman syndrome involves biallelic ADAMTS13 mutations; caplacizumab blocks VWF A1 domain → prevents ULVWF-platelet binding.
+- `connects-to` → **[Von Willebrand Factor](../von-willebrand-factor/README.md)** — ADAMTS13 cleaves ULVWF at Tyr1605-Met1606 in the VWF A2 domain under shear stress; ULVWF strings accumulate when ADAMTS13 is absent → platelet microthrombi → TTP; caplacizumab targets the VWF A1 domain to block GPIb-mediated platelet tethering.
 - `connects-to` → **[Immunoglobulin G](../immunoglobulin-g/README.md)** — Acquired iTTP is caused by IgG autoantibodies against ADAMTS13 (predominantly IgG4 inhibiting; also IgG1 non-inhibiting); anti-ADAMTS13 IgG titer tracks disease; rituximab (anti-CD20) depletes ADAMTS13-antibody-producing B cells → durable remission in iTTP.
 
 [^zheng-2001-adamts13-discovery]: Zheng X, Chung D, Takayama TK, et al. Structure of von Willebrand factor-cleaving protease (ADAMTS13), a metalloprotease involved in thrombotic thrombocytopenic purpura. *J Biol Chem.* 2001;276(44):41059-41063. [doi:10.1074/jbc.C100515200](https://doi.org/10.1074/jbc.C100515200) · [PubMed 11557775](https://pubmed.ncbi.nlm.nih.gov/11557775/)

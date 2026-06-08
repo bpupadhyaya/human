@@ -1,0 +1,169 @@
+---
+schema: human-scale-entry/v1
+id: hemophilia-a
+name: Hemophilia A
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "Hemophilia A is X-linked FVIII deficiency (F8 gene; Xq28); severe <1 IU/dL → joint/muscle hemorrhage. Emicizumab (bispecific FIXa/FX mAb; HAVEN-3: ABR 0.3 vs 22.9; FDA 2017) replaced prophylactic FVIII as standard of care in inhibitor and non-inhibitor severe HA."
+aliases: ["hemophilia A", "HA", "factor VIII deficiency", "FVIII deficiency", "hemophilia A with inhibitors", "haemophilia A", "congenital FVIII deficiency"]
+sources:
+  - id: oldenburg-2017-emicizumab-haven1
+    type: peer-reviewed
+    cite: "Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. N Engl J Med. 2017;377(9):809-818."
+    doi: "10.1056/NEJMoa1703068"
+    pmid: "28691557"
+    url: "https://doi.org/10.1056/NEJMoa1703068"
+  - id: mahlangu-2018-emicizumab-haven3
+    type: peer-reviewed
+    cite: "Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. N Engl J Med. 2018;379(9):811-822."
+    doi: "10.1056/NEJMoa1803550"
+    pmid: "30157389"
+    url: "https://doi.org/10.1056/NEJMoa1803550"
+  - id: pipe-2023-fitusiran-atlas
+    type: peer-reviewed
+    cite: "Pipe SW, Leebeek FW, Recht M, et al. Once-monthly subcutaneous fitusiran versus on-demand bypassing agent for haemophilia A or B with inhibitors (ATLAS-INH): a multicentre, open-label, randomised phase 3 trial. Lancet. 2023;401(10386):1427-1439."
+    doi: "10.1016/S0140-6736(23)00284-2"
+    pmid: "37003297"
+    url: "https://doi.org/10.1016/S0140-6736(23)00284-2"
+cross_links:
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "VWF binds and protects FVIII in plasma → t½ ~12 h (VWF-bound) vs. ~2 h (free); VWF deficiency in VWD type 3 → secondary FVIII <10 IU/dL (resembles mild hemophilia A); VWD type 2N: FVIII-binding domain mutations → FVIII deficiency with normal VWF antigen levels."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Anti-FVIII inhibitor antibodies are predominantly IgG4 (non-complement-fixing); IgG4 neutralizes FVIII infused as replacement therapy; inhibitor titer (Bethesda units) determines immune tolerance induction strategy; emicizumab bypasses FVIII → effective despite IgG4 inhibitors."
+---
+
+# Hemophilia A
+
+## Overview
+
+**Hemophilia A (HA)** is an **X-linked recessive bleeding disorder** caused by deficiency or dysfunction of **coagulation factor VIII (FVIII)**, encoded by the *F8* gene on chromosome Xq28 [^oldenburg-2017-emicizumab-haven1]. FVIII is the essential cofactor for factor IXa (FIXa) in the **intrinsic tenase complex** (FIXa + FVIIIa + Ca²⁺ + phospholipid → activates factor X → thrombin generation → fibrin clot); without adequate FVIII, the coagulation cascade is severely impaired.
+
+Hemophilia A is the **most common severe hereditary bleeding disorder**, affecting ~1 in 5,000-10,000 male births. Females are typically carriers (heterozygous; may have mild bleeding due to lyonization) or rarely have clinically significant disease (compound heterozygous; Turner syndrome).
+
+**Severity classification:**
+
+| Severity | FVIII level | Clinical phenotype |
+|:---------|:-----------|:-------------------|
+| Severe | <1 IU/dL (<1% normal) | Spontaneous joint/muscle hemorrhage; hemarthroses without provocation; life-threatening bleeds |
+| Moderate | 1-5 IU/dL | Bleeds with minor trauma; rare spontaneous bleeds; occasional hemarthrosis |
+| Mild | 5-40 IU/dL | Bleeds only with significant trauma/surgery; often undiagnosed until adult life |
+
+**Inhibitor development:** The most serious complication of hemophilia A treatment; anti-FVIII IgG4 antibodies develop in ~25-30% of severe HA patients after FVIII exposure (typically within the first 50 exposure days). Inhibitors neutralize replacement FVIII, making standard therapy ineffective. Inhibitor titer is measured in Bethesda units (BU): high-titer inhibitors >5 BU require bypassing agents or immune tolerance induction (ITI).
+
+**Revolutionary shift — emicizumab era:** Since the HAVEN-1 and HAVEN-3 trials (2017-2018), **emicizumab** (Hemlibra; Roche/Genentech) — a bispecific antibody bridging FIXa and FX — has replaced prophylactic FVIII infusions as the standard of care for most patients with severe HA (with or without inhibitors), reducing the treatment burden from frequent IV infusions to weekly/biweekly/monthly SC injections.
+
+## Structure
+
+### F8 gene and FVIII protein
+
+| Feature | Detail |
+|:--------|:-------|
+| Gene | *F8*, chromosome Xq28; 186 kb, 26 exons — one of the largest genes in the human genome |
+| mRNA | 9 kb; alternative splicing of exon 16 generates B-domain variants |
+| FVIII protein | 2332 aa; domain structure: A1-A2-B-A3-C1-C2 (6 domains) |
+| A domains (A1, A2, A3) | Copper-binding TRP domains; thrombin cleavage sites (Arg372, Arg740, Arg1689); FIXa binding (A2) and FX binding (A2, A3) |
+| B domain | Heavily glycosylated (~100 kDa); no known cofactor function; removed during FVIII activation; absent in recombinant B-domain-deleted FVIII (rFVIIIBDD) products |
+| C1-C2 domains (light chain) | Phospholipid membrane binding (C2: GRP48/phosphatidylserine); VWF binding (C1, C2) |
+| Active form (FVIIIa) | Thrombin cleaves FVIII at Arg372/Arg740/Arg1689 → releases B domain → A1/A2/A3-C1-C2 trimer → FVIIIa cofactor; FVIIIa is unstable → rapid inactivation by APC/protein S or spontaneous A2 domain dissociation |
+
+### Common F8 mutations
+
+| Mutation type | Frequency | Severity |
+|:-------------|:---------|:---------|
+| Intron 22 inversion (inv22) | ~40-50% of severe HA | Severe |
+| Intron 1 inversion (inv1) | ~5% of severe HA | Severe |
+| Large deletions | ~5-10% | Severe; high inhibitor risk |
+| Nonsense mutations | ~15% | Severe |
+| Missense mutations | ~40% (all severities) | Mild to severe depending on domain |
+| Splice site mutations | ~10% | Variable |
+
+**Inhibitor risk:** Inversely related to residual FVIII epitope sharing with infused product. Patients with inv22 or large deletions have no FVIII protein → highest inhibitor risk (~35-40%). Missense mutations in mild-moderate HA: low inhibitor risk (shared epitopes with normal FVIII).
+
+## Function
+
+### FVIII in coagulation
+
+FVIII is a critical **amplifier** of the coagulation cascade at the junction between the intrinsic pathway initiation and the common pathway:
+
+1. **FVIII in plasma:** Circulates as an inactive procofactor bound to VWF (protects FVIII from LRP1-mediated clearance and APC cleavage); plasma concentration ~0.1-0.2 µg/mL (~1 nM)
+
+2. **Activation:** At sites of vascular injury, thrombin (generated by the extrinsic pathway via TF-VIIa) cleaves VWF-bound FVIII → releases FVIIIa; alternatively, FXa cleaves FVIII less efficiently
+
+3. **Intrinsic tenase complex:** FVIIIa binds FIXa on the phospholipid surface of activated platelets (PS exposed) → FIXa/FVIIIa complex = "intrinsic tenase" → activates FX → FXa → prothrombinase → thrombin generation increases by ~10⁵-fold vs. FIXa alone (this amplification = "coagulation burst")
+
+4. **Inactivation:** APC (activated protein C) + protein S cleave FVIIIa at Arg336 and Arg562 (A1 domain); FVIIIa also spontaneously inactivates by A2 domain dissociation; thrombomodulin-thrombin generates APC
+
+**Without FVIII:** TF-VIIa initiates thrombin generation but the amplification loop (intrinsic tenase) is absent → clot forms slowly or not at all → hemarthrosis, intramuscular hematoma, potentially life-threatening CNS or retroperitoneal hemorrhage in severe HA.
+
+## Pathology
+
+### Clinical manifestations
+
+**Hemarthrosis (joint bleeding; ~75% of hemorrhagic events in severe HA):**
+- Knees, ankles, elbows most commonly affected
+- Acute: pain, swelling, warmth, limited range of motion
+- Chronic: synovitis → iron deposition → reactive synovial proliferation → cartilage destruction → **hemophilic arthropathy** (radiographic changes, chronic pain, contracture)
+- **Target joint:** A joint with ≥3 bleeds in 6 months; most at risk for chronic damage; primary target for prophylaxis monitoring
+- MRI scoring (IPSG MRI score) or ultrasound (Haemophilia Early Arthropathy Detection; HEAD-US) monitors joint damage
+
+**Intramuscular hematoma:**
+- Iliopsoas hematoma: mimics appendicitis; femoral nerve compression → hip flexion deformity; requires urgent FVIII
+- Compartment syndrome: forearm, calf bleeds → treat aggressively before compartment compromise
+
+**Life-threatening bleeds:**
+- CNS hemorrhage (3-10% lifetime risk in severe HA): intracranial, subdural, subarachnoid; any head trauma → immediate FVIII prophylaxis + urgent CT
+- Retroperitoneal hematoma
+- Upper airway compromise (neck/pharyngeal hematoma)
+- GI bleeding
+
+### Diagnosis
+
+**Laboratory:**
+- **aPTT prolonged**; PT/INR normal (FVIII is intrinsic pathway only); fibrinogen normal; platelets normal
+- **FVIII activity assay (1-stage aPTT-based or 2-stage chromogenic):** Quantifies FVIII function; chronic discrepancy between 1-stage and 2-stage (2-stage higher) suggests mild hemophilia A with specific F8 mutations (e.g., Arg531His)
+- **FVIII antigen (FVIII:Ag):** Normal in mild HA with dysfunctional FVIII (missense mutations)
+- **VWF:Ag and VWF:RCo:** Exclude VWD type 2N (FVIII-binding domain mutation — presents like mild HA but VWF antigen normal, FVIII reduced)
+- **Inhibitor screen (Bethesda assay / Nijmegen modification):** Heat-inactivated patient plasma mixed with normal plasma at 50:50 → incubate 2 hours at 37°C → measure residual FVIII; ≥0.6 BU/mL = positive inhibitor
+
+### Treatment
+
+**Prophylaxis — standard of care (severe and moderate HA):**
+
+**Emicizumab (Hemlibra; Roche/Genentech; bispecific FIXa/FX mAb):**
+- Mechanism: Binds FIXa (via one arm) and FX (via other arm) → mimics FVIIIa cofactor function → reconstitutes intrinsic tenase activity independent of FVIII
+- Structure: Asymmetric bispecific antibody (two different Fab arms); IgG4 Fc with half-life extension modifications → t½ ~4 weeks; SC injection
+- **HAVEN-1 (inhibitor HA):** Emicizumab SC QW vs. BPA prophylaxis (APCC; FEIBA): ABR 2.9 vs. 23.3 (p<0.001); 63% zero bleeds [^oldenburg-2017-emicizumab-haven1]; FDA approved November 2017 for inhibitor HA
+- **HAVEN-3 (non-inhibitor severe HA):** Emicizumab SC QW vs. no prophylaxis: ABR 1.5 vs. 38.2 (87% reduction); vs. prior FVIII prophylaxis (within-arm cross-over): ABR 1.5 vs. 4.8 (68% reduction) [^mahlangu-2018-emicizumab-haven3]; FDA approved October 2018 for non-inhibitor severe HA; extended to all HA regardless of inhibitor status
+- Dosing: 3 mg/kg SC Q1W × 4 (loading) → 1.5 mg/kg Q1W or 3 mg/kg Q2W or 6 mg/kg Q4W (all equivalent maintenance)
+- **Key limitation:** DOES NOT replace FVIII for breakthrough bleeds or surgery → still need FVIII (or bypassing agents in inhibitor patients) for acute hemostasis; **AVOID high-dose APCC (>100 IU/kg/day × 24h) with emicizumab** → thrombotic microangiopathy risk (HAVEN-1 signal)
+
+**FVIII replacement (non-inhibitor HA; surgical prophylaxis; breakthrough bleeds):**
+- Standard half-life (SHL) rFVIII: Advate, Kogenate, Helixate — t½ ~8-12 h; dosing Q8-12h for continuous prophylaxis
+- Extended half-life (EHL) rFVIII: Efanesoctocog alfa (Altuviiio; Sanofi; FDA Apr 2023) — rFVIII fused to XTEN + VWF D'D3 domain → t½ ~96 h; Q1W dosing; XTEND-1 trial: ABR 0.71 (prophylaxis) → first once-weekly FVIII approved; Damoctocog alfa pegol (Jivi) — PEGylated EHL rFVIII; Q2W dosing
+- Factor VIII dose formula: FVIII increment (%) = dose (IU) / body weight (kg) × 2; target levels: minor bleeds 30-50%; major bleeds 80-100%; surgery 100% perioperative → 50-80% for 7-14 days
+
+**Inhibitor management:**
+- **Immune tolerance induction (ITI):** High-dose FVIII (100-200 IU/kg/day IV) given daily until inhibitor eradicated (<0.6 BU/mL); success rate ~60-70% in high-titer inhibitors; 12-33 months median; now often preceded by rituximab to deplete B cells and shorten ITI duration
+- **Bypassing agents (acute bleeding in inhibitor HA with breakthrough bleeds):**
+  - APCC (anti-inhibitor coagulant complex; FEIBA; Shire): Activated prothrombin complex concentrate; 50-100 IU/kg Q12h; avoid with emicizumab (TMA risk)
+  - Recombinant FVIIa (NovoSeven; Novo Nordisk): 90-270 µg/kg IV bolus Q2-3h; activates TF-FVIIa pathway to generate thrombin despite absent FVIII
+- **Fitusiran (anti-antithrombin siRNA; ATLAS-INH trial):** Monthly SC injection; reduces antithrombin (AT) → lowers threshold for thrombin generation → bypasses FVIII; ATLAS-INH: ABR 0 vs. 17.8 vs. BPA on-demand (p<0.001) [^pipe-2023-fitusiran-atlas]; FDA approved 2024 for HA and HB with inhibitors
+
+**Gene therapy:**
+- **Valoctocogene roxaparvovec (BMGene-001; BioMarin; FDA Aug 2023):** AAV5-F8-SQ; single IV infusion → hepatocyte FVIII expression; FVIII levels 40-150 IU/dL at 2 years in ~60% of patients; GENEr8-1 trial: ABR reduced from 4.1 to 0.8; durability concern: FVIII levels decline ~50%/year (AAV episomal DNA diluted with hepatocyte proliferation); approved for adults with severe HA without pre-existing AAV5 neutralizing antibodies
+
+## Connections
+
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — VWF binds and protects FVIII in plasma → t½ ~12 h (VWF-bound) vs. ~2 h (free); VWF deficiency in VWD type 3 → secondary FVIII <10 IU/dL (resembles mild hemophilia A); VWD type 2N: FVIII-binding domain mutations → FVIII deficiency with normal VWF antigen levels.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Anti-FVIII inhibitor antibodies are predominantly IgG4 (non-complement-fixing); IgG4 neutralizes FVIII infused as replacement therapy; inhibitor titer (Bethesda units) determines ITI strategy; emicizumab bypasses FVIII → effective despite IgG4 inhibitors.
+
+[^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
+[^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
+[^pipe-2023-fitusiran-atlas]: Pipe SW, Leebeek FW, Recht M, et al. Once-monthly subcutaneous fitusiran versus on-demand bypassing agent for haemophilia A or B with inhibitors (ATLAS-INH). *Lancet.* 2023;401(10386):1427-1439. [doi:10.1016/S0140-6736(23)00284-2](https://doi.org/10.1016/S0140-6736(23)00284-2) · [PubMed 37003297](https://pubmed.ncbi.nlm.nih.gov/37003297/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
