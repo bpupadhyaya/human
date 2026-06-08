@@ -3,134 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SARS-CoV-2 Spike Glycoprotein — structure (S1/S2, RBD, furin site), ACE2 binding, 6-helix bundle fusion, 2P vaccine design, variant evolution, and pathology. Human Engineering Pathogen Atlas.">
-  <meta property="og:title" content="SARS-CoV-2 Spike Glycoprotein — Human Engineering Pathogen Atlas">
-  <meta property="og:description" content="Homotrimeric class I fusion glycoprotein: S1 RBD binds ACE2 (Kd ~15 nM), S2 mediates 6HB membrane fusion. Target of all approved COVID-19 vaccines via 2P prefusion stabilization.">
+  <meta name="description" content="SARS-CoV-2 Spike (class I fusogen; 1273 aa; homotrimer; furin site PRRAR absent in SARS-CoV-1) binds ACE2 (Kd ~15 nM) via RBD; 2P (K986P/V987P) proline stabiliz">
+  <meta property="og:title" content="SARS-CoV-2 Spike — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>SARS-CoV-2 Spike Glycoprotein — Human Engineering</title>
+  <title>SARS-CoV-2 Spike — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7;
-      --bg-elev: #ffffff;
-      --bg-soft: #e5e5ea;
-      --fg: #1c1c1e;
-      --fg-soft: #3a3a3c;
-      --muted: #6e6e73;
-      --muted-2: #8e8e93;
-      --border: #d1d1d6;
-      --border-soft: #e5e5ea;
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #dc2626;
-      --accent-soft: rgba(220,38,38,0.09);
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: var(--bg); color: var(--fg);
-      line-height: 1.65; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
-    }
-    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav {
-      position: sticky; top: 0; z-index: 50;
-      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
-      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
-    }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
-    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
-
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      padding: 0.4rem 0.9rem;
-      background: var(--accent-soft); color: var(--accent);
-      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
-    }
-    .hero h1 { font-size: clamp(2.2rem, 5.5vw, 4rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.06; margin-bottom: 1.25rem; max-width: 24ch; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.7vw, 1.25rem); color: var(--fg-soft); max-width: 740px; margin-bottom: 0.85rem; font-weight: 500; }
-    .hero .subtagline { font-size: 0.97rem; color: var(--muted); max-width: 740px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 1.75rem 2rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
-    .detail-header h3 { font-size: clamp(1.5rem, 2.6vw, 2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
-    .detail-header .summary { font-size: 0.97rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 800px; }
-    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
-    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-
-    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
-    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.55; }
-    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
-
-    .domain-table { width: 100%; border-collapse: collapse; font-size: 0.86rem; }
-    .domain-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .domain-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .domain-table td:first-child { font-weight: 600; color: var(--fg); font-family: "SF Mono", "Menlo", monospace; font-size: 0.82rem; }
-
-    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
-    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
-    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
-    .mech-item.step1  { border-left-color: #dc2626; }
-    .mech-item.step2  { border-left-color: #b45309; }
-    .mech-item.step3  { border-left-color: var(--bio); }
-    .mech-item.step4  { border-left-color: var(--eng); }
-    .mech-item.step5  { border-left-color: var(--ai); }
-
-    .variant-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .variant-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .variant-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
-    .variant-table td:first-child { font-weight: 700; color: var(--fg); }
-
-    .vaccine-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .vaccine-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .vaccine-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
-    .vaccine-table td:first-child { font-weight: 600; color: var(--fg); }
-
-    .callout { background: var(--accent-soft); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.9rem 1.1rem; font-size: 0.9rem; color: var(--fg-soft); }
-    .callout strong { color: var(--accent); }
-
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; color: var(--accent); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.6; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-    .refs li a:hover { color: var(--human); }
-
-    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .contribute h2 { font-size: clamp(1.3rem, 2vw, 1.6rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
-    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
-    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
-    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
-    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
-    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
-    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
-    .btn svg { width: 16px; height: 16px; }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -149,348 +108,95 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html#join">Join</a>
-        <a href="pathogens.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Pathogens
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus &middot; SARS-CoV-2</div>
-    <h1>SARS-CoV-2 Spike Glycoprotein</h1>
-    <p class="tagline">The homotrimeric fusion machine that enabled a pandemic &mdash; and the antigen that stopped it.</p>
-    <p class="subtagline">The spike (S) protein is the sole surface glycoprotein of SARS-CoV-2 responsible for host cell recognition and membrane fusion. S1 receptor-binding domain (RBD) engages human ACE2 with ~15 nM affinity &mdash; the obligate first step of infection. S2 executes membrane fusion via an irreversible 6-helix bundle collapse. Every approved COVID-19 vaccine worldwide delivers spike as its immunogen, exploiting proline substitutions (K986P/V987P, the &ldquo;2P mutation&rdquo;) to lock spike in the prefusion conformation targeted by neutralizing antibodies.</p>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>SARS-CoV-2 Spike</h1>
+    <p class="tagline">SARS-CoV-2 Spike (class I fusogen; 1273 aa; homotrimer; furin site PRRAR absent in SARS-CoV-1) binds ACE2 (Kd ~15 nM) via RBD; 2P (K986P/V987P) proline stabilization locks prefusion conformation for mRNA vaccines; Omicron BA.1 carries 37 Spike mutations driving antibody escape.</p>
+    <p class="aliases">Also known as: SARS-CoV-2 Spike, Spike protein, SARS-CoV-2 S protein, Spike glycoprotein, prefusion Spike, S1 RBD, RBD, 2P Spike, coronavirus fusion protein, mRNA vaccine antigen</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~180 kDa</span><span class="stat-label">Per protomer (glycosylated)</span></div>
-      <div class="stat"><span class="stat-num">1,273 aa</span><span class="stat-label">Full-length spike</span></div>
-      <div class="stat"><span class="stat-num">~22</span><span class="stat-label">N-linked glycans per protomer</span></div>
-      <div class="stat"><span class="stat-num">Kd ~15 nM</span><span class="stat-label">ACE2 binding affinity</span></div>
-      <div class="stat"><span class="stat-num">&gt;95%</span><span class="stat-label">Efficacy (ancestral, mRNA vaccines)</span></div>
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-08</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-    <div class="detail-card" id="spike-overview">
-      <div class="detail-header" style="background: linear-gradient(135deg, #7f1d1d, #991b1b, #b91c1c);">
-        <div class="entry-eyebrow">Coronaviridae &middot; Betacoronavirus &middot; Class I Fusion Glycoprotein &middot; Homotrimer</div>
-        <h3>SARS-CoV-2 Spike (S) Glycoprotein</h3>
-        <p class="summary">Homotrimeric class I fusion glycoprotein (~180 kDa/protomer). The S1 subunit contains the N-terminal domain (NTD) and receptor-binding domain (RBD); the S2 subunit mediates membrane fusion via a 6-helix bundle (6HB). A furin site at S1/S2 (PRRAR&darr;S, absent in SARS-CoV-1) is processed in the Golgi of the producer cell, pre-activating spike on released virions. TMPRSS2 cleaves S2&prime; (R815) at the target cell surface to activate fusion. ~22 N-linked glycans per protomer mask ~40% of the surface, providing immune evasion while permitting ACE2 binding. Every approved COVID-19 vaccine encodes or delivers spike, most using 2P (K986P/V987P) proline substitutions to stabilize the immunogenic prefusion conformation.</p>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">sars-cov-2-spike</div>
+        <h2>SARS-CoV-2 Spike</h2>
+        <p class="summary">SARS-CoV-2 Spike (class I fusogen; 1273 aa; homotrimer; furin site PRRAR absent in SARS-CoV-1) binds ACE2 (Kd ~15 nM) via RBD; 2P (K986P/V987P) proline stabilization locks prefusion conformation for mRNA vaccines; Omicron BA.1 carries 37 Spike mutations driving antibody escape.</p>
       </div>
-
       <div class="detail-body">
 
         <div class="detail-section">
-          <h4>Classification &amp; Fast Facts</h4>
-          <table class="detail-table">
-            <tr><td>Protein class</td><td>Class I viral fusion glycoprotein (homotrimeric); same structural class as HIV gp41/gp120, influenza HA, Ebola GP — convergent mechanism, divergent sequence</td></tr>
-            <tr><td>Genome context</td><td>ORF2 of the ~30 kb SARS-CoV-2 positive-sense ssRNA genome; encodes 1,273 aa (ancestral Wuhan-Hu-1 reference); processed into S1 + S2 subunits by furin at residue 685</td></tr>
-            <tr><td>Oligomeric state</td><td>Homotrimer in the native virion membrane; each 180 kDa protomer non-covalently associated in a 540 kDa trimer; density ~25 spikes per virion (lower than influenza HA density)</td></tr>
-            <tr><td>Entry receptors</td><td>ACE2 (primary; all SARS-CoV-2 variants); TMPRSS2 (serine protease activator at S2&prime; — preferred pathway in lung AT2 cells); Cathepsin B/L (endosomal alternative in TMPRSS2-low cells)</td></tr>
-            <tr><td>Immune target</td><td>Primary target of all SARS-CoV-2 neutralizing antibodies (Class I&ndash;IV RBD epitopes, NTD supersite); anti-spike IgG titer is the principal correlate of COVID-19 vaccine protection</td></tr>
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>sars-cov-2-spike</td></tr>
+            <tr><td>Name</td><td>SARS-CoV-2 Spike</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-08</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h4>Domain Architecture and S1/S2 Structure</h4>
-          <table class="domain-table">
-            <tr>
-              <th>Region</th><th>Residues (Wuhan)</th><th>Function</th>
-            </tr>
-            <tr>
-              <td>Signal peptide</td><td>1&ndash;12</td>
-              <td>ER cotranslational translocation; cleaved</td>
-            </tr>
-            <tr>
-              <td>S1 &mdash; NTD</td><td>13&ndash;303</td>
-              <td>N-terminal domain; alternate lectin-like binding site; host for Class IV NTD-targeting neutralizing antibodies (N1&ndash;N5 loops); vaccine antibody supersite</td>
-            </tr>
-            <tr>
-              <td>S1 &mdash; RBD</td><td>319&ndash;541</td>
-              <td>Core + receptor-binding motif (RBM: 437&ndash;508); direct ACE2 contact; Class I&ndash;III neutralizing antibody target; most mutated region in VOCs</td>
-            </tr>
-            <tr>
-              <td>S1 &mdash; SD1/SD2</td><td>542&ndash;685</td>
-              <td>Subdomain 1/2; structural support connecting RBD to S2; stabilizes prefusion trimer</td>
-            </tr>
-            <tr>
-              <td>Furin site (S1/S2)</td><td>681&ndash;685 (PRRAR&darr;S)</td>
-              <td>Furin cleavage in producer cell Golgi; unique to SARS-CoV-2 vs SARS-CoV-1; generates pre-activated S1+S2 heterodimer on virion; critical for lung pathogenicity and high transmissibility</td>
-            </tr>
-            <tr>
-              <td>S2 &mdash; Fusion Peptide</td><td>~816&ndash;833</td>
-              <td>Inserts into host membrane after TMPRSS2 cleavage at S2&prime; (R815); initiates membrane merger</td>
-            </tr>
-            <tr>
-              <td>S2 &mdash; HR1</td><td>~912&ndash;984</td>
-              <td>Heptad repeat 1; forms inner coiled-coil of 6HB; highly conserved; target of pan-coronavirus inhibitors</td>
-            </tr>
-            <tr>
-              <td>S2 &mdash; HR2</td><td>~1163&ndash;1213</td>
-              <td>Heptad repeat 2; folds antiparallel against HR1 in postfusion 6HB; drives membrane merger</td>
-            </tr>
-            <tr>
-              <td>Transmembrane</td><td>~1214&ndash;1234</td>
-              <td>Single-pass TM anchor; palmitoyated cysteines at cytoplasmic face</td>
-            </tr>
-            <tr>
-              <td>Cytoplasmic tail</td><td>1235&ndash;1273</td>
-              <td>ERGIC/Golgi retention motif; palmitoylation sites; regulates ER export and virion incorporation</td>
-            </tr>
-          </table>
-
-          <div style="margin-top: 1rem;">
-            <div class="callout">
-              <strong>The glycan shield:</strong> Each spike protomer carries ~22 N-linked glycans and 3 O-linked glycans, covering ~40% of the protein surface. This shield masks conserved epitopes from antibody access (immune evasion) while still permitting ACE2 binding. The N343 glycan acts as a &ldquo;glycan gate&rdquo; modulating RBD up/down conformational dynamics. Vaccine-elicited antibodies that penetrate the glycan shield to reach conserved S2 HR1 or FP epitopes have broad neutralization potential against multiple SARS-CoV-2 variants.
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Prefusion Conformational States (Cryo-EM)</h4>
-          <table class="detail-table">
-            <tr><td>Prefusion closed (all RBDs &ldquo;down&rdquo;)</td><td>Compact trimer; RBMs shielded by inter-protomer contacts; predominant resting state on virion; targeted by stabilizing 2P design in vaccines; immunogenic but RBM partially occluded</td></tr>
-            <tr><td>Prefusion open (1&ndash;3 RBDs &ldquo;up&rdquo;)</td><td>One or more RBDs rotate ~60&deg; upward from the trimer axis, exposing the RBM for ACE2 engagement; required for receptor binding; more immunogenic for RBM-directed antibodies</td></tr>
-            <tr><td>Post-ACE2-binding</td><td>ACE2-occupied spike remains in open conformation; vulnerable to TMPRSS2 cleavage at S2&prime;; TMPRSS2 processing accelerates the conformational transition to the postfusion state</td></tr>
-            <tr><td>Postfusion (6HB hairpin)</td><td>Irreversible; S1 shed; HR1 forms inner coiled-coil; HR2 folds antiparallel against HR1; 6-helix bundle drives bilayer merger and fusion pore formation; thermodynamically stable end state</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h4>Infection Mechanism</h4>
-          <div class="mech-list">
-            <div class="mech-item step1">
-              <h5>Step 1 &middot; Furin processing in producer cell (S1/S2 cleavage)</h5>
-              <p>During virion assembly, spike traverses the secretory pathway. The furin recognition sequence PRRAR (residues 681&ndash;685) is cleaved by furin in the trans-Golgi network, generating non-covalently associated S1 (N-terminal) and S2 (C-terminal, membrane-anchored) subunits. This pre-activation &mdash; absent in SARS-CoV-1 &mdash; equips virions with partially activated spike, accelerating entry kinetics in the lung. The Omicron lineage progressively acquired enhanced furin site processing efficiency.</p>
-            </div>
-            <div class="mech-item step2">
-              <h5>Step 2 &middot; ACE2 binding via RBD &ldquo;up&rdquo; conformation</h5>
-              <p>The RBD spontaneously samples &ldquo;up&rdquo; and &ldquo;down&rdquo; conformations. In the up conformation, the receptor-binding motif (RBM, residues 437&ndash;508) is exposed and engages the ACE2 N-terminal peptidase domain in a concave binding surface (~1,700 &Aring;<sup>2</sup> buried surface area). Critical RBD contacts include Y449, G496, T500, N501, G502, Y505; key ACE2 contacts include K31, E35, D38, Y41, Q42, L79, M82, Y83, K353. Binding affinity Kd ~15 nM (vs. ~325 nM for SARS-CoV-1 RBD), reflecting adapted contact residues driving pandemic transmissibility.</p>
-            </div>
-            <div class="mech-item step3">
-              <h5>Step 3 &middot; TMPRSS2 cleavage at S2&prime; (R815) &mdash; preferred lung pathway</h5>
-              <p>ACE2-bound spike exposes the S2&prime; cleavage site (R815). Host TMPRSS2 (a type II serine protease highly expressed on type II alveolar epithelial cells and airway epithelium co-expressed with ACE2) cleaves S2&prime;, releasing S1 and activating the S2 fusion peptide. This is the kinetically rapid, endosome-independent entry pathway dominant in the lung. Alternatively, endocytosed virus is cleaved by cathepsin B/L in the late endosome (slower; dominant in TMPRSS2-low cell types).</p>
-            </div>
-            <div class="mech-item step4">
-              <h5>Step 4 &middot; 6-helix bundle formation and membrane fusion</h5>
-              <p>After S2&prime; cleavage: the fusion peptide (residues ~816&ndash;833) inserts into the host cell membrane. HR1 and HR2 are then free to interact. HR2 folds antiparallel against HR1 in a thermodynamically irreversible collapse, forming the trimeric coiled-coil 6-helix bundle (6HB). This jackknife motion physically draws the viral envelope and host cell membrane together, generating the energy for membrane merger and fusion pore formation. Genome-containing ribonucleoprotein complex is then delivered to the cytoplasm for replication.</p>
-            </div>
-            <div class="mech-item step5">
-              <h5>Step 5 &middot; Immune evasion and variant antigenic evolution</h5>
-              <p>SARS-CoV-2 spike evolves primarily under immune selection pressure. VOC mutations cluster in the RBM (Class I/II antibody epitopes) and NTD (NTD supersite) to escape vaccine-elicited and infection-elicited antibodies while maintaining ACE2 affinity. Alpha N501Y: ~10-fold increased ACE2 affinity; Beta K417N/E484K: escape Class I/II; Delta L452R/T478K: enhanced fusogenicity; Omicron BA.1: 37 spike mutations (15 in RBD) achieving both high ACE2 affinity and near-complete escape of ancestral-vaccine antibodies through compensatory mutations.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>ACE2 Contact Residues &mdash; Key Interface Details</h4>
-          <table class="domain-table">
-            <tr>
-              <th>Spike RBD Residue</th><th>ACE2 Contact</th><th>Interaction</th><th>VOC Mutation</th>
-            </tr>
-            <tr>
-              <td>Y449</td><td>D38, G446</td>
-              <td>Hydrogen bond + van der Waals</td>
-              <td>Y449H (BA.2.86 lineage)</td>
-            </tr>
-            <tr>
-              <td>G496</td><td>K353, G354</td>
-              <td>Van der Waals; structural (backbone)</td>
-              <td>G496S (Omicron BA.1)</td>
-            </tr>
-            <tr>
-              <td>N501</td><td>K353, Y41</td>
-              <td>Hydrogen bond; N501Y increases ACE2 affinity ~10&times;</td>
-              <td>N501Y (Alpha, Beta, Gamma, Omicron)</td>
-            </tr>
-            <tr>
-              <td>Y505</td><td>E37, R393</td>
-              <td>Hydrogen bond; critical ACE2 contact</td>
-              <td>Y505H (Omicron BA.2+)</td>
-            </tr>
-            <tr>
-              <td>K417</td><td>D30</td>
-              <td>Salt bridge; Class I antibody contact</td>
-              <td>K417N (Beta, Gamma) — antibody escape</td>
-            </tr>
-            <tr>
-              <td>E484</td><td>K31</td>
-              <td>Salt bridge; critical Class II antibody epitope</td>
-              <td>E484K (Beta, Gamma) — antibody escape</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h4>Vaccine Antigen Design</h4>
-          <table class="vaccine-table">
-            <tr>
-              <th>Platform</th><th>Vaccine</th><th>Spike Modification</th><th>Efficacy (ancestral)</th>
-            </tr>
-            <tr>
-              <td><strong>mRNA-LNP</strong></td>
-              <td>Pfizer-BioNTech (BNT162b2)</td>
-              <td>2P (K986P/V987P) prefusion-stabilized; full-length transmembrane spike</td>
-              <td>~95% (symptomatic COVID-19, original strain)</td>
-            </tr>
-            <tr>
-              <td><strong>mRNA-LNP</strong></td>
-              <td>Moderna (mRNA-1273)</td>
-              <td>2P (K986P/V987P) prefusion-stabilized; full-length transmembrane spike</td>
-              <td>~94% (symptomatic COVID-19, original strain)</td>
-            </tr>
-            <tr>
-              <td><strong>Adenoviral vector</strong></td>
-              <td>J&amp;J Ad26.COV2.S</td>
-              <td>2P + furin site mutation (GSAS substitution); prevents processing in vector-transduced cells</td>
-              <td>~85% (severe disease, J&amp;J trial)</td>
-            </tr>
-            <tr>
-              <td><strong>Adenoviral vector</strong></td>
-              <td>AstraZeneca (ChAdOx1-S)</td>
-              <td>Wild-type spike (no stabilizing mutations in original design)</td>
-              <td>~70&ndash;90% (pooled analysis)</td>
-            </tr>
-            <tr>
-              <td><strong>Protein subunit</strong></td>
-              <td>Novavax (NVX-CoV2373)</td>
-              <td>2P-stabilized recombinant spike protein nanoparticle + Matrix-M adjuvant</td>
-              <td>~90% (pivotal trial, ancestral/Alpha)</td>
-            </tr>
-          </table>
-
-          <div style="margin-top: 1rem;">
-            <div class="callout">
-              <strong>The 2P mutation strategy:</strong> The K986P/V987P substitutions in the HR1 hinge region introduce prolines at positions that would otherwise undergo a conformational change during the prefusion&rarr;postfusion transition. Prolines cannot adopt the phi/psi angles required for the postfusion conformation, locking spike in the prefusion state at 37&deg;C. Without 2P, recombinant spike spontaneously collapses to the non-immunogenic postfusion hairpin — which is not recognized by most potent neutralizing antibodies. The 2P concept was pioneered for RSV F by McLellan et al. (2013) and adapted for SARS-CoV-2 by Wrapp et al. in weeks during early 2020.
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Variant Evolution of Spike</h4>
-          <table class="variant-table">
-            <tr>
-              <th>Variant (WHO)</th><th>Key Spike Mutations</th><th>ACE2 Affinity</th><th>Immune Evasion</th><th>Clinical Severity</th>
-            </tr>
-            <tr>
-              <td>Wild-type (Wuhan)</td>
-              <td>D614G (early; universal)</td>
-              <td>Baseline (~15 nM)</td>
-              <td>Baseline</td>
-              <td>Index; pandemic seeding</td>
-            </tr>
-            <tr>
-              <td>Alpha (B.1.1.7)</td>
-              <td>N501Y, D614G, P681H</td>
-              <td>~2&times; WT</td>
-              <td>Minimal vs. WT vaccines</td>
-              <td>~50% increased mortality vs. WT</td>
-            </tr>
-            <tr>
-              <td>Beta (B.1.351)</td>
-              <td>K417N, E484K, N501Y</td>
-              <td>Similar or slight increase</td>
-              <td>High — Class I/II escape; reduced BNT162b2 nAb ~10&times;</td>
-              <td>Vaccine breakthrough; limited spread</td>
-            </tr>
-            <tr>
-              <td>Delta (B.1.617.2)</td>
-              <td>L452R, T478K, P681R, D614G</td>
-              <td>Similar to WT</td>
-              <td>Moderate; P681R enhances furin cleavage</td>
-              <td>Highest pre-Omicron severity; highest viral load</td>
-            </tr>
-            <tr>
-              <td>Omicron BA.1</td>
-              <td>37 spike mutations (15 in RBD): G339D, S371L, S373P, S375F, K417N, N440K, G446S, S477N, T478K, E484A, Q493R, G496S, Q498R, N501Y, Y505H + more</td>
-              <td>~2.4&times; WT (compensatory)</td>
-              <td>Maximal — &gt;90% reduction of ancestral-vaccine nAb titer; near-complete Class I/II/III escape</td>
-              <td>Reduced lung tropism (upper airway shift); &darr;severity vs. Delta in vaccinated individuals</td>
-            </tr>
-            <tr>
-              <td>XBB/JN.1 lineages</td>
-              <td>Additional RBD + NTD mutations on Omicron backbone</td>
-              <td>Maintained via ACE2-affinity optimization</td>
-              <td>Near-complete evasion of Omicron BA.1-updated vaccine responses</td>
-              <td>Ongoing immune evasion evolution; continued bivalent/updated booster needed</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h4>Cross-Atlas Connections</h4>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill" href="ace2.html"><span class="rel">Targets</span>ACE2 &mdash; RBD:ACE2 obligate entry receptor; Kd ~15 nM; 1,700 &Aring;² interface</a>
-            <a class="conn-pill" href="immune-system.html"><span class="rel">Target-of</span>Neutralizing IgG &mdash; anti-RBD Class I&ndash;IV; correlate of vaccine protection</a>
-            <a class="conn-pill" href="lung.html"><span class="rel">Targets</span>Type II pneumocyte &mdash; high ACE2 + TMPRSS2; primary lung infection site</a>
-            <a class="conn-pill" href="immune-system.html"><span class="rel">Targets</span>Dendritic cells &mdash; ACE2 + CLEC4M-mediated entry; impairs IFN and antigen presentation</a>
+            <a class="conn-pill" href="sars-cov-2.html" title="Spike (S1/S2; class I fusogen; furin site PRRAR absent in SARS-CoV-1) is SARS-CoV-2's sole surface antigen (~25 trimers/virion); NSP5 Mpro (nirmatrelvir) and NSP12 RdRp (remdesivir) are the drug targets; Omicron carries progressive RBD mutations driving immune escape."><span class="rel">connects-to</span>Sars Cov 2</a>
+            <a class="conn-pill" href="ace2.html" title="SARS-CoV-2 RBD:ACE2 interface buries ~1700 Å² (17 ACE2 + 18 RBD contact residues); Kd ~15 nM vs ~325 nM for SARS-CoV-1; N501Y (Alpha) increases ACE2 affinity ~10×; furin cleaves S1/S2 in producer cell Golgi → pre-activated spike maximizes TMPRSS2-mediated lung entry."><span class="rel">connects-to</span>Ace2</a>
+            <a class="conn-pill" href="rsv-f-protein.html" title="SARS-CoV-2 S2 and RSV F are class I viral fusogens: HR1/HR2 six-helix bundle drives membrane merger in both; 2P proline stabilization (K986P/V987P) of SARS-CoV-2 prefusion Spike parallels DS-Cav1 RSV-F locking; both are the structural basis of approved mRNA vaccines."><span class="rel">connects-to</span>Rsv F Protein</a>
+            <a class="conn-pill" href="hiv-gp120.html" title="SARS-CoV-2 S2 and HIV gp41 are class I viral fusogens — HR1/HR2 six-helix bundles drive membrane merger; 2P proline locking of prefusion Spike parallels SOSIP IP stabilization of HIV Env; Spike and gp120 both carry N-glycan shields masking conserved neutralizing epitopes."><span class="rel">connects-to</span>Hiv Gp120</a>
+            <a class="conn-pill" href="type-i-interferon.html" title="SARS-CoV-2 Spike activates TLR2/TLR4 → NF-κB on epithelial cells; Spike-mediated syncytium formation generates apoptotic debris → cGAS-STING → IFN-β; NSP1 blocks type I IFN translation; Spike mRNA vaccines activate ISGs via IFNAR; IFN-λ3 is the dominant mucosal innate barrier."><span class="rel">connects-to</span>Type I Interferon</a>
+            <a class="conn-pill" href="mavs.html" title="SARS-CoV-2 +ssRNA replication intermediates and defective interfering particles (5′ppp RNA) activate RIG-I → MAVS → TBK1/IRF3 → IFN-β; NSP6 sequesters MAVS; NSP13 disrupts TBK1; NSP16 2′-O-methylation evades MDA5; impaired RIG-I/MAVS correlates with COVID-19 severity."><span class="rel">connects-to</span>Mavs</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h4>Spike-Mediated Pathology Beyond Entry</h4>
-          <table class="detail-table">
-            <tr><td>ACE2 downregulation</td><td>Spike binding → ACE2 internalization and shedding (ADAM17-mediated) → local Ang II excess → vascular inflammation, ROS production, cardiac injury; exacerbates ARDS via loss of ACE2 RAAS counter-regulation in the lung</td></tr>
-            <tr><td>Endothelial activation</td><td>Spike (at subinfectious concentrations) activates TLR4 on endothelial cells → NF-&kappa;B → IL-6, IL-8, ICAM-1, VCAM-1; impairs eNOS-dependent NO signaling → vasoconstriction; promotes mitochondrial fission → mitochondrial ROS; endotheliitis is a hallmark of severe COVID-19 autopsy findings</td></tr>
-            <tr><td>Platelet activation</td><td>Spike activates platelets via ACE2 and via Fc&gamma;RIIA (antibody-dependent in ADE contexts) → platelet aggregation → microthrombi; contributes to the COVID-19 coagulopathy phenotype (elevated D-dimer, fibrinogen, factor VIII)</td></tr>
-            <tr><td>Neurological effects</td><td>Spike interacts with pericyte ACE2 at the blood-brain barrier → pericyte injury → BBB dysfunction; spike-induced neuroinflammation and complement activation may contribute to Long COVID cognitive symptoms (brain fog); spike RNA detected in brain endothelium and neurons in autopsy studies</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h4>References</h4>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Wrapp D, Wang N, Corbett KS, et al. Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. <em>Science.</em> 2020;367(6483):1260&ndash;1263. <a href="https://doi.org/10.1126/science.abb2507" target="_blank" rel="noopener noreferrer">doi:10.1126/science.abb2507</a> &middot; PubMed 32075877</li>
-            <li>Walls AC, Park YJ, Tortorici MA, Wall A, McGuire AT, Veesler D. Structure, function, and antigenicity of the SARS-CoV-2 spike glycoprotein. <em>Cell.</em> 2020;181(2):281&ndash;292. <a href="https://doi.org/10.1016/j.cell.2020.02.058" target="_blank" rel="noopener noreferrer">doi:10.1016/j.cell.2020.02.058</a> &middot; PubMed 32155444</li>
-            <li>Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor. <em>Cell.</em> 2020;181(2):271&ndash;280. <a href="https://doi.org/10.1016/j.cell.2020.02.052" target="_blank" rel="noopener noreferrer">doi:10.1016/j.cell.2020.02.052</a> &middot; PubMed 32142651</li>
-            <li>Cai Y, Zhang J, Xiao T, et al. Distinct conformational states of SARS-CoV-2 spike protein. <em>Science.</em> 2020;369(6511):1586&ndash;1592. <a href="https://doi.org/10.1126/science.abd4251" target="_blank" rel="noopener noreferrer">doi:10.1126/science.abd4251</a> &middot; PubMed 32694201</li>
-            <li>Barnes CO, Jette CA, Abernathy ME, et al. SARS-CoV-2 neutralizing antibody structures inform therapeutic strategies. <em>Nature.</em> 2020;588(7839):682&ndash;687. <a href="https://doi.org/10.1038/s41586-020-2852-1" target="_blank" rel="noopener noreferrer">doi:10.1038/s41586-020-2852-1</a> &middot; PubMed 33045718</li>
-            <li>McLellan JS, Chen M, Leung S, et al. Structure of RSV fusion glycoprotein trimer bound to a prefusion-specific neutralizing antibody. <em>Science.</em> 2013;340(6136):1113&ndash;1117. <a href="https://doi.org/10.1126/science.1234914" target="_blank" rel="noopener noreferrer">doi:10.1126/science.1234914</a> &middot; PubMed 23618766 (2P concept origin)</li>
+            <li><a href="https://doi.org/10.1126/science.abb2507" target="_blank" rel="noopener noreferrer">Wrapp D, Wang N, Corbett KS, et al. Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. Science. 2020;367(6483):1260-1263.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32075877/" target="_blank" rel="noopener noreferrer">PubMed 32075877</a></li>
+            <li><a href="https://doi.org/10.1016/j.cell.2020.02.052" target="_blank" rel="noopener noreferrer">Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. Cell. 2020;181(2):271-280.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32142651/" target="_blank" rel="noopener noreferrer">PubMed 32142651</a></li>
+            <li><a href="https://doi.org/10.1016/j.cell.2020.02.058" target="_blank" rel="noopener noreferrer">Walls AC, Park YJ, Tortorici MA, Wall A, McGuire AT, Veesler D. Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein. Cell. 2020;181(2):281-292.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32155444/" target="_blank" rel="noopener noreferrer">PubMed 32155444</a></li>
+            <li><a href="https://doi.org/10.1126/science.abd0826" target="_blank" rel="noopener noreferrer">Hsieh CL, Goldsmith JA, Schaub JM, et al. Structure-based design of prefusion-stabilized SARS-CoV-2 spikes. Science. 2020;369(6510):1501-1505.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32703906/" target="_blank" rel="noopener noreferrer">PubMed 32703906</a></li>
           </ul>
         </div>
 
       </div>
-    </div><!-- /.detail-card -->
-
-    <div class="contribute">
-      <h2>Contribute to the Pathogen Atlas</h2>
-      <p>This entry covers spike protein architecture, ACE2 binding interface, TMPRSS2-dependent and endosomal entry, 6-helix bundle fusion, vaccine antigen design (2P mutation), variant evolution and immune evasion, and spike-mediated pathology beyond viral entry. Planned expansions: structural superimposition of Omicron vs. ancestral spike (cryo-EM), epitope maps for broadly neutralizing antibodies, and comparison of spike stabilization strategies (2P, HexaPro, 6P) across different vaccine platforms.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
-          Contribute on GitHub
-        </a>
-        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=SARS-CoV-2%20Spike%20Atlas%20entry">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Get in touch
-        </a>
-      </div>
     </div>
-
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="immune-system.html">Immune System</a>
-      <a href="lung.html">Lung</a>
-      <a href="ace2.html">ACE2</a>
-      <a href="index.html#join">Join</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

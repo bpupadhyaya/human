@@ -3,388 +3,201 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SARS-CoV-2 · Human Engineering Atlas</title>
+  <meta name="description" content="SARS-CoV-2 (betacoronavirus; sarbecovirus; ~29.9 kb +ssRNA) causes COVID-19 via ACE2/Spike entry; NSP1-16 replicase includes NSP12 RdRp (remdesivir target) and ">
+  <meta property="og:title" content="SARS-CoV-2 — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>SARS-CoV-2 — Human Engineering</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --accent:     #9f1239;
-      --accent-lt:  #fecdd3;
-      --accent-dim: rgba(159,18,57,.12);
-      --surface:    #ffffff;
-      --surface2:   #f8fafc;
-      --surface3:   #f1f5f9;
-      --border:     #e2e8f0;
-      --text:       #0f172a;
-      --text-2:     #475569;
-      --text-3:     #94a3b8;
-      --radius-sm:  10px;
-      --radius:     18px;
-      --radius-lg:  24px;
-      --shadow-sm:  0 1px 3px rgba(0,0,0,.07);
-      --shadow:     0 4px 16px rgba(0,0,0,.08);
-      --shadow-lg:  0 12px 40px rgba(0,0,0,.12);
-      --maxw:       1120px;
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-           background: var(--surface2); color: var(--text); line-height: 1.6; }
-
-    /* ── nav ── */
-    .site-nav { background: var(--surface); border-bottom: 1px solid var(--border);
-                padding: .75rem 1.5rem; display: flex; align-items: center; gap: .75rem; }
-    .site-nav a { color: var(--accent); text-decoration: none; font-size: .875rem; font-weight: 500; }
-    .site-nav a:hover { text-decoration: underline; }
-    .nav-sep { color: var(--text-3); font-size: .75rem; }
-
-    /* ── hero ── */
-    .detail-hero { background: linear-gradient(135deg, #9f1239, #7f1d1d);
-                   color: #fff; padding: 3rem 2rem 2.5rem; }
-    .detail-hero-inner { max-width: var(--maxw); margin: 0 auto; }
-    .detail-eyebrow { font-size: .75rem; font-weight: 600; letter-spacing: .12em;
-                      text-transform: uppercase; opacity: .75; margin-bottom: .5rem; }
-    .detail-title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; line-height: 1.15;
-                    margin-bottom: .4rem; }
-    .detail-subtitle { font-size: 1rem; opacity: .8; margin-bottom: 1.5rem; }
-    .stat-row { display: flex; flex-wrap: wrap; gap: .75rem; }
-    .stat-chip { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25);
-                 border-radius: 999px; padding: .3rem .85rem;
-                 font-size: .8rem; font-weight: 600; backdrop-filter: blur(4px); }
-
-    /* ── layout ── */
-    .detail-body { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1.5rem; }
-    .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
-    @media (max-width: 720px) { .detail-grid { grid-template-columns: 1fr; } }
-
-    /* ── cards ── */
-    .detail-card { background: var(--surface); border: 1px solid var(--border);
-                   border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow: hidden; }
-    .detail-card.full { grid-column: 1 / -1; }
-    .detail-header { background: var(--accent-dim); border-bottom: 1px solid var(--border);
-                     padding: 1rem 1.25rem; display: flex; align-items: center; gap: .6rem; }
-    .detail-header h2 { font-size: 1rem; font-weight: 700; color: var(--accent); }
-    .detail-section { padding: 1.25rem; }
-
-    /* ── detail table ── */
-    .detail-table { width: 100%; border-collapse: collapse; font-size: .875rem; }
-    .detail-table tr { border-bottom: 1px solid var(--border); }
-    .detail-table tr:last-child { border-bottom: none; }
-    .detail-table th { width: 38%; padding: .55rem .6rem; text-align: left;
-                       font-weight: 600; color: var(--text-2); background: var(--surface3); }
-    .detail-table td { padding: .55rem .6rem; color: var(--text); }
-
-    /* ── mechanism list ── */
-    .mech-list { list-style: none; display: flex; flex-direction: column; gap: .65rem; }
-    .mech-item { border-radius: var(--radius-sm); padding: .75rem 1rem;
-                 border-left: 4px solid transparent; font-size: .875rem; }
-    .mech-item strong { display: block; font-weight: 700; margin-bottom: .2rem; font-size: .9rem; }
-    .mech-item.danger  { background: #fff1f2; border-color: #f43f5e; }
-    .mech-item.immune  { background: #f0fdf4; border-color: #22c55e; }
-    .mech-item.latent  { background: #fefce8; border-color: #eab308; }
-    .mech-item.drug    { background: #eff6ff; border-color: #3b82f6; }
-
-    /* ── immune tags ── */
-    .immune-tags { display: flex; flex-wrap: wrap; gap: .5rem; padding: 1.25rem; }
-    .itag { border-radius: 999px; padding: .3rem .9rem; font-size: .8rem; font-weight: 600; }
-    .itag.innate   { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
-    .itag.adaptive { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
-    .itag.depleted { background: #fdf4ff; color: #7e22ce; border: 1px solid #e9d5ff; }
-
-    /* ── path table ── */
-    .path-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
-    .path-table th { background: var(--surface3); padding: .5rem .75rem; text-align: left;
-                     font-weight: 700; border-bottom: 2px solid var(--border); color: var(--text-2); }
-    .path-table td { padding: .5rem .75rem; border-bottom: 1px solid var(--border); }
-    .path-table tr:last-child td { border-bottom: none; }
-    .severity { display: inline-block; border-radius: 999px; padding: .15rem .65rem;
-                font-size: .75rem; font-weight: 700; }
-    .sev-low    { background: #f0fdf4; color: #166534; }
-    .sev-med    { background: #fefce8; color: #854d0e; }
-    .sev-high   { background: #fff1f2; color: #9f1239; }
-    .sev-crit   { background: #1e1b4b; color: #e0e7ff; }
-
-    /* ── connections ── */
-    .connections { display: flex; flex-wrap: wrap; gap: .6rem; padding: 1.25rem; }
-    .conn-pill { border-radius: 999px; padding: .35rem 1rem; font-size: .8rem;
-                 font-weight: 600; text-decoration: none; transition: opacity .15s; }
-    .conn-pill:hover { opacity: .75; }
-    .conn-pill.infects  { background: #fff1f2; color: #9f1239; border: 1px solid #fecdd3; }
-    .conn-pill.damages  { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
-    .conn-pill.targets  { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
-    .conn-pill.triggers { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
-    .conn-pill.treated  { background: #fdf4ff; color: #7e22ce; border: 1px solid #e9d5ff; }
-
-    /* ── refs ── */
-    .refs { list-style: none; display: flex; flex-direction: column; gap: .5rem;
-            font-size: .82rem; padding: 1.25rem; }
-    .refs li { padding-left: 1.2rem; position: relative; color: var(--text-2); }
-    .refs li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
-    .refs a { color: var(--accent); text-decoration: none; }
-    .refs a:hover { text-decoration: underline; }
-
-    /* ── contribute ── */
-    .contribute { background: var(--accent-dim); border: 1px dashed var(--accent);
-                  border-radius: var(--radius); padding: 1.25rem 1.5rem; font-size: .875rem; }
-    .contribute strong { color: var(--accent); }
-    .contribute a { color: var(--accent); }
-
-    /* ── footer ── */
-    .site-footer { text-align: center; padding: 2.5rem 1rem 3rem;
-                   font-size: .8rem; color: var(--text-3); border-top: 1px solid var(--border);
-                   margin-top: 3rem; }
-    .site-footer a { color: var(--text-3); }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav class="site-nav">
-  <a href="index.html">Human Atlas</a>
-  <span class="nav-sep">›</span>
-  <a href="pathogens.html">Pathogens</a>
-  <span class="nav-sep">›</span>
-  <span>SARS-CoV-2</span>
-</nav>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
 
-<header class="detail-hero">
-  <div class="detail-hero-inner">
-    <div class="detail-eyebrow">Atlas Two · Pathogen · Virus</div>
-    <h1 class="detail-title">SARS-CoV-2</h1>
-    <p class="detail-subtitle">Severe Acute Respiratory Syndrome Coronavirus 2 — causative agent of COVID-19</p>
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
+    <h1>SARS-CoV-2</h1>
+    <p class="tagline">SARS-CoV-2 (betacoronavirus; sarbecovirus; ~29.9 kb +ssRNA) causes COVID-19 via ACE2/Spike entry; NSP1-16 replicase includes NSP12 RdRp (remdesivir target) and Mpro NSP5 (nirmatrelvir target); multiple IFN evasion proteins; Omicron R₀ &gt;10; mRNA vaccines &gt;90% vs severe disease.</p>
+    <p class="aliases">Also known as: SARS-CoV-2, severe acute respiratory syndrome coronavirus 2, 2019-nCoV, COVID-19 virus, betacoronavirus, sarbecovirus, coronavirus</p>
     <div class="stat-row">
-      <span class="stat-chip">~29.9 kb +ssRNA</span>
-      <span class="stat-chip">100–160 nm virion</span>
-      <span class="stat-chip">29 proteins</span>
-      <span class="stat-chip">ACE2 receptor</span>
-      <span class="stat-chip">&gt;770 M confirmed cases</span>
-      <span class="stat-chip">&gt;7 M deaths (official)</span>
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-08</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
-</header>
 
-<main class="detail-body">
-  <div class="detail-grid">
-
-    <!-- Classification & Structure -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Classification &amp; Structure</h2></div>
-      <div class="detail-section">
-        <table class="detail-table">
-          <tr><th>Realm / Kingdom</th><td>Riboviria / Orthornavirae</td></tr>
-          <tr><th>Order / Family</th><td>Nidovirales / Coronaviridae</td></tr>
-          <tr><th>Genus / Species</th><td><em>Betacoronavirus</em> / SARS-related coronavirus (subgenus <em>Sarbecovirus</em>)</td></tr>
-          <tr><th>Genome</th><td>~29.9 kb positive-sense single-stranded RNA; 5′ cap + poly-A tail; two large ORFs (ORF1a/1ab ~20 kb) encoding 16 non-structural proteins (nsps)</td></tr>
-          <tr><th>Virion morphology</th><td>Enveloped, roughly spherical, 100–160 nm; crown of club-shaped spike (S) trimers giving "corona" appearance</td></tr>
-          <tr><th>Structural proteins</th><td>Spike (S) — receptor binding + fusion; Envelope (E) — viroporin; Membrane (M) — virion assembly; Nucleocapsid (N) — RNA packaging</td></tr>
-          <tr><th>Key surface feature</th><td>Spike S1 subunit receptor-binding domain (RBD) binds ACE2; S2 subunit drives membrane fusion after TMPRSS2 cleavage at S1/S2 and S2′ sites; furin cleavage site (PRRA insert) unique to SARS-CoV-2</td></tr>
-          <tr><th>Replication organelles</th><td>Double-membrane vesicles (DMVs) derived from ER-Golgi intermediate compartment (ERGIC); nsp3/nsp4/nsp6 induce DMV biogenesis</td></tr>
-          <tr><th>Origin</th><td>Closest known relative: RaTG13 bat coronavirus (~96.2% nt identity); intermediate host debated; emerged Wuhan, China late 2019</td></tr>
-          <tr><th>Variants of concern</th><td>Alpha (B.1.1.7), Beta (B.1.351), Delta (B.1.617.2), Omicron (BA.1 → XBB → JN.1 lineage); each carrying spike mutations altering ACE2 affinity and immune evasion</td></tr>
-        </table>
-      </div>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
     </div>
 
-    <!-- Infection Mechanism -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Infection Mechanism</h2></div>
-      <div class="detail-section">
-        <ul class="mech-list">
-          <li class="mech-item danger">
-            <strong>Step 1 — Receptor binding &amp; proteolytic priming</strong>
-            Spike RBD binds ACE2 (angiotensin-converting enzyme 2) with ~10–15 nM affinity. Host serine protease TMPRSS2 cleaves S at S1/S2 and S2′ sites on the cell surface, exposing the fusion peptide. In ACE2-low cells, cathepsin B/L can substitute in the endosomal route. The furin site (PRRA) allows pre-activation in producer cells, broadening tropism to airway epithelia, alveolar type II cells, cardiomyocytes, endothelium, intestinal enterocytes, and renal tubular cells.
-          </li>
-          <li class="mech-item danger">
-            <strong>Step 2 — Membrane fusion, uncoating &amp; genome delivery</strong>
-            S2 heptad repeats HR1/HR2 form a 6-helix bundle driving fusion. The 29.9 kb RNA is deposited directly into the cytoplasm and is immediately translated by host ribosomes. Ribosomal frameshifting at the ORF1a/ORF1ab junction generates pp1a (~440 kDa) and pp1ab (~800 kDa), cleaved by nsp3 (PLpro) and nsp5 (3CLpro / Mpro) into 16 nsps.
-          </li>
-          <li class="mech-item latent">
-            <strong>Step 3 — Replicase complex assembly &amp; transcription</strong>
-            nsp12 (RdRp), nsp7, and nsp8 form the core polymerase; nsp13 (helicase), nsp14 (3′–5′ exonuclease proofreader + N7-methyltransferase), and nsp16 (2′-O-methyltransferase) complete the replisome. Nsp14/nsp16 methylation of the 5′ cap mimics host mRNA, enabling immune evasion. Nested subgenomic mRNAs (sgmRNAs) encode structural and accessory ORFs (3a, 6, 7a, 7b, 8, 9b, 10).
-          </li>
-          <li class="mech-item immune">
-            <strong>Step 4 — Innate immune evasion</strong>
-            nsp1 binds the 40S ribosome, blocking host mRNA translation including ISG expression. nsp3 PLpro deubiquitinates IRF3 and STING, suppressing IFN-β induction. ORF3b (truncated) and ORF6 block STAT1/STAT2 nuclear translocation. nsp14 cap-methylation prevents MDA5/RIG-I recognition. Collectively, SARS-CoV-2 delays IFN-I induction by 2–4 days while viral loads peak — a key pathogenic window.
-          </li>
-          <li class="mech-item danger">
-            <strong>Step 5 — Cytokine storm &amp; multi-organ damage</strong>
-            In severe COVID-19, delayed IFN response is followed by dysregulated pro-inflammatory signalling: IL-6, IL-1β, TNF-α, IP-10/CXCL10 surge (the "cytokine storm"). In the lung, this drives diffuse alveolar damage (DAD), hyaline membrane formation, and ARDS. Endothelial ACE2 expression permits direct vascular infection causing endotheliitis, microvascular thrombosis, and complement activation. Myocardial injury occurs via direct cardiomyocyte infection (ACE2-high), hypoxaemia, and cytokine-driven inflammation (lymphocytic myocarditis). AKI results from tubular ACE2-mediated entry, haemodynamic compromise, and complement-mediated injury.
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Host Immune Response -->
     <div class="detail-card">
-      <div class="detail-header"><h2>Host Immune Response</h2></div>
-      <div class="immune-tags">
-        <span class="itag innate">Mucosal IgA (early)</span>
-        <span class="itag innate">Alveolar macrophage M1 activation</span>
-        <span class="itag innate">NK cell cytotoxicity</span>
-        <span class="itag innate">Complement (C3a/C5a)</span>
-        <span class="itag innate">Delayed IFN-I (nsp1/ORF6-suppressed)</span>
-        <span class="itag adaptive">CD4+ Tfh → anti-S/anti-N IgG</span>
-        <span class="itag adaptive">Neutralising anti-RBD antibodies</span>
-        <span class="itag adaptive">CD8+ CTL (spike + N + M epitopes)</span>
-        <span class="itag adaptive">Memory B cells (6–12+ months)</span>
-        <span class="itag adaptive">Cross-reactive T cells (seasonal CoV)</span>
-        <span class="itag depleted">T cell exhaustion (severe disease)</span>
-        <span class="itag depleted">Lymphopenia (IL-6-driven apoptosis)</span>
-        <span class="itag depleted">Impaired DC maturation</span>
-        <span class="itag depleted">Immune dysregulation → long COVID</span>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">sars-cov-2</div>
+        <h2>SARS-CoV-2</h2>
+        <p class="summary">SARS-CoV-2 (betacoronavirus; sarbecovirus; ~29.9 kb +ssRNA) causes COVID-19 via ACE2/Spike entry; NSP1-16 replicase includes NSP12 RdRp (remdesivir target) and Mpro NSP5 (nirmatrelvir target); multiple IFN evasion proteins; Omicron R₀ &gt;10; mRNA vaccines &gt;90% vs severe disease.</p>
       </div>
-    </div>
+      <div class="detail-body">
 
-    <!-- Disease Spectrum -->
-    <div class="detail-card">
-      <div class="detail-header"><h2>Disease Spectrum (COVID-19)</h2></div>
-      <div class="detail-section">
-        <table class="path-table">
-          <thead>
-            <tr><th>Syndrome</th><th>Key Features</th><th>Severity</th></tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Asymptomatic</td>
-              <td>~20–40% of infections; detectable viral shedding; spreads silently</td>
-              <td><span class="severity sev-low">Minimal</span></td>
-            </tr>
-            <tr>
-              <td>Mild COVID-19</td>
-              <td>Fever, cough, anosmia/ageusia, myalgia, fatigue; self-limited ~7–10 d</td>
-              <td><span class="severity sev-low">Low</span></td>
-            </tr>
-            <tr>
-              <td>Moderate COVID-19</td>
-              <td>Pneumonia without hypoxaemia; infiltrates on CT; SpO₂ ≥94%</td>
-              <td><span class="severity sev-med">Moderate</span></td>
-            </tr>
-            <tr>
-              <td>Severe COVID-19</td>
-              <td>SpO₂ &lt;94%; respiratory rate &gt;30/min; bilateral lung infiltrates &gt;50%</td>
-              <td><span class="severity sev-high">Severe</span></td>
-            </tr>
-            <tr>
-              <td>Critical / ARDS</td>
-              <td>Mechanical ventilation; diffuse alveolar damage; 20–40% ICU mortality (early waves)</td>
-              <td><span class="severity sev-crit">Critical</span></td>
-            </tr>
-            <tr>
-              <td>Cardiac complications</td>
-              <td>Myocarditis, troponin elevation, arrhythmia, acute MI, LVEF reduction; higher risk in older males</td>
-              <td><span class="severity sev-high">Severe</span></td>
-            </tr>
-            <tr>
-              <td>Thromboembolism</td>
-              <td>DVT/PE, arterial thrombosis, coagulopathy (elevated D-dimer, fibrinogen); Immuno-thrombosis</td>
-              <td><span class="severity sev-high">Severe</span></td>
-            </tr>
-            <tr>
-              <td>Long COVID / PASC</td>
-              <td>Fatigue, cognitive impairment ("brain fog"), dyspnoea, POTS, PEM persisting &gt;12 weeks; est. 10–30% of non-hospitalised</td>
-              <td><span class="severity sev-med">Chronic</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- Treatment & Prevention -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Treatment &amp; Prevention</h2></div>
-      <div class="detail-section">
-        <table class="detail-table">
-          <tr>
-            <th>Nirmatrelvir/ritonavir (Paxlovid)</th>
-            <td>Mpro (3CLpro) inhibitor; ritonavir pharmacokinetic booster. For high-risk non-hospitalised adults within 5 days of symptom onset. Reduces hospitalisation/death by ~89% (EPIC-HR trial). Watch drug–drug interactions (CYP3A4). Rebound phenomenon reported in ~5%.</td>
-          </tr>
-          <tr>
-            <th>Remdesivir (Veklury)</th>
-            <td>Adenosine analogue; inhibits nsp12 RdRp. IV infusion; EUA/full approval for hospitalised patients. Modest benefit in early disease; limited impact in severe ARDS.</td>
-          </tr>
-          <tr>
-            <th>Molnupiravir (Lagevrio)</th>
-            <td>Ribonucleoside analogue → mutagenesis of viral RNA. ~30% reduction in hospitalisation (MOVe-OUT). Second-line when Paxlovid not feasible; teratogenicity concerns limit use in pregnancy.</td>
-          </tr>
-          <tr>
-            <th>Dexamethasone (RECOVERY trial)</th>
-            <td>6 mg/day × 10 days for patients requiring supplemental oxygen/ventilation. Reduces 28-day mortality by 35% in ventilated patients (RECOVERY, Horby et al. 2021). Cornerstone of hospitalised COVID management. NOT beneficial in mild disease without hypoxaemia.</td>
-          </tr>
-          <tr>
-            <th>IL-6 receptor antagonists</th>
-            <td>Tocilizumab, sarilumab — for severe/critical COVID with elevated CRP and requiring supplemental O₂. Reduce mortality and ICU stay (RECOVERY, REMAP-CAP trials).</td>
-          </tr>
-          <tr>
-            <th>JAK inhibitors</th>
-            <td>Baricitinib — immunomodulatory; ACTT-2/RECOVERY trial support; reduces mortality in hospitalised patients on oxygen.</td>
-          </tr>
-          <tr>
-            <th>Anticoagulation</th>
-            <td>Prophylactic LMWH for all hospitalised patients; therapeutic anticoagulation for documented VTE or severe coagulopathy.</td>
-          </tr>
-          <tr>
-            <th>mRNA vaccines (BNT162b2 / mRNA-1273)</th>
-            <td>LNP-encapsulated mRNA encoding prefusion-stabilised spike. &gt;90% efficacy against symptomatic disease (original strain); bivalent and updated XBB.1.5/JN.1-targeting formulations maintain effectiveness against severe disease from newer variants. 2-dose primary + booster schedule; annual update recommended.</td>
-          </tr>
-          <tr>
-            <th>Adenoviral vector vaccines</th>
-            <td>ChAdOx1 nCoV-19 (AstraZeneca/Vaxzevria), Ad26.COV2.S (Janssen) — widely deployed globally; rare VITT risk with ChAdOx1 led to restriction in younger age groups in some countries.</td>
-          </tr>
-          <tr>
-            <th>Protein subunit &amp; other platforms</th>
-            <td>NVX-CoV2373 (Novavax, spike + Matrix-M adjuvant); inactivated virus vaccines (CoronaVac, Covaxin); widely used in lower-income settings.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <!-- Connections -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Connections</h2></div>
-      <div class="connections">
-        <a href="lung-alveolus.html" class="conn-pill infects">Infects → Alveolar type II cells</a>
-        <a href="cardiovascular-system.html" class="conn-pill damages">Damages → Cardiomyocytes / Endothelium</a>
-        <a href="kidney.html" class="conn-pill damages">Damages → Renal tubular cells (AKI)</a>
-        <a href="liver.html" class="conn-pill damages">Damages → Hepatocytes / cholangiocytes</a>
-        <a href="digestive-system.html" class="conn-pill infects">Infects → Intestinal enterocytes</a>
-        <a href="immune-system.html" class="conn-pill targets">Targets → Dendritic cells / T lymphocytes</a>
-        <a href="nervous-system.html" class="conn-pill damages">Damages → Olfactory neurons / CNS (long COVID)</a>
-        <a href="ace2.html" class="conn-pill targets">Binds → ACE2 receptor</a>
-        <a href="spike-protein.html" class="conn-pill targets">Key antigen → Spike protein</a>
-        <a href="mrna-1273.html" class="conn-pill treated">Prevented by → mRNA-1273 (Spikevax)</a>
-        <a href="bnt162b2.html" class="conn-pill treated">Prevented by → BNT162b2 (Comirnaty)</a>
-        <a href="cytokine-storm.html" class="conn-pill triggers">Triggers → Cytokine storm</a>
-      </div>
-    </div>
-
-    <!-- References -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Key References</h2></div>
-      <ul class="refs">
-        <li>Hoffmann M et al. (2020). SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor. <em>Cell</em> 181, 271–280. <a href="https://doi.org/10.1016/j.cell.2020.02.052" target="_blank">DOI</a></li>
-        <li>Horby P et al. (RECOVERY Collaborative Group) (2021). Dexamethasone in hospitalised patients with Covid-19. <em>NEJM</em> 384, 693–704. <a href="https://doi.org/10.1056/NEJMoa2021436" target="_blank">DOI</a></li>
-        <li>Hammond J et al. (2022). Nirmatrelvir for unvaccinated or high-risk vaccinated adults with COVID-19 (EPIC-HR). <em>NEJM</em> 386, 1397–1408. <a href="https://doi.org/10.1056/NEJMoa2118542" target="_blank">DOI</a></li>
-        <li>Giustino G et al. (2020). Characterization of myocardial injury in patients with COVID-19. <em>JACC</em> 76, 2043–2055. <a href="https://doi.org/10.1016/j.jacc.2020.08.069" target="_blank">DOI</a></li>
-        <li>Lindner D et al. (2020). Association of cardiac infection with SARS-CoV-2 in confirmed COVID-19 autopsy cases. <em>JAMA Cardiol</em> 5, 1281–1285. <a href="https://doi.org/10.1001/jamacardio.2020.3551" target="_blank">DOI</a></li>
-        <li>V'kovski P et al. (2021). Coronavirus biology and replication: implications for SARS-CoV-2. <em>Nat Rev Microbiol</em> 19, 155–170. <a href="https://doi.org/10.1038/s41579-020-00468-6" target="_blank">DOI</a></li>
-        <li>Baden LR et al. (2021). Efficacy and safety of the mRNA-1273 SARS-CoV-2 vaccine (COVE trial). <em>NEJM</em> 384, 403–416. <a href="https://doi.org/10.1056/NEJMoa2035389" target="_blank">DOI</a></li>
-      </ul>
-    </div>
-
-    <!-- Contribute -->
-    <div class="detail-card full">
-      <div class="detail-section">
-        <div class="contribute">
-          <strong>Contribute to this entry</strong> — corrections, additional data, or pathway diagrams welcome.
-          Open an issue or PR at <a href="https://github.com/bpupadhyaya/human-atlas" target="_blank">github.com/bpupadhyaya/human-atlas</a>
-          or email <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>.
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>sars-cov-2</td></tr>
+            <tr><td>Name</td><td>SARS-CoV-2</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-08</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
+          </table>
         </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="sars-cov-2-spike.html" title="SARS-CoV-2 Spike (S1/S2; class I fusogen; furin site PRRAR unique to sarbecoviruses) is the sole surface antigen; RBD binds ACE2 (Kd ~15 nM); 2P (K986P/V987P) proline stabilization underlies all mRNA vaccines; Omicron BA.1 carries 37 spike mutations driving antibody escape."><span class="rel">connects-to</span>Sars Cov 2 Spike</a>
+            <a class="conn-pill" href="ace2.html" title="ACE2 (type I membrane carboxypeptidase; chromosome X) is the obligate SARS-CoV-2 entry receptor; Spike RBD:ACE2 Kd ~15 nM vs ~325 nM for SARS-CoV-1; SARS-CoV-2 Spike binding triggers ACE2 internalization → loss of RAAS counter-regulation → Ang II excess → ARDS amplification."><span class="rel">connects-to</span>Ace2</a>
+            <a class="conn-pill" href="covid-19-disease.html" title="SARS-CoV-2 is the causative agent of COVID-19; ~29.9 kb +ssRNA genome encodes ORF1a/b (NSP1-16 replicase including NSP12 RdRp) and S/E/M/N structural proteins; ACE2/TMPRSS2 entry in type II pneumocytes and airway; clinical spectrum from asymptomatic to fatal ARDS."><span class="rel">connects-to</span>Covid 19 Disease</a>
+            <a class="conn-pill" href="type-i-interferon.html" title="NSP16 2′-O-methyltransferase mimics host mRNA cap → MDA5 evasion; NSP3 PLpro removes ISG15; ORF6 blocks STAT1 import; NSP13 sequesters TBK1 → IRF3 not phosphorylated; NSP1 blocks translation; impaired early IFN-β drives severe COVID-19 and correlates with age/comorbidity."><span class="rel">connects-to</span>Type I Interferon</a>
+            <a class="conn-pill" href="mavs.html" title="SARS-CoV-2 +ssRNA replication intermediates activate RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; NSP6 sequesters MAVS; NSP13 disrupts TBK1; NSP16 cap methylation evades MDA5; ORF9b blocks MAVS-TOM70 interaction; impaired MAVS-IFN axis predicts progression to severe COVID-19."><span class="rel">connects-to</span>Mavs</a>
+            <a class="conn-pill" href="nf-kb.html" title="SARS-CoV-2 activates NF-κB via TLR2 sensing, MAVS → IKKβ, and ACE2 downregulation → Ang II → AT1R → NF-κB; Spike-induced NF-κB amplifies cytokine storm (IL-6, TNF-α, IL-1β); NSP3 PLpro deubiquitinates NF-κB pathway intermediates to modulate antiviral signaling."><span class="rel">connects-to</span>Nf Kb</a>
+            <a class="conn-pill" href="cgas-sting.html" title="SARS-CoV-2 generates cytosolic DNA via reverse transcription → cGAS sensing; ORF9b targets TOM70 → inhibits MAVS-cGAS-STING cross-talk; STING agonists (diABZI) activate innate immunity; STING-driven IFN-β correlates with mild COVID-19 and reduced viral load in early infection."><span class="rel">connects-to</span>Cgas Sting</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1038/s41586-020-2012-7" target="_blank" rel="noopener noreferrer">Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature. 2020;579(7798):270-273.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32015507/" target="_blank" rel="noopener noreferrer">PubMed 32015507</a></li>
+            <li><a href="https://doi.org/10.1016/j.cell.2020.02.052" target="_blank" rel="noopener noreferrer">Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. Cell. 2020;181(2):271-280.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32142651/" target="_blank" rel="noopener noreferrer">PubMed 32142651</a></li>
+            <li><a href="https://doi.org/10.3390/v15030648" target="_blank" rel="noopener noreferrer">Lundstrom K. SARS-CoV-2 Omicron Variants and COVID-19 Vaccines — Management and Treatment. Viruses. 2023;15(3):648.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/36992357/" target="_blank" rel="noopener noreferrer">PubMed 36992357</a></li>
+            <li><a href="https://doi.org/10.1038/s41467-020-17665-9" target="_blank" rel="noopener noreferrer">Lei X, Dong X, Ma R, et al. Activation and evasion of type I interferon responses by SARS-CoV-2. Nat Commun. 2020;11(1):3810.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32728061/" target="_blank" rel="noopener noreferrer">PubMed 32728061</a></li>
+          </ul>
+        </div>
+
       </div>
     </div>
+  </main>
 
-  </div><!-- /.detail-grid -->
-</main>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-<footer class="site-footer">
-  <p>&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-  <p style="margin-top:.4rem;">Content co-maintained with AI assistance &mdash; verify clinical details independently before use.</p>
-</footer>
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
