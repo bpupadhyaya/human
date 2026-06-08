@@ -31,6 +31,9 @@ cross_links:
   - target: 02-pathogen/06-microbiome/akkermansia-muciniphila
     relation: contains
     note: "Akkermansia muciniphila is a mucin-degrading Verrucomicrobia member of the gut microbiome associated with metabolic health; reduced in obesity and T2DM; its Amuc_1100 outer membrane protein activates TLR2, improving gut barrier integrity and insulin sensitivity."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Dysbiosis in obesity — increased Firmicutes/Bacteroidetes, reduced Akkermansia muciniphila — increases energy harvest and drives metabolic endotoxemia (LPS → TLR4 → systemic inflammation); gut microbiome transfer from obese to germ-free mice transfers the adiposity phenotype."
 ---
 
 # Gut Microbiome
@@ -113,6 +116,7 @@ The microbiome influences CNS function via multiple pathways:
 - `modulates` → **[Immune System](../immune-system/README.md)** — primary educator of mucosal and systemic immunity via IgA induction, Treg programming, innate immune threshold-setting, and colonization resistance
 - `contains` → **[Bacteroides fragilis](../../../../02-pathogen/06-microbiome/bacteroides-fragilis/README.md)** — key Bacteroidetes member; PSA from commensal B. fragilis induces Treg and IL-10 (immunoprotective); ETBF toxin disrupts epithelial barrier
 - `contains` → **[Akkermansia muciniphila](../../../../02-pathogen/06-microbiome/akkermansia-muciniphila/README.md)** — mucin-degrading species associated with metabolic health; reduced in obesity and T2DM; Amuc_1100 strengthens gut barrier via TLR2
+- `connects-to` → **[Obesity](../obesity/README.md)** — dysbiosis in obesity — increased Firmicutes/Bacteroidetes, reduced Akkermansia muciniphila — increases energy harvest and drives metabolic endotoxemia (LPS → TLR4 → systemic inflammation); gut microbiome transfer from obese to germ-free mice transfers the adiposity phenotype.
 
 ## Pathology
 

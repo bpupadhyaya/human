@@ -55,6 +55,9 @@ cross_links:
   - target: 01-human/03-molecular/scn1a
     relation: connects-to
     note: "Nav1.1 (SCN1A) is the dominant sodium channel in PV+ GABAergic interneurons; SCN1A haploinsufficiency silences these interneurons → reduced GABA release → cortical disinhibition; clobazam (GABA-A modulator) and valproate (GABA-T inhibitor) are mainstay Dravet treatments."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Parvalbumin interneuron hypofunction in PFC — reduced GAD67, impaired GABA synthesis — causes deficient gamma oscillations that underlie working memory deficits in schizophrenia; GABAergic interneuron loss may be primary, upstream of dopamine and glutamate dysregulation."
 ---
 
 # GABA
@@ -164,6 +167,7 @@ When E/I balance shifts toward excess excitation (loss of GABAergic interneurons
 - `part-of` → **[nervous-system](../../07-system/nervous-system/README.md)** — the dominant inhibitory neurotransmitter system
 - `connects-to` → **[Epilepsy](../../07-system/epilepsy/README.md)** — Loss of GABAergic inhibitory tone — via SCN1A LOF, GABA-A subunit mutations, or interneuron loss — causes epilepsy; GABA-A potentiators (benzodiazepines, clobazam) and GABA-T inhibitors (valproate, vigabatrin) are the most widely used antiepileptic drug classes.
 - `connects-to` → **[SCN1A](../scn1a/README.md)** — Nav1.1 (SCN1A) is the dominant sodium channel in PV+ GABAergic interneurons; SCN1A haploinsufficiency silences these interneurons → reduced GABA release → cortical disinhibition; clobazam (GABA-A modulator) and valproate (GABA-T inhibitor) are mainstay Dravet treatments.
+- `connects-to` → **[Schizophrenia](../../07-system/schizophrenia/README.md)** — parvalbumin interneuron hypofunction in PFC — reduced GAD67, impaired GABA synthesis — causes deficient gamma oscillations underlying working memory deficits; GABAergic interneuron loss may be primary, upstream of dopamine and glutamate dysregulation in schizophrenia.
 
 ## Pathology
 

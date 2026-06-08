@@ -80,6 +80,9 @@ cross_links:
   - target: 03-medicine/02-traditional/panax-ginseng
     relation: modulated-by
     note: "Modulated by Panax ginseng (Korean Red Ginseng)."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Chronic hyperinsulinemia in obesity drives mTORC1/S6K1 → IRS-1 serine phosphorylation → insulin resistance; adipose inflammation via IKKβ/NF-κB further impairs insulin signaling; type 2 diabetes develops when pancreatic β-cell compensation fails."
 ---
 
 # Insulin
@@ -210,6 +213,7 @@ The DCCT trial demonstrated conclusively that intensive insulin therapy in T1DM 
 - `modulates` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — promotes vascular NO production; chronic resistance is atherogenic
 - `modulates` → **[nervous-system](../../07-system/nervous-system/README.md)** — hypothalamic and hippocampal insulin signaling regulates appetite, neuroplasticity, and cognitive function
 - `modulated-by` → **[digestive-system](../../07-system/digestive-system/README.md)** — postprandial glucose absorption and incretin (GLP-1, GIP) release from the gut are the primary physiological stimuli driving insulin secretion
+- `connects-to` → **[Obesity](../../07-system/obesity/README.md)** — chronic hyperinsulinemia in obesity drives mTORC1/S6K1 → IRS-1 serine phosphorylation → insulin resistance; adipose inflammation via IKKβ/NF-κB further impairs insulin signaling; type 2 diabetes develops when β-cell compensation fails.
 
 ## Pathology
 
