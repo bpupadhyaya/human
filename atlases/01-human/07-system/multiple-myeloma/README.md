@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "VEGF is produced by myeloma cells and BMSCs → bone marrow angiogenesis → disease progression; VEGF promotes myeloma survival via VEGFR → PI3K-AKT; thalidomide and lenalidomide exert anti-angiogenic effects via VEGF suppression; bortezomib reduces VEGF secretion."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "MM cells secrete RANKL → osteoclast hyperactivation → osteolytic lesions and hypercalcemia; MM cells exploit OPG TRAIL-decoy function for survival; Xgeva (denosumab 120 mg Q4W) reduces skeletal-related events in MM bone disease."
 ---
 
 # Multiple Myeloma
@@ -176,6 +179,7 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC is dysregulated in ~50-80% of relapsed MM via chr 8q24 amplification and MMSET-driven histone methylation; MYC drives plasma cell proliferation and immunoglobulin switch recombination; MYC transcription is sensitive to BET bromodomain inhibitors in MM models.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 is selectively overexpressed in t(11;14) MM (~15%); t(11;14) juxtaposes CCND1 near the IgH enhancer and correlates with BCL-2-high/BCL-XL-low expression; venetoclax achieves ORR ~40% in t(11;14) relapsed MM; CANOVA trial evaluated venetoclax + dexamethasone.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF is produced by myeloma cells and BMSCs → bone marrow angiogenesis → disease progression; VEGF promotes myeloma survival via VEGFR → PI3K-AKT; thalidomide and lenalidomide exert anti-angiogenic effects via VEGF suppression; bortezomib reduces VEGF secretion.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MM cells secrete RANKL → osteoclast hyperactivation → osteolytic lesions and hypercalcemia; MM cells exploit OPG TRAIL-decoy function for survival; Xgeva (denosumab 120 mg Q4W) reduces skeletal-related events in MM bone disease.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

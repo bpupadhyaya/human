@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: modulates
     note: "IL-6 via gp130/STAT3 on osteoblasts increases RANKL and decreases OPG, tipping balance toward osteoclastogenesis; IL-6 also acts directly on osteoclast precursors; tocilizumab (anti-IL-6R) reduces bone erosion in RA."
+  - target: 01-human/03-molecular/rankl
+    relation: modulated-by
+    note: "RANKL (TNFSF11) binds RANK on osteoclast precursors → TRAF6 → NF-κB + AP-1 → NFATc1 → cathepsin K, TRAP, integrin β3 → mature resorbing osteoclast; OPG is the decoy receptor; denosumab mimics OPG to suppress osteoclastogenesis."
 ---
 
 # Osteoclast
@@ -79,6 +82,7 @@ HSC → common myeloid progenitor (CMP) → granulocyte-monocyte progenitor (GMP
 - **Modulates immune-system [^alberts-mol-cell-biology]:** Osteoclasts are haematopoietic (monocyte lineage) and respond to immune signals; Th17 cells (IL-17 → osteoblast RANKL), TNF-α, and M-CSF regulate osteoclast differentiation; immunodeficiency and GVHD alter bone metabolism via osteoclast dysregulation.
 - **Modulates macrophage [^alberts-mol-cell-biology]:** Osteoclasts share the monocyte/macrophage lineage (CD68, CD14 low, MHC-II) and regulatory signals (M-CSF, Fc receptor); in inflammatory joint disease, macrophages at the pannus-bone interface are converted by RANKL into bone-eroding osteoclasts.
 - **Modulates IL-6 [^guyton-hall]:** IL-6 via gp130/STAT3 on osteoblasts increases RANKL expression and decreases OPG, tipping the balance toward osteoclastogenesis; IL-6 also acts directly on osteoclast precursors; tocilizumab (anti-IL-6R) reduces bone erosion in RA.
+- **Modulated-by RANKL:** RANKL (TNFSF11) binds RANK on osteoclast precursors → TRAF6 → NF-κB + AP-1 → NFATc1 → cathepsin K, TRAP, integrin β3 → mature resorbing osteoclast; OPG is the decoy receptor; denosumab mimics OPG to suppress osteoclastogenesis.
 
 ## Pathology
 
