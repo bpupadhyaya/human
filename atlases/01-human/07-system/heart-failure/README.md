@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "Serum soluble ST2 (sST2, decoy IL-33 receptor) >35 ng/mL predicts HF mortality independent of BNP; IL-33/ST2 signaling in cardiomyocytes is cardioprotective against pressure overload; sST2 is FDA-cleared for HF risk stratification and monitoring response to therapy."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Periostin from cardiac fibroblasts → integrin αvβ3 on cardiomyocytes and fibroblasts → FAK/PI3K → myofibroblast differentiation and collagen I/III deposition; periostin is required for post-MI cardiac fibrosis (periostin-null mice have impaired scar formation)."
 ---
 
 # Heart Failure

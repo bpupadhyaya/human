@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "Rituximab ± bendamustine or cyclophosphamide is first-line for WM; rituximab monotherapy causes IgM flare (~40%) before response; ofatumumab and obinutuzumab are alternatives for rituximab-refractory WM; CD20 is uniformly expressed (CD19+/CD20+/sIgM+)."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCR4 gain-of-function mutations (WHIM-type S338X, C1013G) in 30-40% of WM → impaired receptor desensitization → enhanced CXCL12/CXCR4 bone marrow retention and resistance to BTK inhibitor ibrutinib; CXCR4 mutation status predicts ibrutinib response and PFS in WM."
 ---
 
 # Waldenström Macroglobulinemia

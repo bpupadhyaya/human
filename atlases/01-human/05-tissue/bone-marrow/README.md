@@ -78,6 +78,9 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: composed-of
     note: "Composed Of by Platelet."
+  - target: 01-human/03-molecular/cxcl12
+    relation: modulated-by
+    note: "CXCL12 from CAR cells (CXCL12-abundant reticular cells) → CXCR4 on HSC → Gαi → PI3K/Akt + actin polymerization → HSC retention in bone marrow niches; plerixafor (AMD3100, CXCR4 antagonist) blocks this → HSC egress into blood → collection for autologous transplant."
 ---
 
 # Bone Marrow

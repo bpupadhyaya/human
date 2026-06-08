@@ -55,6 +55,9 @@ cross_links:
   - target: 01-human/03-molecular/il-33
     relation: connects-to
     note: "IL-33 from damaged bronchial epithelium → ST2+ ILC2 and mast cells → IL-5/IL-13 → eosinophilia and mucus; works synergistically with TSLP and IL-25 as the three-alarmin cascade; itepekimab (anti-IL-33) reduced asthma exacerbations in Phase 2/3 trials."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Serum periostin >25 ng/mL identifies T2-high eosinophilic asthma regardless of blood eosinophil count; periostin from sub-epithelial fibroblasts (IL-13/IL-4 → STAT6 → POSTN) contributes to airway subepithelial fibrosis; periostin biomarker guided lebrikizumab trial design."
 ---
 
 # Asthma
