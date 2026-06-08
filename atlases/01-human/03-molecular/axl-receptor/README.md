@@ -48,6 +48,9 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: modulates
     note: "AXL on alveolar macrophages and endothelial cells mediates efferocytosis of apoptotic cells; SARS-CoV-2 has been proposed to use AXL as an alternative entry receptor in lung cells."
+  - target: 01-human/07-system/zika-virus
+    relation: connects-to
+    note: "ZIKV exploits AXL (and TYRO3) for entry into neural progenitor cells, skin fibroblasts, and dendritic cells; AXL-mediated IFN-I suppression provides ZIKV an early replication advantage; high AXL/TYRO3 in fetal NPCs drives ZIKV neural tropism and congenital microcephaly."
 ---
 
 # AXL Receptor Tyrosine Kinase
@@ -155,6 +158,7 @@ Multiple enveloped viruses exploit the GAS6-AXL efferocytosis pathway for cellul
 - `modulates` → **[Immune System](../../07-system/immune-system/README.md)** — TAM-mediated innate immune homeostasis via SOCS1/3; efferocytosis; resolution of inflammation
 - `modulates` → **[IL-6](../il-6/README.md)** — AXL/SOCS1 suppresses TLR-driven IL-6 production; attenuates early inflammatory cytokine response
 - `modulates` → **[STAT3](../stat3/README.md)** — AXL activates STAT3 in cancer cells driving survival and EMT; STAT3 reciprocally regulates AXL expression
+- `connects-to` → **[Zika Virus](../../07-system/zika-virus/README.md)** — AXL is the primary entry receptor for ZIKV in neural progenitor cells and skin DCs; AXL-mediated IFN-I suppression enables ZIKV replication; high fetal NPC AXL/TYRO3 expression drives congenital microcephaly
 
 ## Pathology
 

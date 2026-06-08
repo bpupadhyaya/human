@@ -1,0 +1,162 @@
+---
+schema: human-scale-entry/v1
+id: zika-virus
+name: Zika Virus
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-08
+summary: "Zika virus (ZIKV; flavivirus; Aedes aegypti vector) caused the 2015-2016 Americas pandemic; congenital Zika syndrome (microcephaly) via AXL receptor neural progenitor cell tropism; NS5 degrades STAT2; Guillain-Barré association; sexually transmitted; no approved vaccine."
+aliases: ["ZIKV", "Zika", "Zika fever", "congenital Zika syndrome", "Zika microcephaly", "Zika GBS", "Aedes Zika", "flavivirus Zika"]
+sources:
+  - id: musso-2016-zika-review
+    type: peer-reviewed
+    cite: "Musso D, Gubler DJ. Zika Virus. Clin Microbiol Rev. 2016;29(3):487-524."
+    doi: "10.1128/CMR.00072-15"
+    pmid: "27029595"
+    url: "https://doi.org/10.1128/CMR.00072-15"
+    accessed: "2026-06-08"
+  - id: brasil-2016-zika-pregnancy
+    type: peer-reviewed
+    cite: "Brasil P, Pereira JP Jr, Moreira ME, et al. Zika Virus Infection in Pregnant Women in Rio de Janeiro. N Engl J Med. 2016;375(24):2321-2334."
+    doi: "10.1056/NEJMoa1602412"
+    pmid: "26943629"
+    url: "https://doi.org/10.1056/NEJMoa1602412"
+    accessed: "2026-06-08"
+cross_links:
+  - target: 01-human/03-molecular/mavs
+    relation: connects-to
+    note: "ZIKV dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; fetal neural progenitor cells have reduced RIG-I/MAVS → impaired IFN-β → ZIKV amplifies unchecked in fetal brain; MAVS is required for adult innate control limiting ZIKV viremia."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "ZIKV E protein binds AXL on cortical neural progenitor cells (NPCs) → endocytosis → NPC infection; AXL and TYRO3 are highly expressed in fetal NPCs → ZIKV neural tropism and congenital microcephaly; AXL inhibitors reduce ZIKV NPC infection in cerebral organoid models."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "ZIKV NS5 degrades STAT2 via ubiquitin-proteasomal pathway → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 specifically targets human STAT2 (not mouse) → explains mouse resistance to ZIKV-induced microcephaly without IFNAR/STAT2 knockout in animal models."
+  - target: 01-human/07-system/dengue-fever
+    relation: connects-to
+    note: "ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion."
+---
+
+# Zika Virus
+
+## Overview
+
+**Zika virus (ZIKV)** is a positive-sense single-stranded RNA virus of the family *Flaviviridae* (genus *Flavivirus*), transmitted primarily by the bite of *Aedes aegypti* and *Aedes albopictus* mosquitoes. First isolated from a sentinel monkey in the Zika Forest of Uganda in 1947, ZIKV remained an obscure tropical pathogen until it emerged explosively in the Pacific Islands (2007, 2013-2014) and then caused a pandemic across the Americas beginning in 2015, centered in Brazil [^musso-2016-zika-review].
+
+The ZIKV pandemic revealed two unexpected features that transformed ZIKV from a clinical curiosity into a global health emergency:
+
+1. **Congenital Zika syndrome**: Intrauterine ZIKV infection causes severe fetal brain malformations — particularly **microcephaly** (head circumference >3 SD below mean) — due to infection and destruction of cortical neural progenitor cells (NPCs) via the **AXL receptor tyrosine kinase** [^brasil-2016-zika-pregnancy]. This was the first demonstration that a mosquito-borne virus causes congenital brain malformations, prompting WHO to declare a Public Health Emergency of International Concern (PHEIC) in February 2016.
+
+2. **Sexual transmission**: ZIKV persists in semen for >6 months after acute infection, enabling sexual transmission — unusual for an arboviral flavivirus and requiring novel prevention messaging for pregnant couples.
+
+**Clinical spectrum:**
+- **Asymptomatic**: ~80% of infections
+- **Acute Zika fever**: Mild fever, maculopapular rash, arthralgia, conjunctivitis, headache; 2–7 days; self-limited; rarely hospitalization
+- **Guillain-Barré syndrome (GBS)**: ~1 per 4,000 symptomatic Zika infections; acute motor polyneuropathy; typically AIDP or AMSAN pattern; peak risk 1–3 weeks after acute illness; usually recovers but severe cases require ICU
+- **Congenital Zika syndrome**: Microcephaly, ventriculomegaly, cerebellar hypoplasia, lissencephaly, subcortical calcifications, clubfoot, joint contractures, ocular malformations (chorioretinal scarring, optic atrophy)
+
+## Structure
+
+### Zika virus biology
+
+ZIKV is an enveloped virus (~50 nm) with a **10.8 kb positive-sense ssRNA genome** encoding a single polyprotein:
+
+| Protein | Function |
+|---------|----------|
+| C (capsid) | Nucleocapsid; lipid droplet association |
+| prM/M | Precursor membrane protein; furin-cleaved during maturation |
+| E (envelope) | Receptor binding (AXL, DC-SIGN, heparan sulfate); membrane fusion; neutralizing antibody target |
+| NS1 | Secreted hexamer; complement activation; endothelial disruption |
+| NS2A/2B | Replication complex assembly; NS2B is NS3 cofactor |
+| NS3 | Serine protease + RNA helicase |
+| NS4A/4B | Membrane remodeling; NS4B blocks IFN-β signaling |
+| NS5 | RNA-dependent RNA polymerase + methyltransferase; **degrades STAT2** → IFN evasion |
+
+### Comparison with dengue
+
+ZIKV shares ~57% amino acid identity with DENV2. Key differences:
+- **Unique AXL tropism**: ZIKV E protein domain III binds AXL more efficiently than DENV E → neural cell tropism
+- **Sexual transmission**: ZIKV persists in testes/epididymis; DENV does not transmit sexually
+- **Congenital disease**: ZIKV causes microcephaly; DENV does not cross placenta efficiently
+- **No ADE-driven hemorrhagic fever**: Unlike DENV, severe secondary ZIKV in ADE setting is not the dominant clinical concern
+- **STAT2 degradation**: Both use NS5 to target STAT2, but via slightly different E3 ligase interactions; both are human STAT2-specific
+
+## Function
+
+### Neural tropism — congenital Zika syndrome mechanism
+
+The pivotal discovery of 2016 was ZIKV's selective infection of cortical neural progenitor cells (NPCs):
+
+1. **AXL receptor expression**: AXL tyrosine kinase is highly expressed on radial glia (the cortical NPC population), Hofbauer cells in placenta, and trophoblasts. TYRO3 is co-expressed. AXL mediates apoptotic body phagocytosis → ZIKV exploits this "eat-me signal" pathway to enter cells.
+
+2. **Placental crossing**: ZIKV infects trophoblasts and Hofbauer macrophages via AXL and DC-SIGN → amniotic fluid → fetal compartment. Risk highest in first trimester (organogenesis).
+
+3. **NPC infection**: ZIKV infects radial glia → triggers apoptosis and autophagy → reduces NPC pool → impaired cortical neurogenesis → microcephaly. The outer subventricular zone (oSVZ) NPCs, critical for human brain expansion, are particularly vulnerable.
+
+4. **Reduced innate immunity in NPCs**: Fetal NPCs express lower RIG-I, MAVS, and type I IFN compared to adult cells → reduced antiviral response → sustained ZIKV replication in NPCs → greater cell death.
+
+5. **Direct CNS effects**: ZIKV also infects astrocytes and microglia → neuroinflammation; mitotic spindle disruption in NPCs impairs cell division independent of apoptosis.
+
+### Immune response and evasion
+
+| Component | Response | ZIKV counter |
+|-----------|----------|--------------|
+| RIG-I/MDA5 | Sense ZIKV dsRNA → MAVS → IFN-β | NS4B blocks RIG-I signaling |
+| Type I IFN | ISG induction → antiviral state | NS5 degrades STAT2 → blocks ISG transcription |
+| Complement | NS1 activates C4b-binding protein → C5a | Mimics dengue NS1 mechanism |
+| Adaptive | CD8+ T cells; neutralizing anti-E antibodies | Viral diversity limits cross-protection |
+| Cross-reactive DENV | Anti-DENV IgG binds ZIKV → potential ADE | Observed in vitro; clinical significance debated |
+
+### Guillain-Barré syndrome mechanism
+
+Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes and ganglioside GM1 on peripheral nerve myelin → autoantibodies cross-reactive with gangliosides → complement-mediated nerve damage. Evidence:
+- Epidemiological: GBS incidence 10-fold higher in ZIKV-exposed populations
+- Immunological: Anti-GM1 and anti-GD1b antibodies found in some ZIKV-GBS patients
+- Timing: GBS onset 5–14 days after acute Zika fever (consistent with post-infectious autoimmunity)
+- Treatment: IV immunoglobulin (IVIG); plasmapheresis for severe cases
+
+## Pathology
+
+### Congenital surveillance and diagnosis
+
+**In pregnancy:**
+- Maternal: RT-PCR of blood/urine (positive within 2 weeks of symptom onset); serology (IgM) after 2 weeks — cross-reactive with DENV antibodies (plaque reduction neutralization test PRNT required for confirmation)
+- Fetal: Amniocentesis (RT-PCR of amniotic fluid); serial fetal head circumference ultrasound; MRI if microcephaly suspected
+- Postnatal: Infant RT-PCR (urine, CSF, serum); brain ultrasound or MRI; ophthalmology examination; audiometry
+
+**Fetal outcomes** after ZIKV in first trimester: ~1–30% risk of fetal brain abnormality (wide range across studies depending on case ascertainment); 2016 Brazilian cohort: microcephaly in ~1% of live births in endemic areas at peak transmission.
+
+### Post-acute sequelae
+
+- Prolonged arthralgia (weeks-months)
+- Persistent ZIKV RNA in semen (>6 months in some cases)
+- Ophthalmological: Anterior uveitis, macular lesions in adults (rare)
+- Encephalitis/myelitis (rare adult complication)
+- GBS recovery: Most patients recover substantially over 3–6 months; ~15% have residual deficits
+
+### Treatment and prevention
+
+**No approved antiviral therapy.** Management is supportive:
+- Acute: Paracetamol for fever/pain (avoid NSAIDs in first 2 weeks — dengue cannot be excluded without testing)
+- GBS: IVIG 2 g/kg or plasmapheresis; ICU if respiratory compromise
+
+**Prevention:**
+- Mosquito control (insecticide-treated bed nets, indoor spraying, larval source reduction)
+- **Sexual transmission**: Condoms for ≥6 months after potential ZIKV exposure in men, ≥2 months in women
+- **Travel advisory**: Pregnant women advised to avoid travel to ZIKV-endemic areas; those who travel should use strict mosquito precautions
+
+**No approved vaccine:**
+- mRNA, DNA, live-attenuated, subunit vaccines in Phase I/II trials
+- Challenges: AXL receptor involvement in NPC tropism needs to be addressed without blocking AXL function; cross-reactivity with dengue antigens complicates design
+- Timeline: No vaccine approval expected until 2026+ given reduced outbreak transmission
+
+## Connections
+
+**→ [MAVS](../../../03-molecular/mavs/)**: ZIKV replication intermediates (dsRNA) activate RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; fetal neural progenitor cells have reduced MAVS/RIG-I expression → impaired IFN-β response → ZIKV amplifies unchecked in fetal brain; MAVS is required for adult innate control of ZIKV infection.
+
+**→ [AXL Receptor](../../../03-molecular/axl-receptor/)**: ZIKV E protein binds AXL receptor on cortical neural progenitor cells (NPCs) → clathrin-mediated endocytosis → NPC infection; AXL and TYRO3 are highly expressed in fetal NPCs → ZIKV neural tropism and microcephaly; AXL inhibitors (bemcentinib) reduce ZIKV NPC infection in brain organoids.
+
+**→ [STAT1](../../../03-molecular/stat1/)**: ZIKV NS5 degrades STAT2 via ubiquitin-proteasomal pathway → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 specifically targets human STAT2 (not mouse) → explains mouse resistance to ZIKV-induced microcephaly without IFNAR/STAT2 knockout in animal models.
+
+**→ [Dengue Fever](../dengue-fever/)**: ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion.

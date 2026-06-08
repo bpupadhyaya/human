@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "DENV NS5 degrades STAT2 via UBR4 → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 selectively targets human STAT2 (not mouse) → human-specific IFN evasion; STAT2 degradation is a major determinant of dengue viremia and is absent in murine dengue models."
+  - target: 01-human/07-system/zika-virus
+    relation: connects-to
+    note: "ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion."
 ---
 
 # Dengue Fever
@@ -149,3 +152,5 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 **→ [cGAS-STING](../../../03-molecular/cgas-sting/)**: Dengue evades both RNA (MAVS) and DNA (cGAS-STING) sensing: mitochondrial DNA released during dengue-induced apoptosis → cGAS → cGAMP → STING; however, DENV NS2B/NS3 disrupts STING signaling; dengue-mtDNA-cGAS-STING axis activates inflammatory cytokines during severe dengue.
 
 **→ [STAT1](../../../03-molecular/stat1/)**: DENV NS5 degrades STAT2 via UBR4 → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 selectively targets human STAT2 (not mouse) → human-specific IFN evasion; STAT2 degradation is a major determinant of dengue viremia and is absent in murine dengue models.
+
+**→ [Zika Virus](../zika-virus/)**: ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion.

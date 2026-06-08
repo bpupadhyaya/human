@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Influenza M2 proton channel and PB1-F2 (mitochondrial targeting) activate NLRP3 → IL-1β + IL-18; NLRP3-mediated IL-1β amplifies cytokine storm in H5N1 and 1918 H1N1 pneumonia; NLRP3 genetic variants are associated with influenza severity and ASC speck formation in macrophages."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Influenza A 5′ppp genomic ssRNA and dsRNA replication intermediates are the canonical RIG-I ligands; NS1 blocks RIG-I by sequestering dsRNA and inhibiting TRIM25-mediated K63-ubiquitination of RIG-I CARDs; NS1 IFN antagonism strength correlates with pandemic potential."
 ---
 
 # Influenza
@@ -172,3 +175,5 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 **→ [STAT1](../../../03-molecular/stat1/)**: Influenza NS1 blocks ISGF3 formation (STAT1/STAT2/IRF9) by dsRNA sequestration and TRIM25 inhibition; PA-X endonuclease degrades host mRNAs including STAT1; H5N1 overcomes STAT1/SOCS1 negative feedback → hyperinflammation; NS1 IFN antagonism distinguishes highly pathogenic from seasonal strains.
 
 **→ [NLRP3 Inflammasome](../../../03-molecular/nlrp3-inflammasome/)**: Influenza M2 proton channel and PB1-F2 (mitochondrial targeting) activate NLRP3 → caspase-1 → IL-1β + IL-18; NLRP3-mediated IL-1β amplifies cytokine storm in severe H5N1 and 1918 H1N1 pneumonia; NLRP3 genetic variants associated with influenza severity; ASC speck formation observed in infected macrophages.
+
+**→ [RIG-I](../../../03-molecular/rig-i/)**: Influenza A 5′ppp genomic ssRNA and dsRNA replication intermediates are the canonical RIG-I ligands; NS1 blocks RIG-I by sequestering dsRNA and inhibiting TRIM25-mediated K63-ubiquitination of RIG-I CARDs; NS1 IFN antagonism strength correlates with pandemic potential.

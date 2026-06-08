@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "IFN-β enhanceosome: IRF3 (PRDI/PRDIII) + NF-κB (PRDII) + AP-1 (PRDIV) cooperatively bind the IFN-β promoter; CBP/p300 bridges all three → histone acetylation; NF-κB co-activation is required for maximal IRF3-driven IFN-β transcription."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "RIG-I (K63-Ub by TRIM25) → MAVS filament → TRAF3 → TBK1 → IRF3 Ser396 phosphorylation → IRF3 homodimerization → IFN-β transcription; MDA5 uses the same MAVS-TBK1-IRF3 pathway for long dsRNA; IRF3 is the shared transcriptional effector for all cytosolic RNA sensing."
 ---
 
 # IRF3
@@ -140,3 +143,5 @@ The IFN-β promoter integrates three transcription factor signals:
 **→ [Hepatitis C](../../../07-system/hepatitis-c/)**: HCV NS3/4A protease cleaves MAVS → TBK1-IRF3 not activated; HCV NS5A blocks TBK1 activity directly; net result: selective IRF3 inactivation with preserved NF-κB → pro-survival signals persist; IRF3 pathway suppression is the dominant mechanism of HCV immune evasion and chronicity.
 
 **→ [NF-κB](../nf-kb/)**: IFN-β enhanceosome requires cooperative assembly of IRF3 + NF-κB + AP-1 on the IFN-β promoter; IRF3 occupies PRDI/PRDIII, NF-κB occupies PRDII, AP-1 occupies PRDIV; CBP/p300 is recruited to acetylate histones; NF-κB co-activation is required for maximal IRF3-driven IFN-β transcription.
+
+**→ [RIG-I](../rig-i/)**: RIG-I (K63-Ub by TRIM25) → MAVS filament → TRAF3 → TBK1 → IRF3 Ser396 phosphorylation → IRF3 homodimerization → IFN-β transcription; MDA5 uses the same MAVS-TBK1-IRF3 pathway for long dsRNA; IRF3 is the shared transcriptional effector for all cytosolic RNA sensing.

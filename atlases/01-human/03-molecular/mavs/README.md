@@ -45,6 +45,12 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "HCV NS3/4A cleaves MAVS at Cys508 → soluble MAVS cannot activate TBK1/IRF3; NS3/4A also cleaves TRIF → TLR3 signaling blocked; dual evasion of cytosolic and endosomal RNA sensing; MAVS cleavage is the paradigmatic mechanism by which an RNA virus establishes chronicity."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "RIG-I CARD domains (K63-ubiquitinated by TRIM25 at Lys172) bind MAVS CARD → nucleate MAVS prion-like filament on outer mitochondrial membrane → TRAF3 → TBK1 → IRF3 → IFN-β; MAVS is the essential downstream adaptor: all RIG-I and MDA5 signaling requires MAVS."
+  - target: 01-human/07-system/zika-virus
+    relation: connects-to
+    note: "ZIKV dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; fetal neural progenitor cells have reduced RIG-I/MAVS → impaired IFN-β → ZIKV amplifies unchecked in fetal brain; MAVS is required for adult innate control limiting ZIKV viremia."
 ---
 
 # MAVS

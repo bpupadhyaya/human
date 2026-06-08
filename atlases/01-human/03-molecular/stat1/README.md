@@ -42,6 +42,9 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "Chronic HCV drives ISG pre-activation via low-grade IFN-α → STAT1/STAT2/ISGF3 saturated → pegIFN-α fails to induce additional antiviral ISGs; IL28B TT genotype = high baseline ISG expression → pegIFN non-response; DAAs achieve SVR regardless of STAT1/ISG baseline."
+  - target: 01-human/07-system/zika-virus
+    relation: connects-to
+    note: "ZIKV NS5 degrades STAT2 via ubiquitin-proteasomal pathway → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 specifically targets human STAT2 (not mouse) → explains mouse resistance to ZIKV-induced microcephaly without IFNAR/STAT2 knockout in animal models."
 ---
 
 # STAT1
@@ -133,3 +136,5 @@ Null or dominant-negative LOF mutations → absent/non-functional STAT1 → IFN-
 **→ [Influenza](../../../07-system/influenza/)**: Influenza NS1 blocks ISGF3 (STAT1/STAT2/IRF9) by dsRNA sequestration and TRIM25 inhibition; PA-X protein degrades host mRNAs; H5N1 avian influenza drives cytokine storm by overwhelming STAT1/SOCS1 negative feedback; NS1 IFN antagonism is the key virulence determinant distinguishing pandemic from seasonal strains.
 
 **→ [Hepatitis C](../../../07-system/hepatitis-c/)**: Chronic HCV drives ISG pre-activation via low-grade IFN-α → STAT1/STAT2/ISGF3 saturated → pegIFN-α fails to induce additional antiviral ISGs; IL28B TT genotype = high baseline ISG expression → pegIFN non-response; DAAs achieve SVR regardless of STAT1/ISG baseline.
+
+**→ [Zika Virus](../../../07-system/zika-virus/)**: ZIKV NS5 degrades STAT2 via ubiquitin-proteasomal pathway → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 specifically targets human STAT2 (not mouse) → explains mouse resistance to ZIKV-induced microcephaly without IFNAR/STAT2 knockout in animal models.
