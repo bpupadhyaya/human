@@ -207,6 +207,9 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Bradykinin → B2R on endothelium → eNOS → NO and PGI2 → vasodilation; ACE inhibitors raise bradykinin → contribute to vasodilatory cardioprotective effects; angioedema (B2R-mediated) and dry cough are bradykinin-dependent adverse effects of ACE inhibitor therapy."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "SCD causes chronic haemolysis → NO scavenging → pulmonary arterial hypertension (PAH; TRV >2.5 m/s on echo predicts mortality); cardiomegaly + high-output failure from chronic anaemia; SCD-PAH treated with sildenafil + transfusion + hydroxyurea."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -352,6 +355,7 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
   - **Immune system** — leukocyte trafficking via the vascular network; site of vascular inflammation (entry pending).
 - **Cross-atlas (planned in Phase 3):** pathogens that act systemically (sepsis, viremia) and medicines that target the system as a whole (vasopressors, vasodilators, anticoagulants) link in here.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — bradykinin → B2R on endothelium → eNOS → NO and PGI2 → vasodilation; ACE inhibitors raise bradykinin → contribute to vasodilatory cardioprotective effects; angioedema (B2R-mediated) and dry cough are bradykinin-dependent adverse effects of ACE inhibitor therapy.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — SCD causes chronic haemolysis → NO scavenging → pulmonary arterial hypertension (PAH; TRV >2.5 m/s on echo predicts mortality); cardiomegaly + high-output failure from chronic anaemia; SCD-PAH treated with sildenafil + transfusion + hydroxyurea.
 
 ## Pathology
 

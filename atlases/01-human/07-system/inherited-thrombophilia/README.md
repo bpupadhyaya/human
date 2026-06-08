@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/antiphospholipid-syndrome
     relation: connects-to
     note: "APS is the most important acquired thrombophilia, causing indistinguishable VTE and arterial thrombosis to inherited thrombophilia; combined APS + inherited thrombophilia (e.g., FVL + triple-positive aPL) confers extreme thrombotic risk; APS is excluded by thrombophilia workup."
+  - target: 01-human/03-molecular/antithrombin
+    relation: connects-to
+    note: "Antithrombin deficiency (0.02-0.04% prevalence; 25-50× VTE risk) is the highest-risk inherited thrombophilia; type IIa reactive-site mutations (Arg393His) most thrombogenic; UFH/LMWH require AT for efficacy; AT concentrate needed peri-surgery/delivery."
 ---
 
 # Inherited Thrombophilia
@@ -206,6 +209,7 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Factor V Leiden (R506Q) causes APC resistance: thrombin-activated FVa at Arg506 cannot be cleaved → uncontrolled prothrombinase complex → excess thrombin; thrombomodulin-bound thrombin activates protein C → the central anticoagulant checkpoint that FVL undermines.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — VTE (DVT/PE) is the primary manifestation of inherited thrombophilia; risk is multiplicative (FVL + OCP = 35× VTE risk); thrombophilia guides anticoagulation duration (indefinite for AT deficiency, homozygous FVL, compound heterozygous); do not test during acute VTE.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — APS is the most important acquired thrombophilia, causing indistinguishable VTE and arterial thrombosis to inherited thrombophilia; combined APS + inherited thrombophilia (e.g., FVL + triple-positive aPL) confers extreme thrombotic risk; APS is excluded by thrombophilia workup.
+- `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — Antithrombin deficiency (0.02-0.04% prevalence; 25-50× VTE risk) is the highest-risk inherited thrombophilia; type IIa reactive-site mutations (Arg393His) most thrombogenic; UFH/LMWH require AT for efficacy; AT concentrate needed peri-surgery/delivery.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

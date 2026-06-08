@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: part-of
     note: "Hb synthesis occurs in erythroid precursors (BFU-E → normoblasts → reticulocytes) in bone marrow; GATA-1/KLF1 drive globin gene expression during erythropoiesis."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "HbS (β-globin E6V; GAG→GTG) causes sickle cell disease via deoxygenated HbS polymerization → RBC sickling → haemolytic anaemia + vaso-occlusion; HbF (α2γ2) inhibits HbS polymerization; hydroxyurea ↑ HbF by 15-25% → reduces painful crises."
 ---
 
 # Hemoglobin
@@ -115,6 +118,7 @@ Globin gene expression during erythropoiesis is driven by transcription factors 
 - **Modulates alveolus** — Hb O₂ saturation reaches ~98% at alveolar PO₂ ~100 mmHg (sigmoidal curve); alveolar gas exchange drives T→R transition, capturing O₂ for systemic delivery. See [alveolus](../../05-tissue/alveolus/README.md).
 - **Modulates cardiovascular system** — Hb determines blood O₂ content; anaemia ↓ O₂ delivery → compensatory ↑ cardiac output; Hb also buffers pH (Bohr protonation) and carries CO₂ as carbamino-Hb. See [cardiovascular-system](../../07-system/cardiovascular-system/README.md).
 - **Part of bone marrow** — Hb synthesis occurs in erythroid precursors (BFU-E → normoblasts → reticulocytes) in bone marrow; GATA-1/KLF1 drive globin gene expression during erythropoiesis. See [bone-marrow](../../05-tissue/bone-marrow/README.md).
+- `connects-to` → **[Sickle Cell Disease](../../07-system/sickle-cell-disease/README.md)** — HbS (β-globin E6V; GAG→GTG) causes sickle cell disease via deoxygenated HbS polymerization → RBC sickling → haemolytic anaemia + vaso-occlusion; HbF (α2γ2) inhibits HbS polymerization; hydroxyurea ↑ HbF by 15-25% → reduces painful crises.
 
 ## Pathology
 

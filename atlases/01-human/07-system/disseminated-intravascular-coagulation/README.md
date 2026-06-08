@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Sepsis-induced DIC: endotoxin/DAMPs → NLRP3 inflammasome → IL-1β + IL-18 → endothelial TF expression → thrombin generation → fibrin; IL-1β amplifies NF-κB → PAI-1 upregulation → hypofibrinolysis → fibrin microthrombus persistence in septic DIC."
+  - target: 01-human/03-molecular/antithrombin
+    relation: connects-to
+    note: "AT is consumed in DIC by ongoing thrombin generation; AT levels <60% correlate with DIC severity (ISTH DIC score); AT concentrate studied in sepsis-DIC (KyberSept trial: no mortality benefit); low AT + prolonged PT + thrombocytopenia = DIC triad."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -174,6 +177,7 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen is consumed in DIC by uncontrolled thrombin generation (sepsis, obstetric catastrophe, malignancy); fibrinogen <1.5 g/L in DIC is both diagnostic and a trigger for cryoprecipitate replacement; D-dimer from fibrin cross-links confirms active fibrinolysis in DIC.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Systemic TF/thrombin activation is the central mechanism of DIC: infection → cytokines → TF upregulation → FVIIa/TF → FX → thrombin → fibrin microthrombi; thrombin also exhausts natural anticoagulants (protein C/S, antithrombin) → feedback amplification of coagulopathy.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Sepsis-induced DIC: endotoxin/DAMPs → NLRP3 inflammasome → IL-1β + IL-18 → endothelial TF expression → thrombin generation → fibrin; IL-1β amplifies NF-κB → PAI-1 upregulation → hypofibrinolysis → fibrin microthrombus persistence in septic DIC.
+- `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — AT is consumed in DIC by ongoing thrombin generation; AT levels <60% correlate with DIC severity (ISTH DIC score); AT concentrate studied in sepsis-DIC (KyberSept trial: no mortality benefit); low AT + prolonged PT + thrombocytopenia = DIC triad.
 
 [^levi-2009-dic-review]: Levi M, Toh CH, Thachil J, Watson HG. Guidelines for the diagnosis and management of disseminated intravascular coagulation. *Br J Haematol.* 2009;145(1):24-33. [doi:10.1111/j.1365-2141.2009.07600.x](https://doi.org/10.1111/j.1365-2141.2009.07600.x) · [PubMed 19222477](https://pubmed.ncbi.nlm.nih.gov/19222477/)
 [^levi-2018-dic-lancet]: Levi M, Scully M. How I treat disseminated intravascular coagulation. *Blood.* 2018;131(8):845-854. [doi:10.1182/blood-2017-10-804096](https://doi.org/10.1182/blood-2017-10-804096) · [PubMed 29255070](https://pubmed.ncbi.nlm.nih.gov/29255070/)
