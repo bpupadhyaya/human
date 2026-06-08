@@ -58,6 +58,9 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "Mesolimbic D2 hyperactivity drives positive symptoms (hallucinations, delusions); mesocortical D1 hypofunction in PFC drives negative and cognitive symptoms; all antipsychotics achieve therapeutic effect via D2 blockade (60-80% receptor occupancy threshold)."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Mesolimbic dopamine hyperactivity drives manic symptoms in bipolar disorder; antipsychotics (D2 blockers) are first-line acute antimanic agents; mesocortical dopamine deficiency contributes to bipolar depression; catecholamine hypothesis explains mood cycling."
 ---
 
 # Dopamine
@@ -149,6 +152,7 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `modulates` → **[brain](../../06-organ/brain/README.md)** — shapes reward, motor control, cognition, and pituitary function
 - `part-of` → **[nervous-system](../../07-system/nervous-system/README.md)** — foundational neurotransmitter of the CNS
 - `connects-to` → **[Schizophrenia](../../07-system/schizophrenia/README.md)** — mesolimbic D2 hyperactivity drives positive symptoms (hallucinations, delusions); mesocortical D1 hypofunction in PFC drives negative and cognitive symptoms; all antipsychotics achieve therapeutic effect via D2 blockade at 60-80% receptor occupancy.
+- `connects-to` → **[Bipolar Disorder](../../07-system/bipolar-disorder/README.md)** — mesolimbic dopamine hyperactivity drives manic symptoms; antipsychotics (D2 blockers) are first-line acute antimanic agents; mesocortical dopamine deficiency contributes to bipolar depression; catecholamine hypothesis explains mood cycling.
 
 ## Pathology
 

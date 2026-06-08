@@ -54,6 +54,9 @@ cross_links:
   - target: 01-human/07-system/migraine
     relation: connects-to
     note: "Low interictal serotonin primes trigeminovascular sensitization in migraine; triptans (5-HT1B/D agonists) are first-line acute therapy; lasmiditan (5-HT1F ditan) provides relief without vasoconstriction; SSRIs may modestly reduce migraine frequency."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "SSRIs risk manic switching in bipolar disorder and are contraindicated as monotherapy; atypical antipsychotics with 5-HT2A blockade (quetiapine) effectively treat bipolar depression without switch risk; serotonergic antidepressants require mood stabilizer cover."
 ---
 
 # Serotonin
@@ -163,6 +166,7 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Schizophrenia](../../07-system/schizophrenia/README.md)** — 5-HT2A blockade in PFC by atypical antipsychotics (clozapine, olanzapine, risperidone) enhances dopaminergic output; 5-HT2A agonism by hallucinogens (LSD, psilocybin) models positive symptoms; serotonin-dopamine interaction shapes atypical antipsychotic efficacy.
 - `connects-to` → **[CGRP](../cgrp/README.md)** — triptans (5-HT1B/D agonists) reduce trigeminal CGRP release and abort migraine; serotonin regulates CGRP release from TNC neurons; combining triptans with SSRIs carries a theoretical serotonin syndrome risk but is generally well-tolerated clinically.
 - `connects-to` → **[Migraine](../../07-system/migraine/README.md)** — low interictal serotonin primes trigeminovascular sensitization in migraine; triptans (5-HT1B/D agonists) are first-line acute therapy; lasmiditan (5-HT1F ditan) provides relief without vasoconstriction; SSRIs may modestly reduce migraine frequency.
+- `connects-to` → **[Bipolar Disorder](../../07-system/bipolar-disorder/README.md)** — SSRIs risk manic switching in bipolar disorder and are contraindicated as monotherapy; atypical antipsychotics with 5-HT2A blockade (quetiapine) treat bipolar depression without switch risk; serotonergic antidepressants require mood stabilizer cover.
 
 ## Pathology
 

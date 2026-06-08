@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Chronic stress-induced BDNF suppression causes hippocampal volume loss (~8%) in PTSD; reduced BDNF impairs contextual fear discrimination and extinction consolidation; SSRIs normalize BDNF and partially restore hippocampal volume; Val66Met SNP increases PTSD risk."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "BDNF Val66Met SNP associates with 2× increased bipolar risk; BDNF is reduced during depressive episodes; lithium and valproate both upregulate BDNF and BCL-2, promoting hippocampal neurogenesis and neuroprotection as a convergent mood stabilizer mechanism."
 ---
 
 # BDNF
@@ -168,6 +171,8 @@ The ratio of proBDNF to mature BDNF in synapses has opposing functional conseque
 **→ [Parkinson's Disease](../../07-system/parkinsons-disease/)**: BDNF supports dopaminergic neuron survival in substantia nigra via TrkB/MAPK signaling; BDNF is reduced in SNc in Parkinson's disease; GDNF and BDNF delivery via convection-enhanced AAV infusion are in Phase 1-2 trials as disease-modifying PD therapy.
 
 **→ [Brain](../../06-organ/brain/)**: BDNF is the most abundant neurotrophin in the adult brain; hippocampal BDNF is essential for subgranular zone adult neurogenesis and CA1/CA3 LTP; aerobic exercise increases hippocampal BDNF and expands hippocampal volume by ~2% in controlled trials.
+
+**→ [Bipolar Disorder](../../07-system/bipolar-disorder/)**: BDNF Val66Met SNP associates with 2× increased bipolar disorder risk; BDNF is reduced during depressive episodes; lithium and valproate both upregulate BDNF and BCL-2, promoting hippocampal neurogenesis and neuroprotection as a convergent mood stabilizer mechanism.
 
 [^barde-1982-bdnf-discovery]: Barde YA, Edgar D, Thoenen H. Purification of a new neurotrophic factor from mammalian brain. *EMBO J.* 1982;1(5):549-553. [doi:10.1002/j.1460-2075.1982.tb01207.x](https://doi.org/10.1002/j.1460-2075.1982.tb01207.x) · [PubMed 7188352](https://pubmed.ncbi.nlm.nih.gov/7188352/)
 [^duman-2012-bdnf-depression]: Duman RS, Aghajanian GK. Synaptic dysfunction in depression: potential therapeutic targets. *Science.* 2012;338(6103):68-72. [doi:10.1126/science.1222939](https://doi.org/10.1126/science.1222939) · [PubMed 23042884](https://pubmed.ncbi.nlm.nih.gov/23042884/)
