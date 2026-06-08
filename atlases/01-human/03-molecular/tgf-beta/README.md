@@ -66,6 +66,9 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "TGF-β → ↑fibronectin transcription (FN1 promoter Smad binding site) and ↑EDA-FN splice isoform in activated fibroblasts; EDA-FN binds TLR4 and integrin α4β7 → amplifies TGF-β-driven fibrogenesis; FN matrix stiffness → mechano-sensing → ↑TGF-β activation → progressive fibrosis."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "SSc fibroblasts show constitutive SMAD2/3 signaling → ↑collagen, fibronectin, and CTGF → progressive skin and lung fibrosis; TGF-β1 is the primary driver of SSc fibrosis; nintedanib (anti-PDGFR/VEGFR/FGFR) slows SSc-ILD progression (SENSCIS trial)."
 ---
 
 # Transforming Growth Factor Beta
@@ -163,6 +166,7 @@ TβRIII (betaglycan) is a co-receptor that presents TGF-β2 (low-affinity TβRII
 - `modulates` → **[Immune System](../../07-system/immune-system/README.md)** — master immune tolerance regulator
 - `connects-to` → **[Wound Healing](../../07-system/wound-healing/README.md)** — TGF-β1 from platelets and macrophages drives myofibroblast differentiation (α-SMA+ → wound contraction), collagen I synthesis, and re-epithelialization; excess TGF-β → hypertrophic scar and keloid; TGF-β3 promotes scarless fetal healing; pirfenidone inhibits fibrogenic signaling.
 - `connects-to` → **[Fibronectin](../fibronectin/README.md)** — TGF-β → ↑fibronectin transcription (FN1 promoter Smad binding site) and ↑EDA-FN splice isoform in activated fibroblasts; EDA-FN binds TLR4 and integrin α4β7 → amplifies TGF-β-driven fibrogenesis; FN matrix stiffness → mechano-sensing → ↑TGF-β activation → progressive fibrosis.
+- `connects-to` → **[Systemic Sclerosis](../../07-system/systemic-sclerosis/README.md)** — SSc fibroblasts show constitutive SMAD2/3 signaling → ↑collagen, fibronectin, and CTGF → progressive skin and lung fibrosis; TGF-β1 is the primary driver of SSc fibrosis; nintedanib (anti-PDGFR/VEGFR/FGFR) slows SSc-ILD progression (SENSCIS trial).
 
 ## Pathology
 

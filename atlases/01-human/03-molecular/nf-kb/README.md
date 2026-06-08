@@ -70,6 +70,9 @@ cross_links:
   - target: 03-medicine/02-traditional/milk-thistle
     relation: modulated-by
     note: "Modulated by Milk Thistle / Silymarin (Silybum marianum)."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "NF-κB (p65/p50) is required for IFN-β enhanceosome assembly with IRF3 + AP-1; TLR7/9 signals activate both NF-κB and IRF7 via MyD88 → parallel IFN-α/β and inflammatory cytokine production; type I IFN-induced SOCS1 provides negative feedback on NF-κB."
 ---
 
 # NF-κB
@@ -187,6 +190,7 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 - `modulates` → **[IL-6](../il-6/README.md)** — dominant transcriptional activator of IL-6 via two promoter κB sites
 - `modulates` → **[macrophage](../../04-cellular/macrophage/README.md)** — LPS→TLR4→IKKβ→NF-κB drives the entire M1 macrophage pro-inflammatory gene program
 - `modulated-by` → **[curcumin](../../../03-medicine/03-food/curcumin/README.md)** — curcumin inhibits IKKβ, preventing IκBα phosphorylation and NF-κB nuclear translocation
+- `connects-to` → **[Type I Interferon](../type-i-interferon/README.md)** — NF-κB (p65/p50) is required for IFN-β enhanceosome assembly with IRF3 + AP-1; TLR7/9 signals activate both NF-κB and IRF7 via MyD88 → parallel IFN-α/β and inflammatory cytokine production; type I IFN-induced SOCS1 provides negative feedback on NF-κB.
 
 ## Pathology
 

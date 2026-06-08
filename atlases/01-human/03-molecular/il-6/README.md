@@ -89,6 +89,9 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "IL-6 amplifies acute GvHD: conditioning damage releases DAMPs → IL-6 from host APCs → JAK1/STAT3 in donor T cells → Th17 polarization; tocilizumab (anti-IL-6R) is studied as GvHD prophylaxis; IL-6 blockade with calcineurin inhibitors reduces GvHD incidence."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "IL-6 is elevated in SSc serum and drives fibrosis via STAT3 → ↑TGF-β and CTGF; tocilizumab (anti-IL-6R) slowed FVC decline in SSc-ILD in the focuSSed trial; IL-6 levels correlate with skin score (mRSS) and ILD activity in dcSSc."
 ---
 
 # Interleukin-6
@@ -196,6 +199,7 @@ gp130 also activates:
 - `modulates` → **[liver](../../06-organ/liver/README.md)** — acute-phase response induction: CRP, fibrinogen, SAA, ferritin, hepcidin
 - `modulated-by` → **[immune-system](../../07-system/immune-system/README.md)** — upstream activators: TNF, IL-1β, LPS; suppressors: IL-10, glucocorticoids, tocilizumab
 - `connects-to` → **[GvHD](../../07-system/gvhd/README.md)** — IL-6 amplifies acute GvHD: conditioning damage releases DAMPs → IL-6 from host APCs → JAK1/STAT3 in donor T cells → Th17 polarization; tocilizumab (anti-IL-6R) is studied as GvHD prophylaxis; IL-6 blockade with calcineurin inhibitors reduces GvHD incidence.
+- `connects-to` → **[Systemic Sclerosis](../../07-system/systemic-sclerosis/README.md)** — IL-6 is elevated in SSc serum and drives fibrosis via STAT3 → ↑TGF-β and CTGF; tocilizumab (anti-IL-6R) slowed FVC decline in SSc-ILD in the focuSSed trial; IL-6 levels correlate with skin score (mRSS) and ILD activity in dcSSc.
 
 ## Pathology
 
