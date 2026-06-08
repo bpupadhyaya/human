@@ -80,6 +80,12 @@ cross_links:
   - target: 01-human/07-system/pemphigus-vulgaris
     relation: connects-to
     note: "Anti-Dsg3 IgG4 causes PV; anti-Dsg1 IgG4 causes PF; pathogenic IgG4 titer correlates with disease severity; rituximab (Ritux 3: 90% vs 28% CR; FDA Jun 2018) depletes B cells producing anti-Dsg IgG; efgartigimod (FDA Oct 2023) reduces IgG catabolism; FcRn recycles pathogenic IgG4."
+  - target: 01-human/03-molecular/beta2-glycoprotein-1
+    relation: connects-to
+    note: "Anti-B2GPI autoantibodies are predominantly IgG (IgG1 > IgG4); domain I-specific IgG are most pathogenic in APS; IgG-B2GPI complexes bind phospholipid surfaces on endothelium and platelets → prothrombotic signaling; B2GPI-specific IgG titer correlates with thrombotic risk."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "APS is driven by IgG antiphospholipid antibodies (anti-B2GPI IgG, anti-cardiolipin IgG, lupus anticoagulant); IgG titers correlate with thrombotic risk; NOACs (rivaroxaban, dabigatran) are inferior to warfarin in APS (TRAPS trial); FcRn inhibitors under investigation."
 ---
 
 # Immunoglobulin G
@@ -165,6 +171,8 @@ FcγRI and FcγRIII contain ITAMs (immunoreceptor tyrosine-based activation moti
 - `connects-to` → **[ANCA Vasculitis](../../07-system/anca-vasculitis/README.md)** — Anti-PR3 IgG (c-ANCA) and anti-MPO IgG (p-ANCA) are pathogenic in GPA and MPA; IgG crosslinks surface PR3/MPO on C5a-primed neutrophils → FcγRIIa activation → NETosis → pauci-immune vasculitis; rituximab (RAVE; FDA Apr 2011) depletes B cells producing pathogenic ANCA IgG.
 - `connects-to` → **[Desmoglein-3](../desmoglein-3/README.md)** — Anti-Dsg3 IgG4 (PV; steric hindrance of desmosomal Dsg3) and anti-Dsg1 IgG4 (PF; superficial acantholysis) are the pathogenic pemphigus autoantibodies; IgG4 titer tracks disease activity; IVIG dilutes pathogenic antibodies; efgartigimod (FcRn inhibitor) reduces anti-Dsg IgG4.
 - `connects-to` → **[Pemphigus Vulgaris](../../07-system/pemphigus-vulgaris/README.md)** — Anti-Dsg3 IgG4 causes PV; anti-Dsg1 IgG4 causes PF; pathogenic IgG4 titer correlates with disease severity; rituximab (Ritux 3: 90% vs 28% CR; FDA Jun 2018) depletes B cells producing anti-Dsg IgG; efgartigimod (FDA Oct 2023) reduces IgG catabolism; FcRn recycles pathogenic IgG4.
+- `connects-to` → **[Beta-2 Glycoprotein I](../beta2-glycoprotein-1/README.md)** — Anti-B2GPI autoantibodies are predominantly IgG (IgG1 > IgG4); domain I-specific IgG are most pathogenic in APS; IgG-B2GPI complexes bind phospholipid surfaces on endothelium and platelets → prothrombotic signaling; B2GPI-specific IgG titer correlates with thrombotic risk.
+- `connects-to` → **[Antiphospholipid Syndrome](../../07-system/antiphospholipid-syndrome/README.md)** — APS is driven by IgG antiphospholipid antibodies (anti-B2GPI IgG, anti-cardiolipin IgG, lupus anticoagulant); IgG titers correlate with thrombotic risk; NOACs (rivaroxaban, dabigatran) are inferior to warfarin in APS (TRAPS trial); FcRn inhibitors under investigation.
 
 [^schroeder-cavacini-2010-igg]: Schroeder HW Jr, Cavacini L. Structure and function of immunoglobulins. *J Allergy Clin Immunol.* 2010;125(2 Suppl 2):S41-52. [doi:10.1016/j.jaci.2009.09.046](https://doi.org/10.1016/j.jaci.2009.09.046) · [PubMed 20176268](https://pubmed.ncbi.nlm.nih.gov/20176268/)
 [^ward-bhatt-2020-fcrn]: Ward ES, Bhatt DL, et al. The role of FcRn in immunity and its therapeutic implications. *Nat Rev Immunol.* 2020;20(7):399-407. [doi:10.1038/s41577-019-0260-y](https://doi.org/10.1038/s41577-019-0260-y) · [PubMed 32015434](https://pubmed.ncbi.nlm.nih.gov/32015434/)

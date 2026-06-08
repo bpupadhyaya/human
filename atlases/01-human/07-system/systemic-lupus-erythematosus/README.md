@@ -52,6 +52,12 @@ cross_links:
   - target: 01-human/03-molecular/c5ar1
     relation: connects-to
     note: "C5a/C5aR1 amplifies glomerular inflammation in lupus nephritis; C5a engages C5aR1 on neutrophils → NETosis → NET-derived DNA → TLR9 → pDC IFN-α → SLE amplification loop; avacopan (C5aR1 antagonist) under investigation for lupus nephritis."
+  - target: 01-human/03-molecular/beta2-glycoprotein-1
+    relation: connects-to
+    note: "~50% of SLE patients have aPL antibodies (anti-B2GPI, aCL, LA); 30% of aPL-positive SLE patients develop APS; anti-B2GPI IgG may drive SLE nephritis through complement and endothelial activation; hydroxychloroquine reduces aPL titers and thrombotic risk in SLE."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Secondary APS occurs in ~30% of SLE patients with persistent aPL; SLE+APS patients have higher stroke/DVT risk than either condition alone; hydroxychloroquine is recommended in all SLE+aPL patients; the 2023 ACR/EULAR APS criteria incorporate SLE as a risk modifier."
 ---
 
 # Systemic Lupus Erythematosus
@@ -187,6 +193,8 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — Anti-dsDNA and other pathogenic SLE autoantibodies are IgG → recycled by FcRn; FcRn blockade (efgartigimod, nipocalimab) reduces SLE autoantibody titers ~60-70%; efgartigimod Phase 3 in SLE ongoing; FcRn blockade complements BLyS/BAFF inhibition by targeting IgG homeostasis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Voclosporin (CNI; FDA Jan 2021) added to MMF achieved complete renal response 40.8% vs 22.5% (AURORA-1 Lancet 2021) for lupus nephritis; CNIs also stabilize podocyte synaptopodin → reduce proteinuria independently of T cell effects.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a/C5aR1 amplifies glomerular inflammation in lupus nephritis; C5a engages C5aR1 on neutrophils → NETosis → NET-derived DNA → TLR9 → pDC IFN-α → SLE amplification loop; avacopan (C5aR1 antagonist) under investigation for lupus nephritis.
+- `connects-to` → **[Beta-2 Glycoprotein I](../../03-molecular/beta2-glycoprotein-1/README.md)** — ~50% of SLE patients have aPL antibodies (anti-B2GPI, aCL, LA); 30% of aPL-positive SLE patients develop APS; anti-B2GPI IgG may drive SLE nephritis through complement and endothelial activation; hydroxychloroquine reduces aPL titers and thrombotic risk in SLE.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Secondary APS occurs in ~30% of SLE patients with persistent aPL; SLE+APS patients have higher stroke/DVT risk than either condition alone; hydroxychloroquine is recommended in all SLE+aPL patients; the 2023 ACR/EULAR APS criteria incorporate SLE as a risk modifier.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

@@ -30,6 +30,12 @@ cross_links:
   - target: 01-human/07-system/anca-vasculitis
     relation: connects-to
     note: "C5a generated during ANCA vasculitis complement activation primes neutrophils via C5aR1 → surface PR3/MPO translocation → ANCA crosslinking → NETosis → pauci-immune vasculitis; avacopan (C5aR1 antagonist; FDA Oct 2021) enables steroid-sparing remission in GPA/MPA."
+  - target: 01-human/03-molecular/beta2-glycoprotein-1
+    relation: connects-to
+    note: "Anti-B2GPI → complement activation (C3b deposition → C5a → neutrophil/platelet activation → thrombus amplification); eculizumab (anti-C5; FDA-approved for other indications) is used off-label for catastrophic APS (CAPS) refractory to anticoagulation and plasma exchange."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Complement activation is central to APS thrombosis: anti-B2GPI → C3b → C5a → neutrophil/platelet priming and TF expression; C5 inhibition (eculizumab) is used off-label for catastrophic APS (CAPS; ~37% mortality) refractory to anticoagulation and plasmapheresis."
 sources:
   - id: hillmen-2004-eculizumab-pnh
     type: peer-reviewed
@@ -137,6 +143,8 @@ C5 links innate complement to adaptive immunity: C5a (C5aR1/C5aR2) → neutrophi
 - `connects-to` → **[Aquaporin-4](../aquaporin-4/README.md)** — AQP4-IgG activates classical complement at astrocyte endfeet → C5 cleavage → C5b-9 MAC → astrocyte necrosis; blocking C5 (eculizumab, ravulizumab) prevents MAC formation on AQP4-expressing astrocytes; OAP clustering amplifies C1q binding efficiency.
 - `connects-to` → **[C5aR1](../c5ar1/README.md)** — C5a binds C5aR1 (Kd ~1 nM) on neutrophils/macrophages → Gαi → chemotaxis, degranulation, ROS, NETosis; avacopan (C5aR1 antagonist; ADVOCATE; FDA Oct 2021) blocks C5a–C5aR1 signaling downstream of C5 without affecting C5b-9 MAC formation.
 - `connects-to` → **[ANCA Vasculitis](../../07-system/anca-vasculitis/README.md)** — C5a primes neutrophils via C5aR1 → surface PR3/MPO translocation → ANCA crosslinking → NETosis → pauci-immune vasculitis; avacopan (C5aR1 antagonist; FDA Oct 2021) enables steroid-sparing remission in GPA/MPA by blocking C5a signaling.
+- `connects-to` → **[Beta-2 Glycoprotein I](../beta2-glycoprotein-1/README.md)** — Anti-B2GPI → complement activation (C3b deposition → C5a → neutrophil/platelet activation → thrombus amplification); eculizumab (anti-C5; FDA-approved for other indications) is used off-label for catastrophic APS (CAPS) refractory to anticoagulation and plasma exchange.
+- `connects-to` → **[Antiphospholipid Syndrome](../../07-system/antiphospholipid-syndrome/README.md)** — Complement activation is central to APS thrombosis: anti-B2GPI → C3b → C5a → neutrophil/platelet priming and TF expression; C5 inhibition (eculizumab) is used off-label for catastrophic APS (CAPS; ~37% mortality) refractory to anticoagulation and plasmapheresis.
 
 [^hillmen-2004-eculizumab-pnh]: Hillmen P, Hall C, Marsh JC, et al. Effect of eculizumab on hemolysis and transfusion requirements in patients with paroxysmal nocturnal hemoglobinuria. *N Engl J Med.* 2004;350(6):552-559. [doi:10.1056/NEJMoa031688](https://doi.org/10.1056/NEJMoa031688) · [PubMed 14762182](https://pubmed.ncbi.nlm.nih.gov/14762182/)
 [^brodsky-2008-eculizumab-triumph]: Brodsky RA, Young NS, Antonioli E, et al. Multicenter phase 3 study of the complement inhibitor eculizumab for the treatment of patients with paroxysmal nocturnal hemoglobinuria. *Blood.* 2008;111(4):1840-1847. [doi:10.1182/blood-2007-06-094136](https://doi.org/10.1182/blood-2007-06-094136) · [PubMed 18055865](https://pubmed.ncbi.nlm.nih.gov/18055865/)
