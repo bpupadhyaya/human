@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "TNF-α is an early dominant mediator of septic shock; TLR4 → NF-κB → rapid TNF-α release from macrophages → iNOS-mediated NO → vasodilation → distributive shock; despite strong preclinical rationale, anti-TNF therapy has consistently failed to improve sepsis survival in RCTs."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "ADM rises dramatically in sepsis proportional to severity; vasodilation (CLR/RAMP2 → cAMP → vasodilation) contributes to distributive shock; MR-proADM predicts 28-day mortality with AUC >0.80 and guides antibiotic de-escalation in the ADAPT-sepsis trial."
 ---
 
 # Sepsis
@@ -154,6 +157,7 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — LPS and bacterial DAMPs activate NLRP3 in macrophages → IL-1β/IL-18 secretion and pyroptosis → amplify the septic inflammatory cascade; NLRP3 inhibitors are in preclinical development for sepsis.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — TLR4→MyD88→NF-κB is the master signaling axis of innate immune activation in sepsis; NF-κB drives all major pro-inflammatory mediators including TNF-α, IL-1β, IL-6, iNOS, and COX-2.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α is the dominant early mediator of septic cardiovascular collapse; despite strong mechanistic rationale, anti-TNF therapies have failed in sepsis RCTs — demonstrating that blocking individual cytokines cannot overcome the redundant inflammatory cascade of systemic sepsis.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ADM rises dramatically in sepsis proportional to severity; vasodilation (CLR/RAMP2 → cAMP → vasodilation) contributes to distributive shock; MR-proADM predicts 28-day mortality with AUC >0.80 and guides antibiotic de-escalation in the ADAPT-sepsis trial.
 
 [^singer-2016-sepsis3]: Singer M, Deutschman CS, Seymour CW, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). *JAMA.* 2016;315(8):801-810. [doi:10.1001/jama.2016.0287](https://doi.org/10.1001/jama.2016.0287) · [PubMed 26903338](https://pubmed.ncbi.nlm.nih.gov/26903338/)
 [^vanderpoll-2017-sepsis-immunopathology]: van der Poll T, van de Veerdonk FL, Scicluna BP, Netea MG. The immunopathology of sepsis and potential therapeutic targets. *Nat Rev Immunol.* 2017;17(7):407-420. [doi:10.1038/nri.2017.36](https://doi.org/10.1038/nri.2017.36) · [PubMed 28436424](https://pubmed.ncbi.nlm.nih.gov/28436424/)
