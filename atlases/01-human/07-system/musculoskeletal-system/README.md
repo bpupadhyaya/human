@@ -38,6 +38,9 @@ cross_links:
   - target: 03-medicine/03-food/zinc-dietary
     relation: modulated-by
     note: "Modulated by Dietary Zinc."
+  - target: 01-human/03-molecular/myostatin
+    relation: modulated-by
+    note: "Myostatin is the primary negative regulator of skeletal muscle mass; aging → elevated myostatin → sarcopenia; cachexia → tumor-induced myostatin → muscle wasting; anti-myostatin biologics (bimagrumab, apitegromab) restore lean mass in sarcopenia and SMA."
 ---
 
 # Musculoskeletal System
@@ -182,6 +185,7 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - **Modulates:** [cardiovascular-system](../../07-system/cardiovascular-system/README.md) — exercise drives cardiac output; metabolites trigger vasodilation; myokines promote angiogenesis
 - **Modulates:** [immune-system](../../07-system/immune-system/README.md) — bone marrow produces all immune cells; exercise myokines (IL-6) induce anti-inflammatory responses
 - **Modulates:** [nervous-system](../../07-system/nervous-system/README.md) — motor neurons innervate muscle via NMJ; spinal reflexes and cerebellar coordination control movement
+- `modulated-by` → **[Myostatin](../../03-molecular/myostatin/README.md)** — myostatin is the primary negative regulator of skeletal muscle mass; aging → elevated myostatin → sarcopenia; cachexia → tumor-induced myostatin → muscle wasting; anti-myostatin biologics (bimagrumab, apitegromab) restore lean mass in sarcopenia and SMA.
 
 ## Pathology
 

@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Pediatric and Asian-predominant AD phenotypes have increased Th17 (IL-17A/IL-22) inflammation alongside Th2; IL-17A → antimicrobial peptide induction but also barrier disruption synergy with IL-4/IL-13; lebrikizumab, tralokinumab (anti-IL-13) provide IL-13-selective blockade."
+  - target: 01-human/03-molecular/il-13
+    relation: modulated-by
+    note: "IL-13 → IL-13Rα1/IL-4Rα → STAT6 → FLG, claudin-1, loricrin suppression → barrier failure; IL-13 is the dominant effector in chronic AD lichenification and fibrosis; tralokinumab (ECZTRA 1/2: 38% IGA 0/1) and lebrikizumab (ADVOCATE: 43% IGA 0/1) target IL-13 specifically."
 ---
 
 # Atopic Dermatitis
@@ -163,6 +166,7 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — atopic dermatitis is the cardinal atopic disease: IL-4/IL-13-driven IgE class switching and elevated total IgE correlate with AD severity; sensitized mast cells and basophils release histamine and PGD2; IgE-mediated sensitization predisposes to allergic rhinitis and asthma (atopic march).
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — chronic AD scratching cycles → IL-4/IL-13 → TGF-β from keratinocytes and fibroblasts → skin fibrosis (lichenification); TGF-β also promotes peripheral Treg induction and restrains the acute phase; elevated skin TGF-β1 is a marker of chronic-phase barrier fibrosis.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — pediatric and Asian-predominant AD phenotypes have increased Th17 (IL-17A/IL-22) inflammation alongside Th2; IL-17A → antimicrobial peptide induction but also barrier disruption synergy with IL-4/IL-13; lebrikizumab, tralokinumab (anti-IL-13) provide IL-13-selective blockade.
+- `modulated-by` → **[IL-13](../../03-molecular/il-13/README.md)** — IL-13 → IL-13Rα1/IL-4Rα → STAT6 → FLG, claudin-1, loricrin suppression → barrier failure; IL-13 is the dominant effector in chronic AD lichenification and fibrosis; tralokinumab (ECZTRA 1/2: 38% IGA 0/1) and lebrikizumab (ADVOCATE: 43% IGA 0/1) target IL-13 specifically.
 
 [^weidinger-2018-atopic-dermatitis]: Weidinger S, Beck LA, Bieber T, Kabashima K, Steinhoff M. Atopic dermatitis. *Nat Rev Dis Primers.* 2018;4(1):1. [doi:10.1038/s41572-018-0001-z](https://doi.org/10.1038/s41572-018-0001-z) · [PubMed 30464227](https://pubmed.ncbi.nlm.nih.gov/30464227/)
 [^simpson-2016-dupilumab-ad]: Simpson EL, Bieber T, Guttman-Yassky E, et al. Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis. *N Engl J Med.* 2016;375(24):2335-2348. [doi:10.1056/NEJMoa1610020](https://doi.org/10.1056/NEJMoa1610020) · [PubMed 27690741](https://pubmed.ncbi.nlm.nih.gov/27690741/)
