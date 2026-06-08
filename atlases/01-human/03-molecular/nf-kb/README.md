@@ -91,6 +91,9 @@ cross_links:
   - target: 01-human/03-molecular/irf3
     relation: connects-to
     note: "IFN-β enhanceosome: IRF3 (PRDI/PRDIII) + NF-κB (PRDII) + AP-1 (PRDIV) cooperatively bind the IFN-β promoter; CBP/p300 bridges all three → histone acetylation; NF-κB co-activation is required for maximal IRF3-driven IFN-β transcription."
+  - target: 01-human/03-molecular/tbk1
+    relation: connects-to
+    note: "TBK1 (activated by MAVS or STING) signals NF-κB in parallel with IRF3: TRAF6 → TAK1 → IKKβ → IκBα degradation → p65/p50 nuclear translocation; NF-κB and IRF3 cooperate at the IFN-β enhanceosome; TBK1 thus drives both antiviral IFN and inflammatory cytokine programs."
 ---
 
 # NF-κB
@@ -215,6 +218,7 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 - `connects-to` → **[TLR4](../tlr4/README.md)** — TLR4 is the principal upstream activator of NF-κB in innate immunity: LPS → TLR4/MyD88/IRAK4/TRAF6 → IKK → IκBα degradation → p65/p50 nuclear translocation → TNF-α, IL-12, IL-6; TLR4/NF-κB drives gram-negative sepsis and endotoxemia; TRIF runs parallel for IRF3/IFN-β.
 - `connects-to` → **[cGAS-STING](../cgas-sting/README.md)** — STING activates NF-κB via TRAF6/IKKβ in parallel with IRF3: cGAMP → STING → TRAF6 → TAK1 → IKK → IκBα degradation → NF-κB → TNF-α, IL-6; STING-NF-κB drives sterile inflammation in senescence (SASP) and autoimmunity distinct from the IRF3/IFN-β arm.
 - `connects-to` → **[IRF3](../irf3/README.md)** — IFN-β enhanceosome: IRF3 (PRDI/PRDIII) + NF-κB (PRDII) + AP-1 (PRDIV) cooperatively bind the IFN-β promoter; CBP/p300 bridges all three → histone acetylation; NF-κB co-activation is required for maximal IRF3-driven IFN-β transcription.
+- `connects-to` → **[TBK1](../tbk1/README.md)** — TBK1 (activated by MAVS or STING) signals NF-κB in parallel with IRF3: TRAF6 → TAK1 → IKKβ → IκBα degradation → p65/p50 nuclear translocation; NF-κB and IRF3 cooperate at the IFN-β enhanceosome; TBK1 drives both antiviral IFN and inflammatory cytokine programs.
 
 ## Pathology
 

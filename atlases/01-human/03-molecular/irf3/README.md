@@ -42,6 +42,9 @@ cross_links:
   - target: 01-human/03-molecular/rig-i
     relation: connects-to
     note: "RIG-I (K63-Ub by TRIM25) → MAVS filament → TRAF3 → TBK1 → IRF3 Ser396 phosphorylation → IRF3 homodimerization → IFN-β transcription; MDA5 uses the same MAVS-TBK1-IRF3 pathway for long dsRNA; IRF3 is the shared transcriptional effector for all cytosolic RNA sensing."
+  - target: 01-human/03-molecular/tbk1
+    relation: connects-to
+    note: "TBK1 (with inducible IKKε) phosphorylates IRF3 Ser396: MAVS-TRAF3-TBK1 and STING-TBK1 both activate IRF3 → dimerization → IFN-β; TBK1 Ser172 trans-autophosphorylation is required for catalytic activity; NSP13 (SARS-CoV-2) and 3Cpro (picornavirus) block TBK1."
 ---
 
 # IRF3
@@ -145,3 +148,5 @@ The IFN-β promoter integrates three transcription factor signals:
 **→ [NF-κB](../nf-kb/)**: IFN-β enhanceosome requires cooperative assembly of IRF3 + NF-κB + AP-1 on the IFN-β promoter; IRF3 occupies PRDI/PRDIII, NF-κB occupies PRDII, AP-1 occupies PRDIV; CBP/p300 is recruited to acetylate histones; NF-κB co-activation is required for maximal IRF3-driven IFN-β transcription.
 
 **→ [RIG-I](../rig-i/)**: RIG-I (K63-Ub by TRIM25) → MAVS filament → TRAF3 → TBK1 → IRF3 Ser396 phosphorylation → IRF3 homodimerization → IFN-β transcription; MDA5 uses the same MAVS-TBK1-IRF3 pathway for long dsRNA; IRF3 is the shared transcriptional effector for all cytosolic RNA sensing.
+
+**→ [TBK1](../tbk1/)**: TBK1 (with inducible IKKε) phosphorylates IRF3 Ser396: MAVS-TRAF3-TBK1 and STING-TBK1 both activate IRF3 → dimerization → IFN-β; TBK1 Ser172 trans-autophosphorylation is required for catalytic activity; NSP13 (SARS-CoV-2) and 3Cpro (picornavirus) block TBK1.

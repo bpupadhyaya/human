@@ -45,6 +45,9 @@ cross_links:
   - target: 01-human/07-system/zika-virus
     relation: connects-to
     note: "ZIKV NS5 degrades STAT2 via ubiquitin-proteasomal pathway → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 specifically targets human STAT2 (not mouse) → explains mouse resistance to ZIKV-induced microcephaly without IFNAR/STAT2 knockout in animal models."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "WNV NS5 blocks STAT1 Tyr701 phosphorylation and targets STAT1 for proteasomal degradation → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5-mediated STAT1 antagonism enables WNV to evade type I IFN antiviral defense; distinguishes WNV from many RNA viruses."
 ---
 
 # STAT1
@@ -138,3 +141,5 @@ Null or dominant-negative LOF mutations → absent/non-functional STAT1 → IFN-
 **→ [Hepatitis C](../../../07-system/hepatitis-c/)**: Chronic HCV drives ISG pre-activation via low-grade IFN-α → STAT1/STAT2/ISGF3 saturated → pegIFN-α fails to induce additional antiviral ISGs; IL28B TT genotype = high baseline ISG expression → pegIFN non-response; DAAs achieve SVR regardless of STAT1/ISG baseline.
 
 **→ [Zika Virus](../../../07-system/zika-virus/)**: ZIKV NS5 degrades STAT2 via ubiquitin-proteasomal pathway → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 specifically targets human STAT2 (not mouse) → explains mouse resistance to ZIKV-induced microcephaly without IFNAR/STAT2 knockout in animal models.
+
+**→ [West Nile Virus](../../../07-system/west-nile-virus/)**: WNV NS5 blocks STAT1 Tyr701 phosphorylation and targets STAT1 for proteasomal degradation → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5-mediated STAT1 antagonism enables WNV to evade type I IFN antiviral defense; distinguishes WNV from many RNA viruses.

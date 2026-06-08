@@ -42,6 +42,9 @@ cross_links:
   - target: 01-human/03-molecular/irf3
     relation: connects-to
     note: "cGAS → cGAMP → STING → TBK1 → IRF3 Ser396 phosphorylation → IRF3 dimerization → nuclear import → IFN-β; STING Golgi trafficking positions TBK1 for IRF3 phosphorylation; IRF3 is the shared convergence transcription factor for both cGAS-STING and MAVS innate sensing."
+  - target: 01-human/03-molecular/tbk1
+    relation: connects-to
+    note: "cGAMP-bound STING oligomerizes on ER → traffics to Golgi → recruits TBK1 via STING C-terminal tail direct binding → TBK1 trans-autophosphorylation (Ser172) → IRF3 Ser396 phosphorylation → IFN-β; TBK1 is the terminal kinase in the cGAS-STING-TBK1-IRF3 innate DNA sensing cascade."
 ---
 
 # cGAS-STING
@@ -127,3 +130,5 @@ STING → TRAF6 (K63-linked ubiquitination) → TAK1 → IKKβ → IκBα phosph
 **→ [MAVS](../mavs/)**: MAVS (RIG-I/MDA5 RNA sensing) and cGAS-STING (dsDNA sensing) are the two parallel innate axes converging on TBK1-IRF3-IFN-β; MAVS senses cytosolic RNA; cGAS-STING senses cytosolic dsDNA; both are cleaved by viral proteases (HCV NS3/4A, dengue NS2B/NS3) to evade innate immunity.
 
 **→ [IRF3](../irf3/)**: cGAS → cGAMP → STING → TBK1 → IRF3 Ser396 phosphorylation → IRF3 dimerization → nuclear import → IFN-β; STING Golgi trafficking positions TBK1 for IRF3 phosphorylation; IRF3 is the shared convergence transcription factor for both cGAS-STING and MAVS innate sensing.
+
+**→ [TBK1](../tbk1/)**: cGAMP-bound STING oligomerizes on ER → traffics to Golgi → recruits TBK1 via STING C-terminal tail direct binding → TBK1 trans-autophosphorylation (Ser172) → IRF3 Ser396 phosphorylation → IFN-β; TBK1 is the terminal kinase in the cGAS-STING-TBK1-IRF3 innate DNA sensing cascade.

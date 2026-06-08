@@ -36,6 +36,12 @@ cross_links:
   - target: 01-human/07-system/zika-virus
     relation: connects-to
     note: "ZIKV positive-sense genomic RNA and dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → IFN-β; adult cells robustly respond; fetal neural progenitor cells (NPCs) have reduced RIG-I/MAVS expression → impaired IFN-β → ZIKV replicates unchecked in NPCs → microcephaly."
+  - target: 01-human/03-molecular/tbk1
+    relation: connects-to
+    note: "RIG-I → MAVS → TRAF3 → TBK1 Ser172 trans-autophosphorylation → IRF3 Ser396 → IFN-β; MDA5 uses the same MAVS-TBK1-IRF3 axis; TBK1 is the essential shared kinase for all RLR (RIG-I/MDA5/LGP2) signals; TBK1 or IKKε knockout abolishes RLR-mediated IFN production."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "WNV NS5 methyltransferase adds 7-methylguanosine 5′-cap to viral RNA → RIG-I CTD fails to recognize 5′ppp → MAVS not activated; NS3-NS4A also inhibits RIG-I directly; WNV RNA capping is the primary innate immune evasion strategy before IFN-β is induced."
 ---
 
 # RIG-I
@@ -125,3 +131,7 @@ RIG-I adopts an autoinhibited, compact conformation in resting cells:
 **→ [Influenza](../../../07-system/influenza/)**: Influenza A 5′ppp negative-sense genomic ssRNA and blunt-ended dsRNA replication intermediates are the canonical RIG-I ligands; NS1 blocks RIG-I by: (1) sequestering dsRNA, (2) binding and inhibiting TRIM25; NS1 IFN antagonism strength correlates with pandemic potential.
 
 **→ [Zika Virus](../../../07-system/zika-virus/)**: ZIKV positive-sense genomic RNA and dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → IFN-β; adult cells robustly respond; fetal neural progenitor cells (NPCs) have reduced RIG-I/MAVS expression → impaired IFN-β → ZIKV replicates unchecked in NPCs → microcephaly.
+
+**→ [TBK1](../tbk1/)**: RIG-I → MAVS → TRAF3 → TBK1 Ser172 trans-autophosphorylation → IRF3 Ser396 → IFN-β; MDA5 uses the same MAVS-TBK1-IRF3 axis; TBK1 is the essential shared kinase for all RLR (RIG-I/MDA5/LGP2) signals; TBK1 or IKKε knockout abolishes RLR-mediated IFN production.
+
+**→ [West Nile Virus](../../../07-system/west-nile-virus/)**: WNV NS5 methyltransferase adds 7-methylguanosine 5′-cap to viral RNA → RIG-I CTD fails to recognize 5′ppp → MAVS not activated; NS3-NS4A also inhibits RIG-I directly; WNV RNA capping is the primary innate immune evasion strategy before IFN-β is induced.

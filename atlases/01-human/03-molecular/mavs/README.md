@@ -51,6 +51,12 @@ cross_links:
   - target: 01-human/07-system/zika-virus
     relation: connects-to
     note: "ZIKV dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; fetal neural progenitor cells have reduced RIG-I/MAVS → impaired IFN-β → ZIKV amplifies unchecked in fetal brain; MAVS is required for adult innate control limiting ZIKV viremia."
+  - target: 01-human/03-molecular/tbk1
+    relation: connects-to
+    note: "MAVS filament recruits TRAF3 → K63-polyubiquitin scaffolds TBK1 → TBK1 Ser172 trans-autophosphorylation → IRF3 Ser396 → IFN-β; TBK1 is the essential kinase activated by MAVS signaling; HCV NS3/4A cleaves MAVS → TBK1-IRF3 axis severed."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "WNV NS3-NS4A disrupts MAVS signaling and NS5 caps viral RNA preventing RIG-I/MAVS activation; MAVS → TBK1/IRF3 axis is the primary antiviral response against WNV; robust MAVS-IFN-β correlates with WNV control and reduces neuroinvasive disease."
 ---
 
 # MAVS
@@ -138,3 +144,11 @@ Primary sensor for long dsRNA (>1 kb):
 **→ [IRF3](../irf3/)**: MAVS filament → TRAF3 → TBK1/IKKε → IRF3 C-terminal phosphorylation → homodimerization → nuclear translocation → IFN-β; HCV NS3/4A cleaves MAVS → IRF3 not activated → chronicity; MAVS-TBK1-IRF3 is the canonical antiviral RNA sensing axis.
 
 **→ [Hepatitis C](../../../07-system/hepatitis-c/)**: HCV NS3/4A serine protease cleaves MAVS at Cys508 → soluble cytoplasmic MAVS cannot activate TBK1/IRF3; NS3/4A also cleaves TRIF; dual evasion of cytosolic and endosomal RNA sensing; MAVS cleavage by HCV is the paradigmatic example of viral innate immune subversion for chronicity.
+
+**→ [RIG-I](../rig-i/)**: RIG-I CARD domains (K63-ubiquitinated by TRIM25 at Lys172) bind MAVS CARD → nucleate MAVS prion-like filament on outer mitochondrial membrane → TRAF3 → TBK1 → IRF3 → IFN-β; MAVS is the essential downstream adaptor: all RIG-I and MDA5 signaling requires MAVS.
+
+**→ [Zika Virus](../../../07-system/zika-virus/)**: ZIKV dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; fetal neural progenitor cells have reduced RIG-I/MAVS → impaired IFN-β → ZIKV amplifies unchecked in fetal brain; MAVS is required for adult innate control limiting ZIKV viremia.
+
+**→ [TBK1](../tbk1/)**: MAVS filament recruits TRAF3 → K63-polyubiquitin scaffolds TBK1 → TBK1 Ser172 trans-autophosphorylation → IRF3 Ser396 → IFN-β; TBK1 is the essential kinase activated by MAVS signaling; HCV NS3/4A cleaves MAVS → TBK1-IRF3 axis severed.
+
+**→ [West Nile Virus](../../../07-system/west-nile-virus/)**: WNV NS3-NS4A disrupts MAVS signaling and NS5 caps viral RNA preventing RIG-I/MAVS activation; MAVS → TBK1/IRF3 axis is the primary antiviral response against WNV; robust MAVS-IFN-β correlates with WNV control and reduces neuroinvasive disease.

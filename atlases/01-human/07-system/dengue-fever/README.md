@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/zika-virus
     relation: connects-to
     note: "ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "WNV and DENV share flavivirus biology and NS5-mediated STAT1/STAT2 evasion; anti-DENV IgG cross-reacts with WNV E protein but provides limited protection; WNV causes neuroinvasive disease (encephalitis, AFP) not seen in DENV; both lack approved antivirals."
 ---
 
 # Dengue Fever
@@ -154,3 +157,5 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 **→ [STAT1](../../../03-molecular/stat1/)**: DENV NS5 degrades STAT2 via UBR4 → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 selectively targets human STAT2 (not mouse) → human-specific IFN evasion; STAT2 degradation is a major determinant of dengue viremia and is absent in murine dengue models.
 
 **→ [Zika Virus](../zika-virus/)**: ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion.
+
+**→ [West Nile Virus](../west-nile-virus/)**: WNV and DENV share flavivirus biology and NS5-mediated STAT1/STAT2 evasion; anti-DENV IgG cross-reacts with WNV E protein but provides limited protection; WNV causes neuroinvasive disease (encephalitis, AFP) not seen in DENV; both lack approved antivirals.

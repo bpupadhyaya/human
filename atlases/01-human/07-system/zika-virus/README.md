@@ -36,6 +36,9 @@ cross_links:
   - target: 01-human/07-system/dengue-fever
     relation: connects-to
     note: "ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "WNV and ZIKV are neurotropic flaviviruses; serological cross-reactivity and potential partial cross-protection; unlike ZIKV, WNV is not sexually transmitted and causes no congenital brain malformation; WNV neuroinvasive disease affects elderly/immunocompromised, not fetuses."
 ---
 
 # Zika Virus
@@ -160,3 +163,5 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 **→ [STAT1](../../../03-molecular/stat1/)**: ZIKV NS5 degrades STAT2 via ubiquitin-proteasomal pathway → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 specifically targets human STAT2 (not mouse) → explains mouse resistance to ZIKV-induced microcephaly without IFNAR/STAT2 knockout in animal models.
 
 **→ [Dengue Fever](../dengue-fever/)**: ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion.
+
+**→ [West Nile Virus](../west-nile-virus/)**: WNV and ZIKV are neurotropic flaviviruses; serological cross-reactivity and potential partial cross-protection; unlike ZIKV, WNV is not sexually transmitted and causes no congenital brain malformation; WNV neuroinvasive disease affects elderly/immunocompromised, not fetuses.
