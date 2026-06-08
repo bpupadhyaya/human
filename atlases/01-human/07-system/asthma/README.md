@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/03-molecular/tslp
     relation: connects-to
     note: "TSLP → DC and ILC2 activation upstream of the Th2/eosinophil cascade; tezepelumab (anti-TSLP mAb) reduced exacerbations 70% in NAVIGATOR trial — most effective severe asthma biologic across all eosinophil and IgE levels including T2-low patients."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 from damaged bronchial epithelium → ST2+ ILC2 and mast cells → IL-5/IL-13 → eosinophilia and mucus; works synergistically with TSLP and IL-25 as the three-alarmin cascade; itepekimab (anti-IL-33) reduced asthma exacerbations in Phase 2/3 trials."
 ---
 
 # Asthma

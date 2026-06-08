@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: modulated-by
     note: "IL-13 → IL-13Rα1/IL-4Rα → STAT6 → FLG, claudin-1, loricrin suppression → barrier failure; IL-13 is the dominant effector in chronic AD lichenification and fibrosis; tralokinumab (ECZTRA 1/2: 38% IGA 0/1) and lebrikizumab (ADVOCATE: 43% IGA 0/1) target IL-13 specifically."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 from damaged keratinocytes → ST2+ mast cells and ILC2 → Th2 priming and histamine release; TSLP + IL-33 + IL-25 cooperate as the three-alarmin cascade; scratching-induced epidermal damage releases IL-33 from keratinocyte nuclei and amplifies itch-scratch cycles."
 ---
 
 # Atopic Dermatitis

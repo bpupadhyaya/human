@@ -133,6 +133,9 @@ cross_links:
   - target: 03-medicine/03-food/dietary-fiber
     relation: modulated-by
     note: "Modulated by Dietary Fiber and Butyrate."
+  - target: 01-human/03-molecular/ghrelin
+    relation: modulated-by
+    note: "Ghrelin from gastric fundus X/A cells rises preprandially → vagal GHSR1a → gastric motility (prokinetic); relamorelin (GHSR1a agonist) showed Phase 2b efficacy for diabetic gastroparesis; ghrelin falls after eating, coordinating hunger and gastric emptying."
 taxonomy:
   uberon: "UBERON:0001007"
 ---

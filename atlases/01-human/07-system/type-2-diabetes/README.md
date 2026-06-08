@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/rage
     relation: connects-to
     note: "Hyperglycemia → excess AGE formation → RAGE on endothelium and macrophages → NF-κB → VCAM-1, ICAM-1, MCP-1 → diabetic micro- and macroangiopathy; soluble RAGE (sRAGE, a decoy) is inversely associated with T2D complications; RAGE also mediates AGE-driven β-cell dysfunction."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Ghrelin opposes insulin: GHSR1a in pancreatic β cells → reduced insulin secretion; obese T2DM patients have blunted ghrelin suppression after meals; GLP-1 receptor agonists suppress ghrelin surges — contributing to satiety; anamorelin (GHSR1a agonist) treats cancer cachexia."
 ---
 
 # Type 2 Diabetes
