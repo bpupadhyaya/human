@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-beta1 drives asthma airway remodeling: subepithelial fibrosis, smooth muscle hypertrophy, and mucus gland hyperplasia; TGF-beta also suppresses Tregs and promotes Th17 in severe asthma; anti-TGF-beta strategies are under investigation for structural reversal."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Allergen-specific IgE binds FcεRI on airway mast cells → allergen cross-linking → degranulation → acute bronchoconstriction; omalizumab (anti-IgE mAb) binds free IgE → reduces FcεRI expression → 26-50% fewer exacerbations in severe allergic asthma."
 ---
 
 # Asthma
@@ -158,6 +161,7 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — mast cells are the central acute asthma effectors; IgE cross-linking by allergen → degranulation → histamine, LTC4, PGD2 → acute bronchoconstriction; sustained mast cell cytokine release (IL-5, IL-13) amplifies eosinophil recruitment and late-phase inflammation.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 drives airway remodeling, neutrophilic airway inflammation, and corticosteroid-insensitive asthma; IL-6 trans-signaling promotes STAT3-dependent goblet cell differentiation and mucus hypersecretion; elevated serum IL-6 correlates with severe, uncontrolled asthma.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — TGF-beta1 drives airway remodeling: subepithelial fibrosis, smooth muscle hypertrophy, and goblet cell hyperplasia; also suppresses Treg function and promotes Th17 skewing in severe asthma; anti-TGF-beta strategies are under investigation to reverse established airway structural changes.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Allergen-specific IgE binds FcεRI on airway mast cells → allergen cross-linking → degranulation → acute bronchoconstriction; omalizumab (anti-IgE mAb) binds free IgE → reduces FcεRI expression → 26-50% fewer exacerbations in severe allergic asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
