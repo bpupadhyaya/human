@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/07-system/nmo
     relation: connects-to
     note: "IFN-β is CONTRAINDICATED in AQP4-IgG+ NMOSD — clinical trials showed IFN-β increases attack frequency; IFN-β may promote plasmablast differentiation → higher AQP4-IgG titers; differentiates NMOSD from MS (IFN-β first-line in MS but harmful in NMOSD)."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Type I IFN signature is present in ~75% of pSS (highest in anti-Ro/SSA+ patients); pDCs sense anti-Ro/RNA complexes via TLR7 → IFN-α; IFN-α → BAFF upregulation → B-cell hyperactivation; IFN signature correlates with ESSDAI and systemic Sjögren's manifestations."
 ---
 
 # Type I Interferon
@@ -160,6 +163,7 @@ Monogenic diseases of uncontrolled type I IFN production:
 - `connects-to` → **[NF-κB](../nf-kb/README.md)** — TLR7/9 → MyD88 → IRF7 and TBK1 → IRF3 pathways activate type I IFN in parallel with NF-κB; NF-κB drives IFN-β enhanceosome formation (NF-κB + IRF3 + AP-1 at IFN-β promoter); type I IFN-induced ISGs suppress NF-κB through STAT1 and SOCS1.
 - `connects-to` → **[Dermatomyositis](../../07-system/dermatomyositis/README.md)** — Type I IFN signature (↑MX1, ↑OAS1, ↑RSAD2) is elevated in muscle and blood in >80% of DM; anti-MDA5 (IFIH1) senses dsRNA → MAVS-TBK1-IRF3 → IFN-β; pDC infiltration drives DM interferonopathy; anifrolumab (anti-IFNAR1) under investigation for DM.
 - `connects-to` → **[NMOSD](../../07-system/nmo/README.md)** — IFN-β is CONTRAINDICATED in AQP4-IgG+ NMOSD — clinical trials showed IFN-β increases attack frequency; IFN-β may promote plasmablast differentiation → higher AQP4-IgG titers; distinguishes NMOSD from MS (where IFN-β is first-line).
+- `connects-to` → **[Sjögren's Syndrome](../../07-system/sjogrens-syndrome/README.md)** — Type I IFN signature is present in ~75% of pSS (highest in anti-Ro/SSA+ patients); pDCs sense anti-Ro/RNA complexes via TLR7 → IFN-α; IFN-α → BAFF upregulation → B-cell hyperactivation; IFN signature correlates with ESSDAI and systemic Sjögren's manifestations.
 
 [^ivashkiv-2018-type-i-ifn-review]: Ivashkiv LB, Donlin LT. Regulation of type I interferon responses. *Nat Rev Immunol.* 2014;14(1):36-49. [doi:10.1038/nri3581](https://doi.org/10.1038/nri3581) · [PubMed 24362405](https://pubmed.ncbi.nlm.nih.gov/24362405/)
 [^morand-2020-anifrolumab-tulip2]: Morand EF, Furie R, Tanaka Y, et al. Trial of Anifrolumab in Active Systemic Lupus Erythematosus. *N Engl J Med.* 2020;382(3):211-221. [doi:10.1056/NEJMoa1912196](https://doi.org/10.1056/NEJMoa1912196) · [PubMed 31851795](https://pubmed.ncbi.nlm.nih.gov/31851795/)
