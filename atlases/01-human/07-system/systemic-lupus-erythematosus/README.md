@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Type I IFN signature (↑MX1, ↑OAS1, ↑ISG15) is present in ~75% of SLE patients and correlates with disease activity; IFN-α amplifies pDC activation and anti-dsDNA production; anifrolumab (anti-IFNAR1; TULIP-2) is FDA-approved for moderate-to-severe SLE."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Anti-dsDNA and other pathogenic SLE autoantibodies are IgG → recycled by FcRn; FcRn blockade (efgartigimod, nipocalimab) reduces SLE autoantibody titers ~60-70%; efgartigimod Phase 3 in SLE ongoing; FcRn blockade complements BLyS/BAFF inhibition by targeting IgG homeostasis."
 ---
 
 # Systemic Lupus Erythematosus
@@ -175,6 +178,7 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — TLR7/9 activation by nucleic acid immune complexes drives type I IFN production in pDCs (IFN signature in 75% of patients); NLRP3 activated by mitochondrial DNA and NETs in macrophages → IL-1beta → tissue inflammation; anifrolumab blocks the downstream IFN receptor (IFNAR1).
 - `connects-to` → **[NF-kB](../../03-molecular/nf-kb/README.md)** — BAFF activates NF-kB in SLE B cells, promoting autoreactive B cell survival and ANA production; belimumab (anti-BAFF) reduces BAFF-driven B-cell NF-kB activation; TLR and IFN signaling also activate NF-kB in SLE myeloid cells amplifying the cytokine cascade.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I IFN signature (↑MX1, ↑OAS1, ↑ISG15) is present in ~75% of SLE patients and correlates with disease activity; IFN-α amplifies pDC activation and anti-dsDNA production; anifrolumab (anti-IFNAR1; TULIP-2) is FDA-approved for moderate-to-severe SLE.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — Anti-dsDNA and other pathogenic SLE autoantibodies are IgG → recycled by FcRn; FcRn blockade (efgartigimod, nipocalimab) reduces SLE autoantibody titers ~60-70%; efgartigimod Phase 3 in SLE ongoing; FcRn blockade complements BLyS/BAFF inhibition by targeting IgG homeostasis.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

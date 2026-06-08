@@ -15,6 +15,9 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "C5a (C5aR1/C5aR2) → neutrophil/monocyte chemotaxis + NLRP3 inflammasome priming + Th1/Th17 polarization; C5b-9 MAC → cell lysis; dysregulated terminal complement → autoimmune injury in gMG (NMJ), NMOSD (astrocytes), aHUS (glomerular endothelium)."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "Anti-AChR IgG in MG activates classical complement → C5a (inflammation) + C5b-9 MAC → AChR destruction at motor endplate → NMJ dysfunction; eculizumab (REGAIN trial) and ravulizumab (CHAMPION MG) block C5 cleavage → prevent MAC at the NMJ → reduce AChR+ MG severity."
 sources:
   - id: hillmen-2004-eculizumab-pnh
     type: peer-reviewed
@@ -117,6 +120,7 @@ C5 links innate complement to adaptive immunity: C5a (C5aR1/C5aR2) → neutrophi
 
 - `connects-to` → **[PNH](../../07-system/pnh/README.md)** — In PNH, GPI-anchor-deficient RBCs lack CD55/CD59 → uncontrolled C5 cleavage → MAC (C5b-9) → hemolysis; C5a → neutrophil activation → thrombosis; eculizumab (C5 mAb) reduces hemolysis and thrombosis; ravulizumab (Q8W) achieves sustained C5 inhibition.
 - `connects-to` → **[Immune System](../../07-system/immune-system/README.md)** — C5 links innate complement to adaptive immunity: C5a (C5aR1/C5aR2) → neutrophil/monocyte chemotaxis + NLRP3 priming + Th1/Th17 polarization; C5b-9 MAC → cell lysis; dysregulated C5 activation → autoimmune injury in gMG (neuromuscular junction), NMOSD (astrocytes), aHUS (glomerular endothelium).
+- `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — Anti-AChR IgG in MG activates classical complement → C5a (inflammation) + C5b-9 MAC → AChR destruction at motor endplate → NMJ dysfunction; eculizumab (REGAIN trial) and ravulizumab (CHAMPION MG) block C5 cleavage → prevent MAC at the NMJ → reduce AChR+ MG severity.
 
 [^hillmen-2004-eculizumab-pnh]: Hillmen P, Hall C, Marsh JC, et al. Effect of eculizumab on hemolysis and transfusion requirements in patients with paroxysmal nocturnal hemoglobinuria. *N Engl J Med.* 2004;350(6):552-559. [doi:10.1056/NEJMoa031688](https://doi.org/10.1056/NEJMoa031688) · [PubMed 14762182](https://pubmed.ncbi.nlm.nih.gov/14762182/)
 [^brodsky-2008-eculizumab-triumph]: Brodsky RA, Young NS, Antonioli E, et al. Multicenter phase 3 study of the complement inhibitor eculizumab for the treatment of patients with paroxysmal nocturnal hemoglobinuria. *Blood.* 2008;111(4):1840-1847. [doi:10.1182/blood-2007-06-094136](https://doi.org/10.1182/blood-2007-06-094136) · [PubMed 18055865](https://pubmed.ncbi.nlm.nih.gov/18055865/)

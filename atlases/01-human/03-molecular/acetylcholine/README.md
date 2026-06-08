@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: modulates
     note: "ACh is the primary peripheral motor and autonomic preganglionic neurotransmitter; basal forebrain cholinergic neurons project to cortex/hippocampus regulating attention, REM sleep, and memory consolidation."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "In MG, anti-AChR IgG activates complement → MAC destroys AChR at the NMJ; reduced AChR density → impaired NMJ transmission → fatigable weakness; pyridostigmine (AChE inhibitor) compensates by prolonging ACh dwell time; eculizumab and efgartigimod are targeted therapies."
 ---
 
 # Acetylcholine
@@ -104,6 +107,7 @@ Choline is recycled by CHT1 (reuptake into presynaptic terminal). There is no in
 - **Modulates SA node cell** — Vagal ACh activates M2 mAChR on SA node → Gi → ↓adenylyl cyclase → ↓cAMP → ↑IKACh (GIRK channels) → hyperpolarisation → ↓HR (negative chronotropy). See [sa-node-cell](../../04-cellular/sa-node-cell/README.md).
 - **Modulates synapse** — ACh released at chemical synapses by exocytosis; AChE in synaptic cleft ensures brief signal duration (<1 ms); nicotinic fast response vs muscarinic GPCR-mediated slow modulation. See [synapse](../../05-tissue/synapse/README.md).
 - **Modulates nervous system** — ACh is the primary peripheral motor and autonomic preganglionic neurotransmitter; basal forebrain cholinergic neurons project to cortex/hippocampus regulating attention, REM sleep, and memory consolidation. See [nervous-system](../../07-system/nervous-system/README.md).
+- `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — In MG, anti-AChR IgG activates complement → MAC destroys AChR at the NMJ; reduced AChR density → impaired NMJ transmission → fatigable weakness; pyridostigmine (AChE inhibitor) compensates by prolonging ACh dwell time; eculizumab and efgartigimod are targeted therapies.
 
 ## Pathology
 
