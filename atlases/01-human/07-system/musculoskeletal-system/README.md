@@ -41,6 +41,9 @@ cross_links:
   - target: 01-human/03-molecular/myostatin
     relation: modulated-by
     note: "Myostatin is the primary negative regulator of skeletal muscle mass; aging → elevated myostatin → sarcopenia; cachexia → tumor-induced myostatin → muscle wasting; anti-myostatin biologics (bimagrumab, apitegromab) restore lean mass in sarcopenia and SMA."
+  - target: 01-human/03-molecular/igf-1
+    relation: modulated-by
+    note: "IGF-1 → IGF-1R → IRS-1 → PI3K/Akt/mTOR → skeletal muscle protein synthesis and satellite cell activation; opposes myostatin/SMAD2/3 atrophy signaling; IGF-1 drives osteoblast bone matrix synthesis; declining IGF-1 with aging contributes to sarcopenia and osteoporosis."
 ---
 
 # Musculoskeletal System

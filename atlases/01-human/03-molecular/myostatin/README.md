@@ -15,6 +15,9 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Myostatin (GDF-8) is a TGF-β superfamily member sharing ActRIIB/SMAD2/3 signaling with TGF-β1; both drive muscle atrophy and fibrosis in DMD and sarcopenia via overlapping SMAD cascades; anti-myostatin therapies exploit TGF-β pathway architecture for muscle preservation."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "IGF-1 and myostatin oppose each other: IGF-1 → Akt → mTORC1 → protein synthesis and satellite cell activation; myostatin → SMAD2/3 → MAFbx/MuRF1 → atrophy; Akt phosphorylates SMAD3 → blunts myostatin pro-atrophy signaling; axis governs net muscle mass in sarcopenia and cachexia."
 sources:
   - id: mcpherron-1997-myostatin
     type: peer-reviewed

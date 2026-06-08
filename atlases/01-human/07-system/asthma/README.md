@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "IL-5 drives eosinophilic airway inflammation; blood eosinophils ≥300/μL identifies biologic candidates; mepolizumab (MENSA 47% RRR) and benralizumab (CALIMA 28-36% RRR) block IL-5 or IL-5Rα to reduce exacerbations in severe eosinophilic asthma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "TSLP → DC and ILC2 activation upstream of the Th2/eosinophil cascade; tezepelumab (anti-TSLP mAb) reduced exacerbations 70% in NAVIGATOR trial — most effective severe asthma biologic across all eosinophil and IgE levels including T2-low patients."
 ---
 
 # Asthma
@@ -170,6 +173,7 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Allergen-specific IgE binds FcεRI on airway mast cells → allergen cross-linking → degranulation → acute bronchoconstriction; omalizumab (anti-IgE mAb) binds free IgE → reduces FcεRI expression → 26-50% fewer exacerbations in severe allergic asthma.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-4 drives Th2 airway inflammation, IgE production, and eosinophil recruitment in allergic asthma; type II receptor (IL-4Rα + IL-13Rα1) mediates mucus and AHR; dupilumab reduces severe asthma exacerbations by ~50% in patients with elevated eosinophils or FeNO.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — IL-5 drives eosinophilic airway inflammation; blood eosinophils ≥300/μL identifies biologic candidates; mepolizumab (MENSA 47% RRR) and benralizumab (CALIMA 28-36% RRR) block IL-5 or IL-5Rα to reduce exacerbations in severe eosinophilic asthma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — TSLP → DC and ILC2 activation upstream of the Th2/eosinophil cascade; tezepelumab (anti-TSLP mAb) reduced exacerbations 70% in NAVIGATOR trial — most effective severe asthma biologic across all eosinophil and IgE levels including T2-low patients.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
