@@ -24,6 +24,9 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Thrombin is the central effector of venous thrombus formation: stasis → contact activation (FXI→FIXa) → FX → thrombin → fibrin; DOACs (dabigatran: direct thrombin inhibitor; rivaroxaban/apixaban: FXa inhibitors) prevent and treat DVT/PE; LMWH inhibits thrombin via antithrombin."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Systemic TF/thrombin activation is the central mechanism of DIC: infection → cytokines → TF → FVIIa/TF → FX → thrombin → fibrin microthrombi; thrombin also exhausts protein C/S and antithrombin → feedback amplification; dabigatran/heparin block thrombin but treat cause first."
 sources:
   - id: connolly-2009-re-ly
     type: peer-reviewed
@@ -138,6 +141,7 @@ Thrombin activates PAR-1 on macrophages and endothelial cells → NF-κB → NLR
 Thrombin cleaves fibrinopeptides A and B from fibrinogen → fibrin monomers → spontaneous polymerization → branching fibrin network; Factor XIIIa (activated by thrombin) cross-links fibrin → lysis-resistant clot; fibrinogen is rate-limiting for clot formation in coagulopathy.
 
 - `connects-to` → **[Venous Thromboembolism](../../07-system/venous-thromboembolism/README.md)** — Thrombin is the central effector of venous thrombus formation: stasis → contact activation (FXI→FIXa) → FX → thrombin → fibrin; DOACs (dabigatran: direct thrombin inhibitor; rivaroxaban/apixaban: FXa inhibitors) prevent and treat DVT/PE; LMWH/UFH inhibit thrombin via antithrombin.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../../07-system/disseminated-intravascular-coagulation/README.md)** — Systemic TF/thrombin activation is the central mechanism of DIC: infection → cytokines → TF → FVIIa/TF → FX → thrombin → fibrin microthrombi; thrombin also exhausts protein C/S and antithrombin → feedback amplification; treat underlying cause first, heparin for thrombosis-dominant DIC.
 
 [^connolly-2009-re-ly]: Connolly SJ, Ezekowitz MD, Yusuf S, et al. Dabigatran versus warfarin in patients with atrial fibrillation. *N Engl J Med.* 2009;361(12):1139-1151. [doi:10.1056/NEJMoa0905561](https://doi.org/10.1056/NEJMoa0905561) · [PubMed 19717844](https://pubmed.ncbi.nlm.nih.gov/19717844/)
 [^mackman-2008-coagulation]: Mackman N. Triggers, targets and treatments for thrombosis. *Nature.* 2008;451(7181):914-918. [doi:10.1038/nature06797](https://doi.org/10.1038/nature06797) · [PubMed 18288180](https://pubmed.ncbi.nlm.nih.gov/18288180/)

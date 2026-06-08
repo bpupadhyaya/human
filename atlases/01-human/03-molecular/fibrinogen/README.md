@@ -29,6 +29,9 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: modulates
     note: "Fibrinogen/fibrin bridges platelets via αIIbβ3 (GPIIb/IIIa) integrin — RGD on Aα chain + γ-chain C-terminal AGDV dodecapeptide; the platelet-fibrin scaffold forms the definitive haemostatic plug at sites of vascular injury."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Fibrinogen is consumed in DIC by uncontrolled thrombin generation (sepsis, obstetric catastrophe, malignancy); fibrinogen <1.5 g/L in DIC is both diagnostic and a trigger for cryoprecipitate replacement; D-dimer from fibrin cross-links confirms active fibrinolysis in DIC."
 ---
 
 # Fibrinogen
@@ -127,6 +130,7 @@ Clot structural properties depend on polymerization kinetics:
 - `expresses` → **[hepatocyte](../../04-cellular/hepatocyte/README.md)** — sole site of fibrinogen synthesis; all three chains (Aα, Bβ, γ) are made by hepatocytes and upregulated 3–5× during acute-phase response via IL-6/STAT3 [^stryer-biochemistry]
 - `modulates` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — fibrin mesh is the definitive haemostatic scaffold; elevated fibrinogen drives CVD risk via thrombotic, rheological, and inflammatory mechanisms [^stryer-biochemistry]
 - `modulates` → **[platelet](../../04-cellular/platelet/README.md)** — fibrinogen/fibrin bridges adjacent platelets via αIIbβ3 (RGD on Aα and AGDV on γ-chain); platelet-fibrin scaffold forms the definitive haemostatic plug [^stryer-biochemistry]
+- `connects-to` → **[Disseminated Intravascular Coagulation](../../07-system/disseminated-intravascular-coagulation/README.md)** — Fibrinogen is consumed in DIC by uncontrolled thrombin generation (sepsis, obstetric catastrophe, malignancy); fibrinogen <1.5 g/L in DIC is diagnostic and triggers cryoprecipitate replacement; D-dimer from fibrin cross-links confirms active fibrinolysis in DIC.
 
 ## Pathology
 

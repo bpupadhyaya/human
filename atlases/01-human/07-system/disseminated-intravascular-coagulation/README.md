@@ -1,0 +1,183 @@
+---
+schema: human-scale-entry/v1
+id: disseminated-intravascular-coagulation
+name: Disseminated Intravascular Coagulation
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "DIC is a syndrome of microvascular thrombosis and consumption coagulopathy from systemic thrombin activation; sepsis, obstetric emergencies, and malignancy are top triggers. ISTH score ≥5 = overt DIC. Treatment targets underlying cause; FFP + cryoprecipitate for bleeding."
+aliases: ["DIC", "disseminated intravascular coagulation", "consumptive coagulopathy", "defibrination syndrome", "DIC coagulopathy", "overt DIC", "non-overt DIC", "microangiopathic coagulation"]
+sources:
+  - id: levi-2009-dic-review
+    type: peer-reviewed
+    cite: "Levi M, Toh CH, Thachil J, Watson HG. Guidelines for the diagnosis and management of disseminated intravascular coagulation. British Committee for Standards in Haematology. Br J Haematol. 2009;145(1):24-33."
+    doi: "10.1111/j.1365-2141.2009.07600.x"
+    pmid: "19222477"
+    url: "https://doi.org/10.1111/j.1365-2141.2009.07600.x"
+  - id: levi-2018-dic-lancet
+    type: peer-reviewed
+    cite: "Levi M, Scully M. How I treat disseminated intravascular coagulation. Blood. 2018;131(8):845-854."
+    doi: "10.1182/blood-2017-10-804096"
+    pmid: "29255070"
+    url: "https://doi.org/10.1182/blood-2017-10-804096"
+  - id: taylor-2001-isth-dic-score
+    type: peer-reviewed
+    cite: "Taylor FB Jr, Toh CH, Hoots WK, et al. Towards definition, clinical and laboratory criteria, and a scoring system for disseminated intravascular coagulation. Thromb Haemost. 2001;86(5):1327-1330."
+    doi: "10.1055/s-0037-1616068"
+    pmid: "11816725"
+    url: "https://doi.org/10.1055/s-0037-1616068"
+cross_links:
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Fibrinogen is consumed in DIC by uncontrolled thrombin generation (sepsis, obstetric catastrophe, malignancy); fibrinogen <1.5 g/L in DIC is both diagnostic and a trigger for cryoprecipitate replacement; D-dimer from fibrin cross-links confirms active fibrinolysis in DIC."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Systemic TF/thrombin activation is the central mechanism of DIC: infection → cytokines → TF upregulation on monocytes/endothelium → FVIIa/TF → FX → thrombin → fibrin microthrombi; thrombin also exhausts natural anticoagulants (protein C/S, antithrombin) → feedback amplification."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Sepsis-induced DIC: endotoxin/DAMPs → NLRP3 inflammasome → IL-1β + IL-18 → endothelial TF expression → thrombin generation → fibrin; IL-1β amplifies NF-κB → PAI-1 upregulation → hypofibrinolysis → fibrin microthrombus persistence in septic DIC."
+---
+
+# Disseminated Intravascular Coagulation
+
+## Overview
+
+**Disseminated intravascular coagulation (DIC)** is an **acquired syndrome** of simultaneous, uncontrolled activation of the coagulation and fibrinolytic systems throughout the vascular tree, resulting in:
+1. **Microvascular thrombosis** — fibrin deposition in small vessels → end-organ ischemia (kidney, lung, brain, liver, adrenal glands)
+2. **Consumption coagulopathy** — platelets, fibrinogen, and clotting factors depleted by the ongoing clotting process → paradoxical bleeding (hemorrhagic DIC)
+3. **Microangiopathic hemolytic anemia (MAHA)** — RBCs mechanically fragmented by fibrin strands → schistocytes
+
+DIC is always **secondary** — it does not occur in isolation but as a consequence of an underlying systemic trigger. DIC is not a diagnosis; it is a laboratory-clinical syndrome accompanying a primary disease. The most important therapeutic intervention is treating the underlying cause [^levi-2018-dic-lancet].
+
+**Epidemiology:**
+- Occurs in ~25-50% of patients with severe sepsis; ~20% of obstetric emergencies; ~10% of acute leukemia (especially AML-M3/APL)
+- In-hospital mortality: varies by cause — sepsis-DIC ~40-60%; obstetric DIC ~1-2% (if treated promptly); AML-M3/APL DIC 5-10% with ATRA + arsenic trioxide
+
+**Key dichotomy:**
+- **Bleeding-predominant DIC:** Obstetric catastrophe (abruptio placentae, amniotic fluid embolism), AML-M3/APL, transfusion reactions → rapid consumption → severe coagulopathy + hemorrhage
+- **Thrombosis-predominant DIC (chronic/compensated):** Malignancy (especially mucin-secreting adenocarcinoma), sepsis (early phase) → Trousseau syndrome (migratory thrombophlebitis in cancer-associated DIC)
+
+## Structure
+
+### Pathophysiological framework
+
+**Central mechanism: TF-driven thrombin storm**
+
+1. **Underlying trigger** (infection, tissue injury, cancer, immune complex) → systemic **tissue factor (TF)** expression on monocytes and endothelial cells
+2. TF + FVIIa → extrinsic pathway → **FX → FXa → prothrombinase → massive thrombin generation**
+3. Thrombin → fibrin deposits throughout microcirculation + platelet activation + feedback amplification (activates FV, FVIII, FXIII)
+4. **Natural anticoagulant exhaustion:** Thrombin consumes protein C, protein S, antithrombin → loss of anti-thrombotic brakes → runaway amplification
+5. **Fibrinolysis activation:** Plasmin generated → degrades fibrin → FDPs/D-dimer → FDPs inhibit further fibrin polymerization and platelet function (prothrombotic → hemorrhagic shift)
+6. **Consumption:** Platelets, fibrinogen, factors V/VIII/X consumed faster than replaced → coagulopathy → hemorrhage
+
+### Triggers of DIC
+
+**Infections (most common cause):**
+- Gram-negative sepsis: LPS → TLR4 → NF-κB → TF, TNF-α, IL-1β → monocyte/endothelial TF expression
+- Gram-positive: TSST-1, PVL toxins → cytokine storm → TF
+- Viremia (COVID-19, dengue, viral hemorrhagic fevers): endothelial injury + cytokine storm → TF + complement activation
+- Malaria (Plasmodium falciparum): RBC parasitization → adhesion to endothelium → local TF + hemolysis
+
+**Obstetric emergencies:**
+- **Abruptio placentae** (most common): Placental TF → maternal DIC; hemorrhagic; very rapid onset
+- **Amniotic fluid embolism:** Amniotic fluid (rich in TF, fetal squames) → systemic TF → DIC + anaphylactoid reaction
+- **Preeclampsia/HELLP syndrome:** Endothelial dysfunction → TF + complement + platelet consumption (microangiopathic)
+- **Placenta previa, uterine rupture, retained fetal demise**
+
+**Malignancy:**
+- AML-M3 (APL, acute promyelocytic leukemia): Promyelocyte granules release TF + cancer procoagulant (cysteine protease) + t-PA → hemorrhagic DIC (most dangerous subtype); **ATRA (all-trans retinoic acid) differentiation therapy → TF downregulation → DIC resolves**
+- Solid tumors (pancreas, prostate, lung adenocarcinoma): Trousseau syndrome — chronic low-grade DIC with migratory thrombophlebitis; mucin activates coagulation; warfarin poorly effective → LMWH preferred
+
+**Trauma/tissue destruction:**
+- Polytrauma: traumatic brain injury → massive TF release from brain parenchyma; crush injury → myoglobin + TF; Trauma-Induced Coagulopathy (TIC) has overlapping features with DIC
+- Burns, fat embolism, major surgery
+
+**Immune-mediated:**
+- Transfusion reactions (ABO incompatibility → hemolysis → TF)
+- Severe autoimmune disease; vasculitis
+- Snake venom (specifically: Echis, Agkistrodon species produce thrombin-like enzymes → fibrinogen depletion)
+
+## Function
+
+### ISTH DIC scoring system [^taylor-2001-isth-dic-score]
+
+**Overt DIC (International Society on Thrombosis and Haemostasis) score:**
+
+| Parameter | 0 | 1 | 2 | 3 |
+|:---------|:-|:-|:-|:-|
+| Platelet count (×10⁹/L) | ≥100 | <100 | <50 | — |
+| PT prolongation (seconds above ULN) | <3 | 3-6 | >6 | — |
+| D-dimer / fibrin-related marker | No increase | Moderate increase | Strong increase | — |
+| Fibrinogen (g/L) | ≥1 | <1 | — | — |
+
+- **Score ≥5 = overt DIC**: Compatible with DIC; treat aggressively
+- **Score <5 = non-overt/suspected DIC**: Repeat daily; treat underlying cause
+
+**Note:** DIC scoring requires an underlying predisposing condition as entry criterion. A score ≥5 has >90% specificity for DIC in appropriate clinical context.
+
+## Pathology
+
+### Diagnosis
+
+**Laboratory findings in overt DIC:**
+- **Thrombocytopenia:** Platelet consumption (<100,000/μL in overt DIC; declining serial counts important even before threshold)
+- **Prolonged PT/aPTT:** Factor consumption (FV, FVIII, FX, prothrombin); aPTT prolonged; may be only mildly elevated in compensated DIC
+- **Hypofibrinogenemia:** Fibrinogen <1.5 g/L (very specific for DIC when combined with other findings); note fibrinogen is an acute-phase reactant and may remain "normal" (2-4 g/L) even with significant consumption in sepsis — a declining fibrinogen trend is key
+- **Elevated D-dimer:** Most sensitive marker (>95% sensitivity) but non-specific (elevated in PE, MI, surgery, liver disease, pregnancy)
+- **Schistocytes on peripheral blood smear:** MAHA from fibrin strand-mediated RBC fragmentation; Coombs-negative
+- **Low antithrombin, protein C, protein S:** Consumed by ongoing thrombin activation
+- **Thrombin-antithrombin (TAT) complex:** Most specific marker of thrombin generation; elevated early in DIC; research test
+
+**Distinguishing DIC from TTP/HUS:**
+| Feature | DIC | TTP | aHUS |
+|:--------|:----|:----|:-----|
+| ADAMTS13 | Normal | <10% | Normal |
+| PT/aPTT | Prolonged | Normal | Normal |
+| Fibrinogen | Low | Normal | Normal |
+| D-dimer | High | Mildly elevated | Mildly elevated |
+| Schistocytes | Present | Prominent | Prominent |
+
+### Treatment [^levi-2018-dic-lancet]
+
+**1. Treat the underlying cause — the most important intervention:**
+- Sepsis: Antibiotics, source control (drainage, surgery)
+- APL: ATRA ± arsenic trioxide → differentiation therapy → TF downregulation → DIC resolves within days
+- Obstetric: Delivery, oxytocin, uterine massage, surgical repair; transfuse aggressively
+
+**2. Blood product replacement (bleeding DIC):**
+- **Fresh frozen plasma (FFP):** Replaces all clotting factors (FV, FVIII, fibrinogen, protein C/S, antithrombin); 10-20 mL/kg; use if PT >1.5× normal + active bleeding or invasive procedure planned
+- **Cryoprecipitate:** Concentrated fibrinogen (10× FFP per unit) + FVIII + VWF + FXIII; give if fibrinogen <1.5 g/L; 10 units → fibrinogen +0.5-1 g/L; target fibrinogen ≥1.5-2 g/L
+- **Platelet transfusion:** Give if platelets <50,000/μL + active bleeding, or <10,000/μL prophylactically
+- **Avoid aggressive factor replacement in thrombotic DIC** (Trousseau, early compensated sepsis DIC) — may worsen microthrombosis
+
+**3. Anticoagulation (thrombosis-predominant DIC):**
+- Therapeutic LMWH or UFH in Trousseau syndrome (cancer-associated DIC with thrombosis)
+- Heparin in purpura fulminans (protein C deficiency + DIC with limb gangrene)
+- **Protein C concentrate or recombinant APC:** Considered in severe sepsis-DIC with purpura fulminans; restores depleted anticoagulant protein C → breaks thrombin amplification loop; high-dose recombinant APC (drotrecogin alfa) was withdrawn due to survival benefit not confirmed in large trial (PROWESS-SHOCK)
+
+**4. Antifibrinolytic therapy — use with extreme caution:**
+- **Tranexamic acid:** Inhibits plasminogen → fibrin protection; use only if fibrinolysis-predominant DIC with life-threatening bleeding (APL-DIC before ATRA starts, obstetric DIC); CONTRAINDICATED in thrombotic DIC (will worsen microthrombosis)
+- The CRASH-2 trial showed benefit of tranexamic acid within 3 hours of trauma injury — this is trauma-TIC context, not classic DIC
+
+**5. Antithrombin concentrate (AT-III):**
+- AT is consumed in DIC; replacement improves outcomes in some studies (sepsis-DIC with AT <70%)
+- Not universally recommended; may be considered in severe DIC with AT <70% and ongoing thrombosis despite heparin
+
+**Special situations:**
+- **APL/AML-M3-DIC:** ATRA + arsenic trioxide → primary treatment; aggressive cryoprecipitate/FFP/platelet transfusion during induction; avoid heparin (increases bleeding risk); DIC typically resolves within 5-10 days of ATRA
+- **Obstetric DIC:** Rapid delivery is the definitive treatment; concurrent 1:1:1 (RBC:FFP:platelet) massive transfusion protocol; fibrinogen concentrate (3-4 g IV) preferred over FFP for targeted fibrinogen correction in obstetric hemorrhage
+- **Purpura fulminans:** Protein C-depleted DIC → gangrene of extremities; protein C concentrate + anticoagulation; may require limb amputation if already gangrenous
+
+## Connections
+
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen is consumed in DIC by uncontrolled thrombin generation (sepsis, obstetric catastrophe, malignancy); fibrinogen <1.5 g/L in DIC is both diagnostic and a trigger for cryoprecipitate replacement; D-dimer from fibrin cross-links confirms active fibrinolysis in DIC.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Systemic TF/thrombin activation is the central mechanism of DIC: infection → cytokines → TF upregulation → FVIIa/TF → FX → thrombin → fibrin microthrombi; thrombin also exhausts natural anticoagulants (protein C/S, antithrombin) → feedback amplification of coagulopathy.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Sepsis-induced DIC: endotoxin/DAMPs → NLRP3 inflammasome → IL-1β + IL-18 → endothelial TF expression → thrombin generation → fibrin; IL-1β amplifies NF-κB → PAI-1 upregulation → hypofibrinolysis → fibrin microthrombus persistence in septic DIC.
+
+[^levi-2009-dic-review]: Levi M, Toh CH, Thachil J, Watson HG. Guidelines for the diagnosis and management of disseminated intravascular coagulation. *Br J Haematol.* 2009;145(1):24-33. [doi:10.1111/j.1365-2141.2009.07600.x](https://doi.org/10.1111/j.1365-2141.2009.07600.x) · [PubMed 19222477](https://pubmed.ncbi.nlm.nih.gov/19222477/)
+[^levi-2018-dic-lancet]: Levi M, Scully M. How I treat disseminated intravascular coagulation. *Blood.* 2018;131(8):845-854. [doi:10.1182/blood-2017-10-804096](https://doi.org/10.1182/blood-2017-10-804096) · [PubMed 29255070](https://pubmed.ncbi.nlm.nih.gov/29255070/)
+[^taylor-2001-isth-dic-score]: Taylor FB Jr, Toh CH, Hoots WK, et al. Towards definition, clinical and laboratory criteria, and a scoring system for disseminated intravascular coagulation. *Thromb Haemost.* 2001;86(5):1327-1330. [doi:10.1055/s-0037-1616068](https://doi.org/10.1055/s-0037-1616068) · [PubMed 11816725](https://pubmed.ncbi.nlm.nih.gov/11816725/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
