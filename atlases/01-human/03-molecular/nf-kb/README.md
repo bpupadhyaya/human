@@ -97,6 +97,12 @@ cross_links:
   - target: 01-human/07-system/hepatitis-b
     relation: connects-to
     note: "HBx protein activates NF-κB → hepatocyte survival, HBV transcription from cccDNA, and inflammatory cytokine production; NF-κB activation by HBx prevents apoptosis of HBV-infected hepatocytes → viral persistence; NF-κB and AP-1 bind cccDNA promoters to enhance HBV replication."
+  - target: 01-human/07-system/epstein-barr-virus
+    relation: connects-to
+    note: "EBV LMP1 CTAR1/2 activate both canonical and alternative NF-κB; CTAR1 → TRAF1/2/3 → NIK → p52/RelB; CTAR2 → TRADD/TRAF6 → IKKβ → p65/p50; constitutively active CD40 mimic → BCL-2, ICAM-1, IL-6 → B cell immortalization and EBV lymphomagenesis."
+  - target: 01-human/03-molecular/lmp1
+    relation: connects-to
+    note: "LMP1 CTAR1 → TRAF1/2/3 → NIK → IKKα → p100 → p52/RelB (non-canonical); CTAR2 → TRADD → TRAF6 → TAK1 → IKKβ → IκBα → p65/p50 (canonical); dual NF-κB pathway activation by one viral protein; constitutive BCL-2, ICAM-1, IL-6, TRAF1 → B cell survival."
 ---
 
 # NF-κB
@@ -223,6 +229,8 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 - `connects-to` → **[IRF3](../irf3/README.md)** — IFN-β enhanceosome: IRF3 (PRDI/PRDIII) + NF-κB (PRDII) + AP-1 (PRDIV) cooperatively bind the IFN-β promoter; CBP/p300 bridges all three → histone acetylation; NF-κB co-activation is required for maximal IRF3-driven IFN-β transcription.
 - `connects-to` → **[TBK1](../tbk1/README.md)** — TBK1 (activated by MAVS or STING) signals NF-κB in parallel with IRF3: TRAF6 → TAK1 → IKKβ → IκBα degradation → p65/p50 nuclear translocation; NF-κB and IRF3 cooperate at the IFN-β enhanceosome; TBK1 drives both antiviral IFN and inflammatory cytokine programs.
 - `connects-to` → **[Hepatitis B](../../07-system/hepatitis-b/README.md)** — HBx protein activates NF-κB via IKKα/β → hepatocyte survival, HBV transcription from cccDNA, and pro-inflammatory cytokine production; NF-κB activation prevents apoptosis of HBV-infected hepatocytes; NF-κB and AP-1 binding sites on cccDNA promoters are required for robust HBV transcription; NF-κB drives HBV-associated liver inflammation and HCC.
+- `connects-to` → **[Epstein-Barr Virus](../../07-system/epstein-barr-virus/README.md)** — EBV LMP1 CTAR1/2 activate both canonical and alternative NF-κB; CTAR1 → TRAF1/2/3 → NIK → p52/RelB; CTAR2 → TRADD/TRAF6 → IKKβ → p65/p50; constitutively active CD40 mimic → BCL-2, ICAM-1, IL-6 → B cell immortalization and EBV lymphomagenesis.
+- `connects-to` → **[LMP1](../lmp1/README.md)** — LMP1 CTAR1 → TRAF1/2/3 → NIK → IKKα → p100 → p52/RelB (non-canonical); CTAR2 → TRADD → TRAF6 → TAK1 → IKKβ → IκBα → p65/p50 (canonical); dual NF-κB pathway activation by one viral protein; constitutive BCL-2, ICAM-1, IL-6, TRAF1 → B cell survival.
 
 ## Pathology
 

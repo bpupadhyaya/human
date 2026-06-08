@@ -37,6 +37,12 @@ cross_links:
   - target: 01-human/03-molecular/cccdna
     relation: connects-to
     note: "HBx binds p53 DNA-binding domain → prevents PUMA/BAX transcription → HBV-infected hepatocytes resist apoptosis; HBV integration generates HBx-p53 chimeric proteins; TP53 R249S hotspot (aflatoxin B1) is characteristic of HBV-HCC; p53 LOF enables cccDNA hepatocyte survival."
+  - target: 01-human/07-system/epstein-barr-virus
+    relation: connects-to
+    note: "EBNA3C recruits SCFSkp2 E3 ligase → p53 polyubiquitination and degradation; LMP1 → MDM2 upregulation → additional p53 destabilization; EBV p53 evasion enables infected B cells to bypass apoptosis; TP53 mutations cooperate with EBV in Burkitt lymphoma and EBV+ DLBCL."
+  - target: 01-human/03-molecular/lmp1
+    relation: connects-to
+    note: "LMP1 → NF-κB → MDM2 transcription → p53 ubiquitination; LMP1 → BCL-2/BCL-XL → resistance to p53-dependent apoptosis; EBNA3C (distinct EBV protein) is the primary EBV p53 antagonist (Skp2 pathway); LMP1 and EBNA3C cooperate to prevent p53-mediated tumor suppression."
 ---
 
 # p53
@@ -139,6 +145,8 @@ In ~7% of cancers (especially sarcomas), **MDM2 is amplified** → excessive p53
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — p53 regulates neutrophil apoptosis after pathogen clearance; MDM2-mediated p53 suppression extends neutrophil survival during acute infection.
 - `modulates` → **[Cytokine Storm](../../07-system/cytokine-storm/README.md)** — p53 suppresses NF-κB-driven inflammation; in hyperinflammatory states, p53 promotes apoptotic clearance of activated immune cells to limit cytokine storm severity.
 - `connects-to` → **[cccDNA](../cccdna/README.md)** — HBx protein binds p53 DNA-binding domain → sequesters p53 in cytoplasm → prevents PUMA/BAX pro-apoptotic transcription → HBV-infected hepatocytes survive and continue harboring cccDNA; HBV integration can generate HBx-p53 chimeric proteins with altered tumor suppressor function; TP53 R249S hotspot (from aflatoxin B1 adducts) is characteristic of HBV-HCC in endemic regions; p53 LOF cooperates with HBV in HCC development.
+- `connects-to` → **[Epstein-Barr Virus](../../07-system/epstein-barr-virus/README.md)** — EBNA3C recruits SCFSkp2 E3 ligase → p53 polyubiquitination and degradation; LMP1 → MDM2 upregulation → additional p53 destabilization; EBV p53 evasion enables infected B cells to bypass apoptosis; TP53 mutations cooperate with EBV in Burkitt lymphoma and EBV+ DLBCL.
+- `connects-to` → **[LMP1](../lmp1/README.md)** — LMP1 → NF-κB → MDM2 transcription → p53 ubiquitination; LMP1 → BCL-2/BCL-XL → resistance to p53-dependent apoptosis; EBNA3C (distinct EBV protein) is the primary EBV p53 antagonist (Skp2 pathway); LMP1 and EBNA3C cooperate to prevent p53-mediated tumor suppression.
 
 [^lane-1992-guardian]: Lane DP. Cancer. p53, guardian of the genome. *Nature.* 1992;358(6381):15-16. [doi:10.1038/358015a0](https://doi.org/10.1038/358015a0) · [PubMed 1614522](https://pubmed.ncbi.nlm.nih.gov/1614522/)
 [^vousden-2009-p53-review]: Vousden KH, Prives C. Blinded by the Light: The Growing Complexity of p53. *Cell.* 2009;137(3):413-431. [doi:10.1016/j.cell.2009.04.037](https://doi.org/10.1016/j.cell.2009.04.037) · [PubMed 19410540](https://pubmed.ncbi.nlm.nih.gov/19410540/)
