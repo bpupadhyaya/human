@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Voclosporin (CNI; FDA Jan 2021) added to MMF achieved complete renal response 40.8% vs 22.5% (AURORA-1 Lancet 2021) for lupus nephritis; CNIs also stabilize podocyte synaptopodin → reduce proteinuria independently of T cell effects."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a/C5aR1 amplifies glomerular inflammation in lupus nephritis; C5a engages C5aR1 on neutrophils → NETosis → NET-derived DNA → TLR9 → pDC IFN-α → SLE amplification loop; avacopan (C5aR1 antagonist) under investigation for lupus nephritis."
 ---
 
 # Systemic Lupus Erythematosus
@@ -183,6 +186,7 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I IFN signature (↑MX1, ↑OAS1, ↑ISG15) is present in ~75% of SLE patients and correlates with disease activity; IFN-α amplifies pDC activation and anti-dsDNA production; anifrolumab (anti-IFNAR1; TULIP-2) is FDA-approved for moderate-to-severe SLE.
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — Anti-dsDNA and other pathogenic SLE autoantibodies are IgG → recycled by FcRn; FcRn blockade (efgartigimod, nipocalimab) reduces SLE autoantibody titers ~60-70%; efgartigimod Phase 3 in SLE ongoing; FcRn blockade complements BLyS/BAFF inhibition by targeting IgG homeostasis.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Voclosporin (CNI; FDA Jan 2021) added to MMF achieved complete renal response 40.8% vs 22.5% (AURORA-1 Lancet 2021) for lupus nephritis; CNIs also stabilize podocyte synaptopodin → reduce proteinuria independently of T cell effects.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — C5a/C5aR1 amplifies glomerular inflammation in lupus nephritis; C5a engages C5aR1 on neutrophils → NETosis → NET-derived DNA → TLR9 → pDC IFN-α → SLE amplification loop; avacopan (C5aR1 antagonist) under investigation for lupus nephritis.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

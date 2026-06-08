@@ -31,6 +31,9 @@ cross_links:
   - target: 01-human/07-system/aplastic-anemia
     relation: connects-to
     note: "AA and PNH are closely related: immune destruction of normal HSCs in AA allows PIGA-mutant GPI-deficient clone to expand; 25-40% of AA patients have PNH clones at diagnosis; some AA patients evolve to overt PNH; both conditions are treated at specialized hemato-oncology centers."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "In PNH, uncontrolled terminal complement generates C5a alongside C5b-9 (MAC); C5a engages C5aR1 on GPI-deficient neutrophils → thrombosis; eculizumab blocks C5 → prevents both MAC-mediated hemolysis and C5a–C5aR1 signaling; avacopan (C5aR1 blockade) under investigation in PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -127,6 +130,7 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — PIGA-mutant PNH clones lack GPI-anchored CD55/CD59 → terminal complement runs unchecked: C5 convertase → C5a (thrombosis/neutrophil activation) + C5b-9 MAC (hemolysis); eculizumab and ravulizumab (anti-C5) normalize LDH and reduce thrombotic events 90%.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — PNH originates from a single PIGA-mutant hematopoietic stem cell in bone marrow; immune-mediated destruction of normal HSCs (aplastic anemia context) allows clonal expansion of GPI-deficient clone; 25-40% of aplastic anemia patients have PNH clones; PNH and AA overlap on a continuum.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — AA and PNH are closely related: immune destruction of normal HSCs in AA allows PIGA-mutant GPI-deficient clone to expand; 25-40% of AA patients have PNH clones at diagnosis; some AA patients evolve to overt PNH; both conditions are treated at specialized hemato-oncology centers.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — In PNH, uncontrolled terminal complement generates C5a alongside C5b-9 (MAC); C5a engages C5aR1 on GPI-deficient neutrophils → thrombosis; eculizumab blocks C5 → prevents both MAC-mediated hemolysis and C5a–C5aR1 signaling; avacopan (C5aR1 blockade) under investigation in PNH.
 
 [^hillmen-2004-eculizumab-pnh]: Hillmen P, Hall C, Marsh JC, et al. Effect of eculizumab on hemolysis and transfusion requirements in patients with paroxysmal nocturnal hemoglobinuria. *N Engl J Med.* 2004;350(6):552-559. [doi:10.1056/NEJMoa031688](https://doi.org/10.1056/NEJMoa031688) · [PubMed 14762182](https://pubmed.ncbi.nlm.nih.gov/14762182/)
 [^brodsky-2008-eculizumab-triumph]: Brodsky RA, Young NS, Antonioli E, et al. Multicenter phase 3 study of the complement inhibitor eculizumab for the treatment of patients with paroxysmal nocturnal hemoglobinuria. *Blood.* 2008;111(4):1840-1847. [doi:10.1182/blood-2007-06-094136](https://doi.org/10.1182/blood-2007-06-094136) · [PubMed 18055865](https://pubmed.ncbi.nlm.nih.gov/18055865/)

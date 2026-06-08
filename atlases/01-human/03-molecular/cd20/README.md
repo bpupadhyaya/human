@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/07-system/nmo
     relation: connects-to
     note: "Rituximab (anti-CD20) depletes B cells → reduces AQP4-IgG and is widely used as off-label first-line NMOSD prevention (~70-80% ARR reduction); inebilizumab (anti-CD19) is approved (N-MOmentum; FDA Jun 2020); ublituximab under investigation in NMOSD trials."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Rituximab (anti-CD20) depletes autoreactive B cells in ANCA vasculitis; RAVE trial: rituximab non-inferior to cyclophosphamide for GPA/MPA induction (64% vs 53% CR; FDA Apr 2011); rituximab superior in relapsing disease; MAINRITSAN maintenance reduces relapse."
 ---
 
 # CD20
@@ -146,6 +149,7 @@ CD20×CD3 bispecifics redirect T cells to CD20+ targets — bypassing MHC-I/II r
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC rearrangement in ~10% of DLBCL; double-hit (MYC + BCL-2) or triple-hit (+ BCL-6) → high-grade B-cell lymphoma; R-CHOP inferior → EPOCH-R or CAR-T preferred; MYC protein expression >40% is an independent poor-prognosis marker in CD20+ DLBCL.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — B cells co-express CD20 and MHC class II; CD20 downregulation and MHC-II loss are rituximab resistance mechanisms; obinutuzumab reduces CD20 internalization vs. rituximab; CD20×CD3 bispecifics (epcoritamab, glofitamab) bypass MHC-II for T cell-mediated killing.
 - `connects-to` → **[NMOSD](../../07-system/nmo/README.md)** — Rituximab (anti-CD20) depletes B cells → reduces AQP4-IgG; widely used off-label as first-line NMOSD prevention (~70-80% ARR reduction); inebilizumab (anti-CD19; N-MOmentum; FDA Jun 2020) is approved for NMOSD; ublituximab under investigation.
+- `connects-to` → **[ANCA Vasculitis](../../07-system/anca-vasculitis/README.md)** — Rituximab (anti-CD20) depletes autoreactive B cells in ANCA vasculitis; RAVE trial: rituximab non-inferior to cyclophosphamide for GPA/MPA induction (64% vs 53% CR; FDA Apr 2011); rituximab superior in relapsing disease; MAINRITSAN maintenance reduces relapse.
 
 [^maloney-1997-rituximab]: Maloney DG, Grillo-López AJ, White CA, et al. IDEC-C2B8 (rituximab) anti-CD20 monoclonal antibody therapy in patients with relapsed low-grade non-Hodgkin's lymphoma. *Blood.* 1997;90(6):2188-2195. [doi:10.1182/blood.V90.6.2188](https://doi.org/10.1182/blood.V90.6.2188) · [PubMed 9310469](https://pubmed.ncbi.nlm.nih.gov/9310469/)
 [^coiffier-2002-rchop]: Coiffier B, Lepage E, Brière J, et al. CHOP chemotherapy plus rituximab compared with CHOP alone in elderly patients with diffuse large-B-cell lymphoma. *N Engl J Med.* 2002;346(4):235-242. [doi:10.1056/NEJMoa011795](https://doi.org/10.1056/NEJMoa011795) · [PubMed 11807147](https://pubmed.ncbi.nlm.nih.gov/11807147/)

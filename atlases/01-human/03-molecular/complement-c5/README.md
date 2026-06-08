@@ -24,6 +24,12 @@ cross_links:
   - target: 01-human/03-molecular/aquaporin-4
     relation: connects-to
     note: "AQP4-IgG activates classical complement at astrocyte endfeet → C5 cleavage → C5b-9 MAC → astrocyte necrosis; blocking C5 (eculizumab, ravulizumab) prevents MAC formation on AQP4-expressing astrocytes and halts NMOSD attacks; OAP clustering amplifies C1q binding efficiency."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "C5a is cleaved from C5 by C5 convertase; C5a binds C5aR1 (Kd ~1 nM) on neutrophils/macrophages → Gαi signaling → chemotaxis, degranulation, ROS, NETosis; avacopan (C5aR1 antagonist; ADVOCATE; FDA Oct 2021) blocks C5a–C5aR1 signaling without affecting C5b-9 MAC formation."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "C5a generated during ANCA vasculitis complement activation primes neutrophils via C5aR1 → surface PR3/MPO translocation → ANCA crosslinking → NETosis → pauci-immune vasculitis; avacopan (C5aR1 antagonist; FDA Oct 2021) enables steroid-sparing remission in GPA/MPA."
 sources:
   - id: hillmen-2004-eculizumab-pnh
     type: peer-reviewed
@@ -129,6 +135,8 @@ C5 links innate complement to adaptive immunity: C5a (C5aR1/C5aR2) → neutrophi
 - `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — Anti-AChR IgG in MG activates classical complement → C5a (inflammation) + C5b-9 MAC → AChR destruction at motor endplate → NMJ dysfunction; eculizumab (REGAIN trial) and ravulizumab (CHAMPION MG) block C5 cleavage → prevent MAC at the NMJ → reduce AChR+ MG severity.
 - `connects-to` → **[NMOSD](../../07-system/nmo/README.md)** — AQP4-IgG+ NMOSD: classical complement → C5 → C5a + MAC → astrocyte lysis in CNS; eculizumab (PREVENT: ARR 0.02 vs 0.35; FDA Jun 2019) and ravulizumab (CHAMPION-NMOSD; FDA Jun 2023) block C5 → prevent astrocyte attack; not effective in MOG-IgG+ NMOSD.
 - `connects-to` → **[Aquaporin-4](../aquaporin-4/README.md)** — AQP4-IgG activates classical complement at astrocyte endfeet → C5 cleavage → C5b-9 MAC → astrocyte necrosis; blocking C5 (eculizumab, ravulizumab) prevents MAC formation on AQP4-expressing astrocytes; OAP clustering amplifies C1q binding efficiency.
+- `connects-to` → **[C5aR1](../c5ar1/README.md)** — C5a binds C5aR1 (Kd ~1 nM) on neutrophils/macrophages → Gαi → chemotaxis, degranulation, ROS, NETosis; avacopan (C5aR1 antagonist; ADVOCATE; FDA Oct 2021) blocks C5a–C5aR1 signaling downstream of C5 without affecting C5b-9 MAC formation.
+- `connects-to` → **[ANCA Vasculitis](../../07-system/anca-vasculitis/README.md)** — C5a primes neutrophils via C5aR1 → surface PR3/MPO translocation → ANCA crosslinking → NETosis → pauci-immune vasculitis; avacopan (C5aR1 antagonist; FDA Oct 2021) enables steroid-sparing remission in GPA/MPA by blocking C5a signaling.
 
 [^hillmen-2004-eculizumab-pnh]: Hillmen P, Hall C, Marsh JC, et al. Effect of eculizumab on hemolysis and transfusion requirements in patients with paroxysmal nocturnal hemoglobinuria. *N Engl J Med.* 2004;350(6):552-559. [doi:10.1056/NEJMoa031688](https://doi.org/10.1056/NEJMoa031688) · [PubMed 14762182](https://pubmed.ncbi.nlm.nih.gov/14762182/)
 [^brodsky-2008-eculizumab-triumph]: Brodsky RA, Young NS, Antonioli E, et al. Multicenter phase 3 study of the complement inhibitor eculizumab for the treatment of patients with paroxysmal nocturnal hemoglobinuria. *Blood.* 2008;111(4):1840-1847. [doi:10.1182/blood-2007-06-094136](https://doi.org/10.1182/blood-2007-06-094136) · [PubMed 18055865](https://pubmed.ncbi.nlm.nih.gov/18055865/)
