@@ -64,6 +64,12 @@ cross_links:
   - target: 02-pathogen/01-viruses/epstein-barr-virus
     relation: infected-by
     note: "Infected by Epstein-Barr Virus."
+  - target: 01-human/07-system/norovirus
+    relation: infected-by
+    note: "Norovirus directly infects B cells via HBGA-like surface carbohydrates (Jones et al. Science 2014); B cell tropism may facilitate systemic dissemination; anti-VP1 IgA and IgG from B cell responses are the primary correlates of protection against norovirus reinfection."
+  - target: 01-human/03-molecular/norovirus-vp1
+    relation: target-of
+    note: "Norovirus VP1 P2 subdomain binds HBGA-like carbohydrates on B cell surfaces → direct B cell infection; anti-VP1 secretory IgA and IgG are the primary correlates of protection; HBGA-blocking anti-VP1 IgA titer is the immunological endpoint of all norovirus vaccines."
 ---
 
 # B Cell
@@ -156,6 +162,8 @@ Memory B cells are long-lived lymphocytes (estimated lifespan years–decades) t
 - **Part of:** [immune-system](../../07-system/immune-system/README.md)
 - **Modulated by:** [t-helper-cell](../t-helper-cell/README.md) — Tfh provides germinal center help essential for class switching and memory
 - **Modulates:** [plasma-cell](../plasma-cell/README.md) — B cell terminal differentiation produces antibody-secreting plasma cells
+- **Infected by:** [Norovirus](../../07-system/norovirus/README.md) — norovirus directly infects B cells via HBGA-like surface carbohydrates (Jones et al. 2014); B cell tropism may enable systemic dissemination; anti-VP1 IgA and IgG from B cell responses are the primary correlates of protection against norovirus reinfection.
+- **Targeted by:** [Norovirus VP1](../../03-molecular/norovirus-vp1/README.md) — VP1 P2 subdomain binds HBGA-like carbohydrates on B cell surfaces; anti-VP1 secretory IgA and IgG are the primary correlates of protection; HBGA-blocking anti-VP1 IgA titer is the immunological endpoint of all norovirus vaccines.
 
 [^nutt-2015-b-cell-fate]: Nutt SL, Hodgkin PD, Tarlinton DM, Corcoran LM. The generation of antibody-secreting plasma cells. *Nat Rev Immunol.* 2015;15(3):160-71. [doi:10.1038/nri3795](https://doi.org/10.1038/nri3795) · [PubMed 25698678](https://pubmed.ncbi.nlm.nih.gov/25698678/)
 [^victora-nussenzweig-2012-gc]: Victora GD, Nussenzweig MC. Germinal centers. *Annu Rev Immunol.* 2012;30:429-57. [doi:10.1146/annurev-immunol-020711-075032](https://doi.org/10.1146/annurev-immunol-020711-075032) · [PubMed 22224772](https://pubmed.ncbi.nlm.nih.gov/22224772/)
