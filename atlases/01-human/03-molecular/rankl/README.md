@@ -31,6 +31,10 @@ sources:
     doi: "10.1056/NEJMoa0809493"
     pmid: "19671655"
     url: "https://doi.org/10.1056/NEJMoa0809493"
+cross_links:
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "In AS, entheseal IL-17A + TNF-α upregulate RANKL on stromal cells → osteoclast-mediated bone erosion at sacroiliac joints and vertebral corners; subsequent WNT-driven syndesmophyte formation leads to ankylosis; denosumab reduces erosion but does not prevent new bone formation."
 ---
 
 # RANKL
@@ -104,6 +108,8 @@ RANKL → RANK on osteoclast precursors → NFATc1 → osteoclast differentiatio
 RANKL is the essential differentiation signal for osteoclasts: RANK → TRAF6 → NF-κB + AP-1 → NFATc1 → c-Fos, cathepsin K, TRAP gene programs → mature osteoclasts; OPG decoy receptor blocks RANKL; denosumab mimics OPG with superior binding affinity and bone protection.
 
 MM cells produce RANKL → osteoclast activation → osteolytic lesions; MM cells express OPG receptors (TRAIL-decoy function → MM survival); Xgeva (denosumab 120 mg Q4W) reduces skeletal-related events in MM patients with bone disease.
+
+In AS, entheseal IL-17A + TNF-α upregulate RANKL on stromal cells → osteoclast-mediated bone erosion at sacroiliac joints and vertebral corners; subsequent WNT-driven syndesmophyte formation leads to ankylosis; denosumab reduces erosion but does not prevent new bone formation.
 
 [^lacey-1998-rankl]: Lacey DL, Timms E, Tan HL, et al. Osteoprotegerin ligand is a cytokine that regulates osteoclast differentiation and activation. *Cell.* 1998;93(2):165-176. [doi:10.1016/S0092-8674(00)81569-X](https://doi.org/10.1016/S0092-8674(00)81569-X) · [PubMed 9568710](https://pubmed.ncbi.nlm.nih.gov/9568710/)
 [^cummings-2009-denosumab-freedom]: Cummings SR, San Martin J, McClung MR, et al. Denosumab for prevention of fractures in postmenopausal women with osteoporosis. *N Engl J Med.* 2009;361(8):756-765. [doi:10.1056/NEJMoa0809493](https://doi.org/10.1056/NEJMoa0809493) · [PubMed 19671655](https://pubmed.ncbi.nlm.nih.gov/19671655/)

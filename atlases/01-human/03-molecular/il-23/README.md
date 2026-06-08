@@ -37,6 +37,10 @@ sources:
     doi: "10.1016/S0140-6736(18)31713-6"
     pmid: "30097359"
     url: "https://doi.org/10.1016/S0140-6736(18)31713-6"
+cross_links:
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "IL-23 (driven by HLA-B27 UPR → IRE1α/XBP1) activates ILC3 and Th17 at entheses → IL-17A → AS enthesitis; paradoxically, IL-23 inhibitors (risankizumab) show modest AS efficacy vs. robust PsA effect — entheseal ILC3 may produce IL-17A independently of IL-23."
 ---
 
 # IL-23
@@ -107,3 +111,5 @@ IL-23 signals via IL-23R/IL-12Rβ1 → JAK1/TYK2 → STAT3 homodimerization and 
 IL-23 and IL-6 cooperate to drive Th17 cells: IL-6 + TGF-β initiates Th17 polarization from naive T cells; IL-23 amplifies and stabilizes the effector Th17 program; both cytokines are elevated in IBD, psoriasis, and RA; IL-6 blockade (tocilizumab) reduces Th17 responses in RA.
 
 IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; anti-IL-23p19 antibodies (risankizumab) suppress IL-17A and achieve superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis.
+
+IL-23 (driven by HLA-B27 UPR → IRE1α/XBP1) activates ILC3 and Th17 at entheses → IL-17A → AS enthesitis; paradoxically, IL-23 inhibitors (risankizumab) show modest AS efficacy vs. robust PsA effect — entheseal ILC3 may produce IL-17A independently of IL-23.

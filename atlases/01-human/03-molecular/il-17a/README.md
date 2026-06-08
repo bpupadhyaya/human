@@ -34,6 +34,10 @@ sources:
     doi: "10.1056/NEJMoa1406095"
     pmid: "25007392"
     url: "https://doi.org/10.1056/NEJMoa1406095"
+cross_links:
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "IL-17A drives enthesitis in AS: ILC3 and Th17 cells at entheses produce IL-17A → RANKL + MMP → bone erosion; WNT-driven new bone formation follows (syndesmophytes); secukinumab (MEASURE-1: ASAS20 61% vs. 29%) and ixekizumab (COAST-V) are FDA-approved for AS."
 ---
 
 # IL-17A
@@ -99,3 +103,5 @@ IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt
 IL-17A is present in RA synovium but secondary to TNF-alpha and IL-6; IL-17A promotes osteoclastogenesis via RANKL induction; IL-17A inhibitors (secukinumab) failed pivotal RA trials; bimekizumab (anti-IL-17A/F) showed marginal RA benefit vs established TNF/IL-6 blockade.
 
 IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barrier via CXCR6 → demyelination; secukinumab (anti-IL-17A) paradoxically worsened MS relapse rates in phase 2 trials — suggesting complex compensatory roles of IL-17A/Treg balance in CNS disease.
+
+IL-17A drives enthesitis in AS: ILC3 and Th17 cells at entheses produce IL-17A → RANKL + MMP → bone erosion; WNT-driven new bone formation follows (syndesmophytes); secukinumab (MEASURE-1: ASAS20 61% vs. 29%) and ixekizumab (COAST-V) are FDA-approved for AS.

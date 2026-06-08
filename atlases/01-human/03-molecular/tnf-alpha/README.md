@@ -70,6 +70,9 @@ cross_links:
     relation: modulated-by
     evidence: aggarwal-2003-tnf-biology
     note: "GR activation transrepresses TNF-α transcription via direct binding to NF-κB p65, displacing coactivators CBP/p300 and recruiting HDAC2; this is the mechanistic basis of glucocorticoid anti-inflammatory action."
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "TNF-α drives entheseal and synovial inflammation in AS; anti-TNF biologics (adalimumab, etanercept, infliximab, certolizumab, golimumab) are first-line biologic therapy; TNF blockade reduces MRI sacroiliitis (ASAS40 ~50-60%) but does not halt new bone formation (syndesmophytes)."
 ---
 
 # TNF-α (Tumor Necrosis Factor-alpha)
@@ -125,3 +128,4 @@ TNF-α is encoded by the *TNF* gene at **6p21.33** within the MHC class III regi
 - **Expressed-by** → [Immune System](../../../01-human/07-system/immune-system/README.md): Macrophages and monocytes of the immune system are the primary source of TNF-α in response to innate receptor activation; dendritic cells, T cells, and NK cells also produce TNF-α.
 - **Modulates** → [Interleukin-6](../../../01-human/03-molecular/il-6/README.md): TNF-α drives IL-6 transcription via NF-κB; the two cytokines act synergistically in driving systemic inflammation, cytokine storm, and the hepatic acute-phase response.
 - **Damages** → [Hepatocyte](../../../01-human/04-cellular/hepatocyte/README.md): At high concentrations (as in septic shock or immune-mediated hepatitis), TNFR1-mediated caspase activation causes hepatocyte apoptosis and contributes to acute liver failure.
+- `connects-to` → **[Ankylosing Spondylitis](../../07-system/ankylosing-spondylitis/README.md)** — TNF-α drives entheseal and synovial inflammation in AS; anti-TNF biologics (adalimumab, etanercept, infliximab, certolizumab, golimumab) are first-line biologic therapy; TNF blockade reduces MRI sacroiliitis (ASAS40 ~50-60%) but does not halt new bone formation (syndesmophytes).
