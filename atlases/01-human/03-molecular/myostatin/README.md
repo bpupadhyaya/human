@@ -18,6 +18,9 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "IGF-1 and myostatin oppose each other: IGF-1 → Akt → mTORC1 → protein synthesis and satellite cell activation; myostatin → SMAD2/3 → MAFbx/MuRF1 → atrophy; Akt phosphorylates SMAD3 → blunts myostatin pro-atrophy signaling; axis governs net muscle mass in sarcopenia and cachexia."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Activin A and myostatin are co-ligands of ActRIIB; bimagrumab (anti-ActRIIB) blocks both → reduces fat mass and increases lean mass; in cancer cachexia activin A drives muscle wasting via SMAD2/3 and MAFbx/MuRF1 — same atrophy pathway as myostatin."
 sources:
   - id: mcpherron-1997-myostatin
     type: peer-reviewed

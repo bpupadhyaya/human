@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/idh2
     relation: connects-to
     note: "IDH1/2 mutations in ~10% of MDS (IDH1 ~5%, IDH2 ~5%); 2-HG → TET2 inhibition → hypermethylation amplifies DNMT3A epigenetic dysfunction; ivosidenib (IDH1) and enasidenib (IDH2) active in IDH-mutant MDS; FDA-approved in AML, under investigation in MDS."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Activin A/B → ActRIIB on erythroid progenitors → SMAD2/3 → suppression of late erythroid maturation → ineffective erythropoiesis in MDS and beta-thalassemia; luspatercept (MEDALIST trial: 38% transfusion independence vs. 13% placebo) traps activin A/B to restore erythropoiesis."
 ---
 
 # Myelodysplastic Syndromes
