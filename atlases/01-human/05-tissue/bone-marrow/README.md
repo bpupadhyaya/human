@@ -81,6 +81,9 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: modulated-by
     note: "CXCL12 from CAR cells (CXCL12-abundant reticular cells) → CXCR4 on HSC → Gαi → PI3K/Akt + actin polymerization → HSC retention in bone marrow niches; plerixafor (AMD3100, CXCR4 antagonist) blocks this → HSC egress into blood → collection for autologous transplant."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "PNH arises from a single PIGA-mutant HSC in bone marrow; immune-mediated destruction of normal HSCs (aplastic anemia context) allows clonal expansion of GPI-deficient clone; 25-40% of aplastic anemia patients have PNH clones; PNH and AA overlap on a continuum."
 ---
 
 # Bone Marrow
@@ -131,3 +134,4 @@ Two functional types of bone marrow exist: **red marrow** (haematopoietically ac
 - **Mobilisation.** G-CSF disrupts CXCR4/CXCL12 and VLA-4/VCAM-1 retention interactions → HSC mobilisation into blood (the basis of HSC harvest for transplantation). AMD3100 (plerixafor) directly antagonises CXCR4 for rapid mobilisation.
 - **Pathological conditions:** Aplastic anaemia (HSC destruction/autoimmune suppression); leukaemia (malignant transformation of progenitors, displacing normal haematopoiesis); multiple myeloma (malignant plasma cells in marrow); myelofibrosis (JAK2/CALR/MPL mutations → fibrosis); bone marrow failure syndromes (Fanconi anaemia, dyskeratosis congenita); metastatic infiltration (marrow invasion by carcinoma → leukoerythroblastic blood picture).
 - **Clinical interventions:** Bone marrow / HSC transplantation (myeloablative conditioning then donor HSC infusion); growth factor support (G-CSF, EPO, THPO-mimetics); CAR-T manufacturing (ex vivo T-cell gene engineering using marrow-derived or mobilised T precursors).
+- `connects-to` → **[PNH](../../07-system/pnh/README.md)** — PNH arises from a single PIGA-mutant HSC in bone marrow; immune-mediated destruction of normal HSCs (aplastic anemia context) allows clonal expansion of GPI-deficient clone; 25-40% of aplastic anemia patients have PNH clones; PNH and AA overlap on a continuum.

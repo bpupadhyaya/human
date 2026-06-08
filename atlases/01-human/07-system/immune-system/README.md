@@ -307,6 +307,9 @@ cross_links:
   - target: 03-medicine/02-traditional/panax-ginseng
     relation: modulated-by
     note: "Modulated by Panax ginseng (Korean Red Ginseng)."
+  - target: 01-human/03-molecular/complement-c5
+    relation: contains
+    note: "C5a (C5aR1/C5aR2) → neutrophil/monocyte chemotaxis + NLRP3 inflammasome priming + Th1/Th17 polarization; C5b-9 MAC → cell lysis; dysregulated terminal complement → autoimmune injury in gMG (NMJ), NMOSD (astrocytes), aHUS (glomerular endothelium)."
 ---
 
 # Immune System
@@ -397,6 +400,7 @@ After primary response contraction, long-lived memory cells persist:
 - **Contains:** [dendritic-cell](../../04-cellular/dendritic-cell/README.md), [t-helper-cell](../../04-cellular/t-helper-cell/README.md), [b-cell](../../04-cellular/b-cell/README.md), [plasma-cell](../../04-cellular/plasma-cell/README.md), [immunoglobulin-g](../../03-molecular/immunoglobulin-g/README.md)
 - **Damaged by:** [sars-cov-2](../../../../02-pathogen/01-viruses/sars-cov-2/README.md), [influenza-a](../../../../02-pathogen/01-viruses/influenza-a/README.md), [mycobacterium-tuberculosis](../../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)
 - **Treated by:** [aspirin](../../../../03-medicine/01-modern/04-cardio/aspirin/README.md) (immunomodulatory via COX inhibition → reduced PGE2)
+- `contains` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — C5a (C5aR1/C5aR2) → neutrophil/monocyte chemotaxis + NLRP3 inflammasome priming + Th1/Th17 polarization; C5b-9 MAC → cell lysis; dysregulated terminal complement → autoimmune injury in gMG (NMJ), NMOSD (astrocytes), aHUS (glomerular endothelium).
 
 ## Pathology
 
