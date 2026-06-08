@@ -66,6 +66,12 @@ cross_links:
   - target: 01-human/07-system/rsv
     relation: connects-to
     note: "RSV NS1 degrades TRIM25 → blocks RIG-I K63-ubiquitination → impairs RIG-I/MAVS → reduced IFN-β; NS2 blocks STAT2 nuclear translocation → ISG suppression; NS1+NS2 together reduce MAVS-driven IFN-β ~10-fold; IFN-λ at mucosal surfaces is the dominant innate antiviral defense."
+  - target: 01-human/07-system/measles
+    relation: connects-to
+    note: "MV negative-sense ssRNA replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; MV V protein sequesters MDA5 and LGP2 → blocks MAVS activation; P protein blocks IRF3 phosphorylation; attenuated vaccine strains (Edmonston) with impaired V/P activate MAVS → faster clearance."
+  - target: 01-human/03-molecular/mv-h-protein
+    relation: connects-to
+    note: "MV-H binding to SLAM/CD150 on dendritic cells → DC infection → impaired IL-12/IFN-α; MV replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; MV V protein sequesters MDA5 → blocks MAVS; H-driven DC tropism impairs early innate immune activation and T cell priming."
 ---
 
 # MAVS
@@ -167,3 +173,7 @@ Primary sensor for long dsRNA (>1 kb):
 **→ [RSV F Protein](../rsv-f-protein/)**: RSV F protein activates TLR4 → MyD88/NF-κB independently of RIG-I/MAVS; RSV replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; NS1 degrades TRIM25 → blocks MAVS activation; NS2 blocks STAT2/ISGs; F protein TLR4 signaling bypasses MAVS to drive the neutrophilic component of RSV bronchiolitis.
 
 **→ [RSV](../../../07-system/rsv/)**: RSV NS1 degrades TRIM25 → blocks RIG-I K63-ubiquitination → impairs RIG-I/MAVS → reduced IFN-β; NS2 blocks STAT2 nuclear translocation → ISG suppression; NS1+NS2 together reduce MAVS-driven IFN-β ~10-fold; IFN-λ at mucosal surfaces is the dominant innate antiviral defense against RSV.
+
+**→ [Measles](../../../07-system/measles/)**: MV negative-sense ssRNA replication generates 5′ppp RNA → RIG-I → MAVS → TBK1/IRF3 → IFN-β; MV V protein sequesters MDA5 and LGP2 → blocks MAVS activation; P protein blocks IRF3 phosphorylation; attenuated vaccine strains (Edmonston) with impaired V/P IFN evasion activate MAVS more robustly → stronger innate antiviral response.
+
+**→ [MV-H Protein](../mv-h-protein/)**: MV-H binding to SLAM/CD150 on dendritic cells → DC infection → impaired IL-12 and IFN-α production; MV replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; MV V protein sequesters MDA5 → blocks MAVS activation; H-driven DC tropism impairs the early innate immune activation required for robust T cell priming and viral clearance.

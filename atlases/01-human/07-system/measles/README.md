@@ -1,0 +1,197 @@
+---
+schema: human-scale-entry/v1
+id: measles
+name: Measles
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-08
+summary: "Measles virus (MV; Morbillivirus; negative-sense ssRNA) caused ~128,000 deaths in 2021; SLAM/CD150 tropism enables immune amnesia (memory B/T cell depletion lasting 2-3 years); Koplik's spots and Warthin-Finkeldey giant cells are pathognomonic; MMR vaccine provides >97% efficacy."
+aliases: ["measles", "rubeola", "measles virus", "MV", "Morbillivirus", "measles immune amnesia", "SSPE", "Warthin-Finkeldey", "Koplik's spots", "MMR vaccine", "measles encephalitis", "measles pneumonia", "measles bronchopneumonia", "immune amnesia virus"]
+sources:
+  - id: panum-1847-faroe-measles
+    type: peer-reviewed
+    cite: "Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. Med Classics. 1939;3:829-886."
+    url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2536613/"
+    accessed: "2026-06-08"
+  - id: mina-2019-immune-amnesia
+    type: peer-reviewed
+    cite: "Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. Science. 2019;366(6465):599-606."
+    doi: "10.1126/science.aay6485"
+    pmid: "31672891"
+    url: "https://doi.org/10.1126/science.aay6485"
+    accessed: "2026-06-08"
+  - id: strebel-2019-measles-lancet
+    type: peer-reviewed
+    cite: "Strebel PM, Orenstein WA. Measles. N Engl J Med. 2019;381(4):349-357."
+    doi: "10.1056/NEJMcp1905181"
+    pmid: "31340710"
+    url: "https://doi.org/10.1056/NEJMcp1905181"
+    accessed: "2026-06-08"
+cross_links:
+  - target: 01-human/03-molecular/mv-h-protein
+    relation: connects-to
+    note: "MV-H (hemagglutinin) binds SLAM/CD150 on immune cells and nectin-4 on airway epithelium; H-F fusion complex drives syncytia (Warthin-Finkeldey cells); SLAM tropism enables immune amnesia by depleting memory B and T cells."
+  - target: 01-human/03-molecular/mavs
+    relation: connects-to
+    note: "MV negative-sense ssRNA replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; MV V protein sequesters MDA5 and LGP2 → blocks MAVS activation; P protein blocks IRF3 phosphorylation; attenuated vaccine strains (Edmonston) with impaired V/P activate MAVS → faster clearance."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "MV V protein binds STAT1/STAT2 → blocks JAK-STAT signaling → ISG suppression; MV C protein blocks IFN-β induction; MV P/V proteins sequester MDA5/LGP2 → prevent MAVS-IRF3-IFN-β; wild-type MV IFN evasion is more complete than attenuated strains — key pathogenicity distinction."
+---
+
+# Measles
+
+## Overview
+
+**Measles** (caused by measles virus, MV; family *Paramyxoviridae*, genus *Morbillivirus*) is a **highly contagious acute viral infection** — with a basic reproduction number (R₀) of 12-18, measles is the most transmissible human pathogen. Despite the existence of a safe, inexpensive, and >97%-efficacious vaccine (MMR), measles remains a significant cause of global child mortality: WHO estimates ~128,000 measles deaths in 2021, down from ~2.6 million annually in the pre-vaccine era but reflecting dangerous resurgences linked to vaccine hesitancy and supply disruptions.
+
+The legendary epidemiological observation by **Peter Ludwig Panum in 1846** — who investigated a measles outbreak on the Faroe Islands and documented that elderly islanders who had been infected 65 years earlier were completely protected from reinfection — established that measles confers **lifelong immunity** after natural infection. This immunity requires adequate MV-specific memory B cells and neutralizing antibodies against MV-H and MV-F. The paradox of measles immunology is that while it induces strong long-lived immunity against MV itself, it simultaneously **destroys pre-existing immunological memory** to other pathogens — the phenomenon of **immune amnesia** [^mina-2019-immune-amnesia], now understood as a consequence of SLAM/CD150-expressing memory B and T cell infection and depletion.
+
+**Public health crisis:** Multiple high-income countries lost measles-eliminated status in 2017-2019 due to vaccine hesitancy outbreaks (United States, Europe). The 2019 DRC outbreak exceeded 300,000 cases. COVID-19 pandemic disruptions caused global routine immunization to fall to 2008 levels by 2021, setting the stage for large resurgences.
+
+## Structure
+
+### MV genome and proteins
+
+Measles virus has a ~16 kb negative-sense ssRNA genome (one of the largest among Paramyxoviridae) encoding **8 proteins** from 6 genes:
+
+| Gene | Proteins | Function |
+|------|----------|----------|
+| **N (nucleoprotein)** | N | Encapsidates RNA → nucleocapsid (helical symmetry); serology target (anti-N IgM, anti-N IgG) |
+| **P** | P, V, C | P: L-polymerase cofactor; **V**: IFN antagonist (cysteine-rich C-terminus; binds MDA5, LGP2, STAT1/2, IRF9); **C**: Short ORF; IFN-β antagonist; required for pathogenicity |
+| **M (matrix protein)** | M | Virion assembly; bridges nucleocapsid and glycoproteins |
+| **F (fusion protein)** | F | Class I viral fusogen; F0 cleaved by cathepsin/furin → F1+F2; drives cell-cell fusion → syncytia |
+| **H (hemagglutinin)** | H | Receptor binding; binds SLAM/CD150 (immune cells), nectin-4 (epithelium); drives H-F fusion complex; target of neutralizing antibodies |
+| **L (large protein)** | L | RNA-dependent RNA polymerase (RdRp); 5′-mRNA capping, N7-methylation |
+
+Two proteins encoded by RNA editing (P gene): **V** (V-domain from P-gene RNA edited with one G insertion; V is the primary IFN antagonist) and **C** (alternative ORF from P gene).
+
+### MV surface glycoproteins and receptor tropism
+
+**Receptor switching — three phases of infection:**
+1. **Lymph nodes / lymphoid organs** → H binds **SLAM/CD150** (signaling lymphocytic activation molecule; CD150) on **T cells, B cells, dendritic cells, macrophages** → systemic dissemination + immune suppression
+2. **Lung** → H binds **SLAM/CD150** on alveolar macrophages and DC → RSV-like bronchiolitis
+3. **Airway epithelium (shedding)** → H binds **nectin-4** (PVRL4; an adherens junction protein) on polarized bronchial epithelium → amplification and respiratory transmission
+4. *(Historical)* **Neurons (SSPE)** → H-independent entry via unknown receptor + MV genome accumulation
+
+**Atypical measles:** Historical vaccine VED (killed measles vaccine, 1960s) → non-neutralizing H antibodies + Th2 skew → on wild-type MV exposure → eosinophilic pneumonitis; abandoned in 1967.
+
+## Function
+
+### Immune amnesia — the most important measles biology
+
+The **immune amnesia** phenomenon was mechanistically demonstrated by Mina et al. (2019) [^mina-2019-immune-amnesia] using the VirScan platform:
+1. MV-H binds SLAM/CD150 on **memory B cells** (the cells with highest CD150 expression) → infects and depletes them preferentially
+2. Loss of memory B cells → loss of 11-73% of pre-existing antibody diversity (depends on MV exposure duration)
+3. Surviving naive B cells cannot compensate because they lack the antigen-specific memory necessary to reconstitute protection against previously cleared pathogens
+4. **Clinical consequence**: Children recovering from measles are susceptible to previously controlled infections for **2-3 years** — this re-susceptibility to other pathogens explains why measles indirectly accounts for far more child deaths than direct measles mortality
+
+**VirScan serology:** Comparing pre- and post-measles antibody repertoires showed measles erases 20-70% of antibody diversity (median ~40% loss) — the antigen-specific antibodies lost were those the child had accumulated through years of infection and vaccination.
+
+**SLAM/CD150 expression on memory B cells** is the key determinant: Memory B cells express ~3-10× more SLAM than naive B cells → measles specifically targets the cells encoding immunological history.
+
+### IFN evasion — the MV V/P/C system
+
+MV has evolved one of the most sophisticated IFN evasion systems among RNA viruses:
+
+**V protein:**
+- N-terminal CARD-like domain (shared with P): Required for polymerase activity
+- C-terminal cysteine-rich V-domain (unique to V): Multifunctional IFN antagonist
+  - Binds **MDA5** and **LGP2** → sequesters RNA sensors → prevents MAVS activation
+  - Binds **STAT1 and STAT2** → prevents JAK-STAT phosphorylation → ISG suppression
+  - Binds **IRF9** → blocks ISGF3 assembly
+  - Binds **IKKα** → blocks NF-κB-driven IFN-β induction in some contexts
+
+**P protein:**
+- Larger protein sharing N-terminus with V
+- Sequesters **IRF3** → blocks TBK1-mediated IRF3 phosphorylation → prevents IFN-β transcription
+- Coordinates with V for full IFN suppression
+
+**C protein:**
+- Short protein from alternative ORF of P gene
+- Inhibits IFN-β induction independently; acts at MAVS level
+- Required for efficient viral replication in vivo; C-deleted MV is attenuated
+
+**Attenuated vaccine strains (Edmonston, Schwarz):** Multiple passages in non-immune cells selected for mutations in V and P that reduce IFN evasion efficiency → attenuated strains activate stronger innate IFN responses → faster clearance by immune cells → vaccine attenuation.
+
+### Immunosuppression mechanisms
+
+Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppression through:
+1. **IL-12 suppression**: MV-infected DCs produce less IL-12 → impaired Th1 responses → susceptibility to TB reactivation post-measles
+2. **IL-10 upregulation**: MV-infected DCs → high IL-10 → anti-inflammatory; secondary immunosuppression
+3. **FasL upregulation**: MV-infected cells express FasL → Fas-FasL killing of CD4+ T cells → lymphopenia
+4. **mTOR-mediated anergy**: MV → mTOR inhibition in T cells → transcriptional anergy
+5. **Lymphopenia**: Absolute lymphocyte count falls 40-60% during acute measles (B and T cells both lost)
+
+## Pathology
+
+### Clinical course and manifestations
+
+**Incubation:** 8-12 days (range 7-21 days) from exposure to prodrome
+**Prodrome (3-4 days):** Classic **3 C's**: Cough, Coryza (runny nose), Conjunctivitis (photophobia); high fever (>40°C); **Koplik's spots** (pathognomonic): transient white salt-grain-sized spots on buccal mucosa opposite molars; appear 1-2 days before rash
+**Exanthem:** **Morbilliform (maculopapular) rash** begins behind ears → spreads centrifugally to trunk/extremities (3 days); rash is caused by MV-specific CD4+ T cell attack on MV-infected dermal capillary endothelium (not direct viral cytopathology)
+**Infectivity:** Begins 4 days before rash; highest during prodrome; resolves 4 days after rash onset
+
+**Warthin-Finkeldey giant cells:** Pathognomonic multinucleated syncytia formed by H-F fusion of infected lymphoid cells; visible in lymph nodes, tonsils, appendix, and lung on histology; created by MV F protein on infected cell surfaces fusing with SLAM+ neighbor cells.
+
+### Complications
+
+| Complication | Incidence | Mechanism | Risk factors |
+|---|---|---|---|
+| **Otitis media** | 7-9% | Secondary bacterial (Streptococcus, H. influenzae) | Age <5 years |
+| **Pneumonia (primary)** | ~1-6% | MV-induced interstitial pneumonitis (giant cell pneumonia); Warthin-Finkeldey cells in alveoli | Immunocompromised, malnourished |
+| **Secondary pneumonia** | ~5% | Bacterial superinfection (pneumococcus, Staph) | Any age |
+| **Diarrhea** | ~8% | MV intestinal epithelial infection → mucosal damage | Developing countries; contributes to measles mortality |
+| **Croup** | ~1-2% | MV-induced laryngotracheitis | Young children |
+| **Acute measles encephalitis (AME)** | 1/1000 | MV-specific T cell-mediated autoimmune attack on CNS (not direct MV invasion) | Any age; high mortality/morbidity |
+| **ADEM (acute disseminated encephalomyelitis)** | ~1/1000 | Autoimmune demyelination post-measles; similar to AME | Any age |
+| **SSPE (subacute sclerosing panencephalitis)** | ~1-2/10,000; higher in <2 year infection | Persistent MV CNS infection with hypermutated genome; decades-later fatal encephalitis | First infection <2 years old |
+| **Measles inclusion body encephalitis (MIBE)** | Rare; immunocompromised | Acute MV CNS replication without immune control | Immunosuppressed |
+| **Vitamin A deficiency → blindness** | ~20,000/year globally | MV → conjunctivitis + vitamin A deficiency → corneal ulceration → blindness | Developing countries |
+
+**SSPE (Subacute Sclerosing Panencephalitis):**
+- Fatal progressive neurodegenerative disease occurring 5-15 years after acute measles (range 1-27 years)
+- Caused by **persistent MV infection in neurons** with defective, hypermutated viral genome (accumulation of biased hypermutation in M, F, and H genes → non-cytopathic variant cannot complete replication cycle but persists in neurons)
+- **MV M gene mutations** → loss of matrix protein assembly → virus cannot bud → neuronal spread only
+- **MV H gene mutations** (especially in cytoplasmic tail) → altered antigenicity; allows escape from immune clearance in CNS
+- **MV F gene biased hypermutation** (A-to-I/G RNA editing) → hyperfusogenic F → enhanced cell-cell spread → syncytium-mediated neuronal loss
+- Clinical stages: Stage I (behavioral change, memory loss; EEG normal) → Stage II (myoclonic seizures, deteriorating cognition; EEG: Rademecker complexes) → Stage III (decorticate rigidity, coma) → Stage IV (death); total duration 1-3 years
+- **Prevention**: MMR vaccine essentially eliminates SSPE risk; avoiding measles infection in infancy is the only prevention; no effective treatment
+
+### Diagnosis
+
+- **Clinical**: Rash + 3 C's + Koplik's spots during endemic period; straightforward
+- **Serology**: MV IgM (positive 1-2 days after rash onset; peaks day 5-14; wanes by 30-60 days); MV IgG seroconversion
+- **RT-PCR**: Throat/nasopharyngeal swab, urine, blood; gold standard for confirmation and genotyping; 10 WHO genotypes (A-D, F-H, N-D)
+- **Virus culture**: BSL-2; not routine clinical use
+- **Notifiable disease**: Mandated reporting in all WHO member states
+
+### Treatment and prevention
+
+**No approved antiviral therapy for measles.** Management is supportive:
+- **Vitamin A supplementation**: WHO recommends for all children with measles in developing countries (reduces mortality 50%); mechanism: vitamin A → retinoic acid → epithelial integrity + IFN-γ production + ILC3 function; reduces pneumonia severity and measles-induced vitamin A deficiency
+- Fever management; hydration; antibiotics for bacterial superinfections
+- Ribavirin has in vitro activity but no established clinical benefit
+
+**Prevention — MMR vaccine:**
+- Live attenuated **Edmonston lineage** strains (USA: Moraten; Europe: Schwarz, Enders) for measles; combined with attenuated rubella (Wistar RA 27/3) and mumps (Jeryl Lynn or Urabe)
+- **Primary schedule**: Dose 1 at 12-15 months; Dose 2 at 4-6 years; seroconversion rate >97% after two doses
+- **Coverage threshold for elimination**: >95% two-dose coverage required in all age cohorts (R₀ ~12-18 requires >91-94% herd immunity)
+- **MMRV** (measles-mumps-rubella-varicella): quadrivalent; approved; slightly higher febrile seizure risk in 12-23 month age group vs. MMR + separate varicella (∼1 extra febrile seizure per 2,300-2,600 doses MMRV vs. separate vaccines)
+- **Maternal measles antibody waning**: Passively transferred maternal MV-IgG wanes by 4-6 months in exclusively formula-fed infants, 9-12 months in breastfed infants → window of susceptibility before MMR at 12 months
+
+## Connections
+
+**→ [MV-H Protein](../../../03-molecular/mv-h-protein/)**: MV-H (hemagglutinin) binds SLAM/CD150 on immune cells for systemic spread and nectin-4 on airway epithelium for respiratory shedding; H-F fusion complex drives syncytia formation (Warthin-Finkeldey giant cells); SLAM tropism is the mechanistic basis of measles-induced immune amnesia by targeting memory B and T cells.
+
+**→ [MAVS](../../../03-molecular/mavs/)**: MV negative-sense RNA replication generates 5′ppp RNA intermediates → RIG-I → MAVS → TBK1/IRF3 → IFN-β; MV V protein sequesters MDA5 and LGP2 → prevents MAVS activation; MV P protein blocks IRF3 phosphorylation; attenuated vaccine strains with impaired V/P activate MAVS more robustly → faster innate response.
+
+**→ [Type I Interferon](../../../03-molecular/type-i-interferon/)**: MV V protein binds STAT1/STAT2 → blocks JAK-STAT signaling → ISG suppression; MV C protein blocks IFN-β induction; V-domain mutations in attenuated Edmonston/Schwarz strains reduce STAT1 binding affinity → stronger type I IFN response in vaccinated individuals vs. WT MV infection → basis of vaccine attenuation.
+
+[^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
+[^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
+[^strebel-2019-measles-lancet]: Strebel PM, Orenstein WA. Measles. *N Engl J Med.* 2019;381(4):349-357. [doi:10.1056/NEJMcp1905181](https://doi.org/10.1056/NEJMcp1905181) · [PubMed 31340710](https://pubmed.ncbi.nlm.nih.gov/31340710/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -76,6 +76,9 @@ cross_links:
   - target: 01-human/03-molecular/rsv-f-protein
     relation: connects-to
     note: "RSV F protein (prefusion, proline-stabilized) exposes site Ø → high-titer neutralizing antibodies; all approved RSV vaccines (Abrysvo, Arexvy, mResvia) and nirsevimab target site Ø; RSV NS1/NS2 block type I IFN but not IFN-λ; F TLR4 signaling amplifies innate inflammation."
+  - target: 01-human/07-system/measles
+    relation: connects-to
+    note: "MV V protein binds STAT1/STAT2 → blocks JAK-STAT phosphorylation → ISG suppression; MV C protein blocks IFN-β induction; P/V proteins sequester MDA5/LGP2 → prevent MAVS-IRF3-IFN-β; attenuated vaccine strains (Edmonston/Schwarz) have impaired V IFN evasion → stronger ISGs."
 ---
 
 # Type I Interferon
@@ -200,6 +203,7 @@ Monogenic diseases of uncontrolled type I IFN production:
 - `connects-to` → **[Hepatitis C](../../07-system/hepatitis-c/README.md)** — HCV evades type I IFN: NS3/4A cleaves MAVS → no IFN-β; NS5A blocks PKR; high baseline ISG expression from low-grade IFN predicts pegIFN-α failure; IL28B TT genotype (high ISGs) = pegIFN non-response; DAAs bypass IFN-dependent mechanisms and achieve >95% cure.
 - `connects-to` → **[RSV](../../07-system/rsv/README.md)** — RSV NS1/NS2 cooperatively block type I IFN: NS1 targets TRIM25/IRF3, NS2 blocks STAT2 nuclear translocation → ISGs suppressed; immature IFN signaling in premature infants → more severe RSV bronchiolitis; IFN-λ (type III) at mucosal surfaces is the dominant innate RSV defense.
 - `connects-to` → **[RSV F Protein](../rsv-f-protein/README.md)** — RSV F protein (prefusion, proline-stabilized) exposes site Ø → high-titer neutralizing antibodies; all approved RSV vaccines (Abrysvo, Arexvy, mResvia) and nirsevimab target site Ø; RSV NS1/NS2 block type I IFN but not IFN-λ; F TLR4 signaling amplifies innate inflammation.
+- `connects-to` → **[Measles](../../07-system/measles/README.md)** — MV V protein binds STAT1/STAT2 → blocks JAK-STAT phosphorylation → ISG suppression; MV C protein blocks IFN-β induction; P/V proteins sequester MDA5/LGP2 → prevent MAVS-IRF3-IFN-β axis; attenuated vaccine strains (Edmonston/Schwarz) have impaired V IFN evasion → stronger type I IFN ISG induction.
 
 [^ivashkiv-2018-type-i-ifn-review]: Ivashkiv LB, Donlin LT. Regulation of type I interferon responses. *Nat Rev Immunol.* 2014;14(1):36-49. [doi:10.1038/nri3581](https://doi.org/10.1038/nri3581) · [PubMed 24362405](https://pubmed.ncbi.nlm.nih.gov/24362405/)
 [^morand-2020-anifrolumab-tulip2]: Morand EF, Furie R, Tanaka Y, et al. Trial of Anifrolumab in Active Systemic Lupus Erythematosus. *N Engl J Med.* 2020;382(3):211-221. [doi:10.1056/NEJMoa1912196](https://doi.org/10.1056/NEJMoa1912196) · [PubMed 31851795](https://pubmed.ncbi.nlm.nih.gov/31851795/)
