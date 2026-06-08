@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/pth
     relation: connects-to
     note: "Continuous PTH → RANKL → osteoclast activation and bone resorption; intermittent PTH 1-34 (teriparatide, SC daily) preferentially activates Wnt signaling in osteoblasts → net anabolic effect; FPT trial: 65% RRR for vertebral fractures; PTH 1-84 treats hypoparathyroidism."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Calcitonin → CTR → cAMP → osteoclast cytoskeletal collapse → reduced bone resorption; intranasal salmon calcitonin (200 IU/day) reduces vertebral fractures 36% (PROOF trial) but is less effective than bisphosphonates; reserved for acute pain of recent vertebral fracture."
 ---
 
 # Osteoporosis
@@ -163,6 +166,7 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Osteoclasts are the primary drivers of bone loss: RANKL → RANK on osteoclast precursors → differentiation and lacunar resorption → BMD loss; denosumab (anti-RANKL) neutralizes RANKL → osteoclast suppression → fracture risk reduction 40-60%.
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — FGF23 inhibits 1α-hydroxylase → reduces calcitriol → decreases intestinal calcium absorption → bone demineralization; genetic FGF23 excess (XLH, ARHR) causes hypophosphatemic rickets; burosumab (anti-FGF23 mAb) corrects hypophosphatemia and heals rickets in XLH.
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Continuous PTH → RANKL → osteoclast activation and bone resorption; intermittent PTH 1-34 (teriparatide, SC daily) preferentially activates Wnt signaling in osteoblasts → net anabolic effect; FPT trial: 65% RRR for vertebral fractures; PTH 1-84 treats hypoparathyroidism.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — calcitonin inhibits osteoclast activity → CTR → cAMP → cytoskeletal collapse and loss of ruffled border → reduced bone resorption; intranasal salmon calcitonin (200 IU/day) reduces vertebral fractures 36% (PROOF trial) but is less effective than bisphosphonates; now reserved for acute pain of recent vertebral fracture.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
