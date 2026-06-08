@@ -310,6 +310,12 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: contains
     note: "C5a (C5aR1/C5aR2) → neutrophil/monocyte chemotaxis + NLRP3 inflammasome priming + Th1/Th17 polarization; C5b-9 MAC → cell lysis; dysregulated terminal complement → autoimmune injury in gMG (NMJ), NMOSD (astrocytes), aHUS (glomerular endothelium)."
+  - target: 01-human/03-molecular/il-12
+    relation: contains
+    note: "IL-12 (p35+p40 heterodimer) is the principal Th1-polarizing cytokine: DC → IL-12 → NK/T STAT4 → T-bet → IFN-γ; IL12B/IL12RB1 loss → MSMD (recurrent BCG, NTM, Salmonella); ustekinumab blocks IL-12 and IL-23 (shared p40 subunit) → TB screening required."
+  - target: 01-human/07-system/tuberculosis
+    relation: damaged-by
+    note: "MTB is the paradigmatic intracellular pathogen evading innate immunity; granuloma (Th1/CD4+ T cells + macrophages) is the defining immune structure in TB; AIDS-related CD4+ depletion → TB reactivation; anti-TNF and anti-IL-12 therapy → highest TB reactivation risk."
 ---
 
 # Immune System
@@ -401,6 +407,8 @@ After primary response contraction, long-lived memory cells persist:
 - **Damaged by:** [sars-cov-2](../../../../02-pathogen/01-viruses/sars-cov-2/README.md), [influenza-a](../../../../02-pathogen/01-viruses/influenza-a/README.md), [mycobacterium-tuberculosis](../../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)
 - **Treated by:** [aspirin](../../../../03-medicine/01-modern/04-cardio/aspirin/README.md) (immunomodulatory via COX inhibition → reduced PGE2)
 - `contains` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — C5a (C5aR1/C5aR2) → neutrophil/monocyte chemotaxis + NLRP3 inflammasome priming + Th1/Th17 polarization; C5b-9 MAC → cell lysis; dysregulated terminal complement → autoimmune injury in gMG (NMJ), NMOSD (astrocytes), aHUS (glomerular endothelium).
+- `contains` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 (p35+p40 heterodimer) is the master Th1-polarizing cytokine produced by dendritic cells and macrophages; drives IFN-γ from NK cells and T cells via JAK2/TYK2/STAT4/T-bet; IL12B/IL12RB1 loss → MSMD with recurrent BCG/NTM disease; ustekinumab (anti-p40) blocks both IL-12 and IL-23, carrying TB reactivation risk comparable to anti-TNF agents.
+- `damaged-by` → **[Tuberculosis](../tuberculosis/README.md)** — MTB is the archetypal intracellular pathogen: evades innate immunity via phagosome arrest, ESAT-6 cytosolic escape, MHC-II inhibition, and Treg induction; granuloma formation requires an intact Th1/IL-12/IFN-γ/TNF-α axis; CD4⁺ T cell depletion (HIV/AIDS) → TB reactivation is the defining CD4-dependent opportunistic infection.
 
 ## Pathology
 

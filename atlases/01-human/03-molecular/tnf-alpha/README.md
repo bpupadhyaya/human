@@ -76,6 +76,9 @@ cross_links:
   - target: 01-human/07-system/psoriatic-arthritis
     relation: connects-to
     note: "TNF-α drives PsA synovitis, enthesitis, and structural damage; adalimumab, certolizumab (RAPID-PsA: ACR20 58% vs 24%; FDA 2013), etanercept, golimumab, and infliximab are approved; TNF and IL-36 co-activation amplifies synovial inflammation in PsA."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "TNF-α is essential for granuloma formation and maintenance in TB; anti-TNF therapy (infliximab, adalimumab) → 4-25× increased TB reactivation risk; anti-TNF antibodies carry higher TB risk than etanercept; IGRA/TST screening mandatory before anti-TNF initiation."
 ---
 
 # TNF-α (Tumor Necrosis Factor-alpha)
@@ -133,3 +136,4 @@ TNF-α is encoded by the *TNF* gene at **6p21.33** within the MHC class III regi
 - **Damages** → [Hepatocyte](../../../01-human/04-cellular/hepatocyte/README.md): At high concentrations (as in septic shock or immune-mediated hepatitis), TNFR1-mediated caspase activation causes hepatocyte apoptosis and contributes to acute liver failure.
 - `connects-to` → **[Ankylosing Spondylitis](../../07-system/ankylosing-spondylitis/README.md)** — TNF-α drives entheseal and synovial inflammation in AS; anti-TNF biologics (adalimumab, etanercept, infliximab, certolizumab, golimumab) are first-line biologic therapy; TNF blockade reduces MRI sacroiliitis (ASAS40 ~50-60%) but does not halt new bone formation (syndesmophytes).
 - `connects-to` → **[Psoriatic Arthritis](../../07-system/psoriatic-arthritis/README.md)** — TNF-α drives PsA synovitis, enthesitis, and structural damage; adalimumab, certolizumab (RAPID-PsA: ACR20 58% vs 24%; FDA 2013), etanercept, golimumab, and infliximab are approved; TNF and IL-36 co-activation amplifies synovial inflammation in PsA.
+- `connects-to` → **[Tuberculosis](../../07-system/tuberculosis/README.md)** — TNF-α is essential for granuloma formation, macrophage activation, and MTB containment; anti-TNF therapy (infliximab, adalimumab) → 4–25× increased TB reactivation risk; antibody-based anti-TNF agents carry higher TB risk than etanercept (receptor fusion protein); mandatory IGRA/TST screening + LTBI prophylaxis before initiating anti-TNF biologic therapy.
