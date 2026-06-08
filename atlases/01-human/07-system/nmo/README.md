@@ -1,0 +1,215 @@
+---
+schema: human-scale-entry/v1
+id: nmo
+name: NMOSD
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "NMOSD: AQP4-IgG+ (85%) or MOG-IgG+ attacks on optic nerves, spinal cord, and brainstem (area postrema); relapsing; high morbidity. Eculizumab (PREVENT; FDA Jun 2019), inebilizumab (N-MOmentum; FDA Jun 2020), satralizumab (SAkuraStar; FDA Aug 2020) approved."
+aliases: ["NMOSD", "neuromyelitis optica spectrum disorder", "NMO", "Devic's disease", "neuromyelitis optica", "AQP4-IgG neuropathy", "anti-AQP4 disease", "MOG-IgG disease"]
+sources:
+  - id: wingerchuk-2015-nmosd-criteria
+    type: peer-reviewed
+    cite: "Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. Neurology. 2015;85(2):177-189."
+    doi: "10.1212/WNL.0000000000001729"
+    pmid: "26092914"
+    url: "https://doi.org/10.1212/WNL.0000000000001729"
+  - id: pittock-2019-eculizumab-prevent
+    type: peer-reviewed
+    cite: "Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. N Engl J Med. 2019;381(7):614-625."
+    doi: "10.1056/NEJMoa1900866"
+    pmid: "31050279"
+    url: "https://doi.org/10.1056/NEJMoa1900866"
+  - id: cree-2019-inebilizumab-nmomentum
+    type: peer-reviewed
+    cite: "Cree BAC, Bennett JL, Kim HJ, et al. Inebilizumab for the treatment of neuromyelitis optica spectrum disorder (N-MOmentum). Lancet. 2019;394(10206):1352-1363."
+    doi: "10.1016/S0140-6736(19)31817-3"
+    pmid: "31495497"
+    url: "https://doi.org/10.1016/S0140-6736(19)31817-3"
+  - id: yamamura-2020-satralizumab-sakurastar
+    type: peer-reviewed
+    cite: "Yamamura T, Kleiter I, Fujihara K, et al. Trial of Satralizumab in Neuromyelitis Optica Spectrum Disorder. N Engl J Med. 2019;381(22):2114-2124."
+    doi: "10.1056/NEJMoa1901747"
+    pmid: "31774951"
+    url: "https://doi.org/10.1056/NEJMoa1901747"
+cross_links:
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "AQP4-IgG binds AQP4 on astrocyte endfeet → classical complement → MAC (C5b-9) → astrocyte lysis → secondary demyelination; pathognomonic in ~85% of NMOSD; ELISA and cell-based assays detect AQP4-IgG; titer correlates with disease activity."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Eculizumab (anti-C5; PREVENT: ARR 0.02 vs 0.35; FDA Jun 2019) and ravulizumab (CHAMPION-NMOSD; FDA Jun 2023) block C5 → prevent MAC formation on astrocytes → halt AQP4-IgG-driven attacks; effective only in AQP4-IgG+ NMOSD, not MOG-IgG+."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Satralizumab (anti-IL-6R; FDA Aug 2020) reduced ARR ~55% vs placebo (SAkuraStar monotherapy); IL-6 promotes plasmablast expansion → AQP4-IgG production; IL-6 also amplifies Th17 responses; tocilizumab (anti-IL-6R) is used off-label."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "Rituximab (anti-CD20) depletes B cells → reduces AQP4-IgG; widely used off-label as first-line NMOSD prevention (~70-80% ARR reduction); inebilizumab (anti-CD19; N-MOmentum: 88% vs 63% attack-free; FDA Jun 2020) also approved for NMOSD."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "IFN-β is CONTRAINDICATED in AQP4-IgG+ NMOSD — clinical trials showed IFN-β increases attack frequency; IFN-β may promote plasmablast differentiation → higher AQP4-IgG; this differentiates NMOSD from MS (where IFN-β is first-line)."
+---
+
+# NMOSD
+
+## Overview
+
+**Neuromyelitis optica spectrum disorder (NMOSD)** is a rare, relapsing inflammatory CNS disease characterized by attacks on the **optic nerves** (optic neuritis), **spinal cord** (transverse myelitis), and **brainstem** (area postrema syndrome — intractable hiccups, nausea, vomiting) [^wingerchuk-2015-nmosd-criteria]. It was historically confused with multiple sclerosis (MS) until the discovery of **AQP4-IgG (anti-aquaporin-4 antibody)** in 2004, which established NMOSD as a distinct disease — an **astrocytopathy** rather than a primary demyelinating disease.
+
+**Epidemiology:**
+- Prevalence: ~1–4 per 100,000 globally; higher in non-White populations (African, Asian descent)
+- Sex ratio: F:M ~9:1 (even more female-predominant than MS)
+- Mean age of onset: 30–45 years; can occur in children and the elderly
+- Course: Relapsing in >95% (monophasic in a minority); each attack may cause permanent disability
+
+**Biomarker subgroups:**
+- **AQP4-IgG+:** ~75–85% of NMOSD; most severe; responds well to complement and IL-6R inhibitors
+- **MOG-IgG+:** ~10–15%; overlapping phenotype but distinct immunopathology (primary demyelination, not astrocyte loss); often milder and sometimes monophasic; MOGAD (MOG antibody-associated disease) increasingly recognized as separate entity
+- **Double-seronegative:** ~5–10%; may have undetected antibodies or represent a heterogeneous group
+
+**Key distinguishing features from MS:**
+- NMOSD attacks are more severe (complete optic neuritis, longitudinally extensive myelitis ≥3 vertebral segments)
+- No oligoclonal bands in CSF (vs. present in ~90% of MS)
+- Brain MRI may be normal or show periventricular, area postrema lesions (not MS-typical Dawson's fingers)
+- IFN-β and natalizumab are **contraindicated or potentially harmful** in NMOSD
+
+## Structure
+
+### Clinical attack phenotypes
+
+**Optic neuritis (ON):**
+- Unilateral or bilateral simultaneous visual loss; pain on eye movement
+- More severe than MS-ON: greater visual loss (often to light perception or no light perception), slower/incomplete recovery
+- Retinal nerve fiber layer (RNFL) thinning on OCT is more severe than in MS-ON
+- Posterior/chiasmal involvement (perineural optic nerve sheath enhancement on MRI with gadolinium)
+
+**Longitudinally extensive transverse myelitis (LETM):**
+- Spinal cord lesion spanning ≥3 vertebral segments (vs. MS ≤2 segments)
+- Involves central cord grey matter → severe incomplete motor deficit, sensory level, bowel/bladder dysfunction
+- Spinal MRI: T2-bright signal spanning 3–20 segments; "bright spotty lesion" in grey matter
+- High risk of permanent paraparesis/quadriparesis after severe attacks
+
+**Area postrema syndrome:**
+- Pathognomonic: intractable hiccups, nausea, vomiting lasting >48 hours
+- Caused by lesions at dorsal medulla/area postrema (AQP4-rich region)
+- Often precedes or accompanies other NMOSD attacks
+- MRI: dorsal medullary T2 signal; difficult to distinguish from vomiting of other causes
+
+**Diencephalic/brainstem syndromes:**
+- Narcolepsy-like hypersomnolence (hypothalamic lesions)
+- Symptomatic bradycardia or respiratory failure (brainstem involvement in severe attacks)
+- SIADH (hypothalamic lesions)
+
+### 2015 International Consensus Diagnostic Criteria
+
+Diagnosis of NMOSD with AQP4-IgG requires ≥1 core clinical characteristic:
+1. Optic neuritis
+2. Acute myelitis (LETM or central cord pattern)
+3. Area postrema syndrome
+4. Acute brainstem syndrome
+5. Symptomatic narcolepsy or diencephalic syndrome
+6. Symptomatic cerebral syndrome with typical NMOSD brain MRI lesion
+
+**For AQP4-IgG+ patients:** ≥1 core clinical characteristic + AQP4-IgG confirmatory testing (cell-based assay preferred) is sufficient for diagnosis.
+
+**For AQP4-IgG− patients:** ≥2 core clinical characteristics (including optic neuritis OR LETM OR area postrema syndrome) + MRI criteria + exclusion of alternative diagnoses.
+
+## Function
+
+NMOSD impairs CNS function through three attack-related mechanisms:
+
+1. **Astrocyte destruction** — AQP4-IgG-mediated complement attack on astrocyte endfeet → loss of astrocyte support for oligodendrocytes → secondary demyelination → axonal loss; irreversible neurological deficit accumulates with each relapse (unlike MS where gradual decline is the norm; NMOSD is relapse-driven)
+
+2. **Demyelination cascade** — Oligodendrocyte death secondary to astrocyte loss → extensive demyelination especially in optic nerve, spinal cord white matter; remyelination is poor given astrocyte scaffold loss; Wallerian degeneration follows
+
+3. **Inflammatory cascade** — C5a attracts eosinophils (NMOSD lesions are eosinophil-rich, unlike MS), macrophages, and neutrophils → cytokine amplification → tissue destruction beyond the primary antibody-mediated event
+
+## Pathology
+
+### Immunopathogenesis
+
+**AQP4-IgG production:**
+- Origin: Long-lived plasma cells (resistant to anti-CD20 therapy) in bone marrow produce AQP4-IgG; plasmablasts in peripheral blood are acutely elevated during attacks; IL-6 drives plasmablast expansion
+- AQP4-IgG crosses the blood-brain barrier at sites of transient BBB disruption → binds AQP4 OAPs on astrocyte endfeet
+
+**Complement effector phase:**
+- Classical pathway activation: IgG1 anti-AQP4 → C1q → C4 → C3 → C5 → C5b-9 (MAC) → astrocyte lysis
+- C5a chemokine gradient → eosinophil and neutrophil influx → secondary tissue damage
+- This complement dependence is the mechanistic basis for **eculizumab** and **ravulizumab** efficacy
+
+**Astrocyte loss signature (NMOSD vs. MS):**
+- NMOSD lesion: loss of GFAP and AQP4 immunoreactivity (astrocyte necrosis); MAC deposition on vessels; eosinophil/granulocyte infiltration; relatively preserved myelin initially, then secondary demyelination
+- MS lesion: reactive astrocytosis (↑GFAP); primary demyelination; perivenular CD8+ T cells; lymphocytic infiltration
+
+### Role of IL-6 and B cell axis
+
+- IL-6 drives **plasmablast differentiation** from B cells → AQP4-IgG production
+- Circulating plasmablasts are elevated during NMOSD attacks and correlate with AQP4-IgG titer
+- IL-6R blockade (satralizumab, tocilizumab) reduces plasmablast expansion → lower AQP4-IgG titers → fewer attacks
+- CD19+ B cells (and plasmablasts) are depleted by **inebilizumab** (anti-CD19); broader spectrum than rituximab (anti-CD20), which spares CD19+CD20− plasmablasts
+
+### MOG-IgG+ NMOSD (MOGAD) — distinct mechanism
+
+- MOG (myelin oligodendrocyte glycoprotein) is expressed on outer surface of compact myelin and oligodendrocyte soma
+- MOG-IgG (predominantly IgG1) binds MOG → direct myelin/oligodendrocyte attack → primary demyelination without astrocyte destruction
+- MOGAD lesions: GFAP preserved; AQP4 preserved; T cell-rich inflammation; cortical involvement common
+- **Clinical implications:** Eculizumab NOT approved for MOGAD; complement is less central; B cell depletion may be less effective than in AQP4-IgG+ NMOSD; MOGAD has better prognosis in many patients
+
+## Treatment
+
+### Acute attack management
+
+**High-dose IV methylprednisolone** (IVMP): 1 g/d × 5 days → standard first-line for acute attacks; limits attack severity but does not prevent future relapses
+
+**Plasma exchange (PLEX):** 5–7 sessions every other day → removes AQP4-IgG and complement components → highly effective for steroid-refractory attacks; reduces complement-mediated astrocyte destruction; often combined with IVMP in severe attacks (optic nerve threat or paraparesis)
+
+### Long-term attack prevention — approved therapies
+
+**Eculizumab (Soliris; Alexion):**
+- Monoclonal anti-C5 antibody; blocks C5 → prevents C5a and C5b-9 formation
+- **PREVENT trial** (N=143, randomized, double-blind; AQP4-IgG+ NMOSD): annualized relapse rate (ARR) **0.02 vs. 0.35** placebo (94% reduction); 98% attack-free at 48 weeks; FDA approved **June 2019** [^pittock-2019-eculizumab-prevent]
+- Requires meningococcal vaccination; PML risk low but reported
+
+**Ravulizumab (Ultomiris; Alexion):**
+- Long-acting anti-C5 (CHAMPION-NMOSD); q8w dosing vs. eculizumab q2w; FDA approved June 2023
+- Same mechanism as eculizumab; convenient dosing; comparable efficacy
+
+**Inebilizumab (Uplizna; Amgen):**
+- Anti-CD19 mAb → depletes broader B cell compartment including plasmablasts (CD19+CD20−)
+- **N-MOmentum trial** (N=230; AQP4-IgG+ NMOSD): 88% inebilizumab vs. 63% placebo attack-free at 197 days; FDA approved **June 2020** [^cree-2019-inebilizumab-nmomentum]
+- Also approved for NMOSD — now dual approved for both NMOSD and CIDP (different indications)
+
+**Satralizumab (Enspryng; Roche):**
+- Anti-IL-6R mAb (recycling engineered antibody with extended t½); SC q4w
+- **SAkuraStar** (monotherapy; AQP4-IgG+ subgroup): ARR reduction ~55% vs. placebo; FDA approved **August 2020** [^yamamura-2020-satralizumab-sakurastar]
+- **SAkuraSky** (add-on to baseline IS): similar efficacy; SC self-injection enables home administration
+
+### Off-label prevention (widely used)
+
+**Rituximab** (anti-CD20): 375 mg/m² × 4 doses or 1000 mg × 2 doses; widely used as first-line off-label; ARR reduction ~70-80%; readministered when CD19+ B cells repopulate (typically q6m); risk: PML (< 1:10,000 at exposure levels typical in NMOSD)
+
+**Azathioprine + prednisolone:** Widely used in resource-limited settings; modestly effective
+
+**Mycophenolate mofetil:** Alternative steroid-sparing agent
+
+**Contraindicated/harmful agents:**
+- **IFN-β:** May increase attack frequency in AQP4-IgG+ NMOSD — do NOT use
+- **Natalizumab:** Case series suggest possible worsening in NMOSD
+- **Fingolimod:** Not established; potentially harmful
+
+## Connections
+
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — AQP4-IgG binds AQP4 on astrocyte endfeet → classical complement → MAC (C5b-9) → astrocyte lysis → secondary demyelination; pathognomonic in ~85% of NMOSD; ELISA and cell-based assays detect AQP4-IgG; titer correlates with disease activity.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Eculizumab (anti-C5; PREVENT: ARR 0.02 vs 0.35; FDA Jun 2019) and ravulizumab (CHAMPION-NMOSD; FDA Jun 2023) block C5 → prevent MAC on astrocytes → halt AQP4-IgG-driven attacks; effective only in AQP4-IgG+ NMOSD, not MOG-IgG+.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Satralizumab (anti-IL-6R; SAkuraStar; FDA Aug 2020) reduced ARR ~55% vs placebo; IL-6 promotes plasmablast expansion → AQP4-IgG production; IL-6 also amplifies Th17 responses; tocilizumab used off-label.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab (anti-CD20) depletes B cells → reduces AQP4-IgG; widely used off-label as first-line NMOSD prevention (~70-80% ARR reduction); inebilizumab (anti-CD19; N-MOmentum: 88% vs 63% attack-free; FDA Jun 2020) also approved.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — IFN-β is CONTRAINDICATED in AQP4-IgG+ NMOSD — trials showed IFN-β increases attack frequency; IFN-β may promote plasmablast differentiation → higher AQP4-IgG; this differentiates NMOSD from MS where IFN-β is first-line.
+
+[^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
+[^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
+[^cree-2019-inebilizumab-nmomentum]: Cree BAC, Bennett JL, Kim HJ, et al. Inebilizumab for the treatment of neuromyelitis optica spectrum disorder (N-MOmentum). *Lancet.* 2019;394(10206):1352-1363. [doi:10.1016/S0140-6736(19)31817-3](https://doi.org/10.1016/S0140-6736(19)31817-3) · [PubMed 31495497](https://pubmed.ncbi.nlm.nih.gov/31495497/)
+[^yamamura-2020-satralizumab-sakurastar]: Yamamura T, Kleiter I, Fujihara K, et al. Trial of Satralizumab in Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(22):2114-2124. [doi:10.1056/NEJMoa1901747](https://doi.org/10.1056/NEJMoa1901747) · [PubMed 31774951](https://pubmed.ncbi.nlm.nih.gov/31774951/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
