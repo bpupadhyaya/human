@@ -42,6 +42,9 @@ cross_links:
   - target: 03-medicine/02-traditional/st-johns-wort
     relation: modulated-by
     note: "Modulated by St. John's Wort (Hypericum perforatum)."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "5-HT2A blockade in PFC by atypical antipsychotics (clozapine, olanzapine, risperidone) enhances dopaminergic output; 5-HT2A agonism by hallucinogens (LSD, psilocybin) models positive symptoms; serotonin-dopamine interaction shapes atypical antipsychotic efficacy."
 ---
 
 # Serotonin
@@ -148,6 +151,7 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `modulated-by` → **ssri** — SSRIs block SERT to increase synaptic 5-HT; first-line antidepressants (forward ref; entry pending)
 - `modulates` → **[nervous-system](../../07-system/nervous-system/README.md)** — mood, sleep, appetite, cognition, thermoregulation
 - `modulates` → **[digestive-system](../../07-system/digestive-system/README.md)** — peristalsis, nausea, secretion via enteric nervous system
+- `connects-to` → **[Schizophrenia](../../07-system/schizophrenia/README.md)** — 5-HT2A blockade in PFC by atypical antipsychotics (clozapine, olanzapine, risperidone) enhances dopaminergic output; 5-HT2A agonism by hallucinogens (LSD, psilocybin) models positive symptoms; serotonin-dopamine interaction shapes atypical antipsychotic efficacy.
 
 ## Pathology
 

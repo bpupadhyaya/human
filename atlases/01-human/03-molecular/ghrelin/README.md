@@ -18,6 +18,9 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Ghrelin → hypothalamic arcuate GHSR1a → GHRH release + somatostatin suppression → pituitary GH pulse → hepatic IGF-1 production; ghrelin is the endogenous GH secretagogue; growth hormone secretagogues (MK-677/ibutamoren) act as orally bioavailable GHSR1a agonists to raise IGF-1."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Ghrelin, released by gastric A-like cells during fasting, stimulates appetite via hypothalamic GHSR; ghrelin is paradoxically low in obesity but meal-suppression is blunted; GLP-1 receptor agonists (semaglutide) suppress ghrelin, contributing to appetite and weight reduction."
 sources:
   - id: kojima-1999-ghrelin
     type: peer-reviewed
@@ -120,6 +123,8 @@ Ghrelin from gastric fundus X/A cells rises preprandially → vagal GHSR1a → g
 Ghrelin opposes insulin: GHSR1a in pancreatic β cells → reduced insulin secretion; obese T2DM patients have blunted ghrelin suppression after meals; GLP-1 receptor agonists suppress ghrelin surges — contributing to satiety; anamorelin (GHSR1a agonist) treats cancer cachexia.
 
 Ghrelin → hypothalamic arcuate GHSR1a → GHRH release + somatostatin suppression → pituitary GH pulse → hepatic IGF-1 production; ghrelin is the endogenous GH secretagogue; growth hormone secretagogues (MK-677/ibutamoren) act as orally bioavailable GHSR1a agonists to raise IGF-1.
+
+Ghrelin, released by gastric A-like cells during fasting, stimulates appetite via hypothalamic GHSR; ghrelin is paradoxically low in common obesity but meal-suppression response is blunted; GLP-1 receptor agonists (semaglutide) suppress ghrelin release, contributing to weight reduction in obesity treatment.
 
 [^kojima-1999-ghrelin]: Kojima M, Hosoda H, Date Y, Nakazato M, Matsuo H, Kangawa K. Ghrelin is a growth-hormone-releasing acylated peptide from stomach. *Nature.* 1999;402(6762):656-660. [doi:10.1038/45230](https://doi.org/10.1038/45230) · [PubMed 10604470](https://pubmed.ncbi.nlm.nih.gov/10604470/)
 [^camilleri-2013-relamorelin]: Camilleri M, Acosta A, Busciglio I, et al. Effect of relamorelin on gastrointestinal transit and symptoms in diabetic gastroparesis. *Neurogastroenterol Motil.* 2014;26(10):1452-1462. [doi:10.1111/nmo.12408](https://doi.org/10.1111/nmo.12408) · [PubMed 25167781](https://pubmed.ncbi.nlm.nih.gov/25167781/)

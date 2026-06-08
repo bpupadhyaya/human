@@ -51,6 +51,9 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: modulated-by
     note: "Modulated by Hippocampus."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "NMDA receptor hypofunction in PFC parvalbumin interneurons underlies cognitive and negative symptoms; ketamine (NMDA antagonist) reproduces full schizophrenia phenotype; glycine-site NMDA co-agonists and AMPA potentiators are experimental treatments."
 ---
 
 # Glutamate
@@ -136,6 +139,7 @@ In ischemia, oxygen/glucose deprivation reverses ion gradients and drives massiv
 - `modulates` → **[synapse](../../05-tissue/synapse/README.md)** — mediates fast excitatory transmission and LTP/LTD at excitatory synapses
 - `modulates` → **[brain](../../06-organ/brain/README.md)** — the primary driver of excitatory neural activity underlying all CNS computation
 - `part-of` → **[nervous-system](../../07-system/nervous-system/README.md)** — foundational excitatory neurotransmitter
+- `connects-to` → **[Schizophrenia](../../07-system/schizophrenia/README.md)** — NMDA receptor hypofunction in PFC parvalbumin interneurons underlies cognitive and negative symptoms; ketamine (NMDA antagonist) reproduces the full schizophrenia phenotype; glycine-site NMDA co-agonists and AMPA potentiators are experimental treatments.
 
 ## Pathology
 

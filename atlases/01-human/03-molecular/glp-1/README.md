@@ -21,6 +21,9 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "GLP-1 amplifies glucose-stimulated insulin secretion in pancreatic β-cells via GLP-1R/cAMP/PKA pathway; glucose-dependence prevents hypoglycemia at low glucose; GLP-1 promotes β-cell proliferation via PI3K/Akt and inhibits apoptosis, preserving β-cell mass in type 2 diabetes."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "GLP-1, secreted by intestinal L-cells post-meal, potentiates insulin release, suppresses glucagon and appetite; GLP-1/GIP receptor agonists (semaglutide ~15%, tirzepatide ~22% weight loss) are the most effective pharmacological obesity treatments available."
 sources:
   - id: drucker-2006-glp1-biology
     type: peer-reviewed
@@ -105,3 +108,5 @@ Semaglutide resolved NASH histology in 59% vs 17% placebo (Phase 2); GLP-1R acti
 GLP-1 and glucagon are both encoded by GCG (proglucagon) and produced via tissue-specific PC2/PC1 cleavage: α-cells make glucagon; L-cells make GLP-1 and GLP-2; GLP-1 suppresses glucagon secretion, opposing glucagon-driven hepatic glucose output.
 
 GLP-1 amplifies glucose-stimulated insulin secretion in pancreatic β-cells via GLP-1R/cAMP/PKA pathway; glucose-dependence prevents hypoglycemia at low glucose; GLP-1 promotes β-cell proliferation via PI3K/Akt and inhibits apoptosis, preserving β-cell mass in type 2 diabetes.
+
+GLP-1, secreted by intestinal L-cells post-meal, potentiates insulin release, suppresses glucagon and appetite via hypothalamic GLP-1R; GLP-1/GIP receptor agonists (semaglutide ~15%, tirzepatide ~22% weight loss) are the most effective pharmacological obesity treatments currently available.

@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: modulates
     note: "Leptin signals in hepatocytes via LEPR-Rb → STAT3 → suppresses SREBP-1c (lipogenesis) and promotes fatty acid oxidation (AMPK/CPT1); leptin resistance in NAFLD removes this brake, promoting steatohepatitis progression."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Adipocyte-secreted leptin signals satiety via hypothalamic LepR/JAK2/STAT3; common obesity involves leptin resistance (elevated leptin, impaired STAT3 signaling via SOCS3 upregulation); monogenic LEP deficiency causes morbid childhood obesity treatable with metreleptin."
 ---
 
 # Leptin
@@ -130,6 +133,7 @@ In obesity, leptin levels are elevated but hypothalamic signalling fails:
 - `modulates` → **[immune-system](../../07-system/immune-system/README.md)** — LEPR-Rb on T cells, macrophages, NK cells; promotes Th1 polarisation and macrophage activation; leptin deficiency causes immunosuppression; obesity hyperleptinemia drives chronic inflammation
 - `modulates` → **[t-helper-cell](../../04-cellular/t-helper-cell/README.md)** — leptin promotes Th1/Th17 differentiation via STAT3 and inhibits Treg expansion; ob/ob mice have impaired T cell responses; high leptin in obesity skews toward inflammatory phenotypes
 - `modulates` → **[hepatocyte](../../04-cellular/hepatocyte/README.md)** — leptin → LEPR-Rb → STAT3 → ↓SREBP-1c (lipogenesis) and ↑FA oxidation (AMPK/CPT1); leptin resistance in NAFLD removes this anti-steatotic brake, promoting steatohepatitis
+- `connects-to` → **[Obesity](../../07-system/obesity/README.md)** — leptin signals satiety via hypothalamic LepR/JAK2/STAT3 proportional to fat mass; common obesity involves leptin resistance (elevated leptin, impaired STAT3 signaling via SOCS3 upregulation); monogenic LEP deficiency causes morbid childhood obesity curable with metreleptin.
 
 ## Pathology
 
