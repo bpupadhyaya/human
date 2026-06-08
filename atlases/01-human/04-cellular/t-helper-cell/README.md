@@ -83,6 +83,9 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: modulated-by
     note: "IL-2 is the primary autocrine/paracrine Th cell growth factor after TCR + CD28 co-stimulation; NFAT drives IL-2 transcription (blocked by calcineurin inhibitors); IL-2 → JAK1/JAK3/STAT5 → cyclin D/BCL-2/BCL-XL → T cell proliferation and survival in immune responses."
+  - target: 01-human/03-molecular/calcineurin
+    relation: modulated-by
+    note: "Calcineurin dephosphorylates NFATc1-4 in activated T helper cells → nuclear entry → IL-2, IL-4, IFN-γ, TNF-α transcription; cyclosporine·cyclophilin and tacrolimus·FKBP12 inhibit calcineurin → block T cell cytokine production."
 ---
 
 # T Helper Cell
@@ -177,6 +180,7 @@ After antigen recognition: rapid clonal expansion (10³–10⁴-fold, ~2–3 day
 - **Modulates:** [b-cell](../b-cell/README.md) — Tfh provides germinal center help for antibody class switching
 - **Infected by:** [sars-cov-2](../../../../02-pathogen/01-viruses/sars-cov-2/README.md) — direct infection and lymphopenia contribute to COVID-19 immunopathology
 - `modulated-by` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 is the primary autocrine/paracrine Th cell growth factor; NFAT drives IL-2 transcription (blocked by cyclosporine/tacrolimus); IL-2 → JAK1/JAK3/STAT5 → cyclin D/BCL-2/BCL-XL → proliferation and survival.
+- `modulated-by` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin dephosphorylates NFATc1-4 in activated T helper cells → nuclear entry → IL-2, IL-4, IFN-γ, TNF-α transcription; cyclosporine·cyclophilin and tacrolimus·FKBP12 inhibit calcineurin → block T cell cytokine production.
 
 [^zhu-paul-2010-th-differentiation]: Zhu J, Paul WE. Heterogeneity and plasticity of T helper cells. *Cell Res.* 2010;20(1):4-12. [doi:10.1038/cr.2009.138](https://doi.org/10.1038/cr.2009.138) · [PubMed 20010916](https://pubmed.ncbi.nlm.nih.gov/20010916/)
 [^crotty-2011-tfh]: Crotty S. Follicular helper CD4 T cells (TFH). *Annu Rev Immunol.* 2011;29:621-63. [doi:10.1146/annurev-immunol-031210-101400](https://doi.org/10.1146/annurev-immunol-031210-101400) · [PubMed 21314428](https://pubmed.ncbi.nlm.nih.gov/21314428/)

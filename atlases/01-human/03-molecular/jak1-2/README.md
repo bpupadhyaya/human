@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "JAK1/2/3 inhibitors are approved tsDMARDs for RA; baricitinib (JAK1/2) and upadacitinib (JAK1) are superior to adalimumab in clinical trials; selectivity for JAK1 vs JAK2/3 reduces erythropoiesis and platelet effects; safety: infection, VTE, MACE risk inform patient selection."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Baricitinib (JAK1/2) showed efficacy in refractory DM (TRiMM-2 Phase 3); tofacitinib (JAK1/3) used for anti-MDA5-associated rapidly progressive ILD; ruxolitinib in refractory MDA5+ DM-ILD; JAK inhibition reduces type I IFN-driven ISG expression in DM muscle."
 ---
 
 # JAK1/2
@@ -164,6 +167,7 @@ The canonical JAK-STAT pathway:
 - `connects-to` → **[IL-6](../il-6/README.md)** — IL-6 binds IL-6R/gp130 → JAK1/TYK2 activation → STAT3/STAT1 phosphorylation; JAK inhibitors block IL-6 and all other JAK-dependent cytokines simultaneously, unlike single-cytokine biologics; useful in diseases with polycytokine pathogenesis.
 - `connects-to` → **[TNF-alpha](../tnf-alpha/README.md)** — TNF-alpha drives inflammation primarily via NF-kB but also activates JAK1 in some pathways; JAK inhibitors reduce TNF-alpha production indirectly by blocking JAK-STAT loops that amplify TNF-alpha secretion; ruxolitinib attenuates cytokine storm in MF and GvHD.
 - `connects-to` → **[Rheumatoid Arthritis](../../07-system/rheumatoid-arthritis/README.md)** — baricitinib (JAK1/2) and upadacitinib (JAK1) are approved tsDMARDs for RA; superior to adalimumab in clinical trials; selectivity for JAK1 vs JAK2/3 reduces hematological side effects; safety warnings for VTE, MACE, and serious infection guide patient selection.
+- `connects-to` → **[Dermatomyositis](../../07-system/dermatomyositis/README.md)** — Baricitinib (JAK1/2) showed efficacy in refractory DM (TRiMM-2 Phase 3); tofacitinib (JAK1/3) used for anti-MDA5-associated rapidly progressive ILD; ruxolitinib in refractory MDA5+ DM-ILD; JAK inhibition reduces type I IFN-driven ISG expression in DM muscle.
 
 [^vainchenker-2008-jak2-mpn]: Vainchenker W, Constantinescu SN. A unique activating mutation in JAK2 (V617F) is at the origin of polycythemia vera and allows a new classification of myeloproliferative diseases. *Hematology Am Soc Hematol Educ Program.* 2005;2005:195-200. [doi:10.1182/asheducation-2005.1.195](https://doi.org/10.1182/asheducation-2005.1.195) · [PubMed 16304378](https://pubmed.ncbi.nlm.nih.gov/16304378/)
 [^verstovsek-2012-ruxolitinib-mf]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)

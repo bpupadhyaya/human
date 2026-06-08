@@ -68,6 +68,9 @@ cross_links:
   - target: 01-human/07-system/cidp
     relation: connects-to
     note: "IVIG (2 g/kg loading; 1 g/kg q4w) is first-line CIDP therapy; pathogenic IgG4 anti-NF155 and anti-CNTN1 disrupt paranodal axo-glial junctions; FcRn inhibitors (efgartigimod ADHERE; FDA Jun 2024) reduce total IgG catabolism → lower anti-paranodal antibody titers."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "IVIG (2 g/kg monthly; FDA Oct 2021) is the first approved DM therapy (ProDERM: CDASI-A improvement 58% vs 29%); MSA autoantibodies (anti-MDA5, anti-TIF1γ, anti-NXP2, anti-Mi-2) are IgG subclasses that stratify DM subtypes and prognosis."
 ---
 
 # Immunoglobulin G
@@ -149,6 +152,7 @@ FcγRI and FcγRIII contain ITAMs (immunoreceptor tyrosine-based activation moti
 - `connects-to` → **[FcRn](../fcrn/README.md)** — FcRn rescues IgG from lysosomal degradation by pH-dependent binding in endosomes → IgG t½ ~21 days; FcRn inhibitors (efgartigimod, rozanolixizumab) compete for or block FcRn → accelerate IgG catabolism → reduce pathogenic IgG titers in MG, ITP, pemphigus, and CIDP.
 - `connects-to` → **[Immune Thrombocytopenia](../../07-system/immune-thrombocytopenia/README.md)** — Anti-GPIIb/IIIa IgG1/IgG3 and anti-GPIb/IX IgG are pathogenic in ITP; opsonizes platelets for FcγRIII-mediated splenic phagocytosis; IVIG blocks Fc receptors; FcRn inhibitors (efgartigimod; FDA Jun 2023) reduce total IgG including anti-platelet antibodies.
 - `connects-to` → **[CIDP](../../07-system/cidp/README.md)** — IVIG (2 g/kg; ICE trial Lancet Neurol 2008) is first-line CIDP therapy; pathogenic IgG4 anti-NF155 and anti-CNTN1 disrupt paranodal junctions; FcRn inhibitors (efgartigimod ADHERE; FDA Jun 2024) reduce total IgG catabolism.
+- `connects-to` → **[Dermatomyositis](../../07-system/dermatomyositis/README.md)** — IVIG (2 g/kg monthly; FDA Oct 2021) is the first approved DM therapy (ProDERM: CDASI-A improvement 58% vs 29%); MSA autoantibodies (anti-MDA5, anti-TIF1γ, anti-NXP2, anti-Mi-2) are IgG subclasses that stratify DM subtypes and prognosis.
 
 [^schroeder-cavacini-2010-igg]: Schroeder HW Jr, Cavacini L. Structure and function of immunoglobulins. *J Allergy Clin Immunol.* 2010;125(2 Suppl 2):S41-52. [doi:10.1016/j.jaci.2009.09.046](https://doi.org/10.1016/j.jaci.2009.09.046) · [PubMed 20176268](https://pubmed.ncbi.nlm.nih.gov/20176268/)
 [^ward-bhatt-2020-fcrn]: Ward ES, Bhatt DL, et al. The role of FcRn in immunity and its therapeutic implications. *Nat Rev Immunol.* 2020;20(7):399-407. [doi:10.1038/s41577-019-0260-y](https://doi.org/10.1038/s41577-019-0260-y) · [PubMed 32015434](https://pubmed.ncbi.nlm.nih.gov/32015434/)

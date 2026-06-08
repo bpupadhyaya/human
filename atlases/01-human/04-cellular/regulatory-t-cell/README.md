@@ -47,6 +47,9 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: modulated-by
     note: "IL-2 is essential for Treg development, survival, and FOXP3 maintenance via CD25 (IL-2Rα) → STAT5 phosphorylation; Tregs do not produce IL-2 themselves; low-dose IL-2 (0.5-2 MIU/d SC) selectively expands Tregs in SLE, GVHD, and T1D clinical trials exploiting high CD25 expression."
+  - target: 01-human/03-molecular/calcineurin
+    relation: modulated-by
+    note: "NFAT/calcineurin drives FoxP3 expression in Tregs; CNIs at trough suppress effector T cells more than Tregs, but high-dose CNI reduces FoxP3 and Treg function; NFAT cooperates with FoxP3 at Treg-specific enhancers to maintain suppressive identity."
 ---
 
 # Regulatory T Cell
@@ -109,6 +112,7 @@ The fundamental importance of Tregs was established by the Scurfy mouse (Foxp3 f
 - **Modulates T Helper Cell** (`../t-helper-cell/README.md`): Tregs suppress CD4+ Th1/Th2/Th17 effector cells via IL-10, TGF-β, IL-2 deprivation (CD25 sponge), CTLA-4 downregulation of co-stimulatory ligands on APCs, and direct cAMP transfer through gap junctions.[^alberts-mol-cell-biology]
 - **Modulates B Cell** (`../b-cell/README.md`): Follicular regulatory T cells (Tfr, CXCR5+FOXP3+) co-localise with Tfh in germinal centres to limit Ab somatic hypermutation, affinity maturation, and plasma cell output; prevent autoreactive B cell escape.[^janeway-immunobiology]
 - `modulated-by` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 is essential for Treg development, survival, and FOXP3 maintenance via CD25 (high on Tregs) → STAT5 phosphorylation; low-dose IL-2 (0.5–2 MIU/d SC) selectively expands Tregs in SLE, GVHD, and T1D clinical trials.
+- `modulated-by` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — NFAT/calcineurin drives FoxP3 expression in Tregs; CNIs at trough suppress effector T cells more than Tregs, but high-dose CNI reduces FoxP3 and Treg function; NFAT cooperates with FoxP3 at Treg-specific enhancers.
 
 ## Pathology
 

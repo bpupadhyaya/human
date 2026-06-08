@@ -42,6 +42,9 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "Low-dose IL-2 (0.5–2 MIU/d SC) selectively expands Tregs in ITP; pilot trials show platelet increases and anti-platelet IgG reduction; calcineurin inhibitors block IL-2/NFAT → impair Treg expansion and immune tolerance in ITP."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcineurin dephosphorylates NFAT to drive IL-2 transcription; cyclosporine/tacrolimus block calcineurin → NFAT cytoplasmic → IL-2 abolished → T cell expansion prevented; NFAT+AP-1+NF-κB combinatorially govern the IL-2 promoter as an AND-gate."
 ---
 
 # IL-2
@@ -151,6 +154,7 @@ These agents aim to preserve anti-tumor IL-2 activity while avoiding VLS (Treg-i
 - **Modulates** → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — IL-2 is essential for Treg development, survival, and FOXP3 maintenance via CD25 (high on Tregs) → STAT5; low-dose IL-2 selectively expands Tregs in SLE, GVHD, and T1D clinical trials; Treg depletion (anti-CD25) releases anti-tumor immunity.
 - `connects-to` → **[CIDP](../../07-system/cidp/README.md)** — CD4+ T cells (IL-2-dependent) drive macrophage-mediated paranodal demyelination in CIDP; Treg dysfunction may predispose; low-dose IL-2 Treg expansion is under investigation as adjunct therapy in refractory CIDP.
 - `connects-to` → **[Immune Thrombocytopenia](../../07-system/immune-thrombocytopenia/README.md)** — Low-dose IL-2 selectively expands Tregs in ITP → restores immune tolerance and reduces anti-platelet IgG in pilot trials; calcineurin inhibitor-mediated NFAT blockade prevents IL-2 production → broad T cell immunosuppression.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin dephosphorylates NFAT to drive IL-2 transcription; cyclosporine/tacrolimus block calcineurin → NFAT cytoplasmic → IL-2 abolished → T cell expansion prevented; NFAT+AP-1+NF-κB combinatorially govern the IL-2 promoter as an AND-gate.
 
 [^morgan-1976-il2-discovery]: Morgan DA, Ruscetti FW, Gallo R. Selective in vitro growth of T lymphocytes from normal human bone marrows. *Science.* 1976;193(4257):1007-1008. [doi:10.1126/science.181845](https://doi.org/10.1126/science.181845) · [PubMed 181845](https://pubmed.ncbi.nlm.nih.gov/181845/)
 [^lotze-1985-aldesleukin-rcc]: Rosenberg SA, Lotze MT, Muul LM, et al. Observations on the systemic administration of autologous lymphokine-activated killer cells and recombinant interleukin-2 to patients with metastatic cancer. *N Engl J Med.* 1985;313(23):1485-1492. [doi:10.1056/NEJM198512053132327](https://doi.org/10.1056/NEJM198512053132327) · [PubMed 3903516](https://pubmed.ncbi.nlm.nih.gov/3903516/)

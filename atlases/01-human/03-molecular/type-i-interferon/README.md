@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "TLR7/9 → MyD88 → IRF7 and TBK1 → IRF3 pathways activate type I IFN in parallel with NF-κB; NF-κB drives IFN-β enhanceosome formation (NF-κB + IRF3 + AP-1 at IFN-β promoter); type I IFN-induced ISGs suppress NF-κB through STAT1 and SOCS1."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Type I IFN signature (↑MX1, ↑OAS1, ↑RSAD2) is elevated in muscle and blood in >80% of DM; anti-MDA5 (IFIH1) senses dsRNA → MAVS-TBK1-IRF3 → IFN-β; pDC infiltration drives DM interferonopathy; anifrolumab (anti-IFNAR1) under investigation for DM."
 ---
 
 # Type I Interferon
@@ -152,6 +155,7 @@ Monogenic diseases of uncontrolled type I IFN production:
 - `connects-to` → **[Systemic Sclerosis](../../07-system/systemic-sclerosis/README.md)** — Type I IFN signature is elevated in ~50% of SSc patients, particularly anti-RNA pol III+ dcSSc; IFN-α promotes plasmacytoid DC activation and anti-nuclear antibody amplification; type I IFN and TGF-β cooperate to drive SSc fibroblast activation and ILD progression.
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — SARS-CoV-2 encodes multiple IFN evasion proteins (NSP1 blocks translation, NSP3 papain-like protease deISGylates, ORF6 blocks STAT1 nuclear import); impaired early IFN-β response predicts severe COVID-19; type I IFN treatment window closes after peak viral replication.
 - `connects-to` → **[NF-κB](../nf-kb/README.md)** — TLR7/9 → MyD88 → IRF7 and TBK1 → IRF3 pathways activate type I IFN in parallel with NF-κB; NF-κB drives IFN-β enhanceosome formation (NF-κB + IRF3 + AP-1 at IFN-β promoter); type I IFN-induced ISGs suppress NF-κB through STAT1 and SOCS1.
+- `connects-to` → **[Dermatomyositis](../../07-system/dermatomyositis/README.md)** — Type I IFN signature (↑MX1, ↑OAS1, ↑RSAD2) is elevated in muscle and blood in >80% of DM; anti-MDA5 (IFIH1) senses dsRNA → MAVS-TBK1-IRF3 → IFN-β; pDC infiltration drives DM interferonopathy; anifrolumab (anti-IFNAR1) under investigation for DM.
 
 [^ivashkiv-2018-type-i-ifn-review]: Ivashkiv LB, Donlin LT. Regulation of type I interferon responses. *Nat Rev Immunol.* 2014;14(1):36-49. [doi:10.1038/nri3581](https://doi.org/10.1038/nri3581) · [PubMed 24362405](https://pubmed.ncbi.nlm.nih.gov/24362405/)
 [^morand-2020-anifrolumab-tulip2]: Morand EF, Furie R, Tanaka Y, et al. Trial of Anifrolumab in Active Systemic Lupus Erythematosus. *N Engl J Med.* 2020;382(3):211-221. [doi:10.1056/NEJMoa1912196](https://doi.org/10.1056/NEJMoa1912196) · [PubMed 31851795](https://pubmed.ncbi.nlm.nih.gov/31851795/)
