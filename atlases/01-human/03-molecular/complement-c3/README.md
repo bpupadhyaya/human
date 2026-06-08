@@ -29,6 +29,12 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: modulates
     note: "Alternative pathway C3 dysregulation causes MPGN via GBM deposition. C3 nephritic factor (C3NeF) stabilises alternative C3 convertase → persistent C3 activation → MPGN type II/Dense Deposit Disease."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "C1-INH inhibits C1r/C1s, blocking the classical C3 convertase (C4b2a) formation; C1-INH deficiency → unchecked classical pathway → chronic C4 consumption → low C4 (hallmark of HAE); C3 is usually preserved in HAE because C3 convertase assembly is limited without sufficient C4b."
+  - target: 01-human/07-system/hereditary-angioedema
+    relation: connects-to
+    note: "HAE from C1-INH deficiency uses low C4 as its hallmark diagnostic (chronic C1r/C1s activation → C4 consumption even between attacks, with C3 preserved); C3 is usually normal in HAE because C3 convertase assembly is limited by the insufficient C4b generated from unchecked C1."
 ---
 
 # Complement C3
@@ -132,6 +138,8 @@ Self-cells avoid complement attack by expressing:
 - `modulates` → **[immune-system](../../07-system/immune-system/README.md)** — C3 is the convergence hub of all 3 complement pathways; C3b opsonizes pathogens, C3a recruits neutrophils/mast cells, C3d lowers B cell activation threshold ~1000-fold via CR2/CD21 co-stimulation [^janeway-immunobiology]
 - `modulates` → **[macrophage](../../04-cellular/macrophage/README.md)** — C3b/iC3b on opsonised targets bind CR1/CR3 (Mac-1/αMβ2) on macrophages → phagocytic cup formation; iC3b-CR3 is critical for fungal (A. fumigatus) and mycobacterial clearance [^janeway-immunobiology]
 - `modulates` → **[glomerulus](../../05-tissue/glomerulus/README.md)** — alternative pathway dysregulation drives C3 deposition in GBM causing MPGN; C3 nephritic factor (C3NeF) stabilises C3bBb → persistent complement activation → Dense Deposit Disease [^janeway-immunobiology]
+- `connects-to` → **[C1-Esterase Inhibitor](../c1-esterase-inhibitor/README.md)** — C1-INH inhibits C1r/C1s, blocking the classical C3 convertase (C4b2a) formation; C1-INH deficiency → unchecked classical pathway → chronic C4 consumption → low C4 (hallmark of HAE); C3 is usually preserved in HAE because C3 convertase assembly is limited without sufficient C4b.
+- `connects-to` → **[Hereditary Angioedema](../../07-system/hereditary-angioedema/README.md)** — HAE from C1-INH deficiency uses low C4 as its hallmark diagnostic (chronic C1r/C1s activation → C4 consumption even between attacks, with C3 preserved); C3 is usually normal in HAE because C3 convertase assembly is limited by the insufficient C4b generated from unchecked C1.
 
 ## Pathology
 
