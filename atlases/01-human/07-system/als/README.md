@@ -1,0 +1,197 @@
+---
+schema: human-scale-entry/v1
+id: als
+name: ALS
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-08
+summary: "ALS (30k US; 200k global) is a fatal motor neuron disease with progressive degeneration of upper and lower motor neurons; TDP-43 inclusions are the pathological hallmark in >97%; riluzole and edaravone extend survival modestly; tofersen (SOD1 ASO) is approved for familial ALS."
+aliases: ["ALS", "amyotrophic lateral sclerosis", "Lou Gehrig's disease", "motor neuron disease", "MND", "SOD1 ALS", "TDP-43 ALS", "C9orf72 ALS", "FALS", "SALS"]
+sources:
+  - id: brown-2017-als-review
+    type: peer-reviewed
+    cite: "Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. N Engl J Med. 2017;377(2):162-172."
+    doi: "10.1056/NEJMra1603471"
+    pmid: "28700839"
+    url: "https://doi.org/10.1056/NEJMra1603471"
+    accessed: "2026-06-08"
+  - id: edaravone-als-2017
+    type: peer-reviewed
+    cite: "Writing Group on behalf of the Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis: a randomised, double-blind, placebo-controlled trial. Lancet Neurol. 2017;16(7):505-512."
+    doi: "10.1016/S1474-4422(17)30115-1"
+    pmid: "28522180"
+    url: "https://doi.org/10.1016/S1474-4422(17)30115-1"
+    accessed: "2026-06-08"
+  - id: miller-2023-tofersen-als
+    type: peer-reviewed
+    cite: "Miller TM, Cudkowicz ME, Genge A, et al. Trial of Antisense Oligonucleotide Tofersen for SOD1 ALS. N Engl J Med. 2022;387(12):1099-1110."
+    doi: "10.1056/NEJMoa2204705"
+    pmid: "36129998"
+    url: "https://doi.org/10.1056/NEJMoa2204705"
+    accessed: "2026-06-08"
+cross_links:
+  - target: 01-human/03-molecular/tdp-43
+    relation: connects-to
+    note: "TDP-43 cytoplasmic inclusions are the pathological hallmark of >97% of ALS; TARDBP mutations cause ~4% of familial ALS; nuclear TDP-43 loss disrupts splicing of STMN2 and UNC13A, driving axonal degeneration and synaptic failure in motor neurons."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Glutamate excitotoxicity via impaired astrocytic EAAT2 (GLT-1) uptake is a core ALS mechanism; riluzole (approved 1995) inhibits glutamate release and blocks persistent Na⁺ channels; AMPA receptor calcium permeability is increased in ALS spinal motor neurons."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Impaired autophagy (linked to mTOR hyperactivation and ULK1 dysfunction) contributes to TDP-43 and SOD1 aggregate accumulation in ALS; rapamycin reduces aggregate burden in ALS mouse models; p62/SQSTM1 (autophagy receptor) is a consistent component of ALS inclusions."
+  - target: 01-human/06-organ/brain
+    relation: targets
+    note: "ALS targets upper motor neurons in the primary motor cortex (Betz cells in layer V) and lower motor neurons in brainstem and spinal cord anterior horn; cortical hyperexcitability precedes clinical onset; cognitive and behavioral changes occur in ~50% (ALS-FTD continuum)."
+---
+
+# ALS
+
+## Overview
+
+**Amyotrophic lateral sclerosis (ALS)**, also known as **Lou Gehrig's disease** or motor neuron disease (MND), is a progressive, invariably fatal neurodegenerative disease that selectively destroys **upper motor neurons (UMN)** in the primary motor cortex and **lower motor neurons (LMN)** in the brainstem and spinal cord anterior horn. The result is progressive paralysis of voluntary muscles — including limb muscles, bulbar muscles (swallowing, speech), and ultimately respiratory muscles — leading to death typically from respiratory failure within **2–5 years** of onset in most patients (10–15% survive >10 years; Stephen Hawking lived 55 years — an extraordinary outlier).
+
+**Epidemiology [^brown-2017-als-review]:**
+- Prevalence: ~30,000 in the US; ~200,000 globally
+- Incidence: 2–3 per 100,000 per year (Western populations); lifetime risk ~1 in 300–400
+- Peak onset: age 55–75 years; male:female ~1.3–1.5:1
+- Genetics: ~10–15% familial (≥1 affected first-degree relative); 85–90% sporadic
+- Prognosis: median survival ~2–3 years from symptom onset; ~50% die within 30 months; bulbar-onset worse than limb-onset
+
+**ALS-FTD continuum:** ALS and frontotemporal dementia (FTD) are now recognized as ends of a disease spectrum. ~50% of ALS patients have some cognitive/behavioral changes; ~5–15% meet criteria for full FTD. C9orf72 repeat expansion is the most common cause of both ALS and ALS-FTD.
+
+## Structure
+
+### Upper and lower motor neuron signs
+
+ALS diagnosis requires evidence of **both UMN and LMN degeneration** across ≥2 body regions (El Escorial revised criteria; Gold Coast criteria 2020):
+
+| Finding | UMN dysfunction | LMN dysfunction |
+|:---|:---|:---|
+| **Reflexes** | Hyperreflexia (brisk DTRs) | Hyporeflexia/areflexia |
+| **Muscle tone** | Spasticity | Flaccidity |
+| **Pathological signs** | Babinski sign, Hoffman's sign, jaw jerk | Absent |
+| **Muscle bulk** | Preserved early | Atrophy (denervation) |
+| **Fasciculations** | Absent | Present (spontaneous motor unit discharges) |
+| **EMG** | Central conduction delay | Fibrillations, positive sharp waves, giant motor units |
+
+**Clinical phenotypes:**
+- **Classic limb-onset ALS:** Asymmetric limb weakness (arm or leg); spreads to other limbs and bulbar muscles; accounts for ~70% of cases
+- **Bulbar-onset ALS:** Dysarthria, dysphagia first; accounts for ~25%; faster progression; more common in women and older patients
+- **Respiratory-onset ALS:** Dyspnea, orthopnea without limb involvement initially; rare (~3%); very rapid progression
+- **Flail arm syndrome (brachial amyotrophic diplegia):** Bilateral arm weakness with LMN predominance; slower progression
+- **Primary lateral sclerosis (PLS):** Pure UMN presentation >4 years without LMN signs — favorable prognosis; some eventually develop LMN signs (ALS)
+- **Progressive muscular atrophy (PMA):** Pure LMN presentation; TDP-43 inclusions found at autopsy — ALS variant
+
+### Genetics of ALS
+
+| Gene | Mutation type | % familial ALS | % sporadic ALS | Protein function |
+|:---|:---|:---|:---|:---|
+| **C9orf72** | GGGGCC hexanucleotide repeat expansion (>30 copies; normal <10) | 40% | 5–10% | Nuclear export factor; RNA granule regulation; autophagy |
+| **SOD1** | Missense (>180 mutations; A4V most common/lethal in North America) | 20% | 1–2% | Cu-Zn superoxide dismutase (toxic gain-of-function, not LOF) |
+| **TARDBP** | Missense (>50 mutations in glycine-rich CTD) | 4% | <1% | RNA-binding protein TDP-43 |
+| **FUS** | Missense (NLS mutations most severe; juvenile-onset FUS-ALS) | 4–5% | <1% | RNA-binding protein; similar to TDP-43 |
+| **TBK1** | LOF (haploinsufficiency) | 4% | <1% | Tank-binding kinase 1; autophagy and NF-κB signaling |
+| **NEK1** | LOF | 3% | ~1% | NIMA-related kinase; DNA damage response |
+| **CHCHD10** | Missense | 2% | <1% | Mitochondrial inner membrane protein |
+| **UBQLN2** | Missense (X-linked) | ~2% | <1% | Ubiquilin-2; ubiquitin-proteasome pathway |
+| **OPTN** | Missense/deletion | 2% | <1% | Optineurin; autophagy receptor; NF-κB signaling |
+
+**C9orf72 mechanism:** The GGGGCC expansion causes toxicity via three mechanisms:
+1. **RNA foci:** Repeat-containing RNA forms nuclear foci that sequester RNA-binding proteins (hnRNP A3, Pur-α) → loss of normal RBP function
+2. **Dipeptide repeat proteins (DPRs):** Repeat-associated non-ATG (RAN) translation produces 5 DPR species (poly-GA, poly-GR, poly-PR, poly-GP, poly-PA); poly-GR and poly-PR are highly toxic — disrupt nucleocytoplasmic transport, stress granule dynamics, and ribosome function
+3. **C9orf72 haploinsufficiency:** C9orf72 protein regulates autophagy and lysosomal function; reduced levels impair autophagy of TDP-43/FUS aggregates
+
+### Pathology
+
+**TDP-43 proteinopathy:** >97% of all ALS cases (sporadic and familial, with the notable exception of SOD1-ALS and FUS-ALS which have distinct inclusions) show:
+- Nuclear clearance of TDP-43 from affected neurons
+- Cytoplasmic inclusions of ubiquitinated, phosphorylated, C-terminally cleaved TDP-43
+- Loss of nuclear TDP-43 RNA processing function → cryptic exon inclusion in STMN2 and UNC13A → axon regeneration failure and synaptic deficiency
+
+**SOD1 ALS:** A unique subtype — SOD1 inclusions rather than TDP-43; different cell biology; unique vulnerability of fast-fatigable motor neurons; tofersen (SOD1 ASO) is the first approved targeted therapy for any ALS genetic variant.
+
+## Function
+
+### Motor neuron vulnerability mechanisms
+
+Why are motor neurons uniquely vulnerable in ALS? Multiple converging factors:
+
+**Glutamate excitotoxicity:**
+- Astrocytic glutamate uptake transporter EAAT2 (GLT-1) is selectively reduced in ALS spinal cord → elevated synaptic glutamate → persistent NMDA/AMPA receptor activation → intracellular Ca²⁺ overload
+- ALS motor neurons express higher levels of **Ca²⁺-permeable AMPA receptors** (lower GluA2 levels → more Ca²⁺-permeable AMPARs) than typical CNS neurons — increasing vulnerability to Ca²⁺ toxicity
+- Ca²⁺ overload → mitochondrial dysfunction → ROS production → protein aggregation amplification → cell death
+
+**Axonal transport failure:**
+- Motor neuron axons are among the longest in the body (>1 meter for lumbar motor neurons) → axonal transport is critically important and energetically costly
+- Dynein/kinesin motor complex dysfunction in ALS → impaired retrograde transport of neurotropic signals (BDNF, GDNF) and organelles → failure of energy supply to distal axon
+- Neurofilament accumulation in cell bodies and axons (a feature of ALS) → axonal transport blockade → "dying-back" axonopathy
+
+**Neuroinflammation:**
+- Microglial activation and astrocyte reactivity are prominent in ALS spinal cord
+- Reactive astrocytes lose EAAT2 expression → amplify excitotoxicity
+- M1 microglia release TNF-α, IL-1β, NO → neurotoxic
+- Neuroinflammation propagates disease progression (not just secondary epiphenomenon — NF-κB suppression in microglia prolongs survival in SOD1 mice)
+
+**Mitochondrial dysfunction:**
+- Mitochondrial morphology is disrupted in ALS motor neurons
+- SOD1 mutation → mitochondrial mislocalization in motor neurons → impaired ATP production at nodes of Ranvier → action potential failure
+- TDP-43 regulates mitochondrial RNA → TDP-43 pathology disrupts mitochondrial function
+
+## Pathology
+
+### Diagnosis
+
+ALS diagnosis is **clinical** — no single definitive biomarker test (though NfL is increasingly used):
+
+**Revised El Escorial / Gold Coast criteria (2020):**
+- Gold Coast criteria simplified: clinical signs of LMN degeneration + evidence of progressive spread (additional regions or EMG evidence in asymptomatic regions)
+- EMG remains essential: shows active denervation (fibrillations, PSWs) in ≥3 regions (bulbar, cervical, thoracic, lumbar) to establish LMN disease broadly
+
+**Biomarkers:**
+- **Neurofilament light chain (NfL):** Elevated in CSF and blood; correlated with disease progression rate; reduces with tofersen treatment (SOD1-ALS) proportional to clinical benefit; increasingly used as trial endpoint and prognostic marker
+- **pNfH (phosphorylated neurofilament heavy chain):** Similar to NfL; ALS-specific elevations
+- **TDP-43 in CSF:** Elevated in ~50% of ALS patients but less sensitive than NfL
+- **Genetic testing:** Strongly recommended for all ALS patients; C9orf72 repeat expansion PCR; NGS panel for SOD1, TARDBP, FUS, and other genes — affects prognosis and treatment (tofersen for SOD1-ALS)
+
+### Treatment
+
+**Approved disease-modifying therapies:**
+
+| Drug | Mechanism | Approval | Benefit |
+|:---|:---|:---|:---|
+| **Riluzole** | Glutamate release inhibitor; persistent Na⁺ channel blocker → reduces motor neuron excitability | FDA 1995 | ~3-month median survival extension; modestly slows decline |
+| **Edaravone** | Free radical scavenger (oxidative stress reduction) | FDA 2017 (selected patients); Japan/Canada/Korea earlier | ~33% slower functional decline in selected subgroup [^edaravone-als-2017] |
+| **Tofersen (Qalsody)** | SOD1-targeting antisense oligonucleotide → reduces SOD1 protein | FDA 2023 (accelerated approval; SOD1-ALS only) | Reduces NfL; slows decline in faster-progressing SOD1-ALS; some functional benefit [^miller-2023-tofersen-als] |
+| **AMX0035 (Relyvrio)** | Sodium phenylbutyrate + taurursodiol → reduces ER stress + mitochondrial apoptosis | FDA 2022 (accelerated; withdrawn 2024 after confirmatory trial failed) | Initial trial showed survival benefit; failed Phase 3 PHOENIX trial |
+
+**Symptomatic/supportive management (essential):**
+- **Non-invasive ventilation (NIV/BiPAP):** Standard of care for respiratory compromise; extends survival ~7 months in median and >12 months in some patients; comfort and quality of life
+- **PEG tube:** Percutaneous gastrostomy when swallowing impaired (bulbar dysfunction); maintains nutrition and weight; recommended before FVC <50%
+- **Communication augmentative/alternative technology (AAC):** Text-to-speech, eye-gaze devices — life-changing for quality of life
+- **Multidisciplinary ALS clinic:** Consistent evidence that multidisciplinary care (neurology, respiratory therapy, PT, OT, speech, social work, palliative care) extends survival and improves quality of life
+- **Riluzole + baclofen:** Baclofen reduces spasticity
+- **Mexiletine:** For muscle cramps (sodium channel stabilizer)
+
+**Emerging therapies:**
+- **C9orf72-targeting ASOs:** BIIB078 (antisense targeting C9orf72 repeat-containing RNA) — Phase 1/2; AB-105 (RAN translation inhibitor)
+- **STMN2-restoring ASO (UMass/Clene):** Corrects cryptic exon to restore stathmin-2; Phase 1/2 ongoing (TDP-43 ALS strategy — applicable to >97% of cases)
+- **Stem cell approaches:** NurOwn (MSC-NTF) — failed Phase 3 2023; AstroRx (healthy astrocyte transplant) — Phase 1
+- **Gene therapy:** AAV-SOD1 silencing; intrathecal delivery; ongoing trials
+
+## Connections
+
+- `connects-to` → **[TDP-43](../../../03-molecular/tdp-43/README.md)** — TDP-43 cytoplasmic inclusions are the pathological hallmark of >97% of ALS; TARDBP mutations cause ~4% of familial ALS; nuclear TDP-43 loss disrupts STMN2 and UNC13A splicing, causing axonal degeneration and synaptic failure.
+
+- `connects-to` → **[Glutamate](../../../03-molecular/glutamate/README.md)** — glutamate excitotoxicity via impaired astrocytic EAAT2 uptake is a core ALS mechanism; riluzole inhibits glutamate release; ALS motor neurons express Ca²⁺-permeable AMPA receptors (low GluA2) increasing vulnerability; NMDA Ca²⁺ overload drives mitochondrial failure.
+
+- `connects-to` → **[mTOR](../../../03-molecular/mtor/README.md)** — impaired autophagy contributes to TDP-43 and SOD1 aggregate accumulation; rapamycin reduces aggregate burden in ALS mouse models; p62/SQSTM1 and optineurin (autophagy receptors) are consistent components of ALS inclusions, indicating failed selective autophagy.
+
+- `targets` → **[Brain](../../../06-organ/brain/README.md)** — ALS targets upper motor neurons (Betz cells, layer V primary motor cortex) and lower motor neurons (brainstem/spinal anterior horn); cortical hyperexcitability and reduced cortical inhibition precede clinical onset; cognitive/behavioral changes occur in ~50% (ALS-FTD spectrum).
+
+[^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
+[^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
+[^miller-2023-tofersen-als]: Miller TM, Cudkowicz ME, Genge A, et al. Trial of Antisense Oligonucleotide Tofersen for SOD1 ALS. *N Engl J Med.* 2022;387(12):1099-1110. [doi:10.1056/NEJMoa2204705](https://doi.org/10.1056/NEJMoa2204705) · [PubMed 36129998](https://pubmed.ncbi.nlm.nih.gov/36129998/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
