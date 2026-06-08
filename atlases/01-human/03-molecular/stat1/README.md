@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/07-system/influenza
     relation: connects-to
     note: "Influenza NS1 blocks ISGF3 by dsRNA sequestration and TRIM25 inhibition; PA-X degrades host mRNAs; H5N1 drives cytokine storm by overwhelming STAT1/SOCS1 feedback; NS1 IFN antagonism is the virulence determinant distinguishing pandemic from seasonal influenza strains."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Chronic HCV drives ISG pre-activation via low-grade IFN-α → STAT1/STAT2/ISGF3 saturated → pegIFN-α fails to induce additional antiviral ISGs; IL28B TT genotype = high baseline ISG expression → pegIFN non-response; DAAs achieve SVR regardless of STAT1/ISG baseline."
 ---
 
 # STAT1
@@ -128,3 +131,5 @@ Null or dominant-negative LOF mutations → absent/non-functional STAT1 → IFN-
 **→ [Tuberculosis](../../../07-system/tuberculosis/)**: IFN-γ → STAT1 → GAS → IRF1 → iNOS → NO kills intracellular Mtb; Mtb ManLAM and phenolic glycolipid suppress STAT1 signaling; STAT1 LOF → MSMD with disseminated BCG after vaccination and NTM infections — demonstrating STAT1 is non-redundant for mycobacterial defense.
 
 **→ [Influenza](../../../07-system/influenza/)**: Influenza NS1 blocks ISGF3 (STAT1/STAT2/IRF9) by dsRNA sequestration and TRIM25 inhibition; PA-X protein degrades host mRNAs; H5N1 avian influenza drives cytokine storm by overwhelming STAT1/SOCS1 negative feedback; NS1 IFN antagonism is the key virulence determinant distinguishing pandemic from seasonal strains.
+
+**→ [Hepatitis C](../../../07-system/hepatitis-c/)**: Chronic HCV drives ISG pre-activation via low-grade IFN-α → STAT1/STAT2/ISGF3 saturated → pegIFN-α fails to induce additional antiviral ISGs; IL28B TT genotype = high baseline ISG expression → pegIFN non-response; DAAs achieve SVR regardless of STAT1/ISG baseline.

@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/03-molecular/mavs
     relation: connects-to
     note: "MAVS (RIG-I/MDA5 RNA sensing) and cGAS-STING (dsDNA sensing) are the two parallel innate axes converging on TBK1-IRF3-IFN-β; MAVS senses cytosolic RNA; cGAS-STING senses cytosolic dsDNA; both are cleaved by viral proteases (HCV NS3/4A, dengue NS2B/NS3) to evade innate immunity."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "cGAS → cGAMP → STING → TBK1 → IRF3 Ser396 phosphorylation → IRF3 dimerization → nuclear import → IFN-β; STING Golgi trafficking positions TBK1 for IRF3 phosphorylation; IRF3 is the shared convergence transcription factor for both cGAS-STING and MAVS innate sensing."
 ---
 
 # cGAS-STING
@@ -122,3 +125,5 @@ STING → TRAF6 (K63-linked ubiquitination) → TAK1 → IKKβ → IκBα phosph
 **→ [NF-κB](../nf-kb/)**: STING activates NF-κB in parallel with IRF3: STING → TRAF6/IKKβ → IκBα degradation → NF-κB → TNF-α, IL-6, and inflammatory genes; NF-κB activation by STING is independent of IRF3 and drives the non-interferon inflammatory response to cytosolic DNA in sepsis.
 
 **→ [MAVS](../mavs/)**: MAVS (RIG-I/MDA5 RNA sensing) and cGAS-STING (dsDNA sensing) are the two parallel innate axes converging on TBK1-IRF3-IFN-β; MAVS senses cytosolic RNA; cGAS-STING senses cytosolic dsDNA; both are cleaved by viral proteases (HCV NS3/4A, dengue NS2B/NS3) to evade innate immunity.
+
+**→ [IRF3](../irf3/)**: cGAS → cGAMP → STING → TBK1 → IRF3 Ser396 phosphorylation → IRF3 dimerization → nuclear import → IFN-β; STING Golgi trafficking positions TBK1 for IRF3 phosphorylation; IRF3 is the shared convergence transcription factor for both cGAS-STING and MAVS innate sensing.

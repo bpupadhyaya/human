@@ -39,6 +39,12 @@ cross_links:
   - target: 01-human/07-system/influenza
     relation: connects-to
     note: "Influenza 5′ppp ssRNA activates RIG-I → TRIM25 → MAVS → TBK1/IRF3 → IFN-β; NS1 blocks TRIM25-mediated RIG-I ubiquitination and sequesters dsRNA → impairs MAVS activation; RIG-I/MAVS is the primary innate sensor for influenza A in respiratory epithelium."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "MAVS filament → TRAF3 → TBK1/IKKε → IRF3 C-terminal phosphorylation → homodimerization → nuclear translocation → IFN-β; HCV NS3/4A cleaves MAVS → IRF3 not activated → chronicity; MAVS-TBK1-IRF3 is the canonical antiviral RNA sensing axis."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "HCV NS3/4A cleaves MAVS at Cys508 → soluble MAVS cannot activate TBK1/IRF3; NS3/4A also cleaves TRIF → TLR3 signaling blocked; dual evasion of cytosolic and endosomal RNA sensing; MAVS cleavage is the paradigmatic mechanism by which an RNA virus establishes chronicity."
 ---
 
 # MAVS
@@ -122,3 +128,7 @@ Primary sensor for long dsRNA (>1 kb):
 **→ [NF-κB](../nf-kb/)**: MAVS activates NF-κB in parallel with IRF3: MAVS → TRAF6 → TAK1 → IKKβ → IκBα degradation → NF-κB → TNF-α, IL-6, and inflammatory gene expression; NF-κB activation by MAVS is important for the pro-inflammatory arm of antiviral innate immunity distinct from IFN production.
 
 **→ [Influenza](../../../07-system/influenza/)**: Influenza 5′ppp ssRNA activates RIG-I → TRIM25 → MAVS → TBK1/IRF3 → IFN-β; NS1 blocks TRIM25-mediated RIG-I ubiquitination and sequesters dsRNA → impairs MAVS activation; RIG-I/MAVS is the primary innate sensor for influenza A in respiratory epithelium.
+
+**→ [IRF3](../irf3/)**: MAVS filament → TRAF3 → TBK1/IKKε → IRF3 C-terminal phosphorylation → homodimerization → nuclear translocation → IFN-β; HCV NS3/4A cleaves MAVS → IRF3 not activated → chronicity; MAVS-TBK1-IRF3 is the canonical antiviral RNA sensing axis.
+
+**→ [Hepatitis C](../../../07-system/hepatitis-c/)**: HCV NS3/4A serine protease cleaves MAVS at Cys508 → soluble cytoplasmic MAVS cannot activate TBK1/IRF3; NS3/4A also cleaves TRIF; dual evasion of cytosolic and endosomal RNA sensing; MAVS cleavage by HCV is the paradigmatic example of viral innate immune subversion for chronicity.
