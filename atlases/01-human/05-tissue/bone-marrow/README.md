@@ -87,6 +87,9 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "GvHD originates from allogeneic bone marrow or peripheral blood stem cell transplantation; donor HSC engraftment in recipient bone marrow is required for GvHD; the marrow niche is reshaped by donor-derived immune reconstitution, influencing GvHD vs. GvL balance."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "AA results from T cell-mediated HSC destruction → hypocellular marrow (<25% cellularity) replaced by fat; 25-40% of AA patients have PNH clones (AA-PNH overlap continuum); marrow biopsy showing fat-replaced hypocellular marrow is the diagnostic hallmark."
 ---
 
 # Bone Marrow
@@ -139,3 +142,4 @@ Two functional types of bone marrow exist: **red marrow** (haematopoietically ac
 - **Clinical interventions:** Bone marrow / HSC transplantation (myeloablative conditioning then donor HSC infusion); growth factor support (G-CSF, EPO, THPO-mimetics); CAR-T manufacturing (ex vivo T-cell gene engineering using marrow-derived or mobilised T precursors).
 - `connects-to` → **[PNH](../../07-system/pnh/README.md)** — PNH arises from a single PIGA-mutant HSC in bone marrow; immune-mediated destruction of normal HSCs (aplastic anemia context) allows clonal expansion of GPI-deficient clone; 25-40% of aplastic anemia patients have PNH clones; PNH and AA overlap on a continuum.
 - `connects-to` → **[GvHD](../../07-system/gvhd/README.md)** — GvHD originates from allogeneic bone marrow or peripheral blood stem cell transplantation; donor HSC engraftment in recipient bone marrow is required for GvHD; the marrow niche is reshaped by donor-derived immune reconstitution, influencing GvHD vs. GvL balance.
+- `connects-to` → **[Aplastic Anemia](../../07-system/aplastic-anemia/README.md)** — AA results from T cell-mediated HSC destruction → hypocellular marrow (<25% cellularity) replaced by fat; 25-40% of AA patients have PNH clones (AA-PNH overlap continuum); marrow biopsy showing fat-replaced hypocellular marrow is the diagnostic hallmark.
