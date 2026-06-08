@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "MTB evades innate immunity by arresting phagosome maturation, secreting ESAT-6 to escape to cytosol, inhibiting MHC-II antigen presentation, and inducing regulatory T cells; CD4+ Th1 cells orchestrate granuloma; AIDS → CD4+ loss → TB reactivation is the paradigmatic example."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV-AIDS is the most important co-factor for TB reactivation globally: HIV depletes CD4+ Th1 cells and destroys granuloma integrity → latent TB reactivates; TB is the leading cause of AIDS-related death; concurrent ART + HRZE treatment mandatory; IRIS risk with early ART."
 ---
 
 # Tuberculosis
@@ -177,6 +180,7 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ activates macrophages to restrict MTB growth via phagosome acidification, ROS burst, and cathelicidin (LL-37) production; IFN-γ released by MTB-sensitised T cells in response to ESAT-6/CFP-10 is the molecular basis of IGRA diagnostic tests; IFNGR1/IFNGR2 loss → MSMD with disseminated MTB/BCG disease.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — TB is a classic ACD cause: MTB-driven IL-6 + TNF-α + IFN-γ → hepcidin elevation → functional iron deficiency; ACD severity tracks TB disease activity (smear positivity, cavitary extent); successful treatment resolves ACD within weeks to months.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — MTB exemplifies intracellular immune evasion: phagosome maturation arrest, ESAT-6-mediated cytosolic escape, MHC-II inhibition, Treg induction; CD4⁺ Th1 cells orchestrate granuloma through IFN-γ and IL-2; HIV-related CD4⁺ depletion → TB reactivation is the archetypal immunodeficiency-pathogen interaction.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is the single most powerful risk factor for TB reactivation; HIV-driven CD4⁺ T cell depletion collapses granuloma integrity → latent TB reactivates; TB is the leading cause of AIDS-related mortality worldwide; concurrent ART + HRZE are required; IRIS (immune reconstitution inflammatory syndrome) complicates early ART initiation in TB-HIV co-infection.
 
 ## See Also
 

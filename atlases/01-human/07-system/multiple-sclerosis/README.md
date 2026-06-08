@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barrier via CXCR6 → demyelination; secukinumab (anti-IL-17A) paradoxically worsened MS relapse rates in phase 2 trials — suggesting complex compensatory roles of IL-17A/Treg balance in CNS disease."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "CCR5+ Th1 cells are recruited to CNS white matter lesions in MS; CCR5-Δ32 carriers have modestly reduced MS severity in some cohorts; CCR5 ligands (CCL3/CCL4/CCL5) are elevated in MS CSF; CCR5 antagonism (maraviroc) is being explored in neuroinflammation trials."
 ---
 
 # Multiple Sclerosis
@@ -161,6 +164,7 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Th1 and Th17 cells are the primary MS pathogenic effectors; Th17 (CCR6+) breach the BBB via CCL20; both subsets attack myelin and activate microglia; natalizumab blocks VLA-4 integrin on T cells, preventing CNS trafficking.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — reactive astrocytes form glial scar in MS lesions, impeding OPC remyelination; astrocytes also sustain BBB integrity and produce neuroprotective factors (CNTF, LIF); astrocyte dysfunction is a primary driver of progressive MS and lesion repair failure.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barrier via CXCR6 → demyelination; secukinumab (anti-IL-17A) paradoxically worsened MS relapse rates in phase 2 trials — suggesting complex compensatory roles of IL-17A/Treg balance in CNS disease.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5⁺ Th1 cells are recruited to CNS white matter MS lesions via CCL3/CCL4/CCL5 chemokines; CCR5-Δ32 heterozygosity is associated with modestly reduced MS severity in some epidemiological cohorts; CCR5 antagonism (maraviroc) is being explored as adjunct anti-inflammatory therapy in neuroinflammation.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

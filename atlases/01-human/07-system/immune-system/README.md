@@ -316,6 +316,9 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: damaged-by
     note: "MTB is the paradigmatic intracellular pathogen evading innate immunity; granuloma (Th1/CD4+ T cells + macrophages) is the defining immune structure in TB; AIDS-related CD4+ depletion → TB reactivation; anti-TNF and anti-IL-12 therapy → highest TB reactivation risk."
+  - target: 01-human/07-system/hiv-aids
+    relation: damaged-by
+    note: "HIV-1 is the paradigmatic cause of acquired immunodeficiency: preferentially destroys CD4+ Th1 cells (gp120/CCR5 or CXCR4 entry) → AIDS-defining opportunistic infections; ART achieves undetectable viral load (U=U) but residual immune activation and CD4 dysfunction persist."
 ---
 
 # Immune System
@@ -409,6 +412,7 @@ After primary response contraction, long-lived memory cells persist:
 - `contains` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — C5a (C5aR1/C5aR2) → neutrophil/monocyte chemotaxis + NLRP3 inflammasome priming + Th1/Th17 polarization; C5b-9 MAC → cell lysis; dysregulated terminal complement → autoimmune injury in gMG (NMJ), NMOSD (astrocytes), aHUS (glomerular endothelium).
 - `contains` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 (p35+p40 heterodimer) is the master Th1-polarizing cytokine produced by dendritic cells and macrophages; drives IFN-γ from NK cells and T cells via JAK2/TYK2/STAT4/T-bet; IL12B/IL12RB1 loss → MSMD with recurrent BCG/NTM disease; ustekinumab (anti-p40) blocks both IL-12 and IL-23, carrying TB reactivation risk comparable to anti-TNF agents.
 - `damaged-by` → **[Tuberculosis](../tuberculosis/README.md)** — MTB is the archetypal intracellular pathogen: evades innate immunity via phagosome arrest, ESAT-6 cytosolic escape, MHC-II inhibition, and Treg induction; granuloma formation requires an intact Th1/IL-12/IFN-γ/TNF-α axis; CD4⁺ T cell depletion (HIV/AIDS) → TB reactivation is the defining CD4-dependent opportunistic infection.
+- `damaged-by` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV-1 is the paradigmatic cause of acquired immunodeficiency: selectively depletes CD4⁺ T helper cells via gp120/CD4/CCR5 entry → AIDS-defining opportunistic infections; residual immune dysregulation (T cell exhaustion, monocyte activation, chronic inflammation) persists even with fully suppressive ART.
 
 ## Pathology
 

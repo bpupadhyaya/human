@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: connects-to
     note: "TB is a major cause of ACD: MTB infection → sustained IL-6 + TNF-α + IFN-γ → hepcidin elevation → functional iron deficiency; ACD severity tracks TB activity; successful TB treatment restores haemoglobin; IL-12/IFN-γ activation is the predominant immune driver."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV is a major driver of ACD in sub-Saharan Africa: chronic viral replication + immune activation → IL-6 + IFN-γ → hepcidin elevation → functional iron deficiency; AZT directly suppresses erythropoiesis; ACD severity tracks viral load and CD4 depletion."
 ---
 
 # Anemia of Chronic Disease
@@ -183,6 +186,7 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Ferroportin is the cellular target of hepcidin in ACD; IL-6 → hepcidin → FPN internalization → iron trapping in macrophages and enterocytes → hypoferremia → iron-restricted erythropoiesis; FPN is also the therapeutic target — anti-HJV antibodies and ERFE mimetics restore FPN.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12-driven Th1 inflammation is the predominant immune mechanism linking chronic intracellular infection to ACD: IL-12 → IFN-γ + TNF-α → IL-6 → hepcidin; chronic IL-12/IFN-γ-driven diseases (TB, HIV, leishmaniasis) are classic ACD causes; IL-12-mediated nutritional immunity withholds iron from both pathogens and erythroid progenitors.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — TB is a leading global cause of ACD: MTB-driven IL-6 + TNF-α + IFN-γ → hepcidin elevation → functional iron deficiency and normochromic normocytic anemia; ACD severity tracks TB disease activity (smear positivity, cavitary disease); successful TB treatment typically resolves ACD within weeks to months.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is a major ACD driver in sub-Saharan Africa: chronic viral replication + immune activation → elevated IL-6 + IFN-γ → hepcidin-mediated iron sequestration; AZT (zidovudine) directly suppresses erythropoiesis (bone marrow toxicity); anemia severity correlates with viral load and CD4 depletion and responds to ART.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
