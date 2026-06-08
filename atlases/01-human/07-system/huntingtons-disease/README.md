@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "mHTT aggregates activate caspase-3 and caspase-9 in striatal MSNs via mitochondrial pathway; mHTT N-terminal fragments (calpain-cleaved) amplify caspase activation; caspase-3 inhibition with z-DEVD-fmk is neuroprotective in HD mouse models, supporting apoptosis as a driver."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "mHTT disrupts HTT's cytoplasmic REST/NRSF sequestration → nuclear REST represses BDNF transcription; mHTT also impairs HAP1-mediated BDNF vesicle transport from cortex to striatum → MSN trophic deprivation; BDNF/TrkB restoration is a key HD therapeutic goal."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Striatal MSNs receive massive glutamatergic input from cortex; mHTT sensitizes MSNs to NMDA receptor excitotoxicity via NR2B (GluN2B) dysregulation; riluzole and memantine reduce excitotoxic MSN death in HD models; E/I imbalance contributes to early HD cognitive symptoms."
+  - target: 01-human/06-organ/brain
+    relation: targets
+    note: "HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal volume loss and tracks disease progression by UHDRS total functional capacity."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -69,10 +78,10 @@ HD disrupts multiple neural circuit functions:
 
 ## Connections
 
-HTT CAG repeat ≥36 → polyglutamine mHTT aggregation → impaired proteostasis, mitochondrial dysfunction, and transcriptional dysregulation in striatal MSNs; caudate/putamen atrophy is the hallmark; juvenile HD (>60 CAG) presents with rigidity and seizures rather than chorea.
-
-Mutant huntingtin (mHTT) sequesters p62/SQSTM1 and impairs autophagosome formation → defective selective autophagy → mHTT aggregate accumulation → neuronal proteotoxicity; mTOR inhibitors (rapamycin) and autophagy enhancers reduce mHTT burden in HD mouse models.
-
-mHTT causes preferential degeneration of striatal MSNs expressing D1 and D2 dopamine receptors; early loss of indirect pathway MSNs (D2) → dopamine pathway imbalance → chorea; tetrabenazine (VMAT2 inhibitor) depletes presynaptic dopamine → suppresses choreiform movements.
-
-mHTT aggregates activate caspase-3 and caspase-9 in striatal MSNs via mitochondrial pathway; mHTT N-terminal fragments (calpain-cleaved) amplify caspase activation; caspase-3 inhibition with z-DEVD-fmk is neuroprotective in HD mouse models, supporting apoptosis as a driver.
+- `connects-to` → **[HTT](../../03-molecular/htt/README.md)** — HTT CAG repeat ≥36 → polyglutamine mHTT aggregation → impaired proteostasis, mitochondrial dysfunction, and transcriptional dysregulation in striatal MSNs; caudate/putamen atrophy is the hallmark; juvenile HD (>60 CAG) presents with rigidity and seizures rather than chorea.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — mutant huntingtin sequesters p62/SQSTM1 and impairs autophagosome formation → defective selective autophagy → mHTT accumulation → neuronal proteotoxicity; mTOR inhibitors and autophagy enhancers reduce mHTT burden in HD mouse models.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — mHTT causes preferential degeneration of striatal MSNs expressing D1 and D2 dopamine receptors; indirect pathway MSN (D2) loss → chorea; tetrabenazine (VMAT2 inhibitor) depletes presynaptic dopamine to suppress choreiform movements; approved FDA 2008.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — mHTT aggregates activate caspase-3 and caspase-9 in striatal MSNs via mitochondrial pathway; calpain-cleaved mHTT N-terminal fragments amplify caspase activation; caspase-3 inhibition is neuroprotective in HD mouse models.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — mHTT disrupts REST/NRSF cytoplasmic sequestration → nuclear REST represses BDNF transcription; mHTT also impairs HAP1-mediated BDNF vesicle transport from cortex to striatum → MSN trophic deprivation; BDNF/TrkB signaling restoration is a key therapeutic goal.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — striatal MSNs receive massive glutamatergic input from cortex; mHTT sensitizes MSNs to NMDA excitotoxicity via NR2B dysregulation; riluzole and memantine reduce excitotoxic MSN death in HD models; E/I imbalance contributes to early cognitive symptoms.
+- `targets` → **[Brain](../../06-organ/brain/README.md)** — HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal atrophy and tracks disease progression by UHDRS-TFC.

@@ -63,6 +63,9 @@ cross_links:
   - target: 01-human/07-system/als
     relation: connects-to
     note: "Glutamate excitotoxicity via impaired astrocytic EAAT2 (GLT-1) reuptake is a core ALS mechanism; motor neurons have high Ca²⁺-permeable AMPA receptor density increasing vulnerability; riluzole (first FDA-approved ALS drug, 1995) inhibits presynaptic glutamate release."
+  - target: 01-human/07-system/huntingtons-disease
+    relation: connects-to
+    note: "Striatal MSNs receive massive glutamatergic input from cortex; mHTT sensitizes MSNs to NMDA excitotoxicity via NR2B (GluN2B) dysregulation; riluzole and memantine reduce excitotoxic MSN death in HD models; E/I imbalance contributes to early HD cognitive symptoms."
 ---
 
 # Glutamate
@@ -152,6 +155,7 @@ In ischemia, oxygen/glucose deprivation reverses ion gradients and drives massiv
 - `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — NMDA receptors mediate fear memory consolidation and extinction in amygdala and vmPFC; D-cycloserine (partial NMDA agonist) enhances extinction in prolonged exposure therapy; ketamine reduces PTSD symptoms via BDNF/mTOR-mediated synaptic remodeling.
 - `connects-to` → **[Autism Spectrum Disorder](../../07-system/autism-spectrum-disorder/README.md)** — E/I imbalance toward excess excitation is a core ASD mechanism; SHANK3 and NLGN3 mutations disrupt postsynaptic NMDA/AMPA scaffolding; mGluR5 hyperactivation in Fragile X drives excess dendritic protein synthesis; mGluR5 antagonists failed Phase 2 in FXS.
 - `connects-to` → **[ALS](../../07-system/als/README.md)** — glutamate excitotoxicity via impaired astrocytic EAAT2 (GLT-1) reuptake is a core ALS mechanism; motor neurons are highly vulnerable due to Ca²⁺-permeable AMPA receptors and limited calcium buffering; riluzole (1995) reduces glutamate release and extends survival by ~3 months.
+- `connects-to` → **[Huntington Disease](../../07-system/huntingtons-disease/README.md)** — striatal MSNs receive massive glutamatergic input from cortex; mHTT sensitizes MSNs to NMDA excitotoxicity via NR2B (GluN2B) dysregulation; riluzole and memantine reduce excitotoxic MSN death in HD preclinical models; E/I imbalance contributes to early HD cognitive symptoms.
 
 ## Pathology
 

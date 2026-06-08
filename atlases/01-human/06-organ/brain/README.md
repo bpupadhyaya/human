@@ -100,6 +100,9 @@ cross_links:
   - target: 01-human/07-system/als
     relation: connects-to
     note: "ALS selectively degenerates upper motor neurons (primary motor cortex Betz cells) and their corticospinal projections; motor cortex hyperexcitability is an early feature; TDP-43 inclusions appear in motor cortex neurons in >97% of ALS; motor cortex atrophy is detectable by MRI."
+  - target: 01-human/07-system/huntingtons-disease
+    relation: connects-to
+    note: "HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal atrophy and tracks disease progression by UHDRS total functional capacity."
 ---
 
 # Brain
@@ -175,6 +178,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — the brain consumes ~20% of cardiac output; autoregulation and baroreceptor reflex link the two systems
 - `targeted-by` → **[Migraine](../../07-system/migraine/README.md)** — migraine involves cortical spreading depression (CSD) as the aura generator in occipital cortex; hypothalamus drives prodromal symptoms; pain localizes to TNC and thalamus; PET identifies a brainstem migraine generator in dorsal raphe and PAG.
 - `connects-to` → **[ALS](../../07-system/als/README.md)** — ALS selectively degenerates upper motor neurons (primary motor cortex Betz cells) and their corticospinal projections; motor cortex hyperexcitability is an early feature; TDP-43 inclusions appear in motor cortex neurons in >97% of ALS; motor cortex atrophy is detectable by MRI.
+- `connects-to` → **[Huntington Disease](../../07-system/huntingtons-disease/README.md)** — HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal atrophy and tracks disease progression by UHDRS-TFC.
 
 ## Pathology
 
