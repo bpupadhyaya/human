@@ -18,6 +18,12 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Serum soluble ST2 (sST2, decoy IL-33 receptor) >35 ng/mL predicts HF mortality independent of BNP; IL-33/ST2 signaling in cardiomyocytes is cardioprotective against pressure overload; sST2 is FDA-cleared for HF risk stratification and monitoring response to therapy."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "RSV airway epithelial infection and syncytium formation release IL-33 from epithelial nuclei (DAMP) → ST2+ ILC2 activation → IL-4/IL-5/IL-13 → eosinophilia, mucus, airway hyperresponsiveness; RSV-IL-33-ILC2 axis drives early-life wheeze and subsequent asthma sensitization."
+  - target: 01-human/03-molecular/rsv-f-protein
+    relation: connects-to
+    note: "RSV F protein-mediated syncytium formation → mechanical stress → IL-33 release from epithelial nuclei; IL-33 → ST2/ILC2 → IL-4/IL-5/IL-13 → eosinophilia; nirsevimab (anti-F site Ø) prevents F-driven IL-33 release; anti-F vaccines reduce RSV-driven asthma sensitization."
 sources:
   - id: schmitz-2005-il33
     type: peer-reviewed
@@ -107,6 +113,10 @@ IL-33 from damaged bronchial epithelium → ST2+ ILC2 and mast cells → IL-5/IL
 IL-33 from damaged keratinocytes → ST2+ mast cells and ILC2 → Th2 priming and histamine release; TSLP + IL-33 + IL-25 cooperate as the three-alarmin cascade; scratching-induced epidermal damage releases IL-33 from keratinocyte nuclei and amplifies itch-scratch cycles.
 
 Serum soluble ST2 (sST2, decoy IL-33 receptor) >35 ng/mL predicts HF mortality independent of BNP; IL-33/ST2 signaling in cardiomyocytes is cardioprotective against pressure overload; sST2 is FDA-cleared for HF risk stratification and monitoring response to therapy.
+
+RSV airway epithelial infection and syncytium formation release IL-33 from epithelial nuclei (DAMP) → ST2+ ILC2 activation → IL-4/IL-5/IL-13 → eosinophilia, mucus, airway hyperresponsiveness; RSV-IL-33-ILC2 axis drives early-life wheeze and subsequent asthma sensitization.
+
+RSV F protein-mediated syncytium formation → mechanical stress → IL-33 release from epithelial nuclei; IL-33 → ST2/ILC2 → IL-4/IL-5/IL-13 → eosinophilia; nirsevimab (anti-F site Ø) prevents F-driven IL-33 release; anti-F vaccines reduce RSV-driven asthma sensitization.
 
 [^schmitz-2005-il33]: Schmitz J, Owyang A, Oldham E, et al. IL-33, an interleukin-1-like cytokine that signals via the IL-1 receptor-related protein ST2 and induces T helper type 2-associated cytokines. *Immunity.* 2005;23(5):479-490. [doi:10.1016/j.immuni.2005.09.015](https://doi.org/10.1016/j.immuni.2005.09.015) · [PubMed 16286016](https://pubmed.ncbi.nlm.nih.gov/16286016/)
 [^wechsler-2021-itepekimab]: Wechsler ME, Ruddy MK, Pavord ID, et al. Efficacy and Safety of Itepekimab in Patients with Moderate-to-Severe Asthma. *N Engl J Med.* 2021;385(18):1656-1668. [doi:10.1056/NEJMoa2024257](https://doi.org/10.1056/NEJMoa2024257) · [PubMed 34706177](https://pubmed.ncbi.nlm.nih.gov/34706177/)

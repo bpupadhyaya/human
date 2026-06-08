@@ -60,6 +60,12 @@ cross_links:
   - target: 01-human/03-molecular/cccdna
     relation: connects-to
     note: "HBV pgRNA reverse transcription generates dsRNA intermediates → RIG-I/MDA5 → MAVS → IFN-β; HBV evades MAVS by confining replication to nucleocapsid; HBx inhibits MAVS-dependent signaling; low MAVS activation during chronic HBV contributes to T cell exhaustion."
+  - target: 01-human/03-molecular/rsv-f-protein
+    relation: connects-to
+    note: "RSV F protein activates TLR4 → MyD88/NF-κB independently of RIG-I/MAVS; RSV replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; NS1 degrades TRIM25 → blocks MAVS activation; NS2 blocks STAT2/ISGs; F protein TLR4 signaling bypasses MAVS to drive neutrophilic inflammation."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "RSV NS1 degrades TRIM25 → blocks RIG-I K63-ubiquitination → impairs RIG-I/MAVS → reduced IFN-β; NS2 blocks STAT2 nuclear translocation → ISG suppression; NS1+NS2 together reduce MAVS-driven IFN-β ~10-fold; IFN-λ at mucosal surfaces is the dominant innate antiviral defense."
 ---
 
 # MAVS
@@ -157,3 +163,7 @@ Primary sensor for long dsRNA (>1 kb):
 **→ [West Nile Virus](../../../07-system/west-nile-virus/)**: WNV NS3-NS4A disrupts MAVS signaling and NS5 caps viral RNA preventing RIG-I/MAVS activation; MAVS → TBK1/IRF3 axis is the primary antiviral response against WNV; robust MAVS-IFN-β correlates with WNV control and reduces neuroinvasive disease.
 
 **→ [cccDNA](../cccdna/)**: HBV pgRNA reverse transcription in cytoplasmic nucleocapsids generates dsRNA replication intermediates → RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; HBV largely evades MAVS by encapsidating replication products within the nucleocapsid shell; HBx also inhibits MAVS-dependent IFN signaling; chronically low MAVS activation during HBV infection contributes to progressive T cell exhaustion and viral persistence.
+
+**→ [RSV F Protein](../rsv-f-protein/)**: RSV F protein activates TLR4 → MyD88/NF-κB independently of RIG-I/MAVS; RSV replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; NS1 degrades TRIM25 → blocks MAVS activation; NS2 blocks STAT2/ISGs; F protein TLR4 signaling bypasses MAVS to drive the neutrophilic component of RSV bronchiolitis.
+
+**→ [RSV](../../../07-system/rsv/)**: RSV NS1 degrades TRIM25 → blocks RIG-I K63-ubiquitination → impairs RIG-I/MAVS → reduced IFN-β; NS2 blocks STAT2 nuclear translocation → ISG suppression; NS1+NS2 together reduce MAVS-driven IFN-β ~10-fold; IFN-λ at mucosal surfaces is the dominant innate antiviral defense against RSV.

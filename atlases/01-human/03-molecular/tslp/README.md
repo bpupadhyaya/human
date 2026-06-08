@@ -18,6 +18,12 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "TSLP acts upstream of IL-4 in the type 2 cascade: TSLP → DCs (OX40L+) → Th2 differentiation → IL-4/IL-5/IL-13; TSLP also directly activates ILC2 → IL-4/IL-13 independent of T cells; blocking TSLP is conceptually superior to blocking individual downstream cytokines."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "RSV-induced airway epithelial damage and dsRNA release trigger TSLP from bronchial epithelium → TSLP receptor on ILC2/basophils → IL-4/IL-13 → Th2 sensitization and IgE; neonatal RSV-TSLP sensitization may explain the epidemiological RSV-asthma link in childhood."
+  - target: 01-human/03-molecular/rsv-f-protein
+    relation: connects-to
+    note: "RSV F protein-mediated epithelial damage and syncytium formation trigger TSLP from airway epithelium → TSLPR/IL-7Rα on ILC2 and basophils → IL-4/IL-13 → IgE; nirsevimab (anti-F site Ø mAb) prevents infection-driven TSLP → reduces Th2 sensitization in early life."
 sources:
   - id: corren-2021-tezepelumab-navigator
     type: peer-reviewed
@@ -121,6 +127,10 @@ TSLP → DC and ILC2 activation upstream of the Th2/eosinophil cascade; tezepelu
 Keratinocyte TSLP rises with allergen exposure, barrier disruption, and S. aureus toxins; TSLP → plasmacytoid DC and mast cell activation → Th2 priming; TSLP drives the atopic march; dupilumab and JAK inhibitors reduce TSLP-driven skin inflammation indirectly.
 
 TSLP acts upstream of IL-4 in the type 2 cascade: TSLP → DCs (OX40L+) → Th2 differentiation → IL-4/IL-5/IL-13; TSLP also directly activates ILC2 → IL-4/IL-13 independent of T cells; blocking TSLP is conceptually superior to blocking individual downstream cytokines.
+
+RSV-induced airway epithelial damage and dsRNA release trigger TSLP from bronchial epithelium → TSLP receptor on ILC2/basophils → IL-4/IL-13 → Th2 sensitization and IgE; neonatal RSV-TSLP sensitization may explain the epidemiological RSV-asthma link in childhood.
+
+RSV F protein-mediated epithelial damage and syncytium formation trigger TSLP from airway epithelium → TSLPR/IL-7Rα on ILC2 and basophils → IL-4/IL-13 → IgE; nirsevimab (anti-F site Ø mAb) prevents infection-driven TSLP → reduces Th2 sensitization in early life.
 
 [^corren-2021-tezepelumab-navigator]: Corren J, Menzies-Gow A, Harris JM, et al. Tezepelumab in adults with severe, uncontrolled asthma (NAVIGATOR): a phase 3 trial. *N Engl J Med.* 2021;384(19):1800-1809. [doi:10.1056/NEJMoa2034975](https://doi.org/10.1056/NEJMoa2034975) · [PubMed 33979488](https://pubmed.ncbi.nlm.nih.gov/33979488/)
 [^liu-2002-tslp-cloning]: Liu YJ. Thymic stromal lymphopoietin: master switch for allergic inflammation. *J Exp Med.* 2006;203(2):269-273. [doi:10.1084/jem.20051745](https://doi.org/10.1084/jem.20051745) · [PubMed 16476766](https://pubmed.ncbi.nlm.nih.gov/16476766/)
