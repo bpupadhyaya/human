@@ -51,6 +51,12 @@ cross_links:
   - target: 01-human/07-system/iga-nephropathy
     relation: connects-to
     note: "IgA nephropathy is a leading cause of CKD in young adults; mesangial IgA deposition → complement + CCL2 → tubulointerstitial fibrosis → eGFR decline; 20-40% of IgAN reach ESRD within 20 years; sparsentan (ETA/AT1R dual blocker) and iptacopan are disease-modifying therapies."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Hepcidin is elevated in CKD from reduced renal clearance and chronic inflammation; elevated hepcidin → functional iron deficiency → ESA hyporesponsiveness in CKD anemia; HIF-PHIs (roxadustat, daprodustat) suppress hepcidin via EPO→ERFE→BMP-SMAD inhibition."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "CKD anemia is the overlap of EPO deficiency and ACD mechanisms: reduced EPO from peritubular cell loss + hepcidin elevation from CKD inflammation/reduced clearance → combined functional iron deficiency + erythropoietic failure; IV iron + ESA are first-line for CKD anemia."
 ---
 
 # Chronic Kidney Disease
@@ -138,6 +144,8 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — FGF23 rises 100-1000× in CKD → suppresses 1α-hydroxylase → reduced calcitriol → secondary hyperparathyroidism and CKD-MBD; very high FGF23 predicts LVH, heart failure, and mortality in dialysis patients independent of traditional risk factors.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — OPN is upregulated in injured renal tubular epithelium → integrin αvβ3 on macrophages → macrophage recruitment and pro-inflammatory activation → tubulointerstitial fibrosis; urinary OPN predicts CKD progression; OPN inhibits calcium oxalate crystal adhesion (stone inhibitor).
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — IgA nephropathy is a leading cause of CKD in young adults; mesangial IgA deposition → complement + CCL2 → tubulointerstitial fibrosis → eGFR decline; 20-40% of IgAN reach ESRD within 20 years; sparsentan (ETA/AT1R dual blocker) and iptacopan are disease-modifying therapies.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hepcidin is elevated in CKD from reduced renal clearance and chronic inflammation; elevated hepcidin → functional iron deficiency → ESA hyporesponsiveness in CKD anemia; HIF-PHIs (roxadustat, daprodustat) suppress hepcidin via EPO→ERFE→BMP-SMAD inhibition.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — CKD anemia is the overlap of EPO deficiency and ACD mechanisms: reduced EPO from peritubular cell loss + hepcidin elevation from CKD inflammation/reduced clearance → combined functional iron deficiency + erythropoietic failure; IV iron + ESA are first-line for CKD anemia.
 
 ## Pathology
 

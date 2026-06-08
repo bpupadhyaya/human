@@ -35,6 +35,9 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "CKD destroys renal peritubular EPO-producing cells → EPO deficiency → normochromic normocytic anemia; treated with ESAs (darbepoetin, epoetin) or HIF-PHI (roxadustat, daprodustat); KDIGO target Hb 10–11 g/dL to balance anemia symptoms and thrombotic risk."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "In ACD, cytokines (TNF-α, IL-1β, IFN-γ) suppress renal EPO production and blunt EPO-R signaling on erythroid progenitors; elevated hepcidin sequesters iron needed for EPO-stimulated hemoglobin synthesis; HIF-PHIs (roxadustat) restore EPO and suppress hepcidin in CKD-ACD overlap."
 ---
 
 # Erythropoietin
@@ -112,6 +115,7 @@ EPO acts primarily at the **CFU-E stage** (committed erythroid progenitors, high
 - `expresses` → **[kidney](../../06-organ/kidney/README.md)** — ~90% of EPO is produced by peritubular fibroblast-like cells in the renal cortex/outer medulla, regulated by HIF-2α; CKD destroys these cells, causing EPO-deficiency anaemia
 - `modulates` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — EPO raises RBC mass and haematocrit; excessively high targets with rHuEPO increase thrombosis risk (CHOIR, TREAT trials)
 - `connects-to` → **[CKD](../../07-system/ckd/README.md)** — CKD destroys renal peritubular EPO-producing cells → EPO deficiency → normochromic normocytic anemia; treated with ESAs (darbepoetin, epoetin) or HIF-PHI (roxadustat, daprodustat); KDIGO target Hb 10–11 g/dL to balance anemia symptoms and thrombotic risk.
+- `connects-to` → **[Anemia of Chronic Disease](../../07-system/anemia-of-chronic-disease/README.md)** — In ACD, cytokines (TNF-α, IL-1β, IFN-γ) suppress renal EPO production and blunt EPO-R signaling on erythroid progenitors; elevated hepcidin sequesters iron needed for EPO-stimulated hemoglobin synthesis; HIF-PHIs (roxadustat) restore EPO and suppress hepcidin in CKD-ACD overlap.
 
 ## Pathology
 

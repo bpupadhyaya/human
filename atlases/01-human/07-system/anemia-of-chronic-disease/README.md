@@ -34,6 +34,12 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 is the primary upstream driver of ACD: IL-6 from macrophages in infection/autoimmune disease/malignancy → STAT3 → hepcidin → ferroportin degradation → iron-restricted erythropoiesis; IL-6 also suppresses EPO production → blunted erythropoietic response."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO production is suppressed in ACD by TNF-α/IL-1β/IFN-γ and EPO-R signaling is blunted by inflammatory cytokines → EPO hyporesponsiveness; ESAs (epoetin, darbepoetin) are used in CKD-ACD with Hgb target 10-11.5 g/dL; HIF-PHIs restore EPO while suppressing hepcidin."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "CKD anemia combines EPO deficiency (from peritubular cell loss) with ACD-driven hepcidin elevation and functional iron deficiency; target Hgb 10-11.5 g/dL with ESA + IV iron; HIF-PHIs (roxadustat) treat CKD anemia by restoring EPO and suppressing hepcidin simultaneously."
 ---
 
 # Anemia of Chronic Disease
@@ -163,6 +169,8 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hepcidin is the central molecular effector of ACD: IL-6 → STAT3 → hepcidin → ferroportin degradation → iron sequestration in macrophages/hepatocytes → hypoferremia → iron-restricted erythropoiesis; hepcidin pathway inhibitors (anti-HJV, ERFE mimetics) under development for ACD.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 is the primary upstream driver of ACD: IL-6 from macrophages in infection/autoimmune disease/malignancy → STAT3 → hepcidin → ferroportin degradation → iron-restricted erythropoiesis; IL-6 also suppresses EPO production → blunted erythropoietic response.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO production is suppressed in ACD by TNF-α/IL-1β/IFN-γ and EPO-R signaling is blunted by inflammatory cytokines → EPO hyporesponsiveness; ESAs (epoetin, darbepoetin) are used in CKD-ACD with Hgb target 10-11.5 g/dL; HIF-PHIs restore EPO while suppressing hepcidin.
+- `connects-to` → **[CKD](../ckd/README.md)** — CKD anemia combines EPO deficiency (from peritubular cell loss) with ACD-driven hepcidin elevation and functional iron deficiency; target Hgb 10-11.5 g/dL with ESA + IV iron; HIF-PHIs (roxadustat) treat CKD anemia by restoring EPO and suppressing hepcidin simultaneously.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
