@@ -49,6 +49,12 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: modulated-by
     note: "Modulated by Chloride."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Loss of GABAergic inhibitory tone — via SCN1A LOF, GABA-A subunit mutations, or interneuron loss — causes epilepsy; GABA-A potentiators (benzodiazepines, clobazam) and GABA-T inhibitors (valproate, vigabatrin) are the most widely used antiepileptic drug classes."
+  - target: 01-human/03-molecular/scn1a
+    relation: connects-to
+    note: "Nav1.1 (SCN1A) is the dominant sodium channel in PV+ GABAergic interneurons; SCN1A haploinsufficiency silences these interneurons → reduced GABA release → cortical disinhibition; clobazam (GABA-A modulator) and valproate (GABA-T inhibitor) are mainstay Dravet treatments."
 ---
 
 # GABA
@@ -156,6 +162,8 @@ When E/I balance shifts toward excess excitation (loss of GABAergic interneurons
 - `modulates` → **[synapse](../../05-tissue/synapse/README.md)** — mediates fast (GABA-A) and slow (GABA-B) inhibitory synaptic transmission
 - `modulates` → **[brain](../../06-organ/brain/README.md)** — governs E/I balance, oscillatory rhythms, and circuit stability across all brain regions
 - `part-of` → **[nervous-system](../../07-system/nervous-system/README.md)** — the dominant inhibitory neurotransmitter system
+- `connects-to` → **[Epilepsy](../../07-system/epilepsy/README.md)** — Loss of GABAergic inhibitory tone — via SCN1A LOF, GABA-A subunit mutations, or interneuron loss — causes epilepsy; GABA-A potentiators (benzodiazepines, clobazam) and GABA-T inhibitors (valproate, vigabatrin) are the most widely used antiepileptic drug classes.
+- `connects-to` → **[SCN1A](../scn1a/README.md)** — Nav1.1 (SCN1A) is the dominant sodium channel in PV+ GABAergic interneurons; SCN1A haploinsufficiency silences these interneurons → reduced GABA release → cortical disinhibition; clobazam (GABA-A modulator) and valproate (GABA-T inhibitor) are mainstay Dravet treatments.
 
 ## Pathology
 
