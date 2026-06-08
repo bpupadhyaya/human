@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulates
     note: "EPO raises RBC mass (↑O₂-carrying capacity) → ↑viscosity, ↑haematocrit; rHuEPO at Hb targets >12 g/dL increases thrombotic events (DVT, stroke, MI) via haemoconcentration and possible direct platelet activation."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "CKD destroys renal peritubular EPO-producing cells → EPO deficiency → normochromic normocytic anemia; treated with ESAs (darbepoetin, epoetin) or HIF-PHI (roxadustat, daprodustat); KDIGO target Hb 10–11 g/dL to balance anemia symptoms and thrombotic risk."
 ---
 
 # Erythropoietin
@@ -108,6 +111,7 @@ EPO acts primarily at the **CFU-E stage** (committed erythroid progenitors, high
 - `modulates` → **[bone-marrow](../../05-tissue/bone-marrow/README.md)** — EPO expands the erythroid progenitor pool in marrow, stimulating erythroid islands around macrophage nurse cells
 - `expresses` → **[kidney](../../06-organ/kidney/README.md)** — ~90% of EPO is produced by peritubular fibroblast-like cells in the renal cortex/outer medulla, regulated by HIF-2α; CKD destroys these cells, causing EPO-deficiency anaemia
 - `modulates` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — EPO raises RBC mass and haematocrit; excessively high targets with rHuEPO increase thrombosis risk (CHOIR, TREAT trials)
+- `connects-to` → **[CKD](../../07-system/ckd/README.md)** — CKD destroys renal peritubular EPO-producing cells → EPO deficiency → normochromic normocytic anemia; treated with ESAs (darbepoetin, epoetin) or HIF-PHI (roxadustat, daprodustat); KDIGO target Hb 10–11 g/dL to balance anemia symptoms and thrombotic risk.
 
 ## Pathology
 
