@@ -21,6 +21,9 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "LDL-C-driven carotid atherosclerosis causes ischemic stroke via thromboembolism; PCSK9 inhibitors (evolocumab, alirocumab) reduce stroke risk ~25% in post-MI patients; very low LDL-C (<25 mg/dL) with PCSK9 inhibition does not impair cognition and reduces stroke incidence."
+  - target: 01-human/07-system/familial-hypercholesterolemia
+    relation: connects-to
+    note: "PCSK9 GOF mutations cause autosomal dominant FH (ADH3); evolocumab and alirocumab reduce LDL-C 50-60% add-on to statins; inclisiran (PCSK9 siRNA) reduces LDL-C ~50% with Q6M dosing; standard of care for FH not at LDL goal on maximally tolerated statin."
 sources:
   - id: abifadel-2003-pcsk9-cloning
     type: peer-reviewed
@@ -105,3 +108,5 @@ PCSK9 binds LDLR extracellular domain → promotes lysosomal degradation instead
 Elevated LDL-C from PCSK9 GOF mutations accelerates coronary atherosclerosis → MI → ischemic cardiomyopathy and heart failure; PCSK9 inhibitors reduce MI risk in high-risk CVD patients; PCSK9 may also have direct myocardial effects via apoE and apoB receptor pathways.
 
 LDL-C-driven carotid atherosclerosis causes ischemic stroke via thromboembolism; PCSK9 inhibitors (evolocumab, alirocumab) reduce stroke risk ~25% in post-MI patients; very low LDL-C (<25 mg/dL) with PCSK9 inhibition does not impair cognition and reduces stroke incidence.
+
+- `connects-to` → **[Familial Hypercholesterolemia](../../07-system/familial-hypercholesterolemia/README.md)** — PCSK9 GOF mutations cause autosomal dominant FH (ADH3); evolocumab and alirocumab reduce LDL-C 50-60% add-on to statins; inclisiran (PCSK9 siRNA) reduces LDL-C ~50% with Q6M dosing; standard of care for FH not at LDL goal on maximally tolerated statin.

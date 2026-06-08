@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: modulated-by
     note: "Modulated by Arterial Wall."
+  - target: 01-human/07-system/familial-hypercholesterolemia
+    relation: connects-to
+    note: "FH results from impaired LDLR-mediated cholesterol clearance; LDLR mutations → fewer surface receptors → LDL-C >190 mg/dL (HeFH) or >500 mg/dL (HoFH LDLR null); excess cholesterol in macrophages → foam cells → atheromatous plaque."
 ---
 
 # Cholesterol
@@ -179,6 +182,7 @@ Peripheral cholesterol is exported back to liver via the **HDL pathway**:
 - **Modulates** → [Hepatocyte](../../04-cellular/hepatocyte/README.md): Liver is the central cholesterol hub — hepatocytes synthesise ~70% via mevalonate/HMGR, package into VLDL→LDL, clear LDL via LDLR, and convert cholesterol to bile acids via CYP7A1 [^goldstein-brown-1985].
 - **Modulated-by** → [Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md): Statins competitively inhibit HMGR (rate-limiting enzyme of mevalonate pathway) → ↓hepatic cholesterol → ↑LDLR expression → ↓LDL-C by 30–55%; primary and secondary prevention of MACE [^goldstein-brown-1985].
 - **Modulates** → [Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md): Cholesterol in cardiomyocyte sarcolemma and t-tubule membranes forms lipid rafts organising L-type Ca²⁺ channels, RyR2, and β-AR signalling platforms; depletion disrupts excitation-contraction coupling [^alberts-mol-cell-biology].
+- `connects-to` → **[Familial Hypercholesterolemia](../../07-system/familial-hypercholesterolemia/README.md)** — FH results from impaired LDLR-mediated cholesterol clearance; LDLR mutations → fewer surface receptors → LDL-C >190 mg/dL (HeFH) or >500 mg/dL (HoFH LDLR null); excess cholesterol in macrophages → foam cells → atheromatous plaque.
 
 ## Pathology
 
