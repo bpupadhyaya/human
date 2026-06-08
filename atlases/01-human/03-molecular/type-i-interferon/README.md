@@ -55,6 +55,9 @@ cross_links:
   - target: 01-human/07-system/aicardi-goutieres-syndrome
     relation: connects-to
     note: "AGS is the prototype genetic interferonopathy: TREX1/RNASEH2/SAMHD1/ADAR1 mutations → nucleic acid accumulation → cGAS-STING → constitutive IFN-α/β; CSF IFN-α >2 IU/mL is diagnostic; JAK inhibitors and reverse transcriptase inhibitors reduce IFN-α in clinical trials."
+  - target: 01-human/03-molecular/mavs
+    relation: connects-to
+    note: "MAVS is the mitochondrial adaptor for RIG-I/MDA5 RNA sensing → type I IFN: 5′ppp-dsRNA → RIG-I → MAVS prion-like filament → TRAF3/TBK1 → IRF3/IRF7 → IFN-α/β; MAVS and cGAS-STING are the two major parallel upstream inducers of type I IFN in antiviral innate immunity."
 ---
 
 # Type I Interferon

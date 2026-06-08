@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: regulates
     note: "TLR4/LPS → MyD88 → NF-κB → TNF-α transcription in macrophages; TNF-α is the first cytokine released in gram-negative sepsis within 90 minutes; thalidomide and dexamethasone suppress LPS-induced TNF-α via distinct mechanisms; TNF-α drives the clinical syndrome of endotoxaemia."
+  - target: 01-human/07-system/dengue-fever
+    relation: connects-to
+    note: "Dengue NS1 hexamer activates TLR4 on vascular endothelium → NF-κB → CXCL1, IL-8 → endothelial permeability; NS1 also disrupts glycocalyx via sialidase activation; TLR4-mediated endothelial activation is a key mechanism of plasma leakage in dengue hemorrhagic fever."
 ---
 
 # TLR4
@@ -106,3 +109,5 @@ OxLDL activates TLR4 on macrophages in arterial intima → MyD88/NF-κB → TNF-
 **→ [MyD88](../myd88/)**: MyD88 is the universal TLR4/TLR2/TLR7/TLR9 adaptor (except TLR3); TLR4-MyD88 → IRAK4-TRAF6 → NF-κB/MAPK → pro-inflammatory cytokines; MyD88 L265P drives constitutive NF-κB in lymphoma (Waldenstrom, DLBCL); MyD88 deficiency → invasive bacterial susceptibility.
 
 **→ [TNF-α](../tnf-alpha/)**: TLR4/LPS → MyD88 → NF-κB → TNF-α transcription in macrophages; TNF-α is the first cytokine released in gram-negative sepsis within 90 minutes; thalidomide and dexamethasone suppress LPS-induced TNF-α via distinct mechanisms; TNF-α drives the clinical syndrome of endotoxaemia.
+
+**→ [Dengue Fever](../../../07-system/dengue-fever/)**: Dengue NS1 hexamer activates TLR4 on vascular endothelium → NF-κB → CXCL1, IL-8 → endothelial permeability; NS1 also disrupts glycocalyx via sialidase activation; TLR4-mediated endothelial activation is a key mechanism of plasma leakage in dengue hemorrhagic fever.
