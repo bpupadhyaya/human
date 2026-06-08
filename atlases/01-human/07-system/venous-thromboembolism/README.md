@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/07-system/inherited-thrombophilia
     relation: connects-to
     note: "Inherited thrombophilia testing guides anticoagulation duration in VTE: FV Leiden and prothrombin G20210A heterozygotes require 3-6 months for first provoked VTE; high-risk deficiencies (AT, protein C/S) or recurrent unprovoked VTE → indefinite anticoagulation."
+  - target: 01-human/07-system/heparin-induced-thrombocytopenia
+    relation: connects-to
+    note: "HIT causes paradoxical DVT/PE (venous) and arterial thrombosis (HITT); occurs 5-10 days after heparin exposure; anti-PF4/heparin IgG → platelet activation → thrombin; argatroban, bivalirudin, and fondaparinux replace heparin in HIT; DOACs used for bridging to warfarin."
 ---
 
 # Venous Thromboembolism
@@ -170,6 +173,7 @@ cross_links:
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Elevated VWF promotes venous thrombosis by augmenting platelet recruitment and fibrin network formation; VWF is an acute-phase protein elevated in surgery, infection, cancer → increased VTE risk; ABO blood group affects VWF level (type O ~25% lower VWF → lower baseline VTE risk).
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Protein C deficiency (PROC mutations) is a rare but high-risk inherited thrombophilia (0.3% prevalence; 5-10× VTE risk); APC inactivates FVa/FVIIIa; warfarin-induced skin necrosis is uniquely dangerous in protein C-deficient patients starting warfarin without heparin bridge.
 - `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — Inherited thrombophilia testing guides anticoagulation duration in VTE: FV Leiden and prothrombin G20210A heterozygotes require 3-6 months for first provoked VTE; high-risk deficiencies (AT, protein C/S) or recurrent unprovoked VTE → indefinite anticoagulation.
+- `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — HIT causes paradoxical DVT/PE (venous) and arterial thrombosis (HITT); occurs 5-10 days after heparin exposure; anti-PF4/heparin IgG → platelet activation → thrombin; argatroban, bivalirudin, and fondaparinux replace heparin in HIT; DOACs used for bridging to warfarin.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

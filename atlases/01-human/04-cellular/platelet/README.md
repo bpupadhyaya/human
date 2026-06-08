@@ -44,6 +44,12 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "Anti-GPIIb/IIIa and anti-GPIb/IX IgG opsonize platelets for FcγR-mediated splenic destruction in ITP; CD8+ T cells also directly lyse platelets; romiplostim, eltrombopag (FDA 2008), fostamatinib (SYK inhibitor; FDA 2018), and efgartigimod (FcRn inhibitor; FDA 2023) are approved."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "PF4 (CXCL4) is the major CXC chemokine stored in platelet alpha-granules; released on platelet activation → neutralizes heparin locally + recruits neutrophils; in HIT, PF4-heparin complex forms the immunogenic neo-antigen that triggers anti-PF4 IgG → paradoxical thrombosis."
+  - target: 01-human/07-system/heparin-induced-thrombocytopenia
+    relation: connects-to
+    note: "Anti-PF4/heparin IgG crosslinks FcγRIIA on platelets → platelet activation → dense granule release + TXA2 → procoagulant microparticles → paradoxical thrombosis in HIT; activated platelets consumed → thrombocytopenia; platelet transfusion is contraindicated in HIT."
 ---
 
 # Platelet
@@ -107,6 +113,8 @@ Platelets perform two fundamental physiological roles: (1) primary haemostasis �
 - **Modulates Macrophage** (`../macrophage/README.md`): Activated platelets release PDGF, TGF-β, PF4 that recruit and polarise macrophages; platelet–macrophage interactions amplify inflammation in atherosclerosis and thromboinflammation.[^janeway-immunobiology]
 - `modulated-by` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — TPO (THPO, chr3q27.3) binds c-Mpl → JAK2/STAT5 → megakaryocyte proliferation and platelet shedding; platelet count inversely controls free TPO via Mpl-mediated absorption; romiplostim and eltrombopag stimulate megakaryopoiesis in ITP and aplastic anemia.
 - `connects-to` → **[Immune Thrombocytopenia](../../07-system/immune-thrombocytopenia/README.md)** — Anti-GPIIb/IIIa and anti-GPIb/IX IgG opsonize platelets for FcγR-mediated splenic destruction; CD8+ T cells directly lyse platelets; romiplostim, eltrombopag (FDA 2008), fostamatinib (SYK inhibitor; FDA 2018), and efgartigimod (FcRn inhibitor; FDA 2023) are approved therapies.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — PF4 (CXCL4) is the major CXC chemokine stored in platelet alpha-granules; released on platelet activation → neutralizes heparin locally + recruits neutrophils; in HIT, PF4-heparin complex forms the immunogenic neo-antigen that triggers anti-PF4 IgG → paradoxical thrombosis.
+- `connects-to` → **[Heparin-Induced Thrombocytopenia](../../07-system/heparin-induced-thrombocytopenia/README.md)** — Anti-PF4/heparin IgG crosslinks FcγRIIA on platelets → platelet activation → dense granule release + TXA2 → procoagulant microparticles → paradoxical thrombosis in HIT; activated platelets consumed → thrombocytopenia; platelet transfusion is contraindicated in HIT.
 
 ## Pathology
 

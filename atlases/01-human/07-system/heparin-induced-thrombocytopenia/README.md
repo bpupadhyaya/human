@@ -1,0 +1,200 @@
+---
+schema: human-scale-entry/v1
+id: heparin-induced-thrombocytopenia
+name: Heparin-Induced Thrombocytopenia
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-08
+summary: "Heparin-induced thrombocytopenia (HIT type 2) is an immune thrombocytopenia from anti-PF4/heparin IgG; platelet activation → paradoxical thrombosis. Stop heparin; switch to argatroban/bivalirudin/fondaparinux; avoid warfarin initially. 4T score guides clinical probability."
+aliases: ["HIT", "heparin-induced thrombocytopenia", "HIT type 2", "HITT", "heparin thrombocytopenia", "anti-PF4 antibody", "PF4-heparin antibody", "VITT"]
+sources:
+  - id: warkentin-2007-hit-review
+    type: peer-reviewed
+    cite: "Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention: the Seventh ACCP Conference on Antithrombotic and Thrombolytic Therapy. Chest. 2004;126(3 Suppl):311S-337S."
+    doi: "10.1378/chest.126.3_suppl.311S"
+    pmid: "15383477"
+    url: "https://doi.org/10.1378/chest.126.3_suppl.311S"
+  - id: greinacher-2021-vitt-nejm
+    type: peer-reviewed
+    cite: "Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. N Engl J Med. 2021;384(22):2092-2101."
+    doi: "10.1056/NEJMoa2104840"
+    pmid: "33835769"
+    url: "https://doi.org/10.1056/NEJMoa2104840"
+  - id: linkins-2012-hit-chest
+    type: clinical-guideline
+    cite: "Linkins LA, Dans AL, Moores LK, et al. Treatment and prevention of heparin-induced thrombocytopenia: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines. Chest. 2012;141(2 Suppl):e495S-e530S."
+    doi: "10.1378/chest.11-2303"
+    pmid: "22315270"
+    url: "https://doi.org/10.1378/chest.11-2303"
+cross_links:
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Anti-PF4/heparin IgG (predominantly IgG4) is the diagnostic antigen of HIT; formed when PF4-heparin complex → neo-antigen → IgG production; ELISA detects anti-PF4/heparin IgG (sensitive, ~97%; not specific); SRA (serotonin release assay) is the confirmatory gold standard."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Anti-PF4/heparin IgG crosslinks FcγRIIA on platelets → Gαq → IP3/DAG → Ca²⁺ → dense granule release (ADP, serotonin) + TXA2 → further platelet activation loop; platelet activation fragments generate procoagulant microparticles → thrombin → arterial and venous thrombosis."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "HIT causes paradoxical thrombosis: activated platelets generate procoagulant microparticles → thrombin generation; argatroban (DTI) and bivalirudin block thrombin in HIT; warfarin is contraindicated initially (protein C drops first → warfarin-induced limb gangrene risk)."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "HIT causes paradoxical DVT/PE (venous) and arterial thrombosis (HITT); occurs 5-10 days after heparin exposure; anti-PF4/heparin IgG → platelet activation → thrombin; argatroban, bivalirudin, and fondaparinux replace heparin in HIT; DOACs used for bridging to warfarin."
+---
+
+# Heparin-Induced Thrombocytopenia
+
+## Overview
+
+**Heparin-induced thrombocytopenia (HIT)** exists in two forms:
+- **Type 1 HIT** (non-immune; "heparin effect"): Direct heparin-mediated platelet sequestration; mild thrombocytopenia (<30% drop) within 1-4 days of heparin; self-limited; no treatment needed; resolves despite continued heparin
+- **Type 2 HIT** (immune-mediated; the clinically dangerous form): **Anti-PF4/heparin IgG** → platelet activation → severe thrombocytopenia (>50% drop) on days 5-10 + **paradoxical thrombosis**; life- and limb-threatening [^warkentin-2007-hit-review]
+
+**The HIT paradox:** Unlike typical thrombocytopenias where low platelets → bleeding risk, HIT causes **thrombosis** — the IgG-activated platelets are procoagulant, and the thromboembolic risk (30-50% if untreated) vastly outweighs the bleeding risk.
+
+**Epidemiology (Type 2 HIT):**
+- Incidence: ~0.5-5% with UFH; ~0.1-0.5% with LMWH; <0.01% with fondaparinux
+- Highest risk: Orthopedic and cardiac surgery patients receiving UFH for ≥5 days
+- Temporal pattern: Platelet drop at days 5-10 after first heparin exposure (earlier — within 24h — if re-exposed within 3 months: "rapid-onset HIT")
+- Anti-PF4/heparin seroconversion: ~7-17% of exposed surgical patients; only ~1-3% develop clinical HIT
+- Female sex: ~2× risk vs. male (estrogen-related immune response?)
+
+## Structure
+
+### The 4T Score — Pre-test clinical probability
+
+The **4T score** (0-8 points) stratifies HIT probability before diagnostic testing:
+
+| Criterion | 2 points | 1 point | 0 points |
+|:---------|:---------|:--------|:---------|
+| **T**hrombocytopenia | >50% fall + nadir ≥20×10⁹/L | 30-50% fall OR nadir 10-19×10⁹/L | <30% fall OR nadir <10×10⁹/L |
+| **T**iming of platelet fall | Days 5-10 (or ≤1 day if prior heparin in past 3 months) | >10 days OR timing unclear | ≤4 days without prior heparin exposure |
+| **T**hrombosis | New thrombosis; skin necrosis at injection sites; acute anaphylactic reaction after IV UFH | Progressive/recurrent thrombosis; erythematous skin lesions | None |
+| Other causes of **T**hrombocytopenia | None apparent | Possible other cause | Definite other cause |
+
+**Score interpretation:**
+- 0-3 (low): <5% HIT probability → HIT very unlikely, continue heparin
+- 4-5 (intermediate): ~14% probability → start alternate anticoagulation, send HIT antibody testing
+- 6-8 (high): >80% probability → stop heparin immediately, start non-heparin anticoagulant, send HIT testing
+
+**Do NOT wait for lab results to stop heparin in high-probability patients.**
+
+### Diagnostic testing
+
+| Test | Sensitivity | Specificity | Role |
+|:-----|:-----------|:------------|:-----|
+| **Anti-PF4/heparin IgG ELISA** | ~97% | ~74% | First-line screening; negative ELISA virtually excludes HIT; high optical density (OD >2.0) strongly predictive |
+| **Serotonin Release Assay (SRA)** | ~95% | ~97% | Gold standard confirmatory test; measures ¹⁴C-serotonin release from washed platelets in presence of patient serum + therapeutic heparin |
+| **Heparin-Induced Platelet Activation (HIPA)** | ~95% | ~98% | Functional assay; visual assessment of platelet aggregation |
+| **PIFA (platelet immunofluorescence assay)** | Variable | Variable | Less standardized; not preferred |
+
+**Testing caveat:** SRA is available only at reference labs — results may take 3-5 days. Do NOT wait for SRA to treat high-probability HIT. Act on clinical probability + ELISA.
+
+**The IgG-specific ELISA matters:** Total Ig (IgG + IgM + IgA) ELISA has higher sensitivity but lower specificity; IgG-specific ELISA correlates better with functional (SRA-positive) HIT and thrombotic risk.
+
+## Function
+
+### Pathophysiological cascade
+
+**The HIT thrombosis paradox — step by step:**
+
+```
+Heparin (UFH/LMWH) administration
+        ↓
+PF4 released from platelet alpha-granules → binds heparin
+        ↓
+PF4-heparin complex → neo-antigen exposed on PF4
+        ↓  (days 5-14: IgG production)
+Anti-PF4/heparin IgG (predominantly IgG4)
+        ↓
+IgG-PF4-heparin → FcγRIIA (CD32a) on platelets
+        ↓
+Gαq → IP₃/DAG → Ca²⁺ flux
+        ↓
+Dense granule release: ADP, serotonin, PF4
+TXA₂ synthesis (COX-1 → thromboxane A₂)
+        ↓
+Platelet activation loop: more PF4 → more complex → more IgG crosslinking
+        ↓
+Platelet microparticles (PS-exposing) → phospholipid surface for coagulation
+        ↓
+Prothrombin → THROMBIN → fibrin clot + platelet recruitment
+        ↓
+Arterial thrombi (limb, coronary, cerebral) + venous thrombi (DVT/PE, CVST)
+  SIMULTANEOUSLY with
+Platelet consumption → thrombocytopenia (paradox: clotting despite low platelets)
+```
+
+**Key consequence:** HIT can cause **any thrombotic event** — DVT/PE most common (HITT = HIT + thrombosis), but also arterial limb ischemia (often requiring amputation), MI, ischemic stroke, mesenteric ischemia, adrenal hemorrhage/necrosis (adrenal vein thrombosis).
+
+### HIT without thrombosis vs. HITT
+
+- **HIT without thrombosis:** Positive antibody + thrombocytopenia alone; thrombotic risk ~30% over next 30 days without treatment
+- **HITT (HIT + Thrombosis):** ~50% of HIT cases; treatment urgency even higher; higher mortality (~5-10%) and amputation risk
+
+## Pathology
+
+### Acute treatment [^linkins-2012-hit-chest]
+
+**Immediate (high-priority) actions:**
+1. **STOP all heparin** — including heparin flushes, LMWH, heparin-coated catheters, heparin in TPN; heparin-bonded lines
+2. **Start non-heparin anticoagulation IMMEDIATELY** — do not wait for lab confirmation in high-probability patients
+3. **Do NOT give platelet transfusions** — adds "fuel to the fire" (more PF4 released) → may worsen thrombosis
+4. **Do NOT start warfarin until platelets recover** (>150×10⁹/L) — warfarin-induced limb gangrene from protein C deficiency
+
+**Non-heparin anticoagulants (choose based on clinical context):**
+
+| Drug | Class | MOA | Half-life | Clearance | Monitoring | Notes |
+|:-----|:------|:----|:----------|:----------|:-----------|:------|
+| **Argatroban** (preferred) | Direct thrombin inhibitor | Reversible active-site DTI | ~45 min | Hepatic (safe in renal failure) | aPTT target 1.5-3× baseline | Falsely prolongs INR — challenge when bridging to warfarin |
+| **Bivalirudin** | Direct thrombin inhibitor | Bivalent reversible DTI | ~25 min | 80% enzymatic (plasma); 20% renal | aPTT or ACT | Short half-life → useful in procedural settings (PCI, CABG) |
+| **Fondaparinux** | Factor Xa inhibitor (indirect) | Anti-Xa via antithrombin | ~17-21 h | Renal (contraindicated CrCl <30) | Anti-Xa level (optional) | Very low HIT risk; not FDA-approved for HIT but widely used off-label |
+| **Danaparoid** | Heparanoid (anti-Xa) | Inhibits Xa via antithrombin | ~24 h | Renal | Anti-Xa level | FDA-approved for HIT in Europe; ~5% cross-reactivity with HIT antibodies; monitor |
+| **DOACs (rivaroxaban, apixaban)** | FXa inhibitors | Direct oral anti-Xa | 8-12 h | Renal + hepatic | Anti-Xa assay | Increasing use after acute phase; rivaroxaban has most HIT evidence (SWITCH study) |
+
+**Transitioning to warfarin:**
+- Wait until platelets recover to >150×10⁹/L before starting warfarin
+- Overlap warfarin with non-heparin anticoagulant for ≥5 days AND until INR ≥2.0 for ≥2 consecutive days
+- **Reason:** Warfarin drops protein C first (shortest half-life among vitamin K–dependent factors → 8h) → transient hypercoagulable state → warfarin-induced limb gangrene (venous limb gangrene) in HIT patients with already-thrombosed veins
+
+**Duration:** At least 3 months anticoagulation for HITT; at least 1 month for HIT without thrombosis.
+
+### Prevention and future heparin exposure
+
+- **HIT antibodies typically become undetectable within 3-6 months** (IgG half-life)
+- **Future heparin exposure after HIT:**
+  - If SRA-negative and >3-6 months since prior HIT: brief re-exposure may be acceptable in life-saving situations (e.g., cardiac bypass) under monitoring
+  - If SRA-positive: absolute avoidance of all heparin; use alternative anticoagulants; bivalirudin for cardiac bypass procedures
+- **Document allergy in medical records:** Alert patient, future providers
+
+### VITT (Vaccine-Induced Immune Thrombocytopenia with Thrombosis) [^greinacher-2021-vitt-nejm]
+
+**Key differences from classic HIT:**
+- Triggered by adenoviral vector COVID-19 vaccines (ChAdOx1, Ad26.COV2.S), NOT by heparin
+- Anti-PF4 antibodies form without heparin — bind PF4 directly
+- Onset: 4-28 days after vaccination
+- Characteristic thromboses: CVST (cerebral venous sinus thrombosis), splanchnic vein thrombosis (portal, mesenteric), adrenal vein thrombosis — unusual sites
+- Platelet count may be severely low (<30×10⁹/L); D-dimer markedly elevated
+
+**VITT diagnosis:** Thrombocytopenia + unusual thrombosis + positive anti-PF4 antibody (ELISA or SRA) in appropriate post-vaccination time window; heparin NOT required
+
+**VITT treatment:**
+1. **High-dose IVIG (1 g/kg × 2 days):** Saturates FcγR on platelets + monocytes; provides anti-idiotypic antibodies → reduces platelet activation
+2. **Non-heparin anticoagulation:** Fondaparinux, argatroban, or DOACs; **avoid heparin** (may worsen VITT by forming PF4-heparin-IgG triple complex)
+3. **Avoid platelet transfusion** (worsens thrombosis)
+4. **Avoid warfarin initially** (same protein C rationale as HIT)
+5. **Corticosteroids:** Considered in refractory VITT
+
+## Connections
+
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Anti-PF4/heparin IgG (predominantly IgG4) is the diagnostic antigen of HIT; formed when PF4-heparin complex → neo-antigen → IgG production; ELISA detects anti-PF4/heparin IgG (sensitive, ~97%; not specific); SRA (serotonin release assay) is the confirmatory gold standard.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Anti-PF4/heparin IgG crosslinks FcγRIIA on platelets → Gαq → IP3/DAG → Ca²⁺ → dense granule release (ADP, serotonin) + TXA2 → further platelet activation loop; platelet activation fragments generate procoagulant microparticles → thrombin → arterial and venous thrombosis.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — HIT causes paradoxical thrombosis: activated platelets generate procoagulant microparticles → thrombin generation; argatroban (DTI) and bivalirudin block thrombin in HIT; warfarin is contraindicated initially (protein C drops first → warfarin-induced limb gangrene risk).
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — HIT causes paradoxical DVT/PE (venous) and arterial thrombosis (HITT); occurs 5-10 days after heparin exposure; anti-PF4/heparin IgG → platelet activation → thrombin; argatroban, bivalirudin, and fondaparinux replace heparin in HIT; DOACs used for bridging to warfarin.
+
+[^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
+[^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
+[^linkins-2012-hit-chest]: Linkins LA, Dans AL, Moores LK, et al. Treatment and prevention of heparin-induced thrombocytopenia: ACCP 9th ed. Guidelines. *Chest.* 2012;141(2 Suppl):e495S-e530S. [doi:10.1378/chest.11-2303](https://doi.org/10.1378/chest.11-2303) · [PubMed 22315270](https://pubmed.ncbi.nlm.nih.gov/22315270/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
