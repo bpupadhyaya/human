@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/07-system/prurigo-nodularis
     relation: connects-to
     note: "~50-70% of PN patients have comorbid or preceding AD; both share Th2/Th22 axis and respond to dupilumab; PN represents a neural end-stage of the AD itch-scratch cycle with fibrotic nodules and central sensitization; dupilumab is approved for both PN and AD."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "IL-10 from regulatory B cells and Th2 cells dampens AD inflammation; paradoxically, Th2-skewed IL-4/IL-13 environment suppresses macrophage IL-10 production; imbalance between IL-10 and type-2 cytokines determines AD chronicity; IL-10 serum levels inversely correlate with SCORAD."
 ---
 
 # Atopic Dermatitis
@@ -178,6 +181,7 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `modulated-by` → **[IL-13](../../03-molecular/il-13/README.md)** — IL-13 → IL-13Rα1/IL-4Rα → STAT6 → FLG, claudin-1, loricrin suppression → barrier failure; IL-13 is the dominant effector in chronic AD lichenification and fibrosis; tralokinumab (ECZTRA 1/2: 38% IGA 0/1) and lebrikizumab (ADVOCATE: 43% IGA 0/1) target IL-13 specifically.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — IL-31 from Th2/mast cells in AD → IL-31RA on DRG sensory neurons → JAK1 → TRPV1/TRPA1 → itch; serum IL-31 correlates with AD pruritus severity; nemolizumab (anti-IL-31RA, 30 mg Q4W) reduces AD itch NRS ≥4-point in ~50% vs. ~21% (ARCADIA trials).
 - `connects-to` → **[Prurigo Nodularis](../prurigo-nodularis/README.md)** — ~50-70% of PN patients have comorbid or preceding AD; both share Th2/Th22 axis and respond to dupilumab; PN represents a neural end-stage of the AD itch-scratch cycle with fibrotic nodules and central sensitization; dupilumab is approved for both PN and AD.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 from regulatory B cells and Th2 cells dampens AD inflammation; paradoxically, Th2-skewed IL-4/IL-13 environment suppresses macrophage IL-10 production; imbalance between IL-10 and type-2 cytokines determines AD chronicity; IL-10 serum levels inversely correlate with SCORAD.
 
 [^weidinger-2018-atopic-dermatitis]: Weidinger S, Beck LA, Bieber T, Kabashima K, Steinhoff M. Atopic dermatitis. *Nat Rev Dis Primers.* 2018;4(1):1. [doi:10.1038/s41572-018-0001-z](https://doi.org/10.1038/s41572-018-0001-z) · [PubMed 30464227](https://pubmed.ncbi.nlm.nih.gov/30464227/)
 [^simpson-2016-dupilumab-ad]: Simpson EL, Bieber T, Guttman-Yassky E, et al. Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis. *N Engl J Med.* 2016;375(24):2335-2348. [doi:10.1056/NEJMoa1610020](https://doi.org/10.1056/NEJMoa1610020) · [PubMed 27690741](https://pubmed.ncbi.nlm.nih.gov/27690741/)

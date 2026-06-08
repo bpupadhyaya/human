@@ -86,6 +86,9 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: modulated-by
     note: "Modulated by Fibroblast."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "IL-6 amplifies acute GvHD: conditioning damage releases DAMPs → IL-6 from host APCs → JAK1/STAT3 in donor T cells → Th17 polarization; tocilizumab (anti-IL-6R) is studied as GvHD prophylaxis; IL-6 blockade with calcineurin inhibitors reduces GvHD incidence."
 ---
 
 # Interleukin-6
@@ -192,6 +195,7 @@ gp130 also activates:
 - `modulates` → **[immune-system](../../07-system/immune-system/README.md)** — Th17/Treg balance, plasma cell differentiation, effector T cell survival
 - `modulates` → **[liver](../../06-organ/liver/README.md)** — acute-phase response induction: CRP, fibrinogen, SAA, ferritin, hepcidin
 - `modulated-by` → **[immune-system](../../07-system/immune-system/README.md)** — upstream activators: TNF, IL-1β, LPS; suppressors: IL-10, glucocorticoids, tocilizumab
+- `connects-to` → **[GvHD](../../07-system/gvhd/README.md)** — IL-6 amplifies acute GvHD: conditioning damage releases DAMPs → IL-6 from host APCs → JAK1/STAT3 in donor T cells → Th17 polarization; tocilizumab (anti-IL-6R) is studied as GvHD prophylaxis; IL-6 blockade with calcineurin inhibitors reduces GvHD incidence.
 
 ## Pathology
 

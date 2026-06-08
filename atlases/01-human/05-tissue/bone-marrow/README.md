@@ -84,6 +84,9 @@ cross_links:
   - target: 01-human/07-system/pnh
     relation: connects-to
     note: "PNH arises from a single PIGA-mutant HSC in bone marrow; immune-mediated destruction of normal HSCs (aplastic anemia context) allows clonal expansion of GPI-deficient clone; 25-40% of aplastic anemia patients have PNH clones; PNH and AA overlap on a continuum."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "GvHD originates from allogeneic bone marrow or peripheral blood stem cell transplantation; donor HSC engraftment in recipient bone marrow is required for GvHD; the marrow niche is reshaped by donor-derived immune reconstitution, influencing GvHD vs. GvL balance."
 ---
 
 # Bone Marrow
@@ -135,3 +138,4 @@ Two functional types of bone marrow exist: **red marrow** (haematopoietically ac
 - **Pathological conditions:** Aplastic anaemia (HSC destruction/autoimmune suppression); leukaemia (malignant transformation of progenitors, displacing normal haematopoiesis); multiple myeloma (malignant plasma cells in marrow); myelofibrosis (JAK2/CALR/MPL mutations → fibrosis); bone marrow failure syndromes (Fanconi anaemia, dyskeratosis congenita); metastatic infiltration (marrow invasion by carcinoma → leukoerythroblastic blood picture).
 - **Clinical interventions:** Bone marrow / HSC transplantation (myeloablative conditioning then donor HSC infusion); growth factor support (G-CSF, EPO, THPO-mimetics); CAR-T manufacturing (ex vivo T-cell gene engineering using marrow-derived or mobilised T precursors).
 - `connects-to` → **[PNH](../../07-system/pnh/README.md)** — PNH arises from a single PIGA-mutant HSC in bone marrow; immune-mediated destruction of normal HSCs (aplastic anemia context) allows clonal expansion of GPI-deficient clone; 25-40% of aplastic anemia patients have PNH clones; PNH and AA overlap on a continuum.
+- `connects-to` → **[GvHD](../../07-system/gvhd/README.md)** — GvHD originates from allogeneic bone marrow or peripheral blood stem cell transplantation; donor HSC engraftment in recipient bone marrow is required for GvHD; the marrow niche is reshaped by donor-derived immune reconstitution, influencing GvHD vs. GvL balance.
