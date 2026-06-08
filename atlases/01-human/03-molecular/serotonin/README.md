@@ -45,6 +45,9 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "5-HT2A blockade in PFC by atypical antipsychotics (clozapine, olanzapine, risperidone) enhances dopaminergic output; 5-HT2A agonism by hallucinogens (LSD, psilocybin) models positive symptoms; serotonin-dopamine interaction shapes atypical antipsychotic efficacy."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Reduced serotonergic tone is central to MDD; SSRIs (fluoxetine, sertraline, escitalopram) are first-line antidepressants; tryptophan depletion triggers relapse in remitted patients; 5-HT1A autoreceptor desensitization explains the 2-4 week delayed onset of antidepressant effect."
 ---
 
 # Serotonin

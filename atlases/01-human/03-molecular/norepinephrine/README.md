@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: modulated-by
     note: "Norepinephrine is synthesised from dopamine by DβH in synaptic vesicles; the DA:NE ratio in sympathetic terminals is governed by DβH activity and vesicular transport capacity."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "NE deficit via locus coeruleus-PFC projection underlies psychomotor retardation in MDD; SNRIs (venlafaxine, duloxetine) and TCAs block NET; mirtazapine raises NE via α2 autoreceptor blockade; melancholic depression preferentially responds to NE-targeting antidepressants."
 ---
 
 # Norepinephrine
