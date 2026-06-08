@@ -64,6 +64,9 @@ cross_links:
   - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
     relation: damaged-by
     note: "Damaged by Pneumocystis jirovecii (formerly carinii)."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "PAH obliterates pulmonary arterioles (<500 µm) via medial hypertrophy, intimal fibrosis, and plexiform lesions → RV pressure overload → cor pulmonale; RHC required for diagnosis; mPAP >20 mmHg + PVR ≥2 WU + PAWP ≤15 mmHg."
 taxonomy:
   uberon: "UBERON:0002048"
   fma: "FMA:7195"
@@ -171,6 +174,7 @@ The lung is not purely a gas exchanger:
 - **Damaged-by** → [SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md): SARS-CoV-2 causes bilateral diffuse alveolar damage and ARDS — the most lethal manifestation of COVID-19.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A causes viral pneumonitis, primary influenza pneumonia, and secondary bacterial pneumonia — all causing alveolar and parenchymal lung damage.
 - **Damaged-by** → [Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md): Pulmonary TB destroys upper-lobe parenchyma via caseating granulomas, cavities, and progressive fibrosis.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../../07-system/pulmonary-arterial-hypertension/README.md)** — PAH obliterates pulmonary arterioles (<500 µm) via medial hypertrophy, intimal fibrosis, and plexiform lesions → RV pressure overload → cor pulmonale; RHC required for diagnosis; mPAP >20 mmHg + PVR ≥2 WU + PAWP ≤15 mmHg.
 
 ## Pathology
 

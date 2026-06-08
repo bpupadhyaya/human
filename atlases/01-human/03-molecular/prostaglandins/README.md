@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: modulates
     note: "NF-κB drives COX-2 transcription upon inflammatory stimulation; COX-2-derived PGE2 reciprocally activates NF-κB via EP1/EP3 → PKC → IKK (amplification loop). PGE2 also activates CREB and β-catenin, contributing to immune evasion in COX-2-overexpressing tumors."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "PAH endothelium produces insufficient PGI2 → IP receptor → cAMP → vasodilation and anti-proliferative; IV epoprostenol (Flolan) reduces mortality in severe PAH; inhaled iloprost, SC/IV treprostinil; selexipag (oral IP agonist) reduces morbidity 40% (GRIPHON trial)."
 ---
 
 # Prostaglandins (Eicosanoids)
@@ -198,6 +201,8 @@ Prostanoids are rapidly inactivated (~30 seconds to ~5 minutes depending on comp
 - **Modulates** → [Cardiovascular System](../../../../../01-human/07-system/cardiovascular-system/README.md): The TXA₂/PGI₂ balance is the central prostanoid cardiovascular axis. Platelet COX-1-derived TXA₂ (TP → Gq → platelet activation, vasoconstriction) is opposed by endothelial COX-1/2-derived PGI₂ (IP → Gs → vasodilation, ↓platelet aggregation). Aspirin's antithrombotic mechanism exploits the differential regeneration kinetics between anucleate platelets and nucleated endothelium.
 
 - **Modulates** → [NF-κB](../../../../../01-human/03-molecular/nf-kb/README.md): NF-κB (p65/p50) is the master transcriptional activator of COX-2 gene expression upon inflammatory stimulation. COX-2-derived PGE₂ reciprocally activates NF-κB via EP1/EP3 → Gq → PKC → IKK cascade, creating a feed-forward inflammatory amplification loop. This positive feedback loop — NF-κB → COX-2 → PGE₂ → NF-κB — is a major reason NSAIDs and COX-2 inhibitors have broad anti-inflammatory efficacy beyond simple eicosanoid suppression.
+
+- `connects-to` → **[Pulmonary Arterial Hypertension](../../07-system/pulmonary-arterial-hypertension/README.md)** — PAH endothelium produces insufficient PGI2 → IP receptor → cAMP → vasodilation and anti-proliferative; IV epoprostenol (Flolan) reduces mortality in severe PAH; inhaled iloprost, SC/IV treprostinil; selexipag (oral IP agonist) reduces morbidity 40% (GRIPHON trial).
 
 [^ricciotti-2011-prostaglandins-review]: Ricciotti E, FitzGerald GA. Arterioscler Thromb Vasc Biol. 2011;31(5):986-1000. doi:10.1161/ATVBAHA.110.207449
 [^funk-2001-prostaglandin-system]: Funk CD. Science. 2001;294(5548):1871-5. doi:10.1126/science.294.5548.1871

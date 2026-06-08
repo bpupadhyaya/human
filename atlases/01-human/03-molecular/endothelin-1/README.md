@@ -21,6 +21,9 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "ET-1 → ETA on mesangial cells and podocytes → glomerular hypertension and proteinuria; elevated urinary ET-1 predicts CKD progression; sparsentan (dual ERA + angiotensin receptor blocker) reduced proteinuria in IgA nephropathy (PROTECT trial Phase 3)."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "ET-1 is elevated in PAH; ETA on pulmonary VSM → vasoconstriction and medial hypertrophy → elevated PVR; ERAs (bosentan, ambrisentan, macitentan) are first-line oral PAH therapy; macitentan (SERAPHIN trial) reduced PAH morbidity/mortality by 45%."
 sources:
   - id: yanagisawa-1988-endothelin
     type: peer-reviewed
@@ -137,6 +140,8 @@ ET-1 promotes cardiac hypertrophy via ETA receptor → Gq/PKC → MAPK → fetal
 ET-1 and NO are opposing endothelial regulators: ET-1 (ETA) → vasoconstriction; eNOS-derived NO → vasodilation; ET-1 suppresses eNOS expression and NO bioavailability; endothelial ETB → NO and PGI2 release (protective counter-regulation within the endothelium itself).
 
 ET-1 → ETA on mesangial cells and podocytes → glomerular hypertension and proteinuria; elevated urinary ET-1 predicts CKD progression; sparsentan (dual ERA + angiotensin receptor blocker) reduced proteinuria in IgA nephropathy (PROTECT trial Phase 3).
+
+ET-1 is elevated in PAH; ETA on pulmonary VSM → vasoconstriction and medial hypertrophy → elevated PVR; ERAs (bosentan, ambrisentan, macitentan) are first-line oral PAH therapy; macitentan (SERAPHIN trial) reduced PAH morbidity/mortality by 45%.
 
 [^yanagisawa-1988-endothelin]: Yanagisawa M, Kurihara H, Kimura S, et al. A novel potent vasoconstrictor peptide produced by vascular endothelial cells. *Nature.* 1988;332(6163):411-415. [doi:10.1038/332411a0](https://doi.org/10.1038/332411a0) · [PubMed 2451132](https://pubmed.ncbi.nlm.nih.gov/2451132/)
 [^galie-2019-pah-guidelines]: Galie N, Channick RN, Frantz RP, et al. Risk stratification and medical therapy of pulmonary arterial hypertension. *Eur Respir J.* 2019;53(1):1801889. [doi:10.1183/13993003.01889-2018](https://doi.org/10.1183/13993003.01889-2018) · [PubMed 30545974](https://pubmed.ncbi.nlm.nih.gov/30545974/)

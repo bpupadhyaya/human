@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: modulated-by
     note: "Modulated by Smooth Muscle Cell."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Impaired eNOS and NO bioavailability in PAH endothelium → cGMP vasodilation failure; PDE5 inhibitors (sildenafil, tadalafil) prevent cGMP degradation → sustained vasodilation + anti-proliferative; sGC stimulators (riociguat) amplify NO-sGC-cGMP independent of endogenous NO."
 ---
 
 # Nitric Oxide
@@ -170,6 +173,7 @@ Under conditions of **BH₄ deficiency** (oxidised to BH₂ by ONOO⁻, H₂O₂
 - **Modulates** → [Macrophage](../../04-cellular/macrophage/README.md): iNOS in M1 macrophages generates sustained high-level NO + ONOO⁻ for pathogen killing; excess iNOS in sepsis produces vasodilatory NO causing refractory hypotension [^stryer-biochemistry].
 - **Modulates** → [Nervous System](../../07-system/nervous-system/README.md): nNOS NO is a retrograde synaptic messenger at glutamatergic synapses modulating LTP/LTD; NO in the ENS regulates GI motility; sacral parasympathetic nNOS drives penile erection [^alberts-mol-cell-biology].
 - **Modulates** → [NF-kB](../nf-kb/README.md): iNOS transcription is induced by NF-κB downstream of LPS/IFN-γ/TNF-α; NO in turn S-nitrosylates IκBα and p65/RelA cysteines, providing negative feedback on NF-κB activity [^stryer-biochemistry].
+- `connects-to` → **[Pulmonary Arterial Hypertension](../../07-system/pulmonary-arterial-hypertension/README.md)** — Impaired eNOS and NO bioavailability in PAH endothelium → cGMP vasodilation failure; PDE5 inhibitors (sildenafil, tadalafil) prevent cGMP degradation → sustained vasodilation + anti-proliferative; sGC stimulators (riociguat) amplify NO-sGC-cGMP independent of endogenous NO.
 
 ## Pathology
 
