@@ -85,6 +85,9 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "TLR4 is the principal upstream activator of NF-κB in innate immunity: LPS → TLR4/MyD88/IRAK4/TRAF6 → IKK → IκBα degradation → p65/p50 nuclear translocation → TNF-α, IL-12, IL-6; TLR4/NF-κB drives gram-negative sepsis and endotoxemia; TRIF runs parallel for IRF3/IFN-β."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "STING activates NF-κB via TRAF6/IKKβ in parallel with IRF3: cGAMP → STING → TRAF6 → TAK1 → IKK → IκBα degradation → NF-κB → TNF-α, IL-6; STING-NF-κB drives sterile inflammation in senescence (SASP) and autoimmunity distinct from the IRF3/IFN-β arm."
 ---
 
 # NF-κB
@@ -207,6 +210,7 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 - `connects-to` → **[BAFF](../baff/README.md)** — BAFF-R (TNFRSF13C) engagement activates non-canonical NF-κB (NIK → IKKα → p100 → p52/RelB) → BCL-2/BCL-XL → B-cell survival; TACI activates canonical NF-κB → class-switch recombination; belimumab (anti-BAFF; FDA Mar 2011) suppresses autoreactive B-cell NF-κB in SLE and Sjögren's.
 - `connects-to` → **[IL-1β](../il-1b/README.md)** — IL-1β signals via IL-1R1→MyD88→IRAK4→TRAF6→IKK→NF-κB → IL-6, TNF-α, COX-2, and MMP transcription; NF-κB also drives pro-IL-1β and NLRP3 expression creating amplification loops; IKKβ is the critical convergence point for IL-1β-induced NF-κB in synovitis and fever.
 - `connects-to` → **[TLR4](../tlr4/README.md)** — TLR4 is the principal upstream activator of NF-κB in innate immunity: LPS → TLR4/MyD88/IRAK4/TRAF6 → IKK → IκBα degradation → p65/p50 nuclear translocation → TNF-α, IL-12, IL-6; TLR4/NF-κB drives gram-negative sepsis and endotoxemia; TRIF runs parallel for IRF3/IFN-β.
+- `connects-to` → **[cGAS-STING](../cgas-sting/README.md)** — STING activates NF-κB via TRAF6/IKKβ in parallel with IRF3: cGAMP → STING → TRAF6 → TAK1 → IKK → IκBα degradation → NF-κB → TNF-α, IL-6; STING-NF-κB drives sterile inflammation in senescence (SASP) and autoimmunity distinct from the IRF3/IFN-β arm.
 
 ## Pathology
 

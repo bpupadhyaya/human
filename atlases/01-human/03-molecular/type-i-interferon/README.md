@@ -49,6 +49,12 @@ cross_links:
   - target: 01-human/07-system/sjogrens-syndrome
     relation: connects-to
     note: "Type I IFN signature is present in ~75% of pSS (highest in anti-Ro/SSA+ patients); pDCs sense anti-Ro/RNA complexes via TLR7 → IFN-α; IFN-α → BAFF upregulation → B-cell hyperactivation; IFN signature correlates with ESSDAI and systemic Sjögren's manifestations."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "cGAS-STING is the primary upstream inducer of type I IFN in response to cytosolic dsDNA: dsDNA → cGAS → cGAMP → STING → TBK1/IKKε → IRF3 → IFN-β transcription; cGAS-STING-driven type I IFN underlies SLE interferonopathy, AGS, anti-tumor immunity, and antiviral defense."
+  - target: 01-human/07-system/aicardi-goutieres-syndrome
+    relation: connects-to
+    note: "AGS is the prototype genetic interferonopathy: TREX1/RNASEH2/SAMHD1/ADAR1 mutations → nucleic acid accumulation → cGAS-STING → constitutive IFN-α/β; CSF IFN-α >2 IU/mL is diagnostic; JAK inhibitors and reverse transcriptase inhibitors reduce IFN-α in clinical trials."
 ---
 
 # Type I Interferon
@@ -164,6 +170,8 @@ Monogenic diseases of uncontrolled type I IFN production:
 - `connects-to` → **[Dermatomyositis](../../07-system/dermatomyositis/README.md)** — Type I IFN signature (↑MX1, ↑OAS1, ↑RSAD2) is elevated in muscle and blood in >80% of DM; anti-MDA5 (IFIH1) senses dsRNA → MAVS-TBK1-IRF3 → IFN-β; pDC infiltration drives DM interferonopathy; anifrolumab (anti-IFNAR1) under investigation for DM.
 - `connects-to` → **[NMOSD](../../07-system/nmo/README.md)** — IFN-β is CONTRAINDICATED in AQP4-IgG+ NMOSD — clinical trials showed IFN-β increases attack frequency; IFN-β may promote plasmablast differentiation → higher AQP4-IgG titers; distinguishes NMOSD from MS (where IFN-β is first-line).
 - `connects-to` → **[Sjögren's Syndrome](../../07-system/sjogrens-syndrome/README.md)** — Type I IFN signature is present in ~75% of pSS (highest in anti-Ro/SSA+ patients); pDCs sense anti-Ro/RNA complexes via TLR7 → IFN-α; IFN-α → BAFF upregulation → B-cell hyperactivation; IFN signature correlates with ESSDAI and systemic Sjögren's manifestations.
+- `connects-to` → **[cGAS-STING](../cgas-sting/README.md)** — cGAS-STING is the primary upstream inducer of type I IFN in response to cytosolic dsDNA: dsDNA → cGAS → cGAMP → STING → TBK1/IKKε → IRF3 → IFN-β transcription; cGAS-STING-driven type I IFN underlies SLE interferonopathy, AGS, anti-tumor immunity, and antiviral defense.
+- `connects-to` → **[Aicardi-Goutières Syndrome](../../07-system/aicardi-goutieres-syndrome/README.md)** — AGS is the prototype genetic interferonopathy: TREX1/RNASEH2/SAMHD1/ADAR1 mutations → nucleic acid accumulation → cGAS-STING → constitutive IFN-α/β; CSF IFN-α >2 IU/mL is diagnostic; JAK inhibitors and reverse transcriptase inhibitors reduce IFN-α in clinical trials.
 
 [^ivashkiv-2018-type-i-ifn-review]: Ivashkiv LB, Donlin LT. Regulation of type I interferon responses. *Nat Rev Immunol.* 2014;14(1):36-49. [doi:10.1038/nri3581](https://doi.org/10.1038/nri3581) · [PubMed 24362405](https://pubmed.ncbi.nlm.nih.gov/24362405/)
 [^morand-2020-anifrolumab-tulip2]: Morand EF, Furie R, Tanaka Y, et al. Trial of Anifrolumab in Active Systemic Lupus Erythematosus. *N Engl J Med.* 2020;382(3):211-221. [doi:10.1056/NEJMoa1912196](https://doi.org/10.1056/NEJMoa1912196) · [PubMed 31851795](https://pubmed.ncbi.nlm.nih.gov/31851795/)
