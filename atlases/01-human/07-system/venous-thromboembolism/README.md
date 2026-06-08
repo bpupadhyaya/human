@@ -37,6 +37,12 @@ cross_links:
   - target: 01-human/03-molecular/von-willebrand-factor
     relation: connects-to
     note: "Elevated VWF promotes venous thrombosis by augmenting platelet recruitment and fibrin network formation; VWF is an acute-phase protein elevated in surgery, infection, cancer → increased VTE risk; ABO blood group affects VWF level (type O ~25% lower VWF → lower baseline VTE risk)."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Protein C deficiency (PROC mutations) is a rare but high-risk inherited thrombophilia (0.3% prevalence; 5-10× VTE risk); APC inactivates FVa/FVIIIa; warfarin-induced skin necrosis is uniquely dangerous in protein C-deficient patients starting warfarin without heparin bridge."
+  - target: 01-human/07-system/inherited-thrombophilia
+    relation: connects-to
+    note: "Inherited thrombophilia testing guides anticoagulation duration in VTE: FV Leiden and prothrombin G20210A heterozygotes require 3-6 months for first provoked VTE; high-risk deficiencies (AT, protein C/S) or recurrent unprovoked VTE → indefinite anticoagulation."
 ---
 
 # Venous Thromboembolism
@@ -162,6 +168,8 @@ cross_links:
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Thrombin (FIIa) generates fibrin at the core of venous thrombi; stasis → contact activation → FXI → FIXa → FX → thrombin → fibrin-rich clot; DOACs (dabigatran, rivaroxaban, apixaban) target thrombin or FXa to prevent and treat VTE; LMWH inhibits thrombin via antithrombin.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — APS is the most important thrombophilia causing recurrent DVT/PE in young adults; triple-positive aPL (LA + aCL + anti-B2GPI) confers >10% annual thrombotic risk; warfarin INR 2-3 is superior to DOACs for VTE in APS; rivaroxaban doubled arterial event risk in triple-positive APS (TRAPS trial).
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Elevated VWF promotes venous thrombosis by augmenting platelet recruitment and fibrin network formation; VWF is an acute-phase protein elevated in surgery, infection, cancer → increased VTE risk; ABO blood group affects VWF level (type O ~25% lower VWF → lower baseline VTE risk).
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Protein C deficiency (PROC mutations) is a rare but high-risk inherited thrombophilia (0.3% prevalence; 5-10× VTE risk); APC inactivates FVa/FVIIIa; warfarin-induced skin necrosis is uniquely dangerous in protein C-deficient patients starting warfarin without heparin bridge.
+- `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — Inherited thrombophilia testing guides anticoagulation duration in VTE: FV Leiden and prothrombin G20210A heterozygotes require 3-6 months for first provoked VTE; high-risk deficiencies (AT, protein C/S) or recurrent unprovoked VTE → indefinite anticoagulation.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

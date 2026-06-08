@@ -30,6 +30,12 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "C1-INH inhibits FXII (Hageman factor) and FXIa, dampening contact activation that can also trigger thrombin generation; in HAE, FXII activation → kallikrein → bradykinin (not thrombin) dominates; C1-INH and thrombin pathways share FXII/FXIa as regulatory nodes."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Thrombin-thrombomodulin complex activates protein C → APC; APC + protein S inactivate FVa/FVIIIa → halts thrombin generation; APC has anti-inflammatory effects via EPCR/PAR-1 signaling; FV Leiden R506Q blocks APC cleavage at Arg506 → APC resistance → thrombophilia."
+  - target: 01-human/07-system/inherited-thrombophilia
+    relation: connects-to
+    note: "FV Leiden (5% Europeans; APC resistance) and prothrombin G20210A (~2-3%) are the most common inherited thrombophilias downstream of thrombin; FVL blocks APC cleavage of FVa → persistent thrombin generation; prothrombin G20210A → elevated prothrombin → excess thrombin."
 sources:
   - id: connolly-2009-re-ly
     type: peer-reviewed
@@ -146,6 +152,8 @@ Thrombin cleaves fibrinopeptides A and B from fibrinogen → fibrin monomers →
 - `connects-to` → **[Venous Thromboembolism](../../07-system/venous-thromboembolism/README.md)** — Thrombin is the central effector of venous thrombus formation: stasis → contact activation (FXI→FIXa) → FX → thrombin → fibrin; DOACs (dabigatran: direct thrombin inhibitor; rivaroxaban/apixaban: FXa inhibitors) prevent and treat DVT/PE; LMWH/UFH inhibit thrombin via antithrombin.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../../07-system/disseminated-intravascular-coagulation/README.md)** — Systemic TF/thrombin activation is the central mechanism of DIC: infection → cytokines → TF → FVIIa/TF → FX → thrombin → fibrin microthrombi; thrombin also exhausts protein C/S and antithrombin → feedback amplification; treat underlying cause first, heparin for thrombosis-dominant DIC.
 - `connects-to` → **[C1-Esterase Inhibitor](../c1-esterase-inhibitor/README.md)** — C1-INH inhibits FXII (Hageman factor) and FXIa, dampening contact activation that can also trigger thrombin generation; in HAE, FXII activation → kallikrein → bradykinin (not thrombin) dominates; C1-INH and thrombin pathways share FXII/FXIa as regulatory nodes.
+- `connects-to` → **[Protein C](../protein-c/README.md)** — Thrombin-thrombomodulin complex activates protein C → APC; APC + protein S inactivate FVa/FVIIIa → halts thrombin generation; APC has anti-inflammatory effects via EPCR/PAR-1 signaling; FV Leiden R506Q blocks APC cleavage at Arg506 → APC resistance → thrombophilia.
+- `connects-to` → **[Inherited Thrombophilia](../../07-system/inherited-thrombophilia/README.md)** — FV Leiden (5% Europeans; APC resistance) and prothrombin G20210A (~2-3%) are the most common inherited thrombophilias downstream of thrombin; FVL blocks APC cleavage of FVa → persistent thrombin generation; prothrombin G20210A → elevated prothrombin → excess thrombin.
 
 [^connolly-2009-re-ly]: Connolly SJ, Ezekowitz MD, Yusuf S, et al. Dabigatran versus warfarin in patients with atrial fibrillation. *N Engl J Med.* 2009;361(12):1139-1151. [doi:10.1056/NEJMoa0905561](https://doi.org/10.1056/NEJMoa0905561) · [PubMed 19717844](https://pubmed.ncbi.nlm.nih.gov/19717844/)
 [^mackman-2008-coagulation]: Mackman N. Triggers, targets and treatments for thrombosis. *Nature.* 2008;451(7181):914-918. [doi:10.1038/nature06797](https://doi.org/10.1038/nature06797) · [PubMed 18288180](https://pubmed.ncbi.nlm.nih.gov/18288180/)

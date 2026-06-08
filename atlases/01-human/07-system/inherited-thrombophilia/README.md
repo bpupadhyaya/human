@@ -1,0 +1,215 @@
+---
+schema: human-scale-entry/v1
+id: inherited-thrombophilia
+name: Inherited Thrombophilia
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "Inherited thrombophilias are genetic risk factors for VTE; Factor V Leiden R506Q (5% Europeans; APC resistance) and prothrombin G20210A are most common; protein C/S and antithrombin deficiencies are rarer but higher-risk. Duration of anticoagulation is the main clinical impact."
+aliases: ["inherited thrombophilia", "hereditary thrombophilia", "thrombophilia", "factor V Leiden", "FVL", "prothrombin G20210A", "APC resistance", "thrombophilic disorder"]
+sources:
+  - id: dahlback-2008-protein-c-review
+    type: peer-reviewed
+    cite: "Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. Blood. 2008;112(1):19-27."
+    doi: "10.1182/blood-2008-01-077909"
+    pmid: "18574048"
+    url: "https://doi.org/10.1182/blood-2008-01-077909"
+  - id: bertina-1994-factor-v-leiden
+    type: peer-reviewed
+    cite: "Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. Nature. 1994;369(6475):64-67."
+    doi: "10.1038/369064a0"
+    pmid: "8164741"
+    url: "https://doi.org/10.1038/369064a0"
+  - id: kearon-2016-antithrombotic-therapy
+    type: clinical-guideline
+    cite: "Kearon C, Akl EA, Ornelas J, et al. Antithrombotic therapy for VTE disease: CHEST guideline and expert panel report. Chest. 2016;149(2):315-352."
+    doi: "10.1016/j.chest.2015.11.026"
+    pmid: "26867832"
+    url: "https://doi.org/10.1016/j.chest.2015.11.026"
+cross_links:
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Protein C deficiency is the third most common inherited thrombophilia (0.3% prevalence; 5-10× VTE risk); APC pathway inactivates FVa/FVIIIa → thrombosis risk from impaired anticoagulant mechanism; warfarin-induced skin necrosis risk on protein C–deficient patients."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Factor V Leiden (R506Q) causes APC resistance: thrombin-activated FVa at Arg506 cannot be cleaved → uncontrolled prothrombinase complex → excess thrombin; thrombomodulin-bound thrombin activates protein C → the central anticoagulant checkpoint that FVL undermines."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "VTE (DVT/PE) is the primary manifestation of inherited thrombophilia; risk is multiplicative (FVL + OCP = 35× VTE risk); thrombophilia guides anticoagulation duration (indefinite for AT deficiency, homozygous FVL, compound heterozygous); do not test during acute VTE."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "APS is the most important acquired thrombophilia, causing indistinguishable VTE and arterial thrombosis to inherited thrombophilia; combined APS + inherited thrombophilia (e.g., FVL + triple-positive aPL) confers extreme thrombotic risk; APS is excluded by thrombophilia workup."
+---
+
+# Inherited Thrombophilia
+
+## Overview
+
+**Inherited thrombophilias** are genetic conditions that increase susceptibility to venous thromboembolism (VTE) — primarily deep vein thrombosis (DVT) and pulmonary embolism (PE) — due to constitutional imbalances in the coagulation system. The discovery of **Factor V Leiden** in 1994 [^bertina-1994-factor-v-leiden] established the molecular basis for the most common inherited thrombophilia and transformed understanding of thrombosis genetics.
+
+Inherited thrombophilias collectively account for an identifiable cause in ~30-50% of patients with unprovoked VTE, and identifying them influences counseling, duration of anticoagulation, and screening of family members. However, **many individuals with thrombophilia never develop VTE** — additional risk factors (surgery, immobility, pregnancy, hormonal therapy, malignancy) are usually required to trigger the first event. Conversely, most VTE events occur in people without identified thrombophilia.
+
+**Population prevalence and VTE risk:**
+
+| Condition | Mechanism | Prevalence | Heterozygous VTE risk | Notes |
+|:----------|:----------|:-----------|:---------------------|:------|
+| **Factor V Leiden (FVL)** | F5 R506Q → APC resistance | ~5% Caucasians; 1-2% African, <1% Asian | 4-8× | Most common; predominantly venous (not arterial) |
+| **Prothrombin G20210A** | F2 3'-UTR → ↑prothrombin levels | ~2-3% Caucasians | 2-3× | Second most common; associated with cerebral vein thrombosis |
+| **Protein C deficiency** | PROC loss-of-function | ~0.3% | 5-10× | Warfarin-induced skin necrosis risk; neonatal purpura fulminans (homozygous) |
+| **Protein S deficiency** | PROS1 mutations | ~0.1% | 5-10× | Type I (antigen + activity low), II (activity low), III (free PS low) |
+| **Antithrombin deficiency** | SERPINC1 mutations | ~0.05% | 10-20× | Most severe; heparin requires AT → heparin resistance |
+| **Homozygous FVL** | Both alleles R506Q | ~0.02% | 50-80× | High-risk; often warrants indefinite anticoagulation |
+| **Compound heterozygous** | FVL + PT G20210A | ~0.01% | 10-20× | High-risk; very high with additional triggers |
+
+**What is NOT a high-yield inherited thrombophilia (no longer routinely tested):**
+- **MTHFR C677T/A1298C:** Mild hyperhomocysteinemia; NOT an independent VTE risk factor; not recommended for testing (ACCP, ASH guidelines)
+- **PAI-1 4G/5G polymorphism:** Population data weak; not tested routinely
+
+## Structure
+
+### Molecular mechanisms of inherited thrombophilias
+
+**1. Factor V Leiden — APC resistance**
+
+Factor V (F5) has three main functional roles:
+- **Pro-coagulant:** As FVa (activated by thrombin or FXa), acts as co-factor for FXa in the prothrombinase complex → 300,000× acceleration of thrombin generation
+- **Anticoagulant:** Intact FV (non-activated) acts as APC co-factor for FVIIIa cleavage → amplifies APC anticoagulant function
+- **APC cleavage sites in FVa:** Arg506 (primary, rapid; abolishes most prothrombinase activity), Arg306 (secondary, slow; requires protein S), Arg679 (minor)
+
+**FVL R506Q effect:**
+- Prevents APC cleavage at Arg506 → FVa 10-20× more stable → prolonged prothrombinase → sustained thrombin
+- Also impairs FV anticoagulant function → reduces APC-mediated FVIIIa inactivation
+- Result: doubly impaired anticoagulation → hypercoagulability
+
+**2. Prothrombin G20210A — elevated prothrombin**
+
+The G20210A mutation is in the **3'-untranslated region (3'-UTR)** of the prothrombin (F2) gene, specifically at the polyadenylation cleavage site:
+- G→A transition → increased mRNA stability/efficiency → 20-30% higher plasma prothrombin (factor II) levels
+- More prothrombin → more thrombin potential → greater thrombin burst when coagulation is triggered
+- Less dramatic APC resistance effect than FVL; primarily quantitative hypercoagulability
+
+**3. Protein C deficiency (PROC)**
+
+See [Protein C molecular entry](../../03-molecular/protein-c/README.md) for full detail.
+- Type I (80%): Low antigen + low activity (quantitative deficiency)
+- Type II (20%): Normal antigen + low activity (dysfunctional protein)
+- APC cannot shut down FVa/FVIIIa → thrombin generation unchecked
+
+**4. Protein S deficiency (PROS1)**
+
+Protein S has three clinical subtypes:
+- Type I: Low total antigen, low free antigen, low activity (quantitative loss)
+- Type II: Normal antigen (total + free), low activity (qualitative)
+- Type III: Normal total antigen, low **free** protein S (increased binding to C4BP); most common type
+- Free protein S is the active APC co-factor; bound (to C4BP) is inactive
+- Normal in pregnancy: C4BP rises → free PS falls → physiological acquired thrombophilia
+
+**5. Antithrombin deficiency (SERPINC1)**
+
+Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and FXIa:
+- Type I (quantitative): Low antigen + low activity; more severe
+- Type II (qualitative): Normal antigen, low activity; specific subtypes affecting heparin binding site (HBS) vs. reactive site (RS)
+- **AT deficiency + heparin resistance:** Heparin works by accelerating AT-mediated thrombin inactivation (~1000-fold); if AT is severely depleted → heparin is less effective → clinical heparin resistance → may need AT concentrate first
+- Most severe inherited thrombophilia: unprovoked DVT often at young age, frequent recurrence; typically warrants indefinite anticoagulation
+
+## Function
+
+### Clinical presentation of inherited thrombophilia
+
+**When to suspect inherited thrombophilia:**
+- **Unprovoked** VTE (DVT/PE without surgery, immobility, trauma, cancer, pregnancy)
+- VTE at young age (<45-50 years)
+- **Recurrent** VTE (2+ events)
+- **Unusual site** thrombosis: cerebral vein thrombosis, portal vein thrombosis, splenic vein, Budd-Chiari syndrome — especially in young patients or those not receiving estrogen
+- VTE during pregnancy or oral contraceptive use
+- Strong **family history** of VTE (1st-degree relative with unprovoked VTE)
+- **Warfarin-induced skin necrosis** → screen for protein C or S deficiency
+
+**Risk amplification — multiplicative effects:**
+
+| Combination | Approximate VTE risk (vs. baseline ~1/1000/year) |
+|:-----------|:--------------------------------------------------|
+| OCP use alone | 4× |
+| FVL heterozygous alone | 7× |
+| FVL + OCP | **35×** (multiplicative, not additive) |
+| AT deficiency alone | 10-20× |
+| Pregnancy alone | 4-5× |
+| AT deficiency + pregnancy | 70-100× |
+| Triple-positive APS | 100-200× |
+
+### When NOT to test
+
+- **During acute VTE event:** Coagulation factors are consumed/altered → falsely low protein C, S, AT; FVL and prothrombin G20210A genotype testing are unaffected (DNA-based)
+- **While on anticoagulation:** Warfarin reduces protein C and S (vitamin K-dependent) → falsely low; heparin/LMWH may slightly affect AT; DOACs variably affect functional assays; wait 4-6 weeks after stopping warfarin, 24h after stopping DOACs
+- **During pregnancy:** Protein S falls physiologically; test postpartum
+- **Active infection/inflammation:** C4BP rises → free protein S falls (type III-like picture); AT may fall as acute-phase reactant
+
+## Pathology
+
+### Thrombophilia testing — what to order
+
+**Standard thrombophilia workup:**
+1. **FV Leiden genotype** (PCR, G1691A) — unaffected by anticoagulation
+2. **Prothrombin G20210A genotype** (PCR) — unaffected by anticoagulation
+3. **Protein C activity** (functional assay) — wait until off anticoagulation
+4. **Protein S activity** (functional; free PS antigen) — wait; unreliable in pregnancy/OCP/warfarin
+5. **Antithrombin activity** (functional) — wait; heparin may slightly lower AT
+6. **Antiphospholipid antibodies** (lupus anticoagulant, anticardiolipin IgG/IgM, anti-β2GPI IgG/IgM) — always test; APS is most clinically actionable acquired thrombophilia
+
+**NOT routinely recommended:**
+- MTHFR genotype (not an independent VTE risk factor)
+- Factor VIII levels (acute phase reactant; elevated transiently)
+- Homocysteine levels (not proven to benefit from treatment)
+
+### Treatment and duration of anticoagulation [^kearon-2016-antithrombotic-therapy]
+
+**First event, provoked VTE (surgery, trauma, major transient risk):**
+- 3 months anticoagulation — same as for patients without thrombophilia
+- Thrombophilia testing rarely changes management here
+
+**First event, unprovoked VTE + low-risk thrombophilia (FVL heterozygous, PT G20210A):**
+- At least 3-6 months; extended (indefinite) therapy is debated — shared decision-making based on bleeding risk vs. benefit
+- Men have higher recurrence risk after stopping anticoagulation than women — weight in decisions
+
+**First event, unprovoked VTE + high-risk thrombophilia:**
+- **AT deficiency:** Indefinite anticoagulation after first unprovoked VTE
+- **Protein C or S deficiency:** Indefinite generally recommended after first unprovoked VTE
+- **Homozygous FVL or compound heterozygous:** Indefinite anticoagulation after first unprovoked VTE
+
+**Arterial thrombosis (stroke, MI) + thrombophilia:**
+- Isolated inherited thrombophilias (FVL, PT G20210A) are **NOT** established risk factors for arterial thrombosis — anticoagulation not indicated for arterial events unless APS is concurrent
+- APS (acquired) → warfarin for stroke; rivaroxaban/apixaban have higher recurrence rates in APS (TRAPS trial)
+
+**Pregnancy management:**
+- FVL or PT G20210A heterozygous + prior VTE: Prophylactic LMWH throughout pregnancy + postpartum 6 weeks
+- AT deficiency + prior VTE: Therapeutic-dose LMWH throughout pregnancy; AT concentrate for delivery
+- No prior VTE, but high-risk thrombophilia: Individualize risk — some use postpartum LMWH; avoid estrogen-containing OCP postpartum
+
+**OCP/HRT counseling:**
+- FVL heterozygous + OCP: ~35× VTE risk → avoid estrogen-containing OCP; use progestin-only, IUD, barrier methods
+- AT deficiency: Avoid estrogen-containing OCP; progestin-only acceptable
+- Screening relatives for thrombophilia before starting OCP: Not universally recommended (cost-effectiveness debated); consider for high-risk families
+
+### Drug considerations
+
+| Thrombophilia | Special drug consideration |
+|:-------------|:--------------------------|
+| AT deficiency | Heparin resistance (needs more heparin or AT concentrate); DOACs preferred for long-term |
+| Protein C/S deficiency | Warfarin-induced skin necrosis risk — always bridge with parenteral anticoagulation when starting warfarin; DOACs do not cause skin necrosis |
+| FVL + OCP | OCP is major modifiable risk factor — strongly counsel to switch contraception |
+| APS | Warfarin superior to DOACs for arterial APS (rivaroxaban inferior in TRAPS trial); target INR 2.0-3.0 for venous APS; some centers use INR 3.0-4.0 for triple-positive APS |
+
+## Connections
+
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Protein C deficiency (0.3% prevalence; 5-10× VTE risk) impairs APC-mediated FVa/FVIIIa inactivation → thrombosis; warfarin-induced skin necrosis risk on protein C–deficient patients.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Factor V Leiden (R506Q) causes APC resistance: thrombin-activated FVa at Arg506 cannot be cleaved → uncontrolled prothrombinase complex → excess thrombin; thrombomodulin-bound thrombin activates protein C → the central anticoagulant checkpoint that FVL undermines.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — VTE (DVT/PE) is the primary manifestation of inherited thrombophilia; risk is multiplicative (FVL + OCP = 35× VTE risk); thrombophilia guides anticoagulation duration (indefinite for AT deficiency, homozygous FVL, compound heterozygous); do not test during acute VTE.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — APS is the most important acquired thrombophilia, causing indistinguishable VTE and arterial thrombosis to inherited thrombophilia; combined APS + inherited thrombophilia (e.g., FVL + triple-positive aPL) confers extreme thrombotic risk; APS is excluded by thrombophilia workup.
+
+[^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
+[^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
+[^kearon-2016-antithrombotic-therapy]: Kearon C, Akl EA, Ornelas J, et al. Antithrombotic therapy for VTE disease: CHEST guideline and expert panel report. *Chest.* 2016;149(2):315-352. [doi:10.1016/j.chest.2015.11.026](https://doi.org/10.1016/j.chest.2015.11.026) · [PubMed 26867832](https://pubmed.ncbi.nlm.nih.gov/26867832/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
