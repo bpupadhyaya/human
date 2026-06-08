@@ -38,6 +38,12 @@ cross_links:
   - target: 03-medicine/02-traditional/ginkgo-biloba
     relation: modulated-by
     note: "Modulated by Ginkgo biloba (EGb 761)."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: modulated-by
+    note: "TPO (THPO, chr3q27.3) binds c-Mpl → JAK2/STAT5 → megakaryocyte proliferation and platelet shedding; platelet count inversely regulates free TPO via Mpl-mediated absorption; romiplostim and eltrombopag (TPO-RAs) stimulate megakaryopoiesis in ITP and aplastic anemia."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "Anti-GPIIb/IIIa and anti-GPIb/IX IgG opsonize platelets for FcγR-mediated splenic destruction in ITP; CD8+ T cells also directly lyse platelets; romiplostim, eltrombopag (FDA 2008), fostamatinib (SYK inhibitor; FDA 2018), and efgartigimod (FcRn inhibitor; FDA 2023) are approved."
 ---
 
 # Platelet
@@ -99,6 +105,8 @@ Platelets perform two fundamental physiological roles: (1) primary haemostasis �
 - **Modulates Cardiovascular System** (`../../07-system/cardiovascular-system/README.md`): Platelets form the primary haemostatic plug at vascular injury sites; GPIIb/IIIa-fibrinogen crosslinks bridge aggregates; platelet activation in atherosclerotic plaque rupture initiates arterial thrombosis/MI/stroke.[^janeway-immunobiology]
 - **Modulated by Aspirin** (`../../../03-medicine/01-modern/04-cardio/aspirin/README.md`): Aspirin irreversibly acetylates COX-1 Ser529 in platelets, blocking TXA₂ synthesis; platelets cannot synthesise new COX-1 (anucleate), so aspirin effect lasts platelet lifespan (~8–10 days).[^alberts-mol-cell-biology]
 - **Modulates Macrophage** (`../macrophage/README.md`): Activated platelets release PDGF, TGF-β, PF4 that recruit and polarise macrophages; platelet–macrophage interactions amplify inflammation in atherosclerosis and thromboinflammation.[^janeway-immunobiology]
+- `modulated-by` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — TPO (THPO, chr3q27.3) binds c-Mpl → JAK2/STAT5 → megakaryocyte proliferation and platelet shedding; platelet count inversely controls free TPO via Mpl-mediated absorption; romiplostim and eltrombopag stimulate megakaryopoiesis in ITP and aplastic anemia.
+- `connects-to` → **[Immune Thrombocytopenia](../../07-system/immune-thrombocytopenia/README.md)** — Anti-GPIIb/IIIa and anti-GPIb/IX IgG opsonize platelets for FcγR-mediated splenic destruction; CD8+ T cells directly lyse platelets; romiplostim, eltrombopag (FDA 2008), fostamatinib (SYK inhibitor; FDA 2018), and efgartigimod (FcRn inhibitor; FDA 2023) are approved therapies.
 
 ## Pathology
 

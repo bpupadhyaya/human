@@ -37,6 +37,12 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "FcRn binds IgG Fc (CH2-CH3 interface) at pH <6.5 in endosomes → prevents lysosomal degradation → IgG transcytosed back to cell surface and released at neutral pH; IgG t½ ~21 days vs. ~1-2 days without FcRn; efgartigimod saturates FcRn → accelerates IgG catabolism."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "FcRn recycles anti-GPIIb/IIIa IgG sustaining pathogenic platelet antibody titers in ITP; efgartigimod (ADVANCE-SC: sustained platelet response ~22% vs ~5%; FDA Jun 2023) accelerates IgG catabolism; rozanolixizumab under investigation in MYRIAD trial."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "TPO-RAs (romiplostim, eltrombopag) and FcRn inhibitors (efgartigimod) target complementary ITP mechanisms — stimulating c-Mpl → platelet production vs. blocking FcRn → anti-platelet IgG catabolism; their combination is under clinical investigation."
 ---
 
 # FcRn
@@ -145,6 +151,8 @@ FcRn biology has enabled rational antibody engineering to extend or shorten ther
 - `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — Efgartigimod (Fc fragment competitor) and rozanolixizumab (anti-FcRn mAb) block FcRn → accelerated IgG catabolism including pathogenic anti-AChR IgG → 68-75% IgG reduction; efgartigimod FDA 2021 (ADAPT trial: 68% vs. 30% minimal symptom expression at week 12 in AChR+ MG).
 - `connects-to` → **[Systemic Lupus Erythematosus](../../07-system/systemic-lupus-erythematosus/README.md)** — Anti-dsDNA and other pathogenic SLE autoantibodies are IgG → recycled by FcRn; FcRn blockade (efgartigimod, nipocalimab) reduces SLE autoantibody titers ~60-70%; efgartigimod Phase 3 in SLE ongoing; FcRn blockade complements BLyS/BAFF inhibition by targeting IgG homeostasis.
 - `connects-to` → **[IgG](../immunoglobulin-g/README.md)** — FcRn binds IgG Fc (CH2-CH3 interface) at pH <6.5 in endosomes → prevents lysosomal degradation → IgG transcytosed back to cell surface and released at neutral pH; IgG t½ ~21 days vs. ~1-2 days without FcRn; efgartigimod saturates FcRn → accelerates IgG catabolism.
+- `connects-to` → **[Immune Thrombocytopenia](../../07-system/immune-thrombocytopenia/README.md)** — FcRn recycles anti-GPIIb/IIIa IgG sustaining pathogenic platelet antibody titers in ITP; efgartigimod (ADVANCE-SC: ~22% vs ~5% sustained platelet response; FDA Jun 2023) accelerates IgG catabolism; rozanolixizumab under investigation.
+- `connects-to` → **[Thrombopoietin](../thrombopoietin/README.md)** — TPO-RAs (romiplostim, eltrombopag) and FcRn inhibitors (efgartigimod) target complementary ITP mechanisms — stimulating c-Mpl → platelet production vs. blocking FcRn → anti-platelet IgG catabolism; combination under clinical investigation.
 
 [^roopenian-2007-fcrn-review]: Roopenian DC, Akilesh S. FcRn: the neonatal Fc receptor comes of age. *Nat Rev Immunol.* 2007;7(9):715-725. [doi:10.1038/nri2155](https://doi.org/10.1038/nri2155) · [PubMed 17703228](https://pubmed.ncbi.nlm.nih.gov/17703228/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
