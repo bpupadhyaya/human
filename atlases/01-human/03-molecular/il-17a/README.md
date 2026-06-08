@@ -41,6 +41,9 @@ cross_links:
   - target: 01-human/07-system/psoriatic-arthritis
     relation: connects-to
     note: "IL-17A is a central driver of PsA enthesitis, synovitis, and new bone formation; secukinumab (FUTURE 2: ACR20 54% vs 15%; FDA 2016) and ixekizumab (SPIRIT-P1/2; FDA 2017) are approved; entheseal ILC3 produce IL-17A independently of IL-23 in some PsA patients."
+  - target: 01-human/07-system/giant-cell-arteritis
+    relation: connects-to
+    note: "GCA involves Th17 (IL-17A) and Th1 (IFN-γ) CD4+ T cell infiltrate in the arterial adventitia; IL-17A amplifies macrophage/neutrophil recruitment and intimal hyperplasia; secukinumab (anti-IL-17A) and upadacitinib (JAK1 inhibitor; SELECT-GCA) are under investigation."
 ---
 
 # IL-17A
@@ -110,3 +113,5 @@ IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barr
 IL-17A drives enthesitis in AS: ILC3 and Th17 cells at entheses produce IL-17A → RANKL + MMP → bone erosion; WNT-driven new bone formation follows (syndesmophytes); secukinumab (MEASURE-1: ASAS20 61% vs. 29%) and ixekizumab (COAST-V) are FDA-approved for AS.
 
 IL-17A is a central driver of PsA enthesitis, synovitis, and new bone formation; secukinumab (FUTURE 2: ACR20 54% vs 15%; FDA 2016) and ixekizumab (SPIRIT-P1/2; FDA 2017) are approved; entheseal ILC3 produce IL-17A independently of IL-23 in some PsA patients. See [psoriatic-arthritis](../../07-system/psoriatic-arthritis/README.md).
+
+GCA involves Th17 (IL-17A) and Th1 (IFN-γ) CD4+ T cell infiltrate in the arterial adventitia; IL-17A amplifies macrophage/neutrophil recruitment and intimal hyperplasia; secukinumab (anti-IL-17A) and upadacitinib (JAK1 inhibitor; SELECT-GCA) are under investigation. See [giant-cell-arteritis](../../07-system/giant-cell-arteritis/README.md).

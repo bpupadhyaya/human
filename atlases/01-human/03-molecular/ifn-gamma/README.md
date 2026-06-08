@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "IFN-gamma is the dominant inducer of MHC class II expression via STAT1 → CIITA transcription → MHC-II upregulation on macrophages, DCs, and non-professional APCs; tumor cell MHC-II upregulation by IFN-gamma → T helper cell recognition → anti-tumor immune activation."
+  - target: 01-human/07-system/giant-cell-arteritis
+    relation: connects-to
+    note: "IFN-γ from Th1 CD4+ T cells drives macrophage activation → multinucleated giant cell formation and intimal hyperplasia in GCA; high IFN-γ in arterial tissue correlates with GCA activity and distinguishes GCA from Takayasu arteritis histologically."
 ---
 
 # IFN-gamma
@@ -152,6 +155,7 @@ IFN-gamma is the central cytokine connecting innate immune recognition and adapt
 - `connects-to` → **[NLRP3 Inflammasome](../nlrp3-inflammasome/README.md)** — IFN-gamma primes NLRP3 inflammasome expression via STAT1 → transcriptional upregulation of NLRP3 and pro-IL-1beta; synergizes with LPS or ATP → amplified IL-1beta; IFN-gamma + NLRP3 cooperation amplifies inflammation in gout, atherosclerosis, and anti-tumor immunity.
 - `connects-to` → **[NF-kB](../nf-kb/README.md)** — IFN-gamma activates NF-kB in macrophages via STAT1-IRF1 → iNOS, TNF-alpha, IL-12 → M1 macrophage polarization; IFN-gamma + TLR4 → synergistic NF-kB → M1 effector functions; sustained IFN-gamma + NF-kB drives macrophage-mediated autoimmune tissue injury.
 - `connects-to` → **[MHC Class II](../mhc-class-ii/README.md)** — IFN-gamma is the dominant inducer of MHC class II expression via STAT1 → CIITA transcription → MHC-II on macrophages, DCs, and non-professional APCs; tumor cell MHC-II induction by IFN-gamma enables T helper cell recognition and anti-tumor immune activation.
+- `connects-to` → **[Giant Cell Arteritis](../../07-system/giant-cell-arteritis/README.md)** — IFN-γ from Th1 CD4+ T cells drives macrophage activation → multinucleated giant cell formation and intimal hyperplasia in GCA; high IFN-γ in arterial tissue correlates with GCA activity and distinguishes GCA from Takayasu arteritis histologically.
 
 [^schroder-2004-ifng-review]: Schroder K, Hertzog PJ, Ravasi T, Hume DA. Interferon-gamma: an overview of signals, mechanisms and functions. *J Leukoc Biol.* 2004;75(2):163-189. [doi:10.1189/jlb.0603252](https://doi.org/10.1189/jlb.0603252) · [PubMed 14525967](https://pubmed.ncbi.nlm.nih.gov/14525967/)
 [^platanias-2005-jak-stat-ifn]: Platanias LC. Mechanisms of type-I- and type-II-interferon-mediated signalling. *Nat Rev Immunol.* 2005;5(5):375-386. [doi:10.1038/nri1604](https://doi.org/10.1038/nri1604) · [PubMed 15864272](https://pubmed.ncbi.nlm.nih.gov/15864272/)

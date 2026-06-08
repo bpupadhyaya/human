@@ -54,6 +54,9 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: modulates
     note: "TNF-α provides NF-κB-mediated priming (Signal 1) for NLRP3 expression; NLRP3-derived IL-1β synergizes with TNF-α in inflammatory signaling cascades."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "NLRP3 inflammasome processes pro-IL-1β → active IL-1β via caspase-1; urate crystals, cholesterol, CAPS gain-of-function mutations, and metabolic DAMPs → IL-1β-driven fever, neutrophilia, and synovitis; canakinumab (anti-IL-1β) and anakinra (IL-1Ra) block downstream IL-1β."
 ---
 
 # NLRP3 Inflammasome
@@ -159,6 +162,7 @@ Caspase-4/5 (human) and caspase-11 (mouse) can also cleave GSDMD in a non-canoni
 - `modulates` → **[IL-6](../il-6/README.md)** — NLRP3-derived IL-1β drives downstream IL-6 amplification
 - `modulated-by` → **[NF-κB](../nf-kb/README.md)** — NF-κB provides transcriptional priming of NLRP3 and pro-IL-1β
 - `modulates` → **[Heart](../../06-organ/heart/README.md)** — drives sterile myocardial inflammation and atherogenesis via cholesterol crystal activation
+- `connects-to` → **[IL-1β](../il-1b/README.md)** — NLRP3 inflammasome processes pro-IL-1β → active IL-1β via caspase-1; urate crystals, cholesterol, CAPS gain-of-function mutations, and metabolic DAMPs → IL-1β-driven fever, neutrophilia, and synovitis; canakinumab (anti-IL-1β) and anakinra (IL-1Ra) block downstream IL-1β.
 
 ## Pathology
 

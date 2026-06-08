@@ -98,6 +98,12 @@ cross_links:
   - target: 01-human/07-system/sjogrens-syndrome
     relation: connects-to
     note: "IL-6 is elevated in Sjögren's salivary glands and serum; drives plasma cell differentiation → anti-Ro/SSA and RF production; supports ectopic GC formation; ductal epithelial cells produce IL-6 locally → B-cell hyperactivation and lymphoma risk."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β is the upstream inducer of IL-6 from macrophages and stromal cells; IL-1β + IL-6 synergize in acute-phase response, Th17 differentiation, and vascular inflammation (GCA); canakinumab (anti-IL-1β) and tocilizumab (anti-IL-6R) are complementary therapeutic strategies."
+  - target: 01-human/07-system/giant-cell-arteritis
+    relation: connects-to
+    note: "IL-6 is the dominant systemic effector in GCA — drives CRP/ESR elevation, fever, and constitutional symptoms; tocilizumab (anti-IL-6R; GiACTA: 56% vs 18% sustained remission at 52 weeks; FDA May 2017) is the cornerstone biologic; IL-6 serum levels correlate with GCA activity."
 ---
 
 # Interleukin-6
@@ -208,6 +214,8 @@ gp130 also activates:
 - `connects-to` → **[Systemic Sclerosis](../../07-system/systemic-sclerosis/README.md)** — IL-6 is elevated in SSc serum and drives fibrosis via STAT3 → ↑TGF-β and CTGF; tocilizumab (anti-IL-6R) slowed FVC decline in SSc-ILD in the focuSSed trial; IL-6 levels correlate with skin score (mRSS) and ILD activity in dcSSc.
 - `connects-to` → **[NMOSD](../../07-system/nmo/README.md)** — IL-6 drives plasmablast expansion → AQP4-IgG production in NMOSD; satralizumab (anti-IL-6R; FDA Aug 2020) reduced ARR ~55% vs placebo (SAkuraStar); tocilizumab used off-label; IL-6R blockade reduces Th17-driven neuroinflammation.
 - `connects-to` → **[Sjögren's Syndrome](../../07-system/sjogrens-syndrome/README.md)** — IL-6 is elevated in Sjögren's salivary glands and serum; drives plasma cell differentiation → anti-Ro/SSA and RF production; supports ectopic GC formation; ductal epithelial cells produce IL-6 locally → B-cell hyperactivation and lymphoma risk.
+- `connects-to` → **[IL-1β](../il-1b/README.md)** — IL-1β is the upstream inducer of IL-6 from macrophages and stromal cells; IL-1β + IL-6 synergize in acute-phase response, Th17 differentiation, and vascular inflammation (GCA); canakinumab (anti-IL-1β) and tocilizumab (anti-IL-6R) are complementary therapeutic strategies.
+- `connects-to` → **[Giant Cell Arteritis](../../07-system/giant-cell-arteritis/README.md)** — IL-6 is the dominant systemic effector in GCA — drives CRP/ESR elevation, fever, and constitutional symptoms; tocilizumab (anti-IL-6R; GiACTA: 56% vs 18% sustained remission at 52 weeks; FDA May 2017) is the cornerstone biologic; IL-6 serum levels correlate with GCA activity.
 
 ## Pathology
 

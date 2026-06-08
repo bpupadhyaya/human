@@ -79,6 +79,9 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "BAFF-R (TNFRSF13C) engagement activates non-canonical NF-κB (NIK → IKKα → p100 → p52/RelB) → BCL-2/BCL-XL → B-cell survival; TACI activates canonical NF-κB → class-switch recombination; belimumab (anti-BAFF; FDA Mar 2011) suppresses autoreactive B-cell NF-κB in SLE and Sjögren's."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β signals via IL-1R1→MyD88→IRAK4→TRAF6→IKK→NF-κB → IL-6, TNF-α, COX-2, and MMP transcription; NF-κB also drives pro-IL-1β and NLRP3 expression creating amplification loops; IKKβ is the critical convergence point for IL-1β-induced NF-κB in synovitis and fever."
 ---
 
 # NF-κB
@@ -199,6 +202,7 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 - `connects-to` → **[Type I Interferon](../type-i-interferon/README.md)** — NF-κB (p65/p50) is required for IFN-β enhanceosome assembly with IRF3 + AP-1; TLR7/9 signals activate both NF-κB and IRF7 via MyD88 → parallel IFN-α/β and inflammatory cytokine production; type I IFN-induced SOCS1 provides negative feedback on NF-κB.
 - `modulated-by` → **[IL-36](../il-36/README.md)** — IL-36α/β/γ signal via IL-36R/IL-1RAcP → MyD88 → IRAK4 → TRAF6 → TAK1 → IKKβ → NF-κB p65; downstream: IL-6, CXCL1/8, CCL20, S100A proteins — key mediators of neutrophil recruitment in pustular psoriasis; IL-36Ra (IL36RN) limits this signaling.
 - `connects-to` → **[BAFF](../baff/README.md)** — BAFF-R (TNFRSF13C) engagement activates non-canonical NF-κB (NIK → IKKα → p100 → p52/RelB) → BCL-2/BCL-XL → B-cell survival; TACI activates canonical NF-κB → class-switch recombination; belimumab (anti-BAFF; FDA Mar 2011) suppresses autoreactive B-cell NF-κB in SLE and Sjögren's.
+- `connects-to` → **[IL-1β](../il-1b/README.md)** — IL-1β signals via IL-1R1→MyD88→IRAK4→TRAF6→IKK→NF-κB → IL-6, TNF-α, COX-2, and MMP transcription; NF-κB also drives pro-IL-1β and NLRP3 expression creating amplification loops; IKKβ is the critical convergence point for IL-1β-induced NF-κB in synovitis and fever.
 
 ## Pathology
 
