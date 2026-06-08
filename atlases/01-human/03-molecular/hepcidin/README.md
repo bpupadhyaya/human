@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Hepcidin is elevated in CKD from reduced renal clearance and chronic inflammation; elevated hepcidin → functional iron deficiency → ESA hyporesponsiveness in CKD anemia; HIF-PHIs (roxadustat, daprodustat) suppress hepcidin via EPO→ERFE→BMP-SMAD inhibition."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Transferrin saturation (TSAT) is sensed by hepatic TFR2/HJV → BMP6-SMAD → hepcidin; high TSAT → ↑ hepcidin → ferroportin degradation → iron restriction; low TSAT → ↓ hepcidin → iron mobilization; the hepcidin-transferrin axis is the core iron homeostasis feedback."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "β-thalassaemia major: massive ineffective erythropoiesis → ERFE from stress erythroblasts → suppresses BMP-SMAD → pathologically low hepcidin → iron overload despite anaemia; luspatercept reduces ERFE burden → partly restores hepcidin → decreases iron overload."
 ---
 
 # Hepcidin
@@ -154,6 +160,8 @@ Hepcidin has weak direct antimicrobial activity against bacteria and fungi at hi
 - `connects-to` → **[IL-6](../il-6/README.md)** — IL-6 is the primary inducer of hepcidin in acute inflammation and anemia of chronic disease; IL-6 → JAK1/2 → STAT3 → HAMP promoter → hepcidin synthesis and secretion; tocilizumab (anti-IL-6R) rapidly reduces serum hepcidin → iron mobilization → improved hemoglobin in RA and Castleman.
 - `connects-to` → **[Erythropoietin](../erythropoietin/README.md)** — ERFE (erythroferrone), produced by erythroblasts in response to EPO, suppresses hepcidin via BMP/SMAD inhibition → iron mobilization for erythropoiesis; ERFE excess in β-thalassemia overly suppresses hepcidin → iron overload; HIF-PHIs suppress hepcidin via EPO→ERFE axis.
 - `connects-to` → **[CKD](../../07-system/ckd/README.md)** — Hepcidin is elevated in CKD from reduced renal clearance and chronic inflammation; elevated hepcidin → functional iron deficiency → ESA hyporesponsiveness in CKD anemia; HIF-PHIs (roxadustat, daprodustat) suppress hepcidin via EPO→ERFE→BMP-SMAD inhibition.
+- `connects-to` → **[Transferrin](../transferrin/README.md)** — Transferrin saturation (TSAT) is sensed by hepatic TFR2/HJV → BMP6-SMAD → hepcidin; high TSAT → ↑ hepcidin → ferroportin degradation → iron restriction; low TSAT → ↓ hepcidin → iron mobilization; the hepcidin-transferrin axis is the core iron homeostasis feedback.
+- `connects-to` → **[Thalassemia](../../07-system/thalassemia/README.md)** — β-thalassaemia major: massive ineffective erythropoiesis → ERFE from stress erythroblasts → suppresses BMP-SMAD → pathologically low hepcidin → iron overload despite anaemia; luspatercept reduces ERFE burden → partly restores hepcidin → decreases iron overload.
 
 [^nemeth-2004-hepcidin-ferroportin]: Nemeth E, Tuttle MS, Powelson J, et al. Hepcidin regulates cellular iron efflux by binding to ferroportin and inducing its internalization. *Science.* 2004;306(5704):2090-2093. [doi:10.1126/science.1104742](https://doi.org/10.1126/science.1104742) · [PubMed 15514116](https://pubmed.ncbi.nlm.nih.gov/15514116/)
 [^ganz-2013-hepcidin-review]: Ganz T. Systemic iron homeostasis. *Physiol Rev.* 2013;93(4):1721-1741. [doi:10.1152/physrev.00008.2013](https://doi.org/10.1152/physrev.00008.2013) · [PubMed 24137020](https://pubmed.ncbi.nlm.nih.gov/24137020/)

@@ -35,6 +35,12 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "HbS (β-globin E6V; GAG→GTG) causes sickle cell disease via deoxygenated HbS polymerization → RBC sickling → haemolytic anaemia + vaso-occlusion; HbF (α2γ2) inhibits HbS polymerization; hydroxyurea ↑ HbF by 15-25% → reduces painful crises."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Transferrin (TF) delivers Fe³⁺ to erythroid precursors via TFR1-mediated endocytosis → haem synthesis → haemoglobin assembly; erythropoiesis accounts for ~80% of total body iron demand (~20 mg Fe/day); iron deficiency → microcytic hypochromic anaemia from insufficient haem."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Thalassaemias arise from imbalanced α/β-globin synthesis; β-thal major: excess α chains precipitate → ineffective erythropoiesis; α-thal (3-gene deletion): HbH (β₄) unstable tetramers; gene therapies (Zynteglo: lentiviral βA-T87Q; Casgevy: CRISPR BCL11A) are FDA-approved."
 ---
 
 # Hemoglobin
@@ -119,6 +125,8 @@ Globin gene expression during erythropoiesis is driven by transcription factors 
 - **Modulates cardiovascular system** — Hb determines blood O₂ content; anaemia ↓ O₂ delivery → compensatory ↑ cardiac output; Hb also buffers pH (Bohr protonation) and carries CO₂ as carbamino-Hb. See [cardiovascular-system](../../07-system/cardiovascular-system/README.md).
 - **Part of bone marrow** — Hb synthesis occurs in erythroid precursors (BFU-E → normoblasts → reticulocytes) in bone marrow; GATA-1/KLF1 drive globin gene expression during erythropoiesis. See [bone-marrow](../../05-tissue/bone-marrow/README.md).
 - `connects-to` → **[Sickle Cell Disease](../../07-system/sickle-cell-disease/README.md)** — HbS (β-globin E6V; GAG→GTG) causes sickle cell disease via deoxygenated HbS polymerization → RBC sickling → haemolytic anaemia + vaso-occlusion; HbF (α2γ2) inhibits HbS polymerization; hydroxyurea ↑ HbF by 15-25% → reduces painful crises.
+- `connects-to` → **[Transferrin](../transferrin/README.md)** — Transferrin (TF) delivers Fe³⁺ to erythroid precursors via TFR1-mediated endocytosis → haem synthesis → haemoglobin assembly; erythropoiesis accounts for ~80% of total body iron demand (~20 mg Fe/day); iron deficiency → microcytic hypochromic anaemia from insufficient haem.
+- `connects-to` → **[Thalassemia](../../07-system/thalassemia/README.md)** — Thalassaemias arise from imbalanced α/β-globin synthesis; β-thal major: excess α chains precipitate → ineffective erythropoiesis; α-thal (3-gene deletion): HbH (β₄) unstable tetramers; gene therapies (Zynteglo: lentiviral βA-T87Q; Casgevy: CRISPR BCL11A) are FDA-approved.
 
 ## Pathology
 
