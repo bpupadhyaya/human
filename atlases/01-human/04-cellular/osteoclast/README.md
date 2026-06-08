@@ -35,6 +35,9 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: modulated-by
     note: "RANKL (TNFSF11) binds RANK on osteoclast precursors → TRAF6 → NF-κB + AP-1 → NFATc1 → cathepsin K, TRAP, integrin β3 → mature resorbing osteoclast; OPG is the decoy receptor; denosumab mimics OPG to suppress osteoclastogenesis."
+  - target: 01-human/03-molecular/sclerostin
+    relation: modulated-by
+    note: "Romosozumab (anti-sclerostin) derepresses osteoblast Wnt → increased OPG → reduced RANKL/osteoclast activation; sclerostin blockade uniquely combines bone formation with antiresorption; dual mechanism achieved via OPG upregulation downstream of Wnt de-repression."
 ---
 
 # Osteoclast
@@ -83,6 +86,7 @@ HSC → common myeloid progenitor (CMP) → granulocyte-monocyte progenitor (GMP
 - **Modulates macrophage [^alberts-mol-cell-biology]:** Osteoclasts share the monocyte/macrophage lineage (CD68, CD14 low, MHC-II) and regulatory signals (M-CSF, Fc receptor); in inflammatory joint disease, macrophages at the pannus-bone interface are converted by RANKL into bone-eroding osteoclasts.
 - **Modulates IL-6 [^guyton-hall]:** IL-6 via gp130/STAT3 on osteoblasts increases RANKL expression and decreases OPG, tipping the balance toward osteoclastogenesis; IL-6 also acts directly on osteoclast precursors; tocilizumab (anti-IL-6R) reduces bone erosion in RA.
 - **Modulated-by RANKL:** RANKL (TNFSF11) binds RANK on osteoclast precursors → TRAF6 → NF-κB + AP-1 → NFATc1 → cathepsin K, TRAP, integrin β3 → mature resorbing osteoclast; OPG is the decoy receptor; denosumab mimics OPG to suppress osteoclastogenesis.
+- **Modulated-by Sclerostin:** Romosozumab (anti-sclerostin) derepresses osteoblast Wnt → increased OPG → reduced RANKL/osteoclast activation; sclerostin blockade uniquely combines bone formation with antiresorption; dual mechanism achieved via OPG upregulation downstream of Wnt de-repression.
 
 ## Pathology
 
