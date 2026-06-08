@@ -48,6 +48,9 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "OPN is upregulated in injured renal tubular epithelium → integrin αvβ3 on macrophages → macrophage recruitment and pro-inflammatory activation → tubulointerstitial fibrosis; urinary OPN predicts CKD progression; OPN inhibits calcium oxalate crystal adhesion (stone inhibitor)."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "IgA nephropathy is a leading cause of CKD in young adults; mesangial IgA deposition → complement + CCL2 → tubulointerstitial fibrosis → eGFR decline; 20-40% of IgAN reach ESRD within 20 years; sparsentan (ETA/AT1R dual blocker) and iptacopan are disease-modifying therapies."
 ---
 
 # Chronic Kidney Disease
@@ -134,6 +137,7 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — CREDENCE (canagliflozin): 30% reduction in kidney endpoint in T2D + CKD; DAPA-CKD (dapagliflozin): 39% reduction in eGFR decline/dialysis/renal death in CKD with and without T2D; SGLT2 inhibitors slow CKD progression via tubuloglomerular feedback and anti-fibrotic effects.
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — FGF23 rises 100-1000× in CKD → suppresses 1α-hydroxylase → reduced calcitriol → secondary hyperparathyroidism and CKD-MBD; very high FGF23 predicts LVH, heart failure, and mortality in dialysis patients independent of traditional risk factors.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — OPN is upregulated in injured renal tubular epithelium → integrin αvβ3 on macrophages → macrophage recruitment and pro-inflammatory activation → tubulointerstitial fibrosis; urinary OPN predicts CKD progression; OPN inhibits calcium oxalate crystal adhesion (stone inhibitor).
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — IgA nephropathy is a leading cause of CKD in young adults; mesangial IgA deposition → complement + CCL2 → tubulointerstitial fibrosis → eGFR decline; 20-40% of IgAN reach ESRD within 20 years; sparsentan (ETA/AT1R dual blocker) and iptacopan are disease-modifying therapies.
 
 ## Pathology
 

@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "Resistin (primarily monocyte/macrophage-derived in humans) activates NF-κB in Kupffer cells → TNF-α and IL-6 → NASH inflammation; resistin correlates with NASH histological severity; resistin inhibits adiponectin → impairs hepatic AMPK → steatosis and fibrosis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Hepatocyte lipotoxicity + DAMPs → Kupffer cell CCL2; elevated hepatic CCL2 → CCR2+ monocyte-derived macrophage recruitment → NLRP3 → IL-1β + TNF-α → stellate cell activation → fibrosis; cenicriviroc (CCR2/CCR5 dual antagonist) studied in CENTAUR/AURORA trials."
 ---
 
 # NASH
@@ -148,6 +151,7 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Semaglutide resolved NASH histology in 59% vs 17% placebo (Phase 2); GLP-1R activation reduces hepatic lipogenesis, liver inflammation, and oxidative stress; semaglutide ESSENCE Phase 3 NASH trial is ongoing; GLP-1R agonists are promising disease-modifying agents for NASH.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — adiponectin deficiency impairs hepatic AMPK → reduced fatty acid oxidation → steatosis; adiponectin suppresses TNF-α and NF-κB in Kupffer cells → reduced hepatic inflammation; pioglitazone (PPARγ agonist) raises adiponectin, reduces NASH steatohepatitis, and slows fibrosis.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Resistin (primarily monocyte/macrophage-derived in humans) activates NF-κB in Kupffer cells → TNF-α and IL-6 → NASH inflammation; resistin correlates with NASH histological severity; resistin inhibits adiponectin → impairs hepatic AMPK → steatosis and fibrosis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Hepatocyte lipotoxicity + DAMPs → Kupffer cell CCL2; elevated hepatic CCL2 → CCR2+ monocyte-derived macrophage recruitment → NLRP3 → IL-1β + TNF-α → stellate cell activation → fibrosis; cenicriviroc (CCR2/CCR5 dual antagonist) studied in CENTAUR/AURORA trials.
 
 [^younossi-2016-nafld-epidemiology]: Younossi ZM, Koenig AB, Abdelatif D, Fazel Y, Henry L, Wymer M. Global epidemiology of nonalcoholic fatty liver disease — meta-analytic assessment of prevalence, incidence, and outcomes. *Hepatology.* 2016;64(1):73-84. [doi:10.1002/hep.28431](https://doi.org/10.1002/hep.28431) · [PubMed 26707365](https://pubmed.ncbi.nlm.nih.gov/26707365/)
 [^harrison-2024-resmetirom]: Harrison SA, Bedossa P, Guy CD, et al. A phase 3, randomized, controlled trial of resmetirom in NAFLD. *N Engl J Med.* 2024;390(6):497-509. [doi:10.1056/NEJMoa2309000](https://doi.org/10.1056/NEJMoa2309000) · [PubMed 38324483](https://pubmed.ncbi.nlm.nih.gov/38324483/)
