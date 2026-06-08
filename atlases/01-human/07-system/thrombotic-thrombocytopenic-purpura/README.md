@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Anti-ADAMTS13 autoantibodies are predominantly IgG4 (inhibiting spacer domain) in iTTP; IgG1 non-inhibiting antibodies accelerate ADAMTS13 clearance; rituximab (anti-CD20) depletes antibody-producing B cells → ADAMTS13 recovery; anti-ADAMTS13 IgG titer guides therapy duration."
+  - target: 01-human/07-system/ahus
+    relation: connects-to
+    note: "TTP (ADAMTS13 <10%) and aHUS (complement gene mutations; ADAMTS13 ≥10%) are the two most important complement/coagulation TMAs: both cause MAHA + thrombocytopenia + AKI; TTP is treated with PEX + caplacizumab + rituximab; aHUS with eculizumab — never interchange these therapies."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -198,6 +201,7 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — ADAMTS13 deficiency (<10% activity) is the defining pathophysiology of TTP; acquired iTTP is driven by anti-ADAMTS13 IgG4 antibodies; hereditary Upshaw-Schulman syndrome involves biallelic ADAMTS13 mutations; caplacizumab blocks VWF A1 domain → prevents ULVWF-platelet binding.
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — ULVWF from Weibel-Palade bodies accumulates in TTP (ADAMTS13 deficiency) → GPIb-mediated platelet aggregation → microthrombi; caplacizumab (anti-VWF A1 nanobody; FDA 2019) blocks ULVWF-platelet tethering → fastest reversal of acute microthrombus formation in iTTP.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Anti-ADAMTS13 autoantibodies are predominantly IgG4 (inhibiting spacer domain) in iTTP; IgG1 non-inhibiting antibodies accelerate ADAMTS13 clearance; rituximab (anti-CD20) depletes antibody-producing B cells → ADAMTS13 recovery; anti-ADAMTS13 IgG titer guides therapy duration.
+- `connects-to` → **[Atypical HUS](../ahus/README.md)** — TTP (ADAMTS13 <10%) and aHUS (complement gene mutations; ADAMTS13 ≥10%) are the two most important complement/coagulation TMAs: both cause MAHA + thrombocytopenia + AKI; TTP is treated with PEX + caplacizumab + rituximab; aHUS with eculizumab — never interchange these therapies.
 
 [^george-2010-ttp-review]: George JN. Clinical practice. Thrombotic thrombocytopenic purpura. *N Engl J Med.* 2006;354(18):1927-1935. [doi:10.1056/NEJMcp053024](https://doi.org/10.1056/NEJMcp053024) · [PubMed 16672704](https://pubmed.ncbi.nlm.nih.gov/16672704/)
 [^scully-2019-caplacizumab-hercules]: Scully M, Cataland SR, Peyvandi F, et al. Caplacizumab treatment for acquired thrombotic thrombocytopenic purpura. *N Engl J Med.* 2019;380(4):335-346. [doi:10.1056/NEJMoa1806311](https://doi.org/10.1056/NEJMoa1806311) · [PubMed 30625070](https://pubmed.ncbi.nlm.nih.gov/30625070/)

@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "aHUS causes progressive CKD from repeated TMA episodes; ~50% of untreated patients reach ESRD within 1 year; eculizumab/ravulizumab prevent and partially reverse renal injury; renal transplant in aHUS requires continued C5 inhibition to prevent TMA recurrence in the allograft."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "ADAMTS13 activity is the first test to exclude TTP from the aHUS differential; in TMA workup, ADAMTS13 <10% = TTP → plasma exchange + caplacizumab, NOT eculizumab; ADAMTS13 ≥10% + complement workup → aHUS; the distinction is critical since treatments are non-interchangeable."
+  - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
+    relation: connects-to
+    note: "TTP (ADAMTS13 <10%) is the primary differential diagnosis of aHUS; both cause TMA (MAHA + thrombocytopenia + AKI) but TTP is treated with plasma exchange + caplacizumab and aHUS with eculizumab; TTP tends to spare the kidneys more; aHUS tends to dominate with AKI over neuro."
 ---
 
 # Atypical HUS
@@ -209,6 +215,8 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Uncontrolled alternative C3 convertase (C3bBb) from CFH/CFI/CD46 defects → persistent C3 consumption → hypocomplementemia; serum C3 is low-normal in many aHUS cases; C3 nephritic factor (C3NeF) stabilizes C3bBb → C3 glomerulopathy (related complement-mediated nephropathy).
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Uncontrolled alternative complement (from CFH/CFI mutations) generates C5 convertase → C5a (neutrophil priming, endothelial injury) + C5b-9 (MAC → TMA); eculizumab (anti-C5 mAb) and ravulizumab block C5 → normalize platelets and renal function in >80% of aHUS patients.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — aHUS causes progressive CKD from repeated TMA episodes; ~50% of untreated patients reach ESRD within 1 year; eculizumab/ravulizumab prevent and partially reverse renal injury; renal transplant in aHUS requires continued C5 inhibition to prevent TMA recurrence in the allograft.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — ADAMTS13 activity is the first test to exclude TTP from the aHUS differential; in TMA workup, ADAMTS13 <10% = TTP → plasma exchange + caplacizumab, NOT eculizumab; ADAMTS13 ≥10% + complement workup → aHUS; the distinction is critical since treatments are non-interchangeable.
+- `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — TTP (ADAMTS13 <10%) is the primary differential diagnosis of aHUS; both cause TMA (MAHA + thrombocytopenia + AKI) but TTP is treated with plasma exchange + caplacizumab and aHUS with eculizumab; TTP tends to spare the kidneys more; aHUS tends to dominate with AKI over neuro.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
