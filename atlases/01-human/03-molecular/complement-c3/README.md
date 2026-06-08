@@ -35,6 +35,12 @@ cross_links:
   - target: 01-human/07-system/hereditary-angioedema
     relation: connects-to
     note: "HAE from C1-INH deficiency uses low C4 as its hallmark diagnostic (chronic C1r/C1s activation → C4 consumption even between attacks, with C3 preserved); C3 is usually normal in HAE because C3 convertase assembly is limited by the insufficient C4b generated from unchecked C1."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Factor H is the primary regulator of the alternative C3 convertase (C3bBb → decay acceleration) and Factor I cofactor (C3b → iC3b); CFH deficiency → runaway C3 consumption → C3 hypocomplementemia; C3 deposits in glomeruli (aHUS, C3 glomerulopathy) reflect unregulated C3b."
+  - target: 01-human/07-system/ahus
+    relation: connects-to
+    note: "Uncontrolled alternative C3 convertase from CFH/CFI mutations → C3b deposits on glomerular endothelium → TMA (aHUS); low serum C3 reflects active complement consumption; C3 deposits on biopsy distinguish C3 glomerulopathy from IgA nephropathy (no immunoglobulin deposits)."
 ---
 
 # Complement C3
@@ -140,6 +146,8 @@ Self-cells avoid complement attack by expressing:
 - `modulates` → **[glomerulus](../../05-tissue/glomerulus/README.md)** — alternative pathway dysregulation drives C3 deposition in GBM causing MPGN; C3 nephritic factor (C3NeF) stabilises C3bBb → persistent complement activation → Dense Deposit Disease [^janeway-immunobiology]
 - `connects-to` → **[C1-Esterase Inhibitor](../c1-esterase-inhibitor/README.md)** — C1-INH inhibits C1r/C1s, blocking the classical C3 convertase (C4b2a) formation; C1-INH deficiency → unchecked classical pathway → chronic C4 consumption → low C4 (hallmark of HAE); C3 is usually preserved in HAE because C3 convertase assembly is limited without sufficient C4b.
 - `connects-to` → **[Hereditary Angioedema](../../07-system/hereditary-angioedema/README.md)** — HAE from C1-INH deficiency uses low C4 as its hallmark diagnostic (chronic C1r/C1s activation → C4 consumption even between attacks, with C3 preserved); C3 is usually normal in HAE because C3 convertase assembly is limited by the insufficient C4b generated from unchecked C1.
+- `connects-to` → **[Factor H](../factor-h/README.md)** — Factor H is the primary regulator of the alternative C3 convertase (C3bBb → decay acceleration) and Factor I cofactor (C3b → iC3b); CFH deficiency → runaway C3 consumption → C3 hypocomplementemia; C3 deposits in glomeruli (aHUS, C3 glomerulopathy) reflect unregulated C3b.
+- `connects-to` → **[Atypical HUS](../../07-system/ahus/README.md)** — Uncontrolled alternative C3 convertase from CFH/CFI mutations → C3b deposits on glomerular endothelium → TMA (aHUS); low serum C3 reflects active complement consumption; C3 deposits on biopsy distinguish C3 glomerulopathy from IgA nephropathy (no immunoglobulin deposits).
 
 ## Pathology
 

@@ -1,0 +1,218 @@
+---
+schema: human-scale-entry/v1
+id: ahus
+name: Atypical HUS
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-08
+summary: "Atypical hemolytic uremic syndrome (aHUS) is a complement-mediated thrombotic microangiopathy (MAHA + thrombocytopenia + AKI); Factor H mutations are most common (20-30%); uncontrolled alternative pathway at renal endothelium → microthrombi. Eculizumab is standard of care."
+aliases: ["aHUS", "atypical HUS", "atypical hemolytic uremic syndrome", "complement-mediated TMA", "CFH-HUS", "HUS", "thrombotic microangiopathy complement"]
+sources:
+  - id: fakhouri-2017-ahus-lancet
+    type: peer-reviewed
+    cite: "Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. Lancet. 2017;390(10095):681-696."
+    doi: "10.1016/S0140-6736(17)30062-4"
+    pmid: "28242109"
+    url: "https://doi.org/10.1016/S0140-6736(17)30062-4"
+  - id: legendre-2013-eculizumab-ahus-nejm
+    type: peer-reviewed
+    cite: "Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. N Engl J Med. 2013;368(23):2169-2181."
+    doi: "10.1056/NEJMoa1208981"
+    pmid: "23738544"
+    url: "https://doi.org/10.1056/NEJMoa1208981"
+  - id: goodship-2017-ahus-consensus
+    type: clinical-guideline
+    cite: "Goodship TH, Cook HT, Fakhouri F, et al. Atypical hemolytic uremic syndrome and C3 glomerulopathy: conclusions from a 'Kidney Disease: Improving Global Outcomes' (KDIGO) Controversies Conference. Kidney Int. 2017;91(3):539-551."
+    doi: "10.1016/j.kint.2016.10.005"
+    pmid: "28062089"
+    url: "https://doi.org/10.1016/j.kint.2016.10.005"
+cross_links:
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "CFH mutations (SCR19-20) are the most common cause of aHUS (~20-30%); Factor H regulates alternative C3 convertase on renal endothelial surfaces; anti-CFH autoantibodies (CFHR1-CFHR3 deletion) cause aHUS in ~6-10%; eculizumab/ravulizumab target downstream C5."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Uncontrolled alternative C3 convertase (C3bBb) from CFH/CFI/CD46 defects → persistent C3 consumption → hypocomplementemia; serum C3 is low-normal in many aHUS cases; C3 nephritic factor (C3NeF) stabilizes C3bBb → C3 glomerulopathy (related complement-mediated nephropathy)."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Uncontrolled alternative complement (from CFH/CFI mutations) generates C5 convertase → C5a (neutrophil priming, endothelial injury) + C5b-9 (MAC → TMA); eculizumab (anti-C5 mAb) and ravulizumab block C5 → normalize platelets and renal function in >80% of aHUS patients."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "aHUS causes progressive CKD from repeated TMA episodes; ~50% of untreated patients reach ESRD within 1 year; eculizumab/ravulizumab prevent and partially reverse renal injury; renal transplant in aHUS requires continued C5 inhibition to prevent TMA recurrence in the allograft."
+---
+
+# Atypical HUS
+
+## Overview
+
+**Atypical hemolytic uremic syndrome (aHUS)** is a **thrombotic microangiopathy (TMA)** caused by **uncontrolled activation of the complement alternative pathway**, primarily at the glomerular endothelium. It presents with the classic TMA triad:
+1. **Microangiopathic hemolytic anemia (MAHA):** Schistocytes, elevated LDH, low/absent haptoglobin, Coombs-negative
+2. **Thrombocytopenia:** Platelet consumption in microthrombi
+3. **Acute kidney injury (AKI):** From glomerular microvascular occlusion
+
+aHUS is distinguished from **STEC-HUS** (Shiga-toxin–producing *E. coli* HUS; more common, especially in children, self-limited) and **TTP** (ADAMTS13 deficiency; predominantly neurological) — all three are TMAs but have distinct mechanisms, prognosis, and treatment [^fakhouri-2017-ahus-lancet].
+
+**Epidemiology:**
+- Incidence: ~1-2 per million/year; affects all ages (children and adults; bimodal distribution)
+- ~40-60% have identifiable complement gene mutations; ~6-10% have anti-CFH antibodies; ~30-40% have no identified mutation ("unknown/idiopathic")
+- Without treatment: ~50% reach ESRD within 1 year; ~25% die in the acute phase
+- With eculizumab: >80% achieve hematologic normalization and renal recovery [^legendre-2013-eculizumab-ahus-nejm]
+
+## Structure
+
+### Genetic causes and complement proteins
+
+**Frequency of complement gene mutations in aHUS:**
+
+| Gene | Protein | Mechanism | Frequency | Notes |
+|:-----|:--------|:----------|:----------|:------|
+| **CFH** | Factor H | Loss-of-function (SCR19-20 hotspot) → impaired surface C3b regulation | ~20-30% | Most common; SCR19-20 mutations disrupt surface-specific regulation |
+| **CD46 (MCP)** | Membrane Cofactor Protein | Loss-of-function → reduced Factor I cofactor on cell surface | ~5-15% | Good prognosis with eculizumab; high recurrence post-transplant without it |
+| **CFI** | Factor I | Loss-of-function → loss of C3b inactivation (iC3b generation impaired) | ~5-10% | Phenotypically indistinguishable from CFH-aHUS |
+| **C3** | Complement C3 | Gain-of-function → C3b resistant to Factor H/I regulation | ~5% | Associated with C3 glomerulopathy overlap |
+| **CFB** | Factor B | Gain-of-function → hyperactive C3 convertase (C3bBb more stable) | ~2% | Rare; often severe infantile presentation |
+| **THBD** | Thrombomodulin | Loss-of-function → reduced complement regulation on endothelium | ~3-5% | Triggers TMA at endothelial level |
+| **Anti-CFH antibodies** | — | Autoimmune blockade of Factor H surface binding | ~6-10% | Predominantly children; CFHR1-CFHR3 homozygous deletion predisposes |
+
+**Key insight:** Most mutations impair the ability of host cells to **recruit Factor H to their surface** (not fluid-phase regulation) — this explains why complement levels (C3, C4) can be normal or mildly reduced in aHUS, unlike C3 deficiency states.
+
+### Pathophysiological cascade
+
+```
+CFH/CFI/CD46 mutation (or anti-CFH antibody)
+        ↓
+Impaired surface C3b regulation on glomerular endothelium
+        ↓
+C3b amplification → C3bBb (alternative C3 convertase) not inactivated
+        ↓
+C3bBbC3b (alternative C5 convertase) → C5 cleavage
+        ↓
+C5a: neutrophil priming → TF expression → pro-thrombotic state
+C5b-9 (MAC): sublytic endothelial injury → VWF release → platelet adhesion
+        ↓
+Intravascular microthrombi (platelets + fibrin) in glomerular capillaries
+        ↓
+Glomerular occlusion → AKI  +  RBC fragmentation → MAHA  +  Platelet consumption → thrombocytopenia
+        ↓
+Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
+```
+
+**Common triggers for aHUS episodes:**
+- Infections (upper respiratory, GI — especially in children; infection activates complement independently)
+- Pregnancy (especially peripartum; pregnancy + complement mutation → severe TMA)
+- Combined oral contraceptives (OCP → complement activation + endothelial stress)
+- Vaccination (rare)
+- Malignancy
+- Solid organ transplantation (donor organ → ischemia-reperfusion → complement activation)
+
+## Function
+
+### Diagnosis
+
+**The diagnostic challenge:** aHUS is a diagnosis of exclusion — TTP and STEC-HUS must be ruled out first.
+
+**Step-by-step diagnostic workup:**
+
+1. **Confirm TMA:** CBC (low platelets, anemia), blood smear (schistocytes ≥1% → MAHA), LDH (elevated), haptoglobin (undetectable), Coombs test (negative), creatinine (elevated)
+
+2. **Exclude TTP (priority):**
+   - **ADAMTS13 activity:** <10% → TTP; ≥10% → not TTP; send URGENTLY (treatment differs fundamentally — TTP needs PEX, not eculizumab)
+   - Anti-ADAMTS13 antibodies (in immune TTP)
+
+3. **Exclude STEC-HUS:**
+   - Stool cultures and O157:H7 Shiga toxin PCR
+   - STEC-HUS: usually age <5 years, prodromal bloody diarrhea, seasonal (summer), no family history, self-limited without eculizumab
+
+4. **Complement workup (once TTP excluded):**
+
+| Test | Interpretation |
+|:-----|:--------------|
+| Serum C3 | Low-normal in ~40-50% of aHUS (not always abnormal) |
+| Serum C4 | Normal (alternative pathway activation; C4 not consumed) |
+| Factor H antigen | Low → type I CFH mutation or anti-CFH antibodies; normal → type II (SCR19-20 functional mutation) |
+| Factor H functional activity | Low → loss-of-function mutation |
+| Factor I antigen + activity | Low → CFI mutation |
+| CD46 (MCP) on neutrophils (flow) | Reduced → CD46 mutation |
+| Anti-CFH antibodies | Present → autoimmune aHUS (CFHR1-CFHR3 deletion) |
+| Complement genetic panel (CFH, CFI, CD46, C3, CFB, THBD, CFHRs) | Gold standard; guides long-term therapy and recurrence risk |
+
+5. **Renal biopsy (when diagnosis uncertain):**
+   - Characteristic: TMA histology — fibrin/platelet thrombi in glomerular capillaries; endothelial swelling; ischemic glomerular collapse
+   - No immune deposits (distinguishes from immune complex GN)
+   - May show MPGN pattern if C3 glomerulopathy overlap
+
+**Differential diagnosis of TMA:**
+
+| Feature | aHUS | TTP | STEC-HUS | HELLP/obstetric TMA |
+|:--------|:-----|:----|:---------|:--------------------|
+| Mechanism | Complement | ADAMTS13 deficiency | Shiga toxin | Placental/hormonal |
+| Age | All | Adults (F > M) | <5 years | Pregnant/peripartum |
+| Diarrhea | No | No | Yes (bloody) | No |
+| Neurological sx | Mild | Dominant | Minimal | Variable |
+| Renal sx | Dominant | Mild | Dominant | Variable |
+| ADAMTS13 activity | ≥10% | <10% | ≥10% | ≥10% |
+| C3 | Low-normal | Normal | Normal | Normal |
+| Stool Shiga toxin | Negative | Negative | Positive | Negative |
+| Family history | Often positive | No | No | No |
+| Treatment | Eculizumab | PEX + immunosuppression | Supportive | Delivery |
+
+## Pathology
+
+### Acute treatment [^legendre-2013-eculizumab-ahus-nejm]
+
+**Eculizumab (Soliris) — standard of care:**
+- **Dose:** 900 mg IV weekly × 4, then 1200 mg IV every 2 weeks (adults); weight-based dosing in pediatrics
+- **Mechanism:** Anti-C5 monoclonal antibody (humanized IgG2/4κ); blocks C5 cleavage → prevents C5a and C5b-9 generation
+- **Efficacy (NEJM 2013):** Platelet normalization in 80-88% within 1 week; eGFR improvement in 65-80%; complete TMA response in 75%
+- **Meningococcal prophylaxis MANDATORY:** Eculizumab blocks terminal complement → prevents lysis of encapsulated bacteria → *N. meningitidis* risk ×1000-2000×; **vaccinate with MenACWY + MenB ≥2 weeks before first dose; if urgent: prophylactic antibiotics (penicillin/ciprofloxacin) from day 1**
+- **Duration:** Typically lifelong for high-risk mutations (CFH, CFI); trial discontinuation possible for CFH-antibody aHUS after titer suppression and in some CD46 patients with close monitoring
+
+**Ravulizumab (Ultomiris) — long-acting C5 inhibitor:**
+- Same efficacy as eculizumab; half-life extended by FcRn recycling modification (Met428Leu, Asn434Ser in Fc)
+- **Dose:** Weight-based IV loading, then maintenance Q8W (adults); reduces infusion burden significantly
+- FDA approved for aHUS 2019; now preferred for many patients
+
+**Before eculizumab — Plasma Exchange (PEX):**
+- PEX (or FFP infusion) replenishes Factor H in plasma → may temporarily stabilize complement
+- Still used: (1) diagnostic uncertainty (covers TTP while ADAMTS13 returns); (2) anti-CFH antibody aHUS (removes antibody)
+- Do NOT delay eculizumab for PEX if diagnosis of aHUS is clear
+
+**Anti-CFH antibody aHUS — additional treatment:**
+- Plasma exchange (removes antibody + replenishes CFH) + immunosuppression (rituximab, mycophenolate) → reduce antibody titer
+- Eculizumab continues to block downstream C5 while antibody is cleared
+- Goal: antibody-negative remission → consider weaning eculizumab
+
+### Renal transplantation
+
+**aHUS recurs in transplant kidneys** (the genetic defect persists → same endothelial vulnerability in allograft):
+- **CFH mutations:** ~75-90% recurrence without C5 inhibition → prohibitive without eculizumab coverage
+- **CD46 mutations:** <15% recurrence (donor kidney has normal CD46; patient's circulating complement is sufficient with normal CD46)
+- **CFI mutations:** ~50-70% recurrence
+- **Anti-CFH antibody aHUS:** Continue immunosuppression + eculizumab perioperatively → antibody-negative remission required before transplant
+- **Standard:** Eculizumab prophylaxis on day of transplant + continued maintenance for high-risk genotypes; may allow discontinuation in low-risk mutations after 6-12 months
+
+**Liver transplantation for CFH aHUS:**
+- CFH is synthesized primarily in the liver → liver transplant (or combined liver-kidney for ESRD) could theoretically cure CFH-aHUS
+- High surgical risk; pursued rarely in children refractory to eculizumab; eculizumab bridge perioperatively essential
+
+### Long-term monitoring
+
+- Monthly: CBC, creatinine, LDH, haptoglobin, urinalysis while on eculizumab
+- Complement C3, C4, factor H levels: periodically (especially after eculizumab discontinuation trial)
+- Renal function: eGFR every 3-6 months
+- Screen first-degree relatives with complement genetic panel (autosomal dominant CFH/CFI/C3/CFB mutations; ~50% penetrance)
+
+## Connections
+
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — CFH mutations (SCR19-20) are the most common cause of aHUS (~20-30%); Factor H regulates alternative C3 convertase on renal endothelial surfaces; anti-CFH autoantibodies (CFHR1-CFHR3 deletion) cause aHUS in ~6-10%; eculizumab/ravulizumab target downstream C5.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Uncontrolled alternative C3 convertase (C3bBb) from CFH/CFI/CD46 defects → persistent C3 consumption → hypocomplementemia; serum C3 is low-normal in many aHUS cases; C3 nephritic factor (C3NeF) stabilizes C3bBb → C3 glomerulopathy (related complement-mediated nephropathy).
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Uncontrolled alternative complement (from CFH/CFI mutations) generates C5 convertase → C5a (neutrophil priming, endothelial injury) + C5b-9 (MAC → TMA); eculizumab (anti-C5 mAb) and ravulizumab block C5 → normalize platelets and renal function in >80% of aHUS patients.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — aHUS causes progressive CKD from repeated TMA episodes; ~50% of untreated patients reach ESRD within 1 year; eculizumab/ravulizumab prevent and partially reverse renal injury; renal transplant in aHUS requires continued C5 inhibition to prevent TMA recurrence in the allograft.
+
+[^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
+[^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
+[^goodship-2017-ahus-consensus]: Goodship TH, Cook HT, Fakhouri F, et al. Atypical hemolytic uremic syndrome and C3 glomerulopathy: conclusions from a KDIGO Controversies Conference. *Kidney Int.* 2017;91(3):539-551. [doi:10.1016/j.kint.2016.10.005](https://doi.org/10.1016/j.kint.2016.10.005) · [PubMed 28062089](https://pubmed.ncbi.nlm.nih.gov/28062089/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

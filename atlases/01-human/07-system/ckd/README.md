@@ -57,6 +57,9 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "CKD anemia is the overlap of EPO deficiency and ACD mechanisms: reduced EPO from peritubular cell loss + hepcidin elevation from CKD inflammation/reduced clearance → combined functional iron deficiency + erythropoietic failure; IV iron + ESA are first-line for CKD anemia."
+  - target: 01-human/07-system/ahus
+    relation: connects-to
+    note: "aHUS from complement dysregulation (CFH/CFI mutations) causes progressive CKD; ~50% of untreated aHUS patients reach ESRD within 1 year; eculizumab/ravulizumab reverse TMA and may improve eGFR; renal transplant requires lifelong C5 inhibition in high-risk CFH mutations."
 ---
 
 # Chronic Kidney Disease
@@ -146,6 +149,7 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — IgA nephropathy is a leading cause of CKD in young adults; mesangial IgA deposition → complement + CCL2 → tubulointerstitial fibrosis → eGFR decline; 20-40% of IgAN reach ESRD within 20 years; sparsentan (ETA/AT1R dual blocker) and iptacopan are disease-modifying therapies.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hepcidin is elevated in CKD from reduced renal clearance and chronic inflammation; elevated hepcidin → functional iron deficiency → ESA hyporesponsiveness in CKD anemia; HIF-PHIs (roxadustat, daprodustat) suppress hepcidin via EPO→ERFE→BMP-SMAD inhibition.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — CKD anemia is the overlap of EPO deficiency and ACD mechanisms: reduced EPO from peritubular cell loss + hepcidin elevation from CKD inflammation/reduced clearance → combined functional iron deficiency + erythropoietic failure; IV iron + ESA are first-line for CKD anemia.
+- `connects-to` → **[Atypical HUS](../ahus/README.md)** — aHUS from complement dysregulation (CFH/CFI mutations) causes progressive CKD; ~50% of untreated aHUS patients reach ESRD within 1 year; eculizumab/ravulizumab reverse TMA and may improve eGFR; renal transplant requires lifelong C5 inhibition in high-risk CFH mutations.
 
 ## Pathology
 
