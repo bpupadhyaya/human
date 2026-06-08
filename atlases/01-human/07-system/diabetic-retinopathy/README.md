@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: targets
     note: "Diabetic retinopathy targets the retina: pericyte loss → microaneurysms → exudates → macular edema → neovascularization → vitreous hemorrhage → tractional retinal detachment; the retina is the primary organ affected, with foveal photoreceptors most critical for central vision."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Diabetes impairs wound healing through AGE accumulation, pericyte dysfunction, impaired neutrophil function, and reduced HIF-1α/VEGF response; diabetic foot ulcers affect ~15% of people with diabetes and are the leading cause of non-traumatic amputation."
 ---
 
 # Diabetic Retinopathy
@@ -157,6 +160,7 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-A drives DME and PDR neovascularization; hypoxic retina → HIF-1α → VEGF → VEGFR-2 → endothelial proliferation and barrier disruption; anti-VEGF (ranibizumab, aflibercept, bevacizumab) is the first-line treatment for center-involving DME and PDR.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Hypertension accelerates DR through retinal arteriolar pressure, shear stress, and RAAS activation; BP control to <130/80 mmHg reduces DR progression by ~30% (UKPDS); hypertensive retinopathy and DR frequently coexist and share pathophysiology.
 - `targets` → **[Eye](../../06-organ/eye/README.md)** — Diabetic retinopathy targets the retina: pericyte loss → microaneurysms → exudates → macular edema → neovascularization → vitreous hemorrhage → tractional retinal detachment; the retina is the primary organ affected, with foveal photoreceptors most critical for central vision.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Diabetes impairs wound healing through AGE accumulation, pericyte dysfunction, impaired neutrophil function, and reduced HIF-1α/VEGF response; diabetic foot ulcers affect ~15% of people with diabetes and are the leading cause of non-traumatic amputation.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

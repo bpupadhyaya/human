@@ -60,6 +60,12 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: modulates
     note: "TGF-β/SMAD signaling interacts with STAT3 pathway in cancer cells to drive EMT and metastatic programming; both pathways converge in cancer-associated fibroblasts."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "TGF-β1 from platelets and macrophages drives myofibroblast differentiation (α-SMA+ → wound contraction), collagen I synthesis, and re-epithelialization; excess TGF-β → hypertrophic scar and keloid; TGF-β3 promotes scarless fetal healing; pirfenidone inhibits fibrogenic signaling."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "TGF-β → ↑fibronectin transcription (FN1 promoter Smad binding site) and ↑EDA-FN splice isoform in activated fibroblasts; EDA-FN binds TLR4 and integrin α4β7 → amplifies TGF-β-driven fibrogenesis; FN matrix stiffness → mechano-sensing → ↑TGF-β activation → progressive fibrosis."
 ---
 
 # Transforming Growth Factor Beta
@@ -155,6 +161,8 @@ TβRIII (betaglycan) is a co-receptor that presents TGF-β2 (low-affinity TβRII
 - `modulates` → **[Kidney](../../06-organ/kidney/README.md)** — drives renal fibrosis in CKD; major mediator of diabetic glomerulosclerosis
 - `modulates` → **[Liver](../../06-organ/liver/README.md)** — hepatic stellate cell activation; cirrhosis driver
 - `modulates` → **[Immune System](../../07-system/immune-system/README.md)** — master immune tolerance regulator
+- `connects-to` → **[Wound Healing](../../07-system/wound-healing/README.md)** — TGF-β1 from platelets and macrophages drives myofibroblast differentiation (α-SMA+ → wound contraction), collagen I synthesis, and re-epithelialization; excess TGF-β → hypertrophic scar and keloid; TGF-β3 promotes scarless fetal healing; pirfenidone inhibits fibrogenic signaling.
+- `connects-to` → **[Fibronectin](../fibronectin/README.md)** — TGF-β → ↑fibronectin transcription (FN1 promoter Smad binding site) and ↑EDA-FN splice isoform in activated fibroblasts; EDA-FN binds TLR4 and integrin α4β7 → amplifies TGF-β-driven fibrogenesis; FN matrix stiffness → mechano-sensing → ↑TGF-β activation → progressive fibrosis.
 
 ## Pathology
 
