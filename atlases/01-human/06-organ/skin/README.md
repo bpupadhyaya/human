@@ -32,6 +32,12 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: contains
     note: "Dermal macrophages and Langerhans cells (epidermal dendritic cells) serve as immune sentinels; Langerhans cells sample antigens and migrate to lymph nodes to prime T cell responses to skin pathogens and contact allergens."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "PsA occurs in ~30% of psoriasis patients; skin psoriasis often precedes joint disease by ~10 years; shared IL-17A/IL-23 pathobiology explains why biologics achieving PASI 90/100 in psoriasis also treat PsA enthesitis and synovitis."
+  - target: 01-human/03-molecular/il-36
+    relation: connects-to
+    note: "IL-36α/β/γ predominantly produced by keratinocytes in psoriatic skin; IL36RN loss-of-function mutations → generalized pustular psoriasis (GPP) with neutrophil lakes; spesolimab (anti-IL-36R; FDA 2022) restores homeostatic IL-36Ra balance in GPP."
 ---
 
 # Skin
@@ -127,6 +133,8 @@ The skin is the body's sensory organ for touch, pressure, vibration, pain, and t
 
 - `contains` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — dermal fibroblasts synthesize collagen I/III and elastin matrices, maintain ECM homeostasis, and become activated myofibroblasts during wound healing and fibrotic disease (scleroderma)
 - `contains` → **[Macrophage](../../04-cellular/macrophage/README.md)** — dermal macrophages and Langerhans cells (epidermal DCs) serve as immune sentinels; Langerhans cells prime T cell responses to topical antigens, contact allergens, and skin-tropic pathogens
+- `connects-to` → **[Psoriatic Arthritis](../../07-system/psoriatic-arthritis/README.md)** — PsA occurs in ~30% of psoriasis patients; skin psoriasis often precedes joint disease by ~10 years; shared IL-17A/IL-23 pathobiology explains why biologics achieving PASI 90/100 in psoriasis also treat PsA enthesitis and synovitis.
+- `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — IL-36α/β/γ predominantly produced by keratinocytes in psoriatic skin; IL36RN loss-of-function mutations → GPP with neutrophil lakes; spesolimab (anti-IL-36R; FDA 2022) restores homeostatic IL-36Ra balance.
 
 ## Pathology
 

@@ -38,6 +38,9 @@ cross_links:
   - target: 01-human/07-system/ankylosing-spondylitis
     relation: connects-to
     note: "IL-17A drives enthesitis in AS: ILC3 and Th17 cells at entheses produce IL-17A → RANKL + MMP → bone erosion; WNT-driven new bone formation follows (syndesmophytes); secukinumab (MEASURE-1: ASAS20 61% vs. 29%) and ixekizumab (COAST-V) are FDA-approved for AS."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "IL-17A is a central driver of PsA enthesitis, synovitis, and new bone formation; secukinumab (FUTURE 2: ACR20 54% vs 15%; FDA 2016) and ixekizumab (SPIRIT-P1/2; FDA 2017) are approved; entheseal ILC3 produce IL-17A independently of IL-23 in some PsA patients."
 ---
 
 # IL-17A
@@ -105,3 +108,5 @@ IL-17A is present in RA synovium but secondary to TNF-alpha and IL-6; IL-17A pro
 IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barrier via CXCR6 → demyelination; secukinumab (anti-IL-17A) paradoxically worsened MS relapse rates in phase 2 trials — suggesting complex compensatory roles of IL-17A/Treg balance in CNS disease.
 
 IL-17A drives enthesitis in AS: ILC3 and Th17 cells at entheses produce IL-17A → RANKL + MMP → bone erosion; WNT-driven new bone formation follows (syndesmophytes); secukinumab (MEASURE-1: ASAS20 61% vs. 29%) and ixekizumab (COAST-V) are FDA-approved for AS.
+
+IL-17A is a central driver of PsA enthesitis, synovitis, and new bone formation; secukinumab (FUTURE 2: ACR20 54% vs 15%; FDA 2016) and ixekizumab (SPIRIT-P1/2; FDA 2017) are approved; entheseal ILC3 produce IL-17A independently of IL-23 in some PsA patients. See [psoriatic-arthritis](../../07-system/psoriatic-arthritis/README.md).

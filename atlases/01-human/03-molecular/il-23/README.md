@@ -41,6 +41,9 @@ cross_links:
   - target: 01-human/07-system/ankylosing-spondylitis
     relation: connects-to
     note: "IL-23 (driven by HLA-B27 UPR → IRE1α/XBP1) activates ILC3 and Th17 at entheses → IL-17A → AS enthesitis; paradoxically, IL-23 inhibitors (risankizumab) show modest AS efficacy vs. robust PsA effect — entheseal ILC3 may produce IL-17A independently of IL-23."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "IL-23 drives the Th17/IL-17A axis in PsA skin and entheses; guselkumab (DISCOVER-1/2: ACR20 ~59-64%; FDA 2020) and risankizumab (KEEPsAKE; FDA 2022) are approved; ustekinumab (anti-p40) targets both IL-12 and IL-23 in PsA and concurrent psoriasis."
 ---
 
 # IL-23
@@ -113,3 +116,5 @@ IL-23 and IL-6 cooperate to drive Th17 cells: IL-6 + TGF-β initiates Th17 polar
 IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; anti-IL-23p19 antibodies (risankizumab) suppress IL-17A and achieve superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis.
 
 IL-23 (driven by HLA-B27 UPR → IRE1α/XBP1) activates ILC3 and Th17 at entheses → IL-17A → AS enthesitis; paradoxically, IL-23 inhibitors (risankizumab) show modest AS efficacy vs. robust PsA effect — entheseal ILC3 may produce IL-17A independently of IL-23.
+
+IL-23 drives the Th17/IL-17A axis in PsA skin and entheses; guselkumab (DISCOVER-1/2: ACR20 ~59-64%; FDA 2020) and risankizumab (KEEPsAKE; FDA 2022) are approved; ustekinumab (anti-p40) targets both IL-12 and IL-23 in PsA and concurrent psoriasis. See [psoriatic-arthritis](../../07-system/psoriatic-arthritis/README.md).

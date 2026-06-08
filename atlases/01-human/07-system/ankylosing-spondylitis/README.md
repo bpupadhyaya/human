@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "TNF-α drives entheseal and synovial inflammation in AS; anti-TNF biologics (adalimumab, etanercept, infliximab, certolizumab, golimumab) achieve ASAS40 ~50-60% in active AS; TNF inhibition reduces MRI inflammation but does not halt radiographic progression (new bone)."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "Axial PsA and AS share HLA-B27, sacroiliitis imaging, and IL-17A/TNF-α pathobiology; distinguished by concurrent psoriasis, DIP involvement, and asymmetric periostitis; anti-IL-17A and anti-TNF are effective in both; IL-23 inhibitors diverge in efficacy."
 ---
 
 # Ankylosing Spondylitis
@@ -156,6 +159,7 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is the central effector cytokine in AS enthesitis: ILC3 and Th17 cells at entheses produce IL-17A → RANKL + MMP → bone erosion + osteoblast activation → new bone (syndesmophytes); secukinumab (MEASURE-1) achieved ASAS20 ~61% vs. 29% placebo; ixekizumab also approved.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Entheseal IL-17A + TNF-α → RANKL on stromal cells → osteoclast activation → bone erosion at sacroiliac joints and vertebral corners; new bone formation (syndesmophytes) follows via WNT pathway; denosumab (anti-RANKL) reduces erosion but does not halt new bone formation.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α drives entheseal and synovial inflammation in AS; anti-TNF biologics (adalimumab, etanercept, infliximab, certolizumab, golimumab) achieve ASAS40 ~50-60% in active AS; TNF inhibition reduces MRI inflammation but does not halt radiographic progression (new bone).
+- `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Axial PsA and AS share HLA-B27, sacroiliitis imaging, and IL-17A/TNF-α pathobiology; distinguished by concurrent psoriasis, DIP involvement, and asymmetric periostitis; anti-IL-17A and anti-TNF are effective in both; IL-23 inhibitors diverge in efficacy.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

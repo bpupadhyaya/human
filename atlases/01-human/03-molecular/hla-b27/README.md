@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "HLA-B27 ER stress → IRE1α/XBP1 UPR arm → ↑IL-23 secretion by macrophages/DCs; IL-23 signals via STAT3 → RORγt → Th17 cells → IL-17A; IL-23 inhibitors (risankizumab, guselkumab) are under evaluation in axSpA; the B27-UPR-IL23-IL17 axis is the central AS disease pathway."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "HLA-B27 present in ~20% of PsA overall but ~60-70% with axial PsA; HLA-C*06:02 is primary risk allele for psoriasis/polyarticular PsA; HLA-B27 in axial PsA predicts sacroiliitis and uveitis; ERAP1 epistasis modulates axial PsA and AS risk."
 ---
 
 # HLA-B27
@@ -159,6 +162,7 @@ Chronic enthesitis → sacroiliitis → spinal fusion (AS)
 - `connects-to` → **[Ankylosing Spondylitis](../../07-system/ankylosing-spondylitis/README.md)** — HLA-B27 is the strongest genetic risk factor for AS (OR ~90); present in ~90% of AS patients vs. 8% controls; B*27:05 confers highest risk; B*27:09 does not — conformational differences explain; misfolding in ER → UPR → IL-23 upregulation → enthesitis and ankylosis.
 - `connects-to` → **[IL-17A](../il-17a/README.md)** — HLA-B27 misfolding → UPR stress → STAT3 → IL-23 upregulation in macrophages → Th17 and ILC3 IL-17A production → enthesitis, synovitis, and new bone formation in axSpA; IL-17A inhibitors (secukinumab, ixekizumab) are highly effective in HLA-B27+ axSpA.
 - `connects-to` → **[IL-23](../il-23/README.md)** — HLA-B27 ER stress → IRE1α/XBP1 UPR arm → ↑IL-23 secretion by macrophages/DCs; IL-23 signals via STAT3 → RORγt → Th17 cells → IL-17A; IL-23 inhibitors (risankizumab, guselkumab) are under evaluation in axSpA; the B27-UPR-IL23-IL17 axis is the central AS disease pathway.
+- `connects-to` → **[Psoriatic Arthritis](../../07-system/psoriatic-arthritis/README.md)** — HLA-B27 present in ~20% of PsA overall but ~60-70% with axial PsA; HLA-C*06:02 is primary risk allele for psoriasis/polyarticular PsA; HLA-B27 in axial PsA predicts sacroiliitis and uveitis; ERAP1 epistasis modulates axial PsA and AS risk.
 
 [^brown-2016-hlab27-review]: Brown MA, Bradbury LA. The genetics of ankylosing spondylitis and axial spondyloarthritis. *Rheum Dis Clin North Am.* 2018;44(2):229-244. [doi:10.1016/j.rdc.2018.01.001](https://doi.org/10.1016/j.rdc.2018.01.001) · [PubMed 29622524](https://pubmed.ncbi.nlm.nih.gov/29622524/)
 [^reveille-2012-hlab27-as]: Reveille JD. Genetics of spondyloarthritis — beyond the MHC. *Nat Rev Rheumatol.* 2012;8(5):296-304. [doi:10.1038/nrrheum.2012.41](https://doi.org/10.1038/nrrheum.2012.41) · [PubMed 22450551](https://pubmed.ncbi.nlm.nih.gov/22450551/)
