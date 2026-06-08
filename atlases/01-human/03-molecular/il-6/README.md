@@ -104,6 +104,12 @@ cross_links:
   - target: 01-human/07-system/giant-cell-arteritis
     relation: connects-to
     note: "IL-6 is the dominant systemic effector in GCA — drives CRP/ESR elevation, fever, and constitutional symptoms; tocilizumab (anti-IL-6R; GiACTA: 56% vs 18% sustained remission at 52 weeks; FDA May 2017) is the cornerstone biologic; IL-6 serum levels correlate with GCA activity."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "IL-6 is the primary inducer of hepcidin in inflammation and anemia of chronic disease; IL-6 → JAK1/2 → STAT3 → HAMP promoter → hepcidin synthesis and secretion; tocilizumab (anti-IL-6R) reduces serum hepcidin → iron mobilization → improved hemoglobin in RA and Castleman."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "IL-6 is the primary driver of ACD: macrophage IL-6 in chronic infection/autoimmune disease/malignancy → STAT3 → hepcidin → ferroportin degradation → iron-restricted erythropoiesis; IL-6 also suppresses renal EPO production → blunted erythropoietic drive in ACD."
 ---
 
 # Interleukin-6
@@ -216,6 +222,8 @@ gp130 also activates:
 - `connects-to` → **[Sjögren's Syndrome](../../07-system/sjogrens-syndrome/README.md)** — IL-6 is elevated in Sjögren's salivary glands and serum; drives plasma cell differentiation → anti-Ro/SSA and RF production; supports ectopic GC formation; ductal epithelial cells produce IL-6 locally → B-cell hyperactivation and lymphoma risk.
 - `connects-to` → **[IL-1β](../il-1b/README.md)** — IL-1β is the upstream inducer of IL-6 from macrophages and stromal cells; IL-1β + IL-6 synergize in acute-phase response, Th17 differentiation, and vascular inflammation (GCA); canakinumab (anti-IL-1β) and tocilizumab (anti-IL-6R) are complementary therapeutic strategies.
 - `connects-to` → **[Giant Cell Arteritis](../../07-system/giant-cell-arteritis/README.md)** — IL-6 is the dominant systemic effector in GCA — drives CRP/ESR elevation, fever, and constitutional symptoms; tocilizumab (anti-IL-6R; GiACTA: 56% vs 18% sustained remission at 52 weeks; FDA May 2017) is the cornerstone biologic; IL-6 serum levels correlate with GCA activity.
+- `connects-to` → **[Hepcidin](../hepcidin/README.md)** — IL-6 is the primary inducer of hepcidin in inflammation and anemia of chronic disease; IL-6 → JAK1/2 → STAT3 → HAMP promoter → hepcidin synthesis and secretion; tocilizumab (anti-IL-6R) reduces serum hepcidin → iron mobilization → improved hemoglobin in RA and Castleman.
+- `connects-to` → **[Anemia of Chronic Disease](../../07-system/anemia-of-chronic-disease/README.md)** — IL-6 is the primary driver of ACD: macrophage IL-6 in chronic infection/autoimmune disease/malignancy → STAT3 → hepcidin → ferroportin degradation → iron-restricted erythropoiesis; IL-6 also suppresses renal EPO production → blunted erythropoietic drive in ACD.
 
 ## Pathology
 
