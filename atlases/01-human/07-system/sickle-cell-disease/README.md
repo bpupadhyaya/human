@@ -46,6 +46,12 @@ cross_links:
   - target: 01-human/07-system/thalassemia
     relation: connects-to
     note: "HbSβ-thalassemia (HbS + β-thal allele) is a common SCD genotype; β⁰ allele severity = HbSS; β⁺ = milder; shared gene therapy targets: Casgevy (CRISPR BCL11A derepression of γ-globin/HbF) is FDA-approved for both β-thal major and sickle cell disease."
+  - target: 01-human/03-molecular/g6pd
+    relation: connects-to
+    note: "G6PD A− deficiency (10-20% sub-Saharan Africans) co-occurs with HbSS in ~5-10% of SCD patients; G6PD deficiency + SCD → additive oxidant haemolysis risk; avoid dapsone, rasburicase, and nitrofurantoin in G6PD-deficient SCD; G6PD screening recommended."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "HbAS (sickle trait) confers ~60% protection against severe malaria (balanced polymorphism); HbSS patients in endemic regions face compounded risk: fever + dehydration → sickling crises; antimalarial prophylaxis planning is essential for HbSS in endemic areas."
 ---
 
 # Sickle Cell Disease
@@ -214,6 +220,8 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic haemolysis → NO scavenging by free haemoglobin → pulmonary hypertension (PAH; tricuspid regurgitation velocity >2.5 m/s predicts mortality); cardiomegaly + high-output failure from chronic anaemia; sildenafil for SCD-PAH; echocardiographic screening at age 10.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Chronic transfusion in SCD (stroke prevention, recurrent ACS; target HbS <30%) causes transfusional iron overload; serum ferritin >1,000 ng/mL → deferasirox chelation required; cardiac MRI T2* monitors iron deposition; TSAT 100% → NTBI → cardiomyopathy risk.
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — HbSβ-thalassemia (HbS + β-thal allele) is a common SCD genotype; β⁰ allele severity = HbSS; β⁺ = milder; shared gene therapy targets: Casgevy (CRISPR BCL11A derepression of γ-globin/HbF) is FDA-approved for both β-thal major and sickle cell disease.
+- `connects-to` → **[G6PD](../../03-molecular/g6pd/README.md)** — G6PD A− deficiency (10-20% sub-Saharan Africans) co-occurs with HbSS in ~5-10% of SCD patients; G6PD deficiency + SCD → additive oxidant haemolysis risk; avoid dapsone, rasburicase, and nitrofurantoin in G6PD-deficient SCD; G6PD screening recommended.
+- `connects-to` → **[Malaria](../malaria/README.md)** — HbAS (sickle trait) confers ~60% protection against severe malaria (balanced polymorphism); HbSS patients in endemic regions face compounded risk: fever + dehydration → sickling crises; antimalarial prophylaxis planning is essential for HbSS in endemic areas.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

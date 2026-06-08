@@ -63,6 +63,9 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "SCD causes sickle cell nephropathy via medullary sickling (high osmolarity + low pO2 in vasa recta → medullary ischaemia) → hyposthenuria, papillary necrosis, proteinuria; progressive CKD in ~30% HbSS by age 40; ACE inhibitors + hydroxyurea slow progression."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "Severe falciparum malaria causes AKI in 4-8% (haemoglobinuria + microvascular obstruction + cytokine storm); cerebral malaria + AKI → high mortality; repeated malaria episodes contribute to CKD burden in endemic populations."
 ---
 
 # Chronic Kidney Disease
@@ -154,6 +157,7 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — CKD anemia is the overlap of EPO deficiency and ACD mechanisms: reduced EPO from peritubular cell loss + hepcidin elevation from CKD inflammation/reduced clearance → combined functional iron deficiency + erythropoietic failure; IV iron + ESA are first-line for CKD anemia.
 - `connects-to` → **[Atypical HUS](../ahus/README.md)** — aHUS from complement dysregulation (CFH/CFI mutations) causes progressive CKD; ~50% of untreated aHUS patients reach ESRD within 1 year; eculizumab/ravulizumab reverse TMA and may improve eGFR; renal transplant requires lifelong C5 inhibition in high-risk CFH mutations.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — SCD causes sickle cell nephropathy via medullary sickling (high osmolarity + low pO2 in vasa recta → medullary ischaemia) → hyposthenuria, papillary necrosis, proteinuria; progressive CKD in ~30% HbSS by age 40; ACE inhibitors + hydroxyurea slow progression.
+- `connects-to` → **[Malaria](../malaria/README.md)** — Severe falciparum malaria causes AKI in 4-8% (haemoglobinuria + microvascular obstruction + cytokine storm); cerebral malaria + AKI → high mortality; repeated malaria episodes contribute to CKD burden in endemic populations.
 
 ## Pathology
 

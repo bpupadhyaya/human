@@ -41,6 +41,12 @@ cross_links:
   - target: 01-human/07-system/thalassemia
     relation: connects-to
     note: "Thalassaemias arise from imbalanced α/β-globin synthesis; β-thal major: excess α chains precipitate → ineffective erythropoiesis; α-thal (3-gene deletion): HbH (β₄) unstable tetramers; gene therapies (Zynteglo: lentiviral βA-T87Q; Casgevy: CRISPR BCL11A) are FDA-approved."
+  - target: 01-human/03-molecular/g6pd
+    relation: connects-to
+    note: "G6PD (chrXq28) is the sole NADPH source in RBCs; NADPH → glutathione → oxidant defense; G6PD deficiency → Heinz body haemolysis from denatured globin; G6PD A− and Mediterranean variants evolved as malaria protection alongside HbS and thalassaemia."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "P. falciparum digests haemoglobin in food vacuole → haemozoin + free haem; HbAS confers ~60% protection via impaired parasite growth; HbF, HbC, and α-thalassaemia also protective; haemoglobin variants shape global Plasmodium mortality distribution."
 ---
 
 # Hemoglobin
@@ -127,6 +133,8 @@ Globin gene expression during erythropoiesis is driven by transcription factors 
 - `connects-to` → **[Sickle Cell Disease](../../07-system/sickle-cell-disease/README.md)** — HbS (β-globin E6V; GAG→GTG) causes sickle cell disease via deoxygenated HbS polymerization → RBC sickling → haemolytic anaemia + vaso-occlusion; HbF (α2γ2) inhibits HbS polymerization; hydroxyurea ↑ HbF by 15-25% → reduces painful crises.
 - `connects-to` → **[Transferrin](../transferrin/README.md)** — Transferrin (TF) delivers Fe³⁺ to erythroid precursors via TFR1-mediated endocytosis → haem synthesis → haemoglobin assembly; erythropoiesis accounts for ~80% of total body iron demand (~20 mg Fe/day); iron deficiency → microcytic hypochromic anaemia from insufficient haem.
 - `connects-to` → **[Thalassemia](../../07-system/thalassemia/README.md)** — Thalassaemias arise from imbalanced α/β-globin synthesis; β-thal major: excess α chains precipitate → ineffective erythropoiesis; α-thal (3-gene deletion): HbH (β₄) unstable tetramers; gene therapies (Zynteglo: lentiviral βA-T87Q; Casgevy: CRISPR BCL11A) are FDA-approved.
+- `connects-to` → **[G6PD](../g6pd/README.md)** — G6PD (chrXq28) is the sole NADPH source in RBCs; NADPH → glutathione → oxidant defense; G6PD deficiency → Heinz body haemolysis from denatured globin; G6PD A− and Mediterranean variants evolved as malaria protection alongside HbS and thalassaemia.
+- `connects-to` → **[Malaria](../../07-system/malaria/README.md)** — P. falciparum digests haemoglobin in food vacuole → haemozoin + free haem; HbAS confers ~60% protection via impaired parasite growth; HbF, HbC, and α-thalassaemia also protective; haemoglobin variants shape global Plasmodium mortality distribution.
 
 ## Pathology
 
