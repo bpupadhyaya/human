@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: modulates
     note: "Endothelial dysfunction is both a cause and consequence of hypertension: reduced eNOS activity lowers NO bioavailability, impairs vasodilation, and promotes vascular remodeling; hypertensive shear stress further injures endothelial cells, perpetuating the cycle."
+  - target: 01-human/03-molecular/renin
+    relation: modulated-by
+    note: "Renin is the rate-limiting enzyme of the RAAS: released from JG cells in response to reduced perfusion, low macula densa NaCl, and β1-adrenergic stimulation → angiotensinogen → Ang I → Ang II; aliskiren (direct renin inhibitor) reduces BP; ARR screens for primary aldosteronism."
 ---
 
 # Hypertension
@@ -130,6 +133,7 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `modulated-by` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — central RAAS effector driving vasoconstriction, aldosterone release, and vascular remodeling
 - `modulated-by` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — promotes sodium retention and volume expansion; primary aldosteronism is the most common secondary cause of hypertension
 - `modulates` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — hypertensive shear stress damages endothelium; endothelial NO deficiency sustains elevated BP
+- `modulated-by` → **[Renin](../../03-molecular/renin/README.md)** — Renin is the rate-limiting enzyme of the RAAS: released from JG cells in response to reduced perfusion, low macula densa NaCl, and β1-adrenergic stimulation → angiotensinogen → Ang I → Ang II; aliskiren (direct renin inhibitor) reduces BP; ARR screens for primary aldosteronism.
 
 ## Pathology
 
