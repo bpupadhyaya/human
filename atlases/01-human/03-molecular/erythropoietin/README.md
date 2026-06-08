@@ -38,6 +38,9 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "In ACD, cytokines (TNF-α, IL-1β, IFN-γ) suppress renal EPO production and blunt EPO-R signaling on erythroid progenitors; elevated hepcidin sequesters iron needed for EPO-stimulated hemoglobin synthesis; HIF-PHIs (roxadustat) restore EPO and suppress hepcidin in CKD-ACD overlap."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Iron deficiency limits erythropoiesis despite adequate EPO: iron-restricted erythroid progenitors cannot synthesize haem → EPO-resistant microcytic anemia; elevated EPO in IDA reflects compensatory drive; IV iron + ESA combined is more effective than either alone."
 ---
 
 # Erythropoietin
@@ -116,6 +119,7 @@ EPO acts primarily at the **CFU-E stage** (committed erythroid progenitors, high
 - `modulates` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — EPO raises RBC mass and haematocrit; excessively high targets with rHuEPO increase thrombosis risk (CHOIR, TREAT trials)
 - `connects-to` → **[CKD](../../07-system/ckd/README.md)** — CKD destroys renal peritubular EPO-producing cells → EPO deficiency → normochromic normocytic anemia; treated with ESAs (darbepoetin, epoetin) or HIF-PHI (roxadustat, daprodustat); KDIGO target Hb 10–11 g/dL to balance anemia symptoms and thrombotic risk.
 - `connects-to` → **[Anemia of Chronic Disease](../../07-system/anemia-of-chronic-disease/README.md)** — In ACD, cytokines (TNF-α, IL-1β, IFN-γ) suppress renal EPO production and blunt EPO-R signaling on erythroid progenitors; elevated hepcidin sequesters iron needed for EPO-stimulated hemoglobin synthesis; HIF-PHIs (roxadustat) restore EPO and suppress hepcidin in CKD-ACD overlap.
+- `connects-to` → **[Iron Deficiency Anemia](../../07-system/iron-deficiency-anemia/README.md)** — Iron deficiency limits erythropoiesis despite adequate EPO: iron-restricted erythroid progenitors cannot synthesize haem → EPO-resistant microcytic anemia; elevated EPO in IDA reflects compensatory drive; IV iron + ESA combined is more effective than either alone.
 
 ## Pathology
 

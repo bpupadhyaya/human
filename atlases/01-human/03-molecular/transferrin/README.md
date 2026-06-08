@@ -34,6 +34,12 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "Chronic transfusion therapy in SCD (for stroke prevention, recurrent ACS) leads to transfusional iron overload; elevated TSAT + ferritin >1000 ng/mL → iron chelation required; deferasirox is preferred oral chelator in SCD; cardiac and hepatic MRI T2* monitors iron deposition."
+  - target: 01-human/03-molecular/ferroportin
+    relation: connects-to
+    note: "Ferroportin exports Fe²⁺ from enterocytes and macrophages → hephaestin/ceruloplasmin oxidize to Fe³⁺ → binds apo-transferrin; FPN is the sole gateway from intracellular iron stores into the plasma transferrin pool; hepcidin-mediated FPN degradation reduces TSAT."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "In IDA, apotransferrin rises (elevated TIBC) as hepatocytes synthesize more TF to capture scarce iron; TSAT falls <20%; TFR1 upregulated (IRE-mediated) on erythroid precursors; TSAT <20% + ferritin <30 ng/mL are the standard diagnostic thresholds for IDA."
 ---
 
 # Transferrin
@@ -131,6 +137,8 @@ When transferrin is 100% saturated (as in β-thalassaemia major, hemochromatosis
 - `connects-to` → **[Hepcidin](../hepcidin/README.md)** — Hepcidin degrades ferroportin → blocks duodenal iron absorption and macrophage recycling → lowers transferrin saturation; elevated TSAT → liver BMP6 + TFR2/HJV → hepcidin upregulation → restrains iron loading; hepcidin-transferrin axis is the core iron homeostasis sensor.
 - `connects-to` → **[Thalassemia](../../07-system/thalassemia/README.md)** — β-thalassaemia major: massive ineffective erythropoiesis → ERFE suppresses hepcidin → unconstrained duodenal iron absorption → transferrin saturation 100% → NTBI → tissue deposition (liver, heart, pituitary); chelation with deferasirox targets NTBI.
 - `connects-to` → **[Sickle Cell Disease](../../07-system/sickle-cell-disease/README.md)** — Chronic transfusion therapy in SCD (for stroke prevention, recurrent ACS) leads to transfusional iron overload; elevated TSAT + ferritin >1000 ng/mL → iron chelation required; deferasirox is preferred oral chelator in SCD; cardiac and hepatic MRI T2* monitors iron deposition.
+- `connects-to` → **[Ferroportin](../ferroportin/README.md)** — Ferroportin exports Fe²⁺ from enterocytes and macrophages → hephaestin/ceruloplasmin oxidize to Fe³⁺ → binds apo-transferrin; FPN is the sole gateway from intracellular iron stores into the plasma transferrin pool; hepcidin-mediated FPN degradation reduces TSAT.
+- `connects-to` → **[Iron Deficiency Anemia](../../07-system/iron-deficiency-anemia/README.md)** — In IDA, apotransferrin rises (elevated TIBC) as hepatocytes synthesize more TF to capture scarce iron; TSAT falls <20%; TFR1 upregulated (IRE-mediated) on erythroid precursors; TSAT <20% + ferritin <30 ng/mL are the standard diagnostic thresholds for IDA.
 
 [^ganz-2013-systemic-iron-homeostasis]: Ganz T, Nemeth E. Iron homeostasis in host defence and inflammation. *Nat Rev Immunol.* 2015;15(8):500-510. [doi:10.1038/nri3863](https://doi.org/10.1038/nri3863) · [PubMed 26160612](https://pubmed.ncbi.nlm.nih.gov/26160612/)
 [^muckenthaler-2017-iron-balance]: Muckenthaler MU, Rivella S, Hentze MW, Galy B. A red carpet for iron metabolism. *Cell.* 2017;168(3):344-361. [doi:10.1016/j.cell.2016.12.034](https://doi.org/10.1016/j.cell.2016.12.034) · [PubMed 28129536](https://pubmed.ncbi.nlm.nih.gov/28129536/)

@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Severe falciparum malaria causes AKI in 4-8% (haemoglobinuria + microvascular obstruction + cytokine storm); cerebral malaria + AKI → high mortality; repeated malaria episodes contribute to CKD burden in endemic populations."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Iron deficiency partially protective against P. falciparum (iron-restricted parasites grow less vigorously); iron supplementation in endemic areas should follow malaria treatment to avoid feeding parasites; IDA and malaria co-exist in sub-Saharan Africa."
 ---
 
 # Malaria
@@ -204,6 +207,7 @@ cross_links:
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — HbAS (sickle trait) confers ~60% protection against severe P. falciparum malaria; HbSS provides partial protection (parasite invasion of sickled RBCs impaired); thalassaemia and HbC also protective; overlapping Hb variant and G6PD polymorphism distributions reflect centuries of malaria selection.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — HbAS (sickle cell trait) confers ~60% protection against severe and fatal malaria; the HbS allele frequency in sub-Saharan Africa (6-15%) is maintained by malaria selection (balanced polymorphism); HbSS patients exposed to malaria face increased sickling crises from fever + dehydration.
 - `connects-to` → **[CKD](../ckd/README.md)** — Severe falciparum malaria causes acute kidney injury (AKI) in 4-8% of cases (haemoglobinuria, parasite microvascular obstruction, cytokine storm); cerebral malaria + AKI → poor prognosis; malaria-endemic populations have higher CKD prevalence partly from repeated acute kidney insults.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron deficiency partially protective against P. falciparum (iron-restricted parasites grow less vigorously); iron supplementation in endemic areas should follow malaria treatment to avoid feeding parasites; IDA and malaria co-exist in sub-Saharan Africa.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
