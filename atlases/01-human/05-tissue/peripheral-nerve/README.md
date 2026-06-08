@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: part-of
     note: "Peripheral nerves are the anatomical conduits of the peripheral nervous system (PNS), carrying afferent sensory signals to the CNS and efferent motor/autonomic commands to effector organs."
+  - target: 01-human/07-system/cidp
+    relation: connects-to
+    note: "CIDP demyelinates peripheral nerves via macrophage-mediated paranodal stripping and anti-NF155/CNTN1 IgG4; NCS shows slowed conduction velocity, prolonged DML, F-wave prolongation, and conduction blocks; axonal loss secondary to chronic demyelination causes long-term disability."
 ---
 
 # Peripheral Nerve
@@ -99,6 +102,7 @@ Three concentric connective tissue sheaths organize the nerve [^stassart-2018-ax
 - `contains` → **[Neuron](../../04-cellular/neuron/README.md)** — peripheral nerves bundle the axons of sensory (DRG), motor (ventral horn), and autonomic neurons; the nerve is essentially the axon tract of the peripheral nervous system.
 - `target-of` → **[Guillain-Barré Syndrome](../guillain-barre/README.md)** — AIDP/AMAN/AMSAN are autoimmune attacks on peripheral nerve myelin and axons; demyelination produces conduction block and ascending paralysis.
 - `part-of` → **[Nervous System](../../07-system/nervous-system/README.md)** — peripheral nerves form the afferent and efferent limbs of the PNS, connecting the CNS to all peripheral sensory receptors, muscles, and autonomic targets.
+- `connects-to` → **[CIDP](../../07-system/cidp/README.md)** — CIDP demyelinates peripheral nerves via macrophage-mediated paranodal stripping and anti-NF155/CNTN1 IgG4 antibodies; NCS shows slowed conduction velocity, conduction blocks, and F-wave prolongation; efgartigimod (ADHERE; FDA Jun 2024) is now approved.
 
 [^bhatheja-2006-schwann]: Bhatheja K, Field J. Schwann cells: origins and role in axonal maintenance and regeneration. *Int J Biochem Cell Biol.* 2006;38(12):1995-1999. [doi:10.1016/j.biocel.2006.05.007](https://doi.org/10.1016/j.biocel.2006.05.007) · [PubMed 16807057](https://pubmed.ncbi.nlm.nih.gov/16807057/)
 [^stassart-2018-axon-myelin]: Stassart RM, Möbius W, Nave KA, Edgar JM. The axon-myelin unit in development and degenerative disease. *Front Neurosci.* 2018;12:467. [doi:10.3389/fnins.2018.00467](https://doi.org/10.3389/fnins.2018.00467) · [PubMed 30050403](https://pubmed.ncbi.nlm.nih.gov/30050403/)

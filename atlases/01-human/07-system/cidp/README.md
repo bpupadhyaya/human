@@ -1,0 +1,199 @@
+---
+schema: human-scale-entry/v1
+id: cidp
+name: CIDP
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "CIDP (chronic inflammatory demyelinating polyneuropathy) is immune-mediated PNS demyelination lasting >8 weeks; anti-NF155/CNTN1 IgG4 define subtypes; IVIG and corticosteroids first-line; efgartigimod (FcRn inhibitor; FDA Jun 2024) and inebilizumab (anti-CD19) are new options."
+aliases: ["CIDP", "chronic inflammatory demyelinating polyneuropathy", "chronic inflammatory demyelinating polyradiculoneuropathy", "anti-NF155 neuropathy"]
+sources:
+  - id: vanlaar-2010-efns-cidp
+    type: peer-reviewed
+    cite: "European Federation of Neurological Societies/Peripheral Nerve Society Guideline on management of chronic inflammatory demyelinating polyradiculoneuropathy. J Peripher Nerv Syst. 2010;15(1):1-9."
+    doi: "10.1111/j.1529-8027.2010.00238.x"
+    pmid: "20433600"
+  - id: merkies-2008-ivig-ice
+    type: peer-reviewed
+    cite: "Hughes RA, Donofrio P, Bril V, et al. Intravenous immune globulin (10% caprylate-chromatography purified) for the treatment of chronic inflammatory demyelinating polyradiculoneuropathy (ICE study). Lancet Neurol. 2008;7(2):136-144."
+    doi: "10.1016/S1474-4422(07)70329-0"
+    pmid: "18178525"
+  - id: vandenberheijde-2023-efgartigimod-cidp
+    type: peer-reviewed
+    cite: "van den Bergh PYK, van Doorn PA, Hadden RDM, et al. Efgartigimod alfa and hyaluronidase-qvfc in CIDP (ADHERE). N Engl J Med. 2023;390(3):219-232."
+    doi: "10.1056/NEJMoa2310819"
+    pmid: "38197812"
+  - id: van-den-bergh-2023-cidp-guidelines
+    type: peer-reviewed
+    cite: "Van den Bergh PYK, van Doorn PA, Hadden RDM, et al. European Academy of Neurology/Peripheral Nerve Society guideline on diagnosis and treatment of chronic inflammatory demyelinating polyradiculoneuropathy: 2023 update. Eur J Neurol. 2023;30(10):2976-3020."
+    doi: "10.1111/ene.15927"
+    pmid: "37382198"
+cross_links:
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "FcRn recycles pathogenic anti-paranodal IgG4 (anti-NF155, anti-CNTN1) and total IgG in CIDP; efgartigimod alfa SC (ADHERE: 67% vs 36% INCAT responders; FDA Jun 2024) accelerates IgG catabolism → reduces pathogenic antibody titers and IVIG dose requirements."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: modulated-by
+    note: "IVIG (2 g/kg loading; 1 g/kg q4w maintenance) is first-line CIDP therapy via FcγR blockade and anti-idiotypic antibodies (ICE trial: Lancet Neurol 2008); pathogenic IgG4 anti-NF155 and anti-CNTN1 disrupt paranodal axo-glial junctions; efgartigimod reduces total IgG."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "CIDP demyelinates peripheral nerves via macrophage-mediated paranodal stripping; NCS shows slowed conduction velocity, prolonged DML, F wave prolongation, and conduction blocks; anti-NF155 IgG4 disrupts paranodal axo-glial junctions → nodal instability and conduction failure."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "CD4+ T cells (IL-2-dependent) drive macrophage recruitment and paranodal demyelination in CIDP; Treg dysfunction may predispose; low-dose IL-2 for Treg expansion is under investigation as adjunct therapy in refractory CIDP and other autoimmune neuropathies."
+---
+
+# CIDP
+
+## Overview
+
+Chronic inflammatory demyelinating polyneuropathy (CIDP) is the most common chronic immune-mediated neuropathy, affecting 2–9 per 100,000 adults, with a mean age of onset of 50–55 years [^vanlaar-2010-efns-cidp]. It is characterized by progressive or relapsing-remitting **symmetric proximal and distal limb weakness** and **sensory deficits**, evolving over more than 8 weeks, caused by immune-mediated attack on the peripheral nerve myelin and paranodal structures.
+
+CIDP represents a spectrum of disorders, with the classical phenotype accounting for ~50% of cases and several electrophysiologically and immunologically distinct variants comprising the rest. The identification of **anti-paranodal IgG4 autoantibodies** (anti-NF155, anti-CNTN1, anti-CASPR1, anti-pan-neurofascin) has transformed understanding of CIDP as a molecularly heterogeneous disease — these subsets have distinct clinical features, respond differently to IVIG, and are amenable to targeted B cell depletion therapy.
+
+The approval of **efgartigimod alfa SC** (ADHERE trial, FDA June 2024) marked the first new mechanism of action approved for CIDP in decades, establishing FcRn inhibition as an effective approach to CIDP alongside the long-established IVIG, corticosteroids, and plasma exchange [^vandenberheijde-2023-efgartigimod-cidp].
+
+## Structure
+
+### Clinical Phenotypes
+
+| Phenotype | Approximate frequency | Key features |
+|:---------|:---------------------|:-------------|
+| Typical/Classical CIDP | ~50% | Symmetric proximal + distal; motor + sensory; responds to IVIG |
+| Pure sensory CIDP | ~10% | Sensory ataxia; large-fiber; normal strength |
+| Pure motor CIDP | ~10% | Motor predominant; distinguish from MMN |
+| Multifocal CIDP (MADSAM) | ~5% | Multifocal asymmetric; Lewis-Sumner syndrome |
+| Distal CIDP (DADS) | ~5% | Distal predominant; anti-MAG antibodies in some |
+| Anti-NF155 CIDP | ~5–10% | Prominent tremor; sensory ataxia; young onset; poor IVIG response |
+| Anti-CNTN1 CIDP | ~3–5% | Aggressive; nephropathy; poor IVIG response; responds to rituximab |
+
+### Diagnostic Criteria (EAN/PNS 2023 Update)
+
+**Clinical criteria** (mandatory):
+- Symptom duration >8 weeks (distinguishes from GBS)
+- Symmetric proximal + distal weakness in arms and legs (or equivalent for variants)
+- Sensory signs (reduced vibration, position sense, pinprick)
+- Absent or reduced deep tendon reflexes
+
+**Electrodiagnostic criteria** (nerve conduction studies):
+The diagnosis requires ≥1 of (in ≥2 nerves):
+- **Prolonged DML** (distal motor latency)
+- **Reduced motor conduction velocity**
+- **Prolonged F-wave latency** or absent F-waves
+- **Conduction block** (≥50% CMAP amplitude reduction across a nerve segment)
+- **Temporal dispersion** (>30% CMAP duration increase)
+
+**Supportive criteria**:
+- CSF: elevated protein (>45 mg/dL) with normal white cell count (<5/mm³) — albuminocytological dissociation
+- MRI: gadolinium enhancement or hypertrophy of nerve roots, plexus, proximal nerve trunks
+- Anti-paranodal antibodies: anti-NF155 IgG4, anti-CNTN1 IgG4, anti-CASPR1 IgG4
+- Response to IVIG or corticosteroids (therapeutic trial as diagnostic criterion)
+- Nerve biopsy: onion bulb formations (repeated demyelination/remyelination), macrophage-mediated demyelination
+
+## Function
+
+CIDP impairs peripheral nerve function through:
+
+1. **Demyelination** — slowed or blocked conduction velocity → weakness and sensory dysfunction; proximal nerve and root involvement explains the unusual combination of proximal + distal deficits (contrasting with length-dependent peripheral neuropathies)
+
+2. **Paranodal disruption** — anti-NF155 and anti-CNTN1 IgG4 disrupt the axo-glial paranodal junction (NF155-CNTN1-CASPR1 complex) → nodal Na⁺ channel instability → conduction failure independent of myelin destruction; explains the poor IVIG response in these subtypes (IVIG primarily targets macrophage FcγR and complement; IgG4 does not fix complement)
+
+3. **Secondary axonal degeneration** — in severe or long-standing CIDP, axonal loss occurs secondary to chronic demyelination → poor recovery even after immunotherapy; explains why early treatment prevents long-term disability
+
+Disease activity is quantified with:
+- **INCAT disability scale** (0–10; inflammatory neuropathy cause and treatment)
+- **ONLS** (overall neuropathy limitations scale)
+- **I-RODS** (Inflammatory-RODS; Rasch-based measure)
+- **MRC sum score** (muscle strength)
+- **R-ODS** (Rasch-built overall disability scale)
+
+## Pathology
+
+### Immunopathogenesis
+
+CIDP involves both **humoral** and **cellular** immune mechanisms [^van-den-bergh-2023-cidp-guidelines]:
+
+**Humoral arm:**
+- Complement-activating IgG1/IgG3 antibodies target compact myelin and Schwann cell surface antigens → classical complement activation → MAC deposition → Schwann cell lysis
+- Non-complement-activating IgG4 antibodies target paranodal junctions (NF155, CNTN1, CASPR1) → functional disruption without complement activation; these are resistant to IVIG and plasma exchange but respond to B cell depletion (rituximab)
+- Total IgG recycled by FcRn → FcRn inhibitors (efgartigimod) reduce all IgG including pathogenic subtypes
+
+**Cellular arm:**
+- CD4+ Th17 cells and CD8+ T cells infiltrate endoneurium → macrophage activation → paranodal myelin stripping
+- Aberrant macrophage activation → TNF-α, IL-1β, ROS → oxidative myelin damage
+- Defective Treg suppression allows autoreactive T cells to escape peripheral tolerance
+
+### Paranodal Biology — NF155 and Contactin System
+
+The **node of Ranvier** paranodal junction is maintained by a tripartite adhesion complex:
+- **Neurofascin-155** (NF155, encoded by *NFASC*): glial side (paranodal loops)
+- **Contactin-1** (CNTN1): axonal side
+- **Contactin-associated protein 1** (CASPR1): axonal; links CNTN1 to cytoskeleton
+
+IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachment → Na⁺/K⁺ channel redistribution → electrical instability. Unlike compact myelin antibodies, these do not activate complement (IgG4 does not fix C1q efficiently) — the reason these patients do not respond to IVIG and respond poorly to plasma exchange. **Rituximab** (anti-CD20) achieves better responses in anti-NF155+ and anti-CNTN1+ CIDP by depleting the B cell clone producing these antibodies.
+
+### Distinction from GBS (Guillain-Barré Syndrome)
+
+| Feature | GBS | CIDP |
+|:--------|:----|:-----|
+| Course | Acute; monophasic | Chronic (>8 weeks); relapsing or progressive |
+| Nadir | <4 weeks | Evolves >8 weeks |
+| CSF protein | Elevated | Elevated |
+| Electrodiagnostic | Acute demyelination | Chronic demyelination (onion bulbs) |
+| Preceding infection | Common (Campylobacter, EBV, CMV) | Less common |
+| Treatment | IVIG or PLEX (acute) | IVIG, corticosteroids, FcRn inhibitors (chronic) |
+
+## Treatment
+
+### First-line
+
+**IVIG (Intravenous immunoglobulin):**
+- 2 g/kg loading over 2–5 days → sustained therapy 1 g/kg q4w or 2 g/kg q12w
+- The **ICE trial** (N=117, randomized, double-blind) demonstrated improvement in INCAT score in 54% vs 21% placebo at 24 weeks [^merkies-2008-ivig-ice]; FDA-approved for CIDP
+- Mechanism: FcγR saturation → reduces macrophage phagocytosis of myelin; anti-idiotypic antibodies; complement neutralization; possibly accelerates pathogenic IgG catabolism by saturation of FcRn
+- Subcutaneous IVIG (SCIG): equivalent efficacy to IVIG with home administration; Hyqvia (IVIG + recombinant hyaluronidase) and Hizentra approved for CIDP maintenance
+
+**Corticosteroids:**
+- Pulsed dexamethasone 40 mg/d × 4 days q4w × 6 cycles: DexDROP trial showed non-inferiority to daily prednisolone in short term
+- Oral prednisolone 60 mg/d tapering: long-term immunosuppression; cumulative toxicity (osteoporosis, diabetes, cataract)
+- Intravenous methylprednisolone 500–1000 mg/d × 3–5 days: used for relapses
+
+**Plasma Exchange (PLEX):**
+- 2–3× weekly × 6 sessions then tapering → removes circulating antibodies
+- Benefit is typically short-lived (2–4 weeks); maintenance PLEX 1–2× weekly in some patients
+- Less practical than IVIG/corticosteroids; mainly for acute relapses or IVIG-intolerant patients
+
+### Second-line
+
+**Rituximab** (anti-CD20; 375 mg/m² × 4 doses or 1000 mg × 2):
+- Preferred for **anti-NF155** and **anti-CNTN1 IgG4-positive** CIDP — depletes the B cell clone producing paranodal antibodies; achieve complete/near-complete responses in ~50-70% of anti-NF155+ patients
+- Rituximab does not deplete long-lived plasma cells → antibody titers fall gradually over months
+
+**Azathioprine, mycophenolate mofetil, cyclosporine:**
+- Steroid-sparing agents for long-term maintenance; limited controlled trial evidence but widely used
+
+**Cyclophosphamide:** Reserved for severely refractory cases; risk of secondary malignancy
+
+### Newer Approved and Investigational Agents
+
+**FcRn inhibitors:**
+- **Efgartigimod alfa and hyaluronidase-qvfc SC** (Vyvgart Hytrulo; argenx): The **ADHERE trial** (N=322, Phase 3, randomized, double-blind) showed **67.0% vs 36.0%** INCAT responders at cycle 3 vs placebo (p<0.0001); FDA approved **June 2024** for CIDP [^vandenberheijde-2023-efgartigimod-cidp]. Weekly SC injection. Reduces all IgG (~50-70%) including anti-paranodal IgG4 → decreases both macrophage-mediated demyelination and paranodal disruption.
+- **Rozanolixizumab** (UCB): Phase 3 in CIDP (MOBILITY trial) ongoing; already FDA-approved for MG.
+- **Nipocalimab** (Janssen): Anti-FcRn; Phase 3 in CIDP (RALI trial) ongoing.
+- **Batoclimab** (Immunovant): Phase 3 in CIDP ongoing.
+
+**Anti-CD19 mAb:**
+- **Inebilizumab** (Uplizna; Amgen): FDA-approved for NMO; Phase 3 CIDP-IgG trial ongoing; anti-CD19 depletes a broader B cell compartment than anti-CD20 (includes plasmablasts and some plasma cells)
+
+## Connections
+
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — FcRn recycles anti-paranodal IgG4 (anti-NF155, anti-CNTN1) sustaining pathogenic titers in CIDP; efgartigimod alfa SC (ADHERE: 67% vs 36% INCAT response; FDA Jun 2024) accelerates IgG catabolism and reduces IVIG requirements.
+- **Modulated by** → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — IVIG (2 g/kg; ICE trial Lancet Neurol 2008) is first-line CIDP therapy; pathogenic IgG4 anti-NF155 and anti-CNTN1 disrupt paranodal junctions; efgartigimod reduces total IgG catabolism.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — CIDP demyelinates peripheral nerves via macrophage-mediated paranodal stripping and anti-paranodal IgG4; NCS shows slowed conduction velocity, conduction blocks, and F-wave prolongation; axonal loss occurs secondary to chronic demyelination.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CD4+ T cells (IL-2-dependent) drive macrophage recruitment and paranodal demyelination in CIDP; Treg dysfunction may predispose; low-dose IL-2 Treg expansion under investigation as adjunct therapy.
+
+[^vanlaar-2010-efns-cidp]: European Federation of Neurological Societies/Peripheral Nerve Society. Guideline on management of CIDP. *J Peripher Nerv Syst.* 2010;15(1):1-9. [doi:10.1111/j.1529-8027.2010.00238.x](https://doi.org/10.1111/j.1529-8027.2010.00238.x) · [PubMed 20433600](https://pubmed.ncbi.nlm.nih.gov/20433600/)
+[^merkies-2008-ivig-ice]: Hughes RA, et al. Intravenous immune globulin for CIDP (ICE study). *Lancet Neurol.* 2008;7(2):136-144. [doi:10.1016/S1474-4422(07)70329-0](https://doi.org/10.1016/S1474-4422(07)70329-0) · [PubMed 18178525](https://pubmed.ncbi.nlm.nih.gov/18178525/)
+[^vandenberheijde-2023-efgartigimod-cidp]: van den Bergh PYK, et al. Efgartigimod alfa and hyaluronidase-qvfc in CIDP (ADHERE). *N Engl J Med.* 2023;390(3):219-232. [doi:10.1056/NEJMoa2310819](https://doi.org/10.1056/NEJMoa2310819) · [PubMed 38197812](https://pubmed.ncbi.nlm.nih.gov/38197812/)
+[^van-den-bergh-2023-cidp-guidelines]: Van den Bergh PYK, et al. EAN/PNS guideline on CIDP: 2023 update. *Eur J Neurol.* 2023;30(10):2976-3020. [doi:10.1111/ene.15927](https://doi.org/10.1111/ene.15927) · [PubMed 37382198](https://pubmed.ncbi.nlm.nih.gov/37382198/)
