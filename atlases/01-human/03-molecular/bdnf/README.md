@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: modulates
     note: "BDNF is the most abundant neurotrophin in adult brain; hippocampal BDNF is essential for adult neurogenesis in the subgranular zone and LTP in CA1/CA3; aerobic exercise increases hippocampal BDNF and expands hippocampal volume in humans."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Chronic stress-induced BDNF suppression causes hippocampal volume loss (~8%) in PTSD; reduced BDNF impairs contextual fear discrimination and extinction consolidation; SSRIs normalize BDNF and partially restore hippocampal volume; Val66Met SNP increases PTSD risk."
 ---
 
 # BDNF

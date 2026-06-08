@@ -35,6 +35,9 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "NE deficit via locus coeruleus-PFC projection underlies psychomotor retardation in MDD; SNRIs (venlafaxine, duloxetine) and TCAs block NET; mirtazapine raises NE via α2 autoreceptor blockade; melancholic depression preferentially responds to NE-targeting antidepressants."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Locus coeruleus hyperactivation in PTSD → excess NE → amygdala hyperreactivity, hyperarousal, and intrusive re-experiencing; prazosin (α1 antagonist) reduces NE-driven nightmares; propranolol may reduce fear memory reconsolidation when given acutely after trauma."
 ---
 
 # Norepinephrine

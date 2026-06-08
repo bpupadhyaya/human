@@ -54,6 +54,9 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "NMDA receptor hypofunction in PFC parvalbumin interneurons underlies cognitive and negative symptoms; ketamine (NMDA antagonist) reproduces full schizophrenia phenotype; glycine-site NMDA co-agonists and AMPA potentiators are experimental treatments."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "NMDA receptors mediate fear memory consolidation and extinction in amygdala and vmPFC; D-cycloserine (partial NMDA agonist) enhances extinction in prolonged exposure therapy; ketamine reduces PTSD symptoms via rapid BDNF/mTOR-mediated synaptic remodeling."
 ---
 
 # Glutamate

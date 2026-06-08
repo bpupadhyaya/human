@@ -59,6 +59,12 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: modulated-by
     note: "Modulated by Adrenal Gland."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "PTSD exhibits paradoxical hypocortisolemia — elevated CRH but enhanced GR sensitivity → excess negative feedback; low cortisol impairs fear extinction; hydrocortisone given acutely after trauma shows prophylactic benefit; opposite HPA profile from MDD."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "HPA hyperactivation in MDD — elevated CRH, cortisol, and blunted DST suppression — causes hippocampal atrophy via GR-mediated BDNF suppression; normalizing cortisol via mifepristone or CRH antagonists correlates with antidepressant response."
 ---
 
 # Cortisol
