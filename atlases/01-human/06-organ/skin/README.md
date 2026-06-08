@@ -38,6 +38,9 @@ cross_links:
   - target: 01-human/03-molecular/il-36
     relation: connects-to
     note: "IL-36α/β/γ predominantly produced by keratinocytes in psoriatic skin; IL36RN loss-of-function mutations → generalized pustular psoriasis (GPP) with neutrophil lakes; spesolimab (anti-IL-36R; FDA 2022) restores homeostatic IL-36Ra balance in GPP."
+  - target: 01-human/03-molecular/desmoglein-3
+    relation: connects-to
+    note: "Dsg3 and Dsg1 are expressed in desmosomal junctions of stratified squamous epidermis; Dsg3 in suprabasal layers and mucosa; Dsg1 in upper epidermis; anti-Dsg3 IgG4 (pemphigus vulgaris) and anti-Dsg1 IgG4 (pemphigus foliaceus) disrupt the cutaneous barrier → blisters/erosions."
 ---
 
 # Skin
@@ -135,6 +138,7 @@ The skin is the body's sensory organ for touch, pressure, vibration, pain, and t
 - `contains` → **[Macrophage](../../04-cellular/macrophage/README.md)** — dermal macrophages and Langerhans cells (epidermal DCs) serve as immune sentinels; Langerhans cells prime T cell responses to topical antigens, contact allergens, and skin-tropic pathogens
 - `connects-to` → **[Psoriatic Arthritis](../../07-system/psoriatic-arthritis/README.md)** — PsA occurs in ~30% of psoriasis patients; skin psoriasis often precedes joint disease by ~10 years; shared IL-17A/IL-23 pathobiology explains why biologics achieving PASI 90/100 in psoriasis also treat PsA enthesitis and synovitis.
 - `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — IL-36α/β/γ predominantly produced by keratinocytes in psoriatic skin; IL36RN loss-of-function mutations → GPP with neutrophil lakes; spesolimab (anti-IL-36R; FDA 2022) restores homeostatic IL-36Ra balance.
+- `connects-to` → **[Desmoglein-3](../../03-molecular/desmoglein-3/README.md)** — Dsg3 and Dsg1 are expressed in desmosomal junctions of stratified squamous epidermis; Dsg3 in suprabasal layers and mucosa; Dsg1 in upper epidermis; anti-Dsg3 IgG4 (pemphigus vulgaris) and anti-Dsg1 IgG4 (pemphigus foliaceus) disrupt the cutaneous barrier → blisters/erosions.
 
 ## Pathology
 

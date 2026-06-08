@@ -46,6 +46,12 @@ cross_links:
   - target: 01-human/07-system/cidp
     relation: connects-to
     note: "FcRn recycles anti-paranodal IgG4 (anti-NF155, anti-CNTN1) sustaining pathogenic titers in CIDP; efgartigimod alfa SC (ADHERE: 67% vs 36% INCAT responders; FDA Jun 2024) accelerates IgG catabolism → reduces paranodal antibody levels and IVIG requirements."
+  - target: 01-human/03-molecular/desmoglein-3
+    relation: connects-to
+    note: "FcRn recycles anti-Dsg3 IgG4 prolonging its pathogenic half-life → sustained desmosomal disruption in PV; efgartigimod (anti-FcRn) reduces anti-Dsg3 titer ~70% within 1 cycle → faster disease control than rituximab; FDA Oct 2023 for PV/PF."
+  - target: 01-human/07-system/pemphigus-vulgaris
+    relation: connects-to
+    note: "FcRn recycles anti-Dsg3 IgG4 and anti-Dsg1 IgG4 sustaining pathogenic titers in PV and pemphigus foliaceus; efgartigimod (ADHERE-SC: 58% vs 23% CR; FDA Oct 2023) blocks FcRn → accelerates anti-Dsg IgG4 catabolism → disease control without B-cell depletion."
 ---
 
 # FcRn
@@ -157,6 +163,8 @@ FcRn biology has enabled rational antibody engineering to extend or shorten ther
 - `connects-to` → **[Immune Thrombocytopenia](../../07-system/immune-thrombocytopenia/README.md)** — FcRn recycles anti-GPIIb/IIIa IgG sustaining pathogenic platelet antibody titers in ITP; efgartigimod (ADVANCE-SC: ~22% vs ~5% sustained platelet response; FDA Jun 2023) accelerates IgG catabolism; rozanolixizumab under investigation.
 - `connects-to` → **[Thrombopoietin](../thrombopoietin/README.md)** — TPO-RAs (romiplostim, eltrombopag) and FcRn inhibitors (efgartigimod) target complementary ITP mechanisms — stimulating c-Mpl → platelet production vs. blocking FcRn → anti-platelet IgG catabolism; combination under clinical investigation.
 - `connects-to` → **[CIDP](../../07-system/cidp/README.md)** — FcRn recycles anti-paranodal IgG4 (anti-NF155, anti-CNTN1) sustaining pathogenic titers in CIDP; efgartigimod alfa SC (ADHERE: 67% vs 36% INCAT responders; FDA Jun 2024) accelerates IgG catabolism → reduces paranodal antibody levels.
+- `connects-to` → **[Desmoglein-3](../desmoglein-3/README.md)** — FcRn recycles anti-Dsg3 IgG4 prolonging its pathogenic half-life → sustained desmosomal disruption in PV; efgartigimod (anti-FcRn) reduces anti-Dsg3 titer ~70% within 1 cycle → faster disease control than rituximab; FDA Oct 2023 for PV/PF.
+- `connects-to` → **[Pemphigus Vulgaris](../../07-system/pemphigus-vulgaris/README.md)** — FcRn recycles anti-Dsg3 IgG4 and anti-Dsg1 IgG4 sustaining pathogenic titers in PV and pemphigus foliaceus; efgartigimod (ADHERE-SC: 58% vs 23% CR; FDA Oct 2023) blocks FcRn → accelerates anti-Dsg IgG4 catabolism → disease control without B-cell depletion.
 
 [^roopenian-2007-fcrn-review]: Roopenian DC, Akilesh S. FcRn: the neonatal Fc receptor comes of age. *Nat Rev Immunol.* 2007;7(9):715-725. [doi:10.1038/nri2155](https://doi.org/10.1038/nri2155) · [PubMed 17703228](https://pubmed.ncbi.nlm.nih.gov/17703228/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

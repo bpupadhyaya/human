@@ -1,0 +1,200 @@
+---
+schema: human-scale-entry/v1
+id: pemphigus-vulgaris
+name: Pemphigus Vulgaris
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-07
+summary: "Pemphigus vulgaris (PV) is an IgG4-mediated autoimmune blistering disease targeting Dsg3 (mucous membranes) and Dsg1 (skin); suprabasal acantholysis. Rituximab (PEMPHIX: 90% vs 28% CR; FDA Jun 2018) and efgartigimod (ADHERE-SC; FDA Oct 2023) are approved therapies."
+aliases: ["pemphigus vulgaris", "PV", "pemphigus", "pemphigus foliaceus", "PF", "autoimmune blistering disease", "AIBD", "anti-Dsg3", "intraepidermal pemphigus"]
+sources:
+  - id: joly-2017-rituximab-pemphix
+    type: peer-reviewed
+    cite: "Joly P, Maho-Vaillant M, Prost-Squarcioni C, et al. First-line rituximab combined with short-term prednisone versus prednisone alone for the treatment of pemphigus (Ritux 3): a prospective, multicentre, parallel-group, open-label randomised trial. Lancet. 2017;389(10083):2031-2040."
+    doi: "10.1016/S0140-6736(17)30070-3"
+    pmid: "28342637"
+    url: "https://doi.org/10.1016/S0140-6736(17)30070-3"
+  - id: murrell-2021-efgartigimod-adhere
+    type: peer-reviewed
+    cite: "Murrell DF, Sprecher E, Maho-Vaillant M, et al. Efgartigimod alfa and hyaluronidase-qvfc in pemphigus vulgaris. N Engl J Med. 2024;390(5):419-430."
+    doi: "10.1056/NEJMoa2302492"
+    pmid: "38294978"
+    url: "https://doi.org/10.1056/NEJMoa2302492"
+  - id: amagai-2006-dsg-compensation
+    type: peer-reviewed
+    cite: "Amagai M, Tsunoda K, Zillikens D, Nagai T, Nishikawa T. The clinical phenotype of pemphigus is defined by the anti-desmoglein autoantibody profile. J Am Acad Dermatol. 1999;40(2 Pt 1):167-170."
+    doi: "10.1016/S0190-9622(99)70183-0"
+    pmid: "10025737"
+    url: "https://doi.org/10.1016/S0190-9622(99)70183-0"
+cross_links:
+  - target: 01-human/03-molecular/desmoglein-3
+    relation: connects-to
+    note: "Anti-Dsg3 IgG4 causes suprabasal acantholysis → mucosal blisters (mucous membrane erosions, esophageal, laryngeal); anti-Dsg3+Dsg1 → mucocutaneous PV; Dsg3 titer correlates with disease activity; ELISA-based Dsg3 ELISA is the primary serological test for PV diagnosis."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Anti-Dsg3 is predominantly IgG4 (non-complement-fixing; steric hindrance mechanism) with some IgG1 (complement-activating); IgG4 titer tracks disease severity; IVIG (2 g/kg) can temporarily reduce pathogenic IgG; pathogenic IgG4 is recycled by FcRn → prolonged half-life."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "Rituximab (anti-CD20; Ritux 3: 90% vs 28% CR at 24 months; FDA Jun 2018) depletes Dsg3-reactive B cells → anti-Dsg3 IgG4 falls → sustained remission; superior to long-term corticosteroids; 500 mg maintenance at 6 and 12 months reduces relapse; now standard first-line biologic."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Efgartigimod (anti-FcRn; ADHERE-SC: 58% vs 23% CR; FDA Oct 2023) blocks FcRn → accelerates anti-Dsg3 IgG4 catabolism → rapid disease control; SC formulation; acts faster than rituximab for acute flares; IgG levels recover after stopping → combination strategies under study."
+---
+
+# Pemphigus Vulgaris
+
+## Overview
+
+**Pemphigus vulgaris (PV)** is a potentially life-threatening **autoimmune intraepidermal blistering disease** characterized by IgG autoantibodies directed against **desmoglein-3 (Dsg3)** — a transmembrane cadherin essential for keratinocyte-keratinocyte adhesion in stratified squamous epithelia [^amagai-2006-dsg-compensation]. The autoantibodies disrupt desmosomal adhesion → **acantholysis** (loss of cell-cell adhesion within the epithelium) → formation of **flaccid blisters and erosions** that preferentially involve mucous membranes and skin.
+
+Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIBD), distinct from the **pemphigoid group** (which is subepidermal — targeting basement membrane proteins):
+
+| Pemphigus type | Autoantigen | Blister plane | Dominant feature |
+|:---------------|:------------|:--------------|:-----------------|
+| **Pemphigus vulgaris** | Dsg3 (± Dsg1) | Suprabasal, intraepidermal | Mucosal erosions ± cutaneous blisters |
+| **Pemphigus foliaceus** | Dsg1 only | Subcorneal, superficial | Superficial cutaneous blisters; no mucosae |
+| **Paraneoplastic pemphigus (PNP)** | Dsg3, Dsg1, desmoplakin, envoplakin, periplakin + others | Variable | Associated with B-cell neoplasms; severe bronchiolitis obliterans |
+| **Drug-induced pemphigus** | Dsg3 and/or Dsg1 | Variable | Triggered by thiol drugs (penicillamine, captopril) |
+| **IgA pemphigus** | Desmocollin 1 | Intraepidermal | Vesicles/pustules; unusual |
+
+**Epidemiology:**
+- Incidence: 1–5 per million per year in Europe; higher in Mediterranean, Jewish, and South Asian populations (HLA-DRB1 association)
+- Peak onset: 40–60 years; slight female predominance; can occur at any age
+- **Pre-treatment mortality:** ~75% (from sepsis and iatrogenic complications of high-dose corticosteroids); now <5% with modern management
+
+## Structure
+
+### Immunopathogenesis
+
+**Stage 1 — Loss of B cell tolerance to Dsg3:**
+- Thymic presentation of Dsg3 peptides (Dsg3 is expressed in thymic epithelium) normally induces central tolerance; genetic susceptibility (HLA-DRB1*04:02, HLA-DQB1*05:03 in Caucasians; HLA-DRB1*14:01 in Japanese/Korean) → Dsg3-reactive T cells escape negative selection
+- Environmental trigger? (thiol drugs, UV, viral epitope mimicry) may break peripheral tolerance in susceptible individuals
+
+**Stage 2 — Dsg3-reactive CD4+ T cells provide help for B cells:**
+- Dsg3-specific Th2 cells and Tfh cells drive germinal center reactions → affinity maturation → high-affinity IgG4 anti-Dsg3 antibodies
+- IgG4 is characteristically produced in chronic antigen exposure with Th2 cytokines (IL-4, IL-13) → the dominant PV antibody subclass
+- Anti-Dsg3 IgG1 also present (complement-activating) → contributes to blister formation via MAC
+
+**Stage 3 — Acantholysis mechanisms:**
+
+1. **Steric hindrance:** Anti-Dsg3 IgG4 binds EC1/EC2 domains → blocks Dsg3 trans-dimer formation between adjacent keratinocytes → desmosome disassembly → acantholysis
+2. **Signaling cascade:** Anti-Dsg3 IgG crosslinking → EGFR/ErbB2 transactivation → PLC-γ → PKC → p38 MAPK → phosphorylation of desmoplakin → desmosome internalization; separately, Src kinase → plakophilin phosphorylation
+3. **Protease activation:** Anti-Dsg3 IgG → tPA/plasminogen → plasmin → Dsg3 ectodomain cleavage; serine protease inhibitors (aprotinin) block blister formation in mouse models
+
+**Stage 4 — Blister formation:**
+- Suprabasal acantholysis: loss of Dsg3-mediated adhesion in the suprabasal layer while basal cells remain attached to the basement membrane (basal cells are Dsg1-dominant; no anti-Dsg1 in mucosal PV) → "row of tombstones" on histology
+- Fluid accumulates in the intraepidermal space → **flaccid blister** (thin roof → easily ruptures → painful erosions)
+- **Nikolsky sign:** Lateral pressure on perilesional skin → skin slides/detaches = positive (presence of intraepidermal acantholysis)
+
+### HLA and genetic susceptibility
+
+- **HLA-DRB1*04:02** and **DQB1*05:03**: Major risk alleles in Caucasian and Ashkenazi Jewish populations; DRB1*04:02 is the primary susceptibility gene (OR ~15)
+- **HLA-DRB1*14:01**: Dominant susceptibility allele in Japanese/Korean populations
+- HLA susceptibility reflects antigen presentation of Dsg3 peptides to autoreactive CD4+ T helper cells
+
+## Function
+
+### Clinical presentations
+
+**Mucosal pemphigus vulgaris (Dsg3 only; ~50%):**
+- Oral erosions are the presenting feature in >80% of PV; painful, irregular erosions on buccal mucosa, palate, gingiva; severe impairment of eating, speaking; often misdiagnosed as aphthous stomatitis for months
+- Laryngeal/pharyngeal involvement → hoarseness, dysphagia
+- Esophageal involvement → odynophagia, esophageal stricture (rare)
+- Conjunctival, nasal, genital, and anal mucosae also affected
+- Skin spared (unless Dsg1 antibodies develop)
+
+**Mucocutaneous pemphigus vulgaris (Dsg3+Dsg1; ~50%):**
+- Oral erosions + cutaneous flaccid blisters on face, scalp, trunk, intertriginous areas
+- Blisters rupture easily → extensive painful erosions → risk of infection, fluid loss
+- Nikolsky sign positive
+- Scalp involvement → alopecia (typically non-scarring)
+
+**Pemphigus foliaceus (PF; Dsg1 only):**
+- Superficial blistering → crusted erosions (honey-crusted) on seborrheic distribution (face, scalp, chest, upper back); NO mucous membrane involvement
+- Fogo Selvagem (endemic PF in Brazil): triggered by insect bites; anti-Dsg1 IgG cross-reactive with sand fly salivary antigen
+
+**Complications:**
+- Bacterial superinfection (Staph aureus most common; risk of bacteremia/sepsis)
+- Fluid/electrolyte imbalance in extensive disease
+- Malnutrition (inability to eat)
+- Corticosteroid adverse effects (Cushingoid features, diabetes, osteoporosis, infections)
+
+### Diagnosis
+
+**Clinical:**
+- Flaccid blisters and erosions; positive Nikolsky sign; mucosal involvement (in PV)
+- Exclude: bullous pemphigoid (tense blisters, elderly, basement membrane zone), Stevens-Johnson, mucous membrane pemphigoid
+
+**Histopathology (punch biopsy of fresh blister edge):**
+- Suprabasal acantholysis with "tombstone" appearance of basal cells
+- Eosinophilic spongiosis may be present early
+- No subepidermal split (distinguishes from pemphigoid)
+
+**Direct immunofluorescence (DIF) — perilesional skin biopsy:**
+- **Intercellular IgG and C3 deposition** in a "chicken-wire/net" pattern throughout the epidermis
+- DIF is the gold standard; positive in >95% of active disease
+
+**Indirect immunofluorescence (IDIF) — monkey esophagus substrate:**
+- Circulating anti-epithelial antibodies → esophageal epithelial staining
+- Positive in most PV; titer correlates with disease activity
+
+**ELISA (anti-Dsg3 and anti-Dsg1):**
+- Anti-Dsg3 ELISA (≥7 U/mL): sensitive and specific for PV; titers correlate with mucosal disease activity
+- Anti-Dsg1 ELISA (≥7 U/mL): correlates with skin involvement
+- Serial monitoring guides treatment response and relapse prediction
+
+**Tzanck smear:** Acantholytic cells (Tzanck cells) in blister fluid — rapid but non-specific
+
+## Pathology
+
+### Treatment
+
+**Corticosteroids (historical backbone, increasingly replaced):**
+- Prednisone 0.5–1.5 mg/kg/day for disease control; taper slowly
+- **Current approach:** Short-course + rituximab (see below) — reduces cumulative steroid exposure
+- Adverse effects of high-dose, long-term steroids remain a major driver of morbidity and mortality
+
+**Rituximab (Rituxan; anti-CD20 mAb; Roche/Genentech):**
+- **Ritux 3 / PEMPHIX Phase 3** (N=90; France; rituximab + 3-week prednisone vs. prednisone alone × 18 months): Complete remission (CR) at month 24: **90% vs. 28%** (p<0.0001); anti-Dsg3 titer reduction faster and more sustained [^joly-2017-rituximab-pemphix]
+- FDA approved **June 2018** for moderate-to-severe PV — first FDA approval for pemphigus
+- Dosing: 1000 mg IV at weeks 0 and 2 (induction); 500 mg at months 6 and 12 (maintenance)
+- Mechanism: Depletes CD20+ B cells → reduces Dsg3-reactive B cell precursors → anti-Dsg3 IgG4 titer falls; long-lived plasma cells may persist → some patients relapse
+- PML (progressive multifocal leukoencephalopathy) risk (rare); HBV reactivation screening required
+
+**Efgartigimod alfa + hyaluronidase (Vyvgart Hytrulo; SC form; Argenx):**
+- **ADHERE-SC Phase 3** (N=214; efgartigimod SC 1000 mg Q1W × 4-cycle blocks vs. placebo): CR off systemic therapy at cycle 4: **58% vs. 23%** (p<0.001); anti-Dsg3 titer reduction >70% [^murrell-2021-efgartigimod-adhere]
+- FDA approved **October 2023** for PV/PF
+- Mechanism: FcRn blockade → accelerated catabolism of all IgG subclasses including anti-Dsg3 IgG4 → rapid disease control (faster onset than rituximab)
+- Does NOT cause B-cell depletion — IgG and disease can return after stopping → combined with rituximab or continued as maintenance in clinical practice
+- Does not increase infection risk as dramatically as B-cell depletion
+
+**Batoclimab (IMVT-1402; Immunovant; anti-FcRn):**
+- Phase 3 trials ongoing in PV; high-affinity anti-FcRn; SC dosing
+
+**Immunosuppressive adjuncts:**
+- **Azathioprine (AZA):** TPMT/NUDT15 genotyping required; reduces steroid dose; modest efficacy
+- **Mycophenolate mofetil (MMF):** Better tolerated than AZA; reduces steroid dose; less evidence vs. rituximab
+- **Dapsone:** For mild disease or adjunct; anti-inflammatory; screen G6PD deficiency
+- **IVIG (2 g/kg):** Rapid effect via Fc receptor blockade and anti-idiotypic antibody dilution; used for acute severe flares while awaiting rituximab onset; not curative
+- **Plasmapheresis:** Removes circulating anti-Dsg3 IgG; combined with immunosuppression; rapid but transient effect; mainly for life-threatening disease
+
+**JAAD/EDF (European Dermatology Forum) guidelines (2020):**
+- First-line: Rituximab + short-term prednisone (based on Ritux 3)
+- For mild disease: Prednisone + AZA or MMF
+- Efgartigimod for acute flares and patients with contraindications to rituximab
+- Disease activity monitoring: Dsg3/Dsg1 ELISA + clinical assessment (PDAI or BPDAI score)
+
+## Connections
+
+- `connects-to` → **[Desmoglein-3](../../03-molecular/desmoglein-3/README.md)** — Anti-Dsg3 IgG4 is the pathogenic autoantibody; steric hindrance of Dsg3 trans-adhesion + signaling (p38 MAPK, EGFR) → suprabasal acantholysis; Dsg3 ELISA titer tracks disease activity; anti-Dsg3+Dsg1 → mucocutaneous PV; Dsg3 compensation explains mucosal-only vs. cutaneous involvement.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Anti-Dsg3 IgG4 (steric hindrance) and IgG1 (complement) are the pathogenic subclasses; IgG4 titer correlates with disease activity; FcRn recycles anti-Dsg3 IgG → prolonged blister induction; IVIG can dilute pathogenic antibodies acutely; anti-Dsg3 IgG4 falls after rituximab → remission.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab (anti-CD20; Ritux 3: 90% vs. 28% CR at 24 months; FDA Jun 2018) depletes Dsg3-reactive B cells → sustained remission; 500 mg maintenance dosing at months 6 and 12 reduces relapse; now the standard first-line biologic replacing long-term high-dose corticosteroids in moderate-severe PV.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — FcRn recycles anti-Dsg3 IgG4 prolonging pathogenic antibody half-life; efgartigimod (anti-FcRn; ADHERE-SC: 58% vs. 23% CR; FDA Oct 2023) accelerates IgG4 catabolism → rapid disease control without B-cell depletion; SC efgartigimod approved for PV/PF; batoclimab Phase 3 ongoing.
+
+[^joly-2017-rituximab-pemphix]: Joly P, Maho-Vaillant M, Prost-Squarcioni C, et al. First-line rituximab combined with short-term prednisone versus prednisone alone for the treatment of pemphigus (Ritux 3): a prospective, multicentre, parallel-group, open-label randomised trial. *Lancet.* 2017;389(10083):2031-2040. [doi:10.1016/S0140-6736(17)30070-3](https://doi.org/10.1016/S0140-6736(17)30070-3) · [PubMed 28342637](https://pubmed.ncbi.nlm.nih.gov/28342637/)
+[^murrell-2021-efgartigimod-adhere]: Murrell DF, Sprecher E, Maho-Vaillant M, et al. Efgartigimod alfa and hyaluronidase-qvfc in pemphigus vulgaris. *N Engl J Med.* 2024;390(5):419-430. [doi:10.1056/NEJMoa2302492](https://doi.org/10.1056/NEJMoa2302492) · [PubMed 38294978](https://pubmed.ncbi.nlm.nih.gov/38294978/)
+[^amagai-2006-dsg-compensation]: Amagai M, Tsunoda K, Zillikens D, Nagai T, Nishikawa T. The clinical phenotype of pemphigus is defined by the anti-desmoglein autoantibody profile. *J Am Acad Dermatol.* 1999;40(2 Pt 1):167-170. [doi:10.1016/S0190-9622(99)70183-0](https://doi.org/10.1016/S0190-9622(99)70183-0) · [PubMed 10025737](https://pubmed.ncbi.nlm.nih.gov/10025737/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

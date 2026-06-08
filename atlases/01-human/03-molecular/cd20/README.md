@@ -43,6 +43,12 @@ cross_links:
   - target: 01-human/07-system/sjogrens-syndrome
     relation: connects-to
     note: "Rituximab (anti-CD20) depletes B cells in pSS; TEARS/TRACTISS Phase 3 had mixed results on ESSPRI; used off-label for severe extraglandular pSS (cryoglobulinemia, vasculitis, lymphoma); CD20+ ectopic GC B cells in salivary glands drive anti-Ro/SSA production and lymphomagenesis."
+  - target: 01-human/03-molecular/desmoglein-3
+    relation: connects-to
+    note: "Rituximab (anti-CD20) depletes Dsg3-reactive B cells → anti-Dsg3 IgG4 titer reduction → sustained remission in PV; Ritux 3 trial: 90% vs 28% CR at 24 months; obinutuzumab (anti-CD20) under investigation for rituximab-refractory pemphigus."
+  - target: 01-human/07-system/pemphigus-vulgaris
+    relation: connects-to
+    note: "Rituximab (anti-CD20) is the cornerstone biologic for PV (Ritux 3/PEMPHIX: 90% vs 28% CR at 24 months; FDA Jun 2018); 1000 mg induction at weeks 0 + 2; 500 mg maintenance at months 6 + 12; depletes CD20+ B cells producing pathogenic anti-Dsg3/Dsg1 IgG4."
 ---
 
 # CD20
@@ -154,6 +160,8 @@ CD20×CD3 bispecifics redirect T cells to CD20+ targets — bypassing MHC-I/II r
 - `connects-to` → **[NMOSD](../../07-system/nmo/README.md)** — Rituximab (anti-CD20) depletes B cells → reduces AQP4-IgG; widely used off-label as first-line NMOSD prevention (~70-80% ARR reduction); inebilizumab (anti-CD19; N-MOmentum; FDA Jun 2020) is approved for NMOSD; ublituximab under investigation.
 - `connects-to` → **[ANCA Vasculitis](../../07-system/anca-vasculitis/README.md)** — Rituximab (anti-CD20) depletes autoreactive B cells in ANCA vasculitis; RAVE trial: rituximab non-inferior to cyclophosphamide for GPA/MPA induction (64% vs 53% CR; FDA Apr 2011); rituximab superior in relapsing disease; MAINRITSAN maintenance reduces relapse.
 - `connects-to` → **[Sjögren's Syndrome](../../07-system/sjogrens-syndrome/README.md)** — Rituximab (anti-CD20) depletes B cells in pSS; TEARS/TRACTISS Phase 3 had mixed results on ESSPRI; used off-label for severe extraglandular pSS (cryoglobulinemia, vasculitis, lymphoma); CD20+ ectopic GC B cells in salivary glands drive anti-Ro/SSA production and lymphomagenesis.
+- `connects-to` → **[Desmoglein-3](../desmoglein-3/README.md)** — Rituximab (anti-CD20) depletes Dsg3-reactive B cells → anti-Dsg3 IgG4 titer reduction → sustained remission in PV; Ritux 3 trial: 90% vs 28% CR at 24 months; obinutuzumab (anti-CD20) under investigation for rituximab-refractory pemphigus.
+- `connects-to` → **[Pemphigus Vulgaris](../../07-system/pemphigus-vulgaris/README.md)** — Rituximab (anti-CD20) is the cornerstone biologic for PV (Ritux 3/PEMPHIX: 90% vs 28% CR at 24 months; FDA Jun 2018); 1000 mg induction at weeks 0 + 2; 500 mg maintenance at months 6 + 12; depletes CD20+ B cells producing pathogenic anti-Dsg3/Dsg1 IgG4.
 
 [^maloney-1997-rituximab]: Maloney DG, Grillo-López AJ, White CA, et al. IDEC-C2B8 (rituximab) anti-CD20 monoclonal antibody therapy in patients with relapsed low-grade non-Hodgkin's lymphoma. *Blood.* 1997;90(6):2188-2195. [doi:10.1182/blood.V90.6.2188](https://doi.org/10.1182/blood.V90.6.2188) · [PubMed 9310469](https://pubmed.ncbi.nlm.nih.gov/9310469/)
 [^coiffier-2002-rchop]: Coiffier B, Lepage E, Brière J, et al. CHOP chemotherapy plus rituximab compared with CHOP alone in elderly patients with diffuse large-B-cell lymphoma. *N Engl J Med.* 2002;346(4):235-242. [doi:10.1056/NEJMoa011795](https://doi.org/10.1056/NEJMoa011795) · [PubMed 11807147](https://pubmed.ncbi.nlm.nih.gov/11807147/)

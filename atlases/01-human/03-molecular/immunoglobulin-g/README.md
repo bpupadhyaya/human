@@ -74,6 +74,12 @@ cross_links:
   - target: 01-human/07-system/anca-vasculitis
     relation: connects-to
     note: "Anti-PR3 IgG (c-ANCA) and anti-MPO IgG (p-ANCA) are pathogenic in GPA and MPA; IgG crosslinks surface PR3/MPO on C5a-primed neutrophils → FcγRIIa activation → NETosis → pauci-immune vasculitis; rituximab (RAVE; FDA Apr 2011) depletes B cells producing pathogenic ANCA IgG."
+  - target: 01-human/03-molecular/desmoglein-3
+    relation: connects-to
+    note: "Anti-Dsg3 IgG4 (PV; steric hindrance of desmosomal Dsg3) and anti-Dsg1 IgG4 (PF; superficial acantholysis) are the pathogenic pemphigus autoantibodies; IgG4 titer tracks disease activity; IVIG dilutes pathogenic antibodies; efgartigimod (FcRn inhibitor) reduces anti-Dsg IgG4."
+  - target: 01-human/07-system/pemphigus-vulgaris
+    relation: connects-to
+    note: "Anti-Dsg3 IgG4 causes PV; anti-Dsg1 IgG4 causes PF; pathogenic IgG4 titer correlates with disease severity; rituximab (Ritux 3: 90% vs 28% CR; FDA Jun 2018) depletes B cells producing anti-Dsg IgG; efgartigimod (FDA Oct 2023) reduces IgG catabolism; FcRn recycles pathogenic IgG4."
 ---
 
 # Immunoglobulin G
@@ -157,6 +163,8 @@ FcγRI and FcγRIII contain ITAMs (immunoreceptor tyrosine-based activation moti
 - `connects-to` → **[CIDP](../../07-system/cidp/README.md)** — IVIG (2 g/kg; ICE trial Lancet Neurol 2008) is first-line CIDP therapy; pathogenic IgG4 anti-NF155 and anti-CNTN1 disrupt paranodal junctions; FcRn inhibitors (efgartigimod ADHERE; FDA Jun 2024) reduce total IgG catabolism.
 - `connects-to` → **[Dermatomyositis](../../07-system/dermatomyositis/README.md)** — IVIG (2 g/kg monthly; FDA Oct 2021) is the first approved DM therapy (ProDERM: CDASI-A improvement 58% vs 29%); MSA autoantibodies (anti-MDA5, anti-TIF1γ, anti-NXP2, anti-Mi-2) are IgG subclasses that stratify DM subtypes and prognosis.
 - `connects-to` → **[ANCA Vasculitis](../../07-system/anca-vasculitis/README.md)** — Anti-PR3 IgG (c-ANCA) and anti-MPO IgG (p-ANCA) are pathogenic in GPA and MPA; IgG crosslinks surface PR3/MPO on C5a-primed neutrophils → FcγRIIa activation → NETosis → pauci-immune vasculitis; rituximab (RAVE; FDA Apr 2011) depletes B cells producing pathogenic ANCA IgG.
+- `connects-to` → **[Desmoglein-3](../desmoglein-3/README.md)** — Anti-Dsg3 IgG4 (PV; steric hindrance of desmosomal Dsg3) and anti-Dsg1 IgG4 (PF; superficial acantholysis) are the pathogenic pemphigus autoantibodies; IgG4 titer tracks disease activity; IVIG dilutes pathogenic antibodies; efgartigimod (FcRn inhibitor) reduces anti-Dsg IgG4.
+- `connects-to` → **[Pemphigus Vulgaris](../../07-system/pemphigus-vulgaris/README.md)** — Anti-Dsg3 IgG4 causes PV; anti-Dsg1 IgG4 causes PF; pathogenic IgG4 titer correlates with disease severity; rituximab (Ritux 3: 90% vs 28% CR; FDA Jun 2018) depletes B cells producing anti-Dsg IgG; efgartigimod (FDA Oct 2023) reduces IgG catabolism; FcRn recycles pathogenic IgG4.
 
 [^schroeder-cavacini-2010-igg]: Schroeder HW Jr, Cavacini L. Structure and function of immunoglobulins. *J Allergy Clin Immunol.* 2010;125(2 Suppl 2):S41-52. [doi:10.1016/j.jaci.2009.09.046](https://doi.org/10.1016/j.jaci.2009.09.046) · [PubMed 20176268](https://pubmed.ncbi.nlm.nih.gov/20176268/)
 [^ward-bhatt-2020-fcrn]: Ward ES, Bhatt DL, et al. The role of FcRn in immunity and its therapeutic implications. *Nat Rev Immunol.* 2020;20(7):399-407. [doi:10.1038/s41577-019-0260-y](https://doi.org/10.1038/s41577-019-0260-y) · [PubMed 32015434](https://pubmed.ncbi.nlm.nih.gov/32015434/)
