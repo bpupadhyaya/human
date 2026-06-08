@@ -60,6 +60,9 @@ cross_links:
   - target: 01-human/07-system/disseminated-intravascular-coagulation
     relation: connects-to
     note: "Sepsis-DIC: endotoxin/DAMPs → NLRP3 → IL-1β + IL-18 → endothelial TF expression → thrombin → fibrin microthrombi; IL-1β also drives PAI-1 upregulation → hypofibrinolysis → fibrin persistence; IL-1β is a key link between innate immune activation and DIC pathogenesis."
+  - target: 01-human/07-system/influenza
+    relation: connects-to
+    note: "Influenza M2 proton channel and PB1-F2 (mitochondrial targeting) activate NLRP3 → IL-1β + IL-18; NLRP3-mediated IL-1β amplifies cytokine storm in H5N1 and 1918 H1N1 pneumonia; NLRP3 genetic variants are associated with influenza severity and ASC speck formation in macrophages."
 ---
 
 # NLRP3 Inflammasome
@@ -167,6 +170,7 @@ Caspase-4/5 (human) and caspase-11 (mouse) can also cleave GSDMD in a non-canoni
 - `modulates` → **[Heart](../../06-organ/heart/README.md)** — drives sterile myocardial inflammation and atherogenesis via cholesterol crystal activation
 - `connects-to` → **[IL-1β](../il-1b/README.md)** — NLRP3 inflammasome processes pro-IL-1β → active IL-1β via caspase-1; urate crystals, cholesterol, CAPS gain-of-function mutations, and metabolic DAMPs → IL-1β-driven fever, neutrophilia, and synovitis; canakinumab (anti-IL-1β) and anakinra (IL-1Ra) block downstream IL-1β.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../../07-system/disseminated-intravascular-coagulation/README.md)** — Sepsis-DIC: endotoxin/DAMPs → NLRP3 → IL-1β + IL-18 → endothelial TF expression → thrombin → fibrin microthrombi; IL-1β also drives PAI-1 upregulation → hypofibrinolysis → fibrin persistence; NLRP3 is a key link between innate immune activation and DIC pathogenesis.
+- `connects-to` → **[Influenza](../../07-system/influenza/README.md)** — Influenza M2 proton channel and PB1-F2 (mitochondrial targeting) activate NLRP3 → IL-1β + IL-18; NLRP3-mediated IL-1β amplifies cytokine storm in H5N1 and 1918 H1N1 pneumonia; NLRP3 genetic variants are associated with influenza severity and ASC speck formation in macrophages.
 
 ## Pathology
 

@@ -36,6 +36,9 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "MAVS activates NF-κB in parallel with IRF3: MAVS → TRAF6 → TAK1 → IKKβ → IκBα degradation → NF-κB → TNF-α, IL-6, and inflammatory gene expression; NF-κB activation by MAVS is important for the pro-inflammatory arm of antiviral innate immunity distinct from IFN production."
+  - target: 01-human/07-system/influenza
+    relation: connects-to
+    note: "Influenza 5′ppp ssRNA activates RIG-I → TRIM25 → MAVS → TBK1/IRF3 → IFN-β; NS1 blocks TRIM25-mediated RIG-I ubiquitination and sequesters dsRNA → impairs MAVS activation; RIG-I/MAVS is the primary innate sensor for influenza A in respiratory epithelium."
 ---
 
 # MAVS
@@ -117,3 +120,5 @@ Primary sensor for long dsRNA (>1 kb):
 **→ [cGAS-STING](../cgas-sting/)**: MAVS (RNA sensing) and cGAS-STING (DNA sensing) are the two major parallel innate sensing axes converging on TBK1-IRF3-IFN-β; both are targeted by the same viral immune evasion proteases (flavivirus NS3, HCV NS3/4A); MAVS-STING co-signaling occurs during DNA virus infections.
 
 **→ [NF-κB](../nf-kb/)**: MAVS activates NF-κB in parallel with IRF3: MAVS → TRAF6 → TAK1 → IKKβ → IκBα degradation → NF-κB → TNF-α, IL-6, and inflammatory gene expression; NF-κB activation by MAVS is important for the pro-inflammatory arm of antiviral innate immunity distinct from IFN production.
+
+**→ [Influenza](../../../07-system/influenza/)**: Influenza 5′ppp ssRNA activates RIG-I → TRIM25 → MAVS → TBK1/IRF3 → IFN-β; NS1 blocks TRIM25-mediated RIG-I ubiquitination and sequesters dsRNA → impairs MAVS activation; RIG-I/MAVS is the primary innate sensor for influenza A in respiratory epithelium.

@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Dengue evades both RNA (MAVS) and DNA (cGAS-STING) sensing: mitochondrial DNA released during dengue-induced apoptosis → cGAS → cGAMP → STING; however, DENV NS2B/NS3 disrupts STING signaling; dengue-mtDNA-cGAS-STING axis activates inflammatory cytokines during severe dengue."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "DENV NS5 degrades STAT2 via UBR4 → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 selectively targets human STAT2 (not mouse) → human-specific IFN evasion; STAT2 degradation is a major determinant of dengue viremia and is absent in murine dengue models."
 ---
 
 # Dengue Fever
@@ -144,3 +147,5 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 **→ [Type I Interferon](../../../03-molecular/type-i-interferon/)**: Dengue actively evades type I IFN: NS5 targets STAT2 for ubiquitin-mediated degradation → blocks IFNAR-JAK1/TYK2/STAT1/STAT2 signaling; NS2B/NS3 inhibit IRF3; early IFN-β (first 24 h) limits viral replication; delayed IFN induction after immune evasion correlates with severe dengue.
 
 **→ [cGAS-STING](../../../03-molecular/cgas-sting/)**: Dengue evades both RNA (MAVS) and DNA (cGAS-STING) sensing: mitochondrial DNA released during dengue-induced apoptosis → cGAS → cGAMP → STING; however, DENV NS2B/NS3 disrupts STING signaling; dengue-mtDNA-cGAS-STING axis activates inflammatory cytokines during severe dengue.
+
+**→ [STAT1](../../../03-molecular/stat1/)**: DENV NS5 degrades STAT2 via UBR4 → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 selectively targets human STAT2 (not mouse) → human-specific IFN evasion; STAT2 degradation is a major determinant of dengue viremia and is absent in murine dengue models.
