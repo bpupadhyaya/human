@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/07-system/hemophilia-a
     relation: connects-to
     note: "VWF carries and protects FVIII from proteolytic degradation in plasma (t½ FVIII ~2 h vs. ~12 h VWF-bound); VWF deficiency → secondary FVIII deficiency (VWD type 3 = severe VWD with FVIII <10 IU/dL); emicizumab (bispecific FIXa/FX antibody) bypasses FVIII dependence on VWF."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Elevated VWF promotes venous thrombosis by augmenting platelet recruitment and fibrin network formation; VWF is an acute-phase protein elevated in surgery, infection, cancer → increased VTE risk; ABO blood group affects VWF level (type O ~25% lower VWF → lower baseline VTE risk)."
 ---
 
 # Von Willebrand Factor
@@ -145,6 +148,7 @@ The VWF A1 domain is the target of **caplacizumab** (Sanofi/Ablynx) — a bivale
 - `connects-to` → **[ADAMTS13](../adamts13/README.md)** — ADAMTS13 cleaves ULVWF at Tyr1605-Met1606 in the VWF A2 domain; ADAMTS13 deficiency → ULVWF accumulation → platelet microthrombi → TTP; caplacizumab blocks VWF A1 domain → prevents GPIb-mediated platelet tethering to ULVWF strings.
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../../07-system/thrombotic-thrombocytopenic-purpura/README.md)** — ULVWF from Weibel-Palade bodies accumulates in TTP (ADAMTS13 deficiency) → GPIb-mediated platelet aggregation → microthrombi; caplacizumab (anti-VWF A1 nanobody; FDA 2019) blocks ULVWF-platelet tethering → fastest reversal of acute microthrombus formation in iTTP.
 - `connects-to` → **[Hemophilia A](../../07-system/hemophilia-a/README.md)** — VWF carries and protects FVIII from proteolytic degradation in plasma (t½ FVIII alone ~2 h vs. ~12 h bound to VWF); VWF deficiency → secondary FVIII deficiency (VWD type 3 = severe VWD with FVIII <10 IU/dL); emicizumab (bispecific FIXa/FX antibody) bypasses FVIII dependence on VWF.
+- `connects-to` → **[Venous Thromboembolism](../../07-system/venous-thromboembolism/README.md)** — Elevated VWF promotes venous thrombosis by augmenting platelet recruitment and fibrin network formation; VWF is an acute-phase protein elevated in surgery, infection, cancer → increased VTE risk; ABO blood group affects VWF level (type O ~25% lower VWF → lower baseline VTE risk).
 
 [^sadler-1998-vwf-review]: Sadler JE. Biochemistry and genetics of von Willebrand factor. *Annu Rev Biochem.* 1998;67:395-424. [doi:10.1146/annurev.biochem.67.1.395](https://doi.org/10.1146/annurev.biochem.67.1.395) · [PubMed 9759493](https://pubmed.ncbi.nlm.nih.gov/9759493/)
 [^lillicrap-2013-vwf-review]: Lillicrap D. von Willebrand disease: advances in pathogenetic understanding, diagnosis, and therapy. *Blood.* 2013;122(23):3735-3740. [doi:10.1182/blood-2013-06-498303](https://doi.org/10.1182/blood-2013-06-498303) · [PubMed 24100444](https://pubmed.ncbi.nlm.nih.gov/24100444/)

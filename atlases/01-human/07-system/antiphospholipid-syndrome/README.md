@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Secondary APS occurs in ~30% of SLE patients with persistent aPL; SLE+APS patients have higher stroke/DVT risk than either condition alone; hydroxychloroquine is recommended in all SLE+aPL patients; the 2023 ACR/EULAR APS criteria incorporate SLE as a risk modifier."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "APS causes recurrent DVT/PE in young adults; triple-positive aPL (LA + aCL + anti-B2GPI) confers >10% annual VTE risk; warfarin INR 2-3 is superior to DOACs in APS (TRAPS: rivaroxaban doubled arterial event risk in triple-positive patients); indefinite anticoagulation."
 ---
 
 # Antiphospholipid Syndrome
@@ -185,6 +188,7 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — APS is driven by IgG antiphospholipid antibodies (anti-B2GPI IgG, anti-cardiolipin IgG, lupus anticoagulant); IgG titers correlate with thrombotic risk; NOACs (rivaroxaban, dabigatran) are inferior to warfarin in APS (TRAPS trial); FcRn inhibitors under investigation.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement activation is central to APS thrombosis: anti-B2GPI → C3b deposition → C5a → neutrophil/platelet priming and TF expression; C5 inhibition (eculizumab) is used off-label for catastrophic APS (CAPS; ~37% mortality) refractory to anticoagulation and plasmapheresis.
 - `connects-to` → **[Systemic Lupus Erythematosus](../../07-system/systemic-lupus-erythematosus/README.md)** — Secondary APS occurs in ~30% of SLE patients with persistent aPL; SLE+APS patients have higher stroke/DVT risk than either condition alone; hydroxychloroquine is recommended in all SLE+aPL patients; the 2023 ACR/EULAR APS classification criteria incorporate SLE as a risk modifier.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — APS causes recurrent DVT/PE in young adults; triple-positive aPL (LA + aCL + anti-B2GPI) confers >10% annual VTE risk; warfarin INR 2-3 is superior to DOACs in APS (TRAPS: rivaroxaban doubled arterial event risk vs. warfarin in triple-positive patients); indefinite anticoagulation recommended.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
