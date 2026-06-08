@@ -61,6 +61,9 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "Valproate potentiates GABA-A function and blocks voltage-gated Na⁺/Ca²⁺ channels in bipolar disorder; GABA deficiency in PFC is associated with bipolar depression; benzodiazepines provide acute antimanic sedation via GABA-A agonism."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Reduced GABAergic inhibition contributes to cortical E/I imbalance in ASD; GABA-A subunit mutations (GABRA1, GABRB3) are associated with ASD; PV interneuron deficits in ASD cortex reduce inhibitory tone and contribute to sensory hypersensitivity."
 ---
 
 # GABA
@@ -172,6 +175,7 @@ When E/I balance shifts toward excess excitation (loss of GABAergic interneurons
 - `connects-to` → **[SCN1A](../scn1a/README.md)** — Nav1.1 (SCN1A) is the dominant sodium channel in PV+ GABAergic interneurons; SCN1A haploinsufficiency silences these interneurons → reduced GABA release → cortical disinhibition; clobazam (GABA-A modulator) and valproate (GABA-T inhibitor) are mainstay Dravet treatments.
 - `connects-to` → **[Schizophrenia](../../07-system/schizophrenia/README.md)** — parvalbumin interneuron hypofunction in PFC — reduced GAD67, impaired GABA synthesis — causes deficient gamma oscillations underlying working memory deficits; GABAergic interneuron loss may be primary, upstream of dopamine and glutamate dysregulation in schizophrenia.
 - `connects-to` → **[Bipolar Disorder](../../07-system/bipolar-disorder/README.md)** — valproate potentiates GABA-A function and blocks voltage-gated Na⁺/Ca²⁺ channels in bipolar disorder; GABA deficiency in PFC is associated with bipolar depression; benzodiazepines provide acute antimanic sedation via GABA-A agonism.
+- `connects-to` → **[Autism Spectrum Disorder](../../07-system/autism-spectrum-disorder/README.md)** — reduced GABAergic inhibition contributes to cortical E/I imbalance in ASD; GABA-A subunit mutations (GABRA1, GABRB3) are associated with ASD; PV interneuron deficits in ASD cortex reduce inhibitory tone and contribute to sensory hypersensitivity.
 
 ## Pathology
 

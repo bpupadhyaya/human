@@ -57,6 +57,9 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "NMDA receptors mediate fear memory consolidation and extinction in amygdala and vmPFC; D-cycloserine (partial NMDA agonist) enhances extinction in prolonged exposure therapy; ketamine reduces PTSD symptoms via rapid BDNF/mTOR-mediated synaptic remodeling."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "E/I imbalance toward excess excitation is a core ASD mechanism; SHANK3 and NLGN3 mutations disrupt postsynaptic NMDA/AMPA scaffolding; mGluR5 hyperactivation in Fragile X drives excess dendritic protein synthesis; mGluR5 antagonists failed Phase 2 trials in FXS."
 ---
 
 # Glutamate
@@ -143,6 +146,8 @@ In ischemia, oxygen/glucose deprivation reverses ion gradients and drives massiv
 - `modulates` → **[brain](../../06-organ/brain/README.md)** — the primary driver of excitatory neural activity underlying all CNS computation
 - `part-of` → **[nervous-system](../../07-system/nervous-system/README.md)** — foundational excitatory neurotransmitter
 - `connects-to` → **[Schizophrenia](../../07-system/schizophrenia/README.md)** — NMDA receptor hypofunction in PFC parvalbumin interneurons underlies cognitive and negative symptoms; ketamine (NMDA antagonist) reproduces the full schizophrenia phenotype; glycine-site NMDA co-agonists and AMPA potentiators are experimental treatments.
+- `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — NMDA receptors mediate fear memory consolidation and extinction in amygdala and vmPFC; D-cycloserine (partial NMDA agonist) enhances extinction in prolonged exposure therapy; ketamine reduces PTSD symptoms via BDNF/mTOR-mediated synaptic remodeling.
+- `connects-to` → **[Autism Spectrum Disorder](../../07-system/autism-spectrum-disorder/README.md)** — E/I imbalance toward excess excitation is a core ASD mechanism; SHANK3 and NLGN3 mutations disrupt postsynaptic NMDA/AMPA scaffolding; mGluR5 hyperactivation in Fragile X drives excess dendritic protein synthesis; mGluR5 antagonists failed Phase 2 in FXS.
 
 ## Pathology
 

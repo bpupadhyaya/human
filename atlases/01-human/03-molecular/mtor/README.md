@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "mTOR GOF mutations (TSC1/TSC2 → tuberous sclerosis; somatic PIK3CA/MTOR → focal cortical dysplasia) are major causes of structural epilepsy; everolimus reduces TSC seizure burden ~50%; mTOR inhibitors are disease-modifying for FCD-associated drug-refractory epilepsy."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "mTOR hyperactivation causes syndromic ASD in TSC (TSC1/2 LOF) and PTEN hamartoma (PTEN LOF); everolimus reduces ASD severity and seizure burden in TSC; 25-35% of TSC patients have ASD; excess mTOR drives synaptic protein overproduction causing E/I imbalance."
 ---
 
 # mTOR
@@ -149,6 +152,7 @@ Rapamycin (sirolimus) is a macrolide natural product from Streptomyces hygroscop
 - `modulates` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — mTOR inhibition (rapamycin) promotes Treg differentiation by suppressing mTORC1-driven Th1/Th17 programs and allowing Foxp3 expression; explains rapamycin's immunosuppressive mechanism in transplant.
 - `connects-to` → **[Gut Microbiome](../../07-system/gut-microbiome/README.md)** — microbiome-derived SCFAs activate mTOR in intestinal epithelial cells; mTOR regulates intestinal barrier function and epithelial renewal; mTOR inhibition affects gut microbial ecology.
 - `connects-to` → **[Epilepsy](../../07-system/epilepsy/README.md)** — mTOR GOF mutations (TSC1/TSC2 → tuberous sclerosis; somatic PIK3CA/MTOR → focal cortical dysplasia) are major causes of structural epilepsy; everolimus reduces TSC seizure burden ~50%; mTOR inhibitors are disease-modifying for FCD-associated drug-refractory epilepsy.
+- `connects-to` → **[Autism Spectrum Disorder](../../07-system/autism-spectrum-disorder/README.md)** — mTOR hyperactivation causes syndromic ASD in TSC (TSC1/2 LOF) and PTEN hamartoma (PTEN LOF); everolimus reduces ASD severity and seizure burden in TSC; 25–35% of TSC patients have ASD; excess mTOR drives synaptic protein overproduction and E/I imbalance.
 
 [^laplante-2012-mtor]: Laplante M, Sabatini DM. mTOR signaling in growth control and disease. *Cell.* 2012;149(2):274-293. [doi:10.1016/j.cell.2012.03.017](https://doi.org/10.1016/j.cell.2012.03.017) · [PubMed 22500797](https://pubmed.ncbi.nlm.nih.gov/22500797/)
 [^heitman-1991-fkbp12]: Heitman J, Movva NR, Hall MN. Targets for cell cycle arrest by the immunosuppressant rapamycin in yeast. *Science.* 1991;253(5022):905-909. [doi:10.1126/science.1715094](https://doi.org/10.1126/science.1715094) · [PubMed 1715094](https://pubmed.ncbi.nlm.nih.gov/1715094/)
