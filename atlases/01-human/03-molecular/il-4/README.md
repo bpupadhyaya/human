@@ -21,6 +21,9 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "IL-4 signals via JAK1 + JAK3 (type I, lymphocytes) or JAK1 + TYK2/JAK2 (type II, epithelium) → STAT6; baricitinib and upadacitinib (JAK1 inhibitors) reduce atopic dermatitis severity by blocking IL-4 and IL-13 downstream signaling."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "PN shares Th2/Th22 axis with AD; IL-4 and IL-13 drive Th2 polarization in PN nodular skin; dupilumab (anti-IL-4Rα, blocking both IL-4 and IL-13) is FDA-approved for PN; LIBERTY-PN PRIME2: IGA success 37% vs. 22% placebo at 24 weeks."
 sources:
   - id: brown-2004-il4-review
     type: peer-reviewed
@@ -136,6 +139,8 @@ IL-4 drives Th2 airway inflammation, IgE production, and eosinophil recruitment 
 IL-4 is the principal driver of B cell IgE class switching: IL-4 → STAT6 → ε germline transcription → AID-mediated switch recombination → IgE-secreting plasma cells; IL-13 shares this function via the type II IL-4Rα/IL-13Rα1 receptor.
 
 IL-4 signals via JAK1 + JAK3 (type I, lymphocytes) or JAK1 + TYK2/JAK2 (type II, epithelium) → STAT6; baricitinib and upadacitinib (JAK1 inhibitors) reduce atopic dermatitis severity by blocking IL-4 and IL-13 downstream signaling.
+
+PN shares Th2/Th22 axis with AD; IL-4 and IL-13 drive Th2 polarization in PN nodular skin; dupilumab (anti-IL-4Rα, blocking both IL-4 and IL-13) is FDA-approved for PN; LIBERTY-PN PRIME2: IGA success 37% vs. 22% placebo at 24 weeks.
 
 [^brown-2004-il4-review]: Brown MA, Hural J. Functions of IL-4 and control of its expression. *Crit Rev Immunol.* 1997;17(1):1-32. [doi:10.1615/CritRevImmunol.v17.i1.10](https://doi.org/10.1615/CritRevImmunol.v17.i1.10) · [PubMed 9003261](https://pubmed.ncbi.nlm.nih.gov/9003261/)
 [^simpson-2016-dupilumab-ad]: Simpson EL, Bieber T, Guttman-Yassky E, et al. Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis. *N Engl J Med.* 2016;375(24):2335-2348. [doi:10.1056/NEJMoa1610020](https://doi.org/10.1056/NEJMoa1610020) · [PubMed 27690741](https://pubmed.ncbi.nlm.nih.gov/27690741/)
