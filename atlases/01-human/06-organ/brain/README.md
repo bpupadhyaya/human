@@ -94,6 +94,9 @@ cross_links:
   - target: 03-medicine/02-traditional/st-johns-wort
     relation: modulated-by
     note: "Modulated by St. John's Wort (Hypericum perforatum)."
+  - target: 01-human/07-system/migraine
+    relation: target-of
+    note: "Migraine involves cortical spreading depression (CSD) as the aura generator in occipital cortex; hypothalamus drives prodromal symptoms; pain localizes to TNC and thalamus; PET identifies a brainstem migraine generator in dorsal raphe and PAG."
 ---
 
 # Brain
@@ -167,6 +170,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `modulated-by` → **[glutamate](../../03-molecular/glutamate/README.md)** — glutamate provides the dominant excitatory drive across all brain circuits
 - `modulated-by` → **[gaba](../../03-molecular/gaba/README.md)** — GABA provides circuit-stabilizing inhibition
 - `connects-to` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — the brain consumes ~20% of cardiac output; autoregulation and baroreceptor reflex link the two systems
+- `targeted-by` → **[Migraine](../../07-system/migraine/README.md)** — migraine involves cortical spreading depression (CSD) as the aura generator in occipital cortex; hypothalamus drives prodromal symptoms; pain localizes to TNC and thalamus; PET identifies a brainstem migraine generator in dorsal raphe and PAG.
 
 ## Pathology
 

@@ -48,6 +48,12 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Reduced serotonergic tone is central to MDD; SSRIs (fluoxetine, sertraline, escitalopram) are first-line antidepressants; tryptophan depletion triggers relapse in remitted patients; 5-HT1A autoreceptor desensitization explains the 2-4 week delayed onset of antidepressant effect."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Triptans (5-HT1B/D agonists) reduce trigeminal CGRP release and abort migraine; serotonin regulates CGRP release from TNC neurons; combining triptans with SSRIs carries a theoretical serotonin syndrome risk but is generally well-tolerated clinically."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Low interictal serotonin primes trigeminovascular sensitization in migraine; triptans (5-HT1B/D agonists) are first-line acute therapy; lasmiditan (5-HT1F ditan) provides relief without vasoconstriction; SSRIs may modestly reduce migraine frequency."
 ---
 
 # Serotonin
@@ -155,6 +161,8 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `modulates` → **[nervous-system](../../07-system/nervous-system/README.md)** — mood, sleep, appetite, cognition, thermoregulation
 - `modulates` → **[digestive-system](../../07-system/digestive-system/README.md)** — peristalsis, nausea, secretion via enteric nervous system
 - `connects-to` → **[Schizophrenia](../../07-system/schizophrenia/README.md)** — 5-HT2A blockade in PFC by atypical antipsychotics (clozapine, olanzapine, risperidone) enhances dopaminergic output; 5-HT2A agonism by hallucinogens (LSD, psilocybin) models positive symptoms; serotonin-dopamine interaction shapes atypical antipsychotic efficacy.
+- `connects-to` → **[CGRP](../cgrp/README.md)** — triptans (5-HT1B/D agonists) reduce trigeminal CGRP release and abort migraine; serotonin regulates CGRP release from TNC neurons; combining triptans with SSRIs carries a theoretical serotonin syndrome risk but is generally well-tolerated clinically.
+- `connects-to` → **[Migraine](../../07-system/migraine/README.md)** — low interictal serotonin primes trigeminovascular sensitization in migraine; triptans (5-HT1B/D agonists) are first-line acute therapy; lasmiditan (5-HT1F ditan) provides relief without vasoconstriction; SSRIs may modestly reduce migraine frequency.
 
 ## Pathology
 
