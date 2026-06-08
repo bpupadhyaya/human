@@ -103,6 +103,12 @@ cross_links:
   - target: 01-human/07-system/huntingtons-disease
     relation: connects-to
     note: "HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal atrophy and tracks disease progression by UHDRS total functional capacity."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "OCD is a CSTC circuit disorder: OFC/ACC hyperactivity drives excessive error detection; caudate hyperactivity disinhibits thalamocortical drive back to OFC → repetitive compulsions; SSRIs and ERP both normalize caudate hypermetabolism on PET, converging on the same circuit."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "ADHD involves PFC, anterior cingulate, and striatal circuit dysfunction; MRI shows ~3-5% smaller brain volume with 2-5 year maturation delay; default mode network fails to deactivate during tasks → attention lapses; PFC gray matter thinning correlates with ADHD severity."
 ---
 
 # Brain
@@ -179,6 +185,8 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `targeted-by` → **[Migraine](../../07-system/migraine/README.md)** — migraine involves cortical spreading depression (CSD) as the aura generator in occipital cortex; hypothalamus drives prodromal symptoms; pain localizes to TNC and thalamus; PET identifies a brainstem migraine generator in dorsal raphe and PAG.
 - `connects-to` → **[ALS](../../07-system/als/README.md)** — ALS selectively degenerates upper motor neurons (primary motor cortex Betz cells) and their corticospinal projections; motor cortex hyperexcitability is an early feature; TDP-43 inclusions appear in motor cortex neurons in >97% of ALS; motor cortex atrophy is detectable by MRI.
 - `connects-to` → **[Huntington Disease](../../07-system/huntingtons-disease/README.md)** — HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal atrophy and tracks disease progression by UHDRS-TFC.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../../07-system/obsessive-compulsive-disorder/README.md)** — OCD is a CSTC circuit disorder: OFC/ACC hyperactivity drives excessive error detection; caudate nucleus hyperactivity disinhibits thalamocortical drive back to OFC → repetitive compulsive behaviors; SSRIs and ERP both normalize caudate hypermetabolism on PET.
+- `connects-to` → **[ADHD](../../07-system/attention-deficit-hyperactivity-disorder/README.md)** — ADHD involves PFC, anterior cingulate, and striatal circuit dysfunction; MRI shows ~3-5% smaller total brain volume with 2-5 year cortical maturation delay; default mode network fails to deactivate during tasks → attention lapses; PFC gray matter thinning correlates with ADHD severity.
 
 ## Pathology
 

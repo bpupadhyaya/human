@@ -61,6 +61,12 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "Mesolimbic dopamine hyperactivity drives manic symptoms in bipolar disorder; antipsychotics (D2 blockers) are first-line acute antimanic agents; mesocortical dopamine deficiency contributes to bipolar depression; catecholamine hypothesis explains mood cycling."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Striatal dopamine dysregulation drives compulsive habit formation in OCD; D2 receptor abnormalities in caudate on PET; atypical antipsychotic augmentation (aripiprazole, risperidone) of SSRIs is the best-supported strategy for partial SSRI responders in OCD (NNT ~3)."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "ADHD involves hypofunctional PFC D1 receptor signaling impairing working memory; methylphenidate blocks DAT and amphetamines reverse DAT to actively release DA; COMT Val158Met SNP (rapid catabolism) increases ADHD risk; striatal DA deficit reduces motivation for deferred rewards."
 ---
 
 # Dopamine
@@ -153,6 +159,8 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `part-of` → **[nervous-system](../../07-system/nervous-system/README.md)** — foundational neurotransmitter of the CNS
 - `connects-to` → **[Schizophrenia](../../07-system/schizophrenia/README.md)** — mesolimbic D2 hyperactivity drives positive symptoms (hallucinations, delusions); mesocortical D1 hypofunction in PFC drives negative and cognitive symptoms; all antipsychotics achieve therapeutic effect via D2 blockade at 60-80% receptor occupancy.
 - `connects-to` → **[Bipolar Disorder](../../07-system/bipolar-disorder/README.md)** — mesolimbic dopamine hyperactivity drives manic symptoms; antipsychotics (D2 blockers) are first-line acute antimanic agents; mesocortical dopamine deficiency contributes to bipolar depression; catecholamine hypothesis explains mood cycling.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../../07-system/obsessive-compulsive-disorder/README.md)** — striatal dopamine dysregulation drives compulsive habit formation; D2 receptor abnormalities in caudate detectable by PET; atypical antipsychotic augmentation (aripiprazole, risperidone) of SSRIs is the best-supported strategy for SSRI-partial responders in OCD (NNT ~3).
+- `connects-to` → **[ADHD](../../07-system/attention-deficit-hyperactivity-disorder/README.md)** — ADHD involves hypofunctional PFC D1 receptor signaling impairing working memory; methylphenidate blocks DAT and amphetamines actively release DA; COMT Val158Met SNP (rapid catabolism) increases ADHD risk; striatal DA deficit reduces motivation for deferred rewards, driving impulsivity.
 
 ## Pathology
 

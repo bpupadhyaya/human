@@ -57,6 +57,9 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "SSRIs risk manic switching in bipolar disorder and are contraindicated as monotherapy; atypical antipsychotics with 5-HT2A blockade (quetiapine) effectively treat bipolar depression without switch risk; serotonergic antidepressants require mood stabilizer cover."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "SSRIs at high doses are uniquely effective for OCD (vs. imipramine/desipramine which are ineffective); clomipramine (SRI-dominant TCA) has equivalent efficacy; 5-HT modulates OFC-striatal CSTC signaling; serotonergic augmentation of ERP therapy improves treatment outcomes."
 ---
 
 # Serotonin
@@ -167,6 +170,7 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[CGRP](../cgrp/README.md)** — triptans (5-HT1B/D agonists) reduce trigeminal CGRP release and abort migraine; serotonin regulates CGRP release from TNC neurons; combining triptans with SSRIs carries a theoretical serotonin syndrome risk but is generally well-tolerated clinically.
 - `connects-to` → **[Migraine](../../07-system/migraine/README.md)** — low interictal serotonin primes trigeminovascular sensitization in migraine; triptans (5-HT1B/D agonists) are first-line acute therapy; lasmiditan (5-HT1F ditan) provides relief without vasoconstriction; SSRIs may modestly reduce migraine frequency.
 - `connects-to` → **[Bipolar Disorder](../../07-system/bipolar-disorder/README.md)** — SSRIs risk manic switching in bipolar disorder and are contraindicated as monotherapy; atypical antipsychotics with 5-HT2A blockade (quetiapine) treat bipolar depression without switch risk; serotonergic antidepressants require mood stabilizer cover.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../../07-system/obsessive-compulsive-disorder/README.md)** — SSRIs at high doses are uniquely effective for OCD (vs. imipramine/desipramine which are ineffective), establishing a privileged role for 5-HT; clomipramine (SRI-dominant TCA) has equivalent efficacy; 5-HT modulates OFC-striatal CSTC circuit; 8-12 weeks at maximum dose required.
 
 ## Pathology
 
