@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "HCV cirrhosis → HCC incidence 1-5%/year; HCV Core activates Wnt/β-catenin; chronic HCV inflammation → NF-κB/STAT3 → hepatocyte proliferation + driver mutations (TP53, TERT, CTNNB1); DAA cure reduces HCC risk ~70% but established cirrhosis retains annual HCC surveillance."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "HBV causes ~50-55% of global HCC; integration near TERT/CCND1 → insertional mutagenesis; HBx transactivation → p53 inactivation, NF-κB, Wnt/β-catenin activation; HBsAg-positive cirrhosis has ~3-5%/year HCC incidence; antivirals reduce but do not eliminate HCC risk."
 ---
 
 # Hepatocellular Carcinoma
@@ -181,6 +184,7 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — CTNNB1 mutations in ~30% of HCC → β-catenin nuclear accumulation → TCF/LEF → MYC, cyclin D1 → proliferation; CTNNB1-mutant HCC shows distinct metabolic phenotype and may be resistant to PD-1 immunotherapy via Wnt-driven immune exclusion — an emerging predictive biomarker.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Atezolizumab (anti-PD-L1) + bevacizumab → first-line HCC (IMbrave150): OS 19.2 vs. 13.4 months; preferred over sorafenib in most patients without autoimmune contraindications; pembrolizumab (KEYNOTE-240) and nivolumab (CheckMate 459) also active in second-line HCC.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — HCV cirrhosis → HCC incidence 1-5%/year; HCV Core activates Wnt/β-catenin; chronic HCV inflammation → NF-κB/STAT3 → hepatocyte proliferation under oxidative DNA damage → driver mutations (TP53, TERT, CTNNB1); DAA cure reduces HCC risk ~70% but established cirrhosis retains HCC surveillance requirement.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — HBV is the leading viral cause of HCC (~50-55% of global cases); mechanisms include insertional mutagenesis near TERT/CCND1 → telomerase activation; HBx transactivation → p53 inactivation, NF-κB and Wnt/β-catenin activation; aflatoxin B1 co-exposure → TP53 R249S; HBsAg-positive cirrhosis carries ~3-5%/year HCC incidence; antiviral therapy reduces but does not eliminate HCC risk.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

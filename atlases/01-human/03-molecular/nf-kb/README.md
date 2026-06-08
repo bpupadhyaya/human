@@ -94,6 +94,9 @@ cross_links:
   - target: 01-human/03-molecular/tbk1
     relation: connects-to
     note: "TBK1 (activated by MAVS or STING) signals NF-κB in parallel with IRF3: TRAF6 → TAK1 → IKKβ → IκBα degradation → p65/p50 nuclear translocation; NF-κB and IRF3 cooperate at the IFN-β enhanceosome; TBK1 thus drives both antiviral IFN and inflammatory cytokine programs."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "HBx protein activates NF-κB → hepatocyte survival, HBV transcription from cccDNA, and inflammatory cytokine production; NF-κB activation by HBx prevents apoptosis of HBV-infected hepatocytes → viral persistence; NF-κB and AP-1 bind cccDNA promoters to enhance HBV replication."
 ---
 
 # NF-κB
@@ -219,6 +222,7 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 - `connects-to` → **[cGAS-STING](../cgas-sting/README.md)** — STING activates NF-κB via TRAF6/IKKβ in parallel with IRF3: cGAMP → STING → TRAF6 → TAK1 → IKK → IκBα degradation → NF-κB → TNF-α, IL-6; STING-NF-κB drives sterile inflammation in senescence (SASP) and autoimmunity distinct from the IRF3/IFN-β arm.
 - `connects-to` → **[IRF3](../irf3/README.md)** — IFN-β enhanceosome: IRF3 (PRDI/PRDIII) + NF-κB (PRDII) + AP-1 (PRDIV) cooperatively bind the IFN-β promoter; CBP/p300 bridges all three → histone acetylation; NF-κB co-activation is required for maximal IRF3-driven IFN-β transcription.
 - `connects-to` → **[TBK1](../tbk1/README.md)** — TBK1 (activated by MAVS or STING) signals NF-κB in parallel with IRF3: TRAF6 → TAK1 → IKKβ → IκBα degradation → p65/p50 nuclear translocation; NF-κB and IRF3 cooperate at the IFN-β enhanceosome; TBK1 drives both antiviral IFN and inflammatory cytokine programs.
+- `connects-to` → **[Hepatitis B](../../07-system/hepatitis-b/README.md)** — HBx protein activates NF-κB via IKKα/β → hepatocyte survival, HBV transcription from cccDNA, and pro-inflammatory cytokine production; NF-κB activation prevents apoptosis of HBV-infected hepatocytes; NF-κB and AP-1 binding sites on cccDNA promoters are required for robust HBV transcription; NF-κB drives HBV-associated liver inflammation and HCC.
 
 ## Pathology
 

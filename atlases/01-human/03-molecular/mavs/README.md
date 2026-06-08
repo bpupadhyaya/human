@@ -57,6 +57,9 @@ cross_links:
   - target: 01-human/07-system/west-nile-virus
     relation: connects-to
     note: "WNV NS3-NS4A disrupts MAVS signaling and NS5 caps viral RNA preventing RIG-I/MAVS activation; MAVS → TBK1/IRF3 axis is the primary antiviral response against WNV; robust MAVS-IFN-β correlates with WNV control and reduces neuroinvasive disease."
+  - target: 01-human/03-molecular/cccdna
+    relation: connects-to
+    note: "HBV pgRNA reverse transcription generates dsRNA intermediates → RIG-I/MDA5 → MAVS → IFN-β; HBV evades MAVS by confining replication to nucleocapsid; HBx inhibits MAVS-dependent signaling; low MAVS activation during chronic HBV contributes to T cell exhaustion."
 ---
 
 # MAVS
@@ -152,3 +155,5 @@ Primary sensor for long dsRNA (>1 kb):
 **→ [TBK1](../tbk1/)**: MAVS filament recruits TRAF3 → K63-polyubiquitin scaffolds TBK1 → TBK1 Ser172 trans-autophosphorylation → IRF3 Ser396 → IFN-β; TBK1 is the essential kinase activated by MAVS signaling; HCV NS3/4A cleaves MAVS → TBK1-IRF3 axis severed.
 
 **→ [West Nile Virus](../../../07-system/west-nile-virus/)**: WNV NS3-NS4A disrupts MAVS signaling and NS5 caps viral RNA preventing RIG-I/MAVS activation; MAVS → TBK1/IRF3 axis is the primary antiviral response against WNV; robust MAVS-IFN-β correlates with WNV control and reduces neuroinvasive disease.
+
+**→ [cccDNA](../cccdna/)**: HBV pgRNA reverse transcription in cytoplasmic nucleocapsids generates dsRNA replication intermediates → RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; HBV largely evades MAVS by encapsidating replication products within the nucleocapsid shell; HBx also inhibits MAVS-dependent IFN signaling; chronically low MAVS activation during HBV infection contributes to progressive T cell exhaustion and viral persistence.

@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/07-system/cytokine-storm
     relation: modulates
     note: "p53 suppresses NF-κB-driven inflammatory gene expression; in cytokine storm contexts, loss of p53 function can amplify hyperinflammatory responses; conversely, p53 activation promotes resolution of inflammation via apoptotic clearance of activated immune cells."
+  - target: 01-human/03-molecular/cccdna
+    relation: connects-to
+    note: "HBx binds p53 DNA-binding domain → prevents PUMA/BAX transcription → HBV-infected hepatocytes resist apoptosis; HBV integration generates HBx-p53 chimeric proteins; TP53 R249S hotspot (aflatoxin B1) is characteristic of HBV-HCC; p53 LOF enables cccDNA hepatocyte survival."
 ---
 
 # p53
@@ -135,6 +138,7 @@ In ~7% of cancers (especially sarcomas), **MDM2 is amplified** → excessive p53
 
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — p53 regulates neutrophil apoptosis after pathogen clearance; MDM2-mediated p53 suppression extends neutrophil survival during acute infection.
 - `modulates` → **[Cytokine Storm](../../07-system/cytokine-storm/README.md)** — p53 suppresses NF-κB-driven inflammation; in hyperinflammatory states, p53 promotes apoptotic clearance of activated immune cells to limit cytokine storm severity.
+- `connects-to` → **[cccDNA](../cccdna/README.md)** — HBx protein binds p53 DNA-binding domain → sequesters p53 in cytoplasm → prevents PUMA/BAX pro-apoptotic transcription → HBV-infected hepatocytes survive and continue harboring cccDNA; HBV integration can generate HBx-p53 chimeric proteins with altered tumor suppressor function; TP53 R249S hotspot (from aflatoxin B1 adducts) is characteristic of HBV-HCC in endemic regions; p53 LOF cooperates with HBV in HCC development.
 
 [^lane-1992-guardian]: Lane DP. Cancer. p53, guardian of the genome. *Nature.* 1992;358(6381):15-16. [doi:10.1038/358015a0](https://doi.org/10.1038/358015a0) · [PubMed 1614522](https://pubmed.ncbi.nlm.nih.gov/1614522/)
 [^vousden-2009-p53-review]: Vousden KH, Prives C. Blinded by the Light: The Growing Complexity of p53. *Cell.* 2009;137(3):413-431. [doi:10.1016/j.cell.2009.04.037](https://doi.org/10.1016/j.cell.2009.04.037) · [PubMed 19410540](https://pubmed.ncbi.nlm.nih.gov/19410540/)

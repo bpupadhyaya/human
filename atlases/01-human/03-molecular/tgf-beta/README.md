@@ -69,6 +69,9 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "SSc fibroblasts show constitutive SMAD2/3 signaling → ↑collagen, fibronectin, and CTGF → progressive skin and lung fibrosis; TGF-β1 is the primary driver of SSc fibrosis; nintedanib (anti-PDGFR/VEGFR/FGFR) slows SSc-ILD progression (SENSCIS trial)."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Chronic HBV hepatitis activates stellate cells via TGF-β1 → myofibroblast → collagen I/III → fibrosis → cirrhosis → HCC risk; TGF-β suppresses HBV-specific CD8+ T cells → immune exhaustion; TGF-β receptor inhibitors reduce HBV-induced fibrosis in preclinical models."
 ---
 
 # Transforming Growth Factor Beta
@@ -167,6 +170,7 @@ TβRIII (betaglycan) is a co-receptor that presents TGF-β2 (low-affinity TβRII
 - `connects-to` → **[Wound Healing](../../07-system/wound-healing/README.md)** — TGF-β1 from platelets and macrophages drives myofibroblast differentiation (α-SMA+ → wound contraction), collagen I synthesis, and re-epithelialization; excess TGF-β → hypertrophic scar and keloid; TGF-β3 promotes scarless fetal healing; pirfenidone inhibits fibrogenic signaling.
 - `connects-to` → **[Fibronectin](../fibronectin/README.md)** — TGF-β → ↑fibronectin transcription (FN1 promoter Smad binding site) and ↑EDA-FN splice isoform in activated fibroblasts; EDA-FN binds TLR4 and integrin α4β7 → amplifies TGF-β-driven fibrogenesis; FN matrix stiffness → mechano-sensing → ↑TGF-β activation → progressive fibrosis.
 - `connects-to` → **[Systemic Sclerosis](../../07-system/systemic-sclerosis/README.md)** — SSc fibroblasts show constitutive SMAD2/3 signaling → ↑collagen, fibronectin, and CTGF → progressive skin and lung fibrosis; TGF-β1 is the primary driver of SSc fibrosis; nintedanib (anti-PDGFR/VEGFR/FGFR) slows SSc-ILD progression (SENSCIS trial).
+- `connects-to` → **[Hepatitis B](../../07-system/hepatitis-b/README.md)** — Chronic HBV hepatitis activates hepatic stellate cells via TGF-β1 produced by Kupffer cells and activated hepatocytes → myofibroblast transdifferentiation → collagen I/III deposition → fibrosis → cirrhosis → HCC risk; TGF-β also suppresses HBV-specific CD8+ T cells → immune exhaustion; TGF-β receptor inhibitors (galunisertib) reduce HBV-induced hepatic fibrosis in preclinical models.
 
 ## Pathology
 

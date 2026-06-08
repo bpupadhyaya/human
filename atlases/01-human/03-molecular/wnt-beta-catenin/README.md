@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: modulates
     note: "Wnt signals from tumor cells activate stromal fibroblasts → myofibroblast differentiation → desmoplasia; CAF-secreted Wnt ligands also feed back onto tumor cells; Wnt-driven fibroblast activation is a key mediator of the immunosuppressive stroma in CRC and PDAC."
+  - target: 01-human/03-molecular/cccdna
+    relation: connects-to
+    note: "HBx activates Wnt/β-catenin by inhibiting GSK-3β → nuclear β-catenin → MYC/CCND1; HBV integration near TERT promoter activates telomerase; CTNNB1 activating mutations in ~25% of HBV-HCC; β-catenin/TCF enhances cccDNA transcription in infected hepatocytes."
 ---
 
 # Wnt/beta-catenin
@@ -152,6 +155,7 @@ Direct Wnt pathway inhibition has been challenging due to the pathway's essentia
 - `connects-to` → **[KRAS](../kras/README.md)** — Wnt and KRAS mutations cooperate in CRC: Wnt drives stem cell identity (step 1), KRAS drives proliferation (step 2); combined inhibition is synergistic in CRC preclinical models.
 - `connects-to` → **[TGF-β](../tgf-beta/README.md)** — TGF-β and Wnt pathways have context-dependent crosstalk; SMAD4 loss in late-stage CRC removes TGF-β-mediated repression of Wnt target genes → accelerated Wnt-driven invasion and metastasis.
 - `modulates` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Wnt signals activate stromal fibroblasts to myofibroblasts → desmoplasia; CAF-secreted Wnt ligands feed back onto tumor cells; Wnt-driven stromal activation promotes immune exclusion in CRC and PDAC.
+- `connects-to` → **[cccDNA](../cccdna/README.md)** — HBx activates Wnt/β-catenin by inhibiting GSK-3β → nuclear β-catenin accumulation → TCF/LEF → MYC, cyclin D1 → hepatocyte proliferation; HBV integration near the TERT promoter (most common HBV integration site) directly activates telomerase expression; CTNNB1 activating mutations occur in ~25% of HBV-HCC; β-catenin/TCF binding sites on cccDNA regulatory elements enhance HBV transcription in infected hepatocytes.
 
 [^clevers-2006-wnt]: Clevers H. Wnt/beta-catenin signaling in development and disease. *Cell.* 2006;127(3):469-480. [doi:10.1016/j.cell.2006.10.018](https://doi.org/10.1016/j.cell.2006.10.018) · [PubMed 17081971](https://pubmed.ncbi.nlm.nih.gov/17081971/)
 [^nusse-2017-wnt]: Nusse R, Clevers H. Wnt/β-Catenin Signaling, Disease, and Emerging Therapeutic Modalities. *Cell.* 2017;169(6):985-999. [doi:10.1016/j.cell.2017.05.016](https://doi.org/10.1016/j.cell.2017.05.016) · [PubMed 28575679](https://pubmed.ncbi.nlm.nih.gov/28575679/)

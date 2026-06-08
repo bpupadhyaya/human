@@ -45,6 +45,12 @@ cross_links:
   - target: 01-human/03-molecular/tbk1
     relation: connects-to
     note: "cGAMP-bound STING oligomerizes on ER → traffics to Golgi → recruits TBK1 via STING C-terminal tail direct binding → TBK1 trans-autophosphorylation (Ser172) → IRF3 Ser396 phosphorylation → IFN-β; TBK1 is the terminal kinase in the cGAS-STING-TBK1-IRF3 innate DNA sensing cascade."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "HBV RC-DNA and cccDNA activate cGAS → cGAMP → STING → IFN-β; HBx binds and inhibits STING → suppresses innate sensing; HBsAg vesicles also activate cGAS; cGAS-STING inhibition by HBx is a key mechanism of HBV innate immune evasion and chronicity."
+  - target: 01-human/03-molecular/cccdna
+    relation: connects-to
+    note: "HBV cccDNA and RC-DNA activate cGAS in nucleus and cytoplasm → STING → IFN-β; HBx inhibits STING → suppresses innate sensing of cccDNA; APOBEC3A/3B deaminate cccDNA → cGAS recognition; cGAS-STING agonists target cccDNA-containing hepatocytes for non-cytolytic clearance."
 ---
 
 # cGAS-STING
@@ -130,5 +136,9 @@ STING → TRAF6 (K63-linked ubiquitination) → TAK1 → IKKβ → IκBα phosph
 **→ [MAVS](../mavs/)**: MAVS (RIG-I/MDA5 RNA sensing) and cGAS-STING (dsDNA sensing) are the two parallel innate axes converging on TBK1-IRF3-IFN-β; MAVS senses cytosolic RNA; cGAS-STING senses cytosolic dsDNA; both are cleaved by viral proteases (HCV NS3/4A, dengue NS2B/NS3) to evade innate immunity.
 
 **→ [IRF3](../irf3/)**: cGAS → cGAMP → STING → TBK1 → IRF3 Ser396 phosphorylation → IRF3 dimerization → nuclear import → IFN-β; STING Golgi trafficking positions TBK1 for IRF3 phosphorylation; IRF3 is the shared convergence transcription factor for both cGAS-STING and MAVS innate sensing.
+
+**→ [Hepatitis B](../../../07-system/hepatitis-b/)**: HBV RC-DNA and cccDNA activate cGAS → cGAMP → STING → TBK1/IRF3 → IFN-β; HBx protein directly binds and inhibits STING at its palmitoylation site → prevents cGAS-STING-mediated innate sensing; HBsAg-containing subviral particles also activate cGAS in the cytoplasm; cGAS-STING agonists are being investigated as curative HBV therapy that stimulates APOBEC3-mediated non-cytolytic cccDNA degradation.
+
+**→ [cccDNA](../cccdna/)**: HBV cccDNA in the nucleus and incoming RC-DNA in the cytoplasm both activate cGAS → cGAMP → STING → IFN-β; HBx inhibits STING to prevent innate recognition of cccDNA; APOBEC3A/3B cytidine deaminases (induced by cGAS-STING-IFN-β) deaminate cccDNA cytosines → hypermutation → non-cytolytic cccDNA inactivation; cGAS-STING pathway activation is a key curative strategy in HBV drug development.
 
 **→ [TBK1](../tbk1/)**: cGAMP-bound STING oligomerizes on ER → traffics to Golgi → recruits TBK1 via STING C-terminal tail direct binding → TBK1 trans-autophosphorylation (Ser172) → IRF3 Ser396 phosphorylation → IFN-β; TBK1 is the terminal kinase in the cGAS-STING-TBK1-IRF3 innate DNA sensing cascade.
