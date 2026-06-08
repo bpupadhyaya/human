@@ -103,6 +103,12 @@ cross_links:
   - target: 01-human/03-molecular/lmp1
     relation: connects-to
     note: "LMP1 CTAR1 → TRAF1/2/3 → NIK → IKKα → p100 → p52/RelB (non-canonical); CTAR2 → TRADD → TRAF6 → TAK1 → IKKβ → IκBα → p65/p50 (canonical); dual NF-κB pathway activation by one viral protein; constitutive BCL-2, ICAM-1, IL-6, TRAF1 → B cell survival."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "HIV-1 LTR has two κB sites; NF-κB p65/p50 drives transcription from integrated provirus; T cell activation (TCR/CD28 → IKKβ → NF-κB) reactivates latent HIV; Tat cooperates with NF-κB at LTR → high-level virion production; NF-κB inhibition explored for latency reversal."
+  - target: 01-human/03-molecular/hiv-gp120
+    relation: connects-to
+    note: "gp120 binding to CD4 on T cells activates NF-κB → T cell activation → permissive environment for HIV replication; HIV LTR κB sites (×2) require NF-κB p65/p50 for proviral transcription; Tat + NF-κB cooperate at LTR for maximal HIV gene expression."
 ---
 
 # NF-κB
@@ -231,6 +237,8 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 - `connects-to` → **[Hepatitis B](../../07-system/hepatitis-b/README.md)** — HBx protein activates NF-κB via IKKα/β → hepatocyte survival, HBV transcription from cccDNA, and pro-inflammatory cytokine production; NF-κB activation prevents apoptosis of HBV-infected hepatocytes; NF-κB and AP-1 binding sites on cccDNA promoters are required for robust HBV transcription; NF-κB drives HBV-associated liver inflammation and HCC.
 - `connects-to` → **[Epstein-Barr Virus](../../07-system/epstein-barr-virus/README.md)** — EBV LMP1 CTAR1/2 activate both canonical and alternative NF-κB; CTAR1 → TRAF1/2/3 → NIK → p52/RelB; CTAR2 → TRADD/TRAF6 → IKKβ → p65/p50; constitutively active CD40 mimic → BCL-2, ICAM-1, IL-6 → B cell immortalization and EBV lymphomagenesis.
 - `connects-to` → **[LMP1](../lmp1/README.md)** — LMP1 CTAR1 → TRAF1/2/3 → NIK → IKKα → p100 → p52/RelB (non-canonical); CTAR2 → TRADD → TRAF6 → TAK1 → IKKβ → IκBα → p65/p50 (canonical); dual NF-κB pathway activation by one viral protein; constitutive BCL-2, ICAM-1, IL-6, TRAF1 → B cell survival.
+- `connects-to` → **[HIV](../../07-system/hiv/README.md)** — HIV-1 LTR has two κB sites; NF-κB p65/p50 drives transcription from integrated provirus; T cell activation (TCR/CD28 → IKKβ → NF-κB) reactivates latent HIV; Tat cooperates with NF-κB at LTR → high-level virion production; NF-κB inhibition explored for latency reversal.
+- `connects-to` → **[HIV gp120](../hiv-gp120/README.md)** — gp120 binding to CD4 on T cells activates NF-κB → T cell activation → permissive environment for HIV replication; HIV LTR κB sites (×2) require NF-κB p65/p50 for proviral transcription; Tat + NF-κB cooperate at LTR for maximal HIV gene expression.
 
 ## Pathology
 

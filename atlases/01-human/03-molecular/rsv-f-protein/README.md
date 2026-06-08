@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Prefusion RSV F stabilized by proline substitutions (DS-Cav1 design) induces high-titer site Ø neutralizing antibodies — basis of nirsevimab and mRNA vaccines; RSV NS1/NS2 block type I IFN (NS1→TRIM25/IRF3, NS2→STAT2); recombinant IFN-λ protects immunocompromised hosts from RSV."
+  - target: 01-human/03-molecular/hiv-gp120
+    relation: connects-to
+    note: "gp41 (triggered by gp120-CD4 binding) is a class I viral fusogen with HR1/HR2 six-helix bundle analogous to RSV-F and SARS-CoV-2 S2; gp41 MPER targeted by 10E8 bNAbs analogous to anti-preF site Ø antibodies; SOSIP IP proline mutation parallels DS-Cav1 preF locking strategy."
 ---
 
 # RSV F Protein
@@ -159,6 +162,8 @@ The FI-RSV disaster (Chin et al. 1969) taught four principles now embedded in va
 **→ [TSLP](../tslp/)**: RSV F protein-mediated epithelial damage and TLR4/NF-κB signaling trigger TSLP from airway epithelium → TSLPR/IL-7Rα on ILC2 and basophils → IL-4/IL-13 → Th2 sensitization and IgE production; nirsevimab (anti-F mAb) prevents infection-driven TSLP release → reduces Th2 sensitization in early life.
 
 **→ [Type I Interferon](../type-i-interferon/)**: RSV NS1/NS2 collectively suppress type I IFN at multiple levels (NS1→TRIM25/IRF3; NS2→STAT2); prefusion-stabilized F vaccines (DS-Cav1 design) induce high-titer site Ø neutralizing antibodies without relying on IFN-amplified immunity; IFN-λ (type III) at mucosal surfaces remains the dominant innate antiviral defense that NS1/NS2 cannot fully block.
+
+**→ [HIV gp120](../hiv-gp120/)**: gp41 (triggered by gp120-CD4 binding) is a class I viral fusogen with HR1/HR2 six-helix bundle analogous to RSV-F and SARS-CoV-2 S2; gp41 MPER targeted by 10E8 bNAbs analogous to anti-preF site Ø antibodies; SOSIP IP proline mutation parallels DS-Cav1 preF locking strategy.
 
 [^mclellan-2013-prefusion-f-structure]: McLellan JS, Chen M, Leung S, et al. Structure-based design of a fusion glycoprotein vaccine for respiratory syncytial virus. *Science.* 2013;342(6158):592-598. [doi:10.1126/science.1234914](https://doi.org/10.1126/science.1234914) · [PubMed 23618766](https://pubmed.ncbi.nlm.nih.gov/23618766/)
 [^mazur-2018-rsv-vaccine-landscape]: Mazur NI, Higgins D, Nunes MC, et al. The respiratory syncytial virus vaccine landscape: lessons from the graveyard and promising candidates. *Lancet Infect Dis.* 2018;18(10):e295-e311. [doi:10.1016/S1473-3099(18)30292-5](https://doi.org/10.1016/S1473-3099(18)30292-5) · [PubMed 29954680](https://pubmed.ncbi.nlm.nih.gov/29954680/)

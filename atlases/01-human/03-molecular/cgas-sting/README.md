@@ -51,6 +51,12 @@ cross_links:
   - target: 01-human/03-molecular/cccdna
     relation: connects-to
     note: "HBV cccDNA and RC-DNA activate cGAS in nucleus and cytoplasm → STING → IFN-β; HBx inhibits STING → suppresses innate sensing of cccDNA; APOBEC3A/3B deaminate cccDNA → cGAS recognition; cGAS-STING agonists target cccDNA-containing hepatocytes for non-cytolytic clearance."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "HIV reverse transcription generates cytosolic dsDNA → cGAS → cGAMP → STING → IFN-β; HIV capsid-CPSF6 nuclear import limits cytosolic DNA exposure to evade cGAS; TREX1 degrades incomplete RT products; SAMHD1 blocks RT by depleting dNTPs upstream of cGAS sensing."
+  - target: 01-human/03-molecular/hiv-gp120
+    relation: connects-to
+    note: "After HIV entry via gp120/gp41, reverse transcription generates cytosolic dsDNA → cGAS → cGAMP → STING → IFN-β; HIV capsid shields DNA during nuclear pore transit; TREX1 degrades incomplete RT products; SAMHD1 restricts RT by dNTP depletion, upstream of cGAS sensing."
 ---
 
 # cGAS-STING
@@ -142,3 +148,7 @@ STING → TRAF6 (K63-linked ubiquitination) → TAK1 → IKKβ → IκBα phosph
 **→ [cccDNA](../cccdna/)**: HBV cccDNA in the nucleus and incoming RC-DNA in the cytoplasm both activate cGAS → cGAMP → STING → IFN-β; HBx inhibits STING to prevent innate recognition of cccDNA; APOBEC3A/3B cytidine deaminases (induced by cGAS-STING-IFN-β) deaminate cccDNA cytosines → hypermutation → non-cytolytic cccDNA inactivation; cGAS-STING pathway activation is a key curative strategy in HBV drug development.
 
 **→ [TBK1](../tbk1/)**: cGAMP-bound STING oligomerizes on ER → traffics to Golgi → recruits TBK1 via STING C-terminal tail direct binding → TBK1 trans-autophosphorylation (Ser172) → IRF3 Ser396 phosphorylation → IFN-β; TBK1 is the terminal kinase in the cGAS-STING-TBK1-IRF3 innate DNA sensing cascade.
+
+**→ [HIV](../../../07-system/hiv/)**: HIV reverse transcription generates cytosolic dsDNA → cGAS → cGAMP → STING → IFN-β; HIV capsid-CPSF6 nuclear import limits cytosolic DNA exposure to evade cGAS; TREX1 degrades incomplete RT products; SAMHD1 blocks RT by depleting dNTPs upstream of cGAS sensing.
+
+**→ [HIV gp120](../hiv-gp120/)**: After gp120/gp41-mediated entry, reverse transcription generates cytosolic HIV dsDNA → cGAS → cGAMP → STING → IFN-β; HIV capsid shields DNA during nuclear pore transit to limit cGAS sensing; TREX1 degrades incomplete RT products; SAMHD1 restricts RT by dNTP depletion, upstream of cGAS.

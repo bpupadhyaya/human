@@ -78,6 +78,9 @@ cross_links:
   - target: 01-human/03-molecular/lmp1
     relation: connects-to
     note: "LMP1 → NF-κB → TGF-β1 transcription in infected B cells; LMP1 can block SMAD2/3 nuclear translocation → prevents TGF-β growth arrest; exosomal LMP1 modulates TGF-β in stromal fibroblasts; TGF-β in EBV+ lymphoma microenvironment is partly LMP1-driven."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "HIV-infected macrophages and Tregs produce TGF-β1 → CD8+ T cell suppression and NK dysfunction; TGF-β maintains latent HIV in quiescent memory CD4+ T cells; TGF-β-driven lymph node fibrosis (collagen deposition) disrupts T cell zones → progressive CD4+ T cell depletion."
 ---
 
 # Transforming Growth Factor Beta
@@ -179,6 +182,7 @@ TβRIII (betaglycan) is a co-receptor that presents TGF-β2 (low-affinity TβRII
 - `connects-to` → **[Hepatitis B](../../07-system/hepatitis-b/README.md)** — Chronic HBV hepatitis activates hepatic stellate cells via TGF-β1 produced by Kupffer cells and activated hepatocytes → myofibroblast transdifferentiation → collagen I/III deposition → fibrosis → cirrhosis → HCC risk; TGF-β also suppresses HBV-specific CD8+ T cells → immune exhaustion; TGF-β receptor inhibitors (galunisertib) reduce HBV-induced hepatic fibrosis in preclinical models.
 - `connects-to` → **[Epstein-Barr Virus](../../07-system/epstein-barr-virus/README.md)** — EBV LMP1 → NF-κB → TGF-β1 production in B cells; EBNA1 blocks Smad signaling → prevents TGF-β growth arrest; TGF-β maintains EBV latency (BZLF1 lytic switch suppression); TGF-β-high microenvironment in EBV+ Hodgkin lymphoma Reed-Sternberg cells is immunosuppressive.
 - `connects-to` → **[LMP1](../lmp1/README.md)** — LMP1 → NF-κB → TGF-β1 transcription in infected B cells; LMP1 can block SMAD2/3 nuclear translocation → prevents TGF-β growth arrest; exosomal LMP1 modulates TGF-β in stromal fibroblasts; TGF-β in EBV+ lymphoma microenvironment is partly LMP1-driven.
+- `connects-to` → **[HIV](../../07-system/hiv/README.md)** — HIV-infected macrophages and Tregs produce TGF-β1 → CD8+ T cell suppression and NK dysfunction; TGF-β maintains latent HIV in quiescent memory CD4+ T cells; TGF-β-driven lymph node fibrosis (collagen deposition) disrupts T cell zones → progressive CD4+ T cell depletion.
 
 ## Pathology
 

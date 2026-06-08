@@ -72,6 +72,12 @@ cross_links:
   - target: 01-human/03-molecular/mv-h-protein
     relation: connects-to
     note: "MV-H binding to SLAM/CD150 on dendritic cells → DC infection → impaired IL-12/IFN-α; MV replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; MV V protein sequesters MDA5 → blocks MAVS; H-driven DC tropism impairs early innate immune activation and T cell priming."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "HIV ssRNA/dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → IRF3 → IFN-β; Vif degrades APOBEC3G; HIV capsid-CPSF6 nuclear pore threading evades cytosolic sensing before MAVS activation; Vpx (HIV-2) degrades SAMHD1 to enable reverse transcription in macrophages."
+  - target: 01-human/03-molecular/hiv-gp120
+    relation: connects-to
+    note: "HIV gp120/gp41-mediated viral entry precedes innate sensing; cytosolic HIV reverse transcription products activate RIG-I/MDA5 → MAVS → IFN-β; HIV Vif degrades APOBEC3G; CPSF6-capsid nuclear pore threading evades cytosolic sensing before MAVS activation during nuclear import."
 ---
 
 # MAVS
@@ -177,3 +183,7 @@ Primary sensor for long dsRNA (>1 kb):
 **→ [Measles](../../../07-system/measles/)**: MV negative-sense ssRNA replication generates 5′ppp RNA → RIG-I → MAVS → TBK1/IRF3 → IFN-β; MV V protein sequesters MDA5 and LGP2 → blocks MAVS activation; P protein blocks IRF3 phosphorylation; attenuated vaccine strains (Edmonston) with impaired V/P IFN evasion activate MAVS more robustly → stronger innate antiviral response.
 
 **→ [MV-H Protein](../mv-h-protein/)**: MV-H binding to SLAM/CD150 on dendritic cells → DC infection → impaired IL-12 and IFN-α production; MV replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; MV V protein sequesters MDA5 → blocks MAVS activation; H-driven DC tropism impairs the early innate immune activation required for robust T cell priming and viral clearance.
+
+**→ [HIV](../../../07-system/hiv/)**: HIV ssRNA/dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → IRF3 → IFN-β; Vif degrades APOBEC3G; HIV capsid-CPSF6 nuclear pore threading evades cytosolic sensing before MAVS activation; Vpx (HIV-2) degrades SAMHD1 to enable reverse transcription in macrophages.
+
+**→ [HIV gp120](../hiv-gp120/)**: HIV gp120/gp41-mediated viral entry precedes innate sensing; cytosolic HIV reverse transcription products activate RIG-I/MDA5 → MAVS → IFN-β; HIV Vif degrades APOBEC3G; CPSF6-capsid nuclear pore threading evades cytosolic sensing before MAVS activation during nuclear import.
