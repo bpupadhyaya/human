@@ -21,6 +21,9 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Alpha-synuclein and amyloid-beta co-aggregate in dementia with Lewy bodies (DLB), an overlap syndrome of AD and PD pathology; SNCA Lewy pathology accelerates tau spreading via prion-like mechanisms; ~10-15% of Alzheimer patients have concurrent Lewy body pathology."
+  - target: 01-human/07-system/lewy-body-dementia
+    relation: connects-to
+    note: "Cortical and limbic alpha-synuclein Lewy bodies define DLB; SNCA S129-phosphorylated fibrils compose Lewy bodies in both DLB and PD; alpha-synuclein SAA (RT-QuIC) in CSF or skin is >90% sensitive for DLB/PD; SNCA G51D mutation causes early-onset DLB-like syndrome."
 sources:
   - id: polymeropoulos-1997-snca-pd
     type: peer-reviewed
@@ -103,3 +106,5 @@ Alpha-synuclein is cleared by macroautophagy and chaperone-mediated autophagy (C
 Alpha-synuclein regulates dopamine synthesis and synaptic vesicle exocytosis via SNARE complex interactions; SNCA aggregation → impaired dopamine neurotransmission → motor circuit failure; preformed fibrils (PFFs) selectively kill dopaminergic neurons in PD models.
 
 Alpha-synuclein and amyloid-beta co-aggregate in dementia with Lewy bodies (DLB), an overlap syndrome of AD and PD pathology; SNCA Lewy pathology accelerates tau spreading via prion-like mechanisms; ~10-15% of Alzheimer patients have concurrent Lewy body pathology.
+
+Cortical and limbic alpha-synuclein Lewy bodies (SNCA S129-phosphorylated fibrils) define DLB neuropathology; alpha-synuclein SAA (RT-QuIC) in CSF or skin is >90% sensitive for DLB/PD; SNCA G51D mutation causes early-onset DLB-like syndrome with prominent cortical Lewy bodies.

@@ -48,6 +48,9 @@ cross_links:
   - target: 01-human/03-molecular/norovirus-vp1
     relation: connects-to
     note: "Both RSV F and Norovirus VP1 are sole viral surface antigens serving as vaccine immunogens; mRNA-LNP encodes both (mResvia/RSV; mRNA-1403/norovirus); DS-Cav1 RSV-F proline locking and VP1 VLP self-assembly are parallel structure-based vaccine design strategies."
+  - target: 01-human/03-molecular/influenza-ha
+    relation: connects-to
+    note: "RSV F and influenza HA are class I viral fusogens sharing 6-helix bundle post-fusion mechanism; conserved HA2 stalk BNAbs parallel site Ø anti-F antibodies; both are mRNA-LNP vaccine immunogens (mResvia RSV F; mRNA-1073 influenza HA) enabling rapid pandemic reformulation."
 ---
 
 # RSV F Protein
@@ -174,6 +177,8 @@ The FI-RSV disaster (Chin et al. 1969) taught four principles now embedded in va
 **→ [SARS-CoV-2 Spike](../sars-cov-2-spike/)**: SARS-CoV-2 S2 and RSV F are both class I viral fusogens with HR1/HR2 six-helix bundles driving membrane merger; 2P proline stabilization of prefusion SARS-CoV-2 Spike (K986P/V987P) structurally parallels DS-Cav1 RSV-F locking; mRNA-LNP vaccine platforms encode both antigens using the same LNP delivery technology.
 
 **→ [Norovirus VP1](../norovirus-vp1/)**: Both RSV F (prefusion, site Ø) and Norovirus VP1 (P2 subdomain) are the sole viral surface antigens and vaccine immunogens of their respective viruses; mRNA-LNP platforms encode both (mResvia for RSV F; mRNA-1403 for norovirus VP1); DS-Cav1 RSV-F proline locking and VP1 VLP self-assembly are parallel structure-based vaccine design strategies.
+
+**→ [Influenza Hemagglutinin](../influenza-ha/)**: RSV F and influenza HA are class I viral fusogens sharing 6-helix bundle post-fusion mechanism; conserved HA2 stalk BNAbs parallel site Ø anti-F antibodies; both are mRNA-LNP vaccine immunogens (mResvia RSV F; mRNA-1073 influenza HA) enabling rapid pandemic reformulation.
 
 [^mclellan-2013-prefusion-f-structure]: McLellan JS, Chen M, Leung S, et al. Structure-based design of a fusion glycoprotein vaccine for respiratory syncytial virus. *Science.* 2013;342(6158):592-598. [doi:10.1126/science.1234914](https://doi.org/10.1126/science.1234914) · [PubMed 23618766](https://pubmed.ncbi.nlm.nih.gov/23618766/)
 [^mazur-2018-rsv-vaccine-landscape]: Mazur NI, Higgins D, Nunes MC, et al. The respiratory syncytial virus vaccine landscape: lessons from the graveyard and promising candidates. *Lancet Infect Dis.* 2018;18(10):e295-e311. [doi:10.1016/S1473-3099(18)30292-5](https://doi.org/10.1016/S1473-3099(18)30292-5) · [PubMed 29954680](https://pubmed.ncbi.nlm.nih.gov/29954680/)

@@ -56,6 +56,9 @@ cross_links:
   - target: 01-human/03-molecular/mavs
     relation: connects-to
     note: "SARS-CoV-2 +ssRNA replication intermediates and defective interfering particles (5′ppp RNA) activate RIG-I → MAVS → TBK1/IRF3 → IFN-β; NSP6 sequesters MAVS; NSP13 disrupts TBK1; NSP16 2′-O-methylation evades MDA5; impaired RIG-I/MAVS correlates with COVID-19 severity."
+  - target: 01-human/03-molecular/influenza-ha
+    relation: connects-to
+    note: "Influenza HA and SARS-CoV-2 Spike are class I viral fusogens: both cleaved by TMPRSS2; HA2 stalk and S2 heptad repeats form analogous 6-helix bundle post-fusion; conserved stalk/stem BNAbs parallel conserved RBD-targeting mAbs; both are primary mRNA-LNP vaccine immunogens."
 ---
 
 # SARS-CoV-2 Spike
@@ -168,6 +171,8 @@ The 2P strategy (K986P/V987P at the CH domain just N-terminal to HR1) introduces
 **→ [Type I Interferon](../type-i-interferon/)**: SARS-CoV-2 Spike activates TLR2/TLR4 → NF-κB on epithelial cells; Spike-mediated syncytium formation generates apoptotic debris → cGAS-STING → IFN-β; NSP1 blocks type I IFN translation; Spike mRNA vaccines activate ISGs via IFNAR; IFN-λ3 is the dominant mucosal innate barrier.
 
 **→ [MAVS](../mavs/)**: SARS-CoV-2 +ssRNA replication intermediates and 5′ppp DI-particle RNA activate RIG-I → MAVS → TBK1/IRF3 → IFN-β downstream of Spike-mediated entry; NSP6 sequesters MAVS; NSP13 disrupts TBK1; NSP16 2′-O-methyltransferase prevents MDA5 recognition; impaired MAVS-IFN correlates with COVID-19 severity.
+
+**→ [Influenza Hemagglutinin](../influenza-ha/)**: Influenza HA and SARS-CoV-2 Spike are class I viral fusogens: both cleaved by TMPRSS2; HA2 stalk and S2 heptad repeats form analogous 6-helix bundle post-fusion; conserved stalk/stem BNAbs parallel conserved RBD-targeting mAbs; both are primary mRNA-LNP vaccine immunogens.
 
 [^wrapp-2020-spike-cryo-em]: Wrapp D, Wang N, Corbett KS, et al. Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation. *Science.* 2020;367(6483):1260-1263. [doi:10.1126/science.abb2507](https://doi.org/10.1126/science.abb2507) · [PubMed 32075877](https://pubmed.ncbi.nlm.nih.gov/32075877/)
 [^hoffmann-2020-ace2-tmprss2]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)

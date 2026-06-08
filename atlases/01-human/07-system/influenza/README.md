@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/rig-i
     relation: connects-to
     note: "Influenza A 5′ppp genomic ssRNA and dsRNA replication intermediates are the canonical RIG-I ligands; NS1 blocks RIG-I by sequestering dsRNA and inhibiting TRIM25-mediated K63-ubiquitination of RIG-I CARDs; NS1 IFN antagonism strength correlates with pandemic potential."
+  - target: 01-human/03-molecular/influenza-ha
+    relation: connects-to
+    note: "HA is the primary influenza vaccine antigen; HA1 head antigenic sites A-E undergo annual drift requiring reformulation; HA2 stalk BNAbs are the basis of universal influenza vaccine strategies; α2,6-SA vs α2,3-SA receptor binding specificity determines human transmissibility."
 ---
 
 # Influenza
@@ -177,3 +180,5 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 **→ [NLRP3 Inflammasome](../../../03-molecular/nlrp3-inflammasome/)**: Influenza M2 proton channel and PB1-F2 (mitochondrial targeting) activate NLRP3 → caspase-1 → IL-1β + IL-18; NLRP3-mediated IL-1β amplifies cytokine storm in severe H5N1 and 1918 H1N1 pneumonia; NLRP3 genetic variants associated with influenza severity; ASC speck formation observed in infected macrophages.
 
 **→ [RIG-I](../../../03-molecular/rig-i/)**: Influenza A 5′ppp genomic ssRNA and dsRNA replication intermediates are the canonical RIG-I ligands; NS1 blocks RIG-I by sequestering dsRNA and inhibiting TRIM25-mediated K63-ubiquitination of RIG-I CARDs; NS1 IFN antagonism strength correlates with pandemic potential.
+
+**→ [Influenza Hemagglutinin](../../../03-molecular/influenza-ha/)**: HA1 head antigenic sites A-E undergo annual drift requiring vaccine reformulation; HA2 stalk BNAbs (CR6261, MEDI8852, FI6v3) are the basis of universal influenza vaccine strategies; α2,6-SA vs α2,3-SA receptor binding specificity determines human transmissibility and pandemic potential.

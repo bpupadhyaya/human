@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/mapt
     relation: connects-to
     note: "MAPT H1 haplotype (common in Europeans) is a risk factor for PD and PSP; tau co-aggregates with alpha-synuclein in Lewy body dementia and some PD brains; MAPT LOF mutations cause FTLD-MAPT; tau and SNCA pathology converge on mitochondrial dysfunction and autophagy impairment."
+  - target: 01-human/07-system/lewy-body-dementia
+    relation: connects-to
+    note: "DLB and PD are both alpha-synuclein synucleinopathies: the 1-year rule distinguishes DLB (dementia onset ≤1 year of parkinsonism) from PDD (parkinsonism >1 year before dementia); DLB features early cortical Lewy bodies while PD follows Braak brainstem→cortex staging."
 ---
 
 # Parkinson's Disease
@@ -198,6 +201,7 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[SNCA](../../03-molecular/snca/README.md)** — SNCA missense mutations (A53T, A30P, E46K) and gene duplication/triplication cause familial PD; misfolded alpha-synuclein fibrils are the main component of Lewy bodies; SNCA propagates via synaptic connections following Braak staging from brainstem to neocortex.
 - `connects-to` → **[LRRK2](../../03-molecular/lrrk2/README.md)** — LRRK2 G2019S (~1-2% of sporadic PD, ~40% penetrance by age 80) is the most common pathogenic variant causing familial PD; LRRK2 kinase hyperactivation → Rab GTPase hyperphosphorylation → vesicle trafficking defects and α-synuclein aggregation in dopaminergic neurons.
 - `connects-to` → **[MAPT](../../03-molecular/mapt/README.md)** — MAPT H1 haplotype (common in Europeans) is a risk factor for PD and PSP; tau co-aggregates with alpha-synuclein in Lewy body dementia and some PD brains; MAPT LOF mutations cause FTLD-MAPT; tau and SNCA pathology converge on mitochondrial dysfunction and autophagy impairment.
+- `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — DLB and PD are both alpha-synuclein synucleinopathies distinguished by the 1-year rule; DLB features early cortical Lewy bodies while PD follows Braak brainstem→cortex staging; PDD (Parkinson's disease dementia) occurs in ~80% of PD at 20 years and shares DLB's cholinergic deficit and rivastigmine responsiveness.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
