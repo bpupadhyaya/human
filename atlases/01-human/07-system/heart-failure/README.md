@@ -70,6 +70,9 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "High-sensitivity cTn is elevated in HF proportional to ventricular remodeling severity; persistent cTn elevation in HFrEF reflects ongoing cardiomyocyte injury and predicts mortality; cTn elevation in acute decompensated HF and myocarditis reflects inflammation-driven release."
+  - target: 01-human/03-molecular/ncx1
+    relation: connects-to
+    note: "NCX1 is upregulated in failing human ventricle → increased Ca²⁺ extrusion → further SR Ca²⁺ depletion (additive to SERCA2a downregulation) → reduced contractility; inward INCX during repolarization prolongs action potential → delayed afterdepolarizations → arrhythmia in HFrEF."
 ---
 
 # Heart Failure
@@ -160,6 +163,7 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[HCN4](../../03-molecular/hcn4/README.md)** — Heart failure with persistent tachycardia: ivabradine (HCN4 I_f blocker) reduces HR without negative inotropy; SHIFT trial: 18% reduction in HF hospitalization in HFrEF with HR >70 bpm; European guidelines recommend ivabradine as adjunct therapy in HFrEF with HR >70 bpm.
 - `connects-to` → **[RyR2](../../03-molecular/ryr2/README.md)** — CaMKII hyperactivation in HFrEF hyperphosphorylates RyR2 Ser2814 → diastolic Ca²⁺ leak → SR Ca²⁺ depletion + delayed afterdepolarizations → ventricular arrhythmia; diastolic RyR2 Ca²⁺ leak is a core mechanism linking Ca²⁺ cycling dysfunction to sudden cardiac death in HF.
 - `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — High-sensitivity cTn is elevated in HF proportional to ventricular remodeling severity; persistent cTn elevation in HFrEF reflects ongoing cardiomyocyte injury and predicts mortality; cTn elevation in acute decompensated HF and myocarditis reflects inflammation-driven release.
+- `connects-to` → **[NCX1](../../03-molecular/ncx1/README.md)** — NCX1 is upregulated in failing human ventricle → increased Ca²⁺ extrusion → further SR Ca²⁺ depletion (additive to SERCA2a downregulation) → reduced contractility; inward INCX during repolarization prolongs action potential → delayed afterdepolarizations → arrhythmia in HFrEF.
 
 ## Pathology
 

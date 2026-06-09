@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: modulated-by
     note: "Modulated by Fibroblast."
+  - target: 01-human/03-molecular/ncx1
+    relation: connects-to
+    note: "NCX1 is densely expressed in myocardial T-tubules and sarcolemma; NCX1/SERCA2a ratio determines Ca²⁺ removal balance; transient inward INCX (Iti) during Ca²⁺ sparks → delayed afterdepolarizations → triggered arrhythmias; NCX1 drives ischemia-reperfusion Ca²⁺ overload injury."
 taxonomy:
   uberon: "UBERON:0002349"
   fma: "FMA:9462"
@@ -126,6 +129,7 @@ Adult human cardiomyocytes turn over at roughly **~1 %/year in early adulthood, 
 - **Down (constituent cell):** the myocardium is `composed-of` the **[cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)**, plus several non-myocyte cell types whose entries will follow (fibroblast, endothelial cell, resident macrophage).
 - **Sideways (extracellular):** type I and type III collagen, fibronectin, and laminins — molecular-scale entries that operate at the tissue scale (entries to come).
 - **Cross-atlas (planned in Phase 3):** the myocardium is the tissue-scale victim of **myocarditis** — inflammation triggered by viral infection (e.g., Coxsackievirus B), autoimmune mechanisms, or toxic exposures.
+- `connects-to` → **[NCX1](../../03-molecular/ncx1/README.md)** — NCX1 is densely expressed in myocardial T-tubules and sarcolemma; NCX1/SERCA2a ratio determines Ca²⁺ removal balance; transient inward INCX (Iti) during Ca²⁺ sparks → delayed afterdepolarizations → triggered arrhythmias; NCX1 drives ischemia-reperfusion Ca²⁺ overload injury.
 
 ## Pathology
 
@@ -162,3 +166,7 @@ Adult human cardiomyocytes turn over at roughly **~1 %/year in early adulthood, 
 [^openstax-anatomy-19-2]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.2: Cardiac Muscle and Electrical Activity. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity)
 [^bers-2002-cardiac-ec-coupling]: Bers DM. Cardiac excitation-contraction coupling. *Nature.* 2002;415(6868):198-205. [doi:10.1038/415198a](https://doi.org/10.1038/415198a) · [PubMed 11805843](https://pubmed.ncbi.nlm.nih.gov/11805843/)
 [^bergmann-2009-cardiomyocyte-renewal]: Bergmann O, Bhardwaj RD, Bernard S, et al. Evidence for cardiomyocyte renewal in humans. *Science.* 2009;324(5923):98-102. [doi:10.1126/science.1164680](https://doi.org/10.1126/science.1164680) · [PubMed 19342590](https://pubmed.ncbi.nlm.nih.gov/19342590/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

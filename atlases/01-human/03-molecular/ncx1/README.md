@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/04-cellular/sa-node-cell
     relation: expressed-by
     note: "NCX1 is expressed in SA node pacemaker cells; reverse-mode NCX1 (Ca²⁺ entry driven by SR Ca²⁺ release events) contributes inward current during diastolic depolarisation as part of the Ca²⁺ clock."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "NCX1 is upregulated in failing human ventricle → increased Ca²⁺ extrusion → further SR Ca²⁺ depletion (additive to SERCA2a downregulation) → reduced contractility; inward INCX during repolarization prolongs action potential → delayed afterdepolarizations → arrhythmia in HFrEF."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "NCX1 is the second-largest Ca²⁺ removal pathway (~28% per beat); electrogenically exchanges 3 Na⁺:1 Ca²⁺; reverse mode → Ca²⁺ entry during action potential; NCX1 upregulation in HF impairs systolic function; NCX1 is a proposed therapeutic target in heart failure."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "NCX1 is densely expressed in myocardial T-tubules and sarcolemma; NCX1/SERCA2a ratio determines Ca²⁺ removal balance; transient inward INCX (Iti) during Ca²⁺ sparks → delayed afterdepolarizations → triggered arrhythmias; NCX1 drives ischemia-reperfusion Ca²⁺ overload injury."
 taxonomy:
   uniprot: "P32418"
   gene_symbol: "SLC8A1"
@@ -131,9 +140,14 @@ In SA node pacemaker cells, spontaneous SR Ca²⁺ release events (Ca²⁺ spark
 
 ## Connections
 
-- **Modulates** → [Calcium](../../02-atomic/calcium/README.md): NCX1 in forward mode is the second-largest Ca²⁺ removal pathway from the cardiomyocyte cytosol after SERCA2a (~28% per beat in human ventricle); in reverse mode it brings Ca²⁺ into the cell.
-- **Expressed-by** → [Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md): NCX1 is expressed in the sarcolemma and T-tubule membrane of working cardiomyocytes; its current (INCX) contributes to the shape of the action potential and to Ca²⁺ homeostasis.
-- **Expressed-by** → [SA node cell](../../04-cellular/sa-node-cell/README.md): Reverse-mode NCX1 in pacemaker cells generates an inward depolarising current during Ca²⁺ spark events, contributing to the Ca²⁺ clock component of pacemaker automaticity.
+- `modulates` → **[Calcium](../../02-atomic/calcium/README.md)** — NCX1 in forward mode is the second-largest Ca²⁺ removal pathway from the cardiomyocyte cytosol (~28% per beat in human ventricle); in reverse mode it brings Ca²⁺ into the cell.
+- `expressed-by` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — NCX1 is expressed in the sarcolemma and T-tubule membrane of working cardiomyocytes; its current (INCX) contributes to action potential shape and Ca²⁺ homeostasis.
+- `expressed-by` → **[SA Node Cell](../../04-cellular/sa-node-cell/README.md)** — Reverse-mode NCX1 in pacemaker cells generates an inward depolarising current during Ca²⁺ spark events, contributing to the Ca²⁺ clock component of pacemaker automaticity.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — NCX1 is upregulated in failing human ventricle → increased Ca²⁺ extrusion → further SR Ca²⁺ depletion (additive to SERCA2a downregulation) → reduced contractility; inward INCX during repolarization prolongs action potential → delayed afterdepolarizations → arrhythmia in HFrEF.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — NCX1 is the second-largest Ca²⁺ removal pathway (~28% per beat); electrogenically exchanges 3 Na⁺:1 Ca²⁺; reverse mode → Ca²⁺ entry during action potential; NCX1 upregulation in HF impairs systolic function; NCX1 is a proposed therapeutic target in heart failure.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — NCX1 is densely expressed in myocardial T-tubules and sarcolemma; NCX1/SERCA2a ratio determines Ca²⁺ removal balance; transient inward INCX (Iti) during Ca²⁺ sparks → delayed afterdepolarizations → triggered arrhythmias; NCX1 drives ischemia-reperfusion Ca²⁺ overload injury.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 ## Pathology
 

@@ -237,6 +237,9 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Troponin complex is the molecular effector of cardiac contraction: TnC Ca²⁺ binding → TnI release → tropomyosin repositioning → actin-myosin cross-bridge cycling; PKA-mediated TnI Ser23/24 phosphorylation → ↓Ca²⁺ sensitivity → faster relaxation under β-adrenergic stimulation."
+  - target: 01-human/03-molecular/ncx1
+    relation: connects-to
+    note: "NCX1 is the second-largest Ca²⁺ removal pathway (~28% per beat); electrogenically exchanges 3 Na⁺:1 Ca²⁺; reverse mode → Ca²⁺ entry during action potential; NCX1 upregulation in HF impairs systolic function; NCX1 is a proposed therapeutic target in heart failure."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -392,6 +395,7 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[RyR2](../../03-molecular/ryr2/README.md)** — RyR2 CICR amplifies the L-type Ca²⁺ trigger into cardiac contraction (~75% of Ca²⁺ transient is SR-derived); PKA and CaMKII tune RyR2 gain for sympathetic inotropy; CaMKII hyperactivation in HF → diastolic RyR2 leak → arrhythmia; RYR2 GOF mutations cause CPVT.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2/CCR2 drives monocyte infiltration into atherosclerotic plaques and adventitial macrophage accumulation; elevated serum CCL2 predicts MACE in EPIC/MRFIT cohorts; CCR2 blockade reduces plaque and improves cardiac function post-MI in murine models.
 - `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — Troponin complex is the molecular effector of cardiac contraction: TnC Ca²⁺ binding → TnI release → tropomyosin repositioning → actin-myosin cross-bridge cycling; PKA-mediated TnI Ser23/24 phosphorylation → ↓Ca²⁺ sensitivity → faster relaxation under β-adrenergic stimulation.
+- `connects-to` → **[NCX1](../../03-molecular/ncx1/README.md)** — NCX1 is the second-largest Ca²⁺ removal pathway (~28% per beat); electrogenically exchanges 3 Na⁺:1 Ca²⁺; reverse mode → Ca²⁺ entry during action potential; NCX1 upregulation in HF impairs systolic function; NCX1 is a proposed therapeutic target in heart failure.
 
 ## Pathology
 
