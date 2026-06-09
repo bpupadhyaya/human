@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Microbiome dysbiosis → LPS → TLR4 → TNF-α/IL-6 → adiponectin suppression; butyrate-producing bacteria (Akkermansia, Bifidobacterium) → SCFA → PPARγ → ADIPOQ induction; probiotics and prebiotics modestly raise adiponectin in metabolic syndrome and obesity trials."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "SIgA shapes host-microbiome homeostasis: coats commensal bacteria to prevent translocation; IgA-seq identifies pathobiont-specific SIgA coating; SIgA deficiency → bacterial translocation and dysbiosis; Akkermansia and Bifidobacterium are high-SIgA-coating commensals."
 ---
 
 # Gut Microbiome
@@ -121,6 +124,7 @@ The microbiome influences CNS function via multiple pathways:
 - `contains` → **[Akkermansia muciniphila](../../../../02-pathogen/06-microbiome/akkermansia-muciniphila/README.md)** — mucin-degrading species associated with metabolic health; reduced in obesity and T2DM; Amuc_1100 strengthens gut barrier via TLR2
 - `connects-to` → **[Obesity](../obesity/README.md)** — dysbiosis in obesity — increased Firmicutes/Bacteroidetes, reduced Akkermansia muciniphila — increases energy harvest and drives metabolic endotoxemia (LPS → TLR4 → systemic inflammation); gut microbiome transfer from obese to germ-free mice transfers the adiposity phenotype.
 - `connects-to` → **[Adiponectin](../../../03-molecular/adiponectin/README.md)** — Microbiome dysbiosis → LPS → TLR4 → TNF-α/IL-6 → adiponectin suppression; butyrate-producing bacteria (Akkermansia, Bifidobacterium) → SCFA → PPARγ → ADIPOQ induction; probiotics and prebiotics modestly raise adiponectin in metabolic syndrome and obesity trials.
+- `connects-to` → **[Secretory IgA](../../../03-molecular/secretory-iga/README.md)** — SIgA shapes host-microbiome homeostasis: coats commensal bacteria to prevent translocation; IgA-seq identifies pathobiont-specific SIgA coating; SIgA deficiency → bacterial translocation and dysbiosis; Akkermansia and Bifidobacterium are high-SIgA-coating commensals.
 
 ## Pathology
 

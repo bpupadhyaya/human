@@ -28,6 +28,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Secretory IgA (mucosal) and IgG (systemic) are the two dominant effector antibody isotypes; IgA dominates mucosal surfaces while IgG dominates the blood and tissues."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "SIgA shapes host-microbiome homeostasis: coats commensal bacteria to prevent translocation; IgA-seq identifies pathobiont-specific SIgA coating; SIgA deficiency → bacterial translocation and dysbiosis; Akkermansia and Bifidobacterium are high-SIgA-coating commensals."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "SIgA is the effector arm of mucosal immunity: pIgR transcytoses dimeric IgA across epithelium; 3-5 g/day secreted into gut lumen; immune exclusion is the primary mucosal defense before systemic IgG; selective IgA deficiency → recurrent respiratory and GI infections."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "Aberrant O-glycosylation of IgA1 hinge region → galactose-deficient IgA1 (Gd-IgA1) → anti-Gd-IgA1 IgG autoantibodies → immune complexes → mesangial deposition → complement activation → IgAN; Gd-IgA1 from mucosal plasma cells is the primary disease-causing immunoglobulin in IgAN."
 ---
 
 # Secretory IgA
@@ -109,6 +118,11 @@ Dimeric IgA (J chain-linked, produced by lamina propria plasma cells) reaches th
 
 - `expressed-by` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — IgA-committed lamina propria plasma cells derived from MALT/Peyer's patch germinal centers are the sole source of dimeric IgA
 - `connects-to` → **[Immunoglobulin G](../immunoglobulin-g/README.md)** — SIgA (mucosal) and IgG (systemic) are the two dominant effector antibody isotypes serving complementary anatomical compartments
+- `connects-to` → **[Gut Microbiome](../../07-system/gut-microbiome/README.md)** — SIgA shapes host-microbiome homeostasis: coats commensal bacteria to prevent translocation; IgA-seq identifies pathobiont-specific SIgA coating; SIgA deficiency → bacterial translocation and dysbiosis; Akkermansia and Bifidobacterium are high-SIgA-coating commensals.
+- `connects-to` → **[Immune System](../../07-system/immune-system/README.md)** — SIgA is the effector arm of mucosal immunity: pIgR transcytoses dimeric IgA across epithelium; 3-5 g/day secreted into gut lumen; immune exclusion is the primary mucosal defense before systemic IgG; selective IgA deficiency → recurrent respiratory and GI infections.
+- `connects-to` → **[IgA Nephropathy](../../07-system/iga-nephropathy/README.md)** — Aberrant O-glycosylation of IgA1 hinge region → galactose-deficient IgA1 (Gd-IgA1) → anti-Gd-IgA1 IgG autoantibodies → immune complexes → mesangial deposition → complement activation → IgAN; Gd-IgA1 from mucosal plasma cells is the primary disease-causing immunoglobulin in IgAN.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^mestecky-2015-mucosal-iga]: Mestecky J, Roque Velasco LR, Moro I. Mucosal immunoglobulins. *Immunol Rev.* 2015;206(1):8-58. [doi:10.1111/j.0105-2896.2005.00280.x](https://doi.org/10.1111/j.0105-2896.2005.00280.x) · [PubMed 15941106](https://pubmed.ncbi.nlm.nih.gov/15941106/)
 [^fagarasan-honjo-2003-iga]: Fagarasan S, Honjo T. Intestinal IgA synthesis: regulation of front-line body defences. *Nat Rev Immunol.* 2003;3(1):63-72. [doi:10.1038/nri982](https://doi.org/10.1038/nri982) · [PubMed 12511876](https://pubmed.ncbi.nlm.nih.gov/12511876/)

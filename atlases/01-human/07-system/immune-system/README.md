@@ -322,6 +322,9 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "IL-10 is the prototypical anti-inflammatory cytokine produced by Tregs, M2 macrophages, Bregs, and Th2 cells; IL-10/STAT3 → ↑IκBα → NF-κB suppression in macrophages → ↓pro-inflammatory cytokines; IL-10 deficiency → colitis, autoimmunity; IL-10 excess → tumor immunosuppression."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "SIgA is the effector arm of mucosal immunity: pIgR transcytoses dimeric IgA across epithelium; 3-5 g/day secreted into gut lumen; immune exclusion is the primary mucosal defense before systemic IgG; selective IgA deficiency → recurrent respiratory and GI infections."
 ---
 
 # Immune System
@@ -416,6 +419,8 @@ After primary response contraction, long-lived memory cells persist:
 - `contains` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 (p35+p40 heterodimer) is the master Th1-polarizing cytokine produced by dendritic cells and macrophages; drives IFN-γ from NK cells and T cells via JAK2/TYK2/STAT4/T-bet; IL12B/IL12RB1 loss → MSMD with recurrent BCG/NTM disease; ustekinumab (anti-p40) blocks both IL-12 and IL-23, carrying TB reactivation risk comparable to anti-TNF agents.
 - `damaged-by` → **[Tuberculosis](../tuberculosis/README.md)** — MTB is the archetypal intracellular pathogen: evades innate immunity via phagosome arrest, ESAT-6 cytosolic escape, MHC-II inhibition, and Treg induction; granuloma formation requires an intact Th1/IL-12/IFN-γ/TNF-α axis; CD4⁺ T cell depletion (HIV/AIDS) → TB reactivation is the defining CD4-dependent opportunistic infection.
 - `damaged-by` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV-1 is the paradigmatic cause of acquired immunodeficiency: selectively depletes CD4⁺ T helper cells via gp120/CD4/CCR5 entry → AIDS-defining opportunistic infections; residual immune dysregulation (T cell exhaustion, monocyte activation, chronic inflammation) persists even with fully suppressive ART.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — IL-10 is the prototypical anti-inflammatory cytokine produced by Tregs, M2 macrophages, and Bregs; IL-10/STAT3 → NF-κB suppression in macrophages → ↓pro-inflammatory cytokines; IL-10 deficiency → colitis and autoimmunity; IL-10 excess → tumor immunosuppression.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — SIgA is the effector arm of mucosal immunity: pIgR transcytoses dimeric IgA across epithelium; 3-5 g/day secreted into gut lumen; immune exclusion is the primary mucosal defense before systemic IgG; selective IgA deficiency → recurrent respiratory and GI infections.
 
 ## Pathology
 

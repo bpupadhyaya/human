@@ -31,6 +31,9 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Mesangial IgA immune complexes → lectin pathway C4 deposition → C3 → alternative pathway amplification → MAC; iptacopan (factor B inhibitor, APPLAUSE-IgAN 2024) reduces proteinuria 44% vs. 9% placebo; complement activation in IgA nephropathy is a validated therapeutic target."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Aberrant O-glycosylation of IgA1 hinge region → galactose-deficient IgA1 (Gd-IgA1) → anti-Gd-IgA1 IgG autoantibodies → immune complexes → mesangial deposition → complement activation → IgAN; Gd-IgA1 from mucosal plasma cells is the primary disease-causing immunoglobulin in IgAN."
 ---
 
 # IgA Nephropathy
@@ -116,6 +119,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Mesangial IgA immune complex deposition → complement + cytokine activation → CCL2 from mesangial cells + tubular epithelial cells → CCR2+ monocyte/macrophage infiltration → tubulointerstitial inflammation → fibrosis → CKD progression; urine CCL2 tracks IgAN disease activity.
 - `connects-to` → **[CKD](../ckd/README.md)** — IgA nephropathy is a leading cause of CKD and ESRD in young adults; proteinuria >1 g/day + HTN + GFR decline = high-risk for CKD progression; 20-40% reach ESRD within 20 years; SGLT2 inhibitors (dapagliflozin) and RAS blockade slow IgAN-associated CKD progression.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Mesangial IgA immune complexes → lectin pathway C4 deposition → C3 → alternative pathway amplification → MAC; iptacopan (factor B inhibitor, APPLAUSE-IgAN 2024) reduces proteinuria 44% vs. 9% placebo; complement activation in IgA nephropathy is a validated therapeutic target.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Aberrant O-glycosylation of IgA1 hinge region → galactose-deficient IgA1 (Gd-IgA1) → anti-Gd-IgA1 IgG autoantibodies → immune complexes → mesangial deposition → complement activation → IgAN; Gd-IgA1 from mucosal plasma cells is the primary disease-causing immunoglobulin in IgAN.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^barratt-2017-igan-review]: Barratt J, Feehally J. IgA nephropathy. *J Am Soc Nephrol.* 2005;16(7):2088-2097. [doi:10.1681/ASN.2005020134](https://doi.org/10.1681/ASN.2005020134) · [PubMed 15987751](https://pubmed.ncbi.nlm.nih.gov/15987751/)
 [^heerspink-2023-sparsentan-protect]: Heerspink HJL, Radhakrishnan J, Alpers CE, et al. Sparsentan in patients with IgA nephropathy: a prespecified interim analysis from a randomised, double-blind, active-controlled clinical trial. *Lancet.* 2023;401(10388):1584-1594. [doi:10.1016/S0140-6736(23)00569-X](https://doi.org/10.1016/S0140-6736(23)00569-X) · [PubMed 37062299](https://pubmed.ncbi.nlm.nih.gov/37062299/)
