@@ -117,6 +117,9 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: modulates
     note: "Pineal gland serotonin (from TPH1) is directly converted to melatonin via AANAT (dark-activated by NE/β1/cAMP) then ASMT; serotonin daytime availability constrains nocturnal melatonin production; TPH inhibition or tryptophan depletion reduces melatonin synthesis capacity."
+  - target: 01-human/03-molecular/prolactin
+    relation: modulates
+    note: "5-HT2A and 5-HT2B receptors on pituitary lactotrophs stimulate prolactin release; SSRI-induced serotonin excess causes galactorrhea in 2-5% of users; 5-HT-mediated prolactin elevation is a pharmacodynamic marker of brain serotonin activity."
 ---
 
 # Serotonin
@@ -248,6 +251,7 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — descending serotonergic inhibition from raphe to spinal dorsal horn is impaired in neuropathic pain states; duloxetine (SNRI) restores 5-HT/NE descending inhibitory tone and is FDA-approved for diabetic peripheral neuropathy; 5-HT3 receptors on dorsal horn neurons facilitate pain transmission and are not a useful analgesic target.
 - `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — SSRIs and SNRIs suppress cataplexy via monoamine reuptake inhibition reducing pontine REM-on circuit activity; clomipramine (potent SERT inhibitor) is the most effective anticataplectic antidepressant; abrupt discontinuation can precipitate status cataplecticus; sodium oxybate consolidates sleep partly via complex serotonergic mechanisms.
 - `modulates` → **[Melatonin](../melatonin/README.md)** — pineal serotonin (synthesized by TPH1) is the direct substrate for melatonin synthesis: AANAT (dark-activated via NE/β1/cAMP from the superior cervical ganglion) converts serotonin → N-acetylserotonin; ASMT methylates it to melatonin; daytime serotonin availability constrains nocturnal melatonin production — tryptophan depletion and TPH inhibition reduce melatonin output.
+- `modulates` → **[Prolactin](../prolactin/README.md)** — 5-HT2A and 5-HT2B receptors on pituitary lactotrophs stimulate prolactin release; SSRI-induced serotonin excess causes galactorrhea in 2-5% of users; 5-HT-mediated prolactin elevation is a pharmacodynamic marker of CNS serotonin activity, used in neuroendocrine challenge tests.
 
 ## Pathology
 

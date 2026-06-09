@@ -118,6 +118,9 @@ cross_links:
   - target: 01-human/03-molecular/npy
     relation: connects-to
     note: "NPY in ARC inhibits POMC neurons competing with melanocortin signaling; Y1R on VTA modulates dopamine firing; NPY-AgRP coexpression shifts mesolimbic dopamine toward caloric reward; Y1R activation attenuates cocaine-conditioned place preference in rodents."
+  - target: 01-human/03-molecular/prolactin
+    relation: modulates
+    note: "TIDA neurons in arcuate nucleus tonically inhibit pituitary lactotroph prolactin secretion via D2R/Gi — the dominant regulatory brake; D2 agonists (cabergoline) treat prolactinoma; D2 antagonist antipsychotics (risperidone, haloperidol) cause hyperprolactinemia."
 ---
 
 # Dopamine
@@ -229,6 +232,7 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `connects-to` → **[Binge Eating Disorder](../../07-system/binge-eating-disorder/README.md)** — binge eating triggers VTA-NAcc dopamine surge via food reward; D2R hypofunction on PET in BED parallels substance use disorders and gambling disorder; lisdexamfetamine (Vyvanse, FDA-approved for BED) normalizes dopaminergic salience attribution via DAT/NET reuptake inhibition.
 - `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — modafinil, first-line for narcolepsy EDS, inhibits DAT → ↑synaptic dopamine → wakefulness; methylphenidate and amphetamines block/reverse DAT for refractory cases; REM-off VTA dopaminergic neurons are dysregulated in narcolepsy contributing to inappropriate REM intrusions and cataplexy.
 - `connects-to` → **[NPY](../npy/README.md)** — NPY in ARC inhibits POMC neurons competing with melanocortin signaling; Y1R on VTA modulates dopamine firing; NPY-AgRP coexpression shifts mesolimbic dopamine toward caloric reward; Y1R activation attenuates cocaine-conditioned place preference in rodents.
+- `modulates` → **[Prolactin](../prolactin/README.md)** — TIDA neurons in the arcuate nucleus tonically suppress pituitary lactotroph prolactin secretion via D2R/Gi — the dominant inhibitory brake; D2 agonists (cabergoline) treat prolactinoma; D2 antagonist antipsychotics (risperidone, haloperidol) cause hyperprolactinemia → galactorrhea, sexual dysfunction, bone loss.
 
 ## Pathology
 

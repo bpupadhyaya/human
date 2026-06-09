@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "Schizophrenia involves enlarged ventricles, reduced gray matter in DLPFC, superior temporal gyrus, and hippocampus; functional dysconnectivity between PFC and temporal/limbic regions on fMRI; PV interneuron density is reduced in DLPFC and hippocampus post-mortem."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Antipsychotic D2 blockade at the pituitary tuberoinfundibular pathway removes TIDA inhibition → hyperprolactinemia; risperidone/haloperidol cause greatest elevation; galactorrhea, sexual dysfunction, and bone loss are key non-adherence drivers in schizophrenia."
 ---
 
 # Schizophrenia
@@ -215,6 +218,8 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Serotonin](../../../03-molecular/serotonin/README.md)** — 5-HT2A blockade in PFC by atypical antipsychotics (clozapine, olanzapine, risperidone) enhances dopaminergic output; 5-HT2A agonism by hallucinogens (LSD, psilocybin) models positive symptoms; serotonin-dopamine interaction shapes atypical antipsychotic efficacy.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — Schizophrenia involves enlarged ventricles, reduced gray matter in DLPFC, superior temporal gyrus, and hippocampus; functional dysconnectivity between PFC and temporal/limbic regions on fMRI; PV interneuron density is reduced in DLPFC and hippocampus post-mortem.
+
+- `connects-to` → **[Prolactin](../../../03-molecular/prolactin/README.md)** — antipsychotic D2 blockade at the pituitary tuberoinfundibular pathway removes TIDA inhibition → hyperprolactinemia; risperidone causes greatest elevation (45-100 ng/mL); galactorrhea, sexual dysfunction, and osteoporosis are key drivers of medication non-adherence in schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
