@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulates
     note: "Cardiac mast cells (perivascular MCTC) degranulate in MI/reperfusion → histamine → coronary vasoconstriction; chymase generates local Ang II → vasoconstriction; LTC4/LTD4 → coronary spasm in Kounis syndrome."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "Mast cells are a secondary IL-31 source in inflammatory skin diseases; IgE-mediated mast cell activation → IL-31 release; mast cell IL-31 sustains the itch-scratch cycle; tryptase activates PAR-2 on sensory neurons, synergizing with IL-31/IL-31RA itch signaling in AD."
 ---
 
 # Mast Cell
@@ -107,6 +110,9 @@ HSC → CMP → basophil-mast cell progenitor (BMCP, Kit+FcεRI−/low) → comm
 - **Modulates T-helper-cell [^alberts-mol-cell-biology]:** Mast cell-derived IL-4, IL-13, and PGD₂ drive Th2 polarisation and ILC2 activation; degranulation products recruit Th2 cells to mucosal sites; IL-4 promotes B cell IgE class switching in early sensitisation.
 - **Modulates nervous-system [^guyton-hall]:** Mast cells lie anatomically adjacent to sensory nerves; tryptase activates PAR-2 on C-fibres → itch/pain amplification; neuropeptides (substance P, CGRP) activate MRGPRX2 → degranulation; mast cell-neuron cross-talk drives IBS, rosacea, and fibromyalgia.
 - **Modulates cardiovascular-system [^guyton-hall]:** Cardiac mast cells (perivascular MCTC) degranulate in MI/reperfusion → histamine → coronary vasoconstriction; chymase generates local Ang II → vasoconstriction; LTC₄/LTD₄ → coronary spasm in Kounis syndrome (allergic MI).
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Mast cells are a secondary IL-31 source in inflammatory skin diseases; IgE-mediated mast cell activation → IL-31 release; mast cell IL-31 sustains the itch-scratch cycle; tryptase activates PAR-2 on sensory neurons, synergizing with IL-31/IL-31RA itch signaling in AD.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 ## Pathology
 

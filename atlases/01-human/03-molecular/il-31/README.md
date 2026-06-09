@@ -18,6 +18,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "IL-4 promotes Th2 differentiation and IL-31 production; IL-4 + IL-13 downregulate FLG in keratinocytes → barrier disruption → sensitization to IL-31 signaling; dupilumab (anti-IL-4Rα) indirectly reduces IL-31 by suppressing Th2 environment driving IL-31 production."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "IL-31 is predominantly produced by activated Th2 cells; GATA-3 drives IL-31 transcription; Th2-derived IL-31 is the primary driver of AD and PN itch via IL-31RA on sensory DRG neurons; nemolizumab (anti-IL-31RA) targets this Th2-to-nerve pruritic signal."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells are a secondary IL-31 source in inflammatory skin diseases; IgE-mediated mast cell activation → IL-31 release; mast cell IL-31 sustains the itch-scratch cycle; tryptase activates PAR-2 on sensory neurons, synergizing with IL-31/IL-31RA itch signaling in AD."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "IL-31 contributes to pruritus in psoriasis despite the Th17 cytokine environment; psoriatic skin ILC2 cells produce IL-31; IL-31 correlates with itch VAS independently of PASI; JAK inhibitors (deucravacitinib, upadacitinib) reduce psoriatic inflammation and IL-31-mediated itch."
 sources:
   - id: dillon-2004-il-31
     type: peer-reviewed
@@ -111,11 +120,14 @@ IL-31 signals through a heterodimeric receptor complex composed of **IL-31RA** (
 
 ## Connections
 
-IL-31 is the dominant itch cytokine in AD; elevated in lesional skin and serum correlating with pruritus VAS; IL-31 from Th2 cells/mast cells → IL-31RA on sensory DRG neurons → JAK1 → TRPV1/TRPA1 sensitization; nemolizumab (anti-IL-31RA) reduces AD itch 60% vs. 20% placebo.
+- `connects-to` → **[Atopic Dermatitis](../../07-system/atopic-dermatitis/README.md)** — IL-31 is the dominant itch cytokine in AD; elevated in lesional skin and serum correlating with pruritus VAS; IL-31 from Th2 cells/mast cells → IL-31RA on sensory DRG neurons → JAK1 → TRPV1/TRPA1 sensitization; nemolizumab (anti-IL-31RA) reduces AD itch 60% vs. 20% placebo.
+- `connects-to` → **[Prurigo Nodularis](../../07-system/prurigo-nodularis/README.md)** — IL-31 is a key mediator of PN pruritus; mast cells and Th2 cells in PN nodules produce IL-31 → sensory nerve IL-31RA → itch-scratch cycle; nemolizumab 60 mg SC Q4W reduced IGA success 26% vs. 0% placebo at 16 weeks (OLYMPIA 2, FDA approved Aug 2023).
+- `connects-to` → **[IL-4](../il-4/README.md)** — IL-4 promotes Th2 differentiation and IL-31 production; IL-4 + IL-13 downregulate FLG in keratinocytes → barrier disruption → sensitization to IL-31 signaling; dupilumab (anti-IL-4Rα) indirectly reduces IL-31 by suppressing Th2 environment driving IL-31 production.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — IL-31 is predominantly produced by activated Th2 cells; GATA-3 drives IL-31 transcription; Th2-derived IL-31 is the primary driver of AD and PN itch via IL-31RA on sensory DRG neurons; nemolizumab (anti-IL-31RA) targets this Th2-to-nerve pruritic signal.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells are a secondary IL-31 source in inflammatory skin diseases; IgE-mediated mast cell activation → IL-31 release; mast cell IL-31 sustains the itch-scratch cycle; tryptase activates PAR-2 on sensory neurons, synergizing with IL-31/IL-31RA itch signaling in AD.
+- `connects-to` → **[Psoriasis](../../07-system/psoriasis/README.md)** — IL-31 contributes to pruritus in psoriasis despite the Th17 cytokine environment; psoriatic skin ILC2 cells produce IL-31; IL-31 correlates with itch VAS independently of PASI; JAK inhibitors (deucravacitinib, upadacitinib) reduce psoriatic inflammation and IL-31-mediated itch.
 
-IL-31 is a key mediator of PN pruritus; mast cells and Th2 cells in PN nodules produce IL-31 → sensory nerve IL-31RA → itch-scratch cycle; nemolizumab 60 mg SC Q4W reduced IGA success 26% vs. 0% placebo at 16 weeks (OLYMPIA 2, FDA approved Aug 2023).
-
-IL-4 promotes Th2 differentiation and IL-31 production; IL-4 + IL-13 downregulate FLG in keratinocytes → barrier disruption → sensitization to IL-31 signaling; dupilumab (anti-IL-4Rα) indirectly reduces IL-31 by suppressing Th2 environment driving IL-31 production.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^dillon-2004-il-31]: Dillon SR, Sprecher C, Hammond A, et al. Interleukin 31, a cytokine produced by activated T cells, induces dermatitis in mice. *Nat Immunol.* 2004;5(7):752-760. [doi:10.1038/ni1084](https://doi.org/10.1038/ni1084) · [PubMed 15184896](https://pubmed.ncbi.nlm.nih.gov/15184896/)
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)

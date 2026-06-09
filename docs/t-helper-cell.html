@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CD4+ T helper cell — master orchestrator of adaptive immunity. Activated by pMHC-II on dendritic cells; differentiates into Th1, Th2, Th17, Tfh, and Treg subsets. Tfh cells drive germinal center reactions and durable antibody production.">
+  <meta name="description" content="CD4+ T lymphocyte that orchestrates adaptive immunity. Activated by pMHC-II on dendritic cells, differentiates into Th1/Th2/Th17/Tfh/Treg subsets. Tfh cells dri">
   <meta property="og:title" content="T Helper Cell — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>T Helper Cell — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #2563eb;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,49 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(37,99,235,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #1d4ed8, #1e3a8a); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-    .detail-section ol, .detail-section ul { padding-left: 1.4rem; color: var(--fg-soft); font-size: 0.95rem; line-height: 1.7; }
-    .detail-section li { margin-bottom: 0.3rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -99,8 +108,8 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
-        <a href="immune-system.html">Immune System</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -110,206 +119,78 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
     <h1>T Helper Cell</h1>
-    <p class="tagline">The master coordinator of adaptive immunity — the CD4+ lymphocyte that decides the character, magnitude, and duration of virtually every immune response.</p>
-    <p class="subtagline">~300 million naïve CD4+ T cells patrol the periphery. Depleted below 200/µL by HIV-1, all adaptive immunity collapses. Driven by cytokine milieu into Th1, Th2, Th17, Tfh, or Treg fates that shape the nature of protection.</p>
+    <p class="tagline">CD4+ T lymphocyte that orchestrates adaptive immunity. Activated by pMHC-II on dendritic cells, differentiates into Th1/Th2/Th17/Tfh/Treg subsets. Tfh cells drive germinal center reactions and durable antibody production.</p>
+    <p class="aliases">Also known as: CD4+ T cell, CD4 T lymphocyte, T helper lymphocyte, Tfh cell, Th1 cell, Th2 cell, Th17 cell</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">0.4–1.1&thinsp;&times;&thinsp;10⁹/L</span><span class="stat-label">Blood concentration</span></div>
-      <div class="stat"><span class="stat-num">5 effector subsets</span><span class="stat-label">Th1 / Th2 / Th17 / Tfh / Treg</span></div>
-      <div class="stat"><span class="stat-num">10³–10⁴×</span><span class="stat-label">Clonal expansion</span></div>
-      <div class="stat"><span class="stat-num">200/µL</span><span class="stat-label">AIDS threshold (HIV CD4 count)</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One / Scale 04 &middot; t-helper-cell</div>
-        <h2>T Helper Cell (CD4+)</h2>
-        <p class="summary">CD4+ T helper cells orchestrate adaptive immunity: Tfh cells drive germinal center B cell help and durable antibody; Th1 activates macrophages for intracellular pathogens; Th2 promotes IgE and anti-parasite responses; Th17 mobilizes neutrophils at mucosal barriers; Tregs enforce tolerance. Three signals required: TCR:pMHC-II, CD28:CD80/86, and APC-derived cytokines. Without all three, T cells anergize or die.</p>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">t-helper-cell</div>
+        <h2>T Helper Cell</h2>
+        <p class="summary">CD4+ T lymphocyte that orchestrates adaptive immunity. Activated by pMHC-II on dendritic cells, differentiates into Th1/Th2/Th17/Tfh/Treg subsets. Tfh cells drive germinal center reactions and durable antibody production.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The CD4+ T helper cell is the master orchestrator of adaptive immunity — the lymphocyte subset that decides the character, magnitude, and duration of nearly every immune response. Named for their role in "helping" other immune cells, T helper cells provide the cognate signals essential for B cell class switching and affinity maturation, CD8+ T cell activation, macrophage polarization, and the establishment of immunological memory.</p>
-          <p>CD4+ T cells recognize antigen <strong>exclusively as peptide fragments presented on MHC class II</strong> — expressed only on professional antigen-presenting cells (dendritic cells, B cells, macrophages). This MHC-II restriction means T helper cells respond to extracellular pathogens and protein antigens, and are the primary responders to vaccine antigens delivered to the lymph node.</p>
-          <p>The importance of CD4+ T cells to vaccine-elicited immunity is demonstrated by HIV-1 infection: progressive CD4+ T cell depletion by a virus that preferentially infects these cells leads to AIDS — total collapse of both humoral and cellular adaptive immunity.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure — Surface Markers</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Marker</th><th>Expression</th><th>Function / Notes</th></tr>
-            <tr><td>CD4</td><td>Constitutive</td><td>Co-receptor for MHC-II β2 domain; carries Lck kinase; HIV-1 entry receptor (with CCR5/CXCR4)</td></tr>
-            <tr><td>TCRαβ</td><td>Constitutive</td><td>Antigen receptor; clonotypic; recognizes pMHC-II complex</td></tr>
-            <tr><td>CD3 (γδεζ)</td><td>Constitutive</td><td>TCR signaling complex; ζ chain bears ITAMs</td></tr>
-            <tr><td>CD28</td><td>Naïve + memory</td><td>Co-stimulatory receptor; binds CD80/86 on APC; prevents anergy; PI3K → Akt → NF-κB</td></tr>
-            <tr><td>CD45RA</td><td>Naïve</td><td>Isoform switch to CD45RO upon memory formation</td></tr>
-            <tr><td>CCR7</td><td>Naïve + central memory</td><td>Lymph-node homing; binds CCL19/21 in HEVs</td></tr>
-            <tr><td>CXCR5</td><td>Tfh subset</td><td>Follicle-homing receptor; binds CXCL13 toward B cell follicles</td></tr>
-            <tr><td>PD-1 (CD279)</td><td>Tfh + exhausted</td><td>Inhibitory checkpoint; ligands PD-L1/L2; anti-PD-1 therapy target</td></tr>
-            <tr><td>CD40L (CD154)</td><td>Activated Tfh</td><td>Obligatory B cell activating signal via CD40; drives class-switch recombination</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>t-helper-cell</td></tr>
+            <tr><td>Name</td><td>T Helper Cell</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Three-Signal Activation</h3>
-          <div class="circuit-diagram">
-<pre>
-  Mature DC in lymph node (pMHC-II + CD80/86 + cytokines)
-         │
-         ├──► Signal 1: TCR:CD3 + CD4 binds cognate pMHC-II
-         │    CD4 brings Lck → ITAM phosphorylation (CD3ζ)
-         │    → ZAP-70 recruitment → LAT/SLP-76 scaffold
-         │    → PLCγ1 → IP₃ (ER Ca²⁺ release) + DAG (PKCθ)
-         │    → NFAT activation (calcineurin)
-         │    → NF-κB activation
-         │
-         ├──► Signal 2: CD28 binds CD80/86 (B7-1/B7-2) on APC
-         │    → PI3K → Akt → NF-κB + AP-1 amplification
-         │    → IL-2 production (autocrine proliferation)
-         │    Missing Signal 2 → anergy (CTLA-4 wins, no Akt)
-         │
-         └──► Signal 3: APC-derived cytokines
-              determine effector subset fate (Th1/Th2/Th17/Tfh/Treg)
-
-         All 3 signals → clonal expansion (10³–10⁴×, days 3–10)
-         → effector T cells flood bloodstream and tissues
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Th0 Subset Differentiation Diagram</h3>
-          <div class="circuit-diagram">
-<pre>
-                   Naive CD4+ (Th0)
-                   activated by DC
-                         │
-       ┌─────────────────┼─────────────────────┐
-       │                 │                     │
-  IL-12 + IFN-γ         IL-4               TGF-β + IL-6
-       ▼                 ▼                     ▼
-     Th1               Th2                   Th17
-   (T-bet)           (GATA-3)              (RORγt)
-  IFN-γ, TNF        IL-4,IL-5,IL-13    IL-17A,IL-17F,IL-22
-  Macrophage         IgE class switch   Neutrophil recruit
-  activation         Eosinophil act.    Mucosal defense
-  Anti-intracellular Anti-helminth      Autoimmunity risk
-       │
-       │  IL-6 + IL-21 + ICOS-L           TGF-β + IL-2
-       ▼                                      ▼
-      Tfh                                   Treg
-    (Bcl-6)                               (FoxP3)
-  IL-21, CXCL13                        IL-10, TGF-β
-  CXCR5 upregulated                    CTLA-4 high
-  GC entry → B cell help               Peripheral tolerance
-  CD40L→CSR + affinity mat.            Suppress Teff, Tfr role
-</pre>
-          </div>
-          <table class="data-table" style="margin-top:1rem;">
-            <tr><th>Subset</th><th>Master TF</th><th>Inducing cytokines</th><th>Signature output</th><th>Primary function</th></tr>
-            <tr><td>Th1</td><td>T-bet</td><td>IL-12, IFN-γ</td><td>IFN-γ, TNF, LT-α</td><td>Macrophage activation; intracellular pathogen clearance; anti-tumor</td></tr>
-            <tr><td>Th2</td><td>GATA-3</td><td>IL-4</td><td>IL-4, IL-5, IL-13</td><td>IgE class switch; eosinophil activation; anti-helminth; allergy</td></tr>
-            <tr><td>Th17</td><td>RORγt</td><td>TGF-β + IL-6, IL-23</td><td>IL-17A, IL-17F, IL-22</td><td>Neutrophil recruitment; mucosal barrier defense; autoimmunity</td></tr>
-            <tr><td>Tfh</td><td>Bcl-6</td><td>IL-6, IL-21, ICOS-L</td><td>IL-21, IL-4, CXCL13</td><td>Germinal center B cell help; antibody class switching and affinity maturation</td></tr>
-            <tr><td>Treg</td><td>FoxP3</td><td>TGF-β, IL-2</td><td>IL-10, TGF-β</td><td>Immune suppression; self-tolerance; peripheral tolerance</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Lifecycle / Differentiation — Thymic Development</h3>
-          <div class="circuit-diagram">
-<pre>
-  Bone marrow HSC → CLP → thymus entry (ETP, CD44+CD25−)
-         │
-  DN stages: DN1 → DN2 → DN3 (TCR β-chain recombination, RAG1/2)
-  β-selection (pre-TCR signaling) → proliferation → DN4
-         │
-  Double-positive (DP): CD4+CD8+ thymocytes
-  TCRα recombination → complete αβ TCR expression
-         │
-  Positive selection (cortical TECs — cTECs):
-  MHC-II binding → CD4 SP fate (Thpok/GATA-3 drive)
-  MHC-I binding → CD8 SP fate
-  No binding → death by neglect
-         │
-  Negative selection (medullary mTECs, AIRE):
-  High self-reactivity → clonal deletion
-  Intermediate self-reactivity + TGF-β/IL-2 → FoxP3+ tTreg
-         │
-  Single-positive CD4+CD8− naïve T cell
-  S1PR1:S1P gradient drives thymic egress
-         │
-  Periphery: homeostatic survival by IL-7 + tonic TCR signals
-  Naïve half-life months; slow homeostatic proliferation
-  Pool ~300 million cells in adult human
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;"><strong>Memory formation:</strong> After primary response, ~90–95% of effector T helper cells die (contraction phase). Survivors become long-lived memory T cells: central memory (CCR7+CD45RO+, lymph-node resident) or effector memory (CCR7−CD45RO+, patrol tissues). Memory CD4+ T cells respond within hours of pathogen re-encounter and persist for decades.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>HIV/AIDS — CD4+ T cell depletion</h4>
-            <p>HIV-1 preferentially infects and depletes CD4+ T helper cells via CCR5/CXCR4 co-receptors on CD4+ cells. Progressive depletion below 200 cells/µL defines AIDS; opportunistic infections (PCP, CMV retinitis, cryptococcal meningitis, MAC) become lethal. Without Tfh, germinal centers collapse and antibody responses fail. Antiretroviral therapy (ART) fully reconstitutes CD4+ counts and prevents AIDS progression.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Rheumatoid Arthritis — Th17 dysregulation</h4>
-            <p>Th17 cells accumulate in the synovium of RA joints, producing IL-17A that drives neutrophil recruitment and macrophage IL-1β/TNF production, causing cartilage and bone destruction. HLA-DRB1 shared epitope is the dominant genetic risk factor — antigen-specific CD4+ T cell activation in pathogenesis. Anti-IL-17A (secukinumab), anti-IL-6R (tocilizumab), and anti-TNF biologics are effective.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Allergic asthma and atopy — Th2 excess</h4>
-            <p>Th2-skewed CD4+ T cell responses to inhaled allergens produce IL-4 (drives IgE class switching in B cells), IL-5 (eosinophil survival), and IL-13 (goblet cell hyperplasia, mucus secretion, airway smooth muscle hyperresponsiveness). Dupilumab (anti-IL-4Rα, blocking IL-4 and IL-13 signaling) is highly effective in moderate-severe asthma and atopic dermatitis.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>COVID-19 — CD4+ T cell lymphopenia</h4>
-            <p>SARS-CoV-2 causes lymphopenia including CD4+ T cell depletion; viral RNA has been detected in CD4+ T cells from severe COVID-19 patients, potentially contributing to immunodysregulation. Inadequate early Tfh response correlates with poorer antibody maturation and worse outcomes. Defective IFN-γ-producing Th1 responses contribute to impaired macrophage activation.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Memory T Helper Cells — Subsets and Persistence</h3>
-          <p>After the primary response, ~90–95% of effector T helper cells die (contraction). Survivors become long-lived memory T cells that persist for decades:</p>
-          <table class="data-table">
-            <tr><th>Memory subset</th><th>Markers</th><th>Location</th><th>Properties</th></tr>
-            <tr><td>Central memory (T<sub>CM</sub>)</td><td>CCR7+CD45RO+CD62Lhi</td><td>Lymph nodes, spleen, blood</td><td>Best proliferative potential; slow recall but massive expansion; IL-7 + IL-15 maintain; superior long-term memory</td></tr>
-            <tr><td>Effector memory (T<sub>EM</sub>)</td><td>CCR7−CD45RO+CX3CR1+</td><td>Blood, spleen, peripheral tissues</td><td>Higher immediate effector function; faster cytokine production on restimulation; patrol non-lymphoid tissues</td></tr>
-            <tr><td>Tissue-resident memory (T<sub>RM</sub>)</td><td>CD69+CD103+</td><td>Lung, skin, gut, liver, brain (permanent residents)</td><td>First-line defense on local re-challenge; no recirculation; IL-15 + TGF-β maintain; critical for mucosal protection (relevant to intranasal vaccines)</td></tr>
-            <tr><td>Follicular memory (T<sub>FM</sub>h)</td><td>CXCR5+PD-1+BCL-6lo</td><td>Lymph node follicular mantle zone</td><td>Memory Tfh; rapidly reactivated on re-challenge to seed secondary GC reactions with memory B cells; key for anamnestic antibody responses</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;"><strong>Memory longevity:</strong> Mathematical modeling of antibody decay kinetics and memory T cell homeostasis suggests that vaccine-elicited central memory T helper cells can persist for 50–75 years in the absence of further antigen stimulation, maintained by slow homeostatic proliferation driven by IL-7 and tonic TCR:self-pMHC-II contacts. This is the cellular basis for life-long protection conferred by measles, yellow fever, and smallpox vaccines.</p>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="immune-system.html"><span class="rel">Part of</span>immune-system</a>
-            <a class="conn-pill" href="dendritic-cell.html"><span class="rel">Primed by</span>dendritic-cell</a>
-            <a class="conn-pill" href="mhc-class-ii.html"><span class="rel">Restricted to</span>MHC-II</a>
-            <a class="conn-pill" href="b-cell.html"><span class="rel">Helps</span>b-cell (Tfh arm)</a>
-            <a class="conn-pill" href="regulatory-t-cell.html"><span class="rel">Suppressed by</span>regulatory-t-cell</a>
-            <a class="conn-pill" href="t-cytotoxic-cell.html"><span class="rel">Licenses</span>t-cytotoxic-cell</a>
-            <a class="conn-pill" href="thymus.html"><span class="rel">Developed in</span>thymus</a>
-            <a class="conn-pill" href="mast-cell.html"><span class="rel">Modulated by</span>mast-cell</a>
-            <a class="conn-pill" href="il-6.html"><span class="rel">Signals via</span>IL-6</a>
-            <a class="conn-pill damaged" href="hiv-1.html"><span class="rel">Depleted by</span>HIV-1</a>
-            <a class="conn-pill damaged" href="sars-cov-2.html"><span class="rel">Targeted by</span>SARS-CoV-2</a>
-            <a class="conn-pill damaged" href="measles-virus.html"><span class="rel">Suppressed by</span>measles-virus</a>
+            <a class="conn-pill part" href="immune-system.html" title="T helper cells are central coordinators of the adaptive immune response, regulating both cellular and humoral immunity."><span class="rel">part-of</span>Immune System</a>
+            <a class="conn-pill" href="dendritic-cell.html" title="Mature dendritic cells present pMHC-II complexes and co-stimulatory signals that activate naïve CD4+ T cells and determine effector subset differentiation."><span class="rel">modulated-by</span>Dendritic Cell</a>
+            <a class="conn-pill" href="mhc-class-ii.html" title="Peptide:MHC-II complexes on APCs are the essential activating ligand for CD4+ TCR; without pMHC-II engagement, T helper cell activation cannot proceed."><span class="rel">modulated-by</span>Mhc Class Ii</a>
+            <a class="conn-pill" href="b-cell.html" title="Tfh cells in germinal centers provide obligatory help to B cells via CD40L–CD40 interaction and IL-21/IL-4 cytokines, enabling class-switch recombination, somatic hypermutation, and plasma cell differentiation."><span class="rel">modulates</span>B Cell</a>
+            <a class="conn-pill" href="sars-cov-2.html" title="SARS-CoV-2 can infect a subset of CD4+ T cells via ACE2 or CD147; viral RNA has been detected in T cells from severe COVID-19 patients, potentially contributing to lymphopenia and immune dysregulation."><span class="rel">infected-by</span>Sars Cov 2</a>
+            <a class="conn-pill" href="hiv-1.html" title="HIV-1 preferentially depletes CD4+ T helper cells via CCR5/CXCR4-mediated entry; progressive loss below 200 cells/μL defines AIDS and abrogates all T-cell-dependent adaptive immunity."><span class="rel">infected-by</span>Hiv 1</a>
+            <a class="conn-pill damaged" href="hiv-1.html" title="HIV-induced CD4+ T cell depletion occurs via direct cytopathic killing, pyroptosis of bystander cells, immune activation exhaustion, and Nef-mediated MHC-II downregulation impairing antigen presentation."><span class="rel">damaged-by</span>Hiv 1</a>
+            <a class="conn-pill" href="il-6.html" title="Activated CD4+ T helper cells, particularly Th17 precursors, co-produce IL-6 with TGF-β, driving autocrine Th17 differentiation and amplifying local inflammatory circuits."><span class="rel">expresses</span>Il 6</a>
+            <a class="conn-pill" href="natural-killer-cell.html" title="NK cells suppress T helper cell activation through cytotoxic elimination of antigen-presenting dendritic cells and regulatory cytokine secretion."><span class="rel">modulated-by</span>Natural Killer Cell</a>
+            <a class="conn-pill part" href="thymus.html" title="CD4⁺ T helper cells undergo positive selection on MHC class II and negative selection on self-antigens in the thymus; exported as naive CD4⁺ T cells to peripheral lymphoid organs to initiate adaptive immune responses."><span class="rel">part-of</span>Thymus</a>
+            <a class="conn-pill" href="leptin.html" title="Modulated by Leptin."><span class="rel">modulated-by</span>Leptin</a>
+            <a class="conn-pill" href="zinc.html" title="Modulated by Zinc."><span class="rel">modulated-by</span>Zinc</a>
+            <a class="conn-pill" href="regulatory-t-cell.html" title="Modulated by Regulatory T Cell."><span class="rel">modulated-by</span>Regulatory T Cell</a>
+            <a class="conn-pill" href="mast-cell.html" title="Modulated by Mast Cell."><span class="rel">modulated-by</span>Mast Cell</a>
+            <a class="conn-pill" href="measles-virus.html" title="Infected by Measles Virus."><span class="rel">infected-by</span>Measles Virus</a>
+            <a class="conn-pill" href="zinc-dietary.html" title="Modulated by Dietary Zinc."><span class="rel">modulated-by</span>Zinc Dietary</a>
+            <a class="conn-pill" href="il-2.html" title="IL-2 is the primary autocrine/paracrine Th cell growth factor after TCR + CD28 co-stimulation; NFAT drives IL-2 transcription (blocked by calcineurin inhibitors); IL-2 → JAK1/JAK3/STAT5 → cyclin D/BCL-2/BCL-XL → T cell proliferation and survival in immune responses."><span class="rel">modulated-by</span>Il 2</a>
+            <a class="conn-pill" href="calcineurin.html" title="Calcineurin dephosphorylates NFATc1-4 in activated T helper cells → nuclear entry → IL-2, IL-4, IFN-γ, TNF-α transcription; cyclosporine·cyclophilin and tacrolimus·FKBP12 inhibit calcineurin → block T cell cytokine production."><span class="rel">modulated-by</span>Calcineurin</a>
+            <a class="conn-pill" href="il-31.html" title="IL-31 is predominantly produced by activated Th2 cells; GATA-3 drives IL-31 transcription; Th2-derived IL-31 is the primary driver of AD and PN itch via IL-31RA on sensory DRG neurons; nemolizumab (anti-IL-31RA) targets this Th2-to-nerve pruritic signal."><span class="rel">connects-to</span>Il 31</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Zhu J, Paul WE. Heterogeneity and plasticity of T helper cells. <em>Cell Res.</em> 2010;20(1):4-12. <a href="https://doi.org/10.1038/cr.2009.138" target="_blank" rel="noopener">doi:10.1038/cr.2009.138</a></li>
-            <li>Crotty S. Follicular helper CD4 T cells (TFH). <em>Annu Rev Immunol.</em> 2011;29:621-63. <a href="https://doi.org/10.1146/annurev-immunol-031210-101400" target="_blank" rel="noopener">doi:10.1146/annurev-immunol-031210-101400</a></li>
-            <li>Sallusto F, Lanzavecchia A, Araki K, Ahmed R. From vaccines to memory and back. <em>Immunity.</em> 2010;33(4):451-63. <a href="https://doi.org/10.1016/j.immuni.2010.10.008" target="_blank" rel="noopener">doi:10.1016/j.immuni.2010.10.008</a></li>
-            <li>Abbas AK, Lichtman AH, Pillai S. <em>Cellular and Molecular Immunology.</em> 9th ed. Elsevier; 2018.</li>
-            <li>Murphy K, Weaver C. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2017.</li>
+            <li><a href="https://doi.org/10.1038/cr.2009.138" target="_blank" rel="noopener noreferrer">Zhu J, Paul WE. Heterogeneity and plasticity of T helper cells. Cell Res. 2010;20(1):4-12.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20010916/" target="_blank" rel="noopener noreferrer">PubMed 20010916</a></li>
+            <li><a href="https://doi.org/10.1146/annurev-immunol-031210-101400" target="_blank" rel="noopener noreferrer">Crotty S. Follicular helper CD4 T cells (TFH). Annu Rev Immunol. 2011;29:621-63.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21314428/" target="_blank" rel="noopener noreferrer">PubMed 21314428</a></li>
+            <li><a href="https://doi.org/10.1016/j.immuni.2010.10.008" target="_blank" rel="noopener noreferrer">Sallusto F, Lanzavecchia A, Araki K, Ahmed R. From vaccines to memory and back. Immunity. 2010;33(4):451-63.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21029957/" target="_blank" rel="noopener noreferrer">PubMed 21029957</a></li>
+            <li><a href="https://www.elsevier.com/books/cellular-and-molecular-immunology/abbas/978-0-323-52323-3" target="_blank" rel="noopener noreferrer">Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9th ed. Elsevier; 2018.</a></li>
           </ul>
         </div>
 
@@ -321,15 +202,14 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="immune-system.html">Immune System</a>
-      <a href="b-cell.html">B Cell</a>
-      <a href="t-cytotoxic-cell.html">Cytotoxic T Cell</a>
-      <a href="regulatory-t-cell.html">Regulatory T Cell</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
