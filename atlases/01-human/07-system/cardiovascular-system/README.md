@@ -219,6 +219,9 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "SELECT trial (semaglutide 2.4 mg, obesity without T2DM): 20% MACE reduction vs placebo; SUSTAIN-6 and LEADER established GLP-1R agonists as antidiabetic drugs with proven CV benefit; GLP-1R on cardiomyocytes → anti-inflammatory and vasodilatory cardioprotective effects."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Cx43 gap junctions at intercalated discs create the cardiac electrical syncytium; lateralization and downregulation in heart failure → slow conduction and re-entry → VT risk; ischemia acidosis closes channels (protective); reperfusion reopens → Ca²⁺ injury propagation."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -368,6 +371,7 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `modulated-by` → **[Adenosine](../../03-molecular/adenosine/README.md)** — A1R on SA/AV nodes → Gi → ↑IKAch → bradycardia; IV adenosine (6–12 mg, t½ ~10 s) terminates paroxysmal SVT; A2AR on coronary arteries → vasodilation; regadenoson (A2AR agonist) enables pharmacological cardiac stress testing; methylxanthines block adenosine-mediated AV block.
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — romosozumab (anti-sclerostin) ARCH trial: MACE increase vs. alendronate (2.5% vs. 1.9%) → FDA Black Box Warning (avoid within 12 months of MI/stroke); sclerostin in vascular smooth muscle may protect against vascular calcification; elevated sclerostin predicts CV events in dialysis patients.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SELECT trial (semaglutide 2.4 mg, obesity without T2DM): 20% MACE reduction vs placebo; SUSTAIN-6 and LEADER established GLP-1R agonists as antidiabetic drugs with proven CV benefit; GLP-1R on cardiomyocytes → anti-inflammatory and vasodilatory cardioprotective effects.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Cx43 gap junctions at intercalated discs create the cardiac electrical syncytium; lateralization and downregulation in heart failure → slow conduction and re-entry → VT risk; ischemia acidosis closes channels (protective); reperfusion reopens → Ca²⁺ injury propagation.
 
 ## Pathology
 

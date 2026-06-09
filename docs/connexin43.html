@@ -3,190 +3,201 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Connexin-43 (Cx43, GJA1) — cardiac gap junction protein, electrical syncytium, arrhythmia substrate, lateralization in heart failure. Human Engineering Atlas.">
-  <meta property="og:title" content="Connexin-43 — Human Engineering Atlas">
+  <meta name="description" content="Connexin-43 (Cx43, gene GJA1) — primary gap junction protein of ventricular myocardium. Hexameric connexons dock end-to-end at intercalated discs forming ~1.4 n">
+  <meta property="og:title" content="Connexin-43 — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Connexin-43 (Cx43) — Human Engineering</title>
+  <title>Connexin-43 — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .hero{background:linear-gradient(135deg,#fff0f0 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    td code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em;background:var(--bg-3);padding:.1em .4em;border-radius:4px}
-    .pathway-block{background:#0f1a14;color:#a8f0c8;border-radius:var(--radius);padding:1.25rem 1.5rem;font-family:ui-monospace,SFMono-Regular,Menlo,"Courier New",monospace;font-size:.82rem;line-height:1.9;overflow-x:auto;margin:1rem 0}
-    .pathway-block .c{color:#4a7a5e}.pathway-block .hi{color:#ffb86b;font-weight:700}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
-    <div class="nav-links">
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>Connexin-43</h1>
+    <p class="tagline">Connexin-43 (Cx43, gene GJA1) — primary gap junction protein of ventricular myocardium. Hexameric connexons dock end-to-end at intercalated discs forming ~1.4 nS pores, making the myocardium an electrical syncytium for coordinated contraction.</p>
+    <p class="aliases">Also known as: Cx43, GJA1, gap junction alpha-1, connexin 43</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">connexin43</div>
+        <h2>Connexin-43</h2>
+        <p class="summary">Connexin-43 (Cx43, gene GJA1) — primary gap junction protein of ventricular myocardium. Hexameric connexons dock end-to-end at intercalated discs forming ~1.4 nS pores, making the myocardium an electrical syncytium for coordinated contraction.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>connexin43</td></tr>
+            <tr><td>Name</td><td>Connexin-43</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
+            <tr><td>Uniprot</td><td>P17302</td></tr>
+            <tr><td>Gene Symbol</td><td>GJA1</td></tr>
+            <tr><td>Chromosome</td><td>6q22.31</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="cardiomyocyte.html" title="Cx43 is the dominant gap-junction protein of working ventricular and atrial cardiomyocytes, concentrated at the intercalated discs that join adjacent cells end-to-end."><span class="rel">expressed-by</span>Cardiomyocyte</a>
+            <a class="conn-pill" href="myocardium.html" title="Cx43 expression determines the gap-junction density of ventricular myocardium and is the molecular basis of the myocardium's property as an electrical syncytium."><span class="rel">expressed-by</span>Myocardium</a>
+            <a class="conn-pill" href="heart-failure.html" title="Cx43 is down-regulated, dephosphorylated, and lateralized in failing ventricles → reduced electrical coupling → slow conduction → re-entrant VT substrate → sudden cardiac death; Cx43 remodeling precedes QRS widening and correlates with arrhythmia risk in heart failure."><span class="rel">connects-to</span>Heart Failure</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Cx43 gap junctions at intercalated discs make the myocardium an electrical syncytium enabling SA node propagation; Cx43 remodeling in infarction and heart failure creates re-entrant arrhythmic substrates; ischemia acidosis closes Cx43 channels limiting injury spread."><span class="rel">connects-to</span>Cardiovascular System</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1093/cvr/cvn133" target="_blank" rel="noopener noreferrer">Severs NJ, Bruce AF, Dupont E, Rothery S. Remodelling of gap junctions and connexin expression in diseased myocardium. Cardiovasc Res. 2008;80(1):9-19.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18519446/" target="_blank" rel="noopener noreferrer">PubMed 18519446</a></li>
+            <li><a href="https://doi.org/10.1161/01.RES.74.6.1065" target="_blank" rel="noopener noreferrer">Saffitz JE, Kanter HL, Green KG, Tolley TK, Beyer EC. Tissue-specific determinants of anisotropic conduction velocity in canine atrial and ventricular myocardium. Circ Res. 1994;74(6):1065-70.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8187276/" target="_blank" rel="noopener noreferrer">PubMed 8187276</a></li>
+            <li><a href="https://doi.org/10.1080/09687680210139839" target="_blank" rel="noopener noreferrer">Evans WH, Martin PE. Gap junctions: structure and function. Mol Membr Biol. 2002;19(2):121-36.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12126230/" target="_blank" rel="noopener noreferrer">PubMed 12126230</a></li>
+            <li><a href="https://doi.org/10.1016/j.cardiores.2003.11.035" target="_blank" rel="noopener noreferrer">Rohr S. Role of gap junctions in the propagation of the cardiac action potential. Cardiovasc Res. 2004;62(2):309-22.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15094351/" target="_blank" rel="noopener noreferrer">PubMed 15094351</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="cardiomyocyte.html">Cardiomyocyte</a>
-      <a href="myocardium.html">Myocardium</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-  </div>
-</nav>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-<div class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Atlas One · Human · Molecular · UniProt P17302</p>
-    <h1>Connexin-<span>43</span></h1>
-    <p class="hero-lead">Connexin-43 (Cx43, gene <em>GJA1</em>) — the primary gap junction protein of ventricular working myocardium. Six subunits form a hexameric connexon; two connexons dock end-to-end at the intercalated disc forming a ~1.4 nS aqueous pore that makes the myocardium an electrical syncytium. Cx43 density, distribution, and phosphorylation state are the molecular determinants of cardiac conduction velocity, anisotropy, and arrhythmia susceptibility.</p>
-  </div>
-</div>
-
-<div class="meta-strip">
-  <span><strong>Gene:</strong> GJA1 · 6q22.31</span>
-  <span><strong>UniProt:</strong> P17302</span>
-  <span><strong>Aliases:</strong> Cx43, GJA1, gap junction alpha-1</span>
-  <span><strong>Scale:</strong> 03-Molecular</span>
-</div>
-
-<div class="content">
-
-  <div class="section" id="overview">
-    <h2>Overview</h2>
-    <p>Connexin-43 (Cx43), encoded by <code>GJA1</code>, is the <strong>primary gap-junction protein of the ventricular working myocardium</strong> and the molecular structure that makes the heart a functional electrical syncytium. Six Cx43 subunits assemble into a <strong>connexon (hemichannel)</strong> in the plasma membrane; two connexons from adjacent cells dock head-to-head at the intercalated disc to form a complete <strong>gap junction channel</strong> with a single-channel conductance of approximately <strong>1.4 nS</strong>.</p>
-    <p>These gap junction channels are <strong>aqueous pores</strong> (~1.5 nm internal diameter) wide enough to pass ions, metabolites, second messengers (cAMP, IP₃), and small molecules up to ~1,000 Da directly between the cytoplasms of adjacent cardiomyocytes — without traversing the extracellular space. This direct cytoplasmic coupling enables the depolarization wave from the SA node to propagate cell-to-cell across the myocardium at ~0.3–1 m/s in working muscle, ensuring synchronous contraction of billions of cardiomyocytes as a single coordinated unit.</p>
-    <div class="callout"><strong>Lateralization in heart failure:</strong> Cx43 is down-regulated, dephosphorylated, and re-distributed away from intercalated discs ("lateralized") in failing ventricles — reducing electrical coupling, slowing conduction, and creating the substrate for re-entrant arrhythmias.</div>
-  </div>
-
-  <div class="section" id="structure">
-    <h2>Structure</h2>
-    <h3>Connexin Topology (Single Subunit)</h3>
-    <table>
-      <thead><tr><th>Domain</th><th>Topology</th><th>Function</th></tr></thead>
-      <tbody>
-        <tr><td>N-terminus</td><td>Cytoplasmic</td><td>Voltage sensing; contributes to gating</td></tr>
-        <tr><td>TM1–TM4</td><td>4 transmembrane helices</td><td>Membrane anchoring; TM1 and TM2 line the pore</td></tr>
-        <tr><td>ECL1, ECL2</td><td>2 extracellular loops</td><td>Docking interface between two hemichannels; 3 conserved Cys disulfide bonds each ensure specificity</td></tr>
-        <tr><td>Cytoplasmic loop (CL)</td><td>Intracellular between TM2–TM3</td><td>pH and kinase regulation; interacts with C-terminus in gating</td></tr>
-        <tr><td>C-terminus (CT)</td><td>Cytoplasmic; long, disordered</td><td>Primary regulatory domain; phosphorylated at multiple Ser/Tyr sites; interacts with ZO-1, Src, PKC, CK1</td></tr>
-      </tbody>
-    </table>
-
-    <h3>Connexon Assembly and Plaque Formation</h3>
-    <p>Six Cx43 subunits oligomerize in the ER/Golgi to form a <strong>hexameric connexon</strong>, which traffics to the plasma membrane via microtubule-dependent vesicular transport. At the intercalated disc, connexons from adjacent cells dock via ECL1–ECL2 hydrophobic interactions and disulfide bonds, forming a complete gap junction channel.</p>
-    <p>Thousands of channels cluster into <strong>plaques</strong> (0.1–1 µm diameter, visible by freeze-fracture EM as ordered particle arrays). Cx43 plaques co-localize with N-cadherin (adherens junctions) and desmoplakin (desmosomes), forming the mechanically and electrically integrated intercalated disc junction complex.</p>
-  </div>
-
-  <div class="section" id="mechanism">
-    <h2>Mechanism</h2>
-    <h3>Gap Junction Coupling and Impulse Propagation</h3>
-    <div class="pathway-block">
-<span class="c">── Connexin-43 gap junction — impulse propagation ────────</span>
-
-Cell A: Action potential fires
-  │  Nav1.5 opens → Na⁺ influx → Vm depolarizes to +30 mV
-  │  Intracellular [K⁺ and Na⁺] current flows toward gap junction
-  ▼
-<span class="hi">Cx43 gap junction channels</span>  (at intercalated disc)
-  │  ~1.4 nS per channel; thousands of channels per plaque
-  │  Positive charge (net inward current) flows from Cell A → Cell B
-  │  Cell B cytoplasm depolarizes above threshold
-  ▼
-Cell B: Action potential fires
-  │  Wavefront propagates cell-to-cell
-  │  Longitudinal velocity ~0.5–1 m/s (along fiber axis)
-  │  Transverse velocity ~0.15–0.3 m/s (across fiber axis)
-  ▼
-<span class="c">Anisotropy ratio ~3–5x: Cx43 predominantly at END-to-END discs</span>
-<span class="c">Conduction velocity ∝ √(Gj / Rm·Cm): Cx43 density sets Gj</span>
-    </div>
-
-    <h3>Channel Gating</h3>
-    <p>Cx43 channels close (gate) in response to: <strong>low intracellular pH</strong> (acidosis → CT domain intramolecular interaction → channel closure; adaptive response to ischemia that limits injury propagation); <strong>high [Ca²⁺]i</strong> (same CT-mediated gating, Ca²⁺ overload closes channels); and <strong>phosphorylation</strong> (Src kinase and PKC → channel closure; CK1-mediated phosphorylation at Ser residues → channel stabilization). Voltage-dependent gating occurs above ±30 mV transjunctional voltage but is not physiologically limiting during normal cardiac rhythms.</p>
-
-    <h3>Permeability to Signaling Molecules</h3>
-    <p>Beyond ions, Cx43 passes cAMP (synchronizes PKA signaling across cell groups), IP₃ (coordinates Ca²⁺ waves), ATP (paracrine purinergic signaling via hemichannel release), and potentially small RNAs (controversial). This metabolic and signaling coupling is a secondary function that may become important during ischemic preconditioning and remodeling.</p>
-
-    <h3>Pharmacology</h3>
-    <table>
-      <thead><tr><th>Agent / target</th><th>Effect on Cx43</th><th>Clinical context</th></tr></thead>
-      <tbody>
-        <tr><td>Antiarrhythmics (e.g., flecainide at high dose)</td><td>Some non-selective gap junction inhibition</td><td>Contributes to pro-arrhythmic risk in structural heart disease; not a primary Cx43-targeted mechanism</td></tr>
-        <tr><td>AAP10 / ZP123 (gap junction openers, experimental)</td><td>Prevent Cx43 lateralization; restore coupling in ischemia</td><td>Antiarrhythmic effect in animal models; no approved clinical use</td></tr>
-        <tr><td>Peptide Gap 27 (Cx43 mimetic)</td><td>Blocks hemichannel opening without blocking gap junctions</td><td>Cardioprotective in ischemia-reperfusion models</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="section" id="pathology">
-    <h2>Pathology</h2>
-    <table>
-      <thead><tr><th>Disease</th><th>Cx43 mechanism</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Arrhythmia in heart failure</strong></td><td>Cx43 down-regulated, dephosphorylated, and lateralized away from intercalated discs → reduced coupling → slow conduction channels → re-entry substrate for monomorphic VT</td></tr>
-        <tr><td><strong>Ischemia/reperfusion</strong></td><td>Ischemia acidosis closes Cx43 channels acutely (protective, limits injury propagation); reperfusion reopens them — can propagate Ca²⁺ overload to adjacent non-ischemic cells (paradoxically harmful)</td></tr>
-        <tr><td><strong>Infarct border zone VT</strong></td><td>Heterogeneous Cx43 loss in healed infarct scar creates slow-conduction channels — the re-entry circuit substrate for sustained monomorphic VT</td></tr>
-        <tr><td><strong>Oculodentodigital dysplasia (ODDD)</strong></td><td>Autosomal dominant GJA1 mutations cause craniofacial abnormalities + cardiac arrhythmias; demonstrates Cx43's broader developmental roles</td></tr>
-        <tr><td><strong>Hypoplastic left heart syndrome</strong></td><td>GJA1 mutations found in some HLHS cases; Cx43 has roles in cardiac morphogenesis</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="section" id="connections">
-    <h2>Connections</h2>
-    <ul class="conn-list">
-      <li><span class="conn-rel">expressed-by</span><span><a href="cardiomyocyte.html">Cardiomyocyte</a> — Cx43 is the dominant gap junction protein of working ventricular cardiomyocytes, concentrated at intercalated discs</span></li>
-      <li><span class="conn-rel">expressed-by</span><span><a href="myocardium.html">Myocardium</a> — Cx43 expression determines the electrical properties of the tissue: conduction velocity, anisotropy, arrhythmia susceptibility</span></li>
-      <li><span class="conn-rel">enables</span><span><a href="cardiac-conduction-system.html">Cardiac conduction system</a> — impulse delivery from Purkinje fibers to working myocardium requires Cx43-mediated gap junctions for final cell-to-cell spread</span></li>
-    </ul>
-  </div>
-
-  <div class="section references" id="references">
-    <h2>References</h2>
-    <ol>
-      <li>Evans WH, Martin PE. <a href="https://doi.org/10.1080/09687680210139839" target="_blank" rel="noopener">Gap junctions: structure and function.</a> <em>Mol Membr Biol.</em> 2002;19(2):121–36. PubMed 12126230.</li>
-      <li>Severs NJ, Bruce AF, Dupont E, Rothery S. <a href="https://doi.org/10.1093/cvr/cvn133" target="_blank" rel="noopener">Remodelling of gap junctions and connexin expression in diseased myocardium.</a> <em>Cardiovasc Res.</em> 2008;80(1):9–19. PubMed 18519446.</li>
-      <li>Rohr S. <a href="https://doi.org/10.1016/j.cardiores.2003.11.035" target="_blank" rel="noopener">Role of gap junctions in the propagation of the cardiac action potential.</a> <em>Cardiovasc Res.</em> 2004;62(2):309–22. PubMed 15094351.</li>
-      <li>Saffitz JE, Kanter HL, Green KG, Tolley TK, Beyer EC. <a href="https://doi.org/10.1161/01.RES.74.6.1065" target="_blank" rel="noopener">Tissue-specific determinants of anisotropic conduction velocity.</a> <em>Circ Res.</em> 1994;74(6):1065–70. PubMed 8187276.</li>
-    </ol>
-  </div>
-
-</div>
-
-<footer>
-  <p><a href="index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> · bpupadhyaya@gmail.com</p>
-  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</p>
-</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

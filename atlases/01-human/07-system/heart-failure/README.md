@@ -55,6 +55,9 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Periostin from cardiac fibroblasts → integrin αvβ3 on cardiomyocytes and fibroblasts → FAK/PI3K → myofibroblast differentiation and collagen I/III deposition; periostin is required for post-MI cardiac fibrosis (periostin-null mice have impaired scar formation)."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "Ventricular Cx43 is down-regulated and lateralized in heart failure → electrical uncoupling → slow conduction → re-entrant VT substrate → sudden cardiac death; Cx43 dephosphorylation (loss of pSer368) marks gap junction dysfunction and correlates with arrhythmia risk."
 ---
 
 # Heart Failure
@@ -140,6 +143,7 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — elevated FGF23 in CKD activates cardiac FGFR4 independent of αKlotho → HDAC4 nuclear translocation → cardiac hypertrophic gene program → LVH and HF; FGF23 is an independent predictor of incident heart failure and cardiovascular death in CKD and the general population.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — BNP is released by ventricular myocytes under wall stress → NPR-A → cGMP → natriuresis and vasodilation; BNP/NT-proBNP diagnose and prognosticate HF; sacubitril (neprilysin inhibitor in ARNI) raises ANP/BNP → PARADIGM-HF: 20% RRR vs. ACE-I in HFrEF.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 secreted by cardiac macrophages activates cardiac fibroblasts → collagen synthesis → myocardial fibrosis and diastolic dysfunction; serum galectin-3 ≥17.8 ng/mL is an FDA-approved HF biomarker predicting mortality; galectin-3 predicts incident HFpEF.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Ventricular Cx43 is down-regulated and lateralized in heart failure → electrical uncoupling → slow conduction → re-entrant VT substrate → sudden cardiac death; Cx43 dephosphorylation (loss of pSer368) marks gap junction dysfunction and correlates with arrhythmia risk.
 
 ## Pathology
 

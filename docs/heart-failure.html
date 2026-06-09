@@ -3,377 +3,204 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Heart Failure — clinical syndrome, HFrEF/HFpEF classification, neurohormonal pathophysiology, diagnosis, evidence-based treatment. Human Engineering Atlas.">
-  <meta property="og:title" content="Heart Failure — Human Engineering Atlas">
+  <meta name="description" content="Syndrome of impaired cardiac output inadequate for tissue metabolic demands. HFrEF (EF&lt;40%), HFmrEF (40-49%), HFpEF (≥50%). ~64 million affected. GDMT: ACE-I/AR">
+  <meta property="og:title" content="Heart Failure — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Heart Failure — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .hero{background:linear-gradient(135deg,#fff0f0 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="myocardium.html">Myocardium</a>
-      <a href="cardiovascular-system.html">Cardiovascular System</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
+    <h1>Heart Failure</h1>
+    <p class="tagline">Syndrome of impaired cardiac output inadequate for tissue metabolic demands. HFrEF (EF&lt;40%), HFmrEF (40-49%), HFpEF (≥50%). ~64 million affected. GDMT: ACE-I/ARBs, beta-blockers, MRA, SGLT2i, ARNI (sacubitril-valsartan).</p>
+    <p class="aliases">Also known as: heart failure, HF, congestive heart failure, CHF, HFrEF, HFpEF, cardiac failure</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
-</nav>
 
-<div class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Atlas One &middot; Human &middot; Clinical &middot; Cardiovascular</p>
-    <h1>Heart <span>Failure</span></h1>
-    <p class="hero-lead">A clinical syndrome in which the heart cannot pump sufficient blood to meet the body&rsquo;s metabolic needs, or can only do so at abnormally elevated filling pressures. Globally &sim;64 million people are affected &mdash; the leading cause of hospitalization in adults over 65.</p>
-  </div>
-</div>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<div class="meta-strip">
-  <span><strong>Prevalence:</strong> 64 million worldwide</span>
-  <span><strong>5-year mortality:</strong> &sim;50%</span>
-  <span><strong>ICD-10:</strong> I50</span>
-  <span><strong>Status:</strong> Draft &middot; reviewed 2026-06-05</span>
-</div>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">heart-failure</div>
+        <h2>Heart Failure</h2>
+        <p class="summary">Syndrome of impaired cardiac output inadequate for tissue metabolic demands. HFrEF (EF&lt;40%), HFmrEF (40-49%), HFpEF (≥50%). ~64 million affected. GDMT: ACE-I/ARBs, beta-blockers, MRA, SGLT2i, ARNI (sacubitril-valsartan).</p>
+      </div>
+      <div class="detail-body">
 
-<div class="content">
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>heart-failure</td></tr>
+            <tr><td>Name</td><td>Heart Failure</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
+          </table>
+        </div>
 
-  <div class="section" id="overview">
-    <h2>Overview</h2>
-    <p>Heart failure (HF) is a <strong>clinical syndrome</strong>, not a single disease. It results from any structural or functional cardiac abnormality that impairs the ability of the ventricle to fill or eject blood adequately. The common final pathway is an imbalance between cardiac output and peripheral demand, compounded by progressive neurohormonal activation that initially compensates but ultimately accelerates cardiac deterioration.</p>
-    <p>The leading causes of HF in developed countries are <strong>ischemic heart disease</strong> (&sim;50% of cases), systemic hypertension, valvular disease (mitral regurgitation, aortic stenosis), and dilated cardiomyopathy. Less common but important etiologies include tachycardia-induced cardiomyopathy, myocarditis (viral, immune-checkpoint inhibitor), arrhythmogenic right ventricular cardiomyopathy (ARVC), hypertrophic cardiomyopathy (HCM), cardiac amyloidosis (AL and ATTR), alcohol-related cardiomyopathy, cardiotoxic chemotherapy (doxorubicin, trastuzumab), and peripartum cardiomyopathy.</p>
-    <div class="callout"><strong>Classification by ejection fraction</strong> is central to modern management: left ventricular ejection fraction (LVEF) determines both prognosis and which pharmacological therapies carry randomized-trial evidence. The three phenotypes &mdash; HFrEF, HFmrEF, HFpEF &mdash; differ in epidemiology, pathophysiology, and response to treatment.</div>
-    <p>The <strong>NYHA functional classification</strong> (Class I&ndash;IV, based on symptom burden) stratifies severity and guides device decisions. Staging systems (ACC/AHA Stages A&ndash;D) additionally recognize pre-HF states (structural disease without symptoms) and advanced/refractory HF requiring mechanical support or transplantation.</p>
-  </div>
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="heart.html" title="Heart failure is the systemic manifestation of impaired cardiac pump function; the heart is the primary failing organ, with downstream consequences affecting lungs, kidneys, liver, and skeletal muscle."><span class="rel">part-of</span>Heart</a>
+            <a class="conn-pill" href="angiotensin-ii.html" title="Angiotensin II is a central driver of heart failure progression: causes vasoconstriction (increased afterload), aldosterone-mediated sodium retention (volume overload), direct cardiac myocyte hypertrophy, and cardiac fibrosis via TGF-β induction."><span class="rel">modulated-by</span>Angiotensin Ii</a>
+            <a class="conn-pill" href="aldosterone.html" title="Aldosterone promotes sodium and water retention, myocardial fibrosis (collagen I deposition in cardiac interstitium), and potassium/magnesium depletion; MRA (spironolactone/eplerenone) blockade reduces mortality in HFrEF."><span class="rel">modulated-by</span>Aldosterone</a>
+            <a class="conn-pill part" href="cardiomyocyte.html" title="Cardiomyocytes are the primary failing cells in heart failure: adaptive hypertrophy, calcium handling dysfunction (reduced SERCA2a, elevated diastolic Ca2+), sarcomeric disarray, mitochondrial dysfunction, and ultimately apoptosis drive the progression to heart failure."><span class="rel">contains</span>Cardiomyocyte</a>
+            <a class="conn-pill" href="pcsk9.html" title="Elevated LDL-C from PCSK9 GOF mutations accelerates coronary atherosclerosis → MI → ischemic cardiomyopathy and heart failure; PCSK9 inhibitors reduce MI risk in high-risk CVD patients; PCSK9 may also have direct myocardial effects via apoE and apoB receptor pathways."><span class="rel">connects-to</span>Pcsk9</a>
+            <a class="conn-pill" href="sglt2.html" title="DAPA-HF (dapagliflozin, HFrEF): 25% reduction in worsening HF + CV death in T2D and non-T2D; EMPEROR-Reduced (empagliflozin): 25% reduction; SGLT2 inhibitors are the fourth pillar of GDMT, reducing HHF and CV death independent of diabetes status."><span class="rel">connects-to</span>Sglt2</a>
+            <a class="conn-pill" href="fgf23.html" title="Elevated FGF23 in CKD activates cardiac FGFR4 independent of αKlotho → HDAC4 nuclear translocation → cardiac hypertrophic gene program → LVH and HF; FGF23 is an independent predictor of incident heart failure and cardiovascular death in CKD and the general population."><span class="rel">connects-to</span>Fgf23</a>
+            <a class="conn-pill" href="bnp.html" title="BNP is released by ventricular myocytes under wall stress → NPR-A → cGMP → natriuresis and vasodilation; BNP/NT-proBNP diagnose and prognosticate HF; sacubitril (neprilysin inhibitor in ARNI) raises ANP/BNP → PARADIGM-HF: 20% RRR vs. ACE-I in HFrEF."><span class="rel">connects-to</span>Bnp</a>
+            <a class="conn-pill" href="galectin-3.html" title="Galectin-3 secreted by cardiac macrophages activates cardiac fibroblasts → collagen synthesis → myocardial fibrosis and diastolic dysfunction; serum galectin-3 ≥17.8 ng/mL is an FDA-approved HF biomarker predicting mortality; galectin-3 predicts incident HFpEF."><span class="rel">connects-to</span>Galectin 3</a>
+            <a class="conn-pill" href="il-33.html" title="Serum soluble ST2 (sST2, decoy IL-33 receptor) &gt;35 ng/mL predicts HF mortality independent of BNP; IL-33/ST2 signaling in cardiomyocytes is cardioprotective against pressure overload; sST2 is FDA-cleared for HF risk stratification and monitoring response to therapy."><span class="rel">connects-to</span>Il 33</a>
+            <a class="conn-pill" href="periostin.html" title="Periostin from cardiac fibroblasts → integrin αvβ3 on cardiomyocytes and fibroblasts → FAK/PI3K → myofibroblast differentiation and collagen I/III deposition; periostin is required for post-MI cardiac fibrosis (periostin-null mice have impaired scar formation)."><span class="rel">connects-to</span>Periostin</a>
+            <a class="conn-pill" href="connexin43.html" title="Ventricular Cx43 is down-regulated and lateralized in heart failure → electrical uncoupling → slow conduction → re-entrant VT substrate → sudden cardiac death; Cx43 dephosphorylation (loss of pSer368) marks gap junction dysfunction and correlates with arrhythmia risk."><span class="rel">connects-to</span>Connexin43</a>
+          </div>
+        </div>
 
-  <div class="section" id="classification">
-    <h2>Classification by Ejection Fraction</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Phenotype</th>
-          <th>LVEF</th>
-          <th>Typical Etiology</th>
-          <th>Dominant Mechanism</th>
-          <th>Evidence-Based Therapies</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>HFrEF</strong><br><em>Heart failure with reduced EF</em></td>
-          <td>&le;40%</td>
-          <td>Ischemic or dilated cardiomyopathy; post-MI remodeling</td>
-          <td>Systolic dysfunction; RAAS and SNS over-activation; ventricular dilation; &darr;SERCA2a; fetal gene program</td>
-          <td>ACE-I/ARB/ARNi, &beta;-blockers, MRAs, SGLT2 inhibitors, ICD, CRT; mortality benefit well established</td>
-        </tr>
-        <tr>
-          <td><strong>HFmrEF</strong><br><em>Heart failure with mildly reduced EF</em></td>
-          <td>41&ndash;49%</td>
-          <td>Mixed; often evolving from either pole; significant overlap with HFrEF</td>
-          <td>Intermediate; both systolic and diastolic elements present</td>
-          <td>Most evidence from subgroup meta-analyses; SGLT2 inhibitors, ARNi, and MRA showing benefit; treatment similar to HFrEF in practice</td>
-        </tr>
-        <tr>
-          <td><strong>HFpEF</strong><br><em>Heart failure with preserved EF</em></td>
-          <td>&ge;50%</td>
-          <td>Elderly women; hypertension, obesity, AF, type&nbsp;2 diabetes predominate; amyloidosis important sub-phenotype</td>
-          <td>Diastolic dysfunction (impaired relaxation and &uarr;filling pressure); inflammation; microvascular rarefaction; interstitial fibrosis; metabolic co-morbidity</td>
-          <td>Historically limited; SGLT2 inhibitors (EMPEROR-Preserved: empagliflozin) and MRA spironolactone (TOPCAT) now show benefit; co-morbidity management central</td>
-        </tr>
-      </tbody>
-    </table>
-    <p>HFpEF now accounts for &gt;50% of HF presentations in most high-income countries, driven by aging and the obesity-hypertension-diabetes epidemic. Its under-treatment relative to HFrEF is an active area of trial research.</p>
-  </div>
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1056/NEJMoa1409077" target="_blank" rel="noopener noreferrer">McMurray JJV, Packer M, Desai AS, et al. Angiotensin-neprilysin inhibition versus enalapril in heart failure. N Engl J Med. 2014;371(11):993-1004.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener noreferrer">PubMed 25176015</a></li>
+            <li><a href="https://doi.org/10.1093/eurheartj/ehw128" target="_blank" rel="noopener noreferrer">Ponikowski P, Voors AA, Anker SD, et al. 2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2016;37(27):2129-2200.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27206819/" target="_blank" rel="noopener noreferrer">PubMed 27206819</a></li>
+          </ul>
+        </div>
 
-  <div class="section" id="pathophysiology">
-    <h2>Pathophysiology</h2>
+      </div>
+    </div>
+  </main>
 
-    <h3>Axis 1 &mdash; Neurohormonal Activation</h3>
-    <p>Reduced cardiac output is sensed by arterial baroreceptors, triggering two major adaptive&mdash;then maladaptive&mdash;cascades:</p>
-    <p><strong>Sympathetic nervous system (SNS):</strong> Norepinephrine (NE) release acts on cardiac &beta;<sub>1</sub>-adrenergic receptors (&beta;<sub>1</sub>-AR) &rarr; acutely increases heart rate and contractility. Chronically, sustained &beta;<sub>1</sub>-AR stimulation causes: downregulation and uncoupling of &beta;<sub>1</sub>-ARs (reducing their density by 50&ndash;70% in end-stage HF); hyperphosphorylation of ryanodine receptor 2 (RyR2) via CaMKII and PKA &rarr; diastolic SR Ca<sup>2+</sup> leak; pathological hypertrophy through CaMKII-HDAC4-MEF2 transcriptional axes; and elevated circulating NE, which independently predicts mortality (CONSENSUS substudy).</p>
-    <p><strong>Renin&ndash;angiotensin&ndash;aldosterone system (RAAS):</strong> Reduced renal perfusion &rarr; JG cells release renin &rarr; angiotensinogen &rarr; angiotensin I &rarr; ACE &rarr; angiotensin II (Ang II). Ang II acting at AT<sub>1</sub>R mediates: efferent arteriolar vasoconstriction; Na<sup>+</sup> reabsorption; aldosterone secretion from the adrenal cortex (Na<sup>+</sup> retention, K<sup>+</sup> and Mg<sup>2+</sup> loss, direct myocardial fibrosis via MR activation); and pro-fibrotic TGF-&beta; signaling in the heart and kidneys. ADH (vasopressin) release from the posterior pituitary further promotes free water retention &rarr; hyponatremia and congestion.</p>
-    <p>Together these mechanisms produce the clinical hallmarks: fluid retention (elevated filling pressures &rarr; dyspnea, oedema), peripheral vasoconstriction (&uarr;afterload &rarr; further impairs stroke volume), and structural remodeling (dilation, fibrosis, adverse geometry).</p>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-    <h3>Axis 2 &mdash; Cardiomyocyte Molecular Changes</h3>
-    <p>At the cellular level, failing cardiomyocytes exhibit a stereotyped but progressive pattern of dysfunction centered on disrupted Ca<sup>2+</sup> handling:</p>
-    <ul>
-      <li><strong>&darr;SERCA2a expression and activity</strong> (30&ndash;50% reduction in end-stage HF): the SR Ca<sup>2+</sup>-ATPase responsible for active Ca<sup>2+</sup> re-uptake into the SR after systole. Reduced SERCA2a &rarr; slower cytosolic Ca<sup>2+</sup> removal &rarr; diastolic Ca<sup>2+</sup> overload &rarr; impaired relaxation and reduced SR Ca<sup>2+</sup> load for the next beat. See <a href="serca2a.html">SERCA2a</a>.</li>
-      <li><strong>&uarr;NCX1 (sodium-calcium exchanger):</strong> Compensatory upregulation attempts to extrude excess cytosolic Ca<sup>2+</sup>. However, NCX1 operates in reverse during the action potential plateau, introducing net Ca<sup>2+</sup> influx and extending the AP duration &rarr; arrhythmia risk. See <a href="ncx1.html">NCX1</a>.</li>
-      <li><strong>RyR2 hyperphosphorylation:</strong> CaMKII-dependent phosphorylation at Ser2814 (and PKA at Ser2808) causes RyR2 to adopt a leaky open state during diastole &rarr; spontaneous SR Ca<sup>2+</sup> sparks &rarr; delayed afterdepolarizations (DADs) &rarr; ventricular arrhythmia, the substrate for sudden cardiac death. See <a href="ryr2.html">RyR2</a>.</li>
-      <li><strong>Connexin-43 (Cx43) remodeling:</strong> Cx43 gap junctions lateralize away from intercalated discs and are downregulated overall &rarr; slowed and anisotropic conduction &rarr; widened QRS, increased re-entrant arrhythmia risk.</li>
-      <li><strong>Fetal gene program re-activation:</strong> &beta;-MHC (slow, energy-inefficient) replaces &alpha;-MHC; ANP and BNP are secreted in large quantities; skeletal &alpha;-actin replaces cardiac &alpha;-actin. These isoform shifts depress myofibrillar ATPase activity and contractile efficiency.</li>
-      <li><strong>Mitochondrial dysfunction and oxidative stress:</strong> Impaired electron transport chain complex activity &rarr; &darr;ATP availability; excess ROS activates CaMKII &rarr; further Ca<sup>2+</sup> handling disruption and DNA damage.</li>
-    </ul>
-    <div class="callout"><strong>Force&ndash;frequency inversion:</strong> In healthy myocardium, increasing heart rate increases developed force (positive Bowditch staircase) because CaMKII loads the SR with more Ca<sup>2+</sup>. In failing myocardium this relationship is flattened or inverted: at higher rates, already-leaky RyR2 channels further deplete SR load, and SERCA2a cannot keep pace. This is a mechanistic basis for rate-control strategies in HF.</div>
-  </div>
-
-  <div class="section" id="diagnosis">
-    <h2>Diagnosis</h2>
-
-    <h3>Clinical Presentation</h3>
-    <table>
-      <thead>
-        <tr><th>Feature</th><th>Details</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Symptoms</strong></td>
-          <td>Dyspnoea on exertion (DOE); orthopnoea (dyspnoea when supine &mdash; fluid redistribution to lungs); paroxysmal nocturnal dyspnoea (PND); reduced exercise tolerance; ankle oedema; fatigue and muscle weakness; nocturia; abdominal distension (ascites in severe right HF)</td>
-        </tr>
-        <tr>
-          <td><strong>Signs</strong></td>
-          <td>Raised JVP (jugular venous pressure); S3 gallop (passive rapid ventricular filling &rarr; pathological in adults &ge;40 years); S4 gallop (atrial contraction against a stiff ventricle, suggests diastolic dysfunction); bibasal inspiratory crackles; peripheral pitting oedema; hepatomegaly and hepatojugular reflux; pleural effusion (dullness to percussion, reduced air entry); low pulse pressure in severe low-output state; cool peripheries, cyanosis</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h3>Biomarkers</h3>
-    <p><strong>BNP and NT-proBNP</strong> are secreted by ventricular myocytes (and to a lesser extent atrial myocytes) in direct proportion to wall stress. They are the cornerstone of HF biomarker diagnosis:</p>
-    <ul>
-      <li><strong>Rule-out thresholds (ESC 2021):</strong> BNP &lt;35&nbsp;pg/mL or NT-proBNP &lt;125&nbsp;pg/mL in a non-acute presentation essentially excludes HF as the cause of dyspnoea (negative predictive value &gt;95%).</li>
-      <li><strong>Rule-in:</strong> Values at or above these thresholds require echocardiographic confirmation; they are elevated by AF, renal impairment, older age (independently), pulmonary hypertension, and sepsis &mdash; so specificity is lower.</li>
-      <li><strong>NT-proBNP in acute HF:</strong> &ge;300&nbsp;pg/mL suggests acute decompensation; &ge;2000&nbsp;pg/mL is associated with high in-hospital mortality. Serial NT-proBNP to guide decongestion is supported by the GUIDE-IT and PRIMA trials.</li>
-    </ul>
-
-    <h3>Echocardiography</h3>
-    <p>Transthoracic echocardiography (TTE) is the single most important investigation. Key parameters:</p>
-    <ul>
-      <li><strong>LVEF</strong> by Simpson biplane (modified biplane area-length method) &mdash; defines HF phenotype</li>
-      <li><strong>LV volumes</strong> (LVEDV, LVESV) &mdash; dilation in eccentric remodeling</li>
-      <li><strong>LV geometry</strong> (RWT and LV mass index): concentric hypertrophy (pressure overload, HTN), eccentric dilation (volume overload, post-MI)</li>
-      <li><strong>Diastolic function:</strong> E/A ratio, E/e&prime; (&ge;15 strongly suggests elevated filling pressures), LA volume index (&ge;34&nbsp;mL/m&sup2;), TR velocity (RVSP estimate)</li>
-      <li><strong>RV function:</strong> TAPSE, FAC, S&prime; &mdash; RV involvement worsens prognosis</li>
-      <li><strong>IVC diameter and collapsibility</strong> &mdash; estimates RAP</li>
-      <li><strong>Valvular disease:</strong> MR/AS/AR as cause or consequence</li>
-    </ul>
-
-    <h3>Additional Investigations</h3>
-    <table>
-      <thead>
-        <tr><th>Investigation</th><th>Key Findings in HF</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Chest X-ray (CXR)</strong></td>
-          <td>Cardiomegaly (CTR &gt;0.5 on PA film); pulmonary venous congestion (upper lobe diversion); Kerley B lines (horizontal interstitial oedema, 1&ndash;2&nbsp;cm, peripheral bases); perihilar &ldquo;bat-wing&rdquo; pulmonary oedema; bilateral pleural effusions; pleural fluid blunts costophrenic angles</td>
-        </tr>
-        <tr>
-          <td><strong>12-lead ECG</strong></td>
-          <td>LVH (Sokolow-Lyon criteria); LBBB (key for CRT eligibility if QRS &ge;130&nbsp;ms); AF (trigger or consequence); Q waves (ischaemic scar); prolonged QTc (drug toxicity, electrolyte disturbance); sinus tachycardia (low CO state)</td>
-        </tr>
-        <tr>
-          <td><strong>Bloods</strong></td>
-          <td>Renal function and electrolytes (baseline before RAAS therapy; creatinine &uarr; in low-flow state); FBC (anaemia exacerbates HF); LFTs (hepatic congestion &rarr; &uarr;bilirubin, &uarr;ALT); TFTs (hypo/hyperthyroidism as cause or aggravant); iron studies (ferritin, TSAT &mdash; functional deficiency common); HbA1c; lipids</td>
-        </tr>
-        <tr>
-          <td><strong>Cardiac MRI</strong></td>
-          <td>Gold standard for LVEF; tissue characterization (late gadolinium enhancement for fibrosis/scar; T1 mapping for diffuse fibrosis; T2* for iron); differentiates ischemic from non-ischemic cause; essential in myocarditis, infiltrative disease, ARVC</td>
-        </tr>
-        <tr>
-          <td><strong>Coronary angiography / CT coronary</strong></td>
-          <td>Rule out ischemic etiology in newly diagnosed HFrEF, especially when revascularization might restore function (hibernating myocardium)</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="section" id="treatment">
-    <h2>Treatment</h2>
-
-    <h3>Disease-Modifying Pharmacotherapy for HFrEF</h3>
-    <p>Four drug classes have demonstrated robust mortality reduction in HFrEF: RAAS blockers (ACE-I/ARB/ARNi), &beta;-blockers, mineralocorticoid receptor antagonists (MRAs), and SGLT2 inhibitors. Current ESC 2021 guidelines recommend initiating all four simultaneously or in rapid sequence rather than sequential up-titration over years.</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Drug / Class</th>
-          <th>Mechanism</th>
-          <th>Key Evidence</th>
-          <th>Indication / Notes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>ACE inhibitors</strong> (enalapril, ramipril, lisinopril)</td>
-          <td>Block ACE &rarr; &darr;Ang II &rarr; &darr;afterload, &darr;aldosterone, &darr;cardiac fibrosis, reverse remodeling</td>
-          <td>CONSENSUS (enalapril vs. placebo: 40% &darr; mortality at 6 months in NYHA&nbsp;IV); SOLVD-Treatment (enalapril: 16% &darr; all-cause mortality)</td>
-          <td>Class I in all HFrEF unless contraindicated (bilateral RAS, K<sup>+</sup>&nbsp;&ge;5.0, eGFR&nbsp;&lt;30); ACE-I or ARB if ACE-I intolerant (dry cough, angioedema)</td>
-        </tr>
-        <tr>
-          <td><strong>ARNi &mdash; sacubitril/valsartan</strong> (Entresto)</td>
-          <td>Sacubitril inhibits neprilysin &rarr; &uarr;BNP, ANP (natriuresis, vasodilation, anti-fibrotic); valsartan blocks AT<sub>1</sub>R &rarr; &darr;Ang&nbsp;II effects. Dual neurohormonal blockade</td>
-          <td>PARADIGM-HF: sacubitril/valsartan vs. enalapril &rarr; 20% relative risk reduction in CV death or HF hospitalization; 16% &darr; all-cause mortality; NNT&nbsp;=&nbsp;21 over 27 months</td>
-          <td>Class I; replaces ACE-I/ARB if tolerated (SBP&nbsp;&ge;100, eGFR&nbsp;&ge;30, K<sup>+</sup>&nbsp;&le;5.4); 36-hour washout required when switching from ACE-I to avoid angioedema</td>
-        </tr>
-        <tr>
-          <td><strong>&beta;-Blockers</strong> (carvedilol, bisoprolol, metoprolol succinate)</td>
-          <td>Block &beta;<sub>1</sub>-AR &rarr; &darr;HR, &darr;SNS-mediated remodeling; reduce sudden arrhythmic death; upregulate &beta;<sub>1</sub>-AR density over time</td>
-          <td>CIBIS-II (bisoprolol: 34% &darr; all-cause mortality); MERIT-HF (metoprolol CR/XL: 34% &darr;); COPERNICUS (carvedilol in NYHA&nbsp;IV: 35% &darr;); all vs. placebo</td>
-          <td>Class I; initiate when clinically stable (not in acute decompensation); up-titrate to target dose over weeks; do not withdraw abruptly. Only carvedilol, bisoprolol, and metoprolol succinate proven in HF</td>
-        </tr>
-        <tr>
-          <td><strong>MRAs &mdash; spironolactone / eplerenone</strong></td>
-          <td>Block mineralocorticoid receptor &rarr; &darr;aldosterone-mediated Na<sup>+</sup> retention; &darr;myocardial and vascular fibrosis (anti-TGF-&beta;); modest K<sup>+</sup>-sparing diuretic effect</td>
-          <td>RALES (spironolactone 25&ndash;50&nbsp;mg vs. placebo in NYHA&nbsp;III&ndash;IV: 30% &darr; all-cause mortality); EMPHASIS-HF (eplerenone in NYHA&nbsp;II: 37% &darr; CV death/HF hospitalisation)</td>
-          <td>Class I in HFrEF + symptoms; monitor K<sup>+</sup> and creatinine at 1&ndash;2 weeks; avoid if K<sup>+</sup>&nbsp;&ge;5.0 or eGFR&nbsp;&lt;30. Eplerenone preferred if gynaecomastia with spironolactone</td>
-        </tr>
-        <tr>
-          <td><strong>SGLT2 inhibitors &mdash; dapagliflozin / empagliflozin</strong></td>
-          <td>Block SGLT2 in proximal tubule &rarr; glucosuria, natriuresis, osmotic diuresis; additional cardiac effects partially glycemia-independent: &darr;preload/afterload, &darr;oxidative stress, &uarr;ketone utilization by cardiomyocytes, &darr;NHE1 (reduces intracellular Na<sup>+</sup>/Ca<sup>2+</sup> overload), &darr;uric acid</td>
-          <td>DAPA-HF (dapagliflozin: 26% &darr; CV death/worsening HF/urgent HF visit regardless of diabetic status); EMPEROR-Reduced (empagliflozin: 25% &darr; CV death/HF hospitalization)</td>
-          <td>Class I in HFrEF (regardless of diabetes); eGFR threshold &ge;20&ndash;25 for dapagliflozin, &ge;20 for empagliflozin; genital mycotic infections as main adverse effect</td>
-        </tr>
-        <tr>
-          <td><strong>Loop diuretics</strong> (furosemide, torasemide, bumetanide)</td>
-          <td>Inhibit NKCC2 in thick ascending limb of Henle &rarr; natriuresis, diuresis &rarr; &darr;filling pressures, symptom relief. No proven mortality benefit. See <a href="loop-diuretics.html">Loop Diuretics</a>.</td>
-          <td>DOSE trial: high-dose bolus vs. continuous infusion &rarr; similar outcomes; flexible patient-directed dosing reduces hospitalization (FRANK-HF)</td>
-          <td>Class I for all HF patients with fluid retention (symptoms of congestion); titrate to achieve euvolaemia; monitor K<sup>+</sup>, Mg<sup>2+</sup>, creatinine; convert to torasemide for better bioavailability in gut oedema</td>
-        </tr>
-        <tr>
-          <td><strong>Ivabradine</strong></td>
-          <td>Selective I<sub>f</sub> channel (HCN4) blocker in SA node &rarr; reduces HR without negative inotropy or BP effect. See <a href="hcn4.html">HCN4</a>.</td>
-          <td>SHIFT trial (ivabradine vs. placebo in sinus rhythm, HR&nbsp;&ge;70&nbsp;bpm on &beta;-blocker): 18% &darr; CV death or HF hospitalization</td>
-          <td>Class IIa in HFrEF with LVEF&nbsp;&le;35%, sinus rhythm, HR&nbsp;&ge;70&nbsp;bpm despite maximally tolerated &beta;-blocker dose; not for AF</td>
-        </tr>
-        <tr>
-          <td><strong>Digoxin</strong></td>
-          <td>Na<sup>+</sup>/K<sup>+</sup>-ATPase inhibitor &rarr; &uarr;intracellular Na<sup>+</sup> &rarr; reverse NCX1 &rarr; &uarr;cytosolic Ca<sup>2+</sup> &rarr; modest positive inotropy; parasympathomimetic: &darr;HR in AF, suppresses AV node</td>
-          <td>DIG trial: digoxin &rarr; no mortality benefit but &darr;HF hospitalisation; narrow therapeutic window (toxicity risk &uarr; with hypokalaemia)</td>
-          <td>Class IIb; consider in HFrEF with AF and rapid ventricular rate uncontrolled by &beta;-blocker, or for symptom control in persistent HFrEF; target serum level 0.5&ndash;0.9&nbsp;ng/mL</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h3>Device Therapy</h3>
-    <table>
-      <thead>
-        <tr><th>Device</th><th>Indication</th><th>Key Trials / Mechanism</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>ICD</strong> (implantable cardioverter-defibrillator)</td>
-          <td>Primary prevention: LVEF &le;35%, NYHA II&ndash;III, &ge;3 months of optimal medical therapy, life expectancy &gt;1 year</td>
-          <td>MADIT-II, SCD-HeFT: 23&ndash;31% &darr; all-cause mortality; terminates VF/VT by shock; pacing for bradycardia</td>
-        </tr>
-        <tr>
-          <td><strong>CRT</strong> (cardiac resynchronisation therapy &mdash; CRT-P or CRT-D)</td>
-          <td>LBBB with QRS &ge;130&nbsp;ms (greatest benefit &ge;150&nbsp;ms), LVEF &le;35%, NYHA II&ndash;IV despite OMT, sinus rhythm (Class I); AF with QRS &ge;130&nbsp;ms (Class IIa)</td>
-          <td>CARE-HF, MADIT-CRT, RAFT: &darr;mortality 36&ndash;40%, &darr;HF hospitalization, &uarr;6MWT, reverse remodeling (LVEF improves 5&ndash;10 points in responders). Resynchronises biventricular activation &rarr; restores efficient LV contraction geometry</td>
-        </tr>
-        <tr>
-          <td><strong>LVAD</strong> (left ventricular assist device)</td>
-          <td>Stage D / advanced HF: NYHA IV refractory to OMT; bridge-to-transplant (BTT) or destination therapy (DT)</td>
-          <td>MOMENTUM 3 (HeartMate 3, fully magnetically levitated): 79% survival at 2 years in DT; centrifugal-flow &rarr; lower pump thrombosis and stroke vs. older axial devices</td>
-        </tr>
-        <tr>
-          <td><strong>Heart transplantation</strong></td>
-          <td>Stage D, no contraindications (age, multi-organ dysfunction, cancer, irreversible pulmonary hypertension); ~5,000/year worldwide</td>
-          <td>Median survival &sim;12&ndash;13 years post-transplant; 1-year survival &gt;85%; limited by donor organ supply</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h3>HFpEF Treatment</h3>
-    <p>HFpEF management has historically been symptom-based (diuretics for congestion, rate control, aggressive management of hypertension, AF, and diabetes). Two randomised trials now provide disease-modifying evidence:</p>
-    <ul>
-      <li><strong>EMPEROR-Preserved:</strong> Empagliflozin in HFpEF (LVEF &gt;40%) &rarr; 21% &darr; CV death or HF hospitalization (primary endpoint, driven by HF hospitalization); first positive trial in HFpEF.</li>
-      <li><strong>DELIVER:</strong> Dapagliflozin in HFmrEF/HFpEF &rarr; 18% &darr; primary composite; consistent across EF subgroups above 40%.</li>
-      <li><strong>TOPCAT:</strong> Spironolactone in HFpEF &rarr; mixed (primary endpoint neutral; Americas subgroup &darr; HF hospitalization); MRA now Class IIb in HFpEF.</li>
-      <li><strong>PARAGON-HF:</strong> Sacubitril/valsartan vs. valsartan in HFpEF &rarr; near-miss on primary endpoint; benefit in women and lower EF range (&le;57%), now Class IIb in HFmrEF/lower range HFpEF.</li>
-    </ul>
-  </div>
-
-  <div class="section" id="biomarkers">
-    <h2>Biomarker Monitoring and Comorbidities</h2>
-
-    <h3>NT-proBNP-Guided Therapy</h3>
-    <p>Serial NT-proBNP measurement guides decongestion during acute HF admission (target &gt;30% reduction before discharge) and outpatient optimisation. Persistent elevation despite OMT predicts early re-admission and mortality. The GUIDE-IT trial found NT-proBNP-guided therapy non-inferior to intensive clinical assessment alone in the overall group, but a pre-specified subgroup with NT-proBNP &gt;1000&nbsp;pg/mL at randomisation derived significant benefit from biomarker guidance.</p>
-
-    <h3>Iron Deficiency</h3>
-    <p>Functional iron deficiency (ferritin &lt;100&nbsp;&mu;g/L, or ferritin 100&ndash;299&nbsp;&mu;g/L with TSAT &lt;20%) is present in 40&ndash;55% of ambulatory HFrEF patients and in an even higher proportion during acute decompensation. Iron is required for mitochondrial electron transport chain complexes I and IV, myoglobin, and SERCA2a function &mdash; deficiency directly impairs cardiomyocyte energetics independent of anaemia.</p>
-    <p>The <strong>AFFIRM-AHF</strong> trial (intravenous ferric carboxymaltose vs. placebo, initiated during acute HF hospitalisation) demonstrated a 26% reduction in recurrent HF hospitalization at 52 weeks. IV iron (ferric carboxymaltose or ferric derisomaltose) is now Class I (ESC 2021) in HFrEF patients with iron deficiency to reduce symptom burden and HF hospitalizations.</p>
-
-    <h3>Renal Function &mdash; Cardio-Renal Syndrome</h3>
-    <p>Worsening renal function (WRF: &uarr;creatinine &ge;0.3&nbsp;mg/dL or &ge;25%) occurs in 20&ndash;40% of acute HF admissions and predicts poor prognosis. It results from &darr;renal perfusion pressure, venous congestion transmitted to renal venous system, and RAAS-mediated efferent constriction. SGLT2 inhibitors cause an initial modest eGFR dip (hemodynamic, reversible) but confer long-term renoprotection (DAPA-CKD, EMPA-KIDNEY).</p>
-  </div>
-
-  <div class="section" id="connections">
-    <h2>Connections</h2>
-    <ul class="conn-list">
-      <li><span class="conn-rel">structural basis</span><span><a href="myocardium.html">Myocardium</a> &mdash; cardiac muscle tissue whose structural and functional failure underlies all HF phenotypes; fibrosis, hypertrophy, and scar are tissue-level correlates</span></li>
-      <li><span class="conn-rel">cell mechanism</span><span><a href="cardiomyocyte.html">Cardiomyocyte</a> &mdash; contractile dysfunction, Ca<sup>2+</sup> handling failure, fetal gene program, and bioenergetic crisis occur at the single-cell level</span></li>
-      <li><span class="conn-rel">mediator</span><span><a href="angiotensin-ii.html">Angiotensin II</a> &mdash; central RAAS effector driving vasoconstriction, Na<sup>+</sup> retention, aldosterone release, and fibrosis; primary target of ACE-I/ARB/ARNi</span></li>
-      <li><span class="conn-rel">target</span><span><a href="serca2a.html">SERCA2a</a> &mdash; SR Ca<sup>2+</sup>-ATPase reduced 30&ndash;50% in HFrEF; key determinant of diastolic Ca<sup>2+</sup> removal and SR Ca<sup>2+</sup> load; gene therapy target (CUPID trials)</span></li>
-      <li><span class="conn-rel">target</span><span><a href="ryr2.html">RyR2</a> &mdash; hyperphosphorylated by CaMKII in HF; diastolic leak drives DADs and arrhythmia risk; structural target for stabilizing agents (flecainide at low dose, S107)</span></li>
-      <li><span class="conn-rel">receptor</span><span><a href="beta1-adrenergic-receptor.html">&beta;<sub>1</sub>-Adrenergic Receptor</a> &mdash; sustained SNS stimulation downregulates and desensitises &beta;<sub>1</sub>-ARs in HF; &beta;-blocker therapy partially restores receptor density and coupling</span></li>
-      <li><span class="conn-rel">treatment</span><span><a href="ace-inhibitors.html">ACE Inhibitors</a> &mdash; RAAS blockade reduces mortality in HFrEF (CONSENSUS, SOLVD); cornerstone of neurohormonal antagonism since 1980s</span></li>
-      <li><span class="conn-rel">treatment</span><span><a href="statins.html">Statins</a> &mdash; indicated in HFrEF with ischemic etiology for secondary prevention of recurrent MI; pleiotropic effects on endothelial function and inflammation; neutral effect on pure non-ischemic HF (CORONA, GISSI-HF)</span></li>
-      <li><span class="conn-rel">treatment</span><span><a href="loop-diuretics.html">Loop Diuretics</a> &mdash; NKCC2 inhibitors for symptomatic decongestion; essential for all fluid-overloaded HF patients; no mortality benefit, guided by clinical assessment and NT-proBNP</span></li>
-    </ul>
-  </div>
-
-  <div class="section references" id="references">
-    <h2>References</h2>
-    <ol>
-      <li>McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. <em>Eur Heart J.</em> 2021;42(36):3599&ndash;3726. doi:10.1093/eurheartj/ehab368</li>
-      <li>Ponikowski P, Voors AA, Anker SD, et al. 2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. <em>Eur Heart J.</em> 2016;37(27):2129&ndash;2200. doi:10.1093/eurheartj/ehw128</li>
-      <li>McMurray JJV, Packer M, Desai AS, et al. (PARADIGM-HF). Angiotensin&ndash;Neprilysin Inhibition versus Enalapril in Heart Failure. <em>N Engl J Med.</em> 2014;371(11):993&ndash;1004. doi:10.1056/NEJMoa1409077</li>
-      <li>Anker SD, Butler J, Filippatos G, et al. (EMPEROR-Reduced). Empagliflozin in Heart Failure with a Reduced Ejection Fraction. <em>N Engl J Med.</em> 2020;383(15):1413&ndash;1424. doi:10.1056/NEJMoa2023184</li>
-      <li>McMurray JJV, Solomon SD, Inzucchi SE, et al. (DAPA-HF). Dapagliflozin in Patients with Heart Failure and Reduced Ejection Fraction. <em>N Engl J Med.</em> 2019;381(21):1995&ndash;2008. doi:10.1056/NEJMoa1911303</li>
-      <li>Packer M, Anker SD, Butler J, et al. (EMPEROR-Preserved). Cardiovascular and Renal Outcomes with Empagliflozin in Heart Failure. <em>N Engl J Med.</em> 2021;385(16):1451&ndash;1461. doi:10.1056/NEJMoa2107038</li>
-      <li>Pitt B, Zannad F, Remme WJ, et al. (RALES). The Effect of Spironolactone on Morbidity and Mortality in Patients with Severe Heart Failure. <em>N Engl J Med.</em> 1999;341(10):709&ndash;717.</li>
-      <li>Zannad F, McMurray JJV, Krum H, et al. (EMPHASIS-HF). Eplerenone in Patients with Systolic Heart Failure and Mild Symptoms. <em>N Engl J Med.</em> 2011;364(1):11&ndash;21. doi:10.1056/NEJMoa1009492</li>
-      <li>Ponikowski P, Kirwan BA, Anker SD, et al. (AFFIRM-AHF). Ferric carboxymaltose for iron deficiency at discharge after acute heart failure. <em>Lancet.</em> 2020;396(10266):1895&ndash;1904. doi:10.1016/S0140-6736(20)32339-4</li>
-      <li>Cleland JGF, Daubert JC, Erdmann E, et al. (CARE-HF). The Effect of Cardiac Resynchronization on Morbidity and Mortality in Heart Failure. <em>N Engl J Med.</em> 2005;352(15):1539&ndash;1549. doi:10.1056/NEJMoa050496</li>
-    </ol>
-  </div>
-
-</div>
-
-<footer>
-  <p>Human Engineering &mdash; Open knowledge atlas at <a href="https://equalinformation.com/human">equalinformation.com/human</a>.<br>
-  Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:.6rem">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. <strong>Not medical advice.</strong> For research and educational use only.</p>
-</footer>
-
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
