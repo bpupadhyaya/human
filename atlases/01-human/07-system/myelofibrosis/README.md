@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β1 secreted by CALR/JAK2-mutant megakaryocytes is the primary driver of BM fibrosis in MF; TGF-β activates fibroblasts → collagen/reticulin deposition; serum TGF-β1 correlates with MF grade; TGF-β pathway inhibition is a therapeutic target in preclinical MF models."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "MPL W515L/K activates JAK2 constitutively independent of TPO → megakaryocyte dysplasia and marrow fibrosis; ruxolitinib suppresses JAK-STAT; thrombocytopenia in high-risk MF limits JAK inhibitor dosing; pacritinib/momelotinib approved for MF with thrombocytopenia."
 ---
 
 # Myelofibrosis
@@ -167,6 +170,11 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — JAK2 V617F occurs in ~60% of PMF and drives constitutive JAK-STAT signaling; JAK2 V617F allele burden correlates with splenomegaly and constitutional symptoms; ruxolitinib and other JAK inhibitors all target JAK2 kinase activity; JAK2 V617F is the primary molecular target in MF.
 - `connects-to` → **[JAK1-2](../../03-molecular/jak1-2/README.md)** — Ruxolitinib is first-line standard of care for intermediate-2 and high-risk MF; momelotinib inhibits JAK1/JAK2 plus ACVR1 → reduces hepcidin → anemia benefit; JAK1 inhibition reduces inflammatory cytokine burden (IL-6, TNF-α) driving constitutional symptoms.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β1 secreted by CALR/JAK2-mutant megakaryocytes is the primary driver of BM fibrosis in MF; TGF-β activates fibroblasts → collagen/reticulin deposition; serum TGF-β1 correlates with MF grade; TGF-β pathway inhibition is a therapeutic target in preclinical MF models.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — MPL W515L/K activates JAK2 constitutively independent of TPO → megakaryocyte dysplasia and marrow fibrosis; ruxolitinib suppresses JAK-STAT; thrombocytopenia in high-risk MF limits JAK inhibitor dosing; pacritinib/momelotinib approved for MF with thrombocytopenia.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^verstovsek-2012-comfort1]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^harrison-2012-comfort2]: Harrison C, Kiladjian JJ, Al-Ali HK, et al. JAK inhibition with ruxolitinib versus best available therapy for myelofibrosis. *N Engl J Med.* 2012;366(9):787-798. [doi:10.1056/NEJMoa1110556](https://doi.org/10.1056/NEJMoa1110556) · [PubMed 22375970](https://pubmed.ncbi.nlm.nih.gov/22375970/)

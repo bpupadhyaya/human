@@ -31,6 +31,9 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "In aplastic anemia, autoreactive CTL target HSCs via perforin/granzyme-mediated cytotoxicity; elevated perforin+ CD8+ T cells in AA bone marrow predict treatment response; cyclosporine + anti-thymocyte globulin (ATG) reduce autoreactive CTL activity and restore hematopoiesis."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "In severe AA, HSC destruction → thrombocytopenia; elevated TPO cannot drive production from depleted marrow; eltrombopag added to hATG+CsA (triple IST) improves overall response and may expand HSCs via c-Mpl beyond megakaryopoiesis."
 ---
 
 # Aplastic Anemia
@@ -148,6 +151,11 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `targets` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — AA results from T cell-mediated HSC destruction → hypocellular marrow (<25% cellularity) replaced by fat; 25-40% of AA patients have PNH clones (AA-PNH overlap continuum); marrow biopsy showing fat-replaced hypocellular marrow is the diagnostic hallmark.
 - `connects-to` → **[PNH](../pnh/README.md)** — AA and PNH are closely related: immune destruction of normal HSCs in AA allows PIGA-mutant GPI-deficient clone to expand; 25-40% of AA patients have PNH clones at diagnosis; some AA patients evolve to overt PNH; both conditions are treated at specialized hemato-oncology centers.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — In aplastic anemia, autoreactive CTL target HSCs via perforin/granzyme-mediated cytotoxicity; elevated perforin+ CD8+ T cells in AA bone marrow predict treatment response; cyclosporine + anti-thymocyte globulin (ATG) reduce autoreactive CTL activity and restore hematopoiesis.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — In severe AA, HSC destruction → thrombocytopenia; elevated TPO cannot drive production from depleted marrow; eltrombopag added to hATG+CsA (triple IST) improves overall response and may expand HSCs via c-Mpl beyond megakaryopoiesis.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^young-2018-aplastic-anemia-review]: Young NS. Aplastic Anemia. *N Engl J Med.* 2018;379(17):1643-1656. [doi:10.1056/NEJMra1413485](https://doi.org/10.1056/NEJMra1413485) · [PubMed 30354959](https://pubmed.ncbi.nlm.nih.gov/30354959/)
 [^townsley-2017-eltrombopag-aa]: Townsley DM, Scheinberg P, Winkler T, et al. Eltrombopag Added to Standard Immunosuppression for Aplastic Anemia. *N Engl J Med.* 2017;376(16):1540-1550. [doi:10.1056/NEJMoa1613878](https://doi.org/10.1056/NEJMoa1613878) · [PubMed 28423296](https://pubmed.ncbi.nlm.nih.gov/28423296/)

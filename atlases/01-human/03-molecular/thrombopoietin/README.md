@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/03-molecular/fcrn
     relation: connects-to
     note: "FcRn recycles anti-platelet IgG sustaining pathogenic titers in ITP; efgartigimod (FcRn inhibitor; FDA Jun 2023) and TPO-RAs (romiplostim, eltrombopag) address complementary mechanisms — IgG catabolism vs. platelet production; their combination is under investigation."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "MPL W515L/K mutation constitutively activates JAK2 independent of TPO → megakaryocyte dysplasia → marrow fibrosis; ruxolitinib suppresses JAK-STAT; thrombocytopenia limits JAK inhibitor dosing in high-risk MF; pacritinib/momelotinib address MF+thrombocytopenia."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "In severe AA, T-cell HSC destruction → thrombocytopenia; TPO rises but megakaryocyte progenitors are depleted; eltrombopag added to hATG+CsA (triple IST) improves overall response; eltrombopag uniquely expands HSCs via c-Mpl independent of megakaryopoiesis drive."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "TPO is produced by hepatocytes (70-80%) and bone marrow osteoblasts → c-Mpl on megakaryocyte progenitors → JAK2/STAT5 → megakaryopoiesis; bone marrow is the primary TPO-sensing organ via c-Mpl absorption; CAMT results from MPL LOF → absent megakaryocytes from birth."
 ---
 
 # Thrombopoietin
@@ -115,9 +124,16 @@ JAK2 V617F (somatic; found in ~95% of polycythemia vera, ~50-60% of ET, ~50% of 
 
 ## Connections
 
-- **Modulates** → **[Platelet](../../04-cellular/platelet/README.md)** — TPO drives megakaryocyte proliferation and platelet shedding via c-Mpl → JAK2/STAT5 → GATA-1/FOG-1; platelet count inversely controls free TPO via Mpl-mediated absorption; elevated TPO in thrombocytopenia drives compensatory thrombopoiesis.
+- `modulates` → **[Platelet](../../04-cellular/platelet/README.md)** — TPO drives megakaryocyte proliferation and platelet shedding via c-Mpl → JAK2/STAT5 → GATA-1/FOG-1; platelet count inversely controls free TPO via Mpl-mediated absorption; elevated TPO in thrombocytopenia drives compensatory thrombopoiesis.
 - `connects-to` → **[Immune Thrombocytopenia](../../07-system/immune-thrombocytopenia/README.md)** — In ITP, anti-platelet IgG destroys platelets despite elevated TPO; romiplostim and eltrombopag bypass anti-platelet immunity by directly stimulating c-Mpl on megakaryocyte progenitors; both FDA-approved 2008 as second-line ITP therapy.
 - `connects-to` → **[FcRn](../fcrn/README.md)** — FcRn recycles anti-platelet IgG, sustaining pathogenic titers in ITP; efgartigimod (anti-FcRn; FDA 2023) reduces anti-platelet antibody burden; TPO-RAs and FcRn inhibitors address complementary ITP mechanisms — increasing production vs. reducing antibody-mediated destruction.
+- `connects-to` → **[Myelofibrosis](../../07-system/myelofibrosis/README.md)** — MPL W515L/K mutation constitutively activates JAK2 independent of TPO → megakaryocyte dysplasia → marrow fibrosis; ruxolitinib suppresses JAK-STAT; thrombocytopenia limits JAK inhibitor dosing in high-risk MF; pacritinib/momelotinib address MF+thrombocytopenia.
+- `connects-to` → **[Aplastic Anemia](../../07-system/aplastic-anemia/README.md)** — In severe AA, T-cell HSC destruction → thrombocytopenia; TPO rises but megakaryocyte progenitors are depleted; eltrombopag added to hATG+CsA (triple IST) improves overall response; eltrombopag uniquely expands HSCs via c-Mpl independent of megakaryopoiesis drive.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — TPO is produced by hepatocytes (70-80%) and bone marrow osteoblasts → c-Mpl on megakaryocyte progenitors → JAK2/STAT5 → megakaryopoiesis; bone marrow is the primary TPO-sensing organ via c-Mpl absorption; CAMT results from MPL LOF → absent megakaryocytes from birth.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^desauvage-1994-tpo-discovery]: de Sauvage FJ, et al. Stimulation of megakaryocytopoiesis and thrombopoiesis by the c-Mpl ligand. *Nature.* 1994;369(6481):533-538. [doi:10.1038/369533a0](https://doi.org/10.1038/369533a0) · [PubMed 8202154](https://pubmed.ncbi.nlm.nih.gov/8202154/)
 [^bussel-2006-romiplostim-itp]: Bussel JB, et al. AMG 531, a thrombopoiesis-stimulating protein, for chronic ITP. *N Engl J Med.* 2006;355(16):1672-1681. [doi:10.1056/NEJMoa054626](https://doi.org/10.1056/NEJMoa054626) · [PubMed 17050891](https://pubmed.ncbi.nlm.nih.gov/17050891/)

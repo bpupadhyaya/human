@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Bone Marrow — haematopoietic tissue producing ~500 billion blood cells per day from multipotent HSCs. Red marrow, yellow marrow, sinusoidal niches, B-lymphopoiesis, erythroblastic islands. Scale 05 of the Human Atlas. Part of the Human Engineering project.">
+  <meta name="description" content="Haematopoietic tissue filling the medullary cavity of flat bones and the epiphyses of long bones. Produces all blood cell lineages from multipotent haematopoiet">
   <meta property="og:title" content="Bone Marrow — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Bone Marrow — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #dc2626;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--accent); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,48 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #7f1d1d); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -98,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -110,140 +119,79 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 05 &mdash; Tissue</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
     <h1>Bone Marrow</h1>
-    <p class="tagline">The haematopoietic factory of the adult body — producing ~500 billion blood cells per day from a self-renewing pool of multipotent haematopoietic stem cells maintained in specialised sinusoidal niches.</p>
-    <p class="subtagline">Primary lymphoid organ: source of all blood lineages including all immune cells. B-cell lymphopoiesis completes entirely here; T-cell precursors migrate to the thymus. Long-lived plasma cells return to marrow niches for decades of antibody secretion after vaccination or infection.</p>
+    <p class="tagline">Haematopoietic tissue filling the medullary cavity of flat bones and the epiphyses of long bones. Produces all blood cell lineages from multipotent haematopoietic stem cells (HSCs) at ~500 billion cells/day. Red marrow active; yellow marrow (fat) increases with age.</p>
+    <p class="aliases">Also known as: medulla ossium, red bone marrow, yellow bone marrow, haematopoietic tissue, marrow</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">500 B</span><span class="stat-label">Cells/day</span></div>
-      <div class="stat"><span class="stat-num">~2 kg</span><span class="stat-label">Total marrow mass</span></div>
-      <div class="stat"><span class="stat-num">~4%</span><span class="stat-label">of Body Weight</span></div>
-      <div class="stat"><span class="stat-num">2</span><span class="stat-label">HSC Niches</span></div>
+        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One / Scale 05 &middot; Tissue &middot; Haematopoietic</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">bone-marrow</div>
         <h2>Bone Marrow</h2>
-        <p class="summary">Soft, highly vascularised connective tissue filling the medullary cavities of flat bones and the epiphyses of long bones. Generates ~500 billion blood cells/day via haematopoiesis from multipotent HSCs in endosteal and perivascular niches. Primary lymphoid organ: all blood cell lineages arise here. Two functional compartments: active red marrow (axial skeleton in adults) and quiescent yellow (adipose) marrow that reconverts under haematopoietic stress.</p>
+        <p class="summary">Haematopoietic tissue filling the medullary cavity of flat bones and the epiphyses of long bones. Produces all blood cell lineages from multipotent haematopoietic stem cells (HSCs) at ~500 billion cells/day. Red marrow active; yellow marrow (fat) increases with age.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>Bone marrow is the soft, highly vascularised connective tissue occupying the medullary cavities of bones. It is the central haematopoietic factory of the adult human body, generating an estimated <strong>500 billion blood cells per day</strong> — approximately 3.5 million cells per second — to replace senescent erythrocytes, neutrophils, platelets, and other short-lived blood elements. All major blood cell lineages arise from a small, self-renewing pool of multipotent <strong>haematopoietic stem cells (HSCs)</strong> maintained in specialised marrow niches.</p>
-          <p>Beyond haematopoiesis, bone marrow is a <strong>primary lymphoid organ</strong>. B-cell lymphopoiesis and T-cell precursor generation both initiate here; T-cell maturation completes in the thymus. It is also a major site of immune memory: long-lived plasma cells (LLPCs) produced during germinal-centre reactions home back to bone marrow survival niches expressing CXCL12, IL-6, APRIL, and BAFF — where they secrete protective antibodies for years to decades, forming the durable humoral immunity that underpins effective vaccination.</p>
-          <p>Two functional types exist. <strong>Red marrow</strong> is haematopoietically active, appearing red from haemoglobin-laden maturing erythrocytes at different stages. <strong>Yellow marrow</strong> (marrow adipose tissue, MAT) is haematopoietically inactive, dominated by unilocular adipocytes. At birth nearly all marrow is red. Through childhood and adolescence, yellow marrow progressively occupies the appendicular skeleton, leaving red marrow confined to the axial skeleton (vertebrae, ribs, sternum, pelvis, skull) and proximal epiphyses of the femur and humerus by adulthood. Yellow marrow retains its capacity to reconvert to red marrow under haematopoietic stress — including severe haemolytic anaemia, chronic blood loss, and systemic infection.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Anatomy &amp; Structure</h3>
-          <p><strong>Gross distribution (adults).</strong> Active red marrow concentrates in vertebral bodies, sternum, ribs, flat bones of the pelvis and skull, and the proximal epiphyses of the femur and humerus. Total marrow volume is approximately 1.5–2 kg (~4% of body weight); red marrow accounts for roughly half. The marrow is encased within the endosteum (inner bone surface lined by osteoblasts and osteoclasts) and perfused by a nutrient artery branching into arterioles and sinusoids.</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Component</th><th>Description</th><th>Key signals</th></tr>
-            <tr><td>Endosteal niche</td><td>HSCs near the endosteum, associated with osteoblasts and CXCL12-abundant reticular (CAR) cells; low O₂ (~1–2% pO₂) promotes HSC quiescence via HIF-1α</td><td>THPO (osteoblasts), SCF/KITLG (CAR cells), CXCL12</td></tr>
-            <tr><td>Perivascular niche</td><td>HSC pool adjacent to sinusoidal endothelium and LepR⁺ mesenchymal stromal cells; more permissive to HSC cycling and mobilisation</td><td>CXCL12, SCF from LepR⁺ progenitors</td></tr>
-            <tr><td>Sinusoidal vasculature</td><td>Thin-walled, fenestrated endothelial tubes (diameter 10–100 µm); blood cells egress through cytoplasmic pores (3–5 µm); CXCR4/CXCL12 retention, S1P1 egress signalling; VLA-4/VCAM-1 adhesion</td><td>CXCR4/CXCL12, S1P1, VLA-4/VCAM-1</td></tr>
-            <tr><td>Erythroblastic islands</td><td>Central macrophage surrounded by 10–30 erythroblasts at varying maturation stages; macrophage provides iron, amplifies EpoR signalling, engulfs extruded pyknotic nuclei</td><td>EPO, transferrin receptor, Fas/FasL</td></tr>
-            <tr><td>Megakaryocytes</td><td>Large (50–150 µm), highly polyploid (up to 128N via endomitosis); extend pro-platelet projections directly into sinusoid lumens; shed 1,000–3,000 platelets per cell over 5–7 days</td><td>THPO → MPL (c-MPL receptor)</td></tr>
-            <tr><td>Yellow (adipose) marrow</td><td>Unilocular adipocytes (MAT); metabolically distinct from subcutaneous/visceral fat; expands under caloric restriction and stress; secretes adiponectin, CXCL12, SCF to modulate haematopoiesis</td><td>Adiponectin, CXCL12, SCF</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>bone-marrow</td></tr>
+            <tr><td>Name</td><td>Bone Marrow</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>05-tissue</td></tr>
           </table>
-          <p style="margin-top:0.75rem;">Resident cell types beyond haematopoietic progenitors include: osteoblasts (endosteal surface, niche maintenance, THPO/SCF/CXCL12 production), osteoclasts (bone resorption), CAR/reticular stromal cells (primary CXCL12 and SCF source), sinusoidal endothelial cells, pericytes, macrophages (erythroblastic island central cells, niche macrophages), T cells, NK cells, and long-lived plasma cells — all cohabiting in an orchestrated three-dimensional architecture.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Haematopoiesis</h3>
-          <div class="circuit-diagram">
-<pre>
-  HSC (self-renewing pool, ~1 in 10,000 marrow cells)
-         │
-         ├──→ CMP (Common Myeloid Progenitor)
-         │         ├──→ GMP → Myeloblast → Promyelocyte → Myelocyte → Band → Neutrophil (10 days; ~10¹¹/day)
-         │         ├──→ cMoP → Classical Monocyte (CD14⁺⁺CD16⁻) → blood (~3×10⁷/day)
-         │         ├──→ MEP → BFU-E → CFU-E → Proerythroblast → Reticulocyte → Erythrocyte (7 days; ~2×10⁶ RBC/sec)
-         │         └──→ MkP → Megakaryocyte → Platelets (5–7 days; ~10¹¹/day)
-         │
-         └──→ CLP (Common Lymphoid Progenitor)
-                   ├──→ Pro-B → Pre-B (VDJ recombination) → Immature B (negative selection) → Naive B (IgM⁺IgD⁺) → egress
-                   ├──→ NK cell progenitor, ILC precursors
-                   └──→ T-cell precursor (ETP) → thymus via blood
-</pre>
-          </div>
-          <div class="two-col" style="margin-top:1rem;">
-            <div class="info-block">
-              <h4>Erythropoiesis regulation</h4>
-              <p>EPO from renal cortical peritubular fibroblasts (under hypoxia via HIF-2α) drives CFU-E expansion. Reticulocytes squeeze through sinusoid fenestrations into blood; mature in 1–2 days. EPO deficiency in CKD → normocytic normochromic anaemia; treated with recombinant EPO or HIF-prolyl hydroxylase inhibitors.</p>
-            </div>
-            <div class="info-block">
-              <h4>B-lymphopoiesis</h4>
-              <p>IL-7 from stromal cells is the survival signal at pro-B stage. VDJ recombination of immunoglobulin heavy chain (RAG1/2) at pre-B; VJ recombination of light chain at immature B. Negative selection removes autoreactive BCRs before export. CXCL12, SCF, FLT3L support each stage.</p>
-            </div>
-            <div class="info-block">
-              <h4>LLPC niche &amp; immune memory</h4>
-              <p>After peripheral germinal-centre reactions, affinity-matured plasma cells express CXCR4 and home to bone marrow survival niches. CXCL12, IL-6, APRIL (from megakaryocytes), BAFF, and eosinophil-derived IL-5 maintain LLPC survival for decades — the basis of durable post-vaccination serum antibody titres.</p>
-            </div>
-            <div class="info-block">
-              <h4>Mobilisation</h4>
-              <p>G-CSF disrupts CXCR4/CXCL12 and VLA-4/VCAM-1 retention interactions → HSC egress into blood — the basis of peripheral blood HSC harvest for transplantation. AMD3100 (plerixafor) directly antagonises CXCR4 for rapid mobilisation. Used clinically when G-CSF alone is insufficient.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Acute Leukaemia (AML / ALL)</h4>
-            <p>Malignant transformation of a myeloid (AML) or lymphoid (ALL) progenitor generates a clonal blast population that displaces normal haematopoiesis → pancytopenia (anaemia, infection susceptibility, bleeding). AML key mutations: t(8;21), inv(16), t(15;17) (APL — ATRA-responsive), FLT3-ITD, NPM1. ALL: t(9;22) (BCR-ABL1, Philadelphia⁺ — imatinib-responsive), t(12;21) (ETV6-RUNX1, most common childhood ALL, favourable prognosis). Treatment: induction chemotherapy → consolidation → HSCT for high-risk or relapsed/refractory disease; CAR-T (anti-CD19) for relapsed/refractory B-ALL.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Multiple Myeloma</h4>
-            <p>Clonal marrow plasma cells produce a monoclonal immunoglobulin (M-protein). Marrow infiltration → anaemia, lytic bone lesions (osteoclast activation by DKK1/RANKL), hypercalcaemia; M-protein → renal cast nephropathy, hyperviscosity, amyloidosis (AL). CRAB criteria: hyperCalcaemia, Renal failure, Anaemia, Bone lesions. Treatment: bortezomib (proteasome inhibitor) + lenalidomide (IMiD) + dexamethasone → autologous HSCT; anti-CD38 (daratumumab) now frontline; BCMA-directed CAR-T and bispecifics in relapsed/refractory disease.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Myelofibrosis</h4>
-            <p>JAK2 V617F (~60%), CALR, or MPL driver mutations → clonal myeloproliferation → reactive fibrosis (TGF-β from dysplastic megakaryocytes → reticulin/collagen deposition) → "dry tap" on marrow aspiration, leukoerythroblastic blood film (teardrop cells, nucleated RBCs, immature myeloid cells). Massive splenomegaly from extramedullary haematopoiesis. Symptoms: constitutional, anaemia, splenomegaly-related pain. Treatment: ruxolitinib (JAK1/2 inhibitor) for symptom control; allogeneic HSCT is the only potentially curative option.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Aplastic Anaemia</h4>
-            <p>Destruction or autoimmune suppression of HSCs → hypocellular marrow → pancytopenia. Causes: idiopathic autoimmune (CD8⁺ T cells targeting HSCs, ~70%), drug/toxin (chloramphenicol, benzene), viral (EBV, CMV, parvovirus B19 in pure red cell aplasia), PNH clone, Fanconi anaemia. Treatment: immunosuppression (anti-thymocyte globulin + cyclosporin ± eltrombopag) when HSCT not feasible; matched sibling allogeneic HSCT for severe aplastic anaemia.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Inherited Bone Marrow Failure Syndromes</h4>
-            <p><strong>Fanconi anaemia</strong> (FANC gene mutations; DNA interstrand crosslink repair defect → progressive BMF + cancer predisposition + congenital anomalies). <strong>Dyskeratosis congenita</strong> (DKC1, TERC, TERT — telomere maintenance defects → BMF + oral leukoplakia + nail dystrophy + pulmonary fibrosis). <strong>Diamond–Blackfan anaemia</strong> (ribosomal protein mutations RPS19, RPL5 etc. → selective red cell aplasia; steroid-responsive in ~80%). <strong>Shwachman–Diamond syndrome</strong> (SBDS gene → neutropenia + exocrine pancreatic insufficiency).</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Metastatic Marrow Infiltration</h4>
-            <p>Carcinoma invasion (breast, prostate, lung, neuroblastoma) displaces haematopoietic tissue → leukoerythroblastic blood picture (teardrops, nucleated RBCs, immature myeloid cells). Marrow trephine biopsy is the most sensitive staging tool. Clinical features: bone pain, pathological fractures, hypercalcaemia, cytopenias. RANKL inhibitor (denosumab) and bisphosphonates (zoledronic acid) reduce skeletal-related events.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Immune System</a>
-            <a class="conn-pill part" href="cardiovascular-system.html"><span class="rel">Part of</span>Cardiovascular System</a>
-            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Musculoskeletal System</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Erythrocyte (Scale 04)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Neutrophil (Scale 04)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>B Cell (Scale 04)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Platelet (Scale 04)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Osteoblast / Osteoclast</a>
-            <a class="conn-pill" href="thymus.html"><span class="rel">Supplies</span>Thymus (T-cell precursors)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulated by</span>Erythropoietin</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulated by</span>Cortical Bone</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Composed of</span>Haemoglobin (Scale 03)</a>
+            <a class="conn-pill part" href="immune-system.html" title="Bone marrow is a primary lymphoid organ; all haematopoietic cell lineages — including all immune cells — originate from HSCs in marrow. B-cell lymphopoiesis occurs entirely in bone marrow."><span class="rel">part-of</span>Immune System</a>
+            <a class="conn-pill part" href="cardiovascular-system.html" title="Bone marrow produces ~2 million erythrocytes per second, sustaining the oxygen-carrying capacity of the cardiovascular system throughout adult life."><span class="rel">part-of</span>Cardiovascular System</a>
+            <a class="conn-pill part" href="erythrocyte.html" title="Red bone marrow produces ~200 billion erythrocytes per day via erythropoiesis within sinusoidal niches; reticulocytes egress through marrow sinusoid walls."><span class="rel">contains</span>Erythrocyte</a>
+            <a class="conn-pill part" href="b-cell.html" title="B-cell lymphopoiesis occurs entirely in bone marrow: HSC → CLP → pro-B → pre-B → immature B → naive B cell. Bone marrow stromal cells (CXCL12⁺ CXCL13⁺ reticular cells) provide essential survival signals."><span class="rel">contains</span>B Cell</a>
+            <a class="conn-pill part" href="macrophage.html" title="Monocyte precursors and macrophage progenitors are generated in bone marrow from GMPs; macrophage nurse cells (osteoclasts, marrow macrophages) also reside in the niche and support erythroblast island formation."><span class="rel">contains</span>Macrophage</a>
+            <a class="conn-pill part" href="human-body.html" title="Bone marrow is distributed across the axial skeleton (vertebrae, sternum, ribs, pelvis) and epiphyses of long bones; total marrow volume in an adult is ~1.5–2 kg (~4% of body weight)."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill part" href="hemoglobin.html" title="Composed Of by Hemoglobin."><span class="rel">composed-of</span>Hemoglobin</a>
+            <a class="conn-pill" href="erythropoietin.html" title="Modulated by Erythropoietin."><span class="rel">modulated-by</span>Erythropoietin</a>
+            <a class="conn-pill" href="phosphorus.html" title="Modulated by Phosphorus."><span class="rel">modulated-by</span>Phosphorus</a>
+            <a class="conn-pill part" href="musculoskeletal-system.html" title="Part Of by Musculoskeletal System."><span class="rel">part-of</span>Musculoskeletal System</a>
+            <a class="conn-pill" href="cortical-bone.html" title="Modulated by Cortical Bone."><span class="rel">modulated-by</span>Cortical Bone</a>
+            <a class="conn-pill part" href="neutrophil.html" title="Composed Of by Neutrophil."><span class="rel">composed-of</span>Neutrophil</a>
+            <a class="conn-pill part" href="osteoblast.html" title="Composed Of by Osteoblast."><span class="rel">composed-of</span>Osteoblast</a>
+            <a class="conn-pill part" href="osteoclast.html" title="Composed Of by Osteoclast."><span class="rel">composed-of</span>Osteoclast</a>
+            <a class="conn-pill part" href="platelet.html" title="Composed Of by Platelet."><span class="rel">composed-of</span>Platelet</a>
+            <a class="conn-pill" href="cxcl12.html" title="CXCL12 from CAR cells (CXCL12-abundant reticular cells) → CXCR4 on HSC → Gαi → PI3K/Akt + actin polymerization → HSC retention in bone marrow niches; plerixafor (AMD3100, CXCR4 antagonist) blocks this → HSC egress into blood → collection for autologous transplant."><span class="rel">modulated-by</span>Cxcl12</a>
+            <a class="conn-pill" href="pnh.html" title="PNH arises from a single PIGA-mutant HSC in bone marrow; immune-mediated destruction of normal HSCs (aplastic anemia context) allows clonal expansion of GPI-deficient clone; 25-40% of aplastic anemia patients have PNH clones; PNH and AA overlap on a continuum."><span class="rel">connects-to</span>Pnh</a>
+            <a class="conn-pill" href="gvhd.html" title="GvHD originates from allogeneic bone marrow or peripheral blood stem cell transplantation; donor HSC engraftment in recipient bone marrow is required for GvHD; the marrow niche is reshaped by donor-derived immune reconstitution, influencing GvHD vs. GvL balance."><span class="rel">connects-to</span>Gvhd</a>
+            <a class="conn-pill" href="aplastic-anemia.html" title="AA results from T cell-mediated HSC destruction → hypocellular marrow (&lt;25% cellularity) replaced by fat; 25-40% of AA patients have PNH clones (AA-PNH overlap continuum); marrow biopsy showing fat-replaced hypocellular marrow is the diagnostic hallmark."><span class="rel">connects-to</span>Aplastic Anemia</a>
+            <a class="conn-pill" href="thrombopoietin.html" title="Marrow megakaryocytes are the primary c-Mpl-expressing TPO sensors; hepatic TPO is constitutively produced and regulated via c-Mpl absorption in marrow; thrombocytopenia expands megakaryocytes → more c-Mpl → more TPO; MPL LOF → CAMT (absent megakaryocytes from birth)."><span class="rel">connects-to</span>Thrombopoietin</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Orkin SH, Zon LI. Hematopoiesis: an evolving paradigm for stem cell biology. <em>Cell.</em> 2008;132(4):631-44. <a href="https://doi.org/10.1016/j.cell.2008.01.025" target="_blank" rel="noopener">doi:10.1016/j.cell.2008.01.025</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/18295580/" target="_blank" rel="noopener">PubMed 18295580</a></li>
-            <li>Morrison SJ, Scadden DT. The bone marrow niche for haematopoietic stem cells. <em>Nature.</em> 2014;505(7483):327-34. <a href="https://doi.org/10.1038/nature12984" target="_blank" rel="noopener">doi:10.1038/nature12984</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/24429631/" target="_blank" rel="noopener">PubMed 24429631</a></li>
-            <li>Short NJ, Kantarjian H. Bone marrow anatomy and its role in haematopoiesis. <em>Best Pract Res Clin Haematol.</em> 2021;34(1):101249. <a href="https://doi.org/10.1016/j.beha.2021.101249" target="_blank" rel="noopener">doi:10.1016/j.beha.2021.101249</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/33762083/" target="_blank" rel="noopener">PubMed 33762083</a></li>
-            <li>Hall JE. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Ch. 32. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
+            <li><a href="https://doi.org/10.1016/j.cell.2008.01.025" target="_blank" rel="noopener noreferrer">Orkin SH, Zon LI. Hematopoiesis: an evolving paradigm for stem cell biology. Cell. 2008;132(4):631-44.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18295580/" target="_blank" rel="noopener noreferrer">PubMed 18295580</a></li>
+            <li><a href="https://doi.org/10.1038/nature12984" target="_blank" rel="noopener noreferrer">Morrison SJ, Scadden DT. The bone marrow niche for haematopoietic stem cells. Nature. 2014;505(7483):327-34.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24429631/" target="_blank" rel="noopener noreferrer">PubMed 24429631</a></li>
+            <li><a href="https://doi.org/10.1016/j.beha.2021.101249" target="_blank" rel="noopener noreferrer">Short NJ, Kantarjian H. Bone marrow anatomy and its role in haematopoiesis. Best Pract Res Clin Haematol. 2021;34(1):101249.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33762083/" target="_blank" rel="noopener noreferrer">PubMed 33762083</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 32.</a></li>
           </ul>
         </div>
 
@@ -255,13 +203,11 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="thymus.html">Thymus</a>
-      <a href="spleen.html">Spleen</a>
       <a href="pathogens.html">Pathogens</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
