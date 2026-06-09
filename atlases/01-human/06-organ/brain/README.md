@@ -214,6 +214,9 @@ cross_links:
   - target: 01-human/03-molecular/tdp-43
     relation: connects-to
     note: "Nuclear TDP-43 loss in motor cortex and hippocampal neurons → cryptic exon inclusion in STMN2 (axon regeneration) and UNC13A (synaptic vesicle release); cytoplasmic inclusions in motor cortex (ALS), entorhinal cortex (LATE), and hippocampus (FTLD-TDP) are regionally distinct."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "GLP-1R in hypothalamic ARC/PVN neurons → reduced appetite and food cue reactivity; brainstem area postrema GLP-1R → nausea and gastric emptying delay; GLP-1R in VTA/NAcc reward circuits reduces motivation for high-fat food; semaglutide reduces food reward in human fMRI studies."
 ---
 
 # Brain
@@ -329,6 +332,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `secretes` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — hypothalamic SON/PVN neurons synthesize AVP transported to the posterior pituitary for systemic release; central AVP projections (V1aR in lateral septum, amygdala) mediate social memory consolidation and pair bonding; V1bR on corticotrophs synergises with CRH to sustain HPA axis ACTH secretion.
 - `modulated-by` → **[Leptin](../../03-molecular/leptin/README.md)** — LEPR-Rb in hypothalamic ARC, DMH, and VMH neurons → JAK2/STAT3 → ↑POMC/CART and ↓NPY/AgRP → appetite suppression and ↑energy expenditure; leptin resistance in obesity impairs this signalling; leptin also regulates hypothalamic GnRH, TRH, and CRH neuroendocrine output.
 - `connects-to` → **[TDP-43](../../03-molecular/tdp-43/README.md)** — nuclear TDP-43 loss in motor cortex and hippocampal neurons → cryptic exon de-repression in STMN2 (axon regeneration) and UNC13A (synaptic vesicle release); cytoplasmic inclusions in motor cortex (ALS), entorhinal cortex (LATE), and hippocampus (FTLD-TDP) are regionally and subtype-distinct.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1R in hypothalamic ARC/PVN neurons → reduced appetite and food cue reactivity; brainstem area postrema GLP-1R → nausea and gastric emptying delay; GLP-1R in VTA/NAcc reward circuits reduces motivation for high-fat food; semaglutide reduces food reward in human fMRI studies.
 
 ## Pathology
 

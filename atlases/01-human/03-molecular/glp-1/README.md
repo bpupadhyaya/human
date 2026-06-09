@@ -24,6 +24,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "GLP-1, secreted by intestinal L-cells post-meal, potentiates insulin release, suppresses glucagon and appetite; GLP-1/GIP receptor agonists (semaglutide ~15%, tirzepatide ~22% weight loss) are the most effective pharmacological obesity treatments available."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "SELECT trial (semaglutide 2.4 mg, obesity without T2DM): 20% MACE reduction vs placebo; SUSTAIN-6 and LEADER established GLP-1R agonists as antidiabetic drugs with proven CV benefit; GLP-1R on cardiomyocytes → anti-inflammatory and vasodilatory cardioprotective effects."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "GLP-1R in hypothalamic ARC/PVN neurons → reduced appetite and food cue reactivity; brainstem area postrema GLP-1R → nausea and gastric emptying delay; GLP-1R in VTA/NAcc reward circuits reduces motivation for high-fat food; semaglutide reduces food reward in human fMRI studies."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "GLP-1R activation reduces amyloid-β, tau phosphorylation, and neuroinflammation in preclinical AD models; semaglutide EVOKE Phase 3 trial targets early AD; GLP-1R agonists may address brain insulin resistance via Akt → reduced GSK-3β → less tau hyperphosphorylation."
 sources:
   - id: drucker-2006-glp1-biology
     type: peer-reviewed
@@ -101,12 +110,17 @@ GLP-1(7–36)amide is the predominant circulating form (C-terminal amidation pro
 
 ## Connections
 
-GLP-1R agonists (semaglutide, liraglutide, dulaglutide) reduce HbA1c 1-1.5% and weight 5-15%; glucose-dependent insulin secretion avoids hypoglycemia; SUSTAIN-6 (semaglutide) and LEADER (liraglutide) showed CV risk reduction in T2D with established cardiovascular disease.
+- `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — GLP-1R agonists (semaglutide, liraglutide, dulaglutide) reduce HbA1c 1-1.5% and weight 5-15%; glucose-dependent insulin secretion avoids hypoglycemia; SUSTAIN-6 (semaglutide) and LEADER (liraglutide) showed CV risk reduction in T2D with established cardiovascular disease.
+- `connects-to` → **[NASH](../../07-system/nash/README.md)** — semaglutide resolved NASH histology in 59% vs 17% placebo (Phase 2); GLP-1R activation reduces hepatic lipogenesis, liver inflammation, and oxidative stress; semaglutide ESSENCE Phase 3 NASH trial is ongoing; GLP-1R agonists are promising disease-modifying agents for NASH.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — GLP-1 and glucagon are both encoded by GCG (proglucagon) and produced via tissue-specific PC2/PC1 cleavage: α-cells make glucagon; L-cells make GLP-1 and GLP-2; GLP-1 suppresses glucagon secretion, opposing glucagon-driven hepatic glucose output.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — GLP-1 amplifies glucose-stimulated insulin secretion in pancreatic β-cells via GLP-1R/cAMP/PKA pathway; glucose-dependence prevents hypoglycemia at low glucose; GLP-1 promotes β-cell proliferation via PI3K/Akt and inhibits apoptosis, preserving β-cell mass in type 2 diabetes.
+- `connects-to` → **[Obesity](../../07-system/obesity/README.md)** — GLP-1, secreted by intestinal L-cells post-meal, potentiates insulin release, suppresses glucagon and appetite via hypothalamic GLP-1R; GLP-1/GIP receptor agonists (semaglutide ~15%, tirzepatide ~22% weight loss) are the most effective pharmacological obesity treatments currently available.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — SELECT trial (semaglutide 2.4 mg, obesity without T2DM): 20% MACE reduction vs placebo; SUSTAIN-6 and LEADER established GLP-1R agonists as antidiabetic drugs with proven CV benefit; GLP-1R on cardiomyocytes → anti-inflammatory and vasodilatory cardioprotective effects.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — GLP-1R in hypothalamic ARC/PVN neurons → reduced appetite and food cue reactivity; brainstem area postrema GLP-1R → nausea and gastric emptying delay; GLP-1R in VTA/NAcc reward circuits reduces motivation for high-fat food; semaglutide reduces food reward in human fMRI studies.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — GLP-1R activation reduces amyloid-β, tau phosphorylation, and neuroinflammation in preclinical AD models; semaglutide EVOKE Phase 3 trial targets early AD; GLP-1R agonists may address brain insulin resistance via Akt → reduced GSK-3β → less tau hyperphosphorylation.
 
-Semaglutide resolved NASH histology in 59% vs 17% placebo (Phase 2); GLP-1R activation reduces hepatic lipogenesis, liver inflammation, and oxidative stress; semaglutide ESSENCE Phase 3 NASH trial is ongoing; GLP-1R agonists are promising disease-modifying agents for NASH.
+[^drucker-2006-glp1-biology]: Drucker DJ. The biology of incretin hormones. *Cell Metab.* 2006;3(3):153-165. [doi:10.1016/j.cmet.2006.01.004](https://doi.org/10.1016/j.cmet.2006.01.004) · [PubMed 16517403](https://pubmed.ncbi.nlm.nih.gov/16517403/)
+[^marso-2016-semaglutide-cvd]: Marso SP, Bain SC, Consoli A, et al. Semaglutide and cardiovascular outcomes in patients with type 2 diabetes. *N Engl J Med.* 2016;375(19):1834-1844. [doi:10.1056/NEJMoa1607141](https://doi.org/10.1056/NEJMoa1607141) · [PubMed 27633186](https://pubmed.ncbi.nlm.nih.gov/27633186/)
 
-GLP-1 and glucagon are both encoded by GCG (proglucagon) and produced via tissue-specific PC2/PC1 cleavage: α-cells make glucagon; L-cells make GLP-1 and GLP-2; GLP-1 suppresses glucagon secretion, opposing glucagon-driven hepatic glucose output.
-
-GLP-1 amplifies glucose-stimulated insulin secretion in pancreatic β-cells via GLP-1R/cAMP/PKA pathway; glucose-dependence prevents hypoglycemia at low glucose; GLP-1 promotes β-cell proliferation via PI3K/Akt and inhibits apoptosis, preserving β-cell mass in type 2 diabetes.
-
-GLP-1, secreted by intestinal L-cells post-meal, potentiates insulin release, suppresses glucagon and appetite via hypothalamic GLP-1R; GLP-1/GIP receptor agonists (semaglutide ~15%, tirzepatide ~22% weight loss) are the most effective pharmacological obesity treatments currently available.
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

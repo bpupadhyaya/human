@@ -67,6 +67,9 @@ cross_links:
   - target: 01-human/03-molecular/tdp-43
     relation: connects-to
     note: "LATE (limbic-predominant age-related TDP-43 encephalopathy) affects ~20% of octogenarians and mimics AD clinically; TDP-43 co-pathology in ~57% of AD brains worsens cognitive trajectory; nuclear loss → TDPBP cryptic exon inclusion in hippocampal neurons."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "GLP-1R activation reduces amyloid-β, tau phosphorylation, and neuroinflammation in preclinical AD models; semaglutide EVOKE Phase 3 trial targets early AD; GLP-1R agonists may address brain insulin resistance via Akt → reduced GSK-3β → less tau hyperphosphorylation."
 ---
 
 # Alzheimer's Disease
@@ -182,6 +185,7 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin production declines in Alzheimer disease due to SCN atrophy; disrupted circadian rhythm → sundowning (late-day agitation); exogenous melatonin (0.5-6 mg bedtime) modestly improves AD sleep; melatonin is antioxidant and reduces Aβ aggregation in preclinical models.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — impaired brain insulin signalling ("type 3 diabetes") is implicated in AD: INSR hyposensitivity → reduced Akt → ↑GSK-3β → tau hyperphosphorylation; intranasal insulin improves memory in MCI/AD Phase 2 trials; T2DM doubles AD risk; GLP-1 agonists are under Phase 3 investigation.
 - `connects-to` → **[TDP-43](../../03-molecular/tdp-43/README.md)** — LATE (limbic-predominant age-related TDP-43 encephalopathy) affects ~20% of octogenarians and mimics AD clinically; TDP-43 co-pathology in ~57% of AD brains worsens cognitive trajectory; nuclear TDP-43 loss → cryptic exon inclusion in hippocampal neurons via TDPBP splicing suppression loss.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1R activation reduces amyloid-β, tau phosphorylation, and neuroinflammation in preclinical AD models; semaglutide EVOKE Phase 3 trial targets early AD; GLP-1R agonists may address brain insulin resistance via Akt → reduced GSK-3β → less tau hyperphosphorylation.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
