@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Brain — the ~1.4 kg central organ of the nervous system: cognition, memory, emotion, and motor control. Scale 06 of the Human Atlas. Part of the Human Engineering project.">
+  <meta name="description" content="The ~1.4 kg central organ of the nervous system: site of cognition, perception, memory, emotion, and motor control. Contains ~86 billion neurons in 4 cortical l">
   <meta property="og:title" content="Brain — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Brain — Human Engineering</title>
@@ -13,85 +13,83 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #7c3aed;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
-
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
-
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -110,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -122,158 +119,95 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Host Biology &middot; Scale 06 &mdash; Organ</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
     <h1>Brain</h1>
-    <p class="tagline">The ~1.4 kg central organ of the nervous system &mdash; seat of cognition, perception, memory, emotion, language, and voluntary movement, and master regulator of visceral function and endocrine secretion.</p>
-    <p class="subtagline">Despite representing only ~2% of body weight, the brain consumes ~20% of resting metabolic energy. Its ~86 billion neurons form an estimated 100&ndash;500 trillion synaptic connections.</p>
+    <p class="tagline">The ~1.4 kg central organ of the nervous system: site of cognition, perception, memory, emotion, and motor control. Contains ~86 billion neurons in 4 cortical lobes, subcortical nuclei, cerebellum, and brainstem. Protected by skull, meninges, and the blood-brain barrier.</p>
+    <p class="aliases">Also known as: encephalon, cerebrum, cerebral cortex, human brain</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">86 billion</span><span class="stat-label">Neurons</span></div>
-      <div class="stat"><span class="stat-num">~1.5 kg</span><span class="stat-label">Weight</span></div>
-      <div class="stat"><span class="stat-num">~20%</span><span class="stat-label">Cardiac Output</span></div>
-      <div class="stat"><span class="stat-num">100+ years</span><span class="stat-label">Potential Lifespan</span></div>
+        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">UBERON:0000955 &middot; FMA:50801 &middot; Atlas One / Scale 06</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">brain</div>
         <h2>Brain</h2>
-        <p class="summary">The most complex biological organ known to science. A ~1.4 kg structure that serves as the seat of all conscious experience, cognition, memory, emotion, language, and voluntary movement. Contains ~86 billion neurons, ~85 billion non-neuronal cells (glia), and an estimated 100&ndash;500 trillion synapses. Protected by the skull, meninges, cerebrospinal fluid, and the blood-brain barrier.</p>
+        <p class="summary">The ~1.4 kg central organ of the nervous system: site of cognition, perception, memory, emotion, and motor control. Contains ~86 billion neurons in 4 cortical lobes, subcortical nuclei, cerebellum, and brainstem. Protected by skull, meninges, and the blood-brain barrier.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The human brain is the <strong>most complex biological organ known to science</strong> &mdash; a ~1.4 kg (3.1 lb) structure that serves as the seat of all conscious experience, cognition, memory, emotion, language, and voluntary movement. It is also the master regulatory organ for visceral function, endocrine secretion, and behavioral state. Despite representing only ~2% of body weight, the brain consumes approximately <strong>20% of the body's resting metabolic energy</strong> &mdash; almost entirely in the form of glucose and oxygen delivered by continuous blood flow (~750 mL/min).</p>
-          <p>The brain contains approximately <strong>86 billion neurons</strong> &mdash; a number essentially equal to the ~85 billion non-neuronal cells (predominantly glia: astrocytes, oligodendrocytes, microglia). Each neuron makes, on average, ~7,000 synaptic connections, yielding a total synaptic count estimated at 100&ndash;500 trillion. This connectivity underlies the brain's extraordinary information-processing capacity &mdash; and the intricacy of the disorders that result when it is disrupted.</p>
-          <p>The brain's critical importance is reflected in its multiple layers of protection: a rigid bony skull, three meningeal layers (dura, arachnoid, pia), cerebrospinal fluid (CSF) cushioning, and the <strong>blood-brain barrier (BBB)</strong> &mdash; a specialized endothelial tight-junction barrier that selectively controls which molecules enter the CNS parenchyma.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure &mdash; Major Anatomical Divisions</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Division</th><th>Key structures</th><th>Core functions</th></tr>
-            <tr><td><strong>Cerebral cortex</strong></td><td>Frontal, parietal, temporal, occipital lobes; 6 cortical layers; ~2&ndash;4 mm thick; ~145,000 mm&sup2; surface area (highly folded)</td><td>Higher cognition, sensory perception, voluntary motor control, language, executive function</td></tr>
-            <tr><td><strong>Frontal lobe</strong></td><td>Primary motor cortex (M1), premotor, supplementary motor; prefrontal cortex (PFC); Broca's area</td><td>Motor planning and execution; executive function, working memory, decision-making; speech production</td></tr>
-            <tr><td><strong>Parietal lobe</strong></td><td>Primary somatosensory cortex (S1); posterior parietal cortex</td><td>Somatosensory processing; spatial orientation; sensorimotor integration</td></tr>
-            <tr><td><strong>Temporal lobe</strong></td><td>Primary auditory cortex; Wernicke's area; fusiform gyrus; entorhinal cortex</td><td>Auditory processing; language comprehension; face/object recognition; memory encoding (via hippocampus)</td></tr>
-            <tr><td><strong>Occipital lobe</strong></td><td>Primary visual cortex (V1); extrastriate areas V2&ndash;V5 (MT/V5 for motion; V4 for color)</td><td>Visual perception and processing</td></tr>
-            <tr><td><strong>Basal ganglia</strong></td><td>Striatum (caudate + putamen), globus pallidus, subthalamic nucleus, substantia nigra</td><td>Motor program selection, habit formation, reward-based learning; direct and indirect pathways</td></tr>
-            <tr><td><strong>Hippocampus</strong></td><td>CA1, CA3, dentate gyrus, subiculum (medial temporal lobe)</td><td>Episodic memory encoding (declarative), spatial navigation, pattern completion and separation</td></tr>
-            <tr><td><strong>Amygdala</strong></td><td>Basolateral, central, medial nuclei</td><td>Fear conditioning, emotional memory, threat appraisal, social cognition</td></tr>
-            <tr><td><strong>Thalamus</strong></td><td>Lateral geniculate (vision), medial geniculate (audition), VPL/VPM (somatosensory), mediodorsal (PFC relay), pulvinar</td><td>Sensory relay and gating to cortex; corticothalamic loops for attention and consciousness</td></tr>
-            <tr><td><strong>Hypothalamus</strong></td><td>Arcuate, paraventricular, suprachiasmatic, lateral hypothalamic nuclei</td><td>Homeostasis (temperature, hunger, thirst, sleep-wake); endocrine axis control (HPA, HPT, HPG); circadian rhythm</td></tr>
-            <tr><td><strong>Cerebellum</strong></td><td>Cortex (Purkinje cells, granule cells), deep cerebellar nuclei</td><td>Motor coordination, balance, timing, procedural learning; cognitive roles emerging</td></tr>
-            <tr><td><strong>Brainstem</strong></td><td>Midbrain (VTA, SNc, superior colliculus); pons (locus coeruleus, raphe); medulla (cardiovascular/respiratory centers)</td><td>Arousal; monoaminergic nuclei (DA, NE, 5-HT); vital reflex control (breathing, HR, BP)</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>brain</td></tr>
+            <tr><td>Name</td><td>Brain</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>06-organ</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Gray Matter vs. White Matter</h3>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Gray matter</h4>
-              <p>Contains neuronal cell bodies, dendrites, synapses, and unmyelinated axons. Found in cortex, basal ganglia, thalamus, and cerebellar cortex. Site of local computation and information processing.</p>
-            </div>
-            <div class="info-block">
-              <h4>White matter</h4>
-              <p>Dense tracts of myelinated axons connecting gray matter regions. Major tracts: corpus callosum (interhemispheric), internal capsule (corticospinal/thalamocortical), arcuate fasciculus (language), uncinate fasciculus (temporal-frontal). Constitutes ~60% of brain volume.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Blood Supply and the Blood-Brain Barrier</h3>
-          <p>The brain receives arterial blood via the <strong>internal carotid arteries</strong> (anterior circulation) and <strong>vertebral arteries</strong> (posterior circulation), joined at the <strong>Circle of Willis</strong>. Cerebrovascular autoregulation maintains constant cerebral blood flow (CBF ~50 mL/100 g/min) across a wide range of arterial blood pressures (MAP 60&ndash;160 mmHg).</p>
-          <p>The <strong>blood-brain barrier (BBB)</strong> consists of specialized endothelial cells with tight junctions (claudins, occludins), surrounded by pericytes and astrocytic endfeet. The BBB restricts passage of polar molecules, charged species, and most large proteins while permitting lipid-soluble molecules and those with specific transporters. It is a major obstacle to CNS drug delivery &mdash; most therapeutic molecules do not cross the BBB.</p>
-          <div class="two-col" style="margin-top:0.75rem;">
-            <div class="info-block">
-              <h4>Anterior circulation</h4>
-              <p>Internal carotid arteries branch into middle cerebral arteries (MCA) and anterior cerebral arteries (ACA), supplying frontal, parietal, and lateral temporal lobes. MCA territory is the most commonly affected in ischemic stroke.</p>
-            </div>
-            <div class="info-block">
-              <h4>Posterior circulation</h4>
-              <p>Vertebral arteries join to form the basilar artery, supplying brainstem, cerebellum, occipital lobes, and medial temporal lobes via posterior cerebral arteries (PCA). Posterior circulation strokes affect vision, balance, and consciousness.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function &mdash; Memory Systems</h3>
-          <table class="data-table">
-            <tr><th>Memory type</th><th>Neural substrate</th><th>Mechanism</th></tr>
-            <tr><td><strong>Episodic (declarative)</strong></td><td>Hippocampus &rarr; entorhinal cortex &rarr; neocortex</td><td>LTP-based encoding; hippocampal-dependent initially; systems consolidation to cortex over weeks</td></tr>
-            <tr><td><strong>Semantic</strong></td><td>Anterior temporal lobe, neocortex</td><td>Distributed cortical representations</td></tr>
-            <tr><td><strong>Procedural/motor</strong></td><td>Basal ganglia (habit), cerebellum (motor sequence)</td><td>Dopaminergic reward learning; cerebellar error correction</td></tr>
-            <tr><td><strong>Fear/emotional</strong></td><td>Amygdala (BLA) &rarr; hippocampus</td><td>Pavlovian fear conditioning; emotional modulation of hippocampal encoding</td></tr>
-            <tr><td><strong>Working memory</strong></td><td>Dorsolateral PFC</td><td>Persistent activity in layer III pyramidal neuron circuits; DA D1 optimization</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function &mdash; Cognition, Consciousness, and Motor Control</h3>
-          <p>The <strong>prefrontal cortex</strong> orchestrates executive functions: working memory, planning, cognitive flexibility, impulse control, and decision-making under uncertainty. The <strong>default mode network</strong> (medial PFC, posterior cingulate, angular gyrus) is active during mind-wandering, self-referential thought, and episodic memory retrieval.</p>
-          <p>Consciousness requires the <strong>thalamocortical system</strong>: continuous, synchronized activity between thalamus and widespread cortical areas. Disruption of this system &mdash; by anesthesia, sleep, seizure, or structural damage &mdash; impairs consciousness.</p>
-          <p>The <strong>corticospinal tract</strong> carries voluntary motor commands from M1 (layer V Betz cells) through internal capsule &rarr; brainstem &rarr; spinal cord &rarr; lower motor neurons &rarr; muscle. The <strong>basal ganglia</strong> select and gate motor programs (via direct and indirect pathways, modulated by dopamine from SNc). The <strong>cerebellum</strong> computes prediction errors and fine-tunes motor execution.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Stroke</h4>
-            <p>Ischemic (~87%): embolic or thrombotic occlusion &rarr; excitotoxic infarction. Hemorrhagic (~13%): vessel rupture. #2 cause of death globally; ~15 million cases/year.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Alzheimer's disease</h4>
-            <p>Amyloid-&beta; plaque deposition, tau neurofibrillary tangles &rarr; synaptic loss &rarr; neurodegeneration; hippocampus first. ~50 million affected globally; leading cause of dementia.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Traumatic brain injury (TBI)</h4>
-            <p>Mechanical disruption &rarr; excitotoxicity, inflammation, axonal shear injury. ~70 million/year globally; #1 cause of disability in young adults.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Parkinson's disease</h4>
-            <p>Selective loss of SNc dopaminergic neurons &rarr; striatal dopamine depletion &rarr; motor circuit dysfunction. ~10 million globally; tremor, rigidity, bradykinesia.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Epilepsy</h4>
-            <p>E/I imbalance &rarr; seizure generation and propagation (focal or generalized). ~50 million globally; 30% drug-resistant.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Depression</h4>
-            <p>Monoamine/glutamate/neuroinflammation hypothesis; PFC hypoactivity, amygdala hyperactivity. ~280 million globally; leading disability cause.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Glioblastoma (GBM)</h4>
-            <p>Grade IV astrocytoma; diffusely infiltrating; IDH-wildtype; median survival ~15 months even with treatment. ~3/100,000/year; most lethal primary brain tumor.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Schizophrenia</h4>
-            <p>NMDA hypofunction + dopamine dysregulation; PV interneuron loss &rarr; gamma synchrony deficits. ~24 million globally; 0.3&ndash;0.7% lifetime prevalence.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="nervous-system.html"><span class="rel">Part of</span>Nervous System</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Connects to</span>Cardiovascular System</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Neuron (Scale 04)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Synapse (Scale 05)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulated by</span>Dopamine</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulated by</span>Glutamate</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulated by</span>GABA</a>
+            <a class="conn-pill part" href="synapse.html" title="The brain contains an estimated 100–500 trillion synapses — the functional junctions of its neural circuits."><span class="rel">contains</span>Synapse</a>
+            <a class="conn-pill part" href="neuron.html" title="The brain contains ~86 billion neurons distributed across cortical and subcortical structures."><span class="rel">contains</span>Neuron</a>
+            <a class="conn-pill part" href="nervous-system.html" title="The brain is the principal organ of the central nervous system."><span class="rel">part-of</span>Nervous System</a>
+            <a class="conn-pill" href="dopamine.html" title="Dopamine regulates reward, motor control, cognition, and pituitary function via mesolimbic, mesocortical, nigrostriatal, and tuberoinfundibular pathways."><span class="rel">modulated-by</span>Dopamine</a>
+            <a class="conn-pill" href="glutamate.html" title="Glutamate drives the excitatory activity underlying perception, cognition, and memory at ~80% of brain synapses."><span class="rel">modulated-by</span>Glutamate</a>
+            <a class="conn-pill" href="gaba.html" title="GABA provides inhibitory control that maintains E/I balance, network oscillations, and circuit stability throughout the brain."><span class="rel">modulated-by</span>Gaba</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="The brain requires ~20% of resting cardiac output; cerebrovascular autoregulation and the baroreceptor reflex link brain and cardiovascular system."><span class="rel">connects-to</span>Cardiovascular System</a>
+            <a class="conn-pill damaged" href="prion-protein.html" title="PrPSc accumulation in brain parenchyma causes spongiform vacuolation, astrogliosis, and neuronal loss; CJD destroys cortex, thalamus, and cerebellum progressively"><span class="rel">damaged-by</span>Prion Protein</a>
+            <a class="conn-pill part" href="hippocampus.html" title="Composed Of by Hippocampus."><span class="rel">composed-of</span>Hippocampus</a>
+            <a class="conn-pill part" href="microglia.html" title="Composed Of by Microglia."><span class="rel">composed-of</span>Microglia</a>
+            <a class="conn-pill part" href="oligodendrocyte.html" title="Composed Of by Oligodendrocyte."><span class="rel">composed-of</span>Oligodendrocyte</a>
+            <a class="conn-pill part" href="astrocyte.html" title="Composed Of by Astrocyte."><span class="rel">composed-of</span>Astrocyte</a>
+            <a class="conn-pill damaged" href="rabies-virus.html" title="Damaged by Rabies Virus (RABV)."><span class="rel">damaged-by</span>Rabies Virus</a>
+            <a class="conn-pill damaged" href="zika-virus.html" title="Damaged by Zika Virus (ZIKV)."><span class="rel">damaged-by</span>Zika Virus</a>
+            <a class="conn-pill damaged" href="cryptococcus-neoformans.html" title="Damaged by Cryptococcus neoformans."><span class="rel">damaged-by</span>Cryptococcus Neoformans</a>
+            <a class="conn-pill damaged" href="trypanosoma-brucei.html" title="Damaged by Trypanosoma brucei."><span class="rel">damaged-by</span>Trypanosoma Brucei</a>
+            <a class="conn-pill damaged" href="toxoplasma-gondii.html" title="Damaged by Toxoplasma gondii."><span class="rel">damaged-by</span>Toxoplasma Gondii</a>
+            <a class="conn-pill damaged" href="neisseria-meningitidis.html" title="Damaged by Neisseria meningitidis."><span class="rel">damaged-by</span>Neisseria Meningitidis</a>
+            <a class="conn-pill damaged" href="listeria-monocytogenes.html" title="Damaged by Listeria monocytogenes."><span class="rel">damaged-by</span>Listeria Monocytogenes</a>
+            <a class="conn-pill" href="ginkgo-biloba.html" title="Modulated by Ginkgo biloba (EGb 761)."><span class="rel">modulated-by</span>Ginkgo Biloba</a>
+            <a class="conn-pill" href="st-johns-wort.html" title="Modulated by St. John's Wort (Hypericum perforatum)."><span class="rel">modulated-by</span>St Johns Wort</a>
+            <a class="conn-pill" href="migraine.html" title="Migraine involves cortical spreading depression (CSD) as the aura generator in occipital cortex; hypothalamus drives prodromal symptoms; pain localizes to TNC and thalamus; PET identifies a brainstem migraine generator in dorsal raphe and PAG."><span class="rel">target-of</span>Migraine</a>
+            <a class="conn-pill" href="als.html" title="ALS selectively degenerates upper motor neurons (primary motor cortex Betz cells) and their corticospinal projections; motor cortex hyperexcitability is an early feature; TDP-43 inclusions appear in motor cortex neurons in &gt;97% of ALS; motor cortex atrophy is detectable by MRI."><span class="rel">connects-to</span>Als</a>
+            <a class="conn-pill" href="huntingtons-disease.html" title="HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal atrophy and tracks disease progression by UHDRS total functional capacity."><span class="rel">connects-to</span>Huntingtons Disease</a>
+            <a class="conn-pill" href="obsessive-compulsive-disorder.html" title="OCD is a CSTC circuit disorder: OFC/ACC hyperactivity drives excessive error detection; caudate hyperactivity disinhibits thalamocortical drive back to OFC → repetitive compulsions; SSRIs and ERP both normalize caudate hypermetabolism on PET, converging on the same circuit."><span class="rel">connects-to</span>Obsessive Compulsive Disorder</a>
+            <a class="conn-pill" href="attention-deficit-hyperactivity-disorder.html" title="ADHD involves PFC, anterior cingulate, and striatal circuit dysfunction; MRI shows ~3-5% smaller brain volume with 2-5 year maturation delay; default mode network fails to deactivate during tasks → attention lapses; PFC gray matter thinning correlates with ADHD severity."><span class="rel">connects-to</span>Attention Deficit Hyperactivity Disorder</a>
+            <a class="conn-pill" href="generalized-anxiety-disorder.html" title="GAD involves amygdala hyperreactivity, vmPFC hypoactivity, and hippocampal volume reduction; fMRI shows increased amygdala-insula connectivity and failure of vmPFC to suppress amygdala fear responses; SSRIs and CBT both normalize amygdala reactivity on fMRI."><span class="rel">connects-to</span>Generalized Anxiety Disorder</a>
+            <a class="conn-pill" href="panic-disorder.html" title="Panic disorder features BLA hyperreactivity to interoceptive and CO2 stimuli, insula hyperactivation, reduced vmPFC control over amygdala, and LC-NE dysregulation; CBT with interoceptive exposure normalizes amygdala-insula reactivity on fMRI over weeks."><span class="rel">connects-to</span>Panic Disorder</a>
+            <a class="conn-pill" href="social-anxiety-disorder.html" title="SAD features BLA hyperreactivity to social threat cues and reduced amygdala habituation; striatal hypoactivation during social reward; reduced vmPFC-amygdala inhibition; CBT with behavioral experiments normalizes amygdala-vmPFC connectivity on task-based fMRI."><span class="rel">connects-to</span>Social Anxiety Disorder</a>
+            <a class="conn-pill" href="alcohol-use-disorder.html" title="AUD weakens PFC-NAcc inhibitory control circuits; amygdala CRF hyperactivation drives negative reinforcement drinking; hippocampal neurogenesis is suppressed by chronic alcohol; partial brain volume recovery occurs after ≥6 months of sustained abstinence."><span class="rel">connects-to</span>Alcohol Use Disorder</a>
+            <a class="conn-pill" href="opioid-use-disorder.html" title="OUD remodels VTA-NAcc reward circuits (MOR disinhibition), LC (NE rebound withdrawal), PFC control circuits (craving-driven approach), and amygdala (conditioned fear of withdrawal); buprenorphine and naltrexone normalize these circuit abnormalities over months of treatment."><span class="rel">connects-to</span>Opioid Use Disorder</a>
+            <a class="conn-pill" href="insomnia-disorder.html" title="Insomnia involves VLPO failure to silence arousal centers (LC, TMN, raphe, orexin neurons) — the flip-flop switch remains unstable; cortical hyperarousal at sleep onset on EEG (elevated beta power) is the core mechanism; CBT-I normalizes sleep-wake homeostasis."><span class="rel">connects-to</span>Insomnia Disorder</a>
+            <a class="conn-pill part" href="orexin.html" title="Orexin neurons are confined to the lateral hypothalamus and project to LC, TMN, raphe, basal forebrain, and VTA; loss of ~70,000 orexin neurons in narcolepsy type 1 is the most precisely characterized lesion underlying a primary sleep disorder."><span class="rel">contains</span>Orexin</a>
+            <a class="conn-pill" href="anorexia-nervosa.html" title="AN shows gray matter reduction in OFC, insular cortex, and cingulate; fMRI reveals altered insula processing of food cues and reduced striatal reward responses; OFC hyperactivation drives cognitive rigidity; much gray matter recovers with weight restoration over 1-2 years."><span class="rel">connects-to</span>Anorexia Nervosa</a>
+            <a class="conn-pill" href="borderline-personality-disorder.html" title="BPD features amygdala hyperreactivity to social threat and rejection cues, reduced vmPFC-amygdala inhibitory connectivity, and impaired PFC regulation; effective DBT treatment normalizes amygdala reactivity and increases PFC activation on fMRI over 12 months of treatment."><span class="rel">connects-to</span>Borderline Personality Disorder</a>
+            <a class="conn-pill" href="mu-opioid-receptor.html" title="MOR expressed in PAG (descending analgesia), VTA (euphoria via DA disinhibition), LC (arousal/withdrawal), NAcc (reinforcement), amygdala (aversion), and pre-Bötzinger complex (respiratory rhythm depression); MOR distribution explains opioids' broad opposing CNS effects."><span class="rel">connects-to</span>Mu Opioid Receptor</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Kandel ER, Koester JD, Mack SH, Siegelbaum SA. <em>Principles of Neural Science.</em> 6th ed. McGraw-Hill; 2021. <a href="https://www.mhprofessional.com/principles-of-neural-science-sixth-edition-9781259642234-usa" target="_blank" rel="noopener">mhprofessional.com</a></li>
-            <li>Azevedo FA, Carvalho LR, Grinberg LT, et al. Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. <em>J Comp Neurol.</em> 2009;513(5):532-541. <a href="https://doi.org/10.1002/cne.21974" target="_blank" rel="noopener">doi:10.1002/cne.21974</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19226510/" target="_blank" rel="noopener">PubMed 19226510</a></li>
-            <li>Herculano-Houzel S. The human brain in numbers: a linearly scaled-up primate brain. <em>Front Hum Neurosci.</em> 2009;3:31. <a href="https://doi.org/10.3389/neuro.09.031.2009" target="_blank" rel="noopener">doi:10.3389/neuro.09.031.2009</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19915731/" target="_blank" rel="noopener">PubMed 19915731</a></li>
-            <li>OpenStax. <em>Anatomy and Physiology 2e.</em> Chapter 13: Anatomy of the Nervous System. Rice University; 2022. <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective" target="_blank" rel="noopener">openstax.org</a></li>
+            <li><a href="https://www.mhprofessional.com/principles-of-neural-science-sixth-edition-9781259642234-usa" target="_blank" rel="noopener noreferrer">Kandel ER, Koester JD, Mack SH, Siegelbaum SA. Principles of Neural Science. 6th ed. McGraw-Hill; 2021.</a></li>
+            <li><a href="https://doi.org/10.1002/cne.21974" target="_blank" rel="noopener noreferrer">Azevedo FA, Carvalho LR, Grinberg LT, et al. Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. J Comp Neurol. 2009;513(5):532-541.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19226510/" target="_blank" rel="noopener noreferrer">PubMed 19226510</a></li>
+            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy and Physiology 2e. Chapter 13: Anatomy of the Nervous System. Rice University; 2022.</a></li>
+            <li><a href="https://doi.org/10.3389/neuro.09.031.2009" target="_blank" rel="noopener noreferrer">Herculano-Houzel S. The human brain in numbers: a linearly scaled-up primate brain. Front Hum Neurosci. 2009;3:31.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19915731/" target="_blank" rel="noopener noreferrer">PubMed 19915731</a></li>
           </ul>
         </div>
 
@@ -282,14 +216,12 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end &mdash; in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="nervous-system.html">Nervous System</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>

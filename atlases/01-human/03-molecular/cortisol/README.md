@@ -68,6 +68,12 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "HPA axis hyperactivation in GAD → elevated morning cortisol → hippocampal volume reduction and impaired fear extinction; cortisol feedback sensitization perpetuates chronic worry; morning cortisol levels in GAD normalize with effective SSRI treatment."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "HPA axis hyperactivation in AN → elevated cortisol → bone loss, immune suppression, and cognitive impairment; hypercortisolemia is present even when BMI partially normalizes; normalizes with sustained weight restoration and nutritional rehabilitation."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "BPD shows HPA axis hyperreactivity to interpersonal stress — steeper cortisol increase and delayed recovery following social rejection; early trauma → HPA axis sensitization; elevated cortisol impairs PFC inhibitory control → impulsive behavior during emotional crises."
 ---
 
 # Cortisol
@@ -200,6 +206,8 @@ The diurnal cortisol rhythm is a **time-giver (Zeitgeber) signal** for periphera
 - `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — PTSD exhibits paradoxical hypocortisolemia with elevated CRH but enhanced GR sensitivity; low cortisol impairs fear extinction; hydrocortisone given acutely after trauma shows prophylactic benefit; opposite HPA profile from MDD.
 - `connects-to` → **[Major Depressive Disorder](../../07-system/major-depressive-disorder/README.md)** — HPA hyperactivation in MDD causes hippocampal atrophy via GR-mediated BDNF suppression; elevated cortisol and blunted DST suppression are the most replicated biological findings in depression; mifepristone and CRH antagonists show antidepressant activity.
 - `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — HPA axis hyperactivation in GAD → elevated morning cortisol → hippocampal volume reduction and impaired fear extinction; cortisol feedback sensitization perpetuates chronic worry; morning cortisol normalizes with effective SSRI treatment.
+- `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — HPA axis hyperactivation in AN → elevated cortisol → bone loss, immune suppression, and cognitive impairment; hypercortisolemia persists even when BMI partially normalizes; cortisol normalizes with sustained weight restoration and nutritional rehabilitation.
+- `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — BPD shows HPA axis hyperreactivity to interpersonal stress — steeper cortisol increase and delayed recovery following social rejection; early trauma → HPA axis sensitization; elevated cortisol impairs PFC inhibitory control → impulsive behavior during emotional crises.
 
 ## Pathology
 

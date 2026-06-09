@@ -3,99 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cortisol — the principal glucocorticoid. HPA axis, diurnal rhythm, glucocorticoid receptor NR3C1, tissue effects, Cushing's syndrome, Addison's disease, and adrenal crisis. Part of the Human Engineering project.">
-  <meta property="og:title" content="Cortisol — Molecular Atlas · Human Engineering">
+  <meta name="description" content="C21 steroid hormone synthesized in the adrenal cortex zona fasciculata. Primary glucocorticoid in humans; orchestrates metabolic adaptation to stress via intrac">
+  <meta property="og:title" content="Cortisol — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Cortisol — Molecular Atlas · Human Engineering</title>
+  <title>Cortisol — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #d97706;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(217,119,6,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #d97706, #92400e); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
-
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
-
-    .principle-box { background: rgba(217,119,6,0.06); border: 1px solid rgba(217,119,6,0.22); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent); }
-
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -114,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -126,230 +119,76 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 03-Molecular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
     <h1>Cortisol</h1>
-    <p class="tagline">The principal endogenous glucocorticoid — a C21 steroid hormone produced by the adrenal zona fasciculata under hypothalamic-pituitary-adrenal axis control, mediating stress response, metabolic adaptation, and immune suppression.</p>
-    <p class="subtagline">Plasma cortisol peaks at 6–8 am and troughs near midnight, entrained by the suprachiasmatic nucleus. Acts via the glucocorticoid receptor NR3C1 — a ligand-activated nuclear transcription factor that directly contacts DNA glucocorticoid response elements (GREs). Excess (Cushing's syndrome) or deficiency (Addison's disease / adrenal crisis) are life-threatening endocrine emergencies.</p>
+    <p class="tagline">C21 steroid hormone synthesized in the adrenal cortex zona fasciculata. Primary glucocorticoid in humans; orchestrates metabolic adaptation to stress via intracellular glucocorticoid receptor (NR3C1), regulating gluconeogenesis, immune suppression, and anti-inflammation.</p>
+    <p class="aliases">Also known as: hydrocortisone, compound F, glucocorticoid, 17-hydroxycorticosterone</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">362.46</span><span class="stat-label">MW (g/mol)</span></div>
-      <div class="stat"><span class="stat-num">C21</span><span class="stat-label">Steroid (pregnanoid)</span></div>
-      <div class="stat"><span class="stat-num">60–90 min</span><span class="stat-label">Half-life (plasma)</span></div>
-      <div class="stat"><span class="stat-num">NR3C1</span><span class="stat-label">Glucocorticoid receptor</span></div>
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Glucocorticoid Steroid Hormone</div>
-        <h2>Cortisol</h2>
-        <div class="drug-class">Class: Steroid hormone &nbsp;&middot;&nbsp; Glucocorticoid &nbsp;&middot;&nbsp; HPA axis hormone &nbsp;|&nbsp; Produced in: zona fasciculata of adrenal cortex &nbsp;|&nbsp; Receptor: NR3C1 (GR)</div>
-        <p class="summary">Cortisol is the body's primary stress hormone and the endpoint of the hypothalamic-pituitary-adrenal (HPA) axis — one of the most tightly regulated endocrine feedback loops in physiology. At physiological concentrations, cortisol is essential: it maintains vascular tone, promotes gluconeogenesis during fasting and stress, modulates immune responses, and governs circadian rhythm-coordinated metabolism. At supraphysiological concentrations — whether from endogenous overproduction (Cushing's syndrome) or exogenous glucocorticoid therapy — it drives a recognizable syndrome of central obesity, hypertension, diabetes, osteoporosis, and immunosuppression. Abrupt withdrawal from exogenous corticosteroids can precipitate life-threatening adrenal crisis, making this one of the most consequential drug-endocrine interactions in medicine.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">hydrocortisone (pharmaceutical name)</span>
-          <span class="alias-pill">compound F</span>
-          <span class="alias-pill">17-hydroxycorticosterone</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">cortisol</div>
+        <h2>Cortisol</h2>
+        <p class="summary">C21 steroid hormone synthesized in the adrenal cortex zona fasciculata. Primary glucocorticoid in humans; orchestrates metabolic adaptation to stress via intracellular glucocorticoid receptor (NR3C1), regulating gluconeogenesis, immune suppression, and anti-inflammation.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>HPA Axis and Biosynthesis</h3>
-          <div class="pathway-block">
-<pre>
-  Hypothalamus  (paraventricular nucleus, PVN)
-       │
-       │  CRH (corticotropin-releasing hormone)
-       │  Released in pulsatile bursts, peak ~6 am; also triggered by:
-       │  stress, hypoglycaemia, cytokines (IL-1, IL-6, TNF), pain
-       │
-       ▼
-  Anterior Pituitary  (corticotroph cells)
-       │
-       │  ACTH (adrenocorticotropic hormone, corticotropin)
-       │  Derived from POMC by PC1 cleavage; also produces &#x3b1;-MSH
-       │
-       ▼
-  Adrenal Cortex  ─── zona glomerulosa  (aldosterone — mineralocorticoid)
-  (adrenal gland)  ─── zona fasciculata  (cortisol — glucocorticoid) ◄─── ACTH acts here
-                   └── zona reticularis  (DHEA, androgens)
-       │
-       │  Cortisol biosynthesis (simplified):
-       │  Cholesterol → pregnenolone (StAR protein; rate-limiting step)
-       │              → progesterone → 17α-hydroxyprogesterone
-       │              → 11-deoxycortisol → cortisol (CYP11B1 / 11β-hydroxylase)
-       │
-       ▼
-  Cortisol released into bloodstream
-  (~75% bound to cortisol-binding globulin CBG; ~15% albumin; ~10% free/active)
-       │
-       ├──── Negative feedback to hypothalamus (↓CRH)
-       └──── Negative feedback to anterior pituitary (↓ACTH)
-
-  DIURNAL RHYTHM:
-  ████████░░░░░░░░░░░░░░░░░░░░░░░░░░ (illustrative)
-  6–8 am: peak   ─────────► midnight: nadir
-  Entrained by suprachiasmatic nucleus (SCN) via light/dark cycle
-  Stress (acute) overrides diurnal pattern → cortisol surge
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;"><strong>Cortisol physiology in testing:</strong> The standard morning serum cortisol (8 am sample) reflects the daily peak. Random cortisol has limited value. The <strong>cosyntropin (Synacthen) stimulation test</strong> (250 µg IM/IV synthetic ACTH) is the gold-standard test for adrenal insufficiency — a peak cortisol &lt;500 nmol/L at 30–60 minutes is diagnostic. The <strong>1 mg overnight dexamethasone suppression test</strong> (ODST) is used to screen for Cushing's syndrome — failure to suppress to &lt;50 nmol/L is abnormal.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Glucocorticoid Receptor (NR3C1) Signalling</h3>
-          <h4>Genomic Mechanism (Transactivation / Transrepression)</h4>
-          <ol class="step-list">
-            <li><strong>Cytoplasmic inactive state:</strong> GR (NR3C1) held in cytoplasm by chaperone complex (Hsp90, Hsp70, FKBP51, p23). In the absence of ligand, GR is unable to translocate to the nucleus.</li>
-            <li><strong>Cortisol binding:</strong> Cortisol (lipophilic; diffuses freely across cell membranes) binds the ligand-binding domain (LBD) of GR. Conformational change dissociates chaperone complex; FKBP51 is replaced by FKBP52.</li>
-            <li><strong>Nuclear translocation:</strong> GR-cortisol complex translocates to nucleus via importin-&#x3b1;/&#x3b2; machinery. This process takes ~20 min — explaining why glucocorticoid effects have a delayed onset relative to, e.g., catecholamines.</li>
-            <li><strong>DNA binding (GRE):</strong> GR homodimerizes and binds palindromic glucocorticoid response elements (GREs: 5'-GGTACAnnnTGTTCT-3') in promoters of target genes. This is <strong>transactivation</strong> — drives expression of metabolic genes (PEPCK, G6Pase for gluconeogenesis; tyrosine aminotransferase; lipocortin-1).</li>
-            <li><strong>Transrepression (anti-inflammatory mechanism):</strong> GR monomer physically interacts with NF-&#x3ba;B (RelA/p65) and AP-1 (c-Fos/c-Jun) transcription factors, blocking their DNA binding &rarr; &#8595;IL-1&#x3b2;, &#8595;IL-6, &#8595;TNF-&#x3b1;, &#8595;COX-2 expression. Most anti-inflammatory effects are via this mechanism.</li>
-            <li><strong>Non-genomic effects (rapid):</strong> Membrane-associated GR and cytosolic GR-activated second messenger pathways (PI3K, PKB/Akt) contribute to rapid effects on vascular reactivity and immune cell function within minutes of cortisol exposure.</li>
-          </ol>
-          <p style="margin-top:0.75rem;"><strong>Glucocorticoid-induced osteoporosis mechanism:</strong> GR activation in osteoblasts induces sclerostin and Dickkopf-1 (Wnt inhibitors), reduces OPG (osteoprotegerin), and increases RANKL — net effect is reduced bone formation and increased osteoclast-driven resorption. This is the mechanistic basis for why bisphosphonates are co-prescribed with long-term glucocorticoid therapy.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Tissue Effects</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Tissue</th><th>Effect of Cortisol</th><th>Mechanism</th><th>Consequence of Excess</th></tr>
-            <tr>
-              <td><strong>Liver</strong></td>
-              <td>&#8593;Gluconeogenesis; &#8593;glycogen synthesis</td>
-              <td>GRE-mediated induction of PEPCK, G6Pase, Pck1; &#8593;gluconeogenic substrate (amino acids from muscle)</td>
-              <td>Hyperglycaemia; steroid-induced diabetes mellitus</td>
-            </tr>
-            <tr>
-              <td><strong>Skeletal muscle</strong></td>
-              <td>Catabolism: &#8595;protein synthesis, &#8593;protein breakdown &rarr; &#8593;amino acid release</td>
-              <td>GR-mediated expression of FOXO1/3, Atrogin-1/MuRF1 (muscle-specific ubiquitin ligases); inhibition of IGF-1/mTOR pathway</td>
-              <td>Proximal myopathy (shoulder girdle weakness, difficulty rising from chair); the clinical hallmark of Cushing's syndrome</td>
-            </tr>
-            <tr>
-              <td><strong>Adipose tissue</strong></td>
-              <td>Redistribution: peripheral lipolysis; central/visceral lipogenesis</td>
-              <td>&#8593;Hormone-sensitive lipase in peripheral fat; &#8593;adipogenesis + LPL in visceral depots (omentum, mesentery). Glucocorticoid receptors are more abundant in visceral vs. subcutaneous adipocytes</td>
-              <td>Central obesity, buffalo hump, moon facies (pathognomonic of Cushing's syndrome); dyslipidaemia</td>
-            </tr>
-            <tr>
-              <td><strong>Immune system</strong></td>
-              <td>Broad immunosuppression: &#8595;lymphocyte proliferation, &#8595;cytokine production, &#8593;neutrophil count (demargination), &#8595;eosinophils</td>
-              <td>Transrepression of NF-&#x3ba;B and AP-1; &#8595;IL-1, IL-2, IL-6, TNF, IFN-&#x3b3;; &#8593;apoptosis of T cells and eosinophils; &#8595;prostaglandin synthesis (via lipocortin-1 / annexin-A1 induction)</td>
-              <td>Opportunistic infections (Pneumocystis, CMV, candida); reactivation of latent TB/hepatitis B; impaired wound healing</td>
-            </tr>
-            <tr>
-              <td><strong>Bone</strong></td>
-              <td>&#8595;Bone formation, &#8593;bone resorption</td>
-              <td>&#8595;Osteoblast proliferation; &#8593;osteoclast survival; &#8595;intestinal calcium absorption (anti-vitamin D effect); &#8595;renal calcium reabsorption</td>
-              <td>Osteoporosis; vertebral compression fractures; avascular necrosis of femoral head (high-dose or pulsed steroids)</td>
-            </tr>
-            <tr>
-              <td><strong>Vasculature</strong></td>
-              <td>&#8593;Vascular tone; &#8593;pressor response to catecholamines</td>
-              <td>Permissive effect on &#x3b1;1-adrenoreceptor signalling; &#8595;NO production; &#8593;angiotensinogen synthesis</td>
-              <td>Hypertension (present in ~80% of Cushing's syndrome)</td>
-            </tr>
-            <tr>
-              <td><strong>CNS</strong></td>
-              <td>Mood, cognitive effects; hippocampal neuroplasticity</td>
-              <td>GR in hippocampus, prefrontal cortex; modulates HPA feedback, memory, emotion regulation</td>
-              <td>Steroid psychosis (manic, depressive, or mixed); cognitive impairment; insomnia; increased depression risk in Cushing's</td>
-            </tr>
-            <tr>
-              <td><strong>GI tract</strong></td>
-              <td>&#8593;Gastric acid secretion; &#8595;mucosal protection (potentiates NSAIDs)</td>
-              <td>&#8595;PGE&#x2082;-mediated mucus production (not COX inhibition directly)</td>
-              <td>Peptic ulcer disease (especially combined with NSAIDs); recommend PPI co-prescription with systemic steroids</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>cortisol</td></tr>
+            <tr><td>Name</td><td>Cortisol</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
+            <tr><td>Gene Symbol</td><td>CYP11B1</td></tr>
+            <tr><td>Uniprot</td><td>P08235</td></tr>
+            <tr><td>Note</td><td>CYP11B1 (11β-hydroxylase) catalyzes the final synthesis step; P08235 is the glucocorticoid receptor NR3C1</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Pathology</h3>
-          <table class="data-table">
-            <tr><th>Condition</th><th>Defect</th><th>Pathophysiology</th><th>Key Clinical Features</th><th>Diagnosis / Treatment</th></tr>
-            <tr>
-              <td><strong>Cushing's syndrome</strong></td>
-              <td>Cortisol excess</td>
-              <td>70% pituitary adenoma (Cushing's disease, ACTH-dependent); 15% adrenal adenoma/carcinoma; 10% ectopic ACTH (small-cell lung, carcinoid); 5% exogenous steroids (most common overall)</td>
-              <td>Moon facies, central obesity, buffalo hump, proximal myopathy, purple striae, easy bruising, hypertension, hyperglycaemia, osteoporosis, hirsutism, irregular menses, depression</td>
-              <td>Screening: ODST, late-night salivary cortisol, 24-hr urine free cortisol. Localisation: MRI pituitary, CT adrenals, IPSS. Treatment: transsphenoidal surgery (Cushing's disease); adrenalectomy; ketoconazole/metyrapone/osilodrostat (medical)</td>
-            </tr>
-            <tr>
-              <td><strong>Addison's disease</strong> (primary adrenal insufficiency)</td>
-              <td>Cortisol (and aldosterone) deficiency</td>
-              <td>Autoimmune destruction of adrenal cortex (~80% in developed countries); also TB, metastases, haemorrhage (Waterhouse-Friderichsen), bilateral adrenalectomy, CMV (in AIDS)</td>
-              <td>Fatigue, anorexia, weight loss, postural hypotension, hyperpigmentation (ACTH/MSH excess), hyponatraemia, hyperkalaemia, hypoglycaemia</td>
-              <td>Cosyntropin stimulation test confirms diagnosis. Treatment: hydrocortisone (15–25 mg/day in divided doses) + fludrocortisone (mineralocorticoid replacement). Stress dosing: double/triple dose during illness</td>
-            </tr>
-            <tr>
-              <td><strong>Adrenal crisis</strong></td>
-              <td>Acute severe cortisol deficiency</td>
-              <td>Precipitated by acute stress (infection, surgery, trauma) in a patient with adrenal insufficiency; also abrupt steroid withdrawal; bilateral adrenal haemorrhage (Waterhouse-Friderichsen syndrome in meningococcaemia)</td>
-              <td>Profound hypotension (cardiovascular collapse), hyponatraemia, hyperkalaemia, hypoglycaemia, fever, abdominal pain, altered consciousness. <strong>Life-threatening emergency</strong></td>
-              <td>Emergency: hydrocortisone 100 mg IV bolus immediately + 200 mg/24h IV infusion or 50 mg q6h; aggressive IV saline resuscitation; treat precipitating cause</td>
-            </tr>
-            <tr>
-              <td><strong>Congenital adrenal hyperplasia (CAH)</strong></td>
-              <td>Cortisol synthesis deficiency + androgen excess</td>
-              <td>21-hydroxylase deficiency (95% of cases) impairs cortisol + aldosterone synthesis; &#8593;ACTH drives cortisol precursors into androgen pathway &rarr; &#8593;17-OHP, &#8593;androgens</td>
-              <td>Salt-wasting crisis in neonates; virilisation; ambiguous genitalia in females; precocious puberty; tall child, short adult (advanced bone age)</td>
-              <td>Neonatal screen (17-OHP heel-prick). Treatment: hydrocortisone replacement (suppresses ACTH) + fludrocortisone for salt-wasting; stress dosing; surgery for virilised genitalia</td>
-            </tr>
-            <tr>
-              <td><strong>Stress-related immune suppression</strong></td>
-              <td>Chronic HPA activation</td>
-              <td>Chronic psychosocial stress chronically elevates cortisol &rarr; lymphocyte apoptosis, &#8595;NK cell activity, &#8595;IgA secretion, shortened telomeres</td>
-              <td>Increased susceptibility to infections; slower wound healing; impaired vaccine responses; association with depression, cardiovascular disease</td>
-              <td>No single treatment; stress reduction, sleep, exercise. Pharmacological approaches under investigation (DHEA supplementation, mifepristone trials in depression)</td>
-            </tr>
-          </table>
-
-          <div class="principle-box">
-            <p><strong>Steroid-induced adrenal suppression — the tapering problem:</strong> Exogenous glucocorticoids (prednisone, dexamethasone) suppress endogenous ACTH and cortisol via HPA feedback within days of supraphysiological dosing. After prolonged therapy (&gt;3 weeks of significant doses), the adrenal cortex atrophies. Abrupt withdrawal risks adrenal crisis. <strong>The rule of thumb:</strong> anyone on &ge;10 mg prednisone/day for &gt;3 weeks should be assumed to have HPA suppression and needs gradual tapering, not abrupt cessation — and needs stress-dose steroids (hydrocortisone 50–100 mg IV) for major surgery or severe illness even during taper.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="immune-system.html" class="conn-pill acts">
-              <span class="rel">Suppresses</span>
-              Immune System
-            </a>
-            <a href="nervous-system.html" class="conn-pill acts">
-              <span class="rel">Acts in</span>
-              Nervous System (HPA)
-            </a>
-            <a href="cardiovascular-system.html" class="conn-pill acts">
-              <span class="rel">Affects</span>
-              Cardiovascular System
-            </a>
-            <a href="#" class="conn-pill targets">
-              <span class="rel">Related</span>
-              Aldosterone (entry pending)
-            </a>
-            <a href="#" class="conn-pill targets">
-              <span class="rel">Co-axis</span>
-              ACTH / CRH (entry pending)
-            </a>
-            <a href="il-6.html" class="conn-pill acts">
-              <span class="rel">Suppresses</span>
-              IL-6
-            </a>
+            <a class="conn-pill" href="immune-system.html" title="Cortisol suppresses the immune response via NF-κB inhibition, lymphocyte apoptosis, and downregulation of pro-inflammatory cytokines, adhesion molecules, and COX-2."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="liver.html" title="Cortisol drives hepatic gluconeogenesis and glycogen synthesis, increasing glucose output during stress and fasting."><span class="rel">modulates</span>Liver</a>
+            <a class="conn-pill" href="nervous-system.html" title="Cortisol crosses the blood-brain barrier and acts on hippocampal, amygdalar, and prefrontal cortex GRs, modulating memory consolidation, anxiety, and mood."><span class="rel">modulates</span>Nervous System</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Cortisol enhances vascular tone and catecholamine sensitivity; chronic excess causes hypertension."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="nervous-system.html" title="The CNS (hypothalamus via CRH, hippocampus via negative feedback) is the primary driver and regulator of cortisol secretion patterns."><span class="rel">modulated-by</span>Nervous System</a>
+            <a class="conn-pill" href="ashwagandha.html" title="Withanolides in standardised root extract reduce serum cortisol by 14–32% in placebo-controlled RCTs via HPA axis modulation; DHEA-S is preserved, suggesting selective stress-response normalisation rather than adrenal suppression."><span class="rel">modulated-by</span>Ashwagandha</a>
+            <a class="conn-pill" href="glucocorticoid-receptor.html" title="Cortisol is the primary endogenous ligand of GR (NR3C1); binding Kd ~5 nM displaces HSP90/FKBP51 chaperone complex, enabling GR nuclear translocation and transactivation/transrepression of inflammatory gene networks."><span class="rel">targets</span>Glucocorticoid Receptor</a>
+            <a class="conn-pill" href="hippocampus.html" title="Modulated by Hippocampus."><span class="rel">modulated-by</span>Hippocampus</a>
+            <a class="conn-pill" href="adrenal-gland.html" title="Modulated by Adrenal Gland."><span class="rel">modulated-by</span>Adrenal Gland</a>
+            <a class="conn-pill" href="ptsd.html" title="PTSD exhibits paradoxical hypocortisolemia — elevated CRH but enhanced GR sensitivity → excess negative feedback; low cortisol impairs fear extinction; hydrocortisone given acutely after trauma shows prophylactic benefit; opposite HPA profile from MDD."><span class="rel">connects-to</span>Ptsd</a>
+            <a class="conn-pill" href="major-depressive-disorder.html" title="HPA hyperactivation in MDD — elevated CRH, cortisol, and blunted DST suppression — causes hippocampal atrophy via GR-mediated BDNF suppression; normalizing cortisol via mifepristone or CRH antagonists correlates with antidepressant response."><span class="rel">connects-to</span>Major Depressive Disorder</a>
+            <a class="conn-pill" href="generalized-anxiety-disorder.html" title="HPA axis hyperactivation in GAD → elevated morning cortisol → hippocampal volume reduction and impaired fear extinction; cortisol feedback sensitization perpetuates chronic worry; morning cortisol levels in GAD normalize with effective SSRI treatment."><span class="rel">connects-to</span>Generalized Anxiety Disorder</a>
+            <a class="conn-pill" href="anorexia-nervosa.html" title="HPA axis hyperactivation in AN → elevated cortisol → bone loss, immune suppression, and cognitive impairment; hypercortisolemia is present even when BMI partially normalizes; normalizes with sustained weight restoration and nutritional rehabilitation."><span class="rel">connects-to</span>Anorexia Nervosa</a>
+            <a class="conn-pill" href="borderline-personality-disorder.html" title="BPD shows HPA axis hyperreactivity to interpersonal stress — steeper cortisol increase and delayed recovery following social rejection; early trauma → HPA axis sensitization; elevated cortisol impairs PFC inhibitory control → impulsive behavior during emotional crises."><span class="rel">connects-to</span>Borderline Personality Disorder</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Chrousos GP. Stress and disorders of the stress system. <em>Nat Rev Endocrinol.</em> 2009;5(7):374-81. <a href="https://doi.org/10.1038/nrendo.2009.106">doi:10.1038/nrendo.2009.106</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19488073/">PubMed 19488073</a></li>
-            <li>Oakley RH, Cidlowski JA. The biology of the glucocorticoid receptor: new signaling mechanisms in health and disease. <em>J Allergy Clin Immunol.</em> 2013;132(5):1033-44. <a href="https://doi.org/10.1016/j.jaci.2013.09.007">doi:10.1016/j.jaci.2013.09.007</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24084075/">PubMed 24084075</a></li>
-            <li>Bornstein SR, Allolio B, Arlt W, et al. Diagnosis and treatment of primary adrenal insufficiency: an Endocrine Society clinical practice guideline. <em>J Clin Endocrinol Metab.</em> 2016;101(2):364-89. <a href="https://doi.org/10.1210/jc.2015-1710">doi:10.1210/jc.2015-1710</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26760044/">PubMed 26760044</a></li>
-            <li>Nieman LK, Biller BM, Findling JW, et al. The diagnosis of Cushing's syndrome: an Endocrine Society clinical practice guideline. <em>J Clin Endocrinol Metab.</em> 2008;93(5):1526-40. <a href="https://doi.org/10.1210/jc.2008-0125">doi:10.1210/jc.2008-0125</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18334580/">PubMed 18334580</a></li>
-            <li>Rhen T, Cidlowski JA. Antiinflammatory action of glucocorticoids — new mechanisms for old drugs. <em>N Engl J Med.</em> 2005;353(16):1711-23. <a href="https://doi.org/10.1056/NEJMra050541">doi:10.1056/NEJMra050541</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16236742/">PubMed 16236742</a></li>
+            <li>Hench PS, Kendall EC, Slocumb CH, Polley HF. The effect of a hormone of the adrenal cortex (17-hydroxy-11-dehydrocorticosterone; compound E) and of pituitary adrenocorticotropic hormone on rheumatoid arthritis. Proc Staff Meet Mayo Clin. 1949;24(8):181-97. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18140699/" target="_blank" rel="noopener noreferrer">PubMed 18140699</a></li>
+            <li><a href="https://doi.org/10.1210/edrv.21.1.0389" target="_blank" rel="noopener noreferrer">Sapolsky RM, Romero LM, Munck AU. How do glucocorticoids influence stress responses? Integrating permissive, suppressive, stimulatory, and preparative actions. Endocr Rev. 2000;21(1):55-89.</a></li>
+            <li><a href="https://doi.org/10.1056/NEJM199505183321008" target="_blank" rel="noopener noreferrer">Chrousos GP. The hypothalamic-pituitary-adrenal axis and immune-mediated inflammation. N Engl J Med. 1995;332(20):1351-62.</a></li>
+            <li><a href="https://doi.org/10.1056/NEJM199508033330504" target="_blank" rel="noopener noreferrer">Chrousos GP. The hypothalamic-pituitary-adrenal axis and immune-mediated inflammation. N Engl J Med. 1995;333(20):1351-62.</a></li>
           </ul>
         </div>
 
@@ -358,16 +197,12 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="serotonin.html">Serotonin</a>
-      <a href="il-6.html">IL-6</a>
-      <a href="insulin.html">Insulin</a>
-      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>

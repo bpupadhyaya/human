@@ -78,6 +78,12 @@ cross_links:
   - target: 01-human/03-molecular/orexin
     relation: modulated-by
     note: "Orexin excites dorsal raphe serotonin neurons via OX2R → 5-HT → wakefulness and emotional arousal; serotonin reciprocally inhibits orexin neurons; sodium oxybate consolidates sleep in narcolepsy partly via complex serotonergic mechanisms."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "5-HT2A receptor hyperactivation in PFC contributes to heightened harm avoidance and rigidity in AN; serotonin dysregulation persists after recovery; SSRIs are ineffective at low weight (insufficient tryptophan substrate); olanzapine (5-HT2A antagonist) modestly aids weight gain."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "5-HT2A and 5-HT1A dysregulation drive impulsivity and affective instability in BPD; reduced serotonin in amygdala and PFC reduces top-down inhibitory control; SSRIs reduce impulsive aggression in BPD; no FDA-approved medication for BPD but SSRIs used for comorbid depression."
 ---
 
 # Serotonin
@@ -195,6 +201,8 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — reduced serotonin in AUD → disinhibition and impulsivity; 5-HT3 receptors in NAcc amplify dopamine reward; ondansetron (5-HT3 antagonist) has modest efficacy in early-onset AUD; SSRIs are ineffective in AUD without comorbid depression.
 - `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — trazodone (5-HT2A antagonist + α1/H1 blocker) is the most commonly prescribed off-label insomnia medication; 5-HT2A blockade shifts sleep architecture toward slow-wave sleep; raphe serotonin promotes wakefulness during day and transitions at sleep onset.
 - `modulated-by` → **[Orexin](../orexin/README.md)** — orexin excites dorsal raphe serotonin neurons via OX2R → 5-HT → wakefulness and emotional arousal; serotonin reciprocally inhibits orexin neurons; sodium oxybate (narcolepsy) consolidates sleep partly via serotonergic mechanisms.
+- `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — 5-HT2A receptor hyperactivation in PFC contributes to heightened harm avoidance and rigidity in AN; serotonin dysregulation persists after recovery; SSRIs are ineffective at low weight (insufficient tryptophan substrate); olanzapine (5-HT2A antagonist) modestly aids weight gain.
+- `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — 5-HT2A and 5-HT1A dysregulation drive impulsivity and affective instability in BPD; reduced serotonin in amygdala and PFC reduces top-down inhibitory control; SSRIs reduce impulsive aggression in BPD; no FDA-approved medication for BPD but SSRIs used for comorbid depression.
 
 ## Pathology
 

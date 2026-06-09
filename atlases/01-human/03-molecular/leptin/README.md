@@ -35,6 +35,9 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Adipocyte-secreted leptin signals satiety via hypothalamic LepR/JAK2/STAT3; common obesity involves leptin resistance (elevated leptin, impaired STAT3 signaling via SOCS3 upregulation); monogenic LEP deficiency causes morbid childhood obesity treatable with metreleptin."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Leptin falls sharply with fat mass loss in AN → amenorrhea, bone loss, immune suppression, and cognitive impairment; some AN patients have paradoxically elevated leptin relative to weight → false satiety signal; leptin normalizes with sustained weight restoration."
 ---
 
 # Leptin
@@ -134,6 +137,7 @@ In obesity, leptin levels are elevated but hypothalamic signalling fails:
 - `modulates` → **[t-helper-cell](../../04-cellular/t-helper-cell/README.md)** — leptin promotes Th1/Th17 differentiation via STAT3 and inhibits Treg expansion; ob/ob mice have impaired T cell responses; high leptin in obesity skews toward inflammatory phenotypes
 - `modulates` → **[hepatocyte](../../04-cellular/hepatocyte/README.md)** — leptin → LEPR-Rb → STAT3 → ↓SREBP-1c (lipogenesis) and ↑FA oxidation (AMPK/CPT1); leptin resistance in NAFLD removes this anti-steatotic brake, promoting steatohepatitis
 - `connects-to` → **[Obesity](../../07-system/obesity/README.md)** — leptin signals satiety via hypothalamic LepR/JAK2/STAT3 proportional to fat mass; common obesity involves leptin resistance (elevated leptin, impaired STAT3 signaling via SOCS3 upregulation); monogenic LEP deficiency causes morbid childhood obesity curable with metreleptin.
+- `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — leptin falls sharply with fat mass loss in AN → amenorrhea, bone loss, immune suppression, and cognitive impairment; paradoxically, some AN patients have elevated leptin relative to weight → false satiety; normalizes with weight restoration.
 
 ## Pathology
 

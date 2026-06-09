@@ -79,6 +79,12 @@ cross_links:
   - target: 01-human/03-molecular/orexin
     relation: modulated-by
     note: "OX1R in VTA activates mesolimbic dopamine → NAcc DA release → reinforces wakefulness and reward-seeking; orexin drives cue-induced drug reinstatement via the OX1R-VTA-DA axis; OX1R antagonists reduce alcohol, cocaine, and opioid seeking in preclinical models."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Increased striatal D2/D3 receptor binding in recovered AN patients (PET) suggests reduced dopamine tone; AN patients show reduced reward salience of food cues; altered DA reward circuits may explain why food restriction becomes negatively reinforcing and avoidance feels safe."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "MOR on VTA GABAergic interneurons mediates opioid-induced DA disinhibition → NAcc DA surge → euphoria; this MOR-DA coupling is the primary reward mechanism in opioid use disorder and alcohol use disorder; naltrexone blocks MOR-mediated VTA disinhibition → reduces reward."
 ---
 
 # Dopamine
@@ -177,6 +183,8 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol stimulates VTA dopamine release → NAcc → euphoria and positive reinforcement; DRD2 Taq1A A1 allele → reduced D2 density → compensatory drinking; naltrexone blocks opioid-mediated VTA DA disinhibition → reduces alcohol reward and craving.
 - `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — μ-opioid receptor activation on VTA GABAergic interneurons → disinhibition → increased VTA DA firing → NAcc dopamine surge → euphoria; chronic use → reward hypofunction → anhedonia; naltrexone (MOR antagonist) blocks this disinhibition → reduces opioid reward.
 - `modulated-by` → **[Orexin](../orexin/README.md)** — OX1R in VTA activates mesolimbic dopamine → NAcc DA release → reinforces wakefulness and reward-seeking; orexin drives cue-induced drug reinstatement via the OX1R-VTA-DA axis; OX1R antagonists reduce alcohol, cocaine, and opioid seeking in preclinical models.
+- `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — increased striatal D2/D3 receptor binding in recovered AN patients (PET) suggests reduced dopamine tone; reduced reward salience of food cues; altered DA reward circuits may explain why restriction becomes negatively reinforcing and food avoidance feels "safe."
+- `connects-to` → **[Mu-Opioid Receptor](../mu-opioid-receptor/README.md)** — MOR on VTA GABAergic interneurons mediates opioid-induced DA disinhibition → NAcc DA surge → euphoria; naltrexone blocks MOR-mediated VTA disinhibition → reduces opioid and alcohol reward.
 
 ## Pathology
 

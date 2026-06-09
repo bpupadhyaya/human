@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/03-molecular/orexin
     relation: contains
     note: "Orexin neurons are confined to the lateral hypothalamus and project to LC, TMN, raphe, basal forebrain, and VTA; loss of ~70,000 orexin neurons in narcolepsy type 1 is the most precisely characterized lesion underlying a primary sleep disorder."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "AN shows gray matter reduction in OFC, insular cortex, and cingulate; fMRI reveals altered insula processing of food cues and reduced striatal reward responses; OFC hyperactivation drives cognitive rigidity; much gray matter recovers with weight restoration over 1-2 years."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "BPD features amygdala hyperreactivity to social threat and rejection cues, reduced vmPFC-amygdala inhibitory connectivity, and impaired PFC regulation; effective DBT treatment normalizes amygdala reactivity and increases PFC activation on fMRI over 12 months of treatment."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "MOR expressed in PAG (descending analgesia), VTA (euphoria via DA disinhibition), LC (arousal/withdrawal), NAcc (reinforcement), amygdala (aversion), and pre-Bötzinger complex (respiratory rhythm depression); MOR distribution explains opioids' broad opposing CNS effects."
 ---
 
 # Brain
@@ -215,6 +224,9 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — OUD remodels VTA-NAcc reward circuits (MOR disinhibition), LC (NE rebound withdrawal), PFC control circuits (craving-driven approach behavior), and amygdala (conditioned fear of withdrawal); buprenorphine and naltrexone normalize these abnormalities over months of treatment.
 - `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — insomnia involves VLPO failure to silence arousal centers (LC, TMN, raphe, orexin neurons) — the flip-flop switch remains unstable; cortical hyperarousal at sleep onset (elevated EEG beta power) is the core mechanism; CBT-I normalizes sleep-wake homeostasis.
 - `contains` → **[Orexin](../../03-molecular/orexin/README.md)** — orexin neurons are confined to the lateral hypothalamus and project broadly to LC, TMN, raphe, basal forebrain, and VTA; loss of ~70,000 orexin neurons in narcolepsy type 1 is the most precisely characterized lesion in a primary sleep disorder.
+- `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — AN shows gray matter reduction in OFC, insular cortex, and cingulate; fMRI reveals altered insula processing of food cues and reduced striatal reward responses; OFC hyperactivation drives cognitive rigidity; much gray matter recovers with weight restoration over 1-2 years.
+- `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — BPD features amygdala hyperreactivity to social threat and rejection cues, reduced vmPFC-amygdala inhibitory connectivity, and impaired PFC regulation; effective DBT treatment normalizes amygdala reactivity and increases PFC activation on fMRI over 12 months.
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — MOR expressed in PAG (descending analgesia), VTA (euphoria via DA disinhibition), LC (arousal/withdrawal), NAcc (reinforcement), amygdala (aversion), and pre-Bötzinger complex (respiratory depression); MOR distribution explains opioids' broad opposing CNS effects.
 
 ## Pathology
 

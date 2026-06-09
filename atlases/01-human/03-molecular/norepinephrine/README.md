@@ -56,6 +56,12 @@ cross_links:
   - target: 01-human/03-molecular/orexin
     relation: modulated-by
     note: "Orexin strongly excites LC neurons via OX2R → sustained NE release → cortical arousal and attention; LC is the primary orexin target for NE-mediated arousal; reduced orexin input in narcolepsy → impaired LC activation → excessive daytime sleepiness and impaired alerting."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "NE hyperreactivity to interpersonal stressors drives intense emotional surges in BPD; perceived abandonment or rejection → LC activation → NE → amygdala amplification → emotional flooding; clonidine (α2 agonist) reduces hyperarousal and impulsive self-harm in BPD."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "MOR on LC neurons → Gi → suppresses LC firing → decreased NE during opioid use; opioid withdrawal → LC rebound hyperactivation → NE storm → sympathetic withdrawal symptoms; clonidine/lofexidine suppress LC rebound via α2A autoreceptor agonism."
 ---
 
 # Norepinephrine
@@ -169,6 +175,8 @@ NE
 - `modulated-by` → **[Orexin](../orexin/README.md)** — orexin strongly excites LC neurons via OX2R → sustained NE release → cortical arousal and attention; LC is the primary orexin target for NE-mediated arousal; reduced orexin in narcolepsy → impaired LC activation → excessive daytime sleepiness.
 - **Modulates cardiovascular system** — NE is the principal sympathetic vasoconstrictor — activates vascular smooth muscle α₁AR → ↑peripheral resistance; maintains basal vascular tone; IV NE (vasopressor) used in septic shock. See [cardiovascular-system](../../07-system/cardiovascular-system/README.md).
 - **Modulated by dopamine** — Norepinephrine is synthesised from dopamine by DβH in synaptic vesicles; the DA:NE ratio in sympathetic terminals is governed by DβH activity and vesicular transport capacity. See [dopamine](../dopamine/README.md).
+- `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — NE hyperreactivity to interpersonal stressors drives intense emotional surges in BPD; perceived abandonment or rejection → LC activation → NE → amygdala amplification → emotional flooding; clonidine (α2 agonist) reduces hyperarousal and impulsive self-harm in BPD.
+- `connects-to` → **[Mu-Opioid Receptor](../mu-opioid-receptor/README.md)** — MOR on LC neurons → Gi → suppresses LC firing → decreased NE during opioid use; opioid withdrawal → LC rebound hyperactivation → NE storm → sympathetic withdrawal symptoms; clonidine/lofexidine suppress LC rebound via α2A autoreceptor agonism.
 
 ## Pathology
 
