@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Mucosal neutrophil infiltration in IBD releases calprotectin into the gut lumen; fecal calprotectin >150 μg/g distinguishes IBD from IBS (sensitivity >80%); FC >250 correlates with active endoscopy; serial FC monitors biologic response and predicts relapse."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "H4R on mucosal mast cells and Tregs modulates gut inflammation; enterochromaffin-like cells secrete histamine → parietal HCl; H1R/H4R amplify epithelial cytokine release; H4R blockade reduces experimental colitis; histamine levels correlate with IBD disease activity."
 ---
 
 # Inflammatory Bowel Disease
@@ -184,6 +187,7 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — colonic macrophages shift from tolerogenic (CD33+, IL-10-producing) to pro-inflammatory (TNF-alpha, IL-1beta, IL-23) in IBD; macrophage IL-23 production drives Th17 differentiation; anti-IL-12/23 (ustekinumab, risankizumab) and JAK inhibitors target macrophage-driven intestinal inflammation.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 drives Th17 polarization in the gut lamina propria → IL-17A, IL-22, and TNF-α → disruption of epithelial barrier and transmural inflammation in Crohn's disease; risankizumab (anti-IL-23p19) is FDA-approved for moderate-to-severe Crohn's disease and ulcerative colitis.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — mucosal neutrophil infiltration in IBD releases calprotectin into the gut lumen; fecal calprotectin >150 μg/g distinguishes IBD from IBS (sensitivity >80%); FC >250 correlates with active endoscopy; serial FC monitors biologic response and predicts relapse.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — H4R on mucosal mast cells and Tregs modulates gut inflammation; enterochromaffin-like cells secrete histamine → parietal HCl; H1R/H4R amplify epithelial cytokine release; H4R blockade reduces experimental colitis; histamine levels correlate with IBD disease activity.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

@@ -208,6 +208,9 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: secretes
     note: "SON/PVN neurons release AVP into systemic circulation (posterior pituitary) and limbic regions; V1aR in lateral septum mediates social memory and pair bonding; V1bR (V3R) on corticotrophs synergises with CRH for ACTH release; central AVP circuits modulate aggression and anxiety."
+  - target: 01-human/03-molecular/leptin
+    relation: modulated-by
+    note: "LEPR-Rb in hypothalamic ARC, DMH, VMH → STAT3 → ↑POMC/CART and ↓NPY/AgRP → ↓appetite and ↑energy expenditure; leptin resistance blunts this; exogenous leptin reverses starvation anovulation and immune suppression; BBB leptin transport saturates at obesity-range concentrations."
 ---
 
 # Brain
@@ -321,6 +324,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — ERα in hippocampus promotes synaptic plasticity and BDNF; hippocampal aromatase (CYP19A1) produces local estradiol; estrogen deficiency → cognitive decline; estrogen neuroprotection established in animal models but the HRT critical-window hypothesis remains unproven clinically.
 - `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — T3 (TRα1) is essential for oligodendrocyte differentiation → CNS myelination; neonatal hypothyroidism → cretinism (irreversible cognitive impairment); adult T3 regulates serotonin synthesis, synaptic density, and neurogenesis; hypothyroidism is a reversible cause of dementia.
 - `secretes` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — hypothalamic SON/PVN neurons synthesize AVP transported to the posterior pituitary for systemic release; central AVP projections (V1aR in lateral septum, amygdala) mediate social memory consolidation and pair bonding; V1bR on corticotrophs synergises with CRH to sustain HPA axis ACTH secretion.
+- `modulated-by` → **[Leptin](../../03-molecular/leptin/README.md)** — LEPR-Rb in hypothalamic ARC, DMH, and VMH neurons → JAK2/STAT3 → ↑POMC/CART and ↓NPY/AgRP → appetite suppression and ↑energy expenditure; leptin resistance in obesity impairs this signalling; leptin also regulates hypothalamic GnRH, TRH, and CRH neuroendocrine output.
 
 ## Pathology
 

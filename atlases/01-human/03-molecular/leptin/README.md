@@ -38,6 +38,15 @@ cross_links:
   - target: 01-human/07-system/anorexia-nervosa
     relation: connects-to
     note: "Leptin falls sharply with fat mass loss in AN → amenorrhea, bone loss, immune suppression, and cognitive impairment; some AN patients have paradoxically elevated leptin relative to weight → false satiety signal; leptin normalizes with sustained weight restoration."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "LEPR-Rb in hypothalamic ARC, DMH, VMH → STAT3 → ↑POMC/CART and ↓NPY/AgRP → ↓appetite and ↑energy expenditure; leptin resistance blunts this; exogenous leptin reverses starvation anovulation and immune suppression; BBB leptin transport saturates at obesity-range concentrations."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Leptin resistance in obesity links to T2DM: SOCS3 impairs IRS-1 → convergent blunting of leptin and insulin signalling; hyperleptinemia independently predicts T2DM onset; metformin reduces leptin; bariatric surgery lowers leptin and improves insulin sensitivity."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Leptin falls during caloric restriction → ↓POMC → ↓α-MSH → ↓melanocortin tone; hyperleptinemia (obesity) associates with depressive symptoms; LEPR polymorphisms associate with MDD risk; leptin restores BDNF and reverses anhedonia in diet-induced obesity rodent models."
 ---
 
 # Leptin
@@ -138,6 +147,9 @@ In obesity, leptin levels are elevated but hypothalamic signalling fails:
 - `modulates` → **[hepatocyte](../../04-cellular/hepatocyte/README.md)** — leptin → LEPR-Rb → STAT3 → ↓SREBP-1c (lipogenesis) and ↑FA oxidation (AMPK/CPT1); leptin resistance in NAFLD removes this anti-steatotic brake, promoting steatohepatitis
 - `connects-to` → **[Obesity](../../07-system/obesity/README.md)** — leptin signals satiety via hypothalamic LepR/JAK2/STAT3 proportional to fat mass; common obesity involves leptin resistance (elevated leptin, impaired STAT3 signaling via SOCS3 upregulation); monogenic LEP deficiency causes morbid childhood obesity curable with metreleptin.
 - `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — leptin falls sharply with fat mass loss in AN → amenorrhea, bone loss, immune suppression, and cognitive impairment; paradoxically, some AN patients have elevated leptin relative to weight → false satiety; normalizes with weight restoration.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — LEPR-Rb in hypothalamic ARC, DMH, VMH → STAT3 → ↑POMC/CART and ↓NPY/AgRP → ↓appetite and ↑energy expenditure; leptin resistance blunts this; exogenous leptin reverses starvation anovulation and immune suppression; BBB leptin transport saturates at obesity-range concentrations.
+- `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — leptin resistance in obesity links to T2DM: SOCS3 impairs IRS-1 → convergent blunting of leptin and insulin signalling; hyperleptinemia independently predicts T2DM onset; metformin reduces leptin; bariatric surgery lowers leptin and improves insulin sensitivity.
+- `connects-to` → **[Major Depressive Disorder](../../07-system/major-depressive-disorder/README.md)** — leptin falls during caloric restriction → ↓POMC → ↓α-MSH → ↓melanocortin tone; hyperleptinemia (obesity) associates with depressive symptoms; LEPR polymorphisms associate with MDD risk; leptin restores BDNF and reverses anhedonia in diet-induced obesity rodent models.
 
 ## Pathology
 

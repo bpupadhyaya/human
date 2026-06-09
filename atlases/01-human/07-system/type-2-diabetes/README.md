@@ -58,6 +58,9 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "MTNR1B rs10830963 impairs beta-cell MT2 inhibition of insulin → elevated fasting glucose → T2DM risk; melatonin suppresses nocturnal insulin secretion; high-dose melatonin reduces insulin sensitivity in susceptible individuals; MT2 agonists under investigation for T2DM."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Leptin resistance in obesity links to T2DM: SOCS3 impairs IRS-1 → convergent blunting of leptin and insulin signalling; hyperleptinemia independently predicts T2DM onset; metformin reduces leptin; bariatric surgery lowers leptin and improves insulin sensitivity."
 ---
 
 # Type 2 Diabetes
@@ -174,6 +177,7 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Hyperglycemia → excess AGE formation → RAGE on endothelium and macrophages → NF-κB → VCAM-1, ICAM-1, MCP-1 → diabetic micro- and macroangiopathy; soluble RAGE (sRAGE, a decoy) is inversely associated with T2D complications; RAGE also mediates AGE-driven β-cell dysfunction.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — GH is counter-regulatory: raises plasma glucose via hepatic output and peripheral insulin resistance (GHR/STAT5 → IRS-1 serine phosphorylation); acromegaly causes T2DM in 25-40% of cases; exogenous GH raises insulin requirements; declining GH/IGF-1 with aging contributes to metabolic inflexibility.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — MTNR1B rs10830963 impairs beta-cell MT2 inhibition of insulin → elevated fasting glucose → T2DM risk; melatonin suppresses nocturnal insulin secretion; high-dose melatonin reduces insulin sensitivity in susceptible individuals; MT2 agonists under investigation for T2DM.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — leptin resistance in obesity links to T2DM: SOCS3 impairs IRS-1 → convergent blunting of leptin and insulin signalling; hyperleptinemia independently predicts T2DM onset; metformin reduces leptin; bariatric surgery lowers leptin and improves insulin sensitivity.
 
 [^defronzo-2009-t2dm]: DeFronzo RA. Banting Lecture. From the triumvirate to the ominous octet: a new paradigm for the treatment of type 2 diabetes mellitus. *Diabetes.* 2009;58(4):773-795. [doi:10.2337/db09-9028](https://doi.org/10.2337/db09-9028) · [PubMed 19336687](https://pubmed.ncbi.nlm.nih.gov/19336687/)
 [^zinman-2015-empareg]: Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes. *N Engl J Med.* 2015;373(22):2117-2128. [doi:10.1056/NEJMoa1504720](https://doi.org/10.1056/NEJMoa1504720) · [PubMed 26378978](https://pubmed.ncbi.nlm.nih.gov/26378978/)
