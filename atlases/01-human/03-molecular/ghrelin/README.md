@@ -21,6 +21,9 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Ghrelin, released by gastric A-like cells during fasting, stimulates appetite via hypothalamic GHSR; ghrelin is paradoxically low in obesity but meal-suppression is blunted; GLP-1 receptor agonists (semaglutide) suppress ghrelin, contributing to appetite and weight reduction."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "Ghrelin is elevated in BN during restriction phases → amplifies binge trigger via GHSR1a/NPY axis; post-meal ghrelin suppression is impaired in BN, failing to terminate binge episodes; ghrelin-NPY drive is central to restriction-binge cycling in BN."
 sources:
   - id: kojima-1999-ghrelin
     type: peer-reviewed
@@ -125,6 +128,8 @@ Ghrelin opposes insulin: GHSR1a in pancreatic β cells → reduced insulin secre
 Ghrelin → hypothalamic arcuate GHSR1a → GHRH release + somatostatin suppression → pituitary GH pulse → hepatic IGF-1 production; ghrelin is the endogenous GH secretagogue; growth hormone secretagogues (MK-677/ibutamoren) act as orally bioavailable GHSR1a agonists to raise IGF-1.
 
 Ghrelin, released by gastric A-like cells during fasting, stimulates appetite via hypothalamic GHSR; ghrelin is paradoxically low in common obesity but meal-suppression response is blunted; GLP-1 receptor agonists (semaglutide) suppress ghrelin release, contributing to weight reduction in obesity treatment.
+
+Ghrelin is elevated in BN during restriction phases → amplifies binge trigger via GHSR1a/NPY axis; post-meal ghrelin suppression is impaired in BN, failing to terminate binge episodes; ghrelin-NPY drive is central to restriction-binge cycling in BN.
 
 [^kojima-1999-ghrelin]: Kojima M, Hosoda H, Date Y, Nakazato M, Matsuo H, Kangawa K. Ghrelin is a growth-hormone-releasing acylated peptide from stomach. *Nature.* 1999;402(6762):656-660. [doi:10.1038/45230](https://doi.org/10.1038/45230) · [PubMed 10604470](https://pubmed.ncbi.nlm.nih.gov/10604470/)
 [^camilleri-2013-relamorelin]: Camilleri M, Acosta A, Busciglio I, et al. Effect of relamorelin on gastrointestinal transit and symptoms in diabetic gastroparesis. *Neurogastroenterol Motil.* 2014;26(10):1452-1462. [doi:10.1111/nmo.12408](https://doi.org/10.1111/nmo.12408) · [PubMed 25167781](https://pubmed.ncbi.nlm.nih.gov/25167781/)

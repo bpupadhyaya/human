@@ -84,6 +84,12 @@ cross_links:
   - target: 01-human/07-system/borderline-personality-disorder
     relation: connects-to
     note: "5-HT2A and 5-HT1A dysregulation drive impulsivity and affective instability in BPD; reduced serotonin in amygdala and PFC reduces top-down inhibitory control; SSRIs reduce impulsive aggression in BPD; no FDA-approved medication for BPD but SSRIs used for comorbid depression."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "Serotonin hypofunction in prefrontal-limbic circuits drives impulse control failure and binge episodes in BN; reduced 5-HT2C satiety signaling; fluoxetine 60 mg (FDA-approved for BN) reduces binge/purge frequency ~50% and is first-line pharmacotherapy."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Cocaine blocks SERT → ↑ synaptic 5-HT in limbic circuits; MDMA reverses SERT → massive 5-HT/DA release → empathogenic effects; chronic MDMA causes SERT downregulation and serotonergic neurotoxicity; serotonergic modulation influences relapse in stimulant use disorder."
 ---
 
 # Serotonin
@@ -203,6 +209,8 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `modulated-by` → **[Orexin](../orexin/README.md)** — orexin excites dorsal raphe serotonin neurons via OX2R → 5-HT → wakefulness and emotional arousal; serotonin reciprocally inhibits orexin neurons; sodium oxybate (narcolepsy) consolidates sleep partly via serotonergic mechanisms.
 - `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — 5-HT2A receptor hyperactivation in PFC contributes to heightened harm avoidance and rigidity in AN; serotonin dysregulation persists after recovery; SSRIs are ineffective at low weight (insufficient tryptophan substrate); olanzapine (5-HT2A antagonist) modestly aids weight gain.
 - `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — 5-HT2A and 5-HT1A dysregulation drive impulsivity and affective instability in BPD; reduced serotonin in amygdala and PFC reduces top-down inhibitory control; SSRIs reduce impulsive aggression in BPD; no FDA-approved medication for BPD but SSRIs used for comorbid depression.
+- `connects-to` → **[Bulimia Nervosa](../../07-system/bulimia-nervosa/README.md)** — serotonin hypofunction in prefrontal-limbic circuits drives impulse control failure and binge episodes in BN; reduced 5-HT2C satiety signaling; fluoxetine 60 mg (FDA-approved, highest SSRI dose for any indication) reduces binge/purge frequency ~50% and is first-line BN pharmacotherapy.
+- `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — cocaine blocks SERT → ↑ synaptic 5-HT in limbic circuits; MDMA reverses SERT → massive 5-HT/DA release → empathogenic effects; chronic MDMA causes SERT downregulation and serotonergic neurotoxicity; serotonergic modulation influences relapse vulnerability in stimulant use disorder.
 
 ## Pathology
 

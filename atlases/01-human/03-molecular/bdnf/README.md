@@ -64,6 +64,9 @@ cross_links:
   - target: 01-human/07-system/anorexia-nervosa
     relation: connects-to
     note: "BDNF Val66Met SNP is associated with severe early-onset AN; hypothalamic BDNF in PVN regulates appetite suppression via TrkB; serum BDNF is reduced in acute AN and partially normalizes with weight restoration; BDNF dysregulation may contribute to appetite circuit dysfunction."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Repeated stimulant use → ΔFosB accumulation in NAcc → altered BDNF expression; BDNF in VTA sensitizes stimulant reward; withdrawal-phase BDNF changes contribute to depression and craving; BDNF/TrkB signaling is a target in relapse prevention research."
 ---
 
 # BDNF
@@ -198,6 +201,8 @@ The ratio of proBDNF to mature BDNF in synapses has opposing functional conseque
 **→ [Opioid Use Disorder](../../07-system/opioid-use-disorder/)**: chronic opioid drives ΔFosB accumulation in NAcc → altered BDNF expression and reward circuit plasticity; BDNF in VTA sensitizes opioid-induced reinforcement; withdrawal-phase BDNF surge in NAcc contributes to aversion; BDNF/TrkB signaling is a potential therapeutic target in relapse prevention.
 
 **→ [Anorexia Nervosa](../../07-system/anorexia-nervosa/)**: BDNF Val66Met SNP is associated with severe early-onset AN; hypothalamic BDNF in PVN regulates appetite suppression via TrkB; serum BDNF is reduced in acute AN and partially normalizes with weight restoration; BDNF dysregulation may contribute to appetite circuit dysfunction in AN.
+
+**→ [Stimulant Use Disorder](../../07-system/stimulant-use-disorder/)**: repeated cocaine/amphetamine drives ΔFosB accumulation in NAcc → altered BDNF/TrkB expression; BDNF in VTA sensitizes stimulant reward while BDNF in NAcc may paradoxically oppose cocaine reinforcement; withdrawal-phase BDNF changes contribute to depression and craving; BDNF is a therapeutic target for relapse prevention.
 
 [^barde-1982-bdnf-discovery]: Barde YA, Edgar D, Thoenen H. Purification of a new neurotrophic factor from mammalian brain. *EMBO J.* 1982;1(5):549-553. [doi:10.1002/j.1460-2075.1982.tb01207.x](https://doi.org/10.1002/j.1460-2075.1982.tb01207.x) · [PubMed 7188352](https://pubmed.ncbi.nlm.nih.gov/7188352/)
 [^duman-2012-bdnf-depression]: Duman RS, Aghajanian GK. Synaptic dysfunction in depression: potential therapeutic targets. *Science.* 2012;338(6103):68-72. [doi:10.1126/science.1222939](https://doi.org/10.1126/science.1222939) · [PubMed 23042884](https://pubmed.ncbi.nlm.nih.gov/23042884/)

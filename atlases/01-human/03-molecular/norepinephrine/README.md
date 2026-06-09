@@ -62,6 +62,9 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "MOR on LC neurons → Gi → suppresses LC firing → decreased NE during opioid use; opioid withdrawal → LC rebound hyperactivation → NE storm → sympathetic withdrawal symptoms; clonidine/lofexidine suppress LC rebound via α2A autoreceptor agonism."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Cocaine/amphetamines block or reverse NET → acute NE surge → tachycardia, hypertension, mydriasis; PFC NE elevation → acute arousal and attention; chronic stimulant NE dysregulation contributes to anxiety, agitation, and withdrawal dysphoria in stimulant use disorder."
 ---
 
 # Norepinephrine
@@ -177,6 +180,7 @@ NE
 - **Modulated by dopamine** — Norepinephrine is synthesised from dopamine by DβH in synaptic vesicles; the DA:NE ratio in sympathetic terminals is governed by DβH activity and vesicular transport capacity. See [dopamine](../dopamine/README.md).
 - `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — NE hyperreactivity to interpersonal stressors drives intense emotional surges in BPD; perceived abandonment or rejection → LC activation → NE → amygdala amplification → emotional flooding; clonidine (α2 agonist) reduces hyperarousal and impulsive self-harm in BPD.
 - `connects-to` → **[Mu-Opioid Receptor](../mu-opioid-receptor/README.md)** — MOR on LC neurons → Gi → suppresses LC firing → decreased NE during opioid use; opioid withdrawal → LC rebound hyperactivation → NE storm → sympathetic withdrawal symptoms; clonidine/lofexidine suppress LC rebound via α2A autoreceptor agonism.
+- `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — cocaine/amphetamines block or reverse NET → acute NE surge → tachycardia, hypertension, mydriasis; PFC NE elevation → arousal and attention; cocaine coronary vasospasm mediated partly by α1-NE stimulation; chronic stimulant NE dysregulation contributes to anxiety and withdrawal dysphoria.
 
 ## Pathology
 

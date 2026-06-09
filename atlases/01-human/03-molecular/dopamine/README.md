@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "MOR on VTA GABAergic interneurons mediates opioid-induced DA disinhibition → NAcc DA surge → euphoria; this MOR-DA coupling is the primary reward mechanism in opioid use disorder and alcohol use disorder; naltrexone blocks MOR-mediated VTA disinhibition → reduces reward."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "Dysregulated striatal dopamine drives binge reinforcement in BN via NAcc D3R; PET shows ↑DA release during food cue exposure; altered reward prediction error signaling contributes to loss-of-control eating; dopamine mediates the negative reinforcement of purging."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Cocaine blocks DAT → acute DA surge in NAcc; amphetamines reverse DAT via TAAR1/PKC → cytoplasmic DA efflux; chronic use → D2R downregulation and ΔFosB accumulation → hypodopaminergic withdrawal state; PET shows reduced D2R in striatum of chronic users."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "A2AR-D2R heterodimers on striatal indirect pathway neurons: adenosine binding reduces D2R affinity for dopamine; istradefylline (A2AR antagonist) enhances D2R-mediated motor facilitation in Parkinson's disease; adenosine-dopamine antagonism is a key therapeutic target."
 ---
 
 # Dopamine
@@ -185,6 +194,9 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `modulated-by` → **[Orexin](../orexin/README.md)** — OX1R in VTA activates mesolimbic dopamine → NAcc DA release → reinforces wakefulness and reward-seeking; orexin drives cue-induced drug reinstatement via the OX1R-VTA-DA axis; OX1R antagonists reduce alcohol, cocaine, and opioid seeking in preclinical models.
 - `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — increased striatal D2/D3 receptor binding in recovered AN patients (PET) suggests reduced dopamine tone; reduced reward salience of food cues; altered DA reward circuits may explain why restriction becomes negatively reinforcing and food avoidance feels "safe."
 - `connects-to` → **[Mu-Opioid Receptor](../mu-opioid-receptor/README.md)** — MOR on VTA GABAergic interneurons mediates opioid-induced DA disinhibition → NAcc DA surge → euphoria; naltrexone blocks MOR-mediated VTA disinhibition → reduces opioid and alcohol reward.
+- `connects-to` → **[Bulimia Nervosa](../../07-system/bulimia-nervosa/README.md)** — dysregulated striatal dopamine drives binge reinforcement via NAcc D3R; PET shows ↑ DA release during food cue exposure in BN; altered reward prediction error signaling contributes to loss-of-control eating; dopamine also mediates the negative reinforcement of purging.
+- `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — cocaine blocks DAT → acute DA surge in NAcc (euphoria); amphetamines reverse DAT via TAAR1/PKC → cytoplasmic DA efflux; chronic use → D2R downregulation and ΔFosB accumulation → hypodopaminergic withdrawal state; PET shows ↓ striatal D2R in chronic users.
+- `connects-to` → **[Adenosine](../adenosine/README.md)** — A2AR-D2R heterodimers on striatal indirect pathway neurons: adenosine binding reduces D2R affinity for dopamine, opposing D2R-mediated motor facilitation; istradefylline (A2AR antagonist) enhances D2R-mediated striatal function in Parkinson's disease.
 
 ## Pathology
 

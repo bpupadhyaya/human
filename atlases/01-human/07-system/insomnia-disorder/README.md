@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "Insomnia involves VLPO failure to fully silence arousal centers (LC, TMN, raphe, orexin neurons) — the flip-flop switch remains unstable; cortical hyperarousal at sleep onset is the core mechanism; CBT-I normalizes sleep homeostasis without pharmacological GABA-A modulation."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine builds homeostatic sleep pressure (process S) during waking via A1R/A2AR on arousal neurons; caffeine (A1R/A2AR antagonist) promotes wakefulness by blocking this pressure — poor caffeine timing is a major behavioral contributor to insomnia onset and maintenance."
 ---
 
 # Insomnia Disorder
@@ -189,6 +192,8 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Histamine](../../../03-molecular/histamine/README.md)** — histamine H1 receptors on cortical neurons maintain arousal via TMN projections; low-dose doxepin (3-6mg) is FDA-approved for sleep-maintenance insomnia via selective H1 blockade; OTC diphenhydramine blocks H1 but causes next-day sedation and anticholinergic effects in elderly.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — insomnia involves VLPO failure to fully silence arousal centers (LC, TMN, raphe, orexin neurons), with the flip-flop switch remaining unstable; cortical hyperarousal at sleep onset is the core mechanism; CBT-I normalizes sleep-wake homeostasis by targeting perpetuating behavioral factors.
+
+- `connects-to` → **[Adenosine](../../../03-molecular/adenosine/README.md)** — adenosine builds homeostatic sleep pressure (process S) during waking via A1R/A2AR on arousal neurons; caffeine (A1R/A2AR antagonist) promotes wakefulness by blocking this pressure — poor caffeine timing is a major behavioral contributor to insomnia onset and maintenance.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

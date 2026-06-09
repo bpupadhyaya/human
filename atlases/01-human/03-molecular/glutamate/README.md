@@ -81,6 +81,9 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Chronic opioid potentiates corticostriatal glutamatergic synapses → LTP underlying craving and drug-cue reactivity; AMPA receptor upregulation in NAcc drives relapse-associated excitability; mGluR5 antagonists reduce cue-triggered reinstatement of opioid seeking in rodents."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Chronic stimulant use disrupts glutamate homeostasis in NAcc via reduced system Xc; drug cues trigger PFC→NAcc glutamate surges → craving; N-acetylcysteine (restores system Xc) and mGluR2/3 agonists are in clinical trials for stimulant relapse prevention."
 ---
 
 # Glutamate
@@ -176,6 +179,7 @@ In ischemia, oxygen/glucose deprivation reverses ion gradients and drives massiv
 - `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — NMDA receptor activation in BLA mediates fear memory consolidation; excessive glutamate signaling amplifies amygdala hyperreactivity; D-cycloserine (partial NMDA agonist) enhances extinction learning in CBT augmentation trials for panic disorder.
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol inhibits NMDA receptors (NR2B) → blackouts; chronic use → compensatory NMDA upregulation; abrupt withdrawal → glutamate excitotoxicity → seizures and Wernicke-Korsakoff syndrome; acamprosate normalizes NMDA/GABA balance in protracted abstinence.
 - `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — chronic opioid potentiates corticostriatal glutamatergic synapses → LTP underlying craving and drug-cue reactivity; AMPA receptor upregulation in NAcc drives relapse-associated excitability; mGluR5 antagonists reduce cue-triggered reinstatement of opioid seeking in rodents.
+- `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — chronic stimulant use disrupts glutamate homeostasis in NAcc via reduced system Xc activity; drug cues trigger PFC→NAcc glutamate surges driving craving; N-acetylcysteine (restores system Xc) and mGluR2/3 agonists (reduce prefrontal glutamate release) are in clinical trials for stimulant relapse prevention.
 
 ## Pathology
 

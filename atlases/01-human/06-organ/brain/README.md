@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "MOR expressed in PAG (descending analgesia), VTA (euphoria via DA disinhibition), LC (arousal/withdrawal), NAcc (reinforcement), amygdala (aversion), and pre-Bötzinger complex (respiratory rhythm depression); MOR distribution explains opioids' broad opposing CNS effects."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "BN involves insula dysfunction (impaired interoceptive satiety signaling), reduced ventral PFC inhibitory control, striatal reward dysregulation, and ACC conflict monitoring deficits; CBT-BN and fluoxetine both normalize PFC-striatal connectivity on fMRI."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Stimulant use disorders remodel VTA-NAcc circuits (ΔFosB, D2R loss), PFC (gray matter thinning, ↓ inhibitory control), and amygdala (cue craving); PET shows reduced DAT and D2R; meth causes DAT terminal destruction detectable on dopamine transporter imaging."
+  - target: 01-human/03-molecular/adenosine
+    relation: modulated-by
+    note: "Basal forebrain adenosine accumulates during waking → builds sleep pressure via A1R/A2AR on arousal neurons; caffeine (A1R/A2AR antagonist) blocks this pressure; adenosine A1R also mediates neuroprotection during ischemia by suppressing excitotoxic glutamate release."
 ---
 
 # Brain
@@ -227,6 +236,9 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — AN shows gray matter reduction in OFC, insular cortex, and cingulate; fMRI reveals altered insula processing of food cues and reduced striatal reward responses; OFC hyperactivation drives cognitive rigidity; much gray matter recovers with weight restoration over 1-2 years.
 - `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — BPD features amygdala hyperreactivity to social threat and rejection cues, reduced vmPFC-amygdala inhibitory connectivity, and impaired PFC regulation; effective DBT treatment normalizes amygdala reactivity and increases PFC activation on fMRI over 12 months.
 - `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — MOR expressed in PAG (descending analgesia), VTA (euphoria via DA disinhibition), LC (arousal/withdrawal), NAcc (reinforcement), amygdala (aversion), and pre-Bötzinger complex (respiratory depression); MOR distribution explains opioids' broad opposing CNS effects.
+- `connects-to` → **[Bulimia Nervosa](../../07-system/bulimia-nervosa/README.md)** — BN involves insula dysfunction (impaired interoceptive satiety signaling), reduced ventral PFC inhibitory control, striatal D3R/D2R reward dysregulation, and ACC conflict monitoring deficits; CBT-BN and fluoxetine both normalize PFC-striatal connectivity on fMRI.
+- `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — stimulant use disorders remodel VTA-NAcc circuits (ΔFosB, D2R loss), PFC (gray matter thinning, ↓ inhibitory control), and amygdala (cue-conditioned craving); PET shows reduced DAT and D2R in striatum; meth causes DAT terminal destruction detectable on dopamine transporter imaging.
+- `modulated-by` → **[Adenosine](../../03-molecular/adenosine/README.md)** — basal forebrain adenosine accumulates during waking → builds homeostatic sleep pressure via A1R/A2AR on arousal-promoting neurons; caffeine blocks this pressure; A1R also mediates neuroprotection during ischemia by suppressing excitotoxic glutamate release.
 
 ## Pathology
 
