@@ -228,6 +228,9 @@ cross_links:
   - target: 01-human/03-molecular/hcn4
     relation: connects-to
     note: "HCN4 (funny channel) is the dominant SA node pacemaker current; cAMP directly gates HCN4 → transduces sympathetic (+10 mV shift) and vagal (-10 mV shift) chronotropic control; ivabradine (HCN4 blocker) reduces HR without negative inotropy; approved in HFrEF with HR >70 bpm."
+  - target: 01-human/03-molecular/ryr2
+    relation: connects-to
+    note: "RyR2 CICR amplifies the L-type Ca²⁺ trigger into cardiac contraction (~75% of Ca²⁺ transient is SR-derived); PKA and CaMKII tune RyR2 gain for sympathetic inotropy; CaMKII hyperactivation in HF → diastolic RyR2 leak → arrhythmia; RYR2 GOF mutations cause CPVT."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -380,6 +383,7 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Cx43 gap junctions at intercalated discs create the cardiac electrical syncytium; lateralization and downregulation in heart failure → slow conduction and re-entry → VT risk; ischemia acidosis closes channels (protective); reperfusion reopens → Ca²⁺ injury propagation.
 - `connects-to` → **[Phospholamban](../../03-molecular/phospholamban/README.md)** — PLN is the molecular relay of sympathoadrenergic cardiac regulation: β1-AR → PKA → PLN-pSer16 → SERCA2a disinhibition → faster Ca²⁺ reuptake → lusitropy and inotropy; PLN hyperinhibition in HFrEF (reduced pSer16) is a core Ca²⁺ cycling defect; PLN Arg9Cys → familial DCM.
 - `connects-to` → **[HCN4](../../03-molecular/hcn4/README.md)** — HCN4 (funny channel) is the dominant SA node pacemaker current; cAMP directly gates HCN4 → transduces sympathetic (+10 mV shift) and vagal (-10 mV shift) chronotropic control; ivabradine (HCN4 blocker) reduces HR without negative inotropy; approved in HFrEF with HR >70 bpm.
+- `connects-to` → **[RyR2](../../03-molecular/ryr2/README.md)** — RyR2 CICR amplifies the L-type Ca²⁺ trigger into cardiac contraction (~75% of Ca²⁺ transient is SR-derived); PKA and CaMKII tune RyR2 gain for sympathetic inotropy; CaMKII hyperactivation in HF → diastolic RyR2 leak → arrhythmia; RYR2 GOF mutations cause CPVT.
 
 ## Pathology
 

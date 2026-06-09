@@ -64,6 +64,9 @@ cross_links:
   - target: 01-human/03-molecular/hcn4
     relation: connects-to
     note: "Heart failure with persistent tachycardia: ivabradine (HCN4 I_f blocker) reduces HR without negative inotropy; SHIFT trial: 18% reduction in HF hospitalization in HFrEF with HR >70 bpm; European guidelines recommend ivabradine as adjunct therapy in HFrEF with HR >70 bpm."
+  - target: 01-human/03-molecular/ryr2
+    relation: connects-to
+    note: "CaMKII hyperactivation in HFrEF hyperphosphorylates RyR2 Ser2814 → diastolic Ca²⁺ leak → SR Ca²⁺ depletion + delayed afterdepolarizations → ventricular arrhythmia; diastolic RyR2 Ca²⁺ leak is a core mechanism linking Ca²⁺ cycling dysfunction to sudden cardiac death in HF."
 ---
 
 # Heart Failure
@@ -152,6 +155,7 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Ventricular Cx43 is down-regulated and lateralized in heart failure → electrical uncoupling → slow conduction → re-entrant VT substrate → sudden cardiac death; Cx43 dephosphorylation (loss of pSer368) marks gap junction dysfunction and correlates with arrhythmia risk.
 - `connects-to` → **[Phospholamban](../../03-molecular/phospholamban/README.md)** — PLN hyperinhibition of SERCA2a is the central Ca²⁺ handling defect in HFrEF: elevated PP1/PP2A → reduced PLN-pSer16 → constitutive SERCA2a inhibition → slow Ca²⁺ reuptake → impaired relaxation and contractility; AAV1.SERCA2a gene therapy (CUPID) aimed to restore Ca²⁺ cycling.
 - `connects-to` → **[HCN4](../../03-molecular/hcn4/README.md)** — Heart failure with persistent tachycardia: ivabradine (HCN4 I_f blocker) reduces HR without negative inotropy; SHIFT trial: 18% reduction in HF hospitalization in HFrEF with HR >70 bpm; European guidelines recommend ivabradine as adjunct therapy in HFrEF with HR >70 bpm.
+- `connects-to` → **[RyR2](../../03-molecular/ryr2/README.md)** — CaMKII hyperactivation in HFrEF hyperphosphorylates RyR2 Ser2814 → diastolic Ca²⁺ leak → SR Ca²⁺ depletion + delayed afterdepolarizations → ventricular arrhythmia; diastolic RyR2 Ca²⁺ leak is a core mechanism linking Ca²⁺ cycling dysfunction to sudden cardiac death in HF.
 
 ## Pathology
 

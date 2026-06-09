@@ -43,6 +43,12 @@ cross_links:
   - target: 01-human/03-molecular/beta1-adrenergic-receptor
     relation: modulated-by
     note: "β1-AR/PKA phosphorylates RyR2 at Ser2808 and CaMKII phosphorylates Ser2814, increasing channel open probability and SR Ca²⁺ spark frequency."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "CaMKII hyperactivation in HFrEF → RyR2 Ser2814 hyperphosphorylation → increased diastolic Ca²⁺ leak → SR Ca²⁺ depletion + delayed afterdepolarizations → arrhythmia; diastolic RyR2 leak links Ca²⁺ cycling dysfunction to sudden cardiac death in heart failure."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "RyR2 CICR amplifies a small Cav1.2 trigger into full cardiac Ca²⁺ transient (~75% SR-derived); RyR2 gating kinetics set contractile force; PKA/CaMKII phosphorylation mediates sympathetic inotropy; RyR2 GOF mutations cause CPVT — life-threatening adrenergic arrhythmia."
 taxonomy:
   uniprot: "Q92736"
   gene_symbol: "RYR2"
@@ -123,9 +129,11 @@ Even at diastole, individual RyR2 clusters occasionally open spontaneously — p
 
 ## Connections
 
-- **Modulates** → [Calcium](../../02-atomic/calcium/README.md): RyR2 is the dominant source of SR Ca²⁺ released each heartbeat; its gating directly controls the cytosolic Ca²⁺ transient amplitude.
-- **Expressed-by** → [Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md): RyR2 is the cardiac-specific SR release channel, expressed throughout working and conduction-system cardiomyocytes.
-- **Modulated-by** → [β1-adrenergic receptor](beta1-adrenergic-receptor/README.md): PKA downstream of β1-AR phosphorylates Ser2808; CaMKII (activated by the same Ca²⁺ transient it gates) phosphorylates Ser2814, both increasing Ca²⁺ spark frequency and SR Ca²⁺ release gain.
+- `modulates` → **[Calcium](../../02-atomic/calcium/README.md)** — RyR2 is the dominant source of SR Ca²⁺ released each heartbeat; its gating directly controls the cytosolic Ca²⁺ transient amplitude.
+- `expressed-by` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — RyR2 is the cardiac-specific SR release channel, expressed throughout working and conduction-system cardiomyocytes.
+- `modulated-by` → **[β1-Adrenergic Receptor](../beta1-adrenergic-receptor/README.md)** — PKA downstream of β1-AR phosphorylates Ser2808; CaMKII (activated by the same Ca²⁺ transient it gates) phosphorylates Ser2814, both increasing Ca²⁺ spark frequency and SR Ca²⁺ release gain.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — CaMKII hyperactivation in HFrEF → RyR2 Ser2814 hyperphosphorylation → increased diastolic Ca²⁺ leak → SR Ca²⁺ depletion + delayed afterdepolarizations → arrhythmia; diastolic RyR2 leak links Ca²⁺ cycling dysfunction to sudden cardiac death in heart failure.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — RyR2 CICR amplifies a small Cav1.2 trigger into full cardiac Ca²⁺ transient (~75% SR-derived); RyR2 gating kinetics set contractile force; PKA/CaMKII phosphorylation mediates sympathetic inotropy; RyR2 GOF mutations cause CPVT — life-threatening adrenergic arrhythmia.
 
 ## Pathology
 
@@ -146,3 +154,6 @@ Even at diastole, individual RyR2 clusters occasionally open spontaneously — p
 [^marks-1989-ryr2-cloning]: Marks AR, Fleischer S, Bhatt DL. Ryanodine receptor 2, a calcium release channel in the sarcoplasmic reticulum. *J Clin Invest.* 1989;83(3):872-878. [doi:10.1172/JCI113967](https://doi.org/10.1172/JCI113967) · [PubMed 2537625](https://pubmed.ncbi.nlm.nih.gov/2537625/)
 [^wehrens-2003-pka-ryr2]: Wehrens XH, Lehnart SE, Reiken SR, et al. Ca2+/calmodulin-dependent protein kinase II phosphorylation regulates the cardiac ryanodine receptor. *Circ Res.* 2004;94(6):e61-70. [doi:10.1161/01.RES.0000125626.33738.E2](https://doi.org/10.1161/01.RES.0000125626.33738.E2) · [PubMed 15016728](https://pubmed.ncbi.nlm.nih.gov/15016728/)
 [^priori-2001-cpvt-ryr2]: Priori SG, Napolitano C, Tiso N, et al. Mutations in the cardiac ryanodine receptor gene (hRyR2) underlie catecholaminergic polymorphic ventricular tachycardia. *Circulation.* 2001;103(2):196-200. [doi:10.1161/01.CIR.103.2.196](https://doi.org/10.1161/01.CIR.103.2.196) · [PubMed 11208676](https://pubmed.ncbi.nlm.nih.gov/11208676/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
