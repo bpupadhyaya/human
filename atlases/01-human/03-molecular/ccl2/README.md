@@ -18,6 +18,15 @@ cross_links:
   - target: 01-human/07-system/nash
     relation: connects-to
     note: "Hepatocyte lipotoxicity + DAMPs → Kupffer cell CCL2; elevated hepatic CCL2 → CCR2+ monocyte-derived macrophage recruitment → NLRP3 → IL-1β + TNF-α → stellate cell activation → fibrosis; cenicriviroc (CCR2/CCR5 dual antagonist) studied in CENTAUR/AURORA trials."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "CCL2/CCR2 drives monocyte infiltration into atherosclerotic plaques and adventitial macrophage accumulation; elevated serum CCL2 predicts MACE in EPIC/MRFIT cohorts; CCR2 blockade reduces plaque and improves cardiac function post-MI in murine models."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "CCL2 is the dominant synovial chemokine in RA: synoviocytes and FLS secrete CCL2 → CCR2+ monocyte/macrophage recruitment → pannus formation; synovial fluid CCL2 >5 ng/mL correlates with radiographic damage; macrophage-derived RANKL and MMPs drive joint destruction."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Obese adipocyte CCL2 → CCR2+ monocyte recruitment → adipose tissue macrophage (ATM) infiltration → M1 polarization → TNF-α + IL-6 → hepatic and skeletal muscle insulin resistance; crown-like structures (ATM clusters around dead adipocytes) predict T2DM independently of BMI."
 sources:
   - id: yoshimura-1987-mcp1
     type: peer-reviewed
@@ -124,6 +133,11 @@ Hepatocyte lipotoxicity + DAMPs → Kupffer cell CCL2 + TGF-β production; eleva
 - `connects-to` → **[Atherosclerosis](../../07-system/atherosclerosis/README.md)** — CCL2 from endothelium/macrophages → CCR2 on monocytes → subendothelial monocyte recruitment → foam cell formation → atherosclerotic plaque; CCL2/CCR2 inhibition reduces plaque in murine models; serum CCL2 correlates with cardiovascular event risk in the MRFIT and EPIC cohorts.
 - `connects-to` → **[IgA Nephropathy](../../07-system/iga-nephropathy/README.md)** — Mesangial IgA immune complex deposition → complement + cytokine activation → CCL2 from mesangial cells + tubular epithelial cells → CCR2+ monocyte/macrophage infiltration → tubulointerstitial inflammation → fibrosis → CKD progression; urine CCL2 tracks IgAN disease activity.
 - `connects-to` → **[NASH](../../07-system/nash/README.md)** — Hepatocyte lipotoxicity + DAMPs → Kupffer cell CCL2 + TGF-β production; elevated hepatic CCL2 → CCR2+ monocyte-derived macrophage recruitment → NLRP3 → IL-1β + TNF-α → stellate cell activation → fibrosis; cenicriviroc (CCR2/CCR5 dual antagonist) was studied in CENTAUR/AURORA trials.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — CCL2/CCR2 drives monocyte infiltration into atherosclerotic plaques and adventitial macrophage accumulation; elevated serum CCL2 predicts MACE in EPIC/MRFIT cohorts; CCR2 blockade reduces plaque and improves cardiac function post-MI in murine models.
+- `connects-to` → **[Rheumatoid Arthritis](../../07-system/rheumatoid-arthritis/README.md)** — CCL2 is the dominant synovial chemokine in RA: synoviocytes and FLS secrete CCL2 → CCR2+ monocyte/macrophage recruitment → pannus formation; synovial fluid CCL2 >5 ng/mL correlates with radiographic damage; macrophage-derived RANKL and MMPs drive joint destruction.
+- `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — Obese adipocyte CCL2 → CCR2+ monocyte recruitment → adipose tissue macrophage (ATM) infiltration → M1 polarization → TNF-α + IL-6 → hepatic and skeletal muscle insulin resistance; crown-like structures (ATM clusters around dead adipocytes) predict T2DM independently of BMI.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^yoshimura-1987-mcp1]: Yoshimura T, Matsushima K, Tanaka S, et al. Purification of a human monocyte chemoattractant produced by phytohemagglutinin-stimulated human blood mononuclear leukocytes. *J Immunol.* 1987;139(3):788-793. [doi:10.4049/jimmunol.139.3.788](https://doi.org/10.4049/jimmunol.139.3.788) · [PubMed 2955805](https://pubmed.ncbi.nlm.nih.gov/2955805/)
 [^boring-1998-ccl2-atherosclerosis]: Boring L, Gosling J, Cleary M, Charo IF. Decreased lesion formation in CCR2-/- mice reveals a role for chemokines in the initiation of atherosclerosis. *Nature.* 1998;394(6696):894-897. [doi:10.1038/29788](https://doi.org/10.1038/29788) · [PubMed 9732872](https://pubmed.ncbi.nlm.nih.gov/9732872/)

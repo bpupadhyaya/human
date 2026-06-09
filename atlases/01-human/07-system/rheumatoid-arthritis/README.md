@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5+ macrophages and Th1 cells are abundant in RA synovium; CCR5 ligands (CCL3/CCL4/CCL5) are elevated in RA synovial fluid and correlate with disease activity; maraviroc (CCR5 antagonist) has been explored in RA with modest benefit in small trials."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "CCL2 is the dominant synovial chemokine in RA: synoviocytes and FLS secrete CCL2 → CCR2+ monocyte/macrophage recruitment → pannus formation; synovial fluid CCL2 >5 ng/mL correlates with radiographic damage; macrophage-derived RANKL and MMPs drive joint destruction."
 ---
 
 # Rheumatoid Arthritis
@@ -197,6 +200,9 @@ RA patients have:
 - `connects-to` → **[NF-kB](../../03-molecular/nf-kb/README.md)** — NF-kB activated in RA synovial fibroblasts and macrophages by TNF-alpha and IL-1beta → MMP secretion, RANKL induction, and osteoclast-driven bone erosion; glucocorticoids and multiple bDMARDs converge on NF-kB suppression as a shared downstream mechanism.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is present in RA synovium but secondary to TNF-alpha and IL-6; IL-17A promotes osteoclastogenesis via RANKL induction; IL-17A inhibitors (secukinumab) failed pivotal RA trials; bimekizumab (anti-IL-17A/F) showed marginal RA benefit vs established TNF/IL-6 blockade.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5⁺ macrophages and Th1 cells are the dominant leukocyte populations in RA pannus; CCL3/CCL4/CCL5 (CCR5 ligands) are elevated in RA synovial fluid and correlate with disease activity; maraviroc (CCR5 antagonist) showed modest benefit in small RA trials, suggesting CCR5-mediated leukocyte recruitment contributes to synovitis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 is the dominant synovial chemokine in RA: synoviocytes and FLS secrete CCL2 → CCR2+ monocyte/macrophage recruitment → pannus formation; synovial fluid CCL2 >5 ng/mL correlates with radiographic damage; macrophage-derived RANKL and MMPs drive joint destruction.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^smolen-2016-ra-lancet]: Smolen JS, Aletaha D, McInnes IB. Rheumatoid arthritis. *Lancet.* 2016;388(10055):2023-2038. [doi:10.1016/S0140-6736(16)30173-8](https://doi.org/10.1016/S0140-6736(16)30173-8) · [PubMed 27156434](https://pubmed.ncbi.nlm.nih.gov/27156434/)
 [^firestein-2003-ra-pathogenesis]: Firestein GS. Evolving concepts of rheumatoid arthritis. *Nature.* 2003;423(6937):356-361. [doi:10.1038/nature01661](https://doi.org/10.1038/nature01661) · [PubMed 12748655](https://pubmed.ncbi.nlm.nih.gov/12748655/)
