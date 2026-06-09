@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/07-system/endometrial-cancer
     relation: connects-to
     note: "Unopposed estrogen drives endometrial hyperplasia → EIN → type 1 endometrioid cancer; obesity → adipose aromatase → androgen-to-estrogen conversion → ~3× EC risk at BMI >30; aromatase inhibitors active in ER+ endometrial cancer; combined HRT (with progestogen) prevents EC risk."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Progesterone and estrogen exert opposing effects on the endometrium: estrogen drives proliferation, progesterone drives secretory transformation; unopposed estrogen without progesterone → endometrial hyperplasia → EC risk; combined HRT (E2+P4) reduces EC risk to near baseline."
 ---
 
 # Estrogen
@@ -189,6 +192,7 @@ Days 15-28 (Luteal phase):
 - `connects-to` → **[Major Depressive Disorder](../../07-system/major-depressive-disorder/README.md)** — Perimenopausal estrogen fluctuations trigger or worsen MDD; transdermal estradiol (100 mcg/day patch) has antidepressant efficacy in perimenopausal women; PMDD involves abnormal CNS sensitivity to allopregnanolone (progesterone metabolite) fluctuations, not estrogen deficiency.
 
 - `connects-to` → **[Endometrial Cancer](../../07-system/endometrial-cancer/README.md)** — Unopposed estrogen drives endometrial hyperplasia → EIN → type 1 endometrioid cancer; obesity → adipose aromatase → androgen-to-estrogen conversion → ~3× EC risk at BMI >30; aromatase inhibitors active in ER+ endometrial cancer; combined HRT (with progestogen) prevents EC risk.
+- `connects-to` → **[Progesterone](../progesterone/README.md)** — Progesterone and estrogen exert opposing effects on the endometrium: estrogen drives proliferation, progesterone drives secretory transformation; unopposed estrogen without progesterone → endometrial hyperplasia → EC risk; combined HRT (E2+P4) reduces EC risk to near baseline.
 
 ---
 

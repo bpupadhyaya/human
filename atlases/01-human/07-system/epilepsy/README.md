@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Epilepsy risk is 2-3× elevated in AD; amyloid-driven cortical hyperexcitability precedes clinical dementia; anti-NMDAR and LGI1 autoimmune encephalitides cause encephalitis with new-onset epilepsy mimicking rapid-onset dementia; LGI1 faciobrachial seizures are pathognomonic."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Allopregnanolone (progesterone metabolite) is a potent GABA-A PAM via delta subunit extrasynaptic receptors → sedation, anxiolysis, anticonvulsant; progesterone withdrawal → allopregnanolone decline → GABA-A downregulation → seizure threshold reduction in catamenial epilepsy."
 ---
 
 # Epilepsy
@@ -207,6 +210,7 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — TSC1/TSC2 LOF → mTOR hyperactivation → cortical tubers → epilepsy in 80-90% of TSC patients; somatic PIK3CA/MTOR mutations cause focal cortical dysplasia IIb; mTOR inhibitor everolimus reduces TSC-associated seizures by ~50% (EXIST-3 trial); mTOR pathway is the major therapeutic target for structural genetic epilepsies.
 - `targets` → **[Brain](../../06-organ/brain/README.md)** — epilepsy arises from focal or generalized cortical networks; hippocampal sclerosis in MTLE causes the most common adult focal epilepsy; EEG captures ictal/interictal cortical discharges; epilepsy surgery (temporal lobectomy) directly resects the epileptogenic zone.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — epilepsy risk is 2-3× elevated in AD; amyloid-driven cortical hyperexcitability precedes clinical dementia; anti-NMDAR and LGI1 autoimmune encephalitides present with epilepsy and cognitive decline, mimicking rapid-onset dementia and requiring different treatment.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Allopregnanolone (progesterone metabolite) is a potent GABA-A PAM via delta subunit extrasynaptic receptors → sedation, anxiolysis, anticonvulsant; progesterone withdrawal → allopregnanolone decline → GABA-A downregulation → seizure threshold reduction in catamenial epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

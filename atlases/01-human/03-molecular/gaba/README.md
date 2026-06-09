@@ -103,6 +103,9 @@ cross_links:
   - target: 01-human/03-molecular/npy
     relation: connects-to
     note: "Hippocampal and cortical NPY interneurons are GABAergic (co-express SST); Y2R presynaptic autoreceptors modulate GABA release; NPY-SST+ interneurons regulate theta-gamma oscillations; NPY inhibits mossy fiber LTP partially via GABA-mediated feed-forward inhibition."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Progesterone metabolizes to allopregnanolone (GABA-A PAM); luteal phase allopregnanolone fluctuations → GABA sensitivity changes; brexanolone (synthetic allopregnanolone) IV is FDA-approved for postpartum depression; GABA-A delta subunit receptors are particularly sensitive."
 ---
 
 # GABA
@@ -229,6 +232,7 @@ When E/I balance shifts toward excess excitation (loss of GABAergic interneurons
 - `connects-to` → **[Endocannabinoid System](../endocannabinoid/README.md)** — CB1R is predominantly expressed on GABAergic presynaptic terminals; retrograde 2-AG/AEA release → CB1R → Gi → reduced GABA release (DSI — depolarization-induced suppression of inhibition); endocannabinoid-mediated DSI disinhibits postsynaptic neurons and modulates hippocampal theta oscillations and synaptic plasticity.
 - `connects-to` → **[Cannabis Use Disorder](../../07-system/cannabis-use-disorder/README.md)** — CB1R on GABAergic interneurons mediates THC's disinhibitory effects; chronic THC → CB1R internalization on GABA terminals → altered E/I balance; PFC GABA deficits (measurable by MRS) correlate with impaired inhibitory control and are a neurobiological marker of cannabis-use disorder.
 - `connects-to` → **[NPY](../npy/README.md)** — hippocampal and cortical NPY interneurons are GABAergic (co-express SST); Y2R presynaptic autoreceptors modulate GABA release; NPY-SST+ interneurons regulate theta-gamma oscillations; NPY inhibits mossy fiber LTP partially via GABA-mediated feed-forward inhibition.
+- `connects-to` → **[Progesterone](../progesterone/README.md)** — Progesterone metabolizes to allopregnanolone (GABA-A PAM); luteal phase allopregnanolone fluctuations → GABA sensitivity changes; brexanolone (synthetic allopregnanolone) IV is FDA-approved for postpartum depression; GABA-A delta subunit receptors are particularly sensitive.
 
 ## Pathology
 
