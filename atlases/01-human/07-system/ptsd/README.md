@@ -48,6 +48,12 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Oxytocin facilitates fear extinction in the amygdala via OTR on CeA neurons; chronic stress reduces OT signaling; intranasal oxytocin is under investigation as an adjunct to exposure therapy to enhance extinction memory consolidation in PTSD."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "SSRIs (sertraline, paroxetine) are FDA-approved for PTSD; serotonin modulates fear extinction in vmPFC; serotonin dysregulation contributes to PTSD hyperarousal, emotional numbing, and sleep disturbance; SNRIs (venlafaxine) also used for PTSD with good evidence."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "PTSD shows CSF CRH excess, elevated ACTH, and paradoxically low cortisol (enhanced glucocorticoid feedback); CRH hyperdrive in amygdala/BNST drives hyperarousal and re-experiencing; CRHR1 antagonists are a proposed pharmacotherapy pending adequate clinical trials."
 ---
 
 # PTSD
@@ -189,6 +195,10 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — PTSD features BLA hyperreactivity, reduced vmPFC-amygdala suppression, ~8% hippocampal volume reduction, and reduced anterior cingulate activation; normalization of amygdala-vmPFC functional connectivity is a biomarker of treatment response on task-based fMRI.
 
 - `connects-to` → **[Oxytocin](../../../03-molecular/oxytocin/README.md)** — oxytocin facilitates fear extinction in the amygdala via OTR on CeA neurons; chronic stress reduces OT signaling; intranasal oxytocin is under investigation as an adjunct to exposure therapy to enhance extinction memory consolidation.
+
+- `connects-to` → **[Serotonin](../../../03-molecular/serotonin/README.md)** — SSRIs (sertraline, paroxetine) are FDA-approved for PTSD; serotonin modulates fear extinction in vmPFC; serotonin dysregulation contributes to hyperarousal, emotional numbing, and sleep disturbance; SNRIs (venlafaxine) are also evidence-based for PTSD symptom reduction.
+
+- `connects-to` → **[CRH](../../../03-molecular/crh/README.md)** — PTSD shows CSF CRH excess, elevated ACTH, and paradoxically low cortisol (enhanced glucocorticoid feedback); CRH hyperdrive in amygdala/BNST drives hyperarousal and re-experiencing; CRHR1 antagonists are a proposed pharmacotherapy pending adequate clinical trials.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

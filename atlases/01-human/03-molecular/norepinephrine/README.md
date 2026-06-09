@@ -65,6 +65,12 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Cocaine/amphetamines block or reverse NET → acute NE surge → tachycardia, hypertension, mydriasis; PFC NE elevation → acute arousal and attention; chronic stimulant NE dysregulation contributes to anxiety, agitation, and withdrawal dysphoria in stimulant use disorder."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Extra-hypothalamic CRH activates CRHR1 on LC neurons → NE release → cortical arousal and stress vigilance; LC NE projects back to PVN to amplify CRH release (feedforward loop); CRH-LC activation underlies stress-induced hyperarousal in PTSD, panic, and anxiety disorders."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol withdrawal → NE hyperactivation → autonomic instability (tachycardia, hypertension, diaphoresis) — core CIWA-Ar symptoms; clonidine (α2 agonist) reduces LC-NE firing during withdrawal; chronic alcohol disrupts NE autoreceptor sensitivity and NE synthesis capacity."
 ---
 
 # Norepinephrine
@@ -181,6 +187,10 @@ NE
 - `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — NE hyperreactivity to interpersonal stressors drives intense emotional surges in BPD; perceived abandonment or rejection → LC activation → NE → amygdala amplification → emotional flooding; clonidine (α2 agonist) reduces hyperarousal and impulsive self-harm in BPD.
 - `connects-to` → **[Mu-Opioid Receptor](../mu-opioid-receptor/README.md)** — MOR on LC neurons → Gi → suppresses LC firing → decreased NE during opioid use; opioid withdrawal → LC rebound hyperactivation → NE storm → sympathetic withdrawal symptoms; clonidine/lofexidine suppress LC rebound via α2A autoreceptor agonism.
 - `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — cocaine/amphetamines block or reverse NET → acute NE surge → tachycardia, hypertension, mydriasis; PFC NE elevation → arousal and attention; cocaine coronary vasospasm mediated partly by α1-NE stimulation; chronic stimulant NE dysregulation contributes to anxiety and withdrawal dysphoria.
+
+- `connects-to` → **[CRH](../crh/README.md)** — extra-hypothalamic CRH activates CRHR1 on LC neurons → NE release → cortical arousal and stress vigilance; LC NE projects back to PVN to amplify CRH release (feedforward loop); CRH-LC activation underlies stress-induced hyperarousal in PTSD, panic, and anxiety disorders.
+
+- `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol withdrawal → NE hyperactivation → autonomic instability (tachycardia, hypertension, diaphoresis) — core CIWA-Ar symptoms; clonidine (α2 agonist) reduces LC-NE firing during withdrawal; chronic alcohol disrupts NE autoreceptor sensitivity and NE synthesis capacity.
 
 ## Pathology
 

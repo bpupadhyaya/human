@@ -74,6 +74,9 @@ cross_links:
   - target: 01-human/07-system/borderline-personality-disorder
     relation: connects-to
     note: "BPD shows HPA axis hyperreactivity to interpersonal stress — steeper cortisol increase and delayed recovery following social rejection; early trauma → HPA axis sensitization; elevated cortisol impairs PFC inhibitory control → impulsive behavior during emotional crises."
+  - target: 01-human/03-molecular/crh
+    relation: modulated-by
+    note: "CRH from PVN is the primary HPA axis trigger: PVN CRH → pituitary portal blood → CRHR1 → ACTH → adrenal cortisol; glucocorticoid negative feedback at pituitary and hypothalamic GR suppresses CRH/ACTH; disruption in MDD, PTSD, and Cushing's disease."
 ---
 
 # Cortisol
@@ -208,6 +211,8 @@ The diurnal cortisol rhythm is a **time-giver (Zeitgeber) signal** for periphera
 - `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — HPA axis hyperactivation in GAD → elevated morning cortisol → hippocampal volume reduction and impaired fear extinction; cortisol feedback sensitization perpetuates chronic worry; morning cortisol normalizes with effective SSRI treatment.
 - `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — HPA axis hyperactivation in AN → elevated cortisol → bone loss, immune suppression, and cognitive impairment; hypercortisolemia persists even when BMI partially normalizes; cortisol normalizes with sustained weight restoration and nutritional rehabilitation.
 - `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — BPD shows HPA axis hyperreactivity to interpersonal stress — steeper cortisol increase and delayed recovery following social rejection; early trauma → HPA axis sensitization; elevated cortisol impairs PFC inhibitory control → impulsive behavior during emotional crises.
+
+- `modulated-by` → **[CRH](../crh/README.md)** — CRH from PVN is the primary HPA axis trigger: PVN CRH → pituitary portal blood → CRHR1 → ACTH → adrenal cortisol synthesis; glucocorticoid negative feedback at pituitary and hypothalamic GR suppresses further CRH/ACTH release; disruption is central to MDD, PTSD, and Cushing's disease.
 
 ## Pathology
 

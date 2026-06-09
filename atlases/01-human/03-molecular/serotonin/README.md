@@ -90,6 +90,9 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Cocaine blocks SERT → ↑ synaptic 5-HT in limbic circuits; MDMA reverses SERT → massive 5-HT/DA release → empathogenic effects; chronic MDMA causes SERT downregulation and serotonergic neurotoxicity; serotonergic modulation influences relapse in stimulant use disorder."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "SSRIs (sertraline, paroxetine) are FDA-approved for PTSD; 5-HT modulates vmPFC fear extinction; serotonin dysregulation contributes to PTSD hyperarousal, emotional numbing, and sleep disturbance; SNRIs (venlafaxine) also have good evidence for PTSD symptom reduction."
 ---
 
 # Serotonin
@@ -211,6 +214,8 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — 5-HT2A and 5-HT1A dysregulation drive impulsivity and affective instability in BPD; reduced serotonin in amygdala and PFC reduces top-down inhibitory control; SSRIs reduce impulsive aggression in BPD; no FDA-approved medication for BPD but SSRIs used for comorbid depression.
 - `connects-to` → **[Bulimia Nervosa](../../07-system/bulimia-nervosa/README.md)** — serotonin hypofunction in prefrontal-limbic circuits drives impulse control failure and binge episodes in BN; reduced 5-HT2C satiety signaling; fluoxetine 60 mg (FDA-approved, highest SSRI dose for any indication) reduces binge/purge frequency ~50% and is first-line BN pharmacotherapy.
 - `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — cocaine blocks SERT → ↑ synaptic 5-HT in limbic circuits; MDMA reverses SERT → massive 5-HT/DA release → empathogenic effects; chronic MDMA causes SERT downregulation and serotonergic neurotoxicity; serotonergic modulation influences relapse vulnerability in stimulant use disorder.
+
+- `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — SSRIs (sertraline, paroxetine) are FDA-approved for PTSD; 5-HT modulates vmPFC fear extinction; serotonin dysregulation contributes to PTSD hyperarousal, emotional numbing, and sleep disturbance; SNRIs (venlafaxine) also have good evidence for PTSD symptom reduction.
 
 ## Pathology
 

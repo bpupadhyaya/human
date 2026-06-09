@@ -148,6 +148,12 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: modulated-by
     note: "Basal forebrain adenosine accumulates during waking → builds sleep pressure via A1R/A2AR on arousal neurons; caffeine (A1R/A2AR antagonist) blocks this pressure; adenosine A1R also mediates neuroprotection during ischemia by suppressing excitotoxic glutamate release."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "PTSD remodels the amygdala-vmPFC-hippocampus fear circuit: BLA hyperactivation, vmPFC extinction failure, hippocampal volume loss (~8%); PET/fMRI shows ↑ amygdala and ↓ mPFC activation to trauma cues; prolonged exposure therapy normalizes amygdala-vmPFC connectivity."
+  - target: 01-human/03-molecular/crh
+    relation: modulated-by
+    note: "CRH neurons in central amygdala (CeA) and BNST coordinate fear expression and anticipatory anxiety independent of the HPA axis; BNST CRH mediates sustained anxiety; hippocampal GR provides slow negative feedback on PVN CRH synthesis; disruption underlies PTSD and AUD."
 ---
 
 # Brain
@@ -239,6 +245,10 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Bulimia Nervosa](../../07-system/bulimia-nervosa/README.md)** — BN involves insula dysfunction (impaired interoceptive satiety signaling), reduced ventral PFC inhibitory control, striatal D3R/D2R reward dysregulation, and ACC conflict monitoring deficits; CBT-BN and fluoxetine both normalize PFC-striatal connectivity on fMRI.
 - `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — stimulant use disorders remodel VTA-NAcc circuits (ΔFosB, D2R loss), PFC (gray matter thinning, ↓ inhibitory control), and amygdala (cue-conditioned craving); PET shows reduced DAT and D2R in striatum; meth causes DAT terminal destruction detectable on dopamine transporter imaging.
 - `modulated-by` → **[Adenosine](../../03-molecular/adenosine/README.md)** — basal forebrain adenosine accumulates during waking → builds homeostatic sleep pressure via A1R/A2AR on arousal-promoting neurons; caffeine blocks this pressure; A1R also mediates neuroprotection during ischemia by suppressing excitotoxic glutamate release.
+
+- `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — PTSD remodels the amygdala-vmPFC-hippocampus fear circuit: BLA hyperactivation, vmPFC extinction failure, and hippocampal volume loss (~8%); PET/fMRI shows ↑ amygdala and ↓ mPFC activation to trauma cues; prolonged exposure therapy normalizes amygdala-vmPFC functional connectivity.
+
+- `modulated-by` → **[CRH](../../03-molecular/crh/README.md)** — CRH neurons in CeA and BNST coordinate fear expression and sustained anticipatory anxiety independent of HPA axis cortisol; BNST CRH mediates contextual anxiety; hippocampal glucocorticoid receptors provide slow negative feedback on PVN CRH synthesis; disruption underlies PTSD and AUD.
 
 ## Pathology
 

@@ -91,6 +91,9 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "MOR expressed on VTA and PAG GABAergic interneurons; Gi activation → hyperpolarizes GABA interneurons → disinhibition of DA neurons (VTA reward) and PAG output neurons (analgesia); buprenorphine (partial MOR agonist) maintains stable GABA-mediated inhibitory tone."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "GABA interneurons in PVN inhibit CRH neurons; benzodiazepines (GABA-A PAMs) attenuate CRH release and HPA activation; GABA-B agonists (baclofen) suppress PVN CRH; CRH-GABA balance in amygdala/BNST regulates anxiety-like states and stress-induced drinking in AUD."
 ---
 
 # GABA
@@ -212,6 +215,8 @@ When E/I balance shifts toward excess excitation (loss of GABAergic interneurons
 - `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — Z-drugs (zolpidem, zaleplon, eszopiclone) and benzodiazepines enhance GABA-A function and are highly effective for insomnia but carry tolerance, rebound insomnia, and dependency risks; CBT-I normalizes sleep without pharmacological GABA-A modulation.
 - `connects-to` → **[Orexin](../orexin/README.md)** — VLPO GABAergic neurons inhibit orexin neurons during sleep; mutual inhibition between VLPO and arousal centers (including orexin) creates a bistable sleep-wake flip-flop switch; DORAs block orexin without GABA-A modulation — avoiding tolerance and dependence.
 - `connects-to` → **[Mu-Opioid Receptor](../mu-opioid-receptor/README.md)** — MOR expressed on VTA and PAG GABAergic interneurons; Gi activation → hyperpolarizes GABA interneurons → disinhibition of DA neurons (VTA reward) and PAG output neurons (descending analgesia); buprenorphine (partial MOR agonist) maintains stable GABA-mediated inhibitory tone.
+
+- `connects-to` → **[CRH](../crh/README.md)** — GABA interneurons in PVN inhibit CRH neurons; benzodiazepines (GABA-A PAMs) attenuate CRH release and HPA activation; GABA-B agonists (baclofen) suppress PVN CRH neurons; the CRH-GABA balance in amygdala/BNST regulates anxiety-like states and stress-induced drinking in AUD.
 
 ## Pathology
 
