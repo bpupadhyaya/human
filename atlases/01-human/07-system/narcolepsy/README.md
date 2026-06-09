@@ -27,6 +27,9 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "BDNF supports survival and function of hypothalamic orexin neurons via TrkB; BDNF Val66Met SNP may influence orexin neuron vulnerability; aerobic exercise increases BDNF and modestly reduces EDS in narcolepsy patients; BDNF-TrkB pathway is a potential neuroprotective target."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin timing is disrupted in narcolepsy type 1 due to orexin neuron loss and sleep-wake switch instability; circadian-timed melatonin modestly improves sleep consolidation; MT1/MT2 agonists (ramelteon) are used adjunctively for circadian realignment."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -166,6 +169,8 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — NT1 selectively destroys lateral hypothalamic orexin neurons, destabilizing the VLPO-arousal flip-flop switch; downstream TMN histamine, LC norepinephrine, raphe serotonin, and VTA dopamine arousal centers are all under-driven; pontine REM-on/off circuit dysregulation underlies cataplexy.
 
 - `connects-to` → **[BDNF](../../../03-molecular/bdnf/README.md)** — BDNF supports survival and function of hypothalamic orexin neurons via TrkB; BDNF Val66Met SNP may influence orexin neuron vulnerability; aerobic exercise increases BDNF and modestly reduces daytime sleepiness in narcolepsy; BDNF-TrkB is a potential neuroprotective target in early narcolepsy.
+
+- `connects-to` → **[Melatonin](../../../03-molecular/melatonin/README.md)** — melatonin secretion timing is disrupted in narcolepsy type 1 due to orexin neuron loss destabilizing the sleep-wake switch and fragmenting nocturnal sleep architecture; circadian-timed melatonin (0.5–3 mg, 1 h before target sleep time) modestly improves sleep consolidation; MT1/MT2 agonists such as ramelteon are used adjunctively for circadian realignment in narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

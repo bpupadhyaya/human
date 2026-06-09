@@ -114,6 +114,9 @@ cross_links:
   - target: 01-human/07-system/narcolepsy
     relation: connects-to
     note: "SSRIs and SNRIs suppress cataplexy via monoamine reuptake inhibition reducing pontine REM-on circuit activity; clomipramine (potent SERT inhibitor) is highly effective for cataplexy; abrupt antidepressant discontinuation can precipitate status cataplecticus in narcolepsy."
+  - target: 01-human/03-molecular/melatonin
+    relation: modulates
+    note: "Pineal gland serotonin (from TPH1) is directly converted to melatonin via AANAT (dark-activated by NE/β1/cAMP) then ASMT; serotonin daytime availability constrains nocturnal melatonin production; TPH inhibition or tryptophan depletion reduces melatonin synthesis capacity."
 ---
 
 # Serotonin
@@ -244,6 +247,7 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Binge Eating Disorder](../../07-system/binge-eating-disorder/README.md)** — 5-HT2C receptor hypofunction reduces hypothalamic melanocortin satiety signaling in BED, allowing binge episodes to continue beyond caloric need; fluoxetine 60 mg reduces binge frequency ~50% (off-label); SSRIs are more effective in BED with comorbid depression; impaired serotonergic PFC inhibition drives loss-of-control eating.
 - `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — descending serotonergic inhibition from raphe to spinal dorsal horn is impaired in neuropathic pain states; duloxetine (SNRI) restores 5-HT/NE descending inhibitory tone and is FDA-approved for diabetic peripheral neuropathy; 5-HT3 receptors on dorsal horn neurons facilitate pain transmission and are not a useful analgesic target.
 - `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — SSRIs and SNRIs suppress cataplexy via monoamine reuptake inhibition reducing pontine REM-on circuit activity; clomipramine (potent SERT inhibitor) is the most effective anticataplectic antidepressant; abrupt discontinuation can precipitate status cataplecticus; sodium oxybate consolidates sleep partly via complex serotonergic mechanisms.
+- `modulates` → **[Melatonin](../melatonin/README.md)** — pineal serotonin (synthesized by TPH1) is the direct substrate for melatonin synthesis: AANAT (dark-activated via NE/β1/cAMP from the superior cervical ganglion) converts serotonin → N-acetylserotonin; ASMT methylates it to melatonin; daytime serotonin availability constrains nocturnal melatonin production — tryptophan depletion and TPH inhibition reduce melatonin output.
 
 ## Pathology
 

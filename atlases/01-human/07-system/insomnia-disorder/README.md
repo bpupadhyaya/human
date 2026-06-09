@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Chronic insomnia features HPA hyperarousal — elevated 24h urinary cortisol, blunted diurnal decline, and high evening cortisol; elevated cortisol at sleep onset opposes the core temperature drop required for sleep; CBT-I normalizes HPA hyperarousal in treatment responders."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin MT1 activation reduces SCN firing → sleep onset; MT2 mediates phase shifts; ramelteon (MT1/MT2 agonist, FDA 2005) treats insomnia with no abuse potential; exogenous melatonin (0.5–3 mg) at DLMO is effective for circadian-phase insomnia variants."
 ---
 
 # Insomnia Disorder
@@ -199,6 +202,8 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Adenosine](../../../03-molecular/adenosine/README.md)** — adenosine builds homeostatic sleep pressure (process S) during waking via A1R/A2AR on arousal neurons; caffeine (A1R/A2AR antagonist) promotes wakefulness by blocking this pressure — poor caffeine timing is a major behavioral contributor to insomnia onset and maintenance.
 
 - `connects-to` → **[Cortisol](../../../03-molecular/cortisol/README.md)** — chronic insomnia features HPA hyperarousal: elevated 24h urinary cortisol, blunted diurnal cortisol decline, and elevated evening cortisol; high cortisol at sleep onset opposes the core body temperature drop required for sleep initiation; HPA hyperarousal normalizes with successful CBT-I treatment, validating it as a biomarker of therapeutic response.
+
+- `connects-to` → **[Melatonin](../../../03-molecular/melatonin/README.md)** — melatonin MT1 activation reduces SCN firing and lowers the arousal threshold at sleep onset; MT2 receptors mediate circadian phase shifts; ramelteon (MT1/MT2 agonist, FDA-approved 2005) is effective for sleep-onset insomnia with no abuse potential or dependence risk; exogenous melatonin (0.5–3 mg timed at DLMO) addresses circadian-phase insomnia variants (DSPD, jet lag).
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

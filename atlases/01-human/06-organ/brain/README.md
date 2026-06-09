@@ -181,6 +181,9 @@ cross_links:
   - target: 01-human/07-system/narcolepsy
     relation: connects-to
     note: "NT1 selectively destroys lateral hypothalamic orexin neurons, destabilizing the VLPO-arousal flip-flop switch; TMN histamine, LC norepinephrine, and raphe serotonin projections are all under-driven; pontine REM-on/off circuit dysregulation underlies cataplexy."
+  - target: 01-human/03-molecular/melatonin
+    relation: modulated-by
+    note: "Pineal melatonin is regulated by SCN via RHT → SCG → NE → β1 → AANAT; MT2 on SCN neurons mediates circadian phase shifts; melanopsin ipRGC input suppresses SCN-driven melatonin — the molecular basis of light-hygiene recommendations."
 ---
 
 # Brain
@@ -285,6 +288,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Binge Eating Disorder](../../07-system/binge-eating-disorder/README.md)** — BED features OFC hyperactivation to food cues (paralleling drug cue reactivity in SUD), impaired vmPFC inhibitory control over binge impulses, insula hyperactivation during food craving, and dorsal striatum hypoactivation reflecting a shift from goal-directed to habitual eating patterns.
 - `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — neuropathic pain involves thalamic sensitization, ACC and insular hyperactivation to pain stimuli, and somatosensory cortex reorganization; chronic neuropathic pain is associated with gray matter reduction in ACC and dlPFC; central changes explain why pain persists after peripheral healing and why maladaptive neuroplasticity becomes the dominant driver.
 - `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — NT1 selectively destroys lateral hypothalamic orexin neurons, destabilizing the VLPO–arousal flip-flop; under-driven TMN, LC, and raphe projections reduce histamine, NE, and 5-HT arousal tone; pontine REM-on/off circuit dysregulation underlies cataplexy; amygdala hypersensitivity mediates emotion-triggered cataplexy attacks.
+- `modulated-by` → **[Melatonin](../../03-molecular/melatonin/README.md)** — the pineal gland (brain appendage) secretes melatonin under SCN circadian control via the retinohypothalamic tract → superior cervical ganglion → NE → β1-AR → AANAT; SCN MT2 receptors mediate melatonin-driven circadian phase shifts; melanopsin ipRGC blue-light input suppresses SCN-driven melatonin — the molecular basis of light-hygiene recommendations for sleep.
 
 ## Pathology
 

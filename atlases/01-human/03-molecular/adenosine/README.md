@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/07-system/parkinsons-disease
     relation: connects-to
     note: "With striatal DA depletion in PD, excess A2AR-mediated inhibition of D2R worsens indirect pathway overactivation → rigidity and bradykinesia; istradefylline (A2AR antagonist, FDA-approved 2019) is adjunct therapy that reduces OFF time in patients on levodopa."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Adenosine (process S, homeostatic) and melatonin (process C, circadian) are complementary sleep signals; adenosine encodes wakefulness duration, melatonin encodes time-of-day; both reduce arousal threshold at sleep onset; caffeine blocks adenosine, not melatonin."
 ---
 
 # Adenosine
@@ -176,6 +179,7 @@ The basal forebrain-VLPO adenosine circuit is mechanistically central to sleep i
 - `connects-to` → **[GABA](../gaba/README.md)** — A1R activation suppresses excitatory neurotransmission and enhances net GABAergic inhibitory tone; adenosine-GABA interaction in basal forebrain and VLPO promotes slow-wave sleep; A2AR on striatal GABAergic indirect pathway neurons modulates enkephalinergic output.
 - `connects-to` → **[Dopamine](../dopamine/README.md)** — A2AR and D2R are coexpressed on striatal indirect pathway neurons and form heterodimers; adenosine binding reduces D2R affinity for dopamine, opposing D2R-mediated indirect pathway inhibition; A2AR antagonism (istradefylline) enhances dopaminergic motor facilitation in Parkinson's disease.
 - `connects-to` → **[Parkinson's Disease](../../07-system/parkinsons-disease/README.md)** — striatal DA depletion in PD unmasks excess A2AR-mediated indirect pathway overactivation → rigidity and bradykinesia; istradefylline (A2AR antagonist, FDA-approved 2019 adjunct) reduces OFF time in PD patients on levodopa by restoring D2R sensitivity.
+- `connects-to` → **[Melatonin](../melatonin/README.md)** — adenosine (process S, homeostatic sleep pressure) and melatonin (process C, circadian timing) are the two complementary sleep-promoting systems: adenosine encodes accumulated wakefulness duration while melatonin encodes time-of-day; both converge to lower the arousal threshold at sleep onset; caffeine blocks adenosine signaling without affecting melatonin.
 
 ## Pathology
 
