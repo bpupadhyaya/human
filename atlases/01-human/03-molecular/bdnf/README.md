@@ -76,6 +76,12 @@ cross_links:
   - target: 01-human/07-system/internet-gaming-disorder
     relation: connects-to
     note: "IGD is associated with altered BDNF expression in prefrontal circuits, mirroring BDNF changes in substance use and gambling disorders; BDNF Val66Met SNP associates with IGD vulnerability; BDNF-TrkB in VTA-PFC circuits mediates neuroplasticity sustaining compulsive gaming."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Hypothalamic BDNF in the PVN suppresses food intake via TrkB; BDNF Val66Met SNP associates with eating disorder vulnerability; serum BDNF is reduced in BED; lisdexamfetamine may normalize BDNF-mediated reward circuit plasticity in BED."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Activated microglia release BDNF in dorsal horn after nerve injury; microglial BDNF-TrkB on lamina I neurons downregulates KCC2 → GABA becomes depolarizing → allodynia; microglial BDNF is required for nerve-injury pain hypersensitivity in rodent models."
 ---
 
 # BDNF
@@ -218,6 +224,10 @@ The ratio of proBDNF to mature BDNF in synapses has opposing functional conseque
 **→ [Cannabis Use Disorder](../../07-system/cannabis-use-disorder/)**: chronic THC exposure reduces hippocampal BDNF in adolescent animal models, impairing synaptic plasticity and neurogenesis; adolescent cannabis use is associated with greater BDNF-related hippocampal structural vulnerability than adult-onset use; abstinence partially restores BDNF-dependent plasticity over weeks to months.
 
 **→ [Internet Gaming Disorder](../../07-system/internet-gaming-disorder/)**: IGD is associated with altered BDNF expression in prefrontal circuits, paralleling BDNF changes seen in substance use and gambling disorders; BDNF Val66Met SNP has been associated with IGD vulnerability in genetic association studies; BDNF-TrkB signaling in VTA-PFC circuits mediates the neuroplasticity that sustains compulsive gaming behavior.
+
+**→ [Binge Eating Disorder](../../07-system/binge-eating-disorder/)**: Hypothalamic BDNF in the paraventricular nucleus (PVN) suppresses food intake via TrkB signaling; BDNF Val66Met SNP associates with elevated eating disorder vulnerability; serum BDNF is reduced in BED patients; BDNF-TrkB normalization in mesolimbic circuits may contribute to lisdexamfetamine's therapeutic effect in BED.
+
+**→ [Neuropathic Pain](../../07-system/neuropathic-pain/)**: Activated spinal microglia release BDNF after peripheral nerve injury; microglial BDNF acts on TrkB receptors of lamina I projection neurons → KCC2 downregulation → chloride extrusion fails → GABA becomes depolarizing rather than inhibitory → allodynia; microglial BDNF release is required for nerve-injury-induced pain hypersensitivity in rodent models.
 
 [^barde-1982-bdnf-discovery]: Barde YA, Edgar D, Thoenen H. Purification of a new neurotrophic factor from mammalian brain. *EMBO J.* 1982;1(5):549-553. [doi:10.1002/j.1460-2075.1982.tb01207.x](https://doi.org/10.1002/j.1460-2075.1982.tb01207.x) · [PubMed 7188352](https://pubmed.ncbi.nlm.nih.gov/7188352/)
 [^duman-2012-bdnf-depression]: Duman RS, Aghajanian GK. Synaptic dysfunction in depression: potential therapeutic targets. *Science.* 2012;338(6103):68-72. [doi:10.1126/science.1222939](https://doi.org/10.1126/science.1222939) · [PubMed 23042884](https://pubmed.ncbi.nlm.nih.gov/23042884/)

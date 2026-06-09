@@ -30,6 +30,9 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "CB1R at BLA-prefrontal synapses facilitates fear extinction via eCB-LTD; low AEA found in PTSD; THC reduces nightmares; nabilone approved in Canada for PTSD nightmares; FAAH inhibition (↑AEA) enhances extinction — supporting adjunct use in exposure therapy."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "2-AG is elevated in striatum during high-palatability food consumption → CB1R → enhanced dopamine release → increased palatability and continued eating; rimonabant (CB1R inverse agonist) reduced binge eating but caused psychiatric adverse events."
 sources:
   - id: devane-1992-anandamide
     type: peer-reviewed
@@ -210,6 +213,7 @@ Repeated THC exposure → CB1R desensitization (GRK3 phosphorylation → β-arre
 - `connects-to` → **[Cannabis Use Disorder](../../07-system/cannabis-use-disorder/README.md)** — repeated THC → CB1R desensitization and downregulation → reduced endocannabinoid tone; withdrawal: anxiety, irritability, insomnia, appetite loss (~9% of users develop CUD); CB1R downregulation is the primary neuroadaptation; no FDA-approved pharmacotherapy.
 
 - `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — CB1R at BLA-prefrontal synapses facilitates fear extinction via eCB-LTD; low AEA in PTSD; THC reduces nightmares; nabilone approved in Canada for PTSD nightmares; FAAH inhibition (↑AEA) enhances extinction learning in rodent models — supporting adjunct use in exposure therapy.
+- `connects-to` → **[Binge Eating Disorder](../../07-system/binge-eating-disorder/README.md)** — 2-AG is elevated in striatum during high-palatability food consumption → CB1R → enhanced dopamine release → increased palatability and continued eating beyond satiety; rimonabant (CB1R inverse agonist) reduced binge eating and body weight in clinical trials but caused psychiatric adverse effects (depression, suicidality) leading to worldwide withdrawal.
 
 [^devane-1992-anandamide]: Devane WA, Hanus L, Breuer A, et al. Isolation and structure of a brain constituent that binds to the cannabinoid receptor. *Science.* 1992;258(5090):1946-1949. [doi:10.1126/science.1470919](https://doi.org/10.1126/science.1470919) · [PubMed 1470919](https://pubmed.ncbi.nlm.nih.gov/1470919/)
 [^lu-2016-ecs-review]: Lu HC, Mackie K. An introduction to the endogenous cannabinoid system. *Biol Psychiatry.* 2016;79(7):516-525. [doi:10.1016/j.biopsych.2015.07.028](https://doi.org/10.1016/j.biopsych.2015.07.028) · [PubMed 26698193](https://pubmed.ncbi.nlm.nih.gov/26698193/)

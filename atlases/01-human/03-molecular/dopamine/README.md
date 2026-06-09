@@ -109,6 +109,9 @@ cross_links:
   - target: 01-human/07-system/internet-gaming-disorder
     relation: connects-to
     note: "Gaming activates VTA-NAcc dopamine via variable reward schedules; PET shows reduced striatal D2R in IGD — the hypodopaminergic pattern shared across behavioral and substance addictions; cue-induced DA reactivity to game stimuli predicts craving and relapse in IGD."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Binge eating triggers VTA-NAcc dopamine surge via food reward; D2R hypofunction on PET in BED parallels substance use disorders; lisdexamfetamine (FDA-approved for BED) normalizes dopaminergic salience attribution via DAT/NET reuptake inhibition."
 ---
 
 # Dopamine
@@ -217,6 +220,7 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — gambling activates NAcc dopamine via reward prediction error; near-miss events trigger near-normal DA responses despite loss, falsely reinforcing continued play; D2/D3R hypofunction (↓ striatal D2R on PET) in gambling disorder mirrors substance use disorders; dopamine agonists (pramipexole) trigger pathological gambling in Parkinson's patients.
 - `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — FM shows reduced NAcc dopamine release detected by [¹¹C]raclopride PET; blunted NAcc DA → impaired endogenous mesolimbic analgesia (dopamine normally activates descending antinociceptive circuits); dopaminergic dysfunction may explain fibro fog (cognitive impairment) and motivational deficits alongside pain amplification in FM.
 - `connects-to` → **[Internet Gaming Disorder](../../07-system/internet-gaming-disorder/README.md)** — gaming activates VTA-NAcc dopamine via variable reward schedules (loot boxes, competitive wins, leveling); PET shows reduced striatal D2R in IGD — the hypodopaminergic pattern shared across behavioral and substance addictions; cue-induced dopamine reactivity to game stimuli drives craving and relapse.
+- `connects-to` → **[Binge Eating Disorder](../../07-system/binge-eating-disorder/README.md)** — binge eating triggers VTA-NAcc dopamine surge via food reward; D2R hypofunction on PET in BED parallels substance use disorders and gambling disorder; lisdexamfetamine (Vyvanse, FDA-approved for BED) normalizes dopaminergic salience attribution via DAT/NET reuptake inhibition.
 
 ## Pathology
 

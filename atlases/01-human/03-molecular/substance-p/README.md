@@ -46,6 +46,12 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "CSF substance P is elevated ~3-fold in fibromyalgia — one of the most reproducible biomarkers in FM; elevated SP → NK1R sensitization → dorsal horn wind-up → diffuse hyperalgesia; NK1R antagonists reduce central sensitization markers in preclinical FM models."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "SP and CGRP are co-stored and co-released from trigeminal C-fibers; together they mediate neurogenic inflammation (SP → plasma extravasation + mast cell degranulation; CGRP → vasodilation); both are elevated in CSF during migraine attacks and in FM patients."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "SP released from injured C-fibers drives NK1R dorsal horn sensitization; peripheral nerve injury → ↑ SP in DRG → amplified spinal wind-up; NK1R-NMDA synergy underlies central sensitization; SP-driven allodynia and hyperalgesia are NK1R-mediated."
 ---
 
 # Substance P
@@ -171,6 +177,9 @@ This three-tier cascade is the molecular basis of **allodynia** (pain from norma
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — SP is expressed in primary afferent C-fibers (slow pain), amygdala (fear/stress), raphe (co-release with 5-HT), striatum, and brainstem vagal circuits (nausea); NK1R is widely expressed in pain-emotion circuits; NK1R internalization in dorsal horn is a validated histological marker of C-fiber nociceptive activation.
 
 - `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — CSF substance P is elevated ~3-fold in fibromyalgia patients vs healthy controls — the most consistently replicated biological finding in FM; elevated SP drives NK1R sensitization → dorsal horn wind-up → diffuse hyperalgesia and allodynia; SP-NMDA central sensitization is the mechanistic basis of FM's central pain amplification.
+
+- `connects-to` → **[CGRP](../cgrp/README.md)** — SP and CGRP are co-stored and co-released from trigeminal C-fiber terminals; SP causes plasma protein extravasation and mast cell degranulation while CGRP mediates vasodilation — together orchestrating neurogenic inflammation; both neuropeptides are elevated in CSF during migraine attacks and contribute to peripheral sensitization in fibromyalgia.
+- `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — SP released from injured primary afferent C-fibers drives NK1R sensitization at the spinal dorsal horn; peripheral nerve injury increases SP synthesis in DRG neurons, amplifying spinal wind-up; NK1R-NMDA receptor synergy is the molecular basis of central sensitization in neuropathic pain states; SP-driven allodynia and hyperalgesia are NK1R-mediated phenomena.
 
 [^otsuka-1993-substance-p-review]: Otsuka M, Yoshioka K. Neurotransmitter functions of mammalian tachykinins. *Physiol Rev.* 1993;73(2):229-308. [doi:10.1152/physrev.1993.73.2.229](https://doi.org/10.1152/physrev.1993.73.2.229) · [PubMed 8385466](https://pubmed.ncbi.nlm.nih.gov/8385466/)
 [^russell-1994-fibromyalgia-substance-p]: Russell IJ, Orr MD, Littman B, et al. Elevated cerebrospinal fluid levels of substance P in patients with the fibromyalgia syndrome. *Arthritis Rheum.* 1994;37(11):1593-1601. [doi:10.1002/art.1780371106](https://doi.org/10.1002/art.1780371106) · [PubMed 7526868](https://pubmed.ncbi.nlm.nih.gov/7526868/)

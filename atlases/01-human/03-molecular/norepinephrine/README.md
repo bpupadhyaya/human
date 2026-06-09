@@ -80,6 +80,9 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Descending NE from LC suppresses spinal SP release via α2 receptors on dorsal horn interneurons; duloxetine's NE component suppresses SP signaling and contributes to analgesia in fibromyalgia; NE depletion amplifies SP-driven allodynia and hyperalgesia."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Descending NE from LC to dorsal horn is deficient in neuropathic pain; SNRIs (duloxetine) and TCAs increase NE in descending inhibitory pathways — the primary analgesic mechanism; α2 agonists (intrathecal clonidine) reduce allodynia via spinal NE receptors."
 ---
 
 # Norepinephrine
@@ -203,6 +206,7 @@ NE
 - `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — NE mediates the arousal component of gambling (tachycardia, cortisol surge during near-miss events); elevated urinary MHPG (NE metabolite) documented during gambling episodes; naltrexone and nalmefene reduce NE-driven arousal; bupropion (NE/DA reuptake inhibitor) modestly reduces gambling urges.
 - `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — descending NE inhibitory pathways from LC to spinal dorsal horn are deficient in FM; duloxetine and milnacipran (both FDA-approved for FM as SNRIs) increase NE in descending pain pathways — the core analgesic mechanism; NE deficiency amplifies substance P and glutamate-driven central sensitization and allodynia.
 - `connects-to` → **[Substance P](../substance-p/README.md)** — descending NE from LC suppresses spinal substance P release via α2 adrenergic receptors on primary afferents and dorsal horn interneurons; NE deficiency in the descending spinal system amplifies SP-driven pain sensitization; duloxetine's NE component is responsible for suppressing SP-mediated allodynia in FM.
+- `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — descending NE from LC to spinal dorsal horn is deficient in neuropathic pain; duloxetine (SNRI) and TCAs (amitriptyline, nortriptyline) restore descending NE inhibitory tone and are guideline-recommended first-line treatments; intrathecal clonidine (α2 agonist) reduces allodynia via direct spinal NE receptor activation.
 
 ## Pathology
 

@@ -105,6 +105,12 @@ cross_links:
   - target: 01-human/07-system/internet-gaming-disorder
     relation: connects-to
     note: "Serotonin hypofunction contributes to impulsivity and compulsivity in IGD; 5-HT modulates OFC impulse control circuits; SSRIs show modest evidence for IGD with comorbid OCD or depression; impulsivity is a shared serotonin-related trait across behavioral addictions."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "5-HT2C hypofunction reduces hypothalamic melanocortin satiety signaling in BED; SSRIs (fluoxetine 60mg) reduce binge frequency ~50%; lorcaserin (5-HT2C agonist, withdrawn) reduced binge eating; impaired 5-HT prefrontal inhibition drives loss-of-control eating."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Descending serotonergic inhibition is impaired in neuropathic pain; duloxetine (SNRI) restores 5-HT/NE descending inhibition and is FDA-approved for diabetic neuropathy; 5-HT3 receptors facilitate dorsal horn pain; 5-HT3 antagonists do not improve neuropathic pain."
 ---
 
 # Serotonin
@@ -232,6 +238,8 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — descending serotonergic inhibition from raphe nuclei to spinal dorsal horn is impaired in FM (reduced CSF 5-HIAA); duloxetine (SNRI) and amitriptyline (TCA) restore descending inhibitory tone and reduce pain; 5-HT3 antagonist tropisetron reduces FM pain in small RCTs; 5-HT2A receptor polymorphisms associate with FM susceptibility.
 - `connects-to` → **[Substance P](../substance-p/README.md)** — serotonin and substance P are co-expressed in raphe nuclei and co-released at pain-modulating synapses; 5-HT3 receptors on dorsal horn neurons facilitate SP release (pronociceptive); 5-HT1A/1B receptors inhibit SP release (antinociceptive); duloxetine exploits serotonergic suppression of SP-driven central sensitization.
 - `connects-to` → **[Internet Gaming Disorder](../../07-system/internet-gaming-disorder/README.md)** — serotonin hypofunction contributes to impulsivity and compulsive behavior in IGD; 5-HT modulates OFC-PFC impulse control circuits that are hypoactive in IGD; SSRIs have modest evidence for IGD when driven by comorbid depression or OCD; impulsivity is a core serotonin-linked risk trait across behavioral addictions.
+- `connects-to` → **[Binge Eating Disorder](../../07-system/binge-eating-disorder/README.md)** — 5-HT2C receptor hypofunction reduces hypothalamic melanocortin satiety signaling in BED, allowing binge episodes to continue beyond caloric need; fluoxetine 60 mg reduces binge frequency ~50% (off-label); SSRIs are more effective in BED with comorbid depression; impaired serotonergic PFC inhibition drives loss-of-control eating.
+- `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — descending serotonergic inhibition from raphe to spinal dorsal horn is impaired in neuropathic pain states; duloxetine (SNRI) restores 5-HT/NE descending inhibitory tone and is FDA-approved for diabetic peripheral neuropathy; 5-HT3 receptors on dorsal horn neurons facilitate pain transmission and are not a useful analgesic target.
 
 ## Pathology
 

@@ -27,6 +27,12 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "FM involves thalamic hypersensitivity, ACC and insula hyperactivation to pain stimuli (fMRI), and altered DMN connectivity; MRS shows elevated glutamate in posterior insula; gray matter density reductions correlate with pain chronicity; changes partially reverse with treatment."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "CGRP is elevated in plasma and CSF in fibromyalgia; CGRP-mediated peripheral C-fiber sensitization contributes to FM's diffuse hyperalgesia and allodynia; anti-CGRP mAbs are under investigation for FM; CGRP and substance P are co-released from FM peripheral nociceptors."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "FM and neuropathic pain share central sensitization (NMDA wind-up, descending inhibition failure) but differ: neuropathic pain requires nerve injury while FM is nociplastic; both respond to SNRIs and α2δ ligands; small fiber neuropathy co-occurs in ~40% of FM patients."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -189,6 +195,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Substance P](../../../03-molecular/substance-p/README.md)** — CSF substance P is elevated ~3-fold in FM patients vs healthy controls — the most consistently replicated biological finding in FM; elevated SP drives NK1R sensitization at the dorsal horn → wind-up → diffuse hyperalgesia and allodynia; SP-NMDA synergy is the mechanistic core of FM's central pain amplification.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — FM involves thalamic hypersensitivity, ACC and posterior insula hyperactivation to pain stimuli (fMRI), and altered default mode network connectivity; MRS shows elevated glutamate in posterior insula correlating with pain severity; gray matter density reductions in dlPFC and ACC correlate with chronicity and partially reverse with effective treatment.
+
+- `connects-to` → **[CGRP](../../../03-molecular/cgrp/README.md)** — CGRP is elevated in plasma and CSF in FM patients; CGRP-mediated peripheral C-fiber sensitization contributes to FM's widespread hyperalgesia and allodynia; anti-CGRP monoclonal antibodies (developed for migraine) are under investigation as potential FM treatments; CGRP and substance P are co-released from peripheral nociceptors and synergistically drive neurogenic inflammation.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — FM and neuropathic pain share central sensitization mechanisms (NMDA wind-up, loss of descending inhibitory control) but differ mechanistically: neuropathic pain requires a demonstrable nerve lesion while FM is nociplastic (amplified without peripheral pathology); both respond to SNRIs (duloxetine, milnacipran) and α2δ ligands (pregabalin, gabapentin); small fiber neuropathy (SFN) co-occurs in approximately 40% of FM patients on skin biopsy.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

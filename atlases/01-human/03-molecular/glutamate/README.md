@@ -93,6 +93,9 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Spinal NMDA receptor hyperactivation by repetitive C-fiber input + substance P → wind-up and central sensitization; elevated glutamate in posterior insula on MRS correlates with FM symptom severity; NMDA antagonists (ketamine) reduce FM pain in small controlled trials."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Peripheral nerve injury drives spinal NMDA sensitization and AMPA upregulation → central sensitization; ectopic glutamate from injured axons; ketamine (NMDA antagonist) reduces refractory neuropathic pain; mGluR5 antagonists reduce allodynia in rodent models."
 ---
 
 # Glutamate
@@ -192,6 +195,7 @@ In ischemia, oxygen/glucose deprivation reverses ion gradients and drives massiv
 - `connects-to` → **[Endocannabinoid System](../endocannabinoid/README.md)** — 2-AG retrograde signaling → CB1R on glutamatergic presynaptic terminals → reduced glutamate release (DSE — depolarization-induced suppression of excitation); endocannabinoid DSE limits excitotoxic glutamate release and modulates LTP/LTD induction thresholds; CB1R-glutamate interactions at BLA-prefrontal cortex synapses are essential for fear extinction and extinction-resistant PTSD models.
 - `connects-to` → **[Substance P](../substance-p/README.md)** — SP and glutamate act synergistically at the spinal dorsal horn: NK1R activation (by SP) depolarizes dorsal horn neurons → removes the voltage-dependent Mg²⁺ block from NMDA receptors → NMDA Ca²⁺ influx + PKC-ε activation → wind-up and central sensitization; this SP-NMDA synergy is the mechanistic basis of fibromyalgia, neuropathic pain, and chronic pain chronification.
 - `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — spinal NMDA receptor hyperactivation by repetitive nociceptive C-fiber input + substance P → wind-up and central sensitization; MRS shows elevated glutamate in posterior insula in FM, correlating with pain severity; NMDA antagonists (low-dose ketamine infusions) reduce FM pain in controlled trials.
+- `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — peripheral nerve injury drives spinal NMDA receptor sensitization and AMPA upregulation → central sensitization; ectopic glutamate discharge from damaged axons amplifies dorsal horn excitability; IV ketamine (NMDA antagonist) reduces refractory neuropathic pain; mGluR5 antagonists reduce allodynia in rodent neuropathy models.
 
 ## Pathology
 
