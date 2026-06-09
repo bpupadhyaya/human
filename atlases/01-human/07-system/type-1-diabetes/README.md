@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "B cells act as APCs for beta cell antigens and produce autoantibodies (anti-GAD65, anti-IA-2, anti-ZnT8, anti-insulin) used for T1D staging (Stage 1: ≥2 Ab, normoglycemia; Stage 2: ≥2 Ab, dysglycemia); rituximab transiently preserves C-peptide in new-onset T1D."
+  - target: 01-human/03-molecular/insulin
+    relation: treated-by
+    note: "T1D results from autoimmune β-cell destruction → absolute insulin deficiency; CD8+ CTLs target GAD65, IGRP, and insulin peptides → apoptosis; lifelong insulin replacement (MDI or pump) is required; DCCT trial showed intensive insulin therapy halves long-term complications."
 ---
 
 # Type 1 Diabetes
@@ -143,6 +146,7 @@ cross_links:
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — CD4+ Th1 cells coordinate T1D autoimmunity: HLA-DQ8/DQ2-restricted beta cell antigen presentation → IFN-gamma, IL-2 → CTL priming and macrophage activation; Treg insufficiency allows unchecked Th1 expansion; teplizumab shifts Th1/Treg balance.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Treg insufficiency is a core T1D mechanism: FOXP3+ Tregs suppress autoreactive T cells in pancreatic lymph nodes and islets; NOD mice have Treg functional defects; low-dose IL-2 expands Tregs → ongoing clinical trials to delay T1D progression.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells act as APCs for beta cell antigens and produce autoantibodies (anti-GAD65, anti-IA-2, anti-ZnT8, anti-insulin) used for T1D staging (Stage 1: ≥2 Ab, normoglycemia; Stage 2: ≥2 Ab, dysglycemia); rituximab transiently preserves C-peptide in new-onset T1D.
+- `treated-by` → **[Insulin](../../03-molecular/insulin/README.md)** — T1D results from autoimmune β-cell destruction → absolute insulin deficiency; CD8+ CTLs target GAD65, IGRP, and insulin peptides → apoptosis; lifelong insulin replacement (MDI or pump) is required; DCCT trial showed intensive insulin therapy halves long-term complications.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
