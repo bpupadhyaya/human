@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/03-molecular/beta1-adrenergic-receptor
     relation: modulated-by
     note: "β1-AR/Gαs/adenylyl cyclase raises cAMP, which binds the CNBD of HCN4 and shifts its activation curve ~+10 mV rightward → more I_f at any given diastolic potential → faster pacemaker rate (positive chronotropy)."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Ivabradine (HCN4 I_f blocker) reduces HR by 10-15 bpm without impairing contractility; SHIFT trial: ivabradine reduced HF hospitalization 18% in HFrEF with HR >70 bpm on maximally tolerated beta-blocker; elevated resting HR in HF reflects HCN4/sympathetic co-activation."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "HCN4 at the SA node is the molecular basis of cardiac automaticity; cAMP directly gates HCN4 → molecular transducer of sympathetic (+10 mV shift → tachycardia) and vagal (-10 mV shift → bradycardia) chronotropic control; HCN4 loss-of-function mutations cause sick sinus syndrome."
 taxonomy:
   uniprot: "Q9Y3Q4"
   gene_symbol: "HCN4"
@@ -120,8 +126,10 @@ The ~+10 mV shift in I_f activation by cAMP explains a substantial fraction of t
 
 ## Connections
 
-- **Expressed-by** → [SA node cell](../../04-cellular/sa-node-cell/README.md): HCN4 is the dominant I_f channel of SA node pacemaker cells; its gating kinetics and cAMP sensitivity set the intrinsic heart rate.
-- **Modulated-by** → [β1-adrenergic receptor](beta1-adrenergic-receptor/README.md): cAMP produced downstream of β1-AR binds HCN4's CNBD, shifting I_f activation rightward → positive chronotropy.
+- `expressed-by` → **[SA Node Cell](../../04-cellular/sa-node-cell/README.md)** — HCN4 is the dominant I_f channel of SA node pacemaker cells; its gating kinetics and cAMP sensitivity set the intrinsic heart rate.
+- `modulated-by` → **[β1-Adrenergic Receptor](../beta1-adrenergic-receptor/README.md)** — cAMP produced downstream of β1-AR binds HCN4's CNBD, shifting I_f activation rightward → positive chronotropy.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — Ivabradine (HCN4 I_f blocker) reduces HR by 10-15 bpm without impairing contractility; SHIFT trial: ivabradine reduced HF hospitalization 18% in HFrEF with HR >70 bpm on maximally tolerated beta-blocker; elevated resting HR in HF reflects HCN4/sympathetic co-activation.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — HCN4 at the SA node is the molecular basis of cardiac automaticity; cAMP directly gates HCN4 → molecular transducer of sympathetic (+10 mV shift → tachycardia) and vagal (-10 mV shift → bradycardia) chronotropic control; HCN4 loss-of-function mutations cause sick sinus syndrome.
 
 ## Pathology
 
@@ -142,3 +150,6 @@ The ~+10 mV shift in I_f activation by cAMP explains a substantial fraction of t
 [^baruscotti-2011-hcn4-sa-node]: Baruscotti M, Bucchi A, Viscomi C, et al. Deep bradycardia and heart block caused by inducible cardiac-specific knockout of the pacemaker channel gene Hcn4. *Proc Natl Acad Sci USA.* 2011;108(4):1705-10. [doi:10.1073/pnas.1010122108](https://doi.org/10.1073/pnas.1010122108) · [PubMed 21205885](https://pubmed.ncbi.nlm.nih.gov/21205885/)
 [^ludwig-1999-hcn4-identification]: Ludwig A, Zong X, Jeglitsch M, Hofmann F, Biel M. A family of hyperpolarization-activated mammalian cation channels. *Nature.* 1998;393(6685):587-91. [doi:10.1038/31255](https://doi.org/10.1038/31255) · [PubMed 9634236](https://pubmed.ncbi.nlm.nih.gov/9634236/)
 [^stieber-2003-hcn4-av-node]: Stieber J, Herrmann S, Feil S, et al. The hyperpolarization-activated channel HCN4 underlies the If current in sinoatrial node myocytes. *J Biol Chem.* 2003;278(36):33672-80. [doi:10.1074/jbc.M208251200](https://doi.org/10.1074/jbc.M208251200) · [PubMed 12826672](https://pubmed.ncbi.nlm.nih.gov/12826672/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

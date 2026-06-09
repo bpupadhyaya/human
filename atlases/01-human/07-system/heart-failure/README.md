@@ -61,6 +61,9 @@ cross_links:
   - target: 01-human/03-molecular/phospholamban
     relation: connects-to
     note: "PLN hyperinhibition of SERCA2a is the central Ca²⁺ handling defect in HFrEF: elevated PP1/PP2A → reduced PLN-pSer16 → constitutive SERCA2a inhibition → slow Ca²⁺ reuptake → impaired relaxation and contractility; AAV1.SERCA2a gene therapy (CUPID) aimed to restore Ca²⁺ cycling."
+  - target: 01-human/03-molecular/hcn4
+    relation: connects-to
+    note: "Heart failure with persistent tachycardia: ivabradine (HCN4 I_f blocker) reduces HR without negative inotropy; SHIFT trial: 18% reduction in HF hospitalization in HFrEF with HR >70 bpm; European guidelines recommend ivabradine as adjunct therapy in HFrEF with HR >70 bpm."
 ---
 
 # Heart Failure
@@ -148,6 +151,7 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 secreted by cardiac macrophages activates cardiac fibroblasts → collagen synthesis → myocardial fibrosis and diastolic dysfunction; serum galectin-3 ≥17.8 ng/mL is an FDA-approved HF biomarker predicting mortality; galectin-3 predicts incident HFpEF.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Ventricular Cx43 is down-regulated and lateralized in heart failure → electrical uncoupling → slow conduction → re-entrant VT substrate → sudden cardiac death; Cx43 dephosphorylation (loss of pSer368) marks gap junction dysfunction and correlates with arrhythmia risk.
 - `connects-to` → **[Phospholamban](../../03-molecular/phospholamban/README.md)** — PLN hyperinhibition of SERCA2a is the central Ca²⁺ handling defect in HFrEF: elevated PP1/PP2A → reduced PLN-pSer16 → constitutive SERCA2a inhibition → slow Ca²⁺ reuptake → impaired relaxation and contractility; AAV1.SERCA2a gene therapy (CUPID) aimed to restore Ca²⁺ cycling.
+- `connects-to` → **[HCN4](../../03-molecular/hcn4/README.md)** — Heart failure with persistent tachycardia: ivabradine (HCN4 I_f blocker) reduces HR without negative inotropy; SHIFT trial: 18% reduction in HF hospitalization in HFrEF with HR >70 bpm; European guidelines recommend ivabradine as adjunct therapy in HFrEF with HR >70 bpm.
 
 ## Pathology
 
