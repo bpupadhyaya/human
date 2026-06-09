@@ -27,6 +27,9 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "MM-secreted DKK1 and osteocyte sclerostin synergistically block osteoblast Wnt → uncoupled osteolysis; sclerostin inhibition in MM preclinical models restores osteoblast function and reduces lytic lesions; anti-DKK1 antibody (BHQ880) is in clinical trials for MM bone disease."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "RANKL-driven osteoclast activation and sclerostin-mediated osteoblast suppression synergize in myeloma bone disease and estrogen-deficient osteoporosis; combined denosumab + romosozumab (anti-sclerostin) targets both the resorption and formation defect in severe osteoporosis."
 sources:
   - id: li-2005-sost-cloning
     type: peer-reviewed
@@ -141,6 +144,7 @@ RANKL (TNFSF11) from osteoblasts/T cells → RANK on osteoclast precursors → T
 - `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — T2DM → elevated sclerostin via AGE accumulation in osteocyte lacuno-canalicular network; contributes to impaired bone quality despite normal BMD; diabetic patients have higher fracture risk at any given BMD due to sclerostin-mediated osteoblast suppression.
 - `connects-to` → **[CKD](../../07-system/ckd/README.md)** — dialysis patients have elevated sclerostin from impaired renal clearance + uremic Wnt suppression → adynamic bone disease; elevated sclerostin correlates with vascular calcification and mortality in CKD; romosozumab is not approved in severe CKD due to CV risk.
 - `connects-to` → **[Multiple Myeloma](../../07-system/multiple-myeloma/README.md)** — MM-secreted DKK1 and osteocyte sclerostin synergistically block osteoblast Wnt → uncoupled osteolysis; sclerostin inhibition in MM preclinical models restores osteoblast function and reduces lytic lesions; anti-DKK1 antibody (BHQ880) is in clinical trials for MM bone disease.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — RANKL-driven osteoclast activation and sclerostin-mediated osteoblast suppression synergize in myeloma bone disease and estrogen-deficient osteoporosis; combined denosumab + romosozumab (anti-sclerostin) targets both the resorption and formation defect in severe osteoporosis.
 
 [^li-2005-sost-cloning]: Li X, Zhang Y, Kang H, et al. Sclerostin binds to LRP5/6 and antagonizes canonical Wnt signaling. *J Biol Chem.* 2005;280(20):19883-19887. [doi:10.1074/jbc.M413274200](https://doi.org/10.1074/jbc.M413274200) · [PubMed 15778503](https://pubmed.ncbi.nlm.nih.gov/15778503/)
 [^cosman-2016-romosozumab-frame]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

@@ -8,16 +8,6 @@ status: draft
 last_reviewed: 2026-06-07
 summary: "RANKL (TNFSF11, chr13q14) is a TNF family ligand driving osteoclastogenesis; RANK → TRAF6 → NF-κB → NFATc1 → osteoclast differentiation; OPG is the decoy receptor; denosumab (anti-RANKL) reduces vertebral fractures 68% (FREEDOM) and prevents bone metastasis skeletal events."
 aliases: ["RANKL", "TNFSF11", "TRANCE", "ODF", "OPGL", "SOFA", "CD254", "osteoclast differentiation factor"]
-cross_links:
-  - target: 01-human/07-system/osteoporosis
-    relation: connects-to
-    note: "RANKL → RANK on osteoclast precursors → NFATc1 → osteoclast differentiation → bone resorption; estrogen deficiency → RANKL surge → postmenopausal bone loss; denosumab (anti-RANKL) reduces vertebral fractures 68% and hip fractures 40% (FREEDOM trial 3-year)."
-  - target: 01-human/04-cellular/osteoclast
-    relation: connects-to
-    note: "RANKL is the essential differentiation signal for osteoclasts: RANK → TRAF6 → NF-κB + AP-1 → NFATc1 → c-Fos, cathepsin K, TRAP gene programs → mature osteoclasts; OPG decoy receptor blocks RANKL; denosumab mimics OPG with superior binding affinity and bone protection."
-  - target: 01-human/07-system/multiple-myeloma
-    relation: connects-to
-    note: "MM cells produce RANKL → osteoclast activation → osteolytic lesions; MM cells express OPG receptors (TRAIL-decoy function → MM survival); Xgeva (denosumab 120 mg Q4W) reduces skeletal-related events in MM patients with bone disease."
 sources:
   - id: lacey-1998-rankl
     type: peer-reviewed
@@ -32,9 +22,24 @@ sources:
     pmid: "19671655"
     url: "https://doi.org/10.1056/NEJMoa0809493"
 cross_links:
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "RANKL → RANK on osteoclast precursors → NFATc1 → osteoclast differentiation → bone resorption; estrogen deficiency → RANKL surge → postmenopausal bone loss; denosumab (anti-RANKL) reduces vertebral fractures 68% and hip fractures 40% (FREEDOM trial 3-year)."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "RANKL is the essential differentiation signal for osteoclasts: RANK → TRAF6 → NF-κB + AP-1 → NFATc1 → c-Fos, cathepsin K, TRAP gene programs → mature osteoclasts; OPG decoy receptor blocks RANKL; denosumab mimics OPG with superior binding affinity and bone protection."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "MM cells produce RANKL → osteoclast activation → osteolytic lesions; MM cells express OPG receptors (TRAIL-decoy function → MM survival); Xgeva (denosumab 120 mg Q4W) reduces skeletal-related events in MM patients with bone disease."
   - target: 01-human/07-system/ankylosing-spondylitis
     relation: connects-to
     note: "In AS, entheseal IL-17A + TNF-α upregulate RANKL on stromal cells → osteoclast-mediated bone erosion at sacroiliac joints and vertebral corners; subsequent WNT-driven syndesmophyte formation leads to ankylosis; denosumab reduces erosion but does not prevent new bone formation."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Breast cancer bone metastases exploit the RANKL axis: PTHrP from tumor cells → osteoblast RANKL → osteoclast osteolysis releases TGF-β and IGF-1 → vicious cycle of tumor-bone crosstalk; denosumab (Xgeva) delays skeletal-related events by ~8.5 months vs. zoledronate (HALT-BC)."
+  - target: 01-human/03-molecular/sclerostin
+    relation: connects-to
+    note: "RANKL-driven osteoclast activation and sclerostin-mediated osteoblast suppression synergize in myeloma bone disease and estrogen-deficient osteoporosis; combined denosumab + romosozumab (anti-sclerostin) targets both the resorption and formation defect in severe osteoporosis."
 ---
 
 # RANKL
@@ -103,13 +108,15 @@ The **RANKL/RANK/OPG triad** constitutes the central endocrine axis of skeletal 
 
 ## Connections
 
-RANKL → RANK on osteoclast precursors → NFATc1 → osteoclast differentiation → bone resorption; estrogen deficiency → RANKL surge → postmenopausal bone loss; denosumab (anti-RANKL) reduces vertebral fractures 68% and hip fractures 40% (FREEDOM trial 3-year).
-
-RANKL is the essential differentiation signal for osteoclasts: RANK → TRAF6 → NF-κB + AP-1 → NFATc1 → c-Fos, cathepsin K, TRAP gene programs → mature osteoclasts; OPG decoy receptor blocks RANKL; denosumab mimics OPG with superior binding affinity and bone protection.
-
-MM cells produce RANKL → osteoclast activation → osteolytic lesions; MM cells express OPG receptors (TRAIL-decoy function → MM survival); Xgeva (denosumab 120 mg Q4W) reduces skeletal-related events in MM patients with bone disease.
-
-In AS, entheseal IL-17A + TNF-α upregulate RANKL on stromal cells → osteoclast-mediated bone erosion at sacroiliac joints and vertebral corners; subsequent WNT-driven syndesmophyte formation leads to ankylosis; denosumab reduces erosion but does not prevent new bone formation.
+- `connects-to` → **[Osteoporosis](../../07-system/osteoporosis/README.md)** — RANKL → RANK on osteoclast precursors → NFATc1 → osteoclast differentiation → bone resorption; estrogen deficiency → RANKL surge → postmenopausal bone loss; denosumab (anti-RANKL) reduces vertebral fractures 68% and hip fractures 40% (FREEDOM trial 3-year).
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — RANKL is the essential differentiation signal for osteoclasts: RANK → TRAF6 → NF-κB + AP-1 → NFATc1 → c-Fos, cathepsin K, TRAP gene programs → mature osteoclasts; OPG decoy receptor blocks RANKL; denosumab mimics OPG with superior binding affinity and bone protection.
+- `connects-to` → **[Multiple Myeloma](../../07-system/multiple-myeloma/README.md)** — MM cells produce RANKL → osteoclast activation → osteolytic lesions; MM cells express OPG receptors (TRAIL-decoy function → MM survival); Xgeva (denosumab 120 mg Q4W) reduces skeletal-related events in MM patients with bone disease.
+- `connects-to` → **[Ankylosing Spondylitis](../../07-system/ankylosing-spondylitis/README.md)** — IL-17A + TNF-α upregulate RANKL on entheseal stromal cells → osteoclast-mediated bone erosion at sacroiliac joints; subsequent WNT-driven syndesmophyte formation leads to ankylosis; denosumab reduces erosion but does not prevent new bone formation in AS.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — breast cancer bone metastases exploit the RANKL axis: PTHrP from tumor cells → osteoblast RANKL → osteoclast osteolysis releases TGF-β and IGF-1 → vicious cycle of tumor-bone crosstalk; denosumab (Xgeva) delays skeletal-related events by ~8.5 months vs. zoledronate (HALT-BC).
+- `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — RANKL-driven osteoclast activation and sclerostin-mediated osteoblast suppression synergize in myeloma bone disease and estrogen-deficient osteoporosis; combined denosumab + romosozumab (anti-sclerostin) targets both the resorption and formation defect in severe osteoporosis.
 
 [^lacey-1998-rankl]: Lacey DL, Timms E, Tan HL, et al. Osteoprotegerin ligand is a cytokine that regulates osteoclast differentiation and activation. *Cell.* 1998;93(2):165-176. [doi:10.1016/S0092-8674(00)81569-X](https://doi.org/10.1016/S0092-8674(00)81569-X) · [PubMed 9568710](https://pubmed.ncbi.nlm.nih.gov/9568710/)
 [^cummings-2009-denosumab-freedom]: Cummings SR, San Martin J, McClung MR, et al. Denosumab for prevention of fractures in postmenopausal women with osteoporosis. *N Engl J Med.* 2009;361(8):756-765. [doi:10.1056/NEJMoa0809493](https://doi.org/10.1056/NEJMoa0809493) · [PubMed 19671655](https://pubmed.ncbi.nlm.nih.gov/19671655/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
