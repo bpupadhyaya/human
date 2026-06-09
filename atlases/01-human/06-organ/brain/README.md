@@ -196,6 +196,9 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: secretes
     note: "Pituitary somatotrophs (~50% of anterior pituitary) secrete GH under GHRH and somatostatin control; GH pulsatility peaks during the first SWS episode; GH-secreting adenoma (acromegaly) is treated surgically by transsphenoidal adenomectomy first-line."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "AR and ERα in hypothalamus/limbic cortex mediate testosterone effects on libido, aggression, and mood; aromatization to estradiol required for male brain masculinization; testosterone deficiency → depressive symptoms and cognitive slowing; hippocampal AR regulates BDNF."
 ---
 
 # Brain
@@ -305,6 +308,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `contains` → **[NPY](../../03-molecular/npy/README.md)** — NPY is the most abundant CNS neuropeptide; ARC NPY/AgRP neurons drive hunger via Y1R/Y5R on PVN; CeA NPY-Y1R circuits are anxiolytic; hippocampal NPY interneurons suppress mossy fiber bursting and set seizure threshold; LC NPY-Y2R attenuates NE stress hyperactivation.
 - `secretes` → **[Prolactin](../../03-molecular/prolactin/README.md)** — anterior pituitary lactotrophs (~15% of cells) secrete prolactin under hypothalamic TIDA dopaminergic inhibition; PRLR is expressed in hippocampus and cortex (neuroplasticity); hypothyroidism raises TRH → cross-stimulates lactotrophs → secondary hyperprolactinemia; prolactinoma is the most common pituitary adenoma.
 - `secretes` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — pituitary somatotrophs (~50% of anterior pituitary) secrete GH under GHRH and somatostatin control; GH pulsatility peaks during the first SWS episode within 1 hour of sleep onset; GH-secreting adenoma (acromegaly) is treated surgically by transsphenoidal adenomectomy first-line.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — AR and ERα in hypothalamus/limbic cortex mediate testosterone effects on libido, aggression, and mood; aromatization to estradiol required for male brain masculinization; testosterone deficiency → depressive symptoms and cognitive slowing; hippocampal AR regulates BDNF.
 
 ## Pathology
 

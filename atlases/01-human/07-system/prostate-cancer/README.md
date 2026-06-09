@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "mTOR is activated downstream of PTEN loss in prostate cancer; mTOR inhibitors showed modest activity alone; combinations with AR-pathway inhibitors under study; TORC1/2 dual inhibitors with enzalutamide in trials for PTEN-null CRPC."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Testosterone fuels AR-driven prostate cancer; ADT (GnRH agonists/antagonists) is first-line for advanced disease; castration resistance arises via AR amplification, AR-V7, and adrenal androgen synthesis; abiraterone (CYP17A1 inhibitor) blocks residual androgens in CRPC."
 ---
 
 # Prostate Cancer
@@ -174,6 +177,7 @@ cross_links:
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss occurs in ~50% of localized and ~70% of mCRPC; PTEN null → AKT-AR crosstalk → poor prognosis; PTEN-null tumors have higher Gleason grade; ipatasertib + abiraterone (IPATential150) improves rPFS in PTEN-null mCRPC.
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BRCA1/2 and ATM mutations occur in ~25% of mCRPC (germline + somatic); HRR deficiency → PARP inhibitor sensitivity; olaparib (PROfound) and rucaparib (TRITON2) approved for BRCA-mutant mCRPC; germline testing recommended for all mCRPC patients.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR is activated downstream of PTEN loss in prostate cancer; mTOR inhibitors showed modest activity alone; combinations with AR-pathway inhibitors under study; TORC1/2 dual inhibitors with enzalutamide in trials for PTEN-null CRPC.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Testosterone fuels AR-driven prostate cancer; ADT (GnRH agonists/antagonists) is first-line for advanced disease; castration resistance arises via AR amplification, AR-V7, and adrenal androgen synthesis; abiraterone (CYP17A1 inhibitor) blocks residual androgens in CRPC.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

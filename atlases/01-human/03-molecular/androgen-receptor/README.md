@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "AKT is constitutively activated by PTEN loss in prostate cancer → AR phosphorylation → nuclear localization and ligand-independent AR activity in CRPC; ipatasertib and capivasertib (AKT inhibitors) show activity in PTEN-null mCRPC combined with abiraterone."
+  - target: 01-human/03-molecular/testosterone
+    relation: target-of
+    note: "Testosterone and DHT bind AR LBD (DHT 3× higher affinity); ligand-AR complex → AREs → spermatogenesis, muscle anabolism, bone density, erythropoiesis; AR amplification and LBD mutations permit CRPC growth at castrate testosterone; 5α-reductase irreversibly converts T to DHT."
 ---
 
 # Androgen Receptor
@@ -155,6 +158,7 @@ CRPC develops in virtually all patients after prolonged ADT. Despite castrate te
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — AR signaling drives mTORC1 via AKT; mTOR inhibitors showed limited activity in CRPC alone; mTORC2 phosphorylates AKT-S473 → AR nuclear translocation; dual PI3K-mTOR inhibition under study for PTEN-null CRPC with enzalutamide or abiraterone.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 activates AR in a ligand-independent manner in CRPC via JAK-STAT3 → nuclear AR translocation; elevated serum IL-6 correlates with CRPC progression and poor prognosis; IL-6 drives EMT and immune suppression in the prostate tumor microenvironment.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT is constitutively activated by PTEN loss in prostate cancer → AR phosphorylation → nuclear localization and ligand-independent AR activity in CRPC; ipatasertib and capivasertib (AKT inhibitors) show activity in PTEN-null mCRPC combined with abiraterone.
+- `target-of` → **[Testosterone](../testosterone/README.md)** — Testosterone and DHT bind AR LBD (DHT 3× higher affinity); ligand-AR complex → AREs → spermatogenesis, muscle anabolism, bone density, erythropoiesis; AR amplification and LBD mutations permit CRPC growth at castrate testosterone; 5α-reductase irreversibly converts T to DHT.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^ryan-2013-cougar302]: Ryan CJ, Smith MR, de Bono JS, et al. Abiraterone in metastatic prostate cancer without previous chemotherapy. *N Engl J Med.* 2013;368(2):138-148. [doi:10.1056/NEJMoa1209096](https://doi.org/10.1056/NEJMoa1209096) · [PubMed 23228172](https://pubmed.ncbi.nlm.nih.gov/23228172/)

@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "GH deficiency increases visceral adiposity and dyslipidemia, phenocopying metabolic syndrome; GH therapy reduces visceral fat ~15-20% in deficient adults; obesity-driven leptin resistance suppresses GHRH pulsatility → blunted GH amplitude; weight loss restores GH dynamics."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Visceral adiposity suppresses testosterone via aromatase upregulation and SHBG reduction; hypogonadal-obesity cycle: T deficiency worsens adiposity, which further suppresses T; 5-10% weight loss raises testosterone 2-3 nmol/L without TRT; TRT reduces fat mass ~3 kg."
 ---
 
 # Obesity
@@ -203,6 +206,7 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 
 - `connects-to` → **[NPY](../../../03-molecular/npy/README.md)** — ARC NPY/AgRP neurons are master orexigenic drivers: NPY → Y1R/Y5R on PVN → increased food intake and reduced energy expenditure; ghrelin activates and leptin/insulin suppress ARC NPY/AgRP; NPY Leu7Pro polymorphism associates with higher BMI and metabolic syndrome risk.
 - `connects-to` → **[Growth Hormone](../../../03-molecular/growth-hormone/README.md)** — GH deficiency increases visceral adiposity and dyslipidemia, phenocopying metabolic syndrome; GH therapy reduces visceral fat ~15-20% in deficient adults; leptin resistance in obesity suppresses GHRH pulsatility → blunted GH amplitude; weight loss restores GH secretory dynamics.
+- `connects-to` → **[Testosterone](../../../03-molecular/testosterone/README.md)** — Visceral adiposity suppresses testosterone via aromatase upregulation and SHBG reduction; hypogonadal-obesity cycle: T deficiency worsens adiposity, which further suppresses T; 5-10% weight loss raises testosterone 2-3 nmol/L without TRT; TRT reduces fat mass ~3 kg.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
