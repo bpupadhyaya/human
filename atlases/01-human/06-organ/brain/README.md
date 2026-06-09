@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/gambling-disorder
     relation: connects-to
     note: "Gambling disorder features OFC hyperactivation, vmPFC hypoactivation, reduced ventral striatum response to wins, and diminished ACC conflict monitoring; impaired PFC-striatum inhibitory control distinguishes disordered from recreational gambling."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "FM involves thalamic hypersensitivity, ACC and insula hyperactivation to pain (fMRI), and altered DMN connectivity; MRS shows elevated insula glutamate; gray matter reductions in dlPFC and ACC correlate with chronicity; changes partially reverse with effective treatment."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "IGD features OFC hyperactivation to game cues, vmPFC hypoactivation, reduced ventral striatum response to non-gaming rewards, and diminished ACC impulse control; structural MRI shows reduced dlPFC gray matter — consistent with impaired top-down inhibitory control."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "SP is expressed in dorsal horn C-fiber terminals (pain), amygdala (fear/stress), raphe nuclei (co-release with 5-HT), and brainstem vagal circuits; NK1R spans pain, vomiting, and emotion circuits; NK1R internalization marks C-fiber nociceptive activation histologically."
 ---
 
 # Brain
@@ -261,6 +270,9 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — CB1R is among the most abundant GPCRs in the brain, densest in basal ganglia, cerebellum, hippocampus, and cortex; retrograde 2-AG/AEA endocannabinoid signaling mediates DSI/DSE synaptic plasticity; hippocampal CB1R enables fear extinction LTD; chronic THC causes CB1R downregulation measurable by PET.
 - `connects-to` → **[Cannabis Use Disorder](../../07-system/cannabis-use-disorder/README.md)** — chronic heavy cannabis use reduces hippocampal and amygdala gray matter volume; PFC thinning correlates with cognitive impairment; CB1R downregulation on PET persists 4+ weeks post-abstinence; adolescent-onset use causes greater structural brain changes than adult onset.
 - `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — gambling disorder features OFC hyperactivation (overvaluation of rewards), vmPFC hypoactivation, reduced ventral striatum response to wins, and diminished ACC conflict monitoring; impaired PFC-striatum inhibitory control is the neurobiological signature distinguishing disordered from recreational gambling.
+- `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — FM involves thalamic hypersensitivity, ACC and posterior insula hyperactivation to pain stimuli (fMRI), and altered default mode network connectivity; MRS shows elevated glutamate in posterior insula correlating with pain severity; gray matter reductions in dlPFC and ACC correlate with chronicity and partially reverse with effective treatment.
+- `connects-to` → **[Internet Gaming Disorder](../../07-system/internet-gaming-disorder/README.md)** — IGD features OFC hyperactivation to game cues, vmPFC hypoactivation, reduced ventral striatum response to non-gaming rewards, and diminished ACC impulse control; structural MRI shows reduced gray matter in dlPFC and OFC — consistent with chronic dopamine-driven reward circuit remodeling.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — SP is expressed in spinal dorsal horn (pain transmission from C-fibers), amygdala (fear/stress), raphe nuclei (co-release with 5-HT), striatum, and brainstem vagal circuits; NK1R is widely distributed in pain, emotion, and vomiting circuits; NK1R internalization is a validated histological marker of C-fiber nociceptive activation.
 
 ## Pathology
 

@@ -73,6 +73,9 @@ cross_links:
   - target: 01-human/07-system/cannabis-use-disorder
     relation: connects-to
     note: "Chronic THC reduces hippocampal BDNF in adolescent models, impairing synaptic plasticity; adolescent cannabis use is associated with greater BDNF-related hippocampal vulnerability; abstinence partially restores BDNF-dependent plasticity over weeks to months."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "IGD is associated with altered BDNF expression in prefrontal circuits, mirroring BDNF changes in substance use and gambling disorders; BDNF Val66Met SNP associates with IGD vulnerability; BDNF-TrkB in VTA-PFC circuits mediates neuroplasticity sustaining compulsive gaming."
 ---
 
 # BDNF
@@ -213,6 +216,8 @@ The ratio of proBDNF to mature BDNF in synapses has opposing functional conseque
 **→ [Endocannabinoid System](../../03-molecular/endocannabinoid/)**: CB1R stimulation activates ERK/Akt signaling cascades that drive BDNF transcription; 2-AG-CB1R signaling in hippocampus supports LTP and BDNF-dependent synaptic plasticity; chronic THC suppresses hippocampal BDNF and CREB phosphorylation in adolescent models, impairing neurogenesis and fear extinction memory.
 
 **→ [Cannabis Use Disorder](../../07-system/cannabis-use-disorder/)**: chronic THC exposure reduces hippocampal BDNF in adolescent animal models, impairing synaptic plasticity and neurogenesis; adolescent cannabis use is associated with greater BDNF-related hippocampal structural vulnerability than adult-onset use; abstinence partially restores BDNF-dependent plasticity over weeks to months.
+
+**→ [Internet Gaming Disorder](../../07-system/internet-gaming-disorder/)**: IGD is associated with altered BDNF expression in prefrontal circuits, paralleling BDNF changes seen in substance use and gambling disorders; BDNF Val66Met SNP has been associated with IGD vulnerability in genetic association studies; BDNF-TrkB signaling in VTA-PFC circuits mediates the neuroplasticity that sustains compulsive gaming behavior.
 
 [^barde-1982-bdnf-discovery]: Barde YA, Edgar D, Thoenen H. Purification of a new neurotrophic factor from mammalian brain. *EMBO J.* 1982;1(5):549-553. [doi:10.1002/j.1460-2075.1982.tb01207.x](https://doi.org/10.1002/j.1460-2075.1982.tb01207.x) · [PubMed 7188352](https://pubmed.ncbi.nlm.nih.gov/7188352/)
 [^duman-2012-bdnf-depression]: Duman RS, Aghajanian GK. Synaptic dysfunction in depression: potential therapeutic targets. *Science.* 2012;338(6103):68-72. [doi:10.1126/science.1222939](https://doi.org/10.1126/science.1222939) · [PubMed 23042884](https://pubmed.ncbi.nlm.nih.gov/23042884/)

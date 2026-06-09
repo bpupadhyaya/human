@@ -103,6 +103,12 @@ cross_links:
   - target: 01-human/07-system/gambling-disorder
     relation: connects-to
     note: "Gambling activates NAcc dopamine via reward prediction error; near-miss events trigger near-normal DA responses despite loss; D2/D3R hypofunction (↓ striatal D2R on PET) mirrors substance use disorders; dopamine agonists (pramipexole in PD) can trigger pathological gambling."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "FM shows reduced NAcc dopamine release on PET ([¹¹C]raclopride binding); blunted NAcc DA → reduced endogenous mesolimbic analgesia; dopaminergic dysfunction may explain fibro fog (cognitive deficits) and motivational impairment in FM alongside pain amplification."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "Gaming activates VTA-NAcc dopamine via variable reward schedules; PET shows reduced striatal D2R in IGD — the hypodopaminergic pattern shared across behavioral and substance addictions; cue-induced DA reactivity to game stimuli predicts craving and relapse in IGD."
 ---
 
 # Dopamine
@@ -209,6 +215,8 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `connects-to` → **[Endocannabinoid System](../endocannabinoid/README.md)** — CB1R on VTA GABAergic interneurons mediates endocannabinoid-driven DA disinhibition; 2-AG/AEA retrograde signaling fine-tunes dopamine neuron burst firing; chronic THC causes CB1R desensitization → hypodopaminergic state with ↓D2R on PET — the same reward circuit remodeling seen across substance use disorders.
 - `connects-to` → **[Cannabis Use Disorder](../../07-system/cannabis-use-disorder/README.md)** — THC → CB1R on VTA GABAergic interneurons → DA disinhibition → NAcc dopamine surge; chronic cannabis use → D2R downregulation and blunted NAcc response to natural rewards; PET shows reduced striatal dopamine in chronic users, mirroring alcohol, cocaine, and opioid use disorders.
 - `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — gambling activates NAcc dopamine via reward prediction error; near-miss events trigger near-normal DA responses despite loss, falsely reinforcing continued play; D2/D3R hypofunction (↓ striatal D2R on PET) in gambling disorder mirrors substance use disorders; dopamine agonists (pramipexole) trigger pathological gambling in Parkinson's patients.
+- `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — FM shows reduced NAcc dopamine release detected by [¹¹C]raclopride PET; blunted NAcc DA → impaired endogenous mesolimbic analgesia (dopamine normally activates descending antinociceptive circuits); dopaminergic dysfunction may explain fibro fog (cognitive impairment) and motivational deficits alongside pain amplification in FM.
+- `connects-to` → **[Internet Gaming Disorder](../../07-system/internet-gaming-disorder/README.md)** — gaming activates VTA-NAcc dopamine via variable reward schedules (loot boxes, competitive wins, leveling); PET shows reduced striatal D2R in IGD — the hypodopaminergic pattern shared across behavioral and substance addictions; cue-induced dopamine reactivity to game stimuli drives craving and relapse.
 
 ## Pathology
 

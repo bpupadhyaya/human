@@ -96,6 +96,15 @@ cross_links:
   - target: 01-human/07-system/gambling-disorder
     relation: connects-to
     note: "Serotonin hypofunction contributes to impulsivity and loss of behavioral inhibition in gambling disorder; 5-HT1B knockout mice show increased risk-taking; fluvoxamine and paroxetine showed modest efficacy in small trials; comorbid depression or OCD may respond to SSRIs."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Descending serotonergic inhibition from raphe nuclei to spinal dorsal horn is impaired in FM (low CSF 5-HIAA); duloxetine and amitriptyline restore descending inhibitory tone; 5-HT3 antagonist tropisetron reduces FM pain; 5-HT2A polymorphisms associate with FM susceptibility."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Serotonin and substance P are co-expressed in raphe nuclei; descending 5-HT pathways gate spinal SP release (5-HT3 → SP excitation; 5-HT1A → SP inhibition); duloxetine's serotonergic component suppresses SP-driven central sensitization in chronic pain."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "Serotonin hypofunction contributes to impulsivity and compulsivity in IGD; 5-HT modulates OFC impulse control circuits; SSRIs show modest evidence for IGD with comorbid OCD or depression; impulsivity is a shared serotonin-related trait across behavioral addictions."
 ---
 
 # Serotonin
@@ -220,6 +229,9 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 
 - `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — SSRIs (sertraline, paroxetine) are FDA-approved for PTSD; 5-HT modulates vmPFC fear extinction; serotonin dysregulation contributes to PTSD hyperarousal, emotional numbing, and sleep disturbance; SNRIs (venlafaxine) also have good evidence for PTSD symptom reduction.
 - `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — serotonin hypofunction contributes to impulsivity and loss of behavioral inhibition in gambling disorder; 5-HT1B knockout mice show increased risk-taking; fluvoxamine and paroxetine showed modest efficacy in small RCTs; SSRIs are more effective in gambling disorder comorbid with depression or OCD.
+- `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — descending serotonergic inhibition from raphe nuclei to spinal dorsal horn is impaired in FM (reduced CSF 5-HIAA); duloxetine (SNRI) and amitriptyline (TCA) restore descending inhibitory tone and reduce pain; 5-HT3 antagonist tropisetron reduces FM pain in small RCTs; 5-HT2A receptor polymorphisms associate with FM susceptibility.
+- `connects-to` → **[Substance P](../substance-p/README.md)** — serotonin and substance P are co-expressed in raphe nuclei and co-released at pain-modulating synapses; 5-HT3 receptors on dorsal horn neurons facilitate SP release (pronociceptive); 5-HT1A/1B receptors inhibit SP release (antinociceptive); duloxetine exploits serotonergic suppression of SP-driven central sensitization.
+- `connects-to` → **[Internet Gaming Disorder](../../07-system/internet-gaming-disorder/README.md)** — serotonin hypofunction contributes to impulsivity and compulsive behavior in IGD; 5-HT modulates OFC-PFC impulse control circuits that are hypoactive in IGD; SSRIs have modest evidence for IGD when driven by comorbid depression or OCD; impulsivity is a core serotonin-linked risk trait across behavioral addictions.
 
 ## Pathology
 

@@ -74,6 +74,12 @@ cross_links:
   - target: 01-human/07-system/gambling-disorder
     relation: connects-to
     note: "NE mediates gambling arousal (tachycardia, cortisol surge during near-miss events); elevated urinary MHPG during gambling episodes; naltrexone and nalmefene reduce NE-driven arousal; bupropion (NE/DA reuptake inhibitor) modestly reduces gambling urges in some trials."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Descending NE from LC to dorsal horn is deficient in FM; duloxetine and milnacipran (FDA-approved SNRIs) increase NE in descending pain pathways — the core analgesic mechanism; NE deficiency amplifies SP and glutamate-driven central sensitization and allodynia."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Descending NE from LC suppresses spinal SP release via α2 receptors on dorsal horn interneurons; duloxetine's NE component suppresses SP signaling and contributes to analgesia in fibromyalgia; NE depletion amplifies SP-driven allodynia and hyperalgesia."
 ---
 
 # Norepinephrine
@@ -195,6 +201,8 @@ NE
 
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol withdrawal → NE hyperactivation → autonomic instability (tachycardia, hypertension, diaphoresis) — core CIWA-Ar symptoms; clonidine (α2 agonist) reduces LC-NE firing during withdrawal; chronic alcohol disrupts NE autoreceptor sensitivity and NE synthesis capacity.
 - `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — NE mediates the arousal component of gambling (tachycardia, cortisol surge during near-miss events); elevated urinary MHPG (NE metabolite) documented during gambling episodes; naltrexone and nalmefene reduce NE-driven arousal; bupropion (NE/DA reuptake inhibitor) modestly reduces gambling urges.
+- `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — descending NE inhibitory pathways from LC to spinal dorsal horn are deficient in FM; duloxetine and milnacipran (both FDA-approved for FM as SNRIs) increase NE in descending pain pathways — the core analgesic mechanism; NE deficiency amplifies substance P and glutamate-driven central sensitization and allodynia.
+- `connects-to` → **[Substance P](../substance-p/README.md)** — descending NE from LC suppresses spinal substance P release via α2 adrenergic receptors on primary afferents and dorsal horn interneurons; NE deficiency in the descending spinal system amplifies SP-driven pain sensitization; duloxetine's NE component is responsible for suppressing SP-mediated allodynia in FM.
 
 ## Pathology
 

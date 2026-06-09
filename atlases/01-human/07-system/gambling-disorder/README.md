@@ -24,6 +24,9 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "Gambling disorder features OFC hyperactivation (overvaluation of rewards), vmPFC hypoactivation, reduced ventral striatum response to wins, and diminished ACC conflict monitoring; impaired PFC-striatum inhibitory control distinguishes disordered from recreational gambling."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "Gambling disorder and IGD share the behavioral addiction neurocircuit: VTA-NAcc dopamine dysregulation, OFC hyperactivation, vmPFC hypoactivation, D2R hypofunction on PET, and impaired inhibitory control; loot box mechanics in games are structurally equivalent to slot machines."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -168,6 +171,8 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Mu-Opioid Receptor](../../../03-molecular/mu-opioid-receptor/README.md)** — endogenous opioids released during gambling wins and near-misses via MOR → euphoric reinforcement; naltrexone (MOR/KOR antagonist) is the best-studied pharmacotherapy — reduces gambling urges and frequency; nalmefene (MOR antagonist + KOR partial agonist) also effective.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — gambling disorder features OFC hyperactivation (overvaluation of gambling rewards), vmPFC hypoactivation, reduced ventral striatum response to wins, and diminished ACC conflict monitoring; impaired PFC-striatum inhibitory control is the neurobiological signature distinguishing disordered from recreational gambling.
+
+- `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — gambling disorder and IGD share the behavioral addiction neurocircuit: VTA-NAcc dopamine dysregulation, OFC hyperactivation to reward cues, vmPFC hypoactivation, D2R hypofunction, and impaired PFC-striatum inhibitory control; loot box mechanics in video games are structurally and neurobiologically equivalent to slot machines, bridging both disorders.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
