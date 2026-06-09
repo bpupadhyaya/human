@@ -41,6 +41,12 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "H1 receptors on cortical neurons maintain arousal via TMN projections; low-dose doxepin (3-6mg) is FDA-approved for sleep-maintenance insomnia via selective H1 blockade; OTC diphenhydramine blocks H1 but causes next-day grogginess and anticholinergic effects in elderly."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Narcolepsy impairs the orexin→TMN histamine axis; pitolisant (H3R inverse agonist, FDA-approved 2019 for EDS and 2020 for cataplexy) increases histamine release → wakefulness; pitolisant is the only non-controlled narcolepsy drug, allowing patients to work unrestricted."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "TMN neurons in the posterior hypothalamus are the sole CNS histamine source projecting to cortex, striatum, and hippocampus; H1R maintains cortical arousal; H3R autoreceptors modulate DA, NE, and ACh release; first-gen H1 blockers penetrate BBB → sedation."
 ---
 
 # Histamine
@@ -151,6 +157,8 @@ H2R (Gs) → Gαs → **adenylyl cyclase** → ↑cAMP → **PKA** → phosphory
 - `modulates` → **[dendritic-cell](../../04-cellular/dendritic-cell/README.md)** — H1/H2 receptors on DCs modulate Th1/Th2 polarisation; H4 drives chemotaxis; histamine promotes DC migration to lymph nodes in allergic responses [^janeway-immunobiology]
 - `modulated-by` → **[Orexin](../orexin/README.md)** — orexin neurons excite TMN histamine neurons via OX2R → H1-mediated cortical wakefulness; orexin is the primary upstream activator of histamine's wake-promoting function; DORAs (suvorexant, lemborexant) indirectly reduce TMN histamine drive.
 - `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — H1 receptors on cortical neurons maintain arousal via TMN projections; low-dose doxepin (3-6mg) is FDA-approved for sleep-maintenance insomnia via selective H1 blockade; OTC diphenhydramine blocks H1 but causes grogginess and anticholinergic effects in elderly.
+- `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — narcolepsy impairs the orexin→TMN histamine axis; pitolisant (H3R inverse agonist, FDA-approved 2019 for EDS and 2020 for cataplexy) compensates by increasing histamine release; pitolisant is the only non-scheduled narcolepsy drug, allowing unrestricted employment, and is effective for both EDS and cataplexy.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — TMN neurons in the posterior hypothalamus are the sole CNS histamine source projecting broadly to cortex, striatum, and hippocampus; H1R maintains arousal; H3R autoreceptors modulate dopamine, NE, and ACh release; first-generation H1 antihistamines cross the BBB and cause sedation by blocking H1R.
 
 ## Pathology
 

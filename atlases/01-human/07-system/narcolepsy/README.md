@@ -1,0 +1,175 @@
+---
+schema: human-scale-entry/v1
+id: narcolepsy
+name: Narcolepsy
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-08
+summary: "Narcolepsy is a chronic hypersomnia disorder caused by selective loss of orexin (hypocretin) neurons in type 1; HLA-DQB1*06:02 and autoimmune destruction; characterized by EDS, cataplexy, sleep paralysis, and hallucinations. Sodium oxybate, pitolisant, modafinil treat symptoms."
+aliases: ["narcolepsy", "narcolepsy type 1", "narcolepsy with cataplexy", "narcolepsy type 2", "hypocretin deficiency", "orexin deficiency", "excessive daytime sleepiness", "cataplexy"]
+cross_links:
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Type 1 narcolepsy results from autoimmune destruction of ~70,000 lateral hypothalamic orexin neurons; CSF hypocretin-1 <110 pg/mL is diagnostic; OX2R agonists (TAK-994) showed anti-narcoleptic efficacy but were halted; OX2R signaling is the fundamental missing signal."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Orexin normally drives TMN histamine neurons via OX2R → H1R cortical wakefulness; narcolepsy impairs this axis; pitolisant (H3R inverse agonist, FDA-approved 2019) blocks presynaptic H3R autoreceptors → ↑histamine release → wakefulness; only non-scheduled narcolepsy drug."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Modafinil/armodafinil inhibit DAT → ↑synaptic dopamine → wakefulness (FDA-approved); stimulants (methylphenidate, amphetamines) block/reverse DAT for EDS; REM-off dopaminergic neurons in VTA are dysregulated in narcolepsy contributing to inappropriate REM intrusions."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Antidepressants (SSRIs, SNRIs, clomipramine) suppress cataplexy via serotonin + NE reuptake inhibition that reduces REM muscle atonia; sodium oxybate may also act via serotonergic pathways; 5-HT regulates REM-off neuron activity in the dorsal raphe in narcolepsy."
+  - target: 01-human/06-organ/brain
+    relation: targets
+    note: "Narcolepsy specifically destroys lateral hypothalamic orexin neurons → destabilizes the VLPO-arousal center flip-flop switch; TMN histamine, LC norepinephrine, and raphe serotonin projections are all impaired; pontine REM-on/off circuit dysregulation underlies cataplexy."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF supports survival and function of hypothalamic orexin neurons via TrkB; BDNF Val66Met SNP may influence orexin neuron vulnerability; aerobic exercise increases BDNF and modestly reduces EDS in narcolepsy patients; BDNF-TrkB pathway is a potential neuroprotective target."
+sources:
+  - id: scammell-2015-narcolepsy-review
+    type: peer-reviewed
+    cite: "Scammell TE. Narcolepsy. N Engl J Med. 2015;373(27):2654-2662."
+    doi: "10.1056/NEJMra1500587"
+    pmid: "26716917"
+    url: "https://doi.org/10.1056/NEJMra1500587"
+    accessed: "2026-06-08"
+  - id: dauvilliers-2007-narcolepsy-clinical
+    type: peer-reviewed
+    cite: "Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. Lancet. 2007;369(9560):499-511."
+    doi: "10.1016/S0140-6736(07)60237-2"
+    pmid: "17292770"
+    url: "https://doi.org/10.1016/S0140-6736(07)60237-2"
+    accessed: "2026-06-08"
+  - id: szakacs-2023-pitolisant-narcolepsy
+    type: peer-reviewed
+    cite: "Szakacs Z, Dauvilliers Y, Mikhaylov V, et al. Safety and efficacy of pitolisant on cataplexy in patients with narcolepsy: a randomised, double-blind, placebo-controlled trial. Lancet Neurol. 2017;16(3):200-207."
+    doi: "10.1016/S1474-4422(16)30333-7"
+    pmid: "28129985"
+    url: "https://doi.org/10.1016/S1474-4422(16)30333-7"
+    accessed: "2026-06-08"
+---
+
+# Narcolepsy
+
+## Overview
+
+**Narcolepsy** is a chronic neurological sleep disorder characterized by **excessive daytime sleepiness (EDS)** — the defining and most impairing symptom — alongside distinctive REM-sleep intrusion phenomena: cataplexy, hypnagogic/hypnopompic hallucinations, and sleep paralysis. Together these are called the **narcolepsy tetrad**.
+
+**Classification:**
+- **Type 1 (Narcolepsy with Cataplexy; NT1):** Caused by selective autoimmune destruction of ~70,000 lateral hypothalamic orexin (hypocretin) neurons. Diagnostic: CSF hypocretin-1 <110 pg/mL OR typical cataplexy + sleep-onset REM periods (SOREMPs). Nearly all NT1 patients carry HLA-DQB1*06:02 (98% prevalence vs. ~22% in general population).
+- **Type 2 (Narcolepsy without Cataplexy; NT2):** EDS with SOREMPs but normal or intermediate CSF hypocretin-1 (>110 pg/mL); HLA-DQB1*06:02 association weaker; pathophysiology less well characterized; some patients evolve to NT1 over time.
+
+**Epidemiology:**
+- Prevalence: ~1 in 2,000 (0.05%) in the US and Europe; approximately 200,000 Americans affected
+- Onset: typically peaks in adolescence (15–25 years) and has a secondary peak at 35–45 years
+- Significant diagnostic delay: median 10 years between symptom onset and diagnosis [^scammell-2015-narcolepsy-review]
+- Equal sex distribution in NT1; slight female predominance in NT2
+- Associated comorbidities: obesity (BMI often elevated despite normal food intake — leptin resistance may contribute), type 2 diabetes, REM sleep behavior disorder, depression, ADHD
+
+**Autoimmune mechanism in NT1:**
+- Strong HLA association (DQB1*06:02/DQA1*01:02) implicates CD4⁺/CD8⁺ T-cell-mediated attack on orexin neurons
+- Environmental triggers identified: H1N1 influenza infection and H1N1 Pandemrix vaccination (Europe, 2009-10) produced a sharp narcolepsy incidence spike — 6–13-fold increased risk in vaccinated European children carrying HLA-DQB1*06:02
+- Molecular mimicry: viral or vaccine antigens share epitopes with orexin neurons — triggering autoreactive T cells that destroy orexin-containing neurons specifically while sparing neighboring cell types
+
+## Structure
+
+### The orexin system and narcolepsy
+
+Lateral hypothalamic orexin neurons project broadly to all major arousal centers [^scammell-2015-narcolepsy-review]:
+- **LC (norepinephrine):** OX2R → NE → cortical arousal
+- **TMN (histamine):** OX2R → histamine H1 → wakefulness (the most important single pathway for sustained wakefulness)
+- **Raphe (serotonin):** OX1/2R → 5-HT → wakefulness and REM suppression
+- **Basal forebrain (acetylcholine):** OX1/2R → ACh → cortical desynchronization
+- **VTA (dopamine):** OX1R → DA → reward and arousal
+- **Spinal cord motor neurons:** OX1/2R → maintain motor tone during wakefulness
+
+Loss of orexin signaling destabilizes the **VLPO-arousal center bistable flip-flop switch** — which normally exists in two stable states (wake or sleep) with sharp transitions. Without orexin reinforcing the wake state, the switch flickers: patients experience involuntary sleep attacks (wake→NREM) and REM intrusions (wake→REM) — the neurobiological basis of EDS, sleep attacks, and cataplexy.
+
+### Sleep architecture in narcolepsy
+
+| Feature | Normal | Narcolepsy type 1 |
+|:---|:---|:---|
+| Sleep onset latency | >10 min | <8 min (often <5 min) |
+| REM latency | 90–110 min | <15 min (SOREMP) — pathognomonic |
+| SOREMPs (sleep studies) | 0–1 | ≥2 (MSLT criterion) |
+| Nocturnal sleep architecture | Normal | Fragmented; intrusions of wakefulness |
+| REM density | Normal | Elevated; vivid dreams |
+
+**Multiple Sleep Latency Test (MSLT):** Gold-standard objective test — measures time to sleep onset in 5 nap opportunities (every 2 hours) after overnight polysomnography. Criteria for narcolepsy: mean sleep latency ≤8 minutes AND ≥2 sleep-onset REM periods (SOREMPs).
+
+### Cataplexy
+
+Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of voluntary muscle tone triggered by strong positive emotions (laughter, surprise, excitement, elation). It is caused by intrusion of REM sleep atonia circuits into wakefulness:
+- Emotion → limbic → amygdala/cingulate activation → directly activates pontine REM-on circuits (REM-promoting neurons in sublateral dorsal nucleus) in the absence of orexin's restraint
+- Amygdala → activates spinal glycinergic/GABAergic interneurons → hyperpolarizes ventral horn motor neurons → flaccid paralysis
+- Consciousness is preserved during cataplexy (differentiating it from seizures and syncope)
+- Duration: seconds to 2 minutes; partial cataplexy (facial muscles, jaw, knees) is more common than complete collapse
+- Trigger specificity: highly specific to positive emotion in NT1; anger/fear can also trigger in some patients
+
+## Function
+
+### Pathophysiology of symptoms
+
+| Symptom | Mechanism |
+|:---|:---|
+| **EDS** | Loss of orexin → impaired arousal center drive → failure to sustain wakefulness; TMN histamine deficiency plays primary role |
+| **Cataplexy** | Emotional activation of amygdala → direct pontine REM-on circuit activation without orexin restraint → REM atonia during wakefulness |
+| **Sleep paralysis** | Brief continuation of REM atonia after awakening — dissociated REM state; normal population also experiences this occasionally |
+| **Hypnagogic hallucinations** | Vivid, often frightening dream imagery during sleep-onset/offset transitions when consciousness and REM dreaming overlap |
+| **Fragmented nocturnal sleep** | Unstable VLPO-arousal switch → awakening during the night; insufficient restorative sleep contributes to daytime EDS |
+
+## Pathology
+
+### Diagnosis
+
+**Polysomnography + MSLT (gold standard):**
+- Overnight PSG rules out other causes of EDS (obstructive sleep apnea — the most common EDS mimic) and establishes sleep architecture
+- MSLT the next day: ≥2 SOREMPs + mean sleep latency ≤8 minutes
+- Note: SSRIs/SNRIs suppress REM and must be withdrawn ≥2 weeks before MSLT to avoid false-negative SOREMPs
+
+**CSF hypocretin-1 measurement:**
+- <110 pg/mL (or <1/3 of mean normal values) = highly specific for NT1 (sensitivity ~90%, specificity ~99%)
+- Requires lumbar puncture; used when MSLT is inconclusive or to confirm NT1 definitively
+- Undetectable in ~90% of NT1; normal in NT2
+
+**HLA typing:** DQB1*06:02 has high sensitivity (98%) but poor specificity (~22% of general population carry it); used as supporting evidence, not diagnostic
+
+### Treatment
+
+**Excessive daytime sleepiness:**
+- **Sodium oxybate (GHB; Xyrem):** FDA-approved for both EDS and cataplexy (2002); consolidates nocturnal sleep → reduces EDS; mechanism: GABA-B agonist → consolidates slow-wave sleep → reduces fragmentation; second dose given 2.5-4 hours after sleep onset; schedule III; abuse potential but rare in narcolepsy context; contraindicated with CNS depressants or respiratory insufficiency; low sodium formulation (Lumryz, QD dosing) FDA-approved 2023
+- **Modafinil/Armodafinil (Provigil/Nuvigil):** First-line wakefulness promoters; exact mechanism debated — primarily DAT inhibition → ↑synaptic dopamine; schedule IV; no significant peripheral sympathomimetic effects; well-tolerated [^scammell-2015-narcolepsy-review]
+- **Traditional stimulants (methylphenidate, amphetamine salts):** Used for refractory EDS; schedule II; effective but higher abuse potential and cardiovascular effects; still widely prescribed due to cost advantage
+- **Pitolisant (Wakix):** H3R inverse agonist — blocks presynaptic histamine autoreceptors → ↑histamine release → wakefulness; FDA-approved 2019 for EDS and 2020 for cataplexy; non-scheduled (not a controlled substance) — unique among narcolepsy treatments; allows patients to work or hold certain occupations denied to scheduled-drug users [^szakacs-2023-pitolisant-narcolepsy]
+
+**Cataplexy:**
+- **Sodium oxybate:** Most effective treatment; dramatically reduces cataplexy frequency in most patients
+- **Antidepressants (SSRIs, SNRIs, clomipramine, venlafaxine):** Suppress cataplexy via serotonin/NE reuptake inhibition → suppress pontine REM-on circuits; used at sub-antidepressant doses; must be tapered not stopped abruptly (sudden discontinuation can cause severe status cataplecticus — continuous cataplexy)
+- **Pitolisant:** FDA-approved for cataplexy (2020) — only non-scheduled medication for both EDS and cataplexy
+
+**Emerging treatments:**
+- **OX2R agonists:** TAK-994 (oral OX2R agonist) dramatically reduced narcolepsy symptoms in Phase 2 but halted due to liver toxicity; next-generation OX2R agonists (TAK-861) in trials without hepatotoxicity signal
+- **Immunotherapy at onset:** Case reports of IV Ig, rituximab, or corticosteroids given acutely during orexin neuron destruction phase; animal data supports the concept but no controlled trials
+
+## Connections
+
+- `connects-to` → **[Orexin](../../../03-molecular/orexin/README.md)** — type 1 narcolepsy results from selective autoimmune destruction of ~70,000 lateral hypothalamic orexin neurons; CSF hypocretin-1 <110 pg/mL is diagnostic; loss of orexin destabilizes the VLPO-arousal center flip-flop switch → EDS, cataplexy, and REM intrusions; OX2R agonists (TAK-861) are in clinical trials.
+
+- `connects-to` → **[Histamine](../../../03-molecular/histamine/README.md)** — orexin normally drives TMN histamine neurons via OX2R, and histamine H1R activation sustains cortical wakefulness; narcolepsy disrupts this orexin-histamine axis; pitolisant (H3R inverse agonist, FDA-approved 2019 for EDS; 2020 for cataplexy) blocks histamine autoreceptors → ↑histamine release → wakefulness; it is the only non-controlled narcolepsy medication.
+
+- `connects-to` → **[Dopamine](../../../03-molecular/dopamine/README.md)** — modafinil and armodafinil inhibit DAT → ↑synaptic dopamine → sustained wakefulness (first-line EDS treatment); methylphenidate and amphetamines also target DAT for refractory EDS; REM-off dopaminergic neurons in VTA are dysregulated in narcolepsy contributing to inappropriate REM sleep intrusions during wakefulness.
+
+- `connects-to` → **[Serotonin](../../../03-molecular/serotonin/README.md)** — SSRIs and SNRIs (venlafaxine, fluoxetine) suppress cataplexy via monoamine reuptake inhibition reducing pontine REM-on circuit activity; clomipramine (TCA, potent SERT inhibitor) is highly effective for cataplexy; sodium oxybate may act partly via serotonergic consolidation of slow-wave sleep.
+
+- `targets` → **[Brain](../../../06-organ/brain/README.md)** — NT1 selectively destroys lateral hypothalamic orexin neurons, destabilizing the VLPO-arousal flip-flop switch; downstream TMN histamine, LC norepinephrine, raphe serotonin, and VTA dopamine arousal centers are all under-driven; pontine REM-on/off circuit dysregulation underlies cataplexy.
+
+- `connects-to` → **[BDNF](../../../03-molecular/bdnf/README.md)** — BDNF supports survival and function of hypothalamic orexin neurons via TrkB; BDNF Val66Met SNP may influence orexin neuron vulnerability; aerobic exercise increases BDNF and modestly reduces daytime sleepiness in narcolepsy; BDNF-TrkB is a potential neuroprotective target in early narcolepsy.
+
+[^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
+[^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
+[^szakacs-2023-pitolisant-narcolepsy]: Szakacs Z, Dauvilliers Y, Mikhaylov V, et al. Safety and efficacy of pitolisant on cataplexy in patients with narcolepsy: a randomised, double-blind, placebo-controlled trial. *Lancet Neurol.* 2017;16(3):200-207. [doi:10.1016/S1474-4422(16)30333-7](https://doi.org/10.1016/S1474-4422(16)30333-7) · [PubMed 28129985](https://pubmed.ncbi.nlm.nih.gov/28129985/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

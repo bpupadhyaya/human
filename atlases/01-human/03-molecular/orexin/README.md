@@ -55,6 +55,9 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine (process S) and orexin (arousal drive) are complementary sleep-wake regulators; basal forebrain adenosine inhibits orexin-activating circuits; caffeine blocks adenosine sleep pressure without affecting orexin tone; alignment of both is required for sleep initiation."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Type 1 narcolepsy results from selective autoimmune destruction of orexin neurons (HLA-DQB1*06:02); loss of orexin destabilizes the VLPO-arousal flip-flop switch → EDS, cataplexy, REM intrusions; CSF hypocretin-1 <110 pg/mL is diagnostic; OX2R agonists are in trials."
 ---
 
 # Orexin
@@ -215,6 +218,8 @@ Dual OX1R/OX2R antagonists (DORAs) approved for insomnia:
 - `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — DORAs (suvorexant 2014, lemborexant 2019, daridorexant 2022) block OX1R/OX2R → reduce wake-promoting drive → facilitate sleep onset and maintenance without GABA-A modulation, avoiding tolerance, rebound insomnia, and dependence seen with benzodiazepines.
 
 - `connects-to` → **[Adenosine](../adenosine/README.md)** — adenosine (process S sleep pressure) and orexin (arousal drive) are the two complementary sleep-wake regulators; basal forebrain adenosine inhibits orexin-activating circuits; caffeine removes adenosine-mediated sleep pressure without affecting orexin tone; both systems must align for normal sleep initiation.
+
+- `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — type 1 narcolepsy results from selective autoimmune destruction of orexin neurons (HLA-DQB1*06:02 association); loss of orexin destabilizes the VLPO–arousal flip-flop switch → EDS, cataplexy, REM intrusions; CSF hypocretin-1 <110 pg/mL is diagnostic; OX2R agonists (TAK-861) are in Phase 3 trials.
 
 [^de-lecea-1998-hypocretin-discovery]: de Lecea L, Kilduff TS, Peyron C, et al. The hypocretins: hypothalamus-specific peptides with neuroexcitatory activity. *Proc Natl Acad Sci USA.* 1998;95(1):322-327. [doi:10.1073/pnas.95.1.322](https://doi.org/10.1073/pnas.95.1.322) · [PubMed 9419374](https://pubmed.ncbi.nlm.nih.gov/9419374/)
 [^sakurai-1998-orexin-discovery]: Sakurai T, Amemiya A, Ishii M, et al. Orexins and orexin receptors: a family of hypothalamic neuropeptides and G protein-coupled receptors that regulate feeding behavior. *Cell.* 1998;92(4):573-585. [doi:10.1016/S0092-8674(00)80949-6](https://doi.org/10.1016/S0092-8674(00)80949-6) · [PubMed 9491897](https://pubmed.ncbi.nlm.nih.gov/9491897/)

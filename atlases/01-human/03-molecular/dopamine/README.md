@@ -112,6 +112,9 @@ cross_links:
   - target: 01-human/07-system/binge-eating-disorder
     relation: connects-to
     note: "Binge eating triggers VTA-NAcc dopamine surge via food reward; D2R hypofunction on PET in BED parallels substance use disorders; lisdexamfetamine (FDA-approved for BED) normalizes dopaminergic salience attribution via DAT/NET reuptake inhibition."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Modafinil inhibits DAT → ↑synaptic dopamine → wakefulness (first-line EDS treatment); methylphenidate and amphetamines block/reverse DAT for refractory EDS; REM-off dopaminergic VTA neurons are dysregulated in narcolepsy contributing to inappropriate REM intrusions."
 ---
 
 # Dopamine
@@ -221,6 +224,7 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — FM shows reduced NAcc dopamine release detected by [¹¹C]raclopride PET; blunted NAcc DA → impaired endogenous mesolimbic analgesia (dopamine normally activates descending antinociceptive circuits); dopaminergic dysfunction may explain fibro fog (cognitive impairment) and motivational deficits alongside pain amplification in FM.
 - `connects-to` → **[Internet Gaming Disorder](../../07-system/internet-gaming-disorder/README.md)** — gaming activates VTA-NAcc dopamine via variable reward schedules (loot boxes, competitive wins, leveling); PET shows reduced striatal D2R in IGD — the hypodopaminergic pattern shared across behavioral and substance addictions; cue-induced dopamine reactivity to game stimuli drives craving and relapse.
 - `connects-to` → **[Binge Eating Disorder](../../07-system/binge-eating-disorder/README.md)** — binge eating triggers VTA-NAcc dopamine surge via food reward; D2R hypofunction on PET in BED parallels substance use disorders and gambling disorder; lisdexamfetamine (Vyvanse, FDA-approved for BED) normalizes dopaminergic salience attribution via DAT/NET reuptake inhibition.
+- `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — modafinil, first-line for narcolepsy EDS, inhibits DAT → ↑synaptic dopamine → wakefulness; methylphenidate and amphetamines block/reverse DAT for refractory cases; REM-off VTA dopaminergic neurons are dysregulated in narcolepsy contributing to inappropriate REM intrusions and cataplexy.
 
 ## Pathology
 

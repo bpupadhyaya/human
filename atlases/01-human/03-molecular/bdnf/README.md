@@ -82,6 +82,9 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Activated microglia release BDNF in dorsal horn after nerve injury; microglial BDNF-TrkB on lamina I neurons downregulates KCC2 → GABA becomes depolarizing → allodynia; microglial BDNF is required for nerve-injury pain hypersensitivity in rodent models."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "BDNF supports survival of hypothalamic orexin neurons via TrkB; BDNF Val66Met SNP may influence orexin neuron vulnerability; aerobic exercise increases BDNF and modestly reduces daytime sleepiness in narcolepsy; BDNF-TrkB is a potential neuroprotective target."
 ---
 
 # BDNF
@@ -228,6 +231,8 @@ The ratio of proBDNF to mature BDNF in synapses has opposing functional conseque
 **→ [Binge Eating Disorder](../../07-system/binge-eating-disorder/)**: Hypothalamic BDNF in the paraventricular nucleus (PVN) suppresses food intake via TrkB signaling; BDNF Val66Met SNP associates with elevated eating disorder vulnerability; serum BDNF is reduced in BED patients; BDNF-TrkB normalization in mesolimbic circuits may contribute to lisdexamfetamine's therapeutic effect in BED.
 
 **→ [Neuropathic Pain](../../07-system/neuropathic-pain/)**: Activated spinal microglia release BDNF after peripheral nerve injury; microglial BDNF acts on TrkB receptors of lamina I projection neurons → KCC2 downregulation → chloride extrusion fails → GABA becomes depolarizing rather than inhibitory → allodynia; microglial BDNF release is required for nerve-injury-induced pain hypersensitivity in rodent models.
+
+**→ [Narcolepsy](../../07-system/narcolepsy/)**: BDNF supports survival of hypothalamic orexin neurons via TrkB; the BDNF Val66Met SNP may influence orexin neuron vulnerability in narcolepsy type 1; aerobic exercise increases BDNF and modestly reduces excessive daytime sleepiness in narcolepsy; BDNF-TrkB is a potential neuroprotective target to preserve remaining orexin neurons.
 
 [^barde-1982-bdnf-discovery]: Barde YA, Edgar D, Thoenen H. Purification of a new neurotrophic factor from mammalian brain. *EMBO J.* 1982;1(5):549-553. [doi:10.1002/j.1460-2075.1982.tb01207.x](https://doi.org/10.1002/j.1460-2075.1982.tb01207.x) · [PubMed 7188352](https://pubmed.ncbi.nlm.nih.gov/7188352/)
 [^duman-2012-bdnf-depression]: Duman RS, Aghajanian GK. Synaptic dysfunction in depression: potential therapeutic targets. *Science.* 2012;338(6103):68-72. [doi:10.1126/science.1222939](https://doi.org/10.1126/science.1222939) · [PubMed 23042884](https://pubmed.ncbi.nlm.nih.gov/23042884/)

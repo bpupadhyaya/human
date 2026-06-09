@@ -178,6 +178,9 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Neuropathic pain involves thalamic sensitization, ACC/insula hyperactivation, and somatosensory cortex reorganization; chronic pain reduces gray matter in ACC and dlPFC; CNS changes explain pain persistence despite peripheral healing and maladaptive neuroplasticity."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "NT1 selectively destroys lateral hypothalamic orexin neurons, destabilizing the VLPO-arousal flip-flop switch; TMN histamine, LC norepinephrine, and raphe serotonin projections are all under-driven; pontine REM-on/off circuit dysregulation underlies cataplexy."
 ---
 
 # Brain
@@ -281,6 +284,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — SP is expressed in spinal dorsal horn (pain transmission from C-fibers), amygdala (fear/stress), raphe nuclei (co-release with 5-HT), striatum, and brainstem vagal circuits; NK1R is widely distributed in pain, emotion, and vomiting circuits; NK1R internalization is a validated histological marker of C-fiber nociceptive activation.
 - `connects-to` → **[Binge Eating Disorder](../../07-system/binge-eating-disorder/README.md)** — BED features OFC hyperactivation to food cues (paralleling drug cue reactivity in SUD), impaired vmPFC inhibitory control over binge impulses, insula hyperactivation during food craving, and dorsal striatum hypoactivation reflecting a shift from goal-directed to habitual eating patterns.
 - `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — neuropathic pain involves thalamic sensitization, ACC and insular hyperactivation to pain stimuli, and somatosensory cortex reorganization; chronic neuropathic pain is associated with gray matter reduction in ACC and dlPFC; central changes explain why pain persists after peripheral healing and why maladaptive neuroplasticity becomes the dominant driver.
+- `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — NT1 selectively destroys lateral hypothalamic orexin neurons, destabilizing the VLPO–arousal flip-flop; under-driven TMN, LC, and raphe projections reduce histamine, NE, and 5-HT arousal tone; pontine REM-on/off circuit dysregulation underlies cataplexy; amygdala hypersensitivity mediates emotion-triggered cataplexy attacks.
 
 ## Pathology
 
