@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: modulates
     note: "Ang-1/Tie2 → PI3K/Akt + Rho GTPase → VE-cadherin stabilization and eNOS activation → vascular quiescence; Ang-2 competes for Tie2 → adherens junction destabilization, pericyte loss, sensitization to VEGF-driven leak and sprouting."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Ang-2 released from Weibel-Palade bodies in sepsis → Tie2 destabilization → VE-cadherin cleavage → vascular hyperpermeability → organ edema; plasma Ang-2 >10 ng/mL on day 1 predicts ICU mortality; high Ang-2/Ang-1 ratio defines the severe vascular leak phenotype."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Ang-1/Ang-2 imbalance in PAH: Ang-2 overexpression in pulmonary endothelium → Tie2 destabilization → endothelial mesenchymal transition → vascular remodeling; Ang-2 overexpressing mice develop PAH; plasma Ang-2 correlates with hemodynamic severity in PAH patients."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Ang-2 promotes breast cancer angiogenesis: hypoxic tumor cells secrete Ang-2 → vessel destabilization → VEGF-driven sprouting; tumor Ang-2 correlates with lymph node metastasis and poor prognosis; Ang-2 blockade combined with anti-VEGF shows additive anti-tumor activity."
 ---
 
 # Angiopoietin
@@ -128,6 +137,11 @@ The two principal ligands have opposing effects on Tie2:
 - `connects-to` → **[Diabetic Retinopathy](../../07-system/diabetic-retinopathy/README.md)** — Ang-2 elevated in diabetic retinas → Tie2 destabilization → pericyte loss → endothelial junction opening → macular edema + neovascularization; faricimab (anti-Ang-2 + anti-VEGF-A) achieves Q16W dosing with non-inferior VA gains vs. aflibercept Q8W (YOSEMITE/RHINE).
 - `connects-to` → **[VEGF](../vegf/README.md)** — Ang-2 destabilizes vessel walls (pericyte detachment, junction opening) → sensitizes endothelium to VEGF → maximal angiogenic sprouting; faricimab dual blockade (anti-Ang-2 + anti-VEGF-A) reduces edema and neovascularization more effectively than anti-VEGF monotherapy.
 - `modulates` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Ang-1/Tie2 → PI3K/Akt + Rho GTPase → VE-cadherin stabilization and eNOS activation → vascular quiescence; Ang-2 competes for Tie2 → adherens junction destabilization, pericyte loss, sensitization to VEGF-driven leak and sprouting.
+- `connects-to` → **[Sepsis](../../07-system/sepsis/README.md)** — Ang-2 released from Weibel-Palade bodies in sepsis → Tie2 destabilization → VE-cadherin cleavage → vascular hyperpermeability → organ edema; plasma Ang-2 >10 ng/mL on day 1 predicts ICU mortality; high Ang-2/Ang-1 ratio defines the severe vascular leak phenotype.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../../07-system/pulmonary-arterial-hypertension/README.md)** — Ang-1/Ang-2 imbalance in PAH: Ang-2 overexpression in pulmonary endothelium → Tie2 destabilization → endothelial mesenchymal transition → vascular remodeling; Ang-2 overexpressing mice develop PAH; plasma Ang-2 correlates with hemodynamic severity in PAH patients.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — Ang-2 promotes breast cancer angiogenesis: hypoxic tumor cells secrete Ang-2 → vessel destabilization → VEGF-driven sprouting; tumor Ang-2 correlates with lymph node metastasis and poor prognosis; Ang-2 blockade combined with anti-VEGF shows additive anti-tumor activity.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^davis-1996-angiopoietin1-tie2]: Davis S, Aldrich TH, Jones PF, et al. Isolation of angiopoietin-1, a ligand for the TIE2 receptor, by secretion-trap expression cloning. *Cell.* 1996;87(7):1161-1169. [doi:10.1016/S0092-8674(00)81812-7](https://doi.org/10.1016/S0092-8674(00)81812-7) · [PubMed 8980223](https://pubmed.ncbi.nlm.nih.gov/8980223/)
 [^maisonpierre-1997-angiopoietin2]: Maisonpierre PC, Suri C, Jones PF, et al. Angiopoietin-2, a natural antagonist for Tie2 that disrupts in vivo angiogenesis. *Science.* 1997;277(5322):55-60. [doi:10.1126/science.277.5322.55](https://doi.org/10.1126/science.277.5322.55) · [PubMed 9204896](https://pubmed.ncbi.nlm.nih.gov/9204896/)

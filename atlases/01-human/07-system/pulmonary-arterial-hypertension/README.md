@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "SSc is the most common cause of CTD-PAH (10-15% of SSc patients); SSc-PAH treated with ERAs + PDE5i (macitentan, ambrisentan + tadalafil); worse prognosis than IPAH; annual echocardiographic screening recommended for all SSc patients."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Ang-1/Ang-2 imbalance in PAH: Ang-2 overexpression in pulmonary endothelium → Tie2 destabilization → endothelial mesenchymal transition → vascular remodeling; Ang-2 overexpressing mice develop PAH; plasma Ang-2 correlates with hemodynamic severity in PAH patients."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -174,6 +177,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — PAH endothelium produces insufficient PGI2 (prostacyclin) → IP receptor → cAMP → vasodilation and anti-proliferative; IV epoprostenol (Flolan) reduces mortality in severe PAH; inhaled iloprost, SC/IV treprostinil; selexipag (oral IP agonist) reduces morbidity 40% (GRIPHON trial).
 - `targets` → **[Lung](../../06-organ/lung/README.md)** — PAH is a disease of the pulmonary vasculature; medial hypertrophy, intimal fibrosis, adventitial fibrosis, and plexiform lesions in pulmonary arterioles (<500 µm) → fixed obliterative vascular disease → RV pressure overload → cor pulmonale → right heart failure.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — SSc is the most common cause of CTD-PAH (10-15% of SSc patients); SSc-PAH treated with ERAs + PDE5i (macitentan, ambrisentan + tadalafil); worse prognosis than IPAH; annual echocardiographic screening recommended for all SSc patients.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-1/Ang-2 imbalance in PAH: Ang-2 overexpression in pulmonary endothelium → Tie2 destabilization → endothelial mesenchymal transition → vascular remodeling; Ang-2 overexpressing mice develop PAH; plasma Ang-2 correlates with hemodynamic severity in PAH patients.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^galie-2015-esc-pah-guidelines]: Galie N, Humbert M, Vachiery JL, et al. 2015 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension. *Eur Heart J.* 2016;37(1):67-119. [doi:10.1093/eurheartj/ehv317](https://doi.org/10.1093/eurheartj/ehv317) · [PubMed 26320113](https://pubmed.ncbi.nlm.nih.gov/26320113/)
 [^simonneau-2019-pah-classification]: Simonneau G, Montani D, Celermajer DS, et al. Haemodynamic definitions and updated clinical classification of pulmonary hypertension. *Eur Respir J.* 2019;53(1):1801913. [doi:10.1183/13993003.01913-2018](https://doi.org/10.1183/13993003.01913-2018) · [PubMed 30545968](https://pubmed.ncbi.nlm.nih.gov/30545968/)

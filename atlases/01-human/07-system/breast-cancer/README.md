@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Breast cancer overexpresses CXCR4 → homing to CXCL12-rich organs (bone marrow, lung, liver, brain) → organ-specific metastasis; stromal CXCL12 promotes primary tumor growth; CXCR4 correlates with lymph node involvement and poor prognosis; anti-CXCR4 therapy in trials."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Ang-2 promotes breast cancer angiogenesis: hypoxic tumor cells secrete Ang-2 → vessel destabilization → VEGF-driven sprouting; tumor Ang-2 correlates with lymph node metastasis and poor prognosis; Ang-2 blockade combined with anti-VEGF shows additive anti-tumor activity."
 ---
 
 # Breast Cancer
@@ -169,6 +172,9 @@ cross_links:
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — PR+ breast cancers have better prognosis than PR- tumors; combined E2+progestogen HRT (WHI) increased breast cancer risk vs. estrogen-only; progestins in combined OCP contribute to VTE risk; PR agonists (megestrol, medroxyprogesterone) treat endometrial hyperplasia and EC.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — breast cancer bone metastases exploit the RANKL axis: PTHrP from tumor cells → osteoblast RANKL → osteoclast osteolysis releases TGF-β and IGF-1 → vicious cycle of tumor-bone crosstalk; denosumab (Xgeva) delays skeletal-related events by ~8.5 months vs. zoledronate (HALT-BC).
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Breast cancer overexpresses CXCR4 → homing to CXCL12-rich organs (bone marrow, lung, liver, brain) → organ-specific metastasis; stromal CXCL12 promotes primary tumor growth; CXCR4 correlates with lymph node involvement and poor prognosis; anti-CXCR4 therapy in trials.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 promotes breast cancer angiogenesis: hypoxic tumor cells secrete Ang-2 → vessel destabilization → VEGF-driven sprouting; tumor Ang-2 correlates with lymph node metastasis and poor prognosis; Ang-2 blockade combined with anti-VEGF shows additive anti-tumor activity.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^siegel-2024-cancer-statistics]: Siegel RL, Giaquinto AN, Jemal A. Cancer statistics, 2024. *CA Cancer J Clin.* 2024;74(1):12-49. [doi:10.3322/caac.21820](https://doi.org/10.3322/caac.21820) · [PubMed 38230766](https://pubmed.ncbi.nlm.nih.gov/38230766/)
 [^slamon-2001-trastuzumab-trial]: Slamon DJ, Leyland-Jones B, Shak S, et al. Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2. *N Engl J Med.* 2001;344(11):783-792. [doi:10.1056/NEJM200103153441101](https://doi.org/10.1056/NEJM200103153441101) · [PubMed 11248153](https://pubmed.ncbi.nlm.nih.gov/11248153/)
