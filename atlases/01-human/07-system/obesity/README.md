@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "Dysbiosis in obesity — increased Firmicutes/Bacteroidetes ratio, reduced Akkermansia muciniphila — increases energy harvest and drives metabolic endotoxemia (LPS → TLR4 → systemic inflammation); gut microbiome transfer from obese to germ-free mice transfers adiposity phenotype."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "ARC NPY/AgRP neurons are master orexigenic drivers: NPY → Y1R/Y5R on PVN → increased food intake and reduced energy expenditure; ghrelin activates and leptin/insulin suppress ARC NPY/AgRP; NPY Leu7Pro polymorphism associates with higher BMI and metabolic syndrome risk."
 ---
 
 # Obesity
@@ -194,6 +197,8 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Insulin](../../../03-molecular/insulin/README.md)** — Chronic hyperinsulinemia in obesity drives mTORC1/S6K1 → IRS-1 serine phosphorylation → insulin resistance; adipose inflammation via IKKβ/NF-κB further impairs insulin signaling; type 2 diabetes develops when pancreatic β-cell compensation fails under sustained metabolic demand.
 
 - `connects-to` → **[Gut Microbiome](../../gut-microbiome/README.md)** — Dysbiosis in obesity — increased Firmicutes/Bacteroidetes ratio, reduced Akkermansia muciniphila — increases energy harvest and drives metabolic endotoxemia (LPS → TLR4 → systemic inflammation); gut microbiome transfer from obese to germ-free mice transfers the adiposity phenotype.
+
+- `connects-to` → **[NPY](../../../03-molecular/npy/README.md)** — ARC NPY/AgRP neurons are master orexigenic drivers: NPY → Y1R/Y5R on PVN → increased food intake and reduced energy expenditure; ghrelin activates and leptin/insulin suppress ARC NPY/AgRP; NPY Leu7Pro polymorphism associates with higher BMI and metabolic syndrome risk.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

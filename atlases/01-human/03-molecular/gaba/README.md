@@ -100,6 +100,9 @@ cross_links:
   - target: 01-human/07-system/cannabis-use-disorder
     relation: connects-to
     note: "CB1R on GABAergic interneurons mediates THC's disinhibitory effects; chronic THC → CB1R internalization on GABA terminals → altered E/I balance; PFC GABA deficits correlate with impaired inhibitory control; MRS shows reduced GABA in cannabis-dependent users."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Hippocampal and cortical NPY interneurons are GABAergic (co-express SST); Y2R presynaptic autoreceptors modulate GABA release; NPY-SST+ interneurons regulate theta-gamma oscillations; NPY inhibits mossy fiber LTP partially via GABA-mediated feed-forward inhibition."
 ---
 
 # GABA
@@ -225,6 +228,7 @@ When E/I balance shifts toward excess excitation (loss of GABAergic interneurons
 - `connects-to` → **[CRH](../crh/README.md)** — GABA interneurons in PVN inhibit CRH neurons; benzodiazepines (GABA-A PAMs) attenuate CRH release and HPA activation; GABA-B agonists (baclofen) suppress PVN CRH neurons; the CRH-GABA balance in amygdala/BNST regulates anxiety-like states and stress-induced drinking in AUD.
 - `connects-to` → **[Endocannabinoid System](../endocannabinoid/README.md)** — CB1R is predominantly expressed on GABAergic presynaptic terminals; retrograde 2-AG/AEA release → CB1R → Gi → reduced GABA release (DSI — depolarization-induced suppression of inhibition); endocannabinoid-mediated DSI disinhibits postsynaptic neurons and modulates hippocampal theta oscillations and synaptic plasticity.
 - `connects-to` → **[Cannabis Use Disorder](../../07-system/cannabis-use-disorder/README.md)** — CB1R on GABAergic interneurons mediates THC's disinhibitory effects; chronic THC → CB1R internalization on GABA terminals → altered E/I balance; PFC GABA deficits (measurable by MRS) correlate with impaired inhibitory control and are a neurobiological marker of cannabis-use disorder.
+- `connects-to` → **[NPY](../npy/README.md)** — hippocampal and cortical NPY interneurons are GABAergic (co-express SST); Y2R presynaptic autoreceptors modulate GABA release; NPY-SST+ interneurons regulate theta-gamma oscillations; NPY inhibits mossy fiber LTP partially via GABA-mediated feed-forward inhibition.
 
 ## Pathology
 
