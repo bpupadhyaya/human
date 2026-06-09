@@ -3,270 +3,197 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Eye — three-coat organ of vision. Cornea, retina, phototransduction, aqueous humor, IOP, blood-retinal barrier. Pathology: glaucoma, AMD, diabetic retinopathy. Human Engineering Atlas L05 Organ.">
-  <meta property="og:title" content="Eye — Organ Atlas · Human Engineering">
+  <meta name="description" content="Paired visual organ (~24 mm diameter); converts light into neural signals via rods (scotopic) and cones (photopic/color) in the retina. Outer tunic: cornea/scle">
+  <meta property="og:title" content="Eye — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Eye — Organ Atlas · Human Engineering</title>
+  <title>Eye — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#0071e3;--accent-soft:rgba(0,113,227,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(12px);-webkit-backdrop-filter:saturate(180%) blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .nav-back{display:inline-flex;align-items:center;gap:.4rem}
-    .nav-back svg{width:14px;height:14px}
-    .hero{background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 40%,#ffffff 80%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .stat-row{display:flex;gap:2rem;flex-wrap:wrap;margin:1.25rem 0}
-    .stat{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.75rem 1rem;min-width:130px}
-    .stat-num{font-size:1.35rem;font-weight:800;color:var(--accent);line-height:1}
-    .stat-label{font-size:.72rem;color:var(--muted);margin-top:.25rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .formula-block{background:var(--bg-3);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.85rem 1.1rem;margin:.5rem 0;font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:.88rem;color:var(--fg)}
-    .formula-note{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:.82rem;color:var(--muted);margin-top:.3rem}
-    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
-    @media(max-width:600px){.two-col{grid-template-columns:1fr}}
-    .card-sm{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.9rem 1rem}
-    .card-sm h4{font-size:.88rem;font-weight:700;color:var(--fg);margin-bottom:.35rem}
-    .card-sm p{font-size:.84rem;color:var(--muted);line-height:1.55;margin:0}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:100px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="../index.html" class="brand">
-      <span class="brand-mark" aria-hidden="true"></span>
-      Human Engineering
-    </a>
-    <div class="nav-links">
-      <a href="../index.html">Home</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
+    <h1>Eye</h1>
+    <p class="tagline">Paired visual organ (~24 mm diameter); converts light into neural signals via rods (scotopic) and cones (photopic/color) in the retina. Outer tunic: cornea/sclera; uvea: iris/ciliary body/choroid; retina: 10 neural layers. ~1 million axons per optic nerve.</p>
+    <p class="aliases">Also known as: ocular organ, eyeball, globe, oculus, visual organ</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">eye</div>
+        <h2>Eye</h2>
+        <p class="summary">Paired visual organ (~24 mm diameter); converts light into neural signals via rods (scotopic) and cones (photopic/color) in the retina. Outer tunic: cornea/sclera; uvea: iris/ciliary body/choroid; retina: 10 neural layers. ~1 million axons per optic nerve.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>eye</td></tr>
+            <tr><td>Name</td><td>Eye</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>06-organ</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="neuron.html" title="The retina contains ~6 million cone photoreceptors and ~120 million rod photoreceptors (specialized neurons), plus bipolar, amacrine, horizontal, and ~1 million retinal ganglion cells whose axons form the optic nerve."><span class="rel">contains</span>Neuron</a>
+            <a class="conn-pill part" href="nervous-system.html" title="The retina is developmental brain tissue (diencephalon outgrowth); the optic nerve is a CNS tract (not peripheral nerve); the visual pathway extends from retina through LGN to primary visual cortex (V1). The eye is functionally part of the CNS visual system."><span class="rel">part-of</span>Nervous System</a>
+            <a class="conn-pill" href="diabetic-retinopathy.html" title="Diabetic retinopathy targets the retina: pericyte loss → microaneurysms → exudates → macular edema → neovascularization → vitreous hemorrhage → tractional retinal detachment; foveal photoreceptors are most critical for central vision and most vulnerable to DME-driven damage."><span class="rel">connects-to</span>Diabetic Retinopathy</a>
+            <a class="conn-pill" href="factor-h.html" title="Factor H Y402H (SCR7; ~35% of Europeans) → reduced Bruch membrane heparan sulfate binding → local complement dysregulation → drusen accumulation → AMD; Y402H homozygotes have ~7× relative AMD risk; pegcetacoplan (C3 inhibitor) approved for geographic atrophy in AMD (FDA 2023)."><span class="rel">connects-to</span>Factor H</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://webvision.med.utah.edu/" target="_blank" rel="noopener noreferrer">Kolb H, Fernandez E, Nelson R, eds. Webvision: The Organization of the Retina and Visual System. University of Utah Health Sciences; 2011.</a></li>
+            <li><a href="https://www.elsevier.com/books/the-eye/forrester/978-0-7020-5554-6" target="_blank" rel="noopener noreferrer">Forrester JV, Dick AD, McMenamin PG, Roberts F, Pearlman E. The Eye: Basic Sciences in Practice. 4th ed. Elsevier; 2015.</a></li>
+            <li><a href="https://www.sinauer.com/neuroscience" target="_blank" rel="noopener noreferrer">Purves D, Augustine GJ, Fitzpatrick D, et al. Neuroscience. 6th ed. Sinauer Associates; 2018.</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="../index.html" class="nav-back">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-        Home
-      </a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-  </div>
-</nav>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-<div class="hero">
-  <div class="hero-inner">
-    <div class="eyebrow">Organ Atlas &middot; L05 Organ &middot; Special Senses &middot; Visual System</div>
-    <h1><span>Eye</span></h1>
-    <p class="hero-lead">A three-coat, fluid-filled sphere (~24 mm axial length) whose transparent anterior optics focus light onto the photoreceptor mosaic of the retina, converting photons into neural signals via a biochemical cascade that ultimately reaches the visual cortex.</p>
-    <div class="stat-row">
-      <div class="stat"><div class="stat-num">~24 mm</div><div class="stat-label">Axial length (adult)</div></div>
-      <div class="stat"><div class="stat-num">~120 M</div><div class="stat-label">Rods (dim-light receptors)</div></div>
-      <div class="stat"><div class="stat-num">~6 M</div><div class="stat-label">Cones (color + acuity)</div></div>
-      <div class="stat"><div class="stat-num">10–21 mmHg</div><div class="stat-label">Normal IOP range</div></div>
-    </div>
-  </div>
-</div>
-
-<div class="meta-strip">
-  <span>Scale: <strong>L05 Organ</strong></span>
-  <span>System: <strong>Special Senses</strong> &mdash; visual system</span>
-  <span>Type: <strong>Sensory organ</strong></span>
-  <span>UBERON: <strong>0000019</strong></span>
-</div>
-
-<div class="content">
-
-  <div class="section">
-    <h2>Overview</h2>
-    <p>The human eye is an optical and sensory organ organized into three concentric coats: the outer fibrous tunic (sclera posteriorly, cornea anteriorly), the middle vascular uveal tract (choroid, ciliary body, iris), and the inner neurosensory retina. Transparent media — the cornea, aqueous humor, crystalline lens, and vitreous body — form a refractive system that brings parallel rays of light to focus on the fovea centralis at the center of the macula. The cornea contributes approximately +43 diopters (about two-thirds of total refractive power) while the relaxed crystalline lens adds +19 diopters; ciliary muscle contraction (accommodation) can increase lens power by up to +15 diopters in a young adult.</p>
-    <p>The retina is a displaced piece of brain — embryologically an outgrowth of the diencephalon — organized into ten histological layers that process light signals through a sequence of photoreceptors, interneurons, and retinal ganglion cells (RGCs) whose axons form the optic nerve. A continuous supply of aqueous humor, secreted by the ciliary epithelium and drained via the trabecular meshwork and Schlemm's canal, maintains intraocular pressure (IOP) at 10–21 mmHg, sustaining the globe's shape and optical geometry.</p>
-  </div>
-
-  <div class="section">
-    <h2>Structural Anatomy — Three Coats</h2>
-    <h3>Outer Coat: Sclera and Cornea</h3>
-    <p>The <strong>sclera</strong> forms the posterior five-sixths of the fibrous coat — an opaque, avascular shell of interwoven type I/III collagen bundles that provides mechanical rigidity and attachment for the six extraocular muscles. At the posterior pole the sclera is perforated by the optic nerve (lamina cribrosa) and by posterior ciliary arteries and nerves. The <strong>cornea</strong> comprises the anterior one-sixth and has five layers:</p>
-    <ul>
-      <li><strong>Epithelium (5–7 cell layers, ~50 µm):</strong> stratified non-keratinized squamous; regenerates rapidly from limbal stem cells; provides smooth optical surface via tear film</li>
-      <li><strong>Bowman layer (~12 µm):</strong> acellular condensed collagen; not regenerated after injury</li>
-      <li><strong>Stroma (~450 µm, ~90% of corneal thickness):</strong> orthogonally arranged collagen type I/V lamellae with uniform fibril spacing (~31 nm center-to-center) maintained by small leucine-rich proteoglycans (keratocan, lumican); this precise lattice produces destructive interference of scattered light — the molecular basis of corneal transparency</li>
-      <li><strong>Descemet's membrane (~10–15 µm):</strong> thick basement membrane secreted by endothelium throughout life; contains collagen type IV/VIII</li>
-      <li><strong>Endothelium (monolayer, ~5 µm):</strong> hexagonal cells with Na⁺/K⁺-ATPase + carbonic anhydrase pumps that actively export ions from stroma into anterior chamber, maintaining corneal dehydration (~78% water) and therefore transparency; non-regenerative — density declines from ~3,500/mm² at birth to ~2,000–2,500/mm² in adults; Fuchs endothelial dystrophy results from endothelial failure</li>
-    </ul>
-
-    <h3>Middle Coat: Uveal Tract</h3>
-    <p>The uvea consists of three continuous structures. The <strong>choroid</strong> is a highly vascular layer between sclera and RPE containing the choriocapillaris — a lobular capillary network that supplies the outer retina and photoreceptors (which lack their own vasculature). Choroidal blood flow is among the highest per unit mass in the body (~2,000 mL/min/100 g). The <strong>ciliary body</strong> has two functions: the ciliary muscle (smooth, innervated by CNIII parasympathetics via the ciliary ganglion) controls accommodation by altering zonular tension on the lens; the ciliary epithelium (double-layered, non-pigmented inner + pigmented outer) secretes aqueous humor. The <strong>iris</strong> is a pigmented diaphragm with a central pupillary aperture; the pupillary sphincter (CNIII) and dilator (sympathetic, superior cervical ganglion) muscles regulate light entering the eye.</p>
-
-    <h3>Inner Coat: Retina</h3>
-    <p>The neurosensory retina has <strong>ten histological layers</strong> enumerated from the inner (vitreal) surface outward:</p>
-    <ol>
-      <li><strong>Internal limiting membrane (ILM):</strong> basement membrane of Müller cell end-feet; interface with vitreous</li>
-      <li><strong>Nerve fiber layer (NFL):</strong> axons of retinal ganglion cells traveling toward the optic disc</li>
-      <li><strong>Ganglion cell layer (GCL):</strong> RGC nuclei — ~1.2 million cells; 30+ subtypes encode motion, color, contrast</li>
-      <li><strong>Inner plexiform layer (IPL):</strong> synapses between bipolar, amacrine, and ganglion cells</li>
-      <li><strong>Inner nuclear layer (INL):</strong> nuclei of bipolar cells (ON/OFF), amacrine cells (~30 subtypes), horizontal cells</li>
-      <li><strong>Outer plexiform layer (OPL):</strong> synapses between photoreceptors, bipolar cells, and horizontal cells</li>
-      <li><strong>Outer nuclear layer (ONL):</strong> photoreceptor nuclei (rods and cones)</li>
-      <li><strong>External limiting membrane (ELM):</strong> adherens junctions between Müller cells and photoreceptor inner segments</li>
-      <li><strong>Photoreceptor outer segments (OS):</strong> rod OS (50–100 discs stacked, rhodopsin embedded) and cone OS (shorter, conical)</li>
-      <li><strong>Retinal pigment epithelium (RPE):</strong> cuboidal monolayer; phagocytoses shed photoreceptor OS (~30 discs/rod/day); regenerates 11-cis-retinal; constitutes outer blood-retinal barrier; expresses VEGF and PEDF</li>
-    </ol>
-    <p>The <strong>macula</strong> (3.5 mm diameter, centered 3 mm temporal to the optic disc) is specialized for high-acuity color vision; it is enriched with xanthophyll carotenoids (lutein/zeaxanthin) that filter high-energy blue light. The <strong>fovea centralis</strong> (0.35 mm) is cone-only — all other layers displaced centrifugally (foveal pit), maximizing direct photon-to-cone access. Cone density at the foveal center: ~199,000/mm².</p>
-    <p>Photoreceptor distribution: approximately <strong>120 million rods</strong> concentrated in the mid-periphery (peak density ~20° from fovea) for scotopic (dim-light) vision, and approximately <strong>6 million cones</strong> in three subtypes with peak spectral sensitivities at ~420 nm (S, blue-sensitive), ~530 nm (M, green-sensitive), and ~560 nm (L, red-sensitive). The L:M:S cone ratio is approximately 10:5:1, though highly variable between individuals.</p>
-  </div>
-
-  <div class="section">
-    <h2>Crystalline Lens and Accommodation</h2>
-    <p>The crystalline lens is a biconvex, avascular, transparent structure (~9 mm diameter × 4 mm thick in resting state) suspended behind the iris by zonular fibers (ciliary zonule) radiating from the ciliary body. Its transparency relies on three families of structural proteins — <strong>α-crystallins</strong> (chaperones that prevent protein aggregation), <strong>β-crystallins</strong>, and <strong>γ-crystallins</strong> — arranged in a gradient of increasing refractive index from cortex to nucleus. With age, crystallin proteins undergo post-translational modifications (deamidation, glycation, crosslinking by advanced glycation end-products and UV-generated radicals) that increase opacity — the biochemical basis of senile cataract.</p>
-    <p><strong>Accommodation mechanism:</strong> Ciliary muscle contraction (circular and meridional fibers) reduces zonular tension → lens rounds up under its elastic capsule → curvature and refractive power increase → near-focus. With age, the lens nucleus hardens (presbyopia) and reduces the amplitude of accommodation from ~15 D at age 8 to &lt;1 D by age 55.</p>
-    <p>The <strong>vitreous humor</strong> fills the posterior segment (~4 mL volume). Composition: ~99% water, collagen type II fibrils forming a loose scaffold, hyaluronic acid chains (sodium hyaluronate) providing viscoelasticity, and sparse hyalocytes. It transmits light, provides structural support to the retina, and acts as a reservoir for growth factors including PDGF-BB. With age, the vitreous undergoes syneresis (liquid pockets form) and eventual posterior vitreous detachment (PVD).</p>
-  </div>
-
-  <div class="section">
-    <h2>Phototransduction — Rhodopsin Cascade</h2>
-    <p>Phototransduction in rod photoreceptors converts single photons into a graded hyperpolarizing receptor potential with extraordinary amplification (~10⁵-fold). In darkness, cGMP-gated cation channels (CNG channels) are held open by high cytoplasmic cGMP, admitting an inward Na⁺/Ca²⁺ "dark current" — the rod is tonically depolarized (~−40 mV) and continuously releasing glutamate at its synaptic terminal.</p>
-    <p><strong>Light activation sequence:</strong></p>
-    <ol>
-      <li>Photon absorption isomerizes <strong>11-cis-retinal → all-trans-retinal</strong> within the opsin apoprotein, generating activated rhodopsin (R*)</li>
-      <li>R* catalytically activates <strong>transducin (Gαt)</strong> — GDP → GTP exchange; each R* activates ~500 transducin molecules</li>
-      <li>Gαt-GTP activates <strong>cGMP phosphodiesterase 6 (PDE6)</strong>, which hydrolyzes cGMP → 5'-GMP</li>
-      <li>cGMP concentration falls → CNG channels close → Na⁺/Ca²⁺ influx ceases → rod hyperpolarizes to ~−70 mV</li>
-      <li>Hyperpolarization decreases glutamate release at the rod spherule → ON-bipolar cells (which express metabotropic mGluR6) depolarize (sign-inverted); OFF-bipolars (AMPA/kainate) hyperpolarize</li>
-    </ol>
-    <p><strong>Recovery and adaptation:</strong> Rhodopsin kinase (GRK1) phosphorylates R* at multiple C-terminal serine/threonine residues → arrestin binds, quenching activation. PDE6 GTPase activity (via RGS9-1/Gβ5) terminates Gαt signalling. Guanylate cyclase (RetGC-1/2), activated by guanylate cyclase-activating proteins (GCAPs) in response to falling Ca²⁺, resynthesizes cGMP to restore dark current. The entire single-photon response resolves in ~300 ms in humans.</p>
-    <p><strong>Visual cycle (retinoid cycle):</strong> After photoactivation, all-trans-retinal dissociates from opsin and is reduced to all-trans-retinol (by NADPH-dependent retinol dehydrogenase), then transported to the RPE where LRAT (lecithin:retinol acyltransferase) esterifies it, and RPE65 (retinal pigment epithelium 65 kDa protein, an isomerohydrolase) converts all-trans-retinyl ester → 11-cis-retinol → 11-cis-retinal, which diffuses back to photoreceptors. Mutations in RPE65 cause Leber congenital amaurosis (LCA2); voretigene neparvovec (AAV2 gene therapy) restores vision.</p>
-  </div>
-
-  <div class="section">
-    <h2>Aqueous Humor and Intraocular Pressure</h2>
-    <p>Aqueous humor is a clear ultrafiltrate-like fluid produced at ~2–3 µL/min by the double-layered ciliary epithelium. Ion transport driving secretion: Na⁺/K⁺-ATPase on the non-pigmented epithelium transports Na⁺ into the posterior chamber, creating an osmotic gradient; carbonic anhydrase II/IV in ciliary epithelium generates HCO₃⁻, contributing to net fluid flow. Aqueous flows from the posterior chamber → through the pupil → anterior chamber → trabecular meshwork outflow (~85%) or uveoscleral (unconventional) outflow (~15%).</p>
-    <div class="formula-block">
-      IOP = F / C + Pe
-      <div class="formula-note">F = aqueous production rate; C = outflow facility (ease of drainage); Pe = episcleral venous pressure (~8 mmHg). Normal IOP 10–21 mmHg. Raised IOP (>21 mmHg) is the primary modifiable risk factor for glaucoma.</div>
-    </div>
-    <p><strong>Trabecular outflow:</strong> Aqueous passes through the trabecular meshwork (corneoscleral and juxtacanalicular tissue) → Schlemm's canal → collector channels → episcleral veins. The juxtacanalicular tissue provides most of the resistance; its extracellular matrix (fibronectin, laminin, versican) is remodeled by matrix metalloproteinases. Prostaglandin analog eye drops (latanoprost, bimatoprost) reduce IOP primarily by increasing uveoscleral outflow via FP receptor activation → MMP upregulation → ciliary muscle relaxation.</p>
-  </div>
-
-  <div class="section">
-    <h2>Blood Supply and Blood-Retinal Barrier</h2>
-    <p>The eye has a dual blood supply reflecting the two functional zones of the retina. The <strong>inner retina</strong> (RGC through INL) is supplied by the <strong>central retinal artery</strong>, a branch of the ophthalmic artery (from the internal carotid), which enters the optic nerve and branches into superior/inferior nasal/temporal arterioles visible on fundoscopy. The <strong>outer retina and photoreceptors</strong> are avascular and rely on diffusion from the underlying <strong>choriocapillaris</strong> (a lobular fenestrated capillary network within the choroid); this is the highest perfusion rate per unit tissue in the body and is not autoregulated.</p>
-    <p>The <strong>blood-retinal barrier (BRB)</strong> exists in two anatomically distinct locations:</p>
-    <ul>
-      <li><strong>Inner BRB:</strong> tight junctions (claudin-5, occludin, ZO-1) between retinal vascular endothelial cells, supported by pericyte coverage and Müller glia endfeet; analogous to the blood-brain barrier. Breakdown occurs in diabetic retinopathy (VEGF-mediated phosphorylation of tight junction proteins) and vein occlusions.</li>
-      <li><strong>Outer BRB:</strong> tight junctions between RPE cells; restricts bidirectional movement between the choriocapillaris and the neural retina; maintains the subretinal microenvironment. Disrupted in AMD (RPE dysfunction → drusen accumulation → BRB breakdown → CNV).</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Pathology</h2>
-    <table>
-      <tr>
-        <th>Disease</th>
-        <th>Mechanism</th>
-        <th>Key features</th>
-        <th>Treatment</th>
-      </tr>
-      <tr>
-        <td><strong>Primary open-angle glaucoma (POAG)</strong></td>
-        <td>Elevated IOP (trabecular meshwork dysfunction) → mechanical stress + ischemia → RGC apoptosis → optic nerve cupping; NTG variant: IOP normal, vascular insufficiency predominates</td>
-        <td>Insidious peripheral visual field loss; cup:disc ratio &gt;0.6; IOP often &gt;21 mmHg but not always; NFL thinning on OCT</td>
-        <td>Prostaglandin analogs (latanoprost); β-blockers (timolol); carbonic anhydrase inhibitors (dorzolamide); laser trabeculoplasty (SLT); trabeculectomy/tube shunt surgery</td>
-      </tr>
-      <tr>
-        <td><strong>Primary angle-closure glaucoma (PACG)</strong></td>
-        <td>Pupillary block → aqueous trapped in posterior chamber → iris bombe → peripheral anterior synechiae occlude trabecular meshwork; hyperopia/shallow AC predispose</td>
-        <td>Acute attack: severe pain, red eye, corneal haze, mid-dilated pupil, IOP &gt;50 mmHg; nausea/vomiting</td>
-        <td>Laser peripheral iridotomy (PI) relieves pupillary block; pilocarpine (miosis) in acute attack; IV acetazolamide + IV mannitol to rapidly lower IOP</td>
-      </tr>
-      <tr>
-        <td><strong>Age-related macular degeneration (AMD)</strong></td>
-        <td><em>Dry AMD:</em> lipofuscin/drusen accumulation (subRPE deposits, complement activation — CFH, C3, C5 variants); geographic atrophy (RPE+photoreceptor loss). <em>Wet/neovascular AMD:</em> VEGF-A secretion by hypoxic RPE → choroidal neovascularization (CNV) → subretinal fluid/blood → acute central vision loss</td>
-        <td>Drusen (&gt;125 µm = large drusen), RPE pigment changes; CNV on OCT-angiography; loss of central vision, metamorphopsia</td>
-        <td>Dry AMD: AREDS2 supplements (lutein/zeaxanthin/zinc/vit C/E); Wet AMD: anti-VEGF intravitreal injections — ranibizumab (Fab, VEGF-A), aflibercept (VEGF trap), brolucizumab (scFv), faricimab (bispecific VEGF-A/Ang-2); photodynamic therapy (historic)</td>
-      </tr>
-      <tr>
-        <td><strong>Diabetic retinopathy (DR)</strong></td>
-        <td>Chronic hyperglycemia → pericyte loss + BRB breakdown (protein kinase C, advanced glycation end-products, VEGF) → microaneurysms; NPDR progresses to PDR with neovascularization (VEGF-driven); tractional retinal detachment in advanced PDR</td>
-        <td>NPDR: microaneurysms, dot/blot haemorrhages, hard exudates, cotton-wool spots; PDR: new vessels on disc/elsewhere; DME: macular oedema</td>
-        <td>Glycemic and blood pressure control; anti-VEGF for DME and PDR (ranibizumab, aflibercept); pan-retinal photocoagulation (PRP) for PDR; vitrectomy for tractional RD; fenofibrate (FIELD trial: reduces DR progression)</td>
-      </tr>
-      <tr>
-        <td><strong>CMV retinitis</strong></td>
-        <td>Cytomegalovirus (dsDNA herpesvirus) replicates in retinal cells → full-thickness retinal necrosis; occurs in severe immunosuppression (CD4 &lt;50 cells/µL); "pizza-pie" fundus appearance</td>
-        <td>Progressive visual field loss, floaters; white retinal necrosis with hemorrhage along vessels; risk of retinal detachment</td>
-        <td>Systemic ganciclovir IV or oral valganciclovir; intravitreal ganciclovir implant; restore immune function (cART for HIV); cidofovir/foscarnet for resistant CMV</td>
-      </tr>
-      <tr>
-        <td><strong>Cataract</strong></td>
-        <td>Crystallin protein aggregation (UV-induced crosslinking, oxidative damage, non-enzymatic glycation) → lens opacification; nuclear, cortical, or posterior subcapsular subtypes</td>
-        <td>Painless progressive blurring; reduced contrast sensitivity; myopic shift (nuclear sclerosis); absent red reflex</td>
-        <td>Phacoemulsification (ultrasound fragmentation + aspiration of lens) + intraocular lens (IOL) implantation; no approved pharmacological prevention</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="section">
-    <h2>Cross-Atlas Connections</h2>
-    <ul class="conn-list">
-      <li><span class="conn-rel">Related organ</span><a href="lung-alveolus.html">Lung Alveolus</a> — dual vascular supply and barrier architecture comparison (BRB vs. alveolar-capillary barrier)</li>
-      <li><span class="conn-rel">Pathogen</span><a href="pathogens.html">Pathogens</a> — viral and parasitic ocular disease (CMV, HSV, toxoplasmosis)</li>
-      <li><span class="conn-rel">Pathogen</span><a href="herpesvirus.html">Herpesvirus</a> — CMV retinitis, HSV keratitis, VZV acute retinal necrosis</li>
-      <li><span class="conn-rel">Co-morbidity</span><a href="ckd.html">CKD</a> — hypertensive retinopathy, diabetic retinopathy shares pathophysiology with diabetic nephropathy</li>
-    </ul>
-  </div>
-
-  <div class="section references">
-    <h2>References</h2>
-    <ol>
-      <li>Masland RH. The neuronal organization of the retina. <em>Neuron.</em> 2012;76(2):266–280. doi:10.1016/j.neuron.2012.10.002</li>
-      <li>Kolb H. Photoreceptors. In: Kolb H, Fernandez E, Nelson R, eds. <em>Webvision: The Organization of the Retina and Visual System.</em> University of Utah Health Sciences Center; 1995 (updated 2011).</li>
-      <li>Burns ME, Baylor DA. Activation, deactivation, and adaptation in vertebrate photoreceptor cells. <em>Annu Rev Neurosci.</em> 2001;24:779–805. doi:10.1146/annurev.neuro.24.1.779</li>
-      <li>Jonas JB, Aung T, Bourne RR, et al. Glaucoma. <em>Lancet.</em> 2017;390(10108):2183–2193. doi:10.1016/S0140-6736(17)31469-1</li>
-      <li>Mitchell P, Liew G, Gopinath B, Wong TY. Age-related macular degeneration. <em>Lancet.</em> 2018;392(10153):1147–1159. doi:10.1016/S0140-6736(18)31550-2</li>
-      <li>Solomon SD, Chew E, Duh EJ, et al. Diabetic retinopathy: a position statement by the American Diabetes Association. <em>Diabetes Care.</em> 2017;40(3):412–418. doi:10.2337/dc16-2641</li>
-      <li>Oyster CW. <em>The Human Eye: Structure and Function.</em> Sinauer Associates; 1999. ISBN 978-0878936458.</li>
-      <li>Bhutto I, Lutty G. Understanding age-related macular degeneration (AMD): relationships between the photoreceptor/retinal pigment epithelium/Bruch's membrane/choriocapillaris complex. <em>Mol Aspects Med.</em> 2012;33(4):295–317. doi:10.1016/j.mam.2012.04.005</li>
-    </ol>
-  </div>
-
-</div>
-
-<footer>
-  <p>Human Engineering &mdash; open, free, global project to model human biology end-to-end.</p>
-  <p style="margin-top:.5rem;"><a href="../index.html">Home</a> &nbsp;&middot;&nbsp; <a href="pathogens.html">Pathogens</a> &nbsp;&middot;&nbsp; <a href="medicine.html">Medicine</a> &nbsp;&middot;&nbsp; <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a></p>
-  <p style="margin-top:.5rem;">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-  <p style="margin-top:.5rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
-  <p style="margin-top:.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
-</footer>
-
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Glomerulus — renal primary filtration unit: fenestrated capillary tuft in Bowman's capsule with three-layer barrier (endothelium, GBM, podocyte slit diaphragm) filtering ~180 L/day plasma at GFR ~125 mL/min. Scale 05 of the Human Atlas.">
+  <meta name="description" content="Tuft of fenestrated capillaries (~8–10 loops) in Bowman's capsule — the nephron's primary filtration unit. Three-layer barrier filters ~180 L/day of plasma at G">
   <meta property="og:title" content="Glomerulus — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Glomerulus — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0369a1;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--accent); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--bio); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,46 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #1e3a5f); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -82,7 +94,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--accent); }
+    .footer-links a:hover { color: var(--bio); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -96,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -108,110 +119,70 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Tissue</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
     <h1>Glomerulus</h1>
-    <p class="tagline">Renal primary filtration unit — a tuft of ~8–10 fenestrated capillary loops in Bowman's capsule that filters ~180 L of plasma per day at GFR ~125 mL/min.</p>
-    <p class="subtagline">Three-layer barrier discriminates by size and charge: fenestrated endothelium + glomerular basement membrane (GBM) + podocyte slit diaphragm (nephrin). Failure → proteinuria, nephrotic syndrome, progressive CKD. ~1 million glomeruli per adult kidney.</p>
+    <p class="tagline">Tuft of fenestrated capillaries (~8–10 loops) in Bowman's capsule — the nephron's primary filtration unit. Three-layer barrier filters ~180 L/day of plasma at GFR ~125 mL/min. ~1 million glomeruli per adult kidney.</p>
+    <p class="aliases">Also known as: renal glomerulus, glomerular tuft, Malpighian corpuscle</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~1 million</span><span class="stat-label">Glomeruli per kidney</span></div>
-      <div class="stat"><span class="stat-num">~125 mL/min</span><span class="stat-label">Normal GFR</span></div>
-      <div class="stat"><span class="stat-num">180 L/day</span><span class="stat-label">Plasma filtered</span></div>
-      <div class="stat"><span class="stat-num">99.97%</span><span class="stat-label">Albumin retained</span></div>
+        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One / Scale 05 &mdash; Tissue &middot; Kidney</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">glomerulus</div>
         <h2>Glomerulus</h2>
-        <p class="summary">Microscopic primary filtration unit of the nephron — a tight tuft of ~8–10 fenestrated capillary loops in the cup-shaped Bowman's capsule at the proximal end of each renal tubule. ~1 million glomeruli per adult kidney filter 180 L/day of plasma (GFR ~125 mL/min), producing primary urine that is subsequently modified by the tubule. Three-layer filtration barrier: (1) fenestrated endothelium with glycocalyx (charge selective), (2) glomerular basement membrane — GBM — collagen IV α3α4α5 chains, 250–400 nm thick (size and charge barrier), (3) podocyte foot processes with slit diaphragm (nephrin/NEPH1/podocin — final size-selective protein retention). Mesangial cells provide structural support and regulate GFR via contractility. Juxtaglomerular apparatus activates RAAS via renin secretion.</p>
+        <p class="summary">Tuft of fenestrated capillaries (~8–10 loops) in Bowman's capsule — the nephron's primary filtration unit. Three-layer barrier filters ~180 L/day of plasma at GFR ~125 mL/min. ~1 million glomeruli per adult kidney.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The glomerulus is the microscopic primary filtration unit of the nephron — a tight tuft of ~8–10 fenestrated capillary loops suspended within the cup-shaped <strong>Bowman's capsule</strong> at the proximal end of each renal tubule. Each human kidney contains approximately one million glomeruli, distributed throughout the renal cortex. Together they filter an astonishing <strong>180 litres of plasma per day</strong> — nearly 125 mL per minute — generating the primary urine that is subsequently concentrated, modified, and reabsorbed as it traverses the nephron tubule.</p>
-          <p>The glomerulus is a precisely engineered tissue whose three-layer barrier discriminates between molecules by both size and charge: water, ions, glucose, amino acids, and urea pass freely; albumin (67 kDa, anionic) is retained to 99.97%; larger proteins are virtually completely excluded. Failure of glomerular barrier integrity — leading to proteinuria, nephrotic syndrome, and progressive kidney failure — is among the most clinically significant events in nephrology.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Anatomy — Three-Layer Filtration Barrier</h3>
-          <p><strong>Renal corpuscle structure:</strong> The glomerulus (capillary tuft) sits within Bowman's capsule, together forming the renal corpuscle. Bowman's capsule has a parietal epithelium (simple squamous, outer wall) and a visceral epithelium (podocytes, wrapping the capillaries). Bowman's space (urinary space) between them collects filtrate entering the proximal tubule.</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Layer</th><th>Structure</th><th>Pore/thickness</th><th>Selectivity mechanism</th></tr>
-            <tr><td>Layer 1: Fenestrated endothelium</td><td>Circular fenestrae 60–100 nm (no diaphragm); glycocalyx rich in heparan sulfate proteoglycans (perlecan, glypican)</td><td>60–100 nm fenestrae</td><td>Charge selectivity (anionic glycocalyx repels albumin); excludes blood cells + platelets</td></tr>
-            <tr><td>Layer 2: GBM</td><td>Fused basement membrane (endothelial + podocyte contributions); collagen IV (α3α4α5 — absent in Alport syndrome), laminin-521, agrin, perlecan, nidogen</td><td>250–400 nm thick; ~8 nm Stokes radius maximum</td><td>Size barrier + charge barrier (anionic proteoglycans)</td></tr>
-            <tr><td>Layer 3: Podocyte slit diaphragm</td><td>Interdigitating foot processes bridged by the slit diaphragm — molecular zipper of nephrin, NEPH1, podocin, CD2AP; 35–40 nm filtration slits</td><td>35–40 nm filtration slits</td><td>Final size-selective protein retention; nephrin mutation → congenital nephrotic syndrome of the Finnish type</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>glomerulus</td></tr>
+            <tr><td>Name</td><td>Glomerulus</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>05-tissue</td></tr>
           </table>
-          <p style="margin-top:0.75rem;"><strong>Mesangial cells:</strong> Pericyte-like cells in the mesangium (centrally between capillary loops). Provide structural support; regulate GFR by contracting in response to angiotensin II, endothelin, and vasopressin (reducing filtration surface area); produce mesangial matrix (collagen IV, fibronectin, laminin); phagocytose immune complexes (IgA nephropathy — mesangial IgA deposition — is the most common primary glomerulonephritis worldwide).</p>
-          <table class="data-table" style="margin-top:1rem;">
-            <tr><th>Vessel</th><th>Role</th><th>Notes</th></tr>
-            <tr><td>Afferent arteriole</td><td>Delivers blood; tone controls inflow pressure (~60 mmHg hydrostatic)</td><td>Myogenic autoregulation; TGF signal from macula densa</td></tr>
-            <tr><td>Glomerular capillaries (8–10 loops)</td><td>Fenestrated filtration surface; high-pressure</td><td>Hydrostatic Pcap ~60 mmHg</td></tr>
-            <tr><td>Efferent arteriole</td><td>Drains filtered blood; tone controls outflow pressure + oncotic gradient</td><td>ACE inhibitors dilate efferent → ↓GFR acutely in bilateral RAS</td></tr>
-            <tr><td>Peritubular capillaries</td><td>Receive reabsorbed filtrate downstream</td><td>Low pressure, high oncotic pressure from concentrated blood</td></tr>
-            <tr><td>JG cells (afferent wall)</td><td>Granular cells secreting renin in response to low perfusion</td><td>Baroreceptor + macula densa NaCl sensor + sympathetic β1</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Ultrafiltration, Autoregulation, and RAAS</h3>
-          <p><strong>Net filtration pressure (Starling equation applied to glomerulus):</strong></p>
-          <div class="formula-block">
-            NFP = (Pcap − Pspace) − (πcap − πspace)
-                = (60 − 18) − (32 − 0) = +10 mmHg
-            <div class="formula-note">Pcap ≈ 60 mmHg (hydrostatic), Pspace ≈ 18 mmHg (tubular pressure), πcap ≈ 32 mmHg (oncotic), πspace ≈ 0 mmHg (protein-free filtrate). Filtration coefficient Kf = GFR / NFP ≈ 12.5 mL/min/mmHg.</div>
-          </div>
-          <p><strong>Freely filtered:</strong> water, Na⁺, K⁺, Cl⁻, HCO₃⁻, glucose, amino acids, urea, creatinine. <strong>Partially filtered:</strong> small peptides, β₂-microglobulin. <strong>Minimally filtered:</strong> albumin (~0.03%). <strong>Not filtered:</strong> red cells, platelets, large proteins, protein-bound drugs.</p>
-          <p><strong>GFR autoregulation</strong> maintains GFR within ±10% over MAP 80–180 mmHg through: (1) <em>Myogenic response</em> — afferent arteriole smooth muscle reflexively constricts when stretched by rising BP; (2) <em>Tubuloglomerular feedback (TGF)</em> — macula densa cells in the distal tubule sense NaCl delivery; high NaCl → adenosine + ATP release → afferent arteriole vasoconstriction → ↓GFR. Beyond this range, GFR tracks blood pressure: hypertension → hyperfiltration → glomerular injury; hypotension → prerenal azotaemia.</p>
-          <p><strong>RAAS activation via juxtaglomerular apparatus (JGA):</strong> ↓renal perfusion pressure / ↓tubular NaCl (macula densa) / sympathetic β1 → juxtaglomerular cells secrete <strong>renin</strong> → cleaves angiotensinogen (liver) → angiotensin I (inactive decapeptide) → ACE (lung endothelium) → <strong>angiotensin II</strong> → vasoconstriction (AT1R, ↑SVR + ↑efferent arteriole tone) + aldosterone secretion (ZG: ↑Na⁺ reabsorption, ↑K⁺ secretion) + ADH release → blood pressure correction.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Diabetic Nephropathy (Diabetic Glomerulosclerosis)</h4>
-            <p>Most common cause of end-stage renal disease (ESRD) in developed countries. Hyperglycaemia → advanced glycation end-products (AGEs), reactive oxygen species, PKC activation → GBM thickening, mesangial expansion, glomerulosclerosis (Kimmelstiel-Wilson nodules — pathognomonic nodular mesangial deposits). Microalbuminuria (30–300 mg/day albumin) → macroalbuminuria → ↓GFR. Glomerular hyperfiltration (early) → glomerular injury. Treatment: RAAS blockade (ACEi/ARB), SGLT2 inhibitors (↓hyperfiltration + renal protection), GLP-1 receptor agonists.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Nephrotic Syndrome (Glomerular Protein Loss)</h4>
-            <p>Proteinuria &gt;3.5 g/day + hypoalbuminaemia + oedema + hyperlipidaemia. Causes by age: children — minimal change disease (MCD: podocyte effacement on EM, no light microscopy changes; respond to steroids); adults — focal segmental glomerulosclerosis (FSGS: podocyte injury, scarring of some glomeruli; often steroid-resistant), membranous nephropathy (anti-PLA2R antibodies in 70% of primary; subepithelial immune complexes), diabetic nephropathy, amyloidosis. Podocyte loss → slit diaphragm disruption → massive proteinuria.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>IgA Nephropathy (Berger's Disease)</h4>
-            <p>Most common primary glomerulonephritis worldwide. Mesangial IgA₁ immune complex deposition (aberrantly glycosylated IgA₁ → IgA immune complexes → mesangial complement C3 activation) → mesangial inflammation → haematuria + proteinuria. Synpharyngitic haematuria (visible blood with upper respiratory infection). Oxford classification (MEST-C score). Treatment: RAAS blockade; immunosuppression for progressive disease; sparsentan (dual endothelin + angiotensin receptor antagonist) approved for IgAN.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Alport Syndrome</h4>
-            <p>X-linked (COL4A5 mutations, most common), autosomal recessive (COL4A3/COL4A4) defects in GBM collagen IV α3α4α5 chain → GBM structural abnormality (thinning initially → lamellation on EM) → progressive haematuria + proteinuria → ESRD (typically 2nd–4th decade in males with X-linked form). Sensorineural hearing loss and anterior lenticonus. Treatment: ACEi/ARB to slow progression; gene therapy in development.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Rapidly Progressive Glomerulonephritis (RPGN)</h4>
-            <p>Crescentic glomerulonephritis: parietal epithelial cell and macrophage proliferation fills Bowman's space (crescents) → renal failure within weeks. Three types: (1) anti-GBM disease (Goodpasture's — linear IgG on GBM, anti-α3 collagen IV; pulmonary haemorrhage), (2) immune-complex mediated (SLE lupus nephritis, post-streptococcal), (3) pauci-immune/ANCA-associated (GPA, MPA — c-ANCA/PR3 or p-ANCA/MPO). Treatment: pulse methylprednisolone + cyclophosphamide ± plasma exchange (anti-GBM); rituximab for ANCA-associated.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="kidney.html"><span class="rel">Part of</span>Kidney</a>
-            <a class="conn-pill part" href="renal-system.html"><span class="rel">Part of</span>Renal System</a>
-            <a class="conn-pill" href="podocyte.html"><span class="rel">Contains</span>Podocyte</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Connects to</span>Cardiovascular System</a>
-            <a class="conn-pill" href="albumin.html"><span class="rel">Retains</span>Albumin</a>
-            <a class="conn-pill damaged" href="sars-cov-2.html"><span class="rel">Damaged by</span>SARS-CoV-2</a>
-            <a class="conn-pill" href="collagen.html"><span class="rel">GBM composed of</span>Collagen IV</a>
+            <a class="conn-pill part" href="podocyte.html" title="Podocytes form the visceral (outer) epithelial layer of the glomerulus, providing the protein-selective slit diaphragm of the filtration barrier."><span class="rel">contains</span>Podocyte</a>
+            <a class="conn-pill part" href="kidney.html" title="Each glomerulus is part of a nephron within the kidney cortex; ~1 million glomeruli per adult kidney."><span class="rel">part-of</span>Kidney</a>
+            <a class="conn-pill part" href="renal-system.html" title="Glomeruli are the tissue-level filtration structures that collectively define the renal system's plasma-filtering capacity (GFR ~125 mL/min in adults)."><span class="rel">part-of</span>Renal System</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Glomerular filtration is driven by hydrostatic pressure from the renal artery (afferent arteriole ~60 mmHg); the cardiovascular system directly determines GFR."><span class="rel">connects-to</span>Cardiovascular System</a>
+            <a class="conn-pill damaged" href="sars-cov-2.html" title="SARS-CoV-2 causes glomerulonephritis, collapsing glomerulopathy, and AKI via direct endothelial injury, podocyte damage, and immune complex deposition."><span class="rel">damaged-by</span>Sars Cov 2</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Systemic blood pressure directly modulates glomerular hydrostatic pressure and GFR; hypertension causes glomerular hyperfiltration and eventual glomerulosclerosis."><span class="rel">modulated-by</span>Cardiovascular System</a>
+            <a class="conn-pill part" href="collagen.html" title="Composed Of by Collagen."><span class="rel">composed-of</span>Collagen</a>
+            <a class="conn-pill" href="complement-c3.html" title="Modulated by Complement C3."><span class="rel">modulated-by</span>Complement C3</a>
+            <a class="conn-pill" href="albumin.html" title="Modulated by Albumin."><span class="rel">modulated-by</span>Albumin</a>
+            <a class="conn-pill" href="factor-h.html" title="Glomerular endothelium is the primary target of CFH deficiency: fenestrated and blood-exposed → high complement pressure; CFH SCR19-20 mutations → C3b amplification on GE → TMA → aHUS; CFH also regulates complement on GBM → C3 glomerulopathy when dysregulated."><span class="rel">connects-to</span>Factor H</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Haraldsson B, Nystrom J, Deen WM. Properties of the glomerular barrier and mechanisms of proteinuria. <em>Physiol Rev.</em> 2008;88(2):451–87. <a href="https://doi.org/10.1152/physrev.00055.2006" target="_blank" rel="noopener">doi:10.1152/physrev.00055.2006</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18391170/" target="_blank" rel="noopener">PubMed 18391170</a></li>
-            <li>Hall JE. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. Ch. 26–27.</li>
-            <li>Tryggvason K, Patrakka J, Wartiovaara J. Hereditary proteinuria syndromes and mechanisms of proteinuria. <em>N Engl J Med.</em> 2006;354(13):1387–401. <a href="https://doi.org/10.1056/NEJMra052131" target="_blank" rel="noopener">doi:10.1056/NEJMra052131</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16571882/" target="_blank" rel="noopener">PubMed 16571882</a></li>
-            <li>Quaggin SE, Kreidberg JA. Development of the renal glomerulus: good neighbors and good fences. <em>Development.</em> 2008;135(4):609–20. <a href="https://doi.org/10.1242/dev.001081" target="_blank" rel="noopener">doi:10.1242/dev.001081</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18223199/" target="_blank" rel="noopener">PubMed 18223199</a></li>
+            <li><a href="https://doi.org/10.1152/physrev.00055.2006" target="_blank" rel="noopener noreferrer">Haraldsson B, Nystrom J, Deen WM. Properties of the glomerular barrier and mechanisms of proteinuria. Physiol Rev. 2008;88(2):451-87.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18391170/" target="_blank" rel="noopener noreferrer">PubMed 18391170</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021. Ch. 26-27.</a></li>
+            <li><a href="https://doi.org/10.1242/dev.001081" target="_blank" rel="noopener noreferrer">Quaggin SE, Kreidberg JA. Development of the renal glomerulus: good neighbors and good fences. Development. 2008;135(4):609-20.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18223199/" target="_blank" rel="noopener noreferrer">PubMed 18223199</a></li>
+            <li><a href="https://doi.org/10.1038/ki.1994.48" target="_blank" rel="noopener noreferrer">Kriz W, Hackenthal E, Nobiling R, Sakai T, Elger M, Hähnel B. A role for podocytes to counteract capillary wall distension. Kidney Int. 1994;45(2):369-76.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8164423/" target="_blank" rel="noopener noreferrer">PubMed 8164423</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMra052131" target="_blank" rel="noopener noreferrer">Tryggvason K, Patrakka J, Wartiovaara J. Hereditary proteinuria syndromes and mechanisms of proteinuria. N Engl J Med. 2006;354(13):1387-401.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16571882/" target="_blank" rel="noopener noreferrer">PubMed 16571882</a></li>
           </ul>
         </div>
 
@@ -223,15 +194,11 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="kidney.html">Kidney</a>
-      <a href="renal-system.html">Renal System</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.4rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

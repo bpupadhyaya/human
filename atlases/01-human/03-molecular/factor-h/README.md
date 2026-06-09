@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Uncontrolled alternative C3 convertase (from CFH deficiency) generates C3b → assembly of alternative C5 convertase (C3bBbC3b) → C5 cleavage → C5a (inflammation) + MAC (endothelial injury); eculizumab blocks C5 cleavage → prevents TMA in aHUS even without restoring CFH."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Factor H Y402H (SCR7; ~35% of Europeans) → reduced Bruch membrane heparan sulfate binding → local complement dysregulation → drusen accumulation → AMD; Y402H homozygotes have ~7× relative AMD risk; pegcetacoplan (C3 inhibitor) approved for geographic atrophy in AMD (FDA 2023)."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Glomerular endothelium is the primary target of CFH deficiency: fenestrated and blood-exposed → high complement pressure; CFH SCR19-20 mutations → C3b amplification on GE → TMA → aHUS; CFH also regulates complement on GBM → C3 glomerulopathy when dysregulated."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "Both PNH and aHUS involve alternative complement pathway dysregulation; PNH erythrocytes lack GPI-anchored CD55/CD59 → complement-mediated hemolysis; CFH deficiency drives aHUS endotheliopathy; eculizumab and ravulizumab treat both; iptacopan (Factor B inhibitor) for PNH."
 ---
 
 # Factor H
@@ -144,6 +153,9 @@ Glomerular endothelium is fenestrated (lacks continuous basement membrane covera
 - `connects-to` → **[Atypical HUS](../../07-system/ahus/README.md)** — CFH loss-of-function mutations (SCR19-20 clustering) impair surface C3b regulation on renal endothelium → uncontrolled alternative pathway → TMA; anti-CFH antibodies cause aHUS in ~6-10% (especially CFHR1-CFHR3 deletion); eculizumab/ravulizumab are curative.
 - `connects-to` → **[Complement C3](../complement-c3/README.md)** — Factor H accelerates decay of C3bBb (alternative C3 convertase) and acts as cofactor for Factor I-mediated C3b cleavage → iC3b; dysregulated alternative C3 convertase (CFH deficiency or C3NeF) → hypocomplementemia C3, aHUS, and C3 glomerulopathy.
 - `connects-to` → **[Complement C5](../complement-c5/README.md)** — Uncontrolled alternative C3 convertase (from CFH deficiency) generates C3b → assembly of alternative C5 convertase (C3bBbC3b) → C5 cleavage → C5a (inflammation) + MAC (endothelial injury); eculizumab blocks C5 cleavage → prevents TMA in aHUS even without restoring CFH.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Factor H Y402H (SCR7; ~35% of Europeans) → reduced Bruch membrane heparan sulfate binding → local complement dysregulation → drusen accumulation → AMD; Y402H homozygotes have ~7× relative AMD risk; pegcetacoplan (C3 inhibitor) approved for geographic atrophy in AMD (FDA 2023).
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Glomerular endothelium is the primary target of CFH deficiency: fenestrated and blood-exposed → high complement pressure; CFH SCR19-20 mutations → C3b amplification on GE → TMA → aHUS; CFH also regulates complement on GBM → C3 glomerulopathy when dysregulated.
+- `connects-to` → **[PNH](../../07-system/pnh/README.md)** — Both PNH and aHUS involve alternative complement pathway dysregulation; PNH erythrocytes lack GPI-anchored CD55/CD59 → complement-mediated hemolysis; CFH deficiency drives aHUS endotheliopathy; eculizumab and ravulizumab treat both; iptacopan (Factor B inhibitor) for PNH.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^chen-2010-cfh-y402h-amd]: Chen LJ, Liu DT, Tam PO, et al. Association of complement factor H polymorphisms with exudative age-related macular degeneration. *Ophthalmology.* 2006;113(3):516-519. [doi:10.1016/j.ophtha.2005.06.031](https://doi.org/10.1016/j.ophtha.2005.06.031) · [PubMed 17046868](https://pubmed.ncbi.nlm.nih.gov/17046868/)

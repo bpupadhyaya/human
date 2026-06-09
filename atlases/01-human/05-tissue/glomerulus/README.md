@@ -66,6 +66,9 @@ cross_links:
   - target: 01-human/03-molecular/albumin
     relation: modulated-by
     note: "Modulated by Albumin."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Glomerular endothelium is the primary target of CFH deficiency: fenestrated and blood-exposed → high complement pressure; CFH SCR19-20 mutations → C3b amplification on GE → TMA → aHUS; CFH also regulates complement on GBM → C3 glomerulopathy when dysregulated."
 ---
 
 # Glomerulus
@@ -167,6 +170,11 @@ The juxtaglomerular apparatus (JGA) — comprising juxtaglomerular cells + macul
 - **Connects to:** [Cardiovascular System](../../07-system/cardiovascular-system/README.md) — systemic BP drives filtration; RAAS from the glomerulus feeds back to the heart and vasculature.
 - **Modulated by:** [Cardiovascular System](../../07-system/cardiovascular-system/README.md) — hypertension accelerates glomerular injury; heart failure reduces perfusion → decreased GFR.
 - **Damaged by:** SARS-CoV-2 — collapsing glomerulopathy, thrombotic microangiopathy, AKI.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Glomerular endothelium is the primary target of CFH deficiency: fenestrated and blood-exposed → high complement pressure; CFH SCR19-20 mutations → C3b amplification on GE → TMA → aHUS; CFH also regulates complement on GBM → C3 glomerulopathy when dysregulated.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^haraldsson-2008-filtration-barrier]: Haraldsson B, Nystrom J, Deen WM. Properties of the glomerular barrier and mechanisms of proteinuria. *Physiol Rev.* 2008;88(2):451-87. [doi:10.1152/physrev.00055.2006](https://doi.org/10.1152/physrev.00055.2006) · [PubMed 18391170](https://pubmed.ncbi.nlm.nih.gov/18391170/)
 [^hall-guyton-14]: Hall JE. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. Ch. 26-27.
