@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "PI3K/AKT/mTOR activated in ~70% of endometrioid endometrial cancer (PTEN loss, PIK3CA ~40%, AKT1 E17K); everolimus+letrozole → 32% clinical benefit in ER+ disease; lenvatinib+pembrolizumab (KEYNOTE-146) active in non-MSI-H recurrent endometrial cancer."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Unopposed estrogen drives endometrial hyperplasia → EIN → type 1 endometrioid cancer; obesity → adipose aromatase → androgen-to-estrogen conversion → ~3× EC risk at BMI >30; aromatase inhibitors active in ER+ endometrial cancer; combined HRT (with progestogen) prevents EC risk."
 ---
 
 # Endometrial Cancer
@@ -164,6 +167,7 @@ cross_links:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — dMMR/MSI-H endometrial cancer (~25-30%) responds to pembrolizumab; KEYNOTE-158 ORR 57% in dMMR endometrial; dostarlimab FDA approved 2021 for dMMR recurrent endometrial; RUBY trial (dostarlimab+carboplatin/paclitaxel) improved OS in dMMR subset; PD-1 blockade is standard for dMMR recurrent disease.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — ERBB2 (HER2) amplification in ~30% of uterine serous carcinoma (USC) and carcinosarcoma; trastuzumab + carboplatin/paclitaxel improved PFS vs. chemo alone (phase II, Fader 2018); HER2-positive USC is an actionable subset; T-DXd studied in HER2-low endometrial cancer; HER2 testing recommended for serous histology.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K/AKT/mTOR pathway activated in ~70% of endometrioid endometrial cancer via PTEN loss, PIK3CA mutation (~40%), or AKT1 E17K (~5%); everolimus + letrozole showed 32% clinical benefit rate in ER+ endometrial cancer; lenvatinib + pembrolizumab (KEYNOTE-146) active in non-MSI-H recurrent endometrial cancer.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Unopposed estrogen drives endometrial hyperplasia → EIN → type 1 endometrioid cancer; obesity → adipose aromatase → androgen-to-estrogen conversion → ~3× EC risk at BMI >30; aromatase inhibitors active in ER+ endometrial cancer; combined HRT (with progestogen) prevents EC risk.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

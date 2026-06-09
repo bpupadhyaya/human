@@ -199,6 +199,9 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "AR and ERα in hypothalamus/limbic cortex mediate testosterone effects on libido, aggression, and mood; aromatization to estradiol required for male brain masculinization; testosterone deficiency → depressive symptoms and cognitive slowing; hippocampal AR regulates BDNF."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "ERα in hippocampus promotes synaptic plasticity and BDNF; hippocampal aromatase (CYP19A1) produces local estradiol; estrogen deficiency → cognitive decline; estrogen neuroprotection established in animal models but the HRT critical-window hypothesis remains unproven clinically."
 ---
 
 # Brain
@@ -309,6 +312,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `secretes` → **[Prolactin](../../03-molecular/prolactin/README.md)** — anterior pituitary lactotrophs (~15% of cells) secrete prolactin under hypothalamic TIDA dopaminergic inhibition; PRLR is expressed in hippocampus and cortex (neuroplasticity); hypothyroidism raises TRH → cross-stimulates lactotrophs → secondary hyperprolactinemia; prolactinoma is the most common pituitary adenoma.
 - `secretes` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — pituitary somatotrophs (~50% of anterior pituitary) secrete GH under GHRH and somatostatin control; GH pulsatility peaks during the first SWS episode within 1 hour of sleep onset; GH-secreting adenoma (acromegaly) is treated surgically by transsphenoidal adenomectomy first-line.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — AR and ERα in hypothalamus/limbic cortex mediate testosterone effects on libido, aggression, and mood; aromatization to estradiol required for male brain masculinization; testosterone deficiency → depressive symptoms and cognitive slowing; hippocampal AR regulates BDNF.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — ERα in hippocampus promotes synaptic plasticity and BDNF; hippocampal aromatase (CYP19A1) produces local estradiol; estrogen deficiency → cognitive decline; estrogen neuroprotection established in animal models but the HRT critical-window hypothesis remains unproven clinically.
 
 ## Pathology
 

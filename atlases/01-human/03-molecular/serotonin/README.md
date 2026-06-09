@@ -120,6 +120,9 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: modulates
     note: "5-HT2A and 5-HT2B receptors on pituitary lactotrophs stimulate prolactin release; SSRI-induced serotonin excess causes galactorrhea in 2-5% of users; 5-HT-mediated prolactin elevation is a pharmacodynamic marker of brain serotonin activity."
+  - target: 01-human/03-molecular/estrogen
+    relation: modulated-by
+    note: "Estrogen upregulates TPH2 and 5-HT1A density in raphe nuclei; estradiol enhances SERT downregulation by SSRIs; estrogen withdrawal at menopause → 5-HT decline → perimenopausal depression; transdermal estradiol has antidepressant efficacy in perimenopausal MDD."
 ---
 
 # Serotonin
@@ -252,6 +255,7 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — SSRIs and SNRIs suppress cataplexy via monoamine reuptake inhibition reducing pontine REM-on circuit activity; clomipramine (potent SERT inhibitor) is the most effective anticataplectic antidepressant; abrupt discontinuation can precipitate status cataplecticus; sodium oxybate consolidates sleep partly via complex serotonergic mechanisms.
 - `modulates` → **[Melatonin](../melatonin/README.md)** — pineal serotonin (synthesized by TPH1) is the direct substrate for melatonin synthesis: AANAT (dark-activated via NE/β1/cAMP from the superior cervical ganglion) converts serotonin → N-acetylserotonin; ASMT methylates it to melatonin; daytime serotonin availability constrains nocturnal melatonin production — tryptophan depletion and TPH inhibition reduce melatonin output.
 - `modulates` → **[Prolactin](../prolactin/README.md)** — 5-HT2A and 5-HT2B receptors on pituitary lactotrophs stimulate prolactin release; SSRI-induced serotonin excess causes galactorrhea in 2-5% of users; 5-HT-mediated prolactin elevation is a pharmacodynamic marker of CNS serotonin activity, used in neuroendocrine challenge tests.
+- `modulated-by` → **[Estrogen](../estrogen/README.md)** — Estrogen upregulates TPH2 and 5-HT1A density in raphe nuclei; estradiol enhances SERT downregulation by SSRIs; estrogen withdrawal at menopause → 5-HT decline → perimenopausal depression; transdermal estradiol has antidepressant efficacy in perimenopausal MDD.
 
 ## Pathology
 

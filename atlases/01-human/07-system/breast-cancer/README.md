@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) + AI are standard-of-care first-line for HR+/HER2- metastatic breast cancer; ribociclib + letrozole improved OS to 63.9 vs. 51.4 months (MONALEESA-2); abemaciclib is approved adjuvantly for high-risk early-stage disease."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "ERα (ESR1) drives ~70-75% of breast cancers; aromatase inhibitors (anastrozole, letrozole) are first-line adjuvant for postmenopausal ER+ disease; fulvestrant (SERD) degrades ERα; ESR1 LBD mutations (D538G, Y537S) cause AI resistance in metastatic HR+ disease."
 ---
 
 # Breast Cancer
@@ -153,6 +156,7 @@ cross_links:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutations in 30-40% of HR+/HER2- breast cancer → PI3K-AKT-mTOR → endocrine therapy resistance; alpelisib + fulvestrant is approved for PIK3CA-mutant HR+/HER2- metastatic breast cancer (SOLAR-1, PFS 11.0 vs. 5.7 months).
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BRCA1 germline mutations confer ~70% lifetime breast cancer risk (predominantly TNBC); BRCA1 loss → HR deficiency → PARP inhibitor sensitivity; olaparib (OlympiAD) and talazoparib (EMBRACA) approved for BRCA1/2-mutant HER2-negative metastatic breast cancer.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) + AI are standard-of-care first-line for HR+/HER2- metastatic breast cancer; ribociclib + letrozole improved OS to 63.9 vs. 51.4 months (MONALEESA-2); abemaciclib approved adjuvantly for high-risk early-stage HR+ disease.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — ERα (ESR1) drives ~70-75% of breast cancers; aromatase inhibitors (anastrozole, letrozole) are first-line adjuvant for postmenopausal ER+ disease; fulvestrant (SERD) degrades ERα; ESR1 LBD mutations (D538G, Y537S) cause AI resistance in metastatic HR+ disease.
 
 [^siegel-2024-cancer-statistics]: Siegel RL, Giaquinto AN, Jemal A. Cancer statistics, 2024. *CA Cancer J Clin.* 2024;74(1):12-49. [doi:10.3322/caac.21820](https://doi.org/10.3322/caac.21820) · [PubMed 38230766](https://pubmed.ncbi.nlm.nih.gov/38230766/)
 [^slamon-2001-trastuzumab-trial]: Slamon DJ, Leyland-Jones B, Shak S, et al. Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2. *N Engl J Med.* 2001;344(11):783-792. [doi:10.1056/NEJM200103153441101](https://doi.org/10.1056/NEJM200103153441101) · [PubMed 11248153](https://pubmed.ncbi.nlm.nih.gov/11248153/)

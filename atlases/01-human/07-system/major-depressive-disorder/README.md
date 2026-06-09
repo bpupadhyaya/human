@@ -58,6 +58,9 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Male hypogonadism (T <300 ng/dL) predicts MDD risk; testosterone deficiency causes fatigue, anhedonia, and low libido indistinguishable from MDD; TRT has adjunctive antidepressant efficacy in hypogonadal men; SSRI-treated men with residual anhedonia benefit from TRT augmentation."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Perimenopausal estrogen fluctuations trigger or worsen MDD; transdermal estradiol (100 mcg/day patch) has antidepressant efficacy in perimenopausal women; PMDD involves abnormal CNS sensitivity to allopregnanolone (progesterone metabolite) fluctuations, not estrogen deficiency."
 ---
 
 # Major Depressive Disorder
@@ -224,6 +227,8 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Prolactin](../../../03-molecular/prolactin/README.md)** — antipsychotic-induced hyperprolactinemia causes sexual dysfunction and anhedonia driving non-adherence; postpartum prolactin dynamics (peaking at delivery then falling) may modulate MDD vulnerability via dopaminergic systems; cabergoline has shown adjunctive antidepressant effects in small trials.
 
 - `connects-to` → **[Testosterone](../../../03-molecular/testosterone/README.md)** — Male hypogonadism (T <300 ng/dL) predicts MDD risk; testosterone deficiency causes fatigue, anhedonia, and low libido indistinguishable from MDD; TRT has adjunctive antidepressant efficacy in hypogonadal men; SSRI-treated men with residual anhedonia benefit from TRT augmentation.
+
+- `connects-to` → **[Estrogen](../../../03-molecular/estrogen/README.md)** — Perimenopausal estrogen fluctuations trigger or worsen MDD; transdermal estradiol (100 mcg/day patch) has antidepressant efficacy in perimenopausal women; PMDD involves abnormal CNS sensitivity to allopregnanolone (progesterone metabolite) fluctuations, not estrogen deficiency.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

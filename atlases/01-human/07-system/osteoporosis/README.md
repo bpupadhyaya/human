@@ -58,6 +58,9 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Male hypogonadism (T <300 ng/dL) is a leading cause of secondary male osteoporosis; testosterone maintains BMD via AR on osteoblasts and aromatization to estradiol; ADT causes 2-5% BMD loss/year; denosumab or zoledronate co-administered with ADT prevents fractures."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen deficiency at menopause → reduced OPG → RANKL excess → osteoclast hyperactivation → 3-5% trabecular bone loss/year; HRT reduces fracture risk ~35%; SERMs (raloxifene) preserve bone without uterine stimulation; bisphosphonates preferred over HRT for fracture prevention."
 ---
 
 # Osteoporosis
@@ -179,6 +182,7 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — RANKL (TNFSF11) from osteoblasts/T cells → RANK on osteoclast precursors → TRAF6 → NF-κB → NFATc1 → osteoclast differentiation; OPG decoy ratio governs bone mass; denosumab (anti-RANKL) → 68% vertebral and 40% hip fracture risk reduction (FREEDOM trial).
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Sclerostin (SOST) from osteocytes → LRP5/6 Wnt antagonism → osteoblast suppression → net bone loss; mechanical loading suppresses sclerostin → anabolic response; romosozumab (anti-sclerostin) → +13% lumbar spine BMD at 12 months; 73% vertebral fracture RRR (FRAME).
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Male hypogonadism (T <300 ng/dL) is a leading cause of secondary male osteoporosis; testosterone maintains BMD via AR on osteoblasts and aromatization to estradiol; ADT causes 2-5% BMD loss/year; denosumab or zoledronate co-administered with ADT prevents fractures.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen deficiency at menopause → reduced OPG → RANKL excess → osteoclast hyperactivation → 3-5% trabecular bone loss/year; HRT reduces fracture risk ~35%; SERMs (raloxifene) preserve bone without uterine stimulation; bisphosphonates preferred over HRT for fracture prevention.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
