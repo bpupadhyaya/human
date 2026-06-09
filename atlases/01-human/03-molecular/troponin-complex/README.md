@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/01-subatomic/electron
     relation: modulated-by
     note: "Electron configuration and electrostatics govern the Ca²⁺–EF-hand coordination chemistry and the phosphoanhydride energy that drives SERCA Ca²⁺ reuptake."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Troponin complex is the molecular effector of cardiac contraction: TnC Ca²⁺ binding → TnI release → tropomyosin repositioning → actin-myosin cross-bridge cycling; PKA-mediated TnI Ser23/24 phosphorylation → ↓Ca²⁺ sensitivity → faster relaxation under β-adrenergic stimulation."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "High-sensitivity cTn is elevated in HF proportional to ventricular remodeling severity; persistent cTn elevation in HFrEF reflects ongoing cardiomyocyte injury and predicts mortality; cTn elevation in acute decompensated HF and myocarditis reflects inflammation-driven release."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "cTnI and cTnT are elevated in 40-85% of septic patients reflecting cardiomyocyte injury from hypoperfusion, inflammatory cytokines, and ROS; sepsis-induced cardiomyopathy causes new LV dysfunction; troponin elevation in sepsis independently predicts ICU mortality."
 taxonomy:
   uniprot: "P63316,P19429,P45379"
   gene_symbol: "TNNC1,TNNI3,TNNT2"
@@ -152,9 +161,13 @@ Together with PKA's effects on phospholamban and Cav1.2, TnI phosphorylation let
 
 ## Connections
 
-- **Up (containing cell):** the troponin complex is `part-of` the **[cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)**, where it sits on every thin filament of every sarcomere.
-- **Sideways (interactions):** binds tropomyosin (a separate thin-filament regulator), is regulated by free Ca²⁺ (released from the sarcoplasmic reticulum during EC coupling), and is phosphorylated by **PKA** — the kinase activated downstream of [β1-adrenergic receptor](beta1-adrenergic-receptor/README.md) signaling. Entries to come.
-- **Cross-atlas:** cardiac troponin (specifically cTnI and cTnT) is the **diagnostic biomarker** for myocardial infarction; entries describing MI and the troponin assay will reside in the Pathology / Clinical Atlases (planned).
+- `expressed-by` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Cardiac troponin isoforms (TnC/TNNC1, TnI/TNNI3, TnT/TNNT2) are expressed by cardiomyocytes and assembled onto every thin filament; cTnI and cTnT are released from necrotic cardiomyocytes in MI or myocardial injury.
+- `modulated-by` → **[Calcium](../../02-atomic/calcium/README.md)** — Ca²⁺ binding to TnC site II (low-affinity regulatory EF-hand) gates every heartbeat; SERCA reuptake to SR resets the troponin switch for the next beat; TnC Ca²⁺ sensitivity is modulated by TnI PKA phosphorylation.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — Troponin complex is the molecular effector of cardiac contraction: TnC Ca²⁺ binding → TnI release → tropomyosin repositioning → actin-myosin cross-bridge cycling; PKA-mediated TnI Ser23/24 phosphorylation → ↓Ca²⁺ sensitivity → faster relaxation under β-adrenergic stimulation.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — High-sensitivity cTn is elevated in HF proportional to ventricular remodeling severity; persistent cTn elevation in HFrEF reflects ongoing cardiomyocyte injury and predicts mortality; cTn elevation in acute decompensated HF and myocarditis reflects inflammation-driven release.
+- `connects-to` → **[Sepsis](../../07-system/sepsis/README.md)** — cTnI and cTnT are elevated in 40-85% of septic patients reflecting cardiomyocyte injury from hypoperfusion, inflammatory cytokines, and ROS; sepsis-induced cardiomyopathy causes new LV dysfunction; troponin elevation in sepsis independently predicts ICU mortality.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 ## Pathology
 

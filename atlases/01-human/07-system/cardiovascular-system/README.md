@@ -234,6 +234,9 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "CCL2/CCR2 drives monocyte infiltration into atherosclerotic plaques and adventitial macrophage accumulation; elevated serum CCL2 predicts MACE in EPIC/MRFIT cohorts; CCR2 blockade reduces plaque and improves cardiac function post-MI in murine models."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Troponin complex is the molecular effector of cardiac contraction: TnC Ca²⁺ binding → TnI release → tropomyosin repositioning → actin-myosin cross-bridge cycling; PKA-mediated TnI Ser23/24 phosphorylation → ↓Ca²⁺ sensitivity → faster relaxation under β-adrenergic stimulation."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -388,6 +391,7 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[HCN4](../../03-molecular/hcn4/README.md)** — HCN4 (funny channel) is the dominant SA node pacemaker current; cAMP directly gates HCN4 → transduces sympathetic (+10 mV shift) and vagal (-10 mV shift) chronotropic control; ivabradine (HCN4 blocker) reduces HR without negative inotropy; approved in HFrEF with HR >70 bpm.
 - `connects-to` → **[RyR2](../../03-molecular/ryr2/README.md)** — RyR2 CICR amplifies the L-type Ca²⁺ trigger into cardiac contraction (~75% of Ca²⁺ transient is SR-derived); PKA and CaMKII tune RyR2 gain for sympathetic inotropy; CaMKII hyperactivation in HF → diastolic RyR2 leak → arrhythmia; RYR2 GOF mutations cause CPVT.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2/CCR2 drives monocyte infiltration into atherosclerotic plaques and adventitial macrophage accumulation; elevated serum CCL2 predicts MACE in EPIC/MRFIT cohorts; CCR2 blockade reduces plaque and improves cardiac function post-MI in murine models.
+- `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — Troponin complex is the molecular effector of cardiac contraction: TnC Ca²⁺ binding → TnI release → tropomyosin repositioning → actin-myosin cross-bridge cycling; PKA-mediated TnI Ser23/24 phosphorylation → ↓Ca²⁺ sensitivity → faster relaxation under β-adrenergic stimulation.
 
 ## Pathology
 

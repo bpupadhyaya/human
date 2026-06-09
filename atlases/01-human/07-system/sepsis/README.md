@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Ang-2 released from Weibel-Palade bodies in sepsis → Tie2 destabilization → VE-cadherin cleavage → vascular hyperpermeability → organ edema; plasma Ang-2 >10 ng/mL on day 1 predicts ICU mortality; high Ang-2/Ang-1 ratio defines the severe vascular leak phenotype."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "cTnI and cTnT are elevated in 40-85% of septic patients reflecting cardiomyocyte injury from hypoperfusion, inflammatory cytokines, and ROS; sepsis-induced cardiomyopathy causes new LV dysfunction; troponin elevation in sepsis independently predicts ICU mortality."
 ---
 
 # Sepsis
@@ -170,6 +173,7 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4/LPS triggers gram-negative sepsis: LPS-MD-2-CD14 → TLR4 → MyD88 (NF-κB: cytokine storm) + TRIF (IRF3: IFN-β); TLR4 Asp299Gly/Thr399Ile SNPs → altered sepsis risk; OxLDL activates TLR4 → sterile inflammation; TAK-242 (TLR4 antagonist) failed Phase III sepsis trials.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — IL-10 mediates the immunosuppressive phase of sepsis: inflammatory peak → IL-10 surge → macrophage STAT3 → ↓TNF-α, ↓IL-1β, ↓IL-12 → immunoparalysis → secondary nosocomial infections; elevated day-1 IL-10 predicts mortality; PD-1/PD-L1 co-upregulation amplifies immunosuppression.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 released from Weibel-Palade bodies in sepsis → Tie2 destabilization → VE-cadherin cleavage → vascular hyperpermeability → organ edema; plasma Ang-2 >10 ng/mL on day 1 predicts ICU mortality; high Ang-2/Ang-1 ratio defines the severe vascular leak phenotype.
+- `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — cTnI and cTnT are elevated in 40-85% of septic patients reflecting cardiomyocyte injury from hypoperfusion, inflammatory cytokines, and ROS; sepsis-induced cardiomyopathy causes new LV dysfunction; troponin elevation in sepsis independently predicts ICU mortality.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
