@@ -58,6 +58,9 @@ cross_links:
   - target: 01-human/03-molecular/snca
     relation: connects-to
     note: "Alpha-synuclein (SNCA) and amyloid-β co-aggregate in DLB, an AD/PD overlap syndrome; SNCA Lewy pathology accelerates tau spreading via prion-like mechanisms; ~10-15% of AD patients have concurrent Lewy body pathology; alpha-synuclein SAA distinguishes DLB from AD."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin production declines in Alzheimer disease due to SCN atrophy; disrupted circadian rhythm → sundowning (late-day agitation); exogenous melatonin (0.5-6 mg bedtime) modestly improves AD sleep; melatonin is antioxidant and reduces Aβ aggregation in preclinical models."
 ---
 
 # Alzheimer's Disease
@@ -170,6 +173,7 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — DLB is commonly mistaken for AD; 50-70% of DLB cases have concurrent Aβ plaque and tau co-pathology; both share APOE4 risk; fatal neuroleptic sensitivity in DLB (~50%) is critical to distinguish from AD where antipsychotics are used; occipital FDG-PET hypometabolism and DAT-SPECT distinguish DLB from AD.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β hyperactivation in AD hippocampus phosphorylates tau at PHF-1 (Ser396/404) and Thr231 → neurofibrillary tangles; promotes amyloid-β via APP processing; insulin resistance activates GSK-3β; the GSK-3β inhibitor tideglusib failed Phase 2 AD trials in 2013.
 - `connects-to` → **[SNCA](../../03-molecular/snca/README.md)** — alpha-synuclein (SNCA) and amyloid-β co-aggregate in DLB, an AD/PD overlap syndrome; SNCA Lewy pathology accelerates tau spreading via prion-like mechanisms; ~10-15% of AD patients have concurrent Lewy body pathology; alpha-synuclein SAA distinguishes DLB from AD.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin production declines in Alzheimer disease due to SCN atrophy; disrupted circadian rhythm → sundowning (late-day agitation); exogenous melatonin (0.5-6 mg bedtime) modestly improves AD sleep; melatonin is antioxidant and reduces Aβ aggregation in preclinical models.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

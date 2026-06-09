@@ -46,6 +46,18 @@ cross_links:
   - target: 01-human/07-system/narcolepsy
     relation: connects-to
     note: "Melatonin timing is disrupted in narcolepsy type 1 due to orexin neuron loss and sleep-wake switch instability; circadian-timed melatonin modestly improves sleep consolidation; MT1/MT2 agonists (ramelteon) are used adjunctively for circadian realignment."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Seasonal affective disorder (winter depression) involves delayed circadian phase and abnormal melatonin timing; agomelatine (MT1/MT2 agonist + 5-HT2C antagonist) is an approved antidepressant with circadian phase-advancing effects; light therapy resets SCN/melatonin phase in SAD."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Melatonin production declines in Alzheimer disease due to SCN atrophy; disrupted circadian rhythm → sundowning (late-day agitation); exogenous melatonin (0.5-6 mg bedtime) modestly improves AD sleep; melatonin is antioxidant and reduces Aβ aggregation in preclinical models."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "MTNR1B rs10830963 impairs beta-cell MT2 inhibition of insulin → elevated fasting glucose → T2DM risk; melatonin suppresses nocturnal insulin secretion; high-dose melatonin reduces insulin sensitivity in susceptible individuals; MT2 agonists under investigation for T2DM."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Circadian disruption (night-shift work, social jet lag) → disrupted melatonin → leptin resistance → 40% higher obesity risk; light at night suppresses melatonin → metabolic dysregulation; MTNR1B variants modulate BMI; melatonin reduces adiposity in rodent models."
 ---
 
 # Melatonin
@@ -162,6 +174,10 @@ This explains why **blue light from screens in the evening** suppresses melatoni
 - `modulated-by` → **[Norepinephrine](../norepinephrine/README.md)** — NE from superior cervical ganglion (SCN-driven) activates pineal β1-adrenergic receptors → cAMP → PKA → AANAT → nocturnal melatonin synthesis; light suppresses SCN→SCG NE drive → AANAT collapse → melatonin suppression; NE is the essential permissive dark-phase signal for melatonin production.
 
 - `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — melatonin secretion timing and amplitude are disrupted in narcolepsy type 1 due to orexin neuron loss and sleep-wake switch instability; melatonin supplements at the appropriate circadian phase modestly improve sleep consolidation; MT1/MT2 agonists (ramelteon) are occasionally used adjunctively for circadian realignment in narcolepsy.
+- `connects-to` → **[Major Depressive Disorder](../../07-system/major-depressive-disorder/README.md)** — Seasonal affective disorder (winter depression) involves delayed circadian phase and abnormal melatonin timing; agomelatine (MT1/MT2 agonist + 5-HT2C antagonist) is an approved antidepressant with circadian phase-advancing effects; light therapy resets SCN/melatonin phase in SAD.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — Melatonin production declines in Alzheimer disease due to SCN atrophy; disrupted circadian rhythm → sundowning (late-day agitation); exogenous melatonin (0.5-6 mg bedtime) modestly improves AD sleep; melatonin is antioxidant and reduces Aβ aggregation in preclinical models.
+- `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — MTNR1B rs10830963 impairs beta-cell MT2 inhibition of insulin → elevated fasting glucose → T2DM risk; melatonin suppresses nocturnal insulin secretion; high-dose melatonin reduces insulin sensitivity in susceptible individuals; MT2 agonists under investigation for T2DM.
+- `connects-to` → **[Obesity](../../07-system/obesity/README.md)** — Circadian disruption (night-shift work, social jet lag) → disrupted melatonin → leptin resistance → 40% higher obesity risk; light at night suppresses melatonin → metabolic dysregulation; MTNR1B variants modulate BMI; melatonin reduces adiposity in rodent models.
 
 ## Pathology
 
