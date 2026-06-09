@@ -15,6 +15,18 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "Romosozumab (anti-sclerostin) derepresses osteoblast Wnt → increased OPG secretion → reduced RANKL signaling → modest antiresorptive effect in addition to its dominant anabolic action; sclerostin blockade is the only approved therapy combining bone formation and antiresorption."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Romosozumab ARCH trial: MACE increase vs. alendronate (2.5% vs. 1.9%) → FDA Black Box Warning (avoid within 12 months of MI/stroke); sclerostin in vascular smooth muscle may protect against calcification; elevated sclerostin predicts CV events in dialysis patients."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "T2DM → elevated sclerostin via AGE accumulation in osteocyte lacuno-canalicular network; contributes to impaired bone quality despite normal BMD; diabetic patients have higher fracture risk at any given BMD due to sclerostin-mediated osteoblast suppression."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Dialysis patients have elevated sclerostin from impaired renal clearance + uremic Wnt suppression → adynamic bone disease; elevated sclerostin correlates with vascular calcification and mortality in CKD; romosozumab not approved in severe CKD due to CV risk."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "MM-secreted DKK1 and osteocyte sclerostin synergistically block osteoblast Wnt → uncoupled osteolysis; sclerostin inhibition in MM preclinical models restores osteoblast function and reduces lytic lesions; anti-DKK1 antibody (BHQ880) is in clinical trials for MM bone disease."
 sources:
   - id: li-2005-sost-cloning
     type: peer-reviewed
@@ -125,6 +137,10 @@ RANKL (TNFSF11) from osteoblasts/T cells → RANK on osteoclast precursors → T
 
 - `connects-to` → **[Osteoporosis](../../07-system/osteoporosis/README.md)** — Sclerostin from osteocytes → LRP5/6 Wnt antagonism → osteoblast suppression → bone loss; romosozumab (anti-sclerostin, 210 mg SC Q1M × 12 months) derepresses Wnt → bone formation surge; FRAME: 73% RRR vertebral fractures; ARCH: 48% fewer vertebral vs. alendronate.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Romosozumab (anti-sclerostin) derepresses osteoblast Wnt → increased OPG secretion → reduced RANKL signaling → modest antiresorptive effect in addition to its dominant anabolic action; sclerostin blockade is the only approved therapy combining bone formation and antiresorption.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — romosozumab ARCH trial showed MACE increase vs. alendronate (2.5% vs. 1.9%) → FDA Black Box Warning (avoid within 12 months of MI/stroke); sclerostin in vascular smooth muscle may protect against vascular calcification; elevated sclerostin predicts CV events in dialysis.
+- `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — T2DM → elevated sclerostin via AGE accumulation in osteocyte lacuno-canalicular network; contributes to impaired bone quality despite normal BMD; diabetic patients have higher fracture risk at any given BMD due to sclerostin-mediated osteoblast suppression.
+- `connects-to` → **[CKD](../../07-system/ckd/README.md)** — dialysis patients have elevated sclerostin from impaired renal clearance + uremic Wnt suppression → adynamic bone disease; elevated sclerostin correlates with vascular calcification and mortality in CKD; romosozumab is not approved in severe CKD due to CV risk.
+- `connects-to` → **[Multiple Myeloma](../../07-system/multiple-myeloma/README.md)** — MM-secreted DKK1 and osteocyte sclerostin synergistically block osteoblast Wnt → uncoupled osteolysis; sclerostin inhibition in MM preclinical models restores osteoblast function and reduces lytic lesions; anti-DKK1 antibody (BHQ880) is in clinical trials for MM bone disease.
 
 [^li-2005-sost-cloning]: Li X, Zhang Y, Kang H, et al. Sclerostin binds to LRP5/6 and antagonizes canonical Wnt signaling. *J Biol Chem.* 2005;280(20):19883-19887. [doi:10.1074/jbc.M413274200](https://doi.org/10.1074/jbc.M413274200) · [PubMed 15778503](https://pubmed.ncbi.nlm.nih.gov/15778503/)
 [^cosman-2016-romosozumab-frame]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
