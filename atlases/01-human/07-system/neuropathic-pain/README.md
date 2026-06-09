@@ -30,6 +30,9 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "FM and neuropathic pain share central sensitization (NMDA wind-up, descending inhibition failure) but differ: neuropathic pain requires nerve injury while FM is nociplastic; both respond to SNRIs and α2δ ligands; small fiber neuropathy co-occurs in ~40% of FM patients."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Spinal microglia drive neuropathic pain: nerve injury → P2X4R/P2X7R → p38 MAPK → BDNF secretion → neuronal TrkB → KCC2 downregulation → GABA becomes depolarizing → allodynia; minocycline (microglial inhibitor) attenuates pain in rodent neuropathy models."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -196,6 +199,8 @@ Chronic neuropathic pain carries significant psychological burden:
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — neuropathic pain involves thalamic sensitization (reduced thalamic inhibition), ACC and posterior insula hyperactivation to pain stimuli, and maladaptive somatosensory cortex reorganization; chronic neuropathic pain reduces gray matter in ACC and dlPFC; effective treatment (SCS, mirror therapy) can partially reverse cortical reorganization.
 
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — FM and neuropathic pain share central sensitization mechanisms (SP-NMDA wind-up, descending inhibition failure, allodynia) but differ in origin: neuropathic pain requires a demonstrable nerve lesion while FM is classified as nociplastic pain; both respond to SNRIs (duloxetine) and α2δ VGCC ligands (pregabalin, gabapentin); small fiber neuropathy co-occurs in ~30–50% of FM patients, bridging the two categories.
+
+- `connects-to` → **[Microglia](../../../04-cellular/microglia/README.md)** — spinal microglia are the key cellular driver of neuropathic pain: peripheral nerve injury activates microglial P2X4R → p38 MAPK phosphorylation → BDNF secretion into the dorsal horn → TrkB on lamina I neurons → KCC2 downregulation → GABA depolarizing rather than inhibitory → allodynia; CSF1R inhibitors (PLX5622, PLX3397) that ablate microglia prevent and reverse allodynia in multiple rodent neuropathy models.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

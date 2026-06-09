@@ -32,6 +32,12 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: modulates
     note: "Microglial NLRP3 inflammasome (Aβ, ATP, α-synuclein, uric acid) → caspase-1 → IL-1β/IL-18 → neuroinflammatory cascade; chronic neuroinflammation underlies ALS, AD, PD, TBI, and MS disease progression."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Spinal microglia are activated by nerve injury via P2X4R/P2X7R → BDNF release → neuronal TrkB → KCC2 downregulation → GABA becomes depolarizing → allodynia; microglial p38 MAPK drives BDNF secretion; minocycline attenuates neuropathic pain in rodent models."
+  - target: 01-human/03-molecular/bdnf
+    relation: modulates
+    note: "Activated spinal microglia release BDNF via P2X4R-p38 MAPK after nerve injury; microglial BDNF acts on neuronal TrkB → KCC2 downregulation → GABA depolarizing → allodynia; microglia also express TrkB and are BDNF targets in homeostasis."
 ---
 
 # Microglia
@@ -119,10 +125,12 @@ AD GWAS risk genes are strongly enriched in microglia: *TREM2* (R47H → 3× AD 
 
 ## Connections
 
-- **Part of:** [brain](../../06-organ/brain/README.md) — microglia are CNS-resident macrophages (5–20% of cells); maintained by self-renewal via CSF1R/IL-34; surveillance rate ~1000 µm³/min; amoeboid on activation.
-- **Modulates:** [neuron](../neuron/README.md) — synaptic pruning (C1q/C3-tagged synapses via CR3); BDNF/IGF-1 support in homeostasis; TNF-α, IL-1β, ROS, iNOS-NO → neuronal damage in AD, PD, TBI; TREM2-driven DAM phagocytose Aβ.
-- **Modulates:** [synapse](../../05-tissue/synapse/README.md) — complement-mediated pruning (C1q/C3 tag inactive synapses → CR3 on microglia → engulfment); critical for circuit refinement in CNS development; aberrant pruning underlies early synaptic loss in AD.
-- **Modulates:** [nervous-system](../../07-system/nervous-system/README.md) — NLRP3 inflammasome → caspase-1 → IL-1β/IL-18 → neuroinflammatory cascade; chronic neuroinflammation underlies AD, PD, ALS, TBI, and MS disease progression.
+- `part-of` → **[Brain](../../06-organ/brain/README.md)** — microglia are CNS-resident macrophages (5–20% of cells); maintained by self-renewal via CSF1R/IL-34; surveillance rate ~1000 µm³/min; amoeboid on activation.
+- `modulates` → **[Neuron](../neuron/README.md)** — synaptic pruning (C1q/C3-tagged synapses via CR3); BDNF/IGF-1 support in homeostasis; TNF-α, IL-1β, ROS, iNOS-NO → neuronal damage in AD, PD, TBI; TREM2-driven DAM phagocytose Aβ.
+- `modulates` → **[Synapse](../../05-tissue/synapse/README.md)** — complement-mediated pruning (C1q/C3 tag inactive synapses → CR3 on microglia → engulfment); critical for circuit refinement in CNS development; aberrant pruning underlies early synaptic loss in AD.
+- `modulates` → **[Nervous System](../../07-system/nervous-system/README.md)** — NLRP3 inflammasome → caspase-1 → IL-1β/IL-18 → neuroinflammatory cascade; chronic neuroinflammation underlies AD, PD, ALS, TBI, and MS disease progression.
+- `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — spinal microglia activated by nerve injury via P2X4R → BDNF release → neuronal TrkB → KCC2 downregulation → GABA becomes depolarizing → allodynia; microglial p38 MAPK drives BDNF secretion; minocycline attenuates neuropathic pain in rodent models.
+- `modulates` → **[BDNF](../../03-molecular/bdnf/README.md)** — activated spinal microglia release BDNF via P2X4R-p38 MAPK after nerve injury; microglial BDNF acts on neuronal TrkB → KCC2 downregulation → GABA depolarizing → allodynia; microglia also express TrkB and are BDNF targets in homeostasis.
 
 ## Pathology
 
@@ -146,21 +154,8 @@ TDP-43 and C9orf72 dipeptide repeat aggregates from degenerating motor neurons a
 
 Loss-of-function mutations in either *TREM2* or *TYROBP* (DAP12) cause polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy (PLOSL) — a rare autosomal-recessive disease characterised by early-onset progressive dementia and bone cysts. Demonstrates that TREM2-DAP12 signalling is essential for microglial homeostatic function in the CNS and for osteoclast function in bone (osteoclasts are also TREM2+), linking microglial biology to skeletal disease [^guyton-hall].
 
-## See Also
-
-- [neuron](../neuron/README.md)
-- [macrophage](../macrophage/README.md)
-- [brain](../../06-organ/brain/README.md)
-- [synapse](../../05-tissue/synapse/README.md)
-- [nervous-system](../../07-system/nervous-system/README.md)
-- [immune-system](../../07-system/immune-system/README.md)
-- [nf-kb](../../03-molecular/nf-kb/README.md)
-- [tnf-alpha](../../03-molecular/tnf-alpha/README.md)
-- [il-6](../../03-molecular/il-6/README.md)
-
----
-
-> **AI co-maintenance notice:** This entry is maintained with AI assistance. Content reflects standard textbook and peer-reviewed sources as cited; verify critical details against primary literature before clinical or research application.
-
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell.* 7th ed. W.W. Norton; 2022. [NCBI Bookshelf →](https://www.ncbi.nlm.nih.gov/books/NBK26880/)
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [Publisher →](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

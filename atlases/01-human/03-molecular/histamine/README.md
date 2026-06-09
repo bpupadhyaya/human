@@ -173,13 +173,8 @@ H2R (Gs) → Gαs → **adenylyl cyclase** → ↑cAMP → **PKA** → phosphory
 | **Scombroid fish poisoning** | Bacterial HDC converts histidine in inadequately refrigerated fish → histamine-rich flesh → ingestion → pseudo-allergic reaction (flushing, headache, diarrhea) | Antihistamines; not true allergy; no IgE involved |
 | **Systemic mast cell activation syndrome (MCAS)** | Recurrent multisystem symptoms (skin, GI, cardiovascular) consistent with mast cell mediator release; low-grade KIT variants | H1+H2 antihistamines, cromolyn sodium, omalizumab |
 
-## See Also
-
-- [Nitric oxide](../nitric-oxide/README.md) — vascular co-mediator; NO and histamine act in opposing/complementary ways on vascular tone
-- [IL-6](../il-6/README.md) — inflammatory cytokine coordinating systemic response; mast cells produce IL-6 after degranulation
-- [TNF-alpha](../tnf-alpha/README.md) — co-released with histamine in late-phase allergic responses; drives further mast cell priming
-- [Immune system](../../07-system/immune-system/README.md) — overarching system context
-- [Macrophage](../../04-cellular/macrophage/README.md) — downstream effector; H4R expressed on tissue macrophages
-
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [Macmillan Learning](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^janeway-immunobiology]: Murphy K, Weaver C. *Janeway's Immunobiology.* 9th ed. Garland Science; 2017. [Garland Science](https://www.garlandscience.com/product/isbn/9780815345053)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

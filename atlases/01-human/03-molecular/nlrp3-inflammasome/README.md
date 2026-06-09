@@ -63,6 +63,12 @@ cross_links:
   - target: 01-human/07-system/influenza
     relation: connects-to
     note: "Influenza M2 proton channel and PB1-F2 (mitochondrial targeting) activate NLRP3 → IL-1β + IL-18; NLRP3-mediated IL-1β amplifies cytokine storm in H5N1 and 1918 H1N1 pneumonia; NLRP3 genetic variants are associated with influenza severity and ASC speck formation in macrophages."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "MSU crystals canonically activate NLRP3: phagocytosis → lysosomal rupture → cathepsin B → NLRP3-ASC-caspase-1 → IL-1β-driven acute arthritis; NLRP3-derived IL-1β mediates the acute gouty flare; IL-1β blockade (canakinumab, anakinra) rapidly resolves refractory gout."
+  - target: 01-human/04-cellular/microglia
+    relation: expressed-by
+    note: "Microglia are major NLRP3-expressing CNS cells; Aβ fibrils, α-synuclein, and ATP activate microglial NLRP3 → IL-1β/IL-18 + pyroptosis → neuroinflammatory cascade driving AD, PD, and ALS; released ASC specks cross-seed Aβ plaques amplifying disease."
 ---
 
 # NLRP3 Inflammasome
@@ -171,6 +177,8 @@ Caspase-4/5 (human) and caspase-11 (mouse) can also cleave GSDMD in a non-canoni
 - `connects-to` → **[IL-1β](../il-1b/README.md)** — NLRP3 inflammasome processes pro-IL-1β → active IL-1β via caspase-1; urate crystals, cholesterol, CAPS gain-of-function mutations, and metabolic DAMPs → IL-1β-driven fever, neutrophilia, and synovitis; canakinumab (anti-IL-1β) and anakinra (IL-1Ra) block downstream IL-1β.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../../07-system/disseminated-intravascular-coagulation/README.md)** — Sepsis-DIC: endotoxin/DAMPs → NLRP3 → IL-1β + IL-18 → endothelial TF expression → thrombin → fibrin microthrombi; IL-1β also drives PAI-1 upregulation → hypofibrinolysis → fibrin persistence; NLRP3 is a key link between innate immune activation and DIC pathogenesis.
 - `connects-to` → **[Influenza](../../07-system/influenza/README.md)** — Influenza M2 proton channel and PB1-F2 (mitochondrial targeting) activate NLRP3 → IL-1β + IL-18; NLRP3-mediated IL-1β amplifies cytokine storm in H5N1 and 1918 H1N1 pneumonia; NLRP3 genetic variants are associated with influenza severity and ASC speck formation in macrophages.
+- `connects-to` → **[Gout](../../07-system/gout/README.md)** — MSU crystals canonically activate NLRP3: phagocytosis → lysosomal rupture → cathepsin B → NLRP3-ASC-caspase-1 → IL-1β-driven acute arthritis; NLRP3-derived IL-1β is the master mediator of the acute gouty flare; IL-1β blockade (canakinumab, anakinra) resolves refractory gout.
+- `expressed-by` → **[Microglia](../../04-cellular/microglia/README.md)** — microglia are major NLRP3-expressing CNS cells; Aβ fibrils, α-synuclein, and ATP activate microglial NLRP3 → IL-1β/IL-18 + pyroptosis → neuroinflammatory cascade driving AD, PD, and ALS; released ASC specks can cross-seed Aβ plaques amplifying pathology.
 
 ## Pathology
 
@@ -190,3 +198,6 @@ The **selective NLRP3 inhibitor MCC950** (CMPD-4) has demonstrated potent anti-i
 [^swanson-2019-pyroptosis-review]: Swanson KV, Deng M, Ting JP. The NLRP3 inflammasome: molecular activation and regulation to therapeutics. *Nat Rev Immunol.* 2019;19(8):477-489. [doi:10.1038/s41577-019-0165-0](https://doi.org/10.1038/s41577-019-0165-0) · [PubMed 31036962](https://pubmed.ncbi.nlm.nih.gov/31036962/)
 [^duewell-2010-crystal-nlrp3]: Duewell P, Kono H, Rayner KJ, et al. NLRP3 inflammasomes are required for atherogenesis and activated by cholesterol crystals. *Nature.* 2010;464(7293):1357-1361. [doi:10.1038/nature08938](https://doi.org/10.1038/nature08938) · [PubMed 20428172](https://pubmed.ncbi.nlm.nih.gov/20428172/)
 [^shi-2017-gasdermin-pore]: Shi J, Zhao Y, Wang K, et al. Cleavage of GSDMD by inflammatory caspases determines pyroptotic cell death. *Nature.* 2015;526(7575):660-665. [doi:10.1038/nature15514](https://doi.org/10.1038/nature15514) · [PubMed 26375003](https://pubmed.ncbi.nlm.nih.gov/26375003/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

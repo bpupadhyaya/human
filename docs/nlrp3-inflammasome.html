@@ -3,210 +3,207 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="NLRP3 Inflammasome — cytosolic innate immune platform activating caspase-1, IL-1β, IL-18, and pyroptosis; gout, CAPS, atherosclerosis, Alzheimer's. Human Engineering Atlas.">
-  <meta property="og:title" content="NLRP3 Inflammasome — Human Engineering Atlas">
+  <meta name="description" content="Cytosolic multiprotein danger-sensing complex (NLRP3/ASC/caspase-1) activated by PAMPs and DAMPs. Processes pro-IL-1β and pro-IL-18 to active cytokines and trig">
+  <meta property="og:title" content="NLRP3 Inflammasome — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>NLRP3 Inflammasome — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#7c3aed;--accent-soft:rgba(124,58,237,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .hero{background:linear-gradient(135deg,#f5f0ff 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="immune-system.html">Immune System</a>
-      <a href="macrophage.html">Macrophage</a>
-      <a href="il-6.html">IL-6</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>NLRP3 Inflammasome</h1>
+    <p class="tagline">Cytosolic multiprotein danger-sensing complex (NLRP3/ASC/caspase-1) activated by PAMPs and DAMPs. Processes pro-IL-1β and pro-IL-18 to active cytokines and triggers pyroptosis via gasdermin D pore formation.</p>
+    <p class="aliases">Also known as: NLRP3, NALP3 inflammasome, cryopyrin, CIAS1, PYPAF1</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
-</nav>
 
-<div class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Atlas One · Human · Molecular · Innate Immunity</p>
-    <h1>NLRP3 <span>Inflammasome</span></h1>
-    <p class="hero-lead">A cytosolic multiprotein innate immune signaling platform that senses a broad spectrum of danger signals — from crystals to ATP to bacterial toxins — and responds by activating caspase-1 to cleave pro-IL-1β and pro-IL-18 into mature cytokines, and by executing pyroptotic cell death.</p>
-  </div>
-</div>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<div class="meta-strip">
-  <span><strong>Gene:</strong> NLRP3 (also CIAS1, PYPAF1, cryopyrin)</span>
-  <span><strong>Scale:</strong> Molecular complex (~700 kDa)</span>
-  <span><strong>Status:</strong> Draft · reviewed 2026-06-05</span>
-</div>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">nlrp3-inflammasome</div>
+        <h2>NLRP3 Inflammasome</h2>
+        <p class="summary">Cytosolic multiprotein danger-sensing complex (NLRP3/ASC/caspase-1) activated by PAMPs and DAMPs. Processes pro-IL-1β and pro-IL-18 to active cytokines and triggers pyroptosis via gasdermin D pore formation.</p>
+      </div>
+      <div class="detail-body">
 
-<div class="content">
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>nlrp3-inflammasome</td></tr>
+            <tr><td>Name</td><td>NLRP3 Inflammasome</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
+          </table>
+        </div>
 
-  <div class="section" id="overview">
-    <h2>Overview</h2>
-    <p>The NLRP3 inflammasome is the archetypal and most extensively studied inflammasome — a large cytosolic multiprotein complex (~700 kDa) assembled in myeloid cells (macrophages, dendritic cells, monocytes, neutrophils) in response to DAMP and PAMP signals that indicate cellular stress, damage, or infection.</p>
-    <p>The <strong>canonical NLRP3 inflammasome</strong> consists of three components: NLRP3 (sensor protein), ASC (adaptor protein bridging NLRP3 to caspase-1), and pro-caspase-1. Upon assembly into the oligomeric complex, pro-caspase-1 undergoes proximity-induced autocatalytic activation. Active caspase-1 then executes two major effector functions:</p>
-    <ul>
-      <li>Proteolytic cleavage of pro-IL-1β and pro-IL-18 into their mature, bioactive forms for secretion</li>
-      <li>Cleavage of Gasdermin D (GSDMD) to generate membrane-permeabilizing N-terminal fragments that drive pyroptosis — an inflammatory, lytic form of programmed cell death</li>
-    </ul>
-    <p>A <strong>non-canonical inflammasome pathway</strong> (mouse caspase-11 / human caspase-4 and caspase-5) directly senses cytosolic lipopolysaccharide (LPS) without requiring NLRP3 or ASC, and triggers GSDMD pore formation and secondary NLRP3 activation via K⁺ efflux.</p>
-    <div class="callout"><strong>Central role in sterile inflammation:</strong> Unlike most pattern recognition pathways that evolved primarily to detect pathogens, NLRP3 is uniquely activated by endogenous damage signals (urate crystals, cholesterol crystals, β-amyloid, ATP) — making it a pivotal driver of sterile inflammatory diseases including gout, atherosclerosis, and Alzheimer's disease.</div>
-  </div>
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="il-6.html" title="NLRP3 inflammasome activation triggers IL-1β release, which drives IL-6 production from stromal and immune cells, amplifying systemic inflammation."><span class="rel">modulates</span>Il 6</a>
+            <a class="conn-pill" href="nf-kb.html" title="NF-κB provides the 'Signal 1' priming for NLRP3 transcription and pro-IL-1β synthesis; NLRP3 activation in turn further activates NF-κB via caspase-1-independent mechanisms."><span class="rel">modulated-by</span>Nf Kb</a>
+            <a class="conn-pill" href="dendritic-cell.html" title="Dendritic cells express high levels of NLRP3 and are primary inflammasome-activating innate sentinel cells; DC pyroptosis promotes antigen cross-presentation."><span class="rel">expressed-by</span>Dendritic Cell</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="IL-1β and IL-18 released by NLRP3-activated macrophages and DCs drive Th17 polarization and NK cell IFN-γ production, shaping adaptive immunity."><span class="rel">modulates</span>T Helper Cell</a>
+            <a class="conn-pill part" href="immune-system.html" title="NLRP3 is a core sensor of the innate immune system, integrating cellular danger signals into a proteolytic activation cascade that initiates inflammation."><span class="rel">part-of</span>Immune System</a>
+            <a class="conn-pill" href="heart.html" title="NLRP3 inflammasome drives sterile myocardial inflammation post-MI; cholesterol crystals in atherosclerotic plaques are potent NLRP3 activators driving vascular inflammation."><span class="rel">modulates</span>Heart</a>
+            <a class="conn-pill" href="kidney.html" title="NLRP3 contributes to renal tubular injury and interstitial fibrosis in AKI and CKD; urate crystals activate NLRP3 in renal tubular epithelium."><span class="rel">modulates</span>Kidney</a>
+            <a class="conn-pill" href="tnf-alpha.html" title="TNF-α provides NF-κB-mediated priming (Signal 1) for NLRP3 expression; NLRP3-derived IL-1β synergizes with TNF-α in inflammatory signaling cascades."><span class="rel">modulates</span>Tnf Alpha</a>
+            <a class="conn-pill" href="il-1b.html" title="NLRP3 inflammasome processes pro-IL-1β → active IL-1β via caspase-1; urate crystals, cholesterol, CAPS gain-of-function mutations, and metabolic DAMPs → IL-1β-driven fever, neutrophilia, and synovitis; canakinumab (anti-IL-1β) and anakinra (IL-1Ra) block downstream IL-1β."><span class="rel">connects-to</span>Il 1B</a>
+            <a class="conn-pill" href="disseminated-intravascular-coagulation.html" title="Sepsis-DIC: endotoxin/DAMPs → NLRP3 → IL-1β + IL-18 → endothelial TF expression → thrombin → fibrin microthrombi; IL-1β also drives PAI-1 upregulation → hypofibrinolysis → fibrin persistence; IL-1β is a key link between innate immune activation and DIC pathogenesis."><span class="rel">connects-to</span>Disseminated Intravascular Coagulation</a>
+            <a class="conn-pill" href="influenza.html" title="Influenza M2 proton channel and PB1-F2 (mitochondrial targeting) activate NLRP3 → IL-1β + IL-18; NLRP3-mediated IL-1β amplifies cytokine storm in H5N1 and 1918 H1N1 pneumonia; NLRP3 genetic variants are associated with influenza severity and ASC speck formation in macrophages."><span class="rel">connects-to</span>Influenza</a>
+            <a class="conn-pill" href="gout.html" title="MSU crystals canonically activate NLRP3: phagocytosis → lysosomal rupture → cathepsin B → NLRP3-ASC-caspase-1 → IL-1β-driven acute arthritis; NLRP3-derived IL-1β mediates the acute gouty flare; IL-1β blockade (canakinumab, anakinra) rapidly resolves refractory gout."><span class="rel">connects-to</span>Gout</a>
+            <a class="conn-pill" href="microglia.html" title="Microglia are major NLRP3-expressing CNS cells; Aβ fibrils, α-synuclein, and ATP activate microglial NLRP3 → IL-1β/IL-18 + pyroptosis → neuroinflammatory cascade driving AD, PD, and ALS; released ASC specks cross-seed Aβ plaques amplifying disease."><span class="rel">expressed-by</span>Microglia</a>
+          </div>
+        </div>
 
-  <div class="section" id="components">
-    <h2>Molecular Components</h2>
-    <table>
-      <thead><tr><th>Component</th><th>Structure &amp; Features</th><th>Role in Inflammasome</th></tr></thead>
-      <tbody>
-        <tr><td><strong>NLRP3</strong><br><em>(NLR family pyrin domain-containing 3; cryopyrin)</em></td><td>1036 amino acids; tripartite domain architecture: N-terminal PYD (pyrin domain) → NBD/NACHT (nucleotide-binding domain, ATPase) → C-terminal LRR (leucine-rich repeats). Constitutively low expression; transcriptionally induced by NF-κB during priming. Encoded by <em>NLRP3</em> gene on chromosome 1q44</td><td><strong>Sensor:</strong> LRR domain senses stimuli (direct and indirect); NBD enables ATP-dependent oligomerization into a wheel-like structure; PYD domain engages ASC via PYD-PYD homotypic interaction. NBD mutations → gain-of-function → constitutive activation in CAPS syndromes</td></tr>
-        <tr><td><strong>ASC</strong><br><em>(Apoptosis-associated speck-like protein containing a CARD)</em></td><td>195 amino acids; bipartite structure: N-terminal PYD + C-terminal CARD (caspase-activation and recruitment domain). Normally diffuse cytosolic distribution; upon NLRP3 activation forms a single large perinuclear speck visible by fluorescence microscopy — the "ASC speck" is a biomarker of inflammasome activation in situ</td><td><strong>Adaptor:</strong> PYD engages NLRP3 PYD; CARD domain engages pro-caspase-1 CARD; ASC filaments nucleate and amplify the signal, forming a ~1 µm diameter perinuclear aggregate. ASC specks can be released extracellularly after pyroptosis and propagate inflammation</td></tr>
-        <tr><td><strong>Pro-caspase-1</strong></td><td>Zymogen; 45 kDa; N-terminal CARD + prodomain + p20 + p10 catalytic subunits. Constitutively expressed</td><td><strong>Effector:</strong> CARD-mediated recruitment to ASC speck → proximity-induced dimerization → autocatalytic cleavage between p20 and p10 → active caspase-1 (p20/p10)₂ heterotetramer. Active caspase-1 cleaves: pro-IL-1β at Asp116; pro-IL-18 at Asp35; GSDMD at Asp275; pro-IL-33</td></tr>
-        <tr><td><strong>NEK7</strong><br><em>(NIMA-related kinase 7)</em></td><td>Cell cycle-regulated kinase</td><td>Required cofactor for NLRP3 activation: NEK7 directly binds NLRP3 LRR domain during low intracellular K⁺ state; NEK7-NLRP3 interaction is essential for oligomerization; provides a link between cell cycle state and inflammasome activation (active in interphase, not mitosis)</td></tr>
-      </tbody>
-    </table>
-  </div>
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1016/s1097-2765(02)00599-3" target="_blank" rel="noopener noreferrer">Martinon F, Burns K, Tschopp J. The inflammasome: a molecular platform triggering activation of inflammatory caspases and processing of proIL-beta. Mol Cell. 2002;10(2):417-426.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12191486/" target="_blank" rel="noopener noreferrer">PubMed 12191486</a></li>
+            <li><a href="https://doi.org/10.1038/s41577-019-0165-0" target="_blank" rel="noopener noreferrer">Swanson KV, Deng M, Ting JP. The NLRP3 inflammasome: molecular activation and regulation to therapeutics. Nat Rev Immunol. 2019;19(8):477-489.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/31036962/" target="_blank" rel="noopener noreferrer">PubMed 31036962</a></li>
+            <li><a href="https://doi.org/10.1038/nature08938" target="_blank" rel="noopener noreferrer">Duewell P, Kono H, Rayner KJ, et al. NLRP3 inflammasomes are required for atherogenesis and activated by cholesterol crystals. Nature. 2010;464(7293):1357-1361.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20428172/" target="_blank" rel="noopener noreferrer">PubMed 20428172</a></li>
+            <li><a href="https://doi.org/10.1038/nature15514" target="_blank" rel="noopener noreferrer">Shi J, Zhao Y, Wang K, et al. Cleavage of GSDMD by inflammatory caspases determines pyroptotic cell death. Nature. 2015;526(7575):660-665.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26375003/" target="_blank" rel="noopener noreferrer">PubMed 26375003</a></li>
+          </ul>
+        </div>
 
-  <div class="section" id="activation">
-    <h2>Activation Mechanism: Two-Signal Model</h2>
-    <h3>Signal 1 — Priming</h3>
-    <p>NLRP3 protein expression is constitutively very low and must be transcriptionally induced before the inflammasome can assemble. Priming stimuli include:</p>
-    <ul>
-      <li><strong>TLR ligands (e.g., LPS via TLR4):</strong> Activate NF-κB → transcription of <em>NLRP3</em>, <em>IL1B</em> (pro-IL-1β), and <em>IL18</em></li>
-      <li><strong>TNF-α, IL-1β, IL-18:</strong> Cytokine-mediated NF-κB activation provides an amplification loop</li>
-      <li><strong>Post-translational priming:</strong> TLR signals also promote NLRP3 deubiquitylation (BRCC3/BRISC deubiquitylase), phosphorylation changes, and mitochondrial reactive oxygen species — "licensing" the complex for assembly independent of new transcription</li>
-    </ul>
+      </div>
+    </div>
+  </main>
 
-    <h3>Signal 2 — Activation</h3>
-    <p>A structurally and chemically diverse set of stimuli all converge on NLRP3 oligomerization. Current evidence places <strong>potassium efflux</strong> as the near-universal prerequisite:</p>
-    <ul>
-      <li><strong>K⁺ efflux (universal signal):</strong> Artificially lowering intracellular K⁺ (by raising extracellular K⁺) is sufficient to prevent NLRP3 activation by any stimulus; conversely, K⁺ efflux alone can trigger NLRP3. Low cytosolic K⁺ promotes NEK7-NLRP3 binding and destabilizes the NLRP3 autoinhibited conformation.</li>
-      <li><strong>ATP:</strong> Released from damaged/dying cells; activates P2X7 receptor → large ion-permeable pore → K⁺ efflux + Ca²⁺ influx → NLRP3 activation. Also mitochondrial signal via TXNIP.</li>
-      <li><strong>Crystalline and particulate matter:</strong> Monosodium urate (gout), calcium pyrophosphate, silica, asbestos, cholesterol crystals (atherosclerotic plaques), β-amyloid fibrils (Alzheimer's). Mechanism: phagocytosis → lysosomal membrane permeabilization (LMP) → cathepsin B release into cytosol → cytosolic cathepsin B activates NLRP3 (possibly through K⁺ efflux via an indirect route).</li>
-      <li><strong>Reactive oxygen species (ROS):</strong> Mitochondrial ROS release (mtROS) promotes NLRP3 via TXNIP dissociation from thioredoxin; oxidized mitochondrial DNA (ox-mtDNA) released from damaged mitochondria can directly bind and activate NLRP3.</li>
-      <li><strong>Pore-forming toxins:</strong> Staphylococcal α-toxin (alpha-hemolysin), <em>Listeria</em> listeriolysin O (LLO), aerolysin — plasma membrane pore formation → K⁺ efflux → NLRP3.</li>
-      <li><strong>Viral signals:</strong> SARS-CoV-2 E protein viroporin → K⁺ efflux → NLRP3; various viral RNA species may activate NLRP3 via MAVS interaction (disputed).</li>
-    </ul>
-    <div class="callout"><strong>K⁺ efflux as the unifying mechanism:</strong> Despite the striking diversity of activating stimuli — from crystals to pore-forming toxins to ATP — they all appear to converge on cytosolic K⁺ depletion. High extracellular KCl (≥130 mM) blocks NLRP3 activation by virtually every known stimulus, making K⁺ efflux the canonical second messenger of NLRP3 signaling.</div>
-  </div>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-  <div class="section" id="outputs">
-    <h2>Downstream Outputs</h2>
-    <h3>IL-1β Processing and Secretion</h3>
-    <p>Pro-IL-1β (31 kDa, biologically inactive) is synthesized as a cytosolic precursor following NF-κB priming. Active caspase-1 cleaves pro-IL-1β at Asp116 → mature IL-1β (17 kDa). Mature IL-1β lacks a classical signal peptide and cannot enter the conventional ER-Golgi secretory pathway. Instead, IL-1β is secreted via GSDMD pores (direct release through the membrane channel) and possibly via an unconventional secretory pathway involving secretory lysosomes and autophagosomes. Mature IL-1β acts via IL-1R1 on target cells to drive fever (PGE₂ in hypothalamus), acute phase response (IL-6 induction in hepatocytes), neutrophil recruitment (CXCL8), and T cell activation.</p>
-
-    <h3>IL-18 Processing</h3>
-    <p>Pro-IL-18 is similarly cleaved by caspase-1 at Asp35 → mature IL-18 (18 kDa). IL-18 is a critical IFN-γ-inducing factor, activating NK cells and Th1 cells. IL-18 together with IL-12 drives maximal IFN-γ production. IL-18 is also pro-inflammatory in obesity-associated metabolic disease, inflammatory bowel disease, and Macrophage Activation Syndrome (MAS/HLH).</p>
-
-    <h3>Pyroptosis via Gasdermin D</h3>
-    <p>GSDMD is cleaved by caspase-1 (canonical) or caspase-4/5/11 (non-canonical) at Asp275, releasing the N-terminal domain (NT-GSDMD, ~31 kDa) from its autoinhibitory C-terminal domain. NT-GSDMD selectively binds the inner leaflet phospholipids phosphatidylserine and phosphatidylinositol phosphates → inserts into the plasma membrane → oligomerizes to form large (~14–18 nm inner diameter) non-selective pores → cell swelling → osmotic lysis (pyroptosis).</p>
-    <p>Pyroptosis is a highly inflammatory form of cell death: the pyroptotic cell releases its cytosolic contents including IL-1α, IL-18, HMGB1, mtDNA, and other DAMPs that amplify the inflammatory cascade in neighboring cells. Sublytic GSDMD pore formation (below threshold for lysis) can permit IL-1β secretion without cell death — a "kiss of death" partial activation state.</p>
-
-    <h3>Other Caspase-1 Substrates</h3>
-    <ul>
-      <li><strong>Pro-IL-33:</strong> Nuclear alarmin; cleavage generates mature IL-33 → ST2/IL-1RAcP → ILC2 and Th2 activation; relevant in asthma and atopic contexts</li>
-      <li><strong>PARP1:</strong> Caspase-1 cleavage inactivates PARP1, limiting DNA repair during pyroptosis</li>
-      <li><strong>Cytoskeletal proteins:</strong> Cofilin, gelsolin — contribute to cellular morphology changes during pyroptosis</li>
-    </ul>
-  </div>
-
-  <div class="section" id="pharmacology">
-    <h2>Pharmacological Inhibition</h2>
-    <table>
-      <thead><tr><th>Agent</th><th>Mechanism</th><th>Clinical Context</th></tr></thead>
-      <tbody>
-        <tr><td><strong>MCC950 / Inzomelid (IZD334)</strong></td><td>Direct NLRP3 NBD inhibitor; binds Walker B motif of NACHT domain; blocks ATPase activity required for oligomerization; highly selective for NLRP3 vs. other NLRPs</td><td>Phase 2 clinical trials in gouty arthritis (IZD334 by Novartis); also being tested in cardiovascular inflammation and rheumatoid arthritis. MCC950 is the standard NLRP3 tool compound in preclinical research.</td></tr>
-        <tr><td><strong>Colchicine</strong></td><td>Tubulin depolymerization → inhibits IL-1β processing/secretion; reduces neutrophil recruitment; may also directly inhibit NLRP3 complex assembly via microtubule-dependent transport</td><td>Standard of care for acute gout and familial Mediterranean fever; pericarditis; LoDoCo2 trial: low-dose colchicine 0.5 mg/day reduced major adverse CV events (HR 0.69) in stable coronary artery disease</td></tr>
-        <tr><td><strong>Canakinumab</strong></td><td>Human anti-IL-1β monoclonal antibody (neutralizes the NLRP3 downstream cytokine)</td><td>FDA-approved for CAPS (FCAS, MWS, NOMID), systemic JIA, gout flares. CANTOS trial (n=10,061): canakinumab 150 mg every 3 months in post-MI patients with high hsCRP (≥2 mg/L) → 15% relative risk reduction in CV events (HR 0.85, p=0.021) independent of lipid changes — landmark proof-of-concept for inflammasome-driven cardiovascular disease</td></tr>
-        <tr><td><strong>Anakinra</strong></td><td>Recombinant IL-1RA; competes with IL-1α and IL-1β at IL-1R1; short half-life (4–6 h), daily subcutaneous injection</td><td>Approved for RA, CAPS, NOMID, FMF, Still's disease, and neonatal-onset multisystem inflammatory disease (NOMID). Used off-label in gout, macrophage activation syndrome, COVID-19 cytokine storm</td></tr>
-        <tr><td><strong>Rilonacept</strong></td><td>IL-1 trap (fusion of IL-1RI + IL-1RAcP extracellular domains fused to IgG1 Fc); neutralizes IL-1α and IL-1β; weekly subcutaneous injection</td><td>FDA-approved for CAPS (FCAS, MWS) and recurrent pericarditis (RHAPSODY trial: 96% reduction in recurrence vs. placebo)</td></tr>
-        <tr><td><strong>Dapansutrile (OLT1177)</strong></td><td>Oral NLRP3 NBD inhibitor; sulfonylurea-related scaffold</td><td>Phase 2 trials in acute gout flare and heart failure with reduced ejection fraction (HFrEF)</td></tr>
-        <tr><td><strong>Glyburide (glibenclamide)</strong></td><td>Sulfonylurea; KATP channel inhibitor (primary mechanism for diabetes); also inhibits NLRP3 via direct binding and possibly via blockade of volume-regulated anion channels</td><td>Preclinical evidence for NLRP3 inhibition; not clinically developed as NLRP3 inhibitor; serves as pharmacological probe in inflammasome research</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="section" id="disease">
-    <h2>Disease Associations</h2>
-    <table>
-      <thead><tr><th>Disease</th><th>NLRP3 Mechanism</th><th>Clinical Evidence / Therapy</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Gout</strong></td><td>Monosodium urate (MSU) crystals phagocytosed by synovial macrophages → lysosomal rupture → cathepsin B cytosolic release → NLRP3 → caspase-1 → IL-1β → acute neutrophilic arthritis</td><td>Colchicine standard of care; anakinra/canakinumab for refractory acute gout or patients on anticoagulation. IL-1β is the primary mediator of the acute attack (vs. IL-6/TNF minor roles)</td></tr>
-        <tr><td><strong>Cryopyrin-associated periodic syndromes (CAPS)</strong></td><td>Autosomal dominant gain-of-function <em>NLRP3</em> mutations (D303N, V198M, R262W, T348M and others) → constitutive NLRP3 activation without exogenous stimulus → continuous IL-1β secretion → autoinflammatory spectrum: FCAS (cold-induced urticaria), MWS (urticaria + deafness + amyloidosis), NOMID/CINCA (neonatal-onset multisystem inflammatory disease — most severe)</td><td>Anti-IL-1 biologics are highly effective: rilonacept (approved for FCAS/MWS), canakinumab (approved for all CAPS subtypes), anakinra. Genotype-phenotype correlations partially explain severity</td></tr>
-        <tr><td><strong>Atherosclerosis</strong></td><td>Oxidized LDL cholesterol crystals within lipid-laden macrophages (foam cells) in atherosclerotic plaques → lysosomal rupture → NLRP3 → IL-1β → vascular endothelial activation → plaque instability; NLRP3 also activated by ox-LDL-derived ROS and TXNIP pathway</td><td>CANTOS trial: canakinumab (anti-IL-1β) reduced CV events 15% (HR 0.85); LoDoCo2: colchicine 0.5 mg/day reduced CV events in stable CAD (HR 0.69); both validate the inflammasome → IL-1β axis in human cardiovascular disease</td></tr>
-        <tr><td><strong>Alzheimer's disease</strong></td><td>Amyloid-β (Aβ) fibrils and plaques → microglial phagocytosis → lysosomal rupture → cathepsin B → NLRP3 activation in microglia → IL-1β and IL-18 → neuroinflammation; NLRP3-derived ASC specks can seed Aβ aggregation in extracellular space; NLRP3 KO in mouse models reduces Aβ plaque load and cognitive deficits</td><td>Preclinical: MCC950, colchicine, anakinra reduce neuroinflammation in mouse models. Clinical trials ongoing. NLRP3 biomarkers (ASC speck in CSF) being explored</td></tr>
-        <tr><td><strong>Type 2 diabetes</strong></td><td>Islet amyloid polypeptide (IAPP; amylin) oligomers → NLRP3 in islet macrophages → IL-1β → β-cell toxicity and apoptosis → glucotoxic and lipotoxic IL-1β loop; saturated fatty acids (palmitate) also prime and activate NLRP3 via mitochondrial ROS and ceramide</td><td>Anakinra trials in T2DM: improved HbA1c and β-cell secretory function (evidence of IL-1β involvement); IL-1Ra (anakinra) added to SGLT2i combination strategies in trials</td></tr>
-        <tr><td><strong>Sepsis</strong></td><td>Aberrant systemic NLRP3 activation in response to disseminated bacterial PAMPs and DAMPs from organ damage → uncontrolled IL-1β/IL-18 → cytokine storm; non-canonical caspase-4/5 LPS sensing also contributes to endotoxemia pathophysiology; NLRP3 may paradoxically be protective early (bacterial clearance) and harmful late (organ damage)</td><td>Phase 2/3 trials with IL-1 blockade in sepsis/septic shock have shown mixed results; patient heterogeneity and timing are critical determinants of benefit</td></tr>
-        <tr><td><strong>COVID-19 (severe)</strong></td><td>SARS-CoV-2 E protein viroporin activity → K⁺ efflux → NLRP3 in macrophages and monocytes → IL-1β and IL-18; ORF3a also activates NLRP3 via mitochondrial damage; GSDMD-driven pyroptosis amplifies cytokine storm. Elevated IL-18 and IL-1β in severe vs. mild COVID-19</td><td>Anakinra: modest benefit in moderate-severe COVID-19 pneumonia (ANAKINRA-COVID trial, Ana-INF-COVID); canakinumab (CRIMSON trial): no significant benefit on time to clinical improvement; colchicine (COLCORONA): marginal benefit in outpatient COVID-19</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="section" id="connections">
-    <h2>Connections</h2>
-    <ul class="conn-list">
-      <li><span class="conn-rel">produces</span><span><a href="il-6.html">IL-6</a> — IL-1β downstream of NLRP3 strongly induces IL-6 production in stromal and immune cells; IL-1β + IL-6 together drive the acute phase response and Th17 differentiation</span></li>
-      <li><span class="conn-rel">activates</span><span><a href="macrophage.html">Macrophage</a> — myeloid cells are the primary sites of NLRP3 inflammasome assembly and pyroptotic cell death; activated macrophages release IL-1β, IL-18, and DAMPs upon NLRP3 activation</span></li>
-      <li><span class="conn-rel">part-of</span><span><a href="immune-system.html">Immune system</a> — NLRP3 is a central node in the innate immune danger-sensing network alongside TLR-NF-κB and cGAS-STING</span></li>
-      <li><span class="conn-rel">primed-by</span><span><a href="complement-c3.html">Complement C3</a> — complement activation products C3a and C5a (anaphylatoxins) can prime NLRP3 transcription via C3aR/C5aR signaling in macrophages; complement and NLRP3 cooperate in inflammatory amplification</span></li>
-      <li><span class="conn-rel">activates</span><span><a href="nf-kb.html">NF-κB</a> — bidirectional relationship: NF-κB provides Signal 1 (priming) for NLRP3 expression; IL-1β produced by NLRP3 feeds back to activate NF-κB in target cells, creating an inflammatory amplification loop</span></li>
-      <li><span class="conn-rel">upstream-of</span><span><a href="tnf-alpha.html">TNF-α</a> — IL-1β produced downstream of NLRP3 synergizes with TNF-α in driving systemic inflammation; both cytokines converge on endothelial activation, neutrophil recruitment, and febrile response</span></li>
-    </ul>
-  </div>
-
-  <div class="section references" id="references">
-    <h2>References</h2>
-    <ol>
-      <li>Swanson KV, Deng M, Ting JP. <a href="https://doi.org/10.1038/s41577-019-0165-0" target="_blank" rel="noopener">The NLRP3 inflammasome: molecular activation and regulation to therapeutics.</a> <em>Nat Rev Immunol.</em> 2019;19:477–489.</li>
-      <li>Lamkanfi M, Dixit VM. <a href="https://doi.org/10.1016/j.cell.2014.04.007" target="_blank" rel="noopener">Mechanisms and functions of inflammasomes.</a> <em>Cell.</em> 2014;157:1013–1022.</li>
-      <li>Ridker PM, Everett BM, Thuren T, et al. (CANTOS Trial Group). <a href="https://doi.org/10.1056/NEJMoa1707914" target="_blank" rel="noopener">Antiinflammatory therapy with canakinumab for atherosclerotic disease.</a> <em>N Engl J Med.</em> 2017;377:1119–1131.</li>
-      <li>Broz P, Dixit VM. Inflammasomes: mechanism of assembly, regulation and signalling. <em>Nat Rev Immunol.</em> 2016;16:407–420.</li>
-      <li>He Y, Hara H, Núñez G. Mechanism and regulation of NLRP3 inflammasome activation. <em>Trends Biochem Sci.</em> 2016;41:1012–1021.</li>
-    </ol>
-  </div>
-
-</div>
-
-<footer>
-  <p><a href="index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> · bpupadhyaya@gmail.com</p>
-  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
-</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
