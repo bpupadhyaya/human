@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β and KRAS signaling cooperate in PDAC: TGF-β initially suppresses early-stage cells (anti-proliferative) but in KRAS-mutant context TGF-β drives EMT, stromal desmoplasia, and immune exclusion — making KRAS-mutant tumors highly resistant to checkpoint immunotherapy."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "KRAS is mutated in ~90% of PDAC (G12D ~40%, G12V ~33%, G12R ~16%); constitutive KRAS → RAF-MEK-ERK + PI3K-Akt drives proliferation; SMAD4 co-loss in 55% enables TGF-β-driven EMT; KRAS G12D/G12V inhibitors (MRTX1133) in Phase I; G12C subset responds to sotorasib/adagrasib."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "KRAS G12C is the most common oncogenic driver in NSCLC (~13%); sotorasib (CodeBreaK-100, ORR 37%) and adagrasib (KRYSTAL-1, ORR 43%) FDA-approved for KRAS G12C NSCLC; resistance via RTK feedback, KRAS amplification; SHP2 inhibitor combinations under evaluation."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "KRAS mutations in ~40% of CRC predict EGFR inhibitor resistance (cetuximab, panitumumab); KRAS G12C-mutant CRC → adagrasib + cetuximab (KRYSTAL-10, ORR 34%) — first targeted therapy for KRAS-mutant CRC; G12D inhibitors (MRTX1133) + anti-EGFR in early trials."
 ---
 
 # KRAS
@@ -140,7 +149,13 @@ The "undruggable" era ended when Wellspring Biosciences/Araxes Pharma/Amgen team
 - `connects-to` → **[NF-κB](../nf-kb/README.md)** — oncogenic KRAS activates NF-κB through RAF→MEK→ERK and RalGDS effector branches; NF-κB drives inflammatory cytokines (IL-6, IL-8) that sustain the immunosuppressive KRAS-mutant tumor microenvironment.
 - `connects-to` → **[mTOR](../mtor/README.md)** — KRAS activates PI3K via direct p110α interaction, leading to Akt→mTOR activation; mTOR-driven anabolism is essential for KRAS-mutant tumor growth; combined KRAS+PI3K inhibition is a key resistance strategy.
 - `connects-to` → **[TGF-β](../tgf-beta/README.md)** — TGF-β and KRAS signaling cooperate in PDAC to drive stromal desmoplasia, EMT, and immune exclusion; combined KRAS activation + SMAD4 loss (co-occurring in ~55% of PDAC) creates aggressive disease biology.
+- `connects-to` → **[Pancreatic Cancer](../../07-system/pancreatic-cancer/README.md)** — KRAS is mutated in ~90% of PDAC (G12D ~40%, G12V ~33%, G12R ~16%); constitutive KRAS → RAF-MEK-ERK + PI3K-Akt drives proliferation; SMAD4 co-loss in 55% enables TGF-β-driven EMT; KRAS G12D/G12V inhibitors (MRTX1133) in Phase I; G12C subset responds to sotorasib/adagrasib.
+- `connects-to` → **[NSCLC](../../07-system/nsclc/README.md)** — KRAS G12C is the most common oncogenic driver in NSCLC (~13%); sotorasib (CodeBreaK-100, ORR 37%) and adagrasib (KRYSTAL-1, ORR 43%) FDA-approved for KRAS G12C NSCLC; resistance via RTK feedback, KRAS amplification; SHP2 inhibitor combinations under evaluation.
+- `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — KRAS mutations in ~40% of CRC predict EGFR inhibitor resistance (cetuximab, panitumumab); KRAS G12C-mutant CRC → adagrasib + cetuximab (KRYSTAL-10, ORR 34%) — first targeted therapy for KRAS-mutant CRC; G12D inhibitors (MRTX1133) + anti-EGFR in early trials.
 
 [^prior-2012-ras]: Prior IA, Lewis PD, Mattos C. A comprehensive survey of Ras mutations in cancer. *Cancer Res.* 2012;72(10):2457-2467. [doi:10.1158/0008-5472.CAN-11-2612](https://doi.org/10.1158/0008-5472.CAN-11-2612) · [PubMed 22589270](https://pubmed.ncbi.nlm.nih.gov/22589270/)
 [^hallin-2020-sotorasib]: Hallin J, Engstrom LD, Hargis L, et al. The KRASG12C Inhibitor MRTX849 Provides Insight toward Therapeutic Susceptibility. *Cancer Discov.* 2020;10(1):54-71. [doi:10.1158/2159-8290.CD-19-1167](https://doi.org/10.1158/2159-8290.CD-19-1167) · [PubMed 31658955](https://pubmed.ncbi.nlm.nih.gov/31658955/)
 [^hong-2020-codebreak100]: Hong DS, Fakih MG, Strickler JH, et al. KRASG12C Inhibition with Sotorasib in Advanced Solid Tumors. *N Engl J Med.* 2020;383(13):1207-1217. [doi:10.1056/NEJMoa1917239](https://doi.org/10.1056/NEJMoa1917239) · [PubMed 32955176](https://pubmed.ncbi.nlm.nih.gov/32955176/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
