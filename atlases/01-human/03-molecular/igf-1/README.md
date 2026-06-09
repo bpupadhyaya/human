@@ -18,6 +18,9 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "IGF-1 has insulin-like metabolic effects via IR cross-activation; low serum IGF-1 associates with insulin resistance and T2DM risk; acromegaly (excess GH/IGF-1) causes secondary diabetes; IGF-1 therapy improves insulin sensitivity in severe insulin resistance syndromes."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: modulated-by
+    note: "GH → hepatic JAK2/STAT5b → IGF-1 synthesis (liver provides ~75% of circulating IGF-1); GH-secreting adenoma (acromegaly) elevates IGF-1 — gold-standard diagnostic marker; GH deficiency → low IGF-1 → growth failure; recombinant IGF-1 (mecasermin) treats primary IGF-1 deficiency."
 sources:
   - id: jones-1995-igf-binding-proteins
     type: peer-reviewed
@@ -130,6 +133,8 @@ IGF-1 → IGF-1R → IRS-1 → PI3K/Akt/mTOR → skeletal muscle protein synthes
 IGF-1 and myostatin exert opposing control over skeletal muscle mass: IGF-1 → Akt → mTORC1 → protein synthesis and satellite cell proliferation; myostatin → SMAD2/3 → MAFbx/MuRF1 → atrophy; Akt directly phosphorylates SMAD3 → partial inactivation of myostatin downstream signaling.
 
 IGF-1 has insulin-like metabolic effects via insulin receptor cross-activation; low serum IGF-1 associates with insulin resistance and T2DM risk; acromegaly (excess GH/IGF-1) causes secondary diabetes; IGF-1 therapy increases insulin sensitivity in severe insulin resistance syndromes.
+
+GH stimulates hepatic IGF-1 synthesis via JAK2/STAT5b — the primary somatotropic axis effector; ~75% of circulating IGF-1 comes from liver; IGF-1 feeds back to suppress both pituitary GH and hypothalamic GHRH; serum IGF-1 (age/sex-normalized) is the gold-standard diagnostic test for both acromegaly (elevated) and GH deficiency (low); recombinant IGF-1 (mecasermin) treats primary IGF-1 deficiency (Laron syndrome).
 
 [^jones-1995-igf-binding-proteins]: Jones JI, Clemmons DR. Insulin-like growth factors and their binding proteins: biological actions. *Endocr Rev.* 1995;16(1):3-34. [doi:10.1210/edrv-16-1-3](https://doi.org/10.1210/edrv-16-1-3) · [PubMed 7758431](https://pubmed.ncbi.nlm.nih.gov/7758431/)
 [^smith-2017-teprotumumab]: Smith TJ, Kahaly GJ, Ezra DG, et al. Teprotumumab for thyroid-associated ophthalmopathy. *N Engl J Med.* 2017;376(18):1748-1761. [doi:10.1056/NEJMoa1614949](https://doi.org/10.1056/NEJMoa1614949) · [PubMed 28467880](https://pubmed.ncbi.nlm.nih.gov/28467880/)

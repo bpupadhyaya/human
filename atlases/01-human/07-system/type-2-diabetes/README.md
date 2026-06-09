@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Ghrelin opposes insulin: GHSR1a in pancreatic β cells → reduced insulin secretion; obese T2DM patients have blunted ghrelin suppression after meals; GLP-1 receptor agonists suppress ghrelin surges — contributing to satiety; anamorelin (GHSR1a agonist) treats cancer cachexia."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "GH is counter-regulatory: raises plasma glucose via hepatic output and peripheral insulin resistance (GHR/STAT5 → IRS-1 serine phosphorylation); acromegaly causes T2DM in 25-40%; declining GH/IGF-1 with aging contributes to metabolic inflexibility and abdominal adiposity."
 ---
 
 # Type 2 Diabetes
@@ -166,6 +169,7 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1R agonists (semaglutide, liraglutide, dulaglutide) reduce HbA1c 1-1.5% and weight 5-15%; glucose-dependent insulin secretion avoids hypoglycemia; SUSTAIN-6 (semaglutide) and LEADER (liraglutide) showed CV risk reduction in T2D with established cardiovascular disease.
 - `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — EMPA-REG OUTCOME (empagliflozin, T2D + CVD): 14% MACE reduction, 35% CV death reduction, 35% HHF reduction; SGLT2 inhibitors reduce HbA1c ~0.7-1.0% with glucose-dependent mechanism avoiding hypoglycemia; first-line therapy in T2D with established ASCVD or heart failure.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Hyperglycemia → excess AGE formation → RAGE on endothelium and macrophages → NF-κB → VCAM-1, ICAM-1, MCP-1 → diabetic micro- and macroangiopathy; soluble RAGE (sRAGE, a decoy) is inversely associated with T2D complications; RAGE also mediates AGE-driven β-cell dysfunction.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — GH is counter-regulatory: raises plasma glucose via hepatic output and peripheral insulin resistance (GHR/STAT5 → IRS-1 serine phosphorylation); acromegaly causes T2DM in 25-40% of cases; exogenous GH raises insulin requirements; declining GH/IGF-1 with aging contributes to metabolic inflexibility.
 
 [^defronzo-2009-t2dm]: DeFronzo RA. Banting Lecture. From the triumvirate to the ominous octet: a new paradigm for the treatment of type 2 diabetes mellitus. *Diabetes.* 2009;58(4):773-795. [doi:10.2337/db09-9028](https://doi.org/10.2337/db09-9028) · [PubMed 19336687](https://pubmed.ncbi.nlm.nih.gov/19336687/)
 [^zinman-2015-empareg]: Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes. *N Engl J Med.* 2015;373(22):2117-2128. [doi:10.1056/NEJMoa1504720](https://doi.org/10.1056/NEJMoa1504720) · [PubMed 26378978](https://pubmed.ncbi.nlm.nih.gov/26378978/)

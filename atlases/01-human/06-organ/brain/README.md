@@ -193,6 +193,9 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: secretes
     note: "Anterior pituitary lactotrophs (~15% of cells) secrete prolactin under hypothalamic TIDA dopaminergic inhibition; PRLR is expressed in hippocampus and cortex; hypothyroidism raises TRH → cross-stimulates lactotrophs → secondary hyperprolactinemia."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: secretes
+    note: "Pituitary somatotrophs (~50% of anterior pituitary) secrete GH under GHRH and somatostatin control; GH pulsatility peaks during the first SWS episode; GH-secreting adenoma (acromegaly) is treated surgically by transsphenoidal adenomectomy first-line."
 ---
 
 # Brain
@@ -301,6 +304,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `secretes` → **[ACTH](../../03-molecular/acth/README.md)** — anterior pituitary corticotrophs (derived from POMC by PC1/3 cleavage) release ACTH whose circadian rhythm is driven by SCN → PVN CRH pulsatility; simultaneously, hypothalamic arcuate nucleus POMC neurons produce α-MSH acting on MC4R → appetite suppression and energy balance — a parallel POMC-derived neuroendocrine system originating in the brain.
 - `contains` → **[NPY](../../03-molecular/npy/README.md)** — NPY is the most abundant CNS neuropeptide; ARC NPY/AgRP neurons drive hunger via Y1R/Y5R on PVN; CeA NPY-Y1R circuits are anxiolytic; hippocampal NPY interneurons suppress mossy fiber bursting and set seizure threshold; LC NPY-Y2R attenuates NE stress hyperactivation.
 - `secretes` → **[Prolactin](../../03-molecular/prolactin/README.md)** — anterior pituitary lactotrophs (~15% of cells) secrete prolactin under hypothalamic TIDA dopaminergic inhibition; PRLR is expressed in hippocampus and cortex (neuroplasticity); hypothyroidism raises TRH → cross-stimulates lactotrophs → secondary hyperprolactinemia; prolactinoma is the most common pituitary adenoma.
+- `secretes` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — pituitary somatotrophs (~50% of anterior pituitary) secrete GH under GHRH and somatostatin control; GH pulsatility peaks during the first SWS episode within 1 hour of sleep onset; GH-secreting adenoma (acromegaly) is treated surgically by transsphenoidal adenomectomy first-line.
 
 ## Pathology
 
