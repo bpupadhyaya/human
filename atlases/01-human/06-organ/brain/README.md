@@ -211,6 +211,9 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: modulated-by
     note: "LEPR-Rb in hypothalamic ARC, DMH, VMH → STAT3 → ↑POMC/CART and ↓NPY/AgRP → ↓appetite and ↑energy expenditure; leptin resistance blunts this; exogenous leptin reverses starvation anovulation and immune suppression; BBB leptin transport saturates at obesity-range concentrations."
+  - target: 01-human/03-molecular/tdp-43
+    relation: connects-to
+    note: "Nuclear TDP-43 loss in motor cortex and hippocampal neurons → cryptic exon inclusion in STMN2 (axon regeneration) and UNC13A (synaptic vesicle release); cytoplasmic inclusions in motor cortex (ALS), entorhinal cortex (LATE), and hippocampus (FTLD-TDP) are regionally distinct."
 ---
 
 # Brain
@@ -325,6 +328,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — T3 (TRα1) is essential for oligodendrocyte differentiation → CNS myelination; neonatal hypothyroidism → cretinism (irreversible cognitive impairment); adult T3 regulates serotonin synthesis, synaptic density, and neurogenesis; hypothyroidism is a reversible cause of dementia.
 - `secretes` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — hypothalamic SON/PVN neurons synthesize AVP transported to the posterior pituitary for systemic release; central AVP projections (V1aR in lateral septum, amygdala) mediate social memory consolidation and pair bonding; V1bR on corticotrophs synergises with CRH to sustain HPA axis ACTH secretion.
 - `modulated-by` → **[Leptin](../../03-molecular/leptin/README.md)** — LEPR-Rb in hypothalamic ARC, DMH, and VMH neurons → JAK2/STAT3 → ↑POMC/CART and ↓NPY/AgRP → appetite suppression and ↑energy expenditure; leptin resistance in obesity impairs this signalling; leptin also regulates hypothalamic GnRH, TRH, and CRH neuroendocrine output.
+- `connects-to` → **[TDP-43](../../03-molecular/tdp-43/README.md)** — nuclear TDP-43 loss in motor cortex and hippocampal neurons → cryptic exon de-repression in STMN2 (axon regeneration) and UNC13A (synaptic vesicle release); cytoplasmic inclusions in motor cortex (ALS), entorhinal cortex (LATE), and hippocampus (FTLD-TDP) are regionally and subtype-distinct.
 
 ## Pathology
 

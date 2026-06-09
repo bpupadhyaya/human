@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Impaired autophagy (mTOR hyperactivation) delays clearance of misfolded TDP-43 aggregates; mTOR inhibition (rapamycin) reduces TDP-43 inclusion burden in ALS cell models; p62/SQSTM1 (autophagy receptor) is a consistent component of TDP-43 inclusions."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "LATE (limbic-predominant age-related TDP-43 encephalopathy) affects ~20% of octogenarians and mimics AD clinically; TDP-43 co-pathology in ~57% of AD brains worsens cognitive trajectory; nuclear loss → TDPBP cryptic exon inclusion in hippocampal neurons."
+  - target: 01-human/07-system/lewy-body-dementia
+    relation: connects-to
+    note: "TDP-43 co-pathology in ~50% of DLB brains drives hippocampal atrophy and memory impairment independent of Lewy body burden; TDP-43 inclusions in hippocampal CA1 and entorhinal cortex accelerate cognitive decline; co-pathology predicts faster dementia progression in DLB patients."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Nuclear TDP-43 loss in motor cortex and hippocampal neurons → cryptic exon inclusion in STMN2 (axon regeneration) and UNC13A (synaptic vesicle release); cytoplasmic inclusions in motor cortex (ALS), entorhinal cortex (LATE), and hippocampus (FTLD-TDP) are regionally distinct."
 ---
 
 # TDP-43
@@ -138,6 +147,12 @@ The defining pathological features of TDP-43 proteinopathy:
 **→ [ALS](../../07-system/als/)**: TDP-43 cytoplasmic inclusions are the defining pathological hallmark of >97% of ALS; TARDBP mutations cause ~4% of familial ALS; nuclear TDP-43 loss disrupts STMN2 and UNC13A splicing, driving axonal degeneration and synaptic failure in motor neurons.
 
 **→ [mTOR](../mtor/)**: impaired autophagy delays TDP-43 aggregate clearance; mTOR inhibition (rapamycin) reduces inclusion burden in ALS cell models; p62/SQSTM1 and optineurin (autophagy receptors that are mTOR-regulated) are consistent components of TDP-43 inclusions, indicating failed selective autophagy.
+
+**→ [Alzheimer's Disease](../../07-system/alzheimers-disease/)**: LATE (limbic-predominant age-related TDP-43 encephalopathy) affects ~20% of octogenarians and mimics AD clinically; TDP-43 co-pathology in ~57% of AD brains worsens cognitive trajectory; nuclear TDP-43 loss → cryptic exon inclusion in hippocampal neurons via loss of TDPBP splicing suppression.
+
+**→ [Lewy Body Dementia](../../07-system/lewy-body-dementia/)**: TDP-43 co-pathology in ~50% of DLB brains drives hippocampal atrophy and memory impairment independent of Lewy body burden; TDP-43 inclusions in hippocampal CA1 and entorhinal cortex accelerate cognitive decline; co-pathology predicts faster dementia progression in DLB.
+
+**→ [Brain](../../06-organ/brain/)**: nuclear TDP-43 loss in motor cortex and hippocampal neurons → cryptic exon de-repression in STMN2 (axon regeneration) and UNC13A (synaptic vesicle release); cytoplasmic inclusions in motor cortex (ALS), entorhinal cortex (LATE), and hippocampus (FTLD-TDP) are regionally and subtype-distinct.
 
 [^neumann-2006-tdp43-discovery]: Neumann M, Sampathu DM, Kwong LK, et al. Ubiquitinated TDP-43 in frontotemporal lobar degeneration and amyotrophic lateral sclerosis. *Science.* 2006;314(5796):130-133. [doi:10.1126/science.1134108](https://doi.org/10.1126/science.1134108) · [PubMed 17023659](https://pubmed.ncbi.nlm.nih.gov/17023659/)
 [^sreedharan-2008-tardbp-mutation]: Sreedharan J, Blair IP, Tripathi VB, et al. TDP-43 mutations in familial and sporadic amyotrophic lateral sclerosis. *Science.* 2008;319(5870):1668-1672. [doi:10.1126/science.1154584](https://doi.org/10.1126/science.1154584) · [PubMed 18309045](https://pubmed.ncbi.nlm.nih.gov/18309045/)

@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "DLB Lewy bodies accumulate in limbic cortex, cingulate, and occipital cortex → visual hallucinations (occipital hypometabolism); brainstem (substantia nigra) involvement causes parkinsonism; diffuse cortical cholinergic denervation (80% ChAT loss) drives cognitive fluctuations."
+  - target: 01-human/03-molecular/tdp-43
+    relation: connects-to
+    note: "TDP-43 co-pathology in ~50% of DLB brains drives hippocampal atrophy and memory impairment independent of Lewy body burden; TDP-43 inclusions in hippocampal CA1 and entorhinal cortex accelerate cognitive decline; co-pathology predicts faster dementia progression in DLB patients."
 ---
 
 # Lewy Body Dementia
@@ -181,6 +184,7 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[SNCA](../../03-molecular/snca/README.md)** — cortical and limbic alpha-synuclein Lewy body pathology (SNCA S129-phosphorylated fibrils) defines DLB; alpha-synuclein SAA (RT-QuIC) in CSF or skin is >90% sensitive for DLB and emerging as the key antemortem biomarker; SNCA G51D mutation causes early-onset DLB-like syndrome.
 - `connects-to` → **[MAPT](../../03-molecular/mapt/README.md)** — tau co-pathology present in 50-70% of DLB brains; MAPT H1 haplotype is a risk factor; alpha-synuclein and tau cross-seed each other; high tau burden in DLB predicts faster cognitive decline and worse prognosis.
 - `targets` → **[Brain](../../06-organ/brain/README.md)** — DLB Lewy bodies accumulate in limbic cortex, parahippocampal gyrus, cingulate, and occipital cortex → visual hallucinations and cognitive fluctuations; SNpc degeneration causes parkinsonism; diffuse cholinergic denervation (80% ChAT activity loss) underlies cognitive impairment responsive to rivastigmine.
+- `connects-to` → **[TDP-43](../../03-molecular/tdp-43/README.md)** — TDP-43 co-pathology in ~50% of DLB brains drives hippocampal atrophy and memory impairment independent of Lewy body burden; TDP-43 inclusions in hippocampal CA1 and entorhinal cortex accelerate cognitive decline; co-pathology predicts faster dementia progression in DLB.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
