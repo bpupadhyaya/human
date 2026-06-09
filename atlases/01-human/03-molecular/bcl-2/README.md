@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: modulated-by
     note: "Cytotoxic T lymphocytes (CTLs) and NK cells kill target cells by releasing granzyme B, which cleaves and activates caspase-3 and BID; BID truncation (tBID) engages the mitochondrial BCL-2 pathway; BCL-2 overexpression in tumor cells impairs CTL-mediated killing."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "CLL is the most BCL-2-dependent malignancy: del(13q14) removes miR-15a/16 BCL-2 suppressors → overexpression in all CLL B cells; venetoclax achieves ORR ~90% in CLL, MRD-undetectable remissions >50% → fixed-duration therapy possible; G101V mutation causes venetoclax resistance."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "In AML, BCL-2 provides survival for blast progenitors; priming predicts venetoclax response; VIALE-A trial: venetoclax + azacitidine → 14.7 vs 9.6 months OS in previously untreated AML unfit for intensive chemotherapy; IDH1/2-mutant AML and t(8;21) are most BCL-2-primed."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Follicular lymphoma originates from t(14;18)(q32;q21) → IGH enhancer drives BCL-2 overexpression in GC B cells → survival regardless of BCR affinity → indolent accumulation; anti-CD20 + chemotherapy is standard; BCL-2 inhibitor venetoclax is active in relapsed/refractory FL."
 ---
 
 # BCL-2
@@ -132,7 +141,13 @@ BCL-2 is expressed in long-lived cells that must resist apoptosis:
 - `expressed-by` → **[B Cell](../../04-cellular/b-cell/README.md)** — BCL-2 was discovered at the t(14;18) breakpoint in B-cell lymphoma; normal mature B cells, memory B cells, and plasma cells depend on BCL-2 for survival; overexpression in GC B cells creates follicular lymphoma.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — BCL-2 is normally downregulated in germinal centers to permit apoptosis of low-affinity clones; t(14;18)-mediated BCL-2 restoration allows survival of all GC B cells → follicular lymphoma.
 - `modulated-by` → **[T Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CTL-released granzyme B cleaves BID to tBID → engages mitochondrial apoptosis; BCL-2 overexpression in tumor cells can sequester tBID → impair CTL cytotoxicity → immune evasion.
+- `connects-to` → **[CLL](../../07-system/cll/README.md)** — CLL is the most BCL-2-dependent malignancy: del(13q14) removes miR-15a/16 BCL-2 suppressors → overexpression in all CLL B cells; venetoclax achieves ORR ~90% in CLL, MRD-undetectable remissions >50% → fixed-duration therapy possible; G101V mutation causes venetoclax resistance.
+- `connects-to` → **[AML](../../07-system/aml/README.md)** — BCL-2 provides survival for AML blast progenitors; BCL-2 priming predicts venetoclax response; VIALE-A trial: venetoclax + azacitidine → 14.7 vs 9.6 months OS in previously untreated AML unfit for intensive chemotherapy; IDH1/2-mutant AML and t(8;21) are most BCL-2-primed.
+- `connects-to` → **[Follicular Lymphoma](../../07-system/follicular-lymphoma/README.md)** — follicular lymphoma originates from t(14;18)(q32;q21) → IGH enhancer drives BCL-2 overexpression in GC B cells → survival regardless of BCR affinity → indolent accumulation; anti-CD20 + chemotherapy is standard; BCL-2 inhibitor venetoclax is active in relapsed/refractory FL.
 
 [^czabotar-2014-bcl2]: Czabotar PE, Lessene G, Strasser A, Adams JM. Control of apoptosis by the BCL-2 protein family. *Nat Rev Mol Cell Biol.* 2014;15(1):49-63. [doi:10.1038/nrm3722](https://doi.org/10.1038/nrm3722) · [PubMed 24355989](https://pubmed.ncbi.nlm.nih.gov/24355989/)
 [^roberts-2016-venetoclax-cll]: Roberts AW, Davids MS, Pagel JM, et al. Targeting BCL2 with Venetoclax in Relapsed Chronic Lymphocytic Leukemia. *N Engl J Med.* 2016;374(4):311-322. [doi:10.1056/NEJMoa1513257](https://doi.org/10.1056/NEJMoa1513257) · [PubMed 26639348](https://pubmed.ncbi.nlm.nih.gov/26639348/)
 [^tsujimoto-1984-bcl2]: Tsujimoto Y, Finger LR, Yunis J, Nowell PC, Croce CM. Cloning of the chromosome breakpoint of neoplastic B cells with the t(14;18) chromosome translocation. *Science.* 1984;226(4678):1097-1099. [doi:10.1126/science.6093263](https://doi.org/10.1126/science.6093263) · [PubMed 6093263](https://pubmed.ncbi.nlm.nih.gov/6093263/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
