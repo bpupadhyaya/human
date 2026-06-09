@@ -18,6 +18,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "CXCL12/CXCR4 is essential for B and T lymphocyte development: pro-B cells and immature B cells migrate within bone marrow guided by CXCL12; T cell thymic export → SDF-1 gradients; HIV-1 X4-tropic strains use CXCR4 as co-receptor (CD4 primary + CXCR4 secondary → cell entry)."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "CXCR4 is overexpressed on breast cancer cells; CXCL12-rich organs (bone, lung, liver) attract metastatic cells via CXCR4 → organ-specific metastasis; stromal CXCL12 amplifies primary tumor growth; CXCR4 expression correlates with lymph node involvement and poor prognosis."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "AML leukemic stem cells reside in CXCL12-rich endosteal niches via CXCR4 → quiescence and chemotherapy resistance; plerixafor mobilizes LSC from marrow niches → enhanced chemosensitivity; CXCR4-high AML has worse prognosis and higher relapse risk."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "CXCL12/CXCR4 retains MM plasma cells in bone marrow niches; plerixafor + G-CSF mobilizes CD34+ HSC for autologous stem cell transplantation in MM (AMBER trial: 72% vs 34% day-1 collection success); CXCR4 on MM cells confers marrow homing and survival signaling."
 sources:
   - id: nagasawa-1996-cxcl12
     type: peer-reviewed
@@ -105,11 +114,15 @@ CXCL12-abundant reticular (CAR) cells in bone marrow → CXCL12 gradient → CXC
 
 ## Connections
 
-CXCL12 from CAR cells (CXCL12-abundant reticular cells) → CXCR4 on HSC → Gαi → PI3K/Akt + actin polymerization → HSC retention in bone marrow niches; plerixafor (AMD3100, CXCR4 antagonist) blocks this → HSC egress into blood → collection for autologous transplant.
-
-CXCR4 gain-of-function mutations (WHIM-type S338X, C1013G) in 30-40% of WM → impaired receptor desensitization → enhanced CXCL12/CXCR4 bone marrow retention and resistance to BTK inhibitor ibrutinib; CXCR4 mutation status predicts ibrutinib response and PFS in WM.
-
-CXCL12/CXCR4 is essential for B and T lymphocyte development: pro-B cells and immature B cells migrate within bone marrow guided by CXCL12; T cell thymic export → SDF-1 gradients; HIV-1 X4-tropic strains use CXCR4 as co-receptor (CD4 primary + CXCR4 secondary → cell entry).
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — CXCL12 from CAR cells → CXCR4 on HSC → Gαi → PI3K/Akt + actin polymerization → HSC retention in bone marrow niches; plerixafor (AMD3100, CXCR4 antagonist) blocks this → HSC egress into blood → collection for autologous transplant.
+- `connects-to` → **[Waldenström Macroglobulinemia](../../07-system/waldenstrom-macroglobulinemia/README.md)** — CXCR4 GOF mutations (WHIM-type S338X, C1013G) in 30-40% of WM → impaired receptor desensitization → enhanced CXCL12/CXCR4 bone marrow retention and resistance to BTK inhibitor ibrutinib; CXCR4 mutation status predicts ibrutinib response in WM.
+- `connects-to` → **[Immune System](../../07-system/immune-system/README.md)** — CXCL12/CXCR4 is essential for B and T lymphocyte development: pro-B cells and immature B cells migrate within bone marrow guided by CXCL12; T cell thymic export → SDF-1 gradients; HIV-1 X4-tropic strains use CXCR4 as co-receptor for cell entry.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — CXCR4 is overexpressed on breast cancer cells; CXCL12-rich organs (bone, lung, liver) attract metastatic cells via CXCR4 → organ-specific metastasis; stromal CXCL12 amplifies primary tumor growth; CXCR4 expression correlates with lymph node involvement and poor prognosis.
+- `connects-to` → **[AML](../../07-system/aml/README.md)** — AML leukemic stem cells reside in CXCL12-rich endosteal niches via CXCR4 → quiescence and chemotherapy resistance; plerixafor mobilizes LSC from marrow niches → enhanced chemosensitivity; CXCR4-high AML has worse prognosis and higher relapse risk.
+- `connects-to` → **[Multiple Myeloma](../../07-system/multiple-myeloma/README.md)** — CXCL12/CXCR4 retains MM plasma cells in bone marrow niches; plerixafor + G-CSF mobilizes CD34+ HSC for autologous stem cell transplantation in MM (AMBER trial: 72% vs 34% day-1 collection success); CXCR4 on MM cells confers marrow homing and survival signaling.
 
 [^nagasawa-1996-cxcl12]: Nagasawa T, Hirota S, Tachibana K, et al. Defects of B-cell lymphopoiesis and bone-marrow myelopoiesis in mice lacking the CXC chemokine PBSF/SDF-1. *Nature.* 1996;382(6592):635-638. [doi:10.1038/382635a0](https://doi.org/10.1038/382635a0) · [PubMed 8757135](https://pubmed.ncbi.nlm.nih.gov/8757135/)
 [^dipersio-2009-plerixafor]: DiPersio JF, Stadtmauer EA, Nademanee A, et al. Plerixafor and G-CSF versus placebo and G-CSF to mobilize hematopoietic stem cells for autologous stem-cell transplantation in patients with multiple myeloma. *Blood.* 2009;113(23):5720-5726. [doi:10.1182/blood-2008-08-174946](https://doi.org/10.1182/blood-2008-08-174946) · [PubMed 19363221](https://pubmed.ncbi.nlm.nih.gov/19363221/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/sclerostin
     relation: connects-to
     note: "MM-secreted DKK1 and osteocyte sclerostin synergistically block osteoblast Wnt → uncoupled osteolysis; sclerostin inhibition in MM preclinical models restores osteoblast function and reduces lytic lesions; anti-DKK1 antibody (BHQ880) is in clinical trials for MM bone disease."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "MM plasma cells use CXCL12/CXCR4 for bone marrow homing and survival; plerixafor (AMD3100, CXCR4 antagonist) + G-CSF mobilizes HSC for ASCT in MM (AMBER trial: superior day-1 CD34+ yield); CXCR4 expression on MM cells associates with marrow retention and drug resistance."
 ---
 
 # Multiple Myeloma
@@ -184,6 +187,7 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF is produced by myeloma cells and BMSCs → bone marrow angiogenesis → disease progression; VEGF promotes myeloma survival via VEGFR → PI3K-AKT; thalidomide and lenalidomide exert anti-angiogenic effects via VEGF suppression; bortezomib reduces VEGF secretion.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MM cells secrete RANKL → osteoclast hyperactivation → osteolytic lesions and hypercalcemia; MM cells exploit OPG TRAIL-decoy function for survival; Xgeva (denosumab 120 mg Q4W) reduces skeletal-related events in MM bone disease.
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — MM-secreted DKK1 and osteocyte sclerostin synergistically block osteoblast Wnt → uncoupled osteolysis; sclerostin inhibition in MM preclinical models restores osteoblast function and reduces lytic lesions; anti-DKK1 antibody (BHQ880) is in clinical trials for MM bone disease.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — MM plasma cells use CXCL12/CXCR4 for bone marrow homing and survival; plerixafor (AMD3100, CXCR4 antagonist) + G-CSF mobilizes HSC for ASCT in MM (AMBER trial: superior day-1 CD34+ yield); CXCR4 expression on MM cells associates with marrow retention and drug resistance.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

@@ -39,7 +39,10 @@ cross_links:
     note: "BCL-2 is overexpressed in ~80% of AML blasts; venetoclax + azacitidine (VIALE-A) improved OS vs. azacitidine alone in untreated AML (14.7 vs. 9.6 months); venetoclax sensitivity correlates with BCL-2/MCL-1 ratio; MCL-1 upregulation is the primary venetoclax resistance mechanism."
   - target: 01-human/03-molecular/p53
     relation: connects-to
-    note: "TP53 mutations in ~7% of de novo AML and ~30% of therapy-related AML; TP53-mutant AML is highly drug-resistant; decitabine/azacitidine + venetoclax modestly active; magrolimab + azacitidine showed activity; eprenetapopt (APR-246) refolded mutant p53 but phase 3 trials negative."
+    note: "TP53 mutations in ~7% de novo AML and ~30% therapy-related AML; TP53-mutant AML is highly drug-resistant; decitabine/azacitidine + venetoclax modestly active; magrolimab + azacitidine showed activity; eprenetapopt (APR-246) refolded mutant p53 but phase 3 trials negative."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "AML LSCs exploit CXCL12/CXCR4 for bone marrow niche retention and chemotherapy protection; plerixafor (CXCR4 antagonist) disrupts niche retention → sensitizes LSC to chemotherapy; high CXCR4 expression is an adverse prognostic feature in AML and correlates with relapse."
 ---
 
 # AML
@@ -158,6 +161,7 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC is amplified and overexpressed in AML; FLT3-ITD and NPM1 mutations upregulate MYC via STAT5/HOXA9; MYC drives LSC self-renewal; BET bromodomain inhibitors (JQ1, ABBV-075) suppress MYC transcription in AML; menin inhibitors downregulate HOXA9-MYC axis in KMT2A-r and NPM1-mutant AML.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 is overexpressed in ~80% of AML blasts; venetoclax (BCL-2 inhibitor) + azacitidine (VIALE-A) improved OS vs. azacitidine alone in untreated AML (14.7 vs. 9.6 months); venetoclax sensitivity correlates with BCL-2/MCL-1 ratio; MCL-1 upregulation is the primary venetoclax resistance mechanism.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations in ~7% of de novo AML and ~30% of therapy-related AML; TP53-mutant AML is highly drug-resistant; decitabine/azacitidine + venetoclax modestly active; magrolimab (anti-CD47) + azacitidine showed activity; eprenetapopt (APR-246) refolded mutant p53 but phase 3 trials negative.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — AML LSCs exploit CXCL12/CXCR4 for bone marrow niche retention and chemotherapy protection; plerixafor (CXCR4 antagonist) disrupts niche retention → sensitizes LSC to chemotherapy; high CXCR4 expression is an adverse prognostic feature in AML and correlates with relapse.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
