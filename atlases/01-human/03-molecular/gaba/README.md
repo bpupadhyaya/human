@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Reduced GABA in amygdala, hippocampus, and PFC (MRS studies) allows excitatory anxiety circuits to dominate in GAD; benzodiazepines provide rapid relief via GABA-A allosteric potentiation but risk dependence; pregabalin reduces glutamate/GABA imbalance via α2δ VGCC blockade."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "GABA-A activation by benzodiazepines (clonazepam, alprazolam) rapidly terminates panic attacks; reduced BZ binding in temporal lobe in PD suggests GABAergic deficit; BZDs bridge therapy while SSRIs take effect but avoided long-term due to dependence and impaired extinction."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Benzodiazepines (clonazepam) are effective for SAD but dependency concerns limit use; GABAergic deficits in limbic circuits may impair amygdala threat dampening in social situations; pregabalin and gabapentin show evidence for SAD as alternative GABAergic treatments."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol potentiates GABA-A → sedation and tolerance; chronic use → GABA-A downregulation; abrupt cessation → GABA-A insufficiency → withdrawal seizures (6-48h) and delirium tremens (24-72h); GABRA2 (α2 subunit) polymorphisms are the strongest GWAS hit for AUD."
 ---
 
 # GABA
@@ -184,6 +193,9 @@ When E/I balance shifts toward excess excitation (loss of GABAergic interneurons
 - `connects-to` → **[Autism Spectrum Disorder](../../07-system/autism-spectrum-disorder/README.md)** — reduced GABAergic inhibition contributes to cortical E/I imbalance in ASD; GABA-A subunit mutations (GABRA1, GABRB3) are associated with ASD; PV interneuron deficits in ASD cortex reduce inhibitory tone and contribute to sensory hypersensitivity.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../../07-system/obsessive-compulsive-disorder/README.md)** — reduced GABAergic inhibitory tone in OFC and striatum (MRS studies) contributes to CSTC circuit hyperactivity in OCD; benzodiazepines provide acute relief but don't modify disease course; D-cycloserine augments ERP via enhanced NMDA-dependent fear extinction learning.
 - `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — reduced GABA in amygdala, hippocampus, and PFC (MRS studies) allows excitatory anxiety circuits to dominate in GAD; benzodiazepines provide rapid symptom relief via GABA-A allosteric potentiation; pregabalin reduces glutamate/substance P release via α2δ VGCC blockade.
+- `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — GABA-A activation by benzodiazepines (clonazepam, alprazolam) rapidly terminates panic attacks; reduced BZ binding in temporal lobe in PD suggests a GABAergic deficit; BZDs bridge therapy while SSRIs take effect but avoided long-term due to dependence and impaired fear extinction.
+- `connects-to` → **[Social Anxiety Disorder](../../07-system/social-anxiety-disorder/README.md)** — benzodiazepines (clonazepam) are effective for SAD but dependency concerns limit use; GABAergic deficits in limbic circuits may impair amygdala threat dampening in social situations; pregabalin and gabapentin show evidence for SAD as GABAergic alternatives.
+- `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol potentiates GABA-A → sedation and tolerance; chronic use → GABA-A downregulation → tolerance; abrupt cessation → GABA-A insufficiency → withdrawal seizures (6–48h) and delirium tremens; GABRA2 polymorphisms are the strongest GWAS association with AUD.
 
 ## Pathology
 

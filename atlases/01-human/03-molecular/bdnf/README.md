@@ -55,6 +55,9 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "BDNF Val66Met SNP is over-represented in ADHD; BDNF supports PFC dopaminergic circuit maturation; stimulant treatment increases BDNF in PFC; aerobic exercise, which robustly raises BDNF, reduces ADHD symptom severity and improves executive function outcomes in children."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Chronic alcohol reduces BDNF in NAcc and dorsomedial striatum → impairs BDNF-mediated braking on compulsive drinking; BDNF infusion into NAcc reduces ethanol preference in rodent models; abstinence partially restores BDNF; Val66Met BDNF SNP associated with AUD vulnerability."
 ---
 
 # BDNF
@@ -183,6 +186,8 @@ The ratio of proBDNF to mature BDNF in synapses has opposing functional conseque
 **→ [Huntington Disease](../../07-system/huntingtons-disease/)**: mHTT disrupts REST/NRSF cytoplasmic sequestration → nuclear REST represses BDNF transcription; mHTT impairs HAP1-mediated BDNF vesicle transport from cortex to striatum, depriving striatal MSNs of trophic support; BDNF/TrkB signaling restoration is a key therapeutic goal in HD.
 
 **→ [ADHD](../../07-system/attention-deficit-hyperactivity-disorder/)**: BDNF Val66Met SNP is over-represented in ADHD; BDNF supports PFC dopaminergic circuit maturation; stimulant treatment increases BDNF expression in PFC; aerobic exercise, which robustly raises BDNF, reduces ADHD symptom severity and improves executive function outcomes in children.
+
+**→ [Alcohol Use Disorder](../../07-system/alcohol-use-disorder/)**: chronic alcohol reduces BDNF in NAcc and dorsomedial striatum → impairs BDNF-mediated braking on compulsive drinking; BDNF infusion into NAcc reduces ethanol preference in rodent models; abstinence partially restores BDNF; Val66Met BDNF SNP is associated with increased AUD vulnerability.
 
 [^barde-1982-bdnf-discovery]: Barde YA, Edgar D, Thoenen H. Purification of a new neurotrophic factor from mammalian brain. *EMBO J.* 1982;1(5):549-553. [doi:10.1002/j.1460-2075.1982.tb01207.x](https://doi.org/10.1002/j.1460-2075.1982.tb01207.x) · [PubMed 7188352](https://pubmed.ncbi.nlm.nih.gov/7188352/)
 [^duman-2012-bdnf-depression]: Duman RS, Aghajanian GK. Synaptic dysfunction in depression: potential therapeutic targets. *Science.* 2012;338(6103):68-72. [doi:10.1126/science.1222939](https://doi.org/10.1126/science.1222939) · [PubMed 23042884](https://pubmed.ncbi.nlm.nih.gov/23042884/)

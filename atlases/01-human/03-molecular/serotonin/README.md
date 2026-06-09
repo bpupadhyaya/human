@@ -63,6 +63,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "SSRIs (escitalopram, sertraline) and SNRIs (venlafaxine, duloxetine) are first-line GAD pharmacotherapy; buspirone (5-HT1A partial agonist) is a non-addictive alternative; serotonergic deficiency in amygdala-PFC circuits contributes to hypervigilance and pathological worry."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "SSRIs are first-line for panic disorder via raphe-amygdala serotonin modulation of the fear circuit; paradoxical jitteriness requires starting low; paroxetine and sertraline have strong evidence; clomipramine (5-HT/NE TCA) is highly effective but limited by side effects."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Reduced SERT binding in amygdala and striatum in SAD; SSRIs (paroxetine, sertraline FDA-approved; escitalopram, venlafaxine XR evidence-based) are first-line pharmacotherapy; serotonergic modulation of amygdala reduces social threat hyperreactivity and improves social function."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Reduced serotonin in AUD → disinhibition and impulsivity; 5-HT3 receptors in NAcc amplify dopamine reward; ondansetron (5-HT3 antagonist) has modest efficacy in early-onset AUD (≤25 years); SSRIs are ineffective in AUD without comorbid depression."
 ---
 
 # Serotonin
@@ -175,6 +184,9 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Bipolar Disorder](../../07-system/bipolar-disorder/README.md)** — SSRIs risk manic switching in bipolar disorder and are contraindicated as monotherapy; atypical antipsychotics with 5-HT2A blockade (quetiapine) treat bipolar depression without switch risk; serotonergic antidepressants require mood stabilizer cover.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../../07-system/obsessive-compulsive-disorder/README.md)** — SSRIs at high doses are uniquely effective for OCD (vs. imipramine/desipramine which are ineffective), establishing a privileged role for 5-HT; clomipramine (SRI-dominant TCA) has equivalent efficacy; 5-HT modulates OFC-striatal CSTC circuit; 8-12 weeks at maximum dose required.
 - `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — SSRIs (escitalopram, sertraline) and SNRIs (duloxetine, venlafaxine) are first-line GAD pharmacotherapy; buspirone (5-HT1A partial agonist) is a non-addictive alternative; serotonergic deficiency in amygdala-PFC circuits contributes to hypervigilance and pathological worry.
+- `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — SSRIs are first-line for panic disorder via raphe-amygdala serotonin modulation of the fear circuit; paradoxical jitteriness in initial weeks requires starting low and titrating slowly; paroxetine and sertraline have strong evidence; clomipramine (5-HT/NE TCA) is highly effective.
+- `connects-to` → **[Social Anxiety Disorder](../../07-system/social-anxiety-disorder/README.md)** — reduced SERT binding in amygdala and striatum in SAD; SSRIs (paroxetine, sertraline FDA-approved; escitalopram, venlafaxine XR evidence-based) are first-line; serotonergic modulation of amygdala reduces social threat hyperreactivity and improves social approach.
+- `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — reduced serotonin in AUD → disinhibition and impulsivity; 5-HT3 receptors in NAcc amplify dopamine reward; ondansetron (5-HT3 antagonist) has modest efficacy in early-onset AUD; SSRIs are ineffective in AUD without comorbid depression.
 
 ## Pathology
 

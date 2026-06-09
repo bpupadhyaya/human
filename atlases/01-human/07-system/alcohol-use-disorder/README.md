@@ -1,0 +1,243 @@
+---
+schema: human-scale-entry/v1
+id: alcohol-use-disorder
+name: Alcohol Use Disorder
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-08
+summary: "Alcohol use disorder (14.5% lifetime) involves GABA-A potentiation → tolerance and withdrawal seizures (glutamate rebound), VTA-dopamine reward, and CRF-driven negative reinforcement; treatment: naltrexone, acamprosate, benzodiazepine detox, CBT, 12-step programs."
+aliases: ["alcohol use disorder", "AUD", "alcoholism", "alcohol dependence", "AUDIT", "naltrexone", "acamprosate", "Wernicke-Korsakoff", "alcohol withdrawal", "CIWA"]
+sources:
+  - id: rehm-2017-aud-burden
+    type: peer-reviewed
+    cite: "Rehm J, Shield KD. Global Burden of Alcohol Use Disorders and Alcohol Liver Disease. Biomedicines. 2019;7(4):99."
+    doi: "10.3390/biomedicines7040099"
+    pmid: "31752397"
+    url: "https://doi.org/10.3390/biomedicines7040099"
+    accessed: "2026-06-08"
+  - id: koob-2013-addiction-neuroscience
+    type: peer-reviewed
+    cite: "Koob GF, Volkow ND. Neurocircuitry of addiction. Neuropsychopharmacology. 2010;35(1):217-238."
+    doi: "10.1038/npp.2009.110"
+    pmid: "19710631"
+    url: "https://doi.org/10.1038/npp.2009.110"
+    accessed: "2026-06-08"
+  - id: anton-2006-combine
+    type: peer-reviewed
+    cite: "Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. JAMA. 2006;295(17):2003-2017."
+    doi: "10.1001/jama.295.17.2003"
+    pmid: "16670409"
+    url: "https://doi.org/10.1001/jama.295.17.2003"
+    accessed: "2026-06-08"
+cross_links:
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Alcohol potentiates GABA-A → sedation and tolerance; chronic use → GABA-A downregulation; abrupt cessation → GABA-A insufficiency → withdrawal seizures (6-48h) and delirium tremens (24-72h); GABRA2 (α2 subunit) polymorphisms are the strongest GWAS hit for AUD."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Alcohol inhibits NMDA receptors (NR2B) → blackouts; chronic use → compensatory NMDA upregulation; abrupt withdrawal → glutamate excitotoxicity → seizures and Wernicke-Korsakoff syndrome; acamprosate normalizes NMDA/GABA balance in protracted abstinence."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Alcohol stimulates VTA dopamine release → NAcc → euphoria and positive reinforcement; DRD2 Taq1A A1 allele → reduced D2 receptor density → compensatory drinking; naltrexone blocks opioid-mediated VTA DA release → reduces alcohol reward and craving."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Reduced serotonin in AUD → disinhibition and impulsivity; 5-HT3 receptors in NAcc amplify dopamine reward; ondansetron (5-HT3 antagonist) has modest efficacy in early-onset AUD (≤25 years); SSRIs are ineffective in AUD without comorbid depression."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Chronic alcohol reduces BDNF in NAcc and dorsomedial striatum → impairs BDNF-mediated braking on compulsive drinking; BDNF infusion into NAcc reduces ethanol preference in rodent models; abstinence partially restores BDNF; Val66Met BDNF SNP associated with AUD vulnerability."
+  - target: 01-human/06-organ/brain
+    relation: targets
+    note: "AUD weakens PFC-NAcc inhibitory control circuits; amygdala CRF hyperactivation drives negative reinforcement drinking; hippocampal neurogenesis is suppressed by chronic alcohol; partial brain volume recovery occurs after ≥6 months sustained abstinence."
+---
+
+# Alcohol Use Disorder
+
+## Overview
+
+**Alcohol use disorder (AUD)** is a chronic, relapsing brain disorder defined by loss of control over alcohol consumption despite harmful consequences. It is among the most prevalent and costly psychiatric and medical conditions worldwide, causing neurological, hepatic, cardiovascular, and psychosocial harms.
+
+**Epidemiology:**
+- Lifetime prevalence: 14.5% (US adults); 12-month prevalence ~5.3%
+- ~95,000 deaths attributable to alcohol per year in the US; global burden ~3 million deaths/year
+- Male-to-female ratio: 2:1 (lifetime); gap narrowing in younger cohorts
+- Heritability: ~50–60%; strongly polygenic with gene-environment interactions
+
+**DSM-5 Criteria (≥2 of 11 in 12 months):**
+
+| Criterion | Domain |
+|:---|:---|
+| Drinking more/longer than intended | Loss of control |
+| Persistent desire or failed efforts to cut down | Loss of control |
+| Much time spent obtaining/recovering | Salience |
+| Craving | Motivation |
+| Failure to fulfill role obligations | Harmful use |
+| Continued despite social/interpersonal problems | Harmful use |
+| Giving up activities | Social withdrawal |
+| Hazardous use | Risk-taking |
+| Continued despite physical/psychological harm | Continued despite harm |
+| Tolerance (markedly increased amounts for effect, or diminished effect) | Neuroadaptation |
+| Withdrawal (withdrawal syndrome or drinking to relieve/avoid withdrawal) | Neuroadaptation |
+
+**Severity:** Mild (2–3 criteria), Moderate (4–5), Severe (≥6)
+
+**Screening tools:**
+- **AUDIT (Alcohol Use Disorders Identification Test):** 10-item validated screen; AUDIT ≥8 = hazardous; ≥15 = likely AUD; best primary care screen
+- **CAGE questionnaire:** Cut down? Annoyed? Guilty? Eye-opener? ≥2 positive → AUD screen positive
+- **Biomarkers:** GGT, MCV, CDT (carbohydrate-deficient transferrin, most specific), urine EtG/EtS
+
+## Structure
+
+### Neurobiology of alcohol and addiction
+
+**Koob's three-stage addiction cycle** [^koob-2013-addiction-neuroscience] describes AUD progression:
+
+**Stage 1 — Binge/Intoxication (positive reinforcement):**
+- Alcohol → VTA dopamine → nucleus accumbens (NAcc) → euphoria, reward
+- GABA-A potentiation → disinhibition, anxiolysis, motor impairment
+- NMDA inhibition → cognitive impairment, blackouts
+- **Key circuits:** VTA → NAcc; BLA → NAcc (stimulus-reward learning)
+
+**Stage 2 — Withdrawal/Negative Affect (negative reinforcement):**
+- Chronic alcohol → GABA-A downregulation + NMDA upregulation → withdrawal state when alcohol removed
+- **Amygdala CRF hyperactivation:** CRF (corticotropin-releasing factor) release in central amygdala (CeA) drives withdrawal anxiety, irritability, and dysphoria → drinking to relieve distress (negative reinforcement)
+- Extended amygdala (CeA + BNST) becomes the dominant driver of drinking at this stage
+- Reduced opioid/dopamine reward → anhedonia in abstinence (protracted abstinence syndrome)
+
+**Stage 3 — Preoccupation/Anticipation (craving/relapse):**
+- PFC (OFC, dlPFC, ACC) lose inhibitory control over NAcc and amygdala
+- OFC hyperactivity → salience attribution to alcohol cues
+- dlPFC hypofunction → impaired inhibitory control
+- **Key circuits:** PFC → striatum (habit formation); PFC → amygdala (impaired regulation)
+
+### Molecular mechanisms
+
+**GABA-A receptor pharmacology:**
+- Alcohol positive allosteric modulator at GABA-A receptors (particularly δ-subunit-containing extrasynaptic receptors and synaptic receptors with γ2 subunit)
+- Acute: Cl⁻ flux increases → hyperpolarization → sedation, anxiolysis, ataxia
+- Chronic: Receptor subunit composition shifts (α4/δ upregulates, α1/γ2 downregulates) → reduced GABAergic tone → tolerance → need more alcohol for same effect
+- **Withdrawal:** Reduced GABA-A function + unmasked NMDA upregulation → neuronal hyperexcitability → seizures, delirium tremens
+
+**NMDA receptor dynamics:**
+- Acute: Alcohol inhibits NMDA receptors (preferentially NR2B-containing) → disrupts LTP → memory impairment, blackouts
+- Chronic: Compensatory NR2B upregulation + increased expression → sensitized NMDA → withdrawal excitotoxicity
+- Wernicke-Korsakoff: Thiamine (B1) deficiency → impairs Krebs cycle → insufficient ATP → glutamate excitotoxicity in mammillary bodies and medial thalamus → memory circuit destruction (Korsakoff syndrome)
+
+**Dopamine reward:**
+- Alcohol stimulates VTA dopamine via μ-opioid receptors on VTA GABAergic interneurons → disinhibition → increased DA firing → NAcc DA release
+- DRD2 Taq1A polymorphism (A1 allele) → 30–40% fewer D2 receptors in striatum → reduced reward sensitivity → higher consumption to achieve reward
+- Naltrexone mechanism: μ-opioid receptor blockade → prevents alcohol-induced VTA disinhibition → reduces NAcc DA surge → blunts "high"
+
+**Endocannabinoid modulation:**
+- CB1 receptors in NAcc, VTA, and amygdala modulate alcohol reward and anxiety
+- Alcohol triggers endocannabinoid release (2-AG, AEA) → retrograde CB1 activation → facilitates dopamine and GABA signaling during intoxication
+- CB1 antagonist rimonabant reduced drinking in trials but withdrawn for depression/suicidality
+
+### Genetics
+
+| Gene | Variant | Effect |
+|:---|:---|:---|
+| **ALDH2** | *2 (Asian populations) | Impaired acetaldehyde metabolism → flushing → strongly protective |
+| **ADH1B** | *3 (rs1229984) | Rapid ethanol → acetaldehyde → reduced palatability; protective |
+| **GABRA2** | Multiple SNPs | GABA-A α2 subunit; strongest GWAS hit for AUD |
+| **DRD2** | Taq1A (A1 allele) | Reduced D2 density → reward deficit; AUD risk |
+| **OPRM1** | A118G (Asn40Asp) | Increased opioid system activation by alcohol; predicts naltrexone response |
+
+## Function
+
+### Alcohol metabolism and toxicity
+
+**Ethanol catabolism:**
+1. **Ethanol → Acetaldehyde:** Alcohol dehydrogenase (ADH; liver cytosol); CYP2E1 (high alcohol load/chronic use; generates reactive oxygen species)
+2. **Acetaldehyde → Acetate:** Aldehyde dehydrogenase (ALDH; mainly ALDH2 in liver mitochondria)
+3. **Acetate → CO₂ + H₂O:** Peripheral tissues
+
+**ALDH2 inhibition (disulfiram mechanism):** Blocks step 2 → acetaldehyde accumulation → flushing, nausea, palpitations, vomiting → aversive conditioning
+
+**Hepatotoxicity cascade:**
+- Acetaldehyde protein adducts → hepatocyte damage
+- CYP2E1 → reactive oxygen species → oxidative stress → fatty liver → alcoholic hepatitis → cirrhosis
+- LPS from gut microbiome (alcohol disrupts gut barrier) → TLR4 → Kupffer cell activation → TNF-α → hepatic inflammation
+
+### Neurological complications
+
+| Complication | Mechanism | Onset |
+|:---|:---|:---|
+| **Alcohol withdrawal seizures** | GABA-A ↓ + NMDA ↑ excitotoxicity | 6–48h after last drink |
+| **Delirium tremens (DTs)** | Severe autonomic instability; 5% mortality untreated | 24–72h; peak 48h |
+| **Wernicke's encephalopathy** | Thiamine deficiency → pyruvate → glutamate excitotoxicity | Acute; classic triad: confusion, ataxia, ophthalmoplegia |
+| **Korsakoff syndrome** | Mammillary body + mediodorsal thalamus lesions → anterograde amnesia | Chronic; follows Wernicke's |
+| **Alcoholic neuropathy** | Thiamine deficiency + direct ethanol toxicity | Insidious; distal symmetric sensorimotor |
+| **Alcoholic cerebellar degeneration** | Anterior-superior vermis vulnerability; thiamine + ethanol | Progressive gait ataxia |
+
+## Pathology
+
+### CIWA-Ar: Alcohol Withdrawal Assessment
+
+The **Clinical Institute Withdrawal Assessment for Alcohol — Revised (CIWA-Ar)** is the standard bedside tool (10 items: nausea, tremor, diaphoresis, anxiety, agitation, perceptual disturbances, tactile/auditory/visual disturbances, headache, orientation):
+- Score 0–9: Mild; outpatient monitoring possible
+- Score 10–19: Moderate; consider BZD titration
+- Score ≥20: Severe; hospitalization; high DT risk
+
+### Fetal Alcohol Spectrum Disorder (FASD)
+
+Prenatal alcohol exposure → leading preventable cause of intellectual disability:
+- **Fetal Alcohol Syndrome (FAS):** Facial dysmorphology (smooth philtrum, thin vermilion, small palpebral fissures) + growth restriction + CNS dysfunction
+- Mechanism: Alcohol inhibits neuronal migration, increases apoptosis (NMDA block in neural progenitors), disrupts BDNF signaling
+- No safe amount of alcohol in pregnancy established
+
+### Treatment
+
+**Medical Detoxification:**
+
+| Agent | Mechanism | Notes |
+|:---|:---|:---|
+| **Diazepam (long-acting)** | GABA-A agonist | Standard for DT prevention; long half-life provides smooth taper |
+| **Lorazepam** | GABA-A agonist | Preferred in liver disease (glucuronidation not impaired); short-acting |
+| **Chlordiazepoxide** | GABA-A agonist | Long-acting; classic inpatient protocol |
+| **Carbamazepine** | Na+ channel blocker | Alternative in mild-moderate withdrawal; reduces kindling; no dependency |
+| **Thiamine (B1)** | Cofactor restoration | 100–500mg IV/IM BEFORE glucose in any AUD patient |
+| **Gabapentin** | Calcium channel α2δ | Reduces withdrawal anxiety; useful outpatient detox adjunct |
+
+**Relapse Prevention:**
+
+| Medication | Mechanism | NNT | Notes |
+|:---|:---|:---|:---|
+| **Naltrexone** | μ-opioid antagonist | ~8–12 | Reduces craving and alcohol reward; daily or extended-release monthly injection (Vivitrol); COMBINE trial [^anton-2006-combine] support |
+| **Acamprosate** | NMDA modulator + GABA-A agonist | ~12 | Normalizes glutamate/GABA balance in protracted withdrawal; best for abstinence maintenance; not in active heavy drinking |
+| **Disulfiram** | ALDH inhibitor | Varies | Supervised use most effective; contraindicated with any hidden alcohol exposure; severe cardiovascular reaction possible |
+| **Nalmefene** | Opioid antagonist + κ partial agonist | — | As-needed dosing before anticipated drinking; approved EU; reduces heavy drinking days |
+| **Baclofen** | GABA-B agonist | — | Reduces craving and anxiety-driven drinking; approved France; extensive off-label evidence; FDA IND ongoing |
+| **Gabapentin** | α2δ calcium channel | — | Reduces protracted abstinence anxiety/insomnia; widely used off-label |
+| **Ondansetron** | 5-HT3 antagonist | — | Modest efficacy in early-onset AUD (onset ≤25 years); reduces genotype-specific craving |
+
+**Psychosocial treatments:**
+- **Alcoholics Anonymous (AA) / 12-step facilitation:** Peer support; spiritual framework; sustained abstinence rates correlate with meeting attendance; free and widely accessible
+- **SMART Recovery:** Science-based alternative to 12-step; CBT-based; accepts harm reduction goals
+- **Motivational Enhancement Therapy (MET):** Brief 4-session motivational interviewing-based; COMBINE trial component; enhances intrinsic motivation to change
+- **CBT for relapse prevention:** Identifies and addresses triggers, cognitive distortions, and high-risk situations; drink refusal skills; coping with craving
+
+**Harm reduction approaches:**
+- **Controlled drinking:** Viable goal in mild-moderate AUD; reduces harm even without abstinence
+- **Managed alcohol programs:** Supervised drinking in severe AUD homeless populations; reduces crisis interventions, hospitalizations, and criminalization
+- **Naltrexone "as-needed":** Target-controlled dosing before drinking occasions to reduce binge episodes
+
+## Connections
+
+- `connects-to` → **[GABA](../../../03-molecular/gaba/README.md)** — alcohol potentiates GABA-A → sedation and tolerance; chronic use → GABA-A downregulation; abrupt cessation → GABA-A insufficiency → withdrawal seizures (6–48h) and delirium tremens (24–72h); GABRA2 (α2 subunit) polymorphisms are the strongest GWAS association with AUD.
+
+- `connects-to` → **[Glutamate](../../../03-molecular/glutamate/README.md)** — alcohol inhibits NMDA receptors (NR2B) → blackouts; chronic use → compensatory NMDA upregulation; abrupt withdrawal → glutamate excitotoxicity → seizures and Wernicke-Korsakoff syndrome; acamprosate normalizes NMDA/GABA balance in protracted abstinence to prevent relapse.
+
+- `connects-to` → **[Dopamine](../../../03-molecular/dopamine/README.md)** — alcohol stimulates VTA dopamine release → NAcc → euphoria and positive reinforcement; DRD2 Taq1A A1 allele → reduced D2 receptor density → compensatory drinking; naltrexone blocks opioid-mediated VTA DA release → reduces alcohol reward and craving.
+
+- `connects-to` → **[Serotonin](../../../03-molecular/serotonin/README.md)** — reduced serotonin function in AUD → disinhibition and impulsivity; 5-HT3 receptors in NAcc amplify dopamine reward; ondansetron (5-HT3 antagonist) has modest efficacy in early-onset AUD (≤25 years); SSRIs are ineffective in AUD without comorbid depression.
+
+- `connects-to` → **[BDNF](../../../03-molecular/bdnf/README.md)** — chronic alcohol reduces BDNF in NAcc and dorsomedial striatum → impairs BDNF-mediated braking on compulsive drinking; BDNF infusion into NAcc reduces ethanol preference in rodent models; abstinence partially restores BDNF; Val66Met BDNF SNP associated with AUD vulnerability.
+
+- `targets` → **[Brain](../../../06-organ/brain/README.md)** — AUD weakens PFC-NAcc inhibitory control circuits; amygdala CRF hyperactivation drives negative reinforcement drinking; hippocampal neurogenesis is suppressed by chronic alcohol; partial brain volume recovery occurs after ≥6 months of sustained abstinence.
+
+[^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
+[^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

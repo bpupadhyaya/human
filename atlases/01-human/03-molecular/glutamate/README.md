@@ -72,6 +72,12 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Excessive amygdala glutamatergic activity drives hypervigilance and threat anticipation in GAD; pregabalin reduces glutamate/substance P release via α2δ VGCC blockade; elevated ACC glutamate (MRS) contributes to worry maintenance; NMDA receptors mediate fear extinction learning."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "NMDA receptor activation in BLA mediates fear memory consolidation in panic disorder; excessive glutamate signaling amplifies amygdala hyperreactivity; D-cycloserine (partial NMDA agonist) enhances extinction learning in CBT augmentation trials for panic disorder."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol inhibits NMDA receptors (NR2B) → blackouts; chronic use → compensatory NMDA upregulation; abrupt withdrawal → glutamate excitotoxicity → seizures and Wernicke-Korsakoff syndrome; acamprosate normalizes NMDA/GABA balance in protracted abstinence."
 ---
 
 # Glutamate
@@ -164,6 +170,8 @@ In ischemia, oxygen/glucose deprivation reverses ion gradients and drives massiv
 - `connects-to` → **[Huntington Disease](../../07-system/huntingtons-disease/README.md)** — striatal MSNs receive massive glutamatergic input from cortex; mHTT sensitizes MSNs to NMDA excitotoxicity via NR2B (GluN2B) dysregulation; riluzole and memantine reduce excitotoxic MSN death in HD preclinical models; E/I imbalance contributes to early HD cognitive symptoms.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../../07-system/obsessive-compulsive-disorder/README.md)** — glutamatergic hyperactivity in OFC-striatum projections drives compulsive symptom circuits; CSF glutamate is elevated in OCD; riluzole and memantine reduce OCD symptoms in RCTs; ketamine produces rapid anti-compulsive effects in treatment-resistant OCD.
 - `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — excessive amygdala glutamatergic activity drives hypervigilance and threat anticipation in GAD; pregabalin reduces glutamate/substance P release via α2δ VGCC blockade; elevated ACC glutamate (MRS) contributes to worry maintenance; NMDA receptors mediate fear extinction learning.
+- `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — NMDA receptor activation in BLA mediates fear memory consolidation; excessive glutamate signaling amplifies amygdala hyperreactivity; D-cycloserine (partial NMDA agonist) enhances extinction learning in CBT augmentation trials for panic disorder.
+- `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol inhibits NMDA receptors (NR2B) → blackouts; chronic use → compensatory NMDA upregulation; abrupt withdrawal → glutamate excitotoxicity → seizures and Wernicke-Korsakoff syndrome; acamprosate normalizes NMDA/GABA balance in protracted abstinence.
 
 ## Pathology
 

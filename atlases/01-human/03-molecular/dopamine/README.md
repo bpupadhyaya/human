@@ -67,6 +67,12 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "ADHD involves hypofunctional PFC D1 receptor signaling impairing working memory; methylphenidate blocks DAT and amphetamines reverse DAT to actively release DA; COMT Val158Met SNP (rapid catabolism) increases ADHD risk; striatal DA deficit reduces motivation for deferred rewards."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Reduced D2 binding in striatum in SAD (SPECT) → impaired social reward processing and anhedonia; dopaminergic deficits distinguish SAD from other anxiety disorders; blunted approach motivation reinforces avoidance; MAOIs highly effective possibly via dopamine disinhibition."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol stimulates VTA dopamine release → NAcc → euphoria and positive reinforcement; DRD2 Taq1A A1 allele → reduced D2 receptor density → compensatory drinking; naltrexone blocks opioid-mediated VTA DA release → reduces alcohol reward and craving."
 ---
 
 # Dopamine
@@ -161,6 +167,8 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `connects-to` → **[Bipolar Disorder](../../07-system/bipolar-disorder/README.md)** — mesolimbic dopamine hyperactivity drives manic symptoms; antipsychotics (D2 blockers) are first-line acute antimanic agents; mesocortical dopamine deficiency contributes to bipolar depression; catecholamine hypothesis explains mood cycling.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../../07-system/obsessive-compulsive-disorder/README.md)** — striatal dopamine dysregulation drives compulsive habit formation; D2 receptor abnormalities in caudate detectable by PET; atypical antipsychotic augmentation (aripiprazole, risperidone) of SSRIs is the best-supported strategy for SSRI-partial responders in OCD (NNT ~3).
 - `connects-to` → **[ADHD](../../07-system/attention-deficit-hyperactivity-disorder/README.md)** — ADHD involves hypofunctional PFC D1 receptor signaling impairing working memory; methylphenidate blocks DAT and amphetamines actively release DA; COMT Val158Met SNP (rapid catabolism) increases ADHD risk; striatal DA deficit reduces motivation for deferred rewards, driving impulsivity.
+- `connects-to` → **[Social Anxiety Disorder](../../07-system/social-anxiety-disorder/README.md)** — reduced D2 binding in striatum in SAD (SPECT) → impaired social reward processing and anhedonia; dopaminergic deficits distinguish SAD from other anxiety disorders; blunted approach motivation reinforces avoidance; MAOIs may be highly effective via dopamine disinhibition.
+- `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol stimulates VTA dopamine release → NAcc → euphoria and positive reinforcement; DRD2 Taq1A A1 allele → reduced D2 density → compensatory drinking; naltrexone blocks opioid-mediated VTA DA disinhibition → reduces alcohol reward and craving.
 
 ## Pathology
 

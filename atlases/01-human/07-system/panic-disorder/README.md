@@ -1,0 +1,200 @@
+---
+schema: human-scale-entry/v1
+id: panic-disorder
+name: Panic Disorder
+atlas: 01-human
+scale: 07-system
+status: draft
+last_reviewed: 2026-06-08
+summary: "Panic disorder (2-3% lifetime) involves recurrent unexpected panic attacks driven by LC-NE hyperactivation and amygdala CO2 hypersensitivity; first-line: SSRIs/SNRIs + CBT with interoceptive exposure; benzodiazepines for acute attacks; avoid long-term BZ use."
+aliases: ["panic disorder", "panic attack", "agoraphobia", "CO2 hypersensitivity", "Klein suffocation alarm", "interoceptive exposure", "unexpected panic", "anticipatory anxiety"]
+sources:
+  - id: craske-2007-panic-review
+    type: peer-reviewed
+    cite: "Craske MG, Barlow DH. Panic disorder and agoraphobia. In: Barlow DH, ed. Clinical Handbook of Psychological Disorders. 4th ed. Guilford; 2007."
+    pmid: "17542550"
+  - id: gorman-2000-panic-neurobiology
+    type: peer-reviewed
+    cite: "Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. Am J Psychiatry. 2000;157(4):493-505."
+    doi: "10.1176/appi.ajp.157.4.493"
+    pmid: "10739407"
+    url: "https://doi.org/10.1176/appi.ajp.157.4.493"
+    accessed: "2026-06-08"
+  - id: nardi-2009-clonazepam-panic
+    type: peer-reviewed
+    cite: "Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. Respir Physiol Neurobiol. 2009;167(1):133-143."
+    doi: "10.1016/j.resp.2008.07.011"
+    pmid: "18708168"
+    url: "https://doi.org/10.1016/j.resp.2008.07.011"
+    accessed: "2026-06-08"
+cross_links:
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "LC hyperactivation in panic disorder drives tachycardia, chest tightness, and hyperarousal via α1-NE stimulation in amygdala; yohimbine (α2 antagonist) reliably provokes panic in PD patients; propranolol reduces somatic symptoms; clonidine reduces LC firing and hyperarousal."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "SSRIs are first-line for panic disorder via raphe-amygdala serotonin modulation of the fear circuit; paradoxical jitteriness requires starting low; paroxetine and sertraline have strong evidence; clomipramine (5-HT/NE TCA) is highly effective but limited by side effects."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "GABA-A activation by benzodiazepines (clonazepam, alprazolam) rapidly terminates panic attacks; reduced BZ binding in temporal lobe in PD suggests GABAergic deficit; BZDs bridge therapy while SSRIs take effect but avoided long-term due to dependence and impaired extinction."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "NMDA receptor activation in BLA mediates fear memory consolidation in panic disorder; excessive glutamate signaling may amplify amygdala hyperreactivity; D-cycloserine (partial NMDA agonist) enhances extinction learning in CBT augmentation trials for panic disorder."
+  - target: 01-human/06-organ/brain
+    relation: targets
+    note: "Panic disorder features BLA hyperreactivity to interoceptive and CO2 stimuli, insula hyperactivation (heightened body awareness), reduced vmPFC control over amygdala, and LC-NE dysregulation; CBT with interoceptive exposure normalizes amygdala-insula reactivity over weeks."
+---
+
+# Panic Disorder
+
+## Overview
+
+**Panic disorder (PD)** is an anxiety disorder characterized by recurrent, unexpected **panic attacks** — abrupt surges of intense fear or discomfort that peak within minutes and include at least four of 13 physical or cognitive symptoms — accompanied by at least one month of either persistent concern about future attacks or maladaptive behavioral change related to attacks.
+
+**Epidemiology:**
+- Lifetime prevalence: 2–3% (US and globally); 12-month prevalence ~1.8%
+- Female-to-male ratio: 2:1 to 3:1; onset typically late adolescence to early 30s
+- High comorbidity: 50–65% comorbid MDD; 30–40% comorbid GAD; 50–65% develop agoraphobia if untreated
+- Economic burden: PD is among the most frequent reasons for emergency department visits (chest pain, dyspnea) that ultimately have no cardiac etiology
+
+**DSM-5 Panic Attack — 13 symptoms (requires ≥4):**
+
+| Domain | Symptoms |
+|:---|:---|
+| **Cardiovascular** | Palpitations, racing heart, chest pain or pressure |
+| **Respiratory** | Shortness of breath, choking sensation |
+| **Neurological** | Dizziness, unsteadiness, tingling/numbness |
+| **Autonomic** | Sweating, trembling, chills or hot flushes |
+| **Cognitive** | Derealization/depersonalization, fear of losing control, fear of dying |
+
+**DSM-5 PD Criteria:**
+1. Recurrent **unexpected** panic attacks (not all attacks are unexpected; situational attacks common once PD established)
+2. ≥1 month of at least ONE of: (a) persistent worry about future attacks or their consequences; (b) significant maladaptive behavioral change (avoidance, reassurance-seeking, dietary restriction)
+3. Not better explained by substances, medical conditions, or another mental disorder
+
+**Agoraphobia (separate DSM-5 diagnosis):** Fear and avoidance of situations where escape would be difficult or help unavailable (crowds, public transit, open spaces, being outside home alone); frequently comorbid with PD but can occur independently.
+
+## Structure
+
+### Neuroanatomy of panic
+
+**Gorman's revised fear network model** [^gorman-2000-panic-neurobiology] proposes two interacting circuits:
+
+**Central fear circuit (conditioned fear):**
+- **Basolateral amygdala (BLA):** Integrates sensory input and body-state signals; in PD, chronically sensitized → lowers threshold for panic initiation; receives input from thalamus (rapid threat detection), cortex (conceptual appraisal), and hippocampus (contextual memory)
+- **Central amygdala (CeA):** Panic output — projects to LC (NE hyperactivation), PAG (autonomic/defensive response), PBN (respiratory alarm), hypothalamus (HPA axis)
+- **vmPFC:** Inhibits CeA via intercalated cell GABAergic projections → safety signaling; reduced in PD → failure to suppress BLA-CeA alarm
+
+**Suffocation/CO2 alarm circuit:**
+- **Parabrachial nucleus (PBN):** Detects CO2 increases via ASIC1a channels; projects to amygdala and locus coeruleus; the "respiratory panic trigger"
+- **Periaqueductal gray (PAG):** Mediates unconditioned defensive responses; dorsal PAG activation → fight-or-flight; patients with PD show heightened PAG-amygdala coupling during CO2 challenge
+- **Insula:** Interoceptive awareness — monitors heart rate, respiratory sensations; hyperactivated in PD → catastrophic misinterpretation of bodily sensations
+
+**Norepinephrine circuit:**
+- **Locus coeruleus (LC):** CNS NE source; LC → BLA (amplifies fear acquisition and retrieval via α1 receptors); LC → cortex (hyperarousal, vigilance); LC → cardiovascular centers (sympathetic outflow → palpitations)
+- Yohimbine (α2-adrenergic antagonist) increases LC firing → provokes panic attacks in >50% of PD patients but rarely in controls
+
+### Klein's suffocation alarm hypothesis
+
+Donald Klein proposed that PD represents a biological **false alarm of suffocation** — the brain misreads CO2 accumulation as asphyxiation risk:
+- Inhaled 7.5% CO2 reliably provokes panic in ~70% of PD patients vs. ~10% of controls
+- CO2 sensitivity mediated by ASIC1a channels and TASK-1/TASK-3 channels on amygdala neurons
+- Individuals with variants in ASIC1a (acid-sensing ion channels) have higher CO2 sensitivity and panic vulnerability
+- This explains why hyperventilation (reduces CO2) acutely aborts some panic attacks, and why rebreathing into a paper bag can worsen panic (CO2 retention)
+- Respiratory rate as a trait marker: PD patients have mildly elevated basal respiratory rate even between attacks
+
+## Function
+
+### Interoceptive fear conditioning
+
+The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains panic disorder maintenance:
+
+1. **First attack:** Often occurs in the context of stress, caffeine, or physiological perturbation → catastrophic misinterpretation ("I'm dying")
+2. **Conditioning:** Interoceptive cues (heart rate elevation, slight breathlessness) become conditioned stimuli for fear responses → body sensations trigger anticipatory fear
+3. **Amplification loop:** Anxiety about having a panic attack → sympathetic arousal → increased heart rate → perceived as sign of impending panic → catastrophic appraisal → full panic attack (self-fulfilling prophecy)
+4. **Avoidance:** Behavioral change to prevent feared sensations (avoidance of exercise, caffeine, sexual arousal, movies) → negative reinforcement → maintenance
+
+**Clark's cognitive model:**
+- Core belief: "Bodily sensations are dangerous and indicate catastrophe"
+- Selective attention to interoceptive cues → detection of normal bodily fluctuations → misinterpretation → anxiety → amplified sensations → full panic attack
+- Safety behaviors (sitting down, taking pulse, seeking reassurance) prevent disconfirmation of feared catastrophe → perpetuate disorder
+
+### HPA axis and stress sensitization
+
+- Acute cortisol response during panic attacks is modest but present
+- Prior stress history (early adversity, life events) sensitizes the HPA axis → lower threshold for panic initiation
+- Corticotropin-releasing factor (CRF) receptors in amygdala amplify fear responses; CRF1 antagonists reduce anxiety in preclinical models
+- Unlike PTSD (hypocortisolemia), PD typically shows near-normal basal cortisol with exaggerated phasic stress responses
+
+## Pathology
+
+### Panic disorder variants
+
+| Type | Characteristics |
+|:---|:---|
+| **With agoraphobia** | Avoidance of ≥2 situations; severe functional impairment; may become housebound |
+| **Without agoraphobia** | Attacks present; behavioral impact limited; better prognosis |
+| **Performance-limited** | Context-dependent panic (overlaps with social anxiety disorder) |
+| **Nocturnal panic** | Awaken from sleep in panic; non-REM attacks; not nightmares; strong NE component |
+| **Pharmacologically provoked** | Caffeine, cannabis, sympathomimetics, β-agonists lower threshold |
+
+### Differential diagnosis
+
+- **Cardiac arrhythmia:** Holter monitoring; PD diagnosis after cardiac workup often delayed 10+ years
+- **Hyperthyroidism:** TSH essential in workup; thyroid storm may resemble severe panic
+- **Pheochromocytoma:** Episodic HTN + palpitations; 24h urine catecholamines
+- **Hypoglycemia:** Food-related panic attacks; check glucose during attack
+- **Epilepsy:** Temporal lobe seizures may produce panic-like experience + automatisms
+- **Substance use:** Cocaine, cannabis (particularly high-THC), stimulant withdrawal
+
+### Treatment
+
+**Cognitive-Behavioral Therapy (CBT):**
+- Most effective long-term intervention; 55–70% panic-free at 1 year; relapse rate lower than pharmacotherapy alone
+- **Components:**
+  - **Psychoeducation:** Panic physiology; fight-or-flight; CO2 model; normalization
+  - **Cognitive restructuring:** Challenge catastrophic misinterpretations of bodily sensations; decatastrophizing ("heart racing ≠ heart attack")
+  - **Breathing retraining:** Diaphragmatic breathing; correct hyperventilation pattern; reduces CO2-mediated provocation
+  - **Interoceptive exposure:** Deliberately induce feared sensations in session (spin in chair → dizziness; run in place → palpitations; breathe through narrow straw → breathlessness) → habituation; disrupts interoceptive conditioning
+  - **Situational exposure:** Graded exposure to avoided situations (elevators, crowds, public transit) with agoraphobia
+- **Combination > monotherapy:** CBT + pharmacotherapy superior in short-term; CBT alone superior at 2-year follow-up (durability)
+
+**First-line pharmacotherapy:**
+
+| Medication | Class | Notes |
+|:---|:---|:---|
+| Sertraline | SSRI | Flexible dosing; well-tolerated |
+| Paroxetine | SSRI | Also reduces anticipatory anxiety; discontinuation syndrome risk |
+| Escitalopram | SSRI | Fewest drug interactions |
+| Fluoxetine | SSRI | Long half-life; "start low" — jitteriness risk |
+| Venlafaxine XR | SNRI | NE component may address physical symptoms |
+| Clomipramine | TCA | Among most effective; limited by side effects (anticholinergic, QTc) |
+| Imipramine | TCA | Historical gold standard; now third-line |
+
+**Benzodiazepines:**
+- **Clonazepam, alprazolam:** Rapid onset; highly effective for acute attacks; useful as bridging therapy during SSRI initiation (reduces early jitteriness)
+- **Limitations:** Dependence; impair fear extinction learning (GABA-A-mediated amnesia); long-term use may worsen course; taper required for discontinuation
+- **Appropriate use:** PRN for situational anticipatory anxiety; short-term bridge (4–6 weeks); avoid in patients with substance use history
+
+**Novel approaches:**
+- **D-cycloserine augmentation:** Partial NMDA agonist; enhances extinction memory consolidation when given before CBT interoceptive exposure sessions; promising in RCTs
+- **Stellate ganglion block:** Reduces sympathetic hyperactivation; limited evidence for PD specifically
+- **Transcranial magnetic stimulation (TMS):** Low-frequency rTMS over right PFC; modestly reduces PD severity in preliminary trials
+
+## Connections
+
+- `connects-to` → **[Norepinephrine](../../../03-molecular/norepinephrine/README.md)** — locus coeruleus hyperactivation drives tachycardia, chest tightness, and hyperarousal via α1-NE receptor stimulation in amygdala; yohimbine (α2 antagonist) reliably provokes panic in PD patients; propranolol reduces somatic symptoms; clonidine reduces LC firing.
+
+- `connects-to` → **[Serotonin](../../../03-molecular/serotonin/README.md)** — SSRIs are first-line for panic disorder via raphe-amygdala serotonin modulation of the fear circuit; paradoxical jitteriness during initial weeks requires starting low; paroxetine and sertraline have strong evidence; clomipramine (5-HT/NE TCA) is highly effective.
+
+- `connects-to` → **[GABA](../../../03-molecular/gaba/README.md)** — GABA-A activation by benzodiazepines (clonazepam, alprazolam) rapidly terminates panic attacks; reduced BZ binding in temporal lobe in PD suggests GABAergic deficit; BZDs bridge therapy while SSRIs take effect but avoided long-term due to dependence and impaired extinction.
+
+- `connects-to` → **[Glutamate](../../../03-molecular/glutamate/README.md)** — NMDA receptor activation in BLA mediates fear memory consolidation in panic disorder; excessive glutamate signaling amplifies amygdala hyperreactivity; D-cycloserine (partial NMDA agonist) enhances extinction learning in CBT augmentation trials.
+
+- `targets` → **[Brain](../../../06-organ/brain/README.md)** — panic disorder features BLA hyperreactivity to interoceptive and CO2 stimuli, insula hyperactivation, reduced vmPFC control over amygdala, and LC-NE dysregulation; CBT with interoceptive exposure normalizes amygdala-insula reactivity on fMRI over 12+ weeks of treatment.
+
+[^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
+[^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

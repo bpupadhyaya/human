@@ -44,6 +44,12 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Locus coeruleus NE hyperactivity drives sympathetic arousal, hypervigilance, and somatic anxiety symptoms in GAD; SNRIs (duloxetine, venlafaxine) treat GAD via dual NE + 5-HT reuptake inhibition; propranolol reduces peripheral β-adrenergic anxiety manifestations."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "LC hyperactivation in panic disorder drives tachycardia, chest tightness, and hyperarousal via α1-NE stimulation in amygdala; yohimbine (α2 antagonist) reliably provokes panic in PD patients; propranolol reduces somatic symptoms; clonidine reduces LC firing and hyperarousal."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Adrenergic surge in social situations causes blushing, tremor, and sweating; propranolol (β1 antagonist) reduces somatic performance anxiety; NE amplifies amygdala reactivity to social threat; venlafaxine XR (SNRI) addresses both NE hyperarousal and serotonin dysregulation."
 ---
 
 # Norepinephrine
@@ -151,6 +157,8 @@ NE
 - **Modulates nervous system** — Locus coeruleus NE neurons project to entire CNS modulating arousal, attention, fear, and autonomic tone; LC hyperactivation in PTSD/anxiety; α₂ agonists (clonidine) suppress LC for opioid withdrawal. See [nervous-system](../../07-system/nervous-system/README.md).
 - `connects-to` → **[ADHD](../../07-system/attention-deficit-hyperactivity-disorder/README.md)** — NE α2A-receptor signaling in PFC strengthens layer III pyramidal neuron connectivity underlying working memory and attention; atomoxetine (selective NE reuptake inhibitor) and guanfacine/clonidine (α2A agonists) treat ADHD by restoring NE-PFC function without engaging dopamine-reward circuits.
 - `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — locus coeruleus NE hyperactivity drives sympathetic arousal, hypervigilance, and somatic anxiety in GAD; SNRIs (duloxetine, venlafaxine) treat GAD via dual NE + 5-HT reuptake inhibition; propranolol reduces peripheral β-adrenergic anxiety manifestations.
+- `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — LC hyperactivation drives tachycardia, chest tightness, and hyperarousal via α1-NE stimulation in amygdala; yohimbine (α2 antagonist) reliably provokes panic attacks in PD patients; propranolol reduces somatic symptoms; clonidine reduces LC firing.
+- `connects-to` → **[Social Anxiety Disorder](../../07-system/social-anxiety-disorder/README.md)** — adrenergic surge in social situations causes blushing, tremor, and sweating; propranolol (β1 antagonist) reduces somatic performance anxiety; NE amplifies amygdala reactivity to social threat; venlafaxine XR (SNRI) addresses both NE hyperarousal and serotonin dysregulation.
 - **Modulates cardiovascular system** — NE is the principal sympathetic vasoconstrictor — activates vascular smooth muscle α₁AR → ↑peripheral resistance; maintains basal vascular tone; IV NE (vasopressor) used in septic shock. See [cardiovascular-system](../../07-system/cardiovascular-system/README.md).
 - **Modulated by dopamine** — Norepinephrine is synthesised from dopamine by DβH in synaptic vesicles; the DA:NE ratio in sympathetic terminals is governed by DβH activity and vesicular transport capacity. See [dopamine](../dopamine/README.md).
 
