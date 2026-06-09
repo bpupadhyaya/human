@@ -217,6 +217,9 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "GLP-1R in hypothalamic ARC/PVN neurons → reduced appetite and food cue reactivity; brainstem area postrema GLP-1R → nausea and gastric emptying delay; GLP-1R in VTA/NAcc reward circuits reduces motivation for high-fat food; semaglutide reduces food reward in human fMRI studies."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Liver-derived IGF-1 crosses the BBB via choroid plexus transport; IGF-1 → neuronal IGF-1R → PI3K/Akt → adult hippocampal neurogenesis and BDNF synergy; aerobic exercise raises circulating IGF-1 → cognitive benefit; IGF-1 improves cognition in animal models."
 ---
 
 # Brain
@@ -333,6 +336,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `modulated-by` → **[Leptin](../../03-molecular/leptin/README.md)** — LEPR-Rb in hypothalamic ARC, DMH, and VMH neurons → JAK2/STAT3 → ↑POMC/CART and ↓NPY/AgRP → appetite suppression and ↑energy expenditure; leptin resistance in obesity impairs this signalling; leptin also regulates hypothalamic GnRH, TRH, and CRH neuroendocrine output.
 - `connects-to` → **[TDP-43](../../03-molecular/tdp-43/README.md)** — nuclear TDP-43 loss in motor cortex and hippocampal neurons → cryptic exon de-repression in STMN2 (axon regeneration) and UNC13A (synaptic vesicle release); cytoplasmic inclusions in motor cortex (ALS), entorhinal cortex (LATE), and hippocampus (FTLD-TDP) are regionally and subtype-distinct.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1R in hypothalamic ARC/PVN neurons → reduced appetite and food cue reactivity; brainstem area postrema GLP-1R → nausea and gastric emptying delay; GLP-1R in VTA/NAcc reward circuits reduces motivation for high-fat food; semaglutide reduces food reward in human fMRI studies.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — liver-derived IGF-1 crosses the BBB via choroid plexus transport; IGF-1 → neuronal IGF-1R → PI3K/Akt → adult hippocampal neurogenesis and BDNF synergy; aerobic exercise raises circulating IGF-1 → cognitive benefit; IGF-1 improves cognition in animal models.
 
 ## Pathology
 

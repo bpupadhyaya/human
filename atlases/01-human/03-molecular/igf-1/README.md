@@ -21,6 +21,12 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: modulated-by
     note: "GH → hepatic JAK2/STAT5b → IGF-1 synthesis (liver provides ~75% of circulating IGF-1); GH-secreting adenoma (acromegaly) elevates IGF-1 — gold-standard diagnostic marker; GH deficiency → low IGF-1 → growth failure; recombinant IGF-1 (mecasermin) treats primary IGF-1 deficiency."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Liver-derived IGF-1 crosses the BBB via choroid plexus transport; IGF-1 → neuronal IGF-1R → PI3K/Akt → adult hippocampal neurogenesis and BDNF synergy; aerobic exercise raises circulating IGF-1 → cognitive benefit; IGF-1 improves cognition in animal models."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Age-related IGF-1 decline contributes to AD risk: low IGF-1 impairs hippocampal neurogenesis and synaptic plasticity; INSR/IGF-1R resistance in AD neurons → reduced Akt → ↑GSK-3β → tau phosphorylation; IGF-1 restores cognition in preclinical AD models and reduces Aβ plaque load."
 sources:
   - id: jones-1995-igf-binding-proteins
     type: peer-reviewed
@@ -128,13 +134,15 @@ The three disulfide bonds (Cys6-Cys48, Cys18-Cys61, Cys47-Cys52 using IGF-1 matu
 
 ## Connections
 
-IGF-1 → IGF-1R → IRS-1 → PI3K/Akt/mTOR → skeletal muscle protein synthesis and satellite cell activation; opposes myostatin/SMAD2/3 atrophy signaling; IGF-1 drives osteoblast bone matrix synthesis; declining IGF-1 with aging contributes to sarcopenia and osteoporosis.
-
-IGF-1 and myostatin exert opposing control over skeletal muscle mass: IGF-1 → Akt → mTORC1 → protein synthesis and satellite cell proliferation; myostatin → SMAD2/3 → MAFbx/MuRF1 → atrophy; Akt directly phosphorylates SMAD3 → partial inactivation of myostatin downstream signaling.
-
-IGF-1 has insulin-like metabolic effects via insulin receptor cross-activation; low serum IGF-1 associates with insulin resistance and T2DM risk; acromegaly (excess GH/IGF-1) causes secondary diabetes; IGF-1 therapy increases insulin sensitivity in severe insulin resistance syndromes.
-
-GH stimulates hepatic IGF-1 synthesis via JAK2/STAT5b — the primary somatotropic axis effector; ~75% of circulating IGF-1 comes from liver; IGF-1 feeds back to suppress both pituitary GH and hypothalamic GHRH; serum IGF-1 (age/sex-normalized) is the gold-standard diagnostic test for both acromegaly (elevated) and GH deficiency (low); recombinant IGF-1 (mecasermin) treats primary IGF-1 deficiency (Laron syndrome).
+- `connects-to` → **[Musculoskeletal System](../../07-system/musculoskeletal-system/README.md)** — IGF-1 → IGF-1R → IRS-1 → PI3K/Akt/mTOR → skeletal muscle protein synthesis and satellite cell activation; opposes myostatin/SMAD2/3 atrophy signaling; IGF-1 drives osteoblast bone matrix synthesis; declining IGF-1 with aging contributes to sarcopenia and osteoporosis.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — IGF-1 and myostatin exert opposing control over skeletal muscle mass: IGF-1 → Akt → mTORC1 → protein synthesis and satellite cell proliferation; myostatin → SMAD2/3 → MAFbx/MuRF1 → atrophy; Akt directly phosphorylates SMAD3 → partial inactivation of myostatin downstream signaling.
+- `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — IGF-1 has insulin-like metabolic effects via insulin receptor cross-activation; low serum IGF-1 associates with insulin resistance and T2DM risk; acromegaly (excess GH/IGF-1) causes secondary diabetes; IGF-1 therapy increases insulin sensitivity in severe insulin resistance syndromes.
+- `modulated-by` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — GH stimulates hepatic IGF-1 synthesis via JAK2/STAT5b — the primary somatotropic axis effector; ~75% of circulating IGF-1 from liver; IGF-1 feeds back to suppress GH and GHRH; serum IGF-1 is the gold-standard test for acromegaly and GH deficiency; mecasermin treats Laron syndrome.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — liver-derived IGF-1 crosses the BBB via choroid plexus transport; IGF-1 → neuronal IGF-1R → PI3K/Akt → adult hippocampal neurogenesis and BDNF synergy; aerobic exercise raises circulating IGF-1 → cognitive benefit; IGF-1 improves cognition in animal models.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — age-related IGF-1 decline contributes to AD risk: low IGF-1 impairs hippocampal neurogenesis and synaptic plasticity; INSR/IGF-1R resistance in AD neurons → reduced Akt → ↑GSK-3β → tau phosphorylation; IGF-1 restores cognition in preclinical AD models and reduces Aβ plaque load.
 
 [^jones-1995-igf-binding-proteins]: Jones JI, Clemmons DR. Insulin-like growth factors and their binding proteins: biological actions. *Endocr Rev.* 1995;16(1):3-34. [doi:10.1210/edrv-16-1-3](https://doi.org/10.1210/edrv-16-1-3) · [PubMed 7758431](https://pubmed.ncbi.nlm.nih.gov/7758431/)
 [^smith-2017-teprotumumab]: Smith TJ, Kahaly GJ, Ezra DG, et al. Teprotumumab for thyroid-associated ophthalmopathy. *N Engl J Med.* 2017;376(18):1748-1761. [doi:10.1056/NEJMoa1614949](https://doi.org/10.1056/NEJMoa1614949) · [PubMed 28467880](https://pubmed.ncbi.nlm.nih.gov/28467880/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
