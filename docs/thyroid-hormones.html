@@ -1,291 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Thyroid Hormones · Atlas One · Human · Molecular</title>
-<style>
-  :root {
-    --accent: #4f46e5;
-    --accent-dark: #1e1b4b;
-    --bg: #0f172a;
-    --surface: #1e293b;
-    --surface2: #273549;
-    --border: #334155;
-    --text: #e2e8f0;
-    --text-muted: #94a3b8;
-    --radius-sm: 6px;
-    --radius: 12px;
-    --radius-lg: 18px;
-  }
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
-  nav { position: sticky; top: 0; z-index: 100; background: rgba(15,23,42,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem; }
-  nav a { color: var(--text-muted); text-decoration: none; font-size: 0.875rem; }
-  nav a:hover { color: var(--accent); }
-  nav .sep { color: var(--border); }
-  .hero { background: linear-gradient(135deg, #4f46e5, #1e1b4b); padding: 3rem 2rem 2.5rem; }
-  .hero-inner { max-width: 860px; margin: 0 auto; }
-  .eyebrow { display: inline-block; background: rgba(255,255,255,0.2); color: #fff; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 1rem; }
-  .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1.1; }
-  .hero .tagline { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 0.5rem; max-width: 620px; }
-  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
-  .stat { background: rgba(255,255,255,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; }
-  .stat .val { font-size: 1.25rem; font-weight: 700; color: #fff; }
-  .stat .lbl { font-size: 0.7rem; color: rgba(255,255,255,0.75); letter-spacing: 0.06em; text-transform: uppercase; }
-  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
-  .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 2rem; overflow: hidden; }
-  .detail-header { background: linear-gradient(135deg, #4f46e5, #1e1b4b); padding: 1rem 1.5rem; }
-  .detail-header h2 { color: #fff; font-size: 1.1rem; font-weight: 700; }
-  .detail-body { padding: 1.5rem; }
-  .detail-body p { color: var(--text-muted); margin-bottom: 0.75rem; }
-  .detail-body p:last-child { margin-bottom: 0; }
-  .pathway-block { background: #0d1b2e; border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; overflow-x: auto; }
-  .pathway-block pre { font-family: 'Fira Mono', 'Cascadia Code', monospace; font-size: 0.78rem; line-height: 1.6; color: #93c5fd; white-space: pre; }
-  .data-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
-  .data-table th { background: var(--surface2); color: var(--text); text-align: left; padding: 0.6rem 0.875rem; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase; }
-  .data-table td { padding: 0.6rem 0.875rem; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
-  .data-table tr:last-child td { border-bottom: none; }
-  .data-table tr:hover td { background: var(--surface2); }
-  .step-list { list-style: none; counter-reset: steps; margin: 0.75rem 0; }
-  .step-list li { counter-increment: steps; display: flex; gap: 0.875rem; margin-bottom: 0.6rem; color: var(--text-muted); font-size: 0.9rem; }
-  .step-list li::before { content: counter(steps); background: var(--accent); color: #fff; font-weight: 700; font-size: 0.75rem; min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.15rem; }
-  .principle-box { background: rgba(79,70,229,0.1); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.875rem 1rem; margin: 1rem 0; color: var(--text-muted); font-size: 0.9rem; }
-  .principle-box strong { color: var(--text); }
-  .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
-  .conn-pill { background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted); font-size: 0.78rem; padding: 0.3rem 0.75rem; border-radius: 999px; text-decoration: none; transition: border-color 0.15s, color 0.15s; }
-  .conn-pill:hover { border-color: var(--accent); color: var(--accent); }
-  .refs { list-style: none; margin-top: 0.5rem; }
-  .refs li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
-  .refs li:last-child { border-bottom: none; }
-  .refs li::before { content: "↗ "; color: var(--accent); }
-  footer { text-align: center; padding: 2rem 1rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.8rem; }
-  footer a { color: var(--accent); text-decoration: none; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Iodinated tyrosine-derived hormones: T4 (prohormone, ~90% secreted) and active T3 (~10% secreted + 80% from peripheral deiodination). Nuclear TRα/TRβ receptors ">
+  <meta property="og:title" content="Thyroid Hormones (T3/T4) — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Thyroid Hormones (T3/T4) — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
 </head>
 <body>
 
-<nav>
-  <a href="index.html">Atlas</a>
-  <span class="sep">›</span>
-  <a href="index.html">Human</a>
-  <span class="sep">›</span>
-  <a href="#">Thyroid Hormones</a>
-</nav>
-
-<section class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow">Atlas One · Human · Molecular</span>
-    <h1>Thyroid Hormones (T3/T4)</h1>
-    <p class="tagline">Iodinated amino acid hormones regulating basal metabolic rate, thermogenesis, cardiac output, neurodevelopment, and gene transcription via nuclear TRα/TRβ receptors.</p>
-    <div class="stat-row">
-      <div class="stat"><div class="val">T4 (776 Da)</div><div class="lbl">Prohormone (thyroxine)</div></div>
-      <div class="stat"><div class="val">T3 (651 Da)</div><div class="lbl">Active form</div></div>
-      <div class="stat"><div class="val">~7 days (T4)</div><div class="lbl">Plasma half-life</div></div>
-      <div class="stat"><div class="val">DIO1/DIO2</div><div class="lbl">T4→T3 conversion</div></div>
-    </div>
-  </div>
-</section>
-
-<main>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Overview</h2></div>
-    <div class="detail-body">
-      <p>Thyroid hormones (THs) — thyroxine (T4, tetraiodothyronine) and 3,5,3'-triiodothyronine (T3) — are iodinated tyrosine derivatives synthesised in thyroid follicular cells. T4 is the primary secretory product (~93% of thyroid output) but is a prohormone with relatively low receptor affinity. Peripheral deiodination by selenoenzymes DIO1 and DIO2 converts T4 to the biologically active T3, which binds thyroid hormone receptors (TRα, TRβ) with ~10–15× higher affinity. DIO3 inactivates both T4 and T3 by 5-deiodination to rT3 (reverse T3) and T2.</p>
-      <p>T3 and T4 regulate a vast range of physiological processes by binding to TRα/TRβ nuclear receptors, which dimerize on thyroid hormone response elements (TREs) in target gene promoters. TH increases basal metabolic rate (BMR) by inducing mitochondrial biogenesis, uncoupling protein UCP3, and Na⁺/K⁺-ATPase expression. Thyroid function is precisely controlled by the hypothalamic-pituitary-thyroid (HPT) axis — TRH → TSH → thyroid; negative feedback by T3/T4 occurs at both hypothalamic and pituitary levels.</p>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Synthesis &amp; Structure</h2></div>
-    <div class="detail-body">
-      <table class="data-table">
-        <thead><tr><th>Step</th><th>Protein</th><th>Process</th></tr></thead>
-        <tbody>
-          <tr><td>Iodide uptake</td><td>NIS (SLC5A5) — Na⁺/I⁻ symporter</td><td>Electrogenic transport 2 Na⁺ : 1 I⁻; TSH upregulates NIS; basis of radioiodine therapy; inhibited by thiocyanate, perchlorate</td></tr>
-          <tr><td>Iodide efflux</td><td>Pendrin (SLC26A4) at apical membrane</td><td>I⁻ exported to follicular lumen (colloid space)</td></tr>
-          <tr><td>Organification</td><td>TPO (thyroid peroxidase) + H₂O₂ (DUOX2)</td><td>I⁻ → I• (iodinium) → covalently attached to Tyr residues on thyroglobulin (MIT = monoiodotyrosine; DIT = diiodotyrosine); H₂O₂ from DUOX2 is rate-limiting — blocked by thionamides</td></tr>
-          <tr><td>Coupling</td><td>TPO (same enzyme)</td><td>MIT + DIT → T3 on thyroglobulin; DIT + DIT → T4 on thyroglobulin; oxidative coupling within thyroglobulin scaffold</td></tr>
-          <tr><td>Resorption/proteolysis</td><td>Megf10/CLCa on apical membrane; lysosomal cathepsins</td><td>Thyroglobulin endocytosed; cathepsin D/L cleave → T3 + T4 released into cytoplasm → secreted into blood</td></tr>
-          <tr><td>Peripheral conversion</td><td>DIO1 (liver, kidney), DIO2 (brain, pituitary, BAT), DIO3 (placenta, liver)</td><td>DIO1/2: outer ring 5'-deiodination T4→T3 (active); DIO3: inner ring 5-deiodination → rT3 (inactive) or T2</td></tr>
-        </tbody>
-      </table>
-      <p>Thyroid hormones are transported in plasma bound to thyroxine-binding globulin (TBG, ~70%), transthyretin (TTR, ~20%), and albumin (~10%). Only free T4 (~0.02%) and free T3 (~0.3%) are biologically active — "free" fractions measured in thyroid function tests.</p>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Mechanism — HPT Axis, T4→T3 Conversion &amp; Nuclear TRα/TRβ</h2></div>
-    <div class="detail-body">
-      <div class="pathway-block"><pre>
-  ┌──────────────────────────────────────────────────────────────────────┐
-  │              HYPOTHALAMIC-PITUITARY-THYROID (HPT) AXIS              │
-  │                                                                      │
-  │  Hypothalamus (PVN, TRH neurons)                                    │
-  │  Cold exposure, fasting, stress → TRH release                      │
-  │       │                                                              │
-  │  TRH (tripeptide pyroGlu-His-Pro-NH₂) → portal blood               │
-  │       │                                                              │
-  │  Pituitary thyrotroph → TRH-R (Gαq/11 → PLC → Ca²⁺/PKC)          │
-  │  → TSH (thyrotropin) synthesis and secretion                        │
-  │  [somatostatin inhibits TSH; glucocorticoids suppress TRH/TSH]      │
-  │       │                                                              │
-  │  TSH → thyroid TSHR (Gαs → cAMP → PKA)                             │
-  │  ↑NIS expression, ↑DUOX2, ↑TPO, ↑thyroglobulin                    │
-  │  ↑T3/T4 synthesis and secretion                                    │
-  │       │                                                              │
-  │  T3/T4 in blood → negative feedback                                │
-  │  ────────────────────────────────                                   │
-  │  Pituitary: T4 → T3 (DIO2) → TRβ2 → ↓TRH-R, ↓TSHβ gene         │
-  │  Hypothalamus: T3 → TRβ1 → ↓TRH gene                             │
-  │  (T3 is the active feedback signal at both levels)                  │
-  │                                                                      │
-  ├──────────────────────────────────────────────────────────────────────┤
-  │                   T4 → T3 PERIPHERAL CONVERSION                     │
-  │                                                                      │
-  │  T4 (thyroxine) — 4 iodines on tyrosine ring                       │
-  │       │                                                              │
-  │  DIO1 (liver, kidney, thyroid)                                      │
-  │  DIO2 (brain, pituitary, BAT, skeletal muscle)  ─► T3 (active)    │
-  │  5'-deiodination (outer ring, position 5')                          │
-  │                                                                      │
-  │  DIO3 (placenta, brain, liver)                                      │
-  │  5-deiodination (inner ring, position 5)         ─► rT3 (inactive) │
-  │  (also T3 → T2 via DIO3)                                            │
-  │                                                                      │
-  │  "Sick euthyroid syndrome": illness → ↓DIO1, ↑DIO3                 │
-  │  → low T3, high rT3, normal/low T4, low/normal TSH                │
-  │  → NOT treated (adaptive; thyroid function normal)                  │
-  │                                                                      │
-  ├──────────────────────────────────────────────────────────────────────┤
-  │                 T3 NUCLEAR RECEPTOR ACTION (TRα/TRβ)                │
-  │                                                                      │
-  │  Free T3 enters cell → nuclear membrane crossing                   │
-  │       │                                                              │
-  │  TRα or TRβ (ligand-binding domain)                                 │
-  │  T3 binds LBD → helix 12 (activation function-2) repositions      │
-  │       │                                                              │
-  │  TR homodimerises or heterodimerises with RXR                      │
-  │  TR-RXR heterodimer (predominant)                                   │
-  │       │                                                              │
-  │  Binds TRE (thyroid hormone response element: AGGTCA half-sites)   │
-  │       │                                                              │
-  │  Unliganded TR + NCOR/SMRT corepressor complex:                    │
-  │    → histone deacetylation → gene REPRESSION                       │
-  │                                                                      │
-  │  T3-bound TR + SRC-1/TRAP/DRIP coactivator complex:               │
-  │    → histone acetylation (HAT) → chromatin remodelling             │
-  │    → RNA Pol II recruitment → gene ACTIVATION                      │
-  │                                                                      │
-  │  Key T3 target genes:                                               │
-  │  ↑ Na⁺/K⁺-ATPase, UCP3 (thermogenesis)                            │
-  │  ↑ MHC-α (cardiac contractility); β-MHC ↓                         │
-  │  ↑ SERCA2a (cardiac Ca²⁺ cycling)                                  │
-  │  ↑ GH synthesis (somatotroph); synergises with GH on IGF-1        │
-  │  ↑ LDLR (↓LDL-C); ↑ LPL, ↑ VLDL clearance                       │
-  │  ↑ HBP1 in brain (neurodevelopment; myelination)                  │
-  └──────────────────────────────────────────────────────────────────────┘</pre></div>
-      <ol class="step-list">
-        <li>TRH is released from hypothalamic PVN in a pulsatile pattern; stimulated by cold (via NE from locus coeruleus), fasting, and leptin deficiency; inhibited by dopamine, somatostatin, T3/T4 negative feedback.</li>
-        <li>TSH binds TSHR on thyroid follicular cells → Gαs → cAMP → PKA → phosphorylates NIS, DUOX2, TPO → ↑iodide organification and TG proteolysis → T3/T4 secretion within hours.</li>
-        <li>T4 has 7-day plasma half-life (TBG-bound); DIO2 in target tissues provides local T3 — important in brain (local conversion ensures adequate T3 despite circulating T4; DIO2 upregulated in hypothyroidism).</li>
-        <li>T3 binds TRβ1/TRβ2 (dominant in liver, pituitary, cochlea, retina) or TRα1 (dominant in heart, muscle, bone); TR-RXR heterodimer on TRE shifts from corepressor to coactivator complex upon T3 binding.</li>
-        <li>Non-genomic T3/T4 actions: αvβ3 integrin receptor (cell surface) → ERK/MAPK → PI3K → rapid effects on SERCA, Na⁺/H⁺ exchanger, cytoskeletal changes (within minutes); important in cardiac and neuronal context.</li>
-        <li>T3 induces mitochondrial biogenesis via PGC-1α, upregulates uncoupling protein (UCP3) in skeletal muscle — the biochemical basis of heat generation and ↑BMR; increases O₂ consumption in all metabolically active tissues except brain, testes, spleen.</li>
-      </ol>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Physiological Roles</h2></div>
-    <div class="detail-body">
-      <table class="data-table">
-        <thead><tr><th>System</th><th>T3/T4 Effect</th></tr></thead>
-        <tbody>
-          <tr><td>Basal metabolic rate</td><td>↑Na⁺/K⁺-ATPase → ↑O₂ consumption; ↑UCP3 → heat; ↑mitochondrial biogenesis; BMR increases ~13% per unit T3</td></tr>
-          <tr><td>Cardiovascular</td><td>↑HR (↑If pacemaker current; ↑β-AR density); ↑SV (↑MHC-α, ↑SERCA2a); ↓SVR (vasodilation); hyperthyroid state → ↑CO, AF risk</td></tr>
-          <tr><td>Lipid metabolism</td><td>↑LDL receptor (↓LDL-C); hypothyroidism → ↑LDL-C → atherosclerosis risk; ↑lipolysis (synergises with catecholamines)</td></tr>
-          <tr><td>Glucose metabolism</td><td>↑GI glucose absorption; ↑hepatic gluconeogenesis (high T3); ↑insulin-mediated glucose uptake in skeletal muscle (permissive effect)</td></tr>
-          <tr><td>Neurodevelopment</td><td>Critical 0–3 years: myelination, axonal growth, synaptic development, cochlear and retinal maturation; maternal T4 crosses placenta; neonatal screening (Guthrie card) prevents cretinism</td></tr>
-          <tr><td>Bone</td><td>T3 promotes osteoclast differentiation → hyperthyroidism → ↑bone turnover, ↑fracture risk; hypothyroidism → delayed bone age/growth retardation in children</td></tr>
-          <tr><td>GI motility</td><td>↑gut transit; hyperthyroid → diarrhoea; hypothyroid → constipation</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Pharmacology &amp; Clinical Use</h2></div>
-    <div class="detail-body">
-      <p><strong>Levothyroxine (L-T4)</strong> — first-line hypothyroidism replacement; oral bioavailability ~80%; requires DIO2 conversion to T3; TSH titration target 0.4–4.0 mU/L; pregnancy target TSH 0.1–2.5; administered fasting 30–60 min before breakfast (calcium/iron/PPIs ↓absorption). Synthetic identical to human T4.</p>
-      <p><strong>Liothyronine (L-T3)</strong> — short-acting T3; used in myxoedema coma (IV), T3/T4 combination therapy for residual symptoms in some patients; in thyroid cancer preparation for RAI scan (rapid hypothyroidism induction).</p>
-      <p><strong>Thionamides (propylthiouracil, carbimazole/methimazole)</strong> — inhibit TPO → block organification of iodide → ↓TH synthesis; PTU also inhibits DIO1 (reduces T4→T3 conversion — useful in thyroid storm). Takes 4–8 weeks to deplete pre-formed TH. Used for Graves' disease, toxic nodules, pre-surgical/RAI preparation.</p>
-      <p><strong>Radioactive iodine (¹³¹I)</strong> — concentrated by NIS in thyroid; emits β radiation → follicular cell destruction → hypothyroidism in 6–12 months; first-line in Graves' (US) and toxic nodular goitre; contraindicated in pregnancy, severe ophthalmopathy.</p>
-      <p><strong>Thyroid hormone receptor β agonists</strong> — resmetirom (Rezdiffra): selective TRβ agonist; approved 2024 for NASH (non-alcoholic steatohepatitis) with liver fibrosis; ↓liver fat, ↓liver enzymes, ↓LDL-C without cardiac TRα effects (↑HR, AF). Major advance in MASH/NASH pharmacotherapy.</p>
-      <div class="principle-box"><strong>Clinical pearl:</strong> In subclinical hypothyroidism (elevated TSH, normal free T4), treat if TSH >10 mU/L, or TSH 4–10 with symptoms, dyslipidaemia, or pregnancy. Screening TSH: thyroid disease prevalence 5–10% in women >50. Sick euthyroid (non-thyroidal illness syndrome) — low T3 with high rT3, low/normal TSH — do NOT treat; the thyroid is normal; illness suppresses DIO1 and induces DIO3 as an adaptive response to reduce metabolic demand.</div>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Pathology</h2></div>
-    <div class="detail-body">
-      <table class="data-table">
-        <thead><tr><th>Condition</th><th>Mechanism</th><th>Key Features</th></tr></thead>
-        <tbody>
-          <tr><td>Hypothyroidism</td><td>Autoimmune (Hashimoto's thyroiditis; TPO-Ab), iodine deficiency, thyroidectomy, RAI</td><td>Fatigue, cold intolerance, bradycardia, weight gain, myxoedema, ↑LDL-C, ↑TSH, ↓free T4</td></tr>
-          <tr><td>Hyperthyroidism / Graves' disease</td><td>TSH-receptor stimulating antibodies (TRAb); autonomous nodules</td><td>Weight loss, heat intolerance, tachycardia/AF, pretibial myxoedema, exophthalmos; ↓TSH, ↑free T4/T3</td></tr>
-          <tr><td>Thyroid storm</td><td>Sudden massive TH release (surgery, RAI, stress) in uncontrolled hyperthyroidism</td><td>Fever >38.5°C, tachyarrhythmia, altered consciousness, diarrhoea; Burch-Wartofsky score; treat with PTU + beta-blockers + steroids + iodine</td></tr>
-          <tr><td>Congenital hypothyroidism / cretinism</td><td>Thyroid dysgenesis, TPO/NIS/TG mutations, iodine deficiency</td><td>Neonatal jaundice, feeding difficulties, macroglossia, intellectual disability; treatable if caught on day-5 Guthrie screen</td></tr>
-          <tr><td>Resistance to thyroid hormone (RTH)</td><td>TRβ loss-of-function mutation (dominant negative); high TH required to signal</td><td>Elevated TSH + elevated T4/T3 + inappropriate TSH non-suppression; attention deficit, tachycardia; treated with T3 or DITPA</td></tr>
-          <tr><td>Thyroid cancer</td><td>BRAF V600E (papillary; 60%), RAS, RET/PTC rearrangements</td><td>Papillary (most common; excellent prognosis); follicular; medullary (calcitonin); anaplastic (poor prognosis); RAI for differentiated; BRAF/MEK inhibitors for radioiodine-refractory</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Connections</h2></div>
-    <div class="detail-body">
-      <p>Thyroid hormones regulate cholesterol metabolism via TRβ (↑LDL receptor) — hypothyroidism is a major secondary cause of dyslipidaemia. T3 is permissive for leptin's full metabolic effects; hypothyroidism associates with leptin resistance. Thyroid hormones ↑AMPK activity in skeletal muscle (partially mediating ↑fatty acid oxidation). T3 is essential for full glucocorticoid and GH effects (permissive hormonal interactions). Selenium is required for DIO selenoenzymes — selenium deficiency in iodine-replete areas mimics hypothyroidism by impairing T4→T3 conversion.</p>
-      <div class="conn-pills">
-        <a class="conn-pill" href="cholesterol.html">Cholesterol (TRβ drives LDL receptor)</a>
-        <a class="conn-pill" href="ampk.html">AMPK (T3 activates skeletal muscle AMPK)</a>
-        <a class="conn-pill" href="leptin.html">Leptin (permissive for metabolic signalling)</a>
-        <a class="conn-pill" href="glucagon.html">Glucagon (hepatic metabolic synergy)</a>
-        <a class="conn-pill" href="erythropoietin.html">EPO (thyroid status affects erythropoiesis)</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <div class="detail-card">
-    <div class="detail-header"><h2>References</h2></div>
-    <div class="detail-body">
-      <ul class="refs">
-        <li>Brent GA (2012). Mechanisms of thyroid hormone action. <em>J Clin Invest</em> 122:3035–3043.</li>
-        <li>Bianco AC et al. (2019). American Thyroid Association guide to investigating thyroid hormone economy and action in rodent and cell models. <em>Thyroid</em> 24:88–168.</li>
-        <li>Jonklaas J et al. (2014). Guidelines for the treatment of hypothyroidism: prepared by the American Thyroid Association Task Force. <em>Thyroid</em> 24:1670–1751.</li>
-        <li>De Groot LJ et al. (2012). Management of thyroid dysfunction during pregnancy and postpartum. <em>Thyroid</em> 22:1–31.</li>
-        <li>Harrison SA et al. (2023). Resmetirom (MGL-3196) for the treatment of non-alcoholic steatohepatitis: a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial (MAESTRO-NASH). <em>Lancet</em> 402:1047–1061.</li>
-        <li>Visser WE, Friesema ECH, Visser TJ (2011). Minireview: thyroid hormone transporters: the knowns and the unknowns. <em>Mol Endocrinol</em> 25:1–14.</li>
-        <li>Larsen PR, Zavacki AM (2012). The role of the iodothyronine deiodinases in the physiology and pathophysiology of thyroid hormone action. <em>Eur Thyroid J</em> 1:232–242.</li>
-      </ul>
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>Thyroid Hormones (T3/T4)</h1>
+    <p class="tagline">Iodinated tyrosine-derived hormones: T4 (prohormone, ~90% secreted) and active T3 (~10% secreted + 80% from peripheral deiodination). Nuclear TRα/TRβ receptors drive transcription, ↑BMR, ↑HR, linear growth, and fetal CNS development.</p>
+    <p class="aliases">Also known as: thyroid hormones, T3, T4, thyroxine, triiodothyronine, levothyroxine, liothyronine, TSH, TRH, HPT axis, thyroid receptor, TR, TRα, TRβ, DIO1, DIO2, hypothyroidism, hyperthyroidism, Graves disease, Hashimoto thyroiditis</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
-</main>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<footer>
-  <p>Atlas One · Human · Molecular · Thyroid Hormones</p>
-  <p style="margin-top:0.4rem;">
-    Open source · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
-    <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
-  </p>
-  <p style="margin-top:0.4rem; font-size:0.75rem; color:#64748b;">
-    This page is co-maintained with AI assistance. Content is for educational purposes.
-    Always verify clinical information against primary sources. &copy; <span id="yr"></span>
-  </p>
-</footer>
-<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">thyroid-hormones</div>
+        <h2>Thyroid Hormones (T3/T4)</h2>
+        <p class="summary">Iodinated tyrosine-derived hormones: T4 (prohormone, ~90% secreted) and active T3 (~10% secreted + 80% from peripheral deiodination). Nuclear TRα/TRβ receptors drive transcription, ↑BMR, ↑HR, linear growth, and fetal CNS development.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>thyroid-hormones</td></tr>
+            <tr><td>Name</td><td>Thyroid Hormones (T3/T4)</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="cardiovascular-system.html" title="T3 drives ↑β-adrenergic receptor density (↑HR, ↑contractility), ↑SERCA2a expression (↑Ca²⁺ cycling), ↑α-MHC (fast ATPase), and ↓PVR. Hyperthyroidism mimics high-adrenergic state (↑CO, AF risk); hypothyroidism causes bradycardia, ↑PVR, pericardial effusion."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="nervous-system.html" title="T3 is essential for fetal CNS myelination (TRα1 required in oligodendrocytes); neonatal hypothyroidism → cretinism (irreversible). In adults, T3 regulates serotonin synthesis, synaptic plasticity, and cognition; hypothyroidism is a reversible cause of depression and dementia."><span class="rel">modulates</span>Nervous System</a>
+            <a class="conn-pill" href="thyroid.html" title="Follicular thyroid cells synthesize T4 and T3 by iodinating thyroglobulin (TPO-catalysed); stored as colloid and released by lysosomal proteolysis upon TSH stimulation. Thyroid is the sole source of T4; T3 also from peripheral deiodination (DIO1/2) in liver and kidney."><span class="rel">expresses</span>Thyroid</a>
+            <a class="conn-pill" href="liver.html" title="The liver converts T4→T3 (DIO1) and clears thyroid hormones (glucuronidation/sulfation). Hepatic TRβ1 regulates LDL-receptor expression, bile acid synthesis (CYP7A1), and lipid metabolism. Selective TRβ agonists (resmetirom/Rezdiffra) approved for NASH/MASH."><span class="rel">modulates</span>Liver</a>
+            <a class="conn-pill" href="major-depressive-disorder.html" title="Hypothyroidism causes reversible depressive syndrome indistinguishable from MDD; TSH &gt;10 mIU/L is a diagnostic exclusion for MDD; subclinical hypothyroidism accounts for ~10% of refractory MDD; T3 (25-50 mcg/day) augments antidepressant response in treatment-resistant depression."><span class="rel">connects-to</span>Major Depressive Disorder</a>
+            <a class="conn-pill" href="osteoporosis.html" title="Hyperthyroidism accelerates bone remodeling → 10-20% BMD loss at trabecular sites; TSH receptors on osteoblasts exert bone-protective effects; Graves disease → osteoporosis risk; anti-thyroid treatment normalizes bone loss; bisphosphonates co-administered when BMD is low."><span class="rel">connects-to</span>Osteoporosis</a>
+            <a class="conn-pill" href="obesity.html" title="Thyroid hormones set basal metabolic rate — hypothyroidism reduces BMR → weight gain; T3 drives UCP1 in BAT (thermogenesis) and mitochondrial biogenesis; TRβ agonist resmetirom reduces hepatic fat in MASH; levothyroxine normalizes TSH but does not reliably reverse obesity."><span class="rel">connects-to</span>Obesity</a>
+            <a class="conn-pill" href="brain.html" title="T3 (TRα1) is essential for oligodendrocyte differentiation → CNS myelination; neonatal hypothyroidism → cretinism (irreversible cognitive impairment); adult T3 regulates serotonin synthesis, synaptic density, and neurogenesis; hypothyroidism is a reversible cause of dementia."><span class="rel">connects-to</span>Brain</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li><a href="https://doi.org/10.1152/physrev.00030.2013" target="_blank" rel="noopener noreferrer">Mullur R, Liu YY, Brent GA. Thyroid hormone regulation of metabolism. Physiol Rev. 2014;94(2):355-82.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24692351/" target="_blank" rel="noopener noreferrer">PubMed 24692351</a></li>
+            <li><a href="https://doi.org/10.1172/JCI29812" target="_blank" rel="noopener noreferrer">Bianco AC, Kim BW. Deiodinases: implications of the local control of thyroid hormone action. J Clin Invest. 2006;116(10):2571-9.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17016550/" target="_blank" rel="noopener noreferrer">PubMed 17016550</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

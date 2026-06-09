@@ -46,6 +46,18 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: modulates
     note: "The liver converts T4→T3 (DIO1) and clears thyroid hormones (glucuronidation/sulfation). Hepatic TRβ1 regulates LDL-receptor expression, bile acid synthesis (CYP7A1), and lipid metabolism. Selective TRβ agonists (resmetirom/Rezdiffra) approved for NASH/MASH."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Hypothyroidism causes reversible depressive syndrome indistinguishable from MDD; TSH >10 mIU/L is a diagnostic exclusion for MDD; subclinical hypothyroidism accounts for ~10% of refractory MDD; T3 (25-50 mcg/day) augments antidepressant response in treatment-resistant depression."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Hyperthyroidism accelerates bone remodeling → 10-20% BMD loss at trabecular sites; TSH receptors on osteoblasts exert bone-protective effects; Graves disease → osteoporosis risk; anti-thyroid treatment normalizes bone loss; bisphosphonates co-administered when BMD is low."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Thyroid hormones set basal metabolic rate — hypothyroidism reduces BMR → weight gain; T3 drives UCP1 in BAT (thermogenesis) and mitochondrial biogenesis; TRβ agonist resmetirom reduces hepatic fat in MASH; levothyroxine normalizes TSH but does not reliably reverse obesity."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "T3 (TRα1) is essential for oligodendrocyte differentiation → CNS myelination; neonatal hypothyroidism → cretinism (irreversible cognitive impairment); adult T3 regulates serotonin synthesis, synaptic density, and neurogenesis; hypothyroidism is a reversible cause of dementia."
 ---
 
 # Thyroid Hormones (T3/T4)
@@ -219,6 +231,14 @@ The HPT axis is a classical closed-loop negative feedback system:
 - **Expresses** → [Thyroid](../../../../../01-human/06-organ/thyroid/README.md): The thyroid follicular cells are the exclusive synthetic source of T4 and the primary (though minor) source of T3 in the body. Follicular cell TSH receptor activation drives NIS-mediated iodide uptake, TPO-catalysed organification/coupling of thyroglobulin, and TSH-stimulated lysosomal proteolysis of stored Tg to release T4/T3 into the bloodstream. The thyroid is the sole organ in the human body capable of concentrating iodine to the degree required for thyroid hormone synthesis.
 
 - **Modulates** → [Liver](../../../../../01-human/06-organ/liver/README.md): The liver is the primary site of DIO1-mediated T4→T3 conversion (contributing ~40-50% of circulating T3) and of thyroid hormone inactivation (glucuronidation/sulfation). Hepatic TRβ1 drives T3-responsive gene programs: ↑LDL receptor (↓LDL-C), ↑CYP7A1 (↑bile acid synthesis/cholesterol catabolism), ↑mitochondrial biogenesis, ↑FAO. Resmetirom's hepatoselectivity exploits the liver's dominant TRβ1 expression to treat MASH.
+
+- `connects-to` → **[Major Depressive Disorder](../../07-system/major-depressive-disorder/README.md)** — Hypothyroidism causes reversible depressive syndrome indistinguishable from MDD; TSH >10 mIU/L is a diagnostic exclusion for MDD; subclinical hypothyroidism accounts for ~10% of refractory MDD; T3 (25-50 mcg/day) augments antidepressant response in treatment-resistant depression.
+
+- `connects-to` → **[Osteoporosis](../../07-system/osteoporosis/README.md)** — Hyperthyroidism accelerates bone remodeling → 10-20% BMD loss at trabecular sites; TSH receptors on osteoblasts exert bone-protective effects; Graves disease → osteoporosis risk; anti-thyroid treatment normalizes bone loss; bisphosphonates co-administered when BMD is low.
+
+- `connects-to` → **[Obesity](../../07-system/obesity/README.md)** — Thyroid hormones set basal metabolic rate — hypothyroidism reduces BMR → weight gain; T3 drives UCP1 in BAT (thermogenesis) and mitochondrial biogenesis; TRβ agonist resmetirom reduces hepatic fat in MASH; levothyroxine normalizes TSH but does not reliably reverse obesity.
+
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — T3 (TRα1) is essential for oligodendrocyte differentiation → CNS myelination; neonatal hypothyroidism → cretinism (irreversible cognitive impairment); adult T3 regulates serotonin synthesis, synaptic density, and neurogenesis; hypothyroidism is a reversible cause of dementia.
 
 [^mullur-2014-thyroid-review]: Mullur R, Liu YY, Brent GA. Physiol Rev. 2014;94(2):355-82. doi:10.1152/physrev.00030.2013
 [^bianco-2019-deiodination]: Bianco AC, Kim BW. J Clin Invest. 2006;116(10):2571-9. doi:10.1172/JCI29812

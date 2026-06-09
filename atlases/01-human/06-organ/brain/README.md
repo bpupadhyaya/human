@@ -202,6 +202,9 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "ERα in hippocampus promotes synaptic plasticity and BDNF; hippocampal aromatase (CYP19A1) produces local estradiol; estrogen deficiency → cognitive decline; estrogen neuroprotection established in animal models but the HRT critical-window hypothesis remains unproven clinically."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "T3 (TRα1) is essential for oligodendrocyte differentiation → CNS myelination; neonatal hypothyroidism → cretinism (irreversible cognitive impairment); adult T3 regulates serotonin synthesis, synaptic density, and neurogenesis; hypothyroidism is a reversible cause of dementia."
 ---
 
 # Brain
@@ -313,6 +316,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `secretes` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — pituitary somatotrophs (~50% of anterior pituitary) secrete GH under GHRH and somatostatin control; GH pulsatility peaks during the first SWS episode within 1 hour of sleep onset; GH-secreting adenoma (acromegaly) is treated surgically by transsphenoidal adenomectomy first-line.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — AR and ERα in hypothalamus/limbic cortex mediate testosterone effects on libido, aggression, and mood; aromatization to estradiol required for male brain masculinization; testosterone deficiency → depressive symptoms and cognitive slowing; hippocampal AR regulates BDNF.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — ERα in hippocampus promotes synaptic plasticity and BDNF; hippocampal aromatase (CYP19A1) produces local estradiol; estrogen deficiency → cognitive decline; estrogen neuroprotection established in animal models but the HRT critical-window hypothesis remains unproven clinically.
+- `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — T3 (TRα1) is essential for oligodendrocyte differentiation → CNS myelination; neonatal hypothyroidism → cretinism (irreversible cognitive impairment); adult T3 regulates serotonin synthesis, synaptic density, and neurogenesis; hypothyroidism is a reversible cause of dementia.
 
 ## Pathology
 
