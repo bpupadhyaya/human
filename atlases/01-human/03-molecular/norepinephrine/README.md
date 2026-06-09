@@ -41,6 +41,9 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "NE α2A-receptor signaling in PFC strengthens layer III pyramidal neuron connectivity underlying working memory; atomoxetine (selective NE reuptake inhibitor) and guanfacine/clonidine (α2A agonists) treat ADHD by restoring NE-PFC function without dopamine-reward circuit effects."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Locus coeruleus NE hyperactivity drives sympathetic arousal, hypervigilance, and somatic anxiety symptoms in GAD; SNRIs (duloxetine, venlafaxine) treat GAD via dual NE + 5-HT reuptake inhibition; propranolol reduces peripheral β-adrenergic anxiety manifestations."
 ---
 
 # Norepinephrine
@@ -147,6 +150,7 @@ NE
 - **Modulates beta1-adrenergic-receptor** — Norepinephrine is the primary endogenous agonist of β₁AR on cardiomyocytes (Gs→cAMP→PKA); activates SA node, ↑HR, ↑AV conduction, ↑ventricular contractility; maintains sympathetic tone. See [beta1-adrenergic-receptor](../beta1-adrenergic-receptor/README.md).
 - **Modulates nervous system** — Locus coeruleus NE neurons project to entire CNS modulating arousal, attention, fear, and autonomic tone; LC hyperactivation in PTSD/anxiety; α₂ agonists (clonidine) suppress LC for opioid withdrawal. See [nervous-system](../../07-system/nervous-system/README.md).
 - `connects-to` → **[ADHD](../../07-system/attention-deficit-hyperactivity-disorder/README.md)** — NE α2A-receptor signaling in PFC strengthens layer III pyramidal neuron connectivity underlying working memory and attention; atomoxetine (selective NE reuptake inhibitor) and guanfacine/clonidine (α2A agonists) treat ADHD by restoring NE-PFC function without engaging dopamine-reward circuits.
+- `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — locus coeruleus NE hyperactivity drives sympathetic arousal, hypervigilance, and somatic anxiety in GAD; SNRIs (duloxetine, venlafaxine) treat GAD via dual NE + 5-HT reuptake inhibition; propranolol reduces peripheral β-adrenergic anxiety manifestations.
 - **Modulates cardiovascular system** — NE is the principal sympathetic vasoconstrictor — activates vascular smooth muscle α₁AR → ↑peripheral resistance; maintains basal vascular tone; IV NE (vasopressor) used in septic shock. See [cardiovascular-system](../../07-system/cardiovascular-system/README.md).
 - **Modulated by dopamine** — Norepinephrine is synthesised from dopamine by DβH in synaptic vesicles; the DA:NE ratio in sympathetic terminals is governed by DβH activity and vesicular transport capacity. See [dopamine](../dopamine/README.md).
 

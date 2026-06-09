@@ -35,6 +35,12 @@ cross_links:
   - target: 01-human/07-system/myasthenia-gravis
     relation: connects-to
     note: "In MG, anti-AChR IgG activates complement → MAC destroys AChR at the NMJ; reduced AChR density → impaired NMJ transmission → fatigable weakness; pyridostigmine (AChE inhibitor) compensates by prolonging ACh dwell time; eculizumab and efgartigimod are targeted therapies."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Selective degeneration of nucleus basalis of Meynert cholinergic neurons → cortical ACh deficiency → impaired attention and memory encoding (cholinergic hypothesis); AChE inhibitors (donepezil, rivastigmine, galantamine) are first-line symptomatic therapy for mild-moderate AD."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Striatal cholinergic interneurons become relatively hyperactive when nigrostriatal dopamine is lost in PD → tremor and rigidity; anticholinergics (trihexyphenidyl) reduce tremor in younger PD patients; rivastigmine (AChEI) is FDA-approved for Parkinson's disease dementia (PDD)."
 ---
 
 # Acetylcholine
@@ -108,6 +114,8 @@ Choline is recycled by CHT1 (reuptake into presynaptic terminal). There is no in
 - **Modulates synapse** — ACh released at chemical synapses by exocytosis; AChE in synaptic cleft ensures brief signal duration (<1 ms); nicotinic fast response vs muscarinic GPCR-mediated slow modulation. See [synapse](../../05-tissue/synapse/README.md).
 - **Modulates nervous system** — ACh is the primary peripheral motor and autonomic preganglionic neurotransmitter; basal forebrain cholinergic neurons project to cortex/hippocampus regulating attention, REM sleep, and memory consolidation. See [nervous-system](../../07-system/nervous-system/README.md).
 - `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — In MG, anti-AChR IgG activates complement → MAC destroys AChR at the NMJ; reduced AChR density → impaired NMJ transmission → fatigable weakness; pyridostigmine (AChE inhibitor) compensates by prolonging ACh dwell time; eculizumab and efgartigimod are targeted therapies.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — selective degeneration of nucleus basalis of Meynert cholinergic neurons → cortical ACh deficiency → impaired attention and memory encoding; AChE inhibitors (donepezil, rivastigmine, galantamine) are first-line symptomatic therapy for mild-moderate AD; the cholinergic hypothesis explains symptoms but not the primary amyloid/tau pathology.
+- `connects-to` → **[Parkinson's Disease](../../07-system/parkinsons-disease/README.md)** — striatal cholinergic interneurons become relatively hyperactive when nigrostriatal dopamine is lost in PD → tremor and rigidity; anticholinergics (trihexyphenidyl) reduce tremor in younger PD patients; rivastigmine (AChEI) is FDA-approved for Parkinson's disease dementia (PDD).
 
 ## Pathology
 

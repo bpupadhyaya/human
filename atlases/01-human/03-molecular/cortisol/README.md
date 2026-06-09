@@ -65,6 +65,9 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "HPA hyperactivation in MDD — elevated CRH, cortisol, and blunted DST suppression — causes hippocampal atrophy via GR-mediated BDNF suppression; normalizing cortisol via mifepristone or CRH antagonists correlates with antidepressant response."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "HPA axis hyperactivation in GAD → elevated morning cortisol → hippocampal volume reduction and impaired fear extinction; cortisol feedback sensitization perpetuates chronic worry; morning cortisol levels in GAD normalize with effective SSRI treatment."
 ---
 
 # Cortisol
@@ -194,6 +197,9 @@ The diurnal cortisol rhythm is a **time-giver (Zeitgeber) signal** for periphera
 - `modulates` → **[nervous-system](../../07-system/nervous-system/README.md)** — crosses BBB; modulates hippocampal memory consolidation, amygdala fear circuits, and mood via GR and MR
 - `modulates` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — enhances vascular tone and catecholamine responsiveness; hypertension in excess
 - `modulated-by` → **[nervous-system](../../07-system/nervous-system/README.md)** — hypothalamic CRH and hippocampal GR feedback are the dominant regulators of cortisol secretion
+- `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — PTSD exhibits paradoxical hypocortisolemia with elevated CRH but enhanced GR sensitivity; low cortisol impairs fear extinction; hydrocortisone given acutely after trauma shows prophylactic benefit; opposite HPA profile from MDD.
+- `connects-to` → **[Major Depressive Disorder](../../07-system/major-depressive-disorder/README.md)** — HPA hyperactivation in MDD causes hippocampal atrophy via GR-mediated BDNF suppression; elevated cortisol and blunted DST suppression are the most replicated biological findings in depression; mifepristone and CRH antagonists show antidepressant activity.
+- `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — HPA axis hyperactivation in GAD → elevated morning cortisol → hippocampal volume reduction and impaired fear extinction; cortisol feedback sensitization perpetuates chronic worry; morning cortisol normalizes with effective SSRI treatment.
 
 ## Pathology
 

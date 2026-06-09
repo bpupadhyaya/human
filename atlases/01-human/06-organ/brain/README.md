@@ -109,6 +109,9 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "ADHD involves PFC, anterior cingulate, and striatal circuit dysfunction; MRI shows ~3-5% smaller brain volume with 2-5 year maturation delay; default mode network fails to deactivate during tasks → attention lapses; PFC gray matter thinning correlates with ADHD severity."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "GAD involves amygdala hyperreactivity, vmPFC hypoactivity, and hippocampal volume reduction; fMRI shows increased amygdala-insula connectivity and failure of vmPFC to suppress amygdala fear responses; SSRIs and CBT both normalize amygdala reactivity on fMRI."
 ---
 
 # Brain
@@ -187,6 +190,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Huntington Disease](../../07-system/huntingtons-disease/README.md)** — HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal atrophy and tracks disease progression by UHDRS-TFC.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../../07-system/obsessive-compulsive-disorder/README.md)** — OCD is a CSTC circuit disorder: OFC/ACC hyperactivity drives excessive error detection; caudate nucleus hyperactivity disinhibits thalamocortical drive back to OFC → repetitive compulsive behaviors; SSRIs and ERP both normalize caudate hypermetabolism on PET.
 - `connects-to` → **[ADHD](../../07-system/attention-deficit-hyperactivity-disorder/README.md)** — ADHD involves PFC, anterior cingulate, and striatal circuit dysfunction; MRI shows ~3-5% smaller total brain volume with 2-5 year cortical maturation delay; default mode network fails to deactivate during tasks → attention lapses; PFC gray matter thinning correlates with ADHD severity.
+- `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — GAD involves amygdala hyperreactivity, vmPFC hypoactivity, and hippocampal volume reduction (~5-8%); fMRI shows increased amygdala-insula connectivity and failure of vmPFC to suppress amygdala fear responses; SSRIs and CBT both normalize amygdala reactivity.
 
 ## Pathology
 
