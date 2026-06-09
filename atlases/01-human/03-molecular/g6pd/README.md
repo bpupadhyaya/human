@@ -30,6 +30,15 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "G6PD A− deficiency (10-20% of sub-Saharan Africans) co-occurs with HbSS in ~5-10% of SCD patients; G6PD deficiency + SCD → increased haemolysis with oxidant drugs (dapsone for malaria prophylaxis, rasburicase, nitrofurantoin); G6PD screening recommended in SCD patients."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "G6PD is the sole NADPH source in erythrocytes; NADPH → glutathione reductase → GSH regeneration → quenches ROS and H₂O₂; G6PD deficiency → Heinz bodies, bite cells, extravascular haemolysis; RBC lifespan is the primary clinical battleground of G6PD deficiency."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Thalassaemia (HbE/β-thal most common in SEA) co-occurs with G6PD Mahidol/Viangchan; G6PD deficiency + beta-thalassaemia → additive oxidant haemolysis; G6PD screening is recommended in thalassaemia; both adaptations cluster in malaria-endemic regions by balanced selection."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophil NOX2 requires G6PD-derived NADPH to generate superoxide for oxidative burst; G6PD-deficient patients have impaired neutrophil bactericidal killing; severe G6PD deficiency (Class I) may present with recurrent bacterial infections from NOX2 substrate deficit."
 ---
 
 # G6PD
@@ -155,6 +164,9 @@ Both primaquine and tafenoquine → oxidant metabolites → acute haemolysis in 
 - `connects-to` → **[Malaria](../../07-system/malaria/README.md)** — G6PD heterozygosity in females confers ~50% protection against severe P. falciparum malaria (mosaic RBC population); G6PD-deficient patients cannot receive primaquine or tafenoquine for P. vivax radical cure (acute haemolysis risk); must test G6PD before prescribing 8-aminoquinolines.
 - `connects-to` → **[Hemoglobin](../hemoglobin/README.md)** — G6PD and haemoglobin variants (HbS, HbC, HbF, thalassaemia) represent independent protective adaptations to malaria in overlapping endemic regions; G6PD deficiency co-occurring with SCD → additive oxidant stress risk; avoid oxidant drugs (dapsone, rasburicase) in G6PD-deficient SCD.
 - `connects-to` → **[Sickle Cell Disease](../../07-system/sickle-cell-disease/README.md)** — G6PD A− deficiency (10-20% of sub-Saharan Africans) co-occurs with HbSS in ~5-10% of SCD patients; G6PD deficiency + SCD → increased haemolysis with oxidant drugs (dapsone, rasburicase, nitrofurantoin); G6PD screening recommended in SCD patients.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — G6PD is the sole NADPH source in erythrocytes; NADPH → glutathione reductase → GSH regeneration → quenches ROS and H₂O₂; G6PD deficiency → Heinz bodies, bite cells, extravascular haemolysis; RBC lifespan is the primary clinical battleground of G6PD deficiency.
+- `connects-to` → **[Thalassemia](../../07-system/thalassemia/README.md)** — Thalassaemia (HbE/β-thal most common in SEA) co-occurs with G6PD Mahidol/Viangchan; G6PD deficiency + beta-thalassaemia → additive oxidant haemolysis; G6PD screening is recommended in thalassaemia; both adaptations cluster in malaria-endemic regions by balanced selection.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophil NOX2 requires G6PD-derived NADPH to generate superoxide for oxidative burst; G6PD-deficient patients have impaired neutrophil bactericidal killing; severe G6PD deficiency (Class I) may present with recurrent bacterial infections from NOX2 substrate deficit.
 
 [^cappellini-2008-g6pd-review]: Cappellini MD, Fiorelli G. Glucose-6-phosphate dehydrogenase deficiency. *Lancet.* 2008;371(9606):64-74. [doi:10.1016/S0140-6736(08)60073-2](https://doi.org/10.1016/S0140-6736(08)60073-2) · [PubMed 18177777](https://pubmed.ncbi.nlm.nih.gov/18177777/)
 [^who-g6pd-working-group-1989]: WHO Working Group. Glucose-6-phosphate dehydrogenase deficiency. *Bull World Health Organ.* 1989;67(6):601-611. · [PubMed 2633878](https://pubmed.ncbi.nlm.nih.gov/2633878/)

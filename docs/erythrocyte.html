@@ -3,97 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Erythrocyte (red blood cell) — haemoglobin oxygen transport, biconcave disc structure, erythropoiesis, EPO regulation, Bohr effect, sickle-cell disease, thalassaemia, anaemia. Part of the Human Engineering project.">
-  <meta property="og:title" content="Erythrocyte — Cellular Atlas · Human Engineering">
+  <meta name="description" content="Anucleate biconcave disc (~7.5 µm). 250 million haemoglobin molecules carry 4 O₂ each; 25 trillion erythrocytes deliver ~250 mL O₂/min to tissues at rest. 120-d">
+  <meta property="og:title" content="Erythrocyte — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Erythrocyte &mdash; Cellular Atlas &middot; Human Engineering</title>
+  <title>Erythrocyte — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #dc2626;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--accent); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #991b1b); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
-
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-
-    .pleio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .pleio-grid { grid-template-columns: 1fr; } }
-    .pleio-card { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 0.85rem 1rem; }
-    .pleio-card .pc-title { font-size: 0.8rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.35rem; }
-    .pleio-card p { font-size: 0.87rem; color: var(--fg-soft); margin: 0; line-height: 1.5; }
-
-    .principle-box { background: rgba(220,38,38,0.06); border: 1px solid rgba(220,38,38,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent); }
-
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
-    .conn-pill.partof .rel { color: var(--muted); }
-    .conn-pill.acts .rel { color: var(--bio); }
-    .conn-pill.modulated .rel { color: var(--eng); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '&#8599;'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -112,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -124,242 +119,68 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
     <h1>Erythrocyte</h1>
-    <p class="tagline">The oxygen courier &mdash; an anucleate biconcave disc exquisitely engineered around haemoglobin, delivering ~250 mL O&#x2082;/min to tissues at rest while cycling ~300 km of vasculature over a 120-day lifespan.</p>
-    <p class="subtagline">The most abundant cell in the human body (~25 trillion circulating), the erythrocyte is terminally differentiated and almost entirely devoted to gas exchange. Each cell packs ~280 million haemoglobin tetramers, each binding four O&#x2082; cooperatively (Hill coefficient ~2.7). Production is driven by erythropoietin (EPO) from the kidney in response to hypoxia; clearance is handled by splenic macrophages recognising senescence signals at day ~120. Haemoglobin disorders &mdash; sickle-cell disease, thalassaemia &mdash; represent the world's most common single-gene diseases, affecting hundreds of millions.</p>
+    <p class="tagline">Anucleate biconcave disc (~7.5 µm). 250 million haemoglobin molecules carry 4 O₂ each; 25 trillion erythrocytes deliver ~250 mL O₂/min to tissues at rest. 120-day lifespan; removed by splenic macrophages. Erythropoietin (EPO) drives production in bone marrow.</p>
+    <p class="aliases">Also known as: red blood cell, RBC, red cell, erythron</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~25 trillion</span><span class="stat-label">Circulating RBCs (adult)</span></div>
-      <div class="stat"><span class="stat-num">7.5&ndash;8 &micro;m</span><span class="stat-label">Diameter</span></div>
-      <div class="stat"><span class="stat-num">120 days</span><span class="stat-label">Average lifespan</span></div>
-      <div class="stat"><span class="stat-num">~2 million/sec</span><span class="stat-label">Production rate</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One &middot; Cellular &middot; Gas Transport / Cardiovascular Component</div>
-        <h2>Erythrocyte</h2>
-        <div class="drug-class">Lineage: Erythroid &nbsp;&middot;&nbsp; Origin: Bone marrow (HSC &rarr; BFU-E &rarr; reticulocyte) &nbsp;|&nbsp; Scale: 04-Cellular &nbsp;|&nbsp; Key molecule: Haemoglobin A (HbA; 2&alpha; + 2&beta; subunits)</div>
-        <p class="summary">The erythrocyte (red blood cell) is the body's principal oxygen courier and the most abundant human cell by count. Terminally differentiated and devoid of nucleus, mitochondria, and most organelles, it is built almost entirely around ~280 million haemoglobin tetramers that bind O&#x2082; with exquisite cooperativity. The biconcave disc geometry, maintained by a spectrin-actin cytoskeletal lattice, maximises surface-area-to-volume ratio and enables deformability through capillaries 3 &micro;m wide. Gas exchange is bidirectional: O&#x2082; is loaded in the lungs (PO&#x2082; ~100 mmHg) and unloaded at tissues (PO&#x2082; ~40 mmHg), while CO&#x2082; returns largely as bicarbonate via carbonic anhydrase II. Erythropoietin (EPO) from the kidney drives production at ~2 million cells per second; senescent cells at day ~120 are cleared by splenic red-pulp macrophages with iron recycled back into the bone marrow. Disorders of haemoglobin structure and production &mdash; sickle-cell disease, thalassaemia &mdash; are the world's most prevalent inherited conditions.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">red blood cell (RBC)</span>
-          <span class="alias-pill">red cell</span>
-          <span class="alias-pill">erythron (collective)</span>
-          <span class="alias-pill">biconcave disc</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">erythrocyte</div>
+        <h2>Erythrocyte</h2>
+        <p class="summary">Anucleate biconcave disc (~7.5 µm). 250 million haemoglobin molecules carry 4 O₂ each; 25 trillion erythrocytes deliver ~250 mL O₂/min to tissues at rest. 120-day lifespan; removed by splenic macrophages. Erythropoietin (EPO) drives production in bone marrow.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The erythrocyte is the most abundant cell in the human body &mdash; approximately 25 trillion circulate in an adult &mdash; and the principal vehicle for respiratory gas transport. Normal reference ranges: 4.5&ndash;5.5 &times; 10&sup1;&sup2; cells/L (males), 4.0&ndash;5.0 &times; 10&sup1;&sup2; cells/L (females). Haematocrit: 40&ndash;52% males, 36&ndash;46% females. Mean corpuscular volume (MCV): 80&ndash;100 fL. The average adult contains ~5 litres of blood, of which ~45% is cellular (overwhelmingly erythrocytes).</p>
-          <p>Despite its near-universal familiarity, the erythrocyte is among the most structurally and biochemically specialised cells in biology. Terminally differentiated and devoid of nucleus, it is built almost entirely around haemoglobin and exquisitely engineered for deformability in capillaries as narrow as 3 &micro;m. Without mitochondria, it relies entirely on anaerobic glycolysis for ATP and the pentose phosphate pathway for oxidative protection via NADPH and glutathione.</p>
-          <p>Erythrocytes are produced in red bone marrow at a rate of ~2 million per second (~200 billion per day) and survive ~120 days before being cleared by splenic and hepatic macrophages. Production is tightly regulated by erythropoietin (EPO), a glycoprotein hormone synthesised primarily by peritubular interstitial cells of the renal cortex in response to hypoxia (HIF-2&alpha; &rarr; EPO transcription). Understanding erythrocyte physiology is foundational for anaemia management, transfusion medicine, haemoglobinopathy treatment, and sports medicine.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Feature</th><th>Detail</th></tr>
-            <tr>
-              <td>Size &amp; Shape</td>
-              <td>Biconcave disc, 7.5&ndash;8.0 &micro;m diameter, 2.0 &micro;m thick at rim, 1.0 &micro;m at centre. Volume: ~90 fL. Biconcave geometry maximises surface-area-to-volume ratio (~90 &micro;m&sup2;) to minimise O&#x2082;/CO&#x2082; diffusion distances and confers elastic deformability for passage through 3&ndash;4 &micro;m capillaries. No nucleus, no mitochondria &mdash; the most streamlined gas-exchange platform in biology.</td>
-            </tr>
-            <tr>
-              <td>Membrane</td>
-              <td>Lipid bilayer (outer leaflet: phosphatidylcholine + sphingomyelin; inner: phosphatidylethanolamine + phosphatidylserine) anchored to a 2-D spectrin&ndash;actin cytoskeletal lattice via ankyrin-1 and protein 4.1R. Phospholipid asymmetry maintained by flippase ATP11C &mdash; its collapse (PS externalisation) is the primary eat-me signal for senescent RBC clearance. <strong>Band 3 (AE1/SLC4A1)</strong>: Cl&minus;/HCO&#x2083;&minus; exchanger and primary cytoskeletal anchor; its oxidative clustering in aged RBCs triggers IgG binding and phagocytosis.</td>
-            </tr>
-            <tr>
-              <td>Haemoglobin</td>
-              <td>~250&ndash;280 million HbA tetramers per cell (2&alpha; + 2&beta; subunits). Each subunit: one iron-protoporphyrin IX (haem) group coordinated by proximal histidine (His F8). O&#x2082; binds at distal face with cooperativity (T-state &harr; R-state quaternary transitions; Hill coefficient ~2.7&ndash;3.0; P&#x2085;&#x2080; &asymp; 26 mmHg). 2,3-Bisphosphoglycerate (2,3-BPG) binds T-state cleft, stabilising deoxyhaemoglobin and right-shifting the dissociation curve to facilitate tissue O&#x2082; unloading. HbF (2&alpha; + 2&gamma;) does not bind 2,3-BPG &rarr; left-shifted curve &rarr; higher O&#x2082; affinity (advantageous for placental gas exchange).</td>
-            </tr>
-            <tr>
-              <td>Organelles</td>
-              <td>None in mature erythrocyte. Reticulocytes retain ribosomes and mitochondria (lost within ~24 hours of entering circulation via selective autophagy). Absence of mitochondria eliminates aerobic respiration &mdash; prevents the cell from consuming the O&#x2082; it is transporting.</td>
-            </tr>
-            <tr>
-              <td>Surface markers</td>
-              <td>CD235a (glycophorin A &mdash; blood group MN antigens; malaria receptor for <em>P. falciparum</em> EBA-175); CD235b (glycophorin B); CD47 ("don't-eat-me" signal, downregulated on senescent RBCs); ABO antigens (glycolipid); Rh antigens (RhD, RhCE &mdash; clinically critical for transfusion compatibility). CD35 (CR1 &mdash; complement receptor); Duffy antigen (DARC &mdash; <em>P. vivax</em> receptor; absent in Duffy-null West Africans)</td>
-            </tr>
-            <tr>
-              <td>Metabolism</td>
-              <td>Entirely anaerobic. <strong>Embden-Meyerhof pathway</strong> (glycolysis) produces 2 ATP per glucose; ATP maintains Na&sup+/K&sup+-ATPase, Ca&sup2;&sup+-ATPase, and flippase. <strong>Rapoport-Luebering shunt</strong>: 1,3-BPG &rarr; 2,3-BPG (bypasses ATP-generating step; ~20% of glucose flux at altitude or anaemia). <strong>Pentose phosphate pathway (PPP)</strong>: glucose-6-phosphate dehydrogenase (G6PD) generates NADPH &rarr; glutathione reductase &rarr; reduced glutathione (GSH) &rarr; neutralises H&#x2082;O&#x2082; and oxidant stress. G6PD deficiency (&gt;400 million affected) renders RBCs susceptible to oxidative haemolysis with primaquine, dapsone, fava beans.</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>erythrocyte</td></tr>
+            <tr><td>Name</td><td>Erythrocyte</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Function</h3>
-          <div class="pleio-grid">
-            <div class="pleio-card">
-              <div class="pc-title">Oxygen Transport</div>
-              <p>RBCs load O&#x2082; in pulmonary capillaries (PO&#x2082; ~100 mmHg; Hb &ge;97% saturated) and unload at tissues (PO&#x2082; ~40 mmHg; ~75% saturation). Net delivery: ~22% fractional release &times; 150 g Hb/L &times; 1.34 mL O&#x2082;/g Hb &times; 5 L/min CO = ~250 mL O&#x2082;/min at rest, rising to 3&ndash;4 L/min at maximal exercise.</p>
-            </div>
-            <div class="pleio-card">
-              <div class="pc-title">CO&#x2082; Transport &amp; pH Buffering</div>
-              <p>~70% of CO&#x2082; transported as HCO&#x2083;&minus; (carbonic anhydrase II: CO&#x2082; + H&#x2082;O &rarr; H&sup+ + HCO&#x2083;&minus;; &gt;10,000-fold acceleration). HCO&#x2083;&minus; exits via band-3/AE1 in exchange for Cl&minus; (chloride shift). ~23% as carbamino compounds on globin. ~7% dissolved. HbA acts as intracellular buffer (pKa ~6.8), dampening tissue-level pH swings.</p>
-            </div>
-            <div class="pleio-card">
-              <div class="pc-title">Bohr &amp; Haldane Effects</div>
-              <p>Rising tissue CO&#x2082; lowers pH &rarr; H&sup+ stabilises T-state (tense/deoxy) &rarr; right-shifts O&#x2082; dissociation curve (Bohr effect) &rarr; enhanced O&#x2082; unloading. Reciprocally, deoxygenation increases haemoglobin CO&#x2082; capacity (Haldane effect). Temperature rise at exercising muscle also right-shifts the curve. These are allosteric reciprocals of the same T&harr;R quaternary change.</p>
-            </div>
-            <div class="pleio-card">
-              <div class="pc-title">Nitric Oxide &amp; Vascular Tone</div>
-              <p>Oxyhaemoglobin scavenges free NO (NO + HbO&#x2082; &rarr; metHb + NO&#x2083;&minus;) limiting vasodilation. S-nitrosylation of Hb&beta;-Cys93 in the lungs may allow NO release at deoxygenation, contributing to hypoxic vasodilation. ATP released from RBCs via pannexin-1/CFTR under deformation or hypoxia activates endothelial purinergic receptors &rarr; eNOS &rarr; vasodilation.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Lifecycle &mdash; Erythropoiesis and Clearance</h3>
-          <div class="pathway-block">
-<pre>
-  ERYTHROPOIESIS (bone marrow -- ~7 days)
-  -------------------------------------------------
-  HSC (haematopoietic stem cell)
-   +-> MEP (megakaryocyte-erythroid progenitor)
-         +-> BFU-E (burst-forming unit erythroid)
-               |  EPO-independent survival; SCF / c-Kit signalling
-               v
-             CFU-E (colony-forming unit erythroid)
-               |  EPO-dependent commitment (EPO -> JAK2/STAT5 -> GATA-1/KLF1)
-               v
-             Proerythroblast (~20 um)
-               |  Hb synthesis begins; basophilic staining
-               v
-             Basophilic erythroblast
-               |  Active ribosome synthesis; nucleus condensing
-               v
-             Polychromatic erythroblast
-               |  Hb accumulates; organelle autophagy commences
-               v
-             Orthochromatic erythroblast
-               |  Nucleus fully condensed (pyknotic)
-               |  Enucleation: actin-myosin contractile ring expels
-               |  pyknotic nucleus as pyknosome -> engulfed by
-               |  macrophage nurse cells in erythroblastic islands
-               v
-             Reticulocyte (released into blood sinusoids)
-               |  Residual ribosomes + mitochondria;
-               |  finishes Hb synthesis over ~1-2 days in marrow
-               |  then enters bloodstream (~1% of circulating RBCs)
-               v
-             Mature Erythrocyte (within ~24 h in circulation)
-               Remaining organelles removed by selective autophagy
-
-  EPO REGULATION AXIS:
-  Tissue hypoxia -> renal peritubular interstitial cells
-  -> HIF-2a -> EPO gene transcription (chr 7q22)
-  -> EPO glycoprotein secreted into blood
-  -> EPO receptor (EPOR) on CFU-E/proerythroblasts
-  -> JAK2 -> STAT5 -> Bcl-xL (anti-apoptotic) + GATA-1 amplification
-  -> expanded erythroid output within ~5 days
-  Negative feedback: rising Hct -> improved O2 delivery -> HIF-2a suppressed
-
-  CIRCULATION AND SENESCENCE (~120 days)
-  -------------------------------------------------
-  ~300 km of vascular traversal; ~10^5 circulatory passages
-  Mechanical deformation (capillaries 3-4 um) -> membrane fatigue
-  Oxidative damage -> band 3 oxidation -> clustering -> IgG binding
-  Flippase loss -> phosphatidylserine (PS) externalisation (eat-me signal)
-  CD47 ("don't-eat-me") downregulation
-       |
-       v
-  Splenic red-pulp macrophages (~90% of clearance)
-  Hepatic Kupffer cells (~10%)
-       |  Recognition via PS receptor (TIM-4), anti-band-3 IgG (FcgR), complement
-       v
-  IRON RECYCLING:
-  Haem -> haem oxygenase 1 (HMOX1) -> biliverdin -> bilirubin
-        -> conjugated in liver -> bile excretion
-  Fe2+ -> ferroportin 1 (FPN1/SLC40A1) -> plasma -> transferrin
-        -> bone marrow -> new erythropoiesis (~25 mg Fe recycled/day)
-  Globin chains -> proteolysis -> amino acid recycling
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <table class="data-table">
-            <tr><th>Disease</th><th>Mechanism</th><th>Clinical Features</th><th>Treatment</th></tr>
-            <tr>
-              <td><strong>Iron-Deficiency Anaemia</strong></td>
-              <td>Insufficient iron for haem synthesis &rarr; microcytic, hypochromic RBCs (low MCV, low MCH). Most common nutritional deficiency globally; causes: poor intake, malabsorption (coeliac), blood loss (GI, menstrual). EPO-driven erythropoiesis continues but fails to produce normal Hb.</td>
-              <td>Fatigue, pallor, dyspnoea on exertion, koilonychia (spoon nails), pica. Hb typically &lt;12 g/dL (women), &lt;13 g/dL (men); MCV &lt;80 fL; ferritin low; TIBC high.</td>
-              <td>Oral ferrous sulphate/gluconate; IV iron (ferric carboxymaltose) for malabsorption or severe cases; identify and treat underlying cause</td>
-            </tr>
-            <tr>
-              <td><strong>Sickle-Cell Disease</strong></td>
-              <td>HbS: &beta;-Glu6Val substitution. Under hypoxia, deoxyHbS polymerises into rigid fibres &rarr; RBC sickling &rarr; vaso-occlusion, haemolysis. Sickling cycle: hypoxia/dehydration &rarr; polymerisation &rarr; cell rigidity &rarr; microvascular occlusion &rarr; ischaemia &rarr; more hypoxia. Homozygous (HbSS) most severe.</td>
-              <td>Painful vaso-occlusive crises; acute chest syndrome (pulmonary infarction); stroke; splenic infarction &rarr; functional asplenia; haemolytic anaemia (Hb ~7&ndash;9 g/dL); priapism; renal papillary necrosis; avascular necrosis of femoral head.</td>
-              <td>Hydroxyurea (&uarr; HbF; anti-sickling); voxelotor (Hb polymerisation inhibitor); crizanlizumab (anti-P-selectin); transfusion; curative gene therapy (LentiGlobin, exa-cel CRISPR-based &gamma;-globin induction)</td>
-            </tr>
-            <tr>
-              <td><strong>Thalassaemia</strong></td>
-              <td>&alpha;-thalassaemia: deletion of 1&ndash;4 &alpha;-globin genes (HBA1/HBA2 on chr 16). &beta;-thalassaemia: point mutations reducing/abolishing &beta;-globin synthesis. Imbalanced globin chain production &rarr; excess unpaired chains precipitate &rarr; ineffective erythropoiesis + haemolysis. &beta;-thal major (transfusion-dependent): &lt;1 g/dL Hb without transfusion; marrow expansion &rarr; facial bone deformity, hepatosplenomegaly.</td>
-              <td>&beta;-thal major: severe anaemia requiring lifelong transfusion from infancy; iron overload &rarr; cardiac siderosis, cirrhosis, endocrine failure (diabetes, hypogonadism). HbH disease (3-gene &alpha;-deletion): haemolytic anaemia.</td>
-              <td>Regular transfusion + iron chelation (deferoxamine, deferasirox); luspatercept (TGF-&beta; trap reduces ineffective erythropoiesis); curative BMT / gene therapy (betibeglogene, LentiGlobin)</td>
-            </tr>
-            <tr>
-              <td><strong>Hereditary Spherocytosis</strong></td>
-              <td>Mutations in spectrin (&alpha; or &beta;), ankyrin-1, band 3, or protein 4.2 weaken vertical interaction between lipid bilayer and cytoskeleton. Membrane vesiculation &rarr; progressive loss of membrane &rarr; sphere shape (&darr; deformability) &rarr; selective splenic trapping and haemolysis.</td>
-              <td>Haemolytic anaemia, splenomegaly, jaundice, pigment gallstones. Osmotic fragility test positive. MCHC elevated (&gt;36 g/dL). Coombs-negative haemolysis.</td>
-              <td>Folic acid supplementation; splenectomy (reduces haemolysis but increases infection risk &mdash; prophylactic penicillin + pneumococcal/meningococcal vaccination required)</td>
-            </tr>
-            <tr>
-              <td><strong>Polycythaemia Vera</strong></td>
-              <td>Myeloproliferative neoplasm: JAK2 V617F somatic mutation (~97% of cases) &rarr; constitutive JAK2/STAT5 activation &rarr; EPO-independent RBC overproduction. Also excess platelets and neutrophils.</td>
-              <td>Erythrocytosis (Hb &gt;16.5 g/dL men, &gt;16 g/dL women), facial plethora, aquagenic pruritus, splenomegaly, hyperviscosity &rarr; thrombosis risk (stroke, DVT, Budd-Chiari syndrome).</td>
-              <td>Phlebotomy to target Hct &lt;45%; low-dose aspirin; hydroxyurea for high-risk patients; ruxolitinib (JAK1/2 inhibitor) for refractory disease</td>
-            </tr>
-          </table>
-
-          <div class="principle-box">
-            <p><strong>Malaria and the erythrocyte &mdash; evolution's battleground:</strong> <em>Plasmodium falciparum</em> requires the erythrocyte as its obligate intraerythrocytic host, invading via glycophorin A (EBA-175 ligand). The parasite digests haemoglobin as its nutrient source, exporting malarial proteins that remodel the RBC cytoskeleton. <strong>Sickle-cell trait (HbAS)</strong> provides ~90% protection against severe malaria &mdash; the clearest example of heterozygote advantage in human evolutionary biology. <strong>G6PD deficiency, &alpha;-thalassaemia, and Duffy-null phenotype</strong> are similarly concentrated in malaria-endemic regions, all representing evolved erythrocyte-level malaria resistance mechanisms.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="cardiovascular-system.html" class="conn-pill partof">
-              <span class="rel">Part of</span>
-              Cardiovascular System
-            </a>
-            <a href="bone-marrow.html" class="conn-pill partof">
-              <span class="rel">Produced in</span>
-              Bone Marrow (erythropoiesis)
-            </a>
-            <a href="macrophage.html" class="conn-pill modulated">
-              <span class="rel">Cleared by</span>
-              Macrophage (splenic red pulp)
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Regulated by</span>
-              Erythropoietin / EPO (entry pending)
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Composed of</span>
-              Haemoglobin (entry pending)
-            </a>
-            <a href="cardiovascular-system.html" class="conn-pill acts">
-              <span class="rel">O&#x2082; delivered to</span>
-              Cardiomyocytes (~70% extraction)
-            </a>
+            <a class="conn-pill part" href="cardiovascular-system.html" title="Erythrocytes are the dominant cellular component of blood, suspended in plasma and circulated by the cardiovascular system to deliver O₂ to every tissue."><span class="rel">part-of</span>Cardiovascular System</a>
+            <a class="conn-pill" href="oxygen.html" title="Haemoglobin binds 4 O₂ molecules cooperatively (Hill coefficient ~2.7–3.0); each erythrocyte carries ~10⁹ O₂ molecules. At rest, ~25 trillion circulating erythrocytes collectively deliver ~250 mL O₂/min to tissues."><span class="rel">modulates</span>Oxygen</a>
+            <a class="conn-pill part" href="bone-marrow.html" title="Erythrocytes are produced in red bone marrow via erythropoiesis, a process spanning ~7 days from BFU-E progenitor to reticulocyte egress; ~2 million new RBCs enter circulation every second."><span class="rel">part-of</span>Bone Marrow</a>
+            <a class="conn-pill" href="cardiomyocyte.html" title="Erythrocytes deliver O₂ to cardiomyocytes via coronary circulation; the myocardium extracts ~70% of O₂ at rest — one of the highest extraction ratios in the body."><span class="rel">modulates</span>Cardiomyocyte</a>
+            <a class="conn-pill part" href="human-body.html" title="Approximately 25 trillion erythrocytes are present in the adult human body at any time, constituting ~70% of all human cells by number."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill part" href="hemoglobin.html" title="Composed Of by Hemoglobin."><span class="rel">composed-of</span>Hemoglobin</a>
+            <a class="conn-pill" href="erythropoietin.html" title="Modulated by Erythropoietin."><span class="rel">modulated-by</span>Erythropoietin</a>
+            <a class="conn-pill part" href="iron.html" title="Composed Of by Iron."><span class="rel">composed-of</span>Iron</a>
+            <a class="conn-pill" href="g6pd.html" title="G6PD is the sole NADPH source in erythrocytes; NADPH → glutathione reductase → GSH regeneration → quenches ROS and H₂O₂; G6PD deficiency → Heinz bodies, bite cells, extravascular haemolysis; RBC lifespan is the primary clinical battleground of G6PD deficiency."><span class="rel">connects-to</span>G6Pd</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>An X, Mohandas N. Disorders of red cell membrane. <em>Br J Haematol.</em> 2008;141(3):367-75. <a href="https://doi.org/10.1111/j.1365-2141.2008.07091.x">doi:10.1111/j.1365-2141.2008.07091.x</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18341630/">PubMed 18341630</a></li>
-            <li>Bunn HF. Erythropoietin. <em>Cold Spring Harb Perspect Med.</em> 2013;3(3):a011619. <a href="https://doi.org/10.1101/cshperspect.a011619">doi:10.1101/cshperspect.a011619</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23457295/">PubMed 23457295</a></li>
-            <li>Hillman RS, Ault KA, Leporrier M, Rinder HM. <em>Hematology in Clinical Practice.</em> 5th ed. McGraw-Hill; 2019.</li>
-            <li>Schechter AN. Hemoglobin research and the origins of molecular medicine. <em>Blood.</em> 2008;112(10):3927-38. <a href="https://doi.org/10.1182/blood-2008-04-078188">doi:10.1182/blood-2008-04-078188</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18988877/">PubMed 18988877</a></li>
+            <li><a href="https://doi.org/10.1111/j.1365-2141.2008.07091.x" target="_blank" rel="noopener noreferrer">An X, Mohandas N. Disorders of red cell membrane. Br J Haematol. 2008;141(3):367-75.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18341630/" target="_blank" rel="noopener noreferrer">PubMed 18341630</a></li>
+            <li><a href="https://doi.org/10.1101/cshperspect.a011619" target="_blank" rel="noopener noreferrer">Bunn HF. Erythropoietin. Cold Spring Harb Perspect Med. 2013;3(3):a011619.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23457295/" target="_blank" rel="noopener noreferrer">PubMed 23457295</a></li>
+            <li><a href="https://www.mhprofessional.com/hematology-in-clinical-practice-fifth-edition-9780071626996-usa" target="_blank" rel="noopener noreferrer">Hillman RS, Ault KA, Leporrier M, Rinder HM. Hematology in Clinical Practice. 5th ed. McGraw-Hill; 2019.</a></li>
+            <li><a href="https://doi.org/10.1182/blood-2008-04-078188" target="_blank" rel="noopener noreferrer">Schechter AN. Hemoglobin research and the origins of molecular medicine. Blood. 2008;112(10):3927-38.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18988877/" target="_blank" rel="noopener noreferrer">PubMed 18988877</a></li>
           </ul>
         </div>
 
@@ -368,20 +189,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="macrophage.html">Macrophage</a>
-      <a href="natural-killer-cell.html">NK Cell</a>
-      <a href="insulin.html">Insulin</a>
-      <a href="cardiovascular-system.html">Cardiovascular</a>
       <a href="pathogens.html">Pathogens</a>
-      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

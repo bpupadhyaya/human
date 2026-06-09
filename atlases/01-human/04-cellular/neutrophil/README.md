@@ -41,6 +41,9 @@ cross_links:
   - target: 02-pathogen/02-bacteria/neisseria-meningitidis
     relation: infected-by
     note: "Infected by Neisseria meningitidis."
+  - target: 01-human/03-molecular/g6pd
+    relation: connects-to
+    note: "Neutrophil NOX2 requires G6PD-derived NADPH to generate superoxide for oxidative burst; G6PD-deficient patients have impaired neutrophil bactericidal killing; severe G6PD deficiency (Class I) may present with recurrent bacterial infections from NOX2 substrate deficit."
 ---
 
 # Neutrophil
@@ -100,6 +103,7 @@ Neutrophils occupy a critical position at the interface of early pathogen contai
 - **Part of Immune System** (`../../07-system/immune-system/README.md`): Neutrophils are the first-responder innate immune cells; they arrive at infection sites within minutes, deploying phagocytosis, respiratory burst, degranulation, and NETs against bacteria and fungi.[^janeway-immunobiology]
 - **Modulates Macrophage** (`../macrophage/README.md`): Neutrophil-derived CXCL8 and azurocidin recruit monocytes; apoptotic neutrophils are cleared by macrophage efferocytosis; neutrophil–macrophage crosstalk shapes the transition from acute to chronic inflammation.[^alberts-mol-cell-biology]
 - **Modulates Liver** (`../../06-organ/liver/README.md`): Hepatic neutrophil infiltration (via CXCL1/CXCL2/CXCL8) drives acute liver injury in ischaemia-reperfusion, alcoholic hepatitis, and NASH; NET components activate Kupffer cells via TLR4/TLR9, amplifying inflammation.[^janeway-immunobiology]
+- `connects-to` → **[G6PD](../../03-molecular/g6pd/README.md)** — Neutrophil NOX2 requires G6PD-derived NADPH to generate superoxide for oxidative burst; G6PD-deficient patients have impaired neutrophil bactericidal killing; severe G6PD deficiency (Class I) may present with recurrent bacterial infections from NOX2 substrate deficit.
 
 ## Pathology
 
@@ -124,3 +128,7 @@ Neutrophils occupy a critical position at the interface of early pathogen contai
 - [`../dendritic-cell/README.md`](../dendritic-cell/README.md) — DC activation by neutrophil-derived alarmins
 - [`../../03-molecular/il-6/README.md`](../../03-molecular/il-6/README.md) — cytokine amplifying neutrophil-driven inflammation
 - [`../../03-molecular/tnf-alpha/README.md`](../../03-molecular/tnf-alpha/README.md) — TNF-α upregulates endothelial E-selectin and ICAM-1 driving neutrophil recruitment
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

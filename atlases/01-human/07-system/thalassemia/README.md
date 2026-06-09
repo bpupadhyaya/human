@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "HbSβ-thalassemia (HbS + β-thal allele) is a common SCD genotype; severity depends on β-thal allele type (β⁰ = severe SCA-like; β⁺ = milder); gene therapy approaches (Zynteglo, Casgevy) target both SCD and β-thal major as overlapping haemoglobinopathies."
+  - target: 01-human/03-molecular/g6pd
+    relation: connects-to
+    note: "Thalassaemia (HbE/β-thal most common in SEA) co-occurs with G6PD Mahidol/Viangchan; G6PD deficiency + beta-thalassaemia → additive oxidant haemolysis; G6PD screening is recommended in thalassaemia; both adaptations cluster in malaria-endemic regions by balanced selection."
 ---
 
 # Thalassemia
@@ -190,6 +193,7 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — β-thal major: ineffective erythropoiesis → ERFE ↑ → hepcidin suppression → unconstrained iron absorption → TSAT 100% → NTBI → tissue deposition; deferasirox (oral) and deferoxamine (parenteral) are the mainstay chelators targeting transferrin-bound and NTBI iron.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Ineffective erythropoiesis in β-thalassaemia → ERFE from stress erythroblasts → suppresses BMP-SMAD → ↓ hepcidin → ↑ ferroportin → unconstrained iron absorption despite anemia; luspatercept (ActRIIA ligand trap) reduces ineffective erythropoiesis and partially restores hepcidin.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — HbSβ-thalassemia (HbS + β-thal allele) is a common SCD genotype; severity depends on β-thal allele type (β⁰ = severe SCA-like; β⁺ = milder); gene therapy approaches (Zynteglo, Casgevy) target both SCD and β-thal major as overlapping haemoglobinopathies.
+- `connects-to` → **[G6PD](../../03-molecular/g6pd/README.md)** — Thalassaemia (HbE/β-thal most common in SEA) co-occurs with G6PD Mahidol/Viangchan; G6PD deficiency + beta-thalassaemia → additive oxidant haemolysis; G6PD screening is recommended in thalassaemia; both adaptations cluster in malaria-endemic regions by balanced selection.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

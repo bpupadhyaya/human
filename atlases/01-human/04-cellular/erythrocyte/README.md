@@ -57,6 +57,9 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: composed-of
     note: "Composed Of by Iron."
+  - target: 01-human/03-molecular/g6pd
+    relation: connects-to
+    note: "G6PD is the sole NADPH source in erythrocytes; NADPH → glutathione reductase → GSH regeneration → quenches ROS and H₂O₂; G6PD deficiency → Heinz bodies, bite cells, extravascular haemolysis; RBC lifespan is the primary clinical battleground of G6PD deficiency."
 ---
 
 # Erythrocyte
@@ -107,3 +110,8 @@ Erythrocytes are produced in red bone marrow at a rate of ~2 million per second 
 - **Upstream regulators:** EPO (renal peritubular cells; HIF-2α-driven under hypoxia); SCF (c-Kit ligand, early progenitor survival); GATA-1/KLF1 (master transcription factors of erythroid differentiation); androgen → enhanced EPO sensitivity (explains sex difference in haematocrit); altitude/hypoxia → chronic EPO elevation → polycythaemia.
 - **Downstream physiological effects:** Tissue oxygenation; CO₂ removal; NO and vascular tone modulation; haemostasis (erythrocytes contribute to platelet activation and thrombus formation at high shear); acid-base buffering (HbA as an intracellular buffer, pKa ~6.8).
 - **Pathological associations:** Anaemia (iron-deficiency, B12/folate deficiency, haemolytic, aplastic); sickle-cell disease (HbS β-Glu6Val mutation → polymerisation under hypoxia → vaso-occlusion); thalassaemia (α or β globin chain imbalance); hereditary spherocytosis (spectrin/ankyrin mutations); malaria (Plasmodium falciparum obligate intraerythrocytic parasite exploiting host haemoglobin as nutrient source); polycythaemia vera (JAK2 V617F mutation → EPO-independent RBC overproduction).
+- `connects-to` → **[G6PD](../../03-molecular/g6pd/README.md)** — G6PD is the sole NADPH source in erythrocytes; NADPH → glutathione reductase → GSH regeneration → quenches ROS and H₂O₂; G6PD deficiency → Heinz bodies, bite cells, extravascular haemolysis; RBC lifespan is the primary clinical battleground of G6PD deficiency.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
