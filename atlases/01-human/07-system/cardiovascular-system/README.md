@@ -210,6 +210,9 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "SCD causes chronic haemolysis → NO scavenging → pulmonary arterial hypertension (PAH; TRV >2.5 m/s on echo predicts mortality); cardiomegaly + high-output failure from chronic anaemia; SCD-PAH treated with sildenafil + transfusion + hydroxyurea."
+  - target: 01-human/03-molecular/adenosine
+    relation: modulated-by
+    note: "A1R on SA/AV nodes → Gi → ↑IKAch → bradycardia; IV adenosine (6–12 mg, t½ ~10 s) terminates paroxysmal SVT; A2AR on coronary arteries → vasodilation; regadenoson (A2AR agonist) enables pharmacological cardiac stress testing; methylxanthines block adenosine-mediated AV block."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -356,6 +359,7 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - **Cross-atlas (planned in Phase 3):** pathogens that act systemically (sepsis, viremia) and medicines that target the system as a whole (vasopressors, vasodilators, anticoagulants) link in here.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — bradykinin → B2R on endothelium → eNOS → NO and PGI2 → vasodilation; ACE inhibitors raise bradykinin → contribute to vasodilatory cardioprotective effects; angioedema (B2R-mediated) and dry cough are bradykinin-dependent adverse effects of ACE inhibitor therapy.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — SCD causes chronic haemolysis → NO scavenging → pulmonary arterial hypertension (PAH; TRV >2.5 m/s on echo predicts mortality); cardiomegaly + high-output failure from chronic anaemia; SCD-PAH treated with sildenafil + transfusion + hydroxyurea.
+- `modulated-by` → **[Adenosine](../../03-molecular/adenosine/README.md)** — A1R on SA/AV nodes → Gi → ↑IKAch → bradycardia; IV adenosine (6–12 mg, t½ ~10 s) terminates paroxysmal SVT; A2AR on coronary arteries → vasodilation; regadenoson (A2AR agonist) enables pharmacological cardiac stress testing; methylxanthines block adenosine-mediated AV block.
 
 ## Pathology
 

@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Adenosine (process S, homeostatic) and melatonin (process C, circadian) are complementary sleep signals; adenosine encodes wakefulness duration, melatonin encodes time-of-day; both reduce arousal threshold at sleep onset; caffeine blocks adenosine, not melatonin."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: modulates
+    note: "A1R on SA/AV nodes → Gi → ↑IKAch → bradycardia; IV adenosine (6–12 mg, t½ ~10 s) terminates paroxysmal SVT; A2AR on coronary arteries → vasodilation; regadenoson (A2AR agonist) enables pharmacological cardiac stress testing; methylxanthines block adenosine-mediated AV block."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "A2BR on mast cells and airway smooth muscle → bronchoconstriction at high adenosine; AMP provocation test exploits this for asthma diagnosis; theophylline (adenosine antagonist + PDE inhibitor) is a bronchodilator; caffeine has mild adenosine-antagonist bronchodilator effect."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Tumor microenvironment generates adenosine via CD39 (ATP→AMP) and CD73 (AMP→adenosine); A2AR on tumor-infiltrating T cells → ↑cAMP → ↓IL-2/IFN-γ → immune evasion; anti-CD73 (oleclumab) + anti-PD-1 combination trials target adenosine-mediated immune checkpoint resistance."
 ---
 
 # Adenosine
@@ -180,6 +189,9 @@ The basal forebrain-VLPO adenosine circuit is mechanistically central to sleep i
 - `connects-to` → **[Dopamine](../dopamine/README.md)** — A2AR and D2R are coexpressed on striatal indirect pathway neurons and form heterodimers; adenosine binding reduces D2R affinity for dopamine, opposing D2R-mediated indirect pathway inhibition; A2AR antagonism (istradefylline) enhances dopaminergic motor facilitation in Parkinson's disease.
 - `connects-to` → **[Parkinson's Disease](../../07-system/parkinsons-disease/README.md)** — striatal DA depletion in PD unmasks excess A2AR-mediated indirect pathway overactivation → rigidity and bradykinesia; istradefylline (A2AR antagonist, FDA-approved 2019 adjunct) reduces OFF time in PD patients on levodopa by restoring D2R sensitivity.
 - `connects-to` → **[Melatonin](../melatonin/README.md)** — adenosine (process S, homeostatic sleep pressure) and melatonin (process C, circadian timing) are the two complementary sleep-promoting systems: adenosine encodes accumulated wakefulness duration while melatonin encodes time-of-day; both converge to lower the arousal threshold at sleep onset; caffeine blocks adenosine signaling without affecting melatonin.
+- `modulates` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — A1R on SA/AV nodes → Gi → ↑IKAch → bradycardia; IV adenosine (6–12 mg, t½ ~10 s) terminates paroxysmal SVT; A2AR on coronary arteries → vasodilation; regadenoson (A2AR agonist) enables pharmacological cardiac stress testing; methylxanthines block adenosine-mediated AV block.
+- `connects-to` → **[Asthma](../../07-system/asthma/README.md)** — A2BR on mast cells and airway smooth muscle → bronchoconstriction at high adenosine; AMP provocation test exploits this for asthma diagnosis; theophylline (adenosine antagonist + PDE inhibitor) is a bronchodilator; caffeine has mild adenosine-antagonist bronchodilator effect.
+- `connects-to` → **[Melanoma](../../07-system/melanoma/README.md)** — tumor microenvironment generates adenosine via CD39 (ATP→AMP) and CD73 (AMP→adenosine) on tumor cells and MDSCs; A2AR on tumor-infiltrating T cells → ↑cAMP → ↓IL-2/IFN-γ → immune evasion; anti-CD73 (oleclumab) + anti-PD-1 combination trials target adenosine-mediated checkpoint resistance.
 
 ## Pathology
 

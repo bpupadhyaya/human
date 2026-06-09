@@ -3,98 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cardiovascular system — heart, vasculature, and blood as two circuits in series. Scale 07 of the Human Atlas. Part of the Human Engineering project.">
-  <meta property="og:title" content="Cardiovascular System — Human Engineering">
+  <meta name="description" content="Heart, vasculature, and blood, organized into two circuits in series — pulmonary and systemic. The body's transport network: oxygen, CO₂, nutrients, waste, horm">
+  <meta property="og:title" content="Cardiovascular system — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Cardiovascular System — Human Engineering</title>
+  <title>Cardiovascular system — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #c2410c;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(194,65,12,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #c2410c, #7c2d12); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
-
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
-
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -113,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -125,202 +119,121 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Host Biology &middot; Scale 07 &mdash; System</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
     <h1>Cardiovascular system</h1>
-    <p class="tagline">Heart, vasculature, and blood — organized into two circuits in series that move oxygen, CO₂, nutrients, waste, hormones, immune cells, and heat to every tissue in the body.</p>
-    <p class="subtagline">The body's transport network. Every cell lives within ~100 µm of a capillary. The only system most cells interact with directly.</p>
+    <p class="tagline">Heart, vasculature, and blood, organized into two circuits in series — pulmonary and systemic. The body's transport network: oxygen, CO₂, nutrients, waste, hormones, immune cells, heat.</p>
+    <p class="aliases">Also known as: circulatory system, cardiovascular system</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">1</span><span class="stat-label">Entry</span></div>
-      <div class="stat"><span class="stat-num">07</span><span class="stat-label">Scale Level</span></div>
-      <div class="stat"><span class="stat-num">2</span><span class="stat-label">Circuits</span></div>
-      <div class="stat"><span class="stat-num">~100k km</span><span class="stat-label">Vasculature</span></div>
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">UBERON:0004535 &middot; FMA:7161 &middot; Atlas One / Scale 07</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">cardiovascular-system</div>
         <h2>Cardiovascular system</h2>
-        <p class="summary">The body's transport network: heart, blood vessels, and blood integrated into two circuits in series — pulmonary and systemic. Delivers oxygen, removes CO₂, distributes nutrients, hormones, and immune cells, and regulates heat. Cardiac output scales from ~5 L/min at rest to ~25 L/min at peak exercise — a five-fold dynamic range set largely by heart rate and stroke volume.</p>
+        <p class="summary">Heart, vasculature, and blood, organized into two circuits in series — pulmonary and systemic. The body's transport network: oxygen, CO₂, nutrients, waste, hormones, immune cells, heat.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The cardiovascular system is the only system most cells of the body interact with directly. <strong>Every cell lives within ~100 µm of a capillary</strong> — beyond that distance, diffusion alone cannot sustain aerobic metabolism. The system has three coordinated components: a <strong>pump</strong> (the heart), a <strong>distribution network</strong> (arteries → arterioles → capillaries → venules → veins), and a <strong>carrier fluid</strong> (blood) — each with its own pathologies and therapeutic targets, but functioning only as a coordinated whole.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>The Two Circuits</h3>
-          <p>The cardiovascular system is <strong>two circuits in series</strong>, sharing the heart as a common pump:</p>
-          <div class="circuit-diagram">
-<pre>
-              ┌─────────────────┐
-              │  Pulmonary      │   low pressure
-              │  circulation    │   (RV peak ~25 mmHg)
-              │   (lungs)       │
-              └─────────────────┘
-                 ↑           ↓
-           ┌────────────────────────┐
-           │   Heart (4 chambers)   │
-           │   R-side  ←→  L-side   │
-           └────────────────────────┘
-                 ↑           ↓
-         ┌──────────────────────────┐
-         │     Systemic             │   high pressure
-         │     circulation          │   (LV peak ~120 mmHg)
-         │  (brain, muscle, gut,    │
-         │   kidneys, skin, …)      │
-         └──────────────────────────┘
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;"><strong>Pulmonary circuit:</strong> Right ventricle → pulmonary trunk → pulmonary arteries → pulmonary capillaries (gas exchange) → pulmonary veins → left atrium. Low pressure, high compliance.</p>
-          <p><strong>Systemic circuit:</strong> Left ventricle → aorta → arteries → arterioles → capillaries → venules → veins → vena cavae → right atrium. High pressure, multiple parallel beds (cerebral, coronary, renal, splanchnic, muscular, cutaneous) each with local autoregulation.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Vessel Types</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Vessel class</th><th>Wall composition</th><th>Role</th></tr>
-            <tr><td><strong>Elastic arteries</strong> (aorta)</td><td>Thick tunica media, elastin-rich</td><td>Windkessel effect — damp pulsatile flow into smoother downstream pressure</td></tr>
-            <tr><td><strong>Muscular arteries</strong></td><td>Smooth muscle dominant</td><td>Distribution; modest tone control</td></tr>
-            <tr><td><strong>Arterioles</strong></td><td>Smooth muscle, sympathetic innervation</td><td>Primary site of systemic vascular resistance — the main pressure-control valve</td></tr>
-            <tr><td><strong>Capillaries</strong></td><td>Single endothelial layer + basement membrane</td><td>All gas, nutrient, waste, and immune-cell exchange</td></tr>
-            <tr><td><strong>Venules / veins</strong></td><td>Thin walls, valves in extremities</td><td>Capacitance reservoir — hold ~64% of total blood volume; venous return control</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Blood Distribution</h3>
-          <table class="data-table">
-            <tr><th>Compartment</th><th>Share of ~5 L total</th></tr>
-            <tr><td>Systemic veins</td><td>~64%</td></tr>
-            <tr><td>Systemic arteries</td><td>~13%</td></tr>
-            <tr><td>Pulmonary circulation</td><td>~9%</td></tr>
-            <tr><td>Heart chambers</td><td>~7%</td></tr>
-            <tr><td>Capillaries</td><td>~7%</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Cardiac Output</h3>
-          <p>Cardiac output (CO) is the system's primary throughput metric — the volume of blood the heart pumps per minute:</p>
-          <div class="formula-block">
-            CO = HR × SV
-            <div class="formula-note">where HR = heart rate (bpm), SV = stroke volume (mL/beat)</div>
-          </div>
-          <table class="data-table" style="margin-top:0.75rem;">
-            <tr><th>Variable</th><th>Resting</th><th>Peak exercise</th></tr>
-            <tr><td>Heart rate (HR)</td><td>60–80 bpm</td><td>180–200 bpm</td></tr>
-            <tr><td>Stroke volume (SV)</td><td>~70 mL</td><td>~120–150 mL</td></tr>
-            <tr><td><strong>Cardiac output</strong></td><td><strong>~5 L/min</strong></td><td><strong>~25 L/min</strong></td></tr>
-          </table>
-          <p style="margin-top:0.75rem;">This five-fold dynamic range explains why aerobic exercise capacity is set largely by cardiovascular function — not by muscle metabolism alone.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pressure, Flow, and Resistance</h3>
-          <p>Across any vascular bed, the governing relationship is an analogue of Ohm's law:</p>
-          <div class="formula-block">
-            ΔP = Q × R
-            <div class="formula-note">ΔP = pressure drop, Q = flow, R = resistance</div>
-          </div>
-          <p>Resistance scales with Poiseuille's law — inversely with the <strong>fourth power of vessel radius</strong>:</p>
-          <div class="formula-block">
-            R ∝ 8ηL / πr⁴
-            <div class="formula-note">η = viscosity, L = length, r = radius. Halving radius → 16× resistance</div>
-          </div>
-          <p>This radius<sup>4</sup> dependence is why <strong>arterioles dominate systemic resistance</strong> — small changes in arteriolar tone produce large changes in flow distribution. Mean arterial pressure:</p>
-          <div class="formula-block">
-            MAP ≈ CO × SVR    (resting MAP ~93 mmHg)
-            <div class="formula-note">SVR = systemic vascular resistance; also approximated as DBP + ⅓(SBP − DBP)</div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Regulation — Three Timescales</h3>
-          <table class="data-table">
-            <tr><th>Timescale</th><th>Mechanism</th><th>Effectors</th></tr>
-            <tr><td>Seconds</td><td>Baroreceptor reflex</td><td>Carotid sinus + aortic arch → medullary CV centers → autonomic modulation of HR (β1, M2) and arteriolar tone (α1)</td></tr>
-            <tr><td>Seconds</td><td>Chemoreceptor reflex</td><td>Detect hypoxia/hypercapnia → reflex CV and respiratory response</td></tr>
-            <tr><td>Minutes</td><td>Catecholamines (adrenal)</td><td>Epinephrine at β1AR (cardiac, renin), β2AR (vasodilation), α1 (vasoconstriction)</td></tr>
-            <tr><td>Hours</td><td>RAAS</td><td>Renal JG cells → renin → angiotensin II (vasoconstriction) → aldosterone (Na⁺/H₂O retention)</td></tr>
-            <tr><td>Hours</td><td>Vasopressin (ADH)</td><td>Osmolality + volume sensors → renal water retention; vascular V1 receptors → vasoconstriction</td></tr>
-            <tr><td>Days–weeks</td><td>Pressure-natriuresis, vascular remodeling</td><td>Kidneys, vasculature, cardiac hypertrophy/regression</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;">The β1-adrenergic receptor sits at the intersection of the seconds-to-minutes layer and cardiac response — a single molecule with leverage over heart rate, contractility, relaxation, and renin release simultaneously.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Local Autoregulation</h3>
-          <p>Each major vascular bed holds flow constant across a range of perfusion pressures. <strong>Cerebral</strong> circulation autoregulates from MAP ~60–150 mmHg. Coronary, renal, and splanchnic beds have their own ranges. Mechanisms:</p>
-          <div class="two-col">
-            <div class="info-block"><h4>Myogenic response</h4><p>Smooth muscle contracts when stretched by increased intraluminal pressure, limiting flow increase.</p></div>
-            <div class="info-block"><h4>Metabolic vasodilation</h4><p>Adenosine, CO₂, K⁺, and lactate — local metabolic products — dilate arterioles to match flow to demand.</p></div>
-            <div class="info-block"><h4>Endothelial signaling</h4><p>NO (vasodilatory), endothelin-1 (vasoconstrictive), prostacyclin — the endothelium actively tunes vascular tone.</p></div>
-            <div class="info-block"><h4>Coronary autoregulation</h4><p>The heart extracts ~75% of delivered O₂ at rest (vs ~25% elsewhere). Further demand is met almost entirely by increased coronary flow — making coronary stenosis acutely dangerous.</p></div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>System-Level Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Hypertension</h4>
-            <p>Sustained arterial pressure elevation; multifactorial (genetic, sodium, RAAS, sympathetic tone, vascular stiffness). The single largest modifiable risk factor for cardiovascular and cerebrovascular disease globally.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Atherosclerosis</h4>
-            <p>Lipid deposition + inflammation in the intima of large and medium arteries; progressive plaque growth; rupture or erosion → thrombosis → tissue infarction. The substrate of MI, ischemic stroke, and peripheral arterial disease.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Shock states</h4>
-            <p>Failure of systemic perfusion. Subtypes: <strong>hypovolemic</strong> (volume loss), <strong>cardiogenic</strong> (pump failure), <strong>distributive</strong> (sepsis, anaphylaxis — vasodilation + capillary leak), <strong>obstructive</strong> (tamponade, PE, tension pneumothorax).</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Pulmonary hypertension</h4>
-            <p>Sustained elevated pulmonary artery pressure → progressive right-heart failure. Multiple etiologies: idiopathic, drug-induced, left-heart disease, hypoxic, thromboembolic.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Thromboembolic disease</h4>
-            <p>Deep vein thrombosis, pulmonary embolism, AF-related cardioembolic stroke. Target of anticoagulant and antiplatelet therapy.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Cardiac arrest</h4>
-            <p>Cessation of effective circulation — typically ventricular fibrillation or asystole. Survival falls ~10% per minute without defibrillation.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Variation</h3>
-          <table class="data-table">
-            <tr><th>Dimension</th><th>Key variation</th></tr>
-            <tr><td>Sex</td><td>Men have higher CAD rates pre-menopause; women's risk equalizes post-menopause. HFpEF over-represented in women; HFrEF in men.</td></tr>
-            <tr><td>Age</td><td>Arterial stiffness increases; baroreceptor sensitivity declines; orthostatic hypotension more common; hypertension prevalence rises steeply.</td></tr>
-            <tr><td>Athletic adaptation</td><td>Endurance training → lower resting HR, larger SV, expanded blood volume, greater capillary density — the "athlete's heart."</td></tr>
-            <tr><td>Genetics &amp; ancestry</td><td>Hypertension, lipid metabolism, and ASCVD show population-level variation driven by complex genetic and environmental interactions.</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>cardiovascular-system</td></tr>
+            <tr><td>Name</td><td>Cardiovascular system</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
+            <tr><td>Uberon</td><td>UBERON:0004535</td></tr>
+            <tr><td>Fma</td><td>FMA:7161</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill" href="heart.html"><span class="rel">Contains</span>Heart (the pump)</a>
-            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Whole Body (Scale 08)</a>
-            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2</a>
-            <a class="conn-pill damaged" href="pathogens.html#cvb"><span class="rel">Damaged by</span>Coxsackievirus B</a>
-            <a class="conn-pill" href="beta-blockers.html"><span class="rel">Targeted by</span>Beta-blockers</a>
-            <a class="conn-pill" href="statins.html"><span class="rel">Protected by</span>Statins</a>
+            <a class="conn-pill part" href="heart.html" title="The pump driving the entire cardiovascular system."><span class="rel">contains</span>Heart</a>
+            <a class="conn-pill part" href="human-body.html" title="The cardiovascular system is one of the body's principal organ systems, regulated by and embedded in the integrated whole organism."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill damaged" href="sars-cov-2.html" title="SARS-CoV-2 causes systemic cardiovascular sequelae: endothelial dysfunction, microvascular thrombosis, myocarditis, arrhythmia, and post-acute cardiovascular complications."><span class="rel">damaged-by</span>Sars Cov 2</a>
+            <a class="conn-pill" href="respiratory-system.html" title="The cardiovascular and respiratory systems are tightly coupled via the pulmonary circuit: the right heart delivers deoxygenated blood to the alveolar capillaries, and the left heart receives oxygenated blood — making them functionally inseparable in gas exchange."><span class="rel">connects-to</span>Respiratory System</a>
+            <a class="conn-pill" href="nervous-system.html" title="The autonomic nervous system regulates heart rate (via SA node), contractility (β1-AR), and vascular tone; baroreceptor reflex provides moment-to-moment blood pressure feedback."><span class="rel">connects-to</span>Nervous System</a>
+            <a class="conn-pill" href="brain.html" title="The brain receives ~20% of cardiac output despite being ~2% of body weight; cerebral autoregulation maintains constant CBF over MAP 60–150 mmHg; ischemic stroke results from thromboembolic occlusion or sustained hypoperfusion."><span class="rel">connects-to</span>Brain</a>
+            <a class="conn-pill" href="renal-system.html" title="RAAS couples renal perfusion pressure to angiotensin II and aldosterone, governing Na⁺/H₂O retention and systemic BP; cardiorenal syndrome links heart failure to acute kidney injury."><span class="rel">connects-to</span>Renal System</a>
+            <a class="conn-pill" href="liver.html" title="Portal circulation delivers absorbed nutrients from gut to liver; hepatic lipoprotein synthesis and coagulation factor production directly shape cardiovascular risk and thrombosis."><span class="rel">connects-to</span>Liver</a>
+            <a class="conn-pill" href="digestive-system.html" title="Portal vein drains intestinal blood to liver before reaching systemic circulation; mesenteric blood flow (~30% of cardiac output postprandially) is regulated by autonomic and local vasoactive signals."><span class="rel">connects-to</span>Digestive System</a>
+            <a class="conn-pill" href="kidney.html" title="Renal perfusion (20–25% of cardiac output) is directly coupled to cardiac output; acute heart failure reduces GFR; the RAAS axis from the kidney feeds back to regulate systemic vascular resistance and cardiac preload."><span class="rel">connects-to</span>Kidney</a>
+            <a class="conn-pill" href="glomerulus.html" title="Glomerular filtration is driven entirely by systemic hydrostatic pressure from the renal artery; cardiac output and mean arterial pressure are the primary determinants of GFR."><span class="rel">connects-to</span>Glomerulus</a>
+            <a class="conn-pill" href="glomerulus.html" title="Systemic blood pressure modulates glomerular filtration pressure; hypertension causes hyperfiltration and eventual glomerulosclerosis; heart failure reduces GFR via low perfusion."><span class="rel">modulates</span>Glomerulus</a>
+            <a class="conn-pill" href="hepatic-lobule.html" title="Hepatic lobules receive dual blood supply — portal vein (~75%, nutrient-rich) and hepatic artery (~25%, oxygenated); portal hypertension in liver disease reflects cardiovascular-hepatic coupling."><span class="rel">connects-to</span>Hepatic Lobule</a>
+            <a class="conn-pill" href="arbs.html" title="ARBs reduce cardiac afterload and preload via AT1 blockade; indicated for hypertension, HFrEF (if ACE-I intolerant), and post-MI LV dysfunction; reduce hospitalizations and improve survival in heart failure."><span class="rel">treated-by</span>Arbs</a>
+            <a class="conn-pill" href="arbs.html" title="AT1 receptor blockade by ARBs redirects angiotensin II to the AT2 receptor, producing vasodilation and anti-fibrotic effects; RAAS suppression reduces cardiac remodeling after MI and in heart failure."><span class="rel">modulated-by</span>Arbs</a>
+            <a class="conn-pill" href="calcium-channel-blockers.html" title="CCBs reduce peripheral vascular resistance (dihydropyridines) or slow heart rate and AV conduction (non-dihydropyridines); first-line for hypertension and angina; amlodipine demonstrated CV event reduction in ALLHAT and CAMELOT trials."><span class="rel">treated-by</span>Calcium Channel Blockers</a>
+            <a class="conn-pill" href="calcium-channel-blockers.html" title="L-type Cav1.2 channel blockade by CCBs reduces Ca²⁺ entry into vascular smooth muscle (→ vasodilation) and cardiomyocytes (→ negative chronotropy/inotropy for non-DHPs); use-dependent block during tachycardia or increased firing."><span class="rel">modulated-by</span>Calcium Channel Blockers</a>
+            <a class="conn-pill" href="cortisol.html" title="Cortisol enhances vascular smooth muscle responsiveness to catecholamines and angiotensin II, maintaining vascular tone; chronic glucocorticoid excess (Cushing's) causes hypertension via Na⁺ retention and increased SVR."><span class="rel">modulated-by</span>Cortisol</a>
+            <a class="conn-pill" href="insulin.html" title="Insulin promotes endothelial nitric oxide production (via Akt → eNOS), vasodilation, and glucose uptake in vascular smooth muscle; chronic hyperinsulinemia and insulin resistance drive endothelial dysfunction and atherosclerosis."><span class="rel">modulated-by</span>Insulin</a>
+            <a class="conn-pill part" href="erythrocyte.html" title="Erythrocytes circulate within the cardiovascular system delivering O₂ to tissues; ~25 trillion RBCs are in continuous transit through the cardiac and vascular loop."><span class="rel">contains</span>Erythrocyte</a>
+            <a class="conn-pill part" href="bone-marrow.html" title="Bone marrow produces erythrocytes, platelets, and leukocytes that populate the cardiovascular system; the sinusoidal vasculature of marrow is part of the circulation."><span class="rel">contains</span>Bone Marrow</a>
+            <a class="conn-pill" href="omega-3-fatty-acids.html" title="EPA/DHA lower triglycerides, reduce platelet aggregation, and decrease arterial inflammation, collectively improving cardiovascular risk profile."><span class="rel">modulated-by</span>Omega 3 Fatty Acids</a>
+            <a class="conn-pill" href="hemoglobin.html" title="Modulated by Hemoglobin."><span class="rel">modulated-by</span>Hemoglobin</a>
+            <a class="conn-pill" href="fibrinogen.html" title="Modulated by Fibrinogen."><span class="rel">modulated-by</span>Fibrinogen</a>
+            <a class="conn-pill" href="vasopressin.html" title="Modulated by Vasopressin."><span class="rel">modulated-by</span>Vasopressin</a>
+            <a class="conn-pill" href="epinephrine.html" title="Modulated by Epinephrine."><span class="rel">modulated-by</span>Epinephrine</a>
+            <a class="conn-pill" href="ampk.html" title="Modulated by AMPK."><span class="rel">modulated-by</span>Ampk</a>
+            <a class="conn-pill" href="nitric-oxide.html" title="Modulated by Nitric Oxide."><span class="rel">modulated-by</span>Nitric Oxide</a>
+            <a class="conn-pill" href="angiotensin-ii.html" title="Modulated by Angiotensin II."><span class="rel">modulated-by</span>Angiotensin Ii</a>
+            <a class="conn-pill" href="albumin.html" title="Modulated by Albumin."><span class="rel">modulated-by</span>Albumin</a>
+            <a class="conn-pill" href="erythropoietin.html" title="Modulated by Erythropoietin."><span class="rel">modulated-by</span>Erythropoietin</a>
+            <a class="conn-pill" href="norepinephrine.html" title="Modulated by Norepinephrine."><span class="rel">modulated-by</span>Norepinephrine</a>
+            <a class="conn-pill" href="thyroid-hormones.html" title="Modulated by Thyroid Hormones (T3/T4)."><span class="rel">modulated-by</span>Thyroid Hormones</a>
+            <a class="conn-pill" href="prostaglandins.html" title="Modulated by Prostaglandins (Eicosanoids)."><span class="rel">modulated-by</span>Prostaglandins</a>
+            <a class="conn-pill" href="iodine.html" title="Modulated by Iodine."><span class="rel">modulated-by</span>Iodine</a>
+            <a class="conn-pill" href="reproductive-system.html" title="Modulated by Reproductive System."><span class="rel">modulated-by</span>Reproductive System</a>
+            <a class="conn-pill" href="lymphatic-system.html" title="Modulated by Lymphatic System."><span class="rel">modulated-by</span>Lymphatic System</a>
+            <a class="conn-pill" href="musculoskeletal-system.html" title="Modulated by Musculoskeletal System."><span class="rel">modulated-by</span>Musculoskeletal System</a>
+            <a class="conn-pill" href="endocrine-system.html" title="Modulated by Endocrine System."><span class="rel">modulated-by</span>Endocrine System</a>
+            <a class="conn-pill" href="integumentary-system.html" title="Modulated by Integumentary System."><span class="rel">modulated-by</span>Integumentary System</a>
+            <a class="conn-pill" href="cortical-bone.html" title="Modulated by Cortical Bone."><span class="rel">modulated-by</span>Cortical Bone</a>
+            <a class="conn-pill part" href="arterial-wall.html" title="Composed Of by Arterial Wall."><span class="rel">composed-of</span>Arterial Wall</a>
+            <a class="conn-pill part" href="endothelial-cell.html" title="Composed Of by Endothelial Cell."><span class="rel">composed-of</span>Endothelial Cell</a>
+            <a class="conn-pill" href="platelet.html" title="Modulated by Platelet."><span class="rel">modulated-by</span>Platelet</a>
+            <a class="conn-pill" href="mast-cell.html" title="Modulated by Mast Cell."><span class="rel">modulated-by</span>Mast Cell</a>
+            <a class="conn-pill part" href="smooth-muscle-cell.html" title="Composed Of by Smooth Muscle Cell."><span class="rel">composed-of</span>Smooth Muscle Cell</a>
+            <a class="conn-pill" href="adrenal-gland.html" title="Modulated by Adrenal Gland."><span class="rel">modulated-by</span>Adrenal Gland</a>
+            <a class="conn-pill" href="thyroid.html" title="Modulated by Thyroid Gland."><span class="rel">modulated-by</span>Thyroid</a>
+            <a class="conn-pill damaged" href="trypanosoma-cruzi.html" title="Damaged by Trypanosoma cruzi."><span class="rel">damaged-by</span>Trypanosoma Cruzi</a>
+            <a class="conn-pill damaged" href="streptococcus-pyogenes.html" title="Damaged by Streptococcus pyogenes."><span class="rel">damaged-by</span>Streptococcus Pyogenes</a>
+            <a class="conn-pill damaged" href="neisseria-meningitidis.html" title="Damaged by Neisseria meningitidis."><span class="rel">damaged-by</span>Neisseria Meningitidis</a>
+            <a class="conn-pill" href="resveratrol.html" title="Modulated by Resveratrol."><span class="rel">modulated-by</span>Resveratrol</a>
+            <a class="conn-pill" href="dietary-fiber.html" title="Modulated by Dietary Fiber and Butyrate."><span class="rel">modulated-by</span>Dietary Fiber</a>
+            <a class="conn-pill" href="magnesium-dietary.html" title="Modulated by Dietary Magnesium."><span class="rel">modulated-by</span>Magnesium Dietary</a>
+            <a class="conn-pill" href="ginkgo-biloba.html" title="Modulated by Ginkgo biloba (EGb 761)."><span class="rel">modulated-by</span>Ginkgo Biloba</a>
+            <a class="conn-pill" href="licorice-root.html" title="Modulated by Licorice Root (Glycyrrhiza glabra / G. uralensis)."><span class="rel">modulated-by</span>Licorice Root</a>
+            <a class="conn-pill" href="panax-ginseng.html" title="Modulated by Panax ginseng (Korean Red Ginseng)."><span class="rel">modulated-by</span>Panax Ginseng</a>
+            <a class="conn-pill" href="bradykinin.html" title="Bradykinin → B2R on endothelium → eNOS → NO and PGI2 → vasodilation; ACE inhibitors raise bradykinin → contribute to vasodilatory cardioprotective effects; angioedema (B2R-mediated) and dry cough are bradykinin-dependent adverse effects of ACE inhibitor therapy."><span class="rel">connects-to</span>Bradykinin</a>
+            <a class="conn-pill" href="sickle-cell-disease.html" title="SCD causes chronic haemolysis → NO scavenging → pulmonary arterial hypertension (PAH; TRV &gt;2.5 m/s on echo predicts mortality); cardiomegaly + high-output failure from chronic anaemia; SCD-PAH treated with sildenafil + transfusion + hydroxyurea."><span class="rel">connects-to</span>Sickle Cell Disease</a>
+            <a class="conn-pill" href="adenosine.html" title="A1R on SA/AV nodes → Gi → ↑IKAch → bradycardia; IV adenosine (6–12 mg, t½ ~10 s) terminates paroxysmal SVT; A2AR on coronary arteries → vasodilation; regadenoson (A2AR agonist) enables pharmacological cardiac stress testing; methylxanthines block adenosine-mediated AV block."><span class="rel">modulated-by</span>Adenosine</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>OpenStax. <em>Anatomy &amp; Physiology 2e</em>, Ch. 19.1: Heart Anatomy. <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy" target="_blank" rel="noopener">openstax.org</a></li>
-            <li>OpenStax. <em>Anatomy &amp; Physiology 2e</em>, Ch. 20.1: Structure and Function of Blood Vessels. <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels" target="_blank" rel="noopener">openstax.org</a></li>
-            <li>OpenStax. <em>Anatomy &amp; Physiology 2e</em>, Ch. 20.2: Blood Flow, Blood Pressure, and Resistance. <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance" target="_blank" rel="noopener">openstax.org</a></li>
-            <li>U.S. National Heart, Lung, and Blood Institute (NHLBI). How the Heart Works. <a href="https://www.nhlbi.nih.gov/health/heart/anatomy" target="_blank" rel="noopener">nhlbi.nih.gov</a></li>
+            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy &amp; Physiology 2e, Ch. 19.1: Heart Anatomy.</a></li>
+            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy &amp; Physiology 2e, Ch. 20.1: Structure and Function of Blood Vessels.</a></li>
+            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy &amp; Physiology 2e, Ch. 20.2: Blood Flow, Blood Pressure, and Resistance.</a></li>
+            <li><a href="https://www.nhlbi.nih.gov/health/heart/anatomy" target="_blank" rel="noopener noreferrer">U.S. National Heart, Lung, and Blood Institute (NHLBI). How the Heart Works.</a></li>
           </ul>
         </div>
 
@@ -332,11 +245,9 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="heart.html">Heart</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
