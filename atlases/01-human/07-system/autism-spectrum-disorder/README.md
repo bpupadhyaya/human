@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "ASD features amygdala hyperreactivity to faces, atypical gaze via STS, reduced default mode network connectivity, and early cortical overgrowth followed by reduced long-range connectivity; atypical lateralization and local-over-global processing are consistent findings."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "AVPR1A promoter microsatellites (RS1, RS3) associate with ASD social behavior; V1aR in lateral septum mediates social recognition memory; V1aR-KO mice show impaired social memory; intranasal vasopressin is in Phase 2 trials for ASD social communication deficits."
 ---
 
 # Autism Spectrum Disorder
@@ -189,6 +192,7 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[mTOR](../../../03-molecular/mtor/README.md)** — syndromic ASD via mTOR hyperactivation: tuberous sclerosis (TSC1/2 LOF), PTEN hamartoma (PTEN LOF); excess mTOR drives synaptic protein overproduction; everolimus reduces ASD severity and seizure burden in TSC patients.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — ASD features amygdala hyperreactivity to faces, atypical gaze processing via STS, reduced DMN connectivity, early cortical overgrowth followed by reduced long-range white matter connectivity, and consistent local-over-global processing bias.
+- `connects-to` → **[Vasopressin](../../../03-molecular/vasopressin/README.md)** — AVPR1A promoter microsatellites (RS1, RS3) associate with ASD social behavior; V1aR in lateral septum mediates social recognition memory; V1aR-KO mice show impaired social memory; intranasal vasopressin is in Phase 2 trials for ASD social communication deficits.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

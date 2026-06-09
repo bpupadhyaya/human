@@ -70,6 +70,9 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Seasonal affective disorder (winter depression) involves delayed circadian phase and abnormal melatonin timing; agomelatine (MT1/MT2 agonist + 5-HT2C antagonist) is an approved antidepressant with circadian phase-advancing effects; light therapy resets SCN/melatonin phase in SAD."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "AVP is elevated in PVN and CSF of depressed patients; V1bR co-drives HPA hyperactivation with CRH → excess ACTH and cortisol; V1b antagonist SSR149415 showed antidepressant effects in Phase 2; SSRIs normalise hypersecretion of both CRH and AVP."
 ---
 
 # Major Depressive Disorder
@@ -244,6 +247,7 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Progesterone](../../../03-molecular/progesterone/README.md)** — Luteal allopregnanolone fluctuations drive PMDD and PPD; declining P4 post-delivery triggers PPD; brexanolone (IV allopregnanolone) and zuranolone (oral) treat PPD; PMDD responds to SSRIs, combined OCP, or GnRH agonist; progesterone withdrawal worsens anxiety.
 
 - `connects-to` → **[Melatonin](../../../03-molecular/melatonin/README.md)** — Seasonal affective disorder (winter depression) involves delayed circadian phase and abnormal melatonin timing; agomelatine (MT1/MT2 agonist + 5-HT2C antagonist) is an approved antidepressant with circadian phase-advancing effects; light therapy resets SCN/melatonin phase in SAD.
+- `connects-to` → **[Vasopressin](../../../03-molecular/vasopressin/README.md)** — AVP is elevated in PVN and CSF of depressed patients; V1bR co-drives HPA hyperactivation with CRH → excess ACTH and cortisol; V1b antagonist SSR149415 showed antidepressant effects in Phase 2; SSRIs normalise hypersecretion of both CRH and AVP.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

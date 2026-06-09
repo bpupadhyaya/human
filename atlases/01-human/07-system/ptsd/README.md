@@ -60,6 +60,9 @@ cross_links:
   - target: 01-human/03-molecular/npy
     relation: connects-to
     note: "Amygdala and CSF NPY are reduced in PTSD; Y1R-mediated anxiolysis is impaired; plasma NPY correlates with stress resilience in veterans; glucocorticoid excess in chronic stress depletes amygdala NPY; NPY Y1R agonists are under investigation as PTSD pharmacotherapy."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "CSF vasopressin is elevated in PTSD; AVP-CRH synergy at corticotroph V1bR potentiates ACTH when CRH receptors desensitise; elevated AVP sustains HPA hyperactivation; V1bR antagonists show anxiolytic effects and are a proposed PTSD pharmacotherapy."
 ---
 
 # PTSD
@@ -209,6 +212,7 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[ACTH](../../../03-molecular/acth/README.md)** — PTSD exhibits a dissociated HPA pattern: normal or elevated ACTH responses to CRH challenge but chronically low basal cortisol, explained by GR hypersensitivity (enhanced negative feedback) rather than pituitary hypofunction; enhanced DST suppression (<0.5 µg/dL) is a biological signature of PTSD that distinguishes it from MDD.
 
 - `connects-to` → **[NPY](../../../03-molecular/npy/README.md)** — amygdala and CSF NPY are reduced in PTSD; Y1R-mediated anxiolysis is impaired; plasma NPY correlates with stress resilience in veterans; glucocorticoid excess in chronic stress depletes amygdala NPY; NPY Y1R agonists are under investigation as PTSD pharmacotherapy.
+- `connects-to` → **[Vasopressin](../../../03-molecular/vasopressin/README.md)** — CSF vasopressin is elevated in PTSD; AVP-CRH synergy at corticotroph V1bR potentiates ACTH when CRH receptors desensitise; elevated AVP sustains HPA hyperactivation; V1bR antagonists show anxiolytic effects and are a proposed PTSD pharmacotherapy.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

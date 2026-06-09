@@ -32,6 +32,18 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: modulates
     note: "AVP is the master regulator of urinary concentration; urine osmolality ranges 50–1200 mOsm/kg depending on AVP level; urine osmolality <300 mOsm/kg with elevated serum Na⁺ and polyuria (>3 L/day) defines diabetes insipidus."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "SON/PVN neurons release AVP into systemic circulation (posterior pituitary) and limbic regions; V1aR in lateral septum mediates social memory and pair bonding; V1bR (V3R) on corticotrophs synergises with CRH for ACTH release; central AVP circuits modulate aggression and anxiety."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "CSF vasopressin is elevated in PTSD; AVP-CRH synergy at corticotroph V1bR potentiates ACTH when CRH receptors desensitise; elevated AVP sustains HPA hyperactivation; V1bR antagonists show anxiolytic effects and are a proposed PTSD pharmacotherapy."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "AVPR1A promoter microsatellites (RS1, RS3) associate with ASD social behavior; V1aR in lateral septum mediates social recognition memory; V1aR-KO mice show impaired social memory; intranasal vasopressin is in Phase 2 trials for ASD social communication deficits."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "AVP is elevated in PVN and CSF of depressed patients; V1bR co-drives HPA hyperactivation with CRH → excess ACTH and cortisol; V1b antagonist SSR149415 showed antidepressant effects in Phase 2; SSRIs normalise hypersecretion of both CRH and AVP."
 ---
 
 # Vasopressin
@@ -116,6 +128,10 @@ Lithium blocks V2R–cAMP coupling by inhibiting adenylyl cyclase and impairing 
 - `modulates` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — V1aR on vascular smooth muscle → Gq → Ca²⁺ → vasoconstriction; IV vasopressin used in septic shock and hepatorenal syndrome
 - `modulates` → **[nervous-system](../../07-system/nervous-system/README.md)** — synthesised in hypothalamic SON/PVN neurons; CNS vasopressin (V1aR, V1bR) regulates social behaviour, anxiety, and stress-axis (HPA); V1bR on corticotrophs drives ACTH
 - `modulates` → **[renal-system](../../07-system/renal-system/README.md)** — master regulator of urinary concentration and water homeostasis; urine osmolality 50–1200 mOsm/kg depending on AVP; polyuria + dilute urine + ↑plasma Na⁺ defines diabetes insipidus
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — SON/PVN neurons release AVP into systemic circulation (posterior pituitary) and limbic regions; V1aR in lateral septum mediates social memory and pair bonding; V1bR (V3R) on corticotrophs synergises with CRH for ACTH release; central AVP circuits modulate aggression and anxiety
+- `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — CSF vasopressin is elevated in PTSD; AVP-CRH synergy at corticotroph V1bR potentiates ACTH when CRH receptors desensitise; elevated AVP sustains HPA hyperactivation; V1bR antagonists show anxiolytic effects and are a proposed PTSD pharmacotherapy
+- `connects-to` → **[Autism Spectrum Disorder](../../07-system/autism-spectrum-disorder/README.md)** — AVPR1A promoter microsatellites (RS1, RS3) associate with ASD social behavior; V1aR in lateral septum mediates social recognition memory; V1aR-KO mice show impaired social memory; intranasal vasopressin is in Phase 2 trials for ASD social communication deficits
+- `connects-to` → **[Major Depressive Disorder](../../07-system/major-depressive-disorder/README.md)** — AVP is elevated in PVN and CSF of depressed patients; V1bR co-drives HPA hyperactivation with CRH → excess ACTH and cortisol; V1b antagonist SSR149415 showed antidepressant effects in Phase 2; SSRIs normalise hypersecretion of both CRH and AVP
 
 ## Pathology
 
