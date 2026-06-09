@@ -3,109 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Natural Killer Cell — missing-self recognition, KIR receptor biology, perforin-granzyme cytotoxicity, ADCC, NK-DC crosstalk, memory NK cells, cancer immunotherapy, HLH. Part of the Human Engineering project.">
-  <meta property="og:title" content="Natural Killer Cell — Cellular Atlas · Human Engineering">
+  <meta name="description" content="Innate lymphocyte (~12 µm) that kills stressed, infected, or malignant cells without prior antigen sensitisation. Missing-self recognition (KIR inhibition by MH">
+  <meta property="og:title" content="Natural Killer Cell — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Natural Killer Cell &mdash; Cellular Atlas &middot; Human Engineering</title>
+  <title>Natural Killer Cell — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #7c3aed;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--accent); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
-
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-
-    .pleio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .pleio-grid { grid-template-columns: 1fr; } }
-    .pleio-card { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 0.85rem 1rem; }
-    .pleio-card .pc-title { font-size: 0.8rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.35rem; }
-    .pleio-card p { font-size: 0.87rem; color: var(--fg-soft); margin: 0; line-height: 1.5; }
-
-    .principle-box { background: rgba(124,58,237,0.06); border: 1px solid rgba(124,58,237,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent); }
-
-    .receptor-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 0.5rem; }
-    .receptor-table th { text-align: left; padding: 0.45rem 0.6rem; background: var(--bg); font-weight: 600; font-size: 0.73rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .receptor-table td { padding: 0.45rem 0.6rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; font-size: 0.84rem; }
-    .receptor-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; width: 140px; }
-    .badge-inhib { display: inline-block; padding: 0.1rem 0.45rem; border-radius: 999px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; background: rgba(220,38,38,0.1); color: #dc2626; }
-    .badge-activ { display: inline-block; padding: 0.1rem 0.45rem; border-radius: 999px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; background: rgba(5,150,105,0.1); color: #059669; }
-
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
-    .conn-pill.partof .rel { color: var(--muted); }
-    .conn-pill.acts .rel { color: var(--bio); }
-    .conn-pill.modulated .rel { color: var(--eng); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '&#8599;'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -124,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -136,297 +119,68 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
     <h1>Natural Killer Cell</h1>
-    <p class="tagline">Innate cytotoxic sentinel &mdash; a large granular lymphocyte that kills virus-infected and malignant cells without prior antigen sensitisation, guided by "missing-self" recognition and a balance of activating and inhibitory germline-encoded receptors.</p>
-    <p class="subtagline">NK cells constitute 5&ndash;15% of circulating lymphocytes and are especially enriched in the liver (~30&ndash;50% of hepatic lymphocytes). CD56<sup>dim</sup> CD16&sup+ cells (~90% of blood NK cells) are the cytotoxic effectors; CD56<sup>bright</sup> cells (~10%) are the primary IFN-&gamma; producers. They bridge innate and adaptive immunity, are the mechanism of action for therapeutic antibodies (ADCC), and &mdash; in memory NK cells &mdash; blur the classical innate/adaptive boundary. CAR-NK cell therapies are in active clinical trials.</p>
+    <p class="tagline">Innate lymphocyte (~12 µm) that kills stressed, infected, or malignant cells without prior antigen sensitisation. Missing-self recognition (KIR inhibition by MHC-I) and NKG2D activation distinguish targets. Perforin-granzyme B and FasL mediate cytotoxicity.</p>
+    <p class="aliases">Also known as: NK cell, natural killer lymphocyte, CD56+ CD3- lymphocyte, large granular lymphocyte</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">10&ndash;15 &micro;m</span><span class="stat-label">Diameter (large granular lymphocyte)</span></div>
-      <div class="stat"><span class="stat-num">5&ndash;15%</span><span class="stat-label">Of peripheral blood lymphocytes</span></div>
-      <div class="stat"><span class="stat-num">CD56&sup+ CD3&minus;</span><span class="stat-label">Defining phenotype</span></div>
-      <div class="stat"><span class="stat-num">7&ndash;10 days</span><span class="stat-label">Blood half-life (circulating)</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One &middot; Cellular &middot; Innate Lymphocyte / Cytotoxic Effector</div>
-        <h2>Natural Killer Cell</h2>
-        <div class="drug-class">Lineage: Lymphoid (ILC group 1) &nbsp;&middot;&nbsp; Origin: Bone marrow CLP &rarr; NKP &rarr; mature NK &nbsp;|&nbsp; Scale: 04-Cellular &nbsp;|&nbsp; Phenotype: CD3&minus; CD19&minus; CD56&sup+ (NKp46&sup+)</div>
-        <p class="summary">Natural Killer (NK) cells are innate lymphocytes that provide rapid, antigen-independent cytotoxic surveillance against virus-infected, transformed, and cellular-stress-bearing cells. Discovered in 1975 by Kiessling and Herberman (independently), NK cells were named for their ability to kill tumour cell lines spontaneously in vitro without prior immunisation. Their target discrimination relies on the integration of activating and inhibitory signals from germline-encoded receptor arrays, embodying the <em>missing-self hypothesis</em> formulated by Klas K&auml;rre: cells that lose MHC-I expression &mdash; as many tumour and virally infected cells do &mdash; become NK-cell targets because inhibitory KIR receptors lose their HLA ligands. Beyond direct cytotoxicity, NK cells secrete IFN-&gamma; to activate macrophages and polarise Th1 responses, perform ADCC through CD16/Fc&gamma;RIIIA (the mechanism of rituximab and trastuzumab), sculpt the dendritic cell pool through NK-DC crosstalk, and under CMV infection form long-lived memory-like cells that challenge the innate/adaptive boundary.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">NK cell</span>
-          <span class="alias-pill">natural killer lymphocyte</span>
-          <span class="alias-pill">large granular lymphocyte (LGL)</span>
-          <span class="alias-pill">CD56&sup+ CD3&minus; lymphocyte</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">natural-killer-cell</div>
+        <h2>Natural Killer Cell</h2>
+        <p class="summary">Innate lymphocyte (~12 µm) that kills stressed, infected, or malignant cells without prior antigen sensitisation. Missing-self recognition (KIR inhibition by MHC-I) and NKG2D activation distinguish targets. Perforin-granzyme B and FasL mediate cytotoxicity.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>NK cells constitute approximately 5&ndash;15% of circulating peripheral blood lymphocytes (~150&ndash;500 million cells per adult) and are enriched in the liver (30&ndash;50% of hepatic lymphocytes), spleen, lung, uterine decidua, and bone marrow. They are phenotypically defined as CD3&minus; CD19&minus; CD56&sup+ lymphocytes; the <strong>CD56<sup>dim</sup> CD16&sup+</strong> subset (~90% of blood NK cells) is cytotoxically dominant, while <strong>CD56<sup>bright</sup> CD16&minus;/low</strong> NK cells (~10%) are the primary IFN-&gamma; secretors and predominate in secondary lymphoid organs.</p>
-          <p>Unlike T and B cells, NK cells lack antigen-specific receptors generated by V(D)J recombination. Their target discrimination relies instead on the integration of activating and inhibitory signals from an array of germline-encoded receptors. This embodies the <strong>"missing-self" hypothesis</strong> formulated by Klas K&auml;rre: cells that lose MHC-I expression (as many tumour cells and virally infected cells do) become NK-cell targets because inhibitory KIR receptors lose their HLA ligands, tipping the balance toward activation. Conversely, stressed cells upregulate activating ligands (MICA, MICB, ULBPs) that engage NKG2D, further promoting NK cell killing.</p>
-          <p>NK cell biology has major clinical relevance: primary NK deficiency causes recurrent severe herpesvirus infections (CMV, EBV, HSV); tumour immune evasion frequently involves MHC-I upregulation or NKG2D ligand shedding to escape NK surveillance; and allogeneic NK cell infusions and CAR-NK therapies are under active development in haematological and solid tumour trials. ADCC mediated by NK cell CD16 is the dominant effector mechanism of approved therapeutic antibodies including rituximab and trastuzumab.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Feature</th><th>Detail</th></tr>
-            <tr>
-              <td>Size &amp; Shape</td>
-              <td>10&ndash;15 &micro;m diameter. Large granular lymphocytes (LGLs) with kidney-shaped or bilobed nucleus. Abundant cytoplasm densely packed with azurophilic granules (specialised secretory lysosomes) visible on Giemsa stain &mdash; a defining morphological feature distinguishing NK cells from small lymphocytes.</td>
-            </tr>
-            <tr>
-              <td>Lytic granules</td>
-              <td>Contain pre-formed: <strong>perforin</strong> (67 kDa, homologous to complement C9; membrane pore-forming), <strong>granzyme B</strong> (serine protease; cleaves caspase-3, Bid &rarr; rapid apoptosis), <strong>granzyme A</strong> (caspase-independent pathway via SETDB1 complex disruption), <strong>granulysin</strong> (antimicrobial peptide), <strong>LAMP-1/CD107a</strong> (granule membrane marker, surface degranulation reporter). Granules traffic to the immune synapse via MTOC reorientation within minutes of target recognition.</td>
-            </tr>
-            <tr>
-              <td>Cytoskeletal polarity</td>
-              <td>Upon target recognition, the microtubule-organising centre (MTOC) reorients toward the immune synapse (lytic cleft) within ~1&ndash;5 minutes. This directs lytic granule secretion focally at the target cell interface, preventing collateral cytotoxicity to bystander cells. Killing occurs within ~30 minutes; NK cell retracts and can reform a new synapse against a new target within ~20 minutes (serial killing).</td>
-            </tr>
-            <tr>
-              <td>Surface markers</td>
-              <td>Pan-NK: CD56, NKp46 (NCR1), CD161. CD56<sup>dim</sup>: CD16 (Fc&gamma;RIII), CD57, KIR&sup+, KLRG1. CD56<sup>bright</sup>: CD94/NKG2A&sup+, CCR7&sup+, CXCR3&sup+, CD62L&sup+. Liver/tissue resident: CXCR6, CD49a (&alpha;1 integrin). Uterine dNK: CD56<sup>bright</sup> CD9&sup+ CD49a&sup+.</td>
-            </tr>
-            <tr>
-              <td>Special features</td>
-              <td><strong>Serial killing:</strong> NK cells can sequentially kill multiple targets without resetting. <strong>Licensing (education):</strong> NK cells become fully functional only if they express at least one inhibitory receptor (KIR or NKG2A) recognising a self-MHC-I ligand; un-licensed NK cells are hyporesponsive to self tissue, providing a safety mechanism against autoimmunity.</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>natural-killer-cell</td></tr>
+            <tr><td>Name</td><td>Natural Killer Cell</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Receptor Repertoire &mdash; Activating / Inhibitory Balance</h3>
-          <table class="receptor-table">
-            <tr><th>Receptor</th><th>Type</th><th>Ligands</th><th>Signalling / Function</th></tr>
-            <tr>
-              <td>KIR2DL1, 2DL2/3, 3DL1/2</td>
-              <td><span class="badge-inhib">Inhibitory</span></td>
-              <td>HLA-C group 2, HLA-C group 1, HLA-B/A Bw4</td>
-              <td>ITIM motifs recruit SHP-1/SHP-2 phosphatases &rarr; dephosphorylate activating intermediates (ZAP-70, LAT) &rarr; block killing. Normal MHC-I expression on healthy self cells silences NK killing via KIR engagement. Loss of HLA-I (as in many tumours) removes this brake.</td>
-            </tr>
-            <tr>
-              <td>CD94/NKG2A heterodimer</td>
-              <td><span class="badge-inhib">Inhibitory</span></td>
-              <td>HLA-E (non-classical MHC-I) presenting leader peptides from classical HLA molecules</td>
-              <td>ITIM-mediated SHP-1 recruitment. Dominant in CD56<sup>bright</sup> NK cells and early post-transplant NK cells. HLA-E downregulation on stressed cells removes this inhibition. Monalizumab (anti-NKG2A) is a therapeutic checkpoint inhibitor in clinical trials with cetuximab in head-and-neck cancer.</td>
-            </tr>
-            <tr>
-              <td>NKG2D</td>
-              <td><span class="badge-activ">Activating</span></td>
-              <td>MICA, MICB, ULBP1&ndash;6 (stress-induced ligands upregulated by DNA damage, heat shock, CMV, malignant transformation)</td>
-              <td>Signals via DAP10 &rarr; PI3K/Grb2 &rarr; Akt and Vav1 &rarr; cytoskeletal reorganisation + granule exocytosis. NKG2D ligand shedding (proteolytic release of soluble MICA/B, especially by ADAM10/17) is a major tumour immune evasion mechanism &mdash; decoy engagement without killing.</td>
-            </tr>
-            <tr>
-              <td>NKp46, NKp30, NKp44</td>
-              <td><span class="badge-activ">Activating</span></td>
-              <td>Viral haemagglutinins (NKp46), tumour-associated B7-H6 (NKp30), PCNA/tumour ligands (NKp44)</td>
-              <td>Natural cytotoxicity receptors (NCRs); signal via ITAM-containing adaptors (FcR&gamma;, CD3&zeta;) &rarr; Syk/ZAP-70 &rarr; PLCy &rarr; Ca&sup2;&sup+ flux + ERK activation. Critical for anti-influenza, anti-CMV, and anti-tumour responses.</td>
-            </tr>
-            <tr>
-              <td>CD16 (Fc&gamma;RIIIA)</td>
-              <td><span class="badge-activ">Activating</span></td>
-              <td>IgG Fc region on antibody-coated target cells</td>
-              <td>Signals via FcR&gamma;/CD3&zeta; ITAM &rarr; Syk &rarr; perforin-granzyme degranulation. Mediates ADCC &mdash; the dominant mechanism of rituximab (anti-CD20, B-cell lymphoma), trastuzumab (anti-HER2, breast cancer), cetuximab (anti-EGFR, colorectal cancer), and daratumumab (anti-CD38, multiple myeloma). CD16 V158F polymorphism affects Fc binding affinity and influences clinical responses to these biologics.</td>
-            </tr>
-            <tr>
-              <td>DNAM-1 (CD226)</td>
-              <td><span class="badge-activ">Activating</span></td>
-              <td>PVR/CD155, CD112/nectin-2 (upregulated on tumour and CMV-infected cells)</td>
-              <td>Co-stimulatory with NKG2D; signals via PI3K and Fyn kinase. Competed by inhibitory TIGIT (same PVR ligand). TIGIT blockade (tiragolumab, vibostolimab) restores NK and T-cell anti-tumour activity; active therapeutic target in multiple phase II/III trials.</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function</h3>
-          <div class="pleio-grid">
-            <div class="pleio-card">
-              <div class="pc-title">Perforin-Granzyme Cytotoxicity</div>
-              <p>NK cell recognises target &rarr; forms immune synapse &rarr; MTOC reorients &rarr; lytic granules dock and fuse with plasma membrane &rarr; perforin monomers oligomerise in Ca&sup2;&sup+-dependent manner into 16 nm pores in target membrane. Granzyme B enters via pores (or mannose-6-phosphate receptor endocytosis) &rarr; cleaves caspase-3 and Bid &rarr; apoptosis within ~2 hours. Serial killing possible: NK retracts within ~20 min and re-engages new target.</p>
-            </div>
-            <div class="pleio-card">
-              <div class="pc-title">ADCC &amp; Antibody Cooperation</div>
-              <p>CD16 (Fc&gamma;RIIIA) on CD56<sup>dim</sup> NK cells binds IgG Fc &rarr; ITAM activation &rarr; perforin-granzyme degranulation. Clinical significance: ADCC is the dominant mechanism of rituximab (B-cell lymphoma), trastuzumab (HER2+ breast cancer), cetuximab (colorectal cancer), and daratumumab (myeloma). CD16 V158F polymorphism affects Fc affinity and clinical response to these biologics.</p>
-            </div>
-            <div class="pleio-card">
-              <div class="pc-title">IFN-&gamma; &amp; Cytokine Production</div>
-              <p>CD56<sup>bright</sup> NK cells are major early sources of IFN-&gamma; (driven synergistically by IL-12 + IL-18 from macrophages/DCs). NK IFN-&gamma;: (1) classically activates macrophages &rarr; enhanced microbicidal capacity; (2) drives Th1 polarisation of CD4&sup+ T cells; (3) upregulates MHC-I on surrounding cells; (4) promotes DC maturation. NK cells also produce GM-CSF, TNF-&alpha;, MIP-1&alpha;/&beta;, CCL5/RANTES.</p>
-            </div>
-            <div class="pleio-card">
-              <div class="pc-title">NK-DC Crosstalk</div>
-              <p>NK cells sculpt adaptive immunity by editing the DC pool: immature/tolerogenic DCs are killed by NK cells (NKp30 and NKG2D-mediated); mature/activated DCs are spared and instead activate NK cells via IL-12, IL-18, and contact-dependent signals. This bidirectional quality-control circuit ensures that only immunogenic DCs drive T-cell responses &mdash; NK cells shape both the innate-to-adaptive transition and subsequent immune magnitude.</p>
-            </div>
-          </div>
-          <h4 style="margin-top:1.25rem;">FasL-Fas Apoptosis Pathway</h4>
-          <ul class="step-list">
-            <li><strong>Recognition:</strong> NK cell contacts target expressing Fas (CD95) or TRAIL-R1/R2 (DR4/DR5)</li>
-            <li><strong>FasL/TRAIL engagement:</strong> NK surface FasL (CD95L) or TRAIL binds target death receptors &mdash; particularly important against tumour cells that upregulate Fas during transformation</li>
-            <li><strong>DISC formation:</strong> Fas trimerisation &rarr; FADD recruitment &rarr; procaspase-8 clustering &rarr; caspase-8 activation (death-inducing signalling complex)</li>
-            <li><strong>Caspase cascade:</strong> Active caspase-8 &rarr; caspase-3 (type II cells: Bid cleavage &rarr; mitochondrial pathway amplification via BAX/BAK &rarr; cytochrome c release &rarr; caspase-9 &rarr; caspase-3)</li>
-            <li><strong>Apoptosis:</strong> Nuclear fragmentation, cell shrinkage, phosphatidylserine exposure, apoptotic body formation &mdash; ~4&ndash;8 hours (slower than granzyme B pathway)</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Lifecycle &mdash; Development, Maturation, and Memory</h3>
-          <div class="pathway-block">
-<pre>
-  DEVELOPMENT (bone marrow)
-  -------------------------------------------------
-  HSC (haematopoietic stem cell)
-   +-> CLP (common lymphoid progenitor)
-         |  Key TF: Id2 (master NK commitment factor -- Id2 KO -> no NK cells)
-         +-> NKP (NK precursor; CD34+ CD45RA+ CD117+)
-               |  IL-15 (trans-presented by DCs via IL-15Ra -- non-redundant)
-               |  IL-7 (early progenitor survival)
-               v
-             iNK (immature NK; CD56+, few/no KIRs, NKG2A+)
-               |  E4BP4/NFIL3, Eomes, T-bet begin expression
-               v
-             Mature NK (mNK):
-               +-- CD56bright CD16-/low NK (~10% blood)
-               |    Lymphoid tissue-resident; primary IFN-g producers
-               |    TF: Eomes+, T-bethigh
-               |
-               +-- CD56dim CD16+ NK (~90% blood)
-                    Cytotoxic effectors; KIR acquisition
-                    TF: T-bethigh, Eomeslow
-                    Sequential maturation:
-                    NKG2A+ KIR- CD57- -> KIR+ NKG2A-/+ CD57- -> KIR+ NKG2A- CD57+
-                    (CD57+ = terminally differentiated, high cytotoxicity, low proliferative)
-
-
-  PERIPHERAL MATURATION & LICENSING
-  -------------------------------------------------
-  KIR acquisition: probabilistic expression (each NK cell expresses
-  a random subset of ~14 KIR genes -> enormous combinatorial diversity)
-
-  Licensing (education): NK cells expressing >=1 KIR matching a
-  self-HLA-I ligand -> "licensed" -> full cytotoxic competence.
-  Unlicensed NK cells -> hyporesponsive to self.
-  Allogeneic NK cells (KIR != recipient HLA) kill recipient
-  haematopoietic cells in allogeneic BMT (graft-vs-leukaemia effect)
-
-
-  TISSUE-RESIDENT NK CELLS (trNK)
-  -------------------------------------------------
-  Uterine decidual NK (dNK): CD56bright CD9+ CD49a+
-    Essential for spiral artery remodelling and placentation
-    Produce VEGF, PlGF, angiopoietin-2 -> promote trophoblast invasion
-    Failure -> recurrent miscarriage, preeclampsia
-
-  Liver-resident NK (lr-NK): CXCR6+ CD49a+
-    Long-lived (months); anti-viral surveillance; high IFN-g capacity
-    Critical for HBV and HCV control
-
-  Lung trNK: CD49a+ tissue-homing integrins; anti-tumour surveillance
-
-
-  MEMORY NK CELLS (adaptive-like features)
-  -------------------------------------------------
-  CMV infection -> NKG2C+ CD57+ NK clonal expansion
-  (CMV HLA-E expression engages activating CD94/NKG2C)
-       |
-       v  Expansion -> Contraction (most effectors die)
-       v  Epigenetic imprinting: FcRg silencing (PLZF-, ETS1+, ZEB2+)
-       v  Persistent long-lived memory-like NK cells
-       |  Enhanced ADCC capacity (via CD16 signalling)
-       v
-  Re-challenge: faster, stronger cytokine production + cytotoxicity
-  (Mechanism challenges the innate/adaptive conceptual boundary)
-
-  LIFESPAN:
-  Blood NK cells: ~7-10 days (rapidly renewed from bone marrow)
-  Tissue-resident NK: weeks to months
-  Memory NK cells: months to years
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <table class="data-table">
-            <tr><th>Disease</th><th>Mechanism</th><th>Clinical Features</th><th>Treatment</th></tr>
-            <tr>
-              <td><strong>NK Cell Deficiency</strong></td>
-              <td>Primary NK deficiency (NKD): rare mutations in MCM4, GATA2, IRF8, RTEL1, or GINS1 leading to absent or severely reduced NK cells. NK cells are critical for CMV, EBV, and HSV control &mdash; T cells cannot fully compensate for missing NK perforin-mediated early cytotoxicity.</td>
-              <td>Recurrent severe infections with herpesviruses (CMV retinitis, EBV-driven lymphoproliferation, HSV encephalitis); susceptibility to certain cancers. Distinguishable from T-cell deficiency by intact total lymphocyte count with absent NK subset on flow cytometry.</td>
-              <td>Antiviral prophylaxis (ganciclovir for CMV, acyclovir for HSV/VZV); IVIG; HSCT for severe cases; gene therapy under investigation for GATA2 deficiency</td>
-            </tr>
-            <tr>
-              <td><strong>Cancer Immune Evasion</strong></td>
-              <td>Tumours evade NK killing via: (1) MHC-I upregulation (restores KIR inhibition); (2) NKG2D ligand shedding (soluble MICA/B decoys); (3) HLA-E upregulation &rarr; NKG2A inhibition; (4) TGF-&beta;, IL-10 in TME &rarr; NK functional exhaustion (PD-1, TIM-3, TIGIT upregulation). Impaired NK function correlates with poor prognosis in multiple cancer types.</td>
-              <td>Tumour progression despite low mutational burden; resistance to therapeutic antibodies (poor ADCC); NK cell exhaustion markers (NKG2A&sup+, PD-1&sup+, low perforin) on tumour-infiltrating NK cells.</td>
-              <td>NKG2A checkpoint blockade (monalizumab in phase II/III trials); anti-TIGIT (tiragolumab); IL-15 superagonist (N-803) to re-activate NK cells; allogeneic NK cell infusions; CAR-NK cells (anti-CD19, anti-CD70, anti-HER2 in trials)</td>
-            </tr>
-            <tr>
-              <td><strong>Haemophagocytic Lymphohistiocytosis (HLH)</strong></td>
-              <td>Primary HLH: biallelic mutations in <em>PRF1</em> (perforin), <em>UNC13D</em> (Munc13-4), <em>STX11</em>, <em>STXBP2</em>, <em>RAB27A</em>, or <em>LYST</em> impair cytotoxic granule exocytosis in NK cells and CD8&sup+ T cells. Unable to kill EBV-infected macrophages &rarr; uncontrolled macrophage activation &rarr; cytokine storm (IFN-&gamma;, IL-6, IL-18, TNF-&alpha;).</td>
-              <td>Fever, splenomegaly, bicytopenia/pancytopenia, hyperferritinaemia (&gt;10,000 ng/mL), hypertriglyceridaemia, absent/low NK cell cytotoxic activity (diagnostic criterion), haemophagocytosis on BM biopsy, elevated sCD25 (IL-2R&alpha;). Untreated primary HLH is fatal; 50&ndash;70% 5-year survival with treatment.</td>
-              <td>HLH-94/HLH-2004 protocol: etoposide + dexamethasone + cyclosporin; HSCT for primary HLH (curative); emapalumab (anti-IFN-&gamma;, FDA-approved for primary/refractory HLH) depletes the cytokine driving macrophage activation</td>
-            </tr>
-            <tr>
-              <td><strong>Recurrent Miscarriage / Preeclampsia</strong></td>
-              <td>Uterine decidual NK (dNK) cells normally remodel spiral arteries by secreting VEGF, PlGF, and angiopoietin-2 promoting trophoblast invasion. Aberrant dNK number or function correlates with failed placentation. HLA-C KIR compatibility is key: KIR AA mothers carrying KIR2DL1-mismatched HLA-C2 fetuses have elevated preeclampsia risk.</td>
-              <td>Recurrent early pregnancy loss (&ge;3 consecutive); preeclampsia (hypertension + proteinuria &gt;20 weeks); intrauterine growth restriction. Elevated uterine NK/T-cell ratio may be visible on endometrial biopsy.</td>
-              <td>Progesterone supplementation; low-dose aspirin and LMWH for antiphospholipid syndrome subset; IVIG in selected cases; pre-implantation genetic testing for embryonic aneuploidy</td>
-            </tr>
-          </table>
-          <div class="principle-box">
-            <p><strong>The missing-self hypothesis &mdash; the conceptual foundation of NK cell biology:</strong> Klas K&auml;rre's 1981 PhD thesis proposed that NK cells survey tissues for absence of self-MHC-I, killing cells that have lost it &mdash; the opposite of T-cell recognition (which requires MHC-I presentation). This explains why NK cells kill: (1) tumour cells that downregulate MHC-I to escape CD8&sup+ T cells; (2) virally infected cells where viral proteins interfere with antigen presentation (HCMV US2/US11 degrade MHC-I); (3) allogeneic cells lacking recipient-matching HLA ligands. The hypothesis remains the dominant conceptual framework 45 years after its formulation. Its implications extend to transplantation (KIR-HLA mismatch in BMT exploits missing-self for graft-vs-leukaemia effect) and cancer immunotherapy (NKG2A blockade removes inhibition on NKG2D-activated NK cells, simultaneously freeing NK cells and T cells).</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="immune-system.html" class="conn-pill partof">
-              <span class="rel">Part of</span>
-              Immune System (innate)
-            </a>
-            <a href="macrophage.html" class="conn-pill acts">
-              <span class="rel">Activates</span>
-              Macrophage (IFN-&gamma; &rarr; M1)
-            </a>
-            <a href="bone-marrow.html" class="conn-pill partof">
-              <span class="rel">Derived from</span>
-              Bone Marrow (CLP &rarr; NKP)
-            </a>
-            <a href="liver.html" class="conn-pill partof">
-              <span class="rel">Enriched in</span>
-              Liver (~30&ndash;50% hepatic lymphocytes)
-            </a>
-            <a href="#" class="conn-pill modulated">
-              <span class="rel">Kills via</span>
-              Perforin / Granzyme B (entry pending)
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Secretes</span>
-              IFN-&gamma; (entry pending)
-            </a>
-            <a href="#" class="conn-pill modulated">
-              <span class="rel">Activated by</span>
-              IL-15 (maturation cytokine) (entry pending)
-            </a>
-            <a href="#" class="conn-pill modulated">
-              <span class="rel">Recognises stress via</span>
-              NKG2D / MICA-MICB (entry pending)
-            </a>
+            <a class="conn-pill part" href="immune-system.html" title="NK cells are innate lymphocytes constituting ~5–15% of circulating lymphocytes; they bridge innate and adaptive immunity as key IFN-γ producers and first-responders to viral infection."><span class="rel">part-of</span>Immune System</a>
+            <a class="conn-pill" href="hepatocyte.html" title="NK cells eliminate virus-infected and malignant hepatocytes via perforin-granzyme B pathway and FasL-Fas signalling; critical effectors in HBV and HCV clearance in the liver."><span class="rel">targets</span>Hepatocyte</a>
+            <a class="conn-pill" href="dendritic-cell.html" title="NK-DC crosstalk: NK cells kill immature DCs (editing the DC pool); mature DCs reciprocally activate NK cells via IL-12, IL-18, and contact-dependent signals — bidirectional immunoregulation."><span class="rel">modulates</span>Dendritic Cell</a>
+            <a class="conn-pill" href="macrophage.html" title="NK cells produce IFN-γ that classically activates macrophages; macrophage-derived IL-12 and IL-18 in turn amplify NK cell cytotoxicity and cytokine production."><span class="rel">modulates</span>Macrophage</a>
+            <a class="conn-pill" href="b-cell.html" title="NK cells can kill activated B cells via NKp30 and NKG2D to regulate humoral responses; certain NK subsets provide help for antibody production."><span class="rel">modulates</span>B Cell</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="NK-cell-derived IFN-γ drives Th1 polarisation of CD4⁺ T-helper cells; reciprocally, Th1-derived IFN-γ and IL-2 enhance NK cell activation and expansion."><span class="rel">modulates</span>T Helper Cell</a>
+            <a class="conn-pill part" href="human-body.html" title="NK cells are distributed throughout blood (~5–20% of circulating lymphocytes), spleen, liver (liver NK cells = ~30–50% of hepatic lymphocytes), lung, uterine decidua, and bone marrow."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill part" href="spleen.html" title="The spleen contains a resident NK cell population in the red pulp and marginal zone providing innate surveillance against blood-borne pathogens and malignant cells; splenic NK cells exhibit high cytotoxic activity."><span class="rel">part-of</span>Spleen</a>
+            <a class="conn-pill" href="perforin.html" title="NK cells execute innate perforin-granzyme cytotoxicity against MHC-I-low tumor and virally infected targets; perforin pore + granzyme B → apoptosis (~2 h); NK perforin mediates ADCC via CD16/FcγRIIIA; NK perforin activity is boosted by IL-2, IL-15, and checkpoint blockade."><span class="rel">connects-to</span>Perforin</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Vivier E, Tomasello E, Baratin M, et al. Functions of natural killer cells. <em>Nat Immunol.</em> 2008;9(5):503-10. <a href="https://doi.org/10.1038/ni1582">doi:10.1038/ni1582</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18425107/">PubMed 18425107</a></li>
-            <li>Lanier LL. NK cell recognition. <em>Annu Rev Immunol.</em> 2005;23:225-74. <a href="https://doi.org/10.1146/annurev.immunol.23.021704.115526">doi:10.1146/annurev.immunol.23.021704.115526</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15771571/">PubMed 15771571</a></li>
-            <li>Shifrin N, Raulet DH, Bhatt D. Crosstalk between NK cells and dendritic cells. <em>Curr Opin Immunol.</em> 2018;50:139-45. <a href="https://doi.org/10.1016/j.coi.2018.01.002">doi:10.1016/j.coi.2018.01.002</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29414050/">PubMed 29414050</a></li>
-            <li>Sun JC, Beilke JN, Lanier LL. Adaptive immune features of natural killer cells. <em>Nature.</em> 2009;457(7229):557-61. <a href="https://doi.org/10.1038/nature07665">doi:10.1038/nature07665</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19136945/">PubMed 19136945</a></li>
+            <li><a href="https://doi.org/10.1038/ni1582" target="_blank" rel="noopener noreferrer">Vivier E, Tomasello E, Baratin M, et al. Functions of natural killer cells. Nat Immunol. 2008;9(5):503-10.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18425107/" target="_blank" rel="noopener noreferrer">PubMed 18425107</a></li>
+            <li><a href="https://doi.org/10.1146/annurev.immunol.23.021704.115526" target="_blank" rel="noopener noreferrer">Lanier LL. NK cell recognition. Annu Rev Immunol. 2005;23:225-74.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15771571/" target="_blank" rel="noopener noreferrer">PubMed 15771571</a></li>
+            <li><a href="https://doi.org/10.1016/j.coi.2018.01.002" target="_blank" rel="noopener noreferrer">Shifrin N, Raulet DH, Bhatt D. Crosstalk between NK cells and dendritic cells. Curr Opin Immunol. 2018;50:139-45.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29414050/" target="_blank" rel="noopener noreferrer">PubMed 29414050</a></li>
+            <li><a href="https://doi.org/10.1038/nature07665" target="_blank" rel="noopener noreferrer">Sun JC, Beilke JN, Lanier LL. Adaptive immune features of natural killer cells. Nature. 2009;457(7229):557-61.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19136945/" target="_blank" rel="noopener noreferrer">PubMed 19136945</a></li>
           </ul>
         </div>
 
@@ -435,20 +189,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="macrophage.html">Macrophage</a>
-      <a href="erythrocyte.html">Erythrocyte</a>
-      <a href="il-6.html">IL-6</a>
-      <a href="insulin.html">Insulin</a>
       <a href="pathogens.html">Pathogens</a>
-      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

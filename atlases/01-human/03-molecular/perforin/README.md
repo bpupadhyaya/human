@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Perforin is the molecular effector of the cytotoxic arm of adaptive immunity; NK cell perforin provides innate cytotoxicity against virally infected cells and tumor targets; perforin-granzyme axis is the primary mechanism of CD8+ CTL-mediated anti-tumor immunity."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CD8+ CTL kill virus-infected and tumor targets via polarized perforin-granzyme exocytosis at the immune synapse; perforin pore → granzyme B entry → caspase-3 → apoptosis; PRF1 LOF → FHL2 (familial HLH); perforin defines the cytotoxic effector arm of adaptive immunity."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK cells execute innate perforin-granzyme cytotoxicity against MHC-I-low tumor and virally infected targets; perforin pore + granzyme B → apoptosis (~2 h); NK perforin mediates ADCC via CD16/FcγRIIIA; NK perforin activity is boosted by IL-2, IL-15, and checkpoint blockade."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Melanoma evades perforin-mediated CTL/NK cytotoxicity via MHC-I downregulation, PD-L1 upregulation, and IDO-mediated T-cell suppression; checkpoint inhibitors (anti-PD-1/CTLA-4) restore perforin-granzyme killing; TIL perforin content predicts immunotherapy response."
 ---
 
 # Perforin
@@ -107,6 +116,11 @@ Encoded by *PRF1* on chromosome 10q22.1, perforin belongs to the **MACPF/CDC (me
 
 - `connects-to` → **[Aplastic Anemia](../../07-system/aplastic-anemia/README.md)** — In aplastic anemia, autoreactive CTL target HSCs via perforin/granzyme-mediated cytotoxicity; elevated perforin+ CD8+ T cells in AA bone marrow predict treatment response; cyclosporine + anti-thymocyte globulin (ATG) reduce autoreactive CTL activity and restore hematopoiesis.
 - `connects-to` → **[Immune System](../../07-system/immune-system/README.md)** — Perforin is the molecular effector of the cytotoxic arm of adaptive immunity; NK cell perforin provides innate cytotoxicity against virally infected cells and tumor targets; perforin-granzyme axis is the primary mechanism of CD8+ CTL-mediated anti-tumor immunity.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8+ CTL kill virus-infected and tumor targets via polarized perforin-granzyme exocytosis at the immune synapse; perforin pore → granzyme B entry → caspase-3 → apoptosis; PRF1 LOF → FHL2 (familial HLH); perforin defines the cytotoxic effector arm of adaptive immunity.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells execute innate perforin-granzyme cytotoxicity against MHC-I-low tumor and virally infected targets; perforin pore + granzyme B → apoptosis (~2 h); NK perforin mediates ADCC via CD16/FcγRIIIA; NK perforin activity is boosted by IL-2, IL-15, and checkpoint blockade.
+- `connects-to` → **[Melanoma](../../07-system/melanoma/README.md)** — Melanoma evades perforin-mediated CTL/NK cytotoxicity via MHC-I downregulation, PD-L1 upregulation, and IDO-mediated T-cell suppression; checkpoint inhibitors (anti-PD-1/CTLA-4) restore perforin-granzyme killing; TIL perforin content predicts immunotherapy response.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^bhatt-1988-perforin-pore]: Bhatt DL, Bhatt M. Perforin and granzymes: function, dysfunction and human pathology. *Nat Rev Immunol.* 2010;10(10):673-684. [doi:10.1038/nri2839](https://doi.org/10.1038/nri2839) · [PubMed 20865011](https://pubmed.ncbi.nlm.nih.gov/20865011/)
 [^voskoboinik-2015-perforin-review]: Voskoboinik I, Whisstock JC, Trapani JA. Perforin and granzymes: function, dysfunction and human pathology. *Nat Rev Immunol.* 2015;15(6):388-400. [doi:10.1038/nri3839](https://doi.org/10.1038/nri3839) · [PubMed 25998963](https://pubmed.ncbi.nlm.nih.gov/25998963/)

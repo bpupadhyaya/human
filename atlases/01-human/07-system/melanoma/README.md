@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Tumor microenvironment generates adenosine via CD39 (ATP→AMP) and CD73 (AMP→adenosine); A2AR on tumor-infiltrating T cells → ↑cAMP → ↓IL-2/IFN-γ → immune evasion; anti-CD73 (oleclumab) + anti-PD-1 combination trials target adenosine-mediated immune checkpoint resistance."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Melanoma evades perforin-mediated CTL/NK cytotoxicity via MHC-I downregulation, PD-L1 upregulation, and IDO-mediated T-cell suppression; checkpoint inhibitors (anti-PD-1/CTLA-4) restore perforin-granzyme killing; TIL perforin content predicts immunotherapy response."
 ---
 
 # Melanoma
@@ -141,6 +144,9 @@ cross_links:
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Ipilimumab was the first checkpoint inhibitor approved in advanced melanoma (2011); nivolumab + ipilimumab (CheckMate-067): 7-year OS 49% vs. 21% ipilimumab — dual blockade delivers the most durable benefit despite highest toxicity (~55% grade 3-4 irAEs).
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss occurs in ~20-30% of melanoma → constitutive AKT → BRAF inhibitor resistance; PTEN-null melanomas are relatively resistant to vemurafenib; combined BRAF + AKT inhibition is proposed and under investigation for PTEN-null/BRAF V600E melanoma.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — tumor microenvironment generates adenosine via CD39 (ATP→AMP) and CD73 (AMP→adenosine) on melanoma cells and MDSCs; A2AR on tumor-infiltrating T cells → ↑cAMP → ↓IL-2/IFN-γ → immune evasion; anti-CD73 (oleclumab) + anti-PD-1 combination trials target adenosine-mediated immune checkpoint resistance.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Melanoma evades perforin-mediated CTL/NK cytotoxicity via MHC-I downregulation, PD-L1 upregulation, and IDO-mediated T-cell suppression; checkpoint inhibitors (anti-PD-1/CTLA-4) restore perforin-granzyme killing; TIL perforin content predicts immunotherapy response.
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^larkin-2015-checkmate067]: Larkin J, Chiarion-Sileni V, Gonzalez R, et al. Combined nivolumab and ipilimumab or monotherapy in untreated melanoma. *N Engl J Med.* 2015;373(1):23-34. [doi:10.1056/NEJMoa1504030](https://doi.org/10.1056/NEJMoa1504030) · [PubMed 26027431](https://pubmed.ncbi.nlm.nih.gov/26027431/)
 [^robert-2015-combi-v]: Robert C, Karaszewska B, Schachter J, et al. Improved overall survival in melanoma with combined dabrafenib and trametinib. *N Engl J Med.* 2015;372(1):30-39. [doi:10.1056/NEJMoa1412690](https://doi.org/10.1056/NEJMoa1412690) · [PubMed 25399551](https://pubmed.ncbi.nlm.nih.gov/25399551/)

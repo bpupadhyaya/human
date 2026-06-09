@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: modulates
     note: "CD8+ T cells regulate B cell responses: CTL kills virally infected B cells displaying viral peptide on MHC-I; CD8+ Treg-like cells can suppress Ab production; CTL exhaustion allows persistence of EBV-transformed B cells."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "CD8+ CTL kill virus-infected and tumor targets via polarized perforin-granzyme exocytosis at the immune synapse; perforin pore → granzyme B entry → caspase-3 → apoptosis; PRF1 LOF → FHL2 (familial HLH); perforin defines the cytotoxic effector arm of adaptive immunity."
 ---
 
 # Cytotoxic T Cell
@@ -117,3 +120,6 @@ DP thymocytes undergo positive selection: cortical thymic epithelial cells (cTEC
 - [`../regulatory-t-cell/README.md`](../regulatory-t-cell/README.md) — Treg suppression of CTL responses
 - [`../../03-molecular/mhc-class-ii/README.md`](../../03-molecular/mhc-class-ii/README.md) — MHC context for antigen presentation
 - [`../../03-molecular/il-6/README.md`](../../03-molecular/il-6/README.md) — IL-6 in CTL differentiation and exhaustion signalling
+- [`../../03-molecular/perforin/README.md`](../../03-molecular/perforin/README.md) — pore-forming cytotoxic effector molecule deployed at the immunological synapse
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
