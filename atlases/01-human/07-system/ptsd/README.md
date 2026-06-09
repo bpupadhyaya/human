@@ -54,6 +54,9 @@ cross_links:
   - target: 01-human/03-molecular/crh
     relation: connects-to
     note: "PTSD shows CSF CRH excess, elevated ACTH, and paradoxically low cortisol (enhanced glucocorticoid feedback); CRH hyperdrive in amygdala/BNST drives hyperarousal and re-experiencing; CRHR1 antagonists are a proposed pharmacotherapy pending adequate clinical trials."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "PTSD shows dissociated HPA: normal or elevated ACTH responses to CRH but low basal cortisol — due to GR hypersensitivity (enhanced negative feedback); contrasts with MDD (high ACTH + high cortisol + GR resistance); enhanced DST suppression (<0.5 µg/dL) is the PTSD biomarker."
 ---
 
 # PTSD
@@ -199,6 +202,8 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Serotonin](../../../03-molecular/serotonin/README.md)** — SSRIs (sertraline, paroxetine) are FDA-approved for PTSD; serotonin modulates fear extinction in vmPFC; serotonin dysregulation contributes to hyperarousal, emotional numbing, and sleep disturbance; SNRIs (venlafaxine) are also evidence-based for PTSD symptom reduction.
 
 - `connects-to` → **[CRH](../../../03-molecular/crh/README.md)** — PTSD shows CSF CRH excess, elevated ACTH, and paradoxically low cortisol (enhanced glucocorticoid feedback); CRH hyperdrive in amygdala/BNST drives hyperarousal and re-experiencing; CRHR1 antagonists are a proposed pharmacotherapy pending adequate clinical trials.
+
+- `connects-to` → **[ACTH](../../../03-molecular/acth/README.md)** — PTSD exhibits a dissociated HPA pattern: normal or elevated ACTH responses to CRH challenge but chronically low basal cortisol, explained by GR hypersensitivity (enhanced negative feedback) rather than pituitary hypofunction; enhanced DST suppression (<0.5 µg/dL) is a biological signature of PTSD that distinguishes it from MDD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

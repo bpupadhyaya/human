@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "MDD involves reduced hippocampal volume (~2% per episode), reduced DLPFC gray matter, and hyperactive amygdala; functional dysconnectivity between DLPFC and limbic regions; subgenual cingulate (Area 25) hyperactivity is normalized by DBS and antidepressants."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "MDD features ACTH hypersecretion from CRH-driven corticotroph excess → hypercortisolemia; DST nonsuppression reflects HPA hyperdrive; blunted ACTH response to exogenous CRH indicates corticotroph downregulation; ACTH/cortisol normalisation with antidepressants predicts remission."
 ---
 
 # Major Depressive Disorder
@@ -209,6 +212,8 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[BDNF](../../../03-molecular/bdnf/README.md)** — BDNF deficiency is central to the neuroplasticity hypothesis of MDD; stress reduces hippocampal BDNF via glucocorticoid-mediated CREB repression; all effective antidepressants (SSRIs, MAOIs, ketamine, ECT) ultimately normalize BDNF; Val66Met SNP increases MDD vulnerability.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — MDD involves reduced hippocampal volume (~2% per episode), DLPFC hypofrontality, hyperactive amygdala, and sgACC (Area 25) hyperactivation; functional DLPFC–limbic dysconnectivity; sgACC DBS produces rapid remission in severe TRD by normalizing Area 25 hypermetabolism.
+
+- `connects-to` → **[ACTH](../../../03-molecular/acth/README.md)** — MDD shows HPA hyperdrive: CRH excess → ACTH hypersecretion → hypercortisolemia; paradoxically, the CRH stimulation test reveals blunted ACTH response (indicating corticotroph downregulation from chronic CRH excess); normalization of the ACTH/cortisol rhythm with antidepressant treatment reliably predicts and follows clinical remission.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

@@ -30,6 +30,9 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "MDD features CRH hyperdrive: PVN and CeA CRH excess → elevated ACTH + hypercortisolemia → hippocampal atrophy; blunted DST is the most replicated biological finding in MDD; CRHR1 antagonists (pexacerfont) and mifepristone show antidepressant potential in trials."
+  - target: 01-human/03-molecular/acth
+    relation: modulates
+    note: "CRH (CRHR1/Gs/cAMP/PKA) is the primary ACTH secretagogue; AVP (V1bR) synergistically potentiates CRH-driven ACTH release; the CRH stimulation test (1 µg/kg IV) assesses pituitary-adrenal reserve and can distinguish pituitary from ectopic ACTH sources in Cushing's syndrome."
 sources:
   - id: vale-1981-crh-discovery
     type: peer-reviewed
@@ -179,6 +182,8 @@ The CeA CRH system becomes **"sensitized"** with repeated withdrawal cycles → 
 - `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — PTSD shows CSF CRH excess and elevated ACTH but paradoxically low cortisol (enhanced glucocorticoid feedback); CRH hyperdrive in amygdala/BNST contributes to hyperarousal and re-experiencing; CRHR1 antagonism is a proposed pharmacotherapy approach.
 
 - `connects-to` → **[Major Depressive Disorder](../../07-system/major-depressive-disorder/README.md)** — MDD features CRH hyperdrive from PVN and CeA → elevated ACTH + hypercortisolemia → hippocampal atrophy via BDNF suppression; blunted DST suppression is the most replicated biological finding in MDD; CRHR1 antagonists (pexacerfont) and mifepristone show antidepressant activity in trials.
+
+- `modulates` → **[ACTH](../acth/README.md)** — CRH (CRHR1/Gs/cAMP/PKA on pituitary corticotrophs) is the primary ACTH secretagogue driving both acute ACTH exocytosis and sustained POMC transcription; AVP (V1bR) synergistically potentiates CRH-driven ACTH release during acute stress; the CRH stimulation test (1 µg/kg IV → ACTH measured at 15, 30, 60 min) assesses pituitary-adrenal reserve.
 
 [^vale-1981-crh-discovery]: Vale W, Spiess J, Rivier C, Rivier J. Characterization of a 41-residue ovine hypothalamic peptide that stimulates secretion of corticotropin and beta-endorphin. *Science.* 1981;213(4514):1394-1397. [doi:10.1126/science.6267699](https://doi.org/10.1126/science.6267699) · [PubMed 6267699](https://pubmed.ncbi.nlm.nih.gov/6267699/)
 [^koob-2010-crh-addiction]: Koob GF. The role of CRF and CRF-related peptides in the dark side of addiction. *Brain Res.* 2010;1314:3-14. [doi:10.1016/j.brainres.2009.11.008](https://doi.org/10.1016/j.brainres.2009.11.008) · [PubMed 19912996](https://pubmed.ncbi.nlm.nih.gov/19912996/)

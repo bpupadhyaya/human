@@ -184,6 +184,9 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: modulated-by
     note: "Pineal melatonin is regulated by SCN via RHT → SCG → NE → β1 → AANAT; MT2 on SCN neurons mediates circadian phase shifts; melanopsin ipRGC input suppresses SCN-driven melatonin — the molecular basis of light-hygiene recommendations."
+  - target: 01-human/03-molecular/acth
+    relation: secretes
+    note: "Anterior pituitary corticotrophs produce ACTH from POMC via PC1/3 cleavage; SCN → PVN CRH pulsatility drives ACTH circadian rhythm with morning peak; hypothalamic POMC neurons (arcuate nucleus) produce α-MSH acting on MC4R to regulate appetite — a parallel POMC-derived system."
 ---
 
 # Brain
@@ -289,6 +292,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — neuropathic pain involves thalamic sensitization, ACC and insular hyperactivation to pain stimuli, and somatosensory cortex reorganization; chronic neuropathic pain is associated with gray matter reduction in ACC and dlPFC; central changes explain why pain persists after peripheral healing and why maladaptive neuroplasticity becomes the dominant driver.
 - `connects-to` → **[Narcolepsy](../../07-system/narcolepsy/README.md)** — NT1 selectively destroys lateral hypothalamic orexin neurons, destabilizing the VLPO–arousal flip-flop; under-driven TMN, LC, and raphe projections reduce histamine, NE, and 5-HT arousal tone; pontine REM-on/off circuit dysregulation underlies cataplexy; amygdala hypersensitivity mediates emotion-triggered cataplexy attacks.
 - `modulated-by` → **[Melatonin](../../03-molecular/melatonin/README.md)** — the pineal gland (brain appendage) secretes melatonin under SCN circadian control via the retinohypothalamic tract → superior cervical ganglion → NE → β1-AR → AANAT; SCN MT2 receptors mediate melatonin-driven circadian phase shifts; melanopsin ipRGC blue-light input suppresses SCN-driven melatonin — the molecular basis of light-hygiene recommendations for sleep.
+- `secretes` → **[ACTH](../../03-molecular/acth/README.md)** — anterior pituitary corticotrophs (derived from POMC by PC1/3 cleavage) release ACTH whose circadian rhythm is driven by SCN → PVN CRH pulsatility; simultaneously, hypothalamic arcuate nucleus POMC neurons produce α-MSH acting on MC4R → appetite suppression and energy balance — a parallel POMC-derived neuroendocrine system originating in the brain.
 
 ## Pathology
 

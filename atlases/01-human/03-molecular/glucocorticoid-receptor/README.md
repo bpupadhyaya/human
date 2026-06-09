@@ -58,6 +58,9 @@ cross_links:
   - target: 03-medicine/02-traditional/licorice-root
     relation: modulated-by
     note: "Modulated by Licorice Root (Glycyrrhiza glabra / G. uralensis)."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Cortisol-GR in pituitary corticotrophs translocates to nucleus → binds nGRE in POMC promoter → represses ACTH transcription; fast + slow negative feedback maintains HPA homeostasis; GR resistance in MDD → ACTH/cortisol excess; GR hypersensitivity in PTSD → low cortisol."
 ---
 
 # Glucocorticoid Receptor
@@ -180,6 +183,7 @@ Synthetic glucocorticoids exploit these mechanisms for therapeutic benefit:
 - `modulates` → **[TNF-α](../tnf-alpha/README.md)** — GR transrepresses TNF-α via direct NF-κB p65 interaction, blocking coactivator recruitment
 - `modulates` → **[IL-6](../il-6/README.md)** — GR transrepression of NF-κB and AP-1 reduces IL-6 transcription in macrophages and hepatocytes
 - `modulates` → **[immune-system](../../07-system/immune-system/README.md)** — GR activation broadly suppresses innate and adaptive immunity via GRE-driven anti-inflammatory genes and NF-κB/AP-1 transrepression
+- `connects-to` → **[ACTH](../acth/README.md)** — cortisol-GR complexes in pituitary corticotrophs translocate to nucleus and bind negative GRE (nGRE) in the POMC promoter to repress ACTH transcription; this fast (minutes) and slow (hours) negative feedback loop is the key HPA axis homeostatic mechanism; GR resistance in MDD → ACTH/cortisol excess; GR hypersensitivity in PTSD → enhanced DST suppression and low cortisol.
 
 ## Pathology
 

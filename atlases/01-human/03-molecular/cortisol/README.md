@@ -80,6 +80,9 @@ cross_links:
   - target: 01-human/03-molecular/crh
     relation: modulated-by
     note: "CRH from PVN is the primary HPA axis trigger: PVN CRH → pituitary portal blood → CRHR1 → ACTH → adrenal cortisol; glucocorticoid negative feedback at pituitary and hypothalamic GR suppresses CRH/ACTH; disruption in MDD, PTSD, and Cushing's disease."
+  - target: 01-human/03-molecular/acth
+    relation: modulated-by
+    note: "ACTH from anterior pituitary (MC2R/Gs/cAMP/PKA) drives adrenal zona fasciculata cortisol synthesis via StAR→CYP11A1→CYP21A2→CYP11B1; ACTH excess (Cushing's disease, ectopic) → hypercortisolemia; ACTH deficiency (hypopituitarism) → secondary adrenal insufficiency."
 ---
 
 # Cortisol
@@ -218,6 +221,8 @@ The diurnal cortisol rhythm is a **time-giver (Zeitgeber) signal** for periphera
 - `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — chronic insomnia features HPA hyperarousal: elevated 24h urinary cortisol, blunted diurnal decline, and high evening cortisol; elevated cortisol at sleep onset opposes the core body temperature drop required for sleep initiation; successful CBT-I normalizes HPA hyperarousal, serving as a biological marker of treatment response.
 
 - `modulated-by` → **[CRH](../crh/README.md)** — CRH from PVN is the primary HPA axis trigger: PVN CRH → pituitary portal blood → CRHR1 → ACTH → adrenal cortisol synthesis; glucocorticoid negative feedback at pituitary and hypothalamic GR suppresses further CRH/ACTH release; disruption is central to MDD, PTSD, and Cushing's disease.
+
+- `modulated-by` → **[ACTH](../acth/README.md)** — ACTH is the obligate intermediate in the HPA axis: pituitary corticotrophs release ACTH under CRH/AVP drive → MC2R on adrenal zona fasciculata → Gs/cAMP/PKA → StAR phosphorylation → cholesterol import → CYP11A1-CYP17A1-CYP21A2-CYP11B1 steroidogenic cascade → cortisol; cosyntropin (synthetic ACTH 1-24) is used clinically to test adrenal reserve.
 
 ## Pathology
 
