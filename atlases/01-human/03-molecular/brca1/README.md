@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "BRCA1 overexpression shifts BCL-2/BAX balance toward apoptosis; BRCA1-deficient tumors often acquire BCL-2 overexpression as a compensatory survival mechanism, reducing sensitivity to genotoxic chemotherapy and immune-mediated killing — a co-occurring resistance pathway."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "BRCA1 germline mutations confer 65-80% lifetime breast cancer risk (predominantly ER/HER2-negative triple-negative grade 3); BRCA1 loss impairs HR → PARP inhibitor sensitivity; olaparib (OlympiAD trial) and talazoparib improve PFS in BRCA1/2-mutant metastatic breast cancer."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "BRCA1 germline mutations confer 40-44% lifetime risk of high-grade serous ovarian cancer (HGSOC); BRCA1-mutant HGSOC is HR-deficient → platinum-sensitive and PARP inhibitor-sensitive; olaparib + bevacizumab (PAOLA-1 trial): PFS 22.1 vs 16.6 months in HRD-positive HGSOC."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "BRCA1 pathogenic variants are the primary cause of HBOC syndrome; BRCA1 mutations account for ~40% of hereditary breast cancers and ~15% of all ovarian cancers; risk-reducing salpingo-oophorectomy by age 40 reduces ovarian cancer risk >95% and breast cancer risk 50%."
 ---
 
 # BRCA1
@@ -154,7 +163,13 @@ BRCA1 phosphorylation status controls its function across the cell cycle:
 - `connects-to` → **[p53](../p53/README.md)** — BRCA1 BRCT domain binds phospho-p53 (Ser15) and co-activates p21 and PUMA transcription; BRCA1 and p53 are cooperative genome guardians — co-loss drives aggressive triple-negative breast cancer.
 - `connects-to` → **[NF-κB](../nf-kb/README.md)** — BRCA1 modulates NF-κB-dependent inflammatory gene expression; BRCA1 loss → constitutive NF-κB → pro-tumorigenic microenvironment in BRCA1-mutant breast and ovarian cancers.
 - `connects-to` → **[BCL-2](../bcl-2/README.md)** — BRCA1 overexpression shifts BCL-2/BAX ratio toward apoptosis; BRCA1-deficient tumor cells frequently acquire BCL-2 overexpression as a survival compensatory mechanism, reducing sensitivity to genotoxic therapy.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — BRCA1 germline mutations confer 65-80% lifetime breast cancer risk (predominantly ER/HER2-negative triple-negative grade 3); BRCA1 loss impairs HR → PARP inhibitor sensitivity; olaparib (OlympiAD trial) and talazoparib improve PFS in BRCA1/2-mutant metastatic breast cancer.
+- `connects-to` → **[Ovarian Cancer](../../07-system/ovarian-cancer/README.md)** — BRCA1 germline mutations confer 40-44% lifetime risk of high-grade serous ovarian cancer (HGSOC); BRCA1-mutant HGSOC is HR-deficient → platinum-sensitive and PARP inhibitor-sensitive; olaparib + bevacizumab (PAOLA-1 trial): PFS 22.1 vs 16.6 months in HRD-positive HGSOC.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../../07-system/hereditary-breast-ovarian-cancer/README.md)** — BRCA1 pathogenic variants are the primary cause of HBOC syndrome; BRCA1 mutations account for ~40% of hereditary breast cancers and ~15% of all ovarian cancers; risk-reducing salpingo-oophorectomy by age 40 reduces ovarian cancer risk >95% and breast cancer risk 50%.
 
 [^miki-1994-brca1]: Miki Y, Swensen J, Shattuck-Eidens D, et al. A strong candidate for the breast and ovarian cancer susceptibility gene BRCA1. *Science.* 1994;266(5182):66-71. [doi:10.1126/science.7545954](https://doi.org/10.1126/science.7545954) · [PubMed 7545954](https://pubmed.ncbi.nlm.nih.gov/7545954/)
 [^roy-2012-brca-repair]: Roy R, Chun J, Powell SN. BRCA1 and BRCA2: different roles in a common pathway of genome protection. *Nat Rev Cancer.* 2012;12(1):68-78. [doi:10.1038/nrc3181](https://doi.org/10.1038/nrc3181) · [PubMed 22193408](https://pubmed.ncbi.nlm.nih.gov/22193408/)
 [^robson-2017-olaparib-breast]: Robson M, Im SA, Senkus E, et al. Olaparib for Metastatic Breast Cancer in Patients with a Germline BRCA Mutation. *N Engl J Med.* 2017;377(6):523-533. [doi:10.1056/NEJMoa1706450](https://doi.org/10.1056/NEJMoa1706450) · [PubMed 28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
