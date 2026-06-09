@@ -61,6 +61,9 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian disruption (night-shift work, social jet lag) → disrupted melatonin → leptin resistance → 40% higher obesity risk; light at night suppresses melatonin → metabolic dysregulation; MTNR1B variants modulate BMI; melatonin reduces adiposity in rodent models."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipose tissue secretes adiponectin, but obese adipocytes paradoxically produce less: visceral fat expansion → TNF-α/IL-6 → ADIPOQ suppression → adiponectin deficiency → insulin resistance and cardiovascular risk; TZDs and caloric restriction restore adiponectin."
 ---
 
 # Obesity
@@ -215,6 +218,7 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Testosterone](../../../03-molecular/testosterone/README.md)** — Visceral adiposity suppresses testosterone via aromatase upregulation and SHBG reduction; hypogonadal-obesity cycle: T deficiency worsens adiposity, which further suppresses T; 5-10% weight loss raises testosterone 2-3 nmol/L without TRT; TRT reduces fat mass ~3 kg.
 - `connects-to` → **[Thyroid Hormones](../../../03-molecular/thyroid-hormones/README.md)** — Thyroid hormones set basal metabolic rate — hypothyroidism reduces BMR → weight gain; T3 drives UCP1 in BAT (thermogenesis) and mitochondrial biogenesis; TRβ agonist resmetirom reduces hepatic fat in MASH; levothyroxine normalizes TSH but does not reliably reverse obesity.
 - `connects-to` → **[Melatonin](../../../03-molecular/melatonin/README.md)** — Circadian disruption (night-shift work, social jet lag) → disrupted melatonin → leptin resistance → 40% higher obesity risk; light at night suppresses melatonin → metabolic dysregulation; MTNR1B variants modulate BMI; melatonin reduces adiposity in rodent models.
+- `connects-to` → **[Adiponectin](../../../03-molecular/adiponectin/README.md)** — Adipose tissue secretes adiponectin, but obese adipocytes paradoxically produce less: visceral fat expansion → TNF-α/IL-6 → ADIPOQ suppression → adiponectin deficiency → insulin resistance and cardiovascular risk; TZDs and caloric restriction restore adiponectin.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Dysbiosis in obesity — increased Firmicutes/Bacteroidetes, reduced Akkermansia muciniphila — increases energy harvest and drives metabolic endotoxemia (LPS → TLR4 → systemic inflammation); gut microbiome transfer from obese to germ-free mice transfers the adiposity phenotype."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Microbiome dysbiosis → LPS → TLR4 → TNF-α/IL-6 → adiponectin suppression; butyrate-producing bacteria (Akkermansia, Bifidobacterium) → SCFA → PPARγ → ADIPOQ induction; probiotics and prebiotics modestly raise adiponectin in metabolic syndrome and obesity trials."
 ---
 
 # Gut Microbiome
@@ -117,6 +120,7 @@ The microbiome influences CNS function via multiple pathways:
 - `contains` → **[Bacteroides fragilis](../../../../02-pathogen/06-microbiome/bacteroides-fragilis/README.md)** — key Bacteroidetes member; PSA from commensal B. fragilis induces Treg and IL-10 (immunoprotective); ETBF toxin disrupts epithelial barrier
 - `contains` → **[Akkermansia muciniphila](../../../../02-pathogen/06-microbiome/akkermansia-muciniphila/README.md)** — mucin-degrading species associated with metabolic health; reduced in obesity and T2DM; Amuc_1100 strengthens gut barrier via TLR2
 - `connects-to` → **[Obesity](../obesity/README.md)** — dysbiosis in obesity — increased Firmicutes/Bacteroidetes, reduced Akkermansia muciniphila — increases energy harvest and drives metabolic endotoxemia (LPS → TLR4 → systemic inflammation); gut microbiome transfer from obese to germ-free mice transfers the adiposity phenotype.
+- `connects-to` → **[Adiponectin](../../../03-molecular/adiponectin/README.md)** — Microbiome dysbiosis → LPS → TLR4 → TNF-α/IL-6 → adiponectin suppression; butyrate-producing bacteria (Akkermansia, Bifidobacterium) → SCFA → PPARγ → ADIPOQ induction; probiotics and prebiotics modestly raise adiponectin in metabolic syndrome and obesity trials.
 
 ## Pathology
 

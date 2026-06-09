@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gut Microbiome — ~38 trillion bacteria, 1000 species, 3.3 million unique genes; SCFA signalling, gut-brain axis, immune education (IgA, Treg, TH17), dysbiosis in IBD/CDI/metabolic syndrome. Scale L05 of the Human Atlas.">
+  <meta name="description" content="~10¹³ microorganisms (Firmicutes, Bacteroidetes, Actinobacteria) colonizing the GI tract. Functions: SCFA production (butyrate, propionate), vitamin synthesis, ">
   <meta property="og:title" content="Gut Microbiome — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Gut Microbiome — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #16a34a;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--accent); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,48 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(22,163,74,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #16a34a, #14532d); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -84,7 +94,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--accent); }
+    .footer-links a:hover { color: var(--bio); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -92,16 +102,15 @@
 
   <nav>
     <div class="nav-inner">
-      <a href="../index.html" class="brand">
+      <a href="index.html" class="brand">
         <span class="brand-mark" aria-hidden="true"></span>
         Human Engineering
       </a>
       <div class="nav-links">
-        <a href="../index.html#mission">Mission</a>
-        <a href="../index.html#scales">Scales</a>
+        <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="../index.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
         </a>
@@ -110,175 +119,62 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Host Biology &middot; Scale L05 &mdash; Tissue / Organ</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
     <h1>Gut Microbiome</h1>
-    <p class="tagline">The collective genome of ~38 trillion microorganisms inhabiting the human gastrointestinal tract — a metabolically active ecosystem that co-evolved with humans over millions of years and shapes immunity, metabolism, and brain function.</p>
-    <p class="subtagline">~1,000 bacterial species, 3.3 million unique microbial genes (150× the human gene count). Dominated by Firmicutes and Bacteroidetes phyla. Produces short-chain fatty acids (SCFAs) that fuel colonocytes, regulate epigenetics, and signal to the enteric, autonomic, and central nervous systems.</p>
+    <p class="tagline">~10¹³ microorganisms (Firmicutes, Bacteroidetes, Actinobacteria) colonizing the GI tract. Functions: SCFA production (butyrate, propionate), vitamin synthesis, colonization resistance, immune education, bile acid metabolism, gut-brain axis serotonin.</p>
+    <p class="aliases">Also known as: gut microbiome, gut microbiota, intestinal microbiome, gut flora, microbiota, human microbiome</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~38 trillion</span><span class="stat-label">Bacterial cells</span></div>
-      <div class="stat"><span class="stat-num">~1,000</span><span class="stat-label">Species</span></div>
-      <div class="stat"><span class="stat-num">3.3 million</span><span class="stat-label">Unique microbial genes</span></div>
-      <div class="stat"><span class="stat-num">10–15 g/day</span><span class="stat-label">Secretory IgA produced</span></div>
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Scale L05 Tissue/Organ &middot; Microbiome &middot; Digestive/Immune</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">gut-microbiome</div>
         <h2>Gut Microbiome</h2>
-        <p class="summary">The gut microbiome — also termed intestinal microbiota — comprises the bacteria, archaea, fungi, viruses (phage), and eukaryotes inhabiting the gastrointestinal tract, with the densest colonisation in the colon (10¹¹ cells per gram of luminal content). The aggregate genome of this community (the metagenome) encodes ~3.3 million unique genes — 150× the ~22,000 in the human nuclear genome — expanding host metabolic capacity to ferment dietary fibre, synthesise vitamins (B12, K2, folate), and detoxify xenobiotics. Key metabolic outputs include short-chain fatty acids (butyrate, propionate, acetate) that serve as colonocyte fuel, HDAC inhibitors, and GPR signalling ligands. The microbiome educates and calibrates mucosal immunity — inducing secretory IgA (10–15 g/day), Foxp3+ regulatory T cells (Tregs), and TH17 cells — while the ENS ("second brain," ~500 million neurons) and the gut-brain axis via vagal afferents and tryptophan/serotonin metabolism connect gut microbial activity to brain function, behaviour, and mood. Dysbiosis — altered microbial composition — underlies or contributes to IBD, Clostridioides difficile infection, metabolic syndrome, and autism spectrum disorder.</p>
+        <p class="summary">~10¹³ microorganisms (Firmicutes, Bacteroidetes, Actinobacteria) colonizing the GI tract. Functions: SCFA production (butyrate, propionate), vitamin synthesis, colonization resistance, immune education, bile acid metabolism, gut-brain axis serotonin.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The human gut microbiome is a complex, dynamic ecosystem co-evolved with its host over millions of years. At birth, the gut is rapidly colonised — vaginally delivered infants acquire maternal vaginal and fecal flora (Lactobacillus-rich), while caesarean-born infants acquire skin and environmental flora — establishing microbial communities whose composition influences immune development, allergy risk, and metabolic programming for life.</p>
-          <p>The <strong>colon</strong> harbours the overwhelming majority of gut bacteria: up to 10¹¹ CFU per gram of colonic content, compared with 10¹–10³ per gram in the stomach and proximal small intestine. Strict anaerobes dominate (Firmicutes, Bacteroidetes, Actinobacteria) because the colonic lumen is profoundly hypoxic. The small intestine supports a distinct, less dense community (Lactobacillus, Streptococcus) adapted to oxygen microaerophily and the presence of bile acids and digestive enzymes.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Composition — Key Phyla and Commensal Species</h3>
-          <p>Healthy adult gut microbiome phylum composition (relative abundance):</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Phylum</th><th>Typical abundance</th><th>Key genera</th><th>Metabolic roles</th></tr>
-            <tr><td>Firmicutes</td><td>30–65%</td><td>Clostridium, Lachnospiraceae, Ruminococcus, Faecalibacterium, Lactobacillus</td><td>Butyrate production (esp. Clostridium cluster XIVa/IV); carbohydrate fermentation; bile acid transformation</td></tr>
-            <tr><td>Bacteroidetes</td><td>20–50%</td><td>Bacteroides, Prevotella, Parabacteroides</td><td>Propionate and acetate production; polysaccharide A (PSA) immune modulation; complex carbohydrate degradation (PULs)</td></tr>
-            <tr><td>Actinobacteria</td><td>1–10%</td><td>Bifidobacterium, Collinsella</td><td>Acetate + lactate production; infant gut dominance; bifidogenic utilisation of HMOs (human milk oligosaccharides)</td></tr>
-            <tr><td>Proteobacteria</td><td>&lt;5% (healthy)</td><td>Escherichia, Helicobacter, Sutterella</td><td>Often bloom in dysbiosis; facultative anaerobes; LPS producers — elevated in IBD</td></tr>
-            <tr><td>Verrucomicrobia</td><td>0.5–3%</td><td>Akkermansia muciniphila</td><td>Mucin degradation; gut barrier reinforcement; inversely correlated with obesity, T2D, MetS</td></tr>
-          </table>
-
-          <p style="margin-top:1rem;"><strong>Key commensal species with established host-interaction roles:</strong></p>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Akkermansia muciniphila</h4>
-              <p>Strict anaerobe, Verrucomicrobia; colonises the mucus layer, degrading mucin as its carbon source while stimulating mucus production. Inversely correlated with obesity, type 2 diabetes, and metabolic syndrome. Outer membrane protein Amuc_1100 activates TLR2, improving tight junction expression and reducing intestinal permeability. Clinical trials of pasteurised A. muciniphila supplementation show improvements in insulin sensitivity and cardiometabolic markers in overweight individuals.</p>
-            </div>
-            <div class="info-block">
-              <h4>Faecalibacterium prausnitzii</h4>
-              <p>Most abundant single species in healthy adults (~5–15% of Firmicutes); strict anaerobe of Clostridium cluster IV. Major butyrate producer with potent anti-inflammatory activity — secretes microbial anti-inflammatory molecule (MAIM/salicylate derivative) that inhibits NF-κB. Markedly reduced in Crohn's disease and ulcerative colitis; its abundance inversely predicts post-surgical Crohn's relapse. Used as a biomarker and candidate next-generation probiotic.</p>
-            </div>
-            <div class="info-block">
-              <h4>Bifidobacterium spp.</h4>
-              <p>Dominant in breastfed infants (up to 90% in breast-milk-fed neonates); declining in adults to ~1–5%. Ferment HMOs and produce acetate and lactate (not butyrate directly, but cross-feeds butyrate producers). Bifidobacterium longum and B. infantis promote Treg induction; B. bifidum degrades mucin glycans. Widely used in commercial probiotics; evidence for efficacy in antibiotic-associated diarrhoea and infant colic.</p>
-            </div>
-            <div class="info-block">
-              <h4>Lactobacillus spp.</h4>
-              <p>Facultative anaerobes; relatively minor in the colon but dominant in the proximal small intestine and vagina. Produce lactic acid, reducing luminal pH, inhibiting Enterobacteriaceae growth. Lactobacillus rhamnosus GG (LGG) is the most clinically studied probiotic: reduces antibiotic-associated diarrhoea by ~50%, shortens acute infectious diarrhoea in children, and has documented efficacy in the prevention of travellers' diarrhoea and C. difficile recurrence.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Short-Chain Fatty Acids — Metabolism and Signalling</h3>
-          <p>Microbial fermentation of indigestible dietary fibre (non-starch polysaccharides, resistant starch, inulin/FOS) in the colon yields <strong>short-chain fatty acids (SCFAs)</strong> — principally butyrate (~15–20%), propionate (~20–25%), and acetate (~60–65%) in molar ratios of approximately 6:3:3 (butyrate:propionate:acetate). Total colonic SCFA production ~300–1,000 mmol/day. These molecules serve as the primary energy source for colonocytes, regulate gene expression epigenetically, and act as intercellular signalling ligands.</p>
-          <table class="data-table">
-            <tr><th>SCFA</th><th>Primary producers</th><th>Main receptors / targets</th><th>Key physiological roles</th></tr>
-            <tr><td>Butyrate (C4)</td><td>Faecalibacterium prausnitzii, Roseburia, Butyrivibrio, Clostridium cluster IV/XIVa</td><td>GPR109A (niacin receptor), GPR41, GPR43; HDAC inhibitor</td><td>Principal fuel for colonocytes (~70% of energy); HDAC inhibition → anti-inflammatory, anti-proliferative (in cancer cells), Treg induction via Foxp3 promoter acetylation; GPR109A on macrophages/DCs → IL-18 → gut barrier; tight junction upregulation (claudin-1, occludin)</td></tr>
-            <tr><td>Propionate (C3)</td><td>Bacteroides, Akkermansia, Veillonella, Dialister</td><td>GPR41 (FFAR3), GPR43 (FFAR2); hepatic gluconeogenesis</td><td>Gluconeogenic substrate in liver; GPR41 on enteroendocrine L-cells → PYY + GLP-1 secretion (satiety, incretin effect); GPR43 on adipocytes → inhibits lipolysis, reduces plasma FFA; GPR41 on sympathetic ganglia → regulates energy homeostasis</td></tr>
-            <tr><td>Acetate (C2)</td><td>Bifidobacterium, Bacteroides, Prevotella, Ruminococcus</td><td>GPR43; systemic circulation (peripheral tissues)</td><td>Most abundant SCFA; major fraction absorbed and utilised by peripheral tissues and the brain; substrate for cholesterol synthesis (liver); GPR43 on immune cells → anti-inflammatory; acetate from Bifidobacterium infantis protects neonatal gut from E. coli O157:H7 via TLR2 pathway</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;">Butyrate's role as a <strong>class I/IIa HDAC inhibitor</strong> (IC₅₀ ~1–5 mM, consistent with luminal concentrations) is mechanistically significant: by preventing deacetylation of histones at gene promoters, it promotes expression of Foxp3 in naive T cells (Treg induction), inhibits NF-κB-driven inflammatory gene programmes, and induces apoptosis in cancer cell lines — forming a plausible mechanistic basis for epidemiological data linking dietary fibre to reduced colorectal cancer risk.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Gut-Brain Axis</h3>
-          <p>The gut and brain maintain bidirectional communication through the <strong>gut-brain axis</strong> — a network of neural, endocrine, and immune pathways that allow the enteric nervous system and gut microbiome to influence behaviour, mood, stress responses, and cognitive function, and allow the brain to regulate gut motility, secretion, and immunity.</p>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Vagal Afferents</h4>
-              <p>~80% of vagal fibres are afferent (gut-to-brain), conveying signals from enteroendocrine cells and ENS neurons to the nucleus tractus solitarius (NTS) in the brainstem, thence to the hypothalamus, limbic system, and cortex. SCFAs activate GPR41 on enteroendocrine cells → PYY/GLP-1 → vagal afferents → satiety signalling. Vagotomy abolishes germ-free to colonised mouse behavioural effects in some paradigms, implicating direct neural relay.</p>
-            </div>
-            <div class="info-block">
-              <h4>Tryptophan and Serotonin Axis</h4>
-              <p>The gut contains <strong>~90–95% of the body's total serotonin (5-HT)</strong>, stored in and secreted by enterochromaffin (EC) cells of the intestinal epithelium. Gut microbiota regulate host 5-HT biosynthesis: spore-forming Clostridia produce metabolites (including secondary bile acids and short-chain fatty acids) that stimulate EC cell TPH1 (tryptophan hydroxylase-1) expression, boosting mucosal 5-HT. Gut 5-HT activates intrinsic ENS 5-HT3/4 receptors (peristaltic reflex, secretory reflexes) and extrinsic 5-HT3 on vagal afferents. Serotonin reuptake by SERT on enterocytes terminates signalling; SERT inhibitors (SSRIs) affect gut motility. Tryptophan also enters the kynurenine pathway (IDO1) — dysbiosis-driven IDO1 upregulation shifts tryptophan away from serotonin toward kynurenine, linked to neuroinflammation and depression.</p>
-            </div>
-            <div class="info-block">
-              <h4>Enteric Nervous System (ENS)</h4>
-              <p>The ENS — sometimes called the "second brain" — contains <strong>~500 million neurons</strong> in two ganglionated plexuses (Meissner's/submucosal and Auerbach's/myenteric), comparable to the spinal cord. It operates autonomously from the central nervous system, coordinating peristalsis, secretion, and blood flow. Gut bacteria directly interact with ENS neurons: bacterial metabolites activate TLR2/4 on enteric glia; butyrate promotes ENS neurogenesis in developing gut; Campylobacter infection triggers enteric neuropathy via molecular mimicry with gangliosides.</p>
-            </div>
-            <div class="info-block">
-              <h4>HPA Axis and Stress</h4>
-              <p>Germ-free animals display exaggerated hypothalamic-pituitary-adrenal (HPA) axis responses to restraint stress, with elevated corticosterone — normalised by early colonisation with specific bacteria (Bifidobacterium infantis in rat models). Lactobacillus rhamnosus (JB-1) reduces anxiety-like behaviour in mice via vagus-dependent GABA receptor expression changes. Stress reciprocally alters gut motility and barrier function — the neurogenic intestinal permeability response — potentially modifying microbial composition and setting up feed-forward dysbiosis.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Immune Interactions — Education, Tolerance, and Activation</h3>
-          <p>The gut-associated lymphoid tissue (GALT) — encompassing Peyer's patches, isolated lymphoid follicles, mesenteric lymph nodes, and the diffuse lamina propria lymphoid tissue — is the largest immune organ in the body. The microbiome shapes virtually every arm of intestinal and systemic immunity.</p>
-          <table class="data-table">
-            <tr><th>Immune process</th><th>Microbial driver</th><th>Mechanism</th><th>Outcome</th></tr>
-            <tr><td>Secretory IgA (SIgA) production</td><td>Commensals broadly; Bacteroides fragilis PSA, Bifidobacterium</td><td>Plasma cells in lamina propria secrete IgA → poly-Ig receptor (pIgR) transports dimeric SIgA into lumen; T-cell-independent (innate) and T-cell-dependent pathways; ~10–15 g/day — the most abundantly produced antibody in the body</td><td>Coats bacteria → immune exclusion (prevents adhesion/invasion); neutralises viruses; shapes microbiome composition (SIgA selects for coating-resistant strains)</td></tr>
-            <tr><td>Treg induction</td><td>Clostridia clusters IV, XIVa, XVIII; Bacteroides fragilis PSA; butyrate</td><td>Clostridia-derived SCFAs (butyrate) → HDAC inhibition → Foxp3 promoter acetylation → naive CD4+ T → Foxp3+ Treg in colonic lamina propria; B. fragilis PSA → TLR2 on DCs → IL-10 → Treg; 46 Clostridia strains identified by Atarashi et al. 2013 as potent Treg inducers</td><td>Mucosal tolerance to dietary antigens and commensals; suppression of colitis; systemic immune regulation (reduces allergy, autoimmunity)</td></tr>
-            <tr><td>TH17 induction</td><td>Segmented filamentous bacteria (SFB, Candidatus Arthromitus)</td><td>SFB attach intimately to ileal epithelium → ATP release → P2X/P2Y on DCs → serum amyloid A (SAA) from epithelium → IL-6 + IL-23 → TH17 differentiation in Peyer's patch germinal centres; identified in mice (rat and human SFB less characterised</td><td>Protection against extracellular bacteria and fungi (IL-17/IL-22 → antimicrobial peptides, neutrophil recruitment); excessive TH17 linked to IBD and autoimmunity</td></tr>
-            <tr><td>M-cell antigen sampling</td><td>All luminal microorganisms</td><td>Specialised follicle-associated epithelium over Peyer's patches; M-cells have thin apical glycocalyx, no brush border; transports intact particles/bacteria via transcytosis to subepithelial dome DCs and macrophages → antigen presentation in germinal centres</td><td>Adaptive IgA responses to specific commensals and pathogens; entry route exploited by Salmonella, Yersinia, Reovirus, poliovirus</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Dysbiosis — Altered Microbiome Composition and Disease</h3>
-          <p>Dysbiosis refers to microbiome compositional or functional alterations that perturb host-microbiome homeostasis. Key patterns:</p>
-          <div class="pathology-item danger">
-            <h4>Clostridioides difficile Infection (CDI) — Post-Antibiotic Dysbiosis</h4>
-            <p>Broad-spectrum antibiotics (fluoroquinolones, clindamycin, cephalosporins) decimate colonic Bacteroidetes and Firmicutes, reducing colonisation resistance → C. difficile (spore-forming gram-positive anaerobe) germinates and overgrows → produces toxins A (TcdA) and B (TcdB), which glucosylate Rho GTPases → actin cytoskeleton collapse → colonocyte death → pseudomembranous colitis. Severity ranges from mild diarrhoea to toxic megacolon. In the USA, ~500,000 cases/year, ~29,000 deaths. <strong>Fecal microbiota transplantation (FMT)</strong> restores microbial diversity and achieves ~90% resolution of recurrent CDI (vs. ~30% for vancomycin alone) — one of the most striking demonstrations of microbiome causality in human disease. Standard-of-care for recurrent CDI (≥2 episodes); oral vancomycin or fidaxomicin for primary episodes.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Inflammatory Bowel Disease (IBD) — Reduced Diversity</h4>
-            <p>Both Crohn's disease (CD) and ulcerative colitis (UC) are characterised by <strong>reduced microbial diversity</strong> (α-diversity), specific taxa alterations: Faecalibacterium prausnitzii ↓, Roseburia ↓, Akkermansia muciniphila ↓; Proteobacteria (E. coli, particularly adherent-invasive E. coli [AIEC]) ↑, Ruminococcus gnavus ↑. It is debated whether dysbiosis is cause or consequence, but germ-free animals do not develop experimental colitis (TNBS model) without microbial colonisation, supporting causality. Genetic susceptibility (NOD2/CARD15 → impaired innate bacterial sensing; ATG16L1 → defective autophagy of intracellular bacteria) interacts with dysbiosis to break mucosal tolerance.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Metabolic Syndrome — Firmicutes↑ / Bacteroidetes↓ Ratio</h4>
-            <p>Landmark studies (Turnbaugh et al., 2006; Ley et al., 2006) showed obese mice and humans have an elevated <strong>Firmicutes:Bacteroidetes ratio</strong> versus lean controls, with the obese microbiome having enhanced capacity to extract energy from diet (measured by faecal caloric content and short-chain fatty acid production). Transfer of obese microbiome to germ-free recipients increased adiposity compared to lean microbiome transfer. Mechanistically: excess propionate → de novo hepatic lipogenesis; reduced butyrate → impaired GLP-1 secretion → reduced insulin sensitivity; increased Proteobacteria LPS → metabolic endotoxaemia (elevated plasma LPS → low-grade TLR4-driven inflammation → insulin resistance). Dietary interventions, caloric restriction, and gastric bypass surgery all shift the Firmicutes:Bacteroidetes ratio toward leaner compositions.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Autism Spectrum Disorder (ASD) — Prevotella↓, Altered Tryptophan Metabolism</h4>
-            <p>Multiple studies report altered gut microbiome composition in ASD cohorts: <strong>Prevotella ↓</strong> (implicated in diverse carbohydrate fermentation and social behaviour in mouse models), Clostridium cluster XI/XVII species ↑ (4-ethylphenylsulfate and p-cresol production — associated with anxiety behaviour in rodents), Bifidobacterium ↓. The mechanistic link is speculative but may involve: tryptophan → kynurenine shift (IDO1 upregulation by dysbiosis → reduced serotonin + increased neuroactive kynurenic acid); GABA imbalance; altered vagal signalling. Randomised trials of microbiome-directed therapy in ASD are ongoing; a 2019 open-label study (Kang et al.) reported sustained gut and behavioural improvements 2 years after FMT.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Interventions — FMT, Probiotics, Prebiotics, Postbiotics</h3>
-          <table class="data-table">
-            <tr><th>Intervention</th><th>Definition</th><th>Strongest evidence</th><th>Key caveats</th></tr>
-            <tr><td><strong>FMT (Fecal Microbiota Transplantation)</strong></td><td>Transfer of entire faecal microbiome from healthy donor to recipient (colonoscopy, enema, oral capsule)</td><td>Recurrent CDI: ~90% cure rate (RCT-confirmed; FDA-approved products SER-109 and RBX2660 as of 2023); UC remission (~25–30% in trials; less effective than CDI); exploratory: hepatic encephalopathy, graft-vs-host disease, immunotherapy potentiation</td><td>Risk of pathogen transmission (including ESBL, SARS-CoV-2 — donor screening critical); long-term engraftment variable; 2 FDA-approved products now exist (Rebyota, Vowst)</td></tr>
-            <tr><td><strong>Probiotics</strong></td><td>Live microorganisms that, when administered in adequate amounts, confer health benefit (FAO/WHO definition)</td><td>VSL#3 (8-strain mixture) in pouchitis (ileal pouch-anal anastomosis): prevents recurrence in ~85% vs. 0% placebo; L. rhamnosus GG: reduces antibiotic-associated diarrhoea (NNT ~7) and acute infectious diarrhoea duration in children; S. boulardii: reduces CDI recurrence</td><td>Strain-specific; many commercial products lack evidence; severe immunocompromise → risk of bacteraemia/fungaemia; most strains do not permanently colonise the gut</td></tr>
-            <tr><td><strong>Prebiotics</strong></td><td>Selectively fermented substrate that confers health benefit by modifying the microbiome (ISAPP definition)</td><td>Inulin/FOS (fructooligosaccharides): bifidogenic effect (↑Bifidobacterium ×3–5); galacto-oligosaccharides (GOS): infant microbiome modulation, allergy prevention; beta-glucan: LDL-cholesterol reduction (EFSA approved); pectin/resistant starch: butyrate stimulation</td><td>GI symptoms (bloating, flatulence) at higher doses; dose-response relationship must be optimised per individual microbiome baseline; effects attenuate after cessation</td></tr>
-            <tr><td><strong>Postbiotics</strong></td><td>Inanimate microorganisms and/or their components that confer health benefit (ISAPP 2021 consensus)</td><td>Pasteurised A. muciniphila: improved insulin sensitivity in overweight adults (Plovier et al. RCT); heat-killed L. paracasei: reduces eczema severity; urolithins (gut metabolites of ellagitannins, e.g., from pomegranate): mitophagy activation (Urolithin A clinical trials in muscle ageing)</td><td>Regulatory status varies by jurisdiction; mechanisms less well understood than live organisms; standardisation of manufacturing critical</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>gut-microbiome</td></tr>
+            <tr><td>Name</td><td>Gut Microbiome</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="large-intestine.html"><span class="rel">Resides in</span>Large Intestine</a>
-            <a class="conn-pill part" href="small-intestine.html"><span class="rel">Also in</span>Small Intestine</a>
-            <a class="conn-pill" href="pathogens.html"><span class="rel">Opposed by</span>Pathogen Gallery</a>
-            <a class="conn-pill" href="clostridioides-difficile.html"><span class="rel">Disrupted by</span>C. difficile</a>
-            <a class="conn-pill" href="akkermansia-muciniphila.html"><span class="rel">Includes</span>Akkermansia muciniphila</a>
-            <a class="conn-pill" href="faecalibacterium-prausnitzii.html"><span class="rel">Includes</span>F. prausnitzii</a>
-            <a class="conn-pill" href="bifidobacterium-longum.html"><span class="rel">Includes</span>Bifidobacterium</a>
-            <a class="conn-pill" href="lactobacillus-rhamnosus.html"><span class="rel">Includes</span>Lactobacillus rhamnosus</a>
-            <a class="conn-pill" href="regulatory-t-cell.html"><span class="rel">Induces</span>Regulatory T Cells</a>
-            <a class="conn-pill" href="secretory-iga.html"><span class="rel">Drives</span>Secretory IgA</a>
-            <a class="conn-pill" href="dietary-fiber.html"><span class="rel">Ferments</span>Dietary Fibre</a>
-            <a class="conn-pill" href="skin.html"><span class="rel">Communicates with</span>Skin Microbiome</a>
-            <a class="conn-pill" href="serotonin.html"><span class="rel">Regulates</span>Serotonin Axis</a>
+            <a class="conn-pill" href="immune-system.html" title="The gut microbiome is the primary educator of the mucosal and systemic immune system: drives IgA production, Treg induction, colonization resistance, and patterns innate immune responses; dysbiosis leads to immune dysregulation and susceptibility to inflammatory diseases."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill part" href="bacteroides-fragilis.html" title="Bacteroides fragilis (non-toxigenic strains) is a key Bacteroidetes member; polysaccharide A (PSA) drives Treg induction and IL-10 production; ETBF toxin disrupts epithelial barrier and promotes dysbiosis."><span class="rel">contains</span>Bacteroides Fragilis</a>
+            <a class="conn-pill part" href="akkermansia-muciniphila.html" title="Akkermansia muciniphila is a mucin-degrading Verrucomicrobia member of the gut microbiome associated with metabolic health; reduced in obesity and T2DM; its Amuc_1100 outer membrane protein activates TLR2, improving gut barrier integrity and insulin sensitivity."><span class="rel">contains</span>Akkermansia Muciniphila</a>
+            <a class="conn-pill" href="obesity.html" title="Dysbiosis in obesity — increased Firmicutes/Bacteroidetes, reduced Akkermansia muciniphila — increases energy harvest and drives metabolic endotoxemia (LPS → TLR4 → systemic inflammation); gut microbiome transfer from obese to germ-free mice transfers the adiposity phenotype."><span class="rel">connects-to</span>Obesity</a>
+            <a class="conn-pill" href="adiponectin.html" title="Microbiome dysbiosis → LPS → TLR4 → TNF-α/IL-6 → adiponectin suppression; butyrate-producing bacteria (Akkermansia, Bifidobacterium) → SCFA → PPARγ → ADIPOQ induction; probiotics and prebiotics modestly raise adiponectin in metabolic syndrome and obesity trials."><span class="rel">connects-to</span>Adiponectin</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Sender R, Fuchs S, Milo R. Revised estimates for the number of human and bacteria cells in the body. <em>Cell.</em> 2016;164(3):337–40. <a href="https://doi.org/10.1016/j.cell.2016.01.013" target="_blank" rel="noopener">doi:10.1016/j.cell.2016.01.013</a></li>
-            <li>Turnbaugh PJ, Ley RE, Mahowald MA, et al. An obesity-associated gut microbiome with increased capacity for energy harvest. <em>Nature.</em> 2006;444(7122):1027–31. <a href="https://doi.org/10.1038/nature05414" target="_blank" rel="noopener">doi:10.1038/nature05414</a></li>
-            <li>Atarashi K, Tanoue T, Oshima K, et al. Treg induction by a rationally selected mixture of Clostridia strains from the human microbiota. <em>Nature.</em> 2013;500(7461):232–6. <a href="https://doi.org/10.1038/nature12331" target="_blank" rel="noopener">doi:10.1038/nature12331</a></li>
-            <li>Corrêa-Oliveira R, Fachi JL, Vieira A, et al. Regulation of immune cell function by short-chain fatty acids. <em>Clin Transl Immunology.</em> 2016;5(4):e73. <a href="https://doi.org/10.1038/cti.2016.17" target="_blank" rel="noopener">doi:10.1038/cti.2016.17</a></li>
-            <li>Cryan JF, O'Riordan KJ, Cowan CSM, et al. The microbiota-gut-brain axis. <em>Physiol Rev.</em> 2019;99(4):1877–2013. <a href="https://doi.org/10.1152/physrev.00018.2018" target="_blank" rel="noopener">doi:10.1152/physrev.00018.2018</a></li>
-            <li>van Nood E, Vrieze A, Nieuwdorp M, et al. Duodenal infusion of donor feces for recurrent Clostridium difficile. <em>N Engl J Med.</em> 2013;368(5):407–15. <a href="https://doi.org/10.1056/NEJMoa1205037" target="_blank" rel="noopener">doi:10.1056/NEJMoa1205037</a></li>
-            <li>Plovier H, Everard A, Druart C, et al. A purified membrane protein from Akkermansia muciniphila or the pasteurized bacterium improves metabolism in obese and diabetic mice. <em>Nat Med.</em> 2017;23(1):107–13. <a href="https://doi.org/10.1038/nm.4236" target="_blank" rel="noopener">doi:10.1038/nm.4236</a></li>
-            <li>Qin J, Li R, Raes J, et al. A human gut microbial gene catalogue established by metagenomic sequencing. <em>Nature.</em> 2010;464(7285):59–65. <a href="https://doi.org/10.1038/nature08821" target="_blank" rel="noopener">doi:10.1038/nature08821</a></li>
+            <li><a href="https://doi.org/10.1016/j.cell.2016.01.013" target="_blank" rel="noopener noreferrer">Sender R, Fuchs S, Milo R. Revised Estimates for the Number of Human and Bacteria Cells in the Body. Cell. 2016;164(3):337-340.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26824647/" target="_blank" rel="noopener noreferrer">PubMed 26824647</a></li>
+            <li><a href="https://doi.org/10.1038/nature05414" target="_blank" rel="noopener noreferrer">Turnbaugh PJ, Ley RE, Mahowald MA, Magrini V, Mardis ER, Gordon JI. An obesity-associated gut microbiome with increased capacity for energy harvest. Nature. 2006;444(7122):1027-1031.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17183312/" target="_blank" rel="noopener noreferrer">PubMed 17183312</a></li>
           </ul>
         </div>
 
@@ -289,17 +185,13 @@
   <footer>
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
-      <a href="../index.html">Home</a>
-      <a href="../index.html#scales">Scales</a>
-      <a href="large-intestine.html">Large Intestine</a>
-      <a href="small-intestine.html">Small Intestine</a>
+      <a href="index.html">Home</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.4rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</em></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>

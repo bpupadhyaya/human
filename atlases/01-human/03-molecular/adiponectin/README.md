@@ -21,6 +21,12 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Low adiponectin predicts incident CAD, stroke, and heart failure; high adiponectin suppresses macrophage foam cell formation and eNOS uncoupling; obesity-induced adiponectin deficiency contributes to cardiovascular risk via impaired endothelial function and vascular inflammation."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Adiponectin is paradoxically low in obesity: TNF-α, IL-6, hypoxia, and ER stress in obese adipocytes suppress ADIPOQ and impair HMW assembly; low adiponectin → insulin resistance, NASH, and CVD; caloric restriction, exercise, and TZDs restore levels."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Gut dysbiosis → LPS → TLR4/TNF-α/IL-6 → adiponectin suppression in adipocytes; butyrate-producing bacteria (Akkermansia, Bifidobacterium) → SCFA → PPARγ → ADIPOQ transcription → adiponectin induction; prebiotics and probiotics raise adiponectin in metabolic syndrome trials."
 sources:
   - id: kadowaki-2005-adiponectin-review
     type: peer-reviewed
@@ -124,13 +130,15 @@ Adiponectin is a 244 amino acid (mature protein) glycoprotein with a collagen-li
 
 ## Connections
 
-Adiponectin deficiency impairs hepatic AMPK → reduced fatty acid oxidation → steatosis; adiponectin suppresses TNF-α and NF-κB in Kupffer cells → reduced hepatic inflammation; pioglitazone (PPARγ agonist) raises adiponectin, reduces NASH steatohepatitis, and slows fibrosis.
-
-Low adiponectin predicts T2D onset and correlates with insulin resistance; AdipoR1/AdipoR2 → AMPK → GLUT4 translocation in muscle; adiponectin suppresses hepatic gluconeogenesis via AMPK; pioglitazone raises adiponectin and improves insulin sensitivity.
-
-Adiponectin binds AdipoR1 and AdipoR2 → APPL1 scaffold protein → AMPK activation; AMPK → ACC phosphorylation → reduced fatty acid synthesis → increased fatty acid oxidation; this pathway mediates adiponectin's insulin-sensitizing and anti-steatotic effects.
-
-Low adiponectin predicts incident CAD, stroke, and heart failure; high adiponectin suppresses macrophage foam cell formation and eNOS uncoupling; obesity-induced adiponectin deficiency contributes to cardiovascular risk via impaired endothelial function and vascular inflammation.
+- `connects-to` → **[NASH](../../07-system/nash/README.md)** — Adiponectin deficiency impairs hepatic AMPK → reduced fatty acid oxidation → steatosis; adiponectin suppresses TNF-α and NF-κB in Kupffer cells → reduced hepatic inflammation; pioglitazone (PPARγ agonist) raises adiponectin, reduces NASH steatohepatitis, and slows fibrosis.
+- `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — Low adiponectin predicts T2D onset and correlates with insulin resistance; AdipoR1/AdipoR2 → AMPK → GLUT4 translocation in muscle; adiponectin suppresses hepatic gluconeogenesis via AMPK; pioglitazone raises adiponectin and improves insulin sensitivity.
+- `connects-to` → **[AMPK](../ampk/README.md)** — Adiponectin binds AdipoR1 and AdipoR2 → APPL1 scaffold protein → AMPK activation; AMPK → ACC phosphorylation → reduced fatty acid synthesis → increased fatty acid oxidation; this pathway mediates adiponectin's insulin-sensitizing and anti-steatotic effects.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — Low adiponectin predicts incident CAD, stroke, and heart failure; high adiponectin suppresses macrophage foam cell formation and eNOS uncoupling; obesity-induced adiponectin deficiency contributes to cardiovascular risk via impaired endothelial function and vascular inflammation.
+- `connects-to` → **[Obesity](../../07-system/obesity/README.md)** — Adiponectin is paradoxically low in obesity: TNF-α, IL-6, hypoxia, and ER stress in obese adipocytes suppress ADIPOQ and impair HMW assembly; low adiponectin → insulin resistance, NASH, and CVD; caloric restriction, exercise, and TZDs restore levels.
+- `connects-to` → **[Gut Microbiome](../../07-system/gut-microbiome/README.md)** — Gut dysbiosis → LPS → TLR4/TNF-α/IL-6 → adiponectin suppression in adipocytes; butyrate-producing bacteria (Akkermansia, Bifidobacterium) → SCFA → PPARγ → ADIPOQ transcription → adiponectin induction; prebiotics and probiotics raise adiponectin in metabolic syndrome trials.
 
 [^kadowaki-2005-adiponectin-review]: Kadowaki T, Yamauchi T. Adiponectin and adiponectin receptors. *Endocr Rev.* 2005;26(3):439-451. [doi:10.1210/er.2005-0005](https://doi.org/10.1210/er.2005-0005) · [PubMed 15897297](https://pubmed.ncbi.nlm.nih.gov/15897297/)
 [^scherer-1995-adiponectin-discovery]: Scherer PE, Williams S, Fogliano M, Baldini G, Lodish HF. A novel serum protein similar to C1q, produced exclusively in adipocytes. *J Biol Chem.* 1995;270(45):26746-26749. [doi:10.1074/jbc.270.45.26746](https://doi.org/10.1074/jbc.270.45.26746) · [PubMed 7592907](https://pubmed.ncbi.nlm.nih.gov/7592907/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
