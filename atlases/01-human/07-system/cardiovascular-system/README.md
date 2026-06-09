@@ -222,6 +222,9 @@ cross_links:
   - target: 01-human/03-molecular/connexin43
     relation: connects-to
     note: "Cx43 gap junctions at intercalated discs create the cardiac electrical syncytium; lateralization and downregulation in heart failure → slow conduction and re-entry → VT risk; ischemia acidosis closes channels (protective); reperfusion reopens → Ca²⁺ injury propagation."
+  - target: 01-human/03-molecular/phospholamban
+    relation: connects-to
+    note: "PLN is the molecular relay of sympathoadrenergic cardiac regulation: β1-AR → PKA → PLN-pSer16 → SERCA2a disinhibition → faster Ca²⁺ reuptake → lusitropy and inotropy; PLN hyperinhibition in HFrEF (reduced pSer16) is a core Ca²⁺ cycling defect; PLN Arg9Cys → familial DCM."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -372,6 +375,7 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — romosozumab (anti-sclerostin) ARCH trial: MACE increase vs. alendronate (2.5% vs. 1.9%) → FDA Black Box Warning (avoid within 12 months of MI/stroke); sclerostin in vascular smooth muscle may protect against vascular calcification; elevated sclerostin predicts CV events in dialysis patients.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SELECT trial (semaglutide 2.4 mg, obesity without T2DM): 20% MACE reduction vs placebo; SUSTAIN-6 and LEADER established GLP-1R agonists as antidiabetic drugs with proven CV benefit; GLP-1R on cardiomyocytes → anti-inflammatory and vasodilatory cardioprotective effects.
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — Cx43 gap junctions at intercalated discs create the cardiac electrical syncytium; lateralization and downregulation in heart failure → slow conduction and re-entry → VT risk; ischemia acidosis closes channels (protective); reperfusion reopens → Ca²⁺ injury propagation.
+- `connects-to` → **[Phospholamban](../../03-molecular/phospholamban/README.md)** — PLN is the molecular relay of sympathoadrenergic cardiac regulation: β1-AR → PKA → PLN-pSer16 → SERCA2a disinhibition → faster Ca²⁺ reuptake → lusitropy and inotropy; PLN hyperinhibition in HFrEF (reduced pSer16) is a core Ca²⁺ cycling defect; PLN Arg9Cys → familial DCM.
 
 ## Pathology
 

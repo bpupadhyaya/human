@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/03-molecular/beta1-adrenergic-receptor
     relation: modulated-by
     note: "β1-AR/PKA phosphorylates PLN at Ser16 (the dominant site in acute sympathetic stimulation), relieving SERCA2a inhibition → faster SR Ca²⁺ reuptake → faster relaxation and increased SR Ca²⁺ loading."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "PLN hyperinhibition of SERCA2a in HFrEF (reduced PKA/increased PP1 → low PLN-pSer16) → slow Ca²⁺ reuptake → impaired relaxation and reduced SR Ca²⁺ load; AAV1.SERCA2a gene therapy (CUPID trial) targeted this Ca²⁺ cycling defect; PLN Arg9Cys mutation causes familial DCM."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "PLN/SERCA2a is the molecular mechanism of cardiac lusitropy: dephospho-PLN tonically inhibits SERCA2a; β1-AR → PKA → PLN-pSer16 → SERCA2a disinhibition → faster Ca²⁺ reuptake → lusitropy + inotropy; PLN hyperinhibition in HFrEF (reduced pSer16) is a core Ca²⁺ cycling defect."
 taxonomy:
   uniprot: "P26678"
   gene_symbol: "PLN"
@@ -124,8 +130,10 @@ In transgenic mouse hearts where PLN is deleted, basal contractility is enhanced
 
 ## Connections
 
-- **Modulates** → [SERCA2a](serca2a/README.md): PLN is the direct physiological inhibitor of SERCA2a; the PLN–SERCA2a binary interaction is the primary molecular determinant of cardiac relaxation rate.
-- **Modulated-by** → [β1-adrenergic receptor](beta1-adrenergic-receptor/README.md): PKA downstream of β1-AR phosphorylates PLN Ser16, the dominant switch that relieves SERCA2a inhibition and produces sympathetic lusitropy.
+- `modulates` → **[SERCA2a](../serca2a/README.md)** — PLN is the direct physiological inhibitor of SERCA2a; the PLN–SERCA2a binary interaction is the primary molecular determinant of cardiac relaxation rate.
+- `modulated-by` → **[β1-Adrenergic Receptor](../beta1-adrenergic-receptor/README.md)** — PKA downstream of β1-AR phosphorylates PLN Ser16, the dominant switch that relieves SERCA2a inhibition and produces sympathetic lusitropy.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — PLN hyperinhibition of SERCA2a in HFrEF (reduced PKA/increased PP1 → low PLN-pSer16) → slow Ca²⁺ reuptake → impaired relaxation and reduced SR Ca²⁺ load; AAV1.SERCA2a gene therapy (CUPID trial) targeted this Ca²⁺ cycling defect; PLN Arg9Cys mutation causes familial DCM.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — PLN/SERCA2a is the molecular mechanism of cardiac lusitropy: dephospho-PLN tonically inhibits SERCA2a; β1-AR → PKA → PLN-pSer16 → SERCA2a disinhibition → faster Ca²⁺ reuptake → lusitropy + inotropy; PLN hyperinhibition in HFrEF (reduced pSer16) is a core Ca²⁺ cycling defect.
 
 ## Pathology
 
@@ -145,3 +153,6 @@ In transgenic mouse hearts where PLN is deleted, basal contractility is enhanced
 [^maclennan-2003-serca-pln]: MacLennan DH, Kranias EG. Phospholamban: a crucial regulator of cardiac contractility. *Nat Rev Mol Cell Biol.* 2003;4(7):566-77. [doi:10.1038/nrm1151](https://doi.org/10.1038/nrm1151) · [PubMed 12838339](https://pubmed.ncbi.nlm.nih.gov/12838339/)
 [^kranias-2007-pln-heart-failure]: Kranias EG, Bers DM. Calcium and cardiomyopathies. *Subcell Biochem.* 2007;45:523-37. [doi:10.1007/978-1-4020-6191-2_20](https://doi.org/10.1007/978-1-4020-6191-2_20) · [PubMed 18193649](https://pubmed.ncbi.nlm.nih.gov/18193649/)
 [^schmitt-2003-pln-mutation]: Schmitt JP, Kamisago M, Asahi M, et al. Dilated cardiomyopathy and heart failure caused by a mutation in phospholamban. *Science.* 2003;299(5611):1410-3. [doi:10.1126/science.1081578](https://doi.org/10.1126/science.1081578) · [PubMed 12610310](https://pubmed.ncbi.nlm.nih.gov/12610310/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
