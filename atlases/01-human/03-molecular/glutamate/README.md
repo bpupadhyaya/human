@@ -213,3 +213,6 @@ In ischemia, oxygen/glucose deprivation reverses ion gradients and drives massiv
 [^dingledine-1999-glutamate-receptors]: Dingledine R, Borges K, Bowie D, Traynelis SF. The glutamate receptor ion channels. *Pharmacol Rev.* 1999;51(1):7-61. [PubMed 10049997](https://pubmed.ncbi.nlm.nih.gov/10049997/)
 [^olney-1969-excitotoxicity]: Olney JW. Brain lesions, obesity, and other disturbances in mice treated with monosodium glutamate. *Science.* 1969;164(3880):719-721. [doi:10.1126/science.164.3880.719](https://doi.org/10.1126/science.164.3880.719) · [PubMed 5778021](https://pubmed.ncbi.nlm.nih.gov/5778021/)
 [^openstax-neurotransmitters]: OpenStax. *Anatomy and Physiology 2e.* Chapter 12. Rice University; 2022. [openstax.org](https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -43,6 +43,9 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "SAD features BLA hyperreactivity to social threat cues (angry/contemptuous faces); reduced amygdala habituation; reduced vmPFC-amygdala inhibition; striatal hypoactivation during social reward; CBT normalizes amygdala-vmPFC functional connectivity on fMRI."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Reduced OTR in BLA in SAD decreases OT-mediated social threat dampening; low OT tone associates with gaze avoidance and social approach deficits; intranasal OT (24 IU) enhances social salience and attention to eyes and is in Phase 2 trials as CBT augmentation for SAD."
 ---
 
 # Social Anxiety Disorder
@@ -177,6 +180,8 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[GABA](../../../03-molecular/gaba/README.md)** — benzodiazepines (clonazepam) are effective for SAD but dependency concerns limit use; GABAergic deficits in limbic circuits may impair amygdala threat dampening; pregabalin and gabapentin show evidence for SAD as alternative GABAergic treatments.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — SAD features BLA hyperreactivity to social threat cues and reduced amygdala habituation; striatal hypoactivation during social reward; reduced vmPFC-amygdala inhibition; CBT with behavioral experiments normalizes amygdala-vmPFC connectivity on task-based fMRI.
+
+- `connects-to` → **[Oxytocin](../../../03-molecular/oxytocin/README.md)** — reduced OTR expression in the BLA and CeA in SAD diminishes OT-mediated dampening of amygdala social threat responses; low endogenous OT associates with gaze avoidance, reduced eye contact, and social approach motivation deficits; intranasal OT (24 IU) enhances social salience, attention to eye regions, and reduces skin conductance to angry faces; in Phase 2 trials as CBT augmentation.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

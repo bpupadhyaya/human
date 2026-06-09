@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: modulates
     note: "Oxytocin secreted from PVN/SON modulates amygdala reactivity (reduces conditioned fear), facilitates social reward in mPFC, gates fear extinction, and shapes hypothalamic neuroendocrine outputs — explaining OT's role in social behavior and stress resilience."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Oxytocin reduces amygdala reactivity to social threat via OTR on CeA neurons; intranasal OT enhances gaze fixation on eyes and reduces skin conductance to angry faces in SAD; OT facilitates social approach motivation; intranasal OT is in trials as CBT augmentation for SAD."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Oxytocin reduces LC-NE hyperactivation and modulates CRH in the amygdala — both key panic disorder mechanisms; OTR on BLA neurons dampens fear circuit hyperreactivity; intranasal OT reduces anxiety and fear generalization; OT is being tested as augmentation of exposure therapy."
 ---
 
 # Oxytocin
@@ -152,6 +158,10 @@ Reduced OT signaling has been reported in ASD [^yamasue-2017-oxytocin-asd]:
 **→ [PTSD](../../07-system/ptsd/)**: oxytocin facilitates fear extinction in the amygdala via OTR on CeA neurons; chronic stress reduces OT signaling; intranasal OT is under investigation as an adjunct to exposure therapy to enhance extinction consolidation.
 
 **→ [Brain](../../06-organ/brain/)**: oxytocin from PVN/SON modulates amygdala fear reactivity, facilitates social reward in mPFC and nucleus accumbens, and gates hypothalamic stress responses — explaining OT's coordinating role in social behavior, pair bonding, and stress resilience.
+
+**→ [Social Anxiety Disorder](../../07-system/social-anxiety-disorder/)**: oxytocin reduces BLA and CeA reactivity to social threat stimuli via OTR; intranasal OT (24 IU) increases gaze time on eyes, enhances social salience, and reduces skin conductance responses to angry faces; low endogenous OT and reduced OXTR expression in amygdala are implicated in SAD pathophysiology; intranasal OT is in Phase 2 trials as CBT augmentation.
+
+**→ [Panic Disorder](../../07-system/panic-disorder/)**: OTR on BLA and CeA neurons dampens fear circuit hyperreactivity and CRH-driven arousal that underlies panic; oxytocin modulates LC-NE excitability, reducing spontaneous high-frequency LC firing associated with panic; intranasal OT reduces fear generalization and anticipatory anxiety; OT augmentation of interoceptive exposure therapy is an active research avenue.
 
 [^du-vigneaud-1954-oxytocin-synthesis]: du Vigneaud V, Ressler C, Swan JM, Roberts CW, Katsoyannis PG, Gordon S. The synthesis of an octapeptide amide with the hormonal activity of oxytocin. *J Am Chem Soc.* 1953;75(19):4879-4880. [doi:10.1021/ja01115a033](https://doi.org/10.1021/ja01115a033) · [PubMed 13100192](https://pubmed.ncbi.nlm.nih.gov/13100192/)
 [^insel-2001-attachment-neurobiology]: Insel TR, Young LJ. The neurobiology of attachment. *Nat Rev Neurosci.* 2001;2(2):129-136. [doi:10.1038/35053579](https://doi.org/10.1038/35053579) · [PubMed 11252992](https://pubmed.ncbi.nlm.nih.gov/11252992/)

@@ -134,15 +134,8 @@ Selective degeneration of nucleus basalis of Meynert cholinergic neurons → ↓
 ### Congenital Myasthenic Syndromes
 Genetic defects in ACh pathway components: CHT1 mutations (↓ choline uptake), ChAT mutations (↓ ACh synthesis, episodic apnoea), AChE deficiency (ColQ or COLQ mutations — SLUDGE-like hyperactivation at NMJ, paradoxically worsened by AChEi), nAChR subunit mutations (slow-channel, fast-channel syndromes).
 
-## See Also
-
-- [Neuron](../../04-cellular/neuron/README.md) — primary cell type using ACh as neurotransmitter
-- [SA Node Cell](../../04-cellular/sa-node-cell/README.md) — M2 mAChR-mediated heart-rate regulation
-- [Synapse](../../05-tissue/synapse/README.md) — structural context for ACh release and degradation
-- [Nervous System](../../07-system/nervous-system/README.md) — network-level cholinergic function
-- [Dopamine](../dopamine/README.md) — co-released at some terminals; interacts with cholinergic interneurons in striatum
-- [Serotonin](../serotonin/README.md) — parallel modulator of arousal and autonomic tone
-- [Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md) — used alongside atropine in bradyarrhythmias
-
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry*. 9th ed. W.H. Freeman; 2019.
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell*. 7th ed. W.W. Norton; 2022.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
