@@ -58,6 +58,9 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "TGF-β1 → periostin in hepatic stellate cells → integrin αvβ3 → FAK/PI3K → collagen I/III deposition → hepatic fibrosis in NASH; periostin correlates with fibrosis stage; periostin-null mice develop less hepatic fibrosis in NASH models; periostin marks activated stellate cells."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "EDA-FN is upregulated in NASH liver via TGF-β1 → activates integrin α4β7 and TLR4 on HSCs → myofibroblast differentiation → collagen I/III → hepatic fibrosis; serum EDA-FN correlates with NASH fibrosis stage; FN matrix stiffness amplifies TGF-β activation in fibrotic liver."
 ---
 
 # NASH
@@ -160,6 +163,7 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Hepatocyte lipotoxicity + DAMPs → Kupffer cell CCL2; elevated hepatic CCL2 → CCR2+ monocyte-derived macrophage recruitment → NLRP3 → IL-1β + TNF-α → stellate cell activation → fibrosis; cenicriviroc (CCR2/CCR5 dual antagonist) studied in CENTAUR/AURORA trials.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 from Kupffer cells and hepatic Tregs restrains NLRP3 inflammasome activation and stellate cell activation in NASH; IL-10 KO mice develop spontaneous steatohepatitis on high-fat diet; IL-10 deficiency correlates with fibrosis stage in human NASH biopsies.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — TGF-β1 → periostin in hepatic stellate cells → integrin αvβ3 → FAK/PI3K → collagen I/III deposition → hepatic fibrosis in NASH; periostin correlates with fibrosis stage; periostin-null mice develop less hepatic fibrosis in NASH models; periostin marks activated stellate cells.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — EDA-FN is upregulated in NASH liver via TGF-β1 → activates integrin α4β7 and TLR4 on HSCs → myofibroblast differentiation → collagen I/III → hepatic fibrosis; serum EDA-FN correlates with NASH fibrosis stage; FN matrix stiffness amplifies TGF-β activation in fibrotic liver.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

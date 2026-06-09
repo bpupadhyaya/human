@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/braf
     relation: connects-to
     note: "BRAF V600E mutations (~8-10% of CRC) confer poor prognosis and EGFR inhibitor resistance; BEACON CRC: encorafenib + cetuximab → OS 9.3 vs. 5.9 months vs. control in BRAF V600E mCRC; BRAF V600E CRC is enriched in MSI-H tumors and right-sided cancers."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "FN-integrin α5β1/αvβ3 signaling drives EMT in CRC → vimentin, N-cadherin, MMP production → invasion and liver metastasis; EDB-FN is overexpressed in CRC stroma; tumor FN correlates with lymph node metastasis and worse prognosis in stage II-III CRC."
 ---
 
 # Colorectal Cancer
@@ -163,6 +166,11 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — APC loss is the founding mutation in >80% of sporadic CRC → destruction complex collapse → beta-catenin nuclear accumulation → MYC, cyclin D1 → hyperproliferation; germline APC mutation causes FAP → obligate CRC without colectomy.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR is overexpressed in >80% of CRC; cetuximab and panitumumab improve OS in RAS-wild-type mCRC (CRYSTAL: cetuximab + FOLFIRI, PFS 9.9 vs. 8.4 months); RAS/RAF-wild-type status required for EGFR inhibitor benefit; left-sided primary strongly predicts EGFR inhibitor response.
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E mutations (~8-10% of CRC) confer poor prognosis and EGFR inhibitor resistance; BEACON CRC: encorafenib + cetuximab → OS 9.3 vs. 5.9 months in BRAF V600E mCRC; single-agent BRAF inhibition is ineffective in CRC due to EGFR-driven feedback reactivation.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — FN-integrin α5β1/αvβ3 signaling drives EMT in CRC → vimentin, N-cadherin, MMP production → invasion and liver metastasis; EDB-FN is overexpressed in CRC stroma; tumor FN correlates with lymph node metastasis and worse prognosis in stage II-III CRC.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^siegel-2024-crc-statistics]: Siegel RL, Giaquinto AN, Jemal A. Cancer statistics, 2024. *CA Cancer J Clin.* 2024;74(1):12-49. [doi:10.3322/caac.21820](https://doi.org/10.3322/caac.21820) · [PubMed 38230766](https://pubmed.ncbi.nlm.nih.gov/38230766/)
 [^van-cutsem-2011-crystal-cetuximab]: Van Cutsem E, Köhne CH, Láng I, et al. Cetuximab plus irinotecan, fluorouracil, and leucovorin as first-line treatment for metastatic colorectal cancer: updated analysis according to tumor KRAS and BRAF mutation status. *J Clin Oncol.* 2011;29(15):2011-2019. [doi:10.1200/JCO.2010.33.5091](https://doi.org/10.1200/JCO.2010.33.5091) · [PubMed 21502544](https://pubmed.ncbi.nlm.nih.gov/21502544/)

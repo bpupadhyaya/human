@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/07-system/familial-hypercholesterolemia
     relation: connects-to
     note: "FH accelerates atherosclerosis; HeFH untreated: 20× higher CVD risk; coronary atherosclerosis, tendon xanthomas, and xanthelasma are hallmarks; cumulative LDL-C burden predicts events; early statin initiation reduces atherosclerotic events in HeFH."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "FN accumulates in the arterial intima early in atherosclerosis; EDA-FN activates TLR4 on SMCs and macrophages → NF-κB → inflammation; FN-integrin α5β1 promotes SMC migration from media to intima; plaque FN cross-links collagen → fibrous cap stability; plasma FN falls in acute MI."
 ---
 
 # Atherosclerosis
@@ -173,6 +176,11 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — PCSK9 inhibitors (evolocumab, alirocumab) reduce LDL-C by 50-60% add-on to statins; FOURIER trial (evolocumab): 15% RRR in MACE at ~26 months; ODYSSEY OUTCOMES (alirocumab): 15% RRR with mortality reduction; PCSK9 inhibition is standard-of-care for high-risk atherosclerotic CVD.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 from endothelium/macrophages → CCR2 on monocytes → subendothelial monocyte recruitment → foam cell formation → atherosclerotic plaque; CCL2/CCR2 knockout reduces plaque 40-60% in ApoE-/- mice; serum CCL2 correlates with MACE risk in MRFIT and EPIC-Norfolk cohorts.
 - `connects-to` → **[Familial Hypercholesterolemia](../familial-hypercholesterolemia/README.md)** — FH accelerates atherosclerosis; HeFH untreated: 20× higher CVD risk; coronary atherosclerosis, tendon xanthomas, and xanthelasma are hallmarks; cumulative LDL-C burden predicts events; early statin initiation reduces atherosclerotic events in HeFH.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — FN accumulates in the arterial intima early in atherosclerosis; EDA-FN activates TLR4 on SMCs and macrophages → NF-κB → inflammation; FN-integrin α5β1 promotes SMC migration from media to intima; plaque FN cross-links collagen → fibrous cap stability; plasma FN falls in acute MI.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^ross-1999-atherosclerosis-review]: Ross R. Atherosclerosis — an inflammatory disease. *N Engl J Med.* 1999;340(2):115-126. [doi:10.1056/NEJM199901143400207](https://doi.org/10.1056/NEJM199901143400207) · [PubMed 9887164](https://pubmed.ncbi.nlm.nih.gov/9887164/)
 [^ridker-2017-cantos]: Ridker PM, Everett BM, Thuren T, et al. Antiinflammatory Therapy with Canakinumab for Atherosclerotic Disease. *N Engl J Med.* 2017;377(12):1119-1131. [doi:10.1056/NEJMoa1707914](https://doi.org/10.1056/NEJMoa1707914) · [PubMed 28845751](https://pubmed.ncbi.nlm.nih.gov/28845751/)

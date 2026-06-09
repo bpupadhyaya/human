@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β → ↑fibronectin transcription (FN1 promoter Smad binding site) and ↑EDA-FN splice isoform in activated fibroblasts; EDA-FN binds TLR4 and integrin α4β7 → amplifies TGF-β-driven fibrogenesis; FN matrix stiffness → mechano-sensing → ↑TGF-β activation → progressive fibrosis."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "FN accumulates in the arterial intima early in atherosclerosis; EDA-FN activates TLR4 on SMCs and macrophages → NF-κB → inflammation; FN-integrin α5β1 promotes SMC migration from media to intima; plaque FN cross-links collagen → fibrous cap stability; plasma FN falls in acute MI."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "FN-integrin α5β1/αvβ3 signaling drives EMT in CRC → vimentin, N-cadherin, MMP production → invasion and liver metastasis; EDB-FN is overexpressed in CRC stroma; tumor FN correlates with lymph node metastasis and worse prognosis in stage II-III CRC."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "EDA-FN is upregulated in NASH liver via TGF-β1 → activates integrin α4β7 and TLR4 on HSCs → myofibroblast differentiation → collagen I/III → hepatic fibrosis; serum EDA-FN correlates with NASH fibrosis stage; FN matrix stiffness amplifies TGF-β activation in fibrotic liver."
 ---
 
 # Fibronectin
@@ -131,6 +140,13 @@ FN fibrillogenesis requires integrin α5β1 engagement:
 - `connects-to` → **[Wound Healing](../../07-system/wound-healing/README.md)** — Plasma FN is cross-linked into fibrin clots → provisional scaffold for platelets, neutrophils, and fibroblasts; cellular FN from fibroblasts drives granulation tissue; FN-integrin α5β1 → fibroblast migration and myofibroblast differentiation → wound contraction and closure.
 - `modulates` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Fibronectin is a major component of the subendothelial basement membrane; endothelial cells secrete FN and adhere to it via integrin α5β1 and αvβ3; FN → endothelial cell migration and tube formation in angiogenesis; plasma FN supports endothelial barrier function.
 - `connects-to` → **[TGF-β](../tgf-beta/README.md)** — TGF-β → ↑fibronectin transcription (FN1 promoter Smad binding site) and ↑EDA-FN splice isoform in activated fibroblasts; EDA-FN binds TLR4 and integrin α4β7 → amplifies TGF-β-driven fibrogenesis; FN matrix stiffness → mechano-sensing → ↑TGF-β activation → progressive fibrosis.
+- `connects-to` → **[Atherosclerosis](../../07-system/atherosclerosis/README.md)** — FN accumulates in the arterial intima early in atherosclerosis; EDA-FN activates TLR4 on SMCs and macrophages → NF-κB → inflammation; FN-integrin α5β1 promotes SMC migration from media to intima; plaque FN cross-links collagen → fibrous cap stability; plasma FN falls in acute MI.
+- `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — FN-integrin α5β1/αvβ3 signaling drives EMT in CRC → vimentin, N-cadherin, MMP production → invasion and liver metastasis; EDB-FN is overexpressed in CRC stroma; tumor FN correlates with lymph node metastasis and worse prognosis in stage II-III CRC.
+- `connects-to` → **[NASH](../../07-system/nash/README.md)** — EDA-FN is upregulated in NASH liver via TGF-β1 → activates integrin α4β7 and TLR4 on HSCs → myofibroblast differentiation → collagen I/III → hepatic fibrosis; serum EDA-FN correlates with NASH fibrosis stage; FN matrix stiffness amplifies TGF-β activation in fibrotic liver.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^hynes-2002-fibronectins]: Hynes RO. Integrins: bidirectional, allosteric signaling machines. *Science.* 2002;298(5601):2133-2137. [doi:10.1126/science.1069806](https://doi.org/10.1126/science.1069806) · [PubMed 12481136](https://pubmed.ncbi.nlm.nih.gov/12481136/)
 [^pankov-2002-fibronectin-review]: Pankov R, Yamada KM. Fibronectin at a glance. *J Cell Sci.* 2002;115(Pt 20):3861-3863. [doi:10.1242/jcs.00059](https://doi.org/10.1242/jcs.00059) · [PubMed 12244122](https://pubmed.ncbi.nlm.nih.gov/12244122/)
