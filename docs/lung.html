@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Lung — paired gas-exchange organs: 500 million alveoli, 70 m² surface area, 23-generation airway tree. Scale 06 of the Human Atlas. Part of the Human Engineering project.">
+  <meta name="description" content="Paired gas-exchange organs: right (3 lobes) and left (2 lobes). Branching airways (23 generations, Weibel) connect trachea to ~300 million alveoli (70 m² surfac">
   <meta property="og:title" content="Lung — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Lung — Human Engineering</title>
@@ -18,83 +18,78 @@
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(2,132,199,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0284c7, #0c4a6e); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
-
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
-
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -113,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -125,936 +119,88 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Host Biology &middot; Scale 06 &mdash; Organ</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
     <h1>Lung</h1>
-    <p class="tagline">Paired organs of pulmonary gas exchange — the anatomical interface at which atmospheric oxygen loads into haemoglobin and CO₂ produced by cellular metabolism unloads into expired air.</p>
-    <p class="subtagline">23 generations of branching airways (Weibel model) from trachea to alveolar sacs. Dual blood supply: pulmonary circulation for gas exchange, bronchial circulation for airway nutrition.</p>
+    <p class="tagline">Paired gas-exchange organs: right (3 lobes) and left (2 lobes). Branching airways (23 generations, Weibel) connect trachea to ~300 million alveoli (70 m² surface). Dual circulation: pulmonary + bronchial. TLC ~6 L; tidal volume ~0.5 L at rest.</p>
+    <p class="aliases">Also known as: lungs, pulmo, pulmones</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~500 million</span><span class="stat-label">Alveoli</span></div>
-      <div class="stat"><span class="stat-num">~70 m²</span><span class="stat-label">Surface Area</span></div>
-      <div class="stat"><span class="stat-num">0.5 L</span><span class="stat-label">Tidal Volume</span></div>
-      <div class="stat"><span class="stat-num">16–20</span><span class="stat-label">Breaths / min</span></div>
+        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">UBERON:0002048 &middot; FMA:7195 &middot; Atlas One / Scale 06</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">lung</div>
         <h2>Lung</h2>
-        <p class="summary">Paired gas-exchange organs: right (3 lobes) and left (2 lobes). Branching airways (23 generations, Weibel) connect trachea to ~300–500 million alveoli providing ~70 m² of surface area. Dual circulation: pulmonary (gas exchange) + bronchial (airway nutrition). TLC ~6 L; tidal volume ~0.5 L at rest. Primary target of respiratory pathogens including SARS-CoV-2 and influenza A.</p>
+        <p class="summary">Paired gas-exchange organs: right (3 lobes) and left (2 lobes). Branching airways (23 generations, Weibel) connect trachea to ~300 million alveoli (70 m² surface). Dual circulation: pulmonary + bronchial. TLC ~6 L; tidal volume ~0.5 L at rest.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The lungs are the <strong>paired organs of pulmonary gas exchange</strong> — the anatomical interface at which atmospheric oxygen loads into haemoglobin in erythrocytes and CO₂ produced by cellular metabolism unloads into expired air. Situated in the thoracic cavity on either side of the heart, they are enclosed by the pleural membranes and their mechanics are intimately coupled to the chest wall and diaphragm.</p>
-          <p>The <strong>right lung</strong> (3 lobes: upper, middle, lower) comprises approximately 57% of total lung volume; the <strong>left lung</strong> (2 lobes: upper, lower) is smaller to accommodate the leftward displacement of the heart. Together they contain 23 generations of branching airways, ~300–500 million alveoli providing ~70 m² of gas-exchange surface, and approximately 1,500 km of airways including bronchioles.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Lobes and Bronchopulmonary Segments</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Lung</th><th>Lobes</th><th>Bronchopulmonary segments</th><th>Notes</th></tr>
-            <tr><td>Right</td><td>3: upper, middle, lower</td><td>10</td><td>Larger (~57% total volume); oblique + horizontal fissures</td></tr>
-            <tr><td>Left</td><td>2: upper (with lingula), lower</td><td>8–9</td><td>Cardiac notch and lingula where right middle lobe would be</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>lung</td></tr>
+            <tr><td>Name</td><td>Lung</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>06-organ</td></tr>
+            <tr><td>Uberon</td><td>UBERON:0002048</td></tr>
+            <tr><td>Fma</td><td>FMA:7195</td></tr>
           </table>
-          <p style="margin-top:0.75rem;"><strong>Bronchopulmonary segments</strong> are the functional surgical units — each supplied by its own segmental bronchus and pulmonary artery branch, making them independently resectable. This is the basis for segmentectomy in early-stage lung cancer.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Airway Tree — Weibel's 23 Generations</h3>
-          <table class="data-table">
-            <tr><th>Generation</th><th>Structure</th><th>Number (approx.)</th><th>Diameter (approx.)</th></tr>
-            <tr><td>0</td><td>Trachea</td><td>1</td><td>~18 mm</td></tr>
-            <tr><td>1–4</td><td>Main, lobar, segmental bronchi</td><td>2–16</td><td>12–4 mm</td></tr>
-            <tr><td>5–14</td><td>Small bronchi / bronchioles</td><td>32–16,384</td><td>3–1 mm</td></tr>
-            <tr><td>15–16</td><td>Terminal bronchioles</td><td>~65,536</td><td>~0.5–0.6 mm</td></tr>
-            <tr><td>17–19</td><td>Respiratory bronchioles</td><td>~500,000</td><td>~0.4 mm</td></tr>
-            <tr><td>20–22</td><td>Alveolar ducts</td><td>~8 million</td><td>~0.4 mm</td></tr>
-            <tr><td>23</td><td>Alveolar sacs</td><td>~300–500 million openings</td><td>—</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;"><strong>Conducting zone</strong> (generations 0–16): dead space, no gas exchange — ~150 mL total volume. This is the anatomical dead space that must be overcome with each breath. <strong>Respiratory zone</strong> (generations 17–23): gas exchange — ~2,500–3,000 mL at FRC (functional residual capacity).</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Alveolar Units — Surfactant and Pneumocytes</h3>
-          <p>Each alveolus is a ~0.2 mm air sac lined by two principal cell types:</p>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Type I pneumocytes (AT1)</h4>
-              <p>Flat, squamous cells covering ~95% of alveolar surface area. The gas-exchange cell: O₂ and CO₂ diffuse across the ultrathin (<0.3 µm) AT1 cell and basement membrane into pulmonary capillary blood. Cannot proliferate — injury requires AT2 transdifferentiation.</p>
-            </div>
-            <div class="info-block">
-              <h4>Type II pneumocytes (AT2)</h4>
-              <p>Cuboidal cells covering ~5% of surface area. Produce <strong>surfactant</strong> (dipalmitoylphosphatidylcholine, DPPC + proteins SP-A, SP-B, SP-C, SP-D) — reduces alveolar surface tension, prevents collapse at end-expiration. Also the alveolar stem cell: proliferates and transdifferentiates to AT1 after injury.</p>
-            </div>
-          </div>
-          <p style="margin-top:0.75rem;"><strong>Surfactant deficiency</strong> in preterm infants (&lt;28 weeks, before AT2 maturation) → infant respiratory distress syndrome (IRDS/RDS). Treatment: exogenous surfactant instillation + positive-pressure ventilation. Antenatal corticosteroids accelerate AT2 maturation. In adults, AT2 dysfunction and surfactant loss contribute to ARDS pathophysiology.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pleura and Vascular Anatomy</h3>
-          <p>Each lung is enclosed in visceral and parietal pleura with a fluid-filled potential space (~5–20 mL at normal pressure ~−5 cmH₂O). This <strong>negative intrapleural pressure</strong> holds the lung "open" — the inward elastic recoil of the lung is balanced by the outward recoil of the chest wall at FRC. Loss of negative pressure (pneumothorax: air enters pleural space) → lung collapses toward its natural recoil state.</p>
-          <table class="data-table">
-            <tr><th>Circuit</th><th>Function</th><th>Pressure</th></tr>
-            <tr><td>Pulmonary arteries</td><td>Deoxygenated blood from RV to alveolar capillaries</td><td>Systolic ~25 mmHg; mean ~15 mmHg</td></tr>
-            <tr><td>Pulmonary capillaries</td><td>Gas exchange at alveolar wall; transit time ~0.75 s at rest</td><td>~8–10 mmHg</td></tr>
-            <tr><td>Pulmonary veins</td><td>Oxygenated blood to left atrium</td><td>~5–8 mmHg</td></tr>
-            <tr><td>Bronchial arteries (from aorta)</td><td>Nutrition of bronchial walls to generation ~14–16</td><td>~100 mmHg (systemic)</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Gas Exchange Mechanics</h3>
-          <p>Tidal breathing at rest: ~0.5 L tidal volume, 16–20 breaths/min = ~6–8 L/min minute ventilation. <strong>Alveolar ventilation</strong> subtracts the dead space:</p>
-          <div class="formula-block">
-            V&#775;A = f &times; (VT &minus; VD) = 16 &times; (500 &minus; 150) = 5,600 mL/min
-            <div class="formula-note">f = respiratory rate (breaths/min), VT = tidal volume, VD = dead space (~150 mL at rest)</div>
-          </div>
-          <p>Gas exchange follows <strong>Fick's law</strong> — flux is proportional to surface area × diffusion coefficient / membrane thickness. The diffusing capacity of the lung for CO (DLCO) is a clinical measure of the gas-exchange surface area × diffusivity product:</p>
-          <div class="formula-block">
-            DLCO = V&#775;CO / (PACO &minus; PcCO)
-            <div class="formula-note">Falls in emphysema (lost surface area) and pulmonary fibrosis (thickened membrane)</div>
-          </div>
-          <p>At the alveolar-capillary interface: O₂ diffuses from alveolar air (PAO₂ ~100 mmHg) into pulmonary capillary blood (PvO₂ ~40 mmHg); CO₂ diffuses in the opposite direction (PvCO₂ ~46 mmHg → PACO₂ ~40 mmHg). Equilibration is normally complete within ~0.25 s — less than one-third of the ~0.75 s capillary transit time at rest, leaving substantial diffusion reserve.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Key Lung Volumes</h3>
-          <table class="data-table">
-            <tr><th>Parameter</th><th>Volume (adult male)</th><th>Clinical significance</th></tr>
-            <tr><td>Total lung capacity (TLC)</td><td>~6.0 L</td><td>Reduced in restriction (fibrosis); normal or increased in obstruction</td></tr>
-            <tr><td>Functional residual capacity (FRC)</td><td>~2.5 L</td><td>Resting end-expiratory volume; maintained by negative intrapleural pressure</td></tr>
-            <tr><td>Residual volume (RV)</td><td>~1.2 L</td><td>Air that cannot be exhaled; increased in air trapping (emphysema)</td></tr>
-            <tr><td>Tidal volume (VT) at rest</td><td>~0.5 L</td><td>Each normal breath</td></tr>
-            <tr><td>Vital capacity (VC)</td><td>~4.8 L</td><td>TLC − RV; reduced in both obstruction and restriction</td></tr>
-            <tr><td>FEV₁/FVC ratio</td><td>≥0.70</td><td>&lt;0.70 → obstruction (COPD, asthma); both reduced proportionally → restriction</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Non-Respiratory Functions</h3>
-          <p>The lung is not purely a gas exchanger — it serves metabolic, filtration, and immune roles:</p>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Metabolic conversion</h4>
-              <p>Angiotensin-converting enzyme (ACE) on pulmonary endothelium converts angiotensin I → angiotensin II. The lung also degrades bradykinin, inactivates serotonin, and synthesizes prostaglandins.</p>
-            </div>
-            <div class="info-block">
-              <h4>Microemboli filtration</h4>
-              <p>The pulmonary microvasculature traps small venous emboli, preventing systemic embolization to the brain and kidneys. Patent foramen ovale bypasses this filter — source of paradoxical embolism.</p>
-            </div>
-            <div class="info-block">
-              <h4>Immune surveillance</h4>
-              <p>Alveolar macrophages (the primary phagocyte of the alveolus), dendritic cells, and mucosa-associated lymphoid tissue (MALT) in airways provide continuous surveillance against inhaled pathogens and particles.</p>
-            </div>
-            <div class="info-block">
-              <h4>Mucociliary clearance</h4>
-              <p>Pseudostratified ciliated epithelium + goblet cell mucus in conducting airways form the mucociliary escalator — clearing particles and microorganisms continuously upward to the pharynx. Impaired in CF, primary ciliary dyskinesia, chronic bronchitis.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>COPD / Emphysema</h4>
-            <p>Proteolytic destruction of alveolar walls by neutrophil and macrophage elastase (triggered by cigarette smoke → oxidative stress → NF-κB → protease-antiprotease imbalance) → loss of alveolar surface area → ↓DLCO → airflow obstruction from loss of elastic recoil + mucus hypersecretion (chronic bronchitis component). Spirometry: FEV₁/FVC &lt;0.70; air trapping → ↑RV, ↑TLC. 3.2 million deaths/year (WHO).</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Asthma</h4>
-            <p>Eosinophilic airway inflammation + mast cell activation → bronchospasm + mucus hypersecretion → reversible airflow obstruction. Triggers: allergens, exercise, cold air, viral infections, NSAIDs. Spirometry: variable FEV₁/FVC reduction that reverses with bronchodilator (&gt;12% improvement). Lung parenchyma typically preserved. Treatment: ICS + β2-agonists; biologics (anti-IL-5, anti-IL-4Rα) for severe eosinophilic asthma.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Pneumonia</h4>
-            <p>Infection-induced alveolar consolidation (exudate filling air sacs → ↓ventilation while perfusion maintained → V/Q mismatch → hypoxemia). Bacterial: <em>Streptococcus pneumoniae</em> most common community-acquired; <em>Staphylococcus aureus</em> in post-influenza. Viral: COVID-19 bilateral interstitial pneumonia; influenza primary viral pneumonia. Atypical: <em>Mycoplasma pneumoniae</em>, <em>Legionella</em>, <em>Chlamydophila</em>.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>ARDS (Acute Respiratory Distress Syndrome)</h4>
-            <p>Diffuse alveolar damage → alveolar flooding with protein-rich exudate (hyaline membranes) + destruction of AT1/AT2 cells → severe bilateral hypoxemia. Defined by: Berlin criteria PaO₂/FiO₂ &lt;300, bilateral infiltrates, non-cardiogenic. Triggers: pneumonia (including COVID-19), sepsis, aspiration, trauma. Mortality 30–50% in severe ARDS. Treatment: lung-protective ventilation (6 mL/kg IBW, plateau P &lt;30 cmH₂O), prone positioning, conservative fluid strategy.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Lung Cancer</h4>
-            <p>Leading cause of cancer death worldwide (~1.8 million deaths/year). <strong>Non-small cell</strong> (~85%): adenocarcinoma (peripheral, EGFR/KRAS mutations, non-smokers included), squamous cell carcinoma (central, smoking-related), large cell. <strong>Small cell</strong> (~15%): highly aggressive, rapid growth, early metastasis, neuroendocrine origin, paraneoplastic syndromes. Smoking: attributable risk ~85%. Targeted therapies for EGFR, ALK, ROS1, BRAF mutations revolutionized advanced NSCLC.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Idiopathic Pulmonary Fibrosis (IPF)</h4>
-            <p>Progressive fibrotic replacement of alveoli (UIP pattern: honeycombing + traction bronchiectasis on HRCT) → restriction (↓TLC, ↓FVC) → impaired DLCO → progressive hypoxemia → respiratory failure. Median survival 3–5 years. No disease-modifying therapy except anti-fibrotics (nintedanib, pirfenidone — slow progression) and lung transplantation.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="respiratory-system.html"><span class="rel">Part of</span>Respiratory System</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Coupled to</span>Cardiovascular System</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Type II Pneumocyte (Scale 04)</a>
-            <a class="conn-pill damaged" href="pathogens.html#influenza-a"><span class="rel">Damaged by</span>Influenza A</a>
-            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2</a>
+            <a class="conn-pill part" href="alveolus.html" title="~300 million alveoli constitute the gas-exchange parenchyma of the lung, providing ~70 m² of surface area for O₂–CO₂ exchange."><span class="rel">contains</span>Alveolus</a>
+            <a class="conn-pill part" href="type-ii-pneumocyte.html" title="AT2 cells throughout the alveolar surface produce surfactant and repair the alveolar epithelium; they are distributed across both lungs."><span class="rel">contains</span>Type Ii Pneumocyte</a>
+            <a class="conn-pill part" href="respiratory-system.html" title="The lungs are the principal gas-exchange organs of the respiratory system; they house the alveoli and receive ventilation from the conducting airways."><span class="rel">part-of</span>Respiratory System</a>
+            <a class="conn-pill damaged" href="sars-cov-2.html" title="SARS-CoV-2 causes diffuse alveolar damage and acute respiratory distress syndrome (ARDS); severe COVID-19 pneumonia destroys alveolar epithelium and produces bilateral lung infiltrates."><span class="rel">damaged-by</span>Sars Cov 2</a>
+            <a class="conn-pill damaged" href="influenza-a.html" title="Influenza A virus causes primary viral pneumonitis targeting AT1 and AT2 cells, leading to alveolar damage, haemorrhage, and secondary bacterial pneumonia."><span class="rel">damaged-by</span>Influenza A</a>
+            <a class="conn-pill damaged" href="mycobacterium-tuberculosis.html" title="Pulmonary tuberculosis causes caseating granulomas, cavitation, and progressive parenchymal destruction within the lung; upper lobe predominance reflects higher O₂ tension."><span class="rel">damaged-by</span>Mycobacterium Tuberculosis</a>
+            <a class="conn-pill" href="streptococcus-pneumoniae.html" title="S. pneumoniae is the most common cause of community-acquired bacterial pneumonia; aspiration of colonized nasopharyngeal secretions seeds alveolar spaces, causing lobar consolidation, fibrinous exudate, and impaired gas exchange."><span class="rel">infected-by</span>Streptococcus Pneumoniae</a>
+            <a class="conn-pill damaged" href="varicella-zoster-virus.html" title="Damaged by Varicella-Zoster Virus."><span class="rel">damaged-by</span>Varicella Zoster Virus</a>
+            <a class="conn-pill damaged" href="respiratory-syncytial-virus.html" title="Damaged by Respiratory Syncytial Virus."><span class="rel">damaged-by</span>Respiratory Syncytial Virus</a>
+            <a class="conn-pill damaged" href="measles-virus.html" title="Damaged by Measles Virus."><span class="rel">damaged-by</span>Measles Virus</a>
+            <a class="conn-pill damaged" href="pneumocystis-jirovecii.html" title="Damaged by Pneumocystis jirovecii (formerly carinii)."><span class="rel">damaged-by</span>Pneumocystis Jirovecii</a>
+            <a class="conn-pill" href="pulmonary-arterial-hypertension.html" title="PAH obliterates pulmonary arterioles (&lt;500 µm) via medial hypertrophy, intimal fibrosis, and plexiform lesions → RV pressure overload → cor pulmonale; RHC required for diagnosis; mPAP &gt;20 mmHg + PVR ≥2 WU + PAWP ≤15 mmHg."><span class="rel">connects-to</span>Pulmonary Arterial Hypertension</a>
+            <a class="conn-pill" href="periostin.html" title="Periostin drives fibrotic remodeling in chronic lung disease: TGF-β + IL-13 → POSTN in lung fibroblasts → collagen matrix assembly → subepithelial fibrosis; serum periostin correlates with lung function decline in asthma and IPF; marks remodeling distinct from acute inflammation."><span class="rel">connects-to</span>Periostin</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>West JB, Luks AM. <em>West's Respiratory Physiology: The Essentials.</em> 10th ed. Wolters Kluwer; 2016. <a href="https://www.lww.com/Product/9781496310118" target="_blank" rel="noopener">lww.com</a></li>
-            <li>Weibel ER. <em>Morphometry of the Human Lung.</em> Academic Press; 1963. <a href="https://doi.org/10.1007/978-3-642-87553-3" target="_blank" rel="noopener">doi:10.1007/978-3-642-87553-3</a></li>
-            <li>Crapo JD, Barry BE, Gehr P, Bachofen M, Weibel ER. Cell number and cell characteristics of the normal human lung. <em>Am Rev Respir Dis.</em> 1982;125(6):740-5. <a href="https://doi.org/10.1164/arrd.1982.125.6.740" target="_blank" rel="noopener">doi:10.1164/arrd.1982.125.6.740</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/7044530/" target="_blank" rel="noopener">PubMed 7044530</a></li>
-            <li>National Heart, Lung, and Blood Institute (NHLBI). How the Lungs Work. U.S. Department of Health and Human Services. <a href="https://www.nhlbi.nih.gov/health/lungs" target="_blank" rel="noopener">nhlbi.nih.gov</a></li>
+            <li><a href="https://www.lww.com/Product/9781496310118" target="_blank" rel="noopener noreferrer">West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10th ed. Wolters Kluwer; 2016. ISBN 978-1-4963-1011-1.</a></li>
+            <li><a href="https://doi.org/10.1007/978-3-642-87553-3" target="_blank" rel="noopener noreferrer">Weibel ER. Morphometry of the Human Lung. Academic Press; 1963. [Springer reprint: doi:10.1007/978-3-642-87553-3]</a></li>
+            <li><a href="https://www.nhlbi.nih.gov/health/lungs" target="_blank" rel="noopener noreferrer">National Heart, Lung, and Blood Institute (NHLBI). How the Lungs Work. U.S. Department of Health and Human Services.</a></li>
+            <li><a href="https://doi.org/10.1164/arrd.1982.125.6.740" target="_blank" rel="noopener noreferrer">Crapo JD, Barry BE, Gehr P, Bachofen M, Weibel ER. Cell number and cell characteristics of the normal human lung. Am Rev Respir Dis. 1982;125(6):740-5.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/7044530/" target="_blank" rel="noopener noreferrer">PubMed 7044530</a></li>
           </ul>
         </div>
 
       </div>
     </div>
-
-    <!-- ═══════════════════════════════════════════════════════════
-         RESPIRATORY MECHANICS SIMULATOR
-         ═══════════════════════════════════════════════════════════ -->
-    <div class="detail-card" id="sim-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Interactive Model &middot; Spirometry &amp; Lung Mechanics</div>
-        <h2>Respiratory Mechanics Simulator</h2>
-        <p class="summary">Explore tidal breathing waveforms and spirometric flow-volume loops across four clinical scenarios. Adjust respiratory rate, tidal volume, FEV₁%, and compliance to see real-time changes in minute ventilation, alveolar ventilation, and lung volume distributions.</p>
-      </div>
-
-      <div class="detail-body" style="gap:1.5rem;">
-
-        <!-- ─── Main 2-column layout ─── -->
-        <div style="display:grid;grid-template-columns:280px 1fr;gap:1.5rem;align-items:start;">
-
-          <!-- LEFT PANEL -->
-          <div style="display:flex;flex-direction:column;gap:1rem;">
-
-            <!-- Scenario buttons -->
-            <div>
-              <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.6rem;">Scenario</div>
-              <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.45rem;" id="sim-scenarios">
-                <button class="sim-scenario-btn sim-active" data-scenario="normal">Normal</button>
-                <button class="sim-scenario-btn" data-scenario="copd">COPD</button>
-                <button class="sim-scenario-btn" data-scenario="fibrosis">Fibrosis</button>
-                <button class="sim-scenario-btn" data-scenario="ards">ARDS</button>
-              </div>
-            </div>
-
-            <!-- Sliders -->
-            <div style="display:flex;flex-direction:column;gap:0.75rem;">
-
-              <div class="sim-slider-group">
-                <div class="sim-slider-label">
-                  <span>Resp. Rate</span>
-                  <span id="lbl-rr" class="sim-slider-val">14 bpm</span>
-                </div>
-                <input type="range" id="sl-rr" class="sim-slider" min="8" max="35" value="14" step="1">
-              </div>
-
-              <div class="sim-slider-group">
-                <div class="sim-slider-label">
-                  <span>Tidal Volume</span>
-                  <span id="lbl-vt" class="sim-slider-val">500 mL</span>
-                </div>
-                <input type="range" id="sl-vt" class="sim-slider" min="200" max="800" value="500" step="10">
-              </div>
-
-              <div class="sim-slider-group">
-                <div class="sim-slider-label">
-                  <span>FEV₁%</span>
-                  <span id="lbl-fev1pct" class="sim-slider-val">85%</span>
-                </div>
-                <input type="range" id="sl-fev1pct" class="sim-slider" min="25" max="100" value="85" step="1">
-              </div>
-
-              <div class="sim-slider-group">
-                <div class="sim-slider-label">
-                  <span>Compliance</span>
-                  <span id="lbl-comp" class="sim-slider-val">200 mL/cmH₂O</span>
-                </div>
-                <input type="range" id="sl-comp" class="sim-slider" min="20" max="300" value="200" step="5">
-              </div>
-
-            </div><!-- /sliders -->
-
-            <!-- Derived values -->
-            <div style="background:var(--bg);border-radius:var(--radius-sm);padding:0.9rem 1rem;">
-              <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.65rem;">Computed Values</div>
-              <table style="width:100%;border-collapse:collapse;font-size:0.82rem;">
-                <tr>
-                  <td style="color:var(--muted);padding:0.2rem 0;">Minute vent. (V&#775;E)</td>
-                  <td id="dv-ve" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
-                </tr>
-                <tr>
-                  <td style="color:var(--muted);padding:0.2rem 0;">Alveolar vent. (V&#775;A)</td>
-                  <td id="dv-va" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
-                </tr>
-                <tr>
-                  <td style="color:var(--muted);padding:0.2rem 0;">FVC</td>
-                  <td id="dv-fvc" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
-                </tr>
-                <tr>
-                  <td style="color:var(--muted);padding:0.2rem 0;">FEV₁</td>
-                  <td id="dv-fev1" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
-                </tr>
-                <tr>
-                  <td style="color:var(--muted);padding:0.2rem 0;">FEV₁/FVC</td>
-                  <td id="dv-ratio" style="text-align:right;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums;">—</td>
-                </tr>
-                <tr>
-                  <td style="color:var(--muted);padding:0.2rem 0;padding-top:0.45rem;border-top:1px solid var(--border-soft);">Pattern</td>
-                  <td id="dv-pattern" style="text-align:right;font-weight:700;padding-top:0.45rem;border-top:1px solid var(--border-soft);">—</td>
-                </tr>
-              </table>
-            </div>
-
-            <!-- FVC maneuver button -->
-            <button id="btn-fvc" style="padding:0.55rem 1rem;background:var(--accent);color:#fff;border:none;border-radius:var(--radius-sm);font-size:0.85rem;font-weight:600;cursor:pointer;transition:opacity .15s;">Run FVC Maneuver</button>
-
-          </div><!-- /left panel -->
-
-          <!-- RIGHT PANEL -->
-          <div style="display:flex;flex-direction:column;gap:1rem;">
-
-            <!-- Volume-Time canvas -->
-            <div>
-              <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.5rem;">Volume–Time (Tidal Breathing)</div>
-              <canvas id="cvs-vt" style="display:block;width:100%;height:280px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);"></canvas>
-            </div>
-
-            <!-- Flow-Volume canvas -->
-            <div>
-              <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.5rem;">Flow–Volume Loop (MEFV)</div>
-              <canvas id="cvs-fv" style="display:block;width:100%;height:240px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);"></canvas>
-            </div>
-
-          </div><!-- /right panel -->
-
-        </div><!-- /2-col grid -->
-
-        <!-- ─── Lung volumes stack bar ─── -->
-        <div>
-          <div style="font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.65rem;">Lung Volume Compartments</div>
-          <div id="sim-stack-outer" style="position:relative;height:52px;border-radius:var(--radius-sm);overflow:hidden;border:1px solid var(--border);">
-            <div id="sim-stack-inner" style="display:flex;height:100%;"></div>
-          </div>
-          <div id="sim-stack-labels" style="display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:0.6rem;font-size:0.78rem;color:var(--muted);"></div>
-        </div>
-
-      </div><!-- /detail-body -->
-    </div><!-- /sim detail-card -->
-
-    <!-- ─── Simulator Styles ─── -->
-    <style>
-      .sim-scenario-btn {
-        padding: 0.45rem 0.6rem;
-        background: var(--bg);
-        border: 1px solid var(--border);
-        border-radius: var(--radius-sm);
-        font-size: 0.83rem;
-        font-weight: 600;
-        color: var(--fg-soft);
-        cursor: pointer;
-        transition: all .15s;
-        text-align: center;
-      }
-      .sim-scenario-btn:hover {
-        border-color: var(--accent);
-        color: var(--fg);
-      }
-      .sim-scenario-btn.sim-active {
-        background: rgba(2,132,199,0.1);
-        border-color: var(--accent);
-        color: var(--accent);
-      }
-      .sim-slider-group { display: flex; flex-direction: column; gap: 0.3rem; }
-      .sim-slider-label { display: flex; justify-content: space-between; font-size: 0.82rem; color: var(--muted); }
-      .sim-slider-val { font-weight: 700; color: var(--fg); font-variant-numeric: tabular-nums; }
-      .sim-slider {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 100%;
-        height: 4px;
-        background: var(--border);
-        border-radius: 2px;
-        outline: none;
-        cursor: pointer;
-      }
-      .sim-slider::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        background: var(--accent);
-        cursor: pointer;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.18);
-      }
-      .sim-slider::-moz-range-thumb {
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        background: var(--accent);
-        cursor: pointer;
-        border: none;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.18);
-      }
-      @media (max-width: 700px) {
-        #sim-card .detail-body > div:first-child {
-          grid-template-columns: 1fr !important;
-        }
-      }
-    </style>
-
-    <!-- ─── Simulator Script ─── -->
-    <script>
-    (function() {
-      'use strict';
-
-      /* ── Scenario definitions ───────────────────────────────────────── */
-      const SCENARIOS = {
-        normal:   { label:'Normal',   TLC:6.0, FRC:2.5, RV:1.2, FVC:4.6, FEV1:3.9, ratio:0.85, tau:0.50, VT:0.50, RR:14, Ti:1.4, n:0.75, PEF:9.0,  color:'#059669', k:0.5 },
-        copd:     { label:'COPD',     TLC:7.5, FRC:4.0, RV:3.0, FVC:3.8, FEV1:1.3, ratio:0.34, tau:2.80, VT:0.45, RR:20, Ti:1.0, n:2.5,  PEF:4.0,  color:'#f59e0b', k:0.8 },
-        fibrosis: { label:'Fibrosis', TLC:4.0, FRC:1.8, RV:1.0, FVC:2.8, FEV1:2.4, ratio:0.86, tau:0.38, VT:0.32, RR:24, Ti:0.9, n:0.65, PEF:6.5,  color:'#7c3aed', k:0.5 },
-        ards:     { label:'ARDS',     TLC:3.5, FRC:1.3, RV:1.2, FVC:2.0, FEV1:1.5, ratio:0.75, tau:0.60, VT:0.28, RR:28, Ti:0.8, n:1.3,  PEF:4.5,  color:'#dc2626', k:0.5 },
-      };
-
-      /* ── State ──────────────────────────────────────────────────────── */
-      let currentScenario = 'normal';
-      let state = Object.assign({}, SCENARIOS.normal);
-      // Override with slider-controllable fields
-      let sliderRR    = state.RR;
-      let sliderVT    = Math.round(state.VT * 1000);  // mL
-      let sliderFev1Pct = Math.round(state.ratio * 100);
-      let sliderComp  = 200;
-
-      /* ── Canvases ───────────────────────────────────────────────────── */
-      const cvsVT = document.getElementById('cvs-vt');
-      const cvsFV = document.getElementById('cvs-fv');
-      const ctxVT = cvsVT.getContext('2d');
-      const ctxFV = cvsFV.getContext('2d');
-      const dpr   = window.devicePixelRatio || 1;
-
-      function resizeCanvas(cvs) {
-        const rect = cvs.getBoundingClientRect();
-        const w = Math.round(rect.width  * dpr);
-        const h = Math.round(rect.height * dpr);
-        if (cvs.width !== w || cvs.height !== h) {
-          cvs.width  = w;
-          cvs.height = h;
-        }
-        return { w, h, css_w: rect.width, css_h: rect.height };
-      }
-
-      /* ── Time-domain animation ──────────────────────────────────────── */
-      const WINDOW_SEC = 6;    // rolling 6-second display
-      const TRAIL = [];        // [{t, v}] in seconds and litres above FRC
-      let animT    = 0;        // simulation clock (seconds)
-      let lastRAF  = null;
-      let rafID    = null;
-      let paused   = false;
-
-      function breathVolume(tInCycle, T, Ti, VT_L, tau) {
-        /* Returns volume above FRC in litres */
-        if (tInCycle <= Ti) {
-          return (VT_L / 2) * (1 - Math.cos(Math.PI * tInCycle / Ti));
-        } else {
-          const tExp = tInCycle - Ti;
-          return VT_L * Math.exp(-tExp / tau);
-        }
-      }
-
-      function tick(ts) {
-        if (paused || document.visibilityState === 'hidden') {
-          lastRAF = ts;
-          rafID = requestAnimationFrame(tick);
-          return;
-        }
-        if (lastRAF === null) lastRAF = ts;
-        const dt = Math.min((ts - lastRAF) / 1000, 0.05); // cap at 50 ms
-        lastRAF  = ts;
-        animT   += dt;
-
-        const RR_s   = sliderRR;
-        const VT_L   = sliderVT / 1000;
-        const T      = 60 / RR_s;
-        const Ti     = state.Ti;
-        const tau    = state.tau;
-        const tInCycle = animT % T;
-        const v      = breathVolume(tInCycle, T, Ti, VT_L, tau);
-
-        TRAIL.push({ t: animT, v });
-        // cull old points
-        const cutoff = animT - WINDOW_SEC - 0.1;
-        while (TRAIL.length > 1 && TRAIL[0].t < cutoff) TRAIL.shift();
-
-        drawVT();
-        rafID = requestAnimationFrame(tick);
-      }
-
-      function drawVT() {
-        const { w, h } = resizeCanvas(cvsVT);
-        const ctx = ctxVT;
-        ctx.clearRect(0, 0, w, h);
-
-        const PAD_L = Math.round(44 * dpr);
-        const PAD_R = Math.round(12 * dpr);
-        const PAD_T = Math.round(14 * dpr);
-        const PAD_B = Math.round(28 * dpr);
-        const pw    = w - PAD_L - PAD_R;
-        const ph    = h - PAD_T - PAD_B;
-
-        const VT_L  = sliderVT / 1000;
-        const yMax  = VT_L * 1.15;
-        const yMin  = -VT_L * 0.1;
-        const yRange = yMax - yMin;
-
-        function xOfT(t) {
-          const frac = (t - (animT - WINDOW_SEC)) / WINDOW_SEC;
-          return PAD_L + frac * pw;
-        }
-        function yOfV(v) {
-          const frac = (v - yMin) / yRange;
-          return PAD_T + ph * (1 - frac);
-        }
-
-        // Grid
-        ctx.strokeStyle = `rgba(${isDark() ? '255,255,255' : '0,0,0'},0.06)`;
-        ctx.lineWidth   = 1 * dpr;
-        for (let s = 0; s <= WINDOW_SEC; s++) {
-          const xt = xOfT(animT - s);
-          ctx.beginPath(); ctx.moveTo(xt, PAD_T); ctx.lineTo(xt, PAD_T + ph); ctx.stroke();
-        }
-        // Zero line
-        ctx.strokeStyle = `rgba(${isDark() ? '255,255,255' : '0,0,0'},0.15)`;
-        ctx.beginPath(); ctx.moveTo(PAD_L, yOfV(0)); ctx.lineTo(PAD_L + pw, yOfV(0)); ctx.stroke();
-
-        // Y-axis labels
-        ctx.fillStyle   = getComputedStyle(document.documentElement).getPropertyValue('--muted').trim() || '#6e6e73';
-        ctx.font        = `${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
-        ctx.textAlign   = 'right';
-        ctx.textBaseline = 'middle';
-        const vticks = [0, 0.25, 0.5, 0.75, 1.0].filter(v => v <= VT_L * 1.12);
-        vticks.forEach(v => {
-          if (v > yMax - 0.01) return;
-          const y = yOfV(v);
-          ctx.fillText((v * 1000).toFixed(0), PAD_L - 4 * dpr, y);
-        });
-        ctx.save();
-        ctx.translate(Math.round(10 * dpr), PAD_T + ph / 2);
-        ctx.rotate(-Math.PI / 2);
-        ctx.textAlign   = 'center';
-        ctx.textBaseline = 'middle';
-        ctx.fillText('Vol (mL)', 0, 0);
-        ctx.restore();
-
-        // X-axis label
-        ctx.textAlign   = 'center';
-        ctx.textBaseline = 'top';
-        ctx.fillText('Time (s)', PAD_L + pw / 2, PAD_T + ph + 6 * dpr);
-
-        // Trace
-        if (TRAIL.length < 2) return;
-        const scColor = SCENARIOS[currentScenario].color;
-        ctx.beginPath();
-        ctx.strokeStyle = scColor;
-        ctx.lineWidth   = 2.5 * dpr;
-        ctx.lineJoin    = 'round';
-        ctx.lineCap     = 'round';
-        let first = true;
-        TRAIL.forEach(pt => {
-          const x = xOfT(pt.t);
-          if (x < PAD_L - 2 || x > PAD_L + pw + 2) return;
-          const y = yOfV(pt.v);
-          if (first) { ctx.moveTo(x, y); first = false; }
-          else       { ctx.lineTo(x, y); }
-        });
-        ctx.stroke();
-      }
-
-      /* ── Flow-Volume Loop ───────────────────────────────────────────── */
-      let fvcAnimID = null;
-
-      function drawFV(animProgress) {
-        if (animProgress === undefined) animProgress = 1;
-        const { w, h } = resizeCanvas(cvsFV);
-        const ctx = ctxFV;
-        ctx.clearRect(0, 0, w, h);
-
-        const sc = Object.assign({}, SCENARIOS[currentScenario]);
-        sc.FEV1  = sc.FVC * (sliderFev1Pct / 100);
-        sc.ratio = sliderFev1Pct / 100;
-
-        const PAD_L = Math.round(44 * dpr);
-        const PAD_R = Math.round(14 * dpr);
-        const PAD_T = Math.round(14 * dpr);
-        const PAD_B = Math.round(30 * dpr);
-        const pw    = w - PAD_L - PAD_R;
-        const ph    = h - PAD_T - PAD_B;
-
-        // Expired-volume x-axis: 0 (TLC, left) → FVC (RV, right)
-        const norm     = SCENARIOS.normal;
-        const isNorm   = (currentScenario === 'normal');
-        const xMax_exp = isNorm ? sc.FVC * 1.06 : Math.max(sc.FVC, norm.FVC) * 1.02;
-        // Y: positive = expiration (top), negative = inspiration (bottom)
-        const peakPEF = isNorm ? sc.PEF : Math.max(sc.PEF, norm.PEF);
-        const yMax    = peakPEF * 1.15;
-        const yMin    = -peakPEF * 0.65;
-        const yRange  = yMax - yMin;
-
-        function xOf(Vexp) { return PAD_L + (Vexp / xMax_exp) * pw; }
-        function yOf(f)    { return PAD_T + ph * (1 - (f - yMin) / yRange); }
-
-        const STEPS    = 400;
-        const darkMode = isDark();
-        const mutedColor = getComputedStyle(document.documentElement)
-          .getPropertyValue('--muted').trim() || '#6e6e73';
-
-        // ── Grid ─────────────────────────────────────────────────────
-        ctx.strokeStyle = `rgba(${darkMode ? '255,255,255' : '0,0,0'},0.06)`;
-        ctx.lineWidth = 1 * dpr;
-        for (let v = 0; v <= Math.ceil(xMax_exp); v++) {
-          const x = xOf(v);
-          if (x < PAD_L - 1 || x > PAD_L + pw + 1) continue;
-          ctx.beginPath(); ctx.moveTo(x, PAD_T); ctx.lineTo(x, PAD_T + ph); ctx.stroke();
-        }
-        const yStep = (peakPEF >= 7) ? 2 : 1;
-        for (let f = Math.ceil(yMin / yStep) * yStep; f <= yMax; f += yStep) {
-          const y = yOf(f);
-          if (y < PAD_T - 1 || y > PAD_T + ph + 1) continue;
-          ctx.beginPath(); ctx.moveTo(PAD_L, y); ctx.lineTo(PAD_L + pw, y); ctx.stroke();
-        }
-
-        // ── Axes ─────────────────────────────────────────────────────
-        ctx.strokeStyle = `rgba(${darkMode ? '255,255,255' : '0,0,0'},0.2)`;
-        ctx.lineWidth = 1 * dpr;
-        ctx.beginPath(); ctx.moveTo(PAD_L, yOf(0)); ctx.lineTo(PAD_L + pw, yOf(0)); ctx.stroke();
-        ctx.beginPath(); ctx.moveTo(PAD_L, PAD_T);  ctx.lineTo(PAD_L, PAD_T + ph);  ctx.stroke();
-
-        // ── Tick labels ───────────────────────────────────────────────
-        ctx.fillStyle = mutedColor;
-        ctx.font = `${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
-        // X ticks
-        ctx.textAlign = 'center'; ctx.textBaseline = 'top';
-        for (let v = 0; v <= Math.floor(xMax_exp) + 1; v++) {
-          const x = xOf(v);
-          if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
-          ctx.fillText(v.toFixed(0), x, PAD_T + ph + 5 * dpr);
-        }
-        ctx.fillText('Expired Volume (L)', PAD_L + pw / 2, PAD_T + ph + 18 * dpr);
-        // Y ticks
-        ctx.textAlign = 'right'; ctx.textBaseline = 'middle';
-        for (let f = Math.ceil(yMin / yStep) * yStep; f <= yMax; f += yStep) {
-          if (f === 0) continue;
-          const y = yOf(f);
-          if (y < PAD_T - 2 || y > PAD_T + ph + 2) continue;
-          ctx.fillText(f.toFixed(0), PAD_L - 4 * dpr, y);
-        }
-        // Y-axis rotated label
-        ctx.save();
-        ctx.translate(Math.round(10 * dpr), PAD_T + ph / 2);
-        ctx.rotate(-Math.PI / 2);
-        ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-        ctx.fillText('Flow (L/s)', 0, 0);
-        ctx.restore();
-
-        // TLC → RV direction cues on zero-flow line
-        ctx.fillStyle = mutedColor;
-        ctx.font = `bold ${Math.round(8 * dpr)}px -apple-system,sans-serif`;
-        ctx.textAlign = 'left'; ctx.textBaseline = 'bottom';
-        ctx.fillText('TLC→', xOf(0) + 2 * dpr, yOf(0) - 2 * dpr);
-        ctx.textAlign = 'right';
-        ctx.fillText('←RV', xOf(sc.FVC) - 2 * dpr, yOf(0) - 2 * dpr);
-
-        // ── Reference normal curve (grey dashed) ──────────────────────
-        if (!isNorm) {
-          ctx.save();
-          ctx.beginPath();
-          ctx.strokeStyle = darkMode ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.18)';
-          ctx.lineWidth   = 1.5 * dpr;
-          ctx.setLineDash([4 * dpr, 3 * dpr]);
-          let firstN = true;
-          for (let i = 0; i <= STEPS; i++) {
-            const Vexp = norm.FVC * i / STEPS;
-            const Vabs = norm.TLC - Vexp;
-            const Vrel = (Vabs - norm.RV) / (norm.TLC - norm.RV);
-            const F = (Vrel <= 0) ? 0 : norm.PEF * Math.pow(Vrel, norm.n);
-            const x = xOf(Vexp); const y = yOf(Math.min(F, yMax * 0.98));
-            if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
-            if (firstN) { ctx.moveTo(x, y); firstN = false; } else ctx.lineTo(x, y);
-          }
-          for (let i = STEPS; i >= 0; i--) {
-            const Vexp  = norm.FVC * i / STEPS;
-            const frac  = i / STEPS;
-            const Finsp = -(norm.PEF * 0.65) * Math.sin(Math.PI * frac);
-            const x = xOf(Vexp); const y = yOf(Math.max(Finsp, yMin * 0.98));
-            if (x < PAD_L - 2 || x > PAD_L + pw + 2) continue;
-            ctx.lineTo(x, y);
-          }
-          ctx.stroke(); ctx.setLineDash([]);
-          ctx.restore();
-          ctx.fillStyle = darkMode ? 'rgba(255,255,255,0.35)' : 'rgba(0,0,0,0.3)';
-          ctx.font = `${Math.round(8.5 * dpr)}px -apple-system,sans-serif`;
-          ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
-          ctx.fillText('Normal', xOf(0.1), yOf(norm.PEF) + 10 * dpr);
-        }
-
-        // ── Active MEFV expiratory curve ──────────────────────────────
-        const maxI = Math.round(STEPS * animProgress);
-        ctx.beginPath();
-        ctx.strokeStyle = SCENARIOS[currentScenario].color;
-        ctx.lineWidth   = 2.5 * dpr;
-        ctx.lineJoin    = 'round'; ctx.lineCap = 'round';
-        let firstPt = true;
-        for (let i = 0; i <= maxI; i++) {
-          const Vexp = sc.FVC * i / STEPS;
-          const Vabs = sc.TLC - Vexp;
-          const Vrel = (Vabs - sc.RV) / (sc.TLC - sc.RV);
-          const F = (Vrel <= 0) ? 0 : sc.PEF * Math.pow(Vrel, sc.n);
-          const x = xOf(Vexp); const y = yOf(Math.min(F, yMax * 0.98));
-          if (firstPt) { ctx.moveTo(x, y); firstPt = false; } else ctx.lineTo(x, y);
-        }
-        // Inspiration limb — only once animation is complete
-        if (animProgress >= 1) {
-          for (let i = STEPS; i >= 0; i--) {
-            const Vexp  = sc.FVC * i / STEPS;
-            const frac  = i / STEPS;
-            const Finsp = -(sc.PEF * 0.65) * Math.sin(Math.PI * frac);
-            const x = xOf(Vexp); const y = yOf(Math.max(Finsp, yMin * 0.98));
-            ctx.lineTo(x, y);
-          }
-        }
-        ctx.stroke();
-
-        // ── PEF annotation (at TLC / left edge) ──────────────────────
-        if (animProgress >= 0.02) {
-          const pefX = xOf(0); const pefY = yOf(sc.PEF);
-          ctx.beginPath();
-          ctx.strokeStyle = SCENARIOS[currentScenario].color;
-          ctx.lineWidth   = 1.5 * dpr;
-          ctx.setLineDash([3 * dpr, 3 * dpr]);
-          ctx.moveTo(pefX, pefY); ctx.lineTo(pefX + 18 * dpr, pefY);
-          ctx.stroke(); ctx.setLineDash([]);
-          ctx.fillStyle = SCENARIOS[currentScenario].color;
-          ctx.font = `bold ${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
-          ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
-          ctx.fillText('PEF ' + sc.PEF.toFixed(1), pefX + 20 * dpr, pefY);
-        }
-
-        // ── FEV₁ marker — appears when animation reaches 1 s mark ────
-        const fev1Frac = sc.FEV1 / sc.FVC;
-        if (animProgress >= fev1Frac - 0.01) {
-          const fev1X = xOf(sc.FEV1);
-          if (fev1X >= PAD_L - 2 && fev1X <= PAD_L + pw + 2) {
-            ctx.beginPath();
-            ctx.strokeStyle = '#dc2626';
-            ctx.lineWidth   = 1.5 * dpr;
-            ctx.setLineDash([4 * dpr, 3 * dpr]);
-            ctx.moveTo(fev1X, PAD_T); ctx.lineTo(fev1X, PAD_T + ph);
-            ctx.stroke(); ctx.setLineDash([]);
-            ctx.fillStyle = '#dc2626';
-            ctx.font = `bold ${Math.round(9.5 * dpr)}px -apple-system,sans-serif`;
-            ctx.textAlign = 'center'; ctx.textBaseline = 'top';
-            ctx.fillText('FEV₁ ' + sc.FEV1.toFixed(1) + 'L', fev1X, PAD_T + 2 * dpr);
-          }
-        }
-      }
-
-      /* ── Lung volumes stack bar ─────────────────────────────────────── */
-      function updateStack() {
-        const sc = SCENARIOS[currentScenario];
-        const TLC  = sc.TLC;
-        const ERV  = sc.FRC - sc.RV;
-        const VT_L = sliderVT / 1000;
-        const IRV  = TLC - sc.FRC - VT_L;
-
-        const segments = [
-          { label:'RV',  vol: sc.RV,           color:'#ef4444' },
-          { label:'ERV', vol: Math.max(ERV, 0), color:'#f97316' },
-          { label:'VT',  vol: VT_L,             color:'#22c55e' },
-          { label:'IRV', vol: Math.max(IRV, 0), color:'#3b82f6' },
-        ];
-
-        const inner  = document.getElementById('sim-stack-inner');
-        const labels = document.getElementById('sim-stack-labels');
-        inner.innerHTML  = '';
-        labels.innerHTML = '';
-
-        segments.forEach(seg => {
-          const pct = (seg.vol / TLC) * 100;
-          const div = document.createElement('div');
-          div.style.cssText = `flex:0 0 ${pct.toFixed(2)}%;background:${seg.color};`;
-          inner.appendChild(div);
-
-          const lbl = document.createElement('span');
-          lbl.style.cssText = 'display:inline-flex;align-items:center;gap:0.3rem;';
-          lbl.innerHTML = `<span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${seg.color};flex-shrink:0;"></span>${seg.label} ${(seg.vol * 1000).toFixed(0)} mL`;
-          labels.appendChild(lbl);
-        });
-
-        // Add summary labels
-        const sumVals = [
-          { name:'TLC', val: TLC },
-          { name:'FRC', val: sc.FRC },
-          { name:'VC',  val: TLC - sc.RV },
-        ];
-        sumVals.forEach(s => {
-          const lbl = document.createElement('span');
-          lbl.style.cssText = 'display:inline-flex;align-items:center;gap:0.3rem;font-weight:700;color:var(--fg-soft);';
-          lbl.textContent = `${s.name} ${(s.val * 1000).toFixed(0)} mL`;
-          labels.appendChild(lbl);
-        });
-      }
-
-      /* ── Derived values display ─────────────────────────────────────── */
-      function updateDerived() {
-        const VT_L   = sliderVT / 1000;
-        const RR_s   = sliderRR;
-        const VE     = RR_s * VT_L;                    // L/min
-        const VA     = RR_s * (VT_L - 0.150);         // L/min (VD=150 mL)
-        const sc     = SCENARIOS[currentScenario];
-        const fvc    = sc.FVC;
-        const fev1   = fvc * (sliderFev1Pct / 100);
-        const ratio  = sliderFev1Pct / 100;
-
-        // Pattern classification
-        const normalFVC = SCENARIOS.normal.FVC;
-        const fvcPct    = (fvc / normalFVC) * 100;
-        let pattern, patternColor;
-        if (ratio < 0.70 && fvcPct >= 80) {
-          pattern = 'Obstructive'; patternColor = '#f59e0b';
-        } else if (ratio >= 0.70 && fvcPct < 80) {
-          pattern = 'Restrictive'; patternColor = '#7c3aed';
-        } else if (ratio < 0.70 && fvcPct < 80) {
-          pattern = 'Mixed'; patternColor = '#dc2626';
-        } else {
-          pattern = 'Normal'; patternColor = '#059669';
-        }
-
-        document.getElementById('dv-ve').textContent     = VE.toFixed(1)  + ' L/min';
-        document.getElementById('dv-va').textContent     = Math.max(VA,0).toFixed(1) + ' L/min';
-        document.getElementById('dv-fvc').textContent    = fvc.toFixed(2) + ' L';
-        document.getElementById('dv-fev1').textContent   = fev1.toFixed(2) + ' L';
-        document.getElementById('dv-ratio').textContent  = (ratio * 100).toFixed(0) + '%';
-        const patEl = document.getElementById('dv-pattern');
-        patEl.textContent  = pattern;
-        patEl.style.color  = patternColor;
-      }
-
-      /* ── Scenario loading ───────────────────────────────────────────── */
-      function loadScenario(key) {
-        if (fvcAnimID !== null) { cancelAnimationFrame(fvcAnimID); fvcAnimID = null; }
-        currentScenario = key;
-        const sc = SCENARIOS[key];
-        state   = Object.assign({}, sc);
-
-        // Update sliders
-        sliderRR      = sc.RR;
-        sliderVT      = Math.round(sc.VT * 1000);
-        sliderFev1Pct = Math.round(sc.ratio * 100);
-        // compliance doesn't map directly — reset to mid-point per scenario
-        const compMap = { normal: 200, copd: 240, fibrosis: 60, ards: 50 };
-        sliderComp = compMap[key];
-
-        document.getElementById('sl-rr').value       = sliderRR;
-        document.getElementById('sl-vt').value       = sliderVT;
-        document.getElementById('sl-fev1pct').value  = sliderFev1Pct;
-        document.getElementById('sl-comp').value     = sliderComp;
-
-        document.getElementById('lbl-rr').textContent      = sliderRR + ' bpm';
-        document.getElementById('lbl-vt').textContent      = sliderVT + ' mL';
-        document.getElementById('lbl-fev1pct').textContent = sliderFev1Pct + '%';
-        document.getElementById('lbl-comp').textContent    = sliderComp + ' mL/cmH₂O';
-
-        // Update active button
-        document.querySelectorAll('.sim-scenario-btn').forEach(b => {
-          b.classList.toggle('sim-active', b.dataset.scenario === key);
-        });
-
-        updateDerived();
-        updateStack();
-        drawFV();
-      }
-
-      /* ── Dark-mode helper ───────────────────────────────────────────── */
-      function isDark() {
-        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      }
-
-      /* ── Event wiring ───────────────────────────────────────────────── */
-      document.querySelectorAll('.sim-scenario-btn').forEach(btn => {
-        btn.addEventListener('click', () => loadScenario(btn.dataset.scenario));
-      });
-
-      document.getElementById('sl-rr').addEventListener('input', e => {
-        sliderRR = parseInt(e.target.value, 10);
-        document.getElementById('lbl-rr').textContent = sliderRR + ' bpm';
-        updateDerived(); updateStack();
-      });
-      document.getElementById('sl-vt').addEventListener('input', e => {
-        sliderVT = parseInt(e.target.value, 10);
-        document.getElementById('lbl-vt').textContent = sliderVT + ' mL';
-        updateDerived(); updateStack();
-      });
-      document.getElementById('sl-fev1pct').addEventListener('input', e => {
-        sliderFev1Pct = parseInt(e.target.value, 10);
-        document.getElementById('lbl-fev1pct').textContent = sliderFev1Pct + '%';
-        updateDerived(); drawFV();
-      });
-      document.getElementById('sl-comp').addEventListener('input', e => {
-        sliderComp = parseInt(e.target.value, 10);
-        document.getElementById('lbl-comp').textContent = sliderComp + ' mL/cmH₂O';
-        updateDerived();
-      });
-      document.getElementById('btn-fvc').addEventListener('click', () => {
-        if (fvcAnimID !== null) {
-          // Second click while running: snap to complete
-          cancelAnimationFrame(fvcAnimID);
-          fvcAnimID = null;
-          drawFV(1);
-          return;
-        }
-        const dur = 2500;
-        const t0  = performance.now();
-        (function step(ts) {
-          const p = Math.min((ts - t0) / dur, 1);
-          drawFV(p);
-          if (p < 1) { fvcAnimID = requestAnimationFrame(step); }
-          else        { fvcAnimID = null; }
-        })(performance.now());
-      });
-
-      document.addEventListener('visibilitychange', () => {
-        if (document.visibilityState === 'visible' && paused === false) lastRAF = null;
-      });
-
-      window.addEventListener('resize', () => {
-        resizeCanvas(cvsVT); resizeCanvas(cvsFV);
-        drawVT(); drawFV();
-      });
-
-      /* ── Initialise ─────────────────────────────────────────────────── */
-      // Let layout settle then size canvases
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          resizeCanvas(cvsVT);
-          resizeCanvas(cvsFV);
-          loadScenario('normal');
-          rafID = requestAnimationFrame(tick);
-        });
-      });
-
-    })();
-    </script>
-
   </main>
 
   <footer>
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="respiratory-system.html">Respiratory System</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>

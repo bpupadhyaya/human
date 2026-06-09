@@ -18,6 +18,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β1 is the primary periostin inducer in cardiac fibroblasts and lung fibroblasts via SMAD2/3 → POSTN promoter; periostin → integrin αvβ3 → FAK → PI3K → Akt → further TGF-β1 production (amplification loop); IL-4/IL-13 → STAT6 is the secondary inducer in airway/skin fibroblasts."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Periostin is a type 2 biomarker in AD: IL-4/IL-13 → STAT6 → dermal fibroblast POSTN → serum periostin correlates with AD severity; dermal periostin → integrin αvβ3 on keratinocytes → TSLP production; periostin tracks type 2 skin inflammation and dupilumab response."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "TGF-β1 → periostin in hepatic stellate cells → integrin αvβ3 → FAK/PI3K → collagen I/III deposition → hepatic fibrosis in NASH; periostin correlates with fibrosis stage; periostin-null mice develop less hepatic fibrosis in NASH models; periostin marks activated stellate cells."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Periostin drives fibrotic remodeling in chronic lung disease: TGF-β + IL-13 → POSTN in lung fibroblasts → collagen matrix assembly → subepithelial fibrosis; serum periostin correlates with lung function decline in asthma and IPF; marks remodeling distinct from acute inflammation."
 sources:
   - id: takayama-2006-periostin-asthma
     type: peer-reviewed
@@ -101,11 +110,14 @@ Serum periostin (commercial ELISA: Shino-Test periostin assay) is used to identi
 
 ## Connections
 
-Serum periostin >25 ng/mL identifies T2-high eosinophilic asthma regardless of blood eosinophil count; periostin from sub-epithelial fibroblasts (IL-13/IL-4 → STAT6 → POSTN) contributes to airway subepithelial fibrosis; periostin biomarker guided lebrikizumab trial design.
+- `connects-to` → **[Asthma](../../07-system/asthma/README.md)** — Serum periostin >25 ng/mL identifies T2-high eosinophilic asthma; IL-13/IL-4 → STAT6 → POSTN in sub-epithelial fibroblasts → airway subepithelial fibrosis; periostin biomarker guided lebrikizumab trial enrichment strategy; correlates with eosinophilic exacerbation risk.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — Periostin from cardiac fibroblasts → integrin αvβ3 on cardiomyocytes and fibroblasts → FAK/PI3K → myofibroblast differentiation and collagen I/III deposition; periostin is required for post-MI cardiac fibrosis (periostin-null mice have impaired scar formation).
+- `connects-to` → **[TGF-beta](../tgf-beta/README.md)** — TGF-β1 is the primary periostin inducer in cardiac and lung fibroblasts via SMAD2/3 → POSTN promoter; periostin → integrin αvβ3 → FAK → Akt → further TGF-β1 production (amplification loop); IL-4/IL-13 → STAT6 is the secondary inducer in airway/skin fibroblasts.
+- `connects-to` → **[Atopic Dermatitis](../../07-system/atopic-dermatitis/README.md)** — Periostin is a type 2 biomarker in AD: IL-4/IL-13 → STAT6 → dermal fibroblast POSTN → serum periostin correlates with AD severity; dermal periostin → integrin αvβ3 on keratinocytes → TSLP production; periostin tracks type 2 skin inflammation and dupilumab response.
+- `connects-to` → **[NASH](../../07-system/nash/README.md)** — TGF-β1 → periostin in hepatic stellate cells → integrin αvβ3 → FAK/PI3K → collagen I/III deposition → hepatic fibrosis in NASH; periostin correlates with fibrosis stage; periostin-null mice develop less hepatic fibrosis in NASH models; periostin marks activated stellate cells.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Periostin drives fibrotic remodeling in chronic lung disease: TGF-β + IL-13 → POSTN in lung fibroblasts → collagen matrix assembly → subepithelial fibrosis; serum periostin correlates with lung function decline in asthma and IPF; marks remodeling distinct from acute inflammation.
 
-Periostin from cardiac fibroblasts → integrin αvβ3 on cardiomyocytes and fibroblasts → FAK/PI3K → myofibroblast differentiation and collagen I/III deposition; periostin is required for post-MI cardiac fibrosis (periostin-null mice have impaired scar formation).
-
-TGF-β1 is the primary periostin inducer in cardiac fibroblasts and lung fibroblasts via SMAD2/3 → POSTN promoter; periostin → integrin αvβ3 → FAK → PI3K → Akt → further TGF-β1 production (amplification loop); IL-4/IL-13 → STAT6 is the secondary inducer in airway/skin fibroblasts.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^takayama-2006-periostin-asthma]: Takayama G, Arima K, Kanaji T, et al. Periostin: a novel component of subepithelial fibrosis of bronchial asthma downstream of IL-4 and IL-13 signals. *J Allergy Clin Immunol.* 2006;118(1):98-104. [doi:10.1016/j.jaci.2006.02.046](https://doi.org/10.1016/j.jaci.2006.02.046) · [PubMed 16815146](https://pubmed.ncbi.nlm.nih.gov/16815146/)
 [^norris-2008-periostin-cardiac]: Oka T, Xu J, Kaiser RA, et al. Genetic manipulation of periostin expression reveals a role in cardiac hypertrophy and ventricular remodeling. *Circ Res.* 2007;101(3):313-321. [doi:10.1161/CIRCRESAHA.107.149047](https://doi.org/10.1161/CIRCRESAHA.107.149047) · [PubMed 17589016](https://pubmed.ncbi.nlm.nih.gov/17589016/)
