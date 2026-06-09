@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: modulates
     note: "Fibroblasts are major producers of IL-6 during inflammation and in cancer stroma; CAF-derived IL-6 activates JAK/STAT3 in tumour cells (survival, proliferation, therapy resistance) and recruits MDSCs."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Activin A promotes fibroblast-to-myofibroblast differentiation via SMAD2/3 → α-SMA and collagen I expression; activin A is elevated in fibrotic lungs, liver, and kidney; follistatin neutralizes activin A → attenuates fibrosis; SMAD2/3 is shared with TGF-β fibrogenic signaling."
 ---
 
 # Fibroblast
@@ -141,6 +144,7 @@ Senescent myofibroblasts (p21+/p16+ cells that escape apoptosis) contribute to p
 - **Modulates** myocardium [→ myocardium](../../05-tissue/myocardium/README.md): Cardiac fibroblasts (~60% of cardiac cells by number) synthesise myocardial ECM; TGF-β-mediated myofibroblast activation after MI → collagen scar (beneficial acute) → ongoing fibrosis → ↑ventricular stiffness → HFpEF.
 - **Modulates** immune system [→ immune-system](../../07-system/immune-system/README.md): Cancer-associated fibroblasts (CAFs) remodel the tumour ECM creating a physical and chemical immunosuppressive barrier; CAF-derived CXCL12, TGF-β, and IL-6 exclude T cells from the tumour core.
 - **Modulates** IL-6 [→ il-6](../../03-molecular/il-6/README.md): Fibroblasts are major producers of IL-6 during inflammation and in cancer stroma; CAF-derived IL-6 activates JAK/STAT3 in tumour cells (survival, proliferation, therapy resistance) and recruits MDSCs.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Activin A promotes fibroblast-to-myofibroblast differentiation via SMAD2/3 → α-SMA and collagen I expression; activin A is elevated in fibrotic lungs, liver, and kidney; follistatin neutralizes activin A → attenuates fibrosis; SMAD2/3 is shared with TGF-β fibrogenic signaling.
 
 ## Pathology
 
@@ -161,3 +165,7 @@ Senescent myofibroblasts (p21+/p16+ cells that escape apoptosis) contribute to p
 - [Hepatocyte](../../04-cellular/hepatocyte/README.md) — hepatocytes signal to stellate cells via TGF-β and PDGF in liver injury
 - [Macrophage](../../04-cellular/macrophage/README.md) — macrophages both activate fibroblasts (M1-derived TNF-α/IL-1β, TGF-β) and resolve fibrosis (M2/anti-inflammatory clearance of senescent myofibroblasts)
 - [IL-6](../../03-molecular/il-6/README.md) — key paracrine cytokine secreted by fibroblasts driving tumour cell survival and inflammatory amplification
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

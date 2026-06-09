@@ -18,6 +18,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Activin A → pulmonary VSMC ActRIIB/ALK4 → SMAD2/3 → excessive proliferation and vasoconstriction → PAH; sotatercept (FDA 2024) traps activin A/B → reverses pulmonary vascular remodeling; STELLAR trial: 34% 6MWD improvement vs. 21% placebo (p<0.001)."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Activin A/B are elevated in PAH pulmonary vasculature; activin → VSMC ActRIIB/ALK4 → SMAD2/3 → proliferation and vasoconstriction → vascular remodeling; sotatercept (ActRIIB-Fc; FDA 2024) traps activin A/B → reverses vascular remodeling; STELLAR trial: +34.4 m 6MWD, p<0.001."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Activin A/B → ActRIIB on late erythroblasts → SMAD2/3 → maturation block → ineffective erythropoiesis in beta-thalassemia; luspatercept (BELIEVE trial: 21% achieved ≥33% transfusion reduction vs. 4.5% placebo) traps activin A/B → accelerates terminal erythroid differentiation."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Activin A promotes fibroblast-to-myofibroblast differentiation via SMAD2/3 → α-SMA and collagen I expression; activin A is elevated in fibrotic lungs, liver, and kidney; follistatin neutralizes activin A → attenuates fibrosis; SMAD2/3 is shared with TGF-β fibrogenic signaling."
 sources:
   - id: hoeper-2023-sotatercept-stellar
     type: peer-reviewed
@@ -107,11 +116,16 @@ Both luspatercept and sotatercept are constructed from the **extracellular domai
 
 ## Connections
 
-Activin A/B → ActRIIB on erythroid progenitors → SMAD2/3 → suppression of late erythroid maturation → ineffective erythropoiesis in MDS and beta-thalassemia; luspatercept (MEDALIST trial: 38% transfusion independence vs. 13% placebo) traps activin A/B to restore erythropoiesis.
+- `connects-to` → **[MDS](../../07-system/mds/README.md)** — Activin A/B → ActRIIB on erythroid progenitors → SMAD2/3 → suppression of late erythroid maturation → ineffective erythropoiesis in MDS; luspatercept (MEDALIST trial: 38% transfusion independence vs. 13% placebo) traps activin A/B to restore erythropoiesis in ring-sideroblast MDS.
+- `connects-to` → **[Myostatin](../myostatin/README.md)** — Activin A and myostatin are co-ligands of ActRIIB; bimagrumab (anti-ActRIIB) blocks both → reduces fat mass and increases lean mass; in cancer cachexia activin A drives muscle wasting via SMAD2/3 and MAFbx/MuRF1 — same atrophy pathway as myostatin.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — Activin A → pulmonary VSMC ActRIIB/ALK4 → SMAD2/3 → excessive proliferation and vasoconstriction → PAH; sotatercept (FDA 2024) traps activin A/B → reverses pulmonary vascular remodeling; STELLAR trial: 34% 6MWD improvement vs. 21% placebo (p<0.001).
+- `connects-to` → **[Pulmonary Arterial Hypertension](../../07-system/pulmonary-arterial-hypertension/README.md)** — Activin A/B are elevated in PAH pulmonary vasculature; activin → VSMC ActRIIB/ALK4 → SMAD2/3 → proliferation and vasoconstriction → vascular remodeling; sotatercept (ActRIIB-Fc; FDA 2024) traps activin A/B → reverses vascular remodeling; STELLAR trial: +34.4 m 6MWD, p<0.001.
+- `connects-to` → **[Thalassemia](../../07-system/thalassemia/README.md)** — Activin A/B → ActRIIB on late erythroblasts → SMAD2/3 → maturation block → ineffective erythropoiesis in beta-thalassemia; luspatercept (BELIEVE trial: 21% achieved ≥33% transfusion reduction vs. 4.5% placebo) traps activin A/B → accelerates terminal erythroid differentiation.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Activin A promotes fibroblast-to-myofibroblast differentiation via SMAD2/3 → α-SMA and collagen I expression; activin A is elevated in fibrotic lungs, liver, and kidney; follistatin neutralizes activin A → attenuates fibrosis; SMAD2/3 is shared with TGF-β fibrogenic signaling.
 
-Activin A and myostatin are co-ligands of ActRIIB; bimagrumab (anti-ActRIIB) blocks both → reduces fat mass and increases lean mass; in cancer cachexia activin A drives muscle wasting via SMAD2/3 and MAFbx/MuRF1 — same atrophy pathway as myostatin.
+---
 
-Activin A → pulmonary VSMC ActRIIB/ALK4 → SMAD2/3 → excessive proliferation and vasoconstriction → PAH; sotatercept (FDA 2024) traps activin A/B → reverses pulmonary vascular remodeling; STELLAR trial: 34% 6MWD improvement vs. 21% placebo (p<0.001).
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^hoeper-2023-sotatercept-stellar]: Hoeper MM, Badesch DB, Ghofrani HA, et al. Phase 3 Trial of Sotatercept for Treatment of Pulmonary Arterial Hypertension. *N Engl J Med.* 2023;388(16):1478-1490. [doi:10.1056/NEJMoa2213558](https://doi.org/10.1056/NEJMoa2213558) · [PubMed 36877098](https://pubmed.ncbi.nlm.nih.gov/36877098/)
 [^fenaux-2020-luspatercept-mds]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in Patients with Lower-Risk Myelodysplastic Syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

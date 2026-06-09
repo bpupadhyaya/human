@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Ang-1/Ang-2 imbalance in PAH: Ang-2 overexpression in pulmonary endothelium → Tie2 destabilization → endothelial mesenchymal transition → vascular remodeling; Ang-2 overexpressing mice develop PAH; plasma Ang-2 correlates with hemodynamic severity in PAH patients."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Activin A/B are elevated in PAH pulmonary vasculature; activin → VSMC ActRIIB/ALK4 → SMAD2/3 → proliferation and vasoconstriction → vascular remodeling; sotatercept (ActRIIB-Fc; FDA 2024) traps activin A/B → reverses vascular remodeling; STELLAR trial: +34.4 m 6MWD, p<0.001."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -178,6 +181,7 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `targets` → **[Lung](../../06-organ/lung/README.md)** — PAH is a disease of the pulmonary vasculature; medial hypertrophy, intimal fibrosis, adventitial fibrosis, and plexiform lesions in pulmonary arterioles (<500 µm) → fixed obliterative vascular disease → RV pressure overload → cor pulmonale → right heart failure.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — SSc is the most common cause of CTD-PAH (10-15% of SSc patients); SSc-PAH treated with ERAs + PDE5i (macitentan, ambrisentan + tadalafil); worse prognosis than IPAH; annual echocardiographic screening recommended for all SSc patients.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-1/Ang-2 imbalance in PAH: Ang-2 overexpression in pulmonary endothelium → Tie2 destabilization → endothelial mesenchymal transition → vascular remodeling; Ang-2 overexpressing mice develop PAH; plasma Ang-2 correlates with hemodynamic severity in PAH patients.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Activin A/B are elevated in PAH pulmonary vasculature; activin → VSMC ActRIIB/ALK4 → SMAD2/3 → proliferation and vasoconstriction → vascular remodeling; sotatercept (ActRIIB-Fc; FDA 2024) traps activin A/B → reverses vascular remodeling; STELLAR trial: +34.4 m 6MWD, p<0.001.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
