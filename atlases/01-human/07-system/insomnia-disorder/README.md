@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine builds homeostatic sleep pressure (process S) during waking via A1R/A2AR on arousal neurons; caffeine (A1R/A2AR antagonist) promotes wakefulness by blocking this pressure — poor caffeine timing is a major behavioral contributor to insomnia onset and maintenance."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Chronic insomnia features HPA hyperarousal — elevated 24h urinary cortisol, blunted diurnal decline, and high evening cortisol; elevated cortisol at sleep onset opposes the core temperature drop required for sleep; CBT-I normalizes HPA hyperarousal in treatment responders."
 ---
 
 # Insomnia Disorder
@@ -194,6 +197,8 @@ CBT-I directly targets perpetuating factors.
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — insomnia involves VLPO failure to fully silence arousal centers (LC, TMN, raphe, orexin neurons), with the flip-flop switch remaining unstable; cortical hyperarousal at sleep onset is the core mechanism; CBT-I normalizes sleep-wake homeostasis by targeting perpetuating behavioral factors.
 
 - `connects-to` → **[Adenosine](../../../03-molecular/adenosine/README.md)** — adenosine builds homeostatic sleep pressure (process S) during waking via A1R/A2AR on arousal neurons; caffeine (A1R/A2AR antagonist) promotes wakefulness by blocking this pressure — poor caffeine timing is a major behavioral contributor to insomnia onset and maintenance.
+
+- `connects-to` → **[Cortisol](../../../03-molecular/cortisol/README.md)** — chronic insomnia features HPA hyperarousal: elevated 24h urinary cortisol, blunted diurnal cortisol decline, and elevated evening cortisol; high cortisol at sleep onset opposes the core body temperature drop required for sleep initiation; HPA hyperarousal normalizes with successful CBT-I treatment, validating it as a biomarker of therapeutic response.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

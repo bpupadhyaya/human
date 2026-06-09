@@ -74,6 +74,9 @@ cross_links:
   - target: 01-human/07-system/borderline-personality-disorder
     relation: connects-to
     note: "BPD shows HPA axis hyperreactivity to interpersonal stress — steeper cortisol increase and delayed recovery following social rejection; early trauma → HPA axis sensitization; elevated cortisol impairs PFC inhibitory control → impulsive behavior during emotional crises."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Chronic insomnia features HPA hyperarousal — elevated 24h urinary cortisol, blunted diurnal decline, and high evening cortisol; elevated cortisol at sleep onset opposes the core temperature drop required for sleep; CBT-I normalizes HPA hyperarousal in treatment responders."
   - target: 01-human/03-molecular/crh
     relation: modulated-by
     note: "CRH from PVN is the primary HPA axis trigger: PVN CRH → pituitary portal blood → CRHR1 → ACTH → adrenal cortisol; glucocorticoid negative feedback at pituitary and hypothalamic GR suppresses CRH/ACTH; disruption in MDD, PTSD, and Cushing's disease."
@@ -212,6 +215,8 @@ The diurnal cortisol rhythm is a **time-giver (Zeitgeber) signal** for periphera
 - `connects-to` → **[Anorexia Nervosa](../../07-system/anorexia-nervosa/README.md)** — HPA axis hyperactivation in AN → elevated cortisol → bone loss, immune suppression, and cognitive impairment; hypercortisolemia persists even when BMI partially normalizes; cortisol normalizes with sustained weight restoration and nutritional rehabilitation.
 - `connects-to` → **[Borderline Personality Disorder](../../07-system/borderline-personality-disorder/README.md)** — BPD shows HPA axis hyperreactivity to interpersonal stress — steeper cortisol increase and delayed recovery following social rejection; early trauma → HPA axis sensitization; elevated cortisol impairs PFC inhibitory control → impulsive behavior during emotional crises.
 
+- `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — chronic insomnia features HPA hyperarousal: elevated 24h urinary cortisol, blunted diurnal decline, and high evening cortisol; elevated cortisol at sleep onset opposes the core body temperature drop required for sleep initiation; successful CBT-I normalizes HPA hyperarousal, serving as a biological marker of treatment response.
+
 - `modulated-by` → **[CRH](../crh/README.md)** — CRH from PVN is the primary HPA axis trigger: PVN CRH → pituitary portal blood → CRHR1 → ACTH → adrenal cortisol synthesis; glucocorticoid negative feedback at pituitary and hypothalamic GR suppresses further CRH/ACTH release; disruption is central to MDD, PTSD, and Cushing's disease.
 
 ## Pathology
@@ -229,3 +234,6 @@ The diurnal cortisol rhythm is a **time-giver (Zeitgeber) signal** for periphera
 [^hench-1949-cortisone-arthritis]: Hench PS, Kendall EC, Slocumb CH, Polley HF. The effect of a hormone of the adrenal cortex (compound E) and of pituitary adrenocorticotropic hormone on rheumatoid arthritis. *Proc Staff Meet Mayo Clin.* 1949;24(8):181-97. [PubMed 18140699](https://pubmed.ncbi.nlm.nih.gov/18140699/)
 [^sapolsky-2000-stress-biology]: Sapolsky RM, Romero LM, Munck AU. How do glucocorticoids influence stress responses? Integrating permissive, suppressive, stimulatory, and preparative actions. *Endocr Rev.* 2000;21(1):55-89. [doi:10.1210/edrv.21.1.0389](https://doi.org/10.1210/edrv.21.1.0389)
 [^chrousos-1995-stress-hpa]: Chrousos GP. The hypothalamic-pituitary-adrenal axis and immune-mediated inflammation. *N Engl J Med.* 1995;333(20):1351-62. [doi:10.1056/NEJM199508033330504](https://doi.org/10.1056/NEJM199508033330504)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

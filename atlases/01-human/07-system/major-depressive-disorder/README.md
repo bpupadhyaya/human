@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "HPA hyperactivation in MDD — elevated CRH, cortisol, blunted dexamethasone suppression — causes hippocampal atrophy via GR-mediated BDNF suppression; normalizing cortisol (mifepristone, CRH antagonists) correlates with antidepressant response; cortisol predicts remission."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "CRH hyperdrive from PVN and CeA drives HPA hyperactivation in MDD; elevated CSF CRH and blunted DST are the most replicated biomarkers; CRHR1 antagonists reduce depressive symptoms in trials; CRH excess causes hippocampal BDNF suppression and dendritic atrophy."
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "BDNF deficiency is central to the neuroplasticity hypothesis of MDD: stress reduces hippocampal BDNF; antidepressants (SSRIs, MAOIs, ketamine) normalize BDNF; BDNF Val66Met SNP impairs activity-dependent secretion and increases MDD vulnerability to stress."
@@ -200,6 +203,8 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Norepinephrine](../../../03-molecular/norepinephrine/README.md)** — NE deficit underlies psychomotor retardation and concentration difficulty in MDD; SNRIs (venlafaxine, duloxetine) block NET to raise synaptic NE; mirtazapine (α2 antagonist) increases NE and 5-HT by blocking autoreceptors; melancholic depression preferentially responds to NE-targeting drugs.
 
 - `connects-to` → **[Cortisol](../../../03-molecular/cortisol/README.md)** — HPA axis hyperactivation in MDD — elevated CRH, cortisol, and blunted dexamethasone suppression — causes hippocampal atrophy via GR-mediated BDNF suppression; cortisol normalization predicts antidepressant response; mifepristone and CRH receptor antagonists are experimental antidepressants.
+
+- `connects-to` → **[CRH](../../../03-molecular/crh/README.md)** — CRH hyperdrive from PVN and CeA drives the HPA hyperactivation of MDD; elevated CSF CRH and blunted dexamethasone suppression are the most replicated biological findings in MDD; CRHR1 antagonists and mifepristone (GR antagonist) show antidepressant activity; CRH excess drives hippocampal BDNF suppression and dendritic retraction.
 
 - `connects-to` → **[BDNF](../../../03-molecular/bdnf/README.md)** — BDNF deficiency is central to the neuroplasticity hypothesis of MDD; stress reduces hippocampal BDNF via glucocorticoid-mediated CREB repression; all effective antidepressants (SSRIs, MAOIs, ketamine, ECT) ultimately normalize BDNF; Val66Met SNP increases MDD vulnerability.
 
