@@ -325,6 +325,9 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "SIgA is the effector arm of mucosal immunity: pIgR transcytoses dimeric IgA across epithelium; 3-5 g/day secreted into gut lumen; immune exclusion is the primary mucosal defense before systemic IgG; selective IgA deficiency → recurrent respiratory and GI infections."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "C1-INH is a central innate immunity regulator: inhibits classical C1r/C1s (preventing C3 convertase formation) and contact FXII/kallikrein (preventing bradykinin-driven inflammation); C1-INH maintains homeostasis between complement activation and vascular integrity."
 ---
 
 # Immune System
@@ -421,6 +424,7 @@ After primary response contraction, long-lived memory cells persist:
 - `damaged-by` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV-1 is the paradigmatic cause of acquired immunodeficiency: selectively depletes CD4⁺ T helper cells via gp120/CD4/CCR5 entry → AIDS-defining opportunistic infections; residual immune dysregulation (T cell exhaustion, monocyte activation, chronic inflammation) persists even with fully suppressive ART.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — IL-10 is the prototypical anti-inflammatory cytokine produced by Tregs, M2 macrophages, and Bregs; IL-10/STAT3 → NF-κB suppression in macrophages → ↓pro-inflammatory cytokines; IL-10 deficiency → colitis and autoimmunity; IL-10 excess → tumor immunosuppression.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — SIgA is the effector arm of mucosal immunity: pIgR transcytoses dimeric IgA across epithelium; 3-5 g/day secreted into gut lumen; immune exclusion is the primary mucosal defense before systemic IgG; selective IgA deficiency → recurrent respiratory and GI infections.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — C1-INH is a central innate immunity regulator: inhibits classical C1r/C1s (preventing C3 convertase formation) and contact FXII/kallikrein (preventing bradykinin-driven inflammation); C1-INH maintains homeostasis between complement activation and vascular integrity.
 
 ## Pathology
 
@@ -466,3 +470,7 @@ When central and peripheral tolerance fail, self-reactive T and B cells escape d
 [^iwasaki-medzhitov-2015]: Iwasaki A, Medzhitov R. Control of adaptive immunity by the innate immune system. *Nat Immunol.* 2015;16(4):343-53. [doi:10.1038/ni.3123](https://doi.org/10.1038/ni.3123) · [PubMed 25789684](https://pubmed.ncbi.nlm.nih.gov/25789684/)
 [^akbar-2016-immune-memory]: Akbar AN, Gilroy DW. Aging immunity may exacerbate COVID-19. *Science.* 2020;369(6501):256-257. [doi:10.1126/science.abb0762](https://doi.org/10.1126/science.abb0762) · [PubMed 32675364](https://pubmed.ncbi.nlm.nih.gov/32675364/)
 [^who-immunology-2012]: World Health Organization / NIH. Understanding the Immune System: How It Works. NIH Publication No. 03-5423. [Read online →](https://www.niaid.nih.gov/sites/default/files/theimmunesystem.pdf)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

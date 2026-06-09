@@ -82,6 +82,9 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: target-of
     note: "Neutralizing IgG antibodies targeting the spike RBD (and S2 fusion domain) are the primary adaptive humoral defense against SARS-CoV-2; anti-spike IgG titers correlate with protection against reinfection and severe disease."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "SARS-CoV-2 activates contact activation; bradykinin hypothesis proposes FXII/kallikrein → bradykinin excess in COVID-19 vascular disease; low ACE2 → reduced bradykinin degradation → vascular permeability; C1-INH concentrate explored for COVID-19 vascular complications and ARDS."
 ---
 
 # SARS-CoV-2 (cardiac effects)
@@ -161,6 +164,7 @@ Long COVID cardiac symptoms (palpitations, orthostatic tachycardia, dyspnea on e
 - **Infects** → [Cardiomyocyte](../../../01-human/04-cellular/cardiomyocyte/README.md): ACE2-dependent SARS-CoV-2 entry; direct cardiomyocyte infection confirmed in autopsy specimens; functional consequences include contraction impairment and troponin release.
 - **Damages** → [Myocardium](../../../01-human/05-tissue/myocardium/README.md): Lymphocytic myocarditis, macrophage infiltration, microvascular injury, edema, late gadolinium enhancement on CMR.
 - **Damages** → [Cardiovascular System](../../../01-human/07-system/cardiovascular-system/README.md): Systemic endotheliopathy, coagulopathy, pulmonary hypertension, acute MI, atrial fibrillation, right heart failure.
+- `connects-to` → **[C1-Esterase Inhibitor](../../../01-human/03-molecular/c1-esterase-inhibitor/README.md)** — SARS-CoV-2 activates contact activation; bradykinin hypothesis proposes FXII/kallikrein → bradykinin excess in COVID-19 vascular disease; low ACE2 → reduced bradykinin degradation → vascular permeability; C1-INH concentrate explored for COVID-19 vascular complications and ARDS.
 
 ## See Also
 
@@ -172,3 +176,7 @@ Long COVID cardiac symptoms (palpitations, orthostatic tachycardia, dyspnea on e
 [^lindner-2020-cardiac-involvement]: Lindner D, Fitzek A, Brauninger H, et al. Association of cardiac infection with SARS-CoV-2 in confirmed COVID-19 autopsy cases. *JAMA Cardiol.* 2020;5(11):1281-5. [doi:10.1001/jamacardio.2020.3551](https://doi.org/10.1001/jamacardio.2020.3551) · [PubMed 32730555](https://pubmed.ncbi.nlm.nih.gov/32730555/)
 [^giustino-2020-cardiac-complications]: Giustino G, Croft LB, Stefanini GG, et al. Characterization of myocardial injury in patients with COVID-19. *J Am Coll Cardiol.* 2020;76(18):2043-55. [doi:10.1016/j.jacc.2020.08.069](https://doi.org/10.1016/j.jacc.2020.08.069) · [PubMed 33121713](https://pubmed.ncbi.nlm.nih.gov/33121713/)
 [^eiros-2020-myocarditis-cmr]: Eiros R, Barreiro-Perez M, Martin-Garcia A, et al. Pericarditis and myocarditis long after SARS-CoV-2 infection. *medRxiv.* 2020. [doi:10.1101/2020.07.12.20151316](https://doi.org/10.1101/2020.07.12.20151316)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

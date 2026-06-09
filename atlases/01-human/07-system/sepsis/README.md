@@ -55,6 +55,9 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "cTnI and cTnT are elevated in 40-85% of septic patients reflecting cardiomyocyte injury from hypoperfusion, inflammatory cytokines, and ROS; sepsis-induced cardiomyopathy causes new LV dysfunction; troponin elevation in sepsis independently predicts ICU mortality."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "In sepsis, contact activation (FXII → kallikrein → bradykinin) contributes to vascular leak; C1-INH levels fall during severe sepsis from consumption; C1-INH concentrate investigated for sepsis capillary leak; C1-INH inhibits complement and contact activation in septic shock."
 ---
 
 # Sepsis
@@ -174,6 +177,7 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — IL-10 mediates the immunosuppressive phase of sepsis: inflammatory peak → IL-10 surge → macrophage STAT3 → ↓TNF-α, ↓IL-1β, ↓IL-12 → immunoparalysis → secondary nosocomial infections; elevated day-1 IL-10 predicts mortality; PD-1/PD-L1 co-upregulation amplifies immunosuppression.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 released from Weibel-Palade bodies in sepsis → Tie2 destabilization → VE-cadherin cleavage → vascular hyperpermeability → organ edema; plasma Ang-2 >10 ng/mL on day 1 predicts ICU mortality; high Ang-2/Ang-1 ratio defines the severe vascular leak phenotype.
 - `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — cTnI and cTnT are elevated in 40-85% of septic patients reflecting cardiomyocyte injury from hypoperfusion, inflammatory cytokines, and ROS; sepsis-induced cardiomyopathy causes new LV dysfunction; troponin elevation in sepsis independently predicts ICU mortality.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — In sepsis, contact activation (FXII → kallikrein → bradykinin) contributes to vascular leak; C1-INH levels fall during severe sepsis from consumption; C1-INH concentrate investigated for sepsis capillary leak; C1-INH inhibits complement and contact activation in septic shock.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

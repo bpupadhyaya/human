@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "C1-INH inhibits contact activation: FXII (Hageman factor) and FXIa → limiting intrinsic coagulation; C1-INH also inhibits plasma kallikrein (shared FXII/kallikrein pathway); deficiency → FXII activation → kallikrein → bradykinin (not thrombin) is the primary effector."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "In sepsis, contact activation (FXII → kallikrein → bradykinin) contributes to vascular leak; C1-INH levels fall during severe sepsis from consumption; C1-INH concentrate investigated for sepsis capillary leak; C1-INH inhibits complement and contact activation in septic shock."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "C1-INH is a central innate immunity regulator: inhibits classical C1r/C1s (preventing C3 convertase formation) and contact FXII/kallikrein (preventing bradykinin-driven inflammation); C1-INH maintains homeostasis between complement activation and vascular integrity."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "SARS-CoV-2 activates contact activation; bradykinin hypothesis proposes FXII/kallikrein → bradykinin excess in COVID-19 vascular disease; low ACE2 → reduced bradykinin degradation → vascular permeability; C1-INH concentrate explored for COVID-19 vascular complications and ARDS."
 ---
 
 # C1-Esterase Inhibitor
@@ -144,6 +153,9 @@ C1-INH prevents inappropriate classical pathway activation by regulating the act
 - `connects-to` → **[Hereditary Angioedema](../../07-system/hereditary-angioedema/README.md)** — C1-INH deficiency (type I: low antigen + activity; type II: low activity, normal antigen) → uncontrolled FXII/kallikrein → bradykinin excess → B2R-mediated vascular permeability → HAE attacks; icatibant, C1-INH concentrate, berotralstat, and lanadelumab are therapeutic targets.
 - `connects-to` → **[Complement C3](../complement-c3/README.md)** — C1-INH inhibits C1r and C1s (classical pathway C1 complex) → prevents C4/C2 cleavage → prevents classical C3 convertase formation; C1-INH deficiency → chronic low-level C4 consumption → low C4 (even between attacks) is the hallmark screening test for HAE type I and II.
 - `connects-to` → **[Thrombin](../thrombin/README.md)** — C1-INH inhibits contact activation: FXII (Hageman factor) and FXIa → limiting intrinsic coagulation; C1-INH also inhibits plasma kallikrein (shared FXII/kallikrein pathway); deficiency → FXII activation → kallikrein → bradykinin (not thrombin) is the primary effector.
+- `connects-to` → **[Sepsis](../../07-system/sepsis/README.md)** — In sepsis, contact activation (FXII → kallikrein → bradykinin) contributes to vascular leak; C1-INH levels fall during severe sepsis from consumption; C1-INH concentrate investigated for sepsis capillary leak; C1-INH inhibits complement and contact activation in septic shock.
+- `connects-to` → **[Immune System](../../07-system/immune-system/README.md)** — C1-INH is a central innate immunity regulator: inhibits classical C1r/C1s (preventing C3 convertase formation) and contact FXII/kallikrein (preventing bradykinin-driven inflammation); C1-INH maintains homeostasis between complement activation and vascular integrity.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — SARS-CoV-2 activates contact activation; bradykinin hypothesis proposes FXII/kallikrein → bradykinin excess in COVID-19 vascular disease; low ACE2 → reduced bradykinin degradation → vascular permeability; C1-INH concentrate explored for COVID-19 vascular complications and ARDS.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
