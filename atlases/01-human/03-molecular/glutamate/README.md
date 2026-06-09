@@ -78,6 +78,9 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Alcohol inhibits NMDA receptors (NR2B) → blackouts; chronic use → compensatory NMDA upregulation; abrupt withdrawal → glutamate excitotoxicity → seizures and Wernicke-Korsakoff syndrome; acamprosate normalizes NMDA/GABA balance in protracted abstinence."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Chronic opioid potentiates corticostriatal glutamatergic synapses → LTP underlying craving and drug-cue reactivity; AMPA receptor upregulation in NAcc drives relapse-associated excitability; mGluR5 antagonists reduce cue-triggered reinstatement of opioid seeking in rodents."
 ---
 
 # Glutamate
@@ -172,6 +175,7 @@ In ischemia, oxygen/glucose deprivation reverses ion gradients and drives massiv
 - `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — excessive amygdala glutamatergic activity drives hypervigilance and threat anticipation in GAD; pregabalin reduces glutamate/substance P release via α2δ VGCC blockade; elevated ACC glutamate (MRS) contributes to worry maintenance; NMDA receptors mediate fear extinction learning.
 - `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — NMDA receptor activation in BLA mediates fear memory consolidation; excessive glutamate signaling amplifies amygdala hyperreactivity; D-cycloserine (partial NMDA agonist) enhances extinction learning in CBT augmentation trials for panic disorder.
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol inhibits NMDA receptors (NR2B) → blackouts; chronic use → compensatory NMDA upregulation; abrupt withdrawal → glutamate excitotoxicity → seizures and Wernicke-Korsakoff syndrome; acamprosate normalizes NMDA/GABA balance in protracted abstinence.
+- `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — chronic opioid potentiates corticostriatal glutamatergic synapses → LTP underlying craving and drug-cue reactivity; AMPA receptor upregulation in NAcc drives relapse-associated excitability; mGluR5 antagonists reduce cue-triggered reinstatement of opioid seeking in rodents.
 
 ## Pathology
 

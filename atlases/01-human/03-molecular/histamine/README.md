@@ -35,6 +35,12 @@ cross_links:
   - target: 03-medicine/03-food/quercetin
     relation: modulated-by
     note: "Modulated by Quercetin."
+  - target: 01-human/03-molecular/orexin
+    relation: modulated-by
+    note: "Orexin neurons in lateral hypothalamus excite TMN histamine neurons via OX2R → H1-mediated cortical wakefulness; orexin is upstream activator of histamine; reduced orexin in narcolepsy → impaired TMN drive → fragmented wakefulness; DORAs block orexin input to TMN indirectly."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "H1 receptors on cortical neurons maintain arousal via TMN projections; low-dose doxepin (3-6mg) is FDA-approved for sleep-maintenance insomnia via selective H1 blockade; OTC diphenhydramine blocks H1 but causes next-day grogginess and anticholinergic effects in elderly."
 ---
 
 # Histamine
@@ -143,6 +149,8 @@ H2R (Gs) → Gαs → **adenylyl cyclase** → ↑cAMP → **PKA** → phosphory
 - `modulates` → **[immune-system](../../07-system/immune-system/README.md)** — primary mediator of type I hypersensitivity; IgE-FcεRI→degranulation; H1/H2/H4 coordinate vascular permeability, chemotaxis, smooth muscle tone, and lymphocyte trafficking [^janeway-immunobiology]
 - `modulates` → **[nervous-system](../../07-system/nervous-system/README.md)** — TMN histaminergic projection to cortex promotes wakefulness; H3 autoreceptors regulate release; sedating first-generation antihistamines cross BBB and block H1 [^stryer-biochemistry]
 - `modulates` → **[dendritic-cell](../../04-cellular/dendritic-cell/README.md)** — H1/H2 receptors on DCs modulate Th1/Th2 polarisation; H4 drives chemotaxis; histamine promotes DC migration to lymph nodes in allergic responses [^janeway-immunobiology]
+- `modulated-by` → **[Orexin](../orexin/README.md)** — orexin neurons excite TMN histamine neurons via OX2R → H1-mediated cortical wakefulness; orexin is the primary upstream activator of histamine's wake-promoting function; DORAs (suvorexant, lemborexant) indirectly reduce TMN histamine drive.
+- `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — H1 receptors on cortical neurons maintain arousal via TMN projections; low-dose doxepin (3-6mg) is FDA-approved for sleep-maintenance insomnia via selective H1 blockade; OTC diphenhydramine blocks H1 but causes grogginess and anticholinergic effects in elderly.
 
 ## Pathology
 

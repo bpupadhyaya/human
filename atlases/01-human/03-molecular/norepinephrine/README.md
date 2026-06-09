@@ -50,6 +50,12 @@ cross_links:
   - target: 01-human/07-system/social-anxiety-disorder
     relation: connects-to
     note: "Adrenergic surge in social situations causes blushing, tremor, and sweating; propranolol (β1 antagonist) reduces somatic performance anxiety; NE amplifies amygdala reactivity to social threat; venlafaxine XR (SNRI) addresses both NE hyperarousal and serotonin dysregulation."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "μ-opioid receptors on LC suppress NE during opioid use; abrupt cessation → LC rebound → excess NE → withdrawal (diaphoresis, piloerection, tachycardia, diarrhea, anxiety); clonidine and lofexidine (α2 agonists) reduce LC hyperactivation and are FDA-approved for opioid withdrawal."
+  - target: 01-human/03-molecular/orexin
+    relation: modulated-by
+    note: "Orexin strongly excites LC neurons via OX2R → sustained NE release → cortical arousal and attention; LC is the primary orexin target for NE-mediated arousal; reduced orexin input in narcolepsy → impaired LC activation → excessive daytime sleepiness and impaired alerting."
 ---
 
 # Norepinephrine
@@ -159,6 +165,8 @@ NE
 - `connects-to` → **[Generalized Anxiety Disorder](../../07-system/generalized-anxiety-disorder/README.md)** — locus coeruleus NE hyperactivity drives sympathetic arousal, hypervigilance, and somatic anxiety in GAD; SNRIs (duloxetine, venlafaxine) treat GAD via dual NE + 5-HT reuptake inhibition; propranolol reduces peripheral β-adrenergic anxiety manifestations.
 - `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — LC hyperactivation drives tachycardia, chest tightness, and hyperarousal via α1-NE stimulation in amygdala; yohimbine (α2 antagonist) reliably provokes panic attacks in PD patients; propranolol reduces somatic symptoms; clonidine reduces LC firing.
 - `connects-to` → **[Social Anxiety Disorder](../../07-system/social-anxiety-disorder/README.md)** — adrenergic surge in social situations causes blushing, tremor, and sweating; propranolol (β1 antagonist) reduces somatic performance anxiety; NE amplifies amygdala reactivity to social threat; venlafaxine XR (SNRI) addresses both NE hyperarousal and serotonin dysregulation.
+- `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — μ-opioid receptors on LC suppress NE during opioid use; abrupt cessation → LC rebound hyperactivation → excess NE → withdrawal (diaphoresis, piloerection, tachycardia, diarrhea, anxiety); clonidine and lofexidine (α2 agonists) are FDA-approved for opioid withdrawal.
+- `modulated-by` → **[Orexin](../orexin/README.md)** — orexin strongly excites LC neurons via OX2R → sustained NE release → cortical arousal and attention; LC is the primary orexin target for NE-mediated arousal; reduced orexin in narcolepsy → impaired LC activation → excessive daytime sleepiness.
 - **Modulates cardiovascular system** — NE is the principal sympathetic vasoconstrictor — activates vascular smooth muscle α₁AR → ↑peripheral resistance; maintains basal vascular tone; IV NE (vasopressor) used in septic shock. See [cardiovascular-system](../../07-system/cardiovascular-system/README.md).
 - **Modulated by dopamine** — Norepinephrine is synthesised from dopamine by DβH in synaptic vesicles; the DA:NE ratio in sympathetic terminals is governed by DβH activity and vesicular transport capacity. See [dopamine](../dopamine/README.md).
 

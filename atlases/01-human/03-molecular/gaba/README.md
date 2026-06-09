@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Alcohol potentiates GABA-A → sedation and tolerance; chronic use → GABA-A downregulation; abrupt cessation → GABA-A insufficiency → withdrawal seizures (6-48h) and delirium tremens (24-72h); GABRA2 (α2 subunit) polymorphisms are the strongest GWAS hit for AUD."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "μ-opioid receptors on VTA GABAergic interneurons mediate euphoric disinhibition; chronic opioid → tolerance at MOR on GABA interneurons; buprenorphine (partial MOR agonist) provides stable DA tone without the high-reinforcement surge of full agonist opioids."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Z-drugs (zolpidem, zaleplon, eszopiclone) and benzodiazepines are GABA-A positive allosteric modulators highly effective for insomnia but carry tolerance, rebound insomnia, and dependency risks; CBT-I is preferred because it normalizes sleep without GABA-A pharmacology."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "VLPO GABAergic neurons inhibit orexin neurons during sleep; mutual inhibition between VLPO and arousal centers (including orexin) creates a bistable sleep-wake flip-flop switch; DORAs block orexin without GABA-A modulation — avoiding tolerance and dependence."
 ---
 
 # GABA
@@ -196,6 +205,9 @@ When E/I balance shifts toward excess excitation (loss of GABAergic interneurons
 - `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — GABA-A activation by benzodiazepines (clonazepam, alprazolam) rapidly terminates panic attacks; reduced BZ binding in temporal lobe in PD suggests a GABAergic deficit; BZDs bridge therapy while SSRIs take effect but avoided long-term due to dependence and impaired fear extinction.
 - `connects-to` → **[Social Anxiety Disorder](../../07-system/social-anxiety-disorder/README.md)** — benzodiazepines (clonazepam) are effective for SAD but dependency concerns limit use; GABAergic deficits in limbic circuits may impair amygdala threat dampening in social situations; pregabalin and gabapentin show evidence for SAD as GABAergic alternatives.
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol potentiates GABA-A → sedation and tolerance; chronic use → GABA-A downregulation → tolerance; abrupt cessation → GABA-A insufficiency → withdrawal seizures (6–48h) and delirium tremens; GABRA2 polymorphisms are the strongest GWAS association with AUD.
+- `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — μ-opioid receptors on VTA GABAergic interneurons mediate euphoric disinhibition; chronic opioid → tolerance at MOR on GABA interneurons; buprenorphine (partial MOR agonist) provides stable DA tone without high-reinforcement surge of full agonist opioids.
+- `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — Z-drugs (zolpidem, zaleplon, eszopiclone) and benzodiazepines enhance GABA-A function and are highly effective for insomnia but carry tolerance, rebound insomnia, and dependency risks; CBT-I normalizes sleep without pharmacological GABA-A modulation.
+- `connects-to` → **[Orexin](../orexin/README.md)** — VLPO GABAergic neurons inhibit orexin neurons during sleep; mutual inhibition between VLPO and arousal centers (including orexin) creates a bistable sleep-wake flip-flop switch; DORAs block orexin without GABA-A modulation — avoiding tolerance and dependence.
 
 ## Pathology
 

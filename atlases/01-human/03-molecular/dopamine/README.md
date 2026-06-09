@@ -73,6 +73,12 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Alcohol stimulates VTA dopamine release → NAcc → euphoria and positive reinforcement; DRD2 Taq1A A1 allele → reduced D2 receptor density → compensatory drinking; naltrexone blocks opioid-mediated VTA DA release → reduces alcohol reward and craving."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "μ-opioid receptor activation on VTA GABAergic interneurons → disinhibition → increased VTA DA firing → NAcc dopamine surge → euphoria; chronic use → reward hypofunction → anhedonia; naltrexone (MOR antagonist) blocks this disinhibition → reduces opioid reward."
+  - target: 01-human/03-molecular/orexin
+    relation: modulated-by
+    note: "OX1R in VTA activates mesolimbic dopamine → NAcc DA release → reinforces wakefulness and reward-seeking; orexin drives cue-induced drug reinstatement via the OX1R-VTA-DA axis; OX1R antagonists reduce alcohol, cocaine, and opioid seeking in preclinical models."
 ---
 
 # Dopamine
@@ -169,6 +175,8 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `connects-to` → **[ADHD](../../07-system/attention-deficit-hyperactivity-disorder/README.md)** — ADHD involves hypofunctional PFC D1 receptor signaling impairing working memory; methylphenidate blocks DAT and amphetamines actively release DA; COMT Val158Met SNP (rapid catabolism) increases ADHD risk; striatal DA deficit reduces motivation for deferred rewards, driving impulsivity.
 - `connects-to` → **[Social Anxiety Disorder](../../07-system/social-anxiety-disorder/README.md)** — reduced D2 binding in striatum in SAD (SPECT) → impaired social reward processing and anhedonia; dopaminergic deficits distinguish SAD from other anxiety disorders; blunted approach motivation reinforces avoidance; MAOIs may be highly effective via dopamine disinhibition.
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol stimulates VTA dopamine release → NAcc → euphoria and positive reinforcement; DRD2 Taq1A A1 allele → reduced D2 density → compensatory drinking; naltrexone blocks opioid-mediated VTA DA disinhibition → reduces alcohol reward and craving.
+- `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — μ-opioid receptor activation on VTA GABAergic interneurons → disinhibition → increased VTA DA firing → NAcc dopamine surge → euphoria; chronic use → reward hypofunction → anhedonia; naltrexone (MOR antagonist) blocks this disinhibition → reduces opioid reward.
+- `modulated-by` → **[Orexin](../orexin/README.md)** — OX1R in VTA activates mesolimbic dopamine → NAcc DA release → reinforces wakefulness and reward-seeking; orexin drives cue-induced drug reinstatement via the OX1R-VTA-DA axis; OX1R antagonists reduce alcohol, cocaine, and opioid seeking in preclinical models.
 
 ## Pathology
 

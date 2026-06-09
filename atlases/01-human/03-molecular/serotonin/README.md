@@ -72,6 +72,12 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Reduced serotonin in AUD → disinhibition and impulsivity; 5-HT3 receptors in NAcc amplify dopamine reward; ondansetron (5-HT3 antagonist) has modest efficacy in early-onset AUD (≤25 years); SSRIs are ineffective in AUD without comorbid depression."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Trazodone (5-HT2A antagonist + α1/H1 blocker) is the most prescribed off-label insomnia medication; 5-HT2A blockade shifts sleep architecture toward slow-wave sleep; raphe serotonin promotes wakefulness during day and transitions to sleep-onset at night."
+  - target: 01-human/03-molecular/orexin
+    relation: modulated-by
+    note: "Orexin excites dorsal raphe serotonin neurons via OX2R → 5-HT → wakefulness and emotional arousal; serotonin reciprocally inhibits orexin neurons; sodium oxybate consolidates sleep in narcolepsy partly via complex serotonergic mechanisms."
 ---
 
 # Serotonin
@@ -187,6 +193,8 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — SSRIs are first-line for panic disorder via raphe-amygdala serotonin modulation of the fear circuit; paradoxical jitteriness in initial weeks requires starting low and titrating slowly; paroxetine and sertraline have strong evidence; clomipramine (5-HT/NE TCA) is highly effective.
 - `connects-to` → **[Social Anxiety Disorder](../../07-system/social-anxiety-disorder/README.md)** — reduced SERT binding in amygdala and striatum in SAD; SSRIs (paroxetine, sertraline FDA-approved; escitalopram, venlafaxine XR evidence-based) are first-line; serotonergic modulation of amygdala reduces social threat hyperreactivity and improves social approach.
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — reduced serotonin in AUD → disinhibition and impulsivity; 5-HT3 receptors in NAcc amplify dopamine reward; ondansetron (5-HT3 antagonist) has modest efficacy in early-onset AUD; SSRIs are ineffective in AUD without comorbid depression.
+- `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — trazodone (5-HT2A antagonist + α1/H1 blocker) is the most commonly prescribed off-label insomnia medication; 5-HT2A blockade shifts sleep architecture toward slow-wave sleep; raphe serotonin promotes wakefulness during day and transitions at sleep onset.
+- `modulated-by` → **[Orexin](../orexin/README.md)** — orexin excites dorsal raphe serotonin neurons via OX2R → 5-HT → wakefulness and emotional arousal; serotonin reciprocally inhibits orexin neurons; sodium oxybate (narcolepsy) consolidates sleep partly via serotonergic mechanisms.
 
 ## Pathology
 

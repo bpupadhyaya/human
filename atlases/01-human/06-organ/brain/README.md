@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "AUD weakens PFC-NAcc inhibitory control circuits; amygdala CRF hyperactivation drives negative reinforcement drinking; hippocampal neurogenesis is suppressed by chronic alcohol; partial brain volume recovery occurs after ≥6 months of sustained abstinence."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "OUD remodels VTA-NAcc reward circuits (MOR disinhibition), LC (NE rebound withdrawal), PFC control circuits (craving-driven approach), and amygdala (conditioned fear of withdrawal); buprenorphine and naltrexone normalize these circuit abnormalities over months of treatment."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Insomnia involves VLPO failure to silence arousal centers (LC, TMN, raphe, orexin neurons) — the flip-flop switch remains unstable; cortical hyperarousal at sleep onset on EEG (elevated beta power) is the core mechanism; CBT-I normalizes sleep-wake homeostasis."
+  - target: 01-human/03-molecular/orexin
+    relation: contains
+    note: "Orexin neurons are confined to the lateral hypothalamus and project to LC, TMN, raphe, basal forebrain, and VTA; loss of ~70,000 orexin neurons in narcolepsy type 1 is the most precisely characterized lesion underlying a primary sleep disorder."
 ---
 
 # Brain
@@ -203,6 +212,9 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[Panic Disorder](../../07-system/panic-disorder/README.md)** — panic disorder features BLA hyperreactivity to interoceptive and CO2 stimuli, insula hyperactivation, reduced vmPFC control over amygdala, and LC-NE dysregulation; CBT with interoceptive exposure normalizes amygdala-insula reactivity on fMRI over 12+ weeks.
 - `connects-to` → **[Social Anxiety Disorder](../../07-system/social-anxiety-disorder/README.md)** — SAD features BLA hyperreactivity to social threat cues and reduced amygdala habituation to repeated faces; striatal hypoactivation during social reward; reduced vmPFC-amygdala inhibition; CBT normalizes amygdala-vmPFC connectivity on task-based fMRI.
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — AUD weakens PFC-NAcc inhibitory control circuits; amygdala CRF hyperactivation drives negative reinforcement drinking; hippocampal neurogenesis is suppressed by chronic alcohol; partial brain volume recovery occurs after ≥6 months of sustained abstinence.
+- `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — OUD remodels VTA-NAcc reward circuits (MOR disinhibition), LC (NE rebound withdrawal), PFC control circuits (craving-driven approach behavior), and amygdala (conditioned fear of withdrawal); buprenorphine and naltrexone normalize these abnormalities over months of treatment.
+- `connects-to` → **[Insomnia Disorder](../../07-system/insomnia-disorder/README.md)** — insomnia involves VLPO failure to silence arousal centers (LC, TMN, raphe, orexin neurons) — the flip-flop switch remains unstable; cortical hyperarousal at sleep onset (elevated EEG beta power) is the core mechanism; CBT-I normalizes sleep-wake homeostasis.
+- `contains` → **[Orexin](../../03-molecular/orexin/README.md)** — orexin neurons are confined to the lateral hypothalamus and project broadly to LC, TMN, raphe, basal forebrain, and VTA; loss of ~70,000 orexin neurons in narcolepsy type 1 is the most precisely characterized lesion in a primary sleep disorder.
 
 ## Pathology
 
