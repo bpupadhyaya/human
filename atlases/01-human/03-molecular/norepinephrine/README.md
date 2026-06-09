@@ -71,6 +71,9 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Alcohol withdrawal → NE hyperactivation → autonomic instability (tachycardia, hypertension, diaphoresis) — core CIWA-Ar symptoms; clonidine (α2 agonist) reduces LC-NE firing during withdrawal; chronic alcohol disrupts NE autoreceptor sensitivity and NE synthesis capacity."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "NE mediates gambling arousal (tachycardia, cortisol surge during near-miss events); elevated urinary MHPG during gambling episodes; naltrexone and nalmefene reduce NE-driven arousal; bupropion (NE/DA reuptake inhibitor) modestly reduces gambling urges in some trials."
 ---
 
 # Norepinephrine
@@ -191,6 +194,7 @@ NE
 - `connects-to` → **[CRH](../crh/README.md)** — extra-hypothalamic CRH activates CRHR1 on LC neurons → NE release → cortical arousal and stress vigilance; LC NE projects back to PVN to amplify CRH release (feedforward loop); CRH-LC activation underlies stress-induced hyperarousal in PTSD, panic, and anxiety disorders.
 
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol withdrawal → NE hyperactivation → autonomic instability (tachycardia, hypertension, diaphoresis) — core CIWA-Ar symptoms; clonidine (α2 agonist) reduces LC-NE firing during withdrawal; chronic alcohol disrupts NE autoreceptor sensitivity and NE synthesis capacity.
+- `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — NE mediates the arousal component of gambling (tachycardia, cortisol surge during near-miss events); elevated urinary MHPG (NE metabolite) documented during gambling episodes; naltrexone and nalmefene reduce NE-driven arousal; bupropion (NE/DA reuptake inhibitor) modestly reduces gambling urges.
 
 ## Pathology
 

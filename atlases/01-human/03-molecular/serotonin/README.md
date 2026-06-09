@@ -93,6 +93,9 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "SSRIs (sertraline, paroxetine) are FDA-approved for PTSD; 5-HT modulates vmPFC fear extinction; serotonin dysregulation contributes to PTSD hyperarousal, emotional numbing, and sleep disturbance; SNRIs (venlafaxine) also have good evidence for PTSD symptom reduction."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Serotonin hypofunction contributes to impulsivity and loss of behavioral inhibition in gambling disorder; 5-HT1B knockout mice show increased risk-taking; fluvoxamine and paroxetine showed modest efficacy in small trials; comorbid depression or OCD may respond to SSRIs."
 ---
 
 # Serotonin
@@ -216,6 +219,7 @@ Peripheral 5-HT cannot cross the blood-brain barrier, yet peripheral serotonin s
 - `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — cocaine blocks SERT → ↑ synaptic 5-HT in limbic circuits; MDMA reverses SERT → massive 5-HT/DA release → empathogenic effects; chronic MDMA causes SERT downregulation and serotonergic neurotoxicity; serotonergic modulation influences relapse vulnerability in stimulant use disorder.
 
 - `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — SSRIs (sertraline, paroxetine) are FDA-approved for PTSD; 5-HT modulates vmPFC fear extinction; serotonin dysregulation contributes to PTSD hyperarousal, emotional numbing, and sleep disturbance; SNRIs (venlafaxine) also have good evidence for PTSD symptom reduction.
+- `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — serotonin hypofunction contributes to impulsivity and loss of behavioral inhibition in gambling disorder; 5-HT1B knockout mice show increased risk-taking; fluvoxamine and paroxetine showed modest efficacy in small RCTs; SSRIs are more effective in gambling disorder comorbid with depression or OCD.
 
 ## Pathology
 

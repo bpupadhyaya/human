@@ -67,6 +67,12 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Repeated stimulant use → ΔFosB accumulation in NAcc → altered BDNF expression; BDNF in VTA sensitizes stimulant reward; withdrawal-phase BDNF changes contribute to depression and craving; BDNF/TrkB signaling is a target in relapse prevention research."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "CB1R stimulation activates ERK/Akt pathways that regulate BDNF transcription; 2-AG-CB1R signaling supports hippocampal LTP and BDNF-dependent synaptic plasticity; chronic THC suppresses hippocampal BDNF in adolescent models, impairing neurogenesis and fear extinction."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Chronic THC reduces hippocampal BDNF in adolescent models, impairing synaptic plasticity; adolescent cannabis use is associated with greater BDNF-related hippocampal vulnerability; abstinence partially restores BDNF-dependent plasticity over weeks to months."
 ---
 
 # BDNF
@@ -203,6 +209,10 @@ The ratio of proBDNF to mature BDNF in synapses has opposing functional conseque
 **→ [Anorexia Nervosa](../../07-system/anorexia-nervosa/)**: BDNF Val66Met SNP is associated with severe early-onset AN; hypothalamic BDNF in PVN regulates appetite suppression via TrkB; serum BDNF is reduced in acute AN and partially normalizes with weight restoration; BDNF dysregulation may contribute to appetite circuit dysfunction in AN.
 
 **→ [Stimulant Use Disorder](../../07-system/stimulant-use-disorder/)**: repeated cocaine/amphetamine drives ΔFosB accumulation in NAcc → altered BDNF/TrkB expression; BDNF in VTA sensitizes stimulant reward while BDNF in NAcc may paradoxically oppose cocaine reinforcement; withdrawal-phase BDNF changes contribute to depression and craving; BDNF is a therapeutic target for relapse prevention.
+
+**→ [Endocannabinoid System](../../03-molecular/endocannabinoid/)**: CB1R stimulation activates ERK/Akt signaling cascades that drive BDNF transcription; 2-AG-CB1R signaling in hippocampus supports LTP and BDNF-dependent synaptic plasticity; chronic THC suppresses hippocampal BDNF and CREB phosphorylation in adolescent models, impairing neurogenesis and fear extinction memory.
+
+**→ [Cannabis Use Disorder](../../07-system/cannabis-use-disorder/)**: chronic THC exposure reduces hippocampal BDNF in adolescent animal models, impairing synaptic plasticity and neurogenesis; adolescent cannabis use is associated with greater BDNF-related hippocampal structural vulnerability than adult-onset use; abstinence partially restores BDNF-dependent plasticity over weeks to months.
 
 [^barde-1982-bdnf-discovery]: Barde YA, Edgar D, Thoenen H. Purification of a new neurotrophic factor from mammalian brain. *EMBO J.* 1982;1(5):549-553. [doi:10.1002/j.1460-2075.1982.tb01207.x](https://doi.org/10.1002/j.1460-2075.1982.tb01207.x) · [PubMed 7188352](https://pubmed.ncbi.nlm.nih.gov/7188352/)
 [^duman-2012-bdnf-depression]: Duman RS, Aghajanian GK. Synaptic dysfunction in depression: potential therapeutic targets. *Science.* 2012;338(6103):68-72. [doi:10.1126/science.1222939](https://doi.org/10.1126/science.1222939) · [PubMed 23042884](https://pubmed.ncbi.nlm.nih.gov/23042884/)

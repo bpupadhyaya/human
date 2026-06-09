@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/03-molecular/crh
     relation: modulated-by
     note: "CRH neurons in central amygdala (CeA) and BNST coordinate fear expression and anticipatory anxiety independent of the HPA axis; BNST CRH mediates sustained anxiety; hippocampal GR provides slow negative feedback on PVN CRH synthesis; disruption underlies PTSD and AUD."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "CB1R is among the most abundant brain GPCRs — densest in basal ganglia, cerebellum, hippocampus, and cortex; retrograde 2-AG/AEA mediates DSI/DSE synaptic plasticity; hippocampal CB1R enables fear extinction LTD; chronic THC-driven CB1R downregulation is measurable by PET."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Chronic heavy cannabis use reduces hippocampal and amygdala gray matter; PFC thinning correlates with cognitive impairment; CB1R downregulation on PET persists 4+ weeks after abstinence; adolescent-onset use causes greater structural brain changes than adult onset."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Gambling disorder features OFC hyperactivation, vmPFC hypoactivation, reduced ventral striatum response to wins, and diminished ACC conflict monitoring; impaired PFC-striatum inhibitory control distinguishes disordered from recreational gambling."
 ---
 
 # Brain
@@ -249,6 +258,9 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[PTSD](../../07-system/ptsd/README.md)** — PTSD remodels the amygdala-vmPFC-hippocampus fear circuit: BLA hyperactivation, vmPFC extinction failure, and hippocampal volume loss (~8%); PET/fMRI shows ↑ amygdala and ↓ mPFC activation to trauma cues; prolonged exposure therapy normalizes amygdala-vmPFC functional connectivity.
 
 - `modulated-by` → **[CRH](../../03-molecular/crh/README.md)** — CRH neurons in CeA and BNST coordinate fear expression and sustained anticipatory anxiety independent of HPA axis cortisol; BNST CRH mediates contextual anxiety; hippocampal glucocorticoid receptors provide slow negative feedback on PVN CRH synthesis; disruption underlies PTSD and AUD.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — CB1R is among the most abundant GPCRs in the brain, densest in basal ganglia, cerebellum, hippocampus, and cortex; retrograde 2-AG/AEA endocannabinoid signaling mediates DSI/DSE synaptic plasticity; hippocampal CB1R enables fear extinction LTD; chronic THC causes CB1R downregulation measurable by PET.
+- `connects-to` → **[Cannabis Use Disorder](../../07-system/cannabis-use-disorder/README.md)** — chronic heavy cannabis use reduces hippocampal and amygdala gray matter volume; PFC thinning correlates with cognitive impairment; CB1R downregulation on PET persists 4+ weeks post-abstinence; adolescent-onset use causes greater structural brain changes than adult onset.
+- `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — gambling disorder features OFC hyperactivation (overvaluation of rewards), vmPFC hypoactivation, reduced ventral striatum response to wins, and diminished ACC conflict monitoring; impaired PFC-striatum inhibitory control is the neurobiological signature distinguishing disordered from recreational gambling.
 
 ## Pathology
 

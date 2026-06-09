@@ -84,6 +84,9 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Chronic stimulant use disrupts glutamate homeostasis in NAcc via reduced system Xc; drug cues trigger PFC→NAcc glutamate surges → craving; N-acetylcysteine (restores system Xc) and mGluR2/3 agonists are in clinical trials for stimulant relapse prevention."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "2-AG → CB1R on glutamatergic terminals → reduced glutamate release (DSE); endocannabinoid DSE limits excitotoxic glutamate and modulates LTP/LTD induction thresholds; CB1R-glutamate interaction at BLA-prefrontal synapses regulates fear extinction and stress-induced plasticity."
 ---
 
 # Glutamate
@@ -180,6 +183,7 @@ In ischemia, oxygen/glucose deprivation reverses ion gradients and drives massiv
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol inhibits NMDA receptors (NR2B) → blackouts; chronic use → compensatory NMDA upregulation; abrupt withdrawal → glutamate excitotoxicity → seizures and Wernicke-Korsakoff syndrome; acamprosate normalizes NMDA/GABA balance in protracted abstinence.
 - `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — chronic opioid potentiates corticostriatal glutamatergic synapses → LTP underlying craving and drug-cue reactivity; AMPA receptor upregulation in NAcc drives relapse-associated excitability; mGluR5 antagonists reduce cue-triggered reinstatement of opioid seeking in rodents.
 - `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — chronic stimulant use disrupts glutamate homeostasis in NAcc via reduced system Xc activity; drug cues trigger PFC→NAcc glutamate surges driving craving; N-acetylcysteine (restores system Xc) and mGluR2/3 agonists (reduce prefrontal glutamate release) are in clinical trials for stimulant relapse prevention.
+- `connects-to` → **[Endocannabinoid System](../endocannabinoid/README.md)** — 2-AG retrograde signaling → CB1R on glutamatergic presynaptic terminals → reduced glutamate release (DSE — depolarization-induced suppression of excitation); endocannabinoid DSE limits excitotoxic glutamate release and modulates LTP/LTD induction thresholds; CB1R-glutamate interactions at BLA-prefrontal cortex synapses are essential for fear extinction and extinction-resistant PTSD models.
 
 ## Pathology
 

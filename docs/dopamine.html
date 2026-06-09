@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dopamine (DA) — catecholamine neurotransmitter synthesised from L-DOPA. Four CNS pathways: mesolimbic (reward), nigrostriatal (motor), mesocortical (cognition), tuberoinfundibular (prolactin). D1–D5 GPCRs. Target of antipsychotics, levodopa, and stimulants.">
-  <meta property="og:title" content="Dopamine (DA) — Molecular Atlas · Human Engineering">
+  <meta name="description" content="Catecholamine neurotransmitter and hormone synthesized from L-DOPA in dopaminergic neurons. Mediates reward, motor control, cognition, and prolactin inhibition ">
+  <meta property="og:title" content="Dopamine — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Dopamine (DA) — Molecular Atlas · Human Engineering</title>
+  <title>Dopamine — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #7c3aed;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,46 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .principle-box { background: rgba(124,58,237,0.06); border: 1px solid rgba(124,58,237,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -94,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -106,284 +119,83 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
-    <h1>Dopamine (DA)</h1>
-    <p class="tagline">The reward catecholamine — synthesised from L-DOPA in VTA and substantia nigra neurons, encoding reward prediction error and controlling motor, cognitive, and hormonal circuits via D1–D5 GPCRs.</p>
-    <p class="subtagline">MW 153.18 g/mol. Numerically rare (~500,000 neurons) yet projects to vast CNS territories. Synthesis: tyrosine → L-DOPA (TH, rate-limiting) → dopamine (AADC). Degradation: MAO-A/B → DOPAC; COMT → 3-MT; combined → HVA. Reuptake: DAT (SLC6A3), target of cocaine and amphetamine. Four CNS pathways: mesolimbic, nigrostriatal, mesocortical, tuberoinfundibular.</p>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>Dopamine</h1>
+    <p class="tagline">Catecholamine neurotransmitter and hormone synthesized from L-DOPA in dopaminergic neurons. Mediates reward, motor control, cognition, and prolactin inhibition via four major CNS pathways and D1–D5 GPCRs.</p>
+    <p class="aliases">Also known as: DA, 3,4-dihydroxyphenethylamine, dopaminergic</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">153.18</span><span class="stat-label">MW (g/mol)</span></div>
-      <div class="stat"><span class="stat-num">~500K</span><span class="stat-label">Dopaminergic neurons (human brain)</span></div>
-      <div class="stat"><span class="stat-num">D1–D5</span><span class="stat-label">Receptor GPCRs</span></div>
-      <div class="stat"><span class="stat-num">DAT / SLC6A3</span><span class="stat-label">Reuptake transporter</span></div>
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Catecholamine Neurotransmitter / Reward Neuromodulator</div>
-        <h2>Dopamine (DA)</h2>
-        <div class="drug-class">Class: Catecholamine &nbsp;&middot;&nbsp; Neurotransmitter &nbsp;&middot;&nbsp; Neuromodulator &nbsp;&middot;&nbsp; Adrenal hormone (minor) &nbsp;|&nbsp; Gene: TH (rate-limiting step) &nbsp;|&nbsp; Transporter: DAT (SLC6A3) &nbsp;|&nbsp; Precursor to: Norepinephrine, Epinephrine</div>
-        <p class="summary">Dopamine (DA; 3,4-dihydroxyphenethylamine) is a catecholamine neurotransmitter that serves as the brain's master valuation signal — phasic dopamine bursts encode reward prediction errors (Schultz 1998) that drive reinforcement learning across limbic and cortical circuits. Despite constituting only ~0.0003% of brain neurons, dopaminergic cells (VTA, SNc, arcuate nucleus) project to virtually every brain region via four canonical pathways. Degeneration of the nigrostriatal pathway causes Parkinson's disease; dysregulation of the mesolimbic pathway underlies addiction and schizophrenia; insufficient mesocortical dopamine produces the negative and cognitive symptoms of schizophrenia and contributes to ADHD and depression. Dopamine is also the precursor to norepinephrine (via DβH) and epinephrine (via PNMT), making it the hub of catecholamine biosynthesis.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">DA</span>
-          <span class="alias-pill">3,4-dihydroxyphenethylamine</span>
-          <span class="alias-pill">dopaminergic</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">dopamine</div>
+        <h2>Dopamine</h2>
+        <p class="summary">Catecholamine neurotransmitter and hormone synthesized from L-DOPA in dopaminergic neurons. Mediates reward, motor control, cognition, and prolactin inhibition via four major CNS pathways and D1–D5 GPCRs.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Structure &amp; Chemistry</h3>
-          <p>Dopamine is a <strong>catecholamine</strong>: benzene-1,2-diol (catechol) ring + two-carbon aminoethyl side chain. Molecular formula C₈H₁₁NO₂; MW 153.18 g/mol. It bears a primary amine (NH₂) — unlike epinephrine (N-methyl) — giving it moderate α-adrenergic and β-adrenergic activity at high concentrations but preferential action at dopaminergic D1–D5 GPCRs at physiological concentrations in the CNS.</p>
-          <p>The catechol ring is essential for receptor binding and is also the site of <strong>COMT</strong> O-methylation (→ 3-methoxytyramine, 3-MT) in catabolism. The ethylamine sidechain is oxidised by <strong>MAO-A and MAO-B</strong> to produce DOPAC. The terminal degradation product is <strong>homovanillic acid (HVA)</strong>, measured in CSF as a marker of central dopaminergic turnover.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Synthesis, Degradation &amp; Reuptake Pathway</h3>
-          <div class="pathway-block">
-<pre>
-  L-Tyrosine  (dietary; also from phenylalanine via PAH)
-       │
-       │  Tyrosine hydroxylase (TH) — RATE-LIMITING STEP
-       │  Cofactors: tetrahydrobiopterin (BH4), Fe²⁺, O₂
-       │  Product inhibition by catecholamines; activated by PKA (Ser40)
-       ▼
-  L-DOPA  (levodopa)
-       │
-       │  AADC (aromatic L-amino acid decarboxylase / DOPA decarboxylase)
-       │  Cofactor: pyridoxal phosphate (PLP / B6)
-       ▼
-  Dopamine  ←── packaged by VMAT2 (SLC18A2) into synaptic vesicles
-       │
-       │  [In noradrenergic cells: DβH converts DA → Norepinephrine (vesicular)]
-       │  [In adrenal medulla: PNMT converts NE → Epinephrine (cytosolic)]
-       │
-  Ca²⁺-triggered exocytosis → DA into synaptic cleft
-       │
-       ├─── D1/D5 (Gαs → ↑cAMP → PKA → DARPP-32/GluA1 phosphorylation)
-       │
-       └─── D2/D3/D4 (Gαi → ↓cAMP; Gβγ → GIRK K⁺ → hyperpolarisation)
-            D2 also as PRESYNAPTIC autoreceptor → feedback brake on DA synthesis/release
-       │
-       ▼
-  Termination:
-  ├─ DAT (SLC6A3) reuptake → ~70–80% of synaptic DA cleared
-  ├─ MAO-A/B (mitochondrial) → DOPAC
-  ├─ COMT (cytosolic, SAM methyl donor) → 3-methoxytyramine
-  └─ Combined MAO + COMT → HVA  (homovanillic acid, urine/CSF marker)
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>The Four Dopaminergic CNS Pathways</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Pathway</th><th>Origin → Target</th><th>Function</th><th>Disease Relevance</th></tr>
-            <tr>
-              <td><strong>Mesolimbic</strong></td>
-              <td>VTA → nucleus accumbens, amygdala, hippocampus, olfactory tubercle</td>
-              <td>Reward prediction error, motivation, aversion encoding, emotional salience; Schultz RPE signal</td>
-              <td>Addiction (hijacked by drugs); schizophrenia positive symptoms (hyperactive); depression (hypoactive)</td>
-            </tr>
-            <tr>
-              <td><strong>Nigrostriatal</strong></td>
-              <td>SNc → putamen, caudate (dorsal striatum)</td>
-              <td>Voluntary motor control, habit formation, procedural learning; direct (D1/Go) vs indirect (D2/NoGo) basal ganglia pathways</td>
-              <td>Parkinson's disease — &gt;50% SNc loss before clinical onset; levodopa replaces DA</td>
-            </tr>
-            <tr>
-              <td><strong>Mesocortical</strong></td>
-              <td>VTA → prefrontal cortex, anterior cingulate, dlPFC</td>
-              <td>Working memory, executive function, cognitive flexibility, sustained attention; inverted-U dose–response</td>
-              <td>Schizophrenia negative/cognitive symptoms (hypoactive); ADHD (PFC NE + DA deficit)</td>
-            </tr>
-            <tr>
-              <td><strong>Tuberoinfundibular</strong></td>
-              <td>Arcuate nucleus → median eminence → pituitary portal</td>
-              <td>Tonic inhibition of prolactin secretion from anterior pituitary lactotrophs</td>
-              <td>Antipsychotic D2 blockade → removes inhibition → hyperprolactinaemia (galactorrhoea, amenorrhoea, sexual dysfunction)</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>dopamine</td></tr>
+            <tr><td>Name</td><td>Dopamine</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Receptor Signalling — D1-like vs D2-like</h3>
-          <div class="pathway-block">
-<pre>
-  D1-LIKE (D1, D5) — Gs-coupled
-  ──────────────────────────────
-  Dopamine + D1/D5
-        │
-        ▼
-  Gαs → Adenylyl cyclase → ↑cAMP → PKA activation
-        │
-        ├─ PKA phosphorylates DARPP-32 (Thr34) → potent PP-1 inhibitor
-        ├─ PKA phosphorylates GluA1 (AMPA Ser845) → ↑surface AMPA → LTP
-        └─ PKA phosphorylates TH (Ser40) → ↑DA synthesis
-        ▼
-  "Direct" striatonigral pathway: Go → facilitates motor programs + reward behaviour
-
-  D2-LIKE (D2, D3, D4) — Gi/o-coupled
-  ──────────────────────────────────────
-  Dopamine + D2/D3/D4
-        │
-        ▼
-  Gαi/o → ↓Adenylyl cyclase → ↓cAMP
-  Gβγ → GIRK (Kir3.x) channels → K⁺ efflux → hyperpolarisation
-        │
-  Presynaptic D2 AUTORECEPTOR:
-  ├─ Somatodendritic D2 → ↓firing rate of DA neuron
-  └─ Terminal D2 → ↓TH activity + ↓vesicle fusion → feedback brake on DA release
-        ▼
-  "Indirect" striatopallidal pathway: NoGo → suppresses competing motor programs
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;"><strong>Reward prediction error (RPE):</strong> DA neurons fire phasically for unexpected reward (positive RPE), are suppressed for omitted expected reward (negative RPE), and show no change for fully predicted reward. This temporal difference signal was established by Wolfram Schultz (1998) and is the cellular substrate of Pavlovian and instrumental conditioning.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Physiological Roles — Organ System Table</h3>
-          <table class="data-table">
-            <tr><th>System</th><th>DA Role</th><th>Receptor</th><th>Effect</th></tr>
-            <tr><td><strong>Reward / motivation</strong></td><td>Phasic DA bursts from VTA encode RPE → reinforcement learning</td><td>D1/D2 in NAc</td><td>Approach behaviour, habit formation, motivational salience</td></tr>
-            <tr><td><strong>Motor control</strong></td><td>Tonic DA in striatum regulates direct/indirect pathway balance</td><td>D1 (direct), D2 (indirect)</td><td>Smooth voluntary movement; depletion → bradykinesia, rigidity (PD)</td></tr>
-            <tr><td><strong>Cognition / PFC</strong></td><td>Inverted-U: optimal DA/NE tone via D1/α2A in PFC</td><td>D1, D4 in PFC</td><td>Working memory, attention; too little or too much impairs function</td></tr>
-            <tr><td><strong>Pituitary (prolactin)</strong></td><td>Tonic tuberoinfundibular DA inhibits lactotrophs</td><td>D2 on pituitary</td><td>↓Prolactin; D2 blockade → hyperprolactinaemia</td></tr>
-            <tr><td><strong>Kidney</strong></td><td>Locally synthesised renal DA acts via D1/D5</td><td>D1/D5 on proximal tubule</td><td>↑Na⁺ excretion (natriuresis); vasodilation of renal vasculature</td></tr>
-            <tr><td><strong>Cardiovascular (IV pharmacological doses)</strong></td><td>Dose-dependent: D1 renal vasodilation (low), β1 inotropy (mid), α1 vasoconstriction (high)</td><td>D1, β1AR, α1AR</td><td>Dopamine infusion in cardiogenic shock (dopamine drip — largely replaced by NE/dobutamine)</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pharmacology</h3>
-          <table class="data-table">
-            <tr><th>Drug / Class</th><th>Target</th><th>Mechanism</th><th>Primary Use</th></tr>
-            <tr>
-              <td><strong>Levodopa (L-DOPA)</strong></td>
-              <td>AADC substrate (bypasses TH block)</td>
-              <td>Crosses BBB via LAT1; converted to DA by AADC in nigrostriatal neurons and peripherally</td>
-              <td>Parkinson's disease — gold standard; combined with carbidopa (peripheral AADC inhibitor) to ↓nausea/↑CNS delivery</td>
-            </tr>
-            <tr>
-              <td><strong>DA agonists</strong> — pramipexole, ropinirole, rotigotine, bromocriptine, cabergoline</td>
-              <td>D2/D3 (and D1 for some) agonists</td>
-              <td>Directly stimulate postsynaptic DA receptors without requiring functional DA neurons</td>
-              <td>PD (adjunct to L-DOPA or early monotherapy); hyperprolactinaemia (cabergoline, bromocriptine); RLS</td>
-            </tr>
-            <tr>
-              <td><strong>Typical antipsychotics</strong> — haloperidol, chlorpromazine, fluphenazine</td>
-              <td>D2 antagonist (high affinity)</td>
-              <td>Block mesolimbic D2 → ↓positive symptoms; also block nigrostriatal D2 → EPS (tardive dyskinesia, parkinsonism)</td>
-              <td>Schizophrenia, acute psychosis; high EPS and hyperprolactinaemia burden</td>
-            </tr>
-            <tr>
-              <td><strong>Atypical antipsychotics</strong> — clozapine, olanzapine, risperidone, quetiapine, aripiprazole</td>
-              <td>D2 + 5-HT2A antagonists (or D2 partial agonist for aripiprazole)</td>
-              <td>Lower D2 occupancy + 5-HT2A block → reduced EPS and negative symptoms; clozapine = most effective for treatment-resistant schizophrenia</td>
-              <td>Schizophrenia, bipolar I, adjunct in TRD; metabolic side effects (olanzapine, clozapine)</td>
-            </tr>
-            <tr>
-              <td><strong>Methylphenidate</strong></td>
-              <td>DAT + NET inhibitor</td>
-              <td>Blocks reuptake → ↑synaptic DA and NE in PFC and striatum → ↑prefrontal attention circuits</td>
-              <td>ADHD (methylphenidate, dexmethylphenidate); narcolepsy</td>
-            </tr>
-            <tr>
-              <td><strong>Amphetamine / AMPH</strong></td>
-              <td>DAT reverse transport + VMAT2 displacement</td>
-              <td>Forces DA efflux from terminals + cytosol; displaces vesicular DA → massive synaptic DA surge</td>
-              <td>ADHD (mixed amphetamine salts), narcolepsy; methamphetamine = drug of abuse</td>
-            </tr>
-            <tr>
-              <td><strong>MAO-B inhibitors</strong> — selegiline, rasagiline, safinamide</td>
-              <td>MAO-B (DA degradation)</td>
-              <td>Reduce DA catabolism → ↑synaptic DA longevity in nigrostriatum</td>
-              <td>Parkinson's disease (early monotherapy or adjunct to L-DOPA)</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <table class="data-table">
-            <tr><th>Condition</th><th>DA Perturbation</th><th>Mechanism</th><th>Clinical Features</th></tr>
-            <tr>
-              <td><strong>Parkinson's Disease</strong></td>
-              <td>↓Nigrostriatal DA (&gt;50–70% SNc loss before motor symptoms)</td>
-              <td>Selective neurodegeneration of SNc dopaminergic neurons; α-synuclein aggregation (Lewy bodies); Braak staging</td>
-              <td>Cardinal motor features: resting tremor, bradykinesia, rigidity, postural instability. L-DOPA ± DA agonists ± MAO-B inhibitors; DBS for advanced PD</td>
-            </tr>
-            <tr>
-              <td><strong>Schizophrenia</strong></td>
-              <td>↑Mesolimbic DA (positive symptoms) + ↓Mesocortical DA (negative/cognitive)</td>
-              <td>Dopamine dysregulation hypothesis; genetic (COMT Val/Met, DTNBP1); stress sensitisation of DA system</td>
-              <td>Positive: hallucinations, delusions. Negative: alogia, anhedonia, avolition. Cognitive: working memory, executive dysfunction. D2 antagonists target positive symptoms; negative symptoms harder to treat</td>
-            </tr>
-            <tr>
-              <td><strong>Addiction</strong></td>
-              <td>Drug-induced supraphysiological DA in NAc → hijacked RPE</td>
-              <td>Drugs of abuse (cocaine, amphetamines, opioids, nicotine, alcohol) all converge on VTA→NAc DA elevation via different mechanisms</td>
-              <td>Compulsive use, craving, sensitisation; D2 density reduced in chronic use → blunted reward from natural stimuli; bupropion (DAT/NET block) aids smoking cessation</td>
-            </tr>
-            <tr>
-              <td><strong>ADHD</strong></td>
-              <td>↓PFC DA (and NE) signalling — tonic deficit</td>
-              <td>Reduced D1/α2A tone in PFC impairs sustained attention and working memory</td>
-              <td>Inattention, hyperactivity, impulsivity; stimulants (methylphenidate, amphetamine) or non-stimulants (atomoxetine, guanfacine) first-line</td>
-            </tr>
-            <tr>
-              <td><strong>Hyperprolactinaemia (drug-induced)</strong></td>
-              <td>Blocked tuberoinfundibular DA → unbraked prolactin</td>
-              <td>D2 antagonists (antipsychotics, metoclopramide, domperidone) remove pituitary DA brake</td>
-              <td>Galactorrhoea, amenorrhoea, sexual dysfunction, osteoporosis; switch to aripiprazole or add cabergoline</td>
-            </tr>
-          </table>
-
-          <div class="principle-box">
-            <p><strong>Dopamine hypothesis update:</strong> Classic "DA excess" in schizophrenia applies only to the <strong>mesolimbic</strong> pathway. The <strong>mesocortical</strong> pathway shows DA <em>hypofunction</em>, explaining negative and cognitive symptoms that D2 blockers do not address. Aripiprazole, as a D2 partial agonist, theoretically reduces mesolimbic excess while preserving mesocortical tone — though clinical data show only modest advantages on negative symptoms.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="nervous-system.html" class="conn-pill acts">
-              <span class="rel">Part of</span>
-              Nervous System
-            </a>
-            <a href="norepinephrine.html" class="conn-pill acts">
-              <span class="rel">Precursor to</span>
-              Norepinephrine (via DβH)
-            </a>
-            <a href="epinephrine.html" class="conn-pill acts">
-              <span class="rel">Precursor to</span>
-              Epinephrine (via PNMT)
-            </a>
-            <a href="serotonin.html" class="conn-pill acts">
-              <span class="rel">Parallel reward modulator</span>
-              Serotonin
-            </a>
-            <a href="acetylcholine.html" class="conn-pill targets">
-              <span class="rel">Interacts with</span>
-              Acetylcholine (striatal interneurons)
-            </a>
-            <a href="glutamate.html" class="conn-pill targets">
-              <span class="rel">Gates plasticity at</span>
-              Glutamate / NMDA synapses
-            </a>
+            <a class="conn-pill" href="neuron.html" title="Dopamine modulates neuronal excitability and plasticity via D1-like (Gs/cAMP) and D2-like (Gi/GIRK) receptor signaling in dopaminoceptive neurons throughout the brain."><span class="rel">modulates</span>Neuron</a>
+            <a class="conn-pill" href="synapse.html" title="Dopamine modulates synaptic plasticity (LTP/LTD threshold) and neurotransmitter release at excitatory and inhibitory synapses via presynaptic and postsynaptic D1–D5 receptors."><span class="rel">modulates</span>Synapse</a>
+            <a class="conn-pill" href="neuron.html" title="Synthesized and released by dopaminergic neurons in the VTA, SNc, and arcuate nucleus."><span class="rel">expressed-by</span>Neuron</a>
+            <a class="conn-pill" href="brain.html" title="Dopamine regulates reward processing, motor control, executive cognition, and hormonal output across multiple brain circuits."><span class="rel">modulates</span>Brain</a>
+            <a class="conn-pill part" href="nervous-system.html" title="Dopamine is a core chemical signal within the nervous system."><span class="rel">part-of</span>Nervous System</a>
+            <a class="conn-pill" href="norepinephrine.html" title="Modulates by Norepinephrine."><span class="rel">modulates</span>Norepinephrine</a>
+            <a class="conn-pill" href="copper.html" title="Modulated by Copper."><span class="rel">modulated-by</span>Copper</a>
+            <a class="conn-pill" href="st-johns-wort.html" title="Modulated by St. John's Wort (Hypericum perforatum)."><span class="rel">modulated-by</span>St Johns Wort</a>
+            <a class="conn-pill" href="schizophrenia.html" title="Mesolimbic D2 hyperactivity drives positive symptoms (hallucinations, delusions); mesocortical D1 hypofunction in PFC drives negative and cognitive symptoms; all antipsychotics achieve therapeutic effect via D2 blockade (60-80% receptor occupancy threshold)."><span class="rel">connects-to</span>Schizophrenia</a>
+            <a class="conn-pill" href="bipolar-disorder.html" title="Mesolimbic dopamine hyperactivity drives manic symptoms in bipolar disorder; antipsychotics (D2 blockers) are first-line acute antimanic agents; mesocortical dopamine deficiency contributes to bipolar depression; catecholamine hypothesis explains mood cycling."><span class="rel">connects-to</span>Bipolar Disorder</a>
+            <a class="conn-pill" href="obsessive-compulsive-disorder.html" title="Striatal dopamine dysregulation drives compulsive habit formation in OCD; D2 receptor abnormalities in caudate on PET; atypical antipsychotic augmentation (aripiprazole, risperidone) of SSRIs is the best-supported strategy for partial SSRI responders in OCD (NNT ~3)."><span class="rel">connects-to</span>Obsessive Compulsive Disorder</a>
+            <a class="conn-pill" href="attention-deficit-hyperactivity-disorder.html" title="ADHD involves hypofunctional PFC D1 receptor signaling impairing working memory; methylphenidate blocks DAT and amphetamines reverse DAT to actively release DA; COMT Val158Met SNP (rapid catabolism) increases ADHD risk; striatal DA deficit reduces motivation for deferred rewards."><span class="rel">connects-to</span>Attention Deficit Hyperactivity Disorder</a>
+            <a class="conn-pill" href="social-anxiety-disorder.html" title="Reduced D2 binding in striatum in SAD (SPECT) → impaired social reward processing and anhedonia; dopaminergic deficits distinguish SAD from other anxiety disorders; blunted approach motivation reinforces avoidance; MAOIs highly effective possibly via dopamine disinhibition."><span class="rel">connects-to</span>Social Anxiety Disorder</a>
+            <a class="conn-pill" href="alcohol-use-disorder.html" title="Alcohol stimulates VTA dopamine release → NAcc → euphoria and positive reinforcement; DRD2 Taq1A A1 allele → reduced D2 receptor density → compensatory drinking; naltrexone blocks opioid-mediated VTA DA release → reduces alcohol reward and craving."><span class="rel">connects-to</span>Alcohol Use Disorder</a>
+            <a class="conn-pill" href="opioid-use-disorder.html" title="μ-opioid receptor activation on VTA GABAergic interneurons → disinhibition → increased VTA DA firing → NAcc dopamine surge → euphoria; chronic use → reward hypofunction → anhedonia; naltrexone (MOR antagonist) blocks this disinhibition → reduces opioid reward."><span class="rel">connects-to</span>Opioid Use Disorder</a>
+            <a class="conn-pill" href="orexin.html" title="OX1R in VTA activates mesolimbic dopamine → NAcc DA release → reinforces wakefulness and reward-seeking; orexin drives cue-induced drug reinstatement via the OX1R-VTA-DA axis; OX1R antagonists reduce alcohol, cocaine, and opioid seeking in preclinical models."><span class="rel">modulated-by</span>Orexin</a>
+            <a class="conn-pill" href="anorexia-nervosa.html" title="Increased striatal D2/D3 receptor binding in recovered AN patients (PET) suggests reduced dopamine tone; AN patients show reduced reward salience of food cues; altered DA reward circuits may explain why food restriction becomes negatively reinforcing and avoidance feels safe."><span class="rel">connects-to</span>Anorexia Nervosa</a>
+            <a class="conn-pill" href="mu-opioid-receptor.html" title="MOR on VTA GABAergic interneurons mediates opioid-induced DA disinhibition → NAcc DA surge → euphoria; this MOR-DA coupling is the primary reward mechanism in opioid use disorder and alcohol use disorder; naltrexone blocks MOR-mediated VTA disinhibition → reduces reward."><span class="rel">connects-to</span>Mu Opioid Receptor</a>
+            <a class="conn-pill" href="bulimia-nervosa.html" title="Dysregulated striatal dopamine drives binge reinforcement in BN via NAcc D3R; PET shows ↑DA release during food cue exposure; altered reward prediction error signaling contributes to loss-of-control eating; dopamine mediates the negative reinforcement of purging."><span class="rel">connects-to</span>Bulimia Nervosa</a>
+            <a class="conn-pill" href="stimulant-use-disorder.html" title="Cocaine blocks DAT → acute DA surge in NAcc; amphetamines reverse DAT via TAAR1/PKC → cytoplasmic DA efflux; chronic use → D2R downregulation and ΔFosB accumulation → hypodopaminergic withdrawal state; PET shows reduced D2R in striatum of chronic users."><span class="rel">connects-to</span>Stimulant Use Disorder</a>
+            <a class="conn-pill" href="adenosine.html" title="A2AR-D2R heterodimers on striatal indirect pathway neurons: adenosine binding reduces D2R affinity for dopamine; istradefylline (A2AR antagonist) enhances D2R-mediated motor facilitation in Parkinson's disease; adenosine-dopamine antagonism is a key therapeutic target."><span class="rel">connects-to</span>Adenosine</a>
+            <a class="conn-pill" href="endocannabinoid.html" title="CB1R on VTA interneurons mediates endocannabinoid-driven DA disinhibition; 2-AG/AEA retrograde signaling modulates dopamine neuron burst firing; chronic THC → CB1R desensitization → hypodopaminergic state (↓D2R by PET) paralleling substance use disorder dopamine deficits."><span class="rel">connects-to</span>Endocannabinoid</a>
+            <a class="conn-pill" href="cannabis-use-disorder.html" title="THC → CB1R on VTA interneurons → DA disinhibition → NAcc dopamine surge; chronic use → D2R downregulation and blunted NAcc response to natural rewards; PET shows reduced striatal dopamine in chronic users — mirroring other substance use disorders."><span class="rel">connects-to</span>Cannabis Use Disorder</a>
+            <a class="conn-pill" href="gambling-disorder.html" title="Gambling activates NAcc dopamine via reward prediction error; near-miss events trigger near-normal DA responses despite loss; D2/D3R hypofunction (↓ striatal D2R on PET) mirrors substance use disorders; dopamine agonists (pramipexole in PD) can trigger pathological gambling."><span class="rel">connects-to</span>Gambling Disorder</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Schultz W. Predictive reward signal of dopamine neurons. <em>J Neurophysiol.</em> 1998;80(1):1-27. <a href="https://doi.org/10.1152/jn.1998.80.1.1">doi:10.1152/jn.1998.80.1.1</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9658025/">PubMed 9658025</a></li>
-            <li>Beaulieu JM, Gainetdinov RR. The physiology, signaling, and pharmacology of dopamine receptors. <em>Pharmacol Rev.</em> 2011;63(1):182-217. <a href="https://doi.org/10.1124/pr.110.002642">doi:10.1124/pr.110.002642</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21303898/">PubMed 21303898</a></li>
-            <li>Stahl SM. <em>Stahl's Essential Psychopharmacology.</em> 5th ed. Cambridge University Press; 2021. <a href="https://stahlonline.cambridge.org">stahlonline.cambridge.org</a></li>
-            <li>Carlsson A. A half-century of neurotransmitter research: impact on neurology and psychiatry. Nobel Lecture 2000. <em>Biosci Rep.</em> 2001;21(4):333-344. <a href="https://doi.org/10.1023/a:1017979709343">doi:10.1023/a:1017979709343</a></li>
-            <li>Wise RA. Dopamine and reward: the anhedonia hypothesis 30 years on. <em>Neurotox Res.</em> 2008;14(2-3):169-183. <a href="https://doi.org/10.1007/BF03033808">doi:10.1007/BF03033808</a></li>
+            <li><a href="https://doi.org/10.1152/jn.1998.80.1.1" target="_blank" rel="noopener noreferrer">Schultz W. Predictive reward signal of dopamine neurons. J Neurophysiol. 1998;80(1):1-27.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9658025/" target="_blank" rel="noopener noreferrer">PubMed 9658025</a></li>
+            <li><a href="https://doi.org/10.1023/a:1017979709343" target="_blank" rel="noopener noreferrer">Carlsson A. A half-century of neurotransmitter research: impact on neurology and psychiatry. Nobel Lecture, 2000. Biosci Rep. 2001;21(4):333-344.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12092847/" target="_blank" rel="noopener noreferrer">PubMed 12092847</a></li>
+            <li><a href="https://stahlonline.cambridge.org" target="_blank" rel="noopener noreferrer">Stahl SM. Stahl's Essential Psychopharmacology: Neuroscientific Basis and Practical Applications. 5th ed. Cambridge University Press; 2021.</a></li>
+            <li><a href="https://doi.org/10.1124/pr.110.002642" target="_blank" rel="noopener noreferrer">Beaulieu JM, Gainetdinov RR. The physiology, signaling, and pharmacology of dopamine receptors. Pharmacol Rev. 2011;63(1):182-217.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21303898/" target="_blank" rel="noopener noreferrer">PubMed 21303898</a></li>
           </ul>
         </div>
 
@@ -392,20 +204,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="acetylcholine.html">Acetylcholine</a>
-      <a href="serotonin.html">Serotonin</a>
-      <a href="norepinephrine.html">Norepinephrine</a>
-      <a href="gaba.html">GABA</a>
-      <a href="glutamate.html">Glutamate</a>
-      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());</script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

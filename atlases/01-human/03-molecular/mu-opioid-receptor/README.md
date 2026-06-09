@@ -45,6 +45,9 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Compulsive MOR activation in OUD drives tolerance (GRK/β-arrestin desensitization + cAMP superactivation), physical dependence, and withdrawal; buprenorphine (partial MOR agonist), methadone (full agonist), and naltrexone (MOR antagonist) all target MOR for treatment."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "MOR activation during gambling wins and near-misses → euphoric reinforcement increasing gambling motivation; naltrexone is best-studied pharmacotherapy — reduces gambling urges and frequency in multiple RCTs; nalmefene (MOR antagonist + KOR partial agonist) also effective."
 ---
 
 # Mu-Opioid Receptor
@@ -147,6 +150,7 @@ OPRM1 undergoes extensive alternative splicing (>20 variants in rodents; fewer c
 - `connects-to` → **[Opioid Use Disorder](../../07-system/opioid-use-disorder/README.md)** — compulsive MOR activation drives tolerance (GRK/β-arrestin desensitization + cAMP superactivation), physical dependence, and withdrawal; buprenorphine (partial agonist), methadone (full agonist), and naltrexone (antagonist) all target MOR for MOUD.
 
 - `connects-to` → **[Alcohol Use Disorder](../../07-system/alcohol-use-disorder/README.md)** — alcohol triggers β-endorphin → MOR on VTA GABAergic interneurons → disinhibition → dopamine surge in NAcc; naltrexone (MOR/KOR antagonist) blocks this reward mechanism → reduces alcohol craving; OPRM1 A118G (Asn40Asp) predicts superior naltrexone response in AUD.
+- `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — endogenous opioids are released during gambling wins and near-miss events via MOR → euphoric reinforcement driving continued play; naltrexone (MOR/KOR antagonist) is the best-studied pharmacotherapy for gambling disorder, reducing urges and frequency in multiple RCTs; nalmefene (MOR antagonist + KOR partial agonist) also reduces gambling.
 
 [^matthes-1996-mor-knockout]: Matthes HW, Maldonado R, Simonin F, et al. Loss of morphine-induced analgesia, reward effect and withdrawal symptoms in mice lacking the mu-opioid receptor gene. *Nature.* 1996;383(6603):819-823. [doi:10.1038/383819a0](https://doi.org/10.1038/383819a0) · [PubMed 8893006](https://pubmed.ncbi.nlm.nih.gov/8893006/)
 [^pasternak-2014-mor-review]: Pasternak GW, Pan YX. Mu opioids and their receptors: evolution of a concept. *Pharmacol Rev.* 2013;65(4):1257-1317. [doi:10.1124/pr.112.007138](https://doi.org/10.1124/pr.112.007138) · [PubMed 24076545](https://pubmed.ncbi.nlm.nih.gov/24076545/)

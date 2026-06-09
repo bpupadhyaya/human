@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "A2AR-D2R heterodimers on striatal indirect pathway neurons: adenosine binding reduces D2R affinity for dopamine; istradefylline (A2AR antagonist) enhances D2R-mediated motor facilitation in Parkinson's disease; adenosine-dopamine antagonism is a key therapeutic target."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "CB1R on VTA interneurons mediates endocannabinoid-driven DA disinhibition; 2-AG/AEA retrograde signaling modulates dopamine neuron burst firing; chronic THC → CB1R desensitization → hypodopaminergic state (↓D2R by PET) paralleling substance use disorder dopamine deficits."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "THC → CB1R on VTA interneurons → DA disinhibition → NAcc dopamine surge; chronic use → D2R downregulation and blunted NAcc response to natural rewards; PET shows reduced striatal dopamine in chronic users — mirroring other substance use disorders."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Gambling activates NAcc dopamine via reward prediction error; near-miss events trigger near-normal DA responses despite loss; D2/D3R hypofunction (↓ striatal D2R on PET) mirrors substance use disorders; dopamine agonists (pramipexole in PD) can trigger pathological gambling."
 ---
 
 # Dopamine
@@ -197,6 +206,9 @@ Dopamine gates **corticostriatal LTP and LTD** by modulating NMDA receptor funct
 - `connects-to` → **[Bulimia Nervosa](../../07-system/bulimia-nervosa/README.md)** — dysregulated striatal dopamine drives binge reinforcement via NAcc D3R; PET shows ↑ DA release during food cue exposure in BN; altered reward prediction error signaling contributes to loss-of-control eating; dopamine also mediates the negative reinforcement of purging.
 - `connects-to` → **[Stimulant Use Disorder](../../07-system/stimulant-use-disorder/README.md)** — cocaine blocks DAT → acute DA surge in NAcc (euphoria); amphetamines reverse DAT via TAAR1/PKC → cytoplasmic DA efflux; chronic use → D2R downregulation and ΔFosB accumulation → hypodopaminergic withdrawal state; PET shows ↓ striatal D2R in chronic users.
 - `connects-to` → **[Adenosine](../adenosine/README.md)** — A2AR-D2R heterodimers on striatal indirect pathway neurons: adenosine binding reduces D2R affinity for dopamine, opposing D2R-mediated motor facilitation; istradefylline (A2AR antagonist) enhances D2R-mediated striatal function in Parkinson's disease.
+- `connects-to` → **[Endocannabinoid System](../endocannabinoid/README.md)** — CB1R on VTA GABAergic interneurons mediates endocannabinoid-driven DA disinhibition; 2-AG/AEA retrograde signaling fine-tunes dopamine neuron burst firing; chronic THC causes CB1R desensitization → hypodopaminergic state with ↓D2R on PET — the same reward circuit remodeling seen across substance use disorders.
+- `connects-to` → **[Cannabis Use Disorder](../../07-system/cannabis-use-disorder/README.md)** — THC → CB1R on VTA GABAergic interneurons → DA disinhibition → NAcc dopamine surge; chronic cannabis use → D2R downregulation and blunted NAcc response to natural rewards; PET shows reduced striatal dopamine in chronic users, mirroring alcohol, cocaine, and opioid use disorders.
+- `connects-to` → **[Gambling Disorder](../../07-system/gambling-disorder/README.md)** — gambling activates NAcc dopamine via reward prediction error; near-miss events trigger near-normal DA responses despite loss, falsely reinforcing continued play; D2/D3R hypofunction (↓ striatal D2R on PET) in gambling disorder mirrors substance use disorders; dopamine agonists (pramipexole) trigger pathological gambling in Parkinson's patients.
 
 ## Pathology
 

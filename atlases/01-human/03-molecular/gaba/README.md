@@ -94,6 +94,12 @@ cross_links:
   - target: 01-human/03-molecular/crh
     relation: connects-to
     note: "GABA interneurons in PVN inhibit CRH neurons; benzodiazepines (GABA-A PAMs) attenuate CRH release and HPA activation; GABA-B agonists (baclofen) suppress PVN CRH; CRH-GABA balance in amygdala/BNST regulates anxiety-like states and stress-induced drinking in AUD."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "CB1R is predominantly expressed on GABAergic presynaptic terminals; 2-AG/AEA retrograde release → CB1R → Gi → reduced GABA release (DSI); endocannabinoid-mediated DSI disinhibits postsynaptic neurons and modulates hippocampal theta oscillations and circuit plasticity."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "CB1R on GABAergic interneurons mediates THC's disinhibitory effects; chronic THC → CB1R internalization on GABA terminals → altered E/I balance; PFC GABA deficits correlate with impaired inhibitory control; MRS shows reduced GABA in cannabis-dependent users."
 ---
 
 # GABA
@@ -217,6 +223,8 @@ When E/I balance shifts toward excess excitation (loss of GABAergic interneurons
 - `connects-to` → **[Mu-Opioid Receptor](../mu-opioid-receptor/README.md)** — MOR expressed on VTA and PAG GABAergic interneurons; Gi activation → hyperpolarizes GABA interneurons → disinhibition of DA neurons (VTA reward) and PAG output neurons (descending analgesia); buprenorphine (partial MOR agonist) maintains stable GABA-mediated inhibitory tone.
 
 - `connects-to` → **[CRH](../crh/README.md)** — GABA interneurons in PVN inhibit CRH neurons; benzodiazepines (GABA-A PAMs) attenuate CRH release and HPA activation; GABA-B agonists (baclofen) suppress PVN CRH neurons; the CRH-GABA balance in amygdala/BNST regulates anxiety-like states and stress-induced drinking in AUD.
+- `connects-to` → **[Endocannabinoid System](../endocannabinoid/README.md)** — CB1R is predominantly expressed on GABAergic presynaptic terminals; retrograde 2-AG/AEA release → CB1R → Gi → reduced GABA release (DSI — depolarization-induced suppression of inhibition); endocannabinoid-mediated DSI disinhibits postsynaptic neurons and modulates hippocampal theta oscillations and synaptic plasticity.
+- `connects-to` → **[Cannabis Use Disorder](../../07-system/cannabis-use-disorder/README.md)** — CB1R on GABAergic interneurons mediates THC's disinhibitory effects; chronic THC → CB1R internalization on GABA terminals → altered E/I balance; PFC GABA deficits (measurable by MRS) correlate with impaired inhibitory control and are a neurobiological marker of cannabis-use disorder.
 
 ## Pathology
 
