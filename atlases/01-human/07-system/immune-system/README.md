@@ -319,6 +319,9 @@ cross_links:
   - target: 01-human/07-system/hiv-aids
     relation: damaged-by
     note: "HIV-1 is the paradigmatic cause of acquired immunodeficiency: preferentially destroys CD4+ Th1 cells (gp120/CCR5 or CXCR4 entry) → AIDS-defining opportunistic infections; ART achieves undetectable viral load (U=U) but residual immune activation and CD4 dysfunction persist."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "IL-10 is the prototypical anti-inflammatory cytokine produced by Tregs, M2 macrophages, Bregs, and Th2 cells; IL-10/STAT3 → ↑IκBα → NF-κB suppression in macrophages → ↓pro-inflammatory cytokines; IL-10 deficiency → colitis, autoimmunity; IL-10 excess → tumor immunosuppression."
 ---
 
 # Immune System

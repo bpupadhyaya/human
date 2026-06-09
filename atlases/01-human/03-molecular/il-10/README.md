@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/07-system/nash
     relation: connects-to
     note: "IL-10 from Kupffer cells and hepatic Tregs restrains NLRP3 inflammasome activation and stellate cell activation in NASH; IL-10 KO mice develop spontaneous steatohepatitis on high-fat diet; IL-10 deficiency correlates with fibrosis stage in human NASH biopsies."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "IL-10R mutations (IL10RA/IL10RB LOF) → VEO-IBD: infantile-onset perianal fistulizing Crohn's refractory to conventional therapy, curable by allo-HSCT; IL-10 KO mice develop spontaneous microbiota-driven colitis; IL-10 signaling is the molecular brake on gut inflammation."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "IL-10 mediates sepsis immunoparalysis: hyperinflammation → IL-10 surge → STAT3-driven macrophage suppression → impaired bacterial clearance → secondary nosocomial infections; plasma IL-10 >30 pg/mL on day 1 predicts mortality and secondary infection risk in septic patients."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "IL-10 is the master anti-inflammatory cytokine: IL-10Rα/β → JAK1/TYK2 → STAT3 → ↑IκBα → NF-κB suppression → ↓TNF-α, ↓IL-1β, ↓IL-6, ↓IL-12 in macrophages; Treg/Breg/M2-derived IL-10 resolves acute inflammation; IL-10 deficiency drives IBD, GvHD, and autoimmunity."
 ---
 
 # Interleukin-10
@@ -123,7 +132,13 @@ IL-10 acts as a rheostat for immune intensity: it is produced at the peak of an 
 - `connects-to` → **[GvHD](../../07-system/gvhd/README.md)** — Treg-derived IL-10 is the dominant immunosuppressive brake on alloreactive donor T cells post-HSCT; low circulating IL-10 and IL-10R polymorphisms predict GvHD severity; IL-10 gene transfer and IL-10-secreting Treg infusions are investigational GvHD prevention strategies.
 - `connects-to` → **[Atopic Dermatitis](../../07-system/atopic-dermatitis/README.md)** — IL-10 from regulatory B cells and Th2 cells dampens AD inflammation; paradoxically, Th2-skewed IL-4/IL-13 environment suppresses macrophage IL-10 production; imbalance between IL-10 and type-2 cytokines determines AD chronicity; IL-10 serum levels inversely correlate with SCORAD.
 - `connects-to` → **[NASH](../../07-system/nash/README.md)** — IL-10 from Kupffer cells and hepatic Tregs restrains NLRP3 inflammasome activation and stellate cell activation in NASH; IL-10 KO mice develop spontaneous steatohepatitis on high-fat diet; IL-10 deficiency correlates with fibrosis stage in human NASH biopsies.
+- `connects-to` → **[Inflammatory Bowel Disease](../../07-system/inflammatory-bowel-disease/README.md)** — IL-10R mutations (IL10RA/IL10RB LOF) → VEO-IBD: infantile-onset perianal fistulizing Crohn's refractory to conventional therapy, curable by allo-HSCT; IL-10 KO mice develop spontaneous microbiota-driven colitis; IL-10 signaling is the molecular brake on gut inflammation.
+- `connects-to` → **[Sepsis](../../07-system/sepsis/README.md)** — IL-10 mediates sepsis immunoparalysis: hyperinflammation → IL-10 surge → STAT3-driven macrophage suppression → impaired bacterial clearance → secondary nosocomial infections; plasma IL-10 >30 pg/mL on day 1 predicts mortality and secondary infection risk in septic patients.
+- `connects-to` → **[Immune System](../../07-system/immune-system/README.md)** — IL-10 is the master anti-inflammatory cytokine: IL-10Rα/β → JAK1/TYK2 → STAT3 → ↑IκBα → NF-κB suppression → ↓TNF-α, ↓IL-1β, ↓IL-6, ↓IL-12 in macrophages; Treg/Breg/M2-derived IL-10 resolves acute inflammation; IL-10 deficiency drives IBD, GvHD, and autoimmunity.
 
 [^moore-1993-il10-review]: Moore KW, de Waal Malefyt R, Coffman RL, O'Garra A. Interleukin-10 and the interleukin-10 receptor. *Annu Rev Immunol.* 2001;19:683-765. [doi:10.1146/annurev.immunol.19.1.683](https://doi.org/10.1146/annurev.immunol.19.1.683) · [PubMed 11244051](https://pubmed.ncbi.nlm.nih.gov/11244051/)
 [^ouyang-2011-il10-review]: Ouyang W, Rutz S, Crellin NK, Valdez PA, Hymowitz SG. Regulation and functions of the IL-10 family of cytokines in inflammation and disease. *Annu Rev Immunol.* 2011;29:71-109. [doi:10.1146/annurev-immunol-031210-101312](https://doi.org/10.1146/annurev-immunol-031210-101312) · [PubMed 21166540](https://pubmed.ncbi.nlm.nih.gov/21166540/)
 [^kotlarz-2012-il10r-ibd]: Kotlarz D, Beier R, Murugan D, et al. Loss of interleukin-10 signaling and infantile inflammatory bowel disease: implications for diagnosis and therapy. *Gastroenterology.* 2012;143(2):347-355. [doi:10.1053/j.gastro.2012.04.045](https://doi.org/10.1053/j.gastro.2012.04.045) · [PubMed 22549090](https://pubmed.ncbi.nlm.nih.gov/22549090/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

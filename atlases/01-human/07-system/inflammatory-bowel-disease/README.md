@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "H4R on mucosal mast cells and Tregs modulates gut inflammation; enterochromaffin-like cells secrete histamine → parietal HCl; H1R/H4R amplify epithelial cytokine release; H4R blockade reduces experimental colitis; histamine levels correlate with IBD disease activity."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "IL-10 is the primary mucosal immunoregulatory cytokine; IL-10R mutations cause VEO-IBD (infantile perianal fistulizing Crohn's) curable by HSCT; IL-10 KO mice develop spontaneous microbiota-driven colitis; anti-TNF and JAK inhibitors partially restore IL-10 signaling in IBD."
 ---
 
 # Inflammatory Bowel Disease
