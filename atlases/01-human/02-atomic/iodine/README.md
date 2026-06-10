@@ -41,6 +41,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulates
     note: "T3 increases cardiac output, heart rate, myocardial contractility, and O₂ consumption; hypothyroidism causes bradycardia, reduced CO; hyperthyroidism causes tachycardia and AF risk."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "DIO1, DIO2, and DIO3 — the three iodothyronine deiodinases — all contain selenocysteine; they catalyse T4→T3 (activation) and T3→T2 / T4→rT3 (inactivation); GPx and TrxR neutralise thyroidal DUOX2-generated H₂O₂; combined I+Se deficiency causes myxoedematous cretinism."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "NIS (SLC5A5) concentrates I⁻ 20–40-fold into follicular cells; TPO organifies iodide onto thyroglobulin tyrosines (MIT, DIT) and couples them to form T4 (DIT+DIT) and T3 (MIT+DIT); the thyroid stores 70–80% of total body iodine; TSH drives NIS expression and TPO activity."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "T4 contains 4 iodine atoms (65% of its 777 Da mass); T3 contains 3; iodine is the rate-limiting substrate for thyroid hormone synthesis; DIO1/2 peripherally deiodinate T4→T3; radioiodine (¹³¹I, t½=8 d) exploits NIS for targeted thyroid ablation therapy."
 ---
 
 # Iodine
@@ -137,9 +146,12 @@ Key physiological effects:
 
 ## Connections
 
-- **Part of** → [Human body](../../08-whole-body/human-body/README.md): 15–20 mg total body iodine; 70–80% concentrated in thyroid as organically bound iodine within thyroglobulin; essential for T3/T4 synthesis; dietary requirement 150 µg/day (adult).
-- **Modulates** → [Nervous system](../../07-system/nervous-system/README.md): Thyroid hormones T3/T4 are obligatory for fetal and neonatal CNS myelination, synaptogenesis, and cochlear development; severe iodine deficiency causes cretinism — permanent, irreversible cognitive impairment.
-- **Modulates** → [Cardiovascular system](../../07-system/cardiovascular-system/README.md): T3 increases heart rate via HCN4 upregulation, raises cardiac output and myocardial contractility, and reduces peripheral resistance; hypothyroidism causes bradycardia; hyperthyroidism causes tachycardia and atrial fibrillation.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — 15–20 mg total body iodine; 70–80% concentrated in thyroid as organically bound iodine within thyroglobulin; dietary requirement 150 µg/day adults, 250 µg/day in pregnancy; urinary iodide excretion is the standard population status indicator.
+- `modulates` → **[Nervous System](../../07-system/nervous-system/README.md)** — T3/T4 are obligatory for fetal and neonatal CNS myelination, hippocampal synaptogenesis, and cochlear development; severe maternal iodine deficiency causes cretinism — permanent, irreversible cognitive impairment and deafmutism.
+- `modulates` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — T3 increases heart rate (HCN4 upregulation), myocardial contractility (MHCα induction), and cardiac output; reduces peripheral vascular resistance; hypothyroidism → bradycardia; hyperthyroidism → tachycardia and AF risk.
+- `connects-to` → **[Selenium](../selenium/README.md)** — DIO1/2/3 deiodinases (selenocysteine active site) catalyse T4→T3 activation and T3/T4 inactivation; GPx and TrxR neutralise DUOX2-generated H₂O₂ in the thyroid; combined I+Se deficiency causes myxoedematous cretinism.
+- `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — NIS (SLC5A5) concentrates I⁻ 20–40-fold into follicular cells; TPO organifies iodide onto thyroglobulin tyrosines and couples MIT/DIT to form T4/T3; the thyroid stores 70–80% of total body iodine; TSH drives NIS expression.
+- `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — T4 contains 4 iodine atoms (65% of MW 777 Da), T3 contains 3; iodine is the rate-limiting substrate for synthesis; DIO1/2 deiodinate T4→T3 peripherally; ¹³¹I (t½=8 d) exploits NIS for targeted thyroid ablation.
 
 ## Pathology
 
@@ -180,3 +192,5 @@ Key physiological effects:
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [elsevier.com](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)
 [^bizhanova-kopp-nis]: Bizhanova A, Kopp P. Minireview: The sodium-iodide symporter NIS and pendrin in iodide homeostasis of the thyroid. *Endocrinology.* 2009;150(3):1084-90. [doi:10.1210/en.2008-1437](https://doi.org/10.1210/en.2008-1437) · [PubMed 19196800](https://pubmed.ncbi.nlm.nih.gov/19196800/)
 [^zimmermann-iodine-deficiency]: Zimmermann MB, Boelaert K. Iodine deficiency and thyroid disorders. *Lancet Diabetes Endocrinol.* 2015;3(4):286-95. [doi:10.1016/S2213-8587(14)70225-6](https://doi.org/10.1016/S2213-8587(14)70225-6) · [PubMed 25591468](https://pubmed.ncbi.nlm.nih.gov/25591468/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

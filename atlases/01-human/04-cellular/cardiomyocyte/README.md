@@ -86,6 +86,9 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "IKr (hERG), IKs (KCNQ1), IK1 (Kir2.1), and Ito (Kv4.3) K⁺ currents repolarise the cardiomyocyte AP; hypokalaemia shifts EK negative → prolongs AP → EADs → torsades de pointes; IKATP (Kir6.2/SUR2A) opens during ischaemia as an AP-shortening protective mechanism."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Keshan disease (Se-deficient China) is dilated cardiomyopathy caused by GPx4/TrxR2 deficiency, with Coxsackievirus B as co-factor; GPx4 prevents ferroptosis by reducing lipid hydroperoxides; TrxR2 (selenoprotein, mitochondrial) maintains cardiomyocyte redox homeostasis."
 taxonomy:
   cell_ontology: "CL:0000746"
   lineage: "mesoderm — lateral plate (cardiogenic mesoderm)"
@@ -212,6 +215,7 @@ Lost cardiomyocytes are **not replaced**. The void fills with collagenous scar p
 - **Down (expressed molecules):** the cardiomyocyte `expresses` the **[troponin complex](../../03-molecular/troponin-complex/README.md)**, the **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)**, and many other ion channels, contractile proteins, and signaling molecules — entries to come.
 - **Cross-atlas (planned in Phase 3):** the cardiomyocyte is the cellular target of **Coxsackievirus B** (cytolytic infection via the coxsackievirus and adenovirus receptor, CAR) and the cellular site at which β-blockers like **metoprolol** exert their effect (via β1-adrenergic blockade).
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IKr (hERG), IKs (KCNQ1), IK1 (Kir2.1), and Ito (Kv4.3) K⁺ currents repolarise the cardiomyocyte AP; hypokalaemia shifts EK negative → prolongs AP → EADs → torsades de pointes; IKATP (Kir6.2/SUR2A) opens during ischaemia as an AP-shortening protective mechanism.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Keshan disease (dilated cardiomyopathy in Se-deficient China) involves GPx4 and TrxR2 deficiency in cardiomyocytes, with Coxsackievirus B as co-factor; GPx4 prevents ferroptosis by reducing lipid hydroperoxides; TrxR2 maintains mitochondrial redox homeostasis.
 
 ## Pathology
 

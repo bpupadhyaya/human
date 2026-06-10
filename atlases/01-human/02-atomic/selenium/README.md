@@ -41,6 +41,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: modulates
     note: "Liver synthesises selenoprotein P (main Se transport protein, 10 Sec residues), TrxR1 (cytosolic antioxidant), and GPx1; hepatocytes are the primary source of circulating selenium in plasma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "DIO1, DIO2, and DIO3 (all selenocysteine-containing) catalyse reductive deiodination: DIO2 converts T4→T3 in brain, pituitary, and brown fat; DIO3 inactivates T3→T2 in fetal tissue; Se deficiency impairs DIO activity → functional hypothyroidism despite adequate iodine intake."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "DIO1 and DIO2 (selenocysteine active site) provide ~80% of circulating T3 by peripheral T4 5′-deiodination; DIO2 in pituitary suppresses TSH via negative feedback; DIO3 inactivates T3 in fetal tissues; Se deficiency → impaired T3 production → functional hypothyroidism."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Keshan disease (Se-deficient China) is dilated cardiomyopathy caused by GPx4/TrxR2 deficiency, with Coxsackievirus B as co-factor; GPx4 prevents ferroptosis by reducing lipid hydroperoxides; TrxR2 (selenoprotein, mitochondrial) maintains cardiomyocyte redox homeostasis."
 ---
 
 # Selenium
@@ -154,9 +163,12 @@ GPx4 is the critical gatekeeper against ferroptosis:
 
 ## Connections
 
-- **Part of** → [Human body](../../08-whole-body/human-body/README.md): 13–20 mg total Se; incorporated as selenocysteine in ~25 selenoproteins — essential for GPx antioxidant defence (GPx1–4), thyroid hormone activation (DIO1–3), and sperm mitochondrial integrity (GPx4, TGR).
-- **Modulates** → [Immune system](../../07-system/immune-system/README.md): Selenoprotein TrxR and GPx protect immune cells from oxidative damage during respiratory burst; selenium deficiency impairs T-cell proliferation and NK cell cytotoxicity, increasing susceptibility to viral infections.
-- **Modulates** → [Hepatocyte](../../04-cellular/hepatocyte/README.md): Liver synthesises selenoprotein P (the main circulating Se transporter with 10 Sec residues), cytosolic TrxR1, and GPx1; hepatocytes are the primary source of plasma selenium and Se distribution to other organs.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — 13–20 mg total Se; incorporated as selenocysteine in ~25 selenoproteins essential for GPx antioxidant defence (GPx1–4), thyroid hormone activation (DIO1–3), and sperm mitochondrial integrity (GPx4, TGR).
+- `modulates` → **[Immune System](../../07-system/immune-system/README.md)** — selenoprotein TrxR and GPx protect immune cells from ROS during the respiratory burst; Se deficiency impairs T-cell proliferation, NK cell cytotoxicity, and antiviral responses; Se status inversely correlates with HIV progression.
+- `modulates` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — liver synthesises selenoprotein P (main circulating Se transporter, 10 Sec residues), cytosolic TrxR1, and GPx1; hepatocytes are the primary source of plasma selenium and the hub for Se distribution to other organs.
+- `connects-to` → **[Iodine](../iodine/README.md)** — DIO1/2/3 (selenocysteine-containing) catalyse reductive deiodination: DIO2 converts T4→T3 in brain, pituitary, and BAT; DIO3 inactivates T3 in fetal tissues; Se deficiency → impaired DIO activity → functional hypothyroidism despite adequate iodine intake.
+- `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — DIO1/2 (selenocysteine active site) provide ~80% of circulating T3 by peripheral T4 5′-deiodination; DIO2 in pituitary suppresses TSH via negative feedback; DIO3 inactivates T3 in fetal tissues; Se deficiency → impaired T3 production.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Keshan disease (Se-deficient China) is dilated cardiomyopathy caused by GPx4/TrxR2 deficiency, with Coxsackievirus B as co-factor; GPx4 prevents ferroptosis; TrxR2 (mitochondrial selenoprotein) maintains cardiomyocyte redox homeostasis.
 
 ## Pathology
 
@@ -194,3 +206,5 @@ GPx4 is the critical gatekeeper against ferroptosis:
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [elsevier.com](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)
 [^labunskyy-selenoproteins]: Labunskyy VM, Hatfield DL, Gladyshev VN. Selenoproteins: molecular pathways and physiological roles. *Physiol Rev.* 2014;94(3):739-77. [doi:10.1152/physrev.00039.2013](https://doi.org/10.1152/physrev.00039.2013) · [PubMed 24987004](https://pubmed.ncbi.nlm.nih.gov/24987004/)
 [^papp-gpx4-ferroptosis]: Forcina GC, Dixon SJ. GPX4 at the crossroads of lipid peroxidation and ferroptosis. *Proteomics.* 2019;19(18):e1800311. [doi:10.1002/pmic.201800311](https://doi.org/10.1002/pmic.201800311) · [PubMed 30924297](https://pubmed.ncbi.nlm.nih.gov/30924297/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

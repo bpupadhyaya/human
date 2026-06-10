@@ -58,6 +58,12 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "T3 (TRα1) is essential for oligodendrocyte differentiation → CNS myelination; neonatal hypothyroidism → cretinism (irreversible cognitive impairment); adult T3 regulates serotonin synthesis, synaptic density, and neurogenesis; hypothyroidism is a reversible cause of dementia."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Iodine constitutes 65% of T4 molecular mass (4 I atoms, MW 777 Da) and 59% of T3 (3 I atoms, MW 651 Da); iodine is the rate-limiting substrate for thyroid hormone synthesis; DIO1/2 cleave C–I bonds to activate T4→T3; iodine deficiency → goitre → hypothyroidism → cretinism."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "DIO1 and DIO2 (selenocysteine at active site) provide ~80% of circulating T3 by peripheral T4 5′-deiodination; DIO2 generates pituitary T3 for TSH feedback; DIO3 inactivates thyroid hormones in fetal tissues; Se deficiency → impaired T3 production → hypothyroidism."
 ---
 
 # Thyroid Hormones (T3/T4)
@@ -239,6 +245,8 @@ The HPT axis is a classical closed-loop negative feedback system:
 - `connects-to` → **[Obesity](../../07-system/obesity/README.md)** — Thyroid hormones set basal metabolic rate — hypothyroidism reduces BMR → weight gain; T3 drives UCP1 in BAT (thermogenesis) and mitochondrial biogenesis; TRβ agonist resmetirom reduces hepatic fat in MASH; levothyroxine normalizes TSH but does not reliably reverse obesity.
 
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — T3 (TRα1) is essential for oligodendrocyte differentiation → CNS myelination; neonatal hypothyroidism → cretinism (irreversible cognitive impairment); adult T3 regulates serotonin synthesis, synaptic density, and neurogenesis; hypothyroidism is a reversible cause of dementia.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — iodine constitutes 65% of T4 mass (4 I atoms, MW 777 Da) and 59% of T3 (3 I atoms, MW 651 Da); iodine is the rate-limiting substrate for thyroid hormone synthesis; DIO1/2 cleave C–I bonds to generate active T3; iodine deficiency → goitre → hypothyroidism → cretinism.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — DIO1/2 (selenocysteine at active site) provide ~80% of circulating T3 by peripheral T4 5′-deiodination; DIO2 generates pituitary T3 for TSH feedback; DIO3 inactivates thyroid hormones in fetal tissues; Se deficiency → impaired T3 production → hypothyroidism.
 
 [^mullur-2014-thyroid-review]: Mullur R, Liu YY, Brent GA. Physiol Rev. 2014;94(2):355-82. doi:10.1152/physrev.00030.2013
 [^bianco-2019-deiodination]: Bianco AC, Kim BW. J Clin Invest. 2006;116(10):2571-9. doi:10.1172/JCI29812

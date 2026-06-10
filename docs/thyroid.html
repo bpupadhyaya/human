@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Thyroid Gland — 25 g butterfly-shaped endocrine organ synthesising T3/T4 via the HPT axis. Scale 06 of the Human Atlas. Part of the Human Engineering project.">
+  <meta name="description" content="Bilobed gland (~25 g) at anterior neck. Follicular cells synthesise T4/T3 regulating BMR, cardiac output, CNS myelination, and thermogenesis. C-cells secrete ca">
   <meta property="og:title" content="Thyroid Gland — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Thyroid Gland — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #7c3aed;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,50 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -100,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -112,195 +119,63 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 06 &mdash; Organ</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
     <h1>Thyroid Gland</h1>
-    <p class="tagline">A 25 g butterfly-shaped endocrine organ at the anterior neck, unique in storing ~100 days of hormone as iodinated thyroglobulin colloid — and in being the only tissue that actively concentrates iodide against a &gt;30-fold gradient.</p>
-    <p class="subtagline">UBERON:0002046 &middot; FMA:9603. T3 is the active hormone at nuclear TRα/TRβ receptors, driving BMR, cardiac output, CNS myelination, and thermogenesis. Thyroid disorders are the most prevalent endocrine conditions globally.</p>
+    <p class="tagline">Bilobed gland (~25 g) at anterior neck. Follicular cells synthesise T4/T3 regulating BMR, cardiac output, CNS myelination, and thermogenesis. C-cells secrete calcitonin (↓Ca²⁺). TRH→TSH→thyroid feedback axis; Hashimoto's and Graves' are common autoimmune disorders.</p>
+    <p class="aliases">Also known as: thyroid, glandula thyreoidea, follicular cell, C cell, parafollicular cell</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~25 g</span><span class="stat-label">Weight</span></div>
-      <div class="stat"><span class="stat-num">~100 days</span><span class="stat-label">Colloid reserve</span></div>
-      <div class="stat"><span class="stat-num">14:1</span><span class="stat-label">T4:T3 ratio secreted</span></div>
-      <div class="stat"><span class="stat-num">~5%</span><span class="stat-label">Adults hypothyroid</span></div>
+        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">UBERON:0002046 &middot; FMA:9603 &middot; Atlas One / Scale 06</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">thyroid</div>
         <h2>Thyroid Gland</h2>
-        <p class="summary">The thyroid is a bilobed gland at levels C5–T1 weighing ~25 g. Two defining properties: (1) the only endocrine organ storing large hormone quantities extracellularly (iodinated thyroglobulin in follicular colloid, ~100 days supply), and (2) the only tissue concentrating iodide &gt;30-fold via NIS. It secretes T4 (prohormone, ~80 µg/day) and T3 (active, ~8 µg/day from thyroid; ~80% of circulating T3 from peripheral T4→T3 deiodination by DIO1/DIO2). C-cells secrete calcitonin (↓Ca²⁺). The HPT axis (TRH→TSH→T3/T4) governs output with tight negative feedback. Hashimoto's thyroiditis and Graves' disease are the dominant autoimmune disorders.</p>
+        <p class="summary">Bilobed gland (~25 g) at anterior neck. Follicular cells synthesise T4/T3 regulating BMR, cardiac output, CNS myelination, and thermogenesis. C-cells secrete calcitonin (↓Ca²⁺). TRH→TSH→thyroid feedback axis; Hashimoto's and Graves' are common autoimmune disorders.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The thyroid gland is the principal regulator of basal metabolic rate — a 25 g organ that sets the metabolic tempo of virtually every cell in the body. Its hormones T3 and T4 bind nuclear receptors TRα1 (heart, bone, brain) and TRβ1/TRβ2 (liver, kidney, pituitary), modulating the transcription of hundreds of metabolic genes. The spectrum of physiological effects is remarkable: BMR, cardiac chronotropy and inotropy, CNS myelination, bone turnover, gluconeogenesis, LDL receptor expression, and thermogenesis all fall under thyroid hormone control.</p>
-          <p>The thyroid is unique in its iodine metabolism. Dietary iodide is actively transported against a &gt;30-fold gradient via NIS (Na⁺/I⁻ symporter). This dependency on dietary iodine has made iodine deficiency the world's most common preventable cause of intellectual disability. It also makes the thyroid the one organ where imaging and therapy exploit the element-specific uptake: radioactive ¹³¹I is both the gold-standard diagnostic agent and a definitive therapy for hyperthyroidism and differentiated thyroid cancer.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Anatomy and Histology</h3>
-          <p>The thyroid is the most vascular organ per unit weight (~5 mL/min/g, vs ~1 mL/min/g for kidney). The fundamental structural unit is the <strong>thyroid follicle</strong> (~3 million per gland; diameter 50–500 µm):</p>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Follicular epithelial cells (thyrocytes)</h4>
-              <p>Single monolayer surrounding colloid lumen. Flat in hypostimulated state, columnar when TSH-stimulated. Polarised: apical membrane faces colloid (organification, resorption); basolateral membrane faces capillaries (iodide uptake, hormone secretion). Rich in rough ER, Golgi, lysosomes.</p>
-            </div>
-            <div class="info-block">
-              <h4>Colloid lumen</h4>
-              <p>Contains thyroglobulin (Tg, 660 kDa homodimer; 2748 aa/monomer; 4–8 iodinated tyrosines form T3/T4). Pale eosinophilic on H&amp;E. Stores ~100 days of hormone — a unique buffer against dietary iodine fluctuations. "Scalloping" of colloid margins = TSH stimulation on histology.</p>
-            </div>
-            <div class="info-block">
-              <h4>Parafollicular C-cells</h4>
-              <p>Neural crest-derived cells between follicles. Larger, polygonal, pale-staining. Secrete calcitonin (32-aa peptide; lowers Ca²⁺ by inhibiting osteoclasts + ↑renal Ca²⁺ excretion). Cell of origin of medullary thyroid carcinoma (MTC); calcitonin is the tumour marker.</p>
-            </div>
-            <div class="info-block">
-              <h4>Surgical landmarks</h4>
-              <p>Recurrent laryngeal nerves (RLN) in tracheo-oesophageal groove: injury → hoarseness (unilateral), respiratory distress (bilateral). Four parathyroid glands embedded in posterior capsule — at risk during total thyroidectomy → post-op hypoparathyroidism/hypocalcaemia. Berry's ligament anchors thyroid to cricoid.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Thyroid Hormone Synthesis — Step by Step</h3>
-          <div class="circuit-diagram">
-<pre>
-  Dietary iodide (I⁻)
-       │
-       ▼
-  NIS (SLC5A5) — basolateral — cotransports 2Na⁺/1I⁻
-  (TSH → cAMP → PKA → ↑NIS expression; inhibited by
-   perchlorate, thiocyanate, pertechnetate)
-       │
-       ▼
-  Pendrin (SLC26A4) — apical — exports I⁻ to colloid
-  (Pendred syndrome: SNHL + goitre)
-       │
-       ▼
-  DUOX2 generates H₂O₂
-  TPO oxidises I⁻ → nascent I⁰/I⁺ (organification)
-  → MIT (monoiodotyrosine)
-  → DIT (diiodotyrosine)
-       │  coupling
-       ▼
-  DIT + DIT → T4 (thyroxine)      (14:1 T4:T3 ratio)
-  MIT + DIT → T3 (triiodothyronine)
-  [Antithyroid drugs — PTU, methimazole — block TPO]
-       │
-       ▼
-  TSH → macropinocytosis of colloid → lysosomal
-  proteolysis of thyroglobulin → T4 + T3 secreted
-  MIT/DIT deiodinated by DEHAL1 → iodide recycled
-       │
-       ▼
-  Circulating T4 (>99% protein-bound: TBG 70%,
-  TTR 20%, albumin 10%)
-       │ peripheral deiodination
-  DIO1 (liver, kidney) → T3  (active, ~3× nuclear affinity)
-  DIO2 (brain, pituitary, BAT) → T3 (local sensing)
-  DIO3 (placenta, brain) → rT3 (inactive; sick euthyroid)
-       │
-       ▼
-  T3 enters cells via MCT8 (neurons) / OATP1C1 (brain)
-  → binds TRα1 (heart, bone, brain) / TRβ1 (liver, pituitary)
-  → corepressor release → coactivator recruitment → gene ↑
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>T3 Target Genes and Physiological Effects</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Gene / Pathway</th><th>Tissue</th><th>Effect</th></tr>
-            <tr><td><strong>HCN4</strong> (If channel)</td><td>Sinus node</td><td>↑heart rate (chronotropy)</td></tr>
-            <tr><td><strong>SERCA2a</strong></td><td>Cardiomyocyte SR</td><td>↑Ca²⁺ re-uptake speed → ↑lusitropy (diastolic relaxation)</td></tr>
-            <tr><td><strong>MHC-α ↑ / MHC-β ↓</strong></td><td>Myocardium</td><td>↑contractility (faster cross-bridge cycling)</td></tr>
-            <tr><td><strong>Na⁺/K⁺-ATPase</strong></td><td>All tissues</td><td>↑ATP turnover → ↑BMR, ↑thermogenesis</td></tr>
-            <tr><td><strong>UCP1</strong></td><td>Brown adipose</td><td>↑thermogenesis (uncoupled respiration)</td></tr>
-            <tr><td><strong>MBP, PLP</strong></td><td>Brain (fetal/neonatal)</td><td>↑myelination; deficiency → cretinism (irreversible)</td></tr>
-            <tr><td><strong>PEPCK, G6Pase</strong></td><td>Liver</td><td>↑gluconeogenesis</td></tr>
-            <tr><td><strong>LDL receptor</strong></td><td>Liver</td><td>↑LDL-C clearance; hypothyroidism → ↑LDL</td></tr>
-            <tr><td><strong>CYP7A1</strong></td><td>Liver</td><td>↑bile acid synthesis from cholesterol</td></tr>
-            <tr><td><strong>RANKL</strong></td><td>Bone</td><td>↑bone turnover; excess T3 → osteoporosis</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>thyroid</td></tr>
+            <tr><td>Name</td><td>Thyroid Gland</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>06-organ</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>HPT Axis — Hypothalamic–Pituitary–Thyroid Feedback</h3>
-          <div class="circuit-diagram">
-<pre>
-  Hypothalamus (paraventricular nucleus)
-       │ TRH (tripeptide: pGlu-His-Pro-NH₂)
-       │ → hypophyseal portal blood
-       ▼
-  Anterior pituitary thyrotrophs
-       │ TRH-R (Gq → IP₃/Ca²⁺ → PKC → ERK1/2)
-       │ → TSH release (glycoprotein; shared α-subunit
-       │   with FSH, LH, hCG; TSH-specific β-subunit)
-       ▼
-  Thyroid follicular cells
-       │ TSH-R (Gs → cAMP → PKA) → ALL synthesis steps ↑
-       │ → T4 + T3 secretion
-       ▼
-  Target tissues → physiological effects (BMR, CO, CNS)
-       │
-       │ Negative feedback
-       └─ Free T3/T4 → TRβ in pituitary thyrotrophs
-          → ↓TSH transcription, ↓TRH-R sensitivity
-          (T4→T3 in pituitary via DIO2)
-          → ↓TRH release from hypothalamus (long loop)
-
-  KEY: TSH is the most sensitive test of thyroid function
-  (log-linear relationship with free T4)
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Hashimoto Thyroiditis (Autoimmune Hypothyroidism)</h4>
-            <p>Most common cause of hypothyroidism in iodine-replete countries (~5% prevalence; F:M = 8:1). HLA-DR3/DR5 associated. T-cell-mediated thyrocyte destruction + anti-TPO antibodies (&gt;90%) + anti-thyroglobulin antibodies (~60%). Histology: lymphocytic infiltration with germinal centres, Hürthle cell (oxyphilic) change, fibrosis. Course: goitre → subclinical hypothyroidism → overt hypothyroidism → atrophy. Symptoms: fatigue, weight gain, cold intolerance, bradycardia, constipation, depression, myxoedema, delayed tendon reflexes. Treatment: levothyroxine (L-T4) once daily; target TSH 0.5–2.5 mIU/L.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Graves' Disease (Autoimmune Hyperthyroidism)</h4>
-            <p>Most common cause of hyperthyroidism (~75%; F:M = 7:1). Thyroid-stimulating immunoglobulins (TSI/TRAb-stimulating) bind TSH-R → constitutive Gs activation → autonomous T3/T4 synthesis (TSH suppressed to &lt;0.01 mIU/L). Classic triad: diffuse goitre + ophthalmopathy (anti-IGF-1R antibodies on orbital fibroblasts → GAG → proptosis, lid lag) + pretibial myxoedema. Treatment: antithyroid drugs (methimazole preferred; PTU in first trimester/thyroid storm), radioactive iodine (¹³¹I), or surgery. β-blockers (propranolol) for acute symptom control (also inhibits DIO1 → ↓T4→T3). Thyroid storm: PTU + Lugol's iodine + dexamethasone + propranolol + ICU.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Thyroid Cancer</h4>
-            <p>Papillary (PTC, 80–85%): BRAF V600E (50%), RET/PTC fusions; excellent prognosis (&gt;95% 10-year survival low-risk). Follicular (FTC, 10–15%): PAX8/PPARγ, RAS; vascular invasion = poor prognostic feature. Medullary (MTC, 3–5%): C-cell origin; RET mutation (hereditary: MEN-2A/2B — prophylactic thyroidectomy in RET+ families); calcitonin as tumour marker. Anaplastic (&lt;2%): catastrophic, median OS 3–5 months; BRAF/RAS/TP53/TERT mutations. Management (DTC): total thyroidectomy ± ¹³¹I ablation → TSH-suppressive levothyroxine → surveillance (Tg + neck US).</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Myxoedema Coma</h4>
-            <p>Life-threatening decompensated hypothyroidism — hypothermia, bradycardia, hypoventilation, hyponatraemia, altered consciousness. Precipitants: cold exposure, infection, drugs (sedatives, amiodarone), surgery. Treatment: IV liothyronine (L-T3) + IV hydrocortisone (adrenal insufficiency co-exists in 5–10%) + supportive ICU care + passive rewarming.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Sick Euthyroid Syndrome</h4>
-            <p>During critical illness: ↑DIO3 + ↓DIO1 → ↓T3, ↑reverse T3 (rT3), normal or ↓TSH. Reflects adaptive reduction in metabolic rate. Treatment with T3/T4 does not improve outcomes in RCTs — treatment is of the underlying illness, not the thyroid function tests.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="endocrine-system.html"><span class="rel">Part of</span>Endocrine System</a>
-            <a class="conn-pill part" href="human-body.html"><span class="rel">Part of</span>Human Body</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Modulates</span>Cardiovascular System (HR, CO)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Nervous System (myelination)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Liver (DIO1, LDL-R)</a>
-            <a class="conn-pill" href="musculoskeletal-system.html"><span class="rel">Modulates</span>Bone turnover</a>
+            <a class="conn-pill part" href="human-body.html" title="Thyroid secretes T4/T3 (iodothyronine hormones) regulating basal metabolic rate, cardiac output, CNS myelination, bone growth, and thermogenesis; calcitonin from C-cells lowers serum Ca²⁺. Located at anterior neck, 25 g."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="T3 upregulates cardiac HCN4 (↑HR), SERCA2a (↑relaxation speed), α-MHC (↑contractility), and peripheral vasodilatory pathways → ↑CO; hypothyroidism causes bradycardia, effusion, raised cholesterol; hyperthyroidism causes AF."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="nervous-system.html" title="T3 is essential for fetal and neonatal brain myelination (MBP, PLP gene induction) and neuronal migration; maternal or congenital hypothyroidism → cretinism; adult thyroid status modulates mood, cognition, and peripheral nerve conduction."><span class="rel">modulates</span>Nervous System</a>
+            <a class="conn-pill" href="liver.html" title="Liver converts T4 → T3 via DIO1 (type 1 deiodinase); hepatocytes express TRβ → T3 ↑ hepatic gluconeogenesis, LDL receptor expression (hypothyroidism → ↑LDL), and bile acid synthesis (CYP7A1 induction by T3)."><span class="rel">modulates</span>Liver</a>
+            <a class="conn-pill" href="thyroid-hormones.html" title="Expressed by Thyroid Hormones (T3/T4)."><span class="rel">expressed-by</span>Thyroid Hormones</a>
+            <a class="conn-pill" href="iodine.html" title="NIS concentrates I⁻ 20–40-fold into follicular cells; TPO organifies iodide onto thyroglobulin tyrosines and couples MIT/DIT to form T3/T4; the thyroid stores 70–80% of total body iodine; iodine is the rate-limiting substrate for thyroid hormone synthesis."><span class="rel">connects-to</span>Iodine</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
-            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. <a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener">macmillanlearning.com</a></li>
-            <li>Brent GA. Mechanisms of thyroid hormone action. <em>J Clin Invest.</em> 2012;122(9):3035-3043. <a href="https://doi.org/10.1172/JCI60047" target="_blank" rel="noopener">doi:10.1172/JCI60047</a></li>
-            <li>Kahaly GJ, Bartalena L, Hegedüs L, et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. <em>Eur Thyroid J.</em> 2018;7(4):167-186. <a href="https://doi.org/10.1159/000490384" target="_blank" rel="noopener">doi:10.1159/000490384</a></li>
-            <li>Haugen BR, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. <em>Thyroid.</em> 2016;26(1):1-133. <a href="https://doi.org/10.1089/thy.2015.0020" target="_blank" rel="noopener">doi:10.1089/thy.2015.0020</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
           </ul>
         </div>
 
@@ -312,13 +187,11 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="endocrine-system.html">Endocrine System</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

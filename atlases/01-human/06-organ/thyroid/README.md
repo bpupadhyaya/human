@@ -35,6 +35,9 @@ cross_links:
   - target: 01-human/03-molecular/thyroid-hormones
     relation: expressed-by
     note: "Expressed by Thyroid Hormones (T3/T4)."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "NIS concentrates I⁻ 20–40-fold into follicular cells; TPO organifies iodide onto thyroglobulin tyrosines and couples MIT/DIT to form T3/T4; the thyroid stores 70–80% of total body iodine; iodine is the rate-limiting substrate for thyroid hormone synthesis."
 ---
 
 # Thyroid Gland
@@ -171,6 +174,7 @@ Physiological role in humans is minor (patients after total thyroidectomy show n
 - **Modulates:** [Cardiovascular System](../../07-system/cardiovascular-system/README.md) — T3 upregulates cardiac HCN4 (↑heart rate), SERCA2a (↑relaxation speed), α-MHC (↑contractility), and peripheral vasodilatory pathways → ↑cardiac output; hypothyroidism causes bradycardia, pericardial effusion, and raised LDL cholesterol; hyperthyroidism causes atrial fibrillation.
 - **Modulates:** [Nervous System](../../07-system/nervous-system/README.md) — T3 is essential for fetal and neonatal brain myelination (MBP, PLP gene induction) and neuronal migration; maternal hypothyroidism or congenital hypothyroidism causes cretinism (irreversible cognitive impairment); adult thyroid status modulates mood, cognition, and peripheral nerve conduction velocity.
 - **Modulates:** [Liver](../liver/README.md) — liver converts T4 → T3 via DIO1 (type 1 deiodinase); hepatocytes express TRβ → T3 ↑ hepatic gluconeogenesis, LDL receptor expression (hypothyroidism → ↑LDL; levothyroxine → statin-like LDL lowering), and bile acid synthesis (CYP7A1 induction by T3).
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NIS concentrates I⁻ 20–40-fold into follicular cells; TPO organifies iodide onto thyroglobulin tyrosines and couples MIT/DIT to form T3/T4; the thyroid stores 70–80% of total body iodine; iodine is the rate-limiting substrate for thyroid hormone synthesis.
 
 ## Pathology
 
