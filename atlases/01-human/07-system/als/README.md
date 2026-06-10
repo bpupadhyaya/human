@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "ALS targets upper motor neurons in the primary motor cortex (Betz cells in layer V) and lower motor neurons in brainstem and spinal cord anterior horn; cortical hyperexcitability precedes clinical onset; cognitive and behavioral changes occur in ~50% (ALS-FTD continuum)."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "ALS reactive astrocytes lose EAAT2 → amplify glutamate excitotoxicity; ALS astrocytes kill co-cultured motor neurons in vitro; astrocyte-specific SOD1 removal prolongs mouse survival; non-cell-autonomous neurodegeneration via astrocytes is a core ALS mechanism."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "M1 microglia in ALS spinal cord release TNF-α, IL-1β, and NO → neurotoxic; NF-κB suppression in microglia prolongs SOD1 mouse survival; microglia transition from protective M2 to damaging M1 as ALS progresses; peripheral monocyte infiltration amplifies neuroinflammation."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "ALS causes dying-back axonopathy of peripheral motor nerves; neurofilament accumulation blocks axonal transport; EMG shows denervation (fibrillations, PSWs, giant units) in ≥3 body regions; peripheral motor nerve loss produces fasciculations, atrophy, and areflexia (LMN signs)."
 ---
 
 # ALS
@@ -188,10 +197,14 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[mTOR](../../../03-molecular/mtor/README.md)** — impaired autophagy contributes to TDP-43 and SOD1 aggregate accumulation; rapamycin reduces aggregate burden in ALS mouse models; p62/SQSTM1 and optineurin (autophagy receptors) are consistent components of ALS inclusions, indicating failed selective autophagy.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — ALS targets upper motor neurons (Betz cells, layer V primary motor cortex) and lower motor neurons (brainstem/spinal anterior horn); cortical hyperexcitability and reduced cortical inhibition precede clinical onset; cognitive/behavioral changes occur in ~50% (ALS-FTD spectrum).
+- `connects-to` → **[Astrocyte](../../../04-cellular/astrocyte/README.md)** — ALS reactive astrocytes lose EAAT2 → amplify glutamate excitotoxicity; ALS astrocytes kill co-cultured motor neurons in vitro; astrocyte-specific SOD1 removal prolongs mouse survival; non-cell-autonomous neurodegeneration via astrocytes is a core ALS mechanism.
+- `connects-to` → **[Microglia](../../../04-cellular/microglia/README.md)** — M1 microglia in ALS spinal cord release TNF-α, IL-1β, and NO → neurotoxic; NF-κB suppression in microglia prolongs SOD1 mouse survival; microglia transition from protective M2 to damaging M1 as ALS progresses; peripheral monocyte infiltration amplifies neuroinflammation.
+- `connects-to` → **[Peripheral Nerve](../../../05-tissue/peripheral-nerve/README.md)** — ALS causes dying-back axonopathy of peripheral motor nerves; neurofilament accumulation blocks axonal transport; EMG shows denervation (fibrillations, PSWs, giant units) in ≥3 body regions; peripheral motor nerve loss produces fasciculations, atrophy, and areflexia (LMN signs).
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
 [^miller-2023-tofersen-als]: Miller TM, Cudkowicz ME, Genge A, et al. Trial of Antisense Oligonucleotide Tofersen for SOD1 ALS. *N Engl J Med.* 2022;387(12):1099-1110. [doi:10.1056/NEJMoa2204705](https://doi.org/10.1056/NEJMoa2204705) · [PubMed 36129998](https://pubmed.ncbi.nlm.nih.gov/36129998/)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

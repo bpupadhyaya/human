@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "PD-1/PD-L1 expression is upregulated in relapsed ALL and post-CAR-T failure; pembrolizumab studied for ALL after blinatumomab failure; checkpoint inhibition is investigated to prevent CAR-T exhaustion and enhance blinatumomab activity."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B-ALL arises from arrested B-cell lymphoid progenitors; CD19+/CD10+/TdT+ immunophenotype defines most B-ALL; CD19 is exploited by tisagenlecleucel (CAR-T; 81% remission in ELIANA) and blinatumomab (CD19×CD3 BiTE); B-cell lineage markers determine eligibility for immunotherapy."
+  - target: 01-human/03-molecular/abl1
+    relation: connects-to
+    note: "BCR-ABL1 t(9;22) → p190 BCR-ABL1 in ~25% adult ALL and ~3-5% pediatric ALL; Ph+ ALL requires TKI (dasatinib or ponatinib) from Day 1; blinatumomab+dasatinib is emerging as a chemotherapy-free regimen; allo-SCT deferred if MRD-negative on TKI."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T-ALL arises from T-cell progenitor arrest at DN-DP transition; CD7+/cytoplasmic CD3+/TdT+ immunophenotype; NOTCH1 governs T-cell lineage commitment and is mutated in ~60% of T-ALL; nelarabine (T-cell-specific purine analog) is active in T-ALL relapse."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -179,6 +188,13 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH1 activating mutations occur in ~60% of T-ALL; NOTCH1 drives T-cell progenitor proliferation and blocks differentiation; gamma-secretase inhibitors suppress NOTCH1 in T-ALL preclinically; ETP-ALL has low NOTCH1 mutation frequency.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 overexpression contributes to chemotherapy resistance in B-ALL; venetoclax (BCL-2 inhibitor) shows activity in relapsed/refractory B-ALL in early trials; Ph+ ALL and Ph-like ALL show BCL-2 dependence amenable to venetoclax combinations.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1/PD-L1 expression is upregulated in relapsed ALL and post-CAR-T failure; pembrolizumab studied for ALL after blinatumomab failure; checkpoint inhibition is investigated to prevent CAR-T exhaustion and enhance blinatumomab activity.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B-ALL arises from arrested B-cell lymphoid progenitors; CD19+/CD10+/TdT+ immunophenotype defines most B-ALL; CD19 is exploited by tisagenlecleucel (CAR-T; 81% remission in ELIANA) and blinatumomab (CD19×CD3 BiTE); B-cell lineage markers determine eligibility for immunotherapy.
+- `connects-to` → **[ABL1](../../03-molecular/abl1/README.md)** — BCR-ABL1 t(9;22) produces p190 BCR-ABL1 in ~25% adult ALL and ~3-5% pediatric ALL; Ph+ ALL requires TKI (dasatinib or ponatinib) from Day 1; blinatumomab+dasatinib is emerging as a chemotherapy-free regimen; allo-SCT deferred if MRD-negative on TKI.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T-ALL arises from T-cell progenitor arrest at DN-DP transition; CD7+/cytoplasmic CD3+/TdT+ immunophenotype; NOTCH1 governs T-cell lineage commitment and is mutated in ~60% of T-ALL; nelarabine (T-cell-specific purine analog) is active in T-ALL relapse.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
