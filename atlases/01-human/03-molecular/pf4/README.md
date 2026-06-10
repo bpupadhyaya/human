@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "HIT causes paradoxical thrombosis: activated platelets generate procoagulant microparticles → thrombin generation; argatroban (DTI) and bivalirudin block thrombin in HIT; warfarin is contraindicated initially (protein C drops first → warfarin-induced limb gangrene risk)."
+  - target: 01-human/03-molecular/vegf
+    relation: modulates
+    note: "PF4 is anti-angiogenic: directly competes with VEGF for heparan sulfate binding and blocks VEGFR2 signaling; lacks the ELR motif required for angiogenic activity; inhibits endothelial proliferation and FGF2 signaling; PF4 variants (DLR-PF4) are investigated as anti-tumor agents."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "PF4/CXCL4 recruits neutrophils via CXCR3-A (weaker than CXCL8); HIT PF4-heparin-IgG immune complexes activate FcγRIIa on neutrophils → NETosis → thrombosis amplification; NETs in HIT provide additional procoagulant phosphatidylserine scaffold amplifying thrombin generation."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "PF4 promotes monocyte-to-DC differentiation via CXCR3-B; PF4 accumulates in atherosclerotic plaques and modulates macrophage inflammatory phenotype; anti-PF4/heparin IgG in HIT activates FcγRIIA on monocytes → tissue factor expression → thrombin generation amplification."
 ---
 
 # PF4
@@ -129,6 +138,9 @@ PF4 acts as a **negative regulator of megakaryopoiesis** — high PF4 levels in 
 - `connects-to` → **[Heparin-Induced Thrombocytopenia](../../07-system/heparin-induced-thrombocytopenia/README.md)** — PF4-heparin complex forms when heparin binds platelet-released PF4 → conformational change → neo-antigen → IgG anti-PF4/heparin → FcγRIIA on platelets → activation → TXA2 + PF4 release → amplification loop → thrombocytopenia + paradoxical thrombosis (HIT type 2).
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — PF4 is stored in platelet alpha-granules at ~25 μM and released upon platelet activation (thrombin, collagen, ADP); PF4 concentration around activated platelets → 100-1000× local heparin neutralization; PF4-mediated feedback inhibits megakaryocyte maturation (TPO antagonism).
 - `connects-to` → **[Thrombin](../thrombin/README.md)** — HIT causes paradoxical thrombosis: activated platelets generate procoagulant microparticles → thrombin generation; argatroban (DTI) and bivalirudin block thrombin in HIT; warfarin is contraindicated initially (protein C drops first → warfarin-induced limb gangrene risk).
+- `inhibits` → **[VEGF](../vegf/README.md)** — PF4 is anti-angiogenic: directly competes with VEGF for heparan sulfate binding and blocks VEGFR2 signaling; lacks the ELR motif required for angiogenic activity; inhibits endothelial proliferation and FGF2 signaling; PF4 variants (DLR-PF4) investigated as anti-tumor agents.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — PF4/CXCL4 recruits neutrophils via CXCR3-A (weaker than CXCL8); HIT PF4-heparin-IgG complexes activate FcγRIIa on neutrophils → NETosis → thrombosis amplification; NETs provide additional procoagulant phosphatidylserine scaffold amplifying thrombin generation.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — PF4 promotes monocyte-to-DC differentiation via CXCR3-B; PF4 accumulates in atherosclerotic plaques and modulates macrophage inflammatory phenotype; anti-PF4/heparin IgG in HIT activates FcγRIIA on monocytes → tissue factor expression → thrombin generation.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

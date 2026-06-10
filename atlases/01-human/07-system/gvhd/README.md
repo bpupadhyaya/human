@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 is a central amplifier of acute GvHD: conditioning regimen tissue damage releases DAMPs → IL-6 from host APCs → JAK1/STAT3 in donor T cells → Th17 polarization + survival signals; tocilizumab (anti-IL-6R) is studied as GvHD prophylaxis in clinical trials."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Alloreactive donor CD4+ Th1 cells are the central drivers of acute GvHD: IL-12+IFN-γ drives Th1 polarization; IL-6+TGF-β drives Th17; donor T helper cells recognize host alloantigens via direct (host MHC mismatch) and indirect (host peptides on donor APCs) pathways."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Donor CD8+ CTLs are the primary effectors of target organ damage in acute GvHD: recognize host MHC-I mismatch → perforin/granzyme-mediated killing of skin basal keratinocytes, GI crypt ISCs, and biliary epithelium → grade III/IV GvHD is the leading cause of non-relapse mortality."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Gut microbiome diversity at transplant predicts GvHD severity; Akkermansia muciniphila and Blautia spp. are protective — loss of butyrate-producing bacteria reduces Treg support; antibiotic dysbiosis → loss of SCFAs → increased GvHD risk; FMT is investigational for GvHD rescue."
 ---
 
 # Graft-Versus-Host Disease
@@ -181,7 +190,13 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Treg-derived IL-10 is the dominant immunosuppressive brake on alloreactive donor T cells post-HSCT; low circulating IL-10 and IL-10R polymorphisms predict GvHD severity; IL-10 gene transfer and IL-10-secreting Treg infusions are investigational GvHD prevention strategies.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — GvHD originates from allogeneic bone marrow or peripheral blood stem cell transplantation; donor hematopoietic stem cell engraftment is required for GvHD to occur; the bone marrow niche is reshaped by donor-derived immune reconstitution, influencing GvHD vs. GvL balance.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 is a central amplifier of acute GvHD: conditioning regimen tissue damage releases DAMPs → IL-6 from host APCs → JAK1/STAT3 in donor T cells → Th17 polarization + survival signals; tocilizumab (anti-IL-6R) is studied as GvHD prophylaxis in clinical trials.
+- `connects-to` → **[T-Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Alloreactive donor CD4+ Th1 cells are the central drivers of acute GvHD: IL-12+IFN-γ drives Th1 polarization; IL-6+TGF-β drives Th17; recognize host alloantigens via direct (host MHC mismatch) and indirect (host peptides on donor APCs) pathways.
+- `connects-to` → **[T-Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Donor CD8+ CTLs are the primary effectors of target organ damage: recognize host MHC-I mismatch → perforin/granzyme-mediated killing of skin keratinocytes, GI crypt ISCs, and biliary epithelium → grade III/IV GvHD is the leading cause of non-relapse mortality.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Gut microbiome diversity at transplant predicts GvHD severity; Akkermansia muciniphila and Blautia spp. are protective — loss of butyrate-producing bacteria reduces Treg support; antibiotic dysbiosis → loss of SCFAs → increased GvHD risk; FMT is investigational for GvHD rescue.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
 [^przepiorka-2020-ruxolitinib-cgvhd-reach3]: Przepiorka D, Luo L, Subramaniam S, et al. FDA Approval Summary: Ruxolitinib for Treatment of Chronic Graft-versus-Host Disease. *Oncologist.* 2022;27(2):98-104. [doi:10.1093/oncolo/oyab055](https://doi.org/10.1093/oncolo/oyab055) · [PubMed 35641197](https://pubmed.ncbi.nlm.nih.gov/35641197/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
