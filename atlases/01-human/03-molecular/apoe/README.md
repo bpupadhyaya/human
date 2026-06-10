@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "APOE4 impairs TFEB nuclear translocation (via APOE4-mediated mTORC1 hyperactivation) → reduced lysosomal biogenesis → defective Aβ clearance by microglia; mTOR inhibition with rapamycin restores APOE4 microglial function and reduces amyloid plaque load in mouse models."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Microglia are primary APOE-responsive cells in the brain; APOE4 impairs microglial Aβ phagocytosis (defective LRP1 internalization and lysosomal acidification) and activates NLRP3 → IL-1β/IL-18; TREM2 amplifies APOE4-driven microglial dysfunction in late-onset AD."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes are dominant APOE producers in the brain; astrocytic APOE-HDL particles (via ABCA1) deliver cholesterol to neurons via LRP1/LDLR for synaptogenesis; APOE4 astrocytes produce smaller, less lipidated particles → impaired cholesterol delivery → synaptic deficits."
+  - target: 01-human/03-molecular/mapt
+    relation: connects-to
+    note: "APOE4 independently promotes tau pathology: directly binds tau and accelerates aggregation in vitro; reduces autophagic tau clearance; amplifies tau-mediated neurodegeneration independent of amyloid; isoform conversion APOE4→APOE3 reduces tangle burden in mouse models."
 sources:
   - id: corder-1993-apoe4-ad
     type: peer-reviewed
@@ -89,10 +98,14 @@ APOE4 contributes to AD pathogenesis through at least four non-exclusive mechani
 
 ## Connections
 
-APOE4 (frequency ~15%) confers 3-4x heterozygous and 8-12x homozygous risk for late-onset AD; APOE4 impairs microglial Aβ phagocytosis, promotes Aβ aggregation, and worsens tau pathology; APOE4 homozygotes develop AD ~10 years earlier than APOE3 carriers.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — APOE4 (~15% frequency) confers 3-4× heterozygous and 8-12× homozygous risk for late-onset AD; APOE4 impairs microglial Aβ phagocytosis, promotes Aβ aggregation, and worsens tau pathology; APOE4 homozygotes develop AD ~10 years earlier than APOE3 carriers.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — APOE is the primary cholesterol transport protein in the CNS; astrocytes secrete APOE-HDL particles that deliver cholesterol to neurons for synapse formation and myelin repair; APOE4 forms smaller, cholesterol-poor lipoprotein particles → impaired synaptic repair after injury.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — APOE4 activates the NLRP3 inflammasome in microglia via impaired lipid efflux → excess intracellular cholesterol → lysosomal damage → caspase-1 → IL-1β/IL-18; APOE4-driven neuroinflammation amplifies amyloid and tau pathology in late-onset AD.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — APOE4 impairs TFEB nuclear translocation via mTORC1 hyperactivation → reduced lysosomal biogenesis → defective Aβ clearance by microglia; mTOR inhibition with rapamycin restores APOE4 microglial function and reduces amyloid plaque load in mouse models.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — microglia are primary APOE-responsive cells in the brain; APOE4 impairs microglial Aβ phagocytosis (defective LRP1 internalization and lysosomal acidification) and activates NLRP3 → IL-1β/IL-18; TREM2 amplifies APOE4-driven microglial dysfunction in late-onset AD.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — astrocytes are dominant APOE producers in the brain; astrocytic APOE-HDL particles (via ABCA1) deliver cholesterol to neurons via LRP1/LDLR for synaptogenesis; APOE4 astrocytes produce smaller, less lipidated particles → impaired cholesterol delivery → synaptic deficits.
+- `connects-to` → **[MAPT/Tau](../../03-molecular/mapt/README.md)** — APOE4 independently promotes tau pathology: directly binds tau and accelerates aggregation in vitro; reduces autophagic tau clearance; amplifies tau-mediated neurodegeneration independent of amyloid; isoform conversion APOE4→APOE3 reduces tangle burden in mouse models.
 
-APOE is the primary cholesterol transport protein in the CNS; astrocytes secrete APOE-HDL particles that deliver cholesterol to neurons for synapse formation and myelin repair; APOE4 forms smaller, cholesterol-poor lipoprotein particles → impaired synaptic repair after injury.
+---
 
-APOE4 activates the NLRP3 inflammasome in microglia via impaired lipid efflux → excess intracellular cholesterol → lysosomal damage → caspase-1 activation → IL-1β and IL-18 release; APOE4-driven neuroinflammation amplifies amyloid and tau pathology in late-onset AD.
-
-APOE4 impairs TFEB nuclear translocation (via APOE4-mediated mTORC1 hyperactivation) → reduced lysosomal biogenesis → defective Aβ clearance by microglia; mTOR inhibition with rapamycin restores APOE4 microglial function and reduces amyloid plaque load in mouse models.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

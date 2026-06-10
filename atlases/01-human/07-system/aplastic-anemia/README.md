@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombopoietin
     relation: connects-to
     note: "In severe AA, HSC destruction → thrombocytopenia; elevated TPO cannot drive production from depleted marrow; eltrombopag added to hATG+CsA (triple IST) improves overall response and may expand HSCs via c-Mpl beyond megakaryopoiesis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Autoreactive CD8+ CTL are the primary effectors in AA; oligoclonally expanded T cells infiltrate the marrow and kill HSCs via perforin/granzyme B → caspase-3 → apoptosis; Vβ TCR skewing documented; hATG + cyclosporine suppresses autoreactive CTL and restores hematopoiesis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Activated T cells secrete IFN-γ in the AA marrow → STAT1 → ↑p21/WAF1 → HSC cell cycle arrest; IFN-γ also upregulates FasL on HSCs → autocrine apoptosis; IFN-γ levels correlate with AA severity and response to IST; ruxolitinib (JAK1/2) targets IFN-γ signaling in refractory AA."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "AA patients have 10-15% risk of clonal evolution to MDS or AML; monosomy 7 is the most common cytogenetic abnormality (→ high MDS/AML risk); eltrombopag requires karyotype monitoring every 3 months; prior IST may select DNMT3A/ASXL1-mutant clones."
 ---
 
 # Aplastic Anemia
@@ -152,6 +161,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[PNH](../pnh/README.md)** — AA and PNH are closely related: immune destruction of normal HSCs in AA allows PIGA-mutant GPI-deficient clone to expand; 25-40% of AA patients have PNH clones at diagnosis; some AA patients evolve to overt PNH; both conditions are treated at specialized hemato-oncology centers.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — In aplastic anemia, autoreactive CTL target HSCs via perforin/granzyme-mediated cytotoxicity; elevated perforin+ CD8+ T cells in AA bone marrow predict treatment response; cyclosporine + anti-thymocyte globulin (ATG) reduce autoreactive CTL activity and restore hematopoiesis.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — In severe AA, HSC destruction → thrombocytopenia; elevated TPO cannot drive production from depleted marrow; eltrombopag added to hATG+CsA (triple IST) improves overall response and may expand HSCs via c-Mpl beyond megakaryopoiesis.
+- `connects-to` → **[T Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — autoreactive CD8+ CTL are the primary effectors in AA; oligoclonally expanded T cells infiltrate the marrow and kill HSCs via perforin/granzyme B → caspase-3 → apoptosis; Vβ TCR skewing documented; hATG + cyclosporine suppresses autoreactive CTL and restores hematopoiesis.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — activated T cells secrete IFN-γ in the AA marrow → STAT1 → ↑p21/WAF1 → HSC cell cycle arrest; IFN-γ also upregulates FasL on HSCs → autocrine apoptosis; IFN-γ levels correlate with AA severity and response to IST; ruxolitinib targets IFN-γ signaling in refractory AA.
+- `connects-to` → **[MDS](../mds/README.md)** — AA patients have 10-15% risk of clonal evolution to MDS or AML; monosomy 7 is the most common cytogenetic abnormality (→ high MDS/AML risk); eltrombopag requires karyotype monitoring every 3 months; prior IST may select DNMT3A/ASXL1-mutant clones.
 
 ---
 
