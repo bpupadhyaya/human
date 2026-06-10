@@ -72,6 +72,15 @@ cross_links:
   - target: 04-vaccine/01-mrna/mrna-1273
     relation: same-platform-as
     note: "Both modified-nucleoside mRNA-LNP encoding 2P-stabilized spike. Differ in lipid composition (ALC-0315 vs SM-102), dose (30 µg vs 100 µg), and dose interval (21 vs 28 days)."
+  - target: 01-human/04-cellular/b-cell
+    relation: elicits
+    note: "N1-methylpseudouridine mRNA in LNP drives robust GC B cell responses; LNP traffics to draining lymph nodes → follicular DCs present spike antigen → B cell receptor cross-linking; anti-spike RBD IgG is the primary correlate of protection; titers 10-20× higher than post-infection."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: elicits
+    note: "mRNA-LNP elicits Th1-biased CD4+ T-cell responses (IFN-γ + TNF-α + IL-2); unlike alum-adjuvanted protein vaccines, LNP activates STING/TLR pathway → Th1 cytokine environment; spike-specific Tfh cells support GC reactions → high-affinity class-switched IgG."
+  - target: 01-human/07-system/covid-19-disease
+    relation: prevents
+    note: "Phase 3 C4591001: 95.0% VE against symptomatic COVID-19; >90% VE against severe disease and hospitalisation sustained through Delta; real-world VE hospitalisation 92% (Israel); Omicron reduces infection VE but severe disease protection maintained with boosters."
 ---
 
 # BNT162b2 (Comirnaty)
@@ -100,9 +109,15 @@ This is a **stub entry** — to be expanded with full Platform / Antigen design 
 - **Sibling mRNA vaccine**: [`04-vaccine/01-mrna/mrna-1273`](../mrna-1273/README.md) (Moderna, SM-102 LNP, 100 µg)
 - **Antigen**: Prefusion-stabilized (2P) spike protein; same design principle as mRNA-1273
 - **Immune effectors**: Anti-spike neutralizing IgG (IgG1/IgG3), spike-specific CD4⁺ Th1, CD8⁺ T cells
+- **Elicits** → [B Cell](../../../01-human/04-cellular/b-cell/README.md): N1-methylpseudouridine mRNA-LNP drives robust GC reactions; spike antigen presented by follicular DCs → B-cell receptor cross-linking → high-affinity anti-RBD IgG (10–20× post-infection titers).
+- **Elicits** → [T-Helper Cell](../../../01-human/04-cellular/t-helper-cell/README.md): LNP activates STING/TLR signalling → Th1 cytokine environment (IFN-γ, IL-2); spike-specific Tfh cells support GC reactions and class switching to IgG1/IgG3.
+- **Prevents** → [COVID-19 Disease](../../../01-human/07-system/covid-19-disease/README.md): 95.0% VE against symptomatic COVID-19 (C4591001); >90% VE against severe disease and hospitalisation through Delta; real-world VE hospitalisation 92% (Israel); boosters restore Omicron severe-disease protection.
 
 ## See also
 
 - [`04-vaccine/01-mrna/mrna-1273`](../mrna-1273/README.md) — sibling mRNA-LNP vaccine (Moderna)
 - [`02-pathogen/01-viruses/sars-cov-2`](../../../02-pathogen/01-viruses/sars-cov-2/README.md) — target pathogen
 - [`04-vaccine/01-mrna/README.md`](../README.md) — platform overview
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

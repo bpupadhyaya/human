@@ -81,6 +81,15 @@ cross_links:
     relation: elicits
     evidence: who-2022-hpv-position
     note: "Type-specific anti-L1 IgG is the correlate of protection; neutralizing antibodies prevent HPV virion attachment to heparan sulfate proteoglycans and α6 integrin on cervical basal epithelial cells; WHO 2022 estimates that the 5 highest-risk types in Gardasil 9 (16/18/31/33/45/52/58) cause ~90% of cervical cancers."
+  - target: 01-human/07-system/cervical-cancer
+    relation: prevents
+    note: "Gardasil 9 prevents HPV-16/18/31/33/45/52/58-driven cervical cancer; Swedish register: vaccination before age 17 reduces invasive cervical cancer by 88% (adj RR 0.12); HPV types 16+18 cause 70% of cervical cancers; WHO target: 90% girl vaccination by age 15 for elimination."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: immunizes-against
+    note: "HPV-16 is the most oncogenic type (causes ~50% of cervical cancers and most HPV-associated oropharyngeal cancers); Gardasil 9 L1 VLP from S. cerevisiae; anti-HPV-16 IgG 5-50× natural infection titers; 97.4% VE against HPV-16/18-related CIN2+ (FUTURE I/II)."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: elicits
+    note: "AAHS adjuvant activates TLR4 and NLRP3 at injection site → DC maturation and migration to draining lymph nodes; 55 nm L1 VLPs phagocytosed by DCs → MHC-II presentation → CD4+ T helper priming → GC reactions → anti-L1 IgG with 5-50× natural infection titers."
 ---
 
 # Gardasil 9 (HPV9)
@@ -135,3 +144,9 @@ Not recommended during pregnancy (insufficient data). No adverse pregnancy outco
 - **Elicits** → [Immune System](../../../01-human/07-system/immune-system/README.md): AAHS-adjuvanted L1 VLPs activate innate sensing and drive robust type-specific IgG responses; the multivalent VLP display is a prototypical B-cell activating antigen architecture.
 - **Elicits** → [B Cell](../../../01-human/04-cellular/b-cell/README.md): Dense multivalent L1 display cross-links B-cell receptors, driving strong germinal center reactions and long-lived plasma cell differentiation; the basis for antibody titers that exceed natural infection.
 - **Elicits** → [Immunoglobulin G](../../../01-human/03-molecular/immunoglobulin-g/README.md): Type-specific anti-L1 IgG is the vaccine's correlate of protection — neutralizing antibodies prevent HPV virion binding to cervical basal epithelium before integration and oncogenic transformation can occur.
+- **Prevents** → [Cervical Cancer](../../../01-human/07-system/cervical-cancer/README.md): Swedish national register (2020) found vaccination before age 17 associated with 88% reduction in invasive cervical cancer; WHO target: 90% coverage of girls by age 15 to eliminate cervical cancer as a public health problem.
+- **Immunizes against** → [HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md): HPV-16 is the dominant oncogenic HPV type (~50% of cervical cancers, most oropharyngeal HPV cancers); Gardasil 9 L1 VLP for HPV-16 drives anti-HPV-16 IgG 5–50× higher than natural infection titers; 97.4% VE against CIN2+ in trials.
+- **Elicits** → [Dendritic Cell](../../../01-human/04-cellular/dendritic-cell/README.md): AAHS activates innate sensing at injection site → DC maturation; 55 nm L1 VLPs are efficiently phagocytosed by DCs → MHC-II presentation of L1 peptides → CD4+ T helper cell priming → germinal center reactions for high-affinity, long-lived anti-L1 IgG.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

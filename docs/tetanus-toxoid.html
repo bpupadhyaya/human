@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Tetanus Toxoid — formalin-inactivated tetanospasmin toxoid vaccine. VAMP/synaptobrevin mechanism, anti-TT IgG correlate, DTaP/Td/Tdap formulations, neonatal tetanus elimination. Human Engineering project.">
-  <meta property="og:title" content="Tetanus Toxoid — Vaccine Atlas · Human Engineering">
+  <meta name="description" content="Formaldehyde-inactivated tetanospasmin from *Clostridium tetani*; &gt;95% seroconversion after 3-dose primary series. Protective IgG ≥0.1 IU/mL. Given as TT, Td, D">
+  <meta property="og:title" content="Tetanus Toxoid (TT / Td / DTaP) — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Tetanus Toxoid — Vaccine Atlas · Human Engineering</title>
+  <title>Tetanus Toxoid (TT / Td / DTaP) — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0369a1;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,325 +39,175 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #075985); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
-    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
-    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
-    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-    .trial-result { font-weight: 700; color: var(--bio); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .detail-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .detail-table td { padding: 0.55rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .detail-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; width: 9rem; }
-    .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
-    .conn-pill { display: inline-block; padding: 0.3rem 0.8rem; background: rgba(3,105,161,0.08); border: 1px solid rgba(3,105,161,0.2); border-radius: 999px; font-size: 0.82rem; font-weight: 600; color: var(--accent); transition: background .15s; }
-    .conn-pill:hover { background: rgba(3,105,161,0.16); color: var(--accent); }
-    .ref-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
-    .ref-list li { font-size: 0.85rem; color: var(--muted); line-height: 1.6; padding-left: 1.4rem; position: relative; }
-    .ref-list li::before { content: "›"; position: absolute; left: 0.3rem; color: var(--accent); font-weight: 700; }
-    .ref-list a { color: var(--accent); }
-    .ref-list a:hover { color: var(--bio); }
-    footer { border-top: 1px solid var(--border-soft); padding: 2.5rem 1.5rem; }
-    .footer-inner { max-width: var(--maxw); margin: 0 auto; display: flex; flex-direction: column; gap: 0.6rem; }
-    .footer-meta { font-size: 0.82rem; color: var(--muted); }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
-<nav>
-  <div class="nav-inner">
-    <div class="brand">
-      <div class="brand-mark"></div>
-      Human Engineering
-    </div>
-    <div class="nav-links">
-      <a href="index.html" class="nav-back">
-        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 2L4 7l5 5"/></svg>
-        Home
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
       </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 06 — Toxoid</div>
+    <h1>Tetanus Toxoid (TT / Td / DTaP)</h1>
+    <p class="tagline">Formaldehyde-inactivated tetanospasmin from *Clostridium tetani*; &gt;95% seroconversion after 3-dose primary series. Protective IgG ≥0.1 IU/mL. Given as TT, Td, DTaP, or DTP. Core WHO EPI vaccine; eliminated neonatal tetanus in &gt;90% of countries. Boosters every 10 years.</p>
+    <p class="aliases">Also known as: TT, Td, DTaP, DTP, tetanus toxoid, tetanus vaccine, diphtheria-tetanus-acellular pertussis</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">06 — Toxoid</span><span class="stat-label">Platform</span></div>
+        <div class="stat"><span class="stat-num">intramuscular (preferred) or subcutaneous</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">2°C–8°C; do not freeze (freezing destroys adsorbed toxoid)</span><span class="stat-label">Cold Chain</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
+        <div class="entry-eyebrow">tetanus-toxoid</div>
+        <h2>Tetanus Toxoid (TT / Td / DTaP)</h2>
+        <p class="summary">Formaldehyde-inactivated tetanospasmin from *Clostridium tetani*; &gt;95% seroconversion after 3-dose primary series. Protective IgG ≥0.1 IU/mL. Given as TT, Td, DTaP, or DTP. Core WHO EPI vaccine; eliminated neonatal tetanus in &gt;90% of countries. Boosters every 10 years.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>tetanus-toxoid</td></tr>
+            <tr><td>Name</td><td>Tetanus Toxoid (TT / Td / DTaP)</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Platform</td><td>06 — Toxoid</td></tr>
+            <tr><td>Delivery system</td><td>Intramuscular or subcutaneous injection; toxoid adsorbed to alum adjuvant (Al(OH)₃ or AlPO₄)</td></tr>
+            <tr><td>Adjuvants</td><td>aluminum hydroxide (alum), aluminum phosphate</td></tr>
+            <tr><td>Route</td><td>intramuscular (preferred) or subcutaneous</td></tr>
+            <tr><td>Dose — primary series infant dtap</td><td>3 doses at 2, 4, 6 months (DTaP, diphtheria-tetanus-acellular pertussis)</td></tr>
+            <tr><td>Dose — booster infant</td><td>DTaP at 15–18 months and 4–6 years</td></tr>
+            <tr><td>Dose — adolescent booster</td><td>Td (tetanus-diphtheria) at 11–12 years</td></tr>
+            <tr><td>Dose — adult boosters</td><td>Td every 10 years; Tdap (with acellular pertussis) once as adult</td></tr>
+            <tr><td>Dose — wound prophylaxis</td><td>TT if last dose &gt;5 years before tetanus-prone wound; tetanus immune globulin (TIG) if unvaccinated</td></tr>
+            <tr><td>Developer</td><td>Multiple WHO-qualified manufacturers (Sanofi Pasteur, GSK, Serum Institute of India, Bio Farma, Biological E., others)</td></tr>
+            <tr><td>Cold chain</td><td>2°C–8°C; do not freeze (freezing destroys adsorbed toxoid)</td></tr>
+            <tr><td>WHO (1974-01-01)</td><td>WHO Essential Medicines List (EML) — prequalified multiple sources</td></tr>
+            <tr><td>FDA (1938-01-01)</td><td>Licensed — multiple formulations (Td, DTaP, Tdap)</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="immune-system.html" title="Tetanus toxoid elicits strong T-helper cell-dependent IgG response; anti-TT IgG ≥0.1 IU/mL (measured by in vivo toxin neutralization or ELISA) is the protective threshold; 3-dose primary series achieves &gt;95% seroprotection."><span class="rel">elicits</span>Immune System</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="Alum-adjuvanted tetanus toxoid activates CD4⁺ T helper 2 (Th2) cells; Th2 cytokines (IL-4, IL-13) drive IgG1 and IgE class switching; CD4⁺ T-cell memory is key for long-lived antibody responses to booster doses."><span class="rel">elicits</span>T Helper Cell</a>
+            <a class="conn-pill" href="immunoglobulin-g.html" title="Anti-tetanus-toxoid IgG is the primary correlate of protection; titre ≥0.1 IU/mL is protective, ≥1.0 IU/mL is considered long-term protective. Protective IgG persists ≥10 years after primary series; boosters maintain high titers."><span class="rel">elicits</span>Immunoglobulin G</a>
+            <a class="conn-pill" href="b-cell.html" title="Tetanus toxoid is the prototypic T-dependent antigen; alum-adsorbed TT drives GC reactions → high-affinity class-switched IgG1/IgG4; long-lived bone marrow plasma cells sustain anti-TT IgG &gt;0.1 IU/mL for 10+ years; memory B cells enable rapid recall on booster."><span class="rel">elicits</span>B Cell</a>
+            <a class="conn-pill" href="peripheral-nerve.html" title="Tetanospasmin travels retroaxonally from wounds to spinal inhibitory interneurons; TT-induced IgG intercepts circulating toxin before nerve uptake; once toxin enters neurons it cannot be neutralized — pre-exposure vaccination is the only effective preventive strategy."><span class="rel">connects-to</span>Peripheral Nerve</a>
+            <a class="conn-pill" href="snare-complex.html" title="Tetanospasmin (zinc metalloprotease) cleaves VAMP2/synaptobrevin at Gln76-Phe77 in spinal inhibitory interneurons → blocks SNARE complex assembly → prevents glycine/GABA vesicle release → loss of motor inhibition → spastic paralysis; TT IgG prevents toxin entry into neurons."><span class="rel">connects-to</span>Snare Complex</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://www.who.int/publications/i/item/who-wer9206" target="_blank" rel="noopener noreferrer">World Health Organization. Tetanus vaccines: WHO position paper — February 2017. Wkly Epidemiol Rec. 2017;92(6):53-76.</a></li>
+            <li><a href="https://doi.org/10.1016/S0140-6736(07)61619-5" target="_blank" rel="noopener noreferrer">Roper MH, Vandelaer JH, Gasse FL. Maternal and neonatal tetanus. Lancet. 2007;370(9603):1947-59.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18021961/" target="_blank" rel="noopener noreferrer">PubMed 18021961</a></li>
+            <li><a href="https://doi.org/10.1016/s0300-9084(00)00216-9" target="_blank" rel="noopener noreferrer">Humeau Y, Doussau F, Grant NJ, Poulain B. How botulinum and tetanus neurotoxins block neurotransmitter release. Biochimie. 2000;82(5):427-46.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10865130/" target="_blank" rel="noopener noreferrer">PubMed 10865130</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="immune-system.html">Immune System</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-  </div>
-</nav>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-<section class="hero">
-  <div class="hero-eyebrow">Atlas Four · Vaccine · Toxoid</div>
-  <h1>Tetanus Toxoid</h1>
-  <p class="tagline">Formalin-inactivated tetanospasmin toxoid — DTaP, Td, Tdap, TT formulations</p>
-  <p class="subtagline">Multiple manufacturers · Clostridium tetani-derived · Alum adjuvant · Anti-TT IgG ≥0.1 IU/mL protective · WHO EML · Near-100% seroconversion after 3-dose primary series</p>
-  <div class="stat-row">
-    <div class="stat"><span class="stat-num">&gt;95%</span><span class="stat-label">seroconversion after 3-dose primary</span></div>
-    <div class="stat"><span class="stat-num">≥0.1 IU/mL</span><span class="stat-label">anti-TT IgG seroprotection threshold</span></div>
-    <div class="stat"><span class="stat-num">10 yr</span><span class="stat-label">standard booster interval</span></div>
-    <div class="stat"><span class="stat-num">~34,000</span><span class="stat-label">tetanus deaths/year (WHO 2019)</span></div>
-  </div>
-</section>
-
-<main>
-  <div class="detail-card">
-    <div class="detail-header">
-      <div class="entry-eyebrow">Vaccine Entry · Atlas Four</div>
-      <h2>Tetanus Toxoid (TT)</h2>
-      <div class="drug-class">Toxoid · Formalin-Inactivated Tetanospasmin · Alum-Adjuvanted · DTaP / Td / Tdap / TT Formulations</div>
-      <p class="summary">Tetanus toxoid is produced by formalin-inactivating the tetanospasmin neurotoxin secreted by <em>Clostridium tetani</em>, abrogating its SNARE-cleaving activity while preserving immunogenic epitopes. Adsorbed onto aluminum salts, the toxoid drives high-titer anti-tetanospasmin IgG that neutralizes toxin before neuronal endocytosis, preventing spastic paralysis. With &gt;95% seroconversion after 3 doses and near-universal availability, tetanus remains one of the most effective, safe, and widely deployed vaccine antigens in global immunization programs.</p>
-      <div class="alias-pills">
-        <span class="alias-pill">Tetanus Toxoid (TT)</span>
-        <span class="alias-pill">DTaP (+ diphtheria + acellular pertussis)</span>
-        <span class="alias-pill">Td (adult reduced diphtheria)</span>
-        <span class="alias-pill">Tdap (+ reduced pertussis)</span>
-        <span class="alias-pill">DTP (whole-cell pertussis; LMICs)</span>
-      </div>
-    </div>
-
-    <div class="detail-body">
-
-      <!-- OVERVIEW -->
-      <div class="detail-section">
-        <h3>Overview</h3>
-        <p>Tetanus is caused by <strong>tetanospasmin</strong>, a 150 kDa zinc-dependent metalloprotease AB-toxin produced by <em>Clostridium tetani</em> in anaerobic wound environments. The toxin's light chain cleaves <strong>VAMP/synaptobrevin</strong>, a key SNARE protein required for vesicle fusion at inhibitory interneurons in the spinal cord and brainstem. Cleavage abolishes glycine and GABA release, producing the characteristic <strong>spastic paralysis</strong> (lockjaw, risus sardonicus, opisthotonus) with autonomic instability. Tetanus remains lethal in 10–80% of clinical cases without intensive care. Despite effective vaccination, it kills approximately 34,000 people annually (WHO, 2019 estimates), predominantly through neonatal tetanus (unhygienic cord cutting) in low-income countries.</p>
-        <p>Tetanus toxoid is manufactured by growing <em>C. tetani</em> in liquid culture (e.g., Mueller-Miller medium), harvesting the secreted tetanospasmin, and <strong>formalin-inactivating</strong> it with 0.2–0.4% formaldehyde at 37 °C for 3–4 weeks. This detoxification alkylates lysine residues in the catalytic site, permanently abolishing enzymatic activity while preserving the immunodominant epitopes of the heavy chain (cell-binding domain, HC) and light chain (enzymatic domain, LC), allowing the immune system to generate anti-toxin antibodies that block neuronal binding and endocytosis. The toxoid is <strong>adsorbed onto aluminum hydroxide or aluminum phosphate</strong> (alum) adjuvant to create a depot that enhances and prolongs the immune response.</p>
-        <p>The <strong>correlate of protection</strong> is an anti-TT IgG titer of <strong>≥0.1 IU/mL</strong> (enzyme-linked immunosorbent assay or in-vivo mouse neutralization test) — historically derived from studies showing that serum containing ≥0.01 IU/mL was protective in guinea pigs, with the human clinical threshold conservatively set higher. Titers ≥1.0 IU/mL are associated with long-term protection without booster. Tetanus toxoid is incorporated in multi-antigen formulations: <strong>DTaP</strong> (pediatric; diphtheria, tetanus, acellular pertussis), <strong>DTP</strong> (diphtheria, tetanus, whole-cell pertussis; still widely used in LMICs via Pentavalent vaccine), <strong>Td</strong> (adult-reduced diphtheria + tetanus), and <strong>Tdap</strong> (adult reduced diphtheria, tetanus, acellular pertussis). Tetanus toxoid alone (TT) is used for maternal immunization in settings without multi-antigen alternatives.</p>
-      </div>
-
-      <!-- PLATFORM & ANTIGEN DESIGN -->
-      <div class="detail-section">
-        <h3>Platform &amp; Antigen Design</h3>
-        <div class="pathway-block">
-<pre>
-TETANUS TOXOID — MECHANISM OF DISEASE PREVENTION
-=================================================
-
-  DISEASE MECHANISM (wild-type tetanospasmin):
-  C. tetani (anaerobic wound) → tetanospasmin secreted
-          │  HC domain binds GT1b ganglioside (motor neuron terminal)
-          │  Retrograde axonal transport to spinal cord interneurons
-          ▼
-  Light chain (Zn²⁺ metalloprotease)
-  cleaves VAMP/synaptobrevin (SNARE protein)
-          │
-          ▼
-  SNARE complex fails → vesicle fusion blocked
-  → Inhibitory glycine/GABA neurons silenced
-          │
-          ▼
-  Unchecked α-motor neuron firing
-  → Spastic paralysis (risus sardonicus, opisthotonus,
-    trismus, autonomic instability)
-
-  TOXOID VACCINE PROTECTION:
-  Formalin-inactivated tetanospasmin (toxoid)
-  + alum adjuvant → IM injection
-          │
-          ▼
-  Anti-TT IgG ≥0.1 IU/mL (seroprotective)
-          │
-          ▼
-  IgG binds HC cell-binding domain → blocks GT1b binding
-  IgG neutralizes toxin in serum before neuronal endocytosis
-          │
-          ▼
-  Spinal interneurons protected → no spastic paralysis
-
-  FORMALIN INACTIVATION CHEMISTRY:
-  HCHO (0.2–0.4%) + tetanospasmin → 37°C × 3–4 weeks
-  → Formaldehyde alkylates Lys (LC active site)
-  → Destroys Zn²⁺-metalloprotease activity
-  → Preserves HC/LC surface epitopes → immunogenic
-</pre>
-        </div>
-        <ol class="step-list" style="margin-top:1rem;">
-          <li><strong>Fermentation:</strong> <em>C. tetani</em> grown anaerobically in protein-free or Mueller-Miller medium; tetanospasmin (150 kDa, A+B structure) secreted into supernatant at peak culture.</li>
-          <li><strong>Purification:</strong> Ammonium sulfate precipitation and/or column chromatography concentrate tetanospasmin; quality controlled for toxin units (Lf, flocculation units) before detoxification.</li>
-          <li><strong>Formalin inactivation:</strong> 0.2–0.4% formaldehyde at 37 °C for 3–4 weeks alkylates the zinc-binding lysine residues in the LC metalloprotease active site, permanently inactivating enzymatic (VAMP-cleaving) activity while preserving surface immunogenicity.</li>
-          <li><strong>Adsorption:</strong> Toxoid adsorbed onto aluminum hydroxide (alum) creates a particulate depot at the injection site, slowing antigen release, enhancing uptake by APCs, and activating the NLRP3 inflammasome for robust adjuvant effect.</li>
-          <li><strong>Antibody neutralization:</strong> Anti-TT IgG (primarily targeting HC domain, specifically the receptor-binding HC-C fragment) prevents tetanospasmin binding to GT1b gangliosides on presynaptic motor neuron terminals, neutralizing toxin in the extracellular/vascular compartment before neuronal endocytosis. Once internalized, toxin is no longer accessible to antibody.</li>
-        </ol>
-      </div>
-
-      <!-- IMMUNOGENICITY -->
-      <div class="detail-section">
-        <h3>Immunogenicity</h3>
-        <div class="pleiotropic-grid">
-          <div class="pleio-item">
-            <h4>Humoral Response</h4>
-            <p>Anti-TT IgG is the dominant and sufficient protective response. Seroconversion (≥0.1 IU/mL) in &gt;95% after 3-dose primary series; ≥99.9% after 5th dose. Titers peak at ~1–4 weeks post-dose. Primary series drives IgG1/IgG4 class-switch and germinal center affinity maturation (anti-HC HC-C fragment antibodies). Th2 dominance for B-cell help; alum adjuvant reinforces Th2 skewing. Memory B cells persist for decades.</p>
-          </div>
-          <div class="pleio-item">
-            <h4>CD4⁺ T-Cell Response</h4>
-            <p>Toxoid-specific CD4⁺ T-cell responses (Th2 dominant: IL-4, IL-13, IL-5; some Th1: IFN-γ) provide sustained B-cell help and memory. Tetanus toxoid is a classic T-dependent antigen used as a benchmark in clinical immunology studies. Antigen-specific CD4⁺ memory T cells detected for ≥10 years after primary immunization, supporting rapid anamnestic response upon booster or natural exposure.</p>
-          </div>
-          <div class="pleio-item">
-            <h4>Innate Activation (Alum)</h4>
-            <p>Aluminum adjuvant activates the NLRP3 inflammasome (IL-1β, IL-18 release) in dendritic cells and macrophages, creating a local inflammatory depot. Uric acid crystals and lysosomal membrane disruption contribute to alum's adjuvant mechanism. Promotes DC maturation (CD80/CD86 upregulation), antigen uptake, and migration to draining lymph nodes, bridging innate and adaptive responses without significant systemic reactogenicity.</p>
-          </div>
-          <div class="pleio-item">
-            <h4>Duration / Durability</h4>
-            <p>Anti-TT IgG titers wane after primary series but memory B cells persist. After 3-dose primary, protective titers (≥0.1 IU/mL) last ~5–10 years in most individuals. After 5th dose (school age booster), titers ≥1.0 IU/mL often persist 10–20+ years. Standard 10-year booster intervals recommended for adults in most programs; wound-related boosters given if &gt;5 years since last dose and tetanus-prone wound. Maternal TT drives transplacental IgG protecting neonates against neonatal tetanus.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CLINICAL EFFICACY -->
-      <div class="detail-section">
-        <h3>Clinical Efficacy</h3>
-        <table class="data-table">
-          <thead>
-            <tr>
-              <th>Study / Program</th>
-              <th>Design</th>
-              <th>n</th>
-              <th>Endpoint</th>
-              <th>Outcome</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>DTaP primary (multiple RCTs)</td>
-              <td>Phase 3 immunogenicity; 3-dose primary in infants (2, 4, 6 months)</td>
-              <td>&gt;10,000 (pooled)</td>
-              <td>Seroconversion: anti-TT IgG ≥0.1 IU/mL at 1 month post-dose 3</td>
-              <td><span class="trial-result">&gt;95%</span> seroconversion; geometric mean titer (GMT) ≥1.0–4.0 IU/mL</td>
-            </tr>
-            <tr>
-              <td>5-dose DTaP completion (ACIP data)</td>
-              <td>Post-dose 5 (age 4–6 years) immunogenicity</td>
-              <td>~2,000</td>
-              <td>Anti-TT IgG ≥0.1 IU/mL</td>
-              <td><span class="trial-result">&gt;99.9%</span> seroconversion; very high GMT predicting decade-long protection</td>
-            </tr>
-            <tr>
-              <td>Maternal TT (neonatal tetanus, MNT)</td>
-              <td>Observational; WHO expanded program on immunization (MNT elimination trials, 1990s–2010s)</td>
-              <td>National registries, multiple LMICs</td>
-              <td>Neonatal tetanus incidence pre/post maternal TT program</td>
-              <td><span class="trial-result">94%</span> reduction in neonatal tetanus deaths; global MNT elimination (WHO 2020 in most regions)</td>
-            </tr>
-            <tr>
-              <td>Td/Tdap adult booster (immunogenicity)</td>
-              <td>Phase 3 RCT; adults previously vaccinated with DTaP/Td series</td>
-              <td>~1,000–3,000 per trial</td>
-              <td>Booster response: ≥4-fold rise in anti-TT IgG at 28 days</td>
-              <td><span class="trial-result">~99%</span> booster response; confirms robust immunological memory regardless of prior titer at booster</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- SAFETY PROFILE -->
-      <div class="detail-section">
-        <h3>Safety Profile</h3>
-        <ul class="se-list">
-          <li><span class="badge badge-hi">Rare / Serious</span> <strong>Arthus reaction (hyperdose)</strong> — Immune-complex (Type III) local reaction at injection site in adults who have received very frequent (excess) boosters with very high pre-existing anti-TT titers. Presents as severe local erythema, edema, induration within 2–8 hours. Prevented by not giving tetanus-containing vaccine more frequently than every 5 years (wound management) or 10 years (routine). Not a concern with standard schedules.</li>
-          <li><span class="badge badge-hi">Rare / Serious</span> <strong>Brachial neuritis (neuralgic amyotrophy)</strong> — Rare (estimated 1–2/100,000 doses); acute onset shoulder and arm pain with focal weakness/atrophy, mediated by immune-complex deposition or direct nerve inflammation. Onset days to weeks post-vaccination. Resolves in months to years. Risk similar to other protein antigens in susceptible individuals.</li>
-          <li><span class="badge badge-hi">Rare / Serious</span> <strong>Anaphylaxis</strong> — Very rare; estimated &lt;1–2 per million doses. Observe for 15 minutes post-injection.</li>
-          <li><span class="badge badge-mod">Common</span> <strong>Injection-site pain, swelling, redness</strong> — Very common (up to 75% of adults); alum depot causes local inflammation and transient tender nodule. Resolves within 48–72 hours. Warm compress recommended.</li>
-          <li><span class="badge badge-mod">Common</span> <strong>Systemic — fever, fatigue, myalgia</strong> — Low-grade fever (&lt;38.5 °C) in ~5–15% of adults; fatigue and myalgia in 10–25%. More common with Tdap (pertussis component adds reactogenicity) than Td alone. Self-limiting within 24–48 hours.</li>
-          <li><span class="badge badge-lo">Uncommon</span> <strong>Nodule at injection site</strong> — Persistent, painless nodule from alum depot at deltoid; occurs in ~1–2% if vaccine injected too superficially. Resolves over weeks to months; no treatment required beyond reassurance.</li>
-          <li><span class="badge badge-lo">Rare</span> <strong>Extensive limb swelling (DTaP, pre-school dose 4–5)</strong> — Transient large local reaction (entire limb swelling) after 4th or 5th DTaP dose in some children; self-limited, related to high anti-TT/anti-PT memory response. Does not recur in subsequent doses; not a contraindication to Td completion.</li>
-        </ul>
-      </div>
-
-      <!-- ADMINISTRATION -->
-      <div class="detail-section">
-        <h3>Administration</h3>
-        <table class="detail-table">
-          <thead><tr><th>Parameter</th><th>Details</th></tr></thead>
-          <tbody>
-            <tr><td>Primary Series</td><td>3-dose IM series (DTaP at 2, 4, 6 months in infant schedule). 4th dose: 15–18 months. 5th dose (pre-school): 4–6 years. Provides &gt;95% seroconversion and near-lifetime immunity framework.</td></tr>
-            <tr><td>Adult / Booster</td><td>Td booster every 10 years throughout adulthood. One Tdap substitution for one Td dose (adds pertussis coverage). Wound management: give Td if &gt;5 years since last dose for tetanus-prone wound; add TIG (tetanus immunoglobulin) if unvaccinated/uncertain status + wound.</td></tr>
-            <tr><td>Maternal TT</td><td>For pregnant women with no/unknown prior vaccination: 2-dose TT or Td series (Day 0, 4 weeks apart) during pregnancy; 3rd dose ≥6 months later for long-term protection. Transplacental IgG protects neonate against neonatal tetanus.</td></tr>
-            <tr><td>Route</td><td>Intramuscular (IM); deltoid (adults/older children), anterolateral thigh (infants). Never IV. Shake vial before use (alum settles). Do not inject into gluteal muscle (reduced immunogenicity, sciatic nerve risk).</td></tr>
-            <tr><td>Storage</td><td>2–8 °C. Do not freeze — freezing destroys alum adjuvant flocculation and irreversibly damages antigen-adjuvant complex. Frozen vaccine must not be used. Standard refrigerator cold chain; widely available globally.</td></tr>
-            <tr><td>Contraindications</td><td>Severe allergic reaction (anaphylaxis) to prior tetanus-containing vaccine or any component. History of Guillain-Barré syndrome within 6 weeks of prior vaccine (relative; weigh risk/benefit). Encephalopathy within 7 days of prior pertussis-containing vaccine (contraindicate pertussis component; TT/Td alone is safe).</td></tr>
-            <tr><td>TIG (passive)</td><td>Tetanus immune globulin (TIG) 250 IU IM for wound prophylaxis in unvaccinated/incompletely vaccinated individuals. Provides immediate passive protection while active vaccine takes effect. Give vaccine and TIG simultaneously at separate sites for maximum coverage.</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- CONNECTIONS -->
-      <div class="detail-section">
-        <h3>Connections</h3>
-        <div class="conn-pills">
-          <a href="immune-system.html" class="conn-pill">Immune System</a>
-          <a href="b-cell.html" class="conn-pill">B Cell</a>
-          <a href="t-helper-cell.html" class="conn-pill">T Helper Cell</a>
-          <a href="antibody.html" class="conn-pill">Antibody (IgG)</a>
-          <a href="snare-complex.html" class="conn-pill">SNARE Complex</a>
-          <a href="nervous-system.html" class="conn-pill">Nervous System</a>
-          <a href="neuromuscular-junction.html" class="conn-pill">Neuromuscular Junction</a>
-          <a href="nlrp3-inflammasome.html" class="conn-pill">NLRP3 Inflammasome (alum)</a>
-          <a href="dendritic-cell.html" class="conn-pill">Dendritic Cell</a>
-          <a href="clostridium-tetani.html" class="conn-pill">Clostridium tetani</a>
-          <a href="rabies-vaccine.html" class="conn-pill">Rabies Vaccine (wound care)</a>
-          <a href="neonatal-medicine.html" class="conn-pill">Neonatal Medicine</a>
-        </div>
-      </div>
-
-      <!-- REFERENCES -->
-      <div class="detail-section">
-        <h3>References</h3>
-        <ul class="ref-list">
-          <li>WHO. Tetanus vaccines: WHO position paper — February 2017. <em>Wkly Epidemiol Rec.</em> 2017;92(6):53–76. <a href="https://www.who.int/publications/i/item/who-wer9206" target="_blank">WHO WER 2017</a></li>
-          <li>Schiavo G, et al. Tetanus and botulinum-B neurotoxins block neurotransmitter release by proteolytic cleavage of synaptobrevin. <em>Nature.</em> 1992;359(6398):832–835. <a href="https://doi.org/10.1038/359832a0" target="_blank">doi:10.1038/359832a0</a></li>
-          <li>Bleck TP. Tetanus: pathophysiology, management, and prophylaxis. <em>Dis Mon.</em> 1991;37(9):545–603. PMID 1879590</li>
-          <li>Roper MH, Vandelaer JH, Gasse FL. Maternal and neonatal tetanus. <em>Lancet.</em> 2007;370(9603):1947–1959. <a href="https://doi.org/10.1016/S0140-6736(07)61261-6" target="_blank">doi:10.1016/S0140-6736(07)61261-6</a></li>
-          <li>Borrow R, et al. Serological basis for use of meningococcal serogroup C conjugate vaccines in the United Kingdom: reevaluation of correlates of protection. <em>Infect Immun.</em> 2001 (TT conjugate antigen model reference). PMID 11328939</li>
-          <li>Galazka A, Robertson SE, Oblapenko GP. Resurgence of diphtheria. <em>Eur J Epidemiol.</em> 1995;11(1):95–105. (Immunization program context) PMID 7614259</li>
-          <li>Walls T, Hawrami K, Scheifele D. Tetanus and diphtheria toxoids. In: Plotkin SA, Orenstein WA, Offit PA, eds. <em>Vaccines.</em> 7th ed. Philadelphia: Elsevier; 2018:1036–1065.</li>
-        </ul>
-      </div>
-
-    </div><!-- /detail-body -->
-  </div><!-- /detail-card -->
-</main>
-
-<footer>
-  <div class="footer-inner">
-    <p class="footer-meta">Open source · CC BY 4.0 · <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">
-      <em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em>
-    </p>
-  </div>
-</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

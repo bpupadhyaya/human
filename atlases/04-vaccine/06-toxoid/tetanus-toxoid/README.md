@@ -75,6 +75,15 @@ cross_links:
     relation: elicits
     evidence: who-2017-tetanus-vaccine-position
     note: "Anti-tetanus-toxoid IgG is the primary correlate of protection; titre ≥0.1 IU/mL is protective, ≥1.0 IU/mL is considered long-term protective. Protective IgG persists ≥10 years after primary series; boosters maintain high titers."
+  - target: 01-human/04-cellular/b-cell
+    relation: elicits
+    note: "Tetanus toxoid is the prototypic T-dependent antigen; alum-adsorbed TT drives GC reactions → high-affinity class-switched IgG1/IgG4; long-lived bone marrow plasma cells sustain anti-TT IgG >0.1 IU/mL for 10+ years; memory B cells enable rapid recall on booster."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Tetanospasmin travels retroaxonally from wounds to spinal inhibitory interneurons; TT-induced IgG intercepts circulating toxin before nerve uptake; once toxin enters neurons it cannot be neutralized — pre-exposure vaccination is the only effective preventive strategy."
+  - target: 01-human/03-molecular/snare-complex
+    relation: connects-to
+    note: "Tetanospasmin (zinc metalloprotease) cleaves VAMP2/synaptobrevin at Gln76-Phe77 in spinal inhibitory interneurons → blocks SNARE complex assembly → prevents glycine/GABA vesicle release → loss of motor inhibition → spastic paralysis; TT IgG prevents toxin entry into neurons."
 ---
 
 # Tetanus Toxoid (TT / Td / DTaP)
@@ -130,3 +139,9 @@ Early 1970s observational data suggested possible signal; subsequent controlled 
 - **Elicits** → [Immune System](../../../01-human/07-system/immune-system/README.md): Adsorbed tetanus toxoid is a classical T-cell-dependent antigen; the immune system generates long-lived anti-toxoid memory B cells, plasma cells, and CD4⁺ T memory cells that enable rapid recall responses upon booster.
 - **Elicits** → [T-Helper Cell](../../../01-human/04-cellular/t-helper-cell/README.md): Tetanus toxoid is the canonical model T-helper cell antigen in immunology; Th2-biased CD4⁺ T memory to TT antigens drives robust, long-lasting IgG antibody responses.
 - **Elicits** → [Immunoglobulin G](../../../01-human/03-molecular/immunoglobulin-g/README.md): Anti-tetanus-toxoid IgG ≥0.1 IU/mL is the protective correlate; neutralizing IgG intercepts circulating tetanospasmin before it enters motor neurons — the mechanism by which vaccination prevents disease.
+- **Elicits** → [B Cell](../../../01-human/04-cellular/b-cell/README.md): Tetanus toxoid is the classical model T-dependent antigen in immunology; alum-adsorbed TT drives germinal center reactions → class-switched IgG1/IgG4; long-lived bone marrow plasma cells sustain protective titers for 10+ years between boosters.
+- **Connects to** → [Peripheral Nerve](../../../01-human/05-tissue/peripheral-nerve/README.md): Tetanospasmin travels retroaxonally from wound to spinal inhibitory interneurons; TT-induced neutralizing IgG intercepts toxin in blood before nerve uptake; once toxin enters the neuron it cannot be neutralized — vaccination is the only effective prevention.
+- **Connects to** → [SNARE Complex](../../../01-human/03-molecular/snare-complex/README.md): Tetanospasmin zinc metalloprotease cleaves VAMP2/synaptobrevin at Gln76-Phe77 in spinal inhibitory interneurons → blocks SNARE-mediated vesicle fusion → prevents glycine/GABA release → loss of motor inhibition → spastic paralysis (risus sardonicus, opisthotonos).
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
