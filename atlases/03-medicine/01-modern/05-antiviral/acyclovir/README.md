@@ -48,6 +48,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: treats
     note: "Acyclovir is first-line therapy for alphaherpesvirinae (HSV-1, HSV-2, VZV); 3000-fold selective phosphorylation by viral TK (UL23/ORF36) over host TK-1; ACV-TP chain-terminates viral DNA polymerase; valacyclovir prodrug achieves 3-5× higher oral bioavailability."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: modulates
+    note: "Acyclovir inhibits EBV lytic replication via BGLF4 kinase-mediated phosphorylation; IV acyclovir reduces EBV viral load in severe mononucleosis and post-transplant lymphoproliferative disease; minimal effect on latent EBV — does not prevent PTLD but controls lytic replication."
+  - target: 01-human/06-organ/kidney
+    relation: damages
+    note: "High-dose IV acyclovir crystallises in renal tubules → crystalline nephropathy (obstructive AKI); risk: dehydration, rapid infusion, CKD; dose adjustment: CrCl 25-50 → 50% dose; CrCl <25 → 25% dose; adequate hydration (≥500 mL/h) prevents crystalluria during infusion."
+  - target: 01-human/06-organ/brain
+    relation: treats
+    note: "IV acyclovir (10-15 mg/kg q8h × 14-21 days) is life-saving in HSV encephalitis: reduced mortality 70%→19% (Skoldenberg 1984 Lancet); empirical treatment must start immediately on clinical suspicion before CSF PCR result; delays >48h worsen neurological outcome."
 ---
 
 # Acyclovir
@@ -154,6 +163,9 @@ Acyclovir/valacyclovir initiated within 72 hours of rash onset:
 - `modulates` → **[Cytotoxic T Cell](../../../../01-human/04-cellular/t-cytotoxic-cell/README.md)** — by suppressing viral replication and antigen load, acyclovir reduces HSV/VZV-driven CD8+ T cell-mediated neuroinflammation, enabling immune resolution in herpes encephalitis.
 - `modulates` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — suppresses viral replication but does not eliminate latency; host cellular immunity required for complete viral control; prolonged therapy prevents dissemination in immunocompromised patients.
 - `treats` → **[Herpesviridae](../../../../02-pathogen/01-viruses/herpesvirus/README.md)** — acyclovir is first-line therapy for alphaherpesvirinae (HSV-1, HSV-2, VZV); 3000-fold selective phosphorylation by viral TK over host TK-1; ACV-TP chain-terminates viral DNA polymerase; valacyclovir prodrug achieves 3-5× higher oral bioavailability.
+- `modulates` → **[Epstein-Barr Virus](../../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — acyclovir inhibits EBV lytic replication via BGLF4 kinase-mediated phosphorylation; reduces EBV viral load in severe infectious mononucleosis; minimal activity on latent EBV — does not prevent post-transplant lymphoproliferative disease (PTLD) but controls lytic viral burden.
+- `damages` → **[Kidney](../../../../01-human/06-organ/kidney/README.md)** — high-dose IV acyclovir can crystallise in renal tubules → crystalline nephropathy (obstructive AKI); risk factors: dehydration, rapid infusion, pre-existing CKD; dose reduction required for CrCl <50 mL/min; adequate IV hydration prevents crystalluria.
+- `treats` → **[Brain](../../../../01-human/06-organ/brain/README.md)** — IV acyclovir (10–15 mg/kg q8h × 14–21 days) is life-saving in HSV encephalitis, reducing mortality from 70% to 19% (Skoldenberg 1984); empirical treatment must start immediately on clinical suspicion, before CSF PCR confirmation; treatment delays >48h worsen neurological outcomes.
 
 ---
 

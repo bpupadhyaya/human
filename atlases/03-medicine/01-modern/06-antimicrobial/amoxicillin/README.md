@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: modulates
     note: "Amoxicillin reduces gram-positive and gram-negative gut microbiota diversity; Enterobacteriaceae bloom during treatment; microbiome recovery takes 1–2 months post-course; repeated courses associate with persistent dysbiosis."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: treats
+    note: "Penicillin/amoxicillin remains 100% effective against GAS pharyngitis — uniquely, no beta-lactam resistance has ever been documented in S. pyogenes; amoxicillin 500mg TDS × 10 days eradicates GAS, preventing rheumatic fever and post-streptococcal glomerulonephritis."
+  - target: 02-pathogen/02-bacteria/listeria-monocytogenes
+    relation: treats
+    note: "Ampicillin/amoxicillin is treatment of choice for listeriosis: neonatal meningitis, pregnancy, and immunocompromised; cephalosporins are intrinsically inactive (low-affinity PBPs); amoxicillin + gentamicin synergy for bacteraemia; no equivalent alternative for CNS listeriosis."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: treats
+    note: "Amoxicillin-clavulanate (Augmentin) treats susceptible E. coli UTI and pneumonia; plain amoxicillin resistance in E. coli UTI now 40-60% in many countries; clavulanate inhibits TEM-1/SHV-1 beta-lactamases; ESBL-producing E. coli requires carbapenem."
 ---
 
 # Amoxicillin
@@ -125,6 +134,9 @@ The WHO lists amoxicillin as an **Access group antibiotic** — first-line for c
 - **Treats** → [Helicobacter pylori](../../../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md): Core component of triple therapy (PPI + clarithromycin + amoxicillin × 14 days); targets H. pylori PBPs; clarithromycin resistance drives bismuth quadruple therapy preference.
 - **Connects-to** → [Clostridioides difficile](../../../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md): Common precipitant of C. diff colitis via disruption of colonization resistance; risk lower than fluoroquinolones or clindamycin; >7-day courses carry ~3-fold increased C. diff risk.
 - **Modulates** → [Gut Microbiome](../../../../../01-human/07-system/gut-microbiome/README.md): Reduces gram-positive and gram-negative gut microbiota diversity; Enterobacteriaceae bloom during treatment; microbiome recovery takes 1–2 months; repeated courses associate with persistent dysbiosis.
+- **Treats** → [S. pyogenes (GAS)](../../../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md): Amoxicillin remains 100% effective against Group A Streptococcus pharyngitis — uniquely, no beta-lactam resistance has ever emerged in S. pyogenes; a 10-day course eradicates GAS and prevents rheumatic fever and post-streptococcal glomerulonephritis.
+- **Treats** → [Listeria monocytogenes](../../../../../02-pathogen/02-bacteria/listeria-monocytogenes/README.md): Ampicillin/amoxicillin is the treatment of choice for listeriosis in neonates, pregnant women, and immunocompromised patients; cephalosporins are intrinsically inactive against Listeria due to low PBP affinity; amoxicillin + gentamicin combination is preferred for bacteraemia.
+- **Treats** → [Escherichia coli](../../../../../02-pathogen/02-bacteria/escherichia-coli/README.md): Amoxicillin-clavulanate (Augmentin) extends E. coli coverage by inhibiting TEM-1/SHV-1 beta-lactamases; plain amoxicillin resistance in E. coli UTI is now 40–60% in many countries, limiting empirical use; ESBL-producing strains require carbapenem therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
