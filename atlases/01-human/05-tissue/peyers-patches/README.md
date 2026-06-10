@@ -96,7 +96,12 @@ Each Peyer's patch contains multiple (**B-cell follicles**) arranged in a cresce
 - `contains` → **[B Cell](../../04-cellular/b-cell/README.md)** — IgA-committed B cells are generated in Peyer's patch GCs and home to the lamina propria.
 - `contains` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — subepithelial dome DCs capture M-cell-transcytosed antigens and drive IgA class switching via retinoic acid and BAFF/APRIL.
 - `contains` → **[Germinal Center](../germinal-center/README.md)** — B-cell follicles within Peyer's patches contain active germinal centers driving IgA affinity maturation and class switch recombination.
+- `connects-to` → **[OPV (Oral Polio Vaccine)](../../../../04-vaccine/05-live-attenuated/oral-polio-vaccine/README.md)** — OPV poliovirus binds CD155 on M cells in Peyer's patches; GALT replication drives lamina propria B cells → sIgA via pIgR transcytosis; mucosal sIgA blocks gut re-infection — the eradication-critical response absent from injected IPV.
 
 [^cornes-1965-peyers-patches]: Cornes JS. Number, size, and distribution of Peyer's patches in the human small intestine. *Gut.* 1965;6(3):225-233. [doi:10.1136/gut.6.3.225](https://doi.org/10.1136/gut.6.3.225) · [PubMed 5826791](https://pubmed.ncbi.nlm.nih.gov/5826791/)
 [^neutra-1996-m-cells]: Neutra MR, Frey A, Kraehenbuhl JP. Epithelial M cells: gateways for mucosal infection and immunization. *Cell.* 1996;86(3):345-348. [doi:10.1016/S0092-8674(00)80106-3](https://doi.org/10.1016/S0092-8674(00)80106-3) · [PubMed 8756715](https://pubmed.ncbi.nlm.nih.gov/8756715/)
 [^fagarasan-2003-iga]: Fagarasan S, Honjo T. Intestinal IgA synthesis: regulation of front-line body defences. *Nat Rev Immunol.* 2003;3(1):63-72. [doi:10.1038/nri982](https://doi.org/10.1038/nri982) · [PubMed 12511876](https://pubmed.ncbi.nlm.nih.gov/12511876/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

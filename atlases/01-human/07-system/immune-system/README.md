@@ -435,6 +435,7 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[MMR Vaccine](../../../../04-vaccine/05-live-attenuated/mmr-vaccine/README.md)** — MMR live-attenuated replication in local lymphoid tissue drives Th1-biased cellular immunity (CD8+ CTL, CD4+ Th1) and robust germinal center reactions; generates durable IgG via long-lived plasma cells; natural-infection mimic is more immunogenic than inactivated vaccines.
 - `damaged-by` → **[Prion Protein (PrP)](../../../02-pathogen/05-prions/prion-protein/README.md)** — PrPSc is a self-protein; the immune system mounts no antibody or T-cell response; lymphoid follicular dendritic cells amplify prions peripherally before neuroinvasion; silent propagation enables disease progression without immune clearance.
 - `damaged-by` → **[Aedes aegypti](../../../02-pathogen/06-environmental/aedes-aegypti/README.md)** — salivary proteins suppress DC activation and NK function at bite sites; salivary apyrase blocks platelet aggregation enabling bloodmeal; immunomodulation at the inoculation site enables early DENV/ZIKV replication before innate immune sensing.
+- `connects-to` → **[OPV (Oral Polio Vaccine)](../../../../04-vaccine/05-live-attenuated/oral-polio-vaccine/README.md)** — OPV gut replication activates mucosal immunity (GALT → sIgA) and systemic immunity (mesenteric lymph nodes → serum IgG + T cells); dual response enables paralysis prevention and transmission interruption — the mechanism underlying polio eradication.
 
 ## Pathology
 

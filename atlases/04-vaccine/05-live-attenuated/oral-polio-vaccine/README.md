@@ -64,6 +64,15 @@ cross_links:
   - target: 04-vaccine/05-live-attenuated/rotarix
     relation: platform-peer
     note: "Both are live oral vaccines; rotarix uses Vero cell production; both replicate in gut; both can be impaired by maternal antibodies and enteric co-infections in LMICs."
+  - target: 01-human/05-tissue/peyers-patches
+    relation: connects-to
+    note: "OPV poliovirus binds CD155 on M cells and enterocytes in Peyer's patches; GALT replication drives lamina propria B cells → sIgA via pIgR transcytosis; mucosal sIgA blocks re-infection at the gut portal — mechanism uniquely enabling fecal-oral transmission interruption."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "OPV gut replication drives intestinal sIgA via GALT → lamina propria B cells → pIgR transcytosis; mucosal sIgA blocks poliovirus at the gut portal and prevents fecal-oral transmission — eradication-critical advantage over injected IPV; IPV generates IgG but minimal mucosal sIgA."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "OPV live gut replication activates both mucosal immunity (GALT → sIgA blocking gut poliovirus) and systemic immunity (mesenteric lymph nodes → neutralizing serum IgG + CD4+/CD8+ T cells); dual mucosal-systemic response enables paralysis prevention and transmission interruption."
 ---
 
 # OPV (Oral Polio Vaccine / Sabin trivalent)
@@ -213,11 +222,12 @@ One important advantage over many other vaccines: **OPV does not require injecti
 
 ## Connections
 
-- **Platform peer** → [`04-vaccine/05-live-attenuated/bcg`](../bcg/README.md) — both live-attenuated; BCG induces trained innate immunity via intradermal route; OPV induces mucosal sIgA via oral route
-- **Platform peer** → [`04-vaccine/05-live-attenuated/rotarix`](../rotarix/README.md) — both live oral enteric vaccines; both face the same LMIC seroconversion challenge from maternal Ab and enteric co-infections; both use Vero cell production
-- **IPV contrast** → Inactivated polio vaccine (IPV) generates systemic IgG without mucosal sIgA; protects individual from paralysis but cannot interrupt transmission — the fundamental limitation that makes IPV alone insufficient for eradication
-- **Pathogen** → Poliovirus (Picornaviridae, Enterovirus C) — non-enveloped ssRNA virus; CD155 (Nectin-5) receptor; 3 serotypes; fecal-oral transmission; replicates in gut before rare CNS invasion via viraemia
+- `platform-peer` → **[BCG](../bcg/README.md)** — both live-attenuated vaccines; BCG drives trained innate immunity via intradermal route; OPV drives mucosal sIgA via oral gut replication.
+- `platform-peer` → **[Rotarix](../rotarix/README.md)** — both live oral enteric vaccines; both face the same LMIC seroconversion challenge from maternal antibodies and enteric co-infections; both use Vero cell production.
+- `connects-to` → **[Peyer's Patches](../../../../01-human/05-tissue/peyers-patches/README.md)** — OPV poliovirus binds CD155 on M cells in Peyer's patches; GALT replication drives lamina propria B cells to produce sIgA via pIgR transcytosis; mucosal sIgA blocks gut re-infection and fecal-oral transmission.
+- `connects-to` → **[Secretory IgA](../../../../01-human/03-molecular/secretory-iga/README.md)** — OPV uniquely induces intestinal sIgA (unlike injected IPV); sIgA at the gut mucosa blocks poliovirus entry and prevents transmission — the eradication-critical immune correlate.
+- `connects-to` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — OPV gut replication activates mucosal immunity (GALT → sIgA) and systemic immunity (mesenteric lymph node → serum IgG + T cells); dual response enables both paralysis prevention and transmission interruption.
 
 ---
 
-**[← Platform 05 (Live-Attenuated)](../README.md)** · **[← Vaccine Atlas](../../README.md)** · **[Schema](../../../../schemas/vaccine-entry.schema.md)**
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

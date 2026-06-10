@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="OPV (Oral Polio Vaccine / Sabin) — live-attenuated trivalent oral poliovirus vaccine. Intestinal mucosal IgA, cVDPV risk, VAPP, and the global eradication campaign. Human Engineering project.">
-  <meta property="og:title" content="Oral Polio Vaccine (OPV / Sabin) — Vaccine Atlas · Human Engineering">
+  <meta name="description" content="Trivalent live-attenuated oral poliovirus vaccine (Sabin strains). Gut replication induces mucosal sIgA + systemic IgG. WHO Polio Eradication cornerstone; elimi">
+  <meta property="og:title" content="OPV (Oral Polio Vaccine / Sabin trivalent) — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Oral Polio Vaccine (OPV / Sabin) — Vaccine Atlas · Human Engineering</title>
+  <title>OPV (Oral Polio Vaccine / Sabin trivalent) — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0369a1;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,59 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #ea580c, #7c2d12); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
-    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
-    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
-    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-    .trial-result { font-weight: 700; color: var(--bio); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -109,206 +110,79 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="vaccines.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Vaccines
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Four &middot; Vaccine Atlas &middot; Platform 05 &middot; Live-Attenuated</div>
-    <h1>Oral Polio Vaccine (OPV / Sabin)</h1>
-    <p class="tagline">Live-attenuated trivalent oral poliovirus vaccine — the primary tool of the WHO Global Polio Eradication Initiative, responsible for eliminating wild poliovirus from all but two countries.</p>
-    <p class="subtagline">Sabin strains types 1, 2, 3 &middot; Intestinal mucosal sIgA &middot; Contact spread &middot; VAPP ~1:750,000 first doses &middot; cVDPV risk in under-vaccinated communities</p>
+    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 05 — Live-Attenuated</div>
+    <h1>OPV (Oral Polio Vaccine / Sabin trivalent)</h1>
+    <p class="tagline">Trivalent live-attenuated oral poliovirus vaccine (Sabin strains). Gut replication induces mucosal sIgA + systemic IgG. WHO Polio Eradication cornerstone; eliminated WPV2 (2015) and WPV3 (2019). Risks: VAPP (~1:750,000 first doses) and vaccine-derived poliovirus (cVDPV).</p>
+    
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">>99.9%</span><span class="stat-label">WPV Incidence Reduction</span></div>
-      <div class="stat"><span class="stat-num">350K→&lt;10</span><span class="stat-label">Annual Polio Cases (1988→2023)</span></div>
-      <div class="stat"><span class="stat-num">1961</span><span class="stat-label">First OPV Licensed</span></div>
-      <div class="stat"><span class="stat-num">1:750K</span><span class="stat-label">VAPP Rate (First Dose)</span></div>
+        <div class="stat"><span class="stat-num">05 — Live-Attenuated</span><span class="stat-label">Platform</span></div>
+        <div class="stat"><span class="stat-num">oral</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">2–8°C; heat-sensitive; VVM (vaccine vial monitor) mandatory</span><span class="stat-label">Cold Chain</span></div>
+        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Vaccine Atlas &middot; Live-Attenuated &middot; Oral Enteric</div>
-        <h2>OPV — Oral Polio Vaccine (Sabin Trivalent)</h2>
-        <div class="drug-class">Platform: Live-attenuated poliovirus &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Developer: Albert Sabin (1957–1961) &nbsp;|&nbsp; Manufacturer: Multiple (Bio Farma, SIIPL, Panacea Biotec)</div>
-        <p class="summary">Live-attenuated trivalent oral vaccine containing Sabin poliovirus strains types 1 (LSc-2ab), 2 (P712/ch/2ab), and 3 (Leon 12a1b). Administered as 2 drops on the tongue; replicates in intestinal epithelium and Peyer's patches, inducing secretory IgA (sIgA) at the gut mucosal surface and systemic neutralising IgG. Only vaccine that can interrupt poliovirus fecal-oral transmission — the property essential for eradication. Has reduced global wild poliovirus cases from 350,000/year (1988) to fewer than 10 (2023). Carries a small risk of vaccine-associated paralytic poliomyelitis (VAPP, ~1:750,000 first doses) and, in under-vaccinated communities, circulating vaccine-derived poliovirus (cVDPV).</p>
-        <div class="alias-pills">
-          <span class="alias-pill">tOPV (trivalent)</span>
-          <span class="alias-pill">bOPV (bivalent, types 1+3)</span>
-          <span class="alias-pill">mOPV1 / mOPV2 / mOPV3 (monovalent)</span>
-          <span class="alias-pill">Sabin vaccine</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
+        <div class="entry-eyebrow">oral-polio-vaccine</div>
+        <h2>OPV (Oral Polio Vaccine / Sabin trivalent)</h2>
+        <p class="summary">Trivalent live-attenuated oral poliovirus vaccine (Sabin strains). Gut replication induces mucosal sIgA + systemic IgG. WHO Polio Eradication cornerstone; eliminated WPV2 (2015) and WPV3 (2019). Risks: VAPP (~1:750,000 first doses) and vaccine-derived poliovirus (cVDPV).</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>OPV was developed by <strong>Albert Sabin</strong> at the University of Cincinnati through years of serial passage of poliovirus in non-human primate cells, selecting for variants with intestinal tropism but severely reduced neurovirulence. First licensed in 1961, OPV was preferred over Salk's inactivated polio vaccine (IPV) for mass campaigns because it (1) induces gut mucosal sIgA that interrupts transmission, (2) can be administered by non-medical personnel, (3) spreads to unvaccinated contacts, and (4) is substantially cheaper per dose.</p>
-          <p>The <strong>WHO Global Polio Eradication Initiative (GPEI)</strong>, launched in 1988, used OPV as its primary tool. The initiative has reduced annual wild poliovirus cases from an estimated 350,000 to fewer than 10. Wild poliovirus type 2 was declared eradicated in <strong>2015</strong> (last detected 1999, India); type 3 in <strong>2019</strong> (last detected 2012, Nigeria). Only wild type 1 remains in two endemic countries: Afghanistan and Pakistan.</p>
-          <p>In 2016, a simultaneous global switch from trivalent OPV (tOPV) to bivalent OPV (bOPV, types 1+3) was executed in 155 countries — removing the type 2 Sabin strain from routine use after WPV2 eradication, to prevent type 2 cVDPV emergence. <strong>Monovalent OPV2 (mOPV2)</strong> is now stockpiled by WHO/UNICEF for outbreak response against cVDPV2.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Platform &amp; Antigen Design</h3>
-          <h4>Sabin Strain Attenuation — Molecular Basis</h4>
-          <p>Each Sabin strain carries specific point mutations that reduce neurovirulence while preserving intestinal replication. The key attenuating mutations reside in the <strong>5&prime; non-translated region (5&prime;NTR)</strong>, which controls IRES-mediated translation efficiency in cell-type-specific fashion:</p>
-          <div class="pathway-block">
-<pre>
-  POLIOVIRUS ATTENUATION MECHANISM (Sabin strains)
-
-  Wild-type poliovirus (neurovirulent):
-  5'NTR IRES translates efficiently in:
-    ├─ Gut epithelium (primary replication site)
-    └─ Motor neurons (CNS invasion → paralysis)
-
-  Sabin attenuation (point mutations in 5'NTR):
-    Type 1: C→U at nt 480   (IRES domain V)
-    Type 2: A→G at nt 481   (IRES domain V)
-    Type 3: U→C at nt 472   (IRES domain V) + Ser→Phe at VP3 codon 91
-
-  Effect:
-    Gut epithelium:  translation preserved → replication → IgA induction
-    Motor neurons:   translation impaired  → no CNS invasion → no paralysis
-    (IRES is structured differently in neural vs. intestinal cells;
-     mutations selectively disrupt neural IRES function)
-
-  Reversion risk:
-    Type 1 — Low (multiple attenuating events)
-    Type 2 — Moderate (single major mutation; most frequently reverts)
-    Type 3 — High (nt 472 mutation genetically unstable)
-    → Drives VAPP and cVDPV type 3 risk profile
-</pre>
-          </div>
-          <ol class="step-list" style="margin-top:1rem;">
-            <li><strong>Oral administration:</strong> 2 drops (0.1 mL) on tongue or on a sugar cube; Mg²&plus; stabiliser protects virus from gastric acid. Virus binds CD155 (PVR / Nectin-5) on enterocyte apical surfaces.</li>
-            <li><strong>Gut replication:</strong> Attenuated virus replicates in small intestine epithelium and M cells overlying Peyer's patches; virus spreads to lamina propria and mesenteric lymph nodes (without causing systemic viraemia or CNS invasion in immunocompetent hosts).</li>
-            <li><strong>Mucosal IgA induction:</strong> B cells in GALT undergo IgA class-switch; polymeric IgA secreted into intestinal lumen via poly-Ig receptor; sIgA blocks wild-type poliovirus at intestinal entry portal.</li>
-            <li><strong>Systemic IgG:</strong> Transient low-level viraemia from mesenteric lymph node spread primes systemic IgG against all three serotypes; neutralising IgG protects against CNS invasion if wild-type poliovirus is ever encountered.</li>
-            <li><strong>Shedding and community spread:</strong> Attenuated OPV virus shed in stools for 4–6 weeks; may spread to unvaccinated household contacts, immunising them passively — amplifying herd immunity beyond direct vaccination.</li>
-          </ol>
-        </div>
-
-        <div class="detail-section">
-          <h3>Immunogenicity</h3>
-          <div class="pleiotropic-grid">
-            <div class="pleio-item">
-              <h4>Mucosal sIgA</h4>
-              <p>Secretory IgA at the intestinal surface — the only immune response that blocks poliovirus replication in the gut. Critical for transmission interruption and eradication. Not generated by IPV. Type-specific sIgA correlates with resistance to wild-type poliovirus intestinal infection.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Systemic Neutralising IgG</h4>
-              <p>Serum neutralising Ab titres &ge;1:8 (typically &ge;1:64 after 3 doses). Protects against viraemia and CNS invasion. Correlate of protection against paralytic disease — the endpoint measured in immunogenicity trials. Both OPV and IPV generate equivalent systemic IgG.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>T-Cell Responses</h4>
-              <p>CD4&sup+ Th1/Th2 and CD8&sup+ CTL responses to poliovirus capsid proteins (VP1–VP4); provide long-lived memory. Not the primary correlate of protection (humoral responses dominate), but contribute to memory B-cell help and rapid anamnestic responses on re-exposure.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>LMIC Seroconversion Gap</h4>
-              <p>In tropical LMIC settings, OPV seroconversion after 3 doses can be 70–75% per serotype (vs. &gt;95% in HIC). Causes: maternal antibody interference, enteric co-infections competing for gut replication niches, gut microbiome differences, malnutrition impairing mucosal immunity. Addressed by repeated NIDs (National Immunisation Days) and birth-dose OPV.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Clinical Efficacy</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Endpoint</th><th>Data Source</th><th>Outcome</th></tr>
-            <tr>
-              <td><strong>WPV1 incidence, 1988–2023</strong></td>
-              <td>WHO GPEI global surveillance</td>
-              <td class="trial-result">&gt;99.9% reduction (&sim;350,000 → &lt;10 cases/year)</td>
-            </tr>
-            <tr>
-              <td><strong>WPV2 eradication</strong></td>
-              <td>WHO declaration, Sep 2015</td>
-              <td class="trial-result">Eradicated — last detected 1999 (India)</td>
-            </tr>
-            <tr>
-              <td><strong>WPV3 eradication</strong></td>
-              <td>WHO declaration, Oct 2019</td>
-              <td class="trial-result">Eradicated — last detected 2012 (Nigeria)</td>
-            </tr>
-            <tr>
-              <td><strong>Seroconversion per dose (type 1, HIC)</strong></td>
-              <td>Multiple immunogenicity trials</td>
-              <td class="trial-result">90–95% per dose; &gt;99% after 3 doses</td>
-            </tr>
-            <tr>
-              <td><strong>Seroconversion per dose (type 1, LMIC)</strong></td>
-              <td>India, Bangladesh, Pakistan studies</td>
-              <td class="trial-result">70–80% per dose; addressed by NIDs + birth dose</td>
-            </tr>
-            <tr>
-              <td><strong>Mucosal sIgA vs. IPV</strong></td>
-              <td>India, Pakistan challenge studies</td>
-              <td class="trial-result">OPV: high sIgA &amp; minimal gut shedding on wild-type challenge; IPV: minimal sIgA, continued shedding on challenge</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>oral-polio-vaccine</td></tr>
+            <tr><td>Name</td><td>OPV (Oral Polio Vaccine / Sabin trivalent)</td></tr>
+            <tr><td>Status</td><td>active</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Platform</td><td>05 — Live-Attenuated</td></tr>
+            <tr><td>Delivery system</td><td>live attenuated virus, oral solution</td></tr>
+            <tr><td>Adjuvants</td><td>None</td></tr>
+            <tr><td>Route</td><td>oral</td></tr>
+            <tr><td>Dose schedule</td><td>3 doses at 6, 10, 14 weeks (EPI schedule); can be given at birth as a 0-dose; booster at 18 months</td></tr>
+            <tr><td>Manufacturer</td><td>multiple (Bio Farma, Serum Institute of India, Panacea Biotec, BCHT, Sanofi)</td></tr>
+            <tr><td>Cold chain</td><td>2–8°C; heat-sensitive; VVM (vaccine vial monitor) mandatory</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Safety Profile</h3>
-          <ul class="se-list">
-            <li><span class="badge badge-mod">Expected</span> <strong>No systemic adverse events in immunocompetent hosts</strong> — OPV replicates only in the gut in normal individuals; no injection-site reactions (oral administration); no fever; no systemic illness. The simplest adverse-event profile of any live vaccine.</li>
-            <li><span class="badge badge-hi">Rare / Serious</span> <strong>VAPP (Vaccine-Associated Paralytic Poliomyelitis)</strong> — Sabin strain mutations revert during gut replication; if reversion is sufficient, virus recovers neurovirulence. Causes flaccid paralysis clinically identical to wild polio. Rate: <strong>~1 per 750,000 first doses</strong>; subsequent doses ~1 per 5.1 million doses. Risk highest for: first dose, type 3 serotype, children with B-cell immunodeficiency (agammaglobulinemia, CVID).</li>
-            <li><span class="badge badge-hi">Serious (population-level)</span> <strong>cVDPV (Circulating Vaccine-Derived Poliovirus)</strong> — If OPV circulates in an under-vaccinated community (&lt;80% coverage) for &gt;12 months, sequential replication and mutation can restore full neurovirulence. The resulting cVDPV causes paralytic outbreaks. cVDPV2 has become the dominant cause of paralytic polio globally since the 2016 bOPV switch removed routine type 2 OPV, leaving type-2 immunity gaps in under-immunised areas.</li>
-            <li><span class="badge badge-lo">Contraindication</span> <strong>Known immunodeficiency</strong> — particularly B-cell disorders (agammaglobulinemia, CVID) and severe combined immunodeficiency. OPV can cause prolonged VAPP (months to years of viral replication) in B-cell-deficient individuals. Use IPV instead in immunocompromised patients and their household contacts.</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>OPV vs. IPV — Strategic Comparison</h3>
-          <table class="data-table">
-            <tr><th>Property</th><th>OPV (Sabin)</th><th>IPV (Salk)</th></tr>
-            <tr><td>Route</td><td>Oral</td><td>Intramuscular</td></tr>
-            <tr><td>Mucosal sIgA</td><td>Yes — high titres; blocks gut transmission</td><td>No — minimal mucosal immunity</td></tr>
-            <tr><td>Systemic IgG</td><td>Yes</td><td>Yes — equivalent</td></tr>
-            <tr><td>Contact spread</td><td>Yes — community immunisation</td><td>No</td></tr>
-            <tr><td>VAPP risk</td><td>Yes (~1:750,000 first dose)</td><td>None</td></tr>
-            <tr><td>cVDPV risk</td><td>Yes (under-vaccinated communities)</td><td>None</td></tr>
-            <tr><td>Cold chain</td><td>2–8°C; heat-sensitive; VVM required</td><td>2–8°C; stable</td></tr>
-            <tr><td>Cost per dose</td><td>~$0.15 (LMIC)</td><td>~$3–6 (LMIC after GAVI subsidy)</td></tr>
-            <tr><td>Administration</td><td>Oral — lay health workers</td><td>IM injection — trained staff</td></tr>
-            <tr><td>Role in eradication</td><td>Essential for transmission interruption</td><td>Insufficient alone — does not block gut replication</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="pathogens.html" class="conn-pill targets">
-              <span class="rel">Immunizes vs.</span>
-              Poliovirus (Types 1, 2, 3)
-            </a>
-            <a href="bcg.html" class="conn-pill acts">
-              <span class="rel">Platform Peer</span>
-              BCG (Live-Attenuated)
-            </a>
-            <a href="rotarix.html" class="conn-pill acts">
-              <span class="rel">Platform Peer</span>
-              Rotarix (Oral Live)
-            </a>
-            <a href="immune-system.html" class="conn-pill">
-              <span class="rel">Elicits</span>
-              Mucosal Immune System
-            </a>
+            <a class="conn-pill" href="bcg.html" title="Both are live-attenuated oral/mucosal vaccines with replication in host; BCG drives trained innate immunity whereas OPV drives mucosal IgA."><span class="rel">platform-peer</span>Bcg</a>
+            <a class="conn-pill" href="rotarix.html" title="Both are live oral vaccines; rotarix uses Vero cell production; both replicate in gut; both can be impaired by maternal antibodies and enteric co-infections in LMICs."><span class="rel">platform-peer</span>Rotarix</a>
+            <a class="conn-pill" href="peyers-patches.html" title="OPV poliovirus binds CD155 on M cells and enterocytes in Peyer's patches; GALT replication drives lamina propria B cells → sIgA via pIgR transcytosis; mucosal sIgA blocks re-infection at the gut portal — mechanism uniquely enabling fecal-oral transmission interruption."><span class="rel">connects-to</span>Peyers Patches</a>
+            <a class="conn-pill" href="secretory-iga.html" title="OPV gut replication drives intestinal sIgA via GALT → lamina propria B cells → pIgR transcytosis; mucosal sIgA blocks poliovirus at the gut portal and prevents fecal-oral transmission — eradication-critical advantage over injected IPV; IPV generates IgG but minimal mucosal sIgA."><span class="rel">connects-to</span>Secretory Iga</a>
+            <a class="conn-pill" href="immune-system.html" title="OPV live gut replication activates both mucosal immunity (GALT → sIgA blocking gut poliovirus) and systemic immunity (mesenteric lymph nodes → neutralizing serum IgG + CD4+/CD8+ T cells); dual mucosal-systemic response enables paralysis prevention and transmission interruption."><span class="rel">connects-to</span>Immune System</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Nathanson N, Kew OM. From Emergence to Eradication: The Epidemiology of Poliomyelitis Deconstructed. <em>Am J Epidemiol.</em> 2010;172(11):1213-1229. <a href="https://doi.org/10.1093/aje/kwq320" target="_blank" rel="noopener noreferrer">doi:10.1093/aje/kwq320</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20978089/" target="_blank" rel="noopener noreferrer">PMID 20978089</a></li>
-            <li>Platt LR, Estivariz CF, Sutter RW. Vaccine-associated paralytic poliomyelitis: a review of the epidemiology and estimation of the global burden. <em>J Infect Dis.</em> 2014;210(suppl 1):S380-S389. <a href="https://doi.org/10.1093/infdis/jiu184" target="_blank" rel="noopener noreferrer">doi:10.1093/infdis/jiu184</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25316866/" target="_blank" rel="noopener noreferrer">PMID 25316866</a></li>
-            <li>WHO Global Polio Eradication Initiative. Annual Report 2023. Geneva: WHO; 2024. <a href="https://polioeradication.org/wp-content/uploads/2024/06/GPEI-Annual-Report-2023.pdf" target="_blank" rel="noopener noreferrer">GPEI 2023 Report</a></li>
-            <li>Sabin AB, Hennessen WA, Winsser J. Studies on variants of poliomyelitis virus. <em>J Exp Med.</em> 1954;99(6):551-576. <a href="https://doi.org/10.1084/jem.99.6.551" target="_blank" rel="noopener noreferrer">doi:10.1084/jem.99.6.551</a> — foundational attenuation work establishing the Sabin strains.</li>
+            <li><a href="https://doi.org/10.1084/jem.99.6.551" target="_blank" rel="noopener noreferrer">Sabin AB, Hennessen WA, Winsser J. Studies on variants of poliomyelitis virus. J Exp Med. 1954;99(6):551-576.</a></li>
+            <li><a href="https://polioeradication.org/wp-content/uploads/2024/06/GPEI-Annual-Report-2023.pdf" target="_blank" rel="noopener noreferrer">World Health Organization. Polio Global Eradication Initiative. Annual Report 2023. Geneva: WHO; 2024.</a></li>
+            <li><a href="https://doi.org/10.1093/aje/kwq320" target="_blank" rel="noopener noreferrer">Nathanson N, Kew OM. From Emergence to Eradication: The Epidemiology of Poliomyelitis Deconstructed. Am J Epidemiol. 2010;172(11):1213-1229.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20978089/" target="_blank" rel="noopener noreferrer">PubMed 20978089</a></li>
+            <li><a href="https://doi.org/10.1093/infdis/jiu184" target="_blank" rel="noopener noreferrer">Platt LR, Estivariz CF, Sutter RW. Vaccine-associated paralytic poliomyelitis: a review of the epidemiology and estimation of the global burden. J Infect Dis. 2014;210(suppl 1):S380-S389.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25316866/" target="_blank" rel="noopener noreferrer">PubMed 25316866</a></li>
           </ul>
         </div>
 
@@ -317,19 +191,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="vaccines.html">Vaccine Atlas</a>
-      <a href="pathogens.html">Pathogen Atlas</a>
-      <a href="bcg.html">BCG</a>
-      <a href="rotarix.html">Rotarix</a>
-      <a href="mmr-vaccine.html">MMR Vaccine</a>
-      <a href="https://github.com/bpupadhyaya/human-engineering" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
