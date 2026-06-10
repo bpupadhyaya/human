@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/app
     relation: connects-to
     note: "Aβ42 oligomers activate CDK5/p25 and GSK-3β → tau hyperphosphorylation at AD-relevant sites (Thr181, Ser202, Ser396) → tau aggregation and NFT formation; APP processing and tau pathology form a feedforward loop — Aβ upstream, tau downstream, driving neurodegeneration."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "GSK-3β is the dominant tau kinase in AD, phosphorylating >20 Ser/Thr-Pro sites including Thr181, Ser202/Thr205, Ser396; Aβ42 → impairs PI3K/Akt → GSK-3β activation → tau hyperphosphorylation; lithium inhibits GSK-3β and reduces tau pathology in tauopathy models."
+  - target: 01-human/03-molecular/snca
+    relation: connects-to
+    note: "Tau and SNCA co-aggregate in Lewy body dementia; heterologous cross-seeding: tau fibrils template SNCA aggregation and vice versa; MAPT H1 haplotype is a risk allele for PD and PSP; shared autophagy impairment and mitochondrial dysfunction link tauopathy and synucleinopathy."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR activation suppresses autophagy → impairs tau clearance; mTOR is elevated in NFT-bearing neurons in AD; rapamycin reduces tau pathology in tauopathy mouse models; mTOR → p70S6K phosphorylates tau at Ser262/Thr231; mTOR-TFEB lysosomal pathway is a key tau clearance mechanism."
 sources:
   - id: grundke-iqbal-1986-tau-phosphorylation
     type: peer-reviewed
@@ -131,13 +140,17 @@ Tau pathology propagates through the brain in a pattern consistent with transneu
 
 ## Connections
 
-Tau hyperphosphorylation at Thr181, Ser202/Thr205, Ser396 → PHF → NFT formation; Braak staging I–VI tracks NFT spread from entorhinal cortex to isocortex and correlates with cognitive decline; tau-PET (flortaucipir) predicts cognitive trajectory and guides clinical staging in AD.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — Tau hyperphosphorylation at Thr181, Ser202/Thr205, Ser396 → PHF → NFT formation; Braak staging I–VI tracks NFT spread from entorhinal cortex to isocortex and correlates with cognitive decline; tau-PET (flortaucipir) predicts cognitive trajectory and guides clinical staging in AD.
+- `connects-to` → **[Parkinson's Disease](../../07-system/parkinsons-disease/README.md)** — MAPT H1 haplotype is a risk factor for PD and PSP; tau co-aggregates with alpha-synuclein in Lewy body dementia and some PD brains; MAPT LOF mutations cause FTLD-MAPT; tau and SNCA pathology converge on mitochondrial dysfunction and autophagy impairment.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Aggregated tau impairs autophagosome formation and lysosomal function; p62/SQSTM1 and NDP52 recognize tau for autophagic clearance; declining autophagy in aging and tau mutations accelerates NFT accumulation and tauopathy progression.
+- `connects-to` → **[APP](../../03-molecular/app/README.md)** — Aβ42 oligomers activate CDK5/p25 and GSK-3β → tau hyperphosphorylation at AD-relevant sites (Thr181, Ser202, Ser396) → tau aggregation and NFT formation; APP processing and tau pathology form a feedforward loop — Aβ upstream, tau downstream, driving neurodegeneration.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β is the dominant tau kinase in AD, phosphorylating >20 Ser/Thr-Pro sites including Thr181, Ser202/Thr205, Ser396; Aβ42 → impairs PI3K/Akt → GSK-3β activation → tau hyperphosphorylation; lithium inhibits GSK-3β and reduces tau pathology in tauopathy models.
+- `connects-to` → **[SNCA](../../03-molecular/snca/README.md)** — Tau and SNCA co-aggregate in Lewy body dementia; heterologous cross-seeding: tau fibrils template SNCA aggregation and vice versa; MAPT H1 haplotype is a risk allele for PD and PSP; shared autophagy impairment and mitochondrial dysfunction link tauopathy and synucleinopathy.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR activation suppresses autophagy → impairs tau clearance; mTOR is elevated in NFT-bearing neurons in AD; rapamycin reduces tau pathology in tauopathy mouse models; mTOR → p70S6K phosphorylates tau at Ser262/Thr231; mTOR-TFEB lysosomal pathway is a key tau clearance mechanism.
 
-MAPT H1 haplotype (common in Europeans) is a risk factor for PD and PSP; tau co-aggregates with alpha-synuclein in Lewy body dementia and some PD brains; MAPT LOF mutations cause FTLD-MAPT; tau and SNCA pathology converge on mitochondrial dysfunction and autophagy impairment.
+---
 
-Aggregated tau impairs autophagosome formation and lysosomal function via sequestration of autophagy adaptors; p62/SQSTM1 and NDP52 recognize tau for autophagic clearance; declining autophagy in aging and tau mutations accelerates NFT accumulation and tauopathy progression.
-
-Aβ42 oligomers activate CDK5/p25 and GSK-3β → tau hyperphosphorylation at AD-relevant sites (Thr181, Ser202, Ser396) → tau aggregation and NFT formation; APP processing and tau pathology form a feedforward loop — Aβ upstream, tau downstream, driving neurodegeneration.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^grundke-iqbal-1986-tau-phosphorylation]: Grundke-Iqbal I, Iqbal K, Tung YC, Quinlan M, Wisniewski HM, Binder LI. Abnormal phosphorylation of the microtubule-associated protein tau (tau) in Alzheimer cytoskeletal pathology. *Proc Natl Acad Sci USA.* 1986;83(13):4913-4917. [doi:10.1073/pnas.83.13.4913](https://doi.org/10.1073/pnas.83.13.4913) · [PubMed 3088567](https://pubmed.ncbi.nlm.nih.gov/3088567/)
 [^iqbal-2016-tau-review]: Iqbal K, Liu F, Gong CX. Tau and neurodegenerative disease: the story so far. *Nat Rev Neurol.* 2016;12(1):15-27. [doi:10.1038/nrneurol.2015.225](https://doi.org/10.1038/nrneurol.2015.225) · [PubMed 26635213](https://pubmed.ncbi.nlm.nih.gov/26635213/)

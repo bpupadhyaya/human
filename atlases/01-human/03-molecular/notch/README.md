@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "NOTCH and KRAS cooperate in PDAC: KRAS drives NOTCH1/2 ligand expression; combined NOTCH + MEK inhibition has preclinical synergy in PDAC and KRAS-mutant lung adenocarcinoma; NOTCH pathway reactivation is a KRAS-driven adaptive resistance mechanism."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "NOTCH1 drives cyclin D1 transcription → CDK4/6-cyclin D1 → Rb phosphorylation → G1-S entry; cyclin D1 is a key NOTCH effector in T-ALL, breast cancer, and colorectal cancer; CDK4/6 inhibitors block NOTCH-driven G1-S progression and synergize with GSIs in NOTCH-amplified tumors."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "NOTCH-HIF-1α crosstalk: HIF-1α directly activates HES1/HEY2 in hypoxia; NICD and HIF-1α form a complex on HES1 promoter; DLL4-NOTCH governs tip/stalk cell selection during angiogenesis; hypoxia-NOTCH synergy maintains cancer stem cells in TNBC and glioblastoma."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "NOTCH1 activates PI3K-Akt-mTOR in T-ALL via PTEN-targeting miRNAs and direct Akt activation; rapamycin + GSI synergy in T-ALL: dual block reduces blast proliferation; mTOR → S6K1 phosphorylates NICD → feedback; mTOR-NOTCH1 axis drives TNBC cancer stem cell self-renewal."
 ---
 
 # NOTCH
@@ -137,6 +146,13 @@ NOTCH receptors are **single-pass type I transmembrane proteins** (~300 kDa) wit
 - `connects-to` → **[MYC](../myc/README.md)** — NOTCH1 directly activates MYC transcription via intragenic NOTCH-binding elements in T-ALL; MYC is the primary oncogenic effector downstream of NOTCH1 in T-cell lymphoma; NOTCH inhibition → MYC downregulation → T-ALL cell cycle arrest.
 - `connects-to` → **[p53](../p53/README.md)** — NOTCH1 activates p19ARF → p53 stabilization in normal cells; in squamous cell carcinoma, NOTCH1 loss promotes tumor growth; context-dependent NOTCH-p53 crosstalk determines oncogenic vs. suppressive outcome across cancer types.
 - `connects-to` → **[KRAS](../kras/README.md)** — NOTCH and KRAS cooperate in PDAC: KRAS drives NOTCH1/2 ligand expression; combined NOTCH + MEK inhibition has preclinical synergy in PDAC and KRAS-mutant lung adenocarcinoma; NOTCH pathway reactivation is a KRAS-driven adaptive resistance mechanism.
+- `connects-to` → **[Cyclin D1](../cyclin-d1/README.md)** — NOTCH1 drives cyclin D1 transcription → CDK4/6-cyclin D1 → Rb phosphorylation → G1-S entry; cyclin D1 is a key NOTCH effector in T-ALL, breast cancer, and colorectal cancer; CDK4/6 inhibitors block NOTCH-driven G1-S progression and synergize with GSIs in NOTCH-amplified tumors.
+- `connects-to` → **[HIF-1α](../hif-1alpha/README.md)** — NOTCH-HIF-1α crosstalk: HIF-1α directly activates HES1/HEY2 in hypoxia; NICD and HIF-1α form a complex on HES1 promoter; DLL4-NOTCH governs tip/stalk cell selection during angiogenesis; hypoxia-NOTCH synergy maintains cancer stem cells in TNBC and glioblastoma.
+- `connects-to` → **[mTOR](../mtor/README.md)** — NOTCH1 activates PI3K-Akt-mTOR in T-ALL via PTEN-targeting miRNAs and direct Akt activation; rapamycin + GSI synergy in T-ALL: dual block reduces blast proliferation; mTOR → S6K1 phosphorylates NICD → feedback; mTOR-NOTCH1 axis drives TNBC cancer stem cell self-renewal.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^artavanis-1999-notch-review]: Artavanis-Tsakonas S, Rand MD, Lake RJ. Notch signaling: cell fate control and signal integration in development. *Science.* 1999;284(5415):770-776. [doi:10.1126/science.284.5415.770](https://doi.org/10.1126/science.284.5415.770) · [PubMed 10221902](https://pubmed.ncbi.nlm.nih.gov/10221902/)
 [^kopan-2009-notch-mechanism]: Kopan R, Ilagan MX. The canonical Notch signaling pathway: unfolding the activation mechanism. *Cell.* 2009;137(2):216-233. [doi:10.1016/j.cell.2009.03.045](https://doi.org/10.1016/j.cell.2009.03.045) · [PubMed 19379690](https://pubmed.ncbi.nlm.nih.gov/19379690/)
