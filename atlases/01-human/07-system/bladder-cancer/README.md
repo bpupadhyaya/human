@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "RB1 loss occurs in ~20% of muscle-invasive bladder cancer (MIBC), co-occurring with TP53 mutation; RB1 deletion correlates with basal-squamous MIBC subtype and poor prognosis; RB pathway disruption also mediated by CDKN2A homozygous deletion in ~30% of MIBC."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 is mutated in ~48% of MIBC; co-deletion with RB1 defines the basal/squamous MIBC subtype (high PD-L1, cisplatin-sensitive); TERT promoter + TP53 mutations co-occur in high-grade UC; TP53 mutation in CIS is an early checkpoint failure enabling invasive progression."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Lynch syndrome (germline MLH1/MSH2) confers ~5× lifetime bladder UC risk; dMMR bladder cancer (~3-4% of UC) has high TMB → pembrolizumab active regardless of PD-L1 (KEYNOTE-158); dMMR IHC/MSI-H testing recommended for early-onset or Lynch-suspected urothelial carcinoma."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A mutations in ~25% of MIBC; SWI/SNF chromatin remodeler; ARID1A LOF → impaired nucleosome remodeling at tumor suppressor promoters; co-mutated with TP53 and KDM6A; ARID1A-mutant MIBC may have synthetic lethality with EZH2 inhibition (tazemetostat combinations under study)."
 ---
 
 # Bladder Cancer
@@ -168,6 +177,13 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-L1 drives immune evasion in urothelial carcinoma; pembrolizumab improves OS vs. chemotherapy in post-platinum mUC (KEYNOTE-045: OS 10.3 vs. 7.4 months); enfortumab vedotin + pembrolizumab (EV-302) is now first-line standard for metastatic urothelial carcinoma.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations (C228T/C250T) occur in ~75% of urothelial carcinoma — among the highest frequencies in any cancer; TERT mutation is one of the earliest carcinogenic events (present in dysplasia and NMIBC); urine TERT mutation detection enables non-invasive surveillance.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB1 loss occurs in ~20% of muscle-invasive bladder cancer (MIBC), co-occurring with TP53 mutation; RB1 deletion correlates with basal-squamous MIBC subtype and poor prognosis; RB pathway disruption also mediated by CDKN2A homozygous deletion in ~30% of MIBC.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 is mutated in ~48% of MIBC; co-deletion with RB1 defines the basal/squamous MIBC subtype (high PD-L1, cisplatin-sensitive); TERT promoter + TP53 mutations co-occur in high-grade UC; TP53 mutation in flat CIS is an early checkpoint failure enabling invasive progression.
+- `connects-to` → **[Lynch Syndrome](../../07-system/lynch-syndrome/README.md)** — Lynch syndrome (germline MLH1/MSH2) confers ~5× lifetime bladder UC risk; dMMR bladder cancer (~3-4% of UC) has high TMB → pembrolizumab active regardless of PD-L1 (KEYNOTE-158); dMMR IHC/MSI-H testing recommended for early-onset or Lynch-suspected urothelial carcinoma.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A mutations in ~25% of MIBC; SWI/SNF chromatin remodeler; ARID1A LOF → impaired nucleosome remodeling at tumor suppressor promoters; co-mutated with TP53 and KDM6A; ARID1A-mutant MIBC may have synthetic lethality with EZH2 inhibition (tazemetostat combinations under study).
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^bellmunt-2017-keynote045]: Bellmunt J, de Wit R, Vaughn DJ, et al. Pembrolizumab as second-line therapy for advanced urothelial carcinoma. *N Engl J Med.* 2017;376(11):1015-1026. [doi:10.1056/NEJMoa1613683](https://doi.org/10.1056/NEJMoa1613683) · [PubMed 28212060](https://pubmed.ncbi.nlm.nih.gov/28212060/)
 [^powles-2024-ev302]: Powles T, Valderrama BP, Gupta S, et al. Enfortumab vedotin and pembrolizumab in untreated advanced urothelial cancer. *N Engl J Med.* 2024;390(10):875-888. [doi:10.1056/NEJMoa2312117](https://doi.org/10.1056/NEJMoa2312117) · [PubMed 38261487](https://pubmed.ncbi.nlm.nih.gov/38261487/)

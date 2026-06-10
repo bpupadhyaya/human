@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "BHD lifetime RCC risk ~15-30%; chromophobe + hybrid oncocytic histology; bilateral multifocal; annual MRI from age 20; nephron-sparing surgery when >3 cm; sunitinib/cabozantinib for metastatic BHD RCC; chromophobe RCC 5-year OS ~88%"
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "BHD causes bilateral basal pulmonary cysts in ~80-90% of carriers → 7× increased spontaneous pneumothorax risk; FLCN-deficient alveolar type II cells → mTOR dysregulation → cyst formation; pleurodesis recommended after second ipsilateral or first contralateral pneumothorax."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Fibrofolliculomas (hair follicle hamartomas; white facial papules) are the defining BHD skin lesion; ≥5 histologically confirmed fibrofolliculomas is a major diagnostic criterion; cosmetic laser/dermabrasion reduces lesions; topical sirolimus (off-label) may reduce formation."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "FLCN-FNIP1/2 interacts with AMPK; FNIP1/2 are AMPK-associated proteins; AMPK phosphorylates FLCN at Ser302; FLCN-FNIP-AMPK is a metabolic sensing hub at the lysosome integrating energy status with mTORC1 activity; FNIP1 null mice develop cardiomegaly and lymphoma."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -180,6 +189,13 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — FLCN LOF → Rag GTPase dysregulation → impaired mTORC1 lysosomal docking (RagC/D-GAP activity lost); mTOR inhibitors (everolimus) explored in BHD-associated RCC; FLCN LOF mTOR biology distinct from TSC1/TSC2 LOF (Rheb pathway) but both converge on mTORC1
 - `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — BHD-associated RCC (chromophobe) vs VHL-associated RCC (clear cell): distinct histology and molecular drivers; VHL → HIF-1α pseudohypoxia; FLCN → mTOR/Rag dysregulation; BHD chromophobe has better prognosis than VHL ccRCC; belzutifan for VHL (not yet BHD)
 - `connects-to` → **[Renal Cell Carcinoma](../../07-system/renal-cell-carcinoma/README.md)** — BHD lifetime RCC risk ~15-30%; chromophobe + hybrid oncocytic histology; bilateral multifocal; annual MRI from age 20; nephron-sparing surgery when >3 cm; sunitinib/cabozantinib for metastatic BHD RCC; chromophobe RCC 5-year OS ~88%
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — BHD causes bilateral basal pulmonary cysts in ~80-90% of carriers → 7× increased spontaneous pneumothorax risk; FLCN-deficient alveolar type II cells → mTOR dysregulation → cyst formation; pleurodesis recommended after second ipsilateral or first contralateral pneumothorax.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Fibrofolliculomas (hair follicle hamartomas; white facial papules) are the defining BHD cutaneous lesion; ≥5 histologically confirmed fibrofolliculomas is a major diagnostic criterion; cosmetic laser/dermabrasion reduces lesions; topical sirolimus (off-label) may reduce new formation.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — FLCN-FNIP1/2 complex interacts with AMPK at the lysosomal surface; FNIP1/2 are AMPK-binding partners; AMPK phosphorylates FLCN at Ser302; FLCN-FNIP-AMPK forms a metabolic sensing hub integrating energy status with mTORC1 activity; FNIP1-null mice develop cardiomegaly and lymphoma.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^nickerson-2002-flcn-bhd]: Nickerson ML, Warren MB, Toro JR, et al. Mutations in a novel gene lead to kidney tumors, lung wall defects, and benign tumors of the hair follicle in patients with the Birt-Hogg-Dubé syndrome. *Cancer Cell.* 2002;2(2):157-164. [doi:10.1016/s1535-6108(02)00104-6](https://doi.org/10.1016/s1535-6108(02)00104-6) · [PubMed 12204536](https://pubmed.ncbi.nlm.nih.gov/12204536/)
 [^tsun-2013-flcn-rag]: Tsun ZY, Bar-Peled L, Chantranupong L, et al. The folliculin tumor suppressor is a GAP for the RagC/D GTPases that signal amino acid levels to mTORC1. *Mol Cell.* 2013;52(4):495-505. [doi:10.1016/j.molcel.2013.09.016](https://doi.org/10.1016/j.molcel.2013.09.016) · [PubMed 24095279](https://pubmed.ncbi.nlm.nih.gov/24095279/)
