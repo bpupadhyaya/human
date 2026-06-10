@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "FBN1 fibrillin-1 microfibrils and collagen fibers are the two major structural components of the arterial wall ECM; fibrillin-1 provides elastic recoil; collagen provides tensile strength; Marfan syndrome (FBN1) and OI (COL1A1/2) both affect connective tissue integrity."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Rapamycin (mTOR inhibitor) rescues FBN1-null mouse phenotypes including emphysema and aortic dilation; excess TGF-β in Marfan syndrome activates mTORC1 in aortic SMCs → hypertrophy and ECM remodeling; mTOR inhibition is being evaluated as adjunct to losartan in Marfan aortopathy."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Non-canonical TGF-β signaling via AT1R → ERK1/2 → MMP9 drives elastic lamina fragmentation in Marfan syndrome aorta; losartan (AT1R blocker) reduces ERK1/2 activation in aortic SMCs → slows aneurysm progression; phospho-ERK1/2 is elevated in Marfan aortic media biopsy specimens."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Aortic root dilation is the leading cause of Marfan syndrome morbidity; prophylactic root replacement (Bentall/David) at ≥5.0 cm; annual echocardiographic surveillance; losartan + beta-blocker reduces aortic growth rate; mitral valve prolapse occurs in ~75% of FBN1 carriers."
 ---
 
 # FBN1
@@ -150,6 +159,13 @@ cross_links:
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — FBN1 microfibrils bind LTBP (latent TGF-β binding protein) → sequester TGF-β in ECM; FBN1 LOF → reduced TGF-β sequestration → excess TGF-β → ERK and SMAD2/3 activation in aortic SMCs → MMP production → elastic lamina fragmentation → aneurysm formation.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — FBN1 LOF → excess TGF-β signaling → SMAD2/3 phosphorylation → nuclear translocation → aortic gene expression changes driving aneurysm; SMAD4 is the common SMAD that co-activates SMAD2/3 transcription; SMAD4 mutations in juvenile polyposis syndrome also cause aortic aneurysm.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — FBN1 fibrillin-1 microfibrils and collagen fibers are the two major structural components of the arterial wall ECM; fibrillin-1 provides elastic recoil; collagen provides tensile strength; Marfan syndrome (FBN1) and OI (COL1A1/2) both affect connective tissue integrity.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Rapamycin (mTOR inhibitor) rescues FBN1-null mouse phenotypes including emphysema and aortic dilation; excess TGF-β in Marfan syndrome activates mTORC1 in aortic SMCs → hypertrophy and ECM remodeling; mTOR inhibition is being evaluated as adjunct to losartan in Marfan aortopathy.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Non-canonical TGF-β signaling via AT1R → ERK1/2 → MMP9 drives elastic lamina fragmentation in Marfan syndrome aorta; losartan (AT1R blocker) reduces ERK1/2 activation in aortic SMCs → slows aneurysm progression; phospho-ERK1/2 is elevated in Marfan aortic media biopsy specimens.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — Aortic root dilation is the leading cause of Marfan syndrome morbidity; prophylactic root replacement (Bentall/David) at ≥5.0 cm; annual echocardiographic surveillance; losartan + beta-blocker reduces aortic growth rate; mitral valve prolapse occurs in ~75% of FBN1 carriers.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^dietz-1991-fbn1-marfan]: Dietz HC, Cutting GR, Pyeritz RE, et al. Marfan syndrome caused by a recurrent de novo missense mutation in the fibrillin gene. *Nature.* 1991;352(6333):337-339. [doi:10.1038/352337a0](https://doi.org/10.1038/352337a0) · [PubMed 1852208](https://pubmed.ncbi.nlm.nih.gov/1852208/)
 [^neptune-2003-tgfb-marfan]: Neptune ER, Frischmeyer PA, Arking DE, et al. Dysregulation of TGF-beta activation contributes to pathogenesis in Marfan syndrome. *Nat Genet.* 2003;33(3):407-411. [doi:10.1038/ng1116](https://doi.org/10.1038/ng1116) · [PubMed 12598898](https://pubmed.ncbi.nlm.nih.gov/12598898/)

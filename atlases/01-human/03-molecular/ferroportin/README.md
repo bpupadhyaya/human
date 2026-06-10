@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "ACD = hepcidin-driven FPN degradation → functional iron deficiency despite replete stores; elevated IL-6 → hepcidin → FPN lysosomal degradation → iron trapping in macrophages; restoring FPN activity by blocking hepcidin is the therapeutic strategy for ACD."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Ferroportin is the sole cellular Fe²⁺ exporter, mediating dietary iron absorption (enterocytes) and iron recycling (macrophages); exported Fe²⁺ is oxidized by hephaestin/ceruloplasmin to Fe³⁺ → transferrin binding → erythropoiesis; FPN loss traps iron intracellularly."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 drives hepcidin transcription (JAK2/STAT3 → hepcidin promoter) → FPN lysosomal degradation → iron sequestration; IL-6 blocking (tocilizumab in RA) reduces hepcidin and corrects anemia; IL-6/hepcidin/FPN axis is the mechanistic basis of anemia of chronic disease."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietic demand stimulates erythroferrone (ERFE) from erythroblasts → ERFE suppresses hepcidin → FPN stabilized → increased iron export; EPO therapy drives ERFE → hepcidin suppression → FPN upregulation; explains mandatory iron supplementation with ESA therapy in CKD."
 ---
 
 # Ferroportin
@@ -169,10 +178,14 @@ Unlike transferrin receptor 1 (TFR1), whose mRNA is stabilized by iron-responsiv
 - `connects-to` → **[Transferrin](../transferrin/README.md)** — FPN exports Fe²⁺ from enterocytes and macrophages → hephaestin/ceruloplasmin oxidize Fe²⁺ to Fe³⁺ → binds apo-transferrin → delivery to erythroid TFR1; FPN is the sole gateway from intracellular iron stores into the plasma transferrin pool.
 - `connects-to` → **[Iron Deficiency Anemia](../../07-system/iron-deficiency-anemia/README.md)** — IDA occurs when FPN-mediated iron export is insufficient for erythropoietic demand; hepcidin falls to near zero in IDA → FPN upregulated → maximal enterocyte iron export; despite this, depleted stores → iron-restricted erythropoiesis → microcytic anemia.
 - `connects-to` → **[Anemia of Chronic Disease](../../07-system/anemia-of-chronic-disease/README.md)** — ACD = hepcidin-driven FPN degradation → functional iron deficiency despite replete stores; elevated IL-6 → hepcidin → FPN lysosomal degradation → iron trapping in macrophages; restoring FPN activity by blocking hepcidin is the therapeutic strategy for ACD.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ferroportin is the sole cellular Fe²⁺ exporter, mediating dietary iron absorption (enterocytes) and iron recycling (macrophages); exported Fe²⁺ is oxidized by hephaestin/ceruloplasmin to Fe³⁺ → transferrin binding → erythropoiesis; FPN loss traps iron intracellularly.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 drives hepcidin transcription (JAK2/STAT3 → hepcidin promoter) → FPN lysosomal degradation → iron sequestration; IL-6 blocking (tocilizumab in RA) reduces hepcidin and corrects anemia; IL-6/hepcidin/FPN axis is the mechanistic basis of anemia of chronic disease.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic demand stimulates erythroferrone (ERFE) from erythroblasts → ERFE suppresses hepcidin → FPN stabilized → increased iron export; EPO therapy drives ERFE → hepcidin suppression → FPN upregulation; explains mandatory iron supplementation with ESA therapy in CKD.
 
 [^donovan-2000-ferroportin-cloning]: Donovan A, Brownlie A, Zhou Y, et al. Positional cloning of zebrafish ferroportin1 identifies a conserved vertebrate iron exporter. *Nature.* 2000;403(6771):776-781. [doi:10.1038/35001596](https://doi.org/10.1038/35001596) · [PubMed 10693807](https://pubmed.ncbi.nlm.nih.gov/10693807/)
 [^nemeth-2004-hepcidin-ferroportin]: Nemeth E, Tuttle MS, Powelson J, et al. Hepcidin regulates cellular iron efflux by binding to ferroportin and inducing its internalization. *Science.* 2004;306(5704):2090-2093. [doi:10.1126/science.1104742](https://doi.org/10.1126/science.1104742) · [PubMed 15514116](https://pubmed.ncbi.nlm.nih.gov/15514116/)
 [^billesbolle-2020-fpn-structure]: Billesbølle CB, Azumaya CM, Kretschmer RC, et al. Structure of hepcidin-bound ferroportin reveals iron homeostasis regulation. *Nature.* 2020;586(7831):807-811. [doi:10.1038/s41586-020-2668-z](https://doi.org/10.1038/s41586-020-2668-z) · [PubMed 32908311](https://pubmed.ncbi.nlm.nih.gov/32908311/)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
