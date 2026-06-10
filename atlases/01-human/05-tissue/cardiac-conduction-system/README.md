@@ -36,6 +36,15 @@ cross_links:
   - target: 01-human/05-tissue/endocardium
     relation: connects-to
     note: "Purkinje fibers run through the subendocardial layer — the inner connective tissue zone of the endocardium; Purkinje cells deliver the cardiac impulse to working cardiomyocytes; endocardium is the anatomical housing of the distal conduction network."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "IKr (hERG/KCNH2) and IKs (KCNQ1) K⁺ currents repolarize the cardiac AP in conduction cells; IK1 (Kir2.1) sets resting potential in Purkinje fibers; KCNH2/KCNQ1 mutations cause LQTS1/2 (prolonged QT, torsades de pointes); hypokalaemia prolongs QT by reducing IKr conductance."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Purkinje fibers are specialized cardiomyocytes expressing connexin-40/45 and HCN4 automaticity channel; action potentials are passed to working cardiomyocytes via connexin-43 gap junctions at the Purkinje–myocardial junction; LBBB delays this coupling → ventricular dyssynchrony."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "The Purkinje–myocardial junction passes the action potential from conduction cells to working myocardium via connexin-43/40 gap junctions; aberrant conduction (LBBB, RBBB, WPW) causes dyssynchronous activation → mechanical dyssynchrony → reduced ejection fraction."
 ---
 
 # Cardiac conduction system
@@ -123,6 +132,9 @@ When the SA node fires at 75 bpm, it constantly overrides the AV node (45–60 b
 - **Part-of** → [Heart](../../06-organ/heart/README.md): The conduction system is the heart's electrical infrastructure; its dysfunction is responsible for a large fraction of cardiac arrhythmias and sudden cardiac death.
 - **Composed-of** → [SA node cell](../../04-cellular/sa-node-cell/README.md): Automaticity cells generate the primary impulse; different cell types populate each conduction system segment.
 - `connects-to` → **[Endocardium](../endocardium/README.md)** — Purkinje fibers run through the subendocardial layer — the inner connective tissue zone of the endocardium; Purkinje cells deliver the cardiac impulse to working cardiomyocytes; endocardium is the anatomical housing of the distal conduction network.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IKr (hERG/KCNH2) and IKs (KCNQ1) K⁺ currents repolarize the cardiac AP in conduction cells; KCNH2/KCNQ1 mutations cause LQTS1/2 (torsades de pointes); hypokalaemia prolongs QT by reducing IKr; IK1 sets resting potential in Purkinje fibers.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Purkinje fibers are specialized cardiomyocytes expressing connexin-40/45 and HCN4; action potentials pass to working cardiomyocytes via connexin-43 gap junctions at the Purkinje–myocardial junction; LBBB delays this coupling → ventricular dyssynchrony.
+- `connects-to` → **[Myocardium](../myocardium/README.md)** — the Purkinje–myocardial junction transmits the action potential from specialized conduction cells to working myocardium via connexin-43/40 gap junctions; aberrant conduction (LBBB, RBBB, WPW) causes dyssynchronous contraction → reduced ejection fraction.
 
 ## Pathology
 

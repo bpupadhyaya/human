@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: part-of
     note: "NMJs are the terminals of somatic motor neurons (lower motor neurons of the ventral horn and cranial nerve motor nuclei); they translate neural commands into muscle action."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "The NMJ depends on anterograde kinesin-3/KIF1A transport for replenishment of synaptic vesicle precursors; retrograde dynein delivers BDNF-TrkB endosomes from muscle to the motor neuron soma; transport failure underlies NMJ degeneration in ALS and familial motor neuron disease."
 ---
 
 # Neuromuscular Junction
@@ -105,7 +108,10 @@ The postjunctional muscle fiber membrane forms deep **junctional folds** (increa
 - `contains` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — the sole neurotransmitter at the NMJ; released by Ca²⁺-triggered exocytosis from presynaptic vesicles to activate nicotinic AChR on the motor endplate.
 - `part-of` → **[Musculoskeletal System](../../07-system/musculoskeletal-system/README.md)** — every skeletal muscle contraction depends on NMJ transmission; NMJ failure produces flaccid paralysis.
 - `part-of` → **[Nervous System](../../07-system/nervous-system/README.md)** — NMJs are the efferent terminals of somatic motor neurons, converting CNS commands into peripheral muscle action.
+- `connects-to` → **[Axonal Transport](../axonal-transport/README.md)** — anterograde kinesin-3/KIF1A transport replenishes synaptic vesicle precursors at the NMJ at ~400 mm/day; retrograde dynein returns BDNF-TrkB endosomes and damaged mitochondria to the motor neuron soma; transport failure causes NMJ degeneration in ALS.
 
 [^sanes-2001-nmj-assembly]: Sanes JR, Lichtman JW. Induction, assembly, maturation and maintenance of a postsynaptic apparatus. *Nat Rev Neurosci.* 2001;2(11):791-805. [doi:10.1038/35097557](https://doi.org/10.1038/35097557) · [PubMed 11715056](https://pubmed.ncbi.nlm.nih.gov/11715056/)
 [^sine-2012-nachr]: Sine SM. End-plate acetylcholine receptor: structure, mechanism, pharmacology. *Physiol Rev.* 2012;92(3):1189-1234. [doi:10.1152/physrev.00015.2011](https://doi.org/10.1152/physrev.00015.2011) · [PubMed 22811427](https://pubmed.ncbi.nlm.nih.gov/22811427/)
 [^engel-2012-myasthenia]: Engel AG, Shen XM, Selcen D, Sine SM. Congenital myasthenic syndromes: pathogenesis, diagnosis, and treatment. *Lancet Neurol.* 2015;14(4):420-434. [doi:10.1016/S1474-4422(14)70201-7](https://doi.org/10.1016/S1474-4422(14)70201-7) · [PubMed 25792100](https://pubmed.ncbi.nlm.nih.gov/25792100/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

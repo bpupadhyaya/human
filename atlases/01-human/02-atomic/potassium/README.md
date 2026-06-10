@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "IKr (hERG), IKs (KCNQ1), IK1 (Kir2.1), and Ito (Kv4.3) K⁺ currents repolarise the cardiac AP; hypokalaemia prolongs AP → EADs → torsades de pointes; IKATP (Kir6.2/SUR2A) opens in ischaemia, shortening AP to conserve energy and mimicking ischaemic preconditioning."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "IKr (hERG/KCNH2) and IKs (KCNQ1) K⁺ currents repolarize conduction-system action potentials; loss-of-function KCNH2/KCNQ1 mutations cause LQTS2/1; hypokalaemia reduces IKr conductance → prolonged QT → torsades de pointes; IK1 sets resting potential in Purkinje fibers."
 ---
 
 # Potassium
@@ -143,6 +146,7 @@ K⁺ is a required cofactor for pyruvate kinase (the enzyme catalysing PEP → p
 - `connects-to` → **[Sodium](../sodium/README.md)** — Na⁺/K⁺-ATPase links K⁺ and Na⁺ gradients (3 Na⁺ out, 2 K⁺ in per ATP); K⁺ efflux through Kv/Kir repolarises APs (EK ≈−90 mV) while Na⁺ influx depolarises (ENa ≈+60 mV); changes in [K⁺]o directly shift EK and resting membrane potential.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — elevated [K⁺] is the primary direct stimulus for aldosterone secretion; aldosterone drives ROMK (Kir1.1) K⁺ secretion in cortical collecting duct; each ~0.1 mmol/L rise in [K⁺] roughly doubles aldosterone output; primary aldosteronism → excess K⁺ secretion → hypokalaemia.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — IKr (hERG), IKs (KCNQ1), IK1 (Kir2.1), and Ito (Kv4.3) K⁺ currents repolarise the cardiac AP; hypokalaemia prolongs AP → EADs → torsades de pointes; IKATP (Kir6.2/SUR2A) opens in ischaemia, shortening AP to conserve energy.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — IKr (hERG/KCNH2) and IKs (KCNQ1) repolarize conduction-system APs; KCNH2/KCNQ1 mutations cause LQTS2/1 (torsades de pointes); hypokalaemia prolongs QT by reducing IKr conductance; IK1 (Kir2.1) sets resting potential in Purkinje fibers.
 
 ## Pathology
 

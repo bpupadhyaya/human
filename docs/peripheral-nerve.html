@@ -3,79 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Peripheral Nerve — connective tissue layers, myelinated and unmyelinated axon types, Schwann cell biology, saltatory conduction, Wallerian degeneration, regeneration, and peripheral neuropathy. Human Engineering Atlas L05 Tissue.">
+  <meta name="description" content="Bundles of myelinated and unmyelinated axons organized by connective tissue layers. Schwann cells provide myelin for saltatory conduction; Remak bundles group u">
   <meta property="og:title" content="Peripheral Nerve — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Peripheral Nerve — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-elev:#ffffff;--bg-soft:#e5e5ea;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:#d1d1d6;--border-soft:#e5e5ea;--bio:#059669;--eng:#2563eb;--ai:#7c3aed;--human:#d97706;--accent:#0071e3;--accent-soft:rgba(0,113,227,0.10);--radius-sm:10px;--radius:18px;--radius-lg:24px;--maxw:1120px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;-webkit-font-smoothing:antialiased}
-    a{color:var(--bio);text-decoration:none;transition:color .15s}
-    a:hover{color:var(--human)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(242,242,247,0.85);border-bottom:1px solid var(--border-soft)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:0.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
-    .brand{display:flex;align-items:center;gap:0.6rem;font-weight:700;font-size:0.98rem;letter-spacing:-0.01em;color:var(--fg)}
-    .brand-mark{width:26px;height:26px;border-radius:7px;background:conic-gradient(from 140deg,var(--bio),var(--eng),var(--ai),var(--human),var(--bio));box-shadow:0 0 0 1px rgba(0,0,0,0.08),0 4px 16px rgba(5,150,105,0.2)}
-    .nav-links{display:flex;align-items:center;gap:1.3rem;font-size:0.92rem}
-    .nav-links a{color:var(--muted);font-weight:500}
-    .nav-links a:hover{color:var(--fg)}
-    .nav-back{display:inline-flex;align-items:center;gap:0.4rem;color:var(--muted)}
-    .nav-back svg{width:14px;height:14px}
-    @media(max-width:760px){.nav-links a:not(.nav-back){display:none}}
-    .hero{max-width:var(--maxw);margin:0 auto;padding:4rem 1.5rem 2.5rem;background:linear-gradient(135deg,#eff6ff 0%,#ffffff 60%)}
-    .hero-eyebrow{display:inline-flex;align-items:center;padding:0.4rem 0.9rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1.5rem}
-    .hero h1{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800;letter-spacing:-0.03em;color:var(--fg);line-height:1.06;margin-bottom:1.1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero .tagline{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--fg-soft);max-width:720px;font-weight:500;margin-bottom:0.75rem}
-    .hero .subtagline{font-size:0.98rem;color:var(--muted);max-width:720px}
-    .meta-strip{display:flex;gap:0;flex-wrap:wrap;margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--border-soft);font-size:0.82rem;color:var(--muted)}
-    .meta-item{padding:0.3rem 0.9rem 0.3rem 0;display:flex;flex-direction:column;gap:0.1rem}
-    .meta-item:not(:last-child){border-right:1px solid var(--border-soft);margin-right:0.9rem}
-    .meta-label{font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted-2)}
-    .meta-val{font-weight:600;color:var(--fg);font-size:0.86rem}
-    main{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 2rem}
-    .detail-card{background:var(--bg-elev);border:1px solid var(--border-soft);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.5rem;box-shadow:0 4px 14px rgba(0,0,0,0.04)}
-    .detail-header{padding:2rem 2rem 1.75rem;background:linear-gradient(135deg,#0071e3,#004fa3)}
-    .detail-header .entry-eyebrow{font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:0.5rem}
-    .detail-header h2{font-size:clamp(1.8rem,3vw,2.5rem);font-weight:800;color:white;letter-spacing:-0.03em;margin-bottom:0.65rem}
-    .detail-header .summary{font-size:0.98rem;color:rgba(255,255,255,0.88);line-height:1.65;max-width:780px}
-    .detail-body{padding:2rem;display:flex;flex-direction:column;gap:2rem}
-    .detail-section h3{font-size:0.76rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.8rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border-soft)}
-    .detail-section p{color:var(--fg-soft);font-size:0.95rem;line-height:1.65;margin-bottom:0.6rem}
-    .detail-section p:last-child{margin-bottom:0}
-    .detail-section strong{color:var(--fg)}
-    .data-table{width:100%;border-collapse:collapse;font-size:0.87rem;margin-top:0.5rem}
-    .data-table th{text-align:left;padding:0.5rem 0.65rem;background:var(--bg);font-weight:600;font-size:0.74rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted)}
-    .data-table td{padding:0.5rem 0.65rem;border-top:1px solid var(--border-soft);color:var(--fg-soft);vertical-align:top;line-height:1.5}
-    .data-table td:first-child{font-weight:600;color:var(--fg)}
-    .data-table td strong{color:var(--fg);font-weight:700}
-    .step-block{background:var(--bg);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:0.85rem 1.1rem;margin:0.5rem 0}
-    .step-block ol{list-style:decimal;padding-left:1.25rem;display:flex;flex-direction:column;gap:0.4rem}
-    .step-block li{font-size:0.88rem;color:var(--fg-soft);line-height:1.6}
-    .step-block li strong{color:var(--fg)}
-    .pathology-item{padding:0.85rem 1rem;background:var(--bg);border-radius:var(--radius-sm);border-left:3px solid var(--border);margin-bottom:0.5rem}
-    .pathology-item:last-child{margin-bottom:0}
-    .pathology-item h4{font-size:0.88rem;font-weight:700;color:var(--fg);margin-bottom:0.2rem}
-    .pathology-item p{font-size:0.84rem;color:var(--muted);line-height:1.5}
-    .pathology-item.danger{border-left-color:#dc2626}
-    .pathology-item.warn{border-left-color:var(--human)}
-    .pathology-item.info{border-left-color:var(--accent)}
-    .connections{display:flex;flex-wrap:wrap;gap:0.6rem}
-    .conn-pill{display:inline-flex;align-items:center;gap:0.4rem;padding:0.4rem 0.85rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.82rem;color:var(--fg-soft);transition:all .15s}
-    .conn-pill:hover{background:var(--bg-soft);color:var(--fg)}
-    .conn-pill .rel{font-weight:700;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--accent);margin-right:0.1rem}
-    .refs{list-style:none;display:flex;flex-direction:column;gap:0.5rem}
-    .refs li{font-size:0.82rem;color:var(--muted);line-height:1.55;padding-left:1.1rem;position:relative}
-    .refs li::before{content:'↗';position:absolute;left:0;color:var(--accent);font-size:0.75rem;top:0.05rem}
-    .refs li a{color:var(--accent)}
-    footer{margin-top:4rem;padding:2.5rem 1.5rem 2rem;border-top:1px solid var(--border-soft);text-align:center}
-    .footer-tag{font-size:0.95rem;color:var(--muted);max-width:620px;margin:0 auto 1rem}
-    .footer-links{display:flex;gap:1.25rem;justify-content:center;flex-wrap:wrap;font-size:0.88rem;margin-bottom:1rem}
-    .footer-links a{color:var(--muted)}
-    .footer-links a:hover{color:var(--bio)}
-    .footer-meta{font-size:0.8rem;color:var(--muted-2)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
@@ -87,9 +107,9 @@
         Human Engineering
       </a>
       <div class="nav-links">
-        <a href="neuron.html">Neuron</a>
-        <a href="neuromuscular-junction.html">NMJ</a>
-        <a href="axonal-transport.html">Axonal Transport</a>
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -99,237 +119,63 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas &middot; Human &middot; L05 Tissue &middot; Peripheral Nerve</div>
-    <h1>Peripheral <span>Nerve</span></h1>
-    <p class="tagline">A peripheral nerve is a cable-like bundle of axons conveying motor commands and sensory signals between the CNS and the body periphery, organised by three concentric connective tissue sheaths and classified by conduction velocity, diameter, and myelination state.</p>
-    <p class="subtagline">Schwann cells are the defining glial partners of the peripheral nervous system: myelinating Schwann cells ensheath large-diameter axons in ~150 compact myelin layers enabling saltatory conduction at up to 120 m/s, while non-myelinating Schwann cells cradle multiple unmyelinated C fibres in Remak bundles.</p>
-    <div class="meta-strip">
-      <div class="meta-item"><span class="meta-label">Scale</span><span class="meta-val">L05 Tissue</span></div>
-      <div class="meta-item"><span class="meta-label">System</span><span class="meta-val">Peripheral Nervous System</span></div>
-      <div class="meta-item"><span class="meta-label">Type</span><span class="meta-val">Mixed (motor + sensory + autonomic)</span></div>
-      <div class="meta-item"><span class="meta-label">Max velocity</span><span class="meta-val">70&ndash;120 m/s (A&alpha;)</span></div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
+    <h1>Peripheral Nerve</h1>
+    <p class="tagline">Bundles of myelinated and unmyelinated axons organized by connective tissue layers. Schwann cells provide myelin for saltatory conduction; Remak bundles group unmyelinated C fibers. Regeneration after injury depends on Schwann cell scaffolding and axon regrowth rate (~1 mm/day).</p>
+    <p class="aliases">Also known as: peripheral nerve trunk, nerve fascicle, somatic nerve</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas &middot; L05 Tissue &middot; Peripheral Nervous System</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">peripheral-nerve</div>
         <h2>Peripheral Nerve</h2>
-        <p class="summary">Peripheral nerves are bundles of axons enveloped in three hierarchical connective tissue sheaths — endoneurium, perineurium, epineurium — and populated by Schwann cells that myelinate large-diameter fibres for rapid saltatory conduction or ensheath small C fibres in Remak bundles. The peripheral nervous system uniquely supports axon regeneration after injury via Wallerian degeneration, Schwann cell dedifferentiation, and Bands of Büngner.</p>
+        <p class="summary">Bundles of myelinated and unmyelinated axons organized by connective tissue layers. Schwann cells provide myelin for saltatory conduction; Remak bundles group unmyelinated C fibers. Regeneration after injury depends on Schwann cell scaffolding and axon regrowth rate (~1 mm/day).</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>A peripheral nerve is a discrete anatomical structure that acts as a bidirectional communication highway between the central nervous system and effector organs or sensory receptors in the body wall, limbs, and viscera. Unlike CNS white-matter tracts, peripheral nerves are encased in robust connective tissue sheaths and are served by an extrinsic blood supply (vasa nervorum), allowing them to be surgically identified, repaired, and grafted.</p>
-          <p>The functional diversity of peripheral nerves reflects the extraordinary range of information they carry: fast motor commands to skeletal muscle via thick, heavily myelinated A&alpha; fibres; fine touch and vibration via A&beta; fibres; sharp pain and temperature via thinly myelinated A&delta; fibres; and slow burning pain, itch, and postganglionic autonomic signals via unmyelinated C fibres. Dysregulation of any fibre class — through demyelination, axon loss, or channel dysfunction — produces distinct, clinically recognisable sensory and motor deficits.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connective Tissue Architecture</h3>
-          <p>Three nested sheaths organise the nerve from the finest functional unit outward:</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Sheath</th><th>What it surrounds</th><th>Cell types and composition</th><th>Key functions</th></tr>
-            <tr>
-              <td><strong>Endoneurium</strong></td>
-              <td>Single axon + its Schwann cell (or Remak bundle)</td>
-              <td>Loose collagen (mostly type III), fibroblasts, endoneurial capillaries, mast cells; produced by Schwann cells and fibroblasts</td>
-              <td>Maintains endoneurial fluid pressure; forms blood-nerve barrier at endoneurial capillaries (tight junctions analogous to BBB); provides microenvironment for axon-Schwann cell interaction</td>
-            </tr>
-            <tr>
-              <td><strong>Perineurium</strong></td>
-              <td>Nerve fascicle (bundle of axons)</td>
-              <td>Concentric lamellae of flattened perineurial cells (modified fibroblasts); joined by tight junctions; surrounded by basal lamina on both surfaces; collagen layers between lamellae</td>
-              <td>Primary diffusion barrier of the blood-nerve barrier; withstands mechanical stretch (tensile strength up to ~50 MPa); regulates ion composition of endoneurial fluid; absent in dorsal root ganglia explaining DRG vulnerability</td>
-            </tr>
-            <tr>
-              <td><strong>Epineurium</strong></td>
-              <td>Entire nerve (multiple fascicles)</td>
-              <td>Dense irregular collagen (types I and III); adipocytes; mast cells; macrophages; lymphatics; vasa nervorum (arterioles, venules, capillaries)</td>
-              <td>Mechanical protection; contains vasa nervorum supplying the nerve; fascicular gliding layer (interfascicular epineurium) absorbs tensile stress; target for nerve coaptation in surgical repair</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>peripheral-nerve</td></tr>
+            <tr><td>Name</td><td>Peripheral Nerve</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>05-tissue</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Nerve Fibre Classification</h3>
-          <table class="data-table">
-            <tr><th>Fibre class</th><th>Diameter (&micro;m)</th><th>Conduction velocity (m/s)</th><th>Myelination</th><th>Modalities</th></tr>
-            <tr>
-              <td><strong>A&alpha; (Group I/II)</strong></td>
-              <td>13&ndash;20</td>
-              <td>70&ndash;120</td>
-              <td>Heavily myelinated (~150 compact myelin layers)</td>
-              <td>&alpha;-motor neurons to extrafusal muscle fibres; Ia muscle spindle afferents (stretch); Ib Golgi tendon organ afferents</td>
-            </tr>
-            <tr>
-              <td><strong>A&beta; (Group II)</strong></td>
-              <td>6&ndash;12</td>
-              <td>30&ndash;70</td>
-              <td>Myelinated</td>
-              <td>Tactile mechanoreception (Meissner, Pacinian, Merkel, Ruffini corpuscles); pressure; vibration; secondary muscle spindle afferents</td>
-            </tr>
-            <tr>
-              <td><strong>A&delta; (Group III)</strong></td>
-              <td>1&ndash;5</td>
-              <td>5&ndash;30</td>
-              <td>Thinly myelinated (1&ndash;several myelin layers)</td>
-              <td>Sharp, first pain (high-threshold mechanonociception); cold thermoreception; crude touch; some &gamma;-motor neurons to intrafusal fibres</td>
-            </tr>
-            <tr>
-              <td><strong>C (Group IV)</strong></td>
-              <td>0.2&ndash;1.5</td>
-              <td>0.5&ndash;2</td>
-              <td>Unmyelinated (Remak bundles)</td>
-              <td>Slow, burning pain; warm thermoreception; itch; postganglionic autonomic (sympathetic and parasympathetic); most abundant fibre type in cutaneous nerves</td>
-            </tr>
-            <tr>
-              <td><strong>B fibres</strong></td>
-              <td>&lt;3</td>
-              <td>3&ndash;15</td>
-              <td>Lightly myelinated</td>
-              <td>Preganglionic autonomic fibres (sympathetic and parasympathetic); visceral afferents</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Schwann Cell Biology</h3>
-
-          <p><strong>Myelinating Schwann cells</strong> engage in a 1:1 relationship with large-diameter axons (&ge;1&nbsp;&micro;m). Each cell wraps its plasma membrane spirally around a segment of axon, compacting the cytoplasm to produce up to ~150 concentric myelin lamellae of 10&ndash;12 nm periodicity. The compact myelin is rich in specific proteins: <strong>PMP22</strong> (peripheral myelin protein 22; ~16% of total myelin protein; mutations in 70% of Charcot-Marie-Tooth disease cases), <strong>MPZ/P0</strong> (myelin protein zero; the major structural protein; mediates myelin compaction via homophilic adhesion at the extracellular domain), <strong>MBP</strong> (myelin basic protein; stabilises cytoplasmic apposition of myelin lamellae), and <strong>periaxin</strong> (PRX; maintains the myelin sheath through PDZ-domain scaffolding; mutations cause Dejerine&ndash;Sottas syndrome CMT4F).</p>
-
-          <p><strong>Non-myelinating Schwann cells</strong> ensheath multiple unmyelinated C fibres (typically 3&ndash;10 axons per cell) within a shared cytoplasmic trough, forming <strong>Remak bundles</strong>. Each C fibre remains individually invested by a Schwann cell process but without compact myelin. The Remak configuration allows slow conduction of pain and autonomic signals; these fibres are selectively lost early in small-fibre neuropathy, detected by skin punch biopsy and quantification of intraepidermal nerve fibre density (IENFD).</p>
-
-          <p><strong>Nodal molecular organisation</strong> is the mechanistic basis for saltatory conduction. Each myelinated internode is ~1&ndash;1.5 mm long and ends at a <strong>node of Ranvier</strong> — a naked 1&ndash;2 &micro;m axon segment where action potential regeneration occurs:</p>
-          <table class="data-table">
-            <tr><th>Axon domain</th><th>Width</th><th>Key molecules</th><th>Function</th></tr>
-            <tr>
-              <td><strong>Node of Ranvier</strong></td>
-              <td>1&ndash;2 &micro;m</td>
-              <td>Nav1.6 (high density, ~1,000/&micro;m&sup2;); ankyrin-G (ankG); &beta;IV-spectrin; NF186 (neurofascin-186)</td>
-              <td>Action potential regeneration; Nav1.6 anchored by ankG cytoskeletal scaffold; Nav1.6 carries both transient and persistent Na&#8314; current; low Kv density at node</td>
-            </tr>
-            <tr>
-              <td><strong>Paranode</strong></td>
-              <td>~5&ndash;10 &micro;m each side</td>
-              <td>Contactin-1 (CNTN1) + CASPR1 (Contactin-associated protein) on axon; NF155 (neurofascin-155) on Schwann cell loops; Caspr2; NF186</td>
-              <td>Septate-like junctions between Schwann cell paranodal loops and axon; form lateral diffusion barrier separating nodal Na&#8314; from juxtaparanodal K&#8314; channels; antibodies against NF155/CASPR1/CNTN1 cause paranodopathy subtype of GBS/CIDP</td>
-            </tr>
-            <tr>
-              <td><strong>Juxtaparanode</strong></td>
-              <td>~10&ndash;20 &micro;m each side</td>
-              <td>Kv1.1/Kv1.2 (&gt;100/&micro;m&sup2;); CASPR2; TAG-1 (Contactin-2)</td>
-              <td>High-density K&#8314; channels repolarise axon; separated from nodal Nav channels by paranodal barrier; exposure of juxtaparanodal K&#8314; in demyelination contributes to conduction block</td>
-            </tr>
-            <tr>
-              <td><strong>Internode</strong></td>
-              <td>~1,000&ndash;1,500 &micro;m</td>
-              <td>Compact myelin (PMP22/MPZ/MBP/periaxin); low Nav density; Kv2</td>
-              <td>Insulates axon; high membrane resistance reduces current leak between nodes; capacitance &lt;1 pF allows AP to jump node-to-node (saltatory conduction); each node depolarises next within ~20&ndash;50 &micro;s</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Saltatory Conduction</h3>
-          <p>In an unmyelinated C fibre, a depolarisation wave advances continuously along the membrane at 0.5&ndash;2 m/s, limited by membrane capacitance and internal axial resistance. In a myelinated axon, compact myelin increases membrane resistance ~500-fold and reduces capacitance ~50-fold, confining regenerative Na&#8314; currents to nodes of Ranvier. The AP &ldquo;jumps&rdquo; from node to node — saltatory (from Latin <em>saltare</em>, to leap) conduction — at 70&ndash;120 m/s in A&alpha; fibres. The energy cost is dramatically reduced because Na&#8314;/K&#8314;-ATPase activity only needs to restore ionic gradients at nodes rather than along the entire axon. A 100-fold increase in diameter in an unmyelinated fibre would only produce a ~10-fold increase in velocity, making myelination the evolutionarily favoured solution for fast conduction within the size constraints of peripheral nerves.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Sensory Specificity and Nociceptor Sensitisation</h3>
-          <p>Sensory information is encoded both by the fibre type activated (labelled-line theory) and by the pattern of activity across fibre populations. Dorsal root ganglion (DRG) neurons are pseudo-unipolar: their central axon runs in the dorsal root to the spinal cord (synapsing in the dorsal horn or ascending directly in the dorsal columns), while the peripheral branch extends into skin, muscle, or viscera. Molecular transducers at peripheral terminals convert physical or chemical stimuli into receptor potentials:</p>
-          <table class="data-table">
-            <tr><th>Receptor / Channel</th><th>Stimulus</th><th>Fibre type</th><th>Notes</th></tr>
-            <tr>
-              <td><strong>TRPV1</strong></td>
-              <td>Capsaicin; heat (&gt;43&deg;C); acid (pH &lt;5.9); endocannabinoids</td>
-              <td>C and A&delta;</td>
-              <td>Tetramer; 6 TM domains; Ca&sup2;&#8314;-permeable; central target for analgesic development; resiniferatoxin (ultra-potent agonist) used for ablative pain treatment</td>
-            </tr>
-            <tr>
-              <td><strong>TRPM8</strong></td>
-              <td>Menthol; cool temperature (&lt;25&deg;C)</td>
-              <td>A&delta; and C (cool-specific DRG neurons)</td>
-              <td>Expressed in a largely non-overlapping DRG neuron population from TRPV1; mediates cooling analgesia; TRPM8 antagonists tested for neuropathic pain</td>
-            </tr>
-            <tr>
-              <td><strong>Piezo2</strong></td>
-              <td>Gentle touch; skin indentation; proprioception</td>
-              <td>A&beta; low-threshold mechanoreceptors; proprioceptive Ia afferents</td>
-              <td>Large (~2,500 aa) mechanosensitive channel; essential for touch discrimination and conscious proprioception; loss-of-function mutations cause ataxia and scoliosis</td>
-            </tr>
-            <tr>
-              <td><strong>Nav1.8 / Nav1.9</strong></td>
-              <td>Depolarisation (voltage-gated)</td>
-              <td>C and A&delta; (nociceptors); DRG-specific expression</td>
-              <td>TTX-resistant; Nav1.8 carries bulk of AP upstroke in nociceptors; Nav1.9 sets resting membrane potential; gain-of-function mutations cause familial episodic pain; primary targets of peripheral analgesics</td>
-            </tr>
-          </table>
-          <p><strong>Nociceptor sensitisation</strong> — the basis of inflammatory allodynia and hyperalgesia — occurs when local mediators lower the activation threshold of nociceptors. PGE&sub2; (cyclo-oxygenase product) activates EP2/EP4 receptors &rarr; Gs &rarr; adenylyl cyclase &rarr; cAMP &rarr; PKA phosphorylates Nav1.8 (shifts activation threshold ~10&ndash;15 mV negative). Bradykinin activates B1/B2 receptors &rarr; PLC &rarr; DAG &rarr; PKC phosphorylates Nav1.8 and TRPV1. NGF binds TrkA &rarr; PI3K/Akt &rarr; increased Nav1.8 trafficking to membrane; NGF also sensitises TRPV1 via PLC-mediated PIP&sub2; depletion. These cascades converge on a <strong>peripheral sensitised state</strong> in which fibres fire at stimuli that previously did not activate them (allodynia) or fire more vigorously (hyperalgesia).</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Wallerian Degeneration and Peripheral Nerve Regeneration</h3>
-          <p>The peripheral nervous system retains a regenerative capacity entirely absent from the CNS, owing to the dedifferentiation programme of Schwann cells. After axon transection or crush:</p>
-          <div class="step-block">
-            <ol>
-              <li><strong>Early axonal events (0&ndash;24 h):</strong> The distal axon stump undergoes rapid granular degeneration (Wallerian degeneration); axonal proteases (calpain, caspase) activated by Ca&sup2;&#8314; influx; microtubule disassembly; axonal contents fragmented</li>
-              <li><strong>Myelin breakdown (days 1&ndash;14):</strong> Schwann cells downregulate myelin genes (PMP22, MPZ, MBP, periaxin) and upregulate <strong>c-Jun</strong> — the master transcription factor of the repair Schwann cell; c-Jun drives expression of GDNF, BDNF, NGF, artemin, p75NTR, and cell adhesion molecules</li>
-              <li><strong>Macrophage recruitment (days 2&ndash;14):</strong> Schwann cells and degenerating axons secrete MCP-1/CCL2 and MIP-1&alpha;/CCL3 &rarr; haematogenous macrophages infiltrate &rarr; phagocytose myelin debris (crucial clearance step absent in CNS Wallerian degeneration, explaining the slower CNS regeneration failure)</li>
-              <li><strong>Bands of Büngner formation (days 3&ndash;21):</strong> Dedifferentiated Schwann cells proliferate and align within the intact endoneurial tubes (basal lamina tubes), forming longitudinal cellular columns — <strong>Bands of Büngner</strong> — that secrete ECM (laminin, fibronectin, collagen IV) and pro-regenerative factors (BDNF, GDNF, CNTF, NGF) to guide regrowing axons</li>
-              <li><strong>Axon regrowth (~1 mm/day):</strong> Regenerating axon growth cone (actin + microtubule dynamics) advances distally at ~1&ndash;3 mm/day guided by laminin-1/integrin &alpha;6&beta;1 interactions; Schwann cell &ldquo;tunnel&rdquo; provides directional cues; reinnervation of targets (muscle, skin) may take weeks to months for proximal injuries</li>
-              <li><strong>Re-myelination:</strong> Once axons contact their targets, Schwann cells cease c-Jun expression, re-differentiate, and re-myelinate regrowing axons; new internodes are shorter and thinner than the originals, accounting for reduced conduction velocity after regeneration</li>
-            </ol>
-          </div>
-          <p>CNS axons fail to regenerate because: (1) CNS myelin-associated inhibitors (Nogo-A, MAG, OMgp) activate RhoA/ROCK growth cone collapse; (2) oligodendrocytes do not support the c-Jun repair programme; (3) astrocytic glial scar deposits CSPGs; (4) injured CNS axons have reduced intrinsic growth capacity (low PTEN/mTOR signalling). Overcoming these barriers is a major focus of spinal cord injury research.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Diabetic Peripheral Neuropathy (DPN)</h4>
-            <p>Most common peripheral neuropathy worldwide; affects ~50% of patients with long-standing diabetes. <strong>Pathomechanisms:</strong> hyperglycaemia activates polyol pathway (aldose reductase &rarr; sorbitol accumulation &rarr; osmotic stress + NAD&#8314; depletion); advanced glycation end-products (AGEs) cross-link nerve structural proteins and activate RAGE &rarr; NF-&kappa;B &rarr; inflammatory cytokines; PKC-&beta; activation &rarr; impairs vasodilatory prostaglandin production &rarr; endoneurial ischaemia; reactive oxygen species damage mitochondria in DRG neurons and Schwann cells. <strong>Pattern:</strong> length-dependent, distal-symmetric (glove-and-stocking); small fibres earliest affected (burning pain, impaired temperature sensation); large fibres later (vibration loss, areflexia, gait ataxia); autonomic neuropathy coexists (orthostatic hypotension, gastroparesis, erectile dysfunction). IENFD reduced on skin biopsy. No disease-modifying treatment; management: glycaemic control, duloxetine/pregabalin/gabapentin for pain.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Guillain-Barr&eacute; Syndrome (GBS)</h4>
-            <p>Acute immune-mediated polyradiculoneuropathy; discussed in detail on the <a href="guillain-barre.html">Guillain-Barr&eacute; page</a>. Rapidly ascending weakness and areflexia following molecular mimicry to ganglioside epitopes. Treatment: IVIG 2 g/kg or plasma exchange; 20&ndash;30% require ventilatory support.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Charcot&ndash;Marie&ndash;Tooth Disease (CMT)</h4>
-            <p>Most common inherited peripheral neuropathy; &gt;80 causative genes. CMT1A (~70% of CMT1): <strong>PMP22 duplication</strong> (chromosome 17p11.2) &rarr; PMP22 overexpression &rarr; Schwann cell dysfunction and onion-bulb formation (repeated demyelination-remyelination). CMT1B: <strong>MPZ/P0 mutations</strong> &rarr; impaired myelin compaction. CMTX1: <strong>Cx32 (GJB1) mutations</strong> &rarr; gap junction loss in paranodal loops. CMT2A: <strong>MFN2 mutations</strong> &rarr; mitochondrial fusion defect &rarr; axonal CMT. Clinical phenotype: distal muscle weakness and wasting (peroneal muscles first, &ldquo;inverted champagne bottle&rdquo; legs), high-arched feet (pes cavus), hammer toes, slow nerve conduction velocities (&lt;38 m/s in CMT1); usually presents in first two decades.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Carpal Tunnel Syndrome (CTS)</h4>
-            <p>Most common mononeuropathy; compression of the median nerve at the carpal tunnel by thickened flexor retinaculum. Paraesthesiae, numbness, and pain in the median nerve territory (lateral 3&frac12; digits); nocturnal waking; weak thenar eminence in severe cases. Associations: pregnancy, hypothyroidism, rheumatoid arthritis, acromegaly, DM, obesity. NCS: prolonged distal motor latency (DML) and sensory NCS across the wrist. Treatment: splinting, corticosteroid injection, surgical carpal tunnel decompression.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Hereditary Neuropathy with Liability to Pressure Palsies (HNPP)</h4>
-            <p><strong>PMP22 deletion</strong> (17p11.2; reciprocal of CMT1A duplication) &rarr; reduced PMP22 expression &rarr; focally thickened myelin (tomacula) at common compression sites. Recurrent, painless pressure palsies (peroneal nerve at fibular head, ulnar at elbow, median at wrist) lasting days to weeks; complete recovery typical. NCS: prolonged distal latencies and conduction block at compression sites.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill" href="axonal-transport.html"><span class="rel">Depends on</span>Axonal Transport</a>
-            <a class="conn-pill" href="neuromuscular-junction.html"><span class="rel">Terminates at</span>Neuromuscular Junction</a>
-            <a class="conn-pill" href="snare-complex.html"><span class="rel">Uses</span>SNARE Complex (vesicle fusion)</a>
-            <a class="conn-pill" href="guillain-barre.html"><span class="rel">Targeted in</span>Guillain-Barr&eacute; Syndrome</a>
-            <a class="conn-pill" href="ckd.html"><span class="rel">Damaged in</span>CKD Uraemic Neuropathy</a>
+            <a class="conn-pill part" href="neuron.html" title="Peripheral nerves consist of bundles of sensory, motor, and autonomic axons — the elongated processes of neurons whose cell bodies reside in dorsal root ganglia, cranial nerve ganglia, or ventral horn of spinal cord."><span class="rel">contains</span>Neuron</a>
+            <a class="conn-pill" href="guillain-barre.html" title="Guillain-Barré syndrome is an autoimmune attack on peripheral nerve myelin (AIDP) or axons (AMAN/AMSAN); peripheral nerve demyelination produces conduction block and ascending paralysis."><span class="rel">target-of</span>Guillain Barre</a>
+            <a class="conn-pill part" href="nervous-system.html" title="Peripheral nerves are the anatomical conduits of the peripheral nervous system (PNS), carrying afferent sensory signals to the CNS and efferent motor/autonomic commands to effector organs."><span class="rel">part-of</span>Nervous System</a>
+            <a class="conn-pill" href="cidp.html" title="CIDP demyelinates peripheral nerves via macrophage-mediated paranodal stripping and anti-NF155/CNTN1 IgG4; NCS shows slowed conduction velocity, prolonged DML, F-wave prolongation, and conduction blocks; axonal loss secondary to chronic demyelination causes long-term disability."><span class="rel">connects-to</span>Cidp</a>
+            <a class="conn-pill" href="axonal-transport.html" title="Peripheral nerve fibers require continuous anterograde kinesin-3/KIF1A transport of axolemmal lipids and retrograde dynein transport of NGF-TrkA trophic endosomes; CMT2A (MFN2 mutation) disrupts mitochondrial transport, causing length-dependent axonal motor/sensory neuropathy."><span class="rel">connects-to</span>Axonal Transport</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Waxman SG. Clinical Neuroanatomy. 28th ed. McGraw-Hill; 2017.</li>
-            <li>Bhatheja K, Field J. Schwann cells: origins and role in axonal maintenance and regeneration. <em>Int J Biochem Cell Biol.</em> 2006;38(12):1995&ndash;1999. <a href="https://doi.org/10.1016/j.biocel.2006.05.007" target="_blank" rel="noopener">doi:10.1016/j.biocel.2006.05.007</a></li>
-            <li>Nave KA, Werner HB. Myelination of the nervous system: mechanisms and functions. <em>Annu Rev Cell Dev Biol.</em> 2014;30:503&ndash;533. <a href="https://doi.org/10.1146/annurev-cellbio-100913-013101" target="_blank" rel="noopener">doi:10.1146/annurev-cellbio-100913-013101</a></li>
-            <li>Chen ZL, Yu WM, Strickland S. Peripheral regeneration. <em>Annu Rev Neurosci.</em> 2007;30:209&ndash;233. <a href="https://doi.org/10.1146/annurev.neuro.30.051606.094337" target="_blank" rel="noopener">doi:10.1146/annurev.neuro.30.051606.094337</a></li>
-            <li>Dyck PJB, Thomas PK, eds. <em>Peripheral Neuropathy.</em> 4th ed. Elsevier Saunders; 2005.</li>
-            <li>Feltri ML, Poitelon Y, Previtali SC. How Schwann cells sort axons: new concepts. <em>Neuroscientist.</em> 2016;22(3):252&ndash;265. <a href="https://doi.org/10.1177/1073858415572361" target="_blank" rel="noopener">doi:10.1177/1073858415572361</a></li>
-            <li>Said G. Diabetic neuropathy &mdash; a review. <em>Nat Clin Pract Neurol.</em> 2007;3(6):331&ndash;340. <a href="https://doi.org/10.1038/ncpneuro0504" target="_blank" rel="noopener">doi:10.1038/ncpneuro0504</a></li>
+            <li><a href="https://doi.org/10.1016/j.biocel.2006.05.007" target="_blank" rel="noopener noreferrer">Bhatheja K, Field J. Schwann cells: origins and role in axonal maintenance and regeneration. Int J Biochem Cell Biol. 2006;38(12):1995-1999.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16807057/" target="_blank" rel="noopener noreferrer">PubMed 16807057</a></li>
+            <li><a href="https://doi.org/10.3389/fnins.2018.00467" target="_blank" rel="noopener noreferrer">Stassart RM, Möbius W, Nave KA, Edgar JM. The axon-myelin unit in development and degenerative disease. Front Neurosci. 2018;12:467.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30050403/" target="_blank" rel="noopener noreferrer">PubMed 30050403</a></li>
+            <li><a href="https://doi.org/10.1038/nrneurol.2013.227" target="_blank" rel="noopener noreferrer">Scheib J, Höke A. Advances in peripheral nerve regeneration. Nat Rev Neurol. 2013;9(12):668-676.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24217518/" target="_blank" rel="noopener noreferrer">PubMed 24217518</a></li>
           </ul>
         </div>
 
@@ -338,19 +184,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end &mdash; in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="neuron.html">Neuron</a>
-      <a href="axonal-transport.html">Axonal Transport</a>
-      <a href="neuromuscular-junction.html">NMJ</a>
-      <a href="guillain-barre.html">Guillain-Barr&eacute;</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "Axonal transport maintains the presynaptic terminal by continuously supplying synaptic vesicle proteins, mitochondria, and lipid membranes; retrograde transport clears autophagosomes containing damaged organelles back to the soma for lysosomal degradation."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Myelinated peripheral nerve fibers depend on anterograde kinesin-3/KIF1A transport for axolemmal lipids and retrograde dynein for NGF-TrkA endosomes; CMT2A (MFN2) and KIF1B mutations impair transport causing hereditary motor/sensory neuropathy (HMSN type 2)."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: connects-to
+    note: "Anterograde kinesin-3/KIF1A delivers synaptic vesicle precursors and dense-core vesicles to the NMJ at ~400 mm/day; retrograde dynein returns BDNF-TrkB endosomes and mitophagosomes to the soma; NMJ maintenance and sprouting depend on this continuous trophic retrograde signaling."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "Axonal GBS (AMAN, AMSAN) is driven by anti-GM1/GD1a antibodies binding nodes of Ranvier, activating complement, causing nodal axolemmal injury; this disrupts fast axonal transport at the node, impairing anterograde vesicle delivery and retrograde trophic signaling to the soma."
 ---
 
 # Axonal Transport
@@ -117,7 +126,12 @@ Dynein moves at ~0.5–1 μm/s toward the MT minus-end (soma); the dynein-dynact
 - `part-of` → **[Neuron](../../04-cellular/neuron/README.md)** — axonal transport is a fundamental ongoing process within every neuron; disruption is incompatible with long-term axonal and synaptic maintenance.
 - `connects-to` → **[SNARE Complex](../../03-molecular/snare-complex/README.md)** — SNARE protein cargoes (synaptobrevin, SNAP-25, syntaxin) and their synaptic vesicle precursors are delivered to presynaptic terminals exclusively by KIF1A-driven anterograde fast axonal transport.
 - `connects-to` → **[Synapse](../synapse/README.md)** — axonal transport maintains the presynaptic terminal by supplying synaptic vesicle components, mitochondria, and membrane, and clears damaged organelles via retrograde autophagosomes.
+- `connects-to` → **[Peripheral Nerve](../peripheral-nerve/README.md)** — myelinated peripheral axons depend on anterograde kinesin-3/KIF1A for lipid/protein supply and retrograde dynein for NGF-TrkA trophic endosomes; CMT2A (MFN2) and KIF1B mutations impair transport causing HMSN type 2.
+- `connects-to` → **[Neuromuscular Junction](../neuromuscular-junction/README.md)** — anterograde transport (kinesin-3/KIF1A) delivers synaptic vesicle precursors to the NMJ at ~400 mm/day; retrograde dynein returns BDNF-TrkB endosomes and damaged mitochondria to the soma for lysosomal processing.
+- `connects-to` → **[Guillain-Barré Syndrome](../guillain-barre/README.md)** — axonal GBS (AMAN, AMSAN) anti-GM1/GD1a antibodies cause nodal axolemmal injury at nodes of Ranvier, disrupting fast axonal transport and impairing both anterograde vesicle delivery and retrograde trophic signaling.
 
 [^hirokawa-2009-kinesin]: Hirokawa N, Noda Y, Tanaka Y, Niwa S. Kinesin superfamily motor proteins and intracellular transport. *Nat Rev Mol Cell Biol.* 2009;10(10):682-696. [doi:10.1038/nrm2774](https://doi.org/10.1038/nrm2774) · [PubMed 19773780](https://pubmed.ncbi.nlm.nih.gov/19773780/)
 [^maday-2014-axonal-transport]: Maday S, Twelvetrees AE, Moughamian AJ, Holzbaur EL. Axonal transport: cargo-specific mechanisms of motility and regulation. *Neuron.* 2014;84(2):292-309. [doi:10.1016/j.neuron.2014.10.019](https://doi.org/10.1016/j.neuron.2014.10.019) · [PubMed 25374356](https://pubmed.ncbi.nlm.nih.gov/25374356/)
 [^millecamps-2013-neurodegeneration]: Millecamps S, Julien JP. Axonal transport deficits and neurodegenerative diseases. *Nat Rev Neurosci.* 2013;14(3):161-176. [doi:10.1038/nrn3380](https://doi.org/10.1038/nrn3380) · [PubMed 23361386](https://pubmed.ncbi.nlm.nih.gov/23361386/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

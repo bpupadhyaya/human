@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/05-tissue/endocardium
     relation: connects-to
     note: "Endocardial endothelium sits directly above the subendocardial layer and myocardium; paracrine mediators (NO, ET-1, NRG-1) cross the short distance to regulate cardiomyocyte contractility and lusitropy; endocardial injury (eosinophils, inflammation) → myocardial dysfunction."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "The Purkinje–myocardial junction transmits impulses from the conduction system to working myocardium via connexin-43/40 gap junctions; bundle branch block (LBBB, RBBB) disrupts this transmission → dyssynchronous myocardial activation → reduced ventricular ejection efficiency."
 taxonomy:
   uberon: "UBERON:0002349"
   fma: "FMA:9462"
@@ -134,6 +137,7 @@ Adult human cardiomyocytes turn over at roughly **~1 %/year in early adulthood, 
 - **Cross-atlas (planned in Phase 3):** the myocardium is the tissue-scale victim of **myocarditis** — inflammation triggered by viral infection (e.g., Coxsackievirus B), autoimmune mechanisms, or toxic exposures.
 - `connects-to` → **[NCX1](../../03-molecular/ncx1/README.md)** — NCX1 is densely expressed in myocardial T-tubules and sarcolemma; NCX1/SERCA2a ratio determines Ca²⁺ removal balance; transient inward INCX (Iti) during Ca²⁺ sparks → delayed afterdepolarizations → triggered arrhythmias; NCX1 drives ischemia-reperfusion Ca²⁺ overload injury.
 - `connects-to` → **[Endocardium](../endocardium/README.md)** — Endocardial endothelium sits directly above the subendocardial layer and myocardium; paracrine mediators (NO, ET-1, NRG-1) cross the short distance to regulate cardiomyocyte contractility and lusitropy; endocardial injury (eosinophils, inflammation) → myocardial dysfunction.
+- `connects-to` → **[Cardiac Conduction System](../cardiac-conduction-system/README.md)** — the Purkinje–myocardial junction transmits action potentials via connexin-43/40 gap junctions to working myocardium; bundle branch block (LBBB, RBBB) causes dyssynchronous myocardial activation, reducing ventricular efficiency and ejection fraction.
 
 ## Pathology
 

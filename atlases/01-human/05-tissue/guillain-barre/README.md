@@ -37,6 +37,9 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: connects-to
     note: "SARS-CoV-2 is a GBS trigger; reports of GBS following COVID-19 infection and adenoviral-vector vaccines (ChAdOx1, Ad26.COV2.S); proposed mechanism: molecular mimicry between spike protein glycan epitopes and gangliosides; SARS-CoV-2 GBS cases tend toward AIDP subtype."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Axonal GBS (AMAN, AMSAN) anti-GM1/GD1a antibodies cause nodal axolemmal injury → complement activation at nodes of Ranvier → fast axonal transport failure; axonal variants have worse motor prognosis than demyelinating AIDP due to irreversible axonal loss and poor regeneration."
 ---
 
 # Guillain-Barré Syndrome
@@ -117,6 +120,7 @@ Autonomic involvement occurs in ~70% of hospitalized GBS patients:
 - `damaged-by` → **[Peripheral Nerve](../peripheral-nerve/README.md)** — GBS is the primary acute peripheral neuropathy; AIDP: macrophage myelin stripping → segmental demyelination → slowed conduction; AMAN: anti-ganglioside IgG + complement attack nodes of Ranvier → axolemmal injury; nerve biopsy and NCS subtype classification guide prognosis.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — In AMAN, anti-GM1/GD1a IgG binds gangliosides at nodes of Ranvier → C1q → C3d → C5b-9 (MAC) → axolemmal disruption; C5b-9 deposition marks AMAN histopathology; eculizumab (anti-C5) is under investigation for severe GBS to prevent complement-driven axonal injury.
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — SARS-CoV-2 is a GBS trigger; reports of GBS following COVID-19 infection and adenoviral-vector vaccines (ChAdOx1, Ad26.COV2.S); proposed mechanism: molecular mimicry between spike protein glycan epitopes and gangliosides; SARS-CoV-2 GBS cases tend toward AIDP subtype.
+- `connects-to` → **[Axonal Transport](../axonal-transport/README.md)** — axonal GBS subtypes (AMAN, AMSAN) cause nodal axolemmal injury via anti-GM1/GD1a complement activation, disrupting fast axonal transport at nodes of Ranvier; axonal variants have worse motor prognosis than AIDP due to irreversible axon loss.
 
 [^willison-2016-gbs-lancet]: Willison HJ, Jacobs BC, van Doorn PA. Guillain-Barré syndrome. *Lancet.* 2016;388(10045):717-727. [doi:10.1016/S0140-6736(16)00339-1](https://doi.org/10.1016/S0140-6736(16)00339-1) · [PubMed 26948435](https://pubmed.ncbi.nlm.nih.gov/26948435/)
 [^vandoorn-2008-gbs-review]: van Doorn PA, Ruts L, Jacobs BC. Clinical features, pathogenesis, and treatment of Guillain-Barré syndrome. *Lancet Neurol.* 2008;7(10):939-950. [doi:10.1016/S1474-4422(08)70215-1](https://doi.org/10.1016/S1474-4422(08)70215-1) · [PubMed 18848313](https://pubmed.ncbi.nlm.nih.gov/18848313/)
