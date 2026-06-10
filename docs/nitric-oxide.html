@@ -1,277 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nitric Oxide · Atlas One · Human · Molecular</title>
-<style>
-  :root {
-    --accent: #059669;
-    --accent-dark: #064e3b;
-    --bg: #0f172a;
-    --surface: #1e293b;
-    --surface2: #273549;
-    --border: #334155;
-    --text: #e2e8f0;
-    --text-muted: #94a3b8;
-    --radius-sm: 6px;
-    --radius: 12px;
-    --radius-lg: 18px;
-  }
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
-  nav { position: sticky; top: 0; z-index: 100; background: rgba(15,23,42,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem; }
-  nav a { color: var(--text-muted); text-decoration: none; font-size: 0.875rem; }
-  nav a:hover { color: var(--accent); }
-  nav .sep { color: var(--border); }
-  .hero { background: linear-gradient(135deg, #059669, #064e3b); padding: 3rem 2rem 2.5rem; }
-  .hero-inner { max-width: 860px; margin: 0 auto; }
-  .eyebrow { display: inline-block; background: rgba(255,255,255,0.2); color: #fff; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 1rem; }
-  .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1.1; }
-  .hero .tagline { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 0.5rem; max-width: 620px; }
-  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
-  .stat { background: rgba(255,255,255,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; }
-  .stat .val { font-size: 1.25rem; font-weight: 700; color: #fff; }
-  .stat .lbl { font-size: 0.7rem; color: rgba(255,255,255,0.75); letter-spacing: 0.06em; text-transform: uppercase; }
-  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
-  .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 2rem; overflow: hidden; }
-  .detail-header { background: linear-gradient(135deg, #059669, #064e3b); padding: 1rem 1.5rem; }
-  .detail-header h2 { color: #fff; font-size: 1.1rem; font-weight: 700; }
-  .detail-body { padding: 1.5rem; }
-  .detail-body p { color: var(--text-muted); margin-bottom: 0.75rem; }
-  .detail-body p:last-child { margin-bottom: 0; }
-  .pathway-block { background: #0d1b2e; border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; overflow-x: auto; }
-  .pathway-block pre { font-family: 'Fira Mono', 'Cascadia Code', monospace; font-size: 0.78rem; line-height: 1.6; color: #93c5fd; white-space: pre; }
-  .data-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
-  .data-table th { background: var(--surface2); color: var(--text); text-align: left; padding: 0.6rem 0.875rem; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase; }
-  .data-table td { padding: 0.6rem 0.875rem; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
-  .data-table tr:last-child td { border-bottom: none; }
-  .data-table tr:hover td { background: var(--surface2); }
-  .step-list { list-style: none; counter-reset: steps; margin: 0.75rem 0; }
-  .step-list li { counter-increment: steps; display: flex; gap: 0.875rem; margin-bottom: 0.6rem; color: var(--text-muted); font-size: 0.9rem; }
-  .step-list li::before { content: counter(steps); background: var(--accent); color: #fff; font-weight: 700; font-size: 0.75rem; min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.15rem; }
-  .principle-box { background: rgba(5,150,105,0.1); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.875rem 1rem; margin: 1rem 0; color: var(--text-muted); font-size: 0.9rem; }
-  .principle-box strong { color: var(--text); }
-  .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
-  .conn-pill { background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted); font-size: 0.78rem; padding: 0.3rem 0.75rem; border-radius: 999px; text-decoration: none; transition: border-color 0.15s, color 0.15s; }
-  .conn-pill:hover { border-color: var(--accent); color: var(--accent); }
-  .refs { list-style: none; margin-top: 0.5rem; }
-  .refs li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
-  .refs li:last-child { border-bottom: none; }
-  .refs li::before { content: "↗ "; color: var(--accent); }
-  footer { text-align: center; padding: 2rem 1rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.8rem; }
-  footer a { color: var(--accent); text-decoration: none; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free radical gas (MW 30.01, t½ &lt;1 s in vivo); synthesised from L-arginine by NOS isoforms (eNOS, nNOS, iNOS). eNOS → vasodilation via sGC/cGMP/PKG; nNOS → synap">
+  <meta property="og:title" content="Nitric Oxide — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Nitric Oxide — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
 </head>
 <body>
 
-<nav>
-  <a href="index.html">Atlas</a>
-  <span class="sep">›</span>
-  <a href="index.html">Human</a>
-  <span class="sep">›</span>
-  <a href="#">Nitric Oxide</a>
-</nav>
-
-<section class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow">Atlas One · Human · Molecular</span>
-    <h1>Nitric Oxide (NO)</h1>
-    <p class="tagline">Gaseous free-radical second messenger — endothelium-derived vasodilator, neurotransmitter, and immune weapon synthesised from L-arginine by three NOS isoforms.</p>
-    <div class="stat-row">
-      <div class="stat"><div class="val">30.01 Da</div><div class="lbl">Molecular weight</div></div>
-      <div class="stat"><div class="val">eNOS/nNOS/iNOS</div><div class="lbl">Synthase isoforms</div></div>
-      <div class="stat"><div class="val">~1–5 s</div><div class="lbl">Tissue half-life</div></div>
-      <div class="stat"><div class="val">sGC/cGMP/PKG</div><div class="lbl">Primary pathway</div></div>
-    </div>
-  </div>
-</section>
-
-<main>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Overview</h2></div>
-    <div class="detail-body">
-      <p>Nitric oxide (NO) is a diatomic free radical gas that serves as a potent biological signalling molecule. It was identified as the endothelium-derived relaxing factor (EDRF) by Furchgott, Ignarro, and Murad — work recognised by the 1998 Nobel Prize in Physiology or Medicine. Unlike classical signalling molecules, NO is not stored in vesicles but synthesised on demand from L-arginine by nitric oxide synthase (NOS) enzymes, freely diffuses through cell membranes (lipophilic diradical), and acts locally within its brief biological half-life (~1–5 seconds in tissue; rapidly quenched by reaction with oxyhemoglobin to form metHb + nitrate).</p>
-      <p>Three NOS isoforms with distinct biology: eNOS (NOS3, endothelial) — constitutive, Ca²⁺/CaM-dependent, generates low-level "physiological" NO for vascular tone; nNOS (NOS1, neuronal) — constitutive, Ca²⁺/CaM-dependent, synaptic and central NO production; iNOS (NOS2, inducible) — Ca²⁺-independent, NFκB-driven, generates high-level "pathological" NO in inflammation (macrophages, hepatocytes). All three require the cofactor BH4 (tetrahydrobiopterin) — BH4 deficiency uncouples eNOS → superoxide production instead of NO.</p>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>NOS Isoforms</h2></div>
-    <div class="detail-body">
-      <table class="data-table">
-        <thead><tr><th>Isoform</th><th>Gene</th><th>Expression</th><th>Regulation</th><th>NO output</th></tr></thead>
-        <tbody>
-          <tr><td>eNOS (NOS3)</td><td>NOS3 (chr7)</td><td>Vascular endothelium, cardiac myocytes, platelets</td><td>Ca²⁺/calmodulin; Akt-Ser1177 phosphorylation (shear stress, VEGF, insulin); caveolin-1 inhibits; HSP90 activates</td><td>Picomolar (pM); continuous basal release + shear-stimulated bursts</td></tr>
-          <tr><td>nNOS (NOS1)</td><td>NOS1 (chr12)</td><td>Neurons (cortex, cerebellum, striatum), skeletal muscle, macula densa</td><td>Ca²⁺/calmodulin (NMDA receptor Ca²⁺ influx); PDZ domain anchoring to PSD-95 at synapse</td><td>nM range; pulsatile with neural activity</td></tr>
-          <tr><td>iNOS (NOS2)</td><td>NOS2 (chr17)</td><td>Macrophages, neutrophils, hepatocytes, vascular smooth muscle (inducible)</td><td>Transcriptional: NFκB, IRF-1, STAT1 (IFN-γ + LPS synergy); calmodulin permanently bound (Ca²⁺-independent)</td><td>μM range; sustained over hours-days; cytotoxic levels</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Mechanism — eNOS/cGMP/PKG Vasorelaxation &amp; iNOS Cytotoxicity</h2></div>
-    <div class="detail-body">
-      <div class="pathway-block"><pre>
-  ┌──────────────────────────────────────────────────────────────────────┐
-  │              eNOS → cGMP → VASCULAR SMOOTH MUSCLE RELAXATION        │
-  │                                                                      │
-  │  Shear stress / VEGF / ACh / bradykinin / insulin                   │
-  │       │                                                              │
-  │  Endothelial cell                                                    │
-  │  ─────────────────                                                   │
-  │  ↑[Ca²⁺] → Calmodulin binding to eNOS                              │
-  │  OR Akt phosphorylates eNOS-Ser1177 (PI3K → Akt)                   │
-  │       │                                                              │
-  │  eNOS (myristoylated, caveolae) activated                           │
-  │  L-Arg + O₂ + NADPH → L-Cit + NO• (+ H₂O)                        │
-  │  [requires: BH4, FAD, FMN, heme Fe; calmodulin bridge]            │
-  │       │                                                              │
-  │  NO• (gas) diffuses → Vascular smooth muscle cell                  │
-  │       │                                                              │
-  │  Soluble guanylyl cyclase (sGC)                                     │
-  │  NO binds Fe²⁺ of sGC heme → conformational change                │
-  │  GTP → cGMP ↑↑ (40-300-fold)                                       │
-  │       │                                                              │
-  │  PKG I (cGMP-dependent protein kinase)                              │
-  │  ┌────┴────────────────────────────────────┐                        │
-  │  MLCP activation      BKCa channel↑        SERCA activation        │
-  │  (myosin light        (K⁺ efflux →         (ER Ca²⁺ re-uptake)    │
-  │   chain phosphatase)  hyperpolarisation →                           │
-  │  → MLC dephospho      ↓VDCC opening)       ↓cytoplasmic [Ca²⁺]    │
-  │  → actin-myosin       ↓Ca²⁺ influx                                 │
-  │    dissociation                                                      │
-  │       │                                                              │
-  │  SMOOTH MUSCLE RELAXATION → VASODILATION                           │
-  │                                                                      │
-  │  cGMP degraded by PDE5 (sildenafil/tadalafil inhibit PDE5         │
-  │  → cGMP accumulates → sustained relaxation)                        │
-  │                                                                      │
-  ├──────────────────────────────────────────────────────────────────────┤
-  │              iNOS → HIGH-LEVEL NO → CYTOTOXICITY                    │
-  │                                                                      │
-  │  LPS + IFN-γ (macrophage activation)                               │
-  │       │                                                              │
-  │  NFκB + IRF-1 + STAT1 → iNOS gene transcription                   │
-  │       │                                                              │
-  │  iNOS (calmodulin bound; Ca²⁺-independent) → sustained NO• μM     │
-  │       │                                                              │
-  │  NO• + O₂•⁻ (from NADPH oxidase/NOX2)                             │
-  │       → Peroxynitrite (ONOO⁻) — powerful oxidant/nitrating agent  │
-  │       │                                                              │
-  │  ONOO⁻ targets:                                                     │
-  │    → Protein tyrosine nitration (3-nitrotyrosine)                  │
-  │    → DNA strand breaks (8-nitroguanosine)                          │
-  │    → Mitochondrial Complex I/III inhibition                        │
-  │    → Pathogen killing (antiviral, antifungal, antiparasitic)       │
-  │                                                                      │
-  │  S-Nitrosylation (eNOS + nNOS):                                    │
-  │  NO• + thiol (Cys-SH) → S-nitrosocysteine (SNO)                  │
-  │  Targets: Caspase-3 (inhibited), Hb-β93Cys, NMDA-R (inhibited)    │
-  │  → Fine-tuning of protein function                                  │
-  └──────────────────────────────────────────────────────────────────────┘</pre></div>
-      <ol class="step-list">
-        <li>eNOS: L-arginine → L-citrulline + NO (5 electron oxidation); electrons flow from NADPH through FAD → FMN (reductase domain) across calmodulin bridge to heme (oxygenase domain); O₂ activated and transferred to L-Arg guanidinium N.</li>
-        <li>BH4 critical: stabilises eNOS oxygenase dimer; electron source for O₂ activation; BH4 oxidation to BH2 → eNOS "uncoupling" → superoxide (O₂•⁻) instead of NO; seen in hypertension, diabetes, ageing; folic acid and sepiapterin can replete BH4.</li>
-        <li>sGC: heterodimer (α+β); haem Fe²⁺ in β-subunit binds NO → 5-coordinate NO-Fe complex → breaks His105 bond → activates catalytic site; riociguat (sGC stimulator) and vericiguat (sGC stimulator) can activate sGC independently of NO or sensitise to NO.</li>
-        <li>PKG: activated by cGMP → phosphorylates MLCP regulatory subunit (MYPT1) activating phosphatase; phosphorylates BKCa channel Cβ1 subunit (K⁺ efflux → hyperpolarisation); phosphorylates phospholamban → SERCA relief → Ca²⁺ re-uptake.</li>
-        <li>PDE5 (phosphodiesterase 5) degrades cGMP in VSM and corpus cavernosum; sildenafil/tadalafil/vardenafil inhibit PDE5 → cGMP accumulates → sustained erection (penile sinusoidal smooth muscle relaxation) or pulmonary vasodilation.</li>
-        <li>iNOS: calmodulin permanently bound even at low Ca²⁺; NFκB drives transcription within 4–6 h of LPS/cytokine; produces 100–1000× more NO than eNOS; combined with NADPH-oxidase superoxide → peroxynitrite ONOO⁻ — nitrating agent causing tissue damage and pathogen killing.</li>
-      </ol>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Physiological Roles</h2></div>
-    <div class="detail-body">
-      <table class="data-table">
-        <thead><tr><th>System</th><th>Source</th><th>Effect</th></tr></thead>
-        <tbody>
-          <tr><td>Vascular tone</td><td>eNOS</td><td>Maintains basal vasodilation; critical in large conduit arteries; endothelial NO = ~25% of basal vascular resistance reduction</td></tr>
-          <tr><td>Platelet inhibition</td><td>eNOS (endothelium, platelets)</td><td>NO → platelet sGC → cGMP → PKG → ↓GPIIb/IIIa activation → ↓thrombus; synergises with PGI₂</td></tr>
-          <tr><td>Neurotransmission</td><td>nNOS</td><td>Retrograde messenger at synapses (post- → pre-synaptic); LTP in hippocampus; non-adrenergic non-cholinergic (NANC) relaxation of GI and airway smooth muscle</td></tr>
-          <tr><td>Penile erection</td><td>nNOS (cavernous nerve) + eNOS (endothelium)</td><td>Sexual stimulation → NANC NO release → corpus cavernosum smooth muscle relaxation → arterial inflow → erection; PDE5 degrades cGMP → detumescence</td></tr>
-          <tr><td>Macula densa NOS</td><td>nNOS (macula densa)</td><td>↑NaCl delivery → nNOS NO → afferent arteriole dilation → ↑GFR (counters tubuloglomerular feedback); dietary salt sensing</td></tr>
-          <tr><td>Immune cytotoxicity</td><td>iNOS</td><td>Kills M. tuberculosis, Leishmania, Trypanosoma, Cryptococcus; NO and ONOO⁻ damage pathogen DNA/mitochondria; iNOS-knockout mice highly susceptible to intracellular pathogens</td></tr>
-          <tr><td>Mitochondrial biogenesis</td><td>eNOS/iNOS</td><td>NO → cGMP/cAMP → PGC-1α → mitochondrial biogenesis; NO inhibits Complex IV at high concentrations (competes with O₂ at cytochrome c oxidase) — important in sepsis</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Pharmacology &amp; Clinical Use</h2></div>
-    <div class="detail-body">
-      <p><strong>Nitrates (nitroglycerin, isosorbide mononitrate)</strong> — prodrugs bioactivated by ALDH2 (mitochondrial aldehyde dehydrogenase) to NO → sGC → cGMP → venodilation (↓preload) and coronary vasodilation. Tolerance develops with continuous use (BH4 depletion, ALDH2 downregulation, peroxynitrite) — patch-free intervals prevent tolerance. Sublingual GTN for acute angina onset; oral isosorbide for prophylaxis.</p>
-      <p><strong>Inhaled NO (iNO)</strong> — 5–40 ppm inhaled selective pulmonary vasodilator; rapidly inactivated by hemoglobin in pulmonary circulation → no systemic hypotension. Indications: PPHN (persistent pulmonary hypertension of newborn), ARDS-refractory hypoxaemia (improves V/Q matching), post-cardiac surgery right heart failure.</p>
-      <p><strong>PDE5 inhibitors</strong> — sildenafil (Viagra, Revatio), tadalafil (Cialis, Adcirca), vardenafil, avanafil: ↑cGMP in VSM by blocking cGMP breakdown; licensed for ED and PAH; tadalafil also for benign prostatic hyperplasia (urethral/bladder neck smooth muscle). Not in nitrate users (synergistic hypotension risk).</p>
-      <p><strong>sGC stimulators/activators</strong> — riociguat (Adempas): stimulates sGC independently of NO and sensitises it to low NO; approved for PAH and CTEPH. Vericiguat (Verquvo): sGC stimulator for HFrEF — improves outcomes in heart failure with reduced ejection fraction.</p>
-      <p><strong>eNOS enhancers</strong> — statins (upregulate eNOS by stabilising eNOS mRNA), exercise (shear stress), ACE inhibitors (bradykinin → endothelial Ca²⁺ → eNOS), omega-3 FAs — pleiotropic NO-augmenting mechanisms.</p>
-      <div class="principle-box"><strong>Clinical pearl:</strong> iNOS-derived NO is central to septic shock vasodilation — massive NFκB activation → iNOS in vascular smooth muscle → profound vasoplegia refractory to catecholamines. Low-dose vasopressin (0.03 U/min) is used as a vasopressor-sparing catecholamine adjunct in septic shock partly by acting independently of NO/sGC. Non-selective NOS inhibition (L-NAME) trials in sepsis increased mortality — some NO is essential for organ perfusion.</div>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Pathology</h2></div>
-    <div class="detail-body">
-      <table class="data-table">
-        <thead><tr><th>Condition</th><th>NO Dysregulation</th><th>Mechanism</th></tr></thead>
-        <tbody>
-          <tr><td>Hypertension / endothelial dysfunction</td><td>↓eNOS-derived NO</td><td>Oxidative stress → BH4 oxidation → eNOS uncoupling → superoxide replaces NO; reactive nitrogen species; reduced bioavailability; vascular remodelling</td></tr>
-          <tr><td>Erectile dysfunction</td><td>↓nNOS/eNOS in corpus cavernosum</td><td>Atherosclerosis (↓cavernosal artery flow), diabetes (neuropathy + endothelial dysfunction), reduced testosterone; PDE5i restore signalling</td></tr>
-          <tr><td>Septic shock (vasodilatory)</td><td>↑iNOS (massive)</td><td>LPS + cytokine cascade → NFκB → iNOS in VSM → high NO → guanylyl cyclase → profound cGMP → vasoplegia; vasopressin V1aR-dependent constriction bypasses cGMP</td></tr>
-          <tr><td>Pulmonary arterial hypertension</td><td>↓eNOS/PGI₂, ↑ET-1</td><td>Pulmonary endothelial dysfunction; loss of vasodilator-antiproliferative NO; vascular remodelling; iNO, sildenafil, riociguat target this</td></tr>
-          <tr><td>Sickle cell disease</td><td>↓NO bioavailability</td><td>Haemolytic anaemia → cell-free hemoglobin scavenges NO (oxyHb + NO → metHb + nitrate, Kd very fast); triggers vasoconstriction, platelet activation, pulmonary hypertension</td></tr>
-          <tr><td>Alzheimer's disease</td><td>↑nNOS + ONOO⁻</td><td>Aβ + tau → excitotoxicity → NMDA → nNOS → ONOO⁻ → protein nitration → mitochondrial dysfunction; S-nitrosylation of Drp1 → mitochondrial fission</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Connections</h2></div>
-    <div class="detail-body">
-      <p>NO and PGI₂ cooperate in vascular homeostasis (both vasodilate; both inhibit platelet aggregation; both are lost in atherosclerotic endothelial dysfunction). NO inhibits COX-1/2 via S-nitrosylation in some contexts, creating regulatory cross-talk. Hemoglobin rapidly scavenges NO (oxyHb + NO → nitrate + metHb) — erythrocyte NOS (eNOS in RBCs) and SNO-Hb may serve as local NO buffer/delivery system. AMPK phosphorylates and activates eNOS at Ser1177 — a mechanism linking energy sensing to vascular tone. Leptin stimulates eNOS in endothelium but excess ADMA (asymmetric dimethylarginine) in obesity competitively inhibits NOS.</p>
-      <div class="conn-pills">
-        <a class="conn-pill" href="prostaglandins.html">Prostaglandins (PGI₂ synergy)</a>
-        <a class="conn-pill" href="hemoglobin.html">Hemoglobin (NO scavenging; SNO-Hb)</a>
-        <a class="conn-pill" href="ampk.html">AMPK (activates eNOS Ser1177)</a>
-        <a class="conn-pill" href="vasopressin.html">Vasopressin (opposes NO vasodilation)</a>
-        <a class="conn-pill" href="cholesterol.html">Cholesterol (LDL → eNOS uncoupling)</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <div class="detail-card">
-    <div class="detail-header"><h2>References</h2></div>
-    <div class="detail-body">
-      <ul class="refs">
-        <li>Furchgott RF, Zawadzki JV (1980). The obligatory role of endothelial cells in the relaxation of arterial smooth muscle by acetylcholine. <em>Nature</em> 288:373–376.</li>
-        <li>Ignarro LJ et al. (1987). Endothelium-derived relaxing factor produced and released from artery and vein is nitric oxide. <em>Proc Natl Acad Sci USA</em> 84:9265–9269.</li>
-        <li>Förstermann U, Sessa WC (2012). Nitric oxide synthases: regulation and function. <em>Eur Heart J</em> 33:829–837.</li>
-        <li>Moncada S, Higgs A (1993). The L-arginine–nitric oxide pathway. <em>NEJM</em> 329:2002–2012.</li>
-        <li>Gladwin MT et al. (2004). The emerging biology of the nitrite anion. <em>Nature Chem Biol</em> 1:308–314.</li>
-        <li>Friebe A, Sandner P, Schmidtko A (2020). cGMP: a unique 2nd messenger molecule – recent developments in cGMP research and development. <em>Naunyn Schmiedebergs Arch Pharmacol</em> 393:287–302.</li>
-        <li>Evgenov OV et al. (2006). NO-independent stimulators and activators of soluble guanylate cyclase: discovery and therapeutic potential. <em>Nat Rev Drug Discov</em> 5:755–768.</li>
-      </ul>
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>Nitric Oxide</h1>
+    <p class="tagline">Free radical gas (MW 30.01, t½ &lt;1 s in vivo); synthesised from L-arginine by NOS isoforms (eNOS, nNOS, iNOS). eNOS → vasodilation via sGC/cGMP/PKG; nNOS → synaptic plasticity; iNOS → antimicrobial. Dysregulation: hypertension, septic shock, erectile dysfunction.</p>
+    <p class="aliases">Also known as: NO, nitrogen monoxide, endothelium-derived relaxing factor, EDRF, nitric oxide radical, NO•</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
-</main>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<footer>
-  <p>Atlas One · Human · Molecular · Nitric Oxide</p>
-  <p style="margin-top:0.4rem;">
-    Open source · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
-    <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
-  </p>
-  <p style="margin-top:0.4rem; font-size:0.75rem; color:#64748b;">
-    This page is co-maintained with AI assistance. Content is for educational purposes.
-    Always verify clinical information against primary sources. &copy; <span id="yr"></span>
-  </p>
-</footer>
-<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">nitric-oxide</div>
+        <h2>Nitric Oxide</h2>
+        <p class="summary">Free radical gas (MW 30.01, t½ &lt;1 s in vivo); synthesised from L-arginine by NOS isoforms (eNOS, nNOS, iNOS). eNOS → vasodilation via sGC/cGMP/PKG; nNOS → synaptic plasticity; iNOS → antimicrobial. Dysregulation: hypertension, septic shock, erectile dysfunction.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>nitric-oxide</td></tr>
+            <tr><td>Name</td><td>Nitric Oxide</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="cardiovascular-system.html" title="eNOS-derived NO is the primary endothelium-derived vasodilator: NO → sGC → ↑cGMP → PKG → MLCP → smooth muscle relaxation; also inhibits platelet aggregation and vascular smooth muscle proliferation."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="macrophage.html" title="iNOS in M1 macrophages generates sustained high-level NO + peroxynitrite (ONOO⁻) for pathogen killing; excess iNOS activity in sepsis produces vasodilatory NO causing refractory hypotension."><span class="rel">modulates</span>Macrophage</a>
+            <a class="conn-pill" href="nervous-system.html" title="nNOS NO is a retrograde synaptic messenger at glutamatergic synapses modulating LTP/LTD; NO in ENS regulates GI motility; sacral parasympathetic nNOS drives penile erection."><span class="rel">modulates</span>Nervous System</a>
+            <a class="conn-pill" href="nf-kb.html" title="iNOS transcription is induced by NF-κB downstream of LPS/IFN-γ/TNF-α; NO in turn S-nitrosylates IκBα and p65/RelA cysteines, providing negative feedback on NF-κB activity."><span class="rel">modulates</span>Nf Kb</a>
+            <a class="conn-pill" href="arterial-wall.html" title="Modulated by Arterial Wall."><span class="rel">modulated-by</span>Arterial Wall</a>
+            <a class="conn-pill" href="smooth-muscle-cell.html" title="Modulated by Smooth Muscle Cell."><span class="rel">modulated-by</span>Smooth Muscle Cell</a>
+            <a class="conn-pill" href="pulmonary-arterial-hypertension.html" title="Impaired eNOS and NO bioavailability in PAH endothelium → cGMP vasodilation failure; PDE5 inhibitors (sildenafil, tadalafil) prevent cGMP degradation → sustained vasodilation + anti-proliferative; sGC stimulators (riociguat) amplify NO-sGC-cGMP independent of endogenous NO."><span class="rel">connects-to</span>Pulmonary Arterial Hypertension</a>
+            <a class="conn-pill" href="migraine.html" title="NO triggers cortical spreading depression (CSD); nitroglycerin (GTN) reliably provokes migraine attacks — the GTN model; NO-driven vasodilation sensitizes trigeminovascular nociceptors; triptans reduce NO-mediated dilation; iNOS upregulated in CSD-affected cortex."><span class="rel">connects-to</span>Migraine</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li><a href="https://doi.org/10.1038/288373a0" target="_blank" rel="noopener noreferrer">Furchgott RF, Zawadzki JV. The obligatory role of endothelial cells in the relaxation of arterial smooth muscle by acetylcholine. Nature. 1980;288:373-376.</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

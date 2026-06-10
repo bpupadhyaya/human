@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "Migraine involves cortical spreading depression (CSD) as the aura generator in occipital cortex; hypothalamus drives prodromal symptoms; pain localizes to TNC and thalamus; PET identifies a brainstem migraine generator in dorsal raphe and PAG."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Migraine with aura (MA) confers 2× ischemic stroke risk; CSD-triggered spreading oligemia → ischemic cascade in vulnerable cortex; PFO prevalence higher in MA; oral contraceptives + MA + smoking multiplies stroke risk; CADASIL (NOTCH3) presents with MA + lacunar strokes."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "NO triggers cortical spreading depression (CSD); nitroglycerin (GTN) reliably provokes migraine attacks — the GTN model; NO-driven vasodilation sensitizes trigeminovascular nociceptors; triptans reduce NO-mediated dilation; iNOS upregulated in CSD-affected cortex."
+  - target: 01-human/03-molecular/scn1a
+    relation: connects-to
+    note: "SCN1A (Nav1.1) gain-of-function → FHM3 (familial hemiplegic migraine type 3); loss-of-function → Dravet syndrome (epilepsy); both share cortical hyperexcitability; FHM3 SCN1A variants increase persistent Na⁺ current → lower CSD threshold."
 ---
 
 # Migraine
@@ -184,6 +193,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Serotonin](../../../03-molecular/serotonin/README.md)** — triptans (5-HT1B/D agonists) are the mainstay acute migraine therapy, constricting dural vessels and inhibiting trigeminal CGRP release; lasmiditan (5-HT1F) avoids vasoconstriction; low interictal serotonin may prime trigeminovascular sensitization.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — migraine involves cortical spreading depression (CSD) as the aura generator in occipital cortex; hypothalamus drives prodromal symptoms; pain localizes to trigeminal nucleus caudalis (TNC) and thalamus; PET identifies a brainstem migraine generator in dorsal raphe and PAG.
+- `connects-to` → **[Stroke](../stroke/README.md)** — migraine with aura (MA) confers 2× ischemic stroke risk; CSD-triggered spreading oligemia → ischemic cascade in vulnerable cortex; PFO prevalence higher in MA; oral contraceptives + MA + smoking multiplies stroke risk; CADASIL (NOTCH3) presents with MA + lacunar strokes.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — NO triggers cortical spreading depression (CSD); nitroglycerin (GTN) reliably provokes migraine attacks — the GTN model; NO-driven vasodilation sensitizes trigeminovascular nociceptors; triptans reduce NO-mediated dilation; iNOS upregulated in CSD-affected cortex.
+- `connects-to` → **[SCN1A](../../03-molecular/scn1a/README.md)** — SCN1A (Nav1.1) gain-of-function → FHM3 (familial hemiplegic migraine type 3); loss-of-function → Dravet syndrome (epilepsy); both share cortical hyperexcitability; FHM3 SCN1A variants increase persistent Na⁺ current → lower CSD threshold.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

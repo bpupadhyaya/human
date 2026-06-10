@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Impaired eNOS and NO bioavailability in PAH endothelium → cGMP vasodilation failure; PDE5 inhibitors (sildenafil, tadalafil) prevent cGMP degradation → sustained vasodilation + anti-proliferative; sGC stimulators (riociguat) amplify NO-sGC-cGMP independent of endogenous NO."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "NO triggers cortical spreading depression (CSD); nitroglycerin (GTN) reliably provokes migraine attacks — the GTN model; NO-driven vasodilation sensitizes trigeminovascular nociceptors; triptans reduce NO-mediated dilation; iNOS upregulated in CSD-affected cortex."
 ---
 
 # Nitric Oxide
@@ -174,6 +177,7 @@ Under conditions of **BH₄ deficiency** (oxidised to BH₂ by ONOO⁻, H₂O₂
 - **Modulates** → [Nervous System](../../07-system/nervous-system/README.md): nNOS NO is a retrograde synaptic messenger at glutamatergic synapses modulating LTP/LTD; NO in the ENS regulates GI motility; sacral parasympathetic nNOS drives penile erection [^alberts-mol-cell-biology].
 - **Modulates** → [NF-kB](../nf-kb/README.md): iNOS transcription is induced by NF-κB downstream of LPS/IFN-γ/TNF-α; NO in turn S-nitrosylates IκBα and p65/RelA cysteines, providing negative feedback on NF-κB activity [^stryer-biochemistry].
 - `connects-to` → **[Pulmonary Arterial Hypertension](../../07-system/pulmonary-arterial-hypertension/README.md)** — Impaired eNOS and NO bioavailability in PAH endothelium → cGMP vasodilation failure; PDE5 inhibitors (sildenafil, tadalafil) prevent cGMP degradation → sustained vasodilation + anti-proliferative; sGC stimulators (riociguat) amplify NO-sGC-cGMP independent of endogenous NO.
+- `connects-to` → **[Migraine](../../07-system/migraine/README.md)** — NO triggers cortical spreading depression (CSD); nitroglycerin (GTN) reliably provokes migraine attacks — the GTN model; NO-driven vasodilation sensitizes trigeminovascular nociceptors; triptans reduce NO-mediated dilation; iNOS upregulated in CSD-affected cortex.
 
 ## Pathology
 
@@ -201,3 +205,6 @@ Under conditions of **BH₄ deficiency** (oxidised to BH₂ by ONOO⁻, H₂O₂
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019.
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell.* 7th ed. W.W. Norton; 2022.
 [^furchgott-1980]: Furchgott RF, Zawadzki JV. The obligatory role of endothelial cells in the relaxation of arterial smooth muscle by acetylcholine. *Nature.* 1980;288:373–376. [doi:10.1038/288373a0](https://doi.org/10.1038/288373a0)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

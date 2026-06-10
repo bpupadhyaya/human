@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/parkinsons-disease
     relation: connects-to
     note: "Nav1.1 is expressed in dopaminergic neurons of the substantia nigra in addition to GABAergic interneurons; SCN1A gain-of-function mutations impair nigrostriatal dopaminergic signaling in animal models; SCN1A variants have been identified in PD GWAS with borderline significance."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "SCN1A (Nav1.1) gain-of-function → FHM3 (familial hemiplegic migraine type 3); loss-of-function → Dravet syndrome (epilepsy); both share cortical hyperexcitability; FHM3 SCN1A variants increase persistent Na⁺ current → lower CSD threshold."
 ---
 
 # SCN1A
@@ -150,6 +153,7 @@ SCN1A genotype directly guides epilepsy management:
 **→ [Epilepsy](../../07-system/epilepsy/)**: SCN1A loss-of-function mutations cause Dravet syndrome (~80% of cases) via Nav1.1 haploinsufficiency in GABAergic interneurons → impaired high-frequency inhibitory interneuron firing → cortical disinhibition → fever-sensitive tonic-clonic and myoclonic seizures; SCN1A gain-of-function causes milder GEFS+; sodium channel blockers worsen Dravet.
 
 **→ [GABA](../gaba/)**: Nav1.1 (SCN1A) primarily sustains GABAergic interneuron action potential firing; SCN1A haploinsufficiency → interneuron silencing → reduced GABA release → cortical disinhibition → seizures; clobazam (GABA-A modulator) and valproate (GABA-T inhibitor) are mainstay Dravet treatments because they compensate for lost GABAergic inhibitory tone.
+- `connects-to` → **[Migraine](../../07-system/migraine/README.md)** — SCN1A (Nav1.1) gain-of-function → FHM3 (familial hemiplegic migraine type 3); loss-of-function → Dravet syndrome (epilepsy); both share cortical hyperexcitability; FHM3 SCN1A variants increase persistent Na⁺ current → lower CSD threshold.
 
 [^claes-2001-scn1a-dravet]: Claes L, Del-Favero J, Ceulemans B, Lagae L, Van Broeckhoven C, De Jonghe P. De novo mutations in the sodium-channel gene SCN1A cause severe myoclonic epilepsy of infancy. *Am J Hum Genet.* 2001;68(6):1327-1332. [doi:10.1086/320609](https://doi.org/10.1086/320609) · [PubMed 11359211](https://pubmed.ncbi.nlm.nih.gov/11359211/)
 [^ogiwara-2007-nav1-interneuron]: Ogiwara I, Miyamoto H, Morita N, et al. Nav1.1 localizes to axons of parvalbumin-positive inhibitory interneurons: a circuit basis for epileptic seizures in mice carrying an Scn1a gene mutation. *J Neurosci.* 2007;27(22):5903-5914. [doi:10.1523/JNEUROSCI.5270-06.2007](https://doi.org/10.1523/JNEUROSCI.5270-06.2007) · [PubMed 17537961](https://pubmed.ncbi.nlm.nih.gov/17537961/)
