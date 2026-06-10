@@ -35,6 +35,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: targets
     note: "SARS-CoV-2 is a bat-origin betacoronavirus that spilled over to humans, likely via an intermediate host, initiating the COVID-19 pandemic. Zoonotic origin established by phylogenetic relatedness to bat coronaviruses (RaTG13, ~96% identity)."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: targets
+    note: "HIV-1 group M originated from SIVcpz spillover via bushmeat hunting in Central Africa (~1920); CD4/CCR5/CXCR4 receptor compatibility enabled human tropism; exemplifies zoonotic adaptation → global pandemic; chimpanzee origin established by phylogenetics (Gao 1999 Nature)."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Novel zoonotic pathogens exploit gaps in human innate immunity; PRRs (TLR4, RIG-I, NLRP3) drive cytokine storms in naive hosts; H5N1 and Ebola high CFR partly reflect excessive innate responses; interferon-mediated species barriers are primary obstacles to successful spillover."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Alveolar and splenic macrophages are primary innate sentinels at zoonotic interfaces; Ebola directly infects macrophages → systemic dissemination and cytokine storm; M1 containment prevents most spillovers from amplifying; macrophage evasion defines high-CFR zoonoses."
 ---
 
 # Zoonosis
@@ -136,6 +145,9 @@ The WHO One Health approach recognizes that zoonotic risks emerge at the interse
 - `targets` → **[Ebola Virus (EBOV)](../../01-viruses/ebola-virus/README.md)** — fruit bat reservoir; spillover to humans and NHPs via direct contact with infected animals; causes hemorrhagic fever with DIC and vascular leak
 - `targets` → **[Influenza A virus](../../01-viruses/influenza-a/README.md)** — avian and swine reservoirs; antigenic shift via segment reassortment generates pandemic strains; H5N1 and H7N9 are active spillover threats
 - `targets` → **[SARS-CoV-2 (cardiac effects)](../../01-viruses/sars-cov-2/README.md)** — bat-origin betacoronavirus; pandemic spillover event of 2019; exemplifies zoonotic spillover amplified by global travel and dense urban settings
+- `targets` → **[HIV-1](../../01-viruses/hiv-1/README.md)** — HIV-1 group M originated from SIVcpz spillover in Central Africa (~1920) via bushmeat hunting; CD4/CCR5/CXCR4 receptor compatibility enabled human tropism; one of the most consequential zoonotic spillover events in history, establishing a global AIDS pandemic.
+- `connects-to` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — novel zoonotic pathogens exploit gaps in human trained innate immunity; PRRs drive cytokine storms in immunologically naive hosts; interferon-mediated species barriers are the primary molecular obstacle to successful zoonotic spillover; excessive innate responses explain high CFR in H5N1 and Ebola.
+- `connects-to` → **[Macrophage](../../../01-human/04-cellular/macrophage/README.md)** — alveolar and splenic macrophages are the primary innate sentinels at zoonotic interfaces; Ebola directly infects macrophages and DCs, driving systemic dissemination and cytokine storm; macrophage evasion or hyperactivation is a defining feature of high-CFR zoonotic diseases.
 
 ## Pathology
 
@@ -169,3 +181,6 @@ Actively monitored high-risk zoonotic pathogens with pandemic potential (WHO R&D
 [^jones-2008-emerging-infectious]: Jones KE et al. Global trends in emerging infectious diseases. *Nature.* 2008;451(7181):990-993. [doi:10.1038/nature06536](https://doi.org/10.1038/nature06536) · [PubMed 18288193](https://pubmed.ncbi.nlm.nih.gov/18288193/)
 [^woolhouse-2005-zoonoses]: Woolhouse MEJ, Gowtage-Sequeria S. Host range and emerging and reemerging pathogens. *Emerg Infect Dis.* 2005;11(12):1842-1847. [doi:10.3201/eid1112.050997](https://doi.org/10.3201/eid1112.050997) · [PubMed 16485468](https://pubmed.ncbi.nlm.nih.gov/16485468/)
 [^who-one-health]: World Health Organization. One Health. WHO; 2023. [who.int/news-room](https://www.who.int/news-room/questions-and-answers/item/one-health)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

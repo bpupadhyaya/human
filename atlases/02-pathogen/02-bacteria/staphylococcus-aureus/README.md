@@ -31,6 +31,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: damages
     note: "Staphylococcal superantigens TSST-1 and SEB (staphylococcal enterotoxin B) bypass normal antigen presentation by cross-linking MHC-II (Vβ-region outside of the peptide groove) with T-cell receptor Vβ chains on up to 20% of all T cells simultaneously, causing massive T-cell activation and cytokine storm — the mechanism of toxic shock syndrome."
+  - target: 01-human/04-cellular/neutrophil
+    relation: damages
+    note: "PVL (LukSF-PV) binds CD45+CR3 → β-barrel pore → neutrophil lysis; SCIN blocks C3 convertase → reduced opsonisation; CHIPS blocks FPR1+C5aR → impaired chemotaxis; staphyloxanthin quenches NADPH-oxidase ROS; PVL CA-MRSA strains cause necrotising pneumonia and fasciitis."
+  - target: 01-human/04-cellular/macrophage
+    relation: damages
+    note: "Alpha-toxin lyses macrophages; TSST-1 drives TNF-α/IL-1β cytokine storm in TSS; biofilm polarises macrophages toward M2 (IL-10↑, TGF-β↑) impairing clearance; intracellular SCV phenotype evades macrophage killing and persists in osteoblasts and endothelial cells."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: damages
+    note: "Infective endocarditis: FnBPs adhere to fibronectin on valve endothelium → bacteraemia seeds myocardium; alpha-toxin disrupts cardiomyocyte junctions; septic emboli cause myocardial abscesses; MRSA endocarditis: 30-40% in-hospital mortality and 20% emergency cardiac surgery rate."
 ---
 
 # Staphylococcus aureus
@@ -150,6 +159,12 @@ The staphylococcal superantigens (SAgs: TSST-1, SEB-SEIRU) deserve special empha
 
 **Damages** → [Dendritic cell](../../../01-human/04-cellular/dendritic-cell/README.md): Superantigens TSST-1 and SEB subvert the central function of antigen-presenting cells by cross-linking MHC-II with TCR Vβ chains outside the peptide groove — the normal quality-controlled pathway of adaptive immunity. This bypasses epitope-specific responses that DCs are designed to orchestrate, instead triggering mass polyclonal T-cell activation that overwhelms the system.
 
+**Damages** → [Neutrophil](../../../01-human/04-cellular/neutrophil/README.md): PVL (LukSF-PV) binds CD45 and CR3 on human neutrophils to form β-barrel pores → cell lysis. SCIN inhibits C3 convertase, reducing opsonisation, while CHIPS blocks FPR1 and C5aR, impairing neutrophil chemotaxis to the infection site. Staphyloxanthin quenches neutrophil NADPH-oxidase reactive oxygen species — together these make CA-MRSA PVL strains uniquely lethal.
+
+**Damages** → [Macrophage](../../../01-human/04-cellular/macrophage/README.md): Alpha-toxin lyses macrophages at high local concentrations. TSST-1 superantigen drives TNF-α and IL-1β cytokine storm in toxic shock syndrome. Biofilm infection shifts macrophages toward M2 polarisation (IL-10↑, TGF-β↑), creating a tolerogenic milieu that impairs clearance. Intracellular small colony variant (SCV) bacteria evade macrophage killing.
+
+**Damages** → [Cardiomyocyte](../../../01-human/04-cellular/cardiomyocyte/README.md): Infective endocarditis begins with FnBP adhesion to fibronectin on damaged valve endothelium; bacteraemia then seeds the myocardium. Alpha-toxin disrupts cardiomyocyte tight junctions; septic emboli from vegetations cause myocardial abscesses. MRSA endocarditis carries 30–40% in-hospital mortality and a 20% rate of emergency cardiac surgery.
+
 ## Pathology
 
 ### Disease Spectrum
@@ -176,3 +191,6 @@ The staphylococcal superantigens (SAgs: TSST-1, SEB-SEIRU) deserve special empha
 
 [^lowy-1998-staph-review]: Lowy FD. *Staphylococcus aureus* infections. *N Engl J Med.* 1998;339(8):520-32. [doi:10.1056/NEJM199808203390806](https://doi.org/10.1056/NEJM199808203390806) · [PubMed 9709046](https://pubmed.ncbi.nlm.nih.gov/9709046/)
 [^gordon-2008-mrsa-pathogenesis]: Gordon RJ, Lowy FD. Pathogenesis of methicillin-resistant *Staphylococcus aureus* infection. *Clin Infect Dis.* 2008;46 Suppl 5:S350-9. [doi:10.1086/533591](https://doi.org/10.1086/533591) · [PubMed 18462090](https://pubmed.ncbi.nlm.nih.gov/18462090/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

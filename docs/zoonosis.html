@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Zoonosis — infectious diseases transmitted from animals to humans. Spillover dynamics, One Health framework, key emergence events (SARS, COVID-19, Ebola, Nipah), and pandemic preparedness. Part of the Human Engineering project.">
-  <meta property="og:title" content="Zoonosis — Human Engineering Pathogen Atlas">
-  <meta property="og:description" content="Zoonosis: classification, spillover R₀ dynamics, drivers of emergence (deforestation, wildlife trade, livestock intensification), and One Health prevention. SARS-CoV-2, HIV, Ebola, Nipah.">
+  <meta name="description" content="Infectious disease transmitted from non-human vertebrates to humans. Comprises ~60% of known human pathogens and ~75% of emerging infectious diseases. Spillover">
+  <meta property="og:title" content="Zoonosis — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Zoonosis — Human Engineering</title>
   <style>
@@ -14,86 +13,83 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #dc2626;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-    a { color: var(--accent); text-decoration: none; transition: color .15s ease; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    /* NAV */
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
-    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
-
-    /* HERO */
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(220, 38, 38, 0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
-    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
-    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
-    /* MAIN */
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 1.75rem 2rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
-    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
-    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
-    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 28%; padding-right: 1rem; }
-    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
-    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
-    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
-    .mech-item.spillover { border-left-color: var(--accent); }
-    .mech-item.driver { border-left-color: var(--human); }
-    .mech-item.prevention { border-left-color: var(--bio); }
-    .mech-item.rna { border-left-color: var(--ai); }
-    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
-    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
-    .conn-pill.causes .rel { color: var(--accent); }
-    .conn-pill.linked .rel { color: var(--ai); }
-    .conn-pill.related .rel { color: var(--human); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-    .refs li a:hover { color: var(--human); }
-    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
-    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
-    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
-    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
-    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
-    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
-    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
-    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -112,209 +108,93 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html#join">Join</a>
-        <a href="pathogens.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Pathogen Atlas
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Two &middot; Concept &middot; L06 Population / Ecosystem</div>
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 06-environmental</div>
     <h1>Zoonosis</h1>
-    <p class="tagline">~75% of all new and emerging human pathogens are zoonotic. Understanding the animal-human interface is inseparable from pandemic preparedness.</p>
-    <p class="subtagline">A zoonosis is any infectious disease caused by an agent that is naturally transmitted between vertebrate animals and humans. The majority of emerging infectious diseases (EIDs) that have threatened public health over the last century — HIV, SARS, MERS, Ebola, Nipah, H5N1, and SARS-CoV-2 — all have animal origins. The WHO One Health framework recognises that human, animal, and environmental health are inextricably linked and must be addressed together.</p>
+    <p class="tagline">Infectious disease transmitted from non-human vertebrates to humans. Comprises ~60% of known human pathogens and ~75% of emerging infectious diseases. Spillover occurs at human-animal interfaces. WHO One Health framework addresses zoonotic risk.</p>
+    <p class="aliases">Also known as: zoonotic disease, zoonoses, zoonotic infection, animal-to-human transmission, spillover infection</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~75%</span><span class="stat-label">New pathogens that are zoonotic</span></div>
-      <div class="stat"><span class="stat-num">~60%</span><span class="stat-label">EIDs with animal origin</span></div>
-      <div class="stat"><span class="stat-num">&gt;200</span><span class="stat-label">Known zoonotic pathogens</span></div>
-      <div class="stat"><span class="stat-num">1 Health</span><span class="stat-label">WHO One Health framework</span></div>
+        <div class="stat"><span class="stat-num">06-environmental</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-    <div class="detail-card" id="zoonosis">
+    <div class="detail-card">
       <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
-        <div class="entry-eyebrow">Epidemiology &middot; Ecology &middot; Pandemic Risk &middot; One Health</div>
-        <h3>Zoonosis — Animal-to-Human Disease Transmission</h3>
-        <p class="summary">Zoonoses are infectious diseases caused by bacteria, viruses, fungi, or parasites transmitted from vertebrate animals to humans, either directly (through contact with infected animals, their tissues, or excreta) or indirectly (via arthropod vectors, environmental reservoirs, or intermediate hosts). An estimated 60% of all emerging infectious diseases are zoonotic, and approximately 75% of all novel human pathogens have an animal origin. The staggering human burden — from the 40M deaths attributable to HIV since 1981 to the 7M+ COVID-19 deaths officially recorded by 2023 — underscores that the animal-human interface is the dominant source of pandemic risk. The WHO, FAO, and UNEP jointly promote the One Health approach: integrating human, animal, and environmental health surveillance and response.</p>
+        <div class="entry-eyebrow">zoonosis</div>
+        <h2>Zoonosis</h2>
+        <p class="summary">Infectious disease transmitted from non-human vertebrates to humans. Comprises ~60% of known human pathogens and ~75% of emerging infectious diseases. Spillover occurs at human-animal interfaces. WHO One Health framework addresses zoonotic risk.</p>
       </div>
-
       <div class="detail-body">
 
         <div class="detail-section">
-          <h4>Classification of Zoonoses</h4>
-          <table class="path-table">
-            <tr><th>Category</th><th>Definition</th><th>Intermediate host</th><th>Examples</th></tr>
-            <tr><td>Direct zoonoses</td><td>Transmitted directly from animal to human without requiring another vertebrate host or biological development in a vector</td><td>None</td><td>Rabies (Rhabdoviridae, dog/bat → human via bite), anthrax (<em>Bacillus anthracis</em>, cattle/sheep), brucellosis, hantavirus pulmonary syndrome</td></tr>
-            <tr><td>Metazoonoses</td><td>Require a biological intermediate host (usually an arthropod vector) in which the pathogen undergoes development or amplification before transmission to humans</td><td>Arthropod</td><td>Dengue/West Nile virus (via mosquito), plague (<em>Yersinia pestis</em> via fleas from rodents), Lyme disease (<em>Borrelia burgdorferi</em> via <em>Ixodes</em> tick), leishmaniasis (via sandfly)</td></tr>
-            <tr><td>Cyclozoonoses</td><td>Require two or more vertebrate host species to complete the life cycle; no arthropod involved</td><td>Vertebrate</td><td>Echinococcosis (<em>E. granulosus</em> — definitive host: dog; intermediate: sheep/human — dead-end); taeniasis/cysticercosis (<em>Taenia solium</em>)</td></tr>
-            <tr><td>Saprozoonoses</td><td>Pathogen has a non-animal developmental site or reservoir — typically environmental (soil, water, plant material)</td><td>Environment</td><td>Listeriosis (<em>Listeria monocytogenes</em> — soil, food chain), leptospirosis (<em>Leptospira</em> spp. — water contaminated by rodent urine), histoplasmosis (bat guano)</td></tr>
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>zoonosis</td></tr>
+            <tr><td>Name</td><td>Zoonosis</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Class</td><td>06-environmental</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h4>Key Spillover Events</h4>
-          <div class="mech-list">
-            <div class="mech-item spillover">
-              <h5>SARS-CoV-1 (2003) — palm civet intermediate host</h5>
-              <p>Severe Acute Respiratory Syndrome coronavirus emerged in Guangdong, China in November 2002. Epidemiological and serological evidence identified Himalayan palm civets (<em>Paguma larvata</em>) sold in Guangdong wet markets as intermediate hosts, with <em>Rhinolophus</em> horseshoe bats as the likely natural reservoir. The spike protein of civet SARS-CoV showed &gt;99.8% nucleotide identity to early human isolates, with two receptor-binding domain mutations (K479N and S487T) key to human ACE2 binding. Global spread: 29 countries, 8,096 cases, 774 deaths. Contained by traditional public health measures (isolation, quarantine, mask use) without a vaccine.</p>
-            </div>
-            <div class="mech-item spillover">
-              <h5>SARS-CoV-2 (2019) — likely bat origin, intermediate unclear</h5>
-              <p>The closest known relatives of SARS-CoV-2 are bat coronaviruses: BANAL-52 (~96.8% overall identity; Laos, 2020) and RaTG13 (96.2%; Yunnan caves, 2013), both from <em>Rhinolophus</em> bats. The proximal origin at or near the Huanan Seafood Wholesale Market in Wuhan is supported by spatial epidemiology data (early case clustering) and environmental sampling (SARS-CoV-2 RNA concentrated in stalls selling live animals). The SARS-CoV-2 furin cleavage site (PRRAR↓SV) in the S1/S2 boundary of spike markedly enhances S protein priming by TMPRSS2 and other furin-like proteases, providing a fitness advantage over bat coronaviruses for replication in human airways. Whether an intermediate animal host was involved remains under investigation. COVID-19: &gt;7 million deaths recorded by WHO 2023; true excess mortality estimated at 15–20 million.</p>
-            </div>
-            <div class="mech-item spillover">
-              <h5>MERS-CoV (2012–present) — dromedary camels</h5>
-              <p>Middle East Respiratory Syndrome coronavirus was first identified in Saudi Arabia in 2012. Dromedary camels (<em>Camelus dromedarius</em>) are the established zoonotic reservoir — high seroprevalence (&gt;90% of adult camels in the Arabian Peninsula) and near-identical virus isolation from camels and linked human cases. MERS-CoV uses dipeptidyl peptidase-4 (DPP4/CD26) as its receptor; DPP4 is expressed in human lower airways but not upper airways, which explains the disproportionate severity in hospitalised cases. R₀ &lt;1 in humans; most human-to-human transmission in healthcare settings. CFR ~35% in reported cases (selection bias — mild cases under-detected).</p>
-            </div>
-            <div class="mech-item spillover">
-              <h5>HIV-1 and HIV-2 — primate SIV cross-species transmission</h5>
-              <p>HIV-1 group M (pandemic strain) originated from a single cross-species transmission of simian immunodeficiency virus from common chimpanzees (<em>Pan troglodytes troglodytes</em>, SIVcpz) to humans in southeast Cameroon, likely in the early 20th century via bushmeat hunting and butchery. HIV-1 groups N, O, P represent additional independent chimpanzee/gorilla transmissions. HIV-2 (less pathogenic, West Africa restricted) derives from sooty mangabey SIV (<em>Cercocebus atys</em>, SIVsmm). Phylogenetic dating places the HIV-1 M common ancestor circa 1910–1930 in Kinshasa (then Léopoldville), DRC. The subsequent 40 million deaths over 40+ years make it the most consequential cross-species transmission event in recorded history.</p>
-            </div>
-            <div class="mech-item spillover">
-              <h5>Ebola virus disease (EVD) — fruit bat reservoir</h5>
-              <p>Ebola virus (Filoviridae, <em>Orthoebolavirus zairense</em>) causes severe haemorrhagic fever with CFR 25–90% in outbreaks. Epidemiological evidence and serology in <em>Rousettus aegyptiacus</em> and other Old World fruit bats support a bat reservoir, though virus has not been reliably isolated from bats in nature. Human spillover typically involves NHP (great apes, duikers) index cases — humans butchering or handling carcasses. The 2013–2016 West Africa epidemic (Guinea, Sierra Leone, Liberia) caused 28,646 cases and 11,323 deaths, demonstrating that human-to-human chain transmission can sustain epidemic spread far from the forest edge.</p>
-            </div>
-            <div class="mech-item spillover">
-              <h5>Nipah virus (NiV) — Pteropus bat → pig → human</h5>
-              <p>Nipah virus (Paramyxoviridae, genus <em>Henipavirus</em>) emerged in Malaysia in 1998–1999: <em>Pteropus</em> fruit bats carrying NiV roosted in fruit orchards adjacent to intensive pig farming operations; pigs amplified the virus and transmitted to pig farmers. Of 265 human cases in the Malaysian outbreak, 105 died (CFR ~40%). Subsequent outbreaks in Bangladesh (since 2001) show direct bat-to-human transmission without a pig intermediate — through consumption of raw date palm sap contaminated with bat saliva/urine — and limited human-to-human spread. NiV can cause encephalitis with long-term neurological sequelae in survivors. No licensed vaccine or antiviral (ribavirin used empirically). Classified as a WHO priority pathogen for R&D.</p>
-            </div>
-            <div class="mech-item spillover">
-              <h5>H5N1 avian influenza — gallinaceous poultry → human</h5>
-              <p>Highly pathogenic avian influenza A (H5N1, clade 2.3.4.4b) emerged from East Asian domestic poultry in the 1990s. Since 2022, clade 2.3.4.4b H5N1 has spread globally via wild migratory birds, causing unprecedented die-offs in seabirds, raptors, and marine mammals, and detecting in dairy cattle herds in the US (2024). Human H5N1 infection: CFR ~60% in historic cases; lower in recent US dairy farm exposures. Pandemic risk hinges on acquisition of efficient human-to-human transmission via aerosol — so far not observed, likely limited by suboptimal α-2,6 sialic acid receptor binding at the cell surface in upper respiratory tract. WHO surveillance under intensified monitoring as of 2025–2026.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>R₀ and Spillover Dynamics</h4>
-          <table class="detail-table">
-            <tr><td>Dead-end host</td><td>Most zoonotic pathogens have R₀ &lt;1 in humans — each case infects fewer than one additional person; outbreaks are self-limiting. Examples: rabies (essentially zero human-to-human), hantavirus, anthrax, most cases of H5N1, West Nile virus.</td></tr>
-            <tr><td>Limited chains</td><td>R₀ slightly below 1 or around 1 permits short transmission chains before extinction. MERS-CoV in community; Nipah in Bangladesh; Ebola in forest spillovers before healthcare amplification. Risk of occasional super-spreader events due to heterogeneous contact.</td></tr>
-            <tr><td>Sustained pandemic</td><td>Pandemic potential requires sustained human-to-human R₀ &gt;1, which demands sufficient replication in upper respiratory tract (for droplet/aerosol transmission), receptor binding adaptation, and immune naive population. SARS-CoV-2 exemplifies this: furin cleavage site + high ACE2 affinity + efficient aerosol spread + asymptomatic transmission.</td></tr>
-            <tr><td>Adaptation pathways</td><td>Antigenic novelty (no prior population immunity); receptor binding domain mutations enabling human-receptor affinity; protease cleavage site mutations (e.g., furin PRRAR in SARS-CoV-2); loss of interferon antagonism in early replication; polymerase fidelity affecting mutation rate; escape from innate immune sensors (STING, RIG-I pathways).</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h4>Drivers of Emergence</h4>
-          <div class="mech-list">
-            <div class="mech-item driver">
-              <h5>Land use change and deforestation</h5>
-              <p>Habitat compression increases contact frequency between wildlife reservoirs and humans and livestock. Nipah emergence in Malaysia correlated with pig farms expanding into deforested fruit bat habitat during the 1997–1998 El Niño drought that reduced wild fruit availability, forcing bats to feed in farm orchards. Ebola outbreaks correlate geographically with forest frontier disturbance in Central and West Africa. Hendra virus outbreaks in Australia increase when drought compresses <em>Pteropus</em> bat roosting near horse paddocks. Forest loss drives spillover by reducing ecological buffer distance between reservoir host and human populations.</p>
-            </div>
-            <div class="mech-item driver">
-              <h5>Wildlife trade and wet markets</h5>
-              <p>Live animal markets aggregate diverse wildlife species in close proximity, dramatically increasing cross-species transmission opportunities. SARS-CoV-1 amplification in Guangdong wet markets placed diverse coronavirus hosts in a stress-immunosuppressed, spatially concentrated environment ideal for viral adaptation. The CITES (Convention on International Trade in Endangered Species) framework and national wildlife trade regulations have gaps, especially for wild-caught species not listed as endangered. The Lancet COVID-19 Commission, among others, has called for reform of wet market conditions and elimination of live wildlife sales where biosecurity cannot be enforced.</p>
-            </div>
-            <div class="mech-item driver">
-              <h5>Livestock intensification</h5>
-              <p>High-density confined animal feeding operations (CAFOs) provide amplifying hosts for pathogens with agricultural intermediate hosts. H5N1 established in dense poultry flocks; 2.5 billion domestic birds are farmed globally — one of the largest potential amplifying populations for influenza. The 2009 H1N1 pandemic strain (pdm09) resulted from reassortment of avian, human, and swine influenza segments in pigs, with the novel combination overcoming population immunity. Pig farming adjacent to bat habitat (Nipah Malaysia) and close contact between poultry and wild birds along migratory flyways remain high-priority risk points.</p>
-            </div>
-            <div class="mech-item driver">
-              <h5>Climate change and vector range expansion</h5>
-              <p>Rising temperatures expand the geographic range of arthropod vectors — <em>Aedes aegypti</em> and <em>Ae. albopictus</em> northward into previously temperate regions; <em>Ixodes</em> tick range expanding in North America and Europe. Changing precipitation patterns alter vector breeding habitats. Temperature-dependent extrinsic incubation periods shorten, increasing transmission probability per unit time. Climate disruption also stresses wildlife populations, compressing ranges and increasing contact with human settlements (bat range shifts; increased rodent migration into human structures during droughts). IPCC projects 1 billion additional people at dengue risk under 2°C warming.</p>
-            </div>
-            <div class="mech-item driver">
-              <h5>Bushmeat hunting</h5>
-              <p>Direct handling, butchery, and consumption of wild primate and other wildlife meat is the proximate mechanism of SIV-to-HIV transmission and likely of multiple filovirus spillovers. In Central and West Africa, bushmeat (including great apes, monkeys, fruit bats, rodents, and duikers) is a significant protein source and cultural practice for millions of people, driven by poverty and food insecurity. Biosafety surveillance and community-level alternatives to bushmeat are public health priorities in high-spillover-risk areas.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Prevention and One Health</h4>
-          <div class="mech-list">
-            <div class="mech-item prevention">
-              <h5>One Health surveillance — PREDICT and GVFi</h5>
-              <p>USAID's PREDICT program (2009–2020) sampled &gt;164,000 animals and humans at high-risk interfaces across 31 countries, discovering &gt;1,200 novel viruses including NiV-like and Ebola-like agents. The Global Virome Project and successor frameworks aim for systematic virome mapping across wildlife reservoirs. Integration of human, animal, and environmental health surveillance (One Health) is the cornerstone of WHO, FAO, and UNEP pandemic prevention strategy.</p>
-            </div>
-            <div class="mech-item prevention">
-              <h5>Wildlife trade regulation and wet market reform</h5>
-              <p>Following SARS-CoV-1, China implemented temporary bans on live wildlife trade; permanent strengthened regulations are in place but face enforcement challenges. The WHO's International Health Regulations (IHR 2005) require member states to notify WHO of events that may constitute a public health emergency of international concern (PHEIC). CITES Appendix I listings and national legislation are the primary tools, but illegal wildlife trade (IWT) remains a US$23B/year industry, limiting their effectiveness.</p>
-            </div>
-            <div class="mech-item prevention">
-              <h5>Pandemic preparedness — CEPI and the 100 Days Mission</h5>
-              <p>The Coalition for Epidemic Preparedness Innovations (CEPI) was founded post-Ebola (2017) to fund vaccine development against known outbreak pathogens (MERS, Nipah, Lassa, Rift Valley fever, Chikungunya, henipaviruses) and prototype pathogen-platform combinations for unknown threats (Disease X). CEPI's 100 Days Mission targets vaccine development from pathogen identification to first clinical doses in 100 days — validated by the mRNA COVID-19 vaccines. The Pandemic Accord under WHO negotiation (2022–2025) aims at binding commitments for equitable access and surveillance sharing.</p>
-            </div>
-            <div class="mech-item prevention">
-              <h5>Wastewater and environmental surveillance</h5>
-              <p>Environmental surveillance of wastewater detects pathogen shedding in communities before clinical cases are ascertained, providing 5–14 day early warning. Demonstrated for SARS-CoV-2, poliovirus, and influenza; expanding to mpox, norovirus, and drug-resistant organisms. Wastewater surveillance is non-invasive, population-level, and catches asymptomatic infections — an important One Health tool as spillover events may initially circulate below clinical detection thresholds.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Connections</h4>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill causes" href="pathogens.html"><span class="rel">Source</span>Pathogen Atlas (all zoonotic pathogens)</a>
-            <a class="conn-pill linked" href="aedes-aegypti.html"><span class="rel">Vector</span>Aedes aegypti (metazoonosis vector)</a>
-            <a class="conn-pill linked" href="spike-protein.html"><span class="rel">Molecule</span>Spike protein (SARS-CoV-2 spillover)</a>
-            <a class="conn-pill causes" href="diarrheal-disease.html"><span class="rel">Context</span>Diarrheal disease (zoonotic enteropathogens)</a>
-            <a class="conn-pill related" href="vaccines.html"><span class="rel">Prevention</span>Vaccine Atlas</a>
-            <a class="conn-pill linked" href="herpesvirus.html"><span class="rel">Related</span>Herpesvirus (EBV/CMV zoonotic relatives)</a>
+            <a class="conn-pill" href="ebola-virus.html" title="Ebola virus (EBOV) is a zoonosis with fruit bat reservoir (Pteropodidae); spillover to humans and non-human primates via contact with infected animals or their bodily fluids; causes hemorrhagic fever with CFR 25-90%."><span class="rel">targets</span>Ebola Virus</a>
+            <a class="conn-pill" href="influenza-a.html" title="Influenza A is a classic zoonosis with avian and swine reservoirs; antigenic shift via reassortment of gene segments between animal strains generates novel pandemic viruses (e.g. 1918 H1N1, 2009 pH1N1) to which humans lack immunity."><span class="rel">targets</span>Influenza A</a>
+            <a class="conn-pill" href="sars-cov-2.html" title="SARS-CoV-2 is a bat-origin betacoronavirus that spilled over to humans, likely via an intermediate host, initiating the COVID-19 pandemic. Zoonotic origin established by phylogenetic relatedness to bat coronaviruses (RaTG13, ~96% identity)."><span class="rel">targets</span>Sars Cov 2</a>
+            <a class="conn-pill" href="hiv-1.html" title="HIV-1 group M originated from SIVcpz spillover via bushmeat hunting in Central Africa (~1920); CD4/CCR5/CXCR4 receptor compatibility enabled human tropism; exemplifies zoonotic adaptation → global pandemic; chimpanzee origin established by phylogenetics (Gao 1999 Nature)."><span class="rel">targets</span>Hiv 1</a>
+            <a class="conn-pill" href="immune-system.html" title="Novel zoonotic pathogens exploit gaps in human innate immunity; PRRs (TLR4, RIG-I, NLRP3) drive cytokine storms in naive hosts; H5N1 and Ebola high CFR partly reflect excessive innate responses; interferon-mediated species barriers are primary obstacles to successful spillover."><span class="rel">connects-to</span>Immune System</a>
+            <a class="conn-pill" href="macrophage.html" title="Alveolar and splenic macrophages are primary innate sentinels at zoonotic interfaces; Ebola directly infects macrophages → systemic dissemination and cytokine storm; M1 containment prevents most spillovers from amplifying; macrophage evasion defines high-CFR zoonoses."><span class="rel">connects-to</span>Macrophage</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h4>References</h4>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Jones KE, Patel NG, Levy MA, et al. Global trends in emerging infectious diseases. <em>Nature.</em> 2008;451(7181):990–3. <a href="https://doi.org/10.1038/nature06536" target="_blank" rel="noopener">doi:10.1038/nature06536</a> &middot; PubMed 18288193</li>
-            <li>Taylor LH, Latham SM, Woolhouse ME. Risk factors for human disease emergence. <em>Philos Trans R Soc Lond B Biol Sci.</em> 2001;356(1411):983–9. <a href="https://doi.org/10.1098/rstb.2001.0888" target="_blank" rel="noopener">doi:10.1098/rstb.2001.0888</a> &middot; PubMed 11516376</li>
-            <li>Drosten C, Günther S, Preiser W, et al. Identification of a novel coronavirus in patients with severe acute respiratory syndrome. <em>N Engl J Med.</em> 2003;348(20):1967–76. <a href="https://doi.org/10.1056/NEJMoa030747" target="_blank" rel="noopener">doi:10.1056/NEJMoa030747</a> &middot; PubMed 12690091</li>
-            <li>Hossain MJ, Gurley ES, Montgomery JM, et al. Clinical presentation of Nipah virus infection in Bangladesh. <em>Clin Infect Dis.</em> 2008;46(7):977–84. <a href="https://doi.org/10.1086/529147" target="_blank" rel="noopener">doi:10.1086/529147</a> &middot; PubMed 18444812</li>
-            <li>Sharp PM, Hahn BH. Origins of HIV and the AIDS pandemic. <em>Cold Spring Harb Perspect Med.</em> 2011;1(1):a006841. <a href="https://doi.org/10.1101/cshperspect.a006841" target="_blank" rel="noopener">doi:10.1101/cshperspect.a006841</a> &middot; PubMed 22229120</li>
-            <li>Worobey M, Levy JI, Malpica Serrano L, et al. The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic. <em>Science.</em> 2022;377(6609):951–9. <a href="https://doi.org/10.1126/science.abp8715" target="_blank" rel="noopener">doi:10.1126/science.abp8715</a> &middot; PubMed 35881010</li>
-            <li>WHO. One Health. <a href="https://www.who.int/health-topics/one-health" target="_blank" rel="noopener">who.int/health-topics/one-health</a></li>
-            <li>Carroll D, Daszak P, Wolfe ND, et al. The Global Virome Project. <em>Science.</em> 2018;359(6378):872–4. <a href="https://doi.org/10.1126/science.aap7463" target="_blank" rel="noopener">doi:10.1126/science.aap7463</a> &middot; PubMed 29472471</li>
+            <li><a href="https://doi.org/10.1038/nature06536" target="_blank" rel="noopener noreferrer">Jones KE, Patel NG, Levy MA, et al. Global trends in emerging infectious diseases. Nature. 2008;451(7181):990-993.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18288193/" target="_blank" rel="noopener noreferrer">PubMed 18288193</a></li>
+            <li><a href="https://doi.org/10.3201/eid1112.050997" target="_blank" rel="noopener noreferrer">Woolhouse MEJ, Gowtage-Sequeria S. Host range and emerging and reemerging pathogens. Emerg Infect Dis. 2005;11(12):1842-1847.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16485468/" target="_blank" rel="noopener noreferrer">PubMed 16485468</a></li>
+            <li><a href="https://www.who.int/news-room/questions-and-answers/item/one-health" target="_blank" rel="noopener noreferrer">World Health Organization. One Health. WHO; 2023.</a></li>
           </ul>
         </div>
 
       </div>
-    </div><!-- /.detail-card -->
-
-    <div class="contribute">
-      <h2>Contribute to the Pathogen Atlas</h2>
-      <p>This entry covers zoonosis classification, key spillover events from SARS to COVID-19 to HIV, drivers of emergence, and One Health prevention frameworks. Planned expansions: quantitative spillover risk modelling, bat virome atlas linkage, PREDICT dataset integration.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
-          Contribute on GitHub
-        </a>
-        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Zoonosis%20Atlas%20entry">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Get in touch
-        </a>
-      </div>
     </div>
-
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="vaccines.html">Vaccines</a>
-      <a href="index.html#join">Join</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
