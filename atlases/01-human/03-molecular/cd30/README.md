@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "CD30 belongs to the TNFRSF alongside CD40, RANK, and TNFR1/2; CD30 signaling overlaps with TNFR2 via TRAF2 recruitment; TNF-α drives inflammation in the RS microenvironment; eosinophils and mast cells express CD30L → paracrine RS cell activation."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "CD30 is universally expressed on Reed-Sternberg cells and is a WHO diagnostic criterion for cHL; brentuximab vedotin (anti-CD30 ADC) + AVD is the frontline standard for advanced-stage cHL (ECHELON-1: 6-year OS 93.9% vs 89.4% vs ABVD); CD30 IHC guides brentuximab prescribing."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "RS cells are GC B-cell-derived (clonal IgV rearrangements with SHM) but have lost B-cell transcription program (PAX5 dim, OCT2−/BOB1−); CD30 transiently expressed on activated GC B cells and upregulated ~100-fold in RS cells via constitutive NF-κB and 9p24.1 amplification."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Reed-Sternberg cells originate from GC B cells that failed positive selection; CD30 upregulation is driven by NF-κB (constitutive via CD30/CD40/LMP1), EBV-LMP1, and 9p24.1 copy gain; EBV+ RS cells derive from GC centroblasts expressing Latency IIb."
 ---
 
 # CD30
@@ -139,6 +148,13 @@ ALCANZA trial (CD30+ MF/pALCL): brentuximab vs physician's choice (MTX or bexaro
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — CD30 and PD-L1/PD-L2 are co-amplified at 9p24.1 in RS cells → dual immune evasion; brentuximab + nivolumab combination active in R/R cHL (ORR ~82%); PD-1 checkpoint inhibition complements CD30 targeting in cHL.
 - `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — CD30 is co-expressed with NPM1-ALK in ALK+ ALCL (CD30 nearly 100% in ALCL); brentuximab vedotin (anti-CD30) and ALK inhibitors (crizotinib) are both active in ALCL; combined CD30+ALK targeting in ALK+ ALCL is synergistic preclinically; A+CHP is standard for CD30+ PTCL.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — CD30 belongs to the TNFRSF alongside CD40, RANK, and TNFR1/2; CD30 signaling overlaps with TNFR2 via TRAF2 recruitment; TNF-α drives inflammation in the RS microenvironment; eosinophils and mast cells express CD30L → paracrine RS cell activation.
+- `connects-to` → **[Hodgkin Lymphoma](../../07-system/hodgkin-lymphoma/README.md)** — CD30 is universally expressed on Reed-Sternberg cells and is a WHO diagnostic criterion for cHL; brentuximab vedotin (anti-CD30 ADC) + AVD is the frontline standard for advanced-stage cHL (ECHELON-1: 6-year OS 93.9% vs 89.4% vs ABVD); CD30 IHC guides brentuximab prescribing.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — RS cells are GC B-cell-derived (clonal IgV rearrangements with SHM) but have lost B-cell transcription program (PAX5 dim, OCT2−/BOB1−); CD30 transiently expressed on activated GC B cells and upregulated ~100-fold in RS cells via constitutive NF-κB and 9p24.1 amplification.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Reed-Sternberg cells originate from GC B cells that failed positive selection; CD30 upregulation is driven by NF-κB (constitutive via CD30/CD40/LMP1), EBV-LMP1, and 9p24.1 copy gain; EBV+ RS cells derive from GC centroblasts expressing Latency IIb.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^pro-2012-bv-alcl]: Pro B, Advani R, Brice P, et al. Brentuximab vedotin (SGN-35) in patients with relapsed or refractory systemic anaplastic large-cell lymphoma: results of a phase II study. *J Clin Oncol.* 2012;30(18):2190-2196. [doi:10.1200/JCO.2011.38.0402](https://doi.org/10.1200/JCO.2011.38.0402) · [PubMed 22614995](https://pubmed.ncbi.nlm.nih.gov/22614995/)

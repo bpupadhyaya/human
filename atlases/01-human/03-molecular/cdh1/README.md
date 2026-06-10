@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC kinase phosphorylates E-cadherin at Tyr754/755 → β-catenin dissociation → endocytosis → CDH1 loss without mutation; SRC-mediated CDH1 loss is reversible, a non-genetic inactivation mechanism; SRC inhibitors restore E-cadherin surface localization."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Germline CDH1 truncating mutations cause HDGC with 70-80% lifetime risk (men); prophylactic total gastrectomy is recommended; all resected specimens show signet ring cell foci; CDH1 promoter methylation occurs in ~50% of sporadic diffuse gastric cancer."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "CDH1 loss occurs in ~90% of invasive lobular breast cancer (ILC), causing the discohesive Indian file pattern; CDH1 loss → PI3K-AKT activation; ILC is ER+ in >90%; CDK4/6 inhibitors, fulvestrant, and alpelisib (PIK3CA-mutant) are key; ILC is less chemo-sensitive than IDC."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "MET receptor binds the CDH1 cytoplasmic domain; HGF/MET activation phosphorylates CDH1 → β-catenin dissociation → CDH1 loss and EMT; MET amplification co-occurs with CDH1 loss in gastric cancer; MET inhibitors (savolitinib) restore epithelial phenotype in MET-driven tumors."
 ---
 
 # CDH1
@@ -129,6 +138,13 @@ CDH1 loss is an early step in the local invasion of carcinoma. At the invasive f
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives EMT via SMAD2/3 → SNAIL/SLUG/ZEB1 transcription → CDH1 promoter repression → E-cadherin loss; CDH1 loss is a hallmark and functional readout of TGF-β-driven EMT; CDH1 promoter methylation cooperates with TGF-β pathway in diffuse-type gastric cancer and lobular breast cancer.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations co-occur with CDH1 loss in advanced diffuse gastric cancer and invasive lobular breast cancer; p53-pathway inactivation allows cells with CDH1 loss to survive anoikis; germline CDH1 carriers show focal TP53 staining in signet ring cell foci indicating somatic TP53 mutations acquired during HDGC progression.
 - `connects-to` → **[SRC kinase](../../03-molecular/src-kinase/README.md)** — SRC kinase phosphorylates E-cadherin at Tyr754/Tyr755 → β-catenin dissociation → cadherin endocytosis → functional CDH1 loss without mutation; SRC-mediated CDH1 phosphorylation is reversible and represents a non-genetic mechanism of E-cadherin inactivation in tumor invasion; Src inhibitors restore E-cadherin surface localization.
+- `connects-to` → **[Gastric Cancer](../../07-system/gastric-cancer/README.md)** — germline CDH1 truncating mutations cause HDGC with 70-80% lifetime risk (men); prophylactic total gastrectomy is recommended; all resected specimens show signet ring cell foci; CDH1 promoter methylation occurs in ~50% of sporadic diffuse gastric cancer.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — CDH1 loss occurs in ~90% of invasive lobular breast cancer (ILC), causing the discohesive Indian file pattern; CDH1 loss → PI3K-AKT activation; ILC is ER+ in >90%; CDK4/6 inhibitors, fulvestrant, and alpelisib (PIK3CA-mutant) are key; ILC is less chemo-sensitive than IDC.
+- `connects-to` → **[MET](../met/README.md)** — MET receptor binds the CDH1 cytoplasmic domain; HGF/MET activation phosphorylates CDH1 → β-catenin dissociation → CDH1 loss and EMT; MET amplification co-occurs with CDH1 loss in gastric cancer; MET inhibitors (savolitinib) restore epithelial phenotype in MET-driven tumors.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^van-der-post-2015-hdgc]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^christofori-1999-cadherin-switch]: Christofori G, Semb H. The role of the cell-adhesion molecule E-cadherin as a tumour-suppressor gene. *Trends Biochem Sci.* 1999;24(2):73-76. [doi:10.1016/S0968-0004(98)01343-7](https://doi.org/10.1016/S0968-0004(98)01343-7) · [PubMed 10098403](https://pubmed.ncbi.nlm.nih.gov/10098403/)
