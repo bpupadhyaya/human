@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "FH-deficient RCC: collecting duct-like histology; FH IHC loss + 2SC IHC positivity = diagnostic; often metastatic at diagnosis; bevacizumab + erlotinib standard (NCI Phase 2, ORR ~28-40%); checkpoint inhibitor + VEGF-TKI under investigation; separate from ccRCC (VHL-mutant)"
+  - target: 01-human/03-molecular/egln1
+    relation: connects-to
+    note: "Fumarate (FH-deficient tumors) competitively inhibits EGLN1/PHD2 → HIF-1α not hydroxylated → VHL cannot bind → pseudohypoxia; parallel to SDHB-deficient PPGL (succinate) and IDH-mutant tumors (2-HG); fumarate and succinate are classic oncometabolite EGLN1 product-inhibitors."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "IDH1 R132H produces D-2-hydroxyglutarate (2-HG), structurally analogous to α-KG; both 2-HG (IDH1/2) and fumarate (FH LOF) competitively inhibit TET2, KDMs, and PHDs → CIMP methylation + HIF activation; IDH inhibitors (ivosidenib) analogous to FH-pathway-targeted therapy concept."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Cytosolic FH at DSBs produces fumarate → inhibits KDM2A → H3K36me2 → NHEJ; FH-deficient cells lack this → HR/NHEJ imbalance → PARP inhibitor sensitivity (olaparib); p53 is activated by replication stress in FH-deficient tumors and co-drives malignant progression in HLRCC."
 ---
 
 # FH
@@ -139,6 +148,13 @@ Cytosolic FH accumulates at DSBs → fumarate production at DSB → local KDM2A 
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — FH LOF → fumarate → PHD1/2/3 inhibition → HIF-1α not hydroxylated → VHL cannot bind → HIF-1α stabilized; FH-deficient RCC is pseudohypoxic; VEGF, GLUT1, PDK1 upregulated; anti-VEGF (bevacizumab) active; fumarate drives Warburg-like metabolism
 - `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — FH LOF → HIF-1α stabilization via PHD inhibition; analogous to VHL LOF which prevents HIF-1α ubiquitination; both FH-deficient and VHL-deficient RCC show pseudohypoxia; anti-VEGF therapies used in both; FH-deficient RCC is more aggressive than VHL-mutant ccRCC
 - `connects-to` → **[Renal Cell Carcinoma](../../07-system/renal-cell-carcinoma/README.md)** — FH-deficient RCC: collecting duct-like histology; FH IHC loss + 2SC IHC positivity = diagnostic; often metastatic at diagnosis; bevacizumab + erlotinib standard (NCI Phase 2, ORR ~28-40%); checkpoint inhibitor + VEGF-TKI under investigation; separate from ccRCC (VHL-mutant)
+- `connects-to` → **[EGLN1](../../03-molecular/egln1/README.md)** — Fumarate (FH-deficient tumors) competitively inhibits EGLN1/PHD2 → HIF-1α not hydroxylated → VHL cannot bind → pseudohypoxia; parallel to SDHB-deficient PPGL (succinate) and IDH-mutant tumors (2-HG); fumarate and succinate are classic oncometabolite EGLN1 product-inhibitors.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH1 R132H produces D-2-hydroxyglutarate (2-HG), structurally analogous to α-KG; both 2-HG (IDH1/2) and fumarate (FH LOF) competitively inhibit TET2, KDMs, and PHDs → CIMP methylation + HIF activation; IDH inhibitors (ivosidenib) analogous to FH-pathway-targeted therapy concept.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Cytosolic FH at DSBs produces fumarate → inhibits KDM2A → H3K36me2 → NHEJ; FH-deficient cells lack this → HR/NHEJ imbalance → PARP inhibitor sensitivity (olaparib); p53 is activated by replication stress in FH-deficient tumors and co-drives malignant progression in HLRCC.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

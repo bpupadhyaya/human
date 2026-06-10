@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/07-system/disseminated-intravascular-coagulation
     relation: connects-to
     note: "Fibrinogen is consumed in DIC by uncontrolled thrombin generation (sepsis, obstetric catastrophe, malignancy); fibrinogen <1.5 g/L in DIC is both diagnostic and a trigger for cryoprecipitate replacement; D-dimer from fibrin cross-links confirms active fibrinolysis in DIC."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 → gp130/JAK1 → STAT3 phosphorylation → binds FGA/FGB/FGG promoters → fibrinogen upregulated 3-5×; fibrinogen is a sensitive surrogate of IL-6-driven inflammation in sepsis, RA, and malignancy; IL-6 blockade (tocilizumab) reduces acute-phase fibrinogen."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Thrombin (factor IIa) cleaves fibrinopeptide A (Arg16-Gly17) then fibrinopeptide B from fibrinogen → exposes knobs A/B → fibrin polymerization → FXIIIa crosslinks → mechanically stable clot; thrombin is the central coagulation effector converting fibrinogen to fibrin."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 (pTyr705) binds FGA/FGB/FGG promoters in response to IL-6 → fibrinogen upregulated 3-5× in hepatocytes; STAT3 drives acute-phase fibrinogen in sepsis and cancer-associated coagulopathy; STAT3 inhibition reduces fibrinogen as a marker of anti-inflammatory efficacy."
 ---
 
 # Fibrinogen
@@ -131,6 +140,9 @@ Clot structural properties depend on polymerization kinetics:
 - `modulates` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — fibrin mesh is the definitive haemostatic scaffold; elevated fibrinogen drives CVD risk via thrombotic, rheological, and inflammatory mechanisms [^stryer-biochemistry]
 - `modulates` → **[platelet](../../04-cellular/platelet/README.md)** — fibrinogen/fibrin bridges adjacent platelets via αIIbβ3 (RGD on Aα and AGDV on γ-chain); platelet-fibrin scaffold forms the definitive haemostatic plug [^stryer-biochemistry]
 - `connects-to` → **[Disseminated Intravascular Coagulation](../../07-system/disseminated-intravascular-coagulation/README.md)** — Fibrinogen is consumed in DIC by uncontrolled thrombin generation (sepsis, obstetric catastrophe, malignancy); fibrinogen <1.5 g/L in DIC is diagnostic and triggers cryoprecipitate replacement; D-dimer from fibrin cross-links confirms active fibrinolysis in DIC.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 → gp130/JAK1 → STAT3 phosphorylation → binds FGA/FGB/FGG promoters → fibrinogen upregulated 3-5×; fibrinogen is a sensitive surrogate of IL-6-driven inflammation in sepsis, RA, and malignancy; IL-6 blockade (tocilizumab) reduces acute-phase fibrinogen.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Thrombin (factor IIa) cleaves fibrinopeptide A (Arg16-Gly17) then fibrinopeptide B from fibrinogen → exposes knobs A/B → fibrin polymerization → FXIIIa crosslinks → mechanically stable clot; thrombin is the central coagulation effector converting fibrinogen to fibrin.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 (pTyr705) binds FGA/FGB/FGG promoters in response to IL-6 → fibrinogen upregulated 3-5× in hepatocytes; STAT3 drives acute-phase fibrinogen in sepsis and cancer-associated coagulopathy; STAT3 inhibition reduces fibrinogen as a marker of anti-inflammatory efficacy.
 
 ## Pathology
 
@@ -144,14 +156,9 @@ Clot structural properties depend on polymerization kinetics:
 | **Elevated fibrinogen / CVD risk** | ↑Plasma fibrinogen → ↑viscosity, ↑thrombotic potential, ↑platelet reactivity; fibrinogen fragments activate leukocyte Mac-1 | Independent MI risk predictor; addressed via statins (modest fibrinogen reduction), lifestyle, treatment of inflammation |
 | **Hyperfibrinogenaemia in inflammation** | Acute-phase response → fibrinogen 3–5× → ↑ESR (classic marker); chronic elevation in RA, IBD, malignancy | Treat underlying inflammatory disease |
 
-## See Also
+---
 
-- [Hemoglobin](../hemoglobin/README.md) — another major blood protein; erythrocyte aggregation in high-fibrinogen states raises ESR
-- [IL-6](../il-6/README.md) — primary driver of fibrinogen upregulation during acute-phase response
-- [STAT3](../stat3/README.md) — transcription factor through which IL-6 activates fibrinogen gene expression in hepatocytes
-- [Cardiovascular system](../../07-system/cardiovascular-system/README.md) — organ system context for haemostasis and thrombosis
-- [Hepatic lobule](../../05-tissue/hepatic-lobule/README.md) — tissue context for hepatocyte fibrinogen synthesis
-- [ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md) — anticoagulation-adjacent therapies reducing CVD risk
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [Macmillan Learning](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^janeway-immunobiology]: Murphy K, Weaver C. *Janeway's Immunobiology.* 9th ed. Garland Science; 2017. [Garland Science](https://www.garlandscience.com/product/isbn/9780815345053)

@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Fibrinogen — coagulation factor I, thrombin cleavage, fibrin polymerisation, FXIIIa crosslinking, D-dimer, DIC, CVD risk. Part of the Human Engineering molecular atlas.">
-  <meta property="og:title" content="Fibrinogen — Molecular Atlas · Human Engineering">
+  <meta name="description" content="340 kDa plasma glycoprotein (hexamer [AαBβγ]₂); synthesised by hepatocytes at 2–4 g/L. Thrombin cleaves fibrinopeptides A and B → fibrin → crosslinked clot (FXI">
+  <meta property="og:title" content="Fibrinogen — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Fibrinogen — Molecular Atlas · Human Engineering</title>
+  <title>Fibrinogen — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #6b7280;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,44 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(107,114,128,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #6b7280, #374151); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .principle-box { background: rgba(107,114,128,0.06); border: 1px solid rgba(107,114,128,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -92,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -104,154 +119,64 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
     <h1>Fibrinogen</h1>
-    <p class="tagline">Coagulation factor I — the 340 kDa hepatocyte-derived hexameric glycoprotein that forms the structural scaffold of every blood clot: thrombin cleaves fibrinopeptides A and B to generate fibrin monomers, which polymerise into a mesh covalently crosslinked by factor XIIIa.</p>
-    <p class="subtagline">Normal plasma fibrinogen is 2–4 g/L; levels rise 3–5-fold during acute inflammation (positive acute-phase reactant). Elevated fibrinogen (&gt;3.5 g/L) is an independent cardiovascular risk factor. D-dimer — the &gamma;-&gamma; crosslinked fibrin fragment produced by plasmin — is the key diagnostic biomarker for active fibrinolysis and DVT/PE/DIC when elevated.</p>
+    <p class="tagline">340 kDa plasma glycoprotein (hexamer [AαBβγ]₂); synthesised by hepatocytes at 2–4 g/L. Thrombin cleaves fibrinopeptides A and B → fibrin → crosslinked clot (FXIIIa). Positive acute-phase reactant; elevated fibrinogen is an independent CVD risk factor.</p>
+    <p class="aliases">Also known as: factor I, fibrin, Fg, fibrin monomer, fibrin clot</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">340 kDa</span><span class="stat-label">Molecular weight</span></div>
-      <div class="stat"><span class="stat-num">2–4 g/L</span><span class="stat-label">Normal plasma level</span></div>
-      <div class="stat"><span class="stat-num">~4 days</span><span class="stat-label">Plasma half-life</span></div>
-      <div class="stat"><span class="stat-num">3 chains</span><span class="stat-label">A&alpha;, B&beta;, &gamma; (hexamer [A&alpha;B&beta;&gamma;]₂)</span></div>
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Plasma Protein / Coagulation Factor / Transport</div>
-        <h2>Fibrinogen (Factor I)</h2>
-        <div class="drug-class">Class: Plasma glycoprotein &nbsp;&middot;&nbsp; Coagulation factor &nbsp;&middot;&nbsp; Positive acute-phase reactant &nbsp;|&nbsp; Genes: FGA, FGB, FGG (chr 4q31) &nbsp;|&nbsp; Produced by: Hepatocytes</div>
-        <p class="summary">Fibrinogen is the soluble plasma glycoprotein that becomes insoluble fibrin at the final step of both coagulation pathways, forming the structural scaffold of haemostatic clots. Its trinodular hexameric architecture — two outer D-domains flanking a central E-domain — is the physical basis for fibrin polymerisation: thrombin exposes "knob A" (Asn–Gly, A&alpha; chain) and "knob B" (Gly–His, B&beta; chain) that fit into complementary "holes a and b" in adjacent fibrin molecules. Factor XIIIa (thrombin-activated transglutaminase) then introduces &gamma;-&gamma; and &alpha;-&alpha; isopeptide crosslinks that transform the initially weak polymeric gel into a mechanically robust clot resistant to fibrinolysis. Fibrinogen is also a positive acute-phase reactant (IL-6/STAT3-driven hepatic upregulation 3–5-fold in inflammation), explaining its role as an independent cardiovascular risk factor — elevated levels increase blood viscosity, platelet reactivity, and direct thrombotic potential.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">factor I</span>
-          <span class="alias-pill">fibrin</span>
-          <span class="alias-pill">D-dimer precursor</span>
-          <span class="alias-pill">A&alpha;B&beta;&gamma; hexamer</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">fibrinogen</div>
+        <h2>Fibrinogen</h2>
+        <p class="summary">340 kDa plasma glycoprotein (hexamer [AαBβγ]₂); synthesised by hepatocytes at 2–4 g/L. Thrombin cleaves fibrinopeptides A and B → fibrin → crosslinked clot (FXIIIa). Positive acute-phase reactant; elevated fibrinogen is an independent CVD risk factor.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Structure — Trinodular Hexamer</h3>
-          <p>Fibrinogen has a characteristic <strong>trinodular</strong> architecture visible by electron microscopy: two distal <strong>D-domains</strong> (outer nodules) connected by coiled-coil regions to a central <strong>E-domain</strong> (inner nodule) containing the N-termini of all 6 chains joined by a disulfide ring (the N-terminal disulfide knot, NDK). The fibrinopeptides A (FpA, 16 aa from A&alpha;) and B (FpB, 14 aa from B&beta;) are located in the E-domain and are removed by thrombin to initiate polymerisation.</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Chain</th><th>Gene</th><th>MW</th><th>Key structural/functional features</th></tr>
-            <tr><td>A&alpha;</td><td>FGA</td><td>~95 kDa</td><td>Fibrinopeptide A (residues 1–16) at N-terminus; RGD sequence for platelet &alpha;IIb&beta;3 (GPIIb/IIIa) binding; long C-terminal &alpha;C domain dimerises across molecules</td></tr>
-            <tr><td>B&beta;</td><td>FGB</td><td>~55 kDa</td><td>Fibrinopeptide B (residues 1–14) at N-terminus; cleaved second by thrombin (slower); &beta;C domain contains "hole b"</td></tr>
-            <tr><td>&gamma;</td><td>FGG</td><td>~47 kDa</td><td>C-terminal AGDV dodecapeptide binds platelet &alpha;IIb&beta;3; Lys406/Gln398-407 are FXIIIa crosslink sites (&gamma;-&gamma; dimer bonds); contains "hole a"</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>fibrinogen</td></tr>
+            <tr><td>Name</td><td>Fibrinogen</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Mechanism — Fibrin Clot Formation and Resolution</h3>
-          <div class="pathway-block">
-<pre>
-  COAGULATION CASCADE (intrinsic or extrinsic pathway)
-       │
-       ▼  THROMBIN (Factor IIa) activated
-       │
-  STEP 1: Thrombin cleaves FpA from Aα chain (Arg16–Gly17 bond)
-    → "Knob A" (Gly-Pro-Arg) exposed
-    → Knob A fits into "Hole a" in γC domain of adjacent fibrin molecule
-    → Rapid end-to-middle polymerisation → fibrin protofibrils
-       │  (D:E interactions; half-staggered double-stranded)
-       │
-  STEP 2: Thrombin cleaves FpB from Bβ chain (Arg14–Gly15) [slower]
-    → "Knob B" (Gly-His-Arg) exposed
-    → Knob B fits into "Hole b" in βC domain
-    → Lateral association of protofibrils → thicker fibres + branching
-    → FIBRIN GEL formed (mechanically weak, soluble in urea)
-       │
-  STEP 3: FACTOR XIIIa crosslinking (ESSENTIAL for clot stability)
-    Thrombin + Ca²⁺ activates Factor XIII → FXIIIa (transglutaminase)
-    FXIIIa catalyses:
-    γ-γ CROSSLINKS: Lys406(γ) + Gln398/399(γ') → isopeptide bond
-      → γ-γ dimer (fast, minutes; ↑mechanical strength)
-    α-α CROSSLINKS: Multiple Lys-Gln bonds across Aα chains
-      → high-MW α-polymer (slower, hours)
-    Also: FXIIIa crosslinks α₂-antiplasmin into clot → fibrinolysis resistance
-
-  FIBRINOLYSIS (clot resolution):
-    tPA (endothelium) or uPA → plasminogen → PLASMIN
-    Plasmin cleaves fibrin at Lys/Arg → FDPs (fibrin degradation products)
-    Key product: D-DIMER (γ-γ crosslinked D-D fragment)
-      → Specific for crosslinked fibrin (not fibrinogen) degradation
-      → Diagnostic marker for DVT/PE/DIC
-    Inhibitors: α₂-antiplasmin (rapid plasmin scavenger); PAI-1 (↑in obesity)
-</pre>
-          </div>
-          <h4>Acute-phase upregulation</h4>
-          <p>During systemic inflammation, IL-6 (the dominant inducer) → hepatocyte gp130/JAK1 → <strong>STAT3</strong> → binds STAT3-response elements in FGA, FGB, and FGG promoters → 3–5-fold increase in fibrinogen mRNA and protein within 12–24 hours. This drives elevated ESR (erythrocyte sedimentation rate — fibrinogen promotes rouleaux formation), increased blood viscosity, and increased thrombotic risk. CRP often rises simultaneously (another IL-6/STAT3-driven positive acute-phase protein) — making fibrinogen a complementary (not redundant) inflammatory biomarker.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Physiological Roles</h3>
-          <p><strong>Platelet scaffolding:</strong> Soluble fibrinogen bridges two activated platelets via &alpha;IIb&beta;3 (GPIIb/IIIa) integrin — RGD sequence on A&alpha; chain and AGDV dodecapeptide on the &gamma;-chain C-terminus. This is the molecular basis of platelet aggregation (the primary haemostatic plug), and the reason GPIIb/IIIa antagonists (abciximab, eptifibatide, tirofiban) are potent antithrombotic agents — they block fibrinogen bridging, not platelet activation per se.</p>
-          <p><strong>Cardiovascular risk marker:</strong> Elevated fibrinogen (&gt;3.5 g/L) is associated with increased risk of MI (independent of LDL-C, smoking — Northwick Park Heart Study), ischaemic stroke, and peripheral arterial disease. Mechanisms: pro-coagulant (fibrin clot formation), rheological (↑erythrocyte aggregation → ↑blood viscosity → ↑endothelial shear stress), and pro-inflammatory (fibrinogen fragments activate leukocytes via Mac-1/CR3 integrin).</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <table class="data-table">
-            <tr><th>Condition</th><th>Mechanism</th><th>Clinical features</th></tr>
-            <tr><td><strong>Afibrinogenaemia</strong></td><td>Autosomal recessive null mutations in FGA, FGB, or FGG → no fibrinogen synthesised</td><td>Severe bleeding from birth (umbilical cord, circumcision, haemarthroses); paradoxically also thrombosis (fibrinogen normally inhibits thrombin); treat with fibrinogen concentrate or FFP</td></tr>
-            <tr><td><strong>Hypofibrinogenaemia</strong></td><td>Heterozygous loss-of-function → fibrinogen &lt;1.5 g/L</td><td>Mild-moderate bleeding tendency; often asymptomatic; fibrinogen &lt;1 g/L → significant haemorrhagic risk; diagnose: Clauss fibrinogen assay (functional)</td></tr>
-            <tr><td><strong>Dysfibrinogenaemia</strong></td><td>&gt;700 structural variants described; structural changes impair polymerisation (→ bleeding) or fibrinolysis resistance (→ thrombosis)</td><td>Fibrinogen antigen normal but functional Clauss assay reduced; prolonged PT/APTT in some; diagnose by SPEP/immunofixation + functional assay discordance</td></tr>
-            <tr><td><strong>Disseminated intravascular coagulation (DIC)</strong></td><td>Systemic thrombin generation (sepsis, obstetric catastrophe, malignancy, major trauma) → fibrinogen consumption → ↓fibrinogen + ↑D-dimer + ↓platelets + ↑PT/APTT</td><td>Diffuse microvascular thrombosis + paradoxical haemorrhage; diagnose: ↓fibrinogen + ↑D-dimer + schistocytes; treat underlying cause; FFP + cryoprecipitate (&gt;10 g fibrinogen/pool) if fibrinogen &lt;1.5 g/L and bleeding</td></tr>
-            <tr><td><strong>DVT/PE</strong></td><td>Fibrin-rich "red thrombus" (Virchow triad: stasis + hypercoagulability + endothelial injury); D-dimer released by fibrinolysis of thrombus → ↑serum D-dimer</td><td>D-dimer has high sensitivity (92–96%) but low specificity for VTE; D-dimer &lt;500 ng/mL + low pre-test probability = rule out (Wells criteria); confirmed by compression USS or CTPA; treat with anticoagulation (DOACs, LMWH)</td></tr>
-            <tr><td><strong>Elevated fibrinogen / CVD risk</strong></td><td>Chronic inflammation + genetic variants (FGB -455G&gt;A promoter polymorphism → ↑fibrinogen) → ↑plasma fibrinogen → ↑viscosity, ↑thrombotic potential, ↑leukocyte Mac-1 activation</td><td>Independent MI and stroke risk predictor; modest reduction with statins (~10%), fibrate/niacin (&lt;15%); primary treatment is management of the underlying inflammatory condition</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pharmacology / Clinical Use</h3>
-          <p><strong>Fibrinogen concentrate (RiaSTAP, Haemocomplettan):</strong> Lyophilised human fibrinogen; target level &gt;1.5–2 g/L in active haemorrhage or before invasive procedures; preferred over cryoprecipitate in many European centres (pathogen-inactivated, standardised dose, no thawing needed). FLOSEAL and TISSEEL use fibrinogen + thrombin in topical haemostatic matrix for surgical haemostasis.</p>
-          <p><strong>Fibrinolysis monitoring — D-dimer:</strong> D-dimer is the gold-standard marker for active fibrinolysis. Critical clinical roles: (1) DVT/PE rule-out (&lt;500 ng/mL, age-adjusted cut-off &lt;10 × age in patients &gt;50 years); (2) DIC diagnosis (↑D-dimer + ↓fibrinogen + ↓platelets + schistocytes); (3) COVID-19 coagulopathy (markedly ↑D-dimer &gt;1,000 ng/mL predicts severe disease and need for anticoagulation); (4) aortic dissection (D-dimer &lt;500 ng/mL has ~95% NPV for Type A).</p>
-          <div class="principle-box">
-            <p><strong>D-dimer interpretation:</strong> D-dimer is highly sensitive but not specific — elevated in PE, DVT, DIC, pregnancy, surgery, trauma, inflammation, malignancy, atrial fibrillation, and with age. D-dimer should only be ordered in patients with <strong>low-to-intermediate pre-test probability</strong> (Wells criteria &le;4 for DVT, &le;6 for PE) — if pre-test probability is high, proceed directly to imaging. Age-adjusted cut-off (age &times; 10 ng/mL in patients &gt;50 years) reduces false-positives and unnecessary imaging by ~25%.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="#" class="conn-pill">
-              <span class="rel">Produced by</span>
-              Hepatocyte (FGA/FGB/FGG)
-            </a>
-            <a href="albumin.html" class="conn-pill">
-              <span class="rel">Inverse APR</span>
-              Albumin (negative APR vs. fibrinogen positive APR)
-            </a>
-            <a href="cardiovascular-system.html" class="conn-pill targets">
-              <span class="rel">CVD risk</span>
-              Cardiovascular System
-            </a>
-            <a href="#" class="conn-pill">
-              <span class="rel">Bridges</span>
-              Platelets via &alpha;IIb&beta;3 (RGD + AGDV)
-            </a>
-            <a href="#" class="conn-pill targets">
-              <span class="rel">Cleaved by</span>
-              Thrombin (FpA, FpB removal)
-            </a>
-            <a href="#" class="conn-pill">
-              <span class="rel">Crosslinked by</span>
-              Factor XIIIa (&gamma;-&gamma; isopeptide bonds)
-            </a>
+            <a class="conn-pill" href="hepatocyte.html" title="Fibrinogen hexamer (Aα/Bβ/γ chains) is synthesised exclusively by hepatocytes at ~2 g/day; upregulated 3–5× during the acute-phase response via IL-6/STAT3. Serum fibrinogen is a surrogate marker of hepatic synthetic function."><span class="rel">expresses</span>Hepatocyte</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Fibrinogen is the terminal coagulation cascade step (thrombin→fibrin + platelet binding via αIIbβ3); elevated fibrinogen is an independent CVD risk factor; fibrin clot density determines thrombotic vs haemorrhagic risk balance."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="platelet.html" title="Fibrinogen/fibrin bridges platelets via αIIbβ3 (GPIIb/IIIa) integrin — RGD on Aα chain + γ-chain C-terminal AGDV dodecapeptide; the platelet-fibrin scaffold forms the definitive haemostatic plug at sites of vascular injury."><span class="rel">modulates</span>Platelet</a>
+            <a class="conn-pill" href="disseminated-intravascular-coagulation.html" title="Fibrinogen is consumed in DIC by uncontrolled thrombin generation (sepsis, obstetric catastrophe, malignancy); fibrinogen &lt;1.5 g/L in DIC is both diagnostic and a trigger for cryoprecipitate replacement; D-dimer from fibrin cross-links confirms active fibrinolysis in DIC."><span class="rel">connects-to</span>Disseminated Intravascular Coagulation</a>
+            <a class="conn-pill" href="il-6.html" title="IL-6 → gp130/JAK1 → STAT3 phosphorylation → binds FGA/FGB/FGG promoters → fibrinogen upregulated 3-5×; fibrinogen is a sensitive surrogate of IL-6-driven inflammation in sepsis, RA, and malignancy; IL-6 blockade (tocilizumab) reduces acute-phase fibrinogen."><span class="rel">connects-to</span>Il 6</a>
+            <a class="conn-pill" href="thrombin.html" title="Thrombin (factor IIa) cleaves fibrinopeptide A (Arg16-Gly17) then fibrinopeptide B from fibrinogen → exposes knobs A/B → fibrin polymerization → FXIIIa crosslinks → mechanically stable clot; thrombin is the central coagulation effector converting fibrinogen to fibrin."><span class="rel">connects-to</span>Thrombin</a>
+            <a class="conn-pill" href="stat3.html" title="STAT3 (pTyr705) binds FGA/FGB/FGG promoters in response to IL-6 → fibrinogen upregulated 3-5× in hepatocytes; STAT3 drives acute-phase fibrinogen in sepsis and cancer-associated coagulopathy; STAT3 inhibition reduces fibrinogen as a marker of anti-inflammatory efficacy."><span class="rel">connects-to</span>Stat3</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019.</li>
-            <li>Murphy K, Weaver C. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2017.</li>
-            <li>Weisel JW, Litvinov RI. Fibrin formation, structure and properties. <em>Subcell Biochem.</em> 2017;82:405-456. <a href="https://doi.org/10.1007/978-3-319-49674-0_13">doi:10.1007/978-3-319-49674-0_13</a></li>
-            <li>Lowe GD, et al. (Northwick Park Heart Study II). Plasma fibrinogen and coronary heart disease. <em>Lancet.</em> 1988;1(8592):986-8. <a href="https://doi.org/10.1016/s0140-6736(88)90153-4">doi:10.1016/s0140-6736(88)90153-4</a></li>
-            <li>Toh CH, Hoots WK. The scoring system of the Scientific and Standardisation Committee on Disseminated Intravascular Coagulation of the ISTH. <em>J Thromb Haemost.</em> 2007;5(3):604-6. <a href="https://doi.org/10.1111/j.1538-7836.2007.02441.x">doi:10.1111/j.1538-7836.2007.02441.x</a></li>
+            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li><a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener noreferrer">Murphy K, Weaver C. Janeway's Immunobiology. 9th ed. Garland Science; 2017.</a></li>
           </ul>
         </div>
 
@@ -260,18 +185,14 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="albumin.html">Albumin</a>
-      <a href="hemoglobin.html">Hemoglobin</a>
-      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-    <p class="footer-meta" style="margin-top:0.5rem;">&copy; <span id="year"></span> Bhim Upadhyaya</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
