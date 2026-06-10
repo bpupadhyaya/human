@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/retinoblastoma
     relation: connects-to
     note: "E2F1 is released constitutively when RB1 is biallelically lost in retinoblastoma; unchecked E2F1 drives retinal progenitor proliferation → tumor mass; retinoblastoma cells have MYCN amplification and additional mutations that cooperate with E2F1 dysregulation."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cyclin D1-CDK4/6 phosphorylates Rb → E2F1 dissociates → S-phase transcription; cyclin D1 is the upstream activator of E2F1; CDK4/6 inhibitors restore Rb-E2F1 repression → G1 arrest in HR+ breast cancer and other cyclin D-driven tumors."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "RB1 biallelic deletion in ~70% of osteosarcoma → constitutive E2F1 release → unchecked S-phase in osteoprogenitors; E2F1 drives DHFR/thymidylate synthase → methotrexate sensitivity; TP53 LOF co-occurs with RB1 loss in high-grade osteosarcoma, removing both cell cycle checkpoints."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "E2F1 is overexpressed in ER-/triple-negative breast cancer; CDK4/6-CyclinD1 → Rb phosphorylation → E2F1 release is primary growth mechanism in ER+ breast cancer; CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) restore Rb-E2F1 repression → FDA-approved for HR+/HER2- mBC."
 ---
 
 # E2F1
@@ -131,6 +140,13 @@ Palbociclib/ribociclib/abemaciclib block CDK4/6 → maintain Rb in hypophosphory
 - `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — p21 inhibits CDK2-CyclinE and CDK4/6-CyclinD → Rb remains hypophosphorylated → E2F1-Rb complex stable → S-phase gene repression maintained; p21-Rb-E2F1 axis links p53 DNA damage checkpoint to cell cycle arrest; E2F1 overexpression overrides p21-induced Rb-mediated repression.
 - `connects-to` → **[Myc](../../03-molecular/myc/README.md)** — E2F1 and Myc cooperate at overlapping S-phase gene promoters (CCNE1, CDC6, ORC1); Myc directly transcribes E2F1; E2F1 reciprocally activates Myc; both E2F1 and Myc also activate ARF/p14 as a failsafe → p53 → apoptosis; overexpression of either can initiate tumorigenesis.
 - `connects-to` → **[Retinoblastoma](../../07-system/retinoblastoma/README.md)** — E2F1 is released constitutively when RB1 is biallelically lost in retinoblastoma; unchecked E2F1 drives retinal progenitor proliferation → tumor mass; retinoblastoma cells have MYCN amplification and additional mutations that cooperate with E2F1 dysregulation.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cyclin D1-CDK4/6 phosphorylates Rb → E2F1 dissociates → S-phase transcription; cyclin D1 is the upstream activator of E2F1; CDK4/6 inhibitors restore Rb-E2F1 repression → G1 arrest in HR+ breast cancer and other cyclin D-driven tumors.
+- `connects-to` → **[Osteosarcoma](../../07-system/osteosarcoma/README.md)** — RB1 biallelic deletion in ~70% of osteosarcoma → constitutive E2F1 release → unchecked S-phase in osteoprogenitors; E2F1 drives DHFR/thymidylate synthase → methotrexate sensitivity; TP53 LOF co-occurs with RB1 loss in high-grade osteosarcoma, removing both cell cycle checkpoints.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — E2F1 is overexpressed in ER-/triple-negative breast cancer; CDK4/6-CyclinD1 → Rb phosphorylation → E2F1 release is primary growth mechanism in ER+ breast cancer; CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) restore Rb-E2F1 repression → FDA-approved for HR+/HER2- mBC.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^helin-1992-e2f1]: Helin K, Lees JA, Vidal M, Dyson N, Harlow E, Fattaey A. A cDNA encoding a pRB-binding protein with properties of the transcription factor E2F. *Cell.* 1992;70(2):337-350. [doi:10.1016/0092-8674(92)90107-n](https://doi.org/10.1016/0092-8674(92)90107-n) · [PubMed 1638634](https://pubmed.ncbi.nlm.nih.gov/1638634/)
 [^deleo-2020-e2f1-review]: DeGregori J, Johnson DG. Distinct and Overlapping Roles for E2F Family Members in Transcription, Proliferation and Apoptosis. *Curr Mol Med.* 2006;6(7):739-748. [doi:10.2174/156652406778195227](https://doi.org/10.2174/156652406778195227) · [PubMed 17100600](https://pubmed.ncbi.nlm.nih.gov/17100600/)

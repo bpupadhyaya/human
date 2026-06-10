@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β and EGFR signaling cooperate in EMT: EGFR activation promotes SNAIL/TWIST expression; TGF-β drives SMAD-dependent E-cadherin repression; combined EGFR + TGF-β signaling drives mesenchymal transition and invasiveness in NSCLC and HNSCC particularly after EGFR TKI resistance."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "EGFR is the most targetable driver in NSCLC (~20% of non-squamous); osimertinib is standard 1st-line for L858R/exon19del (FLAURA: OS 38.6 vs 31.8 months vs comparator TKI); T790M resistance → osimertinib; C797S → amivantamab; exon 20 insertion → amivantamab+chemo (PAPILLON)."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Cetuximab/panitumumab (anti-EGFR mAbs) benefit only RAS-WT CRC (~50%); KRAS/NRAS mutations bypass EGFR → anti-EGFR mAbs futile; EGFR amplification occurs in ~5% of CRC; addition of cetuximab to FOLFOX improves PFS in 1st-line RAS-WT mCRC (CRYSTAL: ORR 57% vs 40%)."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "EGFR (ErbB1) and HER2 (ErbB2) are ErbB family RTKs that form heterodimers → amplified signaling; co-overexpression in HNSCC, NSCLC, gastric; pertuzumab disrupts HER2-EGFR heterodimerization; EGFR/HER2 cross-talk drives primary resistance to single-agent EGFR TKIs in NSCLC."
 ---
 
 # EGFR
@@ -156,6 +165,13 @@ EGFRvIII (deletion of exons 2-7 → 267 aa in-frame deletion) is found exclusive
 - `connects-to` → **[mTOR](../mtor/README.md)** — EGFR activates PI3K→Akt→mTORC1; mTOR-driven anabolism supports EGFR-mutant tumor survival; combined EGFR + mTOR inhibition overcomes PI3K reactivation resistance in EGFR-mutant NSCLC.
 - `connects-to` → **[STAT3](../stat3/README.md)** — EGFR directly activates STAT3 and via JAK2; nuclear STAT3 drives PD-L1, survivin, and BCL-XL — key survival genes in EGFR-mutant tumors; STAT3 activation is an alternative pathway in TKI resistance.
 - `connects-to` → **[TGF-β](../tgf-beta/README.md)** — TGF-β and EGFR cooperate in epithelial-mesenchymal transition; combined signaling drives invasiveness in NSCLC and HNSCC; TGF-β-driven EMT is a key mechanism of acquired EGFR TKI resistance.
+- `connects-to` → **[NSCLC](../../07-system/nsclc/README.md)** — EGFR is the most targetable driver in NSCLC (~20% of non-squamous); osimertinib is standard 1st-line for L858R/exon19del (FLAURA: OS 38.6 vs 31.8 months vs comparator TKI); T790M resistance → osimertinib; C797S → amivantamab; exon 20 insertion → amivantamab+chemo (PAPILLON).
+- `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — Cetuximab/panitumumab (anti-EGFR mAbs) benefit only RAS-WT CRC (~50%); KRAS/NRAS mutations bypass EGFR → anti-EGFR mAbs futile; EGFR amplification occurs in ~5% of CRC; addition of cetuximab to FOLFOX improves PFS in 1st-line RAS-WT mCRC (CRYSTAL: ORR 57% vs 40%).
+- `connects-to` → **[HER2](../her2/README.md)** — EGFR (ErbB1) and HER2 (ErbB2) are ErbB family RTKs that form heterodimers → amplified signaling; co-overexpression in HNSCC, NSCLC, gastric; pertuzumab disrupts HER2-EGFR heterodimerization; EGFR/HER2 cross-talk drives primary resistance to single-agent EGFR TKIs in NSCLC.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^yarden-2001-erbb]: Yarden Y, Sliwkowski MX. Untangling the ErbB signalling network. *Nat Rev Mol Cell Biol.* 2001;2(2):127-137. [doi:10.1038/35052073](https://doi.org/10.1038/35052073) · [PubMed 11252954](https://pubmed.ncbi.nlm.nih.gov/11252954/)
 [^lynch-2004-egfr-mutation]: Lynch TJ, Bell DW, Sordella R, et al. Activating mutations in the epidermal growth factor receptor underlying responsiveness of non-small-cell lung cancer to gefitinib. *N Engl J Med.* 2004;350(21):2129-2139. [doi:10.1056/NEJMoa040938](https://doi.org/10.1056/NEJMoa040938) · [PubMed 15118073](https://pubmed.ncbi.nlm.nih.gov/15118073/)
