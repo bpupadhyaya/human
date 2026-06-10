@@ -39,6 +39,9 @@ cross_links:
   - target: 01-human/07-system/ahus
     relation: connects-to
     note: "Uncontrolled alternative complement in aHUS (CFH/CFI mutations) generates C5 convertase → C5a (inflammatory) + MAC (endothelial injury → TMA); eculizumab/ravulizumab (anti-C5) are standard of care for aHUS; meningococcal prophylaxis mandatory with C5 blockade."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "In AMAN, anti-GM1/GD1a IgG binds gangliosides at nodes of Ranvier → C1q → C3d → C5b-9 (MAC) → axolemmal disruption; C5b-9 deposition marks AMAN histopathology; eculizumab (anti-C5) is under investigation for severe GBS to prevent complement-driven axonal injury."
 sources:
   - id: hillmen-2004-eculizumab-pnh
     type: peer-reviewed
@@ -149,7 +152,12 @@ C5 links innate complement to adaptive immunity: C5a (C5aR1/C5aR2) → neutrophi
 - `connects-to` → **[Beta-2 Glycoprotein I](../beta2-glycoprotein-1/README.md)** — Anti-B2GPI → complement activation (C3b deposition → C5a → neutrophil/platelet activation → thrombus amplification); eculizumab (anti-C5; FDA-approved for other indications) is used off-label for catastrophic APS (CAPS) refractory to anticoagulation and plasma exchange.
 - `connects-to` → **[Antiphospholipid Syndrome](../../07-system/antiphospholipid-syndrome/README.md)** — Complement activation is central to APS thrombosis: anti-B2GPI → C3b → C5a → neutrophil/platelet priming and TF expression; C5 inhibition (eculizumab) is used off-label for catastrophic APS (CAPS; ~37% mortality) refractory to anticoagulation and plasmapheresis.
 - `connects-to` → **[Atypical HUS](../../07-system/ahus/README.md)** — Uncontrolled alternative complement in aHUS (CFH/CFI mutations) generates C5 convertase → C5a (inflammatory) + MAC (endothelial injury → TMA); eculizumab/ravulizumab (anti-C5) are standard of care for aHUS; meningococcal prophylaxis mandatory with C5 blockade.
+- `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — In AMAN, anti-GM1/GD1a IgG binds gangliosides at nodes of Ranvier → C1q → C3d → C5b-9 (MAC) → axolemmal disruption; C5b-9 deposition marks AMAN histopathology; eculizumab (anti-C5) is under investigation for severe GBS to prevent complement-driven axonal injury.
 
 [^hillmen-2004-eculizumab-pnh]: Hillmen P, Hall C, Marsh JC, et al. Effect of eculizumab on hemolysis and transfusion requirements in patients with paroxysmal nocturnal hemoglobinuria. *N Engl J Med.* 2004;350(6):552-559. [doi:10.1056/NEJMoa031688](https://doi.org/10.1056/NEJMoa031688) · [PubMed 14762182](https://pubmed.ncbi.nlm.nih.gov/14762182/)
 [^brodsky-2008-eculizumab-triumph]: Brodsky RA, Young NS, Antonioli E, et al. Multicenter phase 3 study of the complement inhibitor eculizumab for the treatment of patients with paroxysmal nocturnal hemoglobinuria. *Blood.* 2008;111(4):1840-1847. [doi:10.1182/blood-2007-06-094136](https://doi.org/10.1182/blood-2007-06-094136) · [PubMed 18055865](https://pubmed.ncbi.nlm.nih.gov/18055865/)
 [^lee-2019-ravulizumab-pnh]: Lee JW, Sicre de Fontbrune F, Wong Lee Lee L, et al. Ravulizumab (ALXN1210) vs eculizumab in adult patients with PNH naive to complement inhibitors. *Blood.* 2019;133(6):530-539. [doi:10.1182/blood-2018-09-876136](https://doi.org/10.1182/blood-2018-09-876136) · [PubMed 30510080](https://pubmed.ncbi.nlm.nih.gov/30510080/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

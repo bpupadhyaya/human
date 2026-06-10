@@ -85,6 +85,9 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "SARS-CoV-2 activates contact activation; bradykinin hypothesis proposes FXII/kallikrein → bradykinin excess in COVID-19 vascular disease; low ACE2 → reduced bradykinin degradation → vascular permeability; C1-INH concentrate explored for COVID-19 vascular complications and ARDS."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "SARS-CoV-2 is a GBS trigger; reports of GBS following COVID-19 infection and adenoviral-vector vaccines (ChAdOx1, Ad26.COV2.S); proposed mechanism: molecular mimicry between spike protein glycan epitopes and gangliosides; SARS-CoV-2 GBS cases tend toward AIDP subtype."
 ---
 
 # SARS-CoV-2 (cardiac effects)
@@ -165,6 +168,7 @@ Long COVID cardiac symptoms (palpitations, orthostatic tachycardia, dyspnea on e
 - **Damages** → [Myocardium](../../../01-human/05-tissue/myocardium/README.md): Lymphocytic myocarditis, macrophage infiltration, microvascular injury, edema, late gadolinium enhancement on CMR.
 - **Damages** → [Cardiovascular System](../../../01-human/07-system/cardiovascular-system/README.md): Systemic endotheliopathy, coagulopathy, pulmonary hypertension, acute MI, atrial fibrillation, right heart failure.
 - `connects-to` → **[C1-Esterase Inhibitor](../../../01-human/03-molecular/c1-esterase-inhibitor/README.md)** — SARS-CoV-2 activates contact activation; bradykinin hypothesis proposes FXII/kallikrein → bradykinin excess in COVID-19 vascular disease; low ACE2 → reduced bradykinin degradation → vascular permeability; C1-INH concentrate explored for COVID-19 vascular complications and ARDS.
+- `connects-to` → **[Guillain-Barré Syndrome](../../../01-human/05-tissue/guillain-barre/README.md)** — SARS-CoV-2 is a GBS trigger; reports of GBS following COVID-19 infection and adenoviral-vector vaccines (ChAdOx1, Ad26.COV2.S); proposed mechanism: molecular mimicry between spike protein glycan epitopes and gangliosides; SARS-CoV-2 GBS cases tend toward AIDP subtype.
 
 ## See Also
 

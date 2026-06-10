@@ -3,81 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Guillain-Barré Syndrome (GBS) — acute immune-mediated polyradiculoneuropathy; subtypes AIDP/AMAN/AMSAN/MFS; molecular mimicry and ganglioside antibodies; IVIG and plasma exchange treatment; prognosis. Human Engineering Atlas L05 Clinical.">
+  <meta name="description" content="Acute immune-mediated polyradiculoneuropathy; leading cause of acute flaccid paralysis globally. AIDP: T-cell/antibody attack on peripheral myelin. Axonal subty">
   <meta property="og:title" content="Guillain-Barré Syndrome — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Guillain-Barré Syndrome — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-elev:#ffffff;--bg-soft:#e5e5ea;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:#d1d1d6;--border-soft:#e5e5ea;--bio:#059669;--eng:#2563eb;--ai:#7c3aed;--human:#d97706;--accent:#0071e3;--accent-soft:rgba(0,113,227,0.10);--radius-sm:10px;--radius:18px;--radius-lg:24px;--maxw:1120px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;-webkit-font-smoothing:antialiased}
-    a{color:var(--bio);text-decoration:none;transition:color .15s}
-    a:hover{color:var(--human)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(242,242,247,0.85);border-bottom:1px solid var(--border-soft)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:0.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
-    .brand{display:flex;align-items:center;gap:0.6rem;font-weight:700;font-size:0.98rem;letter-spacing:-0.01em;color:var(--fg)}
-    .brand-mark{width:26px;height:26px;border-radius:7px;background:conic-gradient(from 140deg,var(--bio),var(--eng),var(--ai),var(--human),var(--bio));box-shadow:0 0 0 1px rgba(0,0,0,0.08),0 4px 16px rgba(5,150,105,0.2)}
-    .nav-links{display:flex;align-items:center;gap:1.3rem;font-size:0.92rem}
-    .nav-links a{color:var(--muted);font-weight:500}
-    .nav-links a:hover{color:var(--fg)}
-    .nav-back{display:inline-flex;align-items:center;gap:0.4rem;color:var(--muted)}
-    .nav-back svg{width:14px;height:14px}
-    @media(max-width:760px){.nav-links a:not(.nav-back){display:none}}
-    .hero{max-width:var(--maxw);margin:0 auto;padding:4rem 1.5rem 2.5rem;background:linear-gradient(135deg,#eff6ff 0%,#ffffff 60%)}
-    .hero-eyebrow{display:inline-flex;align-items:center;padding:0.4rem 0.9rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1.5rem}
-    .hero h1{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800;letter-spacing:-0.03em;color:var(--fg);line-height:1.06;margin-bottom:1.1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero .tagline{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--fg-soft);max-width:720px;font-weight:500;margin-bottom:0.75rem}
-    .hero .subtagline{font-size:0.98rem;color:var(--muted);max-width:720px}
-    .meta-strip{display:flex;gap:0;flex-wrap:wrap;margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--border-soft);font-size:0.82rem;color:var(--muted)}
-    .meta-item{padding:0.3rem 0.9rem 0.3rem 0;display:flex;flex-direction:column;gap:0.1rem}
-    .meta-item:not(:last-child){border-right:1px solid var(--border-soft);margin-right:0.9rem}
-    .meta-label{font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted-2)}
-    .meta-val{font-weight:600;color:var(--fg);font-size:0.86rem}
-    main{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 2rem}
-    .detail-card{background:var(--bg-elev);border:1px solid var(--border-soft);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.5rem;box-shadow:0 4px 14px rgba(0,0,0,0.04)}
-    .detail-header{padding:2rem 2rem 1.75rem;background:linear-gradient(135deg,#0071e3,#004fa3)}
-    .detail-header .entry-eyebrow{font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:0.5rem}
-    .detail-header h2{font-size:clamp(1.8rem,3vw,2.5rem);font-weight:800;color:white;letter-spacing:-0.03em;margin-bottom:0.65rem}
-    .detail-header .summary{font-size:0.98rem;color:rgba(255,255,255,0.88);line-height:1.65;max-width:780px}
-    .detail-body{padding:2rem;display:flex;flex-direction:column;gap:2rem}
-    .detail-section h3{font-size:0.76rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.8rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border-soft)}
-    .detail-section p{color:var(--fg-soft);font-size:0.95rem;line-height:1.65;margin-bottom:0.6rem}
-    .detail-section p:last-child{margin-bottom:0}
-    .detail-section strong{color:var(--fg)}
-    .data-table{width:100%;border-collapse:collapse;font-size:0.87rem;margin-top:0.5rem}
-    .data-table th{text-align:left;padding:0.5rem 0.65rem;background:var(--bg);font-weight:600;font-size:0.74rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted)}
-    .data-table td{padding:0.5rem 0.65rem;border-top:1px solid var(--border-soft);color:var(--fg-soft);vertical-align:top;line-height:1.5}
-    .data-table td:first-child{font-weight:600;color:var(--fg)}
-    .data-table td strong{color:var(--fg);font-weight:700}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:0.85rem 1.1rem;margin:0.5rem 0;font-size:0.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .step-block{background:var(--bg);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:0.85rem 1.1rem;margin:0.5rem 0}
-    .step-block ol{list-style:decimal;padding-left:1.25rem;display:flex;flex-direction:column;gap:0.4rem}
-    .step-block li{font-size:0.88rem;color:var(--fg-soft);line-height:1.6}
-    .step-block li strong{color:var(--fg)}
-    .pathology-item{padding:0.85rem 1rem;background:var(--bg);border-radius:var(--radius-sm);border-left:3px solid var(--border);margin-bottom:0.5rem}
-    .pathology-item:last-child{margin-bottom:0}
-    .pathology-item h4{font-size:0.88rem;font-weight:700;color:var(--fg);margin-bottom:0.2rem}
-    .pathology-item p{font-size:0.84rem;color:var(--muted);line-height:1.5}
-    .pathology-item.danger{border-left-color:#dc2626}
-    .pathology-item.warn{border-left-color:var(--human)}
-    .pathology-item.info{border-left-color:var(--accent)}
-    .connections{display:flex;flex-wrap:wrap;gap:0.6rem}
-    .conn-pill{display:inline-flex;align-items:center;gap:0.4rem;padding:0.4rem 0.85rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.82rem;color:var(--fg-soft);transition:all .15s}
-    .conn-pill:hover{background:var(--bg-soft);color:var(--fg)}
-    .conn-pill .rel{font-weight:700;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--accent);margin-right:0.1rem}
-    .refs{list-style:none;display:flex;flex-direction:column;gap:0.5rem}
-    .refs li{font-size:0.82rem;color:var(--muted);line-height:1.55;padding-left:1.1rem;position:relative}
-    .refs li::before{content:'↗';position:absolute;left:0;color:var(--accent);font-size:0.75rem;top:0.05rem}
-    .refs li a{color:var(--accent)}
-    footer{margin-top:4rem;padding:2.5rem 1.5rem 2rem;border-top:1px solid var(--border-soft);text-align:center}
-    .footer-tag{font-size:0.95rem;color:var(--muted);max-width:620px;margin:0 auto 1rem}
-    .footer-links{display:flex;gap:1.25rem;justify-content:center;flex-wrap:wrap;font-size:0.88rem;margin-bottom:1rem}
-    .footer-links a{color:var(--muted)}
-    .footer-links a:hover{color:var(--bio)}
-    .footer-meta{font-size:0.8rem;color:var(--muted-2)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
@@ -89,9 +107,9 @@
         Human Engineering
       </a>
       <div class="nav-links">
-        <a href="peripheral-nerve.html">Peripheral Nerve</a>
-        <a href="antibody.html">Antibody</a>
-        <a href="neuromuscular-junction.html">NMJ</a>
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -101,293 +119,62 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas &middot; Human &middot; L05 Clinical &middot; Immune-Mediated Neuropathy</div>
-    <h1>Guillain-Barr&eacute; <span>Syndrome</span></h1>
-    <p class="tagline">Guillain-Barr&eacute; syndrome (GBS) is an acute immune-mediated polyradiculoneuropathy and the most common cause of acute flaccid paralysis in the post-polio era, affecting 1&ndash;2 per 100,000 people annually worldwide across all age groups.</p>
-    <p class="subtagline">GBS is triggered in most cases by molecular mimicry — a prior infection (most commonly <em>Campylobacter jejuni</em>) generates cross-reactive antibodies against ganglioside epitopes shared between the pathogen and peripheral nerve axons or myelin, causing rapidly progressive ascending weakness, areflexia, and in 20&ndash;30% of patients, respiratory failure requiring mechanical ventilation.</p>
-    <div class="meta-strip">
-      <div class="meta-item"><span class="meta-label">Scale</span><span class="meta-val">L05 Clinical</span></div>
-      <div class="meta-item"><span class="meta-label">System</span><span class="meta-val">Peripheral Nervous System</span></div>
-      <div class="meta-item"><span class="meta-label">Incidence</span><span class="meta-val">1&ndash;2 per 100,000/year</span></div>
-      <div class="meta-item"><span class="meta-label">Peak treatment</span><span class="meta-val">IVIG 2 g/kg or plasma exchange</span></div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
+    <h1>Guillain-Barré Syndrome</h1>
+    <p class="tagline">Acute immune-mediated polyradiculoneuropathy; leading cause of acute flaccid paralysis globally. AIDP: T-cell/antibody attack on peripheral myelin. Axonal subtypes (AMAN): anti-ganglioside antibodies post-Campylobacter. Treatment: IVIg or plasmapheresis.</p>
+    <p class="aliases">Also known as: GBS, Guillain-Barré syndrome, AIDP, AMAN, acute inflammatory demyelinating polyneuropathy</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas &middot; L05 Clinical &middot; Autoimmune Neuropathy</div>
-        <h2>Guillain-Barr&eacute; Syndrome</h2>
-        <p class="summary">GBS is an acute autoimmune polyradiculoneuropathy in which molecular mimicry to infectious antigens (most often <em>C. jejuni</em> lipooligosaccharide) generates IgG antibodies against gangliosides (GM1, GD1a, GQ1b) that attack peripheral nerve components at nodes of Ranvier. AIDP (demyelinating) dominates in Western populations; AMAN (pure axonal, anti-GM1/GD1a) predominates in Asia. Treatment: IVIG 2 g/kg over 5 days or plasma exchange (4&ndash;6 sessions), equivalent in efficacy; no role for steroids. Outcome: 80% walk independently by 6 months; 5% mortality; 10% permanent disability.</p>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">guillain-barre</div>
+        <h2>Guillain-Barré Syndrome</h2>
+        <p class="summary">Acute immune-mediated polyradiculoneuropathy; leading cause of acute flaccid paralysis globally. AIDP: T-cell/antibody attack on peripheral myelin. Axonal subtypes (AMAN): anti-ganglioside antibodies post-Campylobacter. Treatment: IVIg or plasmapheresis.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Epidemiology and Antecedent Infections</h3>
-          <p>GBS has a global incidence of <strong>1&ndash;2 cases per 100,000 person-years</strong>, with a slight male preponderance (male-to-female ratio ~1.5:1) and a bimodal age distribution (peaks in young adulthood and in the elderly). It is the most common cause of acute flaccid paralysis since the near-eradication of poliomyelitis, with ~100,000 new cases annually worldwide. Approximately <strong>two-thirds of patients</strong> have a documented antecedent infection in the 4&ndash;6 weeks preceding neurological symptoms:</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Antecedent pathogen</th><th>Estimated frequency</th><th>Associated GBS subtype and antibody</th></tr>
-            <tr>
-              <td><strong><em>Campylobacter jejuni</em></strong></td>
-              <td>~30% of all GBS</td>
-              <td>AMAN and AIDP; anti-GM1, anti-GD1a IgG/IgA; <em>C. jejuni</em> lipooligosaccharide (LOS) O-antigen has terminal ganglioside-like structures (GM1 in HS:19 strains, GD1a in HS:41); strongest known antecedent-outcome correlation</td>
-            </tr>
-            <tr>
-              <td><strong>Cytomegalovirus (CMV)</strong></td>
-              <td>~10&ndash;15%</td>
-              <td>AIDP; anti-GM2 IgM; often severe sensory involvement; younger patients</td>
-            </tr>
-            <tr>
-              <td><strong>Epstein-Barr virus (EBV)</strong></td>
-              <td>~5&ndash;10%</td>
-              <td>AIDP; no specific ganglioside antibody identified consistently</td>
-            </tr>
-            <tr>
-              <td><strong>SARS-CoV-2</strong></td>
-              <td>Emerging; estimated 1&ndash;3/10,000 COVID-19 hospitalisations</td>
-              <td>Predominantly AIDP; cranial nerve variants reported; temporal association with both infection and vaccination; causality under continued study</td>
-            </tr>
-            <tr>
-              <td><strong>Zika virus</strong></td>
-              <td>High during 2015&ndash;2016 outbreak (~0.24/1,000 Zika cases)</td>
-              <td>AIDP; French Polynesia and Brazil data confirmed 20-fold increased GBS incidence during outbreak; anti-GD1a antibodies reported</td>
-            </tr>
-            <tr>
-              <td><strong>Influenza (seasonal/pandemic)</strong></td>
-              <td>~5%; note: vaccination-associated risk ~1/million doses, far below infection-associated risk</td>
-              <td>AIDP; 1976 swine flu vaccine (A/NJ/76) associated with higher GBS risk (~10/million); modern seasonal influenza vaccines carry minimal excess risk</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>guillain-barre</td></tr>
+            <tr><td>Name</td><td>Guillain-Barré Syndrome</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>05-tissue</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Subtypes</h3>
-          <table class="data-table">
-            <tr><th>Subtype</th><th>Full name</th><th>Frequency</th><th>Target antigen / antibodies</th><th>Pathology</th><th>Prognosis</th></tr>
-            <tr>
-              <td><strong>AIDP</strong></td>
-              <td>Acute inflammatory demyelinating polyradiculoneuropathy</td>
-              <td>85&ndash;90% in Western countries</td>
-              <td>Anti-NF155 (IgG4), anti-CASPR1, anti-contactin-1; T cell-mediated myelin attack in some; no single dominant ganglioside antibody</td>
-              <td>Macrophage-mediated demyelination of peripheral nerve myelin; onion-bulb formation in severe cases; proximal nerve roots prominently affected; NCS: conduction block, prolonged DML, F-wave absence, reduced NCV</td>
-              <td>Good; remyelination typically complete; anti-NF155 IgG4 antibody predicts slow recovery and need for maintenance immunotherapy (CIDP overlap)</td>
-            </tr>
-            <tr>
-              <td><strong>AMAN</strong></td>
-              <td>Acute motor axonal neuropathy</td>
-              <td>Dominant in China, Japan, Bangladesh (&gt;50%); ~5% in West</td>
-              <td>Anti-GM1 IgG, anti-GD1a IgG; IgG antibodies engage complement at nodes of Ranvier of motor axons</td>
-              <td>Complement activation at paranodal Nav channel complex of motor axons &rarr; macrophage infiltration of periaxonal space at nodes &rarr; axonal injury without primary demyelination; NCS: reduced CMAP amplitude, relatively preserved NCVs and sensory responses; rapid recovery possible if reversible conduction failure (without wallerian degeneration)</td>
-              <td>Variable: rapid and full recovery if antibody-mediated conduction failure (reversible); poorer if overt Wallerian degeneration of motor axons</td>
-            </tr>
-            <tr>
-              <td><strong>AMSAN</strong></td>
-              <td>Acute motor and sensory axonal neuropathy</td>
-              <td>~5% (Japan, China, South America)</td>
-              <td>Anti-GM1, anti-GD1a (IgG); sensory nerve gangliosides also targeted</td>
-              <td>Axonal injury of both motor and sensory fibres; NCS: reduced CMAP and SNAP amplitudes; most severe form; prominent axonal degeneration</td>
-              <td>Worst of all subtypes; many patients fail to walk independently; prolonged recovery over years; residual deficits common</td>
-            </tr>
-            <tr>
-              <td><strong>MFS</strong></td>
-              <td>Miller Fisher syndrome</td>
-              <td>~5% of GBS spectrum; more common in East Asia (~25% of GBS in Japan)</td>
-              <td><strong>Anti-GQ1b IgG</strong> (&gt;90% sensitivity/specificity); GQ1b highly expressed at paranodal regions of oculomotor nerves and muscle spindle Ia afferents; anti-GT1a in pharyngeal-cervical-brachial variant</td>
-              <td>Ophthalmoplegia (complete external &plusmn; internal), ataxia (proprioceptive loss), and areflexia — the classic triad; minimal limb weakness in pure MFS; Bickerstaff brainstem encephalitis if CNS involvement (anti-GQ1b + drowsiness/ataxia/long tract signs)</td>
-              <td>Excellent; almost all patients recover fully within 6 months; IVIG or PE standard of care though spontaneous recovery common</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathophysiology — Molecular Mimicry and Nerve Injury</h3>
-          <p><strong>Molecular mimicry</strong> is the central immunological mechanism in GBS. The ganglioside hypothesis (Yuki et al., 1993) established that <em>C. jejuni</em> lipooligosaccharide (LOS) bears terminal oligosaccharide sequences structurally identical to mammalian gangliosides on peripheral nerve membranes:</p>
-          <div class="step-block">
-            <ol>
-              <li><strong>Infection:</strong> <em>C. jejuni</em> gastroenteritis (typically 1&ndash;4 weeks before GBS onset); bacterial LOS contains terminal Gal&beta;1-3GalNAc (GM1-like) or Neu5Ac&alpha;2-3Gal&beta;1-3GalNAc (GD1a-like) trisaccharides — genetically determined by <em>cst-II</em> / LOS locus; only specific <em>C. jejuni</em> strains (HS:19, HS:41, PEN 19) are GBS-associated</li>
-              <li><strong>Immune activation:</strong> Mucosal B cells and gut-associated lymphoid tissue mount IgA/IgG responses against LOS &rarr; cross-reactive antibodies generated that recognise GM1 and GD1a on peripheral nerve axolemma (AMAN) or GQ1b on oculomotor nerve paranodal myelin (MFS)</li>
-              <li><strong>Antibody-mediated nerve injury (AMAN):</strong> IgG anti-GM1/GD1a antibodies bind to ganglioside-rich domains at nodes of Ranvier of motor axons &rarr; C1q binding &rarr; classical complement activation &rarr; C3b deposition &rarr; C5b-9 membrane attack complex (MAC) formation on axolemma at nodes &rarr; macrophage Fc&gamma;R-mediated recognition of complement-opsonised node &rarr; macrophages enter periaxonal space via paranodal junctions &rarr; strip periaxonal myelin from axon and may damage axon directly</li>
-              <li><strong>AIDP demyelination:</strong> More heterogeneous; T cell and macrophage infiltration of peripheral nerve roots and nerve trunks; macrophage-mediated stripping of intact compact myelin (bystander demyelination); T cell-dependent mechanisms including epitope spreading to myelin proteins (P2, PMP22, MBP); in anti-NF155 IgG4 or anti-CASPR1/contactin-1 antibody cases: specific paranodal disruption without macrophage infiltration (&ldquo;nodopathy&rdquo;)</li>
-              <li><strong>Complement at the node (AMAN pathological series):</strong> C3d and C5b-9 deposits demonstrated immunohistochemically at nodes of Ranvier of motor nerves in AMAN autopsy material; eculizumab (anti-C5 complement inhibitor) reduced nerve injury and improved outcome in pilot GBS case series, providing proof-of-concept</li>
-            </ol>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Clinical Features</h3>
-          <p>GBS classically presents as a rapidly progressive, <strong>ascending, symmetric weakness</strong> beginning in the distal lower limbs and advancing proximally over days (nadir reached within 4 weeks by definition; typically 1&ndash;3 weeks). The full clinical picture:</p>
-          <table class="data-table">
-            <tr><th>Feature</th><th>Detail</th><th>Frequency</th></tr>
-            <tr>
-              <td><strong>Ascending weakness</strong></td>
-              <td>Begins in distal legs (foot drop, difficulty climbing stairs); advances to proximal legs, arms, respiratory muscles, and cranial nerves; in AMAN, upper limb involvement may be minimal</td>
-              <td>&gt;95%</td>
-            </tr>
-            <tr>
-              <td><strong>Areflexia</strong></td>
-              <td>Loss of deep tendon reflexes; typically begins in ankles and extends proximally; often universal by peak disease; earliest and most reliable sign</td>
-              <td>&gt;95%</td>
-            </tr>
-            <tr>
-              <td><strong>Pain</strong></td>
-              <td>Back pain and limb aching (radicular pain from inflamed roots); often precedes weakness by days; prominent feature that delays diagnosis; may require opioids</td>
-              <td>~70%</td>
-            </tr>
-            <tr>
-              <td><strong>Sensory symptoms</strong></td>
-              <td>Paraesthesiae and numbness in glove-and-stocking distribution; objective sensory loss relatively mild in AMAN (motor-selective); loss of proprioception and vibration in AIDP; large-fibre sensory ataxia</td>
-              <td>~80% subjective; less objective deficit in AMAN</td>
-            </tr>
-            <tr>
-              <td><strong>Respiratory failure</strong></td>
-              <td>Diaphragm and intercostal muscle weakness; FVC &lt;20 mL/kg, NIF &lt; &minus;30 cmH&sub2;O, or peak cough flow &lt;270 L/min indicate impending failure (the &ldquo;20-30-40 rule&rdquo;); requires ICU monitoring; intubation in 20&ndash;30%</td>
-              <td>20&ndash;30%</td>
-            </tr>
-            <tr>
-              <td><strong>Autonomic instability</strong></td>
-              <td>Sinus tachycardia or bradycardia; wide BP swings (hypertensive crises alternating with orthostatic hypotension); cardiac arrhythmias (commonest cause of GBS death in ICU); urinary retention; ileus; facial flushing</td>
-              <td>~65%; severe dysautonomia in ~20%</td>
-            </tr>
-            <tr>
-              <td><strong>Cranial nerve involvement</strong></td>
-              <td>Bilateral facial palsy (most common cranial nerve sign, &gt;50%); oropharyngeal weakness (dysphagia, aspiration risk); ophthalmoplegia (in MFS and AIDP); rarely papilloedema</td>
-              <td>50&ndash;75% facial; &lt;5% ophthalmoplegia in AIDP</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Diagnosis</h3>
-          <p>Diagnosis rests on the clinical picture, CSF findings, and nerve conduction studies. Anti-ganglioside serology provides subtype confirmation and prognostic information:</p>
-          <table class="data-table">
-            <tr><th>Investigation</th><th>Finding</th><th>Interpretation</th></tr>
-            <tr>
-              <td><strong>CSF (cerebrospinal fluid)</strong></td>
-              <td>Cytoalbuminous dissociation: elevated protein (50&ndash;200 mg/dL; sometimes higher) with normal or &lt;10 cells/&micro;L white cell count; elevated protein may be absent in the first week (20% at 1 week; 80% at 3 weeks)</td>
-              <td>Reflects protein leak from inflamed nerve roots into the CSF space in the absence of meningitis; pleocytosis (&gt;50 cells) suggests HIV-associated GBS, Lyme, CMV, or West Nile GBS &mdash; or not GBS</td>
-            </tr>
-            <tr>
-              <td><strong>Nerve conduction studies (NCS/EMG)</strong></td>
-              <td>AIDP: prolonged distal motor latencies (DML), reduced NCV (&lt;70% LLN), conduction block, temporal dispersion, absent or prolonged F-waves, preserved or mildly reduced CMAP amplitude; AMAN: low CMAP amplitude with relatively normal DML, NCV, and sensory responses; sural sparing pattern</td>
-              <td>Serial NCS (weeks 1, 2, 3) needed; early studies may be normal or show only F-wave abnormality; nerve root conduction block distinguishable from Wallerian degeneration by recovery pattern</td>
-            </tr>
-            <tr>
-              <td><strong>Anti-ganglioside serology</strong></td>
-              <td>Anti-GM1/GD1a IgG (AMAN); anti-GQ1b IgG (MFS, &gt;90% sensitivity); anti-NF155 IgG4, anti-CASPR1/contactin-1 IgG4 (AIDP paranodopathy subtype)</td>
-              <td>Positive serology supports specific subtype; influences prognosis (anti-NF155 &rarr; consider CIDP; anti-GQ1b &rarr; MFS); negative serology does not exclude GBS</td>
-            </tr>
-            <tr>
-              <td><strong>MRI spine/nerve roots</strong></td>
-              <td>Gadolinium enhancement of lumbosacral nerve roots and cauda equina (T1 post-Gad); found in ~80% of AIDP in first 2 weeks</td>
-              <td>Supports diagnosis; not required routinely; useful when NCS equivocal; nerve root enhancement reflects BBB disruption</td>
-            </tr>
-          </table>
-          <div class="callout">
-            <strong>Brighton criteria (2011):</strong> Four levels of diagnostic certainty based on bilateral flaccid limb weakness, decreased/absent DTRs in weak limbs, monophasic illness, and interval 12 h&ndash;28 days between onset and nadir. Level 1 (highest certainty) requires all features plus CSF cytoalbuminous dissociation and electrodiagnostic evidence of PNS pathology.
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Treatment</h3>
-          <table class="data-table">
-            <tr><th>Treatment</th><th>Regimen</th><th>Evidence and mechanism</th></tr>
-            <tr>
-              <td><strong>IVIG (intravenous immunoglobulin)</strong></td>
-              <td>2 g/kg over 5 days (0.4 g/kg/day &times; 5); standard of care worldwide</td>
-              <td>Dutch GBS study (van der Meché &amp; Schmitz, NEJM 1992) showed IVIG equivalent to plasma exchange at 4 weeks; Dutch IGOS study (2022) confirms equivalence. Mechanisms: FcRn saturation accelerates clearance of pathogenic IgG; Fc&gamma;RIIb (inhibitory) engagement on macrophages/B cells; anti-idiotype neutralisation of ganglioside antibodies; complement inhibition</td>
-            </tr>
-            <tr>
-              <td><strong>Plasma exchange (PE)</strong></td>
-              <td>4&ndash;6 exchanges over 1&ndash;2 weeks (total 200&ndash;250 mL/kg); removes circulating anti-ganglioside IgG</td>
-              <td>French Cooperative Group (Greenfield et al., NEJM 1992) established PE benefit over supportive care; French &amp; North American trials showed 4&ndash;6 exchanges superior to 2; combination IVIG + PE no better than either alone (Dutch trial); PE logistically more demanding; preferred in settings lacking IVIG</td>
-            </tr>
-            <tr>
-              <td><strong>Eculizumab</strong></td>
-              <td>Anti-C5 complement inhibitor; IV; meningococcal vaccination required before initiation</td>
-              <td>Japanese pilot RCT (Misawa et al., Ann Neurol 2018): 8 patients; significantly better MRC sum score at 24 weeks; phase II/III trials (NCT04475874) ongoing; rationale: blocks C5a and MAC (C5b-9) formation at nodes of Ranvier in AMAN</td>
-            </tr>
-            <tr>
-              <td><strong>Corticosteroids</strong></td>
-              <td>No role in GBS</td>
-              <td>Multiple RCTs including the Dutch IV methylprednisolone trial (van Koningsveld et al., Lancet 2004): steroids alone inferior to IVIG; combination IVIG + IV methylprednisolone showed no benefit over IVIG alone at 4 weeks; accelerated short-term recovery claimed in older studies not confirmed; steroids contraindicated in GBS</td>
-            </tr>
-            <tr>
-              <td><strong>Supportive care</strong></td>
-              <td>ICU monitoring for respiratory failure (FVC &lt;20 mL/kg &rarr; elective intubation); cardiac monitoring (telemetry for dysautonomia); early tracheostomy if ventilated &gt;2 weeks; VTE prophylaxis (subcutaneous heparin or LMWH); early physiotherapy; pain management (gabapentin, opioids)</td>
-              <td>Mortality has fallen from &gt;10% to ~5% with modern ICU care; respiratory failure management is the dominant determinant of early outcomes; early enteral nutrition; DVT/PE prophylaxis essential (patients immobile for weeks)</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Prognosis and Outcome Prediction</h3>
-          <p>Outcome in GBS is variable. The <strong>Erasmus GBS Outcome Scale (EGOS)</strong> and modified EGOS (mEGOS) are validated prognostic tools using age, preceding diarrhoea, and GBS disability score at admission to predict ambulatory status at 6 months:</p>
-          <table class="data-table">
-            <tr><th>Prognostic marker</th><th>Direction of effect</th><th>Notes</th></tr>
-            <tr>
-              <td><strong>Age &gt;60 years</strong></td>
-              <td>Worse</td>
-              <td>Reduced axon regenerative capacity; delayed immune resolution</td>
-            </tr>
-            <tr>
-              <td><strong>Preceding diarrhoea (<em>C. jejuni</em>)</strong></td>
-              <td>Worse (in AMAN with Wallerian degeneration)</td>
-              <td>AMAN with axon loss vs. reversible conduction failure: former has much slower recovery</td>
-            </tr>
-            <tr>
-              <td><strong>Rapid progression to nadir</strong></td>
-              <td>Worse</td>
-              <td>&lt;1 week to nadir &rarr; more axon loss; longer to remyelinate</td>
-            </tr>
-            <tr>
-              <td><strong>Requirement for mechanical ventilation</strong></td>
-              <td>Worse</td>
-              <td>Correlates with severe axonal involvement; prolonged ICU stay &rarr; ICU-acquired weakness compounds GBS weakness</td>
-            </tr>
-            <tr>
-              <td><strong>CMAP amplitude &lt;20% LLN</strong></td>
-              <td>Worse</td>
-              <td>Low CMAP &rarr; severe axon loss; prolonged recovery; not applicable to reversible AMAN</td>
-            </tr>
-            <tr>
-              <td><strong>Anti-GQ1b (MFS)</strong></td>
-              <td>Better</td>
-              <td>MFS: excellent prognosis; near-universal full recovery by 6 months</td>
-            </tr>
-          </table>
-          <p>Overall outcomes at 6&ndash;12 months: <strong>~80%</strong> walk unaided; <strong>~5%</strong> die (mainly in elderly from dysautonomia, sepsis, or VTE); <strong>~10%</strong> have moderate-to-severe permanent residual disability; <strong>~5&ndash;10%</strong> relapse (raises concern for CIDP). The MRC sum score (sum of Medical Research Council scores in 12 muscle groups, max 60) tracks recovery; improvement of &ge;1 GBS disability scale point at 4 weeks with IVIG signals response.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Distinguishing GBS from CIDP</h3>
-          <div class="pathology-item info">
-            <h4>CIDP (Chronic Inflammatory Demyelinating Polyneuropathy)</h4>
-            <p>GBS is monophasic by definition (nadir &le;4 weeks, then plateau &ge;2 weeks, then improvement). Patients who continue to worsen beyond 4 weeks, or who relapse &ge;3 times, or who require ongoing immunotherapy for sustained improvement, are reclassified as CIDP. Anti-NF155 IgG4 antibodies (and anti-CASPR1, anti-contactin-1) strongly associate with a CIDP-like chronic relapsing course. CIDP is treated with long-term IVIG, plasma exchange, or corticosteroids; anti-NF155 patients respond poorly to IVIG and may require rituximab.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill" href="peripheral-nerve.html"><span class="rel">Damages</span>Peripheral Nerve</a>
-            <a class="conn-pill" href="axonal-transport.html"><span class="rel">Disrupts (AMAN)</span>Axonal Transport</a>
-            <a class="conn-pill" href="neuromuscular-junction.html"><span class="rel">Impairs input to</span>Neuromuscular Junction</a>
-            <a class="conn-pill" href="igg.html"><span class="rel">Mediated by</span>IgG (anti-ganglioside)</a>
-            <a class="conn-pill" href="antibody.html"><span class="rel">Mechanism</span>Antibody &amp; Complement</a>
-            <a class="conn-pill" href="vaccines.html"><span class="rel">Vaccine safety context</span>Vaccines</a>
+            <a class="conn-pill" href="macrophage.html" title="In AIDP, macrophages invade the peripheral nerve, strip myelin from axons, and contribute to demyelination; macrophage-mediated myelin phagocytosis is a key histopathological feature of GBS nerve biopsies."><span class="rel">modulated-by</span>Macrophage</a>
+            <a class="conn-pill" href="immunoglobulin-g.html" title="Anti-ganglioside IgG antibodies (anti-GM1, anti-GD1a in AMAN; anti-GQ1b in Miller Fisher syndrome) mediate axonal injury via complement activation and macrophage FcγR-mediated attack on nodes of Ranvier."><span class="rel">modulated-by</span>Immunoglobulin G</a>
+            <a class="conn-pill damaged" href="peripheral-nerve.html" title="GBS is the primary acute peripheral neuropathy; AIDP: macrophage myelin stripping → segmental demyelination → slowed conduction; AMAN: anti-ganglioside IgG + complement attack nodes of Ranvier → axolemmal injury; nerve biopsy and NCS subtype classification guide prognosis."><span class="rel">damaged-by</span>Peripheral Nerve</a>
+            <a class="conn-pill" href="complement-c5.html" title="In AMAN, anti-GM1/GD1a IgG binds gangliosides at nodes of Ranvier → C1q → C3d → C5b-9 (MAC) → axolemmal disruption; C5b-9 deposition marks AMAN histopathology; eculizumab (anti-C5) is under investigation for severe GBS to prevent complement-driven axonal injury."><span class="rel">connects-to</span>Complement C5</a>
+            <a class="conn-pill" href="sars-cov-2.html" title="SARS-CoV-2 is a GBS trigger; reports of GBS following COVID-19 infection and adenoviral-vector vaccines (ChAdOx1, Ad26.COV2.S); proposed mechanism: molecular mimicry between spike protein glycan epitopes and gangliosides; SARS-CoV-2 GBS cases tend toward AIDP subtype."><span class="rel">connects-to</span>Sars Cov 2</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>van der Meché FG, Schmitz PI. A randomized trial comparing intravenous immune globulin and plasma exchange in Guillain-Barré syndrome. <em>N Engl J Med.</em> 1992;326(17):1123&ndash;1129. <a href="https://doi.org/10.1056/NEJM199204233261705" target="_blank" rel="noopener">doi:10.1056/NEJM199204233261705</a></li>
-            <li>Yuki N, Hartung HP. Guillain-Barré syndrome. <em>N Engl J Med.</em> 2012;366(24):2294&ndash;2304. <a href="https://doi.org/10.1056/NEJMra1114525" target="_blank" rel="noopener">doi:10.1056/NEJMra1114525</a></li>
-            <li>Jacobs BC, van den Berg B, Verboon C, et al. International Guillain-Barré Syndrome Outcome Study: protocol of a prospective observational cohort study on clinical and biological predictors of disease course and outcome in Guillain-Barré syndrome. <em>J Peripher Nerv Syst.</em> 2017;22(2):68&ndash;76. <a href="https://doi.org/10.1111/jns.12209" target="_blank" rel="noopener">doi:10.1111/jns.12209</a></li>
-            <li>Misawa S, Kuwabara S, Sato Y, et al. Safety and efficacy of eculizumab in Guillain-Barré syndrome: a multicentre, double-blind, randomised phase 2 trial. <em>Lancet Neurol.</em> 2018;17(6):519&ndash;529. <a href="https://doi.org/10.1016/S1474-4422(18)30114-5" target="_blank" rel="noopener">doi:10.1016/S1474-4422(18)30114-5</a></li>
-            <li>Willison HJ, Jacobs BC, van Doorn PA. Guillain-Barré syndrome. <em>Lancet.</em> 2016;388(10045):717&ndash;727. <a href="https://doi.org/10.1016/S0140-6736(16)00339-1" target="_blank" rel="noopener">doi:10.1016/S0140-6736(16)00339-1</a></li>
-            <li>van Koningsveld R, Schmitz PI, Meché FG, et al. Effect of methylprednisolone when added to standard treatment with intravenous immunoglobulin for Guillain-Barré syndrome: randomised trial. <em>Lancet.</em> 2004;363(9404):192&ndash;196. <a href="https://doi.org/10.1016/S0140-6736(03)15324-X" target="_blank" rel="noopener">doi:10.1016/S0140-6736(03)15324-X</a></li>
-            <li>Dimachkie MM, Barohn RJ. Guillain-Barré syndrome and variants. <em>Neurol Clin.</em> 2013;31(2):491&ndash;510. <a href="https://doi.org/10.1016/j.ncl.2013.01.005" target="_blank" rel="noopener">doi:10.1016/j.ncl.2013.01.005</a></li>
+            <li><a href="https://doi.org/10.1016/S0140-6736(16)00339-1" target="_blank" rel="noopener noreferrer">Willison HJ, Jacobs BC, van Doorn PA. Guillain-Barré syndrome. Lancet. 2016;388(10045):717-727.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26948435/" target="_blank" rel="noopener noreferrer">PubMed 26948435</a></li>
+            <li><a href="https://doi.org/10.1016/S1474-4422(08)70215-1" target="_blank" rel="noopener noreferrer">van Doorn PA, Ruts L, Jacobs BC. Clinical features, pathogenesis, and treatment of Guillain-Barré syndrome. Lancet Neurol. 2008;7(10):939-950.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18848313/" target="_blank" rel="noopener noreferrer">PubMed 18848313</a></li>
           </ul>
         </div>
 
@@ -396,20 +183,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end &mdash; in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="peripheral-nerve.html">Peripheral Nerve</a>
-      <a href="axonal-transport.html">Axonal Transport</a>
-      <a href="neuromuscular-junction.html">NMJ</a>
-      <a href="antibody.html">Antibody</a>
-      <a href="vaccines.html">Vaccines</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

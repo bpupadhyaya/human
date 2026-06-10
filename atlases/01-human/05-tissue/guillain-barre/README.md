@@ -28,6 +28,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: modulated-by
     note: "Anti-ganglioside IgG antibodies (anti-GM1, anti-GD1a in AMAN; anti-GQ1b in Miller Fisher syndrome) mediate axonal injury via complement activation and macrophage FcγR-mediated attack on nodes of Ranvier."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: damaged-by
+    note: "GBS is the primary acute peripheral neuropathy; AIDP: macrophage myelin stripping → segmental demyelination → slowed conduction; AMAN: anti-ganglioside IgG + complement attack nodes of Ranvier → axolemmal injury; nerve biopsy and NCS subtype classification guide prognosis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "In AMAN, anti-GM1/GD1a IgG binds gangliosides at nodes of Ranvier → C1q → C3d → C5b-9 (MAC) → axolemmal disruption; C5b-9 deposition marks AMAN histopathology; eculizumab (anti-C5) is under investigation for severe GBS to prevent complement-driven axonal injury."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "SARS-CoV-2 is a GBS trigger; reports of GBS following COVID-19 infection and adenoviral-vector vaccines (ChAdOx1, Ad26.COV2.S); proposed mechanism: molecular mimicry between spike protein glycan epitopes and gangliosides; SARS-CoV-2 GBS cases tend toward AIDP subtype."
 ---
 
 # Guillain-Barré Syndrome
@@ -105,6 +114,13 @@ Autonomic involvement occurs in ~70% of hospitalized GBS patients:
 
 - `modulated-by` → **[Macrophage](../../04-cellular/macrophage/README.md)** — primary effector of myelin stripping in AIDP; invades peripheral nerve, strips and phagocytoses myelin via FcγR-mediated and complement-mediated mechanisms
 - `modulated-by` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — pathogenic anti-ganglioside IgG antibodies (anti-GM1, anti-GD1a, anti-GQ1b) mediate axonal subtypes and Miller Fisher syndrome; therapeutic IVIg neutralizes pathogenic antibodies and modulates Fc-receptor signaling
+- `damaged-by` → **[Peripheral Nerve](../peripheral-nerve/README.md)** — GBS is the primary acute peripheral neuropathy; AIDP: macrophage myelin stripping → segmental demyelination → slowed conduction; AMAN: anti-ganglioside IgG + complement attack nodes of Ranvier → axolemmal injury; nerve biopsy and NCS subtype classification guide prognosis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — In AMAN, anti-GM1/GD1a IgG binds gangliosides at nodes of Ranvier → C1q → C3d → C5b-9 (MAC) → axolemmal disruption; C5b-9 deposition marks AMAN histopathology; eculizumab (anti-C5) is under investigation for severe GBS to prevent complement-driven axonal injury.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — SARS-CoV-2 is a GBS trigger; reports of GBS following COVID-19 infection and adenoviral-vector vaccines (ChAdOx1, Ad26.COV2.S); proposed mechanism: molecular mimicry between spike protein glycan epitopes and gangliosides; SARS-CoV-2 GBS cases tend toward AIDP subtype.
 
 [^willison-2016-gbs-lancet]: Willison HJ, Jacobs BC, van Doorn PA. Guillain-Barré syndrome. *Lancet.* 2016;388(10045):717-727. [doi:10.1016/S0140-6736(16)00339-1](https://doi.org/10.1016/S0140-6736(16)00339-1) · [PubMed 26948435](https://pubmed.ncbi.nlm.nih.gov/26948435/)
 [^vandoorn-2008-gbs-review]: van Doorn PA, Ruts L, Jacobs BC. Clinical features, pathogenesis, and treatment of Guillain-Barré syndrome. *Lancet Neurol.* 2008;7(10):939-950. [doi:10.1016/S1474-4422(08)70215-1](https://doi.org/10.1016/S1474-4422(08)70215-1) · [PubMed 18848313](https://pubmed.ncbi.nlm.nih.gov/18848313/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
