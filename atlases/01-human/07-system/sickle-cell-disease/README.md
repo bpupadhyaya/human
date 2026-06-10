@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/07-system/malaria
     relation: connects-to
     note: "HbAS (sickle trait) confers ~60% protection against severe malaria (balanced polymorphism); HbSS patients in endemic regions face compounded risk: fever + dehydration → sickling crises; antimalarial prophylaxis planning is essential for HbSS in endemic areas."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Acquired protein C deficiency is common in SCD: vaso-occlusive crisis → local thrombin burst → APC consumption; protein C levels inversely correlate with VOC frequency; SCD patients have reduced EPCR expression on ECs → impaired APC generation during hemolytic crises."
 ---
 
 # Sickle Cell Disease
@@ -222,6 +225,7 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — HbSβ-thalassemia (HbS + β-thal allele) is a common SCD genotype; β⁰ allele severity = HbSS; β⁺ = milder; shared gene therapy targets: Casgevy (CRISPR BCL11A derepression of γ-globin/HbF) is FDA-approved for both β-thal major and sickle cell disease.
 - `connects-to` → **[G6PD](../../03-molecular/g6pd/README.md)** — G6PD A− deficiency (10-20% sub-Saharan Africans) co-occurs with HbSS in ~5-10% of SCD patients; G6PD deficiency + SCD → additive oxidant haemolysis risk; avoid dapsone, rasburicase, and nitrofurantoin in G6PD-deficient SCD; G6PD screening recommended.
 - `connects-to` → **[Malaria](../malaria/README.md)** — HbAS (sickle trait) confers ~60% protection against severe malaria (balanced polymorphism); HbSS patients in endemic regions face compounded risk: fever + dehydration → sickling crises; antimalarial prophylaxis planning is essential for HbSS in endemic areas.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Acquired protein C deficiency is common in SCD: vaso-occlusive crisis → local thrombin burst → APC consumption; protein C levels inversely correlate with VOC frequency; SCD patients have reduced EPCR expression on ECs → impaired APC generation during hemolytic crises.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: modulates
     note: "Liver sinusoidal endothelial cells (LSECs) have large fenestrae (100–200 nm), no basement membrane; enable direct plasma-hepatocyte exchange via Space of Disse; LSEC scavenge colloidal waste and modulate hepatic fibrosis."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "EPCR (endothelial protein C receptor) on ECs presents PC to thrombin-thrombomodulin → APC generation; EPCR-bound APC signals via PAR-1 → endothelial barrier protection (VE-cadherin), anti-inflammatory (NF-κB↓), anti-apoptotic (PI3K/Akt); EPCR expression falls in septic ECs."
 ---
 
 # Endothelial Cell
@@ -158,6 +161,7 @@ Activation (by disturbed flow, inflammation, hypoxia, metabolic dysregulation) s
 - **Modulates** macrophage [→ macrophage](../../04-cellular/macrophage/README.md): Activated EC express E-selectin, P-selectin (from WPBs), ICAM-1, VCAM-1 → capture and guide monocyte/macrophage transmigration into tissues; sinusoidal EC in liver perform endocytosis of colloidal materials.
 - **Modulates** immune system [→ immune-system](../../07-system/immune-system/README.md): Endothelial cells are gatekeepers of leukocyte trafficking into tissues; ICAM-1/VCAM-1 (NF-κB target) bind LFA-1/VLA-4 on leukocytes; CXCL8 presented on endothelial glycocalyx guides neutrophil/monocyte emigration.
 - **Modulates** hepatic lobule [→ hepatic-lobule](../../05-tissue/hepatic-lobule/README.md): Liver sinusoidal endothelial cells (LSECs) have large fenestrae (100–200 nm), no basement membrane; enable direct plasma-hepatocyte exchange via Space of Disse; LSEC scavenge colloidal waste and modulate hepatic fibrosis.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — EPCR (endothelial protein C receptor) on ECs presents PC to thrombin-thrombomodulin → APC generation; EPCR-bound APC signals via PAR-1 → endothelial barrier protection (VE-cadherin), anti-inflammatory (NF-κB↓), anti-apoptotic (PI3K/Akt); EPCR expression falls in septic ECs.
 
 ## Pathology
 
@@ -177,3 +181,7 @@ Activation (by disturbed flow, inflammation, hypoxia, metabolic dysregulation) s
 - [Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md) — liver sinusoidal endothelial cells (LSECs) have unique fenestrated, basement-membrane-free structure
 - [Heart](../../06-organ/heart/README.md) — endocardial endothelium and coronary artery endothelium; coronary EC dysfunction → ischaemic heart disease
 - [Hepatocyte](../../04-cellular/hepatocyte/README.md) — hepatocytes exchange metabolites with blood across the LSEC fenestrae via the Space of Disse
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

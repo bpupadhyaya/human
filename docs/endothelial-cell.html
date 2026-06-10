@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Endothelial Cell — eNOS/NO production, barrier function, angiogenesis VEGFR2/DLL4/Notch, haemostasis, leukocyte trafficking. Atlas One · Human Engineering.">
+  <meta name="description" content="Squamous cells lining all blood and lymphatic vessels (~350 m² total surface). Regulate vascular tone via eNOS/NO, prevent thrombosis via thrombomodulin/TFPI, c">
   <meta property="og:title" content="Endothelial Cell — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Endothelial Cell — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0891b2;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: #0e7490; }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,49 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(8,145,178,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0891b2, #0e7490); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: #d97706; }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.part .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -97,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -109,166 +119,62 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular &mdash; Scale 04</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
     <h1>Endothelial Cell</h1>
-    <p class="tagline">The squamous lining of every blood and lymphatic vessel in the body — a dynamic signal-processing node controlling vascular tone via eNOS/NO, preventing thrombosis, gating leukocyte entry, and directing new vessel growth via VEGFR2/DLL4/Notch.</p>
-    <p class="subtagline">CL:0000115 &middot; ~350 m&#x00B2; total surface, ~1 kg mass. Endothelial dysfunction — loss of the anti-inflammatory, anti-thrombotic, vasodilatory phenotype — is the earliest lesion in atherosclerosis and a key mediator of COVID-19 multiorgan injury.</p>
+    <p class="tagline">Squamous cells lining all blood and lymphatic vessels (~350 m² total surface). Regulate vascular tone via eNOS/NO, prevent thrombosis via thrombomodulin/TFPI, control leukocyte trafficking via selectins/ICAM-1, and enable angiogenesis via VEGF/VEGFR2.</p>
+    <p class="aliases">Also known as: EC, vascular endothelium, microvascular endothelial cell, HUVEC</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">350 m&#x00B2;</span><span class="stat-label">Total Surface Area</span></div>
-      <div class="stat"><span class="stat-num">~1 kg</span><span class="stat-label">Total EC Mass</span></div>
-      <div class="stat"><span class="stat-num">0.2–0.5 µm</span><span class="stat-label">Thickness (large artery)</span></div>
-      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Structural Types</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">CL:0000115 &middot; Atlas One / Scale 04 &mdash; Cellular</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">endothelial-cell</div>
         <h2>Endothelial Cell</h2>
-        <p class="summary">Squamous cells (~50–70 µm long) lining the entire cardiovascular tree and lymphatics (~350 m&#x00B2; surface, ~1 kg mass). Regulate vascular tone (eNOS/NO, PGI&#x2082;, ET-1), prevent thrombosis (thrombomodulin, TFPI, tPA, CD39), control permeability (VE-cadherin, claudin-5), gate leukocyte trafficking (E/P-selectin, ICAM-1, VCAM-1), and direct angiogenesis (VEGFR2 tip/stalk cell DLL4/Notch circuit). Weibel-Palade bodies (WPBs) are the defining secretory organelle — storing vWF and P-selectin.</p>
+        <p class="summary">Squamous cells lining all blood and lymphatic vessels (~350 m² total surface). Regulate vascular tone via eNOS/NO, prevent thrombosis via thrombomodulin/TFPI, control leukocyte trafficking via selectins/ICAM-1, and enable angiogenesis via VEGF/VEGFR2.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The endothelial cell is the squamous epithelium of the vasculature — a single continuous monolayer of cells lining the luminal surface of every blood vessel and lymphatic channel in the body. The total endothelial surface area is approximately <strong>350 m&#x00B2;</strong> with a mass of ~1 kg, making the endothelium one of the largest and most functionally diverse organs in the body.</p>
-          <p>Endothelial cells are <strong>dynamic signal-processing nodes</strong> that continuously sense haemodynamic forces (shear stress, cyclic stretch), blood-borne signals (hormones, cytokines, growth factors, metabolites), and direct cell-cell contacts, translating these inputs into real-time adjustments of vascular tone, permeability, haemostasis, and leukocyte trafficking. <strong>Endothelial dysfunction</strong> — loss of the normal anti-inflammatory, anti-thrombotic, and vasodilatory phenotype — is the earliest and most fundamental lesion in atherosclerosis, and a key mediator of tissue injury in sepsis, COVID-19, and diabetes.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure and Heterogeneity</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Type</th><th>Location</th><th>Key Features</th><th>Permeability</th></tr>
-            <tr><td>Continuous non-fenestrated</td><td>Brain (BBB), heart, muscle, lung</td><td>Claudin-5, occludin, ZO-1 tight junctions; minimal transcytosis; PECAM-1/CD31 at junctions</td><td>Most restrictive</td></tr>
-            <tr><td>Continuous fenestrated</td><td>Kidney glomerulus, intestinal villi, endocrine glands</td><td>60–80 nm fenestrae with (gut, glands) or without (glomerulus) diaphragm; aquaporin channels</td><td>Intermediate</td></tr>
-            <tr><td>Discontinuous / Sinusoidal</td><td>Liver (LSEC), spleen, bone marrow</td><td>Large 100–200 nm fenestrae; absent basement membrane; direct plasma access to hepatocytes/parenchyma; LSEC scavenge oxidised LDL and colloidal waste</td><td>Most permeable</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>endothelial-cell</td></tr>
+            <tr><td>Name</td><td>Endothelial Cell</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
           </table>
-          <p style="margin-top:0.75rem;"><strong>Weibel-Palade bodies (WPBs)</strong> — the defining secretory organelle of endothelial cells; rod-shaped (~0.2 &times; 3 µm) storage granules containing: <strong>von Willebrand factor</strong> (large multimers in tubular arrays), <strong>P-selectin</strong> (rapidly mobilised to cell surface within seconds of thrombin/histamine/ROS stimulus), IL-8 (CXCL8), angiopoietin-2 (Ang2), and other mediators. WPB exocytosis is the rapid-response phase of EC activation (minutes), preceding transcriptional changes.</p>
-          <p><strong>Mechanosensing:</strong> ECs align parallel to blood flow direction via primary cilia (polycystin-1/2), glycocalyx (0.5–3 µm thick; heparan sulfate/hyaluronan absorbs shear), PECAM-1 (CD31, junctional mechanosensor; phosphorylated by shear &rarr; eNOS activation), and integrins (&alpha;v&beta;3, &alpha;5&beta;1) sensing matrix stiffness. <strong>Laminar shear stress</strong> upregulates KLF2/KLF4 &rarr; eNOS, thrombomodulin, PGI&#x2082; synthase — the atheroprotective programme. <strong>Disturbed flow</strong> (bifurcations, curvatures) downregulates KLF2/4 and activates NF-&kappa;B — the atherogenic programme.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — eNOS/NO, Barrier, and Angiogenesis</h3>
-          <div class="circuit-diagram">
-<pre>
-  ── 1. eNOS / NO PATHWAY (vascular tone) ──────────────────
-  Shear stress / VEGF-A / acetylcholine / bradykinin / insulin
-       |
-       v  PI3K/Akt  or  CaM/Ca2+
-  eNOS (NOS3, Ser1177 phosphorylation by Akt activates)
-  L-Arginine + O2  -->  NO  +  citrulline   [BH4 cofactor required]
-       |
-       v  diffuses to vascular smooth muscle cell
-  Soluble guanylyl cyclase (sGC, haem-Fe2+ sensor)
-       |
-       v  GTP --> cGMP
-  PKG (protein kinase G):
-    - Phospho MYPT1 (Ser695) --> MLCP activation --> MLC dephosphorylation
-    - Phospho BKCa --> hyperpolarisation --> Cav1.2 closing --> Ca2+ fall
-    - Phospho MLCK (Ser512) --> reduced MLCK affinity for Ca2+-CaM
-  NET: VASODILATION + anti-platelet + anti-inflammatory
-
-  ── 2. HAEMOSTASIS — DUAL-STATE CONTROL ───────────────────
-  QUIESCENT (antithrombotic):
-    Thrombomodulin (TM) + thrombin --> Protein C (APC) --> inactivates Va/VIIIa
-    TFPI --> inhibits FXa and TF:FVIIa complex
-    tPA --> plasminogen --> plasmin --> fibrinolysis
-    CD39/NTPDase1 --> ADP --> AMP --> adenosine (anti-platelet)
-    PGI2 + NO --> both inhibit platelet aggregation
-
-  ACTIVATED (prothrombotic — injury / inflammation):
-    WPB exocytosis (thrombin, histamine, ROS, seconds):
-       P-selectin surface --> leukocyte rolling
-       vWF multimers --> platelet tethering at high shear
-    Tissue factor (TF/CD142) de novo expression (NF-kB)
-       --> extrinsic coagulation cascade initiation
-
-  ── 3. PERMEABILITY BARRIER ───────────────────────────────
-  Tight junctions: claudin-5, occludin, ZO-1/2
-    (claudin-5 critical in BBB; PKC, Rho/ROCK regulate)
-  Adherens junctions: VE-cadherin (CD144) / catenin complex
-    VEGF-A --> VEGFR2 --> Src --> VE-cadherin Tyr658/731-P
-                             --> junction opening --> vascular leak
-  Ang1/Tie2 (agonist) --> PI3K/Akt --> cortactin --> VE-cadherin stabilisation
-  Ang2 (Tie2 antagonist) --> junction loosening --> angiogenic permissiveness
-
-  ── 4. ANGIOGENESIS — TIP / STALK CELL CIRCUIT ───────────
-  VEGF-A gradient (from hypoxic tissue via HIF-1alpha --> VEGF transcription)
-       |
-       v  VEGFR2 (Flk-1/KDR) on EC
-  Tip cell selection (highest VEGF signal):
-    DLL4 (Notch ligand) expressed --> activates Notch1 on adjacent EC
-    Notch1 --> Hes/Hey TFs --> VEGFR2 downregulation, VEGFR1 (decoy) upregulation
-    --> Stalk cell fate (proliferation, tube elongation, less migration)
-  Tip cell: VEGFR2-hi, DLL4-hi, filopodia extension, migration toward VEGF source
-  Stalk cell: Notch-activated, proliferative, lumen-forming
-  VE-cadherin / PECAM-1 --> lumen anastomosis and contact inhibition of growth
-
-  Arteriovenous specification:
-    Notch / EphrinB2 --> arterial identity
-    COUP-TFII / EphB4 --> venous identity
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Leukocyte Recruitment Cascade</h3>
-          <p>Activated endothelium (TNF-&alpha;, IL-1&beta; &rarr; NF-&kappa;B) sequentially upregulates adhesion molecules to guide leukocytes from blood to tissue:</p>
-          <table class="data-table">
-            <tr><th>Step</th><th>Molecule</th><th>Time</th><th>Leukocyte Counter-receptor</th></tr>
-            <tr><td>1. Rolling</td><td>P-selectin (WPB), E-selectin (transcription, 2–6 h)</td><td>Minutes–hours</td><td>PSGL-1, CD44 (sialyl-Lewis X ligands)</td></tr>
-            <tr><td>2. Firm arrest</td><td>ICAM-1 (NF-&kappa;B), VCAM-1 (NF-&kappa;B)</td><td>Hours</td><td>LFA-1/Mac-1 (ICAM-1); VLA-4 (VCAM-1)</td></tr>
-            <tr><td>3. Chemokine-driven</td><td>CXCL8 displayed on glycocalyx heparan sulfate</td><td>Continuous</td><td>CXCR2 (neutrophil); inside-out integrin activation</td></tr>
-            <tr><td>4. Transmigration</td><td>PECAM-1 (CD31), JAM-A/B/C, CD99</td><td>Minutes (paracellular)</td><td>PECAM-1 homophilic; JAM-JAM interactions</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;"><strong>VCAM-1</strong> is particularly important in monocyte recruitment during atherosclerosis — it is expressed on EC overlying nascent lipid-rich plaques, is induced by oxidised LDL and disturbed flow, and is a critical step in foam cell accumulation. KLF2/4 transcriptionally suppresses VCAM-1 under laminar shear — explaining why atherosclerosis preferentially initiates at regions of disturbed flow.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Atherosclerosis</h4>
-            <p>Endothelial dysfunction at arterial bends and bifurcations (disturbed flow &rarr; &darr;KLF2/4 &rarr; &darr;eNOS, &uarr;NF-&kappa;B &rarr; &uarr;VCAM-1, &uarr;MCP-1) &rarr; LDL subendothelial retention &rarr; oxidation (oxLDL) &rarr; macrophage foam cell accumulation &rarr; fatty streak &rarr; fibrous plaque &rarr; SMC phenotype switching &rarr; advanced plaque with calcification and thin fibrous cap &rarr; rupture &rarr; acute MI or stroke. Statins, ACEi, and aspirin all partially restore endothelial function.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>COVID-19 Endotheliitis</h4>
-            <p>SARS-CoV-2 infects EC via ACE2/TMPRSS2 (particularly in lung, heart, kidney, gut) &rarr; direct cytopathic effect + NF-&kappa;B activation &rarr; cytokine storm &rarr; complement activation &rarr; microthrombi (platelet-fibrin and neutrophil extracellular traps) across multiple organs. Elevated D-dimer, vWF, and IL-6 in severe COVID-19 are endothelial markers. Anticoagulation (heparin) reduces mortality in moderate/severe disease. APOL1 risk genotypes &rarr; collapsing glomerulopathy via glomerular EC injury.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Hereditary Haemorrhagic Telangiectasia (HHT)</h4>
-            <p>Loss-of-function mutations in ENG (endoglin, HHT1) or ACVRL1 (ALK1, HHT2) &rarr; impaired BMP9/10 &rarr; EC TGF-&beta; signalling &rarr; abnormal AV malformations (AVMs) in lung, brain, liver, GI tract; mucocutaneous telangiectasias; recurrent epistaxis. Bevacizumab (anti-VEGF) reduces epistaxis and hepatic AVM blood flow. Liver transplantation for severe hepatic AVMs.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Septic Shock</h4>
-            <p>LPS/PAMPs (bacteria) &rarr; endothelial TLR4 &rarr; NF-&kappa;B &rarr; &uarr;TF (DIC), &darr;TM (thrombotic), &uarr;permeability (VEGF, thrombin) &rarr; capillary leak &rarr; oedema &rarr; multi-organ failure. Glycocalyx shedding (heparanase, matrix metalloproteinases) exposes endothelial adhesion molecules and worsens leak. Fresh frozen plasma and albumin partially restore the glycocalyx. eNOS-derived NO in high concentration from iNOS-expressing cells paradoxically contributes to vasodilatory shock.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Tumour Angiogenesis</h4>
-            <p>VEGF-A overexpression by tumour cells (HIF-1&alpha; &rarr; VEGF) &rarr; pathological tip/stalk sprouting &rarr; immature, leaky, tortuous tumour vasculature (poor oxygen delivery paradoxically maintains hypoxia). Bevacizumab (anti-VEGF) and ramucirumab (anti-VEGFR2) normalise vasculature transiently, improving drug delivery. Notch inhibitors (&gamma;-secretase inhibitors) shift stalk/tip balance, promoting AV shunts. VEGFR2-targeted kinase inhibitors (sunitinib, sorafenib, axitinib) are first-line in RCC and HCC.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="cardiovascular-system.html"><span class="rel">Part of</span>Cardiovascular System</a>
-            <a class="conn-pill" href="smooth-muscle-cell.html"><span class="rel">Crosstalk with</span>Smooth Muscle Cell</a>
-            <a class="conn-pill" href="hepatic-lobule.html"><span class="rel">Specialised as</span>LSEC (Hepatic Lobule)</a>
-            <a class="conn-pill" href="podocyte.html"><span class="rel">Adjacent to</span>Podocyte (glomerulus)</a>
-            <a class="conn-pill" href="fibroblast.html"><span class="rel">Activates</span>Pericyte / Fibroblast (Ang/PDGF)</a>
-            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2 (ACE2)</a>
+            <a class="conn-pill part" href="cardiovascular-system.html" title="Endothelial cells line the entire cardiovascular tree (~350 m² surface); regulate vascular tone (eNOS→NO), prevent thrombosis (thrombomodulin, TFPI, PGI₂), recruit leukocytes (E-selectin, ICAM-1, VCAM-1)."><span class="rel">part-of</span>Cardiovascular System</a>
+            <a class="conn-pill" href="macrophage.html" title="Activated EC express E-selectin, P-selectin (from WPBs), ICAM-1, VCAM-1 → capture and guide monocyte/macrophage transmigration into tissues; sinusoidal EC in liver perform endocytosis of colloidal materials."><span class="rel">modulates</span>Macrophage</a>
+            <a class="conn-pill" href="immune-system.html" title="Endothelial cells are gatekeepers of leukocyte trafficking; ICAM-1/VCAM-1 (NF-κB target) bind LFA-1/VLA-4 on leukocytes; CXCL8 presented on endothelial glycocalyx guides neutrophil/monocyte emigration."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="hepatic-lobule.html" title="Liver sinusoidal endothelial cells (LSECs) have large fenestrae (100–200 nm), no basement membrane; enable direct plasma-hepatocyte exchange via Space of Disse; LSEC scavenge colloidal waste and modulate hepatic fibrosis."><span class="rel">modulates</span>Hepatic Lobule</a>
+            <a class="conn-pill" href="protein-c.html" title="EPCR (endothelial protein C receptor) on ECs presents PC to thrombin-thrombomodulin → APC generation; EPCR-bound APC signals via PAR-1 → endothelial barrier protection (VE-cadherin), anti-inflammatory (NF-κB↓), anti-apoptotic (PI3K/Akt); EPCR expression falls in septic ECs."><span class="rel">connects-to</span>Protein C</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Alberts B et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">ncbi.nlm.nih.gov</a></li>
-            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021.</li>
-            <li>Carmeliet P. Angiogenesis in life, disease and medicine. <em>Nature.</em> 2005;438(7070):932-6. <a href="https://doi.org/10.1038/nature04478" target="_blank" rel="noopener">doi:10.1038/nature04478</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16355210/" target="_blank" rel="noopener">PubMed 16355210</a></li>
-            <li>Pober JS, Sessa WC. Evolving functions of endothelial cells in inflammation. <em>Nat Rev Immunol.</em> 2007;7(10):803-15. <a href="https://doi.org/10.1038/nri2171" target="_blank" rel="noopener">doi:10.1038/nri2171</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17893694/" target="_blank" rel="noopener">PubMed 17893694</a></li>
-            <li>Varga Z et al. Endothelial cell infection and endotheliitis in COVID-19. <em>Lancet.</em> 2020;395(10234):1417-8. <a href="https://doi.org/10.1016/S0140-6736(20)30937-5" target="_blank" rel="noopener">doi:10.1016/S0140-6736(20)30937-5</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32325026/" target="_blank" rel="noopener">PubMed 32325026</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
           </ul>
         </div>
 
@@ -280,16 +186,14 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="smooth-muscle-cell.html">Smooth Muscle Cell</a>
-      <a href="cardiovascular-system.html">Cardiovascular System</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

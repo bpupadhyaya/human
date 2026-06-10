@@ -31,6 +31,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Protein C deficiency → 5-10× VTE risk (heterozygous) vs. 50-100× (rare homozygous → neonatal purpura fulminans); warfarin-induced skin necrosis from rapid protein C drop at warfarin initiation; APC is consumed in sepsis-DIC → purpura fulminans in acquired PC deficiency."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "APC is consumed in sepsis-DIC → protein C levels < 40% predict 28-day mortality; acquired PC deficiency → purpura fulminans; drotrecogin alfa (rhAPC) reduced mortality in PROWESS (2001) but PROWESS-SHOCK (2011) showed no benefit in septic shock → withdrawn 2011."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "EPCR (endothelial protein C receptor) on ECs presents PC to thrombin-thrombomodulin → APC generation; EPCR-bound APC signals via PAR-1 → endothelial barrier protection (VE-cadherin), anti-inflammatory (NF-κB↓), anti-apoptotic (PI3K/Akt); EPCR expression falls in septic ECs."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Acquired protein C deficiency is common in SCD: vaso-occlusive crisis → local thrombin burst → APC consumption; protein C levels inversely correlate with VOC frequency; SCD patients have reduced EPCR expression on ECs → impaired APC generation during hemolytic crises."
 ---
 
 # Protein C
@@ -140,6 +149,9 @@ These effects provided the rationale for **drotrecogin alfa (recombinant human A
 - `connects-to` → **[Inherited Thrombophilia](../../07-system/inherited-thrombophilia/README.md)** — Protein C deficiency (PROC mutations) is one of the 5 major inherited thrombophilias alongside FV Leiden, prothrombin G20210A, protein S deficiency, and AT deficiency; type I = low antigen + activity; type II = low activity with normal antigen; 5-10× VTE risk in heterozygotes.
 - `connects-to` → **[Thrombin](../thrombin/README.md)** — Thrombin bound to endothelial thrombomodulin cleaves protein C activation peptide → APC; high thrombin paradoxically activates the anticoagulant pathway; thrombin-thrombomodulin also activates TAFI (thrombin-activatable fibrinolysis inhibitor) → fibrin protection from lysis.
 - `connects-to` → **[Venous Thromboembolism](../../07-system/venous-thromboembolism/README.md)** — Protein C deficiency → 5-10× VTE risk (heterozygous) vs. 50-100× (rare homozygous → neonatal purpura fulminans); warfarin-induced skin necrosis from rapid protein C drop at warfarin initiation; APC is consumed in sepsis-DIC → purpura fulminans in acquired PC deficiency.
+- `connects-to` → **[Sepsis](../../07-system/sepsis/README.md)** — APC is consumed in sepsis-DIC → protein C levels < 40% predict 28-day mortality; acquired PC deficiency → purpura fulminans; drotrecogin alfa (rhAPC) reduced mortality in PROWESS (2001) but PROWESS-SHOCK (2011) showed no benefit in septic shock → withdrawn 2011.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — EPCR (endothelial protein C receptor) on ECs presents PC to thrombin-thrombomodulin → APC generation; EPCR-bound APC signals via PAR-1 → endothelial barrier protection (VE-cadherin), anti-inflammatory (NF-κB↓), anti-apoptotic (PI3K/Akt); EPCR expression falls in septic ECs.
+- `connects-to` → **[Sickle Cell Disease](../../07-system/sickle-cell-disease/README.md)** — Acquired protein C deficiency is common in SCD: vaso-occlusive crisis → local thrombin burst → APC consumption; protein C levels inversely correlate with VOC frequency; SCD patients have reduced EPCR expression on ECs → impaired APC generation during hemolytic crises.
 
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
