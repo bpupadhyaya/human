@@ -53,6 +53,9 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: target-of
     note: "Broadly neutralising antibodies (bNAbs) targeting gp120 conserved epitopes (V3/CD4bs/MPER) are a primary adaptive humoral defence; anti-gp41 IgG antibodies contribute to ADCC-mediated viral clearance."
+  - target: 01-human/07-system/aicardi-goutieres-syndrome
+    relation: connects-to
+    note: "SAMHD1 (AGS gene) is the principal HIV-1 restriction factor: dNTP hydrolase depletes viral dNTP pool → inhibits reverse transcription; HIV-2/SIVsm Vpx degrades SAMHD1; SAMHD1-LOF in AGS links innate antiviral immunity to monogenic neuroinflammation."
 ---
 
 # Human Immunodeficiency Virus type 1
@@ -153,6 +156,7 @@ Macrophages infected with R5-tropic HIV-1 support long-term viral production wit
 - **Damages** → [Immune System](../../../01-human/07-system/immune-system/README.md): CD4+ T cell depletion drives generalised immunosuppression; NK and B cell dysfunction contribute; loss of immune surveillance enables opportunistic infections and AIDS-defining malignancies.
 - **Damages** → [T Helper Cell](../../../01-human/04-cellular/t-helper-cell/README.md): Direct viral cytolysis, bystander apoptosis, and pyroptosis of CD4+ T cells.
 - **Target of** → [Immunoglobulin G](../../../01-human/03-molecular/immunoglobulin-g/README.md): Broadly neutralising antibodies targeting gp120 conserved sites are the basis for vaccine design; anti-gp41 IgG mediates ADCC.
+- **Connects-to** → [Aicardi-Goutières Syndrome](../../../01-human/07-system/aicardi-goutieres-syndrome/README.md): SAMHD1 (AGS gene) is the principal HIV-1 restriction factor: dNTP hydrolase depletes viral dNTP pool → inhibits reverse transcription; HIV-2/SIVsm Vpx degrades SAMHD1; SAMHD1-LOF in AGS links innate antiviral immunity to monogenic neuroinflammation.
 
 ## Pathology
 
@@ -227,3 +231,6 @@ The Berlin patient (Timothy Ray Brown, 2009) and London/City of Hope patients ac
 [^gallo-1984-isolation]: Gallo RC, Salahuddin SZ, Popovic M, et al. Frequent detection and isolation of cytopathic retroviruses (HTLV-III) from patients with AIDS and at risk for AIDS. *Science.* 1984;224(4648):500-3. [PubMed 6200935](https://pubmed.ncbi.nlm.nih.gov/6200935/)
 [^chun-1997-latent-reservoir]: Chun TW, Stuyver L, Mizell SB, et al. Presence of an inducible HIV-1 latent reservoir during highly active antiretroviral therapy. *Proc Natl Acad Sci USA.* 1997;94(24):13193-7. [PubMed 9353114](https://pubmed.ncbi.nlm.nih.gov/9353114/)
 [^lundgren-2015-start-trial]: Lundgren JD, Babiker AG, Gordin F, et al. Initiation of Antiretroviral Therapy in Early Asymptomatic HIV Infection (START). *N Engl J Med.* 2015;373(9):795-807. [doi:10.1056/NEJMoa1506816](https://doi.org/10.1056/NEJMoa1506816)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -33,6 +33,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "AGS is a chronic interferonopathy: dysfunctional nucleases → nucleic acid accumulation → cGAS-STING → constitutive IFN-α/β; CSF IFN-α >2 IU/mL is diagnostic; ISG score (blood interferon-stimulated gene signature) is elevated; reverse transcriptase inhibitors reduce IFN-α."
+  - target: 01-human/06-organ/microcephaly
+    relation: connects-to
+    note: "AGS causes post-natal progressive microcephaly via chronic IFN-α → microglial activation → cortical neuronal death; distinguishes from primary MCPH (genetic proliferation defects); basal ganglia calcification + acquired microcephaly = pseudo-TORCH presentation on neuroimaging."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "SAMHD1 (AGS gene) is the principal HIV-1 restriction factor: dNTP hydrolase depletes viral dNTP pool → inhibits reverse transcription; HIV-2/SIVsm Vpx degrades SAMHD1; SAMHD1-LOF in AGS links innate antiviral immunity to monogenic neuroinflammation."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "STING → TBK1 activates both IRF3 (IFN-β) and IKKβ/NF-κB; chronic NF-κB in AGS drives TNF-α/IL-6 from microglia independent of IFN; NF-κB upregulation amplifies neuroinflammation; baricitinib (JAK1/2 inhibitor) reduces ISG and NF-κB-driven inflammation in AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -128,3 +137,12 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 **→ [Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/)**: TREX1 LOF mutations cause both AGS and familial SLE — demonstrating that the same cGAS-STING pathway underlies both monogenic (AGS) and polygenic (SLE) interferonopathies; ANA and anti-dsDNA occur in TREX1 mutation carriers; type I IFN signature drives both diseases.
 
 **→ [Type I Interferon](../../../03-molecular/type-i-interferon/)**: AGS is a chronic interferonopathy: dysfunctional nucleases → nucleic acid accumulation → cGAS-STING → constitutive IFN-α/β; CSF IFN-α >2 IU/mL is diagnostic; ISG score (blood interferon-stimulated gene signature) is elevated; reverse transcriptase inhibitors reduce IFN-α.
+
+**→ [Microcephaly](../../../06-organ/microcephaly/)**: AGS causes post-natal progressive microcephaly via chronic IFN-α → microglial activation → cortical neuronal death; distinguishes from primary MCPH (genetic proliferation defects); basal ganglia calcification + acquired microcephaly = pseudo-TORCH presentation on neuroimaging.
+
+**→ [HIV-1](../../../../02-pathogen/01-viruses/hiv-1/)**: SAMHD1 (AGS gene) is the principal HIV-1 restriction factor: dNTP hydrolase depletes viral dNTP pool → inhibits reverse transcription; HIV-2/SIVsm Vpx degrades SAMHD1; SAMHD1-LOF in AGS links innate antiviral immunity to monogenic neuroinflammation.
+
+**→ [NF-κB](../../../03-molecular/nf-kb/)**: STING → TBK1 activates both IRF3 (IFN-β) and IKKβ/NF-κB; chronic NF-κB in AGS drives TNF-α/IL-6 from microglia independent of IFN; NF-κB upregulation amplifies neuroinflammation; baricitinib (JAK1/2 inhibitor) reduces ISG and NF-κB-driven inflammation in AGS.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

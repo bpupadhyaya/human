@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "Zika virus uses AXL receptor on extravillous trophoblast and syncytiotrophoblast for placental entry; Zika-infected placenta → neuroprogenitor apoptosis → congenital microcephaly; placental intervillositis and villitis are histological hallmarks of vertical Zika transmission."
+  - target: 01-human/07-system/aicardi-goutieres-syndrome
+    relation: connects-to
+    note: "AGS causes post-natal progressive microcephaly via chronic IFN-α → microglial activation → cortical neuronal death; distinguishes from primary MCPH (genetic proliferation defects); basal ganglia calcification + acquired microcephaly = pseudo-TORCH presentation on neuroimaging."
 ---
 
 # Microcephaly
@@ -124,6 +127,7 @@ ZIKV-related microcephaly highlighted the vulnerability of the expanding NPC poo
 - `targets` → **[Brain](../../06-organ/brain/README.md)** — microcephaly directly reflects failure of normal brain growth, particularly cortical expansion; the cerebral cortex is the primary affected structure, with reduced surface area, simplified gyral pattern, and disordered lamination.
 - `part-of` → **[Nervous System](../../07-system/nervous-system/README.md)** — microcephaly is a neurodevelopmental disorder of the central nervous system; the downstream clinical manifestations — cognitive impairment, epilepsy, motor dysfunction — reflect dysfunction of CNS circuits built from a reduced and disorganized cortex.
 - `connects-to` → **[Placenta](../placenta/README.md)** — Zika virus uses AXL receptor on extravillous trophoblast and syncytiotrophoblast for placental entry; Zika-infected placenta → neuroprogenitor apoptosis → congenital microcephaly; placental intervillositis and villitis are histological hallmarks of vertical Zika transmission.
+- `connects-to` → **[Aicardi-Goutières Syndrome](../../07-system/aicardi-goutieres-syndrome/README.md)** — AGS causes post-natal progressive microcephaly via chronic IFN-α → microglial activation → cortical neuronal death; distinguishes from primary MCPH (genetic proliferation defects); basal ganglia calcification + acquired microcephaly = pseudo-TORCH presentation on neuroimaging.
 
 ## Pathology
 

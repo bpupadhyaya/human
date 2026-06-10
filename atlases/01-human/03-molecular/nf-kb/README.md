@@ -115,6 +115,9 @@ cross_links:
   - target: 01-human/03-molecular/sars-cov-2-spike
     relation: connects-to
     note: "SARS-CoV-2 Spike activates TLR2/TLR4 → NF-κB in airway epithelium and endothelial cells; Spike-induced ACE2 downregulation → Ang II excess → AT1R → NF-κB → cytokine storm; NF-κB inhibition (baricitinib) is the mechanistic basis of anti-inflammatory therapy in severe COVID-19."
+  - target: 01-human/07-system/aicardi-goutieres-syndrome
+    relation: connects-to
+    note: "STING → TBK1 activates both IRF3 (IFN-β) and IKKβ/NF-κB; chronic NF-κB in AGS drives TNF-α/IL-6 from microglia independent of IFN; NF-κB upregulation amplifies neuroinflammation; baricitinib (JAK1/2 inhibitor) reduces ISG and NF-κB-driven inflammation in AGS."
 ---
 
 # NF-κB
@@ -247,6 +250,7 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 - `connects-to` → **[HIV gp120](../hiv-gp120/README.md)** — gp120 binding to CD4 on T cells activates NF-κB → T cell activation → permissive environment for HIV replication; HIV LTR κB sites (×2) require NF-κB p65/p50 for proviral transcription; Tat + NF-κB cooperate at LTR for maximal HIV gene expression.
 - `connects-to` → **[SARS-CoV-2](../../07-system/sars-cov-2/README.md)** — SARS-CoV-2 activates NF-κB via TLR2 sensing, MAVS → IKKβ, and ACE2 downregulation → Ang II → AT1R → NF-κB; Spike-induced NF-κB amplifies cytokine storm (IL-6, TNF-α, IL-1β); NSP3 PLpro deubiquitinates NF-κB pathway intermediates to modulate antiviral signaling.
 - `connects-to` → **[SARS-CoV-2 Spike](../sars-cov-2-spike/README.md)** — SARS-CoV-2 Spike activates TLR2/TLR4 → NF-κB in airway epithelium and endothelial cells; Spike-induced ACE2 downregulation → Ang II excess → AT1R → NF-κB → cytokine storm; NF-κB inhibition (baricitinib) is the mechanistic basis of anti-inflammatory therapy in severe COVID-19.
+- `connects-to` → **[Aicardi-Goutières Syndrome](../../07-system/aicardi-goutieres-syndrome/README.md)** — STING → TBK1 activates both IRF3 (IFN-β) and IKKβ/NF-κB; chronic NF-κB in AGS drives TNF-α/IL-6 from microglia independent of IFN; NF-κB upregulation amplifies neuroinflammation; baricitinib (JAK1/2 inhibitor) reduces ISG and NF-κB-driven inflammation in AGS.
 
 ## Pathology
 
@@ -265,3 +269,6 @@ Beyond IκBα, p65/RelA is extensively regulated by post-translational modificat
 [^karin-2000-nfkb-cancer-inflammation]: Karin M, Cao Y, Greten FR, Li ZW. NF-κB in cancer: from innocent bystander to major culprit. *Nat Rev Cancer.* 2002;2(4):301-10. [doi:10.1038/nrc780](https://doi.org/10.1038/nrc780)
 [^hayden-2012-nfkb-signaling]: Hayden MS, Ghosh S. NF-κB, the first quarter-century: remarkable progress and outstanding questions. *Genes Dev.* 2012;26(3):203-34. [doi:10.1101/gad.183434.111](https://doi.org/10.1101/gad.183434.111)
 [^liu-2017-nfkb-inflammation]: Liu T, Zhang L, Joo D, Sun SC. NF-κB signaling in inflammation. *Signal Transduct Target Ther.* 2017;2:17023. [doi:10.1038/sigtrans.2017.23](https://doi.org/10.1038/sigtrans.2017.23)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
