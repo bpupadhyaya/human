@@ -56,6 +56,12 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Bohr effect: CO₂ → H⁺ → protonation of His146β → T-state stabilisation → rightward O₂ dissociation curve shift → O₂ release in exercising tissues; each 0.1 pH unit drop shifts P50 ~3 mmHg right; the Bohr effect is the molecular basis of efficient O₂ delivery."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "O₂ binds haemoglobin cooperatively at the Fe²⁺ sixth coordination site; T→R conformational transition raises O₂ affinity 300-fold across the tetramer; P50 ~26 mmHg at 37°C, pH 7.4, PCO₂ 40 mmHg; 1.34 mL O₂ can be carried per gram of fully saturated Hb."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "N–H···O=C H-bonds in each globin chain stabilise α-helical structure and define haem pocket geometry; proximal His F8 N–H bonds to the porphyrin ring nitrogen; water H-bonds modulate O₂ affinity; H atoms in globin Cα positions define Ramachandran backbone geometry."
 ---
 
 # Hemoglobin
@@ -147,6 +153,8 @@ Globin gene expression during erythropoiesis is driven by transcription factors 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Globin chains are carbon-backbone polypeptides; ~23% of CO₂ transported as carbamino-Hb (CO₂ reacts at α-amino termini of globin chains); Haldane effect: deoxyHb binds CO₂ 3.5× more avidly than oxyHb, enabling efficient tissue CO₂ unloading.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Four porphyrin ring nitrogens coordinate Fe²⁺; proximal His (F8) provides fifth axial N ligand; distal His (E7) H-bonds O₂; His146β imidazole accepts CO₂-driven proton → T-state stabilisation → O₂ release in peripheral tissues (Bohr effect).
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Bohr effect: CO₂ → H⁺ → protonation of His146β → T-state stabilisation → rightward O₂ dissociation curve shift → O₂ release in exercising tissues; each 0.1 pH unit drop shifts P50 ~3 mmHg right; the Bohr effect optimises O₂ delivery to active muscle.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — O₂ binds haem Fe²⁺ cooperatively; T→R conformational transition raises O₂ affinity 300-fold across the tetramer; P50 ~26 mmHg at 37°C, pH 7.4, PCO₂ 40 mmHg; 1.34 mL O₂ can be carried per gram of fully saturated Hb.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — N–H···O=C H-bonds stabilise α-helices of each globin chain and define haem pocket geometry; proximal His F8 N–H bonds to porphyrin ring nitrogen; water H-bonds modulate O₂ affinity; H atoms in globin Cα define Ramachandran backbone geometry.
 
 ## Pathology
 

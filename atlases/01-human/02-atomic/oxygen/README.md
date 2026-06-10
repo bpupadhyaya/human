@@ -42,6 +42,15 @@ cross_links:
     relation: modulated-by
     evidence: perutz-1979-haemoglobin
     note: "Erythrocytes carry ~250 million haemoglobin tetramers each; 25 trillion RBCs deliver ~250 mL O₂/min at rest, binding O₂ cooperatively in the lungs (P₅₀ ~26 mmHg) and releasing it via the Bohr effect in tissues."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "O₂ binds cooperatively to haem Fe²⁺ in each Hb subunit (Hill n ~2.8); sigmoidal ODC loads at the lungs (PO₂ ~100 mmHg, ~98% sat) and releases in tissues (PO₂ ~40 mmHg, ~75% sat); Bohr effect: CO₂/H⁺ rightward-shifts the ODC, enhancing tissue O₂ delivery."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "O₂ diffuses from alveolar gas (PAO₂ ~100 mmHg) across the 0.2-µm blood-gas barrier into pulmonary capillary blood (venous PO₂ ~40 mmHg); equilibration is complete by ~0.25 s (one-third of capillary transit); Fick's law: V̇O₂ = D × A × ΔP/T governs O₂ transfer."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "ARDS causes refractory hypoxaemia (PaO₂/FiO₂ <200 mmHg) via diffuse alveolar damage, alveolar flooding, V/Q mismatch, and shunt; prone positioning, PEEP optimisation, and low-tidal-volume ventilation (ARDSNet 6 mL/kg IBW) reduce mortality by improving O₂ delivery."
 taxonomy:
   element_symbol: "O"
   atomic_number: 8
@@ -125,8 +134,12 @@ The sigmoidal O₂-dissociation curve (ODC) means:
 
 ## Connections
 
-- **Modulates** → [Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md): O₂ is the terminal electron acceptor for oxidative phosphorylation in cardiomyocyte mitochondria; O₂ deprivation (ischemia) leads to ATP depletion and irreversible cardiomyocyte injury within ~20–40 minutes.
-- **Modulated-by** → [Electron](../../01-subatomic/electron/README.md): The electronic structure of O₂ — two unpaired electrons in degenerate π* molecular orbitals — determines its paramagnetic character, its step-wise reduction to water through ROS intermediates, and its role as the terminal electron acceptor in Complex IV.
+- `modulates` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — O₂ is the terminal electron acceptor for oxidative phosphorylation in cardiomyocyte mitochondria; ischaemia leads to ATP depletion and irreversible cardiomyocyte injury within ~20–40 min.
+- `modulated-by` → **[Electron](../../01-subatomic/electron/README.md)** — Two unpaired electrons in π* orbitals make O₂ paramagnetic; step-wise single-electron reductions yield superoxide, H₂O₂, and hydroxyl radical; Complex IV accepts 4e⁻ to reduce O₂ → 2 H₂O.
+- `modulated-by` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — 25 trillion RBCs each carry ~250 million Hb tetramers; together deliver ~250 mL O₂/min at rest; cooperative binding (P₅₀ ~26 mmHg) and Bohr effect optimise O₂ loading and release.
+- `connects-to` → **[Haemoglobin](../../03-molecular/hemoglobin/README.md)** — O₂ binds cooperatively to haem Fe²⁺ (Hill n ~2.8); sigmoidal ODC loads at the lungs (PO₂ ~100 mmHg) and releases in tissues (PO₂ ~40 mmHg); Bohr effect (CO₂/H⁺) rightward-shifts the ODC.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — O₂ diffuses from alveolar gas (PAO₂ ~100 mmHg) across the 0.2-µm blood-gas barrier; equilibration is complete by ~0.25 s (one-third of capillary transit); Fick's law governs transfer efficiency.
+- `connects-to` → **[ARDS](../../06-organ/ards/README.md)** — ARDS causes refractory hypoxaemia (PaO₂/FiO₂ <200 mmHg) via diffuse alveolar damage, flooding, and intrapulmonary shunt; prone positioning, PEEP optimisation, and low-tidal-volume ventilation improve O₂ delivery.
 
 ## Pathology
 
@@ -149,3 +162,5 @@ The sigmoidal O₂-dissociation curve (ODC) means:
 [^perutz-1979-haemoglobin]: Perutz MF. Regulation of oxygen affinity of hemoglobin. *Annu Rev Biochem.* 1979;48:327-86. [doi:10.1146/annurev.bi.48.070179.001551](https://doi.org/10.1146/annurev.bi.48.070179.001551) · [PubMed 382986](https://pubmed.ncbi.nlm.nih.gov/382986/)
 [^weibel-2004-symmorphosis]: Weibel ER, Taylor CR, Hoppeler H. The concept of symmorphosis. *Proc Natl Acad Sci USA.* 1991;88(22):10357-61. [doi:10.1073/pnas.88.22.10357](https://doi.org/10.1073/pnas.88.22.10357) · [PubMed 1720538](https://pubmed.ncbi.nlm.nih.gov/1720538/)
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

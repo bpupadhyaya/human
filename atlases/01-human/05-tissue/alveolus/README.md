@@ -51,6 +51,9 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: damaged-by
     note: "A. fumigatus conidia (2-3 µm) deposit in terminal alveoli; alveolar macrophages phagocytose via Dectin-1 within 4-8h; in neutropenic hosts, RodA hydrophobin shields conidia from Dectin-1 → germination → hyphal invasion of alveolar walls and vasculature."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "O₂ diffuses from alveolar gas (PAO₂ ~100 mmHg) across the 0.2-µm blood-gas barrier into pulmonary capillary blood (PO₂ ~40 mmHg venous); complete equilibration by ~0.25 s (one-third of capillary transit); Fick's law: V̇O₂ = D × A × ΔP/T defines efficiency."
 taxonomy:
   uberon: "UBERON:0002299"
   fma: "FMA:7318"
@@ -129,6 +132,7 @@ The alveolar surface tension is the dominant determinant of lung compliance (C =
 - **Part-of** → [Lung](../../06-organ/lung/README.md): Alveoli form the gas-exchange parenchyma of the lung; ~300 million alveoli account for most of the lung's internal volume.
 - **Damaged-by** → [Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md): Mtb infects alveolar macrophages, replicates intracellularly, and triggers granuloma formation that can cavitate and destroy alveolar structure, causing the pathological hallmark of pulmonary TB.
 - `damaged-by` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — conidia (2-3 µm) deposit in terminal alveoli; alveolar macrophages phagocytose via Dectin-1 within 4-8h; in neutropenic hosts, RodA hydrophobin shields conidia from Dectin-1 → germination → hyphal invasion of alveolar walls and vasculature.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — O₂ diffuses from alveolar gas (PAO₂ ~100 mmHg) across the 0.2-µm blood-gas barrier; equilibration in ~0.25 s (one-third of capillary transit); Fick's law: V̇O₂ = D × A × ΔP/T defines gas transfer efficiency.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

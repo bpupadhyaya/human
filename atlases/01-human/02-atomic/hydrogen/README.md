@@ -30,6 +30,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: modulates
     note: "The H⁺ electrochemical gradient (pmf) across the inner mitochondrial membrane drives F₀F₁-ATP synthase: proton flow through the F₀ c-ring rotates the γ-stalk, synthesising ATP in the F₁ head via Boyer's binding-change mechanism — ~28 of ~32 ATP per glucose."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "N–H···O=C hydrogen bonds stabilise the 8 α-helical segments (A–H helices) of each globin chain, defining haem pocket geometry; Cα–H hydrogen atoms form the sp³ backbone scaffold; ordered water H-bonds in the haem pocket modulate O₂ affinity and cooperativity."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "H atoms in fatty acid C–H bonds (H:C ratio ~2:1) carry the chemical energy oxidized in hepatocyte mitochondria; β-oxidation strips H as NADH/FADH₂; NADH H-atom transfer to ETC yields 2.5 ATP/H; liver gluconeogenesis consumes H atoms via NAD-linked dehydrogenases."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Renal α-intercalated cells secrete H⁺ via luminal H⁺-ATPase; NHE3 in proximal tubule secretes H⁺ and reabsorbs Na⁺; kidney recovers ~4500 mmol HCO₃⁻/day; H⁺ excretion as NH₄⁺ from glutamine deamidation is essential for systemic acid-base homeostasis."
 ---
 
 # Hydrogen
@@ -134,11 +143,12 @@ The body maintains blood pH within the narrow range 7.35–7.45 through the bica
 
 ## Connections
 
-- **Contains** → [Proton](../../01-subatomic/proton/README.md): The proton is the nucleus of hydrogen. In solution, H⁺ is the proton, the fundamental H-transferring species in acid–base chemistry and the chemiosmotic coupling of ATP synthesis.
-
-- **Part-of** → [Human Body](../../08-whole-body/human-body/README.md): Hydrogen is the most abundant element in the body by atom count. It is present in every molecule of water, every C–H and N–H and O–H bond, and every hydrogen bond in every macromolecule.
-
-- **Modulates** → [ATP](../../03-molecular/atp/README.md): The H⁺ electrochemical gradient (pmf) across the inner mitochondrial membrane is the driving force for F₀F₁-ATP synthase, converting the kinetic energy of proton flow into the chemical energy of the ATP phosphoanhydride bond.
+- `contains` → **[Proton](../../01-subatomic/proton/README.md)** — The proton is the nucleus of ¹H; as H⁺ in solution it is the fundamental H-transferring species in Brønsted acid–base chemistry and the chemiosmotic coupling of electron transport to ATP synthesis.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — Hydrogen is the most abundant element in the body by atom count (~60%); present in every H₂O molecule, every C–H, N–H, and O–H bond, and every hydrogen bond stabilising macromolecular structure.
+- `modulates` → **[ATP](../../03-molecular/atp/README.md)** — The H⁺ electrochemical gradient (pmf) across the inner mitochondrial membrane drives F₀F₁-ATP synthase; proton flow through the F₀ c-ring rotates the γ-stalk, synthesising ATP via Boyer's binding-change mechanism.
+- `connects-to` → **[Haemoglobin](../../03-molecular/hemoglobin/README.md)** — N–H···O=C hydrogen bonds stabilise α-helices of each globin chain and define haem pocket geometry; Cα–H atoms form the backbone scaffold; water H-bonds in the haem pocket modulate O₂ affinity.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — H atoms in fatty acid C–H bonds carry chemical energy oxidized in hepatocyte mitochondria; β-oxidation strips H as NADH/FADH₂; NADH H-atom transfer to ETC yields 2.5 ATP/H.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Renal α-intercalated cells secrete H⁺ via luminal H⁺-ATPase; NHE3 reabsorbs Na⁺ while secreting H⁺; kidney recovers ~4500 mmol HCO₃⁻/day; H⁺ excretion as NH₄⁺ maintains systemic acid-base homeostasis.
 
 ## Pathology
 
@@ -164,3 +174,5 @@ The body maintains blood pH within the narrow range 7.35–7.45 through the bica
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^mitchell-1961-chemiosmosis]: Mitchell P. Coupling of phosphorylation to electron and hydrogen transfer by a chemi-osmotic type of mechanism. *Nature.* 1961;191:144-8. [doi:10.1038/191144a0](https://doi.org/10.1038/191144a0) · [PubMed 13771349](https://pubmed.ncbi.nlm.nih.gov/13771349/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

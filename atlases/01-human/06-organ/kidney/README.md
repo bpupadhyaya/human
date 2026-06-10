@@ -82,6 +82,9 @@ cross_links:
   - target: 03-medicine/01-modern/06-antimicrobial/vancomycin
     relation: damaged-by
     note: "Vancomycin causes nephrotoxicity via oxidative tubular injury; AUC/MIC-guided dosing (target AUC 400–600 mg·h/L) replaces trough monitoring (2020 ASHP/IDSA consensus); risk factors: CKD, prolonged courses, NSAIDs or aminoglycoside co-administration."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Renal α-intercalated cells secrete H⁺ via luminal H⁺-ATPase; NHE3 in proximal tubule secretes H⁺ and reabsorbs Na⁺; kidney recovers ~4500 mmol HCO₃⁻/day; H⁺ excretion as NH₄⁺ from glutamine deamidation is essential for systemic acid-base homeostasis."
 taxonomy:
   uberon: "UBERON:0002113"
   fma: "FMA:7203"
@@ -212,6 +215,7 @@ ACE inhibitors interrupt this cascade by blocking ACE; this reduces Ang II, dila
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management in kidney disease.
 - **Damaged-by** → [Vancomycin](../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md): Nephrotoxicity via oxidative tubular injury; AUC/MIC-guided dosing (target AUC 400–600 mg·h/L) replaces trough monitoring (2020 ASHP/IDSA consensus); risk factors: CKD, prolonged courses, NSAIDs or aminoglycoside co-administration.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Renal α-intercalated cells secrete H⁺ via luminal H⁺-ATPase; NHE3 reabsorbs Na⁺ while secreting H⁺; kidney recovers ~4500 mmol HCO₃⁻/day; H⁺ excretion as NH₄⁺ from glutamine maintains systemic acid-base homeostasis.
 
 ## Pathology
 

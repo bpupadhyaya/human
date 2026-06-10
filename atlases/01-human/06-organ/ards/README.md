@@ -37,6 +37,15 @@ cross_links:
   - target: 03-medicine/01-modern/12-anti-inflammatory/dexamethasone
     relation: treated-by
     note: "DEXA-ARDS trial: dexamethasone 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days (18.3 vs 9.9) and reduced 60-day mortality (29.3% vs 44.8%); targets fibroproliferative ARDS phase; suppresses neutrophilic lung inflammation."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: treated-by
+    note: "Dexamethasone 20 mg IV × 5d then 10 mg × 5d (DEXA-ARDS trial) increased ventilator-free days and reduced 60-day mortality (29.3% vs 44.8%); methylprednisolone reduces ARDS duration; corticosteroids are standard of care for fibroproliferative ARDS."
+  - target: 03-medicine/01-modern/05-antiviral/oseltamivir
+    relation: connects-to
+    note: "Severe influenza (H5N1, H1N1pdm09) causes viral ARDS via type II pneumocyte destruction and cytokine storm; early oseltamivir reduces ICU admission and ARDS risk; WHO recommends early treatment for severely ill regardless of >48h symptom delay."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ARDS is defined by PaO₂/FiO₂ <200 mmHg (Berlin criteria); diffuse alveolar damage → alveolar flooding → V/Q mismatch and shunt → refractory hypoxaemia despite high FiO₂; prone positioning, PEEP optimisation, and low-tidal-volume ventilation improve O₂ delivery."
 ---
 
 # Acute Respiratory Distress Syndrome
@@ -115,6 +124,9 @@ ARDS hypoxemia results from two principal mechanisms:
 - `modulated-by` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — elevated in ARDS BAL; impairs alveolar fluid clearance; drives fibroproliferative phase
 - `contains` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — type II cell hyperplasia in proliferative phase represents attempted re-epithelialization of denuded alveolar surface
 - `treated-by` → **[Dexamethasone](../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — DEXA-ARDS trial: 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days (18.3 vs 9.9) and reduced 60-day mortality (29.3% vs 44.8%); targets fibroproliferative ARDS phase.
+- `treated-by` → **[Corticosteroids](../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Dexamethasone (DEXA-ARDS trial) increased ventilator-free days and reduced 60-day mortality (29.3% vs 44.8%); methylprednisolone reduces ARDS duration; corticosteroids are standard of care for fibroproliferative ARDS.
+- `connects-to` → **[Oseltamivir](../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md)** — Severe influenza (H5N1, H1N1pdm09) causes viral ARDS via type II pneumocyte destruction and cytokine storm; early oseltamivir reduces ICU admission and ARDS risk; WHO recommends treatment regardless of 48h symptom delay in severely ill.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ARDS is defined by PaO₂/FiO₂ <200 mmHg (Berlin criteria); diffuse alveolar damage → V/Q mismatch and intrapulmonary shunt → refractory hypoxaemia despite high FiO₂; prone positioning, PEEP optimisation, and low-tidal-volume ventilation improve O₂ delivery.
 
 ## Pathology
 
