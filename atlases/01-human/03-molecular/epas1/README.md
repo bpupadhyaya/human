@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "HIF-2α is the principal transcriptional activator of VEGF in VHL-mutant RCC; EPAS1 binds HRE upstream of VEGF promoter → VEGF secretion → angiogenesis; belzutifan targets HIF-2α upstream, suppressing VEGF production in RCC."
+  - target: 01-human/03-molecular/egln1
+    relation: connects-to
+    note: "EGLN1 (PHD2) hydroxylates HIF-2α at Pro405/Pro531 → VHL-mediated degradation; Tibetan EGLN1 D4E/C127S increases HIF-2α hydroxylation → blunted EPO at altitude; PHD inhibitors stabilize HIF-2α → EPO upregulation for CKD anemia."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "HIF-2α (EPAS1) is the dominant oncogenic driver in VHL-mutant clear cell RCC (~90% have VHL LOF); activates VEGF, TGF-α, CCND1, OCT4 → tumor angiogenesis and stemness; belzutifan (PAS-B allosteric inhibitor) FDA-approved for advanced ccRCC after PD-1 + VEGFR TKI (LITESPARK-005)."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "HIF-2α is the principal EPO activator in renal peritubular cells; EPAS1 GOF mutations → HIF-2α resistant to PHD2 hydroxylation → hereditary erythrocytosis; Chuvash polycythemia (VHL R200W) stabilizes HIF-2α → EPO excess; PHD inhibitors target the HIF-2α/EPO axis for CKD anemia."
 ---
 
 # EPAS1
@@ -143,6 +152,13 @@ Somatic EPAS1 mutations in ~9% sporadic PPGL; often large deletions or missense 
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — HIF-2α drives EPO transcription → JAK2/STAT5 activation in erythroid progenitors; JAK2 V617F in PV constitutively activates erythropoiesis, mimicking EPO-independent signaling; ruxolitinib suppresses HIF-2α expression in myeloid cells.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTORC1 promotes HIF-2α translation via S6K/4E-BP1 phosphorylation; HIF-2α activates VEGF → PI3K-AKT-mTOR → angiogenesis; everolimus has activity in VHL-mutant RCC; dual HIF-2α+mTOR inhibition explored in ccRCC.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HIF-2α is the principal transcriptional activator of VEGF in VHL-mutant RCC; EPAS1 binds HRE upstream of VEGF promoter → VEGF secretion → angiogenesis; belzutifan targets HIF-2α upstream, suppressing VEGF production in RCC.
+- `connects-to` → **[EGLN1](../../03-molecular/egln1/README.md)** — EGLN1 (PHD2) hydroxylates HIF-2α at Pro405/Pro531 → VHL-mediated degradation; Tibetan EGLN1 D4E/C127S increases HIF-2α hydroxylation → blunted EPO at altitude; PHD inhibitors stabilize HIF-2α → EPO upregulation for CKD anemia.
+- `connects-to` → **[Renal Cell Carcinoma](../../07-system/renal-cell-carcinoma/README.md)** — HIF-2α (EPAS1) is the dominant oncogenic driver in VHL-mutant clear cell RCC (~90% have VHL LOF); activates VEGF, TGF-α, CCND1, OCT4 → tumor angiogenesis and stemness; belzutifan (PAS-B allosteric inhibitor) FDA-approved for advanced ccRCC after PD-1 + VEGFR TKI (LITESPARK-005).
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — HIF-2α is the principal EPO activator in renal peritubular cells; EPAS1 GOF mutations → HIF-2α resistant to PHD2 hydroxylation → hereditary erythrocytosis; Chuvash polycythemia (VHL R200W) stabilizes HIF-2α → EPO excess; PHD inhibitors target the HIF-2α/EPO axis for CKD anemia.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^jonasch-2021-belzutifan]: Jonasch E, Donskov F, Iliopoulos O, et al. Belzutifan for renal cell carcinoma in von Hippel-Lindau disease. *N Engl J Med.* 2021;385(22):2036-2046. [doi:10.1056/NEJMoa2103979](https://doi.org/10.1056/NEJMoa2103979) · [PubMed 34818478](https://pubmed.ncbi.nlm.nih.gov/34818478/)
 [^choueiri-2023-litespark005]: Choueiri TK, Powles T, Albiges L, et al. Belzutifan versus everolimus for advanced renal-cell carcinoma. *N Engl J Med.* 2023;388(10):869-881. [doi:10.1056/NEJMoa2212875](https://doi.org/10.1056/NEJMoa2212875) · [PubMed 36827464](https://pubmed.ncbi.nlm.nih.gov/36827464/)

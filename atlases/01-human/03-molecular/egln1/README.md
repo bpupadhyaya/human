@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/vhl-disease
     relation: connects-to
     note: "VHL disease results from germline VHL LOF → constitutive HIF-1α/2α stabilization (mimicking EGLN1 inactivation); belzutifan (HIF-2α inhibitor) is FDA-approved for VHL disease-related RCC, CNS hemangioblastoma, and pNET — targeting the downstream effector of VHL/EGLN1 loss."
+  - target: 01-human/03-molecular/epas1
+    relation: connects-to
+    note: "EGLN1 (PHD2) hydroxylates HIF-2α (EPAS1) at Pro405/Pro531 → VHL recognition → degradation; HIF-2α is the principal renal EPO driver and dominant oncogene in VHL-mutant RCC; Tibetan EGLN1 D4E/C127S variant boosts HIF-2α degradation → blunted EPO response at altitude."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "PHD inhibitors (daprodustat, vadadustat) targeting EGLN1/2/3 are FDA-approved for CKD anemia; CKD accumulates succinate and uremic toxins that impair EGLN1 → partial HIF activation; PHIs restore HIF-2α/EPO axis → erythropoiesis without supraphysiological ESA dosing."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "VHL biallelic inactivation in ~90% of ccRCC mimics permanent EGLN1 inactivation → HIF-1α/2α constitutively stable; SDH/FH mutations accumulate succinate/fumarate → competitive EGLN1 inhibition → HIF activation in hereditary RCC syndromes (SDH-deficient RCC, HLRCC)."
 ---
 
 # EGLN1
@@ -148,6 +157,13 @@ PHI concerns:
 - `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — VHL (pVHL) recognizes EGLN1-hydroxylated HIF-1α/2α at hydroxyproline residues via the VHL β-domain; VHL-ELOC-ELOB-CUL2 E3 complex ubiquitinates HIF → degradation; VHL LOF (germline in VHL disease) → HIF accumulates constitutively independent of EGLN1 status.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — PHD inhibitors (daprodustat, vadadustat, roxadustat) reversibly inhibit EGLN1/2/3 → HIF-1α/2α stabilization → EPO transcription upregulated → erythropoiesis stimulated; FDA-approved for anemia of CKD; mimic the endogenous hypoxic response to erythropoetin deficiency.
 - `connects-to` → **[VHL Disease](../../07-system/vhl-disease/README.md)** — VHL disease results from germline VHL LOF → constitutive HIF-1α/2α stabilization (mimicking EGLN1 inactivation); belzutifan (HIF-2α inhibitor) is FDA-approved for VHL disease-related RCC, CNS hemangioblastoma, and pNET — targeting the downstream effector of VHL/EGLN1 loss.
+- `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — EGLN1 (PHD2) hydroxylates HIF-2α (EPAS1) at Pro405/Pro531 → VHL recognition → degradation; HIF-2α is the principal renal EPO driver and dominant oncogene in VHL-mutant RCC; Tibetan EGLN1 D4E/C127S variant boosts HIF-2α degradation → blunted EPO response at altitude.
+- `connects-to` → **[CKD](../../07-system/ckd/README.md)** — PHD inhibitors (daprodustat, vadadustat) targeting EGLN1/2/3 are FDA-approved for CKD anemia; CKD accumulates succinate and uremic toxins that impair EGLN1 → partial HIF activation; PHIs restore HIF-2α/EPO axis → erythropoiesis without supraphysiological ESA dosing.
+- `connects-to` → **[Renal Cell Carcinoma](../../07-system/renal-cell-carcinoma/README.md)** — VHL biallelic inactivation in ~90% of ccRCC mimics permanent EGLN1 inactivation → HIF-1α/2α constitutively stable; SDH/FH mutations accumulate succinate/fumarate → competitive EGLN1 inhibition → HIF activation in hereditary RCC syndromes (SDH-deficient RCC, HLRCC).
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^epstein-2001-egln-family]: Epstein AC, Gleadle JM, McNeill LA, et al. C. elegans EGL-9 and mammalian homologs define a family of dioxygenases that regulate HIF by prolyl hydroxylation. *Cell.* 2001;107(1):43-54. [doi:10.1016/S0092-8674(01)00507-4](https://doi.org/10.1016/S0092-8674(01)00507-4) · [PubMed 11595184](https://pubmed.ncbi.nlm.nih.gov/11595184/)
 [^kaelin-2008-hif-hydroxylase]: Kaelin WG Jr, Ratcliffe PJ. Oxygen sensing by metazoans: the central role of the HIF hydroxylase pathway. *Mol Cell.* 2008;30(4):393-402. [doi:10.1016/j.molcel.2008.04.009](https://doi.org/10.1016/j.molcel.2008.04.009) · [PubMed 18498744](https://pubmed.ncbi.nlm.nih.gov/18498744/)
