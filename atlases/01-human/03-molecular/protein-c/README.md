@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "Acquired protein C deficiency is common in SCD: vaso-occlusive crisis → local thrombin burst → APC consumption; protein C levels inversely correlate with VOC frequency; SCD patients have reduced EPCR expression on ECs → impaired APC generation during hemolytic crises."
+  - target: 01-human/07-system/hemophilia-a
+    relation: connects-to
+    note: "APC inactivates FVIIIa by cleavage at Arg336 and Arg562; APC + protein S → efficient FVIIIa proteolysis → limits thrombin amplification; FV Leiden co-inheritance with mild HA creates a clinical paradox — APC resistance partially counteracts the hemophilic bleeding tendency."
 ---
 
 # Protein C
@@ -152,6 +155,7 @@ These effects provided the rationale for **drotrecogin alfa (recombinant human A
 - `connects-to` → **[Sepsis](../../07-system/sepsis/README.md)** — APC is consumed in sepsis-DIC → protein C levels < 40% predict 28-day mortality; acquired PC deficiency → purpura fulminans; drotrecogin alfa (rhAPC) reduced mortality in PROWESS (2001) but PROWESS-SHOCK (2011) showed no benefit in septic shock → withdrawn 2011.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — EPCR (endothelial protein C receptor) on ECs presents PC to thrombin-thrombomodulin → APC generation; EPCR-bound APC signals via PAR-1 → endothelial barrier protection (VE-cadherin), anti-inflammatory (NF-κB↓), anti-apoptotic (PI3K/Akt); EPCR expression falls in septic ECs.
 - `connects-to` → **[Sickle Cell Disease](../../07-system/sickle-cell-disease/README.md)** — Acquired protein C deficiency is common in SCD: vaso-occlusive crisis → local thrombin burst → APC consumption; protein C levels inversely correlate with VOC frequency; SCD patients have reduced EPCR expression on ECs → impaired APC generation during hemolytic crises.
+- `connects-to` → **[Hemophilia A](../../07-system/hemophilia-a/README.md)** — APC inactivates FVIIIa by cleavage at Arg336 and Arg562; APC + protein S → efficient FVIIIa proteolysis → limits thrombin amplification; FV Leiden co-inheritance with mild HA creates a clinical paradox — APC resistance partially counteracts the hemophilic bleeding tendency.
 
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)

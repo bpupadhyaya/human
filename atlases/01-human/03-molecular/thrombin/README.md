@@ -42,6 +42,9 @@ cross_links:
   - target: 01-human/03-molecular/antithrombin
     relation: connects-to
     note: "Antithrombin (SERPINC1; AT-III) is the primary physiological inhibitor of thrombin via a covalent suicide-complex; heparin accelerates AT inhibition ~1000× via template mechanism; AT deficiency → most severe inherited thrombophilia (25-50× VTE risk); AT consumed in DIC."
+  - target: 01-human/07-system/hemophilia-a
+    relation: connects-to
+    note: "Thrombin cleaves FVIII at Arg372/Arg740/Arg1689 → generates FVIIIa cofactor for intrinsic tenase; APC (thrombomodulin-thrombin product) cleaves FVIIIa at Arg336/Arg562 → inactivation; in HA, extrinsic-pathway thrombin is intact but amplification (intrinsic tenase) fails."
 sources:
   - id: connolly-2009-re-ly
     type: peer-reviewed
@@ -162,6 +165,11 @@ Thrombin cleaves fibrinopeptides A and B from fibrinogen → fibrin monomers →
 - `connects-to` → **[Inherited Thrombophilia](../../07-system/inherited-thrombophilia/README.md)** — FV Leiden (5% Europeans; APC resistance) and prothrombin G20210A (~2-3%) are the most common inherited thrombophilias downstream of thrombin; FVL blocks APC cleavage of FVa → persistent thrombin generation; prothrombin G20210A → elevated prothrombin → excess thrombin.
 - `connects-to` → **[Heparin-Induced Thrombocytopenia](../../07-system/heparin-induced-thrombocytopenia/README.md)** — HIT causes paradoxical thrombosis via thrombin: activated platelets (FcγRIIA crosslinked by anti-PF4/heparin IgG) release procoagulant microparticles → thrombin burst; argatroban and bivalirudin (direct thrombin inhibitors) are first-line non-heparin anticoagulants in HIT.
 - `connects-to` → **[Antithrombin](../antithrombin/README.md)** — Antithrombin (SERPINC1; AT-III) is the primary physiological inhibitor of thrombin via a covalent suicide-complex; heparin accelerates AT inhibition ~1000× via template mechanism; AT deficiency → most severe inherited thrombophilia (25-50× VTE risk); AT consumed in DIC.
+- `connects-to` → **[Hemophilia A](../../07-system/hemophilia-a/README.md)** — Thrombin cleaves FVIII at Arg372/Arg740/Arg1689 → generates FVIIIa cofactor for intrinsic tenase; APC (thrombomodulin-thrombin product) cleaves FVIIIa at Arg336/Arg562 → inactivation; in HA, extrinsic-pathway thrombin is intact but amplification (intrinsic tenase) fails.
 
 [^connolly-2009-re-ly]: Connolly SJ, Ezekowitz MD, Yusuf S, et al. Dabigatran versus warfarin in patients with atrial fibrillation. *N Engl J Med.* 2009;361(12):1139-1151. [doi:10.1056/NEJMoa0905561](https://doi.org/10.1056/NEJMoa0905561) · [PubMed 19717844](https://pubmed.ncbi.nlm.nih.gov/19717844/)
 [^mackman-2008-coagulation]: Mackman N. Triggers, targets and treatments for thrombosis. *Nature.* 2008;451(7181):914-918. [doi:10.1038/nature06797](https://doi.org/10.1038/nature06797) · [PubMed 18288180](https://pubmed.ncbi.nlm.nih.gov/18288180/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

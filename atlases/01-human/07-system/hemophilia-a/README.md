@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Anti-FVIII inhibitor antibodies are predominantly IgG4 (non-complement-fixing); IgG4 neutralizes FVIII infused as replacement therapy; inhibitor titer (Bethesda units) determines immune tolerance induction strategy; emicizumab bypasses FVIII → effective despite IgG4 inhibitors."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Thrombin cleaves FVIII at Arg372/Arg740/Arg1689 → generates FVIIIa cofactor for intrinsic tenase; APC (thrombomodulin-thrombin product) cleaves FVIIIa at Arg336/Arg562 → inactivation; in HA, extrinsic-pathway thrombin is intact but amplification (intrinsic tenase) fails."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "APC inactivates FVIIIa by cleavage at Arg336 and Arg562; APC + protein S → efficient FVIIIa proteolysis → limits thrombin amplification; FV Leiden co-inheritance with mild HA creates a clinical paradox — APC resistance partially counteracts the hemophilic bleeding tendency."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Severe HA (FVIII <1%) confers significant VTE protection; historical VTE rate in HA ~0.5/1000 PY vs. ~1.5-3/1000 general population; emicizumab reconstitutes intrinsic tenase; avoid high-dose APCC with emicizumab → TMA; gene therapy raising FVIII >150% increases VTE risk."
 ---
 
 # Hemophilia A
@@ -160,6 +169,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — VWF binds and protects FVIII in plasma → t½ ~12 h (VWF-bound) vs. ~2 h (free); VWF deficiency in VWD type 3 → secondary FVIII <10 IU/dL (resembles mild hemophilia A); VWD type 2N: FVIII-binding domain mutations → FVIII deficiency with normal VWF antigen levels.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Anti-FVIII inhibitor antibodies are predominantly IgG4 (non-complement-fixing); IgG4 neutralizes FVIII infused as replacement therapy; inhibitor titer (Bethesda units) determines ITI strategy; emicizumab bypasses FVIII → effective despite IgG4 inhibitors.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Thrombin cleaves FVIII at Arg372/Arg740/Arg1689 → generates FVIIIa cofactor for intrinsic tenase; APC (thrombomodulin-thrombin product) cleaves FVIIIa at Arg336/Arg562 → inactivation; in HA, extrinsic-pathway thrombin is intact but amplification (intrinsic tenase) fails.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — APC inactivates FVIIIa by cleavage at Arg336 and Arg562; APC + protein S → efficient FVIIIa proteolysis → limits thrombin amplification; FV Leiden co-inheritance with mild HA creates a clinical paradox — APC resistance partially counteracts the hemophilic bleeding tendency.
+- `connects-to` → **[Venous Thromboembolism](../../07-system/venous-thromboembolism/README.md)** — Severe HA (FVIII <1%) confers significant VTE protection; historical VTE rate in HA ~0.5/1000 PY vs. ~1.5-3/1000 general population; emicizumab reconstitutes intrinsic tenase; avoid high-dose APCC with emicizumab → TMA; gene therapy raising FVIII >150% increases VTE risk.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
