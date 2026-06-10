@@ -88,6 +88,9 @@ cross_links:
   - target: 01-human/05-tissue/guillain-barre
     relation: connects-to
     note: "SARS-CoV-2 is a GBS trigger; reports of GBS following COVID-19 infection and adenoviral-vector vaccines (ChAdOx1, Ad26.COV2.S); proposed mechanism: molecular mimicry between spike protein glycan epitopes and gangliosides; SARS-CoV-2 GBS cases tend toward AIDP subtype."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "SARS-CoV-2 infects placenta via ACE2 on syncytiotrophoblast → villous infarcts, intervillositis, perivillous fibrin; COVID-19 in pregnancy associated with preterm birth, IUGR, and stillbirth risk; Delta and Omicron variants cause more placental pathology than earlier strains."
 ---
 
 # SARS-CoV-2 (cardiac effects)
@@ -175,6 +178,7 @@ Long COVID cardiac symptoms (palpitations, orthostatic tachycardia, dyspnea on e
 - [Cardiomyocyte entry](../../../01-human/04-cellular/cardiomyocyte/README.md)
 - [Myocardium entry](../../../01-human/05-tissue/myocardium/README.md)
 - [Cardiovascular System entry](../../../01-human/07-system/cardiovascular-system/README.md)
+- `connects-to` → **[Placenta](../../../01-human/06-organ/placenta/README.md)** — SARS-CoV-2 infects placenta via ACE2 on syncytiotrophoblast → villous infarcts, intervillositis, perivillous fibrin; COVID-19 in pregnancy associated with preterm birth, IUGR, and stillbirth risk; Delta and Omicron variants cause more placental pathology than earlier strains.
 
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
 [^lindner-2020-cardiac-involvement]: Lindner D, Fitzek A, Brauninger H, et al. Association of cardiac infection with SARS-CoV-2 in confirmed COVID-19 autopsy cases. *JAMA Cardiol.* 2020;5(11):1281-5. [doi:10.1001/jamacardio.2020.3551](https://doi.org/10.1001/jamacardio.2020.3551) · [PubMed 32730555](https://pubmed.ncbi.nlm.nih.gov/32730555/)

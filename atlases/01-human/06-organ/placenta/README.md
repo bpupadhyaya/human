@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: modulated-by
     note: "TGF-β signaling regulates trophoblast invasion depth; excessive TGF-β1 in decidua restricts extravillous trophoblast invasion of spiral arteries, contributing to shallow placentation and the pathogenesis of pre-eclampsia and IUGR."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "FcRn on syncytiotrophoblast mediates IgG transcytosis → passive immunity to newborn (~0.5 g/day at term); maternal anti-Rh IgG causes hemolytic disease of the fetus/newborn (HDFN); IVIG given maternally suppresses alloimmune fetal thrombocytopenia."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "SARS-CoV-2 infects placenta via ACE2 on syncytiotrophoblast → villous infarcts, intervillositis, perivillous fibrin; COVID-19 in pregnancy associated with preterm birth, IUGR, and stillbirth risk; Delta and Omicron variants cause more placental pathology than earlier strains."
+  - target: 01-human/06-organ/microcephaly
+    relation: connects-to
+    note: "Zika virus uses AXL receptor on extravillous trophoblast and syncytiotrophoblast for placental entry; Zika-infected placenta → neuroprogenitor apoptosis → congenital microcephaly; placental intervillositis and villitis are histological hallmarks of vertical Zika transmission."
 ---
 
 # Placenta
@@ -133,6 +142,9 @@ Key mechanisms [^red-horse-2004-trophoblast]:
 
 - `contains` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — fetal villous capillary endothelial cells constitute the innermost layer of the placental exchange barrier; their integrity is critical for normal nutrient/gas transfer
 - `modulated-by` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β restricts extravillous trophoblast invasion depth; excess TGF-β1 in the decidua contributes to shallow placentation, reduced spiral artery remodeling, and the pathophysiology of pre-eclampsia and IUGR
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — FcRn on syncytiotrophoblast mediates IgG transcytosis → passive immunity to newborn (~0.5 g/day at term); maternal anti-Rh IgG causes hemolytic disease of the fetus/newborn (HDFN); IVIG given maternally suppresses alloimmune fetal thrombocytopenia.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — SARS-CoV-2 infects placenta via ACE2 on syncytiotrophoblast → villous infarcts, intervillositis, perivillous fibrin; COVID-19 in pregnancy associated with preterm birth, IUGR, and stillbirth risk; Delta and Omicron variants cause more placental pathology than earlier strains.
+- `connects-to` → **[Microcephaly](../microcephaly/README.md)** — Zika virus uses AXL receptor on extravillous trophoblast and syncytiotrophoblast for placental entry; Zika-infected placenta → neuroprogenitor apoptosis → congenital microcephaly; placental intervillositis and villitis are histological hallmarks of vertical Zika transmission.
 
 ## Pathology
 
@@ -171,3 +183,6 @@ The placenta provides partial but imperfect protection against vertical transmis
 [^gude-2004-placenta-function]: Gude NM et al. Growth and function of the normal human placenta. *Thromb Res.* 2004;114(5-6):397-407. [doi:10.1016/j.thromres.2004.06.038](https://doi.org/10.1016/j.thromres.2004.06.038) · [PubMed 15507271](https://pubmed.ncbi.nlm.nih.gov/15507271/)
 [^red-horse-2004-trophoblast]: Red-Horse K et al. Trophoblast differentiation during embryo implantation and formation of the maternal-fetal interface. *J Exp Med.* 2004;201(5):615-625. [doi:10.1084/jem.20040139](https://doi.org/10.1084/jem.20040139) · [PubMed 14993247](https://pubmed.ncbi.nlm.nih.gov/14993247/)
 [^brosens-2011-preeclampsia]: Brosens I et al. The 'Great Obstetrical Syndromes' are associated with disorders of deep placentation. *Am J Obstet Gynecol.* 2011;204(3):193-201. [doi:10.1016/j.ajog.2010.08.009](https://doi.org/10.1016/j.ajog.2010.08.009) · [PubMed 21060927](https://pubmed.ncbi.nlm.nih.gov/21060927/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: part-of
     note: "Microcephaly is primarily a neurodevelopmental disorder with downstream effects on the entire nervous system: cognitive impairment, epilepsy, motor dysfunction, and behavioral disorders arise from the reduced and disorganized cortical circuitry."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Zika virus uses AXL receptor on extravillous trophoblast and syncytiotrophoblast for placental entry; Zika-infected placenta → neuroprogenitor apoptosis → congenital microcephaly; placental intervillositis and villitis are histological hallmarks of vertical Zika transmission."
 ---
 
 # Microcephaly
@@ -120,6 +123,7 @@ ZIKV-related microcephaly highlighted the vulnerability of the expanding NPC poo
 
 - `targets` → **[Brain](../../06-organ/brain/README.md)** — microcephaly directly reflects failure of normal brain growth, particularly cortical expansion; the cerebral cortex is the primary affected structure, with reduced surface area, simplified gyral pattern, and disordered lamination.
 - `part-of` → **[Nervous System](../../07-system/nervous-system/README.md)** — microcephaly is a neurodevelopmental disorder of the central nervous system; the downstream clinical manifestations — cognitive impairment, epilepsy, motor dysfunction — reflect dysfunction of CNS circuits built from a reduced and disorganized cortex.
+- `connects-to` → **[Placenta](../placenta/README.md)** — Zika virus uses AXL receptor on extravillous trophoblast and syncytiotrophoblast for placental entry; Zika-infected placenta → neuroprogenitor apoptosis → congenital microcephaly; placental intervillositis and villitis are histological hallmarks of vertical Zika transmission.
 
 ## Pathology
 
@@ -134,3 +138,6 @@ ZIKV-related microcephaly highlighted the vulnerability of the expanding NPC poo
 [^gilmore-2010-microcephaly-genetics]: Gilmore EC, Walsh CA. Genetic causes of microcephaly and lessons for neuronal development. *Genes Dev.* 2013;27(24):2659-2672. [doi:10.1101/gad.215327.113](https://doi.org/10.1101/gad.215327.113) · [PubMed 24352420](https://pubmed.ncbi.nlm.nih.gov/24352420/)
 [^brasil-2016-zika-microcephaly]: Brasil P, Pereira JP Jr, Moreira ME, et al. Zika Virus Infection in Pregnant Women in Rio de Janeiro. *N Engl J Med.* 2016;375(24):2321-2334. [doi:10.1056/NEJMoa1602412](https://doi.org/10.1056/NEJMoa1602412) · [PubMed 26943629](https://pubmed.ncbi.nlm.nih.gov/26943629/)
 [^passemard-2013-microcephaly-review]: Passemard S, Kaindl AM, Verloes A. Microcephaly. *Handb Clin Neurol.* 2013;111:129-141. [doi:10.1016/B978-0-444-52891-9.00013-0](https://doi.org/10.1016/B978-0-444-52891-9.00013-0) · [PubMed 23622159](https://pubmed.ncbi.nlm.nih.gov/23622159/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

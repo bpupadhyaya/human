@@ -95,6 +95,9 @@ cross_links:
   - target: 01-human/07-system/hemophilia-a
     relation: connects-to
     note: "Anti-FVIII inhibitor antibodies are predominantly IgG4 (non-complement-fixing) and neutralize replacement FVIII therapy; inhibitor titer (Bethesda units) guides immune tolerance induction strategy; emicizumab (bispecific IgG4-based mAb) bypasses FVIII despite IgG4 inhibitors."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "FcRn on syncytiotrophoblast mediates IgG transcytosis → passive immunity to newborn (~0.5 g/day at term); maternal anti-Rh IgG causes hemolytic disease of the fetus/newborn (HDFN); IVIG given maternally suppresses alloimmune fetal thrombocytopenia."
 ---
 
 # Immunoglobulin G
@@ -185,9 +188,13 @@ FcγRI and FcγRIII contain ITAMs (immunoreceptor tyrosine-based activation moti
 - `connects-to` → **[ADAMTS13](../adamts13/README.md)** — Acquired iTTP is caused by IgG4 anti-ADAMTS13 autoantibodies (inhibiting spacer domain) that block VWF cleavage; non-inhibiting IgG1 antibodies accelerate ADAMTS13 clearance; rituximab depletes ADAMTS13-antibody-producing B cells → sustained ADAMTS13 recovery in iTTP.
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../../07-system/thrombotic-thrombocytopenic-purpura/README.md)** — iTTP is caused by anti-ADAMTS13 IgG4 autoantibodies → ULVWF accumulation → platelet microthrombi → MAHA + thrombocytopenia; rituximab (anti-CD20) is standard immunosuppression for iTTP; IgG titer and ADAMTS13 activity guide rituximab timing and relapse prevention.
 - `connects-to` → **[Hemophilia A](../../07-system/hemophilia-a/README.md)** — Anti-FVIII inhibitor antibodies are predominantly IgG4 (non-complement-fixing) and neutralize replacement FVIII therapy; inhibitor titer (Bethesda units) guides immune tolerance induction strategy; emicizumab (bispecific IgG4-based mAb) bypasses FVIII despite IgG4 inhibitors.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — FcRn on syncytiotrophoblast mediates IgG transcytosis → passive immunity to newborn (~0.5 g/day at term); maternal anti-Rh IgG causes hemolytic disease of the fetus/newborn (HDFN); IVIG given maternally suppresses alloimmune fetal thrombocytopenia.
 
 [^schroeder-cavacini-2010-igg]: Schroeder HW Jr, Cavacini L. Structure and function of immunoglobulins. *J Allergy Clin Immunol.* 2010;125(2 Suppl 2):S41-52. [doi:10.1016/j.jaci.2009.09.046](https://doi.org/10.1016/j.jaci.2009.09.046) · [PubMed 20176268](https://pubmed.ncbi.nlm.nih.gov/20176268/)
 [^ward-bhatt-2020-fcrn]: Ward ES, Bhatt DL, et al. The role of FcRn in immunity and its therapeutic implications. *Nat Rev Immunol.* 2020;20(7):399-407. [doi:10.1038/s41577-019-0260-y](https://doi.org/10.1038/s41577-019-0260-y) · [PubMed 32015434](https://pubmed.ncbi.nlm.nih.gov/32015434/)
 [^subbarao-2021-vaccine-igg]: Subbarao K. The success of SARS-CoV-2 vaccines and prospects for the future. *Nat Rev Immunol.* 2021;21(8):469-470. [doi:10.1038/s41577-021-00573-4](https://doi.org/10.1038/s41577-021-00573-4) · [PubMed 34155386](https://pubmed.ncbi.nlm.nih.gov/34155386/)
 [^abbas-immunology-9e]: Abbas AK, Lichtman AH, Pillai S. *Cellular and Molecular Immunology.* 9th ed. Elsevier; 2018.
 [^who-igg-reference]: World Health Organization. The WHO International Standard for anti-SARS-CoV-2 immunoglobulin. WHO/BS/2020.2403. [Read online →](https://www.who.int/publications/m/item/WHO-BS-2020.2403)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
