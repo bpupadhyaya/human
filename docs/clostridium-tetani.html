@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Clostridium tetani — Atlas Two Pathogen entry. Tetanospasmin (TeNT) zinc-metalloprotease, VAMP-2 cleavage, retrograde axonal transport, spastic paralysis, tetanus toxoid vaccine. Part of the Human Engineering project.">
-  <meta property="og:title" content="Clostridium tetani — Human Engineering Pathogen Atlas">
-  <meta property="og:description" content="C. tetani: tetanospasmin retrograde transport, VAMP-2 cleavage, GABA/glycine block, opisthotonos, tetanus toxoid 100% prevention.">
+  <meta name="description" content="Anaerobic, spore-forming, Gram-positive rod. Produces tetanospasmin (TeNT), a zinc-metalloprotease that cleaves VAMP-2 in inhibitory interneurons, blocking GABA">
+  <meta property="og:title" content="Clostridium tetani — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Clostridium tetani — Human Engineering</title>
   <style>
@@ -14,84 +13,83 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #92400e;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(146,64,14,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 22ch; }
-    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
-    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 1.75rem 2rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
-    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
-    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
-    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
-    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
-    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
-    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
-    .mech-item.danger { border-left-color: #dc2626; }
-    .mech-item.immune { border-left-color: var(--ai); }
-    .mech-item.latent { border-left-color: var(--accent); }
-    .mech-item.drug   { border-left-color: var(--bio); }
-    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
-    .path-table td:first-child { font-weight: 600; color: var(--fg); }
-    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
-    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
-    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
-    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
-    .conn-pill.infects .rel { color: var(--ai); }
-    .conn-pill.damages .rel { color: #dc2626; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-    .refs li a:hover { color: var(--human); }
-    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
-    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
-    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
-    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
-    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
-    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
-    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
-    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -102,204 +100,108 @@
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="index.html" class="brand">
-      <span class="brand-mark" aria-hidden="true"></span>
-      Human Engineering
-    </a>
-    <div class="nav-links">
-      <a href="index.html#mission">Mission</a>
-      <a href="index.html#scales">Scales</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 02-bacteria</div>
+    <h1>Clostridium tetani</h1>
+    <p class="tagline">Anaerobic, spore-forming, Gram-positive rod. Produces tetanospasmin (TeNT), a zinc-metalloprotease that cleaves VAMP-2 in inhibitory interneurons, blocking GABA/glycine release causing spastic paralysis. 100% preventable by tetanus toxoid vaccination.</p>
+    <p class="aliases">Also known as: C. tetani, tetanus bacillus, Clostridium tetani Flugge 1881</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">02-bacteria</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
+        <div class="entry-eyebrow">clostridium-tetani</div>
+        <h2>Clostridium tetani</h2>
+        <p class="summary">Anaerobic, spore-forming, Gram-positive rod. Produces tetanospasmin (TeNT), a zinc-metalloprotease that cleaves VAMP-2 in inhibitory interneurons, blocking GABA/glycine release causing spastic paralysis. 100% preventable by tetanus toxoid vaccination.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>clostridium-tetani</td></tr>
+            <tr><td>Name</td><td>Clostridium tetani</td></tr>
+            <tr><td>Status</td><td>active</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Class</td><td>02-bacteria</td></tr>
+            <tr><td>Family</td><td>Clostridiaceae</td></tr>
+            <tr><td>Genus</td><td>Clostridium</td></tr>
+            <tr><td>Species</td><td>Clostridium tetani</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill damaged" href="neuron.html" title="TeNT undergoes retrograde axonal transport to inhibitory interneurons; VAMP-2 cleavage blocks GABA and glycine vesicle release, removing inhibitory control of α-motor neurons and causing spastic rigidity and trismus."><span class="rel">damages</span>Neuron</a>
+            <a class="conn-pill damaged" href="nervous-system.html" title="Tetanospasmin blocks inhibitory interneurons throughout the CNS, causing generalised tetanus (risus sardonicus, opisthotonos, autonomic instability); untreated case fatality exceeds 50% in low-resource settings."><span class="rel">damages</span>Nervous System</a>
+            <a class="conn-pill" href="nervous-system.html" title="Tetanus toxoid vaccine (DTP/Td/TT) prevents nervous system damage by inducing neutralising IgG against TeNT; a childhood primary series plus boosters maintains protective antibody titres for at least 10 years."><span class="rel">prevents</span>Nervous System</a>
+            <a class="conn-pill" href="nervous-system.html" title="Treatment includes TIG (tetanus immunoglobulin) to neutralise unbound toxin, wound debridement, metronidazole, and ICU supportive care with benzodiazepines to control muscle spasms and prevent respiratory failure."><span class="rel">treats</span>Nervous System</a>
+            <a class="conn-pill damaged" href="gaba.html" title="TeNT LC cleaves VAMP-2 in GABAergic inhibitory interneurons → blocks GABA vesicle fusion → eliminates inhibitory neurotransmission; α-motor neurons fire continuously → spastic paralysis; benzodiazepines (GABA-A potentiators) are first-line symptomatic treatment for tetanus."><span class="rel">damages</span>Gaba</a>
+            <a class="conn-pill" href="tetanus-toxoid.html" title="Tetanus toxoid (formalin-inactivated TeNT) induces neutralising IgG that inactivates TeNT before CNS entry; DTP/DTaP primary series + adult Tdap booster maintain protective antibody titres for ≥10 years; tetanus toxoid is among the most effective vaccines ever developed."><span class="rel">prevents</span>Tetanus Toxoid</a>
+            <a class="conn-pill damaged" href="neuromuscular-junction.html" title="TeNT binds gangliosides at the NMJ → endocytosis → retrograde axonal transport → transcytosis into spinal inhibitory interneurons; NMJ entry is the obligate first step; botulinum toxin remains at the NMJ → flaccid paralysis; TeNT travels centrally → spastic paralysis."><span class="rel">damages</span>Neuromuscular Junction</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1073/pnas.0335853100" target="_blank" rel="noopener noreferrer">Brüggemann H, Bäumer S, Fricke WF, et al. The genome sequence of Clostridium tetani, the causative agent of tetanus disease. Proc Natl Acad Sci USA. 2003;100(3):1316-21.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12552129/" target="_blank" rel="noopener noreferrer">PubMed 12552129</a></li>
+            <li><a href="https://doi.org/10.1017/S0033583500003292" target="_blank" rel="noopener noreferrer">Montecucco C, Schiavo G. Structure and function of tetanus and botulinum neurotoxins. Q Rev Biophys. 1995;28(4):423-72.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8771234/" target="_blank" rel="noopener noreferrer">PubMed 8771234</a></li>
+            <li><a href="https://doi.org/10.1177/1040638720906645" target="_blank" rel="noopener noreferrer">Popoff MR. Tetanus in animals. J Vet Diagn Invest. 2020;32(2):184-191.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32089082/" target="_blank" rel="noopener noreferrer">PubMed 32089082</a></li>
+            <li><a href="https://www.who.int/publications/i/item/who-wer9206" target="_blank" rel="noopener noreferrer">World Health Organization. Tetanus vaccines: WHO position paper, February 2017. Wkly Epidemiol Rec. 2017;92(6):53-76.</a></li>
+            <li><a href="https://doi.org/10.1186/cc13797" target="_blank" rel="noopener noreferrer">Chalk CH, Mills KR, Newsom-Davis J. Tetanus. Lancet. 2011. [see also: Rodrigo C, Fernando D, Rajapakse S. Pharmacological management of tetanus: an evidence-based review. Crit Care. 2014;18(2):217.]</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24661523/" target="_blank" rel="noopener noreferrer">PubMed 24661523</a></li>
+            <li><a href="https://doi.org/10.1016/S0966-842X(03)00210-5" target="_blank" rel="noopener noreferrer">Lalli G, Bohnert S, Deinhardt K, Verastegui C, Schiavo G. The journey of tetanus and botulinum neurotoxins in neurons. Trends Microbiol. 2003;11(9):431-7.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12948668/" target="_blank" rel="noopener noreferrer">PubMed 12948668</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="index.html#join">Join</a>
-      <a href="pathogens.html" class="nav-back">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-        Pathogens
-      </a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-  </div>
-</nav>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-<div class="hero">
-  <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Bacteria</div>
-  <h1><em>Clostridium tetani</em></h1>
-  <p class="tagline">A single toxin, a spore in a nail wound, and a locked nervous system. Tetanospasmin travels by retrograde axonal transport to silence inhibitory interneurons — the bacterium never leaves the wound; the disease is entirely neurological.</p>
-  <p class="subtagline">The tetanus bacillus remains in the anaerobic wound and produces tetanospasmin (TeNT) — a 150 kDa zinc-metalloprotease plasmid-encoded on pE88. TeNT is nicked into a 100 kDa heavy chain (retrograde transport / endosomal translocation) and 50 kDa light chain (VAMP-2 endopeptidase). After retrograde transport at ~10 mm/h to inhibitory interneurons, VAMP-2 cleavage prevents GABA and glycine vesicle fusion, removing inhibitory motor control. Tetanus is 100% preventable by tetanus toxoid vaccination — one of the most successful vaccines in history.</p>
-  <div class="stat-row">
-    <div class="stat"><span class="stat-num">~50K</span><span class="stat-label">Deaths / year globally</span></div>
-    <div class="stat"><span class="stat-num">2.8 Mb</span><span class="stat-label">Chromosome + 74 kb pE88 plasmid</span></div>
-    <div class="stat"><span class="stat-num">150 kDa</span><span class="stat-label">TeNT precursor (tetanospasmin)</span></div>
-    <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Preventable by toxoid vaccine</span></div>
-    <div class="stat"><span class="stat-num">3–21 d</span><span class="stat-label">Incubation period</span></div>
-  </div>
-</div>
-
-<main>
-
-  <div class="detail-card" id="c-tetani">
-    <div class="detail-header" style="background: linear-gradient(135deg, #92400e, #78350f);">
-      <div class="entry-eyebrow">Clostridiaceae &middot; Gram-positive obligate anaerobic spore-forming rod &middot; "Drumstick" terminal spores &middot; 2.8 Mb chromosome + 74 kb pE88</div>
-      <h3><em>Clostridium tetani</em></h3>
-      <p class="summary">Spore-forming obligate anaerobic Gram-positive rod; causative agent of tetanus. Disease is caused entirely by one exotoxin — tetanospasmin (TeNT), encoded on the plasmid pE88. TeNT is a zinc-dependent metalloprotease that undergoes retrograde axonal transport to inhibitory interneurons, where its light chain cleaves the Gln&#x2076;&sup3;&#x2013;Phe&#x2077;&#x2076; peptide bond of VAMP-2 (synaptobrevin-2) on GABA- and glycine-containing synaptic vesicles. VAMP-2 cleavage prevents SNARE complex formation and neurotransmitter release, silencing inhibitory interneurons and allowing unchecked &alpha;-motor neuron firing &rarr; spastic paralysis, trismus (lockjaw), risus sardonicus, opisthotonos, and potentially fatal laryngospasm or respiratory failure. The bacterium remains localised to the wound — it does not invade or bacteraemically disseminate. Tetanus is 100% preventable by tetanus toxoid vaccination; every individual must maintain personal immunity (no herd immunity applies).</p>
-    </div>
-
-    <div class="detail-body">
-
-      <div class="detail-section">
-        <h4>Classification &amp; Structure</h4>
-        <table class="detail-table">
-          <tr><td>Gram stain</td><td>Gram-positive; thick peptidoglycan; no outer membrane</td></tr>
-          <tr><td>Morphology</td><td>Slender rod, 0.5–1.7 &micro;m &times; 2.1–18.1 &micro;m; distinctive "drumstick" or "tennis racket" appearance due to spherical <strong>terminal endospores</strong> that swell the cell end</td></tr>
-          <tr><td>Motility</td><td>Peritrichous flagella; motile in early log phase; non-motile in sporulation; obligate anaerobe (redox potential &lt;&minus;50 mV required for germination and vegetative growth)</td></tr>
-          <tr><td>Toxins</td><td>Tetanospasmin (TeNT; 150 kDa precursor; processed to 100 kDa HC + 50 kDa LC by disulphide bond) — encoded on 74 kb plasmid pE88; tetanolysin (TetZ; haemolysin; local tissue necrosis; not essential for disease)</td></tr>
-          <tr><td>Spores</td><td>Terminal, spherical endospores; resistant to boiling (&gt;1 h), desiccation, UV, and most disinfectants; killed by autoclaving (121&deg;C, 15 min) or 2% glutaraldehyde; ubiquitous in soil, especially agricultural/horse-manured soil; survive years in environment</td></tr>
-        </table>
-      </div>
-
-      <div class="detail-section">
-        <h4>Pathogenesis</h4>
-        <div class="mech-list">
-          <div class="mech-item latent">
-            <h5>1 &middot; Wound germination — establishing the anaerobic niche</h5>
-            <p>Spores enter puncture wounds, lacerations, crush injuries, burns, surgical wounds, or umbilical stumps (neonates). The critical requirement is <strong>local anaerobiosis</strong> — created by tissue necrosis, devitalised tissue, coexisting aerobic bacteria consuming oxygen, or foreign bodies (nails, splinters, soil). Spores germinate, vegetative bacilli multiply, and tetanospasmin is secreted as a single-chain 150 kDa precursor. Bacterial proteases (or trypsin-like enzymes) nick the precursor into the 100 kDa heavy chain (HC) and 50 kDa light chain (LC) linked by a disulphide bond. The organism does not disseminate; bacteraemia does not occur.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>2 &middot; Neuromuscular junction binding and endocytosis</h5>
-            <p>The TeNT heavy chain C-terminal domain (HC-C) binds polysialogangliosides (GT1b, GD1b) on &alpha;-motor nerve terminals at the neuromuscular junction — dictating neurospecific tropism. Binding triggers endocytosis into acidic vesicular compartments within the motor axon terminal. Once inside endosomes, TeNT begins its journey toward the CNS.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>3 &middot; Retrograde axonal transport to inhibitory interneurons</h5>
-            <p>TeNT-containing endosomes undergo <strong>retrograde axonal transport</strong> at ~10 mm/h toward the spinal cord and brainstem — a journey taking hours to days depending on the distance from the wound to the CNS. This explains why proximal wounds (face, neck) have shorter incubation periods and worse prognosis. At the CNS, TeNT undergoes transcytosis from motor axon terminals into the cytoplasm of <strong>inhibitory interneurons</strong> (Renshaw cells, GABAergic and glycinergic interneurons). The HC-N domain mediates endosomal pore formation at low pH, translocating the LC into the inhibitory interneuron cytoplasm.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>4 &middot; VAMP-2 cleavage — silencing inhibitory neurotransmission</h5>
-            <p>The light chain (LC) is a <strong>zinc endopeptidase</strong> that cleaves the <strong>Gln&#x2076;&sup3;&ndash;Phe&#x2077;&#x2076; bond in VAMP-2 (synaptobrevin-2)</strong> — the v-SNARE on synaptic vesicles carrying GABA and glycine. Cleaved VAMP-2 cannot form SNARE complexes; vesicles cannot fuse with the presynaptic membrane &rarr; <strong>no GABA or glycine release</strong>. Unlike botulinum toxin (which blocks ACh at the NMJ &rarr; flaccid paralysis), TeNT acts centrally on inhibitory interneurons &rarr; <strong>spastic paralysis</strong>. Unchecked &alpha;-motor neuron firing produces trismus, opisthotonos, laryngospasm, and respiratory failure.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>5 &middot; Autonomic instability — sympathetic chain involvement</h5>
-            <p>TeNT also impairs inhibitory interneurons in the sympathetic chain and medulla oblongata. In the second week of severe tetanus, profound <strong>autonomic instability</strong> emerges: sympathetic hyperactivity (hypertension, tachycardia, diaphoresis, hyperpyrexia, peripheral vasoconstriction) alternating with parasympathetic surges (bradycardia, hypotension, hypersalivation). Cardiac arrhythmias secondary to autonomic instability are a leading cause of ICU death, particularly in Grade IV tetanus.</p>
-          </div>
-          <div class="mech-item immune">
-            <h5>6 &middot; No dissemination — immune evasion by compartmentalisation</h5>
-            <p>The bacterium remains in the wound and does not invade bloodstream or lymph nodes. The immune system mounts a local acute inflammatory response at the wound site but cannot reach already-fixed TeNT in neuronal tissue. Once bound and internalised by neurons, TeNT is inaccessible to circulating antitoxin antibodies — explaining why TIG (tetanus immunoglobulin) can only neutralise <em>unbound</em> toxin in blood/lymph, not toxin already fixed to neurons. This compartmentalised infection makes post-exposure prophylaxis critical (early debridement + TIG).</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="detail-section">
-        <h4>Host Immune Response</h4>
-        <div class="immune-tags">
-          <span class="itag innate">Local acute inflammation at wound site (neutrophil recruitment)</span>
-          <span class="itag innate">Tetanolysin-mediated local tissue necrosis (maintains anaerobic niche)</span>
-          <span class="itag adaptive">Anti-TeNT neutralising IgG (from vaccination) — neutralises unbound toxin; protective titres &ge;0.01 IU/mL</span>
-          <span class="itag adaptive">Tetanus toxoid boosts humoral memory; maternal IgG transferred to neonate via placenta</span>
-          <span class="itag depleted">No herd immunity — tetanus is toxin-mediated, not person-to-person; every individual must be immunised</span>
-          <span class="itag depleted">Circulating antibody cannot reach neuronally-fixed TeNT — TIG only effective before neuronal uptake</span>
-        </div>
-      </div>
-
-      <div class="detail-section">
-        <h4>Disease Spectrum</h4>
-        <table class="path-table">
-          <tr><th>Presentation</th><th>Severity</th><th>At-Risk Groups</th><th>Mortality</th></tr>
-          <tr>
-            <td>Localised tetanus</td>
-            <td>Muscle rigidity near the wound only; mild; good prognosis; may progress to generalised</td>
-            <td>Partially immunised; distal extremity wounds</td>
-            <td>&lt;1%</td>
-          </tr>
-          <tr>
-            <td>Cephalic tetanus</td>
-            <td>Head/face wounds; cranial nerve palsies (especially facial nerve VII); local trismus; can progress to generalised</td>
-            <td>Facial/ear/eye wounds; otitis media (rare entry route)</td>
-            <td>~15–30%</td>
-          </tr>
-          <tr>
-            <td>Generalised tetanus (Ablett I–IV)</td>
-            <td>Descending: trismus &rarr; risus sardonicus &rarr; neck stiffness &rarr; dysphagia &rarr; opisthotonos &rarr; intercostal/abdominal rigidity &rarr; laryngospasm. Autonomic instability in Grade III–IV</td>
-            <td>Unvaccinated adults; injection drug users; wound-neglected patients; immigrants from low-coverage countries</td>
-            <td>10–15% (ICU); &gt;50% (no ICU)</td>
-          </tr>
-          <tr>
-            <td>Neonatal tetanus</td>
-            <td>Onset 3–14 days post-birth; contaminated umbilical stump; inability to suck (trismus) &rarr; generalised spasms; high mortality without intensive care</td>
-            <td>Neonates of unvaccinated mothers; home deliveries with non-sterile cord cutting</td>
-            <td>70–80% (without ICU); 10–20% (with full ICU)</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="detail-section">
-        <h4>Treatment &amp; Prophylaxis</h4>
-        <table class="detail-table">
-          <tr><td>Tetanus Immunoglobulin (TIG)</td><td>3,000–6,000 U IM; neutralises unbound circulating toxin; does not reverse already-fixed TeNT in neurons; must be given as early as possible after diagnosis; human TIG preferred over equine (lower anaphylaxis risk).</td></tr>
-          <tr><td>Wound debridement</td><td>Removes the toxin source (vegetative <em>C. tetani</em> and spores); devitalised tissue must be excised; critical for stopping ongoing toxin production; do not close wound primarily.</td></tr>
-          <tr><td>Metronidazole</td><td>500 mg IV/PO q6–8h &times; 7–10 days; kills vegetative <em>C. tetani</em>; superior to penicillin in clinical trials (penicillin is a GABA-A antagonist and may worsen spasms); IV route for patients with dysphagia/ileus.</td></tr>
-          <tr><td>Benzodiazepines (diazepam, midazolam)</td><td>GABA-A receptor agonists; first-line ICU sedation for spasm control; titrated to spasm frequency; high doses often required; IV infusion preferred in severe cases; diazepam suppositories used in resource-limited settings.</td></tr>
-          <tr><td>Magnesium sulphate</td><td>IV infusion; reduces sympathetic hyperactivity and spasm frequency; used as alternative or adjunct to benzodiazepines; widely used in LMICs (low cost, effective for autonomic instability).</td></tr>
-          <tr><td>Mechanical ventilation / tracheostomy</td><td>Laryngospasm and chest wall rigidity are common indications for early intubation; tracheostomy for prolonged ventilatory support (&gt;10–14 days expected); neuromuscular blocking agents (vecuronium) for refractory spasms.</td></tr>
-          <tr><td>Cardiovascular management</td><td>Labetalol or esmolol for sympathetic hypertension/tachycardia; morphine for sympathetic crisis; atropine for bradycardia; epidural bupivacaine for severe autonomic instability (specialist centres).</td></tr>
-          <tr><td>Tetanus toxoid vaccine (prevention)</td><td>Formaldehyde-inactivated tetanospasmin; formulations: DTP, DTaP, Td, TT, Tdap. Primary series: 3 infant doses + 2 childhood boosters (4–6 y, 11–12 y). Duration: &ge;10 years/dose; complete 5-dose series likely lifelong. Boosters every 10 years or post-significant wound. Maternal Tdap each pregnancy &rarr; placental IgG &rarr; neonatal protection. Wound prophylaxis algorithm: clean minor wound + &ge;3 prior doses &ge;5 years ago &rarr; no intervention; tetanus-prone wound + unknown/incomplete &rarr; TIG + booster.</td></tr>
-          <tr><td>Resistance</td><td>No antibiotic resistance relevant to clinical tetanus treatment; metronidazole uniformly effective; resistance to tetanus toxoid not reported (TeNT is invariant).</td></tr>
-        </table>
-      </div>
-
-      <div class="detail-section">
-        <h4>Connections</h4>
-        <div class="connections">
-          <a class="conn-pill damages" href="neuron.html"><span class="rel">Damages</span>Neuron — VAMP-2 cleavage, GABA/glycine block</a>
-          <a class="conn-pill damages" href="nervous-system.html"><span class="rel">Damages</span>Nervous system — generalised spastic paralysis, autonomic instability</a>
-          <a class="conn-pill targets" href="nervous-system.html"><span class="rel">Targets</span>Inhibitory interneurons — Renshaw cells, glycinergic neurons</a>
-        </div>
-      </div>
-
-      <div class="detail-section">
-        <h4>References</h4>
-        <ul class="refs">
-          <li>Br&uuml;ggemann H, B&auml;umer S, Fricke WF, et al. The genome sequence of <em>Clostridium tetani</em>, the causative agent of tetanus disease. <em>Proc Natl Acad Sci USA.</em> 2003;100(3):1316-21. <a href="https://doi.org/10.1073/pnas.0335853100" target="_blank" rel="noopener">doi:10.1073/pnas.0335853100</a> &middot; PubMed 12552129</li>
-          <li>Montecucco C, Schiavo G. Structure and function of tetanus and botulinum neurotoxins. <em>Q Rev Biophys.</em> 1995;28(4):423-72. <a href="https://doi.org/10.1017/S0033583500003292" target="_blank" rel="noopener">doi:10.1017/S0033583500003292</a> &middot; PubMed 8771234</li>
-          <li>Lalli G, Bohnert S, Deinhardt K, Verastegui C, Schiavo G. The journey of tetanus and botulinum neurotoxins in neurons. <em>Trends Microbiol.</em> 2003;11(9):431-7. <a href="https://doi.org/10.1016/S0966-842X(03)00210-5" target="_blank" rel="noopener">doi:10.1016/S0966-842X(03)00210-5</a> &middot; PubMed 12948668</li>
-          <li>Rodrigo C, Fernando D, Rajapakse S. Pharmacological management of tetanus: an evidence-based review. <em>Crit Care.</em> 2014;18(2):217. <a href="https://doi.org/10.1186/cc13797" target="_blank" rel="noopener">doi:10.1186/cc13797</a> &middot; PubMed 24661523</li>
-          <li>World Health Organization. Tetanus vaccines: WHO position paper, February 2017. <em>Wkly Epidemiol Rec.</em> 2017;92(6):53-76. <a href="https://www.who.int/publications/i/item/who-wer9206" target="_blank" rel="noopener">who.int/publications/i/item/who-wer9206</a></li>
-          <li>Popoff MR. Tetanus in animals. <em>J Vet Diagn Invest.</em> 2020;32(2):184-191. <a href="https://doi.org/10.1177/1040638720906645" target="_blank" rel="noopener">doi:10.1177/1040638720906645</a> &middot; PubMed 32089082</li>
-        </ul>
-      </div>
-
-    </div>
-  </div><!-- /.detail-card -->
-
-  <div class="contribute">
-    <h2>Contribute to the Pathogen Atlas</h2>
-    <p>This entry covers <em>C. tetani</em> biology, TeNT mechanism, and clinical management. Planned expansions include structural biology of the TeNT-VAMP-2 complex, wound prophylaxis decision algorithms, and neonatal tetanus elimination programme data. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
-    <div class="btn-row">
-      <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
-        Contribute on GitHub
-      </a>
-      <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=C.%20tetani%20Atlas%20entry">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        Get in touch
-      </a>
-    </div>
-  </div>
-
-</main>
-
-<footer>
-  <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
-  <div class="footer-links">
-    <a href="index.html">Home</a>
-    <a href="index.html#mission">Mission</a>
-    <a href="pathogens.html">Pathogens</a>
-    <a href="medicine.html">Medicine</a>
-    <a href="index.html#join">Join</a>
-    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
-  </div>
-  <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-</footer>
-
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

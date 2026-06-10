@@ -72,6 +72,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: treats
     note: "Treatment includes TIG (tetanus immunoglobulin) to neutralise unbound toxin, wound debridement, metronidazole, and ICU supportive care with benzodiazepines to control muscle spasms and prevent respiratory failure."
+  - target: 01-human/03-molecular/gaba
+    relation: damages
+    note: "TeNT LC cleaves VAMP-2 in GABAergic inhibitory interneurons → blocks GABA vesicle fusion → eliminates inhibitory neurotransmission; α-motor neurons fire continuously → spastic paralysis; benzodiazepines (GABA-A potentiators) are first-line symptomatic treatment for tetanus."
+  - target: 04-vaccine/06-toxoid/tetanus-toxoid
+    relation: prevents
+    note: "Tetanus toxoid (formalin-inactivated TeNT) induces neutralising IgG that inactivates TeNT before CNS entry; DTP/DTaP primary series + adult Tdap booster maintain protective antibody titres for ≥10 years; tetanus toxoid is among the most effective vaccines ever developed."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: damages
+    note: "TeNT binds gangliosides at the NMJ → endocytosis → retrograde axonal transport → transcytosis into spinal inhibitory interneurons; NMJ entry is the obligate first step; botulinum toxin remains at the NMJ → flaccid paralysis; TeNT travels centrally → spastic paralysis."
 ---
 
 # Clostridium tetani
@@ -184,10 +193,13 @@ Tetanospasmin also impairs inhibitory interneurons in the **sympathetic chain** 
 
 ## Connections
 
-- **Damages** → [Neuron](../../../01-human/04-cellular/neuron/README.md): TeNT undergoes retrograde axonal transport to inhibitory interneurons; VAMP-2 cleavage blocks GABA and glycine release, removing inhibitory control of α-motor neurons and causing rigidity and trismus.
-- **Damages** → [Nervous System](../../../01-human/07-system/nervous-system/README.md): Tetanospasmin blocks inhibitory interneurons throughout the CNS, causing generalised tetanus (risus sardonicus, opisthotonos, autonomic instability); untreated case fatality exceeds 50% in low-resource settings.
-- **Prevents** → [Nervous System](../../../01-human/07-system/nervous-system/README.md): Tetanus toxoid vaccine induces neutralising IgG against TeNT; childhood primary series (DTP) and boosters maintain protective antibody titres, preventing nervous system damage.
-- **Treats** → [Nervous System](../../../01-human/07-system/nervous-system/README.md): TIG (tetanus immunoglobulin), wound debridement, metronidazole, and ICU supportive care (benzodiazepines for spasm control) are the treatment pillars once disease occurs.
+- `damages` → **[Neuron](../../../01-human/04-cellular/neuron/README.md)** — TeNT undergoes retrograde axonal transport to inhibitory interneurons; VAMP-2 cleavage blocks GABA and glycine release, removing inhibitory control of α-motor neurons and causing rigidity and trismus.
+- `damages` → **[Nervous System](../../../01-human/07-system/nervous-system/README.md)** — Tetanospasmin blocks inhibitory interneurons throughout the CNS, causing generalised tetanus (risus sardonicus, opisthotonos, autonomic instability); untreated case fatality exceeds 50% in low-resource settings.
+- `prevents` → **[Nervous System](../../../01-human/07-system/nervous-system/README.md)** — Tetanus toxoid vaccine induces neutralising IgG against TeNT; childhood primary series (DTP) and boosters maintain protective antibody titres, preventing nervous system damage.
+- `treats` → **[Nervous System](../../../01-human/07-system/nervous-system/README.md)** — TIG (tetanus immunoglobulin), wound debridement, metronidazole, and ICU supportive care (benzodiazepines for spasm control) are the treatment pillars once disease occurs.
+- `damages` → **[GABA](../../../01-human/03-molecular/gaba/README.md)** — TeNT LC cleaves VAMP-2 in GABAergic inhibitory interneurons → blocks GABA vesicle fusion → eliminates inhibitory neurotransmission; α-motor neurons fire continuously → spastic paralysis; benzodiazepines (GABA-A potentiators) are first-line symptomatic treatment for tetanus.
+- `prevents` → **[Tetanus Toxoid](../../../04-vaccine/06-toxoid/tetanus-toxoid/README.md)** — Tetanus toxoid (formalin-inactivated TeNT) induces neutralising IgG that inactivates TeNT before CNS entry; DTP/DTaP primary series + adult Tdap booster maintain protective antibody titres for ≥10 years; tetanus toxoid is among the most effective vaccines ever developed.
+- `damages` → **[Neuromuscular Junction](../../../01-human/05-tissue/neuromuscular-junction/README.md)** — TeNT binds gangliosides at the NMJ → endocytosis → retrograde axonal transport → transcytosis into spinal inhibitory interneurons; NMJ entry is the obligate first step; botulinum toxin remains at the NMJ → flaccid paralysis; TeNT travels centrally → spastic paralysis.
 
 ## Pathology
 
@@ -249,10 +261,9 @@ The **tetanus toxoid vaccine** (formalin-inactivated tetanospasmin) is the corne
 - **Herd immunity:** Does NOT apply — tetanus is a toxin-mediated disease, not transmitted person-to-person; every individual must maintain personal immunity
 - **Mortality:** With ICU care: ~10–15%; without ICU: >50%; neonatal tetanus without intensive care: ~70–80%
 
-## See Also
+---
 
-- [Neuron](../../../01-human/04-cellular/neuron/README.md) — target cell for VAMP-2 cleavage
-- [Nervous System](../../../01-human/07-system/nervous-system/README.md) — system-level disease manifestation
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^bruggemann-2003-genome]: Brüggemann H, Bäumer S, Fricke WF, et al. The genome sequence of Clostridium tetani, the causative agent of tetanus disease. *Proc Natl Acad Sci USA.* 2003;100(3):1316-21. [doi:10.1073/pnas.0335853100](https://doi.org/10.1073/pnas.0335853100) · [PubMed 12552129](https://pubmed.ncbi.nlm.nih.gov/12552129/)
 [^montecucco-2004-clostridial-toxins]: Montecucco C, Schiavo G. Structure and function of tetanus and botulinum neurotoxins. *Q Rev Biophys.* 1995;28(4):423-72. [doi:10.1017/S0033583500003292](https://doi.org/10.1017/S0033583500003292) · [PubMed 8771234](https://pubmed.ncbi.nlm.nih.gov/8771234/)

@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/atm
     relation: connects-to
     note: "Del(11q22.3)/ATM deletion in ~15-20% of CLL → impaired DDR → bulky adenopathy; del(11q) was high-risk in FCR era; ibrutinib/venetoclax show equal efficacy regardless of del(11q); venetoclax bypasses ATM/TP53 defects by directly engaging mitochondrial apoptosis."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "BTK is the key BCR kinase downstream of LYN/SYK; ibrutinib covalently inhibits BTK at Cys481 → blocks BCR-NF-κB → CLL mobilization and apoptosis; BTK C481S mutation confers covalent BTK inhibitor resistance → switch to non-covalent pirtobrutinib or venetoclax."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "CLL is a clonal CD5+/CD19+/CD23+ B-cell malignancy arising from antigen-experienced B cells; IGHV mutation status (>2% = mutated M-CLL; indolent) is the most important prognostic factor; tonic BCR signaling drives CLL survival; CLL cells home to BM/LN niches via CXCR4/CXCR5."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "CD20 is dimly expressed on CLL cells limiting anti-CD20 antibody efficacy; obinutuzumab (type II, glycoengineered; superior ADCC) + venetoclax (CLL14) achieves 57% MRD-undetectable CR; rituximab + ibrutinib (ECOG E1912) FDA-approved first-line for fit CLL patients."
 ---
 
 # CLL
@@ -152,6 +161,13 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Del(17p13)/TP53 mutation in ~7% of treatment-naive CLL, ~30% of relapsed CLL → loss of p53-mediated apoptosis → resistance to alkylating agents and anti-CD20 chemoimmunotherapy; ibrutinib and venetoclax retain activity in TP53-mutant CLL; del(17p) CLL no longer requires allo-SCT with targeted agents.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — B-cell receptor (BCR) → BTK → PLCγ → PKCβ → NF-κB → BCL-2, MYC, CXCR4 → CLL survival and proliferation; ibrutinib inhibits BTK → blocks BCR-NF-κB → CLL mobilization from lymph nodes (lymphocytosis) and apoptosis; SYK inhibitors (entospletinib) also block BCR upstream of BTK.
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — ATM deletion at del(11q22.3) in ~15-20% of CLL → impaired DDR → bulky adenopathy; in FCR era, del(11q) was high-risk; ibrutinib/venetoclax show equal efficacy in del(11q) CLL compared to non-del(11q); ATM and TP53 pathway defects are mechanistically distinct — venetoclax bypasses both by directly triggering apoptosis.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK is the key BCR kinase downstream of LYN/SYK; ibrutinib covalently inhibits BTK at Cys481 → blocks BCR-NF-κB → CLL mobilization and apoptosis; BTK C481S mutation confers covalent BTK inhibitor resistance → switch to non-covalent pirtobrutinib or venetoclax.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — CLL is a clonal CD5+/CD19+/CD23+ B-cell malignancy arising from antigen-experienced B cells; IGHV mutation status (>2% = mutated M-CLL; indolent) is the most important prognostic factor; tonic BCR signaling drives CLL survival; CLL cells home to BM/LN niches via CXCR4/CXCR5.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20 is dimly expressed on CLL cells limiting anti-CD20 antibody efficacy; obinutuzumab (type II, glycoengineered; superior ADCC) + venetoclax (CLL14) achieves 57% MRD-undetectable CR; rituximab + ibrutinib (ECOG E1912) FDA-approved first-line for fit CLL patients.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^fischer-2019-clb-cll14]: Fischer K, Al-Sawaf O, Bahlo J, et al. Venetoclax and obinutuzumab in patients with CLL and coexisting conditions. *N Engl J Med.* 2019;380(23):2225-2236. [doi:10.1056/NEJMoa1815281](https://doi.org/10.1056/NEJMoa1815281) · [PubMed 31166681](https://pubmed.ncbi.nlm.nih.gov/31166681/)
 [^shanafelt-2019-ecog-e1912]: Shanafelt TD, Wang XV, Kay NE, et al. Ibrutinib-rituximab or chemoimmunotherapy for chronic lymphocytic leukemia. *N Engl J Med.* 2019;381(5):432-443. [doi:10.1056/NEJMoa1817073](https://doi.org/10.1056/NEJMoa1817073) · [PubMed 31365801](https://pubmed.ncbi.nlm.nih.gov/31365801/)
