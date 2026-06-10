@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: modulates
     note: "GSH-dependent detoxification (via GPx, GSTs) and sulfotransferases (SULT enzymes) conjugating xenobiotics and hormones constitute the liver's sulfur-driven phase II metabolic detoxification capacity."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Glutathione (γ-Glu-Cys-Gly) and the methionine cycle (SAM → SAH → homocysteine → methionine) combine sulfur and nitrogen chemistry in the same pathways; Cys and Met amino acids contain both elements; SAM methyl groups regulate nitrogen-containing bases in DNA and RNA."
+  - target: 01-human/03-molecular/nf-kb
+    relation: modulates
+    note: "IKKβ Cys179 oxidation by H₂O₂ inhibits NF-κB activation — cysteine thiol redox state acts as a molecular brake on inflammation; GSH maintains IKK in the reduced/active state; ROS depletion of GSH → IKK oxidation → paradoxical NF-κB activation in some cancer contexts."
+  - target: 01-human/03-molecular/antithrombin
+    relation: connects-to
+    note: "Heparin (highly sulfated heparan sulfate analogue) activates antithrombin III ~1000-fold by allosteric conformational change; sulfate groups create the charge template for antithrombin binding — the molecular basis of heparin anticoagulation, the most widely used sulfated drug."
 ---
 
 # Sulfur
@@ -131,10 +140,13 @@ Heparan sulfate (HS) and chondroitin sulfate (CS) are glycosaminoglycans (GAGs) 
 
 ## Connections
 
-- **Part-of** → [Human Body](../../08-whole-body/human-body/README.md): ~0.25% body mass (~175g); sulfur present in cysteine, methionine, taurine, heparan sulfate, iron-sulfur clusters, coenzyme A, and glutathione — found in virtually every cell type and tissue throughout the body.
-- **Part-of** → [Hepatocyte](../../04-cellular/hepatocyte/README.md): Hepatocytes are the primary site of glutathione synthesis, SAM production, cytochrome P450 activity (cysteine-thiolate axial ligand at the P450 haem active site), and sulfotransferase-mediated phase II xenobiotic and hormone conjugation.
-- **Modulates** → [IL-6](../../03-molecular/il-6/README.md): S-nitrosylation and oxidation of cysteine residues on JAK1/JAK2 and STAT3 modulate IL-6 receptor signal transduction, making redox sulfur chemistry a regulator of the inflammatory JAK–STAT3 pathway.
-- **Modulates** → [Liver](../../06-organ/liver/README.md): GSH-dependent detoxification (via GPx, GSTs) and sulfotransferases (SULT enzymes) conjugating xenobiotics and hormones constitute the liver's principal sulfur-driven phase II metabolic detoxification capacity.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — ~0.25% body mass (~175 g); sulfur present in cysteine, methionine, taurine, heparan sulfate, iron-sulfur clusters, coenzyme A, and glutathione — found in virtually every cell type and tissue throughout the body.
+- `part-of` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — hepatocytes are the primary site of glutathione synthesis, SAM production, cytochrome P450 activity (cysteine-thiolate axial ligand at the P450 haem active site), and sulfotransferase-mediated phase II xenobiotic and hormone conjugation.
+- `modulates` → **[IL-6](../../03-molecular/il-6/README.md)** — S-nitrosylation and oxidation of cysteine residues on JAK1/JAK2 and STAT3 modulate IL-6 receptor signal transduction, making redox sulfur chemistry a regulator of the inflammatory JAK–STAT3 pathway.
+- `modulates` → **[Liver](../../06-organ/liver/README.md)** — GSH-dependent detoxification (via GPx, GSTs) and sulfotransferases (SULT enzymes) conjugating xenobiotics and hormones constitute the liver's principal sulfur-driven phase II metabolic detoxification capacity.
+- `connects-to` → **[Nitrogen](../nitrogen/README.md)** — glutathione (γ-Glu-Cys-Gly) and the methionine cycle (SAM → SAH → homocysteine → methionine) combine sulfur and nitrogen chemistry; Cys and Met amino acids contain both elements; SAM methyl groups regulate nitrogen-containing bases in DNA and RNA.
+- `modulates` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — IKKβ Cys179 oxidation by H₂O₂ inhibits NF-κB activation; cysteine thiol redox state acts as a molecular brake on inflammation; GSH maintains IKK reduced; ROS depletion of GSH → IKK oxidation → NF-κB activation in oxidative stress contexts.
+- `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — heparin (highly sulfated heparan sulfate analogue) activates antithrombin III ~1,000-fold by allosteric conformational change; sulfate groups create the charge template for antithrombin binding — the molecular basis of heparin anticoagulation.
 
 ## Pathology
 
@@ -147,13 +159,9 @@ Heparan sulfate (HS) and chondroitin sulfate (CS) are glycosaminoglycans (GAGs) 
 | **Molybdenum cofactor deficiency** | Molybdenum cofactor contains two pterin-dithiolate (molybdopterin) sulfur ligands; cofactor required for sulfite oxidase, xanthine oxidase, aldehyde oxidase | Sulfite accumulation → severe progressive neurological disease, dislocated lens; often fatal in infancy |
 | **Iron-sulfur cluster disorders** | Frataxin (FRDA) mutations → [Fe-S] cluster assembly failure in mitochondria | Friedreich's ataxia: progressive spinocerebellar degeneration, hypertrophic cardiomyopathy |
 
-## See Also
+---
 
-- [Hepatocyte](../../04-cellular/hepatocyte/README.md) — principal hub of sulfur biochemistry: GSH, SAM, CYP450, SULT.
-- [IL-6](../../03-molecular/il-6/README.md) — JAK-STAT signaling modulated by cysteine redox state.
-- [Liver](../../06-organ/liver/README.md) — organ-level sulfur-dependent detoxification.
-- [Human Body](../../08-whole-body/human-body/README.md) — whole-body sulfur distribution.
-- [Nitrogen](../nitrogen/README.md) — closely related: amino acid chemistry involves N and S in tandem (glutathione, methionine cycle).
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [elsevier.com](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)

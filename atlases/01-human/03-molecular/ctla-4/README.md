@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "CTLA-4 acts at the priming stage (lymph nodes); PD-1 at the effector stage (tumor microenvironment) — mechanistic basis for synergy; ipilimumab + nivolumab: 5-year OS ~52% in melanoma; approved for melanoma, RCC, NSCLC, and MSI-H colorectal cancer."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Ipilimumab transformed metastatic melanoma: MDX-010-20 showed first OS benefit (10.1 vs 6.4 months vs gp100); CheckMate 067: nivo+ipi achieves 5-year OS of 52%; ipilimumab is also standard adjuvant therapy for resected stage III melanoma (EORTC 18071: RFS 40.8 vs 30.3%)."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Treg CTLA-4 trans-endocytoses B7-1/B7-2 from DCs → depletes co-stimulatory ligands from DCs → DCs cannot prime new anti-tumor T cells in tumor-draining lymph nodes; ipilimumab prevents trans-endocytosis → restores DC B7 → enables new CTL priming against tumor neoantigens."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: target-of
+    note: "Ipilimumab (anti-CTLA-4 IgG1) is the founding checkpoint inhibitor; CTLA-4 blockade at the priming stage synergizes with PD-1 blockade at the effector stage; ipilimumab + nivolumab is standard of care for melanoma, RCC, NSCLC, and MSI-H colorectal cancer."
 ---
 
 # CTLA-4
@@ -123,6 +132,13 @@ Tregs constitutively express CTLA-4 at high levels (driven by FoxP3 → CTLA-4 t
 - `modulated-by` → **[T Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — activated CTLs express CTLA-4 which suppresses their priming in lymph nodes; ipilimumab blocks CTLA-4 on CTLs → restores co-stimulation → enhanced CTL priming against tumor antigens.
 - `modulated-by` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Tregs constitutively express high CTLA-4 which trans-endocytoses B7 from DCs → peripheral tolerance; ipilimumab also depletes intratumoral Tregs via ADCC (IgG1 Fc) → relieves TME immunosuppression.
 - `connects-to` → **[PD-1](../pd-1/README.md)** — CTLA-4 (priming stage) and PD-1 (effector stage) are complementary checkpoints; combined ipilimumab + nivolumab achieves synergistic tumor control; 5-year OS ~52% in melanoma; approved for melanoma, RCC, NSCLC, and MSI-H colorectal cancer.
+- `connects-to` → **[Melanoma](../../07-system/melanoma/README.md)** — ipilimumab transformed metastatic melanoma; MDX-010-20 showed first OS benefit; CheckMate 067: nivo+ipi 5-year OS 52%; ipilimumab also approved as adjuvant therapy for resected stage III melanoma (EORTC 18071: 5-year RFS 40.8 vs 30.3%).
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Treg CTLA-4 trans-endocytoses B7-1/B7-2 from DCs → depletes co-stimulatory ligands → DCs cannot prime new anti-tumor T cells; ipilimumab prevents trans-endocytosis → restores DC B7 availability → enables new CTL priming against tumor neoantigens.
+- `target-of` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — ipilimumab (anti-CTLA-4 IgG1) is the founding checkpoint inhibitor; CTLA-4 blockade synergizes with PD-1 blockade; ipilimumab + nivolumab is standard of care for melanoma, RCC, NSCLC, and MSI-H colorectal cancer.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^leach-1996-ctla4]: Leach DR, Krummel MF, Allison JP. Enhancement of antitumor immunity by CTLA-4 blockade. *Science.* 1996;271(5256):1734-1736. [doi:10.1126/science.271.5256.1734](https://doi.org/10.1126/science.271.5256.1734) · [PubMed 8596936](https://pubmed.ncbi.nlm.nih.gov/8596936/)
 [^hodi-2010-ipilimumab]: Hodi FS, O'Day SJ, McDermott DF, et al. Improved survival with ipilimumab in patients with metastatic melanoma. *N Engl J Med.* 2010;363(8):711-723. [doi:10.1056/NEJMoa1003466](https://doi.org/10.1056/NEJMoa1003466) · [PubMed 20525992](https://pubmed.ncbi.nlm.nih.gov/20525992/)
