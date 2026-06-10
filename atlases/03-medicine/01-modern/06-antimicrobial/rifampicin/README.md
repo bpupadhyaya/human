@@ -45,6 +45,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: modulates
     note: "Binds the rpoB subunit of M. tuberculosis RNA polymerase; rpoB mutations (especially codons 516, 526, 531) confer high-level resistance — and RIF resistance is used as a proxy for MDR-TB in rapid molecular diagnostics (GeneXpert MTB/RIF)."
+  - target: 01-human/06-organ/liver
+    relation: damages
+    note: "Rifampicin causes transient transaminase elevation in 10–20% and frank hepatitis in ~1–2% of patients; CYP induction accelerates isoniazid → hydrazine metabolite conversion → additive hepatotoxicity; baseline LFTs + monthly monitoring required."
+  - target: 03-medicine/01-modern/09-hematology/warfarin
+    relation: modulates
+    note: "Rifampicin is the most potent known CYP2C9/CYP3A4 inducer via PXR activation; S-warfarin plasma levels fall 70–90% within 7 days; warfarin dose may need doubling; INR monitoring weekly at start and monthly during TB therapy."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: targets
+    note: "Rifampicin activates PXR (pregnane X receptor) in hepatocytes → CYP3A4/CYP2C9/CYP2B6/P-gp transcriptional upregulation; maximal induction in 5–7 days; reversal 2–4 weeks post-discontinuation; basis of all rifampicin drug-drug interactions."
 ---
 
 # Rifampicin
@@ -188,11 +197,12 @@ Rifampicin produces **harmless orange-red colouration** of all body fluids: urin
 
 - **Treats** → [Mycobacterium tuberculosis](../../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md): first-line TB chemotherapy backbone; sterilizing activity enables 6-month cure.
 - **Modulates** → [Mycobacterium tuberculosis](../../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md): rpoB mutations confer high-level resistance; RIF resistance = proxy for MDR-TB.
-- **Related drug class** → Rifabutin: preferred over rifampicin in HIV/TB coinfection (weaker CYP inducer, lower interaction burden with antiretrovirals).
-- **Related drug class** → Rifapentine: long-acting rifamycin used in once-weekly short-course LTBI regimens (1HP) and rifampicin-equivalent in newer 4-month TB regimens.
-- **Interacts with** → Combined oral contraceptives (CYP3A4 induction — contraceptive failure risk).
-- **Interacts with** → Antiretrovirals (dramatic plasma level reductions; use rifabutin instead).
-- **Co-administered with** → Isoniazid, Pyrazinamide, Ethambutol (standard HRZE TB quadruple therapy).
+- **Damages** → [Liver](../../../../01-human/06-organ/liver/README.md): transient transaminase elevation in 10–20%; frank hepatitis in ~1–2%; CYP induction accelerates isoniazid → hydrazine metabolite conversion → additive hepatotoxicity; baseline LFTs + monthly monitoring required.
+- **Modulates** → [Warfarin](../../../../03-medicine/01-modern/09-hematology/warfarin/README.md): most potent CYP2C9/CYP3A4 inducer via PXR; S-warfarin levels fall 70–90% within 7 days; warfarin dose may need doubling; INR monitoring weekly at initiation.
+- **Targets** → [Hepatocyte](../../../../01-human/04-cellular/hepatocyte/README.md): PXR activation → CYP3A4/CYP2C9/CYP2B6/P-gp upregulation; maximal induction in 5–7 days; reversal 2–4 weeks post-discontinuation; basis of all rifampicin drug-drug interactions.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^sensi-1959-original]: Sensi P, Margalith P, Timbal MT. Rifomycin, a new antibiotic — preliminary report. *Farmaco Ed Sci.* 1959;14:146-7. [PubMed 13629243](https://pubmed.ncbi.nlm.nih.gov/13629243/)
 [^who-tb-guidelines-2022]: World Health Organization. *Consolidated Guidelines on Tuberculosis, Module 4: Treatment — Drug-Susceptible Tuberculosis Treatment.* WHO; 2022. [who.int/publications/i/item/9789240048126](https://www.who.int/publications/i/item/9789240048126)

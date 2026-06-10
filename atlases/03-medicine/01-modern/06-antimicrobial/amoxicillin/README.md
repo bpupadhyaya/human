@@ -34,6 +34,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: treats
     note: "S. pneumoniae is the primary target for amoxicillin in community-acquired pneumonia; high-dose amoxicillin (3g/day) overcomes intermediate-level penicillin resistance via PBP2b affinity changes (MIC ≤2 mg/L)."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: treats
+    note: "Core component of H. pylori triple therapy (PPI + clarithromycin + amoxicillin 1g BD × 14 days); targets H. pylori PBPs; clarithromycin resistance ~20–30% in Europe drives bismuth quadruple therapy preference."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: connects-to
+    note: "Amoxicillin is a common precipitant of C. diff colitis via disruption of colonization resistance; risk lower than fluoroquinolones or clindamycin; patients on amoxicillin >7 days have ~3-fold increased C. diff risk."
+  - target: 01-human/07-system/gut-microbiome
+    relation: modulates
+    note: "Amoxicillin reduces gram-positive and gram-negative gut microbiota diversity; Enterobacteriaceae bloom during treatment; microbiome recovery takes 1–2 months post-course; repeated courses associate with persistent dysbiosis."
 ---
 
 # Amoxicillin
@@ -112,4 +121,10 @@ The WHO lists amoxicillin as an **Access group antibiotic** — first-line for c
 ## Connections
 
 - **Targets** → [Peptidoglycan / PBPs](../../../../../01-human/03-molecular/peptidoglycan/README.md): Covalent acylation of PBP catalytic serine → DD-transpeptidase inactivation → peptidoglycan cross-linking failure → osmotic lysis.
-- **Treats** → [S. pneumoniae](../../../../../01-human/02-microbial/streptococcus-pneumoniae/README.md): Primary clinical target in CAP, AOM, and sinusitis; high-dose amoxicillin overcomes intermediate resistance via PBP affinity changes.
+- **Treats** → [S. pneumoniae](../../../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md): Primary clinical target in CAP, AOM, and sinusitis; high-dose amoxicillin overcomes intermediate resistance via PBP affinity changes.
+- **Treats** → [Helicobacter pylori](../../../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md): Core component of triple therapy (PPI + clarithromycin + amoxicillin × 14 days); targets H. pylori PBPs; clarithromycin resistance drives bismuth quadruple therapy preference.
+- **Connects-to** → [Clostridioides difficile](../../../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md): Common precipitant of C. diff colitis via disruption of colonization resistance; risk lower than fluoroquinolones or clindamycin; >7-day courses carry ~3-fold increased C. diff risk.
+- **Modulates** → [Gut Microbiome](../../../../../01-human/07-system/gut-microbiome/README.md): Reduces gram-positive and gram-negative gut microbiota diversity; Enterobacteriaceae bloom during treatment; microbiome recovery takes 1–2 months; repeated courses associate with persistent dysbiosis.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

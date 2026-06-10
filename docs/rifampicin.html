@@ -3,116 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Rifampicin — rifamycin antibiotic, RNA polymerase β-subunit inhibitor. TB HRZE regimen, sterilising activity, rpoB resistance hotspot, CYP3A4/P-gp induction interactions. Part of the Human Engineering project.">
-  <meta property="og:title" content="Rifampicin — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Semisynthetic rifamycin antibiotic and potent CYP3A4/P-gp inducer. Bactericidal against dividing and dormant mycobacteria via rpoB RNA polymerase inhibition. Ba">
+  <meta property="og:title" content="Rifampicin — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Rifampicin — Medicine Atlas · Human Engineering</title>
+  <title>Rifampicin — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #7c3aed;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #3b0764); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
-
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
-    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
-    .badge-warn { background: rgba(217,119,6,0.12); color: #d97706; }
-
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-
-    .haemo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .haemo-grid { grid-template-columns: 1fr; } }
-    .haemo-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .haemo-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .haemo-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-
-    .trial-result { font-weight: 700; color: var(--bio); }
-
-    .principle-box { background: rgba(124,58,237,0.07); border: 1px solid rgba(124,58,237,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent); }
-
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
-
-    .interactions-warn { background: rgba(185,28,28,0.04); border: 1px solid rgba(185,28,28,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; margin-bottom: 0.5rem; }
-    .interactions-warn p { font-size: 0.88rem; color: var(--fg-soft); line-height: 1.5; margin: 0; }
-    .interactions-warn strong { color: #b91c1c; }
-
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -131,302 +108,75 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; 01-Modern &middot; 06-Antimicrobial</div>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
     <h1>Rifampicin</h1>
-    <p class="tagline">Rifamycin antibiotic — binds the &#x3b2;-subunit of bacterial RNA polymerase and blocks elongation after the dinucleotide initiation step, sterilising dormant Mycobacterium tuberculosis bacilli that no other first-line TB drug can reach.</p>
-    <p class="subtagline">The backbone of TB treatment since 1968 and the reason we can cure TB in 6 months instead of 18. Also the most dangerous drug interaction perpetrator in clinical medicine — a nuclear PXR activator that induces CYP3A4, CYP2C9, P-gp and renders dozens of essential drugs ineffective.</p>
+    <p class="tagline">Semisynthetic rifamycin antibiotic and potent CYP3A4/P-gp inducer. Bactericidal against dividing and dormant mycobacteria via rpoB RNA polymerase inhibition. Backbone of first-line TB (HRZE); also used in leprosy, meningococcal prophylaxis, and MRSA biofilm.</p>
+    <p class="aliases">Also known as: rifampin, rifampicine, rifaldazine, Rimactane, Rifadin, RIF, R (in TB regimen notation)</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">6 months</span><span class="stat-label">TB cure duration (vs 18–24 pre-rifampicin)</span></div>
-      <div class="stat"><span class="stat-num">rpoB</span><span class="stat-label">&#x3b2;-subunit target gene</span></div>
-      <div class="stat"><span class="stat-num">CYP3A4</span><span class="stat-label">Major induction target</span></div>
-      <div class="stat"><span class="stat-num">RRDR</span><span class="stat-label">Resistance-determining region</span></div>
+        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas &middot; Antimicrobial &middot; Rifamycin Antibiotic</div>
-        <h2>Rifampicin</h2>
-        <div class="drug-class">Class: Rifamycin Antibiotic &nbsp;&middot;&nbsp; RNA Polymerase Inhibitor &nbsp;&middot;&nbsp; Antitubercular &nbsp;|&nbsp; Route: Oral / IV &nbsp;|&nbsp; Also known as: Rifampin (US) &nbsp;|&nbsp; Status: Essential TB regimen backbone; also leprosy, meningococcal prophylaxis, MRSA biofilm</div>
-        <p class="summary">Rifampicin is a semisynthetic rifamycin antibiotic derived from Amycolatopsis rifamycinica. Its defining characteristic is binding to the &#x3b2;-subunit of bacterial DNA-dependent RNA polymerase (RNAP) at a site adjacent to the active centre — blocking the translocation of the nascent RNA chain after formation of the initial dinucleotide. This bactericidal action extends to dormant, non-replicating M. tuberculosis bacilli ("persisters") sheltering in caseous necrosis and macrophages — a sterilising activity unique among first-line TB drugs that explains why rifampicin reduced TB treatment duration from 18–24 months to 6 months. Its second pharmacologically defining property is potent induction of CYP3A4, CYP2C9, CYP2C19, P-glycoprotein, and other drug-metabolising enzymes via nuclear PXR activation — making it one of the most consequential drug interaction perpetrators in all of clinical medicine.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">rifampin (US)</span>
-          <span class="alias-pill">RIF</span>
-          <span class="alias-pill">R (HRZE regimen)</span>
-          <span class="alias-pill">Rifadin</span>
-          <span class="alias-pill">Rimactane</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">rifampicin</div>
+        <h2>Rifampicin</h2>
+        <p class="summary">Semisynthetic rifamycin antibiotic and potent CYP3A4/P-gp inducer. Bactericidal against dividing and dormant mycobacteria via rpoB RNA polymerase inhibition. Backbone of first-line TB (HRZE); also used in leprosy, meningococcal prophylaxis, and MRSA biofilm.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Mechanism of Action — rpoB Binding and RNA Elongation Block</h3>
-          <h4>Bacterial RNA Polymerase — Structure and Rifampicin Binding Site</h4>
-          <div class="pathway-block">
-<pre>
-  Bacterial DNA-dependent RNA polymerase (RNAP) holoenzyme:
-  ┌──────────────────────────────────────────────────────┐
-  │  α₂ββ'ω core + σ factor (promoter recognition)      │
-  │  β-subunit (rpoB gene): contains the active centre   │
-  │  β'-subunit (rpoC gene): DNA template binding        │
-  └──────────────────────────────────────────────────────┘
-
-  Transcription initiation:
-  1. σ factor guides RNAP to promoter
-  2. DNA melts → template strand enters active cleft
-  3. NTP substrates enter → dinucleotide (pppNpN) synthesised
-  4. NORMAL: elongation begins → σ released → transcript extends
-
-  Rifampicin binding:
-  → Binds β-subunit at a pocket ~12 Å from the active site
-     (Asp516, Leu533, Met534, His526, Ser531 — RRDR residues)
-  → DOES NOT prevent dinucleotide synthesis
-  → BLOCKS: translocation of the 2-3 nucleotide nascent RNA
-     → aborts transcript AFTER initiation, BEFORE productive elongation
-  → Bactericidal: RNA synthesis completely blocked
-  → Selectivity: 10,000–100,000× lower affinity for
-     eukaryotic RNA polymerases (different β-subunit structure)
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;">The molecular mechanism has an important implication for resistance: <strong>rifampicin-resistant mutations cluster in the 81-base-pair "Rifampicin Resistance-Determining Region" (RRDR)</strong> of rpoB (codons 507–533 in E. coli numbering, 426–452 in M. tuberculosis). The most common TB mutations are at codons Asp435 (D435V/Y), His445 (H445Y/D/R), and Ser450 (S450L — formerly Ser531 in older numbering). S450L accounts for ~45–55% of rifampicin-resistant M. tuberculosis globally.</p>
-
-          <h4>Sterilising Activity vs Dormant Bacilli — Why Rifampicin is Irreplaceable</h4>
-          <div class="haemo-grid">
-            <div class="haemo-item">
-              <h4>Replicating Bacilli</h4>
-              <p>All first-line TB drugs (isoniazid, rifampicin, pyrazinamide, ethambutol) kill actively replicating M. tuberculosis. Isoniazid is most potent here — responsible for the rapid early bactericidal activity (EBA) in the first 2 days of treatment</p>
-            </div>
-            <div class="haemo-item">
-              <h4>Dormant / Persister Bacilli</h4>
-              <p>Non-replicating bacilli in caseous necrosis and macrophages survive isoniazid and ethambutol but are killed by <strong>rifampicin and pyrazinamide</strong>. Rifampicin kills slow-growing or non-growing bacilli — the key to preventing relapse. Without rifampicin: 18–24 months treatment needed. With rifampicin: 6 months achieves sterilising cure</p>
-            </div>
-            <div class="haemo-item">
-              <h4>Acidic Phagosome Environment</h4>
-              <p>Pyrazinamide is specifically active in the acidic intracellular environment of macrophage phagolysosomes — its sterilising activity is distinct from and complementary to rifampicin. Together, rifampicin + pyrazinamide in the first 2 months constitute the "sterilising backbone" of the HRZE regimen</p>
-            </div>
-            <div class="haemo-item">
-              <h4>Pharmacokinetic Properties</h4>
-              <p>Rifampicin is lipophilic — excellent tissue penetration including CSF, caseous lesions, and macrophage interiors. Oral bioavailability ~90–95% (fasting); food reduces absorption. Half-life 2–5 hours; biliary/faecal excretion (no dose adjustment in renal impairment)</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>HRZE Regimen — Standard TB Treatment</h3>
-          <p>The standard first-line regimen for drug-susceptible TB is the 6-month HRZE/HR regimen — two phases designed to exploit the different bactericidal mechanisms of each drug:</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Drug</th><th>Abbreviation</th><th>Standard Adult Dose</th><th>Primary Role in Regimen</th><th>Phase</th></tr>
-            <tr>
-              <td><strong>Isoniazid</strong></td>
-              <td>H</td>
-              <td>5 mg/kg/day (max 300 mg)</td>
-              <td>Early bactericidal activity — kills replicating bacilli rapidly; prevents resistance emergence; INH monoresistance risk if used alone</td>
-              <td>Both phases (6 months)</td>
-            </tr>
-            <tr>
-              <td><strong>Rifampicin</strong></td>
-              <td>R</td>
-              <td>10 mg/kg/day (max 600 mg)</td>
-              <td><strong>Sterilising activity</strong> against dormant bacilli; prevents relapse; backbone of the regimen; most important single drug in TB treatment</td>
-              <td>Both phases (6 months)</td>
-            </tr>
-            <tr>
-              <td><strong>Pyrazinamide</strong></td>
-              <td>Z</td>
-              <td>25 mg/kg/day (max 2 g)</td>
-              <td>Sterilising activity in acidic intracellular environments; allows shortening from 9 to 6 months; hepatotoxic — liver function monitoring required</td>
-              <td>Initial phase only (2 months)</td>
-            </tr>
-            <tr>
-              <td><strong>Ethambutol</strong></td>
-              <td>E</td>
-              <td>15–25 mg/kg/day</td>
-              <td>Protects against resistance emergence (arabinogalactan synthesis inhibitor); added until sensitivity testing confirms no isoniazid resistance</td>
-              <td>Initial phase only (2 months)</td>
-            </tr>
-          </table>
-          <p style="margin-top:0.75rem;"><strong>Regimen structure:</strong> <strong>2HRZE</strong> (2 months all 4 drugs — intensive phase) + <strong>4HR</strong> (4 months isoniazid + rifampicin — continuation phase). Resistance testing guides modification: confirmed isoniazid resistance &rarr; substitute levofloxacin; rifampicin resistance = presumptive MDR-TB &rarr; second-line regimen.</p>
-          <div class="principle-box">
-            <p><strong>Why rifampicin resistance = MDR-TB proxy:</strong> Isolated rifampicin resistance is rare in clinical M. tuberculosis — it almost always occurs on a background of pre-existing isoniazid resistance (because acquiring both is easier than acquiring rifampicin resistance de novo in a drug-naive host). The 2016 WHO End TB strategy endorsed rifampicin resistance (detected by Xpert MTB/RIF) as a proxy for MDR-TB &rarr; trigger immediate second-line MDR regimen. rpoB mutation detection by Xpert is &gt;96% sensitive for rifampicin resistance.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Resistance — rpoB RRDR and MDR-TB</h3>
-          <p>Rifampicin resistance in M. tuberculosis arises exclusively from point mutations in the <strong>Rifampicin Resistance-Determining Region (RRDR)</strong> of the rpoB gene — an 81-bp hotspot. No plasmid-mediated or enzymatic rifampicin resistance is seen in mycobacteria. Key features:</p>
-          <table class="data-table">
-            <tr><th>Codon (Mtb numbering)</th><th>Common Mutations</th><th>Resistance Level</th><th>Frequency</th></tr>
-            <tr>
-              <td><strong>Ser450 (S531 old)</strong></td>
-              <td>S450L (most common globally)</td>
-              <td>High-level (&gt;32 &micro;g/mL)</td>
-              <td>~45–55% of RIF-R strains</td>
-            </tr>
-            <tr>
-              <td><strong>His445 (H526 old)</strong></td>
-              <td>H445Y, H445D, H445R</td>
-              <td>High-level</td>
-              <td>~15–20%</td>
-            </tr>
-            <tr>
-              <td><strong>Asp435 (D516 old)</strong></td>
-              <td>D435V, D435G</td>
-              <td>Moderate to high</td>
-              <td>~5–10%</td>
-            </tr>
-            <tr>
-              <td><strong>Leu430 (L511 old)</strong></td>
-              <td>L430P</td>
-              <td>Moderate</td>
-              <td>Rare</td>
-            </tr>
-            <tr>
-              <td><strong>Ile491 (I572 old)</strong></td>
-              <td>I491F, I491V</td>
-              <td>Low-level ("borderline")</td>
-              <td>~5%; may respond to high-dose rifampicin</td>
-            </tr>
-          </table>
-          <p style="margin-top:0.75rem;">Xpert MTB/RIF (Cepheid) detects 5 overlapping probes spanning the RRDR — each probe probe hybridises to a different RRDR segment. Probe melt curve analysis identifies mutations. Sensitivity for rifampicin resistance ~96%; specificity ~98%. The 2023 WHO-approved Xpert MTB/XDR additionally detects isoniazid (inhA, katG), fluoroquinolone (gyrA/B), and second-line injectable resistance, enabling rapid XDR-TB diagnosis at point of care.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Drug Interactions — CYP3A4 / P-gp Induction</h3>
-          <p>Rifampicin is one of the most potent inducers of drug-metabolising enzymes and transporters known. Mechanism: rifampicin activates the nuclear pregnane X receptor (PXR/NR1I2), a transcription factor that upregulates CYP3A4, CYP2C9, CYP2C19, CYP2B6, UGT1A, P-glycoprotein (P-gp/ABCB1), MRP2, and others. Induction begins within 24 hours and reaches maximum effect in 5–7 days; the effect persists for 2–4 weeks after stopping rifampicin (enzyme synthesis continues until induced enzyme is degraded).</p>
-          <div class="interactions-warn">
-            <p><strong>Clinical alert:</strong> Every patient starting rifampicin MUST have a full medication review for CYP3A4/P-gp substrates. Failure to detect and manage interactions has caused treatment failures, organ rejection, HIV breakthrough, contraceptive failure, and deaths.</p>
-          </div>
-          <table class="data-table">
-            <tr><th>Drug / Class</th><th>Interaction Mechanism</th><th>Clinical Consequence</th><th>Management</th></tr>
-            <tr>
-              <td><strong>Oral contraceptives (OCP)</strong></td>
-              <td>CYP3A4 induction &rarr; &darr;ethinylestradiol + progestin AUC ~50–70%</td>
-              <td><strong>OCP failure &rarr; unintended pregnancy.</strong> Well-documented; frequently missed</td>
-              <td>Switch to non-hormonal contraception (IUD, barrier) for duration of rifampicin and 4 weeks after stopping</td>
-            </tr>
-            <tr>
-              <td><strong>Antiretrovirals (ARVs)</strong></td>
-              <td>CYP3A4 + P-gp induction &rarr; &darr;PI, INSTI, NNRTI plasma levels</td>
-              <td>HIV viral breakthrough; resistance emergence. Protease inhibitors (ritonavir-boosted or unboosted) virtually unusable with rifampicin</td>
-              <td>TB/HIV co-infection: use rifampicin + efavirenz 600 mg (NNRTI — less susceptible) OR switch to rifabutin (weaker inducer) + PI/INSTI. Expert HIV/TB consultation essential</td>
-            </tr>
-            <tr>
-              <td><strong>Warfarin</strong></td>
-              <td>CYP2C9 induction &rarr; &darr;S-warfarin half-life; CYP3A4 &rarr; &darr;R-warfarin</td>
-              <td>INR drops dramatically (often &lt;1.5 despite high doses); thrombosis risk during TB treatment and post-rifampicin rebound anticoagulation overshoot</td>
-              <td>2–5× warfarin dose increase typically required; monitor INR weekly during initiation; careful taper when rifampicin stopped (close monitoring for 4 weeks)</td>
-            </tr>
-            <tr>
-              <td><strong>Glucocorticoids</strong></td>
-              <td>CYP3A4 induction &rarr; &darr;prednisolone, methylprednisolone AUC ~50–65%</td>
-              <td>Adrenal insufficiency in patients dependent on corticosteroids; transplant rejection if on steroids post-transplant</td>
-              <td>Double corticosteroid dose during rifampicin; monitor for signs of adrenal insufficiency or rejection</td>
-            </tr>
-            <tr>
-              <td><strong>Calcineurin inhibitors (cyclosporin, tacrolimus)</strong></td>
-              <td>CYP3A4 + P-gp induction &rarr; &darr;levels 10–20 fold</td>
-              <td><strong>Acute transplant rejection</strong> — life-threatening; multiple cases of graft loss documented</td>
-              <td>Rifampicin contraindicated in most solid organ transplant recipients; if unavoidable, use rifabutin + expert transplant nephrology/hepatology guidance; massive dose increases required and levels are unpredictable</td>
-            </tr>
-            <tr>
-              <td><strong>Statins (simvastatin, atorvastatin)</strong></td>
-              <td>CYP3A4 induction + intestinal P-gp &rarr; &darr;statin AUC 60–90%</td>
-              <td>Loss of lipid-lowering effect during TB treatment; risk of atherothrombotic events</td>
-              <td>Switch to rosuvastatin (less CYP3A4-dependent) or pravastatin during rifampicin; monitor lipids</td>
-            </tr>
-            <tr>
-              <td><strong>Methadone</strong></td>
-              <td>CYP3A4 + CYP2B6 induction &rarr; &darr;methadone AUC ~30–70%</td>
-              <td>Opioid withdrawal syndrome in patients on methadone maintenance therapy; clinically underrecognised</td>
-              <td>Increase methadone dose 30–100% when starting rifampicin; reduce carefully (over weeks) when stopping</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>rifampicin</td></tr>
+            <tr><td>Name</td><td>Rifampicin</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Stream</td><td>01-modern</td></tr>
+            <tr><td>Drug class</td><td>rifamycin antibiotic</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Other Clinical Uses</h3>
-          <table class="data-table">
-            <tr><th>Indication</th><th>Role</th><th>Dose / Regimen</th></tr>
-            <tr>
-              <td><strong>Leprosy (M. leprae)</strong></td>
-              <td>Bactericidal component of MDT (multi-drug therapy); kills M. leprae rapidly — monthly supervised dose sufficient (M. leprae grows very slowly)</td>
-              <td>600 mg once monthly (supervised) as part of MDT regimen (paucibacillary: + dapsone; multibacillary: + dapsone + clofazimine)</td>
-            </tr>
-            <tr>
-              <td><strong>Meningococcal prophylaxis</strong></td>
-              <td>Eradication of N. meningitidis nasopharyngeal carriage in close contacts of confirmed meningococcal disease</td>
-              <td>600 mg BD &times; 2 days (adults); 10 mg/kg BD &times; 2 days (children &gt;1 month); alternatives: ciprofloxacin, ceftriaxone IM</td>
-            </tr>
-            <tr>
-              <td><strong>MRSA prosthetic / biofilm infections</strong></td>
-              <td>Rifampicin is uniquely effective against MRSA in biofilm state — penetrates biofilm matrix; must be combined with active anti-MRSA antibiotic (flucloxacillin, vancomycin, daptomycin) due to rapid resistance if used alone</td>
-              <td>300–600 mg BD combined with vancomycin, daptomycin, or flucloxacillin; duration depends on device/implant management</td>
-            </tr>
-            <tr>
-              <td><strong>Brucellosis</strong></td>
-              <td>Component of combination therapy (rifampicin + doxycycline for 6 weeks — WHO standard); alternative to streptomycin in non-severe disease</td>
-              <td>600–900 mg/day + doxycycline 200 mg/day &times; 6 weeks</td>
-            </tr>
-            <tr>
-              <td><strong>Pruritus in cholestasis</strong></td>
-              <td>Rifampicin reduces bile acid-related itch via PXR/FXR pathway modulation (reduces bile acid synthesis); used off-label when first-line antihistamines fail</td>
-              <td>150–300 mg/day; monitor LFTs (hepatotoxic in cholestatic liver disease)</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Adverse Effects</h3>
-          <ul class="se-list">
-            <li><strong>Hepatotoxicity</strong> — most important serious adverse effect; occurs in ~2–10% of patients on HRZE regimen (all four first-line TB drugs are hepatotoxic; rifampicin causes both direct hepatotoxicity and potentiates isoniazid hepatotoxicity via induction of CYP2E1 &rarr; more toxic isoniazid metabolites). Monitor LFTs at baseline and monthly; stop ALL TB drugs if transaminases &gt;3&times; ULN with symptoms or &gt;5&times; ULN asymptomatic; rechallenge sequentially after recovery</li>
-            <li><strong>Orange colouration of body fluids</strong> — rifampicin is orange-red in colour and is excreted in urine, sweat, tears, saliva, and breast milk. Urine turns bright orange/red — warn all patients to prevent alarm; permanently stains soft contact lenses (advise patients to avoid or discard)</li>
-            <li><strong>Flu-like syndrome (intermittent dosing)</strong> — fever, chills, myalgia, and malaise occurring 2–8 hours after drug ingestion; associated with irregular ("intermittent") dosing rather than daily dosing; mechanism involves immune complex formation with rifampicin antibodies. Solution: use daily dosing; if already on intermittent, do not switch back to daily (risk of immunological reaction)</li>
-            <li><strong>Gastrointestinal</strong> — nausea, vomiting, abdominal pain; take on an empty stomach for maximum absorption (30 minutes before food); if intolerable, take with light food (reduces absorption ~20%)</li>
-            <li><strong>Thrombocytopenia (rare)</strong> — immune-mediated; rifampicin-dependent antibodies; platelet count falls precipitously during intermittent therapy; discontinue permanently if occurs</li>
-            <li><strong>Induction-related sub-therapeutic drug levels</strong> — as noted above — rifampicin induces its own metabolism (autoinduction via PXR) as well as co-administered drugs; plasma levels fall over the first 2 weeks of treatment as CYP3A4 is induced</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="#" class="conn-pill targets">
-              <span class="rel">Targets</span>
-              RNA Polymerase &#x3b2;-subunit / rpoB (entry pending)
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Treats</span>
-              Mycobacterium tuberculosis (entry pending)
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Induces</span>
-              CYP3A4 / PXR pathway (entry pending)
-            </a>
+            <a class="conn-pill" href="mycobacterium-tuberculosis.html" title="Rifampicin is the most potent bactericidal and sterilizing component of first-line TB therapy (HRZE regimen); acts on both rapidly dividing bacilli in cavities and metabolically dormant bacilli in granulomas — the combination responsible for the 6-month cure rate achievable in drug-sensitive TB."><span class="rel">treats</span>Mycobacterium Tuberculosis</a>
+            <a class="conn-pill" href="mycobacterium-tuberculosis.html" title="Binds the rpoB subunit of M. tuberculosis RNA polymerase; rpoB mutations (especially codons 516, 526, 531) confer high-level resistance — and RIF resistance is used as a proxy for MDR-TB in rapid molecular diagnostics (GeneXpert MTB/RIF)."><span class="rel">modulates</span>Mycobacterium Tuberculosis</a>
+            <a class="conn-pill damaged" href="liver.html" title="Rifampicin causes transient transaminase elevation in 10–20% and frank hepatitis in ~1–2% of patients; CYP induction accelerates isoniazid → hydrazine metabolite conversion → additive hepatotoxicity; baseline LFTs + monthly monitoring required."><span class="rel">damages</span>Liver</a>
+            <a class="conn-pill" href="warfarin.html" title="Rifampicin is the most potent known CYP2C9/CYP3A4 inducer via PXR activation; S-warfarin plasma levels fall 70–90% within 7 days; warfarin dose may need doubling; INR monitoring weekly at start and monthly during TB therapy."><span class="rel">modulates</span>Warfarin</a>
+            <a class="conn-pill" href="hepatocyte.html" title="Rifampicin activates PXR (pregnane X receptor) in hepatocytes → CYP3A4/CYP2C9/CYP2B6/P-gp transcriptional upregulation; maximal induction in 5–7 days; reversal 2–4 weeks post-discontinuation; basis of all rifampicin drug-drug interactions."><span class="rel">targets</span>Hepatocyte</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>World Health Organization. WHO consolidated guidelines on tuberculosis. Module 4: Treatment — drug-susceptible tuberculosis treatment. Geneva: WHO; 2022. ISBN 978-92-4-004875-3.</li>
-            <li>Campagnac A, Brossier F, Veziris N. Rifampin resistance mutations in Mycobacterium tuberculosis: molecular genetics and epidemiology. <em>Future Microbiol.</em> 2021;16:573-85. <a href="https://doi.org/10.2217/fmb-2020-0210">doi:10.2217/fmb-2020-0210</a></li>
-            <li>Campbell EA, Korzheva N, Mustaev A, et al. Structural mechanism for rifampicin inhibition of bacterial RNA polymerase. <em>Cell.</em> 2001;104(6):901-12. <a href="https://doi.org/10.1016/S0092-8674(01)00286-0">doi:10.1016/S0092-8674(01)00286-0</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11290327/">PubMed 11290327</a></li>
-            <li>Niemi M, Backman JT, Fromm MF, et al. Pharmacokinetic interactions with rifampicin: clinical relevance. <em>Clin Pharmacokinet.</em> 2003;42(9):819-50. <a href="https://doi.org/10.2165/00003088-200342090-00003">doi:10.2165/00003088-200342090-00003</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12882588/">PubMed 12882588</a></li>
-            <li>Xpert MTB/RIF Implementation Manual. Technical and operational 'how-to': practical considerations. Geneva: WHO; 2014. ISBN 978-92-4-150677-7.</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/13629243/" target="_blank" rel="noopener noreferrer">Sensi P, Margalith P, Timbal MT. Rifomycin, a new antibiotic — preliminary report. Farmaco Ed Sci. 1959;14:146-7. (Original rifomycin discovery)</a></li>
+            <li><a href="https://www.who.int/publications/i/item/9789240048126" target="_blank" rel="noopener noreferrer">World Health Organization. Consolidated Guidelines on Tuberculosis, Module 4: Treatment — Drug-Susceptible Tuberculosis Treatment. WHO; 2022.</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/3884428/" target="_blank" rel="noopener noreferrer">Mitchison DA. The action of antituberculosis drugs in short-course chemotherapy. Tubercle. 1985;66(3):219-25.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/3884428/" target="_blank" rel="noopener noreferrer">PubMed 3884428</a></li>
           </ul>
         </div>
 
@@ -435,14 +185,12 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="ace-inhibitors.html">ACE Inhibitors</a>
-      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>

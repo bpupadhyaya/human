@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/sars-cov-2-spike
     relation: connects-to
     note: "SARS-CoV-2 Spike is the COVID-19 vaccine antigen; RBD:ACE2 binding (Kd ~15 nM) initiates infection of airway epithelium and type II pneumocytes; Spike-mediated ACE2 internalization amplifies ARDS; 2P-stabilized prefusion Spike is the basis of all approved mRNA vaccines."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/dexamethasone
+    relation: treated-by
+    note: "RECOVERY trial (Horby 2021): 6 mg OD × 10 days reduced 28-day mortality by 17% (RR 0.83) in patients requiring oxygen; 29% reduction in mechanically ventilated patients; no benefit in those not requiring supplemental oxygen."
 ---
 
 # COVID-19 Disease
@@ -120,6 +123,7 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `targets` → **[Respiratory System](../respiratory-system/README.md)** — SARS-CoV-2 initiates infection in the upper respiratory epithelium (ACE2-TMPRSS2 expression) and progresses to lower respiratory tract pneumonitis in severe disease; respiratory failure is the leading cause of COVID-19 mortality.
 - `connects-to` → **[SARS-CoV-2](../sars-cov-2/README.md)** — SARS-CoV-2 is the causative betacoronavirus; NSP5 Mpro (nirmatrelvir), NSP12 RdRp (remdesivir), and Spike (vaccine antigen) are the key targets; NSP1/ORF6 IFN evasion enables early viral amplification before adaptive immunity responds.
 - `connects-to` → **[SARS-CoV-2 Spike](../../03-molecular/sars-cov-2-spike/README.md)** — Spike is the primary COVID-19 vaccine antigen; RBD:ACE2 binding initiates infection; Spike-mediated ACE2 internalization amplifies ARDS; 2P prefusion-stabilized Spike is the basis of all approved mRNA vaccines; Omicron BA.1's 37 Spike mutations drive extensive immune escape.
+- `treated-by` → **[Dexamethasone](../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — RECOVERY trial (Horby 2021): 6 mg OD × 10 days reduced 28-day mortality by 17% (RR 0.83) in patients requiring oxygen; 29% mortality reduction in mechanically ventilated patients; no benefit in those not requiring supplemental oxygen.
 
 ## Pathology
 
@@ -136,3 +140,6 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 [^guan-2020-china-cohort]: Guan WJ, Ni ZY, Hu Y, et al. Clinical Characteristics of Coronavirus Disease 2019 in China. *N Engl J Med.* 2020;382(18):1708-1720. [doi:10.1056/NEJMoa2002032](https://doi.org/10.1056/NEJMoa2002032) · [PubMed 32109013](https://pubmed.ncbi.nlm.nih.gov/32109013/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
 [^polack-2020-bnt162b2]: Polack FP, Thomas SJ, Kitchin N, et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. *N Engl J Med.* 2020;383(27):2603-2615. [doi:10.1056/NEJMoa2034577](https://doi.org/10.1056/NEJMoa2034577) · [PubMed 33301246](https://pubmed.ncbi.nlm.nih.gov/33301246/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

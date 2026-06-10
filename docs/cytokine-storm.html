@@ -3,367 +3,198 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cytokine Storm — dysregulated hyperinflammatory response, HLH, MAS, key cytokines, feedback amplification, organ damage, treatment with corticosteroids, tocilizumab, anakinra, JAK inhibitors, emapalumab. Human Engineering Atlas.">
-  <meta property="og:title" content="Cytokine Storm — Human Engineering Atlas">
+  <meta name="description" content="Dysregulated systemic immune amplification with massive cytokine release (IL-6, TNF-α, IL-1β, IFN-γ). Macrophage-T cell loop causes ARDS, DIC, organ failure. Tr">
+  <meta property="og:title" content="Cytokine Storm — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Cytokine Storm — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#7c3aed;--accent-soft:rgba(124,58,237,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .hero{background:linear-gradient(135deg,#f5f0ff 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    dl.def-list{margin:.8rem 0 1rem}
-    dl.def-list dt{font-weight:700;color:var(--fg);margin-top:.75rem;font-size:.95rem}
-    dl.def-list dd{color:var(--fg-soft);padding-left:1.2rem;margin-top:.2rem}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="../index.html" class="brand">
-      <span class="brand-mark" aria-hidden="true"></span>
-      Human Engineering
-    </a>
-    <div class="nav-links">
-      <a href="../index.html">Home</a>
-      <a href="covid-19-disease.html">COVID-19</a>
-      <a href="nlrp3-inflammasome.html">NLRP3</a>
-      <a href="il-6.html">IL-6</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
+    <h1>Cytokine Storm</h1>
+    <p class="tagline">Dysregulated systemic immune amplification with massive cytokine release (IL-6, TNF-α, IL-1β, IFN-γ). Macrophage-T cell loop causes ARDS, DIC, organ failure. Triggers: COVID-19, CAR-T CRS, HLH. Treatment: tocilizumab, dexamethasone, anakinra.</p>
+    <p class="aliases">Also known as: cytokine storm, cytokine release syndrome, CRS, hypercytokinemia, macrophage activation syndrome, MAS, HLH</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
-</nav>
 
-<div class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Atlas Four &middot; Immunology &middot; Cellular/Molecular &middot; Hyperinflammation</p>
-    <h1>Cytokine <span>Storm</span></h1>
-    <p class="hero-lead">A life-threatening dysregulated hyperinflammatory response characterized by pathological amplification of cytokine production, loss of immunological brakes, macrophage-lymphocyte positive feedback, and progressive multi-organ damage. The final common pathway of severe viral infections, CAR-T therapy, and several autoimmune triggers.</p>
-  </div>
-</div>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<div class="meta-strip">
-  <span><strong>Scale:</strong> L04 Cellular/Molecular</span>
-  <span><strong>System:</strong> Immune System (Innate + Adaptive)</span>
-  <span><strong>Type:</strong> Hyperinflammatory Syndrome</span>
-  <span><strong>Status:</strong> Draft &middot; reviewed 2026-06-05</span>
-</div>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">cytokine-storm</div>
+        <h2>Cytokine Storm</h2>
+        <p class="summary">Dysregulated systemic immune amplification with massive cytokine release (IL-6, TNF-α, IL-1β, IFN-γ). Macrophage-T cell loop causes ARDS, DIC, organ failure. Triggers: COVID-19, CAR-T CRS, HLH. Treatment: tocilizumab, dexamethasone, anakinra.</p>
+      </div>
+      <div class="detail-body">
 
-<div class="content">
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>cytokine-storm</td></tr>
+            <tr><td>Name</td><td>Cytokine Storm</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
+          </table>
+        </div>
 
-  <div class="section" id="overview">
-    <h2>Definition and Clinical Spectrum</h2>
-    <p>The term <strong>cytokine storm</strong> (also: cytokine release syndrome, CRS; hypercytokinemia) describes a clinical state in which the immune system loses physiological control over cytokine production, generating self-amplifying inflammatory circuits that cause systemic toxicity disproportionate to &mdash; and increasingly independent of &mdash; the original trigger. The key distinction from a normal immune response is not merely elevated cytokine levels but the failure of regulatory mechanisms that ordinarily terminate inflammation once the threat is cleared.</p>
-    <p>Cytokine storm exists within a clinical spectrum of overlapping syndromes that share core immunopathological mechanisms:</p>
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="macrophage.html" title="Macrophages are central amplifiers of cytokine storm: activated macrophages produce IL-6, TNF-α, IL-1β, IL-12, and IL-18, engaging in feedback loops with T cells; MAS represents uncontrolled macrophage activation."><span class="rel">modulated-by</span>Macrophage</a>
+            <a class="conn-pill" href="il-6.html" title="IL-6 is the dominant cytokine in cytokine storm across multiple triggers (COVID-19, CAR-T CRS, HLH); it drives the acute-phase response, endothelial activation, and coagulopathy; tocilizumab (anti-IL-6R) reduces mortality in COVID-ARDS and CRS."><span class="rel">modulated-by</span>Il 6</a>
+            <a class="conn-pill" href="tnf-alpha.html" title="TNF-α is an early proximal alarm cytokine in cytokine storm, activating NF-κB on endothelial cells, hepatocytes, and macrophages; drives ICAM-1 upregulation, vascular permeability, and DIC via tissue factor induction."><span class="rel">modulated-by</span>Tnf Alpha</a>
+            <a class="conn-pill" href="nf-kb.html" title="NF-κB is the master transcriptional driver of the pro-inflammatory cytokine cascade in cytokine storm; activated by TNF-α, IL-1β, LPS, and viral PAMPs, it drives expression of IL-6, IL-8, TNF-α, MCP-1, and tissue factor in macrophages and endothelial cells."><span class="rel">modulated-by</span>Nf Kb</a>
+            <a class="conn-pill" href="lung.html" title="Cytokine storm causes ARDS in the lung: IL-8-driven neutrophil recruitment, endothelial barrier disruption, surfactant dysfunction, and hyaline membrane formation; the lung is the most vulnerable end-organ due to its exposure to the entire cardiac output."><span class="rel">modulates</span>Lung</a>
+            <a class="conn-pill" href="dexamethasone.html" title="Dexamethasone suppresses cytokine storm via GR:NF-κB transrepression (↓ IL-1β/IL-6/TNF-α) and GRE transactivation (IκBα/IL-10/ANXA1 upregulation); primary mechanism of RECOVERY trial mortality benefit and CAR-T cytokine release syndrome treatment."><span class="rel">modulated-by</span>Dexamethasone</a>
+          </div>
+        </div>
 
-    <dl class="def-list">
-      <dt>Hemophagocytic Lymphohistiocytosis (HLH)</dt>
-      <dd>Rare hyperinflammatory syndrome defined by the HLH-2004 diagnostic criteria: fever, splenomegaly, cytopenias in &ge;2 lineages, hypertriglyceridemia and/or hypofibrinogenemia, hemophagocytosis on bone marrow/liver/lymph node biopsy, low/absent NK cell activity, ferritin &gt;500 &mu;g/L, and elevated sCD25 (&gt;2400 U/mL). Primary (familial/genetic) HLH involves mutations in perforin pathway genes (PRF1, UNC13D, STX11, STXBP2); secondary HLH is triggered by infections (EBV most common), malignancy, or autoimmune conditions.</dd>
-      <dt>Macrophage Activation Syndrome (MAS)</dt>
-      <dd>The form of secondary HLH occurring in the context of rheumatological disease, most commonly systemic juvenile idiopathic arthritis (sJIA) and adult-onset Still&rsquo;s disease. Classified separately from HLH due to distinct triggers, subtly different cytokine profiles (IL-18 predominance), and response to IL-1&beta; blockade. MAS-2016 classification criteria for sJIA-associated MAS: ferritin &gt;684 &mu;g/L plus &ge;2 of: platelet count &le;181&times;10<sup>9</sup>/L; AST &gt;48 U/L; triglycerides &gt;156 mg/dL; fibrinogen &le;360 mg/dL.</dd>
-      <dt>CRS (Cytokine Release Syndrome)</dt>
-      <dd>Clinical entity defined in the context of immunotherapy (CAR-T cells, bispecific antibodies, checkpoint inhibitors) and characterized by fever, hypotension, and end-organ toxicity temporally related to immune effector cell activation. Graded by ASTCT 2019 consensus criteria: grade 1 (fever alone) through grade 4 (life-threatening vasopressors + intubation required). Neurotoxicity (ICANS) often accompanies severe CRS in CAR-T settings.</dd>
-    </dl>
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1056/NEJMra2026131" target="_blank" rel="noopener noreferrer">Fajgenbaum DC, June CH. Cytokine Storm. N Engl J Med. 2020;383(23):2255-2273.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33264547/" target="_blank" rel="noopener noreferrer">PubMed 33264547</a></li>
+            <li><a href="https://doi.org/10.1128/MMBR.05015-11" target="_blank" rel="noopener noreferrer">Tisoncik JR, Korth MJ, Simmons CP, Farrar J, Martin TR, Katze MG. Into the eye of the cytokine storm. Microbiol Mol Biol Rev. 2012;76(1):16-32.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22390970/" target="_blank" rel="noopener noreferrer">PubMed 22390970</a></li>
+          </ul>
+        </div>
 
-    <h3>Triggers</h3>
-    <ul>
-      <li><strong>Viral infections:</strong> EBV (most common trigger of secondary HLH), SARS-CoV-2 (severe COVID-19), influenza A (H1N1/H5N1), CMV, HHV-8, dengue, HIV</li>
-      <li><strong>CAR-T cell therapy:</strong> CD19-directed CAR-T (axicabtagene ciloleucel, tisagenlecleucel); BCMA-directed (idecabtagene vicleucel); high tumor burden and rapid T cell expansion are primary risk factors</li>
-      <li><strong>Bispecific antibodies:</strong> Blinatumomab (CD3&times;CD19), teclistamab (CD3&times;BCMA) &mdash; CRS risk correlates with target antigen density</li>
-      <li><strong>Sepsis:</strong> Dysregulated systemic macrophage activation in response to disseminated PAMPs and DAMPs; both NLRP3-dependent (IL-1&beta;) and NF-&kappa;B-dependent (TNF-&alpha;, IL-6) axes</li>
-      <li><strong>Autoimmune disease:</strong> sJIA, adult-onset Still&rsquo;s, SLE flares, Kawasaki disease, MIS-C (multisystem inflammatory syndrome in children, post-SARS-CoV-2)</li>
-      <li><strong>Malignancy-associated:</strong> Hematological malignancies (T/NK cell lymphomas, aggressive B cell lymphomas) via direct macrophage activation; iatrogenic (checkpoint inhibitors)</li>
-    </ul>
-  </div>
+      </div>
+    </div>
+  </main>
 
-  <div class="section" id="cytokines">
-    <h2>Key Cytokines, Sources, and Signaling</h2>
-    <table>
-      <thead>
-        <tr><th>Cytokine</th><th>Primary Cellular Sources</th><th>Receptor / Signaling</th><th>Role in Storm</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>IL-6</strong></td>
-          <td>Activated macrophages, dendritic cells, monocytes; fibroblasts, endothelium (secondary)</td>
-          <td><em>Classic:</em> membrane IL-6R (mIL-6R) + gp130 &rarr; JAK1/TYK2 &rarr; STAT3. <em>Trans-signaling:</em> soluble IL-6R (sIL-6R) + gp130 on cells lacking mIL-6R &mdash; enables tissue-wide STAT3 activation; sIL-6R generated by ADAM10/ADAM17 shedding and alternative splicing</td>
-          <td>Master orchestrator: STAT3 drives proliferation, survival, and cytokine production in macrophages and T cells; acute phase protein induction (CRP, fibrinogen, ferritin) in hepatocytes; suppresses regulatory T cells; inhibits apoptosis of activated immune cells creating a survival bias for pro-inflammatory cells</td>
-        </tr>
-        <tr>
-          <td><strong>TNF-&alpha;</strong></td>
-          <td>Macrophages, monocytes, NK cells, CD4<sup>+</sup> T cells</td>
-          <td>TNFR1 (ubiquitous) / TNFR2 (immune cells) &rarr; TRADD/RIP1 &rarr; NF-&kappa;B (pro-survival and pro-inflammatory) or caspase-8 &rarr; apoptosis</td>
-          <td>NF-&kappa;B activation in macrophages drives further TNF-&alpha; production (positive feedback loop), IL-6, IL-8, tissue factor; endothelial activation (ICAM-1, VCAM-1 upregulation) &rarr; neutrophil and monocyte recruitment; direct cytotoxicity to endothelial cells via TNFR1-caspase-8; septic shock mediator (extreme TNF levels)</td>
-        </tr>
-        <tr>
-          <td><strong>IL-1&beta;</strong></td>
-          <td>NLRP3 inflammasome-activated macrophages, monocytes, dendritic cells</td>
-          <td>Pro-IL-1&beta; &rarr; caspase-1 cleavage &rarr; mature IL-1&beta;. Receptor: IL-1R1 + IL-1RAcP &rarr; MyD88 &rarr; IRAK1/4 &rarr; TRAF6 &rarr; NF-&kappa;B and MAPK</td>
-          <td>Fever (PGE<sub>2</sub> synthesis in hypothalamus), neutrophil mobilization (CXCL8), endothelial activation, Th17 polarization (with IL-6 and TGF-&beta;), IL-6 induction; IL-1&beta; + IL-6 drive the fever-acute phase axis of hyperinflammation; primary mediator of MAS/sJIA and Kawasaki disease; IL-1RA (anakinra) blocks both IL-1&alpha; and IL-1&beta;</td>
-        </tr>
-        <tr>
-          <td><strong>IFN-&gamma;</strong></td>
-          <td>NK cells (innate source, rapid), CD4<sup>+</sup> Th1, CD8<sup>+</sup> CTL</td>
-          <td>IFN-&gamma;R1/R2 heterodimer &rarr; JAK1/JAK2 &rarr; STAT1 homodimer &rarr; GAS elements; induces hundreds of interferon-stimulated genes (ISGs) including MHC I/II upregulation, iNOS, GBPs, IRF1</td>
-          <td><strong>Primary driver of MAS/HLH:</strong> IFN-&gamma; activates macrophages &rarr; hemophagocytosis, ferritin secretion, IL-12/IL-18 production &rarr; more IFN-&gamma; from NK/Th1 (self-amplifying loop); impairs NK cell cytotoxicity when chronic (paradoxically); IFN-&gamma; levels &gt;75 pg/mL strongly predict HLH mortality; emapalumab (anti-IFN-&gamma;) targets this axis</td>
-        </tr>
-        <tr>
-          <td><strong>IL-18</strong></td>
-          <td>Macrophages, dendritic cells (constitutive expression; NLRP3/caspase-1-processed)</td>
-          <td>IL-18R&alpha;/&beta; + MyD88 &rarr; IRAK4 &rarr; NF-&kappa;B; synergizes with IL-12 for maximal IFN-&gamma; induction</td>
-          <td>Key MAS biomarker: serum IL-18 &gt;10,000 pg/mL highly specific for MAS over other HLH triggers; drives NK cell IFN-&gamma; production; IL-18BP (binding protein, decoy receptor) is upregulated in inflammation but overwhelmed in MAS; free IL-18 (total minus IL-18BP-bound) is a more specific MAS indicator than total IL-18</td>
-        </tr>
-        <tr>
-          <td><strong>GM-CSF</strong></td>
-          <td>T cells (antigen-activated), macrophages, endothelium, fibroblasts</td>
-          <td>GM-CSFR&alpha;/&beta;c &rarr; JAK2 &rarr; STAT5; also PI3K and MAPK</td>
-          <td><strong>Critical macrophage-T cell crosstalk mediator in COVID-19 cytokine storm:</strong> activated T cells secrete GM-CSF &rarr; macrophage activation and differentiation &rarr; pro-inflammatory cytokine release &rarr; further T cell activation; GM-CSF<sup>+</sup> T cells overrepresented in severe COVID-19 lung infiltrates; mavrilimumab (anti-GM-CSF-R) and otilimab (anti-GM-CSF) in clinical trials</td>
-        </tr>
-        <tr>
-          <td><strong>CXCL10 (IP-10)</strong></td>
-          <td>Macrophages, dendritic cells, endothelium, epithelium (IFN-induced)</td>
-          <td>CXCR3 on NK cells, Th1, CD8<sup>+</sup> T cells &rarr; G&alpha;i &rarr; PI3K/Akt/MAPK</td>
-          <td>Potent chemoattractant recruiting NK cells and cytotoxic T cells to inflamed tissue; serum CXCL10/IP-10 levels tightly correlate with COVID-19 severity (&gt;500 pg/mL in ICU patients vs. ~60 pg/mL in mild cases); also drives neutrophil chemotaxis in pulmonary context (NETosis); CXCL10 levels predict cytokine storm severity across multiple diseases</td>
-        </tr>
-        <tr>
-          <td><strong>IL-10</strong></td>
-          <td>Regulatory T cells, M2 macrophages, B cells, CD8<sup>+</sup> T cells</td>
-          <td>IL-10R1/R2 &rarr; JAK1/TYK2 &rarr; STAT3</td>
-          <td><strong>IL-10 paradox in cytokine storm:</strong> IL-10 is canonically anti-inflammatory (suppresses macrophage TNF-&alpha;/IL-12 production, promotes Treg function), yet is markedly elevated in cytokine storm and correlates with severity. In HLH, IL-10 may represent a failed counter-regulatory response or a mediator of immunosuppression that contributes to impaired NK and CTL cytotoxicity &mdash; worsening the failure to clear the activating trigger</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-  <div class="section" id="amplification">
-    <h2>Feedback Amplification and Loss of Immunological Brakes</h2>
-
-    <h3>Macrophage&ndash;Lymphocyte Amplification Circuit</h3>
-    <p>The central positive feedback loop driving cytokine storm was first described in the context of HLH/MAS and operates as follows:</p>
-    <ol>
-      <li>An inciting trigger (viral antigen, autoreactive T cell, CAR-T target engagement) leads to macrophage activation and antigen presentation.</li>
-      <li>Activated macrophages secrete IL-12 and IL-18 &rarr; NK cells and Th1/CTL produce <strong>IFN-&gamma;</strong>.</li>
-      <li>IFN-&gamma; further activates macrophages &rarr; hemophagocytosis, increased IL-12, IL-18, IL-6, and TNF-&alpha; production, and upregulation of MHC II &rarr; enhanced antigen presentation.</li>
-      <li>Enhanced antigen presentation drives further T cell and NK cell activation &rarr; more IFN-&gamma;.</li>
-      <li>Simultaneously, IL-6 from macrophages suppresses Treg function, removing a key brake on T cell activation.</li>
-    </ol>
-    <p>In health, this circuit is terminated by: (a) NK cell and CTL-mediated killing of the activating antigen source (clearing infection); (b) Treg-mediated IL-2 competition and IL-10/TGF-&beta; suppression; (c) feedback inhibition of IL-12 production by IL-10; (d) SOCS proteins dampening JAK-STAT signaling. In cytokine storm, one or more of these brakes fail.</p>
-
-    <h3>Ferritin as Acute-Phase Marker</h3>
-    <p>Ferritin is both an iron-storage protein and an acute-phase reactant secreted by activated macrophages. In cytokine storm:</p>
-    <ul>
-      <li>IL-1&beta; and IL-6 induce ferritin synthesis in hepatocytes and macrophages</li>
-      <li>IFN-&gamma; directly stimulates ferritin secretion from activated macrophages</li>
-      <li>Serum ferritin &gt;500 &mu;g/L raises suspicion for HLH; &gt;10,000 &mu;g/L is diagnostic in adults (95% specificity for HLH in one meta-analysis); children may exceed 500,000 &mu;g/L in severe primary HLH</li>
-      <li>Ferritin itself may be immunosuppressive (via ferritin receptors on lymphocytes), contributing to NK/CTL dysfunction</li>
-    </ul>
-
-    <h3>Treg Exhaustion and IL-10 Paradox</h3>
-    <p>Regulatory T cells (CD4<sup>+</sup>FOXP3<sup>+</sup> Tregs) normally curtail effector T cell responses through IL-10, TGF-&beta;, and competitive IL-2 consumption. In cytokine storm, three mechanisms converge to impair Treg function:</p>
-    <ul>
-      <li><strong>IL-6 trans-signaling:</strong> STAT3 activation downstream of sIL-6R/gp130 in T cells converts FOXP3<sup>+</sup> Tregs into pro-inflammatory Th17-like cells that secrete IL-17 instead of IL-10</li>
-      <li><strong>TNF-&alpha;-mediated Treg killing:</strong> TNFR2 on Tregs mediates TNF-dependent apoptosis at high TNF concentrations</li>
-      <li><strong>Lymphopenia:</strong> CD4<sup>+</sup> Treg depletion (common in severe COVID-19, HLH) eliminates the suppressor cell pool</li>
-    </ul>
-    <p>IL-10 is paradoxically elevated despite Treg exhaustion because macrophages and monocytes produce IL-10 as an attempted counter-regulatory response. However, this macrophage-derived IL-10 may contribute to cytotoxic lymphocyte dysfunction (NK and CTL impairment), worsening the failure to clear the inciting trigger and perpetuating the storm.</p>
-
-    <h3>Impaired Cytotoxic Lymphocyte Function</h3>
-    <p>A critical insight from primary HLH genetics is that <strong>defective cytotoxic granule exocytosis</strong> is the root cause: mutations in perforin (PRF1), Munc13-4 (UNC13D), Syntaxin-11 (STX11), or STXBP2 prevent NK cells and CTLs from killing virally infected cells or APC. Unable to eliminate the activating stimulus, the immune system enters a futile amplification state. In secondary HLH and COVID-19 cytokine storm, functional exhaustion (PD-1/LAG-3/TIM-3 upregulation) on NK and CD8<sup>+</sup> T cells produces a phenotypically similar state of impaired cytotoxicity without genetic defect.</p>
-    <div class="callout"><strong>The perforin paradox:</strong> Cytokine storm arises not from excessive killing but from <em>insufficient</em> killing. NK cells and CTLs that cannot eliminate their targets continue to secrete cytokines in a frustrated activation state, maintaining the amplification circuit indefinitely. This counterintuitive principle explains why HLH patients have both the highest inflammatory markers and the most impaired lymphocyte cytotoxicity simultaneously.</div>
-  </div>
-
-  <div class="section" id="organ-damage">
-    <h2>Organ Damage Patterns</h2>
-
-    <h3>ARDS and Pulmonary Failure</h3>
-    <p>The lung is the primary target in COVID-19 cytokine storm and influenza-associated CRS. Alveolar capillary leak &mdash; driven by IL-6 (VEGF upregulation, tight junction disruption), TNF-&alpha; (TNFR1-mediated endothelial apoptosis), and IL-1&beta; (prostaglandin-mediated vascular permeability) &mdash; floods alveoli with protein-rich exudate. Neutrophil recruitment via CXCL8/IL-8 and CXCL10 drives NETosis (neutrophil extracellular trap formation), adding amplified oxidative injury and coagulation pathway activation. The histological result is diffuse alveolar damage (DAD), and the clinical result is ARDS (Berlin criteria: bilateral infiltrates + PaO<sub>2</sub>/FiO<sub>2</sub> &lt;300 mmHg).</p>
-
-    <h3>Cytokine-Mediated Coagulopathy</h3>
-    <p>Cytokine storm drives a hypercoagulable state through multiple convergent mechanisms:</p>
-    <ul>
-      <li>TNF-&alpha; and IL-6 upregulate tissue factor (TF) expression on macrophages and endothelium &rarr; extrinsic coagulation cascade activation</li>
-      <li>IL-6 induces hepatic fibrinogen, factor VIII, and vWF synthesis (acute phase response)</li>
-      <li>IFN-&gamma; and TNF-&alpha; suppress thrombomodulin expression on endothelium &rarr; reduced protein C activation &rarr; impaired fibrinolysis</li>
-      <li>Neutrophil extracellular traps (NETs) provide a scaffold for platelet aggregation and fibrin deposition &rarr; microvascular thrombosis</li>
-      <li>In severe HLH, paradoxical hypofibrinogenemia occurs (fibrinogen consumed by extensive hemophagocytosis and plasminogen activator release from activated macrophages) &rarr; DIC-like bleeding</li>
-    </ul>
-
-    <h3>Cardiac Injury</h3>
-    <p>Cytokine storm causes cardiac injury through direct and indirect mechanisms: TNF-&alpha; and IL-1&beta; are directly cardiodepressant (impair myocyte calcium handling and reduce contractility via iNOS-derived NO); IL-6 drives STAT3 activation in cardiomyocytes promoting pathological hypertrophy; coronary microvascular thrombosis and spasm cause myocardial ischemia. Clinically: troponin elevation in 8&ndash;12% of severe COVID-19 and 15&ndash;20% of HLH; stress cardiomyopathy (Takotsubo pattern); fulminant myocarditis in MIS-C and CAR-T-related CRS.</p>
-
-    <h3>Acute Kidney Injury (AKI)</h3>
-    <p>Cytokine-driven AKI results from tubular injury (IL-6- and TNF-&alpha;-mediated tubular apoptosis), renal vasoconstriction (thromboxane A2, endothelin-1 upregulation), and glomerular thrombotic microangiopathy. In COVID-19 severe AKI, complement deposition (C3b, MAC) on glomerular capillaries contributes. Kidney injury in HLH may be severe enough to require dialysis; ferritin nephrotoxicity (tubular iron deposition) is an additional mechanism in extreme hyperferritinemia.</p>
-
-    <h3>CNS Involvement</h3>
-    <p>Cytokine-mediated encephalopathy is increasingly recognized as a complication of severe cytokine storm. IL-6, TNF-&alpha;, and IL-1&beta; disrupt the blood-brain barrier (BBB) via tight junction protein downregulation and matrix metalloproteinase (MMP) upregulation &rarr; cerebral edema and inflammatory cell infiltration. In COVID-19, microglial activation, perivascular inflammation, and fibrin microclots have been documented at autopsy. CAR-T-associated neurotoxicity (ICANS) is mediated by CSF cytokine elevations (IL-6, IL-8, IFN-&gamma;), seizures, and in severe cases cerebral edema.</p>
-  </div>
-
-  <div class="section" id="diagnosis">
-    <h2>Diagnostic Criteria</h2>
-
-    <h3>HScore for HLH Probability</h3>
-    <p>The HScore (Fardet et al. 2014) is a validated clinical tool assigning points across 9 variables to calculate the probability of reactive HLH. A score &ge;169 has ~93% sensitivity and ~86% specificity for HLH. Variables include:</p>
-    <ul>
-      <li>Temperature (&ge;38.4&deg;C: 33 pts; &ge;39.4&deg;C: 49 pts)</li>
-      <li>Organomegaly: hepatomegaly or splenomegaly (23 pts each, 38 pts for both)</li>
-      <li>Number of cytopenias (1 lineage: 0; 2: 24 pts; 3: 34 pts)</li>
-      <li>Serum ferritin (&lt;2000: 0; 2000&ndash;6000: 35 pts; &gt;6000: 50 pts)</li>
-      <li>Serum triglycerides (&lt;132 mg/dL: 0; 132&ndash;354: 44 pts; &gt;354: 64 pts)</li>
-      <li>Fibrinogen (&gt;250 mg/dL: 0; &le;250: 30 pts)</li>
-      <li>AST (&lt;30 U/L: 0; &ge;30: 19 pts)</li>
-      <li>Hemophagocytosis on bone marrow biopsy (no: 0; yes: 35 pts)</li>
-      <li>Known underlying immunosuppression (no: 0; yes: 18 pts)</li>
-    </ul>
-
-    <h3>MAS-2016 Classification Criteria (for sJIA-associated MAS)</h3>
-    <p>A patient with sJIA is classified as having MAS if: <strong>serum ferritin &gt;684 &mu;g/L</strong> AND any 2 or more of the following:</p>
-    <ul>
-      <li>Platelet count &le;181&times;10<sup>9</sup>/L</li>
-      <li>AST &gt;48 U/L</li>
-      <li>Triglycerides &gt;156 mg/dL</li>
-      <li>Fibrinogen &le;360 mg/dL</li>
-    </ul>
-
-    <h3>ASTCT CRS Grading (CAR-T/bispecific contexts)</h3>
-    <p>Grade 1: Fever &ge;38&deg;C only. Grade 2: Fever + hypotension responsive to fluids OR O<sub>2</sub> requirement &lt;low-flow nasal cannula. Grade 3: Fever + hypotension requiring vasopressors OR high-flow O<sub>2</sub>. Grade 4: Life-threatening (pressors + intubation). Treatment escalation (tocilizumab, corticosteroids) is typically initiated at Grade 2 in CAR-T settings.</p>
-  </div>
-
-  <div class="section" id="treatment">
-    <h2>Treatment</h2>
-    <table>
-      <thead>
-        <tr><th>Agent</th><th>Mechanism</th><th>Key Evidence</th><th>Context</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Dexamethasone / methylprednisolone</strong></td>
-          <td>Glucocorticoid receptor-mediated transcriptional suppression of NF-&kappa;B and AP-1; broad inhibition of IL-6, IL-1&beta;, TNF-&alpha; production; promotes anti-inflammatory macrophage polarization; inhibits NLRP3 inflammasome priming</td>
-          <td>RECOVERY trial: dexamethasone 6 mg/d &rarr; 35% mortality reduction in ventilated COVID-19; standard of care for ARDS of any etiology; cornerstone of HLH treatment protocols (HLH-94, HLH-2004) in combination with etoposide + cyclosporine</td>
-          <td>Mainstay first-line immunosuppression in all forms of cytokine storm; high-dose methylprednisolone (1 g/day pulses) for refractory HLH/MAS; dose reduction requires careful tapering to avoid rebound</td>
-        </tr>
-        <tr>
-          <td><strong>Tocilizumab</strong><br>(Actemra)</td>
-          <td>Humanized anti-IL-6R mAb; blocks both membrane-bound and soluble IL-6R; abrogates IL-6 trans-signaling and STAT3 activation in all tissues; single IV dose most commonly used</td>
-          <td>RECOVERY: 14% absolute mortality reduction added to dexamethasone in severe COVID-19 (CRP &ge;75 mg/L); REMAP-CAP: improved organ-support-free days; ASTCT guidelines: first-line for CAR-T CRS grade &ge;2</td>
-          <td>Standard of care in COVID-19 and CAR-T CRS; also used in MAS, sJIA, and chimeric antigen receptor neurotoxicity; note: can mask fever (invalidating temperature as disease monitor) and may transiently increase transaminases</td>
-        </tr>
-        <tr>
-          <td><strong>Sarilumab</strong><br>(Kevzara)</td>
-          <td>Human anti-IL-6R antibody; binds both soluble and membrane-bound IL-6R; SC or IV; longer half-life than tocilizumab; same mechanistic target</td>
-          <td>REMAP-CAP: comparable organ-support-free day improvement to tocilizumab; used as tocilizumab substitute in supply-limited settings</td>
-          <td>Tocilizumab alternative in COVID-19 and CRS; avoid in combination with other JAK inhibitors due to additive immunosuppression</td>
-        </tr>
-        <tr>
-          <td><strong>Anakinra</strong><br>(Kineret)</td>
-          <td>Recombinant IL-1RA (receptor antagonist); competitively inhibits both IL-1&alpha; and IL-1&beta; at IL-1R1; short half-life (4&ndash;6 h) requires daily SC injection or IV infusion; can be dose-escalated rapidly</td>
-          <td>SAVE-MORE (COVID-19): suPAR-guided anakinra &rarr; significant reduction in severe disease progression; SAVE (sJIA-MAS): anakinra vs. standard therapy in MAS &rarr; rapid ferritin reduction; widely used in sJIA-MAS, HLH-MAS overlap, and adult-onset Still&rsquo;s</td>
-          <td>Drug of choice for IL-1&beta;-driven syndromes (MAS, sJIA, CAPS); also used in HScore-positive COVID-19; dose 100 mg SC once daily (standard) up to 400 mg SC daily in severe MAS; FDA-approved for NOMID and Still&rsquo;s disease</td>
-        </tr>
-        <tr>
-          <td><strong>Baricitinib</strong><br>(Olumiant)</td>
-          <td>JAK1/JAK2 inhibitor; blocks downstream signaling of IL-6R, IFN-&gamma;R, IL-2R, GM-CSFR simultaneously; oral; also antiviral properties via AAK1 (clathrin-mediated endocytosis) inhibition</td>
-          <td>COV-BARRIER: 38% relative mortality reduction (8.1% vs. 13.1%) in hospitalized COVID-19; FDA emergency authorization; used in combination with dexamethasone</td>
-          <td>Preferred second immunosuppressant in COVID-19 (added to dexamethasone when IL-6R blocker unavailable or insufficient); also used in MAS and cytokine storm secondary to HLH</td>
-        </tr>
-        <tr>
-          <td><strong>Ruxolitinib</strong><br>(Jakafi)</td>
-          <td>JAK1/JAK2 inhibitor; original indication polycythemia vera/myelofibrosis; same downstream targets as baricitinib</td>
-          <td>REACH2 (graft-vs.-host disease): ruxolitinib superior to best available therapy (50% vs. 26% response at day 28); used off-label in secondary HLH (>20 reported case series); FDA-approved for steroid-refractory acute GvHD (alternative HLH indication)</td>
-          <td>Preferred JAK inhibitor for HLH when cytopenia precludes chemotherapy; oral; dose 10&ndash;20 mg BID; monitor for immunosuppression-related infections</td>
-        </tr>
-        <tr>
-          <td><strong>Etoposide</strong></td>
-          <td>Topoisomerase II inhibitor; cytotoxic to rapidly dividing cells including activated T cells and macrophages; mechanism in HLH: macrophage and lymphocyte elimination breaks the amplification circuit</td>
-          <td>HLH-94 / HLH-2004 protocol: etoposide 150 mg/m<sup>2</sup> IV &times; 2/week (weeks 1&ndash;2) then weekly (weeks 3&ndash;8) with dexamethasone &plusmn; cyclosporine &rarr; 5-year overall survival ~54% in primary HLH; dramatically improved prognosis vs. pre-etoposide era; still standard of care for all primary HLH and severe secondary HLH</td>
-          <td>Standard of care for primary and severe secondary HLH; not routinely used in COVID-19 cytokine storm or sJIA-MAS without features of frank HLH; requires careful myelosuppression monitoring</td>
-        </tr>
-        <tr>
-          <td><strong>Emapalumab</strong><br>(Gamifant)</td>
-          <td>Human anti-IFN-&gamma; monoclonal antibody; neutralizes IFN-&gamma;, preventing macrophage activation and hemophagocytosis; targets the central amplification loop of HLH</td>
-          <td>NI-0501 trial (primary HLH): 63% response rate (reduction of HLH activity) in patients refractory/intolerant to conventional HLH-2004 therapy; FDA approved 2018 for primary HLH in pediatric patients</td>
-          <td>FDA-approved for primary HLH (pediatric); investigational in refractory secondary HLH and MAS; serum IFN-&gamma; levels used to monitor treatment response; distinct from IL-6R/IL-1 blockade in that it directly interrupts the macrophage-lymphocyte circuit rather than downstream effector cytokines</td>
-        </tr>
-        <tr>
-          <td><strong>IVIG (Intravenous Immunoglobulin)</strong></td>
-          <td>Polyvalent human IgG from pooled donors; multiple mechanisms: Fc receptor blockade (competing with pathogenic IgG), complement consumption, anti-idiotype neutralization, Fc&gamma;RIIB upregulation (inhibitory receptor), IL-1RA induction</td>
-          <td>Standard of care in Kawasaki disease (2 g/kg reduces coronary artery aneurysm risk from ~25% to &lt;5%); essential in MIS-C treatment (WHO guidelines); used in HLH as adjunct and in CAR-T CRS (immunoglobulin replacement)</td>
-          <td>First-line in Kawasaki disease and MIS-C; adjunctive in secondary HLH; most useful when autoantibody or immune complex pathology is suspected</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="callout"><strong>Treatment sequencing principle:</strong> Corticosteroids are universal first-line therapy in cytokine storm. Add IL-6R blockade (tocilizumab) for COVID-19 CRS and CAR-T CRS. Prefer IL-1 blockade (anakinra) for MAS/sJIA. Add JAK inhibition (baricitinib, ruxolitinib) for refractory cases. Reserve etoposide for confirmed HLH or life-threatening refractory disease. Use emapalumab for primary HLH or severe refractory secondary HLH. Avoid over-immunosuppression in infection-driven storms where residual pathogen control is needed.</div>
-  </div>
-
-  <div class="section" id="connections">
-    <h2>Connections</h2>
-    <ul class="conn-list">
-      <li><span class="conn-rel">driven by</span><span><a href="nlrp3-inflammasome.html">NLRP3 Inflammasome</a> &mdash; caspase-1 activation produces the key storm amplifiers IL-1&beta; and IL-18; NLRP3 activation in macrophages by viral viroporins (SARS-CoV-2 E protein), PAMPs, or DAMPs is an upstream initiator of cytokine storm in viral infections; pyroptosis propagates DAMPs that activate neighboring cells</span></li>
-      <li><span class="conn-rel">context</span><span><a href="covid-19-disease.html">COVID-19 Disease</a> &mdash; the hyperinflammatory phase of severe COVID-19 (~5% of infections) is the most studied contemporary example of cytokine storm; dexamethasone, tocilizumab, and baricitinib were validated as treatments in COVID-19 trials and subsequently adopted more broadly</span></li>
-      <li><span class="conn-rel">cytokine</span><span><a href="il-6.html">IL-6</a> &mdash; the primary amplifier cytokine in COVID-19 and CAR-T cytokine storm; IL-6 trans-signaling via sIL-6R enables tissue-wide STAT3 activation; elevated serum IL-6 correlates with storm severity and is the biomarker guiding tocilizumab use</span></li>
-      <li><span class="conn-rel">mediates</span><span><a href="antibody.html">Antibody</a> &mdash; autoantibodies generated during cytokine storm (anti-IFN-&alpha;, anti-adrenergic, anti-nuclear) contribute to Long COVID and MAS pathophysiology; IVIG addresses Fc-receptor-mediated amplification; therapeutic mAbs (tocilizumab, emapalumab) are among the most precise storm-targeting agents</span></li>
-      <li><span class="conn-rel">antigen</span><span><a href="igg.html">IgG</a> &mdash; IgG Fc receptor (Fc&gamma;R) signaling on macrophages can amplify storm; IVIG Fc&gamma;RIIB upregulation (inhibitory signaling) is a key anti-inflammatory mechanism in Kawasaki and MIS-C; anti-spike IgG in COVID-19 can activate Fc&gamma;R on macrophages in the lung</span></li>
-      <li><span class="conn-rel">antigen</span><span><a href="mhc-ii.html">MHC Class II</a> &mdash; IFN-&gamma;-driven MHC II upregulation on macrophages and non-professional APCs enhances antigen presentation to CD4<sup>+</sup> T cells, amplifying the macrophage-lymphocyte circuit; disrupting this loop (via JAK inhibition blocking IFN-&gamma; signaling) is a key mechanism of baricitinib and ruxolitinib</span></li>
-      <li><span class="conn-rel">trigger</span><span>CAR-T Therapy (car-t.html) &mdash; CD19/BCMA-directed CAR-T cells trigger CRS through rapid release of IL-6 and IFN-&gamma; upon tumor antigen engagement; CRS incidence and severity correlate with tumor burden and T cell expansion kinetics; tocilizumab is approved as first-line treatment</span></li>
-    </ul>
-  </div>
-
-  <div class="section references" id="references">
-    <h2>References</h2>
-    <ol>
-      <li>Fajgenbaum DC, June CH. Cytokine storm. <em>N Engl J Med.</em> 2020;383(23):2255&ndash;2273. doi:10.1056/NEJMra2026131</li>
-      <li>Henter JI, Horne A, Aric&ograve; M, et al. HLH-2004: diagnostic and therapeutic guidelines for hemophagocytic lymphohistiocytosis. <em>Pediatr Blood Cancer.</em> 2007;48(2):124&ndash;131. doi:10.1002/pbc.21039</li>
-      <li>Ravelli A, Minoia F, Dav&igrave; S, et al. 2016 Classification criteria for macrophage activation syndrome complicating systemic juvenile idiopathic arthritis. <em>Ann Rheum Dis.</em> 2016;75(3):481&ndash;489. doi:10.1136/annrheumdis-2015-208982</li>
-      <li>RECOVERY Collaborative Group. Tocilizumab in patients admitted to hospital with COVID-19 (RECOVERY). <em>Lancet.</em> 2021;397(10285):1637&ndash;1645. doi:10.1016/S0140-6736(21)00676-0</li>
-      <li>Kyriazopoulou E, Panagiotopoulos G, Metallidis S, et al. (SAVE-MORE Trial). An open label trial of anakinra to prevent respiratory failure in COVID-19. <em>eLife.</em> 2021;10:e66125. doi:10.7554/eLife.66125</li>
-      <li>Fardet L, Galicier L, Lambotte O, et al. Development and validation of the HScore, a score for the diagnosis of reactive hemophagocytic syndrome. <em>Arthritis Rheumatol.</em> 2014;66(9):2613&ndash;2620. doi:10.1002/art.38690</li>
-      <li>De Benedetti F, Grom A, Brogan P, et al. Efficacy and safety of emapalumab in macrophage activation syndrome. <em>Ann Rheum Dis.</em> 2023;82(4):536&ndash;543. doi:10.1136/ard-2022-222840</li>
-      <li>Mehta P, McAuley DF, Brown M, et al. COVID-19: consider cytokine storm syndromes and immunosuppression. <em>Lancet.</em> 2020;395(10229):1033&ndash;1034. doi:10.1016/S0140-6736(20)30628-0</li>
-      <li>Lee DW, Santomasso BD, Locke FL, et al. ASTCT consensus grading for cytokine release syndrome and neurologic toxicity associated with immune effector cells. <em>Biol Blood Marrow Transplant.</em> 2019;25(4):625&ndash;638. doi:10.1016/j.bbmt.2018.12.758</li>
-      <li>Canna SW, Behrens EM. Making sense of the cytokine storm: a conceptual framework for understanding, diagnosing, and treating hemophagocytic syndromes. <em>Pediatr Clin North Am.</em> 2012;59(2):329&ndash;344. doi:10.1016/j.pcl.2012.03.002</li>
-    </ol>
-  </div>
-
-</div>
-
-<footer>
-  <p>Human Engineering &mdash; Open knowledge atlas at <a href="https://equalinformation.com/human">equalinformation.com/human</a>.<br>
-  Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:.6rem">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. <strong>Not medical advice.</strong> For research and educational use only.</p>
-</footer>
-
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

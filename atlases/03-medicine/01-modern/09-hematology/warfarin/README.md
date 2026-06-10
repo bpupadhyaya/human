@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: targets
     note: "VKORC1 in hepatocytes is warfarin molecular target; CYP2C9 metabolizes S-warfarin (4× more potent than R-warfarin); VKORC1 -1639G>A and CYP2C9*2/*3 variants explain ~50% of dose variability; rifampicin induces CYP2C9 → ↓ INR; amiodarone inhibits CYP2C9 → ↑ INR."
+  - target: 03-medicine/01-modern/06-antimicrobial/rifampicin
+    relation: modulated-by
+    note: "Rifampicin is the most potent known CYP2C9/CYP3A4 inducer via PXR activation; S-warfarin plasma levels fall 70–90% within 7 days; warfarin dose may need doubling; INR monitoring weekly at start and monthly during TB therapy."
 ---
 
 # Warfarin
@@ -118,6 +121,7 @@ Its narrow therapeutic index, complex drug and food interactions, and the requir
 - **Prevents** → [Stroke](../../../../../01-human/07-system/stroke/README.md): Reduces AF ischemic stroke by 64% (Hart 2007); INR 2.0–3.0; CHA₂DS₂-VASc ≥2 triggers anticoagulation; preferred over DOACs for mechanical heart valves; antiphospholipid syndrome triple-positive: warfarin INR 3.0–4.0.
 - **Treats** → [Venous Thromboembolism](../../../../../01-human/07-system/venous-thromboembolism/README.md): INR 2.0–3.0 × 3–6 months for provoked DVT/PE; indefinite for unprovoked high-risk; largely superseded by DOACs; remains first-line for antiphospholipid syndrome; LMWH bridging required at initiation.
 - **Targets** → [Hepatocyte](../../../../../01-human/04-cellular/hepatocyte/README.md): VKORC1 is the molecular target; CYP2C9 metabolizes S-warfarin (4× more potent than R-warfarin); VKORC1 -1639G>A and CYP2C9*2/*3 variants explain ~50% of dose variability; rifampicin induces CYP2C9 → ↓ INR; amiodarone inhibits CYP2C9 → ↑ INR.
+- **Modulated-by** → [Rifampicin](../../../../../03-medicine/01-modern/06-antimicrobial/rifampicin/README.md): Most potent known CYP2C9/CYP3A4 inducer via PXR activation; S-warfarin levels fall 70–90% within 7 days; warfarin dose may need doubling; weekly INR monitoring at initiation of TB therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

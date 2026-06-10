@@ -35,6 +35,9 @@ cross_links:
   - target: 03-medicine/01-modern/08-gi/omeprazole
     relation: treated-by
     note: "PPI (omeprazole) is essential in H. pylori eradication: raises gastric pH → synergizes with clarithromycin (acid-labile) and amoxicillin; Maastricht VI (2022): standard triple therapy (PPI + clarithromycin + amoxicillin × 14 days); bismuth quadruple for clarithromycin-resistant regions."
+  - target: 03-medicine/01-modern/06-antimicrobial/amoxicillin
+    relation: treated-by
+    note: "Core component of H. pylori triple therapy (PPI + clarithromycin + amoxicillin 1g BD × 14 days); targets H. pylori PBPs; clarithromycin resistance ~20–30% in Europe drives bismuth quadruple therapy preference."
 ---
 
 # Helicobacter pylori
@@ -145,6 +148,7 @@ VacA allelic variation (s1/s2 signal region; m1/m2 middle region) predicts cytot
 - **Damages** → [Macrophage](../../../01-human/04-cellular/macrophage/README.md): VacA impairs V-ATPase function in macrophage phagolysosomes, enabling intracellular bacterial survival. VacA also inhibits T cell IL-2 signalling. CagA disrupts macrophage apoptosis via SHP-2, sustaining the chronic bacterial reservoir [^murray-microbiology].
 - **Damages** → [Liver](../../../01-human/06-organ/liver/README.md): H. pylori LPS traffics to the liver via portal circulation. Meta-analyses report improved liver enzymes after H. pylori eradication in NAFLD patients. Urease-derived NH₃ may exacerbate hepatic encephalopathy in cirrhotic patients via the gut-liver axis [^murray-microbiology].
 - **Treated-by** → [Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md): PPI (omeprazole) is essential in H. pylori eradication: raises gastric pH → synergizes with clarithromycin (acid-labile) and amoxicillin; Maastricht VI (2022): standard triple therapy (PPI + clarithromycin + amoxicillin × 14 days); bismuth quadruple for clarithromycin-resistant regions.
+- **Treated-by** → [Amoxicillin](../../../03-medicine/01-modern/06-antimicrobial/amoxicillin/README.md): Core component of H. pylori triple therapy (PPI + clarithromycin + amoxicillin 1g BD × 14 days); targets H. pylori PBPs; clarithromycin resistance ~20–30% in Europe drives bismuth quadruple therapy preference.
 
 ## Pathology
 

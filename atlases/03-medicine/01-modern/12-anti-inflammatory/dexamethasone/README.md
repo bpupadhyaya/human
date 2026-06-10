@@ -42,6 +42,16 @@ cross_links:
     relation: modulates
     evidence: rhen-2005-glucocorticoids
     note: "A primary mechanism of glucocorticoid anti-inflammatory action is physical protein-protein interaction between GR and the p65 (RelA) subunit of NF-κB → mutual repression without direct DNA binding (transrepression) → reduced IL-1β, TNFα, IL-6, CXCL8, VCAM-1 gene transcription."
+  - target: 01-human/07-system/covid-19-disease
+    relation: treats
+    evidence: horby-2021-recovery
+    note: "RECOVERY trial (Horby 2021): 6 mg OD × 10 days reduced 28-day mortality by 17% (RR 0.83) in patients requiring oxygen; 29% reduction in mechanically ventilated patients; no benefit in those not requiring supplemental oxygen."
+  - target: 01-human/07-system/cytokine-storm
+    relation: modulates
+    note: "Dexamethasone suppresses cytokine storm via GR:NF-κB transrepression (↓ IL-1β/IL-6/TNF-α) and GRE transactivation (IκBα/IL-10/ANXA1 upregulation); primary mechanism of RECOVERY trial mortality benefit and CAR-T cytokine release syndrome treatment."
+  - target: 01-human/06-organ/ards
+    relation: treats
+    note: "DEXA-ARDS trial: dexamethasone 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days (18.3 vs 9.9) and reduced 60-day mortality (29.3% vs 44.8%); targets fibroproliferative ARDS phase; suppresses neutrophilic lung inflammation."
 ---
 
 # Dexamethasone
@@ -128,3 +138,9 @@ The long biological half-life (36–72 h) allows once-daily (or less frequent) d
 
 - **Targets** → [Glucocorticoid Receptor (GR)](../../../../../01-human/03-molecular/glucocorticoid-receptor/README.md): High-affinity GR agonist → homodimerization → GRE transactivation (ANXA1, DUSP1, IκBα, IL-10) + NF-κB/AP-1 transrepression.
 - **Modulates** → [NF-κB](../../../../../01-human/03-molecular/nf-kb/README.md): GR tethers to RelA/p65, mutually inhibiting NF-κB-driven transcription of IL-1β, TNFα, IL-6, IL-8, COX-2 — the primary mechanism of clinical anti-inflammatory effect.
+- **Treats** → [COVID-19 disease](../../../../../01-human/07-system/covid-19-disease/README.md): RECOVERY trial (Horby 2021): 6 mg OD × 10 days, 17% mortality reduction (RR 0.83) in patients requiring oxygen; 29% reduction in mechanically ventilated patients; no benefit in those not requiring supplemental oxygen.
+- **Modulates** → [Cytokine Storm](../../../../../01-human/07-system/cytokine-storm/README.md): Suppresses cytokine storm via GR:NF-κB transrepression (↓ IL-1β/IL-6/TNF-α) and GRE transactivation (IκBα/IL-10/ANXA1); primary mechanism in COVID-19 and CAR-T cytokine release syndrome.
+- **Treats** → [ARDS](../../../../../01-human/06-organ/ards/README.md): DEXA-ARDS trial: 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days (18.3 vs 9.9) and reduced 60-day mortality (29.3% vs 44.8%); targets fibroproliferative ARDS phase.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

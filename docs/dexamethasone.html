@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dexamethasone — potent synthetic glucocorticoid. GR transactivation, NF-κB transrepression, RECOVERY trial COVID-19 mortality, cerebral edema, croup, chemotherapy antiemesis. Human Engineering project.">
-  <meta property="og:title" content="Dexamethasone — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Potent synthetic glucocorticoid (25× cortisol potency); GR-mediated genomic suppression of NF-κB/AP-1 → ↓ IL-1/6/8/TNF. Zero mineralocorticoid activity. RECOVER">
+  <meta property="og:title" content="Dexamethasone — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Dexamethasone — Medicine Atlas · Human Engineering</title>
+  <title>Dexamethasone — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #059669;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,46 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #064e3b); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -94,137 +108,75 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; 01-Modern &middot; 12-Anti-Inflammatory</div>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
     <h1>Dexamethasone</h1>
-    <p class="tagline">Potent synthetic glucocorticoid (25× cortisol) — GR-mediated genomic transactivation (ANXA1, DUSP1, IκBα) plus physical transrepression of NF-κB/AP-1, collectively suppressing the entire pro-inflammatory cytokine network.</p>
-    <p class="subtagline">Zero mineralocorticoid activity. The 2020 RECOVERY trial established it as the first treatment to reduce COVID-19 mortality. Also transforms outcomes in croup, cerebral edema, anaphylaxis, and chemotherapy-induced emesis.</p>
+    <p class="tagline">Potent synthetic glucocorticoid (25× cortisol potency); GR-mediated genomic suppression of NF-κB/AP-1 → ↓ IL-1/6/8/TNF. Zero mineralocorticoid activity. RECOVERY trial: 17% mortality ↓ in severe COVID-19. Also used for cerebral edema, anaphylaxis, adrenal crisis, antiemesis.</p>
+    <p class="aliases">Also known as: dexamethasone, Decadron, Dexasone, Maxidex, dexamethasone sodium phosphate, 9α-fluoro-16α-methylprednisolone</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">25–30×</span><span class="stat-label">Anti-inflammatory potency vs cortisol</span></div>
-      <div class="stat"><span class="stat-num">17%</span><span class="stat-label">Mortality reduction in COVID-19 (RECOVERY)</span></div>
-      <div class="stat"><span class="stat-num">6 mg OD</span><span class="stat-label">RECOVERY trial dose (COVID-19)</span></div>
-      <div class="stat"><span class="stat-num">36–72 h</span><span class="stat-label">Biological half-life</span></div>
+        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas &middot; Anti-Inflammatory &middot; Synthetic Glucocorticoid</div>
-        <h2>Dexamethasone</h2>
-        <div class="drug-class">Class: Synthetic Fluorinated Glucocorticoid &nbsp;&middot;&nbsp; Routes: PO, IV, IM, topical, intrathecal, intraocular &nbsp;|&nbsp; Brand: Decadron, Dexasone, Maxidex &nbsp;|&nbsp; Mineralocorticoid activity: ~0</div>
-        <p class="summary">Dexamethasone binds cytoplasmic GR (NR3C1) with ~10× greater affinity than cortisol, driving nuclear translocation and two complementary anti-inflammatory mechanisms: (1) GRE-dependent transactivation upregulating ANXA1 (inhibits PLA2 → ↓ arachidonic acid), DUSP1 (inactivates JNK/p38 → ↓ AP-1), and IκBα (sequesters NF-κB); (2) GR tethering to NF-κB RelA/p65 and AP-1 → direct transrepression without DNA binding. The net result is comprehensive suppression of IL-1β, TNFα, IL-6, IL-8, COX-2, iNOS, and VCAM-1. Its uniquely long biological t½ (36–72 h) and zero mineralocorticoid activity make it the preferred glucocorticoid for many acute and critical indications.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">Decadron</span>
-          <span class="alias-pill">Dexasone</span>
-          <span class="alias-pill">Maxidex</span>
-          <span class="alias-pill">dexamethasone phosphate</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">dexamethasone</div>
+        <h2>Dexamethasone</h2>
+        <p class="summary">Potent synthetic glucocorticoid (25× cortisol potency); GR-mediated genomic suppression of NF-κB/AP-1 → ↓ IL-1/6/8/TNF. Zero mineralocorticoid activity. RECOVERY trial: 17% mortality ↓ in severe COVID-19. Also used for cerebral edema, anaphylaxis, adrenal crisis, antiemesis.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Mechanism — GR Transactivation + NF-κB Transrepression</h3>
-          <ol class="step-list">
-            <li><strong>GR binding and nuclear translocation:</strong> Dexamethasone crosses the plasma membrane and binds cytoplasmic GR (NR3C1) with high affinity (Ki ~5 nM; ~10× vs cortisol). GR:dex complex dissociates from Hsp90/FKBP51 chaperone → conformational change → nuclear translocation via importin-α/β</li>
-            <li><strong>Transactivation — GRE-dependent:</strong> GR homodimerizes and binds palindromic GREs in target gene promoters → activates: ANXA1/lipocortin-1 (inhibits PLA2 → ↓ arachidonic acid → ↓ all prostanoids and leukotrienes), DUSP1/MKP-1 (inactivates JNK and p38 MAPK → ↓ AP-1), IκBα (directly sequesters NF-κB in cytoplasm), and IL-10 (anti-inflammatory cytokine)</li>
-            <li><strong>Transrepression — NF-κB tethering:</strong> GR monomer physically interacts with RelA (p65) subunit of NF-κB via protein-protein contact → mutual inhibition; GR does not bind DNA in this mode — pure protein-protein repression. Targets repressed: IL-1β, TNFα, IL-6, IL-8 (CXCL8), COX-2, iNOS, MMP-9, ICAM-1, VCAM-1</li>
-            <li><strong>Non-genomic effects (rapid):</strong> Membrane-associated GR and physicochemical effects on lipid bilayer → rapid inhibition of PLA2 within minutes; important for immediate clinical effects (airway edema, anaphylaxis)</li>
-          </ol>
-        </div>
-
-        <div class="detail-section">
-          <h3>Glucocorticoid Potency Comparison</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Drug</th><th>Anti-inflammatory</th><th>Mineralocorticoid</th><th>Plasma t½</th><th>Biological t½</th></tr>
-            <tr><td>Hydrocortisone</td><td>1×</td><td>1×</td><td>1.5 h</td><td>8–12 h</td></tr>
-            <tr><td>Prednisolone</td><td>4×</td><td>0.8×</td><td>3 h</td><td>12–36 h</td></tr>
-            <tr><td>Methylprednisolone</td><td>5×</td><td>0.5×</td><td>3 h</td><td>12–36 h</td></tr>
-            <tr><td><strong>Dexamethasone</strong></td><td><strong>25–30×</strong></td><td><strong>~0</strong></td><td><strong>3.5–4.5 h</strong></td><td><strong>36–72 h</strong></td></tr>
-            <tr><td>Betamethasone</td><td>25–30×</td><td>~0</td><td>3.5–5 h</td><td>36–72 h</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;">The zero mineralocorticoid activity means dexamethasone does not cause sodium retention, hypertension, or hypokalemia — critical for high-dose use in cerebral edema, where fluid retention would worsen intracranial pressure.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Key Clinical Indications</h3>
-          <table class="data-table">
-            <tr><th>Indication</th><th>Dose</th><th>Evidence</th></tr>
-            <tr><td>COVID-19 (requiring O₂/ventilation)</td><td>6 mg OD PO/IV × 10 days</td><td>RECOVERY trial: 17% relative mortality reduction (RR 0.83, p=0.0003)</td></tr>
-            <tr><td>Cerebral edema (tumor/metastasis)</td><td>10 mg IV load → 4 mg q6h; taper</td><td>Reduces vasogenic edema; neurological improvement within 24–48h</td></tr>
-            <tr><td>Croup (laryngotracheobronchitis)</td><td>0.15–0.6 mg/kg single dose PO/IM</td><td>Reduces stridor, hospitalization, return visits; effect within 2–4 h; RCT meta-analysis</td></tr>
-            <tr><td>Chemotherapy antiemesis</td><td>8–20 mg IV before chemo</td><td>Synergizes with 5-HT3 antagonists; essential component of HEC/MEC regimens</td></tr>
-            <tr><td>Bacterial meningitis</td><td>0.15 mg/kg q6h × 4 days (with/before antibiotics)</td><td>Reduces neurological sequelae (deafness) in pneumococcal meningitis; reduces mortality in high-income settings</td></tr>
-            <tr><td>Anaphylaxis (adjunct)</td><td>8–10 mg IV/IM</td><td>Adjunct to epinephrine; reduces biphasic reactions; onset delayed vs epinephrine</td></tr>
-            <tr><td>Preterm labor (fetal lung maturity)</td><td>2× 12 mg IM 24h apart (or betamethasone)</td><td>Accelerates fetal lung surfactant — reduces neonatal RDS, IVH, mortality</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>dexamethasone</td></tr>
+            <tr><td>Name</td><td>Dexamethasone</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Stream</td><td>01-modern</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>RECOVERY Trial — COVID-19</h3>
-          <p><strong>Trial:</strong> RECOVERY (Randomised Evaluation of COVid-19 thERapY) — UK platform trial, 2020. Dexamethasone 6 mg OD × 10 days vs usual care in 6,425 hospitalized COVID-19 patients.</p>
-          <p><strong>Key results (28-day mortality):</strong></p>
-          <ul class="se-list">
-            <li><strong>Ventilated patients:</strong> 29% mortality reduction (29.3% vs 41.4%; RR 0.64, 95% CI 0.51–0.81)</li>
-            <li><strong>O₂ without ventilation:</strong> 20% mortality reduction (23.3% vs 26.2%; RR 0.82)</li>
-            <li><strong>No O₂ required:</strong> No benefit — possibly slightly harmful (22.9% vs 18.8%)</li>
-            <li><strong>NNT:</strong> ~8 for ventilated patients; ~25 for O₂-requiring patients</li>
-            <li><strong>Mechanism in COVID-19:</strong> Severe COVID-19 is characterized by a dysregulated immune response ("cytokine storm") — IL-6, IL-1β, TNFα driven immunopathological lung injury; dexamethasone suppresses this destructive inflammation in the late-stage disease (days 7–14+) when viral replication is declining</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Adverse Effects</h3>
-          <ul class="se-list">
-            <li><strong>Hyperglycemia:</strong> Dose-dependent; gluconeogenesis ↑ + insulin resistance → BG rises 5–10+ mmol/L; monitor and manage with insulin sliding scale in diabetics and non-diabetics on high-dose therapy</li>
-            <li><strong>HPA axis suppression:</strong> Exogenous glucocorticoid suppresses ACTH → adrenal atrophy; duration and dose dependent; abrupt cessation after &gt;2–3 weeks causes adrenal insufficiency — taper required for prolonged courses</li>
-            <li><strong>Osteoporosis (long-term):</strong> Bone density loss 5–10% in first year via ↓ osteoblast function, ↑ osteoclast activity, ↓ intestinal calcium absorption; prescribe calcium + vitamin D; consider bisphosphonate for &gt;3 months therapy</li>
-            <li><strong>Cushing's syndrome (long-term):</strong> Moon face, truncal obesity, violaceous striae, proximal myopathy, easy bruising; dose and duration dependent</li>
-            <li><strong>Neuropsychiatric:</strong> Insomnia (common), euphoria, mania, depression; severe psychiatric reactions rare but documented; morning dosing reduces insomnia</li>
-            <li><strong>Immunosuppression:</strong> Increased susceptibility to bacterial, fungal, viral infections; impairs wound healing; consider PCP prophylaxis (co-trimoxazole) for &gt;20 mg prednisolone-equivalent/day × &gt;4 weeks</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="#" class="conn-pill targets">
-              <span class="rel">Targets</span>
-              Glucocorticoid Receptor (GR/NR3C1)
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Modulates</span>
-              NF-κB / AP-1 Signaling
-            </a>
-            <a href="corticosteroids.html" class="conn-pill acts">
-              <span class="rel">Part-of</span>
-              Corticosteroid Drug Class
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Treats</span>
-              COVID-19 / Cerebral Edema / Croup
-            </a>
+            <a class="conn-pill" href="glucocorticoid-receptor.html" title="Dexamethasone binds cytoplasmic GR (NR3C1) with high affinity → GR:GRE transactivation (anti-inflammatory genes: lipocortin-1/ANXA1, IL-10, MKP-1) + GR tethering to NF-κB/AP-1 → transrepression of pro-inflammatory cytokine genes (IL-1β, TNFα, IL-6, IL-8, COX-2)."><span class="rel">targets</span>Glucocorticoid Receptor</a>
+            <a class="conn-pill" href="nf-kb.html" title="A primary mechanism of glucocorticoid anti-inflammatory action is physical protein-protein interaction between GR and the p65 (RelA) subunit of NF-κB → mutual repression without direct DNA binding (transrepression) → reduced IL-1β, TNFα, IL-6, CXCL8, VCAM-1 gene transcription."><span class="rel">modulates</span>Nf Kb</a>
+            <a class="conn-pill" href="covid-19-disease.html" title="RECOVERY trial (Horby 2021): 6 mg OD × 10 days reduced 28-day mortality by 17% (RR 0.83) in patients requiring oxygen; 29% reduction in mechanically ventilated patients; no benefit in those not requiring supplemental oxygen."><span class="rel">treats</span>Covid 19 Disease</a>
+            <a class="conn-pill" href="cytokine-storm.html" title="Dexamethasone suppresses cytokine storm via GR:NF-κB transrepression (↓ IL-1β/IL-6/TNF-α) and GRE transactivation (IκBα/IL-10/ANXA1 upregulation); primary mechanism of RECOVERY trial mortality benefit and CAR-T cytokine release syndrome treatment."><span class="rel">modulates</span>Cytokine Storm</a>
+            <a class="conn-pill" href="ards.html" title="DEXA-ARDS trial: dexamethasone 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days (18.3 vs 9.9) and reduced 60-day mortality (29.3% vs 44.8%); targets fibroproliferative ARDS phase; suppresses neutrophilic lung inflammation."><span class="rel">treats</span>Ards</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>RECOVERY Collaborative Group; Horby P, Lim WS, et al. Dexamethasone in Hospitalized Patients with Covid-19. <em>N Engl J Med.</em> 2021;384(8):693-704. <a href="https://doi.org/10.1056/NEJMoa2021436" target="_blank" rel="noopener noreferrer">doi:10.1056/NEJMoa2021436</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32678530/" target="_blank" rel="noopener noreferrer">PubMed 32678530</a></li>
-            <li>Rhen T, Cidlowski JA. Antiinflammatory action of glucocorticoids — new mechanisms for old drugs. <em>N Engl J Med.</em> 2005;353(16):1711-23. <a href="https://doi.org/10.1056/NEJMra050541" target="_blank" rel="noopener noreferrer">doi:10.1056/NEJMra050541</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16236742/" target="_blank" rel="noopener noreferrer">PubMed 16236742</a></li>
-            <li>Vandewalle J, Luypaert A, De Bosscher K, Libert C. Therapeutic Mechanisms of Glucocorticoids. <em>Trends Endocrinol Metab.</em> 2018;29(1):42-54. <a href="https://doi.org/10.1016/j.tem.2017.10.010" target="_blank" rel="noopener noreferrer">doi:10.1016/j.tem.2017.10.010</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29162310/" target="_blank" rel="noopener noreferrer">PubMed 29162310</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa2021436" target="_blank" rel="noopener noreferrer">RECOVERY Collaborative Group; Horby P, Lim WS, et al. Dexamethasone in Hospitalized Patients with Covid-19. N Engl J Med. 2021;384(8):693-704.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32678530/" target="_blank" rel="noopener noreferrer">PubMed 32678530</a></li>
+            <li><a href="https://doi.org/10.1016/j.tem.2017.10.010" target="_blank" rel="noopener noreferrer">Vandewalle J, Luypaert A, De Bosscher K, Libert C. Therapeutic Mechanisms of Glucocorticoids. Trends Endocrinol Metab. 2018;29(1):42-54.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/29162310/" target="_blank" rel="noopener noreferrer">PubMed 29162310</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMra050541" target="_blank" rel="noopener noreferrer">Rhen T, Cidlowski JA. Antiinflammatory action of glucocorticoids — new mechanisms for old drugs. N Engl J Med. 2005;353(16):1711-23.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16236742/" target="_blank" rel="noopener noreferrer">PubMed 16236742</a></li>
+            <li><a href="https://doi.org/10.1212/wnl.44.4.675" target="_blank" rel="noopener noreferrer">Vecht CJ, Hovestadt A, Verbiest HB, van Vliet JJ, van Putten WL. Dose-effect relationship of dexamethasone on Karnofsky performance in metastatic brain tumors. Neurology. 1994;44(4):675-80.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8164826/" target="_blank" rel="noopener noreferrer">PubMed 8164826</a></li>
           </ul>
         </div>
 
@@ -233,10 +185,9 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>

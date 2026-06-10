@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Amoxicillin (Amoxil) — aminopenicillin beta-lactam antibiotic. PBP binding, peptidoglycan inhibition, CAP, strep throat, H. pylori, otitis media, WHO Access antibiotic. Human Engineering project.">
-  <meta property="og:title" content="Amoxicillin (Amoxil) — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Aminopenicillin beta-lactam antibiotic; binds PBPs (penicillin-binding proteins) → inhibits peptidoglycan cross-linking → cell lysis. Broad gram-positive + sele">
+  <meta property="og:title" content="Amoxicillin — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Amoxicillin (Amoxil) — Medicine Atlas · Human Engineering</title>
+  <title>Amoxicillin — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
@@ -18,13 +18,20 @@
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,46 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(2,132,199,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0284c7, #0c4a6e); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -94,137 +108,74 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; 01-Modern &middot; 06-Antimicrobial</div>
-    <h1>Amoxicillin (Amoxil)</h1>
-    <p class="tagline">Aminopenicillin beta-lactam antibiotic — covalently acylates the catalytic serine of penicillin-binding proteins (PBPs), blocking peptidoglycan cross-linking and causing osmotic lysis in susceptible gram-positive and gram-negative bacteria.</p>
-    <p class="subtagline">The world's most prescribed antibiotic. WHO Access group essential medicine. First-line for CAP, streptococcal pharyngitis, H. pylori eradication, and acute otitis media. Combined with clavulanate (Augmentin) to overcome beta-lactamase resistance.</p>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
+    <h1>Amoxicillin</h1>
+    <p class="tagline">Aminopenicillin beta-lactam antibiotic; binds PBPs (penicillin-binding proteins) → inhibits peptidoglycan cross-linking → cell lysis. Broad gram-positive + selected gram-negative coverage. Most widely prescribed antibiotic globally. WHO Access group antibiotic.</p>
+    <p class="aliases">Also known as: amoxicillin, amoxycillin, Amoxil, Trimox, Moxatag, Augmentin (with clavulanate), (2S,5R,6R)-6-[(R)-2-amino-2-(4-hydroxyphenyl)acetamido]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~80–90%</span><span class="stat-label">Oral bioavailability</span></div>
-      <div class="stat"><span class="stat-num">PBP2b</span><span class="stat-label">Primary target (S. pneumoniae)</span></div>
-      <div class="stat"><span class="stat-num">~1 h</span><span class="stat-label">Half-life (renal elimination)</span></div>
-      <div class="stat"><span class="stat-num">WHO Access</span><span class="stat-label">AWaRe classification</span></div>
+        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas &middot; Antimicrobial &middot; Aminopenicillin / Beta-Lactam</div>
-        <h2>Amoxicillin</h2>
-        <div class="drug-class">Class: Aminopenicillin / Beta-Lactam Antibiotic &nbsp;&middot;&nbsp; Route: Oral, IV &nbsp;|&nbsp; Brand: Amoxil, Trimox; co-amoxiclav (+ clavulanate) = Augmentin &nbsp;|&nbsp; Spectrum: Gram-positive + selected gram-negative</div>
-        <p class="summary">Amoxicillin is a semi-synthetic aminopenicillin (1972, Beecham) with superior oral bioavailability (~80–90%) vs ampicillin. The 4'-hydroxyphenyl side chain improves outer membrane penetration compared with benzylpenicillin, extending gram-negative coverage to H. influenzae, E. coli, and H. pylori. The beta-lactam ring covalently acylates the catalytic serine of penicillin-binding proteins (PBPs — DD-transpeptidases), permanently inhibiting peptidoglycan cross-linking → osmotic lysis. Primary resistance via beta-lactamase (overcome by clavulanate) or altered PBPs (overcome by high doses for intermediate-resistance pneumococcus). WHO Essential Medicine, Access group.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">Amoxil</span>
-          <span class="alias-pill">Trimox</span>
-          <span class="alias-pill">amoxycillin</span>
-          <span class="alias-pill">Augmentin (+ clavulanate)</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">amoxicillin</div>
+        <h2>Amoxicillin</h2>
+        <p class="summary">Aminopenicillin beta-lactam antibiotic; binds PBPs (penicillin-binding proteins) → inhibits peptidoglycan cross-linking → cell lysis. Broad gram-positive + selected gram-negative coverage. Most widely prescribed antibiotic globally. WHO Access group antibiotic.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Beta-Lactam Mechanism — PBP Acylation</h3>
-          <ol class="step-list">
-            <li><strong>Peptidoglycan cross-linking:</strong> Bacterial cell wall synthesis culminates in DD-transpeptidation — cross-linking of adjacent peptidoglycan strands by forming a peptide bond between the penultimate D-Ala and the ε-amino of DAP/D-Lys on an adjacent chain; this step is catalyzed by PBPs (class B penicillin-binding proteins: PBP1a/1b, PBP2, PBP3)</li>
-            <li><strong>Beta-lactam ring mimicry:</strong> The beta-lactam ring is a structural analogue of the D-Ala-D-Ala C-terminus of the peptidoglycan pentapeptide stem; it binds the PBP active site as a substrate mimic</li>
-            <li><strong>Covalent acylation:</strong> The catalytic serine (Ser-OH) of PBP attacks the carbonyl of the beta-lactam ring → nucleophilic ring-opening → stable covalent acyl-enzyme complex → PBP permanently inactivated; acylation is essentially irreversible under physiological conditions</li>
-            <li><strong>Cell wall failure:</strong> Cross-linking ceases → peptidoglycan becomes structurally weak → osmotic gradient across membrane exceeds wall strength → osmotic lysis; in gram-positives, this is the primary lethal event; additionally, autolysins (murein hydrolases) are released and degrade the weakened wall</li>
-          </ol>
-        </div>
-
-        <div class="detail-section">
-          <h3>Spectrum &amp; Resistance</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Organism</th><th>Coverage</th><th>Note</th></tr>
-            <tr><td>S. pneumoniae (susceptible)</td><td>Excellent</td><td>MIC ≤0.06 μg/mL; high-dose for intermediate resistance (MIC 0.12–1 μg/mL)</td></tr>
-            <tr><td>S. pyogenes (Group A Strep)</td><td>Excellent</td><td>No known resistance; drug of choice for pharyngitis</td></tr>
-            <tr><td>Enterococcus faecalis</td><td>Good</td><td>E. faecium: poor coverage (high-level resistance)</td></tr>
-            <tr><td>Listeria monocytogenes</td><td>Good</td><td>Drug of choice in penicillin-tolerant patients with CNS listeriosis</td></tr>
-            <tr><td>H. influenzae (non-BLNAR)</td><td>Good</td><td>Beta-lactamase-producing strains: resistant (add clavulanate)</td></tr>
-            <tr><td>H. pylori</td><td>Good</td><td>Component of triple therapy; local resistance matters</td></tr>
-            <tr><td>E. coli (community)</td><td>Variable</td><td>20–50% resistant (ESBL, beta-lactamase); check local susceptibility</td></tr>
-            <tr><td>MRSA</td><td>None</td><td>PBP2a (mecA) has minimal affinity for all beta-lactams</td></tr>
-            <tr><td>Pseudomonas</td><td>None</td><td>Intrinsic resistance (efflux + OprD + AmpC)</td></tr>
-            <tr><td>Klebsiella pneumoniae</td><td>None (usually)</td><td>Beta-lactamase and ESBL ubiquitous</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>amoxicillin</td></tr>
+            <tr><td>Name</td><td>Amoxicillin</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Stream</td><td>01-modern</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Clinical Indications &amp; Dosing</h3>
-          <table class="data-table">
-            <tr><th>Indication</th><th>Adult Dose</th><th>Duration</th></tr>
-            <tr><td>Community-acquired pneumonia (mild-mod)</td><td>500 mg–1 g TDS PO</td><td>5–7 days; add macrolide if atypical suspected</td></tr>
-            <tr><td>Streptococcal pharyngitis</td><td>500 mg BD or 1 g OD</td><td>10 days; prevents rheumatic fever</td></tr>
-            <tr><td>Acute otitis media (children)</td><td>40–45 mg/kg/day in 3 divided doses</td><td>5–10 days; 80–90 mg/kg/day if resistant pneumococcus suspected</td></tr>
-            <tr><td>H. pylori (triple therapy)</td><td>1 g BD + clarithromycin 500 mg BD + PPI BD</td><td>14 days</td></tr>
-            <tr><td>Lyme disease (early, non-CNS)</td><td>500 mg TDS</td><td>14–21 days; doxycycline preferred but amoxicillin used in pregnancy/children</td></tr>
-            <tr><td>Dental infections (moderate)</td><td>500 mg TDS</td><td>5–7 days; add metronidazole for anaerobic coverage</td></tr>
-            <tr><td>UTI (confirmed susceptible E. coli)</td><td>500 mg TDS</td><td>3–7 days; not used empirically (high resistance rates)</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Penicillin Allergy &amp; Amoxicillin Rash</h3>
-          <ul class="se-list">
-            <li><strong>Reported penicillin allergy (~10% of patients):</strong> True IgE-mediated allergy ~1%; most "penicillin allergies" are non-immunological or mislabeled; allergy assessment + skin testing/graded challenge frequently de-labels patients safely</li>
-            <li><strong>Cross-reactivity with cephalosporins:</strong> Historically overstated (~10%); actual rate ~1–2% for true IgE-mediated allergy; shared R1 side-chain between amoxicillin and cefadroxil/cefprozil — greater cross-reactivity than cephalosporins with dissimilar side-chains</li>
-            <li><strong>Ampicillin/amoxicillin rash (non-allergic):</strong> ~5% of patients develop a maculopapular rash, usually starting day 5–7 of treatment; 80–100% of patients with infectious mononucleosis (EBV) develop this rash — mechanism uncertain (immune complex formation, not IgE); does NOT indicate penicillin allergy and is not a contraindication to future beta-lactam use</li>
-            <li><strong>Anaphylaxis (1–4 per 10,000 courses):</strong> IgE-mediated; urticaria, angioedema, hypotension, bronchospasm; most reactions within 1–2 hours of oral dose; carry epinephrine if confirmed allergy</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Evidence</h3>
-          <table class="data-table">
-            <tr><th>Study / Guideline</th><th>Key Finding</th></tr>
-            <tr><td><strong>WHO AWaRe 2019</strong></td><td>Amoxicillin classified as Access antibiotic; guidance urges preferential use of Access antibiotics (&gt;60% of total consumption) over Watch/Reserve — reducing resistance pressure</td></tr>
-            <tr><td><strong>CAP guidelines (BTS, IDSA/ATS)</strong></td><td>Amoxicillin 500 mg TDS first-line oral agent for mild–moderate CAP; add macrolide for atypical cover; high-dose (1 g TDS) for suspected drug-resistant pneumococcus</td></tr>
-            <tr><td><strong>Strep pharyngitis meta-analysis</strong></td><td>Amoxicillin equivalent to penicillin V for Group A streptococcal pharyngitis with better palatability and compliance; both achieve ~90% eradication and prevent rheumatic fever</td></tr>
-            <tr><td><strong>AOM guidelines (AAP)</strong></td><td>Amoxicillin first-line for AOM in children &lt;2 years or with bilateral/severe disease; watchful waiting appropriate in mild disease age &gt;2 years; high-dose (80–90 mg/kg/day) for failure or penicillin-resistant S. pneumoniae risk factors</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="#" class="conn-pill targets">
-              <span class="rel">Targets</span>
-              PBPs / Peptidoglycan synthesis
-            </a>
-            <a href="rifampicin.html" class="conn-pill acts">
-              <span class="rel">Related</span>
-              Rifampicin (antimicrobial, rpoB target)
-            </a>
-            <a href="vancomycin.html" class="conn-pill acts">
-              <span class="rel">Related</span>
-              Vancomycin (glycopeptide, D-Ala-D-Ala target)
-            </a>
-            <a href="omeprazole.html" class="conn-pill acts">
-              <span class="rel">Part-of</span>
-              H. pylori Triple Therapy (+ PPI + clarithromycin)
-            </a>
+            <a class="conn-pill" href="streptococcus-pneumoniae.html" title="S. pneumoniae is the primary target for amoxicillin in community-acquired pneumonia; high-dose amoxicillin (3g/day) overcomes intermediate-level penicillin resistance via PBP2b affinity changes (MIC ≤2 mg/L)."><span class="rel">treats</span>Streptococcus Pneumoniae</a>
+            <a class="conn-pill" href="helicobacter-pylori.html" title="Core component of H. pylori triple therapy (PPI + clarithromycin + amoxicillin 1g BD × 14 days); targets H. pylori PBPs; clarithromycin resistance ~20–30% in Europe drives bismuth quadruple therapy preference."><span class="rel">treats</span>Helicobacter Pylori</a>
+            <a class="conn-pill" href="clostridioides-difficile.html" title="Amoxicillin is a common precipitant of C. diff colitis via disruption of colonization resistance; risk lower than fluoroquinolones or clindamycin; patients on amoxicillin &gt;7 days have ~3-fold increased C. diff risk."><span class="rel">connects-to</span>Clostridioides Difficile</a>
+            <a class="conn-pill" href="gut-microbiome.html" title="Amoxicillin reduces gram-positive and gram-negative gut microbiota diversity; Enterobacteriaceae bloom during treatment; microbiome recovery takes 1–2 months post-course; repeated courses associate with persistent dysbiosis."><span class="rel">modulates</span>Gut Microbiome</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Rolinson GN. Forty years of beta-lactam research. <em>J Antimicrob Chemother.</em> 1998;41(6):589-603. <a href="https://doi.org/10.1093/jac/41.6.589" target="_blank" rel="noopener noreferrer">doi:10.1093/jac/41.6.589</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9687086/" target="_blank" rel="noopener noreferrer">PubMed 9687086</a></li>
-            <li>WHO. Critically important antimicrobials for human medicine, 6th revision. World Health Organization, Geneva, 2019. <a href="https://www.who.int/publications/i/item/critically-important-antimicrobials-for-human-medicine" target="_blank" rel="noopener noreferrer">who.int</a></li>
-            <li>Malfertheiner P, Megraud F, Rokkas T, et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. <em>Gut.</em> 2022;71(9):1724-1762. <a href="https://doi.org/10.1136/gutjnl-2022-327745" target="_blank" rel="noopener noreferrer">doi:10.1136/gutjnl-2022-327745</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/35707400/" target="_blank" rel="noopener noreferrer">PubMed 35707400</a></li>
+            <li><a href="https://doi.org/10.1093/jac/41.6.589" target="_blank" rel="noopener noreferrer">Rolinson GN. Forty years of beta-lactam research. J Antimicrob Chemother. 1998;41(6):589-603.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9687086/" target="_blank" rel="noopener noreferrer">PubMed 9687086</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK526128/" target="_blank" rel="noopener noreferrer">Finch RG, Greenwood D, Whitley RJ, Norrby SR, eds. Antibiotic and Chemotherapy, 8th ed. Churchill Livingstone, 2010. Chapter: Aminopenicillins.</a></li>
+            <li><a href="https://www.who.int/publications/i/item/critically-important-antimicrobials-for-human-medicine" target="_blank" rel="noopener noreferrer">WHO. Critically important antimicrobials for human medicine, 6th revision. 2019. World Health Organization, Geneva.</a></li>
+            <li><a href="https://doi.org/10.1016/j.amjmed.2010.02.004" target="_blank" rel="noopener noreferrer">Lode H. Safety and tolerability of commonly prescribed oral antibiotics for the treatment of respiratory tract infections. Am J Med. 2010;123(4 Suppl):S26-38.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20350720/" target="_blank" rel="noopener noreferrer">PubMed 20350720</a></li>
           </ul>
         </div>
 
@@ -233,10 +184,9 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>

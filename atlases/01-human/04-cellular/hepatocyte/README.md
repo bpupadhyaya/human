@@ -141,6 +141,9 @@ cross_links:
   - target: 03-medicine/01-modern/09-hematology/warfarin
     relation: target-of
     note: "VKORC1 in hepatocytes is warfarin molecular target; CYP2C9 metabolizes S-warfarin; VKORC1 -1639G>A and CYP2C9*2/*3 variants explain ~50% of dose variability; rifampicin (CYP2C9 inducer) ↓ warfarin effect; amiodarone inhibits CYP2C9 → ↑ INR."
+  - target: 03-medicine/01-modern/06-antimicrobial/rifampicin
+    relation: target-of
+    note: "Rifampicin activates PXR (pregnane X receptor) in hepatocytes → CYP3A4/CYP2C9/CYP2B6/P-gp transcriptional upregulation; maximal induction in 5–7 days; reversal 2–4 weeks post-discontinuation; basis of all rifampicin drug-drug interactions."
 taxonomy:
   cell_ontology: "CL:0000182"
   lineage: "endoderm — hepatic endoderm — hepatoblast — hepatocyte"
@@ -279,6 +282,7 @@ In undisturbed adult liver, hepatocytes turnover slowly — estimated half-life 
 - **Modulated by:** [Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md) — HMG-CoA reductase inhibition reduces cholesterol synthesis; upregulation of LDL receptor clears LDL-C from circulation; rare statin-induced hepatotoxicity (transaminase elevation).
 - `connects-to` → **[Familial Hypercholesterolemia](../../07-system/familial-hypercholesterolemia/README.md)** — hepatocytes express >90% of plasma LDLR; LDLR-mediated LDL endocytosis is the primary clearance route; SREBP-2 upregulates LDLR after statin treatment; liver transplant in HoFH normalizes LDL-C — confirming hepatocytic LDLR as the disease driver.
 - `target-of` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — VKORC1 in hepatocytes is warfarin molecular target; CYP2C9 metabolizes S-warfarin; VKORC1 -1639G>A and CYP2C9*2/*3 variants explain ~50% of dose variability; rifampicin (CYP2C9 inducer) ↓ warfarin effect; amiodarone inhibits CYP2C9 → ↑ INR.
+- `target-of` → **[Rifampicin](../../../03-medicine/01-modern/06-antimicrobial/rifampicin/README.md)** — PXR activation in hepatocytes → CYP3A4/CYP2C9/CYP2B6/P-gp transcriptional upregulation; maximal induction in 5–7 days; reversal 2–4 weeks post-discontinuation; basis of all rifampicin drug-drug interactions.
 
 [^taub-2004-hepatocyte-regeneration]: Taub R. Liver regeneration: from myth to mechanism. *Nat Rev Mol Cell Biol.* 2004;5(10):836-47. [doi:10.1038/nrm1489](https://doi.org/10.1038/nrm1489) · [PubMed 15459664](https://pubmed.ncbi.nlm.nih.gov/15459664/)
 [^gebhardt-2014-hepatocyte-heterogeneity]: Gebhardt R, Matz-Soja M. Liver zonation: Novel aspects of its regulation and its impact on homeostasis. *World J Gastroenterol.* 2014;20(26):8491-504. [doi:10.3748/wjg.v20.i26.8491](https://doi.org/10.3748/wjg.v20.i26.8491) · [PubMed 25024605](https://pubmed.ncbi.nlm.nih.gov/25024605/)

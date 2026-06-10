@@ -34,6 +34,9 @@ cross_links:
   - target: 01-human/04-cellular/type-ii-pneumocyte
     relation: contains
     note: "Type II pneumocyte hyperplasia in the proliferative phase of ARDS represents attempted alveolar re-epithelialization; type II cells produce surfactant and can differentiate into type I cells to restore the gas-exchange surface."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/dexamethasone
+    relation: treated-by
+    note: "DEXA-ARDS trial: dexamethasone 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days (18.3 vs 9.9) and reduced 60-day mortality (29.3% vs 44.8%); targets fibroproliferative ARDS phase; suppresses neutrophilic lung inflammation."
 ---
 
 # Acute Respiratory Distress Syndrome
@@ -111,6 +114,7 @@ ARDS hypoxemia results from two principal mechanisms:
 - `modulated-by` → **[Macrophage](../../04-cellular/macrophage/README.md)** — central orchestrators of ARDS inflammation: early IL-8/TNF-α release driving neutrophil recruitment; later M2 transition for resolution
 - `modulated-by` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — elevated in ARDS BAL; impairs alveolar fluid clearance; drives fibroproliferative phase
 - `contains` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — type II cell hyperplasia in proliferative phase represents attempted re-epithelialization of denuded alveolar surface
+- `treated-by` → **[Dexamethasone](../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — DEXA-ARDS trial: 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days (18.3 vs 9.9) and reduced 60-day mortality (29.3% vs 44.8%); targets fibroproliferative ARDS phase.
 
 ## Pathology
 
@@ -141,3 +145,6 @@ PROSEVA trial (2013): **16 hours/day prone positioning** in severe ARDS (P/F <15
 
 [^ardsnet-2000-arma]: The Acute Respiratory Distress Syndrome Network. Ventilation with lower tidal volumes as compared with traditional tidal volumes for ALI and ARDS. *N Engl J Med.* 2000;342(18):1301-1308. [doi:10.1056/NEJM200005043421801](https://doi.org/10.1056/NEJM200005043421801) · [PubMed 10793162](https://pubmed.ncbi.nlm.nih.gov/10793162/)
 [^ranieri-2012-berlin-ards]: Ranieri VM et al. Acute respiratory distress syndrome: the Berlin Definition. *JAMA.* 2012;307(23):2526-2533. [doi:10.1001/jama.2012.5669](https://doi.org/10.1001/jama.2012.5669) · [PubMed 22797452](https://pubmed.ncbi.nlm.nih.gov/22797452/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

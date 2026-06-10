@@ -54,6 +54,9 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: target-of
     note: "Serotype-specific IgG antibodies against the polysaccharide capsule are the primary correlate of vaccine-mediated protection; PCV-elicited T-dependent IgG persists longer than PPSV23-elicited T-independent responses."
+  - target: 03-medicine/01-modern/06-antimicrobial/amoxicillin
+    relation: treated-by
+    note: "S. pneumoniae is the primary target for amoxicillin in community-acquired pneumonia; high-dose amoxicillin (3g/day) overcomes intermediate-level penicillin resistance via PBP2b affinity changes (MIC ≤2 mg/L)."
 ---
 
 # Streptococcus pneumoniae
@@ -171,7 +174,7 @@ The **discovery of CRP** by Tillett and Francis in 1930 [^tillett-francis-1930] 
 - **Infects** → [Immune System](../../../01-human/07-system/immune-system/README.md): evasion of complement and phagocytic killing by capsule and PspA; pneumolysin impairs phagocyte function.
 - **Target-of** → Immunoglobulin G: serotype-specific IgG is the primary protective antibody; vaccine responses correlate with IgG titer ≥0.35 µg/mL.
 - **Treated by** → PCV13 and PPSV23: pneumococcal conjugate and polysaccharide vaccines.
-- **Treated by** → Penicillin / Amoxicillin: first-line for drug-susceptible pneumococcal pneumonia; ceftriaxone preferred for meningitis to achieve adequate CNS concentrations.
+- **Treated-by** → [Amoxicillin](../../../03-medicine/01-modern/06-antimicrobial/amoxicillin/README.md): Primary clinical target in CAP, AOM, and sinusitis; high-dose amoxicillin (3g/day) overcomes intermediate resistance via PBP2b affinity changes; ceftriaxone preferred for meningitis.
 
 ## Pathology
 
@@ -221,3 +224,6 @@ The **CAPiTA trial** (Bonten 2015) [^bonten-2015-capita] demonstrated for the fi
 [^tillett-francis-1930]: Tillett WS, Francis T Jr. Serological reactions in pneumonia with a non-protein somatic fraction of pneumococcus. *J Exp Med.* 1930;52(4):561-71. [PubMed 19869631](https://pubmed.ncbi.nlm.nih.gov/19869631/)
 [^klugman-2002-resistance]: Klugman KP. Pneumococcal resistance to antibiotics. *N Engl J Med.* 2002. [doi:10.1056/NEJMra013578](https://doi.org/10.1056/NEJMra013578)
 [^bonten-2015-capita]: Bonten MJ, Huijts SM, Bolkenbaas M, et al. Polysaccharide conjugate vaccine against pneumococcal pneumonia in adults. *N Engl J Med.* 2015;372(12):1114-25. [doi:10.1056/NEJMoa1408544](https://doi.org/10.1056/NEJMoa1408544)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

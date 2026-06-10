@@ -3,238 +3,197 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ARDS — Acute Respiratory Distress Syndrome: Berlin 2012 criteria, diffuse alveolar damage, molecular pathophysiology, lung-protective ventilation, prone positioning, pharmacology. Human Engineering Atlas.">
-  <meta property="og:title" content="ARDS — Human Engineering Atlas">
+  <meta name="description" content="Diffuse alveolar damage causing hypoxemic respiratory failure (PaO2/FiO2 &lt;300, bilateral infiltrates, non-cardiac). Berlin grades: mild/moderate/severe. Exudati">
+  <meta property="og:title" content="Acute Respiratory Distress Syndrome — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>ARDS — Human Engineering</title>
+  <title>Acute Respiratory Distress Syndrome — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#dc2626;--accent-soft:rgba(220,38,38,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .hero{background:linear-gradient(135deg,#fff1f1 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:110px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="../index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
-    <div class="nav-links">
-      <a href="../index.html">Home</a>
-      <a href="lung-alveolus.html">Alveolus</a>
-      <a href="lung-slice.html">Lung Slice</a>
-      <a href="medicine.html">Medicine</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 06 — Organ</div>
+    <h1>Acute Respiratory Distress Syndrome</h1>
+    <p class="tagline">Diffuse alveolar damage causing hypoxemic respiratory failure (PaO2/FiO2 &lt;300, bilateral infiltrates, non-cardiac). Berlin grades: mild/moderate/severe. Exudative phase: neutrophil-mediated injury, protein-rich edema. Treatment: lung-protective ventilation, prone, dexamethasone.</p>
+    <p class="aliases">Also known as: ARDS, acute respiratory distress syndrome, diffuse alveolar damage, DAD, adult RDS</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 06 — Organ</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
-</nav>
 
-<div class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Atlas Four · Clinical / Pathology · Scale L05 · Respiratory Disease</p>
-    <h1>Acute Respiratory <span>Distress Syndrome</span></h1>
-    <p class="hero-lead">A life-threatening inflammatory lung syndrome defined by acute hypoxemic respiratory failure — bilateral radiographic infiltrates, impaired oxygenation (P/F ratio &lt;300 mmHg), and non-cardiogenic pathophysiology — with a histological substrate of diffuse alveolar damage and a 35–46% mortality in severe cases.</p>
-  </div>
-</div>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<div class="meta-strip">
-  <span><strong>Criteria:</strong> Berlin Definition 2012</span>
-  <span><strong>Scale:</strong> L05 Clinical / Pathology</span>
-  <span><strong>System:</strong> Respiratory</span>
-  <span><strong>Type:</strong> Syndrome</span>
-  <span><strong>Reviewed:</strong> 2026-06-05</span>
-</div>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">ards</div>
+        <h2>Acute Respiratory Distress Syndrome</h2>
+        <p class="summary">Diffuse alveolar damage causing hypoxemic respiratory failure (PaO2/FiO2 &lt;300, bilateral infiltrates, non-cardiac). Berlin grades: mild/moderate/severe. Exudative phase: neutrophil-mediated injury, protein-rich edema. Treatment: lung-protective ventilation, prone, dexamethasone.</p>
+      </div>
+      <div class="detail-body">
 
-<div class="content">
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>ards</td></tr>
+            <tr><td>Name</td><td>Acute Respiratory Distress Syndrome</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>06-organ</td></tr>
+          </table>
+        </div>
 
-  <div class="section" id="definition">
-    <h2>Berlin 2012 Definition and Severity Classification</h2>
-    <p>The <strong>Berlin Definition (2012)</strong> — developed by a European Society of Intensive Care Medicine task force and endorsed by ARDS Definition Task Force — replaced the older American-European Consensus Conference (AECC) criteria. It specifies four mandatory criteria, all of which must be met simultaneously:</p>
-    <ul>
-      <li><strong>Timing:</strong> Acute onset within 1 week of a known clinical insult or new/worsening respiratory symptoms</li>
-      <li><strong>Chest imaging:</strong> Bilateral opacities on CXR or CT not fully explained by effusions, lobar/lung collapse, or nodules</li>
-      <li><strong>Oxygenation failure:</strong> PaO₂/FiO₂ (P/F ratio) &lt;300 mmHg with PEEP or CPAP ≥5 cmH₂O</li>
-      <li><strong>Origin of edema:</strong> Not fully explained by cardiac failure or fluid overload; if no risk factor for ARDS is present, echocardiographic assessment is required to exclude hydrostatic pulmonary edema</li>
-    </ul>
-    <table>
-      <thead><tr><th>Severity Category</th><th>P/F Ratio (mmHg)</th><th>PEEP</th><th>Hospital Mortality</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Mild</strong></td><td>200 – 300</td><td>≥5 cmH₂O</td><td>~27%</td></tr>
-        <tr><td><strong>Moderate</strong></td><td>100 – 200</td><td>≥5 cmH₂O</td><td>~32%</td></tr>
-        <tr><td><strong>Severe</strong></td><td>&lt;100</td><td>≥5 cmH₂O</td><td>~45%</td></tr>
-      </tbody>
-    </table>
-    <div class="callout"><strong>Key distinction from AECC (1994):</strong> The Berlin Definition removed the term "acute lung injury" (ALI) as a precursor category, eliminated the ambiguous "absence of left atrial hypertension" criterion (replaced by clinical judgment and echo), specified a minimum PEEP requirement to standardize oxygenation assessment, and added severity stratification validated against clinical outcomes. Sensitivity 89%, specificity 63% for DAD at autopsy.</div>
-    <p>ARDS incidence is approximately <strong>10–86 cases per 100,000 person-years</strong> depending on country and diagnostic criteria. In ICUs, ARDS affects ~10% of all admitted patients and ~23% of mechanically ventilated patients (LUNG SAFE study, Bellani et al. 2016, n=29,144 in 50 countries).</p>
-  </div>
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="lung.html" title="ARDS is the most severe form of acute lung injury, affecting the entire lung parenchyma bilaterally; it represents the lung's final common pathway response to diverse systemic and pulmonary insults."><span class="rel">part-of</span>Lung</a>
+            <a class="conn-pill" href="macrophage.html" title="Alveolar macrophages are central orchestrators of ARDS: early release of TNF-α, IL-6, IL-8, and IL-1β amplifies neutrophil recruitment and epithelial/endothelial injury; macrophage phenotype shift (M1→M2) is required for resolution."><span class="rel">modulated-by</span>Macrophage</a>
+            <a class="conn-pill" href="tgf-beta.html" title="TGF-β1 is markedly elevated in ARDS bronchoalveolar lavage; it impairs alveolar fluid clearance (inhibits ENaC expression), promotes fibroproliferation, and drives the proliferative/fibrotic phase of ARDS."><span class="rel">modulated-by</span>Tgf Beta</a>
+            <a class="conn-pill part" href="type-ii-pneumocyte.html" title="Type II pneumocyte hyperplasia in the proliferative phase of ARDS represents attempted alveolar re-epithelialization; type II cells produce surfactant and can differentiate into type I cells to restore the gas-exchange surface."><span class="rel">contains</span>Type Ii Pneumocyte</a>
+            <a class="conn-pill" href="dexamethasone.html" title="DEXA-ARDS trial: dexamethasone 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days (18.3 vs 9.9) and reduced 60-day mortality (29.3% vs 44.8%); targets fibroproliferative ARDS phase; suppresses neutrophilic lung inflammation."><span class="rel">treated-by</span>Dexamethasone</a>
+          </div>
+        </div>
 
-  <div class="section" id="pathophysiology">
-    <h2>Pathophysiology: Diffuse Alveolar Damage (DAD)</h2>
-    <p>The histological hallmark of ARDS is <strong>diffuse alveolar damage (DAD)</strong>, a stereotyped lung injury response that evolves through three overlapping phases regardless of the underlying trigger:</p>
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1056/NEJM200005043421801" target="_blank" rel="noopener noreferrer">The Acute Respiratory Distress Syndrome Network. Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome. N Engl J Med. 2000;342(18):1301-1308.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10793162/" target="_blank" rel="noopener noreferrer">PubMed 10793162</a></li>
+            <li><a href="https://doi.org/10.1001/jama.2012.5669" target="_blank" rel="noopener noreferrer">Ranieri VM, Rubenfeld GD, Thompson BT, et al. Acute respiratory distress syndrome: the Berlin Definition. JAMA. 2012;307(23):2526-2533.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22797452/" target="_blank" rel="noopener noreferrer">PubMed 22797452</a></li>
+          </ul>
+        </div>
 
-    <h3>Exudative Phase (Days 0–7)</h3>
-    <p>Injury to both the alveolar epithelium (primarily type I pneumocytes) and the pulmonary capillary endothelium leads to <strong>alveolar-capillary barrier disruption</strong>. This allows protein-rich fluid to flood the alveolar space — non-cardiogenic pulmonary edema. The key features are:</p>
-    <ul>
-      <li><strong>Type I pneumocyte necrosis:</strong> AT1 cells, which cover ~95% of alveolar surface area, are highly susceptible to oxidative, mechanical, and cytotoxic injury. Their death leaves denuded basement membranes.</li>
-      <li><strong>Hyaline membrane formation:</strong> Protein-rich exudate (fibrin, plasma proteins, cellular debris) condenses along denuded alveolar walls into eosinophilic hyaline membranes — the pathognomonic histological feature seen at autopsy or open lung biopsy.</li>
-      <li><strong>Neutrophil influx:</strong> Massive recruitment of activated neutrophils into the alveolar space, driven by IL-8/CXCL8, C5a, and leukotriene B4. Neutrophil degranulation releases elastase, MPO, and ROS that amplify barrier injury.</li>
-      <li><strong>Alveolar macrophage activation:</strong> Resident AMs sense DAMPs/PAMPs via TLR4 → NF-κB → IL-1β/TNF-α/IL-6/IL-8 cascade, amplifying inflammation and neutrophil chemotaxis.</li>
-      <li><strong>Interstitial edema and capillary congestion:</strong> Lymphatic drainage is overwhelmed; interstitial then alveolar flooding causes severe V/Q mismatch and intrapulmonary shunt → hypoxemia.</li>
-    </ul>
+      </div>
+    </div>
+  </main>
 
-    <h3>Proliferative Phase (Days 7–21)</h3>
-    <p>If the initial injury resolves, <strong>type II pneumocyte (AT2) proliferation</strong> begins to resurface denuded alveolar walls. AT2 cells are the alveolar progenitor; they proliferate and transdifferentiate into AT1 cells under Wnt/β-catenin, EGF receptor, and Notch signaling. Simultaneously, fibroblasts are recruited and activated by TGF-β1 released from AT2 cells, macrophages, and injured endothelium. Early fibroproliferative changes (collagen I/III deposition) begin in this phase. Clinically, patients may improve (resolution) or progress to irreversible fibrosis.</p>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-    <h3>Fibrotic Phase (&gt;21 Days)</h3>
-    <p>In the subset of patients who fail to resolve, progressive collagen deposition and architectural distortion lead to <strong>fibrotic ARDS</strong>. Fibroblastic foci (active myofibroblasts embedded in young fibrous tissue) are the dominant histological feature, analogous to the UIP pattern of IPF. This stage is associated with prolonged ventilator dependence, pulmonary hypertension, and high mortality. The mechanism involves sustained TGF-β1 → SMAD2/3 → Col1A1/Col3A1 fibrogenic program; mechanical stretch of stiff lung tissue → YAP/TAZ mechanosignaling further amplifies fibroblast activation.</p>
-  </div>
-
-  <div class="section" id="triggers">
-    <h2>Triggers: Direct vs. Indirect Injury</h2>
-    <p>ARDS triggers are classified as <strong>direct (pulmonary)</strong> — primary injury to the lung parenchyma — or <strong>indirect (extrapulmonary)</strong> — systemic inflammatory states that injure the lung via the circulation. The distinction has pathophysiological and potentially therapeutic implications (direct ARDS tends toward alveolar consolidation with less recruitability; indirect ARDS tends toward ground-glass opacity with greater recruitability).</p>
-    <table>
-      <thead><tr><th>Trigger</th><th>Type</th><th>Approximate Frequency</th><th>Notes</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Pneumonia</strong> (bacterial, viral, fungal)</td><td>Direct</td><td>~40% of ARDS cases</td><td>Most common cause; Streptococcus pneumoniae, MRSA, gram-negatives, influenza A, SARS-CoV-2; COVID-19 ARDS has distinct cytokine profile (IL-6 dominant) and prolonged course</td></tr>
-        <tr><td><strong>Aspiration of gastric contents</strong></td><td>Direct</td><td>~10–15%</td><td>Low pH and particulate matter cause direct chemical pneumonitis; high risk in obtunded patients; 30–50% progress to ARDS within 24–48 h</td></tr>
-        <tr><td><strong>Sepsis (non-pulmonary source)</strong></td><td>Indirect</td><td>~25–30%</td><td>Hematogenous delivery of inflammatory mediators (LPS, TNF-α, IL-1β) injures pulmonary capillary endothelium; most severe indirect trigger</td></tr>
-        <tr><td><strong>Trauma / lung contusion</strong></td><td>Direct/indirect</td><td>~10–15%</td><td>Polytrauma → fat emboli, massive transfusion, direct contusion; early onset (within 24 h); rib fractures → splinting → atelectasis compounds injury</td></tr>
-        <tr><td><strong>TRALI</strong> (transfusion-related ALI)</td><td>Indirect</td><td>~5–10%</td><td>Donor anti-HLA antibodies or BRM-rich plasma → neutrophil priming in pulmonary capillaries → acute onset within 6 h of transfusion; leading cause of transfusion fatality</td></tr>
-        <tr><td><strong>Pancreatitis</strong></td><td>Indirect</td><td>~5%</td><td>Phospholipase A2, trypsin, and inflammatory mediators enter systemic circulation → endothelial injury; typically moderate ARDS</td></tr>
-        <tr><td><strong>Burns</strong></td><td>Indirect</td><td>~5%</td><td>Smoke inhalation (direct) + systemic burn response (indirect); especially inhalation of combustion products — HCN, CO, aldehydes → alveolar injury</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="section" id="molecular">
-    <h2>Molecular Mechanisms</h2>
-    <h3>Innate Immune Activation and Cytokine Storm</h3>
-    <p>ARDS initiation centers on sensing of pathogen-associated (PAMPs) and damage-associated (DAMPs) molecular patterns by alveolar macrophages and recruited monocytes:</p>
-    <ul>
-      <li><strong>Key DAMPs:</strong> HMGB1 (released from necrotic nuclei), double-stranded RNA (dsRNA from viral replication or mitochondrial stress), mitochondrial DNA (mtDNA — activates TLR9), ATP (purinergic P2X7 signaling), and heat shock proteins</li>
-      <li><strong>Key PAMPs:</strong> LPS (TLR4), flagellin (TLR5), peptidoglycan (TLR2), bacterial DNA (TLR9), viral dsRNA (TLR3), ssRNA (TLR7/8)</li>
-      <li><strong>TLR4/NF-κB in alveolar macrophages:</strong> TLR4-MD2-CD14 → MyD88/TRIF → IKK complex → NF-κB nuclear translocation → IL-1β, TNF-α, IL-6, IL-8 transcription → massive neutrophil recruitment</li>
-    </ul>
-    <h3>Neutrophil-Mediated Injury</h3>
-    <p>IL-8/CXCL8 binds CXCR2 on circulating neutrophils → diapedesis into alveolar space. Activated neutrophils release:</p>
-    <ul>
-      <li><strong>Neutrophil extracellular traps (NETs):</strong> Extruded chromatin decorated with neutrophil elastase (NE), MPO, and citrullinated histones; NETs trap pathogens but also damage AT1 cells and endothelium; elevated cell-free DNA in ARDS BAL fluid correlates with poor prognosis</li>
-      <li><strong>Reactive oxygen species (ROS):</strong> NADPH oxidase (NOX2) burst → superoxide → peroxynitrite → lipid peroxidation → membrane damage; inactivates surfactant proteins SP-A and SP-B</li>
-      <li><strong>Proteases:</strong> Neutrophil elastase (NE) degrades collagen IV, elastin, and claudin-18 (tight junction) → barrier permeability; MMP-8 and MMP-9 cleave extracellular matrix, releasing cryptic TGF-β from LTBP-1 stores</li>
-    </ul>
-    <h3>Endothelial Permeability</h3>
-    <p>VE-cadherin (CDH5) at inter-endothelial adherens junctions is a critical permeability regulator. TNF-α/IL-1β → VEGF upregulation → VEGFR2 → Src kinase → VE-cadherin phosphorylation at Y658/Y685 → internalization via Rab-GTPase vesicles → junctional gap formation → vascular leak. NE also directly cleaves VE-cadherin extracellular domain. Permeability amplified by thrombin via PAR-1 → Rho/ROCK → actomyosin contraction.</p>
-    <h3>NLRP3 Inflammasome and Pyroptosis</h3>
-    <p>In severe ARDS, NLRP3 inflammasome assembly in alveolar macrophages is triggered by mtDNA, ATP, and pore-forming toxins → caspase-1 activation → IL-1β/IL-18 maturation + Gasdermin D (GSDMD) cleavage → pyroptotic cell death in type I pneumocytes → further DAMP release. IL-1β in BAL fluid is elevated 100-fold above plasma in ARDS and correlates with severity and mortality.</p>
-    <h3>Coagulation and Complement Amplification</h3>
-    <p>Alveolar fibrin deposition contributes to hyaline membranes. PAI-1 (plasminogen activator inhibitor-1) is massively overexpressed in ARDS alveolar epithelium and endothelium, inhibiting fibrinolysis (tPA/uPA) → persistent fibrin; elevated BAL/plasma PAI-1 is an independent ARDS mortality predictor. Complement C5a binds C5aR1 on neutrophils and macrophages → priming → amplification loop. Tissue factor (TF) expressed on injured AT1 cells and macrophages → extrinsic coagulation → thrombin → fibrin deposition + PAR-1 activation on endothelium → further permeability.</p>
-  </div>
-
-  <div class="section" id="ventilation">
-    <h2>Lung-Protective Ventilation</h2>
-    <p>Mechanical ventilation is life-sustaining in ARDS but can itself cause <strong>ventilator-induced lung injury (VILI)</strong> through four mechanisms: volutrauma (overdistension), barotrauma (pressure injury), atelectrauma (repeated recruitment/derecruitment of unstable alveoli), and biotrauma (stretch-induced cytokine release). The ARDS lung is mechanically heterogeneous — "baby lung" concept (Gattinoni): only 20–30% of lung remains aerated; normal tidal volumes injure this small compartment at high local strain.</p>
-    <table>
-      <thead><tr><th>Strategy / Trial</th><th>Key Parameter</th><th>Evidence / Outcome</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Low tidal volume</strong><br>ARDSNet ARMA 2000</td><td>Vt 6 mL/kg predicted body weight (PBW)</td><td>RCT n=861: 6 mL/kg vs 12 mL/kg — 28-day mortality 31% vs 39.8% (absolute risk reduction 8.8%; NNT ~11). Most practice-changing ARDS trial. <em>N Engl J Med.</em> 2000;342:1301–8</td></tr>
-        <tr><td><strong>Driving pressure</strong><br>Amato et al. 2015</td><td>ΔP = Vt / Crs; target &lt;15 cmH₂O</td><td>Individual patient data meta-analysis n=3562: driving pressure (ΔP) is the ventilator variable most strongly associated with survival, independent of Vt and PEEP. A 1 cmH₂O increase in ΔP associated with 41% relative increase in mortality. <em>N Engl J Med.</em> 2015;372:747–55</td></tr>
-        <tr><td><strong>Plateau pressure</strong></td><td>&lt;30 cmH₂O</td><td>Surrogate for end-inspiratory transpulmonary pressure; guideline standard in all international protocols</td></tr>
-        <tr><td><strong>PEEP titration</strong><br>ALVEOLI / ExPress / LOVS</td><td>Higher vs. lower PEEP</td><td>Three large RCTs (n=~2,200 combined) showed higher PEEP improves oxygenation but does not reduce 28-day or hospital mortality. Higher PEEP may benefit moderate-severe ARDS (P/F &lt;200). Meta-analyses suggest mortality benefit in P/F &lt;200 with high PEEP strategy.</td></tr>
-        <tr><td><strong>Prone positioning</strong><br>PROSEVA (Guérin 2013)</td><td>≥16 h/day in prone position</td><td>RCT n=466, severe ARDS (P/F &lt;150): 28-day mortality 16.0% prone vs 32.8% supine (RR 0.39; NNT ~6). <em>N Engl J Med.</em> 2013;368:2159–68. Benefit attributed to more uniform lung stress distribution, improved V/Q matching, and drainage of posterior secretions.</td></tr>
-        <tr><td><strong>Neuromuscular blockade</strong><br>ACURASYS / ROSE</td><td>Cisatracurium infusion 48 h</td><td>ACURASYS 2010 (n=340): 90-day mortality benefit (HR 0.68); ROSE 2019 (n=1006, with light sedation control): no mortality benefit (42.5% vs 42.8%). NMB remains appropriate for severe dyssynchrony or refractory hypoxemia.</td></tr>
-      </tbody>
-    </table>
-    <div class="callout"><strong>Driving pressure summary:</strong> ΔP = Plateau pressure − PEEP = Vt / respiratory system compliance (Crs). Driving pressure captures the stress delivered to the aerated lung per breath. Target ΔP &lt;15 cmH₂O is the current best practice, and titrating Vt/PEEP to minimize ΔP (rather than targeting fixed Vt/PEEP) is the most physiologically rational approach (Amato 2015 meta-analysis).</div>
-  </div>
-
-  <div class="section" id="pharmacology">
-    <h2>Pharmacology</h2>
-    <p>Despite decades of clinical trials, <strong>no pharmacological agent has proven survival benefit in unselected ARDS</strong>. The most promising interventions target inflammation, fibroproliferation, or disease-specific drivers (COVID-19).</p>
-    <table>
-      <thead><tr><th>Agent</th><th>Mechanism</th><th>Trial Evidence</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Dexamethasone</strong></td><td>Glucocorticoid → GR-mediated anti-inflammatory; suppresses NF-κB → ↓IL-1β/IL-6/TNF-α; promotes AT2 maturation; possible anti-fibroproliferative via ↓TGF-β</td><td>DEXA-ARDS (Villar 2020, n=277): 6 mg/day × 10 days in moderate-severe ARDS → ICU-free days +4.8 days (p=0.001); 60-day mortality 21.5% vs 36.2% (p=0.0047). <em>Lancet Respir Med.</em> 2020;8:267–76. RECOVERY dexamethasone (COVID-19 ARDS) showed 28-day mortality reduction from 40.7% to 29.0% in ventilated patients.</td></tr>
-        <tr><td><strong>Methylprednisolone</strong></td><td>Corticosteroid; early (exudative) and late (fibroproliferative) ARDS trials</td><td>ARDS Network LaSRS trial (2006): late corticosteroids (≥14 days) — no 60-day mortality benefit, increased 60-day mortality if started &gt;14 days; Meduri regimen (early, low-dose prolonged) showed benefit in smaller trials. Early use (first 7 days) remains investigational.</td></tr>
-        <tr><td><strong>Inhaled nitric oxide (iNO)</strong></td><td>Selective pulmonary vasodilator → ↑cGMP → ↓HPV → improves V/Q matching; no systemic effect due to rapid hemoglobin binding</td><td>Multiple large RCTs (Lundin 1999, Taylor 2004): consistent oxygenation improvement (↑P/F ratio ~20%) but no mortality benefit and possible increased renal failure risk. Used as rescue therapy for refractory hypoxemia or as bridge to prone/ECMO.</td></tr>
-        <tr><td><strong>Surfactant replacement</strong></td><td>Exogenous surfactant (beractant, calfactant, poractant) administered via ET tube or bronchoscope to restore surface tension reduction</td><td>Effective in neonatal RDS; failed in adult ARDS in multiple large trials (ARDS patients have surfactant inactivation by inflammatory proteins and debris, not primary deficiency). Phase 3 trials (Anzueto 1996, Spragg 2004): no mortality benefit.</td></tr>
-        <tr><td><strong>Sivelestat (neutrophil elastase inhibitor)</strong></td><td>Selective irreversible inhibitor of NE → blocks barrier disruption, VE-cadherin cleavage, and NET-mediated injury</td><td>Approved in Japan/South Korea for ARDS/ALI. Larger trials in Western patients have not confirmed survival benefit; Ono Pharmaceuticals phase 3 (2004) negative. Patient selection (early ARDS, high NE activity) may matter.</td></tr>
-        <tr><td><strong>IL-6 receptor blockade (tocilizumab)</strong></td><td>Anti-IL-6R mAb → blocks IL-6 signaling → ↓acute phase response, fever, AT2 injury</td><td>COVID-19 ARDS: RECOVERY tocilizumab → 28-day mortality 29% vs 33% (RR 0.86); REMAP-CAP: organ support-free days benefit. Largest benefit in patients with elevated CRP (&gt;75 mg/L) and concurrent dexamethasone.</td></tr>
-        <tr><td><strong>Baricitinib (JAK1/JAK2 inhibitor)</strong></td><td>Blocks JAK-STAT signaling downstream of IL-6, IL-2, IFN-γ; also inhibits AAK1/GAK (viral endocytosis)</td><td>COVID-19 ARDS: ACTT-2 and COV-BARRIER trials: reduced 28-day mortality; RECOVERY baricitinib: further mortality reduction additive to dexamethasone (12% vs 14%, RR 0.87). Now standard of care in severe COVID-19.</td></tr>
-      </tbody>
-    </table>
-    <div class="callout"><strong>COVID-19 ARDS treatment summary (2026 standard of care):</strong> Dexamethasone 6 mg/day × 10 days + baricitinib 4 mg/day (or tocilizumab if CRP &gt;75 mg/L) + lung-protective ventilation + prone positioning ≥16 h/day for severe ARDS. Remdesivir for patients not requiring O₂/low-flow O₂ (reduces progression). Prophylactic anticoagulation standard.</div>
-  </div>
-
-  <div class="section" id="connections">
-    <h2>Connections</h2>
-    <ul class="conn-list">
-      <li><span class="conn-rel">occurs-in</span><a href="lung-alveolus.html">Lung Alveolus</a> — diffuse alveolar damage is the primary tissue substrate of ARDS; AT1 necrosis, hyaline membrane formation, and alveolar flooding are the hallmark pathological events</li>
-      <li><span class="conn-rel">visualized-at</span><a href="lung-slice.html">Lung Slice</a> — ARDS patterns on CT/HRCT include diffuse bilateral ground-glass opacity ± consolidation with dependent gradient; lung slice anatomy contextualizes lobar vs. diffuse patterns</li>
-      <li><span class="conn-rel">caused-by</span><a href="covid-19-disease.html">COVID-19 Disease</a> — SARS-CoV-2 pneumonia is the most common single cause of ARDS in the post-2020 era; COVID-19 ARDS has distinctive IL-6 dominance and benefit from dexamethasone+baricitinib</li>
-      <li><span class="conn-rel">amplified-by</span><a href="cytokine-storm.html">Cytokine Storm</a> — severe ARDS involves dysregulated IL-1β/IL-6/TNF-α amplification reminiscent of cytokine storm; the overlap is greatest in COVID-19 and sepsis-associated ARDS</li>
-      <li><span class="conn-rel">mediated-by</span><a href="nlrp3-inflammasome.html">NLRP3 Inflammasome</a> — NLRP3 activation in alveolar macrophages produces IL-1β and drives pyroptosis in AT1 pneumocytes; NLRP3 is a key amplifier of the exudative phase of DAD</li>
-      <li><span class="conn-rel">impairs</span><a href="surfactant.html">Pulmonary Surfactant</a> — ARDS causes surfactant inactivation by inflammatory proteins and oxidative modification of DPPC/SP-B; reduced surfactant function worsens atelectasis and oxygenation failure</li>
-      <li><span class="conn-rel">can-progress-to</span><a href="fibrosis.html">Pulmonary Fibrosis</a> — non-resolving ARDS transitions to fibroproliferative and ultimately fibrotic phase; TGF-β1/myofibroblast activation in late ARDS is mechanistically identical to early IPF pathogenesis</li>
-      <li><span class="conn-rel">driven-by</span><a href="tgf-beta.html">TGF-β</a> — TGF-β1 plays dual roles in ARDS: acute immunosuppression of alveolar macrophages (protective early) and later fibroproliferative activation of fibroblasts (harmful in late/fibrotic ARDS)</li>
-    </ul>
-  </div>
-
-  <div class="section references" id="references">
-    <h2>References</h2>
-    <ol>
-      <li>ARDS Definition Task Force; Ranieri VM, Rubenfeld GD, Thompson BT, et al. Acute respiratory distress syndrome: the Berlin Definition. <em>JAMA.</em> 2012;307(23):2526–33. <a href="https://doi.org/10.1001/jama.2012.5669" target="_blank" rel="noopener">doi:10.1001/jama.2012.5669</a></li>
-      <li>The Acute Respiratory Distress Syndrome Network. Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome (ARMA). <em>N Engl J Med.</em> 2000;342(18):1301–8. <a href="https://doi.org/10.1056/NEJM200005043421801" target="_blank" rel="noopener">doi:10.1056/NEJM200005043421801</a></li>
-      <li>Amato MB, Meade MO, Slutsky AS, et al. Driving pressure and survival in the acute respiratory distress syndrome. <em>N Engl J Med.</em> 2015;372(8):747–55. <a href="https://doi.org/10.1056/NEJMsa1410639" target="_blank" rel="noopener">doi:10.1056/NEJMsa1410639</a></li>
-      <li>Guérin C, Reignier J, Richard JC, et al. (PROSEVA Study Group). Prone positioning in severe acute respiratory distress syndrome. <em>N Engl J Med.</em> 2013;368(23):2159–68. <a href="https://doi.org/10.1056/NEJMoa1214103" target="_blank" rel="noopener">doi:10.1056/NEJMoa1214103</a></li>
-      <li>Bellani G, Laffey JG, Pham T, et al. (LUNG SAFE Investigators). Epidemiology, patterns of care, and mortality for patients with acute respiratory distress syndrome in intensive care units in 50 countries. <em>JAMA.</em> 2016;315(8):788–800. <a href="https://doi.org/10.1001/jama.2016.0291" target="_blank" rel="noopener">doi:10.1001/jama.2016.0291</a></li>
-      <li>Villar J, Ferrando C, Martínez D, et al. (dexamethasone in ARDS network). Dexamethasone treatment for the acute respiratory distress syndrome: a multicentre, randomised controlled trial. <em>Lancet Respir Med.</em> 2020;8(3):267–76. <a href="https://doi.org/10.1016/S2213-2600(19)30417-5" target="_blank" rel="noopener">doi:10.1016/S2213-2600(19)30417-5</a></li>
-      <li>Matthay MA, Zemans RL, Zimmerman GA, et al. Acute respiratory distress syndrome. <em>Nat Rev Dis Primers.</em> 2019;5:18. <a href="https://doi.org/10.1038/s41572-019-0069-0" target="_blank" rel="noopener">doi:10.1038/s41572-019-0069-0</a></li>
-      <li>Slutsky AS, Ranieri VM. Ventilator-induced lung injury. <em>N Engl J Med.</em> 2013;369(22):2126–36. <a href="https://doi.org/10.1056/NEJMra1208707" target="_blank" rel="noopener">doi:10.1056/NEJMra1208707</a></li>
-      <li>RECOVERY Collaborative Group. Dexamethasone in hospitalized patients with Covid-19. <em>N Engl J Med.</em> 2021;384(8):693–704. <a href="https://doi.org/10.1056/NEJMoa2021436" target="_blank" rel="noopener">doi:10.1056/NEJMoa2021436</a></li>
-    </ol>
-  </div>
-
-</div>
-
-<footer>
-  <p><a href="../index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
-  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
-</footer>
-
-<script>/* no dynamic year needed */</script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

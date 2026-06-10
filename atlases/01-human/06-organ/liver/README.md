@@ -169,6 +169,9 @@ cross_links:
   - target: 03-medicine/02-traditional/milk-thistle
     relation: modulated-by
     note: "Modulated by Milk Thistle / Silymarin (Silybum marianum)."
+  - target: 03-medicine/01-modern/06-antimicrobial/rifampicin
+    relation: damaged-by
+    note: "Rifampicin causes transient transaminase elevation in 10–20% and frank hepatitis in ~1–2% of patients; CYP induction accelerates isoniazid → hydrazine metabolite conversion → additive hepatotoxicity; baseline LFTs + monthly monitoring required."
 taxonomy:
   uberon: "UBERON:0002107"
   fma: "FMA:7197"
@@ -316,6 +319,7 @@ The liver intercepts xenobiotics and metabolic waste before systemic exposure:
 - **Connects to:** [Cardiovascular System](../../07-system/cardiovascular-system/README.md) — portal circulation, VLDL/HDL secretion influencing systemic lipids, portal hypertension → cardiac effects.
 - **Damaged by:** SARS-CoV-2 — hepatic injury in 14–53% of COVID-19 patients.
 - **Treated by:** [Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md) — HMG-CoA reductase inhibition for LDL-C reduction.
+- **Damaged-by** → [Rifampicin](../../../03-medicine/01-modern/06-antimicrobial/rifampicin/README.md): Transient transaminase elevation in 10–20%; frank hepatitis in ~1–2%; CYP induction accelerates isoniazid → hydrazine metabolite conversion → additive hepatotoxicity; monthly LFT monitoring required.
 
 ## Pathology
 
@@ -368,3 +372,6 @@ Most common cause of acute liver failure in Western countries (>50%). Mechanisms
 [^who-hepatitis-b]: World Health Organization. Hepatitis B Fact Sheet. WHO; 2023. [who.int](https://www.who.int/news-room/fact-sheets/detail/hepatitis-b)
 [^friedman-2003-liver-fibrosis]: Friedman SL. Mechanisms of hepatic fibrogenesis. *Gastroenterology.* 2008;134(6):1655-69. [doi:10.1053/j.gastro.2008.03.003](https://doi.org/10.1053/j.gastro.2008.03.003) · [PubMed 18471545](https://pubmed.ncbi.nlm.nih.gov/18471545/)
 [^younossi-2019-nafld]: Younossi ZM et al. Global epidemiology of nonalcoholic fatty liver disease. *Hepatology.* 2016;64(1):73-84. [doi:10.1002/hep.28431](https://doi.org/10.1002/hep.28431) · [PubMed 26707365](https://pubmed.ncbi.nlm.nih.gov/26707365/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

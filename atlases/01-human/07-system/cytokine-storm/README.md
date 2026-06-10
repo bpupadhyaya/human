@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: modulates
     note: "Cytokine storm causes ARDS in the lung: IL-8-driven neutrophil recruitment, endothelial barrier disruption, surfactant dysfunction, and hyaline membrane formation; the lung is the most vulnerable end-organ due to its exposure to the entire cardiac output."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/dexamethasone
+    relation: modulated-by
+    note: "Dexamethasone suppresses cytokine storm via GR:NF-κB transrepression (↓ IL-1β/IL-6/TNF-α) and GRE transactivation (IκBα/IL-10/ANXA1 upregulation); primary mechanism of RECOVERY trial mortality benefit and CAR-T cytokine release syndrome treatment."
 ---
 
 # Cytokine Storm
@@ -134,6 +137,7 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `modulated-by` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — proximal alarm cytokine activating NF-κB; drives vascular permeability, DIC, and hepatocyte injury
 - `modulated-by` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — master transcriptional driver of pro-inflammatory cytokine expression in macrophages and endothelial cells during CS
 - `modulates` → **[Lung](../../06-organ/lung/README.md)** — cytokine storm causes ARDS via neutrophil-mediated alveolar damage and endothelial barrier disruption
+- `modulated-by` → **[Dexamethasone](../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — suppresses cytokine storm via GR:NF-κB transrepression (↓ IL-1β/IL-6/TNF-α) and GRE transactivation (IκBα/IL-10/ANXA1); primary mechanism of RECOVERY trial benefit and CAR-T CRS treatment.
 
 ## Pathology
 
@@ -154,3 +158,6 @@ CS drives a **consumptive coagulopathy (DIC)**:
 
 [^fajgenbaum-june-2020-cytokine-storm]: Fajgenbaum DC, June CH. Cytokine Storm. *N Engl J Med.* 2020;383(23):2255-2273. [doi:10.1056/NEJMra2026131](https://doi.org/10.1056/NEJMra2026131) · [PubMed 33264547](https://pubmed.ncbi.nlm.nih.gov/33264547/)
 [^tisoncik-2012-cytokine-storm-review]: Tisoncik JR et al. Into the eye of the cytokine storm. *Microbiol Mol Biol Rev.* 2012;76(1):16-32. [doi:10.1128/MMBR.05015-11](https://doi.org/10.1128/MMBR.05015-11) · [PubMed 22390970](https://pubmed.ncbi.nlm.nih.gov/22390970/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
