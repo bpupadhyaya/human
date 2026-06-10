@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/il-31
     relation: connects-to
     note: "IL-31 contributes to pruritus in psoriasis despite the Th17 cytokine environment; psoriatic skin ILC2 cells produce IL-31; IL-31 correlates with itch VAS independently of PASI; JAK inhibitors (deucravacitinib, upadacitinib) reduce psoriatic inflammation and IL-31-mediated itch."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Narrow-band UVB (311–313 nm) phototherapy induces T-cell apoptosis in psoriatic plaques and suppresses the Th17/IL-17A axis; NBUVB achieves PASI 75 in 50–70% of patients; safe in pregnancy; requires 2–3 sessions/week for 6–10 weeks induction."
 ---
 
 # Psoriasis
@@ -174,6 +177,7 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 from dermal DCs activates Th17 and γδ T cells → IL-17A/F and IL-22 → keratinocyte hyperproliferation, acanthosis, and neutrophil recruitment in psoriatic plaques; anti-IL-23p19 antibodies (risankizumab, guselkumab) achieve PASI 90 response in ~50% of patients.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A from skin Th17 and γδ T cells activates keratinocyte IL-17RA/RC → NF-kB → CXCL8, S100A proteins, and AMPs → neutrophil influx and epidermal hyperproliferation; secukinumab (anti-IL-17A) and ixekizumab achieve PASI 90 in ~60% of plaque psoriasis patients at 16 weeks.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — IL-31 contributes to pruritus in psoriasis despite the Th17 cytokine environment; psoriatic skin ILC2 cells produce IL-31; IL-31 correlates with itch VAS independently of PASI; JAK inhibitors (deucravacitinib, upadacitinib) reduce psoriatic inflammation and IL-31-mediated itch.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Narrow-band UVB (311–313 nm) phototherapy induces T-cell apoptosis in psoriatic plaques and suppresses the Th17/IL-17A axis; NBUVB achieves PASI 75 in 50–70% of patients; safe in pregnancy; requires 2–3 sessions/week for 6–10 weeks induction.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

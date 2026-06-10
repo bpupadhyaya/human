@@ -38,6 +38,9 @@ cross_links:
   - target: 01-human/03-molecular/sclerostin
     relation: modulated-by
     note: "Romosozumab (anti-sclerostin) derepresses osteoblast Wnt → increased OPG → reduced RANKL/osteoclast activation; sclerostin blockade uniquely combines bone formation with antiresorption; dual mechanism achieved via OPG upregulation downstream of Wnt de-repression."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "V-ATPase pumps protons into the osteoclast resorption lacuna (pH ~4.5), dissolving bone hydroxyapatite; carbonic anhydrase II provides H⁺ from CO₂ + H₂O; mutations in ATP6i (a3 subunit) cause osteopetrosis from failed osteoclast proton pumping."
 ---
 
 # Osteoclast
@@ -87,6 +90,7 @@ HSC → common myeloid progenitor (CMP) → granulocyte-monocyte progenitor (GMP
 - **Modulates IL-6 [^guyton-hall]:** IL-6 via gp130/STAT3 on osteoblasts increases RANKL expression and decreases OPG, tipping the balance toward osteoclastogenesis; IL-6 also acts directly on osteoclast precursors; tocilizumab (anti-IL-6R) reduces bone erosion in RA.
 - **Modulated-by RANKL:** RANKL (TNFSF11) binds RANK on osteoclast precursors → TRAF6 → NF-κB + AP-1 → NFATc1 → cathepsin K, TRAP, integrin β3 → mature resorbing osteoclast; OPG is the decoy receptor; denosumab mimics OPG to suppress osteoclastogenesis.
 - **Modulated-by Sclerostin:** Romosozumab (anti-sclerostin) derepresses osteoblast Wnt → increased OPG → reduced RANKL/osteoclast activation; sclerostin blockade uniquely combines bone formation with antiresorption; dual mechanism achieved via OPG upregulation downstream of Wnt de-repression.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — V-ATPase pumps protons into the resorption lacuna (pH ~4.5), dissolving bone hydroxyapatite; carbonic anhydrase II provides H⁺ from CO₂ + H₂O; mutations in ATP6i (a3 subunit) cause osteopetrosis from failed osteoclast proton pumping.
 
 ## Pathology
 

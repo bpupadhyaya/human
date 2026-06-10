@@ -38,6 +38,9 @@ cross_links:
   - target: 03-medicine/02-traditional/licorice-root
     relation: modulated-by
     note: "Modulated by Licorice Root (Glycyrrhiza glabra / G. uralensis)."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Parietal cell H⁺/K⁺-ATPase secretes H⁺ into the gastric lumen against a 10⁶-fold concentration gradient (pH ~1.5); proton pump inhibitors (PPIs: omeprazole, pantoprazole) irreversibly inhibit H⁺/K⁺-ATPase via Cys813/892, reducing basal acid by >90%."
 ---
 
 # Stomach
@@ -144,6 +147,7 @@ After meal ingestion, two regions behave differently:
 - **Modulates:** [Liver](../liver/README.md) — stomach-derived gastrin enters portal circulation and reaches hepatocytes; gastric acid disruption and achlorhydria alter bile acid secretion; *H. pylori* LPS reaches the liver via portal blood, activating Kupffer cell TLR4.
 - **Modulates:** [Pancreas](../pancreas/README.md) — antral G cells secrete gastrin stimulating pancreatic enzyme secretion; gastric acid entering the duodenum triggers secretin release driving pancreatic HCO₃⁻ secretion; CCK from I-cells further amplifies this response.
 - **Modulates:** [Nervous System](../../07-system/nervous-system/README.md) — stomach has ~100 million enteric neurons (ENS); vagal afferents signal satiety, nausea, and stretch; ghrelin from fundal X/A-like cells acts on hypothalamic NPY/AgRP neurons to stimulate appetite.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Parietal cell H⁺/K⁺-ATPase secretes H⁺ into the gastric lumen against a 10⁶-fold gradient (pH ~1.5); proton pump inhibitors (PPIs: omeprazole, pantoprazole) irreversibly inhibit H⁺/K⁺-ATPase via Cys813/892, reducing basal acid by >90%.
 
 ## Pathology
 

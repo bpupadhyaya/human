@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Melanoma evades perforin-mediated CTL/NK cytotoxicity via MHC-I downregulation, PD-L1 upregulation, and IDO-mediated T-cell suppression; checkpoint inhibitors (anti-PD-1/CTLA-4) restore perforin-granzyme killing; TIL perforin content predicts immunotherapy response."
+  - target: 01-human/01-subatomic/photon
+    relation: damaged-by
+    note: "UV-B and UV-A photons are the primary environmental mutagen in melanoma; CPDs and 8-oxoguanine → C→T and CC→TT signature mutations in BRAF (V600E in ~50%), NRAS, and TP53; melanoma has the highest UV mutational burden of any cancer (~10 mutations/Mb)."
 ---
 
 # Melanoma
@@ -145,6 +148,7 @@ cross_links:
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss occurs in ~20-30% of melanoma → constitutive AKT → BRAF inhibitor resistance; PTEN-null melanomas are relatively resistant to vemurafenib; combined BRAF + AKT inhibition is proposed and under investigation for PTEN-null/BRAF V600E melanoma.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — tumor microenvironment generates adenosine via CD39 (ATP→AMP) and CD73 (AMP→adenosine) on melanoma cells and MDSCs; A2AR on tumor-infiltrating T cells → ↑cAMP → ↓IL-2/IFN-γ → immune evasion; anti-CD73 (oleclumab) + anti-PD-1 combination trials target adenosine-mediated immune checkpoint resistance.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Melanoma evades perforin-mediated CTL/NK cytotoxicity via MHC-I downregulation, PD-L1 upregulation, and IDO-mediated T-cell suppression; checkpoint inhibitors (anti-PD-1/CTLA-4) restore perforin-granzyme killing; TIL perforin content predicts immunotherapy response.
+- `damaged-by` → **[Photon](../../01-subatomic/photon/README.md)** — UV-B and UV-A photons are the primary environmental mutagen in melanoma; CPDs and 8-oxoguanine → C→T and CC→TT signature mutations in BRAF (V600E in ~50%), NRAS, and TP53; melanoma has the highest UV mutational burden of any cancer (~10 mutations/Mb).
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

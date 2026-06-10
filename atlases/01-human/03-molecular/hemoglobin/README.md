@@ -53,6 +53,9 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Four porphyrin ring nitrogens coordinate Fe²⁺; proximal His (F8) provides fifth axial N ligand; distal His (E7) H-bonds O₂; His146β imidazole accepts CO₂-driven proton → T-state stabilisation → O₂ release in peripheral tissues (Bohr effect)."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Bohr effect: CO₂ → H⁺ → protonation of His146β → T-state stabilisation → rightward O₂ dissociation curve shift → O₂ release in exercising tissues; each 0.1 pH unit drop shifts P50 ~3 mmHg right; the Bohr effect is the molecular basis of efficient O₂ delivery."
 ---
 
 # Hemoglobin
@@ -143,6 +146,7 @@ Globin gene expression during erythropoiesis is driven by transcription factors 
 - `connects-to` → **[Malaria](../../07-system/malaria/README.md)** — P. falciparum digests haemoglobin in food vacuole → haemozoin + free haem; HbAS confers ~60% protection via impaired parasite growth; HbF, HbC, and α-thalassaemia also protective; haemoglobin variants shape global Plasmodium mortality distribution.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Globin chains are carbon-backbone polypeptides; ~23% of CO₂ transported as carbamino-Hb (CO₂ reacts at α-amino termini of globin chains); Haldane effect: deoxyHb binds CO₂ 3.5× more avidly than oxyHb, enabling efficient tissue CO₂ unloading.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Four porphyrin ring nitrogens coordinate Fe²⁺; proximal His (F8) provides fifth axial N ligand; distal His (E7) H-bonds O₂; His146β imidazole accepts CO₂-driven proton → T-state stabilisation → O₂ release in peripheral tissues (Bohr effect).
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Bohr effect: CO₂ → H⁺ → protonation of His146β → T-state stabilisation → rightward O₂ dissociation curve shift → O₂ release in exercising tissues; each 0.1 pH unit drop shifts P50 ~3 mmHg right; the Bohr effect optimises O₂ delivery to active muscle.
 
 ## Pathology
 

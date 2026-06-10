@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Factor H Y402H (SCR7; ~35% of Europeans) → reduced Bruch membrane heparan sulfate binding → local complement dysregulation → drusen accumulation → AMD; Y402H homozygotes have ~7× relative AMD risk; pegcetacoplan (C3 inhibitor) approved for geographic atrophy in AMD (FDA 2023)."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Rod and cone phototransduction converts photons to neural signals via 11-cis retinal isomerization in rhodopsin/cone opsins; cumulative UV-A crosslinks lens crystallins → nuclear cataract; PDT (verteporfin + 689 nm laser) treats choroidal neovascularization in AMD."
 ---
 
 # Eye
@@ -121,6 +124,7 @@ Intraocular pressure homeostasis: production rate = outflow rate at IOP equilibr
 - `part-of` → **[Nervous System](../../07-system/nervous-system/README.md)** — the retina is developmentally diencephalic; the optic nerve is a CNS tract; the eye is the sensory peripheral component of the CNS visual system
 - `connects-to` → **[Diabetic Retinopathy](../../07-system/diabetic-retinopathy/README.md)** — Diabetic retinopathy targets the retina: pericyte loss → microaneurysms → exudates → macular edema → neovascularization → vitreous hemorrhage → tractional retinal detachment; foveal photoreceptors are most critical for central vision and most vulnerable to DME-driven damage.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Factor H Y402H (SCR7; ~35% of Europeans) → reduced Bruch membrane heparan sulfate binding → local complement dysregulation → drusen accumulation → AMD; Y402H homozygotes have ~7× relative AMD risk; pegcetacoplan (C3 inhibitor) approved for geographic atrophy in AMD (FDA 2023).
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Rod and cone phototransduction converts photons to neural signals via 11-cis retinal isomerization in rhodopsin/cone opsins; cumulative UV-A crosslinks lens crystallins → nuclear cataract; PDT (verteporfin + 689 nm laser) treats choroidal neovascularization in AMD.
 
 ## Pathology
 

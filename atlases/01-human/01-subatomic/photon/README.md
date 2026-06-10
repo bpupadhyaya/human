@@ -28,6 +28,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: damages
     note: "Ionizing photons (γ-rays, X-rays) generate hydroxyl radicals via radiolysis that produce double-strand breaks in hepatocyte DNA, triggering apoptosis or — if misrepaired — neoplastic transformation. Liver parenchyma is radiosensitive, constraining radiotherapy doses."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Narrow-band UVB (311–313 nm) phototherapy induces apoptosis of T cells in psoriatic plaques, suppresses Th17/IL-17A axis, and upregulates regulatory T cells; NBUVB achieves PASI 75 in 50–70% of patients; first-line for extensive plaque psoriasis and safe in pregnancy."
+  - target: 01-human/07-system/melanoma
+    relation: damages
+    note: "UV-B photons cause cyclobutane pyrimidine dimers and C→T UV signature mutations in BRAF, NRAS, and TP53 in melanocytes; UV-A generates ROS → 8-oxoguanine; melanoma carries the highest UV mutational burden (~10 mutations/Mb) of all human cancers."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Photons drive rod and cone phototransduction; UV-A cumulatively crosslinks crystallin proteins → nuclear cataract; photodynamic therapy (PDT: verteporfin + 689 nm laser) treats subfoveal choroidal neovascularization in neovascular AMD."
 ---
 
 # Photon
@@ -124,9 +133,11 @@ At the long-wavelength end of the spectrum, visible photons (400–700 nm, E ≈
 
 ## Connections
 
-- **Modulates** → [Electron](../../01-subatomic/electron/README.md): Photon absorption promotes electrons to higher energy states (excitation) or ejects them entirely (ionization). UV photons cause electronic excitation of DNA base π-systems, leading to pyrimidine dimer formation. Ionizing photons eject electrons from water molecules, generating OH• radicals.
-
-- **Damages** → [Hepatocyte](../../04-cellular/hepatocyte/README.md): Ionizing photons (γ-rays, high-energy X-rays) produce DSBs in hepatocyte DNA through water radiolysis and direct ionization. Acute high-dose irradiation (e.g., accidental exposure >8 Gy whole-body) causes radiation hepatitis; in radiotherapy treatment planning, the mean liver dose is strictly limited to protect the regenerative capacity of the parenchyma.
+- `modulates` → **[Electron](../../01-subatomic/electron/README.md)** — Photon absorption promotes electrons to higher energy states (excitation) or ejects them entirely (ionization). UV photons cause electronic excitation of DNA base π-systems, leading to pyrimidine dimer formation; ionizing photons eject electrons from water, generating OH• radicals.
+- `damages` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Ionizing photons (γ-rays, X-rays) produce DSBs in hepatocyte DNA via water radiolysis; acute high-dose irradiation causes radiation hepatitis; mean liver dose is strictly constrained in radiotherapy treatment planning to preserve parenchymal regenerative capacity.
+- `connects-to` → **[Psoriasis](../../07-system/psoriasis/README.md)** — Narrow-band UVB (311–313 nm) phototherapy induces T-cell apoptosis in psoriatic plaques, suppresses the Th17/IL-17A axis, and upregulates regulatory T cells; NBUVB achieves PASI 75 in 50–70% of patients and is safe in pregnancy.
+- `damages` → **[Melanoma](../../07-system/melanoma/README.md)** — UV-B photons cause cyclobutane pyrimidine dimers and C→T UV signature mutations in BRAF, NRAS, and TP53 in melanocytes; UV-A generates ROS → 8-oxoguanine; melanoma carries the highest UV mutational burden (~10 mutations/Mb) of all human cancers.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Photons drive rod and cone phototransduction; UV-A cumulatively crosslinks lens crystallin proteins → nuclear cataract; photodynamic therapy (PDT: verteporfin + 689 nm laser) treats subfoveal choroidal neovascularization in neovascular AMD.
 
 ## Pathology
 
@@ -152,3 +163,5 @@ At the long-wavelength end of the spectrum, visible photons (400–700 nm, E ≈
 
 [^sancar-2004-dna-repair]: Sancar A, Lindsey-Boltz LA, Ünsal-Kaçmaz K, Linn S. Molecular mechanisms of mammalian DNA repair and the DNA damage checkpoints. *Annu Rev Biochem.* 2004;73:39-85. [doi:10.1146/annurev.biochem.73.011303.073723](https://doi.org/10.1146/annurev.biochem.73.011303.073723) · [PubMed 15189136](https://pubmed.ncbi.nlm.nih.gov/15189136/)
 [^lobrich-2007-g2m-checkpoint]: Löbrich M, Jeggo PA. The impact of a negligent G2/M checkpoint on genomic instability and cancer induction. *Nat Rev Cancer.* 2007;7(11):861-9. [doi:10.1038/nrc2248](https://doi.org/10.1038/nrc2248) · [PubMed 17943134](https://pubmed.ncbi.nlm.nih.gov/17943134/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

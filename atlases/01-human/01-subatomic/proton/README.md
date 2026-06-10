@@ -28,6 +28,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: modulates
     note: "The proton-motive force (pmf) across the inner mitochondrial membrane — built by Complexes I, III, IV — drives proton flow through the F₀ c-ring of ATP synthase, rotating the γ-stalk and cycling the three F₁ β-subunit conformations that synthesise ATP from ADP + Pᵢ."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Bohr effect: CO₂ → H⁺ → protonation of His146β stabilises deoxyHb T-state → rightward O₂ dissociation curve shift → O₂ release in acidic exercising tissues; each 0.1 pH unit decrease shifts P50 ~3 mmHg right, optimising O₂ delivery."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Parietal cell H⁺/K⁺-ATPase (proton pump) secretes H⁺ against a 10⁶-fold gradient (lumen pH ~1.5); activated by histamine H₂R and ACh M₃R; proton pump inhibitors (PPIs) bind irreversibly to Cys813/892, blocking acid secretion and treating GERD and peptic ulcer."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Osteoclast V-ATPase pumps protons into the resorption lacuna (pH ~4.5), dissolving bone hydroxyapatite; carbonic anhydrase II provides H⁺ from CO₂ + H₂O; loss-of-function mutations in V-ATPase a3 subunit (ATP6i) → osteopetrosis from impaired osteoclast proton pumping."
 ---
 
 # Proton
@@ -120,9 +129,11 @@ Proton accumulation (acidaemia, pH < 7.35) or depletion (alkalaemia, pH > 7.45) 
 
 ## Connections
 
-- **Part-of** → [Hydrogen](../../02-atomic/hydrogen/README.md): The proton is the sole nucleus of the hydrogen atom. Every free H⁺ in solution was once (and will again become) bound to an electron in a hydrogen atom or covalent bond.
-
-- **Modulates** → [ATP](../../03-molecular/atp/README.md): The proton gradient — built by the electron transport chain and quantified as the proton-motive force — drives F₀F₁-ATP synthase to phosphorylate ADP to ATP, producing ~28 mol ATP per mol glucose via oxidative phosphorylation.
+- `part-of` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — The proton is the sole nucleus of the hydrogen atom; every free H⁺ in solution was once bound to an electron in a hydrogen atom or covalent bond; proton transfer via the Grotthuss mechanism underpins rapid acid–base chemistry.
+- `modulates` → **[ATP](../../03-molecular/atp/README.md)** — The proton-motive force (pmf) — built by Complexes I, III, IV — drives F₀F₁-ATP synthase to phosphorylate ADP to ATP; ~28 mol ATP per mol glucose via oxidative phosphorylation; pmf disruption (uncouplers, Complex I mutations) abolishes ATP synthesis.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Bohr effect: CO₂ → H⁺ → protonation of His146β stabilises deoxyHb T-state → rightward O₂ dissociation curve shift → O₂ release in acidic exercising tissues; each 0.1 pH drop shifts P50 ~3 mmHg right, optimising O₂ delivery.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Parietal cell H⁺/K⁺-ATPase secretes H⁺ against a 10⁶-fold gradient (lumen pH ~1.5); activated by histamine H₂R and ACh M₃R; proton pump inhibitors (PPIs) bind irreversibly to Cys813/892, blocking acid secretion and treating GERD and peptic ulcer.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — V-ATPase pumps protons into the osteoclast resorption lacuna (pH ~4.5), dissolving bone hydroxyapatite; carbonic anhydrase II provides H⁺ from CO₂ + H₂O; ATP6i (a3 subunit) loss-of-function → osteopetrosis from impaired proton pumping.
 
 ## Pathology
 
@@ -147,3 +158,5 @@ Proton accumulation (acidaemia, pH < 7.35) or depletion (alkalaemia, pH > 7.45) 
 
 [^mitchell-1961-chemiosmosis]: Mitchell P. Coupling of phosphorylation to electron and hydrogen transfer by a chemi-osmotic type of mechanism. *Nature.* 1961;191:144-8. [doi:10.1038/191144a0](https://doi.org/10.1038/191144a0) · [PubMed 13771349](https://pubmed.ncbi.nlm.nih.gov/13771349/)
 [^boyer-1997-atp-synthase]: Boyer PD. The ATP synthase—a splendid molecular machine. *Annu Rev Biochem.* 1997;66:717-49. [doi:10.1146/annurev.biochem.66.1.717](https://doi.org/10.1146/annurev.biochem.66.1.717) · [PubMed 9242927](https://pubmed.ncbi.nlm.nih.gov/9242927/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
