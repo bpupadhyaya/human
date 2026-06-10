@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/flt3
     relation: connects-to
     note: "DNMT3A+NPM1+FLT3-ITD is the classic intermediate-risk AML triplet (~10% of AML); FLT3-ITD drives proliferation while DNMT3A R882H blocks differentiation; midostaurin+daunorubicin/cytarabine is standard induction; FLT3 inhibitor addition improves OS."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "DNMT3A R882H/C dominant-negative mutations in ~20% of AML block de novo methylation → focal hypomethylation → HSC stemness gene derepression; classic AML triplet DNMT3A+NPM1+FLT3-ITD (~10% of all AML); standard induction 7+3+midostaurin; allo-SCT for intermediate/adverse risk."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "DNMT3A mutations in ~15-20% of MDS; early epigenetic driver co-mutated with TET2, ASXL1, SF3B1; DTA mutations predict reduced response to HMA therapy in MDS; azacitidine/decitabine are standard MDS treatment; DNMT3A+RUNX1 co-mutation confers higher AML transformation risk."
+  - target: 01-human/03-molecular/tet2
+    relation: connects-to
+    note: "DNMT3A writes 5mC de novo methylation; TET2 oxidizes 5mC → 5hmC for demethylation; both are top CHIP genes and common AML/MDS mutations; DNMT3A+TET2 co-mutations cause convergent methylation dysregulation in MDS/CMML; TET2 loss also enhances DNMT3A-mutant HSC clonal advantage."
 ---
 
 # DNMT3A
@@ -124,6 +133,13 @@ Unlike IDH1/2 (ivosidenib/enasidenib) or FLT3 (midostaurin/gilteritinib), there 
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — DNMT3A and EZH2 both regulate epigenetic gene silencing; DNMT3A methylates CpG DNA while EZH2 (PRC2) writes H3K27me3; in AML and MDS, DNMT3A and EZH2 loss-of-function mutations co-occur, amplifying epigenetic deregulation and differentiation block.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — DNMT3A mutations co-exist with TP53 in ~10% of AML; TP53 loss accelerates clonal dominance of DNMT3A-mutant pre-leukemic HSCs; DNMT3A R882H AML with TP53 co-mutation has poor prognosis and inferior response to HMA therapy.
 - `connects-to` → **[FLT3](../../03-molecular/flt3/README.md)** — DNMT3A+NPM1+FLT3-ITD is the classic intermediate-risk AML triplet (~10% of AML); FLT3-ITD drives proliferation while DNMT3A R882H blocks differentiation; midostaurin+daunorubicin/cytarabine is standard induction; FLT3 inhibitor addition improves OS.
+- `connects-to` → **[AML](../../07-system/aml/README.md)** — DNMT3A R882H/C dominant-negative mutations in ~20% of AML block de novo methylation → HSC stemness gene derepression; classic triplet DNMT3A+NPM1+FLT3-ITD (~10% of all AML); standard induction 7+3+midostaurin; allo-SCT consolidates intermediate/adverse risk disease.
+- `connects-to` → **[MDS](../../07-system/mds/README.md)** — DNMT3A mutations in ~15-20% of MDS; early epigenetic driver co-mutated with TET2, ASXL1, SF3B1; DTA mutations predict reduced HMA response; azacitidine/decitabine are standard MDS treatment; DNMT3A+RUNX1 co-mutation confers higher AML transformation risk.
+- `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — DNMT3A writes 5mC de novo methylation; TET2 oxidizes 5mC → 5hmC for demethylation; both are top CHIP genes and common AML/MDS mutations; DNMT3A+TET2 co-mutations cause convergent methylation dysregulation in MDS/CMML; TET2 loss enhances DNMT3A-mutant HSC clonal advantage.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^ley-2010-dnmt3a-aml]: Ley TJ, Ding L, Walter MJ, et al. DNMT3A mutations in acute myeloid leukemia. *N Engl J Med.* 2010;363(25):2424-2433. [doi:10.1056/NEJMoa1005143](https://doi.org/10.1056/NEJMoa1005143) · [PubMed 21067377](https://pubmed.ncbi.nlm.nih.gov/21067377/)
 [^jaiswal-2014-chip]: Jaiswal S, Fontanillas P, Flannick J, et al. Age-related clonal hematopoiesis associated with adverse outcomes. *N Engl J Med.* 2014;371(26):2488-2498. [doi:10.1056/NEJMoa1408617](https://doi.org/10.1056/NEJMoa1408617) · [PubMed 25426837](https://pubmed.ncbi.nlm.nih.gov/25426837/)

@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/sstr2
     relation: connects-to
     note: "DLL3 overexpression marks high-grade neuroendocrine carcinomas (SCLC, Merkel cell, extrapulmonary NEC); SSTR2 marks well-differentiated NETs (carcinoids, pNET); DLL3 and SSTR2 are complementary biomarkers separating high-grade NEC from low-grade NET."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "DLL3 is overexpressed in >80% of SCLC; tarlatamab (DLL3×CD3 bispecific, FDA-approved May 2024) achieved ORR ~40% in relapsed/refractory SCLC (DeLLphi-301); SCLC-A (ASCL1-high) has highest DLL3 expression and best response; DLL3 IHC (>1% cutoff) identifies eligible patients."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Tarlatamab bridges DLL3+ SCLC cells and CD3+ CTLs → TCR-independent CTL activation → perforin/granzyme-mediated tumor cell killing; CRS (~50%, mostly G1-2) and ICANS are key tarlatamab irAEs requiring premedication with dexamethasone and 24-hour step-up dosing observation."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "DLL3 is primarily a marker and target of lung neuroendocrine carcinomas; SCLC is the prototypical DLL3+ tumor arising from pulmonary NE cells after RB1/TP53 loss; LCNEC is also DLL3+; DLL3 lung expression drives the pulmonary NEC phenotype — rapid doubling, early dissemination."
 ---
 
 # DLL3
@@ -124,6 +133,13 @@ Currently tarlatamab approval is not restricted by DLL3 IHC threshold (approval 
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB1 biallelic loss (>90% of SCLC) releases E2F transcription factors → ASCL1 expression → DLL3 transcription; DLL3 overexpression is a downstream consequence of the RB1/ASCL1 axis; DLL3 IHC positivity correlates with ASCL1-high SCLC subtype.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 biallelic mutation co-occurs with RB1 loss in >90% of SCLC → together enabling rapid proliferation and neuroendocrine differentiation (DLL3 overexpression); DLL3+ SCLC retains TP53 loss; platinum/etoposide sensitivity in SCLC is partly due to p53-null apoptotic priming.
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — DLL3 overexpression marks high-grade neuroendocrine carcinomas (SCLC, Merkel cell, extrapulmonary NEC); SSTR2 marks well-differentiated NETs (carcinoids, pNET); DLL3 and SSTR2 are complementary biomarkers separating high-grade NEC from low-grade NET.
+- `connects-to` → **[SCLC](../../07-system/sclc/README.md)** — DLL3 is overexpressed in >80% of SCLC; tarlatamab (DLL3×CD3 bispecific, FDA-approved May 2024) achieved ORR ~40% in relapsed/refractory SCLC; SCLC-A (ASCL1-high) has highest DLL3 expression and best tarlatamab response; DLL3 IHC identifies eligible patients.
+- `connects-to` → **[T Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — tarlatamab bridges DLL3+ SCLC cells and CD3+ CTLs → TCR-independent CTL activation → perforin/granzyme-mediated tumor killing; CRS (~50%, mostly G1-2) and ICANS are key tarlatamab irAEs requiring dexamethasone premedication and 24-hour step-up dosing observation.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — DLL3 marks lung neuroendocrine carcinomas arising from pulmonary NE cells; SCLC (>80% DLL3+) is the most aggressive primary lung malignancy; LCNEC is also DLL3+; DLL3 expression in lung-origin NEC drives the characteristic rapid doubling and early metastatic dissemination.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^rudin-2017-rovalpituzumab]: Rudin CM, Pietanza MC, Bauer TM, et al. Rovalpituzumab tesirine, a DLL3-targeted antibody-drug conjugate, in recurrent small-cell lung cancer: a first-in-human, first-in-class, open-label, phase 1 study. *Lancet Oncol.* 2017;18(1):42-51. [doi:10.1016/S1470-2045(16)30565-4](https://doi.org/10.1016/S1470-2045(16)30565-4) · [PubMed 27932068](https://pubmed.ncbi.nlm.nih.gov/27932068/)
 [^ahn-2023-tarlatamab]: Ahn MJ, Cho BC, Felip E, et al. Tarlatamab for patients with previously treated small-cell lung cancer. *N Engl J Med.* 2023;389(22):2063-2075. [doi:10.1056/NEJMoa2307980](https://doi.org/10.1056/NEJMoa2307980) · [PubMed 37870964](https://pubmed.ncbi.nlm.nih.gov/37870964/)
