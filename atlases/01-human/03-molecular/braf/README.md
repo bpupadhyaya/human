@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "BRAF-MEK-ERK activates STAT3 in melanoma → anti-apoptotic and pro-tumor transcription; STAT3 contributes to BRAF inhibitor resistance; combined BRAF+MEK inhibition suppresses STAT3 activation more effectively than single-agent BRAF inhibition alone."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "BRAF V600E in ~50-60% of cutaneous melanoma; dabrafenib+trametinib (COMBI-D: 5-year OS 34%) and vemurafenib+cobimetinib are approved; sequential BRAF+MEK → checkpoint immunotherapy sequences are studied; BRAF V600K responds better to trametinib than V600E alone."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "BRAF V600E in ~10% of CRC; right-sided, MSI-H, CIMP+ CRC; worst-prognosis CRC subgroup; BEACON CRC: encorafenib+cetuximab → OS 9.3 vs 5.9 months vs chemotherapy; encorafenib+binimetinib+cetuximab triplet improves ORR to 26%."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "BRAF+MEK inhibition + anti-PD-1 is an active combination in BRAF-mutant melanoma; IMspire150: atezolizumab+vemurafenib+cobimetinib improved PFS; BRAF+MEK inhibitors transiently increase TIL density and MHC-I expression → an immunogenic window for checkpoint blockade."
 ---
 
 # BRAF
@@ -147,6 +156,13 @@ Resistance to BRAF+MEK inhibition evolves through adaptive and genetic mechanism
 - `connects-to` → **[EGFR](../egfr/README.md)** — EGFR→RAS→BRAF→MEK is the canonical MAPK cascade; BRAF V600E CRC reactivates EGFR feedback under BRAF inhibition; BEACON CRC trial established cetuximab+encorafenib ± binimetinib as standard of care for BRAF V600E CRC.
 - `connects-to` → **[mTOR](../mtor/README.md)** — MEK-ERK and mTORC1 are parallel BRAF effectors in melanoma; resistance to BRAF+MEK inhibitors frequently restores mTOR via PI3K-AKT; triplet BRAF+MEK+mTOR inhibition reverses resistance in preclinical models.
 - `connects-to` → **[STAT3](../stat3/README.md)** — BRAF-MEK-ERK activates STAT3 in melanoma contributing to anti-apoptotic transcription and BRAF inhibitor resistance; combined BRAF+MEK inhibition more effectively suppresses STAT3 than BRAF inhibition alone.
+- `connects-to` → **[Melanoma](../../07-system/melanoma/README.md)** — BRAF V600E in ~50-60% of cutaneous melanoma; dabrafenib+trametinib (COMBI-D: 5-year OS 34%) and vemurafenib+cobimetinib are approved; sequential BRAF+MEK → checkpoint immunotherapy sequences are studied; BRAF V600K responds better to trametinib than V600E alone.
+- `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — BRAF V600E in ~10% of CRC; right-sided, MSI-H, CIMP+ CRC; worst-prognosis CRC subgroup; BEACON CRC: encorafenib+cetuximab → OS 9.3 vs 5.9 months vs chemotherapy; encorafenib+binimetinib+cetuximab triplet improves ORR to 26%.
+- `connects-to` → **[PD-1](../pd-1/README.md)** — BRAF+MEK inhibition + anti-PD-1 is an active combination in BRAF-mutant melanoma; IMspire150: atezolizumab+vemurafenib+cobimetinib improved PFS; BRAF+MEK inhibitors transiently increase TIL density and MHC-I → an immunogenic window for checkpoint blockade.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^davies-2002-braf-mutation]: Davies H, Bignell GR, Cox C, et al. Mutations of the BRAF gene in human cancer. *Nature.* 2002;417(6892):949-954. [doi:10.1038/nature00766](https://doi.org/10.1038/nature00766) · [PubMed 12068308](https://pubmed.ncbi.nlm.nih.gov/12068308/)
 [^chapman-2011-vemurafenib]: Chapman PB, Hauschild A, Robert C, et al. Improved survival with vemurafenib in melanoma with BRAF V600E mutation. *N Engl J Med.* 2011;364(26):2507-2516. [doi:10.1056/NEJMoa1103782](https://doi.org/10.1056/NEJMoa1103782) · [PubMed 21639808](https://pubmed.ncbi.nlm.nih.gov/21639808/)

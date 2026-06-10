@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "ANP/BNP directly suppress aldosterone secretion from adrenal zona glomerulosa and reduce renin release → counteract RAAS-driven sodium retention in HF; MRA and ARNI act on complementary pathways to reduce cardiorenal fluid overload."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Ventricular myocytes are the dominant BNP source; wall stress → NPPB gene transcription via NFAT/AP-1 → proBNP → furin/corin cleavage → BNP-32 + NT-proBNP; BNP feeds back to reduce wall stress via natriuresis, vasodilation, and anti-fibrotic effects."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "BNP opposes hypertension via NPR-A → cGMP → PKG → VSM relaxation + natriuresis; chronic hypertension → LV hypertrophy → elevated BNP; ARNI (sacubitril-valsartan) reduces systolic BP ~5-6 mmHg and is effective for hypertension management in HFrEF patients."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Cardiomyocytes are the dominant source and autocrine target of BNP; wall stress → NPPB transcription; BNP → cGMP → PKG → anti-hypertrophic (NFAT) and anti-fibrotic effects in cardiomyocytes; cardiac-specific NPR-A knockout mice develop LV hypertrophy and fibrosis."
 sources:
   - id: maisel-2002-bnp-diagnosis
     type: peer-reviewed
@@ -126,13 +135,17 @@ Neprilysin (NEP; gene *MME*, chromosome 3q25.2) is a **zinc metallopeptidase** o
 
 ## Connections
 
-BNP is released by ventricular myocytes under wall stress → NPR-A → cGMP → natriuresis and vasodilation; BNP/NT-proBNP diagnose and prognosticate HF; sacubitril (neprilysin inhibitor in ARNI) raises ANP/BNP → PARADIGM-HF: 20% RRR vs. ACE-I in HFrEF.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — BNP is released by ventricular myocytes under wall stress → NPR-A → cGMP → natriuresis and vasodilation; BNP/NT-proBNP diagnose and prognosticate HF; sacubitril (neprilysin inhibitor in ARNI) raises ANP/BNP → PARADIGM-HF: 20% RRR vs. ACE-I in HFrEF.
+- `connects-to` → **[Nitric Oxide](../nitric-oxide/README.md)** — BNP binds NPR-A (particulate guanylyl cyclase) → cGMP → PKG → vasodilation, converging with eNOS-derived NO/cGMP; both pathways relax vascular smooth muscle; neprilysin inhibition raises BNP, amplifying the shared cGMP pool in the vasculature.
+- `connects-to` → **[CKD](../../07-system/ckd/README.md)** — NT-proBNP is renally cleared → elevated in CKD regardless of HF; BNP is less GFR-dependent; elevated natriuretic peptides in CKD reflect cardiorenal syndrome; age-adjusted NT-proBNP thresholds (>900 pg/mL for HF) apply in impaired renal function.
+- `connects-to` → **[Aldosterone](../aldosterone/README.md)** — ANP/BNP directly suppress aldosterone secretion from adrenal zona glomerulosa and reduce renin release → counteract RAAS-driven sodium retention in HF; MRA and ARNI act on complementary pathways to reduce cardiorenal fluid overload.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Ventricular myocytes are the dominant BNP source; wall stress → NPPB gene transcription via NFAT/AP-1 → proBNP → furin/corin cleavage → BNP-32 + NT-proBNP; BNP feeds back to reduce wall stress via natriuresis, vasodilation, and anti-fibrotic effects.
+- `connects-to` → **[Hypertension](../../07-system/hypertension/README.md)** — BNP opposes hypertension via NPR-A → cGMP → PKG → VSM relaxation + natriuresis; chronic hypertension → LV hypertrophy → elevated BNP; ARNI (sacubitril-valsartan) reduces systolic BP ~5-6 mmHg and is effective for hypertension management in HFrEF patients.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Cardiomyocytes are the dominant source and autocrine target of BNP; wall stress → NPPB transcription; BNP → cGMP → PKG → anti-hypertrophic (NFAT) and anti-fibrotic effects; cardiac-specific NPR-A knockout mice develop LV hypertrophy and fibrosis.
 
-BNP binds NPR-A (particulate guanylyl cyclase) → cGMP → PKG → vasodilation, converging with eNOS-derived NO/cGMP; both pathways relax vascular smooth muscle; neprilysin inhibition raises BNP, amplifying the shared cGMP pool in the vasculature.
+---
 
-NT-proBNP is renally cleared → elevated in CKD regardless of HF; BNP is less GFR-dependent; elevated natriuretic peptides in CKD reflect cardiorenal syndrome; age-adjusted NT-proBNP thresholds (>900 pg/mL for HF) apply in impaired renal function.
-
-ANP/BNP directly suppress aldosterone secretion from adrenal zona glomerulosa and reduce renin release → counteract RAAS-driven sodium retention in HF; MRA and ARNI act on complementary pathways to reduce cardiorenal fluid overload.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^maisel-2002-bnp-diagnosis]: Maisel AS, Krishnaswamy P, Nowak RM, et al. Rapid measurement of B-type natriuretic peptide in the emergency diagnosis of heart failure. *N Engl J Med.* 2002;347(3):161-167. [doi:10.1056/NEJMoa020233](https://doi.org/10.1056/NEJMoa020233) · [PubMed 12124404](https://pubmed.ncbi.nlm.nih.gov/12124404/)
 [^mcmurray-2014-paradigm-hf]: McMurray JJV, Packer M, Desai AS, et al. Angiotensin-neprilysin inhibition versus enalapril in heart failure. *N Engl J Med.* 2014;371(11):993-1004. [doi:10.1056/NEJMoa1409077](https://doi.org/10.1056/NEJMoa1409077) · [PubMed 25176015](https://pubmed.ncbi.nlm.nih.gov/25176015/)
