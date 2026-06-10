@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Autophagy and HR are co-regulated in the DNA damage response; in BRCA1/2-mutant tumors, autophagy inhibition combined with PARP inhibition shows synergistic lethality — autophagy sustains tumor viability under HR-deficiency-induced replication stress."
+  - target: 01-human/03-molecular/brca2
+    relation: connects-to
+    note: "BRCA2 BRC repeats engage RAD51 monomers and deliver RAD51 to RPA-coated ssDNA at DSBs → presynaptic filament for strand invasion; BRCA2 OB-folds stabilize the ssDNA interface; BRCA2-null cells lack RAD51 foci → HR deficiency → PARP inhibitor synthetic lethality."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "RAD51 overexpression (via TP53 loss) in breast cancer drives resistance to cisplatin and PARP inhibitors; BRCA1/2 mutations impair RAD51 loading → HR deficiency → PARP inhibitor synthetic lethality; RAD51 foci assay predicts olaparib sensitivity in clinical trials."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "HBOC is driven by BRCA1/2 mutations impairing RAD51-mediated HR; RAD51C and RAD51D mutations also cause HBOC; HR-deficient tumors show absent RAD51 foci → olaparib/niraparib synthetic lethality; RAD51 foci assay defines HRD status beyond BRCA mutation testing."
 ---
 
 # RAD51
@@ -144,7 +153,13 @@ The RAD51-catalyzed strand exchange reaction is a multi-step process:
 - `connects-to` → **[BRCA1](../brca1/README.md)** — BRCA1 promotes DNA end resection and recruits PALB2 → BRCA2 → RAD51; BRCA1-mutant cells fail to form RAD51 foci at DSBs → defective HR → genome instability and PARP inhibitor sensitivity.
 - `connects-to` → **[p53](../p53/README.md)** — p53 represses RAD51 transcription; p53 loss → elevated RAD51 → enhanced HR → genome plasticity; paradoxically, RAD51 overexpression in p53-null cancers promotes aberrant HR contributing to chromosomal rearrangements.
 - `connects-to` → **[Autophagy](../autophagy/README.md)** — autophagy and HR share regulation in the DNA damage response; in BRCA1/2-mutant tumors, autophagy inhibition combined with PARP inhibition shows synergistic lethality, suggesting autophagy sustains viability under HR-deficiency-induced stress.
+- `connects-to` → **[BRCA2](../brca2/README.md)** — BRCA2 BRC repeats engage RAD51 monomers and deliver RAD51 to RPA-coated ssDNA at resected DSBs; RAD51 displaces RPA to form the presynaptic filament for strand invasion; BRCA2-null cells lack RAD51 foci → HR deficiency → PARP inhibitor synthetic lethality.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — RAD51 overexpression (via TP53 loss) drives resistance to cisplatin and PARP inhibitors; BRCA1/2 mutations impair RAD51 loading → HR deficiency → PARP inhibitor synthetic lethality; RAD51 foci assay predicts olaparib sensitivity in clinical trials.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../../07-system/hereditary-breast-ovarian-cancer/README.md)** — HBOC is driven by BRCA1/2 mutations impairing RAD51-mediated HR; RAD51C and RAD51D mutations also cause HBOC; HR-deficient tumors show absent RAD51 foci → olaparib/niraparib synthetic lethality.
 
 [^baumann-1996-rad51]: Baumann P, Benson FE, West SC. Human Rad51 protein promotes ATP-dependent homologous pairing and strand transfer reactions in vitro. *Cell.* 1996;87(4):757-766. [doi:10.1016/S0092-8674(00)81394-X](https://doi.org/10.1016/S0092-8674(00)81394-X) · [PubMed 8929543](https://pubmed.ncbi.nlm.nih.gov/8929543/)
 [^pellegrini-2002-brca2-rad51]: Pellegrini L, Yu DS, Lo T, et al. Insights into DNA recombination from the structure of a RAD51-BRCA2 complex. *Nature.* 2002;420(6913):287-293. [doi:10.1038/nature01230](https://doi.org/10.1038/nature01230) · [PubMed 12442171](https://pubmed.ncbi.nlm.nih.gov/12442171/)
 [^mason-2019-rad51-inhibitor]: Mason JM, Chan YL, Weichselbaum RW, Bishop DK. Non-enzymatic roles of human RAD51 at stalled replication forks. *Nat Commun.* 2019;10(1):4410. [doi:10.1038/s41467-019-12297-0](https://doi.org/10.1038/s41467-019-12297-0) · [PubMed 31562337](https://pubmed.ncbi.nlm.nih.gov/31562337/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

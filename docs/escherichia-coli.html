@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Escherichia coli — Atlas Two Pathogen entry. ETEC/EPEC/EHEC pathotypes, Shiga toxin HUS, UPEC UTI, LPS TLR4, ESBL/carbapenemase resistance. Part of the Human Engineering project.">
-  <meta property="og:title" content="Escherichia coli — Human Engineering Pathogen Atlas">
-  <meta property="og:description" content="E. coli: six intestinal pathotypes, Shiga toxin ribosome inactivation, UPEC IBC biofilm, LPS endotoxin, ESBL/CRE resistance. Leading cause of UTI, HUS, and Gram-negative bacteraemia.">
+  <meta name="description" content="Gram-negative rod; dominant facultative anaerobe of the human colon. Commensal in health; pathotypes (EPEC, ETEC, EHEC O157:H7, ExPEC) cause gastroenteritis, UT">
+  <meta property="og:title" content="Escherichia coli — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Escherichia coli — Human Engineering</title>
   <style>
@@ -14,84 +13,83 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #92400e;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(146,64,14,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 22ch; }
-    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
-    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 1.75rem 2rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
-    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
-    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
-    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
-    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
-    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
-    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
-    .mech-item.danger { border-left-color: #dc2626; }
-    .mech-item.immune { border-left-color: var(--ai); }
-    .mech-item.latent { border-left-color: var(--accent); }
-    .mech-item.drug   { border-left-color: var(--bio); }
-    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
-    .path-table td:first-child { font-weight: 600; color: var(--fg); }
-    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
-    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
-    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
-    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
-    .conn-pill.infects .rel { color: var(--ai); }
-    .conn-pill.damages .rel { color: #dc2626; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-    .refs li a:hover { color: var(--human); }
-    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
-    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
-    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
-    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
-    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
-    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
-    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
-    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -102,223 +100,100 @@
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="index.html" class="brand">
-      <span class="brand-mark" aria-hidden="true"></span>
-      Human Engineering
-    </a>
-    <div class="nav-links">
-      <a href="index.html#mission">Mission</a>
-      <a href="index.html#scales">Scales</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 02-bacteria</div>
+    <h1>Escherichia coli</h1>
+    <p class="tagline">Gram-negative rod; dominant facultative anaerobe of the human colon. Commensal in health; pathotypes (EPEC, ETEC, EHEC O157:H7, ExPEC) cause gastroenteritis, UTI, neonatal meningitis, and Shiga-toxin HUS. Leading cause of healthcare-associated UTI and Gram-negative bacteraemia.</p>
+    <p class="aliases">Also known as: E. coli, coliform, ETEC, EPEC, EHEC, STEC, ExPEC, UPEC</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">02-bacteria</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
+        <div class="entry-eyebrow">escherichia-coli</div>
+        <h2>Escherichia coli</h2>
+        <p class="summary">Gram-negative rod; dominant facultative anaerobe of the human colon. Commensal in health; pathotypes (EPEC, ETEC, EHEC O157:H7, ExPEC) cause gastroenteritis, UTI, neonatal meningitis, and Shiga-toxin HUS. Leading cause of healthcare-associated UTI and Gram-negative bacteraemia.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>escherichia-coli</td></tr>
+            <tr><td>Name</td><td>Escherichia coli</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Class</td><td>02-bacteria</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="digestive-system.html" title="E. coli colonises the large intestine as the dominant facultative anaerobe in health. Pathogenic strains (EPEC, ETEC, EHEC, EIEC) cause gastroenteritis via distinct virulence mechanisms: ETEC secretes heat-labile (LT) and heat-stable (ST) enterotoxins; EPEC and EHEC use type III secretion to inject effectors into enterocytes; EIEC invades colonic epithelial cells like Shigella."><span class="rel">infects</span>Digestive System</a>
+            <a class="conn-pill damaged" href="liver.html" title="E. coli bacteraemia via portal or systemic routes seeds hepatic abscesses. In cirrhosis patients, E. coli is the most common cause of spontaneous bacterial peritonitis (SBP) — bacterial translocation from gut to peritoneal cavity — and subsequent hepatorenal syndrome. LPS (endotoxin) activates hepatic Kupffer cells and drives hepatic inflammation."><span class="rel">damages</span>Liver</a>
+            <a class="conn-pill damaged" href="hepatocyte.html" title="LPS (lipopolysaccharide/endotoxin) from E. coli outer membrane binds TLR4 on hepatic Kupffer cells, triggering TNF-α and IL-1β release. These cytokines induce hepatocyte apoptosis via TRAIL-R/caspase-8 and TNFR1/caspase pathways. In septic shock, this cascade contributes to acute liver injury and elevated transaminases seen in Gram-negative sepsis."><span class="rel">damages</span>Hepatocyte</a>
+            <a class="conn-pill" href="intestinal-epithelium.html" title="EPEC/EHEC T3SS injects Tir, Map, EspF into enterocytes → attaching-effacing lesions; EspF disrupts tight junctions → barrier loss; EIEC invades colonic epithelium like Shigella; UPEC invades urothelial umbrella cells forming IBCs → recurrent UTI."><span class="rel">infects</span>Intestinal Epithelium</a>
+            <a class="conn-pill damaged" href="kidney.html" title="UPEC ascends ureters via P fimbriae → pyelonephritis; EHEC Shiga toxin (Stx2) attacks Gb3-rich glomerular endothelium → endothelial lysis → platelet microthrombi → HUS triad (MAHA+thrombocytopenia+AKI); HUS causes AKI in 5-15% EHEC infections; 25% long-term CKD."><span class="rel">damages</span>Kidney</a>
+            <a class="conn-pill" href="neutrophil.html" title="E. coli LPS (TLR4) and flagellin (TLR5/NLRC4) trigger IL-8 → neutrophil recruitment; UPEC reduces flagellin expression to evade neutrophil detection; UPEC IBCs resist neutrophil killing; EHEC Stx causes neutropenia in HUS via bone marrow suppression."><span class="rel">connects-to</span>Neutrophil</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1038/nrmicro818" target="_blank" rel="noopener noreferrer">Kaper JB, Nataro JP, Mobley HL. Pathogenic Escherichia coli. Nat Rev Microbiol. 2004;2(2):123-40.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15040260/" target="_blank" rel="noopener noreferrer">PubMed 15040260</a></li>
+            <li><a href="https://doi.org/10.1038/nrmicro2265" target="_blank" rel="noopener noreferrer">Croxen MA, Finlay BB. Molecular mechanisms of Escherichia coli pathogenicity. Nat Rev Microbiol. 2010;8(1):26-38.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19966814/" target="_blank" rel="noopener noreferrer">PubMed 19966814</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="index.html#join">Join</a>
-      <a href="pathogens.html" class="nav-back">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-        Pathogens
-      </a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-  </div>
-</nav>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-<div class="hero">
-  <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Bacteria</div>
-  <h1><em>Escherichia coli</em></h1>
-  <p class="tagline">Model organism and lethal pathogen in the same species. Six intestinal pathotypes, extraintestinal ExPEC, the archetypal TLR4 endotoxin, and the world's dominant ESBL reservoir — E. coli is the leading cause of UTI, HUS, and Gram-negative bacteraemia.</p>
-  <p class="subtagline">Gram-negative facultative anaerobic rod; dominant facultative anaerobe of the human colon (~10&#8312; CFU/g). A pan-genome exceeding 90,000 genes enables both lifelong commensal existence and catastrophic multi-organ disease. Pathogenic strains acquired virulence islands (LEE, PAI I&ndash;V), enterotoxin genes, and type III/IV/V secretion systems on mobile elements. EHEC O157:H7 Shiga toxin cleaves 28S rRNA to destroy glomerular endothelium; UPEC invades bladder cells to form antibiotic-sheltered intracellular biofilm communities; ESBL- and carbapenemase-producing strains are WHO critical-priority pathogens.</p>
-  <div class="stat-row">
-    <div class="stat"><span class="stat-num">150M</span><span class="stat-label">UTIs / year globally (UPEC)</span></div>
-    <div class="stat"><span class="stat-num">80–85%</span><span class="stat-label">Community UTI caused by E. coli</span></div>
-    <div class="stat"><span class="stat-num">5–15%</span><span class="stat-label">EHEC cases progressing to HUS</span></div>
-    <div class="stat"><span class="stat-num">&gt;90K</span><span class="stat-label">Pan-genome gene count</span></div>
-    <div class="stat"><span class="stat-num">20–30%</span><span class="stat-label">Gram-negative bacteraemia CFR</span></div>
-  </div>
-</div>
-
-<main>
-
-  <div class="detail-card" id="e-coli">
-    <div class="detail-header" style="background: linear-gradient(135deg, #92400e, #78350f);">
-      <div class="entry-eyebrow">Enterobacterales &middot; Gram-negative facultative anaerobic rod &middot; ~4.6 Mb genome &middot; &gt;700 O-antigen serogroups</div>
-      <h3><em>Escherichia coli</em></h3>
-      <p class="summary">Gram-negative facultative anaerobic rod; dominant commensal coliform and globally critical pathogen. Six intestinal pathotypes use distinct virulence strategies: ETEC secretes heat-labile (LT) and heat-stable (ST) enterotoxins; EPEC/EHEC inject type III effectors via the LEE-encoded T3SS; EHEC additionally produces Shiga toxin (Stx1/Stx2), a ribosome-inactivating toxin that binds Gb3 receptors and cleaves 28S rRNA to destroy glomerular endothelium, causing haemolytic uraemic syndrome (HUS) in 5–15% of infected children; EIEC invades colonic cells like <em>Shigella</em>. ExPEC (extraintestinal pathogenic <em>E. coli</em>) causes 80–85% of community UTIs (UPEC) — via FimH-uroplakin binding, intracellular bacterial community formation, and siderophore-mediated iron acquisition — neonatal meningitis (K1 capsule strains), and Gram-negative bacteraemia. LPS lipid A is the archetypal TLR4 agonist and endotoxin; CTX-M ESBLs and NDM/KPC carbapenemases make drug-resistant <em>E. coli</em> a leading global AMR threat.</p>
-    </div>
-
-    <div class="detail-body">
-
-      <div class="detail-section">
-        <h4>Classification &amp; Structure</h4>
-        <table class="detail-table">
-          <tr><td>Gram stain</td><td>Gram-negative; thin peptidoglycan in periplasm; outer membrane with LPS on outer leaflet; &beta;-barrel porins (OmpA, OmpC, OmpF) permit hydrophilic antibiotic entry — also site of &beta;-lactamase action (CTX-M ESBL, KPC in periplasm)</td></tr>
-          <tr><td>Morphology</td><td>Straight rods, 1.0–2.0 &micro;m &times; 0.4–0.7 &micro;m; peritrichous flagella (H antigen); type 1 fimbriae (FimH) and P fimbriae (PapG) for adhesion; O-antigen capsule (K antigen) in invasive strains; LPS O-antigen (serotype determinant)</td></tr>
-          <tr><td>Motility</td><td>Peritrichous flagella (H antigens H1, H7, etc.); motile in liquid media; UPEC downregulates flagellin expression during bladder colonisation (phase variation — immune evasion of TLR5)</td></tr>
-          <tr><td>Toxins</td><td>LT (heat-labile enterotoxin; ADP-ribosylates Gs&alpha; &rarr; ↑cAMP &rarr; Cl&sup3; secretion; ETEC); ST (heat-stable toxin; activates guanylate cyclase &rarr; ↑cGMP; ETEC); Stx1/Stx2 (Shiga toxin; ribosome-inactivating N-glycosidase; EHEC; phage-encoded)</td></tr>
-          <tr><td>Spores</td><td>None. <em>E. coli</em> does not form spores. Resistance to environmental stress is mediated by biofilm formation (intracellular bacterial communities in bladder) and plasmid-encoded resistance genes.</td></tr>
-        </table>
-      </div>
-
-      <div class="detail-section">
-        <h4>Pathogenesis</h4>
-        <div class="mech-list">
-          <div class="mech-item danger">
-            <h5>1 &middot; ETEC enterotoxins — secretory diarrhoea</h5>
-            <p>Enterotoxigenic <em>E. coli</em> (ETEC) colonises the small intestine via colonisation factor antigens (CFA/CS fimbriae) and secretes LT and/or ST. <strong>LT</strong> (structurally and mechanistically homologous to cholera toxin) ADP-ribosylates the G&alpha;s subunit of adenylyl cyclase &rarr; constitutive ↑cAMP &rarr; CFTR-mediated Cl&sup3; secretion without Na&sup3; co-absorption &rarr; massive secretory watery diarrhoea. <strong>ST</strong> activates guanylyl cyclase C (GC-C) on enterocytes &rarr; ↑cGMP &rarr; PKG-II &rarr; CFTR activation and NHE3 inhibition. Together: the leading cause of traveller's diarrhoea (80% of cases) and a major killer of children in developing countries.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>2 &middot; EHEC T3SS and Shiga toxin — haemolytic uraemic syndrome</h5>
-            <p>Enterohaemorrhagic <em>E. coli</em> (EHEC O157:H7) uses the LEE-encoded type III secretion system (T3SS) to inject Tir, Map, EspF, and other effectors into enterocytes. Tir inserts into the host membrane as the receptor for intimin (bacterial outer membrane adhesin) &rarr; attaching and effacing (A/E) lesion with F-actin pedestals. Shiga toxin 2 (Stx2; more potent than Stx1 for HUS) is released from the gut and enters the bloodstream, where its B-subunit pentamer binds <strong>Gb3 (globotriaosylceramide)</strong> on glomerular endothelium (high Gb3 expression), brain neurons, and renal tubular cells. A-subunit N-glycosidase cleaves adenine from 28S rRNA of the 60S ribosomal subunit &rarr; irreversible ribosome inactivation &rarr; cell death &rarr; microangiopathic haemolytic anaemia + thrombocytopenia + acute renal failure = HUS triad (5–15% of EHEC infections; more common in children &lt;5 years).</p>
-          </div>
-          <div class="mech-item latent">
-            <h5>3 &middot; UPEC intracellular bacterial communities — recurrent UTI</h5>
-            <p>Uropathogenic <em>E. coli</em> (UPEC) ascends the urethra, attaches to bladder urothelium via <strong>FimH</strong> (type 1 fimbrial tip adhesin) binding mannosylated uroplakin receptors (UPIa/Ib) on umbrella cells, and invades the umbrella cell cytoplasm. Inside the cytoplasm, UPEC forms <strong>intracellular bacterial communities (IBCs)</strong> — densely packed biofilm-like structures of 10&#178;&ndash;10&#8308; bacteria protected from antibiotics and neutrophil killing. IBCs can persist as quiescent intracellular reservoirs (QIRs) for months after clinical resolution, explaining the 25–50% recurrence rate of UTI. P fimbriae (PapG adhesin; binds Gal&alpha;1-4Gal glycolipids on uroepithelium) mediate ascent to the renal pelvis in pyelonephritis.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>4 &middot; LPS endotoxin — TLR4 activation and septic shock</h5>
-            <p><em>E. coli</em> lipopolysaccharide (LPS) is the archetypal TLR4 agonist. <strong>Lipid A</strong> (the membrane-anchored moiety) is transferred by LBP (LPS-binding protein) to CD14, then presented to the TLR4/MD-2 heterodimer. Downstream signalling via MyD88 &rarr; NF-&kappa;B (TNF-&alpha;, IL-1&beta;, IL-6, IL-8) and TRIF &rarr; IRF3 (IFN-&beta;). At physiological concentrations: beneficial local inflammation and neutrophil recruitment. At pathological concentrations (Gram-negative bacteraemia, especially with antibiotic lysis): cytokine storm &rarr; systemic endothelial injury &rarr; distributive shock, DIC, multi-organ failure. Kupffer cells in the liver activate via TLR4 &rarr; TNF-&alpha; / IL-1&beta; &rarr; hepatocyte apoptosis via TNFR1/caspase-8 (contributing to acute liver injury and elevated transaminases in Gram-negative sepsis).</p>
-          </div>
-          <div class="mech-item immune">
-            <h5>5 &middot; UPEC immune evasion — phase variation and K1 capsule</h5>
-            <p>UPEC employs multiple immune evasion strategies: (i) Type 1 fimbriae undergo <strong>phase variation</strong> (fim switch inversion) &mdash; downregulated during intracellular IBC phase to reduce TLR4/flagellin sensing; (ii) <strong>K capsule polysaccharides</strong> impair complement deposition (C3b) and opsonophagocytosis &mdash; K1 polysialic acid mimics human neural cell adhesion molecule (NCAM), reducing anti-K1 antibody cross-reactivity; (iii) <strong>Siderophores</strong> (aerobactin, enterobactin, salmochelin, yersiniabactin) scavenge iron from the iron-limited urinary/blood environment, an essential virulence determinant; (iv) <strong>Serum resistance</strong> via TraT (outer membrane protein inhibiting C5b-9 MAC assembly) and O-antigen length reducing complement access to the membrane.</p>
-          </div>
-          <div class="mech-item drug">
-            <h5>6 &middot; ESBL / CRE resistance — the AMR crisis</h5>
-            <p><em>E. coli</em> is the dominant global vehicle for CTX-M extended-spectrum &beta;-lactamases (ESBLs) — plasmid-encoded enzymes hydrolysing all penicillins and 3rd-generation cephalosporins. CTX-M-15 is now present in 15–30% of community <em>E. coli</em> UTI isolates in many countries. KPC and NDM carbapenemases (also plasmid-encoded) hydrolyse carbapenems, leaving only colistin, fosfomycin, tigecycline, and novel combinations (ceftazidime-avibactam, meropenem-vaborbactam) active. MCR-1 plasmid colistin resistance, combined with NDM carbapenemase, creates near-pandrug-resistant strains. Fluoroquinolone resistance (gyrA/parC mutations + qnr plasmid genes) is now common globally, limiting empirical UTI treatment.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="detail-section">
-        <h4>Host Immune Response</h4>
-        <div class="immune-tags">
-          <span class="itag innate">LPS lipid A &rarr; TLR4/MD-2 &rarr; NF-&kappa;B &rarr; TNF-&alpha;, IL-1&beta;, IL-6, IL-8</span>
-          <span class="itag innate">Flagellin &rarr; TLR5 + NLRC4/NAIP (cytoplasmic) &rarr; IL-8 neutrophil recruitment</span>
-          <span class="itag innate">Peptidoglycan &rarr; NOD1 (iE-DAP) &rarr; NF-&kappa;B &rarr; antimicrobial peptides</span>
-          <span class="itag innate">Complement activation (alternative pathway; O-antigen and K capsule limit this)</span>
-          <span class="itag innate">Neutrophil pyuria — UPEC UTI signature; IL-8 driven</span>
-          <span class="itag adaptive">Anti-FimH and anti-O-antigen IgG (partial protection in UTI; vaccine targets)</span>
-          <span class="itag adaptive">Secretory IgA in gut (commensalism; tolerogenic)</span>
-          <span class="itag depleted">K1 capsular polysialic acid — molecular mimicry of NCAM &rarr; reduced antibody cross-reactivity (neonatal meningitis)</span>
-          <span class="itag depleted">UPEC IBC biofilm — sheltered from antibiotics and neutrophil oxidative burst</span>
-        </div>
-      </div>
-
-      <div class="detail-section">
-        <h4>Disease Spectrum</h4>
-        <table class="path-table">
-          <tr><th>Presentation</th><th>Severity</th><th>At-Risk Groups</th><th>Mortality</th></tr>
-          <tr>
-            <td>Uncomplicated UTI (UPEC)</td>
-            <td>Dysuria, frequency, suprapubic pain; pyuria; nitrite-positive dipstick; &gt;10&#8309; CFU/mL E. coli in midstream urine</td>
-            <td>Women (50&times; higher incidence than men due to short urethra); sexually active; post-menopausal (↓oestrogen &rarr; ↓vaginal Lactobacillus)</td>
-            <td>Excellent; 3–7 d nitrofurantoin or TMP-SMX</td>
-          </tr>
-          <tr>
-            <td>Pyelonephritis (UPEC)</td>
-            <td>Fever, rigors, loin pain, CVA tenderness; bacteraemia in 20–30%; urosepsis in elderly</td>
-            <td>Women; urinary tract abnormalities; diabetes; pregnancy; elderly</td>
-            <td>1–5%</td>
-          </tr>
-          <tr>
-            <td>Traveller's diarrhoea (ETEC)</td>
-            <td>Watery diarrhoea; 12–72h post-exposure; self-limited 3–5 days; dehydration risk in infants and elderly</td>
-            <td>Travellers to developing countries; infants in low-income settings</td>
-            <td>&lt;1% (adults); higher in malnourished infants</td>
-          </tr>
-          <tr>
-            <td>Haemorrhagic colitis (EHEC O157:H7)</td>
-            <td>Watery diarrhoea &rarr; bloody (haemorrhagic) colitis; severe cramping; low-grade fever or afebrile; onset 3–4 days post-ingestion; onset from undercooked beef, spinach, sprouts</td>
-            <td>Children &lt;5 years; elderly; immunocompromised</td>
-            <td>&lt;1% (uncomplicated); 3–5% if HUS develops</td>
-          </tr>
-          <tr>
-            <td>HUS (Shiga toxin)</td>
-            <td>Microangiopathic haemolytic anaemia + thrombocytopenia + acute kidney injury (HUS triad); 7–10 days post-diarrhoea onset; requires renal replacement therapy in 50–70% of HUS cases; neurological complications (seizures, stroke) in 25%</td>
-            <td>Children &lt;5 years (highest HUS conversion rate); elderly</td>
-            <td>3–5% acute; 25% long-term CKD</td>
-          </tr>
-          <tr>
-            <td>Neonatal meningitis (NMEC K1)</td>
-            <td>Fever, bulging fontanelle, seizures; CSF &gt;1,000 WBC; E. coli K1 PCR/culture; devastating neuroinflammation</td>
-            <td>Neonates (first 28 days); premature infants; GBS-negative mothers (E. coli ranks 2nd)</td>
-            <td>15–40% acute; &gt;30% neurological sequelae</td>
-          </tr>
-          <tr>
-            <td>Gram-negative bacteraemia / septic shock</td>
-            <td>Fever or hypothermia; tachycardia; hypotension; positive blood cultures; source: urinary/biliary/GI/lung; ESBL/CRE strains dramatically narrow treatment options</td>
-            <td>Elderly; immunocompromised; hospital-acquired; cirrhosis (SBP)</td>
-            <td>20–30% (sensitive); 40–60% (CRE strains)</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="detail-section">
-        <h4>Treatment &amp; Prophylaxis</h4>
-        <table class="detail-table">
-          <tr><td>Uncomplicated UTI (sensitive)</td><td>Nitrofurantoin 100 mg MR twice daily &times; 5 days (bladder-only infections; not pyelonephritis); trimethoprim-sulfamethoxazole (TMP-SMX) DS twice daily &times; 3 days (if local resistance &lt;20%); pivmecillinam 400 mg twice daily &times; 5 days (Europe; excellent bladder UTI activity); fosfomycin 3 g sachet single dose.</td></tr>
-          <tr><td>Pyelonephritis (sensitive)</td><td>Oral ciprofloxacin 500 mg twice daily &times; 7 days or TMP-SMX DS twice daily &times; 14 days; severe/ESBL: IV ertapenem or meropenem until sensitivities available; IV ceftriaxone as empirical option if local ESBL prevalence &lt;15%.</td></tr>
-          <tr><td>ESBL-producing E. coli</td><td>Ertapenem (IV/IM) for serious infections; meropenem for critically ill; fosfomycin or pivmecillinam for uncomplicated lower UTI only; carbapenems are gold standard for systemic ESBL infections; avoid cephalosporins (hydrolysed by CTX-M).</td></tr>
-          <tr><td>Carbapenem-resistant E. coli (CRE/NDM)</td><td>Ceftazidime-avibactam (KPC, OXA-48); meropenem-vaborbactam (KPC); aztreonam-avibactam (MBL/NDM; only combination active against NDM); cefiderocol (siderophore cephalosporin); combination therapy for extensively resistant strains; infectious disease specialist consultation essential.</td></tr>
-          <tr><td>EHEC (no antibiotics)</td><td>Antibiotics are <strong>contraindicated</strong> in confirmed EHEC haemorrhagic colitis — they trigger Stx2 phage induction &rarr; ↑Shiga toxin release &rarr; ↑HUS risk (meta-analysis); supportive care: IV fluids, avoid NSAIDs/anti-motility agents; renal replacement if AKI develops; eculizumab (anti-C5) used in severe HUS cases at specialist centres.</td></tr>
-          <tr><td>Vaccine (in development)</td><td>No FDA-approved <em>E. coli</em> vaccine for human use. FimH vaccine (anti-type 1 fimbria tip adhesin) in Phase II trials for UPEC recurrent UTI prevention; ETEC vaccines (LT/CS-based) in development for traveller's diarrhoea; Stx-based HUS vaccine candidates in preclinical development.</td></tr>
-        </table>
-      </div>
-
-      <div class="detail-section">
-        <h4>Connections</h4>
-        <div class="connections">
-          <a class="conn-pill infects" href="digestive-system.html"><span class="rel">Infects</span>Digestive system — ETEC/EPEC/EHEC/EIEC intestinal pathotypes</a>
-          <a class="conn-pill damages" href="kidney.html"><span class="rel">Damages</span>Kidney — Stx2 glomerular endothelium (HUS), UPEC pyelonephritis</a>
-          <a class="conn-pill damages" href="liver.html"><span class="rel">Damages</span>Liver — SBP, LPS-driven Kupffer cell activation</a>
-          <a class="conn-pill damages" href="hepatocyte.html"><span class="rel">Damages</span>Hepatocyte — TLR4 TNF-&alpha;/IL-1&beta; &rarr; TNFR1/caspase-8 apoptosis</a>
-          <a class="conn-pill targets" href="immune-system.html"><span class="rel">Targets</span>Immune system — TLR4 endotoxin, K1 capsule immune evasion</a>
-        </div>
-      </div>
-
-      <div class="detail-section">
-        <h4>References</h4>
-        <ul class="refs">
-          <li>Kaper JB, Nataro JP, Mobley HL. Pathogenic <em>Escherichia coli</em>. <em>Nat Rev Microbiol.</em> 2004;2(2):123-40. <a href="https://doi.org/10.1038/nrmicro818" target="_blank" rel="noopener">doi:10.1038/nrmicro818</a> &middot; PubMed 15040260</li>
-          <li>Croxen MA, Finlay BB. Molecular mechanisms of <em>Escherichia coli</em> pathogenicity. <em>Nat Rev Microbiol.</em> 2010;8(1):26-38. <a href="https://doi.org/10.1038/nrmicro2265" target="_blank" rel="noopener">doi:10.1038/nrmicro2265</a> &middot; PubMed 19966814</li>
-          <li>Foxman B. Urinary tract infection syndromes: occurrence, recurrence, bacteriology, risk factors, and disease burden. <em>Infect Dis Clin North Am.</em> 2014;28(1):1-13. <a href="https://doi.org/10.1016/j.idc.2013.09.003" target="_blank" rel="noopener">doi:10.1016/j.idc.2013.09.003</a> &middot; PubMed 24484571</li>
-          <li>Tarr PI, Gordon CA, Chandler WL. Shiga-toxin-producing <em>Escherichia coli</em> and haemolytic uraemic syndrome. <em>Lancet.</em> 2005;365(9464):1073-86. <a href="https://doi.org/10.1016/S0140-6736(05)71144-2" target="_blank" rel="noopener">doi:10.1016/S0140-6736(05)71144-2</a> &middot; PubMed 15781103</li>
-          <li>WHO. Global Antimicrobial Resistance and Use Surveillance System (GLASS) Report 2022. <a href="https://www.who.int/publications/i/item/9789240062702" target="_blank" rel="noopener">who.int</a></li>
-        </ul>
-      </div>
-
-    </div>
-  </div><!-- /.detail-card -->
-
-  <div class="contribute">
-    <h2>Contribute to the Pathogen Atlas</h2>
-    <p>This entry covers the major <em>E. coli</em> pathotypes, Shiga toxin biology, UPEC intracellular communities, and AMR. Planned expansions include ETEC vaccine pipeline, structural biology of FimH–uroplakin interaction, and ESBL epidemiology by region. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
-    <div class="btn-row">
-      <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
-        Contribute on GitHub
-      </a>
-      <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=E.%20coli%20Atlas%20entry">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        Get in touch
-      </a>
-    </div>
-  </div>
-
-</main>
-
-<footer>
-  <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
-  <div class="footer-links">
-    <a href="index.html">Home</a>
-    <a href="index.html#mission">Mission</a>
-    <a href="pathogens.html">Pathogens</a>
-    <a href="medicine.html">Medicine</a>
-    <a href="index.html#join">Join</a>
-    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
-  </div>
-  <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-</footer>
-
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

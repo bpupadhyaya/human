@@ -31,6 +31,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: damages
     note: "LPS (lipopolysaccharide/endotoxin) from E. coli outer membrane binds TLR4 on hepatic Kupffer cells, triggering TNF-α and IL-1β release. These cytokines induce hepatocyte apoptosis via TRAIL-R/caspase-8 and TNFR1/caspase pathways. In septic shock, this cascade contributes to acute liver injury and elevated transaminases seen in Gram-negative sepsis."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: infects
+    note: "EPEC/EHEC T3SS injects Tir, Map, EspF into enterocytes → attaching-effacing lesions; EspF disrupts tight junctions → barrier loss; EIEC invades colonic epithelium like Shigella; UPEC invades urothelial umbrella cells forming IBCs → recurrent UTI."
+  - target: 01-human/06-organ/kidney
+    relation: damages
+    note: "UPEC ascends ureters via P fimbriae → pyelonephritis; EHEC Shiga toxin (Stx2) attacks Gb3-rich glomerular endothelium → endothelial lysis → platelet microthrombi → HUS triad (MAHA+thrombocytopenia+AKI); HUS causes AKI in 5-15% EHEC infections; 25% long-term CKD."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "E. coli LPS (TLR4) and flagellin (TLR5/NLRC4) trigger IL-8 → neutrophil recruitment; UPEC reduces flagellin expression to evade neutrophil detection; UPEC IBCs resist neutrophil killing; EHEC Stx causes neutropenia in HUS via bone marrow suppression."
 ---
 
 # Escherichia coli
@@ -154,6 +163,12 @@ Shiga toxin (Stx1/Stx2) mechanism in HUS:
 
 **Damages** → [Hepatocyte](../../../01-human/04-cellular/hepatocyte/README.md): LPS from *E. coli* triggers TLR4-mediated TNF-α and IL-1β production by hepatic Kupffer cells. These cytokines induce hepatocyte apoptosis via TNFR1/caspase-8 and TRAIL-R pathways. This hepatocellular injury is a major contributor to the elevated liver enzymes observed in Gram-negative sepsis and to the progressive liver failure in severe septic shock.
 
+**Infects** → [Intestinal Epithelium](../../../01-human/05-tissue/intestinal-epithelium/README.md): EPEC/EHEC use a T3SS to inject effectors (Tir, Map, EspF) into enterocytes, creating attaching-effacing lesions and disrupting tight junctions. EIEC invades the colonic epithelium like Shigella. UPEC invades urothelial umbrella cells to form intracellular bacterial communities (IBCs) protected from antibiotics.
+
+**Damages** → [Kidney](../../../01-human/06-organ/kidney/README.md): UPEC ascends the urinary tract via P fimbriae to cause pyelonephritis, triggering TLR4/TLR11-mediated renal inflammation. EHEC Shiga toxin (Stx2) targets Gb3-rich glomerular endothelial cells → endothelial lysis → microthrombi → haemolytic uraemic syndrome (HUS triad: MAHA + thrombocytopenia + AKI) in 5–15% of EHEC infections.
+
+**Connects to** → [Neutrophil](../../../01-human/04-cellular/neutrophil/README.md): *E. coli* LPS (TLR4) and flagellin (TLR5/NLRC4) drive IL-8-mediated neutrophil recruitment. UPEC downregulates flagellin expression during bladder colonisation to evade detection, and IBCs resist neutrophil killing. EHEC Shiga toxin causes paradoxical neutropenia in HUS by suppressing bone marrow progenitors.
+
 ## Pathology
 
 ### Disease Spectrum
@@ -183,3 +198,6 @@ Shiga toxin (Stx1/Stx2) mechanism in HUS:
 
 [^kaper-2004-pathogenic-ecoli]: Kaper JB, Nataro JP, Mobley HL. Pathogenic *Escherichia coli*. *Nat Rev Microbiol.* 2004;2(2):123-40. [doi:10.1038/nrmicro818](https://doi.org/10.1038/nrmicro818) · [PubMed 15040260](https://pubmed.ncbi.nlm.nih.gov/15040260/)
 [^croxen-2010-ecoli-pathogenicity]: Croxen MA, Finlay BB. Molecular mechanisms of *Escherichia coli* pathogenicity. *Nat Rev Microbiol.* 2010;8(1):26-38. [doi:10.1038/nrmicro2265](https://doi.org/10.1038/nrmicro2265) · [PubMed 19966814](https://pubmed.ncbi.nlm.nih.gov/19966814/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
