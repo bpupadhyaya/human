@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "BLM LOF in Bloom syndrome confers elevated colorectal cancer risk due to crossover-mediated LOH at APC and other CRC tumor suppressor loci; GI carcinomas are among the most common malignancies in adult Bloom syndrome patients; colonoscopy surveillance from early adulthood."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "BLM acts as both pro- and anti-recombinase for RAD51; BLM-DNA2 promotes DSB end resection → RPA → RAD51 loading (pro); BLM also displaces RAD51 from ssDNA to inhibit crossover (anti); the BLM-RAD51 balance determines HR fidelity and crossover frequency in S/G2."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "ATM phosphorylates BLM at Ser646 after DSBs → recruits BLM to γH2AX foci; BLM promotes long-range end resection with DNA2; ATM-BLM axis enables HR in G2; BLM LOF + ionizing radiation → catastrophic chromosomal breakage; BS patients are highly radiosensitive."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "BLM interacts with MLH1 (MMR) via its N-terminal region; BLM-MLH1 cooperation suppresses microsatellite instability; BLM unwinds heteroduplex DNA during MMR; some BS GI cancers show MSI-H — dual HR + MMR defect may contribute to extreme GI carcinoma risk."
 ---
 
 # BLM
@@ -149,6 +158,13 @@ cross_links:
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BLM and BRCA1 form a complex at stalled replication forks to suppress aberrant homologous recombination and resolve Holliday junctions; both BLM LOF and BRCA1 LOF result in chromosomal instability and pan-cancer predisposition via distinct but overlapping HR defects.
 - `connects-to` → **[WRN](../../03-molecular/wrn/README.md)** — BLM and WRN are both RecQ helicases: BLM resolves double Holliday junctions to suppress crossover (SCE elevated ~10x in BLM LOF); WRN has exonuclease activity and maintains telomeres; BLM LOF → childhood-onset pan-cancer; WRN LOF → adult progeroid syndrome.
 - `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — BLM LOF in Bloom syndrome confers elevated colorectal cancer risk due to crossover-mediated LOH at APC and other CRC tumor suppressor loci; GI carcinomas are among the most common malignancies in adult Bloom syndrome patients; colonoscopy surveillance from early adulthood.
+- `connects-to` → **[RAD51](../rad51/README.md)** — BLM acts as both pro- and anti-recombinase for RAD51; BLM-DNA2 promotes DSB end resection → RPA → RAD51 loading; BLM also displaces RAD51 from ssDNA to inhibit crossover; the BLM-RAD51 balance determines HR fidelity and crossover frequency in S/G2.
+- `connects-to` → **[ATM](../atm/README.md)** — ATM phosphorylates BLM at Ser646 after DSBs → recruits BLM to γH2AX foci; BLM promotes long-range end resection with DNA2; ATM-BLM axis enables HR in G2; BLM LOF + ionizing radiation → catastrophic chromosomal breakage; BS patients are highly radiosensitive.
+- `connects-to` → **[MLH1](../mlh1/README.md)** — BLM interacts with MLH1 (MMR) via its N-terminal region; BLM-MLH1 cooperation suppresses microsatellite instability; BLM unwinds heteroduplex DNA during MMR; some BS GI cancers show MSI-H — dual HR + MMR defect may contribute to extreme GI carcinoma risk.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^ellis-1995-blm-cloning]: Ellis NA, Groden J, Ye TZ, et al. The Bloom's syndrome gene product is homologous to RecQ helicases. *Cell.* 1995;83(4):655-666. [doi:10.1016/0092-8674(95)90105-1](https://doi.org/10.1016/0092-8674(95)90105-1) · [PubMed 7585968](https://pubmed.ncbi.nlm.nih.gov/7585968/)
 [^german-1997-bloom-cancer]: German J. Bloom's syndrome. XX. The first 100 cancers. *Cancer.* 1997;71(12):4016-4023. [doi:10.1002/1097-0142(19930615)71:12<4016::AID-CNCR18>3.0.CO;2-E](https://doi.org/10.1002/1097-0142(19930615)71:12<4016::AID-CNCR18>3.0.CO;2-E) · [PubMed 9216035](https://pubmed.ncbi.nlm.nih.gov/9216035/)

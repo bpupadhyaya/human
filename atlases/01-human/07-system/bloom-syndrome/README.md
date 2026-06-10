@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "BLM LOF in Bloom syndrome confers elevated colorectal cancer risk due to crossover-mediated LOH at APC and other CRC tumor suppressor loci; GI carcinomas are among the most common malignancies in adult Bloom syndrome patients; colonoscopy surveillance from early adulthood."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Burkitt lymphoma and NHL are among the most common lymphoid malignancies in Bloom syndrome; crossover-mediated LOH at 8q24 (MYC) contributes; BS patients have ~50-100× elevated lymphoma risk; chemotherapy hypersensitivity in BS requires dose reduction in treatment."
+  - target: 01-human/03-molecular/apc
+    relation: connects-to
+    note: "APC heterozygosity is vulnerable to crossover-mediated LOH in BLM-deficient cells → biallelic APC LOF without a second mutation → colorectal adenoma; GI carcinomas dominate the adult BS cancer spectrum; colonoscopy surveillance from age 15 is a management cornerstone."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "BLM interacts with MLH1 (MMR) via its N-terminal region; BLM-MLH1 cooperation suppresses microsatellite instability; BLM unwinds heteroduplex DNA during MMR; some BS GI cancers show MSI-H — dual HR + MMR defect may contribute to extreme GI carcinoma risk."
 ---
 
 # Bloom Syndrome
@@ -177,6 +186,13 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BLM and BRCA1 form a complex at stalled replication forks to suppress aberrant homologous recombination and resolve Holliday junctions; both BLM LOF and BRCA1 LOF result in chromosomal instability and pan-cancer predisposition via distinct but overlapping HR defects.
 - `connects-to` → **[WRN](../../03-molecular/wrn/README.md)** — BLM and WRN are both RecQ helicases: BLM resolves double Holliday junctions to suppress crossover (SCE elevated ~10x in BLM LOF); WRN has exonuclease activity and maintains telomeres; BLM LOF → childhood-onset pan-cancer; WRN LOF → adult progeroid syndrome.
 - `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — BLM LOF in Bloom syndrome confers elevated colorectal cancer risk due to crossover-mediated LOH at APC and other CRC tumor suppressor loci; GI carcinomas are among the most common malignancies in adult Bloom syndrome patients; colonoscopy surveillance from early adulthood.
+- `connects-to` → **[Burkitt Lymphoma](../../07-system/burkitt-lymphoma/README.md)** — Burkitt lymphoma and NHL are among the most common lymphoid malignancies in Bloom syndrome; crossover-mediated LOH at 8q24 (MYC) contributes; BS patients have ~50-100× elevated lymphoma risk; chemotherapy hypersensitivity in BS requires dose reduction.
+- `connects-to` → **[APC](../../03-molecular/apc/README.md)** — APC heterozygosity is vulnerable to crossover-mediated LOH in BLM-deficient cells → biallelic APC LOF without a second mutation → colorectal adenoma initiation; GI carcinomas dominate the adult BS cancer spectrum; colonoscopy from age 15 is a management cornerstone.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — BLM interacts with MLH1 (MMR); BLM-MLH1 cooperation suppresses microsatellite instability; BLM unwinds heteroduplex DNA during MMR; some BS GI cancers show MSI-H — dual HR + MMR defect may contribute to extreme GI carcinoma risk.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^ellis-1995-blm-cloning]: Ellis NA, Groden J, Ye TZ, et al. The Bloom's syndrome gene product is homologous to RecQ helicases. *Cell.* 1995;83(4):655-666. [doi:10.1016/0092-8674(95)90105-1](https://doi.org/10.1016/0092-8674(95)90105-1) · [PubMed 7585968](https://pubmed.ncbi.nlm.nih.gov/7585968/)
 [^german-1997-bloom-cancer]: German J. Bloom's syndrome. XX. The first 100 cancers. *Cancer.* 1997;71(12):4016-4023. [doi:10.1002/1097-0142(19930615)71:12<4016::AID-CNCR18>3.0.CO;2-E](https://doi.org/10.1002/1097-0142(19930615)71:12<4016::AID-CNCR18>3.0.CO;2-E) · [PubMed 9216035](https://pubmed.ncbi.nlm.nih.gov/9216035/)
