@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CoronaVac — Sinovac whole-inactivated SARS-CoV-2 vaccine. Alum-adjuvanted, 2–8°C stable. Chile real-world 86% VE death. WHO EUL June 2021. Human Engineering project.">
-  <meta property="og:title" content="CoronaVac — Vaccine Atlas · Human Engineering">
+  <meta name="description" content="Whole inactivated SARS-CoV-2 vaccine (CZ02 strain, Vero-cell propagated, BPL-inactivated, alum-adjuvanted) by Sinovac Biotech. 2-dose IM schedule. WHO EUL June ">
+  <meta property="og:title" content="CoronaVac — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>CoronaVac — Vaccine Atlas · Human Engineering</title>
+  <title>CoronaVac — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0369a1;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,59 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #075985); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
-    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
-    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
-    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-    .trial-result { font-weight: 700; color: var(--bio); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -118,200 +119,70 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Four &middot; Vaccine &middot; Inactivated</div>
+    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 04 — Inactivated</div>
     <h1>CoronaVac</h1>
-    <p class="tagline">Sinovac whole-inactivated SARS-CoV-2 vaccine — alum-adjuvanted, refrigerator-stable, and the single largest production run of any COVID-19 vaccine in history.</p>
-    <p class="subtagline">BPL-inactivated CZ02 strain &middot; Vero cell propagated &middot; 2–8°C cold chain &middot; WHO EUL June 1, 2021 &middot; 2.3+ billion doses produced</p>
+    <p class="tagline">Whole inactivated SARS-CoV-2 vaccine (CZ02 strain, Vero-cell propagated, BPL-inactivated, alum-adjuvanted) by Sinovac Biotech. 2-dose IM schedule. WHO EUL June 2021. Pivotal role in COVAX and LMICs; 65.9% VE hospitalization, 86.3% VE death in Chile real-world (Jara 2021 NEJM).</p>
+    
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">86%</span><span class="stat-label">VE Death (Chile)</span></div>
-      <div class="stat"><span class="stat-num">83.5%</span><span class="stat-label">VE Symptomatic (Turkey)</span></div>
-      <div class="stat"><span class="stat-num">2–8°C</span><span class="stat-label">Cold Chain</span></div>
-      <div class="stat"><span class="stat-num">2.3B+</span><span class="stat-label">Doses Produced</span></div>
+        <div class="stat"><span class="stat-num">04 — Inactivated</span><span class="stat-label">Platform</span></div>
+        <div class="stat"><span class="stat-num">intramuscular</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">2–8°C (refrigerator stable)</span><span class="stat-label">Cold Chain</span></div>
+        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Vaccine Atlas &middot; Inactivated &middot; Whole Virion</div>
-        <h2>CoronaVac</h2>
-        <div class="drug-class">Platform: Whole inactivated virus (BPL-inactivated, alum-adjuvanted) &nbsp;|&nbsp; Route: Intramuscular &nbsp;|&nbsp; Developer: Sinovac Biotech, Beijing</div>
-        <p class="summary">Whole SARS-CoV-2 virion (CZ02 strain, Vero-cell propagated, beta-propiolactone inactivated) adsorbed to aluminum hydroxide adjuvant. Broadest antigen repertoire of any COVID-19 vaccine: spike + nucleocapsid + M + E proteins all present. 2–8°C cold chain decisive for global deployment. Chile national cohort (Jara 2021, NEJM): 65.9% VE symptomatic, 86.3% VE death. Over 2.3 billion doses produced — the largest single production run in COVID-19 vaccine history.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">CoronaVac</span>
-          <span class="alias-pill">Sinovac COVID-19 vaccine</span>
-          <span class="alias-pill">PiCoVacc</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
+        <div class="entry-eyebrow">coronavac</div>
+        <h2>CoronaVac</h2>
+        <p class="summary">Whole inactivated SARS-CoV-2 vaccine (CZ02 strain, Vero-cell propagated, BPL-inactivated, alum-adjuvanted) by Sinovac Biotech. 2-dose IM schedule. WHO EUL June 2021. Pivotal role in COVAX and LMICs; 65.9% VE hospitalization, 86.3% VE death in Chile real-world (Jara 2021 NEJM).</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>CoronaVac was developed by <strong>Sinovac Biotech</strong> (Beijing, China) using whole-virion inactivation — the same fundamental technology as the Salk inactivated poliovirus vaccine (1955), inactivated influenza vaccines, and hepatitis A vaccines. It presents the immune system with an <strong>entire inactivated SARS-CoV-2 virion</strong>, giving it the broadest antigen repertoire of any COVID-19 vaccine deployed at scale: spike, nucleocapsid (N), membrane (M), and envelope (E) proteins are all present and immunogenic.</p>
-          <p>Sinovac produced over <strong>2.3 billion doses</strong> — the single largest production run of any COVID-19 vaccine globally. It was central to Brazil's early 2021 vaccination campaign (Butantan Institute manufacturing partnership), Turkey's Phase 3 trial (83.5% VE), and Chile's national programme — the subject of the landmark Jara et al. <em>NEJM</em> 2021 real-world effectiveness study. WHO Emergency Use Listing was granted on <strong>June 1, 2021</strong>, enabling COVAX procurement for countries without ultra-cold chain infrastructure.</p>
-          <p>CoronaVac's vaccine-efficacy estimates varied significantly across Phase 3 trials — from 50.7% in Brazil (during a Gamma [P.1] surge in healthcare workers) to 83.5% in Turkey — differences attributable to variant composition, schedule (0-and-14 vs. 0-and-28 day), and occupational exposure intensity. Chile's nationally representative real-world data provide the most robust effectiveness estimates: a steep gradient from symptomatic VE (~66%) to death VE (~86%) mirrors the pattern seen with all COVID-19 vaccines, illustrating that even moderate efficacy against symptomatic infection can translate to strong protection against severe outcomes.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Platform &amp; Antigen Design</h3>
-          <h4>Whole-Virion BPL Inactivation</h4>
-          <div class="pathway-block">
-<pre>
-  SARS-CoV-2 CZ02 clinical isolate
-        │
-        ▼
-  Vero cell propagation (high-titer batch production)
-        │
-        ▼
-  Beta-propiolactone (BPL) inactivation
-    - BPL alkylates viral RNA → abolishes replication capacity
-    - Surface glycoproteins (spike, M, E) largely intact
-    - Internal nucleocapsid protein (N) preserved
-    - Antigen repertoire: S + N + M + E (broadest of any COVID-19 vaccine)
-        │
-        ▼
-  Ultrafiltration + sucrose density gradient purification
-        │
-        ▼
-  Adsorption to aluminum hydroxide (alum) adjuvant
-    - Depot at injection site: slow antigen release
-    - NLRP3 inflammasome activation → IL-1β, IL-18
-    - Th2-skewed humoral response (IgG1/IgE in animal models)
-    - Germinal center B-cell activation → anti-spike IgG
-        │
-        ▼
-  IM injection → antigen uptake by DCs at injection site
-        ├─ MHC II: viral peptides → CD4⁺ T helper priming (Th2/Tfh)
-        ├─ MHC I: nucleocapsid + other internal protein peptides (cross-presentation)
-        └─ Anti-spike + anti-N IgG production; seroconversion 92–100%
-</pre>
-          </div>
-          <ol class="step-list" style="margin-top:1rem;">
-            <li><strong>Broad antigen coverage:</strong> Whole-virion vaccine presents spike, nucleocapsid (N), M, and E — N is highly conserved across SARS-CoV-2 variants and elicits T-cell responses potentially cross-protective against emerging variants.</li>
-            <li><strong>Alum depot mechanism:</strong> Aluminum hydroxide forms a slow-release depot at the injection site, extending antigen exposure for APCs and skewing the response toward Th2-mediated humoral immunity (strong IgG, weaker cellular arm).</li>
-            <li><strong>NLRP3 activation:</strong> Alum activates the NLRP3 inflammasome, producing IL-1&beta; and IL-18 — innate cytokines that augment DC maturation and provide the danger signal for adaptive priming.</li>
-            <li><strong>Standard cold chain:</strong> 2–8°C — fully compatible with existing routine vaccine infrastructure worldwide, operationally decisive for deployment in Brazil, Indonesia, Turkey, and much of the developing world.</li>
-            <li><strong>No novel platform risk:</strong> Inactivated vaccines have a century-long safety record; no VITT risk (no adenovirus vector), no myocarditis signal (no mRNA/LNP), no disseminated infection risk (no live organism).</li>
-          </ol>
-        </div>
-
-        <div class="detail-section">
-          <h3>Immunogenicity</h3>
-          <div class="pleiotropic-grid">
-            <div class="pleio-item">
-              <h4>Humoral Response</h4>
-              <p>Seroconversion 92–100% after 2-dose series; neutralizing antibody titers ~2–4&times; lower than mRNA vaccines but consistently achieved. Anti-spike and anti-N IgG; IgG1 and IgG3 subclasses. Titers fall rapidly by 6 months — most pronounced Omicron-era decline of any platform.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>CD4⁺ / CD8⁺ T-Cell Response</h4>
-              <p>Antigen-specific CD4&sup+ and CD8&sup+ T cells induced; magnitude lower than replication-competent platforms. N-protein T-cell responses are a theoretical cross-variant advantage (N is more conserved than spike). Th2-skewed by alum adjuvant environment.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Innate Activation</h4>
-              <p>Alum activates NLRP3 inflammasome (IL-1&beta;, IL-18) at injection site. Inactivated viral PAMPs (spike, N protein fragments) activate TLR4 and other PRRs. Milder innate activation than live or mRNA vaccines — consistent with lower reactogenicity profile.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Duration / Durability</h4>
-              <p>Most rapid waning of any COVID-19 platform against Omicron; neutralizing titers below detection in majority of 2-dose recipients by 6 months without booster. Heterologous mRNA booster (BNT162b2 or mRNA-1273) after 2&times; CoronaVac primary substantially restores and broadens titers — widely adopted in Chile, Thailand, Hong Kong, Brazil.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Clinical Efficacy</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Trial / Study</th><th>Design</th><th>n</th><th>Primary Endpoint</th><th>VE%</th></tr>
-            <tr>
-              <td><strong>Phase 3 Turkey — Tanriover 2021 (Lancet)</strong></td>
-              <td>Phase 3 RCT, healthcare workers, 0-and-14 day schedule</td>
-              <td>~10,000</td>
-              <td>Symptomatic COVID-19 (ancestral/Alpha dominant)</td>
-              <td class="trial-result">83.5% (95% CI 65.4–92.1%)</td>
-            </tr>
-            <tr>
-              <td><strong>Phase 3 Brazil/Butantan — 0-and-28 day</strong></td>
-              <td>Phase 3 RCT, healthcare workers, Gamma P.1 surge</td>
-              <td>~12,000</td>
-              <td>All-severity symptomatic COVID-19 including mild</td>
-              <td class="trial-result">50.7% all-severity; ~78–83% moderate/severe disease</td>
-            </tr>
-            <tr>
-              <td><strong>Chile National Cohort — Jara 2021 (NEJM)</strong></td>
-              <td>National health records, 10.2M vaccinees</td>
-              <td>10.2M</td>
-              <td>Symptomatic COVID-19, hospitalization, ICU, death</td>
-              <td class="trial-result">65.9% symptomatic; 87.5% hospitalization; 90.3% ICU; 86.3% death</td>
-            </tr>
-            <tr>
-              <td><strong>Phase 1/2 China — Zhang 2021 (JAMA)</strong></td>
-              <td>Phase 1/2 dose-finding, healthy adults 18–59</td>
-              <td>~600</td>
-              <td>Safety, immunogenicity (0/14 vs. 0/28 day)</td>
-              <td class="trial-result">Seroconversion 92–100%; acceptable safety; 0/28 day schedule superior immunogenicity</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>coronavac</td></tr>
+            <tr><td>Name</td><td>CoronaVac</td></tr>
+            <tr><td>Status</td><td>active</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Platform</td><td>04 — Inactivated</td></tr>
+            <tr><td>Delivery system</td><td>aluminum hydroxide adjuvanted inactivated virus</td></tr>
+            <tr><td>Adjuvants</td><td>aluminum hydroxide</td></tr>
+            <tr><td>Route</td><td>intramuscular</td></tr>
+            <tr><td>Dose schedule</td><td>2 doses, 0 and 14 days (or 0 and 28 days)</td></tr>
+            <tr><td>Manufacturer</td><td>Sinovac Biotech (China)</td></tr>
+            <tr><td>Cold chain</td><td>2–8°C (refrigerator stable)</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Safety Profile</h3>
-          <ul class="se-list">
-            <li><span class="badge badge-lo">Common</span> <strong>Injection-site pain, erythema, induration</strong> — 30–40% of vaccinees; lower frequency than mRNA vaccines. Mild and self-limiting within 1–3 days. Dose 2 reactogenicity similar to dose 1 (unlike mRNA vaccines where dose 2 is markedly more reactive).</li>
-            <li><span class="badge badge-lo">Common</span> <strong>Systemic reactions — fatigue, headache, mild fever</strong> — ~10–15%; generally milder than mRNA vaccines. No grade 3 systemic reactogenicity distinction at this frequency.</li>
-            <li><span class="badge badge-lo">Not observed</span> <strong>No VITT</strong> — no adenovirus vector component. No myocarditis signal identified in large post-authorization surveillance datasets from Brazil (~100M doses) or Chile (~20M doses).</li>
-            <li><span class="badge badge-lo">Not observed</span> <strong>No vaccine-enhanced disease signal</strong> — pre-pandemic SARS-CoV-1 animal model concerns for alum-adjuvanted inactivated coronavirus vaccines were not replicated in Phase 3 or real-world clinical data.</li>
-            <li><span class="badge badge-lo">Special populations</span> <strong>Immunocompromised:</strong> Safe to administer (no live pathogen); reduced immunogenicity expected; additional doses recommended. <strong>Pregnancy:</strong> WHO recommends as acceptable option during pregnancy; favorable inactivated vaccine safety precedent applies.</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Administration</h3>
-          <table class="data-table">
-            <tr><th>Parameter</th><th>Details</th></tr>
-            <tr><td>Dose / Schedule</td><td>2 doses IM; 0 and 14 days (healthcare worker schedule, Turkey/China); or 0 and 28 days (Brazil/other programs); 0.5 mL per dose</td></tr>
-            <tr><td>Route</td><td>Intramuscular (deltoid); not IV or SC</td></tr>
-            <tr><td>Storage</td><td>2–8°C; no ultra-cold required; compatible with routine vaccine cold chain globally</td></tr>
-            <tr><td>Booster strategy</td><td>Heterologous mRNA booster (BNT162b2 or mRNA-1273) widely implemented in Chile, Thailand, Hong Kong, Brazil; produces substantially higher neutralizing titers than homologous CoronaVac boost</td></tr>
-            <tr><td>Contraindications</td><td>Prior anaphylaxis to CoronaVac or any component; severe acute illness (delay until recovery)</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="pathogens.html" class="conn-pill targets">
-              <span class="rel">Immunizes vs.</span>
-              SARS-CoV-2
-            </a>
-            <a href="immune-system.html" class="conn-pill">
-              <span class="rel">Elicits</span>
-              Immune System
-            </a>
-            <a href="b-cell.html" class="conn-pill">
-              <span class="rel">Elicits</span>
-              B Cell (anti-spike IgG)
-            </a>
-            <a href="mrna-1273.html" class="conn-pill acts">
-              <span class="rel">Platform Contrast</span>
-              mRNA-1273
-            </a>
-            <a href="azd1222.html" class="conn-pill acts">
-              <span class="rel">Compare</span>
-              AZD1222
-            </a>
-            <a href="rabies-vaccine.html" class="conn-pill acts">
-              <span class="rel">Same Platform</span>
-              Rabies Vaccine (Inactivated)
-            </a>
+            <a class="conn-pill" href="sars-cov-2.html" title="Chile real-world: 65.9% VE hospitalization, 87.5% VE ICU, 86.3% VE death (2-dose, mid-2021 population)."><span class="rel">immunizes-against</span>Sars Cov 2</a>
+            <a class="conn-pill" href="immune-system.html" title="Whole-virion inactivated antigen drives broad humoral and cellular immune response via Th2-skewed alum adjuvant environment."><span class="rel">elicits</span>Immune System</a>
+            <a class="conn-pill" href="immunoglobulin-g.html" title="Seroconversion ~92–100% after 2-dose series; neutralizing IgG titers lower than mRNA platforms but protective against severe disease endpoints."><span class="rel">elicits</span>Immunoglobulin G</a>
+            <a class="conn-pill" href="b-cell.html" title="Alum drives Th2-biased GC reactions → B cell plasma cell differentiation; whole-virion antigen (spike, N, M, E) engages multiple B cell epitope clusters; anti-spike + anti-N IgG seroconversion 92-100%; titers 2-4× lower than mRNA vaccines but protective against severe disease."><span class="rel">elicits</span>B Cell</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="Whole virion MHC-II peptides (spike, N, M, E) → Th2-skewed CD4+ T-helper response (alum adjuvant); nucleocapsid-specific CD4+ T cells target conserved epitopes across Omicron lineages; CD4+ magnitude lower than mRNA vaccines due to Th2 alum skew rather than Th1-biased adjuvant."><span class="rel">elicits</span>T Helper Cell</a>
+            <a class="conn-pill" href="covid-19-disease.html" title="CoronaVac prevents COVID-19: Chile real-world 65.9% VE symptomatic, 87.5% VE hospitalization, 86.3% VE death (Jara 2021 NEJM); Turkey Phase 3 83.5% VE; multiantigen whole-virion approach preserves T cell protection against N-protein epitopes even with spike immune escape."><span class="rel">prevents</span>Covid 19 Disease</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Zhang Y, Zeng G, Pan H, et al. Safety, tolerability, and immunogenicity of an inactivated SARS-CoV-2 vaccine in healthy adults aged 18–59 years: a randomised, double-blind, placebo-controlled, phase 1/2 clinical trial. <em>JAMA.</em> 2021;326(1):35-45. <a href="https://doi.org/10.1001/jama.2020.22136">doi:10.1001/jama.2020.22136</a></li>
-            <li>Tanriover MD, Dogan&acirc;ay HL, Akova M, et al. Efficacy and safety of an inactivated whole-virion SARS-CoV-2 vaccine (CoronaVac): interim results of a double-blind, randomised, placebo-controlled, phase 3 trial in Turkey. <em>Lancet.</em> 2021;398(10296):213-222. <a href="https://doi.org/10.1016/S0140-6736(21)01429-X">doi:10.1016/S0140-6736(21)01429-X</a></li>
-            <li>Jara A, Undurraga EA, Gonz&aacute;lez C, et al. Effectiveness of an Inactivated SARS-CoV-2 Vaccine in Chile. <em>N Engl J Med.</em> 2021;385(10):875-884. <a href="https://doi.org/10.1056/NEJMoa2106715">doi:10.1056/NEJMoa2106715</a></li>
+            <li><a href="https://doi.org/10.1001/jama.2020.22136" target="_blank" rel="noopener noreferrer">Zhang Y, Zeng G, Pan H, et al. Safety, tolerability, and immunogenicity of an inactivated SARS-CoV-2 vaccine in healthy adults aged 18–59 years: a randomised, double-blind, placebo-controlled, phase 1/2 clinical trial. JAMA. 2021;326(1):35-45.</a></li>
+            <li><a href="https://doi.org/10.1016/S0140-6736(21)01429-X" target="_blank" rel="noopener noreferrer">Tanriover MD, Doğanay HL, Akova M, et al. Efficacy and safety of an inactivated whole-virion SARS-CoV-2 vaccine (CoronaVac): interim results of a double-blind, randomised, placebo-controlled, phase 3 trial in Turkey. Lancet. 2021;398(10296):213-222.</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa2106715" target="_blank" rel="noopener noreferrer">Jara A, Undurraga EA, González C, et al. Effectiveness of an Inactivated SARS-CoV-2 Vaccine in Chile. N Engl J Med. 2021;385(10):875-884.</a></li>
           </ul>
         </div>
 
@@ -320,18 +191,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="medicine.html">Medicine Atlas</a>
-      <a href="pathogens.html">Pathogen Atlas</a>
-      <a href="mrna-1273.html">mRNA-1273</a>
-      <a href="rabies-vaccine.html">Rabies Vaccine</a>
-      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

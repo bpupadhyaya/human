@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Shingrix generates anti-gE IgG geometric mean concentrations >10× baseline after 2 doses; high-titer anti-gE IgG plus polyfunctional CD4+ T cells are dual correlates of protection; seroprotection sustained ≥9 years in long-term follow-up of ZOE-50 cohort."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: elicits
+    note: "AS01B (MPL+QS-21) drives potent Th1-biased polyfunctional CD4+ T cells (IFN-γ + CD40L + IL-2 + TNF-α simultaneously); CD4+ T cell magnitude explains 97% VE (ZOE-50) vs 51% Zostavax; response maintained in immunosenescent elderly (ZOE-70: 91.3% VE ≥70)."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: prevents-damage-to
+    note: "VZV reactivates in dorsal root ganglia → travels along peripheral sensory nerves causing herpes zoster; gE mediates virion spread via nerve cell-to-cell transmission; Shingrix prevents peripheral nerve VZV invasion, acute neuritis, and postherpetic neuralgia lasting months."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: activates
+    note: "AS01B QS-21 activates NLRP3 inflammasome → IL-1β/IL-18; MPL activates TLR4 → NF-κB innate cytokines; dual NLRP3+TLR4 activation drives DC maturation and robust adaptive immunity; AS01B dual innate pathway activation explains RZV superiority over alum-only adjuvanted vaccines."
 ---
 
 # Shingrix (RZV)
@@ -125,6 +134,9 @@ gE (gene 68) is the **most abundant envelope glycoprotein** of VZV, expressed on
 - `immunizes-against` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Shingrix prevents herpes zoster (shingles), the reactivation disease of latent VZV; gE antigen is the dominant target of VZV-neutralizing antibodies and memory T cells.
 - `connects-to` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — RZV AS01B adjuvant (MPL + QS-21) drives strong Th1-biased CD4⁺ polyfunctional T cells (IFN-γ + CD40L + IL-2 + TNF-α) and memory B-cell responses even in immunosenescent elderly; superior CD4⁺ response explains >97% VE (ZOE-50) vs 51% for Zostavax.
 - `connects-to` → **[Immunoglobulin G](../../../../01-human/03-molecular/immunoglobulin-g/README.md)** — Shingrix generates anti-gE IgG geometric mean concentrations >10× baseline after 2 doses; high-titer anti-gE IgG plus polyfunctional CD4⁺ T cells are dual correlates of protection; seroprotection sustained ≥9 years in long-term follow-up of ZOE-50 cohort.
+- `elicits` → **[T-Helper Cell](../../../../01-human/04-cellular/t-helper-cell/README.md)** — AS01B (MPL+QS-21) drives potent Th1-biased polyfunctional CD4+ T cells (IFN-γ + CD40L + IL-2 + TNF-α simultaneously); CD4+ T cell magnitude explains 97% VE (ZOE-50) vs 51% Zostavax; response maintained in immunosenescent elderly (ZOE-70: 91.3% VE ≥70).
+- `prevents-damage-to` → **[Peripheral Nerve](../../../../01-human/05-tissue/peripheral-nerve/README.md)** — VZV reactivates in dorsal root ganglia → travels along peripheral sensory nerves causing herpes zoster; gE mediates virion spread via nerve cell-to-cell transmission; Shingrix prevents peripheral nerve VZV invasion, acute neuritis, and postherpetic neuralgia lasting months.
+- `activates` → **[NLRP3 Inflammasome](../../../../01-human/03-molecular/nlrp3-inflammasome/README.md)** — AS01B QS-21 activates NLRP3 inflammasome → IL-1β/IL-18; MPL activates TLR4 → NF-κB innate cytokines; dual NLRP3+TLR4 activation drives DC maturation and robust adaptive immunity; AS01B dual innate pathway activation explains RZV superiority over alum-only adjuvanted vaccines.
 
 [^lal-2015-zoe50]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. *N Engl J Med.* 2015;372(22):2087-2096. [doi:10.1056/NEJMoa1501184](https://doi.org/10.1056/NEJMoa1501184) · [PubMed 25981865](https://pubmed.ncbi.nlm.nih.gov/25981865/)
 [^cunningham-2016-zoe70]: Cunningham AL, Lal H, Kovac M, et al. Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. *N Engl J Med.* 2016;375(11):1019-1032. [doi:10.1056/NEJMoa1603800](https://doi.org/10.1056/NEJMoa1603800) · [PubMed 27626517](https://pubmed.ncbi.nlm.nih.gov/27626517/)

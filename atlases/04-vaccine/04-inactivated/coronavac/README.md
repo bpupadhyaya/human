@@ -59,6 +59,15 @@ cross_links:
     relation: elicits
     evidence: zhang-2021-jama-phase-1-2
     note: "Seroconversion ~92–100% after 2-dose series; neutralizing IgG titers lower than mRNA platforms but protective against severe disease endpoints."
+  - target: 01-human/04-cellular/b-cell
+    relation: elicits
+    note: "Alum drives Th2-biased GC reactions → B cell plasma cell differentiation; whole-virion antigen (spike, N, M, E) engages multiple B cell epitope clusters; anti-spike + anti-N IgG seroconversion 92-100%; titers 2-4× lower than mRNA vaccines but protective against severe disease."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: elicits
+    note: "Whole virion MHC-II peptides (spike, N, M, E) → Th2-skewed CD4+ T-helper response (alum adjuvant); nucleocapsid-specific CD4+ T cells target conserved epitopes across Omicron lineages; CD4+ magnitude lower than mRNA vaccines due to Th2 alum skew rather than Th1-biased adjuvant."
+  - target: 01-human/07-system/covid-19-disease
+    relation: prevents
+    note: "CoronaVac prevents COVID-19: Chile real-world 65.9% VE symptomatic, 87.5% VE hospitalization, 86.3% VE death (Jara 2021 NEJM); Turkey Phase 3 83.5% VE; multiantigen whole-virion approach preserves T cell protection against N-protein epitopes even with spike immune escape."
 ---
 
 # CoronaVac
@@ -145,6 +154,9 @@ CoronaVac's role in the four-atlas knowledge graph:
 - **Produces** → [`01-human/03-molecular/immunoglobulin-g`](../../../../01-human/03-molecular/immunoglobulin-g/README.md) — anti-spike and anti-nucleocapsid IgG; seroconversion 92–100%
 - **Same-platform-as** → `04-vaccine/04-inactivated/sinopharm` (BBIBP-CorV), `04-vaccine/04-inactivated/covaxin` (BBV152)
 - **Contrasts-with** → [`04-vaccine/01-mrna/mrna-1273`](../../01-mrna/mrna-1273/README.md) — 2–4× lower peak neutralizing titers; no mRNA-associated myocarditis signal; refrigerator-stable cold chain
+- `elicits` → **[B Cell](../../../../01-human/04-cellular/b-cell/README.md)** — alum drives Th2-biased GC reactions → B cell plasma cell differentiation; whole-virion antigen (spike, N, M, E) engages multiple B cell epitope clusters; anti-spike + anti-N IgG seroconversion 92-100%; titers 2-4× lower than mRNA vaccines but protective against severe disease.
+- `elicits` → **[T-Helper Cell](../../../../01-human/04-cellular/t-helper-cell/README.md)** — whole virion MHC-II peptides → Th2-skewed CD4+ T-helper response (alum adjuvant); nucleocapsid-specific CD4+ T cells target conserved epitopes across Omicron lineages; magnitude lower than mRNA vaccines due to Th2 alum skew.
+- `prevents` → **[COVID-19 Disease](../../../../01-human/07-system/covid-19-disease/README.md)** — Chile real-world 65.9% VE symptomatic, 87.5% VE hospitalization, 86.3% VE death (Jara 2021 NEJM); Turkey Phase 3 83.5% VE; multiantigen whole-virion approach preserves T cell protection against N-protein epitopes even with spike immune escape.
 
 ## Safety
 
@@ -172,3 +184,6 @@ Large pharmacovigilance datasets from Brazil (~100 million doses) and Chile (~20
 ---
 
 **[← Platform 04 (Inactivated)](../README.md)** · **[← Vaccine Atlas](../../README.md)** · **[Schema](../../../../schemas/vaccine-entry.schema.md)**
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
