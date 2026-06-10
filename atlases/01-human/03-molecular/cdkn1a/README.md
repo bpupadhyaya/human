@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "In LFS (germline TP53), p53-driven p21 induction is severely impaired → cells fail to arrest at G1/S after DNA damage → accelerated cell cycle progression → malignant transformation; p21 loss contributes to genomic instability in TP53-mutant LFS tumors."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "p21 (CDKN1A) inhibits CDK2-CyclinE and CDK4/6-CyclinD by inserting its KID domain into the CDK active site cleft → Rb remains hypophosphorylated → G1 arrest maintained; p21 is the primary effector linking p53 activation to CDK4/6 inhibition at the G1/S checkpoint."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "ATM kinase activated by DSBs → phosphorylates CHK2 (Thr68) → CDC25A degradation (rapid) and p53 stabilization → p53 → p21 within 2 hours → CDK inhibition → G1/S arrest; ATM-null cells have impaired p21 induction and fail to arrest after irradiation or chemotherapy."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "p21 (CDKN1A) and p16 (CDKN2A) suppress CDK4/6 in parallel: p21 inhibits CDK2/4/6; p16 displaces cyclin D from CDK4/6; both accumulate in OIS and replicative senescence; loss of both checkpoints enables full CDK4/6 activation and unchecked G1→S entry in cancer."
 ---
 
 # CDKN1A
@@ -129,6 +138,13 @@ p21-high tumors may be relatively resistant to cytotoxic chemotherapy (requires 
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — p21 inhibits CDK2-CyclinE and CDK4/6-CyclinD → Rb remains hypophosphorylated → E2F1/2/3 repressed → S-phase entry blocked; p21 is the upstream enforcer of Rb-mediated G1 arrest; Rb LOF bypasses p21-mediated cell cycle arrest.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 ubiquitinates p21 (Lys161/163) for proteasomal degradation, counteracting p53-induced p21 accumulation; MDM2 also inhibits p53 → reduces p21 transcription; MDM2 inhibitors (nutlin-3/AMG-232) stabilize p53 → p21 induction → cell cycle arrest in MDM2-amplified tumors.
 - `connects-to` → **[Li-Fraumeni Syndrome](../../07-system/li-fraumeni-syndrome/README.md)** — In LFS (germline TP53), p53-driven p21 induction is severely impaired → cells fail to arrest at G1/S after DNA damage → accelerated cell cycle progression → malignant transformation; p21 loss contributes to genomic instability in TP53-mutant LFS tumors.
+- `connects-to` → **[CDK4/6](../cdk4-6/README.md)** — p21 (CDKN1A) inhibits CDK2-CyclinE and CDK4/6-CyclinD by inserting its KID domain into the CDK active site cleft → Rb remains hypophosphorylated → G1 arrest maintained; p21 is the primary effector linking p53 activation to CDK4/6 inhibition at the G1/S checkpoint.
+- `connects-to` → **[ATM](../atm/README.md)** — ATM kinase activated by DSBs → phosphorylates CHK2 (Thr68) → CDC25A degradation (rapid) and p53 stabilization → p53 → p21 within 2 hours → CDK inhibition → G1/S arrest; ATM-null cells have impaired p21 induction and fail to arrest after irradiation or chemotherapy.
+- `connects-to` → **[CDKN2A](../cdkn2a/README.md)** — p21 (CDKN1A) and p16 (CDKN2A) suppress CDK4/6 in parallel: p21 inhibits CDK2/4/6; p16 displaces cyclin D from CDK4/6; both accumulate in OIS and replicative senescence; loss of both checkpoints enables full CDK4/6 activation and unchecked G1→S entry in cancer.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^el-deiry-1993-waf1]: el-Deiry WS, Tokino T, Velculescu VE, et al. WAF1, a potential mediator of p53 tumor suppression. *Cell.* 1993;75(4):817-825. [doi:10.1016/0092-8674(93)90500-p](https://doi.org/10.1016/0092-8674(93)90500-p) · [PubMed 8242752](https://pubmed.ncbi.nlm.nih.gov/8242752/)
 [^harper-1993-cip1]: Harper JW, Adami GR, Wei N, Keyomarsi K, Elledge SJ. The p21 Cdk-interacting protein Cip1 is a potent inhibitor of G1 cyclin-dependent kinases. *Cell.* 1993;75(4):805-816. [doi:10.1016/0092-8674(93)90499-g](https://doi.org/10.1016/0092-8674(93)90499-g) · [PubMed 8211136](https://pubmed.ncbi.nlm.nih.gov/8211136/)

@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "KRAS-MEK-ERK promotes cyclin D1 synthesis and CDK4/6 activity → drives G1→S in RAS-mutant cancers; CDKN2A (encoding p16 CDK4/6 inhibitor) is frequently co-deleted with KRAS pathway activation in PDAC and NSCLC; CDK4/6 inhibitors show modest activity in KRAS-mutant lung cancer."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "CDK4/6-cyclin D phosphorylates Rb → partial E2F release → CDK2-cyclin E hyperphosphorylates Rb → complete E2F release → S-phase commitment; CDK4/6 inhibitors restore Rb hypophosphorylation → G1 arrest; Rb1 loss is the primary CDK4/6 inhibitor resistance mechanism."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "CDK4/6 is the central kinase of estrogen-driven proliferation in HR+ breast cancer; palbociclib+letrozole (PALOMA-2: PFS 24.8 vs 14.5m), ribociclib+letrozole (MONALEESA-2: OS benefit in premenopausal), and abemaciclib+ET (MONARCH-3; adjuvant monarchE) are standard regimens."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A encodes p16^INK4a, the endogenous CDK4/6-specific inhibitor; CDKN2A deletion (melanoma ~50%, PDAC ~90%, NSCLC ~25%) is the most frequent mechanism of CDK4/6 activation in cancer; CDKN2A loss is equivalent to CDK4/6 amplification in removing the INK4 brake on G1→S."
 ---
 
 # CDK4/6
@@ -167,6 +176,13 @@ Three approved CDK4/6 inhibitors (all ATP-competitive, CDK4/6-selective):
 - `connects-to` → **[MYC](../myc/README.md)** — MYC upregulates cyclin D and suppresses p21/p27 → activates CDK4/6; CDK4/6 is a major downstream effector of MYC-driven proliferation; MYC amplification and CDK4/6 activation cooperate in cancer.
 - `connects-to` → **[mTOR](../mtor/README.md)** — mTORC1 drives cyclin D1/CDK4 expression; combined CDK4/6i + mTORi is active in palbociclib-resistant ER+ breast cancer; the two pathways have complementary roles in G1→S control and anabolic growth.
 - `connects-to` → **[KRAS](../kras/README.md)** — KRAS-ERK promotes cyclin D1 and CDK4/6 → G1→S in RAS-mutant cancers; CDKN2A (p16) is co-deleted with KRAS pathway activation in PDAC and NSCLC, enabling maximally active CDK4/6.
+- `connects-to` → **[RB1](../rb1/README.md)** — CDK4/6-cyclin D phosphorylates Rb → partial E2F release → CDK2-cyclin E hyperphosphorylates Rb → complete E2F release → S-phase commitment; CDK4/6 inhibitors restore Rb hypophosphorylation → G1 arrest; Rb1 loss is the primary CDK4/6 inhibitor resistance mechanism.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — CDK4/6 is the central kinase of estrogen-driven proliferation in HR+ breast cancer; palbociclib+letrozole (PALOMA-2: PFS 24.8 vs 14.5m), ribociclib+letrozole (MONALEESA-2: OS benefit in premenopausal), and abemaciclib+ET (MONARCH-3; adjuvant monarchE) are standard regimens.
+- `connects-to` → **[CDKN2A](../cdkn2a/README.md)** — CDKN2A encodes p16^INK4a, the endogenous CDK4/6-specific inhibitor; CDKN2A deletion (melanoma ~50%, PDAC ~90%, NSCLC ~25%) is the most frequent mechanism of CDK4/6 activation in cancer; CDKN2A loss is equivalent to CDK4/6 amplification in removing the INK4 brake on G1→S.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^sherr-2016-cdk4-rb]: Sherr CJ, Beach D, Shapiro GI. Targeting CDK4 and CDK6: From Discovery to Therapy. *Cancer Discov.* 2016;6(4):353-367. [doi:10.1158/2159-8290.CD-15-0894](https://doi.org/10.1158/2159-8290.CD-15-0894) · [PubMed 26658964](https://pubmed.ncbi.nlm.nih.gov/26658964/)
 [^finn-2016-palbociclib]: Finn RS, Martin M, Rugo HS, et al. Palbociclib and letrozole in advanced breast cancer. *N Engl J Med.* 2016;375(20):1925-1936. [doi:10.1056/NEJMoa1607303](https://doi.org/10.1056/NEJMoa1607303) · [PubMed 27959613](https://pubmed.ncbi.nlm.nih.gov/27959613/)
