@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/pheochromocytoma-paraganglioma
     relation: connects-to
     note: "PRKAR1A germline mutations rarely cause pheochromocytoma; however PKA pathway (cAMP-PRKAR1A-PRKACA axis) is a key regulatory pathway in pheo/PGL biology; PKA controls HIF-1α-driven pseudohypoxia in SDH-deficient PGL; PRKAR1A-Carney complex pheo overlap is rare."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "PRKAR1A (R1α) is the PKA gatekeeper in β-adrenergic signaling: epinephrine → β-AR → Gαs → cAMP → R1α releases PRKACA → PKA substrate phosphorylation; PRKAR1A LOF → PRKACA constitutively free → mimics constant adrenergic stimulation regardless of cAMP level."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PKA (PRKACA) phosphorylates TSC2 at Ser1798 → TSC1-TSC2 dissociates → Rheb-GTP stable → mTORC1 active; PRKAR1A LOF → constitutive PKA → enhanced mTORC1 → adrenocortical cell growth; mTOR inhibitors (everolimus) explored in sporadic ACC including PRKAR1A-LOH cases."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "PKA phosphorylates RAF1 at Ser259 → RAF1 inhibited → reduced MEK-ERK1/2; PRKAR1A LOF → constitutive PKA → chronic RAF1 inhibitory phosphorylation; in adrenocortical cells, ACTH-cAMP-PKA dampens MAPK → favors steroidogenic transcription over proliferative ERK output."
 ---
 
 # PRKAR1A
@@ -155,6 +164,13 @@ Both involve constitutive cAMP-PKA signaling but differ in mechanism and inherit
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — PPNAD (primary pigmented nodular adrenocortical disease) in Carney complex causes ACTH-independent Cushing syndrome via bilateral adrenocortical micronodular hyperplasia driven by constitutive PKA; paradoxical cortisol increase with dexamethasone challenge is diagnostic.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Excess cortisol production from PPNAD in Carney complex activates glucocorticoid receptor (GR/NR3C1) broadly; GR-driven Cushing phenotype: centripetal obesity, hypertension, diabetes, osteoporosis, immunosuppression; bilateral adrenalectomy is curative for PPNAD-Cushing.
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../../07-system/pheochromocytoma-paraganglioma/README.md)** — PRKAR1A germline mutations rarely cause pheochromocytoma; however PKA pathway (cAMP-PRKAR1A-PRKACA axis) is a key regulatory pathway in pheo/PGL biology; PKA controls HIF-1α-driven pseudohypoxia in SDH-deficient PGL; PRKAR1A-Carney complex pheo overlap is rare.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — PRKAR1A (R1α) is the PKA gatekeeper in β-adrenergic signaling: epinephrine → β-AR → Gαs → cAMP → R1α releases PRKACA → PKA substrate phosphorylation; PRKAR1A LOF → PRKACA constitutively free → mimics constant adrenergic stimulation regardless of cAMP level.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PKA (PRKACA) phosphorylates TSC2 at Ser1798 → TSC1-TSC2 dissociates → Rheb-GTP stable → mTORC1 active; PRKAR1A LOF → constitutive PKA → enhanced mTORC1 → adrenocortical cell growth; mTOR inhibitors (everolimus) explored in sporadic ACC including PRKAR1A-LOH cases.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — PKA phosphorylates RAF1 at Ser259 → RAF1 inhibited → reduced MEK-ERK1/2; PRKAR1A LOF → constitutive PKA → chronic RAF1 inhibitory phosphorylation; in adrenocortical cells, ACTH-cAMP-PKA dampens MAPK → favors steroidogenic transcription over proliferative ERK output.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^kirschner-2000-prkar1a]: Kirschner LS, Carney JA, Pack SD, et al. Mutations of the gene encoding the protein kinase A type I-alpha regulatory subunit in patients with the Carney complex. *Nat Genet.* 2000;26(1):89-92. [doi:10.1038/79238](https://doi.org/10.1038/79238) · [PubMed 10973256](https://pubmed.ncbi.nlm.nih.gov/10973256/)
 [^bertherat-2009-carney]: Bertherat J, Horvath A, Groussin L, et al. Mutations in regulatory subunit type 1A of cyclic adenosine 5'-monophosphate-dependent protein kinase (PRKAR1A): phenotype analysis in 353 patients and 80 different genotypes. *J Clin Endocrinol Metab.* 2009;94(6):2085-2091. [doi:10.1210/jc.2008-2333](https://doi.org/10.1210/jc.2008-2333) · [PubMed 19293268](https://pubmed.ncbi.nlm.nih.gov/19293268/)

@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "SMARCB1-containing BAF complex occupies MYC-target gene enhancers to limit MYC-driven transcription; SMARCB1 loss → BRD4-dependent super-enhancer activity at MYC → MYC target gene hyperactivation; BET inhibitors (JQ1) suppress MYC in SMARCB1-null rhabdoid and AT/RT cells."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "SMARCB1 loss → p14/ARF silenced → MDM2 unchecked → p53 degraded despite intact TP53; TP53 mutations uncommon in AT/RT; doxorubicin/vinca chemotherapy depends on residual p53-mediated apoptosis; SMARCB1 rescue restores p14/ARF → p53 re-activation and G1 arrest."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "SMARCB1 and ARID1A are SWI/SNF tumor suppressor subunits with distinct tumor spectra (SMARCB1: rhabdoid/AT/RT; ARID1A: endometrial/ovarian/gastric); both destabilize BAF complex when lost; mutations are mutually exclusive — single-subunit LOF suffices for SWI/SNF inactivation."
+  - target: 01-human/03-molecular/nf2
+    relation: connects-to
+    note: "Germline SMARCB1 LOF + somatic NF2 loss → schwannomatosis (multiple schwannomas without vestibular schwannoma); NF2 (merlin) suppresses Hippo/YAP; SMARCB1 and NF2 both restrict YAP/TAZ; SMARCB1 missense predominates in schwannomatosis vs truncating variants in AT/RT."
 ---
 
 # SMARCB1
@@ -136,6 +145,13 @@ SMARCB1 loss → BRD4-occupied super-enhancers at MYC, GLI1, and other oncogenes
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — SMARCB1 loss → SWI/SNF cannot maintain open chromatin at CDKN2A locus → p16/INK4A ↓ and p14/ARF ↓ → CDK4/6 hyperactivation → RB1 phosphorylation → E2F-driven proliferation; CDK4/6 inhibitors partially rescue G1 arrest in SMARCB1-null cells when RB1 intact.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — SMARCB1 loss → SWI/SNF cannot activate CDKN2A promoter → p16/INK4A and p14/ARF both silenced; CDKN2A re-expression upon SMARCB1 rescue drives G1 arrest in rhabdoid tumor cells; CDKN2A homozygous deletion occurs in ~15-25% AT/RT and further ablates this checkpoint.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — SMARCB1-containing BAF complex occupies MYC-target gene enhancers to limit MYC-driven transcription; SMARCB1 loss → BRD4-dependent super-enhancer activity at MYC → MYC target gene hyperactivation; BET inhibitors (JQ1) suppress MYC in SMARCB1-null rhabdoid and AT/RT cells.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — SMARCB1 loss → p14/ARF silenced → MDM2 unchecked → p53 degraded despite intact TP53; TP53 mutations uncommon in AT/RT; doxorubicin/vinca chemotherapy depends on residual p53-mediated apoptosis; SMARCB1 rescue restores p14/ARF → p53 re-activation and G1 arrest.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — SMARCB1 and ARID1A are SWI/SNF tumor suppressor subunits with distinct tumor spectra (SMARCB1: rhabdoid/AT/RT; ARID1A: endometrial/ovarian/gastric); both destabilize BAF complex when lost; mutations are mutually exclusive — single-subunit LOF suffices for SWI/SNF inactivation.
+- `connects-to` → **[NF2](../../03-molecular/nf2/README.md)** — Germline SMARCB1 LOF + somatic NF2 loss → schwannomatosis (multiple schwannomas without vestibular schwannoma); NF2 (merlin) suppresses Hippo/YAP; SMARCB1 and NF2 both restrict YAP/TAZ; SMARCB1 missense predominates in schwannomatosis vs truncating variants in AT/RT.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^versteege-1998-smarcb1-rhabdoid]: Versteege I, Sévenet N, Lange J, et al. Truncating mutations of hSNF5/INI1 in aggressive paediatric cancer. *Nature.* 1998;394(6689):203-206. [doi:10.1038/28212](https://doi.org/10.1038/28212) · [PubMed 9671307](https://pubmed.ncbi.nlm.nih.gov/9671307/)
 [^gounder-2020-tazemetostat-epithelioid]: Gounder M, Schöffski P, Jones RL, et al. Tazemetostat in advanced epithelioid sarcoma with loss of INI1/SMARCB1: an international, open-label, phase 2 basket study. *Lancet Oncol.* 2020;21(11):1423-1432. [doi:10.1016/S1470-2045(20)30451-4](https://doi.org/10.1016/S1470-2045(20)30451-4) · [PubMed 33007258](https://pubmed.ncbi.nlm.nih.gov/33007258/)
