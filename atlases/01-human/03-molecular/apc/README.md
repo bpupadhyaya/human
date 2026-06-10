@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Notch and Wnt/APC co-regulate intestinal crypt homeostasis; Notch NICD1 + APC LOF nuclear β-catenin → synergistic stem cell expansion in early CRC; dual Notch+Wnt hyperactivation in APC-mutant adenomas; γ-secretase inhibitors explored in APC-mutant colorectal cancer"
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "APC is the Wnt gatekeeper tumor suppressor of intestinal crypt epithelium; biallelic APC LOF in a crypt stem cell → constitutive β-catenin-TCF/LEF → unrestrained proliferation and blocked differentiation; APC loss is the initiating event in >80% of colorectal adenomas."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "KRAS activating mutation (G12D/V) is the second critical hit in the Fearon-Vogelstein adenoma-carcinoma sequence; occurs after APC LOF in late adenoma → enhanced proliferation and invasiveness; APC-mutant CRC harbors KRAS mutation in ~40%; APC+KRAS tumors are EGFR-TKI resistant."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 LOF is step 5 in the Fearon-Vogelstein sequence (after APC→KRAS→SMAD4→TP53) at adenoma-to-carcinoma transition; TP53 mutation in ~50% of sporadic CRC; APC loss and TP53 LOF cooperate in driving chromosomal instability and malignant transformation of colorectal adenomas."
 ---
 
 # APC
@@ -165,6 +174,13 @@ No approved therapy restores APC function; APC is a scaffold protein — not an 
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — APC is the gatekeeper of Wnt/β-catenin signaling in intestinal epithelium; APC LOF → constitutive Wnt-ON state → crypt stem cell expansion → adenoma; APC biallelic LOF is the earliest initiating event in sporadic CRC and FAP; complete APC LOF required in each adenoma
 - `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — APC is mutated in ~80% of sporadic CRC; Fearon-Vogelstein adenoma-carcinoma model: APC LOF → KRAS → SMAD4 → TP53 sequence; APC mutation cluster region (codons 1250-1450) in CRC; FAP: 100% CRC penetrance by 40 without colectomy; cetuximab/bevacizumab active in APC-mutant mCRC
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch and Wnt/APC co-regulate intestinal crypt homeostasis; Notch NICD1 + APC LOF nuclear β-catenin → synergistic stem cell expansion in early CRC; dual Notch+Wnt hyperactivation in APC-mutant adenomas; γ-secretase inhibitors explored in APC-mutant colorectal cancer
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — APC is the Wnt gatekeeper tumor suppressor of intestinal crypt epithelium; biallelic APC LOF in a crypt stem cell → constitutive β-catenin-TCF/LEF → unrestrained proliferation and blocked differentiation; APC loss is the initiating event in >80% of colorectal adenomas
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS activating mutation (G12D/V) is the second critical hit in the Fearon-Vogelstein adenoma-carcinoma sequence; occurs after APC LOF in late adenoma → enhanced proliferation and invasiveness; APC-mutant CRC harbors KRAS mutation in ~40%; APC+KRAS tumors are EGFR-TKI resistant
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 LOF is step 5 in the Fearon-Vogelstein sequence (after APC→KRAS→SMAD4→TP53) at adenoma-to-carcinoma transition; TP53 mutation in ~50% of sporadic CRC; APC loss and TP53 LOF cooperate in driving chromosomal instability and malignant transformation of colorectal adenomas
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

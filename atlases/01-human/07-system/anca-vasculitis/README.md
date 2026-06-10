@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "ANCA (anti-neutrophil cytoplasmic antibodies) are IgG autoantibodies (IgG3 > IgG1) against PR3 (cANCA; GPA) or MPO (pANCA; MPA/EGPA); ANCA IgG Fc engages FcγRIIa on neutrophils → full effector activation; ANCA titers correlate with disease activity and relapse risk."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils are the primary effector cells in ANCA vasculitis; ANCA IgG (anti-PR3 or anti-MPO) crosslinks surface PR3/MPO on C5a-primed neutrophils → FcγRIIa → exuberant NETosis + respiratory burst → fibrinoid necrosis of small vessel walls and pauci-immune crescentic GN."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Crescentic pauci-immune GN in GPA/MPA → rapidly progressive kidney failure; untreated AAV → ESRD within weeks-months; avacopan (ADVOCATE) preserves eGFR significantly better than prednisone at 52 weeks; ANCA GN is a leading cause of vasculitis-related dialysis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "AAV renal involvement progresses to CKD in up to 40% at 5 years; ESRD in 20-25% over 10 years; creatinine at diagnosis and % crescents on biopsy predict CKD trajectory; avacopan eGFR advantage at 52 weeks may translate to reduced long-term CKD progression."
 ---
 
 # ANCA Vasculitis
@@ -187,6 +196,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement activation generates C5a in AAV; C5a–C5aR1 primes neutrophils for ANCA-triggered NETosis; C5b-9 MAC contributes to endothelial injury; avacopan allows glucocorticoid sparing without inhibiting C5b-9-mediated pathogen defense.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab (anti-CD20) is non-inferior to cyclophosphamide for AAV induction (RAVE trial: 64% vs 53% remission; FDA Apr 2011 for GPA/MPA) and is preferred for maintenance; rituximab depletes ANCA-producing B cells and reduces PR3/MPO autoantibody titers.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — ANCA are IgG autoantibodies (IgG3 > IgG1) against PR3 (cANCA; GPA) or MPO (pANCA; MPA/EGPA); ANCA IgG Fc engages FcγRIIa on neutrophils → full effector activation; ANCA titers correlate with disease activity and relapse risk.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — neutrophils are the primary effector cells in ANCA vasculitis; ANCA IgG crosslinks surface PR3/MPO on C5a-primed neutrophils → FcγRIIa → NETosis + respiratory burst → fibrinoid necrosis of small vessel walls and pauci-immune crescentic GN.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — crescentic pauci-immune GN in GPA/MPA causes rapidly progressive kidney failure; untreated AAV → ESRD within weeks-months; avacopan (ADVOCATE) preserves eGFR significantly better than prednisone at 52 weeks; ANCA GN is a leading cause of vasculitis-related dialysis.
+- `connects-to` → **[CKD](../../07-system/ckd/README.md)** — AAV renal involvement progresses to CKD in up to 40% at 5 years; ESRD in 20-25% over 10 years; creatinine at diagnosis and percentage crescents on biopsy predict CKD trajectory; avacopan eGFR advantage at 52 weeks may translate to reduced long-term CKD progression.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
@@ -194,4 +206,5 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 [^specks-2013-rituximab-anca-maintenance]: Charles P, Terrier B, Perrodeau É, et al. Comparison of individually tailored versus fixed-schedule rituximab regimen to maintain ANCA-associated vasculitis remission. *Ann Rheum Dis.* 2018;77(8):1143-1149. [doi:10.1136/annrheumdis-2017-212862](https://doi.org/10.1136/annrheumdis-2017-212862) · [PubMed 29549154](https://pubmed.ncbi.nlm.nih.gov/29549154/)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
