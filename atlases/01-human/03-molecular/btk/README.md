@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "t(11;14) CCND1-IGH → cyclin D1 overexpression → CDK4/6-RB phosphorylation → S-phase entry is the hallmark of MCL; BTK/NF-κB → cyclin D1 transcription cooperates with t(11;14); CDK4/6 inhibitors (palbociclib) + BTK inhibitors studied in MCL as CDK4/6-BTK synthetic targeting."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "BTK is the central BCR signaling kinase in B-cell development and survival; BTK PH domain recruits BTK to PIP3 at the membrane → LYN/SYK phosphorylate Tyr551 → BTK activates PLCγ2-NF-κB; BTK loss (XLA) → failure of B-cell maturation at pro-B stage; BTK gain → autoimmunity."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "Ibrutinib and zanubrutinib are first-line standards for CLL/SLL; BTK inhibition blocks BCR-NF-κB → CLL cell egress from nodes (transient lymphocytosis) then sustained reduction; pirtobrutinib (non-covalent) active after covalent BTK inhibitor resistance (BTK C481S)."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "Ibrutinib (ORR ~68%) and zanubrutinib are approved for R/R MCL; BTK/NF-κB amplifies cyclin D1 from t(11;14); BTK C481S acquired resistance in ~30% of MCL after covalent BTK inhibitors; pirtobrutinib overcomes C481S; BTK+venetoclax combinations achieve deep MRD negativity."
 ---
 
 # BTK
@@ -148,6 +157,13 @@ MCL cells have t(11;14) CCND1-IGH + constitutive BCR-BTK signaling → NF-κB �
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BTK inhibition → reduced PI3K-AKT → decreased BCL-2 expression; ibrutinib+venetoclax (BCL-2 inhibitor) is highly active in CLL (CAPTIVATE: undetectable MRD ~50%) and R/R MCL; BTK+BCL-2 co-inhibition achieves deeper responses than either alone.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — BCR → SYK → PI3K-δ (PIK3CD) and BTK → AKT → mTOR → B-cell survival; PI3K-δ inhibitors (idelalisib, duvelisib) are approved for CLL as BTK inhibitor alternatives; PI3K-δ/BTK dual inhibitors under development; PTEN loss activates PI3K bypassing BTK inhibition.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — t(11;14) CCND1-IGH → cyclin D1 overexpression → CDK4/6-RB phosphorylation → S-phase entry is the hallmark of MCL; BTK/NF-κB → cyclin D1 transcription cooperates with t(11;14); CDK4/6 inhibitors (palbociclib) + BTK inhibitors studied in MCL as CDK4/6-BTK synthetic targeting.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — BTK is the central BCR signaling kinase in B-cell development and survival; BTK PH domain recruits BTK to PIP3 → LYN/SYK phosphorylate Tyr551 → BTK activates PLCγ2-NF-κB; BTK loss (XLA) → failure of B-cell maturation at pro-B stage; BTK gain → autoimmunity.
+- `connects-to` → **[CLL](../../07-system/cll/README.md)** — Ibrutinib and zanubrutinib are first-line standards for CLL/SLL; BTK inhibition blocks BCR-NF-κB → CLL cell egress from nodes (transient lymphocytosis) then sustained reduction; pirtobrutinib (non-covalent) active after covalent BTK inhibitor resistance (BTK C481S).
+- `connects-to` → **[Mantle Cell Lymphoma](../../07-system/mantle-cell-lymphoma/README.md)** — Ibrutinib (ORR ~68%) and zanubrutinib are approved for R/R MCL; BTK/NF-κB amplifies cyclin D1 from t(11;14); BTK C481S acquired resistance in ~30% of MCL after covalent BTK inhibitors; pirtobrutinib overcomes C481S; BTK+venetoclax achieve deep MRD negativity.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^byrd-2013-ibrutinib-cll]: Byrd JC, Furman RR, Coutre SE, et al. Targeting BTK with ibrutinib in relapsed chronic lymphocytic leukemia. *N Engl J Med.* 2013;369(1):32-42. [doi:10.1056/NEJMoa1215637](https://doi.org/10.1056/NEJMoa1215637) · [PubMed 23782158](https://pubmed.ncbi.nlm.nih.gov/23782158/)
 [^wang-2013-ibrutinib-mcl]: Wang ML, Rule S, Martin P, et al. Targeting BTK with ibrutinib in relapsed or refractory mantle-cell lymphoma. *N Engl J Med.* 2013;369(6):507-516. [doi:10.1056/NEJMoa1306220](https://doi.org/10.1056/NEJMoa1306220) · [PubMed 23782157](https://pubmed.ncbi.nlm.nih.gov/23782157/)

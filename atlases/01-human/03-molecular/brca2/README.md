@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "TP53 mutations in ~96% of HGSOC frequently co-occur with BRCA2 deficiency → dual checkpoint loss → replication stress and genomic instability; BRCA2-mutant tumors with TP53 loss are more genomically complex; MDM2 amplification in a minority of BRCA2-mutant ovarian cancers."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "BRCA2 mutations in ~10-15% of HGSOC; biallelic LOF → HRD → PARP inhibitor sensitivity; SOLO-1: olaparib maintenance → 56% PFS at 3 years vs 12% placebo in BRCA-mutant HGSOC; olaparib also approved for 1st-line maintenance in germline BRCA-mutant advanced ovarian cancer."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Germline BRCA2 mutations cause ~25% of hereditary breast cancer; lifetime breast cancer risk ~50-70%; olaparib (OlympiAD: PFS 7.0 vs 4.2 months) and talazoparib approved for metastatic HER2-negative BRCA-mutant breast cancer; OlympiA: olaparib adjuvant reduces recurrence by 42%."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "BRCA2 mutations in ~10% of familial and ~5-7% of sporadic PDAC; POLO trial: maintenance olaparib after platinum in BRCA-mutant mPDAC → PFS 7.4 vs 3.8 months; germline BRCA2 testing recommended for all pancreatic cancer patients for family counseling."
 ---
 
 # BRCA2
@@ -154,6 +163,13 @@ BRCA2 mutations in ~4-5% of all prostate cancer patients (vs. ~0.3% population p
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BRCA1 and BRCA2 act sequentially in HRR: BRCA1 (with BARD1) processes DSBs at 5' ends → recruits PALB2, which bridges to BRCA2 → RAD51 loading; germline BRCA1 mutations predominantly cause HGSOC and basal-like breast cancer; BRCA2 predominantly causes HR+ breast and ovarian cancers.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss → PI3K-AKT-mTOR activation in clear cell and endometrioid ovarian cancer; PARP inhibitor activity in BRCA2-mutant ovarian cancer is potentiated by PTEN loss → AKT-mTOR promotes reliance on PARP for DSB repair; dual PARP+PI3K inhibition under study in HRD+ tumors.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations in ~96% of HGSOC frequently co-occur with BRCA2 deficiency → dual checkpoint loss → replication stress and genomic instability; BRCA2-mutant tumors with TP53 loss are more genomically complex; MDM2 amplification in a minority of BRCA2-mutant ovarian cancers.
+- `connects-to` → **[Ovarian Cancer](../../07-system/ovarian-cancer/README.md)** — BRCA2 mutations in ~10-15% of HGSOC; biallelic LOF → HRD → PARP inhibitor sensitivity; SOLO-1: olaparib maintenance → 56% PFS at 3 years vs 12% placebo; olaparib is standard 1st-line maintenance in germline BRCA-mutant advanced ovarian cancer.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — Germline BRCA2 mutations cause ~25% of hereditary breast cancer; lifetime risk ~50-70%; olaparib (OlympiAD: PFS 7.0 vs 4.2 months) and talazoparib approved for metastatic BRCA-mutant breast cancer; OlympiA: adjuvant olaparib reduces recurrence by 42%.
+- `connects-to` → **[Pancreatic Cancer](../../07-system/pancreatic-cancer/README.md)** — BRCA2 mutations in ~10% of familial and ~5-7% of sporadic PDAC; POLO trial: maintenance olaparib after platinum in BRCA-mutant mPDAC → PFS 7.4 vs 3.8 months; germline BRCA2 testing recommended for all pancreatic cancer patients.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^wooster-1995-brca2]: Wooster R, Bignell G, Lancaster J, et al. Identification of the breast cancer susceptibility gene BRCA2. *Nature.* 1995;378(6559):789-792. [doi:10.1038/378789a0](https://doi.org/10.1038/378789a0) · [PubMed 8524414](https://pubmed.ncbi.nlm.nih.gov/8524414/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
