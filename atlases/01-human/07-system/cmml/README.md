@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB promotes monocyte/macrophage survival in CMML; SRSF2/ASXL1 mutations dysregulate NF-κB pathway activity; ruxolitinib reduces cytokine-driven NF-κB signaling in MP-CMML → splenomegaly response ~40-50%; GM-CSF/M-CSF autocrine loops drive NF-κB in CMML monocytes."
+  - target: 01-human/03-molecular/tet2
+    relation: connects-to
+    note: "TET2 mutations in ~60% of CMML; TET2 catalyses 5-mC → 5-hmC → promoter demethylation; TET2 loss → hypermethylation of tumor suppressor promoters + monocyte progenitor expansion; TET2+SRSF2 doublet is the dominant CMML genotype; TET2 CHIP evolves to CMML at ~1% per year."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "JAK2 V617F in ~15-20% of CMML; enriched in MP-CMML (WBC >13×10⁹/L); JAK2 V617F → STAT5 → monocyte proliferation and splenomegaly; ruxolitinib (JAK1/2 inhibitor) achieves splenomegaly response ~30-50% in MP-CMML; JAK2-mutant CMML may overlap with MDS/MPN-SF3B1."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "CMML monocytes differentiate into patrolling and pro-inflammatory macrophages; GM-CSF/M-CSF autocrine loops drive monocyte survival; tumor-associated macrophages suppress NK killing in the marrow niche; monocytosis (AMC ≥0.5×10⁹/L, ≥10% of WBC) is the defining CMML criterion."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -165,6 +174,13 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A mutations in ~10% of CMML; DNMT3A is an early CHIP hit establishing pre-malignant HSC clones before SRSF2 or TET2 co-mutation; DNMT3A+TET2+SRSF2 triplet occurs in ~5% of CMML → aggressive progression; DNMT3A-CHIP → CMML progression rate ~1-2% per year.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS/NRAS mutations in ~15% of CMML; RAS activation → monocyte proliferation → MP-CMML phenotype (WBC >13×10⁹/L, splenomegaly, organomegaly); KRAS-mutant CMML is aggressive with poor HMA response; MEK inhibitor trametinib shows early activity in RAS-mutant CMML.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB promotes monocyte/macrophage survival in CMML; SRSF2/ASXL1 mutations dysregulate NF-κB pathway activity; ruxolitinib reduces cytokine-driven NF-κB signaling in MP-CMML → splenomegaly response ~40-50%; GM-CSF/M-CSF autocrine loops drive NF-κB in CMML monocytes.
+- `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — TET2 mutations in ~60% of CMML; TET2 catalyses 5-mC → 5-hmC → promoter demethylation; TET2 loss → hypermethylation of tumor suppressor promoters + monocyte progenitor expansion; TET2+SRSF2 doublet is the dominant CMML genotype; TET2 CHIP evolves to CMML at ~1% per year.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — JAK2 V617F in ~15-20% of CMML; enriched in MP-CMML (WBC >13×10⁹/L); JAK2 V617F → STAT5 → monocyte proliferation and splenomegaly; ruxolitinib (JAK1/2 inhibitor) achieves splenomegaly response ~30-50% in MP-CMML; JAK2-mutant CMML may overlap with MDS/MPN-SF3B1.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — CMML monocytes differentiate into patrolling and pro-inflammatory macrophages; GM-CSF/M-CSF autocrine loops drive monocyte survival; tumor-associated macrophages suppress NK killing in the marrow niche; monocytosis (AMC ≥0.5×10⁹/L, ≥10% of WBC) is the defining CMML criterion.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^itzykson-2013-cmml-prognosis]: Itzykson R, Kosmider O, Renneville A, et al. Prognostic score including gene mutations in chronic myelomonocytic leukemia. *J Clin Oncol.* 2013;31(19):2428-2436. [doi:10.1200/JCO.2012.47.3314](https://doi.org/10.1200/JCO.2012.47.3314) · [PubMed 23690417](https://pubmed.ncbi.nlm.nih.gov/23690417/)
 [^patnaik-2022-cmml-review]: Patnaik MM, Tefferi A. Chronic myelomonocytic leukemia: 2022 update on diagnosis, risk stratification and management. *Am J Hematol.* 2022;97(3):352-372. [doi:10.1002/ajh.26457](https://doi.org/10.1002/ajh.26457) · [PubMed 34958140](https://pubmed.ncbi.nlm.nih.gov/34958140/)

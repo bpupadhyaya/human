@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "BCR-ABL activates SRC-family kinases (LYN, HCK, FGR) in CML; SRC kinases promote blast crisis transformation and TKI resistance; dasatinib and bosutinib inhibit both ABL and SRC-family kinases — dual ABL/SRC inhibition relevant in lymphoid blast crisis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BCR-ABL → PI3K → AKT → mTOR → S6K/4EBP1 → protein synthesis and cell survival; AKT phosphorylates BAD → prevents apoptosis in CML cells; imatinib resistance associated with PI3K/AKT activation independent of BCR-ABL; AKT inhibition synergizes with TKIs in blast crisis CML."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "BCR-ABL → STAT5/NF-κB → MYC transcription → G1/S acceleration; MYC amplification is common in blast crisis transformation; MYC overexpression promotes self-renewal of CML LSCs; BRD4 inhibitors (JQ1) reduce MYC expression and overcome TKI resistance in CML blast crisis models."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "RB1 inactivated in CML blast crisis via CDK4/6 hyperactivation; E2F release drives myeloid or lymphoid blast transformation; BCR-ABL accelerates CDK2-mediated RB1 inactivation; palbociclib (CDK4/6 inhibitor) re-engages RB1 and sensitizes TKI-resistant blast crisis to apoptosis."
 ---
 
 # Chronic Myeloid Leukemia
@@ -152,6 +161,13 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — BCR-ABL constitutively phosphorylates STAT5 (and STAT3) → transcription of BCL-XL, MYC, and cyclin D1 → blast survival and proliferation; STAT5 activation is a dominant signaling output of BCR-ABL; TKI response correlates with STAT5 dephosphorylation.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — BCR-ABL → PI3K-AKT → mTORC1 → S6K and 4EBP1 → protein synthesis and survival; mTOR pathway activation mediates imatinib resistance in some CML clones; dual PI3K-mTOR inhibitors studied as combination with TKIs in BCR-ABL-positive blast crisis.
 - `connects-to` → **[SRC kinase](../../03-molecular/src-kinase/README.md)** — BCR-ABL activates SRC-family kinases (LYN, HCK, FGR) in CML; SRC kinases promote blast crisis transformation and TKI resistance; dasatinib and bosutinib inhibit both ABL and SRC-family kinases — dual ABL/SRC inhibition relevant in lymphoid blast crisis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BCR-ABL → PI3K → AKT → mTOR → S6K/4EBP1 → protein synthesis and cell survival; AKT phosphorylates BAD → prevents apoptosis in CML cells; imatinib resistance associated with PI3K/AKT activation independent of BCR-ABL; AKT inhibition synergizes with TKIs in blast crisis CML.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — BCR-ABL → STAT5/NF-κB → MYC transcription → G1/S acceleration; MYC amplification is common in blast crisis transformation; MYC overexpression promotes self-renewal of CML LSCs; BRD4 inhibitors (JQ1) reduce MYC expression and overcome TKI resistance in CML blast crisis models.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB1 inactivated in CML blast crisis via CDK4/6 hyperactivation; E2F release drives myeloid or lymphoid blast transformation; BCR-ABL accelerates CDK2-mediated RB1 inactivation; palbociclib (CDK4/6 inhibitor) re-engages RB1 and sensitizes TKI-resistant blast crisis to apoptosis.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^druker-2006-iris-5year]: Druker BJ, Guilhot F, O'Brien SG, et al. Five-year follow-up of patients receiving imatinib for chronic myeloid leukemia. *N Engl J Med.* 2006;355(23):2408-2417. [doi:10.1056/NEJMoa062867](https://doi.org/10.1056/NEJMoa062867) · [PubMed 17151364](https://pubmed.ncbi.nlm.nih.gov/17151364/)
 [^hochhaus-2019-dasatinib]: Hochhaus A, Saglio G, Hughes TP, et al. Long-term benefits and risks of frontline nilotinib vs imatinib for chronic myeloid leukemia in chronic phase: 5-year update of the randomized ENESTnd trial. *Leukemia.* 2016;30(5):1044-1054. [doi:10.1038/leu.2016.5](https://doi.org/10.1038/leu.2016.5) · [PubMed 26816503](https://pubmed.ncbi.nlm.nih.gov/26816503/)
