@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Adipocyte — white/brown/beige fat cells, UCP1 thermogenesis, adipokine secretion (leptin, adiponectin), ATGL/HSL lipolysis. Atlas One · Human Engineering.">
+  <meta name="description" content="Lipid-storing mesenchymal cells in three types: white (WAT — energy storage + endocrine via leptin/adiponectin), brown (BAT — UCP1 thermogenesis), and beige (re">
   <meta property="og:title" content="Adipocyte — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Adipocyte — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #059669;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: #047857; }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,48 +39,52 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #065f46); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: #d97706; }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.mod .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
@@ -97,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -109,173 +119,64 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular &mdash; Scale 04</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
     <h1>Adipocyte</h1>
-    <p class="tagline">The lipid-storing cell of adipose tissue — a mesenchymal cell existing in white, brown, and beige forms, orchestrating whole-body energy balance, thermogenesis, and systemic metabolism through a rich endocrine secretome.</p>
-    <p class="subtagline">CL:0000136 &middot; White adipocytes: unilocular lipid droplet, 80–120 µm, largest cells in the body. Brown adipocytes: multilocular, UCP1+, non-shivering thermogenesis up to 300 W/kg. Beige: recruitable from WAT by cold/&beta;3-AR.</p>
+    <p class="tagline">Lipid-storing mesenchymal cells in three types: white (WAT — energy storage + endocrine via leptin/adiponectin), brown (BAT — UCP1 thermogenesis), and beige (recruitable thermogenic within WAT). Central to whole-body energy and metabolic homeostasis.</p>
+    <p class="aliases">Also known as: fat cell, lipocyte, white adipocyte, brown adipocyte, beige adipocyte, adipose cell</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">80–120 µm</span><span class="stat-label">White Adipocyte</span></div>
-      <div class="stat"><span class="stat-num">~10%</span><span class="stat-label">WAT Turnover / Year</span></div>
-      <div class="stat"><span class="stat-num">300 W/kg</span><span class="stat-label">BAT Heat Output</span></div>
-      <div class="stat"><span class="stat-num">&gt;600</span><span class="stat-label">Adipokines Secreted</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">CL:0000136 &middot; Atlas One / Scale 04 &mdash; Cellular</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">adipocyte</div>
         <h2>Adipocyte</h2>
-        <p class="summary">Lipid-storing mesenchymal cells in three types: white (WAT — energy storage + endocrine via leptin/adiponectin), brown (BAT — UCP1 non-shivering thermogenesis), and beige (recruitable thermogenic within WAT by cold or &beta;3-AR agonism). Central to whole-body energy homeostasis, insulin sensitivity, inflammation, and cardiovascular risk. WAT is the largest endocrine organ in the body.</p>
+        <p class="summary">Lipid-storing mesenchymal cells in three types: white (WAT — energy storage + endocrine via leptin/adiponectin), brown (BAT — UCP1 thermogenesis), and beige (recruitable thermogenic within WAT). Central to whole-body energy and metabolic homeostasis.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The adipocyte is the lipid-storing cell of adipose tissue — a specialised mesenchymal cell capable of accumulating and mobilising triglycerides to match the body's moment-to-moment energy needs. Long regarded as a passive energy depot, adipose tissue is now recognised as a <strong>major endocrine organ</strong> secreting more than 600 bioactive proteins (adipokines) that regulate appetite, insulin sensitivity, inflammation, immune function, and cardiovascular risk.</p>
-          <p>Three functionally and developmentally distinct adipocyte types exist. <strong>White adipocytes (WAT)</strong> dominate body fat composition: subcutaneous (50–60%), visceral (intra-abdominal), and ectopic (hepatic, intramuscular) depots. A single giant unilocular lipid droplet occupies &gt;90% of cell volume. <strong>Brown adipocytes (BAT)</strong> are present in paravertebral, supraclavicular, and perirenal depots in adult humans; they contain multilocular lipid droplets and dense mitochondria, and express UCP1 (uncoupling protein 1) for non-shivering thermogenesis. <strong>Beige (brite) adipocytes</strong> are recruited within WAT depots by cold exposure, &beta;3-adrenergic receptor agonism, FGF21, or irisin — upregulating UCP1 and acquiring BAT-like thermogenic capacity.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Feature</th><th>White Adipocyte</th><th>Brown Adipocyte</th></tr>
-            <tr><td>Diameter</td><td>80–120 µm (among largest cells)</td><td>25–40 µm (smaller, multilocular)</td></tr>
-            <tr><td>Lipid droplet</td><td>Unilocular; occupies &gt;90% volume; phospholipid monolayer + TAG core</td><td>Multilocular (many small LDs — maximises lipase access)</td></tr>
-            <tr><td>Mitochondria</td><td>Sparse; thin cytoplasmic rim</td><td>Abundant, dense cristae; very high oxidative capacity (COX high)</td></tr>
-            <tr><td>LD coat protein</td><td>Perilipin-1 (PLIN1) — master LD coat; phosphorylated by PKA on lipolysis</td><td>PLIN1 + PLIN2; UCP1 in IMM</td></tr>
-            <tr><td>Key markers</td><td>PLIN1, FABP4/aP2, adiponectin, leptin, CD36, GLUT4</td><td>UCP1, Cidea, Cox8b, PGC-1&alpha;, PRDM16; Tmem26 (beige)</td></tr>
-            <tr><td>Nucleus</td><td>Peripherally displaced, crescent-shaped</td><td>Central; round</td></tr>
-            <tr><td>Innervation</td><td>Sparse sympathetic; &beta;3-AR present but few nerve fibres</td><td>Dense sympathetic (&beta;1/&beta;3-AR) — required for thermogenic activation</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>adipocyte</td></tr>
+            <tr><td>Name</td><td>Adipocyte</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Lipolysis, Lipogenesis, and Thermogenesis</h3>
-          <div class="circuit-diagram">
-<pre>
-  WHITE ADIPOCYTE — LIPID STORAGE AND MOBILISATION
-  ══════════════════════════════════════════════════
-
-  FED STATE (insulin-dominant) — LIPOGENESIS:
-  Insulin --> IRS-1/PI3K/Akt --> GLUT4 translocation (glucose uptake)
-                              --> PDE3B --> cAMP degradation --> anti-lipolysis
-  LPL (endothelium, insulin-activated) cleaves VLDL/CM-TAG
-       --> FFA release --> CD36/FATP4 uptake
-  Intracellular: G-3-P + FFA --> DAG (DGAT1/DGAT2) --> TAG --> LD (PLIN1 coat)
-
-  FASTED / STRESS STATE (catecholamine-dominant) — LIPOLYSIS:
-  beta1/beta3-AR stimulus (NE, glucagon, ANP, GH)
-       --> Gs --> adenylyl cyclase --> cAMP --> PKA activation
-  PKA phospho PLIN1 (Ser492/522)
-       --> releases CGI-58/ABHD5 --> activates ATGL (adipose TAG lipase)
-       --> TAG --> DAG
-  PKA phospho HSL (Ser563/660)
-       --> active HSL translocates to LD --> DAG --> MAG
-  MGL (constitutive) --> MAG --> glycerol + FFA
-  Products: 3 FFAs + 1 glycerol --> albumin-bound in plasma
-       --> liver (beta-oxidation, ketogenesis, VLDL)
-       --> muscle/heart (beta-oxidation)
-
-  BROWN ADIPOCYTE — UCP1 THERMOGENESIS:
-  ══════════════════════════════════════════════════
-  Cold / beta3-AR --> cAMP --> PKA --> lipolysis (FFA as fuel + UCP1 activator)
-  Mitochondrial OXPHOS generates H+ gradient (proton-motive force)
-  UCP1 (inner mitochondrial membrane):
-       H+ re-enters matrix via UCP1 (bypassing ATP synthase)
-       --> proton-motive force DISSIPATED AS HEAT (not ATP)
-  Inhibition: purine nucleotides (GDP, ADP) bind UCP1 -- competitive
-  Activation: long-chain free fatty acids (LCFA) released by lipolysis
-  Net: O2 consumption maximal, ATP synthesis minimal
-       --> heat generation up to 300 W/kg BAT
-
-  BEIGE/BRITE ADIPOCYTE INDUCTION:
-  Cold, beta3-AR agonists (mirabegron), FGF21, irisin (muscle-derived FNDC5)
-       --> PGC-1alpha transcription --> UCP1, Cidea, Cpt1b upregulation
-       --> WAT depot acquires brown-like multilocular phenotype
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Endocrine Function — Adipokines</h3>
-          <table class="data-table">
-            <tr><th>Adipokine</th><th>Source / Level</th><th>Receptor / Signalling</th><th>Key Effects</th></tr>
-            <tr><td>Leptin (LEP)</td><td>WAT; proportional to fat mass; &uarr; postprandially; &darr; fasting</td><td>LepRb (long form) in hypothalamic ARC &rarr; JAK2/STAT3; &darr;AgRP/NPY (orexigenic), &uarr;POMC/CART (anorexigenic)</td><td>Satiety, &uarr;energy expenditure, &uarr;sympathetic tone; pro-inflammatory at high levels; angiogenic (VEGF-like)</td></tr>
-            <tr><td>Adiponectin (ADIPOQ)</td><td>WAT; ~5–10 µg/mL; paradoxically &darr; with fat mass</td><td>AdipoR1 (muscle &rarr; AMPK); AdipoR2 (liver &rarr; PPAR&alpha;)</td><td>&uarr;FA oxidation (AMPK&rarr;ACC&rarr;&darr;malonyl-CoA&rarr;&uarr;CPT1), &darr;gluconeogenesis, &uarr;insulin sensitivity; anti-inflammatory (&darr;NF-&kappa;B, &uarr;IL-10); &darr; in obesity/T2DM; &uarr; with TZDs</td></tr>
-            <tr><td>Resistin</td><td>Primarily ATMs in humans (adipocyte in rodents); &uarr; in obesity</td><td>TLR4 / serine kinase cascades</td><td>Pro-inflammatory; impairs insulin signalling; &darr; AMPK</td></tr>
-            <tr><td>PAI-1</td><td>WAT (visceral &gt; subcutaneous); &uarr; in obesity</td><td>Inhibits tissue plasminogen activator (tPA)</td><td>Pro-thrombotic (impaired fibrinolysis); CVD risk marker in metabolic syndrome</td></tr>
-            <tr><td>CCL2/MCP-1</td><td>Enlarged adipocytes, ATMs</td><td>CCR2 on monocytes</td><td>Monocyte chemoattractant &rarr; ATM infiltration &rarr; crown-like structures &rarr; inflammatory amplification</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Adipogenesis — Transcriptional Programme</h3>
-          <p>Adipogenesis proceeds from mesenchymal progenitors through a committed pre-adipocyte stage to the mature lipid-laden adipocyte. The transcriptional programme is one of the best understood in cell biology:</p>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Early Induction</h4>
-              <p>Adipogenic stimulus (insulin, glucocorticoid, IBMX) &rarr; growth arrest &rarr; C/EBP&beta; and C/EBP&delta; (early TFs, hours) &rarr; activate PPAR&gamma; and C/EBP&alpha; promoters.</p>
-            </div>
-            <div class="info-block">
-              <h4>Master TF Activation</h4>
-              <p>PPAR&gamma; (nuclear receptor) = obligatory master regulator of all adipogenesis. Ligands: PUFAs, 15d-PGJ&#x2082;; pharmacological agonists: TZDs (rosiglitazone, pioglitazone &rarr; &uarr;adiponectin, &uarr;insulin sensitivity). C/EBP&alpha; co-activates in positive feedback.</p>
-            </div>
-            <div class="info-block">
-              <h4>BAT Specification</h4>
-              <p>PRDM16 + PPAR&gamma; + PGC-1&alpha; &rarr; brown adipocyte fate. BMP7 activates PRDM16. &beta;3-AR/cAMP &rarr; PGC-1&alpha; &rarr; mitochondrial biogenesis, UCP1 transcription (via PGC-1&alpha; binding to PPAR response element in UCP1 enhancer).</p>
-            </div>
-            <div class="info-block">
-              <h4>Suppressors</h4>
-              <p>Wnt/&beta;-catenin (inhibits C/EBP&alpha;/PPAR&gamma; &rarr; maintains pre-adipocyte state), Pref-1/DLK1, GATA2/3, KLF2. TGF-&beta; (anti-adipogenic in WAT). NE/sympathetic &rarr; PRDM16 &rarr; BAT differentiation (via &beta;3-AR/cAMP).</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Obesity and Metabolic Syndrome</h4>
-            <p>Adipocyte hypertrophy &gt;100 µm &rarr; hypoxia (HIF-1&alpha;), ER stress, cell death &rarr; ATM infiltration (M1 polarisation via MCP-1/CCL2) &rarr; crown-like structures (CLSs) &rarr; &uarr;TNF-&alpha;, IL-6, IL-1&beta; &rarr; systemic insulin resistance (IRS-1 Ser307 phosphorylation by JNK). &uarr;portal FFA delivery &rarr; hepatic lipid accumulation &rarr; NAFLD/NASH. Visceral fat &gt; subcutaneous fat for metabolic risk (direct portal FFA delivery). BMI is a poor predictor; waist circumference and visceral fat mass better correlate with cardiometabolic risk.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Type 2 Diabetes Mellitus — Adipose Contribution</h4>
-            <p>Obesity &rarr; adipocyte-derived TNF-&alpha; + excess FFAs &rarr; IRS-1 Ser307 phosphorylation (JNK) &rarr; uncoupling of insulin receptor &rarr; impaired GLUT4 translocation &rarr; adipocyte and systemic insulin resistance &rarr; &uarr;lipolysis &rarr; further FFA elevation &rarr; &beta;-cell lipotoxicity + glucolipotoxicity &rarr; progressive &beta;-cell failure. &darr;Adiponectin in visceral obesity impairs AMPK/PPAR&alpha; signalling in liver and muscle. Weight loss reverses adipose inflammation and partially restores insulin sensitivity.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Lipodystrophy</h4>
-            <p><strong>Congenital generalised lipodystrophy (CGL):</strong> AGPAT2, BSCL2/seipin, CAVEOLIN1, PTRF mutations &rarr; near-complete absence of adipose tissue &rarr; paradoxically severe insulin resistance, hypertriglyceridaemia (&gt;1000 mg/dL), fatty liver, early T2DM. <strong>Familial partial lipodystrophy (FPLD2, Dunnigan type):</strong> LMNA mutations &rarr; loss of limb/gluteal adipose, truncal sparing &rarr; metabolic syndrome. <strong>HIV/ART lipodystrophy:</strong> NRTIs/PIs &rarr; mitochondrial dysfunction, &darr;adipogenesis &rarr; lipoatrophy + central fat accumulation.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>BAT Dysfunction in Obesity and Ageing</h4>
-            <p>BAT mass and activity decline with age and in obesity (&darr;sympathetic innervation density, &darr;UCP1, BAT whitening). Reduced BAT thermogenic capacity &darr;energy expenditure contribution (estimated 20–30 kcal/day in lean young adults, 2–5 kcal/day in obese individuals). Therapeutic activation of BAT/beige adipocytes (mirabegron, &beta;3-AR agonists; FGF21 analogues; BMP7) is an active clinical development area.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Liposarcoma</h4>
-            <p>Most common soft tissue sarcoma in adults; retroperitoneal and extremity locations predominate. <strong>Well-differentiated (WDLS) / dedifferentiated (DDLS):</strong> MDM2 + CDK4 amplification on chromosome 12q13-15 (detected by FISH/IHC &mdash; diagnostic). <strong>Myxoid/round cell:</strong> DDIT3 (CHOP)-FUS or DDIT3-EWSR1 fusion &rarr; failure of terminal adipogenesis. Histologically: variable lipoblast differentiation + fat necrosis. Treatment: surgical resection &pm; radiotherapy; limited systemic options for DDLS (doxorubicin-based).</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill mod" href="hepatocyte.html"><span class="rel">Modulates</span>Hepatocyte (FFA, adipokines)</a>
-            <a class="conn-pill mod" href="islet-of-langerhans.html"><span class="rel">Modulates</span>Islet of Langerhans (&beta;-cell lipotoxicity)</a>
-            <a class="conn-pill" href="endothelial-cell.html"><span class="rel">Modulates</span>Endothelial Cell (adipokines)</a>
-            <a class="conn-pill" href="smooth-muscle-cell.html"><span class="rel">Modulates</span>Smooth Muscle Cell (FFA, PAI-1)</a>
-            <a class="conn-pill" href="fibroblast.html"><span class="rel">Contains</span>Stromal Fibroblast (SVF)</a>
-            <a class="conn-pill" href="pathogens.html#sars-cov-2"><span class="rel">Infected by</span>SARS-CoV-2</a>
+            <a class="conn-pill part" href="human-body.html" title="Adipocytes store 15–25% of body mass as triglyceride in healthy adults (up to 50%+ in obesity); WAT is the largest endocrine organ producing leptin, adiponectin, and resistin that regulate whole-body metabolism."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill" href="immune-system.html" title="Obese WAT accumulates M1 macrophages (via MCP-1/CCL2) forming crown-like structures around dead adipocytes; ↑TNF-α, IL-6, IL-1β → chronic low-grade inflammation → insulin resistance; adiponectin is anti-inflammatory."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="hepatocyte.html" title="Adipocyte lipolysis releases excess FFA to portal circulation → hepatic lipid accumulation → NAFLD/NASH; adipokine dysregulation (↑leptin, ↓adiponectin) promotes hepatic inflammation and stellate cell activation → fibrosis."><span class="rel">modulates</span>Hepatocyte</a>
+            <a class="conn-pill" href="insulin-receptor.html" title="In obesity, adipocyte-derived TNF-α and excess FFAs impair IRS-1 (Ser307 phosphorylation by JNK) → uncoupling of insulin receptor signalling → adipocyte insulin resistance → impaired GLUT4 translocation → hyperglycaemia."><span class="rel">modulates</span>Insulin Receptor</a>
+            <a class="conn-pill" href="leptin.html" title="Adipocytes are the primary source of leptin (ob gene product); leptin signals to hypothalamic POMC/AgRP neurons via LepR to suppress appetite; leptin resistance in obesity → hyperphagia; serum leptin correlates with fat mass."><span class="rel">secretes</span>Leptin</a>
+            <a class="conn-pill" href="obesity.html" title="White adipocyte hypertrophy and hyperplasia define obesity; visceral WAT dysfunction drives metabolic syndrome; adipogenesis via PPARγ/C/EBPα; crown-like structures with M1 macrophages mark obese visceral adipose tissue."><span class="rel">connects-to</span>Obesity</a>
+            <a class="conn-pill" href="macrophage.html" title="Obese WAT recruits M1 macrophages via MCP-1/CCL2 forming crown-like structures; ATMs secrete TNF-α, IL-6, IL-1β → adipocyte insulin resistance; M2-to-M1 polarisation switch in obesity drives systemic low-grade inflammation."><span class="rel">connects-to</span>Macrophage</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Alberts B et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">ncbi.nlm.nih.gov</a></li>
-            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021.</li>
-            <li>Cannon B, Nedergaard J. Brown adipose tissue: function and physiological significance. <em>Physiol Rev.</em> 2004;84(1):277-359. <a href="https://doi.org/10.1152/physrev.00015.2003" target="_blank" rel="noopener">doi:10.1152/physrev.00015.2003</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/14715917/" target="_blank" rel="noopener">PubMed 14715917</a></li>
-            <li>Scherer PE. The many secret lives of adipocytes: implications for diabetes. <em>Diabetologia.</em> 2019;62(2):223-232. <a href="https://doi.org/10.1007/s00125-018-4755-6" target="_blank" rel="noopener">doi:10.1007/s00125-018-4755-6</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30471288/" target="_blank" rel="noopener">PubMed 30471288</a></li>
-            <li>Rosen ED, Spiegelman BM. What we talk about when we talk about fat. <em>Cell.</em> 2014;156(1-2):20-44. <a href="https://doi.org/10.1016/j.cell.2013.12.012" target="_blank" rel="noopener">doi:10.1016/j.cell.2013.12.012</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24439368/" target="_blank" rel="noopener">PubMed 24439368</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
           </ul>
         </div>
 
@@ -287,16 +188,14 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="hepatocyte.html">Hepatocyte</a>
-      <a href="islet-of-langerhans.html">Islet of Langerhans</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

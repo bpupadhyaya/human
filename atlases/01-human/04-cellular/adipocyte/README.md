@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: modulates
     note: "In obesity, adipocyte-derived TNF-α and excess FFAs impair IRS-1 (Ser307 phosphorylation by JNK) → uncoupling of insulin receptor signalling → adipocyte insulin resistance → impaired GLUT4 translocation → hyperglycaemia."
+  - target: 01-human/03-molecular/leptin
+    relation: secretes
+    note: "Adipocytes are the primary source of leptin (ob gene product); leptin signals to hypothalamic POMC/AgRP neurons via LepR to suppress appetite; leptin resistance in obesity → hyperphagia; serum leptin correlates with fat mass."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "White adipocyte hypertrophy and hyperplasia define obesity; visceral WAT dysfunction drives metabolic syndrome; adipogenesis via PPARγ/C/EBPα; crown-like structures with M1 macrophages mark obese visceral adipose tissue."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Obese WAT recruits M1 macrophages via MCP-1/CCL2 forming crown-like structures; ATMs secrete TNF-α, IL-6, IL-1β → adipocyte insulin resistance; M2-to-M1 polarisation switch in obesity drives systemic low-grade inflammation."
 ---
 
 # Adipocyte
@@ -175,6 +184,9 @@ Cell death: **adipocyte death** (mechanical failure of hypertrophied cells, ER s
 - **Modulates** immune system [→ immune-system](../../07-system/immune-system/README.md): Obese WAT accumulates M1 macrophages (via MCP-1/CCL2) forming crown-like structures around dead adipocytes; ↑TNF-α, IL-6, IL-1β → chronic low-grade inflammation → insulin resistance; adiponectin is anti-inflammatory.
 - **Modulates** hepatocyte [→ hepatocyte](../../04-cellular/hepatocyte/README.md): Adipocyte lipolysis releases excess FFA to portal circulation → hepatic lipid accumulation → NAFLD/NASH; adipokine dysregulation (↑leptin, ↓adiponectin) promotes hepatic inflammation and stellate cell activation → fibrosis.
 - **Modulates** insulin receptor [→ insulin-receptor](../../03-molecular/insulin-receptor/README.md): In obesity, adipocyte-derived TNF-α and excess FFAs impair IRS-1 (Ser307 phosphorylation by JNK) → uncoupling of insulin receptor signalling → adipocyte insulin resistance → impaired GLUT4 translocation → hyperglycaemia.
+- **Secretes** leptin [→ leptin](../../03-molecular/leptin/README.md): Adipocytes are the primary source of leptin (ob gene product); leptin signals to hypothalamic POMC/AgRP neurons via LepR to suppress appetite; leptin resistance in obesity drives hyperphagia; serum leptin correlates with body fat mass.
+- **Connects to** obesity [→ obesity](../../07-system/obesity/README.md): White adipocyte hypertrophy and hyperplasia define obesity; visceral WAT dysfunction drives metabolic syndrome via adipokine dysregulation; adipogenesis proceeds via PPARγ/C/EBPα; crown-like structures with M1 macrophages mark obese visceral adipose tissue.
+- **Connects to** macrophage [→ macrophage](../../04-cellular/macrophage/README.md): Obese WAT recruits M1 macrophages via MCP-1/CCL2 forming crown-like structures; adipose tissue macrophages (ATMs) secrete TNF-α, IL-6, IL-1β → adipocyte insulin resistance; M2-to-M1 polarisation switch in obesity drives systemic low-grade inflammation.
 
 ## Pathology
 
@@ -195,3 +207,7 @@ Cell death: **adipocyte death** (mechanical failure of hypertrophied cells, ER s
 - [Macrophage](../../04-cellular/macrophage/README.md) — adipose tissue macrophages regulate adipocyte homeostasis, fibrosis, and inflammation; M1/M2 balance determines adipose health
 - [Human Body](../../08-whole-body/human-body/README.md) — whole-body energy balance is regulated by adipocyte-derived leptin and adiponectin acting on central and peripheral tissues
 - [IL-6](../../03-molecular/il-6/README.md) — produced by adipose tissue macrophages in obesity; central mediator of adipose-driven systemic inflammation and hepatic acute-phase response
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

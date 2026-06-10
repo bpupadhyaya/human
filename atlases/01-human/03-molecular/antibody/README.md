@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: expressed-by
     note: "Germinal centers produce high-affinity, isotype-switched antibodies via somatic hypermutation and class switch recombination; GC-derived B cells differentiate into long-lived plasma cells or memory B cells carrying somatically matured antibody specificity."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "ADCC: IgG Fc binds FcγRIII (CD16) on NK cells → degranulation → perforin/granzyme release → target cell killing; ADCC mediates antiviral protection (HIV, CMV, influenza) and anti-tumor activity of trastuzumab and rituximab."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "FcγRI/II/III on macrophages bind IgG-opsonized targets → phagocytosis; antibody+C3b → enhanced opsonophagocytosis; macrophage FcγRIIA mediates platelet activation in HIT; ADCP is a key anti-tumor effector mechanism."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "IgE (via FcεRI on mast cells) mediates type I hypersensitivity; allergen cross-links surface IgE → mast cell degranulation → histamine, leukotrienes → allergic symptoms; IgE-mast cell axis is the mechanistic basis of anaphylaxis."
 ---
 
 # Antibody
@@ -128,7 +137,14 @@ Therapeutic monoclonal antibodies (mAbs) — produced by hybridoma technology or
 - `expressed-by` → **[B Cell](../../04-cellular/b-cell/README.md)** — naïve and memory B cells display membrane-bound antibody (BCR) as their antigen recognition unit; BCR signaling drives B cell activation, clonal expansion, and differentiation.
 - `connects-to` → **[Immunoglobulin G](../immunoglobulin-g/README.md)** — IgG is the dominant serum isotype; its four subclasses (IgG1-4) mediate the bulk of secondary immune responses, ADCC, complement activation, and transplacental passive immunity.
 - `expressed-by` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — germinal centers produce the high-affinity, isotype-switched antibodies that underlie durable humoral immunity; B cells exit GCs as long-lived plasma cells or memory B cells carrying somatically matured antibodies.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — ADCC: IgG Fc binds FcγRIII (CD16) on NK cells → degranulation → perforin/granzyme release → target cell killing; ADCC mediates antiviral protection against HIV, CMV, and influenza and underlies anti-tumor activity of trastuzumab and rituximab.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — FcγRI/II/III on macrophages bind IgG-opsonized targets → phagocytosis; IgG+C3b together synergistically enhance opsonophagocytosis; macrophage FcγRIIA drives platelet activation in HIT; ADCP is a key anti-tumor effector mechanism of therapeutic antibodies.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — IgE binds FcεRI on mast cells with high affinity; allergen cross-links mast cell–bound IgE → immediate degranulation → histamine, leukotrienes, prostaglandins → allergic symptoms; IgE-mast cell axis is the mechanistic basis of type I hypersensitivity and anaphylaxis.
 
 [^schroeder-2010-ig-structure]: Schroeder HW Jr, Cavacini L. Structure and function of immunoglobulins. *J Allergy Clin Immunol.* 2010;125(2 Suppl 2):S41-52. [doi:10.1016/j.jaci.2009.09.046](https://doi.org/10.1016/j.jaci.2009.09.046) · [PubMed 20176268](https://pubmed.ncbi.nlm.nih.gov/20176268/)
 [^burton-2002-antibodies-vaccines]: Burton DR. Antibodies, viruses and vaccines. *Nat Rev Immunol.* 2002;2(9):706-713. [doi:10.1038/nri891](https://doi.org/10.1038/nri891) · [PubMed 12209139](https://pubmed.ncbi.nlm.nih.gov/12209139/)
 [^vidarsson-2014-igg-subclasses]: Vidarsson G, Dekkers G, Rispens T. IgG subclasses and allotypes: from structure to effector functions. *Front Immunol.* 2014;5:520. [doi:10.3389/fimmu.2014.00520](https://doi.org/10.3389/fimmu.2014.00520) · [PubMed 25368619](https://pubmed.ncbi.nlm.nih.gov/25368619/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
