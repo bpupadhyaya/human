@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/men4-syndrome
     relation: connects-to
     note: "Germline CDKN1B LOF causes MEN4 via CDK2-CyclinE derepression → neuroendocrine proliferation; pituitary adenomas (all types), parathyroid hyperplasia, pancreatic NETs; CDKN1B sequencing recommended in MEN1-negative MEN families; WHO 2022 formally recognizes MEN4."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Low nuclear p27 is an established adverse biomarker in pancreatic NETs (predicts worse PFS on SSA therapy) and pituitary adenomas (predicts recurrence); nuclear p27 loss correlates with high Ki-67 and aggressive behavior; p27 IHC is routinely assessed in NET grading."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "AKT phosphorylates p27 at Thr157/Thr198 → masks nuclear localization signal → cytoplasmic p27 retention; cytoplasmic p27 binds RhoA-GEF → inhibits RhoA → promotes lamellipodia and cell migration; cytoplasmic p27 is paradoxically pro-invasive in HER2+ breast cancer."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "p27 (CDKN1B) inhibits CDK2-CyclinE and CDK4/6-CyclinD via its KID domain → Rb remains hypophosphorylated → G1/S arrest; CDK4/6 inhibitor re-accumulates nuclear p27 by reducing pThr187-CDK2 → reduced SKP2-mediated degradation → reinforced G1 arrest."
 ---
 
 # CDKN1B
@@ -129,6 +138,13 @@ CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) re-activate p27 functio
 - `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — CDKN1B (p27KIP1) and CDKN1A (p21WAF1) are both CIP/KIP CDK inhibitors targeting CDK2-CyclinE; p21 is primarily p53-transcribed and mediates DNA damage arrest; p27 is primarily regulated by proteolysis (SCF-SKP2) at G1/S; both control cell cycle entry and senescence.
 - `connects-to` → **[MEN1 Syndrome](../../07-system/men1-syndrome/README.md)** — MEN1 and MEN4 share similar tumor spectra (pituitary, parathyroid, pancreatic NETs); MEN1 is caused by menin LOF (epigenetic scaffold), MEN4 by CDKN1B LOF (CDK2 inhibitor); MEN4 is rarer (~1/100 of MEN1 prevalence); screening: test CDKN1B in MEN1-negative MEN families.
 - `connects-to` → **[MEN4 Syndrome](../../07-system/men4-syndrome/README.md)** — Germline CDKN1B LOF causes MEN4 via CDK2-CyclinE derepression → neuroendocrine proliferation; pituitary adenomas (all types), parathyroid hyperplasia, pancreatic NETs; CDKN1B sequencing recommended in MEN1-negative MEN families; WHO 2022 formally recognizes MEN4.
+- `connects-to` → **[Neuroendocrine Tumors](../../07-system/neuroendocrine-tumors/README.md)** — low nuclear p27 is an established adverse biomarker in pancreatic NETs (predicts worse PFS on SSA therapy) and pituitary adenomas (predicts recurrence); nuclear p27 loss correlates with high Ki-67 and aggressive behavior; p27 IHC is routinely assessed in NET grading.
+- `connects-to` → **[AKT](../akt/README.md)** — AKT phosphorylates p27 at Thr157/Thr198 → masks nuclear localization signal → cytoplasmic p27 retention; cytoplasmic p27 binds RhoA-GEF → inhibits RhoA → promotes lamellipodia and cell migration; cytoplasmic p27 is paradoxically pro-invasive in HER2+ breast cancer.
+- `connects-to` → **[CDK4/6](../cdk4-6/README.md)** — p27 (CDKN1B) inhibits CDK2-CyclinE and CDK4/6-CyclinD via its KID domain → Rb remains hypophosphorylated → G1/S arrest; CDK4/6 inhibitor re-accumulates nuclear p27 by reducing pThr187-CDK2 → reduced SKP2-mediated degradation → reinforced G1 arrest.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^polyak-1994-p27-cell-cycle]: Polyak K, Lee MH, Erdjument-Bromage H, et al. Cloning of p27Kip1, a cyclin-dependent kinase inhibitor and a potential mediator of extracellular antimitogenic signals. *Cell.* 1994;78(1):59-66. [doi:10.1016/0092-8674(94)90572-X](https://doi.org/10.1016/0092-8674(94)90572-X) · [PubMed 8033212](https://pubmed.ncbi.nlm.nih.gov/8033212/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "p16/INK4A competitive inhibitor of CDK4 and CDK6 → prevents CCND1-CDK4/6 formation → RB1 unphosphorylated → G1 arrest; CDK4 amplification (~6-8% osteosarcoma, ~10% glioblastoma) bypasses p16; palbociclib, ribociclib, abemaciclib exploit CDK4/6 in CDKN2A-deleted tumors."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "CDKN2A is deleted in ~50% of cutaneous melanoma and mutated in ~15%; germline CDKN2A causes FAMMM with 76% lifetime melanoma risk; BRAF V600E nevi are OIS-arrested via CDKN2A/p16; CDKN2A+TP53 co-deletion enables progression from benign nevus to invasive melanoma."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "CDKN2A is deleted in ~80-90% of pancreatic ductal adenocarcinoma (PDAC), one of 4 founding driver events (KRAS, TP53, SMAD4, CDKN2A); homozygous deletion eliminates both p16 (CDK4/6 checkpoint) and ARF (p53 stabilization) simultaneously, enabling maximal proliferative drive."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "BRAF V600E activation → MEK/ERK → p16 induction + ARF induction → OIS in benign nevi; progression to invasive melanoma requires CDKN2A deletion bypassing OIS; BRAF inhibitors (vemurafenib/dabrafenib) combined with MEK inhibitors remain effective despite CDKN2A co-deletion."
 ---
 
 # CDKN2A
@@ -153,6 +162,13 @@ CDKN2A promoter CpG island hypermethylation (epigenetic silencing):
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — p14/ARF (CDKN2A alternative reading frame) binds MDM2 → sequesters MDM2 → prevents MDM2-mediated p53 ubiquitination → p53 stabilized; ARF deletion silences p53 pathway without TP53 mutation; ~80-90% PDAC loses CDKN2A eliminating both p16 and ARF tumor suppression simultaneously.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — CDKN2A p14/ARF sequesters MDM2 → prevents MDM2-mediated p53 ubiquitination → p53 activation; CDKN2A deletion removes ARF → MDM2 free → p53 degradation; MDM2 amplification (~6-8% osteosarcoma, ~10% liposarcoma) and ARF deletion are functionally equivalent de-repression mechanisms.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — p16/INK4A competitive inhibitor of CDK4 and CDK6 → prevents CCND1-CDK4/6 formation → RB1 unphosphorylated → G1 arrest; CDK4 amplification (~6-8% osteosarcoma, ~10% glioblastoma) bypasses p16; palbociclib, ribociclib, abemaciclib exploit CDK4/6 in CDKN2A-deleted tumors.
+- `connects-to` → **[Melanoma](../../07-system/melanoma/README.md)** — CDKN2A is deleted in ~50% of cutaneous melanoma and mutated in ~15%; germline CDKN2A causes FAMMM with 76% lifetime melanoma risk; BRAF V600E nevi are OIS-arrested via CDKN2A/p16; CDKN2A+TP53 co-deletion enables progression from benign nevus to invasive melanoma.
+- `connects-to` → **[Pancreatic Cancer](../../07-system/pancreatic-cancer/README.md)** — CDKN2A is deleted in ~80-90% of PDAC, one of 4 founding driver events (KRAS, TP53, SMAD4, CDKN2A); homozygous deletion eliminates both p16 (CDK4/6 checkpoint) and ARF (p53 stabilization) simultaneously, enabling maximal proliferative drive.
+- `connects-to` → **[BRAF](../braf/README.md)** — BRAF V600E activation → MEK/ERK → p16 induction + ARF induction → OIS in benign nevi; progression to invasive melanoma requires CDKN2A deletion bypassing OIS; BRAF inhibitors (vemurafenib/dabrafenib) combined with MEK inhibitors remain effective despite CDKN2A co-deletion.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^kamb-1994-cdkn2a-p16]: Kamb A, Gruis NA, Weaver-Feldhaus J, et al. A cell cycle regulator potentially involved in genesis of many tumor types. *Science.* 1994;264(5157):436-440. [doi:10.1126/science.7923360](https://doi.org/10.1126/science.7923360) · [PubMed 7923360](https://pubmed.ncbi.nlm.nih.gov/7923360/)
 [^kim-2006-ink4a-arf-review]: Kim WY, Sharpless NE. The regulation of INK4/ARF in cancer and aging. *Cell.* 2006;127(2):265-275. [doi:10.1016/j.cell.2006.10.003](https://doi.org/10.1016/j.cell.2006.10.003) · [PubMed 17055429](https://pubmed.ncbi.nlm.nih.gov/17055429/)
