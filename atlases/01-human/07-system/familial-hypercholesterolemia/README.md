@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "FH results from impaired LDLR-mediated cholesterol clearance; LDLR mutations → fewer surface receptors → LDL-C >190 mg/dL (HeFH) or >500 mg/dL (HoFH LDLR null); excess cholesterol in macrophages → foam cells → atheromatous plaque."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Hepatocytes express >90% of plasma LDLR; LDLR-mediated LDL endocytosis is the primary clearance route; SREBP-2 upregulates LDLR after statin treatment; liver transplant in HoFH normalizes LDL-C — confirming hepatocytic LDLR as the disease driver."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "In FH, chronically elevated LDL-C → macrophage scavenger receptor (SR-A, CD36) uptake of oxidized LDL → foam cell formation; foam cells are the histological hallmark of the atheromatous plaque; FH macrophages exhibit exaggerated ox-LDL uptake vs. normolipidemic controls."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "FH accelerates carotid and cerebrovascular atherosclerosis; HeFH patients have elevated carotid intima-media thickness (cIMT) and higher stroke risk vs. general population; statin + PCSK9 inhibitor reduces cIMT progression and ischemic stroke incidence in FH cohorts."
 ---
 
 # Familial Hypercholesterolemia
@@ -151,7 +160,13 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — PCSK9 GOF mutations cause autosomal dominant FH (ADH3); evolocumab and alirocumab reduce LDL-C 50-60% add-on to statins; inclisiran (PCSK9 siRNA) reduces LDL-C ~50% with Q6M dosing; standard of care for FH not at LDL goal on maximally tolerated statin.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — FH accelerates atherosclerosis; HeFH untreated: 20× higher CVD risk; coronary atherosclerosis, tendon xanthomas, and xanthelasma are hallmarks; cumulative LDL-C burden predicts events; early statin initiation reduces atherosclerotic events in HeFH.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — FH results from impaired LDLR-mediated cholesterol clearance; LDLR mutations → fewer surface receptors → LDL-C >190 mg/dL (HeFH) or >500 mg/dL (HoFH LDLR null); excess cholesterol in macrophages → foam cells → atheromatous plaque.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — hepatocytes express >90% of plasma LDLR; LDLR-mediated LDL endocytosis is the primary clearance route; SREBP-2 upregulates LDLR after statin treatment; liver transplant in HoFH normalizes LDL-C — confirming hepatocytic LDLR as the disease driver.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — in FH, chronically elevated LDL-C → macrophage scavenger receptor (SR-A, CD36) uptake of oxidized LDL → foam cell formation; foam cells are the histological hallmark of the atheromatous plaque; FH macrophages exhibit exaggerated ox-LDL uptake vs. normolipidemic controls.
+- `connects-to` → **[Stroke](../stroke/README.md)** — FH accelerates carotid and cerebrovascular atherosclerosis; HeFH patients have elevated carotid intima-media thickness (cIMT) and higher stroke risk vs. general population; statin + PCSK9 inhibitor reduces cIMT progression and ischemic stroke incidence in FH cohorts.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
 [^watts-2020-hzfh-guidelines]: Watts GF, Gidding SS, Hegele RA, et al. International Atherosclerosis Society guidance for implementing best practice in the care of familial hypercholesterolaemia. *Nat Rev Cardiol.* 2023;20(12):845-869. [doi:10.1038/s41569-023-00892-0](https://doi.org/10.1038/s41569-023-00892-0) · [PubMed 37322181](https://pubmed.ncbi.nlm.nih.gov/37322181/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -135,6 +135,9 @@ cross_links:
   - target: 03-medicine/02-traditional/milk-thistle
     relation: modulated-by
     note: "Modulated by Milk Thistle / Silymarin (Silybum marianum)."
+  - target: 01-human/07-system/familial-hypercholesterolemia
+    relation: connects-to
+    note: "Hepatocytes express >90% of plasma LDLR; LDLR-mediated LDL endocytosis is the primary clearance route; SREBP-2 upregulates LDLR after statin treatment; liver transplant in HoFH normalizes LDL-C — confirming hepatocytic LDLR as the disease driver."
 taxonomy:
   cell_ontology: "CL:0000182"
   lineage: "endoderm — hepatic endoderm — hepatoblast — hepatocyte"
@@ -271,8 +274,12 @@ In undisturbed adult liver, hepatocytes turnover slowly — estimated half-life 
 - **Part of:** [Liver](../../06-organ/liver/README.md) — the organ.
 - **Damaged by:** SARS-CoV-2 — direct ACE2-mediated infection of hepatocytes/cholangiocytes; immune-mediated hepatitis; drug-induced liver injury from COVID-19 treatments.
 - **Modulated by:** [Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md) — HMG-CoA reductase inhibition reduces cholesterol synthesis; upregulation of LDL receptor clears LDL-C from circulation; rare statin-induced hepatotoxicity (transaminase elevation).
+- `connects-to` → **[Familial Hypercholesterolemia](../../07-system/familial-hypercholesterolemia/README.md)** — hepatocytes express >90% of plasma LDLR; LDLR-mediated LDL endocytosis is the primary clearance route; SREBP-2 upregulates LDLR after statin treatment; liver transplant in HoFH normalizes LDL-C — confirming hepatocytic LDLR as the disease driver.
 
 [^taub-2004-hepatocyte-regeneration]: Taub R. Liver regeneration: from myth to mechanism. *Nat Rev Mol Cell Biol.* 2004;5(10):836-47. [doi:10.1038/nrm1489](https://doi.org/10.1038/nrm1489) · [PubMed 15459664](https://pubmed.ncbi.nlm.nih.gov/15459664/)
 [^gebhardt-2014-hepatocyte-heterogeneity]: Gebhardt R, Matz-Soja M. Liver zonation: Novel aspects of its regulation and its impact on homeostasis. *World J Gastroenterol.* 2014;20(26):8491-504. [doi:10.3748/wjg.v20.i26.8491](https://doi.org/10.3748/wjg.v20.i26.8491) · [PubMed 25024605](https://pubmed.ncbi.nlm.nih.gov/25024605/)
 [^hall-guyton-14-liver]: Hall JE. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. Ch. 71.
 [^de-la-rosa-2021-hepatocyte-cyp450]: Zanger UM, Schwab M. Cytochrome P450 enzymes in drug metabolism. *Pharmacol Ther.* 2013;138(1):103-41. [doi:10.1016/j.pharmthera.2012.12.007](https://doi.org/10.1016/j.pharmthera.2012.12.007) · [PubMed 23333322](https://pubmed.ncbi.nlm.nih.gov/23333322/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

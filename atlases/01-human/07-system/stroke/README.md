@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/07-system/migraine
     relation: connects-to
     note: "Migraine with aura (MA) confers 2× ischemic stroke risk; CSD-triggered spreading oligemia → ischemic cascade in vulnerable cortex; PFO prevalence higher in MA; oral contraceptives + MA + smoking multiplies stroke risk; CADASIL (NOTCH3) presents with MA + lacunar strokes."
+  - target: 01-human/07-system/familial-hypercholesterolemia
+    relation: connects-to
+    note: "FH accelerates carotid and cerebrovascular atherosclerosis; HeFH patients have elevated carotid intima-media thickness (cIMT) and higher stroke risk vs. general population; statin + PCSK9 inhibitor reduces cIMT progression and ischemic stroke incidence in FH cohorts."
 ---
 
 # Stroke
@@ -167,6 +170,7 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Thrombin generates fibrin clots in cerebral arteries → ischemic stroke; AF→ atrial thrombus → embolism → cardioembolic stroke; ICH → thrombin release → perihematomal inflammation and edema; dabigatran (direct thrombin inhibitor) and apixaban/rivaroxaban prevent AF-related stroke.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — SCD is the most common cause of childhood stroke (<10 years; cerebral vasculopathy from sickling → large vessel stenosis); transcranial Doppler (TCD) screening identifies high-risk patients; chronic transfusion (target HbS <30%) reduces stroke risk 92% (STOP trial).
 - `connects-to` → **[Migraine](../migraine/README.md)** — migraine with aura (MA) confers 2× ischemic stroke risk; CSD-triggered spreading oligemia → ischemic cascade in vulnerable cortex; PFO prevalence higher in MA; oral contraceptives + MA + smoking multiplies stroke risk; CADASIL (NOTCH3) presents with MA + lacunar strokes.
+- `connects-to` → **[Familial Hypercholesterolemia](../familial-hypercholesterolemia/README.md)** — FH accelerates carotid and cerebrovascular atherosclerosis; HeFH patients have elevated carotid intima-media thickness (cIMT) and higher stroke risk vs. general population; statin + PCSK9 inhibitor reduces cIMT progression and ischemic stroke incidence in FH cohorts.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

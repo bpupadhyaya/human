@@ -148,6 +148,9 @@ cross_links:
   - target: 03-medicine/03-food/quercetin
     relation: modulated-by
     note: "Modulated by Quercetin."
+  - target: 01-human/07-system/familial-hypercholesterolemia
+    relation: connects-to
+    note: "In FH, chronically elevated LDL-C → macrophage scavenger receptor (SR-A, CD36) uptake of oxidized LDL → foam cell formation; foam cells are the histological hallmark of the atheromatous plaque; FH macrophages exhibit exaggerated ox-LDL uptake vs. normolipidemic controls."
 ---
 
 # Macrophage
@@ -198,3 +201,7 @@ Under homeostatic conditions, TRMs are the dominant population; during infection
 - **Downstream effectors:** IL-6, TNF-α, IL-1β, IL-12, ROS, NO (pro-inflammatory); IL-10, TGF-β, VEGF, Arg1 (anti-inflammatory/repair).
 - **Cellular crosstalk:** Activate T-helper cells via MHC-II + co-stimulation; receive help from Th1 cells (IFN-γ); kill tumour cells via ADCP; cooperate with NK cells (macrophages supply IL-12/IL-18; NK cells supply IFN-γ); interact with mast cells and neutrophils in early inflammation.
 - **Pathological roles:** Foam-cell macrophages drive atherosclerotic plaque formation; tumour-associated macrophages (TAMs, M2-like) promote tumour immune evasion and angiogenesis; activated Kupffer cells drive NAFLD → NASH → fibrosis; microglia contribute to neurodegeneration in Alzheimer's and Parkinson's disease.
+- `connects-to` → **[Familial Hypercholesterolemia](../../07-system/familial-hypercholesterolemia/README.md)** — in FH, chronically elevated LDL-C → macrophage scavenger receptor (SR-A, CD36) uptake of oxidized LDL → foam cell formation; foam cells are the histological hallmark of the atheromatous plaque; FH macrophages exhibit exaggerated ox-LDL uptake vs. normolipidemic controls.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
