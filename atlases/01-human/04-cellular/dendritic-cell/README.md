@@ -97,6 +97,9 @@ cross_links:
   - target: 02-pathogen/04-parasites/giardia-lamblia
     relation: damaged-by
     note: "Damaged by Giardia lamblia (G. intestinalis / G. duodenalis)."
+  - target: 01-human/03-molecular/mv-h-protein
+    relation: connects-to
+    note: "MV-H binds SLAM/CD150 on DCs → productive DC infection → impaired IL-12/IFN-α production and reduced T cell priming; MV-infected DCs poorly present antigens; DC functional impairment underlies measles immune amnesia lasting 2–3 years post-infection."
 ---
 
 # Dendritic Cell
@@ -193,6 +196,7 @@ After delivering their antigenic cargo to T cells, mature DCs in lymph nodes und
 - **Expresses:** [mhc-class-ii](../../03-molecular/mhc-class-ii/README.md) — the key antigen-presenting molecule
 - **Modulates:** [t-helper-cell](../../04-cellular/t-helper-cell/README.md) — DC activation of naïve CD4+ T cells is the rate-limiting step in humoral and cellular adaptive immunity
 - **Infected by:** [sars-cov-2](../../../../02-pathogen/01-viruses/sars-cov-2/README.md) — viral impairment of DC function contributes to the immunopathology of severe COVID-19
+- `connects-to` → **[MV-H Protein](../../03-molecular/mv-h-protein/README.md)** — MV-H binds SLAM/CD150 on DCs → productive DC infection → impaired IL-12/IFN-α, reduced T cell priming, and poor antigen presentation; DC functional impairment is a core driver of measles immune amnesia lasting 2–3 years.
 
 [^banchereau-steinman-1998]: Banchereau J, Steinman RM. Dendritic cells and the control of immunity. *Nature.* 1998;392(6673):245-52. [doi:10.1038/32588](https://doi.org/10.1038/32588) · [PubMed 9521319](https://pubmed.ncbi.nlm.nih.gov/9521319/)
 [^merad-2013-dc-biology]: Merad M, Sathe P, Helft J, Miller J, Mortha A. The dendritic cell lineage: ontogeny and function of dendritic cells and their precursors in steady state and the inflamed setting. *Annu Rev Immunol.* 2013;31:563-604. [doi:10.1146/annurev-immunol-020711-074950](https://doi.org/10.1146/annurev-immunol-020711-074950) · [PubMed 23516985](https://pubmed.ncbi.nlm.nih.gov/23516985/)

@@ -33,6 +33,15 @@ cross_links:
   - target: 01-human/03-molecular/rsv-f-protein
     relation: connects-to
     note: "MV-H (β-propeller; SLAM/CD150 receptor; nectin-4) triggers MV-F for fusion, unlike RSV-F which does both receptor binding and fusion; anti-H antibodies are primary measles vaccine protection; anti-prefusion F site Ø (nirsevimab) is the RSV functional analogue."
+  - target: 01-human/03-molecular/influenza-ha
+    relation: analogue-of
+    note: "MV-H and influenza HA are viral attachment glycoproteins: HA binds sialic acid, H binds SLAM/CD150 and nectin-4; both trigger RIG-I/MAVS innate signaling; both undergo antigenic variation; anti-H and anti-HA IgG are the primary mechanism of vaccine-induced protection."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "MV-H binds SLAM/CD150 on DCs → productive DC infection → impaired IL-12/IFN-α production and reduced T cell priming; DC functional impairment is a core mechanism of measles immune amnesia (loss of pre-existing pathogen-specific memory lasting 2–3 years post-infection)."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "MV-H SLAM/CD150 tropism infects CD150+ T cells, B cells, and DCs → deletion of pre-existing immune memory (measles immune amnesia); epidemiological studies show measles raises all-cause child mortality for 2–3 years; MMR vaccination prevents this prolonged immunological harm."
 ---
 
 # MV-H Protein
@@ -147,6 +156,12 @@ MV-H is genetically related to hemagglutinin/attachment proteins of:
 **→ [MAVS](../mavs/)**: MV-H binding to SLAM/CD150 on dendritic cells → DC infection → impaired IL-12/IFN-α production; MV replication generates 5′ppp RNA → RIG-I → MAVS → IFN-β; MV V protein (not H) sequesters MDA5 → blocks MAVS; H-driven DC tropism impairs early innate immune activation and T cell priming.
 
 **→ [RSV F Protein](../rsv-f-protein/)**: MV-H (β-propeller; SLAM/CD150 receptor; nectin-4) triggers MV-F for fusion, unlike RSV-F which performs both receptor binding and membrane fusion independently; anti-H antibodies are the primary measles vaccine-induced protection mechanism; anti-prefusion F site Ø (nirsevimab) is the RSV functional analogue.
+
+**→ [Influenza Hemagglutinin](../influenza-ha/)**: MV-H and HA are viral attachment glycoproteins: HA binds sialic acid, H binds SLAM/CD150 and nectin-4; both trigger RIG-I/MAVS innate signaling; both undergo antigenic variation; anti-H and anti-HA IgG are the primary mechanism of vaccine-induced protection.
+
+**→ [Dendritic Cell](../../04-cellular/dendritic-cell/)**: MV-H binds SLAM/CD150 on DCs → productive DC infection → impaired IL-12/IFN-α and reduced T cell priming; DC functional impairment is a core mechanism of measles immune amnesia (loss of pre-existing pathogen-specific memory lasting 2–3 years post-infection).
+
+**→ [Immune System](../../07-system/immune-system/)**: MV-H SLAM/CD150 tropism infects CD150+ T cells, B cells, and DCs → loss of pre-existing pathogen-specific immune memory (measles immune amnesia); measles raises all-cause child mortality for 2–3 years post-infection; MMR vaccination prevents this immunological harm.
 
 [^tatsuo-2000-slam-receptor]: Tatsuo H, Ono N, Tanaka K, Yanagi Y. SLAM (CDw150) is a cellular receptor for measles virus. *Nature.* 2000;406(6798):893-897. [doi:10.1038/35022579](https://doi.org/10.1038/35022579) · [PubMed 10972291](https://pubmed.ncbi.nlm.nih.gov/10972291/)
 [^muhlebach-2011-nectin4-receptor]: Mühlebach MD, Mateo M, Sinn PL, et al. Adherens junction protein nectin-4 is the epithelial receptor for measles virus. *Nature.* 2011;480(7378):530-533. [doi:10.1038/nature10639](https://doi.org/10.1038/nature10639) · [PubMed 22048310](https://pubmed.ncbi.nlm.nih.gov/22048310/)

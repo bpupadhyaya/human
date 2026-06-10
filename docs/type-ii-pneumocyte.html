@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Type II pneumocyte (AT2) — alveolar surfactant-secreting and stem cell: lamellar body exocytosis, DPPC synthesis, ENaC fluid transport, and alveolar repair after injury. Scale 04 of the Human Atlas.">
-  <meta property="og:title" content="Type II Pneumocyte — Human Engineering">
+  <meta name="description" content="Alveolar type II (AT2) cells — cuboidal surfactant-secreting cells (~5% of alveolar surface area, ~60% of alveolar epithelial cells by count). Synthesise pulmon">
+  <meta property="og:title" content="Type II pneumocyte — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Type II Pneumocyte — Human Engineering</title>
+  <title>Type II pneumocyte — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0891b2;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--accent); text-decoration: none; transition: color .15s; }
-    a:hover { color: var(--bio); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,48 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(8,145,178,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0891b2, #0e7490); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -84,7 +94,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--accent); }
+    .footer-links a:hover { color: var(--bio); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -98,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -110,134 +119,66 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
-    <h1>Type II Pneumocyte</h1>
-    <p class="tagline">Alveolar type II (AT2) cell — secretory, regenerative, and immunologically active cuboidal cell at the corners of alveolar walls. Produces pulmonary surfactant and serves as the alveolar stem cell.</p>
-    <p class="subtagline">Covers ~5% of alveolar surface area but constitutes ~60% of alveolar epithelial cells by number. Primary target of SARS-CoV-2, influenza A, and respiratory pathogens causing diffuse alveolar damage.</p>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
+    <h1>Type II pneumocyte</h1>
+    <p class="tagline">Alveolar type II (AT2) cells — cuboidal surfactant-secreting cells (~5% of alveolar surface area, ~60% of alveolar epithelial cells by count). Synthesise pulmonary surfactant via lamellar bodies; regenerate alveolar epithelium after injury (alveolar stem cell).</p>
+    <p class="aliases">Also known as: AT2 cell, alveolar type II cell, AT2, type 2 alveolar cell, great alveolar cell</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">8–10 µm</span><span class="stat-label">Cell diameter</span></div>
-      <div class="stat"><span class="stat-num">~5%</span><span class="stat-label">Alveolar surface area</span></div>
-      <div class="stat"><span class="stat-num">~60%</span><span class="stat-label">Alveolar epithelial cells by count</span></div>
-      <div class="stat"><span class="stat-num">~75%</span><span class="stat-label">Secreted surfactant recycled</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">CL:0002063 &middot; Atlas One / Scale 04 &mdash; Cellular &middot; Lung</div>
-        <h2>Type II Pneumocyte (AT2)</h2>
-        <p class="summary">Cuboidal alveolar epithelial cells at alveolar corners, identified by lamellar bodies (lysosome-related organelles containing tightly wound DPPC phospholipid membranes and surfactant proteins SP-B, SP-C, SP-A, SP-D). Three critical functions: surfactant synthesis and secretion (prevents alveolar collapse by reducing surface tension from ~70 mN/m to &lt;5 mN/m), alveolar epithelial repair after AT1 injury (alveolar stem cell: proliferates and transdifferentiates to AT1), and active Na⁺/fluid transport (ENaC + Na⁺/K⁺-ATPase). TTF1/NKX2.1 and SP-C are definitive lineage markers. ACE2 expression makes AT2 the primary SARS-CoV-2 entry point in the alveolus.</p>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">type-ii-pneumocyte</div>
+        <h2>Type II pneumocyte</h2>
+        <p class="summary">Alveolar type II (AT2) cells — cuboidal surfactant-secreting cells (~5% of alveolar surface area, ~60% of alveolar epithelial cells by count). Synthesise pulmonary surfactant via lamellar bodies; regenerate alveolar epithelium after injury (alveolar stem cell).</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The alveolar type II (AT2) pneumocyte is the <strong>secretory, regenerative, and immunologically active</strong> cell of the alveolar epithelium. While the AT1 cell — a vast, extremely flat cell — covers approximately 95% of the alveolar surface area and is the primary site of gas diffusion, AT2 cells occupy only ~5% of the surface area but constitute approximately <strong>60% of all alveolar epithelial cells by number</strong>.</p>
-          <p>AT2 cells have three indispensable functions: (1) <strong>surfactant synthesis and secretion</strong> — preventing alveolar collapse at end-expiration; (2) <strong>alveolar epithelial repair (stem cell function)</strong> — proliferating and differentiating into AT1 cells after injury; and (3) <strong>active ion/fluid transport</strong> — maintaining a dry gas-exchange surface by driving alveolar fluid reabsorption via ENaC and Na⁺/K⁺-ATPase. AT2 cells also express ACE2, making them the principal SARS-CoV-2 entry site in the alveolus.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure</h3>
-          <p><strong>Morphology.</strong> Cuboidal, ~8–10 µm diameter, located at the corners and junctions of alveolar walls ("nooks") on the basement membrane. The apical surface bears abundant microvilli (unlike flat AT1 cells). Well-formed apical tight junctions (claudin-3, claudin-4, ZO-1) maintain the epithelial barrier against alveolar flooding.</p>
-          <p><strong>Characteristic organelles.</strong> <em>Lamellar bodies</em> — the defining organelle (0.2–1 µm diameter): lysosome-related organelles containing tightly wound DPPC phospholipid membranes and surfactant proteins SP-B, SP-C (essential for compaction and stability) + SP-A, SP-D (innate immune collectins). Exocytosis of lamellar bodies onto the apical surface releases surfactant into the alveolar hypophase. Abundant mitochondria (high metabolic demand for continuous surfactant synthesis); extensive rough ER and Golgi apparatus for surfactant protein processing.</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Marker</th><th>Gene</th><th>Function / significance</th></tr>
-            <tr><td>SP-C (surfactant protein C)</td><td>SFTPC</td><td>Small hydrophobic protein essential for tubular myelin formation; AT2-specific marker; mutations → familial IPF</td></tr>
-            <tr><td>SP-B</td><td>SFTPB</td><td>Required for lamellar body biogenesis; absent → neonatal respiratory failure</td></tr>
-            <tr><td>ABCA3 transporter</td><td>ABCA3</td><td>Transports phospholipids into lamellar bodies; mutations → surfactant deficiency disease</td></tr>
-            <tr><td>TTF1/NKX2.1</td><td>NKX2-1</td><td>Master transcription factor of AT2 lineage (drives SP-C, SP-B, ABCA3, HopX)</td></tr>
-            <tr><td>ACE2</td><td>ACE2</td><td>Angiotensin-converting enzyme 2; entry receptor for SARS-CoV-2 (with TMPRSS2 priming)</td></tr>
-            <tr><td>HopX</td><td>HOPX</td><td>Expressed in AT2 and AT1 cells; marks AT2 stem cell subpopulation</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>type-ii-pneumocyte</td></tr>
+            <tr><td>Name</td><td>Type II pneumocyte</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
+            <tr><td>Cell Ontology</td><td>CL:0002063</td></tr>
+            <tr><td>Lineage</td><td>endoderm — foregut — lung endoderm → NKX2.1+ progenitor → AT2</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Surfactant Synthesis and Secretion</h3>
-          <div class="circuit-diagram">
-<pre>SURFACTANT SYNTHESIS CYCLE (AT2 cell)
-
-  1. LIPID SYNTHESIS (ER)
-     Choline + CDP-choline pathway → Phosphatidylcholine
-     Dipalmitoylation → DPPC (dipalmitoylphosphatidylcholine, ~40% of surfactant lipid)
-     ABCA3 transports phospholipids into lamellar body lumen
-
-  2. PROTEIN SYNTHESIS (ER → multivesicular bodies → lamellar bodies)
-     Prepro-SP-B/C → ER processing → proSP-B/C → cleavage to mature SP-B/C
-     SP-A, SP-D: secreted glycoproteins (innate immune collectins)
-
-  3. LAMELLAR BODY SECRETION (regulated exocytosis)
-     Stimuli: ↑[Ca²⁺]i (stretch, β-agonists, ATP → P2Y receptors)
-     Lamellar body → fuses with apical membrane
-     → Tubular myelin forms in alveolar hypophase (SP-B + SP-A essential)
-     → Surfactant monolayer at air-liquid interface
-
-  4. SURFACE TENSION REDUCTION
-     LaPlace law:  P = 2γ/r
-     Without surfactant: γ ≈ 70 mN/m → enormous collapsing pressure at r ~0.1 mm
-     With surfactant:    γ < 5 mN/m at end-expiration → alveolus stays open
-     Normal lung compliance: ~200 mL/cmH₂O (↓ dramatically without surfactant)
-
-  5. RECYCLING
-     ~75% of secreted surfactant is recaptured by AT2 cells
-     Receptor-mediated endocytosis → recycled into new lamellar bodies
-     SP-A + SP-D promote macrophage phagocytosis of excess surfactant
-
-ALVEOLAR FLUID CLEARANCE (AT2 Na⁺ transport)
-  Apical:       ENaC (epithelial Na⁺ channel) + CFTR (Cl⁻)  → Na⁺ in
-  Basolateral:  Na⁺/K⁺-ATPase → Na⁺ out → osmotic water follows
-  → Maintains dry alveolar surface; failure → alveolar oedema (ARDS)</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Alveolar Repair — Stem Cell Function</h3>
-          <p>AT2 cells are <strong>self-renewing progenitors</strong> of the alveolar epithelium. Under homeostasis, AT2 cells divide slowly (~turnover 80–120 days). After AT1 cell injury (viral pneumonitis, toxic exposure, mechanical injury), AT2 cells proliferate and transdifferentiate into AT1 cells, regenerating the gas-exchange surface. This repair capacity is the cellular basis for recovery from ARDS when the causative injury is resolved.</p>
-          <p>A subset of AT2 cells marked by HopX or transitional KRT8/KRT17 states acts as the activated progenitor pool during injury repair. Dysregulation of this process — hyperplastic AT2 cells failing to properly differentiate into AT1 cells — contributes to the fibrotic remodelling of idiopathic pulmonary fibrosis (IPF), particularly when SFTPC mutations impair AT2 proteostasis.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>ARDS (Acute Respiratory Distress Syndrome)</h4>
-            <p>Diffuse alveolar damage — extensive AT1 and AT2 cell death → alveolar flooding with protein-rich exudate (hyaline membranes) → loss of surfactant → severely reduced compliance → hypoxaemic respiratory failure. Triggers: pneumonia (COVID-19, influenza), sepsis, aspiration, trauma. Mortality 30–50% in severe ARDS. AT2 repair capacity determines recovery trajectory.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Neonatal Respiratory Distress Syndrome (RDS)</h4>
-            <p>Surfactant deficiency due to developmental immaturity of AT2 cells in premature infants (&lt;32 weeks gestational age; SP-C and ABCA3 expression incomplete). Presents within hours of birth: grunting, intercostal recession, cyanosis. Treat: antenatal corticosteroids (accelerate AT2 maturation via TTF1/NKX2.1), exogenous surfactant instillation (beractant, calfactant, poractant alfa), CPAP or ventilation.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>SARS-CoV-2 / Influenza A</h4>
-            <p>SARS-CoV-2 binds AT2 ACE2 (with TMPRSS2 priming) → viral entry → AT2 destruction → loss of surfactant production + loss of repair capacity → ARDS. Influenza A infects AT2 cells via α-2,3 and α-2,6 sialic acid receptors → diffuse alveolar damage. Both viruses destroy the alveolar stem cell pool, prolonging recovery.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Idiopathic Pulmonary Fibrosis (IPF)</h4>
-            <p>Repeated subclinical AT2 injury → aberrant repair → AT2 cells adopt a transitional KRT8⁺ state → excessive fibroblast activation → progressive fibrosis. SFTPC mutations (dominant negative misfolded SP-C → ER stress → UPR → AT2 apoptosis) cause familial IPF. Usual interstitial pneumonia (UIP) pattern on HRCT (honeycombing, traction bronchiectasis). Anti-fibrotics (nintedanib, pirfenidone) slow progression.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Lung Adenocarcinoma</h4>
-            <p>Malignant transformation of AT2 cell lineage (NKX2.1+ AT2-like progenitors harbouring KRAS or EGFR mutations) is the predominant pathway to pulmonary adenocarcinoma. Peripheral location, ground-glass opacities on CT; targetable with EGFR inhibitors (osimertinib) or KRAS G12C inhibitors (sotorasib).</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="alveolus.html"><span class="rel">Part of</span>Alveolus</a>
-            <a class="conn-pill part" href="lung.html"><span class="rel">Part of</span>Lung</a>
-            <a class="conn-pill damaged" href="sars-cov-2.html"><span class="rel">Infected by</span>SARS-CoV-2 (ACE2)</a>
-            <a class="conn-pill damaged" href="influenza-a.html"><span class="rel">Infected by</span>Influenza A</a>
-            <a class="conn-pill damaged" href="respiratory-syncytial-virus.html"><span class="rel">Infected by</span>RSV</a>
+            <a class="conn-pill part" href="alveolus.html" title="AT2 cells are one of the two principal epithelial cell types lining the alveolar wall; they occupy ~5% of alveolar surface area but account for ~60% of alveolar epithelial cells by number."><span class="rel">part-of</span>Alveolus</a>
+            <a class="conn-pill part" href="lung.html" title="AT2 cells are distributed throughout the lung alveolar network; their surfactant secretion and stem-cell function are essential to normal lung physiology."><span class="rel">part-of</span>Lung</a>
+            <a class="conn-pill" href="influenza-a.html" title="Influenza A virus infects AT2 cells via sialic acid receptors; AT2 cells are a primary target in severe influenza, leading to diffuse alveolar damage and respiratory failure."><span class="rel">infected-by</span>Influenza A</a>
+            <a class="conn-pill" href="respiratory-syncytial-virus.html" title="Infected by Respiratory Syncytial Virus."><span class="rel">infected-by</span>Respiratory Syncytial Virus</a>
+            <a class="conn-pill" href="influenza-ha.html" title="Influenza preferentially infects type II pneumocytes (high α2,6-SA expression); HA binds surface glycoproteins → viral entry → cytopathic effect; type II cell destruction depletes surfactant → ARDS; type II hyperplasia follows severe influenza pneumonitis (H5N1, H1N1pdm09)."><span class="rel">connects-to</span>Influenza Ha</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Fehrenbach H. Alveolar epithelial type II cell: defender of the alveolus revisited. <em>Respir Res.</em> 2001;2(1):33–46. <a href="https://doi.org/10.1186/rr36" target="_blank" rel="noopener">doi:10.1186/rr36</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11686863/" target="_blank" rel="noopener">PubMed 11686863</a></li>
-            <li>Mason RJ. Biology of alveolar type II cells. <em>Respirology.</em> 2006;11(Suppl):S12–5. <a href="https://doi.org/10.1111/j.1440-1843.2006.00800.x" target="_blank" rel="noopener">doi:10.1111/j.1440-1843.2006.00800.x</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16423262/" target="_blank" rel="noopener">PubMed 16423262</a></li>
-            <li>Desai TJ, Brownfield DG, Krasnow MA. Alveolar progenitor and stem cells in lung development, renewal, and cancer. <em>Nature.</em> 2014;507(7491):190–4. <a href="https://doi.org/10.1038/nature12930" target="_blank" rel="noopener">doi:10.1038/nature12930</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24499815/" target="_blank" rel="noopener">PubMed 24499815</a></li>
-            <li>Whitsett JA, Wert SE, Trapnell BC. Genetic disorders influencing lung formation and function at birth. <em>Hum Mol Genet.</em> 2004;13 Spec No 2:R207–15. <a href="https://doi.org/10.1093/hmg/ddh252" target="_blank" rel="noopener">doi:10.1093/hmg/ddh252</a></li>
+            <li><a href="https://doi.org/10.1186/rr36" target="_blank" rel="noopener noreferrer">Fehrenbach H. Alveolar epithelial type II cell: defender of the alveolus revisited. Respir Res. 2001;2(1):33-46.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11686863/" target="_blank" rel="noopener noreferrer">PubMed 11686863</a></li>
+            <li><a href="https://doi.org/10.1093/hmg/ddh252" target="_blank" rel="noopener noreferrer">Whitsett JA, Wert SE, Trapnell BC. Genetic disorders influencing lung formation and function at birth. Hum Mol Genet. 2004;13 Spec No 2:R207-15.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15358728/" target="_blank" rel="noopener noreferrer">PubMed 15358728</a></li>
+            <li><a href="https://doi.org/10.1111/j.1440-1843.2006.00800.x" target="_blank" rel="noopener noreferrer">Mason RJ. Biology of alveolar type II cells. Respirology. 2006;11(Suppl):S12-5.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/16423262/" target="_blank" rel="noopener noreferrer">PubMed 16423262</a></li>
+            <li><a href="https://doi.org/10.1038/nature12930" target="_blank" rel="noopener noreferrer">Desai TJ, Brownfield DG, Krasnow MA. Alveolar progenitor and stem cells in lung development, renewal, and cancer. Nature. 2014;507(7491):190-4.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24499815/" target="_blank" rel="noopener noreferrer">PubMed 24499815</a></li>
           </ul>
         </div>
 
@@ -249,15 +190,11 @@ ALVEOLAR FLUID CLEARANCE (AT2 Na⁺ transport)
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="alveolus.html">Alveolus</a>
-      <a href="lung.html">Lung</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.4rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dendritic Cell — professional antigen-presenting cell bridging innate and adaptive immunity. TLR → NF-κB → MHC-II upregulation → lymph-node migration → T cell priming. Two major subsets: cDC1, cDC2, and plasmacytoid DC.">
+  <meta name="description" content="Professional antigen-presenting cell bridging innate and adaptive immunity. Immature DCs patrol tissues; mature DCs upregulate MHC-II and migrate to lymph nodes">
   <meta property="og:title" content="Dendritic Cell — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Dendritic Cell — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #2563eb;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,49 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(37,99,235,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #1d4ed8, #1e3a8a); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-    .detail-section ol, .detail-section ul { padding-left: 1.4rem; color: var(--fg-soft); font-size: 0.95rem; line-height: 1.7; }
-    .detail-section li { margin-bottom: 0.3rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -99,8 +108,8 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
-        <a href="immune-system.html">Immune System</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -110,187 +119,80 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
     <h1>Dendritic Cell</h1>
-    <p class="tagline">The master link between innate and adaptive immunity — the only cell that can efficiently prime naïve T lymphocytes, and the critical gateway that vaccine platforms must engage.</p>
-    <p class="subtagline">Described by Ralph Steinman and Zanvil Cohn in 1973; Nobel Prize in Physiology or Medicine 2011. Immature DCs patrol every tissue. Upon PAMP sensing they mature, migrate to lymph nodes via CCR7, and prime T cells via MHC-II + CD80/86 + cytokines.</p>
+    <p class="tagline">Professional antigen-presenting cell bridging innate and adaptive immunity. Immature DCs patrol tissues; mature DCs upregulate MHC-II and migrate to lymph nodes to prime T cells. Two major subsets: cDC1/cDC2 and pDC.</p>
+    <p class="aliases">Also known as: DC, professional APC, plasmacytoid DC, conventional DC</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">12–20 µm</span><span class="stat-label">Diameter (mature DC)</span></div>
-      <div class="stat"><span class="stat-num">3 subsets</span><span class="stat-label">cDC1 / cDC2 / pDC</span></div>
-      <div class="stat"><span class="stat-num">1–2 days</span><span class="stat-label">Maturation after PAMP signal</span></div>
-      <div class="stat"><span class="stat-num">6–24 h</span><span class="stat-label">Synapse time to commit T cell</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One / Scale 04 &middot; dendritic-cell</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">dendritic-cell</div>
         <h2>Dendritic Cell</h2>
-        <p class="summary">The dendritic cell is the most potent professional antigen-presenting cell and the master bridge between innate detection and adaptive T cell priming. Immature DCs patrol tissues via macropinocytosis and receptor-mediated endocytosis; upon PAMP/DAMP sensing, NF-κB activation drives maturation — MHC-II and CD80/86 upregulation, CCR7 induction, lymph-node migration — where they prime naïve T cells. Three subsets: cDC1 (cross-presentation, CTL priming), cDC2 (MHC-II, Th priming), pDC (IFN-α/β factory).</p>
+        <p class="summary">Professional antigen-presenting cell bridging innate and adaptive immunity. Immature DCs patrol tissues; mature DCs upregulate MHC-II and migrate to lymph nodes to prime T cells. Two major subsets: cDC1/cDC2 and pDC.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The dendritic cell (DC) is the most potent professional antigen-presenting cell in the body and the master link between the innate and adaptive immune systems. Described by Ralph Steinman and Zanvil Cohn in 1973 (Steinman received the Nobel Prize in Physiology or Medicine 2011), DCs are the <strong>only cells that can efficiently prime naïve T lymphocytes</strong> — a capacity that sets them apart from macrophages, B cells, and other APCs that activate only pre-sensitized lymphocytes.</p>
-          <p>DCs reside in virtually every tissue in an <strong>immature state</strong>, continuously sampling the environment by macropinocytosis, phagocytosis, and receptor-mediated endocytosis. Upon encountering a pathogen-associated molecular pattern (PAMP) or danger signal (DAMP), they undergo <strong>maturation</strong> — upregulating MHC-II and co-stimulatory molecules, producing inflammatory cytokines, and migrating via lymphatics to the draining lymph node to initiate adaptive immunity.</p>
-          <p>DCs are also the cells that mRNA vaccine platforms must efficiently reach. Spike-encoding mRNA delivered by LNPs is taken up by tissue-resident DCs at the injection site and draining lymph-node DCs; these cells translate spike protein, process it, and prime both CD4+ and CD8+ T cell responses alongside B cell help.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure — DC Subsets</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Subset</th><th>Human markers</th><th>Key TF</th><th>Specialization</th></tr>
-            <tr><td>cDC1 (classical)</td><td>BDCA-3+/CD141+, XCR1+, CLEC9A+</td><td>IRF8 + BATF3</td><td>MHC-I cross-presentation; IL-12 production; primes CD8+ CTLs</td></tr>
-            <tr><td>cDC2 (classical)</td><td>BDCA-1+/CD1c+, CD11b+</td><td>IRF4</td><td>MHC-II presentation; primes CD4+ Th cells; most abundant tissue DC</td></tr>
-            <tr><td>pDC (plasmacytoid)</td><td>BDCA-2+/CD303+, CD123+</td><td>E2-2/TCF4</td><td>Massive type I IFN (IFN-α/β) production via TLR7/9; antiviral first line</td></tr>
-            <tr><td>Langerhans cell (LC)</td><td>CD207 (Langerin)+, Birbeck granules</td><td>IRF4</td><td>Epidermal DC; self-renewing embryonic origin; skin antigen surveillance</td></tr>
-            <tr><td>Monocyte-derived DC</td><td>CD14+, CD64+</td><td>IRF4</td><td>Recruited from circulating monocytes during inflammation; cDC2-like function</td></tr>
-          </table>
-          <table class="data-table" style="margin-top:1rem;">
-            <tr><th>Property</th><th>Immature DC (tissue)</th><th>Mature DC (lymph node)</th></tr>
-            <tr><td>MHC-II surface</td><td>Low (mostly intracellular)</td><td>Very high (dense pMHC-II complexes)</td></tr>
-            <tr><td>CD80/CD86 (co-stim)</td><td>Low</td><td>High</td></tr>
-            <tr><td>Antigen uptake</td><td>High (macropinocytosis, endocytosis)</td><td>Low (focused on presenting captured antigen)</td></tr>
-            <tr><td>CCR7</td><td>Low</td><td>High (drives CCL19/21-guided lymph-node migration)</td></tr>
-            <tr><td>IL-12 production</td><td>Low</td><td>High (cDC1 especially; drives Th1/CTL priming)</td></tr>
-            <tr><td>T cell priming capacity</td><td>Low / tolerogenic</td><td>Very high</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — TLR → NF-κB → Maturation → T Cell Priming</h3>
-          <div class="circuit-diagram">
-<pre>
-  Pathogen/PAMP in tissue
-         │
-         ▼
-  Immature DC — antigen capture
-  ├── Macropinocytosis (non-specific, bulk fluid)
-  ├── Receptor-mediated endocytosis (DC-SIGN, Dectin-1, FcR)
-  └── Phagocytosis (bacteria, dead cells, opsonized particles)
-         │
-         ▼
-  PAMP binds TLR (e.g., LPS → TLR4:MD2, CpG → TLR9, dsRNA → TLR3)
-         │
-         ▼
-  MyD88/TRIF adaptor → IRAK4 → TRAF6
-         │
-         ▼
-  NF-κB activation + IRF3/IRF7 (for IFN-β)
-         │
-         ▼
-  Maturation program (hours–1–2 days):
-  ├──► MHC-II synthesis ↑↑ (surface density 10-100×)
-  │    Antigen loaded in endolysosomes → pMHC-II complexes
-  ├──► CD80 + CD86 (B7-1/B7-2) upregulated → Signal 2 for T cells
-  ├──► CCR7 upregulated → CCL19/21 chemotaxis → lymph node
-  ├──► IL-12, IL-6, IL-23, TNF secretion → cytokine milieu
-  └──► Antigen uptake capacity reduced (present what's captured)
-         │
-         ▼
-  Lymph node T cell zone:
-  DC extends dendrites → serial brief contacts with naïve T cells (kinapse)
-         │
-  Cognate T cell with matching TCR found
-  Stable immunological synapse forms (~6–24 h):
-  Signal 1: TCR:pMHC-II
-  Signal 2: CD28:CD80/86
-  Signal 3: DC-derived cytokines (Th1/Th2/Th17/Tfh/Treg milieu)
-         │
-         ▼
-  T cell committed to clonal expansion → adaptive immune response
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;"><strong>Cross-presentation (cDC1):</strong> Exogenous antigen (tumour-shed proteins, viruses that do not infect DCs) is shuttled into the cytosolic MHC-I pathway (phagosomal escape → proteasomal processing → TAP → MHC-I loading) to prime CD8+ CTLs — critical for anti-tumour and anti-viral immunity. Requires Batf3 transcription factor.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Lifecycle / Differentiation</h3>
-          <div class="circuit-diagram">
-<pre>
-  Bone marrow HSC → CMP → MDP (macrophage/DC progenitor)
-         │
-         ▼
-  CDP (common dendritic cell progenitor)
-  Circulates as pre-DC in blood
-         │
-         ├──► BATF3 + IRF8 → cDC1 (cross-presentation, IL-12)
-         ├──► IRF4 → cDC2 (Th priming, CD4+ help)
-         └──► E2-2/TCF4 → pDC (IFN-α/β production)
-         │
-         ▼
-  Pre-DCs seed peripheral tissues → local signals drive maturation
-  Tissue DCs: short-lived (days–weeks), replenished from BM
-  Langerhans cells: embryonic origin (yolk-sac), self-renewing
-
-  Steady-state: immature, tolerogenic, maintain peripheral tolerance
-  Inflammation/infection: PAMP sensing → maturation → lymph-node migration
-         │
-         ▼
-  After T cell priming: DCs undergo apoptosis in lymph nodes (1–2 weeks)
-  IL-10 and T-derived signals can suppress maturation in tolerogenic contexts
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>SARS-CoV-2 impairment of DC function</h4>
-            <p>Plasmacytoid DCs are susceptible to SARS-CoV-2 infection; viral NSP1 blocks mRNA translation of IFN response genes; ORF6 blocks STAT1/STAT2 nuclear import, suppressing IFN-β production. This pDC IFN failure is a critical early event in severe COVID-19. cDC subsets are also depleted in blood of severe COVID-19 patients, impairing antigen presentation and adaptive priming — contributing to the dysregulated immune response.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>HIV-1 — DC impairment and viral dissemination</h4>
-            <p>HIV-1 infects plasmacytoid and myeloid DCs via CD4 + CCR5/CXCR4, suppressing type I IFN production and MHC-II-mediated antigen presentation. DCs can transport HIV to lymph nodes and facilitate viral transfer to CD4+ T cells via the "infectious synapse" — contributing to systemic dissemination. Nef-mediated MHC-II downregulation impairs DC antigen presentation capacity.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Dendritic cell deficiency — rare primary immunodeficiency</h4>
-            <p>GATA2 mutations cause a complex syndrome including monocytopenia, DC deficiency (pDC and cDC2 depleted), NK cell deficiency, and susceptibility to disseminated non-tuberculous mycobacteria, viral warts (HPV), and myeloid malignancy. IRF8 mutations cause isolated cDC1 deficiency — susceptibility to mycobacteria and herpesvirus; treated with HSCT.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Tumour-associated DCs — tolerogenic polarization</h4>
-            <p>Tumour microenvironment converts DCs toward a tolerogenic phenotype: VEGF, IL-10, TGF-β, and PGE2 from tumour cells impair DC maturation; tumour-associated DCs express low CD80/86 and high PD-L1, promoting T cell anergy and Treg induction rather than effector priming. cDC1 cross-presentation is critical for anti-tumour CTL responses — tumours that exclude cDC1s are refractory to checkpoint immunotherapy.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Vaccine Relevance — mRNA LNP and DC Interaction</h3>
-          <p>Understanding DC biology is essential for rational vaccine design. Every vaccine platform must engage DCs to initiate adaptive immunity:</p>
-          <table class="data-table">
-            <tr><th>Vaccine Platform</th><th>DC interaction</th><th>T cell outcome</th></tr>
-            <tr><td>mRNA-LNP (e.g., BNT162b2, mRNA-1273)</td><td>LNPs taken up by injection-site DCs and draining lymph-node DCs; spike mRNA translated → spike protein processed → MHC-I + MHC-II loading; strong cDC1 and cDC2 activation; type I IFN from pDCs further activates DC maturation</td><td>Strong CD4+ Th + Tfh responses; robust GC reaction; CD8+ CTL priming via cross-presentation; high-affinity IgG + LLPCs</td></tr>
-            <tr><td>Protein subunit (e.g., NVX-CoV2373)</td><td>Matrix-M adjuvant activates DCs via TLR4/7/8; protein antigen processed by cDC2 via MHC-II; limited MHC-I cross-presentation without viral-like particles or special formulation</td><td>Good CD4+ Th response; moderate Tfh/GC; weaker CD8+ CTL vs mRNA</td></tr>
-            <tr><td>Adenoviral vector (e.g., ChAdOx1)</td><td>Adenoviral capsid activates DCs via TLR-independent DNA sensing (cGAS-STING) + innate signaling; vector DNA in cytoplasm → strong type I IFN; high DC maturation; antigen expressed by transduced DCs and other cells</td><td>Good CD4+ + CD8+ T cell responses; moderate GC; strong innate adjuvanting</td></tr>
-            <tr><td>Live-attenuated (MMR, BCG)</td><td>Replicating attenuated pathogen maximally activates DCs via multiple PRRs; sustained antigen exposure; strong cytokine milieu (IL-12, type I IFN)</td><td>Comprehensive T cell immunity (Th1, Th17, CTL); long-lived memory; best immunogenicity</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>dendritic-cell</td></tr>
+            <tr><td>Name</td><td>Dendritic Cell</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="immune-system.html"><span class="rel">Part of</span>immune-system</a>
-            <a class="conn-pill" href="mhc-class-ii.html"><span class="rel">Expresses</span>MHC-II (high density)</a>
-            <a class="conn-pill" href="t-helper-cell.html"><span class="rel">Primes</span>t-helper-cell</a>
-            <a class="conn-pill" href="t-cytotoxic-cell.html"><span class="rel">Cross-presents to</span>t-cytotoxic-cell</a>
-            <a class="conn-pill" href="regulatory-t-cell.html"><span class="rel">Induces</span>regulatory-t-cell (tolerogenic)</a>
-            <a class="conn-pill" href="natural-killer-cell.html"><span class="rel">Activated by</span>NK cells (IFN-γ)</a>
-            <a class="conn-pill" href="thymus.html"><span class="rel">Part of</span>thymus (negative selection)</a>
-            <a class="conn-pill damaged" href="sars-cov-2.html"><span class="rel">Impaired by</span>SARS-CoV-2</a>
-            <a class="conn-pill damaged" href="hiv-1.html"><span class="rel">Infected by</span>HIV-1</a>
-            <a class="conn-pill damaged" href="dengue-virus.html"><span class="rel">Infected by</span>dengue-virus</a>
-            <a class="conn-pill damaged" href="measles-virus.html"><span class="rel">Infected by</span>measles-virus</a>
+            <a class="conn-pill part" href="immune-system.html" title="Dendritic cells are central cellular components of both the innate and adaptive arms of the immune system."><span class="rel">part-of</span>Immune System</a>
+            <a class="conn-pill" href="mhc-class-ii.html" title="Mature dendritic cells express very high surface densities of MHC-II loaded with processed peptides; this is the key molecular signal that activates naïve CD4+ T cells."><span class="rel">expresses</span>Mhc Class Ii</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="Mature DCs present pMHC-II complexes and supply co-stimulatory signals (CD80, CD86) and cytokines that determine which CD4+ T helper subset develops."><span class="rel">modulates</span>T Helper Cell</a>
+            <a class="conn-pill" href="sars-cov-2.html" title="Plasmacytoid DCs and some monocyte-derived DCs are susceptible to SARS-CoV-2 infection; viral accessory proteins suppress MHC-II expression and type I IFN production, impairing antigen presentation."><span class="rel">infected-by</span>Sars Cov 2</a>
+            <a class="conn-pill" href="hiv-1.html" title="Plasmacytoid and myeloid DCs express CD4 and CCR5/CXCR4; HIV-1 infects and impairs DCs, suppressing type I IFN production and MHC-II-mediated antigen presentation to T cells, facilitating immune escape."><span class="rel">infected-by</span>Hiv 1</a>
+            <a class="conn-pill" href="dengue-virus.html" title="Skin-resident immature DCs (Langerhans cells) are the primary target of initial dengue infection via DC-SIGN (CD209) and AXL; viral replication in DCs leads to systemic dissemination via lymphatics."><span class="rel">infected-by</span>Dengue Virus</a>
+            <a class="conn-pill" href="natural-killer-cell.html" title="NK cells activate dendritic cells via IFN-γ, enhancing DC maturation, IL-12 production, and antigen presentation."><span class="rel">modulated-by</span>Natural Killer Cell</a>
+            <a class="conn-pill" href="intestinal-epithelium.html" title="Intestinal epithelium provides TSLP and IL-25 signals that programme gut DCs toward tolerogenic Th2/Treg phenotypes."><span class="rel">modulated-by</span>Intestinal Epithelium</a>
+            <a class="conn-pill damaged" href="staphylococcus-aureus.html" title="S. aureus leukotoxins including PVL form pores in DC membranes, inducing cell death and impairing adaptive immune priming."><span class="rel">damaged-by</span>Staphylococcus Aureus</a>
+            <a class="conn-pill damaged" href="aspergillus-fumigatus.html" title="A. fumigatus gliotoxin induces apoptosis in dendritic cells, impairing fungal antigen presentation and enabling immune evasion."><span class="rel">damaged-by</span>Aspergillus Fumigatus</a>
+            <a class="conn-pill" href="candida-albicans.html" title="Candida albicans is recognised by DC Dectin-1 and TLR2; in immunocompromised hosts DCs may harbour intracellular yeast, impairing killing."><span class="rel">infected-by</span>Candida Albicans</a>
+            <a class="conn-pill part" href="thymus.html" title="Thymic DCs present self-antigens to developing thymocytes in the medulla, deleting autoreactive T cells (negative selection); medullary thymic DCs also generate natural Tregs via low-affinity self-peptide recognition."><span class="rel">part-of</span>Thymus</a>
+            <a class="conn-pill" href="hpv-16.html" title="HPV-16 infects keratinocytes and may be carried by Langerhans cells (skin DCs) to lymph nodes; HPV E7 impairs IRF3 and TLR9 signalling in DCs, reducing IFN-β production and allowing persistent mucosal infection."><span class="rel">infected-by</span>Hpv 16</a>
+            <a class="conn-pill" href="histamine.html" title="Modulated by Histamine."><span class="rel">modulated-by</span>Histamine</a>
+            <a class="conn-pill part" href="integumentary-system.html" title="Part Of by Integumentary System."><span class="rel">part-of</span>Integumentary System</a>
+            <a class="conn-pill" href="t-cytotoxic-cell.html" title="Modulated by Cytotoxic T Cell."><span class="rel">modulated-by</span>T Cytotoxic Cell</a>
+            <a class="conn-pill damaged" href="norovirus.html" title="Damaged by Norovirus."><span class="rel">damaged-by</span>Norovirus</a>
+            <a class="conn-pill" href="epstein-barr-virus.html" title="Infected by Epstein-Barr Virus."><span class="rel">infected-by</span>Epstein Barr Virus</a>
+            <a class="conn-pill" href="measles-virus.html" title="Infected by Measles Virus."><span class="rel">infected-by</span>Measles Virus</a>
+            <a class="conn-pill damaged" href="giardia-lamblia.html" title="Damaged by Giardia lamblia (G. intestinalis / G. duodenalis)."><span class="rel">damaged-by</span>Giardia Lamblia</a>
+            <a class="conn-pill" href="mv-h-protein.html" title="MV-H binds SLAM/CD150 on DCs → productive DC infection → impaired IL-12/IFN-α production and reduced T cell priming; MV-infected DCs poorly present antigens; DC functional impairment underlies measles immune amnesia lasting 2–3 years post-infection."><span class="rel">connects-to</span>Mv H Protein</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Banchereau J, Steinman RM. Dendritic cells and the control of immunity. <em>Nature.</em> 1998;392(6673):245-52. <a href="https://doi.org/10.1038/32588" target="_blank" rel="noopener">doi:10.1038/32588</a></li>
-            <li>Merad M, Sathe P, Helft J, Miller J, Mortha A. The dendritic cell lineage. <em>Annu Rev Immunol.</em> 2013;31:563-604. <a href="https://doi.org/10.1146/annurev-immunol-020711-074950" target="_blank" rel="noopener">doi:10.1146/annurev-immunol-020711-074950</a></li>
-            <li>Steinman RM. Dendritic cells: understanding immunogenicity. <em>Eur J Immunol.</em> 2007;37 Suppl 1:S53-60. <a href="https://doi.org/10.1002/eji.200737400" target="_blank" rel="noopener">doi:10.1002/eji.200737400</a></li>
-            <li>Murphy K, Weaver C. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2017.</li>
+            <li><a href="https://doi.org/10.1038/32588" target="_blank" rel="noopener noreferrer">Banchereau J, Steinman RM. Dendritic cells and the control of immunity. Nature. 1998;392(6673):245-52.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9521319/" target="_blank" rel="noopener noreferrer">PubMed 9521319</a></li>
+            <li><a href="https://doi.org/10.1146/annurev-immunol-020711-074950" target="_blank" rel="noopener noreferrer">Merad M, Sathe P, Helft J, Miller J, Mortha A. The dendritic cell lineage: ontogeny and function of dendritic cells and their precursors in steady state and the inflamed setting. Annu Rev Immunol. 2013;31:563-604.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23516985/" target="_blank" rel="noopener noreferrer">PubMed 23516985</a></li>
+            <li><a href="https://doi.org/10.1084/jem.20201228" target="_blank" rel="noopener noreferrer">Guilliams M, et al. Dendritic cells and monocytes with distinct inflammatory responses reside in lung mucosa of mild COVID-19 patients. J Exp Med. 2020;217(12):e20201228.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33027508/" target="_blank" rel="noopener noreferrer">PubMed 33027508</a></li>
+            <li><a href="https://doi.org/10.1002/eji.200737400" target="_blank" rel="noopener noreferrer">Steinman RM. Dendritic cells: understanding immunogenicity. Eur J Immunol. 2007;37 Suppl 1:S53-60.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17972355/" target="_blank" rel="noopener noreferrer">PubMed 17972355</a></li>
           </ul>
         </div>
 
@@ -302,15 +204,14 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="immune-system.html">Immune System</a>
-      <a href="t-helper-cell.html">T Helper Cell</a>
-      <a href="b-cell.html">B Cell</a>
       <a href="pathogens.html">Pathogens</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

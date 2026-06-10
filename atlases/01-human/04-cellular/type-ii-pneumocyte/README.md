@@ -46,6 +46,9 @@ cross_links:
   - target: 02-pathogen/01-viruses/respiratory-syncytial-virus
     relation: infected-by
     note: "Infected by Respiratory Syncytial Virus."
+  - target: 01-human/03-molecular/influenza-ha
+    relation: connects-to
+    note: "Influenza preferentially infects type II pneumocytes (high α2,6-SA expression); HA binds surface glycoproteins → viral entry → cytopathic effect; type II cell destruction depletes surfactant → ARDS; type II hyperplasia follows severe influenza pneumonitis (H5N1, H1N1pdm09)."
 taxonomy:
   cell_ontology: "CL:0002063"
   lineage: "endoderm — foregut — lung endoderm → NKX2.1+ progenitor → AT2"
@@ -134,6 +137,7 @@ AT2 cells originate from NKX2.1-expressing endodermal progenitors during lung de
 - **Part-of** → [Alveolus](../../05-tissue/alveolus/README.md): AT2 cells are a key constituent of the alveolar epithelium, concentrated in the alveolar corners where they produce surfactant and serve as progenitors.
 - **Part-of** → [Lung](../../06-organ/lung/README.md): AT2 cells populate the alveolar surfaces throughout both lungs; their function is essential to normal lung mechanics and gas exchange at the organ scale.
 - **Infected-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): AT2 cells express α-2,3 sialic acid receptors (preferred by avian H5N1 strains) and α-2,6 sialic acid receptors; influenza A infects and destroys AT2 cells, causing diffuse alveolar damage.
+- `connects-to` → **[Influenza Hemagglutinin](../../03-molecular/influenza-ha/README.md)** — influenza preferentially infects AT2 cells (high α2,6-SA); HA binds AT2 surface glycoproteins → viral entry and cytopathic effect; type II cell destruction depletes surfactant → ARDS in severe influenza (H5N1, H1N1pdm09).
 
 ## Pathology
 
@@ -155,3 +159,5 @@ AT2 cells originate from NKX2.1-expressing endodermal progenitors during lung de
 [^whitsett-2002-surfactant-biology]: Whitsett JA, Wert SE, Trapnell BC. Genetic disorders influencing lung formation and function at birth. *Hum Mol Genet.* 2004;13 Spec No 2:R207-15. [doi:10.1093/hmg/ddh252](https://doi.org/10.1093/hmg/ddh252) · [PubMed 15358728](https://pubmed.ncbi.nlm.nih.gov/15358728/)
 [^mason-2006-at2-biology]: Mason RJ. Biology of alveolar type II cells. *Respirology.* 2006;11(Suppl):S12-5. [doi:10.1111/j.1440-1843.2006.00800.x](https://doi.org/10.1111/j.1440-1843.2006.00800.x) · [PubMed 16423262](https://pubmed.ncbi.nlm.nih.gov/16423262/)
 [^desai-2014-at2-stem-cell]: Desai TJ, Brownfield DG, Krasnow MA. Alveolar progenitor and stem cells in lung development, renewal, and cancer. *Nature.* 2014;507(7491):190-4. [doi:10.1038/nature12930](https://doi.org/10.1038/nature12930) · [PubMed 24499815](https://pubmed.ncbi.nlm.nih.gov/24499815/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

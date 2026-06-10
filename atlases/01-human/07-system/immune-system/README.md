@@ -334,6 +334,9 @@ cross_links:
   - target: 02-pathogen/06-environmental/aedes-aegypti
     relation: damaged-by
     note: "Ae. aegypti salivary proteins suppress DC activation and NK function at bite sites; apyrase blocks platelet aggregation enabling bloodmeal; immunomodulation at the inoculation site enables early DENV/ZIKV replication before innate immune sensing."
+  - target: 01-human/03-molecular/mv-h-protein
+    relation: connects-to
+    note: "MV-H SLAM/CD150 tropism infects CD150+ T cells, B cells, and DCs → loss of pre-existing pathogen-specific memory (measles immune amnesia, 2–3 years); MMR vaccination prevents this memory deletion and the consequent 2-3 year elevation in all-cause child mortality."
 ---
 
 # Immune System
@@ -437,6 +440,7 @@ After primary response contraction, long-lived memory cells persist:
 - `damaged-by` → **[Aedes aegypti](../../../02-pathogen/06-environmental/aedes-aegypti/README.md)** — salivary proteins suppress DC activation and NK function at bite sites; salivary apyrase blocks platelet aggregation enabling bloodmeal; immunomodulation at the inoculation site enables early DENV/ZIKV replication before innate immune sensing.
 - `connects-to` → **[OPV (Oral Polio Vaccine)](../../../../04-vaccine/05-live-attenuated/oral-polio-vaccine/README.md)** — OPV gut replication activates mucosal immunity (GALT → sIgA) and systemic immunity (mesenteric lymph nodes → serum IgG + T cells); dual response enables paralysis prevention and transmission interruption — the mechanism underlying polio eradication.
 - `damaged-by` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — all nine human herpesviruses encode dedicated immune evasion genes: HSV ICP47/CMV US6 block MHC-I via TAP inhibition; CMV UL16-21 downregulate NKG2D ligands; all subfamilies antagonize IFN signaling; latency renders infected cells invisible to CTLs indefinitely.
+- `connects-to` → **[MV-H Protein](../../03-molecular/mv-h-protein/README.md)** — MV-H SLAM/CD150 tropism infects CD150+ T cells, B cells, and DCs → loss of pre-existing pathogen-specific memory (measles immune amnesia, 2–3 years); MMR vaccination prevents this memory deletion and the consequent elevated all-cause child mortality risk.
 
 ## Pathology
 

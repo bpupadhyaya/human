@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/sars-cov-2-spike
     relation: connects-to
     note: "HA and SARS-CoV-2 Spike are class I viral fusogens: both cleaved by TMPRSS2 for activation; HA2 stalk and S2 heptad repeats form analogous 6-helix bundle; conserved stalk/stem epitopes targeted by broadly neutralizing antibodies; both are primary mRNA-LNP vaccine immunogens."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "SP-D binds influenza HA mannose-rich N-glycans via calcium-dependent CRD → viral aggregation and opsonization; SP-D-deficient mice develop worse influenza pneumonitis; soluble SP-D inhibits influenza A plaque formation; Asp11Asn SP-D polymorphism reduces HA binding."
+  - target: 01-human/03-molecular/mv-h-protein
+    relation: analogue-of
+    note: "Both HA and MV-H are homotrimeric viral attachment glycoproteins: HA binds α2,6-SA on respiratory epithelium, H binds SLAM/CD150 and nectin-4; both are primary neutralizing antibody targets and vaccine immunogens; both undergo antigenic variation to evade host immunity."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "Influenza virus preferentially infects type II pneumocytes (high α2,6-SA expression); HA binds type II pneumocyte surface glycoproteins → viral entry → cytopathic effect; destruction of type II cells depletes surfactant production → ARDS in severe influenza (H5N1, H1N1pdm09)."
 ---
 
 # Influenza Hemagglutinin
@@ -183,6 +192,12 @@ H5N1 avian influenza (60% case fatality in confirmed human cases) remains a pand
 **→ [RSV F Protein](../rsv-f-protein/)**: Both influenza HA and RSV F are class I viral fusogens with 6-helix bundle post-fusion; HA2 stalk (conserved) parallels RSV F site Ø; both serve as sole viral surface vaccine immunogens encoded by mRNA-LNP platforms (mRNA-1073 influenza; mResvia RSV F).
 
 **→ [SARS-CoV-2 Spike](../sars-cov-2-spike/)**: HA and SARS-CoV-2 Spike are class I viral fusogens: both cleaved by TMPRSS2 for activation; HA2 stalk and S2 heptad repeats form analogous 6-helix bundle; conserved stalk/stem epitopes targeted by broadly neutralizing antibodies; both are primary mRNA-LNP vaccine immunogens.
+
+**→ [Pulmonary Surfactant](../surfactant/)**: SP-D binds influenza HA mannose-rich N-glycans via calcium-dependent CRD → viral aggregation and opsonization; SP-D-deficient mice develop worse influenza pneumonitis; Asp11Asn SP-D polymorphism reduces HA binding; soluble SP-D inhibits influenza A plaque formation in vitro.
+
+**→ [MV-H Protein](../mv-h-protein/)**: Both HA and MV-H are homotrimeric viral attachment glycoproteins: HA binds α2,6-sialic acid on respiratory epithelium, MV-H binds SLAM/CD150 and nectin-4; both are primary neutralizing antibody targets and vaccine immunogens; both undergo antigenic variation to evade host immunity.
+
+**→ [Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/)**: influenza preferentially infects type II pneumocytes (high α2,6-SA expression); HA drives viral entry and cytopathic effect; destruction of type II cells depletes surfactant production → ARDS in severe influenza (H5N1, H1N1pdm09, H7N9).
 
 [^wilson-1981-ha-structure]: Wilson IA, Skehel JJ, Wiley DC. Structure of the haemagglutinin membrane glycoprotein of influenza virus at 3 Å resolution. *Nature.* 1981;289(5796):366-373. [doi:10.1038/289366a0](https://doi.org/10.1038/289366a0) · [PubMed 7464911](https://pubmed.ncbi.nlm.nih.gov/7464911/)
 [^skehel-2000-ha-review]: Skehel JJ, Wiley DC. Receptor binding and membrane fusion in virus entry: the influenza hemagglutinin. *Annu Rev Biochem.* 2000;69:531-569. [doi:10.1146/annurev.biochem.69.1.531](https://doi.org/10.1146/annurev.biochem.69.1.531) · [PubMed 10966468](https://pubmed.ncbi.nlm.nih.gov/10966468/)
