@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "SP released from injured C-fibers drives NK1R dorsal horn sensitization; peripheral nerve injury → ↑ SP in DRG → amplified spinal wind-up; NK1R-NMDA synergy underlies central sensitization; SP-driven allodynia and hyperalgesia are NK1R-mediated."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "Substance P (SP) from CGRP+/SP+ dermal nerve fibers in PN nodules → NK1R (neurokinin 1 receptor) on mast cells and keratinocytes → histamine/tryptase release and TSLP secretion → itch amplification; aprepitant (oral NK1R antagonist) reduces PN pruritus in open-label studies."
 ---
 
 # Substance P
@@ -180,6 +183,7 @@ This three-tier cascade is the molecular basis of **allodynia** (pain from norma
 
 - `connects-to` → **[CGRP](../cgrp/README.md)** — SP and CGRP are co-stored and co-released from trigeminal C-fiber terminals; SP causes plasma protein extravasation and mast cell degranulation while CGRP mediates vasodilation — together orchestrating neurogenic inflammation; both neuropeptides are elevated in CSF during migraine attacks and contribute to peripheral sensitization in fibromyalgia.
 - `connects-to` → **[Neuropathic Pain](../../07-system/neuropathic-pain/README.md)** — SP released from injured primary afferent C-fibers drives NK1R sensitization at the spinal dorsal horn; peripheral nerve injury increases SP synthesis in DRG neurons, amplifying spinal wind-up; NK1R-NMDA receptor synergy is the molecular basis of central sensitization in neuropathic pain states; SP-driven allodynia and hyperalgesia are NK1R-mediated phenomena.
+- `connects-to` → **[Prurigo Nodularis](../../07-system/prurigo-nodularis/README.md)** — Substance P (SP) from CGRP+/SP+ dermal nerve fibers in PN nodules → NK1R (neurokinin 1 receptor) on mast cells and keratinocytes → histamine/tryptase release and TSLP secretion → itch amplification; aprepitant (oral NK1R antagonist) reduces PN pruritus in open-label studies.
 
 [^otsuka-1993-substance-p-review]: Otsuka M, Yoshioka K. Neurotransmitter functions of mammalian tachykinins. *Physiol Rev.* 1993;73(2):229-308. [doi:10.1152/physrev.1993.73.2.229](https://doi.org/10.1152/physrev.1993.73.2.229) · [PubMed 8385466](https://pubmed.ncbi.nlm.nih.gov/8385466/)
 [^russell-1994-fibromyalgia-substance-p]: Russell IJ, Orr MD, Littman B, et al. Elevated cerebrospinal fluid levels of substance P in patients with the fibromyalgia syndrome. *Arthritis Rheum.* 1994;37(11):1593-1601. [doi:10.1002/art.1780371106](https://doi.org/10.1002/art.1780371106) · [PubMed 7526868](https://pubmed.ncbi.nlm.nih.gov/7526868/)

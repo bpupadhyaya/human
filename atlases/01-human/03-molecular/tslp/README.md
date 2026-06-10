@@ -24,6 +24,9 @@ cross_links:
   - target: 01-human/03-molecular/rsv-f-protein
     relation: connects-to
     note: "RSV F protein-mediated epithelial damage and syncytium formation trigger TSLP from airway epithelium → TSLPR/IL-7Rα on ILC2 and basophils → IL-4/IL-13 → IgE; nirsevimab (anti-F site Ø mAb) prevents infection-driven TSLP → reduces Th2 sensitization in early life."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "TSLP from stressed keratinocytes activates ILC2 and mast cells → IL-31, IL-4, IL-13 → Th2 polarization in PN; TSLP directly gates TRPA1 on C-fiber pruriceptors → immediate itch; tezepelumab (anti-TSLP) is under investigation for PN; TSLP is elevated in PN nodule biopsies."
 sources:
   - id: corren-2021-tezepelumab-navigator
     type: peer-reviewed
@@ -132,5 +135,10 @@ RSV-induced airway epithelial damage and dsRNA release trigger TSLP from bronchi
 
 RSV F protein-mediated epithelial damage and syncytium formation trigger TSLP from airway epithelium → TSLPR/IL-7Rα on ILC2 and basophils → IL-4/IL-13 → IgE; nirsevimab (anti-F site Ø mAb) prevents infection-driven TSLP → reduces Th2 sensitization in early life.
 
+- `connects-to` → **[Prurigo Nodularis](../../07-system/prurigo-nodularis/README.md)** — TSLP from stressed keratinocytes activates ILC2 and mast cells → IL-31, IL-4, IL-13 → Th2 polarization in PN; TSLP directly gates TRPA1 on C-fiber pruriceptors → immediate itch; tezepelumab (anti-TSLP) is under investigation for PN; TSLP is elevated in PN nodule biopsies.
+
 [^corren-2021-tezepelumab-navigator]: Corren J, Menzies-Gow A, Harris JM, et al. Tezepelumab in adults with severe, uncontrolled asthma (NAVIGATOR): a phase 3 trial. *N Engl J Med.* 2021;384(19):1800-1809. [doi:10.1056/NEJMoa2034975](https://doi.org/10.1056/NEJMoa2034975) · [PubMed 33979488](https://pubmed.ncbi.nlm.nih.gov/33979488/)
 [^liu-2002-tslp-cloning]: Liu YJ. Thymic stromal lymphopoietin: master switch for allergic inflammation. *J Exp Med.* 2006;203(2):269-273. [doi:10.1084/jem.20051745](https://doi.org/10.1084/jem.20051745) · [PubMed 16476766](https://pubmed.ncbi.nlm.nih.gov/16476766/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

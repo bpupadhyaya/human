@@ -69,6 +69,9 @@ cross_links:
   - target: 01-human/03-molecular/sclerostin
     relation: connects-to
     note: "Dialysis patients have elevated sclerostin from impaired renal clearance + uremic Wnt suppression → adynamic bone disease; elevated sclerostin correlates with vascular calcification and mortality in CKD; romosozumab not approved in severe CKD due to CV risk."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "CKD-associated pruritus (formerly uremic pruritus) causes PN-like nodules in dialysis patients; uremic toxins activate μ-opioid and κ-opioid receptors on pruriceptors; difelikefalin (κ-opioid agonist; FDA 2021 for CKD-aP on HD) reduces itch and may prevent PN nodule formation."
 ---
 
 # Chronic Kidney Disease
@@ -162,6 +165,7 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — SCD causes sickle cell nephropathy via medullary sickling (high osmolarity + low pO2 in vasa recta → medullary ischaemia) → hyposthenuria, papillary necrosis, proteinuria; progressive CKD in ~30% HbSS by age 40; ACE inhibitors + hydroxyurea slow progression.
 - `connects-to` → **[Malaria](../malaria/README.md)** — Severe falciparum malaria causes AKI in 4-8% (haemoglobinuria + microvascular obstruction + cytokine storm); cerebral malaria + AKI → high mortality; repeated malaria episodes contribute to CKD burden in endemic populations.
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — dialysis patients have elevated sclerostin from impaired renal clearance + uremic Wnt suppression → adynamic bone disease; elevated sclerostin correlates with vascular calcification and mortality in CKD; romosozumab is not approved in severe CKD due to CV risk.
+- `connects-to` → **[Prurigo Nodularis](../prurigo-nodularis/README.md)** — CKD-associated pruritus (formerly uremic pruritus) causes PN-like nodules in dialysis patients; uremic toxins activate μ-opioid and κ-opioid receptors on pruriceptors; difelikefalin (κ-opioid agonist; FDA 2021 for CKD-aP on HD) reduces itch and may prevent PN nodule formation.
 
 ## Pathology
 
@@ -178,3 +182,6 @@ As nephron mass decreases, impaired renal functions accumulate:
 [^kdigo-2012-ckd]: KDIGO CKD Work Group. KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. *Kidney Int Suppl.* 2013;3(1):1-150. [doi:10.1038/kisup.2012.73](https://doi.org/10.1038/kisup.2012.73)
 [^levey-2012-ckd-lancet]: Levey AS, Coresh J. Chronic kidney disease. *Lancet.* 2012;379(9811):165-180. [doi:10.1016/S0140-6736(11)60178-5](https://doi.org/10.1016/S0140-6736(11)60178-5) · [PubMed 21840587](https://pubmed.ncbi.nlm.nih.gov/21840587/)
 [^coresh-2007-prevalence]: Coresh J, Selvin E, Stevens LA, et al. Prevalence of chronic kidney disease in the United States. *JAMA.* 2007;298(17):2038-2047. [doi:10.1001/jama.298.17.2038](https://doi.org/10.1001/jama.298.17.2038) · [PubMed 17986697](https://pubmed.ncbi.nlm.nih.gov/17986697/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

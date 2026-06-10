@@ -31,6 +31,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "IL-4 and IL-13 drive Th2 polarization in PN skin; dupilumab (anti-IL-4Rα) reduces IGA success 37% vs. 22% and NRS itch ≥4 response 60% vs. 18% (LIBERTY-PN PRIME2); Th2 cytokines suppress periostin and collagen crosslinking → paradoxically fibrotic nodule response."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "TSLP from stressed keratinocytes activates ILC2 and mast cells → IL-31, IL-4, IL-13 → Th2 polarization in PN; TSLP directly gates TRPA1 on C-fiber pruriceptors → immediate itch; tezepelumab (anti-TSLP) is under investigation for PN; TSLP is elevated in PN nodule biopsies."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Substance P (SP) from CGRP+/SP+ dermal nerve fibers in PN nodules → NK1R (neurokinin 1 receptor) on mast cells and keratinocytes → histamine/tryptase release and TSLP secretion → itch amplification; aprepitant (oral NK1R antagonist) reduces PN pruritus in open-label studies."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "CKD-associated pruritus (formerly uremic pruritus) causes PN-like nodules in dialysis patients; uremic toxins activate μ-opioid and κ-opioid receptors on pruriceptors; difelikefalin (κ-opioid agonist; FDA 2021 for CKD-aP on HD) reduces itch and may prevent PN nodule formation."
 ---
 
 # Prurigo Nodularis
@@ -118,6 +127,12 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — IL-31 from Th2 cells/mast cells → IL-31RA on sensory DRG neurons → JAK1 → TRPV1/TRPA1 sensitization → itch → scratching → nodule formation; nemolizumab (anti-IL-31RA, 30 mg SC Q4W) → IGA success 26% vs. 0% and NRS itch reduction 58% vs. 16% (OLYMPIA 2).
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — PN and AD share Th2/Th22 inflammatory axis and IL-4/IL-13/IL-31 cytokine milieu; ~50-70% of PN patients have comorbid or preceding AD; dupilumab (approved for both PN and AD) targets shared IL-4Rα; PN nodules show more fibrotic stroma and denser neural proliferation than AD plaques.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-4 and IL-13 drive Th2 polarization in PN skin; dupilumab (anti-IL-4Rα blocking both IL-4 and IL-13) reduces IGA success 37% vs. 22% and NRS itch ≥4 response 60% vs. 18% (LIBERTY-PN PRIME2); Th2 cytokines suppress periostin and collagen crosslinking → paradoxically fibrotic nodule response.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — TSLP from stressed keratinocytes activates ILC2 and mast cells → IL-31, IL-4, IL-13 → Th2 polarization in PN; TSLP directly gates TRPA1 on C-fiber pruriceptors → immediate itch; tezepelumab (anti-TSLP) is under investigation for PN; TSLP is elevated in PN nodule biopsies.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P (SP) from CGRP+/SP+ dermal nerve fibers in PN nodules → NK1R on mast cells and keratinocytes → histamine/tryptase release and TSLP secretion → itch amplification; aprepitant (oral NK1R antagonist) reduces PN pruritus in open-label studies.
+- `connects-to` → **[CKD](../ckd/README.md)** — CKD-associated pruritus (formerly uremic pruritus) causes PN-like nodules in dialysis patients; uremic toxins activate μ-opioid and κ-opioid receptors on pruriceptors; difelikefalin (κ-opioid agonist; FDA 2021 for CKD-aP on HD) reduces itch and may prevent PN nodule formation.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
