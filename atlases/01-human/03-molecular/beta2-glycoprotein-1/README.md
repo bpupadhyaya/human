@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "~50% of SLE patients have aPL antibodies (anti-B2GPI, aCL, LA); 30% of aPL-positive SLE patients develop APS; anti-B2GPI IgG may drive SLE nephritis through complement and endothelial activation; hydroxychloroquine reduces aPL titers and thrombotic risk in SLE."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Anti-B2GPI IgG + B2GPI on activated platelet PS → GPIbα interaction → P-selectin expression → platelet aggregation; Fc-dependent FcγRIIA → PI3K → further activation; aspirin is the cornerstone of thrombotic APS secondary prevention for arterial thrombosis."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Anti-B2GPI IgG inhibits Protein C activation and Protein S → impaired APC anticoagulant pathway → thrombin amplification; EPCR expression reduced on anti-B2GPI-activated endothelium → less APC; the resultant Protein C/S-deficient state underlies microvascular APS thrombosis."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Anti-B2GPI IgG-B2GPI complexes on endothelial surface engage TLR4 → MyD88 → NF-κB → tissue factor + VCAM-1 + ICAM-1 → prothrombotic endothelial phenotype; B2GPI binds PS exposed by activated endothelium → the primary site of APS-associated arterial and venous thrombosis."
 ---
 
 # Beta-2 Glycoprotein I
@@ -130,10 +139,14 @@ B2GPI's physiological binding to anionic phospholipids (phosphatidylserine [PS] 
 - `connects-to` → **[Immunoglobulin G](../immunoglobulin-g/README.md)** — Anti-B2GPI autoantibodies are predominantly IgG (IgG1 > IgG4); domain I-specific IgG are most pathogenic in APS; IgG-B2GPI complexes bind phospholipid surfaces on endothelium and platelets → prothrombotic signaling; B2GPI-specific IgG titer correlates with thrombotic risk.
 - `connects-to` → **[Complement C5](../complement-c5/README.md)** — Anti-B2GPI → complement activation (C3b deposition → C5a → neutrophil/platelet activation → thrombus amplification); eculizumab (anti-C5; FDA-approved for other indications) is used off-label for catastrophic APS (CAPS) refractory to anticoagulation and plasma exchange.
 - `connects-to` → **[Systemic Lupus Erythematosus](../../07-system/systemic-lupus-erythematosus/README.md)** — ~50% of SLE patients have aPL antibodies (anti-B2GPI, aCL, LA); 30% of aPL-positive SLE patients develop APS; anti-B2GPI IgG may drive SLE nephritis through complement and endothelial activation; hydroxychloroquine reduces aPL titers and thrombotic risk in SLE.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Anti-B2GPI IgG + B2GPI on activated platelet PS → GPIbα interaction → P-selectin expression → platelet aggregation; Fc-dependent FcγRIIA → PI3K → further activation; aspirin is the cornerstone of thrombotic APS secondary prevention for arterial thrombosis.
+- `connects-to` → **[Protein C](../protein-c/README.md)** — Anti-B2GPI IgG inhibits Protein C activation and Protein S → impaired APC anticoagulant pathway → thrombin amplification; EPCR expression reduced on anti-B2GPI-activated endothelium → less APC generated; the resultant Protein C/S-deficient state underlies microvascular APS thrombosis.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Anti-B2GPI IgG-B2GPI complexes on endothelial surface engage TLR4 → MyD88 → NF-κB → tissue factor + VCAM-1 + ICAM-1 → prothrombotic endothelial phenotype; B2GPI binds PS exposed by activated endothelium → the primary APS thrombosis initiation site.
 
 [^miyakis-2006-aps-criteria]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^de-groot-2004-b2gpi-domain1]: de Groot PG, Derksen RH. The antiphospholipid syndrome: clinical characteristics and pathophysiology. *Semin Thromb Hemost.* 2004;30(6):597-606. [doi:10.1055/s-2004-861504](https://doi.org/10.1055/s-2004-861504) · [PubMed 15630643](https://pubmed.ncbi.nlm.nih.gov/15630643/)
 [^rand-2019-aps-lancet]: Rand JH, Wolgast LR. Dos and don'ts in diagnosing antiphospholipid syndrome. *Hematology Am Soc Hematol Educ Program.* 2012;2012:455-459. [doi:10.1182/asheducation-2012.1.455](https://doi.org/10.1182/asheducation-2012.1.455) · [PubMed 23233624](https://pubmed.ncbi.nlm.nih.gov/23233624/)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

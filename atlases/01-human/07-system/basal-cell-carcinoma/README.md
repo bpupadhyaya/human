@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Wnt/β-catenin pathway is activated in a subset of BCC alongside Hedgehog activation → cooperative proliferative drive; CTNNB1 mutations uncommon in BCC but Wnt ligand overexpression occurs; combined SMO + porcupine inhibition studied in advanced or vismodegib-resistant BCC."
+  - target: 01-human/03-molecular/ptch1
+    relation: connects-to
+    note: "PTCH1 loss-of-function initiates >90% of BCC; UV-induced C→T transitions in PTCH1 → SMO derepression → GLI nuclear translocation; biallelic PTCH1 inactivation required for BCC; germline PTCH1 mutation causes Gorlin syndrome with multiple early-onset BCCs and medulloblastoma."
+  - target: 01-human/03-molecular/smo
+    relation: connects-to
+    note: "SMO activating mutations in ~40-50% of sporadic BCC (W535L most common); vismodegib and sonidegib bind SMO transmembrane domain → inhibit HH signaling; SMO D473H mutation causes on-target vismodegib resistance; cemiplimab (anti-PD-1) is the approved option at vismodegib failure."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "BCC arises from basal keratinocytes of the hair follicle or interfollicular epidermis; UV-B → C→T dipyrimidine mutations → PTCH1/TP53/SMO → clonal BCC expansion; H-zone BCCs require Mohs surgery; skin transplant recipients (immunosuppressed) have 10-30× BCC risk."
 ---
 
 # Basal Cell Carcinoma
@@ -161,6 +170,13 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations in ~60-70% of BCC (UV signature CC→TT mutations at dipyrimidine sites); TP53 loss cooperates with PTCH1/SMO Hedgehog activation in BCC pathogenesis; p53 pathway inactivation reduces apoptotic response to UV damage; TERT activation also common in advanced BCC.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — HPV-negative BCC (the vast majority) retains RB1 intact; UV-induced CDKN2A deletion in some BCC allows CDK4/6-RB bypass; RB pathway loss is more relevant in Merkel cell carcinoma (skin cancer driven by MCPyV large T antigen targeting RB/p53 simultaneously).
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin pathway is activated in a subset of BCC alongside Hedgehog activation → cooperative proliferative drive; CTNNB1 mutations uncommon in BCC but Wnt ligand overexpression occurs; combined SMO + porcupine inhibition studied in advanced or vismodegib-resistant BCC.
+- `connects-to` → **[PTCH1](../../03-molecular/ptch1/README.md)** — PTCH1 loss-of-function is the defining molecular event in >90% of BCC; UV-induced C→T mutations in PTCH1 → SMO derepression → constitutive GLI nuclear translocation; germline PTCH1 mutation causes Gorlin syndrome (BCNS) with multiple early-onset BCCs, odontogenic keratocysts, and medulloblastoma risk.
+- `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — SMO activating mutations (W535L most common) in ~40-50% of sporadic BCC → constitutive HH signaling independent of PTCH1 ligand; vismodegib and sonidegib bind SMO transmembrane domain; SMO D473H mutation causes on-target resistance; cemiplimab (anti-PD-1) is the approved post-vismodegib option.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — BCC arises from basal keratinocytes of hair follicle or interfollicular epidermis; UV-B → dipyrimidine mutations → PTCH1/TP53/SMO → clonal BCC expansion over decades; H-zone BCCs (central face, eyelids) require Mohs surgery; organ transplant recipients (immunosuppressed) have 10-30× BCC risk.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^sekulic-2012-vismodegib]: Sekulic A, Migden MR, Oro AE, et al. Efficacy and safety of vismodegib in advanced basal-cell carcinoma. *N Engl J Med.* 2012;366(23):2171-2179. [doi:10.1056/NEJMoa1113600](https://doi.org/10.1056/NEJMoa1113600) · [PubMed 22670902](https://pubmed.ncbi.nlm.nih.gov/22670902/)
 [^stratigos-2021-cemiplimab]: Stratigos AJ, Sekulic A, Peris K, et al. Cemiplimab in locally advanced basal cell carcinoma after hedgehog inhibitor therapy: an open-label, multi-centre, single-arm, phase 2 trial (EMPOWER-BCC 1). *Lancet Oncol.* 2021;22(6):848-857. [doi:10.1016/S1470-2045(21)00126-1](https://doi.org/10.1016/S1470-2045(21)00126-1) · [PubMed 33930313](https://pubmed.ncbi.nlm.nih.gov/33930313/)
