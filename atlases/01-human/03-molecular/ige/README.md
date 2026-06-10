@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "IgE-mediated mast cell activation → phospholipase A2 → arachidonic acid → COX → PGD2 (major mast cell prostanoid); PGD2 → DP1/CRTH2 receptors → bronchoconstriction, eosinophil recruitment, and mucus secretion; PGD2 mediates the late-phase allergic response."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "IL-4 is the primary IgE class switch driver: IL-4 → IL-4Rα/γc (type I, lymphocytes) → STAT6 → ε germline transcript → IgE; IL-13 contributes secondarily via type II receptor; dupilumab (anti-IL-4Rα) blocks both → reduces total and allergen-specific IgE in atopic patients."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "TSLP (thymic stromal lymphopoietin) → TSLPR/IL-7Rα → OX40L+ DCs → Th2 differentiation → IL-4/IL-13 → IgE class switching; TSLP is the master upstream alarmin initiating allergic sensitization; tezepelumab (anti-TSLP) reduces total IgE, eosinophils, and FeNO in severe asthma."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 (alarmin) → ST2/IL-1RAcP → ILC2 and Th2 → IL-4/IL-13 production → B cell IgE class switching; IL-33 is a key upstream IgE production regulator; itepekimab (anti-IL-33) reduces IgE-mediated airway inflammation; IL-33 + TSLP + IL-25 form the alarmin triad upstream of IgE."
 sources:
   - id: gould-2008-ige-review
     type: peer-reviewed
@@ -122,13 +131,17 @@ IgE is a **monomeric glycoprotein** (~190 kDa) — uniquely, IgE does not form d
 
 ## Connections
 
-Allergen-specific IgE binds FcεRI on airway mast cells → allergen cross-linking → degranulation → acute bronchoconstriction; omalizumab (anti-IgE mAb) binds free IgE → reduces FcεRI expression → 26-50% fewer exacerbations in severe allergic asthma.
+- `connects-to` → **[Asthma](../../07-system/asthma/README.md)** — Allergen-specific IgE on FcεRI → allergen cross-linking → mast cell degranulation → acute bronchoconstriction; omalizumab (anti-IgE) binds free IgE → reduces FcεRI expression → 26-50% fewer exacerbations in severe allergic asthma.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — IgE bound to FcεRI on mast cells persists weeks-months; allergen cross-links IgE → Syk/Lyn → Ca²⁺ release → degranulation (histamine, heparin, tryptase) + PGD2/leukotriene synthesis; FcεRI surface density is upregulated by IgE itself.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — IgE-mediated mast cell degranulation releases histamine → H1R bronchoconstriction, vasodilation, pruritus; H1 antihistamines relieve allergic rhinitis/urticaria; histamine is one of several bronchoconstricting mediators alongside leukotrienes and PGD2.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — IgE-mediated mast cell activation → PLA₂ → arachidonic acid → COX → PGD2; PGD2 → DP1/CRTH2 → bronchoconstriction, eosinophil recruitment, mucus secretion; PGD2 mediates the late-phase allergic response.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-4 is the primary IgE class switch driver: IL-4 → IL-4Rα/γc (type I, lymphocytes) → STAT6 → ε germline transcript → IgE; IL-13 contributes secondarily via type II receptor; dupilumab (anti-IL-4Rα) blocks both → reduces total and allergen-specific IgE in atopic patients.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — TSLP (thymic stromal lymphopoietin) → TSLPR/IL-7Rα → OX40L+ DCs → Th2 differentiation → IL-4/IL-13 → IgE class switching; TSLP is the master upstream alarmin initiating allergic sensitization; tezepelumab (anti-TSLP) reduces total IgE, eosinophils, and FeNO in severe asthma.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 (alarmin) → ST2/IL-1RAcP → ILC2 and Th2 → IL-4/IL-13 production → B cell IgE class switching; IL-33 is a key upstream IgE production regulator; itepekimab (anti-IL-33) reduces IgE-mediated airway inflammation; IL-33 + TSLP + IL-25 form the alarmin triad upstream of IgE.
 
-IgE bound to FcεRI on mast cells persists for weeks-months (sensitized mast cell); allergen cross-links IgE → Syk/Lyn kinase → Ca2+ release → degranulation (histamine, heparin, tryptase) + prostaglandin and leukotriene synthesis; FcεRI density is upregulated by IgE itself.
+---
 
-IgE-mediated mast cell degranulation releases histamine → H1R bronchoconstriction, vasodilation, and pruritus; H1 antihistamines relieve allergic rhinitis and urticaria; in asthma, histamine is one of several bronchoconstricting mediators alongside leukotrienes and PGD2.
-
-IgE-mediated mast cell activation → phospholipase A2 → arachidonic acid → COX → PGD2 (major mast cell prostanoid); PGD2 → DP1/CRTH2 receptors → bronchoconstriction, eosinophil recruitment, and mucus secretion; PGD2 mediates the late-phase allergic response.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^gould-2008-ige-review]: Gould HJ, Sutton BJ. IgE in allergy and asthma today. *Nat Rev Immunol.* 2008;8(3):205-217. [doi:10.1038/nri2273](https://doi.org/10.1038/nri2273) · [PubMed 18301424](https://pubmed.ncbi.nlm.nih.gov/18301424/)
 [^busse-2001-omalizumab]: Busse W, Corren J, Lanier BQ, et al. Omalizumab, anti-IgE recombinant humanized monoclonal antibody, for the treatment of severe allergic asthma. *J Allergy Clin Immunol.* 2001;108(2):184-190. [doi:10.1067/mai.2001.117880](https://doi.org/10.1067/mai.2001.117880) · [PubMed 11496232](https://pubmed.ncbi.nlm.nih.gov/11496232/)

@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Homozygous CDKN2A deletion in ~10-15% synovial sarcoma; EZH2/H3K27me3 epigenetically silences CDKN2A even without deletion → absent p16 → CDK4/6 hyperactivation → RB1 phosphorylation → E2F-driven S-phase; CDK4/6 inhibitors (palbociclib) under investigation in CDKN2A-deleted SS."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "SS18-SSX → BAF loss → de-repression of Wnt/β-catenin targets (AXIN2, LEF1, Wnt5A); BAF normally restricts Wnt-driven transcription; SS18-SSX Wnt activation contributes to biphasic epithelial differentiation in synovial sarcoma and enhances invasiveness via Wnt-driven EMT outputs."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "CDKN2A epigenetically silenced by EZH2/H3K27me3 in SS18-SSX tumors → p16/INK4A absent → CDK4/6 hyperactive → Rb1 phosphorylation → E2F release → G1-S; RB1 protein intact in most SS (unlike AT/RT); CDK4/6 inhibitors (palbociclib) partially restore G1 arrest in SS."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "SS18-SSX QPGY activation domain drives VEGF (HIF-1α target) transcription; BAF loss de-represses HIF pathway target genes; synovial sarcoma is highly vascular reflecting VEGF/HIF-1α upregulation; VEGF IHC correlates with tumor vessel density and recurrence in SS."
 ---
 
 # SS18
@@ -133,6 +142,13 @@ BRD4 occupies super-enhancers at MYC and ETV4 loci in SS → MYC transcription; 
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — SS18-SSX displaces SMARCB1 → canonical BAF destabilized → PRC2/EZH2 unrestricted → H3K27me3 at CDKN2A, SOX2, and differentiation loci; SS is uniquely EZH2-dependent; tazemetostat (SARC057 trial, Tap 2022): ORR 22%, DCR 67% in heavily pretreated synovial sarcoma.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — SS18-SSX → BRD4-occupied super-enhancers at MYC and oncogene loci → MYC transcription; synovial sarcoma shows ETV4 (MYC target) overexpression; BET inhibitor JQ1 suppresses MYC in SS cells; MYC-driven proliferation in SS context is EZH2-dependent (EZH2 silences MYC inhibitors).
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Homozygous CDKN2A deletion in ~10-15% synovial sarcoma; EZH2/H3K27me3 epigenetically silences CDKN2A even without deletion → absent p16 → CDK4/6 hyperactivation → RB1 phosphorylation → E2F-driven S-phase; CDK4/6 inhibitors (palbociclib) under investigation in CDKN2A-deleted SS.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SS18-SSX → BAF loss → de-repression of Wnt/β-catenin targets (AXIN2, LEF1, Wnt5A); BAF normally restricts Wnt-driven transcription; SS18-SSX Wnt activation contributes to biphasic epithelial differentiation in synovial sarcoma and enhances invasiveness via Wnt-driven EMT outputs.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — CDKN2A epigenetically silenced by EZH2/H3K27me3 in SS18-SSX tumors → p16/INK4A absent → CDK4/6 hyperactive → Rb1 phosphorylation → E2F release → G1-S; RB1 protein intact in most SS (unlike AT/RT); CDK4/6 inhibitors (palbociclib) partially restore G1 arrest in SS.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — SS18-SSX QPGY activation domain drives VEGF (HIF-1α target) transcription; BAF loss de-represses HIF pathway target genes; synovial sarcoma is highly vascular reflecting VEGF/HIF-1α upregulation; VEGF IHC correlates with tumor vessel density and recurrence in SS.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^kadoch-2013-ss18-ssx-baf]: Kadoch C, Crabtree GR. Reversible disruption of mSWI/SNF (BAF) complexes by the SS18-SSX oncogenic fusion in synovial sarcoma. *Cell.* 2013;153(1):71-85. [doi:10.1016/j.cell.2013.02.036](https://doi.org/10.1016/j.cell.2013.02.036) · [PubMed 23540691](https://pubmed.ncbi.nlm.nih.gov/23540691/)
 [^ladanyi-2001-syt-ssx-synovial]: Ladanyi M. Fusions of the SYT and SSX genes in synovial sarcoma. *Oncogene.* 2001;20(40):5755-5762. [doi:10.1038/sj.onc.1204601](https://doi.org/10.1038/sj.onc.1204601) · [PubMed 11607825](https://pubmed.ncbi.nlm.nih.gov/11607825/)
