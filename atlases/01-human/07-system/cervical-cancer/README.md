@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Bevacizumab + cisplatin/paclitaxel (GOG-0240) improved OS vs chemotherapy alone (17.0 vs 13.3 months) in recurrent/metastatic cervical cancer; bevacizumab is standard for metastatic disease; KEYNOTE-826 added pembrolizumab to bevacizumab + chemotherapy for PD-L1+ patients."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: connects-to
+    note: "HPV16/18 infect cervical transformation zone → E6-mediated p53 degradation + E7-mediated RB inactivation → CIN1-3 → invasive carcinoma; HPV16 accounts for ~55% of cervical SCC; viral genome integration disrupts E2 repressor → constitutive E6/E7 overexpression."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PIK3CA mutations (E542K, E545K, H1047R) occur in ~35-40% of cervical SCC and adenocarcinoma → AKT-mTOR activation → proliferation; PIK3CA mutation cooperates with HPV E6/E7 in transformation; PI3K inhibitors (alpelisib) being studied in PIK3CA-mutant recurrent cervical cancer."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "KRAS mutations occur in ~10-15% of endocervical adenocarcinoma; gastric-type adenocarcinoma is HPV-independent with frequent KRAS + STK11 mutations; KRAS mutation predicts poor response to platinum chemotherapy; no approved KRAS inhibitors for cervical adenocarcinoma."
 ---
 
 # Cervical Cancer
@@ -162,6 +171,13 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — HPV E7 oncoprotein binds RB LXCXE motif → RB inactivation → E2F release → S-phase entry; p16 INK4a (CDKN2A) overexpression is IHC surrogate for RB inactivation in cervical cancer; functional RB loss without mutation is universal in HPV-driven cervical carcinogenesis.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — HPV E6 recruits E6AP (UBE3A) ubiquitin ligase → p53 proteasomal degradation → loss of G1 checkpoint and apoptosis; p53 is wild-type but functionally absent in HPV+ cervical cancer; p53 mutation is rare and not required for HPV-driven carcinogenesis.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Bevacizumab + cisplatin/paclitaxel (GOG-0240) improved OS vs chemotherapy alone (17.0 vs 13.3 months) in recurrent/metastatic cervical cancer; bevacizumab is standard for metastatic disease; KEYNOTE-826 added pembrolizumab to bevacizumab + chemotherapy for PD-L1+ patients.
+- `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV16/18 infect cervical transformation zone → E6-mediated p53 degradation + E7-mediated RB inactivation → CIN1-3 → invasive carcinoma; HPV16 accounts for ~55% of cervical SCC; viral genome integration disrupts E2 repressor → constitutive E6/E7 overexpression.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutations (E542K, E545K, H1047R) occur in ~35-40% of cervical SCC and adenocarcinoma → AKT-mTOR activation → proliferation; PIK3CA mutation cooperates with HPV E6/E7 in transformation; PI3K inhibitors (alpelisib) being studied in PIK3CA-mutant recurrent cervical cancer.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS mutations occur in ~10-15% of endocervical adenocarcinoma; gastric-type adenocarcinoma is HPV-independent with frequent KRAS + STK11 mutations; KRAS mutation predicts poor response to platinum chemotherapy; no approved KRAS inhibitors for cervical adenocarcinoma.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^tewari-2014-gog240]: Tewari KS, Sill MW, Long HJ 3rd, et al. Improved survival with bevacizumab in advanced cervical cancer. *N Engl J Med.* 2014;370(8):734-743. [doi:10.1056/NEJMoa1309748](https://doi.org/10.1056/NEJMoa1309748) · [PubMed 24552320](https://pubmed.ncbi.nlm.nih.gov/24552320/)
 [^colombo-2021-keynote826]: Colombo N, Dubot C, Lorusso D, et al. Pembrolizumab for persistent, recurrent, or metastatic cervical cancer. *N Engl J Med.* 2021;385(20):1856-1867. [doi:10.1056/NEJMoa2112435](https://doi.org/10.1056/NEJMoa2112435) · [PubMed 34534430](https://pubmed.ncbi.nlm.nih.gov/34534430/)
