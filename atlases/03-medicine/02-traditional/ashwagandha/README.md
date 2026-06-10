@@ -40,6 +40,15 @@ cross_links:
     relation: treats
     evidence: pratte-2014-ashwagandha-anxiety-review
     note: "Ayurvedic rasayana use includes immune enhancement. Withanolides enhance NK cell activity, macrophage phagocytosis, and IFN-γ production in human studies. Withaferin A inhibits NF-κB in macrophages — a dual immunomodulatory (enhancing innate, dampening excessive inflammatory) profile consistent with rasayana rejuvenation protocols. Note: clinical immunology data are less robust than cortisol data."
+  - target: 01-human/04-cellular/macrophage
+    relation: modulates
+    note: "Withanolides enhance macrophage phagocytic activity, NK cytotoxicity, and IFN-γ (rasayana innate enhancement); withaferin A inhibits IKKβ → NF-κB suppression → reduced TNF-α/IL-6/IL-1β; dual immunostimulatory + anti-inflammatory profile consistent with Ayurvedic rasayana use."
+  - target: 01-human/03-molecular/nf-kb
+    relation: inhibits
+    note: "Withaferin A inhibits IKKβ (IκB kinase β) → blocks NF-κB nuclear translocation → reduced transcription of TNF-α, IL-6, IL-1β, and COX-2; also binds Hsp90 and disrupts pro-inflammatory signalling scaffolds; primary anti-inflammatory mechanism in vitro and animal models."
+  - target: 01-human/03-molecular/testosterone
+    relation: modulates
+    note: "Ashwagandha 600 mg/day KSM-66 (8 weeks) raises serum testosterone ~15% and LH ~34% in males with low-normal levels; mechanism: reduced cortisol relieves Leydig cell testosterone suppression; also reduces exercise-induced creatine kinase and improves VO₂max (Wankhede 2015 JISSN)."
 ---
 
 # Ashwagandha
@@ -152,7 +161,13 @@ Wankhede et al. (2015) [^wankhede-2015-ashwagandha-muscle] — RCT, n=57 young m
 - **Modulates** → [Nervous System](../../../../../01-human/07-system/nervous-system/README.md): GABAergic activity (GABA-A partial agonism, GABA-T inhibition), HPA axis normalisation, and neuroprotective withanosides collectively explain anxiolytic, sleep-promoting, and neuroprotective effects observed in trials. These mechanisms are better characterised in animal models; direct human neuroimaging evidence is limited.
 
 - **Treats** → [Immune System](../../../../../01-human/07-system/immune-system/README.md): Ayurvedic rasayana use aligns with a dual immunomodulatory profile — enhancing innate surveillance (NK cells, macrophage phagocytosis, IFN-γ) while dampening excessive NF-κB-driven inflammation via withaferin A. Clinical immunology data are less robust than the stress and performance evidence base; most immune studies are small and preclinical.
+- `modulates` → **[Macrophage](../../../../../01-human/04-cellular/macrophage/README.md)** — Withanolides enhance macrophage phagocytic activity, NK cytotoxicity, and IFN-γ (rasayana innate enhancement); withaferin A inhibits IKKβ → NF-κB suppression → reduced TNF-α/IL-6/IL-1β; dual immunostimulatory + anti-inflammatory profile consistent with Ayurvedic rasayana use.
+- `inhibits` → **[NF-κB](../../../../../01-human/03-molecular/nf-kb/README.md)** — Withaferin A inhibits IKKβ → blocks NF-κB nuclear translocation → reduced TNF-α, IL-6, IL-1β, COX-2 transcription; also binds Hsp90 and disrupts pro-inflammatory signalling scaffolds; the primary anti-inflammatory mechanism in vitro and animal models.
+- `modulates` → **[Testosterone](../../../../../01-human/03-molecular/testosterone/README.md)** — Ashwagandha 600 mg/day KSM-66 (8 weeks) raises serum testosterone ~15% and LH ~34% in males with low-normal levels; mechanism: reduced cortisol relieves Leydig cell testosterone suppression; also reduces exercise-induced creatine kinase and improves VO₂max (Wankhede 2015 JISSN).
 
 [^chandrasekhar-2012-ashwagandha-stress]: Chandrasekhar K et al. Indian J Psychol Med. 2012;34(3):255-62. doi:10.4103/0253-7176.106022
 [^pratte-2014-ashwagandha-anxiety-review]: Pratte MA et al. J Altern Complement Med. 2014;20(12):901-8. doi:10.1089/acm.2014.0177
 [^wankhede-2015-ashwagandha-muscle]: Wankhede S et al. J Int Soc Sports Nutr. 2015;12:43. doi:10.1186/s12970-015-0104-9
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

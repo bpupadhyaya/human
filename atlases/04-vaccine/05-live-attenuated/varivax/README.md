@@ -56,6 +56,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Anti-VZV IgG (FAMA titer ≥1:4) is the primary seroprotection correlate for Varivax; gB, gE, gC, and gH/gL are immunodominant targets; 2-dose schedule generates durable IgG titers detectable ≥20 years post-vaccination via bone marrow plasma cells."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: elicits
+    note: "Varivax Oka strain replicates in lymphocytes → MHC-I → VZV-specific CD8+ CTL generation; CTLs control VZV reactivation in DRG and prevent herpes zoster; Oka strain generates lower CTL magnitude than wild-type VZV, contributing to waning zoster protection with age."
+  - target: 01-human/04-cellular/b-cell
+    relation: elicits
+    note: "Anti-VZV IgG (FAMA ≥1:4) is the seroprotection correlate; B cell GC reactions produce anti-gE/gB/gC plasma cells and memory B cells persisting ≥20 years; natural VZV boosting from community exposure maintains B cell memory — a benefit reduced by near-universal vaccination."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: prevents-damage-to
+    note: "Varivax Oka strain establishes DRG latency at lower viral burden than wild-type VZV → reduced lifetime herpes zoster risk; Varivax reduces the DRG VZV genomic load that drives reactivation and peripheral sensory nerve inflammation causing shingles and postherpetic neuralgia."
 ---
 
 # Varivax
@@ -112,6 +121,9 @@ ACIP 2008: For dose 1 at 12–15 months, prefer giving MMR and Varivax as separa
 - `immunizes-against` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Varivax prevents primary varicella infection (chickenpox); 2-dose schedule provides ~98-99% protection against disease; also reduces zoster risk by maintaining VZV-specific T-cell immunity.
 - `connects-to` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — Varivax (Oka/Merck VZV) elicits CD4⁺ and CD8⁺ VZV-specific T cells and anti-gB/gE/gC IgG; 2-dose schedule achieves >99% seroconversion; VZV-specific T-cell immunity prevents shingles reactivation; subcutaneous injection drives limited viraemia and DC antigen presentation.
 - `connects-to` → **[Immunoglobulin G](../../../../01-human/03-molecular/immunoglobulin-g/README.md)** — Anti-VZV IgG (FAMA titer ≥1:4) is the primary seroprotection correlate for Varivax; gB, gE, gC, and gH/gL are immunodominant targets; 2-dose schedule generates durable IgG titers detectable ≥20 years post-vaccination via bone marrow plasma cells.
+- `elicits` → **[T-Cytotoxic Cell](../../../../01-human/04-cellular/t-cytotoxic-cell/README.md)** — Varivax Oka strain replicates in lymphocytes → MHC-I → VZV-specific CD8+ CTL generation; CTLs control VZV reactivation in DRG and prevent herpes zoster; Oka strain generates lower CTL magnitude than wild-type VZV, contributing to waning zoster protection with age.
+- `elicits` → **[B Cell](../../../../01-human/04-cellular/b-cell/README.md)** — Anti-VZV IgG (FAMA ≥1:4) seroprotection correlate; B cell GC reactions produce anti-gE/gB/gC plasma cells and memory B cells persisting ≥20 years; natural VZV boosting from community exposure maintains B cell memory — a benefit reduced by near-universal vaccination.
+- `prevents-damage-to` → **[Peripheral Nerve](../../../../01-human/05-tissue/peripheral-nerve/README.md)** — Varivax Oka strain establishes DRG latency at lower viral burden than wild-type VZV → reduced lifetime herpes zoster risk; Varivax reduces the DRG VZV genomic load that drives reactivation and peripheral sensory nerve inflammation causing shingles and postherpetic neuralgia.
 
 [^weibel-1984-varivax]: Weibel RE, Neff BJ, Kuter BJ, et al. Live attenuated varicella virus vaccine: efficacy trial in healthy children. *N Engl J Med.* 1984;310(22):1409-1415. [doi:10.1056/NEJM198405313102201](https://doi.org/10.1056/NEJM198405313102201) · [PubMed 6325883](https://pubmed.ncbi.nlm.nih.gov/6325883/)
 [^vazquez-1996-varivax-efficacy]: Vazquez M, LaRussa PS, Gershon AA, et al. The effectiveness of the varicella vaccine in clinical practice. *N Engl J Med.* 2001;344(13):955-960. [doi:10.1056/NEJM200103293441302](https://doi.org/10.1056/NEJM200103293441302) · [PubMed 11274621](https://pubmed.ncbi.nlm.nih.gov/11274621/)
