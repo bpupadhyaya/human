@@ -44,6 +44,15 @@ cross_links:
   - target: 01-human/03-molecular/gaba
     relation: modulates
     note: "GABA-A receptor is a Cl⁻ channel — GABA binding opens the pore; Cl⁻ influx hyperpolarises the membrane; benzodiazepines increase open frequency, barbiturates increase open duration."
+  - target: 01-human/03-molecular/cftr
+    relation: connects-to
+    note: "CFTR is a cAMP-activated Cl⁻ channel on apical epithelia; Cl⁻ secretion drives airway surface liquid hydration; CFTR LOF → dehydrated mucus → CF; sweat Cl⁻ >60 mEq/L is diagnostic for CF; Trikafta corrects F508del and restores Cl⁻ flux."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Na⁺ and Cl⁻ are the dominant ECF cation/anion pair maintaining osmolality; NaCl constitutes ~90% of ECF osmolality; renal Na⁺ and Cl⁻ reabsorption are coupled (NKCC2, NCC, ENaC); large-volume normal saline (154 mEq/L Cl⁻) causes hyperchloremic metabolic acidosis."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Parietal cells secrete HCl (pH 1.5-3.5) via H⁺/K⁺-ATPase (H⁺ into lumen) + SLC26A7 (Cl⁻ secretion); the HCO₃⁻ extruded basally produces the alkaline tide; PPIs (omeprazole) block H⁺/K⁺-ATPase → reduce HCl → treat GERD and peptic ulcers."
 ---
 
 # Chloride
@@ -155,10 +164,13 @@ Aldosterone primarily regulates Na⁺ reabsorption via ENaC in the collecting du
 
 ## Connections
 
-- **Part of** → [Human body](../../08-whole-body/human-body/README.md): Plasma 103 mEq/L; principal extracellular anion maintaining electroneutrality with Na⁺; intracellular ~4 mEq/L; total body Cl⁻ ~2100 mEq — essential for osmolality, acid-base balance, and membrane potential.
-- **Modulates** → [Neuron](../../04-cellular/neuron/README.md): GABA-A Cl⁻ influx hyperpolarises mature neurons (inhibitory); neonatal GABA excitation occurs when high [Cl⁻]i (before KCC2 expression) makes E_Cl depolarised — GABA switch is fundamental to circuit maturation.
-- **Modulates** → [Kidney](../../06-organ/kidney/README.md): Cl⁻ reabsorbed via NKCC2 (thick ascending LOH; loop diuretic target), NCC (DCT; thiazide target), and AE1 in intercalated cells; Bartter syndrome (NKCC2/ROMK/CLCNKB) and Gitelman syndrome (NCC) from transporter mutations.
-- **Modulates** → [GABA](../../03-molecular/gaba/README.md): GABA-A receptor is a Cl⁻ channel — GABA binding opens the pore; Cl⁻ influx drives hyperpolarisation; benzodiazepines increase open frequency, barbiturates increase open duration; channel polarity reversed in neonates.
+- `part-of` → **[Human body](../../08-whole-body/human-body/README.md)** — Plasma 103 mEq/L; principal extracellular anion maintaining electroneutrality with Na⁺; intracellular ~4 mEq/L; total body Cl⁻ ~2100 mEq — essential for osmolality, acid-base balance, and membrane potential.
+- `modulates` → **[Neuron](../../04-cellular/neuron/README.md)** — GABA-A Cl⁻ influx hyperpolarises mature neurons (inhibitory); neonatal GABA excitation occurs when high [Cl⁻]i (before KCC2 expression) makes E_Cl depolarised — GABA switch is fundamental to circuit maturation.
+- `modulates` → **[Kidney](../../06-organ/kidney/README.md)** — Cl⁻ reabsorbed via NKCC2 (thick ascending LOH; loop diuretic target), NCC (DCT; thiazide target), and AE1 in intercalated cells; Bartter syndrome (NKCC2/ROMK/CLCNKB) and Gitelman syndrome (NCC) from transporter mutations.
+- `modulates` → **[GABA](../../03-molecular/gaba/README.md)** — GABA-A receptor is a Cl⁻ channel — GABA binding opens the pore; Cl⁻ influx drives hyperpolarisation; benzodiazepines increase open frequency, barbiturates increase open duration; channel polarity reversed in neonates.
+- `connects-to` → **[CFTR](../../03-molecular/cftr/README.md)** — CFTR is a cAMP-activated Cl⁻ channel on apical epithelia; Cl⁻ secretion drives airway surface liquid hydration; CFTR LOF → dehydrated mucus → CF; sweat Cl⁻ >60 mEq/L is diagnostic for CF; Trikafta corrects F508del and restores Cl⁻ flux.
+- `connects-to` → **[Sodium](../sodium/README.md)** — Na⁺ and Cl⁻ are the dominant ECF cation/anion pair maintaining osmolality; NaCl constitutes ~90% of ECF osmolality; renal Na⁺ and Cl⁻ reabsorption are coupled (NKCC2, NCC, ENaC); large-volume normal saline (154 mEq/L Cl⁻) causes hyperchloremic metabolic acidosis.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Parietal cells secrete HCl (pH 1.5-3.5) via H⁺/K⁺-ATPase (H⁺ into lumen) + SLC26A7 (Cl⁻ secretion); the HCO₃⁻ extruded basally produces the alkaline tide; PPIs (omeprazole) block H⁺/K⁺-ATPase → reduce HCl → treat GERD and peptic ulcers.
 
 ## Pathology
 
@@ -197,12 +209,9 @@ Occurs when HCO₃⁻ is lost or replaced by Cl⁻ without change in anion gap:
 - Diarrhoea: HCO₃⁻-rich stool loss → compensatory Cl⁻ retention
 - Normal saline infusion: large volumes of 0.9% NaCl (154 mEq/L Cl⁻) exceed buffering capacity → dilutional hyperchloraemia → non-anion gap acidosis
 
-## See Also
+---
 
-- [GABA](../../03-molecular/gaba/README.md) — ligand for the Cl⁻-conducting GABA-A receptor.
-- [Neuron](../../04-cellular/neuron/README.md) — Cl⁻ governs inhibitory postsynaptic potential polarity.
-- [Kidney](../../06-organ/kidney/README.md) — multiple Cl⁻ transporters along the nephron.
-- [Sodium](../../02-atomic/sodium/README.md) — primary cation paired with Cl⁻ in ECF osmolality.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [elsevier.com](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)

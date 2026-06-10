@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "KRAS mutations in ~10-20% of iCCA and ~30-40% of extrahepatic CCA; KRAS G12C targetable with sotorasib/adagrasib (early data); KRAS mutations associate with poor prognosis; CCA is among the major RAS-driven GI cancers lacking standard targeted therapy."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Cholangiocarcinoma arises from cholangiocytes within or adjacent to the liver; iCCA is the 2nd most common primary liver cancer after HCC; PSC, HBV/HCV, and cirrhosis elevate CCA risk 2-3×; hepatic resection with negative margins is the only curative approach for iCCA."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "BRAF V600E mutations in ~5% of all CCA; dabrafenib + trametinib (BRAF+MEK inhibition) approved tumor-agnostically (FDA 2022) with ~50% ORR in BRAF V600E CCA; BRAF V600E CCA responds similarly to BRAF-mutant melanoma/NSCLC; concomitant IDH or FGFR alterations are rare."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "HER2 amplification or overexpression in ~5-10% of biliary tract cancers; trastuzumab deruxtecan (DESTINY-PanTumor02) ORR 22% in HER2 IHC 2+/3+ BTC; zanidatamab active in HER2+ BTC; HER2 testing recommended in all advanced BTC per ESMO 2023 guidelines."
 ---
 
 # Cholangiocarcinoma
@@ -136,6 +145,13 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH1 mutations in ~15-20% of iCCA; IDH1 R132C/L → 2-HG → TET2 inhibition → DNA hypermethylation; ivosidenib (ClarIDHy: PFS 2.7 vs 1.4 months) is FDA-approved for IDH1-mutant CCA; IDH2 mutations occur in ~5% of iCCA.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Durvalumab (PD-L1) + gemcitabine/cisplatin (TOPAZ-1: OS 12.8 vs 11.5 months, FDA 2022) is first-line for advanced CCA; pembrolizumab + gem/cis (KEYNOTE-966: OS 12.7 vs 10.9 months, FDA 2023) also approved; PD-L1 CPS predicts benefit.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS mutations in ~10-20% of iCCA and ~30-40% of extrahepatic CCA; KRAS G12C targetable with sotorasib/adagrasib (early data); KRAS mutations associate with poor prognosis; CCA is among the major RAS-driven GI cancers lacking standard targeted therapy.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Cholangiocarcinoma arises from cholangiocytes within or adjacent to the liver; iCCA is the 2nd most common primary liver cancer after HCC; PSC, HBV/HCV, and cirrhosis elevate CCA risk 2-3×; hepatic resection with negative margins is the only curative approach for iCCA.
+- `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E mutations in ~5% of all CCA; dabrafenib + trametinib (BRAF+MEK inhibition) approved tumor-agnostically (FDA 2022) with ~50% ORR in BRAF V600E CCA; BRAF V600E CCA responds similarly to BRAF-mutant melanoma/NSCLC; concomitant IDH or FGFR alterations are rare.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — HER2 amplification or overexpression in ~5-10% of biliary tract cancers; trastuzumab deruxtecan (DESTINY-PanTumor02) ORR 22% in HER2 IHC 2+/3+ BTC; zanidatamab active in HER2+ BTC; HER2 testing recommended in all advanced BTC per ESMO 2023 guidelines.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^abou-alfa-2020-claridy]: Abou-Alfa GK, Macarulla T, Javle MM, et al. Ivosidenib in IDH1-mutant, chemotherapy-refractory cholangiocarcinoma (ClarIDHy). *Lancet Oncol.* 2020;21(6):796-807. [doi:10.1016/S1470-2045(20)30157-1](https://doi.org/10.1016/S1470-2045(20)30157-1) · [PubMed 32416072](https://pubmed.ncbi.nlm.nih.gov/32416072/)
 [^oh-2022-topaz1]: Oh DY, He AR, Qin S, et al. Durvalumab plus Gemcitabine and Cisplatin in Biliary Tract Cancer. *NEJM Evidence.* 2022;1(8):EVIDoa2200015. [doi:10.1056/EVIDoa2200015](https://doi.org/10.1056/EVIDoa2200015) · [PubMed 38319282](https://pubmed.ncbi.nlm.nih.gov/38319282/)

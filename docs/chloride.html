@@ -3,54 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Chloride — Cl⁻ principal extracellular anion, GABA-A inhibition, CFTR, chloride shift (AE1), Bartter/Gitelman syndromes, cystic fibrosis. Atlas One · Human Engineering.">
-  <meta property="og:title" content="Chloride — Atomic Atlas · Human Engineering">
+  <meta name="description" content="Chloride (Cl⁻, atomic number 17) — plasma 103 mEq/L, principal extracellular anion. Drives GABA-A inhibition, gastric HCl, CFTR fluid secretion, and CO₂ transpo">
+  <meta property="og:title" content="Chloride — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Chloride — Atomic Atlas · Human Engineering</title>
+  <title>Chloride — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-elev:#ffffff;--bg-soft:#e5e5ea;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:#d1d1d6;--border-soft:#e5e5ea;--bio:#059669;--eng:#2563eb;--ai:#7c3aed;--human:#d97706;--accent:#0891b2;--radius-sm:10px;--radius:18px;--radius-lg:24px;--maxw:1120px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;-webkit-font-smoothing:antialiased}
-    a{color:var(--bio);text-decoration:none;transition:color .15s}a:hover{color:var(--human)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(242,242,247,0.85);border-bottom:1px solid var(--border-soft)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:0.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
-    .brand{display:flex;align-items:center;gap:0.6rem;font-weight:700;font-size:0.98rem;letter-spacing:-0.01em;color:var(--fg)}
-    .brand-mark{width:26px;height:26px;border-radius:7px;background:conic-gradient(from 140deg,var(--bio),var(--eng),var(--ai),var(--human),var(--bio));box-shadow:0 0 0 1px rgba(0,0,0,0.08),0 4px 16px rgba(5,150,105,0.2)}
-    .nav-links{display:flex;align-items:center;gap:1.3rem;font-size:0.92rem}.nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .nav-back{display:inline-flex;align-items:center;gap:0.4rem;color:var(--muted)}.nav-back svg{width:14px;height:14px}
-    @media(max-width:760px){.nav-links a:not(.nav-back){display:none}}
-    .hero{max-width:var(--maxw);margin:0 auto;padding:4rem 1.5rem 2.5rem}
-    .hero-eyebrow{display:inline-flex;align-items:center;padding:0.4rem 0.9rem;background:rgba(8,145,178,0.1);color:var(--accent);border-radius:999px;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1.5rem}
-    .hero h1{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800;letter-spacing:-0.03em;color:var(--fg);line-height:1.06;margin-bottom:1.1rem}
-    .hero .tagline{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--fg-soft);max-width:700px;font-weight:500;margin-bottom:0.75rem}
-    .hero .subtagline{font-size:0.98rem;color:var(--muted);max-width:700px}
-    .stat-row{display:flex;gap:2.5rem;flex-wrap:wrap;margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--border-soft)}
-    .stat{display:flex;flex-direction:column}.stat-num{font-size:1.5rem;font-weight:800;color:var(--fg);letter-spacing:-0.02em;line-height:1}.stat-label{font-size:0.8rem;color:var(--muted);margin-top:0.3rem;letter-spacing:0.04em;text-transform:uppercase;font-weight:600}
-    main{max-width:var(--maxw);margin:0 auto;padding:0 1.5rem 2rem}
-    .detail-card{background:var(--bg-elev);border:1px solid var(--border-soft);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.5rem;box-shadow:0 4px 14px rgba(0,0,0,0.04)}
-    .detail-header{padding:2rem 2rem 1.75rem;background:linear-gradient(135deg,#0891b2,#164e63)}
-    .detail-header .entry-eyebrow{font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:0.5rem}
-    .detail-header h2{font-size:clamp(1.8rem,3vw,2.5rem);font-weight:800;color:white;letter-spacing:-0.03em;margin-bottom:0.5rem}
-    .detail-header .drug-class{font-size:0.85rem;color:rgba(255,255,255,0.75);margin-bottom:0.65rem}
-    .detail-header .summary{font-size:0.98rem;color:rgba(255,255,255,0.88);line-height:1.65;max-width:780px}
-    .alias-pills{display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.75rem}.alias-pill{padding:0.2rem 0.65rem;background:rgba(255,255,255,0.15);border-radius:999px;font-size:0.75rem;color:rgba(255,255,255,0.85)}
-    .detail-body{padding:2rem;display:flex;flex-direction:column;gap:2rem}
-    .detail-section h3{font-size:0.76rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.8rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border-soft)}
-    .detail-section h4{font-size:0.93rem;font-weight:700;color:var(--fg);margin-bottom:0.5rem;margin-top:1rem}.detail-section h4:first-child{margin-top:0}
-    .detail-section p{color:var(--fg-soft);font-size:0.95rem;line-height:1.65;margin-bottom:0.6rem}.detail-section p:last-child{margin-bottom:0}.detail-section strong{color:var(--fg)}
-    .data-table{width:100%;border-collapse:collapse;font-size:0.87rem;margin-top:0.5rem}
-    .data-table th{text-align:left;padding:0.5rem 0.65rem;background:var(--bg);font-weight:600;font-size:0.74rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted)}
-    .data-table td{padding:0.5rem 0.65rem;border-top:1px solid var(--border-soft);color:var(--fg-soft);vertical-align:top;line-height:1.5}.data-table td:first-child{font-weight:600;color:var(--fg)}
-    .pathway-block{background:var(--bg);border:1px solid var(--border-soft);border-radius:var(--radius-sm);padding:1.25rem 1.5rem;overflow-x:auto}
-    .pathway-block pre{font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:0.82rem;line-height:1.6;color:var(--fg-soft)}
-    .connections{display:flex;flex-wrap:wrap;gap:0.6rem}
-    .conn-pill{display:inline-flex;align-items:center;gap:0.4rem;padding:0.4rem 0.85rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.82rem;color:var(--fg-soft);transition:all .15s}
-    .conn-pill:hover{background:var(--bg-soft);color:var(--fg)}.conn-pill .rel{font-weight:700;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--bio);margin-right:0.1rem}
-    .refs{list-style:none;display:flex;flex-direction:column;gap:0.5rem}.refs li{font-size:0.82rem;color:var(--muted);line-height:1.55;padding-left:1.1rem;position:relative}.refs li::before{content:'↗';position:absolute;left:0;color:var(--eng);font-size:0.75rem;top:0.05rem}.refs li a{color:var(--eng)}
-    footer{margin-top:4rem;padding:2.5rem 1.5rem 2rem;border-top:1px solid var(--border-soft);text-align:center}
-    .footer-tag{font-size:0.95rem;color:var(--muted);max-width:620px;margin:0 auto 1rem}
-    .footer-links{display:flex;gap:1.25rem;justify-content:center;flex-wrap:wrap;font-size:0.88rem;margin-bottom:1rem}.footer-links a{color:var(--muted)}.footer-links a:hover{color:var(--bio)}
-    .footer-meta{font-size:0.8rem;color:var(--muted-2)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
@@ -63,7 +108,8 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -73,149 +119,66 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Atomic</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 02 — Atomic</div>
     <h1>Chloride</h1>
-    <p class="tagline">The principal extracellular anion — plasma 103 mEq/L — powering GABA-A inhibitory neurotransmission, CFTR epithelial fluid secretion, gastric HCl production, and CO₂ transport via the chloride shift.</p>
-    <p class="subtagline">Chloride does not form covalent bonds with proteins; its functions are exclusively ionic — governing osmolality, acid-base balance, and membrane potential. Mutations in CFTR (cystic fibrosis), NKCC2 (Bartter syndrome), and NCC (Gitelman syndrome) are among the most clinically consequential ion transporter defects in medicine.</p>
+    <p class="tagline">Chloride (Cl⁻, atomic number 17) — plasma 103 mEq/L, principal extracellular anion. Drives GABA-A inhibition, gastric HCl, CFTR fluid secretion, and CO₂ transport (chloride shift/AE1). Mutations in CFTR, NKCC2, or NCC cause cystic fibrosis, Bartter, or Gitelman syndrome.</p>
+    <p class="aliases">Also known as: Cl, Cl-, chloride ion, HCl, chlorine-35</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">Z = 17</span><span class="stat-label">Atomic number</span></div>
-      <div class="stat"><span class="stat-num">103 mEq/L</span><span class="stat-label">Plasma concentration</span></div>
-      <div class="stat"><span class="stat-num">~2,100 mEq</span><span class="stat-label">Total body (70 kg adult)</span></div>
-      <div class="stat"><span class="stat-num">2,300 mg/day</span><span class="stat-label">Adequate intake (as NaCl)</span></div>
+        <div class="stat"><span class="stat-num">Scale 02 — Atomic</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One &middot; Atomic &middot; Halogen / Principal Extracellular Anion</div>
-        <h2>Chloride</h2>
-        <div class="drug-class">Symbol: Cl &nbsp;&middot;&nbsp; Z: 17 &nbsp;&middot;&nbsp; Mass: 35.45 u &nbsp;&middot;&nbsp; Config: [Ne] 3s² 3p⁵ &nbsp;&middot;&nbsp; Ion: Cl⁻ (181 pm)</div>
-        <p class="summary">Chloride is the most abundant extracellular anion and the primary counterion to Na⁺ in the ECF. Unlike most trace elements, it acts purely ionically — as the permeant anion of the GABA-A receptor (neuronal inhibition), the substrate of CFTR (airway/intestinal fluid secretion), the product of parietal cell HCl synthesis (gastric acid), and the exchange partner in the AE1 chloride shift (CO₂ transport in erythrocytes). Its renal handling by NKCC2 and NCC is the molecular target of two of the most widely used diuretic classes.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">Cl⁻</span>
-          <span class="alias-pill">chloride ion</span>
-          <span class="alias-pill">HCl</span>
-          <span class="alias-pill">electrolyte</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">chloride</div>
+        <h2>Chloride</h2>
+        <p class="summary">Chloride (Cl⁻, atomic number 17) — plasma 103 mEq/L, principal extracellular anion. Drives GABA-A inhibition, gastric HCl, CFTR fluid secretion, and CO₂ transport (chloride shift/AE1). Mutations in CFTR, NKCC2, or NCC cause cystic fibrosis, Bartter, or Gitelman syndrome.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview &amp; Atomic Properties</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Property</th><th>Value</th></tr>
-            <tr><td>Atomic number (Z)</td><td>17</td></tr>
-            <tr><td>Atomic mass</td><td>35.45 u (³⁵Cl 75.8%, ³⁷Cl 24.2%)</td></tr>
-            <tr><td>Electron configuration</td><td>[Ne] 3s² 3p⁵</td></tr>
-            <tr><td>Ionic radius (Cl⁻)</td><td>181 pm</td></tr>
-            <tr><td>Electronegativity (Pauling)</td><td>3.16</td></tr>
-            <tr><td>Plasma [Cl⁻]</td><td>103 mEq/L (paired with Na⁺ ~142 mEq/L + HCO₃⁻ ~24 mEq/L)</td></tr>
-            <tr><td>Intracellular [Cl⁻] (neurons)</td><td>4–10 mEq/L (maintained low by KCC2); ~25–40 mEq/L in neonates (NKCC1-dominant)</td></tr>
-            <tr><td>Gastric lumen</td><td>~150 mEq/L (secreted as HCl by parietal cells)</td></tr>
-            <tr><td>Sweat [Cl⁻]</td><td>10–40 mEq/L (normal); &gt;60 mEq/L (cystic fibrosis)</td></tr>
-            <tr><td>Dietary sources</td><td>Table salt (NaCl), processed foods, seaweed, olives, soy sauce</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>chloride</td></tr>
+            <tr><td>Name</td><td>Chloride</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>02-atomic</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Biological Roles</h3>
-          <h4>1. GABA-A Receptor — Neuronal Inhibition</h4>
-          <div class="pathway-block">
-<pre>
-  GABA released by inhibitory interneuron into synapse
-       │
-       ▼
-  GABA binds &alpha;&ndash;&beta; interface of GABA-A receptor (pentameric Cys-loop channel)
-  Channel pore opens (~1–3 ms open time per burst)
-       │
-       ▼
-  Cl⁻ influx (ECF 103 mEq/L → ICF ~4 mEq/L) down electrochemical gradient
-  E_Cl ≈ −70 to −75 mV (in mature neurons where KCC2 maintains low [Cl⁻]i)
-       │
-       ▼
-  Membrane hyperpolarises toward E_Cl → INHIBITION
-  Shunting inhibition: increased conductance resists depolarisation by EPSPs
-
-  Allosteric modulators at GABA-A:
-    Benzodiazepines  → ↑ frequency of Cl⁻ channel opening (require GABA)
-    Barbiturates     → ↑ duration of Cl⁻ channel opening; direct gate at high dose
-    Neurosteroids    → potentiate + directly activate (&delta; subunit)
-    Propofol         → potentiate + direct activation
-
-  NEONATAL POLARITY: NKCC1 high / KCC2 low → [Cl⁻]i ~30 mEq/L
-    E_Cl ≈ −40 mV (depolarised relative to Vm ~−70 mV)
-    → GABA-A opening causes Cl⁻ EFFLUX → DEPOLARISATION → EXCITATORY
-    → "GABA switch" to inhibition occurs as KCC2 is upregulated postnatally
-</pre>
-          </div>
-
-          <h4>2. CFTR — Epithelial Fluid Secretion</h4>
-          <p><strong>CFTR (ABCC7)</strong> is a cAMP-regulated Cl⁻ channel at the apical surface of secretory epithelia (airways, pancreatic ducts, intestinal crypts, sweat gland ducts). Activation: adenylyl cyclase → cAMP → PKA → phosphorylates R-domain → channel opens (ATP binds NBD1/NBD2). In airways, Cl⁻ export draws water into the airway surface liquid (ASL), maintaining mucociliary clearance. In sweat glands, CFTR reabsorbs Cl⁻ from the primary sweat, keeping sweat hypotonic.</p>
-
-          <h4>3. Chloride Shift (Hamburger Phenomenon)</h4>
-          <p>In systemic capillaries: CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻ (catalysed by carbonic anhydrase II in RBCs). HCO₃⁻ exits via <strong>AE1/Band 3 (SLC4A1)</strong> in exchange for extracellular Cl⁻ → Cl⁻ influx maintains electroneutrality → plasma CO₂ transported as HCO₃⁻ (~70% of total CO₂ transport). Reversed at the lung: Cl⁻ exits → HCO₃⁻ re-enters → CA reforms CO₂ for exhalation.</p>
-
-          <h4>4. Gastric HCl Secretion</h4>
-          <p>Parietal cells combine two transporters: <strong>H⁺/K⁺-ATPase</strong> (apical canaliculus, secretes H⁺) + <strong>SLC26A7</strong> (Cl⁻/HCO₃⁻ exchanger, exports Cl⁻ into lumen). H⁺ + Cl⁻ → HCl (pH 1.5–3.5 in gastric lumen). Proton pump inhibitors (omeprazole) irreversibly block H⁺/K⁺-ATPase; H₂ blockers (ranitidine) reduce cAMP-driven parietal cell stimulation.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Absorption &amp; Renal Handling</h3>
-          <table class="data-table">
-            <tr><th>Nephron segment</th><th>Fraction reabsorbed</th><th>Mechanism</th><th>Diuretic target</th></tr>
-            <tr><td>Proximal convoluted tubule</td><td>~65%</td><td>Paracellular (lumen-positive late PCT) + NHE3-coupled indirectly</td><td>—</td></tr>
-            <tr><td>Thick ascending limb (TALH)</td><td>~25%</td><td>NKCC2 (SLC12A1): Na⁺+K⁺+2Cl⁻ cotransport</td><td>Loop diuretics (furosemide, bumetanide)</td></tr>
-            <tr><td>Distal convoluted tubule</td><td>~5%</td><td>NCC (SLC12A3): Na⁺+Cl⁻ cotransport</td><td>Thiazides (hydrochlorothiazide, chlorthalidone)</td></tr>
-            <tr><td>Collecting duct</td><td>~3–4%</td><td>AE1/pendrin in intercalated cells (paracellular)</td><td>—</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Deficiency &amp; Toxicity</h3>
-          <table class="data-table">
-            <tr><th>Condition</th><th>Mechanism</th><th>Features / Treatment</th></tr>
-            <tr><td><strong>Cystic fibrosis (CF)</strong></td><td>CFTR mutations → absent/dysfunctional Cl⁻ channel → dehydrated viscous ASL → mucus plugging → chronic Pseudomonas infection → bronchiectasis; pancreatic insufficiency; CBAVD</td><td>ΔF508 most common (&gt;70% alleles); Trikafta (elexacaftor/tezacaftor/ivacaftor) corrector+potentiator triple therapy improves FEV₁ by ~14% and dramatically improves QoL in &gt;90% of CF patients</td></tr>
-            <tr><td><strong>Bartter syndrome</strong></td><td>NKCC2 (Type I), ROMK (Type II), or CLCNKB (Type III) mutations → impaired TALH Cl⁻ reabsorption → salt wasting + hypokalaemia + metabolic alkalosis</td><td>Polyhydramnios, neonatal salt wasting, secondary hyperaldosteronism; treat with NSAIDs + K⁺ supplementation</td></tr>
-            <tr><td><strong>Gitelman syndrome</strong></td><td>NCC (SLC12A3) mutation → DCT Cl⁻ reabsorption defect → hypokalaemia + hypomagnesaemia + metabolic alkalosis + hypocalciuria</td><td>Milder than Bartter, presents in adults; treat with Mg²⁺ + K⁺ supplementation</td></tr>
-            <tr><td><strong>Hyperchloraemic metabolic acidosis</strong></td><td>HCO₃⁻ loss (diarrhoea) or Cl⁻ gain (large volume normal saline, 154 mEq/L Cl⁻) → non-anion gap acidosis</td><td>Normal AG; distinguish from anion-gap acidosis (ketones, lactate, uraemia)</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="sodium.html" class="conn-pill">
-              <span class="rel">Paired with</span>
-              Sodium (ECF electroneutrality)
-            </a>
-            <a href="#" class="conn-pill">
-              <span class="rel">Permeates</span>
-              GABA-A receptor (neuronal inhibition)
-            </a>
-            <a href="#" class="conn-pill">
-              <span class="rel">Secreted by</span>
-              CFTR (airway/intestinal epithelia)
-            </a>
-            <a href="#" class="conn-pill">
-              <span class="rel">Exchanged by</span>
-              AE1 / Chloride shift (RBCs)
-            </a>
-            <a href="potassium.html" class="conn-pill">
-              <span class="rel">Co-transported with</span>
-              Potassium (NKCC2, KCC2)
-            </a>
+            <a class="conn-pill part" href="human-body.html" title="Plasma 103 mEq/L; principal extracellular anion maintaining electroneutrality with Na⁺; intracellular ~4 mEq/L; total body Cl⁻ ~2100 mEq in a 70 kg adult."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill" href="neuron.html" title="GABA-A receptor Cl⁻ influx hyperpolarises neurons (inhibition); neonatal GABA excitation due to elevated intracellular Cl⁻ before KCC2 expression; fundamental to all inhibitory neural circuits."><span class="rel">modulates</span>Neuron</a>
+            <a class="conn-pill" href="kidney.html" title="Chloride reabsorbed via NKCC2 (thick ascending limb; loop diuretic target), NCC (distal tubule; thiazide target), AE1 (collecting duct); Bartter/Gitelman syndromes from transporter mutations."><span class="rel">modulates</span>Kidney</a>
+            <a class="conn-pill" href="gaba.html" title="GABA-A receptor is a Cl⁻ channel — GABA binding opens the pore; Cl⁻ influx hyperpolarises the membrane; benzodiazepines increase open frequency, barbiturates increase open duration."><span class="rel">modulates</span>Gaba</a>
+            <a class="conn-pill" href="cftr.html" title="CFTR is a cAMP-activated Cl⁻ channel on apical epithelia; Cl⁻ secretion drives airway surface liquid hydration; CFTR LOF → dehydrated mucus → CF; sweat Cl⁻ &gt;60 mEq/L is diagnostic for CF; Trikafta corrects F508del and restores Cl⁻ flux."><span class="rel">connects-to</span>Cftr</a>
+            <a class="conn-pill" href="sodium.html" title="Na⁺ and Cl⁻ are the dominant ECF cation/anion pair maintaining osmolality; NaCl constitutes ~90% of ECF osmolality; renal Na⁺ and Cl⁻ reabsorption are coupled (NKCC2, NCC, ENaC); large-volume normal saline (154 mEq/L Cl⁻) causes hyperchloremic metabolic acidosis."><span class="rel">connects-to</span>Sodium</a>
+            <a class="conn-pill" href="stomach.html" title="Parietal cells secrete HCl (pH 1.5-3.5) via H⁺/K⁺-ATPase (H⁺ into lumen) + SLC26A7 (Cl⁻ secretion); the HCO₃⁻ extruded basally produces the alkaline tide; PPIs (omeprazole) block H⁺/K⁺-ATPase → reduce HCl → treat GERD and peptic ulcers."><span class="rel">connects-to</span>Stomach</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Csanady L, Vergani P, Gadsby DC. Structure, gating, and regulation of the CFTR anion channel. <em>Physiol Rev.</em> 2019;99(1):707-738. <a href="https://doi.org/10.1152/physrev.00007.2018">doi:10.1152/physrev.00007.2018</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30516487/">PubMed 30516487</a></li>
-            <li>Ben-Ari Y. Excitatory actions of GABA during development. <em>Nat Rev Neurosci.</em> 2002;3(9):728-39. <a href="https://doi.org/10.1038/nrn920">doi:10.1038/nrn920</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12209121/">PubMed 12209121</a></li>
-            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021.</li>
-            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019.</li>
+            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li><a href="https://doi.org/10.1152/physrev.00007.2018" target="_blank" rel="noopener noreferrer">Csanady L, Vergani P, Gadsby DC. Structure, gating, and regulation of the CFTR anion channel. Physiol Rev. 2019;99(1):707-738.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30516487/" target="_blank" rel="noopener noreferrer">PubMed 30516487</a></li>
+            <li><a href="https://doi.org/10.1038/nrn920" target="_blank" rel="noopener noreferrer">Ben-Ari Y. Excitatory actions of GABA during development: the nature of the nurture. Nat Rev Neurosci. 2002;3(9):728-39.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12209121/" target="_blank" rel="noopener noreferrer">PubMed 12209121</a></li>
           </ul>
         </div>
 
@@ -224,15 +187,14 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="sodium.html">Sodium</a>
-      <a href="potassium.html">Potassium</a>
-      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
