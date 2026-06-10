@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Cx43 gap junctions at intercalated discs make the myocardium an electrical syncytium enabling SA node propagation; Cx43 remodeling in infarction and heart failure creates re-entrant arrhythmic substrates; ischemia acidosis closes Cx43 channels limiting injury spread."
+  - target: 01-human/06-organ/heart
+    relation: expressed-by
+    note: "Cx43 at intercalated discs creates low-resistance action potential pathways in heart; GJA1 knockout → conduction slowing + arrhythmia; Cx43 falls ~50% in end-stage HF; GJA1 mutations cause oculodentodigital dysplasia with cardiac arrhythmia."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Cx43 gap junctions are the molecular basis of rapid conduction through ventricular myocardium; conduction velocity depends on Cx43 expression level; Cx43 downregulation and lateralization in ischemia/heart failure creates slow conduction channels → re-entrant VT substrate."
+  - target: 01-human/05-tissue/sa-node
+    relation: connects-to
+    note: "SA node pacemaker action potentials propagate to working ventricular myocardium via gap junctions; Cx43 is the primary gap junction protein of ventricular myocardium; SA node cells express primarily Cx45 and Cx30.2 (lower conductance, slower propagation) rather than Cx43."
 taxonomy:
   uniprot: "P17302"
   gene_symbol: "GJA1"
@@ -130,6 +139,9 @@ Cx43 interacts with structural proteins (N-cadherin, ZO-1, β-catenin) and with 
 - `expressed-by` → **[Myocardium](../../05-tissue/myocardium/README.md)** — At the tissue scale, Cx43 expression level and distribution determine the electrical properties of the myocardium — conduction velocity, anisotropy, and susceptibility to re-entrant arrhythmia.
 - `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — Cx43 is down-regulated, dephosphorylated, and lateralized in failing ventricles → reduced electrical coupling → slow conduction → re-entrant VT substrate → sudden cardiac death; Cx43 remodeling precedes QRS widening and correlates with arrhythmia risk in heart failure.
 - `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — Cx43 gap junctions at intercalated discs make the myocardium an electrical syncytium enabling SA node propagation; Cx43 remodeling in infarction and heart failure creates re-entrant arrhythmic substrates; ischemia acidosis closes Cx43 channels limiting injury spread.
+- `expressed-by` → **[Heart](../../06-organ/heart/README.md)** — Cx43 at intercalated discs creates low-resistance action potential pathways in heart; GJA1 knockout → conduction slowing + arrhythmia; Cx43 falls ~50% in end-stage HF; GJA1 mutations cause oculodentodigital dysplasia with cardiac arrhythmia.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Cx43 gap junctions are the molecular basis of rapid conduction through ventricular myocardium; conduction velocity depends on Cx43 expression level; Cx43 downregulation and lateralization in ischemia/heart failure creates slow conduction channels → re-entrant VT substrate.
+- `connects-to` → **[SA Node](../../05-tissue/sa-node/README.md)** — SA node pacemaker action potentials propagate to working ventricular myocardium via gap junctions; Cx43 is the primary gap junction protein of ventricular myocardium; SA node cells express primarily Cx45 and Cx30.2 (lower conductance, slower propagation) rather than Cx43.
 
 ## Pathology
 
@@ -141,15 +153,11 @@ Cx43 interacts with structural proteins (N-cadherin, ZO-1, β-catenin) and with 
 | **Oculodentodigital dysplasia (ODDD)** | Autosomal dominant GJA1 mutations cause a multisystem syndrome with craniofacial abnormalities and cardiac arrhythmias |
 | **Re-entrant tachyarrhythmias** | Heterogeneous Cx43 loss in healed infarct border zones creates slow conduction channels — the substrate for monomorphic VT |
 
-## See Also
-
-- [Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md) — the cell expressing Cx43.
-- [Myocardium](../../05-tissue/myocardium/README.md) — the tissue-scale syncytium enabled by Cx43.
-
 [^evans-2002-gap-junctions-review]: Evans WH, Martin PE. Gap junctions: structure and function. *Mol Membr Biol.* 2002;19(2):121-36. [doi:10.1080/09687680210139839](https://doi.org/10.1080/09687680210139839) · [PubMed 12126230](https://pubmed.ncbi.nlm.nih.gov/12126230/)
 [^severs-2008-cx43-cardiac]: Severs NJ, Bruce AF, Dupont E, Rothery S. Remodelling of gap junctions and connexin expression in diseased myocardium. *Cardiovasc Res.* 2008;80(1):9-19. [doi:10.1093/cvr/cvn133](https://doi.org/10.1093/cvr/cvn133) · [PubMed 18519446](https://pubmed.ncbi.nlm.nih.gov/18519446/)
 [^saffitz-1994-cx43-distribution]: Saffitz JE, Kanter HL, Green KG, Tolley TK, Beyer EC. Tissue-specific determinants of anisotropic conduction velocity in canine atrial and ventricular myocardium. *Circ Res.* 1994;74(6):1065-70. [doi:10.1161/01.RES.74.6.1065](https://doi.org/10.1161/01.RES.74.6.1065) · [PubMed 8187276](https://pubmed.ncbi.nlm.nih.gov/8187276/)
 [^rohr-2004-cx43-arrhythmia]: Rohr S. Role of gap junctions in the propagation of the cardiac action potential. *Cardiovasc Res.* 2004;62(2):309-22. [doi:10.1016/j.cardiores.2003.11.035](https://doi.org/10.1016/j.cardiores.2003.11.035) · [PubMed 15094351](https://pubmed.ncbi.nlm.nih.gov/15094351/)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

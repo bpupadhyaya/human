@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils accumulate in COPD airways (especially during exacerbations); neutrophil elastase degrades alpha-1 antitrypsin and lung matrix; NETosis releases DNA and proteases; IL-8 drives neutrophil recruitment; neutrophilic COPD does not respond to inhaled corticosteroids."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "COPD destroys lung architecture: emphysema ruptures alveolar walls → reduced gas exchange; chronic bronchitis remodels small airways → fixed obstruction; both largely irreversible; GOLD staging (FEV1/FVC <0.7, GOLD 1-4) guides risk stratification and treatment selection."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "COPD-asthma overlap (ACO) affects ~10-15% of COPD patients: combined fixed obstruction (COPD) and eosinophilia/reversibility (asthma); ACO has more frequent exacerbations; dupilumab approved for COPD with eosinophilia ≥300/µL (NOTUS/BOREAS trials: 30% exacerbation reduction)."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β is a key COPD exacerbation amplifier: NLRP3 inflammasome activation by smoke → IL-1β release → neutrophil and macrophage recruitment → airway inflammation; IL-1β promotes goblet cell hyperplasia → mucus hypersecretion; canakinumab (IL-1β mAb) studied in COPD."
 ---
 
 # COPD
@@ -190,6 +199,13 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — cigarette smoke-activated macrophages produce TGF-beta1 → subepithelial airway fibrosis and smooth muscle hypertrophy → fixed obstruction; TGF-beta also impairs alveolar epithelial repair and drives EMT, contributing to COPD pathogenesis and lung cancer progression.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — alveolar macrophages are primary COPD effectors; cigarette smoke activates macrophages → MMP-9/MMP-12 secretion → elastin degradation → emphysema; COPD macrophages also fail at bacterial clearance → susceptibility to infectious exacerbations.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — neutrophils accumulate in COPD airways during exacerbations; neutrophil elastase overwhelms AAT → matrix proteolysis; IL-8-driven neutrophil recruitment is the dominant exacerbation amplifier; NETosis releases extracellular traps that contribute to airway inflammation.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — COPD destroys lung architecture: emphysema ruptures alveolar walls reducing gas exchange surface; chronic bronchitis remodels small airways creating fixed obstruction; GOLD spirometric staging (FEV1/FVC <0.7) classifies severity and guides treatment selection.
+- `connects-to` → **[Asthma](../asthma/README.md)** — COPD-asthma overlap (ACO) affects ~10-15% of COPD patients with combined fixed obstruction and type 2 eosinophilic inflammation; ACO has higher exacerbation frequency; dupilumab (anti-IL-4Rα) is approved for COPD with eosinophils ≥300/μL.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β amplifies COPD exacerbations: NLRP3 inflammasome activated by smoke particles releases IL-1β → neutrophil and macrophage recruitment → airway inflammation and goblet cell hyperplasia → mucus hypersecretion; IL-1β blockade (canakinumab) is under investigation.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^rabe-2017-gold-copd]: Rabe KF, Watz H. Chronic obstructive pulmonary disease. *Lancet.* 2017;389(10082):1931-1940. [doi:10.1016/S0140-6736(17)31222-9](https://doi.org/10.1016/S0140-6736(17)31222-9) · [PubMed 28513453](https://pubmed.ncbi.nlm.nih.gov/28513453/)
 [^vestbo-2013-gold-strategy]: Vestbo J, Hurd SS, Agustí AG, et al. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease: GOLD executive summary. *Am J Respir Crit Care Med.* 2013;187(4):347-365. [doi:10.1164/rccm.201204-0596PP](https://doi.org/10.1164/rccm.201204-0596PP) · [PubMed 22878278](https://pubmed.ncbi.nlm.nih.gov/22878278/)
