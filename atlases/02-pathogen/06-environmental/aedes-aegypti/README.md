@@ -34,6 +34,12 @@ cross_links:
   - target: 02-pathogen/01-viruses/zika-virus
     relation: targets
     note: "Aedes aegypti is the primary vector of Zika virus (ZIKV); drove the 2015-2016 Americas epidemic; sexual transmission also documented but vector transmission accounts for most spread."
+  - target: 01-human/07-system/immune-system
+    relation: damages
+    note: "Ae. aegypti salivary proteins suppress dendritic cell activation and NK function at the bite site; salivary apyrase blocks platelet aggregation enabling bloodmeal; immunomodulation at inoculation site enables early arboviral replication before innate immune sensing."
+  - target: 01-human/06-organ/microcephaly
+    relation: connects-to
+    note: "Ae. aegypti-vectored Zika virus (ZIKV) is the established cause of congenital microcephaly; the 2015-2016 Americas epidemic linked vector density to microcephaly incidence; first-trimester maternal viremia → vertical ZIKV transmission → cortical progenitor apoptosis."
 ---
 
 # Aedes aegypti
@@ -125,8 +131,10 @@ The mosquito's **saliva** modulates the human immune response at the inoculation
 
 ## Connections
 
-- `targets` → **[Dengue virus](../../01-viruses/dengue-virus/README.md)** — primary biological vector; virus replicates in midgut and salivary glands after 8–12 day extrinsic incubation; ~390 million dengue infections/year attributable to *Ae. aegypti*
-- `targets` → **[Zika Virus (ZIKV)](../../01-viruses/zika-virus/README.md)** — primary vector of the 2015–2016 Americas Zika epidemic; salivary transmission following 7–10 day extrinsic incubation
+- `targets` → **[Dengue virus](../../01-viruses/dengue-virus/README.md)** — primary biological vector; virus replicates in midgut and salivary glands after 8-12 day extrinsic incubation period; ~390 million dengue infections/year attributable to Ae. aegypti.
+- `targets` → **[Zika Virus (ZIKV)](../../01-viruses/zika-virus/README.md)** — primary vector of the 2015-2016 Americas Zika epidemic; salivary transmission following 7-10 day extrinsic incubation period; sexual transmission also documented.
+- `damages` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — salivary proteins suppress dendritic cell activation and NK function at the bite site; salivary apyrase blocks platelet aggregation enabling bloodmeal; immunomodulation at inoculation site enables early arboviral replication before innate immune sensing.
+- `connects-to` → **[Microcephaly](../../../01-human/06-organ/microcephaly/README.md)** — Ae. aegypti-vectored ZIKV is the established cause of congenital microcephaly; the 2015-2016 Americas epidemic linked vector density to microcephaly incidence; first-trimester maternal viremia → vertical ZIKV transmission → cortical progenitor apoptosis.
 
 ## Pathology
 
@@ -152,3 +160,7 @@ Widespread pyrethroid resistance (knockdown resistance, *kdr*, via Vssc/voltage-
 [^bhatt-2013-dengue-global]: Bhatt S et al. The global distribution and burden of dengue. *Nature.* 2013;496(7446):504-507. [doi:10.1038/nature12060](https://doi.org/10.1038/nature12060) · [PubMed 23563266](https://pubmed.ncbi.nlm.nih.gov/23563266/)
 [^kraemer-2015-aedes-distribution]: Kraemer MUG et al. The global distribution of the arbovirus vectors Aedes aegypti and Ae. albopictus. *eLife.* 2015;4:e08347. [doi:10.7554/eLife.08347](https://doi.org/10.7554/eLife.08347) · [PubMed 26126267](https://pubmed.ncbi.nlm.nih.gov/26126267/)
 [^moreira-2009-wolbachia]: Moreira LA et al. A Wolbachia symbiont in Aedes aegypti limits infection with dengue, Chikungunya, and Plasmodium. *Cell.* 2009;139(7):1268-1278. [doi:10.1016/j.cell.2009.11.042](https://doi.org/10.1016/j.cell.2009.11.042) · [PubMed 20064373](https://pubmed.ncbi.nlm.nih.gov/20064373/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

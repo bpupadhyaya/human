@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Aedes aegypti — primary vector for dengue, Zika, chikungunya, and yellow fever. Biology, vectorial capacity, Wolbachia biocontrol, and global disease burden. Part of the Human Engineering project.">
-  <meta property="og:title" content="Aedes aegypti — Human Engineering Vector Atlas">
-  <meta property="og:description" content="Aedes aegypti vector biology: gonotrophic cycle, extrinsic incubation period, Wolbachia wMel, OX513A release, kdr resistance, and climate change range expansion.">
+  <meta name="description" content="Tropical/subtropical day-biting mosquito; primary vector for dengue, Zika, chikungunya, and yellow fever. Breeds in man-made water containers; endophilic/endoph">
+  <meta property="og:title" content="Aedes aegypti — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Aedes aegypti — Human Engineering</title>
   <style>
@@ -14,86 +13,83 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #16a34a;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-    a { color: var(--accent); text-decoration: none; transition: color .15s ease; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    /* NAV */
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
-    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
-
-    /* HERO */
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(22, 163, 74, 0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
-    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
-    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
-    /* MAIN */
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 1.75rem 2rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
-    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
-    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
-    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
-    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
-    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
-    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
-    .mech-item.bio { border-left-color: var(--accent); }
-    .mech-item.vector { border-left-color: var(--human); }
-    .mech-item.control { border-left-color: var(--eng); }
-    .mech-item.climate { border-left-color: #dc2626; }
-    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
-    .path-table td:first-child { font-weight: 600; color: var(--fg); }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
-    .conn-pill.transmits .rel { color: var(--accent); }
-    .conn-pill.causes .rel { color: #dc2626; }
-    .conn-pill.linked .rel { color: var(--ai); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-    .refs li a:hover { color: var(--human); }
-    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
-    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
-    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
-    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
-    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
-    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
-    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
-    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -112,204 +108,91 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html#join">Join</a>
-        <a href="pathogens.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Pathogen Atlas
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Two &middot; Vector &middot; L06 Organism</div>
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 06-environmental</div>
     <h1>Aedes aegypti</h1>
-    <p class="tagline">The world's most dangerous mosquito — primary vector for dengue fever, Zika, chikungunya, and yellow fever, responsible for hundreds of millions of infections annually.</p>
-    <p class="subtagline"><em>Aedes aegypti</em> (yellow fever mosquito) belongs to the subgenus <em>Stegomyia</em>. A peridomestic, day-biting species with a taste for human blood, it thrives in tropical and subtropical cities wherever artificial containers collect water. Its salivary proteins actively modulate host immunity to facilitate feeding, and its midgut and salivary gland barriers govern which arboviruses successfully complete transmission. Understanding <em>Ae. aegypti</em> biology is inseparable from understanding the global arbovirosis burden.</p>
+    <p class="tagline">Tropical/subtropical day-biting mosquito; primary vector for dengue, Zika, chikungunya, and yellow fever. Breeds in man-made water containers; endophilic/endophagic behavior maximizes human contact. ~390 million dengue infections/year attributable.</p>
+    <p class="aliases">Also known as: yellow fever mosquito, dengue mosquito, Aedes, A. aegypti, arboviral vector</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">390M</span><span class="stat-label">DENV infections / year</span></div>
-      <div class="stat"><span class="stat-num">128</span><span class="stat-label">Endemic countries</span></div>
-      <div class="stat"><span class="stat-num">8–12 d</span><span class="stat-label">DENV extrinsic incubation</span></div>
-      <div class="stat"><span class="stat-num">100–200m</span><span class="stat-label">Flight range</span></div>
+        <div class="stat"><span class="stat-num">06-environmental</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-    <div class="detail-card" id="aedes-aegypti">
-      <div class="detail-header" style="background: linear-gradient(135deg, #16a34a, #14532d);">
-        <div class="entry-eyebrow">Diptera &middot; Culicidae &middot; Stegomyia subgenus &middot; Holometabolous</div>
-        <h3>Aedes aegypti — Yellow Fever Mosquito</h3>
-        <p class="summary">Adult <em>Aedes aegypti</em> are ~3–4 mm dipterans, identifiable by the distinctive white lyre-shaped marking on the thoracic mesonotum and banded black-and-white tarsi. Only females blood-feed; blood proteins are obligate for vitellogenin synthesis and egg maturation. The species is restricted to tropical and subtropical latitudes (roughly 20°S–35°N) where temperatures support larval development and adult survival. Its holometabolous lifecycle proceeds from desiccation-resistant eggs through four aquatic larval instars and a pupal stage to winged adult in 10–14 days at 28°C. A single female completes multiple gonotrophic cycles, ovipositing in peridomestic artificial containers — the combination of intimate human-habitat association and competence for four major arboviruses makes it the highest-priority vector in global health.</p>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
+        <div class="entry-eyebrow">aedes-aegypti</div>
+        <h2>Aedes aegypti</h2>
+        <p class="summary">Tropical/subtropical day-biting mosquito; primary vector for dengue, Zika, chikungunya, and yellow fever. Breeds in man-made water containers; endophilic/endophagic behavior maximizes human contact. ~390 million dengue infections/year attributable.</p>
       </div>
-
       <div class="detail-body">
 
         <div class="detail-section">
-          <h4>Biology &amp; Lifecycle</h4>
-          <table class="detail-table">
-            <tr><td>Taxonomy</td><td>Kingdom Animalia; Phylum Arthropoda; Class Insecta; Order Diptera; Family Culicidae; Genus <em>Aedes</em>; Subgenus <em>Stegomyia</em>; Species <em>Ae. aegypti</em></td></tr>
-            <tr><td>Adult morphology</td><td>~3–4 mm; black with white scaling; diagnostic lyre-shaped silvery-white pattern on mesonotum; banded tarsi; silvery-white scales on lateral thorax; abdomen with basal white bands on dorsal surface</td></tr>
-            <tr><td>Geographic range</td><td>Tropical/subtropical 20°S–35°N; currently established in >125 countries; absent from Europe except Madeira; limited established populations in southern US (Florida, Texas, Arizona, California, Hawaii)</td></tr>
-            <tr><td>Lifecycle</td><td>Holometabolous: egg → 4 larval instars → pupa → adult; 10–14 days at 28°C; larvae are strictly aquatic, feeding on organic detritus; pupae non-feeding; adult emerges and mates within 24 hours of eclosion</td></tr>
-            <tr><td>Egg biology</td><td>Eggs laid singly at water margin of containers; desiccation-resistant — viable for 6–12 months in dry state; hatch on flooding; rafts of ~100–200 eggs per batch; multiple batches across lifetime; eggs require prior desiccation to optimise hatch rate</td></tr>
-            <tr><td>Breeding habitats</td><td>Peridomestic artificial containers: tires, flower vases, water storage jars, ornamental pools, roof gutters, discarded bottles; strongly anthropophilic; rarely breeds in natural pools compared to <em>Culex quinquefasciatus</em></td></tr>
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>aedes-aegypti</td></tr>
+            <tr><td>Name</td><td>Aedes aegypti</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Class</td><td>06-environmental</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h4>Feeding &amp; Reproduction</h4>
-          <div class="mech-list">
-            <div class="mech-item bio">
-              <h5>Blood-feeding behaviour</h5>
-              <p>Only females blood-feed. Blood meal proteins, particularly albumin and globulins, are proteolytically processed to amino acids essential for vitellogenin synthesis in the fat body — the yolk protein deposited into maturing oocytes. The gonotrophic cycle from blood meal to oviposition takes approximately 3–5 days at tropical temperatures. Females are highly anthropophilic, preferentially biting humans over other vertebrates; olfactory attraction to human-specific compounds including lactic acid, 1-octen-3-ol, and nonanal guides host-seeking. Feeding preference is crepuscular — peak activity at dawn (07:00–09:00) and dusk (16:00–18:00) — distinguishing <em>Ae. aegypti</em> from night-biting <em>Culex</em> species.</p>
-            </div>
-            <div class="mech-item bio">
-              <h5>Salivary gland proteins and host immunomodulation</h5>
-              <p>During probing and blood-feeding, female <em>Ae. aegypti</em> inject saliva containing a complex cocktail of bioactive molecules that suppress haemostasis and local immunity: <strong>aegyptin</strong> binds collagen to inhibit platelet adhesion; <strong>apyrase</strong> (CD39-like) hydrolyses ADP to prevent platelet aggregation; <strong>SAAG-4</strong> is a vasodilator; additional salivary proteins modulate dendritic cell maturation and Th1/Th2 balance at the bite site, creating an immunosuppressive microenvironment. This modulation is functionally relevant to arboviral transmission — saliva co-inoculation with dengue or Zika virus enhances local replication.</p>
-            </div>
-            <div class="mech-item bio">
-              <h5>Flight range and dispersal</h5>
-              <p>Typical flight range is ~100–200 m from larval source; mark-recapture studies confirm most females stay within 200 m of their emergence site throughout their lifespan. Passive dispersal in traded goods (tires with water, cut flowers, bamboo) drives long-distance geographic spread. Average female lifespan in the field is ~14–21 days (laboratory up to 60 days). Each female may blood-feed 3–8 times over her lifespan, potentially transmitting virus with each subsequent feeding after the extrinsic incubation period.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Vectorial Capacity</h4>
-          <div class="mech-list">
-            <div class="mech-item vector">
-              <h5>Arboviral competence spectrum</h5>
-              <p><em>Ae. aegypti</em> is the primary or co-primary vector for four major arboviruses: dengue virus (DENV 1–4), Zika virus (ZIKV), chikungunya virus (CHIKV), and yellow fever virus (YFV). Vectorial competence requires the virus to successfully breach two sequential anatomical barriers in the mosquito: the midgut infection barrier (MIB) and the midgut escape barrier (MEB), after which virus disseminates haematogenously to reach the salivary glands. Salivary gland infection barrier (SGIB) and salivary gland escape barrier (SGEB) are the final gatekeepers before virus is present in saliva. Each barrier has a genetic basis in the mosquito and is modulated by temperature.</p>
-            </div>
-            <div class="mech-item vector">
-              <h5>Extrinsic incubation period (EIP)</h5>
-              <p>The EIP is the interval between a mosquito ingesting an infectious blood meal and the virus appearing in the saliva. For dengue at 28°C, EIP is 8–12 days; at cooler temperatures (20°C) it extends to ~14–21 days, reducing transmission efficiency. ZIKV EIP is similar (~10 days at 28°C); CHIKV EIP is shorter (~3–5 days, reflecting efficient midgut replication). YFV EIP is ~9–12 days. Temperature-dependence of EIP is a key reason arbovirus transmission tracks ambient temperature and underpins climate-change range expansion risk.</p>
-            </div>
-            <div class="mech-item vector">
-              <h5>Vectorial capacity formula components</h5>
-              <p>Vectorial capacity (C) integrates: vector density relative to hosts (m); daily biting rate (a); probability of surviving EIP (p<sup>n</sup>, where p = daily survival probability and n = EIP in days); vector competence (b); and intrinsic incubation period (n). For dengue, the high biting rate (female may feed every 2–4 days) and peridomestic habitat concentration of <em>Ae. aegypti</em> around human dwellings produce high m and a values, driving epidemic potential. Basic reproductive number R₀ in naïve populations can exceed 3–8 under optimal conditions.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Vector Control Strategies</h4>
-          <table class="path-table">
-            <tr><th>Strategy</th><th>Mechanism</th><th>Evidence / Status</th></tr>
-            <tr><td>Indoor residual spraying (IRS)</td><td>Pyrethroid or organophosphate insecticide sprayed on indoor resting surfaces; contact killing of blood-fed resting females</td><td>Effective for malaria-associated <em>Anopheles</em>; limited for day-biting <em>Ae. aegypti</em> that rest outdoors</td></tr>
-            <tr><td>Space spraying (ULV)</td><td>Ultra-low-volume aerosol insecticide (malathion, pyrethroid); kills flying adults during outbreak response</td><td>Emergency use; limited sustained impact; does not address larval source</td></tr>
-            <tr><td>Larval source management (LSM/BTI)</td><td><em>Bacillus thuringiensis israelensis</em> (Bti) produces Cry toxins that lyse larval midgut cells; applied to water containers</td><td>Highly effective; no resistance reported; recommended by WHO; community compliance critical</td></tr>
-            <tr><td>Wolbachia wMel strain</td><td>Endosymbiotic bacterium; reduces dengue/Zika/chikungunya replication in mosquito midgut via cytoplasmic incompatibility and immune priming; self-spreading in wild population via CI</td><td>AWED RCT (Yogyakarta, Indonesia): 77.1% reduction in dengue incidence (N Engl J Med, 2021); trials ongoing in Colombia, Brazil, Australia, Vietnam</td></tr>
-            <tr><td>Sterile insect technique (SIT)</td><td>Male mosquitoes sterilised by irradiation or Wolbachia CI released en masse; fertile wild females mate with sterile males — offspring do not survive; suppresses population</td><td>Pilot programs in Singapore, China, Brazil; effective but logistics-intensive; requires continuous male production</td></tr>
-            <tr><td>OX513A / OX5034 (Oxitec)</td><td>Genetically modified self-limiting males: OX513A (tetracycline-repressible tTAV lethal system); OX5034 (female-killing system — only male offspring survive); released males mate with wild females; female offspring die</td><td>Phase II/III field trials (Cayman Islands, Brazil, Florida Keys): local population suppression 80–90%; OX5034 approved by US EPA 2020 for controlled Florida trials</td></tr>
-            <tr><td>Insecticide resistance (kdr)</td><td>Knockdown resistance: mutations in voltage-gated sodium channel gene (<em>Vssc</em>) — V1016G, F1534C, S989P in domain II and III — confer resistance to pyrethroids; multiple resistance loci can co-occur</td><td>Widespread across Asia, Latin America, and sub-Saharan Africa; threatens pyrethroid-based control; organophosphates (temephos) and Bti recommended where kdr prevalent</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h4>Disease Burden</h4>
-          <div class="mech-list">
-            <div class="mech-item vector">
-              <h5>Dengue (DENV 1–4)</h5>
-              <p>Approximately 390 million dengue infections per year globally (Bhatt et al., Nature 2013), of which ~96 million manifest apparent disease. Severe dengue (DHF/DSS) accounts for ~500,000 hospitalizations and ~20,000–25,000 deaths annually. Case fatality rate for severe dengue is 1–5% with treatment; ~20% without ICU care. Dengue burden is concentrated in South and Southeast Asia, Latin America, and sub-Saharan Africa.</p>
-            </div>
-            <div class="mech-item vector">
-              <h5>Zika (ZIKV) and congenital syndrome</h5>
-              <p>The 2015–2016 epidemic in the Americas caused an estimated 500,000–1.5 million infections in Brazil alone. Zika was declared a PHEIC (Public Health Emergency of International Concern) by WHO in February 2016 due to the association with congenital Zika syndrome (microcephaly, corpus callosum agenesis, ventriculomegaly) in offspring of infected pregnant women and with Guillain-Barré syndrome in infected adults. ZIKV entry into neural progenitor cells is mediated by AXL receptor tyrosine kinase — also the mosquito entry receptor.</p>
-            </div>
-            <div class="mech-item vector">
-              <h5>Chikungunya (CHIKV) and chronic arthralgia</h5>
-              <p>CHIKV (alphavirus) causes acute febrile polyarthralgia that in 30–40% of patients persists as chronic inflammatory arthritis for months to years, causing long-term disability. Estimated 100–200 million cumulative cases since the 2004 Indian Ocean emergence. The CHIKV E1-A226V mutation dramatically increased fitness in <em>Ae. albopictus</em>, but <em>Ae. aegypti</em> remains competent for both genotypes.</p>
-            </div>
-            <div class="mech-item climate">
-              <h5>Yellow fever (YFV)</h5>
-              <p>Yellow fever remains endemic in tropical Africa and South America; urban cycles involving <em>Ae. aegypti</em> are the most dangerous because of explosive human-to-mosquito-to-human transmission. Estimated 200,000 cases and 30,000 deaths per year globally (WHO). The 17D live-attenuated vaccine is highly effective (&gt;99% immunity for life with one dose) but cold-chain requirements limit coverage in resource-limited settings.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Climate Change and Range Expansion</h4>
-          <div class="mech-list">
-            <div class="mech-item climate">
-              <h5>Northward expansion and temperate establishment</h5>
-              <p><em>Ae. aegypti</em> is thermophilic; its range is tightly constrained by January isotherm ~10°C and annual precipitation. Climate projections (2050 RCP 4.5) predict range expansion into the US Gulf Coast and southern Europe, and significant southward expansion in Australia. Local transmission of dengue has occurred in Florida (2009–2023) and Texas (2013). In Europe, <em>Ae. aegypti</em> is established in Madeira (Portugal) and parts of the Black Sea coast. By contrast, <em>Culex quinquefasciatus</em> — a temperate-adapted <em>Culex</em> species — is comparatively poor at transmitting DENV/ZIKV/CHIKV but is an important West Nile virus vector; distinguishing which species dominates in a given region is critical for predicting epidemic risk.</p>
-            </div>
-            <div class="mech-item climate">
-              <h5>Temperature effects on transmission dynamics</h5>
-              <p>Rising mean temperatures accelerate larval development (shortening larval-to-adult time), increase biting frequency (shorter gonotrophic cycle), and shorten the EIP — all increasing the basic reproductive number R₀. A 2°C temperature increase is modelled to expand the window of dengue transmission by 3–5 months in currently marginal areas. However, at temperatures above ~34–36°C, mosquito survival declines, introducing a non-linear upper thermal limit that may constrain transmission in some hyperarid or extremely hot regions.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Connections</h4>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill transmits" href="pathogens.html"><span class="rel">Transmits</span>Dengue Virus (DENV 1–4)</a>
-            <a class="conn-pill transmits" href="zika-virus.html"><span class="rel">Transmits</span>Zika Virus (ZIKV)</a>
-            <a class="conn-pill linked" href="pathogens.html"><span class="rel">Transmits</span>CHIKV / YFV</a>
-            <a class="conn-pill causes" href="zoonosis.html"><span class="rel">Vector</span>Zoonosis / Arboviral spillover</a>
-            <a class="conn-pill linked" href="vaccines.html"><span class="rel">Target</span>Vaccine Atlas (dengue, Zika, YF)</a>
-            <a class="conn-pill causes" href="diarrheal-disease.html"><span class="rel">Context</span>WASH / Tropical disease burden</a>
+            <a class="conn-pill" href="dengue-virus.html" title="Aedes aegypti is the principal vector of all four dengue serotypes (DENV1-4); virus replicates in salivary glands after 8-12 day extrinsic incubation period; transmitted during bloodmeal."><span class="rel">targets</span>Dengue Virus</a>
+            <a class="conn-pill" href="zika-virus.html" title="Aedes aegypti is the primary vector of Zika virus (ZIKV); drove the 2015-2016 Americas epidemic; sexual transmission also documented but vector transmission accounts for most spread."><span class="rel">targets</span>Zika Virus</a>
+            <a class="conn-pill damaged" href="immune-system.html" title="Ae. aegypti salivary proteins suppress dendritic cell activation and NK function at the bite site; salivary apyrase blocks platelet aggregation enabling bloodmeal; immunomodulation at inoculation site enables early arboviral replication before innate immune sensing."><span class="rel">damages</span>Immune System</a>
+            <a class="conn-pill" href="microcephaly.html" title="Ae. aegypti-vectored Zika virus (ZIKV) is the established cause of congenital microcephaly; the 2015-2016 Americas epidemic linked vector density to microcephaly incidence; first-trimester maternal viremia → vertical ZIKV transmission → cortical progenitor apoptosis."><span class="rel">connects-to</span>Microcephaly</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h4>References</h4>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Bhatt S, Gething PW, Brady OJ, et al. The global distribution and burden of dengue. <em>Nature.</em> 2013;496(7446):504–7. <a href="https://doi.org/10.1038/nature12060" target="_blank" rel="noopener">doi:10.1038/nature12060</a> &middot; PubMed 23563266</li>
-            <li>Utarini A, Indriani C, Ahmad RA, et al. Efficacy of Wolbachia-Infected Mosquito Deployments for the Control of Dengue. <em>N Engl J Med.</em> 2021;384(23):2177–86. <a href="https://doi.org/10.1056/NEJMoa2030243" target="_blank" rel="noopener">doi:10.1056/NEJMoa2030243</a> &middot; PubMed 34107180</li>
-            <li>Brady OJ, Johansson MA, Guerra CA, et al. Modelling adult <em>Aedes aegypti</em> and <em>Aedes albopictus</em> survival at different temperatures in laboratory and field settings. <em>Parasit Vectors.</em> 2013;6:351. <a href="https://doi.org/10.1186/1756-3305-6-351" target="_blank" rel="noopener">doi:10.1186/1756-3305-6-351</a> &middot; PubMed 24330720</li>
-            <li>Gubler DJ. Dengue and dengue hemorrhagic fever. <em>Clin Microbiol Rev.</em> 1998;11(3):480–96. <a href="https://doi.org/10.1128/CMR.11.3.480" target="_blank" rel="noopener">doi:10.1128/CMR.11.3.480</a> &middot; PubMed 9665979</li>
-            <li>Musso D, Gubler DJ. Zika Virus. <em>Clin Microbiol Rev.</em> 2016;29(3):487–524. <a href="https://doi.org/10.1128/CMR.00072-15" target="_blank" rel="noopener">doi:10.1128/CMR.00072-15</a> &middot; PubMed 27029595</li>
-            <li>Lowe R, Stewart-Ibarra AM, Petrova D, et al. Climate services for health: predicting the evolution of the 2016 dengue season in Machala, Ecuador. <em>Lancet Planet Health.</em> 2017;1(4):e142–e151. <a href="https://doi.org/10.1016/S2542-5196(17)30064-5" target="_blank" rel="noopener">doi:10.1016/S2542-5196(17)30064-5</a></li>
-            <li>Alphey L, Benedict M, Bellini R, et al. Sterile-insect methods for control of mosquito-borne diseases: an analysis. <em>Vector Borne Zoonotic Dis.</em> 2010;10(3):295–311. <a href="https://doi.org/10.1089/vbz.2009.0014" target="_blank" rel="noopener">doi:10.1089/vbz.2009.0014</a> &middot; PubMed 19725775</li>
-            <li>Smartt CT, Richards SL, Anderson SL, et al. Tracking the origin of insecticide-resistant <em>Aedes aegypti</em> in Florida. <em>Parasit Vectors.</em> 2017;10(1):74. <a href="https://doi.org/10.1186/s13071-017-2003-z" target="_blank" rel="noopener">doi:10.1186/s13071-017-2003-z</a></li>
+            <li><a href="https://doi.org/10.1038/nature12060" target="_blank" rel="noopener noreferrer">Bhatt S, Gething PW, Brady OJ, et al. The global distribution and burden of dengue. Nature. 2013;496(7446):504-507.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23563266/" target="_blank" rel="noopener noreferrer">PubMed 23563266</a></li>
+            <li><a href="https://doi.org/10.7554/eLife.08347" target="_blank" rel="noopener noreferrer">Kraemer MUG, Sinka ME, Duda KA, et al. The global distribution of the arbovirus vectors Aedes aegypti and Ae. albopictus. eLife. 2015;4:e08347.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26126267/" target="_blank" rel="noopener noreferrer">PubMed 26126267</a></li>
+            <li><a href="https://doi.org/10.1016/j.cell.2009.11.042" target="_blank" rel="noopener noreferrer">Moreira LA, Iturbe-Ormaetxe I, Jeffery JA, et al. A Wolbachia symbiont in Aedes aegypti limits infection with dengue, Chikungunya, and Plasmodium. Cell. 2009;139(7):1268-1278.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20064373/" target="_blank" rel="noopener noreferrer">PubMed 20064373</a></li>
           </ul>
         </div>
 
       </div>
-    </div><!-- /.detail-card -->
-
-    <div class="contribute">
-      <h2>Contribute to the Vector Atlas</h2>
-      <p>This entry covers <em>Aedes aegypti</em> biology, vectorial capacity, all four major arboviruses it transmits, and current control strategies including Wolbachia and genetic approaches. Planned expansions: detailed midgut barrier genetics, salivary proteome atlas, population genomics of insecticide resistance alleles.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
-          Contribute on GitHub
-        </a>
-        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Aedes%20aegypti%20Atlas%20entry">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Get in touch
-        </a>
-      </div>
     </div>
-
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="vaccines.html">Vaccines</a>
-      <a href="index.html#join">Join</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

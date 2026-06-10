@@ -40,6 +40,9 @@ cross_links:
   - target: 01-human/07-system/aicardi-goutieres-syndrome
     relation: connects-to
     note: "AGS causes post-natal progressive microcephaly via chronic IFN-α → microglial activation → cortical neuronal death; distinguishes from primary MCPH (genetic proliferation defects); basal ganglia calcification + acquired microcephaly = pseudo-TORCH presentation on neuroimaging."
+  - target: 02-pathogen/06-environmental/aedes-aegypti
+    relation: connects-to
+    note: "Ae. aegypti-transmitted ZIKV is the primary infectious cause of congenital microcephaly; the 2015-2016 Americas epidemic established the epidemiological link; first-trimester ZIKV infects cortical neural progenitors via AXL/Tyro3 → apoptosis and cortical hypoplasia."
 ---
 
 # Microcephaly
@@ -128,6 +131,7 @@ ZIKV-related microcephaly highlighted the vulnerability of the expanding NPC poo
 - `part-of` → **[Nervous System](../../07-system/nervous-system/README.md)** — microcephaly is a neurodevelopmental disorder of the central nervous system; the downstream clinical manifestations — cognitive impairment, epilepsy, motor dysfunction — reflect dysfunction of CNS circuits built from a reduced and disorganized cortex.
 - `connects-to` → **[Placenta](../placenta/README.md)** — Zika virus uses AXL receptor on extravillous trophoblast and syncytiotrophoblast for placental entry; Zika-infected placenta → neuroprogenitor apoptosis → congenital microcephaly; placental intervillositis and villitis are histological hallmarks of vertical Zika transmission.
 - `connects-to` → **[Aicardi-Goutières Syndrome](../../07-system/aicardi-goutieres-syndrome/README.md)** — AGS causes post-natal progressive microcephaly via chronic IFN-α → microglial activation → cortical neuronal death; distinguishes from primary MCPH (genetic proliferation defects); basal ganglia calcification + acquired microcephaly = pseudo-TORCH presentation on neuroimaging.
+- `connects-to` → **[Aedes aegypti](../../../02-pathogen/06-environmental/aedes-aegypti/README.md)** — Ae. aegypti-transmitted ZIKV is the primary infectious cause of congenital microcephaly; the 2015-2016 Americas epidemic established the epidemiological link; first-trimester ZIKV infects cortical neural progenitors via AXL/Tyro3 → apoptosis and cortical hypoplasia.
 
 ## Pathology
 

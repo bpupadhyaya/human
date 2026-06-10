@@ -331,6 +331,9 @@ cross_links:
   - target: 02-pathogen/05-prions/prion-protein
     relation: damaged-by
     note: "PrPSc is identical in sequence to PrPC (self-protein); no innate or adaptive immune recognition occurs; lymphoid FDCs paradoxically amplify prions before neuroinvasion; silent propagation enables years-to-decades of subclinical disease without immune clearance."
+  - target: 02-pathogen/06-environmental/aedes-aegypti
+    relation: damaged-by
+    note: "Ae. aegypti salivary proteins suppress DC activation and NK function at bite sites; apyrase blocks platelet aggregation enabling bloodmeal; immunomodulation at the inoculation site enables early DENV/ZIKV replication before innate immune sensing."
 ---
 
 # Immune System
@@ -431,6 +434,7 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — PCV13 activates T-cell-dependent immunity via CRM197 conjugation: germinal center reaction, affinity maturation, IgG class-switch (IgG2/IgG1); generates long-lived plasma cells and memory B cells; enables infant immunization from 6 weeks; herd protection via carriage reduction.
 - `connects-to` → **[MMR Vaccine](../../../../04-vaccine/05-live-attenuated/mmr-vaccine/README.md)** — MMR live-attenuated replication in local lymphoid tissue drives Th1-biased cellular immunity (CD8+ CTL, CD4+ Th1) and robust germinal center reactions; generates durable IgG via long-lived plasma cells; natural-infection mimic is more immunogenic than inactivated vaccines.
 - `damaged-by` → **[Prion Protein (PrP)](../../../02-pathogen/05-prions/prion-protein/README.md)** — PrPSc is a self-protein; the immune system mounts no antibody or T-cell response; lymphoid follicular dendritic cells amplify prions peripherally before neuroinvasion; silent propagation enables disease progression without immune clearance.
+- `damaged-by` → **[Aedes aegypti](../../../02-pathogen/06-environmental/aedes-aegypti/README.md)** — salivary proteins suppress DC activation and NK function at bite sites; salivary apyrase blocks platelet aggregation enabling bloodmeal; immunomodulation at the inoculation site enables early DENV/ZIKV replication before innate immune sensing.
 
 ## Pathology
 

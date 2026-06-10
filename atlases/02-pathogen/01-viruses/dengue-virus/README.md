@@ -45,6 +45,12 @@ cross_links:
     relation: damages
     evidence: guzman-2016-dengue-review
     note: "Dengue virus infects hepatocytes via AXL and DC-SIGN; hepatic damage causes elevated AST/ALT in >80% of cases; fulminant hepatic failure in severe dengue contributes to coagulopathy and mortality."
+  - target: 02-pathogen/06-environmental/aedes-aegypti
+    relation: connects-to
+    note: "Ae. aegypti is the primary vector; DENV replicates in midgut and salivary glands after 8-12 day extrinsic incubation period; Ae. albopictus is a secondary vector; transmitted to humans via infective saliva injected during bloodmeal."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: infects
+    note: "DENV infects hepatocytes via AXL receptor and DC-SIGN; hepatic damage elevates AST/ALT in >80% of dengue cases; severe dengue produces fulminant hepatic failure with coagulopathy and mortality risk."
 ---
 
 # Dengue virus
@@ -102,9 +108,11 @@ NS1 protein (secreted into blood at high levels: 1–50 µg/mL) directly disrupt
 
 ## Connections
 
-- **Infects** → [Dendritic Cell](../../../01-human/04-cellular/dendritic-cell/README.md): Skin-resident immature DCs are the primary target of initial dengue infection; viral replication in DCs leads to systemic dissemination.
-- **Damages** → [Immune System](../../../01-human/07-system/immune-system/README.md): NS5-mediated STAT2 degradation blocks interferon signaling; ADE amplifies viral burden in monocytes/macrophages; cross-reactive T-cell and cytokine responses drive vascular leak and severe dengue.
-- **Damages** → [Liver](../../../01-human/06-organ/liver/README.md): Hepatocyte infection and immune-mediated hepatic damage cause elevated transaminases in the majority of cases; severe dengue can produce fulminant hepatic failure with coagulopathy.
+- `infects` → **[Dendritic Cell](../../../01-human/04-cellular/dendritic-cell/README.md)** — skin-resident immature DCs (Langerhans cells) are the primary initial target; viral replication in DCs drives systemic dissemination; DC-SIGN and AXL receptor mediate entry.
+- `damages` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — NS5-mediated STAT2 degradation blocks IFN-α/β signaling; ADE amplifies viral burden in monocytes/macrophages via Fcγ receptors; cross-reactive T-cell cytokine storm drives vascular leak and severe dengue.
+- `damages` → **[Liver](../../../01-human/06-organ/liver/README.md)** — hepatocyte infection and immune-mediated hepatic damage cause elevated AST/ALT in >80% of cases; severe dengue produces fulminant hepatic failure contributing to coagulopathy and mortality.
+- `connects-to` → **[Aedes aegypti](../../../02-pathogen/06-environmental/aedes-aegypti/README.md)** — Ae. aegypti is the primary vector; DENV replicates in midgut and salivary glands after 8-12 day extrinsic incubation period; Ae. albopictus is secondary vector; transmitted via infective saliva during bloodmeal.
+- `infects` → **[Hepatocyte](../../../01-human/04-cellular/hepatocyte/README.md)** — DENV infects hepatocytes via AXL receptor and DC-SIGN; hepatic damage elevates AST/ALT in >80% of dengue cases; severe dengue produces fulminant hepatic failure with coagulopathy and mortality risk.
 
 ## Pathology
 
@@ -118,3 +126,7 @@ The WHO grades DHF severity (Grades I–IV) by clinical markers of plasma leakag
 Thrombocytopenia (typically <100,000/µL) is universal in DHF — caused by immune complex deposition on platelets (IgG + complement), direct viral platelet infection, and bone marrow suppression. Disseminated intravascular coagulation (DIC) in the most severe cases.
 
 **Critical phase:** Day 3–7 of illness; fever defervescence often marks the onset of plasma leakage — paradoxically, fever resolution signals the dangerous phase rather than recovery. Aggressive IV fluid management in this window is the cornerstone of treatment.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
