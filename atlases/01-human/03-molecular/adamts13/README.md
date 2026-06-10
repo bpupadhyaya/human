@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/ahus
     relation: connects-to
     note: "ADAMTS13 activity ≥10% is the key test distinguishing aHUS from TTP (ADAMTS13 <10%); in TMA workup, ADAMTS13 must be sent before plasma exchange; both TTP and aHUS cause MAHA + thrombocytopenia + AKI but differ fundamentally in mechanism and treatment."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "ADAMTS13 prevents ULVWF-platelet aggregation; in TTP, ULVWF strings anchor platelets via GPIbα → platelet-rich microthrombi → consumptive thrombocytopenia (typically <30,000/μL); caplacizumab blocks GPIbα-ULVWF interaction → rapid platelet count normalization within 1-2 days."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Renal arteriolar microthrombi in TTP cause AKI (mild cf. HUS; creatinine 2-3× baseline); ADAMTS13 <10% distinguishes TTP-AKI from complement-driven aHUS; dialysis rarely required; renal recovery common with PEX+caplacizumab; ADAMTS13 activity must be sent before plasma exchange."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Weibel-Palade body exocytosis from activated endothelium releases ULVWF strings; ADAMTS13 cleaves tethered ULVWF under shear → regulated VWF multimers; endothelial damage (infection, surgery, pregnancy) triggers iTTP by overwhelming residual ADAMTS13 in autoantibody carriers."
 ---
 
 # ADAMTS13
@@ -140,6 +149,9 @@ ADAMTS13 performs ongoing surveillance and size regulation of VWF:
 - `connects-to` → **[Von Willebrand Factor](../von-willebrand-factor/README.md)** — ADAMTS13 cleaves ULVWF at Tyr1605-Met1606 in the VWF A2 domain under shear stress; ULVWF strings accumulate when ADAMTS13 is absent → platelet microthrombi → TTP; caplacizumab targets the VWF A1 domain to block GPIb-mediated platelet tethering.
 - `connects-to` → **[Immunoglobulin G](../immunoglobulin-g/README.md)** — Acquired iTTP is caused by IgG autoantibodies against ADAMTS13 (predominantly IgG4 inhibiting; also IgG1 non-inhibiting); anti-ADAMTS13 IgG titer tracks disease; rituximab (anti-CD20) depletes ADAMTS13-antibody-producing B cells → durable remission in iTTP.
 - `connects-to` → **[Atypical HUS](../../07-system/ahus/README.md)** — ADAMTS13 activity ≥10% is the key test distinguishing aHUS from TTP (ADAMTS13 <10%); in TMA workup, ADAMTS13 must be sent before plasma exchange; both TTP and aHUS cause MAHA + thrombocytopenia + AKI but differ fundamentally in mechanism and treatment.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — ADAMTS13 prevents ULVWF-platelet aggregation; in TTP, ULVWF strings anchor platelets via GPIbα → platelet-rich microthrombi → consumptive thrombocytopenia (typically <30,000/μL); caplacizumab blocks GPIbα-ULVWF interaction → rapid platelet count normalization within 1-2 days.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Renal arteriolar microthrombi in TTP cause AKI (mild cf. HUS; creatinine 2-3× baseline); ADAMTS13 <10% distinguishes TTP-AKI from complement-driven aHUS; dialysis rarely required; renal recovery common with PEX+caplacizumab; ADAMTS13 must be sent before plasma exchange.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Weibel-Palade body exocytosis from activated endothelium releases ULVWF strings; ADAMTS13 cleaves tethered ULVWF under shear → regulated VWF multimers; endothelial damage (infection, surgery, pregnancy) triggers iTTP by overwhelming residual ADAMTS13 in autoantibody carriers.
 
 [^zheng-2001-adamts13-discovery]: Zheng X, Chung D, Takayama TK, et al. Structure of von Willebrand factor-cleaving protease (ADAMTS13), a metalloprotease involved in thrombotic thrombocytopenic purpura. *J Biol Chem.* 2001;276(44):41059-41063. [doi:10.1074/jbc.C100515200](https://doi.org/10.1074/jbc.C100515200) · [PubMed 11557775](https://pubmed.ncbi.nlm.nih.gov/11557775/)
 [^scully-2019-caplacizumab-hercules]: Scully M, Cataland SR, Peyvandi F, et al. Caplacizumab treatment for acquired thrombotic thrombocytopenic purpura. *N Engl J Med.* 2019;380(4):335-346. [doi:10.1056/NEJMoa1806311](https://doi.org/10.1056/NEJMoa1806311) · [PubMed 30625070](https://pubmed.ncbi.nlm.nih.gov/30625070/)

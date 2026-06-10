@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "BCR-ABL activates RAS via GRB2-SOS → RAF-MEK-ERK → proliferation; KRAS mutations are rare in chronic-phase CML but selected in blast crisis; RAS/MAPK activation is a BCR-ABL-independent bypass mechanism contributing to TKI resistance in accelerated-phase and blast-phase CML."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "c-Abl is activated by ATM at DSBs → phosphorylates MDM2 Tyr394 → blocks MDM2-p53 ubiquitination → p53 stabilization → apoptosis; BCR-ABL disrupts ATM-c-Abl-p53 axis → CML cell survival; TP53 mutations accumulate in blast crisis as escape from p53-dependent apoptosis."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK cells mediate CML immune surveillance during TFR; imatinib-treated patients show NK cell expansion and activation; high NK cell count predicts TFR success; TKI therapy normalises NK cell education via KIR licensing, enabling MRD immune control after TKI discontinuation."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "c-Abl phosphorylates RAD51 Tyr315 → promotes RAD51 nuclear foci at DSBs → HR repair; BCR-ABL-driven RAD51 overactivation elevates HR → accelerates acquisition of BCR-ABL kinase domain resistance mutations; RAD51 inhibition sensitises CML cells to imatinib in preclinical models."
 ---
 
 # ABL1
@@ -144,6 +153,13 @@ The BCR portion of the fusion provides several critical functions:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — BCR-ABL activates STAT5 (dominant) and STAT3 → BCL-XL, MYC, and cyclin D1 → CML blast proliferation; STAT5 is essential for CML LSC maintenance; FLT3+JAK2 inhibitors combined with TKI target STAT5 in TKI-persistent CML stem cells in preclinical models.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — BCR-ABL → PI3K-AKT → mTORC1 → protein synthesis and CML stem cell (LSC) maintenance; mTOR is active in quiescent CML LSCs; TKI + mTOR inhibitor combinations eliminate CML LSC reservoir in mouse models and may improve treatment-free remission rates in deep molecular responders.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — BCR-ABL activates RAS via GRB2-SOS → RAF-MEK-ERK → proliferation; KRAS mutations are rare in chronic-phase CML but selected in blast crisis; RAS/MAPK activation is a BCR-ABL-independent bypass mechanism contributing to TKI resistance in accelerated-phase and blast-phase CML.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — c-Abl activated by ATM at DSBs phosphorylates MDM2 Tyr394 → blocks MDM2-p53 ubiquitination → p53 stabilization → apoptosis; BCR-ABL disrupts this ATM-c-Abl-p53 axis → CML cell survival; TP53 mutations accumulate in blast crisis as cells escape p53-dependent apoptosis.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells mediate CML immune surveillance during treatment-free remission (TFR); imatinib-treated patients show NK cell expansion and activation; high NK cell count predicts TFR success; TKI normalises NK cell education via KIR licensing, enabling MRD immune control.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — c-Abl phosphorylates RAD51 Tyr315 → promotes RAD51 nuclear foci at DSBs → HR repair; BCR-ABL-driven RAD51 overactivation elevates HR → accelerates acquisition of BCR-ABL kinase domain resistance mutations; RAD51 inhibition sensitises CML cells to imatinib in preclinical models.
 
 [^druker-2001-imatinib-iris]: Druker BJ, Talpaz M, Resta DJ, et al. Efficacy and safety of a specific inhibitor of the BCR-ABL tyrosine kinase in chronic myeloid leukemia. *N Engl J Med.* 2001;344(14):1031-1037. [doi:10.1056/NEJM200104053441401](https://doi.org/10.1056/NEJM200104053441401) · [PubMed 11287973](https://pubmed.ncbi.nlm.nih.gov/11287973/)
 [^hochhaus-2017-asciminib]: Hochhaus A, Boquimpani C, Rea D, et al. Efficacy and safety results from ASCEMBL, a multicenter, open-label, phase 3 study of asciminib vs bosutinib in chronic-phase CML. *Blood.* 2021;138(Suppl 1):2160. [doi:10.1182/blood-2021-147441](https://doi.org/10.1182/blood-2021-147441) · [PubMed 34739052](https://pubmed.ncbi.nlm.nih.gov/34739052/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
