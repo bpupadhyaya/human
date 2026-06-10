@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "CDKN2A homozygous deletion occurs in ~50-70% of IDH-mutant astrocytoma Grade 4; CDK4/6 hyperactivation → RB1 → E2F proliferation; CDKN2A deletion defines WHO Grade 4 IDH-mutant astrocytoma (from Grade 3); ATRX LOF + CDKN2A deletion → worst IDH-mutant glioma prognosis."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "ATRX LOF activates ALT (TERT-independent telomere maintenance via HR); IDH-mutant astrocytoma uses ALT while IDH-wildtype GBM uses TERT promoter mutations; ATRX intact + TERT promoter mutation = GBM lineage; ATRX LOF and TERT promoter mutations are essentially mutually exclusive."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "IDH-wildtype GBM and ATRX-LOF astrocytoma are distinct; GBM: TERT promoter mutation, EGFR amplification, PTEN deletion — absent in astrocytoma; WHO 2021 uses IDH+ATRX to separate lineages; IDH-mutant astrocytoma has markedly better prognosis than IDH-wildtype GBM."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "ATRX or DAXX LOF in ~40% of pancreatic NETs activates ALT; ATRX/DAXX-mutant pNETs have higher metastatic potential; everolimus (RADIANT-3: PFS HR 0.35; FDA-approved) is the primary targeted therapy; ATRX/DAXX pNETs may derive particular everolimus benefit vs WT tumors."
 ---
 
 # ATRX
@@ -138,6 +147,13 @@ ATRX is a tumor suppressor (LOF); no small-molecule that restores ATRX function;
 - `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — ATRX LOF + IDH1 → 2-HG → TET2 inhibition → DNA hypermethylation (G-CIMP); ATRX-DAXX deposits H3.3 at telomeric chromatin; ATRX LOF impairs H3.3 telomeric deposition → ALT mechanism → telomere lengthening independent of TERT; ATRX and TET2 cooperate in chromatin maintenance.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — ATRX LOF + IDH1 + TP53 mutation defines IDH-mutant astrocytoma Grade 3-4; TP53 and ATRX LOF co-occur in >80% of IDH-mutant astrocytomas; ATRX LOF → elevated replication stress at telomeres → p53 pathway activation; TP53 LOF relieves this brake → rapid astrocytoma progression.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A homozygous deletion occurs in ~50-70% of IDH-mutant astrocytoma Grade 4; CDK4/6 hyperactivation → RB1 → E2F proliferation; CDKN2A deletion defines WHO Grade 4 IDH-mutant astrocytoma (from Grade 3); ATRX LOF + CDKN2A deletion → worst IDH-mutant glioma prognosis.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — ATRX LOF activates ALT (TERT-independent telomere maintenance via HR); IDH-mutant astrocytoma uses ALT while IDH-wildtype GBM uses TERT promoter mutations; ATRX intact + TERT promoter mutation = GBM lineage; ATRX LOF and TERT promoter mutations are essentially mutually exclusive.
+- `connects-to` → **[Glioblastoma](../../07-system/glioblastoma/README.md)** — IDH-wildtype GBM and ATRX-LOF astrocytoma are distinct; GBM: TERT promoter mutation, EGFR amplification, PTEN deletion — absent in astrocytoma; WHO 2021 uses IDH+ATRX to separate lineages; IDH-mutant astrocytoma has markedly better prognosis than IDH-wildtype GBM.
+- `connects-to` → **[Neuroendocrine Tumors](../../07-system/neuroendocrine-tumors/README.md)** — ATRX or DAXX LOF in ~40% of pancreatic NETs activates ALT; ATRX/DAXX-mutant pNETs have higher metastatic potential; everolimus (RADIANT-3: PFS HR 0.35; FDA-approved) is the primary targeted therapy; ATRX/DAXX pNETs may derive particular everolimus benefit vs WT tumors.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^heaphy-2011-atrx-alt]: Heaphy CM, de Wilde RF, Jiao Y, et al. Altered telomeres in tumors with ATRX and DAXX mutations. *Science.* 2011;333(6041):425. [doi:10.1126/science.1207313](https://doi.org/10.1126/science.1207313) · [PubMed 21719641](https://pubmed.ncbi.nlm.nih.gov/21719641/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

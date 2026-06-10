@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "BDNF Val66Met SNP is over-represented in ADHD; BDNF supports PFC dopaminergic circuit maturation; stimulant treatment increases BDNF expression in PFC; exercise (which raises BDNF) reduces ADHD symptom severity in children and improves executive function outcomes."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "PFC layer III pyramidal neurons are the core ADHD substrate; they express DA D1 and NE α2A receptors maintaining persistent firing for working memory; D1 → cAMP → HCN/K⁺ channel closure → strengthened circuit; catecholamine deficiency → HCN open → signal noise → inattention."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "ADHD and ASD co-occur in 20-50% of cases; DSM-5 (2013) allows dual diagnosis; both share genetic architecture (CNVs at 16p13.11, 1q21.1; FOXP2, SHANK3) and PFC-striatal circuit dysfunction; methylphenidate has lower efficacy and more side effects in ASD+ADHD vs ADHD alone."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Hippocampus is ~3-4% smaller in ADHD (meta-analysis); working memory deficits partly reflect hippocampal-PFC circuit dysfunction; stimulants normalize hippocampal-PFC connectivity on fMRI; episodic memory impairment is an underrecognized domain affecting academic performance."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -197,10 +206,14 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NE α2A-receptor signaling in PFC strengthens layer III pyramidal neuron connectivity underlying working memory; atomoxetine (selective NE reuptake inhibitor) and guanfacine/clonidine (α2A agonists) treat ADHD by restoring NE-PFC function without dopamine-reward circuit effects.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — ADHD involves PFC, anterior cingulate, and striatal circuit dysfunction; MRI shows ~3-5% smaller total brain volume with 2-5 year cortical maturation delay; default mode network fails to deactivate during tasks → attention lapses; PFC gray matter thinning correlates with ADHD severity.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF Val66Met SNP is over-represented in ADHD; BDNF supports PFC dopaminergic circuit maturation; stimulant treatment increases BDNF in PFC; aerobic exercise, which robustly raises BDNF, reduces ADHD symptom severity and improves executive function outcomes.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — PFC layer III pyramidal neurons are the core ADHD substrate; they express DA D1 and NE α2A receptors maintaining persistent firing for working memory; D1 → cAMP → HCN/K⁺ channel closure → strengthened circuit; catecholamine deficiency → HCN open → signal noise → inattention.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — ADHD and ASD co-occur in 20-50% of cases; DSM-5 (2013) allows dual diagnosis; both share genetic architecture (CNVs at 16p13.11, 1q21.1; FOXP2, SHANK3) and PFC-striatal circuit dysfunction; methylphenidate has lower efficacy and more side effects in ASD+ADHD vs ADHD alone.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — hippocampus is ~3-4% smaller in ADHD (meta-analysis); working memory deficits partly reflect hippocampal-PFC circuit dysfunction; stimulants normalize hippocampal-PFC connectivity on fMRI; episodic memory impairment is an underrecognized domain affecting academic performance.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
 [^biederman-2005-adhd-adults]: Biederman J, Faraone SV. Attention-deficit hyperactivity disorder. *Lancet.* 2005;366(9481):237-248. [doi:10.1016/S0140-6736(05)66915-2](https://doi.org/10.1016/S0140-6736(05)66915-2) · [PubMed 16023516](https://pubmed.ncbi.nlm.nih.gov/16023516/)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
