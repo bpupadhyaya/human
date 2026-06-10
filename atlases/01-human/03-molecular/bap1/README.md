@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "BAP1 deubiquitinates H2AK119ub → opens polycomb-repressed chromatin, counteracting MYC-driven proliferative programs; BAP1 loss → polycomb silencing of tumor suppressors + MYC target gene upregulation; this axis is active in mesothelioma and uveal melanoma."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "BAP1 is lost in ~50-60% of pleural mesothelioma (epithelioid > sarcomatoid); IHC nuclear loss + CDKN2A FISH achieves ~90% specificity for malignant vs reactive mesothelium; epithelioid BAP1-null mesothelioma has higher immune infiltration → nivolumab+ipilimumab most active."
+  - target: 01-human/07-system/uveal-melanoma
+    relation: connects-to
+    note: "BAP1 somatic loss in ~82% of uveal melanoma; BAP1 IHC nuclear loss → Class 2 designation → >50% metastasis at 5 years; germline BAP1 predisposes in BAP1-TPDS; tebentafusp (TCR bispecific; HLA-A*02:01; FDA 2022) is approved for uveal melanoma regardless of BAP1 status."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "BAP1 mutations in ~10% of ccRCC; mutually exclusive with PBRM1 in most cases; BAP1-mutant ccRCC → worse prognosis than PBRM1-mutant (mOS ~1.9 vs ~4.7 years); BAP1 defines a distinct epigenetic ccRCC subgroup with high immune infiltration responding to IO/TKI combinations."
 ---
 
 # BAP1
@@ -126,6 +135,13 @@ In mesothelioma: Combined BAP1 IHC (nuclear loss) + CDKN2A FISH (homozygous dele
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — BAP1 (PR-DUB complex, H2AK119 deubiquitinase) antagonizes PRC1 H2AK119 ubiquitination; EZH2 (PRC2) writes H3K27me3 reinforcing PRC1 repression; BAP1 loss + EZH2 gain both drive polycomb reprogramming toward epigenetic silencing of tumor suppressors.
 - `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — BAP1 and VHL are co-mutated tumor suppressors in ccRCC; BAP1-mutant ccRCC (~10%) has poorer prognosis than VHL-only; BAP1 mutations define a distinct epigenetic ccRCC subgroup; BAP1+VHL co-loss confers increased metastatic risk and poorer OS in ccRCC cohorts.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — BAP1 deubiquitinates H2AK119ub → opens polycomb-repressed chromatin, counteracting MYC-driven proliferative programs; BAP1 loss → polycomb silencing of tumor suppressors + MYC target gene upregulation; this axis is active in mesothelioma and uveal melanoma.
+- `connects-to` → **[Mesothelioma](../../07-system/mesothelioma/README.md)** — BAP1 loss in ~50-60% of pleural mesothelioma; combined BAP1 IHC (nuclear loss) + CDKN2A FISH achieves ~90% specificity for malignant mesothelioma vs reactive mesothelium; epithelioid BAP1-null mesothelioma has higher immune infiltration → nivolumab+ipilimumab most active subgroup; tazemetostat under investigation.
+- `connects-to` → **[Uveal Melanoma](../../07-system/uveal-melanoma/README.md)** — BAP1 somatic loss in ~82% of uveal melanoma; BAP1 IHC nuclear loss → Class 2 → >50% metastasis at 5 years; germline BAP1 mutations cause BAP1-TPDS with uveal melanoma risk; tebentafusp (TCR bispecific; FDA 2022) is approved for uveal melanoma regardless of BAP1 status.
+- `connects-to` → **[Renal Cell Carcinoma](../../07-system/renal-cell-carcinoma/README.md)** — BAP1 mutations in ~10% of ccRCC; mutually exclusive with PBRM1; BAP1-mutant ccRCC → worse prognosis (mOS ~1.9 vs ~4.7 years for PBRM1-mutant); BAP1 defines a distinct epigenetic ccRCC subgroup with high immune infiltration responding to IO/TKI combinations (nivolumab+cabozantinib, pembrolizumab+axitinib).
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^testa-2011-bap1-germline]: Testa JR, Cheung M, Pei J, et al. Germline BAP1 mutations predispose to malignant mesothelioma. *Nat Genet.* 2011;43(10):1022-1025. [doi:10.1038/ng.912](https://doi.org/10.1038/ng.912) · [PubMed 21874000](https://pubmed.ncbi.nlm.nih.gov/21874000/)
 [^bott-2011-bap1-somatic]: Bott M, Brevet M, Taylor BS, et al. The nuclear deubiquitinase BAP1 is commonly inactivated by somatic mutations and putative germline variants in sporadic malignant mesothelioma. *Nat Genet.* 2011;43(7):668-672. [doi:10.1038/ng.855](https://doi.org/10.1038/ng.855) · [PubMed 21642991](https://pubmed.ncbi.nlm.nih.gov/21642991/)

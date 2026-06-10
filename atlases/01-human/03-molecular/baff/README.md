@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "BAFF via BCMA (TNFRSF17) on plasma cells promotes long-lived plasma cell survival; APRIL (TNFSF13A) also signals via BCMA → atacicept (anti-BAFF+APRIL) depletes plasma cells more deeply than anti-BAFF alone; BCMA is therapeutic target in myeloma (teclistamab, CAR-T)."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "BAFF is the critical B-cell survival factor; BAFF-R → NIK → IKKα → p52/RelB → BCL-2/BCL-XL → transitional and naive B-cell survival; excess BAFF expands the peripheral B-cell niche → autoreactive B-cell escape → autoimmunity; BAFF-Tg mice develop SLE-like disease."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "BCMA (TNFRSF17), a BAFF/APRIL receptor on plasma cells, is the validated myeloma target; teclistamab (bispecific T-cell engager; MajesTEC-1) and ciltacabtagene autoleucel (CARTITUDE-1) target BCMA; atacicept (anti-BAFF+APRIL) depletes plasma cells more deeply than belimumab."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "BAFF and IL-6 are co-elevated in SLE, Sjögren's, and RA; IL-6 drives plasma cell differentiation and IgG production downstream of BAFF-driven B-cell activation; tocilizumab (anti-IL-6R) and belimumab (anti-BAFF) target complementary axes of B-cell/plasma cell-driven autoimmunity."
 ---
 
 # BAFF
@@ -144,10 +153,14 @@ Within germinal centers, BAFF provides survival signals to GC B cells that compe
 - `connects-to` → **[Systemic Lupus Erythematosus](../../07-system/systemic-lupus-erythematosus/README.md)** — BAFF elevated in SLE drives autoreactive B-cell survival; belimumab (anti-BAFF; BLISS-52/76; FDA Mar 2011) reduces flares by 15-20%; BLISS-LN: belimumab + SoC → 43% vs. 32% renal response; anti-BAFF is now a cornerstone of moderate-severe SLE management.
 - `connects-to` → **[Sjögren's Syndrome](../../07-system/sjogrens-syndrome/README.md)** — BAFF overexpressed in Sjögren's salivary glands drives B-cell hyperactivation → anti-Ro/SSA and ectopic GC formation → lymphoma risk; ianalumab (anti-BAFFR; TWINSS: ESSDAI –5.1 vs –2.7; Lancet 2023) is the first Phase 3 positive biologic in pSS.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — BAFF via BCMA + APRIL promotes long-lived plasma cell survival; atacicept (anti-BAFF+APRIL) depletes plasma cells more deeply than belimumab; BCMA is the target of teclistamab, elranatamab (bispecific T-cell engagers), and idecabtagene vicleucel CAR-T in multiple myeloma.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — BAFF is the rate-limiting survival factor for transitional and naive B cells; BAFF-R → NIK → p52/RelB → BCL-2/BCL-XL → B cell survival; excess BAFF expands the B-cell niche → autoreactive B-cell escape; belimumab (anti-BAFF) and ianalumab (anti-BAFFR) reduce autoreactive B-cell pools in SLE and Sjögren's.
+- `connects-to` → **[Multiple Myeloma](../../07-system/multiple-myeloma/README.md)** — BCMA (TNFRSF17) on plasma cells is the primary BAFF/APRIL receptor validated as a myeloma target; teclistamab (MajesTEC-1) and ciltacabtagene autoleucel (CARTITUDE-1) target BCMA; atacicept (anti-BAFF+APRIL) depletes plasma cells more deeply than belimumab for myeloma applications.
+- `connects-to` → **[IL-6](../il-6/README.md)** — BAFF and IL-6 are co-elevated in SLE, Sjögren's, and RA; IL-6 drives plasma cell differentiation and IgG production downstream of BAFF-driven B-cell activation; tocilizumab (anti-IL-6R) and belimumab (anti-BAFF) target complementary axes of B-cell/plasma cell-driven autoimmunity.
 
 [^mackay-2002-baff-b-cell]: Mackay F, Silveira PA, Brink R. B cells and the BAFF/APRIL axis: fast-forward on autoimmunity and signaling. *Curr Opin Immunol.* 2007;19(3):327-336. [doi:10.1016/j.coi.2007.04.008](https://doi.org/10.1016/j.coi.2007.04.008) · [PubMed 17433875](https://pubmed.ncbi.nlm.nih.gov/17433875/)
 [^navarra-2011-belimumab-bliss76]: Navarra SV, Guzmán RM, Gallacher AE, et al. Efficacy and safety of belimumab in patients with active systemic lupus erythematosus: a randomised, placebo-controlled, phase 3 trial. *Lancet.* 2011;377(9767):721-731. [doi:10.1016/S0140-6736(10)61354-2](https://doi.org/10.1016/S0140-6736(10)61354-2) · [PubMed 21296403](https://pubmed.ncbi.nlm.nih.gov/21296403/)
 [^dorner-2023-ianalumab-twinss]: Dörner T, Bowman SJ, Fox R, et al. Ianalumab (VAY736) in patients with primary Sjögren's syndrome: a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial (TWINSS). *Lancet.* 2023;402(10400):477-489. [doi:10.1016/S0140-6736(23)00454-4](https://doi.org/10.1016/S0140-6736(23)00454-4) · [PubMed 37499657](https://pubmed.ncbi.nlm.nih.gov/37499657/)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
