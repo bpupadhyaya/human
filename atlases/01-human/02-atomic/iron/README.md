@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: modulates
     note: "Iron is required for lymphocyte proliferation (ribonucleotide reductase for dNTP synthesis); hepcidin-mediated iron sequestration from pathogens constitutes nutritional immunity in chronic infection/inflammation."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron loading (BMP6-SMAD) and inflammation (IL-6 → STAT3) upregulate hepcidin → hepcidin binds ferroportin → ferroportin internalisation → reduced Fe export from enterocytes and macrophages → falling serum iron; hepcidin suppression in deficiency/hypoxia restores Fe absorption."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Iron-deficiency anaemia (IDA) is the most common nutritional deficiency (~2 billion globally): inadequate intake, chronic blood loss (GI, menstrual), or malabsorption → depleted ferritin → hypochromic microcytic anaemia; serum Fe low, TIBC high; treated with oral or IV iron."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Haemoglobin Fe²⁺ reversibly binds O₂ (each Hb tetramer carries 4); cooperative binding (Hill n~2.8) enables loading in lungs (PO₂ 100 mmHg) and unloading in tissues (PO₂ 40 mmHg); Fe³⁺ (methaemoglobin) cannot bind O₂ → O₂ transport wholly depends on iron oxidation state."
 ---
 
 # Iron
@@ -150,10 +159,13 @@ Beyond ETC and O₂ transport, iron serves critical roles:
 
 ## Connections
 
-- **Part-of** → [Human Body](../../08-whole-body/human-body/README.md): 3.5–4.5g total; ~70% in haemoglobin Fe²⁺-haem, ~20% stored as ferritin/haemosiderin in liver/spleen/marrow, ~5% in myoglobin and enzymes (cytochromes, catalase) throughout the body.
-- **Part-of** → [Erythrocyte](../../04-cellular/erythrocyte/README.md): Each erythrocyte contains ~280 million haemoglobin tetramers, each holding 4 haem-Fe²⁺ groups; iron is recycled by macrophages after RBC senescence at the end of the ~120-day erythrocyte lifespan.
-- **Modulates** → [Liver](../../06-organ/liver/README.md): Liver is the primary iron storage organ (ferritin/haemosiderin in hepatocytes) and synthesises hepcidin (iron-regulatory hormone) and transferrin (plasma iron transport protein).
-- **Modulates** → [Immune System](../../07-system/immune-system/README.md): Iron is required for lymphocyte proliferation (ribonucleotide reductase for dNTP synthesis); hepcidin-mediated iron sequestration from pathogens constitutes nutritional immunity in chronic infection and inflammation.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — 3.5–4.5 g total; ~70% in haemoglobin Fe²⁺-haem, ~20% stored as ferritin/haemosiderin in liver/spleen/marrow, ~5% in myoglobin and enzymes (cytochromes, catalase) throughout the body.
+- `part-of` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — each erythrocyte contains ~280 million haemoglobin tetramers each holding 4 haem-Fe²⁺ groups; iron is recycled by splenic macrophages after RBC senescence at the end of the ~120-day erythrocyte lifespan.
+- `modulates` → **[Liver](../../06-organ/liver/README.md)** — liver is the primary iron storage organ (ferritin/haemosiderin in hepatocytes) and synthesises hepcidin (the master iron regulatory hormone) and transferrin (plasma iron transport protein).
+- `modulates` → **[Immune System](../../07-system/immune-system/README.md)** — iron is required for lymphocyte proliferation (ribonucleotide reductase for dNTP synthesis); hepcidin-mediated iron sequestration from pathogens constitutes nutritional immunity in chronic infection and inflammation.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — iron loading (BMP6-SMAD) and inflammation (IL-6 → STAT3) upregulate hepcidin → ferroportin internalisation → reduced Fe export from enterocytes and macrophages → falling serum iron; hepcidin suppression in deficiency and hypoxia restores Fe absorption.
+- `connects-to` → **[Iron-Deficiency Anemia](../../07-system/iron-deficiency-anemia/README.md)** — IDA is the most common nutritional deficiency (~2 billion globally): inadequate intake, chronic blood loss, or malabsorption → depleted ferritin → hypochromic microcytic anaemia; serum Fe low, TIBC high; treated with oral or IV iron.
+- `connects-to` → **[Oxygen](../oxygen/README.md)** — haemoglobin Fe²⁺ reversibly binds O₂ (each Hb tetramer carries 4); cooperative binding (Hill n~2.8) enables loading at PO₂ 100 mmHg and unloading at PO₂ 40 mmHg; Fe³⁺ (methaemoglobin) cannot bind O₂ → O₂ transport wholly depends on iron oxidation state.
 
 ## Pathology
 
@@ -166,13 +178,9 @@ Beyond ETC and O₂ transport, iron serves critical roles:
 | **Iron toxicity / acute poisoning** | Excess free Fe²⁺ → Fenton reaction → hydroxyl radical → lipid peroxidation, mitochondrial damage, GI mucosa necrosis | Common in paediatric iron tablet ingestion; treated with IV desferrioxamine |
 | **Sideroblastic anaemia** | Impaired haem synthesis (X-linked: ALAS2 mutation; or acquired: lead, isoniazid, alcohol) → iron accumulates in mitochondria of erythroid precursors (ring sideroblasts) | Microcytic/hypochromic anaemia; bone marrow ring sideroblasts on Prussian blue stain |
 
-## See Also
+---
 
-- [Erythrocyte](../../04-cellular/erythrocyte/README.md) — the cellular vehicle for haemoglobin iron.
-- [Liver](../../06-organ/liver/README.md) — iron storage, hepcidin synthesis, transferrin production.
-- [Immune System](../../07-system/immune-system/README.md) — iron requirements for lymphocyte proliferation and nutritional immunity.
-- [Human Body](../../08-whole-body/human-body/README.md) — whole-body iron distribution and balance.
-- [Oxygen](../oxygen/README.md) — the ligand that haemoglobin Fe²⁺ binds; O₂ transport is the primary function of body iron.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [elsevier.com](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)

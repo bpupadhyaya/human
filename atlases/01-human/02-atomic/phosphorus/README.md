@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: modulates
     note: "Phosphate fuels haematopoietic progenitor energy metabolism (Mg-ATP) and provides nucleotides for DNA replication during rapid cell proliferation in bone marrow."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Hydroxyapatite (Ca₁₀(PO₄)₆(OH)₂) in bone and teeth contains 85% of body phosphorus; PTH, FGF23, and calcitriol regulate both Ca²⁺ and Pi homeostasis in tandem; serum Ca²⁺ × Pi product determines mineralisation vs. soft-tissue calcification risk."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: part-of
+    note: "85% of body phosphorus is in cortical bone as hydroxyapatite; bone buffers serum Pi; osteoclastic resorption releases Pi into plasma; hypophosphataemia (XLH, refeeding syndrome) impairs mineralisation → rickets/osteomalacia; FGF23 from osteocytes regulates renal Pi reabsorption."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "CKD reduces renal Pi excretion → progressive hyperphosphataemia as GFR falls; elevated Pi drives FGF23 and PTH → secondary hyperparathyroidism → renal osteodystrophy and vascular calcification; hyperphosphataemia is independent CV risk in CKD; treated with Pi binders."
 ---
 
 # Phosphorus
@@ -124,10 +133,13 @@ FGF23 and PTH are regulated in a feedback loop: rising Pi stimulates FGF23 and P
 
 ## Connections
 
-- **Part-of** → [Human Body](../../08-whole-body/human-body/README.md): ~1.1% body mass (~770g in 70 kg adult); 85% in bone/teeth as hydroxyapatite, ~14% soft tissue (ATP, nucleic acids, phospholipids), ~1% extracellular as inorganic phosphate (serum 0.8–1.5 mmol/L).
-- **Part-of** → [ATP](../../03-molecular/atp/README.md): Phosphorus forms all 3 phosphate groups of ATP; α-β and β-γ phosphoanhydride bonds each store ~30 kJ/mol; hydrolysis by ATPases drives muscle contraction, active transport, and biosynthesis across all cell types.
-- **Part-of** → [Hepatocyte](../../04-cellular/hepatocyte/README.md): Phospholipid membranes, phosphorylation signaling, and ATP regeneration via gluconeogenesis and glycolysis are all critical to hepatocyte function; hepatocytes also synthesize phosphoproteins (albumin, clotting factors) for export.
-- **Modulates** → [Bone Marrow](../../05-tissue/bone-marrow/README.md): Phosphate fuels haematopoietic progenitor energy metabolism (Mg-ATP) and provides nucleotides for rapid DNA replication during the high-turnover cell proliferation that produces billions of blood cells daily.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — ~1.1% body mass (~770 g in 70 kg adult); 85% in bone/teeth as hydroxyapatite, ~14% soft tissue (ATP, nucleic acids, phospholipids), ~1% extracellular as inorganic phosphate (serum 0.8–1.5 mmol/L).
+- `part-of` → **[ATP](../../03-molecular/atp/README.md)** — phosphorus forms all 3 phosphate groups of ATP; α-β and β-γ phosphoanhydride bonds each store ~30 kJ/mol; hydrolysis by ATPases drives muscle contraction, active transport, and biosynthesis across all cell types.
+- `part-of` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — phospholipid membranes, phosphorylation signaling, and ATP regeneration via gluconeogenesis and glycolysis are all critical to hepatocyte function; hepatocytes also synthesize phosphoproteins (albumin, clotting factors) for export.
+- `modulates` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — phosphate fuels haematopoietic progenitor energy metabolism (Mg-ATP) and provides nucleotides for rapid DNA replication during the high-turnover cell proliferation that produces billions of blood cells daily.
+- `connects-to` → **[Calcium](../calcium/README.md)** — hydroxyapatite (Ca₁₀(PO₄)₆(OH)₂) in bone and teeth contains 85% of body phosphorus; PTH, FGF23, and calcitriol regulate both Ca²⁺ and Pi homeostasis in tandem; serum Ca²⁺ × Pi product determines mineralisation vs. soft-tissue calcification risk.
+- `part-of` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — 85% of body phosphorus is in cortical bone as hydroxyapatite; bone buffers serum Pi; osteoclastic resorption releases Pi into plasma; hypophosphataemia (XLH, refeeding syndrome) impairs mineralisation → rickets/osteomalacia.
+- `connects-to` → **[CKD](../../07-system/ckd/README.md)** — CKD reduces renal Pi excretion → progressive hyperphosphataemia as GFR falls; elevated Pi drives FGF23 and PTH → secondary hyperparathyroidism → renal osteodystrophy and vascular calcification; treated with dietary restriction and Pi binders.
 
 ## Pathology
 
@@ -139,13 +151,9 @@ FGF23 and PTH are regulated in a feedback loop: rising Pi stimulates FGF23 and P
 | **Diabetic ketoacidosis (DKA)** | Insulin deficiency + osmotic diuresis → total body Pi depletion; apparent hyperphosphataemia may mask true deficit | Hypophosphataemia emerges during insulin therapy; may impair respiratory muscle function and erythrocyte 2,3-BPG synthesis |
 | **Tumour-induced osteomalacia (TIO)** | FGF23-secreting mesenchymal tumours → renal Pi wasting → osteomalacia | Difficult to localise tumour; treated surgically; octreotide/burosumab used if surgery fails |
 
-## See Also
+---
 
-- [ATP](../../03-molecular/atp/README.md) — the primary molecular vehicle of phosphate-bond energy.
-- [Hepatocyte](../../04-cellular/hepatocyte/README.md) — central hub for phospholipid synthesis and phosphate metabolism.
-- [Bone Marrow](../../05-tissue/bone-marrow/README.md) — haematopoietic tissue dependent on phosphate for nucleotide synthesis.
-- [Human Body](../../08-whole-body/human-body/README.md) — whole-body phosphorus compartments and balance.
-- [Calcium](../calcium/README.md) — inextricably linked: hydroxyapatite Ca₁₀(PO₄)₆(OH)₂, PTH, calcitriol regulate both ions together.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [elsevier.com](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)
