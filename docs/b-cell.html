@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="B lymphocyte — antibody-producing cell of adaptive immunity. Surface IgM/IgD BCR binds antigen; with Tfh help undergoes germinal-center reaction, somatic hypermutation, affinity maturation, and differentiates into plasma cells and memory B cells.">
+  <meta name="description" content="B lymphocyte — antibody-producing cell of adaptive immunity. Surface IgM/IgD BCR binds antigen; with Tfh help undergoes class-switch recombination and affinity ">
   <meta property="og:title" content="B Cell — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>B Cell — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #2563eb;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,50 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(37,99,235,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #1d4ed8, #1e3a8a); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-    .detail-section ol, .detail-section ul { padding-left: 1.4rem; color: var(--fg-soft); font-size: 0.95rem; line-height: 1.7; }
-    .detail-section li { margin-bottom: 0.3rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -100,8 +108,8 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
-        <a href="immune-system.html">Immune System</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -111,215 +119,72 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
     <h1>B Cell</h1>
-    <p class="tagline">The antibody-producing lymphocyte of adaptive immunity — BCR binds antigen directly, germinal centers refine specificity, and plasma cells secrete high-affinity IgG for years.</p>
-    <p class="subtagline">~5&thinsp;&times;&thinsp;10⁹ B cells circulate in human blood and lymph, each bearing a unique BCR generated by V(D)J recombination. Vaccination succeeds or fails based on this cell's ability to mature in the germinal center.</p>
+    <p class="tagline">B lymphocyte — antibody-producing cell of adaptive immunity. Surface IgM/IgD BCR binds antigen; with Tfh help undergoes class-switch recombination and affinity maturation in germinal centers; differentiates into plasma cells and memory B cells.</p>
+    <p class="aliases">Also known as: B lymphocyte, B-lymphocyte, naive B cell, memory B cell, germinal center B cell</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~10¹²</span><span class="stat-label">Unique BCR specificities</span></div>
-      <div class="stat"><span class="stat-num">7–14 days</span><span class="stat-label">Primary GC response</span></div>
-      <div class="stat"><span class="stat-num">1–3 days</span><span class="stat-label">Memory recall</span></div>
-      <div class="stat"><span class="stat-num">Decades</span><span class="stat-label">LLPC antibody secretion</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One / Scale 04 &middot; b-cell</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">b-cell</div>
         <h2>B Cell</h2>
-        <p class="summary">B lymphocyte — the antibody-producing cell of adaptive humoral immunity. Its surface IgM/IgD BCR binds antigen in native 3D conformation; with obligatory Tfh help (CD40L + IL-21), it enters germinal centers, undergoes somatic hypermutation and affinity maturation, and exits as long-lived plasma cells or memory B cells. The durability of vaccination depends entirely on this lineage.</p>
+        <p class="summary">B lymphocyte — antibody-producing cell of adaptive immunity. Surface IgM/IgD BCR binds antigen; with Tfh help undergoes class-switch recombination and affinity maturation in germinal centers; differentiates into plasma cells and memory B cells.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The B lymphocyte is the antibody-producing cell of adaptive immunity and the cellular basis of humoral protection against extracellular pathogens. The "B" designation derives from the <strong>bursa of Fabricius</strong> in birds where B cells were first identified; in mammals, B cell development occurs in the <strong>bone marrow</strong>. Unlike T cells, B cells recognize antigen directly — in its native three-dimensional form — via the <strong>B cell receptor (BCR)</strong>, a membrane-bound immunoglobulin. This capacity makes B cells exquisitely sensitive to the structural features of pathogens and vaccine antigens.</p>
-          <p>The central output of B cell biology is the production of high-affinity, class-switched antibodies — particularly <strong>IgG</strong> — that neutralize pathogens, opsonize bacteria, activate complement, and mediate antibody-dependent cellular cytotoxicity (ADCC). The durability of protection depends on two B cell descendants: <strong>long-lived plasma cells (LLPCs)</strong> in the bone marrow that continuously secrete antibody for years, and <strong>memory B cells</strong> that enable rapid re-expansion on re-exposure. Vaccination strategies are fundamentally designed to elicit potent germinal center reactions generating both populations.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure — Surface Markers</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Marker</th><th>Naive B cell</th><th>Germinal center B cell</th><th>Memory B cell</th><th>Function</th></tr>
-            <tr><td>IgM (BCR)</td><td>+</td><td>Low</td><td>+/−</td><td>Primary antigen receptor; complement activation</td></tr>
-            <tr><td>IgD (BCR)</td><td>+</td><td>−</td><td>−</td><td>Co-expressed BCR; fine-tunes activation threshold</td></tr>
-            <tr><td>CD19</td><td>+</td><td>+</td><td>+</td><td>Co-receptor; amplifies BCR signaling via PI3K</td></tr>
-            <tr><td>CD20</td><td>+</td><td>+</td><td>+/−</td><td>Rituximab target; membrane channel, Ca²⁺ regulation</td></tr>
-            <tr><td>CD21 (CR2)</td><td>+</td><td>Low</td><td>+</td><td>Complement receptor C3d; co-receptor complex with CD19/CD81</td></tr>
-            <tr><td>CD27</td><td>−</td><td>+/−</td><td>+</td><td>Memory B cell marker; TNFRSF member</td></tr>
-            <tr><td>GL-7 / Fas</td><td>−</td><td>+</td><td>−</td><td>GC marker; Fas enables selection/apoptosis</td></tr>
-            <tr><td>BCL-6</td><td>−</td><td>+</td><td>−</td><td>GC master transcription factor; represses BLIMP-1</td></tr>
-            <tr><td>AID (AICDA)</td><td>−</td><td>+</td><td>−</td><td>Activation-induced cytidine deaminase; drives SHM and CSR</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;">The <strong>BCR signaling complex</strong> consists of membrane Ig paired with <strong>Ig&alpha; (CD79a) and Ig&beta; (CD79b)</strong> signaling heterodimers carrying cytoplasmic ITAMs. The <strong>co-receptor complex</strong> (CD21 + CD19 + CD81) amplifies BCR signaling ~1000-fold when complement fragment C3d is deposited on antigen surface — a key reason complement-opsonized antigens are highly immunogenic.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — BCR Activation Pathway</h3>
-          <div class="circuit-diagram">
-<pre>
-  Antigen crosslinks BCR (IgM/IgD)
-         │
-         ▼
-  Igα/Igβ ITAM phosphorylation by Lyn
-         │
-         ▼
-  Syk recruitment → BLNK scaffold
-         │
-         ├──► PLCγ2 → IP₃ → Ca²⁺ flux → calcineurin → NFAT
-         │               └► DAG → PKCβ → NF-κB
-         │
-         ├──► PI3K (amplified 1000× by CD21-CD19-CD81 co-receptor)
-         │    → Akt → Btk activation
-         │
-         └──► MAPK (ERK) → AP-1
-                    │
-                    ▼
-            Activation gene transcription
-            (CD69, CD80/86 upregulation, IL-2, IL-6)
-                    │
-                    ▼
-         B cell–T cell encounter at follicle border
-         (B cell presents pMHC-II → Tfh TCR)
-                    │
-                    ▼
-         CD40L (Tfh) binds CD40 (B cell) + IL-21
-                    │
-                    ▼
-              Germinal center entry
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Germinal Center Reaction</h3>
-          <p>The <strong>germinal center (GC)</strong> is the specialized microanatomical structure within secondary lymphoid follicles where B cells are refined into high-affinity antibody producers:</p>
-          <ol>
-            <li><strong>Entry:</strong> Antigen-activated B cells interact with antigen-specific Tfh cells at the follicle-T zone border; ~10–20% seed germinal centers.</li>
-            <li><strong>Dark zone:</strong> B cells proliferate at high rate and undergo <strong>somatic hypermutation (SHM)</strong> — AID introduces point mutations in V region genes at ~10⁻³/bp/division, generating BCR variants with altered affinities.</li>
-            <li><strong>Light zone selection:</strong> B cells compete for limiting antigen on follicular DCs (FDCs); clones with higher-affinity BCRs capture more antigen, present more pMHC-II, receive more Tfh help (CD40L + IL-21), and proliferate preferentially — <strong>affinity maturation</strong>.</li>
-            <li><strong>Class-switch recombination (CSR):</strong> AID introduces double-strand breaks at switch regions; cytokines specify the isotype (IL-4 → IgG1/IgE; IFN-γ → IgG3; TGF-β → IgA).</li>
-            <li><strong>Exit:</strong> Selected B cells exit as plasmablasts (rapid antibody) or long-lived memory B cells.</li>
-          </ol>
-          <div class="circuit-diagram" style="margin-top:1rem;">
-<pre>
-  Naive B cell
-       │ (antigen + Tfh help)
-       ▼
-  Germinal center entry
-       │
-       ├──[Dark zone]──► BCR diversification
-       │                  Somatic hypermutation (AID)
-       │                  Rapid proliferation
-       │
-       ├──[Light zone]──► Affinity selection on FDCs
-       │                   High affinity → more pMHC-II → Tfh help
-       │                   Low affinity → apoptosis
-       │
-       ├──► Class-switch recombination
-       │    (IL-4 → IgG1/IgE | IFN-γ → IgG3 | TGF-β → IgA)
-       │
-       ├──► Plasmablast → Long-lived plasma cell (bone marrow)
-       │                   Continuous high-affinity IgG secretion
-       │
-       └──► Memory B cell (circulating; years–decades lifespan)
-                Rapid recall response (1–3 days) on re-exposure
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Lifecycle / Differentiation</h3>
-          <p>B cell ontogeny proceeds through defined bone-marrow stages defined by immunoglobulin gene rearrangement status:</p>
-          <table class="data-table">
-            <tr><th>Stage</th><th>Heavy chain status</th><th>Light chain status</th><th>Key surface markers</th></tr>
-            <tr><td>HSC / CLP</td><td>Germline</td><td>Germline</td><td>CD34+, CD117+</td></tr>
-            <tr><td>Pro-B</td><td>D–J recombination</td><td>Germline</td><td>CD19+, B220+, TdT+</td></tr>
-            <tr><td>Pre-B (large)</td><td>V–DJ recombination → μ chain</td><td>Germline</td><td>Pre-BCR (μ + surrogate LC)</td></tr>
-            <tr><td>Pre-B (small)</td><td>Fixed μ</td><td>V–J recombination</td><td>Cytoplasmic κ/λ LC</td></tr>
-            <tr><td>Immature B</td><td>Fixed VDJ</td><td>Fixed VJ</td><td>IgM+; central tolerance checkpoint</td></tr>
-            <tr><td>Transitional B (T1–T3)</td><td>Fixed</td><td>Fixed</td><td>IgM+ IgD+/−; splenic maturation</td></tr>
-            <tr><td>Mature naive FO-B</td><td>Fixed</td><td>Fixed</td><td>IgM+ IgD+ CD21+ CD23+; GC-competent</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;"><strong>Central tolerance:</strong> Autoreactive B cells at the immature B cell stage undergo receptor editing (secondary VJ recombination to change light chain) or clonal deletion. Peripheral tolerance: anergy or follicular exclusion for cells escaping bone marrow.</p>
-          <p><strong>Peripheral maturation:</strong> Transitional B cells exit bone marrow to spleen for final maturation into follicular (FO) B cells (long-lived, GC-competent) or marginal zone (MZ) B cells (rapid T-independent IgM responses to encapsulated bacteria).</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>X-linked Agammaglobulinemia (XLA)</h4>
-            <p>Loss-of-function mutations in <em>BTK</em> (Bruton's tyrosine kinase) block B cell development at the pro-B/pre-B stage. Patients have virtually absent B cells and immunoglobulins; present at 6 months when maternal IgG wanes. Recurrent sinopulmonary infections (encapsulated bacteria: Streptococcus pneumoniae, Haemophilus influenzae), susceptibility to enteroviral meningoencephalitis. Treated with monthly IVIG replacement for life.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Common Variable Immunodeficiency (CVID)</h4>
-            <p>Heterogeneous B cell dysfunction: B cells present but fail to differentiate into plasma cells; severely low IgG, IgA, and IgM. Genetic causes include ICOS, BAFFR, TACI, CD19, and CD21 mutations. Presents in young adults with recurrent respiratory infections, autoimmunity, and lymphoproliferation. Increased lymphoma risk. IVIG/SCIG replacement is lifelong standard of care.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Diffuse Large B Cell Lymphoma (DLBCL)</h4>
-            <p>Most common aggressive NHL; GC-B cell or activated B cell (ABC) origin. BCL-2 overexpression (t(14;18) in GCB type) or NF-κB hyperactivation (ABC type). BCL-6 translocations, MYC rearrangements ± BCL-2/BCL-6 "double-hit/triple-hit" lymphomas. R-CHOP (rituximab + cyclophosphamide, doxorubicin, vincristine, prednisone) is frontline; CAR-T (tisagenlecleucel, axicabtagene) for relapsed/refractory disease.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>EBV-driven B cell transformation</h4>
-            <p>Epstein-Barr virus (EBV) infects naive B cells via CD21 (CR2) — which normally binds C3d to boost BCR signaling but also serves as the EBV receptor. Latent EBV drives B cell proliferation; immune control by EBV-specific CTLs normally prevents lymphoma. In immunosuppression (HIV, post-transplant): EBV+ diffuse large B cell lymphoma, Burkitt lymphoma (c-Myc translocation), Hodgkin lymphoma (Reed-Sternberg cells).</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>B cell deficiency in HIV/AIDS</h4>
-            <p>HIV-1 progressively depletes CD4+ T helper cells — including Tfh cells — which are obligatory for germinal center reactions. Without Tfh help, B cells cannot form productive GCs, cannot undergo class switching or affinity maturation, and fail to generate LLPCs or memory B cells. Patients on ART can partially restore B cell function, but pre-existing memory B cell deficits persist, explaining partial vaccine hyporesponsiveness.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>T-Independent vs T-Dependent B Cell Responses</h3>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>T-dependent (TD) responses</h4>
-              <p>Protein antigens requiring Tfh help via CD40L + IL-21. Enable class-switch recombination (IgG, IgA, IgE), somatic hypermutation, affinity maturation, germinal centers, and memory B cells + long-lived plasma cells. These are the responses that vaccines aim to elicit. Quality (affinity) and durability both require T cell help — the reason CD4+ T cell depletion in HIV catastrophically impairs humoral immunity.</p>
-            </div>
-            <div class="info-block">
-              <h4>T-independent (TI) responses</h4>
-              <p>Type 1 (TI-1): LPS and other TLR ligands directly activate B cells polyclonally + via BCR. Type 2 (TI-2): repetitive polysaccharide arrays crosslink BCR intensely + complement co-receptor activation. Both produce mainly IgM with minimal class switching or affinity maturation and generate little memory — critical limitation for plain polysaccharide vaccines (23vPPV), overcome by protein conjugation in PCV13/PCV15/PCV20, Hib, and MenACWY conjugate vaccines.</p>
-            </div>
-          </div>
-          <table class="data-table" style="margin-top:1rem;">
-            <tr><th>Feature</th><th>T-dependent</th><th>T-independent Type 2</th></tr>
-            <tr><td>Antigen type</td><td>Proteins, protein-conjugated</td><td>Polysaccharides, polymeric structures</td></tr>
-            <tr><td>T cell help</td><td>Required (Tfh CD40L + IL-21)</td><td>Not required</td></tr>
-            <tr><td>Isotype switching</td><td>Yes (IgG, IgA, IgE)</td><td>Minimal (mainly IgM, limited IgG3)</td></tr>
-            <tr><td>Affinity maturation</td><td>Yes (germinal center)</td><td>No</td></tr>
-            <tr><td>Memory B cells</td><td>Yes</td><td>Minimal</td></tr>
-            <tr><td>Infants (&lt;2 years)</td><td>Yes (if protein antigen)</td><td>No response (marginal zone B cells immature)</td></tr>
-            <tr><td>Vaccine implication</td><td>Protein subunit, mRNA, conjugate vaccines all elicit TD responses</td><td>Plain polysaccharide vaccines fail in infants; not protective under age 2</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>b-cell</td></tr>
+            <tr><td>Name</td><td>B Cell</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="immune-system.html"><span class="rel">Part of</span>immune-system</a>
-            <a class="conn-pill" href="t-helper-cell.html"><span class="rel">Modulated by</span>t-helper-cell (Tfh)</a>
-            <a class="conn-pill" href="plasma-cell.html"><span class="rel">Differentiates into</span>plasma-cell</a>
-            <a class="conn-pill" href="dendritic-cell.html"><span class="rel">Primed by</span>dendritic-cell</a>
-            <a class="conn-pill" href="regulatory-t-cell.html"><span class="rel">Suppressed by</span>regulatory-t-cell (Tfr)</a>
-            <a class="conn-pill" href="mhc-class-ii.html"><span class="rel">Expresses</span>MHC-II</a>
-            <a class="conn-pill" href="immunoglobulin-g.html"><span class="rel">Produces</span>IgG</a>
-            <a class="conn-pill" href="complement-c3.html"><span class="rel">Activates</span>complement-C3</a>
-            <a class="conn-pill" href="bone-marrow.html"><span class="rel">Originates in</span>bone-marrow</a>
-            <a class="conn-pill" href="spleen.html"><span class="rel">Matures in</span>spleen</a>
-            <a class="conn-pill damaged" href="epstein-barr-virus.html"><span class="rel">Infected by</span>EBV</a>
-            <a class="conn-pill damaged" href="hiv-1.html"><span class="rel">Indirectly depleted by</span>HIV-1</a>
+            <a class="conn-pill part" href="immune-system.html" title="B cells are the antibody-producing arm of adaptive immunity and a core cellular component of the humoral immune system."><span class="rel">part-of</span>Immune System</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="Tfh cells provide obligatory CD40L–CD40 contact and IL-21/IL-4 cytokines for B cell activation, class-switch recombination, and germinal center selection."><span class="rel">modulated-by</span>T Helper Cell</a>
+            <a class="conn-pill" href="plasma-cell.html" title="Activated B cells differentiate into antibody-secreting plasmablasts and long-lived plasma cells upon receiving sufficient T cell help and antigen stimulation."><span class="rel">modulates</span>Plasma Cell</a>
+            <a class="conn-pill" href="natural-killer-cell.html" title="NK cells modulate B cell activation through IFN-γ and TNF secretion and direct cytotoxic control of abnormal B cell clones."><span class="rel">modulated-by</span>Natural Killer Cell</a>
+            <a class="conn-pill" href="intestinal-epithelium.html" title="Intestinal epithelium provides BAFF/APRIL signals driving IgA class switch in gut-associated B cells via GALT interaction."><span class="rel">modulated-by</span>Intestinal Epithelium</a>
+            <a class="conn-pill part" href="bone-marrow.html" title="B cell lymphopoiesis originates in bone marrow from CLPs; pro-B → pre-B → immature B cell maturation occurs in marrow stroma."><span class="rel">part-of</span>Bone Marrow</a>
+            <a class="conn-pill part" href="spleen.html" title="Splenic follicles contain B cells that mount T-dependent germinal centre responses and T-independent IgM responses to blood-borne antigens; marginal zone B cells are specialised for rapid responses to encapsulated bacteria."><span class="rel">part-of</span>Spleen</a>
+            <a class="conn-pill" href="t-cytotoxic-cell.html" title="Modulated by Cytotoxic T Cell."><span class="rel">modulated-by</span>T Cytotoxic Cell</a>
+            <a class="conn-pill" href="regulatory-t-cell.html" title="Modulated by Regulatory T Cell."><span class="rel">modulated-by</span>Regulatory T Cell</a>
+            <a class="conn-pill" href="epstein-barr-virus.html" title="Infected by Epstein-Barr Virus."><span class="rel">infected-by</span>Epstein Barr Virus</a>
+            <a class="conn-pill" href="norovirus.html" title="Norovirus directly infects B cells via HBGA-like surface carbohydrates (Jones et al. Science 2014); B cell tropism may facilitate systemic dissemination; anti-VP1 IgA and IgG from B cell responses are the primary correlates of protection against norovirus reinfection."><span class="rel">infected-by</span>Norovirus</a>
+            <a class="conn-pill" href="norovirus-vp1.html" title="Norovirus VP1 P2 subdomain binds HBGA-like carbohydrates on B cell surfaces → direct B cell infection; anti-VP1 secretory IgA and IgG are the primary correlates of protection; HBGA-blocking anti-VP1 IgA titer is the immunological endpoint of all norovirus vaccines."><span class="rel">target-of</span>Norovirus Vp1</a>
+            <a class="conn-pill" href="myasthenia-gravis.html" title="B cells differentiate into plasma cells that secrete anti-AChR IgG1/IgG3; rituximab (anti-CD20) depletes B cells → durable remission especially in MuSK+ MG; plasmablast-derived anti-AChR IgG levels guide treatment decisions in AChR+ vs. MuSK+ subsets."><span class="rel">connects-to</span>Myasthenia Gravis</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Nutt SL, Hodgkin PD, Tarlinton DM, Corcoran LM. The generation of antibody-secreting plasma cells. <em>Nat Rev Immunol.</em> 2015;15(3):160-71. <a href="https://doi.org/10.1038/nri3795" target="_blank" rel="noopener">doi:10.1038/nri3795</a></li>
-            <li>Victora GD, Nussenzweig MC. Germinal centers. <em>Annu Rev Immunol.</em> 2012;30:429-57. <a href="https://doi.org/10.1146/annurev-immunol-020711-075032" target="_blank" rel="noopener">doi:10.1146/annurev-immunol-020711-075032</a></li>
-            <li>Kurosaki T, Shinohara H, Baba Y. B cell signaling and fate decision. <em>Annu Rev Immunol.</em> 2010;28:21-55. <a href="https://doi.org/10.1146/annurev.immunol.021908.132541" target="_blank" rel="noopener">doi:10.1146/annurev.immunol.021908.132541</a></li>
-            <li>Abbas AK, Lichtman AH, Pillai S. <em>Cellular and Molecular Immunology.</em> 9th ed. Elsevier; 2018.</li>
-            <li>Murphy K, Weaver C. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2017.</li>
+            <li><a href="https://doi.org/10.1038/nri3795" target="_blank" rel="noopener noreferrer">Nutt SL, Hodgkin PD, Tarlinton DM, Corcoran LM. The generation of antibody-secreting plasma cells. Nat Rev Immunol. 2015;15(3):160-71.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25698678/" target="_blank" rel="noopener noreferrer">PubMed 25698678</a></li>
+            <li><a href="https://doi.org/10.1146/annurev-immunol-020711-075032" target="_blank" rel="noopener noreferrer">Victora GD, Nussenzweig MC. Germinal centers. Annu Rev Immunol. 2012;30:429-57.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22224772/" target="_blank" rel="noopener noreferrer">PubMed 22224772</a></li>
+            <li><a href="https://doi.org/10.1146/annurev.immunol.021908.132541" target="_blank" rel="noopener noreferrer">Kurosaki T, Shinohara H, Baba Y. B cell signaling and fate decision. Annu Rev Immunol. 2010;28:21-55.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20192804/" target="_blank" rel="noopener noreferrer">PubMed 20192804</a></li>
+            <li><a href="https://www.elsevier.com/books/cellular-and-molecular-immunology/abbas/978-0-323-52323-3" target="_blank" rel="noopener noreferrer">Abbas AK, Lichtman AH, Pillai S. Cellular and Molecular Immunology. 9th ed. Elsevier; 2018.</a></li>
           </ul>
         </div>
 
@@ -331,16 +196,14 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="immune-system.html">Immune System</a>
-      <a href="t-helper-cell.html">T Helper Cell</a>
-      <a href="plasma-cell.html">Plasma Cell</a>
       <a href="pathogens.html">Pathogens</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById && (document.querySelector('.footer-meta') && true);</script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

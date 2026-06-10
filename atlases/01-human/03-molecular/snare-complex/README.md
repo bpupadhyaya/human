@@ -31,6 +31,9 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: modulates
     note: "SNARE-mediated exocytosis releases acetylcholine-containing synaptic vesicles at neuromuscular junctions and cholinergic CNS synapses; botulinum toxin targeting SNAREs blocks ACh release causing flaccid paralysis."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "The SNARE complex (VAMP2/synaptobrevin + SNAP-25 + syntaxin-1) at the motor nerve terminal mediates ACh vesicle fusion; ACh release via SNARE is intact in MG (disease is postsynaptic); BoNT cleaves SNARE → NMJ blockade that mimics but differs mechanistically from MG."
 ---
 
 # SNARE Complex
@@ -115,6 +118,10 @@ BoNT/A is the basis of **botulinum toxin (Botox)** medical applications: cosmeti
 - `expressed-by` → **[Neuron](../../04-cellular/neuron/README.md)** — neuronal SNAREs are the presynaptic vesicle fusion engine at every chemical synapse
 - `acts-on` → **[Synapse](../../05-tissue/synapse/README.md)** — drives millisecond-timescale vesicle exocytosis underlying synaptic transmission
 - `acts-on` → **[Acetylcholine](../acetylcholine/README.md)** — SNARE machinery releases acetylcholine vesicles at NMJs and cholinergic synapses; BoNT blockade of SNAREs causes flaccid paralysis by silencing ACh release
+- `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — the SNARE complex (VAMP2/synaptobrevin + SNAP-25 + syntaxin-1) at the motor nerve terminal mediates ACh vesicle fusion; ACh release via SNARE is intact in MG (disease is postsynaptic); BoNT cleaves SNARE → NMJ blockade that mimics but differs mechanistically from MG.
 
 [^sudhof-rothman-2009-snare]: Sudhof TC, Rothman JE. Membrane fusion: grappling with SNARE and SM proteins. *Science.* 2009;323(5913):474-477. [doi:10.1126/science.1161748](https://doi.org/10.1126/science.1161748) · [PubMed 19164740](https://pubmed.ncbi.nlm.nih.gov/19164740/)
 [^hanson-1997-nsf-snare]: Hanson PI et al. Structure and conformational changes in NSF and its membrane receptor complexes. *Cell.* 1997;90(3):523-535. [doi:10.1016/s0092-8674(00)80512-7](https://doi.org/10.1016/s0092-8674(00)80512-7) · [PubMed 9267031](https://pubmed.ncbi.nlm.nih.gov/9267031/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

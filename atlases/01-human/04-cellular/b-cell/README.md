@@ -70,6 +70,9 @@ cross_links:
   - target: 01-human/03-molecular/norovirus-vp1
     relation: target-of
     note: "Norovirus VP1 P2 subdomain binds HBGA-like carbohydrates on B cell surfaces → direct B cell infection; anti-VP1 secretory IgA and IgG are the primary correlates of protection; HBGA-blocking anti-VP1 IgA titer is the immunological endpoint of all norovirus vaccines."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "B cells differentiate into plasma cells that secrete anti-AChR IgG1/IgG3; rituximab (anti-CD20) depletes B cells → durable remission especially in MuSK+ MG; plasmablast-derived anti-AChR IgG levels guide treatment decisions in AChR+ vs. MuSK+ subsets."
 ---
 
 # B Cell
@@ -164,8 +167,12 @@ Memory B cells are long-lived lymphocytes (estimated lifespan years–decades) t
 - **Modulates:** [plasma-cell](../plasma-cell/README.md) — B cell terminal differentiation produces antibody-secreting plasma cells
 - **Infected by:** [Norovirus](../../07-system/norovirus/README.md) — norovirus directly infects B cells via HBGA-like surface carbohydrates (Jones et al. 2014); B cell tropism may enable systemic dissemination; anti-VP1 IgA and IgG from B cell responses are the primary correlates of protection against norovirus reinfection.
 - **Targeted by:** [Norovirus VP1](../../03-molecular/norovirus-vp1/README.md) — VP1 P2 subdomain binds HBGA-like carbohydrates on B cell surfaces; anti-VP1 secretory IgA and IgG are the primary correlates of protection; HBGA-blocking anti-VP1 IgA titer is the immunological endpoint of all norovirus vaccines.
+- `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — B cells differentiate into plasma cells that secrete anti-AChR IgG1/IgG3; rituximab (anti-CD20) depletes B cells → durable remission especially in MuSK+ MG; plasmablast-derived anti-AChR IgG levels guide treatment decisions in AChR+ vs. MuSK+ subsets.
 
 [^nutt-2015-b-cell-fate]: Nutt SL, Hodgkin PD, Tarlinton DM, Corcoran LM. The generation of antibody-secreting plasma cells. *Nat Rev Immunol.* 2015;15(3):160-71. [doi:10.1038/nri3795](https://doi.org/10.1038/nri3795) · [PubMed 25698678](https://pubmed.ncbi.nlm.nih.gov/25698678/)
 [^victora-nussenzweig-2012-gc]: Victora GD, Nussenzweig MC. Germinal centers. *Annu Rev Immunol.* 2012;30:429-57. [doi:10.1146/annurev-immunol-020711-075032](https://doi.org/10.1146/annurev-immunol-020711-075032) · [PubMed 22224772](https://pubmed.ncbi.nlm.nih.gov/22224772/)
 [^kurosaki-2010-b-signaling]: Kurosaki T, Shinohara H, Baba Y. B cell signaling and fate decision. *Annu Rev Immunol.* 2010;28:21-55. [doi:10.1146/annurev.immunol.021908.132541](https://doi.org/10.1146/annurev.immunol.021908.132541) · [PubMed 20192804](https://pubmed.ncbi.nlm.nih.gov/20192804/)
 [^abbas-immunology-9e]: Abbas AK, Lichtman AH, Pillai S. *Cellular and Molecular Immunology.* 9th ed. Elsevier; 2018.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

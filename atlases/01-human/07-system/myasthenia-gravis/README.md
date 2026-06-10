@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/fcrn
     relation: connects-to
     note: "Efgartigimod (Vyvgart; ADAPT trial: 68% vs. 30% minimal symptom expression at week 12) and rozanolixizumab (Rystiggo) target FcRn → block IgG recycling → accelerate anti-AChR IgG catabolism; efgartigimod FDA Dec 2021, rozanolixizumab FDA Jun 2023 for generalized AChR+ MG."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "Thymic hyperplasia (germinal centers with AChR-reactive Th cells) in ~70% of AChR+ MG; thymoma (10-15%) produces AChR-reactive T cells escaping tolerance; MGTX trial (NEJM 2016) showed thymectomy + prednisone reduces disability in non-thymomatous AChR+ gMG."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells differentiate into plasma cells that secrete anti-AChR IgG1/IgG3; rituximab (anti-CD20) depletes B cells → durable remission especially in MuSK+ MG; plasmablast-derived anti-AChR IgG levels guide treatment decisions in AChR+ vs. MuSK+ subsets."
+  - target: 01-human/03-molecular/snare-complex
+    relation: connects-to
+    note: "The SNARE complex (VAMP2/synaptobrevin + SNAP-25 + syntaxin-1) at the motor nerve terminal mediates ACh vesicle fusion; ACh release via SNARE is intact in MG (disease is postsynaptic); BoNT cleaves SNARE → NMJ blockade that mimics but differs mechanistically from MG."
 ---
 
 # Myasthenia Gravis
@@ -154,6 +163,9 @@ cross_links:
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Anti-AChR IgG1/IgG3 in MG activates classical complement → C3b opsonization + MAC-mediated AChR destruction at the NMJ; reduces AChR density → impaired NMJ transmission → fatigable weakness; pyridostigmine (AChE inhibitor) increases ACh dwell time at the NMJ.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement-mediated AChR destruction drives AChR+ MG; eculizumab (anti-C5; REGAIN trial) and zilucoplan (subcutaneous anti-C5 peptide; RAISE trial; FDA Oct 2023) block terminal complement → prevent MAC formation at NMJ → reduce AChR destruction and MG severity.
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — Efgartigimod (Vyvgart; ADAPT trial: 68% vs. 30% minimal symptom expression at week 12) and rozanolixizumab (Rystiggo) target FcRn → block IgG recycling → accelerate anti-AChR IgG catabolism; efgartigimod FDA Dec 2021, rozanolixizumab FDA Jun 2023 for generalized AChR+ MG.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — thymic hyperplasia (germinal centers with AChR-reactive Th cells) in ~70% of AChR+ MG; thymoma (10-15%) produces AChR-reactive T cells escaping tolerance; MGTX trial (NEJM 2016) showed thymectomy + prednisone reduces disability in non-thymomatous AChR+ gMG.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells differentiate into plasma cells that secrete anti-AChR IgG1/IgG3; rituximab (anti-CD20) depletes B cells → durable remission especially in MuSK+ MG; plasmablast-derived anti-AChR IgG levels guide treatment decisions in AChR+ vs. MuSK+ subsets.
+- `connects-to` → **[SNARE Complex](../../03-molecular/snare-complex/README.md)** — the SNARE complex (VAMP2/synaptobrevin + SNAP-25 + syntaxin-1) at the motor nerve terminal mediates ACh vesicle fusion; ACh release via SNARE is intact in MG (disease is postsynaptic); BoNT cleaves SNARE → NMJ blockade that mimics but differs mechanistically from MG.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

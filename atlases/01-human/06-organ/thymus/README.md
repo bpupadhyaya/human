@@ -67,6 +67,9 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: composed-of
     note: "Composed Of by Regulatory T Cell."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "Thymic hyperplasia (germinal centers with AChR-reactive Th cells) in ~70% of AChR+ MG; thymoma (10-15%) produces AChR-reactive T cells escaping tolerance; MGTX trial (NEJM 2016) showed thymectomy + prednisone reduces disability in non-thymomatous AChR+ gMG."
 taxonomy:
   uberon: "UBERON:0002370"
   fma: "FMA:9607"
@@ -144,6 +147,7 @@ The thymus exports ~10⁶–10⁷ naive T cells/day in young adults. After cytot
 - **Contains → [Dendritic Cell](../../04-cellular/dendritic-cell/README.md):** thymic DCs execute negative selection in the medulla alongside mTECs.
 - **Part of → [Immune System](../../07-system/immune-system/README.md):** without the thymus, adaptive T cell immunity does not develop.
 - **Part of → [Human Body](../../08-whole-body/human-body/README.md):** bilobed primary lymphoid organ in the anterior mediastinum, bridging haematopoietic and immune systems.
+- `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — thymic hyperplasia (germinal centers with AChR-reactive Th cells) in ~70% of AChR+ MG; thymoma (10-15%) produces AChR-reactive T cells escaping tolerance; MGTX trial (NEJM 2016) showed thymectomy + prednisone reduces disability in non-thymomatous AChR+ gMG.
 
 ## Pathology
 
@@ -179,3 +183,6 @@ Common incidental finding on chest CT; usually benign developmental cysts (lined
 [^lynch-2009-thymic-involution]: Lynch HE et al. Thymic involution and immune reconstitution. *Trends Immunol.* 2009;30(7):366-373. [doi:10.1016/j.it.2009.04.003](https://doi.org/10.1016/j.it.2009.04.003) · [PubMed 19540807](https://pubmed.ncbi.nlm.nih.gov/19540807/)
 [^digeorge-1965]: Markert ML et al. Complete DiGeorge syndrome: persistence of profound immunodeficiency. *J Pediatr.* 1998;132(1):15-21. [doi:10.1016/S0022-3476(98)70478-0](https://doi.org/10.1016/S0022-3476(98)70478-0) · [PubMed 9469993](https://pubmed.ncbi.nlm.nih.gov/9469993/)
 [^bhatt-2013-thymic-tumours]: Bhatt VR et al. Management of thymoma and thymic carcinoma. *J Oncol Pract.* 2015;11(4):297-299. [doi:10.1200/JOP.2014.003434](https://doi.org/10.1200/JOP.2014.003434) · [PubMed 25667274](https://pubmed.ncbi.nlm.nih.gov/25667274/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
