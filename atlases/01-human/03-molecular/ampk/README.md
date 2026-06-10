@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulates
     note: "Cardiac AMPK (α2) is activated by ischaemia (↑AMP:ATP) → ↑GLUT1/4 uptake and ↑FA oxidation → cardiomyocyte survival; PRKAG2 gain-of-function γ2 mutations → glycogen storage cardiomyopathy with Wolff-Parkinson-White syndrome."
+  - target: 01-human/03-molecular/mtor
+    relation: modulates
+    note: "AMPK phosphorylates TSC2 (Ser1387) → activates TSC1/2 GAP → inhibits Rheb → suppresses mTORC1; AMPK also phosphorylates Raptor (Ser792) → mTORC1 inhibition; LKB1-AMPK-TSC2-mTOR is a tumour suppressor pathway; metformin/AICAR phenocopy mTOR inhibitors in reducing proliferation."
+  - target: 01-human/04-cellular/adipocyte
+    relation: modulates
+    note: "Adiponectin activates AMPK via AdipoR1/R2 → T172 phosphorylation → ↑FA oxidation in liver and muscle; AMPK in adipocytes inhibits ACC → ↓malonyl-CoA → ↑mitochondrial FA import; adiponectin-AMPK axis mediates insulin sensitisation in obesity-linked metabolic disease."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "AMPK deficiency contributes to hepatic insulin resistance in T2DM; metformin-activated AMPK reduces hepatic glucose output → lowers fasting glucose; exercise-activated muscle AMPK drives GLUT4 translocation independently of insulin — basis for exercise therapy in T2DM."
 ---
 
 # AMPK
@@ -124,6 +133,9 @@ Metformin (dimethylbiguanide) accumulates in hepatocyte mitochondria (attracted 
 - `modulates` → **[hepatocyte](../../04-cellular/hepatocyte/README.md)** — primary target of metformin; hepatic AMPK → ↓ACC → ↑FA oxidation; ↓HMGR; ↓SREBP-1c; CRTC2 phosphorylation → ↓gluconeogenic gene expression
 - `modulated-by` → **[metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — metformin inhibits Complex I → ↑AMP:ATP → AMPK Thr172 phosphorylation → ↓hepatic gluconeogenesis, ↑FA oxidation, ↑muscle GLUT4; also AMPK-independent effects
 - `modulates` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — cardiac AMPK (α2) activated by ischaemia → ↑GLUT1/4 → cardiomyocyte survival; PRKAG2 gain-of-function mutations → glycogen cardiomyopathy + Wolff-Parkinson-White
+- `modulates` → **[mTOR](../mtor/README.md)** — AMPK phosphorylates TSC2 and Raptor to suppress mTORC1 activity; the LKB1-AMPK-mTOR axis is a tumour suppressor pathway limiting cell growth under energy stress; metformin and AICAR phenocopy mTOR inhibitors via AMPK activation.
+- `modulates` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — adiponectin (secreted by adipocytes) activates AMPK via AdipoR1/R2; AMPK in adipocytes inhibits ACC → reduces malonyl-CoA → promotes mitochondrial FA import; the adiponectin-AMPK axis mediates insulin sensitisation in obesity.
+- `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — AMPK deficiency in liver and muscle contributes to insulin resistance; metformin restores AMPK → reduces hepatic glucose output; exercise-activated AMPK drives muscle GLUT4 translocation independently of insulin, the basis for exercise in T2DM management.
 
 ## Pathology
 
@@ -141,3 +153,6 @@ Metformin (dimethylbiguanide) accumulates in hepatocyte mitochondria (attracted 
 - [^stryer-biochemistry] Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019.
 - [^guyton-hall] Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021.
 - Related entries: [insulin](../insulin/README.md), [hepatocyte](../../04-cellular/hepatocyte/README.md), [metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md), [cortisol](../cortisol/README.md), [leptin](../leptin/README.md)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

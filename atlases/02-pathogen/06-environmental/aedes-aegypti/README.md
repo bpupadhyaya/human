@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/06-organ/microcephaly
     relation: connects-to
     note: "Ae. aegypti-vectored Zika virus (ZIKV) is the established cause of congenital microcephaly; the 2015-2016 Americas epidemic linked vector density to microcephaly incidence; first-trimester maternal viremia → vertical ZIKV transmission → cortical progenitor apoptosis."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Aedes salivary proteins suppress DC activation: apyrase degrades ATP danger signals; D7 proteins block histamine/serotonin; immunological window enables arboviral replication before innate sensing; anti-saliva IgG correlates with vector resistance in dengue-endemic populations."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Aedes inoculates arboviruses into skin dermis; Langerhans cells and dermal DCs are first human cells to encounter dengue/Zika; salivary vasodilators increase blood flow facilitating viral entry; skin-resident immune phenotype determines early arboviral dissemination."
+  - target: 02-pathogen/06-environmental/zoonosis
+    relation: connects-to
+    note: "Aedes aegypti bridges zoonotic arboviral reservoirs: yellow fever (sylvatic NHP → Ae. africanus → Ae. aegypti → urban); dengue and Zika have primate reservoirs; Aedes-mediated spillover from sylvatic to urban cycles drives epidemic emergence and pandemic risk."
 ---
 
 # Aedes aegypti
@@ -135,6 +144,9 @@ The mosquito's **saliva** modulates the human immune response at the inoculation
 - `targets` → **[Zika Virus (ZIKV)](../../01-viruses/zika-virus/README.md)** — primary vector of the 2015-2016 Americas Zika epidemic; salivary transmission following 7-10 day extrinsic incubation period; sexual transmission also documented.
 - `damages` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — salivary proteins suppress dendritic cell activation and NK function at the bite site; salivary apyrase blocks platelet aggregation enabling bloodmeal; immunomodulation at inoculation site enables early arboviral replication before innate immune sensing.
 - `connects-to` → **[Microcephaly](../../../01-human/06-organ/microcephaly/README.md)** — Ae. aegypti-vectored ZIKV is the established cause of congenital microcephaly; the 2015-2016 Americas epidemic linked vector density to microcephaly incidence; first-trimester maternal viremia → vertical ZIKV transmission → cortical progenitor apoptosis.
+- `connects-to` → **[Dendritic Cell](../../../01-human/04-cellular/dendritic-cell/README.md)** — *Ae. aegypti* salivary proteins (apyrase, D7-family) suppress DC activation at the bite site, creating an immunological window that enables early arboviral replication before innate sensing; anti-saliva IgG responses in endemic populations may confer partial vector resistance.
+- `connects-to` → **[Skin](../../../01-human/06-organ/skin/README.md)** — the skin dermis is the primary inoculation site; skin-resident Langerhans cells and dermal DCs are the first human cells to encounter dengue/Zika virus; salivary vasodilators enhance blood flow and facilitate viral dissemination from the bite site.
+- `connects-to` → **[Zoonosis](../zoonosis/README.md)** — *Ae. aegypti* bridges zoonotic arboviral cycles: yellow fever (sylvatic NHP reservoir → *Ae. africanus* → *Ae. aegypti* → urban epidemic), dengue, and Zika all have non-human primate reservoirs; vector-mediated spillover into urban Aedes transmission cycles drives epidemic emergence.
 
 ## Pathology
 
