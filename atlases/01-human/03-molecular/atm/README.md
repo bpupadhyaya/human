@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "ATM-p53 axis activates PUMA and BAX → mitochondrial apoptosis; BCL-2 overexpression in CLL neutralizes ATM-driven apoptosis; ATM-deleted CLL has impaired DNA-damage-induced apoptosis → venetoclax active regardless of ATM status; BCL-2 dependency is independent of ATM/p53 DDR."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "ATM-BRCA1 axis activates HR via RAD51 loading; ATM phosphorylates BRCA1 Ser1387/Ser1524 → BRCA1-PALB2-BRCA2 → RAD51 filament on ssDNA → strand invasion; ATM deficiency → reduced RAD51 foci → impaired HR → PARP inhibitor sensitivity in ATM-mutant tumors."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "ATM deletion at del(11q22.3) in ~15-20% of CLL; biallelic loss → impaired DSB-induced apoptosis; del(11q) CLL presents with bulky lymphadenopathy and aggressive course; ibrutinib and venetoclax are effective regardless of ATM status, unlike FCR which required ATM/p53-intact DDR."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "ATM biallelic inactivation in ~40-50% of MCL; the most frequent non-CCND1 alteration in MCL; ATM loss → impaired DDR → genomic instability and accelerated disease; ibrutinib and venetoclax+BR combinations are active in ATM/TP53-altered MCL."
 ---
 
 # ATM
@@ -132,6 +141,13 @@ ATM-deficient tumors are:
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — ATM phosphorylates BRCA1 at Ser1387 and Ser1524 after DSB → BRCA1 activates HR repair; BRCA1 RING domain also ubiquitinates H2A at damage foci; ATM-BRCA1 axis is a core HR activation step; ATM deficiency reduces HR capacity → PARP inhibitor synthetic lethality in ATM-mutant tumors (prostate, pancreatic cancer).
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — ATM activates NF-κB in response to DSBs via NEMO-ATM nuclear complex → IKK → IκB phosphorylation → NF-κB; ATM-NF-κB signaling promotes survival in B-CLL; BCR-NF-κB and ATM-NF-κB are co-activated in CLL; ibrutinib (BTK inhibitor) blocks BCR-NF-κB and indirectly attenuates ATM-dependent survival.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — ATM-p53 axis activates PUMA (BBC3) and BAX → mitochondrial apoptosis; BCL-2 overexpression in CLL neutralizes ATM-driven apoptotic signaling; ATM-deleted CLL has impaired DNA-damage-induced apoptosis → venetoclax (BCL-2 inhibitor) active regardless of ATM status; BCL-2 dependency is independent of ATM/p53 DDR.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — ATM-BRCA1 axis activates HR via RAD51 loading; ATM phosphorylates BRCA1 Ser1387/Ser1524 → BRCA1-PALB2-BRCA2 → RAD51 filament on ssDNA → strand invasion; ATM deficiency → reduced RAD51 foci → impaired HR → PARP inhibitor sensitivity in ATM-mutant tumors.
+- `connects-to` → **[CLL](../../07-system/cll/README.md)** — ATM deletion at del(11q22.3) in ~15-20% of CLL; biallelic loss → impaired DSB-induced apoptosis; del(11q) CLL presents with bulky lymphadenopathy and aggressive course; ibrutinib and venetoclax are effective regardless of ATM status, unlike FCR which required ATM/p53-intact DDR.
+- `connects-to` → **[Mantle Cell Lymphoma](../../07-system/mantle-cell-lymphoma/README.md)** — ATM biallelic inactivation in ~40-50% of MCL; the most frequent non-CCND1 alteration in MCL; ATM loss → impaired DDR → genomic instability and accelerated disease; ibrutinib and venetoclax+BR combinations are active in ATM/TP53-altered MCL.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^kastan-2010-atm-review]: Kastan MB, Bartek J. Cell-cycle checkpoints and cancer. *Nature.* 2004;432(7015):316-323. [doi:10.1038/nature03097](https://doi.org/10.1038/nature03097) · [PubMed 15549093](https://pubmed.ncbi.nlm.nih.gov/15549093/)
 [^young-2014-atm-cancer]: Young LM, Bharat AG, Bhatt DL, et al. ATM mutations in CLL and its impact on treatment outcome. *Leukemia.* 2014;28(2):241-248. [doi:10.1038/leu.2013.298](https://doi.org/10.1038/leu.2013.298) · [PubMed 24166298](https://pubmed.ncbi.nlm.nih.gov/24166298/)

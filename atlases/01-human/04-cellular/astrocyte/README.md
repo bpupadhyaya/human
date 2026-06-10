@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: modulates
     note: "Astrocytes regulate CNS K⁺ homeostasis (Kir4.1 spatial buffering), pH (bicarbonate), blood flow (Ca²⁺ waves → arteriole dilation via AA/PGE2/EET release); astrocyte dysfunction contributes to seizures, ischaemia, neurodegeneration."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Astrocytes and microglia form the core neuroinflammatory dyad; microglial IL-1α + TNF-α + C1q drive A1 reactive astrocyte polarization → neurotoxic phenotype; astrocyte CCL2/CXCL10 recruits microglia; astrocyte-microglia crosstalk amplifies neuroinflammation in ALS, AD, and MS."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: expresses
+    note: "AQP4 is concentrated at astrocyte endfeet at the BBB and glia limitans; supports glymphatic Aβ clearance; AQP4 loss → impaired glymphatic flow → amyloid accumulation in AD models; anti-AQP4 IgG in NMOSD selectively destroys astrocytes via complement-MAC deposition."
+  - target: 01-human/03-molecular/glutamate
+    relation: modulates
+    note: "Astrocytes express GLT-1 (EAAT2) and GLAST (EAAT1) responsible for >90% of synaptic glutamate clearance; cleared glutamate → glutamine (GS) → returned to neurons; loss of GLT-1 in ALS and AD → excitotoxicity; riluzole partially restores glutamate reuptake."
 ---
 
 # Astrocyte
@@ -140,10 +149,13 @@ Molecular switches: NF-κB (cytokine-driven reactive activation), STAT3 (scar fo
 
 ## Connections
 
-- **Part of** the brain [→ brain](../../06-organ/brain/README.md): Protoplasmic astrocytes are the predominant glial cell in cerebral cortex and hippocampus, each contacting thousands of synapses; their endfeet envelop cerebral capillaries maintaining the blood-brain barrier.
-- **Modulates** neuron [→ neuron](../../04-cellular/neuron/README.md): Astrocytes support neurons via lactate supply (ANLS), glutamate recycling via GS, K⁺ spatial buffering via Kir4.1, D-serine release (NMDA co-agonist), neurotrophic factors (GDNF, BDNF), and synaptogenesis-promoting thrombospondins.
-- **Modulates** synapse [→ synapse](../../05-tissue/synapse/README.md): Astrocytes form the third component of the tripartite synapse: take up synaptic glutamate via GLT-1/GLAST, convert to glutamine (GS), return glutamine for neurotransmitter replenishment; also release D-serine and ATP/adenosine.
-- **Modulates** nervous system [→ nervous-system](../../07-system/nervous-system/README.md): Astrocytes regulate CNS K⁺ homeostasis (Kir4.1 spatial buffering), pH (bicarbonate), blood flow (Ca²⁺ waves → arteriole dilation via AA/PGE2/EET release); astrocyte dysfunction contributes to seizures, ischaemia, neurodegeneration.
+- `part-of` → **[Brain](../../06-organ/brain/README.md)** — protoplasmic astrocytes are the predominant glial cell in cerebral cortex and hippocampus, each contacting thousands of synapses; their endfeet envelop cerebral capillaries maintaining the blood-brain barrier.
+- `modulates` → **[Neuron](../neuron/README.md)** — astrocytes support neurons via lactate supply (ANLS), glutamate recycling via GS, K⁺ spatial buffering via Kir4.1, D-serine release (NMDA co-agonist), neurotrophic factors (GDNF, BDNF), and synaptogenesis-promoting thrombospondins.
+- `modulates` → **[Synapse](../../05-tissue/synapse/README.md)** — astrocytes form the third component of the tripartite synapse: take up synaptic glutamate via GLT-1/GLAST, convert to glutamine (GS), return glutamine for neurotransmitter replenishment; also release D-serine and ATP/adenosine.
+- `modulates` → **[Nervous System](../../07-system/nervous-system/README.md)** — astrocytes regulate CNS K⁺ homeostasis (Kir4.1 spatial buffering), pH (bicarbonate), blood flow (Ca²⁺ waves → arteriole dilation via AA/PGE2/EET release); astrocyte dysfunction contributes to seizures, ischaemia, neurodegeneration.
+- `connects-to` → **[Microglia](../microglia/README.md)** — astrocytes and microglia form the core neuroinflammatory dyad; microglial IL-1α + TNF-α + C1q drive A1 reactive astrocyte polarization → neurotoxic phenotype; astrocyte CCL2/CXCL10 recruits microglia; astrocyte-microglia crosstalk amplifies neuroinflammation in ALS, AD, and MS.
+- `expresses` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — AQP4 is concentrated at astrocyte endfeet at the BBB and glia limitans; supports glymphatic Aβ clearance; AQP4 loss → impaired glymphatic flow → amyloid accumulation in AD models; anti-AQP4 IgG in NMOSD selectively destroys astrocytes via complement-MAC deposition.
+- `modulates` → **[Glutamate](../../03-molecular/glutamate/README.md)** — astrocytes express GLT-1 (EAAT2) and GLAST (EAAT1) responsible for >90% of synaptic glutamate clearance; cleared glutamate → glutamine (GS) → returned to neurons; loss of GLT-1 in ALS and AD → excitotoxicity; riluzole partially restores glutamate reuptake.
 
 ## Pathology
 
@@ -156,10 +168,6 @@ Molecular switches: NF-κB (cytokine-driven reactive activation), STAT3 (scar fo
 | **Glioblastoma (GBM)** | Grade IV astrocytic tumour; IDH-wildtype | EGFR amplification, PTEN deletion, TERT promoter mutation; median survival ~15 months despite surgery+RT+TMZ |
 | **Epilepsy** | Loss of Kir4.1 or GLT-1/GLAST → impaired K⁺ and glutamate buffering | Elevated extracellular K⁺ and glutamate → neuronal hyperexcitability → seizures |
 
-## See Also
+---
 
-- [Neuron](../../04-cellular/neuron/README.md) — primary cellular partner; astrocyte-neuron metabolic and signalling interdependence
-- [Synapse](../../05-tissue/synapse/README.md) — tripartite synapse: astrocyte processes are an obligatory synaptic component
-- [Brain](../../06-organ/brain/README.md) — organ context; astrocytes tile the entire brain in non-overlapping territorial domains
-- [Nervous System](../../07-system/nervous-system/README.md) — system-level context; astrocyte failure contributes to neurological disease across all CNS compartments
-- [Macrophage](../../04-cellular/macrophage/README.md) — microglia (brain-resident macrophages) interact closely with reactive astrocytes in neuroinflammation
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
