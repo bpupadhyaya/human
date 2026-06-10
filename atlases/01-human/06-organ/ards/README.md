@@ -46,6 +46,12 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "ARDS is defined by PaO₂/FiO₂ <200 mmHg (Berlin criteria); diffuse alveolar damage → alveolar flooding → V/Q mismatch and shunt → refractory hypoxaemia despite high FiO₂; prone positioning, PEEP optimisation, and low-tidal-volume ventilation improve O₂ delivery."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "Surfactant (DPPC, SP-B, SP-C) is degraded by secretory phospholipase A₂ in ARDS BAL; surface activity loss raises alveolar collapsibility; exogenous surfactant replacement (beractant, poractant alfa) is standard of care for NRDS but unproven in adult ARDS."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "Precision-cut lung slices (PCLS) are a primary ex vivo ARDS model; LPS, IL-1β, and cyclic mechanical stretch recapitulate diffuse alveolar damage features within 24–48 h; PCLS enable mechanistic studies and drug screening without live-animal experiments."
 ---
 
 # Acute Respiratory Distress Syndrome
@@ -127,6 +133,8 @@ ARDS hypoxemia results from two principal mechanisms:
 - `treated-by` → **[Corticosteroids](../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Dexamethasone (DEXA-ARDS trial) increased ventilator-free days and reduced 60-day mortality (29.3% vs 44.8%); methylprednisolone reduces ARDS duration; corticosteroids are standard of care for fibroproliferative ARDS.
 - `connects-to` → **[Oseltamivir](../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md)** — Severe influenza (H5N1, H1N1pdm09) causes viral ARDS via type II pneumocyte destruction and cytokine storm; early oseltamivir reduces ICU admission and ARDS risk; WHO recommends treatment regardless of 48h symptom delay in severely ill.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ARDS is defined by PaO₂/FiO₂ <200 mmHg (Berlin criteria); diffuse alveolar damage → V/Q mismatch and intrapulmonary shunt → refractory hypoxaemia despite high FiO₂; prone positioning, PEEP optimisation, and low-tidal-volume ventilation improve O₂ delivery.
+- `connects-to` → **[Pulmonary Surfactant](../../03-molecular/surfactant/README.md)** — surfactant (SP-B, SP-C, DPPC) degraded by phospholipase A₂ in ARDS BAL; surface activity loss raises alveolar collapsibility; replacement (beractant, poractant alfa) is standard of care for NRDS but unproven in adult ARDS.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — PCLS model ARDS ex vivo with LPS/IL-1β/cyclic stretch stimuli; enable compound screening and mechanistic studies of diffuse alveolar damage without live-animal experiments.
 
 ## Pathology
 

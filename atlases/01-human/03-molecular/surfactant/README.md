@@ -31,6 +31,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: modulates
     note: "Within alveoli, surfactant forms a monolayer at the air-liquid interface; its concentration-dependent surface tension reduction prevents alveolar collapse at end-expiration (Laplace law: P=2γ/r)."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "SP-B, SP-C, and DPPC are degraded by phospholipases A₂ released during ARDS; BAL surfactant protein content falls 80–90% and surface tension rises → atelectrauma; exogenous beractant/poractant alfa restore alveolar mechanics but mortality benefit in adult ARDS remains uncertain."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "SARS-CoV-2 targets type II pneumocytes (ACE2-high) → lytic infection depletes surfactant pool; SP-D binds SARS-CoV-2 spike N-terminal domain, mediating virus aggregation; surfactant dysfunction is an early driver of hypoxaemic respiratory failure in severe COVID-19."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "SFTPC mutations (e.g., L188Q, Δexon4) cause SP-C misfolding → ER stress in type II cells → IPF; TGF-β1 suppresses SFTPB/SFTPC transcription; DPPC-containing surfactant therapy is explored to slow early fibrotic remodelling in SFTPC-mutation IPF."
 ---
 
 # Pulmonary Surfactant
@@ -109,6 +118,11 @@ Surfactant secretion is upregulated by:
 - `expressed-by` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — sole cellular source of pulmonary surfactant
 - `acts-on` → **[Lung](../../06-organ/lung/README.md)** — reduces surface tension across ~70 m² alveolar surface
 - `acts-on` → **[Alveolus](../../05-tissue/alveolus/README.md)** — directly maintains alveolar stability at the air-liquid interface
+- `connects-to` → **[ARDS](../../06-organ/ards/README.md)** — SP-B/SP-C degraded by ARDS phospholipases; surfactant replacement (beractant, poractant alfa) is standard of care for NRDS and studied in adult ARDS
+- `connects-to` → **[SARS-CoV-2](../../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — SARS-CoV-2 depletes type II pneumocyte surfactant pool; SP-D binds viral spike N-terminal domain, contributing to innate antiviral defense
+- `connects-to` → **[Fibrosis](../fibrosis/README.md)** — SFTPC mutations cause SP-C misfolding and IPF; TGF-β1 suppresses surfactant protein gene transcription in alveolar epithelial injury
 
 [^avery-1959-surfactant]: Avery ME, Mead J. Surface properties in relation to atelectasis and hyaline membrane disease. *AMA J Dis Child.* 1959;97(5):517-523. [doi:10.1001/archpedi.1959.02070010519001](https://doi.org/10.1001/archpedi.1959.02070010519001) · [PubMed 13649082](https://pubmed.ncbi.nlm.nih.gov/13649082/)
 [^clements-1957-surfactant]: Clements JA. Surface tension of lung extracts. *Proc Soc Exp Biol Med.* 1957;95(1):170-172. [doi:10.3181/00379727-95-23156](https://doi.org/10.3181/00379727-95-23156) · [PubMed 13432809](https://pubmed.ncbi.nlm.nih.gov/13432809/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

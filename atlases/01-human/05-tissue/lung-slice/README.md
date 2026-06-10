@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/04-cellular/type-ii-pneumocyte
     relation: contains
     note: "PCLS retain functional type II pneumocytes (surfactant production, alveolar repair) and their interactions with alveolar macrophages; type II pneumocyte responses to SARS-CoV-2, toxicants, and growth factors can be studied in situ without cell isolation artifacts."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "PCLS prepared from resected lung retain alveolar architecture, type II cells, and resident macrophages; ARDS-mimetic stimuli (LPS, IL-1β, cyclic stretch) recapitulate DAD features within 24–48 h; PCLS enable compound screening for ARDS drug discovery without animal experiments."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "PCLS are a leading ex vivo model for SARS-CoV-2 pneumonitis; ACE2-expressing type II cells support productive replication; cytopathic effect and cytokines (IL-6, IL-8, IFN-λ1) are quantified; antivirals (remdesivir, nirmatrelvir) and host-directed therapies are tested in PCLS."
+  - target: 01-human/03-molecular/surfactant
+    relation: contains
+    note: "PCLS preserve the alveolar microenvironment including surfactant-producing type II pneumocytes; real-time surfactant secretion can be imaged with LysoTracker/FM 1-43 dyes; PCLS model surfactant dysfunction in ARDS, viral pneumonia, and fibrosis without live-animal experiments."
 ---
 
 # Lung Slice
@@ -103,7 +112,12 @@ PCLS retain key lung microarchitecture across rodent and human preparations:
 - `part-of` → **[Lung](../../06-organ/lung/README.md)** — PCLS are thin sections of whole lung tissue, preserving the 3D microarchitecture of the lung parenchyma and airways in an ex vivo format.
 - `contains` → **[Alveolus](../alveolus/README.md)** — PCLS contain multiple intact alveolar units with functioning type I and type II pneumocytes, alveolar macrophages, and capillary endothelium — making them a rich model for alveolar biology.
 - `contains` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — type II pneumocytes are the primary SARS-CoV-2 infection target in PCLS and the main source of surfactant and alveolar repair responses observed in lung slice experiments.
+- `connects-to` → **[ARDS](../../06-organ/ards/README.md)** — PCLS model ARDS ex vivo using LPS/IL-1β/cyclic stretch stimuli; used for compound screening and mechanistic studies of diffuse alveolar damage.
+- `connects-to` → **[SARS-CoV-2](../../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — PCLS are the leading human ex vivo model for COVID-19 pneumonitis; support antiviral drug screening and viral pathogenesis studies with intact cell diversity.
+- `contains` → **[Pulmonary Surfactant](../../03-molecular/surfactant/README.md)** — PCLS retain surfactant-producing type II pneumocytes; surfactant secretion and dysfunction can be imaged in situ using LysoTracker or FM 1-43 dyes.
 
 [^placke-1987-pcls]: Placke ME, Fisher GL. Adult peripheral lung organ culture — a model for respiratory tract toxicology. *Toxicol Appl Pharmacol.* 1987;90(2):284-298. [doi:10.1016/0041-008X(87)90338-7](https://doi.org/10.1016/0041-008X(87)90338-7) · [PubMed 3616891](https://pubmed.ncbi.nlm.nih.gov/3616891/)
 [^bergner-2002-airway-pcls]: Bergner A, Sanderson MJ. Airway contractility and smooth muscle Ca2+ signaling in lung slices from different mouse strains. *J Appl Physiol.* 2002;93(4):1300-1309. [doi:10.1152/japplphysiol.00349.2002](https://doi.org/10.1152/japplphysiol.00349.2002) · [PubMed 12235026](https://pubmed.ncbi.nlm.nih.gov/12235026/)
 [^neuhaus-2017-pcls-human]: Neuhaus V, Schaudien D, Golovina T, et al. Assessment of long-term cultivated human precision-cut lung slices as a model system for research in respiratory medicine. *J Occup Med Toxicol.* 2017;12:13. [doi:10.1186/s12995-017-0158-5](https://doi.org/10.1186/s12995-017-0158-5) · [PubMed 28473872](https://pubmed.ncbi.nlm.nih.gov/28473872/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

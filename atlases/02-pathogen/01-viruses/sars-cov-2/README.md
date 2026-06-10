@@ -91,6 +91,12 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "SARS-CoV-2 infects placenta via ACE2 on syncytiotrophoblast → villous infarcts, intervillositis, perivillous fibrin; COVID-19 in pregnancy associated with preterm birth, IUGR, and stillbirth risk; Delta and Omicron variants cause more placental pathology than earlier strains."
+  - target: 01-human/03-molecular/surfactant
+    relation: damages
+    note: "SARS-CoV-2 infects ACE2-expressing type II pneumocytes → lytic depletion of alveolar surfactant pool; SP-D binds spike N-terminal domain, mediating virus aggregation; surfactant dysfunction contributes to hypoxaemic respiratory failure in severe COVID-19."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "Human PCLS are the leading ex vivo platform for SARS-CoV-2 pneumonitis; ACE2-expressing type II pneumocytes within intact tissue support productive replication; PCLS enable antiviral drug testing (remdesivir, nirmatrelvir) with intact alveolar cell diversity."
 ---
 
 # SARS-CoV-2 (cardiac effects)
@@ -172,6 +178,8 @@ Long COVID cardiac symptoms (palpitations, orthostatic tachycardia, dyspnea on e
 - **Damages** → [Cardiovascular System](../../../01-human/07-system/cardiovascular-system/README.md): Systemic endotheliopathy, coagulopathy, pulmonary hypertension, acute MI, atrial fibrillation, right heart failure.
 - `connects-to` → **[C1-Esterase Inhibitor](../../../01-human/03-molecular/c1-esterase-inhibitor/README.md)** — SARS-CoV-2 activates contact activation; bradykinin hypothesis proposes FXII/kallikrein → bradykinin excess in COVID-19 vascular disease; low ACE2 → reduced bradykinin degradation → vascular permeability; C1-INH concentrate explored for COVID-19 vascular complications and ARDS.
 - `connects-to` → **[Guillain-Barré Syndrome](../../../01-human/05-tissue/guillain-barre/README.md)** — SARS-CoV-2 is a GBS trigger; reports of GBS following COVID-19 infection and adenoviral-vector vaccines (ChAdOx1, Ad26.COV2.S); proposed mechanism: molecular mimicry between spike protein glycan epitopes and gangliosides; SARS-CoV-2 GBS cases tend toward AIDP subtype.
+- `damages` → **[Pulmonary Surfactant](../../../01-human/03-molecular/surfactant/README.md)** — SARS-CoV-2 infects type II pneumocytes → lytic surfactant depletion; SP-D binds spike N-terminal domain mediating viral aggregation; surfactant dysfunction is an early driver of hypoxaemic respiratory failure in severe COVID-19.
+- `connects-to` → **[Lung Slice](../../../01-human/05-tissue/lung-slice/README.md)** — human PCLS are the leading ex vivo model for COVID-19 pneumonitis; enable antiviral drug testing (remdesivir, nirmatrelvir) with intact alveolar cell diversity and ACE2-expressing type II pneumocytes.
 
 ## See Also
 

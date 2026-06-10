@@ -3,220 +3,198 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Pulmonary Surfactant — DPPC composition, SP-A/B/C/D proteins, LaPlace law, biophysics, type II pneumocyte secretion, ABCA3 recycling, antenatal betamethasone, beractant/poractant clinical use. Human Engineering Atlas.">
-  <meta property="og:title" content="Pulmonary Surfactant — Human Engineering Atlas">
+  <meta name="description" content="Phospholipid-protein mixture (~90% lipid, ~10% protein) secreted by type II pneumocytes. DPPC reduces alveolar surface tension per Laplace law, preventing colla">
+  <meta property="og:title" content="Pulmonary Surfactant — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Pulmonary Surfactant — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#0071e3;--accent-soft:rgba(0,113,227,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .hero{background:linear-gradient(135deg,#eff6ff 0%,#ffffff 60%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .formula{font-family:"SF Mono","Fira Code",Consolas,monospace;background:var(--bg-3);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.75rem 1rem;margin:.6rem 0;font-size:.93rem}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:110px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="../index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
-    <div class="nav-links">
-      <a href="../index.html">Home</a>
-      <a href="lung-alveolus.html">Alveolus</a>
-      <a href="type-ii-pneumocyte.html">AT2 Cell</a>
-      <a href="medicine.html">Medicine</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>Pulmonary Surfactant</h1>
+    <p class="tagline">Phospholipid-protein mixture (~90% lipid, ~10% protein) secreted by type II pneumocytes. DPPC reduces alveolar surface tension per Laplace law, preventing collapse. SP-A/D mediate innate immunity; SP-B/C enable spreading. Deficiency causes NRDS.</p>
+    <p class="aliases">Also known as: surfactant, pulmonary surfactant, DPPC, SP-A, SP-B</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
-</nav>
 
-<div class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Atlas One · Molecular / Biochemistry · Scale L02 · Respiratory Physiology</p>
-    <h1>Pulmonary <span>Surfactant</span></h1>
-    <p class="hero-lead">A phospholipid-protein complex secreted by type II alveolar pneumocytes that reduces alveolar surface tension from ~70 mN/m to below 5 mN/m at end-expiration — preventing alveolar collapse, stabilizing lung volumes, and providing innate immune defense at the air-liquid interface.</p>
-  </div>
-</div>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<div class="meta-strip">
-  <span><strong>Composition:</strong> ~90% lipids, ~10% proteins</span>
-  <span><strong>Scale:</strong> L02 Molecular / Biochemistry</span>
-  <span><strong>System:</strong> Respiratory</span>
-  <span><strong>Type:</strong> Bioactive complex</span>
-  <span><strong>Reviewed:</strong> 2026-06-05</span>
-</div>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">surfactant</div>
+        <h2>Pulmonary Surfactant</h2>
+        <p class="summary">Phospholipid-protein mixture (~90% lipid, ~10% protein) secreted by type II pneumocytes. DPPC reduces alveolar surface tension per Laplace law, preventing collapse. SP-A/D mediate innate immunity; SP-B/C enable spreading. Deficiency causes NRDS.</p>
+      </div>
+      <div class="detail-body">
 
-<div class="content">
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>surfactant</td></tr>
+            <tr><td>Name</td><td>Pulmonary Surfactant</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
+          </table>
+        </div>
 
-  <div class="section" id="overview">
-    <h2>Overview</h2>
-    <p>Pulmonary surfactant is a complex of phospholipids and specific proteins that lines the interior of the ~300–500 million alveoli of the human lung. First characterized by Pattle (1955) and Clements (1957), it was identified as the factor responsible for the extraordinary low surface tension in lung extracts — a property that cannot be achieved by any simple lipid film alone and requires the precise combination of saturated and unsaturated phospholipids with the four surfactant proteins (SP-A, SP-B, SP-C, SP-D).</p>
-    <p>The primary biophysical function of surfactant is to oppose the <strong>LaPlace pressure</strong> that would otherwise collapse small alveoli during expiration. Without surfactant, the alveolar surface would behave as a simple air-water interface with surface tension ~70 mN/m, generating a collapsing pressure of ~28 cmH₂O in a 100 µm alveolus — far exceeding the available transpulmonary pressure (~5–10 cmH₂O). Surfactant reduces this tension to &lt;5 mN/m, making normal tidal breathing physically possible.</p>
-    <div class="callout"><strong>Clinical significance:</strong> Surfactant deficiency causes neonatal respiratory distress syndrome (RDS) in premature infants — the leading cause of morbidity and mortality in preterm neonates before the introduction of exogenous surfactant therapy (first successful use by Fujiwara 1980; FDA approval 1990). Antenatal betamethasone to accelerate fetal surfactant maturation (Liggins and Howie 1972 trial) remains one of the most cost-effective interventions in perinatal medicine.</div>
-  </div>
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="type-ii-pneumocyte.html" title="Pulmonary surfactant is synthesized and secreted by type II alveolar epithelial cells (pneumocytes) via lamellar bodies; recycling occurs by re-uptake into type II cells."><span class="rel">expressed-by</span>Type Ii Pneumocyte</a>
+            <a class="conn-pill" href="lung.html" title="Surfactant lines the air-liquid interface of the entire lung alveolar surface (~70 m²), reducing surface tension and maintaining alveolar patency during the breathing cycle."><span class="rel">modulates</span>Lung</a>
+            <a class="conn-pill" href="alveolus.html" title="Within alveoli, surfactant forms a monolayer at the air-liquid interface; its concentration-dependent surface tension reduction prevents alveolar collapse at end-expiration (Laplace law: P=2γ/r)."><span class="rel">modulates</span>Alveolus</a>
+            <a class="conn-pill" href="ards.html" title="SP-B, SP-C, and DPPC are degraded by phospholipases A₂ released during ARDS; BAL surfactant protein content falls 80–90% and surface tension rises → atelectrauma; exogenous beractant/poractant alfa restore alveolar mechanics but mortality benefit in adult ARDS remains uncertain."><span class="rel">connects-to</span>Ards</a>
+            <a class="conn-pill" href="sars-cov-2.html" title="SARS-CoV-2 targets type II pneumocytes (ACE2-high) → lytic infection depletes surfactant pool; SP-D binds SARS-CoV-2 spike N-terminal domain, mediating virus aggregation; surfactant dysfunction is an early driver of hypoxaemic respiratory failure in severe COVID-19."><span class="rel">connects-to</span>Sars Cov 2</a>
+            <a class="conn-pill" href="fibrosis.html" title="SFTPC mutations (e.g., L188Q, Δexon4) cause SP-C misfolding → ER stress in type II cells → IPF; TGF-β1 suppresses SFTPB/SFTPC transcription; DPPC-containing surfactant therapy is explored to slow early fibrotic remodelling in SFTPC-mutation IPF."><span class="rel">connects-to</span>Fibrosis</a>
+          </div>
+        </div>
 
-  <div class="section" id="composition">
-    <h2>Lipid Composition</h2>
-    <p>Surfactant isolated from bronchoalveolar lavage (BAL) of normal lungs is approximately <strong>90% lipid and 10% protein by dry weight</strong>. The lipid fraction is dominated by phosphatidylcholines (PC), with DPPC being the single most important surface-active component:</p>
-    <table>
-      <thead><tr><th>Component</th><th>Fraction (dry wt)</th><th>Key Structural Features</th><th>Function</th></tr></thead>
-      <tbody>
-        <tr><td><strong>DPPC</strong> (dipalmitoylphosphatidylcholine)</td><td>~45–50%</td><td>Two saturated C16:0 palmitoyl chains; zwitterionic head group; high phase-transition temperature (~41°C) means chains are ordered (gel phase) near body temperature, enabling dense packing</td><td>Principal surface-tension-reducing lipid; dense monolayer packing at end-expiration achieves surface tension &lt;5 mN/m; "squeeze-out" of fluid/unsaturated lipids during compression enriches the film in DPPC</td></tr>
-        <tr><td><strong>POPG</strong> (palmitoyloleoylphosphatidylglycerol)</td><td>~8%</td><td>Anionic phospholipid; one saturated C16:0 + one unsaturated C18:1 chain; negatively charged head group</td><td>Promotes adsorption of the lipid film to the air-liquid interface; interacts electrostatically with SP-B and SP-C; acts as TLR4 antagonist (immunomodulatory); maintains film fluidity</td></tr>
-        <tr><td><strong>Unsaturated PC species</strong> (POPC, DPPC-related species)</td><td>~20–25%</td><td>One or two unsaturated fatty acyl chains introduce membrane disorder (liquid-crystalline phase)</td><td>Maintain film fluidity and spreading kinetics during inspiration; prevent crystallization of DPPC monolayer; facilitate rapid re-spreading after compression</td></tr>
-        <tr><td><strong>Cholesterol</strong></td><td>~8–10%</td><td>Intercalates between phospholipid acyl chains; modulates membrane fluidity</td><td>Promotes adsorption kinetics and film fluidity; excess cholesterol (as in ARDS alveolar edema) inhibits surfactant function by disrupting DPPC packing</td></tr>
-        <tr><td><strong>Phosphatidylinositol (PI)</strong></td><td>~2–3%</td><td>Polyol head group; anionic</td><td>Structural role; involved in SP-A regulation of surfactant pool size</td></tr>
-        <tr><td><strong>Phosphatidylethanolamine (PE)</strong></td><td>~3–5%</td><td>Smaller head group; contributes to bilayer curvature</td><td>Structural; involved in lamellar body membrane organization</td></tr>
-        <tr><td><strong>Sphingomyelin</strong></td><td>~2%</td><td>Ceramide-based; saturated chain</td><td>Minor structural component; elevated in some pathological states</td></tr>
-      </tbody>
-    </table>
-  </div>
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1001/archpedi.1959.02070010519001" target="_blank" rel="noopener noreferrer">Avery ME, Mead J. Surface properties in relation to atelectasis and hyaline membrane disease. AMA J Dis Child. 1959;97(5):517-523.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/13649082/" target="_blank" rel="noopener noreferrer">PubMed 13649082</a></li>
+            <li><a href="https://doi.org/10.3181/00379727-95-23156" target="_blank" rel="noopener noreferrer">Clements JA. Surface tension of lung extracts. Proc Soc Exp Biol Med. 1957;95(1):170-172.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/13432809/" target="_blank" rel="noopener noreferrer">PubMed 13432809</a></li>
+          </ul>
+        </div>
 
-  <div class="section" id="proteins">
-    <h2>Surfactant Proteins</h2>
-    <p>The four surfactant proteins (SP-A, SP-B, SP-C, SP-D) account for ~10% of surfactant dry weight but are essential for both the biophysical function and the immune activity of the complex. They fall into two functional classes: the <strong>hydrophilic collectins</strong> (SP-A, SP-D — innate immune functions) and the <strong>hydrophobic proteins</strong> (SP-B, SP-C — biophysical functions).</p>
-    <table>
-      <thead><tr><th>Protein</th><th>Size / Structure</th><th>Gene</th><th>Key Functions</th><th>Knockout / Loss Phenotype</th></tr></thead>
-      <tbody>
-        <tr><td><strong>SP-B</strong></td><td>~6 kDa monomer (17.4 kDa precursor); amphipathic helical structure; forms disulfide-linked homodimer; strongly hydrophobic</td><td><em>SFTPB</em> (chr 2p12)</td><td>Essential for lamellar body organization and tubular myelin formation; inserts into lipid bilayers → promotes phospholipid transfer from lamellar bodies to the surface monolayer; stabilizes the surface film during compression by cross-linking adjacent lipid layers; required for SP-C processing from proSP-C</td><td><strong>SP-B null is lethal at birth</strong> (respiratory failure within hours); SP-B haploinsufficiency → surface tension elevation; hereditary SP-B deficiency (frameshift/stop codon mutations in <em>SFTPB</em>) → fatal neonatal RDS or chronic interstitial lung disease in partial loss</td></tr>
-        <tr><td><strong>SP-C</strong></td><td>~4 kDa mature peptide (21.9 kDa precursor); extremely hydrophobic; transmembrane alpha-helix spanning the lipid bilayer; two palmitoylated cysteine residues anchor it in the membrane</td><td><em>SFTPC</em> (chr 8p21)</td><td>Inserts perpendicular to lipid monolayer; increases adsorption rate of phospholipids to the air-liquid interface; stabilizes the surface film during the compression-expansion cycling of breathing; enhances DPPC monolayer stability via hydrophobic interaction with acyl chains</td><td>SP-C null mice survive but develop emphysema and pulmonary inflammation with aging; <strong>dominant gain-of-function mutations</strong> in proSP-C (especially I73T — misfolding → ER stress → AT2 apoptosis) cause familial interstitial lung disease and childhood ILD (chILD); proSP-C misfolding is a model for ER stress-driven pulmonary fibrosis</td></tr>
-        <tr><td><strong>SP-A</strong></td><td>~35 kDa monomer; assembles into octadecamers (18 trimers × 2, "bouquet" structure ~650 kDa); C-type lectin domain + collagen-like domain (collectin); calcium-dependent carbohydrate binding</td><td><em>SFTPA1</em>, <em>SFTPA2</em> (chr 10q24.1)</td><td><strong>Innate immune:</strong> binds mannose/GlcNAc on bacterial cell walls, viral glycoproteins (influenza HA, RSV F protein), and fungal β-glucan → opsonization + phagocyte recruitment via calreticulin/CD91; activates alveolar macrophage phagocytosis; suppresses TLR4/NF-κB to prevent sterile inflammation; regulates surfactant pool size (feedback via SP-A receptor on AT2 cells → inhibits secretion when pool is replete)</td><td>SP-A null mice are more susceptible to bacterial and viral lung infections but have relatively normal pulmonary mechanics; elevated SP-A in BAL/serum = biomarker of AT2 cell injury; low SP-A in RDS and ARDS</td></tr>
-        <tr><td><strong>SP-D</strong></td><td>~43 kDa monomer; cruciform dodecamers (4 trimers, 12 subunits) or larger multimers; longer collagen-like neck than SP-A; calcium-dependent lectin</td><td><em>SFTPD</em> (chr 10q24.1)</td><td><strong>Innate immune:</strong> binds glucose/mannose oligosaccharides on bacterial LPS, viral hemagglutinins, and allergens; neutralizes influenza A by binding HA → inhibits viral attachment; regulates alveolar macrophage activation and oxidative burst; anti-inflammatory (reduces TLR4 signaling); lung homeostasis — restrains AM accumulation</td><td>SP-D null mice develop <strong>emphysema-like alveolar enlargement</strong>, massive accumulation of foamy alveolar macrophages, elevated oxidative stress, and increased susceptibility to infections; elevated plasma SP-D is a diagnostic/prognostic marker in pulmonary fibrosis and ARDS; low BAL SP-D in pneumonia</td></tr>
-      </tbody>
-    </table>
-  </div>
+      </div>
+    </div>
+  </main>
 
-  <div class="section" id="biophysics">
-    <h2>Biophysics: LaPlace Law and Surface Film Dynamics</h2>
-    <p>The physical basis for surfactant's necessity is captured by the <strong>LaPlace Law</strong> for a spherical bubble:</p>
-    <div class="formula">P = 2T / r</div>
-    <p>where P is the pressure inside the alveolus (collapsing pressure), T is surface tension (N/m), and r is the alveolar radius (~100 µm at FRC). Without surfactant (T ≈ 70 mN/m), small alveoli experience higher collapsing pressures than large ones — a physically unstable situation in which small alveoli empty into large ones (Laplace instability). This would cause massive atelectasis and require pathologically high inspiratory pressures to reopen collapsed units.</p>
-    <p>Surfactant resolves this in two ways:</p>
-    <ul>
-      <li><strong>Surface tension reduction:</strong> Surfactant reduces T from ~70 mN/m to ~25–30 mN/m at full lung volume (inspiration) and to &lt;5 mN/m at low lung volume (end-expiration), when the DPPC monolayer is compressed to maximum density. This near-zero surface tension at end-expiration eliminates the Laplace instability.</li>
-      <li><strong>Area-dependent surface tension (hysteresis):</strong> During inspiration, the surface area increases → the film is diluted → T rises slightly → larger negative intrapleural pressure is needed to expand the lung. During expiration, area decreases → film compresses → T falls dramatically → alveoli resist collapse. This hysteresis loop is a stabilizing, energy-conserving feature that reduces work of breathing.</li>
-    </ul>
-    <p><strong>Tubular myelin</strong> is a highly organized, lattice-like lipid structure formed in the alveolar subphase from secreted lamellar body contents by the combined action of SP-A, SP-B, and calcium. It serves as the immediate reservoir for rapid lipid adsorption to the surface monolayer during inspiration. SP-A forms the corner junctions of the tubular myelin lattice (~25 nm square unit cell); SP-B is required for lamellar body-to-tubular myelin conversion.</p>
-    <div class="callout"><strong>"Squeeze-out" of unsaturated lipids:</strong> At end-expiration, as the alveolar surface area contracts to minimum, unsaturated phospholipids (which pack less efficiently due to kinked acyl chains) are selectively excluded ("squeezed out") from the compressed monolayer, enriching it in DPPC — the optimal surface-tension-lowering lipid. This dynamic lipid sorting is the physical mechanism by which surface tension approaches zero during exhalation.</div>
-  </div>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-  <div class="section" id="secretion">
-    <h2>Production, Secretion, and Recycling</h2>
-    <h3>Synthesis in Type II Pneumocytes</h3>
-    <p>Pulmonary surfactant is synthesized and stored exclusively in <strong>type II alveolar pneumocytes (AT2 cells)</strong>. The lipid synthesis pathway proceeds through the endoplasmic reticulum and Golgi complex. DPPC synthesis requires de novo fatty acid synthesis (glucose → acetyl-CoA → palmitate → CoA-activated → CDP-choline pathway → DPPC). SP-B and SP-C are produced as large precursors (proSP-B, proSP-C) that are proteolytically processed in multivesicular bodies (MVBs).</p>
-    <p>Mature lipids and proteins are packaged into <strong>lamellar bodies</strong> — lysosome-related organelles with concentrically laminated phospholipid bilayers (~0.1–1 µm diameter) — by the ABCA3 (ATP-binding cassette transporter A3) transporter. ABCA3 actively transports phospholipids (DPPC, POPG) into the lamellar body lumen. ABCA3 mutations → lamellar body dysgenesis → fatal neonatal RDS or childhood ILD.</p>
-
-    <h3>Regulated Exocytosis</h3>
-    <p>Lamellar bodies fuse with the AT2 apical plasma membrane via SNARE-mediated exocytosis, releasing their contents into the alveolar subphase. Secretion is stimulated by:</p>
-    <ul>
-      <li><strong>Mechanical stretch:</strong> Lung inflation during inspiration → AT2 cell membrane deformation → Ca²⁺ influx and IP3-mediated Ca²⁺ release → lamellar body exocytosis (the most physiologically important stimulus)</li>
-      <li><strong>Beta-adrenergic agonists:</strong> β₂ receptor → cAMP → PKA → enhanced exocytosis; basis for clinical use of beta-agonists to stimulate surfactant secretion in preterm infants</li>
-      <li><strong>SP-A:</strong> At low concentrations, SP-A stimulates secretion; at high concentrations (replete pool), SP-A inhibits exocytosis via its receptor on AT2 cells — a homeostatic feedback loop</li>
-      <li><strong>Cholinergic stimulation:</strong> Muscarinic M3 receptor → IP3 → Ca²⁺ → secretion</li>
-      <li><strong>ATP (purinergic):</strong> P2Y₂ receptor → PLC → IP3 → Ca²⁺ → exocytosis</li>
-    </ul>
-
-    <h3>Surfactant Recycling</h3>
-    <p>Approximately <strong>85–95% of secreted surfactant is recycled</strong> by type II pneumocytes rather than degraded, making the lung highly efficient. Recycling pathway: surface film → large aggregate forms → endocytosis by AT2 cells (via clathrin-coated vesicles and macropinocytosis) → endosomes → repackaged into lamellar bodies by ABCA3 → re-secretion. Small aggregates (biophysically inactive vesicular forms) are either re-endocytosed by AT2 cells or cleared by alveolar macrophages (via SR-A and SP-A-mediated uptake). The turnover time of the alveolar surfactant pool is approximately 5–10 hours.</p>
-  </div>
-
-  <div class="section" id="regulation">
-    <h2>Biosynthesis Regulation</h2>
-    <p>Surfactant production is under transcriptional control by several master regulators:</p>
-    <ul>
-      <li><strong>NKX2-1 (TTF-1 / thyroid transcription factor-1):</strong> A homeodomain transcription factor essential for lung development and the primary driver of SP-A, SP-B, SP-C, and SP-D gene expression in AT2 cells. NKX2-1 binds TATA proximal elements in SFTPA/B/C/D promoters; loss of NKX2-1 → complete absence of surfactant protein expression. NKX2-1 is also required for AT2 cell identity and lung morphogenesis (NKX2-1 null → failure of trachea-esophageal separation).</li>
-      <li><strong>Glucocorticoids (fetal lung maturation pathway):</strong> Cortisol → glucocorticoid receptor (GR) → binds GRE in SFTPB/SFTPC promoters → ↑SP-B/SP-C transcription + ↑fatty acid synthesis enzymes + ↑ABCA3 expression → net increase in lamellar body formation and surfactant secretion. The Liggins-Howie trial (1972) demonstrated that antenatal betamethasone (2 × 12 mg IM, 24 h apart) given between 24–34 weeks reduces neonatal RDS incidence by ~40–50% and is standard of care worldwide.</li>
-      <li><strong>Thyroid hormones:</strong> T3 synergizes with glucocorticoids to accelerate surfactant maturation; TRα1 in AT2 cells activates SFTPB/SFTPC genes; hypothyroidism in neonates → delayed surfactant maturation.</li>
-      <li><strong>cAMP / β-adrenergic pathway:</strong> cAMP → PKA → CREB phosphorylation → enhanced SFTPB/SFTPC promoter activity; basis for experimental use of beta-agonists and theophylline (cAMP-elevating) to augment surfactant.</li>
-      <li><strong>FoxA2 (HNF-3β):</strong> Forkhead box transcription factor required for lipid gene activation in AT2 cells; FoxA2 null → absent surfactant lipid production despite preserved NKX2-1 expression.</li>
-    </ul>
-  </div>
-
-  <div class="section" id="clinical">
-    <h2>Therapeutic Surfactants</h2>
-    <p>Exogenous surfactant replacement therapy is the cornerstone of neonatal RDS management. All approved preparations are animal-derived and contain phospholipids with SP-B and SP-C analogs, but lack SP-A and SP-D:</p>
-    <table>
-      <thead><tr><th>Product</th><th>Source</th><th>Proteins</th><th>Dose / Route</th><th>Key Trials</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Beractant (Survanta)</strong></td><td>Bovine lung extract (minced, lipid-extracted); supplemented with DPPC, palmitic acid, tripalmitin</td><td>SP-B and SP-C (no SP-A/D)</td><td>100 mg/kg (4 mL/kg) intratracheally; up to 4 doses in first 48 h</td><td>Multiple RCTs (1990–1993): 30–50% reduction in pneumothorax and RDS severity; FDA-approved 1991. OSIRIS trial (1992, n=1455): early treatment superior to rescue</td></tr>
-        <tr><td><strong>Poractant alfa (Curosurf)</strong></td><td>Porcine lung extract (minced, chloroform-methanol extraction); highest SP-B content of any commercial product</td><td>SP-B and SP-C</td><td>100–200 mg/kg (1.25–2.5 mL/kg) intratracheally; standard initial dose 200 mg/kg for severe RDS</td><td>Tantiviriyapun et al. and Bloom 1997: superior oxygenation improvement at 200 mg/kg vs 100 mg/kg. Comparative studies with beractant show modestly faster oxygenation improvement with poractant at 200 mg/kg.</td></tr>
-        <tr><td><strong>Calfactant (Infasurf)</strong></td><td>Calf lung lavage extract</td><td>SP-B and SP-C; higher SP-B concentration than beractant</td><td>105 mg/kg (3 mL/kg) intratracheally</td><td>IILSSG trial (1998, n=479): fewer air-leaks and improved survival vs. control; FDA-approved 1998</td></tr>
-        <tr><td><strong>Lucinactant (Surfaxin)</strong></td><td>Fully synthetic; contains DPPC/POPG/palmitic acid + sinapultide (KL4 peptide — SP-B mimic)</td><td>Synthetic SP-B mimic (KL4)</td><td>175 mg/kg intratracheally</td><td>SELECT trial (2002, n=1294): non-inferior to beractant for RDS treatment; FDA-approved 2012; production discontinued 2022 due to commercial reasons</td></tr>
-      </tbody>
-    </table>
-
-    <h3>Administration Techniques</h3>
-    <p>Traditional surfactant delivery requires intubation and mechanical ventilation (InSurE — intubate, surfactant, extubate technique). Increasingly, <strong>LISA (Less Invasive Surfactant Administration)</strong> via a thin catheter (MAD Nasal or Oporta catheter) is used in spontaneously breathing neonates on nCPAP without formal intubation. LISA trials (CURPAP, NINSAPP, LION) demonstrate equivalent efficacy with reduced intubation rates, BPD risk, and air-leak complications.</p>
-
-    <h3>Surfactant in Adult ARDS</h3>
-    <p>Despite the central role of surfactant dysfunction in adult ARDS — alveolar surfactant pool is depleted, SP-A and SP-B are inactivated by inflammatory proteins and oxidized lipids, and surface tension is elevated — exogenous surfactant therapy has failed in multiple large adult ARDS trials. Reasons for failure include: (1) adult ARDS is driven by inflammatory injury rather than primary surfactant deficiency; (2) the large, fluid-filled adult lung is difficult to deliver surfactant uniformly to; (3) inflammatory proteins (fibrin, albumin) inhibit exogenous surfactant. The ARDS Network (Anzueto 1996, n=725) and Spragg 2004 (n=448) calfactant/poractant trials both showed no mortality benefit.</p>
-  </div>
-
-  <div class="section" id="connections">
-    <h2>Connections</h2>
-    <ul class="conn-list">
-      <li><span class="conn-rel">produced-by</span><a href="lung-alveolus.html">Lung Alveolus</a> — type II pneumocytes (AT2 cells) in the alveolar corners synthesize, store, and secrete surfactant; the alveolus is the functional site of surface tension reduction</li>
-      <li><span class="conn-rel">impaired-in</span><a href="ards.html">ARDS</a> — surfactant is inactivated in ARDS by inflammatory proteins, oxidative lipid modification, and decreased SP-A/SP-B levels; surfactant dysfunction amplifies atelectasis and oxygenation failure</li>
-      <li><span class="conn-rel">relevance-in</span><a href="neonatal-medicine.html">Neonatal Medicine</a> — surfactant deficiency is the pathophysiological basis of neonatal RDS in premature infants; exogenous surfactant replacement and antenatal betamethasone are cornerstone neonatal therapies</li>
-      <li><span class="conn-rel">context-in</span><a href="lung-slice.html">Lung Slice</a> — the regional distribution of surfactant production and function is relevant to understanding dependent vs. non-dependent lung anatomy in the lung slice atlas entry</li>
-      <li><span class="conn-rel">produced-by</span><a href="type-ii-pneumocyte.html">Type II Pneumocyte</a> — the AT2 cell is the sole source of all four surfactant proteins and performs the complete lipid synthesis, lamellar body packaging, regulated exocytosis, and endocytic recycling of surfactant</li>
-    </ul>
-  </div>
-
-  <div class="section references" id="references">
-    <h2>References</h2>
-    <ol>
-      <li>Whitsett JA, Wert SE, Weaver TE. Alveolar surfactant homeostasis and the pathogenesis of pulmonary disease. <em>Annu Rev Med.</em> 2010;61:105–19. <a href="https://doi.org/10.1146/annurev.med.60.041807.123500" target="_blank" rel="noopener">doi:10.1146/annurev.med.60.041807.123500</a></li>
-      <li>Clements JA. Surface tension of lung extracts. <em>Proc Soc Exp Biol Med.</em> 1957;95(1):170–2. <a href="https://doi.org/10.3181/00379727-95-23156" target="_blank" rel="noopener">doi:10.3181/00379727-95-23156</a></li>
-      <li>Günther A, Ruppert C, Schmidt R, et al. Surfactant alteration and replacement in ARDS. <em>Respir Res.</em> 2001;2(6):353–64. <a href="https://doi.org/10.1186/rr86" target="_blank" rel="noopener">doi:10.1186/rr86</a></li>
-      <li>Bhatt AJ, Hallman M. Antenatal corticosteroids and surfactant therapy. <em>Semin Perinatol.</em> 2012;36(3):160–9.</li>
-      <li>Liggins GC, Howie RN. A controlled trial of antepartum glucocorticoid treatment for prevention of the respiratory distress syndrome in premature infants. <em>Pediatrics.</em> 1972;50(4):515–25. PMID 4561295</li>
-      <li>Olmeda B, García-Álvarez B, Pérez-Gil J. Structure-function correlations of pulmonary surfactant protein SP-B and the saposin-like family of proteins. <em>Eur Biophys J.</em> 2013;42(2–3):209–22. <a href="https://doi.org/10.1007/s00249-012-0858-9" target="_blank" rel="noopener">doi:10.1007/s00249-012-0858-9</a></li>
-      <li>Chroneos ZC, Sever-Chroneos Z, Shepherd VL. Pulmonary surfactant: an immunological perspective. <em>Cell Physiol Biochem.</em> 2010;25(1):13–26. <a href="https://doi.org/10.1159/000272047" target="_blank" rel="noopener">doi:10.1159/000272047</a></li>
-      <li>Spray CM, Spragg RG, Matthay MA. Protein composition of pulmonary edema fluid from mechanically ventilated patients with ARDS. <em>Am J Respir Crit Care Med.</em> 1999;160:813–9.</li>
-    </ol>
-  </div>
-
-</div>
-
-<footer>
-  <p><a href="../index.html">Human Engineering</a> · Open, free, global · <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a> · Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:0.4rem;">Open source · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
-  <p style="margin-top:0.6rem;font-style:italic;font-size:0.79rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
-</footer>
-
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
