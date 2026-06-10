@@ -3,111 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Metformin — global first-line biguanide for type 2 diabetes. Mechanism, UKPDS landmark trial, indications, and clinical evidence. Part of the Human Engineering project.">
-  <meta property="og:title" content="Metformin — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Biguanide; global first-line for type 2 diabetes. Inhibits mitochondrial Complex I → AMPK → suppressed PEPCK/G6Pase → ↓ hepatic gluconeogenesis. HbA1c −1–2%; we">
+  <meta property="og:title" content="Metformin — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Metformin — Medicine Atlas · Human Engineering</title>
+  <title>Metformin — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #16a34a;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(22,163,74,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #16a34a, #14532d); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
-
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
-    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
-
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-
-    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
-    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-
-    .trial-result { font-weight: 700; color: var(--bio); }
-
-    .principle-box { background: rgba(22,163,74,0.07); border: 1px solid rgba(22,163,74,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent); }
-
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
-
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '&#8599;'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -128,272 +110,74 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine Atlas
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Metabolic</div>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
     <h1>Metformin</h1>
-    <p class="tagline">Biguanide &mdash; the world&rsquo;s most widely prescribed oral antidiabetic drug. Inhibits hepatic mitochondrial Complex I, activates AMPK, and suppresses gluconeogenesis without causing hypoglycemia.</p>
-    <p class="subtagline">HbA1c reduction 1&ndash;2%. 36% mortality reduction in overweight T2DM (UKPDS 34). 120 million daily users globally. First-line in every major guideline since the 1990s.</p>
+    <p class="tagline">Biguanide; global first-line for type 2 diabetes. Inhibits mitochondrial Complex I → AMPK → suppressed PEPCK/G6Pase → ↓ hepatic gluconeogenesis. HbA1c −1–2%; weight-neutral; no hypoglycemia monotherapy. UKPDS: 36% mortality reduction. 120 million users.</p>
+    <p class="aliases">Also known as: metformin, Glucophage, Fortamet, Glumetza, dimethylbiguanide, 1,1-dimethylbiguanide</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">120M</span><span class="stat-label">Daily users worldwide</span></div>
-      <div class="stat"><span class="stat-num">36%</span><span class="stat-label">Mortality &#x2193; vs. conventional (UKPDS)</span></div>
-      <div class="stat"><span class="stat-num">1&ndash;2%</span><span class="stat-label">HbA1c reduction</span></div>
-      <div class="stat"><span class="stat-num">500&ndash;2550&nbsp;mg</span><span class="stat-label">Daily dose range</span></div>
+        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-04</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas &middot; Metabolic &middot; Biguanide</div>
-        <h2>Metformin</h2>
-        <div class="drug-class">Class: Biguanide &nbsp;|&nbsp; Route: Oral &nbsp;|&nbsp; Status: Global first-line pharmacotherapy for type 2 diabetes mellitus; WHO Essential Medicine</div>
-        <p class="summary">Biguanide; global first-line for type 2 diabetes. Inhibits mitochondrial Complex I &#x2192; AMPK activation &#x2192; suppressed PEPCK/G6Pase &#x2192; &#x2193; hepatic gluconeogenesis. HbA1c &minus;1&ndash;2%; weight-neutral to modestly weight-reducing; no hypoglycemia in monotherapy. UKPDS 34: 36% all-cause mortality reduction. 120 million users worldwide. Mechanism only fully elucidated 2001&ndash;2016 despite 60+ years of clinical use.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">Glucophage</span>
-          <span class="alias-pill">Fortamet</span>
-          <span class="alias-pill">Glumetza</span>
-          <span class="alias-pill">dimethylbiguanide</span>
-          <span class="alias-pill">1,1-dimethylbiguanide</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">metformin</div>
+        <h2>Metformin</h2>
+        <p class="summary">Biguanide; global first-line for type 2 diabetes. Inhibits mitochondrial Complex I → AMPK → suppressed PEPCK/G6Pase → ↓ hepatic gluconeogenesis. HbA1c −1–2%; weight-neutral; no hypoglycemia monotherapy. UKPDS: 36% mortality reduction. 120 million users.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p><strong>Metformin</strong> (1,1-dimethylbiguanide) is the most widely prescribed oral antidiabetic drug in history, with an estimated <strong>120 million people</strong> worldwide taking it daily. It is the first-line pharmacotherapy for type 2 diabetes mellitus (T2DM) in every major clinical guideline: the American Diabetes Association (ADA), European Association for the Study of Diabetes (EASD), the WHO Essential Medicines List, and national guidelines across more than 100 countries. Metformin is also the prototypical drug demonstrating that clinical utility can far precede mechanistic understanding &mdash; it entered clinical use in Europe in the late 1950s derived from <em>Galega officinalis</em> (goat&rsquo;s rue, a guanidine-containing plant used in medieval herbal medicine), yet its primary molecular mechanism was only definitively characterized between 2001 and 2016.</p>
-          <p>The mechanistic breakthrough came with the discovery that metformin inhibits <strong>Complex I (NADH:ubiquinone oxidoreductase)</strong> of the mitochondrial electron transport chain in hepatocytes. This modestly reduces ATP production, raising the AMP/ATP ratio and activating <strong>AMPK (AMP-activated protein kinase)</strong> &mdash; the cellular energy sensor. AMPK activation in turn suppresses the transcription of <em>PEPCK</em> (phosphoenolpyruvate carboxykinase) and <em>G6Pase</em> (glucose-6-phosphatase), the rate-limiting enzymes of gluconeogenesis. The net result is a reduction in hepatic glucose output, which is the dominant driver of fasting hyperglycemia in T2DM.</p>
-          <p>Metformin occupies a unique clinical niche: it lowers glucose effectively (HbA1c &minus;1.0&ndash;2.0 percentage points from baseline), is <strong>weight-neutral or modestly weight-reducing</strong>, causes <strong>no hypoglycemia as monotherapy</strong>, has a robust safety profile accumulated over six decades of use, and has demonstrated a landmark <strong>mortality benefit</strong> in the UKPDS 34 trial &mdash; a 36% reduction in all-cause mortality and 39% reduction in MI versus conventional treatment in overweight patients with newly diagnosed T2DM.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Mechanism of Action</h3>
-          <h4>Hepatic Complex I Inhibition &mdash; The Primary Mechanism</h4>
-          <div class="pathway-block">
-<pre>
-  Metformin (oral) --> intestinal absorption --> portal circulation
-       |
-       |  OCT1 (SLC22A1) transporter -- active hepatocyte uptake
-       v
-  Hepatocyte cytoplasm / mitochondria
-  (50-500x plasma concentration accumulation)
-       |
-       |  Direct binding to ND1 subunit of Complex I
-       v
-  Mitochondrial Complex I inhibition
-  (NADH:ubiquinone oxidoreductase -- partial, not complete)
-       |
-       |  Reduced ATP synthesis --> raised AMP/ATP ratio
-       v
-  AMPK activation (two routes)
-  |
-  +-- Allosteric: AMP binds AMPK gamma subunit directly
-  +-- Enzymatic: LKB1 phosphorylates AMPK Thr172 (AMP-sensitized)
-  +-- Lysosomal: v-ATPase/Ragulator/AXIN/LKB1 complex (direct, AMP-independent)
-       |
-       v
-  AMPK active form
-       |
-       +-- Phosphorylates ACC (acetyl-CoA carboxylase)
-       |        v  decreased malonyl-CoA --> increased CPT1 --> increased FAO
-       |
-       +-- Phosphorylates CRTC2 (CREB-regulated transcription coactivator 2)
-       |   Phosphorylates HDAC5
-       |        v  CREB-TORC2 complex disrupted
-       |        v  Decreased PEPCK (PCK1) transcription
-       |        v  Decreased G6Pase (G6PC) transcription
-       |
-       v
-  Decreased hepatic gluconeogenesis
-  --> Decreased fasting hepatic glucose output
-  --> Decreased fasting plasma glucose
-  --> HbA1c reduction 1-2 percentage points
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;">The hepatocyte is the primary site of metformin action. OCT1-mediated transport allows intracellular concentrations to reach 50&ndash;500 times plasma levels, achieving pharmacologically effective concentrations at the mitochondrial Complex I &mdash; concentrations that cannot be reached systemically. This explains why hepatocyte-specific OCT1 loss-of-function variants (common in European populations) reduce metformin efficacy.</p>
-          <ol class="step-list">
-            <li><strong>Intestinal absorption and hepatic uptake:</strong> Metformin is absorbed in the small intestine (bioavailability ~50&ndash;60%); enters portal circulation; OCT1 (SLC22A1) mediates active uptake into hepatocytes; accumulates to 50&ndash;500&times; plasma concentration in hepatocyte cytoplasm and mitochondria</li>
-            <li><strong>Complex I inhibition:</strong> Metformin inhibits Complex I of the mitochondrial ETC via direct binding to the ND1 subunit; reduces NADH oxidation and electron flow; effect is partial and reversible; modestly reduces mitochondrial ATP synthesis while increasing AMP</li>
-            <li><strong>AMPK activation:</strong> Elevated AMP/ATP ratio activates AMPK both allosterically (AMP binds gamma subunit) and via LKB1-mediated Thr172 phosphorylation; additionally activated via a lysosomal v-ATPase/Ragulator/AXIN/LKB1 axis that is AMP-independent</li>
-            <li><strong>CRTC2/HDAC5 phosphorylation &rarr; gluconeogenesis suppression:</strong> AMPK phosphorylates CRTC2 (CREB-regulated transcription coactivator 2) and HDAC5, disrupting the CREB&ndash;TORC2 transcriptional complex that drives PEPCK (PCK1) and G6Pase (G6PC) expression &mdash; directly suppressing hepatic gluconeogenesis</li>
-            <li><strong>ACC phosphorylation (secondary effect):</strong> AMPK phosphorylates and inactivates ACC (acetyl-CoA carboxylase), reducing malonyl-CoA and increasing fatty acid oxidation via CPT1; contributes to modest weight reduction and improved lipid profile</li>
-          </ol>
-
-          <h4>Peripheral and Gut Effects</h4>
-          <div class="pleiotropic-grid">
-            <div class="pleio-item">
-              <h4>Skeletal muscle insulin sensitization</h4>
-              <p>AMPK activation in skeletal muscle promotes GLUT4 translocation and glucose uptake; reduces peripheral insulin resistance; secondary to hepatic effect but clinically relevant in combination with exercise</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Gut microbiome modulation</h4>
-              <p>Increases Akkermansia muciniphila and lactate-producing bacteria; decreases Intestinibacter; this microbiome shift may contribute 20&ndash;30% of metformin&rsquo;s glucose-lowering effect independently of hepatic action</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Intestinal glucose absorption reduction</h4>
-              <p>High metformin concentrations in enterocytes inhibit Complex I locally; promotes intestinal lactate production; reduces glucose absorption from gut lumen; contributes to post-prandial glucose lowering</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Insulin sensitivity enhancement (no secretion)</h4>
-              <p>Metformin does not stimulate insulin secretion; effect is to reduce the insulin concentration required to suppress gluconeogenesis; improving hepatic insulin sensitivity explains the absence of hypoglycemia in monotherapy</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Indications</h3>
-          <p>Per ADA Standards of Care 2024 and major international guidelines:</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Patient Group</th><th>Recommendation</th><th>Dosing</th></tr>
-            <tr>
-              <td><strong>T2DM &mdash; first-line pharmacotherapy</strong> (ADA 2024)</td>
-              <td>Metformin preferred initial agent when lifestyle modification alone insufficient; use across the full HbA1c spectrum of T2DM</td>
-              <td>Start 500&nbsp;mg once or twice daily with meals; increase 500&nbsp;mg/week to target 2000&nbsp;mg/day (max 2550&nbsp;mg/day); extended-release (XR/ER) at same doses reduces GI side effects</td>
-            </tr>
-            <tr>
-              <td><strong>T2DM with cardiovascular disease or CKD</strong> (ADA 2024)</td>
-              <td>SGLT2i or GLP-1RA preferred as add-on or alternative when CV/renal protection needed; metformin retained in combination regimens</td>
-              <td>Continue metformin if eGFR &ge;30&nbsp;mL/min/1.73m&sup2;; dose reduce if eGFR 30&ndash;45; hold if eGFR &lt;30; co-prescribe SGLT2i (empagliflozin, dapagliflozin) for additional cardioprotection</td>
-            </tr>
-            <tr>
-              <td><strong>Diabetes prevention / prediabetes</strong></td>
-              <td>Considered in high-risk individuals (BMI &ge;35, age &lt;60, prior gestational diabetes) when lifestyle modification is insufficient; not FDA-approved for this indication but guideline-supported</td>
-              <td>500&ndash;1700&nbsp;mg/day; Diabetes Prevention Program (DPP) trial: 31% reduction in T2DM progression vs. placebo (58% with lifestyle)</td>
-            </tr>
-            <tr>
-              <td><strong>PCOS (polycystic ovary syndrome)</strong></td>
-              <td>Off-label but widely used; improves insulin resistance, reduces androgen levels, may restore ovulatory cycles in overweight women</td>
-              <td>1500&ndash;2000&nbsp;mg/day; inferior to lifestyle in weight loss but useful as adjunct, particularly when oral contraceptives are contraindicated</td>
-            </tr>
-            <tr>
-              <td><strong>Contraindications</strong></td>
-              <td>eGFR &lt;30&nbsp;mL/min/1.73m&sup2; (FDA) or eGFR &lt;30&nbsp;mL/min (EMA); acute illness with hemodynamic compromise; significant hepatic failure; active alcoholism</td>
-              <td>Hold 48h before/after iodinated contrast if eGFR &lt;60&nbsp;mL/min; restart only after renal function confirmed stable</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>metformin</td></tr>
+            <tr><td>Name</td><td>Metformin</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-04</td></tr>
+            <tr><td>Stream</td><td>01-modern</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Key Agents</h3>
-          <table class="data-table">
-            <tr><th>Agent</th><th>Dose Range</th><th>Notes</th></tr>
-            <tr>
-              <td><strong>Metformin immediate-release</strong> (Glucophage)</td>
-              <td>500&ndash;2550&nbsp;mg/day in 2&ndash;3 divided doses with meals</td>
-              <td>Standard formulation; highest GI side effect rate (20&ndash;30% mild nausea/diarrhea at initiation); titrate slowly to minimize; generically available worldwide at very low cost</td>
-            </tr>
-            <tr>
-              <td><strong>Metformin extended-release</strong> (Glucophage XR, Fortamet, Glumetza)</td>
-              <td>500&ndash;2000&nbsp;mg/day as once-daily or twice-daily dosing</td>
-              <td>Reduced GI side effects vs. IR (30&ndash;40% fewer); identical glucose lowering at equivalent total daily doses; preferred for patients with GI intolerance to IR formulation; Glumetza uses gastric-retention polymer for prolonged release</td>
-            </tr>
-            <tr>
-              <td><strong>Combination tablets</strong> (metformin + SGLT2i / DPP-4i / SU)</td>
-              <td>Per individual component dosing; fixed-dose combinations exist for most second-line agents</td>
-              <td>e.g. Janumet (metformin + sitagliptin), Synjardy (metformin + empagliflozin), Komboglyze (metformin + saxagliptin); improve adherence vs. separate tablets; not appropriate as initial therapy when second agent not yet indicated</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Evidence Base</h3>
-          <table class="data-table">
-            <tr><th>Trial / Review</th><th>Drug</th><th>Population</th><th>Key Result</th></tr>
-            <tr>
-              <td><strong>UKPDS 34 (1998)</strong></td>
-              <td>Metformin (mean dose ~2000&nbsp;mg/day)</td>
-              <td>1,704 overweight newly diagnosed T2DM patients; UK multicentre RCT; median 10.7 years follow-up</td>
-              <td class="trial-result">36% &#x2193; all-cause mortality (p=0.011); 39% &#x2193; MI (p=0.010); 32% &#x2193; any diabetes-related endpoint vs. conventional treatment. Uniquely, metformin outperformed sulfonylurea and insulin on mortality despite similar HbA1c.</td>
-            </tr>
-            <tr>
-              <td><strong>DPP (2002)</strong></td>
-              <td>Metformin 850&nbsp;mg twice daily</td>
-              <td>3,234 overweight adults with impaired fasting glucose; US RCT</td>
-              <td class="trial-result">31% &#x2193; T2DM progression vs. placebo (58% with intensive lifestyle); greatest benefit in those aged &lt;45 and BMI &ge;35; most cost-effective pharmacological prevention strategy.</td>
-            </tr>
-            <tr>
-              <td><strong>DPPOS (2012, 10-year follow-up)</strong></td>
-              <td>Metformin (ongoing)</td>
-              <td>DPP survivors; 10-year extended follow-up</td>
-              <td class="trial-result">Metformin group maintained sustained T2DM prevention benefit at 10 years; lifestyle group benefit partially waned; metformin effect persisted even after washout, suggesting metabolic reprogramming.</td>
-            </tr>
-            <tr>
-              <td><strong>Foretz et al. (2014) mechanistic review</strong></td>
-              <td>Metformin (in vitro / in vivo mechanistic studies)</td>
-              <td>Hepatocyte models, mouse studies, human OCT1 variant analyses</td>
-              <td class="trial-result">Complex I inhibition &rarr; AMPK activation &rarr; PEPCK/G6Pase suppression established as primary mechanism; OCT1 genetic variants (rs622342) linked to reduced hepatic accumulation and blunted HbA1c lowering &mdash; confirmed in clinical pharmacogenomics.</td>
-            </tr>
-            <tr>
-              <td><strong>ADA/EASD 2024 standards</strong></td>
-              <td>Metformin retained as first-line</td>
-              <td>Consensus guideline panel; evidence synthesis</td>
-              <td class="trial-result">Metformin remains preferred initial agent; SGLT2i and GLP-1RA now preferred add-ons (or alternatives) when CVD/CKD/HF present, not as replacements for metformin in uncomplicated T2DM.</td>
-            </tr>
-          </table>
-
-          <div class="principle-box">
-            <p><strong>The UKPDS Paradox:</strong> The most striking and lasting insight from UKPDS 34 is that metformin reduced mortality in overweight T2DM patients despite achieving similar glycaemic control to sulfonylureas and insulin. This means the cardiovascular and mortality benefit of metformin extends beyond HbA1c lowering alone, likely reflecting AMPK-mediated improvements in hepatic lipid metabolism, endothelial function, and reduction of atherogenic insulin excess. The UKPDS finding is why metformin remains the preferred agent even as newer drugs (SGLT2i, GLP-1RA) surpass it for specific high-risk subgroups &mdash; in uncomplicated T2DM, no drug has a better-established mortality-benefit profile combined with 60+ years of safety data.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Side Effects</h3>
-          <ul class="se-list">
-            <li><span class="badge badge-mod">Moderate</span> <strong>Gastrointestinal effects (very common, especially on initiation)</strong> &mdash; nausea, diarrhea, abdominal discomfort, metallic taste; incidence 20&ndash;30% with immediate-release formulation at initiation; substantially reduced (to ~10%) with extended-release; minimized by slow titration (500&nbsp;mg/week increase) and taking with meals; usually transient, resolving within 4&ndash;6 weeks as GI mucosa adapts.</li>
-            <li><span class="badge badge-lo">Low</span> <strong>Lactic acidosis</strong> &mdash; historically overestimated; actual incidence ~3 per 100,000 patient-years at therapeutic doses in patients without contraindications. Mechanism: metformin inhibits lactate oxidation in enterocytes (raises plasma lactate mildly); systemic lactic acidosis only in context of metformin accumulation due to renal failure, severe hepatic impairment, or profound hypoxia/hypoperfusion. Risk is not clinically meaningful in patients with eGFR &ge;30&nbsp;mL/min &mdash; lower than the mortality risk from hypoglycemia with sulfonylureas.</li>
-            <li><span class="badge badge-lo">Low (long-term)</span> <strong>Vitamin B12 deficiency</strong> &mdash; metformin reduces ileal absorption of the vitamin B12&ndash;intrinsic factor complex (mechanism: calcium-dependent ileal cubilin receptor impairment); incidence ~6&ndash;9% with long-term use; clinically significant B12 deficiency is less common but causes peripheral neuropathy and macrocytic anemia; annual B12 monitoring recommended for patients on metformin &gt;4 years, particularly vegetarians/vegans and elderly patients.</li>
-            <li><span class="badge badge-lo">Low</span> <strong>No hypoglycemia in monotherapy</strong> &mdash; unlike sulfonylureas and insulin, metformin does not stimulate insulin secretion; glucose-lowering effect is dependent on endogenous insulin being present (requires some residual beta-cell function); hypoglycemia only occurs when metformin is combined with insulin secretagogues or exogenous insulin.</li>
-            <li><span class="badge badge-lo">Low (acute)</span> <strong>Contrast-induced AKI risk interaction</strong> &mdash; metformin itself does not cause contrast nephropathy, but if AKI occurs after iodinated contrast, impaired metformin excretion may raise plasma levels and lactic acidosis risk; guideline-recommended protocol: hold metformin 48h before elective contrast in patients with eGFR &lt;60&nbsp;mL/min; restart only after renal function confirmed stable post-procedure.</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="liver.html" class="conn-pill targets">
-              <span class="rel">Primary site of action</span>
-              Liver
-            </a>
-            <a href="pancreas.html" class="conn-pill acts">
-              <span class="rel">Spares (no stimulation of)</span>
-              Pancreas
-            </a>
-            <a href="kidney.html" class="conn-pill acts">
-              <span class="rel">Renally excreted; monitor in</span>
-              Kidney
-            </a>
-            <a href="cardiovascular-system.html" class="conn-pill acts">
-              <span class="rel">Mortality benefit in</span>
-              Cardiovascular System
-            </a>
-            <a href="corticosteroids.html" class="conn-pill acts">
-              <span class="rel">Glucose counteracted by</span>
-              Corticosteroids
-            </a>
-            <a href="statins.html" class="conn-pill acts">
-              <span class="rel">Frequently co-prescribed with</span>
-              Statins
-            </a>
+            <a class="conn-pill" href="insulin.html" title="Metformin potentiates insulin signaling by reducing hepatic insulin resistance; lower fasting glucose allows the same insulin concentration to suppress gluconeogenesis more effectively; metformin does not increase insulin secretion, avoiding hypoglycemia in monotherapy."><span class="rel">modulates</span>Insulin</a>
+            <a class="conn-pill" href="liver.html" title="The primary site of metformin action is the liver; OCT1-mediated accumulation in hepatocytes reaches 50–500× plasma concentrations; Complex I inhibition raises AMP/ATP ratio → AMPK activation → ACC phosphorylation (↓ malonyl-CoA) + CREB-TORC2 disruption → ↓ PEPCK and G6Pase transcription → ↓ hepatic gluconeogenesis, the dominant mechanism of fasting hyperglycemia in T2DM."><span class="rel">treats</span>Liver</a>
+            <a class="conn-pill" href="ampk.html" title="Metformin inhibits mitochondrial Complex I → elevated AMP/ATP ratio → AMPK activation via LKB1-mediated Thr172 phosphorylation and lysosomal pathway; AMPK is the master cellular energy sensor that executes gluconeogenesis suppression, fatty acid oxidation, and anti-inflammatory effects."><span class="rel">modulates</span>Ampk</a>
+            <a class="conn-pill" href="gut-microbiome.html" title="Metformin increases gut Akkermansia muciniphila, Bifidobacterium, and lactate-producing bacteria; gut microbiome changes contribute to glucose-lowering independent of liver AMPK; microbiome-mediated bile acid and SCFA changes may account for ~20-40% of metformin HbA1c reduction."><span class="rel">modulates</span>Gut Microbiome</a>
+            <a class="conn-pill" href="macrophage.html" title="AMPK activation in macrophages by metformin reduces NLRP3 inflammasome activation and suppresses M1 polarization → reduced IL-1β/TNF-α; metformin anti-inflammatory effects in macrophages contribute to UKPDS cardiovascular benefit independent of direct glucose-lowering."><span class="rel">modulates</span>Macrophage</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="UKPDS 34: metformin reduces MI by 39% and all-cause mortality by 36% in overweight T2DM vs. conventional treatment; AMPK activation in cardiomyocytes reduces ischemia-reperfusion injury; cardiovascular benefits exceed what would be expected from HbA1c reduction alone."><span class="rel">treats</span>Cardiovascular System</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>UK Prospective Diabetes Study (UKPDS) Group. Effect of intensive blood-glucose control with metformin on complications in overweight patients with type 2 diabetes (UKPDS 34). <em>Lancet.</em> 1998;352(9131):854-65. <a href="https://doi.org/10.1016/S0140-6736(98)07037-8">doi:10.1016/S0140-6736(98)07037-8</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9742977/">PubMed 9742977</a></li>
-            <li>Foretz M, Guigas B, Bertrand L, Pollak M, Viollet B. Metformin: from mechanisms of action to therapies. <em>Cell Metab.</em> 2014;20(6):953-66. <a href="https://doi.org/10.1016/j.cmet.2014.09.018">doi:10.1016/j.cmet.2014.09.018</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25456737/">PubMed 25456737</a></li>
-            <li>Zhang CS, Li M, Ma T, et al. Metformin activates AMPK through the lysosomal pathway. <em>Cell Metab.</em> 2016;24(4):521-522. <a href="https://doi.org/10.1016/j.cmet.2016.09.003">doi:10.1016/j.cmet.2016.09.003</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27732831/">PubMed 27732831</a></li>
-            <li>American Diabetes Association Professional Practice Committee. Standards of Care in Diabetes &mdash; 2024. <em>Diabetes Care.</em> 2024;47(Suppl 1):S1-S321. <a href="https://doi.org/10.2337/dc24-Sint">doi:10.2337/dc24-Sint</a></li>
-            <li>Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin (Diabetes Prevention Program). <em>N Engl J Med.</em> 2002;346(6):393-403. <a href="https://doi.org/10.1056/NEJMoa012512">doi:10.1056/NEJMoa012512</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11832527/">PubMed 11832527</a></li>
-            <li>Bailey CJ. Metformin: historical overview. <em>Diabetologia.</em> 2017;60(9):1566-1576. <a href="https://doi.org/10.1007/s00125-017-4318-z">doi:10.1007/s00125-017-4318-z</a></li>
+            <li><a href="https://doi.org/10.1016/S0140-6736(98)07037-8" target="_blank" rel="noopener noreferrer">UK Prospective Diabetes Study (UKPDS) Group. Effect of intensive blood-glucose control with metformin on complications in overweight patients with type 2 diabetes (UKPDS 34). Lancet. 1998;352(9131):854-65.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9742977/" target="_blank" rel="noopener noreferrer">PubMed 9742977</a></li>
+            <li><a href="https://doi.org/10.1016/j.cmet.2014.09.018" target="_blank" rel="noopener noreferrer">Foretz M, Guigas B, Bertrand L, Pollak M, Viollet B. Metformin: from mechanisms of action to therapies. Cell Metab. 2014;20(6):953-66.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25456737/" target="_blank" rel="noopener noreferrer">PubMed 25456737</a></li>
+            <li><a href="https://doi.org/10.2337/dc24-Sint" target="_blank" rel="noopener noreferrer">American Diabetes Association Professional Practice Committee. Standards of Care in Diabetes — 2024. Diabetes Care. 2024;47(Suppl 1):S1-S321.</a></li>
+            <li><a href="https://doi.org/10.1016/j.cmet.2016.09.003" target="_blank" rel="noopener noreferrer">Zhang CS, Li M, Ma T, et al. Metformin activates AMPK through the lysosomal pathway. Cell Metab. 2016;24(4):521-522.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27732831/" target="_blank" rel="noopener noreferrer">PubMed 27732831</a></li>
           </ul>
         </div>
 
@@ -402,20 +186,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="medicine.html">Medicine Atlas</a>
-      <a href="pathogens.html">Pathogen Atlas</a>
-      <a href="liver.html">Liver</a>
-      <a href="pancreas.html">Pancreas</a>
-      <a href="statins.html">Statins</a>
-      <a href="corticosteroids.html">Corticosteroids</a>
-      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

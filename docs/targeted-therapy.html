@@ -3,103 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Targeted therapy in oncology — tyrosine kinase inhibitors, PARP inhibitors, and monoclonal antibodies against specific molecular alterations in cancer. Imatinib to osimertinib, trastuzumab, and beyond. Part of the Human Engineering project.">
-  <meta property="og:title" content="Targeted Therapy — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Small molecules or antibodies targeting specific oncoproteins driving tumor growth: kinase inhibitors (imatinib/BCR-ABL, erlotinib/EGFR, vemurafenib/BRAF), HER2">
+  <meta property="og:title" content="Targeted Therapy — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Targeted Therapy — Medicine Atlas · Human Engineering</title>
+  <title>Targeted Therapy — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #ec4899;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(236,72,153,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #ec4899, #be185d); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
-
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-tki { background: rgba(236,72,153,0.12); color: #ec4899; }
-    .badge-mab { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-parp { background: rgba(124,58,237,0.12); color: #7c3aed; }
-    .badge-adc { background: rgba(217,119,6,0.12); color: #d97706; }
-
-    .parp-mech { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.1rem 1.25rem; margin-top: 0.5rem; }
-    .parp-mech p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.65; margin-bottom: 0.5rem; }
-    .parp-mech p:last-child { margin-bottom: 0; }
-    .parp-mech strong { color: var(--fg); }
-
-    .resistance-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .resistance-grid { grid-template-columns: 1fr; } }
-    .res-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .res-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .res-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-
-    .note-box { background: rgba(236,72,153,0.07); border: 1px solid rgba(236,72,153,0.2); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-top: 0.5rem; }
-    .note-box p { font-size: 0.88rem; color: var(--fg-soft); line-height: 1.55; margin: 0; }
-    .note-box strong { color: var(--accent); }
-
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -112,283 +102,82 @@
 
   <nav>
     <div class="nav-inner">
-      <a href="../index.html" class="brand">
+      <a href="index.html" class="brand">
         <span class="brand-mark" aria-hidden="true"></span>
         Human Engineering
       </a>
       <div class="nav-links">
-        <a href="../index.html#mission">Mission</a>
+        <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine Atlas
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Four &middot; Medicine &middot; Cancer Pharmacology &middot; L02 Molecular</div>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
     <h1>Targeted Therapy</h1>
-    <p class="tagline">Precision oncology drugs against specific molecular alterations in cancer cells — tyrosine kinase inhibitors, PARP inhibitors, and therapeutic monoclonal antibodies — transforming cancer from a tissue diagnosis to a molecular one.</p>
-    <p class="subtagline">Imatinib (Gleevec) proved the concept in CML with 87% complete cytogenetic response. Osimertinib in EGFR-mutant NSCLC: OS 38.6 vs 31.8 months. Trastuzumab-deruxtecan (T-Dxd) in HER2-low breast cancer: a new disease category created by a drug.</p>
+    <p class="tagline">Small molecules or antibodies targeting specific oncoproteins driving tumor growth: kinase inhibitors (imatinib/BCR-ABL, erlotinib/EGFR, vemurafenib/BRAF), HER2 inhibitors (trastuzumab), VEGF inhibitors (bevacizumab). Exploits oncogene addiction.</p>
+    <p class="aliases">Also known as: molecularly targeted therapy, precision oncology, kinase inhibitors, targeted cancer therapy, oncogene-targeted therapy, tyrosine kinase inhibitors, TKI</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Major Drug Categories</span></div>
-      <div class="stat"><span class="stat-num">87%</span><span class="stat-label">CCyR Imatinib in CML (IRIS)</span></div>
-      <div class="stat"><span class="stat-num">68%</span><span class="stat-label">PFS at 3yr Alectinib (ALEX)</span></div>
-      <div class="stat"><span class="stat-num">5</span><span class="stat-label">Key Resistance Mechanisms</span></div>
+        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas · Cancer Pharmacology · Molecular Targeted Agents</div>
-        <h2>Targeted Therapy</h2>
-        <div class="drug-class">Scale: L02 Molecular &nbsp;|&nbsp; System: Oncology (multi-tumor) &nbsp;|&nbsp; Type: Small molecule TKIs, mAbs, ADCs, PARP inhibitors &nbsp;|&nbsp; Companion diagnostics required</div>
-        <p class="summary">Targeted therapies are drugs designed to interfere with specific molecular alterations that drive cancer cell proliferation, survival, and invasion. Unlike cytotoxic chemotherapy, which damages all rapidly dividing cells, targeted agents exploit vulnerabilities specific to cancer cells — oncogene dependence, synthetic lethality, and tumor-specific surface antigens. The concept was validated by imatinib's dramatic efficacy in BCR-ABL-driven CML (Drucker and Lydon, 2001), establishing "oncogene addiction" as the central principle of precision oncology. All targeted therapies require a companion diagnostic (CDx) to identify eligible patients.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">precision oncology</span>
-          <span class="alias-pill">molecularly targeted agents</span>
-          <span class="alias-pill">tyrosine kinase inhibitors</span>
-          <span class="alias-pill">TKIs</span>
-          <span class="alias-pill">PARP inhibitors</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">targeted-therapy</div>
+        <h2>Targeted Therapy</h2>
+        <p class="summary">Small molecules or antibodies targeting specific oncoproteins driving tumor growth: kinase inhibitors (imatinib/BCR-ABL, erlotinib/EGFR, vemurafenib/BRAF), HER2 inhibitors (trastuzumab), VEGF inhibitors (bevacizumab). Exploits oncogene addiction.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview — Concept and Principles</h3>
-          <p>The concept of <strong>"oncogene addiction"</strong> — that cancer cells can become critically dependent on the continued activity of a single oncogene, even when normal cells tolerate its inhibition — underpins all targeted therapy. When such an oncogene is pharmacologically inhibited, the cancer cell cannot compensate (lacking the redundant survival pathways available to normal cells) and undergoes apoptosis or growth arrest. Normal cells with the same pathway affected have redundant survival signals, yielding a therapeutic window.</p>
-          <p>Key historical milestone: <strong>Imatinib mesylate (Gleevec)</strong> — developed by Brian Drucker and Nicholas Lydon — inhibits the constitutively active BCR-ABL kinase in CML with nanomolar affinity. The IRIS trial (2001) showed 87% complete cytogenetic response (CCyR) at 18 months vs 34% with interferon-α, and ~10-year event-free survival of 83%. Imatinib transformed CML from a disease requiring bone marrow transplant to one managed with a daily oral pill, demonstrating that a single kinase could be the Achilles' heel of an entire cancer.</p>
-          <p>Targeted agents are categorized by mechanism: <strong>tyrosine kinase inhibitors (TKIs)</strong> — small molecules that compete with ATP in the kinase active site; <strong>monoclonal antibodies (mAbs)</strong> — large biologics targeting extracellular domains; <strong>antibody-drug conjugates (ADCs)</strong> — mAb-cytotoxic payload hybrids; and <strong>PARP inhibitors</strong> — exploiting DNA repair deficiencies via synthetic lethality.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Tyrosine Kinase Inhibitors (TKIs)</h3>
-          <p>Small molecules that competitively inhibit the ATP-binding pocket of receptor and non-receptor tyrosine kinases. Kinase selectivity is determined by the DFG loop conformation (Type I inhibitors: active conformation; Type II: inactive DFG-out; Type III: allosteric). Resistance commonly arises from mutations in the "gatekeeper" residue or activation loop.</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Agent (Brand)</th><th>Targets</th><th>Cancer</th><th>Key Evidence</th></tr>
-            <tr>
-              <td><strong>Imatinib</strong> (Gleevec)</td>
-              <td><span class="badge badge-tki">BCR-ABL</span> KIT, PDGFRA</td>
-              <td>CML; Ph+ ALL; GIST (KIT/PDGFRA-mutant)</td>
-              <td>IRIS: 87% CCyR at 18m in chronic-phase CML; GIST adjuvant trial: RFS improvement with 3y vs 1y imatinib (ACOSOG Z9001 and Scandinavian SSG XVIII)</td>
-            </tr>
-            <tr>
-              <td><strong>Gefitinib / Erlotinib</strong> (Iressa/Tarceva)</td>
-              <td><span class="badge badge-tki">EGFR</span> (1st-gen)</td>
-              <td>EGFR-mutant NSCLC (exon 19 del, L858R)</td>
-              <td>IPASS (gefitinib): PFS 9.5m vs 6.3m chemo in EGFR+ Asian patients; limited by T790M resistance (50% of cases)</td>
-            </tr>
-            <tr>
-              <td><strong>Osimertinib</strong> (Tagrisso)</td>
-              <td><span class="badge badge-tki">EGFR</span> (3rd-gen, T790M-selective)</td>
-              <td>EGFR-mutant NSCLC (1st-line + T790M resistance)</td>
-              <td>FLAURA: OS 38.6m vs 31.8m vs 1st-gen EGFR-TKI; ADAURA: 83% DFS at 4y with adjuvant osimertinib stage IB-IIIA</td>
-            </tr>
-            <tr>
-              <td><strong>Alectinib</strong> (Alecensa)</td>
-              <td><span class="badge badge-tki">ALK</span> (2nd-gen)</td>
-              <td>ALK-rearranged NSCLC (1st-line)</td>
-              <td>ALEX: PFS 68% at 3yr vs 11% crizotinib (HR 0.43); superior CNS penetration; 1st-line standard worldwide</td>
-            </tr>
-            <tr>
-              <td><strong>Ibrutinib</strong> (Imbruvica)</td>
-              <td><span class="badge badge-tki">BTK</span> (covalent C481)</td>
-              <td>CLL, MCL, WM, MZL, DLBCL (ABC subtype)</td>
-              <td>RESONATE: PFS HR 0.22, OS HR 0.43 vs ofatumumab in r/r CLL; RESONATE-2: PFS superior to chlorambucil in treatment-naive CLL ≥65 yo</td>
-            </tr>
-            <tr>
-              <td><strong>Ruxolitinib</strong> (Jakafi)</td>
-              <td><span class="badge badge-tki">JAK1/2</span></td>
-              <td>Myelofibrosis; polycythemia vera; acute GvHD</td>
-              <td>COMFORT-I: spleen response 41.9% vs 0.7%; symptom improvement; MF median OS benefit in longer follow-up; COMFORT-II vs BAT: spleen response 28% vs 0%</td>
-            </tr>
-            <tr>
-              <td><strong>Palbociclib / Ribociclib / Abemaciclib</strong> (Ibrance/Kisqali/Verzenio)</td>
-              <td><span class="badge badge-tki">CDK4/6</span></td>
-              <td>HR+/HER2- breast cancer (metastatic + adjuvant abemaciclib)</td>
-              <td>PALOMA-2 (palbociclib+letrozole): PFS 24.8m vs 14.5m 1st-line mBC; monarchE (abemaciclib adjuvant): invasive DFS improvement 7.6% absolute at 4yr in high-risk HR+/HER2- EBC</td>
-            </tr>
-            <tr>
-              <td><strong>Vemurafenib / Dabrafenib</strong> (Zelboraf/Tafinlar)</td>
-              <td><span class="badge badge-tki">BRAF V600E</span></td>
-              <td>BRAF V600E melanoma; + trametinib (MEK) for combo</td>
-              <td>BRIM-3: OS 13.6m vs 9.7m vemurafenib vs dacarbazine; COMBI-d (dabrafenib+trametinib): 5-yr OS 26%; BRAF inhibition as pan-tumor approach (colorectal limited — feedback RAS activation)</td>
-            </tr>
-            <tr>
-              <td><strong>Cabozantinib</strong> (Cabometyx)</td>
-              <td><span class="badge badge-tki">MET, VEGFR2, AXL, RET</span></td>
-              <td>RCC (2nd-line and 1st-line), thyroid, HCC</td>
-              <td>METEOR: OS 21.4m vs 17.1m vs everolimus in r/r RCC; CheckMate 9ER (+ nivolumab): PFS 16.6m vs 8.3m vs sunitinib in 1st-line RCC</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>targeted-therapy</td></tr>
+            <tr><td>Name</td><td>Targeted Therapy</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Stream</td><td>01-modern</td></tr>
+            <tr><td>Drug class</td><td>targeted antineoplastic</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>PARP Inhibitors</h3>
-          <p>Poly(ADP-ribose) polymerase (PARP) 1 and 2 are enzymes that sense and repair single-strand DNA breaks (SSBs) via base excision repair. PARP inhibitors (PARPi) exploit the concept of <strong>synthetic lethality</strong> in tumors with homologous recombination (HR) deficiency — most commonly due to germline or somatic <em>BRCA1/2</em> mutations.</p>
-          <div class="parp-mech">
-            <p><strong>Mechanism — Synthetic Lethality:</strong> In normal cells, when PARP is inhibited → unrepaired SSBs → stall at replication forks → double-strand breaks (DSBs) → repaired by HR using BRCA1/2. In BRCA1/2-mutant cells, HR is deficient → DSBs cannot be repaired → replication catastrophe → cell death. PARP trapping (the PARP enzyme becomes covalently bound to DNA) is a key mechanism separate from simple catalytic inhibition — trapped PARP-DNA complexes are more cytotoxic than unrepaired SSBs alone. Talazoparib has the highest PARP trapping potency; niraparib and olaparib intermediate; rucaparib lower.</p>
-            <p>The concept extends beyond BRCA1/2 to broader <strong>HRD (homologous recombination deficiency)</strong> — including PALB2, RAD51C, RAD51D, BRIP1, CHEK2 mutations and "HRD signature" by genomic scarring (LOH + TAI + LST score). The Myriad myChoice CDx assay quantifies HRD score; HRD+ tumors respond even without BRCA mutation (PRIMA trial niraparib — PFS 21.9m vs 10.4m in HRD+ ovarian, including non-BRCA).</p>
-          </div>
-          <table class="data-table" style="margin-top:0.75rem;">
-            <tr><th>Agent (Brand)</th><th>Targets</th><th>Key Indications and Trials</th></tr>
-            <tr>
-              <td><strong>Olaparib</strong> (Lynparza)</td>
-              <td><span class="badge badge-parp">PARP1/2</span></td>
-              <td>gBRCA1/2 breast cancer (OlympiAD: OS 19.3m vs 17.1m in 3L+ HER2-neg; monarchE adjuvant OS benefit signal); gBRCA1/2 ovarian (SOLO-1: PFS 56m vs 14m after platinum maintenance); gBRCA2 mCRPC (PROfound: rPFS 7.4m vs 3.6m); pancreatic (POLO: PFS 7.4m vs 3.8m gBRCA)</td>
-            </tr>
-            <tr>
-              <td><strong>Niraparib</strong> (Zejula)</td>
-              <td><span class="badge badge-parp">PARP1/2</span></td>
-              <td>Ovarian maintenance (NOVA: gBRCA+ PFS 21.0m vs 5.5m; somatic BRCA+ 20.9m vs 5.4m; non-BRCA HRD+ 12.9m vs 3.8m); PRIMA: 1st-line maintenance post-platinum ovarian</td>
-            </tr>
-            <tr>
-              <td><strong>Rucaparib</strong> (Rubraca)</td>
-              <td><span class="badge badge-parp">PARP1/2</span></td>
-              <td>BRCA-mutant ovarian (ARIEL2: ORR 54% gBRCA); prostate (TRITON2); ongoing maintenance studies</td>
-            </tr>
-            <tr>
-              <td><strong>Talazoparib</strong> (Talzenna)</td>
-              <td><span class="badge badge-parp">PARP1/2</span> (highest trapping potency)</td>
-              <td>gBRCA1/2 HER2-neg breast cancer (EMBRACA: PFS 8.6m vs 5.6m vs chemo; ORR 62.6% vs 27.2%)</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Therapeutic Monoclonal Antibodies and ADCs</h3>
-          <table class="data-table">
-            <tr><th>Agent (Brand)</th><th>Target</th><th>Cancer / Mechanism</th><th>Key Trial Result</th></tr>
-            <tr>
-              <td><strong>Trastuzumab</strong> (Herceptin)</td>
-              <td><span class="badge badge-mab">HER2</span></td>
-              <td>HER2+ breast, gastric/GEJ; inhibits HER2 dimerization + ADCC</td>
-              <td>HERA: 3-yr DFS 87.2% vs 78.6% (adj; HR 0.64); FinHER similar findings; pivotal approval 1998</td>
-            </tr>
-            <tr>
-              <td><strong>Pertuzumab + trastuzumab + taxane</strong></td>
-              <td><span class="badge badge-mab">HER2</span> (dimerization domain)</td>
-              <td>HER2+ metastatic breast (1st-line); pertuzumab blocks HER2-HER3 dimerization</td>
-              <td>CLEOPATRA: OS 57.1m vs 40.8m (HR 0.69); dual HER2 blockade + taxane as standard 1st-line mBC HER2+</td>
-            </tr>
-            <tr>
-              <td><strong>T-DM1</strong> (Kadcyla) <span class="badge badge-adc">ADC</span></td>
-              <td><span class="badge badge-mab">HER2</span>–DM1</td>
-              <td>HER2+ breast (2nd-line post-pertuzumab); trastuzumab + maytansinoid DM1 via thioether linker</td>
-              <td>EMILIA: OS 30.9m vs 25.1m vs lapatinib+capecitabine; KATHERINE: T-DM1 adjuvant residual disease after neoadjuvant → iDFS HR 0.50</td>
-            </tr>
-            <tr>
-              <td><strong>Trastuzumab deruxtecan</strong> (T-Dxd/Enhertu) <span class="badge badge-adc">ADC</span></td>
-              <td><span class="badge badge-mab">HER2</span>–DXd (Top1i) high DAR 8</td>
-              <td>HER2+ and HER2-low breast, gastric, NSCLC, CRC; bystander killing effect due to membrane-permeable payload</td>
-              <td>DESTINY-Breast04: PFS 9.9m vs 5.1m in HER2-low (IHC 1+ or 2+/ISH-) breast — created the "HER2-low" disease category; DESTINY-Breast06 (HER2-ultralow); DESTINY-Lung02: NSCLC ORR 37–55%</td>
-            </tr>
-            <tr>
-              <td><strong>Rituximab</strong> (Rituxan)</td>
-              <td><span class="badge badge-mab">CD20</span></td>
-              <td>B-cell NHL, CLL; depletes CD20+ B cells via ADCC, CDC, direct apoptosis</td>
-              <td>GELA LNH 98-5: R-CHOP vs CHOP in DLBCL — 5-yr OS 70.6% vs 57.4%; transformed DLBCL management (approval 1997)</td>
-            </tr>
-            <tr>
-              <td><strong>Bevacizumab</strong> (Avastin)</td>
-              <td><span class="badge badge-mab">VEGF-A</span></td>
-              <td>NSCLC, CRC, ovarian, cervical, glioblastoma; anti-angiogenic — blocks VEGF-A/VEGFR2</td>
-              <td>ECOG4599 (NSCLC): OS 12.3m vs 10.3m (+carboplatin/paclitaxel); AVF2107g (CRC 1st-line): OS 20.3m vs 15.6m; limited activity in gastric (AVAGAST negative for OS)</td>
-            </tr>
-            <tr>
-              <td><strong>Cetuximab</strong> (Erbitux)</td>
-              <td><span class="badge badge-mab">EGFR</span> (extracellular)</td>
-              <td>KRAS/NRAS WT CRC, HNSCC; blocks EGF binding + ADCC</td>
-              <td>CRYSTAL (CRC): OS 23.5m vs 20.0m with FOLFIRI + cetuximab; EXTREME (HNSCC): OS 10.1m vs 7.4m; RAS-WT selection critical — KRAS/NRAS G12/G13 mutations predict resistance</td>
-            </tr>
-            <tr>
-              <td><strong>Daratumumab</strong> (Darzalex)</td>
-              <td><span class="badge badge-mab">CD38</span></td>
-              <td>Multiple myeloma (multiple lines including newly diagnosed + transplant); depletes CD38-high myeloma cells via ADCC/CDC/complement + direct apoptosis</td>
-              <td>MAIA (dara+Rd): median OS not reached vs 56.2m dara-naive 1st-line; CASSIOPEIA (dara+VTd vs VTd): sCR 29% vs 20%; transformed myeloma frontline</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Resistance Mechanisms</h3>
-          <p>All targeted therapies eventually face resistance — the central limitation of oncogene-directed therapy. Mechanisms fall into five categories:</p>
-          <div class="resistance-grid">
-            <div class="res-item">
-              <h4>Secondary Target Mutation</h4>
-              <p>Mutation in the drug-binding site reduces binding affinity. Classic examples: EGFR T790M (gatekeeper mutation → osimertinib); BTK C481S (ibrutinib resistance in CLL → non-covalent BTK inhibitors: zanubrutinib, acalabrutinib have lower C481S resistance rate); BCR-ABL T315I (imatinib/dasatinib/nilotinib resistance → ponatinib).</p>
-            </div>
-            <div class="res-item">
-              <h4>Target Amplification</h4>
-              <p>Increased copy number of the oncogene outcompetes drug binding. MET amplification in 5–10% of EGFR-TKI-resistant NSCLC (bypass of EGFR signaling via MET-GAB1-PI3K); HER2 amplification in trastuzumab resistance; FGFR2 amplification in FGFR inhibitor resistance.</p>
-            </div>
-            <div class="res-item">
-              <h4>Bypass Pathway Activation</h4>
-              <p>Upregulation of alternative kinases or downstream effectors circumvents the blocked pathway. MET amplification → EGFR-independent RAS/PI3K activation; RAS mutation (KRAS G12C/G13D) in EGFR-TKI resistance; PIK3CA mutation in HER2-targeted therapy resistance; epithelial-to-mesenchymal transition (EMT) with AXL upregulation.</p>
-            </div>
-            <div class="res-item">
-              <h4>Phenotypic Transformation</h4>
-              <p>Cancer undergoes cell-lineage transformation to a resistant state. EGFR NSCLC transformation to SCLC (5–10% of EGFR-TKI resistance) — loss of Rb, TP53 gain, neuroendocrine marker expression; EGFR NSCLC transformation to squamous cell carcinoma; EMT with loss of E-cadherin and gain of vimentin.</p>
-            </div>
-            <div class="res-item">
-              <h4>Tumor Heterogeneity</h4>
-              <p>Pre-existing resistant clones selected under drug pressure (Darwinian selection). Liquid biopsy (ctDNA) reveals heterogeneous resistance mutations in CML (ABL kinase domain mutations at multiple residues simultaneously). Geographic heterogeneity in primary tumor + metastases may mean resistance is pre-existing at diagnosis.</p>
-            </div>
-          </div>
-          <div class="note-box" style="margin-top:0.75rem;">
-            <p><strong>Clinical response to resistance:</strong> Sequential generation TKIs exploit resistance mutations as druggable targets (T790M → osimertinib; C797S → allosteric EGFR inhibitors investigational). Combination strategies (e.g., EGFR-TKI + MET inhibitor at resistance — SAVANNAH/MARIPOSA-2) or alternating regimens aim to prevent or delay resistance by targeting heterogeneous mechanisms simultaneously.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="checkpoint-inhibitors.html" class="conn-pill acts">
-              <span class="rel">Combined with</span>
-              Checkpoint Inhibitors
-            </a>
-            <a href="car-t.html" class="conn-pill acts">
-              <span class="rel">Related to</span>
-              CAR-T Cell Therapy
-            </a>
-            <a href="parp-inhibitors.html" class="conn-pill targets">
-              <span class="rel">Subclass</span>
-              PARP Inhibitors
-            </a>
-            <a href="cancer-chemotherapy.html" class="conn-pill acts">
-              <span class="rel">Contrasted with</span>
-              Cancer Chemotherapy
-            </a>
-            <a href="antibody.html" class="conn-pill targets">
-              <span class="rel">Mechanism</span>
-              Antibody
-            </a>
-            <a href="igg.html" class="conn-pill targets">
-              <span class="rel">Drug class</span>
-              IgG Antibody (mAbs)
-            </a>
-            <a href="axl-receptor.html" class="conn-pill acts">
-              <span class="rel">Target</span>
-              AXL Receptor
-            </a>
+            <a class="conn-pill" href="t-cytotoxic-cell.html" title="Some targeted therapies (imatinib, vemurafenib) increase tumour immunogenicity by reducing immunosuppressive signaling in the tumour microenvironment, enhancing CD8+ T cell infiltration and synergising with checkpoint inhibitor combinations."><span class="rel">modulates</span>T Cytotoxic Cell</a>
+            <a class="conn-pill" href="tnf-alpha.html" title="EGFR/HER2 signaling activates NF-κB which drives TNF-α and pro-inflammatory cytokine production in tumor cells; EGFR inhibitors and trastuzumab reduce this NF-κB activation, shifting the tumour microenvironment cytokine milieu."><span class="rel">modulates</span>Tnf Alpha</a>
+            <a class="conn-pill" href="immune-system.html" title="Targeted therapies have selective effects on immune cells: VEGF inhibition (bevacizumab) reduces immunosuppressive regulatory T cells and improves T cell trafficking into tumors; imatinib depletes immunosuppressive MDSCs; some EGFR inhibitors enhance antigen presentation."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill damaged" href="cardiomyocyte.html" title="HER2/ErbB2 normally expressed on cardiomyocytes for cardiac homeostasis via neuregulin-ErbB4 signaling; trastuzumab blocks this pathway → LV dysfunction in 3-7% (symptomatic HF) to 10-15% (LVEF decline) of recipients; LVEF monitoring is mandatory during trastuzumab treatment."><span class="rel">damages</span>Cardiomyocyte</a>
+            <a class="conn-pill" href="lung.html" title="EGFR-mutant NSCLC (exon 19 del, L858R): osimertinib 18.9-month PFS (FLAURA); ALK-rearranged NSCLC: alectinib; BRAF V600E NSCLC: dabrafenib+trametinib; targeted therapy has transformed NSCLC from universally fatal to chronic condition in molecularly selected subgroups."><span class="rel">treats</span>Lung</a>
+            <a class="conn-pill" href="vegf.html" title="Bevacizumab sequesters VEGF-A → blocks VEGFR-2 activation → inhibits tumor angiogenesis; normalised vasculature improves drug delivery and T cell trafficking; used in CRC, ovarian, NSCLC, and glioblastoma; VEGF blockade reduces immunosuppressive MDSC and Treg recruitment."><span class="rel">inhibits</span>Vegf</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Druker BJ, Guilhot F, O'Brien SG, et al. Five-year follow-up of patients receiving imatinib for chronic myeloid leukemia (IRIS). <em>N Engl J Med.</em> 2006;355(23):2408-17. <a href="https://doi.org/10.1056/NEJMoa062867">doi:10.1056/NEJMoa062867</a> · PubMed 17151364</li>
-            <li>Ramalingam SS, Vansteenkiste J, Planchard D, et al. Overall survival with osimertinib in untreated, EGFR-mutated advanced NSCLC (FLAURA). <em>N Engl J Med.</em> 2020;382(1):41-50. <a href="https://doi.org/10.1056/NEJMoa1913662">doi:10.1056/NEJMoa1913662</a> · PubMed 31751044</li>
-            <li>Peters S, Camidge DR, Shaw AT, et al. Alectinib versus crizotinib in untreated ALK-positive non-small-cell lung cancer (ALEX). <em>N Engl J Med.</em> 2017;377(9):829-838. <a href="https://doi.org/10.1056/NEJMoa1704795">doi:10.1056/NEJMoa1704795</a> · PubMed 28586279</li>
-            <li>Robson M, Im SA, Senkus E, et al. Olaparib for metastatic breast cancer in patients with a germline BRCA mutation (OlympiAD). <em>N Engl J Med.</em> 2017;377(6):523-533. <a href="https://doi.org/10.1056/NEJMoa1706450">doi:10.1056/NEJMoa1706450</a> · PubMed 28578601</li>
-            <li>Modi S, Jacot W, Yamashita T, et al. Trastuzumab deruxtecan in previously treated HER2-low advanced breast cancer (DESTINY-Breast04). <em>N Engl J Med.</em> 2022;387(1):9-20. <a href="https://doi.org/10.1056/NEJMoa2203690">doi:10.1056/NEJMoa2203690</a> · PubMed 35665782</li>
-            <li>Coiffier B, Thieblemont C, Van Den Neste E, et al. Long-term outcome of patients in the LNH-98.5 trial, the first randomized study comparing rituximab-CHOP to standard CHOP chemotherapy in DLBCL (GELA). <em>Blood.</em> 2010;116(12):2040-5. <a href="https://doi.org/10.1182/blood-2010-03-276246">doi:10.1182/blood-2010-03-276246</a> · PubMed 20548096</li>
-            <li>Swain SM, Baselga J, Kim SB, et al. Pertuzumab, trastuzumab, and docetaxel in HER2-positive metastatic breast cancer (CLEOPATRA). <em>N Engl J Med.</em> 2015;372(8):724-34. <a href="https://doi.org/10.1056/NEJMoa1413513">doi:10.1056/NEJMoa1413513</a> · PubMed 25693012</li>
+            <li><a href="https://doi.org/10.1056/NEJM200104053441401" target="_blank" rel="noopener noreferrer">Druker BJ, Talpaz M, Resta DJ, et al. Efficacy and safety of a specific inhibitor of the BCR-ABL tyrosine kinase in chronic myeloid leukemia. N Engl J Med. 2001;344(14):1031-7.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11287972/" target="_blank" rel="noopener noreferrer">PubMed 11287972</a></li>
+            <li><a href="https://doi.org/10.1056/NEJM200103153441101" target="_blank" rel="noopener noreferrer">Slamon DJ, Leyland-Jones B, Shak S, et al. Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2. N Engl J Med. 2001;344(11):783-92.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11248153/" target="_blank" rel="noopener noreferrer">PubMed 11248153</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa040938" target="_blank" rel="noopener noreferrer">Lynch TJ, Bell DW, Sordella R, et al. Activating mutations in the epidermal growth factor receptor underlying responsiveness of non-small-cell lung cancer to gefitinib. N Engl J Med. 2004;350(21):2129-39.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15118073/" target="_blank" rel="noopener noreferrer">PubMed 15118073</a></li>
           </ul>
         </div>
 
@@ -397,18 +186,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="../index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
-      <a href="../index.html">Home</a>
-      <a href="medicine.html">Medicine Atlas</a>
-      <a href="checkpoint-inhibitors.html">Checkpoint Inhibitors</a>
-      <a href="car-t.html">CAR-T</a>
-      <a href="cancer-chemotherapy.html">Chemotherapy</a>
-      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.6rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

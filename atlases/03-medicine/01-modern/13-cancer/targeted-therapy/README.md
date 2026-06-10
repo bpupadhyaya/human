@@ -49,6 +49,15 @@ cross_links:
     relation: modulates
     evidence: druker-2001-imatinib
     note: "Targeted therapies have selective effects on immune cells: VEGF inhibition (bevacizumab) reduces immunosuppressive regulatory T cells and improves T cell trafficking into tumors; imatinib depletes immunosuppressive MDSCs; some EGFR inhibitors enhance antigen presentation."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: damages
+    note: "HER2/ErbB2 normally expressed on cardiomyocytes for cardiac homeostasis via neuregulin-ErbB4 signaling; trastuzumab blocks this pathway → LV dysfunction in 3-7% (symptomatic HF) to 10-15% (LVEF decline) of recipients; LVEF monitoring is mandatory during trastuzumab treatment."
+  - target: 01-human/06-organ/lung
+    relation: treats
+    note: "EGFR-mutant NSCLC (exon 19 del, L858R): osimertinib 18.9-month PFS (FLAURA); ALK-rearranged NSCLC: alectinib; BRAF V600E NSCLC: dabrafenib+trametinib; targeted therapy has transformed NSCLC from universally fatal to chronic condition in molecularly selected subgroups."
+  - target: 01-human/03-molecular/vegf
+    relation: inhibits
+    note: "Bevacizumab sequesters VEGF-A → blocks VEGFR-2 activation → inhibits tumor angiogenesis; normalised vasculature improves drug delivery and T cell trafficking; used in CRC, ovarian, NSCLC, and glioblastoma; VEGF blockade reduces immunosuppressive MDSC and Treg recruitment."
 ---
 
 # Targeted Therapy
@@ -163,7 +172,13 @@ BRAF V600E mutation occurs in ~50% of cutaneous melanomas. Vemurafenib/dabrafeni
 - **Modulates** → [Cytotoxic T Cell](../../../../01-human/04-cellular/t-cytotoxic-cell/README.md): Kinase inhibitors (imatinib, vemurafenib) increase tumour immunogenicity by reducing immunosuppressive cytokines in the TME, enhancing CD8+ T cell infiltration and synergising with checkpoint inhibitors in combination strategies.
 - **Modulates** → [TNF-α](../../../../01-human/03-molecular/tnf-alpha/README.md): EGFR/HER2/RAS signaling activates NF-κB-driven TNF-α production in tumor cells; targeted kinase inhibitors reduce this NF-κB activation, shifting the TME cytokine milieu toward a less immunosuppressive state.
 - **Modulates** → [Immune System](../../../../01-human/07-system/immune-system/README.md): Bevacizumab (anti-VEGF) reduces immunosuppressive MDSC/Treg recruitment by blocking VEGF-mediated immunosuppression; normalises tumour vasculature, improving T cell trafficking; imatinib depletes MDSCs; EGFR inhibitors upregulate MHC-I on tumour cells.
+- `damages` → **[Cardiomyocyte](../../../../01-human/04-cellular/cardiomyocyte/README.md)** — HER2/ErbB2 normally expressed on cardiomyocytes for cardiac homeostasis via neuregulin-ErbB4 signaling; trastuzumab blocks this pathway → LV dysfunction in 3-7% (symptomatic HF) to 10-15% (LVEF decline) of recipients; LVEF monitoring mandatory.
+- `treats` → **[Lung](../../../../01-human/06-organ/lung/README.md)** — EGFR-mutant NSCLC: osimertinib 18.9-month PFS (FLAURA); ALK-rearranged NSCLC: alectinib; BRAF V600E NSCLC: dabrafenib+trametinib; targeted therapy has transformed NSCLC from universally fatal to a chronic condition in molecularly selected subgroups.
+- `inhibits` → **[VEGF](../../../../01-human/03-molecular/vegf/README.md)** — Bevacizumab sequesters VEGF-A → blocks VEGFR-2 → inhibits tumor angiogenesis; normalised vasculature improves drug delivery and T cell trafficking; used in CRC, ovarian, NSCLC, and glioblastoma; VEGF blockade reduces immunosuppressive MDSC and Treg recruitment.
 
 [^druker-2001-imatinib]: Druker BJ, Talpaz M, Resta DJ, et al. Efficacy and safety of a specific inhibitor of the BCR-ABL tyrosine kinase in chronic myeloid leukemia. *N Engl J Med.* 2001;344(14):1031-7. [doi:10.1056/NEJM200104053441401](https://doi.org/10.1056/NEJM200104053441401) · [PubMed 11287972](https://pubmed.ncbi.nlm.nih.gov/11287972/)
 [^slamon-2001-trastuzumab]: Slamon DJ, Leyland-Jones B, Shak S, et al. Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2. *N Engl J Med.* 2001;344(11):783-92. [doi:10.1056/NEJM200103153441101](https://doi.org/10.1056/NEJM200103153441101) · [PubMed 11248153](https://pubmed.ncbi.nlm.nih.gov/11248153/)
 [^lynch-2004-egfr-mutation]: Lynch TJ, Bell DW, Sordella R, et al. Activating mutations in the epidermal growth factor receptor underlying responsiveness of non-small-cell lung cancer to gefitinib. *N Engl J Med.* 2004;350(21):2129-39. [doi:10.1056/NEJMoa040938](https://doi.org/10.1056/NEJMoa040938) · [PubMed 15118073](https://pubmed.ncbi.nlm.nih.gov/15118073/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

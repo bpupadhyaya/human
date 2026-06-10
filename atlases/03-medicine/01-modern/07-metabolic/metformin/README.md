@@ -44,7 +44,16 @@ cross_links:
     note: "The primary site of metformin action is the liver; OCT1-mediated accumulation in hepatocytes reaches 50–500× plasma concentrations; Complex I inhibition raises AMP/ATP ratio → AMPK activation → ACC phosphorylation (↓ malonyl-CoA) + CREB-TORC2 disruption → ↓ PEPCK and G6Pase transcription → ↓ hepatic gluconeogenesis, the dominant mechanism of fasting hyperglycemia in T2DM."
   - target: 01-human/03-molecular/ampk
     relation: modulates
-    note: "Modulates by AMPK."
+    note: "Metformin inhibits mitochondrial Complex I → elevated AMP/ATP ratio → AMPK activation via LKB1-mediated Thr172 phosphorylation and lysosomal pathway; AMPK is the master cellular energy sensor that executes gluconeogenesis suppression, fatty acid oxidation, and anti-inflammatory effects."
+  - target: 01-human/07-system/gut-microbiome
+    relation: modulates
+    note: "Metformin increases gut Akkermansia muciniphila, Bifidobacterium, and lactate-producing bacteria; gut microbiome changes contribute to glucose-lowering independent of liver AMPK; microbiome-mediated bile acid and SCFA changes may account for ~20-40% of metformin HbA1c reduction."
+  - target: 01-human/04-cellular/macrophage
+    relation: modulates
+    note: "AMPK activation in macrophages by metformin reduces NLRP3 inflammasome activation and suppresses M1 polarization → reduced IL-1β/TNF-α; metformin anti-inflammatory effects in macrophages contribute to UKPDS cardiovascular benefit independent of direct glucose-lowering."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: treats
+    note: "UKPDS 34: metformin reduces MI by 39% and all-cause mortality by 36% in overweight T2DM vs. conventional treatment; AMPK activation in cardiomyocytes reduces ischemia-reperfusion injury; cardiovascular benefits exceed what would be expected from HbA1c reduction alone."
 ---
 
 # Metformin
@@ -100,3 +109,9 @@ Historically overestimated. At therapeutic doses and in patients without contrai
 
 - **Modulates** → [Insulin](../../../../../01-human/03-molecular/insulin/README.md): Metformin reduces hepatic insulin resistance, allowing lower insulin concentrations to suppress gluconeogenesis; it improves insulin sensitivity without stimulating secretion, avoiding hypoglycemia.
 - **Treats** → [Liver](../../../../../01-human/06-organ/liver/README.md): The primary site of metformin action — OCT1-mediated hepatocyte uptake → Complex I inhibition → AMPK activation → suppression of PEPCK and G6Pase → reduced hepatic glucose output.
+- `modulates` → **[Gut Microbiome](../../../../../01-human/07-system/gut-microbiome/README.md)** — Metformin increases Akkermansia muciniphila, Bifidobacterium, and lactate-producing bacteria; gut microbiome changes contribute to glucose-lowering independent of liver AMPK; microbiome-mediated bile acid and SCFA changes may account for ~20-40% of metformin HbA1c reduction.
+- `modulates` → **[Macrophage](../../../../../01-human/04-cellular/macrophage/README.md)** — AMPK activation in macrophages reduces NLRP3 inflammasome activation and M1 polarization → reduced IL-1β/TNF-α; anti-inflammatory macrophage effects contribute to UKPDS cardiovascular benefit independent of direct glucose-lowering.
+- `treats` → **[Cardiovascular System](../../../../../01-human/07-system/cardiovascular-system/README.md)** — UKPDS 34: metformin reduces MI by 39% and all-cause mortality by 36% in overweight T2DM; AMPK activation in cardiomyocytes reduces ischemia-reperfusion injury; cardiovascular benefits exceed what HbA1c reduction alone would predict.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
