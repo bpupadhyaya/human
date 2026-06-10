@@ -40,6 +40,12 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "SIgA shapes host-microbiome homeostasis: coats commensal bacteria to prevent translocation; IgA-seq identifies pathobiont-specific SIgA coating; SIgA deficiency → bacterial translocation and dysbiosis; Akkermansia and Bifidobacterium are high-SIgA-coating commensals."
+  - target: 03-medicine/01-modern/08-gi/omeprazole
+    relation: modulated-by
+    note: "Chronic PPI (omeprazole) → suppressed gastric acid → altered upper GI microbiome: ↑ Streptococcus/Rothia/Veillonella colonize stomach; ↑ SIBO; disrupts lower GI microbiome; reversible on discontinuation; contributes to pneumonia and C. diff risk."
+  - target: 03-medicine/01-modern/06-antimicrobial/vancomycin
+    relation: modulated-by
+    note: "Oral vancomycin dramatically disrupts gut anaerobes (Bacteroidetes, Bifidobacterium, Lactobacillus) while sparing aerobic gram-positive cocci; microbiome recovery takes 3–6 months; vancomycin-driven dysbiosis increases VRE and C. diff colonization risk in hospital settings."
 ---
 
 # Gut Microbiome
@@ -125,6 +131,8 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Obesity](../obesity/README.md)** — dysbiosis in obesity — increased Firmicutes/Bacteroidetes, reduced Akkermansia muciniphila — increases energy harvest and drives metabolic endotoxemia (LPS → TLR4 → systemic inflammation); gut microbiome transfer from obese to germ-free mice transfers the adiposity phenotype.
 - `connects-to` → **[Adiponectin](../../../03-molecular/adiponectin/README.md)** — Microbiome dysbiosis → LPS → TLR4 → TNF-α/IL-6 → adiponectin suppression; butyrate-producing bacteria (Akkermansia, Bifidobacterium) → SCFA → PPARγ → ADIPOQ induction; probiotics and prebiotics modestly raise adiponectin in metabolic syndrome and obesity trials.
 - `connects-to` → **[Secretory IgA](../../../03-molecular/secretory-iga/README.md)** — SIgA shapes host-microbiome homeostasis: coats commensal bacteria to prevent translocation; IgA-seq identifies pathobiont-specific SIgA coating; SIgA deficiency → bacterial translocation and dysbiosis; Akkermansia and Bifidobacterium are high-SIgA-coating commensals.
+- `modulated-by` → **[Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md)** — Chronic PPI → suppressed gastric acid → altered upper GI microbiome: ↑ Streptococcus/Rothia/Veillonella colonize stomach; ↑ SIBO; disrupts lower GI microbiome; reversible on discontinuation; contributes to pneumonia and C. diff risk.
+- `modulated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — Oral vancomycin dramatically disrupts gut anaerobes (Bacteroidetes, Bifidobacterium, Lactobacillus) while sparing gram-positive cocci; microbiome recovery takes 3–6 months; vancomycin-driven dysbiosis increases VRE and C. diff colonization risk in hospital settings.
 
 ## Pathology
 
@@ -163,3 +171,6 @@ Dysbiosis — the pathological alteration of microbiome composition or function 
 
 [^sender-2016-microbiome-census]: Sender R, Fuchs S, Milo R. Revised Estimates for the Number of Human and Bacteria Cells in the Body. *Cell.* 2016;164(3):337-340. [doi:10.1016/j.cell.2016.01.013](https://doi.org/10.1016/j.cell.2016.01.013) · [PubMed 26824647](https://pubmed.ncbi.nlm.nih.gov/26824647/)
 [^turnbaugh-2006-microbiome-nature]: Turnbaugh PJ et al. An obesity-associated gut microbiome with increased capacity for energy harvest. *Nature.* 2006;444(7122):1027-1031. [doi:10.1038/nature05414](https://doi.org/10.1038/nature05414) · [PubMed 17183312](https://pubmed.ncbi.nlm.nih.gov/17183312/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Oxytocin modulates the BLA fear circuit via OTR on amygdala neurons reducing CRH-driven arousal; LC-NE hyperactivation is partially OT-regulated; intranasal OT reduces fear generalization and behavioral anxiety; may augment interoceptive exposure therapy in panic disorder."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: treated-by
+    note: "Fluoxetine is FDA-approved for panic disorder with/without agoraphobia; SSRIs first-line over benzodiazepines; initial paradoxical anxiety (5-HT1A stimulation) requires start-low-go-slow dosing; onset 4–8 weeks; 70–80% response rate; CBT additive with fluoxetine."
 ---
 
 # Panic Disorder
@@ -197,6 +200,7 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — panic disorder features BLA hyperreactivity to interoceptive and CO2 stimuli, insula hyperactivation, reduced vmPFC control over amygdala, and LC-NE dysregulation; CBT with interoceptive exposure normalizes amygdala-insula reactivity on fMRI over 12+ weeks of treatment.
 
 - `connects-to` → **[Oxytocin](../../../03-molecular/oxytocin/README.md)** — OTR on BLA and CeA neurons dampens fear circuit hyperreactivity and CRH-driven arousal that underlies panic; oxytocin modulates LC-NE excitability, attenuating the spontaneous high-frequency LC firing associated with panic attacks; intranasal OT reduces fear generalization and anticipatory anxiety; OT augmentation of interoceptive exposure therapy is an active research avenue.
+- `treated-by` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — FDA-approved for panic disorder with/without agoraphobia; SSRIs first-line over benzodiazepines; initial paradoxical anxiety (5-HT1A stimulation) requires start-low-go-slow dosing; onset 4–8 weeks; 70–80% response rate; CBT additive.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

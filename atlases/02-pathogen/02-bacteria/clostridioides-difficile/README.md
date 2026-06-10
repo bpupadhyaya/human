@@ -32,6 +32,12 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: damages
     note: "TcdA stimulates IL-8/CXCL8 from colonocytes and macrophages → intense neutrophilic mucosal infiltration (acute-phase response); CDT binary toxin promotes neutrophil evasion by inducing microtubule-dependent actin protrusions on bacterial surface."
+  - target: 03-medicine/01-modern/08-gi/omeprazole
+    relation: connects-to
+    note: "PPIs (omeprazole) are a C. diff risk factor (OR ~1.7×): suppressed gastric acid → C. diff spores survive stomach transit and germinate in small bowel; meta-analyses confirm PPI-C. diff association in hospitals; dose-dependent; consider PPI deprescription in low-risk patients."
+  - target: 03-medicine/01-modern/06-antimicrobial/vancomycin
+    relation: treated-by
+    note: "Oral vancomycin 125 mg QDS × 10 days is first-line for severe/severe-complicated C. diff (IDSA 2021); fidaxomicin preferred for recurrence; IV vancomycin does NOT reach colon — oral route only; oral vancomycin disrupts gut anaerobes and increases VRE colonization risk."
 ---
 
 # Clostridioides difficile
@@ -148,6 +154,8 @@ TcdA is the primary driver of mucosal inflammation:
 - **Damages** → [Digestive system](../../../01-human/07-system/digestive-system/README.md): C. difficile overgrows in antibiotic-disrupted microbiome with collapsed colonisation resistance. TcdA/B produce pseudomembranous colitis (yellow-white mucosal plaques on colonoscopy); severe disease → toxic megacolon, perforation, death. NAP1/027 hypervirulent ribotype (↑toxin, binary toxin CDT) → ↑mortality and recurrence [^mandell-principles].
 - **Damages** → [Immune system](../../../01-human/07-system/immune-system/README.md): Colonisation resistance (commensal microbiome competition) is the primary host defence; antibiotic exposure destroys this defence. Spores survive alcohol-based hand gels (unique among common nosocomial pathogens). Serum anti-TcdA/TcdB IgG titres correlate with protection against CDI; low IgG predicts recurrence risk [^murray-microbiology].
 - **Damages** → [Neutrophil](../../../01-human/04-cellular/neutrophil/README.md): TcdA stimulates colonocyte and macrophage IL-8/CXCL8 production → intense neutrophilic mucosal infiltration (the dominant acute-phase histological finding). Binary toxin CDT promotes neutrophil evasion via microtubule-dependent actin protrusions that enhance bacterial adhesion despite neutrophil presence [^murray-microbiology].
+- **Connects-to** → [Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md): PPIs are a C. diff risk factor (OR ~1.7×): suppressed gastric acid → C. diff spores survive stomach transit and germinate in small bowel; meta-analyses confirm PPI-C. diff association in hospitals; dose-dependent; consider PPI deprescription in low-risk patients.
+- **Treated-by** → [Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md): Oral vancomycin 125 mg QDS × 10 days is first-line for severe/severe-complicated C. diff (IDSA 2021); fidaxomicin preferred for recurrence; IV vancomycin does NOT reach colon — oral route only; oral vancomycin disrupts gut anaerobes and increases VRE colonization risk.
 
 ## Pathology
 
@@ -191,3 +199,6 @@ TcdA is the primary driver of mucosal inflammation:
 
 [^mandell-principles]: Bennett JE, Dolin R, Blaser MJ. *Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases.* 9th ed. Elsevier; 2020.
 [^murray-microbiology]: Murray PR, Rosenthal KS, Pfaller MA. *Medical Microbiology.* 9th ed. Elsevier; 2021.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

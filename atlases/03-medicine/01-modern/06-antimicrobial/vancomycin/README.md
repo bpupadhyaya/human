@@ -37,6 +37,18 @@ cross_links:
     relation: treats
     evidence: liu-2011-mrsa-guidelines
     note: "MRSA (methicillin-resistant Staphylococcus aureus) expresses PBP2a (mecA gene) that is resistant to all beta-lactams; vancomycin remains first-line IV therapy for MRSA bacteremia, endocarditis, and pneumonia per IDSA guidelines."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: treats
+    note: "Oral vancomycin 125 mg QDS × 10 days is first-line for severe/severe-complicated C. diff (IDSA 2021); fidaxomicin preferred for first recurrence; IV vancomycin does NOT reach colon — oral route only; oral vancomycin dramatically disrupts gut microbiome (primarily anaerobes)."
+  - target: 01-human/06-organ/kidney
+    relation: damages
+    note: "Vancomycin causes nephrotoxicity via oxidative tubular injury; AUC/MIC-guided dosing (target AUC 400–600 mg·h/L) replaces trough monitoring (2020 ASHP/IDSA consensus); risk factors: pre-existing CKD, prolonged courses, co-administration of NSAIDs or aminoglycosides."
+  - target: 01-human/07-system/sepsis
+    relation: treats
+    note: "Vancomycin is first-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC."
+  - target: 01-human/07-system/gut-microbiome
+    relation: modulates
+    note: "Oral vancomycin dramatically disrupts gut anaerobes (Bacteroidetes, Bifidobacterium, Lactobacillus) while sparing gram-positive cocci; microbiome recovery takes 3–6 months; vancomycin-driven dysbiosis increases VRE and C. diff colonization risk in hospital settings."
 ---
 
 # Vancomycin
@@ -121,4 +133,11 @@ Its mechanism — binding the **D-Ala-D-Ala terminus of peptidoglycan precursors
 ## Connections
 
 - **Targets** → [Peptidoglycan](../../../../../01-human/03-molecular/peptidoglycan/README.md): 5-H-bond clamp on D-Ala-D-Ala terminus of lipid II → physical blockade of transglycosylation and transpeptidation; too large for PBP mutations to overcome — hence active against MRSA.
-- **Treats** → [MRSA / S. aureus](../../../../../01-human/02-microbial/staphylococcus-aureus/README.md): First-line IV treatment for MRSA bacteremia, endocarditis, and CNS infections; the mecA-encoded PBP2a that renders S. aureus resistant to all beta-lactams does not affect vancomycin's mechanism.
+- **Treats** → [MRSA / S. aureus](../../../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md): First-line IV treatment for MRSA bacteremia, endocarditis, and CNS infections; the mecA-encoded PBP2a that renders S. aureus resistant to all beta-lactams does not affect vancomycin's mechanism.
+- **Treats** → [Clostridioides difficile](../../../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md): Oral vancomycin 125 mg QDS × 10 days is first-line for severe/severe-complicated C. diff (IDSA 2021); fidaxomicin preferred for recurrence; IV vancomycin does NOT reach colon — oral route only; oral vancomycin disrupts gut anaerobes.
+- **Damages** → [Kidney](../../../../../01-human/06-organ/kidney/README.md): Nephrotoxicity via oxidative tubular injury; AUC/MIC-guided dosing (target AUC 400–600 mg·h/L) replaces trough monitoring (2020 ASHP/IDSA consensus); risk factors: CKD, prolonged courses, co-administration of NSAIDs or aminoglycosides.
+- **Treats** → [Sepsis](../../../../../01-human/07-system/sepsis/README.md): First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing; MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
+- **Modulates** → [Gut Microbiome](../../../../../01-human/07-system/gut-microbiome/README.md): Oral vancomycin dramatically disrupts gut anaerobes (Bacteroidetes, Bifidobacterium, Lactobacillus) while sparing gram-positive cocci; microbiome recovery takes 3–6 months; vancomycin-driven dysbiosis increases VRE and C. diff colonization risk in hospital settings.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

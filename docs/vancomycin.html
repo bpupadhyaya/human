@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Vancomycin (Vancocin) — glycopeptide antibiotic. D-Ala-D-Ala binding, lipid II blockade, MRSA treatment, VRE VanA resistance, AUC/MIC monitoring, red man syndrome, RECOVERY. Human Engineering project.">
-  <meta property="og:title" content="Vancomycin — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Glycopeptide antibiotic; binds D-Ala-D-Ala terminus of peptidoglycan precursors → steric inhibition of cell wall synthesis. Essential for MRSA, VRE (with D-Ala-">
+  <meta property="og:title" content="Vancomycin — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Vancomycin — Medicine Atlas · Human Engineering</title>
+  <title>Vancomycin — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #475569;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,44 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(71,85,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #475569, #1e293b); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -92,161 +108,75 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; 01-Modern &middot; 06-Antimicrobial</div>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
     <h1>Vancomycin</h1>
-    <p class="tagline">Glycopeptide antibiotic — forms a 5-hydrogen-bond clamp around the D-Ala-D-Ala C-terminus of lipid II and peptidoglycan precursors, sterically blocking both transglycosylation and transpeptidation without binding PBPs directly.</p>
-    <p class="subtagline">The cornerstone of MRSA treatment for 40 years. VanA-mediated VRE resistance (D-Ala-D-Lac substitution, 1000× affinity loss) is a landmark example of antibiotic resistance evolution. AUC/MIC-guided dosing now replaces trough monitoring per 2020 ASHP/IDSA guidelines.</p>
+    <p class="tagline">Glycopeptide antibiotic; binds D-Ala-D-Ala terminus of peptidoglycan precursors → steric inhibition of cell wall synthesis. Essential for MRSA, VRE (with D-Ala-D-Lac resistance), and severe gram-positive infections. First-line IV MRSA bacteremia. 1952 discovery.</p>
+    <p class="aliases">Also known as: vancomycin, Vancocin, vancomycin hydrochloride, vancomycin HCl</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">MW 1449</span><span class="stat-label">Da — too large for gram-neg OM</span></div>
-      <div class="stat"><span class="stat-num">AUC/MIC</span><span class="stat-label">400–600 (2020 monitoring target)</span></div>
-      <div class="stat"><span class="stat-num">D-Ala-D-Lac</span><span class="stat-label">VanA resistance substitution</span></div>
-      <div class="stat"><span class="stat-num">&gt;90%</span><span class="stat-label">Renal elimination (unchanged)</span></div>
+        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas &middot; Antimicrobial &middot; Glycopeptide Antibiotic</div>
-        <h2>Vancomycin</h2>
-        <div class="drug-class">Class: Glycopeptide Antibiotic &nbsp;&middot;&nbsp; Route: IV (systemic); PO (C. difficile only — not absorbed) &nbsp;|&nbsp; Brand: Vancocin &nbsp;|&nbsp; Spectrum: Gram-positive only (too large for gram-negative OM)</div>
-        <p class="summary">Vancomycin (isolated 1952 from Amycolatopsis orientalis) is a tricyclic glycopeptide (MW 1449 Da) that forms five hydrogen bonds with the D-Ala-D-Ala C-terminus of lipid II and nascent peptidoglycan in the bacterial periplasm. This steric clamp physically blocks both transglycosylation (glycan chain elongation) and transpeptidation (cross-linking) without acylating PBPs directly — explaining why MRSA (PBP2a-mediated beta-lactam resistance) remains fully susceptible. VanA-type VRE substitutes D-Ala-D-Lac, losing one critical H-bond and reducing affinity 1000×. MRSA bacteremia treatment, C. difficile (oral), and meningitis. TDM now AUC₀₋₂₄/MIC 400–600 per 2020 guidelines.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">Vancocin</span>
-          <span class="alias-pill">vancomycin HCl</span>
-          <span class="alias-pill">VANC</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">vancomycin</div>
+        <h2>Vancomycin</h2>
+        <p class="summary">Glycopeptide antibiotic; binds D-Ala-D-Ala terminus of peptidoglycan precursors → steric inhibition of cell wall synthesis. Essential for MRSA, VRE (with D-Ala-D-Lac resistance), and severe gram-positive infections. First-line IV MRSA bacteremia. 1952 discovery.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Mechanism — D-Ala-D-Ala Hydrogen Bond Clamp</h3>
-          <div class="pathway-block">
-<pre>
-  Bacterial peptidoglycan precursor (lipid II) structure:
-  MurNAc-pentapeptide: L-Ala-D-Glu-DAP-D-Ala-[D-Ala] ← vancomycin target
-
-  Vancomycin tricyclic scaffold:
-  ┌─────────────────────────────────────────────────────┐
-  │ 5 hydrogen bonds to D-Ala-D-Ala C-terminus of lipid II │
-  │ Ka ~10⁶ M⁻¹; extremely tight, non-covalent binding     │
-  └─────────────────────────────────────────────────────┘
-          │
-          ▼  Physical blockade of:
-  ┌──────────────────────────────────────────┐
-  │ Transglycosylation (MurG/PBP1a/1b):     │
-  │ Cannot polymerize lipid II into glycan   │
-  │ chains — wall synthesis halted           │
-  └──────────────────────────────────────────┘
-  ┌──────────────────────────────────────────┐
-  │ Transpeptidation (PBPs):                 │
-  │ Cannot access D-Ala-D-Ala substrate —   │
-  │ cross-linking of peptide stems blocked   │
-  └──────────────────────────────────────────┘
-          ▼
-  Cell wall fails → osmotic lysis (bactericidal)
-
-  VanA RESISTANCE:
-  D-Ala-D-[D-Lac] substitution (ester bond, not amide)
-  → Loss of 1 H-bond from NH → Ka reduced 1000×
-  → MIC rises from ~2 to &gt;256 μg/mL → VRE
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;"><strong>Why inactive against gram-negatives?</strong> Vancomycin (MW 1449 Da, hydrophilic) cannot penetrate the outer membrane lipopolysaccharide barrier of gram-negative bacteria. It only reaches its target (periplasmic D-Ala-D-Ala) in gram-positive organisms, which have no outer membrane.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>VanA Resistance — D-Ala-D-Lac Mechanism</h3>
-          <p>VanA-type resistance (vancomycin MIC ≥32; teicoplanin MIC ≥8) is encoded by the transposon Tn1546 carrying seven genes:</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Gene</th><th>Function</th></tr>
-            <tr><td>vanH</td><td>D-lactate dehydrogenase — produces D-lactate from pyruvate</td></tr>
-            <tr><td>vanA</td><td>D-Ala-D-Lac ligase — synthesizes D-Ala-D-Lac (instead of D-Ala-D-Ala)</td></tr>
-            <tr><td>vanX</td><td>D,D-dipeptidase — hydrolyzes residual D-Ala-D-Ala (removes susceptible target)</td></tr>
-            <tr><td>vanY</td><td>D,D-carboxypeptidase — removes terminal D-Ala from any remaining precursors</td></tr>
-            <tr><td>vanR/vanS</td><td>Two-component regulatory system — vancomycin sensing and VanA operon induction</td></tr>
-            <tr><td>vanZ</td><td>Teicoplanin resistance (mechanism unclear)</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;"><strong>Clinical impact:</strong> VRE (VanA/B/C types) are major nosocomial pathogens in ICUs globally. VRSA (vancomycin-resistant S. aureus) has emerged rarely via horizontal transfer of VanA operon from VRE to MRSA — the nightmare scenario of dual beta-lactam + glycopeptide resistance.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Therapeutic Drug Monitoring — 2020 Guidelines</h3>
-          <p>The 2020 ASHP/IDSA/SIDP consensus guideline replaced trough-only monitoring with <strong>AUC/MIC-guided dosing</strong> for serious infections:</p>
-          <table class="data-table">
-            <tr><th>Parameter</th><th>Target</th><th>Rationale</th></tr>
-            <tr><td>AUC₀₋₂₄/MIC (serious MRSA)</td><td>400–600 mg·h/L (for MIC ≤1 μg/mL)</td><td>Efficacy: AUC/MIC correlates best with bacterial killing; Safety: AUC &gt;600 increases nephrotoxicity</td></tr>
-            <tr><td>Trough (no longer primary target)</td><td>Not recommended as primary target; if measured, 10–20 mg/L typical</td><td>Trough alone → overuse of high doses → nephrotoxicity without efficacy benefit</td></tr>
-            <tr><td>Practical AUC estimation</td><td>Two-point Bayesian estimation (peak + trough) or pharmacokinetic software</td><td>Population-based Bayesian allows rapid AUC estimation at steady state</td></tr>
-            <tr><td>Continuous infusion</td><td>Steady-state concentration 20–25 mg/L</td><td>Alternative to intermittent dosing; reduces peak concentration → may reduce nephrotoxicity</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>vancomycin</td></tr>
+            <tr><td>Name</td><td>Vancomycin</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Stream</td><td>01-modern</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Clinical Indications</h3>
-          <table class="data-table">
-            <tr><th>Indication</th><th>Dose / Route</th><th>Notes</th></tr>
-            <tr><td>MRSA bacteremia</td><td>25–30 mg/kg IV loading → 15–20 mg/kg q8–12h; AUC-guided</td><td>First-line per IDSA; treat ≥14 days (uncomplicated); ≥6 weeks (endocarditis)</td></tr>
-            <tr><td>MRSA pneumonia</td><td>15–20 mg/kg IV q8–12h; AUC-guided</td><td>Linezolid superior for lung penetration (VAP); vancomycin still widely used</td></tr>
-            <tr><td>C. difficile (moderate-severe)</td><td>125 mg PO QDS × 10 days</td><td>Oral only — not absorbed; acts intraluminally; superior to metronidazole for severe CDI</td></tr>
-            <tr><td>Bacterial meningitis (empiric)</td><td>15–20 mg/kg IV q8–12h + ceftriaxone</td><td>Covers PRSP (penicillin-resistant S. pneumoniae); penetrates inflamed meninges</td></tr>
-            <tr><td>MRSA surgical prophylaxis</td><td>Single 1–1.5 g IV 60–120 min pre-incision</td><td>For MRSA carriers undergoing cardiac/orthopedic surgery; replaces cefazolin</td></tr>
-            <tr><td>Gram-positive prosthetic device infection</td><td>Per cultures; often with rifampicin for biofilm</td><td>Inadequate biofilm penetration alone; rifampicin synergy for staphylococcal device infection</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Adverse Effects</h3>
-          <ul class="se-list">
-            <li><strong>Nephrotoxicity (most important, ~10–15%):</strong> Risk factors: high trough concentrations (&gt;20 mg/L), prolonged therapy (&gt;7 days), concurrent nephrotoxins (aminoglycosides, loop diuretics, contrast), baseline CKD; AUC-guided dosing reduces nephrotoxicity compared with trough-guided (higher AUC targets previously drove high troughs); monitor SCr and urine output daily in ICU patients</li>
-            <li><strong>Red man syndrome (not true allergy):</strong> Histamine release from mast cells during rapid IV infusion → flushing, erythema, pruritus of face/neck/chest ± hypotension; dose-rate dependent, not immune-mediated; prevent with slow infusion rate (1 g over ≥60 min, 1.5–2 g over 90 min) and diphenhydramine pre-medication; NOT a contraindication to vancomycin therapy</li>
-            <li><strong>Ototoxicity (rare at therapeutic doses):</strong> Cochlear (sensorineural hearing loss) and vestibular; risk increased by concurrent loop diuretics and aminoglycosides, and possibly by sustained high AUC concentrations; audiological monitoring for prolonged high-dose courses</li>
-            <li><strong>Thrombophlebitis:</strong> Peripheral IV vancomycin causes significant vein inflammation; use central line for courses &gt;2–3 days; dilute adequately (maximum 5 mg/mL for peripheral IV)</li>
-            <li><strong>Leukopenia / neutropenia (rare):</strong> Typically after prolonged treatment; monitor CBC weekly for courses &gt;2 weeks</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="#" class="conn-pill targets">
-              <span class="rel">Targets</span>
-              D-Ala-D-Ala / Lipid II / Peptidoglycan
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Treats</span>
-              MRSA Bacteremia / Endocarditis
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Treats</span>
-              C. difficile (oral)
-            </a>
-            <a href="amoxicillin.html" class="conn-pill acts">
-              <span class="rel">Related</span>
-              Amoxicillin (PBP covalent mechanism — different target)
-            </a>
+            <a class="conn-pill" href="staphylococcus-aureus.html" title="MRSA (methicillin-resistant Staphylococcus aureus) expresses PBP2a (mecA gene) that is resistant to all beta-lactams; vancomycin remains first-line IV therapy for MRSA bacteremia, endocarditis, and pneumonia per IDSA guidelines."><span class="rel">treats</span>Staphylococcus Aureus</a>
+            <a class="conn-pill" href="clostridioides-difficile.html" title="Oral vancomycin 125 mg QDS × 10 days is first-line for severe/severe-complicated C. diff (IDSA 2021); fidaxomicin preferred for first recurrence; IV vancomycin does NOT reach colon — oral route only; oral vancomycin dramatically disrupts gut microbiome (primarily anaerobes)."><span class="rel">treats</span>Clostridioides Difficile</a>
+            <a class="conn-pill damaged" href="kidney.html" title="Vancomycin causes nephrotoxicity via oxidative tubular injury; AUC/MIC-guided dosing (target AUC 400–600 mg·h/L) replaces trough monitoring (2020 ASHP/IDSA consensus); risk factors: pre-existing CKD, prolonged courses, co-administration of NSAIDs or aminoglycosides."><span class="rel">damages</span>Kidney</a>
+            <a class="conn-pill" href="sepsis.html" title="Vancomycin is first-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC."><span class="rel">treats</span>Sepsis</a>
+            <a class="conn-pill" href="gut-microbiome.html" title="Oral vancomycin dramatically disrupts gut anaerobes (Bacteroidetes, Bifidobacterium, Lactobacillus) while sparing gram-positive cocci; microbiome recovery takes 3–6 months; vancomycin-driven dysbiosis increases VRE and C. diff colonization risk in hospital settings."><span class="rel">modulates</span>Gut Microbiome</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Liu C, Bayer A, Cosgrove SE, et al. Clinical practice guidelines by the Infectious Diseases Society of America for the treatment of methicillin-resistant Staphylococcus aureus infections. <em>Clin Infect Dis.</em> 2011;52(3):e18-55. <a href="https://doi.org/10.1093/cid/ciq146" target="_blank" rel="noopener noreferrer">doi:10.1093/cid/ciq146</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21208910/" target="_blank" rel="noopener noreferrer">PubMed 21208910</a></li>
-            <li>Rybak MJ, Le J, Lodise TP, et al. Therapeutic monitoring of vancomycin for serious methicillin-resistant Staphylococcus aureus infections: A revised consensus guideline. <em>Am J Health Syst Pharm.</em> 2020;77(11):835-864. <a href="https://doi.org/10.1093/ajhp/zxaa036" target="_blank" rel="noopener noreferrer">doi:10.1093/ajhp/zxaa036</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32191793/" target="_blank" rel="noopener noreferrer">PubMed 32191793</a></li>
-            <li>Arthur M, Courvalin P. Genetics and mechanisms of glycopeptide resistance in enterococci. <em>Antimicrob Agents Chemother.</em> 1993;37(8):1563-71. <a href="https://doi.org/10.1128/AAC.37.8.1563" target="_blank" rel="noopener noreferrer">doi:10.1128/AAC.37.8.1563</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8215264/" target="_blank" rel="noopener noreferrer">PubMed 8215264</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/13425756/" target="_blank" rel="noopener noreferrer">McCormick MH, Stark WM, Pittenger GE, Pittenger RC, McGuire JM. Vancomycin, a new antibiotic. I. Chemical and biologic properties. Antibiot Annu. 1956;3:606-11.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/13425756/" target="_blank" rel="noopener noreferrer">PubMed 13425756</a></li>
+            <li><a href="https://doi.org/10.1093/cid/ciq146" target="_blank" rel="noopener noreferrer">Liu C, Bayer A, Cosgrove SE, et al. Clinical practice guidelines by the Infectious Diseases Society of America for the treatment of methicillin-resistant Staphylococcus aureus infections in adults and children. Clin Infect Dis. 2011;52(3):e18-55.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21208910/" target="_blank" rel="noopener noreferrer">PubMed 21208910</a></li>
+            <li><a href="https://doi.org/10.1128/AAC.37.8.1563" target="_blank" rel="noopener noreferrer">Arthur M, Courvalin P. Genetics and mechanisms of glycopeptide resistance in enterococci. Antimicrob Agents Chemother. 1993;37(8):1563-71.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/8215264/" target="_blank" rel="noopener noreferrer">PubMed 8215264</a></li>
+            <li><a href="https://doi.org/10.1093/ajhp/zxaa036" target="_blank" rel="noopener noreferrer">Rybak MJ, Le J, Lodise TP, et al. Therapeutic monitoring of vancomycin for serious methicillin-resistant Staphylococcus aureus infections: A revised consensus guideline and review by the American Society of Health-System Pharmacists, the Infectious Diseases Society of America, and the Society of Infectious Diseases Pharmacists. Am J Health Syst Pharm. 2020;77(11):835-864.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/32191793/" target="_blank" rel="noopener noreferrer">PubMed 32191793</a></li>
           </ul>
         </div>
 
@@ -255,10 +185,9 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>

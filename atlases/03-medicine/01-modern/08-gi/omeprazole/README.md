@@ -37,6 +37,15 @@ cross_links:
     relation: targets
     evidence: fellenius-1981-omeprazole
     note: "Omeprazole concentrates in the acidic secretory canaliculi of parietal cells, where it is protonated and converted to the active sulfenamide form that covalently binds Cys813 and Cys892 of H⁺/K⁺-ATPase, irreversibly inhibiting acid secretion."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: treats
+    note: "PPI is essential in H. pylori eradication: raises gastric pH → synergizes with clarithromycin (acid-labile) and amoxicillin; Maastricht VI (2022): standard triple therapy (PPI + clarithromycin + amoxicillin × 14 days); bismuth quadruple for clarithromycin-resistant regions."
+  - target: 01-human/07-system/gut-microbiome
+    relation: modulates
+    note: "Chronic PPI → suppressed gastric acid → altered upper GI microbiome: ↑ Streptococcus/Rothia/Veillonella colonize stomach; ↑ SIBO (small intestinal bacterial overgrowth); disrupts lower GI microbiome; reversible on discontinuation; contributes to pneumonia and C. diff risk."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: connects-to
+    note: "PPIs are a C. diff risk factor (OR ~1.7×): suppressed gastric acid → C. diff spores survive stomach transit and germinate in small bowel; meta-analyses confirm PPI-C. diff association in hospitals; dose-dependent; consider PPI deprescription in low-risk patients."
 ---
 
 # Omeprazole
@@ -102,4 +111,9 @@ Omeprazole is the cornerstone pharmacotherapy for **gastroesophageal reflux dise
 ## Connections
 
 - **Targets** → [Stomach parietal cell H⁺/K⁺-ATPase](../../../../../01-human/06-organ/stomach/README.md): Irreversibly inactivates the proton pump via covalent sulfenamide bond to Cys813/Cys892, blocking all acid secretion regardless of stimulus.
-- **Part-of** → [H. pylori Eradication Regimens](../../06-antimicrobial/README.md): Omeprazole is obligatory in triple and quadruple therapy — pH >6 enhances antibiotic stability and bactericidal activity.
+- **Treats** → [Helicobacter pylori](../../../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md): PPI is essential in H. pylori eradication: raises gastric pH → synergizes with clarithromycin (acid-labile) and amoxicillin; Maastricht VI (2022): standard triple therapy (PPI + clarithromycin + amoxicillin × 14 days); bismuth quadruple for clarithromycin-resistant regions.
+- **Modulates** → [Gut Microbiome](../../../../../01-human/07-system/gut-microbiome/README.md): Chronic PPI → suppressed gastric acid → altered upper GI microbiome: ↑ Streptococcus/Rothia/Veillonella colonize stomach; ↑ SIBO; disrupts lower GI microbiome; reversible on discontinuation; contributes to pneumonia and C. diff risk.
+- **Connects-to** → [Clostridioides difficile](../../../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md): PPIs are a C. diff risk factor (OR ~1.7×): suppressed gastric acid → C. diff spores survive stomach transit and germinate in small bowel; meta-analyses confirm PPI-C. diff association in hospitals; dose-dependent; consider PPI deprescription in low-risk patients.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

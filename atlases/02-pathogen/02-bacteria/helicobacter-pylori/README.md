@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: damages
     note: "H. pylori LPS reaches the liver via portal blood; eradication improves liver enzymes in NAFLD (meta-analysis); urease-derived NH₃ may exacerbate hepatic encephalopathy in cirrhosis via the gut-liver axis."
+  - target: 03-medicine/01-modern/08-gi/omeprazole
+    relation: treated-by
+    note: "PPI (omeprazole) is essential in H. pylori eradication: raises gastric pH → synergizes with clarithromycin (acid-labile) and amoxicillin; Maastricht VI (2022): standard triple therapy (PPI + clarithromycin + amoxicillin × 14 days); bismuth quadruple for clarithromycin-resistant regions."
 ---
 
 # Helicobacter pylori
@@ -141,6 +144,7 @@ VacA allelic variation (s1/s2 signal region; m1/m2 middle region) predicts cytot
 - **Damages** → [Digestive system](../../../01-human/07-system/digestive-system/README.md): H. pylori is the causative agent of 95% of duodenal and 70% of gastric peptic ulcers. CagA+ strains disrupt somatostatin→gastrin→acid regulation, drive intestinal metaplasia (Correa cascade), and are causal in non-cardia gastric adenocarcinoma (~75% attributable fraction). MALT lymphoma uniquely responds to antibiotic eradication alone in 80% of cases [^mandell-principles].
 - **Damages** → [Macrophage](../../../01-human/04-cellular/macrophage/README.md): VacA impairs V-ATPase function in macrophage phagolysosomes, enabling intracellular bacterial survival. VacA also inhibits T cell IL-2 signalling. CagA disrupts macrophage apoptosis via SHP-2, sustaining the chronic bacterial reservoir [^murray-microbiology].
 - **Damages** → [Liver](../../../01-human/06-organ/liver/README.md): H. pylori LPS traffics to the liver via portal circulation. Meta-analyses report improved liver enzymes after H. pylori eradication in NAFLD patients. Urease-derived NH₃ may exacerbate hepatic encephalopathy in cirrhotic patients via the gut-liver axis [^murray-microbiology].
+- **Treated-by** → [Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md): PPI (omeprazole) is essential in H. pylori eradication: raises gastric pH → synergizes with clarithromycin (acid-labile) and amoxicillin; Maastricht VI (2022): standard triple therapy (PPI + clarithromycin + amoxicillin × 14 days); bismuth quadruple for clarithromycin-resistant regions.
 
 ## Pathology
 
@@ -180,3 +184,6 @@ VacA allelic variation (s1/s2 signal region; m1/m2 middle region) predicts cytot
 
 [^mandell-principles]: Bennett JE, Dolin R, Blaser MJ. *Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases.* 9th ed. Elsevier; 2020.
 [^murray-microbiology]: Murray PR, Rosenthal KS, Pfaller MA. *Medical Microbiology.* 9th ed. Elsevier; 2021.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

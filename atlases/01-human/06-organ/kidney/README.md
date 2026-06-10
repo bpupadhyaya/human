@@ -79,6 +79,9 @@ cross_links:
   - target: 03-medicine/02-traditional/licorice-root
     relation: modulated-by
     note: "Modulated by Licorice Root (Glycyrrhiza glabra / G. uralensis)."
+  - target: 03-medicine/01-modern/06-antimicrobial/vancomycin
+    relation: damaged-by
+    note: "Vancomycin causes nephrotoxicity via oxidative tubular injury; AUC/MIC-guided dosing (target AUC 400–600 mg·h/L) replaces trough monitoring (2020 ASHP/IDSA consensus); risk factors: CKD, prolonged courses, NSAIDs or aminoglycoside co-administration."
 taxonomy:
   uberon: "UBERON:0002113"
   fma: "FMA:7203"
@@ -208,6 +211,7 @@ ACE inhibitors interrupt this cascade by blocking ACE; this reduces Ang II, dila
 - **Damaged by:** SARS-CoV-2 — AKI via multiple mechanisms.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management in kidney disease.
+- **Damaged-by** → [Vancomycin](../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md): Nephrotoxicity via oxidative tubular injury; AUC/MIC-guided dosing (target AUC 400–600 mg·h/L) replaces trough monitoring (2020 ASHP/IDSA consensus); risk factors: CKD, prolonged courses, NSAIDs or aminoglycoside co-administration.
 
 ## Pathology
 
@@ -258,3 +262,6 @@ Leading causes worldwide: **diabetic nephropathy** (40%), hypertensive nephroscl
 [^kdigo-2012-ckd]: KDIGO CKD Work Group. KDIGO 2012 Clinical Practice Guideline for CKD. *Kidney Int Suppl.* 2013;3(1):1-150. [kdigo.org](https://kdigo.org/guidelines/ckd-evaluation-and-management/)
 [^kdigo-2012-aki]: KDIGO AKI Work Group. KDIGO Clinical Practice Guideline for Acute Kidney Injury. *Kidney Int Suppl.* 2012;2(1):1-138. [kdigo.org](https://kdigo.org/guidelines/acute-kidney-injury/)
 [^vanholder-2021-ckd-epidemiology]: Vanholder R, Annemans L, Brown E, et al. Reducing the costs of chronic kidney disease while delivering quality health care. *Nat Rev Nephrol.* 2017;13(7):393-409. [doi:10.1038/nrneph.2017.63](https://doi.org/10.1038/nrneph.2017.63) · [PubMed 28479604](https://pubmed.ncbi.nlm.nih.gov/28479604/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

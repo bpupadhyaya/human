@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Helicobacter pylori — Atlas Two Pathogen entry. Urease acid survival, CagA T4SS injection, VacA vacuolating cytotoxin, Correa cascade gastric cancer, MALT lymphoma. Part of the Human Engineering project.">
-  <meta property="og:title" content="Helicobacter pylori — Human Engineering Pathogen Atlas">
-  <meta property="og:description" content="H. pylori: urease NH₃ acid neutralisation, CagA SHP-2 oncogenic signalling, VacA T-cell suppression, Correa cascade to gastric adenocarcinoma, MALT lymphoma eradication.">
+  <meta name="description" content="Gram-negative microaerophilic spiral rod; colonises ~50% of humanity. IARC class I carcinogen. Causes peptic ulcers, gastric adenocarcinoma, and MALT lymphoma v">
+  <meta property="og:title" content="Helicobacter pylori — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Helicobacter pylori — Human Engineering</title>
   <style>
@@ -14,84 +13,83 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #92400e;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.9rem; background: rgba(146,64,14,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 22ch; }
-    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
-    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 1.75rem 2rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
-    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
-    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
-    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
-    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
-    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
-    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
-    .mech-item.danger { border-left-color: #dc2626; }
-    .mech-item.immune { border-left-color: var(--ai); }
-    .mech-item.latent { border-left-color: var(--accent); }
-    .mech-item.drug   { border-left-color: var(--bio); }
-    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
-    .path-table td:first-child { font-weight: 600; color: var(--fg); }
-    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
-    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
-    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
-    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
-    .conn-pill.infects .rel { color: var(--ai); }
-    .conn-pill.damages .rel { color: #dc2626; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-    .refs li a:hover { color: var(--human); }
-    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
-    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
-    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
-    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
-    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
-    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
-    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
-    .btn svg { width: 16px; height: 16px; }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -102,212 +100,99 @@
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="index.html" class="brand">
-      <span class="brand-mark" aria-hidden="true"></span>
-      Human Engineering
-    </a>
-    <div class="nav-links">
-      <a href="index.html#mission">Mission</a>
-      <a href="index.html#scales">Scales</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 02-bacteria</div>
+    <h1>Helicobacter pylori</h1>
+    <p class="tagline">Gram-negative microaerophilic spiral rod; colonises ~50% of humanity. IARC class I carcinogen. Causes peptic ulcers, gastric adenocarcinoma, and MALT lymphoma via urease, CagA T4SS injection, and VacA cytotoxin.</p>
+    <p class="aliases">Also known as: H. pylori, Campylobacter pylori, HP, CagA+ H. pylori, pylori</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">02-bacteria</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
+        <div class="entry-eyebrow">helicobacter-pylori</div>
+        <h2>Helicobacter pylori</h2>
+        <p class="summary">Gram-negative microaerophilic spiral rod; colonises ~50% of humanity. IARC class I carcinogen. Causes peptic ulcers, gastric adenocarcinoma, and MALT lymphoma via urease, CagA T4SS injection, and VacA cytotoxin.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>helicobacter-pylori</td></tr>
+            <tr><td>Name</td><td>Helicobacter pylori</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Class</td><td>02-bacteria</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="stomach.html" title="H. pylori colonises gastric antrum and body using urease (NH₃ neutralises acid) and BabA/SabA adhesins; CagA T4SS injection and VacA disrupt epithelial signalling; long-term colonisation causes type B chronic active gastritis."><span class="rel">infects</span>Stomach</a>
+            <a class="conn-pill damaged" href="digestive-system.html" title="H. pylori causes 95% of duodenal and 70% of gastric ulcers; disrupts the somatostatin→gastrin→acid balance; CagA+ strains drive intestinal metaplasia→dysplasia→non-cardia gastric adenocarcinoma; MALT lymphoma responds to antibiotic eradication."><span class="rel">damages</span>Digestive System</a>
+            <a class="conn-pill damaged" href="macrophage.html" title="VacA toxin inhibits T cell IL-2 signalling and impairs macrophage phagosome maturation (↓V-ATPase → intracellular survival); CagA disrupts macrophage apoptosis signalling, enabling chronic persistent infection despite immune activation."><span class="rel">damages</span>Macrophage</a>
+            <a class="conn-pill damaged" href="liver.html" title="H. pylori LPS reaches the liver via portal blood; eradication improves liver enzymes in NAFLD (meta-analysis); urease-derived NH₃ may exacerbate hepatic encephalopathy in cirrhosis via the gut-liver axis."><span class="rel">damages</span>Liver</a>
+            <a class="conn-pill" href="omeprazole.html" title="PPI (omeprazole) is essential in H. pylori eradication: raises gastric pH → synergizes with clarithromycin (acid-labile) and amoxicillin; Maastricht VI (2022): standard triple therapy (PPI + clarithromycin + amoxicillin × 14 days); bismuth quadruple for clarithromycin-resistant regions."><span class="rel">treated-by</span>Omeprazole</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
+            <li><a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener noreferrer">Murray PR, Rosenthal KS, Pfaller MA. Medical Microbiology. 9th ed. Elsevier; 2021.</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="index.html#join">Join</a>
-      <a href="pathogens.html" class="nav-back">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-        Pathogens
-      </a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-  </div>
-</nav>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-<div class="hero">
-  <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Bacteria</div>
-  <h1><em>Helicobacter pylori</em></h1>
-  <p class="tagline">Half of humanity carries it. An IARC Group 1 carcinogen that colonises the gastric mucosa for decades, rewires acid secretion, and drives the Correa cascade toward gastric cancer — yet 80% of carriers are asymptomatic.</p>
-  <p class="subtagline">Gram-negative microaerophilic spiral rod; the only bacterium uniquely adapted to the pH 1–2 gastric lumen. Urease constitutes ~6% of total bacterial protein and generates an NH&#x2083; micro-environment enabling motility through gastric mucus. In CagA+ strains (60% of Western, ~90% of East Asian isolates), the 40 kb cagPAI encodes a type IV secretion system that injects CagA oncoprotein into gastric epithelial cells. VacA pore-forming cytotoxin disrupts T cell IL-2 signalling and impairs macrophage phagosome maturation — creating an immunologically tolerant niche for decades-long persistence.</p>
-  <div class="stat-row">
-    <div class="stat"><span class="stat-num">~50%</span><span class="stat-label">Global population colonised</span></div>
-    <div class="stat"><span class="stat-num">95%</span><span class="stat-label">Of duodenal ulcers H. pylori+</span></div>
-    <div class="stat"><span class="stat-num">~75%</span><span class="stat-label">Non-cardia gastric cancer attributable</span></div>
-    <div class="stat"><span class="stat-num">80%</span><span class="stat-label">MALT lymphoma: complete remission after eradication</span></div>
-    <div class="stat"><span class="stat-num">1994</span><span class="stat-label">IARC Group 1 carcinogen classification</span></div>
-  </div>
-</div>
-
-<main>
-
-  <div class="detail-card" id="h-pylori">
-    <div class="detail-header" style="background: linear-gradient(135deg, #92400e, #78350f);">
-      <div class="entry-eyebrow">Helicobacteraceae &middot; Gram-negative microaerophilic spiral rod &middot; 4–6 unipolar sheathed flagella &middot; IARC Group 1 carcinogen</div>
-      <h3><em>Helicobacter pylori</em></h3>
-      <p class="summary">Gram-negative microaerophilic (5% O&#8322;) spiral rod (~3 &micro;m &times; 0.5 &micro;m) with 4&ndash;6 unipolar sheathed flagella; colonises the gastric mucosa of ~50% of humanity, predominantly acquired in childhood via fecal-oral or gastric-oral routes. Urease (~6% of total protein; hexadimeric, Ni&#178;&sup3;-containing) enables survival and chemotactic navigation through the pH 1&ndash;2 gastric lumen by generating local NH&#x2083; to neutralise acid. BabA (Lewis b antigen adhesin) and SabA adhesins anchor colonisation to gastric epithelium. In CagA+ strains, the 40 kb cagPAI type IV secretion system (T4SS) injects CagA oncoprotein into gastric epithelial cells; host kinases phosphorylate CagA EPIYA motifs, activating SHP-2 &rarr; ERK/MAPK &rarr; ↑proliferation, ↓apoptosis, disrupted epithelial polarity, and nuclear &beta;-catenin via E-cadherin disruption. VacA (vacuolating cytotoxin A; ~140 kDa pore-forming) inhibits V-ATPase, induces T-cell NFAT/IL-2 suppression, and impairs macrophage phagosomal killing. Long-term colonisation &rarr; Correa cascade (chronic gastritis &rarr; atrophic gastritis &rarr; intestinal metaplasia &rarr; dysplasia &rarr; adenocarcinoma); ~75% of non-cardia gastric cancers are attributable to <em>H. pylori</em>. MALT lymphoma uniquely responds to antibiotic eradication alone in 80% of cases.</p>
-    </div>
-
-    <div class="detail-body">
-
-      <div class="detail-section">
-        <h4>Classification &amp; Structure</h4>
-        <table class="detail-table">
-          <tr><td>Gram stain</td><td>Gram-negative; thin peptidoglycan; outer membrane; modified LPS with low-immunostimulatory lipid A (↓TLR4 activation vs. <em>E. coli</em>); Lewis x/y O-antigen antigens (molecular mimicry of human blood group antigens)</td></tr>
-          <tr><td>Morphology</td><td>Helical/spiral rod with slight curvature; ~3 &micro;m long &times; 0.5 &micro;m wide; 4&ndash;6 unipolar sheathed flagella (outer membrane-derived sheath conceals flagellin from TLR5 detection); coccoid forms arise in adverse conditions (senescent, viable but non-culturable)</td></tr>
-          <tr><td>Motility</td><td>Unipolar flagellar bundle; chemotaxis through the mucus viscosity gradient toward the near-neutral (pH 6–7) mucus gel overlying gastric epithelium; motility is required for colonisation</td></tr>
-          <tr><td>Toxins</td><td>VacA (vacuolating cytotoxin A; 140 kDa monomer, assembles into anion-selective membrane channels); urease (not a classical toxin but directly damages neutrophils via peroxynitrite); CagA (injected protein oncoprotein via T4SS; not secreted extracellularly); OipA (outer inflammatory protein A; proinflammatory NF-&kappa;B signalling)</td></tr>
-          <tr><td>Spores</td><td>None formed. Environmental persistence as coccoid (viable but non-culturable) forms; no animal reservoir — humans are the only significant host</td></tr>
-        </table>
-      </div>
-
-      <div class="detail-section">
-        <h4>Pathogenesis</h4>
-        <div class="mech-list">
-          <div class="mech-item latent">
-            <h5>1 &middot; Urease — surviving gastric acid and establishing colonisation</h5>
-            <p>The greatest barrier to gastric colonisation is the pH 1&ndash;2 lumen. <em>H. pylori</em> urease — a hexadimeric nickel-containing enzyme constituting ~6% of total bacterial protein — catalyses urea hydrolysis at ~1 &micro;mol/min/mg protein: urea &rarr; NH&#x2083; + CO&#8322;. NH&#x2083; reacts with H&#x207a; &rarr; NH&#x2084;&#x207a;, neutralising the immediate bacterial micro-environment to pH 6&ndash;7 in the periplasm. This enables survival through the acid lumen and directed motility through the mucus viscosity gradient toward the near-neutral mucus gel overlying epithelial cells. BabA adhesin (binds Lewis b antigen) and SabA adhesin (binds sialyl-Lewis x on inflamed mucosa) anchor the organism to the gastric epithelium.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>2 &middot; CagA injection — the oncoprotein that rewires epithelial signalling</h5>
-            <p>In CagA+ strains, the cagPAI-encoded type IV secretion system (T4SS) assembles a pilus that contacts &alpha;5&beta;1 integrin on gastric epithelial cells. CagA protein is translocated directly into the epithelial cytoplasm. Host Src and Abl kinases phosphorylate CagA at EPIYA motifs (East Asian EPIYA-D &gt; Western EPIYA-C in oncogenic potency, due to higher SHP-2 binding affinity). Phospho-CagA activates <strong>SHP-2 phosphatase</strong> (proto-oncogenic; gain-of-function analogous to Noonan syndrome mutations) &rarr; Ras/ERK/MAPK &rarr; ↑cell proliferation, ↓apoptosis, disturbed cell polarity ("hummingbird phenotype" via PAR1 kinase inhibition). Non-phospho-CagA disrupts E-cadherin/&beta;-catenin junctions &rarr; nuclear &beta;-catenin &rarr; Wnt target gene activation and potential intestinal transdifferentiation. CagA+ strains: significantly higher risk of PUD, gastric adenocarcinoma, and MALT lymphoma vs. CagA&ndash;.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>3 &middot; VacA — pore-forming cytotoxin with multiple immune targets</h5>
-            <p>VacA (~140 kDa monomer) assembles into anion-selective channels in membranes. Its multiple pathological activities: (i) <strong>Vacuolation:</strong> forms pores in late endosomal membranes &rarr; inhibits V-ATPase &rarr; swollen, acidified vacuoles &rarr; epithelial cell death; (ii) <strong>Mitochondrial targeting:</strong> inserts into inner mitochondrial membrane &rarr; cytochrome c release &rarr; intrinsic apoptosis; (iii) <strong>T cell suppression:</strong> forms channels in T-cell plasma membranes &rarr; ↓Ca&#178;&#x207a; signalling &rarr; inhibits NFAT transcription &rarr; ↓IL-2 &rarr; impaired CD4&#x207a; T-cell activation (paradoxical immune evasion despite ongoing inflammation); (iv) <strong>Macrophage interference:</strong> impairs phagolysosomal V-ATPase &rarr; ↓intracellular killing &rarr; intracellular bacterial survival. VacA allelic variation: s1/m1 (most cytotoxic) &rarr; highest PUD and cancer risk.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>4 &middot; Gastric acid dysregulation — the duodenal ulcer cascade</h5>
-            <p>Antrum-predominant colonisation (most strains): CagA/OipA &rarr; IL-8 &rarr; neutrophilic antral gastritis. NH&#x2083; from urease damages somatostatin-producing D cells in the antrum &rarr; ↓somatostatin &rarr; loss of paracrine inhibition of gastrin G cells &rarr; <strong>hypergastrinaemia</strong> &rarr; ↑ECL cell histamine &rarr; ↑parietal cell HCl secretion &rarr; hyperacidity &rarr; acid load in duodenum &rarr; duodenal gastric metaplasia (CagA+ especially) &rarr; <strong>duodenal ulceration</strong>. This explains the male predominance (M:F ~4:1) and anterior duodenal ulcer location.</p>
-          </div>
-          <div class="mech-item danger">
-            <h5>5 &middot; Correa cascade — gastric adenocarcinoma pathway</h5>
-            <p>Corpus-predominant colonisation (CagA+ strains; ↑atrophy): extensive inflammation &rarr; parietal cell and chief cell loss &rarr; ↓acid (hypochlorhydria) &rarr; ↑bacterial overgrowth &rarr; nitrosamines from ingested nitrates. <strong>Correa cascade</strong> (sequential histological progression over decades): normal mucosa &rarr; superficial gastritis &rarr; chronic atrophic gastritis &rarr; intestinal metaplasia (IM; CDX2+ goblet cells replace gastric mucosa) &rarr; dysplasia (low-grade &rarr; high-grade) &rarr; <strong>intestinal-type gastric adenocarcinoma</strong> (Lauren classification). <em>H. pylori</em> eradication reduces gastric cancer risk by ~46% in prospective studies; eradication before development of atrophy/IM provides the greatest benefit.</p>
-          </div>
-          <div class="mech-item immune">
-            <h5>6 &middot; Immune evasion — Lewis antigen mimicry and flagellin concealment</h5>
-            <p>Multiple layered immune evasion mechanisms sustain decades-long colonisation: (i) <strong>LPS molecular mimicry</strong>: Lewis x/y antigens on O-antigen mimic human blood group antigens; modified lipid A (acyl chain differences) reduces TLR4 stimulatory activity; (ii) <strong>Flagellar sheath</strong> (outer membrane-derived): conceals TLR5-stimulating flagellin from innate detection; (iii) <strong>VacA T-cell suppression</strong>: ↓NFAT/IL-2 &rarr; impairs CD4&#x207a; T-cell adaptive responses; (iv) <strong>CagA anti-apoptotic signalling</strong>: SHP-2/Bcl-2 prevents apoptosis of infected cells, sustaining the bacterial reservoir; (v) <strong>Urease NH&#x2083;</strong>: directly toxic to neutrophils (peroxynitrite-mediated oxidative damage) when recruited to the mucosa.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="detail-section">
-        <h4>Host Immune Response</h4>
-        <div class="immune-tags">
-          <span class="itag innate">CagA/OipA &rarr; colonocyte IL-8/CXCL8 &rarr; neutrophilic gastritis (dominant histological finding)</span>
-          <span class="itag innate">Gastric epithelial TLR2/TLR4 (muted by low-immunostimulatory LPS)</span>
-          <span class="itag innate">NF-&kappa;B &rarr; IL-6, TNF-&alpha; &rarr; chronic mucosal inflammation</span>
-          <span class="itag adaptive">CD4&#x207a; Th1 response (IFN-&gamma;, TNF-&alpha;) — partially effective but insufficient to clear organism</span>
-          <span class="itag adaptive">Anti-<em>H. pylori</em> serum IgG and IgA — epidemiological marker; serology cannot confirm eradication</span>
-          <span class="itag adaptive">Chronic T-cell stimulation of subepithelial B cells &rarr; MALT lymphoma in susceptible individuals</span>
-          <span class="itag depleted">VacA &rarr; NFAT/IL-2 suppression &rarr; ↓CD4&#x207a; T-cell activation (immune tolerance niche)</span>
-          <span class="itag depleted">Lewis antigen mimicry &rarr; reduced antibody cross-reactivity</span>
-          <span class="itag depleted">Macrophage VacA &rarr; impaired phagolysosome acidification &rarr; intracellular bacterial survival</span>
-        </div>
-      </div>
-
-      <div class="detail-section">
-        <h4>Disease Spectrum</h4>
-        <table class="path-table">
-          <tr><th>Presentation</th><th>Severity</th><th>At-Risk Groups</th><th>Mortality</th></tr>
-          <tr>
-            <td>Asymptomatic gastritis</td>
-            <td>Chronic mucosal inflammation without symptoms; most common outcome (~80% of colonised individuals)</td>
-            <td>Any colonised person; especially in low-income, high-prevalence settings (&gt;70% adult prevalence)</td>
-            <td>0% (directly)</td>
-          </tr>
-          <tr>
-            <td>Duodenal ulcer (DU)</td>
-            <td>Epigastric pain (classically relieved by food); 95% of DU are <em>H. pylori</em>+; M:F ~4:1; anterior duodenal wall; risk of haemorrhage (haematemesis, melaena), perforation</td>
-            <td>CagA+ strains; antrum-predominant gastritis; NSAID co-use (&times;61 increased bleed risk); smoking</td>
-            <td>&lt;1% (uncomplicated); higher if haemorrhage/perforation</td>
-          </tr>
-          <tr>
-            <td>Gastric ulcer (GU)</td>
-            <td>70% of GU are <em>H. pylori</em>+; lesser curvature body/antrum junction; pain worsened by food; 5% risk of underlying gastric cancer &rarr; biopsy mandatory</td>
-            <td>Elderly; NSAID use; tobacco; CagA+ strains; corpus predominant gastritis</td>
-            <td>&lt;1% (uncomplicated); higher if cancer</td>
-          </tr>
-          <tr>
-            <td>Gastric adenocarcinoma</td>
-            <td>~75% of non-cardia gastric cancers attributable to <em>H. pylori</em>; 5th most common cancer globally; often presents late (weight loss, dysphagia, early satiety, iron deficiency anaemia, malignant ascites)</td>
-            <td>CagA+ s1/m1 VacA strains; East Asian ethnicity; atrophic gastritis; intestinal metaplasia already established; high salt, low fresh vegetable diet</td>
-            <td>5-year survival ~20% (late stage); ~70% (stage I)</td>
-          </tr>
-          <tr>
-            <td>MALT lymphoma</td>
-            <td><em>H. pylori</em> present in &gt;90% of gastric MALT lymphoma; chronic T-cell stimulation drives B-cell lymphoproliferation in gastric submucosa; responds to antibiotics if t(11;18)/API2-MALT1 translocation absent</td>
-            <td>Any colonised individual; t(11;18)-positive cases are eradication-resistant and require chemotherapy</td>
-            <td>5-year OS ~80% (low-grade); worse with high-grade transformation</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="detail-section">
-        <h4>Treatment &amp; Prophylaxis</h4>
-        <table class="detail-table">
-          <tr><td>Clarithromycin triple (declining)</td><td>PPI (omeprazole 20 mg or equivalent) twice daily + clarithromycin 500 mg twice daily + amoxicillin 1 g twice daily &times; 10&ndash;14 days. Recommended only where clarithromycin resistance &lt;15%; eradication rates now &lt;80% in many regions due to &gt;20% resistance.</td></tr>
-          <tr><td>Bismuth quadruple (preferred where Clari-R high)</td><td>Bismuth subsalicylate 525 mg four times daily + PPI twice daily + metronidazole 500 mg three times daily + tetracycline 500 mg four times daily &times; 10&ndash;14 days. Effective against clarithromycin-resistant and partially against metronidazole-resistant strains; first-line recommendation in high-resistance regions.</td></tr>
-          <tr><td>Concomitant quadruple (non-bismuth)</td><td>PPI + clarithromycin + amoxicillin + metronidazole &times; 10&ndash;14 days; useful in areas with dual (clarithromycin + metronidazole) resistance where bismuth not available.</td></tr>
-          <tr><td>Rifabutin rescue (3rd line)</td><td>PPI + rifabutin 150 mg twice daily + amoxicillin 1 g twice daily &times; 7&ndash;14 days; reserved for 3rd-line after two prior treatment failures; risk of myelosuppression (monitor CBC); avoid in TB-endemic areas (risk of <em>Mycobacterium</em> rifampicin resistance).</td></tr>
-          <tr><td>Culture-guided therapy</td><td>Endoscopy &rarr; antral biopsy for culture and susceptibility testing; optimal approach when resistance testing available; especially in 2nd-line treatment failure patients; allows targeted regimen selection.</td></tr>
-          <tr><td>Eradication confirmation</td><td>Urea breath test (UBT; &#185;&#179;C) or stool antigen test (SAT; monoclonal ELISA) &ge;4 weeks after completing therapy and &ge;2 weeks off PPI; serology (IgG) is NOT suitable for eradication confirmation (antibody titres decline slowly over months).</td></tr>
-          <tr><td>Resistance</td><td>Clarithromycin resistance: 15–30% in many Western countries; 5–10% in Japan; mediated by 23S rRNA point mutations (A2142G, A2143G); not reversed by dose escalation. Metronidazole resistance: 20–40%; partially overcome by higher doses/extended duration or bismuth addition. Fluoroquinolone resistance rising (gyrA mutations); rifabutin and tetracycline resistance rare. No validated <em>H. pylori</em> vaccine in human use (multiple candidates in trials).</td></tr>
-        </table>
-      </div>
-
-      <div class="detail-section">
-        <h4>Connections</h4>
-        <div class="connections">
-          <a class="conn-pill infects" href="stomach.html"><span class="rel">Infects</span>Stomach — urease colonisation, BabA/SabA adhesion</a>
-          <a class="conn-pill damages" href="digestive-system.html"><span class="rel">Damages</span>Digestive system — peptic ulcers, Correa cascade, MALT lymphoma</a>
-          <a class="conn-pill damages" href="macrophage.html"><span class="rel">Damages</span>Macrophage — VacA phagosome impairment, CagA anti-apoptosis</a>
-          <a class="conn-pill damages" href="liver.html"><span class="rel">Damages</span>Liver — portal LPS trafficking, NAFLD association</a>
-        </div>
-      </div>
-
-      <div class="detail-section">
-        <h4>References</h4>
-        <ul class="refs">
-          <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020. <a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener">elsevier.com</a></li>
-          <li>Murray PR, Rosenthal KS, Pfaller MA. <em>Medical Microbiology.</em> 9th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/medical-microbiology/murray/978-0-323-67378-4" target="_blank" rel="noopener">elsevier.com</a></li>
-          <li>Hatakeyama M. Helicobacter pylori CagA and Gastric Cancer: A Paradigm for Hit-and-Run Carcinogenesis. <em>Cell Host Microbe.</em> 2014;15(3):306-316. <a href="https://doi.org/10.1016/j.chom.2014.02.008" target="_blank" rel="noopener">doi:10.1016/j.chom.2014.02.008</a> &middot; PubMed 24629337</li>
-          <li>Cover TL, Blanke SR. Helicobacter pylori VacA, a paradigm for toxin multifunctionality. <em>Nat Rev Microbiol.</em> 2005;3(4):320-32. <a href="https://doi.org/10.1038/nrmicro1095" target="_blank" rel="noopener">doi:10.1038/nrmicro1095</a> &middot; PubMed 15759043</li>
-          <li>Malfertheiner P, Megraud F, Rokkas T, et al. Management of <em>Helicobacter pylori</em> infection: the Maastricht VI/Florence consensus report. <em>Gut.</em> 2022;71(9):1724-1762. <a href="https://doi.org/10.1136/gutjnl-2022-327745" target="_blank" rel="noopener">doi:10.1136/gutjnl-2022-327745</a> &middot; PubMed 35944925</li>
-          <li>Correa P. Human gastric carcinogenesis: a multistep and multifactorial process — First American Cancer Society Award Lecture on Cancer Epidemiology and Prevention. <em>Cancer Res.</em> 1992;52(24):6735-40. PubMed 1458460</li>
-        </ul>
-      </div>
-
-    </div>
-  </div><!-- /.detail-card -->
-
-  <div class="contribute">
-    <h2>Contribute to the Pathogen Atlas</h2>
-    <p>This entry covers <em>H. pylori</em> biology, CagA/VacA mechanisms, the Correa cascade, and eradication regimens. Planned expansions include structural biology of the cagPAI T4SS pilus, gastric cancer prevention programme data, and vaccine candidate pipelines. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
-    <div class="btn-row">
-      <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
-        Contribute on GitHub
-      </a>
-      <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=H.%20pylori%20Atlas%20entry">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        Get in touch
-      </a>
-    </div>
-  </div>
-
-</main>
-
-<footer>
-  <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it — in the service of all of humanity.</p>
-  <div class="footer-links">
-    <a href="index.html">Home</a>
-    <a href="index.html#mission">Mission</a>
-    <a href="pathogens.html">Pathogens</a>
-    <a href="medicine.html">Medicine</a>
-    <a href="index.html#join">Join</a>
-    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
-  </div>
-  <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-</footer>
-
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

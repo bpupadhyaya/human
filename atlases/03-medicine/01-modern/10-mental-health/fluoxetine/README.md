@@ -38,6 +38,15 @@ cross_links:
     relation: modulates
     evidence: preskorn-2003-fluoxetine
     note: "Fluoxetine selectively blocks SERT (serotonin transporter, SLC6A4) → prolongs synaptic 5-HT dwell time → desensitization of presynaptic 5-HT1A autoreceptors over 2–4 weeks → sustained ↑ serotonergic neurotransmission in limbic and prefrontal circuits."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: treats
+    note: "Fluoxetine is first-line SSRI for MDD (Cipriani 2018 21-drug meta-analysis); onset 4–6 weeks via SERT inhibition → 5-HT desensitization → BDNF/TrkB synaptic plasticity; only SSRI approved for pediatric MDD (age ≥8); effective for acute and maintenance treatment."
+  - target: 01-human/07-system/panic-disorder
+    relation: treats
+    note: "Fluoxetine is FDA-approved for panic disorder with/without agoraphobia; SSRIs first-line over benzodiazepines; initial paradoxical anxiety (5-HT1A stimulation) requires start-low-go-slow dosing; onset 4–8 weeks; 70–80% response rate; CBT additive with fluoxetine."
+  - target: 01-human/03-molecular/bdnf
+    relation: modulates
+    note: "Chronic SERT inhibition → sustained 5-HT → CREB phosphorylation → BDNF transcription in hippocampus; BDNF/TrkB → dendritic growth and synaptic plasticity; neurotrophic hypothesis of depression: BDNF normalizes hippocampal neurogenesis suppressed by chronic stress and cortisol."
 ---
 
 # Fluoxetine
@@ -109,3 +118,8 @@ A distinctive pharmacokinetic feature is its **exceptionally long half-life**: ~
 
 - **Modulates** → [Serotonin](../../../../../01-human/03-molecular/serotonin/README.md): Blocks SERT to prolong synaptic 5-HT; downstream desensitization of presynaptic 5-HT1A autoreceptors over 2–4 weeks is required for full antidepressant effect.
 - **Modulates** → [BDNF](../../../../../01-human/03-molecular/bdnf/README.md): Chronic SERT blockade drives BDNF upregulation in hippocampus via CREB → TrkB → neuroplasticity; this is now understood as the primary mechanism of antidepressant action rather than serotonin levels per se.
+- **Treats** → [Major Depressive Disorder](../../../../../01-human/07-system/major-depressive-disorder/README.md): First-line SSRI for MDD (Cipriani 2018 21-drug meta-analysis); onset 4–6 weeks via SERT inhibition → 5-HT desensitization → BDNF/TrkB synaptic plasticity; only SSRI approved for pediatric MDD (age ≥8); effective for acute and maintenance treatment.
+- **Treats** → [Panic Disorder](../../../../../01-human/07-system/panic-disorder/README.md): FDA-approved for panic disorder with/without agoraphobia; SSRIs first-line over benzodiazepines; initial paradoxical anxiety (5-HT1A stimulation) requires start-low-go-slow dosing; onset 4–8 weeks; 70–80% response rate; CBT additive.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
