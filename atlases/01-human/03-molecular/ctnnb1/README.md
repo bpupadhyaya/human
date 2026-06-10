@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "CTNNB1/β-catenin activates VEGFA transcription via TCF/LEF elements → tumor angiogenesis in desmoid and colorectal cancer; VEGF blockade (bevacizumab) explored in desmoid tumor trials; VEGFR/PDGFR inhibitor sorafenib achieves ORR ~15% in desmoid (DESMOID Phase 2, PFS HR 0.13)."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "APC LOF (>80% of CRC) or direct CTNNB1 exon 3 mutations (~5-10%) both activate nuclear β-catenin → TCF/LEF-driven MYC and CCND1 → adenoma-carcinoma sequence; CTNNB1 is the effector of APC tumor suppressor; aspirin reduces CRC risk partly via Wnt pathway suppression."
+  - target: 01-human/07-system/desmoid-tumor
+    relation: connects-to
+    note: "~80% of sporadic desmoid fibromatosis harbor CTNNB1 exon 3 mutations (S45F most aggressive, T41A intermediate); mutation site predicts recurrence risk; nirogacestat (FDA-approved Nov 2023, DeFi trial: PFS HR 0.29) targets Notch-Wnt crosstalk in CTNNB1-mutant desmoid."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "CTNNB1 activating mutations in ~30-40% of HCC (2nd most common driver after TERT); nuclear β-catenin IHC positive (GS+, AFP-low); CTNNB1-mutant HCC has immune-excluded TME with poor ICI response; WNT inhibitors (WNT974, RXC004) under investigation in CTNNB1-mutant HCC."
 ---
 
 # CTNNB1
@@ -137,6 +146,13 @@ Direct TCF/β-catenin inhibition: BC2059 (β-catenin/TNKS inhibitor), PRI-724 (C
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — CTNNB1-mutant nuclear β-catenin activates MYC via TCF/LEF-binding elements in the MYC promoter; MYC is the primary proliferative driver downstream of CTNNB1 in desmoid and colorectal cancer; MYC amplification confers resistance to β-catenin-targeted therapy in desmoid.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Nirogacestat (gamma-secretase inhibitor) blocks Notch signaling → NICD1 suppression → desmoid cell apoptosis; DeFi Phase 3: ORR 41% vs 8% placebo, PFS HR 0.29; FDA-approved November 2023; Notch-Wnt crosstalk amplifies CTNNB1-driven desmoid proliferation.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — CTNNB1/β-catenin activates VEGFA transcription via TCF/LEF elements → tumor angiogenesis in desmoid and colorectal cancer; VEGF blockade (bevacizumab) explored in desmoid tumor trials; VEGFR/PDGFR inhibitor sorafenib achieves ORR ~15% in desmoid (DESMOID Phase 2, PFS HR 0.13).
+- `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — APC LOF (>80% of CRC) or direct CTNNB1 exon 3 mutations (~5-10%) both activate nuclear β-catenin → TCF/LEF-driven MYC and CCND1 → adenoma-carcinoma sequence; CTNNB1 is the effector of APC tumor suppressor function in colorectal carcinogenesis.
+- `connects-to` → **[Desmoid Tumor](../../07-system/desmoid-tumor/README.md)** — ~80% of sporadic desmoid fibromatosis harbor CTNNB1 exon 3 mutations; S45F is most aggressive, T41A intermediate; nirogacestat (FDA-approved Nov 2023, DeFi trial: PFS HR 0.29, ORR 41%) targets Notch-Wnt crosstalk in CTNNB1-mutant desmoid.
+- `connects-to` → **[HCC](../../07-system/hcc/README.md)** — CTNNB1 activating mutations in ~30-40% of HCC (2nd most common driver after TERT); nuclear β-catenin IHC positive (GS+, AFP-low phenotype); CTNNB1-mutant HCC has immune-excluded TME with poor ICI response; WNT inhibitors under investigation.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^morin-1997-ctnnb1-colorectal]: Morin PJ, Sparks AB, Korinek V, et al. Activation of beta-catenin-Tcf signaling in colon cancer by mutations in beta-catenin or APC. *Science.* 1997;275(5307):1787-1790. [doi:10.1126/science.275.5307.1787](https://doi.org/10.1126/science.275.5307.1787) · [PubMed 9065402](https://pubmed.ncbi.nlm.nih.gov/9065402/)
 [^lazar-2008-ctnnb1-desmoid]: Lazar AJ, Tuvin D, Hajibashi S, et al. Specific mutations in the beta-catenin gene (CTNNB1) correlate with local recurrence in sporadic desmoid tumors. *Am J Pathol.* 2008;173(5):1518-1527. [doi:10.2353/ajpath.2008.080475](https://doi.org/10.2353/ajpath.2008.080475) · [PubMed 18832571](https://pubmed.ncbi.nlm.nih.gov/18832571/)

@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-diffuse-gastric-cancer
     relation: connects-to
     note: "Germline CTNNA1 LOF causes HDGC in CDH1-negative families (~2-5% of HDGC); prophylactic gastrectomy is recommended for pathogenic CTNNA1 carriers; penetrance estimated similar to CDH1; somatic CTNNA1 serves as the second hit in CDH1-germline HDGC tumors."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Germline CTNNA1 LOF → elevated lobular breast carcinoma risk; same E-cadherin-alpha-catenin axis disrupted in sporadic lobular BC; annual breast MRI from age 30 recommended for CTNNA1 carriers; CTNNA1 loss → epithelial cohesion failure → invasive lobular cancer pattern."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "CTNNA1 binds β-catenin at adherens junctions but does NOT activate Wnt/TCF nuclear signaling; CTNNA1 LOF causes adhesion loss without activating Wnt targets (MYC, CCND1); this mechanistic distinction separates CTNNA1 from CTNNB1 GOF — purely adhesion-dependent tumourigenesis."
+  - target: 01-human/03-molecular/apc
+    relation: connects-to
+    note: "APC scaffolds the β-catenin destruction complex; CTNNA1 LOF is mechanistically distinct: CTNNA1 tumors lack nuclear β-catenin; APC germline (FAP) causes CRC/desmoid vs CTNNA1 germline causes diffuse GC/lobular BC — complementary tumor suppressors in the catenin axis."
 ---
 
 # CTNNA1
@@ -148,6 +157,13 @@ Lobular breast carcinoma is defined by E-cadherin loss (CDH1 somatic loss in ~85
 - `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — CTNNA1 binds β-catenin (CTNNB1) at the cadherin-catenin complex and links it to F-actin; CTNNA1 LOF uncouples the cytoskeleton from the complex; distinct from CTNNB1 Wnt oncogenic role; CTNNA1 does not participate in Wnt/TCF signaling — its function is mechanical adhesion.
 - `connects-to` → **[Gastric Cancer](../../07-system/gastric-cancer/README.md)** — CTNNA1 somatic loss drives signet ring cell gastric cancer via epithelial adhesion loss; somatic CTNNA1 LOH in CDH1-germline HDGC tumors as the second hit; Lauren diffuse-type GC driven by loss of E-cadherin/alpha-catenin axis; somatic CTNNA1 loss in ~5-10% sporadic GC.
 - `connects-to` → **[Hereditary Diffuse Gastric Cancer](../../07-system/hereditary-diffuse-gastric-cancer/README.md)** — Germline CTNNA1 LOF causes HDGC in CDH1-negative families (~2-5% of HDGC); prophylactic gastrectomy is recommended for pathogenic CTNNA1 carriers; penetrance estimated similar to CDH1; somatic CTNNA1 serves as the second hit in CDH1-germline HDGC tumors.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — germline CTNNA1 LOF → elevated lobular breast carcinoma risk (same E-cadherin-alpha-catenin axis disrupted in sporadic lobular BC); annual breast MRI from age 30 recommended for CTNNA1 carriers; CTNNA1 loss → invasive lobular cancer pattern.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — CTNNA1 binds β-catenin at adherens junctions but does NOT participate in Wnt/TCF nuclear signaling; CTNNA1 LOF causes adhesion loss without activating Wnt target genes (MYC, CCND1); mechanistic distinction: CTNNA1 tumors lack nuclear β-catenin unlike APC-LOF or CTNNB1-GOF tumors.
+- `connects-to` → **[APC](../../03-molecular/apc/README.md)** — APC scaffolds the β-catenin destruction complex; CTNNA1 LOF is mechanistically distinct — CTNNA1 tumors lack nuclear β-catenin; APC germline (FAP) causes CRC/desmoid while CTNNA1 germline causes diffuse GC/lobular BC; complementary tumor suppressors in the catenin axis.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^majewski-2013-ctnna1]: Majewski IJ, Kluijt I, Cats A, et al. An alpha-E-catenin (CTNNA1) mutation in hereditary diffuse gastric cancer. *J Pathol.* 2013;229(5):621-629. [doi:10.1002/path.4155](https://doi.org/10.1002/path.4155) · [PubMed 23225153](https://pubmed.ncbi.nlm.nih.gov/23225153/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
