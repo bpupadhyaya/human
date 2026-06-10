@@ -39,6 +39,15 @@ cross_links:
     relation: modulated-by
     evidence: lodish-molecular-cell-biology
     note: "UV photons excite DNA base electrons to singlet excited states, enabling pyrimidine dimer formation; visible photons drive retinal isomerization; ionizing photons eject electrons from water producing OH• radicals."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Electron transport at mitochondrial Complexes I, III, IV pumps protons across the inner membrane generating proton-motive force that drives ATP synthase; chemiosmotic coupling of electron flow to proton gradient is the universal mechanism of aerobic ATP production in eukaryotes."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Oxidative phosphorylation — electron flow through the ETC to O₂ coupled to proton pumping — produces ~90% of cellular ATP; yield per glucose (30-32 ATP) depends on NADH and FADH₂ electrons entering the chain; electron flow rate sets the upper limit of aerobic power output."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Electron leak at Complex I/III generates superoxide → H₂O₂, activating NF-κB via IKK oxidation; mitochondrial ROS integrate metabolic state with inflammatory signaling; excessive leak in heart failure amplifies NF-κB → cytokine production → cardiomyocyte dysfunction."
 ---
 
 # Electron
@@ -93,13 +102,17 @@ The electron's role in the heart is comprehensive — it underlies every process
 
 ## Connections
 
-- **Up (atomic scale):** The electron configuration of each element determines its ionic form in biology. For calcium: Z=20, [Ar]4s² → loses 2 electrons → Ca²⁺. See **[Calcium](../../02-atomic/calcium/README.md)**.
-- **Up (molecular scale):** Electrostatic interactions at the electron-density level drive Ca²⁺ binding to troponin C — see **[Troponin complex](../../03-molecular/troponin-complex/README.md)**.
+- `modulates` → **[Calcium](../../02-atomic/calcium/README.md)** — electron configuration of Ca (Z=20, [Ar]4s²) determines it loses 2 electrons to form Ca²⁺, the dominant cardiac signaling ion; electron density of binding site governs Ca²⁺ coordination by EF-hand proteins and calmodulin.
+- `modulates` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — electrostatic interactions (electron density differences) between Ca²⁺ and the EF-hand of troponin C drive the Ca²⁺-triggered conformational change that gates every heartbeat; bond energy is fundamentally electronic.
+- `modulates` → **[Oxygen](../../02-atomic/oxygen/README.md)** — electron configuration of O (Z=8, [He]2s²2p⁴) confers high electronegativity and enables it to accept 4 electrons at Complex IV → H₂O; this thermodynamic sink drives aerobic metabolism and ATP production.
+- `modulated-by` → **[Photon](../photon/README.md)** — UV photons excite DNA base electrons → pyrimidine dimer formation; visible photons drive retinal isomerization; ionizing photons eject electrons from water → OH• radicals damaging DNA and membranes.
+- `connects-to` → **[Proton](../proton/README.md)** — electron transport at mitochondrial Complexes I, III, IV pumps protons across the inner membrane generating proton-motive force that drives ATP synthase; chemiosmotic coupling of electron flow to proton gradient is the universal mechanism of aerobic ATP production.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — oxidative phosphorylation couples electron flow through the ETC to proton pumping → ATP synthase rotation → ATP synthesis; ~90% of cellular ATP is produced this way; electron flow rate determines the ceiling of aerobic power output.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — electron leak at Complex I/III generates superoxide → H₂O₂, activating NF-κB via IKK oxidation; mitochondrial ROS integrate metabolic state with inflammatory signaling; excessive leak in heart failure amplifies NF-κB → cardiomyocyte dysfunction.
 
-## See Also
+---
 
-- [Calcium](../../02-atomic/calcium/README.md) — the heart's signaling ion, whose chemistry is defined by its electron configuration.
-- [Troponin complex](../../03-molecular/troponin-complex/README.md) — electrostatic interactions underlie Ca²⁺ binding.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^lodish-molecular-cell-biology]: Lodish H, Berk A, Kaiser CA, et al. *Molecular Cell Biology.* 8th ed. W.H. Freeman; 2016. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Molecular-Cell-Biology/p/1464183392)
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)

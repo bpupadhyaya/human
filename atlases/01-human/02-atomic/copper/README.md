@@ -44,6 +44,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: modulates
     note: "Dopamine β-hydroxylase requires Cu²⁺ and ascorbate to hydroxylate dopamine → norepinephrine in synaptic vesicles; copper deficiency impairs catecholamine synthesis and sympathetic neurotransmission."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc supplementation induces intestinal metallothionein → traps Cu⁺ in enterocytes → reduced Cu absorption → copper deficiency (myeloneuropathy, cytopenias); Wilson disease maintenance uses zinc 150 mg/day to block Cu absorption; Cu/Zn SOD1 requires both metals for activity."
+  - target: 01-human/07-system/als
+    relation: connects-to
+    note: "SOD1 (Cu/Zn superoxide dismutase) mutations cause ~20% of familial ALS: >180 variants (A4V, G93A) destabilize the fold → Cu/Zn miscoordination → SOD1 aggregation → motor neuron death; misfolded SOD1 propagates prion-like; SOD1 antisense (tofersen) approved for SOD1-ALS."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Amyloid precursor protein (APP) has a Cu-binding domain; Aβ peptides chelate Cu and Fe → redox cycling → oxidative neuronal damage; Cu chelators (clioquinol, PBT2) dissolve Aβ plaques in animal models; Cu dyshomeostasis is an early feature of AD neurodegeneration."
 ---
 
 # Copper
@@ -163,10 +172,13 @@ Mutations in SCO1, SCO2, or COX11 cause CcO assembly deficiency (mitochondrial d
 
 ## Connections
 
-- **Part of** → [Human body](../../08-whole-body/human-body/README.md): 80–100 mg total Cu; redox-active Cu⁺/Cu²⁺ cycling is essential in cytochrome c oxidase (ETC), SOD1 (antioxidant), ceruloplasmin (Fe metabolism), lysyl oxidase (ECM crosslinking), and dopamine β-hydroxylase.
-- **Modulates** → [Liver](../../06-organ/liver/README.md): Liver is the central copper processing hub — ATP7B exports Cu into bile (primary excretion route); Wilson disease (ATP7B mutation) causes hepatic Cu accumulation → necrosis, cirrhosis, acute liver failure.
-- **Modulates** → [Nervous system](../../07-system/nervous-system/README.md): Cu required for DβH (dopamine→norepinephrine in noradrenergic synapses), Complex IV (neuronal ATP production), and SOD1 (ALS-linked mutations); Menkes disease — X-linked ATP7A defect causes brain Cu deficiency → neurodegeneration and death in early childhood.
-- **Modulates** → [Dopamine](../../03-molecular/dopamine/README.md): Dopamine β-hydroxylase requires Cu²⁺ and ascorbate to hydroxylate dopamine → norepinephrine in synaptic vesicles; copper deficiency impairs catecholamine synthesis and sympathetic neurotransmission.
+- `part-of` → **[Human body](../../08-whole-body/human-body/README.md)** — 80–100 mg total Cu; redox-active Cu⁺/Cu²⁺ cycling is essential in cytochrome c oxidase (ETC), SOD1 (antioxidant), ceruloplasmin (Fe metabolism), lysyl oxidase (ECM crosslinking), and dopamine β-hydroxylase.
+- `modulates` → **[Liver](../../06-organ/liver/README.md)** — liver is the central copper processing hub; ATP7B exports Cu into bile (primary excretion route); Wilson disease (ATP7B mutation) causes hepatic Cu accumulation → necrosis, cirrhosis, and acute liver failure.
+- `modulates` → **[Nervous system](../../07-system/nervous-system/README.md)** — Cu required for DβH (dopamine→norepinephrine), Complex IV (neuronal ATP), and SOD1 (ALS-linked mutations); Menkes disease — X-linked ATP7A defect causes brain Cu deficiency → neurodegeneration and death in early childhood.
+- `modulates` → **[Dopamine](../../03-molecular/dopamine/README.md)** — dopamine β-hydroxylase requires Cu²⁺ and ascorbate to hydroxylate dopamine → norepinephrine in synaptic vesicles; copper deficiency impairs catecholamine synthesis and sympathetic neurotransmission.
+- `connects-to` → **[Zinc](../zinc/README.md)** — zinc supplementation induces intestinal metallothionein → traps Cu⁺ in enterocytes → reduced absorption → copper deficiency; Wilson disease maintenance uses zinc 150 mg/day; Cu/Zn SOD1 requires both metals for antioxidant activity.
+- `connects-to` → **[ALS](../../07-system/als/README.md)** — SOD1 mutations cause ~20% of familial ALS; A4V and G93A variants destabilize the Cu/Zn coordination → SOD1 aggregation → motor neuron death; misfolded SOD1 spreads prion-like; SOD1 antisense (tofersen) is approved for SOD1-ALS.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — APP has a Cu-binding domain; Aβ peptides chelate Cu and Fe → redox cycling → oxidative neuronal damage; Cu chelators (clioquinol, PBT2) dissolve Aβ plaques in animal models; Cu dyshomeostasis is an early feature of AD.
 
 ## Pathology
 
@@ -226,12 +238,9 @@ Causes: excessive zinc supplementation (see Zinc entry), gastric bypass surgery,
 | Familial ALS | SOD1 Cu/Zn miscoordination → aggregation | SOD1-targeted therapies (antisense, gene therapy) |
 | Acaeruloplasminaemia | CP loss → brain iron accumulation | Plasma ceruloplasmin infusion; deferoxamine |
 
-## See Also
+---
 
-- [Liver](../../06-organ/liver/README.md) — hepatic copper processing and Wilson disease.
-- [Nervous system](../../07-system/nervous-system/README.md) — copper requirements for neurotransmitter synthesis and neuronal energy.
-- [Dopamine](../../03-molecular/dopamine/README.md) — dopamine β-hydroxylase copper dependency.
-- [Zinc](../../02-atomic/zinc/README.md) — competitive interaction with copper via intestinal metallothionein.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [elsevier.com](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)
