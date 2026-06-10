@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "C5a/C5aR1 amplifies glomerular inflammation in lupus nephritis; C5a engages C5aR1 on neutrophils → NETosis → NET-derived DNA → TLR9 → pDC IFN-α → SLE amplification loop; C5aR1 blockade (avacopan) under investigation in SLE nephritis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "C5aR1 (CD88) is expressed at high density on neutrophils; C5a–C5aR1 drives chemotaxis (Gαi → PI3Kγ → Akt), degranulation, NADPH oxidase ROS burst, and NETosis; primed neutrophils are the effector cells in ANCA vasculitis and complement-mediated organ injury."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "C5a is markedly elevated in sepsis; C5a/C5aR1 drives neutrophil dysfunction, excessive NETosis, and organ failure (ALI, AKI, cardiomyopathy) in experimental models; C5aR1 is upregulated on septic neutrophils; C5aR1 antagonism reduces organ injury in preclinical sepsis."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "C5aR1 is expressed on podocytes, mesangial cells, tubular cells, and infiltrating neutrophils; C5a/C5aR1 drives glomerulonephritis in ANCA vasculitis, lupus nephritis, and IgA nephropathy; avacopan improved eGFR vs prednisone in ADVOCATE → C5aR1 blockade is renoprotective."
 ---
 
 # C5aR1
@@ -136,10 +145,14 @@ The "two-hit" model for ANCA vasculitis activation:
 - `connects-to` → **[ANCA Vasculitis](../../07-system/anca-vasculitis/README.md)** — C5a primes neutrophils via C5aR1 → surface PR3/MPO translocation → ANCA IgG crosslinking → NETosis/ROS → endothelial injury; avacopan (ADVOCATE: 65.7% vs 54.9% sustained remission; FDA Oct 2021) allows glucocorticoid sparing in GPA/MPA.
 - `connects-to` → **[PNH](../../07-system/pnh/README.md)** — In PNH, terminal complement generates both C5b-9 (hemolysis) and C5a; C5a engages C5aR1 on PNH neutrophils → thrombotic microangiopathy; eculizumab blocks C5 → prevents both MAC and C5a; C5aR1 blockade under investigation.
 - `connects-to` → **[Systemic Lupus Erythematosus](../../07-system/systemic-lupus-erythematosus/README.md)** — C5a/C5aR1 amplifies glomerular inflammation in lupus nephritis; C5a engages C5aR1 on neutrophils → NETosis → NET-derived DNA → TLR9 → pDC IFN-α → SLE amplification; avacopan under investigation in lupus nephritis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — C5aR1 (CD88) is expressed at high density on neutrophils; C5a–C5aR1 drives chemotaxis (Gαi → PI3Kγ → Akt), degranulation, NADPH oxidase ROS burst, and NETosis; primed neutrophils are the effector cells in ANCA vasculitis and complement-mediated organ injury.
+- `connects-to` → **[Sepsis](../../07-system/sepsis/README.md)** — C5a is markedly elevated in sepsis; C5a/C5aR1 drives neutrophil dysfunction, excessive NETosis, and organ failure (ALI, AKI, cardiomyopathy) in experimental models; C5aR1 is upregulated on septic neutrophils; C5aR1 antagonism reduces organ injury in preclinical sepsis.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — C5aR1 is expressed on podocytes, mesangial cells, tubular cells, and infiltrating neutrophils; C5a/C5aR1 drives glomerulonephritis in ANCA vasculitis, lupus nephritis, and IgA nephropathy; avacopan improved eGFR vs prednisone in ADVOCATE → C5aR1 blockade is renoprotective.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^nusshag-2020-c5ar1-anca-review]: Jayne DRW, Merkel PA, Schall TJ, Bekker P. Avacopan for the Treatment of ANCA-Associated Vasculitis. *N Engl J Med.* 2021;384(7):599-609. [doi:10.1056/NEJMoa2021349](https://doi.org/10.1056/NEJMoa2021349) · [PubMed 33596356](https://pubmed.ncbi.nlm.nih.gov/33596356/)
 [^ward-2009-c5ar1-structure]: Ward PA. Functions of C5a receptors. *J Mol Med (Berl).* 2009;87(4):375-378. [doi:10.1007/s00109-009-0442-7](https://doi.org/10.1007/s00109-009-0442-7) · [PubMed 19224192](https://pubmed.ncbi.nlm.nih.gov/19224192/)
 [^ricklin-2010-complement-overview]: Ricklin D, Hajishengallis G, Yang K, Lambris JD. Complement: a key system for immune surveillance and homeostasis. *Nat Immunol.* 2010;11(9):785-797. [doi:10.1038/ni.1923](https://doi.org/10.1038/ni.1923) · [PubMed 20720586](https://pubmed.ncbi.nlm.nih.gov/20720586/)
-
----
-*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

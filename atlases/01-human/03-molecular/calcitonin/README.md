@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/fgf23
     relation: connects-to
     note: "Calcitonin receptor (CTR) is expressed on osteoclasts and renal tubular cells; calcitonin → renal CTR → cAMP → inhibits 1α-hydroxylase (reduces calcitriol synthesis); FGF23 also inhibits 1α-hydroxylase — both calcitonin and FGF23 converge on phosphate/calcitriol regulation."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Calcitonin binds CTR on osteoclasts → Gs → cAMP → PKA → cytoskeletal collapse within minutes halting bone resorption; tachyphylaxis from CTR internalization limits chronic use; osteoclasts express the highest CTR density; acute inhibition underpins hypercalcemia therapy."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Calcitonin is synthesized by parafollicular C-cells of the thyroid; C-cell hyperplasia → elevated calcitonin signals RET mutation carrier status or early MTC; thyroidectomy is curative in localized MTC; rising postoperative calcitonin indicates persistent or recurrent disease."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "CALCA (chr11p15.2) encodes both calcitonin (thyroid C-cell splice) and α-CGRP (neural splice, 37 aa); CGRP → CLR/RAMP1 → vasodilation and migraine; erenumab and atogepant target CGRP/CLR-RAMP1 for migraine prevention, a clinical extension of CALCA alternative splicing."
 sources:
   - id: copp-1962-calcitonin
     type: peer-reviewed
@@ -129,13 +138,17 @@ Calcitonin belongs to the **CALCA gene family** — which encodes both calcitoni
 
 ## Connections
 
-Calcitonin → CTR → cAMP → osteoclast cytoskeletal collapse → reduced bone resorption; intranasal salmon calcitonin (200 IU/day) reduces vertebral fractures 36% (PROOF trial) but is less effective than bisphosphonates; reserved for acute pain of recent vertebral fracture.
+- `connects-to` → **[Osteoporosis](../../07-system/osteoporosis/README.md)** — calcitonin → CTR → cAMP → osteoclast cytoskeletal collapse → reduced bone resorption; intranasal salmon calcitonin (200 IU/day) reduces vertebral fractures 36% (PROOF trial) but is less effective than bisphosphonates; reserved for acute pain of recent vertebral fracture.
+- `connects-to` → **[PTH](../pth/README.md)** — calcitonin and PTH are opposing calcium regulators: PTH → bone resorption and renal calcium retention (raises Ca²⁺); calcitonin → osteoclast inhibition and renal calciuric effect (lowers Ca²⁺); hypercalcemia → C-cell calcitonin secretion counters PTH-driven Ca²⁺ elevation.
+- `connects-to` → **[Thyroid Cancer](../../07-system/thyroid-cancer/README.md)** — MTC arises from parafollicular C-cells → secretes calcitonin; serum calcitonin >100 pg/mL strongly suggests MTC; stimulated calcitonin screens RET mutation carriers; normalization post-surgery = curative resection.
+- `connects-to` → **[FGF23](../fgf23/README.md)** — calcitonin → renal CTR → cAMP → inhibits 1α-hydroxylase (reduces calcitriol synthesis); FGF23 also inhibits 1α-hydroxylase — both calcitonin and FGF23 converge on phosphate/calcitriol regulation; renal CTR is expressed on tubular cells.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — calcitonin binds CTR on osteoclasts → Gs → cAMP → PKA → cytoskeletal collapse within minutes halting bone resorption; tachyphylaxis from CTR internalization limits chronic use; osteoclasts express the highest CTR density; acute inhibition underpins hypercalcemia therapy.
+- `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — calcitonin is synthesized by parafollicular C-cells of the thyroid; C-cell hyperplasia → elevated calcitonin signals RET mutation carrier status or early MTC; thyroidectomy is curative in localized MTC; rising postoperative calcitonin indicates persistent or recurrent disease.
+- `connects-to` → **[CGRP](../cgrp/README.md)** — CALCA (chr11p15.2) encodes both calcitonin (thyroid C-cell splice) and α-CGRP (neural splice, 37 aa); CGRP → CLR/RAMP1 → vasodilation and migraine; erenumab and atogepant target CGRP/CLR-RAMP1 for migraine prevention, a clinical extension of CALCA alternative splicing.
 
-Calcitonin and PTH are opposing calcium regulators: PTH → bone resorption and renal calcium retention (raises Ca²⁺); calcitonin → osteoclast inhibition and renal calciuric effect (lowers Ca²⁺); hypercalcemia → C-cell calcitonin secretion counters PTH-driven Ca²⁺ elevation.
+---
 
-MTC arises from parafollicular C-cells → secretes calcitonin; serum calcitonin >100 pg/mL strongly suggests MTC; stimulated calcitonin screens RET mutation carriers; normalization post-surgery = curative resection.
-
-Calcitonin receptor (CTR) is expressed on osteoclasts and renal tubular cells; calcitonin → renal CTR → cAMP → inhibits 1α-hydroxylase (reduces calcitriol synthesis); FGF23 also inhibits 1α-hydroxylase — both calcitonin and FGF23 converge on phosphate/calcitriol regulation.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^copp-1962-calcitonin]: Copp DH, Cameron EC, Cheney BA, Davidson AG, Henze KG. Evidence for calcitonin — a new hormone from the parathyroid that lowers blood calcium. *Endocrinology.* 1962;70:638-649. [doi:10.1210/endo-70-5-638](https://doi.org/10.1210/endo-70-5-638) · [PubMed 13881931](https://pubmed.ncbi.nlm.nih.gov/13881931/)
 [^chesnut-2000-calcitonin-proof]: Chesnut CH 3rd, Silverman S, Andriano K, et al. A randomized trial of nasal spray salmon calcitonin in postmenopausal women with established osteoporosis: the prevent recurrence of osteoporotic fractures study. *Am J Med.* 2000;109(4):267-276. [doi:10.1016/S0002-9343(00)00490-3](https://doi.org/10.1016/S0002-9343(00)00490-3) · [PubMed 10996576](https://pubmed.ncbi.nlm.nih.gov/10996576/)
