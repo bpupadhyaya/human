@@ -3,302 +3,204 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Aldosterone — C21 mineralocorticoid hormone synthesized in the zona glomerulosa via CYP11B2. RAAS cascade, MR (NR3C2) signaling, ENaC regulation, cardiovascular effects, primary aldosteronism, and MR antagonist drugs. Human Engineering Atlas.">
-  <meta property="og:title" content="Aldosterone — Molecular Atlas · Human Engineering">
+  <meta name="description" content="Principal mineralocorticoid steroid (zona glomerulosa) that activates MR to upregulate ENaC/Na⁺-K⁺-ATPase, mediating renal Na⁺ retention and K⁺ excretion. Exces">
+  <meta property="og:title" content="Aldosterone — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Aldosterone — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#f59e0b;--accent-soft:rgba(245,158,11,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .hero{background:linear-gradient(135deg,#fffbeb 0%,#fef3c7 40%,#ffffff 100%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .pathway-block{background:var(--bg-3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:1.1rem 1.25rem;overflow-x:auto;margin:1rem 0}
-    .pathway-block pre{font-family:"SF Mono","Fira Code",Consolas,monospace;font-size:.82rem;line-height:1.65;color:var(--fg-soft)}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>Human Engineering</a>
-    <div class="nav-links">
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>Aldosterone</h1>
+    <p class="tagline">Principal mineralocorticoid steroid (zona glomerulosa) that activates MR to upregulate ENaC/Na⁺-K⁺-ATPase, mediating renal Na⁺ retention and K⁺ excretion. Excess aldosterone drives hypertension, cardiac fibrosis, hypokalemia in HF, CKD, and Conn's syndrome.</p>
+    <p class="aliases">Also known as: mineralocorticoid, MR agonist, RAAS effector, 11β,21-dihydroxy-3,20-dioxopregn-4-en-18-al</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">aldosterone</div>
+        <h2>Aldosterone</h2>
+        <p class="summary">Principal mineralocorticoid steroid (zona glomerulosa) that activates MR to upregulate ENaC/Na⁺-K⁺-ATPase, mediating renal Na⁺ retention and K⁺ excretion. Excess aldosterone drives hypertension, cardiac fibrosis, hypokalemia in HF, CKD, and Conn's syndrome.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>aldosterone</td></tr>
+            <tr><td>Name</td><td>Aldosterone</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="angiotensin-ii.html" title="Angiotensin II is the primary stimulus for aldosterone synthesis and secretion from the zona glomerulosa via AT1R → phospholipase C → PKC → CYP11B2 upregulation."><span class="rel">modulated-by</span>Angiotensin Ii</a>
+            <a class="conn-pill" href="cortisol.html" title="Cortisol and aldosterone share affinity for the mineralocorticoid receptor; 11β-HSD2 in mineralocorticoid target tissues converts cortisol to inactive cortisone, preventing cortisol from flooding MR."><span class="rel">modulates</span>Cortisol</a>
+            <a class="conn-pill" href="vasopressin.html" title="Aldosterone and vasopressin (ADH) coordinate renal water and sodium retention; aldosterone increases luminal Na⁺ that drives aquaporin-mediated water reabsorption synergistically with ADH."><span class="rel">modulates</span>Vasopressin</a>
+            <a class="conn-pill" href="cardiomyocyte.html" title="MR activation in cardiomyocytes and cardiac fibroblasts promotes myocardial fibrosis, inflammation, and adverse remodeling; target of MR antagonist benefit in HFrEF (RALES, EPHESUS trials)."><span class="rel">modulates</span>Cardiomyocyte</a>
+            <a class="conn-pill" href="kidney.html" title="Aldosterone acts on principal cells of the collecting duct: upregulates ENaC (Na⁺ absorption) and ROMK (K⁺ secretion) via transcriptional mechanisms, driving K⁺ wasting and Na⁺ retention."><span class="rel">modulates</span>Kidney</a>
+            <a class="conn-pill" href="heart.html" title="Excess aldosterone drives cardiac fibrosis (collagen I/III deposition), diastolic dysfunction, and increased risk of sudden cardiac death; MR antagonists reduce cardiac mortality in HF."><span class="rel">modulates</span>Heart</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Aldosterone is a key RAAS effector for blood pressure homeostasis; hyperaldosteronism is found in 5–10% of hypertensive patients and is the most common cause of secondary hypertension."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="renal-system.html" title="Aldosterone is the principal hormone controlling final sodium balance in the collecting duct; chronic excess causes hypokalemia, metabolic alkalosis, and accelerated CKD progression."><span class="rel">modulates</span>Renal System</a>
+            <a class="conn-pill" href="sodium.html" title="Aldosterone induces ENaC (apical Na⁺ entry) and Na⁺/K⁺-ATPase (basolateral) in collecting duct principal cells; RAAS-mediated aldosterone rise is the principal renal mechanism linking volume depletion to Na⁺ retention; primary aldosteronism → excess Na⁺ retention → hypertension."><span class="rel">connects-to</span>Sodium</a>
+            <a class="conn-pill" href="potassium.html" title="K⁺ directly stimulates aldosterone secretion from zona glomerulosa; aldosterone induces ROMK (Kir1.1) K⁺ secretion into the collecting duct lumen; a 0.1 mmol/L rise in [K⁺] roughly doubles aldosterone output; primary aldosteronism → excess ROMK activity → hypokalaemia."><span class="rel">connects-to</span>Potassium</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1056/NEJM199909023411001" target="_blank" rel="noopener noreferrer">Pitt B, Zannad F, Remme WJ, et al. The effect of spironolactone on morbidity and mortality in patients with severe heart failure. Randomized Aldactone Evaluation Study Investigators. N Engl J Med. 1999;341(10):709-717.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10471456/" target="_blank" rel="noopener noreferrer">PubMed 10471456</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa030207" target="_blank" rel="noopener noreferrer">Pitt B, Remme W, Zannad F, et al. Eplerenone, a selective aldosterone blocker, in patients with left ventricular dysfunction after myocardial infarction. N Engl J Med. 2003;348(14):1309-1321.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12668699/" target="_blank" rel="noopener noreferrer">PubMed 12668699</a></li>
+            <li><a href="https://doi.org/10.1007/s10741-005-2344-3" target="_blank" rel="noopener noreferrer">Funder JW. Mineralocorticoid receptors: distribution and activation. Heart Fail Rev. 2005;10(1):15-22.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15947883/" target="_blank" rel="noopener noreferrer">PubMed 15947883</a></li>
+            <li>Conn JW. Primary aldosteronism, a new clinical syndrome. J Lab Clin Med. 1955;45(1):3-17. &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/13233623/" target="_blank" rel="noopener noreferrer">PubMed 13233623</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="kidney.html">Kidney</a>
-      <a href="hypertension.html">Hypertension</a>
-      <a href="heart-failure.html">Heart Failure</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-  </div>
-</nav>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-<div class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Atlas One &middot; Human &middot; L02 Molecular &middot; Mineralocorticoid Hormone</p>
-    <h1><span>Aldosterone</span></h1>
-    <p class="hero-lead">The principal mineralocorticoid of the human adrenal cortex &mdash; a C21 steroid produced exclusively in the zona glomerulosa under RAAS and potassium control. Aldosterone acts via the mineralocorticoid receptor (MR, NR3C2) to regulate sodium retention, potassium excretion, and blood pressure homeostasis, while also driving maladaptive cardiovascular fibrosis when chronically elevated.</p>
-  </div>
-</div>
-
-<div class="meta-strip">
-  <span><strong>Scale:</strong> L02 Molecular</span>
-  <span><strong>MW:</strong> 360.44 g/mol</span>
-  <span><strong>Class:</strong> C21 mineralocorticoid steroid</span>
-  <span><strong>Receptor:</strong> NR3C2 (MR)</span>
-  <span><strong>Half-life:</strong> ~20 min (plasma)</span>
-</div>
-
-<div class="content">
-
-  <div class="section" id="biosynthesis">
-    <h2>Structure and Biosynthesis</h2>
-    <p>Aldosterone is a C21 steroid with a unique C11&ndash;C18 aldehyde bridge (hemiacetal form) that distinguishes it from cortisol and confers >3000-fold greater mineralocorticoid potency. It is synthesized exclusively in the <strong>zona glomerulosa</strong> of the adrenal cortex &mdash; the outermost cortical layer, which lacks 17&alpha;-hydroxylase (CYP17A1) and therefore cannot produce cortisol or androgens.</p>
-    <h3>Biosynthetic Pathway</h3>
-    <div class="pathway-block">
-<pre>
-  Cholesterol
-       │  StAR protein (rate-limiting mitochondrial transport)
-       ▼
-  Pregnenolone  (CYP11A1 / cholesterol side-chain cleavage)
-       │  3&beta;-HSD
-       ▼
-  Progesterone
-       │  CYP21A2 (21-hydroxylase)
-       ▼
-  Deoxycorticosterone (DOC)
-       │  CYP11B2  ─ step 1: 11&beta;-hydroxylation
-       │           ─ step 2: 18-hydroxylation
-       │           ─ step 3: 18-methyl oxidation (unique to CYP11B2)
-       ▼
-  Aldosterone
-</pre>
-    </div>
-    <p><strong>CYP11B2 (aldosterone synthase)</strong> is the key enzyme. It is expressed only in the zona glomerulosa and catalyses all three terminal steps unique to aldosterone synthesis. CYP11B1 (in the zona fasciculata) shares 93% sequence identity but cannot perform the 18-oxidation step, explaining the strict zonal segregation of aldosterone versus cortisol biosynthesis.</p>
-    <h3>RAAS Cascade</h3>
-    <div class="pathway-block">
-<pre>
-  Low renal perfusion / low NaCl / &beta;1-adrenergic input
-       │
-       ▼
-  Juxtaglomerular (JG) cells &rarr; RENIN secretion
-       │
-       ▼
-  Angiotensinogen (liver)  &xrarr;[renin]&rarr;  Angiotensin I (Ang I, decapeptide)
-       │
-       ▼
-  ACE (lung endothelium)  &xrarr;  Angiotensin II (Ang II, octapeptide)
-       │
-       ├──&rarr; AT1R on VSMCs: vasoconstriction, BP &uarr;
-       │
-       └──&rarr; AT1R on zona glomerulosa cells
-                │  PKC activation, intracellular Ca2+ rise
-                │  &uarr; CYP11B2 transcription (via CaN/NFAT, ATF/CREB)
-                ▼
-            ALDOSTERONE secretion
-
-  Potassium (K+):
-  Serum K+ rises &rarr; zona glomerulosa membrane depolarization
-  &rarr; voltage-gated Ca2+ channel opening &rarr; CYP11B2 stimulation
-  &rarr; Aldosterone secretion  (independent of RAAS)
-
-  ACTH: minor acute stimulatory role; sustained effect minimal
-</pre>
-    </div>
-    <p>Angiotensin II and extracellular potassium are the two dominant physiological stimuli, each acting through calcium-mediated CYP11B2 induction. Elevated K+ directly depolarizes zona glomerulosa cells as a safeguard against hyperkalemia, making aldosterone a critical component of renal potassium homeostasis.</p>
-  </div>
-
-  <div class="section" id="mechanism">
-    <h2>Mechanism of Action</h2>
-    <h3>Genomic Signaling via MR (NR3C2)</h3>
-    <p>Aldosterone is lipophilic and diffuses freely across the cell membrane. In target cells (predominantly collecting duct principal cells, distal tubule, colon, sweat glands), it binds the <strong>mineralocorticoid receptor (MR, NR3C2)</strong>, a ligand-activated nuclear transcription factor of the steroid hormone receptor superfamily.</p>
-    <ol style="padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem">
-      <li style="margin-bottom:.4rem"><strong>Cytoplasmic complex:</strong> In the absence of ligand, MR is held inactive in the cytoplasm by a chaperone complex (Hsp90, Hsp70, FKBP51). The complex prevents spurious nuclear entry.</li>
-      <li style="margin-bottom:.4rem"><strong>Aldosterone binding:</strong> Aldosterone binds MR with ~10-fold higher affinity than cortisol. Note that cortisol circulates at ~1000-fold higher concentration, so renal MR specificity is conferred by <strong>11&beta;-HSD2</strong> (hydroxysteroid dehydrogenase type 2), which converts cortisol &rarr; inactive cortisone in aldosterone target cells, protecting MR from glucocorticoid occupancy.</li>
-      <li style="margin-bottom:.4rem"><strong>Nuclear translocation:</strong> MR-aldosterone complex translocates to the nucleus within 30&ndash;60 minutes.</li>
-      <li style="margin-bottom:.4rem"><strong>Transcription of target genes:</strong> MR homodimerizes and binds hormone response elements (HREs), driving transcription of:
-        <ul style="padding-left:1.2rem;margin-top:.3rem">
-          <li><strong>SGK1 (serum- and glucocorticoid-inducible kinase 1):</strong> phosphorylates and stabilizes ENaC (epithelial sodium channel) at the apical membrane; also phosphorylates NEDD4-2 to prevent ENaC ubiquitination and internalization</li>
-          <li><strong>&alpha;-ENaC subunit:</strong> increased transcription augments apical Na<sup>+</sup> channel number</li>
-          <li><strong>Na<sup>+</sup>/K<sup>+</sup>-ATPase &alpha;1 and &beta;1 subunits:</strong> basolateral pump increased to sustain the electrochemical gradient</li>
-        </ul>
-      </li>
-      <li style="margin-bottom:.4rem"><strong>Net ion transport:</strong> Na<sup>+</sup> is reabsorbed across the apical ENaC, generating a lumen-negative transepithelial potential that drives passive K<sup>+</sup> secretion (via ROMK) and H<sup>+</sup> secretion (via H<sup>+</sup>-ATPase on intercalated cells). This is the primary mechanism of RAAS-driven hypertension and hypokalemic alkalosis in hyperaldosteronism.</li>
-    </ol>
-    <h3>Timing of Effects</h3>
-    <table>
-      <tr><th>Phase</th><th>Onset</th><th>Mechanism</th><th>Effect</th></tr>
-      <tr><td>Non-genomic (rapid)</td><td>Minutes (1&ndash;10 min)</td><td>MR-independent; EGFR transactivation via AT1R/MR crosstalk; PKC, ERK1/2 activation; intracellular Ca<sup>2+</sup> rise in vascular smooth muscle</td><td>Rapid vasoconstriction; increased vascular tone</td></tr>
-      <tr><td>Early genomic</td><td>30&ndash;60 min</td><td>SGK1 transcription &rarr; ENaC trafficking/stabilization; NEDD4-2 phosphorylation</td><td>Rapid increase in Na<sup>+</sup> reabsorption per open channel</td></tr>
-      <tr><td>Late genomic</td><td>2&ndash;24 h</td><td>&alpha;-ENaC, Na<sup>+</sup>/K<sup>+</sup>-ATPase transcription; new protein synthesis</td><td>Sustained increase in transport capacity; K<sup>+</sup> depletion</td></tr>
-    </table>
-    <div class="callout">
-      <strong>11&beta;-HSD2 as the mineralocorticoid gatekeeper:</strong> Mutations in <em>HSD11B2</em> (encoding 11&beta;-HSD2) cause apparent mineralocorticoid excess (AME) syndrome &mdash; cortisol floods unprotected MR receptors, causing severe hypertension and hypokalemia in children despite low aldosterone levels. Licorice root contains glycyrrhizinic acid, a potent 11&beta;-HSD2 inhibitor, which can cause licorice-induced pseudohyperaldosteronism.
-    </div>
-  </div>
-
-  <div class="section" id="physiology">
-    <h2>Physiological Regulation</h2>
-    <p>The aldosterone&ndash;RAAS system operates as a closed-loop blood pressure and volume controller:</p>
-    <ul>
-      <li><strong>Volume/pressure feedback:</strong> Na<sup>+</sup> retention &rarr; ECF volume expansion &rarr; increased renal perfusion pressure &rarr; JG cell stretch &rarr; suppression of renin &rarr; reduced Ang II &rarr; reduced aldosterone secretion. This negative feedback limits volume overload.</li>
-      <li><strong>ANP (atrial natriuretic peptide):</strong> Released by atrial cardiomyocytes in response to volume overload; directly suppresses aldosterone secretion from the zona glomerulosa (via cGMP/PKG pathway) and inhibits renin release &mdash; acting as the physiological counterbalance to the RAAS.</li>
-      <li><strong>Circadian rhythm:</strong> Aldosterone has a diurnal pattern parallel to ACTH/cortisol &mdash; peak in early morning (6&ndash;8 am), nadir near midnight. Upright posture and volume depletion (standing from bed in the morning) are physiological stimuli for the morning peak via RAAS activation.</li>
-      <li><strong>Potassium balance:</strong> A rise in plasma K<sup>+</sup> of as little as 0.1&ndash;0.2 mmol/L directly stimulates aldosterone secretion, providing a rapid, renin-independent mechanism for K<sup>+</sup> homeostasis.</li>
-      <li><strong>Escape phenomenon:</strong> With prolonged aldosterone excess, Na<sup>+</sup> retention is self-limiting due to the pressure natriuresis response (increased renal perfusion pressure forces Na<sup>+</sup> loss by pressure-dependent mechanisms in the proximal nephron). This &ldquo;aldosterone escape&rdquo; prevents unlimited edema but does not normalize blood pressure, K<sup>+</sup>, or cardiovascular risk.</li>
-    </ul>
-  </div>
-
-  <div class="section" id="cardiovascular">
-    <h2>Cardiovascular Effects Beyond Sodium and Potassium</h2>
-    <p>MR is expressed not only in kidney but also in <strong>cardiomyocytes</strong>, <strong>cardiac fibroblasts</strong>, <strong>vascular smooth muscle</strong>, <strong>endothelial cells</strong>, and <strong>macrophages</strong>. Chronic aldosterone excess drives maladaptive changes in these non-epithelial tissues:</p>
-    <ul>
-      <li><strong>Cardiac fibrosis:</strong> MR activation in cardiac fibroblasts induces TGF-&beta;1, stimulating collagen I and III synthesis &rarr; interstitial and perivascular fibrosis &rarr; diastolic dysfunction. This occurs independently of blood pressure and K<sup>+</sup> effects.</li>
-      <li><strong>Endothelial dysfunction:</strong> MR in endothelial cells promotes NADPH oxidase-derived reactive oxygen species (ROS), reduces eNOS expression and bioavailable nitric oxide, and enhances endothelin-1 production &rarr; impaired vasodilation and increased vascular resistance.</li>
-      <li><strong>Macrophage-driven inflammation:</strong> MR-activated macrophages upregulate pro-inflammatory cytokines (MCP-1, TNF-&alpha;, IL-6), contributing to vascular inflammation and atherogenesis independently of hemodynamic effects.</li>
-      <li><strong>Arrhythmia risk:</strong> Hypokalemia and hypomagnesemia from aldosterone excess prolong the cardiac action potential, increasing the risk of ventricular arrhythmias and atrial fibrillation.</li>
-    </ul>
-    <h3>MR Antagonists in Heart Failure: RALES and EMPHASIS-HF</h3>
-    <div class="callout">
-      <strong>RALES (1999):</strong> Spironolactone 25&ndash;50 mg/day added to standard HFrEF therapy (ACE inhibitor &plusmn; digoxin &plusmn; diuretic) reduced all-cause mortality by 30% (RR 0.70; 95% CI 0.60&ndash;0.82; p&lt;0.001) in patients with NYHA class III&ndash;IV HF and EF &le;35%. The mechanism is thought to be prevention of aldosterone-driven myocardial fibrosis, not diuresis alone. <strong>EMPHASIS-HF (2011):</strong> Eplerenone 25&ndash;50 mg/day in milder HFrEF (NYHA II, EF &le;30% or EF &le;35% with recent hospitalization) reduced the composite of cardiovascular death or HF hospitalization by 37% (HR 0.63; 95% CI 0.54&ndash;0.74). Together, these landmark trials established MR antagonism as a pillar of HFrEF therapy.
-    </div>
-  </div>
-
-  <div class="section" id="pathology">
-    <h2>Pathology</h2>
-    <table>
-      <tr><th>Condition</th><th>Pathophysiology</th><th>Clinical Features</th><th>Diagnosis &amp; Management</th></tr>
-      <tr>
-        <td><strong>Primary hyperaldosteronism (Conn&rsquo;s syndrome)</strong></td>
-        <td>Autonomous aldosterone production independent of RAAS. <strong>Bilateral adrenal hyperplasia</strong> (~60%): diffuse zona glomerulosa expansion; KCNJ5/ATP1A1/ATP2B3/CACNA1D somatic mutations found in many adenomas. <strong>Unilateral aldosterone-producing adenoma (APA)</strong> (~35%): Conn&rsquo;s original description. Rare: unilateral hyperplasia, adrenal carcinoma, familial forms (FH-I: CYP11B1/CYP11B2 chimeric gene; FH-III: KCNJ5 germline).</td>
-        <td>Hypertension (often severe, resistant), hypokalemia (K<sup>+</sup> &lt;3.5 mmol/L in ~40%&mdash;many are normokalemic), metabolic alkalosis; increased cardiovascular event rate beyond BP level (AF, LVH, stroke)</td>
-        <td><strong>Screening:</strong> aldosterone-to-renin ratio (ARR); aldosterone &gt;15 ng/dL with ARR &gt;30 (ng/dL)/(ng/mL/h) is suggestive. <strong>Confirmation:</strong> salt loading test or fludrocortisone suppression test (failure to suppress aldosterone &lt;5 ng/dL confirms autonomous secretion). <strong>Subtype:</strong> CT adrenal; then adrenal vein sampling (AVS) &mdash; gold standard for lateralization before surgery. <strong>Unilateral APA:</strong> laparoscopic adrenalectomy (cures or substantially improves hypertension in 90%+). <strong>Bilateral disease:</strong> lifelong MR antagonist (spironolactone or eplerenone).</td>
-      </tr>
-      <tr>
-        <td><strong>Secondary hyperaldosteronism</strong></td>
-        <td>RAAS appropriately activated by chronic reduction in effective arterial blood volume: heart failure (low cardiac output &rarr; RAAS activation despite total body sodium excess), cirrhosis (splanchnic vasodilation &rarr; low effective volume), nephrotic syndrome (hypoalbuminemia &rarr; low oncotic pressure &rarr; low effective volume), renovascular hypertension (renal artery stenosis &rarr; chronic renin excess).</td>
-        <td>Edema, ascites, or pleural effusions (HF/cirrhosis/nephrotic); hypokalemia; elevated plasma aldosterone with elevated (not suppressed) renin</td>
-        <td>Treat underlying cause; MR antagonists (spironolactone) are used in cirrhotic ascites and HFrEF. Diuretics for volume management. ACE inhibitors/ARBs reduce Ang II-driven aldosterone in HF/CKD.</td>
-      </tr>
-      <tr>
-        <td><strong>Hypoaldosteronism</strong></td>
-        <td><strong>Primary (Addison&rsquo;s disease):</strong> adrenal cortex destruction (autoimmune &gt;80%; also TB, metastases, bilateral hemorrhage) &rarr; loss of cortisol and aldosterone. <strong>Hyporeninemic hypoaldosteronism (type 4 RTA):</strong> most common cause of persistent hyperkalemia in CKD; low renin (diabetic autonomic neuropathy, NSAIDs, CNI toxicity) &rarr; low aldosterone &rarr; impaired urinary K<sup>+</sup> and H<sup>+</sup> excretion &rarr; hyperkalemia + non-anion-gap metabolic acidosis (type 4 RTA).</td>
-        <td>Addison&rsquo;s: salt craving, postural hypotension, hyperkalemia, hyponatremia, hyperpigmentation. Type 4 RTA: hyperkalemia + NAGMA in CKD patient, often on ACE inhibitor/ARB or NSAID.</td>
-        <td>Addison&rsquo;s: fludrocortisone (mineralocorticoid replacement) 0.1 mg/day &plusmn; hydrocortisone (cortisol replacement). Type 4 RTA: low-potassium diet, treat underlying CKD, reduce offending drugs; furosemide (stimulates distal K<sup>+</sup> secretion) for hyperkalemia if needed.</td>
-      </tr>
-      <tr>
-        <td><strong>Liddle syndrome</strong></td>
-        <td>Gain-of-function mutations in ENaC &beta; or &gamma; subunit PY motifs &rarr; impaired NEDD4-2-mediated ENaC internalization &rarr; constitutively increased apical Na<sup>+</sup> channel number &rarr; Na<sup>+</sup> retention despite suppressed RAAS and suppressed aldosterone.</td>
-        <td>Severe early-onset hypertension, hypokalemia, metabolic alkalosis; plasma aldosterone and renin are both <em>low</em> (distinguishes from hyperaldosteronism). Autosomal dominant.</td>
-        <td>Amiloride or triamterene (ENaC blockers) &mdash; highly effective. MR antagonists (spironolactone, eplerenone) are <em>ineffective</em> because the defect is downstream of MR. Low-sodium diet.</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="section" id="drugs">
-    <h2>Drugs Targeting the Aldosterone Pathway</h2>
-    <table>
-      <tr><th>Drug</th><th>Class</th><th>Mechanism</th><th>Key Uses</th><th>Adverse Effects / Notes</th></tr>
-      <tr>
-        <td><strong>Spironolactone</strong></td>
-        <td>Steroidal MR antagonist (non-selective)</td>
-        <td>Competitive antagonist at MR (NR3C2); also binds androgen receptor (AR) and progesterone receptor</td>
-        <td>HFrEF (RALES), primary aldosteronism, cirrhotic ascites, resistant hypertension, anti-androgen (acne, PCOS, hirsutism, transgender feminization)</td>
-        <td>Gynecomastia (men, ~10% at 50 mg, up to 52% at 150 mg), menstrual irregularity; hyperkalemia risk (especially in CKD or with ACE-I/ARB); avoid eGFR &lt;30 mL/min/1.73m&sup2;</td>
-      </tr>
-      <tr>
-        <td><strong>Eplerenone</strong></td>
-        <td>Steroidal MR antagonist (selective)</td>
-        <td>Competitive MR antagonist; 500-fold lower affinity for AR and PR than spironolactone &rarr; fewer sexual side effects</td>
-        <td>HFrEF (EMPHASIS-HF), post-MI with LV dysfunction (EPHESUS), hypertension</td>
-        <td>Hyperkalemia; no gynecomastia; more expensive than spironolactone; twice-daily dosing</td>
-      </tr>
-      <tr>
-        <td><strong>Finerenone</strong></td>
-        <td>Non-steroidal MR antagonist</td>
-        <td>Non-steroidal structure provides more MR-selective, balanced tissue distribution (more equal cardiac/renal distribution vs. steroidal agents); covalent interaction with LBD differs from steroidal MRA</td>
-        <td>CKD with type 2 diabetes (FIDELIO-DKD: reduced CKD progression, 18% relative risk reduction in composite renal outcome; FIGARO-DKD: reduced CV events); heart failure with preserved ejection fraction (HFpEF, FINEARTS-HF: 16% relative risk reduction)</td>
-        <td>Hyperkalemia (lower risk than spironolactone at equipotent doses); no gynecomastia; no significant drug interactions via CYP11B2; approved by FDA 2021 for CKD in T2DM</td>
-      </tr>
-      <tr>
-        <td><strong>Amiloride</strong></td>
-        <td>Potassium-sparing diuretic (ENaC blocker)</td>
-        <td>Directly blocks ENaC channel at the collecting duct apical membrane; effect is <em>downstream of MR</em> and MR-independent &mdash; blocks Na<sup>+</sup> reabsorption regardless of aldosterone level</td>
-        <td>Liddle syndrome (drug of choice); adjunct diuretic in hypokalemia; used with thiazides to prevent hypokalemia; potassium-sparing in cirrhosis</td>
-        <td>Hyperkalemia; avoid in CKD (eGFR &lt;30); not effective in aldosteronism (aldosterone binds MR, but ENaC is not constitutively active — MR antagonists are preferred)</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="section connections" id="connections">
-    <h2>Connections</h2>
-    <ul class="conn-list">
-      <li><span class="conn-rel">upstream</span><span><a href="kidney.html">Kidney</a> &mdash; renal collecting duct principal cells are the primary aldosterone target; ENaC-mediated Na<sup>+</sup> reabsorption and ROMK-mediated K<sup>+</sup> secretion determine urine electrolyte composition</span></li>
-      <li><span class="conn-rel">same axis</span><span><a href="angiotensin-ii.html">Angiotensin II</a> &mdash; the dominant upstream stimulator of aldosterone secretion via AT1R on zona glomerulosa; aldosterone is the downstream effector of RAAS volume regulation</span></li>
-      <li><span class="conn-rel">treatment</span><span><a href="ace-inhibitors.html">ACE Inhibitors</a> &mdash; reduce Ang II and consequently aldosterone levels; first-line renoprotective therapy; blunt aldosterone-driven fibrosis in HF and CKD</span></li>
-      <li><span class="conn-rel">treatment</span><span><a href="arbs.html">ARBs</a> &mdash; block AT1R directly; reduce aldosterone secretion; equivalent renin-angiotensin blockade without bradykinin effects</span></li>
-      <li><span class="conn-rel">pathology</span><span><a href="hypertension.html">Hypertension</a> &mdash; primary aldosteronism accounts for 5&ndash;10% of all hypertension cases, and possibly up to 20% of treatment-resistant hypertension; aldosterone-driven Na<sup>+</sup> retention and vasoconstriction are central mechanisms</span></li>
-      <li><span class="conn-rel">outcome</span><span><a href="heart-failure.html">Heart Failure</a> &mdash; aldosterone excess drives cardiac fibrosis, LVH, and diastolic dysfunction; RALES and EMPHASIS-HF trials established MR antagonism as mortality-reducing HFrEF therapy</span></li>
-      <li><span class="conn-rel">complication</span><span><a href="ckd.html">Chronic Kidney Disease</a> &mdash; RAAS activation in CKD drives aldosterone excess; hyporeninemic hypoaldosteronism (type 4 RTA) is a common CKD complication; finerenone reduces CKD progression in diabetic CKD</span></li>
-      <li><span class="conn-rel">related hormone</span><span><a href="sodium.html">Sodium</a> &mdash; aldosterone is the principal hormone controlling renal sodium reabsorption; urinary Na<sup>+</sup> excretion is the functional readout of aldosterone action</span></li>
-      <li><span class="conn-rel">related hormone</span><span><a href="epo.html">Erythropoietin</a> &mdash; both are adrenal/renal hormones critical to cardiovascular homeostasis; EPO deficiency and aldosterone excess frequently co-exist in advanced CKD</span></li>
-    </ul>
-  </div>
-
-  <div class="section references" id="references">
-    <h2>References</h2>
-    <ol>
-      <li>Funder JW, Carey RM, Mantero F, et al. The Management of Primary Aldosteronism: Case Detection, Diagnosis, and Treatment: An Endocrine Society Clinical Practice Guideline. <em>J Clin Endocrinol Metab.</em> 2016;101(5):1889&ndash;1916. doi:10.1210/jc.2015-4061</li>
-      <li>Pitt B, Zannad F, Remme WJ, et al. (RALES). The Effect of Spironolactone on Morbidity and Mortality in Patients with Severe Heart Failure. <em>N Engl J Med.</em> 1999;341(10):709&ndash;717. doi:10.1056/NEJM199909023411001</li>
-      <li>Zannad F, McMurray JJV, Krum H, et al. (EMPHASIS-HF). Eplerenone in Patients with Systolic Heart Failure and Mild Symptoms. <em>N Engl J Med.</em> 2011;364(1):11&ndash;21. doi:10.1056/NEJMoa1009492</li>
-      <li>Bakris GL, Agarwal R, Anker SD, et al. (FIDELIO-DKD). Effect of Finerenone on Chronic Kidney Disease Outcomes in Type 2 Diabetes. <em>N Engl J Med.</em> 2020;383(23):2219&ndash;2229. doi:10.1056/NEJMoa2025845</li>
-      <li>Filippatos G, Anker SD, B&ouml;hm M, et al. (FIGARO-DKD). Finerenone in Patients with Chronic Kidney Disease and Type 2 Diabetes. <em>N Engl J Med.</em> 2021;385(24):2252&ndash;2263. doi:10.1056/NEJMoa2110956</li>
-      <li>Fuller PJ, Young MJ. Mechanisms of Mineralocorticoid Action. <em>Hypertension.</em> 2005;46(6):1227&ndash;1235. doi:10.1161/01.HYP.0000193502.77003.0a</li>
-      <li>Stowasser M. Update in primary aldosteronism. <em>J Clin Endocrinol Metab.</em> 2009;94(10):3623&ndash;3630. doi:10.1210/jc.2009-1399</li>
-      <li>Catena C, Colussi G, Nadalini E, et al. Cardiovascular outcomes in patients with primary aldosteronism after treatment. <em>Arch Intern Med.</em> 2008;168(1):80&ndash;85. doi:10.1001/archinternmed.2007.33</li>
-    </ol>
-  </div>
-
-</div>
-
-<footer>
-  <p>Human Engineering &mdash; Open knowledge atlas at <a href="https://equalinformation.com/human">equalinformation.com/human</a>.<br>
-  Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:.6rem">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. <strong>Not medical advice.</strong> For research and educational use only.</p>
-  <p style="margin-top:.6rem;font-style:italic;font-size:.8rem"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-</footer>
-
-<script>/* year placeholder if needed */</script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -31,6 +31,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: modulates
     note: "Nav1.5 (SCN5A) generates fast INa driving Phase 0 depolarisation in cardiomyocytes. The Na⁺ gradient drives NCX1 forward mode (3 Na⁺ in, 1 Ca²⁺ out), removing ~28% of systolic Ca²⁺ per beat. Na⁺ overload in ischaemia reverses NCX1, causing Ca²⁺ overload."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Na⁺/K⁺-ATPase pumps 3 Na⁺ out, 2 K⁺ in per ATP: Na⁺ influx drives action potential upstroke (ENa ≈ +60 mV) and K⁺ efflux repolarises (EK ≈ −90 mV); pump consumes ~30% of neuronal ATP; digoxin inhibits it, raising [Na⁺]i → NCX reverse mode → positive inotropy."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "NHE3 (proximal tubule) reabsorbs ~65% of filtered Na⁺; NKCC2 (TAL, target of loop diuretics) ~25%; aldosterone-regulated ENaC (collecting duct) ~2%; overall, 99.5% of filtered Na⁺ is reclaimed; primary aldosteronism → excess Na⁺ retention → hypertension."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Aldosterone (zona glomerulosa) induces ENaC (apical Na⁺ entry) and Na⁺/K⁺-ATPase (basolateral exit) in collecting duct principal cells; RAAS-driven aldosterone rise links low BP/[Na⁺] to renal Na⁺ retention; primary aldosteronism → volume expansion → hypertension."
 ---
 
 # Sodium
@@ -131,11 +140,12 @@ The hypothalamic osmoregulatory axis (osmoreceptors → ADH/vasopressin → aqua
 
 ## Connections
 
-- **Part-of** → [Human Body](../../08-whole-body/human-body/README.md): Na⁺ is the dominant extracellular cation, determining plasma osmolality, total extracellular fluid volume, and the electrochemical gradient that powers action potentials.
-
-- **Modulates** → [Neuron](../../04-cellular/neuron/README.md): Inward Na⁺ flux through Nav1.x channels is the molecular event of neural action potential generation; the Hodgkin-Huxley model of m³h gating quantitatively describes how Na⁺ conductance rises and inactivates to produce the all-or-none depolarisation.
-
-- **Modulates** → [Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md): Nav1.5 (INa) generates the Phase 0 depolarisation of the cardiac action potential. The Na⁺ gradient maintained by Na⁺/K⁺-ATPase drives NCX1 forward-mode Ca²⁺ extrusion; Na⁺ loading in ischaemia reverses NCX1, causing injurious Ca²⁺ overload.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — Na⁺ is the dominant extracellular cation; with its anions it constitutes ~95% of plasma osmolality, determines total extracellular fluid volume, and generates the electrochemical gradient that powers all action potentials.
+- `modulates` → **[Neuron](../../04-cellular/neuron/README.md)** — Nav1.2/1.6 channels open at ~−55 mV; inward INa drives the depolarising upstroke (+40 mV in ~1 ms); Hodgkin-Huxley m³h gating quantitatively describes Na⁺ conductance rise and inactivation; axonal conduction velocity is proportional to Nav density.
+- `modulates` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Nav1.5 (SCN5A) drives Phase 0 cardiac AP upstroke; Na⁺ gradient powers NCX1 forward-mode Ca²⁺ extrusion (~28% of systolic Ca²⁺ per beat); Na⁺ overload in ischaemia reverses NCX1 → Ca²⁺ overload → hypercontracture.
+- `connects-to` → **[Potassium](../potassium/README.md)** — Na⁺/K⁺-ATPase pumps 3 Na⁺ out, 2 K⁺ in per ATP; Na⁺ influx drives AP upstroke (ENa ≈ +60 mV) and K⁺ efflux repolarises (EK ≈ −90 mV); pump consumes ~30% of neuronal ATP; digoxin inhibits it, raising [Na⁺]i → NCX reverse mode → positive inotropy.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — NHE3 reabsorbs ~65% of filtered Na⁺ in the proximal tubule; NKCC2 (TAL, loop diuretic target) ~25%; ENaC (collecting duct, aldosterone-regulated) ~2%; 99.5% of filtered Na⁺ is reclaimed; renal Na⁺ regulation is the primary long-term blood pressure determinant.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — aldosterone induces ENaC (apical Na⁺ entry) and Na⁺/K⁺-ATPase (basolateral) in collecting duct principal cells; RAAS-driven rise links volume depletion to Na⁺ retention; primary aldosteronism → excess Na⁺ → volume expansion → hypertension.
 
 ## Pathology
 
@@ -161,3 +171,5 @@ The hypothalamic osmoregulatory axis (osmoreceptors → ADH/vasopressin → aqua
 
 [^hodgkin-huxley-1952]: Hodgkin AL, Huxley AF. A quantitative description of membrane current and its application to conduction and excitation in nerve. *J Physiol.* 1952;117(4):500-44. [doi:10.1113/jphysiol.1952.sp004764](https://doi.org/10.1113/jphysiol.1952.sp004764) · [PubMed 12991237](https://pubmed.ncbi.nlm.nih.gov/12991237/)
 [^bers-2002-cardiac-ec-coupling]: Bers DM. Cardiac excitation-contraction coupling. *Nature.* 2002;415(6868):198-205. [doi:10.1038/415198a](https://doi.org/10.1038/415198a) · [PubMed 11805843](https://pubmed.ncbi.nlm.nih.gov/11805843/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

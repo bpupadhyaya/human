@@ -31,6 +31,15 @@ cross_links:
   - target: 01-human/04-cellular/sa-node-cell
     relation: modulates
     note: "IKr (hERG) and IKs (KCNQ1) repolarise the SA node AP to the maximum diastolic potential (MDP). HCN4 (If) then drives spontaneous depolarisation to threshold. EK sets the most negative Vm achievable, defining the lower bound of SA node automaticity."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Na⁺/K⁺-ATPase links K⁺ and Na⁺ gradients: 3 Na⁺ out, 2 K⁺ in per ATP; K⁺ efflux through Kv/Kir repolarises action potentials (EK ≈ −90 mV) while Na⁺ influx depolarises (ENa ≈ +60 mV); changes in [K⁺]o directly shift EK and resting membrane potential."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Elevated [K⁺] is the primary direct stimulus for aldosterone secretion; aldosterone drives ROMK (Kir1.1) K⁺ secretion in cortical collecting duct; each ~0.1 mmol/L rise in [K⁺] roughly doubles aldosterone output; primary aldosteronism → excess K⁺ secretion → hypokalaemia."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "IKr (hERG), IKs (KCNQ1), IK1 (Kir2.1), and Ito (Kv4.3) K⁺ currents repolarise the cardiac AP; hypokalaemia prolongs AP → EADs → torsades de pointes; IKATP (Kir6.2/SUR2A) opens in ischaemia, shortening AP to conserve energy and mimicking ischaemic preconditioning."
 ---
 
 # Potassium
@@ -128,11 +137,12 @@ K⁺ is a required cofactor for pyruvate kinase (the enzyme catalysing PEP → p
 
 ## Connections
 
-- **Part-of** → [Human Body](../../08-whole-body/human-body/README.md): Total body K⁺ (~3600 mmol, ~140 g) is predominantly intracellular; its distribution between intracellular and extracellular compartments is the primary determinant of resting membrane potential across all excitable and non-excitable cells.
-
-- **Modulates** → [Neuron](../../04-cellular/neuron/README.md): Kv channel K⁺ efflux repolarises the neuronal action potential back to the resting potential; Kir2.x background K⁺ conductance holds the resting potential at ~−70 mV. The Hodgkin-Huxley n⁴ gating variable quantitatively describes Kv activation kinetics and its role in action potential repolarisation.
-
-- **Modulates** → [SA Node Cell](../../04-cellular/sa-node-cell/README.md): IKr (hERG) and IKs (KCNQ1/KCNE1) repolarise the SA node action potential to the maximum diastolic potential; from there, HCN4 generates the pacemaker depolarisation. The K⁺ equilibrium potential (EK) defines the most negative Vm the SA node can achieve, setting the lower bound of cardiac automaticity.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — Total body K⁺ (~3600 mmol) is >98% intracellular (~140 mmol/L cytosol vs 3.5–5.0 mmol/L plasma); its distribution across cell membranes is the primary determinant of resting membrane potential across all excitable and non-excitable cells.
+- `modulates` → **[Neuron](../../04-cellular/neuron/README.md)** — Kv1/2/4 channel K⁺ efflux repolarises the neuronal AP toward EK (≈−90 mV); Kir2.x (IK1) background conductance holds Vrest ≈−70 mV; Hodgkin-Huxley n⁴ gating describes Kv activation; K⁺ channel mutations cause episodic ataxia (Kv1.1) and neonatal epilepsy (KCNQ2/3).
+- `modulates` → **[SA Node Cell](../../04-cellular/sa-node-cell/README.md)** — IKr (hERG) and IKs (KCNQ1) repolarise the SA node AP to the maximum diastolic potential; HCN4 then drives spontaneous depolarisation; EK (set by [K⁺]o) defines the most negative Vm achievable, establishing the lower bound of pacemaker automaticity.
+- `connects-to` → **[Sodium](../sodium/README.md)** — Na⁺/K⁺-ATPase links K⁺ and Na⁺ gradients (3 Na⁺ out, 2 K⁺ in per ATP); K⁺ efflux through Kv/Kir repolarises APs (EK ≈−90 mV) while Na⁺ influx depolarises (ENa ≈+60 mV); changes in [K⁺]o directly shift EK and resting membrane potential.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — elevated [K⁺] is the primary direct stimulus for aldosterone secretion; aldosterone drives ROMK (Kir1.1) K⁺ secretion in cortical collecting duct; each ~0.1 mmol/L rise in [K⁺] roughly doubles aldosterone output; primary aldosteronism → excess K⁺ secretion → hypokalaemia.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — IKr (hERG), IKs (KCNQ1), IK1 (Kir2.1), and Ito (Kv4.3) K⁺ currents repolarise the cardiac AP; hypokalaemia prolongs AP → EADs → torsades de pointes; IKATP (Kir6.2/SUR2A) opens in ischaemia, shortening AP to conserve energy.
 
 ## Pathology
 
@@ -159,3 +169,5 @@ K⁺ is a required cofactor for pyruvate kinase (the enzyme catalysing PEP → p
 
 [^hodgkin-huxley-1952]: Hodgkin AL, Huxley AF. A quantitative description of membrane current and its application to conduction and excitation in nerve. *J Physiol.* 1952;117(4):500-44. [doi:10.1113/jphysiol.1952.sp004764](https://doi.org/10.1113/jphysiol.1952.sp004764) · [PubMed 12991237](https://pubmed.ncbi.nlm.nih.gov/12991237/)
 [^doyle-1998-kchannel]: Doyle DA, Morais Cabral J, Pfuetzner RA, et al. The structure of the potassium channel: molecular basis of K⁺ conduction and selectivity. *Science.* 1998;280(5360):69-77. [doi:10.1126/science.280.5360.69](https://doi.org/10.1126/science.280.5360.69) · [PubMed 9525859](https://pubmed.ncbi.nlm.nih.gov/9525859/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

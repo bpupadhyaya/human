@@ -53,6 +53,12 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: modulates
     note: "Aldosterone is the principal hormone controlling final sodium balance in the collecting duct; chronic excess causes hypokalemia, metabolic alkalosis, and accelerated CKD progression."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Aldosterone induces ENaC (apical Na⁺ entry) and Na⁺/K⁺-ATPase (basolateral) in collecting duct principal cells; RAAS-mediated aldosterone rise is the principal renal mechanism linking volume depletion to Na⁺ retention; primary aldosteronism → excess Na⁺ retention → hypertension."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "K⁺ directly stimulates aldosterone secretion from zona glomerulosa; aldosterone induces ROMK (Kir1.1) K⁺ secretion into the collecting duct lumen; a 0.1 mmol/L rise in [K⁺] roughly doubles aldosterone output; primary aldosteronism → excess ROMK activity → hypokalaemia."
 ---
 
 # Aldosterone
@@ -140,6 +146,8 @@ Aldosterone also activates rapid (seconds to minutes) signaling:
 - `modulates` → **[Heart](../../06-organ/heart/README.md)** — MR-mediated cardiac fibrosis; target of RALES/EPHESUS-proven MR antagonist therapy
 - `modulates` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — blood pressure regulation; endothelial dysfunction; hyperaldosteronism is the most common secondary hypertension cause
 - `modulates` → **[Renal System](../../07-system/renal-system/README.md)** — sodium-potassium-water homeostasis; excess → hypokalemia, metabolic alkalosis, CKD progression
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — aldosterone induces ENaC (apical Na⁺ entry) and Na⁺/K⁺-ATPase (basolateral) in collecting duct principal cells; RAAS-mediated rise links volume depletion to Na⁺ retention; primary aldosteronism → excess Na⁺ retention → hypertension.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — K⁺ directly stimulates aldosterone secretion from zona glomerulosa; aldosterone drives ROMK (Kir1.1) K⁺ secretion into the collecting duct lumen; a 0.1 mmol/L rise in [K⁺] roughly doubles aldosterone output; primary aldosteronism → excess ROMK → hypokalaemia.
 
 ## Pathology
 
