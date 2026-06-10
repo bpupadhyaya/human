@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "IL-13 is the dominant type 2 pro-fibrotic cytokine: IL-13 → IL-13Rα1/STAT6 → TGF-β1 induction in fibroblasts and macrophages → myofibroblast differentiation → collagen deposition; IL-13/TGF-β synergy drives lung fibrosis in asthma remodeling and idiopathic pulmonary fibrosis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "IL-13 and IL-5 are co-produced by Th2/ILC2; IL-5 drives eosinophil production while IL-13 drives goblet cell metaplasia, IgE, and fibrosis; IL-13 → CCL26 → eosinophil recruitment; targeting diverges (mepolizumab anti-IL-5 vs tralokinumab anti-IL-13 vs dupilumab anti-IL-4Rα)."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "IL-13 drives IgE class switching via STAT6 → ε germline transcript; IgE sensitizes mast cells → FcεRI crosslinking → IL-13 amplification loop; total IgE >150 IU/mL correlates with T2 disease severity; omalizumab (anti-IgE) reduces IgE-dependent mast cell IL-13 release."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "IL-33 (epithelial alarmin) → ST2 on ILC2/Th2 → IL-13 secretion; IL-33 + TSLP + IL-25 form the upstream alarmin triad driving ILC2-derived IL-13; IL-33 activates mast cells → IL-13 release; itepekimab (anti-IL-33) reduces IL-13 downstream effector activity in asthma."
 sources:
   - id: wills-karp-1998-il13-asthma
     type: peer-reviewed
@@ -129,13 +138,17 @@ IL-13 is a **monomeric 132-aa glycoprotein** (after 20-aa signal peptide cleavag
 
 ## Connections
 
-IL-13 → IL-13Rα1/IL-4Rα → STAT6 → FLG, claudin-1, loricrin suppression → barrier failure; IL-13 is the dominant effector in chronic AD lichenification and fibrosis; tralokinumab (ECZTRA 1/2: 38% IGA 0/1) and lebrikizumab (ADVOCATE: 43% IGA 0/1) target IL-13 specifically.
+- `connects-to` → **[Atopic Dermatitis](../../07-system/atopic-dermatitis/README.md)** — IL-13 → STAT6 → FLG/claudin-1/loricrin suppression → barrier failure; dominant effector in chronic AD lichenification and fibrosis; tralokinumab (ECZTRA 1/2: 38% IGA 0/1) and lebrikizumab (ADVOCATE: 43% IGA 0/1) target IL-13 specifically.
+- `connects-to` → **[Asthma](../../07-system/asthma/README.md)** — IL-13 → STAT6 → MUC5AC (goblet cell metaplasia) and eotaxin → airway eosinophilia and mucus plugging; IL-13 directly induces airway smooth muscle hyperresponsiveness via Gq receptor upregulation; FeNO is an indirect read-out of IL-13 airway activity.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-13 and IL-4 share the type II receptor (IL-4Rα/IL-13Rα1) → both activate STAT6 on non-hematopoietic cells; IL-4 additionally drives Th2 differentiation via type I receptor (IL-4Rα/γc); dupilumab (anti-IL-4Rα) blocks both simultaneously.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — IL-13 is the dominant type 2 pro-fibrotic cytokine: IL-13Rα1/STAT6 → TGF-β1 induction in fibroblasts and M2 macrophages → myofibroblast differentiation → collagen deposition; IL-13/TGF-β synergy drives lung fibrosis in asthma remodeling and IPF.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — IL-13 and IL-5 are co-produced by Th2/ILC2; IL-5 drives eosinophil production while IL-13 drives goblet cell metaplasia, IgE, and fibrosis; IL-13 → CCL26 → eosinophil recruitment; targeting diverges (mepolizumab anti-IL-5 vs tralokinumab anti-IL-13 vs dupilumab anti-IL-4Rα).
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — IL-13 drives IgE class switching via STAT6 → ε germline transcript; IgE sensitizes mast cells → FcεRI crosslinking → IL-13 amplification loop; total IgE >150 IU/mL correlates with T2 disease severity; omalizumab (anti-IgE) reduces IgE-dependent mast cell IL-13 release.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 (epithelial alarmin) → ST2 on ILC2/Th2 → IL-13 secretion; IL-33 + TSLP + IL-25 form the upstream alarmin triad driving ILC2-derived IL-13; IL-33 activates mast cells → IL-13 release; itepekimab (anti-IL-33) reduces IL-13 downstream effector activity in asthma.
 
-IL-13 → STAT6 → MUC5AC transcription (goblet cell metaplasia) and eotaxin production → airway eosinophilia and mucus plugging; IL-13 directly induces airway smooth muscle hyperresponsiveness via Gq receptor upregulation; FeNO is an indirect read-out of IL-13 airway activity.
+---
 
-IL-13 and IL-4 share the type II receptor (IL-4Rα/IL-13Rα1) on non-hematopoietic cells → both activate STAT6; IL-4 additionally activates type I (IL-4Rα/γc) on lymphocytes driving Th2 differentiation; dupilumab (anti-IL-4Rα) blocks both IL-4 and IL-13 signaling simultaneously.
-
-IL-13 is the dominant type 2 pro-fibrotic cytokine: IL-13 → IL-13Rα1/STAT6 → TGF-β1 induction in fibroblasts and macrophages → myofibroblast differentiation → collagen deposition; IL-13/TGF-β synergy drives lung fibrosis in asthma remodeling and idiopathic pulmonary fibrosis.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^wills-karp-1998-il13-asthma]: Wills-Karp M, Luyimbazi J, Xu X, et al. Interleukin-13: central mediator of allergic asthma. *Science.* 1998;282(5397):2258-2261. [doi:10.1126/science.282.5397.2258](https://doi.org/10.1126/science.282.5397.2258) · [PubMed 9856949](https://pubmed.ncbi.nlm.nih.gov/9856949/)
 [^wollenberg-2021-tralokinumab]: Wollenberg A, Blauvelt A, Guttman-Yassky E, et al. Tralokinumab for moderate-to-severe atopic dermatitis: results from two 52-week, randomized, double-blind, multicentre, placebo-controlled phase III trials (ECZTRA 1 and ECZTRA 2). *Br J Dermatol.* 2021;184(3):437-449. [doi:10.1111/bjd.19574](https://doi.org/10.1111/bjd.19574) · [PubMed 33000465](https://pubmed.ncbi.nlm.nih.gov/33000465/)

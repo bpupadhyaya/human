@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "PTEN loss → PI3K-AKT-TSC2 → mTORC1 hyperactivation → S6K and 4EBP1 → unchecked protein synthesis; everolimus (mTORC1 inhibitor) is approved for PTEN-loss endometrial, breast (HR+/HER2-), and renal tumors; PTEN loss predicts mTOR inhibitor sensitivity in HR+ breast cancer."
+  - target: 01-human/03-molecular/brca1
+    relation: connects-to
+    note: "PTEN loss → impaired HR (reduced RAD51 at DSBs) → HR-deficiency phenotype analogous to BRCA1/2; PTEN and BRCA1 cooperate in DNA damage response; PARP inhibitor synthetic lethality with PTEN-null tumors: olaparib trials in mCRPC and breast cancer with PTEN deletion are ongoing."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "PTEN deleted in 30-40% of GBM; co-occurs with EGFR amplification → dual AKT-mTOR + EGFR-RAS-ERK activation; PTEN methylation is an adverse GBM marker; mTOR inhibitors have modest activity in PTEN-null GBM; PTEN loss predicts resistance to EGFR-targeted therapy in GBM."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "AKT (activated by PTEN loss) phosphorylates GSK-3β Ser9 → GSK-3β inhibited → β-catenin freed from destruction complex → Wnt target gene activation; PTEN loss can activate β-catenin without Wnt ligand; cooperates with APC LOF in colorectal cancer to amplify Wnt/β-catenin output."
 ---
 
 # PTEN
@@ -150,6 +159,13 @@ PTEN is a **403 amino acid** dual-specificity phosphatase with a characteristic 
 - `connects-to` → **[AKT](../akt/README.md)** — PTEN is the primary AKT pathway brake; PTEN loss → constitutive PIP3 → full AKT hyperactivation; PTEN-null tumors are highly sensitive to AKT inhibitors (capivasertib) and represent a validated biomarker for PI3K-AKT pathway-directed therapy.
 - `connects-to` → **[p53](../p53/README.md)** — p53 transcriptionally activates PTEN; PTEN protein stabilizes p53 by sequestering MDM2; PTEN loss + TP53 mutation are co-occurring and mutually cooperating alterations in aggressive cancers; the PTEN-p53 feedback loop is the central tumor suppressor network.
 - `connects-to` → **[mTOR](../mtor/README.md)** — PTEN loss → PI3K-AKT-TSC2 → mTORC1 hyperactivation; everolimus (mTORC1 inhibitor) is approved for PTEN-loss endometrial, HR+ breast, and RCC; TSC1/2-loss (complete mTOR dependence) is the extreme example of PTEN-pathway addiction to mTOR.
+- `connects-to` → **[BRCA1](../brca1/README.md)** — PTEN loss → impaired HR (reduced RAD51 at DSBs) → HR-deficiency phenotype analogous to BRCA1/2; PTEN and BRCA1 cooperate in DNA damage response; PARP inhibitor synthetic lethality with PTEN-null tumors: olaparib trials in mCRPC and breast cancer with PTEN deletion are ongoing.
+- `connects-to` → **[Glioblastoma](../../07-system/glioblastoma/README.md)** — PTEN deleted in 30-40% of GBM; co-occurs with EGFR amplification → dual AKT-mTOR + EGFR-RAS-ERK activation; PTEN methylation is an adverse GBM marker; mTOR inhibitors have modest activity in PTEN-null GBM; PTEN loss predicts resistance to EGFR-targeted therapy in GBM.
+- `connects-to` → **[Wnt/β-catenin](../wnt-beta-catenin/README.md)** — AKT (activated by PTEN loss) phosphorylates GSK-3β Ser9 → GSK-3β inhibited → β-catenin freed from destruction complex → Wnt target gene activation; PTEN loss can activate β-catenin without Wnt ligand; cooperates with APC LOF in colorectal cancer to amplify Wnt/β-catenin output.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^li-1997-pten-discovery]: Li J, Yen C, Liaw D, et al. PTEN, a putative protein tyrosine phosphatase gene mutated in human brain, breast, and prostate cancer. *Science.* 1997;275(5308):1943-1947. [doi:10.1126/science.275.5308.1943](https://doi.org/10.1126/science.275.5308.1943) · [PubMed 9072974](https://pubmed.ncbi.nlm.nih.gov/9072974/)
 [^stambolic-1998-pten-pi3k]: Stambolic V, Suzuki A, de la Pompa JL, et al. Negative regulation of PKB/Akt-dependent cell survival by the tumor suppressor PTEN. *Cell.* 1998;95(1):29-39. [doi:10.1016/S0092-8674(00)81780-8](https://doi.org/10.1016/S0092-8674(00)81780-8) · [PubMed 9778245](https://pubmed.ncbi.nlm.nih.gov/9778245/)
