@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "IGF1R signaling → PI3K-AKT-mTOR is required for EWSR1-FLI1-driven transformation; mTOR inhibitors have modest single-agent activity in Ewing; dual IGF1R+mTOR inhibition explored in Phase 1/2; EWSR1-FLI1 upregulates IGF1R → autocrine IGF loop in Ewing cells."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "EWSR1-FLI1 t(11;22)(q24;q12) in ~85% of Ewing sarcoma drives neuroectodermal oncogenesis via GGAA microsatellite neo-enhancers; treatment: VDC/IE chemotherapy; 5-year OS ~70-75% localized, ~20% metastatic; EWSR1 break-apart FISH is the diagnostic standard."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EWSR1-FLI1 recruits PRC2/EZH2 to repress differentiation loci (ID2, IGJ) in Ewing sarcoma; tazemetostat (EZH2 inhibitor) restores differentiation gene expression → anti-tumor in Ewing preclinically; EZH2 co-inhibition targets the EWSR1-FLI1 transcriptional program."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A deletion in ~30% of Ewing sarcoma → loss of p16/ARF → unchecked CDK4/6-Rb axis and impaired p53 response; EWSR1-FLI1 suppresses CDKN2A via EZH2/PRC2; CDKN2A-deleted Ewing has worse prognosis and may be sensitized to CDK4/6 inhibitor combinations."
 ---
 
 # EWSR1
@@ -138,6 +147,13 @@ No small molecule directly inhibits the EWSR1-FLI1 protein effectively; the LCD 
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — EWSR1-FLI1 transcriptionally activates MYC from GGAA microsatellite enhancers; MYC is a downstream effector of the Ewing oncogenic program; BET inhibitors suppress MYC in Ewing preclinically; EWSR1-FLI1+MYC co-activation drives the neuroectodermal blast phenotype.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EWSR1-FLI1 activates IGF1R/RAS → ERK1/2 → survival and proliferation; ERK1/2 promotes NKX2-2 transcription (master Ewing neuroectodermal regulator); MEK inhibitors explored in refractory Ewing; EWSR1-FLI1 and ERK signaling co-suppress neuroectodermal differentiation.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — IGF1R signaling → PI3K-AKT-mTOR is required for EWSR1-FLI1-driven transformation; mTOR inhibitors have modest single-agent activity in Ewing; dual IGF1R+mTOR inhibition explored in Phase 1/2; EWSR1-FLI1 upregulates IGF1R → autocrine IGF loop in Ewing cells.
+- `connects-to` → **[Ewing Sarcoma](../../07-system/ewing-sarcoma/README.md)** — EWSR1-FLI1 t(11;22)(q24;q12) in ~85% of Ewing sarcoma drives neuroectodermal oncogenesis via GGAA microsatellite neo-enhancers; treatment: VDC/IE chemotherapy; 5-year OS ~70-75% localized, ~20% metastatic; EWSR1 break-apart FISH is the diagnostic standard.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EWSR1-FLI1 recruits PRC2/EZH2 to repress differentiation loci (ID2, IGJ) in Ewing sarcoma; tazemetostat (EZH2 inhibitor) restores differentiation gene expression → anti-tumor in Ewing preclinically; EZH2 co-inhibition targets the EWSR1-FLI1 transcriptional program.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A deletion in ~30% of Ewing sarcoma → loss of p16/ARF → unchecked CDK4/6-Rb axis and impaired p53 response; EWSR1-FLI1 suppresses CDKN2A via EZH2/PRC2; CDKN2A-deleted Ewing has worse prognosis and may be sensitized to CDK4/6 inhibitor combinations.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^delattre-1992-ewsr1-fli1]: Delattre O, Zucman J, Plougastel B, et al. Gene fusion with an ETS DNA-binding domain caused by chromosome translocation in human tumours. *Nature.* 1992;359(6391):162-165. [doi:10.1038/359162a0](https://doi.org/10.1038/359162a0) · [PubMed 1522903](https://pubmed.ncbi.nlm.nih.gov/1522903/)
 [^grier-2003-ewing-vdc-ie]: Grier HE, Krailo MD, Tarbell NJ, et al. Addition of ifosfamide and etoposide to standard chemotherapy for Ewing's sarcoma and primitive neuroectodermal tumor of bone. *N Engl J Med.* 2003;348(8):694-701. [doi:10.1056/NEJMoa020890](https://doi.org/10.1056/NEJMoa020890) · [PubMed 12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/)

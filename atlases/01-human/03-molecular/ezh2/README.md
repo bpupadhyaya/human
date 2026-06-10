@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "EZH2 silences CDKN2A (p14/ARF) via H3K27me3 → ARF loss → MDM2-mediated p53 degradation without TP53 mutation; EZH2 → blunted p53-pathway response in FL; tazemetostat restores CDKN2A expression → p53 reactivation in EZH2-mutant cells."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "EZH2 Y641 gain-of-function in ~25% of follicular lymphoma cooperates with BCL-2 overexpression to silence CDKN2A and differentiation regulators; tazemetostat ORR 69% in EZH2-mutant FL vs. 35% in WT FL; FL transformation to DLBCL is accelerated by EZH2+CREBBP co-mutations."
+  - target: 01-human/03-molecular/ewsr1
+    relation: connects-to
+    note: "EWSR1-FLI1 recruits PRC2/EZH2 to repress differentiation loci (ID2, IGJ) in Ewing sarcoma; tazemetostat (EZH2 inhibitor) restores differentiation and has anti-tumor activity in Ewing preclinically; EZH2 co-inhibition is evaluated in refractory Ewing sarcoma."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "EZH2 → H3K27me3 at CDKN2A silences p16 (CDK4/6 inhibitor) and ARF (MDM2 inhibitor); CDKN2A silencing links EZH2 gain-of-function to cell cycle dysregulation and p53 blunting in follicular lymphoma; tazemetostat restores CDKN2A → synthetic lethality in EZH2-mutant cells."
 ---
 
 # EZH2
@@ -131,6 +140,13 @@ EZH1 is a catalytically less active EZH2 paralog; EZH1-containing PRC2 maintains
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC activates EZH2 transcription; EZH2 → H3K27me3 at CDKN2A and HOXA loci → silences tumor suppressors enabling MYC-driven proliferation; double-expressor DLBCL (MYC+BCL-2 protein) frequently co-expresses EZH2; double-hit lymphoma has high EZH2 activity.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — EZH2 silences TNFAIP3/A20 and PRDM1 (BLIMP1) via H3K27me3 → enhanced NF-κB and blocked plasma cell differentiation in GCB-DLBCL and FL; CREBBP/EP300 HAT mutations co-occur with EZH2 mutations in ~30% of FL → dual epigenetic reprogramming toward GC B-cell maintenance.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — EZH2 silences CDKN2A (p14/ARF) via H3K27me3 → ARF loss → MDM2-mediated p53 degradation without TP53 mutation; EZH2 → blunted p53-pathway response in FL; tazemetostat restores CDKN2A expression → p53 reactivation in EZH2-mutant cells.
+- `connects-to` → **[Follicular Lymphoma](../../07-system/follicular-lymphoma/README.md)** — EZH2 Y641 gain-of-function in ~25% of follicular lymphoma cooperates with BCL-2 overexpression to silence CDKN2A and differentiation regulators; tazemetostat ORR 69% in EZH2-mutant FL vs. 35% in WT FL; FL transformation to DLBCL is accelerated by EZH2+CREBBP co-mutations.
+- `connects-to` → **[EWSR1](../../03-molecular/ewsr1/README.md)** — EWSR1-FLI1 recruits PRC2/EZH2 to repress differentiation loci (ID2, IGJ) in Ewing sarcoma; tazemetostat (EZH2 inhibitor) restores differentiation and has anti-tumor activity in Ewing preclinically; EZH2 co-inhibition is evaluated in refractory Ewing sarcoma.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — EZH2 → H3K27me3 at CDKN2A silences p16 (CDK4/6 inhibitor) and ARF (MDM2 inhibitor); CDKN2A silencing links EZH2 gain-of-function to cell cycle dysregulation and p53 blunting in follicular lymphoma; tazemetostat restores CDKN2A → synthetic lethality in EZH2-mutant cells.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^margueron-2011-prc2]: Margueron R, Reinberg D. The Polycomb complex PRC2 and its mark in life. *Nature.* 2011;469(7330):343-349. [doi:10.1038/nature09784](https://doi.org/10.1038/nature09784) · [PubMed 21248841](https://pubmed.ncbi.nlm.nih.gov/21248841/)
 [^morschhauser-2020-tazemetostat]: Morschhauser F, Tilly H, Chaidos A, et al. Tazemetostat for patients with relapsed or refractory follicular lymphoma (E7438-G-003). *Lancet Oncol.* 2020;21(11):1433-1442. [doi:10.1016/S1470-2045(20)30441-1](https://doi.org/10.1016/S1470-2045(20)30441-1) · [PubMed 33035457](https://pubmed.ncbi.nlm.nih.gov/33035457/)
