@@ -3,111 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Immune checkpoint inhibitors — PD-1, PD-L1, and CTLA-4 blockade in cancer immunotherapy. Mechanism, biomarkers, key trials, and immune-related adverse events. Part of the Human Engineering project.">
-  <meta property="og:title" content="Checkpoint Inhibitors — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Monoclonal antibodies blocking immune checkpoint receptors (PD-1, PD-L1, CTLA-4) that tumors exploit to suppress T cell killing. Nobel Prize 2018 (Allison &amp; Hon">
+  <meta property="og:title" content="Checkpoint Inhibitors — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Checkpoint Inhibitors — Medicine Atlas · Human Engineering</title>
+  <title>Checkpoint Inhibitors — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #ec4899;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(236,72,153,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #ec4899, #9d174d); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
-
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-pd1 { background: rgba(236,72,153,0.12); color: #ec4899; }
-    .badge-pdl1 { background: rgba(124,58,237,0.12); color: #7c3aed; }
-    .badge-ctla4 { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-combo { background: rgba(217,119,6,0.12); color: #d97706; }
-
-    .mech-item { padding: 0.75rem 1rem 0.75rem 1.1rem; border-left: 3px solid var(--border); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; background: var(--bg); margin-bottom: 0.5rem; }
-    .mech-item:last-child { margin-bottom: 0; }
-    .mech-item.pdaxis { border-left-color: #ec4899; }
-    .mech-item.ctlaaxis { border-left-color: #2563eb; }
-    .mech-item.lag3 { border-left-color: #059669; }
-    .mech-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; margin: 0; }
-
-    .note-box { background: rgba(236,72,153,0.07); border: 1px solid rgba(236,72,153,0.2); border-radius: var(--radius-sm); padding: 0.85rem 1rem; margin-top: 0.5rem; }
-    .note-box p { font-size: 0.88rem; color: var(--fg-soft); line-height: 1.55; margin: 0; }
-    .note-box strong { color: var(--accent); }
-
-    .irAE-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .irAE-grid { grid-template-columns: 1fr; } }
-    .irae-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .irae-item.warn { border-left-color: #dc2626; }
-    .irae-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .irae-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
-
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -120,298 +102,83 @@
 
   <nav>
     <div class="nav-inner">
-      <a href="../index.html" class="brand">
+      <a href="index.html" class="brand">
         <span class="brand-mark" aria-hidden="true"></span>
         Human Engineering
       </a>
       <div class="nav-links">
-        <a href="../index.html#mission">Mission</a>
+        <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine Atlas
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Four &middot; Medicine &middot; Cancer Immunotherapy &middot; L02 Molecular</div>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
     <h1>Checkpoint Inhibitors</h1>
-    <p class="tagline">Monoclonal antibodies that release immune brakes — PD-1, PD-L1, and CTLA-4 blockade — transforming the treatment of melanoma, NSCLC, and dozens of other cancers since 2011.</p>
-    <p class="subtagline">Pembrolizumab, nivolumab, ipilimumab: durable responses in cancers once uniformly fatal. The 2018 Nobel Prize in Physiology or Medicine was awarded to James Allison and Tasuku Honjo for discovering CTLA-4 and PD-1 as immune checkpoints.</p>
+    <p class="tagline">Monoclonal antibodies blocking immune checkpoint receptors (PD-1, PD-L1, CTLA-4) that tumors exploit to suppress T cell killing. Nobel Prize 2018 (Allison &amp; Honjo). Transform survival in melanoma, NSCLC, MSI-H tumors, and 15+ cancer types.</p>
+    <p class="aliases">Also known as: immune checkpoint inhibitors, ICI, anti-PD-1, anti-PD-L1, anti-CTLA-4, pembrolizumab, nivolumab, ipilimumab, atezolizumab, durvalumab, Keytruda, Opdivo, Yervoy</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Target Axes</span></div>
-      <div class="stat"><span class="stat-num">~11</span><span class="stat-label">FDA-Approved Agents</span></div>
-      <div class="stat"><span class="stat-num">58%</span><span class="stat-label">5-yr OS nivo+ipi (CheckMate-067)</span></div>
-      <div class="stat"><span class="stat-num">~40%</span><span class="stat-label">ORR MSI-H (KEYNOTE-158)</span></div>
+        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas · Cancer Immunotherapy · Immune Checkpoint Blockade</div>
-        <h2>Checkpoint Inhibitors</h2>
-        <div class="drug-class">Scale: L02 Molecular &nbsp;|&nbsp; System: Immune/Oncology &nbsp;|&nbsp; Type: Monoclonal antibody immunotherapy &nbsp;|&nbsp; Route: Intravenous</div>
-        <p class="summary">Immune checkpoint inhibitors (ICIs) are monoclonal antibodies that block inhibitory receptors — PD-1, PD-L1, or CTLA-4 — on T cells or tumor cells. By removing these "immune brakes," ICIs reinvigorate tumor-specific CD8+ T cells that have been exhausted by chronic antigen exposure. Since ipilimumab's approval in 2011, the class has transformed oncology, producing durable complete responses in previously untreatable malignancies. Over 50 tumor types now have approved ICI indications.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">immune checkpoint blockade</span>
-          <span class="alias-pill">anti-PD-1</span>
-          <span class="alias-pill">anti-PD-L1</span>
-          <span class="alias-pill">anti-CTLA-4</span>
-          <span class="alias-pill">ICIs</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">checkpoint-inhibitors</div>
+        <h2>Checkpoint Inhibitors</h2>
+        <p class="summary">Monoclonal antibodies blocking immune checkpoint receptors (PD-1, PD-L1, CTLA-4) that tumors exploit to suppress T cell killing. Nobel Prize 2018 (Allison &amp; Honjo). Transform survival in melanoma, NSCLC, MSI-H tumors, and 15+ cancer types.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The immune system normally keeps T cell activation under tight control through co-inhibitory receptors — molecular "checkpoints" that prevent autoimmunity and limit the intensity of immune responses. Tumors exploit these same brakes to escape immune destruction. The two principal axes exploited by cancer are the <strong>PD-1/PD-L1 axis</strong> (peripheral exhaustion, operating in the tumor microenvironment) and the <strong>CTLA-4/B7 axis</strong> (priming phase, operating in lymph nodes).</p>
-          <p>Checkpoint inhibitors are immunoglobulin antibodies — predominantly IgG4 or engineered IgG1 — that block these inhibitory interactions. They do not directly kill tumor cells; instead, they remove immunological constraints so the patient's own immune system can mount and sustain anti-tumor responses.</p>
-          <p>The landscape encompasses three validated target axes with multiple approved agents, plus emerging targets (LAG-3, TIM-3, TIGIT). Combination approaches — particularly PD-1 + CTLA-4 co-blockade — produce synergistic activity by targeting non-redundant phases of T cell activation.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Targets and Approved Agents</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Target</th><th>Agent (Brand)</th><th>Antibody Type</th><th>Key Approvals</th></tr>
-            <tr>
-              <td><span class="badge badge-pd1">PD-1</span></td>
-              <td><strong>Pembrolizumab</strong> (Keytruda)</td>
-              <td>Humanized IgG4κ</td>
-              <td>Melanoma, NSCLC (PD-L1 ≥1%), TNBC, MSI-H/TMB-H pan-tumor, cervical, HCC, biliary, TNBC, RCC, esophageal, CRC (MSI-H), HNSCC, cHL, MCC, EC, TMB-H</td>
-            </tr>
-            <tr>
-              <td><span class="badge badge-pd1">PD-1</span></td>
-              <td><strong>Nivolumab</strong> (Opdivo)</td>
-              <td>Fully human IgG4</td>
-              <td>Melanoma, NSCLC, RCC, urothelial, HNSCC, cHL, HCC, gastric/GEJ, MSI-H CRC, esophageal, MPM, NSCLC adjuvant</td>
-            </tr>
-            <tr>
-              <td><span class="badge badge-pd1">PD-1</span></td>
-              <td><strong>Cemiplimab</strong> (Libtayo)</td>
-              <td>Fully human IgG4</td>
-              <td>CSCC, BCC, NSCLC (PD-L1 ≥50%), cervical</td>
-            </tr>
-            <tr>
-              <td><span class="badge badge-pdl1">PD-L1</span></td>
-              <td><strong>Atezolizumab</strong> (Tecentriq)</td>
-              <td>Humanized IgG1 (Fc-engineered)</td>
-              <td>NSCLC (IMpower150 combination), urothelial, TNBC (PD-L1+), HCC, SCLC (withdrawn US), AML (withdrawn)</td>
-            </tr>
-            <tr>
-              <td><span class="badge badge-pdl1">PD-L1</span></td>
-              <td><strong>Durvalumab</strong> (Imfinzi)</td>
-              <td>Human IgG1κ (Fc-silent)</td>
-              <td>Unresectable Stage III NSCLC (PACIFIC), SCLC, BTC, urothelial</td>
-            </tr>
-            <tr>
-              <td><span class="badge badge-pdl1">PD-L1</span></td>
-              <td><strong>Avelumab</strong> (Bavencio)</td>
-              <td>Fully human IgG1</td>
-              <td>MCC (maintenance), urothelial maintenance (JAVELIN Bladder 100)</td>
-            </tr>
-            <tr>
-              <td><span class="badge badge-ctla4">CTLA-4</span></td>
-              <td><strong>Ipilimumab</strong> (Yervoy)</td>
-              <td>Fully human IgG1</td>
-              <td>Melanoma (1st and 2nd line), RCC (+nivo), CRC (MSI-H, +nivo), NSCLC (+nivo+chemo), MPM (+nivo), ESCC (+nivo)</td>
-            </tr>
-            <tr>
-              <td><span class="badge badge-ctla4">CTLA-4</span></td>
-              <td><strong>Tremelimumab</strong> (Imjudo)</td>
-              <td>Fully human IgG2</td>
-              <td>Unresectable HCC (+ durvalumab, STRIDE regimen)</td>
-            </tr>
-            <tr>
-              <td><span class="badge badge-combo">LAG-3</span></td>
-              <td><strong>Relatlimab</strong> (in Opdualag + nivo)</td>
-              <td>Fully human IgG4</td>
-              <td>Melanoma (unresectable/metastatic, 1st line; RELATIVITY-047 — PFS 10.12m vs 4.63m vs nivolumab alone)</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>checkpoint-inhibitors</td></tr>
+            <tr><td>Name</td><td>Checkpoint Inhibitors</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Stream</td><td>01-modern</td></tr>
+            <tr><td>Drug class</td><td>immune checkpoint inhibitor monoclonal antibody</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Mechanism of Action</h3>
-          <h4>PD-1 / PD-L1 Axis — Peripheral Exhaustion</h4>
-          <p>In the tumor microenvironment (TME), chronic antigen stimulation of CD8+ T cells drives upregulation of PD-1 (programmed death-1), an inhibitory receptor on T cells. Tumor cells and tumor-infiltrating myeloid cells counter-express <strong>PD-L1</strong> (CD274/B7-H1) via multiple mechanisms:</p>
-          <ul style="margin-left:1.2rem;margin-bottom:0.6rem;font-size:0.93rem;color:var(--fg-soft);line-height:1.7;">
-            <li><strong>IFN-γ-mediated induction:</strong> Tumor-infiltrating T cells release IFN-γ → JAK1/2-STAT1/3 signaling → IRF1 transcription factor → PD-L1 transcription (adaptive immune resistance)</li>
-            <li><strong>Oncogenic signaling:</strong> EGFR, ALK fusions, MYC amplification, PTEN loss → constitutive PI3K-AKT and MAPK signaling → PD-L1 upregulation independent of IFN-γ</li>
-            <li><strong>Hypoxia:</strong> HIF-1α directly transactivates the CD274 (PD-L1) promoter</li>
-          </ul>
-          <p>PD-L1 binds PD-1 on tumor-specific CD8+ T cells → PD-1 recruits <strong>SHP-2 phosphatase</strong> to its cytoplasmic ITSM motif → SHP-2 dephosphorylates CD28 and proximal TCR signaling components (ZAP-70, LAT, PLC-γ) → blunted TCR signal → reduced IL-2 production → T cell exhaustion (co-expression of PD-1, TIM-3, LAG-3, TOX transcription factor).</p>
-          <div class="mech-item pdaxis">
-            <h4>Anti-PD-1/PD-L1 blockade effect</h4>
-            <p>Antibody blockade of PD-1 or PD-L1 prevents SHP-2 recruitment → restores TCR/CD28 signaling → reactivation of exhausted CD8+ T cells → tumor cytolysis via granzyme B/perforin and FasL → regression. Also reinvigorates "progenitor exhausted" T cells (TCF1+PD-1+) capable of clonal expansion.</p>
-          </div>
-
-          <h4>CTLA-4 / B7 Axis — Lymph Node Priming Phase</h4>
-          <p>CTLA-4 (CD152) is upregulated on T cells shortly after activation and constitutively on regulatory T cells (Tregs). It competes with the co-stimulatory receptor <strong>CD28</strong> for binding to B7-1 (CD80) and B7-2 (CD86) on antigen-presenting cells (APCs) in lymph nodes. CTLA-4 binds B7 ligands with ~20-fold higher affinity than CD28, effectively out-competing CD28 and terminating the priming signal. Anti-CTLA-4 antibodies block this competition → sustained CD28 co-stimulation during T cell priming → larger and more diverse anti-tumor T cell clones expand from lymph nodes.</p>
-          <div class="mech-item ctlaaxis">
-            <h4>CTLA-4 vs. PD-1: Non-redundant mechanisms</h4>
-            <p>CTLA-4 acts during the <em>priming phase</em> in draining lymph nodes (affects naive/priming T cells); PD-1 acts in the <em>effector phase</em> within the tumor (affects pre-exhausted effector T cells). This mechanistic non-redundancy explains the synergy of combined anti-CTLA-4 + anti-PD-1 therapy (CheckMate-067).</p>
-          </div>
-
-          <h4>LAG-3 — Third Checkpoint Axis</h4>
-          <div class="mech-item lag3">
-            <h4>Relatlimab + Nivolumab (RELATIVITY-047)</h4>
-            <p>LAG-3 (CD223) binds MHC-II on APCs and fibrinogen-like protein 1 (FGL1) on tumor cells → inhibits T cell activation synergistically with PD-1. Dual blockade doubled PFS vs nivolumab alone in treatment-naive melanoma (10.12m vs 4.63m, HR 0.75). Opdualag approved March 2022 — first approved LAG-3 inhibitor.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Key Trial Results</h3>
-          <table class="data-table">
-            <tr><th>Trial</th><th>Drug(s)</th><th>Population</th><th>Key Outcome</th></tr>
-            <tr>
-              <td><strong>KEYNOTE-001</strong></td>
-              <td>Pembrolizumab</td>
-              <td>Advanced melanoma (ipilimumab-naive and pretreated)</td>
-              <td>33% ORR overall; durable responses — 5-year OS 34% (treatment-naive cohort ~41%)</td>
-            </tr>
-            <tr>
-              <td><strong>CheckMate-057</strong></td>
-              <td>Nivolumab</td>
-              <td>Pretreated advanced non-squamous NSCLC</td>
-              <td>OS 12.2m vs 9.4m docetaxel (HR 0.73); landmark 2014 survival benefit in NSCLC</td>
-            </tr>
-            <tr>
-              <td><strong>KEYNOTE-024</strong></td>
-              <td>Pembrolizumab vs platinum chemo</td>
-              <td>Untreated NSCLC, PD-L1 TPS ≥50%</td>
-              <td>PFS 10.3m vs 6.0m (HR 0.50); OS 30.0m vs 14.2m — established pembro as 1st-line in PD-L1-high NSCLC</td>
-            </tr>
-            <tr>
-              <td><strong>CheckMate-067</strong></td>
-              <td>Nivolumab + ipilimumab</td>
-              <td>Untreated advanced melanoma</td>
-              <td>5-year OS 52% (combo) vs 44% (nivo) vs 26% (ipi); durable benefit — 6.5-yr data confirm 49% OS for combo; PFS 11.5m vs 6.9m vs 2.9m</td>
-            </tr>
-            <tr>
-              <td><strong>KEYNOTE-522</strong></td>
-              <td>Pembrolizumab + chemo → pembro maintenance</td>
-              <td>Early-stage TNBC (neoadjuvant)</td>
-              <td>pCR 64.8% vs 51.2% (chemo alone); EFS HR 0.63 at 36-month follow-up — FDA-approved regardless of PD-L1</td>
-            </tr>
-            <tr>
-              <td><strong>IMpower150</strong></td>
-              <td>Atezolizumab + bevacizumab + carboplatin/paclitaxel</td>
-              <td>Untreated metastatic non-squamous NSCLC</td>
-              <td>PFS 8.3m vs 6.8m (HR 0.62 in biomarker-selected); benefit regardless of PD-L1 status; EGFR/ALK altered subgroup also benefited</td>
-            </tr>
-            <tr>
-              <td><strong>KEYNOTE-158</strong></td>
-              <td>Pembrolizumab</td>
-              <td>Pan-tumor MSI-H/dMMR; TMB-H ≥10 mut/Mb</td>
-              <td>MSI-H ORR ~40% (dMMR Lynch tumors); TMB-H ORR 29% — first pan-tumor agnostic approvals (2017 dMMR, 2020 TMB-H)</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Predictive Biomarkers</h3>
-          <h4>PD-L1 Expression</h4>
-          <p>PD-L1 immunohistochemistry (IHC) is the most widely used predictive biomarker, but scoring systems and thresholds differ by drug-tumor combination. <strong>TPS (Tumor Proportion Score)</strong> counts only tumor cell staining (used with pembrolizumab in NSCLC, HNSCC); <strong>CPS (Combined Positive Score)</strong> counts tumor cells + immune cells + stromal cells per 100 tumor cells (used with pembrolizumab in gastric, cervical, urothelial, TNBC, esophageal). Key thresholds: TPS ≥50% for pembro monotherapy 1st-line NSCLC; CPS ≥10 for pembro in TNBC (KEYNOTE-522 approved regardless); CPS ≥1 for gastric/GEJ.</p>
-
-          <h4>MSI-H / dMMR</h4>
-          <p><strong>Microsatellite instability-high (MSI-H)</strong> or deficient mismatch repair (dMMR) status predicts robust ICI response across tumor types. Mechanism: MMR deficiency (MLH1, MSH2, MSH6, PMS2 loss) → accumulation of insertions/deletions at microsatellite loci → high frameshift neopeptide burden → high TMB → immunogenic tumors. Lynch syndrome is the hereditary cause; sporadic MSI-H occurs in ~15% of colorectal cancers (MLH1 hypermethylation) and variable rates in endometrial (25–30%), gastric (~9%), biliary (~5%). KEYNOTE-158 ORR ~40% across 11 MSI-H tumor types → 2017 pan-tumor approval of pembrolizumab.</p>
-
-          <h4>Tumor Mutational Burden (TMB)</h4>
-          <p><strong>TMB-High (≥10 mutations/Mb)</strong> by Foundation Medicine CDx was approved as a pan-tumor biomarker for pembrolizumab in 2020 (KEYNOTE-158). Higher TMB correlates with greater neoantigen load → greater chance of immunogenic mutations recognized by T cells. Importantly, MSI-H and TMB-H are not synonymous: only ~50% of MSI-H tumors are TMB-H by the 10 mut/Mb cutoff, and TMB-H can occur in MSS tumors (e.g., bladder, NSCLC). TMB utility is tumor-type dependent — strong signal in NSCLC, TMB, skin; weak in colorectal.</p>
-
-          <h4>EBV Association</h4>
-          <p>EBV-positive gastric cancers and nasopharyngeal carcinoma (NPC) show high PD-L1 expression driven by viral LMP1 signaling → particularly high ICI response rates (NPC ORR ~30% with pembro monotherapy; EBV+ gastric ~50% in early series).</p>
-
-          <div class="note-box">
-            <p><strong>Negative predictors:</strong> STK11/KEAP1 mutations (NSCLC — limit IFN-γ response), β2-microglobulin loss (MHC-I loss → T cell invisibility), PTEN loss (prostate, endometrial), EGFR mutations in NSCLC (immunologically "cold" TME, ICI generally not beneficial as monotherapy in EGFR+ NSCLC).</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Immune-Related Adverse Events (irAEs)</h3>
-          <p>ICIs unleash autoreactive T cells that can attack normal tissues, causing a distinct pattern of immune-related toxicities (irAEs) that differ mechanistically and clinically from cytotoxic chemotherapy side effects. Anti-CTLA-4 agents (particularly ipilimumab) have higher irAE rates than PD-1/PD-L1 agents; combination ICI further increases frequency and severity.</p>
-          <div class="irAE-grid">
-            <div class="irae-item">
-              <h4>Colitis / Diarrhea</h4>
-              <p>Most common grade 3-4 irAE with CTLA-4 blockade. Grade 3-4 colitis: ~12% with ipilimumab 3 mg/kg, ~2-3% with anti-PD-1 monotherapy. Colonic biopsy reveals lymphocytic infiltration ± crypt abscesses. Management: grade 1-2 — loperamide + oral steroids; grade 3 — IV methylprednisolone 1-2 mg/kg; grade 4 — permanent discontinuation + consider infliximab if steroid-refractory.</p>
-            </div>
-            <div class="irae-item">
-              <h4>Pneumonitis</h4>
-              <p>2–5% any grade with anti-PD-1; ~1% grade 3+ with monotherapy; higher with combination ICI and with lung cancer (pre-existing lung disease). CT pattern: organizing pneumonia or CIP. Prednisone 1-2 mg/kg/day → taper over 4-6 weeks; grade ≥3: bronchoscopy + IV steroids + hold; grade 4: permanent discontinuation.</p>
-            </div>
-            <div class="irae-item">
-              <h4>Endocrinopathies</h4>
-              <p>Hypothyroidism most common (5–10% with anti-PD-1; usually subclinical initially). Hyperthyroidism/thyroiditis in 3-4%. Hypophysitis: predominantly anti-CTLA-4 (~8% with ipi); headache + fatigue + panhypopituitarism on MRI. Primary adrenal insufficiency: rare but life-threatening — check morning cortisol. Steroid replacement, not withholding ICI, is standard for most endocrine irAEs.</p>
-            </div>
-            <div class="irae-item warn">
-              <h4>Myocarditis (Rare but Fatal)</h4>
-              <p>Incidence ~0.04-1%; significantly higher with combination ICI (~0.27% vs ~0.06% monotherapy). Mortality ~50% if severe (complete heart block, cardiogenic shock). Mechanism: T cell infiltration of cardiac myocytes sharing antigen with tumor. Troponin is the most sensitive early marker (weekly in first 12 weeks recommended by ASCO). Management: high-dose methylprednisolone 500-1000 mg/day + cardiac monitoring in ICU; abatacept/rATG for steroid-refractory cases.</p>
-            </div>
-            <div class="irae-item">
-              <h4>Hepatitis</h4>
-              <p>Grade ≥3 hepatitis in ~1-2% (anti-PD-1) to 4-5% (combination ICI). Transaminase elevation pattern; biopsy if needed. Hold ICI; prednisone 1-2 mg/kg → taper. Grade 4: permanent discontinuation + consider mycophenolate mofetil if steroid-refractory.</p>
-            </div>
-            <div class="irae-item">
-              <h4>Dermatologic</h4>
-              <p>Most common any-grade irAE (30-40%): maculopapular rash, pruritus, vitiligo (especially in melanoma — paradoxically associated with better tumor response). Severe bullous pemphigoid, SJS/TEN rare. Topical steroids for mild; oral prednisone for extensive grade 2+.</p>
-            </div>
-          </div>
-
-          <div class="note-box" style="margin-top:1rem;">
-            <p><strong>irAE Management Principle:</strong> Grade 1 — continue ICI + symptomatic treatment. Grade 2 — hold ICI + oral prednisone 0.5-1 mg/kg/day. Grade 3 — hold ICI + IV methylprednisolone 1-2 mg/kg/day + GI/pulm/cardiology consult. Grade 4 or life-threatening — <strong>permanently discontinue ICI</strong> + IV methylprednisolone + ICU where needed. Steroid taper over ≥4-6 weeks to prevent rebound.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="car-t.html" class="conn-pill acts">
-              <span class="rel">Related to</span>
-              CAR-T Cell Therapy
-            </a>
-            <a href="targeted-therapy.html" class="conn-pill acts">
-              <span class="rel">Related to</span>
-              Targeted Therapy
-            </a>
-            <a href="antibody.html" class="conn-pill targets">
-              <span class="rel">Mechanism</span>
-              Antibody
-            </a>
-            <a href="mhc-ii.html" class="conn-pill acts">
-              <span class="rel">Involves</span>
-              MHC-II
-            </a>
-            <a href="cytokine-storm.html" class="conn-pill targets">
-              <span class="rel">Can cause</span>
-              Cytokine Storm / irAE
-            </a>
-            <a href="nlrp3-inflammasome.html" class="conn-pill acts">
-              <span class="rel">Involves</span>
-              NLRP3 Inflammasome
-            </a>
-            <a href="igg.html" class="conn-pill targets">
-              <span class="rel">Drug class</span>
-              IgG Antibody
-            </a>
+            <a class="conn-pill" href="t-cytotoxic-cell.html" title="Checkpoint inhibitors block inhibitory receptors (PD-1, CTLA-4) on CD8+ T cells that tumors exploit to suppress cytotoxic killing; blockade reinvigorates exhausted tumour-infiltrating CTLs, restoring perforin/granzyme cytotoxicity and IFN-γ production in the tumour microenvironment."><span class="rel">targets</span>T Cytotoxic Cell</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="CTLA-4 blockade primarily acts on CD4+ T helper cells (both effector and regulatory T cells) in lymph nodes, amplifying the early priming phase of anti-tumour immune responses and depleting intratumoral Tregs via ADCC (for IgG1 ipilimumab)."><span class="rel">targets</span>T Helper Cell</a>
+            <a class="conn-pill" href="tnf-alpha.html" title="Immune checkpoint blockade unleashes T cell cytokine production including TNF-α and IFN-γ; elevated TNF-α mediates anti-tumour effects but also contributes to immune-related adverse events (irAEs) including colitis and hepatitis; TNF blockade (infliximab) can rescue severe checkpoint inhibitor toxicity."><span class="rel">modulates</span>Tnf Alpha</a>
+            <a class="conn-pill" href="immune-system.html" title="Systemic PD-1/PD-L1 or CTLA-4 blockade removes peripheral immune tolerance mechanisms; broadly activates auto-reactive T cells → immune-related adverse events (irAEs) affecting skin, gut, liver, endocrine glands, lungs — managed with corticosteroids and organ-specific immunosuppression."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="melanoma.html" title="Checkpoint inhibitors transformed metastatic melanoma: pembrolizumab vs. ipilimumab (KEYNOTE-006) ORR 33.7% vs. 11.9%; nivolumab + ipilimumab (CheckMate 067) 5-year OS 52%; adjuvant PD-1 blockade reduces recurrence; BRAF-mutant tumors benefit from ICI + targeted therapy."><span class="rel">treats</span>Melanoma</a>
+            <a class="conn-pill" href="pd-1.html" title="PD-1/PD-L1 blockade is the primary checkpoint inhibitor mechanism: pembrolizumab and nivolumab block PD-1 → release SHP-2-mediated T cell suppression; PD-L1 IHC (CPS/TPS) guides pembrolizumab eligibility in NSCLC, gastric, cervical, HNC; PD-1 + CTLA-4 blockade is synergistic."><span class="rel">targets</span>Pd 1</a>
+            <a class="conn-pill" href="ctla-4.html" title="CTLA-4 blockade (ipilimumab) acts during T cell priming: outcompetes CD28 for CD80/CD86 → amplifies early anti-tumor responses; IgG1 isotype enables ADCC-mediated intratumoral Treg depletion; nivolumab + ipilimumab doubles melanoma efficacy with ~55% severe irAE rate."><span class="rel">targets</span>Ctla 4</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Topalian SL, Hodi FS, Brahmer JR, et al. Safety, activity, and immune correlates of anti-PD-1 antibody in cancer (KEYNOTE-001 basis). <em>N Engl J Med.</em> 2012;366(26):2443-54. <a href="https://doi.org/10.1056/NEJMoa1200690">doi:10.1056/NEJMoa1200690</a> · PubMed 22658127</li>
-            <li>Borghaei H, Paz-Ares L, Horn L, et al. Nivolumab versus docetaxel in advanced nonsquamous NSCLC (CheckMate-057). <em>N Engl J Med.</em> 2015;373(17):1627-39. <a href="https://doi.org/10.1056/NEJMoa1507643">doi:10.1056/NEJMoa1507643</a> · PubMed 26412456</li>
-            <li>Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive NSCLC (KEYNOTE-024). <em>N Engl J Med.</em> 2016;375(19):1823-33. <a href="https://doi.org/10.1056/NEJMoa1606774">doi:10.1056/NEJMoa1606774</a> · PubMed 27718847</li>
-            <li>Wolchok JD, Chiarion-Sileni V, Gonzalez R, et al. Long-term outcomes with nivolumab plus ipilimumab in advanced melanoma (CheckMate-067). <em>N Engl J Med.</em> 2022;387(25):2349-2359. <a href="https://doi.org/10.1056/NEJMoa2109441">doi:10.1056/NEJMoa2109441</a> · PubMed 36546651</li>
-            <li>Schmid P, Cortes J, Pusztai L, et al. Pembrolizumab for early triple-negative breast cancer (KEYNOTE-522). <em>N Engl J Med.</em> 2020;382(9):810-21. <a href="https://doi.org/10.1056/NEJMoa1910549">doi:10.1056/NEJMoa1910549</a> · PubMed 32101663</li>
-            <li>Socinski MA, Jotte RM, Cappuzzo F, et al. Atezolizumab for first-line treatment of metastatic nonsquamous NSCLC (IMpower150). <em>N Engl J Med.</em> 2018;378(24):2288-2301. <a href="https://doi.org/10.1056/NEJMoa1716948">doi:10.1056/NEJMoa1716948</a> · PubMed 29863955</li>
-            <li>Marabelle A, Le DT, Ascierto PA, et al. Efficacy of pembrolizumab in patients with noncolorectal high microsatellite instability/mismatch repair-deficient cancer (KEYNOTE-158). <em>J Clin Oncol.</em> 2020;38(1):1-10. <a href="https://doi.org/10.1200/JCO.19.02105">doi:10.1200/JCO.19.02105</a> · PubMed 31682550</li>
-            <li>Tawbi HA, Schadendorf D, Lipson EJ, et al. Relatlimab and nivolumab versus nivolumab in untreated advanced melanoma (RELATIVITY-047). <em>N Engl J Med.</em> 2022;386(1):24-34. <a href="https://doi.org/10.1056/NEJMoa2109970">doi:10.1056/NEJMoa2109970</a> · PubMed 34986285</li>
+            <li><a href="https://doi.org/10.1056/NEJMoa1200694" target="_blank" rel="noopener noreferrer">Brahmer JR, Tykodi SS, Chow LQ, et al. Safety and activity of anti-PD-L1 antibody in patients with advanced cancer. N Engl J Med. 2012;366(26):2455-65.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22658128/" target="_blank" rel="noopener noreferrer">PubMed 22658128</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa1503093" target="_blank" rel="noopener noreferrer">Robert C, Schachter J, Long GV, et al. Pembrolizumab versus ipilimumab in advanced melanoma. N Engl J Med. 2015;372(26):2521-32.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25891173/" target="_blank" rel="noopener noreferrer">PubMed 25891173</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa1003466" target="_blank" rel="noopener noreferrer">Hodi FS, O'Day SJ, McDermott DF, et al. Improved survival with ipilimumab in patients with metastatic melanoma. N Engl J Med. 2010;363(8):711-23.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/20525992/" target="_blank" rel="noopener noreferrer">PubMed 20525992</a></li>
           </ul>
         </div>
 
@@ -420,18 +187,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="../index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
-      <a href="../index.html">Home</a>
-      <a href="medicine.html">Medicine Atlas</a>
-      <a href="car-t.html">CAR-T</a>
-      <a href="targeted-therapy.html">Targeted Therapy</a>
-      <a href="cancer-chemotherapy.html">Chemotherapy</a>
-      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.6rem;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

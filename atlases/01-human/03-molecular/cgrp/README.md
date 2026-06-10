@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "CGRP is elevated in plasma and CSF in FM; CGRP-mediated peripheral sensitization of C-fibers contributes to FM's diffuse hyperalgesia; anti-CGRP mAb treatment is being investigated in FM; CGRP and SP share common release sites in peripheral nociceptors in FM."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "CGRP and calcitonin are both encoded by CALCA via tissue-specific alternative splicing: thyroid C-cells include exon 4 → calcitonin; neurons skip exon 4 → αCGRP (exons 5-6); both share the N-terminal disulfide ring but differ in C-terminal sequence and receptor specificity."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "CGRP drives vasodilation via two mechanisms: cAMP/PKA → KATP channel opening in vascular smooth muscle + endothelial CGRP → eNOS → nitric oxide → cGMP → smooth muscle relaxation; NO is the secondary arm; combined CGRP + NO mediates dural vascular hyperemia in migraine."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "CGRP from trigeminal C-fibers activates dural mast cells → histamine + degranulation → neurogenic inflammation; histamine activates H1 receptors on nociceptors → further CGRP release (positive feedback loop); dural mast cells bridge neurogenic and vascular inflammation."
 ---
 
 # CGRP
@@ -162,17 +171,18 @@ The **trigeminovascular hypothesis** (Moskowitz, 1984; validated by Edvinsson 19
 
 ## Connections
 
-**→ [Migraine](../../07-system/migraine/)**: CGRP released from trigeminal C-fibers mediates dural vasodilation and neurogenic inflammation in migraine; plasma CGRP rises during attacks and normalizes after successful triptan treatment; anti-CGRP mAbs (erenumab) reduce frequency ~50%; gepants (rimegepant) treat acute attacks.
+- `connects-to` → **[Migraine](../../07-system/migraine/README.md)** — CGRP released from trigeminal C-fibers mediates dural vasodilation and neurogenic inflammation in migraine; plasma CGRP rises during attacks and normalizes after successful triptan treatment; anti-CGRP mAbs (erenumab) reduce frequency ~50%; gepants (rimegepant) treat acute attacks.
+- `connects-to` → **[Serotonin](../serotonin/README.md)** — Triptans (5-HT1B/D agonists) abort migraine by constricting dural vessels and inhibiting trigeminal CGRP release; serotonin regulates CGRP release from TNC neurons; serotonin syndrome risk is low when combining triptans with SSRIs or SNRIs.
+- `connects-to` → **[Substance P](../substance-p/README.md)** — CGRP and substance P are co-stored and co-released from trigeminal C-fiber terminals; together they drive neurogenic inflammation — CGRP mediates vasodilation while SP causes plasma protein extravasation and mast cell degranulation; both are elevated in CSF during migraine attacks.
+- `connects-to` → **[Fibromyalgia](../../07-system/fibromyalgia/README.md)** — CGRP is elevated in plasma and CSF in fibromyalgia patients; CGRP-mediated peripheral C-fiber sensitization contributes to diffuse hyperalgesia and allodynia in FM; anti-CGRP monoclonal antibodies are under investigation for FM; CGRP and SP share common release sites at peripheral nociceptors.
+- `connects-to` → **[Calcitonin](../calcitonin/README.md)** — CGRP and calcitonin are both encoded by CALCA via tissue-specific alternative splicing: thyroid C-cells include exon 4 → calcitonin; neurons skip exon 4 → αCGRP (exons 5-6); both share the N-terminal disulfide ring but differ in C-terminal sequence and receptor specificity.
+- `connects-to` → **[Nitric Oxide](../nitric-oxide/README.md)** — CGRP drives vasodilation via two mechanisms: cAMP/PKA → KATP channel opening in vascular smooth muscle + endothelial CGRP → eNOS → nitric oxide → cGMP → smooth muscle relaxation; NO is the secondary arm; combined CGRP + NO mediates dural vascular hyperemia in migraine.
+- `connects-to` → **[Histamine](../histamine/README.md)** — CGRP from trigeminal C-fibers activates dural mast cells → histamine + degranulation → neurogenic inflammation; histamine activates H1 receptors on nociceptors → further CGRP release (positive feedback loop); dural mast cells bridge neurogenic and vascular inflammation.
 
-**→ [Serotonin](../serotonin/)**: Triptans (5-HT1B/D agonists) abort migraine by constricting dural vessels and inhibiting trigeminal CGRP release; serotonin regulates CGRP release from TNC neurons; serotonin syndrome risk is low when combining triptans with SSRIs or SNRIs.
+---
 
-**→ [Substance P](../substance-p/)**: CGRP and substance P are co-stored and co-released from trigeminal C-fiber terminals; together they drive neurogenic inflammation — CGRP mediates vasodilation while SP causes plasma protein extravasation and mast cell degranulation; both are elevated in CSF during migraine attacks.
-
-**→ [Fibromyalgia](../../07-system/fibromyalgia/)**: CGRP is elevated in plasma and CSF in fibromyalgia patients; CGRP-mediated peripheral C-fiber sensitization contributes to diffuse hyperalgesia and allodynia in FM; anti-CGRP monoclonal antibodies are under investigation for FM; CGRP and SP share common release sites at peripheral nociceptors.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^amara-1982-cgrp-discovery]: Amara SG, Jonas V, Rosenfeld MG, Ong ES, Evans RM. Alternative RNA processing in calcitonin gene expression generates mRNAs encoding different polypeptide products. *Nature.* 1982;298(5871):240-244. [doi:10.1038/298240a0](https://doi.org/10.1038/298240a0) · [PubMed 6285202](https://pubmed.ncbi.nlm.nih.gov/6285202/)
 [^olesen-2004-cgrp-migraine]: Olesen J, Diener HC, Husstedt IW, et al. Calcitonin gene-related peptide receptor antagonist BIBN 4096 BS for the acute treatment of migraine. *N Engl J Med.* 2004;350(11):1104-1110. [doi:10.1056/NEJMoa030505](https://doi.org/10.1056/NEJMoa030505) · [PubMed 15014183](https://pubmed.ncbi.nlm.nih.gov/15014183/)
 [^dodick-2018-erenumab-arise]: Dodick DW, Ashina M, Brandes JL, et al. ARISE: A Phase 3 randomized trial of erenumab for episodic migraine. *Cephalalgia.* 2018;38(6):1026-1037. [doi:10.1177/0333102418759786](https://doi.org/10.1177/0333102418759786) · [PubMed 29471679](https://pubmed.ncbi.nlm.nih.gov/29471679/)
-
----
-*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

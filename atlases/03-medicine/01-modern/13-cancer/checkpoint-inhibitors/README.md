@@ -53,6 +53,15 @@ cross_links:
     relation: modulates
     evidence: robert-2015-pembrolizumab
     note: "Systemic PD-1/PD-L1 or CTLA-4 blockade removes peripheral immune tolerance mechanisms; broadly activates auto-reactive T cells → immune-related adverse events (irAEs) affecting skin, gut, liver, endocrine glands, lungs — managed with corticosteroids and organ-specific immunosuppression."
+  - target: 01-human/07-system/melanoma
+    relation: treats
+    note: "Checkpoint inhibitors transformed metastatic melanoma: pembrolizumab vs. ipilimumab (KEYNOTE-006) ORR 33.7% vs. 11.9%; nivolumab + ipilimumab (CheckMate 067) 5-year OS 52%; adjuvant PD-1 blockade reduces recurrence; BRAF-mutant tumors benefit from ICI + targeted therapy."
+  - target: 01-human/03-molecular/pd-1
+    relation: targets
+    note: "PD-1/PD-L1 blockade is the primary checkpoint inhibitor mechanism: pembrolizumab and nivolumab block PD-1 → release SHP-2-mediated T cell suppression; PD-L1 IHC (CPS/TPS) guides pembrolizumab eligibility in NSCLC, gastric, cervical, HNC; PD-1 + CTLA-4 blockade is synergistic."
+  - target: 01-human/03-molecular/ctla-4
+    relation: targets
+    note: "CTLA-4 blockade (ipilimumab) acts during T cell priming: outcompetes CD28 for CD80/CD86 → amplifies early anti-tumor responses; IgG1 isotype enables ADCC-mediated intratumoral Treg depletion; nivolumab + ipilimumab doubles melanoma efficacy with ~55% severe irAE rate."
 ---
 
 # Checkpoint Inhibitors
@@ -161,10 +170,17 @@ Brahmer et al. [^brahmer-2012-pd-l1] phase 1 trial of anti-PD-L1 (BMS-936559) in
 
 ## Connections
 
-- **Targets** → [Cytotoxic T Cell](../../../../01-human/04-cellular/t-cytotoxic-cell/README.md): PD-1 blockade reinvigorates exhausted tumour-infiltrating CD8+ T cells, restoring cytotoxic capacity (perforin/granzyme, IFN-γ) in the tumour microenvironment; CTLA-4 blockade acts earlier, amplifying T cell priming in lymph nodes.
-- **Targets** → [T Helper Cell](../../../../01-human/04-cellular/t-helper-cell/README.md): CTLA-4 is primarily expressed on CD4+ T cells; ipilimumab blocks CTLA-4 on both effector and regulatory CD4+ T cells, amplifying anti-tumor help and (via IgG1 ADCC) depleting intratumoral Tregs.
-- **Modulates** → [TNF-α](../../../../01-human/03-molecular/tnf-alpha/README.md): Checkpoint blockade unleashes T cell TNF-α production; elevated TNF-α contributes to both anti-tumour efficacy and irAEs including colitis and hepatitis; infliximab (TNF blockade) rescues severe steroid-refractory immune colitis without abrogating anti-tumour responses.
-- **Modulates** → [Immune System](../../../../01-human/07-system/immune-system/README.md): Systemic removal of peripheral tolerance checkpoints activates autoreactive T cell clones → irAEs spanning skin, gut, liver, lung, and endocrine systems; managed with corticosteroids and targeted immunosuppression without fully ablating anti-tumour immunity.
+- `targets` → **[Cytotoxic T Cell](../../../../01-human/04-cellular/t-cytotoxic-cell/README.md)** — PD-1 blockade reinvigorates exhausted tumour-infiltrating CD8+ T cells, restoring cytotoxic capacity (perforin/granzyme, IFN-γ) in the tumour microenvironment; CTLA-4 blockade acts earlier, amplifying T cell priming in lymph nodes.
+- `targets` → **[T Helper Cell](../../../../01-human/04-cellular/t-helper-cell/README.md)** — CTLA-4 is primarily expressed on CD4+ T cells; ipilimumab blocks CTLA-4 on both effector and regulatory CD4+ T cells, amplifying anti-tumor help and (via IgG1 ADCC) depleting intratumoral Tregs.
+- `modulates` → **[TNF-α](../../../../01-human/03-molecular/tnf-alpha/README.md)** — Checkpoint blockade unleashes T cell TNF-α production; elevated TNF-α contributes to both anti-tumour efficacy and irAEs including colitis and hepatitis; infliximab (TNF blockade) rescues severe steroid-refractory immune colitis without abrogating anti-tumour responses.
+- `modulates` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — Systemic removal of peripheral tolerance checkpoints activates autoreactive T cell clones → irAEs spanning skin, gut, liver, lung, and endocrine systems; managed with corticosteroids and targeted immunosuppression without fully ablating anti-tumour immunity.
+- `treats` → **[Melanoma](../../../../01-human/07-system/melanoma/README.md)** — Checkpoint inhibitors transformed metastatic melanoma: pembrolizumab vs. ipilimumab (KEYNOTE-006) ORR 33.7% vs. 11.9%; nivolumab + ipilimumab (CheckMate 067) 5-year OS 52%; adjuvant PD-1 blockade reduces recurrence; BRAF-mutant tumors benefit from ICI + targeted therapy.
+- `targets` → **[PD-1](../../../../01-human/03-molecular/pd-1/README.md)** — PD-1/PD-L1 blockade is the primary checkpoint inhibitor mechanism: pembrolizumab and nivolumab block PD-1 → release SHP-2-mediated T cell suppression; PD-L1 IHC (CPS/TPS) guides pembrolizumab eligibility in NSCLC, gastric, cervical, HNC; PD-1 + CTLA-4 blockade is synergistic.
+- `targets` → **[CTLA-4](../../../../01-human/03-molecular/ctla-4/README.md)** — CTLA-4 blockade (ipilimumab) acts during T cell priming: outcompetes CD28 for CD80/CD86 → amplifies early anti-tumor responses; IgG1 isotype enables ADCC-mediated intratumoral Treg depletion; nivolumab + ipilimumab doubles melanoma efficacy with ~55% severe irAE rate.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^brahmer-2012-pd-l1]: Brahmer JR, Tykodi SS, Chow LQ, et al. Safety and activity of anti-PD-L1 antibody in patients with advanced cancer. *N Engl J Med.* 2012;366(26):2455-65. [doi:10.1056/NEJMoa1200694](https://doi.org/10.1056/NEJMoa1200694) · [PubMed 22658128](https://pubmed.ncbi.nlm.nih.gov/22658128/)
 [^robert-2015-pembrolizumab]: Robert C, Schachter J, Long GV, et al. Pembrolizumab versus ipilimumab in advanced melanoma. *N Engl J Med.* 2015;372(26):2521-32. [doi:10.1056/NEJMoa1503093](https://doi.org/10.1056/NEJMoa1503093) · [PubMed 25891173](https://pubmed.ncbi.nlm.nih.gov/25891173/)
