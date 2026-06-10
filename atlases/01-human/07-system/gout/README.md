@@ -46,6 +46,9 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1β is the central acute gout mediator: MSU crystals → NLRP3 → caspase-1 → IL-1β → neutrophil influx and arthritis; anakinra (off-label) and canakinumab (EMA approved 2013 for gout flares) target IL-1β in refractory flares unresponsive to colchicine/NSAIDs."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: treated-by
+    note: "NSAIDs including ibuprofen are first-line for acute gout (ACR 2020 guidelines): COX-2-driven PGE₂ amplifies NLRP3-IL-1β neutrophil recruitment to MSU crystals; 600–800 mg TDS × 7–10 days effective; contraindicated in eGFR <30."
 ---
 
 # Gout
@@ -148,6 +151,7 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[NF-kB](../../03-molecular/nf-kb/README.md)** — MSU crystals activate NF-kB in macrophages and synoviocytes via TLR4 → IL-6, IL-8, TNF-alpha, COX-2 → synovial inflammation; NF-kB drives both acute flare cytokines and chronic tophus-associated tissue remodeling.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — xanthine oxidase converts xanthine → uric acid; serum urate >6.8 mg/dL exceeds solubility threshold → MSU crystal nucleation in joints and soft tissue → phagocytosis by neutrophils and macrophages → NLRP3 activation → acute gouty flare; allopurinol/febuxostat target XOR.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β is the central acute gout mediator: MSU crystals → NLRP3 → caspase-1 → IL-1β → neutrophil influx and arthritis; anakinra (off-label) and canakinumab (EMA approved 2013 for gout flares) target IL-1β in refractory flares unresponsive to colchicine/NSAIDs.
+- `treated-by` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs including ibuprofen are first-line for acute gout (ACR 2020 guidelines): COX-2-driven PGE₂ amplifies NLRP3-IL-1β neutrophil recruitment to MSU crystals; 600–800 mg TDS × 7–10 days effective; contraindicated in eGFR <30.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

@@ -52,6 +52,9 @@ cross_links:
   - target: 01-human/07-system/hemophilia-a
     relation: connects-to
     note: "Severe HA (FVIII <1%) confers significant VTE protection; historical VTE rate in HA ~0.5/1000 PY vs. ~1.5-3/1000 general population; emicizumab reconstitutes intrinsic tenase; avoid high-dose APCC with emicizumab → TMA; gene therapy raising FVIII >150% increases VTE risk."
+  - target: 03-medicine/01-modern/09-hematology/warfarin
+    relation: treated-by
+    note: "Warfarin treats DVT/PE at INR 2.0–3.0 × 3–6 months for provoked VTE; indefinite for unprovoked high-risk; largely superseded by DOACs for most VTE; remains first-line for antiphospholipid syndrome; LMWH bridging required at initiation."
 ---
 
 # Venous Thromboembolism
@@ -182,6 +185,7 @@ cross_links:
 - `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — HIT causes paradoxical DVT/PE (venous) and arterial thrombosis (HITT); occurs 5-10 days after heparin exposure; anti-PF4/heparin IgG → platelet activation → thrombin; argatroban, bivalirudin, and fondaparinux replace heparin in HIT; DOACs used for bridging to warfarin.
 - `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — Antithrombin deficiency (SERPINC1 mutations; 1:2,000-5,000) is the most severe inherited thrombophilia (25-50× lifetime VTE risk); UFH/LMWH efficacy requires AT → AT-deficient patients may need AT concentrate; functional AT assay needed for diagnosis.
 - `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Severe HA (FVIII <1%) confers significant VTE protection; historical VTE rate in HA ~0.5/1000 PY vs. ~1.5-3/1000 general population; emicizumab reconstitutes intrinsic tenase; avoid high-dose APCC with emicizumab → TMA; gene therapy raising FVIII >150% increases VTE risk.
+- `treated-by` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Warfarin treats DVT/PE at INR 2.0–3.0 × 3–6 months for provoked VTE; indefinite for unprovoked high-risk; largely superseded by DOACs; remains first-line for antiphospholipid syndrome; LMWH bridging required at initiation.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

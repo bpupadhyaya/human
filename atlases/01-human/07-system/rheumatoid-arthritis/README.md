@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "CCL2 is the dominant synovial chemokine in RA: synoviocytes and FLS secrete CCL2 → CCR2+ monocyte/macrophage recruitment → pannus formation; synovial fluid CCL2 >5 ng/mL correlates with radiographic damage; macrophage-derived RANKL and MMPs drive joint destruction."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: treated-by
+    note: "NSAIDs including ibuprofen reduce COX-2-driven synovial PGE₂ → less joint pain, swelling, and stiffness; adjuncts to DMARDs; reduce RA symptoms but not radiographic progression; long-term use requires GI prophylaxis (PPI)."
 ---
 
 # Rheumatoid Arthritis
@@ -201,6 +204,7 @@ RA patients have:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is present in RA synovium but secondary to TNF-alpha and IL-6; IL-17A promotes osteoclastogenesis via RANKL induction; IL-17A inhibitors (secukinumab) failed pivotal RA trials; bimekizumab (anti-IL-17A/F) showed marginal RA benefit vs established TNF/IL-6 blockade.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5⁺ macrophages and Th1 cells are the dominant leukocyte populations in RA pannus; CCL3/CCL4/CCL5 (CCR5 ligands) are elevated in RA synovial fluid and correlate with disease activity; maraviroc (CCR5 antagonist) showed modest benefit in small RA trials, suggesting CCR5-mediated leukocyte recruitment contributes to synovitis.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 is the dominant synovial chemokine in RA: synoviocytes and FLS secrete CCL2 → CCR2+ monocyte/macrophage recruitment → pannus formation; synovial fluid CCL2 >5 ng/mL correlates with radiographic damage; macrophage-derived RANKL and MMPs drive joint destruction.
+- `treated-by` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs including ibuprofen reduce COX-2-driven synovial PGE₂ → less joint pain, swelling, and stiffness; adjuncts to DMARDs; reduce RA symptoms but not radiographic progression; long-term use requires GI prophylaxis (PPI).
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

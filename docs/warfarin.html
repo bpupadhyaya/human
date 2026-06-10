@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Warfarin (Coumadin) — vitamin K antagonist anticoagulant. VKORC1 inhibition, clotting factor depletion, INR monitoring, CYP2C9/VKORC1 pharmacogenomics, AF stroke prevention, mechanical valve. Human Engineering project.">
-  <meta property="og:title" content="Warfarin (Coumadin) — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Vitamin K antagonist anticoagulant; inhibits VKORC1 → depletes γ-carboxylated clotting factors II, VII, IX, X. Narrow therapeutic index (INR 2–3); major food/dr">
+  <meta property="og:title" content="Warfarin — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Warfarin (Coumadin) — Medicine Atlas · Human Engineering</title>
+  <title>Warfarin — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #dc2626;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,48 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #7f1d1d); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -96,165 +108,74 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; 01-Modern &middot; 09-Hematology</div>
-    <h1>Warfarin (Coumadin)</h1>
-    <p class="tagline">Vitamin K antagonist anticoagulant — inhibits VKORC1 to deplete the vitamin K hydroquinone required for γ-carboxylation of clotting factors II, VII, IX, and X, leaving them functionally inactive.</p>
-    <p class="subtagline">The dominant oral anticoagulant for 60 years. Narrow therapeutic window, significant drug/food interactions, and the landmark RE-LY trial that launched the DOAC era. Still irreplaceable for mechanical heart valves.</p>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
+    <h1>Warfarin</h1>
+    <p class="tagline">Vitamin K antagonist anticoagulant; inhibits VKORC1 → depletes γ-carboxylated clotting factors II, VII, IX, X. Narrow therapeutic index (INR 2–3); major food/drug interactions via CYP2C9/VKORC1. Cornerstone of AF stroke prevention for 60+ years.</p>
+    <p class="aliases">Also known as: warfarin, Coumadin, Jantoven, Marevan, (RS)-4-hydroxy-3-(3-oxo-1-phenylbutyl)-2H-chromen-2-one</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">INR 2–3</span><span class="stat-label">Therapeutic range (most indications)</span></div>
-      <div class="stat"><span class="stat-num">64%</span><span class="stat-label">Stroke reduction in AF (meta-analysis)</span></div>
-      <div class="stat"><span class="stat-num">CYP2C9</span><span class="stat-label">Primary S-warfarin metabolizer</span></div>
-      <div class="stat"><span class="stat-num">3–5 days</span><span class="stat-label">Time to full anticoagulation</span></div>
+        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas &middot; Hematology &middot; Vitamin K Antagonist</div>
-        <h2>Warfarin</h2>
-        <div class="drug-class">Class: Vitamin K Antagonist (VKA) / Coumarin Anticoagulant &nbsp;&middot;&nbsp; Route: Oral &nbsp;|&nbsp; Brand: Coumadin, Jantoven, Marevan &nbsp;|&nbsp; Monitoring: INR (target 2.0–3.0 most indications; 2.5–3.5 mechanical valves)</div>
-        <p class="summary">Warfarin inhibits VKORC1 (vitamin K epoxide reductase), blocking recycling of vitamin K epoxide to vitamin K hydroquinone — the obligate cofactor for hepatic γ-glutamyl carboxylase (GGCX). Without γ-carboxylation, clotting factors II, VII, IX, X lose their Gla domain functionality and cannot bind Ca²⁺/phospholipid surfaces. The drug interacts with CYP2C9 (metabolism) and VKORC1 polymorphisms (sensitivity) — explaining 40–50% of dose variability. INR monitoring is mandatory. First-line for mechanical valves; DOACs preferred for non-valvular AF and VTE in most patients.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">Coumadin</span>
-          <span class="alias-pill">Jantoven</span>
-          <span class="alias-pill">Marevan</span>
-          <span class="alias-pill">dicumarol (predecessor)</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">warfarin</div>
+        <h2>Warfarin</h2>
+        <p class="summary">Vitamin K antagonist anticoagulant; inhibits VKORC1 → depletes γ-carboxylated clotting factors II, VII, IX, X. Narrow therapeutic index (INR 2–3); major food/drug interactions via CYP2C9/VKORC1. Cornerstone of AF stroke prevention for 60+ years.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Vitamin K Cycle &amp; VKORC1 Inhibition</h3>
-          <div class="pathway-block">
-<pre>
-  Dietary Vitamin K1 (phylloquinone) / K2 (menaquinone)
-          │  Absorbed in gut, delivered to liver
-          ▼
-  Vitamin K Hydroquinone (KH₂) — ACTIVE cofactor form
-          │  γ-Glutamyl Carboxylase (GGCX) uses KH₂ as cofactor
-          │  Adds -COOH to Glu residues on clotting factor Gla domains
-          │  KH₂ → Vitamin K Epoxide (KO) during carboxylation
-          ▼
-  Factors II, VII, IX, X — γ-CARBOXYLATED = FUNCTIONAL
-  (Gla domain binds Ca²⁺ → phospholipid membrane → activation)
-
-          ┌──────────────────────────────────────┐
-          │ WARFARIN BLOCKS THIS RECYCLING STEP  │
-          └──────────────────────────────────────┘
-          │
-  Vitamin K Epoxide (KO)
-          │  VKORC1 (Vitamin K Epoxide Reductase Complex Subunit 1)
-          │  Normally reduces KO → Vitamin K → KH₂
-          │  WARFARIN inhibits VKORC1 (competitive)
-          ▼
-  KO accumulates; KH₂ depleted
-          ▼
-  GGCX cannot carboxylate new clotting factor molecules
-          ▼
-  Non-functional factors (PIVKA) secreted → INR rises (3–5 days)
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;"><strong>Why 3–5 days to full effect?</strong> Factors already in circulation retain full function until cleared. Factor VII has the shortest half-life (~6h) → INR begins rising within 24h. Factors II and X (half-lives 60–72 h and 40–45 h) take 3–5 days to deplete sufficiently for full anticoagulation — requiring bridging therapy in urgent situations.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pharmacogenomics — CYP2C9 &amp; VKORC1</h3>
-          <p>Warfarin dose variability is among the highest of any commonly prescribed drug. Two genes explain ~40–50% of variance:</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Gene / Variant</th><th>Effect</th><th>Dose Implication</th></tr>
-            <tr><td><strong>CYP2C9*2 (R144C)</strong></td><td>~70% normal S-warfarin metabolism</td><td>~20% dose reduction</td></tr>
-            <tr><td><strong>CYP2C9*3 (I359L)</strong></td><td>~5% normal S-warfarin metabolism</td><td>~50% dose reduction; major bleeding risk</td></tr>
-            <tr><td><strong>VKORC1 -1639G&gt;A (A allele)</strong></td><td>↓ VKORC1 expression → greater warfarin sensitivity</td><td>Dose requirement ↓ ~25–50%; common in Asians (~89% A allele)</td></tr>
-            <tr><td><strong>CYP4F2*3 V433M</strong></td><td>↓ vitamin K oxidation → higher intrahepatic K → warfarin resistance</td><td>Dose requirement ↑ ~10–15%</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;">Pharmacogenomic dosing algorithms (CPIC guidelines, EU-PACT) incorporating CYP2C9 + VKORC1 + clinical factors improve time-in-therapeutic-range (TTR), particularly in European and Asian ancestry patients.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Clinical Indications &amp; INR Targets</h3>
-          <table class="data-table">
-            <tr><th>Indication</th><th>Target INR</th><th>Duration</th></tr>
-            <tr><td>Non-valvular AF (DOACs not possible)</td><td>2.0–3.0</td><td>Indefinite if CHA₂DS₂-VASc ≥2</td></tr>
-            <tr><td>VTE (DVT/PE) treatment</td><td>2.0–3.0</td><td>3–6 months (provoked); indefinite (unprovoked high-risk)</td></tr>
-            <tr><td>Mechanical mitral valve</td><td>2.5–3.5</td><td>Indefinite (DOACs contraindicated)</td></tr>
-            <tr><td>Mechanical aortic valve (bileaflet)</td><td>2.0–3.0</td><td>Indefinite</td></tr>
-            <tr><td>Antiphospholipid syndrome + thrombosis</td><td>2.0–3.0 (or 3.0–4.0 high-risk)</td><td>Indefinite; DOACs inferior in triple-positive APS</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>warfarin</td></tr>
+            <tr><td>Name</td><td>Warfarin</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Stream</td><td>01-modern</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Major Drug Interactions</h3>
-          <ul class="se-list">
-            <li><strong>Amiodarone (↑ INR, major):</strong> Potent CYP2C9 and CYP3A4 inhibitor; warfarin levels rise 30–50%; may take weeks to reach new equilibrium; reduce warfarin dose ~30–50% empirically and monitor INR weekly</li>
-            <li><strong>Azole antifungals — fluconazole, voriconazole (↑ INR, major):</strong> CYP2C9 inhibition; single-dose fluconazole can raise INR to dangerous levels; avoid if possible or reduce warfarin dose and monitor INR daily</li>
-            <li><strong>Rifampicin (↓ INR, major):</strong> Potent CYP2C9 and CYP1A2 inducer; warfarin levels fall dramatically (2–5× dose increase may be required); INR must be monitored closely on starting and stopping rifampicin</li>
-            <li><strong>Aspirin/NSAIDs (↑ bleeding risk, pharmacodynamic):</strong> Do not raise INR but increase GI mucosal bleeding risk; aspirin also inhibits platelets; avoid concurrent use unless specifically indicated (e.g., post-MI with mechanical valve — use lowest aspirin dose)</li>
-            <li><strong>Increased dietary vitamin K (↓ INR):</strong> Large increases in leafy green vegetables (kale, spinach, broccoli — vitamin K1-rich) can lower INR; advise consistent intake rather than complete avoidance</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Evidence</h3>
-          <table class="data-table">
-            <tr><th>Trial / Study</th><th>Key Finding</th></tr>
-            <tr><td><strong>AF meta-analysis (Hart 2007)</strong></td><td>Warfarin: 64% relative stroke reduction in AF; aspirin: 22%; warfarin superior in all CHA₂DS₂-VASc ≥2 patients; major bleeding ~2% per year on warfarin</td></tr>
-            <tr><td><strong>RE-LY (Connolly 2009)</strong></td><td>Dabigatran 150 mg BD: 34% relative RRR in stroke vs warfarin (2.1% vs 1.7%/year); both doses lower intracranial hemorrhage; launched DOAC era for AF</td></tr>
-            <tr><td><strong>ROCKET-AF, ARISTOTLE, ENGAGE-AF</strong></td><td>Rivaroxaban, apixaban, edoxaban all non-inferior or superior to warfarin in AF; ICH consistently ~50% lower; better safety profile drives DOAC preference</td></tr>
-            <tr><td><strong>ENSURE-AF, CARAVAGGIO (VTE)</strong></td><td>DOACs non-inferior to warfarin for VTE treatment with better tolerability; warfarin retained for mechanical valves (DOACs inferior — RE-ALIGN trial stopped early)</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Reversal</h3>
-          <ul class="se-list">
-            <li><strong>Minor bleeding / supratherapeutic INR without bleeding:</strong> Hold warfarin ± oral vitamin K1 (phytomenadione) 1–2.5 mg PO; recheck INR in 24–48h</li>
-            <li><strong>Major bleeding:</strong> 4-factor PCC (prothrombin complex concentrate: factors II, VII, IX, X) 25–50 units/kg IV + vitamin K1 10 mg IV slow infusion — immediate reversal of INR to near normal within 15–30 min; vitamin K prevents rebound anticoagulation as PCC wears off (half-life ~6–24h)</li>
-            <li><strong>Life-threatening / intracranial hemorrhage:</strong> 4-factor PCC is now preferred over fresh frozen plasma (FFP) — faster, lower volume, no infectious risk, more predictable factor levels; target INR &lt;1.5</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="#" class="conn-pill targets">
-              <span class="rel">Targets</span>
-              VKORC1 (liver)
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Modulates</span>
-              Coagulation Cascade (II, VII, IX, X)
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Treats</span>
-              AF Stroke Prevention
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Treats</span>
-              VTE / Mechanical Valves
-            </a>
+            <a class="conn-pill" href="liver.html" title="Liver is the primary site of warfarin action — hepatic γ-glutamyl carboxylase and VKORC1 are the molecular targets; CYP2C9 in liver microsomes is the major metabolizing enzyme."><span class="rel">acts-on</span>Liver</a>
+            <a class="conn-pill" href="stroke.html" title="Warfarin reduces AF ischemic stroke by 64% (Hart 2007); target INR 2.0–3.0; CHA₂DS₂-VASc ≥2 triggers anticoagulation; preferred over DOACs for mechanical heart valves (INR 2.5–3.5); antiphospholipid syndrome triple-positive: warfarin INR 3.0–4.0."><span class="rel">prevents</span>Stroke</a>
+            <a class="conn-pill" href="venous-thromboembolism.html" title="Warfarin treats DVT/PE at INR 2.0–3.0 × 3–6 months for provoked VTE; indefinite for unprovoked high-risk; largely superseded by DOACs (rivaroxaban, apixaban); remains first-line for antiphospholipid syndrome; LMWH bridging required at initiation."><span class="rel">treats</span>Venous Thromboembolism</a>
+            <a class="conn-pill" href="hepatocyte.html" title="VKORC1 in hepatocytes is warfarin molecular target; CYP2C9 metabolizes S-warfarin (4× more potent than R-warfarin); VKORC1 -1639G&gt;A and CYP2C9*2/*3 variants explain ~50% of dose variability; rifampicin induces CYP2C9 → ↓ INR; amiodarone inhibits CYP2C9 → ↑ INR."><span class="rel">targets</span>Hepatocyte</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Hart RG, Pearce LA, Aguilar MI. Meta-analysis: antithrombotic therapy to prevent stroke in patients who have nonvalvular atrial fibrillation. <em>Ann Intern Med.</em> 2007;146(12):857-67. <a href="https://doi.org/10.7326/0003-4819-146-12-200706190-00007" target="_blank" rel="noopener noreferrer">doi:10.7326/0003-4819-146-12-200706190-00007</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17577005/" target="_blank" rel="noopener noreferrer">PubMed 17577005</a></li>
-            <li>Connolly SJ, Ezekowitz MD, Yusuf S, et al. Dabigatran versus warfarin in patients with atrial fibrillation. <em>N Engl J Med.</em> 2009;361(12):1139-51. <a href="https://doi.org/10.1056/NEJMoa0905561" target="_blank" rel="noopener noreferrer">doi:10.1056/NEJMoa0905561</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19717844/" target="_blank" rel="noopener noreferrer">PubMed 19717844</a></li>
-            <li>Johnson JA, Gong L, Whirl-Carrillo M, et al. Clinical pharmacogenomics implementation consortium guidelines for CYP2C9 and VKORC1 genotypes and warfarin dosing. <em>Clin Pharmacol Ther.</em> 2011;90(4):625-9. <a href="https://doi.org/10.1038/clpt.2011.185" target="_blank" rel="noopener noreferrer">doi:10.1038/clpt.2011.185</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21900891/" target="_blank" rel="noopener noreferrer">PubMed 21900891</a></li>
+            <li><a href="https://doi.org/10.1161/01.CIR.19.1.97" target="_blank" rel="noopener noreferrer">Link KP. The discovery of dicumarol and its sequels. Circulation. 1959;19(1):97-107.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/13619027/" target="_blank" rel="noopener noreferrer">PubMed 13619027</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa0905561" target="_blank" rel="noopener noreferrer">Connolly SJ, Ezekowitz MD, Yusuf S, et al. Dabigatran versus warfarin in patients with atrial fibrillation. N Engl J Med. 2009;361(12):1139-51.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19717844/" target="_blank" rel="noopener noreferrer">PubMed 19717844</a></li>
+            <li><a href="https://doi.org/10.7326/0003-4819-146-12-200706190-00007" target="_blank" rel="noopener noreferrer">Hart RG, Pearce LA, Aguilar MI. Meta-analysis: antithrombotic therapy to prevent stroke in patients who have nonvalvular atrial fibrillation. Ann Intern Med. 2007;146(12):857-67.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17577005/" target="_blank" rel="noopener noreferrer">PubMed 17577005</a></li>
+            <li><a href="https://doi.org/10.1038/clpt.2011.185" target="_blank" rel="noopener noreferrer">Johnson JA, Gong L, Whirl-Carrillo M, et al. Clinical pharmacogenomics implementation consortium guidelines for CYP2C9 and VKORC1 genotypes and warfarin dosing. Clin Pharmacol Ther. 2011;90(4):625-9.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21900891/" target="_blank" rel="noopener noreferrer">PubMed 21900891</a></li>
           </ul>
         </div>
 
@@ -263,10 +184,9 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>

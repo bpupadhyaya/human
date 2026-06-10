@@ -38,6 +38,15 @@ cross_links:
     relation: modulates
     evidence: vane-1971-aspirin-mechanism
     note: "Ibuprofen reversibly occupies the cyclooxygenase channel of both COX-1 (PTGS1) and COX-2 (PTGS2) → prevents arachidonic acid access to the catalytic tyrosine (Tyr385) → ↓ PGE₂, PGI₂, PGD₂, PGF₂α, TXA₂ synthesis — reducing inflammation, pain sensitization, fever, and platelet aggregation."
+  - target: 01-human/07-system/gout
+    relation: treats
+    note: "Ibuprofen and NSAIDs are first-line for acute gout: COX-2-driven PGE₂ amplifies NLRP3-IL-1β neutrophil recruitment to MSU crystal deposits; 600–800 mg TDS × 7–10 days; contraindicated in eGFR <30; colchicine preferred when CKD coexists."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: treats
+    note: "NSAIDs were first-line RA therapy before DMARDs; COX-2-driven synovial PGE₂ drives joint pain, swelling, and stiffness; ibuprofen reduces RA symptoms but not radiographic progression; now adjunct to MTX/biologics; PPI required for long-term use."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Non-selective NSAIDs including ibuprofen increase ischemic stroke/MI risk ~1.3–1.5× via ↓ endothelial PGI₂; ibuprofen taken before aspirin blocks irreversible COX-1 acetylation → ↓ cardioprotective antiplatelet effect; naproxen shows lowest CV risk among NSAIDs."
 ---
 
 # Ibuprofen
@@ -106,3 +115,9 @@ Ibuprofen is a racemic propionic acid NSAID: the S(+)-enantiomer is pharmacologi
 
 - **Modulates** → [Prostaglandins](../../../../../01-human/03-molecular/prostaglandins/README.md): Reversible COX-1/COX-2 inhibition → ↓ all prostanoids; ↓ PGE₂ reduces pain sensitization and fever; ↓ TXA₂ reduces platelet aggregation.
 - **Targets** → [COX-2](../../../../../01-human/03-molecular/cox-2/README.md): COX-2 inhibition is the anti-inflammatory mechanism; COX-2-derived PGE₂ drives peripheral pain sensitization and hypothalamic fever response; inducible by IL-1β/TNFα in inflammatory cells.
+- **Treats** → [Gout](../../../../../01-human/07-system/gout/README.md): First-line NSAID for acute gout flares; COX-2-driven PGE₂ amplifies NLRP3-IL-1β neutrophil recruitment to MSU crystal deposits; 600–800 mg TDS × 7–10 days; contraindicated in eGFR <30; colchicine preferred when CKD coexists.
+- **Treats** → [Rheumatoid Arthritis](../../../../../01-human/07-system/rheumatoid-arthritis/README.md): COX-2-driven synovial PGE₂ drives joint pain, swelling, and stiffness; ibuprofen reduces RA symptoms but not radiographic progression; now adjunct to MTX/biologics; PPI required for long-term use.
+- **Connects-to** → [Stroke](../../../../../01-human/07-system/stroke/README.md): NSAIDs including ibuprofen increase ischemic stroke/MI risk ~1.3–1.5× via ↓ endothelial PGI₂; ibuprofen blocks aspirin's irreversible COX-1 acetylation → ↓ cardioprotective antiplatelet effect; naproxen shows lowest CV risk among NSAIDs.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

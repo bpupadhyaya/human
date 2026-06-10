@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: acts-on
     note: "Liver is the primary site of warfarin action — hepatic γ-glutamyl carboxylase and VKORC1 are the molecular targets; CYP2C9 in liver microsomes is the major metabolizing enzyme."
+  - target: 01-human/07-system/stroke
+    relation: prevents
+    note: "Warfarin reduces AF ischemic stroke by 64% (Hart 2007); target INR 2.0–3.0; CHA₂DS₂-VASc ≥2 triggers anticoagulation; preferred over DOACs for mechanical heart valves (INR 2.5–3.5); antiphospholipid syndrome triple-positive: warfarin INR 3.0–4.0."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: treats
+    note: "Warfarin treats DVT/PE at INR 2.0–3.0 × 3–6 months for provoked VTE; indefinite for unprovoked high-risk; largely superseded by DOACs (rivaroxaban, apixaban); remains first-line for antiphospholipid syndrome; LMWH bridging required at initiation."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: targets
+    note: "VKORC1 in hepatocytes is warfarin molecular target; CYP2C9 metabolizes S-warfarin (4× more potent than R-warfarin); VKORC1 -1639G>A and CYP2C9*2/*3 variants explain ~50% of dose variability; rifampicin induces CYP2C9 → ↓ INR; amiodarone inhibits CYP2C9 → ↑ INR."
 ---
 
 # Warfarin
@@ -106,3 +115,9 @@ Its narrow therapeutic index, complex drug and food interactions, and the requir
 
 - **Modulates** → [Coagulation Cascade](../../../../../01-human/03-molecular/coagulation-cascade/README.md): Inhibits VKORC1 → depletes functional (γ-carboxylated) factors II, VII, IX, X → both intrinsic and extrinsic pathways impaired; anticoagulant proteins C and S also depleted (transient pro-thrombotic risk at initiation).
 - **Targets** → [Liver](../../../../../01-human/06-organ/liver/README.md): VKORC1 and CYP2C9 in hepatocytes are the primary molecular targets and metabolic enzymes; hepatic synthetic function drives all drug interactions.
+- **Prevents** → [Stroke](../../../../../01-human/07-system/stroke/README.md): Reduces AF ischemic stroke by 64% (Hart 2007); INR 2.0–3.0; CHA₂DS₂-VASc ≥2 triggers anticoagulation; preferred over DOACs for mechanical heart valves; antiphospholipid syndrome triple-positive: warfarin INR 3.0–4.0.
+- **Treats** → [Venous Thromboembolism](../../../../../01-human/07-system/venous-thromboembolism/README.md): INR 2.0–3.0 × 3–6 months for provoked DVT/PE; indefinite for unprovoked high-risk; largely superseded by DOACs; remains first-line for antiphospholipid syndrome; LMWH bridging required at initiation.
+- **Targets** → [Hepatocyte](../../../../../01-human/04-cellular/hepatocyte/README.md): VKORC1 is the molecular target; CYP2C9 metabolizes S-warfarin (4× more potent than R-warfarin); VKORC1 -1639G>A and CYP2C9*2/*3 variants explain ~50% of dose variability; rifampicin induces CYP2C9 → ↓ INR; amiodarone inhibits CYP2C9 → ↑ INR.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
