@@ -55,6 +55,9 @@ cross_links:
   - target: 03-medicine/01-modern/11-biologics/adalimumab
     relation: treated-by
     note: "Adalimumab achieves 52-week remission in 36% of Crohn's (CHARM trial) and 16.5% in UC (ULTRA-2); blocks mucosal macrophage TNFα → reduces NF-κB-driven epithelial apoptosis; both induction and maintenance approved; perianal fistula closure benefit confirmed."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "IL-17A is elevated in IBD mucosa but anti-IL-17A therapy (secukinumab) paradoxically worsens IBD in AS/PsA patients; gut epithelial IL-17A may protect barrier integrity; this dual role distinguishes mucosal IL-17A function from systemic Th17 pathogenicity."
 ---
 
 # Inflammatory Bowel Disease
@@ -195,6 +198,7 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — mucosal neutrophil infiltration in IBD releases calprotectin into the gut lumen; fecal calprotectin >150 μg/g distinguishes IBD from IBS (sensitivity >80%); FC >250 correlates with active endoscopy; serial FC monitors biologic response and predicts relapse.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — H4R on mucosal mast cells and Tregs modulates gut inflammation; enterochromaffin-like cells secrete histamine → parietal HCl; H1R/H4R amplify epithelial cytokine release; H4R blockade reduces experimental colitis; histamine levels correlate with IBD disease activity.
 - `treated-by` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — approved for Crohn's disease (CHARM trial: 36% vs 12% 52-week remission) and ulcerative colitis (ULTRA-2: 16.5% vs 9.3%); blocks mucosal macrophage TNFα → reduces epithelial apoptosis; perianal fistula closure benefit; induction and maintenance approved.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is elevated in IBD mucosa but anti-IL-17A therapy (secukinumab) paradoxically worsens IBD in AS/PsA patients; gut epithelial IL-17A may protect barrier integrity; this dual role distinguishes mucosal IL-17A function from systemic Th17 pathogenicity.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

@@ -8,19 +8,6 @@ status: draft
 last_reviewed: 2026-06-07
 summary: "IL-17A is produced by Th17 cells and ILC3; signals via IL-17RA/RC → NF-kB → neutrophil recruitment, AMP expression, and keratinocyte proliferation; drives psoriasis, ankylosing spondylitis, and psoriatic arthritis; secukinumab and ixekizumab are approved first-line biologics."
 aliases: ["IL-17A", "interleukin-17A", "IL17A", "CTLA-8", "IL-17", "Th17 cytokine", "anti-IL-17A", "secukinumab target", "ixekizumab target", "IL-17A biologics"]
-cross_links:
-  - target: 01-human/07-system/psoriasis
-    relation: connects-to
-    note: "IL-17A from skin Th17 and γδ T cells activates keratinocyte IL-17RA/RC → NF-kB → CXCL8, S100A proteins, and AMPs → neutrophil influx and epidermal hyperproliferation; secukinumab (anti-IL-17A) and ixekizumab achieve PASI 90 in ~60% of plaque psoriasis patients at 16 weeks."
-  - target: 01-human/03-molecular/il-23
-    relation: connects-to
-    note: "IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; anti-IL-23p19 antibodies (risankizumab) suppress IL-17A and achieve superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis."
-  - target: 01-human/07-system/rheumatoid-arthritis
-    relation: connects-to
-    note: "IL-17A is present in RA synovium but secondary to TNF-alpha and IL-6; IL-17A promotes osteoclastogenesis via RANKL induction; IL-17A inhibitors (secukinumab) failed pivotal RA trials; bimekizumab (anti-IL-17A/F) showed marginal RA benefit vs established TNF/IL-6 blockade."
-  - target: 01-human/07-system/multiple-sclerosis
-    relation: connects-to
-    note: "IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barrier via CXCR6 → demyelination; secukinumab (anti-IL-17A) paradoxically worsened MS relapse rates in phase 2 trials — suggesting complex compensatory roles of IL-17A/Treg balance in CNS disease."
 sources:
   - id: langrish-2005-il17-autoimmunity
     type: peer-reviewed
@@ -35,6 +22,18 @@ sources:
     pmid: "25007392"
     url: "https://doi.org/10.1056/NEJMoa1406095"
 cross_links:
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "IL-17A from skin Th17 and γδ T cells activates keratinocyte IL-17RA/RC → NF-kB → CXCL8, S100A proteins, and AMPs → neutrophil influx and epidermal hyperproliferation; secukinumab (anti-IL-17A) and ixekizumab achieve PASI 90 in ~60% of plaque psoriasis patients at 16 weeks."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; anti-IL-23p19 antibodies (risankizumab) suppress IL-17A and achieve superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "IL-17A is present in RA synovium but secondary to TNF-alpha and IL-6; IL-17A promotes osteoclastogenesis via RANKL induction; IL-17A inhibitors (secukinumab) failed pivotal RA trials; bimekizumab (anti-IL-17A/F) showed marginal RA benefit vs established TNF/IL-6 blockade."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barrier via CXCR6 → demyelination; secukinumab (anti-IL-17A) paradoxically worsened MS relapse rates in phase 2 trials — suggesting complex compensatory roles of IL-17A/Treg balance in CNS disease."
   - target: 01-human/07-system/ankylosing-spondylitis
     relation: connects-to
     note: "IL-17A drives enthesitis in AS: ILC3 and Th17 cells at entheses produce IL-17A → RANKL + MMP → bone erosion; WNT-driven new bone formation follows (syndesmophytes); secukinumab (MEASURE-1: ASAS20 61% vs. 29%) and ixekizumab (COAST-V) are FDA-approved for AS."
@@ -44,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/giant-cell-arteritis
     relation: connects-to
     note: "GCA involves Th17 (IL-17A) and Th1 (IFN-γ) CD4+ T cell infiltrate in the arterial adventitia; IL-17A amplifies macrophage/neutrophil recruitment and intimal hyperplasia; secukinumab (anti-IL-17A) and upadacitinib (JAK1 inhibitor; SELECT-GCA) are under investigation."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "IL-17A drives neutrophil recruitment via CXCL1/CXCL5/CXCL8 from keratinocytes and fibroblasts; neutrophilic infiltration is the hallmark of psoriatic plaques; IL-17A + TNF-α synergise to amplify AMP expression; IL-17A LOF mutations → mucocutaneous candidiasis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Th17 cells (CD4+ RORγt+ IL-17RA+) are the primary IL-17A producers; IL-6 + TGF-β initiate Th17 differentiation; IL-23 maintains the effector Th17 program; tissue-resident Th17 cells sustain chronic inflammation in psoriasis and AS after systemic T cell depletion."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "IL-17A is elevated in IBD mucosa but anti-IL-17A therapy (secukinumab) paradoxically worsens IBD in AS/PsA patients; gut epithelial IL-17A may protect barrier integrity; this dual role distinguishes mucosal IL-17A function from systemic Th17 pathogenicity."
 ---
 
 # IL-17A
@@ -102,16 +110,15 @@ IL-17A is a **28 kDa homodimer** (14 kDa monomers) stabilized by an inter-chain 
 
 ## Connections
 
-IL-17A from skin Th17 and γδ T cells activates keratinocyte IL-17RA/RC → NF-kB → CXCL8, S100A proteins, and AMPs → neutrophil influx and epidermal hyperproliferation; secukinumab (anti-IL-17A) and ixekizumab achieve PASI 90 in ~60% of plaque psoriasis patients at 16 weeks.
+- `connects-to` → **[Psoriasis](../../07-system/psoriasis/README.md)** — IL-17A from skin Th17 and γδ T cells activates keratinocyte IL-17RA/RC → NF-kB → CXCL8, S100A proteins, and AMPs → neutrophil influx and epidermal hyperproliferation; secukinumab and ixekizumab achieve PASI 90 in ~60% of patients at 16 weeks.
+- `connects-to` → **[IL-23](../il-23/README.md)** — IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; risankizumab (anti-IL-23p19) achieves superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis.
+- `connects-to` → **[Rheumatoid Arthritis](../../07-system/rheumatoid-arthritis/README.md)** — IL-17A is present in RA synovium but secondary to TNF-α and IL-6; promotes osteoclastogenesis via RANKL; IL-17A inhibitors (secukinumab) failed pivotal RA trials; bimekizumab (anti-IL-17A/F) showed marginal RA benefit.
+- `connects-to` → **[Multiple Sclerosis](../../07-system/multiple-sclerosis/README.md)** — IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barrier via CXCR6 → demyelination; secukinumab paradoxically worsened MS relapse rates in phase 2 trials — suggesting complex Th17/Treg balance in CNS disease.
+- `connects-to` → **[Ankylosing Spondylitis](../../07-system/ankylosing-spondylitis/README.md)** — IL-17A drives enthesitis: ILC3/Th17 at entheses → RANKL + MMP → bone erosion; WNT-driven new bone formation → syndesmophytes; secukinumab (MEASURE-1: ASAS20 61%) and ixekizumab (COAST-V) are FDA-approved for AS.
+- `connects-to` → **[Psoriatic Arthritis](../../07-system/psoriatic-arthritis/README.md)** — IL-17A drives PsA enthesitis, synovitis, and new bone formation; secukinumab (FUTURE 2: ACR20 54%; FDA 2016) and ixekizumab (SPIRIT-P1/2; FDA 2017) approved; entheseal ILC3 produce IL-17A independently of IL-23 in some patients.
+- `connects-to` → **[Giant Cell Arteritis](../../07-system/giant-cell-arteritis/README.md)** — GCA involves Th17 (IL-17A) and Th1 (IFN-γ) CD4+ T cell infiltrate in the arterial adventitia; IL-17A amplifies macrophage/neutrophil recruitment and intimal hyperplasia; secukinumab and upadacitinib (SELECT-GCA) are under investigation.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — IL-17A drives neutrophil recruitment via CXCL1/CXCL5/CXCL8 from keratinocytes and fibroblasts; neutrophilic infiltration is the hallmark of psoriatic plaques; IL-17A + TNF-α synergise to amplify AMP expression; IL-17A LOF mutations → mucocutaneous candidiasis.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Th17 cells (CD4+ RORγt+) are the primary IL-17A producers; IL-6 + TGF-β initiate Th17 differentiation; IL-23 maintains the effector Th17 program; tissue-resident Th17 cells sustain chronic inflammation in psoriasis and AS after systemic T cell depletion.
+- `connects-to` → **[Inflammatory Bowel Disease](../../07-system/inflammatory-bowel-disease/README.md)** — IL-17A is elevated in IBD mucosa but anti-IL-17A therapy (secukinumab) paradoxically worsens IBD in AS/PsA patients; gut epithelial IL-17A may protect barrier integrity — a dual role distinguishing mucosal from systemic Th17 pathogenicity.
 
-IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; anti-IL-23p19 antibodies (risankizumab) suppress IL-17A and achieve superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis.
-
-IL-17A is present in RA synovium but secondary to TNF-alpha and IL-6; IL-17A promotes osteoclastogenesis via RANKL induction; IL-17A inhibitors (secukinumab) failed pivotal RA trials; bimekizumab (anti-IL-17A/F) showed marginal RA benefit vs established TNF/IL-6 blockade.
-
-IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barrier via CXCR6 → demyelination; secukinumab (anti-IL-17A) paradoxically worsened MS relapse rates in phase 2 trials — suggesting complex compensatory roles of IL-17A/Treg balance in CNS disease.
-
-IL-17A drives enthesitis in AS: ILC3 and Th17 cells at entheses produce IL-17A → RANKL + MMP → bone erosion; WNT-driven new bone formation follows (syndesmophytes); secukinumab (MEASURE-1: ASAS20 61% vs. 29%) and ixekizumab (COAST-V) are FDA-approved for AS.
-
-IL-17A is a central driver of PsA enthesitis, synovitis, and new bone formation; secukinumab (FUTURE 2: ACR20 54% vs 15%; FDA 2016) and ixekizumab (SPIRIT-P1/2; FDA 2017) are approved; entheseal ILC3 produce IL-17A independently of IL-23 in some PsA patients. See [psoriatic-arthritis](../../07-system/psoriatic-arthritis/README.md).
-
-GCA involves Th17 (IL-17A) and Th1 (IFN-γ) CD4+ T cell infiltrate in the arterial adventitia; IL-17A amplifies macrophage/neutrophil recruitment and intimal hyperplasia; secukinumab (anti-IL-17A) and upadacitinib (JAK1 inhibitor; SELECT-GCA) are under investigation. See [giant-cell-arteritis](../../07-system/giant-cell-arteritis/README.md).
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -89,6 +89,9 @@ cross_links:
   - target: 01-human/03-molecular/il-31
     relation: connects-to
     note: "IL-31 is predominantly produced by activated Th2 cells; GATA-3 drives IL-31 transcription; Th2-derived IL-31 is the primary driver of AD and PN itch via IL-31RA on sensory DRG neurons; nemolizumab (anti-IL-31RA) targets this Th2-to-nerve pruritic signal."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 cells (CD4+ RORγt+) are the primary IL-17A producers; IL-6 + TGF-β initiate Th17 differentiation; IL-23 maintains the effector Th17 program; tissue-resident Th17 cells sustain chronic inflammation in psoriasis and AS after systemic T cell depletion."
 ---
 
 # T Helper Cell
@@ -185,6 +188,7 @@ After antigen recognition: rapid clonal expansion (10³–10⁴-fold, ~2–3 day
 - `modulated-by` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 is the primary autocrine/paracrine Th cell growth factor; NFAT drives IL-2 transcription (blocked by cyclosporine/tacrolimus); IL-2 → JAK1/JAK3/STAT5 → cyclin D/BCL-2/BCL-XL → proliferation and survival.
 - `modulated-by` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcineurin dephosphorylates NFATc1-4 in activated T helper cells → nuclear entry → IL-2, IL-4, IFN-γ, TNF-α transcription; cyclosporine·cyclophilin and tacrolimus·FKBP12 inhibit calcineurin → block T cell cytokine production.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — IL-31 is predominantly produced by activated Th2 cells; GATA-3 drives IL-31 transcription; Th2-derived IL-31 is the primary driver of AD and PN itch via IL-31RA on sensory DRG neurons; nemolizumab (anti-IL-31RA) targets this Th2-to-nerve pruritic signal.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 cells (CD4+ RORγt+) are the primary IL-17A producers; IL-6 + TGF-β initiate Th17 differentiation; IL-23 maintains the effector Th17 program; tissue-resident Th17 cells sustain chronic inflammation in psoriasis and AS after systemic T cell depletion.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
