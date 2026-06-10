@@ -47,6 +47,15 @@ cross_links:
   - target: 01-human/03-molecular/rsv-f-protein
     relation: connects-to
     note: "Both norovirus VP1 and RSV F are sole viral surface antigens serving as vaccine immunogens; mRNA-LNP encodes both (mRNA-1403/norovirus; mResvia/RSV); VP1 VLP self-assembly and DS-Cav1 RSV-F proline locking are parallel structure-based vaccine design strategies."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "VP1 P2 subdomain binds H-type 1/3 HBGAs on intestinal epithelium via fucosylated glycan interactions; FUT2 secretors express H antigen on villus enterocytes — the primary cell target; non-secretors (~20% Europeans) lack gut H antigen → resistant to most GII.4 norovirus strains."
+  - target: 02-pathogen/06-environmental/diarrheal-disease
+    relation: connects-to
+    note: "Norovirus is the leading cause of epidemic acute gastroenteritis globally (~685 million cases/year); VP1 P2 HBGA binding mediates intestinal epithelium attachment; VP1 antigenic drift drives pandemic waves; VLP (TAK-214) and mRNA-1403 vaccines targeting VP1 are in Phase 3."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Mucosal DCs in Peyer patches and lamina propria capture VP1 VLPs via lectins and FcR; VP1 peptides presented on MHC-II drive anti-norovirus CD4+ T cell priming; VP1-specific secretory IgA from mucosal plasma cells is the primary correlate of protection in human challenge studies."
 ---
 
 # Norovirus VP1
@@ -147,6 +156,10 @@ Intranasal or intramuscular administration of VP1 VLPs (±adjuvant) in human cha
 **→ [B Cell](../../04-cellular/b-cell/)**: Norovirus VP1 binds HBGA-like carbohydrates on B cell surfaces enabling direct B cell infection (Jones 2014); B cells are required for the anti-VP1 IgA response that correlates with protection; anti-VP1 secretory IgA blocking titer is the primary immunological endpoint for all norovirus vaccine candidates.
 
 **→ [RSV F Protein](../rsv-f-protein/)**: Both RSV F and Norovirus VP1 are the sole relevant surface antigens of their respective viruses and the basis of recently approved or late-stage vaccines; RSV uses prefusion-stabilized F protein (DS-Cav1) while norovirus uses VLP self-assembly of VP1 — both are structure-based vaccine design triumphs; mRNA-LNP platform encodes both antigens (mResvia = RSV F; mRNA-1403 = norovirus VP1).
+
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — VP1 P2 subdomain binds H-type 1/3 HBGAs on intestinal villus enterocytes; FUT2 secretors express H antigen (primary HBGA for GII.4 binding); non-secretors (~20% Europeans) lack gut H antigen → resistant to most GII.4 norovirus strains.
+- `connects-to` → **[Diarrheal Disease](../../../../02-pathogen/06-environmental/diarrheal-disease/README.md)** — Norovirus (~685 million cases/year) is the leading cause of epidemic acute gastroenteritis; VP1 P2 HBGA binding mediates intestinal attachment; GII.4 VP1 antigenic drift drives pandemic waves every 2-4 years; VLP and mRNA vaccines targeting VP1 in Phase 3.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Mucosal DCs in Peyer patches and lamina propria capture VP1 VLPs; processed VP1 peptides presented on MHC-II drive CD4+ T cell priming; VP1-specific secretory IgA from mucosal plasma cells is the primary correlate of protection in human challenge studies.
 
 [^prasad-1999-norwalk-structure]: Prasad BVV, Hardy ME, Dokland T, Bella J, Rossmann MG, Estes MK. X-ray crystallographic structure of the Norwalk virus capsid. *Science.* 1999;286(5438):287-290. [doi:10.1126/science.286.5438.287](https://doi.org/10.1126/science.286.5438.287) · [PubMed 10514371](https://pubmed.ncbi.nlm.nih.gov/10514371/)
 [^tan-2005-hbga-review]: Tan M, Jiang X. Norovirus and its histo-blood group antigen receptors: an answer to a historical puzzle. *Trends Microbiol.* 2005;13(6):285-293. [doi:10.1016/j.tim.2005.04.005](https://doi.org/10.1016/j.tim.2005.04.005) · [PubMed 15936186](https://pubmed.ncbi.nlm.nih.gov/15936186/)

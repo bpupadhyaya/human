@@ -61,6 +61,9 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Gut bacteria perform nitrogen cycling: urease-positive species hydrolyse urea; amino acid fermentation → ammonia and branched-chain SCFAs; dietary protein nitrogen is the primary driver of microbiome composition; nitrogen balance determines colonocyte renewal."
+  - target: 02-pathogen/06-environmental/diarrheal-disease
+    relation: damaged-by
+    note: "Enteric pathogens (Salmonella, C. diff, rotavirus) disrupt gut microbiome via invasion and diarrhea-driven washout of commensal species; post-diarrheal dysbiosis delays mucosal recovery; FMT (fecal microbiota transplant) is curative for recurrent C. difficile colitis."
 ---
 
 # Gut Microbiome
@@ -153,6 +156,7 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Candida albicans](../../../../02-pathogen/03-fungi/candida-albicans/README.md)** — C. albicans is a commensal gut fungus (70% of healthy adults); core microbiome (Bacteroidetes, Lactobacillus) and sIgA suppress hyphal transition; antibiotic dysbiosis removes this barrier → Candida overgrowth, gut translocation, and candidemia.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Colonic bacteria ferment dietary fibre (complex carbon polymers) → SCFAs: acetate (C2), propionate (C3), butyrate (C4); butyrate fuels ~70% of colonocyte energy; microbiome carbon fermentation links dietary carbon intake to host metabolic health.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Gut bacteria perform nitrogen cycling: urease-positive species hydrolyse urea; amino acid fermentation → ammonia and branched-chain SCFAs; dietary protein nitrogen is the primary driver of microbiome composition; nitrogen balance determines colonocyte renewal.
+- `damaged-by` → **[Diarrheal Disease](../../../../02-pathogen/06-environmental/diarrheal-disease/README.md)** — Enteric pathogens (Salmonella, C. diff, rotavirus) disrupt gut microbiome via invasion and diarrhea-driven washout of commensal species; post-diarrheal dysbiosis delays mucosal recovery; FMT (fecal microbiota transplant) is curative for recurrent C. difficile colitis.
 
 ## Pathology
 

@@ -103,6 +103,9 @@ cross_links:
   - target: 01-human/07-system/measles
     relation: connects-to
     note: "Measles SLAM/CD150 tropism infects DCs → impaired IL-12/IFN-α production and reduced T cell priming; MV-infected DCs poorly present antigens; DC functional impairment is a core driver of measles immune amnesia — the 2-3 year re-susceptibility to other infections after measles."
+  - target: 01-human/03-molecular/norovirus-vp1
+    relation: connects-to
+    note: "Mucosal DCs in Peyer patches and lamina propria capture VP1 VLPs; processed VP1 peptides on MHC-II drive anti-norovirus CD4+ T cell priming; VP1-specific secretory IgA from mucosal plasma cells is the primary correlate of protection in norovirus human challenge studies."
 ---
 
 # Dendritic Cell
@@ -201,8 +204,12 @@ After delivering their antigenic cargo to T cells, mature DCs in lymph nodes und
 - **Infected by:** [sars-cov-2](../../../../02-pathogen/01-viruses/sars-cov-2/README.md) — viral impairment of DC function contributes to the immunopathology of severe COVID-19
 - `connects-to` → **[MV-H Protein](../../03-molecular/mv-h-protein/README.md)** — MV-H binds SLAM/CD150 on DCs → productive DC infection → impaired IL-12/IFN-α, reduced T cell priming, and poor antigen presentation; DC functional impairment is a core driver of measles immune amnesia lasting 2–3 years.
 - `connects-to` → **[Measles](../../07-system/measles/README.md)** — Measles SLAM/CD150 tropism infects DCs → impaired IL-12/IFN-α production and reduced T cell priming; MV-infected DCs poorly present antigens; DC dysfunction is a core driver of measles immune amnesia — the 2-3 year re-susceptibility to other infections after measles.
+- `connects-to` → **[Norovirus VP1](../../03-molecular/norovirus-vp1/README.md)** — Mucosal DCs in Peyer patches and lamina propria capture VP1 VLPs; processed VP1 peptides on MHC-II drive anti-norovirus CD4+ T cell priming; VP1-specific secretory IgA from mucosal plasma cells is the primary correlate of protection in norovirus human challenge studies.
 
 [^banchereau-steinman-1998]: Banchereau J, Steinman RM. Dendritic cells and the control of immunity. *Nature.* 1998;392(6673):245-52. [doi:10.1038/32588](https://doi.org/10.1038/32588) · [PubMed 9521319](https://pubmed.ncbi.nlm.nih.gov/9521319/)
 [^merad-2013-dc-biology]: Merad M, Sathe P, Helft J, Miller J, Mortha A. The dendritic cell lineage: ontogeny and function of dendritic cells and their precursors in steady state and the inflamed setting. *Annu Rev Immunol.* 2013;31:563-604. [doi:10.1146/annurev-immunol-020711-074950](https://doi.org/10.1146/annurev-immunol-020711-074950) · [PubMed 23516985](https://pubmed.ncbi.nlm.nih.gov/23516985/)
 [^guilliams-2022-dc-classification]: Guilliams M, et al. Dendritic cells and monocytes with distinct inflammatory responses reside in lung mucosa of mild COVID-19 patients. *J Exp Med.* 2020;217(12):e20201228. [doi:10.1084/jem.20201228](https://doi.org/10.1084/jem.20201228) · [PubMed 33027508](https://pubmed.ncbi.nlm.nih.gov/33027508/)
 [^steinman-2007-dc-nobel]: Steinman RM. Dendritic cells: understanding immunogenicity. *Eur J Immunol.* 2007;37 Suppl 1:S53-60. [doi:10.1002/eji.200737400](https://doi.org/10.1002/eji.200737400) · [PubMed 17972355](https://pubmed.ncbi.nlm.nih.gov/17972355/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -35,6 +35,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/norovirus
     relation: targets
     note: "Norovirus is the leading cause of epidemic non-bacterial gastroenteritis globally (~685 million cases/year); infects jejunal epithelium via HBGA; highly infectious (ID50 ~18 particles); no approved vaccine."
+  - target: 01-human/03-molecular/norovirus-vp1
+    relation: targets
+    note: "Norovirus VP1 P2 subdomain binds HBGA H-type antigens on jejunal enterocytes → attachment and villus blunting; norovirus causes ~685 million diarrhea cases/year; VLP (TAK-214) and mRNA-1403 vaccines in Phase 3 trials target the leading cause of epidemic foodborne diarrhea."
+  - target: 01-human/07-system/gut-microbiome
+    relation: damages
+    note: "Enteric pathogens (Salmonella, C. diff, rotavirus) disrupt gut microbiome via invasion, antimicrobial induction, and diarrhea-driven washout; post-diarrheal dysbiosis delays mucosal recovery; FMT (fecal microbiota transplant) is curative for recurrent C. difficile infection."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: damages
+    note: "All major enteric pathogens target intestinal epithelium: rotavirus lyses villus enterocytes; norovirus blunts villi; Shigella/Salmonella invade M cells via T3SS; ETEC/cholera toxins disrupt CFTR/NHE → secretory diarrhea; mucosal barrier integrity is the primary host defense."
 ---
 
 # Diarrheal Disease
@@ -142,6 +151,9 @@ Diarrheal disease and malnutrition are mutually reinforcing [^guerrant-2012-diar
 - `targets` → **[Escherichia coli](../../02-bacteria/escherichia-coli/README.md)** — ETEC causes watery traveler's diarrhea via LT/ST toxins; EHEC O157:H7 causes hemorrhagic colitis and hemolytic uremic syndrome via Shiga toxin 2
 - `targets` → **[Rotavirus](../../01-viruses/rotavirus/README.md)** — leading cause of severe pediatric dehydrating diarrhea; ~128,000 deaths/year; vaccine-preventable with Rotarix/RotaTeq
 - `targets` → **[Norovirus](../../01-viruses/norovirus/README.md)** — leading cause of epidemic foodborne diarrhea globally; ~685 million cases/year; no vaccine or antiviral approved
+- `targets` → **[Norovirus VP1](../../../01-human/03-molecular/norovirus-vp1/README.md)** — VP1 P2 HBGA binding mediates intestinal attachment and villus blunting; norovirus VP1 antigenic drift (GII.4 variants) drives successive pandemic waves; VLP (TAK-214) and mRNA-1403 vaccines target VP1 to prevent the leading cause of epidemic foodborne diarrhea.
+- `damages` → **[Gut Microbiome](../../../01-human/07-system/gut-microbiome/README.md)** — enteric pathogens disrupt gut microbiome via invasion, antimicrobial peptide induction, and diarrhea-driven washout; post-diarrheal dysbiosis delays mucosal recovery; FMT is curative for recurrent C. difficile colitis.
+- `damages` → **[Intestinal Epithelium](../../../01-human/05-tissue/intestinal-epithelium/README.md)** — rotavirus lyses villus enterocytes → malabsorption; norovirus blunts villi; Shigella/Salmonella invade M cells via T3SS; ETEC/cholera toxins disrupt CFTR/NHE → secretory diarrhea; mucosal barrier integrity is the primary host defense.
 
 ## Pathology
 

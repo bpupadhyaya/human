@@ -61,6 +61,12 @@ cross_links:
   - target: 02-pathogen/03-fungi/candida-albicans
     relation: infected-by
     note: "C. albicans Als3 adhesin binds enterocyte E-cadherin/N-cadherin; candidalysin disrupts tight junctions enabling hyphal penetration; antibiotic dysbiosis enables Candida overgrowth; gut translocation is the primary candidemia source in neutropenic patients."
+  - target: 01-human/03-molecular/norovirus-vp1
+    relation: connects-to
+    note: "Norovirus VP1 P2 subdomain binds H-type 1/3 HBGAs on intestinal villus enterocytes; FUT2 secretors express H antigen — the primary HBGA for GII.4 attachment; non-secretors (~20% Europeans) lack gut H antigen → resistant to most GII.4 norovirus strains."
+  - target: 02-pathogen/06-environmental/diarrheal-disease
+    relation: damaged-by
+    note: "Rotavirus lyses villus enterocytes; norovirus blunts villi; Shigella/Salmonella invade M cells via T3SS; ETEC/cholera toxins activate CFTR/NHE → secretory diarrhea; mucosal barrier integrity is the primary host defense against all enteric diarrheal pathogens."
 ---
 
 # Intestinal Epithelium
@@ -113,6 +119,8 @@ Crucially, the intestinal epithelium forms the primary barrier separating ~38 tr
 - **Stem cell niche.** Lgr5⁺ crypt-base columnar cells are the active intestinal stem cells; ~5–10 per crypt base. Paneth cell-derived EGF, Wnt3, Notch ligands (Dll4) are the niche. +4 position cells (quiescent reserve ISCs, Bmi1⁺ or Lrig1⁺) are activated by injury. Organoid technology exploiting ISC properties revolutionised gut biology research and holds therapeutic potential for intestinal repair.
 - **Pathological conditions:** Coeliac disease (gliadin peptides → HLA-DQ2/8 → adaptive immune attack on enterocytes → villous atrophy); Crohn's disease and ulcerative colitis (barrier dysfunction, dysbiosis, aberrant immune activation); colorectal cancer (APC/β-catenin → KRAS → TP53 mutational sequence in the crypt stem cell); infectious diarrhoea (Vibrio cholerae CFTR chloride secretion; enterotoxigenic E. coli; rotavirus tight-junction disruption); short bowel syndrome; necrotising enterocolitis (premature infants, barrier immaturity + microbial translocation).
 - `infected-by` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — C. albicans Als3 adhesin binds enterocyte E-cadherin/N-cadherin; candidalysin disrupts tight junctions enabling hyphal penetration; antibiotic dysbiosis enables Candida overgrowth; gut translocation is the primary candidemia source in neutropenic patients.
+- `connects-to` → **[Norovirus VP1](../../03-molecular/norovirus-vp1/README.md)** — VP1 P2 subdomain binds H-type 1/3 HBGAs on intestinal villus enterocytes; FUT2 secretors express H antigen on villus enterocytes — the primary HBGA for GII.4 attachment; non-secretors (~20% Europeans) lack gut H antigen → resistant to most GII.4 norovirus strains.
+- `damaged-by` → **[Diarrheal Disease](../../../../02-pathogen/06-environmental/diarrheal-disease/README.md)** — Rotavirus lyses villus enterocytes; norovirus blunts villi; Shigella/Salmonella invade M cells via T3SS; ETEC/cholera toxins activate CFTR/NHE → secretory diarrhea; mucosal barrier integrity is the primary host defense against all enteric diarrheal pathogens.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
