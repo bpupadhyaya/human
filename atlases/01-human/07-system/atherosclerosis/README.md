@@ -55,6 +55,9 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/aspirin
     relation: treated-by
     note: "Aspirin 75-100 mg/day is a cornerstone of secondary prevention in atherosclerotic CVD; irreversible platelet COX-1 acetylation blocks TXA₂ → prevents arterial thrombosis at ruptured plaques; ATC meta-analysis: 22% proportional reduction in serious vascular events."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Cholesterol (C₂₇H₄₆O) and fatty acid carbon accumulate in arterial macrophages forming foam cells; oxidised LDL carbon adducts trigger inflammatory NF-κB signalling; statins inhibit HMG-CoA reductase, reducing hepatic cholesterol carbon synthesis."
 ---
 
 # Atherosclerosis
@@ -181,6 +184,7 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Familial Hypercholesterolemia](../familial-hypercholesterolemia/README.md)** — FH accelerates atherosclerosis; HeFH untreated: 20× higher CVD risk; coronary atherosclerosis, tendon xanthomas, and xanthelasma are hallmarks; cumulative LDL-C burden predicts events; early statin initiation reduces atherosclerotic events in HeFH.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — FN accumulates in the arterial intima early in atherosclerosis; EDA-FN activates TLR4 on SMCs and macrophages → NF-κB → inflammation; FN-integrin α5β1 promotes SMC migration from media to intima; plaque FN cross-links collagen → fibrous cap stability; plasma FN falls in acute MI.
 - `treated-by` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — aspirin 75-100 mg/day is a cornerstone of secondary prevention in atherosclerotic CVD; irreversible platelet COX-1 acetylation blocks TXA₂ → prevents plaque-rupture-triggered arterial thrombosis; ATC meta-analysis: 22% proportional reduction in serious vascular events.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Cholesterol (C₂₇H₄₆O) and fatty acid carbon accumulate in arterial macrophages forming foam cells; oxidised LDL carbon adducts trigger inflammatory NF-κB signalling; statins inhibit HMG-CoA reductase, reducing hepatic cholesterol carbon synthesis.
 
 ---
 

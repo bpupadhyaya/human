@@ -47,6 +47,12 @@ cross_links:
   - target: 01-human/07-system/malaria
     relation: connects-to
     note: "P. falciparum digests haemoglobin in food vacuole → haemozoin + free haem; HbAS confers ~60% protection via impaired parasite growth; HbF, HbC, and α-thalassaemia also protective; haemoglobin variants shape global Plasmodium mortality distribution."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Globin chains are carbon-backbone polypeptides; ~23% of CO₂ transported as carbamino-Hb (CO₂ reacts at α-amino termini of globin chains); Haldane effect: deoxyHb binds CO₂ 3.5× more avidly than oxyHb, enabling efficient tissue CO₂ unloading."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Four porphyrin ring nitrogens coordinate Fe²⁺; proximal His (F8) provides fifth axial N ligand; distal His (E7) H-bonds O₂; His146β imidazole accepts CO₂-driven proton → T-state stabilisation → O₂ release in peripheral tissues (Bohr effect)."
 ---
 
 # Hemoglobin
@@ -135,6 +141,8 @@ Globin gene expression during erythropoiesis is driven by transcription factors 
 - `connects-to` → **[Thalassemia](../../07-system/thalassemia/README.md)** — Thalassaemias arise from imbalanced α/β-globin synthesis; β-thal major: excess α chains precipitate → ineffective erythropoiesis; α-thal (3-gene deletion): HbH (β₄) unstable tetramers; gene therapies (Zynteglo: lentiviral βA-T87Q; Casgevy: CRISPR BCL11A) are FDA-approved.
 - `connects-to` → **[G6PD](../g6pd/README.md)** — G6PD (chrXq28) is the sole NADPH source in RBCs; NADPH → glutathione → oxidant defense; G6PD deficiency → Heinz body haemolysis from denatured globin; G6PD A− and Mediterranean variants evolved as malaria protection alongside HbS and thalassaemia.
 - `connects-to` → **[Malaria](../../07-system/malaria/README.md)** — P. falciparum digests haemoglobin in food vacuole → haemozoin + free haem; HbAS confers ~60% protection via impaired parasite growth; HbF, HbC, and α-thalassaemia also protective; haemoglobin variants shape global Plasmodium mortality distribution.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Globin chains are carbon-backbone polypeptides; ~23% of CO₂ transported as carbamino-Hb (CO₂ reacts at α-amino termini of globin chains); Haldane effect: deoxyHb binds CO₂ 3.5× more avidly than oxyHb, enabling efficient tissue CO₂ unloading.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Four porphyrin ring nitrogens coordinate Fe²⁺; proximal His (F8) provides fifth axial N ligand; distal His (E7) H-bonds O₂; His146β imidazole accepts CO₂-driven proton → T-state stabilisation → O₂ release in peripheral tissues (Bohr effect).
 
 ## Pathology
 

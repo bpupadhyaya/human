@@ -55,6 +55,12 @@ cross_links:
   - target: 02-pathogen/03-fungi/candida-albicans
     relation: connects-to
     note: "C. albicans is a commensal gut fungus (70% of healthy adults); core microbiome (Bacteroidetes, Lactobacillus) and sIgA suppress hyphal transition; antibiotic dysbiosis removes this barrier → Candida overgrowth, gut translocation, and candidemia."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Colonic bacteria ferment dietary fibre (complex carbon polymers) → SCFAs: acetate (C2), propionate (C3), butyrate (C4); butyrate fuels ~70% of colonocyte energy; microbiome carbon fermentation links dietary carbon intake to host metabolic health."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Gut bacteria perform nitrogen cycling: urease-positive species hydrolyse urea; amino acid fermentation → ammonia and branched-chain SCFAs; dietary protein nitrogen is the primary driver of microbiome composition; nitrogen balance determines colonocyte renewal."
 ---
 
 # Gut Microbiome
@@ -145,6 +151,8 @@ The microbiome influences CNS function via multiple pathways:
 - `modulated-by` → **[Amoxicillin](../../../03-medicine/01-modern/06-antimicrobial/amoxicillin/README.md)** — Amoxicillin reduces gram-positive and gram-negative gut microbiota diversity; Enterobacteriaceae bloom during treatment; microbiome recovery takes 1–2 months post-course; repeated courses associate with persistent dysbiosis.
 - `modulated-by` → **[Lactobacillus rhamnosus](../../../../02-pathogen/06-microbiome/lactobacillus-rhamnosus/README.md)** — *L. rhamnosus* GG is the most-studied probiotic modulator of gut microbiome composition: lactic acid cross-feeds butyrate producers (*Faecalibacterium prausnitzii*); SpaCBA pili exclude pathogens from mucus; reduces AAD and infantile eczema risk.
 - `connects-to` → **[Candida albicans](../../../../02-pathogen/03-fungi/candida-albicans/README.md)** — C. albicans is a commensal gut fungus (70% of healthy adults); core microbiome (Bacteroidetes, Lactobacillus) and sIgA suppress hyphal transition; antibiotic dysbiosis removes this barrier → Candida overgrowth, gut translocation, and candidemia.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Colonic bacteria ferment dietary fibre (complex carbon polymers) → SCFAs: acetate (C2), propionate (C3), butyrate (C4); butyrate fuels ~70% of colonocyte energy; microbiome carbon fermentation links dietary carbon intake to host metabolic health.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Gut bacteria perform nitrogen cycling: urease-positive species hydrolyse urea; amino acid fermentation → ammonia and branched-chain SCFAs; dietary protein nitrogen is the primary driver of microbiome composition; nitrogen balance determines colonocyte renewal.
 
 ## Pathology
 

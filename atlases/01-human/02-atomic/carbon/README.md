@@ -26,6 +26,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: part-of
     note: "Insulin (51 residues, MW 5808 Da) is built entirely on carbon backbones: the α-carbon of each residue, side-chain carbons, and the carbonyl carbon of every peptide bond. Disulfide bonds crosslink carbon-bearing cysteine residues, defining the hormone's active 3D conformation."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: part-of
+    note: "Carbon backbone forms all globin chains and the porphyrin ring; CO₂ is carried as carbamino-Hb at α-amino termini of globin chains; Haldane effect: deoxyHb binds CO₂ 3.5× more avidly than oxyHb, enabling efficient tissue CO₂ transport."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Dietary fibre (complex carbon polymers) fermented by colonic bacteria → SCFAs: acetate (C2), propionate (C3), butyrate (C4); butyrate is the primary colonocyte fuel (~70% energy); microbiome carbon metabolism is the key interface between diet and host metabolism."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Cholesterol (C₂₇H₄₆O) and fatty acid carbon accumulate in arterial wall macrophages (foam cells); oxidised LDL carbon adducts trigger inflammatory signalling; statins block HMG-CoA reductase, reducing hepatic cholesterol carbon synthesis."
 ---
 
 # Carbon
@@ -117,9 +126,11 @@ The backbone dihedral angles of polypeptides (φ, ψ around N–Cα and Cα–C 
 
 ## Connections
 
-- **Part-of** → [Human Body](../../08-whole-body/human-body/README.md): Carbon is 18% of body mass and the structural backbone of every biomolecule. A 70 kg adult contains ~12.6 kg of carbon.
-
-- **Part-of** → [Insulin](../../03-molecular/insulin/README.md): Insulin's 51-amino-acid covalent structure is built entirely on carbon backbones; the α-carbon of each residue is the sp³ stereocentre defining peptide chain geometry, and the carbonyl carbons form every peptide bond.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — Carbon is 18% of body mass; a 70 kg adult contains ~12.6 kg of carbon distributed across proteins, lipids, carbohydrates, nucleic acids, and metabolites.
+- `part-of` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin's 51-amino-acid structure is built entirely on carbon backbones; every α-carbon is the sp³ stereocentre defining peptide chain geometry, and carbonyl carbons form every peptide bond.
+- `part-of` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Carbon backbone forms all globin chains and the porphyrin ring; CO₂ is carried as carbamino-Hb at α-amino termini of globin chains; Haldane effect: deoxyHb binds CO₂ 3.5× more avidly than oxyHb.
+- `connects-to` → **[Gut Microbiome](../../07-system/gut-microbiome/README.md)** — Dietary fibre (complex carbon polymers) fermented by colonic bacteria → SCFAs: acetate (C2), propionate (C3), butyrate (C4); butyrate fuels ~70% of colonocyte energy.
+- `connects-to` → **[Atherosclerosis](../../07-system/atherosclerosis/README.md)** — Cholesterol (C₂₇H₄₆O) and fatty acid carbon accumulate in arterial wall macrophages (foam cells); oxidised LDL carbon adducts trigger inflammatory signalling; statins block HMG-CoA reductase.
 
 ## Pathology
 
@@ -145,3 +156,5 @@ The backbone dihedral angles of polypeptides (φ, ψ around N–Cα and Cα–C 
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell.* 7th ed. W.W. Norton; 2022. [ncbi.nlm.nih.gov/books/NBK26880](https://www.ncbi.nlm.nih.gov/books/NBK26880/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

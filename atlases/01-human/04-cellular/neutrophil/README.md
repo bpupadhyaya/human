@@ -47,6 +47,9 @@ cross_links:
   - target: 02-pathogen/03-fungi/candida-albicans
     relation: damaged-by
     note: "C. albicans candidalysin (Ece1-derived peptide) lyses neutrophil membranes; hyphae rupture phagosomes to escape killing; neutrophil NETs immobilize hyphae; neutropenia ANC <500 is the dominant risk factor for invasive candidiasis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "iNOS in activated neutrophils and macrophages synthesises sustained high-level NO from arginine for pathogen killing; ONOO⁻ (NO + O₂⁻) and N₂O₃ damage bacterial membranes and DNA; iNOS induction requires LPS + IFN-γ via NF-κB and STAT1 signalling."
 ---
 
 # Neutrophil
@@ -108,6 +111,7 @@ Neutrophils occupy a critical position at the interface of early pathogen contai
 - **Modulates Liver** (`../../06-organ/liver/README.md`): Hepatic neutrophil infiltration (via CXCL1/CXCL2/CXCL8) drives acute liver injury in ischaemia-reperfusion, alcoholic hepatitis, and NASH; NET components activate Kupffer cells via TLR4/TLR9, amplifying inflammation.[^janeway-immunobiology]
 - `connects-to` → **[G6PD](../../03-molecular/g6pd/README.md)** — Neutrophil NOX2 requires G6PD-derived NADPH to generate superoxide for oxidative burst; G6PD-deficient patients have impaired neutrophil bactericidal killing; severe G6PD deficiency (Class I) may present with recurrent bacterial infections from NOX2 substrate deficit.
 - `damaged-by` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — C. albicans candidalysin (Ece1-derived peptide) lyses neutrophil membranes; hyphae rupture phagosomes to escape killing; NETs immobilize hyphae; neutropenia ANC <500 is the dominant risk factor for invasive candidiasis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — iNOS in activated neutrophils and macrophages synthesises sustained high-level NO from arginine for pathogen killing; ONOO⁻ (NO + O₂⁻) and N₂O₃ damage bacterial membranes and DNA; iNOS induction requires LPS + IFN-γ via NF-κB and STAT1 signalling.
 
 ## Pathology
 

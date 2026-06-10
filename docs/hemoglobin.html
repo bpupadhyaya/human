@@ -1,287 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hemoglobin · Atlas One · Human · Molecular</title>
-<style>
-  :root {
-    --accent: #dc2626;
-    --accent-dark: #7f1d1d;
-    --bg: #0f172a;
-    --surface: #1e293b;
-    --surface2: #273549;
-    --border: #334155;
-    --text: #e2e8f0;
-    --text-muted: #94a3b8;
-    --radius-sm: 6px;
-    --radius: 12px;
-    --radius-lg: 18px;
-  }
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
-  nav {
-    position: sticky; top: 0; z-index: 100;
-    background: rgba(15,23,42,0.85); backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
-    padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem;
-  }
-  nav a { color: var(--text-muted); text-decoration: none; font-size: 0.875rem; }
-  nav a:hover { color: var(--accent); }
-  nav .sep { color: var(--border); }
-  .hero { background: linear-gradient(135deg, #dc2626, #7f1d1d); padding: 3rem 2rem 2.5rem; }
-  .hero-inner { max-width: 860px; margin: 0 auto; }
-  .eyebrow { display: inline-block; background: rgba(255,255,255,0.2); color: #fff; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 1rem; }
-  .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1.1; }
-  .hero .tagline { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 0.5rem; max-width: 620px; }
-  .stat-row { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.75rem; }
-  .stat { background: rgba(255,255,255,0.15); border-radius: var(--radius-sm); padding: 0.6rem 1rem; }
-  .stat .val { font-size: 1.25rem; font-weight: 700; color: #fff; }
-  .stat .lbl { font-size: 0.7rem; color: rgba(255,255,255,0.75); letter-spacing: 0.06em; text-transform: uppercase; }
-  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
-  .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 2rem; overflow: hidden; }
-  .detail-header { background: linear-gradient(135deg, #dc2626, #7f1d1d); padding: 1rem 1.5rem; }
-  .detail-header h2 { color: #fff; font-size: 1.1rem; font-weight: 700; }
-  .detail-body { padding: 1.5rem; }
-  .detail-body p { color: var(--text-muted); margin-bottom: 0.75rem; }
-  .detail-body p:last-child { margin-bottom: 0; }
-  .pathway-block { background: #0d1b2e; border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; overflow-x: auto; }
-  .pathway-block pre { font-family: 'Fira Mono', 'Cascadia Code', monospace; font-size: 0.78rem; line-height: 1.6; color: #93c5fd; white-space: pre; }
-  .data-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
-  .data-table th { background: var(--surface2); color: var(--text); text-align: left; padding: 0.6rem 0.875rem; font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase; }
-  .data-table td { padding: 0.6rem 0.875rem; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: top; }
-  .data-table tr:last-child td { border-bottom: none; }
-  .data-table tr:hover td { background: var(--surface2); }
-  .step-list { list-style: none; counter-reset: steps; margin: 0.75rem 0; }
-  .step-list li { counter-increment: steps; display: flex; gap: 0.875rem; margin-bottom: 0.6rem; color: var(--text-muted); font-size: 0.9rem; }
-  .step-list li::before { content: counter(steps); background: var(--accent); color: #fff; font-weight: 700; font-size: 0.75rem; min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.15rem; }
-  .principle-box { background: rgba(220,38,38,0.1); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.875rem 1rem; margin: 1rem 0; color: var(--text-muted); font-size: 0.9rem; }
-  .principle-box strong { color: var(--text); }
-  .conn-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
-  .conn-pill { background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted); font-size: 0.78rem; padding: 0.3rem 0.75rem; border-radius: 999px; text-decoration: none; transition: border-color 0.15s, color 0.15s; }
-  .conn-pill:hover { border-color: var(--accent); color: var(--accent); }
-  .refs { list-style: none; margin-top: 0.5rem; }
-  .refs li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; }
-  .refs li:last-child { border-bottom: none; }
-  .refs li::before { content: "↗ "; color: var(--accent); }
-  footer { text-align: center; padding: 2rem 1rem; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.8rem; }
-  footer a { color: var(--accent); text-decoration: none; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="α₂β₂ tetramer (~64.5 kDa) carrying 4 haem-Fe²⁺ groups; binds O₂ cooperatively (Hill n≈2.7) via T↔R allostery. Bohr effect and 2,3-BPG tune O₂ delivery. HbS muta">
+  <meta property="og:title" content="Hemoglobin — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Hemoglobin — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
 </head>
 <body>
 
-<nav>
-  <a href="index.html">Atlas</a>
-  <span class="sep">›</span>
-  <a href="index.html">Human</a>
-  <span class="sep">›</span>
-  <a href="#">Hemoglobin</a>
-</nav>
-
-<section class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow">Atlas One · Human · Molecular</span>
-    <h1>Hemoglobin</h1>
-    <p class="tagline">Tetrameric oxygen transport protein — allosteric masterpiece coupling O₂ delivery to metabolic demand via the Bohr effect and 2,3-BPG.</p>
-    <div class="stat-row">
-      <div class="stat"><div class="val">64.5 kDa</div><div class="lbl">Molecular weight</div></div>
-      <div class="stat"><div class="val">α₂β₂</div><div class="lbl">Tetramer (adult HbA)</div></div>
-      <div class="stat"><div class="val">~2.7</div><div class="lbl">Hill coefficient (n)</div></div>
-      <div class="stat"><div class="val">~120 days</div><div class="lbl">RBC lifespan</div></div>
-    </div>
-  </div>
-</section>
-
-<main>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Overview</h2></div>
-    <div class="detail-body">
-      <p>Hemoglobin (Hb) is the paradigm allosteric protein. Packed at ~330 g/L inside erythrocytes, it carries 98.5% of blood oxygen — the remainder dissolved in plasma. Its four subunits communicate through quaternary conformational change: the T (tense, deoxy, low-affinity) state ↔ R (relaxed, oxy, high-affinity) state transition generates the sigmoidal O₂ dissociation curve that is exquisitely adapted to tissue oxygen delivery.</p>
-      <p>Three key regulatory inputs right-shift the ODC (reduce O₂ affinity), ensuring O₂ release in metabolically active tissues: (1) rising CO₂/H⁺ (Bohr effect), (2) 2,3-bisphosphoglycerate (2,3-BPG) binding, and (3) rising temperature. The opposite inputs in the pulmonary capillary facilitate O₂ loading. Fetal hemoglobin (HbF, α₂γ₂) has lower 2,3-BPG affinity, conferring higher O₂ affinity to extract oxygen across the placenta.</p>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Structure</h2></div>
-    <div class="detail-body">
-      <table class="data-table">
-        <thead><tr><th>Component</th><th>Gene</th><th>Key Features</th></tr></thead>
-        <tbody>
-          <tr><td>α subunit (×2)</td><td>HBA1, HBA2 (chr16)</td><td>141 residues; 7 α-helices (A–H); forms α₁β₁ and α₁β₂ interfaces</td></tr>
-          <tr><td>β subunit (×2)</td><td>HBB (chr11)</td><td>146 residues; critical T-state salt bridge: His146β to Asp94β; 2,3-BPG pocket between β subunits</td></tr>
-          <tr><td>Heme group (×4)</td><td>—</td><td>Protoporphyrin IX + Fe²⁺; O₂ binds Fe²⁺; proximal His (His87α/His92β) coordinates Fe</td></tr>
-          <tr><td>α₁β₁ interface</td><td>—</td><td>~35 contact residues; rigid; important for stability</td></tr>
-          <tr><td>α₁β₂ interface</td><td>—</td><td>"Switch region" — rotates 15° during T→R transition; allosteric communication pathway</td></tr>
-          <tr><td>2,3-BPG site</td><td>—</td><td>Central cavity between β subunits; positively charged (Val1, His2, Lys82, His143 of each β); stabilises T-state</td></tr>
-        </tbody>
-      </table>
-      <table class="data-table">
-        <thead><tr><th>Hemoglobin variant</th><th>Subunit composition</th><th>O₂ affinity vs HbA</th><th>Context</th></tr></thead>
-        <tbody>
-          <tr><td>HbA (adult)</td><td>α₂β₂</td><td>Reference (P50 ~26 mmHg)</td><td>Dominant adult form</td></tr>
-          <tr><td>HbA₂</td><td>α₂δ₂</td><td>Slightly higher</td><td>2–3% of adult Hb; elevated in β-thalassaemia trait</td></tr>
-          <tr><td>HbF (fetal)</td><td>α₂γ₂</td><td>Higher (P50 ~20 mmHg)</td><td>Dominant until 6 months; lower 2,3-BPG binding; reactivated by HU</td></tr>
-          <tr><td>HbS (sickle)</td><td>α₂β₂(Glu6Val)</td><td>Normal oxy; polymerises deoxy</td><td>Sickle cell disease; triggers HbS fibre formation under hypoxia</td></tr>
-          <tr><td>HbC</td><td>α₂β₂(Glu6Lys)</td><td>Slightly reduced</td><td>Milder haemolytic anaemia; protective vs P. falciparum</td></tr>
-          <tr><td>HbH</td><td>β₄</td><td>Non-cooperative (hyperbolic)</td><td>Three-gene α-thalassaemia deletion; Heinz body formation</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Mechanism — T↔R Cooperativity &amp; Bohr Effect</h2></div>
-    <div class="detail-body">
-      <p>Cooperative O₂ binding arises from the concerted (MWC) quaternary switch. The Bohr effect couples cellular CO₂/pH to O₂ release via protonation of His146β (and to a lesser extent His122α), which stabilises the T-state by forming a salt bridge to Asp94β. 2,3-BPG, produced by erythrocyte Rapoport-Luebering shunt, allosterically stabilises the T-state by bridging the two β subunits.</p>
-      <div class="pathway-block"><pre>
-  ┌──────────────────────────────────────────────────────────────────────┐
-  │              T ↔ R ALLOSTERY (MWC Concerted Model)                  │
-  │                                                                      │
-  │   T-state (deoxy)                  R-state (oxy)                    │
-  │   ─────────────────                ─────────────────                │
-  │   α1  β1                           α1  β1                           │
-  │    ╲  ╱  ← tight                    ╲  ╱  ← tight (α₁β₁)           │
-  │     \/  interface                    \/                              │
-  │     /\  (rigid)                      /\   interface                 │
-  │    ╱  ╲                             ╱  ╲   rotated ~15°             │
-  │   α2  β2                           α2  β2  (α₁β₂ switched)         │
-  │                                                                      │
-  │   • His146β–Asp94β salt bridge      • Salt bridges broken           │
-  │   • 2,3-BPG in central cavity       • 2,3-BPG expelled             │
-  │   • Low O₂ affinity (P50≈26 mmHg)  • High O₂ affinity (P50≈1 mmHg)│
-  │                                                                      │
-  │   Binding of first O₂ destabilises T-state → switch becomes        │
-  │   progressively easier (cooperativity, Hill n≈2.7)                 │
-  │                                                                      │
-  ├──────────────────────────────────────────────────────────────────────┤
-  │                       BOHR EFFECT                                    │
-  │                                                                      │
-  │  LUNGS (low CO₂, high O₂, pH 7.4)                                  │
-  │    CO₂ exhaled → ↓[H⁺] → His146β deprotonated                     │
-  │    → salt bridge to Asp94β BROKEN → T-state destabilised           │
-  │    → favours R-state → O₂ LOADING ↑↑                               │
-  │                                                                      │
-  │  TISSUES (high CO₂, high [H⁺], low O₂)                             │
-  │    CO₂ + H₂O → H₂CO₃ → HCO₃⁻ + H⁺  (carbonic anhydrase in RBC)  │
-  │    → His146β protonated → salt bridge to Asp94β FORMED             │
-  │    → T-state stabilised → O₂ RELEASE ↑↑                           │
-  │                                                                      │
-  │  CO₂ also binds α-amino groups as carbaminoHb → additional         │
-  │  T-state stabilisation; 15% of CO₂ transport via carbaminoHb       │
-  │                                                                      │
-  ├──────────────────────────────────────────────────────────────────────┤
-  │                    2,3-BPG MODULATION                                │
-  │                                                                      │
-  │  2,3-BPG synthesized by bisphosphoglycerate mutase                  │
-  │  in Rapoport-Luebering shunt (red cell glycolysis)                  │
-  │                                                                      │
-  │  [2,3-BPG] ↑ in:   altitude adaptation, anaemia, chronic hypoxia   │
-  │  [2,3-BPG] ↓ in:   stored blood (use fresh for massive transfusion)│
-  │                     HbF (γ-chain has Ser→no BPG pocket)            │
-  │                                                                      │
-  │  Effect: right-shifts ODC → lower O₂ affinity → more O₂ delivery  │
-  │                                                                      │
-  │  HbF (α₂γ₂): γ-Ser143 replaces β-His143 → no 2,3-BPG binding     │
-  │           → left-shifted ODC → extracts O₂ from maternal HbA      │
-  └──────────────────────────────────────────────────────────────────────┘</pre></div>
-      <ol class="step-list">
-        <li>Deoxy-Hb (T-state): all four heme irons are out-of-plane (domed toward proximal His); O₂ binding pulls Fe²⁺ into plane, moving the proximal His and the F-helix, triggering the T→R switch at the α₁β₂ interface.</li>
-        <li>R-state: C-terminal β residues freed; salt bridges broken; central cavity contracts, expelling 2,3-BPG; O₂ affinity increases ~100-fold.</li>
-        <li>Bohr protons (H⁺) from tissue CO₂ protonate His146β-COO⁻ → salt bridge stabilises T-state → right-shifts ODC → facilitates O₂ unloading at tissues.</li>
-        <li>In the lung, CO₂ is exhaled; alkaline pH deprotonates His146β; R-state favoured; O₂ binds to all four subunits at PO₂ ~100 mmHg → 97% saturation.</li>
-        <li>HbCO (carboxyHb): CO binds Fe²⁺ with 240× higher affinity than O₂; locks Hb in R-state with remaining O₂ sites but ODC left-shifted → no O₂ delivery — CO poisoning.</li>
-      </ol>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Physiological Roles</h2></div>
-    <div class="detail-body">
-      <table class="data-table">
-        <thead><tr><th>Function</th><th>Mechanism</th></tr></thead>
-        <tbody>
-          <tr><td>O₂ transport</td><td>97–99% of blood O₂; 1 g Hb binds 1.34 mL O₂ (Hüfner constant); 150 g Hb/L × 1.34 = ~200 mL O₂/L blood</td></tr>
-          <tr><td>CO₂ transport</td><td>~70% as HCO₃⁻ (via carbonic anhydrase in RBC); ~15% as carbaminoHb; ~10% dissolved plasma</td></tr>
-          <tr><td>Acid-base buffering</td><td>Histidine imidazoles (pKa ~6.5–7.0) act as major non-bicarbonate intracellular buffer in RBC (isohydric shift)</td></tr>
-          <tr><td>NO scavenging / SNO-Hb</td><td>β-Cys93 S-nitrosylation in R-state; SNO released in T-state; may vasodilate microcirculation matching O₂ delivery to demand</td></tr>
-          <tr><td>Altitude adaptation</td><td>Chronic hypoxia: HIF-1α → 2,3-BPG mutase upregulation → ↑2,3-BPG → right-shifted ODC → improved tissue O₂ release</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Pharmacology &amp; Clinical Use</h2></div>
-    <div class="detail-body">
-      <p><strong>Hydroxyurea (HU)</strong> — ribonucleotide reductase inhibitor; reactivates γ-globin expression via HbF induction (mechanism: nitric oxide-mediated soluble guanylate cyclase activation → HbF gene derepression); 3–5× ↑HbF → HbS polymer inhibition → reduces sickling crises. Standard of care for sickle cell disease.</p>
-      <p><strong>Voxelotor (Oxbryta)</strong> — allosteric Hb modifier; covalently modifies Val1α to maintain R-state, raising O₂ affinity; reduces HbS polymerisation. Trade-off: reduced O₂ unloading at tissues — used for haemolytic anaemia component of SCD.</p>
-      <p><strong>L-glutamine</strong> — reduces oxidative stress in SCD erythrocytes; modestly reduces vaso-occlusive crises.</p>
-      <p><strong>Gene therapy</strong> — betibeglogene (Zynteglo): lentiviral addition of functional β-globin in haematopoietic stem cells; approved for β-thalassaemia. Exa-cel (Casgevy): CRISPR-Cas9 disruption of BCL11A enhancer → HbF reactivation; first approved CRISPR therapy for SCD and β-thalassaemia.</p>
-      <p><strong>Transfusion</strong> — stored blood depletes 2,3-BPG within 1–2 weeks (ODC left-shift); clinical significance debated, but fresh blood preferred for massive transfusion. Leukodepleted packed RBCs for haemolytic and aplastic anaemia.</p>
-      <div class="principle-box"><strong>Clinical pearl:</strong> HbA1c reflects glycation of β-chain N-terminal Val1β by glucose over RBC lifespan (~120 days). HbA1c underestimates glycaemia in haemolytic anaemia, HbS, HbC (reduced RBC lifespan); overestimates in iron deficiency anaemia (↑young RBCs with long lifespan). Use fructosamine in haemolytic disorders.</div>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Pathology</h2></div>
-    <div class="detail-body">
-      <table class="data-table">
-        <thead><tr><th>Condition</th><th>Molecular Defect</th><th>Clinical Feature</th></tr></thead>
-        <tbody>
-          <tr><td>Sickle cell disease</td><td>HBB Glu6Val (HbS); deoxy-HbS polymerises → fibre → sickled RBC</td><td>Vaso-occlusive crises, stroke, ACS, haemolytic anaemia, autosplenectomy</td></tr>
-          <tr><td>β-Thalassaemia major</td><td>HBB mutations (splice, frameshift, nonsense) → absent/reduced β-globin</td><td>Severe transfusion-dependent anaemia; iron overload; splenomegaly</td></tr>
-          <tr><td>α-Thalassaemia</td><td>HBA1/HBA2 deletion; 4-gene deletion = Hb Barts (γ₄) → fatal hydrops fetalis</td><td>Silent carrier to Hb H disease (β₄) depending on gene number deleted</td></tr>
-          <tr><td>CO poisoning</td><td>CO binds Fe²⁺ with 240× affinity vs O₂; carboxyHb non-functional</td><td>Headache, confusion, seizure, death; treat with 100% O₂ (or hyperbaric O₂)</td></tr>
-          <tr><td>Methaemoglobinaemia</td><td>Fe²⁺ oxidised to Fe³⁺ (metHb); cannot bind O₂; cyanosis</td><td>Congenital (CYB5R3 mutation) or acquired (dapsone, nitrates, prilocaine); treat with methylene blue (reduces metHb via NADPH metHb reductase)</td></tr>
-          <tr><td>HbM variants</td><td>Proximal/distal His mutations stabilise Fe³⁺; autosomal dominant metHb</td><td>Lifelong cyanosis; not methylene-blue responsive (structural mutation)</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="detail-card">
-    <div class="detail-header"><h2>Connections</h2></div>
-    <div class="detail-body">
-      <p>Hemoglobin synthesis depends on erythropoietin (EPO/JAK2/STAT5 → reticulocytosis) and iron (transferrin → TFRC → ferritin storage; hepcidin regulates). 2,3-BPG is a glycolytic intermediate (connects to glucose metabolism). HbS polymerisation involves NO scavenging → vasoconstriction (connects to eNOS/NO pathway). HbA1c is the gold standard glycaemic index (connects to insulin/glucose). CO production from HO-1 catabolism of heme is a signalling molecule.</p>
-      <div class="conn-pills">
-        <a class="conn-pill" href="erythropoietin.html">EPO (drives erythropoiesis)</a>
-        <a class="conn-pill" href="nitric-oxide.html">Nitric oxide (SNO-Hb, vasoregulation)</a>
-        <a class="conn-pill" href="albumin.html">Albumin (plasma oncotic partner)</a>
-        <a class="conn-pill" href="fibrinogen.html">Fibrinogen (coagulation)</a>
-        <a class="conn-pill" href="cholesterol.html">Cholesterol (RBC membrane)</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <div class="detail-card">
-    <div class="detail-header"><h2>References</h2></div>
-    <div class="detail-body">
-      <ul class="refs">
-        <li>Perutz MF (1970). Stereochemistry of cooperative effects in haemoglobin. <em>Nature</em> 228:726–739.</li>
-        <li>Monod J, Wyman J, Changeux JP (1965). On the nature of allosteric transitions: a plausible model. <em>J Mol Biol</em> 12:88–118.</li>
-        <li>Rees DC, Williams TN, Gladwin MT (2010). Sickle-cell disease. <em>Lancet</em> 376:2018–2031.</li>
-        <li>Steinberg MH et al. (2008). Fetal hemoglobin in sickle cell anemia. <em>Blood</em> 112:4377–4383.</li>
-        <li>Frangoul H et al. (2021). CRISPR-Cas9 gene editing for sickle cell disease and β-thalassemia. <em>NEJM</em> 384:252–260.</li>
-        <li>Bellelli A, Brunori M (2011). Hemoglobin allostery: variations on the theme. <em>Biochim Biophys Acta</em> 1807:1262–1272.</li>
-        <li>Gladwin MT, Kim-Shapiro DB (2008). The functional nitrite reductase activity of the heme-globins. <em>Blood</em> 112:2636–2647.</li>
-      </ul>
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>Hemoglobin</h1>
+    <p class="tagline">α₂β₂ tetramer (~64.5 kDa) carrying 4 haem-Fe²⁺ groups; binds O₂ cooperatively (Hill n≈2.7) via T↔R allostery. Bohr effect and 2,3-BPG tune O₂ delivery. HbS mutation causes sickle-cell disease; thalassaemias disrupt chain synthesis.</p>
+    <p class="aliases">Also known as: Hb, haemoglobin, HbA, HbF, HbS, oxyhaemoglobin</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
-</main>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<footer>
-  <p>Atlas One · Human · Molecular · Hemoglobin</p>
-  <p style="margin-top:0.4rem;">
-    Open source · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
-    <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>
-  </p>
-  <p style="margin-top:0.4rem; font-size:0.75rem; color:#64748b;">
-    This page is co-maintained with AI assistance. Content is for educational purposes.
-    Always verify clinical information against primary sources. &copy; <span id="yr"></span>
-  </p>
-</footer>
-<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">hemoglobin</div>
+        <h2>Hemoglobin</h2>
+        <p class="summary">α₂β₂ tetramer (~64.5 kDa) carrying 4 haem-Fe²⁺ groups; binds O₂ cooperatively (Hill n≈2.7) via T↔R allostery. Bohr effect and 2,3-BPG tune O₂ delivery. HbS mutation causes sickle-cell disease; thalassaemias disrupt chain synthesis.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>hemoglobin</td></tr>
+            <tr><td>Name</td><td>Hemoglobin</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="erythrocyte.html" title="Haemoglobin occupies ~33% of RBC volume (~280 million molecules/cell); O₂ capacity = 1.34 mL O₂/g Hb × 150 g/L ≈ 200 mL O₂/L blood."><span class="rel">part-of</span>Erythrocyte</a>
+            <a class="conn-pill" href="alveolus.html" title="Hb O₂ saturation reaches ~98% at alveolar PO₂ ~100 mmHg (sigmoidal curve); alveolar gas exchange drives T→R transition, capturing O₂ for systemic delivery."><span class="rel">modulates</span>Alveolus</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Hb determines blood O₂ content; anaemia ↓ O₂ delivery → compensatory ↑ cardiac output; Hb also buffers pH (Bohr protonation) and carries CO₂ as carbamino-Hb."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill part" href="bone-marrow.html" title="Hb synthesis occurs in erythroid precursors (BFU-E → normoblasts → reticulocytes) in bone marrow; GATA-1/KLF1 drive globin gene expression during erythropoiesis."><span class="rel">part-of</span>Bone Marrow</a>
+            <a class="conn-pill" href="sickle-cell-disease.html" title="HbS (β-globin E6V; GAG→GTG) causes sickle cell disease via deoxygenated HbS polymerization → RBC sickling → haemolytic anaemia + vaso-occlusion; HbF (α2γ2) inhibits HbS polymerization; hydroxyurea ↑ HbF by 15-25% → reduces painful crises."><span class="rel">connects-to</span>Sickle Cell Disease</a>
+            <a class="conn-pill" href="transferrin.html" title="Transferrin (TF) delivers Fe³⁺ to erythroid precursors via TFR1-mediated endocytosis → haem synthesis → haemoglobin assembly; erythropoiesis accounts for ~80% of total body iron demand (~20 mg Fe/day); iron deficiency → microcytic hypochromic anaemia from insufficient haem."><span class="rel">connects-to</span>Transferrin</a>
+            <a class="conn-pill" href="thalassemia.html" title="Thalassaemias arise from imbalanced α/β-globin synthesis; β-thal major: excess α chains precipitate → ineffective erythropoiesis; α-thal (3-gene deletion): HbH (β₄) unstable tetramers; gene therapies (Zynteglo: lentiviral βA-T87Q; Casgevy: CRISPR BCL11A) are FDA-approved."><span class="rel">connects-to</span>Thalassemia</a>
+            <a class="conn-pill" href="g6pd.html" title="G6PD (chrXq28) is the sole NADPH source in RBCs; NADPH → glutathione → oxidant defense; G6PD deficiency → Heinz body haemolysis from denatured globin; G6PD A− and Mediterranean variants evolved as malaria protection alongside HbS and thalassaemia."><span class="rel">connects-to</span>G6Pd</a>
+            <a class="conn-pill" href="malaria.html" title="P. falciparum digests haemoglobin in food vacuole → haemozoin + free haem; HbAS confers ~60% protection via impaired parasite growth; HbF, HbC, and α-thalassaemia also protective; haemoglobin variants shape global Plasmodium mortality distribution."><span class="rel">connects-to</span>Malaria</a>
+            <a class="conn-pill" href="carbon.html" title="Globin chains are carbon-backbone polypeptides; ~23% of CO₂ transported as carbamino-Hb (CO₂ reacts at α-amino termini of globin chains); Haldane effect: deoxyHb binds CO₂ 3.5× more avidly than oxyHb, enabling efficient tissue CO₂ unloading."><span class="rel">connects-to</span>Carbon</a>
+            <a class="conn-pill" href="nitrogen.html" title="Four porphyrin ring nitrogens coordinate Fe²⁺; proximal His (F8) provides fifth axial N ligand; distal His (E7) H-bonds O₂; His146β imidazole accepts CO₂-driven proton → T-state stabilisation → O₂ release in peripheral tissues (Bohr effect)."><span class="rel">connects-to</span>Nitrogen</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

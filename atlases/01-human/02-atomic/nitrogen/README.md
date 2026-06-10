@@ -26,6 +26,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: part-of
     note: "Adenine contains 5 nitrogen atoms: N1, N3, N7, N9 (purine ring) and exocyclic amino N6. The ring nitrogens engage in hydrogen bonding with kinase active sites, essential for adenine recognition by ATP-binding proteins. N9 links adenine to ribose via the glycosidic bond."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: part-of
+    note: "Four porphyrin ring nitrogens coordinate Fe²⁺ in haem; proximal His87/92 (F8) provides fifth axial N ligand; distal His58/63 (E7) H-bonds O₂; His146β Bohr effect: CO₂-driven imidazole protonation stabilises T-state → O₂ release in tissues."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Colonic bacteria hydrolyse urea (urease-positive species) and ferment amino acids → ammonia and SCFAs; negative nitrogen balance in malnutrition impairs gut mucosal renewal; dietary protein nitrogen drives microbiome composition and diversity."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "iNOS in activated macrophages and neutrophils produces sustained high-level NO for pathogen killing; reactive nitrogen species (ONOO⁻ from NO + O₂⁻; N₂O₃) damage bacterial membranes and DNA; iNOS expression requires LPS + IFN-γ via NF-κB/STAT1."
 ---
 
 # Nitrogen
@@ -138,9 +147,11 @@ De novo purine synthesis (10 steps) assembles the purine ring using glycine (C2,
 
 ## Connections
 
-- **Part-of** → [Human Body](../../08-whole-body/human-body/README.md): Nitrogen is ~3% of body mass. Every gram of protein in the body contains ~0.16 g of nitrogen; total body protein (~11 kg) contains ~1.76 kg of nitrogen. Nucleic acids, creatine, urea, and numerous metabolites account for the remainder.
-
-- **Part-of** → [ATP](../../03-molecular/atp/README.md): The adenine purine base of ATP contains 5 nitrogen atoms essential for its recognition by ATP-binding kinases, the ribosome, and all other ATP-utilising enzymes. Without the specific hydrogen-bonding geometry provided by adenine's nitrogen atoms, the universal currency of cellular energy exchange would be impossible.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — Nitrogen is ~3% of body mass (~2.1 kg in a 70 kg adult); every protein contains ~16% N; nucleic acids, creatine, urea, and porphyrins account for the remainder.
+- `part-of` → **[ATP](../../03-molecular/atp/README.md)** — Adenine's 5 nitrogen atoms (N1, N3, N7, N9 in the purine ring; exocyclic N6) provide the hydrogen-bonding geometry essential for recognition by all ATP-binding kinases, the ribosome, and every ATP-utilising enzyme.
+- `part-of` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Four porphyrin ring nitrogens coordinate Fe²⁺ in haem; proximal His (F8) provides fifth axial N ligand; distal His (E7) H-bonds O₂; His146β imidazole drives the Bohr effect (CO₂ → T-state → O₂ release in tissues).
+- `connects-to` → **[Gut Microbiome](../../07-system/gut-microbiome/README.md)** — Colonic bacteria hydrolyse urea and ferment amino acids → ammonia and SCFAs; negative nitrogen balance impairs gut mucosal renewal; dietary protein nitrogen is the primary driver of microbiome composition.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — iNOS in activated neutrophils and macrophages produces sustained high-level NO for pathogen killing; ONOO⁻ (NO + O₂⁻) and N₂O₃ damage bacterial membranes and DNA; iNOS induction requires LPS + IFN-γ via NF-κB/STAT1.
 
 ## Pathology
 
@@ -166,3 +177,5 @@ De novo purine synthesis (10 steps) assembles the purine ring using glycine (C2,
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell.* 7th ed. W.W. Norton; 2022. [ncbi.nlm.nih.gov/books/NBK26880](https://www.ncbi.nlm.nih.gov/books/NBK26880/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
