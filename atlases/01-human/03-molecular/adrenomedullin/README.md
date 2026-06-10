@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/bnp
     relation: connects-to
     note: "ADM and BNP are both endothelial/myocardial stress peptides upregulated in sepsis, heart failure, and cardiogenic shock; MR-proADM captures endothelial dysfunction (vascular compartment) while NT-proBNP reflects myocardial wall stress — complementary biomarkers."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Vascular endothelial cells are the dominant systemic ADM source; HIF-1α, TNF-α, IL-1β, and shear stress drive endothelial ADM transcription; CLR/RAMP2 on endothelium → Epac1→Rac1→VE-cadherin stabilization → barrier protection; endothelial ADM limits capillary leak in sepsis."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pulmonary endothelium is the major ADM-producing organ; ADM reduces pulmonary vascular resistance → studied in pulmonary arterial hypertension; ADM markedly elevated in ARDS and COVID-19; anti-ADM antibody (adrecizumab) reduces lung permeability in preclinical sepsis models."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "ADM elevated 5-20× in ARDS and COVID-19; endothelial barrier protection (CLR/RAMP2→Rac1→VE-cadherin) may limit alveolar exudate; anti-ADM (adrecizumab/HAM8101) in COVID-19 ARDS phase 2 trials; MR-proADM >2 nmol/L at ARDS onset predicts 28-day mortality."
 sources:
   - id: kitamura-1993-adrenomedullin
     type: peer-reviewed
@@ -129,13 +138,17 @@ In sepsis, TNF-α and IL-1β massively upregulate ADM in endothelial cells → s
 
 ## Connections
 
-ADM rises dramatically in sepsis proportional to severity; vasodilation (CLR/RAMP2 → cAMP → vasodilation) contributes to distributive shock; MR-proADM predicts 28-day mortality with AUC >0.80 and guides antibiotic de-escalation in the ADAPT-sepsis trial.
-
-ADM is elevated in HF proportional to NYHA class and correlates with pulmonary artery pressure; exogenous ADM infusion reduces PVR and SVR in acute decompensated HF; MR-proADM independently predicts HF mortality beyond NT-proBNP.
-
-ADM → CLR/RAMP2 → Gs → cAMP → PKA → eNOS Ser1177 phosphorylation → NO production; NO mediates the vasodilatory arm of ADM signaling; endothelial NO also mediates ADM-induced vascular barrier protection via Rac1 → VE-cadherin stabilization.
-
-ADM and BNP are both endothelial/myocardial stress peptides upregulated in sepsis, heart failure, and cardiogenic shock; MR-proADM captures endothelial dysfunction (vascular compartment) while NT-proBNP reflects myocardial wall stress — complementary biomarkers.
+- `connects-to` → **[Sepsis](../../07-system/sepsis/README.md)** — ADM rises dramatically in sepsis proportional to severity; vasodilation (CLR/RAMP2 → cAMP) contributes to distributive shock; MR-proADM predicts 28-day mortality (AUC >0.80) and guides antibiotic de-escalation in the ADAPT-sepsis trial.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — ADM elevated in HF proportional to NYHA class and pulmonary artery pressure; exogenous ADM infusion reduces PVR and SVR in acute decompensated HF; MR-proADM independently predicts HF mortality beyond NT-proBNP.
+- `connects-to` → **[Nitric Oxide](../nitric-oxide/README.md)** — ADM → CLR/RAMP2 → Gs → cAMP → PKA → eNOS Ser1177 phosphorylation → NO production; NO mediates vasodilation; endothelial NO also drives ADM-induced barrier protection via Rac1 → VE-cadherin stabilization.
+- `connects-to` → **[BNP](../bnp/README.md)** — ADM and BNP are both upregulated in sepsis, heart failure, and cardiogenic shock; MR-proADM captures endothelial/vascular dysfunction while NT-proBNP reflects myocardial wall stress — complementary biomarkers with additive prognostic value.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — vascular endothelial cells are the dominant systemic ADM source; HIF-1α, TNF-α, IL-1β, and shear stress drive endothelial ADM transcription; CLR/RAMP2 → Epac1→Rac1→VE-cadherin stabilization → barrier protection limiting capillary leak in sepsis.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — pulmonary endothelium is the major ADM-producing organ; ADM reduces pulmonary vascular resistance → studied in pulmonary arterial hypertension; markedly elevated in ARDS and COVID-19; anti-ADM antibody (adrecizumab) reduces lung permeability in preclinical sepsis models.
+- `connects-to` → **[ARDS](../../06-organ/ards/README.md)** — ADM elevated 5-20× in ARDS and COVID-19; endothelial barrier protection (CLR/RAMP2→Rac1→VE-cadherin) may limit alveolar exudate; anti-ADM (adrecizumab/HAM8101) studied in COVID-19 ARDS phase 2 trials; MR-proADM >2 nmol/L at ARDS onset predicts 28-day mortality.
 
 [^kitamura-1993-adrenomedullin]: Kitamura K, Kangawa K, Kawamoto M, et al. Adrenomedullin: a novel hypotensive peptide isolated from human pheochromocytoma. *Biochem Biophys Res Commun.* 1993;192(2):553-560. [doi:10.1006/bbrc.1993.1451](https://doi.org/10.1006/bbrc.1993.1451) · [PubMed 8387282](https://pubmed.ncbi.nlm.nih.gov/8387282/)
 [^schuetz-2011-mradm-sepsis]: Schuetz P, Wolbers M, Christ-Crain M, et al. Prohormones for prediction of adverse medical outcome in community-acquired pneumonia and lower respiratory tract infections. *Crit Care.* 2010;14(3):R106. [doi:10.1186/cc9055](https://doi.org/10.1186/cc9055) · [PubMed 20529248](https://pubmed.ncbi.nlm.nih.gov/20529248/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

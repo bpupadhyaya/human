@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: modulates
     note: "Zona fasciculata is the sole source of cortisol; ACTH→MC2R→cAMP→PKA→StAR→CYP11A1→CYP17A1→CYP11B1 pathway; cortisol circadian peak at 8am; negative feedback via GR in hypothalamus and anterior pituitary."
+  - target: 01-human/06-organ/kidney
+    relation: modulates
+    note: "Aldosterone targets ENaC/ROMK/Na-K-ATPase in cortical collecting duct → Na⁺ reabsorption and K⁺ secretion; adrenal insufficiency → hyponatraemia and hyperkalaemia; adrenal venous sampling lateralises aldosterone-producing adenoma vs. bilateral hyperplasia before surgery."
+  - target: 01-human/03-molecular/aldosterone
+    relation: modulates
+    note: "Zona glomerulosa is the sole adrenal source of aldosterone; angiotensin II (AT1R) and ↑K⁺ activate CYP11B2 → aldosterone synthesis; primary hyperaldosteronism (Conn syndrome): autonomous aldosterone → hypertension + hypokalaemia + ↓renin; spironolactone and eplerenone block MR."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Relative adrenal insufficiency (CIRCI) in severe sepsis → cortisol fails to rise → vasopressor dependence; hydrocortisone 200 mg/day reduces vasopressor duration (Annane 2002; APROCCHSS); adrenal haemorrhage (Waterhouse-Friderichsen syndrome) in meningococcal sepsis."
 ---
 
 # Adrenal Gland
@@ -158,6 +167,9 @@ DHEA and DHEAS are the most abundant circulating steroids by concentration in hu
 - **Modulates:** [Cardiovascular System](../../07-system/cardiovascular-system/README.md) — adrenal catecholamines (Epi/NE) drive the acute cardiovascular stress response: ↑HR (β₁), ↑contractility (β₁), vasoconstriction (α₁); aldosterone increases Na⁺ reabsorption → ↑blood volume → ↑BP; excess produces hypertension (phaeochromocytoma, Conn syndrome).
 - **Modulates:** [Immune System](../../07-system/immune-system/README.md) — cortisol is the primary endogenous immunosuppressant: blocks NF-κB, reduces pro-inflammatory cytokines (IL-1β, IL-6, TNF-α), decreases arachidonic acid release via annexin-1, inhibits T cell proliferation, and redistributes lymphocytes from blood to tissues.
 - **Modulates:** [Cortisol](../../03-molecular/cortisol/README.md) — the zona fasciculata is the sole source of circulating cortisol; ACTH→MC2R→cAMP→PKA→StAR→CYP11A1→CYP17A1→CYP11B1 enzymatic cascade; circadian peak at 8 am; negative feedback via glucocorticoid receptor in hypothalamus and anterior pituitary.
+- **Modulates:** [Kidney](../kidney/README.md) — aldosterone targets ENaC/ROMK/Na-K-ATPase in cortical collecting duct → Na⁺ reabsorption and K⁺ secretion; adrenal insufficiency causes hyponatraemia and hyperkalaemia; adrenal venous sampling lateralises aldosterone-producing adenoma before adrenalectomy.
+- **Modulates:** [Aldosterone](../../03-molecular/aldosterone/README.md) — zona glomerulosa is the sole adrenal source of aldosterone; angiotensin II (AT1R) and hyperkalaemia activate CYP11B2 → aldosterone synthesis; Conn syndrome: autonomous aldosterone → hypertension + hypokalaemia + suppressed renin; treated with spironolactone or eplerenone.
+- **Connects to:** [Sepsis](../../07-system/sepsis/README.md) — relative adrenal insufficiency (CIRCI) in severe sepsis causes cortisol to fail to rise proportionally → vasopressor dependence; hydrocortisone 200 mg/day reduces vasopressor duration (Annane 2002; APROCCHSS); adrenal haemorrhage (Waterhouse-Friderichsen syndrome) occurs in meningococcal sepsis.
 
 ## Pathology
 
@@ -228,3 +240,7 @@ Autosomal recessive enzyme defects in adrenal steroidogenesis → ↓cortisol �
 
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021.
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
