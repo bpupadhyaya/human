@@ -33,6 +33,9 @@ cross_links:
   - target: 01-human/04-cellular/sa-node-cell
     relation: composed-of
     note: "SA node cells (automaticity cells) are the cellular component of the sinoatrial node, the dominant pacemaker site within the conduction system."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Purkinje fibers run through the subendocardial layer — the inner connective tissue zone of the endocardium; Purkinje cells deliver the cardiac impulse to working cardiomyocytes; endocardium is the anatomical housing of the distal conduction network."
 ---
 
 # Cardiac conduction system
@@ -119,6 +122,7 @@ When the SA node fires at 75 bpm, it constantly overrides the AV node (45–60 b
 
 - **Part-of** → [Heart](../../06-organ/heart/README.md): The conduction system is the heart's electrical infrastructure; its dysfunction is responsible for a large fraction of cardiac arrhythmias and sudden cardiac death.
 - **Composed-of** → [SA node cell](../../04-cellular/sa-node-cell/README.md): Automaticity cells generate the primary impulse; different cell types populate each conduction system segment.
+- `connects-to` → **[Endocardium](../endocardium/README.md)** — Purkinje fibers run through the subendocardial layer — the inner connective tissue zone of the endocardium; Purkinje cells deliver the cardiac impulse to working cardiomyocytes; endocardium is the anatomical housing of the distal conduction network.
 
 ## Pathology
 
@@ -148,3 +152,7 @@ When the SA node fires at 75 bpm, it constantly overrides the AV node (45–60 b
 [^dobrzynski-2007-sa-node-pacemaking]: Dobrzynski H, Boyett MR, Anderson RH. New insights into pacemaker activity. *Circulation.* 2007;115(14):1921-32. [doi:10.1161/CIRCULATIONAHA.106.616011](https://doi.org/10.1161/CIRCULATIONAHA.106.616011) · [PubMed 17420362](https://pubmed.ncbi.nlm.nih.gov/17420362/)
 [^openstax-anatomy-19-2]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.2: Cardiac Muscle and Electrical Activity. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity)
 [^bers-2002-cardiac-ec-coupling]: Bers DM. Cardiac excitation-contraction coupling. *Nature.* 2002;415(6868):198-205. [doi:10.1038/415198a](https://doi.org/10.1038/415198a) · [PubMed 11805843](https://pubmed.ncbi.nlm.nih.gov/11805843/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

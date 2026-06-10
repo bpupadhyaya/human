@@ -24,6 +24,9 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "ET-1 is elevated in PAH; ETA on pulmonary VSM → vasoconstriction and medial hypertrophy → elevated PVR; ERAs (bosentan, ambrisentan, macitentan) are first-line oral PAH therapy; macitentan (SERAPHIN trial) reduced PAH morbidity/mortality by 45%."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Endocardial ECs secrete ET-1 in response to shear stress, thrombin, and hypoxia → ETA/ETB on cardiomyocytes → positive inotropy and coronary vasoconstriction; ET-1 promotes cardiac hypertrophy; endotheliins amplify myocardial remodeling in heart failure."
 sources:
   - id: yanagisawa-1988-endothelin
     type: peer-reviewed
@@ -142,6 +145,11 @@ ET-1 and NO are opposing endothelial regulators: ET-1 (ETA) → vasoconstriction
 ET-1 → ETA on mesangial cells and podocytes → glomerular hypertension and proteinuria; elevated urinary ET-1 predicts CKD progression; sparsentan (dual ERA + angiotensin receptor blocker) reduced proteinuria in IgA nephropathy (PROTECT trial Phase 3).
 
 ET-1 is elevated in PAH; ETA on pulmonary VSM → vasoconstriction and medial hypertrophy → elevated PVR; ERAs (bosentan, ambrisentan, macitentan) are first-line oral PAH therapy; macitentan (SERAPHIN trial) reduced PAH morbidity/mortality by 45%.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Endocardial ECs secrete ET-1 in response to shear stress, thrombin, and hypoxia → ETA/ETB on cardiomyocytes → positive inotropy and coronary vasoconstriction; ET-1 promotes cardiac hypertrophy; endotheliins amplify myocardial remodeling in heart failure.
 
 [^yanagisawa-1988-endothelin]: Yanagisawa M, Kurihara H, Kimura S, et al. A novel potent vasoconstrictor peptide produced by vascular endothelial cells. *Nature.* 1988;332(6163):411-415. [doi:10.1038/332411a0](https://doi.org/10.1038/332411a0) · [PubMed 2451132](https://pubmed.ncbi.nlm.nih.gov/2451132/)
 [^galie-2019-pah-guidelines]: Galie N, Channick RN, Frantz RP, et al. Risk stratification and medical therapy of pulmonary arterial hypertension. *Eur Respir J.* 2019;53(1):1801889. [doi:10.1183/13993003.01889-2018](https://doi.org/10.1183/13993003.01889-2018) · [PubMed 30545974](https://pubmed.ncbi.nlm.nih.gov/30545974/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

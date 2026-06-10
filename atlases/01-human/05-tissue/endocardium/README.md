@@ -24,6 +24,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: part-of
     note: "The endocardium is the innermost wall layer of the heart, lining all four chambers and the valve leaflets."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Endocardial endothelium sits directly above the subendocardial layer and myocardium; paracrine mediators (NO, ET-1, NRG-1) cross the short distance to regulate cardiomyocyte contractility and lusitropy; endocardial injury (eosinophils, inflammation) → myocardial dysfunction."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: contains
+    note: "Purkinje fibers run through the subendocardial layer — the inner connective tissue zone of the endocardium; Purkinje cells deliver the cardiac impulse to working cardiomyocytes; endocardium is the anatomical housing of the distal conduction network."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Endocardial ECs secrete ET-1 in response to shear stress, thrombin, and hypoxia → ETA/ETB on cardiomyocytes → positive inotropy and coronary vasoconstriction; ET-1 promotes cardiac hypertrophy; endotheliins amplify myocardial remodeling in heart failure."
 ---
 
 # Endocardium
@@ -86,9 +95,10 @@ During cardiac development, specialized regions of the endocardium undergo **end
 
 ## Connections
 
-- **Part-of** → [Heart](../../06-organ/heart/README.md): The endocardium is the innermost layer of the heart wall, continuous across all four chambers and all valve surfaces.
-- **Overlies** → [Myocardium](../myocardium/README.md): Endocardial endothelium sits directly above the subendocardial connective tissue and then the working myocardium, with paracrine cross-talk in both directions.
-- **Contains (subendocardium)** → [Cardiac Conduction System](../cardiac-conduction-system/README.md): Purkinje fibers run in the subendocardial layer and represent the distal delivery system for the cardiac impulse.
+- `part-of` → **[Heart](../../06-organ/heart/README.md)** — The endocardium is the innermost layer of the heart wall, continuous across all four chambers and all valve surfaces.
+- `connects-to` → **[Myocardium](../myocardium/README.md)** — Endocardial endothelium sits directly above the subendocardial layer and myocardium; paracrine mediators (NO, ET-1, NRG-1) cross the short distance to regulate cardiomyocyte contractility and lusitropy; endocardial injury (eosinophils, inflammation) → myocardial dysfunction.
+- `contains` → **[Cardiac Conduction System](../cardiac-conduction-system/README.md)** — Purkinje fibers run through the subendocardial layer — the inner connective tissue zone of the endocardium; Purkinje cells deliver the cardiac impulse to working cardiomyocytes; endocardium is the anatomical housing of the distal conduction network.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endocardial ECs secrete ET-1 in response to shear stress, thrombin, and hypoxia → ETA/ETB on cardiomyocytes → positive inotropy and coronary vasoconstriction; ET-1 promotes cardiac hypertrophy; endotheliins amplify myocardial remodeling in heart failure.
 
 ## Pathology
 
@@ -113,3 +123,7 @@ During cardiac development, specialized regions of the endocardium undergo **end
 
 [^brutsaert-2003-endocardial-endothelium]: Brutsaert DL. Cardiac endothelial-myocardial signaling. *Physiol Rev.* 2003;83(1):59-115. [doi:10.1152/physrev.00017.2002](https://doi.org/10.1152/physrev.00017.2002) · [PubMed 12506127](https://pubmed.ncbi.nlm.nih.gov/12506127/)
 [^openstax-anatomy-19-1]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.1: Heart Anatomy. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

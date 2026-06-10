@@ -49,6 +49,9 @@ cross_links:
   - target: 01-human/03-molecular/ncx1
     relation: connects-to
     note: "NCX1 is densely expressed in myocardial T-tubules and sarcolemma; NCX1/SERCA2a ratio determines Ca²⁺ removal balance; transient inward INCX (Iti) during Ca²⁺ sparks → delayed afterdepolarizations → triggered arrhythmias; NCX1 drives ischemia-reperfusion Ca²⁺ overload injury."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Endocardial endothelium sits directly above the subendocardial layer and myocardium; paracrine mediators (NO, ET-1, NRG-1) cross the short distance to regulate cardiomyocyte contractility and lusitropy; endocardial injury (eosinophils, inflammation) → myocardial dysfunction."
 taxonomy:
   uberon: "UBERON:0002349"
   fma: "FMA:9462"
@@ -130,6 +133,7 @@ Adult human cardiomyocytes turn over at roughly **~1 %/year in early adulthood, 
 - **Sideways (extracellular):** type I and type III collagen, fibronectin, and laminins — molecular-scale entries that operate at the tissue scale (entries to come).
 - **Cross-atlas (planned in Phase 3):** the myocardium is the tissue-scale victim of **myocarditis** — inflammation triggered by viral infection (e.g., Coxsackievirus B), autoimmune mechanisms, or toxic exposures.
 - `connects-to` → **[NCX1](../../03-molecular/ncx1/README.md)** — NCX1 is densely expressed in myocardial T-tubules and sarcolemma; NCX1/SERCA2a ratio determines Ca²⁺ removal balance; transient inward INCX (Iti) during Ca²⁺ sparks → delayed afterdepolarizations → triggered arrhythmias; NCX1 drives ischemia-reperfusion Ca²⁺ overload injury.
+- `connects-to` → **[Endocardium](../endocardium/README.md)** — Endocardial endothelium sits directly above the subendocardial layer and myocardium; paracrine mediators (NO, ET-1, NRG-1) cross the short distance to regulate cardiomyocyte contractility and lusitropy; endocardial injury (eosinophils, inflammation) → myocardial dysfunction.
 
 ## Pathology
 
