@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "mTOR hyperactivation in Alzheimer disease impairs autophagy → Aβ and tau accumulation; rapamycin reduces amyloid burden in APP mouse models; mTOR is activated by Aβ oligomers via PI3K/Akt → positive feedback loop amplifying Aβ pathology."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Microglia are the primary Aβ-clearing cells in the brain; oligomeric Aβ activates microglial NLRP3 and TREM2 signaling → IL-1β/IL-18 + phagocytosis; APOE4 impairs microglial Aβ clearance; microglial dysfunction is an early and central event in amyloid-driven neurodegeneration."
+  - target: 01-human/03-molecular/mapt
+    relation: connects-to
+    note: "Aβ oligomers activate CDK5 and GSK-3β → tau hyperphosphorylation → NFT formation; Aβ and tau synergize — each amplifies the other pathology; tau is the downstream executor of Aβ-mediated neurotoxicity; combination amyloid+tau immunotherapy is an active therapeutic strategy."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Soluble Aβ oligomers are selectively synaptotoxic: bind PrPC-mGluR5 → Fyn kinase → NMDAR excitotoxicity; inhibit LTP and reduce vesicle release; early AD manifests as synaptic dysfunction before plaques; synapse density predicts cognitive decline better than amyloid plaque count."
 sources:
   - id: hardy-2002-amyloid-hypothesis
     type: peer-reviewed
@@ -112,13 +121,17 @@ APP has been implicated in **synaptogenesis, synaptic plasticity, neurite outgro
 
 ## Connections
 
-APP FAD mutations (V717I, Swedish K670N/M671L) and trisomy 21 increase Aβ42 via β/γ-secretase cleavage; Aβ42 oligomers are synaptotoxic and seed amyloid plaques; lecanemab (anti-Aβ protofibrils) slows cognitive decline 27% in MCI and mild AD.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — APP FAD mutations (V717I, Swedish K670N/M671L) and trisomy 21 increase Aβ42 via β/γ-secretase cleavage; Aβ42 oligomers are synaptotoxic and seed amyloid plaques; lecanemab (anti-Aβ protofibrils) slows cognitive decline 27% in MCI and mild AD.
+- `connects-to` → **[APOE](../apoe/README.md)** — APOE4 impairs Aβ clearance from brain parenchyma via LRP1-mediated transport and microglial phagocytosis; APOE4 binds Aβ oligomers and promotes their aggregation; APOE4 homozygotes develop amyloid pathology ~10 years earlier than APOE3 carriers.
+- `connects-to` → **[NLRP3 Inflammasome](../nlrp3-inflammasome/README.md)** — Aβ oligomers and amyloid fibrils activate the NLRP3 inflammasome in microglia → IL-1β and IL-18 → neuroinflammation; cholesterol crystals from lipid-laden plaques also activate NLRP3; IL-1β blockade reduces amyloid burden in mouse models of AD.
+- `connects-to` → **[mTOR](../mtor/README.md)** — mTOR hyperactivation in Alzheimer disease impairs autophagy → Aβ and tau accumulation; rapamycin reduces amyloid burden in APP mouse models; mTOR is activated by Aβ oligomers via PI3K/Akt → positive feedback loop amplifying Aβ pathology.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — microglia are the primary Aβ-clearing cells in the brain; oligomeric Aβ activates microglial NLRP3 and TREM2 signaling → IL-1β/IL-18 + phagocytosis; APOE4 impairs microglial Aβ clearance; microglial dysfunction is an early and central event in amyloid-driven neurodegeneration.
+- `connects-to` → **[MAPT/Tau](../mapt/README.md)** — Aβ oligomers activate CDK5 and GSK-3β → tau hyperphosphorylation → NFT formation; Aβ and tau synergize — each amplifies the other pathology; tau is the downstream executor of Aβ-mediated neurotoxicity; combination amyloid+tau immunotherapy is an active therapeutic strategy.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — soluble Aβ oligomers are selectively synaptotoxic: bind PrPC-mGluR5 → Fyn kinase → NMDAR excitotoxicity; inhibit LTP and reduce vesicle release; early AD manifests as synaptic dysfunction before plaques; synapse density predicts cognitive decline better than amyloid plaque count.
 
-APOE4 impairs Aβ clearance from brain parenchyma via LRP1-mediated transport and microglial phagocytosis; APOE4 binds Aβ oligomers and promotes their aggregation; APOE4 homozygotes develop amyloid pathology ~10 years earlier than APOE3 carriers.
+---
 
-Aβ oligomers and amyloid fibrils activate the NLRP3 inflammasome in microglia → IL-1β and IL-18 → neuroinflammation; cholesterol crystals from lipid-laden plaques also activate NLRP3; IL-1β blockade reduces amyloid burden in mouse models of AD.
-
-mTOR hyperactivation in Alzheimer disease impairs autophagy → Aβ and tau accumulation; rapamycin reduces amyloid burden in APP mouse models; mTOR is activated by Aβ oligomers via PI3K/Akt → positive feedback loop amplifying Aβ pathology.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^hardy-2002-amyloid-hypothesis]: Hardy J, Selkoe DJ. The amyloid hypothesis of Alzheimer's disease: progress and problems on the road to therapeutics. *Science.* 2002;297(5580):353-356. [doi:10.1126/science.1072994](https://doi.org/10.1126/science.1072994) · [PubMed 12130773](https://pubmed.ncbi.nlm.nih.gov/12130773/)
 [^vandyck-2023-lecanemab]: van Dyck CH, Swanson CJ, Aisen P, et al. Lecanemab in early Alzheimer's disease. *N Engl J Med.* 2023;388(1):9-21. [doi:10.1056/NEJMoa2212948](https://doi.org/10.1056/NEJMoa2212948) · [PubMed 36449413](https://pubmed.ncbi.nlm.nih.gov/36449413/)

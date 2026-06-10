@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 promotes plasmablast differentiation → AQP4-IgG production in NMOSD; satralizumab (anti-IL-6R; FDA Aug 2020) reduces AQP4-IgG titers and prevents CNS attacks; IL-6 also drives Th17 differentiation, amplifying neuroinflammation."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "AQP4 is concentrated in astrocyte endfeet at the BBB and glia limitans; AQP4-IgG binds M23-AQP4 OAPs on astrocyte endfeet → complement MAC → astrocyte lysis → secondary demyelination; astrocyte loss in NMOSD lesions is the primary pathological event distinguishing NMOSD from MS."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "AQP4-IgG is produced by plasmablasts and plasma cells; rituximab (anti-CD20) reduces ARR ~75-80% as NMOSD maintenance therapy; inebilizumab (anti-CD19; HORIZON trial: 74% ARR reduction; FDA Jun 2020) depletes both B cells and plasmablasts."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Optic neuritis is a cardinal NMOSD manifestation; AQP4 is expressed on Müller cells and optic nerve astrocytes; AQP4-IgG → longitudinally extensive optic neuritis (often bilateral) → severe permanent vision loss; NMOSD optic neuritis is more destructive than MS optic neuritis."
 ---
 
 # Aquaporin-4
@@ -134,6 +143,9 @@ AQP4-IgG (predominantly IgG1 in AQP4+ NMOSD) targets extracellular domains of AQ
 - `connects-to` → **[Complement C5](../complement-c5/README.md)** — AQP4-IgG activates classical complement → C5 → C5a (chemoattractant) + C5b → MAC → astrocyte lysis; eculizumab (PREVENT: ARR 0.02 vs 0.35; FDA Jun 2019) and ravulizumab (CHAMPION-NMOSD; FDA Jun 2023) block C5 to halt attacks.
 - `part-of` → **[Brain](../../06-organ/brain/README.md)** — AQP4 is the dominant water channel in CNS astrocyte endfeet at the blood-brain barrier; regulates brain water homeostasis and interstitial fluid pressure; high-density OAP expression at perivascular endfeet explains the perivascular location of NMOSD lesions.
 - `connects-to` → **[IL-6](../il-6/README.md)** — IL-6 promotes plasmablast differentiation → AQP4-IgG production in NMOSD; satralizumab (anti-IL-6R; FDA Aug 2020) reduces AQP4-IgG titers and prevents CNS attacks; IL-6 also drives Th17 differentiation, amplifying neuroinflammation.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — AQP4 is concentrated in astrocyte endfeet at the BBB and glia limitans; AQP4-IgG binds M23-AQP4 OAPs on astrocyte endfeet → complement MAC → astrocyte lysis → secondary demyelination; astrocyte loss in NMOSD lesions is the primary pathological event distinguishing NMOSD from MS.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — AQP4-IgG is produced by plasmablasts and plasma cells; rituximab (anti-CD20) reduces ARR ~75-80% as NMOSD maintenance therapy; inebilizumab (anti-CD19; HORIZON trial: 74% ARR reduction; FDA Jun 2020) depletes both B cells and plasmablasts.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — optic neuritis is a cardinal NMOSD manifestation; AQP4 is expressed on Müller cells and optic nerve astrocytes; AQP4-IgG → longitudinally extensive optic neuritis (often bilateral) → severe permanent vision loss; NMOSD optic neuritis is more destructive than MS optic neuritis.
 
 [^lennon-2004-aqp4-antibody-nmo]: Lennon VA, Wingerchuk DM, Kryzer TJ, et al. A serum autoantibody marker of neuromyelitis optica: distinction from multiple sclerosis. *Lancet.* 2004;364(9451):2106-2112. [doi:10.1016/S0140-6736(04)17551-X](https://doi.org/10.1016/S0140-6736(04)17551-X) · [PubMed 15589308](https://pubmed.ncbi.nlm.nih.gov/15589308/)
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
@@ -141,4 +153,5 @@ AQP4-IgG (predominantly IgG1 in AQP4+ NMOSD) targets extracellular domains of AQ
 [^verkman-2013-aqp4-review]: Verkman AS, Phuan PW, Asavapanumas N, Tradtrantip L. Biology of AQP4 and anti-AQP4 antibody: therapeutic implications for NMO. *Brain Pathol.* 2013;23(6):684-695. [doi:10.1111/bpa.12085](https://doi.org/10.1111/bpa.12085) · [PubMed 24118858](https://pubmed.ncbi.nlm.nih.gov/24118858/)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
