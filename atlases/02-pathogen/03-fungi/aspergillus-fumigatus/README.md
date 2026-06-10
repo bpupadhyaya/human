@@ -31,6 +31,12 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: damages
     note: "A. fumigatus impairs dendritic cell maturation and IL-12 production, skewing toward a tolerogenic response. Gliotoxin directly suppresses DC function by inhibiting NF-κB, blocking costimulatory molecule upregulation (CD80, CD86) and impairing T-cell priming — a key immune evasion mechanism in invasive aspergillosis."
+  - target: 01-human/06-organ/lung
+    relation: damages
+    note: "A. fumigatus is the dominant mould pathogen of the lung; conidia germinate to hyphae in neutropenic hosts within 6-12h; angioinvasion → thrombosis and haemorrhagic infarction; CT halo sign (early) and air-crescent sign (recovery); IPA mortality 40-90%."
+  - target: 01-human/05-tissue/alveolus
+    relation: damages
+    note: "Conidia (2-3 µm) deposit in terminal alveoli due to aerodynamic size; alveolar macrophages phagocytose via Dectin-1 within 4-8h in immunocompetent hosts; in neutropenic hosts, RodA hydrophobin shields conidia from Dectin-1 → germination → hyphal invasion of alveolar walls."
 ---
 
 # Aspergillus fumigatus
@@ -147,11 +153,11 @@ In immunocompetent hosts, adaptive immunity is important for long-term control:
 
 ## Connections
 
-**Infects** → [Immune system](../../../01-human/07-system/immune-system/README.md): *A. fumigatus* is an archetypical opportunistic pathogen — virtually harmless to intact immune systems, lethal when neutrophil or macrophage function is compromised. The conidia actively suppress DC maturation via gliotoxin, preventing effective adaptive priming and contributing to persistent infection in immunocompromised patients.
-
-**Damages** → [Respiratory system](../../../01-human/07-system/respiratory-system/README.md): The respiratory tract is the exclusive portal of entry for *A. fumigatus*. Invasive pulmonary aspergillosis destroys alveolar parenchyma via hyphal angioinvasion and ischaemic infarction. Airway aspergillosis (ABPA) causes bronchiectasis, mucoid impaction, and progressive obstructive lung disease through hypersensitivity-driven inflammation.
-
-**Damages** → [Dendritic cell](../../../01-human/04-cellular/dendritic-cell/README.md): Gliotoxin secreted by hyphae selectively induces apoptosis in dendritic cells and impairs NF-κB activation, blocking upregulation of co-stimulatory molecules (CD80, CD86) and IL-12 secretion. This tolerogenic skewing prevents effective Th1/Th17 priming and is a key mechanism allowing *A. fumigatus* to persist in immunosuppressed hosts.
+- `infects` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — archetypical opportunistic pathogen; conidia suppress DC maturation via gliotoxin → impaired Th1/Th17 priming; virtually harmless in immunocompetent hosts; rapidly lethal when neutrophil or macrophage function is compromised.
+- `damages` → **[Respiratory System](../../../01-human/07-system/respiratory-system/README.md)** — exclusive airway portal; IPA destroys alveolar parenchyma via hyphal angioinvasion and ischaemic infarction; ABPA causes bronchiectasis and mucoid impaction via IgE/eosinophil-driven hypersensitivity; dominant mould of the respiratory tract.
+- `damages` → **[Dendritic Cell](../../../01-human/04-cellular/dendritic-cell/README.md)** — gliotoxin induces DC apoptosis, inhibits NF-κB, blocks CD80/CD86 upregulation and IL-12 secretion → tolerogenic skewing; prevents effective Th1/Th17 priming — key persistence mechanism in immunosuppressed hosts.
+- `damages` → **[Lung](../../../01-human/06-organ/lung/README.md)** — dominant mould pathogen of the lung; conidia germinate to hyphae in neutropenic hosts within 6-12h; angioinvasion → thrombosis and haemorrhagic infarction; CT halo sign (early) and air-crescent sign (recovery); IPA mortality 40-90%.
+- `damages` → **[Alveolus](../../../01-human/05-tissue/alveolus/README.md)** — conidia (2-3 µm) deposit in terminal alveoli; alveolar macrophages phagocytose via Dectin-1 within 4-8h; in neutropenic hosts, RodA hydrophobin shields conidia from Dectin-1 → germination → hyphal invasion of alveolar walls.
 
 ## Pathology
 
@@ -186,3 +192,6 @@ In immunocompetent hosts, adaptive immunity is important for long-term control:
 
 [^latge-2020-aspergillus-review]: Latge JP, Chamilos G. *Aspergillus fumigatus* and aspergillosis in 2019. *Clin Microbiol Rev.* 2020;33(1):e00140-18. [doi:10.1128/CMR.00140-18](https://doi.org/10.1128/CMR.00140-18) · [PubMed 31722890](https://pubmed.ncbi.nlm.nih.gov/31722890/)
 [^patterson-2016-aspergillosis-guideline]: Patterson TF, Thompson GR, Denning DW, et al. Practice guidelines for the diagnosis and management of aspergillosis. *Clin Infect Dis.* 2016;63(4):e1-60. [doi:10.1093/cid/ciw326](https://doi.org/10.1093/cid/ciw326) · [PubMed 27365388](https://pubmed.ncbi.nlm.nih.gov/27365388/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

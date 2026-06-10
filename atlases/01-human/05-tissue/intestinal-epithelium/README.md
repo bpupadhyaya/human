@@ -58,6 +58,9 @@ cross_links:
   - target: 02-pathogen/02-bacteria/clostridioides-difficile
     relation: infected-by
     note: "Infected by Clostridioides difficile."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: infected-by
+    note: "C. albicans Als3 adhesin binds enterocyte E-cadherin/N-cadherin; candidalysin disrupts tight junctions enabling hyphal penetration; antibiotic dysbiosis enables Candida overgrowth; gut translocation is the primary candidemia source in neutropenic patients."
 ---
 
 # Intestinal Epithelium
@@ -109,3 +112,7 @@ Crucially, the intestinal epithelium forms the primary barrier separating ~38 tr
 - **Gut microbiome interactions:** ~38 trillion bacteria, archaea, fungi, and viruses coat the apical epithelial surface (outer mucus layer). Short-chain fatty acids (butyrate, propionate, acetate) from microbial fermentation of dietary fibre: butyrate is the primary energy source for colonocytes (70% of oxidative fuel); activates GPR41/GPR109A → immune tolerance; inhibits HDAC → anti-inflammatory epigenetic effects.
 - **Stem cell niche.** Lgr5⁺ crypt-base columnar cells are the active intestinal stem cells; ~5–10 per crypt base. Paneth cell-derived EGF, Wnt3, Notch ligands (Dll4) are the niche. +4 position cells (quiescent reserve ISCs, Bmi1⁺ or Lrig1⁺) are activated by injury. Organoid technology exploiting ISC properties revolutionised gut biology research and holds therapeutic potential for intestinal repair.
 - **Pathological conditions:** Coeliac disease (gliadin peptides → HLA-DQ2/8 → adaptive immune attack on enterocytes → villous atrophy); Crohn's disease and ulcerative colitis (barrier dysfunction, dysbiosis, aberrant immune activation); colorectal cancer (APC/β-catenin → KRAS → TP53 mutational sequence in the crypt stem cell); infectious diarrhoea (Vibrio cholerae CFTR chloride secretion; enterotoxigenic E. coli; rotavirus tight-junction disruption); short bowel syndrome; necrotising enterocolitis (premature infants, barrier immaturity + microbial translocation).
+- `infected-by` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — C. albicans Als3 adhesin binds enterocyte E-cadherin/N-cadherin; candidalysin disrupts tight junctions enabling hyphal penetration; antibiotic dysbiosis enables Candida overgrowth; gut translocation is the primary candidemia source in neutropenic patients.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

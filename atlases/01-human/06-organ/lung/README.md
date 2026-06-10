@@ -70,6 +70,9 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Periostin drives fibrotic remodeling in chronic lung disease: TGF-β + IL-13 → POSTN in lung fibroblasts → collagen matrix assembly → subepithelial fibrosis; serum periostin correlates with lung function decline in asthma and IPF; marks remodeling distinct from acute inflammation."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: damaged-by
+    note: "A. fumigatus conidia germinate to angioinvasive hyphae in neutropenic/steroid-treated hosts; hyphal invasion → thrombosis and haemorrhagic pulmonary infarction; CT halo sign then air-crescent sign; IPA is the most lethal mould infection with 40-90% mortality."
 taxonomy:
   uberon: "UBERON:0002048"
   fma: "FMA:7195"
@@ -179,6 +182,7 @@ The lung is not purely a gas exchanger:
 - **Damaged-by** → [Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md): Pulmonary TB destroys upper-lobe parenchyma via caseating granulomas, cavities, and progressive fibrosis.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../../07-system/pulmonary-arterial-hypertension/README.md)** — PAH obliterates pulmonary arterioles (<500 µm) via medial hypertrophy, intimal fibrosis, and plexiform lesions → RV pressure overload → cor pulmonale; RHC required for diagnosis; mPAP >20 mmHg + PVR ≥2 WU + PAWP ≤15 mmHg.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin drives fibrotic remodeling in chronic lung disease: TGF-β + IL-13 → POSTN in lung fibroblasts → collagen matrix assembly → subepithelial fibrosis; serum periostin correlates with lung function decline in asthma and IPF; marks remodeling distinct from acute inflammation.
+- `damaged-by` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — A. fumigatus conidia germinate to angioinvasive hyphae in neutropenic/steroid-treated hosts; hyphal invasion → thrombosis and haemorrhagic pulmonary infarction; CT halo sign then air-crescent sign; IPA is the most lethal mould infection with 40-90% mortality.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

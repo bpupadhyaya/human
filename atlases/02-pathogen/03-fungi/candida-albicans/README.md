@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: damages
     note: "Hepatosplenic candidiasis (chronic disseminated candidiasis) occurs in neutropenic patients recovering from haematological malignancy treatment. Candida seeds the liver and spleen during neutropenia; granulomas form as neutrophils recover. Presents as persistent fever with hepatosplenomegaly and rising alkaline phosphatase."
+  - target: 01-human/04-cellular/neutrophil
+    relation: damages
+    note: "Neutrophils are the primary anti-Candida effector; neutropenia ANC <500 is the dominant risk for invasive candidiasis; candidalysin (Ece1-derived peptide) lyses neutrophil membranes; hyphae physically rupture phagosomes to escape killing; NETs immobilize hyphae."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: infects
+    note: "Als3 adhesin binds E-cadherin/N-cadherin on enterocytes; candidalysin disrupts tight junctions enabling hyphal invasion; broad-spectrum antibiotics deplete competing flora → Candida overgrowth and gut translocation → candidemia."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "C. albicans colonizes gut in ~70% of healthy adults; core microbiome (Bacteroidetes, Lactobacillus) and sIgA suppress hyphal transition; antibiotic-induced dysbiosis eliminates suppression → Candida overgrowth → translocation and candidemia."
 ---
 
 # Candida albicans
@@ -133,11 +142,12 @@ The key protective adaptive response is **Th17-driven mucosal immunity**:
 
 ## Connections
 
-**Infects** → [Dendritic cell](../../../01-human/04-cellular/dendritic-cell/README.md): Mucosal and skin dendritic cells are the primary innate sentinels of *C. albicans*, recognising fungal PAMPs via Dectin-1 and Dectin-2. This interaction is essential for downstream Th17 polarisation that mediates mucosal protection. In invasive candidiasis, *C. albicans* subverts DC function through mannose receptor-mediated IL-10 induction.
-
-**Damages** → [Immune system](../../../01-human/07-system/immune-system/README.md): *C. albicans* exploits immune deficiency — particularly neutropenia and Th17 defects — to cause systemic disease. Conversely, the immune response to disseminated candidiasis can produce a hyperinflammatory state (IRIS in HIV, immune reconstitution in neutropenic patients) that contributes to organ damage.
-
-**Damages** → [Liver](../../../01-human/06-organ/liver/README.md): Hepatosplenic (chronic disseminated) candidiasis is a distinct syndrome of neutropenic recovery — Candida seeded the liver and spleen during neutropenia forms granulomas as immune function recovers, manifesting as persistent febrile illness with hepatosplenomegaly and elevated alkaline phosphatase.
+- `infects` → **[Dendritic Cell](../../../01-human/04-cellular/dendritic-cell/README.md)** — Dectin-1 and Dectin-2 on mucosal DCs sense β-glucan/α-mannans; NF-κB/CARD9/MALT1 → IL-6/IL-23 → Th17 polarisation — the dominant mucosal protection; mannose receptor-mediated IL-10 induction subverts DC function in invasive candidiasis.
+- `damages` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — *C. albicans* exploits neutropenia and Th17 defects; candidalysin and hyphal phagosome escape subvert killing; IL-10 induction suppresses Th17; hyperinflammatory IRIS occurs during neutrophil recovery from invasive candidiasis.
+- `damages` → **[Liver](../../../01-human/06-organ/liver/README.md)** — Hepatosplenic candidiasis: Candida seeds liver/spleen during neutropenia; granulomas form on neutrophil recovery → persistent fever, hepatosplenomegaly, elevated ALP; MRI: "bull's-eye" lesions; treat with fluconazole for months.
+- `damages` → **[Neutrophil](../../../01-human/04-cellular/neutrophil/README.md)** — Neutrophils are the primary anti-Candida effector; candidalysin (Ece1-derived peptide) lyses neutrophil membranes; hyphae physically rupture phagosomes to escape killing; NETs immobilize hyphae; neutropenia ANC <500 is the dominant invasive candidiasis risk.
+- `infects` → **[Intestinal Epithelium](../../../01-human/05-tissue/intestinal-epithelium/README.md)** — Als3 adhesin binds E-cadherin/N-cadherin on enterocytes; candidalysin disrupts tight junctions enabling hyphal invasion; broad-spectrum antibiotics deplete competing flora → Candida overgrowth and gut translocation → candidemia.
+- `connects-to` → **[Gut Microbiome](../../../01-human/07-system/gut-microbiome/README.md)** — *C. albicans* colonizes gut in ~70% of healthy adults; core microbiome (Bacteroidetes, Lactobacillus) and sIgA suppress hyphal transition; antibiotic-induced dysbiosis eliminates suppression → Candida overgrowth → translocation and candidemia.
 
 ## Pathology
 
@@ -163,3 +173,6 @@ The key protective adaptive response is **Th17-driven mucosal immunity**:
 [^kullberg-2015-invasive-fungal]: Kullberg BJ, Arendrup MC. Invasive fungal disease in the patient with hematologic malignancy. *Hematology Am Soc Hematol Educ Program.* 2015;2015:385-92. [doi:10.1182/asheducation-2015.1.385](https://doi.org/10.1182/asheducation-2015.1.385) · [PubMed 26637749](https://pubmed.ncbi.nlm.nih.gov/26637749/)
 [^gow-2017-candida-profile]: Gow NAR, Yadav B. Microbe profile: *Candida albicans*: a shape-changing, opportunistic pathogenic fungus of humans. *Microbiology.* 2017;163(8):1145-7. [doi:10.1099/mic.0.000499](https://doi.org/10.1099/mic.0.000499) · [PubMed 28792889](https://pubmed.ncbi.nlm.nih.gov/28792889/)
 [^pappas-2016-candidiasis-guideline]: Pappas PG, Kauffman CA, Andes DR, et al. Clinical practice guideline for the management of candidiasis: 2016 update. *Clin Infect Dis.* 2016;62(4):e1-50. [doi:10.1093/cid/civ933](https://doi.org/10.1093/cid/civ933) · [PubMed 26679628](https://pubmed.ncbi.nlm.nih.gov/26679628/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

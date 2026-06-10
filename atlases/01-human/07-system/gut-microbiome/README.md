@@ -52,6 +52,9 @@ cross_links:
   - target: 02-pathogen/06-microbiome/lactobacillus-rhamnosus
     relation: modulated-by
     note: "L. rhamnosus GG is the most-studied probiotic modulator of gut microbiome composition: lactic acid cross-feeds butyrate producers (Faecalibacterium prausnitzii); SpaCBA pili exclude pathogens from mucus; reduces AAD and infantile eczema risk."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "C. albicans is a commensal gut fungus (70% of healthy adults); core microbiome (Bacteroidetes, Lactobacillus) and sIgA suppress hyphal transition; antibiotic dysbiosis removes this barrier → Candida overgrowth, gut translocation, and candidemia."
 ---
 
 # Gut Microbiome
@@ -141,6 +144,7 @@ The microbiome influences CNS function via multiple pathways:
 - `modulated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — Oral vancomycin dramatically disrupts gut anaerobes (Bacteroidetes, Bifidobacterium, Lactobacillus) while sparing gram-positive cocci; microbiome recovery takes 3–6 months; vancomycin-driven dysbiosis increases VRE and C. diff colonization risk in hospital settings.
 - `modulated-by` → **[Amoxicillin](../../../03-medicine/01-modern/06-antimicrobial/amoxicillin/README.md)** — Amoxicillin reduces gram-positive and gram-negative gut microbiota diversity; Enterobacteriaceae bloom during treatment; microbiome recovery takes 1–2 months post-course; repeated courses associate with persistent dysbiosis.
 - `modulated-by` → **[Lactobacillus rhamnosus](../../../../02-pathogen/06-microbiome/lactobacillus-rhamnosus/README.md)** — *L. rhamnosus* GG is the most-studied probiotic modulator of gut microbiome composition: lactic acid cross-feeds butyrate producers (*Faecalibacterium prausnitzii*); SpaCBA pili exclude pathogens from mucus; reduces AAD and infantile eczema risk.
+- `connects-to` → **[Candida albicans](../../../../02-pathogen/03-fungi/candida-albicans/README.md)** — C. albicans is a commensal gut fungus (70% of healthy adults); core microbiome (Bacteroidetes, Lactobacillus) and sIgA suppress hyphal transition; antibiotic dysbiosis removes this barrier → Candida overgrowth, gut translocation, and candidemia.
 
 ## Pathology
 

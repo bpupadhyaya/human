@@ -44,6 +44,9 @@ cross_links:
   - target: 01-human/03-molecular/g6pd
     relation: connects-to
     note: "Neutrophil NOX2 requires G6PD-derived NADPH to generate superoxide for oxidative burst; G6PD-deficient patients have impaired neutrophil bactericidal killing; severe G6PD deficiency (Class I) may present with recurrent bacterial infections from NOX2 substrate deficit."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: damaged-by
+    note: "C. albicans candidalysin (Ece1-derived peptide) lyses neutrophil membranes; hyphae rupture phagosomes to escape killing; neutrophil NETs immobilize hyphae; neutropenia ANC <500 is the dominant risk factor for invasive candidiasis."
 ---
 
 # Neutrophil
@@ -104,6 +107,7 @@ Neutrophils occupy a critical position at the interface of early pathogen contai
 - **Modulates Macrophage** (`../macrophage/README.md`): Neutrophil-derived CXCL8 and azurocidin recruit monocytes; apoptotic neutrophils are cleared by macrophage efferocytosis; neutrophil–macrophage crosstalk shapes the transition from acute to chronic inflammation.[^alberts-mol-cell-biology]
 - **Modulates Liver** (`../../06-organ/liver/README.md`): Hepatic neutrophil infiltration (via CXCL1/CXCL2/CXCL8) drives acute liver injury in ischaemia-reperfusion, alcoholic hepatitis, and NASH; NET components activate Kupffer cells via TLR4/TLR9, amplifying inflammation.[^janeway-immunobiology]
 - `connects-to` → **[G6PD](../../03-molecular/g6pd/README.md)** — Neutrophil NOX2 requires G6PD-derived NADPH to generate superoxide for oxidative burst; G6PD-deficient patients have impaired neutrophil bactericidal killing; severe G6PD deficiency (Class I) may present with recurrent bacterial infections from NOX2 substrate deficit.
+- `damaged-by` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — C. albicans candidalysin (Ece1-derived peptide) lyses neutrophil membranes; hyphae rupture phagosomes to escape killing; NETs immobilize hyphae; neutropenia ANC <500 is the dominant risk factor for invasive candidiasis.
 
 ## Pathology
 

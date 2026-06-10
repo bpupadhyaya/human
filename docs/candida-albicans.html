@@ -1,326 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Candida albicans — Human Engineering Atlas</title>
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Segoe UI',system-ui,sans-serif;background:#0f172a;color:#e2e8f0;line-height:1.6}
-:root{--accent:#6b21a8}
-a{color:#c4b5fd;text-decoration:none}
-a:hover{text-decoration:underline}
-nav{background:#1e293b;border-bottom:1px solid #334155;padding:12px 24px;display:flex;align-items:center;gap:16px}
-nav a{font-size:.85rem;color:#94a3b8}
-nav a:hover{color:#e2e8f0}
-.hero{background:linear-gradient(135deg,#6b21a8,#4c1d95);padding:48px 24px 36px;text-align:center}
-.eyebrow{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:#ddd6fe;margin-bottom:8px}
-.hero h1{font-size:2.4rem;font-weight:700;margin-bottom:6px}
-.hero .subtitle{font-size:1rem;color:#ddd6fe;margin-bottom:24px}
-.stat-row{display:flex;flex-wrap:wrap;justify-content:center;gap:24px;margin-top:16px}
-.stat{text-align:center}
-.stat-val{font-size:1.6rem;font-weight:700;color:#f5f3ff}
-.stat-lbl{font-size:.75rem;color:#c4b5fd;text-transform:uppercase;letter-spacing:.08em}
-main{max-width:900px;margin:0 auto;padding:32px 24px}
-section{margin-bottom:40px}
-section h2{font-size:1.25rem;font-weight:600;color:#a78bfa;border-bottom:1px solid #334155;padding-bottom:6px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.06em}
-.detail-card{background:#1e293b;border:1px solid #334155;border-radius:10px;overflow:hidden;margin-bottom:16px}
-.detail-header{background:#0f172a;padding:12px 16px;font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8}
-.detail-body{padding:0}
-.detail-table{width:100%;border-collapse:collapse}
-.detail-table tr{border-bottom:1px solid #1e293b}
-.detail-table tr:last-child{border-bottom:none}
-.detail-table td{padding:10px 16px;font-size:.9rem;vertical-align:top}
-.detail-table td:first-child{color:#94a3b8;width:38%;font-weight:500}
-.mech-list{list-style:none;padding:12px 16px;display:flex;flex-direction:column;gap:10px}
-.mech-item{padding:10px 14px;border-radius:8px;font-size:.88rem;border-left:4px solid #6b21a8}
-.mech-item.danger{border-left-color:#dc2626;background:#1a0a0a}
-.mech-item.immune{border-left-color:#0891b2;background:#0a1a1f}
-.mech-item.latent{border-left-color:#d97706;background:#1a130a}
-.mech-item.drug{border-left-color:#16a34a;background:#0a1a10}
-.mech-item strong{display:block;margin-bottom:2px;color:#e2e8f0}
-.path-table{width:100%;border-collapse:collapse;font-size:.88rem}
-.path-table th{background:#0f172a;padding:9px 14px;text-align:left;color:#94a3b8;font-weight:600;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
-.path-table td{padding:9px 14px;border-top:1px solid #1e293b;vertical-align:top}
-.path-table tr:hover td{background:#162032}
-.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.75rem;font-weight:600;margin-right:4px}
-.badge.mild{background:#14532d;color:#86efac}
-.badge.moderate{background:#713f12;color:#fde68a}
-.badge.severe{background:#7f1d1d;color:#fca5a5}
-.badge.critical{background:#4c1d95;color:#ddd6fe}
-.immune-tags{display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px}
-.itag{padding:5px 12px;border-radius:20px;font-size:.82rem;font-weight:500}
-.itag.innate{background:#1e3a5f;color:#93c5fd}
-.itag.adaptive{background:#3b1f5e;color:#c4b5fd}
-.itag.depleted{background:#4a1515;color:#fca5a5}
-.connections{display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px}
-.conn-pill{padding:6px 14px;border-radius:20px;font-size:.82rem;font-weight:500;border:1px solid}
-.conn-pill.infects{background:#1a0533;border-color:#7c3aed;color:#ddd6fe}
-.conn-pill.damages{background:#1a0a0a;border-color:#dc2626;color:#fca5a5}
-.conn-pill.targets{background:#0a1a10;border-color:#16a34a;color:#86efac}
-.refs{list-style:none;display:flex;flex-direction:column;gap:6px}
-.refs li{font-size:.82rem;color:#64748b;padding-left:16px;position:relative}
-.refs li::before{content:'›';position:absolute;left:0;color:#6b21a8}
-footer{background:#1e293b;border-top:1px solid #334155;padding:24px;text-align:center;font-size:.8rem;color:#475569;margin-top:40px}
-footer a{color:#7c3aed}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Diploid dimorphic fungus; most common human fungal pathogen. Commensal of oral mucosa, GI tract, vagina (25% carriage). Yeast-to-hypha transition is virulence s">
+  <meta property="og:title" content="Candida albicans — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Candida albicans — Human Engineering</title>
+  <style>
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
+  </style>
 </head>
 <body>
-<nav>
-  <a href="../index.html">Human Engineering</a>
-  <span style="color:#475569">›</span>
-  <a href="pathogens.html">Pathogens</a>
-  <span style="color:#475569">›</span>
-  <span style="color:#e2e8f0">Candida albicans</span>
-</nav>
 
-<div class="hero">
-  <div class="eyebrow">Atlas Two · Pathogen · Fungi</div>
-  <h1><em>Candida albicans</em></h1>
-  <div class="subtitle">Diploid Dimorphic Opportunistic Yeast · Ascomycete</div>
-  <div class="stat-row">
-    <div class="stat"><div class="stat-val">~750K</div><div class="stat-lbl">Invasive cases / year</div></div>
-    <div class="stat"><div class="stat-val">40–60%</div><div class="stat-lbl">ICI mortality</div></div>
-    <div class="stat"><div class="stat-val">31 aa</div><div class="stat-lbl">Candidalysin peptide</div></div>
-    <div class="stat"><div class="stat-val">1000×</div><div class="stat-lbl">Biofilm drug MIC increase</div></div>
-  </div>
-</div>
-
-<main>
-
-<section>
-  <h2>Classification &amp; Structure</h2>
-  <div class="detail-card">
-    <div class="detail-header">Taxonomy &amp; Morphology</div>
-    <div class="detail-body">
-      <table class="detail-table">
-        <tr><td>Kingdom / Phylum</td><td>Fungi · Ascomycota · Saccharomycetes</td></tr>
-        <tr><td>Genome</td><td>~16 Mb diploid; 8 chromosome pairs; parasexual (no complete sexual cycle in nature)</td></tr>
-        <tr><td>Yeast form</td><td>3–6 µm oval blastoconidia; typical commensal state; reproduces by budding</td></tr>
-        <tr><td>Pseudohyphae</td><td>Elongated buds remain attached at constrictions; intermediate invasive phenotype</td></tr>
-        <tr><td>True hyphae</td><td>5–10 µm diameter, parallel walls, no constrictions; primary invasive phenotype in tissues</td></tr>
-        <tr><td>Chlamydospores</td><td>Large (8–12 µm) thick-walled spores on cornmeal agar; diagnostic for <em>C. albicans</em></td></tr>
-        <tr><td>Cell wall</td><td>Outer mannan-protein layer; middle β-1,3- and β-1,6-glucan scaffold; inner chitin ring</td></tr>
-        <tr><td>Morphogenetic switch</td><td>Yeast→hypha triggered by 37°C, serum, neutral pH, N-acetylglucosamine, hypoxia; mediated by Cph1/Efg1 transcription factors</td></tr>
-        <tr><td>White-Opaque switching</td><td>Heritable phenotypic switch; opaque cells mate, express different virulence genes; white cells are more virulent systemically</td></tr>
-        <tr><td>Germ tube test</td><td>Hyphae produced in serum at 37°C within 90 min; classic bedside identification test</td></tr>
-      </table>
-    </div>
-  </div>
-</section>
-
-<section>
-  <h2>Pathogenesis Mechanisms</h2>
-  <div class="detail-card">
-    <div class="detail-body">
-      <ul class="mech-list">
-        <li class="mech-item danger">
-          <strong>Candidalysin — Pore-forming peptide toxin</strong>
-          ECE1-encoded 31-amino-acid amphipathic α-helical peptide cleaved from the Ece1 polyprotein inside hyphae.
-          Inserts into epithelial membranes → pore formation → Ca²⁺ influx → cell lysis. Only produced by true hyphae (not yeast), linking
-          morphogenesis directly to virulence. Also activates MAPK/EGFR signalling → innate cytokine response.
-        </li>
-        <li class="mech-item danger">
-          <strong>Als3 / Hwp1 — Adhesin and invasin network</strong>
-          Als3 (agglutinin-like sequence 3) is a GPI-anchored hypha-surface glycoprotein that binds E-cadherin and N-cadherin on epithelial
-          and endothelial cells → induced endocytosis. Hwp1 acts as a covalent substrate for host transglutaminases, cementing hyphal attachment.
-          Als3 also binds ferritin for iron acquisition and mediates biofilm maturation.
-        </li>
-        <li class="mech-item danger">
-          <strong>Yeast-to-hypha transition — master virulence switch</strong>
-          In bloodstream and tissues, hyphae penetrate through endothelium and cross tissue barriers. Hyphae secrete hydrolytic enzymes:
-          Sap (secreted aspartyl proteases) 1–10, Lip lipases, Plb phospholipases degrade host extracellular matrix,
-          immunoglobulins, and cell membranes. Sap4/5/6 are hypha-associated and most tissue-destructive.
-        </li>
-        <li class="mech-item immune">
-          <strong>Biofilm formation — drug and immune refuge</strong>
-          On indwelling devices (catheters, prosthetic valves), <em>C. albicans</em> forms multilayer biofilms: yeast basal layer →
-          hyphal scaffold → extracellular matrix (β-1,3-glucan, mannoproteins, eDNA). β-glucan matrix sequesters fluconazole and
-          echinocandins, raising effective MICs 1000-fold. Macrophage and neutrophil killing is impaired within biofilm.
-          Biofilm dispersal seeds bloodstream with planktonic cells.
-        </li>
-        <li class="mech-item immune">
-          <strong>Immune modulation — Dectin-1/Dectin-2 evasion and exploitation</strong>
-          Yeast β-1,3-glucan is shielded under mannan layer → reduced Dectin-1 recognition in resting yeast.
-          Hyphae expose more glucan, triggering Dectin-1 on macrophages/DCs → CARD9-BCL10-MALT1 → NF-κB → IL-6, IL-23,
-          TNF-α → Th17 polarization (protective at mucosa). Mannan/O-mannan activates Dectin-2 and TLR4.
-          Overactivation drives damaging inflammation in immunocompetent hosts (thrush).
-        </li>
-        <li class="mech-item latent">
-          <strong>Commensal colonization — GI/mucosal reservoir</strong>
-          Colonizes oral cavity, GI tract, and vaginal mucosa in ~50% of healthy adults. Commensal form is predominantly yeast.
-          Dysbiosis (antibiotics), local immune defects (IL-17 pathway mutations → CMC), or systemic immunosuppression
-          (neutropenia, corticosteroids, HIV CD4 &lt;200) tips the balance to pathogenic hyphal form. GI translocation
-          is the predominant source of candidaemia in ICU patients.
-        </li>
-        <li class="mech-item drug">
-          <strong>Azole resistance — ERG11 mutations + efflux pumps</strong>
-          Fluconazole targets Erg11 (CYP51, lanosterol 14α-demethylase). Resistance mechanisms:
-          (1) ERG11 gain-of-function mutations Y132F, K143R, F126L reduce azole binding;
-          (2) CDR1/CDR2 (ATP-binding cassette) efflux pumps — transcriptional upregulation via Tac1;
-          (3) MDR1 (MFS transporter) — upregulated via Mrr1.
-          Echinocandin resistance: FKS1 hot-spot mutations (S645P, F641S) reduce β-1,3-glucan synthase affinity for drug.
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section>
-  <h2>Host Immune Response</h2>
-  <div class="detail-card">
-    <div class="detail-header">Innate &amp; Adaptive Defences</div>
-    <div class="detail-body">
-      <div class="immune-tags">
-        <span class="itag innate">Neutrophils (primary defence)</span>
-        <span class="itag innate">Macrophages — Dectin-1/2</span>
-        <span class="itag innate">Dendritic cells — CARD9 signalling</span>
-        <span class="itag innate">Complement C3b opsonisation</span>
-        <span class="itag innate">β-defensins — mucosal barrier</span>
-        <span class="itag innate">Epithelial EGFR/MAPK — candidalysin sensor</span>
-        <span class="itag adaptive">Th17 / IL-17A — mucosal protection</span>
-        <span class="itag adaptive">Th1 / IFN-γ — systemic clearance</span>
-        <span class="itag adaptive">Treg balance — prevents immunopathology</span>
-        <span class="itag adaptive">Anti-Als3 antibodies — complement activation</span>
-        <span class="itag depleted">Neutropenia (&lt;500/µL) → candidaemia risk</span>
-        <span class="itag depleted">IL-17 pathway defects → CMC (STAT3/CARD9/IL-17RA)</span>
-        <span class="itag depleted">HIV CD4 &lt;200 → oropharyngeal candidiasis</span>
-        <span class="itag depleted">Biofilm shields from phagocytes</span>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
       </div>
     </div>
-  </div>
-</section>
+  </nav>
 
-<section>
-  <h2>Disease Spectrum</h2>
-  <div class="detail-card">
-    <div class="detail-body">
-      <table class="path-table">
-        <tr><th>Syndrome</th><th>Population</th><th>Severity</th><th>Key Feature</th></tr>
-        <tr>
-          <td>Oropharyngeal candidiasis (thrush)</td>
-          <td>HIV, inhaled steroids, infants, dentures</td>
-          <td><span class="badge mild">Mild</span></td>
-          <td>White pseudomembranous plaques; removed to reveal erythema; Gram stain shows hyphae</td>
-        </tr>
-        <tr>
-          <td>Oesophageal candidiasis</td>
-          <td>HIV CD4 &lt;100, transplant</td>
-          <td><span class="badge moderate">Moderate</span></td>
-          <td>AIDS-defining; odynophagia; endoscopy shows white plaques; empiric fluconazole appropriate</td>
-        </tr>
-        <tr>
-          <td>Vulvovaginal candidiasis</td>
-          <td>Reproductive-age women; antibiotic use; diabetes</td>
-          <td><span class="badge mild">Mild</span></td>
-          <td>Pruritus, thick "cottage-cheese" discharge; recurrent ≥4 episodes/year in 5–8%</td>
-        </tr>
-        <tr>
-          <td>Invasive candidiasis (candidaemia)</td>
-          <td>ICU, neutropenia, TPN, central lines, abdominal surgery</td>
-          <td><span class="badge severe">Severe</span></td>
-          <td>4th most common nosocomial bloodstream infection; mortality 40–60%; hyphae seed eyes, kidneys, heart</td>
-        </tr>
-        <tr>
-          <td>Hepatosplenic candidiasis (chronic disseminated)</td>
-          <td>AML/ALL during neutrophil recovery</td>
-          <td><span class="badge severe">Severe</span></td>
-          <td>"Bull's-eye" MRI lesions in liver/spleen; fever persists post-engraftment; hepatic microabscesses; prolonged azole therapy</td>
-        </tr>
-        <tr>
-          <td>Candida endophthalmitis</td>
-          <td>After candidaemia; IV drug use</td>
-          <td><span class="badge severe">Severe</span></td>
-          <td>Fluffy white vitreous lesions; ophthalmology screening mandatory in all candidaemia; may require vitrectomy</td>
-        </tr>
-        <tr>
-          <td>Candida endocarditis</td>
-          <td>Prosthetic valves, IVDU, pacemakers</td>
-          <td><span class="badge critical">Critical</span></td>
-          <td>Large vegetations; high embolic risk; surgical valve replacement + prolonged antifungal therapy required</td>
-        </tr>
-        <tr>
-          <td>Chronic mucocutaneous candidiasis (CMC)</td>
-          <td>STAT3/IL-17RA/CARD9/ACT1 mutations; AIRE defects</td>
-          <td><span class="badge moderate">Moderate</span></td>
-          <td>Recurrent mucosal/skin/nail candidiasis without systemic dissemination; IL-17 signalling defect</td>
-        </tr>
-      </table>
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 03-fungi</div>
+    <h1>Candida albicans</h1>
+    <p class="tagline">Diploid dimorphic fungus; most common human fungal pathogen. Commensal of oral mucosa, GI tract, vagina (25% carriage). Yeast-to-hypha transition is virulence switch. Causes thrush, vulvovaginal candidiasis, and invasive candidiasis (mortality 40–60%) in immunocompromised hosts.</p>
+    <p class="aliases">Also known as: C. albicans, monilia, thrush, candida</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">03-fungi</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
-</section>
 
-<section>
-  <h2>Treatment &amp; Prophylaxis</h2>
-  <div class="detail-card">
-    <div class="detail-header">Antifungal Agents</div>
-    <div class="detail-body">
-      <table class="detail-table">
-        <tr><td>Mucosal candidiasis (first-line)</td><td>Fluconazole 150 mg PO single dose (VVC); 100–200 mg/day × 7–14 d (OPC/oesophageal)</td></tr>
-        <tr><td>Invasive candidiasis — non-neutropenic</td><td>Echinocandin (caspofungin 70 mg loading → 50 mg/day; micafungin 100 mg/day; anidulafungin) for ≥14 days after last positive blood culture</td></tr>
-        <tr><td>Invasive candidiasis — step-down oral</td><td>Fluconazole 400 mg/day after clinical stability + susceptible isolate; total 14 days after last positive culture</td></tr>
-        <tr><td>Hepatosplenic candidiasis</td><td>Fluconazole 400 mg/day × months; lipid AmB if refractory; continue through chemotherapy cycles</td></tr>
-        <tr><td>Candida endocarditis</td><td>Lipid AmB 3–5 mg/kg/day ± 5-FC; surgical valve replacement; lifelong fluconazole suppression if surgery not possible</td></tr>
-        <tr><td>Fluconazole-resistant (C. glabrata, Candida auris)</td><td>Echinocandin preferred; voriconazole or isavuconazole for susceptible strains; susceptibility testing mandatory</td></tr>
-        <tr><td>Catheter removal</td><td>Recommended for all non-neutropenic patients with candidaemia — reduces mortality and clearance time</td></tr>
-        <tr><td>Prophylaxis (high-risk)</td><td>Fluconazole 400 mg/day for high-risk liver transplant recipients; micafungin during SCT engraftment; nystatin for low-risk</td></tr>
-        <tr><td>Ophthalmology screening</td><td>Dilated funduscopy within 1 week of positive blood culture — mandatory to detect retinal/vitreal seeding</td></tr>
-        <tr><td>Novel / pipeline</td><td>Ibrexafungerp (glucan synthase, oral), olorofim (dihydroorotate dehydrogenase), fosmanogepix (GPI anchor synthesis) for MDR Candida</td></tr>
-      </table>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
     </div>
-  </div>
-</section>
 
-<section>
-  <h2>Connections</h2>
-  <div class="detail-card">
-    <div class="detail-body">
-      <div class="connections">
-        <span class="conn-pill infects">GI tract mucosa</span>
-        <span class="conn-pill infects">Oral epithelium</span>
-        <span class="conn-pill infects">Vaginal epithelium</span>
-        <span class="conn-pill infects">Bloodstream (candidaemia)</span>
-        <span class="conn-pill infects">Liver &amp; spleen (hepatosplenic)</span>
-        <span class="conn-pill damages">Endothelium (hyphae penetration)</span>
-        <span class="conn-pill damages">Renal tubules</span>
-        <span class="conn-pill damages">Retina (endophthalmitis)</span>
-        <span class="conn-pill damages">Heart valves (endocarditis)</span>
-        <span class="conn-pill targets">Neutrophil (primary clearance)</span>
-        <span class="conn-pill targets">Dectin-1/CARD9 pathway</span>
-        <span class="conn-pill targets">Th17 / IL-17A axis</span>
-        <span class="conn-pill targets">Erg11 (azole target)</span>
-        <span class="conn-pill targets">Fks1 β-glucan synthase (echinocandin target)</span>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
+        <div class="entry-eyebrow">candida-albicans</div>
+        <h2>Candida albicans</h2>
+        <p class="summary">Diploid dimorphic fungus; most common human fungal pathogen. Commensal of oral mucosa, GI tract, vagina (25% carriage). Yeast-to-hypha transition is virulence switch. Causes thrush, vulvovaginal candidiasis, and invasive candidiasis (mortality 40–60%) in immunocompromised hosts.</p>
+      </div>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>candida-albicans</td></tr>
+            <tr><td>Name</td><td>Candida albicans</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Class</td><td>03-fungi</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="dendritic-cell.html" title="Skin and mucosal dendritic cells are primary innate sensors of Candida. C-type lectin receptors Dectin-1 and Dectin-2 on DCs recognise β-glucan and α-mannans respectively on the fungal surface, triggering NF-κB and CARD9/BCL10/MALT1 signalling to drive Th17 differentiation — the dominant protective response against mucosal candidiasis."><span class="rel">infects</span>Dendritic Cell</a>
+            <a class="conn-pill damaged" href="immune-system.html" title="Systemic candidiasis exploits immunocompromised states. C. albicans evades phagocytosis via hyphal escape, biofilm formation, and secretion of candidalysin (hyphal toxin). It induces IL-10 production and suppresses the Th17 response — the primary adaptive defence — allowing mucosal and systemic invasion."><span class="rel">damages</span>Immune System</a>
+            <a class="conn-pill damaged" href="liver.html" title="Hepatosplenic candidiasis (chronic disseminated candidiasis) occurs in neutropenic patients recovering from haematological malignancy treatment. Candida seeds the liver and spleen during neutropenia; granulomas form as neutrophils recover. Presents as persistent fever with hepatosplenomegaly and rising alkaline phosphatase."><span class="rel">damages</span>Liver</a>
+            <a class="conn-pill damaged" href="neutrophil.html" title="Neutrophils are the primary anti-Candida effector; neutropenia ANC &lt;500 is the dominant risk for invasive candidiasis; candidalysin (Ece1-derived peptide) lyses neutrophil membranes; hyphae physically rupture phagosomes to escape killing; NETs immobilize hyphae."><span class="rel">damages</span>Neutrophil</a>
+            <a class="conn-pill" href="intestinal-epithelium.html" title="Als3 adhesin binds E-cadherin/N-cadherin on enterocytes; candidalysin disrupts tight junctions enabling hyphal invasion; broad-spectrum antibiotics deplete competing flora → Candida overgrowth and gut translocation → candidemia."><span class="rel">infects</span>Intestinal Epithelium</a>
+            <a class="conn-pill" href="gut-microbiome.html" title="C. albicans colonizes gut in ~70% of healthy adults; core microbiome (Bacteroidetes, Lactobacillus) and sIgA suppress hyphal transition; antibiotic-induced dysbiosis eliminates suppression → Candida overgrowth → translocation and candidemia."><span class="rel">connects-to</span>Gut Microbiome</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1182/asheducation-2015.1.385" target="_blank" rel="noopener noreferrer">Kullberg BJ, Arendrup MC. Invasive fungal disease in the patient with hematologic malignancy. Hematology Am Soc Hematol Educ Program. 2015;2015:385-92.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26637749/" target="_blank" rel="noopener noreferrer">PubMed 26637749</a></li>
+            <li><a href="https://doi.org/10.1099/mic.0.000499" target="_blank" rel="noopener noreferrer">Gow NAR, Yadav B. Microbe profile: Candida albicans: a shape-changing, opportunistic pathogenic fungus of humans. Microbiology. 2017;163(8):1145-7.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28792889/" target="_blank" rel="noopener noreferrer">PubMed 28792889</a></li>
+            <li><a href="https://doi.org/10.1093/cid/civ933" target="_blank" rel="noopener noreferrer">Pappas PG, Kauffman CA, Andes DR, et al. Clinical practice guideline for the management of candidiasis: 2016 update. Clin Infect Dis. 2016;62(4):e1-50.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26679628/" target="_blank" rel="noopener noreferrer">PubMed 26679628</a></li>
+          </ul>
+        </div>
+
       </div>
     </div>
-  </div>
-</section>
+  </main>
 
-<section>
-  <h2>References</h2>
-  <div class="detail-card">
-    <div class="detail-body" style="padding:14px 16px">
-      <ul class="refs">
-        <li>Pappas PG et al. IDSA Clinical Practice Guidelines for Candidiasis. <em>Clin Infect Dis</em> 2016;62:e1–50.</li>
-        <li>Moyes DL et al. Candidalysin is a fungal peptide toxin critical for mucosal infection. <em>Nature</em> 2016;532:64–68.</li>
-        <li>Kullberg BJ &amp; Arendrup MC. Invasive Fungal Disease. <em>N Engl J Med</em> 2015;373:1445–56.</li>
-        <li>Nobile CJ &amp; Johnson AD. Candida albicans Biofilms and Human Disease. <em>Annu Rev Microbiol</em> 2015;69:71–92.</li>
-        <li>Lionakis MS et al. Immunity to invasive fungal infections. <em>Nat Rev Immunol</em> 2023;23:433–452.</li>
-        <li>Kontoyiannis DP &amp; Lewis RE. Antifungal drug resistance of pathogenic fungi. <em>Lancet</em> 2002;359:1135–44.</li>
-        <li>Gow NAR et al. <em>C. albicans</em> morphogenesis and host defence. <em>Nat Rev Microbiol</em> 2012;10:112–22.</li>
-      </ul>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-  </div>
-</section>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-</main>
-
-<footer>
-  <p>Human Engineering Atlas · <a href="pathogens.html">Pathogens</a> · Atlas Two</p>
-  <p style="margin-top:6px">Open source · CC BY 4.0 · <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:8px;font-size:.75rem;color:#334155">
-    This page is co-maintained with AI assistance. Content is reviewed for accuracy but may contain errors.
-    Not for clinical use. Verify with primary sources before any medical application.
-  </p>
-</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

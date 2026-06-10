@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Intestinal Epithelium — single-layer columnar epithelium lining the gut. 32 m² surface area. Absorbs nutrients, secretes mucus, educates GALT. Lgr5+ stem cells, tight junctions, villus-crypt axis. Scale 05 of the Human Atlas. Part of the Human Engineering project.">
+  <meta name="description" content="Single-layer columnar epithelium lining the small and large intestine. Largest surface area in the body (~32 m² via villi and microvilli). Absorbs nutrients and">
   <meta property="og:title" content="Intestinal Epithelium — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Intestinal Epithelium — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #059669;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
-    a:hover { color: #047857; }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,46 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #065f46); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -96,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -108,118 +119,68 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 05 &mdash; Tissue</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
     <h1>Intestinal Epithelium</h1>
-    <p class="tagline">Single-layer columnar epithelium lining the small and large intestine — the largest mucosal surface in the body (~32 m²) and the primary interface between the gut microbiome and the host immune system.</p>
-    <p class="subtagline">Completely self-renews every 3–5 days from Lgr5⁺ crypt stem cells. Absorbs ~9 litres of fluid/day. Educates gut-associated lymphoid tissue (GALT) via TSLP, IL-25, IL-33, and secretory IgA. Barrier dysfunction underlies IBD, celiac disease, and systemic endotoxaemia.</p>
+    <p class="tagline">Single-layer columnar epithelium lining the small and large intestine. Largest surface area in the body (~32 m² via villi and microvilli). Absorbs nutrients and water; secrets mucus (goblet cells); transduces microbial signals to gut-associated lymphoid tissue (GALT).</p>
+    <p class="aliases">Also known as: gut epithelium, intestinal mucosa, enteric epithelium, intestinal lining, GALT-associated epithelium</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~32 m²</span><span class="stat-label">Total surface area</span></div>
-      <div class="stat"><span class="stat-num">3–5 days</span><span class="stat-label">Turnover (small intestine)</span></div>
-      <div class="stat"><span class="stat-num">~10¹⁰</span><span class="stat-label">Cells shed/day</span></div>
-      <div class="stat"><span class="stat-num">&gt;70%</span><span class="stat-label">of Body's Immune Cells in GALT</span></div>
+        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One / Scale 05 &middot; Tissue &middot; Mucosal Epithelium</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">intestinal-epithelium</div>
         <h2>Intestinal Epithelium</h2>
-        <p class="summary">Single-cell-thick columnar epithelial lining of the small intestine (duodenum, jejunum, ileum) and large intestine (caecum, colon, rectum). Despite its minimal physical thickness (~20–25 µm per cell height), it fulfils extraordinary roles: nutrient and water absorption, mucus secretion, microbial sensing, and immune education. Presents ~32 m² of mucosal surface via the villus-crypt architecture. Most rapidly renewing adult tissue: complete turnover in 3–5 days (small intestine) driven by Lgr5⁺ intestinal stem cells at crypt bases.</p>
+        <p class="summary">Single-layer columnar epithelium lining the small and large intestine. Largest surface area in the body (~32 m² via villi and microvilli). Absorbs nutrients and water; secrets mucus (goblet cells); transduces microbial signals to gut-associated lymphoid tissue (GALT).</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The intestinal epithelium is the single-cell-thick columnar epithelial lining of the small intestine (duodenum, jejunum, ileum) and large intestine (caecum, colon, rectum). It presents the largest mucosal surface in the human body — approximately <strong>32 m²</strong> when fully extended by villi and microvilli — far exceeding skin (~1.7 m²) or lung epithelium (~70 m²). The gut epithelium is the most rapidly renewing tissue in the adult human body, with a complete cellular turnover every 3–5 days in the small intestine and 5–7 days in the colon, driven by <strong>intestinal stem cells (ISCs)</strong> — Lgr5⁺ crypt-base columnar cells — residing at the base of crypts of Lieberkühn. Approximately 10¹⁰ epithelial cells are shed into the intestinal lumen per day.</p>
-          <p>The intestinal epithelium forms the primary barrier separating ~38 trillion luminal microorganisms (gut microbiome) and their metabolites from the sterile internal milieu. Barrier integrity depends on tight junctions, mucus layers (MUC2-rich dense inner layer in the colon), and secretory IgA. Barrier breach — via tight junction dysregulation, cell death, or mucus layer disruption — triggers inflammatory responses, and chronic dysfunction underlies conditions ranging from inflammatory bowel disease to systemic endotoxaemia. More than 70% of the body's immune cells reside in gut-associated lymphoid tissue (GALT) immediately subjacent to the epithelium; the epithelium is the primary conduit for immune education and tolerance induction toward commensal bacteria and dietary antigens.</p>
-          <p>The epithelium is not a simple absorptive sheet — it is a multifunctional immunological interface. Specialised cell types (M cells, tuft cells, enteroendocrine cells) sense the luminal environment and relay signals to sub-epithelial immune cells, the enteric nervous system, and the pancreatic islets. The enteroendocrine cells collectively constitute the <strong>largest endocrine organ in the body by cell number</strong>: L-cell-derived GLP-1 and GIP account for ~50–70% of the post-meal insulin response (incretin effect), and are the targets of the most successful modern class of anti-obesity/diabetes drugs (GLP-1 receptor agonists: semaglutide, liraglutide).</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Anatomy &amp; Structure</h3>
-          <p><strong>Villus-crypt axis (small intestine).</strong> Finger-like projections (villi, 0.5–1.5 mm) interspersed with tubular invaginations (crypts of Lieberkühn, ~100–300 µm deep). Terminally differentiated cells migrate from crypt → villus tip over 3–5 days, then are shed (~10¹⁰ cells/day). Apical microvilli (brush border): 1–3 µm tall, ~3,000 per enterocyte, ×30 surface amplification; stabilised by F-actin cross-linked by villin, fimbrin, eps8. The brush-border glycocalyx (400–500 nm) anchors digestive enzymes (sucrase-isomaltase, lactase-phlorizin hydrolase, aminopeptidase N, dipeptidyl peptidase IV) in the apical membrane.</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Cell type</th><th>Proportion</th><th>Key markers / fate regulators</th><th>Primary role</th></tr>
-            <tr><td>Enterocytes</td><td>~80%</td><td>Notch ON → enterocyte; SGLT1, GLUT5, PepT1, NPC1L1, FABPs, CFTR</td><td>Nutrient absorption; brush-border digestion; barrier maintenance</td></tr>
-            <tr><td>Goblet cells</td><td>~10–15%</td><td>Notch OFF → Atoh1 → Klf4 → Spdef; MUC2 (colon/SI), MUC5AC (stomach)</td><td>Mucus secretion; barrier maintenance; trefoil factor secretion for repair</td></tr>
-            <tr><td>Enteroendocrine cells</td><td>~1%</td><td>&gt;20 subtypes: L-cells (GLP-1/PYY), I-cells (CCK), S-cells (secretin), K-cells (GIP), EC-cells (5-HT/serotonin)</td><td>Gut hormone secretion; gut-brain and gut-pancreas endocrine axes</td></tr>
-            <tr><td>Paneth cells</td><td>Crypt base (SI only)</td><td>Long-lived (21–60 days); defensins α, cryptdins, lysozyme, phospholipase A2, RegIII; EGF, Wnt3, Dll4</td><td>Antimicrobial defence; ISC niche support (paracrine Wnt/EGF/Notch)</td></tr>
-            <tr><td>M (microfold) cells</td><td>FAE over Peyer's patches</td><td>GP2⁺; basolateral pocket contains DCs, macrophages, B and T lymphocytes</td><td>Transcytosis of luminal antigens and microorganisms for mucosal immune surveillance</td></tr>
-            <tr><td>Tuft cells</td><td>~0.4%</td><td>Chemosensory; α-gustducin, TRPM5, DCLK1; produce IL-25 (IL-17E)</td><td>Helminth and protozoan sensing → type-2 immune responses (ILC2 activation)</td></tr>
-            <tr><td>Lgr5⁺ ISCs</td><td>~5–10/crypt base</td><td>Lgr5⁺, OLFM4⁺, ASCL2⁺; +4 position quiescent reserve ISCs (Bmi1⁺, Lrig1⁺)</td><td>Continuous epithelial regeneration; source for intestinal organoids</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>intestinal-epithelium</td></tr>
+            <tr><td>Name</td><td>Intestinal Epithelium</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>05-tissue</td></tr>
           </table>
-          <p style="margin-top:0.75rem;"><strong>Tight junctions and the paracellular barrier:</strong> Claudins (1, 2, 3, 4, 7, 15), occludin, tricellulin, and junction adhesion molecules (JAMs) seal adjacent cells. Claudin-2 forms leaky cation channels (increased in IBD and Th2 states). ZO-1/2/3 scaffold proteins link tight-junction strands to the perijunctional actomyosin ring. <strong>MLCK phosphorylation</strong> contracts this ring → junction opening — the dominant mechanism of inflammatory barrier dysfunction (TNF-α, IL-13, IFN-γ all activate MLCK pathway). <strong>Mucus layers (colon):</strong> dense, sterile inner layer (~150 µm, MUC2 cross-linked by FCGBP/CRS) + loose bacteria-permissive outer layer (~700 µm) as the microbial habitat. Bacteria penetrating the inner layer trigger innate immune activation.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function</h3>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Nutrient Absorption</h4>
-              <p>~9 L fluid absorbed/day (2 L dietary, 7 L GI secretions). SGLT1: Na⁺-coupled active glucose/galactose uptake (apical). GLUT5: facilitated fructose. PepT1 (H⁺-coupled): di/tripeptides. NPC1L1: cholesterol absorption (ezetimibe target). FATP4: long-chain fatty acids. Vitamins B₁₂ via cubam receptor (intrinsic factor complex, terminal ileum only); fat-soluble ADEK in bile-salt micelles. Butyrate: primary colonocyte energy (70% of oxidative fuel); activates GPR109A/GPR41 → anti-inflammatory epigenetic effects via HDAC inhibition.</p>
-            </div>
-            <div class="info-block">
-              <h4>Barrier Function</h4>
-              <p>Physical + chemical multilayer barrier: tight junctions + mucus gel layer + secretory IgA (SIgA transcytosed by pIgR) + antimicrobial peptides (defensins α/β, RegIIIγ) + peristalsis (luminal flushing). Pattern recognition receptors positioned basolaterally (TLR4 — LPS, TLR5 — flagellin, NOD1/2 — peptidoglycan fragments) respond to microbial penetration without constitutive activation by luminal commensals. Polarity maintenance (apical vs. basolateral membrane domains) is essential for vectorial transport and compartmentalised signalling.</p>
-            </div>
-            <div class="info-block">
-              <h4>Immune Education and Tolerance</h4>
-              <p>TSLP (epithelial alarmin) → tolerogenic DCs (RA-producing, IDO-expressing) → Treg induction. APRIL + BAFF + TGF-β → IgA class switching in lamina propria B cells → secretory IgA (SIgA) binds commensal bacteria (immune exclusion without inflammation). RALDH2-expressing epithelial cells convert retinol → retinoic acid → imprints gut-homing (α4β7 + CCR9) on T and B cells. IL-25 (tuft cells) + IL-33 → ILC2 activation → Th2 responses (helminth expulsion) + tissue repair via amphiregulin.</p>
-            </div>
-            <div class="info-block">
-              <h4>Enteroendocrine Signalling</h4>
-              <p>L-cell GLP-1 (released by glucose, fatty acids, bile acids post-prandially) → pancreatic β-cell insulin secretion (50–70% of post-meal insulin response — incretin effect). Targets: GLP-1 receptor agonists (semaglutide, liraglutide, tirzepatide). Serotonin (5-HT, EC cells): ~95% of body 5-HT; activates intrinsic sensory neurons of ENS → peristaltic reflex; sensed by 5-HT3R (cisapride target, nausea) and 5-HT4R (prokinetics). CCK (I-cells): pancreatic enzyme + bile release + satiety signal via vagal afferents.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Celiac Disease</h4>
-            <p>Immune-mediated enteropathy: gliadin peptides (from wheat, rye, barley) + HLA-DQ2 or HLA-DQ8 → tissue transglutaminase (tTG) modifies deamidated gliadin peptides → potent HLA-DQ2/8-restricted CD4⁺ T cell activation in lamina propria + CD8⁺ intraepithelial lymphocyte (IEL) cytotoxicity against enterocytes → villous atrophy, crypt hyperplasia (Marsh grade III). Consequences: malabsorption of fat (steatorrhoea), iron, calcium, B₁₂, and fat-soluble vitamins. Serology: anti-tTG IgA (sensitivity ~98%, specificity ~98%); confirmation by duodenal biopsy. Treatment: lifelong strict gluten-free diet. Refractory celiac (RCD type II): aberrant IEL expansion (sCD3⁻CD103⁺ NKT-like) → high risk of enteropathy-associated T-cell lymphoma (EATL).</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Crohn's Disease and Ulcerative Colitis (IBD)</h4>
-            <p>Both share a core mechanism: barrier dysfunction + microbiome dysbiosis + aberrant mucosal immune activation in genetically susceptible individuals. In <strong>Crohn's disease</strong>, transmural granulomatous inflammation with skip lesions; NOD2 (CARD15) mutation impairs Paneth cell antimicrobial peptide production and innate immune sensing of intracellular bacteria → luminal microbes breach the mucosa → Th1/Th17-driven transmural inflammation. In <strong>ulcerative colitis</strong>, the barrier defect is prominent — reduced MUC2 secretion, claudin-2 upregulation (leaky tight junctions), ↓Paneth cell defensins — with continuous superficial mucosal inflammation from rectum proximally. Anti-integrin vedolizumab blocks α4β7-MAdCAM-1 interaction → gut-selective T-cell homing blockade without systemic immunosuppression.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Colorectal Cancer</h4>
-            <p>Originates in crypt stem cells via the APC/Wnt → KRAS → TP53 → SMAD4 sequential mutational progression in adenoma precursor lesions (adenoma → carcinoma sequence, ~10–15 years). APC loss → unrestrained Wnt/β-catenin → crypt hyperproliferation → adenoma. MSI-H (Lynch syndrome, sporadic MLH1 hypermethylation) → hypermutation → immunogenic → responds to checkpoint blockade (pembrolizumab). Sessile serrated adenomas: BRAF V600E + MLH1 methylation pathway. Epithelial-to-mesenchymal transition (E-cadherin loss) enables basement membrane invasion and metastasis. Screening: colonoscopy removes adenomas before malignant transformation.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Infectious Diarrhoea and Epithelial Disruption</h4>
-            <p><strong>Vibrio cholerae</strong>: CT toxin ADP-ribosylates Gs → ↑cAMP → CFTR-mediated Cl⁻ hypersecretion → massive watery diarrhoea (up to 20 L/day); treatment: ORS + doxycycline. <strong>ETEC</strong>: heat-labile toxin (mimics CT) + heat-stable toxin (↑cGMP → CFTR). <strong>Rotavirus</strong>: infects mature villus enterocytes → NSP4 (viral enterotoxin) → Ca²⁺-dependent Cl⁻ secretion + tight junction disruption; vaccine-preventable (RV1, RV5). <strong>C. difficile</strong>: TcdA (enterotoxin) + TcdB (cytotoxin) glucosylate Rho GTPases → tight junction loss + apoptosis → pseudomembranous colitis; treat with vancomycin/fidaxomicin; FMT for recurrent CDI.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Short Bowel Syndrome and Necrotising Enterocolitis</h4>
-            <p><strong>Short bowel syndrome (SBS):</strong> &lt;200 cm of viable small intestine after surgical resection (Crohn's, mesenteric ischaemia, volvulus) → chronic malabsorption, fluid/electrolyte loss, parenteral nutrition dependence. GLP-2 analogue teduglutide stimulates epithelial proliferation + crypt cell survival via GLP-2 receptor on sub-epithelial myofibroblasts; reduces PN requirements by ~30%. <strong>Necrotising enterocolitis (NEC):</strong> predominantly preterm infants; immature tight junctions + deficient antimicrobial peptides + dysbiotic microbiome → microbial translocation → TNF-α-driven transmural necrosis → systemic sepsis and perforation. Treatment: bowel rest, antibiotics, surgical resection of necrotic bowel.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="digestive-system.html"><span class="rel">Part of</span>Digestive System</a>
-            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Human Body</a>
-            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Small Intestine (Scale 06)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Immune System</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Macrophage (Scale 04)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>B Cell (Scale 04)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Dendritic Cell (Scale 04)</a>
-            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">Infected by</span>C. difficile</a>
-            <a class="conn-pill damaged" href="pathogens.html"><span class="rel">Damaged by</span>Rotavirus</a>
+            <a class="conn-pill part" href="digestive-system.html" title="The intestinal epithelium is the primary functional surface of the digestive system, responsible for nutrient absorption across the ~8 m length of the small intestine and water/electrolyte recovery in the ~1.5 m colon."><span class="rel">part-of</span>Digestive System</a>
+            <a class="conn-pill" href="immune-system.html" title="&gt;70% of the body's immune cells reside in gut-associated lymphoid tissue (GALT); the intestinal epithelium is the primary interface between luminal microbiota and host immunity, transducing microbial signals via PRRs and cytokine secretion."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="macrophage.html" title="Intestinal epithelial cells secrete CSF1, IL-34, and TSLP that maintain and polarise intestinal macrophages (CX₃CR1⁺) toward anti-inflammatory phenotypes; conversely, macrophage-derived IL-10 and PGE₂ support epithelial barrier integrity."><span class="rel">modulates</span>Macrophage</a>
+            <a class="conn-pill" href="b-cell.html" title="Intestinal epithelial cells produce APRIL (TNFSF13), BAFF (TNFSF13B), and TGF-β to support IgA class switching in lamina propria B cells; IgA is transcytosed through the epithelium by the polymeric Ig receptor (pIgR) into the gut lumen."><span class="rel">modulates</span>B Cell</a>
+            <a class="conn-pill" href="dendritic-cell.html" title="Intestinal epithelial cells signal to sub-epithelial DCs via TSLP, IL-25, and IL-33, conditioning DCs toward tolerogenic (RA-producing, IDO-expressing) rather than immunogenic phenotypes."><span class="rel">modulates</span>Dendritic Cell</a>
+            <a class="conn-pill part" href="human-body.html" title="The intestinal epithelium is the largest mucosal surface in the human body; it separates the ~38 trillion microorganisms of the gut microbiome from the host's sterile internal compartments."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill part" href="small-intestine.html" title="Part Of by Small Intestine."><span class="rel">part-of</span>Small Intestine</a>
+            <a class="conn-pill" href="clostridioides-difficile.html" title="Infected by Clostridioides difficile."><span class="rel">infected-by</span>Clostridioides Difficile</a>
+            <a class="conn-pill" href="candida-albicans.html" title="C. albicans Als3 adhesin binds enterocyte E-cadherin/N-cadherin; candidalysin disrupts tight junctions enabling hyphal penetration; antibiotic dysbiosis enables Candida overgrowth; gut translocation is the primary candidemia source in neutropenic patients."><span class="rel">infected-by</span>Candida Albicans</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Clevers H. The intestinal crypt, a prototype stem cell compartment. <em>Cell.</em> 2013;154(2):274-84. <a href="https://doi.org/10.1016/j.cell.2013.07.004" target="_blank" rel="noopener">doi:10.1016/j.cell.2013.07.004</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/23870119/" target="_blank" rel="noopener">PubMed 23870119</a></li>
-            <li>Artis D. Epithelial-cell recognition of commensal bacteria and maintenance of immune homeostasis in the gut. <em>Nat Rev Immunol.</em> 2008;8(6):411-20. <a href="https://doi.org/10.1038/nri2316" target="_blank" rel="noopener">doi:10.1038/nri2316</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/18469830/" target="_blank" rel="noopener">PubMed 18469830</a></li>
-            <li>Turner JR. Intestinal mucosal barrier function in health and disease. <em>Nat Rev Immunol.</em> 2009;9(11):799-809. <a href="https://doi.org/10.1038/nri2653" target="_blank" rel="noopener">doi:10.1038/nri2653</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/19855405/" target="_blank" rel="noopener">PubMed 19855405</a></li>
-            <li>Barker N. Adult intestinal stem cells: critical drivers of epithelial homeostasis and regeneration. <em>Nat Rev Mol Cell Biol.</em> 2014;15(1):19-33. <a href="https://doi.org/10.1038/nrm3721" target="_blank" rel="noopener">doi:10.1038/nrm3721</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/24326621/" target="_blank" rel="noopener">PubMed 24326621</a></li>
+            <li><a href="https://doi.org/10.1016/j.cell.2013.07.004" target="_blank" rel="noopener noreferrer">Clevers H. The intestinal crypt, a prototype stem cell compartment. Cell. 2013;154(2):274-84.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/23870119/" target="_blank" rel="noopener noreferrer">PubMed 23870119</a></li>
+            <li><a href="https://doi.org/10.1038/nri2316" target="_blank" rel="noopener noreferrer">Artis D. Epithelial-cell recognition of commensal bacteria and maintenance of immune homeostasis in the gut. Nat Rev Immunol. 2008;8(6):411-20.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18469830/" target="_blank" rel="noopener noreferrer">PubMed 18469830</a></li>
+            <li><a href="https://doi.org/10.1038/nri2653" target="_blank" rel="noopener noreferrer">Turner JR. Intestinal mucosal barrier function in health and disease. Nat Rev Immunol. 2009;9(11):799-809.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19855405/" target="_blank" rel="noopener noreferrer">PubMed 19855405</a></li>
+            <li><a href="https://doi.org/10.1038/nrm3721" target="_blank" rel="noopener noreferrer">Barker N. Adult intestinal stem cells: critical drivers of epithelial homeostasis and regeneration. Nat Rev Mol Cell Biol. 2014;15(1):19-33.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/24326621/" target="_blank" rel="noopener noreferrer">PubMed 24326621</a></li>
           </ul>
         </div>
 
@@ -231,12 +192,11 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="digestive-system.html">Digestive System</a>
-      <a href="liver.html">Liver</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
