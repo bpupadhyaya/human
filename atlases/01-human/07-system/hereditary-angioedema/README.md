@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "C1-INH deficiency → chronic C1 complex activation → C4 consumed even between attacks (key screening test); low C4 + low C1-INH activity = HAE type I/II diagnosis; C3 usually normal; C1q normal (distinguishes HAE from acquired angioedema with anti-C1q antibodies)."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "HAE is the paradigmatic bradykinin-excess disease: C1-INH deficiency → uncontrolled FXII/kallikrein → bradykinin generation from HMWK; bradykinin binds B2R on postcapillary venules → Gαq/Ca²⁺ → eNOS/NO → vascular permeability; icatibant (B2R antagonist) aborts HAE attacks."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "ACE (kininase II) degrades bradykinin; ACEi block catabolism → bradykinin accumulation → angioedema (~0.1-0.7% of users); ACEi contraindicated in HAE; Ang-II and bradykinin are both ACE substrates → RAAS and kinin-kallikrein systems are mechanistically linked."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Trauma/surgery → thrombin generation → FXII activation → contact cascade → kallikrein → bradykinin → HAE attack; surgical trauma triggers ~25-50% of HAE attacks; short-term C1-INH concentrate or icatibant before high-risk procedures prevents peri-operative attacks."
 ---
 
 # Hereditary Angioedema
@@ -174,6 +183,9 @@ Fluid extravasation → ANGIOEDEMA
 
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — C1-INH deficiency (type I: low antigen + activity; type II: low activity, normal antigen) → uncontrolled FXII/kallikrein → bradykinin excess → B2R-mediated vascular permeability → HAE attacks; icatibant, C1-INH concentrate, berotralstat, and lanadelumab are therapeutic targets.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — C1-INH deficiency → chronic low-level C1 complex activation → C4/C2 cleavage → C4 consumed even between attacks; low C4 + low C1-INH functional activity = diagnostic criteria for HAE type I/II; C3 is usually normal (C3 convertase limited); C1q is normal (distinguishes from acquired angioedema).
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — HAE is the paradigmatic bradykinin-excess disease: C1-INH deficiency → uncontrolled FXII/kallikrein → bradykinin generation from HMWK; bradykinin binds B2R on postcapillary venules → Gαq/Ca²⁺ → eNOS/NO → vascular permeability; icatibant (B2R antagonist) aborts HAE attacks.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ACE (kininase II) degrades bradykinin; ACEi block catabolism → bradykinin accumulation → angioedema (~0.1-0.7% of users); ACEi contraindicated in HAE; Ang-II and bradykinin are both ACE substrates → RAAS and kinin-kallikrein systems are mechanistically linked.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Trauma/surgery → thrombin generation → FXII activation → contact cascade → kallikrein → bradykinin → HAE attack; surgical trauma triggers ~25-50% of HAE attacks; short-term C1-INH concentrate or icatibant before high-risk procedures prevents peri-operative attacks.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

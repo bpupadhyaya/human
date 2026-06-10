@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: modulates
     note: "Angiotensinogen is synthesised by hepatocytes (~0.5–1 µM plasma) as the sole renin substrate; hepatocyte-derived angiotensinogen is rate-limiting for RAAS when renin is very high; hepatic AT1R mediates glycogenolysis."
+  - target: 01-human/07-system/hereditary-angioedema
+    relation: connects-to
+    note: "ACE (kininase II) degrades bradykinin; ACEi block catabolism → bradykinin accumulation → angioedema (~0.1-0.7% of users); ACEi contraindicated in HAE; Ang-II and bradykinin are both ACE substrates → RAAS and kinin-kallikrein systems are mechanistically linked."
 ---
 
 # Angiotensin II
@@ -162,6 +165,7 @@ Ang II → AT1R on adrenal zona glomerulosa → Gq → ↑IP3→↑Ca²⁺ → S
 - `modulates` → **[kidney](../../06-organ/kidney/README.md)** — efferent arteriole constriction (GFR maintenance), ↑NHE3 (proximal Na⁺ reabsorption), aldosterone axis (distal Na⁺/K⁺), and CKD progression via TGF-β mesangial fibrosis [^stryer-biochemistry]
 - `modulated-by` → **[ace-inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — ACEi block conversion of Ang I → Ang II; reduce AT1R-mediated vasoconstriction, aldosterone, and cardiac fibrosis; bradykinin accumulation causes cough and angioedema via B2R [^stryer-biochemistry]
 - `modulates` → **[hepatocyte](../../04-cellular/hepatocyte/README.md)** — angiotensinogen is synthesised exclusively by hepatocytes; rate-limiting substrate for renin; hepatic AT1R mediates glycogenolysis; hepatic angiotensin system has local paracrine roles in fibrosis [^stryer-biochemistry]
+- `connects-to` → **[Hereditary Angioedema](../../07-system/hereditary-angioedema/README.md)** — ACE (kininase II) degrades bradykinin; ACEi block catabolism → bradykinin accumulation → angioedema (~0.1-0.7% of users); ACEi contraindicated in HAE; Ang-II and bradykinin are both ACE substrates → RAAS and kinin-kallikrein systems are mechanistically linked.
 
 ## Pathology
 
@@ -191,4 +195,8 @@ Ang II → AT1R on adrenal zona glomerulosa → Gq → ↑IP3→↑Ca²⁺ → S
 - [ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md) — AT1R direct blockers; preferred when ACEi not tolerated
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [Macmillan Learning](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 [^janeway-immunobiology]: Murphy K, Weaver C. *Janeway's Immunobiology.* 9th ed. Garland Science; 2017. [Garland Science](https://www.garlandscience.com/product/isbn/9780815345053)

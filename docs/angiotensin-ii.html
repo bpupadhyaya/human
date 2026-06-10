@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Angiotensin II — octapeptide RAAS effector (Asp-Arg-Val-Tyr-Ile-His-Pro-Phe; MW 1046 Da). Acts via AT1R (vasoconstriction, aldosterone, fibrosis) and AT2R (counter-regulatory). Target of ACEi and ARBs.">
+  <meta name="description" content="Octapeptide (Asp-Arg-Val-Tyr-Ile-His-Pro-Phe; MW 1046); RAAS effector produced by ACE from Ang I. Acts via AT1R (vasoconstriction, aldosterone, Na⁺ retention, c">
   <meta property="og:title" content="Angiotensin II — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Angiotensin II — Human Engineering</title>
@@ -13,14 +13,14 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #b45309;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
            background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--accent); text-decoration: none; transition: color .15s; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
     nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
           -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -46,9 +46,7 @@
                color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
     .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
                      max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .alias-pills { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.5rem; }
-    .alias-pill { display: inline-block; padding: 0.2rem 0.65rem; border-radius: 999px;
-                  background: rgba(180,83,9,0.08); color: #b45309; font-size: 0.78rem; font-weight: 600; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
     .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
                 padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
@@ -56,10 +54,13 @@
     .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
                   letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
     .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
                    border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
                    box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #92400e); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
     .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
                                     text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
     .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
@@ -69,12 +70,6 @@
     .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
                          text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
                          padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { font-size: 0.93rem; color: var(--fg-soft); line-height: 1.7; margin-bottom: 0.75rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft);
-                     border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
-                         font-size: 0.78rem; line-height: 1.6; color: var(--fg-soft); white-space: pre; }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
     .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
                      font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
@@ -82,17 +77,13 @@
     .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
                      color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .principle-box { background: rgba(180,83,9,0.06); border-left: 3px solid #b45309;
-                     border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-                     padding: 1rem 1.25rem; font-size: 0.88rem; color: var(--fg-soft); }
-    .principle-box strong { color: #b45309; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
     .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
                  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
                  font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
     .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
-                      letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -103,7 +94,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--accent); }
+    .footer-links a:hover { color: var(--bio); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -128,261 +119,62 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow" style="background: rgba(180,83,9,0.1); color: #b45309;">Atlas One &middot; Human &middot; Molecular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
     <h1>Angiotensin II</h1>
-    <p class="tagline">Octapeptide effector of the RAAS (Asp-Arg-Val-Tyr-Ile-His-Pro-Phe; MW 1046 Da) — the most potent endogenous vasoconstrictor. Acts via AT1R (vasoconstriction, aldosterone, fibrosis) and counter-regulatory AT2R. Opposed by ACE2/Ang 1-7/Mas. Target of ACEi, ARBs, and sacubitril/valsartan.</p>
-    <div class="alias-pills">
-      <span class="alias-pill">AngII</span>
-      <span class="alias-pill">Ang II</span>
-      <span class="alias-pill">angiotensin-2</span>
-      <span class="alias-pill">AII</span>
-      <span class="alias-pill">vasoconstrictor octapeptide</span>
-    </div>
+    <p class="tagline">Octapeptide (Asp-Arg-Val-Tyr-Ile-His-Pro-Phe; MW 1046); RAAS effector produced by ACE from Ang I. Acts via AT1R (vasoconstriction, aldosterone, Na⁺ retention, cardiac hypertrophy) and AT2R (counter-regulatory). Key target of ACEi and ARBs.</p>
+    <p class="aliases">Also known as: AngII, Ang II, angiotensin-2, AII, vasoconstrictor octapeptide</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">8 aa</span><span class="stat-label">Peptide length</span></div>
-      <div class="stat"><span class="stat-num">1046 Da</span><span class="stat-label">Molecular weight</span></div>
-      <div class="stat"><span class="stat-num">15–60 s</span><span class="stat-label">Plasma half-life</span></div>
-      <div class="stat"><span class="stat-num">AT1R / AT2R</span><span class="stat-label">Primary receptors</span></div>
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Peptide Hormone · RAAS</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">angiotensin-ii</div>
         <h2>Angiotensin II</h2>
-        <p class="summary">RAAS effector octapeptide generated by ACE from Ang I. AT1R activation drives vasoconstriction (Gq/IP3/Ca²⁺), cardiac hypertrophy and fibrosis (MAPK/TGF-β/SMAD), aldosterone secretion, and sympathetic potentiation. AT2R counter-regulates via NO/cGMP and phosphatases. ACE2 converts Ang II → Ang 1-7 (Mas receptor, vasodilatory) — the counter-axis exploited by SARS-CoV-2. Therapeutic blockade with ACEi or ARBs is standard of care in hypertension, HFrEF, post-MI, and CKD.</p>
+        <p class="summary">Octapeptide (Asp-Arg-Val-Tyr-Ile-His-Pro-Phe; MW 1046); RAAS effector produced by ACE from Ang I. Acts via AT1R (vasoconstriction, aldosterone, Na⁺ retention, cardiac hypertrophy) and AT2R (counter-regulatory). Key target of ACEi and ARBs.</p>
       </div>
-
       <div class="detail-body">
 
-        <!-- OVERVIEW -->
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>Angiotensin II is the principal effector of the <strong>renin-angiotensin-aldosterone system (RAAS)</strong> — the dominant neurohumoral axis controlling blood pressure, fluid balance, and vascular tone. It is generated from the 10-amino-acid precursor angiotensin I by the zinc-dependent dipeptidyl carboxypeptidase ACE, removing the C-terminal His-Leu dipeptide.</p>
-          <p>Ang II acts through two GPCRs: <strong>AT1R</strong> (the predominant receptor in adults, mediating vasoconstriction, aldosterone, ADH, Na⁺ retention, cardiac hypertrophy, and fibrosis) and <strong>AT2R</strong> (largely counter-regulatory — vasodilation, anti-fibrosis, anti-proliferation via NO/cGMP). The ratio of AT1R:AT2R signalling determines cardiovascular outcome.</p>
-          <p>Chronic AT1R over-activation is a central driver of end-organ damage in hypertension, heart failure, and diabetic nephropathy. The <strong>ACE2/Ang 1-7/Mas axis</strong> provides endogenous opposition. SARS-CoV-2 hijacks ACE2 as its entry receptor, down-regulating surface ACE2 and shifting the Ang II:Ang 1-7 balance toward injury.</p>
-        </div>
-
-        <!-- STRUCTURE AND CHEMISTRY -->
-        <div class="detail-section">
-          <h3>Structure and Chemistry</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <thead>
-              <tr><th>Property</th><th>Value</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Sequence (IUPAC)</td><td>Asp-Arg-Val-Tyr-Ile-His-Pro-Phe (positions 1–8)</td></tr>
-              <tr><td>Molecular weight</td><td>1046.18 Da</td></tr>
-              <tr><td>Precursor</td><td>Angiotensin I (10 aa); ultimately from angiotensinogen (452 aa, hepatocyte-derived glycoprotein)</td></tr>
-              <tr><td>Generating enzyme</td><td>ACE (Zn²⁺ dipeptidyl carboxypeptidase; removes His-Leu from Ang I C-terminus)</td></tr>
-              <tr><td>Plasma half-life</td><td>~15–60 seconds (cleaved by angiotensinases — aminopeptidases, ACE2, neprilysin)</td></tr>
-              <tr><td>Charged residues</td><td>Asp¹ (−), Arg² (+), Tyr⁴ (H-bond donor); Pro⁷ provides rigidity protecting C-terminal Phe⁸ from further ACE cleavage</td></tr>
-              <tr><td>AT1R binding determinants</td><td>C-terminal Phe⁸ and His⁶ are critical; Pro⁷ rigidifies the C-terminal dipeptide geometry</td></tr>
-            </tbody>
-          </table>
-
-          <p style="margin-top:1rem;"><strong>ACE structure:</strong> ACE exists in two isoforms — somatic ACE (1306 aa; two catalytic domains, N and C) expressed on lung/renal endothelium (responsible for bulk circulating Ang II generation) and germinal ACE (732 aa; single catalytic domain) on testicular spermatids. ACE also inactivates bradykinin; ACEi simultaneously raises bradykinin → B2R → PGE2/substance P → dry cough (up to 15%) and angioedema (0.1–0.3%).</p>
-
-          <p><strong>AT receptor comparison:</strong></p>
-          <table class="data-table">
-            <thead>
-              <tr><th>Receptor</th><th>Gene</th><th>G-protein</th><th>Expression (adult)</th><th>Primary effects</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>AT1R</td><td>AGTR1</td><td>Gq + Gi; also β-arrestin</td><td>VSM, heart, adrenal ZG, kidney, brain, liver</td><td>Vasoconstriction, aldosterone, ADH, Na⁺ retention, hypertrophy, fibrosis, sympathetic activation</td></tr>
-              <tr><td>AT2R</td><td>AGTR2</td><td>Gi; phosphatases; NO/cGMP</td><td>Fetal tissues, brain, adrenal medulla; upregulated after injury/HF</td><td>Vasodilation, anti-proliferative, anti-fibrotic, anti-apoptotic — counter-regulatory</td></tr>
-            </tbody>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>angiotensin-ii</td></tr>
+            <tr><td>Name</td><td>Angiotensin II</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
           </table>
         </div>
 
-        <!-- MECHANISM OF ACTION -->
         <div class="detail-section">
-          <h3>Mechanism of Action</h3>
-
-          <p><strong>RAAS pathway — synthesis to receptor:</strong></p>
-          <div class="pathway-block">
-            <pre>
-  ↓Blood pressure / ↓Na⁺ delivery to macula densa / ↑renal sympathetics
-          │
-          ▼
-  Juxtaglomerular apparatus → Renin secretion
-  (β1AR/cAMP, stretch-sensitive, NaCl-sensing)
-          │
-          ▼
-  Renin cleaves Angiotensinogen (hepatocyte, 452 aa) → Ang I (10 aa)
-  [Asp-Arg-Val-Tyr-Ile-His-Pro-Phe-His-Leu]
-          │
-          ▼
-  ACE (lung + renal endothelium, Zn²⁺ carboxypeptidase)
-  removes C-terminal His-Leu dipeptide
-          │
-          ▼
-  Ang II (8 aa): Asp-Arg-Val-Tyr-Ile-His-Pro-Phe
-  plasma t½ ~15–60 s
-          │
-          ┌──────────────────────┬─────────────────────┐
-          │                      │                      │
-         AT1R (Gq)            AT1R (Gi/ERK)           AT2R (Gi/PTP/NO)
-          │                      │                      │
-  Vasoconstriction         Hypertrophy/fibrosis    Vasodilation
-  Aldosterone (ZG)         MAPK → GATA4/SRF        Anti-proliferation
-  ADH (hypothalamus)       TGF-β/SMAD2/3           Anti-fibrosis
-  Na⁺ retention (NHE3)     Collagen I/III           NO/cGMP
-  ↑Sympathetic outflow
-
-          ▼  counter-axis
-  ACE2 (heart/kidney/lung/gut) cleaves Ang II → Ang 1-7
-          │
-         Mas receptor → eNOS → NO → cGMP → ↓TGF-β → vasodilation + anti-fibrosis
-  [SARS-CoV-2 spike binds ACE2 → ↓surface ACE2 → ↑Ang II:Ang 1-7 ratio → ↑injury]
-            </pre>
-          </div>
-
-          <p><strong>AT1R Gq pathway (vasoconstriction):</strong></p>
-          <div class="pathway-block">
-            <pre>
-  Ang II + AT1R
-          │
-          ▼
-  Gαq → PLC-β → PIP2 → IP3 + DAG
-          │                  │
-          ▼                  ▼
-  IP3 → IP3R on SR/ER      DAG + Ca²⁺ → PKC
-  → ↑intracellular Ca²⁺          │
-          │               NHE3 activation (↑Na⁺ reabsorption)
-          ▼               NADPH oxidase → ROS → TGF-β
-  Ca²⁺ + calmodulin → MLCK → MLC-P → smooth muscle contraction
-  → ↑peripheral vascular resistance → ↑BP
-
-  Aldosterone axis (adrenal zona glomerulosa):
-  AT1R → ↑IP3/Ca²⁺ → StAR (mitochondrial cholesterol) → CYP11A1
-  → pregnenolone → progesterone → 11-deoxycorticosterone → corticosterone
-  → Aldosterone (CYP11B2, rate-limiting) → MR in distal nephron
-  → ↑ENaC + ↑Na/K-ATPase → Na⁺ retention, K⁺ excretion → ↑plasma volume
-            </pre>
-          </div>
-
-          <p><strong>MAPK / TGF-β / fibrosis pathways (cardiac and renal remodelling):</strong></p>
-          <div class="pathway-block">
-            <pre>
-  AT1R (cardiac fibroblasts / cardiomyocytes)
-          │
-          ├── Gβγ / Gαq → Ras/RAF/MEK → ERK1/2
-          │       → transcription factors GATA4, SRF
-          │       → fetal gene re-expression (β-MHC, ANP, BNP) → hypertrophy
-          │
-          ├── JAK2 (ligand-independent transactivation) → STAT3 → hypertrophic program
-          │
-          └── Gq → PKC → NADPH oxidase → ROS
-                  → latent TGF-β activation → TGFβR → SMAD2/3 phosphorylation
-                  → nuclear translocation → collagen I/III, fibronectin → fibrosis
-
-  AT2R counter-signal:
-  AT2R → Gi (↓cAMP) → protein tyrosine phosphatases → ↓ERK1/2 (anti-proliferative)
-       → bradykinin B2R → eNOS → NO → cGMP → PKG → SM relaxation
-            </pre>
-          </div>
-        </div>
-
-        <!-- PHYSIOLOGICAL ROLES -->
-        <div class="detail-section">
-          <h3>Physiological Roles by System</h3>
-          <table class="data-table">
-            <thead>
-              <tr><th>System / organ</th><th>AT1R-mediated effect</th><th>Mechanism</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Vasculature (systemic)</td><td>Vasoconstriction → ↑SVR → ↑BP (most potent endogenous vasoconstrictive signal)</td><td>Gq → IP3 → ↑Ca²⁺ → MLCK → MLC phosphorylation</td></tr>
-              <tr><td>Heart (cardiomyocytes)</td><td>Hypertrophic gene program (↑β-MHC, ↑ANP/BNP, ↑cell size)</td><td>Gq/ERK/GATA4 + JAK2/STAT3</td></tr>
-              <tr><td>Heart (fibroblasts)</td><td>Fibrosis → ↑collagen I/III → ↓compliance → HFpEF progression</td><td>TGF-β/SMAD2/3 → collagen gene transcription</td></tr>
-              <tr><td>Adrenal zona glomerulosa</td><td>Aldosterone synthesis → ↑ENaC/Na⁺-K⁺-ATPase → Na⁺ retention, K⁺ excretion</td><td>↑IP3/Ca²⁺ → StAR → CYP11B2 (aldosterone synthase)</td></tr>
-              <tr><td>Kidney (efferent arteriole)</td><td>Preferential efferent constriction → maintains GFR despite ↓RBF (critical in hypovolemia)</td><td>Smooth muscle AT1R → vasoconstriction</td></tr>
-              <tr><td>Kidney (proximal tubule)</td><td>↑NHE3 + NBC → ↑Na⁺ + HCO₃⁻ reabsorption (~65% filtered Na⁺)</td><td>AT1R → PKC → NHE3 phosphorylation/trafficking</td></tr>
-              <tr><td>Kidney (mesangial cells)</td><td>↓Kf (glomerular filtration coefficient); TGF-β → matrix expansion → glomerulosclerosis in CKD</td><td>Gq (mesangial contraction); TGF-β/SMAD (fibrosis)</td></tr>
-              <tr><td>Brain (circumventricular organs)</td><td>↑Sympathetic outflow from RVLM; ↑ADH release from hypothalamus → ↑water reabsorption (V2R/AQP2)</td><td>AT1R in OVLT, subfornical organ (outside BBB)</td></tr>
-              <tr><td>Adrenergic terminals</td><td>Facilitates NE release → potentiates sympathetic vasoconstriction</td><td>Presynaptic AT1R → enhanced neurotransmitter exocytosis</td></tr>
-              <tr><td>Liver (hepatocyte)</td><td>Glycogenolysis; paracrine hepatic fibrosis (local RAAS)</td><td>Hepatic AT1R; local Ang II generation</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- PHARMACOLOGY -->
-        <div class="detail-section">
-          <h3>Pharmacology — RAAS-Targeting Drugs</h3>
-          <table class="data-table">
-            <thead>
-              <tr><th>Drug class / example</th><th>Mechanism</th><th>Key side effects</th><th>Major indications / trials</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>ACE inhibitors (ramipril, enalapril, lisinopril, captopril, perindopril)</td><td>Block ACE → ↓Ang I→Ang II conversion; ↑bradykinin → B2R</td><td>Dry cough (10–15%); angioedema (0.1–0.3%, rare but severe); ↑K⁺; ↑Cr in bilateral RAS; teratogenic</td><td>HFrEF, post-MI LV dysfunction (SAVE, HOPE, AIRE), hypertension, diabetic nephropathy, CKD with proteinuria</td></tr>
-              <tr><td>Angiotensin receptor blockers — ARBs (losartan, valsartan, irbesartan, candesartan, telmisartan)</td><td>Directly block AT1R; do NOT inhibit bradykinin degradation (no cough)</td><td>Hyperkalemia, ↑Cr in bilateral RAS; teratogenic; less angioedema (not zero — bradykinin-independent pathway)</td><td>HFrEF (Val-HeFT, CHARM), hypertension, diabetic nephropathy (IDNT, RENAAL), post-MI (VALIANT)</td></tr>
-              <tr><td>Sacubitril/valsartan (ARNI — angiotensin receptor neprilysin inhibitor)</td><td>Valsartan (AT1R block) + sacubitril (neprilysin inhibitor → ↑ANP/BNP/bradykinin → vasodilation, natriuresis)</td><td>Symptomatic hypotension; angioedema risk if switching from ACEi (36-hour washout); ↑K⁺</td><td>HFrEF replacing ACEi (PARADIGM-HF: 20% mortality reduction vs. enalapril); 2022 AHA/ACC/HFSA guideline preferred over ACEi in stable HFrEF</td></tr>
-              <tr><td>Mineralocorticoid receptor antagonists — MRAs (spironolactone, eplerenone, finerenone)</td><td>Block aldosterone MR in distal nephron and non-epithelial tissues → ↓Na⁺ retention, ↓cardiac fibrosis</td><td>Hyperkalemia; gynecomastia (spironolactone, not eplerenone/finerenone)</td><td>HFrEF (RALES, EMPHASIS-HF), post-MI (EPHESUS), diabetic CKD (FIDELIO-DKD — finerenone)</td></tr>
-              <tr><td>Direct renin inhibitor — aliskiren</td><td>Blocks renin enzymatic activity → ↓Ang I → ↓Ang II; ↓plasma renin activity</td><td>Hyperkalemia; diarrhea; not combined with ACEi/ARB (ALTITUDE: ↑AKI/stroke)</td><td>Hypertension (limited use); combination with ACEi/ARB contraindicated in diabetes/CKD</td></tr>
-              <tr><td>Icatibant (bradykinin B2R antagonist)</td><td>Blocks bradykinin B2R → ↓vascular permeability</td><td>Injection site reactions</td><td>ACEi-induced angioedema (acute treatment); also hereditary angioedema</td></tr>
-            </tbody>
-          </table>
-
-          <div class="principle-box" style="margin-top:1.25rem;">
-            <strong>Bilateral renal artery stenosis and ACEi/ARBs:</strong> In bilateral RAS (or single functioning kidney with RAS), GFR is maintained by preferential efferent arteriole constriction driven by Ang II. ACEi or ARBs block this efferent constriction → ↓GFR → acute kidney injury. Creatinine rise &gt;30% after starting an ACEi/ARB should prompt investigation for renovascular disease. ACEi and ARBs are <em>absolutely contraindicated</em> in confirmed bilateral RAS and in pregnancy (teratogenic: fetal renal dysgenesis, oligohydramnios, neonatal death).
-          </div>
-        </div>
-
-        <!-- PATHOLOGY -->
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <table class="data-table">
-            <thead>
-              <tr><th>Condition</th><th>RAAS mechanism</th><th>Treatment relevance</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Essential hypertension</td><td>RAAS over-activation (genetic + dietary Na⁺); ↑Ang II → ↑SVR + ↑volume</td><td>ACEi or ARBs first-line (JNC8/ESC/AHA guidelines); ARBs preferred if ACEi-intolerant</td></tr>
-              <tr><td>Renovascular hypertension</td><td>Renal artery stenosis → ↓RBF → ↑renin → ↑Ang II (secondary hyperaldosteronism); fibromuscular dysplasia (young women) or atherosclerosis (older)</td><td>Captopril renogram (↑renin after ACEi); percutaneous revascularisation vs. medical RAAS blockade</td></tr>
-              <tr><td>Conn syndrome (primary aldosteronism)</td><td>Autonomous aldosterone-producing adenoma; ↑aldosterone, ↑Na⁺, ↓K⁺, ↓renin; Ang II NOT the driver</td><td>Adrenalectomy (adenoma) or MRA (bilateral hyperplasia); distinguish from RAAS-driven states</td></tr>
-              <tr><td>Heart failure (HFrEF)</td><td>Chronic Ang II → cardiac hypertrophy, fibrosis (TGF-β/SMAD), maladaptive remodelling; neurohormonal vicious cycle with NE and aldosterone</td><td>ACEi (or sacubitril/valsartan) + β-blocker + MRA + SGLT2i = evidence-based four pillars; PARADIGM-HF: sacubitril/valsartan superior</td></tr>
-              <tr><td>Diabetic nephropathy</td><td>Intraglomerular hypertension + Ang II-driven TGF-β → mesangial fibrosis → glomerulosclerosis → progressive CKD + proteinuria</td><td>ACEi or ARBs reduce proteinuria and slow CKD independent of BP (IDNT, RENAAL); finerenone additive (FIDELIO-DKD)</td></tr>
-              <tr><td>CKD progression (non-diabetic)</td><td>Ang II → mesangial matrix expansion → glomerulosclerosis → tubular atrophy; hypertension worsens intraglomerular pressure</td><td>ACEi/ARBs standard of care regardless of aetiology when proteinuria present</td></tr>
-              <tr><td>COVID-19 cardiovascular pathology</td><td>SARS-CoV-2 spike + ACE2 → viral entry → ↓surface ACE2 → ↑Ang II:Ang 1-7 ratio → ↑inflammation, ↑TGF-β fibrosis, ↑thrombosis</td><td>Continued ACEi/ARBs in COVID-19 is safe (not contraindicated; multiple meta-analyses 2020–2022)</td></tr>
-              <tr><td>ACEi-induced angioedema</td><td>↑Bradykinin (ACE no longer cleaves kinin) → B2R → ↑vascular permeability → laryngeal/tongue/lips swelling (potentially fatal)</td><td>Immediate ACEi discontinuation; icatibant (B2R antagonist) or C1-INH concentrate; FFP if unavailable; switch to ARB (lower recurrence risk, not zero)</td></tr>
-              <tr><td>ACEi/ARB in pregnancy</td><td>↓Ang II impairs fetal renal tubular development → oligohydramnios → limb contractures, pulmonary hypoplasia, neonatal renal failure</td><td>Absolutely contraindicated after 1st trimester (FDA class D→X); switch to methyldopa/labetalol/nifedipine</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- CONNECTIONS -->
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">modulates</span>Cardiovascular System</a>
-            <a class="conn-pill" href="kidney.html"><span class="rel">modulates</span>Kidney</a>
-            <a class="conn-pill" href="hepatocyte.html"><span class="rel">modulates</span>Hepatocyte</a>
-            <a class="conn-pill" href="norepinephrine.html"><span class="rel">potentiates</span>Norepinephrine (sympathetic)</a>
-            <a class="conn-pill" href="epinephrine.html"><span class="rel">co-axis</span>Epinephrine</a>
-            <a class="conn-pill" href="beta1-adrenergic-receptor.html"><span class="rel">upstream-of</span>&beta;1-AR (renin trigger)</a>
-            <a class="conn-pill" href="nitric-oxide.html"><span class="rel">opposed-by</span>Nitric Oxide (ACE2/Ang1-7)</a>
-            <a class="conn-pill" href="aldosterone.html"><span class="rel">stimulates</span>Aldosterone synthesis</a>
-            <a class="conn-pill" href="vasopressin.html"><span class="rel">stimulates</span>ADH/Vasopressin release</a>
-            <a class="conn-pill" href="ace-inhibitors.html"><span class="rel">target-of</span>ACE Inhibitors</a>
-            <a class="conn-pill damaged" href="hypertension.html"><span class="rel">drives</span>Hypertension</a>
-            <a class="conn-pill damaged" href="heart-failure.html"><span class="rel">drives</span>HFrEF remodelling</a>
-            <a class="conn-pill damaged" href="ckd.html"><span class="rel">drives</span>CKD progression</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Ang II is the most potent endogenous vasoconstrictor; AT1R on VSM → IP3→Ca²⁺→vasoconstriction; AT1R on heart → hypertrophy/fibrosis. RAAS-targeting drugs (ACEi, ARBs) reduce MACE in HF, post-MI, and diabetic nephropathy."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="kidney.html" title="Ang II constricts efferent arterioles (maintaining GFR despite ↓RBF), ↑NHE3 (proximal Na⁺), stimulates aldosterone (Na⁺/K⁺ balance), and drives CKD progression via TGF-β mesangial fibrosis."><span class="rel">modulates</span>Kidney</a>
+            <a class="conn-pill" href="ace-inhibitors.html" title="ACE inhibitors block Ang I → Ang II conversion, reducing AT1R-mediated vasoconstriction, aldosterone secretion, and cardiac fibrosis; they also accumulate bradykinin via B2 receptor, causing cough and angioedema."><span class="rel">modulated-by</span>Ace Inhibitors</a>
+            <a class="conn-pill" href="hepatocyte.html" title="Angiotensinogen is synthesised by hepatocytes (~0.5–1 µM plasma) as the sole renin substrate; hepatocyte-derived angiotensinogen is rate-limiting for RAAS when renin is very high; hepatic AT1R mediates glycogenolysis."><span class="rel">modulates</span>Hepatocyte</a>
+            <a class="conn-pill" href="hereditary-angioedema.html" title="ACE (kininase II) degrades bradykinin; ACEi block catabolism → bradykinin accumulation → angioedema (~0.1-0.7% of users); ACEi contraindicated in HAE; Ang-II and bradykinin are both ACE substrates → RAAS and kinin-kallikrein systems are mechanistically linked."><span class="rel">connects-to</span>Hereditary Angioedema</a>
           </div>
         </div>
 
-        <!-- REFERENCES -->
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. (<a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Macmillan Learning</a>)</li>
-            <li>Murphy K, Weaver C. <em>Janeway's Immunobiology.</em> 9th ed. Garland Science; 2017. (<a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener noreferrer">Garland Science</a>)</li>
-            <li><a href="https://doi.org/10.1016/S0140-6736(14)60821-6" target="_blank" rel="noopener noreferrer">McMurray JJV, Packer M, Desai AS, et al. (PARADIGM-HF). Angiotensin–Neprilysin Inhibition versus Enalapril in Heart Failure. <em>N Engl J Med.</em> 2014;371(11):993–1004.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25176015/" target="_blank" rel="noopener noreferrer">PubMed 25176015</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa9809201" target="_blank" rel="noopener noreferrer">Brenner BM, Cooper ME, de Zeeuw D, et al. (RENAAL). Effects of losartan on renal and cardiovascular outcomes in type 2 diabetes and nephropathy. <em>N Engl J Med.</em> 2001;345(12):861–869.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11565519/" target="_blank" rel="noopener noreferrer">PubMed 11565519</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa010305" target="_blank" rel="noopener noreferrer">Lewis EJ, Hunsicker LG, Clarke WR, et al. (IDNT). Renoprotective effect of the angiotensin-receptor antagonist irbesartan in patients with nephropathy due to type 2 diabetes. <em>N Engl J Med.</em> 2001;345(12):851–860.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11565517/" target="_blank" rel="noopener noreferrer">PubMed 11565517</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa032292" target="_blank" rel="noopener noreferrer">Pitt B, Zannad F, Remme WJ, et al. (RALES). Effect of spironolactone on morbidity and mortality in severe heart failure. <em>N Engl J Med.</em> 1999;341(10):709–717.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/10471456/" target="_blank" rel="noopener noreferrer">PubMed 10471456</a></li>
-            <li><a href="https://doi.org/10.1056/NEJMoa2025845" target="_blank" rel="noopener noreferrer">Bakris GL, Agarwal R, Anker SD, et al. (FIDELIO-DKD). Effect of finerenone on chronic kidney disease outcomes in type 2 diabetes. <em>N Engl J Med.</em> 2020;383(23):2219–2229.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/33264825/" target="_blank" rel="noopener noreferrer">PubMed 33264825</a></li>
-            <li><a href="https://doi.org/10.1161/CIR.0000000000001063" target="_blank" rel="noopener noreferrer">Heidenreich PA et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. <em>Circulation.</em> 2022;145(18):e895–e1032.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/35363499/" target="_blank" rel="noopener noreferrer">PubMed 35363499</a></li>
+            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li><a href="https://www.garlandscience.com/product/isbn/9780815345053" target="_blank" rel="noopener noreferrer">Murphy K, Weaver C. Janeway's Immunobiology. 9th ed. Garland Science; 2017.</a></li>
           </ul>
         </div>
 
@@ -398,9 +190,8 @@
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-    <p class="footer-meta" style="margin-top:0.3rem;">&copy; <span id="year"></span> Bhim Upadhyaya</p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>

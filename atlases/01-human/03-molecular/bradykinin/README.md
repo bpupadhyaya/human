@@ -21,6 +21,9 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Bradykinin → B2R on airway epithelium → PLA2 → arachidonic acid → COX-2 → PGE2 → sensitizes TRPV1 cough receptors → ACE inhibitor dry cough; bradykinin also releases PGI2 from endothelium → IP receptor → cAMP → vasodilation and platelet inhibition."
+  - target: 01-human/07-system/hereditary-angioedema
+    relation: connects-to
+    note: "HAE is the paradigmatic bradykinin-excess disease: C1-INH deficiency → uncontrolled FXII/kallikrein → bradykinin generation from HMWK; bradykinin binds B2R on postcapillary venules → Gαq/Ca²⁺ → eNOS/NO → vascular permeability; icatibant (B2R antagonist) aborts HAE attacks."
 sources:
   - id: regoli-1980-bradykinin-review
     type: peer-reviewed
@@ -139,6 +142,11 @@ ACE (kinase II) cleaves both Ang I → Ang II AND degrades bradykinin; ACE inhib
 Bradykinin → B2R → Gq/Gi → Ca2+/calmodulin → eNOS activation → NO production; NO is the primary mediator of bradykinin vasodilation; in atherosclerosis and diabetes, impaired B2R/eNOS signaling reduces bradykinin-mediated cardioprotection and endothelial function.
 
 Bradykinin → B2R on airway epithelium → PLA2 → arachidonic acid → COX-2 → PGE2 → sensitizes TRPV1 cough receptors → ACE inhibitor dry cough; bradykinin also releases PGI2 from endothelium → IP receptor → cAMP → vasodilation and platelet inhibition.
+- `connects-to` → **[Hereditary Angioedema](../../07-system/hereditary-angioedema/README.md)** — HAE is the paradigmatic bradykinin-excess disease: C1-INH deficiency → uncontrolled FXII/kallikrein → bradykinin generation from HMWK; bradykinin binds B2R on postcapillary venules → Gαq/Ca²⁺ → eNOS/NO → vascular permeability; icatibant (B2R antagonist) aborts HAE attacks.
 
 [^regoli-1980-bradykinin-review]: Regoli D, Barabe J. Pharmacology of bradykinin and related kinins. *Pharmacol Rev.* 1980;32(1):1-46. [doi:10.1111/j.1527-3458.1980.tb00077.x](https://doi.org/10.1111/j.1527-3458.1980.tb00077.x) · [PubMed 6248632](https://pubmed.ncbi.nlm.nih.gov/6248632/)
 [^zuraw-2010-hae-nejm]: Zuraw BL. Hereditary angioedema. *N Engl J Med.* 2008;359(10):1027-1036. [doi:10.1056/NEJMcp0803977](https://doi.org/10.1056/NEJMcp0803977) · [PubMed 18768946](https://pubmed.ncbi.nlm.nih.gov/18768946/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
