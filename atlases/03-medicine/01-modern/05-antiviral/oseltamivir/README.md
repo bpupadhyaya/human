@@ -44,6 +44,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/influenza-a
     relation: modulates
     note: "Blocks neuraminidase (NA) cleavage of sialic acid on host glycoproteins; newly assembled virions remain tethered to the host cell surface, preventing spread to uninfected cells. Selection pressure from oseltamivir drives H274Y resistance mutation in N1 neuraminidase."
+  - target: 01-human/07-system/respiratory-system
+    relation: treats
+    note: "Oseltamivir reduces influenza A/B symptom duration by ~17 hours (Dobson meta-analysis, Lancet 2015); reduces hospitalization in high-risk patients (elderly, immunocompromised, pregnant); must be started within 48h of symptom onset for maximal benefit."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "Severe influenza (H5N1, H1N1pdm09) causes viral ARDS via type II pneumocyte destruction and cytokine storm; early oseltamivir reduces ICU admission and ARDS risk; WHO recommends early treatment for severely ill regardless of >48h symptom delay."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Severe influenza triggers cytokine storm (IL-6, TNF-α, IFN-γ) proportional to viral load; oseltamivir limits viral replication → attenuates cytokine storm magnitude; key rationale for treatment in H5N1 and severe seasonal influenza beyond the 48h window."
 ---
 
 # Oseltamivir
@@ -161,12 +170,14 @@ The **H274Y mutation** became clinically significant when oseltamivir-resistant 
 
 ## Connections
 
-- **Treats** → [Influenza A](../../../../02-pathogen/01-viruses/influenza-a/README.md): reduces symptom duration, severe disease, and transmission risk.
-- **Modulates** → [Influenza A](../../../../02-pathogen/01-viruses/influenza-a/README.md): blocks NA-mediated virion release; resistance (H274Y) selected by drug pressure.
-- **Related agent** → Zanamivir (inhaled neuraminidase inhibitor; active against oseltamivir-resistant strains).
-- **Related agent** → Baloxavir (cap-dependent endonuclease inhibitor; different mechanism; no cross-resistance).
-- **Related agent** → Peramivir (IV neuraminidase inhibitor for critically ill patients).
-- **Vaccine alternative** → Influenza vaccines are preferred prevention; oseltamivir is not a substitute for vaccination.
+- **Treats** → [Influenza A](../../../../02-pathogen/01-viruses/influenza-a/README.md): reduces symptom duration, severe disease, and transmission risk; neuraminidase inhibition prevents virion egress from infected cells.
+- **Modulates** → [Influenza A](../../../../02-pathogen/01-viruses/influenza-a/README.md): blocks NA-mediated virion release; H274Y resistance mutation selected by drug pressure; zanamivir retains activity against H274Y strains.
+- **Treats** → [Respiratory System](../../../../01-human/07-system/respiratory-system/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of onset for maximal benefit.
+- **Connects-to** → [ARDS](../../../../01-human/06-organ/ards/README.md): Severe influenza (H5N1, H1N1pdm09) causes viral ARDS via type II pneumocyte destruction; early oseltamivir reduces ICU admission and ARDS risk; WHO recommends treatment for severely ill regardless of 48h window.
+- **Connects-to** → [Cytokine Storm](../../../../01-human/07-system/cytokine-storm/README.md): Severe influenza triggers cytokine storm (IL-6, TNF-α, IFN-γ) proportional to viral load; oseltamivir limits viral replication → attenuates cytokine storm; key rationale for treatment in H5N1 and severe seasonal influenza.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^von-itzstein-1993]: von Itzstein M, Wu WY, Kok GB, et al. Rational design of potent sialidase-based inhibitors of influenza virus replication. *Nature.* 1993;363(6428):418-23. [doi:10.1038/363418a0](https://doi.org/10.1038/363418a0)
 [^jefferson-2014-cochrane]: Jefferson T, Jones MA, Doshi P, et al. Oseltamivir for influenza in adults and children: systematic review of clinical study reports and summary of regulatory comments. *BMJ.* 2014;348:g2545. Cochrane review: [doi:10.1002/14651858.CD001265.pub4](https://doi.org/10.1002/14651858.CD001265.pub4)

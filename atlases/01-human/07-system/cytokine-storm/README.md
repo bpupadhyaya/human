@@ -40,6 +40,9 @@ cross_links:
   - target: 03-medicine/01-modern/12-anti-inflammatory/dexamethasone
     relation: modulated-by
     note: "Dexamethasone suppresses cytokine storm via GR:NF-κB transrepression (↓ IL-1β/IL-6/TNF-α) and GRE transactivation (IκBα/IL-10/ANXA1 upregulation); primary mechanism of RECOVERY trial mortality benefit and CAR-T cytokine release syndrome treatment."
+  - target: 03-medicine/01-modern/05-antiviral/oseltamivir
+    relation: connects-to
+    note: "Severe influenza triggers cytokine storm (IL-6, TNF-α, IFN-γ) proportional to viral load; oseltamivir limits viral replication → attenuates cytokine storm magnitude; key rationale for treatment in H5N1 and severe seasonal influenza beyond the 48h window."
 ---
 
 # Cytokine Storm
@@ -138,6 +141,7 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `modulated-by` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — master transcriptional driver of pro-inflammatory cytokine expression in macrophages and endothelial cells during CS
 - `modulates` → **[Lung](../../06-organ/lung/README.md)** — cytokine storm causes ARDS via neutrophil-mediated alveolar damage and endothelial barrier disruption
 - `modulated-by` → **[Dexamethasone](../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — suppresses cytokine storm via GR:NF-κB transrepression (↓ IL-1β/IL-6/TNF-α) and GRE transactivation (IκBα/IL-10/ANXA1); primary mechanism of RECOVERY trial benefit and CAR-T CRS treatment.
+- `connects-to` → **[Oseltamivir](../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md)** — Severe influenza triggers cytokine storm (IL-6, TNF-α, IFN-γ) proportional to viral load; oseltamivir limits viral replication → attenuates cytokine storm magnitude; key rationale for H5N1 and severe influenza treatment beyond the 48h window.
 
 ## Pathology
 

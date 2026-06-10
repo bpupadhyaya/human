@@ -54,6 +54,9 @@ cross_links:
   - target: 01-human/03-molecular/ncx1
     relation: modulated-by
     note: "NCX1 in forward mode extrudes ~28% of cytosolic Ca²⁺ per beat across the sarcolemma; it is the second-largest Ca²⁺ removal mechanism after SERCA2a."
+  - target: 03-medicine/01-modern/04-cardio/calcium-channel-blockers
+    relation: modulated-by
+    note: "CCBs block voltage-gated L-type Ca²⁺ channels (Cav1.2) in smooth muscle and cardiomyocytes; DHP binding to domain IV S6 reduces open-state probability; amlodipine (t½ ~35 h) has prolonged vascular selectivity; nimodipine targets cerebrovascular channels."
 ---
 
 # Calcium
@@ -137,6 +140,7 @@ This coordinated response allows the heart to beat faster, stronger, and still r
 - **Modulates** → [Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md): The Ca²⁺ transient is the trigger and the terminator of EC coupling in every working cardiomyocyte.
 - **Modulated by** → [β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md): PKA downstream of β1-AR simultaneously amplifies Ca²⁺ entry, SR release, SR reuptake, and myofilament Ca²⁺ sensitivity.
 - **Sub-atomic basis** → [Electron](../../01-subatomic/electron/README.md): Ca²⁺'s ionic charge and radius — both consequences of its electron configuration — determine why EF-hand domains bind it selectively.
+- `modulated-by` → **[Calcium Channel Blockers](../../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — CCBs block voltage-gated L-type Ca²⁺ channels (Cav1.2) in smooth muscle and cardiomyocytes; DHP binding to domain IV S6 reduces open-state probability; amlodipine (t½ ~35 h) has prolonged vascular selectivity; nimodipine targets cerebrovascular channels.
 
 ## Pathology
 
@@ -164,3 +168,5 @@ This coordinated response allows the heart to beat faster, stronger, and still r
 [^bers-2002-cardiac-ec-coupling]: Bers DM. Cardiac excitation-contraction coupling. *Nature.* 2002;415(6868):198-205. [doi:10.1038/415198a](https://doi.org/10.1038/415198a) · [PubMed 11805843](https://pubmed.ncbi.nlm.nih.gov/11805843/)
 [^carafoli-1987-calcium-homeostasis]: Carafoli E. Intracellular calcium homeostasis. *Annu Rev Biochem.* 1987;56:395-433. [doi:10.1146/annurev.bi.56.070187.002143](https://doi.org/10.1146/annurev.bi.56.070187.002143) · [PubMed 2885786](https://pubmed.ncbi.nlm.nih.gov/2885786/)
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [macmillanlearning.com](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

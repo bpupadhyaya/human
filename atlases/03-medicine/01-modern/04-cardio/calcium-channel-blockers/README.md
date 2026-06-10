@@ -40,12 +40,18 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: treats
     note: "CCBs are first-line antihypertensives and anti-anginal agents. DHP CCBs reduce SVR via vascular smooth muscle relaxation; non-DHP CCBs also reduce heart rate and AV conduction velocity, providing rate control in atrial fibrillation and treatment of PSVT."
-  - target: 01-human/07-system/cardiovascular-system
-    relation: modulates
-    note: "L-type calcium channel blockade modulates vascular tone, cardiac contractility, SA node automaticity, and AV node conduction — differentially depending on subclass tissue selectivity."
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: modulates
-    note: "Modulates by Smooth Muscle Cell."
+    note: "DHP CCBs (amlodipine, nifedipine) preferentially relax vascular smooth muscle by blocking L-type Ca²⁺ (Cav1.2); reduced intracellular Ca²⁺ prevents myosin light chain kinase activation → vasodilation; arterioles more sensitive than veins due to greater resting vascular tone."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: modulates
+    note: "Non-DHP CCBs (verapamil, diltiazem) block cardiac L-type Ca²⁺ (Cav1.2) on cardiomyocytes → negative inotropy and chronotropy; DHP CCBs (amlodipine) preferentially target vascular smooth muscle; non-DHPs are contraindicated in HFrEF with systolic dysfunction."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: modulates
+    note: "Verapamil and diltiazem block L-type Ca²⁺ in SA/AV node → rate control in AF/flutter; prolong PR interval; combined with β-blockers → risk of high-degree AV block; verapamil is first-line for non-pre-excited SVT/PSVT termination (IV) and AVNRT prevention."
+  - target: 01-human/02-atomic/calcium
+    relation: modulates
+    note: "CCBs block voltage-gated L-type Ca²⁺ channels (Cav1.2) in smooth muscle and cardiomyocytes; DHP binding to domain IV S6 reduces open-state probability; amlodipine (t½ ~35 h) has prolonged vascular selectivity; nimodipine preferentially targets cerebrovascular Ca²⁺ channels."
 ---
 
 # Calcium Channel Blockers
@@ -190,7 +196,10 @@ The CAMELOT trial is notable for demonstrating that amlodipine's benefits in sta
 ## Connections
 
 - **Treats** → [Cardiovascular system](../../../../01-human/07-system/cardiovascular-system/README.md): CCBs are first-line agents for hypertension and angina. DHP CCBs lower SVR and blood pressure; non-DHP CCBs provide rate control in arrhythmias and anti-anginal effect — critical functional interventions across the cardiovascular system.
-- **Modulates** → [Cardiovascular system](../../../../01-human/07-system/cardiovascular-system/README.md): L-type channel blockade modulates vascular tone (all CCBs), SA node automaticity (non-DHP), AV conduction (non-DHP), and myocardial contractility (non-DHP) — reflecting direct modulation of cardiovascular cellular physiology.
+- `modulates` → **[Smooth Muscle Cell](../../../../01-human/04-cellular/smooth-muscle-cell/README.md)** — DHP CCBs (amlodipine, nifedipine) preferentially relax vascular smooth muscle by blocking L-type Ca²⁺ (Cav1.2); reduced intracellular Ca²⁺ prevents myosin light chain kinase activation → vasodilation reducing afterload and blood pressure.
+- `modulates` → **[Cardiomyocyte](../../../../01-human/04-cellular/cardiomyocyte/README.md)** — non-DHP CCBs (verapamil, diltiazem) block cardiac L-type Ca²⁺ (Cav1.2) → negative inotropy and chronotropy; DHP CCBs preferentially target vascular smooth muscle; non-DHPs are contraindicated in HFrEF with systolic dysfunction.
+- `modulates` → **[Cardiac Conduction System](../../../../01-human/05-tissue/cardiac-conduction-system/README.md)** — verapamil and diltiazem block L-type Ca²⁺ in SA/AV node → rate control in AF/flutter; prolong PR interval; combined with β-blockers risks high-degree AV block; verapamil is first-line for AVNRT/PSVT termination (IV).
+- `modulates` → **[Calcium](../../../../01-human/02-atomic/calcium/README.md)** — CCBs block voltage-gated L-type Ca²⁺ channels (Cav1.2) in smooth muscle and cardiomyocytes; DHP binding to domain IV S6 reduces open-state probability; amlodipine (t½ ~35 h) has prolonged vascular selectivity; nimodipine targets cerebrovascular channels.
 - **Compare with** → [Beta-blockers](../beta-blockers/README.md): Both classes reduce heart rate and are used for angina. Beta-blockers preferred in HFrEF and post-MI; CCBs preferred in vasospastic angina and where beta-blockers are contraindicated (severe asthma, peripheral arterial disease). Combination of non-DHP CCB + beta-blocker risks AV block.
 - **Compare with** → [ACE inhibitors](../ace-inhibitors/README.md): ALLHAT shows CCBs superior to ACE-I for stroke; ACE-I superior for HFrEF and diabetic nephropathy. Often combined: CCB + RAS blocker is a recommended two-drug antihypertensive combination (ACCOMPLISH trial: amlodipine + benazepril superior to HCTZ + benazepril).
 - **Compare with** → [ARBs](../arbs/README.md): VALUE trial compared amlodipine with valsartan head-to-head; equivalent primary outcomes with earlier BP control by amlodipine. CCB + ARB is a preferred dual combination for hypertension when RAS blockade is indicated.
@@ -199,3 +208,5 @@ The CAMELOT trial is notable for demonstrating that amlodipine's benefits in sta
 [^camelot-2004]: Nissen SE, Tuzcu EM, Libby P, et al. Effect of antihypertensive agents on cardiovascular events in patients with coronary disease and normal blood pressure: the CAMELOT study. *N Engl J Med.* 2004;350(23):2352-8. [doi:10.1056/NEJMoa042761](https://doi.org/10.1056/NEJMoa042761)
 [^staessen-2001]: Staessen JA, Gasowski J, Wang JG, et al. Risks of untreated and treated isolated systolic hypertension in the elderly: meta-analysis of outcome trials. *Lancet.* 2000;355(9207):865-72. [PubMed 11289345](https://pubmed.ncbi.nlm.nih.gov/11289345/)
 [^value-2004]: Julius S, Kjeldsen SE, Weber M, et al. Outcomes in hypertensive patients at high cardiovascular risk treated with regimens based on valsartan or amlodipine: the VALUE randomised trial. *Lancet.* 2004;363(9426):2022-31. [doi:10.1016/S0140-6736(04)16451-9](https://doi.org/10.1016/S0140-6736(04)16451-9) · [PubMed 15207952](https://pubmed.ncbi.nlm.nih.gov/15207952/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

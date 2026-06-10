@@ -49,6 +49,9 @@ cross_links:
   - target: 03-medicine/01-modern/12-anti-inflammatory/dexamethasone
     relation: treated-by
     note: "RECOVERY trial (Horby 2021): 6 mg OD × 10 days reduced 28-day mortality by 17% (RR 0.83) in patients requiring oxygen; 29% reduction in mechanically ventilated patients; no benefit in those not requiring supplemental oxygen."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: treated-by
+    note: "RECOVERY trial (2021): dexamethasone 6 mg/d × 10 days; 36% 28-day mortality reduction in mechanically ventilated patients (RR 0.64); 18% reduction in those requiring supplemental oxygen; class mechanism: GR:NF-κB transrepression of cytokine genes."
 ---
 
 # COVID-19 Disease
@@ -124,6 +127,7 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[SARS-CoV-2](../sars-cov-2/README.md)** — SARS-CoV-2 is the causative betacoronavirus; NSP5 Mpro (nirmatrelvir), NSP12 RdRp (remdesivir), and Spike (vaccine antigen) are the key targets; NSP1/ORF6 IFN evasion enables early viral amplification before adaptive immunity responds.
 - `connects-to` → **[SARS-CoV-2 Spike](../../03-molecular/sars-cov-2-spike/README.md)** — Spike is the primary COVID-19 vaccine antigen; RBD:ACE2 binding initiates infection; Spike-mediated ACE2 internalization amplifies ARDS; 2P prefusion-stabilized Spike is the basis of all approved mRNA vaccines; Omicron BA.1's 37 Spike mutations drive extensive immune escape.
 - `treated-by` → **[Dexamethasone](../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — RECOVERY trial (Horby 2021): 6 mg OD × 10 days reduced 28-day mortality by 17% (RR 0.83) in patients requiring oxygen; 29% mortality reduction in mechanically ventilated patients; no benefit in those not requiring supplemental oxygen.
+- `treated-by` → **[Corticosteroids](../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — RECOVERY trial (2021): dexamethasone 6 mg/d × 10 days; 36% mortality reduction in mechanically ventilated patients (RR 0.64); 18% reduction in those requiring supplemental oxygen; mechanism: GR:NF-κB transrepression of pro-inflammatory cytokine genes.
 
 ## Pathology
 

@@ -45,6 +45,12 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "The Purkinje–myocardial junction passes the action potential from conduction cells to working myocardium via connexin-43/40 gap junctions; aberrant conduction (LBBB, RBBB, WPW) causes dyssynchronous activation → mechanical dyssynchrony → reduced ejection fraction."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: modulated-by
+    note: "β1-AR blockade slows SA node automaticity (reduced If/HCN4 activation) and AV nodal conduction → rate control in AF/flutter; prevents LQTS1/2 arrhythmias; reduces sudden cardiac death ~44% post-MI; propranolol is first-line for LQTS1/2."
+  - target: 03-medicine/01-modern/04-cardio/calcium-channel-blockers
+    relation: modulated-by
+    note: "Verapamil and diltiazem block L-type Ca²⁺ in SA/AV node → rate control in AF/flutter; prolong PR interval; combined with β-blockers risks high-degree AV block; verapamil is first-line for AVNRT/PSVT termination (IV)."
 ---
 
 # Cardiac conduction system
@@ -135,6 +141,8 @@ When the SA node fires at 75 bpm, it constantly overrides the AV node (45–60 b
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IKr (hERG/KCNH2) and IKs (KCNQ1) K⁺ currents repolarize the cardiac AP in conduction cells; KCNH2/KCNQ1 mutations cause LQTS1/2 (torsades de pointes); hypokalaemia prolongs QT by reducing IKr; IK1 sets resting potential in Purkinje fibers.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Purkinje fibers are specialized cardiomyocytes expressing connexin-40/45 and HCN4; action potentials pass to working cardiomyocytes via connexin-43 gap junctions at the Purkinje–myocardial junction; LBBB delays this coupling → ventricular dyssynchrony.
 - `connects-to` → **[Myocardium](../myocardium/README.md)** — the Purkinje–myocardial junction transmits the action potential from specialized conduction cells to working myocardium via connexin-43/40 gap junctions; aberrant conduction (LBBB, RBBB, WPW) causes dyssynchronous contraction → reduced ejection fraction.
+- `modulated-by` → **[Beta-blockers](../../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — β1-AR blockade slows SA node automaticity and AV nodal conduction → rate control in AF/flutter; prevents LQTS1/2 arrhythmias; reduces sudden cardiac death ~44% in post-MI patients; propranolol is first-line for LQTS1/2.
+- `modulated-by` → **[Calcium Channel Blockers](../../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — verapamil and diltiazem block L-type Ca²⁺ in SA/AV node → rate control in AF/flutter; prolong PR interval; combined with β-blockers risks high-degree AV block; verapamil is first-line for AVNRT/PSVT termination (IV).
 
 ## Pathology
 

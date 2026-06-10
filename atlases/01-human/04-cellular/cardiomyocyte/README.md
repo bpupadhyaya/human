@@ -92,6 +92,12 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Purkinje fibers are specialized cardiomyocytes expressing connexin-40/45 and HCN4 automaticity channel; action potentials are passed to working cardiomyocytes via connexin-43 gap junctions at the Purkinje–myocardial junction; LBBB delays this coupling → ventricular dyssynchrony."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: modulated-by
+    note: "β-blockers block β1-AR on cardiomyocytes → reduced cAMP-PKA → negative inotropy and anti-remodelling; prevents catecholamine-induced apoptosis; MERIT-HF, CIBIS-II, COPERNICUS trials show ~34% all-cause mortality reduction in HFrEF."
+  - target: 03-medicine/01-modern/04-cardio/calcium-channel-blockers
+    relation: modulated-by
+    note: "Non-DHP CCBs (verapamil, diltiazem) block L-type Ca²⁺ (Cav1.2) on cardiomyocytes → negative inotropy and chronotropy; DHP CCBs (amlodipine) preferentially target vascular smooth muscle; non-DHPs contraindicated in HFrEF."
 taxonomy:
   cell_ontology: "CL:0000746"
   lineage: "mesoderm — lateral plate (cardiogenic mesoderm)"
@@ -220,6 +226,8 @@ Lost cardiomyocytes are **not replaced**. The void fills with collagenous scar p
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IKr (hERG), IKs (KCNQ1), IK1 (Kir2.1), and Ito (Kv4.3) K⁺ currents repolarise the cardiomyocyte AP; hypokalaemia shifts EK negative → prolongs AP → EADs → torsades de pointes; IKATP (Kir6.2/SUR2A) opens during ischaemia as an AP-shortening protective mechanism.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Keshan disease (dilated cardiomyopathy in Se-deficient China) involves GPx4 and TrxR2 deficiency in cardiomyocytes, with Coxsackievirus B as co-factor; GPx4 prevents ferroptosis by reducing lipid hydroperoxides; TrxR2 maintains mitochondrial redox homeostasis.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Purkinje fibers are specialized cardiomyocytes (connexin-40/45, HCN4); action potentials pass to working cardiomyocytes via connexin-43 gap junctions at the Purkinje–myocardial junction; LBBB causes dyssynchronous E-C coupling reducing ejection fraction.
+- `modulated-by` → **[Beta-blockers](../../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — β-blockers block β1-AR on cardiomyocytes → reduced cAMP-PKA → negative inotropy and anti-remodelling; prevents catecholamine-induced apoptosis; MERIT-HF, CIBIS-II, COPERNICUS show ~34% HFrEF mortality reduction.
+- `modulated-by` → **[Calcium Channel Blockers](../../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — non-DHP CCBs (verapamil, diltiazem) block L-type Ca²⁺ (Cav1.2) → negative inotropy and chronotropy; DHP CCBs (amlodipine) preferentially target vascular smooth muscle; non-DHPs are contraindicated in HFrEF.
 
 ## Pathology
 
@@ -255,3 +263,5 @@ Diseases at the cardiomyocyte scale:
 [^openstax-anatomy-19-2]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.2: Cardiac Muscle and Electrical Activity. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity)
 [^bers-2002-cardiac-ec-coupling]: Bers DM. Cardiac excitation-contraction coupling. *Nature.* 2002;415(6868):198-205. [doi:10.1038/415198a](https://doi.org/10.1038/415198a) · [PubMed 11805843](https://pubmed.ncbi.nlm.nih.gov/11805843/)
 [^bergmann-2009-cardiomyocyte-renewal]: Bergmann O, Bhardwaj RD, Bernard S, et al. Evidence for cardiomyocyte renewal in humans. *Science.* 2009;324(5923):98-102. [doi:10.1126/science.1164680](https://doi.org/10.1126/science.1164680) · [PubMed 19342590](https://pubmed.ncbi.nlm.nih.gov/19342590/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

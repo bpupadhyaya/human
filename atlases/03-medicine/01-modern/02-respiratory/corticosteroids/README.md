@@ -39,6 +39,16 @@ cross_links:
     relation: modulates
     evidence: recovery-2021-dexamethasone
     note: "Corticosteroids suppress IL-6 transcription via GR-mediated transrepression of NF-κB and AP-1 at the IL-6 promoter; dexamethasone in the RECOVERY trial reduced mortality in ventilated COVID-19 patients by 36%, with the benefit attributable in part to suppression of IL-6-driven hyperinflammation."
+  - target: 01-human/06-organ/ards
+    relation: treats
+    note: "Dexamethasone (DEXA-ARDS trial) 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days and reduced 60-day mortality (29.3% vs 44.8%); methylprednisolone reduces ARDS duration; dexamethasone is the most evidence-based corticosteroid for ARDS."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: treats
+    note: "Prednisolone is bridge therapy in RA (5–10 mg/day) while DMARDs take effect (8–12 weeks latency); reduces radiographic progression in early RA (COBRA, BeSt trials); long-term use requires osteoporosis prophylaxis (bisphosphonates + calcium/vitamin D)."
+  - target: 01-human/07-system/covid-19-disease
+    relation: treats
+    evidence: recovery-2021-dexamethasone
+    note: "RECOVERY trial (2021): dexamethasone 6 mg/d × 10 days; 36% mortality reduction in mechanically ventilated COVID-19 (RR 0.64); 18% reduction in those requiring oxygen only; no benefit and possible harm in patients not requiring supplemental oxygen."
 ---
 
 # Corticosteroids
@@ -105,3 +115,9 @@ Corticosteroids are used across virtually every medical specialty:
 
 - **Treats** → [Respiratory System](../../../../../01-human/07-system/respiratory-system/README.md): ICS are the cornerstone pharmacotherapy for persistent asthma; systemic corticosteroids are first-line for COPD exacerbations, acute severe asthma, and inflammatory lung disease.
 - **Modulates** → [Interleukin-6](../../../../../01-human/03-molecular/il-6/README.md): GR-mediated NF-κB transrepression suppresses IL-6 transcription; this mechanism underlies the mortality benefit in COVID-19 and is central to corticosteroid action in cytokine-driven lung injury.
+- **Treats** → [ARDS](../../../../../01-human/06-organ/ards/README.md): Dexamethasone (DEXA-ARDS trial) 20 mg IV × 5d then 10 mg × 5d increased ventilator-free days and reduced 60-day mortality (29.3% vs 44.8%); most evidence-based corticosteroid for ARDS.
+- **Treats** → [Rheumatoid Arthritis](../../../../../01-human/07-system/rheumatoid-arthritis/README.md): Prednisolone bridge therapy (5–10 mg/day) while DMARDs take effect (8–12 weeks latency); reduces radiographic progression in early RA; long-term use requires osteoporosis prophylaxis.
+- **Treats** → [COVID-19 Disease](../../../../../01-human/07-system/covid-19-disease/README.md): RECOVERY trial (2021): dexamethasone 6 mg/d × 10 days; 36% mortality reduction in mechanically ventilated patients (RR 0.64); 18% reduction in oxygen-requiring patients.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

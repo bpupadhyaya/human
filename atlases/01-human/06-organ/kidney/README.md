@@ -88,6 +88,9 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "NHE3 (proximal tubule) reabsorbs ~65% of filtered Na⁺; NKCC2 (TAL, furosemide target) ~25%; ENaC (collecting duct, aldosterone-regulated) ~2%; overall 99.5% of filtered Na⁺ is reclaimed; renal Na⁺ handling is the primary long-term determinant of blood pressure."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: modulated-by
+    note: "β1-AR blockade on renal juxtaglomerular cells reduces renin secretion → reduced angiotensin II and aldosterone → lower blood pressure; renal renin suppression contributes to antihypertensive efficacy independently of cardiac rate and contractility effects."
 taxonomy:
   uberon: "UBERON:0002113"
   fma: "FMA:7203"
@@ -220,6 +223,7 @@ ACE inhibitors interrupt this cascade by blocking ACE; this reduces Ang II, dila
 - **Damaged-by** → [Vancomycin](../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md): Nephrotoxicity via oxidative tubular injury; AUC/MIC-guided dosing (target AUC 400–600 mg·h/L) replaces trough monitoring (2020 ASHP/IDSA consensus); risk factors: CKD, prolonged courses, NSAIDs or aminoglycoside co-administration.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Renal α-intercalated cells secrete H⁺ via luminal H⁺-ATPase; NHE3 reabsorbs Na⁺ while secreting H⁺; kidney recovers ~4500 mmol HCO₃⁻/day; H⁺ excretion as NH₄⁺ from glutamine maintains systemic acid-base homeostasis.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NHE3 reabsorbs ~65% of filtered Na⁺ in the proximal tubule; NKCC2 (TAL, furosemide target) ~25%; aldosterone-regulated ENaC (collecting duct) ~2%; 99.5% of filtered Na⁺ is reclaimed; renal Na⁺ handling is the primary long-term blood pressure determinant.
+- `modulated-by` → **[Beta-blockers](../../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — β1-AR blockade on renal juxtaglomerular cells reduces renin secretion → reduced angiotensin II and aldosterone → lower blood pressure; renal renin suppression contributes to antihypertensive efficacy independently of cardiac rate and contractility effects.
 
 ## Pathology
 

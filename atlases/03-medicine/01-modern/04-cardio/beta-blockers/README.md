@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: acts-on
     note: "Reduce myocardial oxygen demand, prevent catecholamine-mediated toxicity, improve ventricular function over weeks-to-months in HFrEF."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: targets
+    note: "β1-AR blockade reduces cAMP-PKA signaling on cardiomyocytes → negative inotropy and anti-remodelling; prevents catecholamine-induced apoptosis; metoprolol/bisoprolol/carvedilol (MERIT-HF, CIBIS-II, COPERNICUS) reduce HFrEF all-cause mortality ~34%."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: modulates
+    note: "β1-AR blockade slows SA node automaticity (reduced If/HCN4 activation) and AV nodal conduction → PR prolongation and rate control in AF/flutter; prevents LQTS1/2-triggered arrhythmias (propranolol); reduces sudden cardiac death ~44% in post-MI patients."
+  - target: 01-human/06-organ/kidney
+    relation: acts-on
+    note: "β1-AR on renal juxtaglomerular cells: β-blockade reduces renin secretion → reduced angiotensin II and aldosterone → lower blood pressure; renal renin suppression contributes to blood pressure reduction independently of the cardiac effects on heart rate and contractility."
 ---
 
 # Beta-blockers
@@ -167,9 +176,14 @@ The convergence of three independent trials with three different agents — all 
 - **Targets** → [β1-adrenergic receptor](../../../../01-human/03-molecular/beta1-adrenergic-receptor/README.md): The primary molecular target. β-blockers competitively occupy the orthosteric binding pocket, blocking Gαs coupling.
 - **Acts on** → [Heart](../../../../01-human/06-organ/heart/README.md): Reduces heart rate (chronotropy), contractility (inotropy), and over weeks promotes reverse remodeling in HFrEF.
 - **Acts on** → [Cardiovascular System](../../../../01-human/07-system/cardiovascular-system/README.md): Lowers cardiac output and, via RAAS modulation (reduced renal β1-AR → less renin), blood pressure.
+- `targets` → **[Cardiomyocyte](../../../../01-human/04-cellular/cardiomyocyte/README.md)** — β1-AR blockade reduces cAMP-PKA signaling → negative inotropy and anti-remodelling; prevents catecholamine-induced apoptosis; metoprolol/bisoprolol/carvedilol reduce HFrEF all-cause mortality ~34% (MERIT-HF, CIBIS-II, COPERNICUS).
+- `modulates` → **[Cardiac Conduction System](../../../../01-human/05-tissue/cardiac-conduction-system/README.md)** — β1-AR blockade slows SA node automaticity (reduced If/HCN4 activation) and AV nodal conduction → rate control in AF/flutter; prevents LQTS1/2-triggered arrhythmias; reduces sudden cardiac death ~44% in post-MI patients.
+- `acts-on` → **[Kidney](../../../../01-human/06-organ/kidney/README.md)** — β1-AR on renal juxtaglomerular cells: β-blockade reduces renin secretion → reduced angiotensin II and aldosterone → lower blood pressure; renal renin suppression contributes independently of cardiac effects on heart rate and contractility.
 
 [^merit-hf-1999]: MERIT-HF Study Group. Effect of metoprolol CR/XL in chronic heart failure. *Lancet.* 1999;353(9169):2001-7. [doi:10.1016/S0140-6736(99)04440-2](https://doi.org/10.1016/S0140-6736(99)04440-2) · [PubMed 10376614](https://pubmed.ncbi.nlm.nih.gov/10376614/)
 [^cibis-ii-1999]: CIBIS-II Investigators. The Cardiac Insufficiency Bisoprolol Study II (CIBIS-II). *Lancet.* 1999;353(9146):9-13. [doi:10.1016/S0140-6736(98)11181-9](https://doi.org/10.1016/S0140-6736(98)11181-9) · [PubMed 10023943](https://pubmed.ncbi.nlm.nih.gov/10023943/)
 [^copernicus-2001]: Packer M, Coats AJ, Fowler MB, et al. Effect of carvedilol on survival in severe chronic heart failure. *N Engl J Med.* 2001;344(22):1651-8. [doi:10.1056/NEJM200105313442201](https://doi.org/10.1056/NEJM200105313442201) · [PubMed 11386263](https://pubmed.ncbi.nlm.nih.gov/11386263/)
 [^bristow-2000-bar-failure]: Bristow MR. β-Adrenergic receptor blockade in chronic heart failure. *Circulation.* 2000;101(5):558-69. [doi:10.1161/01.CIR.101.5.558](https://doi.org/10.1161/01.CIR.101.5.558) · [PubMed 10662755](https://pubmed.ncbi.nlm.nih.gov/10662755/)
 [^heidenreich-2022-hf-guideline]: Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. *Circulation.* 2022;145(18):e895–e1032. [doi:10.1161/CIR.0000000000001063](https://doi.org/10.1161/CIR.0000000000001063) · [PubMed 35363499](https://pubmed.ncbi.nlm.nih.gov/35363499/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
