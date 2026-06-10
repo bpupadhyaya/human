@@ -3,128 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Measles Virus — Atlas Two Pathogen entry. Paramyxovirus Morbillivirus; R&#8320;=12–18; CD150/SLAM entry; immune amnesia; MMR vaccine. Part of the Human Engineering project.">
-  <meta property="og:title" content="Measles Virus — Human Engineering Pathogen Atlas">
-  <meta property="og:description" content="Measles virus: CD150/SLAM and Nectin-4 receptors, immune amnesia, V-protein STAT1/2 degradation, MMR vaccine, SSPE.">
+  <meta name="description" content="Paramyxoviridae morbillivirus; (−)ssRNA, ~16 kb; enveloped. R₀ = 12–18 (highest known). Binds CD150/SLAM on lymphocytes and Nectin-4 on airway epithelium. Cause">
+  <meta property="og:title" content="Measles Virus — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Measles Virus — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7;
-      --bg-elev: #ffffff;
-      --bg-soft: #e5e5ea;
-      --fg: #1c1c1e;
-      --fg-soft: #3a3a3c;
-      --muted: #6e6e73;
-      --muted-2: #8e8e93;
-      --border: #d1d1d6;
-      --border-soft: #e5e5ea;
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #9f1239;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: var(--bg); color: var(--fg);
-      line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
-    }
-    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav {
-      position: sticky; top: 0; z-index: 50;
-      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
-      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
-    }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
-    .nav-links a.current { color: var(--fg); font-weight: 700; }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
-    @media (max-width: 760px) { .nav-links a:not(.nav-back):not(.current) { display: none; } }
-
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      padding: 0.4rem 0.9rem;
-      background: rgba(159, 18, 57, 0.1); color: var(--accent);
-      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
-    }
-    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 18ch; }
-    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
-    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 1.75rem 2rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
-    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
-    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-
-    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
-    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; white-space: nowrap; }
-
-    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
-    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
-    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; }
-    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; }
-    .mech-item.danger  { border-left-color: #dc2626; }
-    .mech-item.immune  { border-left-color: var(--ai); }
-    .mech-item.latent  { border-left-color: var(--accent); }
-    .mech-item.drug    { border-left-color: var(--bio); }
-
-    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
-    .path-table td:first-child { font-weight: 600; color: var(--fg); }
-
-    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
-    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
-    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
-    .itag.depleted { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
-
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
-    .conn-pill.infects .rel { color: var(--ai); }
-    .conn-pill.damages .rel { color: #dc2626; }
-    .conn-pill.targets .rel { color: var(--accent); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-    .refs li a:hover { color: var(--human); }
-
-    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
-    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
-    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
-    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
-    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
-    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
-    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
-    .btn svg { width: 16px; height: 16px; }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -143,176 +108,91 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="index.html#join">Join</a>
-        <a href="pathogens.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Pathogens
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus</div>
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
     <h1>Measles Virus</h1>
-    <p class="tagline">The most contagious human pathogen known &mdash; and the only one proven to erase immunological memory of every infection you&rsquo;ve ever survived.</p>
-    <p class="subtagline">Measles virus (MeV) is a non-segmented (&minus;)ssRNA Morbillivirus with a basic reproduction number (R&#8320;) of 12&ndash;18 &mdash; the highest confirmed among human pathogens. Its H protein binds CD150/SLAM on lymphocytes and DCs (immune entry) and Nectin-4 on airway epithelium (viral shedding). V protein targets STAT1/2 for proteasomal degradation, blocking all IFN signalling. Beyond acute febrile illness with rash, MeV causes profound immune amnesia: VDJ sequencing shows 11&ndash;73% depletion of pre-existing B cell receptor diversity, leaving survivors susceptible to all previously mastered pathogens for 2&ndash;3 years. MMR vaccine (&ge;93% efficacy per dose) is the only intervention; &ge;95% population coverage is required for herd immunity.</p>
+    <p class="tagline">Paramyxoviridae morbillivirus; (−)ssRNA, ~16 kb; enveloped. R₀ = 12–18 (highest known). Binds CD150/SLAM on lymphocytes and Nectin-4 on airway epithelium. Causes profound immune amnesia lasting 2–3 years post-infection.</p>
+    <p class="aliases">Also known as: MeV, measles morbillivirus, rubeola, paramyxovirus</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">R&#8320; 12&ndash;18</span><span class="stat-label">Basic reproduction number</span></div>
-      <div class="stat"><span class="stat-num">~136K</span><span class="stat-label">Deaths/year (2022, WHO)</span></div>
-      <div class="stat"><span class="stat-num">2.6M</span><span class="stat-label">Deaths/year pre-vaccine era</span></div>
-      <div class="stat"><span class="stat-num">~16 kb</span><span class="stat-label">(&minus;)ssRNA genome</span></div>
-      <div class="stat"><span class="stat-num">2&ndash;3 yr</span><span class="stat-label">Immune amnesia duration</span></div>
+        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-    <div class="detail-card" id="measles-virus">
-      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #7f1d1d);">
-        <div class="entry-eyebrow">Paramyxoviridae &middot; Morbillivirus &middot; (&minus;)ssRNA non-segmented, Enveloped &middot; ~100&ndash;300 nm</div>
-        <h3>Measles Virus (MeV)</h3>
-        <p class="summary">Enveloped non-segmented negative-sense ssRNA Morbillivirus with a ~16 kb genome encoding 6 structural genes and 3 P-gene products (P, V, C). H protein (haemagglutinin) binds three confirmed receptors: CD150/SLAM (activated lymphocytes, monocytes, DCs &mdash; primary immune entry; wild-type and vaccine strains), Nectin-4/PVRL4 (basolateral airway epithelium &mdash; viral egress and respiratory shedding), and CD46 (vaccine/laboratory strains only). The V protein is the master IFN antagonist: it hijacks DDB1-Cullin4A E3 ubiquitin ligase to target STAT1 and STAT2 for proteasomal degradation, blocking all type I, II, and III IFN signalling. C and P proteins provide additional IRF3 and RIG-I blockade. Infection proceeds via DC seeding in lung, lymph node amplification, viremia, and Nectin-4-mediated epithelial shedding. The most clinically distinctive long-term consequence &mdash; immune amnesia &mdash; is driven by direct memory B cell depletion, abolishing recall immunity to previously mastered pathogens for 2&ndash;3 years and making secondary bacterial pneumonia the leading cause of measles mortality. MMR vaccine (live-attenuated; 2 doses) is the only countermeasure; &ge;95% population coverage required for herd immunity given the extraordinary R&#8320;.</p>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
+        <div class="entry-eyebrow">measles-virus</div>
+        <h2>Measles Virus</h2>
+        <p class="summary">Paramyxoviridae morbillivirus; (−)ssRNA, ~16 kb; enveloped. R₀ = 12–18 (highest known). Binds CD150/SLAM on lymphocytes and Nectin-4 on airway epithelium. Causes profound immune amnesia lasting 2–3 years post-infection.</p>
       </div>
-
       <div class="detail-body">
 
         <div class="detail-section">
-          <h4>Classification &amp; Structure</h4>
-          <table class="detail-table">
-            <tr><td>Genome</td><td>~16 kb non-segmented negative-sense single-stranded RNA; 6 genes in order 3&prime;&ndash;N&ndash;P/V/C&ndash;M&ndash;F&ndash;H&ndash;L&ndash;5&prime;; replicates exclusively in cytoplasm via positive-sense antigenome intermediate; single serotype; single known natural reservoir: humans</td></tr>
-            <tr><td>Family / Genus</td><td>Paramyxoviridae / Morbillivirus; closest human relatives: Nipah and Hendra (bat-origin zoonotic Paramyxoviruses); measles is exclusively human &mdash; eradication theoretically feasible</td></tr>
-            <tr><td>Envelope</td><td>Enveloped; pleomorphic ~100&ndash;300 nm; H protein tetramers (attachment; CD150/SLAM/Nectin-4/CD46 binding); F protein (Class I fusion; furin-cleaved F1/F2 heterodimer; heptad-repeat coiled-coil fusion mechanism); M protein (matrix; coordinates assembly and budding)</td></tr>
-            <tr><td>Size</td><td>~100&ndash;300 nm diameter (pleomorphic; can be filamentous)</td></tr>
-            <tr><td>Key proteins</td><td>H (attachment; receptor binding; seroneutralisation target; no neuraminidase activity); F (membrane fusion; target of vaccine-induced neutralising antibodies); M (matrix; assembly); N (nucleocapsid; RNA encapsidation); P (polymerase cofactor; also encodes V and C via RNA editing/alternative ORF); L (RNA-dependent RNA polymerase; ribavirin target); V (STAT1/2 degradation; master IFN antagonist); C (STAT1 binding; IRF3 inhibition); N (MDA5 binding; dsRNA sensing interference)</td></tr>
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>measles-virus</td></tr>
+            <tr><td>Name</td><td>Measles Virus</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Class</td><td>01-viruses</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h4>Infection Mechanism</h4>
-          <div class="mech-list">
-            <div class="mech-item danger">
-              <h5>1 &middot; Dendritic cell infection and lymph node amplification</h5>
-              <p>Infectious droplet nuclei (airborne particles &lt;5 &micro;m) reach the lower respiratory epithelium. Alveolar and submucosal dendritic cells expressing CD150/SLAM are the first cells infected: MeV H protein engages CD150/SLAM with high affinity, triggering F protein-mediated membrane fusion and cytoplasmic delivery of the viral RNP. Infected DCs migrate via lymphatics to regional (mediastinal) lymph nodes, where they infect additional CD150/SLAM-expressing activated lymphocytes. Over 4&ndash;6 days, massive productive viremia develops &mdash; the prodromal phase. Virus-laden droplet nuclei persist in enclosed spaces for up to two hours after an infectious person has left &mdash; a unique epidemiological property explaining the extraordinary R&#8320; of 12&ndash;18.</p>
-            </div>
-            <div class="mech-item danger">
-              <h5>2 &middot; Nectin-4 receptor &mdash; airway epithelial shedding and contagion</h5>
-              <p>During the viremic phase, MeV reaches the basolateral surface of airway epithelial cells where Nectin-4 (PVRL4) is expressed. H protein binds Nectin-4; F protein drives basolateral-to-apical transcytosis; progeny virions are shed apically into respiratory secretions. This Nectin-4-mediated epithelial egress is the primary source of respiratory contagion. Importantly, MeV infection of airway epithelial cells occurs during viremia (after immune cell infection) &mdash; not as the initiating event. CD46 is a receptor only for vaccine/laboratory-adapted strains (Edmonston) and is not used by wild-type clinical isolates.</p>
-            </div>
-            <div class="mech-item immune">
-              <h5>3 &middot; V protein &mdash; STAT1/2 proteasomal degradation and IFN shutdown</h5>
-              <p>The MeV V protein is encoded by the P gene via cotranscriptional RNA editing (+1 G insertion). V protein hijacks the DDB1-Cullin4A (DCAF1) E3 ubiquitin ligase complex to polyubiquitinate both STAT1 and STAT2, targeting them for proteasomal degradation. Loss of STAT1 blocks IFN-&#945;/&#946; (type I) signalling via JAK-STAT1/2; loss of STAT2 additionally blocks IFN-&#955; (type III) signalling; and STAT1 is also required for IFN-&#947; (type II) signalling. This single viral protein thus comprehensively silences all three IFN type signalling axes. Additionally, C protein binds STAT1 directly and inhibits IFN-&#946; promoter activation; N protein binds MDA5, interfering with dsRNA sensing; P protein blocks IRF3 phosphorylation. The combined effect is a broad innate immune evasion window that enables the extremely efficient person-to-person transmission underlying R&#8320; = 12&ndash;18.</p>
-            </div>
-            <div class="mech-item latent">
-              <h5>4 &middot; Immune amnesia &mdash; depletion of pre-existing immunological memory</h5>
-              <p>MeV directly infects CD150+ activated lymphocytes &mdash; both CD4+ T helper cells and B cells &mdash; via H-CD150 binding and F-mediated fusion. Infected lymphocytes undergo apoptosis; bystander lymphocytes are suppressed from proliferating by FasL upregulation and FcγR cross-linking on antigen-presenting cells. Most critically, MeV depletes pre-existing memory B cells and plasma cells that carry immunological recall to previously encountered pathogens. VDJ receptor deep sequencing studies demonstrate that natural measles infection eliminates 11&ndash;73% of pre-existing B cell receptor diversity in unvaccinated children &mdash; the serological equivalent of erasing years of immunological history. This immune amnesia leaves survivors susceptible to all previously mastered pathogens for 2&ndash;3 years post-infection, converting measles into a gateway to mortality from common childhood infections (pneumonia, diarrhoea).</p>
-            </div>
-            <div class="mech-item danger">
-              <h5>5 &middot; F protein syncytium formation (Warthin-Finkeldey giant cells)</h5>
-              <p>MeV F protein drives cell-cell membrane fusion of CD150+ immune cells in lymph nodes, lungs, and tonsils. The resulting Warthin-Finkeldey multinucleated giant cells are the histological hallmark of measles and represent immunopathological fusion products rather than productive viral factories. In immunocompromised patients (HIV, haematological malignancy, primary immune deficiency), giant cell pneumonia develops in the lung &mdash; Warthin-Finkeldey syncytia in alveoli with progressive respiratory failure &mdash; which is frequently fatal. The maculopapular rash is immune-mediated (CD8+ CTL cytotoxicity against MeV-infected dermal immune cells + small vessel vasculitis) &mdash; not due to direct viral cytolysis of skin cells.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Host Immune Response</h4>
-          <div class="immune-tags">
-            <span class="itag innate">RIG-I / MDA5 &mdash; impaired; N protein binds MDA5; P protein blocks IRF3</span>
-            <span class="itag innate">IFN-&#945;/&#946;/&#947;/&#955; signalling &mdash; completely blocked by V-protein STAT1/2 proteasomal degradation</span>
-            <span class="itag innate">NK cells &mdash; activated during viremia; partially suppressed</span>
-            <span class="itag adaptive">CD4+ T helper &mdash; directly infected via CD150/SLAM; undergo apoptosis; lymphopenia</span>
-            <span class="itag adaptive">CD8+ CTL &mdash; generate rash (immune-mediated exanthem); target H and N epitopes</span>
-            <span class="itag adaptive">Anti-H neutralising antibodies &mdash; principal correlate of protection; basis of passive prophylaxis with immunoglobulin</span>
-            <span class="itag depleted">Memory B cells &mdash; depleted 11&ndash;73% by immune amnesia; prior pathogen immunity erased</span>
-            <span class="itag depleted">CD150+ lymphocytes &mdash; massively depleted by direct viral infection; lymphopenia persists weeks</span>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Disease Spectrum</h4>
-          <table class="path-table">
-            <tr><th>Stage</th><th>Presentation</th><th>Severity</th><th>% / Notes</th></tr>
-            <tr><td>Incubation (days 1&ndash;10)</td><td>Asymptomatic; viral amplification in lymph nodes; progressive viremia developing</td><td>Subclinical; highly infectious from day 8&ndash;10</td><td>Infectious 4 days before to 4 days after rash onset</td></tr>
-            <tr><td>Prodrome (days 10&ndash;14)</td><td>High fever (39&ndash;40&deg;C); the 3 Cs: Cough, Coryza, Conjunctivitis; malaise; Koplik spots (pathognomonic white/blue-grey dots on erythematous buccal mucosa opposite molars)</td><td>Moderate; Koplik spots appear 1&ndash;2 days before rash; highest contagiousness</td><td>Koplik spots are pathognomonic; ~70% of cases</td></tr>
-            <tr><td>Exanthem (days 14&ndash;18)</td><td>Maculopapular rash &mdash; begins behind ears/hairline, spreads cephalocaudally; fever peaks; lasts 4&ndash;5 days; immune-mediated (CD8+ CTL + vasculitis)</td><td>Moderate; fever resolves as rash fades</td><td>Characteristic cephalocaudal spread; not due to direct viral skin cytolysis</td></tr>
-            <tr><td>Recovery (days 18&ndash;21)</td><td>Fever resolves; rash fades; cough persists; profound lymphopenia persists for weeks</td><td>Resolving; immune amnesia begins silently</td><td>Functional recovery in immunocompetent; immune amnesia persists 2&ndash;3 years</td></tr>
-            <tr><td>Pneumonia (complication)</td><td>Bilateral infiltrates; persistent fever; dyspnoea; in immunocompromised: giant cell pneumonia with progressive respiratory failure</td><td>Severe; leading cause of measles death globally</td><td>~1&ndash;6% of measles cases; secondary bacterial (S. pneumoniae, S. aureus) most common cause</td></tr>
-            <tr><td>Acute measles encephalitis</td><td>Fever, seizures, altered consciousness occurring 2&ndash;6 days after rash onset</td><td>Life-threatening; 15% mortality; 25% permanent neurological sequelae</td><td>~1 in 1,000&ndash;2,000 cases; immune-mediated; not SSPE</td></tr>
-            <tr><td>SSPE (subacute sclerosing panencephalitis)</td><td>Insidious onset 6&ndash;15 years post-infection; progressive cognitive decline, myoclonus, visual loss, then vegetative state and death; hypermutated MeV RNA persists in CNS neurons</td><td>Uniformly fatal; no effective treatment</td><td>1:8,000&ndash;1:100,000; higher risk if measles before age 2</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h4>Treatment &amp; Prevention</h4>
-          <table class="detail-table">
-            <tr><td>MMR vaccine (live-attenuated)</td><td>Measles-mumps-rubella combined live-attenuated vaccine; Edmonston-Zagreb or Moraten measles strain; 2 doses; dose 1 at 12&ndash;15 months: ~93% efficacy; dose 2 at 4&ndash;6 years: cumulative ~97% efficacy; generates long-lived neutralising anti-H antibodies and cellular immunity; does NOT cause immune amnesia (vaccine strain does not infect memory lymphocytes via CD150/SLAM as efficiently as wild-type); &ge;95% population coverage required for herd immunity given R&#8320; = 12&ndash;18</td></tr>
-            <tr><td>Vitamin A supplementation</td><td>WHO recommendation for all hospitalised measles cases (children); reduces pneumonia severity and mortality, especially in vitamin A-deficient populations by restoring epithelial and mucosal immune function; two doses (200,000 IU/day &times; 2 days for children &gt;12 months); reduces mortality by 50&ndash;90% in severe disease in deficient populations</td></tr>
-            <tr><td>Ribavirin (off-label)</td><td>Nucleoside analogue RdRp inhibitor; used off-label in SSPE and severe measles in immunocompromised patients; IV ribavirin for MeV encephalitis; limited clinical evidence for benefit in acute immunocompetent measles; generally not recommended for uncomplicated disease</td></tr>
-            <tr><td>Antibiotics</td><td>Indicated only for confirmed secondary bacterial pneumonia (S. pneumoniae, S. aureus, H. influenzae) or acute otitis media; empiric coverage based on local susceptibility patterns; no benefit for viral pneumonitis</td></tr>
-            <tr><td>Post-exposure prophylaxis</td><td>Immune globulin (IG) IM within 6 days of exposure: protects immunocompromised, infants &lt;12 months, pregnant women; MMR vaccine within 72 h of exposure for unvaccinated healthy individuals &ge;12 months; neither measure prevents infection reliably once symptoms develop</td></tr>
-            <tr><td>No specific antiviral</td><td>No approved direct antiviral for wild-type measles in immunocompetent hosts. Supportive care: antipyretics, oral rehydration, vitamin A. Prevention via universal MMR vaccination is overwhelmingly more effective than any treatment-based strategy.</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h4>Cross-Atlas Connections</h4>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill infects" href="immune-system.html"><span class="rel">Infects</span>T-helper cells &mdash; CD150/SLAM; apoptosis; lymphopenia</a>
-            <a class="conn-pill infects" href="immune-system.html"><span class="rel">Infects</span>Dendritic cells &mdash; CD150/SLAM; viral amplification vehicle</a>
-            <a class="conn-pill damages" href="immune-system.html"><span class="rel">Damages</span>Immune system &mdash; immune amnesia; 2&ndash;3 yr B cell memory depletion</a>
-            <a class="conn-pill damages" href="lung.html"><span class="rel">Damages</span>Lung &mdash; giant cell pneumonia; secondary bacterial pneumonia</a>
+            <a class="conn-pill" href="t-helper-cell.html" title="MeV H protein binds CD150/SLAM on activated CD4+ T cells and DCs as primary immune entry receptor; direct T cell infection → apoptosis and lymphopenia; suppresses T cell proliferation causing weeks-long post-measles immunosuppression."><span class="rel">infects</span>T Helper Cell</a>
+            <a class="conn-pill" href="dendritic-cell.html" title="Lung DCs express CD150/SLAM and are the first cells infected after respiratory exposure; MeV-infected DCs travel to regional lymph nodes, amplifying viremia while failing to mount effective IFN response due to V-protein-mediated STAT1/2 degradation."><span class="rel">infects</span>Dendritic Cell</a>
+            <a class="conn-pill damaged" href="immune-system.html" title="Measles causes profound immunosuppression lasting 2–3 years post-infection: direct lymphocyte killing, abolition of immunological memory (immune amnesia), ↓B cell plasma cell output; secondary bacterial pneumonia (S. pneumoniae, S. aureus) is the leading cause of measles mortality."><span class="rel">damages</span>Immune System</a>
+            <a class="conn-pill damaged" href="lung.html" title="Measles-associated pneumonia occurs from direct viral bronchitis/pneumonitis plus secondary bacterial superinfection; in immunocompromised patients, giant cell pneumonia (Warthin-Finkeldey syncytia) is progressive and frequently fatal."><span class="rel">damages</span>Lung</a>
+            <a class="conn-pill" href="measles.html" title="Measles disease is caused by MeV (Morbillivirus); SLAM/CD150 tropism drives lymphoid spread and immune amnesia; nectin-4 tropism enables respiratory shedding; MMR vaccine confers &gt;97% protection; SSPE is a fatal late complication from hypermutated persistent MeV in CNS neurons."><span class="rel">causes</span>Measles</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h4>References</h4>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Bennett JE, Dolin R, Blaser MJ. <em>Mandell, Douglas, and Bennett&rsquo;s Principles and Practice of Infectious Diseases.</em> 9th ed. Elsevier; 2020. <a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener">elsevier.com/books</a></li>
-            <li>Knipe DM, Howley PM, eds. <em>Fields Virology.</em> 7th ed. Wolters Kluwer; 2021. <a href="https://www.lww.com/product/9781975112547" target="_blank" rel="noopener">lww.com/product/9781975112547</a></li>
-            <li>Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. <em>Science.</em> 2019;366(6465):599&ndash;606. <a href="https://doi.org/10.1126/science.aay6485" target="_blank" rel="noopener">doi:10.1126/science.aay6485</a> &middot; PubMed 31672891</li>
-            <li>Laksono BM, de Vries RD, McQuaid S, Duprex WP, de Swart RL. Measles virus host tropism and pathogenesis. <em>Viruses.</em> 2016;8(8):210. <a href="https://doi.org/10.3390/v8080210" target="_blank" rel="noopener">doi:10.3390/v8080210</a> &middot; PubMed 27483301</li>
-            <li>World Health Organization. Immunization, Vaccines and Biologicals: Measles. WHO; 2023. <a href="https://www.who.int/news-room/fact-sheets/detail/measles" target="_blank" rel="noopener">who.int/news-room/fact-sheets/detail/measles</a></li>
+            <li><a href="https://www.elsevier.com/books/mandell-douglas-and-bennetts-principles-and-practice-of-infectious-diseases/bennett/978-0-323-48255-4" target="_blank" rel="noopener noreferrer">Bennett JE, Dolin R, Blaser MJ. Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.</a></li>
+            <li><a href="https://www.lww.com/product/9781975112547" target="_blank" rel="noopener noreferrer">Knipe DM, Howley PM, eds. Fields Virology. 7th ed. Wolters Kluwer; 2021.</a></li>
           </ul>
         </div>
 
       </div>
-    </div><!-- /.detail-card -->
-
-    <div class="contribute">
-      <h2>Contribute to the Pathogen Atlas</h2>
-      <p>This entry covers MeV biology, CD150/Nectin-4 tropism, V-protein immune evasion, immune amnesia, clinical course, SSPE, and MMR vaccine. Molecular mechanism of immune amnesia quantification (VDJ sequencing), measles eradication strategy modelling, and MeV CNS persistence in SSPE neurons are planned expansions. Every entry follows the same schema: structured frontmatter, peer-reviewed citations, and cross-atlas links.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
-          Contribute on GitHub
-        </a>
-        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Measles%20Virus%20Atlas%20entry">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Get in touch
-        </a>
-      </div>
     </div>
-
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="immune-system.html">Immune System</a>
-      <a href="lung.html">Lung</a>
-      <a href="index.html#join">Join</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

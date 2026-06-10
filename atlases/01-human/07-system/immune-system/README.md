@@ -337,6 +337,9 @@ cross_links:
   - target: 01-human/03-molecular/mv-h-protein
     relation: connects-to
     note: "MV-H SLAM/CD150 tropism infects CD150+ T cells, B cells, and DCs → loss of pre-existing pathogen-specific memory (measles immune amnesia, 2–3 years); MMR vaccination prevents this memory deletion and the consequent 2-3 year elevation in all-cause child mortality."
+  - target: 01-human/07-system/measles
+    relation: connects-to
+    note: "Measles immune amnesia (Mina 2019): MV SLAM/CD150 tropism infects SLAM-high memory B cells → erases 20-70% of pre-existing antibody diversity; naive B cells cannot reconstitute pathogen-specific memory → 2-3 years re-susceptibility to other infections post-measles."
 ---
 
 # Immune System
@@ -441,6 +444,7 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[OPV (Oral Polio Vaccine)](../../../../04-vaccine/05-live-attenuated/oral-polio-vaccine/README.md)** — OPV gut replication activates mucosal immunity (GALT → sIgA) and systemic immunity (mesenteric lymph nodes → serum IgG + T cells); dual response enables paralysis prevention and transmission interruption — the mechanism underlying polio eradication.
 - `damaged-by` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — all nine human herpesviruses encode dedicated immune evasion genes: HSV ICP47/CMV US6 block MHC-I via TAP inhibition; CMV UL16-21 downregulate NKG2D ligands; all subfamilies antagonize IFN signaling; latency renders infected cells invisible to CTLs indefinitely.
 - `connects-to` → **[MV-H Protein](../../03-molecular/mv-h-protein/README.md)** — MV-H SLAM/CD150 tropism infects CD150+ T cells, B cells, and DCs → loss of pre-existing pathogen-specific memory (measles immune amnesia, 2–3 years); MMR vaccination prevents this memory deletion and the consequent elevated all-cause child mortality risk.
+- `connects-to` → **[Measles](../../07-system/measles/README.md)** — Measles immune amnesia (Mina 2019): MV SLAM/CD150 tropism infects memory B cells → erases 20-70% of pre-existing antibody diversity; naive B cells cannot reconstitute pathogen-specific memory → 2-3 years re-susceptibility to other infections post-measles.
 
 ## Pathology
 

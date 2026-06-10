@@ -56,6 +56,9 @@ cross_links:
   - target: 01-human/07-system/aicardi-goutieres-syndrome
     relation: connects-to
     note: "SAMHD1 (AGS gene) is the principal HIV-1 restriction factor: dNTP hydrolase depletes viral dNTP pool → inhibits reverse transcription; HIV-2/SIVsm Vpx degrades SAMHD1; SAMHD1-LOF in AGS links innate antiviral immunity to monogenic neuroinflammation."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: co-factor
+    note: "HPV-16 cervical carcinogenesis is dramatically accelerated by HIV-1 co-infection; CD4+ T cell depletion eliminates HPV-specific CTL surveillance → persistent HPV → up to 22-fold increased cervical cancer risk; HPV vaccine coverage in HIV+ individuals is a WHO priority."
 ---
 
 # Human Immunodeficiency Virus type 1
@@ -157,6 +160,7 @@ Macrophages infected with R5-tropic HIV-1 support long-term viral production wit
 - **Damages** → [T Helper Cell](../../../01-human/04-cellular/t-helper-cell/README.md): Direct viral cytolysis, bystander apoptosis, and pyroptosis of CD4+ T cells.
 - **Target of** → [Immunoglobulin G](../../../01-human/03-molecular/immunoglobulin-g/README.md): Broadly neutralising antibodies targeting gp120 conserved sites are the basis for vaccine design; anti-gp41 IgG mediates ADCC.
 - **Connects-to** → [Aicardi-Goutières Syndrome](../../../01-human/07-system/aicardi-goutieres-syndrome/README.md): SAMHD1 (AGS gene) is the principal HIV-1 restriction factor: dNTP hydrolase depletes viral dNTP pool → inhibits reverse transcription; HIV-2/SIVsm Vpx degrades SAMHD1; SAMHD1-LOF in AGS links innate antiviral immunity to monogenic neuroinflammation.
+- `co-factor` → **[HPV-16](../hpv-16/README.md)** — HIV-1 CD4+ T cell depletion eliminates HPV-specific CTL surveillance → persistent HPV replication → up to 22-fold increased cervical cancer risk in HIV+ women; HPV vaccine is recommended for all HIV+ individuals per WHO guidance.
 
 ## Pathology
 

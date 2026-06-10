@@ -35,6 +35,9 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "CD8+ CTL kill virus-infected and tumor targets via polarized perforin-granzyme exocytosis at the immune synapse; perforin pore → granzyme B entry → caspase-3 → apoptosis; PRF1 LOF → FHL2 (familial HLH); perforin defines the cytotoxic effector arm of adaptive immunity."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: damaged-by
+    note: "HPV E6/E7 downregulate MHC-I on infected keratinocytes via E3-ubiquitin ligase-mediated degradation; reduced MHC-I/peptide density impairs CD8+ CTL recognition of HPV-infected cells → immune evasion → persistent infection and oncogenic progression to cervical cancer."
 ---
 
 # Cytotoxic T Cell
@@ -97,6 +100,7 @@ DP thymocytes undergo positive selection: cortical thymic epithelial cells (cTEC
 - **Part of Immune System** (`../../07-system/immune-system/README.md`): Cytotoxic CD8+ T cells are the primary effectors of adaptive cellular immunity against virally infected cells and tumours; they kill via perforin/granzyme B and Fas/FasL pathways at the immunological synapse.[^alberts-mol-cell-biology]
 - **Modulates Dendritic Cell** (`../dendritic-cell/README.md`): DCs cross-present exogenous viral/tumour antigens on MHC-I (cross-presentation, TAP-dependent) to prime naïve CD8+ T cells; DC-derived IL-12 and type I IFN drive CTL differentiation and expansion.[^janeway-immunobiology]
 - **Modulates B Cell** (`../b-cell/README.md`): CD8+ T cells regulate B cell responses: CTL kills virally infected B cells displaying viral peptide on MHC-I; CD8+ Treg-like cells can suppress Ab production; CTL exhaustion allows persistence of EBV-transformed B cells.[^alberts-mol-cell-biology]
+- `damaged-by` → **[HPV-16](../../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV E6/E7 downregulate MHC-I on infected keratinocytes via E3-ubiquitin ligase-mediated degradation; reduced MHC-I/peptide density impairs CD8+ CTL recognition → immune evasion enabling persistent infection and oncogenic progression to cervical cancer.
 
 ## Pathology
 

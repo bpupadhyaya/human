@@ -38,6 +38,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "MV V protein binds STAT1/STAT2 → blocks JAK-STAT signaling → ISG suppression; MV C protein blocks IFN-β induction; MV P/V proteins sequester MDA5/LGP2 → prevent MAVS-IRF3-IFN-β; wild-type MV IFN evasion is more complete than attenuated strains — key pathogenicity distinction."
+  - target: 02-pathogen/01-viruses/measles-virus
+    relation: connects-to
+    note: "MV (Morbillivirus; negative-sense ssRNA; R₀ 12-18) is the causative agent; SLAM/CD150 attachment glycoprotein H mediates systemic lymphoid spread; F protein drives syncytia (Warthin-Finkeldey cells); persistent MV in neurons with hypermutated genome causes SSPE."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "MV-H binds SLAM/CD150 on dendritic cells → productive DC infection → impaired IL-12/IFN-α production and reduced T cell priming; MV-infected DCs poorly present antigens; DC dysfunction contributes to measles immune amnesia lasting 2-3 years post-infection."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Measles immune amnesia (Mina 2019): MV SLAM/CD150 tropism infects SLAM-high memory B cells → erases 20-70% of pre-existing antibody diversity; naive B cells cannot reconstitute pathogen-specific memory → 2-3 years re-susceptibility to other infections after measles."
 ---
 
 # Measles
@@ -188,6 +197,10 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 **→ [MAVS](../../../03-molecular/mavs/)**: MV negative-sense RNA replication generates 5′ppp RNA intermediates → RIG-I → MAVS → TBK1/IRF3 → IFN-β; MV V protein sequesters MDA5 and LGP2 → prevents MAVS activation; MV P protein blocks IRF3 phosphorylation; attenuated vaccine strains with impaired V/P activate MAVS more robustly → faster innate response.
 
 **→ [Type I Interferon](../../../03-molecular/type-i-interferon/)**: MV V protein binds STAT1/STAT2 → blocks JAK-STAT signaling → ISG suppression; MV C protein blocks IFN-β induction; V-domain mutations in attenuated Edmonston/Schwarz strains reduce STAT1 binding affinity → stronger type I IFN response in vaccinated individuals vs. WT MV infection → basis of vaccine attenuation.
+
+- `connects-to` → **[Measles Virus](../../../02-pathogen/01-viruses/measles-virus/README.md)** — MV (Morbillivirus; negative-sense ssRNA; R₀ 12-18) is the causative agent; SLAM/CD150-binding H glycoprotein mediates systemic lymphoid spread; F protein drives syncytia (Warthin-Finkeldey cells); persistent MV with hypermutated genome causes SSPE.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — MV-H binds SLAM/CD150 on DCs → productive DC infection → impaired IL-12/IFN-α production and reduced T cell priming; MV-infected DCs poorly present antigens; DC dysfunction is a core driver of measles immune amnesia lasting 2-3 years.
+- `connects-to` → **[Immune System](../../immune-system/README.md)** — Measles immune amnesia (Mina 2019): MV SLAM/CD150 tropism infects SLAM-high memory B cells → erases 20-70% of pre-existing antibody diversity; naive B cells cannot reconstitute pathogen-specific memory → 2-3 years re-susceptibility to other infections.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

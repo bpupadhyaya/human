@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: damages
     note: "Measles-associated pneumonia occurs from direct viral bronchitis/pneumonitis plus secondary bacterial superinfection; in immunocompromised patients, giant cell pneumonia (Warthin-Finkeldey syncytia) is progressive and frequently fatal."
+  - target: 01-human/07-system/measles
+    relation: causes
+    note: "Measles disease is caused by MeV (Morbillivirus); SLAM/CD150 tropism drives lymphoid spread and immune amnesia; nectin-4 tropism enables respiratory shedding; MMR vaccine confers >97% protection; SSPE is a fatal late complication from hypermutated persistent MeV in CNS neurons."
 ---
 
 # Measles Virus
@@ -119,6 +122,7 @@ The maculopapular measles rash is **immune-mediated**, not due to direct viral c
 - **Infects** → [Dendritic cell](../../../01-human/04-cellular/dendritic-cell/README.md): Lung DCs expressing CD150/SLAM are the first cells infected after respiratory exposure; MeV-infected DCs amplify viremia by seeding regional lymph nodes while failing to mount an effective IFN response due to V-protein-mediated STAT1/2 degradation.
 - **Damages** → [Immune system](../../../01-human/07-system/immune-system/README.md): Measles causes profound immunosuppression lasting 2–3 years post-infection through direct lymphocyte killing, abolition of pre-existing immunological memory (immune amnesia), and reduced B cell plasma cell output; secondary bacterial pneumonia (S. pneumoniae, S. aureus) is the leading cause of measles mortality worldwide.
 - **Damages** → [Lung](../../../01-human/06-organ/lung/README.md): Measles-associated pneumonia arises from direct viral bronchitis/pneumonitis plus secondary bacterial superinfection; in immunocompromised patients, giant cell pneumonia (Warthin-Finkeldey syncytia) is progressive and frequently fatal.
+- `causes` → **[Measles](../../../01-human/07-system/measles/README.md)** — MV (Morbillivirus; R₀ 12-18) causes measles disease; SLAM/CD150 tropism drives lymphoid spread and immune amnesia; nectin-4 enables respiratory shedding; MMR vaccine confers >97% protection; hypermutated persistent MeV in CNS neurons causes SSPE.
 
 ## Pathology
 

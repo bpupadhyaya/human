@@ -66,9 +66,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: damages
     note: "HPV E6/E7 suppress innate immunity by impairing IFN-β production; E7 degrades IRF3 and inhibits TLR9 signalling, enabling persistent infection and eventual oncogenic transformation in cervical epithelium."
-  - target: 01-human/07-system/immune-system
-    relation: prevents
-    note: "Gardasil-9 generates neutralising IgG against HPV-16/18/31/33/45/52/58 L1 VLP antigens, preventing cervical and oropharyngeal cancers; efficacy exceeds 90% against high-grade cervical lesions in seronegative recipients."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: co-factor
+    note: "HIV-1 immunosuppression (CD4+ T cell depletion) eliminates HPV-specific CTL surveillance → persistent HPV replication → up to 22-fold increased cervical cancer risk; HPV-16 is the dominant cause of cervical cancer in HIV+ women; HPV vaccines are recommended for HIV+ individuals."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: damages
+    note: "HPV E6/E7 downregulate MHC-I surface expression on infected keratinocytes by promoting E3-ubiquitin ligase-mediated MHC-I degradation; reduced MHC-I/peptide density impairs CD8+ CTL recognition → immune evasion enabling persistent infection and oncogenic transformation."
+  - target: 01-human/07-system/integumentary-system
+    relation: infects
+    note: "HPV-16 infects stratified squamous epithelium of skin and mucosa; L1 binds heparan sulphate proteoglycans on basal keratinocytes at microtrauma sites; viral replication is stratification-coupled — L1/L2 are expressed only in terminally differentiated keratinocytes."
 ---
 
 # HPV-16
@@ -171,7 +177,9 @@ Additional co-factors in cervical carcinogenesis include **smoking**, **high par
 
 - **Infects** → [Dendritic Cell](../../../01-human/04-cellular/dendritic-cell/README.md): HPV infects mucosal keratinocytes; Langerhans cells (skin DCs) encounter HPV but are functionally suppressed by E6/E7-mediated NF-κB inhibition, impairing adaptive immune priming.
 - **Damages** → [Immune System](../../../01-human/07-system/immune-system/README.md): E6/E7 suppress IFN-β induction, degrade IRF3, and inhibit TLR9; immune evasion is necessary for persistent infection and oncogenic transformation.
-- **Prevents** → [Immune System](../../../01-human/07-system/immune-system/README.md): Gardasil-9 VLP vaccine generates potent neutralising IgG against HPV-16 L1, preventing infection and thus preventing oncogenesis; >90% efficacy against high-grade lesions in seronegative individuals.
+- `co-factor` → **[HIV-1](../hiv-1/README.md)** — HIV-1 CD4+ T cell depletion eliminates HPV-specific CTL surveillance → persistent HPV replication → up to 22-fold increased cervical cancer risk in HIV+ women; HPV vaccine is recommended for all HIV+ individuals.
+- `damages` → **[Cytotoxic T Cell](../../../01-human/04-cellular/t-cytotoxic-cell/README.md)** — HPV E6/E7 downregulate MHC-I via E3-ubiquitin ligase-mediated degradation; reduced MHC-I/peptide density impairs CD8+ CTL recognition → immune evasion enabling persistent infection and oncogenic progression.
+- `infects` → **[Integumentary System](../../../01-human/07-system/integumentary-system/README.md)** — HPV-16 is keratinocyte-tropic; L1 binds heparan sulphate proteoglycans on basal keratinocytes at microtrauma sites; viral replication is stratification-coupled — L1/L2 expressed only in terminally differentiated squamous epithelium.
 
 ## Pathology
 
@@ -228,3 +236,5 @@ No approved antiviral agents directly target HPV replication.
 [^schiller-2012-hpv-vaccine]: Schiller JT, Castellsague X, Garland SM. A review of clinical trials of human papillomavirus prophylactic vaccines. *Vaccine.* 2012;30(Suppl 5):F123-38. [doi:10.1016/j.vaccine.2012.04.108](https://doi.org/10.1016/j.vaccine.2012.04.108) · [PubMed 23199956](https://pubmed.ncbi.nlm.nih.gov/23199956/)
 [^sung-2021-global-cancer]: Sung H, Ferlay J, Siegel RL, et al. Global Cancer Statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. *CA Cancer J Clin.* 2021;71(3):209-249. [doi:10.3322/caac.21660](https://doi.org/10.3322/caac.21660) · [PubMed 33538338](https://pubmed.ncbi.nlm.nih.gov/33538338/)
 [^stanley-2012-hpv-immune]: Stanley M. Immunobiology of HPV and HPV vaccines. *Gynecol Oncol.* 2010;118(1 Suppl):S12-6. [doi:10.1016/j.ygyno.2010.04.015](https://doi.org/10.1016/j.ygyno.2010.04.015) · [PubMed 20494223](https://pubmed.ncbi.nlm.nih.gov/20494223/)
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

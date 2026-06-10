@@ -32,6 +32,9 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulates
     note: "Cutaneous vasodilation (AV anastomoses) is the primary thermoregulatory cardiovascular response; 15% of CO reaches skin at rest, up to 60% during heat stress; vasoconstriction in shock redistributes blood to vital organs."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: infected-by
+    note: "HPV-16 infects basal keratinocytes of stratified squamous epithelium at the cervical transformation zone; L1 binds heparan sulphate proteoglycans at microtrauma sites; viral replication is stratification-coupled — L1/L2 expressed only in terminally differentiated keratinocytes."
 ---
 
 # Integumentary System
@@ -142,6 +145,7 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - **Modulates:** [immune-system](../../07-system/immune-system/README.md) — epithelial alarmins (TSLP, IL-25, IL-33) drive systemic type 2 immunity; barrier defects initiate atopic march
 - **Modulates:** [nervous-system](../../07-system/nervous-system/README.md) — ~1 million cutaneous sensory receptors transduce touch, pain, temperature, itch; central processing via dorsal horn → thalamus → somatosensory cortex
 - **Modulates:** [cardiovascular-system](../../07-system/cardiovascular-system/README.md) — cutaneous vasodilation/vasoconstriction controls up to 60% of cardiac output for thermoregulation
+- `infected-by` → **[HPV-16](../../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV-16 infects basal keratinocytes of stratified squamous epithelium at the cervical transformation zone; L1 binds heparan sulphate proteoglycans at microtrauma sites; viral replication is stratification-coupled — L1/L2 expressed only in terminally differentiated keratinocytes.
 
 ## Pathology
 
