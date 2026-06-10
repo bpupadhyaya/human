@@ -61,6 +61,9 @@ cross_links:
   - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
     relation: connects-to
     note: "NSAIDs including ibuprofen increase ischemic stroke/MI risk ~1.3–1.5× via ↓ endothelial PGI₂; ibuprofen blocks aspirin irreversible COX-1 acetylation → ↓ cardioprotective antiplatelet effect; avoid in high cardiovascular risk patients."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: treated-by
+    note: "Aspirin is first-line secondary stroke prevention after TIA/minor ischemic stroke; irreversible platelet COX-1 blockade → ↓ TXA₂ → ↓ atherothrombotic and cardioembolic risk; 300 mg loading dose reduces 90-day recurrence (CAST, IST); contraindicated in hemorrhagic stroke."
 ---
 
 # Stroke
@@ -179,6 +182,7 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Familial Hypercholesterolemia](../familial-hypercholesterolemia/README.md)** — FH accelerates carotid and cerebrovascular atherosclerosis; HeFH patients have elevated carotid intima-media thickness (cIMT) and higher stroke risk vs. general population; statin + PCSK9 inhibitor reduces cIMT progression and ischemic stroke incidence in FH cohorts.
 - `prevented-by` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Warfarin prevents AF-related ischemic stroke by 64% (Hart 2007); INR 2.0–3.0; preferred over DOACs for mechanical heart valves; antiphospholipid syndrome triple-positive: warfarin INR 3.0–4.0 (TRAPS trial confirmed DOACs inferior).
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs including ibuprofen increase ischemic stroke/MI risk ~1.3–1.5× via ↓ endothelial PGI₂; ibuprofen blocks aspirin irreversible COX-1 acetylation → ↓ cardioprotective antiplatelet effect; avoid in high cardiovascular risk patients.
+- `treated-by` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — aspirin is first-line secondary stroke prevention after TIA/minor ischemic stroke; 300 mg loading dose reduces 90-day recurrence; irreversible platelet COX-1 blockade prevents atherothrombotic and cardioembolic thrombosis; contraindicated in hemorrhagic stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

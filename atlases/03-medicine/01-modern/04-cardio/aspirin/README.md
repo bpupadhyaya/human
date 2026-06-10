@@ -42,7 +42,13 @@ cross_links:
     note: "COX inhibition reduces prostaglandin E₂ and thromboxane A₂, modulating fever, pain, and inflammatory responses; aspirin-triggered lipoxins (ATLs) generated via acetylated COX-2 have active pro-resolution, anti-inflammatory activity."
   - target: 01-human/04-cellular/platelet
     relation: modulates
-    note: "Modulates by Platelet."
+    note: "Aspirin irreversibly acetylates Ser530 in platelet COX-1, permanently blocking TXA₂ synthesis for the platelet's ~10-day lifespan (platelets are anucleate — no new COX synthesis); ~10% of platelets replaced per day, so antiplatelet effect recovers in 5-7 days after stopping."
+  - target: 01-human/07-system/atherosclerosis
+    relation: treats
+    note: "Aspirin 75-100 mg/day is a cornerstone of secondary cardiovascular prevention in atherosclerotic disease; irreversible platelet COX-1 acetylation blocks TXA₂ → prevents plaque-rupture-triggered arterial thrombosis; ATC meta-analysis: 22% reduction in serious vascular events."
+  - target: 01-human/07-system/stroke
+    relation: treats
+    note: "Aspirin reduces ischemic stroke risk in secondary prevention (post-TIA/minor stroke); irreversible platelet COX-1 inhibition blocks TXA₂ → prevents atherothrombotic and cardioembolic thrombosis; 300 mg loading reduces early recurrence; contraindicated in hemorrhagic stroke."
 ---
 
 # Aspirin
@@ -123,7 +129,15 @@ At higher doses, aspirin inhibits COX-2 at sites of inflammation → ↓PGE₂, 
 
 ## Connections
 
-- **Acts on** → [Cardiovascular system](../../../../01-human/07-system/cardiovascular-system/README.md): By inhibiting platelet TXA₂ synthesis, aspirin reduces arterial thrombosis risk at the system level — preventing coronary and cerebrovascular thrombo-occlusive events.
+- `acts-on` → **[Cardiovascular System](../../../../01-human/07-system/cardiovascular-system/README.md)** — irreversible platelet TXA₂ blockade reduces arterial thrombosis risk at the system level; cornerstone of acute MI management (ISIS-2: 23% mortality reduction) and secondary cardiovascular prevention.
+- `treats` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — COX inhibition reduces PGE₂ and TXA₂, modulating fever, pain, and inflammation; acetylated COX-2 generates aspirin-triggered lipoxins (ATLs) with active pro-resolution, anti-inflammatory activity.
+- `modulates` → **[Platelet](../../../../01-human/04-cellular/platelet/README.md)** — irreversibly acetylates Ser530 in platelet COX-1, permanently blocking TXA₂ synthesis for the platelet's ~10-day lifespan; platelets are anucleate so cannot regenerate COX; antiplatelet effect recovers in 5-7 days after stopping.
+- `treats` → **[Atherosclerosis](../../../../01-human/07-system/atherosclerosis/README.md)** — aspirin 75-100 mg/day prevents plaque-rupture-triggered arterial thrombosis via TXA₂ blockade; ATC meta-analysis: 22% proportional reduction in serious vascular events in secondary prevention.
+- `treats` → **[Stroke](../../../../01-human/07-system/stroke/README.md)** — aspirin reduces ischemic stroke risk in secondary prevention (post-TIA/minor stroke); 300 mg loading dose reduces early recurrence; contraindicated in hemorrhagic stroke; mechanism via platelet TXA₂ blockade.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^vane-1971-cox-inhibition]: Vane JR. Inhibition of prostaglandin synthesis as a mechanism of action for aspirin-like drugs. *Nat New Biol.* 1971;231(25):232-5. [doi:10.1038/newbio231232a0](https://doi.org/10.1038/newbio231232a0) · [PubMed 5284360](https://pubmed.ncbi.nlm.nih.gov/5284360/)
 [^isis-2-1988]: ISIS-2 Collaborative Group. Randomised trial of intravenous streptokinase, oral aspirin, both, or neither among 17,187 cases of suspected acute myocardial infarction. *Lancet.* 1988;2(8607):349-60. [doi:10.1016/S0140-6736(88)92833-4](https://doi.org/10.1016/S0140-6736(88)92833-4) · [PubMed 2899772](https://pubmed.ncbi.nlm.nih.gov/2899772/)

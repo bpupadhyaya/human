@@ -44,6 +44,12 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: modulates
     note: "TNFα-TNFR1 signaling is a major activator of NF-κB via TRADD-TRAF2-RIP1 → IKK complex → IκB phosphorylation/degradation; adalimumab blocks this upstream, preventing NF-κB nuclear translocation and pro-inflammatory gene transcription."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: treats
+    note: "Adalimumab is first-line biologic for MTX-inadequate RA; ARMADA trial: ACR50 59% (adalimumab+MTX) vs 24% (MTX alone) at 24 weeks; halts radiographic progression; concomitant MTX reduces anti-drug antibody formation; approved per ACR and EULAR guidelines."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: treats
+    note: "Adalimumab is approved for Crohn's disease (CHARM trial: 36% vs 12% 52-week remission) and ulcerative colitis (ULTRA-2: 16.5% vs 9.3% remission at 9 weeks); reduces fistula closure in perianal CD; both induction and maintenance approved."
 ---
 
 # Adalimumab
@@ -108,6 +114,12 @@ Adalimumab is approved for: **rheumatoid arthritis (RA)**, **psoriatic arthritis
 
 ## Connections
 
-- **Targets** → [TNFα](../../../../../01-human/03-molecular/tnf-alpha/README.md): High-affinity (Kd ~100 pM) neutralization of both soluble and membrane-bound TNFα, blocking TNFR1/TNFR2 signaling — the master inflammatory cytokine in RA, CD, and psoriasis.
-- **Modulates** → [Macrophage](../../../../../01-human/04-cellular/macrophage/README.md): Reduces macrophage-driven synovial and mucosal inflammation via TNFα blockade and reverse mTNFα signaling.
-- **Modulates** → [NF-κB](../../../../../01-human/03-molecular/nf-kb/README.md): Blocks TNFα-TNFR1-TRADD-TRAF2 signaling axis → prevents IKK-mediated IκB degradation → ↓ NF-κB nuclear translocation and inflammatory gene transcription.
+- `targets` → **[TNFα](../../../../../01-human/03-molecular/tnf-alpha/README.md)** — high-affinity (Kd ~100 pM) neutralization of both soluble and membrane-bound TNFα, blocking TNFR1/TNFR2 signaling — the master inflammatory cytokine in RA, Crohn's disease, and psoriasis.
+- `modulates` → **[Macrophage](../../../../../01-human/04-cellular/macrophage/README.md)** — reduces macrophage-driven synovial and mucosal inflammation via TNFα blockade; mTNFα reverse signaling on macrophages induces IL-10 production and T-cell apoptosis.
+- `modulates` → **[NF-κB](../../../../../01-human/03-molecular/nf-kb/README.md)** — blocks TNFα-TNFR1-TRADD-TRAF2 signaling axis → prevents IKK-mediated IκB degradation → ↓ NF-κB nuclear translocation and pro-inflammatory gene transcription.
+- `treats` → **[Rheumatoid Arthritis](../../../../../01-human/07-system/rheumatoid-arthritis/README.md)** — first-line biologic for MTX-inadequate RA; ARMADA trial: ACR50 59% vs 24% at 24 weeks; halts radiographic progression; concomitant MTX reduces anti-drug antibody formation.
+- `treats` → **[Inflammatory Bowel Disease](../../../../../01-human/07-system/inflammatory-bowel-disease/README.md)** — approved for Crohn's disease (CHARM: 36% vs 12% 52-week remission) and ulcerative colitis (ULTRA-2: 16.5% vs 9.3%); fistula closure in perianal CD; induction and maintenance approved.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Adalimumab (Humira) — anti-TNF biologic. TNFα neutralization mechanism, NF-κB inhibition, RA ARMADA trial, Crohn's CHARM trial, TB reactivation risk, biosimilars. Human Engineering project.">
-  <meta property="og:title" content="Adalimumab (Humira) — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Fully human anti-TNFα monoclonal antibody (IgG1); neutralizes soluble and membrane-bound TNFα → ↓ NF-κB/MAPK inflammation. FDA-approved for RA, psoriasis, IBD, ">
+  <meta property="og:title" content="Adalimumab — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Adalimumab (Humira) — Medicine Atlas · Human Engineering</title>
+  <title>Adalimumab — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #4f46e5;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,46 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(79,70,229,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #4f46e5, #1e1b4b); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -94,112 +108,75 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; 01-Modern &middot; 11-Biologics</div>
-    <h1>Adalimumab (Humira)</h1>
-    <p class="tagline">Fully human anti-TNFα IgG1 monoclonal antibody — neutralizes soluble and membrane-bound TNFα, blocking TNFR1/TNFR2 signaling, NF-κB activation, and the downstream inflammatory cytokine cascade driving RA, Crohn's disease, and psoriasis.</p>
-    <p class="subtagline">The world's best-selling drug by revenue from 2012 to 2022. 13+ FDA indications. Mandatory TB screening before use. Biosimilars now available since 2023 US patent expiry — a pivotal access milestone.</p>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 01-modern</div>
+    <h1>Adalimumab</h1>
+    <p class="tagline">Fully human anti-TNFα monoclonal antibody (IgG1); neutralizes soluble and membrane-bound TNFα → ↓ NF-κB/MAPK inflammation. FDA-approved for RA, psoriasis, IBD, AS, JIA and 10 other indications. Humira was the world's best-selling drug 2012–2022.</p>
+    <p class="aliases">Also known as: adalimumab, Humira, D2E7, adalimumab-atto, adalimumab-adbm, Hyrimoz, Hadlima, Amjevita</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">40 mg</span><span class="stat-label">Standard SC dose (every 2 weeks)</span></div>
-      <div class="stat"><span class="stat-num">59%</span><span class="stat-label">ACR50 in RA + MTX (ARMADA)</span></div>
-      <div class="stat"><span class="stat-num">36%</span><span class="stat-label">52-week remission Crohn's (CHARM)</span></div>
-      <div class="stat"><span class="stat-num">~14 days</span><span class="stat-label">Pharmacological half-life</span></div>
+        <div class="stat"><span class="stat-num">01-modern</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas &middot; Biologics &middot; Anti-TNF Monoclonal Antibody</div>
-        <h2>Adalimumab</h2>
-        <div class="drug-class">Class: Fully Human Anti-TNFα IgG1 mAb &nbsp;&middot;&nbsp; Route: Subcutaneous injection &nbsp;|&nbsp; Brand: Humira (AbbVie); biosimilars: Amjevita, Hyrimoz, Hadlima &nbsp;|&nbsp; Indications: RA, PsA, AS, Crohn's, UC, psoriasis, JIA, uveitis, hidradenitis suppurativa</div>
-        <p class="summary">Adalimumab is a recombinant fully human IgG1 monoclonal antibody (phage display-derived, no murine sequences) that binds both soluble and membrane-bound TNFα with high affinity (Kd ~100 pM), blocking interaction with TNFR1 (p55) and TNFR2 (p75). TNFα blockade reduces NF-κB and MAPK/JNK activation in macrophages, synoviocytes, and intestinal epithelium — suppressing IL-1β, IL-6, IL-8, MMP, ICAM-1 production. Reverse signaling via membrane-TNFα induces anti-inflammatory IL-10 and T cell apoptosis. SC bioavailability ~64%; t½ ~14 days; every-other-week dosing (RA, PsA). Concomitant methotrexate reduces anti-drug antibody formation and improves clinical response.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">Humira</span>
-          <span class="alias-pill">D2E7</span>
-          <span class="alias-pill">Amjevita</span>
-          <span class="alias-pill">Hyrimoz</span>
-          <span class="alias-pill">Hadlima</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">adalimumab</div>
+        <h2>Adalimumab</h2>
+        <p class="summary">Fully human anti-TNFα monoclonal antibody (IgG1); neutralizes soluble and membrane-bound TNFα → ↓ NF-κB/MAPK inflammation. FDA-approved for RA, psoriasis, IBD, AS, JIA and 10 other indications. Humira was the world's best-selling drug 2012–2022.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Mechanism — TNFα Neutralization to NF-κB Suppression</h3>
-          <ol class="step-list">
-            <li><strong>TNFα biology:</strong> TNFα is a 17 kDa homotrimeric cytokine produced primarily by macrophages, monocytes, and T cells; exists as soluble (sTNFα, cleaved by ADAM17/TACE) and membrane-bound (mTNFα) forms; signals through TNFR1 (constitutive, pro-inflammatory) and TNFR2 (inducible, immune cells)</li>
-            <li><strong>TNFR1 signaling cascade:</strong> TNFα-TNFR1 → TRADD → TRAF2 → RIP1 → IKK complex → IκB phosphorylation/ubiquitination/proteasomal degradation → NF-κB (RelA/p50) nuclear translocation → IL-1β, IL-6, IL-8, VCAM-1, ICAM-1, MMP-1/3/13, COX-2 gene transcription; also TRADD → FADD → caspase-8 → apoptosis; TRAF2 → MEKK1 → JNK/p38 → AP-1</li>
-            <li><strong>Adalimumab binding:</strong> Binds sTNFα and mTNFα trimer with high affinity (Kd ~100–200 pM) → steric blockade of TNFR1/TNFR2 binding → no receptor activation → NF-κB and MAPK remain inactive</li>
-            <li><strong>Reverse signaling (mTNFα):</strong> Adalimumab cross-links mTNFα → "outside-in" signaling → ↑ IL-10, ↓ pro-inflammatory cytokines, T cell apoptosis — additional anti-inflammatory mechanism beyond simple neutralization</li>
-            <li><strong>ADCC/CDC (secondary):</strong> IgG1 Fc region mediates ADCC (via NK cells/FcγRIII) and CDC (complement) against mTNFα-expressing macrophages/T cells in the synovium or gut wall — potentially depleting inflammatory effector cells</li>
-          </ol>
-        </div>
-
-        <div class="detail-section">
-          <h3>Key Clinical Trials</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Trial</th><th>Population</th><th>Key Finding</th></tr>
-            <tr><td><strong>ARMADA (2004)</strong></td><td>Active RA on MTX background therapy</td><td>ACR50 at 24 weeks: 59% (adalimumab + MTX) vs 24% (MTX alone); 78% ACR20 vs 36%; significant radiographic progression inhibition (mTSS)</td></tr>
-            <tr><td><strong>CHARM (2007)</strong></td><td>Active Crohn's disease (52-week)</td><td>Remission at 52 weeks: 36% (every-other-week) vs 12% (placebo); significant fistula closure benefit (perianal CD)</td></tr>
-            <tr><td><strong>ULTRA-2</strong></td><td>Moderate-severe ulcerative colitis</td><td>Clinical remission at 52 weeks: 17.3% vs 8.5% placebo; mucosal healing: 25% vs 15%; significant but modest effect size</td></tr>
-            <tr><td><strong>REVEAL (psoriasis)</strong></td><td>Moderate-severe plaque psoriasis</td><td>PASI 75 at 16 weeks: 71% vs 7% placebo; durable at 60 weeks (68% maintained PASI 75)</td></tr>
-            <tr><td><strong>Weinblatt 2003</strong></td><td>Early pivotal RA RCT</td><td>ACR20/50/70 significantly superior to placebo at all time points; well-tolerated; established foundation for FDA approval Dec 2002</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>adalimumab</td></tr>
+            <tr><td>Name</td><td>Adalimumab</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Stream</td><td>01-modern</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Safety — Critical Warnings</h3>
-          <ul class="se-list">
-            <li><strong>Tuberculosis reactivation (black box warning):</strong> TNFα is essential for granuloma maintenance — adalimumab disrupts granuloma integrity, releasing latent TB. Risk ~3–25× increased vs general population. Screen ALL patients with TST and/or IGRA before starting; treat latent TB with isoniazid × 9 months (start at least 1 month before adalimumab); chest X-ray in all patients</li>
-            <li><strong>Serious bacterial, fungal, opportunistic infections:</strong> Elevated risk of bacterial infections; endemic mycoses (histoplasmosis, coccidioidomycosis, aspergillosis) — especially in relevant geographic areas; contraindicated in active serious infections; pause during serious infections</li>
-            <li><strong>Hepatitis B reactivation:</strong> Screen HBsAg and anti-HBc before starting; HBsAg+ patients need antiviral prophylaxis (tenofovir or entecavir) throughout treatment and for 6 months after stopping</li>
-            <li><strong>Lymphoma risk (2–3× increased relative risk):</strong> Risk concentrated in patients with longstanding active RA or IBD (underlying disease itself increases lymphoma risk); non-Hodgkin's lymphoma and hepatosplenic T-cell lymphoma (in young males with IBD + thiopurine combination) — thiopurine combination most concerning</li>
-            <li><strong>Demyelinating disease:</strong> Contraindicated in pre-existing MS or optic neuritis; avoid in any demyelinating condition; new-onset demyelination reported (rare)</li>
-            <li><strong>Heart failure exacerbation:</strong> Contraindicated in NYHA class III/IV; may worsen HF — TNFα has cardioprotective roles in cardiac remodeling</li>
-            <li><strong>Anti-drug antibodies (ADA) / immunogenicity:</strong> ~10–15% of patients develop neutralizing anti-adalimumab antibodies → reduced drug levels → loss of efficacy; concomitant MTX substantially reduces ADA formation (~5% with MTX vs 15–20% without)</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="#" class="conn-pill targets">
-              <span class="rel">Targets</span>
-              TNFα (soluble + membrane-bound)
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Modulates</span>
-              NF-κB Signaling
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Modulates</span>
-              Macrophage Inflammation
-            </a>
-            <a href="#" class="conn-pill acts">
-              <span class="rel">Treats</span>
-              RA / Crohn's / Psoriasis
-            </a>
+            <a class="conn-pill" href="tnf-alpha.html" title="Adalimumab is a fully human IgG1 monoclonal antibody that binds both soluble and membrane-bound TNFα with high affinity (Kd ~100 pM), neutralizing its interaction with p55 (TNFR1) and p75 (TNFR2) receptors — blocking NF-κB activation, MAPK/JNK signaling, and downstream inflammatory cytokine cascades."><span class="rel">targets</span>Tnf Alpha</a>
+            <a class="conn-pill" href="macrophage.html" title="TNFα is primarily produced by macrophages; adalimumab-mediated TNF neutralization reduces macrophage-driven IL-1β, IL-6, IL-8, MMP production and endothelial activation — the dominant mechanism in RA synovitis."><span class="rel">modulates</span>Macrophage</a>
+            <a class="conn-pill" href="nf-kb.html" title="TNFα-TNFR1 signaling is a major activator of NF-κB via TRADD-TRAF2-RIP1 → IKK complex → IκB phosphorylation/degradation; adalimumab blocks this upstream, preventing NF-κB nuclear translocation and pro-inflammatory gene transcription."><span class="rel">modulates</span>Nf Kb</a>
+            <a class="conn-pill" href="rheumatoid-arthritis.html" title="Adalimumab is first-line biologic for MTX-inadequate RA; ARMADA trial: ACR50 59% (adalimumab+MTX) vs 24% (MTX alone) at 24 weeks; halts radiographic progression; concomitant MTX reduces anti-drug antibody formation; approved per ACR and EULAR guidelines."><span class="rel">treats</span>Rheumatoid Arthritis</a>
+            <a class="conn-pill" href="inflammatory-bowel-disease.html" title="Adalimumab is approved for Crohn's disease (CHARM trial: 36% vs 12% 52-week remission) and ulcerative colitis (ULTRA-2: 16.5% vs 9.3% remission at 9 weeks); reduces fistula closure in perianal CD; both induction and maintenance approved."><span class="rel">treats</span>Inflammatory Bowel Disease</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Keystone EC, Kavanaugh AF, Sharp JT, et al. Radiographic, clinical, and functional outcomes of treatment with adalimumab in patients with active rheumatoid arthritis receiving concomitant methotrexate therapy. <em>Arthritis Rheum.</em> 2004;50(5):1400-11. <a href="https://doi.org/10.1002/art.20217" target="_blank" rel="noopener noreferrer">doi:10.1002/art.20217</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15146409/" target="_blank" rel="noopener noreferrer">PubMed 15146409</a></li>
-            <li>Colombel JF, Sandborn WJ, Rutgeerts P, et al. Adalimumab for maintenance of clinical response and remission in patients with Crohn's disease: the CHARM trial. <em>Gastroenterology.</em> 2007;132(1):52-65. <a href="https://doi.org/10.1053/j.gastro.2006.09.018" target="_blank" rel="noopener noreferrer">doi:10.1053/j.gastro.2006.09.018</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17241859/" target="_blank" rel="noopener noreferrer">PubMed 17241859</a></li>
-            <li>Tracey D, Klareskog L, Sasso EH, Salfeld JG, Tak PP. Tumor necrosis factor antagonist mechanisms of action: a comprehensive review. <em>Pharmacol Ther.</em> 2008;117(2):244-79. <a href="https://doi.org/10.1016/j.pharmthera.2007.10.001" target="_blank" rel="noopener noreferrer">doi:10.1016/j.pharmthera.2007.10.001</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18155297/" target="_blank" rel="noopener noreferrer">PubMed 18155297</a></li>
+            <li><a href="https://doi.org/10.1002/art.10697" target="_blank" rel="noopener noreferrer">Weinblatt ME, Keystone EC, Furst DE, et al. Adalimumab, a fully human anti-tumor necrosis factor alpha monoclonal antibody, for the treatment of rheumatoid arthritis in patients taking concomitant methotrexate. Arthritis Rheum. 2003;48(1):35-45.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12528101/" target="_blank" rel="noopener noreferrer">PubMed 12528101</a></li>
+            <li><a href="https://doi.org/10.1053/j.gastro.2006.09.018" target="_blank" rel="noopener noreferrer">Colombel JF, Sandborn WJ, Rutgeerts P, et al. Adalimumab for maintenance of clinical response and remission in patients with Crohn's disease: the CHARM trial. Gastroenterology. 2007;132(1):52-65.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17241859/" target="_blank" rel="noopener noreferrer">PubMed 17241859</a></li>
+            <li><a href="https://doi.org/10.1002/art.20217" target="_blank" rel="noopener noreferrer">Keystone EC, Kavanaugh AF, Sharp JT, et al. Radiographic, clinical, and functional outcomes of treatment with adalimumab (a human anti-tumor necrosis factor monoclonal antibody) in patients with active rheumatoid arthritis receiving concomitant methotrexate therapy. Arthritis Rheum. 2004;50(5):1400-11.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/15146409/" target="_blank" rel="noopener noreferrer">PubMed 15146409</a></li>
+            <li><a href="https://doi.org/10.1016/j.pharmthera.2007.10.001" target="_blank" rel="noopener noreferrer">Tracey D, Klareskog L, Sasso EH, Salfeld JG, Tak PP. Tumor necrosis factor antagonist mechanisms of action: a comprehensive review. Pharmacol Ther. 2008;117(2):244-79.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/18155297/" target="_blank" rel="noopener noreferrer">PubMed 18155297</a></li>
           </ul>
         </div>
 
@@ -208,10 +185,9 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
       <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>

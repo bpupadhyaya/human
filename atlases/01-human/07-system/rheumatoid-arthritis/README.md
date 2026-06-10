@@ -52,6 +52,12 @@ cross_links:
   - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
     relation: treated-by
     note: "NSAIDs including ibuprofen reduce COX-2-driven synovial PGE₂ → less joint pain, swelling, and stiffness; adjuncts to DMARDs; reduce RA symptoms but not radiographic progression; long-term use requires GI prophylaxis (PPI)."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: treated-by
+    note: "Corticosteroids (prednisolone 5–10 mg/day) are bridge therapy in RA while DMARDs take effect; reduce radiographic progression in early RA (COBRA, BeSt trials); long-term use requires osteoporosis prophylaxis (bisphosphonate + calcium/vitamin D)."
+  - target: 03-medicine/01-modern/11-biologics/adalimumab
+    relation: treated-by
+    note: "Adalimumab (anti-TNFα) is first-line biologic for MTX-inadequate RA; ARMADA trial: ACR50 59% vs 24% at 24 weeks; inhibits radiographic progression; mTNFα reverse signaling induces IL-10; TB screening mandatory before initiation (3-25× TB reactivation risk)."
 ---
 
 # Rheumatoid Arthritis
@@ -205,6 +211,8 @@ RA patients have:
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5⁺ macrophages and Th1 cells are the dominant leukocyte populations in RA pannus; CCL3/CCL4/CCL5 (CCR5 ligands) are elevated in RA synovial fluid and correlate with disease activity; maraviroc (CCR5 antagonist) showed modest benefit in small RA trials, suggesting CCR5-mediated leukocyte recruitment contributes to synovitis.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 is the dominant synovial chemokine in RA: synoviocytes and FLS secrete CCL2 → CCR2+ monocyte/macrophage recruitment → pannus formation; synovial fluid CCL2 >5 ng/mL correlates with radiographic damage; macrophage-derived RANKL and MMPs drive joint destruction.
 - `treated-by` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs including ibuprofen reduce COX-2-driven synovial PGE₂ → less joint pain, swelling, and stiffness; adjuncts to DMARDs; reduce RA symptoms but not radiographic progression; long-term use requires GI prophylaxis (PPI).
+- `treated-by` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Prednisolone bridge therapy (5–10 mg/day) while DMARDs take effect (8–12 weeks latency); reduces radiographic progression in early RA (COBRA, BeSt trials); long-term use requires osteoporosis prophylaxis (bisphosphonate + calcium/vitamin D).
+- `treated-by` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — fully human anti-TNFα IgG1 biologic; first-line for MTX-inadequate RA; ARMADA trial: ACR50 59% vs 24% at 24 weeks; halts radiographic progression; TB screening mandatory before initiation; concomitant MTX reduces immunogenicity.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
