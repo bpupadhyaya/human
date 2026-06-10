@@ -42,6 +42,9 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "BAFF via BCMA and APRIL via BCMA/TACI provide long-lived plasma cell survival signals in bone marrow niches; atacicept (anti-BAFF+APRIL) depletes plasma cells; BCMA-directed therapies (teclistamab, idecabtagene vicleucel CAR-T) target plasma cells in multiple myeloma."
+  - target: 01-human/05-tissue/germinal-center
+    relation: modulated-by
+    note: "GC light zone centrocytes that win affinity selection exit as BLIMP-1+ plasmablasts; long-lived plasma cells (LLPCs) migrate to bone marrow niches and secrete high-affinity class-switched antibody for decades — the cellular basis of vaccine-elicited durability."
 ---
 
 # Plasma Cell
@@ -131,6 +134,7 @@ LLPCs avoid apoptosis via constitutive expression of anti-apoptotic BCL-2 family
 - **Differentiated from (modulated-by):** [b-cell](../b-cell/README.md) — germinal-center B cells differentiate into plasma cells after class switching and affinity maturation
 - **Expresses:** [immunoglobulin-g](../../03-molecular/immunoglobulin-g/README.md) — primary antibody product; each LLPC secretes thousands of IgG molecules per second continuously
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF via BCMA and APRIL via BCMA/TACI provide long-lived plasma cell survival signals in bone marrow niches; atacicept (anti-BAFF+APRIL) depletes plasma cells; BCMA-directed therapies (teclistamab, idecabtagene vicleucel CAR-T) target plasma cells in multiple myeloma.
+- `modulated-by` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — GC light zone centrocytes that win affinity selection exit as BLIMP-1+ plasmablasts; long-lived plasma cells (LLPCs) migrate to bone marrow niches and secrete high-affinity class-switched antibody for decades — the cellular basis of vaccine-elicited durability.
 
 [^slifka-1998-llpc]: Slifka MK, Antia R, Whitmire JK, Ahmed R. Humoral immunity due to long-lived plasma cells. *Immunity.* 1998;8(3):363-72. [doi:10.1016/S1074-7613(00)80541-5](https://doi.org/10.1016/S1074-7613(00)80541-5) · [PubMed 9529153](https://pubmed.ncbi.nlm.nih.gov/9529153/)
 [^nutt-2015-b-cell-fate]: Nutt SL, Hodgkin PD, Tarlinton DM, Corcoran LM. The generation of antibody-secreting plasma cells. *Nat Rev Immunol.* 2015;15(3):160-71. [doi:10.1038/nri3795](https://doi.org/10.1038/nri3795) · [PubMed 25698678](https://pubmed.ncbi.nlm.nih.gov/25698678/)

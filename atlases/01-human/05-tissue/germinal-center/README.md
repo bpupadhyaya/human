@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: contains
     note: "Follicular dendritic cells (FDCs, non-hematopoietic, CXCL13+) form the light zone scaffold; they retain native antigen as immune complexes on Fc and complement receptors for centrocyte BCR interrogation during affinity selection."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: modulates
+    note: "GC reaction is the primary source of long-lived plasma cells; selected centrocytes exit as BLIMP-1+ plasmablasts that migrate to bone marrow niches and secrete high-affinity class-switched IgG/IgA for decades — the cellular basis of durable vaccine protection."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "GC reactions in GALT (Peyer's patches, mesenteric lymph nodes) drive IgA class switch recombination; TGF-β + IL-10 from Tfh → IgA CSR; plasma cells exit to lamina propria → sIgA via pIgR transcytosis; mucosal IgA is the dominant GC output in gut immunity."
+  - target: 01-human/07-system/immune-system
+    relation: part-of
+    note: "GC reactions within secondary lymphoid organs are the central mechanism of adaptive humoral immunity; they generate high-affinity class-switched antibodies, long-lived plasma cells, and memory B cells — the molecular basis of vaccination and immunological memory."
 ---
 
 # Germinal Center
@@ -102,6 +111,12 @@ Tfh (CD4⁺ CXCR5⁺ PD-1⁺ ICOS⁺ BCL6⁺) are the master regulators of GC re
 - `contains` → **[B Cell](../../04-cellular/b-cell/README.md)** — centroblasts (DZ) and centrocytes (LZ) are GC-resident B cells undergoing AID-driven mutation, FDC selection, and Tfh-guided class switching.
 - `contains` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T follicular helper cells (Tfh, BCL6⁺CXCR5⁺) populate the light zone and provide CD40L + IL-21 signals essential for B-cell survival and differentiation.
 - `contains` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — follicular dendritic cells (FDCs) are the light zone scaffold retaining antigen as immune complexes for centrocyte BCR interrogation.
+- `modulates` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — GC reaction is the primary source of long-lived plasma cells (LLPCs); selected centrocytes exit as BLIMP-1+ plasmablasts that migrate to bone marrow niches and secrete high-affinity class-switched IgG/IgA for decades.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — GC reactions in GALT drive IgA CSR via Tfh-derived TGF-β + IL-10; GC-derived lamina propria plasma cells secrete polymeric IgA transcytosed by pIgR → sIgA in the gut lumen; mucosal IgA is the dominant GC output in gut immunity.
+- `part-of` → **[Immune System](../../07-system/immune-system/README.md)** — GC reactions are the central engine of humoral adaptive immunity; AID-driven somatic hypermutation + FDC selection + Tfh CD40L/IL-21 → 1,000-fold affinity maturation, class-switch recombination, and immunological memory.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^allen-2007-gc-zones]: Allen CDC, Okada T, Cyster JG. Germinal-center organization and cellular dynamics. *Immunity.* 2007;27(2):190-202. [doi:10.1016/j.immuni.2007.07.009](https://doi.org/10.1016/j.immuni.2007.07.009) · [PubMed 17723215](https://pubmed.ncbi.nlm.nih.gov/17723215/)
 [^victora-2012-gc-review]: Victora GD, Nussenzweig MC. Germinal centers. *Annu Rev Immunol.* 2012;30:429-457. [doi:10.1146/annurev-immunol-020711-075032](https://doi.org/10.1146/annurev-immunol-020711-075032) · [PubMed 22224772](https://pubmed.ncbi.nlm.nih.gov/22224772/)

@@ -37,6 +37,9 @@ cross_links:
   - target: 01-human/07-system/iga-nephropathy
     relation: connects-to
     note: "Aberrant O-glycosylation of IgA1 hinge region → galactose-deficient IgA1 (Gd-IgA1) → anti-Gd-IgA1 IgG autoantibodies → immune complexes → mesangial deposition → complement activation → IgAN; Gd-IgA1 from mucosal plasma cells is the primary disease-causing immunoglobulin in IgAN."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "IgA class switch recombination occurs in GC reactions within GALT (Peyer's patches, mesenteric lymph nodes); Tfh-derived TGF-β + IL-10 → IgA CSR; GC-derived lamina propria plasma cells secrete dimeric IgA transcytosed by pIgR into the gut lumen."
 ---
 
 # Secretory IgA
@@ -122,6 +125,7 @@ Dimeric IgA (J chain-linked, produced by lamina propria plasma cells) reaches th
 - `connects-to` → **[Immune System](../../07-system/immune-system/README.md)** — SIgA is the effector arm of mucosal immunity: pIgR transcytoses dimeric IgA across epithelium; 3-5 g/day secreted into gut lumen; immune exclusion is the primary mucosal defense before systemic IgG; selective IgA deficiency → recurrent respiratory and GI infections.
 - `connects-to` → **[IgA Nephropathy](../../07-system/iga-nephropathy/README.md)** — Aberrant O-glycosylation of IgA1 hinge region → galactose-deficient IgA1 (Gd-IgA1) → anti-Gd-IgA1 IgG autoantibodies → immune complexes → mesangial deposition → complement activation → IgAN; Gd-IgA1 from mucosal plasma cells is the primary disease-causing immunoglobulin in IgAN.
 - `connects-to` → **[OPV (Oral Polio Vaccine)](../../../../04-vaccine/05-live-attenuated/oral-polio-vaccine/README.md)** — OPV gut replication uniquely drives intestinal sIgA (unlike injected IPV); sIgA blocks poliovirus at the gut portal and prevents fecal-oral transmission — the eradication-critical immune correlate that enabled wild poliovirus elimination.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — IgA CSR occurs in GC reactions within GALT (Peyer's patches, mesenteric lymph nodes); Tfh-derived TGF-β + IL-10 → IgA class switching; GC-derived lamina propria plasma cells secrete dimeric IgA transcytosed by pIgR into the gut lumen.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

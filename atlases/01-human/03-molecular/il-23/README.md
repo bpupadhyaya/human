@@ -8,6 +8,19 @@ status: draft
 last_reviewed: 2026-06-07
 summary: "IL-23 is a heterodimeric cytokine (IL-23p19/p40) produced by DCs and macrophages; IL-23 → IL-23R/JAK1/TYK2/STAT3 → Th17 cell maintenance and IL-17 production; IL-23 drives psoriasis and IBD; anti-IL-23p19 antibodies (risankizumab, guselkumab) are first-line biologics."
 aliases: ["IL-23", "interleukin-23", "IL-23p19", "IL23A", "IL-23/IL-17 axis", "IL-23 cytokine", "anti-IL-23", "risankizumab target", "Th17 cytokine", "IL-23 IBD"]
+sources:
+  - id: oppmann-2000-il23-p19
+    type: peer-reviewed
+    cite: "Oppmann B, Lesley R, Blom B, et al. Novel p19 protein engages IL-12p40 to form a cytokine, IL-23, with biological activities similar as well as distinct from IL-12. Immunity. 2000;13(5):715-725."
+    doi: "10.1016/S1074-7613(00)00055-6"
+    pmid: "11057895"
+    url: "https://doi.org/10.1016/S1074-7613(00)00055-6"
+  - id: gordon-2018-risankizumab-psoriasis
+    type: peer-reviewed
+    cite: "Gordon KB, Strober B, Lebwohl M, et al. Efficacy and safety of risankizumab in moderate-to-severe plaque psoriasis (UltIMMa-1 and UltIMMa-2). Lancet. 2018;392(10148):650-661."
+    doi: "10.1016/S0140-6736(18)31713-6"
+    pmid: "30097359"
+    url: "https://doi.org/10.1016/S0140-6736(18)31713-6"
 cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
@@ -24,26 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; anti-IL-23p19 antibodies (risankizumab) suppress IL-17A and achieve superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis."
-sources:
-  - id: oppmann-2000-il23-p19
-    type: peer-reviewed
-    cite: "Oppmann B, Lesley R, Blom B, et al. Novel p19 protein engages IL-12p40 to form a cytokine, IL-23, with biological activities similar as well as distinct from IL-12. Immunity. 2000;13(5):715-725."
-    doi: "10.1016/S1074-7613(00)00055-6"
-    pmid: "11057895"
-    url: "https://doi.org/10.1016/S1074-7613(00)00055-6"
-  - id: gordon-2018-risankizumab-psoriasis
-    type: peer-reviewed
-    cite: "Gordon KB, Strober B, Lebwohl M, et al. Efficacy and safety of risankizumab in moderate-to-severe plaque psoriasis (UltIMMa-1 and UltIMMa-2). Lancet. 2018;392(10148):650-661."
-    doi: "10.1016/S0140-6736(18)31713-6"
-    pmid: "30097359"
-    url: "https://doi.org/10.1016/S0140-6736(18)31713-6"
-cross_links:
   - target: 01-human/07-system/ankylosing-spondylitis
     relation: connects-to
     note: "IL-23 (driven by HLA-B27 UPR → IRE1α/XBP1) activates ILC3 and Th17 at entheses → IL-17A → AS enthesitis; paradoxically, IL-23 inhibitors (risankizumab) show modest AS efficacy vs. robust PsA effect — entheseal ILC3 may produce IL-17A independently of IL-23."
   - target: 01-human/07-system/psoriatic-arthritis
     relation: connects-to
     note: "IL-23 drives the Th17/IL-17A axis in PsA skin and entheses; guselkumab (DISCOVER-1/2: ACR20 ~59-64%; FDA 2020) and risankizumab (KEEPsAKE; FDA 2022) are approved; ustekinumab (anti-p40) targets both IL-12 and IL-23 in PsA and concurrent psoriasis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "IL-23 does not initiate Th17 differentiation (IL-6 + TGF-β do that) but maintains effector Th17 cells via STAT3/RORγt → IL-17A, IL-22, GM-CSF; also activates ILC3 and γδ T cells; Th17 persistence in tissue underlies psoriasis, IBD, and ankylosing spondylitis."
 ---
 
 # IL-23
@@ -105,16 +107,14 @@ IL-23 is produced primarily by **dendritic cells, macrophages, and Langerhans ce
 
 ## Connections
 
-IL-23 drives Th17 polarization in the gut lamina propria → IL-17A, IL-22, and TNF-α → disruption of epithelial barrier and transmural inflammation in Crohn's disease; risankizumab (anti-IL-23p19) is FDA-approved for moderate-to-severe Crohn's disease and ulcerative colitis.
+- `connects-to` → **[Inflammatory Bowel Disease](../../07-system/inflammatory-bowel-disease/README.md)** — IL-23 drives Th17 polarization in gut lamina propria → IL-17A, IL-22, TNF-α → barrier disruption and transmural inflammation in Crohn's disease; risankizumab (anti-IL-23p19) FDA-approved for moderate-to-severe CD and UC.
+- `connects-to` → **[Psoriasis](../../07-system/psoriasis/README.md)** — IL-23 from dermal DCs activates Th17 and γδ T cells → IL-17A/F and IL-22 → keratinocyte hyperproliferation, acanthosis, and neutrophil recruitment; anti-IL-23p19 antibodies (risankizumab, guselkumab) achieve PASI 90 in ~50% of patients.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-23 → IL-23R/IL-12Rβ1 → JAK1/TYK2 → STAT3 homodimerization and nuclear translocation → IL-17A, IL-17F, IL-22, RORγt; STAT3 is the master downstream effector; JAK inhibitors (tofacitinib) block IL-23 signaling in psoriasis and IBD.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 + TGF-β initiates Th17 polarization from naive T cells; IL-23 amplifies and stabilizes the effector Th17 program; both elevated in IBD, psoriasis, and RA; IL-6 blockade (tocilizumab) reduces Th17 responses in RA.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-23 maintains Th17 via STAT3 → RORγt → IL-17A; IL-23 sits upstream of IL-17A in the Th17 axis; risankizumab achieves superior long-term psoriasis clearance vs anti-IL-17A antibodies.
+- `connects-to` → **[Ankylosing Spondylitis](../../07-system/ankylosing-spondylitis/README.md)** — HLA-B27 UPR → IRE1α/XBP1 → IL-23 → ILC3/Th17 at entheses → IL-17A → enthesitis; IL-23 inhibitors show modest AS efficacy — entheseal ILC3 may produce IL-17A independently of IL-23.
+- `connects-to` → **[Psoriatic Arthritis](../../07-system/psoriatic-arthritis/README.md)** — IL-23 drives Th17/IL-17A axis in PsA skin and entheses; guselkumab (DISCOVER-1/2; FDA 2020) and risankizumab (KEEPsAKE; FDA 2022) approved; ustekinumab (anti-p40) targets both IL-12 and IL-23.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — IL-23 does not initiate Th17 differentiation (IL-6 + TGF-β do that) but maintains effector Th17 cells via STAT3/RORγt → IL-17A, IL-22, GM-CSF; also activates ILC3 and γδ T cells; Th17 persistence underlies psoriasis, IBD, and ankylosing spondylitis.
 
-IL-23 from dermal DCs activates Th17 and γδ T cells → IL-17A/F and IL-22 → keratinocyte hyperproliferation, acanthosis, and neutrophil recruitment in psoriatic plaques; anti-IL-23p19 antibodies (risankizumab, guselkumab) achieve PASI 90 response in ~50% of patients.
-
-IL-23 signals via IL-23R/IL-12Rβ1 → JAK1/TYK2 → STAT3 homodimerization and nuclear translocation → transcription of IL-17A, IL-17F, IL-22, and RORγt; STAT3 is the master downstream effector of IL-23; JAK inhibitors (tofacitinib) block IL-23 signaling in psoriasis and IBD.
-
-IL-23 and IL-6 cooperate to drive Th17 cells: IL-6 + TGF-β initiates Th17 polarization from naive T cells; IL-23 amplifies and stabilizes the effector Th17 program; both cytokines are elevated in IBD, psoriasis, and RA; IL-6 blockade (tocilizumab) reduces Th17 responses in RA.
-
-IL-23 maintains the Th17 effector program and drives IL-17A via STAT3 → RORγt; anti-IL-23p19 antibodies (risankizumab) suppress IL-17A and achieve superior long-term psoriasis clearance vs anti-IL-17A antibodies; IL-23 sits upstream of IL-17A in the Th17 axis.
-
-IL-23 (driven by HLA-B27 UPR → IRE1α/XBP1) activates ILC3 and Th17 at entheses → IL-17A → AS enthesitis; paradoxically, IL-23 inhibitors (risankizumab) show modest AS efficacy vs. robust PsA effect — entheseal ILC3 may produce IL-17A independently of IL-23.
-
-IL-23 drives the Th17/IL-17A axis in PsA skin and entheses; guselkumab (DISCOVER-1/2: ACR20 ~59-64%; FDA 2020) and risankizumab (KEEPsAKE; FDA 2022) are approved; ustekinumab (anti-p40) targets both IL-12 and IL-23 in PsA and concurrent psoriasis. See [psoriatic-arthritis](../../07-system/psoriatic-arthritis/README.md).
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

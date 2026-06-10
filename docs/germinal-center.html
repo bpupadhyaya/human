@@ -3,434 +3,199 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Germinal Center — microanatomical site of B cell affinity maturation, somatic hypermutation, and class-switch recombination in secondary lymphoid organs. Dark zone, light zone, AID, Tfh cells, follicular lymphoma. Human Engineering Atlas.">
-  <meta property="og:title" content="Germinal Center — Cellular Atlas · Human Engineering">
+  <meta name="description" content="Transient lymphoid microstructure in secondary follicles of lymph nodes and spleen. Site of B-cell affinity maturation via somatic hypermutation (dark zone, AID">
+  <meta property="og:title" content="Germinal Center — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Germinal Center — Cellular Atlas · Human Engineering</title>
+  <title>Germinal Center — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#7c3aed;--accent-soft:rgba(124,58,237,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--eng);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#6e40c9,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .hero{background:linear-gradient(135deg,#f5f0ff 0%,#ede9ff 40%,#ffffff 80%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
-    .diagram{background:var(--bg-3);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:1.2rem 1.4rem;overflow-x:auto;margin:1rem 0}
-    .diagram pre{font-family:"SF Mono","Fira Code","Consolas",monospace;font-size:.8rem;line-height:1.65;color:var(--fg-soft)}
-    .stat-row{display:flex;gap:2rem;flex-wrap:wrap;margin:1.25rem 0}
-    .stat{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.75rem 1rem;min-width:130px}
-    .stat-num{font-size:1.35rem;font-weight:800;color:var(--accent);line-height:1}
-    .stat-label{font-size:.72rem;color:var(--muted);margin-top:.25rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
-    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
-    @media(max-width:600px){.two-col{grid-template-columns:1fr}}
-    .card-sm{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:.9rem 1rem}
-    .card-sm h4{font-size:.88rem;font-weight:700;color:var(--fg);margin-bottom:.35rem}
-    .card-sm p{font-size:.84rem;color:var(--muted);line-height:1.55;margin:0}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="index.html" class="brand">
-      <span class="brand-mark" aria-hidden="true"></span>
-      Human Engineering
-    </a>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="b-cell.html">B Cell</a>
-      <a href="antibody.html">Antibody</a>
-      <a href="immune-system.html">Immune System</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<div class="hero">
-  <div class="hero-inner">
-    <div class="eyebrow">Cellular Atlas &middot; L04 Cellular &middot; Lymphoid Microstructure &middot; Immunology</div>
-    <h1>Germinal <span>Center</span></h1>
-    <p class="hero-lead">Transient, highly specialized microanatomical structures that form within secondary lymphoid organs &mdash; spleen, lymph nodes, Peyer&rsquo;s patches &mdash; where B lymphocytes undergo somatic hypermutation, affinity maturation, and class-switch recombination to produce antibodies with extraordinary precision and diversity.</p>
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
+    <h1>Germinal Center</h1>
+    <p class="tagline">Transient lymphoid microstructure in secondary follicles of lymph nodes and spleen. Site of B-cell affinity maturation via somatic hypermutation (dark zone, AID-driven) and clonal selection (light zone, FDC). Produces high-affinity class-switched antibodies with Tfh support.</p>
+    <p class="aliases">Also known as: germinal centre, secondary follicle, GC, germinal center reaction</p>
     <div class="stat-row">
-      <div class="stat"><div class="stat-num">~21 days</div><div class="stat-label">GC reaction duration (primary response)</div></div>
-      <div class="stat"><div class="stat-num">10&ndash;15 days</div><div class="stat-label">Centroblast cell cycle</div></div>
-      <div class="stat"><div class="stat-num">~1/10<sup>6</sup></div><div class="stat-label">Exit cells reaching pM K<sub>d</sub></div></div>
-      <div class="stat"><div class="stat-num">~10<sup>3</sup>&ndash;10<sup>4</sup> Ab/sec</div><div class="stat-label">Plasma cell secretion rate</div></div>
-    </div>
-  </div>
-</div>
-
-<div class="meta-strip">
-  <span>Scale: <strong>L04 Cellular / Tissue</strong></span>
-  <span>System: <strong>Immune System</strong> &mdash; Lymphoid tissue</span>
-  <span>Type: <strong>Microanatomical niche</strong></span>
-  <span>Key gene: <strong>AICDA</strong> (AID, chr 12p13.31)</span>
-</div>
-
-<div class="content">
-
-  <!-- OVERVIEW -->
-  <div class="section">
-    <h2>Overview</h2>
-    <p>Germinal centers (GCs) are transient, highly proliferative microanatomical structures that develop within the follicles of secondary lymphoid organs &mdash; lymph nodes, spleen, and mucosal-associated lymphoid tissue (MALT including Peyer&rsquo;s patches) &mdash; following T cell&ndash;dependent antigen stimulation. They are the primary sites of antibody <strong>affinity maturation</strong>, <strong>somatic hypermutation (SHM)</strong>, and <strong>class-switch recombination (CSR)</strong>, collectively enabling the humoral immune system to progressively refine antibody quality over days to weeks.</p>
-    <p>The GC reaction can be conceptualized as a Darwinian evolutionary process operating at the cellular scale: B cells acquire random mutations in their immunoglobulin variable genes (via activation-induced cytidine deaminase, AID), and clones bearing mutations that improve antigen-binding affinity are selectively expanded, while those with neutral or detrimental mutations undergo apoptosis. This iterative selection &mdash; cycling between dark zone mutation and light zone selection &mdash; generates antibodies with affinities in the picomolar range from precursors with micromolar affinities, a gain of up to 10,000-fold.</p>
-    <p>GC output includes <strong>long-lived plasma cells (LLPCs)</strong> that migrate to the bone marrow and continuously secrete high-affinity antibody for decades, and <strong>memory B cells</strong> that circulate and rapidly re-enter GC reactions upon antigen re-exposure. Both populations underlie the durable immunity established by natural infection and immunization.</p>
-  </div>
-
-  <!-- DARK ZONE / LIGHT ZONE COMPARTMENTS -->
-  <div class="section">
-    <h2>Dark Zone and Light Zone Compartments</h2>
-
-    <h3>Dark zone &mdash; the mutational engine</h3>
-    <p>The dark zone (DZ) is the basal pole of the GC, named for its histological appearance under light microscopy due to densely packed, rapidly dividing <strong>centroblasts</strong>. Centroblasts express high levels of CXCR4 and are retained in the dark zone by the chemokine <strong>CXCL12</strong> (SDF-1), which is secreted by CXCL12-abundant reticular cells (CARCs) that form the DZ scaffold.</p>
-    <p>Centroblasts are the site of AID-mediated somatic hypermutation. They divide approximately every 6&ndash;12 hours, generating daughter cells with newly mutated immunoglobulin V genes. Key dark zone features:</p>
-    <ul>
-      <li>High expression of <em>AICDA</em> (activation-induced cytidine deaminase, AID), <em>MKI67</em> (Ki-67, proliferation marker), <em>CXCR4</em></li>
-      <li>Downregulated BCR surface expression (cells are not actively testing antigen)</li>
-      <li>Repression of anti-apoptotic signals &mdash; centroblasts are poised to die unless rescued by light zone selection</li>
-      <li>Mutation rate at V genes: approximately 1 mutation per kilobase per cell division, one million times the genome background rate</li>
-    </ul>
-
-    <h3>Light zone &mdash; the selection arena</h3>
-    <p>The light zone (LZ) is the apical pole of the GC, populated by <strong>centrocytes</strong> &mdash; post-mitotic, non-proliferating cells that have transited from the dark zone. Centrocytes re-upregulate BCR surface expression and must compete for limiting amounts of native antigen displayed on <strong>follicular dendritic cells (FDCs)</strong>.</p>
-    <p>Key light zone elements and interactions:</p>
-    <ul>
-      <li><strong>CXCL13/CXCR5 axis:</strong> centrocytes upregulate CXCR5 to respond to CXCL13 produced by FDCs, positioning them in the LZ</li>
-      <li><strong>FDC antigen display:</strong> FDCs trap and display intact native antigen on their surface for prolonged periods (months) via complement receptors (CR1/CR2) and Fc receptors; this is the sole source of antigen that centrocytes compete for</li>
-      <li><strong>T follicular helper cells (Tfh):</strong> specialized CD4<sup>+</sup> T cells marked by CXCR5<sup>hi</sup>PD-1<sup>hi</sup>BCL6<sup>+</sup>ICOS<sup>+</sup> expression; they provide critical survival signals (CD40L&rarr;CD40, IL-21, ICOSL&rarr;ICOS) to centrocytes that successfully capture antigen and present it as pMHC-II</li>
-      <li><strong>Positive selection:</strong> centrocytes with higher-affinity BCRs capture more antigen from FDCs &rarr; more efficient antigen processing &rarr; more pMHC-II&ndash;TCR contacts with Tfh cells &rarr; more CD40L/IL-21 signal &rarr; survival, continued participation, and return to dark zone for further mutation</li>
-      <li><strong>Negative selection:</strong> autoreactive centrocytes (binding self-antigens) are eliminated via Fas/FasL (CD95/CD95L) signaling; this is important for preventing autoimmunity from SHM-generated auto-specificities</li>
-    </ul>
-
-    <div class="diagram">
-<pre>
-  DARK ZONE (DZ)                        LIGHT ZONE (LZ)
-  ─────────────────                     ────────────────────────────────
-  Centroblast                           Centrocyte
-  CXCR4-hi | CXCR5-lo                  CXCR4-lo | CXCR5-hi
-  Ki-67+, rapid division                Post-mitotic
-  AID active → SHM                     BCR re-expressed
-        │                                    │
-        │  DZ→LZ migration                   │
-        │  (upregulate CXCR5)                │
-        ▼                                    ▼
-  mutated B cell ──────────────► BCR affinity test on FDC antigen
-                                             │
-                    low affinity ────────────┤──────────── high affinity
-                         │                  │                   │
-                         ▼                  │                   ▼
-                     Apoptosis              │          Tfh contact
-                     (Fas/FasL)             │          CD40L-CD40
-                                            │          IL-21, ICOS-ICOSL
-                                            │                   │
-                                            │          ┌────────┴──────────┐
-                                            │          │                   │
-                                            │     Recycle to DZ        Exit GC
-                                            │     (further SHM)        │       │
-                                            │                    Plasma cell  Memory B
-                                            │                    (BLIMP-1+)   (BCR+)
-</pre>
-    </div>
-
-    <div class="callout">
-      <strong>DZ&ndash;LZ cycling is asymmetric:</strong> Cells returning to the dark zone from a successful LZ selection round are enriched in high-affinity clones. Each cycle preferentially expands clones by 2&ndash;4 fold relative to low-affinity competitors. After 4&ndash;6 cycles over 2&ndash;3 weeks, this results in dramatic enrichment of the highest-affinity variants &mdash; the molecular basis of immunological memory quality.
+        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-06</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
-  <!-- GC REACTION STEPS -->
-  <div class="section">
-    <h2>The Germinal Center Reaction: Step-by-Step</h2>
-
-    <h3>Step 1 &mdash; B cell activation at the T&ndash;B border</h3>
-    <p>B cell receptor (BCR) engagement by cognate antigen, often enhanced by <strong>CD21 (CR2)</strong> co-receptor binding to C3d-tagged antigen, delivers a strong activation signal. The BCR&ndash;CD21 complex co-engages CD19 and CD81 in a co-stimulatory complex, lowering the activation threshold 10,000-fold compared to BCR alone. Activated B cells upregulate CCR7 and migrate to the T&ndash;B border of the lymph node cortex, where antigen-specific CD4<sup>+</sup> T cells forming pre-Tfh contacts are found.</p>
-
-    <h3>Step 2 &mdash; T&ndash;B conjugate formation</h3>
-    <p>A reciprocal synapse forms between the antigen-specific B cell and the cognate CD4<sup>+</sup> T cell:</p>
-    <ul>
-      <li><strong>TCR recognizes pMHC-II</strong>: the B cell processes antigen and presents peptide fragments on MHC class II (HLA-DR/DQ/DP) to the T cell TCR</li>
-      <li><strong>CD40L (CD154) &rarr; CD40</strong>: activated T cell upregulates CD40L; binding to B cell CD40 delivers a key proliferative and survival signal via TRAF proteins and NF-&kappa;B</li>
-      <li><strong>ICOS (CD278) &rarr; ICOSL (CD275)</strong>: ICOS on T cell binds ICOSL on B cell, driving PI3K signaling and upregulation of BCL6 in both the T cell (driving Tfh fate) and B cell</li>
-      <li><strong>IL-21</strong>: secreted by the T cell drives B cell proliferation and Bcl-6 expression; IL-4 supports B cell survival</li>
-    </ul>
-
-    <h3>Step 3 &mdash; GC seeding and dark zone centroblast phase</h3>
-    <p>After the T&ndash;B conjugate interaction (lasting ~6&ndash;12 hours), B cells upregulate BCL6 (the master GC transcription factor) and CXCR4, and downregulate CCR7. They migrate into the primary follicle, displace follicular mantle B cells, and seed the nascent GC. BCL6 represses BLIMP-1 (PRDM1, the plasma cell differentiation factor) and represses DNA damage checkpoint genes (TP53, CDKN1A), allowing rapid proliferation even in the context of AID-induced DNA damage.</p>
-
-    <h3>Step 4 &mdash; Somatic hypermutation in the dark zone</h3>
-    <p>AID (encoded by <em>AICDA</em>) deaminates deoxycytidine (dC) to deoxyuridine (dU) preferentially within <strong>WRCY/RGYW hotspot motifs</strong> (W = A/T, R = purine, Y = pyrimidine) in the rearranged immunoglobulin variable gene segments (V<sub>H</sub>, V<sub>L</sub>). The resulting dU:dG mismatches are processed by error-prone repair pathways:</p>
-    <ul>
-      <li><strong>Uracil-N-glycosylase (UNG)</strong> removes dU &rarr; abasic site &rarr; error-prone REV1/Pol&eta; translesion synthesis &rarr; all four bases inserted, generating C:G&rarr;A:T, C:G&rarr;G:C transversions</li>
-      <li><strong>MSH2/MSH6</strong> mismatch repair pathway recognizes the dU:dG mismatch and recruits Pol&eta; (encoded by <em>POLH</em>) &rarr; error-prone gap-fill synthesis &rarr; A:T mutations at sites distant from the dU (in WGCW motifs)</li>
-      <li>Together these mechanisms generate mutations predominantly at CDR loops at a rate of ~1 mutation/kb/division, with a spectrum biased toward transitions (C&rarr;T, G&rarr;A) but including transversions</li>
-    </ul>
-
-    <h3>Step 5 &mdash; Light zone selection and recycling or exit</h3>
-    <p>Mutant centrocytes test their BCR affinities in the light zone as described above. Positively selected centrocytes receive Tfh-derived survival signals and either re-enter the dark zone (BCL6 re-expression, CXCR4 upregulation) for further mutation or exit the GC. Exit fate decisions (plasma cell vs. memory B cell) are governed by the strength and duration of Tfh help: strong sustained signals via CD40 and IL-21 drive IRF4-hi and BLIMP-1 expression, pushing toward plasma cell fate; intermediate signals, along with IL-9 or Notch2 cues, favor memory B cell differentiation.</p>
-  </div>
-
-  <!-- SOMATIC HYPERMUTATION -->
-  <div class="section">
-    <h2>Somatic Hypermutation: Mechanism and Hotspots</h2>
-    <p>Somatic hypermutation is a targeted mutational process unique to GC B cells. Its precision lies in AID&rsquo;s preferential activity at specific sequence contexts:</p>
-    <table>
-      <tr>
-        <th>Hotspot motif</th>
-        <th>Strand</th>
-        <th>AID target</th>
-        <th>Resulting mutation</th>
-      </tr>
-      <tr>
-        <td><strong>WRCY</strong> (W=A/T, R=A/G, C=target, Y=C/T)</td>
-        <td>Non-template strand</td>
-        <td>C deamination &rarr; U</td>
-        <td>C&rarr;T transition (C:G &rarr; T:A) via normal replication of dU</td>
-      </tr>
-      <tr>
-        <td><strong>RGYW</strong> (complement of WRCY, read 3&rarr;5)</td>
-        <td>Template strand (G = complement of target C)</td>
-        <td>C on non-template deaminated</td>
-        <td>G&rarr;A on template; G:C&rarr;A:T in double-strand context</td>
-      </tr>
-      <tr>
-        <td>WRC (core WRCY with missing 3rd Y)</td>
-        <td>Non-template</td>
-        <td>C deamination</td>
-        <td>C:G &rarr; G:C or A:T transversions via UNG + REV1</td>
-      </tr>
-      <tr>
-        <td>WGCW hotspot (Pol&eta; substrate)</td>
-        <td>Both strands</td>
-        <td>A:T bases flanking WRC/GYW</td>
-        <td>A:T &rarr; C:G or A:T &rarr; T:A via Pol&eta; gap fill</td>
-      </tr>
-    </table>
-    <p>The topography of SHM is tightly regulated: AID-induced mutations are concentrated in the variable (V) gene segments &mdash; both V<sub>H</sub> and V<sub>L</sub> &mdash; and peak at CDR1, CDR2, and CDR3. Constant region genes are protected from SHM by several mechanisms including differential access of AID to non-switch/non-V gene chromatin.</p>
-    <div class="callout">
-      <strong>Scale of affinity improvement:</strong> Starting from na&iuml;ve IgM precursors with K<sub>d</sub> ~10<sup>&minus;5</sup>&ndash;10<sup>&minus;6</sup> M, iterative DZ&harr;LZ cycling produces antibodies with K<sub>d</sub> in the picomolar range (10<sup>&minus;11</sup>&ndash;10<sup>&minus;12</sup> M) &mdash; a 1,000&ndash;10,000-fold improvement. Among the most potent antibodies described are HIV broadly neutralizing antibodies (bNAbs) generated in chronic HIV infection, which can have K<sub>d</sub> &lt; 1 pM and carry 50&ndash;100 somatic mutations, reflecting extraordinary GC activity over years.
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
     </div>
-  </div>
 
-  <!-- CLASS SWITCH RECOMBINATION -->
-  <div class="section">
-    <h2>Class-Switch Recombination</h2>
-    <p>Class-switch recombination (CSR) occurs predominantly in GC B cells and extra-follicular activated B cells and allows a B cell clone to change its antibody heavy-chain constant region &mdash; and thus its isotype (IgM &rarr; IgG, IgA, or IgE) &mdash; while preserving the antigen-binding V<sub>H</sub>DJ<sub>H</sub> region. CSR is a non-homologous, irreversible DNA deletion-ligation event between switch (S) regions flanking the constant gene segments on chromosome 14q32.</p>
-    <p>AID initiates CSR by deaminating dC within the repetitive S regions, generating dU:dG mismatches that are resolved as double-strand breaks (DSBs). DNA repair by non-homologous end joining (NHEJ) &mdash; primarily classical NHEJ via Ku70/80, DNA-PKcs, and Artemis, plus some alternative end-joining &mdash; ligates the two S-region DSBs, deleting the intervening DNA and juxtaposing a new downstream C-gene segment to V(D)J.</p>
-    <p>Cytokine signals from Tfh and stromal cells determine which isotype is selected by targeting AID to specific S regions via germline transcript (GLT) induction:</p>
-    <table>
-      <tr>
-        <th>Cytokine</th>
-        <th>Source</th>
-        <th>Target isotype(s)</th>
-        <th>Biological context</th>
-      </tr>
-      <tr>
-        <td>IL-4</td>
-        <td>Tfh, mast cells, basophils</td>
-        <td>IgG1, IgE</td>
-        <td>Allergic responses; anti-helminth immunity; type 2 inflammation</td>
-      </tr>
-      <tr>
-        <td>IL-21</td>
-        <td>Tfh cells</td>
-        <td>IgG1, IgG3</td>
-        <td>Dominant Tfh cytokine in human GC; promotes plasma cell differentiation</td>
-      </tr>
-      <tr>
-        <td>IFN-&gamma;</td>
-        <td>Th1 cells, NK cells</td>
-        <td>IgG2, IgG3 (mouse IgG2a/c)</td>
-        <td>Intracellular pathogens; viral infections; promotes complement-activating subclasses</td>
-      </tr>
-      <tr>
-        <td>TGF-&beta; + IL-10</td>
-        <td>Tregs, stromal cells, DCs</td>
-        <td>IgA</td>
-        <td>Mucosal immunity; gut GALT; Peyer&rsquo;s patch GC reactions</td>
-      </tr>
-      <tr>
-        <td>TGF-&beta; alone</td>
-        <td>Tregs, stromal cells</td>
-        <td>IgA1, IgA2</td>
-        <td>T-dependent IgA in mucosal tissues; systemic tolerance</td>
-      </tr>
-      <tr>
-        <td>IL-4 + IL-13</td>
-        <td>Tfh, Th2 cells</td>
-        <td>IgE</td>
-        <td>Sequential switching IgM &rarr; IgG1 &rarr; IgE; requires two-step process; very low serum levels but potent mast cell arming</td>
-      </tr>
-    </table>
-  </div>
-
-  <!-- GC OUTPUT -->
-  <div class="section">
-    <h2>GC Output: Plasma Cells and Memory B Cells</h2>
-
-    <div class="two-col">
-      <div class="card-sm">
-        <h4>Long-lived plasma cells (LLPCs)</h4>
-        <p>Exit GC as BLIMP-1<sup>+</sup> (PRDM1), IRF4<sup>hi</sup>, XBP1<sup>+</sup>, BCL6<sup>&minus;</sup> cells. Upregulate CXCR4 to home to bone marrow LLPC niches (CXCL12-rich). Secrete 1,000&ndash;10,000 antibody molecules per second continuously. Do not require antigen re-stimulation for survival &mdash; supported by IL-6, APRIL, BAFF, and niche stromal contacts. Can persist for decades in humans, maintaining serum antibody titers long after antigen clearance.</p>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">germinal-center</div>
+        <h2>Germinal Center</h2>
+        <p class="summary">Transient lymphoid microstructure in secondary follicles of lymph nodes and spleen. Site of B-cell affinity maturation via somatic hypermutation (dark zone, AID-driven) and clonal selection (light zone, FDC). Produces high-affinity class-switched antibodies with Tfh support.</p>
       </div>
-      <div class="card-sm">
-        <h4>Memory B cells (MBCs)</h4>
-        <p>Exit GC as BCR<sup>+</sup>, CD27<sup>+</sup>, CD38<sup>lo</sup> resting cells. Carry affinity-matured, class-switched BCRs but secrete little antibody at rest. Circulate in blood and secondary lymphoid organs. Upon antigen re-exposure, rapidly re-enter GC reactions or differentiate directly into antibody-secreting plasmablasts within days &mdash; the molecular basis of accelerated and higher-titer secondary responses.</p>
+      <div class="detail-body">
+
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>germinal-center</td></tr>
+            <tr><td>Name</td><td>Germinal Center</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>05-tissue</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill part" href="b-cell.html" title="Germinal centers are the site of B-cell clonal expansion, somatic hypermutation (AID-driven), affinity maturation, and differentiation into long-lived plasma cells and memory B cells."><span class="rel">contains</span>B Cell</a>
+            <a class="conn-pill part" href="t-helper-cell.html" title="T follicular helper cells (Tfh, CXCR5+PD-1+ICOS+BCL6+) populate the light zone and provide CD40L and IL-21 signals essential for centrocyte survival, clonal selection, and class switch recombination."><span class="rel">contains</span>T Helper Cell</a>
+            <a class="conn-pill part" href="dendritic-cell.html" title="Follicular dendritic cells (FDCs, non-hematopoietic, CXCL13+) form the light zone scaffold; they retain native antigen as immune complexes on Fc and complement receptors for centrocyte BCR interrogation during affinity selection."><span class="rel">contains</span>Dendritic Cell</a>
+            <a class="conn-pill" href="plasma-cell.html" title="GC reaction is the primary source of long-lived plasma cells; selected centrocytes exit as BLIMP-1+ plasmablasts that migrate to bone marrow niches and secrete high-affinity class-switched IgG/IgA for decades — the cellular basis of durable vaccine protection."><span class="rel">modulates</span>Plasma Cell</a>
+            <a class="conn-pill" href="secretory-iga.html" title="GC reactions in GALT (Peyer's patches, mesenteric lymph nodes) drive IgA class switch recombination; TGF-β + IL-10 from Tfh → IgA CSR; plasma cells exit to lamina propria → sIgA via pIgR transcytosis; mucosal IgA is the dominant GC output in gut immunity."><span class="rel">connects-to</span>Secretory Iga</a>
+            <a class="conn-pill part" href="immune-system.html" title="GC reactions within secondary lymphoid organs are the central mechanism of adaptive humoral immunity; they generate high-affinity class-switched antibodies, long-lived plasma cells, and memory B cells — the molecular basis of vaccination and immunological memory."><span class="rel">part-of</span>Immune System</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1016/j.immuni.2007.07.009" target="_blank" rel="noopener noreferrer">Allen CDC, Okada T, Cyster JG. Germinal-center organization and cellular dynamics. Immunity. 2007;27(2):190-202.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/17723215/" target="_blank" rel="noopener noreferrer">PubMed 17723215</a></li>
+            <li><a href="https://doi.org/10.1146/annurev-immunol-020711-075032" target="_blank" rel="noopener noreferrer">Victora GD, Nussenzweig MC. Germinal centers. Annu Rev Immunol. 2012;30:429-457.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22224772/" target="_blank" rel="noopener noreferrer">PubMed 22224772</a></li>
+            <li><a href="https://doi.org/10.1016/j.immuni.2019.04.011" target="_blank" rel="noopener noreferrer">Crotty S. T follicular helper cell biology: a decade of discovery and diseases. Immunity. 2019;50(5):1132-1148.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/31077997/" target="_blank" rel="noopener noreferrer">PubMed 31077997</a></li>
+          </ul>
+        </div>
+
       </div>
     </div>
-  </div>
+  </main>
 
-  <!-- GC IN INFECTION AND VACCINATION -->
-  <div class="section">
-    <h2>Germinal Centers in Infection and Vaccination</h2>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-    <h3>HIV and broadly neutralizing antibodies</h3>
-    <p>HIV broadly neutralizing antibodies (bNAbs) are among the most heavily mutated antibodies known, with 50&ndash;100 somatic mutations accumulated over months to years of chronic GC activity. Eliciting bNAbs by vaccination has been a major challenge because the precursor B cell frequencies are very low, the HIV envelope is heavily glycosylated and conformationally dynamic, and adequate Tfh help must be sustained for long enough to drive the required mutation accumulation. Vaccine strategies that sustain GC responses &mdash; slow antigen delivery, germline-targeting immunogens &mdash; are under active development.</p>
-
-    <h3>SARS-CoV-2</h3>
-    <p>Studies by Crotty and colleagues (2021) demonstrated that mRNA vaccination (BNT162b2) induced robust, durable GC responses in draining axillary lymph nodes that persisted for at least 15 weeks, generating high-affinity anti-spike antibodies and memory B cells. The persistence of antigen on follicular dendritic cells (driven by durable mRNA expression and antigen retention) likely extended the GC reaction and improved the quality of the antibody response compared to many prior protein subunit vaccines.</p>
-
-    <h3>VZV and EBV primary infection</h3>
-    <p>Varicella-zoster virus (VZV) and Epstein&ndash;Barr virus (EBV) primary infections drive polyclonal GC reactions. EBV infects GC B cells directly via CD21 (its receptor for C3d/CR2), allowing it to access the GC niche and potentially immortalize GC B cells &mdash; this is thought to contribute to EBV&rsquo;s association with follicular lymphoma and DLBCL arising from GC B cells.</p>
-  </div>
-
-  <!-- DYSREGULATION AND DISEASE -->
-  <div class="section">
-    <h2>Dysregulation and Disease</h2>
-    <table>
-      <tr>
-        <th>Disease</th>
-        <th>GC mechanism</th>
-        <th>Key molecular event</th>
-      </tr>
-      <tr>
-        <td><strong>Follicular lymphoma (FL)</strong></td>
-        <td>GC B cell transformation</td>
-        <td>t(14;18) translocation &mdash; BCL2 coding sequence juxtaposed to IGH enhancer &rarr; BCL2 overexpression &rarr; GC B cells resist apoptosis during normal negative selection &rarr; accumulation of non-selected (potentially autoreactive or low-affinity) GC B cells; SHM continues to accumulate further oncogenic mutations in BCL2, BCL6, EZH2, CREBBP</td>
-      </tr>
-      <tr>
-        <td><strong>Diffuse large B cell lymphoma (DLBCL)</strong></td>
-        <td>Two GC-derived subtypes</td>
-        <td>GCB-DLBCL: BCL6 translocation, EZH2 gain-of-function, BCL2 amplification; high GC signature, better prognosis with R-CHOP. ABC-DLBCL: post-GC activation, MYD88 L265P, CD79A/B mutations, NF-&kappa;B activation; inferior prognosis; both arise from GC or post-GC B cells</td>
-      </tr>
-      <tr>
-        <td><strong>Systemic lupus erythematosus (SLE)</strong></td>
-        <td>Hyperactive GC, defective negative selection</td>
-        <td>Failure to eliminate autoreactive centrocytes &rarr; AID-mediated SHM generates anti-dsDNA, anti-Sm, anti-histone BCRs that pass LZ selection; TLR7/TLR9-driven B cell activation bypasses normal GC checkpoints; LLPCs in bone marrow sustain pathogenic autoantibody titers for years; type I IFN amplifies the process</td>
-      </tr>
-      <tr>
-        <td><strong>Sj&ouml;gren&rsquo;s syndrome</strong></td>
-        <td>Ectopic GC formation in salivary glands</td>
-        <td>Tertiary lymphoid structures (TLS) with active GC reactions form in exocrine glands; sustained local autoantibody production (anti-Ro/SSA, anti-La/SSB); associated with risk of B cell lymphoma transformation</td>
-      </tr>
-      <tr>
-        <td><strong>Castleman disease (MCD)</strong></td>
-        <td>Abnormal GC architecture</td>
-        <td>HHV-8-associated MCD: viral IL-6 (vIL-6) and IL-6 from plasmablasts dysregulate GC homeostasis &rarr; involuted GCs, vascular hyperplasia, plasmablast accumulation; IL-6 blockade (siltuximab) is standard treatment</td>
-      </tr>
-      <tr>
-        <td><strong>Rheumatoid arthritis (RA)</strong></td>
-        <td>Ectopic and synovial GC activity</td>
-        <td>Anti-citrullinated protein antibodies (ACPAs) generated by GC B cells in lymph nodes and ectopic TLS in synovium; ACPA-RF complexes drive complement and macrophage activation in joints; BCL6 blockade and PI3K&delta; inhibitors under investigation to dampen synovial GC activity</td>
-      </tr>
-    </table>
-  </div>
-
-  <!-- CONNECTIONS -->
-  <div class="section">
-    <h2>Cross-Atlas Connections</h2>
-    <ul class="conn-list">
-      <li>
-        <span class="conn-rel">Produces</span>
-        <a href="antibody.html">Antibody (Immunoglobulin)</a> &mdash; affinity-matured, class-switched antibodies are the direct output of successful GC B cell selection; AID generates the somatic diversity that drives CDR affinity improvement
-      </li>
-      <li>
-        <span class="conn-rel">Isotype product</span>
-        <a href="igg.html">IgG</a> &mdash; the dominant serum isotype; GC reactions in response to protein antigens and vaccines primarily generate IgG1 and IgG3 (IL-21/IFN-&gamma;-driven CSR); GC-derived IgG is the principal correlate of vaccine protection
-      </li>
-      <li>
-        <span class="conn-rel">Isotype product</span>
-        <a href="secretory-iga.html">Secretory IgA</a> &mdash; GC reactions in GALT (Peyer&rsquo;s patches, mesenteric lymph nodes) under TGF-&beta;/IL-10 signals produce IgA<sup>+</sup> B cells that home to gut lamina propria and differentiate into pIgR-ligating IgA plasma cells
-      </li>
-      <li>
-        <span class="conn-rel">Antigen presentation</span>
-        <a href="mhc-ii.html">MHC Class II</a> &mdash; centrocytes process FDC-displayed antigen and present peptide&ndash;MHC II complexes to Tfh cells; the quality and quantity of pMHC-II determines Tfh contact duration and signal strength &mdash; the direct readout of BCR affinity
-      </li>
-      <li>
-        <span class="conn-rel">Vaccine context</span>
-        <a href="vaccines.html">Vaccines</a> &mdash; vaccine adjuvants and antigen design strategies are explicitly engineered to seed and sustain robust GC reactions; mRNA vaccines (BNT162b2, mRNA-1273) induce prolonged GC activity by sustaining antigen display on FDCs
-      </li>
-      <li>
-        <span class="conn-rel">Pathogen interaction</span>
-        <a href="pathogens.html">Pathogens</a> &mdash; pathogens such as HIV, EBV, SARS-CoV-2, and Salmonella directly shape or exploit GC biology; HIV envelope structural instability challenges GC selection; EBV infects GC B cells via CD21; understanding GC dynamics is central to protective vaccine design
-      </li>
-      <li>
-        <span class="conn-rel">Mucosal GC</span>
-        <a href="peyers-patches.html">Peyer&rsquo;s Patches</a> &mdash; organized GALT with active GCs dedicated to sampling luminal antigens via M cells and generating gut-homing IgA<sup>+</sup> B cells; major site of T-dependent IgA generation
-      </li>
-    </ul>
-  </div>
-
-  <!-- REFERENCES -->
-  <div class="section references">
-    <h2>References</h2>
-    <ol>
-      <li>Victora GD, Nussenzweig MC. Germinal centers. <em>Annu Rev Immunol.</em> 2012;30:429&ndash;457. doi:<a href="https://doi.org/10.1146/annurev-immunol-020711-075032" target="_blank" rel="noopener">10.1146/annurev-immunol-020711-075032</a></li>
-      <li>Mesin L, Ersching J, Victora GD. Germinal center B cell dynamics. <em>Immunity.</em> 2016;45(3):471&ndash;482. doi:<a href="https://doi.org/10.1016/j.immuni.2016.09.001" target="_blank" rel="noopener">10.1016/j.immuni.2016.09.001</a></li>
-      <li>Shlomchik MJ, Weisel F. Germinal center selection and the development of memory B and plasma cells. <em>Immunol Rev.</em> 2012;247(1):52&ndash;63. doi:<a href="https://doi.org/10.1111/j.1600-065X.2012.01124.x" target="_blank" rel="noopener">10.1111/j.1600-065X.2012.01124.x</a></li>
-      <li>Muramatsu M, Kinoshita K, Fagarasan S, Yamada S, Shinkai Y, Honjo T. Class switch recombination and hypermutation require activation-induced cytidine deaminase (AID), a potential RNA editing enzyme. <em>Cell.</em> 2000;102(5):553&ndash;563. doi:<a href="https://doi.org/10.1016/s0092-8674(00)00078-7" target="_blank" rel="noopener">10.1016/S0092-8674(00)00078-7</a></li>
-      <li>Victora GD, Schwickert TA, Fooksman DR, et al. Germinal center dynamics revealed by multiphoton microscopy with a photoactivatable fluorescent reporter. <em>Cell.</em> 2010;143(4):592&ndash;605. doi:<a href="https://doi.org/10.1016/j.cell.2010.10.032" target="_blank" rel="noopener">10.1016/j.cell.2010.10.032</a></li>
-      <li>Crotty S. T follicular helper cell biology: a decade of discovery and diseases. <em>Immunity.</em> 2019;50(5):1132&ndash;1148. doi:<a href="https://doi.org/10.1016/j.immuni.2019.04.011" target="_blank" rel="noopener">10.1016/j.immuni.2019.04.011</a></li>
-      <li>Turner JS, Kim W, Kalaidina E, et al. SARS-CoV-2 mRNA vaccines induce persistent human germinal centre responses. <em>Nature.</em> 2021;596:109&ndash;113. doi:<a href="https://doi.org/10.1038/s41586-021-03738-2" target="_blank" rel="noopener">10.1038/s41586-021-03738-2</a></li>
-      <li>Schmitz R, Wright GW, Huang DW, et al. Genetics and pathogenesis of diffuse large B-cell lymphoma. <em>N Engl J Med.</em> 2018;378(15):1396&ndash;1407. doi:<a href="https://doi.org/10.1056/NEJMoa1801445" target="_blank" rel="noopener">10.1056/NEJMoa1801445</a></li>
-    </ol>
-  </div>
-
-</div><!-- /content -->
-
-<footer>
-  <p>Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, global model of human biology and medicine &mdash; in the service of all of humanity.</p>
-  <p style="margin-top:.6rem;">
-    <a href="index.html">Home</a> &nbsp;&middot;&nbsp;
-    <a href="b-cell.html">B Cell</a> &nbsp;&middot;&nbsp;
-    <a href="antibody.html">Antibody</a> &nbsp;&middot;&nbsp;
-    <a href="igg.html">IgG</a> &nbsp;&middot;&nbsp;
-    <a href="secretory-iga.html">Secretory IgA</a> &nbsp;&middot;&nbsp;
-    <a href="peyers-patches.html">Peyer&rsquo;s Patches</a> &nbsp;&middot;&nbsp;
-    <a href="vaccines.html">Vaccines</a> &nbsp;&middot;&nbsp;
-    <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
-  </p>
-  <p style="margin-top:.75rem;">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:.6rem;font-style:italic;">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. Not medical advice. For research and educational use only.</p>
-</footer>
-
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
