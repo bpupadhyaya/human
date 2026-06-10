@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "BL tumor microenvironment is immune-poor; PD-L1 expression is variable; EBV+ endemic BL has more immune infiltrate than sporadic BL; PD-1 blockade combined with rituximab-based therapy in early trials for relapsed/refractory high-grade B-cell lymphoma."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "BL arises from germinal center B cells with MYC translocation to Ig loci (IGH/IGK/IGL) during VDJ recombination or class-switch recombination; CD19+/CD20+/CD10+/BCL6+/BCL2- immunophenotype reflects GC B-cell origin; MYC drives near-100% Ki-67 in these rapidly cycling B cells."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "BL originates in germinal center B cells; MYC translocation arises from AID-mediated DSBs at Ig loci during class-switch recombination; CD10+/BCL6+ confirms GC origin; EBV+ endemic BL expresses BCL6 and EBNA-1 in Latency I, exploiting GC biology for viral persistence."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "CD20 (MS4A1) is expressed on all BL cells; rituximab (anti-CD20 mAb) is standard in adult DA-EPOCH-R and pediatric LMB regimens; Inter-B-NHL Ritux 2010: rituximab addition → 3-year EFS 93.9% vs 79.8% (HR 0.33, p<0.001) in high-risk pediatric BL; obinutuzumab explored in R/R BL."
 ---
 
 # Burkitt Lymphoma
@@ -174,6 +183,13 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC translocation [t(8;14) ~80%, t(2;8) ~15%, t(8;22) ~5%] is the defining alteration of Burkitt lymphoma; MYC juxtaposed to Ig loci → constitutive transcription; MYC drives near-100% Ki-67; BET bromodomain inhibitors suppress MYC in BL preclinically.
 - `connects-to` → **[P53](../../03-molecular/p53/README.md)** — BL cells silence ARF (CDKN2A deletion ~50%) to evade MYC → ARF → p53 checkpoint; TP53 mutations in ~30% BL at relapse; p53 pathway is intact in most primary BL; MDM2 inhibitors (idasanutlin) + DA-EPOCH-R explored in Phase 1 for relapsed/refractory BL.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — BL tumor microenvironment is immune-poor; PD-L1 expression is variable; EBV+ endemic BL has more immune infiltrate than sporadic BL; PD-1 blockade combined with rituximab-based therapy in early trials for relapsed/refractory high-grade B-cell lymphoma.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — BL arises from germinal center B cells with MYC translocation to Ig loci (IGH/IGK/IGL) during VDJ recombination or class-switch recombination; CD19+/CD20+/CD10+/BCL6+/BCL2- immunophenotype reflects GC B-cell origin; MYC drives near-100% Ki-67 in these rapidly cycling B cells.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — BL originates in germinal center B cells; MYC translocation arises from AID-mediated DSBs at Ig loci during class-switch recombination; CD10+/BCL6+ confirms GC origin; EBV+ endemic BL expresses BCL6 and EBNA-1 in Latency I, exploiting GC biology for viral persistence.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20 (MS4A1) is expressed on all BL cells; rituximab (anti-CD20 mAb) is standard in adult DA-EPOCH-R and pediatric LMB regimens; Inter-B-NHL Ritux 2010: rituximab addition → 3-year EFS 93.9% vs 79.8% (HR 0.33, p<0.001) in high-risk pediatric BL; obinutuzumab explored in R/R BL.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^roschewski-2020-da-epoch-r-bl]: Roschewski M, Dunleavy K, Abramson JS, et al. Multicenter study of risk-adapted therapy with dose-adjusted EPOCH-R in adults with untreated Burkitt lymphoma. *J Clin Oncol.* 2020;38(22):2519-2529. [doi:10.1200/JCO.19.03259](https://doi.org/10.1200/JCO.19.03259) · [PubMed 32530765](https://pubmed.ncbi.nlm.nih.gov/32530765/)
 [^minard-colin-2017-inter-b-nhl-ritux]: Minard-Colin V, Auperin A, Pillon M, et al. Rituximab for children and adolescents with high-risk B-cell non-Hodgkin lymphoma: results of the randomized Inter-B-NHL Ritux 2010 trial. *J Clin Oncol.* 2022;40(22):2458-2471. [doi:10.1200/JCO.21.01940](https://doi.org/10.1200/JCO.21.01940) · [PubMed 35436151](https://pubmed.ncbi.nlm.nih.gov/35436151/)

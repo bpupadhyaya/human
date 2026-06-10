@@ -36,6 +36,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "BN involves insula dysfunction (impaired satiety signaling), reduced PFC inhibitory control over limbic reward circuits, ACC conflict monitoring deficits, and striatal reward hyperreactivity to food cues; CBT-BN normalizes PFC-striatal connectivity on fMRI."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "BN and AN share dietary-restraint → binge/compensatory pathophysiology with body-image distortion; BMI distinguishes (normal in BN, low in AN); ~25% AN patients later develop BN; DSM-5 criterion E excludes BN if AN active; AN carries higher mortality (SMR 5-10x vs 1.5-2x)."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Leptin signals adipose energy stores to hypothalamus; binge-purge cycles blunt leptin fluctuation → impaired satiety sensing; purging reduces leptin acutely despite adequate caloric load; leptin-NPY arcuate axis dysregulation in BN impairs hunger-fullness signaling."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "HPA dysregulation in BN → elevated cortisol during restriction/binge; stress cortisol drives emotional eating and binge triggers; cortisol elevates ghrelin and suppresses leptin → amplifies hunger drives; purging transiently reduces cortisol, reinforcing the cycle."
 ---
 
 # Bulimia Nervosa
@@ -171,6 +180,9 @@ All of the following must be met:
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — dysregulated striatal dopamine reward drives binge-eating reinforcement via NAcc D3R; PET shows ↑ striatal DA release during food cue exposure in BN; altered reward prediction error signaling and impaired D2R-mediated inhibitory control contribute to loss-of-control eating.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — ghrelin is elevated in BN during restriction phases, amplifying hunger drives that trigger binges; post-meal ghrelin suppression is impaired in BN; the ghrelin-NPY axis is central to restriction-binge cycling; ghrelin receptor antagonism is under investigation as adjunct therapy.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — BN involves insula dysfunction (impaired interoceptive satiety signaling), reduced ventral PFC inhibitory control, striatal D3R/D2R reward dysregulation, and ACC conflict monitoring deficits; CBT-BN and fluoxetine both normalize PFC-striatal connectivity on fMRI.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — BN and AN share dietary-restraint → binge/compensatory pathophysiology with body-image distortion; BMI distinguishes (normal in BN, low in AN); ~25% AN patients later develop BN; DSM-5 criterion E excludes BN if AN active; AN carries higher mortality (SMR 5-10x vs 1.5-2x).
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — leptin signals adipose energy stores to hypothalamus; binge-purge cycles blunt leptin fluctuation → impaired satiety sensing; purging reduces leptin acutely despite adequate caloric load; leptin-NPY arcuate axis dysregulation in BN impairs hunger-fullness signaling.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — HPA dysregulation in BN → elevated cortisol during restriction/binge; stress cortisol drives emotional eating and binge triggers; cortisol elevates ghrelin and suppresses leptin → amplifies hunger drives; purging transiently reduces cortisol, reinforcing the cycle.
 
 ## Treatment
 
@@ -215,4 +227,5 @@ All of the following must be met:
 [^hadigan-1995-fluoxetine-bn]: Fluoxetine Bulimia Nervosa Collaborative Study Group. Fluoxetine in the treatment of bulimia nervosa. *Arch Gen Psychiatry.* 1992;49(2):139-47. [PubMed 1550466](https://pubmed.ncbi.nlm.nih.gov/1550466/)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
