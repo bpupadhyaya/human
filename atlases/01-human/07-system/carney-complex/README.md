@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/pheochromocytoma-paraganglioma
     relation: connects-to
     note: "Rare PRKAR1A germline carriers develop pheochromocytoma; some Carney complex patients have pheo as an isolated or combined manifestation; pheo evaluation (plasma free metanephrines, 24h urine) recommended in Carney complex surveillance; most pheo in Carney complex are benign."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Cardiac myxomas are the primary cause of mortality in Carney complex; CNC myxomas are multifocal and recur after resection (~20% vs <5% sporadic); complications include systemic embolism, mitral obstruction, and sudden death; annual echocardiographic surveillance is mandatory."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "PPNAD causes ACTH-independent Cushing via constitutive PKA in bilateral adrenocortical micronodular hyperplasia; paradoxical cortisol rise with low-dose dexamethasone distinguishes PPNAD from ACTH-dependent disease; bilateral adrenalectomy is curative with lifelong replacement."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "GH-secreting pituitary adenomas (acromegaly) in ~10-12% of CNC patients; IGF-1 is the annual screening biomarker; elevated IGF-1 → pituitary MRI; somatostatin receptor ligands or pegvisomant treat GH excess; PKA-mediated proliferation drives CNC somato-mammotroph adenomas."
 ---
 
 # Carney Complex
@@ -161,6 +170,13 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — PPNAD causes ACTH-independent Cushing syndrome; bilateral adrenocortical micronodular hyperplasia with black pigmented nodules → autonomous cortisol overproduction; paradoxical cortisol increase with low-dose dexamethasone (Liddle test); bilateral adrenalectomy curative.
 - `connects-to` → **[Neuroendocrine Tumors](../../07-system/neuroendocrine-tumors/README.md)** — Pituitary GH-secreting adenomas (acromegaly) occur in ~10-12% of Carney complex patients; thyroid adenomas and carcinomas are reported; testicular large-cell calcifying Sertoli cell tumors (LCCSCT) are sex cord stromal tumors; all driven by PKA-mediated proliferation.
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../../07-system/pheochromocytoma-paraganglioma/README.md)** — Rare PRKAR1A germline carriers develop pheochromocytoma; some Carney complex patients have pheo as an isolated or combined manifestation; pheo evaluation (plasma free metanephrines, 24h urine) recommended in Carney complex surveillance; most pheo in Carney complex are benign.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — cardiac myxomas are the primary cause of mortality in Carney complex; CNC myxomas are multifocal and recur after resection (~20% vs <5% sporadic); complications include systemic embolism, mitral obstruction, and sudden death; annual echocardiographic surveillance is mandatory.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — PPNAD causes ACTH-independent Cushing via constitutive PKA in bilateral adrenocortical micronodular hyperplasia; paradoxical cortisol rise with low-dose dexamethasone distinguishes PPNAD from ACTH-dependent disease; bilateral adrenalectomy is curative with lifelong replacement.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — GH-secreting pituitary adenomas (acromegaly) in ~10-12% of CNC patients; IGF-1 is the annual screening biomarker; elevated IGF-1 → pituitary MRI; somatostatin receptor ligands or pegvisomant treat GH excess; PKA-mediated proliferation drives CNC somato-mammotroph adenomas.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^bertherat-2009-carney]: Bertherat J, Horvath A, Groussin L, et al. Mutations in regulatory subunit type 1A of cyclic adenosine 5'-monophosphate-dependent protein kinase (PRKAR1A): phenotype analysis in 353 patients and 80 different genotypes. *J Clin Endocrinol Metab.* 2009;94(6):2085-2091. [doi:10.1210/jc.2008-2333](https://doi.org/10.1210/jc.2008-2333) · [PubMed 19293268](https://pubmed.ncbi.nlm.nih.gov/19293268/)
 [^kirschner-2000-prkar1a]: Kirschner LS, Carney JA, Pack SD, et al. Mutations of the gene encoding the protein kinase A type I-alpha regulatory subunit in patients with the Carney complex. *Nat Genet.* 2000;26(1):89-92. [doi:10.1038/79238](https://doi.org/10.1038/79238) · [PubMed 10973256](https://pubmed.ncbi.nlm.nih.gov/10973256/)

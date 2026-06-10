@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "JAK-STAT activation in CALR-mutant MPN cross-activates PI3K-AKT-mTOR; mTOR inhibition (everolimus) reduces megakaryocyte proliferation in MPN preclinically; mTOR pathway co-activation contributes to resistance to JAK inhibitor monotherapy in myelofibrosis."
+  - target: 01-human/03-molecular/mpl
+    relation: connects-to
+    note: "CALR-mutant calreticulin gains a positively charged C-terminal peptide that aberrantly binds MPL (thrombopoietin receptor) ECD → constitutive MPL dimerization → JAK2-STAT5 activation without TPO; this CALR-mutant:MPL interaction is the oncogenic mechanism of CALR-mutant MPN."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "CALR type 1 (del52bp) drives PMF-like myelofibrosis; CALR-mutant megakaryocytes produce TGF-β → bone marrow fibrosis; ruxolitinib reduces spleen volume comparably to JAK2 V617F MF; CALR type 1 carries higher AML transformation risk (~12-15% at 15y) than type 2."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "CALR type 2 (ins5bp) drives ET-like phenotype with isolated thrombocytosis; CALR mutations are found in ~25% of ET (vs JAK2 V617F ~55%); CALR-mutant ET has lower cardiovascular risk than JAK2-mutant ET (no erythrocytosis); CALR VAF monitoring guides cytoreduction decisions."
 ---
 
 # CALR
@@ -146,6 +155,13 @@ CALR exon 9 mutation allele burden (variant allele frequency, VAF) is tracked by
 - `connects-to` → **[JAK1-2](../../03-molecular/jak1-2/README.md)** — CALR-mutant calreticulin activates MPL receptor → JAK1/JAK2 heterodimerization → STAT5 phosphorylation → MPN proliferation; ruxolitinib (JAK1/2 inhibitor) reduces spleen volume and symptoms in CALR-mutant myelofibrosis similarly to JAK2 V617F disease.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — CALR-mutant MPL-JAK2 axis constitutively activates STAT3 and STAT5; STAT5 drives megakaryocyte proliferation and platelet hyperproduction in CALR-type 2 ET; STAT3 promotes cytokine-driven fibroblast activation and TGF-β production → bone marrow fibrosis.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — JAK-STAT activation in CALR-mutant MPN cross-activates PI3K-AKT-mTOR; mTOR inhibition (everolimus) reduces megakaryocyte proliferation in MPN preclinically; mTOR pathway co-activation contributes to resistance to JAK inhibitor monotherapy in myelofibrosis.
+- `connects-to` → **[MPL](../mpl/README.md)** — CALR-mutant calreticulin gains a positively charged C-terminal peptide that aberrantly binds MPL (thrombopoietin receptor) ECD → constitutive MPL dimerization → JAK2-STAT5 activation without TPO; this CALR-mutant:MPL interaction is the oncogenic mechanism of CALR-mutant MPN.
+- `connects-to` → **[Myelofibrosis](../../07-system/myelofibrosis/README.md)** — CALR type 1 (del52bp) drives PMF-like myelofibrosis; CALR-mutant megakaryocytes produce TGF-β → bone marrow fibrosis; ruxolitinib reduces spleen volume comparably to JAK2 V617F MF; CALR type 1 carries higher AML transformation risk (~12-15% at 15y) than type 2.
+- `connects-to` → **[Essential Thrombocythemia](../../07-system/essential-thrombocythemia/README.md)** — CALR type 2 (ins5bp) drives ET-like phenotype with isolated thrombocytosis; CALR mutations are found in ~25% of ET (vs JAK2 V617F ~55%); CALR-mutant ET has lower cardiovascular risk than JAK2-mutant ET (no erythrocytosis); CALR VAF monitoring guides cytoreduction decisions.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^klampfl-2013-calr]: Klampfl T, Gisslinger H, Harutyunyan AS, et al. Somatic mutations of calreticulin in myeloproliferative neoplasms. *N Engl J Med.* 2013;369(25):2379-2390. [doi:10.1056/NEJMoa1311347](https://doi.org/10.1056/NEJMoa1311347) · [PubMed 24325356](https://pubmed.ncbi.nlm.nih.gov/24325356/)
 [^nangalia-2013-calr]: Nangalia J, Massie CE, Baxter EJ, et al. Somatic CALR mutations in myeloproliferative neoplasms with nonmutated JAK2. *N Engl J Med.* 2013;369(25):2391-2405. [doi:10.1056/NEJMoa1312542](https://doi.org/10.1056/NEJMoa1312542) · [PubMed 24325359](https://pubmed.ncbi.nlm.nih.gov/24325359/)
