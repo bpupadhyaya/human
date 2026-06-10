@@ -35,6 +35,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: targets
     note: "HSV-1, HSV-2, and VZV establish latency in sensory neurons (dorsal root ganglia, trigeminal ganglia); viral genomes persist as circular episomes in the nucleus without productive infection."
+  - target: 03-medicine/01-modern/05-antiviral/acyclovir
+    relation: treated-by
+    note: "Acyclovir (valacyclovir prodrug) is first-line therapy for HSV-1, HSV-2, and VZV infections; selectivity depends on 3000-fold preferential phosphorylation by viral TK (UL23/ORF36); VZV TK less efficient, requiring higher doses; foscarnet for TK-deficient resistant strains."
+  - target: 01-human/07-system/immune-system
+    relation: damages
+    note: "All nine human herpesviruses encode dedicated immune evasion genes: HSV ICP47/CMV US6 block MHC-I via TAP inhibition; CMV UL16-21 downregulate NKG2D ligands; all subfamilies antagonize IFN signaling (PKR, IRF3, STING); latency renders infected cells invisible to CTLs."
+  - target: 01-human/04-cellular/b-cell
+    relation: infects
+    note: "EBV (HHV-4) establishes latency in memory B cells via EBNA-1-mediated episome maintenance and LMP1/LMP2A mimicking activated B cell receptors; Gammaherpesvirinae-driven B cell transformation underlies Burkitt lymphoma, Hodgkin lymphoma, PTLD, and NPC."
 ---
 
 # Herpesviridae
@@ -141,9 +150,12 @@ The shared enzyme machinery of herpesviruses — particularly the **viral DNA po
 
 ## Connections
 
-- `connects-to` → **[Varicella-Zoster Virus](../varicella-zoster-virus/README.md)** — VZV (HHV-3) is the Alphaherpesvirinae member responsible for varicella (chickenpox) and herpes zoster (shingles)
-- `connects-to` → **[Epstein-Barr Virus](../epstein-barr-virus/README.md)** — EBV (HHV-4) is the Gammaherpesvirinae member causing infectious mononucleosis and associated with multiple B cell malignancies
-- `targets` → **[Neuron](../../../01-human/04-cellular/neuron/README.md)** — HSV-1, HSV-2, and VZV establish lifelong latency in sensory neurons of dorsal root and trigeminal ganglia
+- `connects-to` → **[Varicella-Zoster Virus](../varicella-zoster-virus/README.md)** — VZV (HHV-3) is the Alphaherpesvirinae member responsible for varicella and herpes zoster; establishes latency in dorsal root and cranial nerve ganglia.
+- `connects-to` → **[Epstein-Barr Virus](../epstein-barr-virus/README.md)** — EBV (HHV-4) is the Gammaherpesvirinae member causing infectious mononucleosis and associated with Burkitt lymphoma, Hodgkin lymphoma, and NPC.
+- `targets` → **[Neuron](../../../01-human/04-cellular/neuron/README.md)** — HSV-1, HSV-2, and VZV establish lifelong latency in sensory neurons (dorsal root and trigeminal ganglia) as circular episomal genomes.
+- `treated-by` → **[Acyclovir](../../../../03-medicine/01-modern/05-antiviral/acyclovir/README.md)** — acyclovir (valacyclovir prodrug) is first-line for HSV-1, HSV-2, and VZV; 3000-fold selective viral TK phosphorylation; ACV-TP chain-terminates viral DNA polymerase; foscarnet for TK-deficient resistant strains.
+- `damages` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — dedicated immune evasion genes include MHC-I downregulation (HSV ICP47/CMV US6), NKG2D ligand downregulation (CMV UL16-21), and IFN antagonism (PKR, IRF3, STING); latency renders infected cells invisible to CTLs.
+- `infects` → **[B Cell](../../../01-human/04-cellular/b-cell/README.md)** — EBV establishes latency in memory B cells via EBNA-1/LMP1/LMP2A; drives Burkitt lymphoma, Hodgkin lymphoma, PTLD, and NPC; KSHV infects B cells causing primary effusion lymphoma.
 
 ## Pathology
 
@@ -170,3 +182,7 @@ The shared enzyme machinery of herpesviruses — particularly the **viral DNA po
 [^roizman-fields-virology]: Knipe DM, Howley PM, eds. *Fields Virology.* 7th ed. Wolters Kluwer; 2021.
 [^davison-2009-herpesvirus-evolution]: Davison AJ, Eberle R, Ehlers B, et al. The order Herpesvirales. *Arch Virol.* 2009;154(1):171-177. [doi:10.1007/s00705-008-0278-4](https://doi.org/10.1007/s00705-008-0278-4) · [PubMed 19066710](https://pubmed.ncbi.nlm.nih.gov/19066710/)
 [^whitley-2001-herpes-latency]: Whitley RJ, Roizman B. Herpes simplex virus infections. *Lancet.* 2001;357(9267):1513-1518. [doi:10.1016/S0140-6736(00)04638-9](https://doi.org/10.1016/S0140-6736(00)04638-9) · [PubMed 11377626](https://pubmed.ncbi.nlm.nih.gov/11377626/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

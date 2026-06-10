@@ -73,6 +73,9 @@ cross_links:
   - target: 01-human/07-system/myasthenia-gravis
     relation: connects-to
     note: "B cells differentiate into plasma cells that secrete anti-AChR IgG1/IgG3; rituximab (anti-CD20) depletes B cells → durable remission especially in MuSK+ MG; plasmablast-derived anti-AChR IgG levels guide treatment decisions in AChR+ vs. MuSK+ subsets."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: infected-by
+    note: "EBV (HHV-4) establishes latency in memory B cells via EBNA-1-mediated episome maintenance and LMP1/LMP2A mimicking activated B cell receptors; Gammaherpesvirinae-driven B cell transformation underlies Burkitt lymphoma, Hodgkin lymphoma, PTLD, and NPC."
 ---
 
 # B Cell
@@ -168,6 +171,7 @@ Memory B cells are long-lived lymphocytes (estimated lifespan years–decades) t
 - **Infected by:** [Norovirus](../../07-system/norovirus/README.md) — norovirus directly infects B cells via HBGA-like surface carbohydrates (Jones et al. 2014); B cell tropism may enable systemic dissemination; anti-VP1 IgA and IgG from B cell responses are the primary correlates of protection against norovirus reinfection.
 - **Targeted by:** [Norovirus VP1](../../03-molecular/norovirus-vp1/README.md) — VP1 P2 subdomain binds HBGA-like carbohydrates on B cell surfaces; anti-VP1 secretory IgA and IgG are the primary correlates of protection; HBGA-blocking anti-VP1 IgA titer is the immunological endpoint of all norovirus vaccines.
 - `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — B cells differentiate into plasma cells that secrete anti-AChR IgG1/IgG3; rituximab (anti-CD20) depletes B cells → durable remission especially in MuSK+ MG; plasmablast-derived anti-AChR IgG levels guide treatment decisions in AChR+ vs. MuSK+ subsets.
+- `infected-by` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — EBV establishes latency in memory B cells via EBNA-1-mediated episome maintenance and LMP1/LMP2A mimicking activated B cell receptors; Gammaherpesvirinae-driven B cell transformation underlies Burkitt lymphoma, Hodgkin lymphoma, PTLD, and NPC.
 
 [^nutt-2015-b-cell-fate]: Nutt SL, Hodgkin PD, Tarlinton DM, Corcoran LM. The generation of antibody-secreting plasma cells. *Nat Rev Immunol.* 2015;15(3):160-71. [doi:10.1038/nri3795](https://doi.org/10.1038/nri3795) · [PubMed 25698678](https://pubmed.ncbi.nlm.nih.gov/25698678/)
 [^victora-nussenzweig-2012-gc]: Victora GD, Nussenzweig MC. Germinal centers. *Annu Rev Immunol.* 2012;30:429-57. [doi:10.1146/annurev-immunol-020711-075032](https://doi.org/10.1146/annurev-immunol-020711-075032) · [PubMed 22224772](https://pubmed.ncbi.nlm.nih.gov/22224772/)

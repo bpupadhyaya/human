@@ -45,6 +45,9 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: modulates
     note: "Acyclovir suppresses viral replication but does not eliminate latency; immunocompetent host immune response required for complete viral clearance. In immunocompromised patients, prolonged therapy prevents dissemination."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: treats
+    note: "Acyclovir is first-line therapy for alphaherpesvirinae (HSV-1, HSV-2, VZV); 3000-fold selective phosphorylation by viral TK (UL23/ORF36) over host TK-1; ACV-TP chain-terminates viral DNA polymerase; valacyclovir prodrug achieves 3-5× higher oral bioavailability."
 ---
 
 # Acyclovir
@@ -147,9 +150,14 @@ Acyclovir/valacyclovir initiated within 72 hours of rash onset:
 
 ## Connections
 
-- **Treats** → [Varicella-Zoster Virus](../../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md): First-line oral (valacyclovir) or IV (acyclovir) treatment for varicella in adults and immunocompromised, and for herpes zoster; VZV TK less efficient than HSV TK requiring higher doses.
-- **Modulates** → [Cytotoxic T Cell](../../../../01-human/04-cellular/t-cytotoxic-cell/README.md): By suppressing viral replication and antigen load, acyclovir reduces HSV/VZV-driven neuroinflammation mediated by CD8+ T cells, enabling immune resolution in encephalitis.
-- **Modulates** → [Immune System](../../../../01-human/07-system/immune-system/README.md): Suppresses viral replication without eliminating latency; host cellular immunity required for complete viral control; extends prophylactic protection in immunocompromised hosts.
+- `treats` → **[Varicella-Zoster Virus](../../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — first-line oral (valacyclovir) or IV treatment for varicella in adults and immunocompromised patients, and for herpes zoster; VZV TK less efficient than HSV TK, requiring higher doses.
+- `modulates` → **[Cytotoxic T Cell](../../../../01-human/04-cellular/t-cytotoxic-cell/README.md)** — by suppressing viral replication and antigen load, acyclovir reduces HSV/VZV-driven CD8+ T cell-mediated neuroinflammation, enabling immune resolution in herpes encephalitis.
+- `modulates` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — suppresses viral replication but does not eliminate latency; host cellular immunity required for complete viral control; prolonged therapy prevents dissemination in immunocompromised patients.
+- `treats` → **[Herpesviridae](../../../../02-pathogen/01-viruses/herpesvirus/README.md)** — acyclovir is first-line therapy for alphaherpesvirinae (HSV-1, HSV-2, VZV); 3000-fold selective phosphorylation by viral TK over host TK-1; ACV-TP chain-terminates viral DNA polymerase; valacyclovir prodrug achieves 3-5× higher oral bioavailability.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^elion-1977-acyclovir]: Elion GB, Furman PA, Fyfe JA, et al. Selectivity of action of an antiherpetic agent, 9-(2-hydroxyethoxymethyl) guanine. *Proc Natl Acad Sci USA.* 1977;74(12):5716-20. [doi:10.1073/pnas.74.12.5716](https://doi.org/10.1073/pnas.74.12.5716) · [PubMed 202961](https://pubmed.ncbi.nlm.nih.gov/202961/)
 [^whitley-1986-acyclovir-hsv]: Whitley RJ, Gnann JW Jr. Acyclovir: a decade later. *N Engl J Med.* 1992;327(11):782-9. [doi:10.1056/NEJM199209103271108](https://doi.org/10.1056/NEJM199209103271108) · [PubMed 1501651](https://pubmed.ncbi.nlm.nih.gov/1501651/)
