@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/mlh1
     relation: connects-to
     note: "ARID1A directly recruits MLH1 and MSH2 (mismatch repair proteins) to chromatin; ARID1A LOF → MLH1 eviction from chromatin → local microsatellite instability; PD-L1 upregulated in ARID1A-mutant OCCC → immunotherapy sensitivity; ARID1A LOF + MLH1 LOF = MSI-H (rare, ~5% OCCC)."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "ARID1A is mutated in ~50-55% of OCCC; co-occurring PIK3CA in ~25-30% defines the canonical molecular landscape; ARID1A LOF + PIK3CA → dual epigenetic + PI3K/mTOR vulnerability; tazemetostat + temsirolimus under study; pembrolizumab active in TMB-high ARID1A-mutant OCCC."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "ARID1A N-terminal domain interacts with p53 → enhances p53-dependent transcription of CDKN1A, MDM2, and PUMA; ARID1A LOF → p53 target suppression in TP53-WT tumors; ARID1A + TP53 co-mutation in ~10-15% of endometrial carcinomas defines a high-grade poor-prognosis subset."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "ARID1A LOF → impaired HR via defective ARID1A-ATM chromatin opening at DSBs → reduced RAD51 foci; HR-deficient ARID1A-mutant tumors are PARP inhibitor-sensitive; olaparib + tazemetostat combination in Phase 1/2 trials for ARID1A-mutant ovarian and endometrial cancers."
 ---
 
 # ARID1A
@@ -130,6 +139,13 @@ ARID1A LOF → MLH1/MSH2 displacement → local MSI-like state → elevated TMB 
 - `connects-to` → **[SMARCB1](../../03-molecular/smarcb1/README.md)** — ARID1A and SMARCB1 are both cBAF complex subunits; ARID1A LOF → cBAF destabilization → EZH2 dependency analogous to SMARCB1 biallelic LOF in AT/RT; ARID1A and SMARCB1 synthetic lethality in the BAF complex; ARID1A-mutant cancers and AT/RT share tazemetostat sensitivity.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — ARID1A + PIK3CA co-mutation defines ~25-30% of ovarian clear cell carcinomas; PIK3CA → PI3K/AKT/mTOR → OCCC proliferation; ARID1A LOF + PIK3CA creates synthetic vulnerability to dual PI3K/mTOR inhibition; temsirolimus active in PIK3CA-mutant OCCC Phase 2.
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — ARID1A directly recruits MLH1 and MSH2 (mismatch repair proteins) to chromatin; ARID1A LOF → MLH1 eviction from chromatin → local microsatellite instability; PD-L1 upregulated in ARID1A-mutant OCCC → immunotherapy sensitivity; ARID1A LOF + MLH1 LOF = MSI-H (rare, ~5% OCCC).
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../../07-system/ovarian-clear-cell-carcinoma/README.md)** — ARID1A is mutated in ~50-55% of OCCC; co-occurring PIK3CA in ~25-30% defines the canonical molecular landscape; ARID1A LOF + PIK3CA → dual epigenetic + PI3K/mTOR vulnerability; tazemetostat + temsirolimus under study; pembrolizumab active in TMB-high ARID1A-mutant OCCC.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — ARID1A N-terminal domain interacts with p53 → enhances p53-dependent transcription of CDKN1A, MDM2, and PUMA; ARID1A LOF → p53 target suppression in TP53-WT tumors; ARID1A + TP53 co-mutation in ~10-15% of endometrial carcinomas defines a high-grade poor-prognosis subset.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — ARID1A LOF → impaired HR via defective ARID1A-ATM chromatin opening at DSBs → reduced RAD51 foci; HR-deficient ARID1A-mutant tumors are PARP inhibitor-sensitive; olaparib + tazemetostat combination in Phase 1/2 trials for ARID1A-mutant ovarian and endometrial cancers.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^jones-2010-arid1a-occc]: Jones S, Wang TL, Shih IeM, et al. Frequent mutations of chromatin remodeling gene ARID1A in ovarian clear cell carcinoma. *Science.* 2010;330(6001):228-231. [doi:10.1126/science.1196333](https://doi.org/10.1126/science.1196333) · [PubMed 20826764](https://pubmed.ncbi.nlm.nih.gov/20826764/)
 [^kim-2015-arid1a-ezh2]: Kim KH, Kim W, Howard TP, et al. SWI/SNF-mutant cancers depend on catalytic and non-catalytic activity of EZH2. *Nat Med.* 2015;21(12):1491-1496. [doi:10.1038/nm.3968](https://doi.org/10.1038/nm.3968) · [PubMed 26552009](https://pubmed.ncbi.nlm.nih.gov/26552009/)

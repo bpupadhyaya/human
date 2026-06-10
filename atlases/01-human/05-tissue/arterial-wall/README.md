@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: modulates
     note: "Monocytes cross activated endothelium via VCAM-1/MCP-1 and become plaque macrophages; foam cells form the necrotic core; MMP-2/9 degrade fibrous cap collagen → cap thinning → plaque rupture risk."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: contains
+    note: "SMC dominate the tunica media; phenotypic switching from contractile to synthetic SMC initiates atherogenesis; hypertension → SMC hypertrophy + collagen deposition → stiffening; SMC apoptosis in the fibrous cap → cap thinning → plaque vulnerability and rupture."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: contains
+    note: "Endothelial cells line the tunica intima; under laminar shear → eNOS-NO + PGI₂ + thrombomodulin → anti-thrombotic, anti-inflammatory state; disturbed flow at bifurcations → NF-κB → VCAM-1/ICAM-1/MCP-1 → monocyte adhesion → atherogenesis initiation at predisposed sites."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The arterial wall is the primary site of atherogenesis; endothelial dysfunction → LDL retention and oxidation in tunica intima → foam cell necrotic core; fibrous cap thinning by MMP-2/9 → rupture → thrombus → ACS and stroke; statins + antiplatelet therapy are standard prevention."
 ---
 
 # Arterial Wall
@@ -77,10 +86,13 @@ The endothelium lining the tunica intima is a critical signalling organ: it cons
 
 ## Connections
 
-- **part-of** [cardiovascular-system](../../07-system/cardiovascular-system/README.md): Arterial wall provides structural integrity and vasoregulatory function; tunica media SMC tone determines SVR; Windkessel elastin in aorta sustains diastolic pressure for continuous coronary perfusion.
-- **modulates** [nitric-oxide](../../03-molecular/nitric-oxide/README.md): Endothelial eNOS produces NO under shear stress → SMC sGC→cGMP→MLCP→vasodilation; disturbed shear at atherosclerosis-prone sites reduces eNOS activity and promotes oxidative NO scavenging.
-- **modulates** [cholesterol](../../03-molecular/cholesterol/README.md): Subendothelial LDL retention and oxidation (MPO/lipoxygenase/LOX-1) in tunica intima initiates atherogenesis; macrophage SR-A1/CD36 oxLDL uptake forms foam cells; statins reduce intimal LDL accumulation.
-- **modulates** [macrophage](../../04-cellular/macrophage/README.md): Monocytes cross activated endothelium via VCAM-1/MCP-1 and become plaque macrophages; foam cells form the necrotic core; MMP-2/9 degrade fibrous cap collagen → cap thinning → plaque rupture risk.
+- `part-of` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — arterial wall provides structural integrity and vasoregulatory function; tunica media SMC tone determines SVR; Windkessel elastin in aorta sustains diastolic pressure for continuous coronary perfusion.
+- `modulates` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — endothelial eNOS produces NO under shear stress → SMC sGC→cGMP→MLCP→vasodilation; disturbed shear at atherosclerosis-prone sites reduces eNOS activity and promotes oxidative NO scavenging.
+- `modulates` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — subendothelial LDL retention and oxidation (MPO/lipoxygenase/LOX-1) in tunica intima initiates atherogenesis; macrophage SR-A1/CD36 oxLDL uptake forms foam cells; statins reduce intimal LDL accumulation.
+- `modulates` → **[Macrophage](../../04-cellular/macrophage/README.md)** — monocytes cross activated endothelium via VCAM-1/MCP-1 and become plaque macrophages; foam cells form the necrotic core; MMP-2/9 degrade fibrous cap collagen → cap thinning → plaque rupture risk.
+- `contains` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — SMC dominate the tunica media; phenotypic switching from contractile to synthetic SMC initiates atherogenesis; hypertension → SMC hypertrophy + collagen deposition → stiffening; SMC apoptosis in the fibrous cap → cap thinning → plaque vulnerability and rupture.
+- `contains` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — endothelial cells line the tunica intima; under laminar shear → eNOS-NO + PGI₂ + thrombomodulin → anti-thrombotic, anti-inflammatory state; disturbed flow → NF-κB → VCAM-1/ICAM-1/MCP-1 → monocyte adhesion → atherogenesis at predisposed sites.
+- `connects-to` → **[Atherosclerosis](../../07-system/atherosclerosis/README.md)** — the arterial wall is the primary site of atherogenesis; endothelial dysfunction → LDL retention and oxidation in tunica intima → foam cell necrotic core; fibrous cap thinning by MMP-2/9 → rupture → thrombus → ACS and stroke; statins + antiplatelet therapy are standard prevention.
 
 ## Pathology
 
@@ -94,11 +106,6 @@ The endothelium lining the tunica intima is a critical signalling organ: it cons
 
 **Marfan syndrome.** FBN1 mutation → defective fibrillin-1 → impaired elastin assembly + ↑TGF-β signalling → progressive aortic root dilation → type A aortic dissection. Management: losartan (TGF-β blockade), β-blockers (↓dP/dt), prophylactic aortic root replacement at >4.5–5.0 cm.
 
-## See Also
+---
 
-- [cardiovascular-system](../../07-system/cardiovascular-system/README.md) — systemic context of arterial wall function
-- [nitric-oxide](../../03-molecular/nitric-oxide/README.md) — key vasodilatory signalling molecule produced by the endothelium
-- [cholesterol](../../03-molecular/cholesterol/README.md) — central lipid mediator of atherogenesis
-- [macrophage](../../04-cellular/macrophage/README.md) — key effector cell in plaque formation and vulnerability
-- [collagen](../../03-molecular/collagen/README.md) — structural matrix protein of all three arterial tunics
-- [platelet](../../04-cellular/platelet/README.md) — thrombotic effector at site of plaque rupture
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
