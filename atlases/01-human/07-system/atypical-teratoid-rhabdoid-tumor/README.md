@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "TP53 mutations are absent in most AT/RT; SMARCB1 loss → ARF epigenetically silenced → MDM2 unrestricted → p53 degraded without TP53 mutation; p53 suppression via ARF silencing (not TP53 mutation) is the primary p53-pathway inactivation mechanism in SMARCB1-null rhabdoid tumors."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "SMARCB1 LOF epigenetically silences ARF (CDKN2A p14) → MDM2 unrestricted → p53 degradation without TP53 mutation; CDKN2A homozygous deletion (~15-25% of AT/RT) adds permanent G1 bypass; CDKN2A deletion correlates with AT/RT-TYR and worst OS among molecular subgroups."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "AT/RT is predominantly a CNS tumor; infratentorial (cerebellum, brainstem) in ~50-60%; the most common malignant brain tumor in infants <1 year; leptomeningeal dissemination in ~30-40%; proton CSI preferred in eligible patients to reduce long-term neurocognitive injury."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "AT/RT and medulloblastoma are the two most common pediatric malignant posterior fossa tumors; INI1 IHC loss (AT/RT) vs. intact INI1 (MB) is the key differentiator; SMARCB1 LOF never seen in MB; misdiagnosis as MB is a known pitfall; methylation profiling resolves ambiguous cases."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -158,6 +167,13 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — SMARCB1 LOF → PRC2/EZH2 unrestricted → H3K27me3 at BAF-target loci (CDKN2A, HOX, differentiation genes); AT/RT cells are EZH2-dependent; tazemetostat reduces H3K27me3 and restores differentiation markers; AT/RT EZH2 inhibition is in clinical trials.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — AT/RT-MYC subgroup (~30%): MYC overexpression via BRD4-occupied super-enhancers (SMARCB1 loss → BRD4 unrestricted); supratentorial, older patients; BET inhibitors (JQ1) suppress MYC in AT/RT-MYC cells; ONC201 (DRD2 antagonist) investigated in AT/RT.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations are absent in most AT/RT; SMARCB1 loss → ARF epigenetically silenced → MDM2 unrestricted → p53 degraded without TP53 mutation; p53 suppression via ARF silencing (not TP53 mutation) is the primary p53-pathway inactivation mechanism in SMARCB1-null rhabdoid tumors.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — SMARCB1 LOF epigenetically silences ARF (CDKN2A p14) → MDM2 unrestricted → p53 degradation without TP53 mutation; CDKN2A homozygous deletion (~15-25% of AT/RT) adds permanent G1 bypass; CDKN2A deletion correlates with AT/RT-TYR and worst OS among molecular subgroups.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — AT/RT is predominantly a CNS tumor; infratentorial (cerebellum, brainstem) in ~50-60%; the most common malignant brain tumor in infants <1 year; leptomeningeal dissemination in ~30-40%; proton CSI preferred in eligible patients to reduce long-term neurocognitive injury.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — AT/RT and medulloblastoma are the two most common pediatric malignant posterior fossa tumors; INI1 IHC loss (AT/RT) vs. intact INI1 (MB) is the key differentiator; SMARCB1 LOF never seen in MB; misdiagnosis as MB is a known pitfall; methylation profiling resolves ambiguous cases.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^biegel-1999-ini1-atrt]: Biegel JA, Zhou JY, Rorke LB, Stenstrom C, Wainwright LM, Fogelgren B. Germ-line and acquired mutations of INI1 in atypical teratoid and rhabdoid tumors. *Cancer Res.* 1999;59(1):74-79. [PubMed 9892189](https://pubmed.ncbi.nlm.nih.gov/9892189/)
 [^fruhwald-2020-atrt-subgroups]: Frühwald MC, Hasselblatt M, Nemes K, et al. Age and DNA methylation subgroup as potential treatment targets in children with atypical teratoid rhabdoid tumors. *Neuro Oncol.* 2020;22(7):1006-1017. [doi:10.1093/neuonc/noz244](https://doi.org/10.1093/neuonc/noz244) · [PubMed 31900478](https://pubmed.ncbi.nlm.nih.gov/31900478/)

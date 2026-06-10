@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "p53 regulates autophagy in a compartment-specific and context-dependent manner: nuclear p53 transcriptionally activates DRAM1 and sestrin2 → promote autophagy; cytoplasmic p53 inhibits autophagy by sequestering FIP200; p53 loss can promote basal autophagy in KRAS-mutant tumors."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "PINK1/Parkin mitophagy is central to Parkinson disease; PINK1 accumulates on depolarized mitochondria, activates Parkin E3 ligase, ubiquitinates OMM proteins, and recruits p62/optineurin for mitophagy; PINK1 or Parkin LOF → impaired mitophagy → ROS → dopaminergic neuron death."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "KRAS-mutant tumors (especially PDAC) are highly autophagy-dependent; KRAS sustains autophagic flux for amino acid recycling in nutrient-poor microenvironments; HCQ + KRAS G12C inhibitors show preclinical synergy; ATG7 deletion in KRAS-driven mouse tumors causes regression."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophage xenophagy captures intracellular pathogens (Mycobacterium tuberculosis, Salmonella) in LC3+ vacuoles for lysosomal killing; autophagy degrades NLRP3 and mtDNA-releasing mitochondria → limits inflammasome hyperactivation; beclin-1 directly binds and suppresses cGAS."
 ---
 
 # Autophagy
@@ -168,6 +177,13 @@ Autophagy plays paradoxical roles in cancer — both tumor suppressive and tumor
 - `modulated-by` → **[AMPK](../ampk/README.md)** — AMPK directly activates ULK1 (Ser317/777) under energy stress; AMPK also inhibits mTORC1 → further promotes autophagy; the AMPK-mTOR-ULK1 axis couples cellular energy state to autophagic flux.
 - `connects-to` → **[BCL-2](../bcl-2/README.md)** — BCL-2 and BCL-XL sequester Beclin-1 at the BH3 domain → inhibit autophagosome nucleation; BH3-only proteins and venetoclax displace Beclin-1 → activate autophagy; BCL-2 family members regulate both apoptosis and autophagy via the same BH3-binding groove.
 - `connects-to` → **[p53](../p53/README.md)** — nuclear p53 activates autophagy genes (DRAM1, sestrin2) after DNA damage; cytoplasmic p53 inhibits autophagy; p53 loss alters basal autophagy; KRAS-mutant/p53-null tumors (PDAC) show extreme autophagy dependence for nutrient recycling.
+- `connects-to` → **[Parkinson's Disease](../../07-system/parkinsons-disease/README.md)** — PINK1/Parkin mitophagy is central to Parkinson disease; PINK1 accumulates on depolarized mitochondria, activates Parkin E3 ligase, ubiquitinates OMM proteins, and recruits p62/optineurin for mitophagy; PINK1 or Parkin LOF → impaired mitophagy → ROS → dopaminergic neuron death.
+- `connects-to` → **[KRAS](../kras/README.md)** — KRAS-mutant tumors (especially PDAC) are highly autophagy-dependent; KRAS sustains autophagic flux for amino acid recycling in nutrient-poor microenvironments; HCQ + KRAS G12C inhibitors show preclinical synergy; ATG7 deletion in KRAS-driven mouse tumors causes regression.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — macrophage xenophagy captures intracellular pathogens (Mycobacterium tuberculosis, Salmonella) in LC3+ vacuoles for lysosomal killing; autophagy degrades NLRP3 and mtDNA-releasing mitochondria → limits inflammasome hyperactivation; beclin-1 directly binds and suppresses cGAS.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^mizushima-2011-autophagy]: Mizushima N, Yoshimori T, Ohsumi Y. The role of Atg proteins in autophagosome formation. *Annu Rev Cell Dev Biol.* 2011;27:107-132. [doi:10.1146/annurev-cellbio-092910-154005](https://doi.org/10.1146/annurev-cellbio-092910-154005) · [PubMed 21801009](https://pubmed.ncbi.nlm.nih.gov/21801009/)
 [^levine-2019-autophagy-immunity]: Levine B, Mizushima N, Virgin HW. Autophagy in immunity and inflammation. *Nature.* 2011;469(7330):323-335. [doi:10.1038/nature09782](https://doi.org/10.1038/nature09782) · [PubMed 21248839](https://pubmed.ncbi.nlm.nih.gov/21248839/)
