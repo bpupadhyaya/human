@@ -36,6 +36,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "CCR5+ macrophages and T cells are abundant in RA synovium; CCL3/CCL4/CCL5 (CCR5 ligands) are elevated in RA synovial fluid; CCR5 antagonism with maraviroc has been explored in RA in small trials; CCR5 deletion does not worsen but slightly modifies RA susceptibility."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tissue macrophages expressing CCR5 are the primary long-lived HIV-1 reservoir; CCR5+ macrophages in brain (microglia), gut (GALT), and lymph nodes persist through ART; CCL5 (RANTES) agonism causes CCR5 internalization, transiently protecting macrophages from HIV-1 entry."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12 (SDF-1) is the natural ligand of CXCR4, the alternative HIV-1 co-receptor; CXCL12/CXCR4 signaling parallels CCL5/CCR5 biology in immune cell homing; X4-tropic HIV-1 (CXCR4-using) emerges in ~50% of AIDS patients; maraviroc is ineffective against X4-tropic virus."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "CCR5-Δ32 homozygosity increases West Nile virus encephalitis risk; CCR5 on CNS microglia facilitates leukocyte recruitment for WNV clearance; loss of CCR5 impairs WNV containment; this illustrates the Δ32 trade-off — HIV protection vs WNV susceptibility."
 ---
 
 # CCR5
@@ -146,6 +155,9 @@ CXCR4 (CXC chemokine receptor 4; CXCL12/SDF-1 receptor):
 - `expressed-by` → **[Immune System](../../07-system/immune-system/README.md)** — CCR5 is expressed on CD4⁺ T cells (Th1, Treg), macrophages, and DCs; CCL3/CCL4/CCL5 recruit CCR5⁺ cells to inflammatory sites; tissue macrophages expressing CCR5 serve as the long-lived HIV-1 reservoir in brain, gut, and lymph nodes.
 - `connects-to` → **[Multiple Sclerosis](../../07-system/multiple-sclerosis/README.md)** — CCR5⁺ Th1 cells are recruited to CNS white matter lesions in MS; CCR5-Δ32 carriers have modestly reduced MS severity; CCR5 antagonism with maraviroc has been explored in neuroinflammation models but lacks strong clinical evidence.
 - `connects-to` → **[Rheumatoid Arthritis](../../07-system/rheumatoid-arthritis/README.md)** — CCR5⁺ macrophages and T cells predominate in RA synovium; CCL3/CCL4/CCL5 are elevated in RA synovial fluid; maraviroc has been explored in small RA trials with modest benefit; CCR5-Δ32 does not dramatically alter RA risk but may modulate disease course.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — tissue macrophages expressing CCR5 are the primary long-lived HIV-1 reservoir; CCR5⁺ macrophages in brain (microglia), gut (GALT), and lymph nodes persist through ART; CCL5 (RANTES) agonism causes CCR5 internalization, transiently protecting macrophages from HIV-1 entry.
+- `connects-to` → **[CXCL12](../cxcl12/README.md)** — CXCL12 (SDF-1) is the natural ligand of CXCR4, the alternative HIV-1 co-receptor; CXCL12/CXCR4 signaling parallels CCL5/CCR5 biology in immune cell homing; X4-tropic HIV-1 (CXCR4-using) emerges in ~50% of AIDS patients; maraviroc is ineffective against X4-tropic virus.
+- `connects-to` → **[West Nile Virus](../../07-system/west-nile-virus/README.md)** — CCR5-Δ32 homozygosity increases West Nile virus encephalitis risk; CCR5 on CNS microglia facilitates leukocyte recruitment for WNV clearance; loss of CCR5 impairs WNV containment; this illustrates the Δ32 trade-off — HIV protection vs WNV susceptibility.
 
 ## Pathology
 
@@ -164,4 +176,5 @@ CXCR4 (CXC chemokine receptor 4; CXCL12/SDF-1 receptor):
 - Related entries: [hiv-aids](../../07-system/hiv-aids/README.md), [cxcl12](../cxcl12/README.md), [immune-system](../../07-system/immune-system/README.md)
 
 ---
+
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

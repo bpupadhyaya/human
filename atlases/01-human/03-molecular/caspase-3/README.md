@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "AKT phosphorylates caspase-9 Ser196 → inhibits caspase-9 → reduces caspase-3 activation; AKT also phosphorylates and inhibits BAD → anti-apoptotic; AKT-driven caspase-3 suppression is a key survival mechanism in PI3K-mutant and PTEN-null tumors."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "BCL-2 overexpression in CLL sequesters BAX/BAK → suppresses caspase-3; venetoclax (BCL-2 inhibitor) releases BAX → MOMP → caspase-9 → caspase-3 → rapid tumor lysis; venetoclax+obinutuzumab is preferred frontline CLL therapy achieving 57% uMRD (CLL14 trial)."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Venetoclax + azacitidine restores caspase-3 in AML blasts; MCL-1 overexpression is the primary resistance mechanism; p53 loss blunts caspase-3 activation; VIALE-A: venetoclax+aza 65% CR/CRi vs 19% with azacitidine alone in elderly/unfit AML."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "BCL-2, BCL-XL, and MCL-1 suppress caspase-3 in multiple myeloma; venetoclax is active in t(11;14) MM (high BCL-2); navitoclax adds BCL-XL inhibition; MCL-1 inhibitors address MM-specific resistance; IMid and proteasome inhibitor efficacy converges on caspase-3 activation."
 ---
 
 # Caspase-3
@@ -149,6 +158,13 @@ Transient, sublethal caspase-3 activation (without full MOMP or XIAP saturation)
 - `connects-to` → **[p53](../p53/README.md)** — p53 activates caspase-3-dependent apoptosis via PUMA, NOXA, and BAX → BAX/BAK → cytochrome c → apoptosome → caspase-9 → caspase-3; p53 also directly activates BAX at the mitochondria; p53 loss → caspase-3 suppression → therapy resistance.
 - `connects-to` → **[NLRP3 Inflammasome](../nlrp3-inflammasome/README.md)** — NLRP3 activates caspase-1 (pyroptotic); caspase-3 and caspase-1 pathways intersect: gasdermin D (caspase-1 substrate) can amplify caspase-3 activity; caspase-3 cleaves gasdermin E → secondary pyroptosis and IL-1alpha release.
 - `connects-to` → **[AKT](../akt/README.md)** — AKT phosphorylates caspase-9 Ser196 → inhibits caspase-9 → reduces caspase-3 activation; AKT also phosphorylates BAD → anti-apoptotic sequestration; AKT-driven caspase-3 suppression is a key survival mechanism in PI3K-mutant and PTEN-null tumors.
+- `connects-to` → **[CLL](../../07-system/cll/README.md)** — BCL-2 overexpression in CLL sequesters BAX/BAK → suppresses caspase-3; venetoclax (BCL-2 inhibitor) releases BAX → MOMP → caspase-9 → caspase-3 → rapid tumor lysis; venetoclax+obinutuzumab is preferred frontline CLL therapy achieving 57% uMRD (CLL14 trial).
+- `connects-to` → **[AML](../../07-system/aml/README.md)** — venetoclax + azacitidine restores caspase-3 in AML blasts; MCL-1 overexpression is the primary resistance mechanism; p53 loss blunts caspase-3 activation; VIALE-A: venetoclax+aza 65% CR/CRi vs 19% with azacitidine alone in elderly/unfit AML.
+- `connects-to` → **[Multiple Myeloma](../../07-system/multiple-myeloma/README.md)** — BCL-2, BCL-XL, and MCL-1 suppress caspase-3 in multiple myeloma; venetoclax is active in t(11;14) MM (high BCL-2); navitoclax adds BCL-XL inhibition; MCL-1 inhibitors address MM-specific resistance; IMid and proteasome inhibitor efficacy converges on caspase-3 activation.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^nicholson-1997-caspase-review]: Nicholson DW, Thornberry NA. Caspases: killer proteases. *Trends Biochem Sci.* 1997;22(8):299-306. [doi:10.1016/S0968-0004(97)01085-2](https://doi.org/10.1016/S0968-0004(97)01085-2) · [PubMed 9270303](https://pubmed.ncbi.nlm.nih.gov/9270303/)
 [^taylor-2008-apoptosis-review]: Taylor RC, Cullen SP, Martin SJ. Apoptosis: controlled demolition at the cellular level. *Nat Rev Mol Cell Biol.* 2008;9(3):231-241. [doi:10.1038/nrm2312](https://doi.org/10.1038/nrm2312) · [PubMed 18073771](https://pubmed.ncbi.nlm.nih.gov/18073771/)
