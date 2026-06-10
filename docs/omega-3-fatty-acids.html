@@ -3,29 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Omega-3 Fatty Acids — EPA (C20:5) and DHA (C22:6) from cold-water fish reduce TG 30–50%, dampen inflammation via eicosanoid competition, and at 4 g/day (REDUCE-IT) cut MACE by 25%. Part of the Human Engineering project.">
-  <meta property="og:title" content="Omega-3 Fatty Acids — Medicine Atlas · Human Engineering">
+  <meta name="description" content="Long-chain n-3 PUFA: EPA (C20:5) and DHA (C22:6) from cold-water fish; ALA (C18:3) from plants. EPA/DHA reduce TG 30–50%, decrease platelet aggregation, modulat">
+  <meta property="og:title" content="Omega-3 Fatty Acids — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Omega-3 Fatty Acids — Medicine Atlas · Human Engineering</title>
+  <title>Omega-3 Fatty Acids — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #059669;
-      --accent-dark: #047857;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -33,63 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(5,150,105,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #059669, #064e3b); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-hi { background: rgba(5,150,105,0.12); color: #047857; }
-    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
-    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
-    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-    .trial-result { font-weight: 700; color: var(--bio); }
-    .principle-box { background: rgba(5,150,105,0.07); border: 1px solid rgba(5,150,105,0.2); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent-dark); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.treats .rel { color: var(--human); }
-    .conn-pill.combined .rel { color: var(--eng); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -114,271 +110,73 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="medicine.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Medicine Atlas
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Three &middot; Medicine &middot; Food &amp; Nutraceuticals</div>
+    <div class="hero-eyebrow" style="background: rgba(124,58,237,0.1); color: #7c3aed;">Atlas Three &middot; Medicine Atlas &middot; 03-food</div>
     <h1>Omega-3 Fatty Acids</h1>
-    <p class="tagline">Long-chain n-3 PUFAs — EPA and DHA from cold-water fish reduce triglycerides 30–50%, shift eicosanoid balance toward pro-resolving mediators, and at pharmacological doses cut major cardiovascular events by 25%.</p>
-    <p class="subtagline">ALA (C18:3) · EPA (C20:5) · DHA (C22:6) &nbsp;&middot;&nbsp; REDUCE-IT: −25% MACE in statin-treated patients &nbsp;&middot;&nbsp; Prescription: Vascepa (pure EPA 4 g/day) · Lovaza (EPA+DHA) &nbsp;&middot;&nbsp; SPM biosynthesis: resolvins, protectins, maresins</p>
+    <p class="tagline">Long-chain n-3 PUFA: EPA (C20:5) and DHA (C22:6) from cold-water fish; ALA (C18:3) from plants. EPA/DHA reduce TG 30–50%, decrease platelet aggregation, modulate eicosanoid and SPM synthesis. REDUCE-IT: EPA 4 g/d → −25% MACE. Anti-inflammatory at pharmacological doses.</p>
+    <p class="aliases">Also known as: omega-3 fatty acids, omega-3, n-3 PUFA, EPA, DHA, ALA, eicosapentaenoic acid, docosahexaenoic acid, alpha-linolenic acid, fish oil, icosapentaenoic acid, Vascepa, Lovaza, Omacor</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">30–50%</span><span class="stat-label">TG Reduction at 4 g/day</span></div>
-      <div class="stat"><span class="stat-num">−25%</span><span class="stat-label">MACE (REDUCE-IT)</span></div>
-      <div class="stat"><span class="stat-num">8,179</span><span class="stat-label">REDUCE-IT Participants</span></div>
-      <div class="stat"><span class="stat-num">15–20:1</span><span class="stat-label">n-6:n-3 in Western Diets</span></div>
+        <div class="stat"><span class="stat-num">03-food</span><span class="stat-label">Stream</span></div>
+        <div class="stat"><span class="stat-num">—</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Medicine Atlas · Food &amp; Nutraceuticals · n-3 Polyunsaturated Fatty Acids</div>
-        <h2>Omega-3 Fatty Acids</h2>
-        <div class="drug-class">Source: Cold-water fish, algae, flaxseed &nbsp;|&nbsp; Active forms: EPA (pharmacological anti-inflammatory/CV), DHA (structural neurology), ALA (dietary essential) &nbsp;|&nbsp; Category: n-3 PUFA · Nutraceutical · Prescription lipid agent</div>
-        <p class="summary">Long-chain n-3 polyunsaturated fatty acids: EPA (C20:5n-3) and DHA (C22:6n-3) from marine sources; ALA (C18:3n-3) from plants. EPA/DHA are incorporated into cell membrane phospholipids, displacing arachidonic acid and shifting eicosanoid synthesis from high-potency pro-inflammatory products (PGE₂, TXA₂, LTB₄) toward weaker EPA-derived equivalents and specialised pro-resolving mediators. At pharmacological doses, EPA reduces triglycerides 30–50% via PPARα activation and SREBP-1c suppression. REDUCE-IT (2019, n=8,179): icosapentaenoic acid 4 g/day → −25% MACE and −20% cardiovascular death in statin-treated hypertriglyceridaemic patients over 4.9 years.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">omega-3</span>
-          <span class="alias-pill">n-3 PUFA</span>
-          <span class="alias-pill">EPA</span>
-          <span class="alias-pill">DHA</span>
-          <span class="alias-pill">ALA</span>
-          <span class="alias-pill">fish oil</span>
-          <span class="alias-pill">eicosapentaenoic acid</span>
-          <span class="alias-pill">docosahexaenoic acid</span>
-          <span class="alias-pill">alpha-linolenic acid</span>
-          <span class="alias-pill">icosapentaenoic acid</span>
-          <span class="alias-pill">Vascepa</span>
-          <span class="alias-pill">Lovaza</span>
-          <span class="alias-pill">Omacor</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #7c3aed, #4c1d95);">
+        <div class="entry-eyebrow">omega-3-fatty-acids</div>
+        <h2>Omega-3 Fatty Acids</h2>
+        <p class="summary">Long-chain n-3 PUFA: EPA (C20:5) and DHA (C22:6) from cold-water fish; ALA (C18:3) from plants. EPA/DHA reduce TG 30–50%, decrease platelet aggregation, modulate eicosanoid and SPM synthesis. REDUCE-IT: EPA 4 g/d → −25% MACE. Anti-inflammatory at pharmacological doses.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>Omega-3 fatty acids (n-3 polyunsaturated fatty acids) are a family of long-chain lipids characterised by the position of the first carbon-carbon double bond at the omega-3 position from the methyl end. The three clinically relevant members are <strong>ALA</strong> (alpha-linolenic acid, C18:3n-3), an essential plant-derived omega-3 found in flaxseed (~55% ALA), chia seeds (~60% ALA), walnuts, and canola oil; <strong>EPA</strong> (eicosapentaenoic acid, C20:5n-3), the primary anti-inflammatory and cardiovascular-active form concentrated in cold-water oily fish; and <strong>DHA</strong> (docosahexaenoic acid, C22:6n-3), a critical structural lipid accounting for ~40% of fatty acids in the brain's grey matter. ALA can in principle be elongated and desaturated to EPA and DHA in humans, but conversion efficiency is very low (typically &lt;5% to EPA, &lt;0.5% to DHA), making dietary marine sources or algae the only reliable path to adequate EPA/DHA.</p>
-          <p>Western diets have dramatically shifted the n-6:n-3 ratio — estimated at <strong>15–20:1</strong> in contemporary diets versus an evolutionary ratio of 1:1 to 4:1. This imbalance shifts arachidonic acid (AA, n-6) substrate toward pro-inflammatory eicosanoid synthesis, forming the biochemical rationale for therapeutic omega-3 supplementation. The pharmacological landscape ranges from over-the-counter fish oil capsules (variable quality; typically 180 mg EPA + 120 mg DHA per 1 g capsule) to FDA-approved prescription agents: pure EPA ethyl ester (<strong>Vascepa</strong>/icosapentaenoic acid, 4 g/day) for cardiovascular risk reduction in hypertriglyceridaemic patients, and combined EPA+DHA ethyl esters (<strong>Lovaza/Omacor</strong>) for severe hypertriglyceridaemia (≥500 mg/dL). Algal-derived omega-3 provides a vegan-equivalent marine source with comparable bioavailability.</p>
-          <p>The distinction between <strong>pure EPA</strong> and combined EPA+DHA formulations is clinically important. DHA (but not pure EPA) raises LDL-C by ~5–10% at high doses — a consequence of increased LDL particle size and reduced LDL catabolism. This mechanistic difference likely underlies the divergent trial outcomes: REDUCE-IT (pure EPA, 2019) demonstrated 25% MACE reduction, while STRENGTH (EPA+DHA combination, 2020) and OMEMI showed no significant cardiovascular benefit. Formulation selection therefore matters critically when using omega-3s for cardiovascular risk reduction.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Mechanism of Action</h3>
-          <h4>Membrane Incorporation and Eicosanoid Competition</h4>
-          <div class="pathway-block">
-<pre>
-  Dietary EPA / DHA
-        │
-        ▼  incorporation at sn-2 position of phospholipids
-  Cell membrane pool:  AA (n-6) progressively displaced by EPA
-        │
-        ▼  Inflammatory stimulus → Phospholipase A₂ (PLA₂) releases sn-2 fatty acid
-        │
-  ┌─────┴─────────────────────────────────────┐
-  │  AA substrate (before supplementation)    │  EPA substrate (after supplementation)
-  ▼                                           ▼
-COX-1/2 → PGE₂, PGI₂, TXA₂ (potent)       COX-1/2 → PGE₃, PGI₃, TXA₃ (10–100× weaker)
-5-LOX  → LTB₄, LTC₄  (potent)              5-LOX  → LTB₅, LTC₅  (10–100× weaker)
-  │                                           │
-  ▼                                           ▼
-↑Platelet aggregation                       ↓Platelet aggregation
-↑Vasoconstriction                           ↓Vasoconstriction
-↑Neutrophil chemotaxis                      ↓Inflammatory cell recruitment
-↑IL-6, IL-1β, TNF-α                         ↓Cytokine production
-
-        │
-        ▼  EPA + DHA also serve as substrates for SPM biosynthesis
-  Resolvins (E-series ← EPA; D-series ← DHA)
-  Protectins (neuroprotectin D1 ← DHA)
-  Maresins (← DHA)
-        │
-        ▼
-  Active inflammation RESOLUTION
-  (efferocytosis ↑, neutrophil transmigration ↓, tissue homeostasis ↑)
-</pre>
-          </div>
-          <ol class="step-list" style="margin-top:0.75rem;">
-            <li><strong>Membrane displacement:</strong> EPA/DHA incorporate into phospholipid sn-2 positions, displacing arachidonic acid in proportion to dietary EPA/DHA intake and inversely proportional to n-6 intake — the ratio matters, not absolute omega-3 dose alone.</li>
-            <li><strong>Competitive substrate shift:</strong> PLA₂-mediated release of EPA instead of AA redirects COX-1/2 and 5-LOX toward 10–100× weaker EPA-derived eicosanoids (PGE₃, TXA₃, LTB₅), reducing platelet aggregation, vasoconstriction, and cytokine amplification.</li>
-            <li><strong>Triglyceride lowering (PPARα/SREBP-1c):</strong> EPA/DHA activate PPARα in hepatocytes → ↑fatty acid β-oxidation; suppress SREBP-1c → ↓de novo lipogenesis; reduce VLDL secretion; enhance LPL activity → 30–50% triglyceride reduction at 4 g/day.</li>
-            <li><strong>SPM biosynthesis:</strong> EPA and DHA are precursors for resolvins, protectins, and maresins — lipid mediators that actively resolve inflammation by promoting macrophage efferocytosis, inhibiting neutrophil transmigration, and restoring tissue homeostasis. This active resolution is distinct from anti-inflammatory suppression.</li>
-          </ol>
-
-          <h4>Pleiotropic Cardiovascular Actions</h4>
-          <div class="pleiotropic-grid">
-            <div class="pleio-item">
-              <h4>Anti-arrhythmic</h4>
-              <p>EPA/DHA in cardiomyocyte membranes alter Nav1.5 gating kinetics → ↓sodium current → ↓automaticity and triggered activity; proposed basis for sudden cardiac death reduction in post-MI epidemiological data</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Endothelial function</h4>
-              <p>↑Nitric oxide bioavailability; ↓endothelial oxidative stress; ↓VCAM-1 expression → anti-atherosclerotic effects that extend beyond triglyceride lowering alone</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Antiplatelet</h4>
-              <p>TXA₂ → TXA₃ substrate shift reduces platelet aggregation; additive with aspirin; clinically significant bleeding risk at doses ≥3 g/day in patients on anticoagulants</p>
-            </div>
-            <div class="pleio-item">
-              <h4>IL-6 / cytokine reduction</h4>
-              <p>Reduced PGE₂ (which amplifies IL-6 and TNF-α transcription) lowers systemic inflammatory burden; effect meaningful at ≥3 g/day EPA+DHA and modest at dietary doses</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Dietary Sources &amp; Supplementation</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr>
-              <th>Food Source</th>
-              <th>Typical EPA+DHA Content</th>
-              <th>Bioavailability</th>
-              <th>Notes</th>
-            </tr>
-            <tr>
-              <td>Atlantic salmon (farmed, 100 g cooked)</td>
-              <td>~2,000–2,500 mg EPA+DHA</td>
-              <td>High (~70–80%)</td>
-              <td>1–2 servings/week ≈ AHA recommendation (~500 mg/day); also provides vitamin D</td>
-            </tr>
-            <tr>
-              <td>Atlantic mackerel (100 g cooked)</td>
-              <td>~2,500–3,000 mg EPA+DHA</td>
-              <td>High</td>
-              <td>Among the richest sources; affordable; also high in selenium</td>
-            </tr>
-            <tr>
-              <td>Sardines (canned in water/oil, 100 g)</td>
-              <td>~1,400 mg EPA+DHA</td>
-              <td>High</td>
-              <td>Small-chain fish; low mercury bioaccumulation; economical</td>
-            </tr>
-            <tr>
-              <td>Anchovies (canned, 100 g)</td>
-              <td>~2,000 mg EPA+DHA</td>
-              <td>High</td>
-              <td>Typically consumed in small amounts; high sodium in canned form</td>
-            </tr>
-            <tr>
-              <td>Flaxseed (ground, 1 tbsp)</td>
-              <td>~2,000 mg ALA (not EPA/DHA)</td>
-              <td>ALA good; EPA conversion &lt;5%</td>
-              <td>ALA → EPA/DHA conversion is physiologically insufficient; not a marine substitute</td>
-            </tr>
-            <tr>
-              <td>OTC fish oil (standard 1 g capsule)</td>
-              <td>~300 mg EPA+DHA</td>
-              <td>Moderate; varies by brand</td>
-              <td>Quality varies; enteric-coated reduces GI effects; concentration may be lower than labelled</td>
-            </tr>
-            <tr>
-              <td>Vascepa (prescription EPA, 1 g capsule)</td>
-              <td>1,000 mg pure EPA</td>
-              <td>High; pharmaceutical-grade</td>
-              <td>FDA-approved at 4 g/day; no DHA; REDUCE-IT evidence base</td>
-            </tr>
-            <tr>
-              <td>Algal DHA+EPA (vegan, 1 capsule)</td>
-              <td>250–500 mg EPA+DHA</td>
-              <td>Equivalent to fish oil</td>
-              <td>Sustainable primary source; no fishy odour; recommended for vegans and vegetarians</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>omega-3-fatty-acids</td></tr>
+            <tr><td>Name</td><td>Omega-3 Fatty Acids</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Stream</td><td>03-food</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Clinical Evidence</h3>
-          <table class="data-table">
-            <tr>
-              <th>Study</th>
-              <th>Design</th>
-              <th>n</th>
-              <th>Key Result</th>
-            </tr>
-            <tr>
-              <td><strong>REDUCE-IT (2019)</strong></td>
-              <td>RCT; icosapentaenoic acid (Vascepa) 4 g/day vs. mineral oil placebo; 4.9 yr; statin-treated, TG 135–499 mg/dL, CVD or diabetes+RF</td>
-              <td>8,179</td>
-              <td class="trial-result">−25% MACE (HR 0.75; 95% CI 0.68–0.83; p&lt;0.001); −20% CV death; −31% fatal/nonfatal MI; −28% stroke. NNT for primary endpoint = 21 over 5 years.</td>
-            </tr>
-            <tr>
-              <td><strong>STRENGTH (2020)</strong></td>
-              <td>RCT; EPA+DHA combination (carboxylic acids) 4 g/day vs. corn oil placebo; 3.5 yr</td>
-              <td>13,078</td>
-              <td>No significant MACE reduction (HR 0.99; p=0.84). Combined EPA+DHA fails where pure EPA succeeded — important formulation distinction.</td>
-            </tr>
-            <tr>
-              <td><strong>GISSI-HF (2008)</strong></td>
-              <td>RCT; omega-3 FA 1 g/day in systolic heart failure; 3.9 yr</td>
-              <td>6,975</td>
-              <td class="trial-result">−9% all-cause mortality (HR 0.91; p=0.041); modest but significant survival benefit added to standard HF therapy.</td>
-            </tr>
-            <tr>
-              <td><strong>VITAL (2019)</strong></td>
-              <td>RCT; omega-3 FA 1 g/day in primary prevention; 5.3 yr</td>
-              <td>25,871</td>
-              <td>No significant MACE reduction in general primary prevention population. Significant reduction in cancer mortality (unexpected secondary finding). Dose and CV risk stratification are critical determinants of benefit.</td>
-            </tr>
-            <tr>
-              <td><strong>Meta-analysis (Mozaffarian 2011)</strong></td>
-              <td>Meta-analysis of RCTs and prospective studies</td>
-              <td>&gt;40,000</td>
-              <td class="trial-result">EPA+DHA ≥2 g/day: TG reduction −25 to −35%; at 4 g/day: −40–50% in severe hypertriglyceridaemia. Effects dose-dependent and consistent.</td>
-            </tr>
-          </table>
-
-          <div class="principle-box">
-            <p><strong>Evidence quality note:</strong> REDUCE-IT represents high-quality evidence for pure EPA 4 g/day in a specific high-risk population (statin-treated, elevated TG, established CVD or diabetes). The mineral oil placebo debate has not fully resolved, but the magnitude of benefit (NNT=21) is compelling. The critical lesson is that <strong>1 g/day OTC fish oil in unselected primary prevention populations does not replicate REDUCE-IT outcomes</strong> — evidence is specific to dose, formulation (pure EPA vs. combined), and baseline cardiovascular risk level.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Safety &amp; Interactions</h3>
-          <ul class="se-list">
-            <li><strong>GI symptoms (common, dose-dependent):</strong> Fishy breath, GI upset, and burping with standard fish oil capsules. Enteric-coated formulations and refrigerating capsules reduce these effects substantially. Pure EPA preparations (Vascepa) have better tolerability than combined EPA+DHA products.</li>
-            <li><strong>Bleeding risk — clinically significant at &ge;3 g/day:</strong> Omega-3s inhibit TXA₂-mediated platelet aggregation. Additive bleeding risk with warfarin (monitor INR), aspirin, P2Y12 inhibitors (clopidogrel, ticagrelor), and NSAIDs. Discontinue 5–7 days before elective surgery at pharmacological doses. In REDUCE-IT, serious bleeding rates were numerically slightly higher in the EPA arm (2.7% vs. 2.1%) but not statistically significant and judged favorable vs. the cardiovascular benefit.</li>
-            <li><strong>LDL-C increase with DHA (formulation-specific):</strong> DHA raises LDL-C by ~5–10% at 4 g/day via increased LDL particle size; pure EPA (Vascepa) does not raise LDL-C. Select pure EPA when optimising LDL-C alongside triglyceride management.</li>
-            <li><strong>Antihypertensive interaction:</strong> Omega-3s modestly lower blood pressure (−2 to −4 mmHg SBP in meta-analyses). Additive effect with antihypertensive medications — generally beneficial; monitor in patients on intensive BP-lowering regimens.</li>
-            <li><strong>Orlistat:</strong> Reduces fat absorption and consequently omega-3 bioavailability; separate dosing by at least 2 hours.</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="cardiovascular-system.html" class="conn-pill">
-              <span class="rel">Modulates</span>
-              Cardiovascular System
-            </a>
-            <a href="#" class="conn-pill">
-              <span class="rel">Modulates</span>
-              IL-6 (entry pending)
-            </a>
-            <a href="#" class="conn-pill treats">
-              <span class="rel">Treats</span>
-              Heart (entry pending)
-            </a>
-            <a href="statins.html" class="conn-pill combined">
-              <span class="rel">Combined with</span>
-              Statins
-            </a>
+            <a class="conn-pill" href="il-6.html" title="EPA competes with arachidonic acid (AA, n-6) for COX-1/2 and 5-LOX enzymes. Substitution of AA with EPA in the substrate pool shifts prostaglandin synthesis from PGE₂ (pro-inflammatory, high potency) to PGE₃ (weak potency), and from LTB₄ to LTB₅ (100× less potent chemotaxis). The resulting reduction in inflammatory signalling lowers IL-6, IL-1β, and TNF-α production in macrophages and endothelial cells. EPA/DHA also generate specialised pro-resolving mediators (SPMs: resolvins, protectins, maresins) that actively resolve inflammation."><span class="rel">modulates</span>Il 6</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="High-dose icosapentaenoic acid (EPA; Vascepa 4 g/day) in the REDUCE-IT trial reduced major adverse cardiovascular events (MACE) by 25% and cardiovascular death by 20% over 4.9 years in hypertriglyceridaemic patients on statins. Beyond triglyceride reduction, proposed mechanisms include membrane stabilisation, anti-atherosclerotic plaque effects, anti-arrhythmic properties, and endothelial function improvement. Standard-dose fish oil (1 g/day) does not produce equivalent cardiovascular event reduction."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="heart.html" title="Omega-3 FAs reduce triglycerides 30–50% at pharmacological doses (≥2 g EPA+DHA/day), decrease platelet aggregation (reduced TXA₂ synthesis), lower resting heart rate, improve heart rate variability, reduce cardiac hypertrophy, improve diastolic function in epidemiological and RCT data. At 4 g/day, EPA reduces atrial fibrillation burden and reduces sudden cardiac death risk in post-MI patients. DHA but not EPA increases LDL-C at high doses — clinically relevant distinction when selecting pure EPA vs. combined EPA/DHA preparations."><span class="rel">treats</span>Heart</a>
+            <a class="conn-pill" href="macrophage.html" title="EPA/DHA shifts macrophage eicosanoids from LTB₄/PGE₂ to weaker LTB₅/PGE₃; EPA/DHA-derived SPMs (resolvins, protectins, maresins) promote efferocytosis and resolve inflammation; GPR120-β-arrestin signaling reduces M1 polarization and suppresses IL-1β/TNF-α production."><span class="rel">modulates</span>Macrophage</a>
+            <a class="conn-pill" href="nf-kb.html" title="EPA/DHA suppress NF-κB activation via GPR120 → β-arrestin-2-mediated TAB1 sequestration; membrane EPA/DHA disrupts TLR4 lipid raft clustering; PPARα activation competes with NF-κB for CBP/p300 coactivators; net effect: reduced transcription of IL-6, IL-1β, TNF-α, COX-2."><span class="rel">inhibits</span>Nf Kb</a>
+            <a class="conn-pill" href="kidney.html" title="Omega-3s slow IgA nephropathy at 3.6-4 g/day; EPA/DHA reduce renal lipid accumulation and TGF-β fibrosis in diabetic nephropathy; anti-proteinuric via reduced VEGF and mesangial proliferation; renal SPM production promotes glomerular inflammation resolution."><span class="rel">treats</span>Kidney</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Bhatt DL, Steg PG, Miller M, et al. Cardiovascular Risk Reduction with Icosapentaenoic Acid for Hypertriglyceridemia (REDUCE-IT). <em>N Engl J Med.</em> 2019;380(1):11-22. <a href="https://doi.org/10.1056/NEJMoa1812792">doi:10.1056/NEJMoa1812792</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/30415628/">PubMed 30415628</a></li>
-            <li>Calder PC. Omega-3 fatty acids and inflammatory processes: from molecules to man. <em>Biochem Soc Trans.</em> 2017;45(5):1105-15. <a href="https://doi.org/10.1042/BST20160474">doi:10.1042/BST20160474</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/28900017/">PubMed 28900017</a></li>
-            <li>Mozaffarian D, Wu JH. Omega-3 fatty acids and cardiovascular disease: effects on risk factors, molecular pathways, and clinical events. <em>J Am Coll Cardiol.</em> 2011;58(20):2047-67. <a href="https://doi.org/10.1016/j.jacc.2011.06.063">doi:10.1016/j.jacc.2011.06.063</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/22051327/">PubMed 22051327</a></li>
-            <li>Nicholls SJ, Lincoff AM, Garcia M, et al. Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events (STRENGTH). <em>JAMA.</em> 2020;324(22):2268-2280. <a href="https://doi.org/10.1001/jama.2020.22258">doi:10.1001/jama.2020.22258</a></li>
-            <li>GISSI-HF Investigators. Effect of n-3 polyunsaturated fatty acids in patients with chronic heart failure (GISSI-HF). <em>Lancet.</em> 2008;372(9645):1223-30. <a href="https://doi.org/10.1016/S0140-6736(08)61239-8">doi:10.1016/S0140-6736(08)61239-8</a></li>
-            <li>Manson JE, Cook NR, Lee IM, et al. Marine n-3 fatty acids and prevention of cardiovascular disease and cancer (VITAL). <em>N Engl J Med.</em> 2019;380(1):23-32. <a href="https://doi.org/10.1056/NEJMoa1811403">doi:10.1056/NEJMoa1811403</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa1812792" target="_blank" rel="noopener noreferrer">Bhatt DL, Steg PG, Miller M, et al. Cardiovascular Risk Reduction with Icosapentaenoic Acid for Hypertriglyceridemia (REDUCE-IT). N Engl J Med. 2019;380(1):11-22.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30415628/" target="_blank" rel="noopener noreferrer">PubMed 30415628</a></li>
+            <li><a href="https://doi.org/10.1042/BST20160474" target="_blank" rel="noopener noreferrer">Calder PC. Omega-3 fatty acids and inflammatory processes: from molecules to man. Biochem Soc Trans. 2017;45(5):1105-15.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/28900017/" target="_blank" rel="noopener noreferrer">PubMed 28900017</a></li>
+            <li><a href="https://doi.org/10.1016/j.jacc.2011.06.063" target="_blank" rel="noopener noreferrer">Mozaffarian D, Wu JH. Omega-3 fatty acids and cardiovascular disease: effects on risk factors, molecular pathways, and clinical events. J Am Coll Cardiol. 2011;58(20):2047-67.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22051327/" target="_blank" rel="noopener noreferrer">PubMed 22051327</a></li>
           </ul>
         </div>
 
@@ -387,21 +185,17 @@ COX-1/2 → PGE₂, PGI₂, TXA₂ (potent)       COX-1/2 → PGE₃, PGI₃, TX
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="medicine.html">Medicine Atlas</a>
-      <a href="pathogens.html">Pathogen Atlas</a>
-      <a href="cardiovascular-system.html">Cardiovascular System</a>
-      <a href="statins.html">Statins</a>
-      <a href="curcumin.html">Curcumin</a>
-      <a href="quercetin.html">Quercetin</a>
-      <a href="resveratrol.html">Resveratrol</a>
-      <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

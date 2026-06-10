@@ -48,6 +48,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: damaged-by
     note: "COVID-19 causes collapsing glomerulopathy in APOL1 high-risk individuals, with direct podocyte injury and rapid podocyte loss leading to nephrotic-range proteinuria."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Podocyte injury triggers complement activation; FSGS, minimal change disease, and membranous nephropathy are immune-mediated podocyte disorders; podocytes express C3b receptor and MHC-I; complement MAC drives podocyte apoptosis and foot process effacement leading to proteinuria."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: damaged-by
+    note: "HIVAN (HIV-associated nephropathy) causes collapsing glomerulopathy via direct podocyte infection; HIV Nef disrupts nephrin trafficking and induces podocyte proliferation; APOL1 G1/G2 risk variants amplify HIVAN severity; mechanism parallels COVID-19 collapsing glomerulopathy."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: damaged-by
+    note: "TGF-β1 drives diabetic nephropathy podocyte injury: Smad3-mediated suppression of nephrin expression → slit diaphragm disruption → foot process effacement; TGF-β promotes podocyte epithelial-to-mesenchymal transition → detachment → proteinuria and progressive glomerulosclerosis."
 taxonomy:
   cell_ontology: "CL:0000653"
   lineage: "intermediate mesoderm — metanephric mesenchyme — renal vesicle — S-shaped body"
@@ -158,9 +167,15 @@ Because podocytes cannot replicate, lost podocytes leave the glomerulus unprotec
 - **Part of:** [Kidney](../../06-organ/kidney/README.md) — the organ housing all nephrons.
 - **Damaged by:** SARS-CoV-2 — COVID-19 collapsing glomerulopathy, particularly in individuals with APOL1 risk variants (G1/G2), with direct viral infection and cytokine-mediated podocyte injury.
 - **Related medicine:** ACE inhibitors (reduce intraglomerular Ang II, protecting podocytes from TRPC6 activation); steroids (stabilize synaptopodin via calcineurin inhibition — mechanism of glucocorticoid therapy in minimal change disease).
+- `connects-to` → **[Immune System](../../07-system/immune-system/README.md)** — Podocyte injury triggers complement activation; FSGS, minimal change disease, and membranous nephropathy are immune-mediated podocyte disorders; complement MAC drives podocyte apoptosis and foot process effacement; podocytes express MHC-I and complement receptors.
+- `damaged-by` → **[HIV-1](../../../../02-pathogen/01-viruses/hiv-1/README.md)** — HIVAN causes collapsing glomerulopathy via direct podocyte infection; HIV Nef disrupts nephrin trafficking and induces aberrant podocyte proliferation; APOL1 G1/G2 risk variants amplify HIVAN severity; mechanism parallels COVID-19 collapsing glomerulopathy.
+- `damaged-by` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β1 drives diabetic nephropathy podocyte injury: Smad3-mediated nephrin suppression → slit diaphragm disruption → foot process effacement; TGF-β promotes podocyte EMT → detachment → proteinuria and progressive glomerulosclerosis.
 
 [^quaggin-kreidberg-2008]: Quaggin SE, Kreidberg JA. Development of the renal glomerulus: good neighbors and good fences. *Development.* 2008;135(4):609-20. [doi:10.1242/dev.001081](https://doi.org/10.1242/dev.001081) · [PubMed 18223199](https://pubmed.ncbi.nlm.nih.gov/18223199/)
 [^tryggvason-2006-nephrin]: Tryggvason K, Patrakka J, Wartiovaara J. Hereditary proteinuria syndromes and mechanisms of proteinuria. *N Engl J Med.* 2006;354(13):1387-401. [doi:10.1056/NEJMra052131](https://doi.org/10.1056/NEJMra052131) · [PubMed 16571882](https://pubmed.ncbi.nlm.nih.gov/16571882/)
 [^kriz-lemley-2015]: Kriz W, Lemley KV. A potential role for mechanical forces in the detachment of podocytes and the progression of CKD. *J Am Soc Nephrol.* 2015;26(2):258-69. [doi:10.1681/ASN.2014030278](https://doi.org/10.1681/ASN.2014030278) · [PubMed 25060056](https://pubmed.ncbi.nlm.nih.gov/25060056/)
 [^reiser-mundel-2010]: Reiser J, Mundel P. Dual effects of cyclosporine A on glomerular podocytes. *J Am Soc Nephrol.* 2004;15(10):2682-8. [doi:10.1097/01.ASN.0000139904.00623.E4](https://doi.org/10.1097/01.ASN.0000139904.00623.E4) · [PubMed 15466274](https://pubmed.ncbi.nlm.nih.gov/15466274/)
 [^hall-guyton-14]: Hall JE. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. Ch. 26-27.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

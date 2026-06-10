@@ -40,6 +40,15 @@ cross_links:
     relation: treats
     evidence: mozaffarian-2011-omega3-cvd
     note: "Omega-3 FAs reduce triglycerides 30–50% at pharmacological doses (≥2 g EPA+DHA/day), decrease platelet aggregation (reduced TXA₂ synthesis), lower resting heart rate, improve heart rate variability, reduce cardiac hypertrophy, improve diastolic function in epidemiological and RCT data. At 4 g/day, EPA reduces atrial fibrillation burden and reduces sudden cardiac death risk in post-MI patients. DHA but not EPA increases LDL-C at high doses — clinically relevant distinction when selecting pure EPA vs. combined EPA/DHA preparations."
+  - target: 01-human/04-cellular/macrophage
+    relation: modulates
+    note: "EPA/DHA shifts macrophage eicosanoids from LTB₄/PGE₂ to weaker LTB₅/PGE₃; EPA/DHA-derived SPMs (resolvins, protectins, maresins) promote efferocytosis and resolve inflammation; GPR120-β-arrestin signaling reduces M1 polarization and suppresses IL-1β/TNF-α production."
+  - target: 01-human/03-molecular/nf-kb
+    relation: inhibits
+    note: "EPA/DHA suppress NF-κB activation via GPR120 → β-arrestin-2-mediated TAB1 sequestration; membrane EPA/DHA disrupts TLR4 lipid raft clustering; PPARα activation competes with NF-κB for CBP/p300 coactivators; net effect: reduced transcription of IL-6, IL-1β, TNF-α, COX-2."
+  - target: 01-human/06-organ/kidney
+    relation: treats
+    note: "Omega-3s slow IgA nephropathy at 3.6-4 g/day; EPA/DHA reduce renal lipid accumulation and TGF-β fibrosis in diabetic nephropathy; anti-proteinuric via reduced VEGF and mesangial proliferation; renal SPM production promotes glomerular inflammation resolution."
 ---
 
 # Omega-3 Fatty Acids
@@ -183,7 +192,13 @@ ASCEND (2018), VITAL (2019) — large RCTs in primary prevention populations usi
 - **Modulates** → [Cardiovascular System](../../../../../01-human/07-system/cardiovascular-system/README.md): REDUCE-IT established that icosapentaenoic acid 4 g/day reduces MACE by 25% and cardiovascular death by 20% in high-risk, statin-treated, hypertriglyceridaemic patients. Mechanisms include triglyceride reduction, reduced platelet aggregation, anti-arrhythmic membrane effects, plaque stabilisation via reduced oxidative stress, and improved endothelial nitric oxide synthesis. Standard-dose fish oil (1 g/day) does not replicate these benefits in primary prevention populations.
 
 - **Treats** → [Heart](../../../../../01-human/06-organ/heart/README.md): At pharmacological doses, omega-3 FAs reduce cardiac triglyceride content, improve cardiomyocyte membrane fluidity (DHA), reduce arrhythmia susceptibility through sodium channel modulation (EPA), reduce resting heart rate and improve heart rate variability, and decrease cardiac hypertrophy in animal models. GISSI-HF demonstrated a 9% relative risk reduction in all-cause mortality with 1 g/day omega-3 in systolic heart failure, though the signal is smaller than in REDUCE-IT.
+- `modulates` → **[Macrophage](../../../../../01-human/04-cellular/macrophage/README.md)** — EPA/DHA shifts macrophage eicosanoids from LTB₄/PGE₂ to weaker LTB₅/PGE₃; EPA/DHA-derived SPMs (resolvins, protectins, maresins) promote macrophage efferocytosis and inflammation resolution; GPR120-β-arrestin signaling reduces M1 polarization and suppresses IL-1β/TNF-α.
+- `inhibits` → **[NF-κB](../../../../../01-human/03-molecular/nf-kb/README.md)** — EPA/DHA suppress NF-κB activation via GPR120 → β-arrestin-2-mediated TAB1 sequestration; membrane EPA/DHA disrupts TLR4 lipid raft clustering; PPARα activation competes with NF-κB for CBP/p300 coactivators → reduced IL-6, IL-1β, TNF-α, COX-2 transcription.
+- `treats` → **[Kidney](../../../../../01-human/06-organ/kidney/README.md)** — Omega-3s slow IgA nephropathy at 3.6-4 g/day; EPA/DHA reduce renal lipid accumulation and TGF-β fibrosis in diabetic nephropathy; anti-proteinuric via reduced VEGF and mesangial proliferation; renal SPM production promotes glomerular inflammation resolution.
 
 [^bhatt-2019-reduce-it]: Bhatt DL et al. N Engl J Med. 2019;380(1):11-22. doi:10.1056/NEJMoa1812792
 [^calder-2017-omega3-inflammation]: Calder PC. Biochem Soc Trans. 2017;45(5):1105-15. doi:10.1042/BST20160474
 [^mozaffarian-2011-omega3-cvd]: Mozaffarian D, Wu JH. J Am Coll Cardiol. 2011;58(20):2047-67. doi:10.1016/j.jacc.2011.06.063
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
