@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Hyperuricemia promotes CKD progression via interstitial uric acid crystal deposition, renal vasoconstriction, and NLRP3-driven tubular inflammation; XOR inhibitors (allopurinol, febuxostat) modestly slow eGFR decline in hyperuricemic CKD patients in some clinical trials."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "XOR-derived superoxide reacts with NO → peroxynitrite → NO quenching; also oxidizes BH4 → eNOS uncoupling → further NO reduction; XOR-NO axis links hyperuricemia to endothelial dysfunction and hypertension beyond direct MSU crystal effects."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "MSU crystals → NLRP3 → IL-1β → acute gout flare mediator; IL-1β drives neutrophil influx, synovial inflammation, and pain; canakinumab (anti-IL-1β) and anakinra (IL-1Ra) are FDA-approved/used for refractory acute gout and gout flare prophylaxis."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Urate activates RAAS → renin → angiotensin II → aldosterone → hypertension; aldosterone also promotes urate reabsorption via organic anion transporters; XOR inhibition reduces urate → attenuates aldosterone-driven hypertension in hyperuricemic patients."
 sources:
   - id: dalbeth-2016-gout-review
     type: peer-reviewed
@@ -117,13 +126,17 @@ Adenosine/AMP → (adenosine deaminase) → Inosine → Hypoxanthine → (XOR) �
 
 ## Connections
 
-Xanthine oxidase converts xanthine → uric acid; serum urate >6.8 mg/dL exceeds solubility threshold → MSU crystal nucleation in joints and soft tissue → phagocytosis by neutrophils and macrophages → NLRP3 activation → acute gouty flare; allopurinol/febuxostat target XOR.
+- `connects-to` → **[Gout](../../07-system/gout/README.md)** — Xanthine oxidase converts xanthine → uric acid; serum urate >6.8 mg/dL → MSU crystal nucleation in joints → NLRP3 activation → acute gouty flare; allopurinol (oxypurinol Mo-cofactor inhibitor) and febuxostat (non-purine selective inhibitor) target XOR.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — MSU crystals → NLRP3 via lysosomal rupture → cathepsin B → caspase-1 → IL-1β → acute gout; colchicine blunts crystal processing; IL-1β inhibitors (canakinumab) abort acute gout flares.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — XOR-derived superoxide and H₂O₂ oxidize BH4 → eNOS uncoupling → reduced NO → endothelial dysfunction and hypertension; hyperuricemia is an independent CVD risk factor; allopurinol reduces MACE in some observational studies.
+- `connects-to` → **[CKD](../../07-system/ckd/README.md)** — Hyperuricemia promotes CKD via interstitial uric acid crystal deposition, renal vasoconstriction, and NLRP3-driven tubular inflammation; XOR inhibitors modestly slow eGFR decline in hyperuricemic CKD patients.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — XOR-derived superoxide reacts with NO → peroxynitrite → NO quenching; also oxidizes BH4 → eNOS uncoupling → further NO reduction; XOR-NO axis links hyperuricemia to endothelial dysfunction and hypertension beyond direct MSU crystal effects.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — MSU crystals → NLRP3 → IL-1β → acute gout flare mediator; IL-1β drives neutrophil influx, synovial inflammation, and pain; canakinumab (anti-IL-1β) and anakinra (IL-1Ra) are FDA-approved/used for refractory acute gout and gout flare prophylaxis.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Urate activates RAAS → renin → angiotensin II → aldosterone → hypertension; aldosterone also promotes urate reabsorption via organic anion transporters; XOR inhibition reduces urate → attenuates aldosterone-driven hypertension in hyperuricemic patients.
 
-MSU crystals activate NLRP3 inflammasome in macrophages via lysosomal rupture → cathepsin B → IL-1β → acute gouty inflammation; colchicine inhibits microtubule-dependent crystal processing → blunts NLRP3 activation; IL-1β inhibitors (canakinumab) abort acute gout flares.
+---
 
-XOR-derived superoxide and H2O2 oxidize BH4 → eNOS uncoupling → reduced NO → endothelial dysfunction and hypertension; hyperuricemia is associated with increased cardiovascular risk; allopurinol reduces MACE in some observational studies.
-
-Hyperuricemia promotes CKD progression via interstitial uric acid crystal deposition, renal vasoconstriction, and NLRP3-driven tubular inflammation; XOR inhibitors (allopurinol, febuxostat) modestly slow eGFR decline in hyperuricemic CKD patients in some clinical trials.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^dalbeth-2016-gout-review]: Dalbeth N, Merriman TR, Stamp LK. Gout. *Lancet.* 2016;388(10055):2039-2052. [doi:10.1016/S0140-6736(16)00346-9](https://doi.org/10.1016/S0140-6736(16)00346-9) · [PubMed 27112094](https://pubmed.ncbi.nlm.nih.gov/27112094/)
 [^white-2018-cares-febuxostat]: White WB, Saag KG, Becker MA, et al. Cardiovascular safety of febuxostat or allopurinol in patients with gout. *N Engl J Med.* 2018;378(13):1200-1210. [doi:10.1056/NEJMoa1710895](https://doi.org/10.1056/NEJMoa1710895) · [PubMed 29527974](https://pubmed.ncbi.nlm.nih.gov/29527974/)

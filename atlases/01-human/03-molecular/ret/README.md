@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "RET kinase activates STAT3 directly and via JAK2 → BCL-XL, MYC, and cyclin D1 → survival and proliferation in MTC; STAT3 phosphorylation is a pharmacodynamic marker of RET inhibition; STAT3 pathway activation is a resistance mechanism to selpercatinib in RET-mutant tumors."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "RET defines thyroid cancer: germline mutations cause MEN2A/MEN2B MTC; somatic RET/PTC1/PTC3 fusions in ~20% PTC; selpercatinib/pralsetinib FDA-approved for RET-mutant MTC and RET fusion-positive thyroid cancer; RET/PTC PTC has favorable prognosis vs BRAF V600E."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "RET-mutant C-cell proliferation → MTC → calcitonin overproduction; calcitonin is the primary diagnostic and monitoring biomarker for MTC; calcitonin doubling time <6 months predicts aggressive disease; serial calcitonin guides prophylactic thyroidectomy timing in MEN2 carriers."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "BRAF V600E and RET/PTC fusions are mutually exclusive PTC drivers; RET/PTC activates BRAF-MEK-ERK via RAS; BRAF inhibitors (dabrafenib+trametinib) approved for BRAF-mutant thyroid cancer; selpercatinib targets RET-fusion/mutant thyroid cancer — complementary targeted strategies."
 ---
 
 # RET
@@ -145,6 +154,13 @@ V804M/L → steric clash with vandetanib/cabozantinib hinge-binding region → r
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — RET → PI3K-AKT → mTOR → survival; mTOR pathway activated downstream of RET in medullary thyroid carcinoma; everolimus studied in combination with TKIs (cabozantinib, vandetanib) in RET-mutant MTC; PI3K-AKT-mTOR also mediates TKI resistance in RET-driven cancers.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Multi-kinase inhibitors that include RET inhibition also target VEGFR1-3 (lenvatinib, vandetanib, cabozantinib) → anti-angiogenic + anti-tumor effects; lenvatinib + pembrolizumab under study; thyroid cancer is highly vascular → VEGF axis is a co-driver of tumor progression.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — RET kinase activates STAT3 directly and via JAK2 → BCL-XL, MYC, and cyclin D1 → survival and proliferation in MTC; STAT3 phosphorylation is a pharmacodynamic marker of RET inhibition; STAT3 pathway activation is a resistance mechanism to selpercatinib in RET-mutant tumors.
+- `connects-to` → **[Thyroid Cancer](../../07-system/thyroid-cancer/README.md)** — RET defines thyroid cancer: germline mutations cause MEN2A/MEN2B MTC; somatic RET/PTC1/PTC3 fusions in ~20% PTC; selpercatinib/pralsetinib FDA-approved for RET-mutant MTC and RET fusion-positive thyroid cancer; RET/PTC PTC has favorable prognosis vs BRAF V600E.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RET-mutant C-cell proliferation → MTC → calcitonin overproduction; calcitonin is the primary diagnostic and monitoring biomarker for MTC; calcitonin doubling time <6 months predicts aggressive disease; serial calcitonin guides prophylactic thyroidectomy timing in MEN2 carriers.
+- `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E and RET/PTC fusions are mutually exclusive PTC drivers; RET/PTC activates BRAF-MEK-ERK via RAS; BRAF inhibitors (dabrafenib+trametinib) approved for BRAF-mutant thyroid cancer; selpercatinib targets RET-fusion/mutant thyroid cancer — complementary targeted strategies.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^wirth-2020-selpercatinib]: Wirth LJ, Sherman E, Robinson B, et al. Efficacy of selpercatinib in RET-altered thyroid cancers. *N Engl J Med.* 2020;383(9):825-835. [doi:10.1056/NEJMoa2018485](https://doi.org/10.1056/NEJMoa2018485) · [PubMed 32846061](https://pubmed.ncbi.nlm.nih.gov/32846061/)
 [^wells-2012-vandetanib]: Wells SA Jr, Robinson BG, Gagel RF, et al. Vandetanib in patients with locally advanced or metastatic medullary thyroid cancer: a randomized, double-blind phase III trial. *J Clin Oncol.* 2012;30(2):134-141. [doi:10.1200/JCO.2011.35.5040](https://doi.org/10.1200/JCO.2011.35.5040) · [PubMed 22025146](https://pubmed.ncbi.nlm.nih.gov/22025146/)
